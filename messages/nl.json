@@ -1,206 +1,206 @@
 {
   "catalogx": {
-    "eyebrow": "Vollständiger Produktkatalog",
-    "faqTitle": "Häufig gestellte Fragen",
-    "title": "Alle 79 Artikelfamilien: mit echten Artikelnummern.",
-    "lead": "Rohre, Formteile, Übergangsfittings, Armaturen, Einschweißsattel, Zubehör und Werkzeuge: jede Zeile stammt aus dem verbindlichen K Aqua Katalog. Kategorie wählen, Artikel aufklappen, Artikelnummer prüfen.",
-    "searchPlaceholder": "Artikelnummer oder Produktname suchen: z. B. „AQ200P20\" oder „Elbow\"",
-    "noResults": "Keine Treffer: Suche anpassen oder andere Kategorie wählen.",
-    "codesLabel": "Artikelnummern",
-    "sizesLabel": "Größen",
-    "materialLabel": "Material",
+    "eyebrow": "Volledige productcatalogus",
+    "faqTitle": "Veelgestelde vragen",
+    "title": "Alle 79 artikelfamilies: met echte artikelnummers.",
+    "lead": "Buizen, fittingen, overgangsfittingen, afsluiters, inlaszadels, accessoires en gereedschappen: elke regel is afkomstig uit de bindende K Aqua catalogus. Kies categorie, vouw artikel open, controleer artikelnummer.",
+    "searchPlaceholder": "Zoek artikelnummer of productnaam: bijv. „AQ200P20\" of „Elbow\"",
+    "noResults": "Geen resultaten: pas zoekopdracht aan of kies een andere categorie.",
+    "codesLabel": "Artikelnummers",
+    "sizesLabel": "Maten",
+    "materialLabel": "Materiaal",
     "sdrLabel": "SDR",
-    "seriesLabel": "Baureihe",
-    "pressureLabel": "Betriebsdruck",
-    "lenLabel": "Stablänge",
+    "seriesLabel": "Serie",
+    "pressureLabel": "Werkdruk",
+    "lenLabel": "Buislengte",
     "cats": {
       "pipes": {
-        "label": "Rohre",
-        "desc": "PPR und PPRCT Rohre: Standard, faserverstärkt und UV-stabilisiert, 12 Baureihen."
+        "label": "Buizen",
+        "desc": "PPR en PPRCT buizen: standaard, glasvezelversterkt en UV-gestabiliseerd, 12 series."
       },
       "fittings": {
-        "label": "Formteile",
-        "desc": "Muffenschweiß und Elektroschweißformteile, d20–d125, 13 Artikelfamilien."
+        "label": "Fittingen",
+        "desc": "Moflas- en elektrolasfittingen, d20–d125, 13 artikelfamilies."
       },
       "transitionFittings": {
-        "label": "Übergangsfittings",
-        "desc": "Übergänge auf Gewinde und Messing: für Bestandsanschlüsse und Armaturen, 13 Familien."
+        "label": "Overgangsfittingen",
+        "desc": "Overgangen op draad en messing: voor bestaande aansluitingen en afsluiters, 13 families."
       },
       "valves": {
-        "label": "Armaturen",
-        "desc": "Kugelhähne, Unterputzventile, Verteilerbatterien: 9 Artikelfamilien."
+        "label": "Afsluiters",
+        "desc": "Kogelkranen, inbouwventielen, verdelerblokken: 9 artikelfamilies."
       },
       "weldInSaddles": {
-        "label": "Einschweißsattel",
-        "desc": "Abzweige ohne Rohrtrennung: mit und ohne Gewinde, 3 Familien."
+        "label": "Inlaszadels",
+        "desc": "Aftakkingen zonder de buis door te snijden: met en zonder draad, 3 families."
       },
       "accessories": {
-        "label": "Zubehör",
-        "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen: 5 Artikelfamilien."
+        "label": "Accessoires",
+        "desc": "Buisbeugels, tegenflenzen, dichtingen, stoppen: 5 artikelfamilies."
       },
       "tools": {
-        "label": "Werkzeuge",
-        "desc": "Rohrschneider, Schweißgeräte und -werkzeuge für alle vier Fügeverfahren, 14 Familien."
+        "label": "Gereedschappen",
+        "desc": "Buissnijders, lasapparaten en -gereedschappen voor alle vier de verbindingsmethoden, 14 families."
       }
     },
     "rfq": {
-      "title": "Projektanfrage",
-      "desc": "Fordern Sie direkt ein Angebot für <strong>{title}</strong> an.",
-      "button": "Zur Anfrage"
+      "title": "Projectaanvraag",
+      "desc": "Vraag direct een offerte aan voor <strong>{title}</strong>.",
+      "button": "Naar aanvraag"
     },
     "similar": {
-      "title": "Weitere aus {category}"
+      "title": "Meer uit {category}"
     },
     "items": {
       "k-pipe-pp-r-sdr-6": {
-        "seo_p1": "Das K Pipe PPR SDR 6 ist ein hochleistungsfähiges Rohr aus unserer umfassenden Rohrsystemkategorie. Es wurde entwickelt, um anspruchsvolle Flüssigkeitstransporte sicher und effizient zu bewältigen.",
-        "seo_p2": "Dieses Rohr besteht aus langlebigem PPR Material und ist mit der Einstufung SDR 6 (Baureihe S 2.5) für einen hohen Betriebsdruck von bis zu 2.0 MPa bei 20°C ausgelegt. Die Standardlänge von 4 Metern ermöglicht eine schnelle Installation.",
-        "seo_p3": "Dank der hervorragenden chemischen und thermischen Beständigkeit eignet sich das SDR 6 Rohr ideal für industrielle Anwendungen und die Trinkwasserversorgung. Die glatte Innenfläche minimiert Druckverluste und verhindert Ablagerungen.",
+        "seo_p1": "De K Pipe PPR SDR 6 is een hoogwaardige buis uit onze uitgebreide categorie buissystemen. Hij is ontwikkeld om veeleisende vloeistoftransporten veilig en efficiënt te verwerken.",
+        "seo_p2": "Deze buis is gemaakt van duurzaam PPR materiaal en is met de classificatie SDR 6 (serie S 2.5) ontworpen voor een hoge werkdruk tot 2.0 MPa bij 20°C. De standaardlengte van 4 meter maakt een snelle installatie mogelijk.",
+        "seo_p3": "Dankzij de uitstekende chemische en thermische weerstand is de SDR 6 buis ideaal voor industriële toepassingen en drinkwatervoorziening. Het gladde binnenoppervlak minimaliseert drukverliezen en voorkomt afzettingen.",
         "faq": [
           {
-            "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
-            "a": "Es ist für Dauerbetriebstemperaturen bis zu 70°C ausgelegt und bietet bei 20°C eine Druckfestigkeit von 20 Bar."
+            "q": "Voor welke bedrijfstemperaturen is SDR 6 geschikt?",
+            "a": "Het is ontworpen voor continue bedrijfstemperaturen tot 70°C en biedt bij 20°C een drukweerstand van 20 bar."
           },
           {
-            "q": "Welche Vorteile bietet die hohe Wandstärke?",
-            "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilität bei stark beanspruchten Anlagen."
+            "q": "Welke voordelen biedt de grote wanddikte?",
+            "a": "De serie SDR 6 (S 2.5) biedt maximale drukweerstand en mechanische stabiliteit bij zwaar belaste systemen."
           },
           {
-            "q": "Kann ich dieses Rohr für Kaltwasser nutzen?",
-            "a": "Ja, es eignet sich exzellent für Kaltwassersysteme, da die glatte Oberfläche Inkrustationen und Bakterienwachstum effektiv verhindert."
+            "q": "Kan ik deze buis voor koud water gebruiken?",
+            "a": "Ja, het is uitstekend geschikt voor koudwatersystemen, omdat het gladde oppervlak kalkaanslag en bacteriegroei effectief voorkomt."
           }
         ]
       },
       "k-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das K Pipe PPRCT SDR 7.4 repräsentiert die nächste Generation der Kunststoffrohrsysteme. Es vereint verbesserte Materialeigenschaften mit einer optimierten Wandstärke für maximale Durchflussmengen.",
-        "seo_p2": "Gefertigt aus hochkristallinem PPRCT, bietet dieses Rohr bei SDR 7.4 (S 3.2) einen beeindruckenden Nenndruck von 2.0 MPa bei 20°C. Die reduzierte Wandstärke spart Gewicht, ohne Kompromisse bei der Stabilität einzugehen.",
-        "seo_p3": "Typische Einsatzgebiete umfassen komplexe Heizungs-, Klima- und Sanitäranlagen. Durch das PPRCT Material profitieren Installateure von einer höheren Langzeitfestigkeit auch bei höheren Temperaturen.",
+        "seo_p1": "De K Pipe PPRCT SDR 7.4 vertegenwoordigt de volgende generatie kunststof leidingsystemen. Hij combineert verbeterde materiaaleigenschappen met een geoptimaliseerde wanddikte voor maximale doorstroom.",
+        "seo_p2": "Gemaakt van sterk kristallijn PPRCT, biedt deze buis bij SDR 7.4 (S 3.2) een indrukwekkende nominale druk van 2.0 MPa bij 20°C. De gereduceerde wanddikte bespaart gewicht zonder concessies te doen aan stabiliteit.",
+        "seo_p3": "Typische toepassingsgebieden omvatten complexe verwarmings-, klimaat- en sanitaire systemen. Door het PPRCT-materiaal profiteren installateurs van een hogere langetermijnsterkte, zelfs bij hogere temperaturen.",
         "faq": [
           {
-            "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
-            "a": "PPRCT steht für eine verbesserte kristalline Struktur, die höhere Drücke bei höheren Temperaturen erlaubt, sodass dünnere Wandstärken möglich sind."
+            "q": "Wat betekent PPRCT in vergelijking met PPR?",
+            "a": "PPRCT staat voor een verbeterde kristallijne structuur die hogere drukken bij hogere temperaturen mogelijk maakt, zodat dunnere wanddiktes mogelijk zijn."
           },
           {
-            "q": "Ist die Durchflussmenge bei SDR 7.4 höher?",
-            "a": "Ja, durch die reduzierten Wandstärken des PPRCT wird bei gleichem Außendurchmesser eine bis zu 17 % höhere Durchflusskapazität erreicht."
+            "q": "Is de doorstroom bij SDR 7.4 hoger?",
+            "a": "Ja, door de gereduceerde wanddiktes van het PPRCT wordt bij dezelfde buitendiameter een tot 17 % hogere doorstroomcapaciteit bereikt."
           },
           {
-            "q": "Eignet sich SDR 7.4 für Heizsysteme?",
-            "a": "Absolut, das Material ist thermisch extrem widerstandsfähig und daher ideal für Vorlaufleitungen in modernen Heizanlagen."
+            "q": "Is SDR 7.4 geschikt voor verwarmingssystemen?",
+            "a": "Absoluut, het materiaal is thermisch extreem bestendig en daarom ideaal voor aanvoerleidingen in moderne verwarmingssystemen."
           }
         ]
       },
       "k-pipe-pp-r-sdr-11": {
-        "seo_p1": "Das K-Pipe PP-R SDR 11 ist die Standardlösung für eine Vielzahl von Sanitär- und Heizungsanwendungen. Es zeichnet sich durch seine Zuverlässigkeit und einfache Handhabung aus.",
-        "seo_p2": "Mit einer SDR 11 Klassifizierung (Baureihe S 5) ist dieses PP-R Rohr für einen Betriebsdruck von 1.2 MPa bei 20°C zertifiziert. Die 4-Meter-Stangen lassen sich flexibel und passgenau verschweißen.",
-        "seo_p3": "Es wird häufig in Kaltwasserverteilungen und als vielseitige Leitung in der Haustechnik eingesetzt. Die homogene Schweißverbindung garantiert eine lebenslange Dichtigkeit ohne mechanische Schwachstellen.",
+        "seo_p1": "De K-Pipe PP-R SDR 11 is de standaardoplossing voor een verscheidenheid aan sanitaire en verwarmingstoepassingen. Het onderscheidt zich door betrouwbaarheid en eenvoudig gebruik.",
+        "seo_p2": "Met een SDR 11 classificatie (serie S 5) is deze PP-R buis gecertificeerd voor een werkdruk van 1.2 MPa bij 20°C. De 4-meter lengtes kunnen flexibel en precies gelast worden.",
+        "seo_p3": "Het wordt vaak gebruikt in koudwaterdistributies en als veelzijdige leiding in gebouwtechniek. De homogene lasverbinding garandeert een levenslange dichtheid zonder mechanische zwakke punten.",
         "faq": [
           {
-            "q": "Ist das Rohr für Kalt- und Warmwasser geeignet?",
-            "a": "Das SDR 11 Rohr ist hauptsächlich für Kaltwasser (20°C bei 12 Bar) und den Niederdruck-Warmwasserbereich (60°C bei 6 Bar) konzipiert."
+            "q": "Is de buis geschikt voor koud en warm water?",
+            "a": "De SDR 11 buis is voornamelijk ontworpen voor koud water (20°C bij 12 bar) en lagedruk warm water (60°C bij 6 bar)."
           },
           {
-            "q": "Wie wird das PP-R SDR 11 Rohr verlegt?",
-            "a": "Die Verlegung erfolgt über das Heizelement-Muffenschweißverfahren, wodurch absolut homogene, leckagefreie Verbindungen entstehen."
+            "q": "Hoe wordt de PP-R SDR 11 buis geïnstalleerd?",
+            "a": "De installatie gebeurt via moflassen met een verwarmingselement, wat resulteert in absoluut homogene, lekvrije verbindingen."
           },
           {
-            "q": "Gibt es Gewichtsabweichungen gegenüber anderen SDR-Klassen?",
-            "a": "Ja, durch die geringere Wanddicke ist das Rohr deutlich leichter und flexibler in der Handhabung auf der Baustelle."
+            "q": "Zijn er gewichtsverschillen ten opzichte van andere SDR-klassen?",
+            "a": "Ja, door de dunnere wand is de buis aanzienlijk lichter en flexibeler in gebruik op de bouwplaats."
           }
         ]
       },
       "k-pipe-purple-pp-r-sdr-11": {
-        "seo_p1": "Das violett eingefärbte K-Pipe Purple PP-R SDR 11 dient der eindeutigen Kennzeichnung spezifischer Leitungssysteme. Es verhindert Verwechslungen bei der Installation von getrennten Wasserkreisläufen.",
-        "seo_p2": "Die violette Signalfarbe kennzeichnet in der Regel Betriebswasser, Regenwasser oder Bewässerungsanlagen. Technisch entspricht es dem Standard-PP-R mit SDR 11 (1.2 MPa bei 20°C) und bietet dieselbe hohe Qualität.",
-        "seo_p3": "Durch den Einsatz dieses speziellen Rohrs wird die Anlagensicherheit erhöht und die normgerechte Trennung von Trink- und Brauchwasser visuell sichergestellt. Perfekt für nachhaltige Wassermanagement-Systeme.",
+        "seo_p1": "De paars gekleurde K-Pipe Purple PP-R SDR 11 wordt gebruikt voor duidelijke identificatie van specifieke leidingsystemen. Het voorkomt verwarring bij het installeren van gescheiden watercircuits.",
+        "seo_p2": "De paarse signaalkleur duidt doorgaans op proceswater, regenwater of irrigatiesystemen. Technisch gezien komt het overeen met standaard PP-R met SDR 11 (1.2 MPa bij 20°C) en biedt dezelfde hoge kwaliteit.",
+        "seo_p3": "Door het gebruik van deze speciale buis wordt de systeemveiligheid verhoogd en wordt de scheiding van drinkwater en proceswater volgens de normen visueel gegarandeerd. Perfect voor duurzame waterbeheersystemen.",
         "faq": [
           {
-            "q": "Wofür steht die violette Farbe?",
-            "a": "Sie dient der optischen Unterscheidung von Leitungssystemen für Betriebswasser, Grauwasser oder Regenwassernutzung gemäß internationalen Vorgaben."
+            "q": "Waar staat de paarse kleur voor?",
+            "a": "Het dient voor de visuele differentiatie van leidingsystemen voor proceswater, grijs water of regenwatergebruik volgens internationale richtlijnen."
           },
           {
-            "q": "Kann das Rohr mit normalen PP-R Fittings verschweißt werden?",
-            "a": "Ja, das violette Rohr ist kompatibel mit allen K Aqua Standard-Fittings und wird mit den gleichen Parametern verschweißt."
+            "q": "Kan de buis gelast worden met normale PP-R fittingen?",
+            "a": "Ja, de paarse buis is compatibel met alle K Aqua standaard fittingen en wordt gelast met dezelfde parameters."
           },
           {
-            "q": "Beeinflusst die Farbe die Qualität des Materials?",
-            "a": "Nein, die physikalischen und chemischen Eigenschaften sind identisch mit dem regulären PP-R SDR 11 Rohr."
+            "q": "Beïnvloedt de kleur de kwaliteit van het materiaal?",
+            "a": "Nee, de fysische en chemische eigenschappen zijn identiek aan de reguliere PP-R SDR 11 buis."
           }
         ]
       },
       "k-fiber-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das K-Fiber Pipe PPRCT SDR 7.4 ist ein hochmodernes, faserverstärktes Verbundrohr. Die integrierte Faserschicht reduziert die Längenausdehnung erheblich.",
-        "seo_p2": "Die innovative PPRCT-Basis wird durch eine Faser-Mittelschicht ergänzt. Mit SDR 7.4 (S 3.2) hält das Rohr Drücken von bis zu 2.0 MPa bei 20°C stand, bei gleichzeitig bis zu 50 % geringerer thermischer Ausdehnung.",
-        "seo_p3": "Dies macht das Rohr zur perfekten Wahl für Steigleitungen und lange Trassen in der Gebäudetechnik, bei denen weniger Befestigungspunkte erforderlich sind, was Installationszeit und Materialkosten spart.",
+        "seo_p1": "De K-Fiber Pipe PPRCT SDR 7.4 is een state-of-the-art vezelversterkte composietbuis. De geïntegreerde vezellaag vermindert de thermische uitzetting aanzienlijk.",
+        "seo_p2": "De innovatieve PPRCT basis wordt aangevuld met een vezel-middenlaag. Met SDR 7.4 (S 3.2) is de buis bestand tegen drukken tot 2.0 MPa bij 20°C, met tot 50 % minder thermische uitzetting.",
+        "seo_p3": "Dit maakt de buis de perfecte keuze voor stijgleidingen en lange tracés in de gebouwtechniek, waarbij minder bevestigingspunten nodig zijn, wat installatietijd en materiaalkosten bespaart.",
         "faq": [
           {
-            "q": "Wie stark reduziert die Faser die thermische Längenausdehnung?",
-            "a": "Die integrierte Glasfaserschicht verringert die lineare Ausdehnung im Vergleich zu massiven PP-R Rohren um bis zu 75 %."
+            "q": "Hoeveel vermindert de vezel de thermische uitzetting?",
+            "a": "De geïntegreerde glasvezellaag vermindert de lineaire uitzetting tot 75 % in vergelijking met massieve PP-R buizen."
           },
           {
-            "q": "Muss das Faserrohr vor dem Schweißen geschält werden?",
-            "a": "Nein, im Gegensatz zu Stabi-Rohren mit Aluminiumschicht kann unser Faserrohr direkt und ohne Vorbehandlung verschweißt werden."
+            "q": "Moet de vezelbuis geschild worden voor het lassen?",
+            "a": "Nee, in tegenstelling tot stabi-buizen met een aluminiumlaag, kan onze vezelbuis direct en zonder voorbehandeling gelast worden."
           },
           {
-            "q": "Ist das Rohr für zentrale Steigleitungen geeignet?",
-            "a": "Ja, durch die extrem hohe Eigensteifigkeit und Druckbeständigkeit ist es die optimale Wahl für große Steigstränge."
+            "q": "Is de buis geschikt voor centrale stijgleidingen?",
+            "a": "Ja, door de extreem hoge eigen stijfheid en drukweerstand is het de optimale keuze voor grote stijgleidingen."
           }
         ]
       },
       "k-fiberclima-pipe-pp-rct-sdr-11": {
-        "seo_p1": "Spezialisiert auf Kühl- und Heizwasseranwendungen bietet das K-Fiberclima Pipe PPRCT SDR 11 optimale Performance für Klimasysteme. Es ist auf thermische Effizienz und Stabilität ausgelegt.",
-        "seo_p2": "Das faserverstärkte PPRCT Material (SDR 11, S 5) gewährleistet einen sicheren Betrieb bei 1.6 MPa (20°C) und 0.8 MPa (70°C). Die dünneren Wände erlauben einen extrem hohen Volumenstrom.",
-        "seo_p3": "Besonders in großen HLK-Anlagen (Heizung, Lüftung, Klima) spielt dieses Rohr seine Stärken aus. Es verhindert Korrosion im Kühlkreislauf und sorgt für einen wartungsfreien, energieeffizienten Betrieb.",
+        "seo_p1": "Gespecialiseerd in koel- en verwarmingswatertoepassingen biedt de K-Fiberclima Pipe PPRCT SDR 11 optimale prestaties voor klimaatsystemen. Het is ontworpen voor thermische efficiëntie en stabiliteit.",
+        "seo_p2": "Het vezelversterkte PPRCT materiaal (SDR 11, S 5) zorgt voor een veilige werking bij 1.6 MPa (20°C) en 0.8 MPa (70°C). De dunnere wanden maken een extreem hoog volume mogelijk.",
+        "seo_p3": "Vooral in grote HVAC-systemen (verwarming, ventilatie, airconditioning) toont deze buis zijn sterke punten. Het voorkomt corrosie in het koelcircuit en zorgt voor een onderhoudsvrije, energie-efficiënte werking.",
         "faq": [
           {
-            "q": "Was macht das Rohr ideal für Klimakaltwasser?",
-            "a": "Die geringe Wärmeleitfähigkeit von PPRCT verhindert die Kondenswasserbildung deutlich besser als bei metallischen Rohren."
+            "q": "Wat maakt de buis ideaal voor gekoeld water?",
+            "a": "De lage thermische geleidbaarheid van PPRCT voorkomt condensatie veel beter dan metalen buizen."
           },
           {
-            "q": "Wie verhält es sich bei der Zirkulation von Frostschutzmitteln?",
-            "a": "Es ist äußerst beständig gegen gängige Glykole und Frostschutzmittel, wodurch Leckagen durch Materialermüdung verhindert werden."
+            "q": "Hoe gedraagt het zich bij de circulatie van antivriesmiddelen?",
+            "a": "Het is zeer resistent tegen gangbare glycolen en antivriesmiddelen, wat lekkages door materiaalmoeheid voorkomt."
           },
           {
-            "q": "Können die Rohre für große Volumenströme genutzt werden?",
-            "a": "Durch die dünnere Wandung (SDR 11) bei maximaler Stabilität ermöglicht es extrem große Volumenströme in Industrienetzen."
+            "q": "Kunnen de buizen gebruikt worden voor grote volumes?",
+            "a": "Door de dunnere wand (SDR 11) met maximale stabiliteit maakt het extreem grote volumestromen in industriële netwerken mogelijk."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-74": {
-        "seo_p1": "Das klassische K-Fiber Pipe PP-R SDR 7.4 ist die bewährte Lösung, wenn Faserverstärkung und extreme Druckfestigkeit gefordert sind. Es minimiert thermische Dehnungen effektiv.",
-        "seo_p2": "Durch die Kombination von PP-R und Fasertechnologie erreicht dieses Rohr (SDR 7.4, S 3.2) einen Spitzenbetriebsdruck von 2.5 MPa bei 20°C. Es bietet maximale Stabilität für anspruchsvolle Netze.",
-        "seo_p3": "Ob im industriellen Anlagenbau oder bei komplexen Warmwasser-Zirkulationssystemen: dieses Rohr sorgt für eine starre, deformationsfreie Verlegung und höchste Betriebssicherheit über Jahrzehnte.",
+        "seo_p1": "De klassieke K-Fiber Pipe PP-R SDR 7.4 is de bewezen oplossing wanneer vezelversterking en extreme drukweerstand vereist zijn. Het minimaliseert thermische uitzetting effectief.",
+        "seo_p2": "Door de combinatie van PP-R en vezeltechnologie bereikt deze buis (SDR 7.4, S 3.2) een piekdruk van 2.5 MPa bij 20°C. Het biedt maximale stabiliteit voor veeleisende netwerken.",
+        "seo_p3": "Of het nu gaat om industriële installaties of complexe warmwatercirculatiesystemen: deze buis zorgt voor een stijve, deformatievrije installatie en de hoogste bedrijfszekerheid gedurende tientallen jaren.",
         "faq": [
           {
-            "q": "Ist SDR 7.4 für hohe Temperaturen zugelassen?",
-            "a": "Ja, es toleriert Temperaturen bis 70°C bei einem Nenndruck von 1.0 MPa (10 Bar) und kurzzeitige Spitzen von 95°C."
+            "q": "Is SDR 7.4 goedgekeurd voor hoge temperaturen?",
+            "a": "Ja, het tolereert temperaturen tot 70°C bij een nominale druk van 1.0 MPa (10 bar) en kortstondige pieken van 95°C."
           },
           {
-            "q": "Wie viele Befestigungsschellen sind bei langen Strecken nötig?",
-            "a": "Dank der Faserverstärkung können die Befestigungsabstände im Vergleich zu Standardrohren drastisch vergrößert werden."
+            "q": "Hoeveel bevestigingsbeugels zijn nodig voor lange afstanden?",
+            "a": "Dankzij de vezelversterking kunnen de bevestigingsafstanden drastisch worden vergroot in vergelijking met standaard buizen."
           },
           {
-            "q": "Gibt es Korrosionsrisiken bei wechselnden Wasserqualitäten?",
-            "a": "Nein, das PP-R Material ist 100 % korrosionsfrei und unabhängig vom pH-Wert des transportierten Mediums."
+            "q": "Zijn er corrosierisico's bij wisselende waterkwaliteit?",
+            "a": "Nee, het PP-R materiaal is 100 % corrosievrij en onafhankelijk van de pH-waarde van het getransporteerde medium."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-9": {
-        "seo_p1": "Das K-Fiber Pipe PP-R SDR 9 schließt die Lücke zwischen Standard- und Hochdruck-Faserrohren. Es bietet eine exzellente Balance aus Durchflusskapazität und Druckbeständigkeit.",
-        "seo_p2": "Mit der Baureihe S 4 (SDR 9) ist das PP-R-Faserrohr für Drücke von bis zu 2.0 MPa bei 20°C zugelassen. Die Wandstärken sind für mittlere bis hohe Belastungen optimiert.",
-        "seo_p3": "Dieses Rohr wird oft in gewerblichen und industriellen Projekten eingesetzt, wo herkömmliche Rohre an ihre Grenzen stoßen, aber die extremen Reserven von SDR 7.4 noch nicht benötigt werden.",
+        "seo_p1": "De K-Fiber Pipe PP-R SDR 9 overbrugt de kloof tussen standaard en hogedruk vezelbuizen. Het biedt een uitstekende balans tussen doorstroomcapaciteit en drukweerstand.",
+        "seo_p2": "Met serie S 4 (SDR 9) is de PP-R vezelbuis goedgekeurd voor drukken tot 2.0 MPa bij 20°C. De wanddiktes zijn geoptimaliseerd voor gemiddelde tot hoge belastingen.",
+        "seo_p3": "Deze buis wordt vaak gebruikt in commerciële en industriële projecten waar conventioneele buizen hun grenzen bereiken, maar de extreme reserves van SDR 7.4 nog niet nodig zijn.",
         "faq": [
           {
-            "q": "Warum SDR 9 anstelle von SDR 7.4 wählen?",
-            "a": "SDR 9 bietet einen exzellenten Kompromiss aus höherer Durchflusskapazität (dünnere Wand) und immer noch extremer Druckbeständigkeit."
+            "q": "Waarom kiezen voor SDR 9 in plaats van SDR 7.4?",
+            "a": "SDR 9 biedt een uitstekend compromis van hogere doorstroomcapaciteit (dunnere wand) en nog steeds extreme drukweerstand."
           },
           {
-            "q": "Kann es mit Standard-PP-R Formteilen verschweißt werden?",
-            "a": "Absolut, das Faserrohr SDR 9 ist voll kompatibel mit unseren K Aqua SDR 6 und SDR 7.4 PP-R Fittings."
+            "q": "Kan het gelast worden met standaard PP-R fittingen?",
+            "a": "Absoluut, de vezelbuis SDR 9 is volledig compatibel met onze K Aqua SDR 6 en SDR 7.4 PP-R fittingen."
           },
           {
-            "q": "Ist es für die Trinkwasserversorgung zugelassen?",
-            "a": "Ja, es erfüllt alle hygienischen Standards für heißes und kaltes Trinkwasser weltweit."
+            "q": "Is het goedgekeurd voor drinkwatervoorziening?",
+            "a": "Ja, het voldoet aan alle hygiënische normen voor warm en koud drinkwater wereldwijd."
           }
         ]
       },
@@ -1441,88 +1441,88 @@
     "edgePageIndex": "Pagina-index"
   },
   "groups": {
-    "tools": "Werkzeuge",
-    "knowledge": "Wissen",
-    "company": "Unternehmen",
-    "products": "Produkte",
-    "markets_solutions": "Märkte & Lösungen",
-    "knowledge_resources": "Wissen & Ressourcen"
+    "tools": "Gereedschap",
+    "knowledge": "Kennis",
+    "company": "Bedrijf",
+    "products": "Producten",
+    "markets_solutions": "Markten & Oplossingen",
+    "knowledge_resources": "Kennis & Bronnen"
   },
   "pages": {
     "finderGuideText": "<h2>Interactieve productzoeker voor K-Aqua leidingsystemen</h2><p>Gebruik onze innovatieve productzoeker om precies het juiste onderdeel voor uw specifieke leidinginstallatie te identificeren. Of u nu op zoek bent naar standaard PP-R buizen voor drinkwaterinstallaties, vezelversterkte PPRCT buizen voor veeleisende industriële toepassingen of speciale overgangsfittingen en afsluiters – onze tool filtert de volledige catalogus in realtime. De productzoekfunctie ondersteunt u bij het selecteren op diameter (d20 tot d630), drukklasse (SDR-klasse) en materiaal.</p><p>Een goed gestructureerd leidingsysteem vereist een nauwkeurige planning en de exacte combinatie van buizen, fittingen (zoals moffen, knieën en T-stukken) en bijbehorende accessoires. Onze productzoeker elimineert het tijdrovende zoeken in statische PDF-catalogi en biedt u in plaats daarvan direct betrouwbare gegevens over artikelnummers, verpakkingseenheden en technische specificaties. Met slechts een paar klikken kunt u uw materiaallijst samenstellen en de compatibiliteit van de verschillende componenten voor verwarmings-, koel- en drinkwatersystemen garanderen. Dit optimaliseert niet alleen uw planningsproces, maar minimaliseert ook fouten bij het bestellen van materialen voor uw volgende bouwproject.</p>",
-    "catalogOverview": "Vollständiger Produktkatalog",
+    "catalogOverview": "Volledige productcatalogus",
     "products": [
-      "PP-R Kunststoffrohre & Fittings Übersicht",
-      "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
+      "PP-R Kunststof buizen & fittingen overzicht",
+      "Ontdek de complete kunststof leidingsystemen van K Aqua van d20 tot d630 mm. Hoogwaardige PP-R en PPRCT buizen voor huishouden en industrie."
     ],
     "finder": [
-      "Interaktiver Produktfinder für PP-R Rohre",
-      "Finden Sie sofort das perfekte PP-R oder PPRCT Rohr, Fitting oder Ventil. Filtern Sie unseren Katalog live nach Dimension, Druckklasse und Wandstärke."
+      "Interactieve productvinder voor PP-R buizen",
+      "Vind direct de perfecte PP-R of PPRCT buis, fitting of afsluiter. Filter onze catalogus live op dimensie, drukklasse en wanddikte."
     ],
     "co2": [
-      "CO2-Rechner für nachhaltige Rohrsysteme",
-      "Vergleichen Sie den CO2-Fußabdruck von K Aqua PP-R Kunststoffrohren mit Kupfer, Edelstahl und PVC. Geprüft nach ISO 14040/44 für Green Building."
+      "CO2-calculator voor duurzame leidingsystemen",
+      "Vergelijk de CO2-voetafdruk van K Aqua PP-R kunststof buizen met koper, roestvrij staal en PVC. Gecertificeerd volgens ISO 14040/44 voor Green Building."
     ],
     "solutions": [
-      "Materialvorteile von Polypropylen-Rohren",
-      "Erfahren Sie, warum Polypropylen (PP-R/PPRCT) das überlegene Material für die Wasserversorgung ist. Ökologisch, technisch fortschrittlich und wirtschaftlich."
+      "Materiaalvoordelen van polypropyleen buizen",
+      "Ontdek waarom polypropyleen (PP-R/PPRCT) het superieure materiaal is voor watervoorziening. Ecologisch, technologisch geavanceerd en economisch."
     ],
     "academy": [
-      "Schweiß-Academy für PP-R Installation",
-      "Lernen Sie professionelle Schweißtechniken für PP-R Kunststoffrohre. Sehen Sie sich Video-Tutorials an und absolvieren Sie unser Welding-Master-Quiz."
+      "Las-Academy voor PP-R installatie",
+      "Leer professionele lastechnieken voor PP-R kunststof buizen. Bekijk video-tutorials en voltooi onze las-master quiz."
     ],
     "trust": [
-      "Trust Center: ISO-Zertifikate & Audits",
-      "Greifen Sie auf K Aquas Qualitätsdokumentation zu. Laden Sie ISO-Zertifikate, das GENAU-Framework und Audit Dokumente für Ihr Projekt herunter."
+      "Trust Center: ISO-certificaten & Audits",
+      "Krijg toegang tot de kwaliteitsdocumentatie van K Aqua. Download ISO-certificaten, het GENAU-framework en auditdocumenten voor uw project."
     ],
     "service": [
-      "Technisches Service & Download Center",
-      "Laden Sie offizielle K Aqua Produktkataloge, technische Datenblätter und Installationsrichtlinien für PP-R und PPRCT Kunststoffrohrsysteme herunter."
+      "Technische Service & Download Center",
+      "Download officiële K Aqua productcatalogi, technische fiches en installatierichtlijnen voor PP-R en PPRCT kunststof leidingsystemen."
     ],
     "partner": [
-      "Premium KESSEL Partnerschaft für Rohre",
-      "K Aqua und KESSEL verbindet eine jahrzehntelange Partnerschaft, die deutsche Fertigungsstandards von der Entwässerung auf die Wasserversorgung überträgt."
+      "Premium KESSEL Partnerschap voor buizen",
+      "K Aqua en KESSEL delen een decennialang partnerschap dat Duitse productiestandaarden vertaalt van afwatering naar watervoorziening."
     ],
     "markets": [
-      "Globale Märkte & Lokale Vertriebsstruktur",
-      "K Aqua liefert PP-R Rohrsysteme in über 27 Länder. Nutzen Sie unsere interaktive Weltkarte für lokale Standards, Wasserprofile und Logistikinformationen."
+      "Wereldwijde markten & Lokale verkoopstructuur",
+      "K Aqua levert PP-R leidingsystemen in meer dan 27 landen. Gebruik onze interactieve wereldkaart voor lokale standaarden, waterprofielen en logistieke informatie."
     ],
     "references": [
-      "Weltweite K-Aqua Referenzprojekte & PP-R Installationen",
-      "Entdecken Sie weltweite Referenzprojekte mit K-Aqua PP-R Rohrsystemen. Unser interaktiver 3D-Globus zeigt häusliche, gewerbliche & industrielle Anlagen."
+      "Wereldwijde K-Aqua referentieprojecten & PP-R installaties",
+      "Ontdek wereldwijde referentieprojecten met K-Aqua PP-R leidingsystemen. Onze interactieve 3D-globe toont huishoudelijke, commerciële en industriële installaties."
     ],
     "about": [
-      "Über KWT GmbH: Experten für Rohrherstellung",
-      "Die KWT GmbH bündelt jahrzehntelange Erfahrung, um das K Aqua Premium-Rohrsystem zu fertigen. Deutsche Ingenieurskunst für höchste Qualität und Innovation."
+      "Over KWT GmbH: Experts in buisproductie",
+      "KWT GmbH bundelt decennialange ervaring om het K Aqua premium leidingsysteem te produceren. Duitse techniek voor de hoogste kwaliteit en innovatie."
     ],
     "career": [
-      "Karriere bei K Aqua: Zukunft des Wassers",
-      "Werden Sie Teil unseres Teams in Waldsolms. Berechnen Sie Ihre steuerfreien Vorteile netto und testen Sie in 60 Sekunden, ob K Aqua zu Ihnen passt."
+      "Carrière bij K Aqua: Toekomst van water",
+      "Word onderdeel van ons team in Waldsolms. Bereken uw netto belastingvoordelen en test in 60 seconden of K Aqua bij u past."
     ],
     "news": [
-      "News & Events der Kunststoffrohrindustrie",
-      "Bleiben Sie auf dem Laufenden über K Aqua Innovationen, Produkte, Messeauftritte und unser Engagement für die dreifach ISO-geprüfte Produktion."
+      "Nieuws & Evenementen in de kunststofbuizenindustrie",
+      "Blijf op de hoogte van K Aqua innovaties, producten, beurzen en onze inzet voor ISO-gecertificeerde productie."
     ],
     "contact": [
-      "Kontakt K Aqua: Vertrieb & Technischer Support",
-      "Kontaktieren Sie das K Aqua-Expertenteam für Vertriebsanfragen, Support oder Partnerschaften. Schnelle Reaktionszeiten für globale B2B-Kunden."
+      "Contact K Aqua: Verkoop & Technische Ondersteuning",
+      "Neem contact op met het K Aqua expertteam voor verkoopvragen, ondersteuning of partnerschappen. Snelle reactietijden voor wereldwijde B2B-klanten."
     ],
     "rfq": [
-      "Projektanfrage & unverbindliches Angebot",
-      "Fordern Sie in vier einfachen Schritten ein unverbindliches Angebot für Ihr nächstes Rohrprojekt an. Unser Vertriebsteam meldet sich innerhalb von 24 Stunden."
+      "Projectaanvraag & Vrijblijvende offerte",
+      "Vraag in vier eenvoudige stappen een vrijblijvende offerte aan voor uw volgende leidingproject. Ons verkoopteam neemt binnen 24 uur contact met u op."
     ],
     "home": [
-      "Hersteller für PP-R & PPRCT Rohrsysteme",
-      "K Aqua produziert erstklassige PP-R und PPRCT Kunststoffrohrsysteme für Trinkwasser und Industrieanwendungen. Deutsche Ingenieurskunst für globale Projekte."
+      "Fabrikant van PP-R & PPRCT leidingsystemen",
+      "K Aqua produceert eersteklas PP-R en PPRCT kunststof leidingsystemen voor drinkwater en industriële toepassingen. Duitse techniek voor wereldwijde projecten."
     ],
     "legal": {
       "datenschutz": [
-        "Datenschutzerklärung",
-        "Umfassende Datenschutzerklärung für die K Aqua Website gemäß DSGVO-Richtlinien."
+        "Privacybeleid",
+        "Uitgebreid privacybeleid voor de K Aqua website in overeenstemming met de GDPR-richtlijnen."
       ],
       "impressum": [
-        "Impressum & Rechtliche Hinweise",
-        "Impressum und rechtliche Unternehmensinformationen der KWT GmbH, Hersteller von K Aqua."
+        "Impressum & Juridische informatie",
+        "Impressum en juridische bedrijfsinformatie van KWT GmbH, fabrikant van K Aqua."
       ]
     },
     "genauManagement": {
@@ -1560,64 +1560,64 @@
     ]
   },
   "home": {
-    "chip": "geprüft seit Oktober 2025",
-    "h1a": "Führend bei",
-    "h1b": "K-Aqua PP-R Rohrsystemen",
-    "globeAria": "Interaktiver Globus: ziehen zum Drehen",
+    "chip": "getest sinds oktober 2025",
+    "h1a": "Toonaangevend in",
+    "h1b": "K-Aqua PP-R leidingsystemen",
+    "globeAria": "Interactieve wereldbol: slepen om te draaien",
     "scrolly": [
       {
-        "t": "Gefertigt in Deutschland",
-        "d": "Entwicklung und Produktion am Standort Waldsolms: jedes Rohr, jedes Formteil."
+        "t": "Gemaakt in Duitsland",
+        "d": "Ontwikkeling en productie op de locatie in Waldsolms: elke buis, elke fitting."
       },
       {
-        "t": "d20 bis d630",
-        "d": "Ein vollständiges System: fünf Druckstufen, Formteile, Armaturen und Schweißtechnik."
+        "t": "d20 tot d630",
+        "d": "Een compleet systeem: vijf drukklassen, fittingen, afsluiters en lastechniek."
       },
       {
-        "t": "Dreifach geprüft",
-        "d": "ISO 9001, 14001 und 50001: Qualität, Umwelt und Energie aus einem Managementsystem."
+        "t": "Drievoudig gecertificeerd",
+        "d": "ISO 9001, 14001 en 50001: Kwaliteit, Milieu en Energie vanuit één managementsysteem."
       },
       {
-        "t": "27 Märkte weltweit",
-        "d": "Von Frankfurt bis NEOM: geprüft gegen die Normen und Wasserprofile vor Ort."
+        "t": "27 Markten wereldwijd",
+        "d": "Van Frankfurt tot NEOM: getest tegen lokale normen en waterprofielen."
       }
     ],
-    "lead": "K Aqua entwickelt und fertigt PP-R/PPRCT-Rohrsysteme für Trinkwasser: von 20 bis 630 mm, in Partnerschaft mit dem Premiumhersteller KESSEL.",
-    "ctaProducts": "Produktsystem entdecken",
-    "ctaContact": "Kontakt aufnehmen",
-    "toolsEyebrow": "Interaktive Werkzeuge",
-    "toolsTitle1": "Keine Textwüste.",
-    "toolsTitle2": "Werkzeuge.",
-    "toolsLead": "Die Website arbeitet für Sie: filtern, rechnen, lernen.",
-    "bandTitle": "Bereit für die nächste Generation der Wasserversorgung?",
-    "bandLead": "Sprechen Sie mit unserem Vertriebsteam über Ihr Projekt: von der Planung bis zur Schweißtechnik.",
-    "bandBtn": "Projektanfrage starten",
+    "lead": "K Aqua ontwikkelt en produceert PP-R/PPRCT-leidingsystemen voor drinkwater: van 20 tot 630 mm, in samenwerking met premium fabrikant KESSEL.",
+    "ctaProducts": "Ontdek het productsysteem",
+    "ctaContact": "Neem contact op",
+    "toolsEyebrow": "Interactieve tools",
+    "toolsTitle1": "Geen eindeloze tekst.",
+    "toolsTitle2": "Tools.",
+    "toolsLead": "De website werkt voor u: filter, reken, leer.",
+    "bandTitle": "Klaar voor de volgende generatie watervoorziening?",
+    "bandLead": "Spreek met ons verkoopteam over uw project: van planning tot lastechniek.",
+    "bandBtn": "Projectaanvraag starten",
     "bandBtn2": "Downloads & Service"
   },
   "geo": {
-    "eyebrow": "Märkte & Standorte",
-    "title1": "Eine Welt voller",
-    "title2": "Märkten.",
-    "lead": "{n} Märkte in {c} Ländern: jeder mit eigener Landingpage: Normen, Wasserprofil, Anwendungsfälle, Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
+    "eyebrow": "Markten & Locaties",
+    "title1": "Een wereld vol met",
+    "title2": "Markten.",
+    "lead": "{n} markten in {c} landen: elk met een eigen bestemmingspagina: normen, waterprofiel, use cases, logistiek. Pak de wereld vast en draai deze vrij; de lijst vliegt u precies naar de stad.",
     "all": "Alle",
-    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
-    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort.",
-    "allMarkets": "Alle Märkte",
-    "request": "Projekt anfragen",
-    "finder": "Produktfinder",
-    "fromPlant": "km ab Werk Waldsolms",
-    "regFrame": "Regulatorischer Rahmen",
-    "water": "Wasserprofil & Materialantwort",
-    "typical": "Typische Projekte in {city}",
-    "onSite": "Verarbeitung vor Ort",
-    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne: in der Academy.",
-    "toAcademy": "Zur Academy",
-    "nearbyEyebrow": "Verwandte Märkte",
-    "nearby": "In der Nähe.",
-    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
+    "cityTitle": "PP-R/PPRCT Leidingsystemen in {city}.",
+    "cityLead": "Drinkwatersystemen d20–d630, getest tegen lokale eisen.",
+    "allMarkets": "Alle markten",
+    "request": "Project aanvragen",
+    "finder": "Productvinder",
+    "fromPlant": "km van fabriek Waldsolms",
+    "regFrame": "Regelgevingskader",
+    "water": "Waterprofiel & Materiaalreactie",
+    "typical": "Typische projecten in {city}",
+    "onSite": "Verwerking op de bouwplaats",
+    "onSiteText": "Instructie lastechniek en videodocumentatie voor uw ploeg: in de Academy.",
+    "toAcademy": "Naar de Academy",
+    "nearbyEyebrow": "Gerelateerde markten",
+    "nearby": "In de buurt.",
+    "prodNote": "Productie-opmerking: Deze pagina's volgen de Programmatic-SEO-sjabloon. In Next.js worden ze gegenereerd via ISR vanuit het Headless CMS: incl. hreflang, Product-/Offer-schema en semantische interne links.",
     "km": "km",
-    "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "seoExpansion": "K Aqua produceert PP-R en PPRCT leidingsystemen in Waldsolms voor de hoogste eisen in wereldwijde gebouw- en installatietechniek. Dankzij compromisloze Duitse engineering en geavanceerde productietechnologie, garanderen onze systemen decennialange, onderhoudsvrije bedrijfszekerheid. Elk product, van d20 tot d630, ondergaat strenge kwaliteitscontroles en voldoet aan internationale normen zoals DVGW, KIWA en SKZ. We bieden niet alleen eersteklas materialen voor drinkwater, koeling en industrie, maar ondersteunen planners en installateurs ook met uitgebreide technische ondersteuning en training op locatie. Vertrouw op een systeem dat overtuigt met extreme duurzaamheid, corrosievrijheid en absolute hygiëne.",
+    "seoExpansionDynamic": "Lees meer over onze PP-R en PPRCT oplossingen in {city}. Wij voldoen aan de lokale normen ({regulator}) en bieden optimale systemen voor waterkwaliteit ({water}). Extra opmerking: {note}.",
     "cityMetaTitle": "PP-R leidingsystemen in {city}",
     "hubMetaTitle": "PP-R leidingsystemen voor {country}",
     "hubH1": "Infrastructuuroplossingen voor {country}",
@@ -3865,35 +3865,35 @@
     "supportText": "Sprechen wir über Ihr Projekt. Unser Support Team hilft bei technischen Fragen rund um Planung, Material und Verarbeitung."
   },
   "imprint": {
-    "eyebrow": "Rechtliches",
-    "title": "Impressum",
+    "eyebrow": "Juridisch",
+    "title": "Colofon",
     "rows": [
       [
-        "Unternehmen",
+        "Bedrijf",
         "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
       ],
       [
-        "Geschäftsführung",
+        "Directie",
         "Philipp Nickel, Marcello Gallio"
       ],
       [
-        "Registergericht",
+        "Handelsregister",
         "Wetzlar HRB 6732"
       ],
       [
-        "Sitz",
+        "Vestigingsplaats",
         "Waldsolms"
       ],
       [
-        "USt-IdNr.",
+        "Btw-identificatienummer",
         "DE 296238486"
       ],
       [
-        "Telefon / Fax",
+        "Telefoon / Fax",
         "+49 (0)60 85 / 9868-410 · Fax -420"
       ],
       [
-        "E-Mail",
+        "E-mail",
         "info@k-aqua.de"
       ]
     ]
@@ -4599,61 +4599,61 @@
     "titleGood": "Schweiß-Geselle"
   },
   "refs": {
-    "eyebrow": "Referenzen",
-    "title1": "Ein Globus voller",
-    "titleGrad": "Projekte.",
-    "lead": "Drehen Sie den Globus, tippen Sie auf einen Marker: jede Markierung steht für bewährte K Aqua-Technik im Einsatz. (Beispielprojekte als Platzhalter für echte Referenzen.)",
-    "canvasAria": "Interaktiver Globus mit Referenzprojekten: ziehen zum Drehen",
-    "note": "Echte Projektnamen, Fotos und Kennzahlen sollten redaktionell ergänzt werden: die Bühne dafür steht.",
+    "eyebrow": "Referenties",
+    "title1": "Een wereldbol vol",
+    "titleGrad": "Projecten.",
+    "lead": "Draai de wereldbol, tik op een markering: elke markering staat voor bewezen K Aqua-technologie in actie. (Voorbeeldprojecten als tijdelijke aanduidingen voor echte referenties.)",
+    "canvasAria": "Interactieve wereldbol met referentieprojecten: slepen om te draaien",
+    "note": "Echte projectnamen, foto's en kerncijfers moeten redactioneel worden toegevoegd: het podium is hiervoor klaargezet.",
     "projects": [
       {
         "id": "waldsolms",
         "lat": 50.4,
         "lon": 8.5,
-        "title": "Waldsolms, Deutschland",
-        "d": "Stammwerk & Entwicklung: hier entsteht jedes K Aqua-Rohr."
+        "title": "Waldsolms, Duitsland",
+        "d": "Hoofdfabriek & ontwikkeling: hier wordt elke K Aqua-buis gemaakt."
       },
       {
         "id": "dubai",
         "lat": 25.2,
         "lon": 55.3,
         "title": "Dubai, VAE",
-        "d": "Hochhaus-Steigleitungen: PPRCT für Heißwasser unter Wüstenbedingungen."
+        "d": "Stijgleidingen voor hoogbouw: PPRCT voor heet water onder woestijnomstandigheden."
       },
       {
         "id": "warsaw",
         "lat": 52.2,
         "lon": 21,
         "title": "Warschau, Polen",
-        "d": "Wohnquartier-Neubau: komplette Trinkwasserinstallation d20–d110."
+        "d": "Nieuwbouw woonwijk: complete drinkwaterinstallatie d20–d110."
       },
       {
         "id": "istanbul",
         "lat": 41,
         "lon": 28.9,
-        "title": "Istanbul, Türkei",
-        "d": "Hotelkomplex: Zirkulationsleitungen mit Faserverbundrohr."
+        "title": "Istanbul, Turkije",
+        "d": "Hotelcomplex: circulatieleidingen met vezelversterkte buizen."
       },
       {
         "id": "singapore",
         "lat": 1.35,
         "lon": 103.8,
-        "title": "Singapur",
-        "d": "Infrastrukturprojekt: Großdimensionen bis d630 im Stumpfschweißverfahren."
+        "title": "Singapore",
+        "d": "Infrastructuurproject: grote diameters tot d630 met stuiklassen."
       },
       {
         "id": "cape_town",
         "lat": -33.9,
         "lon": 18.4,
-        "title": "Kapstadt, Südafrika",
-        "d": "Krankenhausneubau: hygienische Trinkwasserverteilung."
+        "title": "Kaapstad, Zuid-Afrika",
+        "d": "Nieuwbouw ziekenhuis: hygiënische drinkwaterdistributie."
       },
       {
         "id": "london",
         "lat": 51.5,
         "lon": -0.1,
-        "title": "London, UK",
-        "d": "Bürosanierung: korrosionsfreier Ersatz für Bestandsleitungen."
+        "title": "Londen, VK",
+        "d": "Kantoorrenovatie: corrosievrije vervanging van bestaande leidingen."
       }
     ]
   },
@@ -6663,11 +6663,11 @@
     }
   },
   "menu": {
-    "pipes": "Rohre",
-    "fittings": "Fittings",
-    "transition": "Übergangsfittings",
-    "valves": "Ventile & Hähne",
-    "tools": "Schweißwerkzeuge"
+    "pipes": "Buizen",
+    "fittings": "Fittingen",
+    "transition": "Overgangsfittingen",
+    "valves": "Ventielen & Kranen",
+    "tools": "Lasgereedschap"
   },
   "quote": "Projektanfrage",
   "resources": {

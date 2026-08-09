@@ -119,7 +119,7 @@ export function TrustCenter({ data }: TrustCenterProps) {
       {/* ISO Certificates Cards */}
       <section className="py-16 border-b border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-y-8 md:gap-6">
             {data.certs.map((cert, idx) => {
               const [name, desc] = cert;
               const certNum = CERT_NUMBERS[idx];
@@ -177,41 +177,69 @@ export function TrustCenter({ data }: TrustCenterProps) {
             />
           </Reveal>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-8">
-            {/* Tabs List */}
-            <div className="lg:col-span-5 flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-12 items-stretch mt-12">
+            {/* Tabs List (Golden Ratio: ~38%) */}
+            <div className="lg:col-span-5 flex flex-col justify-center gap-3">
               {GENAU_LETTERS.map((letter, idx) => {
                 const isActive = activeGenauIdx === idx;
                 const labelText = data.genau[idx]?.[0] || letter;
-                const displayLabel = `${letter}${ENSPACE}${DOT}${ENSPACE}${labelText}`;
 
                 return (
                   <button
                     key={letter}
                     onClick={() => setActiveGenauIdx(idx)}
-                    className={`flex items-center text-start px-6 py-4 rounded-xl border font-heading font-bold transition-all duration-200 shrink-0 outline-none ${
+                    className={`group relative flex items-center gap-6 text-start px-8 py-5 rounded-2xl border transition-all duration-500 overflow-hidden outline-none ${
                       isActive
-                        ? "bg-primary border-primary text-primary-foreground shadow-lift"
-                        : "bg-card border-card-border text-foreground hover:border-primary/50 hover:bg-background"
+                        ? "bg-card border-primary/30 shadow-2xl scale-[1.02]"
+                        : "bg-transparent border-transparent text-muted-foreground hover:bg-card/50 hover:border-card-border"
                     }`}
                   >
-                    <span className="text-lg">{displayLabel}</span>
+                    {isActive && (
+                      <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-transparent opacity-100" />
+                    )}
+                    <span
+                      className={`text-3xl font-heading font-black transition-colors duration-500 ${
+                        isActive ? "text-primary" : "text-muted-foreground/30 group-hover:text-primary/50"
+                      }`}
+                    >
+                      {letter}
+                    </span>
+                    <span
+                      className={`text-xl font-heading font-bold transition-colors duration-500 ${
+                        isActive ? "text-foreground" : "group-hover:text-foreground"
+                      }`}
+                    >
+                      {labelText}
+                    </span>
                   </button>
                 );
               })}
             </div>
 
-            {/* Active Details Box */}
-            <div className="lg:col-span-7">
-              <Reveal key={activeGenauIdx}>
-                <Card className="p-5 sm:p-8 text-start">
-                  <h3 className="font-heading font-extrabold text-2xl text-primary mb-4">
-                    {data.genau[activeGenauIdx]?.[0]}
-                  </h3>
-                  <p className="text-lead text-muted-foreground leading-relaxed">
-                    {data.genau[activeGenauIdx]?.[1]}
-                  </p>
-                </Card>
+            {/* Active Details Box (Golden Ratio: ~62%) */}
+            <div className="lg:col-span-7 h-full">
+              <Reveal key={activeGenauIdx} className="h-full">
+                <div className="relative h-full min-h-[400px] flex flex-col justify-center p-12 sm:p-16 rounded-[32px] bg-card border border-card-border overflow-hidden shadow-2xl group">
+                  {/* Premium Watermark */}
+                  <div className="absolute -right-8 -bottom-16 text-[280px] font-heading font-black text-primary/[0.03] leading-none pointer-events-none select-none group-hover:scale-110 transition-transform duration-1000">
+                    {GENAU_LETTERS[activeGenauIdx]}
+                  </div>
+                  
+                  {/* Content */}
+                  <div className="relative z-10">
+                    <div className="flex items-center gap-4 mb-8">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 border border-primary/20 text-primary font-heading font-bold text-xl">
+                        0{activeGenauIdx + 1}
+                      </div>
+                      <h3 className="font-heading font-black text-3xl sm:text-4xl text-foreground tracking-tight">
+                        {data.genau[activeGenauIdx]?.[0]}
+                      </h3>
+                    </div>
+                    <p className="text-xl text-muted-foreground leading-relaxed font-light">
+                      {data.genau[activeGenauIdx]?.[1]}
+                    </p>
+                  </div>
+                </div>
               </Reveal>
             </div>
           </div>
@@ -229,7 +257,7 @@ export function TrustCenter({ data }: TrustCenterProps) {
             />
           </Reveal>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-8 items-start mt-8">
             {/* Checklist */}
             <div className="lg:col-span-7 flex flex-col gap-4">
               {data.docs.map((doc) => {

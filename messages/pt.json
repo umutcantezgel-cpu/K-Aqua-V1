@@ -1406,34 +1406,34 @@
   "toggle_theme_light": "Zu hellem Design wechseln",
   "toggle_theme_dark": "Zu dunklem Design wechseln",
   "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "finder": "Localizador de Produtos",
+    "co2": "Calculadora de CO₂",
+    "markets": "Mercados",
+    "trust": "Centro de Confiança",
+    "contact": "Contato",
+    "quote": "Solicitar Orçamento",
+    "menu": "Menu",
+    "lang": "Idioma",
+    "skipToContent": "Pular para o conteúdo",
+    "menuPlaceholder": "Espaço reservado (Menu)",
+    "academy": "Academia",
+    "service": "Serviços",
+    "about": "Empresa",
+    "solutions": "Soluções",
+    "partners": "Parceria",
+    "references": "Referências",
+    "career": "Carreira",
+    "news": "Notícias",
+    "knowledge_trust": "Conhecimento e Confiança",
+    "mapAria": "Abrir navegação no mapa",
+    "sitemapAria": "Mapa do Site",
     "pipes": "Tubos",
     "fittings": "Conexões",
     "valves": "Válvulas",
     "accessories": "Acessórios",
     "tools": "Ferramentas",
-    "home": "Start",
-    "products": "Produkte",
-    "finder": "Produktfinder",
-    "co2": "CO₂-Rechner",
-    "markets": "Märkte",
-    "trust": "Trust Center",
-    "contact": "Kontakt",
-    "quote": "Angebot anfragen",
-    "menu": "Menü",
-    "lang": "Sprache",
-    "skipToContent": "Zum Inhalt springen",
-    "menuPlaceholder": "Platzhalter (Mega-Menü)",
-    "academy": "Academy",
-    "service": "Service",
-    "about": "Unternehmen",
-    "solutions": "Lösungen",
-    "partners": "Partnerschaft",
-    "references": "Referenzen",
-    "career": "Karriere",
-    "news": "News",
-    "knowledge_trust": "Wissen & Vertrauen",
-    "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht",
     "edgeArticles": "{count} artigos",
     "edgeLiveFilter": "Filtro ao vivo",
     "edgeComparisons": "3 comparações",
@@ -1441,59 +1441,90 @@
     "edgePageIndex": "Índice de páginas"
   },
   "groups": {
-    "tools": "Werkzeuge",
-    "knowledge": "Wissen",
-    "company": "Unternehmen",
-    "products": "Produkte",
-    "markets_solutions": "Märkte & Lösungen",
-    "knowledge_resources": "Wissen & Ressourcen"
+    "tools": "Ferramentas",
+    "knowledge": "Conhecimento",
+    "company": "Empresa",
+    "products": "Produtos",
+    "markets_solutions": "Mercados e Soluções",
+    "knowledge_resources": "Conhecimento e Recursos"
   },
   "pages": {
-    "finderGuideText": "<h2>Localizador Interativo de Produtos para Sistemas de Tubulação K-Aqua</h2><p>Utilize nosso inovador localizador de produtos para identificar o componente exato para sua instalação específica de tubulação. Quer você esteja procurando por tubos PP-R padrão para instalações de água potável, tubos PPRCT reforçados com fibra para aplicações industriais exigentes, ou conexões de transição e válvulas especiais – nossa ferramenta filtra todo o catálogo em tempo real. A pesquisa de produtos ajuda você a selecionar por diâmetro (d20 a d630), classe de pressão (classe SDR) e material.</p><p>Um sistema de tubulação bem estruturado requer planejamento preciso e a combinação exata de tubos, conexões (como luvas, cotovelos e tês) e os acessórios apropriados. Nosso localizador de produtos elimina a busca demorada em catálogos estáticos em PDF e, em vez disso, fornece dados instantâneos e confiáveis sobre números de itens, unidades de embalagem e especificações técnicas. Com apenas alguns cliques, você pode compilar sua lista de materiais e garantir a compatibilidade dos vários componentes para sistemas de aquecimento, refrigeração e água potável. Isso não apenas otimiza o seu processo de planejamento, mas também minimiza os erros ao encomendar materiais para o seu próximo projeto de construção.</p>",
-    "catalogOverview": "Vollständiger Produktkatalog",
+    "finderGuideText": "<h2>Localizador Interativo de Produtos para Sistemas de Tubulação K-Aqua</h2><p>Utilize nosso inovador localizador de produtos para identificar o componente exato para sua instalação específica de tubulação. Quer você esteja procurando por tubos PP-R padrão para instalações de água potável, tubos PPRCT reforzadas com fibra para aplicações industriais exigentes, ou conexões de transição e válvulas especiais – nossa ferramenta filtra todo o catálogo em tempo real. A pesquisa de produtos ajuda você a selecionar por diâmetro (d20 a d630), classe de pressão (classe SDR) e material.</p><p>Um sistema de tubulação bem estruturado requer planejamento preciso e a combinação exata de tubos, conexões (como luvas, cotovelos e tês) e os acessórios apropriados. Nosso localizador de produtos elimina a busca demorada em catálogos estáticos em PDF e, em vez disso, fornece dados instantâneos e confiáveis sobre números de itens, unidades de embalagem e especificações técnicas. Com apenas alguns cliques, você pode compilar sua lista de materiais e garantir a compatibilidade dos vários componentes para sistemas de aquecimento, refrigeração e água potável. Isso não apenas otimiza o seu processo de planejamento, mas também minimiza os erros ao encomendar materiais para o seu próximo projeto de construção.</p>",
+    "catalogOverview": "Catálogo Completo de Produtos",
     "products": [
-      "PP-R Kunststoffrohre & Fittings Übersicht",
-      "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
+      "Visão Geral de Tubos e Conexões de Plástico PP-R",
+      "Descubra os sistemas completos de tubos de plástico da K Aqua de d20 a d630 mm. Tubos de PP-R e PPRCT de alto desempenho para uso doméstico e industrial."
     ],
     "finder": [
-      "Interaktiver Produktfinder für PP-R Rohre",
-      "Finden Sie sofort das perfekte PP-R oder PPRCT Rohr, Fitting oder Ventil. Filtern Sie unseren Katalog live nach Dimension, Druckklasse und Wandstärke."
+      "Localizador Interativo de Produtos para Tubos PP-R",
+      "Encontre instantaneamente o tubo, conexão ou válvula PP-R ou PPRCT perfeito. Filtre nosso catálogo em tempo real por dimensão, classe de pressão e espessura da parede."
     ],
     "co2": [
-      "CO2-Rechner für nachhaltige Rohrsysteme",
-      "Vergleichen Sie den CO2-Fußabdruck von K Aqua PP-R Kunststoffrohren mit Kupfer, Edelstahl und PVC. Geprüft nach ISO 14040/44 für Green Building."
+      "Calculadora de CO2 para Sistemas de Tubulação Sustentáveis",
+      "Compare a pegada de carbono dos tubos de plástico K Aqua PP-R com os de cobre, aço inoxidável e PVC. Certificado ISO 14040/44 para construção verde."
     ],
     "solutions": [
-      "Materialvorteile von Polypropylen-Rohren",
-      "Erfahren Sie, warum Polypropylen (PP-R/PPRCT) das überlegene Material für die Wasserversorgung ist. Ökologisch, technisch fortschrittlich und wirtschaftlich."
+      "Vantagens dos Materiais dos Tubos de Polipropileno",
+      "Saiba por que o polipropileno (PP-R/PPRCT) é o material superior para abastecimento de água. Ecológico, tecnologicamente avançado e econômico."
     ],
     "academy": [
-      "Schweiß-Academy für PP-R Installation",
-      "Lernen Sie professionelle Schweißtechniken für PP-R Kunststoffrohre. Sehen Sie sich Video-Tutorials an und absolvieren Sie unser Welding-Master-Quiz."
+      "Academia de Soldagem para Instalação de PP-R",
+      "Aprenda técnicas profissionais de soldagem para tubos de plástico PP-R. Assista a tutoriais em vídeo e complete nosso teste Master de soldagem."
     ],
     "trust": [
-      "Trust Center: ISO-Zertifikate & Audits",
-      "Greifen Sie auf K Aquas Qualitätsdokumentation zu. Laden Sie ISO-Zertifikate, das GENAU-Framework und Audit Dokumente für Ihr Projekt herunter."
+      "Centro de Confiança: Certificados e Auditorias ISO",
+      "Acesse a documentação de qualidade da K Aqua. Baixe certificados ISO, a estrutura GENAU e documentos de auditoria para o seu projeto."
     ],
     "service": [
-      "Technisches Service & Download Center",
-      "Laden Sie offizielle K Aqua Produktkataloge, technische Datenblätter und Installationsrichtlinien für PP-R und PPRCT Kunststoffrohrsysteme herunter."
+      "Serviço Técnico e Centro de Downloads",
+      "Baixe catálogos oficiais de produtos K Aqua, fichas técnicas e diretrizes de instalação para sistemas de tubulação de plástico PP-R e PPRCT."
     ],
     "partner": [
-      "Premium KESSEL Partnerschaft für Rohre",
-      "K Aqua und KESSEL verbindet eine jahrzehntelange Partnerschaft, die deutsche Fertigungsstandards von der Entwässerung auf die Wasserversorgung überträgt."
+      "Parceria Premium KESSEL para Tubos",
+      "K Aqua e KESSEL compartilham uma parceria de décadas que traz padrões de fabricação alemães da drenagem para o abastecimento de água."
     ],
     "markets": [
-      "Globale Märkte & Lokale Vertriebsstruktur",
-      "K Aqua liefert PP-R Rohrsysteme in über 27 Länder. Nutzen Sie unsere interaktive Weltkarte für lokale Standards, Wasserprofile und Logistikinformationen."
+      "Mercados Globais e Estrutura de Vendas Local",
+      "A K Aqua fornece sistemas de tubulação PP-R para mais de 27 países. Use nosso mapa-múndi interativo para obter informações sobre normas locais, perfis de água e logística."
     ],
     "references": [
-      "Weltweite K-Aqua Referenzprojekte & PP-R Installationen",
-      "Entdecken Sie weltweite Referenzprojekte mit K-Aqua PP-R Rohrsystemen. Unser interaktiver 3D-Globus zeigt häusliche, gewerbliche & industrielle Anlagen."
+      "Projetos de Referência Globais K-Aqua e Instalações PP-R",
+      "Explore projetos de referência em todo o mundo usando sistemas de tubulação K-Aqua PP-R. Nosso globo 3D interativo mostra instalações domésticas, comerciais e industriais."
     ],
     "about": [
-      "Über KWT GmbH: Experten für Rohrherstellung",
-      "Die KWT GmbH bündelt jahrzehntelange Erfahrung, um das K Aqua Premium-Rohrsystem zu fertigen. Deutsche Ingenieurskunst für höchste Qualität und Innovation."
+      "Sobre a KWT GmbH: Especialistas na Fabricação de Tubos",
+      "A KWT GmbH reúne décadas de experiência para fabricar os sistemas de tubulação premium K Aqua. Engenharia alemã para a mais alta qualidade e inovação."
+    ],
+    "career": [
+      "Carreiras na K Aqua: O Futuro da Água",
+      "Junte-se à nossa equipe em Waldsolms. Calcule seus benefícios líquidos sem impostos e descubra em 60 segundos se a K Aqua é a empresa certa para você."
+    ],
+    "news": [
+      "Notícias e Eventos da Indústria de Tubos de Plástico",
+      "Mantenha-se atualizado sobre as inovações, produtos, feiras da K Aqua e nosso compromisso com a produção certificada tripla ISO."
+    ],
+    "contact": [
+      "Contato K Aqua: Vendas e Suporte Técnico",
+      "Entre em contato com a equipe de especialistas da K Aqua para questões de vendas, suporte ou parcerias. Tempos de resposta rápidos para clientes B2B globais."
+    ],
+    "rfq": [
+      "Solicitação de Projeto e Orçamento Sem Compromisso",
+      "Solicite um orçamento sem compromisso para o seu próximo projeto de tubulação em quatro passos fáceis. Nossa equipe de vendas entrará em contato em 24 horas."
+    ],
+    "home": [
+      "Fabricante de Sistemas de Tubulação PP-R e PPRCT",
+      "A K Aqua produz sistemas de tubos de plástico PP-R e PPRCT de primeira classe para água potável e aplicações industriais. Engenharia alemã para projetos globais."
+    ],
+    "legal": {
+      "datenschutz": [
+        "Política de Privacidade",
+        "Política de privacidade abrangente para o site K Aqua em conformidade com as diretrizes do GDPR."
+      ],
+      "impressum": [
+        "Aviso Legal e Informações Corporativas",
+        "Aviso legal e informações corporativas da KWT GmbH, fabricante da K Aqua."
+      ]
+    },st für höchste Qualität und Innovation."
     ],
     "career": [
       "Karriere bei K Aqua: Zukunft des Wassers",
@@ -1560,62 +1591,64 @@
     ]
   },
   "home": {
-    "chip": "geprüft seit Oktober 2025",
-    "h1a": "Führend bei",
-    "h1b": "K-Aqua PP-R Rohrsystemen",
-    "globeAria": "Interaktiver Globus, ziehen zum Drehen",
+    "chip": "testado desde outubro de 2025",
+    "h1a": "Líder em",
+    "h1b": "Sistemas de Tubulação K-Aqua PP-R",
+    "globeAria": "Globo interativo: arraste para girar",
     "scrolly": [
       {
-        "t": "Gefertigt in Deutschland",
-        "d": "Entwicklung und Produktion am Standort Waldsolms, jedes Rohr, jedes Formteil."
+        "t": "Feito na Alemanha",
+        "d": "Desenvolvimento e produção na fábrica de Waldsolms: cada tubo, cada conexão."
       },
       {
-        "t": "d20 bis d630",
-        "d": "Ein vollständiges System: fünf Druckstufen, Formteile, Armaturen und Schweißtechnik."
+        "t": "de d20 a d630",
+        "d": "Um sistema completo: cinco classes de pressão, conexões, válvulas e tecnologia de soldagem."
       },
       {
-        "t": "Dreifach geprüft",
-        "d": "ISO 9001, 14001 und 50001, Qualität, Umwelt und Energie aus einem Managementsystem."
+        "t": "Triplamente certificado",
+        "d": "ISO 9001, 14001 e 50001: Qualidade, Meio Ambiente e Energia a partir de um único sistema de gestão."
       },
       {
-        "t": "27 Märkte weltweit",
-        "d": "Von Frankfurt bis NEOM: geprüft gegen die Normen und Wasserprofile vor Ort."
+        "t": "27 mercados em todo o mundo",
+        "d": "De Frankfurt a NEOM: testado em relação aos padrões e perfis de água locais."
       }
     ],
-    "lead": "K Aqua entwickelt und fertigt PP-R/PPRCT-Rohrsysteme für Trinkwasser, von 20 bis 630 mm, in Partnerschaft mit dem Premiumhersteller KESSEL.",
-    "ctaProducts": "Produktsystem entdecken",
-    "ctaContact": "Kontakt aufnehmen",
-    "toolsEyebrow": "Interaktive Werkzeuge",
-    "toolsTitle1": "Keine Textwüste.",
-    "toolsTitle2": "Werkzeuge.",
-    "toolsLead": "Die Website arbeitet für Sie: filtern, rechnen, lernen.",
-    "bandTitle": "Bereit für die nächste Generation der Wasserversorgung?",
-    "bandLead": "Sprechen Sie mit unserem Vertriebsteam über Ihr Projekt, von der Planung bis zur Schweißtechnik.",
-    "bandBtn": "Projektanfrage starten",
-    "bandBtn2": "Downloads & Service"
+    "lead": "A K Aqua desenvolve e produz sistemas de tubos de PP-R/PPRCT para água potável: de 20 a 630 mm, em parceria com a fabricante premium KESSEL.",
+    "ctaProducts": "Descubra o Sistema de Produtos",
+    "ctaContact": "Entre em Contato",
+    "toolsEyebrow": "Ferramentas Interativas",
+    "toolsTitle1": "Sem textos longos.",
+    "toolsTitle2": "Ferramentas.",
+    "toolsLead": "O site trabalha para você: filtre, calcule, aprenda.",
+    "bandTitle": "Pronto para a próxima geração de abastecimento de água?",
+    "bandLead": "Fale com nossa equipe de vendas sobre o seu projeto: do planejamento à tecnologia de soldagem.",
+    "bandBtn": "Iniciar Solicitação de Projeto",
+    "bandBtn2": "Downloads e Serviço"
   },
   "geo": {
-    "eyebrow": "Märkte & Standorte",
-    "title1": "Eine Welt voller",
-    "title2": "Märkten.",
-    "lead": "{n} Märkte in {c} Ländern, jeder mit eigener Landingpage: Normen, Wasserprofil, Anwendungsfälle, Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
-    "all": "Alle",
-    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
-    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort",
-    "allMarkets": "Alle Märkte",
-    "request": "Projekt anfragen",
-    "finder": "Produktfinder",
-    "fromPlant": "km ab Werk Waldsolms",
-    "regFrame": "Regulatorischer Rahmen",
-    "water": "Wasserprofil & Materialantwort",
-    "typical": "Typische Projekte in {city}",
-    "onSite": "Verarbeitung vor Ort",
-    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne, in der Academy.",
-    "toAcademy": "Zur Academy",
-    "nearbyEyebrow": "Verwandte Märkte",
-    "nearby": "In der Nähe.",
-    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert, inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
+    "eyebrow": "Mercados e Localizações",
+    "title1": "Um mundo cheio de",
+    "title2": "Mercados.",
+    "lead": "{n} mercados em {c} países: cada um com sua própria página de destino: normas, perfil da água, casos de uso, logística. Segure o mundo e gire-o livremente; a lista levará você direto para a cidade escolhida.",
+    "all": "Todos",
+    "cityTitle": "Sistemas de tubulação PP-R/PPRCT em {city}.",
+    "cityLead": "Sistemas de água potável d20–d630, testados de acordo com os requisitos locais",
+    "allMarkets": "Todos os mercados",
+    "request": "Solicitar projeto",
+    "finder": "Localizador de produtos",
+    "fromPlant": "km da fábrica de Waldsolms",
+    "regFrame": "Quadro regulamentar",
+    "water": "Perfil da água e resposta do material",
+    "typical": "Projetos típicos em {city}",
+    "onSite": "Processamento local",
+    "onSiteText": "Instruções sobre tecnologia de soldagem e documentação em vídeo para sua equipe: na Academia.",
+    "toAcademy": "Ir para a Academia",
+    "nearbyEyebrow": "Mercados relacionados",
+    "nearby": "Nas proximidades.",
+    "prodNote": "Nota de produção: Estas páginas seguem o modelo Programmatic SEO. No Next.js, elas são geradas via ISR do Headless CMS: incluindo hreflang, schema Product/Offer e linkagem interna semântica.",
     "km": "km",
+    "seoExpansion": "A K Aqua fabrica sistemas de tubulação em PP-R e PPRCT em Waldsolms para as mais altas exigências da engenharia global de edifícios e instalações. Graças à rigorosa Engenharia Alemã e tecnologia de produção de ponta, nossos sistemas garantem décadas de segurança operacional livre de manutenção. Cada produto, de d20 a d630, passa por rigorosos controles de qualidade e atende a padrões internacionais como DVGW, KIWA e SKZ. Nós não apenas fornecemos materiais de primeira classe para água potável, refrigeração e indústria, mas também oferecemos suporte a projetistas e instaladores com suporte técnico abrangente e treinamento local. Confie em um sistema que impressiona com extrema durabilidade, ausência de corrosão e absoluta higiene.",
+    "seoExpansionDynamic": "Saiba mais sobre nossas soluções PP-R e PPRCT em {city}. Cumprimos as normas locais ({regulator}) e oferecemos sistemas ótimos para a qualidade da água ({water}). Nota adicional: {note}.",
     "cityMetaTitle": "Sistemas de tubulação PP-R em {city}",
     "hubMetaTitle": "Sistemas de tubulação PP-R para {country}",
     "hubH1": "Soluções de infraestrutura para {country}",

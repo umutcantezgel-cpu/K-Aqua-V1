@@ -89,3 +89,6 @@ messages/*.json
 !messages/de.json
 !messages/en.json
 !messages/ar.json
+
+dev*.log
+homepage.html

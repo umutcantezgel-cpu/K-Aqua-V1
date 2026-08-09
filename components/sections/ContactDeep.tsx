@@ -32,7 +32,7 @@ export async function ContactDeep() {
           <Reveal>
             <SectionHead eyebrow={t("routeEyebrow")} title={t("routeTitle")} lead={t("routeLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-4">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
             {routes.map((r, i) => (
               <Reveal key={r.t} delay={i * 0.08}>
                 <Card className="h-full">
@@ -57,9 +57,9 @@ export async function ContactDeep() {
             <div className="flex flex-col gap-2">
               {facts.map(([k, v]) => (
                 <div key={k} className="rounded-lg border border-card-border bg-card">
-                  <div className="flex min-h-14 items-center justify-between gap-4 px-5 py-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between items-start gap-2 sm:gap-4 px-5 py-4 min-h-14">
                     <span className="font-bold text-foreground">{k}</span>
-                    <span className="text-end text-small text-muted-foreground">{v}</span>
+                    <span className="text-start sm:text-end text-small text-muted-foreground">{v}</span>
                   </div>
                 </div>
               ))}

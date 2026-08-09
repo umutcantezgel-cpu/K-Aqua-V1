@@ -147,7 +147,7 @@ export default function Career({ careerData }: CareerProps) {
       {/* Benefits-Rechner */}
       <section className="py-16 bg-background">
         <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-8 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-y-12 lg:gap-8 items-start">
             {/* Checklist */}
             <Reveal>
               <div className="text-start">
@@ -156,7 +156,7 @@ export default function Career({ careerData }: CareerProps) {
                   title={careerData.benTitle}
                   lead={careerData.benLead}
                 />
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-4 mt-6">
                   {K_BENEFITS.map((b) => {
                     const isSelected = selectedBenefits.includes(b.id);
                     const benefitText =

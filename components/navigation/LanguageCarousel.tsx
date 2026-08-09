@@ -7,6 +7,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { useTranslations } from 'next-intl';
 import { LANGUAGES } from '@/lib/i18n/languages';
 import { cssVars, fgCls, glass, mutedCls } from './lang-ui';
 
@@ -22,6 +23,7 @@ export function LanguageCarousel({
   pendingId, activeId, dark, onPick, className = '',
 }: LanguageCarouselProps) {
   const trackRef = useRef<HTMLDivElement>(null);
+  const t = useTranslations('languagePage');
 
   /* pending/aktive Karte mittig einscrollen */
   useEffect(() => {
@@ -40,7 +42,7 @@ export function LanguageCarousel({
     <div
       ref={trackRef}
       aria-label="Sprachen-Karussell"
-      className={`relative z-20 flex gap-2 overflow-x-auto px-4 pb-4 pt-2
+      className={`relative z-20 flex gap-2 overflow-x-auto touch-pan-x px-4 pb-4 pt-2
                   snap-x snap-proximity [scrollbar-width:none] [&::-webkit-scrollbar]:hidden ${className}`}
     >
       {LANGUAGES.map((l) => {
@@ -68,9 +70,9 @@ export function LanguageCarousel({
             </span>
             <span className={`text-[11px] ${mutedCls(dark)}`}>
               {l.de}
-              {l.tier !== 'full' && <span className="opacity-60"> · Beta</span>}
+              {l.tier !== 'full' && <span className="opacity-60"> · {t('beta')}</span>}
               {state === 'active' && (
-                <span className="font-semibold text-(--lc)"> · aktiv</span>
+                <span className="font-semibold text-(--lc)"> · {t('active')}</span>
               )}
             </span>
           </button>

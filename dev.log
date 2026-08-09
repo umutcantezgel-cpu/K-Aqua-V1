@@ -3,22 +3,15 @@
 > next dev --turbo
 
  ⚠ The config property `experimental.turbo` is deprecated. Move this setting to `config.turbopack` or run `npx @next/codemod@latest next-experimental-turbo-to-turbopack .`
+ ⚠ Port 3000 is in use by process 15343, using available port 3001 instead.
    ▲ Next.js 15.5.19 (Turbopack)
-   - Local:        http://localhost:3000
-   - Network:      http://192.168.178.82:3000
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.178.82:3001
    - Experiments (use with caution):
      · turbo
      · optimizePackageImports
 
  ✓ Starting...
- ✓ Compiled middleware in 75ms
- ✓ Ready in 958ms
- ○ Compiling /[locale]/produkte/[category]/[slug] ...
- ✓ Compiled /[locale]/produkte/[category]/[slug] in 2.3s
- HEAD /de/produkte/accessories/flat-gasket 200 in 3269ms
- GET /de/produkte/accessories/flat-gasket-for-unions-pp-r 200 in 234ms
- ○ Compiling /sitemap.xml ...
- ✓ Compiled /sitemap.xml in 565ms
- GET /sitemap.xml 200 in 950ms
- GET /de/produkte/accessories/flat-gasket 200 in 179ms
- ✓ Compiled in 184ms
+ ✓ Compiled middleware in 62ms
+ ✓ Ready in 813ms
+[?25h

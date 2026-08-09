@@ -1,92 +1,92 @@
 {
   "catalogx": {
-    "eyebrow": "Vollständiger Produktkatalog",
-    "faqTitle": "Häufig gestellte Fragen",
-    "title": "Alle 79 Artikelfamilien: mit echten Artikelnummern.",
-    "lead": "Rohre, Formteile, Übergangsfittings, Armaturen, Einschweißsattel, Zubehör und Werkzeuge: jede Zeile stammt aus dem verbindlichen K Aqua Katalog. Kategorie wählen, Artikel aufklappen, Artikelnummer prüfen.",
-    "searchPlaceholder": "Artikelnummer oder Produktname suchen: z. B. „AQ200P20\" oder „Elbow\"",
-    "noResults": "Keine Treffer: Suche anpassen oder andere Kategorie wählen.",
-    "codesLabel": "Artikelnummern",
-    "sizesLabel": "Größen",
-    "materialLabel": "Material",
+    "eyebrow": "Catalogo completo dei prodotti",
+    "faqTitle": "Domande frequenti",
+    "title": "Tutte le 79 famiglie di articoli: con numeri di articolo reali.",
+    "lead": "Tubi, raccordi, raccordi di transizione, valvole, selle a saldare, accessori e strumenti: ogni riga proviene dal catalogo vincolante K Aqua. Seleziona la categoria, espandi l'articolo, controlla il numero dell'articolo.",
+    "searchPlaceholder": "Cerca il numero dell'articolo o il nome del prodotto: ad es. „AQ200P20\" o „Elbow\"",
+    "noResults": "Nessun risultato: modifica la ricerca o scegli un'altra categoria.",
+    "codesLabel": "Numeri di articolo",
+    "sizesLabel": "Dimensioni",
+    "materialLabel": "Materiale",
     "sdrLabel": "SDR",
-    "seriesLabel": "Baureihe",
-    "pressureLabel": "Betriebsdruck",
-    "lenLabel": "Stablänge",
+    "seriesLabel": "Serie",
+    "pressureLabel": "Pressione di esercizio",
+    "lenLabel": "Lunghezza barra",
     "cats": {
       "pipes": {
-        "label": "Rohre",
-        "desc": "PPR und PPRCT Rohre: Standard, faserverstärkt und UV-stabilisiert, 12 Baureihen."
+        "label": "Tubi",
+        "desc": "Tubi in PPR e PPRCT: standard, rinforzati in fibra e stabilizzati ai raggi UV, 12 serie."
       },
       "fittings": {
-        "label": "Formteile",
-        "desc": "Muffenschweiß und Elektroschweißformteile, d20–d125, 13 Artikelfamilien."
+        "label": "Raccordi",
+        "desc": "Raccordi a saldare a bicchiere e raccordi a elettrofusione, d20–d125, 13 famiglie di articoli."
       },
       "transitionFittings": {
-        "label": "Übergangsfittings",
-        "desc": "Übergänge auf Gewinde und Messing: für Bestandsanschlüsse und Armaturen, 13 Familien."
+        "label": "Raccordi di transizione",
+        "desc": "Transizioni filettate e in ottone: per collegamenti esistenti e valvole, 13 famiglie."
       },
       "valves": {
-        "label": "Armaturen",
-        "desc": "Kugelhähne, Unterputzventile, Verteilerbatterien: 9 Artikelfamilien."
+        "label": "Valvole",
+        "desc": "Valvole a sfera, valvole da incasso, collettori: 9 famiglie di articoli."
       },
       "weldInSaddles": {
-        "label": "Einschweißsattel",
-        "desc": "Abzweige ohne Rohrtrennung: mit und ohne Gewinde, 3 Familien."
+        "label": "Selle a saldare",
+        "desc": "Derivazioni senza taglio del tubo: con e senza filettatura, 3 famiglie."
       },
       "accessories": {
-        "label": "Zubehör",
-        "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen: 5 Artikelfamilien."
+        "label": "Accessori",
+        "desc": "Collari per tubi, controflange, guarnizioni, tappi: 5 famiglie di articoli."
       },
       "tools": {
-        "label": "Werkzeuge",
-        "desc": "Rohrschneider, Schweißgeräte und -werkzeuge für alle vier Fügeverfahren, 14 Familien."
+        "label": "Strumenti",
+        "desc": "Tagliatubi, saldatrici e utensili di saldatura per tutti e quattro i processi di giunzione, 14 famiglie."
       }
     },
     "rfq": {
-      "title": "Projektanfrage",
-      "desc": "Fordern Sie direkt ein Angebot für <strong>{title}</strong> an.",
-      "button": "Zur Anfrage"
+      "title": "Richiesta di progetto",
+      "desc": "Richiedi direttamente un preventivo per <strong>{title}</strong>.",
+      "button": "Vai alla richiesta"
     },
     "similar": {
-      "title": "Weitere aus {category}"
+      "title": "Altro da {category}"
     },
     "items": {
       "k-pipe-pp-r-sdr-6": {
-        "seo_p1": "Das K Pipe PPR SDR 6 ist ein hochleistungsfähiges Rohr aus unserer umfassenden Rohrsystemkategorie. Es wurde entwickelt, um anspruchsvolle Flüssigkeitstransporte sicher und effizient zu bewältigen.",
-        "seo_p2": "Dieses Rohr besteht aus langlebigem PPR Material und ist mit der Einstufung SDR 6 (Baureihe S 2.5) für einen hohen Betriebsdruck von bis zu 2.0 MPa bei 20°C ausgelegt. Die Standardlänge von 4 Metern ermöglicht eine schnelle Installation.",
-        "seo_p3": "Dank der hervorragenden chemischen und thermischen Beständigkeit eignet sich das SDR 6 Rohr ideal für industrielle Anwendungen und die Trinkwasserversorgung. Die glatte Innenfläche minimiert Druckverluste und verhindert Ablagerungen.",
+        "seo_p1": "Il K Pipe PPR SDR 6 è un tubo ad alte prestazioni della nostra gamma completa di sistemi di tubazioni. È stato sviluppato per gestire in modo sicuro ed efficiente il trasporto di fluidi impegnativi.",
+        "seo_p2": "Questo tubo è realizzato in resistente materiale PPR ed è progettato con classificazione SDR 6 (serie S 2.5) per un'elevata pressione di esercizio fino a 2.0 MPa a 20°C. La lunghezza standard di 4 metri consente un'installazione rapida.",
+        "seo_p3": "Grazie all'eccellente resistenza chimica e termica, il tubo SDR 6 è ideale per le applicazioni industriali e l'approvvigionamento di acqua potabile. La superficie interna liscia riduce al minimo le perdite di pressione e previene la formazione di depositi.",
         "faq": [
           {
-            "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
-            "a": "Es ist für Dauerbetriebstemperaturen bis zu 70°C ausgelegt und bietet bei 20°C eine Druckfestigkeit von 20 Bar."
+            "q": "Per quali temperature di esercizio è adatto l'SDR 6?",
+            "a": "È progettato per temperature di esercizio continuo fino a 70°C e offre una resistenza alla pressione di 20 Bar a 20°C."
           },
           {
-            "q": "Welche Vorteile bietet die hohe Wandstärke?",
-            "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilität bei stark beanspruchten Anlagen."
+            "q": "Quali sono i vantaggi dell'elevato spessore della parete?",
+            "a": "La serie SDR 6 (S 2.5) offre la massima resistenza alla pressione e stabilità meccanica in impianti fortemente sollecitati."
           },
           {
-            "q": "Kann ich dieses Rohr für Kaltwasser nutzen?",
-            "a": "Ja, es eignet sich exzellent für Kaltwassersysteme, da die glatte Oberfläche Inkrustationen und Bakterienwachstum effektiv verhindert."
+            "q": "Posso usare questo tubo per l'acqua fredda?",
+            "a": "Sì, è eccellente per i sistemi ad acqua fredda, in quanto la superficie liscia previene efficacemente le incrostazioni e la crescita batterica."
           }
         ]
       },
       "k-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das K Pipe PPRCT SDR 7.4 repräsentiert die nächste Generation der Kunststoffrohrsysteme. Es vereint verbesserte Materialeigenschaften mit einer optimierten Wandstärke für maximale Durchflussmengen.",
-        "seo_p2": "Gefertigt aus hochkristallinem PPRCT, bietet dieses Rohr bei SDR 7.4 (S 3.2) einen beeindruckenden Nenndruck von 2.0 MPa bei 20°C. Die reduzierte Wandstärke spart Gewicht, ohne Kompromisse bei der Stabilität einzugehen.",
-        "seo_p3": "Typische Einsatzgebiete umfassen komplexe Heizungs-, Klima- und Sanitäranlagen. Durch das PPRCT Material profitieren Installateure von einer höheren Langzeitfestigkeit auch bei höheren Temperaturen.",
+        "seo_p1": "Il K Pipe PPRCT SDR 7.4 rappresenta la generazione successiva di sistemi di tubazioni in plastica. Combina proprietà dei materiali migliorate con uno spessore della parete ottimizzato per portate massime.",
+        "seo_p2": "Realizzato in PPRCT altamente cristallino, questo tubo offre una pressione nominale impressionante di 2.0 MPa a 20°C per l'SDR 7.4 (S 3.2). Lo spessore della parete ridotto consente di risparmiare peso senza compromettere la stabilità.",
+        "seo_p3": "Le aree di applicazione tipiche includono complessi impianti di riscaldamento, climatizzazione e idraulici. Grazie al materiale PPRCT, gli installatori beneficiano di una maggiore resistenza a lungo termine anche a temperature più elevate.",
         "faq": [
           {
-            "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
-            "a": "PPRCT steht für eine verbesserte kristalline Struktur, die höhere Drücke bei höheren Temperaturen erlaubt, sodass dünnere Wandstärken möglich sind."
+            "q": "Cosa significa PPRCT rispetto a PPR?",
+            "a": "PPRCT è l'acronimo di una struttura cristallina migliorata che consente pressioni più elevate a temperature più alte, rendendo possibili spessori di parete più sottili."
           },
           {
-            "q": "Ist die Durchflussmenge bei SDR 7.4 höher?",
-            "a": "Ja, durch die reduzierten Wandstärken des PPRCT wird bei gleichem Außendurchmesser eine bis zu 17 % höhere Durchflusskapazität erreicht."
+            "q": "La portata è maggiore con l'SDR 7.4?",
+            "a": "Sì, lo spessore ridotto della parete in PPRCT si traduce in una capacità di flusso superiore fino al 17% a parità di diametro esterno."
           },
           {
-            "q": "Eignet sich SDR 7.4 für Heizsysteme?",
-            "a": "Absolut, das Material ist thermisch extrem widerstandsfähig und daher ideal für Vorlaufleitungen in modernen Heizanlagen."
+            "q": "L'SDR 7.4 è adatto per i sistemi di riscaldamento?",
+            "a": "Assolutamente, il materiale è estremamente resistente al calore ed è quindi ideale per le tubazioni di mandata nei moderni impianti di riscaldamento."
           }
         ]
       },
@@ -1406,29 +1406,29 @@
   "toggle_theme_light": "Zu hellem Design wechseln",
   "toggle_theme_dark": "Zu dunklem Design wechseln",
   "nav": {
-    "home": "Start",
-    "products": "Produkte",
-    "finder": "Produktfinder",
-    "co2": "CO₂-Rechner",
-    "markets": "Märkte",
+    "home": "Home",
+    "products": "Prodotti",
+    "finder": "Trova Prodotti",
+    "co2": "Calcolatore CO₂",
+    "markets": "Mercati",
     "trust": "Trust Center",
-    "contact": "Kontakt",
-    "quote": "Angebot anfragen",
-    "menu": "Menü",
-    "lang": "Sprache",
-    "skipToContent": "Zum Inhalt springen",
-    "menuPlaceholder": "Platzhalter (Mega-Menü)",
+    "contact": "Contatti",
+    "quote": "Richiedi un Preventivo",
+    "menu": "Menu",
+    "lang": "Lingua",
+    "skipToContent": "Vai al contenuto",
+    "menuPlaceholder": "Menu (Segnaposto)",
     "academy": "Academy",
-    "service": "Service",
-    "about": "Unternehmen",
-    "solutions": "Lösungen",
-    "partners": "Partnerschaft",
-    "references": "Referenzen",
-    "career": "Karriere",
+    "service": "Servizi",
+    "about": "Azienda",
+    "solutions": "Soluzioni",
+    "partners": "Partnership",
+    "references": "Referenze",
+    "career": "Lavora con noi",
     "news": "News",
-    "knowledge_trust": "Wissen & Vertrauen",
-    "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht",
+    "knowledge_trust": "Conoscenza & Fiducia",
+    "mapAria": "Apri navigazione mappa",
+    "sitemapAria": "Mappa del sito",
     "pipes": "Tubi",
     "fittings": "Raccordi",
     "valves": "Valvole",
@@ -1441,88 +1441,88 @@
     "edgePageIndex": "Indice pagine"
   },
   "groups": {
-    "tools": "Werkzeuge",
-    "knowledge": "Wissen",
-    "company": "Unternehmen",
-    "products": "Produkte",
-    "markets_solutions": "Märkte & Lösungen",
-    "knowledge_resources": "Wissen & Ressourcen"
+    "tools": "Strumenti",
+    "knowledge": "Conoscenza",
+    "company": "Azienda",
+    "products": "Prodotti",
+    "markets_solutions": "Mercati & Soluzioni",
+    "knowledge_resources": "Conoscenza & Risorse"
   },
   "pages": {
-    "catalogOverview": "Vollständiger Produktkatalog",
+    "catalogOverview": "Catalogo Prodotti Completo",
     "products": [
-      "PP-R Kunststoffrohre & Fittings Übersicht",
-      "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
+      "Panoramica Tubi & Raccordi in PP-R",
+      "Scopri i sistemi completi di tubazioni in plastica K Aqua da d20 a d630 mm. Tubi in PP-R e PPRCT ad alte prestazioni per uso domestico e industriale."
     ],
     "finder": [
-      "Interaktiver Produktfinder für PP-R Rohre",
-      "Finden Sie sofort das perfekte PP-R oder PPRCT Rohr, Fitting oder Ventil. Filtern Sie unseren Katalog live nach Dimension, Druckklasse und Wandstärke."
+      "Trova-prodotti interattivo per tubi in PP-R",
+      "Trova immediatamente il tubo, raccordo o valvola perfetta in PP-R o PPRCT. Filtra il nostro catalogo in tempo reale per dimensione, classe di pressione e spessore della parete."
     ],
     "finderGuideText": "<h2>Trova-prodotti interattivo per i sistemi di tubazioni K-Aqua</h2><p>Usa il nostro innovativo trova-prodotti per identificare il componente esatto per la tua installazione specifica di tubazioni. Che tu stia cercando tubi PP-R standard per l'installazione di acqua potabile, tubi PPRCT rinforzati con fibra per sistemi industriali esigenti, o raccordi e valvole di transizione speciali – il nostro strumento filtra l'intero catalogo in tempo reale. La ricerca del prodotto ti assiste nella selezione per diametro (da d20 a d630), classe di pressione (classe SDR) e materiale.</p><p>Un sistema di tubazioni ben strutturato richiede una pianificazione precisa e l'esatta combinazione di tubi, raccordi (come manicotti, gomiti e raccordi a T) e gli accessori corrispondenti. Il nostro trova-prodotti elimina la ricerca dispendiosa in termini di tempo in cataloghi PDF statici e ti fornisce invece dati immediati e affidabili su codici articolo, unità di imballaggio e specifiche tecniche. Con pochi clic, puoi compilare la tua lista materiali e garantire la compatibilità dei vari componenti per i sistemi di riscaldamento, raffreddamento e acqua potabile. Questo non solo ottimizza il tuo processo di pianificazione, ma minimizza anche gli errori nell'ordinazione dei materiali per il tuo prossimo progetto di costruzione.</p>",
     "co2": [
-      "CO2-Rechner für nachhaltige Rohrsysteme",
-      "Vergleichen Sie den CO2-Fußabdruck von K Aqua PP-R Kunststoffrohren mit Kupfer, Edelstahl und PVC. Geprüft nach ISO 14040/44 für Green Building."
+      "Calcolatore CO2 per sistemi di tubazioni sostenibili",
+      "Confronta l'impronta di CO2 dei tubi in plastica PP-R K Aqua con rame, acciaio inossidabile e PVC. Certificato ISO 14040/44 per la bioedilizia."
     ],
     "solutions": [
-      "Materialvorteile von Polypropylen-Rohren",
-      "Erfahren Sie, warum Polypropylen (PP-R/PPRCT) das überlegene Material für die Wasserversorgung ist. Ökologisch, technisch fortschrittlich und wirtschaftlich."
+      "Vantaggi dei tubi in polipropilene",
+      "Scopri perché il polipropilene (PP-R/PPRCT) è il materiale superiore per la fornitura idrica. Ecologico, tecnologicamente avanzato ed economico."
     ],
     "academy": [
-      "Schweiß-Academy für PP-R Installation",
-      "Lernen Sie professionelle Schweißtechniken für PP-R Kunststoffrohre. Sehen Sie sich Video-Tutorials an und absolvieren Sie unser Welding-Master-Quiz."
+      "Academy di Saldatura per installazioni PP-R",
+      "Impara tecniche di saldatura professionali per tubi in plastica PP-R. Guarda i video tutorial e completa il nostro quiz per maestri saldatori."
     ],
     "trust": [
-      "Trust Center: ISO-Zertifikate & Audits",
-      "Greifen Sie auf K Aquas Qualitätsdokumentation zu. Laden Sie ISO-Zertifikate, das GENAU-Framework und Audit Dokumente für Ihr Projekt herunter."
+      "Trust Center: Certificati ISO & Audit",
+      "Accedi alla documentazione sulla qualità di K Aqua. Scarica certificati ISO, il framework GENAU e i documenti di audit per il tuo progetto."
     ],
     "service": [
-      "Technisches Service & Download Center",
-      "Laden Sie offizielle K Aqua Produktkataloge, technische Datenblätter und Installationsrichtlinien für PP-R und PPRCT Kunststoffrohrsysteme herunter."
+      "Servizio Tecnico & Download Center",
+      "Scarica cataloghi prodotti ufficiali K Aqua, schede tecniche e linee guida di installazione per i sistemi di tubazioni in plastica PP-R e PPRCT."
     ],
     "partner": [
-      "Premium KESSEL Partnerschaft für Rohre",
-      "K Aqua und KESSEL verbindet eine jahrzehntelange Partnerschaft, die deutsche Fertigungsstandards von der Entwässerung auf die Wasserversorgung überträgt."
+      "Partnership Premium KESSEL per Tubazioni",
+      "K Aqua e KESSEL condividono una partnership decennale che porta gli standard di produzione tedeschi dal drenaggio alla fornitura idrica."
     ],
     "markets": [
-      "Globale Märkte & Lokale Vertriebsstruktur",
-      "K Aqua liefert PP-R Rohrsysteme in über 27 Länder. Nutzen Sie unsere interaktive Weltkarte für lokale Standards, Wasserprofile und Logistikinformationen."
+      "Mercati Globali & Struttura di Vendita Locale",
+      "K Aqua fornisce sistemi di tubazioni in PP-R in oltre 27 paesi. Usa la nostra mappa mondiale interattiva per standard locali, profili idrici e informazioni logistiche."
     ],
     "references": [
-      "Weltweite K-Aqua Referenzprojekte & PP-R Installationen",
-      "Entdecken Sie weltweite Referenzprojekte mit K-Aqua PP-R Rohrsystemen. Unser interaktiver 3D-Globus zeigt häusliche, gewerbliche & industrielle Anlagen."
+      "Progetti di Referenza Mondiali K-Aqua & Installazioni PP-R",
+      "Esplora i progetti di referenza mondiali con i sistemi di tubazioni in PP-R K-Aqua. Il nostro globo 3D interattivo mostra installazioni domestiche, commerciali e industriali."
     ],
     "about": [
-      "Über KWT GmbH: Experten für Rohrherstellung",
-      "Die KWT GmbH bündelt jahrzehntelange Erfahrung, um das K Aqua Premium-Rohrsystem zu fertigen. Deutsche Ingenieurskunst für höchste Qualität und Innovation."
+      "Su KWT GmbH: Esperti nella produzione di tubazioni",
+      "KWT GmbH combina decenni di esperienza per produrre il sistema di tubazioni premium K Aqua. Ingegneria tedesca per altissima qualità e innovazione."
     ],
     "career": [
-      "Karriere bei K Aqua: Zukunft des Wassers",
-      "Werden Sie Teil unseres Teams in Waldsolms. Berechnen Sie Ihre steuerfreien Vorteile netto und testen Sie in 60 Sekunden, ob K Aqua zu Ihnen passt."
+      "Lavora in K Aqua: Il futuro dell'acqua",
+      "Entra nel nostro team a Waldsolms. Calcola i tuoi vantaggi fiscali netti e fai il test di 60 secondi per vedere se K Aqua è adatta a te."
     ],
     "news": [
-      "News & Events der Kunststoffrohrindustrie",
-      "Bleiben Sie auf dem Laufenden über K Aqua Innovationen, Produkte, Messeauftritte und unser Engagement für die dreifach ISO-geprüfte Produktion."
+      "News & Eventi dell'industria dei tubi in plastica",
+      "Rimani aggiornato sulle innovazioni K Aqua, i prodotti, le fiere e il nostro impegno per la produzione con tripla certificazione ISO."
     ],
     "contact": [
-      "Kontakt K Aqua: Vertrieb & Technischer Support",
-      "Kontaktieren Sie das K Aqua-Expertenteam für Vertriebsanfragen, Support oder Partnerschaften. Schnelle Reaktionszeiten für globale B2B-Kunden."
+      "Contatta K Aqua: Vendite & Supporto Tecnico",
+      "Contatta il team di esperti K Aqua per richieste di vendita, supporto o partnership. Tempi di risposta rapidi per i clienti B2B globali."
     ],
     "rfq": [
-      "Projektanfrage & unverbindliches Angebot",
-      "Fordern Sie in vier einfachen Schritten ein unverbindliches Angebot für Ihr nächstes Rohrprojekt an. Unser Vertriebsteam meldet sich innerhalb von 24 Stunden."
+      "Richiesta di Progetto & Preventivo senza impegno",
+      "Richiedi un preventivo senza impegno per il tuo prossimo progetto di tubazioni in quattro semplici passi. Il nostro team vendite risponderà entro 24 ore."
     ],
     "home": [
-      "Hersteller für PP-R & PPRCT Rohrsysteme",
-      "K Aqua produziert erstklassige PP-R und PPRCT Kunststoffrohrsysteme für Trinkwasser und Industrieanwendungen. Deutsche Ingenieurskunst für globale Projekte."
+      "Produttore di Sistemi di Tubazioni in PP-R & PPRCT",
+      "K Aqua produce sistemi di tubazioni in plastica PP-R e PPRCT di prima classe per acqua potabile e applicazioni industriali. Ingegneria tedesca per progetti globali."
     ],
     "legal": {
       "datenschutz": [
-        "Datenschutzerklärung",
-        "Umfassende Datenschutzerklärung für die K Aqua Website gemäß DSGVO-Richtlinien."
+        "Informativa sulla Privacy",
+        "Informativa sulla privacy completa per il sito web K Aqua in conformità con le linee guida GDPR."
       ],
       "impressum": [
-        "Impressum & Rechtliche Hinweise",
-        "Impressum und rechtliche Unternehmensinformationen der KWT GmbH, Hersteller von K Aqua."
+        "Impressum & Note Legali",
+        "Impressum e informazioni legali aziendali di KWT GmbH, produttore di K Aqua."
       ]
     },
     "genauManagement": {
@@ -1560,64 +1560,64 @@
     ]
   },
   "home": {
-    "chip": "geprüft seit Oktober 2025",
-    "h1a": "Führend bei",
-    "h1b": "K-Aqua PP-R Rohrsystemen",
-    "globeAria": "Interaktiver Globus: ziehen zum Drehen",
+    "chip": "testato da ottobre 2025",
+    "h1a": "Leader nei",
+    "h1b": "Sistemi di Tubazioni PP-R K-Aqua",
+    "globeAria": "Globo interattivo: trascina per ruotare",
     "scrolly": [
       {
-        "t": "Gefertigt in Deutschland",
-        "d": "Entwicklung und Produktion am Standort Waldsolms: jedes Rohr, jedes Formteil."
+        "t": "Prodotto in Germania",
+        "d": "Sviluppo e produzione nel sito di Waldsolms: ogni tubo, ogni raccordo."
       },
       {
-        "t": "d20 bis d630",
-        "d": "Ein vollständiges System: fünf Druckstufen, Formteile, Armaturen und Schweißtechnik."
+        "t": "da d20 a d630",
+        "d": "Un sistema completo: cinque classi di pressione, raccordi, valvole e tecnologia di saldatura."
       },
       {
-        "t": "Dreifach geprüft",
-        "d": "ISO 9001, 14001 und 50001: Qualität, Umwelt und Energie aus einem Managementsystem."
+        "t": "Tripla certificazione",
+        "d": "ISO 9001, 14001 e 50001: Qualità, Ambiente ed Energia in un unico sistema di gestione."
       },
       {
-        "t": "27 Märkte weltweit",
-        "d": "Von Frankfurt bis NEOM: geprüft gegen die Normen und Wasserprofile vor Ort."
+        "t": "27 Mercati nel mondo",
+        "d": "Da Francoforte a NEOM: testati contro gli standard e i profili idrici locali."
       }
     ],
-    "lead": "K Aqua entwickelt und fertigt PP-R/PPRCT-Rohrsysteme für Trinkwasser: von 20 bis 630 mm, in Partnerschaft mit dem Premiumhersteller KESSEL.",
-    "ctaProducts": "Produktsystem entdecken",
-    "ctaContact": "Kontakt aufnehmen",
-    "toolsEyebrow": "Interaktive Werkzeuge",
-    "toolsTitle1": "Keine Textwüste.",
-    "toolsTitle2": "Werkzeuge.",
-    "toolsLead": "Die Website arbeitet für Sie: filtern, rechnen, lernen.",
-    "bandTitle": "Bereit für die nächste Generation der Wasserversorgung?",
-    "bandLead": "Sprechen Sie mit unserem Vertriebsteam über Ihr Projekt: von der Planung bis zur Schweißtechnik.",
-    "bandBtn": "Projektanfrage starten",
-    "bandBtn2": "Downloads & Service"
+    "lead": "K Aqua sviluppa e produce sistemi di tubazioni PP-R/PPRCT per l'acqua potabile: da 20 a 630 mm, in partnership con il produttore premium KESSEL.",
+    "ctaProducts": "Scopri i Sistemi di Prodotti",
+    "ctaContact": "Contattaci",
+    "toolsEyebrow": "Strumenti Interattivi",
+    "toolsTitle1": "Niente lunghi testi.",
+    "toolsTitle2": "Strumenti.",
+    "toolsLead": "Il sito lavora per te: filtra, calcola, impara.",
+    "bandTitle": "Pronto per la prossima generazione di fornitura idrica?",
+    "bandLead": "Parla con il nostro team vendite del tuo progetto: dalla pianificazione alla tecnologia di saldatura.",
+    "bandBtn": "Avvia richiesta di progetto",
+    "bandBtn2": "Download & Servizi"
   },
   "geo": {
-    "eyebrow": "Märkte & Standorte",
-    "title1": "Eine Welt voller",
-    "title2": "Märkten.",
-    "lead": "{n} Märkte in {c} Ländern: jeder mit eigener Landingpage: Normen, Wasserprofil, Anwendungsfälle, Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
-    "all": "Alle",
-    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
-    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort.",
-    "allMarkets": "Alle Märkte",
-    "request": "Projekt anfragen",
-    "finder": "Produktfinder",
-    "fromPlant": "km ab Werk Waldsolms",
-    "regFrame": "Regulatorischer Rahmen",
-    "water": "Wasserprofil & Materialantwort",
-    "typical": "Typische Projekte in {city}",
-    "onSite": "Verarbeitung vor Ort",
-    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne: in der Academy.",
-    "toAcademy": "Zur Academy",
-    "nearbyEyebrow": "Verwandte Märkte",
-    "nearby": "In der Nähe.",
-    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
+    "eyebrow": "Mercati & Sedi",
+    "title1": "Un mondo pieno di",
+    "title2": "Mercati.",
+    "lead": "{n} mercati in {c} paesi: ognuno con la propria landing page: standard, profilo idrico, casi d'uso, logistica. Afferra il mondo e fallo girare liberamente; la lista ti porterà esattamente alla città.",
+    "all": "Tutti",
+    "cityTitle": "Sistemi di Tubazioni PP-R/PPRCT a {city}.",
+    "cityLead": "Sistemi per acqua potabile d20–d630, testati contro i requisiti locali.",
+    "allMarkets": "Tutti i mercati",
+    "request": "Richiedi progetto",
+    "finder": "Trova prodotti",
+    "fromPlant": "km dalla fabbrica di Waldsolms",
+    "regFrame": "Quadro normativo",
+    "water": "Profilo idrico & Risposta dei materiali",
+    "typical": "Progetti tipici a {city}",
+    "onSite": "Elaborazione in cantiere",
+    "onSiteText": "Istruzioni sulla tecnologia di saldatura e documentazione video per la tua squadra: nell'Academy.",
+    "toAcademy": "Vai all'Academy",
+    "nearbyEyebrow": "Mercati correlati",
+    "nearby": "Nelle vicinanze.",
+    "prodNote": "Nota di produzione: Queste pagine seguono il template SEO Programmatico. In Next.js sono generate tramite ISR dal CMS headless: incluso hreflang, schema Product-/Offer e link interni semantici.",
     "km": "km",
-    "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "seoExpansion": "K Aqua produce sistemi di tubazioni in PP-R e PPRCT a Waldsolms per i più alti standard nell'ingegneria edile e impiantistica globale. Grazie all'ingegneria tedesca senza compromessi e alla tecnologia di produzione all'avanguardia, i nostri sistemi garantiscono decenni di affidabilità operativa senza manutenzione. Ogni prodotto, da d20 a d630, è sottoposto a severi controlli di qualità e soddisfa standard internazionali come DVGW, KIWA e SKZ. Non forniamo solo materiali di prima qualità per acqua potabile, raffreddamento e industria, ma supportiamo anche progettisti e installatori con un'assistenza tecnica completa e formazione in loco. Affidati a un sistema che colpisce per estrema durata, assenza di corrosione e igiene assoluta.",
+    "seoExpansionDynamic": "Scopri di più sulle nostre soluzioni PP-R e PPRCT a {city}. Soddisfiamo gli standard locali ({regulator}) e offriamo sistemi ottimali per la qualità dell'acqua ({water}). Nota aggiuntiva: {note}.",
     "cityMetaTitle": "Sistemi di tubazioni in PP-R a {city}",
     "hubMetaTitle": "Sistemi di tubazioni in PP-R per {country}",
     "hubH1": "Soluzioni infrastrutturali per {country}",
@@ -3567,16 +3567,16 @@
       "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
       "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen Random Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
     },
-    "eyebrow": "Über uns",
-    "title1": "Erfahrung ist Ihr",
-    "titleGrad": "Vorteil.",
-    "lead": "Neue Strategien, gewachsenes Wissen: Die KWT GmbH verbindet jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
-    "h2": "K Aqua: führend in der Wasserversorgung",
-    "p1": "Das Geschäftsfeld der KWT GmbH ist die Fertigung von Rohren und Formteilen für die Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich das Unternehmen in der Wertschöpfungskette Bau als Baustofflieferant und Hersteller.",
-    "p2": "Mit dem Premiumhersteller KESSEL: „Leading in drainage\": besteht eine enge und langjährige Partnerschaft. Mit dieser Erfahrung aus Jahrzehnten tragen wir unseren Erfolg in die Zukunft.",
-    "polEyebrow": "Unternehmenspolitik",
-    "polTitle": "Nutzen entsteht im Zusammenspiel.",
-    "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen: und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
+    "eyebrow": "Chi siamo",
+    "title1": "L'esperienza è il vostro",
+    "titleGrad": "vantaggio.",
+    "lead": "Nuove strategie, conoscenze consolidate: KWT GmbH unisce decenni di esperienza produttiva a una chiara visione del futuro.",
+    "h2": "K Aqua: leader nell'approvvigionamento idrico",
+    "p1": "Il settore di attività di KWT GmbH è la produzione di tubi e raccordi in diverse materie plastiche per l'approvvigionamento idrico. L'azienda si posiziona così nella catena del valore dell'edilizia come fornitore e produttore di materiali da costruzione.",
+    "p2": "Esiste una partnership stretta e di lunga data con il produttore di prim'ordine KESSEL: \"Leading in drainage\". Con questa esperienza decennale portiamo il nostro successo nel futuro.",
+    "polEyebrow": "Politica aziendale",
+    "polTitle": "Il valore nasce dalla collaborazione.",
+    "polLead": "Nessun valore per il cliente senza valore per i dipendenti, nessun valore per i dipendenti senza valore per l'azienda: e nessun valore per l'azienda senza valore per l'ambiente e la collettività.",
     "cards": [
       {
         "t": "Menschen im Mittelpunkt",
@@ -3591,152 +3591,152 @@
         "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung von Ressourcenschonung, Umweltverträglichkeit und strikter Einhaltung aller Verpflichtungen."
       }
     ],
-    "genauEyebrow": "GENAU-Managementsystem",
-    "genauTitle": "Genau hinschauen. Genau verbessern.",
-    "genauLead": "Das GENAU-Managementsystem ist in das House of KWT integriert und damit ein zentrales Element unserer Philosophie.",
+    "genauEyebrow": "Sistema di gestione GENAU",
+    "genauTitle": "Osservare con precisione. Migliorare con precisione.",
+    "genauLead": "Il sistema di gestione GENAU è integrato nella House of KWT ed è quindi un elemento centrale della nostra filosofia.",
     "points": [
       "Kontinuierliche Verbesserung von Arbeits-, Umwelt- und Gesundheitsschutz",
       "Optimierung der Energieeffizienz",
       "Prävention, laufende Gefahrenermittlung und Risikobewertung",
       "Jeder Mitarbeitende ist verpflichtet, Gefahren zu melden und aktiv mitzuwirken"
     ],
-    "certTitle": "geprüft nach Norm",
-    "certText": "Das gelebte GENAU-Management erfüllt die Anforderungen der DIN EN ISO 14001 und 50001: seit Oktober 2025 ergänzt um ISO 9001:2015.",
+    "certTitle": "Testato secondo le norme",
+    "certText": "La gestione GENAU praticata soddisfa i requisiti della norma DIN EN ISO 14001 e 50001: dall'ottobre 2025 integrata dalla ISO 9001:2015.",
     "meta": {
-      "title": "Über KWT GmbH: Experten für Rohrherstellung",
-      "desc": "Das Epizentrum deutscher Ingenieurskunst."
+      "title": "Chi è KWT GmbH: Esperti nella produzione di tubi",
+      "desc": "L'epicentro dell'ingegneria tedesca."
     },
     "hero": {
-      "eyebrow": "Die K Aqua Doktrin",
+      "eyebrow": "La dottrina K Aqua",
       "title1": "German Engineering.",
-      "title2": "Kompromisslos.",
-      "desc": "Wir machen keine Kompromisse. Wir definieren den globalen Standard für PP-R Rohrleitungssysteme. Willkommen im Epizentrum deutscher Ingenieurskunst."
+      "title2": "Senza compromessi.",
+      "desc": "Non accettiamo compromessi. Definiamo lo standard globale per i sistemi di tubazioni PP-R. Benvenuti nell'epicentro dell'ingegneria tedesca."
     },
     "intro": {
-      "title1": "WIR LEITEN NICHT NUR WASSER.",
-      "title2": "WIR KONTROLLIEREN ES.",
-      "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme, die für die Ewigkeit gebaut sind. Kein Raum für Fehler. Kein Platz für Mittelmaß. Nur reine, unerbittliche Präzision, die sich in jedem einzelnen Fitting manifestiert."
+      "title1": "NON CI LIMITIAMO A TRASPORTARE L'ACQUA.",
+      "title2": "LA CONTROLLIAMO.",
+      "desc": "Da oltre 30 anni produciamo sistemi di tubazioni costruiti per durare in eterno. Nessun margine di errore. Nessuno spazio per la mediocrità. Solo pura e implacabile precisione che si manifesta in ogni singolo raccordo."
     },
     "material": {
-      "eyebrow": "Materialwissenschaft",
-      "title1": "Polypropylen Random Copolymerisat.",
-      "title2": "Entfesselt.",
-      "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
-      "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit: selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+      "eyebrow": "Scienza dei materiali",
+      "title1": "Copolimero Random di Polipropilene.",
+      "title2": "Scatenato.",
+      "p1": "Il PP-R tipo 3 non è una semplice plastica. È un materiale termoplastico altamente complesso che dominiamo a livello molecolare.",
+      "p2": "Attraverso la disposizione strategica dei monomeri di etilene nella catena del propilene otteniamo una resistenza agli urti ineguagliabile: persino a temperature sotto lo zero. I nostri granuli provengono esclusivamente dall'élite globale dei produttori di materie prime. Analizziamo ogni lotto mediante calorimetria a scansione differenziale (DSC) e test del Melt Flow Rate (MFR). Ciò che manca le nostre specifiche anche di un solo millesimo viene eliminato senza pietà.",
       "items": [
         {
-          "title": "Extreme Molmasse",
-          "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
+          "title": "Massa molare estrema",
+          "desc": "Garantisce la massima resistenza allo scorrimento viscoso e un'assoluta resistenza alla tensocorrosione sotto pressioni estreme."
         },
         {
-          "title": "Kristalline Optimierung",
-          "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
+          "title": "Ottimizzazione cristallina",
+          "desc": "Il perfetto equilibrio termodinamico. Massima flessibilità per condizioni di posa radicali unita a simultanea rigidità assiale."
         }
       ]
     },
     "timeline": {
-      "title": "Die Evolution der Perfektion",
-      "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
+      "title": "L'evoluzione della perfezione",
+      "desc": "Un'ascesa inarrestabile verso il predominio globale del mercato. Ogni decennio rappresenta una pietra miliare di superiorità tecnologica.",
       "items": [
         {
           "year": "1990",
-          "title": "Der Ursprung der Toleranzlosigkeit",
-          "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
+          "title": "Le origini dell'intolleranza ai compromessi",
+          "text": "Dove gli altri scendevano a compromessi, noi abbiamo tracciato una linea rossa. La fondazione di K Aqua si basava su un unico e incrollabile principio: sistemi di tubazioni impeccabili. I nostri primi estrusori operavano con una precisione che ha scioccato il mercato."
         },
         {
           "year": "2005",
-          "title": "Die Polypropylen-Revolution",
-          "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
+          "title": "La rivoluzione del polipropilene",
+          "text": "Ci siamo rifiutati di accettare lo status quo. Con l'introduzione della nostra miscela PP-R proprietaria abbiamo ridefinito la stabilità termica. Mentre i prodotti concorrenti collassavano sotto pressione, i nostri sistemi rimanevano stoicamente intatti. Un trionfo della chimica dei polimeri."
         },
         {
           "year": "2015",
-          "title": "Die architektonische Symbiose",
-          "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet: K Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PPRCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+          "title": "La simbiosi architettonica",
+          "text": "Dagli skyline di Dubai fino agli impianti industriali della regione della Ruhr: K Aqua è diventata sinonimo di infrastruttura indistruttibile. I nostri tubi in materiale composito PPRCT hanno rivoluzionato l'ingegneria strutturale. Minore espansione, maggiore portata, dominio assoluto."
         },
         {
           "year": "2026",
-          "title": "Die Molekulare Diktatur",
-          "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
+          "title": "La dittatura molecolare",
+          "text": "Oggi controlliamo ogni aspetto della produzione. Dalla selezione dei granuli grezzi fino all'ispezione finale, i nostri sistemi sono soggetti a un regime di qualità dittatoriale. Il risultato? Una durata garantita che sopravviverà a generazioni."
         }
       ]
     },
     "sticky": {
-      "eyebrow": "DIE PHYSIK BEZWUNGEN",
-      "title": "Die Vier Säulen der Macht.",
-      "lead": "Technologie, die an Magie grenzt. Wir haben die Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
+      "eyebrow": "LA FISICA SCONFITTA",
+      "title": "I quattro pilastri del potere.",
+      "lead": "Tecnologia che rasenta la magia. Non ci siamo limitati a superare i limiti dei sistemi di tubazioni convenzionali, li abbiamo polverizzati.",
       "items": [
         {
-          "title": "Absolutismus in der Qualität",
-          "desc": "Jeder Millimeter unserer PP-R und PPRCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
+          "title": "Assolutismo nella qualità",
+          "desc": "Ogni millimetro dei nostri sistemi PP-R e PPRCT è sottoposto a test di carico brutali. 50 anni di durata non sono una promessa, ma una certezza matematica. Tolleriamo zero deviazioni. Ciò che esce dai nostri stabilimenti è la perfezione sotto forma di polimero."
         },
         {
-          "title": "Thermische Unverwundbarkeit",
-          "desc": "Unsere Faserverbundrohre (K Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
+          "title": "Invulnerabilità termica",
+          "desc": "I nostri tubi compositi (K Aqua Faser) neutralizzano quasi completamente l'espansione termica lineare. Che si tratti di un gelido -20°C o di un rovente +95°C, i nostri sistemi mantengono una stabilità dimensionale assoluta. Un capolavoro ingegneristico che sembra sfidare le leggi della fisica."
         },
         {
-          "title": "Chemische Resistenz",
-          "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K Aqua unangetastet: stoisch, monolithisch, unverwüstlich."
+          "title": "Resistenza chimica",
+          "desc": "La corrosione non esiste nel nostro vocabolario. I nostri polimeri sono immuni ai fluidi più aggressivi, alle incrostazioni e alla degradazione biologica. Mentre i metalli nel terreno si arrugginiscono e decadono, K Aqua rimane intatta: stoica, monolitica, indistruttibile."
         },
         {
-          "title": "Molekulare Fusion",
-          "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
+          "title": "Fusione molecolare",
+          "desc": "Attraverso il nostro processo di saldatura omogeneo, tubo e raccordo si fondono a livello molecolare in un'unità inseparabile. Nessuna guarnizione soggetta a usura. Nessun punto debole meccanico. Una struttura monolitica che dura in eterno."
         }
       ]
     },
     "bento": {
-      "eyebrow": "INDUSTRIELLE DOMINANZ",
-      "title": "Infrastruktur auf Steroiden.",
-      "lead": "Wir fertigen nicht einfach Rohre. Wir erschaffen die Arterien der modernen Zivilisation. K Aqua ist das Rückgrat industrieller und architektonischer Megaprojekte weltweit.",
+      "eyebrow": "DOMINIO INDUSTRIALE",
+      "title": "Infrastruttura sotto steroidi.",
+      "lead": "Non ci limitiamo a produrre tubi. Creiamo le arterie della civiltà moderna. K Aqua è la spina dorsale di megaprogetti industriali e architettonici in tutto il mondo.",
       "items": [
         {
-          "title": "Brachiale Extrusion",
-          "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
+          "title": "Estrusione brutale",
+          "desc": "Impianti ad alte prestazioni che operano sotto pressioni estreme. Il risultato è una coerenza dello spessore delle pareti insuperabile, fino al livello dei micrometri."
         },
         {
-          "title": "geprüfte Überlegenheit",
-          "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
+          "title": "Superiorità certificata",
+          "desc": "ISO 9001, 14001, 50001. Non ci limitiamo a superare gli standard, li dettiamo. L'accreditamento internazionale è per noi la norma assoluta."
         },
         {
-          "title": "Hygiene-Diktat",
-          "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K Aqua Systemen unangetastet rein. Keine Ausnahme."
+          "title": "Diktat dell'igiene",
+          "desc": "Adatto per alimenti, tossicologicamente sicuro e assolutamente resistente ai germi. L'acqua potabile rimane incontaminata nei sistemi K Aqua. Senza eccezioni."
         },
         {
-          "title": "Ressourcen-Effizienz",
-          "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
+          "title": "Efficienza delle risorse",
+          "desc": "Completamente riciclabile. Impronta di CO2 minima durante la produzione. Perché il vero potere tecnologico implica sempre anche la responsabilità per il futuro."
         }
       ]
     },
     "values": {
-      "eyebrow": "Unternehmenspolitik",
-      "title": "Das Fundament unseres Handelns.",
-      "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich in der Art und Weise, wie ein Unternehmen mit seiner Umwelt, seinen Mitarbeitern und seinen Partnern agiert.",
+      "eyebrow": "Politica aziendale",
+      "title": "Le fondamenta delle nostre azioni.",
+      "desc": "La tecnologia da sola non basta. La vera grandezza si manifesta nel modo in cui un'azienda interagisce con l'ambiente, i dipendenti e i partner.",
       "items": [
         {
-          "title": "Kunden-Obsession",
-          "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
+          "title": "Ossessione per il cliente",
+          "desc": "Non ci limitiamo a servire i mercati, li dominiamo attraverso un'attenzione radicale verso il cliente. Le vostre esigenze sono i nostri ordini. Le nostre soluzioni sono precise, scalabili e assolutamente prive di compromessi nella loro esecuzione."
         },
         {
-          "title": "Strategische Allianzen",
-          "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+          "title": "Alleanze strategiche",
+          "desc": "Non cerchiamo fornitori, formiamo alleanze strategiche con i migliori produttori di materie prime del pianeta. Ricerca condivisa, standard di qualità condivisi, dominio condiviso."
         },
         {
-          "title": "Ökologischer Imperativ",
-          "desc": "Nachhaltigkeit ist bei K Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
+          "title": "Imperativo ecologico",
+          "desc": "Per K Aqua la sostenibilità non è uno slogan di marketing, ma un imperativo fisico. La longevità è la massima forma di tutela ambientale. I nostri sistemi riducono al minimo l'impronta energetica, dalla produzione fino al riciclo."
         }
       ]
     },
     "genauManagement": {
-      "eyebrow": "geprüfte Qualität",
-      "title1": "Das ",
+      "eyebrow": "Qualità testata",
+      "title1": "Il sistema di gestione ",
       "titleHighlight": "GENAU",
-      "title2": " Management System",
-      "p1": "Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen.",
-      "p2": "Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der ",
-      "p3": " und ",
-      "list1Title": "Ökologische Verantwortung",
-      "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
-      "list2Title": "Energieeffizienz",
-      "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
+      "title2": "",
+      "p1": "L'obiettivo del sistema di gestione GENAU è il miglioramento continuo della salute, della sicurezza e della tutela ambientale all'interno dell'azienda.",
+      "p2": "Tutte le attività aziendali di KWT vengono svolte tenendo in considerazione il risparmio delle risorse, la compatibilità ambientale e il rigoroso rispetto di tutti gli obblighi. Il sistema di gestione GENAU applicato soddisfa gli elevati requisiti della ",
+      "p3": " e ",
+      "list1Title": "Responsabilità ecologica",
+      "list1Desc": "La tutela dell'ambiente è parte della nostra concezione di qualità, alla quale si impegnano tutti i dipendenti di KWT GmbH.",
+      "list2Title": "Efficienza energetica",
+      "list2Desc": "Identificazione mirata dei rischi e attuazione di misure per ottimizzare l'efficienza energetica."
     }
   },
   "news": {

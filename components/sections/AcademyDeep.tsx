@@ -73,7 +73,7 @@ export function AcademyDeep() {
             </div>
           </Reveal>
           <Reveal delay={0.12}>
-            <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 items-start">
+            <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-y-10 lg:gap-6 items-start">
               <Card>
                 <div className="mb-3 font-heading text-body font-bold text-foreground">{procs![proc]!.t}</div>
                 <StepFlow steps={procs![proc]!.steps} />

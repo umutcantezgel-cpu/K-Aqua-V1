@@ -46,7 +46,7 @@ export const FULLY_CURATED_LOCALES = ['de', 'en', 'ar'] as const;
 
 /** Locales with their own messages/<locale>.json (superset of FULLY_CURATED_LOCALES). */
 export const TRANSLATED_LOCALES = [
-  'ar', 'cs', 'de', 'en', 'en-GB', 'es', 'es-ES', 'fr', 'it', 'nl', 'pl', 'pt-BR', 'pt', 'pt-PT', 'ru', 'tr', 'zh', 'sk', 'hu', 'sr', 'hr', 'ro', 'bg', 'el', 'sl', 'sq', 'mk', 'sv', 'no',
+  'de', 'en', 'fr', 'es-ES', 'pt-PT', 'it', 'nl', 'pl', 'cs', 'sk', 'hu', 'ro', 'bg', 'el', 'sr', 'hr', 'sl', 'sq', 'mk', 'sv', 'no', 'da', 'fi', 'is', 'et', 'lv', 'lt', 'uk', 'ru', 'tr', 'az', 'ka', 'hy', 'en-US', 'es-419', 'pt-BR', 'ar', 'he', 'fa', 'sw', 'am', 'fr-SN', 'en-NG', 'en-ZA', 'pt-AO', 'hi', 'ur', 'bn', 'si', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'mn', 'kk', 'uz', 'th', 'vi', 'km', 'my', 'lo', 'ms', 'id', 'fil', 'en-AU',
 ] as const;
 
 type Row = [

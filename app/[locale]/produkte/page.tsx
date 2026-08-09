@@ -96,10 +96,10 @@ export default async function ProduktePage({ params }: Props) {
               </p>
             </div>
           </Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 pb-8 md:pb-0">
             {range.map((r, i) => {
               return (
-                <Reveal key={r.t} delay={i * 0.08} className="h-full">
+                <Card key={i} className="flex flex-col p-8 w-full hover:shadow-diffuse transition-shadow">
                   <div className="ka-speccard h-full w-full">
                     <svg className="ka-speccard-ring" width="84" height="84" viewBox="0 0 84 84" aria-hidden="true">
                       <circle cx="42" cy="42" r="38" fill="none" stroke="var(--primary, #5B2D8C)" strokeWidth="7"></circle>
@@ -115,7 +115,7 @@ export default async function ProduktePage({ params }: Props) {
                       </div>
                     </div>
                   </div>
-                </Reveal>
+                </Card>
               );
             })}
           </div>
@@ -125,7 +125,7 @@ export default async function ProduktePage({ params }: Props) {
       {/* Dimensions & Pressure Ratings Table */}
       <section className="py-20 bg-background-subtle border-y border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-y-10 lg:gap-12 items-start">
             <Reveal className="text-start">
               <div className="flex flex-col items-start sticky top-32">
                 <SectionHead

@@ -112,7 +112,7 @@ export default function ApplicationPortal() {
             lead={t("portal.lead")}
           />
         </Reveal>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-6 mt-12">
           {jobs.map((job, idx) => (
             <Reveal key={job.id} delay={idx * 0.1}>
               <Card 
@@ -175,7 +175,7 @@ export default function ApplicationPortal() {
           {/* STEP 1: Personal Data */}
           {currentStep === 1 && (
             <div className="flex flex-col gap-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 sm:gap-4">
                 <label className="flex flex-col gap-2">
                   <span className="text-small font-bold text-foreground">{formText.firstName}*</span>
                   <input required name="firstName" value={formData.firstName} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
@@ -185,7 +185,7 @@ export default function ApplicationPortal() {
                   <input required name="lastName" value={formData.lastName} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
                 </label>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 sm:gap-4">
                 <label className="flex flex-col gap-2">
                   <span className="text-small font-bold text-foreground">{formText.email}*</span>
                   <input required type="email" name="email" value={formData.email} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
@@ -255,7 +255,7 @@ export default function ApplicationPortal() {
                   
                   {experience.map((exp, i) => (
                     <div key={i} className="p-4 rounded-lg bg-background-subtle border border-card-border flex flex-col gap-4">
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 sm:gap-4">
                         <input placeholder={formText.company} value={exp.company} onChange={(e) => { const newExp = [...experience]; if(newExp[i]) newExp[i].company = e.target.value; setExperience(newExp); }} className="h-10 px-3 rounded-md bg-background border border-card-border text-sm" />
                         <input placeholder={formText.role} value={exp.role} onChange={(e) => { const newExp = [...experience]; if(newExp[i]) newExp[i].role = e.target.value; setExperience(newExp); }} className="h-10 px-3 rounded-md bg-background border border-card-border text-sm" />
                       </div>
@@ -273,7 +273,7 @@ export default function ApplicationPortal() {
                   
                   {education.map((edu, i) => (
                     <div key={i} className="p-4 rounded-lg bg-background-subtle border border-card-border flex flex-col gap-4">
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 sm:gap-4">
                         <input placeholder={formText.school} value={edu.school} onChange={(e) => { const newEdu = [...education]; if(newEdu[i]) newEdu[i].school = e.target.value; setEducation(newEdu); }} className="h-10 px-3 rounded-md bg-background border border-card-border text-sm" />
                         <input placeholder={formText.degree} value={edu.degree} onChange={(e) => { const newEdu = [...education]; if(newEdu[i]) newEdu[i].degree = e.target.value; setEducation(newEdu); }} className="h-10 px-3 rounded-md bg-background border border-card-border text-sm" />
                       </div>

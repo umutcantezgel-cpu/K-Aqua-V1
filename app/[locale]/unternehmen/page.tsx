@@ -91,112 +91,145 @@ export default async function UnternehmenPage({ params }: Props) {
         {/* History / Partner Section */}
         <section className="py-24 lg:py-32 bg-background kq-band kq-band--curve-b">
           <div className="max-w-[1200px] mx-auto px-6">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <Reveal>
-                <MediaSlot 
-                  alt={t("h2")} 
-                  aspectRatio="4/3" 
-                  className="shadow-lift" 
-                  shapeVariant="sweep-r" 
-                  src="/images/new-k-aqua/fertigung-pipes.jpg" 
-                  priority
-                />
-              </Reveal>
-              <Reveal delay={0.12}>
-                <div className="text-start flex flex-col gap-6">
-                  <Eyebrow>{t("eyebrow")}</Eyebrow>
-                  <h2 className="text-h2 font-heading font-extrabold tracking-tight text-foreground leading-snug">
-                    {t("h2")}
-                  </h2>
-                  <p className="text-body text-muted-foreground leading-relaxed">
-                    {t("p1")}
-                  </p>
-                  <p className="text-body text-muted-foreground leading-relaxed">
-                    {t("p2")}
-                  </p>
+            <Reveal>
+              <Card className="overflow-hidden border border-card-border p-0 shadow-diffuse group">
+                <div className="grid grid-cols-1 lg:grid-cols-[38%_62%] items-stretch">
+                  <div className="relative min-h-[300px] h-full lg:h-auto overflow-hidden">
+                    <img 
+                      alt={t("h2")}
+                      src="/images/new-k-aqua/fertigung-pipes.jpg"
+                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
+                    />
+                  </div>
+                  <div className="p-8 lg:p-16 flex flex-col justify-center text-start bg-card/80 backdrop-blur-sm">
+                    <Eyebrow>{t("eyebrow")}</Eyebrow>
+                    <h2 className="text-h2 font-heading font-extrabold tracking-tight text-foreground leading-snug mt-6 mb-6">
+                      {t("h2")}
+                    </h2>
+                    <p className="text-body text-muted-foreground leading-relaxed mb-4">
+                      {t("p1")}
+                    </p>
+                    <p className="text-body text-muted-foreground leading-relaxed">
+                      {t("p2")}
+                    </p>
+                  </div>
                 </div>
-              </Reveal>
-            </div>
+              </Card>
+            </Reveal>
           </div>
         </section>
 
         {/* Values / Policies Section */}
-        <section className="py-20 bg-background border-b border-card-border">
+        <section className="py-24 bg-background border-b border-card-border">
           <div className="max-w-[1200px] mx-auto px-6">
-            <div className="text-start">
+            <div className="text-start mb-12">
               <SectionHead
                 eyebrow={t("polEyebrow")}
                 title={t("polTitle")}
                 lead={t("polLead")}
               />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-              {cards.map((c, i) => {
-                const Icon = POLICY_ICONS[i] as React.ComponentType<{ className?: string }>;
-                return (
-                  <Reveal key={c.t} delay={i * 0.08}>
-                    <Card className="h-full flex flex-col gap-4 text-start p-8">
-                      <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0">
-                        <Icon className="w-6 h-6" />
-                      </div>
-                      <h3 className="font-heading font-bold text-xl text-foreground">
-                        {c.t}
-                      </h3>
-                      <p className="text-body text-muted-foreground leading-relaxed">
-                        {c.d}
-                      </p>
-                    </Card>
-                  </Reveal>
-                );
-              })}
+            
+            <div className="grid grid-cols-1 lg:grid-cols-[62%_1fr] gap-6 items-stretch">
+              {/* Golden Ratio: 62% for the first card */}
+              <Reveal delay={0}>
+                <Card tint className="h-full flex flex-col gap-6 text-start p-10 lg:p-12 relative overflow-hidden group">
+                  <div className="absolute -top-24 -right-24 text-[300px] font-heading font-black opacity-[0.03] text-primary select-none group-hover:scale-110 transition-transform duration-1000 ease-out">
+                    01
+                  </div>
+                  <div className="w-16 h-16 rounded-[18px] grid place-items-center bg-primary-soft text-primary shrink-0 relative z-10">
+                    {React.createElement(POLICY_ICONS[0] as any, { className: "w-8 h-8" })}
+                  </div>
+                  <div className="relative z-10 mt-auto">
+                    <h3 className="font-heading font-bold text-3xl text-foreground mb-4">
+                      {cards[0]?.t}
+                    </h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed max-w-[80%]">
+                      {cards[0]?.d}
+                    </p>
+                  </div>
+                </Card>
+              </Reveal>
+              
+              {/* Remaining 38% split into two smaller stacked cards */}
+              <div className="flex flex-col gap-6 h-full">
+                {cards.slice(1, 3).map((c, i) => {
+                  const Icon = POLICY_ICONS[i + 1] as any;
+                  const num = i + 2;
+                  return (
+                    <Reveal key={c.t} delay={0.1 + (i * 0.1)} className="flex-1">
+                      <Card className="h-full flex flex-col gap-3 text-start p-8 relative overflow-hidden group hover:border-primary/50 transition-colors">
+                        <div className="absolute -bottom-10 -right-10 text-[140px] font-heading font-black opacity-[0.02] text-primary select-none group-hover:scale-110 transition-transform duration-1000 ease-out">
+                          0{num}
+                        </div>
+                        <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary/10 text-primary shrink-0 relative z-10 mb-2">
+                          <Icon className="w-5 h-5" />
+                        </div>
+                        <h3 className="font-heading font-bold text-xl text-foreground relative z-10">
+                          {c.t}
+                        </h3>
+                        <p className="text-body text-muted-foreground leading-relaxed relative z-10">
+                          {c.d}
+                        </p>
+                      </Card>
+                    </Reveal>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </section>
 
         {/* Brand System Info Section */}
-        <section className="py-20 bg-background">
+        <section className="py-24 bg-background">
           <div className="max-w-[1200px] mx-auto px-6">
-            <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
+            {/* Golden Ratio Grid: 62% content, 38% badge */}
+            <div className="grid grid-cols-1 lg:grid-cols-[62%_1fr] gap-12 lg:gap-16 items-center">
               <Reveal>
-                <div className="text-start flex flex-col gap-6">
+                <div className="text-start flex flex-col gap-8">
                   <SectionHead
                     eyebrow={t("genauEyebrow")}
                     title={t("genauTitle")}
                     lead={t("genauLead")}
                   />
-                  <ul className="flex flex-col gap-4 mt-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
                     {points.map((p, idx) => (
-                      <li key={idx} className="flex gap-3 items-center text-body text-muted-foreground">
-                        <span className="text-accent shrink-0">
-                          <Check className="w-5 h-5 font-bold" />
-                        </span>
-                        <span>{p}</span>
-                      </li>
+                      <div key={idx} className="flex gap-4 items-start p-5 rounded-2xl bg-background-subtle border border-card-border hover:border-primary/30 transition-colors">
+                        <div className="w-8 h-8 rounded-full bg-primary/10 text-primary grid place-items-center shrink-0 mt-0.5">
+                          <Check className="w-4 h-4 font-bold" />
+                        </div>
+                        <span className="text-body text-muted-foreground leading-relaxed">{p}</span>
+                      </div>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               </Reveal>
-              <Reveal delay={0.12}>
-                <Card tint className="text-start p-8 flex flex-col gap-6">
-                  <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary-soft text-primary shrink-0">
-                    <Award className="w-6 h-6" />
+              <Reveal delay={0.12} className="h-full">
+                <Card tint className="text-start p-10 h-full flex flex-col justify-center gap-8 relative overflow-hidden shadow-diffuse">
+                  <div className="absolute -bottom-16 -right-16 text-[200px] opacity-[0.03] text-primary rotate-12 select-none pointer-events-none">
+                    <Award />
                   </div>
-                  <div>
-                    <h3 className="font-heading font-bold text-xl text-foreground mb-2">
+                  
+                  <div className="w-16 h-16 rounded-[20px] grid place-items-center bg-background shadow-sm text-primary shrink-0 relative z-10 border border-card-border/50">
+                    <Award className="w-8 h-8" />
+                  </div>
+                  <div className="relative z-10">
+                    <h3 className="font-heading font-extrabold text-2xl text-foreground mb-3">
                       {t("certTitle")}
                     </h3>
                     <p className="text-body text-muted-foreground leading-relaxed">
                       {t("certText")}
                     </p>
                   </div>
-                  <div className="flex flex-wrap gap-2 pt-2 border-t border-card-border/50">
+                  <div className="flex flex-col gap-3 pt-6 border-t border-card-border/50 relative z-10">
                     {["ISO 9001:2015", "ISO 14001:2015", "ISO 50001:2018"].map((c) => (
-                      <span
+                      <div
                         key={c}
-                        className="inline-flex items-center text-[13.5px] font-semibold px-4 py-2 rounded-full border border-card-border bg-card text-foreground select-none"
+                        className="flex items-center justify-between text-sm font-bold px-5 py-3.5 rounded-xl border border-card-border bg-background text-foreground"
                       >
-                        {c}
-                      </span>
+                        <span>{c}</span>
+                        <Check className="w-4 h-4 text-primary" />
+                      </div>
                     ))}
                   </div>
                 </Card>

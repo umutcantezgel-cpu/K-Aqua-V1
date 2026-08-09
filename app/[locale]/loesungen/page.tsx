@@ -116,16 +116,16 @@ export default async function LoesungenPage({ params }: Props) {
               lead={t('bento.header.desc')}
               align="center"
             />
-            <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16 pb-8 md:pb-0">
               {bentoItems.map((item, index) => {
                 const Icon = bentoIcons[index] || Factory;
                 return (
-                  <div key={item.title} className="flex flex-col gap-6 p-8 rounded-2xl bg-card border border-card-border">
-                    <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10">
-                      <Icon className="w-6 h-6 text-primary" />
-                    </div>
-                    <div className="text-xl font-heading font-bold">{item.title}</div>
-                    <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
+                  <div key={item.title} className="w-full h-full flex flex-col gap-6 p-8 rounded-2xl bg-card border border-card-border">
+                      <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10">
+                        <Icon className="w-6 h-6 text-primary" />
+                      </div>
+                      <div className="text-xl font-heading font-bold">{item.title}</div>
+                      <p className="text-muted-foreground leading-relaxed">{item.desc}</p>
                   </div>
                 );
               })}
@@ -139,11 +139,11 @@ export default async function LoesungenPage({ params }: Props) {
             <h2 className="text-4xl sm:text-5xl font-heading font-black tracking-tighter text-center mb-16">
               {t('stats.title')}
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pb-8 md:pb-0">
               {[0, 1, 2].map((i) => (
-                <div key={i} className="flex flex-col gap-4 p-8 rounded-2xl bg-card border border-card-border">
+                <div key={i} className="flex flex-col items-center gap-6 p-8 rounded-2xl bg-card border border-card-border">
                   <StatNumber value={i === 0 ? '50+' : i === 1 ? '0.24' : '100%'} label={t(`stats.${i}.label`)} />
-                  <p className="text-muted-foreground leading-relaxed">{t(`stats.${i}.desc`)}</p>
+                  <p className="text-muted-foreground leading-relaxed text-center">{t(`stats.${i}.desc`)}</p>
                 </div>
               ))}
             </div>
@@ -159,7 +159,7 @@ export default async function LoesungenPage({ params }: Props) {
         <section className="py-32 md:py-48 bg-background relative overflow-hidden border-t border-card-border">
           <div className="mx-auto max-w-[1400px] px-6 relative z-10">
             <CTABand className="py-20 md:py-32" fullWidth>
-              <div className="flex flex-col lg:flex-row gap-16 lg:items-center justify-between w-full">
+              <div className="flex flex-col lg:flex-row gap-y-12 lg:gap-16 lg:items-center justify-between w-full">
                 <div className="max-w-xl flex flex-col items-start gap-8">
                   <span className="font-heading font-bold text-sm tracking-widest uppercase text-primary-foreground/70">
                     {t('cta.eyebrow')}
@@ -171,8 +171,7 @@ export default async function LoesungenPage({ params }: Props) {
                     {t('cta.desc')}
                   </p>
                   <div className="flex flex-wrap gap-6 mt-8">
-                    <Button variant="inverse" size="lg" href="/kontakt">{t('cta.button1')}</Button>
-                    <Button variant="ghost" size="lg" href="/produkte" className="border-inverse-foreground/20 text-inverse-foreground hover:bg-inverse-surface/10 hover:border-inverse-foreground/50">{t('cta.button2')}</Button>
+                    <Button variant="inverse" size="lg" href="/produkte">{t('cta.button2')}</Button>
                   </div>
                 </div>
                 

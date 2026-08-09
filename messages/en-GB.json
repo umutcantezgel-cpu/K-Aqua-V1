@@ -1403,221 +1403,221 @@
       }
     }
   },
-  "toggle_theme_light": "Zu hellem Design wechseln",
-  "toggle_theme_dark": "Zu dunklem Design wechseln",
+  "toggle_theme_light": "Switch to light theme",
+  "toggle_theme_dark": "Switch to dark theme",
   "nav": {
-    "home": "Start",
-    "products": "Produkte",
-    "finder": "Produktfinder",
-    "co2": "CO₂-Rechner",
-    "markets": "Märkte",
-    "trust": "Trust Center",
-    "contact": "Kontakt",
-    "quote": "Angebot anfragen",
-    "menu": "Menü",
-    "lang": "Sprache",
-    "skipToContent": "Zum Inhalt springen",
-    "menuPlaceholder": "Platzhalter (Mega-Menü)",
+    "home": "Home",
+    "products": "Products",
+    "finder": "Product Finder",
+    "co2": "CO₂ Calculator",
+    "markets": "Markets",
+    "trust": "Trust Centre",
+    "contact": "Contact",
+    "quote": "Request Quote",
+    "menu": "Menu",
+    "lang": "Language",
+    "skipToContent": "Skip to content",
+    "menuPlaceholder": "Placeholder (Mega Menu)",
     "academy": "Academy",
     "service": "Service",
-    "about": "Unternehmen",
-    "solutions": "Lösungen",
-    "partners": "Partnerschaft",
-    "references": "Referenzen",
-    "career": "Karriere",
+    "about": "Company",
+    "solutions": "Solutions",
+    "partners": "Partnership",
+    "references": "References",
+    "career": "Career",
     "news": "News",
-    "knowledge_trust": "Wissen & Vertrauen",
-    "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht",
+    "knowledge_trust": "Knowledge & Trust",
+    "mapAria": "Open map navigation",
+    "sitemapAria": "Sitemap",
     "pipes": "Pipes",
     "fittings": "Fittings",
     "valves": "Valves",
     "accessories": "Accessories",
     "tools": "Tools",
-    "edgeArticles": "{count} Articles",
+    "edgeArticles": "{count} Products",
     "edgeLiveFilter": "Live Filter",
     "edgeComparisons": "3 Comparisons",
     "edgeMarkets": "{count} Markets",
     "edgePageIndex": "Page Index"
   },
   "groups": {
-    "tools": "Werkzeuge",
-    "knowledge": "Wissen",
-    "company": "Unternehmen",
-    "products": "Produkte",
-    "markets_solutions": "Märkte & Lösungen",
-    "knowledge_resources": "Wissen & Ressourcen"
+    "tools": "Tools",
+    "knowledge": "Knowledge",
+    "company": "Company",
+    "products": "Products",
+    "markets_solutions": "Markets & Solutions",
+    "knowledge_resources": "Knowledge & Resources"
   },
   "pages": {
-    "catalogOverview": "Vollständiger Produktkatalog",
+    "catalogOverview": "Complete Product Catalogue",
     "products": [
-      "PP-R Kunststoffrohre & Fittings Übersicht",
-      "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
+      "Products & Fittings",
+      "Discover K-Aqua's complete plastic piping systems from d20 to d630 mm. High-performance PP-R and PPRCT pipes for domestic and industrial use."
     ],
     "finder": [
-      "Interaktiver Produktfinder für PP-R Rohre",
-      "Finden Sie sofort das perfekte PP-R oder PPRCT Rohr, Fitting oder Ventil. Filtern Sie unseren Katalog live nach Dimension, Druckklasse und Wandstärke."
+      "Product Finder",
+      "Instantly find the perfect PP-R or PPRCT pipe, fitting, or valve. Filter our catalogue live by dimension, pressure class, and wall thickness."
     ],
+    "finderGuideText": "<h2>Interactive Product Finder for K-Aqua Piping Systems</h2><p>Use our innovative product finder to identify the exact fitting for your specific pipeline installation. Whether you are looking for standard PP-R pipes for drinking water installations, fibre-reinforced PPRCT pipes for demanding industrial plants, or special transition fittings and valves - our tool filters the entire catalogue in real time. The product search helps you select by diameter (d20 to d630), pressure class (SDR class), and material.</p><p>A well-structured piping system requires precise planning and the exact combination of pipes, fittings (such as sockets, elbows, and tees), and corresponding accessories. Our product finder eliminates the time-consuming search in static PDF catalogues and instead provides you with immediate, reliable data on article numbers, packaging units, and technical specifications. With just a few clicks, you can compile your material list and ensure the compatibility of the various components for heating, cooling, and drinking water systems. This not only optimises your planning process but also minimises errors when ordering materials for your next construction project.</p>",
     "co2": [
-      "CO2-Rechner für nachhaltige Rohrsysteme",
-      "Vergleichen Sie den CO2-Fußabdruck von K Aqua PP-R Kunststoffrohren mit Kupfer, Edelstahl und PVC. Geprüft nach ISO 14040/44 für Green Building."
+      "CO2 Calculator",
+      "Compare the CO2 footprint of K-Aqua PP-R plastic pipes with copper, stainless steel, and PVC. Verified according to ISO 14040/44 for Green Building."
     ],
     "solutions": [
-      "Materialvorteile von Polypropylen-Rohren",
-      "Erfahren Sie, warum Polypropylen (PP-R/PPRCT) das überlegene Material für die Wasserversorgung ist. Ökologisch, technisch fortschrittlich und wirtschaftlich."
+      "Material Benefits",
+      "Learn why polypropylene (PP-R/PPRCT) is the superior material for water supply. Ecological, technically advanced, and economical."
     ],
     "academy": [
-      "Schweiß-Academy für PP-R Installation",
-      "Lernen Sie professionelle Schweißtechniken für PP-R Kunststoffrohre. Sehen Sie sich Video-Tutorials an und absolvieren Sie unser Welding-Master-Quiz."
+      "K-Aqua Academy: PP-R Welding Techniques and Expertise",
+      "Learn professional welding techniques for PP-R plastic pipes. Watch video tutorials and pass our Welding Master Quiz."
     ],
     "trust": [
-      "Trust Center: ISO-Zertifikate & Audits",
-      "Greifen Sie auf K Aquas Qualitätsdokumentation zu. Laden Sie ISO-Zertifikate, das GENAU-Framework und Audit Dokumente für Ihr Projekt herunter."
+      "Trust Centre",
+      "Access K-Aqua's quality documentation. Download ISO certificates, the GENAU framework, and audit documents for your project."
     ],
     "service": [
-      "Technisches Service & Download Center",
-      "Laden Sie offizielle K Aqua Produktkataloge, technische Datenblätter und Installationsrichtlinien für PP-R und PPRCT Kunststoffrohrsysteme herunter."
+      "Service & Resources",
+      "Download official K-Aqua product catalogues, technical data sheets, and installation guidelines for PP-R and PPRCT plastic piping systems."
     ],
     "partner": [
-      "Premium KESSEL Partnerschaft für Rohre",
-      "K Aqua und KESSEL verbindet eine jahrzehntelange Partnerschaft, die deutsche Fertigungsstandards von der Entwässerung auf die Wasserversorgung überträgt."
+      "KESSEL Partnership",
+      "K-Aqua and KESSEL are connected by a decades-long partnership that transfers German manufacturing standards from drainage to water supply."
     ],
     "markets": [
-      "Globale Märkte & Lokale Vertriebsstruktur",
-      "K Aqua liefert PP-R Rohrsysteme in über 27 Länder. Nutzen Sie unsere interaktive Weltkarte für lokale Standards, Wasserprofile und Logistikinformationen."
+      "Markets & Locations",
+      "K-Aqua supplies PP-R piping systems to over 27 countries. Use our interactive world map for local standards, water profiles, and logistics information."
     ],
     "references": [
-      "Weltweite K-Aqua Referenzprojekte & PP-R Installationen",
-      "Entdecken Sie weltweite Referenzprojekte mit K-Aqua PP-R Rohrsystemen. Unser interaktiver 3D-Globus zeigt häusliche, gewerbliche & industrielle Anlagen."
+      "Reference Projects",
+      "Discover global reference projects with K-Aqua PP-R piping systems. Our interactive 3D globe shows domestic, commercial & industrial installations."
     ],
     "about": [
-      "Über KWT GmbH: Experten für Rohrherstellung",
-      "Die KWT GmbH bündelt jahrzehntelange Erfahrung, um das K Aqua Premium-Rohrsystem zu fertigen. Deutsche Ingenieurskunst für höchste Qualität und Innovation."
+      "About KWT GmbH",
+      "KWT GmbH pools decades of experience to manufacture the K-Aqua premium piping system. German engineering for the highest quality and innovation."
     ],
     "career": [
-      "Karriere bei K Aqua: Zukunft des Wassers",
-      "Werden Sie Teil unseres Teams in Waldsolms. Berechnen Sie Ihre steuerfreien Vorteile netto und testen Sie in 60 Sekunden, ob K Aqua zu Ihnen passt."
+      "Career at K-Aqua – Open Positions & Application",
+      "Become part of our team in Waldsolms. Calculate your tax-free benefits net and test in 60 seconds whether K-Aqua is the right fit for you."
     ],
     "news": [
-      "News & Events der Kunststoffrohrindustrie",
-      "Bleiben Sie auf dem Laufenden über K Aqua Innovationen, Produkte, Messeauftritte und unser Engagement für die dreifach ISO-geprüfte Produktion."
+      "News & Events | K-Aqua Corporate Updates and Milestones",
+      "Latest reports, technical articles, and company news."
     ],
     "contact": [
-      "Kontakt K Aqua: Vertrieb & Technischer Support",
-      "Kontaktieren Sie das K Aqua-Expertenteam für Vertriebsanfragen, Support oder Partnerschaften. Schnelle Reaktionszeiten für globale B2B-Kunden."
+      "Contact & Support",
+      "Speak with our engineers."
     ],
     "rfq": [
-      "Projektanfrage & unverbindliches Angebot",
-      "Fordern Sie in vier einfachen Schritten ein unverbindliches Angebot für Ihr nächstes Rohrprojekt an. Unser Vertriebsteam meldet sich innerhalb von 24 Stunden."
+      "Project Enquiry",
+      "Request a tailored quote for your construction project."
     ],
     "home": [
-      "Hersteller für PP-R & PPRCT Rohrsysteme",
-      "K Aqua produziert erstklassige PP-R und PPRCT Kunststoffrohrsysteme für Trinkwasser und Industrieanwendungen. Deutsche Ingenieurskunst für globale Projekte."
+      "Home",
+      "K-Aqua, Premium German Piping Systems"
     ],
     "legal": {
       "datenschutz": [
-        "Datenschutzerklärung",
-        "Umfassende Datenschutzerklärung für die K Aqua Website gemäß DSGVO-Richtlinien."
+        "Privacy Policy",
+        "Information on the processing of your personal data."
       ],
       "impressum": [
-        "Impressum & Rechtliche Hinweise",
-        "Impressum und rechtliche Unternehmensinformationen der KWT GmbH, Hersteller von K Aqua."
+        "Imprint / Legal Notice",
+        "Legal details and provider identification of K-Aqua GmbH."
       ]
     },
     "genauManagement": {
-      "eyebrow": "geprüfte Qualität",
-      "title1": "Das ",
+      "eyebrow": "certified quality",
+      "title1": "The ",
       "titleHighlight": "GENAU",
       "title2": " Management System",
-      "p1": "Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen.",
-      "p2": "Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der ",
-      "p3": " und ",
-      "list1Title": "Ökologische Verantwortung",
-      "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
-      "list2Title": "Energieeffizienz",
-      "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
+      "p1": "The goal of the GENAU management system is the continuous improvement of occupational health, safety, and environmental protection in the company.",
+      "p2": "All corporate activities at KWT take place with consideration for resource conservation, environmental compatibility, and strict compliance with all obligations. The practiced GENAU management fulfils the high requirements of the ",
+      "p3": " and ",
+      "list1Title": "Ecological Responsibility",
+      "list1Desc": "Environmental protection is part of our understanding of quality, to which all KWT GmbH employees are committed.",
+      "list2Title": "Energy Efficiency",
+      "list2Desc": "Targeted identification of risks and implementation of measures to optimise energy efficiency."
     },
     "pipes": [
       "Pipes & Systems",
-      "High-performance PP-R and PP-RCT pipes for domestic and industrial applications."
+      "High-performance PP-R and PP-RCT pipes for domestic and industrial applications. Explore all SDR classes and dimensions for your next project."
     ],
     "fittings": [
       "Fittings",
-      "Complete range of fittings for all K-Aqua piping systems."
+      "Complete range of fittings for all K-Aqua piping systems. Discover elbows, tees, reducers, and sockets for polyfusion welding."
     ],
     "valves": [
       "Valves & Accessories",
-      "Premium valves, shut-offs, and accessories for piping networks."
+      "Premium valves, shut-offs, and accessories for piping networks. High-quality ball valves, concealed valves, and check valves."
     ],
     "tools": [
       "Tools & Equipment",
-      "Professional welding tools and accessories for PP-R installation."
+      "Professional welding tools and accessories for PP-R installation. Explore welding machines, pipe cutters, and specialised tools."
     ],
     "transition-fittings": [
       "Transition Fittings",
-      "Reliable transition fittings for secure connections."
-    ],
-    "finderGuideText": "<h2>Interactive Product Finder for K-Aqua Pipe Systems</h2><p>Use our innovative product finder to identify the exact component for your specific piping installation. Whether you are looking for standard PP-R pipes for drinking water installations, fibre-reinforced PPRCT pipes for demanding industrial plants or special transition fittings and valves – our tool filters the entire catalogue in real time. The product search supports you in selecting by diameter (d20 to d630), pressure class (SDR class) and material.</p><p>A well-structured pipe system requires precise planning and the exact combination of pipes, fittings (such as sockets, elbows and tees) and the corresponding accessories. Our product finder eliminates the time-consuming search in static PDF catalogues and instead provides you with immediate, reliable data on item numbers, packaging units and technical specifications. With just a few clicks, you can compile your materials list and ensure the compatibility of the various components for heating, cooling and drinking water systems. This not only optimises your planning process, but also minimises errors when ordering materials for your next construction project.</p>"
+      "Reliable transition fittings for secure connections. Discover brass transition fittings with threaded or flanged connections."
+    ]
   },
   "home": {
-    "chip": "geprüft seit Oktober 2025",
-    "h1a": "Führend bei",
-    "h1b": "K-Aqua PP-R Rohrsystemen",
-    "globeAria": "Interaktiver Globus: ziehen zum Drehen",
+    "chip": "verified since October 2025",
+    "h1a": "Leading in",
+    "h1b": "K-Aqua PP-R Piping Systems",
+    "globeAria": "Interactive Globe, drag to rotate",
     "scrolly": [
       {
-        "t": "Gefertigt in Deutschland",
-        "d": "Entwicklung und Produktion am Standort Waldsolms: jedes Rohr, jedes Formteil."
+        "t": "Made in Germany",
+        "d": "Development and production at the Waldsolms site, every pipe, every fitting."
       },
       {
-        "t": "d20 bis d630",
-        "d": "Ein vollständiges System: fünf Druckstufen, Formteile, Armaturen und Schweißtechnik."
+        "t": "d20 to d630",
+        "d": "A complete system: five pressure ratings, fittings, valves, and welding technology."
       },
       {
-        "t": "Dreifach geprüft",
-        "d": "ISO 9001, 14001 und 50001: Qualität, Umwelt und Energie aus einem Managementsystem."
+        "t": "Triple certified",
+        "d": "ISO 9001, 14001, and 50001, quality, environment, and energy from one management system."
       },
       {
-        "t": "27 Märkte weltweit",
-        "d": "Von Frankfurt bis NEOM: geprüft gegen die Normen und Wasserprofile vor Ort."
+        "t": "27 markets worldwide",
+        "d": "From Frankfurt to NEOM: tested against local standards and water profiles."
       }
     ],
-    "lead": "K Aqua entwickelt und fertigt PP-R/PPRCT-Rohrsysteme für Trinkwasser: von 20 bis 630 mm, in Partnerschaft mit dem Premiumhersteller KESSEL.",
-    "ctaProducts": "Produktsystem entdecken",
-    "ctaContact": "Kontakt aufnehmen",
-    "toolsEyebrow": "Interaktive Werkzeuge",
-    "toolsTitle1": "Keine Textwüste.",
-    "toolsTitle2": "Werkzeuge.",
-    "toolsLead": "Die Website arbeitet für Sie: filtern, rechnen, lernen.",
-    "bandTitle": "Bereit für die nächste Generation der Wasserversorgung?",
-    "bandLead": "Sprechen Sie mit unserem Vertriebsteam über Ihr Projekt: von der Planung bis zur Schweißtechnik.",
-    "bandBtn": "Projektanfrage starten",
+    "lead": "K-Aqua develops and manufactures PP-R and PP-RCT piping systems for potable water, from 20 to 630 mm, in partnership with premium manufacturer KESSEL.",
+    "ctaProducts": "Discover product system",
+    "ctaContact": "Contact us",
+    "toolsEyebrow": "Interactive tools",
+    "toolsTitle1": "No wall of text.",
+    "toolsTitle2": "Tools.",
+    "toolsLead": "The website works for you: filter, calculate, learn.",
+    "bandTitle": "Ready for the next generation of water supply?",
+    "bandLead": "Talk to our sales team about your project, from planning to welding technology.",
+    "bandBtn": "Start project request",
     "bandBtn2": "Downloads & Service"
   },
   "geo": {
-    "eyebrow": "Märkte & Standorte",
-    "title1": "Eine Welt voller",
-    "title2": "Märkten.",
-    "lead": "{n} Märkte in {c} Ländern: jeder mit eigener Landingpage: Normen, Wasserprofil, Anwendungsfälle, Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
-    "all": "Alle",
-    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
-    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort.",
-    "allMarkets": "Alle Märkte",
-    "request": "Projekt anfragen",
-    "finder": "Produktfinder",
-    "fromPlant": "km ab Werk Waldsolms",
-    "regFrame": "Regulatorischer Rahmen",
-    "water": "Wasserprofil & Materialantwort",
-    "typical": "Typische Projekte in {city}",
-    "onSite": "Verarbeitung vor Ort",
-    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne: in der Academy.",
-    "toAcademy": "Zur Academy",
-    "nearbyEyebrow": "Verwandte Märkte",
-    "nearby": "In der Nähe.",
-    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
+    "eyebrow": "Markets & Locations",
+    "title1": "A World Full of",
+    "title2": "Markets.",
+    "lead": "{n} markets in {c} countries, each with its own landing page: standards, water profile, use cases, logistics. Interact with the globe and rotate freely; the list takes you directly to the city.",
+    "all": "All",
+    "cityTitle": "PP-R/PP-RCT Piping Systems in {city}.",
+    "cityLead": "Potable water systems d20–d630, tested against local requirements.",
+    "allMarkets": "All Markets",
+    "request": "Request Project",
+    "finder": "Product Finder",
+    "fromPlant": "km from Waldsolms plant",
+    "regFrame": "Regulatory Framework",
+    "water": "Water Profile & Material Response",
+    "typical": "Typical Projects in {city}",
+    "onSite": "On-Site Processing",
+    "onSiteText": "Welding technology instruction and video documentation for your team, in the Academy.",
+    "toAcademy": "To Academy",
+    "nearbyEyebrow": "Related Markets",
+    "nearby": "Nearby.",
+    "prodNote": "Production Note: These pages correspond to the Programmatic SEO template (Data Slice: Product × Regulations × Region). In Next.js, they are generated via ISR from the Headless CMS, including hreflang, Product/Offer schema, and semantic internal linking.",
     "km": "km",
-    "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "seoExpansion": "K-Aqua manufactures PP-R and PP-RCT piping systems in Waldsolms for the highest demands of global building and industrial engineering. Thanks to uncompromising German engineering and state-of-the-art production technology, our systems guarantee decades of maintenance-free operational reliability. Every product, from d20 to d630, undergoes strict quality controls and complies with international standards such as DVGW, KIWA, and SKZ. We provide not only premium materials for potable water, cooling, and industry, but also support planners and installers with comprehensive technical support and on-site training. Trust in a system that excels through extreme durability, zero corrosion, and absolute hygiene.",
+    "seoExpansionDynamic": "Learn more about our PP-R and PP-RCT solutions in {city}. We meet local standards ({regulator}) and provide optimal systems for local water quality ({water}). Additional note: {note}.",
     "cityMetaTitle": "PP-R Pipe Systems in {city}",
     "hubMetaTitle": "PP-R Pipe Systems for {country}",
     "hubH1": "Infrastructure Solutions for {country}",

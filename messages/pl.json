@@ -1,73 +1,73 @@
 {
   "catalogx": {
-    "eyebrow": "Vollständiger Produktkatalog",
-    "faqTitle": "Häufig gestellte Fragen",
-    "title": "Alle 79 Artikelfamilien: mit echten Artikelnummern.",
-    "lead": "Rohre, Formteile, Übergangsfittings, Armaturen, Einschweißsattel, Zubehör und Werkzeuge: jede Zeile stammt aus dem verbindlichen K Aqua Katalog. Kategorie wählen, Artikel aufklappen, Artikelnummer prüfen.",
-    "searchPlaceholder": "Artikelnummer oder Produktname suchen: z. B. „AQ200P20\" oder „Elbow\"",
-    "noResults": "Keine Treffer: Suche anpassen oder andere Kategorie wählen.",
-    "codesLabel": "Artikelnummern",
-    "sizesLabel": "Größen",
-    "materialLabel": "Material",
+    "eyebrow": "Pełny katalog produktów",
+    "faqTitle": "Często zadawane pytania",
+    "title": "Wszystkie 79 rodzin artykułów: z prawdziwymi numerami artykułów.",
+    "lead": "Rury, kształtki, złączki przejściowe, armatura, siodła do wspawywania, akcesoria i narzędzia: każdy wiersz pochodzi z wiążącego katalogu K Aqua. Wybierz kategorię, rozwiń artykuł, sprawdź numer artykułu.",
+    "searchPlaceholder": "Wyszukaj numer artykułu lub nazwę produktu: np. „AQ200P20\" lub „Elbow\"",
+    "noResults": "Brak wyników: dostosuj wyszukiwanie lub wybierz inną kategorię.",
+    "codesLabel": "Numery artykułów",
+    "sizesLabel": "Rozmiary",
+    "materialLabel": "Materiał",
     "sdrLabel": "SDR",
-    "seriesLabel": "Baureihe",
-    "pressureLabel": "Betriebsdruck",
-    "lenLabel": "Stablänge",
+    "seriesLabel": "Szereg",
+    "pressureLabel": "Ciśnienie robocze",
+    "lenLabel": "Długość sztangi",
     "cats": {
       "pipes": {
-        "label": "Rohre",
-        "desc": "PPR und PPRCT Rohre: Standard, faserverstärkt und UV-stabilisiert, 12 Baureihen."
+        "label": "Rury",
+        "desc": "Rury PPR i PPRCT: standardowe, wzmocnione włóknem i stabilizowane UV, 12 szeregów."
       },
       "fittings": {
-        "label": "Formteile",
-        "desc": "Muffenschweiß und Elektroschweißformteile, d20–d125, 13 Artikelfamilien."
+        "label": "Kształtki",
+        "desc": "Kształtki do zgrzewania mufowego i elektrooporowego, d20–d125, 13 rodzin artykułów."
       },
       "transitionFittings": {
-        "label": "Übergangsfittings",
-        "desc": "Übergänge auf Gewinde und Messing: für Bestandsanschlüsse und Armaturen, 13 Familien."
+        "label": "Złączki przejściowe",
+        "desc": "Przejścia na gwint i mosiądz: do istniejących przyłączy i armatury, 13 rodzin."
       },
       "valves": {
-        "label": "Armaturen",
-        "desc": "Kugelhähne, Unterputzventile, Verteilerbatterien: 9 Artikelfamilien."
+        "label": "Armatura",
+        "desc": "Zawory kulowe, zawory podtynkowe, rozdzielacze: 9 rodzin artykułów."
       },
       "weldInSaddles": {
-        "label": "Einschweißsattel",
-        "desc": "Abzweige ohne Rohrtrennung: mit und ohne Gewinde, 3 Familien."
+        "label": "Siodła do wspawywania",
+        "desc": "Odgałęzienia bez cięcia rury: z gwintem i bez, 3 rodziny."
       },
       "accessories": {
-        "label": "Zubehör",
-        "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen: 5 Artikelfamilien."
+        "label": "Akcesoria",
+        "desc": "Obejmy rurowe, kołnierze, uszczelki, zaślepki: 5 rodzin artykułów."
       },
       "tools": {
-        "label": "Werkzeuge",
-        "desc": "Rohrschneider, Schweißgeräte und -werkzeuge für alle vier Fügeverfahren, 14 Familien."
+        "label": "Narzędzia",
+        "desc": "Obcinaki do rur, zgrzewarki i narzędzia do wszystkich czterech metod łączenia, 14 rodzin."
       }
     },
     "rfq": {
-      "title": "Projektanfrage",
-      "desc": "Fordern Sie direkt ein Angebot für <strong>{title}</strong> an.",
-      "button": "Zur Anfrage"
+      "title": "Zapytanie projektowe",
+      "desc": "Poproś bezpośrednio o ofertę na <strong>{title}</strong>.",
+      "button": "Przejdź do zapytania"
     },
     "similar": {
-      "title": "Weitere aus {category}"
+      "title": "Więcej z {category}"
     },
     "items": {
       "k-pipe-pp-r-sdr-6": {
-        "seo_p1": "Das K Pipe PPR SDR 6 ist ein hochleistungsfähiges Rohr aus unserer umfassenden Rohrsystemkategorie. Es wurde entwickelt, um anspruchsvolle Flüssigkeitstransporte sicher und effizient zu bewältigen.",
-        "seo_p2": "Dieses Rohr besteht aus langlebigem PPR Material und ist mit der Einstufung SDR 6 (Baureihe S 2.5) für einen hohen Betriebsdruck von bis zu 2.0 MPa bei 20°C ausgelegt. Die Standardlänge von 4 Metern ermöglicht eine schnelle Installation.",
-        "seo_p3": "Dank der hervorragenden chemischen und thermischen Beständigkeit eignet sich das SDR 6 Rohr ideal für industrielle Anwendungen und die Trinkwasserversorgung. Die glatte Innenfläche minimiert Druckverluste und verhindert Ablagerungen.",
+        "seo_p1": "K Pipe PPR SDR 6 to wysokowydajna rura z naszej obszernej kategorii systemów rurowych. Została zaprojektowana w celu bezpiecznego i wydajnego transportu wymagających płynów.",
+        "seo_p2": "Rura ta jest wykonana z trwałego materiału PPR i ma klasyfikację SDR 6 (szereg S 2.5) dla wysokiego ciśnienia roboczego do 2,0 MPa przy 20°C. Standardowa długość 4 metrów umożliwia szybki montaż.",
+        "seo_p3": "Dzięki doskonałej odporności chemicznej i termicznej rura SDR 6 idealnie nadaje się do zastosowań przemysłowych i zaopatrzenia w wodę pitną. Gładka powierzchnia wewnętrzna minimalizuje straty ciśnienia i zapobiega powstawaniu osadów.",
         "faq": [
           {
-            "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
-            "a": "Es ist für Dauerbetriebstemperaturen bis zu 70°C ausgelegt und bietet bei 20°C eine Druckfestigkeit von 20 Bar."
+            "q": "Do jakich temperatur roboczych nadaje się SDR 6?",
+            "a": "Jest przeznaczona do ciągłych temperatur roboczych do 70°C i oferuje wytrzymałość na ciśnienie 20 barów przy 20°C."
           },
           {
-            "q": "Welche Vorteile bietet die hohe Wandstärke?",
-            "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilität bei stark beanspruchten Anlagen."
+            "q": "Jakie są zalety dużej grubości ścianki?",
+            "a": "Szereg SDR 6 (S 2.5) oferuje maksymalną odporność na ciśnienie i stabilność mechaniczną w systemach poddawanych dużym obciążeniom."
           },
           {
-            "q": "Kann ich dieses Rohr für Kaltwasser nutzen?",
-            "a": "Ja, es eignet sich exzellent für Kaltwassersysteme, da die glatte Oberfläche Inkrustationen und Bakterienwachstum effektiv verhindert."
+            "q": "Czy mogę używać tej rury do zimnej wody?",
+            "a": "Tak, doskonale nadaje się do instalacji zimnej wody, ponieważ gładka powierzchnia skutecznie zapobiega inkrustacji i rozwojowi bakterii."
           }
         ]
       },
@@ -1449,80 +1449,80 @@
     "knowledge_resources": "Wissen & Ressourcen"
   },
   "pages": {
-    "catalogOverview": "Vollständiger Produktkatalog",
-    "finderGuideText": "<h2>Interaktywna wyszukiwarka produktów dla systemów rurowych K-Aqua</h2><p>Skorzystaj z naszej innowacyjnej wyszukiwarki produktów, aby znaleźć idealnie dopasowany element do swojej konkretnej instalacji rurowej. Niezależnie od tego, czy szukasz standardowych rur PP-R do instalacji wody pitnej, rur PPRCT wzmocnionych włóknem szklanym do wymagających instalacji przemysłowych, czy też specjalnych kształtek przejściowych i zaworów – nasze narzędzie filtruje cały katalog w czasie rzeczywistym. Wyszukiwarka wspiera Cię w doborze na podstawie średnicy (od d20 do d630), klasy ciśnienia (SDR) i materiału.</p><p>Dobrze zaprojektowany system rurowy wymaga precyzyjnego planowania i dokładnego doboru rur, kształtek (takich jak mufy, kolana i trójniki) oraz odpowiednich akcesoriów. Nasza wyszukiwarka eliminuje czasochłonne poszukiwania w statycznych katalogach PDF i dostarcza natychmiastowe, wiarygodne dane na temat numerów artykułów, jednostek opakowań i specyfikacji technicznych. Za pomocą zaledwie kilku kliknięć możesz skompletować listę materiałów i zapewnić kompatybilność poszczególnych komponentów dla systemów ogrzewania, chłodzenia i wody pitnej. To nie tylko optymalizuje proces planowania, ale także minimalizuje błędy podczas zamawiania materiałów do kolejnego projektu budowlanego.</p>",
+    "catalogOverview": "Pełny Katalog Produktów",
+    "finderGuideText": "<h2>Interaktywna wyszukiwarka produktów dla systemów rurowych K-Aqua</h2><p>Skorzystaj z naszej innowacyjnej wyszukiwarka produktów, aby znaleźć idealnie dopasowany element do swojej konkretnej instalacji rurowej. Niezależnie od tego, czy szukasz standardowych rur PP-R do instalacji wody pitnej, rur PPRCT wzmocnionych włóknem szklanym do wymagających instalacji przemysłowych, czy też specjalnych kształtek przejściowych i zaworów – nasze narzędzie filtruje cały katalog w czasie rzeczywistym. Wyszukiwarka wspiera Cię w doborze na podstawie średnicy (od d20 do d630), klasy ciśnienia (SDR) i materiału.</p><p>Dobrze zaprojektowany system rurowy wymaga precyzyjnego planowania i dokładnego doboru rur, kształtek (takich jak mufy, kolana i trójniki) oraz odpowiednich akcesoriów. Nasza wyszukiwarka eliminuje czasochłonne poszukiwania w statycznych katalogach PDF i dostarcza natychmiastowe, wiarygodne dane na temat numerów artykułów, jednostek opakowań i specyfikacji technicznych. Za pomocą zaledwie kilku kliknięć możesz skompletować listę materiałów i zapewnić kompatybilność poszczególnych komponentów dla systemów ogrzewania, chłodzenia i wody pitnej. To nie tylko optymalizuje proces planowania, ale także minimalizuje błędy podczas zamawiania materiałów do kolejnego projektu budowlanego.</p>",
     "products": [
-      "PP-R Kunststoffrohre & Fittings Übersicht",
-      "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
+      "Przegląd Rur i Kształtek PP-R",
+      "Odkryj kompletne systemy rur z tworzyw sztucznych K Aqua od d20 do d630 mm. Wysokowydajne rury PP-R i PPRCT dla domu i przemysłu."
     ],
     "finder": [
-      "Interaktiver Produktfinder für PP-R Rohre",
-      "Finden Sie sofort das perfekte PP-R oder PPRCT Rohr, Fitting oder Ventil. Filtern Sie unseren Katalog live nach Dimension, Druckklasse und Wandstärke."
+      "Interaktywna wyszukiwarka produktów dla rur PP-R",
+      "Natychmiast znajdź idealną rurę, kształtkę lub zawór PP-R lub PPRCT. Filtruj nasz katalog na żywo według wymiarów, klasy ciśnienia i grubości ścianki."
     ],
     "co2": [
-      "CO2-Rechner für nachhaltige Rohrsysteme",
-      "Vergleichen Sie den CO2-Fußabdruck von K Aqua PP-R Kunststoffrohren mit Kupfer, Edelstahl und PVC. Geprüft nach ISO 14040/44 für Green Building."
+      "Kalkulator CO2 dla zrównoważonych systemów rurowych",
+      "Porównaj ślad węglowy CO2 rur z tworzyw sztucznych K Aqua PP-R z miedzią, stalą nierdzewną i PVC. Certyfikowane zgodnie z ISO 14040/44 dla zielonego budownictwa."
     ],
     "solutions": [
-      "Materialvorteile von Polypropylen-Rohren",
-      "Erfahren Sie, warum Polypropylen (PP-R/PPRCT) das überlegene Material für die Wasserversorgung ist. Ökologisch, technisch fortschrittlich und wirtschaftlich."
+      "Zalety materiałowe rur polipropylenowych",
+      "Dowiedz się, dlaczego polipropylen (PP-R/PPRCT) jest doskonałym materiałem do zaopatrzenia w wodę. Ekologiczny, zaawansowany technologicznie i ekonomiczny."
     ],
     "academy": [
-      "Schweiß-Academy für PP-R Installation",
-      "Lernen Sie professionelle Schweißtechniken für PP-R Kunststoffrohre. Sehen Sie sich Video-Tutorials an und absolvieren Sie unser Welding-Master-Quiz."
+      "Akademia Spawania dla Instalacji PP-R",
+      "Poznaj profesjonalne techniki spawania rur z tworzyw sztucznych PP-R. Obejrzyj filmy instruktażowe i ukończ nasz quiz mistrza spawania."
     ],
     "trust": [
-      "Trust Center: ISO-Zertifikate & Audits",
-      "Greifen Sie auf K Aquas Qualitätsdokumentation zu. Laden Sie ISO-Zertifikate, das GENAU-Framework und Audit Dokumente für Ihr Projekt herunter."
+      "Trust Center: Certyfikaty ISO i Audyty",
+      "Uzyskaj dostęp do dokumentacji jakościowej K Aqua. Pobierz certyfikaty ISO, strukturę GENAU i dokumenty z audytów dla swojego projektu."
     ],
     "service": [
-      "Technisches Service & Download Center",
-      "Laden Sie offizielle K Aqua Produktkataloge, technische Datenblätter und Installationsrichtlinien für PP-R und PPRCT Kunststoffrohrsysteme herunter."
+      "Serwis Techniczny i Centrum Pobierania",
+      "Pobierz oficjalne katalogi produktów K Aqua, karty danych technicznych i wytyczne instalacyjne dla systemów rur z tworzyw sztucznych PP-R i PPRCT."
     ],
     "partner": [
-      "Premium KESSEL Partnerschaft für Rohre",
-      "K Aqua und KESSEL verbindet eine jahrzehntelange Partnerschaft, die deutsche Fertigungsstandards von der Entwässerung auf die Wasserversorgung überträgt."
+      "Partnerstwo Premium KESSEL dla Rur",
+      "K Aqua i KESSEL dzielą wieloletnie partnerstwo, które przenosi niemieckie standardy produkcji z systemów odwadniających do zaopatrzenia w wodę."
     ],
     "markets": [
-      "Globale Märkte & Lokale Vertriebsstruktur",
-      "K Aqua liefert PP-R Rohrsysteme in über 27 Länder. Nutzen Sie unsere interaktive Weltkarte für lokale Standards, Wasserprofile und Logistikinformationen."
+      "Rynki Globalne i Lokalna Struktura Sprzedaży",
+      "K Aqua dostarcza systemy rurowe PP-R do ponad 27 krajów. Skorzystaj z naszej interaktywnej mapy świata, aby uzyskać informacje o lokalnych normach, profilach wodnych i logistyce."
     ],
     "references": [
-      "Weltweite K-Aqua Referenzprojekte & PP-R Installationen",
-      "Entdecken Sie weltweite Referenzprojekte mit K-Aqua PP-R Rohrsystemen. Unser interaktiver 3D-Globus zeigt häusliche, gewerbliche & industrielle Anlagen."
+      "Światowe Projekty Referencyjne K-Aqua i Instalacje PP-R",
+      "Poznaj światowe projekty referencyjne z systemami rur K-Aqua PP-R. Nasz interaktywny model 3D prezentuje instalacje domowe, komercyjne i przemysłowe."
     ],
     "about": [
-      "Über KWT GmbH: Experten für Rohrherstellung",
-      "Die KWT GmbH bündelt jahrzehntelange Erfahrung, um das K Aqua Premium-Rohrsystem zu fertigen. Deutsche Ingenieurskunst für höchste Qualität und Innovation."
+      "O KWT GmbH: Eksperci w Produkcji Rur",
+      "KWT GmbH łączy dziesięciolecia doświadczeń w celu produkcji systemów rurowych premium K Aqua. Niemiecka inżynieria dla najwyższej jakości i innowacji."
     ],
     "career": [
-      "Karriere bei K Aqua: Zukunft des Wassers",
-      "Werden Sie Teil unseres Teams in Waldsolms. Berechnen Sie Ihre steuerfreien Vorteile netto und testen Sie in 60 Sekunden, ob K Aqua zu Ihnen passt."
+      "Kariera w K Aqua: Przyszłość Wody",
+      "Dołącz do naszego zespołu w Waldsolms. Oblicz swoje świadczenia netto bez podatku i sprawdź w 60 sekund, czy K Aqua to firma dla Ciebie."
     ],
     "news": [
-      "News & Events der Kunststoffrohrindustrie",
-      "Bleiben Sie auf dem Laufenden über K Aqua Innovationen, Produkte, Messeauftritte und unser Engagement für die dreifach ISO-geprüfte Produktion."
+      "Aktualności i Wydarzenia Branży Rur z Tworzyw Sztucznych",
+      "Bądź na bieżąco z innowacjami K Aqua, produktami, targami i naszym zaangażowaniem w produkcję z certyfikatami ISO."
     ],
     "contact": [
-      "Kontakt K Aqua: Vertrieb & Technischer Support",
-      "Kontaktieren Sie das K Aqua-Expertenteam für Vertriebsanfragen, Support oder Partnerschaften. Schnelle Reaktionszeiten für globale B2B-Kunden."
+      "Kontakt K Aqua: Sprzedaż i Wsparcie Techniczne",
+      "Skontaktuj się z zespołem ekspertów K Aqua w sprawach sprzedaży, wsparcia lub partnerstwa. Szybki czas reakcji dla globalnych klientów B2B."
     ],
     "rfq": [
-      "Projektanfrage & unverbindliches Angebot",
-      "Fordern Sie in vier einfachen Schritten ein unverbindliches Angebot für Ihr nächstes Rohrprojekt an. Unser Vertriebsteam meldet sich innerhalb von 24 Stunden."
+      "Zapytanie Projektowe i Niezobowiązująca Wycena",
+      "Poproś o niezobowiązującą wycenę dla Twojego następnego projektu rurowego w czterech prostych krokach. Nasz zespół sprzedaży skontaktuje się z Tobą w ciągu 24 godzin."
     ],
     "home": [
-      "Hersteller für PP-R & PPRCT Rohrsysteme",
-      "K Aqua produziert erstklassige PP-R und PPRCT Kunststoffrohrsysteme für Trinkwasser und Industrieanwendungen. Deutsche Ingenieurskunst für globale Projekte."
+      "Producent Systemów Rurowych PP-R i PPRCT",
+      "K Aqua produkuje najwyższej klasy systemy rur z tworzyw sztucznych PP-R i PPRCT dla wody pitnej i zastosowań przemysłowych. Niemiecka inżynieria dla globalnych projektów."
     ],
     "legal": {
       "datenschutz": [
-        "Datenschutzerklärung",
-        "Umfassende Datenschutzerklärung für die K Aqua Website gemäß DSGVO-Richtlinien."
+        "Polityka Prywatności",
+        "Kompleksowa polityka prywatności dla strony internetowej K Aqua zgodna z wytycznymi RODO."
       ],
       "impressum": [
-        "Impressum & Rechtliche Hinweise",
-        "Impressum und rechtliche Unternehmensinformationen der KWT GmbH, Hersteller von K Aqua."
+        "Nota Prawna i Informacje o Firmie",
+        "Nota prawna i informacje o KWT GmbH, producencie K Aqua."
       ]
     },
     "genauManagement": {
@@ -1560,41 +1560,64 @@
     ]
   },
   "home": {
-    "chip": "geprüft seit Oktober 2025",
-    "h1a": "Führend bei",
-    "h1b": "K-Aqua PP-R Rohrsystemen",
-    "globeAria": "Interaktiver Globus: ziehen zum Drehen",
+    "chip": "testowane od października 2025",
+    "h1a": "Lider w",
+    "h1b": "Systemach Rurowych PP-R K-Aqua",
+    "globeAria": "Interaktywny globus: przeciągnij, aby obrócić",
     "scrolly": [
       {
-        "t": "Gefertigt in Deutschland",
-        "d": "Entwicklung und Produktion am Standort Waldsolms: jedes Rohr, jedes Formteil."
+        "t": "Wyprodukowano w Niemczech",
+        "d": "Rozwój i produkcja w fabryce Waldsolms: każda rura, każda kształtka."
       },
       {
-        "t": "d20 bis d630",
-        "d": "Ein vollständiges System: fünf Druckstufen, Formteile, Armaturen und Schweißtechnik."
+        "t": "od d20 do d630",
+        "d": "Kompletny system: pięć klas ciśnienia, kształtki, zawory i technologia spawania."
       },
       {
-        "t": "Dreifach geprüft",
-        "d": "ISO 9001, 14001 und 50001: Qualität, Umwelt und Energie aus einem Managementsystem."
+        "t": "Potrójnie certyfikowane",
+        "d": "ISO 9001, 14001 i 50001: Jakość, Środowisko i Energia z jednego systemu zarządzania."
       },
       {
-        "t": "27 Märkte weltweit",
-        "d": "Von Frankfurt bis NEOM: geprüft gegen die Normen und Wasserprofile vor Ort."
+        "t": "27 rynków na całym świecie",
+        "d": "Od Frankfurtu do NEOM: przetestowane zgodnie z lokalnymi standardami i profilami wodnymi."
       }
     ],
-    "lead": "K Aqua entwickelt und fertigt PP-R/PPRCT-Rohrsysteme für Trinkwasser: von 20 bis 630 mm, in Partnerschaft mit dem Premiumhersteller KESSEL.",
-    "ctaProducts": "Produktsystem entdecken",
-    "ctaContact": "Kontakt aufnehmen",
-    "toolsEyebrow": "Interaktive Werkzeuge",
-    "toolsTitle1": "Keine Textwüste.",
-    "toolsTitle2": "Werkzeuge.",
-    "toolsLead": "Die Website arbeitet für Sie: filtern, rechnen, lernen.",
-    "bandTitle": "Bereit für die nächste Generation der Wasserversorgung?",
-    "bandLead": "Sprechen Sie mit unserem Vertriebsteam über Ihr Projekt: von der Planung bis zur Schweißtechnik.",
-    "bandBtn": "Projektanfrage starten",
-    "bandBtn2": "Downloads & Service"
+    "lead": "K Aqua opracowuje i produkuje systemy rur PP-R/PPRCT do wody pitnej: od 20 do 630 mm, w partnerstwie z producentem premium KESSEL.",
+    "ctaProducts": "Odkryj System Produktów",
+    "ctaContact": "Skontaktuj się z nami",
+    "toolsEyebrow": "Narzędzia Interaktywne",
+    "toolsTitle1": "Bez długich tekstów.",
+    "toolsTitle2": "Narzędzia.",
+    "toolsLead": "Strona pracuje dla Ciebie: filtruj, kalkuluj, ucz się.",
+    "bandTitle": "Gotowy na nową generację zaopatrzenia w wodę?",
+    "bandLead": "Porozmawiaj z naszym zespołem sprzedaży o swoim projekcie: od planowania po technologię spawania.",
+    "bandBtn": "Rozpocznij Zapytanie o Projekt",
+    "bandBtn2": "Pobieranie i Serwis"
   },
   "geo": {
+    "eyebrow": "Rynki i Lokalizacje",
+    "title1": "Świat pełen",
+    "title2": "Rynków.",
+    "lead": "{n} rynków w {c} krajach: każdy z własną stroną docelową: standardy, profil wody, przypadki użycia, logistyka. Chwyć świat i obracaj go swobodnie; lista zabierze Cię dokładnie do wybranego miasta.",
+    "all": "Wszystkie",
+    "cityTitle": "Systemy rurowe PP-R/PPRCT w {city}.",
+    "cityLead": "Systemy wody pitnej d20–d630, przetestowane zgodnie z lokalnymi wymaganiami.",
+    "allMarkets": "Wszystkie rynki",
+    "request": "Zapytaj o projekt",
+    "finder": "Wyszukiwarka produktów",
+    "fromPlant": "km od fabryki Waldsolms",
+    "regFrame": "Ramy regulacyjne",
+    "water": "Profil wody i reakcja materiału",
+    "typical": "Typowe projekty w {city}",
+    "onSite": "Przetwarzanie na miejscu",
+    "onSiteText": "Instrukcja technologii spawania i dokumentacja wideo dla Twojego zespołu: w Akademii.",
+    "toAcademy": "Do Akademii",
+    "nearbyEyebrow": "Powiązane rynki",
+    "nearby": "W pobliżu.",
+    "prodNote": "Uwaga produkcyjna: Te strony są zgodne z szablonem Programmatic SEO. W Next.js są generowane przez ISR z Headless CMS: w tym hreflang, schemat Product/Offer i semantyczne linkowanie wewnętrzne.",
+    "km": "km",
+    "seoExpansion": "K Aqua produkuje systemy rurowe PP-R i PPRCT w Waldsolms spełniające najwyższe wymagania globalnej inżynierii budowlanej i instalacyjnej. Dzięki bezkompromisowej niemieckiej inżynierii i najnowocześniejszej technologii produkcji, nasze systemy gwarantują dziesięciolecia bezawaryjnej pracy. Każdy produkt, od d20 do d630, przechodzi rygorystyczne kontrole jakości i spełnia międzynarodowe normy, takie jak DVGW, KIWA i SKZ. Nie tylko oferujemy najwyższej klasy materiały do wody pitnej, chłodzenia i przemysłu, ale także wspieramy planistów i instalatorów kompleksowym wsparciem technicznym i szkoleniami na miejscu. Zaufaj systemowi, który imponuje niezwykłą trwałością, brakiem korozji i absolutną higieną.",
+    "seoExpansionDynamic": "Dowiedz się więcej o naszych rozwiązaniach PP-R i PPRCT w {city}. Spełniamy lokalne normy ({regulator}) i oferujemy optymalne systemy dla jakości wody ({water}). Dodatkowa uwaga: {note}.",
     "cityMetaTitle": "Systemy rurowe PP-R w {city}",
     "hubMetaTitle": "Systemy rurowe PP-R dla {country}",
     "hubH1": "Rozwiązania infrastrukturalne dla {country}",
@@ -3865,23 +3888,23 @@
     "supportText": "Sprechen wir über Ihr Projekt. Unser Support Team hilft bei technischen Fragen rund um Planung, Material und Verarbeitung."
   },
   "imprint": {
-    "eyebrow": "Rechtliches",
-    "title": "Impressum",
+    "eyebrow": "Informacje prawne",
+    "title": "Nota prawna",
     "rows": [
       [
-        "Unternehmen",
+        "Firma",
         "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
       ],
       [
-        "Geschäftsführung",
+        "Zarząd",
         "Philipp Nickel, Marcello Gallio"
       ],
       [
-        "Registergericht",
+        "Sąd rejestrowy",
         "Wetzlar HRB 6732"
       ],
       [
-        "Sitz",
+        "Siedziba",
         "Waldsolms"
       ],
       [
@@ -6663,11 +6686,11 @@
     }
   },
   "menu": {
-    "pipes": "Rohre",
-    "fittings": "Fittings",
-    "transition": "Übergangsfittings",
-    "valves": "Ventile & Hähne",
-    "tools": "Schweißwerkzeuge"
+    "pipes": "Rury",
+    "fittings": "Kształtki",
+    "transition": "Kształtki przejściowe",
+    "valves": "Zawory i kurki",
+    "tools": "Narzędzia spawalnicze"
   },
   "quote": "Projektanfrage",
   "resources": {

@@ -14,7 +14,7 @@ import { Card } from "@/components/ui/Card";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { Button } from "@/components/ui/Button";
 import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
-import { Download } from "@/components/ui/icon";
+import { Download, FileText } from "@/components/ui/icon";
 
 interface LibRow {
   t: string;
@@ -43,24 +43,47 @@ export async function ServiceDeep() {
             <SectionHead eyebrow={t("libEyebrow")} title={t("libTitle")} lead={t("libLead")} />
           </Reveal>
           <Reveal delay={0.08}>
-            <div className="flex flex-col gap-2">
-              {libRows.map((r) => (
-                <div key={r.t} className="rounded-lg border border-card-border bg-card">
-                  <div className="flex min-h-14 items-center justify-between gap-4 px-5 py-4">
-                    <span className="flex min-w-0 flex-col items-start gap-1">
-                      <span className="font-heading text-body font-bold text-foreground">{r.t}</span>
-                      <span className="text-small text-muted-foreground">
-                        {r.s} · {r.lang}
-                      </span>
-                    </span>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {libRows.map((r, idx) => (
+                <div 
+                  key={r.t + idx} 
+                  className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-card-border bg-card p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+                >
+                  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  
+                  <div className="flex flex-col gap-4">
+                    <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-primary/10 text-primary">
+                      <FileText className="w-6 h-6" />
+                    </div>
+                    
+                    <div className="flex flex-col gap-1.5">
+                      <h4 className="font-heading text-lg font-bold text-foreground leading-tight group-hover:text-primary transition-colors duration-300">
+                        {r.t}
+                      </h4>
+                      <p className="text-sm text-muted-foreground line-clamp-2">
+                        {r.s}
+                      </p>
+                      <div className="mt-2 inline-block w-max rounded-full bg-background-subtle border border-card-border px-2.5 py-0.5 text-xs font-semibold tracking-wide uppercase text-muted-foreground">
+                        {r.lang}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-8 pt-4 border-t border-card-border/50">
                     {r.href ? (
-                      <Button variant="ghost" size="sm" href={r.href} icon={<Download size={15} />}>
+                      <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        href={r.href} 
+                        icon={<Download size={16} />}
+                        className="w-full justify-between px-4 hover:bg-primary hover:text-primary-foreground group/btn"
+                      >
                         {t("libOpen")}
                       </Button>
                     ) : (
-                      <span className="shrink-0 rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-primary">
+                      <div className="flex w-full items-center justify-center rounded-lg bg-primary/5 px-4 py-2 text-sm font-semibold text-primary">
                         {t("libRequest")}
-                      </span>
+                      </div>
                     )}
                   </div>
                 </div>

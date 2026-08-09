@@ -5,6 +5,7 @@ import pick from 'lodash/pick';
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
+import { Link } from '@/lib/i18n/navigation';
 
 import {
   Droplet,
@@ -56,33 +57,42 @@ export default async function ReferenzenPage({ params }: Props) {
             {t('hero.titlePlain')}<span className="text-primary">{t('hero.titleAccent')}</span>
           </span>
         }
-        description={t('hero.lead')}
       >
-        <div className="flex gap-4">
-          <div className="px-8 py-4 rounded-full border-2 border-primary text-primary font-mono tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300 shadow-[0_0_20px_rgba(var(--primary),0.2)] hover:shadow-[0_0_30px_rgba(var(--primary),0.5)] cursor-pointer text-sm font-bold">
+        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-6 relative z-50">
+          <Link href="#projekte" className="px-8 py-4 rounded-full border-2 border-primary text-primary font-mono tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300 shadow-[0_0_20px_rgba(var(--primary),0.2)] hover:shadow-[0_0_30px_rgba(var(--primary),0.5)] cursor-pointer text-sm font-bold text-center block">
             {t('hero.cta1')}
-          </div>
-          <div className="px-8 py-4 rounded-full bg-card border border-card-border text-foreground font-mono tracking-widest uppercase hover:bg-muted transition-colors cursor-pointer text-sm font-bold">
+          </Link>
+          <Link href="#karten" className="px-8 py-4 rounded-full bg-card border border-card-border text-foreground font-mono tracking-widest uppercase hover:bg-muted transition-colors cursor-pointer text-sm font-bold text-center block">
             {t('hero.cta2')}
-          </div>
+          </Link>
         </div>
       </ParallaxHero>
 
       {/* Manifest Section */}
-      <section className="py-40 bg-background border-b border-card-border relative z-10">
-        <div className="max-w-[1000px] mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-16">
-            <div className="p-4 bg-primary/10 rounded-2xl border border-primary/20">
-              <Droplet className="w-12 h-12 text-primary" />
+      <section className="py-24 lg:py-32 bg-background border-b border-card-border relative z-10">
+        <div className="max-w-[1200px] mx-auto px-6">
+          <div className="flex flex-col gap-12">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-card-border/50 pb-10">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading font-black tracking-tighter uppercase max-w-[700px] leading-tight">
+                {t('manifesto.title')}
+              </h2>
+              <div className="p-4 bg-primary/10 rounded-2xl border border-primary/20 shrink-0 w-max mb-2">
+                <Droplet className="w-8 h-8 text-primary" />
+              </div>
             </div>
-            <h2 className="text-5xl md:text-6xl font-heading font-black tracking-tighter uppercase">{t('manifesto.title')}</h2>
-          </div>
 
-          <div className="space-y-12 text-xl text-muted-foreground leading-[1.8] font-sans">
-            <p dangerouslySetInnerHTML={{ __html: t.raw('manifesto.p1').replace(/<strong>/g, '<span class="text-foreground font-semibold">').replace(/<\/strong>/g, '</span>') }} />
-            <p>{t('manifesto.p2')}</p>
-            <p>{t('manifesto.p3')}</p>
-            <p>{t('manifesto.p4')}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 text-lg text-muted-foreground leading-relaxed font-sans mt-4">
+              <div className="space-y-8">
+                <p dangerouslySetInnerHTML={{ __html: t.raw('manifesto.p1').replace(/<strong>/g, '<span class="text-foreground font-bold">').replace(/<\/strong>/g, '</span>') }} />
+                <p>{t('manifesto.p2')}</p>
+              </div>
+              <div className="space-y-8">
+                <p>{t('manifesto.p3')}</p>
+                <div className="border-l-2 border-primary pl-6 py-2 mt-4">
+                  <p className="text-foreground font-semibold">{t('manifesto.p4')}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

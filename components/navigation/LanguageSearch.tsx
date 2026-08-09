@@ -9,6 +9,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { Search, X, Map } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { LANGUAGES, LANGUAGE_GROUPS } from '@/lib/i18n/languages';
 import { LangDot, faintCls, fgCls, glass, mutedCls } from './lang-ui';
 import { useRouter } from '@/lib/i18n/navigation';
@@ -79,6 +80,7 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
   const inputRef = useRef<HTMLInputElement>(null);
   const reduced = useReducedMotion();
   const router = useRouter();
+  const t = useTranslations('languagePage');
 
   useEffect(() => {
     if (open) {
@@ -134,7 +136,7 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
                 ref={inputRef}
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
-                placeholder="Sprache oder Seite suchen …"
+                placeholder={t('searchPlaceholder')}
                 className={`w-full bg-transparent text-[15px] font-medium outline-none
                             placeholder:opacity-60 ${fgCls(dark)}`}
               ></input>
@@ -149,7 +151,7 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
               </button>
             </div>
 
-            <div className="overflow-y-auto p-2 pb-3">
+            <div className="flex-1 min-h-0 overflow-y-auto p-2 pb-3">
               {groups.map(({ g, items }) => (
                 <div key={g.id}>
                   <div className={`px-3 pb-1 pt-2.5 text-[10.5px] font-bold uppercase tracking-[0.12em] ${faintCls(dark)}`}>
@@ -163,17 +165,19 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
                       className={`flex min-h-11 w-full items-center gap-2.5 rounded-xl px-3 py-1.5 text-start
                                   ${dark ? 'hover:bg-white/8' : 'hover:bg-[#5B2D8C]/8'}`}
                     >
-                      <LangDot color={dark ? l.bright : l.color}></LangDot>
-                      <span className={`text-sm font-medium ${l.id === activeId ? 'text-[#a476d4]' : ''}`}>
+                      <div className="shrink-0">
+                        <LangDot color={dark ? l.bright : l.color}></LangDot>
+                      </div>
+                      <span className={`text-sm font-medium truncate ${l.id === activeId ? 'text-[#a476d4]' : ''}`}>
                         {l.de}
                       </span>
                       {l.tier !== 'full' && (
-                        <span className={`rounded-full border px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider
+                        <span className={`shrink-0 rounded-full border px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider
                                           ${dark ? 'border-white/20 text-white/50' : 'border-black/15 text-black/40'}`}>
-                          Beta
+                          {t('beta')}
                         </span>
                       )}
-                      <span dir={l.rtl ? 'rtl' : 'ltr'} className={`ms-auto text-[12.5px] ${mutedCls(dark)}`}>
+                      <span dir={l.rtl ? 'rtl' : 'ltr'} className={`ms-auto shrink-0 truncate max-w-[35%] text-[12.5px] ${mutedCls(dark)}`}>
                         {l.nat}
                       </span>
                     </button>
@@ -185,7 +189,7 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
               {pageResults.length > 0 && (
                 <div>
                   <div className={`px-3 pb-1 pt-4 text-[10.5px] font-bold uppercase tracking-[0.12em] ${faintCls(dark)}`}>
-                    Seiten & Navigation
+                    {t('pagesSection')}
                   </div>
                   {pageResults.map((p) => (
                     <button
@@ -198,8 +202,10 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
                       className={`flex min-h-11 w-full items-center gap-2.5 rounded-xl px-3 py-1.5 text-start
                                   ${dark ? 'hover:bg-white/8' : 'hover:bg-[#5B2D8C]/8'}`}
                     >
-                      <Map className={`size-4 opacity-50 ${dark ? 'text-white' : 'text-[#5B2D8C]'}`} />
-                      <span className={`text-sm font-medium`}>
+                      <div className="shrink-0">
+                        <Map className={`size-4 opacity-50 ${dark ? 'text-white' : 'text-[#5B2D8C]'}`} />
+                      </div>
+                      <span className={`text-sm font-medium truncate`}>
                         {p.de}
                       </span>
                     </button>
@@ -209,7 +215,7 @@ export function LanguageSearch({ open, dark, activeId, onClose, onPick }: Langua
 
               {groups.length === 0 && pageResults.length === 0 && (
                 <div className={`p-6 text-center text-[13.5px] ${mutedCls(dark)}`}>
-                  Keine Sprache gefunden.
+                  {t('noResults')}
                 </div>
               )}
             </div>

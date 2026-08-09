@@ -40,6 +40,7 @@
   display: flex; align-items: center; gap: 18px;
   padding: 22px 26px; text-decoration: none;
   border-top: 1px solid var(--card-border, #E7E3EC);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .ka-edgeindex .row:last-child { border-bottom: 1px solid var(--card-border, #E7E3EC); }
 .ka-edgeindex .row i {
@@ -80,6 +81,34 @@
   animation: ka-edgeidx-mq 10s linear infinite;
 }
 .ka-edgeindex .row[data-tone="aqua"] .track { color: #0A2A33; }
+
+@media (max-width: 768px) {
+  .ka-edgeindex { 
+    flex-direction: row; 
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    padding: 24px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .ka-edgeindex::-webkit-scrollbar { display: none; }
+  .ka-edgeindex .row { 
+    flex-direction: column; 
+    align-items: flex-start;
+    min-width: 80vw;
+    scroll-snap-align: center;
+    border: 1px solid var(--card-border, #E7E3EC);
+    border-radius: 16px;
+    margin-right: 16px;
+    padding: 32px 24px;
+    background: var(--card, #ffffff);
+  }
+  .ka-edgeindex .row:last-child { margin-right: 0; }
+  .ka-edgeindex .meta { margin-left: 0; margin-top: auto; }
+  .ka-edgeindex .arrow { align-self: flex-end; margin-top: -32px; }
+  .ka-edgeindex .row:active { transform: scale(0.96); }
+}
+
 @keyframes ka-edgeidx-mq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .ka-edgeindex .track { animation: none; } }
 
