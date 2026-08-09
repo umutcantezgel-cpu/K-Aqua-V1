@@ -14,6 +14,11 @@
    ============================================================ */
 
 @import "tailwindcss";
+@config "../tailwind.config.ts";
+@source "../app";
+@source "../components";
+@source "../content";
+@source "../lib";
 @plugin "@tailwindcss/typography";
 @import "./globe-hub.css";
 @import "./enterprise.css";
@@ -563,7 +568,7 @@ body {
 .k-orbit-static {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: var(--sp-4);
+  gap: var(--sp-6);
 }
 .k-orbit-static .k-orbit-card { position: static; max-width: none; }
 .k-scrolly-hint {
@@ -762,3 +767,21 @@ textarea.k-input { resize: vertical; }
 .k-doc-check.is-on { border-color: var(--primary); background: var(--primary-soft); }
 
 
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.k-orbit-static-override .k-orbit-card { position: static; max-width: none; }
+@media (min-width: 768px) {
+  .k-orbit-static-override {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
