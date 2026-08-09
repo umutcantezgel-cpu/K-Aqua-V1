@@ -15,10 +15,11 @@
 "use client";
 /* eslint-disable react/jsx-no-literals */
 import React, { useState } from "react";
+import { useLocale } from 'next-intl';
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import EngineeredCard from "@/components/ui/EngineeredCard";
-import { CATALOG } from "@/lib/data/catalog";
+import { CATALOG, CATALOG_COL_LABELS } from "@/lib/data/catalog";
 import type { CatalogItem } from "@/lib/data/catalog";
 
 interface CatalogTabMeta {
@@ -64,6 +65,9 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
     lenLabel,
     viewDetails
   } = translations;
+
+  const locale = useLocale() as 'de' | 'en' | 'ar';
+  const L = CATALOG_COL_LABELS[locale] || CATALOG_COL_LABELS.en;
 
   const CATS = CATALOG;
   const active = CATS[cat] ?? CATS[0];
@@ -129,11 +133,59 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {items.map((it, i) => {
                 const specs = [];
-                if (it.material) specs.push({ label: materialLabel, value: it.material });
-                if (it.sdr) specs.push({ label: sdrLabel, value: String(it.sdr) });
-                if (it.series) specs.push({ label: seriesLabel, value: it.series });
-                if (it.pressure) specs.push({ label: pressureLabel, value: it.pressure });
-                if (it.len) specs.push({ label: lenLabel, value: it.len });
+                if (it.material) specs.push({ label: materialLabel || "Material", value: it.material });
+                if (it.sdr) specs.push({ label: sdrLabel || "SDR", value: String(it.sdr) });
+                if (it.series) specs.push({ label: seriesLabel || "Serie", value: it.series });
+                if (it.pressure) specs.push({ label: pressureLabel || "Druck", value: it.pressure });
+                if (it.len) specs.push({ label: lenLabel || "Länge", value: it.len });
+
+                // Wenn es sich um ein Formteil, Werkzeug etc. handelt, fehlen diese Angaben oft.
+                // Wir extrahieren stattdessen Dimensionen und VPE aus den rohen Tabellendaten.
+                if (specs.length === 0 || active!.id !== 'pipes') {
+                  // Finde Spalte für Dimension (d, d1, mainPipe)
+                  const dIdx = it.head.findIndex(h => h.startsWith('d ') || h === 'd1 (mm)' || h === '#mainPipe' || h === '#dim');
+                  if (dIdx !== -1 && it.rows.length > 0) {
+                    const dVals = it.rows.map(r => {
+                      const v = String(r[dIdx]).replace(/[^0-9.]/g, '');
+                      return parseFloat(v);
+                    }).filter(n => !isNaN(n));
+
+                    if (dVals.length > 0) {
+                      const minD = Math.min(...dVals);
+                      const maxD = Math.max(...dVals);
+                      const unit = it.head[dIdx].includes('mm') || it.head[dIdx] === '#mainPipe' ? ' mm' : '';
+                      const dStr = minD === maxD ? `${minD}${unit}` : `${minD} - ${maxD}${unit}`;
+                      specs.push({ label: L.dim || "Dimension", value: dStr });
+                    } else if (it.rows.length === 1 && it.rows[0][dIdx]) {
+                      // Fallback für Strings wie "1/2"
+                      specs.push({ label: L.dim || "Dimension", value: String(it.rows[0][dIdx]) });
+                    }
+                  }
+
+                  // Finde Spalte für Gewinde (Rp, R, thread)
+                  const thIdx = it.head.findIndex(h => h === 'Rp' || h === 'R' || h === '#thread');
+                  if (thIdx !== -1 && it.rows.length > 0) {
+                     const thVals = it.rows.map(r => String(r[thIdx])).filter(v => v && v !== '-');
+                     if (thVals.length > 0) {
+                       const unique = Array.from(new Set(thVals));
+                       if (unique.length === 1) {
+                         specs.push({ label: L.thread || "Gewinde", value: unique[0] });
+                       } else {
+                         specs.push({ label: L.thread || "Gewinde", value: `${unique[0]} ... ${unique[unique.length - 1]}` });
+                       }
+                     }
+                  }
+
+                  // Finde Spalte für Packungsgröße (VPE)
+                  const pIdx = it.head.findIndex(h => h === '#pack');
+                  if (pIdx !== -1 && it.rows.length > 0) {
+                    const pVals = it.rows.map(r => Number(r[pIdx])).filter(n => !isNaN(n));
+                    if (pVals.length > 0) {
+                      const maxP = Math.max(...pVals);
+                      specs.push({ label: L.pack || "VPE", value: `≤ ${maxP}` });
+                    }
+                  }
+                }
 
                 return (
                   <Reveal key={it.slug} delay={i * 0.05}>

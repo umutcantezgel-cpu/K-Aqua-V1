@@ -25,7 +25,7 @@ export default function EngineeredCard({
     <article
       tabIndex={0}
       className={[
-        'group relative isolate flex min-h-90 flex-col overflow-hidden rounded-xl border border-card-border bg-card p-8',
+        'group relative isolate flex min-h-90 flex-col overflow-hidden rounded-xl border border-card-border bg-card p-6 md:p-8',
         'transition-all duration-300 outline-none hover:-translate-y-1 hover:shadow-lift hover:border-primary/50'
       ].join(' ')}
     >

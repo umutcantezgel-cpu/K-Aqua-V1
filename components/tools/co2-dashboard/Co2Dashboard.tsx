@@ -162,6 +162,7 @@ export default function Co2Dashboard() {
   const [usePortfolio, setUsePortfolio] = useSD(false);
   const [drawerId, setDrawerId] = useSD(null);
   const [extHoverYear, setExtHoverYear] = useSD(null);
+  const [sidebarOpen, setSidebarOpen] = useSD(false);
 
   useED(() => { try { localStorage.setItem('kaqua-co2-scenarios-v1', JSON.stringify(scenarios)); } catch (e) {} }, [scenarios]);
   useED(() => { try { localStorage.setItem('kaqua-co2-portfolio-v1', JSON.stringify(portfolioRows)); } catch (e) {} }, [portfolioRows]);
@@ -277,13 +278,37 @@ export default function Co2Dashboard() {
   const lifeGuide = co2LifespanGuide(opponentId, opModeId, oppV);
   return (
     <div className="dash-shell is-norail" data-screen-label="CO2-Dashboard">
-      <aside className="dash-sidebar">
-        <span className="dash-sheet-handle"></span>
-        <div className="dash-brand">
-          <KAquaLogo height={26} /><span className="dash-brand-tag">CO₂-Rechner</span>
-          <div className="dash-brand-actions">
+      {/* Mobile Sidebar Overlay */}
+      {sidebarOpen && (
+        <div 
+          className="fixed inset-0 bg-background/80 backdrop-blur-sm z-40 md:hidden"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
+      {/* Mobile Toggle Button (only visible on small screens) */}
+      <div className="md:hidden fixed bottom-6 right-6 z-30">
+        <button 
+          className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-3 rounded-full shadow-xl font-heading font-bold"
+          onClick={() => setSidebarOpen(true)}
+        >
+          <Icons.Settings size={20} />
+          <span>Parameter anpassen</span>
+        </button>
+      </div>
+
+      <aside className={`dash-sidebar z-50 transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'} fixed md:relative h-full w-[320px] bg-background/95 md:bg-transparent backdrop-blur-md md:backdrop-blur-none border-r border-card-border overflow-y-auto left-0 top-0 pb-20 md:pb-0 shadow-2xl md:shadow-none`}>
+        <span className="dash-sheet-handle hidden md:block"></span>
+        <div className="dash-brand flex justify-between items-center px-4 py-4 md:px-0 md:py-0 border-b md:border-none border-card-border">
+          <div className="flex items-center gap-2">
+            <KAquaLogo height={26} /><span className="dash-brand-tag hidden md:inline">CO₂-Rechner</span>
+          </div>
+          <div className="dash-brand-actions flex items-center gap-2">
             <ShareButton></ShareButton>
             <ThemeToggle theme={currentTheme} onToggle={() => setTheme(currentTheme === 'dark' ? 'light' : 'dark')} />
+            <button className="md:hidden p-2 rounded-full bg-background-subtle text-foreground ml-2" onClick={() => setSidebarOpen(false)}>
+              <Icons.X size={20} />
+            </button>
           </div>
         </div>
         <div className="dash-controls">

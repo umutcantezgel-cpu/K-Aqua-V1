@@ -60,7 +60,7 @@ export async function TrustDeep() {
           <Reveal>
             <SectionHead eyebrow={t("instEyebrow")} title={t("instTitle")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6">
             {inst.map((it, i) => (
               <Reveal key={it.t} delay={i * 0.08}>
                 <Card className="h-full">

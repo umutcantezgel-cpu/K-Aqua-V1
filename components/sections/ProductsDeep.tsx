@@ -90,7 +90,7 @@ export function ProductsDeep({ translations }: ProductsDeepProps) {
           <Reveal>
             <SectionHead eyebrow={pipesEyebrow} title={pipesTitle} lead={pipesLead} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6 pb-8 md:pb-0">
             {pipes.map((p, i) => (
               <Reveal key={p.t} delay={i * 0.07}>
                 <EngineeredCard
@@ -118,20 +118,20 @@ export function ProductsDeep({ translations }: ProductsDeepProps) {
           <Reveal>
             <SectionHead eyebrow="Visualisierung" title="K-Aqua PipeFX" lead="Echtzeit-Simulationen unserer Produktionsprozesse." />
           </Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12 pb-8 md:pb-0">
+            <Card className="w-full flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="flow" size={240} />
               <div className="font-heading font-bold text-foreground">Flow</div>
             </Card>
-            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+            <Card className="w-full flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="blueprint" size={240} />
               <div className="font-heading font-bold text-foreground">Blueprint</div>
             </Card>
-            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+            <Card className="w-full flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="pressure" size={240} />
               <div className="font-heading font-bold text-foreground">Pressure</div>
             </Card>
-            <Card className="flex flex-col items-center justify-center p-6 gap-4">
+            <Card className="w-full flex flex-col items-center justify-center p-6 gap-4">
               <PipeFX variant="isonet" size={240} />
               <div className="font-heading font-bold text-foreground">Isometric</div>
             </Card>
@@ -168,9 +168,9 @@ export function ProductsDeep({ translations }: ProductsDeepProps) {
           <Reveal delay={0.12}>
             <DeepMatrix head={dimHead} rows={rows} heroCol={3} note={dimNote} />
           </Reveal>
-          <div className="mt-6 grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6 mt-8 pb-8 md:pb-0">
             {anchors.map((a, i) => (
-              <Reveal key={a.t} delay={i * 0.08}>
+              <Reveal key={a.t} delay={i * 0.08} className="w-full">
                 <Card tint className="h-full">
                   <span className="font-heading text-h3 font-extrabold text-foreground">{a.v}</span>
                   <div className="font-heading text-small font-bold text-foreground">{a.t}</div>

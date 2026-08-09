@@ -84,7 +84,7 @@ export default async function ProjektanfragePage({ params }: Props) {
         <RfqWizard rfqData={rfqData} />
 
         <section className="py-24 bg-card/30 border-t border-card-border/50">
-          <div className="max-w-[1000px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div className="max-w-[1000px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-16">
             <div>
               <h2 className="text-2xl font-heading font-bold text-foreground mb-6">{infoTitle}</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">{infoText1}</p>

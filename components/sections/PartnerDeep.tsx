@@ -46,13 +46,27 @@ export async function PartnerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("ecoEyebrow")} title={t("ecoTitle")} lead={t("ecoLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
             {eco.map((e, i) => (
               <Reveal key={e.t} delay={i * 0.07}>
-                <Card className="h-full">
-                  <div className="font-heading text-small font-bold text-foreground">{e.t}</div>
-                  <p className="text-tiny text-muted-foreground">{e.d}</p>
-                </Card>
+                <div className="group relative flex flex-col h-full overflow-hidden rounded-[24px] border border-card-border bg-card p-8 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+                  <div className="absolute top-0 right-0 p-8 text-[120px] font-heading font-black text-primary/[0.03] leading-none pointer-events-none select-none group-hover:scale-110 transition-transform duration-700">
+                    {i + 1}
+                  </div>
+                  <div className="relative z-10 flex flex-col h-full">
+                    <div className="flex items-center gap-4 mb-6">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/10 text-primary font-heading font-bold text-lg">
+                        0{i + 1}
+                      </div>
+                    </div>
+                    <h3 className="font-heading text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
+                      {e.t}
+                    </h3>
+                    <p className="text-base leading-relaxed text-muted-foreground mt-auto">
+                      {e.d}
+                    </p>
+                  </div>
+                </div>
               </Reveal>
             ))}
           </div>
@@ -64,7 +78,7 @@ export async function PartnerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("flowEyebrow")} title={t("flowTitle")} lead={t("flowLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-4">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
             {flow.map((f, i) => (
               <Reveal key={f.t} delay={i * 0.08}>
                 <Card tint={i === 2} className="h-full">
@@ -112,7 +126,7 @@ export async function PartnerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("specEyebrow")} title={t("specTitle")} lead={t("specLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-4">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
             {spec.map((s, i) => (
               <Reveal key={s.t} delay={i * 0.08}>
                 <Card className="h-full">

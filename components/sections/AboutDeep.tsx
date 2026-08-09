@@ -39,7 +39,19 @@ export async function AboutDeep() {
             <SectionHead eyebrow={t("numEyebrow")} title={t("numTitle")} lead={t("numLead")} />
           </Reveal>
           <Reveal delay={0.08}>
-            <StatBand stats={nums} />
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+              {nums.map((s, i) => (
+                <Card key={i} tint className="flex flex-col gap-2 p-8 text-center items-center justify-center relative overflow-hidden group shadow-sm hover:shadow-diffuse hover:border-primary/30 transition-all duration-500">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="font-heading font-extrabold text-5xl md:text-6xl text-primary tracking-tight relative z-10">
+                    {s.n}{s.u && <span className="text-3xl text-primary/70 ml-1">{s.u}</span>}
+                  </div>
+                  <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-2 relative z-10">
+                    {s.l}
+                  </div>
+                </Card>
+              ))}
+            </div>
           </Reveal>
         </div>
       </section>
@@ -60,7 +72,7 @@ export async function AboutDeep() {
           <Reveal>
             <SectionHead eyebrow={t("houseEyebrow")} title={t("houseTitle")} lead={t("houseLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6 pb-8 md:pb-0">
             {house.map((h, i) => (
               <Reveal key={h.t} delay={i * 0.07}>
                 <Card tint className="h-full">
@@ -74,27 +86,30 @@ export async function AboutDeep() {
       </section>
 
       <section className="bg-background-subtle py-[clamp(64px,9vw,120px)]" data-screen-label="about-milestones">
-        <div className="mx-auto max-w-[760px] px-6">
+        <div className="mx-auto max-w-[800px] px-6">
           <Reveal>
             <SectionHead eyebrow={t("mileEyebrow")} title={t("mileTitle")} />
           </Reveal>
-          <div className="flex flex-col">
+          <div className="relative border-l-2 border-card-border/60 ml-4 md:ml-6 mt-16 space-y-12">
             {miles.map((m, i) => (
-              <div
-                key={m.t}
-                className={i > 0 ? "grid grid-cols-[44px_minmax(0,1fr)] gap-4 border-t border-dashed border-card-border py-4" : "grid grid-cols-[44px_minmax(0,1fr)] gap-4 py-4"}
-              >
-                <span
-                  aria-hidden="true"
-                  className="flex h-10 min-w-10 items-center justify-center rounded-full bg-primary-soft px-1 font-heading text-tiny font-extrabold text-primary"
-                >
-                  {m.y}
-                </span>
-                <div>
-                  <div className="font-heading text-body font-bold text-foreground">{m.t}</div>
-                  <p className="text-small leading-relaxed text-muted-foreground">{m.d}</p>
+              <Reveal key={m.t} delay={i * 0.08}>
+                <div className="relative pl-10 md:pl-16 group">
+                  {/* Timeline Dot */}
+                  <div className="absolute w-4 h-4 rounded-full bg-primary-soft border-2 border-primary left-[-9px] top-2 transition-transform duration-300 group-hover:scale-125 group-hover:bg-primary shadow-sm" />
+                  
+                  <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8 mb-3">
+                    <span className="font-heading font-black text-3xl md:text-4xl text-primary/80 w-28 shrink-0 tracking-tight">
+                      {m.y}
+                    </span>
+                    <h3 className="font-heading text-xl md:text-2xl font-bold text-foreground">
+                      {m.t}
+                    </h3>
+                  </div>
+                  <p className="text-body text-muted-foreground leading-relaxed md:pl-[144px]">
+                    {m.d}
+                  </p>
                 </div>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -105,46 +120,56 @@ export async function AboutDeep() {
           <Reveal>
             <SectionHead eyebrow="Insights" title="K-Aqua Einblicke" lead="Entdecken Sie die Vorteile unserer Premium PPR-Systeme" />
           </Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-            <Reveal delay={0.07}>
-               <MediaSlot 
-                 alt="PPR-Rohre als beste Lösung für moderne Installationen - Langlebigkeit und Effizienz" 
-                 aspectRatio="4/3" 
-                 shapeVariant="sweep-r" 
-                 src="/images/new-k-aqua/ppr-rohre-vorteile.jpg" 
-                 className="shadow-lift"
-                 priority
-               />
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 mt-12 pb-8 md:pb-0 h-auto md:h-[640px]">
+            {/* Big Main Feature (60% width, 100% height) */}
+            <Reveal delay={0.07} className="md:col-span-2 md:row-span-2 h-[350px] md:h-full">
+              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-diffuse group">
+                <img 
+                  src="/images/new-k-aqua/ppr-rohre-vorteile.jpg" 
+                  alt="PPR-Rohre als beste Lösung" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <div className="bg-background/95 backdrop-blur-md px-4 py-2 rounded-lg inline-block shadow-sm">
+                    <span className="text-sm font-bold text-foreground">Langlebigkeit & Effizienz</span>
+                  </div>
+                </div>
+              </div>
             </Reveal>
-            <Reveal delay={0.14}>
-               <MediaSlot 
-                 alt="Was ist Polypropylen-Random-Copolymer (PPR)? Materialaufbau und Struktur" 
-                 aspectRatio="4/3" 
-                 shapeVariant="square" 
-                 src="/images/new-k-aqua/was-ist-ppr.jpg" 
-                 className="shadow-lift"
-                 loading="lazy"
-               />
+            
+            {/* Top Right Horizontal (40% width, 50% height) */}
+            <Reveal delay={0.14} className="md:col-span-2 md:row-span-1 h-[250px] md:h-full">
+              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
+                <img 
+                  src="/images/new-k-aqua/was-ist-ppr.jpg" 
+                  alt="Was ist PPR?" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                />
+              </div>
             </Reveal>
-            <Reveal delay={0.21}>
-               <MediaSlot 
-                 alt="K-Aqua setzt neue Maßstäbe in der Flexibilität bei deutschen PPR-Rohren" 
-                 aspectRatio="4/3" 
-                 shapeVariant="sweep-l" 
-                 src="/images/new-k-aqua/flexibilitaet-ppr-rohre.jpg" 
-                 className="shadow-lift"
-                 loading="lazy"
-               />
+            
+            {/* Bottom Right 1 (20% width, 50% height) */}
+            <Reveal delay={0.21} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
+              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
+                <img 
+                  src="/images/new-k-aqua/flexibilitaet-ppr-rohre.jpg" 
+                  alt="K-Aqua Flexibilität" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                />
+              </div>
             </Reveal>
-            <Reveal delay={0.28}>
-               <MediaSlot 
-                 alt="Hochwertige Messingeinsätze treffen auf German PPR für maximale Leistung" 
-                 aspectRatio="4/3" 
-                 shapeVariant="sweep-r" 
-                 src="/images/new-k-aqua/messingfittings-ppr.jpg" 
-                 className="shadow-lift"
-                 loading="lazy"
-               />
+            
+            {/* Bottom Right 2 (20% width, 50% height) */}
+            <Reveal delay={0.28} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
+              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
+                <img 
+                  src="/images/new-k-aqua/messingfittings-ppr.jpg" 
+                  alt="Hochwertige Messingeinsätze" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                />
+              </div>
             </Reveal>
           </div>
         </div>

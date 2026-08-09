@@ -16,7 +16,7 @@ import {
 } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Search } from 'lucide-react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/lib/i18n/navigation';
 import {
   LANGUAGES, LANGUAGES_BY_ID, type KAquaLanguage,
@@ -56,6 +56,7 @@ export function LanguageGlobeHub({
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
+  const t = useTranslations('languagePage');
 
   /* R3F-Canvas erst nach Mount rendern (kein SSR für WebGL) */
   const [mounted, setMounted] = useState(false);
@@ -178,13 +179,33 @@ export function LanguageGlobeHub({
         {/* Title */}
         <div className="pointer-events-none text-center w-full mt-2 lg:mt-0">
           <h2 className="text-[clamp(22px,3.4vw,44px)] font-bold leading-[1.1] tracking-tight">
-            Wähle deine Sprache
+            {t('title')}
           </h2>
           <p className={`mt-1 text-sm max-lg:text-[12px] ${mutedCls(dark)}`}>
-            {LANGUAGES.length} Sprachen · Globus drehen, Region antippen, bestätigen.
+            {LANGUAGES.length} {t('subtitle').replace('65 ', '')}
           </p>
         </div>
       </div>
+
+        {/* Desktop-Tooltip / Mobile Info-Zeile */}
+        <div
+          ref={tipRef}
+          className={`absolute pointer-events-none transition-opacity duration-300
+                      max-lg:static max-lg:px-4 max-lg:pt-2
+                      lg:w-[320px] lg:-translate-y-1/2 lg:pl-10`}
+          style={{
+            top: '50%',
+            left: '50%',
+            opacity: mounted && ready && !pendingId && !searchOpen ? 1 : 0,
+          }}
+        >
+          <div className={`text-[12px] font-bold uppercase tracking-widest ${mutedCls(dark)}`}>
+            {t('title')}
+          </div>
+          <div className="mt-1 text-[13px] opacity-75">
+            {t('subtitle')}
+          </div>
+        </div>
 
       {/* Globus */}
       <div ref={hostRef} className="relative z-10 min-h-0 flex-1">

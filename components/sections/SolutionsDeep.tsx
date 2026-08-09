@@ -37,7 +37,7 @@ export async function SolutionsDeep() {
           <Reveal>
             <SectionHead eyebrow={t("segEyebrow")} title={t("segTitle")} lead={t("segLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6 pb-8 md:pb-0">
             {segments.map((s, i) => (
               <Reveal key={s.t} delay={i * 0.07}>
                 <Card className="h-full">

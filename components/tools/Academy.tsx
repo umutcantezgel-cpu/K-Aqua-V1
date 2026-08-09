@@ -12,10 +12,10 @@ import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 
 // Mappings for Academy videos: local path and YouTube SEO fallback
 const VIDEO_ASSETS = [
-  { src: '/videos/socket-welding-hand.mp4', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
-  { src: '/videos/socket-welding-machine.mp4', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
-  { src: '/videos/electrofusion.mp4', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
-  { src: '/videos/butt-fusion.mp4', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
+  { src: '/videos/socket-welding-hand.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
+  { src: '/videos/socket-welding-machine.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
+  { src: '/videos/electrofusion.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
+  { src: '/videos/butt-fusion.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
 ];
 
 const CORRECT_ANSWERS = [1, 0, 1, 1, 1];
@@ -133,7 +133,7 @@ export function Academy({ data }: AcademyProps) {
       <section className="py-16 border-b border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
           <h2 className="sr-only">Schulungsvideos und Anleitungen</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 sm:gap-6">
             {data.videos.map((video, idx) => {
               const asset = VIDEO_ASSETS[idx] || VIDEO_ASSETS[0];
 

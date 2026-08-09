@@ -165,11 +165,11 @@ export default async function Page({ params }: Props) {
       <section className="py-12 md:py-16 bg-background border-b border-card-border relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent opacity-50 pointer-events-none" />
         <div className="mx-auto max-w-[1400px] px-6 relative z-10">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-8">
             {stats.map((stat, idx) => (
               <div 
                 key={idx} 
-                className="flex flex-col justify-start items-start group"
+                className="w-full flex flex-col justify-start items-start group"
               >
                 <span className="font-heading font-extrabold text-4xl lg:text-5xl text-primary leading-none tracking-tight mb-3 group-hover:scale-105 transition-transform duration-300 origin-left">
                   {stat.value}
@@ -201,27 +201,30 @@ export default async function Page({ params }: Props) {
             lead={tHome('toolsLead')}
             align="center"
           />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+          {/* Mobile: Horizontal Snap / Desktop: Grid */}
+          <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar md:grid md:grid-cols-3 gap-4 md:gap-6 mt-12 pb-8 -mx-6 px-6 md:mx-0 md:px-0">
             {tools.map((tool) => (
-              <Card key={tool.id} span={tool.span} tint={tool.tint} className="justify-between">
-                <div>
-                  <h3 className="font-heading font-bold text-xl mb-3 text-foreground">
-                    {tool.t}
-                  </h3>
-                  <p className="text-body text-muted-foreground leading-relaxed mb-6">
-                    {tool.d}
-                  </p>
-                </div>
-                <Button
-                  variant="ghost"
-                  href={tool.href}
-                  className="w-full justify-between mt-auto"
-                  icon={<ArrowRight className="w-4 h-4" />}
-                  iconPosition="right"
-                >
-                  {tool.cta}
-                </Button>
-              </Card>
+              <div key={tool.id} className="min-w-[85vw] sm:min-w-[340px] md:min-w-0 snap-center shrink-0 flex">
+                <Card span={tool.span} tint={tool.tint} className="w-full flex flex-col justify-between h-full">
+                  <div>
+                    <h3 className="font-heading font-bold text-xl mb-3 text-foreground">
+                      {tool.t}
+                    </h3>
+                    <p className="text-body text-muted-foreground leading-relaxed mb-6">
+                      {tool.d}
+                    </p>
+                  </div>
+                  <Button
+                    variant="ghost"
+                    href={tool.href}
+                    className="w-full justify-between mt-auto"
+                    icon={<ArrowRight className="w-4 h-4" />}
+                    iconPosition="right"
+                  >
+                    {tool.cta}
+                  </Button>
+                </Card>
+              </div>
             ))}
           </div>
           
@@ -239,9 +242,9 @@ export default async function Page({ params }: Props) {
             title={tHomex('vsTitle')}
             align="center"
           />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 pb-8">
             {/* Bad Industry Standard */}
-            <div className="bg-card border border-card-border rounded-xl p-8 flex flex-col gap-6">
+            <div className="w-full bg-card border border-card-border rounded-xl p-8 flex flex-col gap-6">
               <h3 className="font-heading font-bold text-xl text-muted-foreground border-b border-card-border pb-4">
                 {tHomex('vsBadTitle')}
               </h3>
@@ -256,7 +259,7 @@ export default async function Page({ params }: Props) {
             </div>
 
             {/* Good K-Aqua */}
-            <div className="bg-card border border-primary/20 rounded-xl p-8 flex flex-col gap-6 shadow-diffuse relative overflow-hidden">
+            <div className="w-full bg-card border border-primary/20 rounded-xl p-8 flex flex-col gap-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
               <div className="absolute top-0 start-0 w-1.5 h-full bg-primary" />
               <h3 className="font-heading font-bold text-xl text-primary border-b border-card-border pb-4">
                 {tHomex('vsGoodTitle')}
@@ -289,9 +292,9 @@ export default async function Page({ params }: Props) {
             lead={tHomex('coLead')}
             align="left"
           />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 pb-8">
             {/* K Aqua Manifest */}
-            <Card span={2} className="flex flex-col md:flex-row gap-6 items-center justify-between">
+            <Card span={2} className="w-full flex flex-col md:flex-row gap-6 items-center justify-between">
               <div className="flex-1 flex flex-col gap-4 text-start">
                 <h3 className="font-heading font-bold text-xl text-foreground">
                   {tHomex('manifestTitle')}
@@ -317,7 +320,7 @@ export default async function Page({ params }: Props) {
             </Card>
 
             {/* World References */}
-            <Card span={1} className="flex flex-col justify-between">
+            <Card className="w-full flex flex-col justify-between group">
               <div className="flex flex-col gap-4 text-start">
                 <h3 className="font-heading font-bold text-xl text-foreground">
                   {tHomex('worldTitle')}
@@ -347,15 +350,17 @@ export default async function Page({ params }: Props) {
           </div>
 
           {/* Quality Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 lg:mt-8 pb-8">
             {qualityCards.map((card, idx) => (
-              <Card key={idx}>
-                <h3 className="font-heading font-bold text-lg text-foreground mb-2">
-                  {card.t}
-                </h3>
-                <p className="text-body text-muted-foreground leading-relaxed">
-                  {card.d}
-                </p>
+              <Card key={idx} className="w-full h-full flex flex-col hover:shadow-diffuse transition-shadow">
+                <div className="flex-1">
+                  <h3 className="font-heading font-bold text-lg text-foreground mb-2">
+                    {card.t}
+                  </h3>
+                  <p className="text-body text-muted-foreground leading-relaxed">
+                    {card.d}
+                  </p>
+                </div>
               </Card>
             ))}
           </div>
@@ -444,7 +449,7 @@ export default async function Page({ params }: Props) {
             <p className="text-lead text-inverse-foreground/80 leading-relaxed max-w-[560px]">
               {tHome('bandLead')}
             </p>
-            <div className="flex flex-wrap gap-4 mt-2">
+            <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
               <ButtonPrimary href="/projektanfrage">
                 {tHome('bandBtn')}
               </ButtonPrimary>

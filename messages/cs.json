@@ -1403,32 +1403,32 @@
       }
     }
   },
-  "toggle_theme_light": "Zu hellem Design wechseln",
-  "toggle_theme_dark": "Zu dunklem Design wechseln",
+  "toggle_theme_light": "Přepnout na světlý vzhled",
+  "toggle_theme_dark": "Přepnout na tmavý vzhled",
   "nav": {
-    "home": "Start",
-    "products": "Produkte",
-    "finder": "Produktfinder",
-    "co2": "CO₂-Rechner",
-    "markets": "Märkte",
-    "trust": "Trust Center",
+    "home": "Domů",
+    "products": "Produkty",
+    "finder": "Vyhledávač produktů",
+    "co2": "Kalkulačka CO₂",
+    "markets": "Trhy",
+    "trust": "Centrum důvěry",
     "contact": "Kontakt",
-    "quote": "Angebot anfragen",
-    "menu": "Menü",
-    "lang": "Sprache",
-    "skipToContent": "Zum Inhalt springen",
-    "menuPlaceholder": "Platzhalter (Mega-Menü)",
-    "academy": "Academy",
-    "service": "Service",
-    "about": "Unternehmen",
-    "solutions": "Lösungen",
-    "partners": "Partnerschaft",
-    "references": "Referenzen",
-    "career": "Karriere",
-    "news": "News",
-    "knowledge_trust": "Wissen & Vertrauen",
-    "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht",
+    "quote": "Vyžádat nabídku",
+    "menu": "Menu",
+    "lang": "Jazyk",
+    "skipToContent": "Přejít na obsah",
+    "menuPlaceholder": "Zástupný text (Mega-Menu)",
+    "academy": "Akademie",
+    "service": "Služby",
+    "about": "Společnost",
+    "solutions": "Řešení",
+    "partners": "Partnerství",
+    "references": "Reference",
+    "career": "Kariéra",
+    "news": "Novinky",
+    "knowledge_trust": "Znalosti a důvěra",
+    "mapAria": "Otevřít navigaci na mapě",
+    "sitemapAria": "Mapa stránek",
     "pipes": "Trubky",
     "fittings": "Tvarovky",
     "valves": "Ventily",
@@ -1441,183 +1441,183 @@
     "edgePageIndex": "Rejstřík stránek"
   },
   "groups": {
-    "tools": "Werkzeuge",
-    "knowledge": "Wissen",
-    "company": "Unternehmen",
-    "products": "Produkte",
-    "markets_solutions": "Märkte & Lösungen",
-    "knowledge_resources": "Wissen & Ressourcen"
+    "tools": "Nástroje",
+    "knowledge": "Znalosti",
+    "company": "Společnost",
+    "products": "Produkty",
+    "markets_solutions": "Trhy a řešení",
+    "knowledge_resources": "Znalosti a zdroje"
   },
   "pages": {
     "catalogOverview": "Vollständiger Produktkatalog",
     "finderGuideText": "<h2>Interaktivní vyhledávač produktů pro potrubní systémy K-Aqua</h2><p>Využijte náš inovativní vyhledávač produktů a najděte přesně ten správný komponent pro vaši konkrétní instalaci potrubí. Ať už hledáte standardní PP-R trubky pro instalaci pitné vody, trubky PPRCT vyztužené vlákny pro náročné průmyslové systémy, nebo speciální přechodové tvarovky a armatury – náš nástroj filtruje celý katalog v reálném čase. Vyhledávání produktů vám pomůže s výběrem podle průměru (d20 až d630), tlakové třídy (třída SDR) a materiálu.</p><p>Dobře strukturovaný potrubní systém vyžaduje přesné plánování a přesnou kombinaci trubek, tvarovek (jako jsou objímky, kolena a T-kusy) a odpovídajícího příslušenství. Náš vyhledávač produktů eliminuje časově náročné vyhledávání ve statických PDF katalozích a místo toho vám okamžitě poskytne spolehlivá data o číslech položek, balicích jednotkách a technických specifikacích. Pomocí několika kliknutí můžete sestavit seznam materiálů a zajistit kompatibilitu různých komponent pro systémy vytápění, chlazení a pitné vody. To nejen optimalizuje váš proces plánování, ale také minimalizuje chyby při objednávání materiálu pro váš další stavební projekt.</p>",
     "products": [
-      "PP-R Kunststoffrohre & Fittings Übersicht",
-      "Entdecken Sie K Aquas komplette Kunststoffrohrsysteme von d20 bis d630 mm. Hochleistungsfähige PP-R und PPRCT Rohre für Haushalt und Industrie."
+      "Přehled plastových trubek a tvarovek PP-R",
+      "Objevte kompletní systémy plastových trubek K-Aqua od d20 do d630 mm. Vysoce výkonné trubky PP-R a PPRCT pro domácí a průmyslové použití."
     ],
     "finder": [
-      "Interaktiver Produktfinder für PP-R Rohre",
-      "Finden Sie sofort das perfekte PP-R oder PPRCT Rohr, Fitting oder Ventil. Filtern Sie unseren Katalog live nach Dimension, Druckklasse und Wandstärke."
+      "Interaktivní vyhledávač produktů pro trubky PP-R",
+      "Okamžitě najděte dokonalou trubku, tvarovku nebo ventil z PP-R nebo PPRCT. Filtrujte náš katalog živě podle rozměru, tlakové třídy a tloušťky stěny."
     ],
     "co2": [
-      "CO2-Rechner für nachhaltige Rohrsysteme",
-      "Vergleichen Sie den CO2-Fußabdruck von K Aqua PP-R Kunststoffrohren mit Kupfer, Edelstahl und PVC. Geprüft nach ISO 14040/44 für Green Building."
+      "Kalkulačka CO2 pro udržitelné potrubní systémy",
+      "Porovnejte uhlíkovou stopu plastových trubek K-Aqua z PP-R s mědí, nerezovou ocelí a PVC. Ověřeno podle normy ISO 14040/44 pro zelené budovy."
     ],
     "solutions": [
-      "Materialvorteile von Polypropylen-Rohren",
-      "Erfahren Sie, warum Polypropylen (PP-R/PPRCT) das überlegene Material für die Wasserversorgung ist. Ökologisch, technisch fortschrittlich und wirtschaftlich."
+      "Materiálové výhody polypropylenových trubek",
+      "Zjistěte, proč je polypropylen (PP-R/PPRCT) nejlepším materiálem pro zásobování vodou. Ekologický, technicky vyspělý a ekonomický."
     ],
     "academy": [
-      "Schweiß-Academy für PP-R Installation",
-      "Lernen Sie professionelle Schweißtechniken für PP-R Kunststoffrohre. Sehen Sie sich Video-Tutorials an und absolvieren Sie unser Welding-Master-Quiz."
+      "Akademie svařování pro instalaci PP-R",
+      "Naučte se profesionální svařovací techniky pro plastové trubky PP-R. Podívejte se na video tutoriály a absolvujte náš kvíz Mistra svařování."
     ],
     "trust": [
-      "Trust Center: ISO-Zertifikate & Audits",
-      "Greifen Sie auf K Aquas Qualitätsdokumentation zu. Laden Sie ISO-Zertifikate, das GENAU-Framework und Audit Dokumente für Ihr Projekt herunter."
+      "Centrum důvěry: Certifikáty ISO a audity",
+      "Získejte přístup k dokumentaci kvality K-Aqua. Stáhněte si certifikáty ISO, rámec GENAU a dokumenty o auditu pro váš projekt."
     ],
     "service": [
-      "Technisches Service & Download Center",
-      "Laden Sie offizielle K Aqua Produktkataloge, technische Datenblätter und Installationsrichtlinien für PP-R und PPRCT Kunststoffrohrsysteme herunter."
+      "Technický servis a centrum stahování",
+      "Stáhněte si oficiální produktové katalogy K-Aqua, technické listy a pokyny k instalaci plastových potrubních systémů z PP-R a PPRCT."
     ],
     "partner": [
-      "Premium KESSEL Partnerschaft für Rohre",
-      "K Aqua und KESSEL verbindet eine jahrzehntelange Partnerschaft, die deutsche Fertigungsstandards von der Entwässerung auf die Wasserversorgung überträgt."
+      "Prémiové partnerství KESSEL pro potrubí",
+      "K-Aqua a KESSEL spojuje desítky let trvající partnerství, které přenáší německé výrobní standardy od odvodnění po zásobování vodou."
     ],
     "markets": [
-      "Globale Märkte & Lokale Vertriebsstruktur",
-      "K Aqua liefert PP-R Rohrsysteme in über 27 Länder. Nutzen Sie unsere interaktive Weltkarte für lokale Standards, Wasserprofile und Logistikinformationen."
+      "Globální trhy a místní prodejní struktura",
+      "K-Aqua dodává potrubní systémy PP-R do více než 27 zemí. Využijte naši interaktivní mapu světa pro zjištění místních standardů, profilů vody a logistických informací."
     ],
     "references": [
-      "Weltweite K-Aqua Referenzprojekte & PP-R Installationen",
-      "Entdecken Sie weltweite Referenzprojekte mit K-Aqua PP-R Rohrsystemen. Unser interaktiver 3D-Globus zeigt häusliche, gewerbliche & industrielle Anlagen."
+      "Celosvětové referenční projekty a instalace PP-R",
+      "Objevte celosvětové referenční projekty s potrubními systémy K-Aqua PP-R. Náš interaktivní 3D globus ukazuje domácí, komerční a průmyslové instalace."
     ],
     "about": [
-      "Über KWT GmbH: Experten für Rohrherstellung",
-      "Die KWT GmbH bündelt jahrzehntelange Erfahrung, um das K Aqua Premium-Rohrsystem zu fertigen. Deutsche Ingenieurskunst für höchste Qualität und Innovation."
+      "O společnosti KWT GmbH: Odborníci na výrobu trubek",
+      "Společnost KWT GmbH spojuje desítky let zkušeností s výrobou prémiových potrubních systémů K-Aqua. Německé inženýrství pro nejvyšší kvalitu a inovace."
     ],
     "career": [
-      "Karriere bei K Aqua: Zukunft des Wassers",
-      "Werden Sie Teil unseres Teams in Waldsolms. Berechnen Sie Ihre steuerfreien Vorteile netto und testen Sie in 60 Sekunden, ob K Aqua zu Ihnen passt."
+      "Kariéra v K-Aqua: Budoucnost vody",
+      "Staňte se součástí našeho týmu ve Waldsolms. Vypočítejte si své čisté nezdanitelné benefity a za 60 sekund si otestujte, zda je pro vás K-Aqua to pravé."
     ],
     "news": [
-      "News & Events der Kunststoffrohrindustrie",
-      "Bleiben Sie auf dem Laufenden über K Aqua Innovationen, Produkte, Messeauftritte und unser Engagement für die dreifach ISO-geprüfte Produktion."
+      "Novinky a události v průmyslu plastových trubek",
+      "Zůstaňte informováni o inovacích K-Aqua, produktech, účastech na veletrzích a našem závazku k třikrát certifikované výrobě podle ISO."
     ],
     "contact": [
-      "Kontakt K Aqua: Vertrieb & Technischer Support",
-      "Kontaktieren Sie das K Aqua-Expertenteam für Vertriebsanfragen, Support oder Partnerschaften. Schnelle Reaktionszeiten für globale B2B-Kunden."
+      "Kontakt na K-Aqua: Prodej a technická podpora",
+      "Kontaktujte tým odborníků K-Aqua s dotazy na prodej, podporu nebo partnerství. Rychlé reakční doby pro globální B2B zákazníky."
     ],
     "rfq": [
-      "Projektanfrage & unverbindliches Angebot",
-      "Fordern Sie in vier einfachen Schritten ein unverbindliches Angebot für Ihr nächstes Rohrprojekt an. Unser Vertriebsteam meldet sich innerhalb von 24 Stunden."
+      "Projektový dotaz a nezávazná nabídka",
+      "Vyžádejte si nezávaznou nabídku pro váš další projekt potrubí ve čtyřech jednoduchých krocích. Náš prodejní tým se vám ozve do 24 hodin."
     ],
     "home": [
-      "Hersteller für PP-R & PPRCT Rohrsysteme",
-      "K Aqua produziert erstklassige PP-R und PPRCT Kunststoffrohrsysteme für Trinkwasser und Industrieanwendungen. Deutsche Ingenieurskunst für globale Projekte."
+      "Výrobce potrubních systémů z PP-R a PPRCT",
+      "K-Aqua vyrábí prvotřídní plastové potrubní systémy z PP-R a PPRCT pro pitnou vodu a průmyslové aplikace. Německé inženýrství pro globální projekty."
     ],
     "legal": {
       "datenschutz": [
-        "Datenschutzerklärung",
-        "Umfassende Datenschutzerklärung für die K Aqua Website gemäß DSGVO-Richtlinien."
+        "Zásady ochrany osobních údajů",
+        "Komplexní zásady ochrany osobních údajů pro webové stránky K-Aqua v souladu se směrnicemi GDPR."
       ],
       "impressum": [
-        "Impressum & Rechtliche Hinweise",
-        "Impressum und rechtliche Unternehmensinformationen der KWT GmbH, Hersteller von K Aqua."
+        "Tiráž a právní upozornění",
+        "Tiráž a právní informace o společnosti KWT GmbH, výrobce K-Aqua."
       ]
     },
     "genauManagement": {
-      "eyebrow": "geprüfte Qualität",
-      "title1": "Das ",
+      "eyebrow": "certifikovaná kvalita",
+      "title1": "Systém managementu ",
       "titleHighlight": "GENAU",
-      "title2": " Management System",
-      "p1": "Das Ziel des GENAU Management-Systems ist die kontinuierliche Verbesserung des Arbeits-, Umwelt- und Gesundheitsschutzes im Unternehmen.",
-      "p2": "Sämtliche Unternehmensaktivitäten bei KWT erfolgen unter Berücksichtigung von Ressourcenschonung, Umweltverträglichkeit und der strikten Einhaltung aller Verpflichtungen. Das praktizierte GENAU-Management erfüllt dabei die hohen Anforderungen der ",
-      "p3": " und ",
-      "list1Title": "Ökologische Verantwortung",
-      "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter der KWT GmbH verpflichten.",
-      "list2Title": "Energieeffizienz",
-      "list2Desc": "Gezielte Identifikation von Risiken und Umsetzung von Maßnahmen zur Optimierung der Energieeffizienz."
+      "title2": "",
+      "p1": "Cílem systému managementu GENAU je neustálé zlepšování bezpečnosti práce, ochrany zdraví a životního prostředí ve společnosti.",
+      "p2": "Veškeré firemní aktivity ve společnosti KWT probíhají s ohledem na zachování zdrojů, slučitelnost s životním prostředím a přísné dodržování všech povinností. Uplatňovaný management GENAU splňuje vysoké požadavky norem ",
+      "p3": " a ",
+      "list1Title": "Ekologická odpovědnost",
+      "list1Desc": "Ochrana životního prostředí je součástí našeho chápání kvality, k níž se zavázali všichni zaměstnanci společnosti KWT GmbH.",
+      "list2Title": "Energetická účinnost",
+      "list2Desc": "Cílená identifikace rizik a realizace opatření k optimalizaci energetické účinnosti."
     },
     "pipes": [
-      "Pipes & Systems",
-      "High-performance PP-R and PP-RCT pipes for domestic and industrial applications."
+      "Trubky a systémy",
+      "Vysoce výkonné trubky z PP-R a PP-RCT pro domácí a průmyslové aplikace."
     ],
     "fittings": [
-      "Fittings",
-      "Complete range of fittings for all K-Aqua piping systems."
+      "Tvarovky",
+      "Kompletní sortiment tvarovek pro všechny potrubní systémy K-Aqua."
     ],
     "valves": [
-      "Valves & Accessories",
-      "Premium valves, shut-offs, and accessories for piping networks."
+      "Ventily a příslušenství",
+      "Prémiové ventily, uzávěry a příslušenství pro potrubní sítě."
     ],
     "tools": [
-      "Tools & Equipment",
-      "Professional welding tools and accessories for PP-R installation."
+      "Nástroje a vybavení",
+      "Profesionální svařovací nástroje a příslušenství pro instalaci PP-R."
     ],
     "transition-fittings": [
-      "Transition Fittings",
-      "Reliable transition fittings for secure connections."
+      "Přechodové tvarovky",
+      "Spolehlivé přechodové tvarovky pro bezpečné spoje."
     ]
   },
   "home": {
-    "chip": "geprüft seit Oktober 2025",
-    "h1a": "Führend bei",
-    "h1b": "K-Aqua PP-R Rohrsystemen",
-    "globeAria": "Interaktiver Globus: ziehen zum Drehen",
+    "chip": "certifikováno od října 2025",
+    "h1a": "Lídr v oblasti",
+    "h1b": "potrubních systémů K-Aqua z PP-R",
+    "globeAria": "Interaktivní globus: tažením otočíte",
     "scrolly": [
       {
-        "t": "Gefertigt in Deutschland",
-        "d": "Entwicklung und Produktion am Standort Waldsolms: jedes Rohr, jedes Formteil."
+        "t": "Vyrobeno v Německu",
+        "d": "Vývoj a výroba v závodě Waldsolms: každá trubka, každá tvarovka."
       },
       {
-        "t": "d20 bis d630",
-        "d": "Ein vollständiges System: fünf Druckstufen, Formteile, Armaturen und Schweißtechnik."
+        "t": "d20 až d630",
+        "d": "Kompletní systém: pět tlakových tříd, tvarovky, ventily a svařovací technika."
       },
       {
-        "t": "Dreifach geprüft",
-        "d": "ISO 9001, 14001 und 50001: Qualität, Umwelt und Energie aus einem Managementsystem."
+        "t": "Trojitá certifikace",
+        "d": "ISO 9001, 14001 a 50001: kvalita, životní prostředí a energie z jednoho systému řízení."
       },
       {
-        "t": "27 Märkte weltweit",
-        "d": "Von Frankfurt bis NEOM: geprüft gegen die Normen und Wasserprofile vor Ort."
+        "t": "27 trhů po celém světě",
+        "d": "Od Frankfurtu po NEOM: testováno podle místních norem a profilů vody."
       }
     ],
-    "lead": "K Aqua entwickelt und fertigt PP-R/PPRCT-Rohrsysteme für Trinkwasser: von 20 bis 630 mm, in Partnerschaft mit dem Premiumhersteller KESSEL.",
-    "ctaProducts": "Produktsystem entdecken",
-    "ctaContact": "Kontakt aufnehmen",
-    "toolsEyebrow": "Interaktive Werkzeuge",
-    "toolsTitle1": "Keine Textwüste.",
-    "toolsTitle2": "Werkzeuge.",
-    "toolsLead": "Die Website arbeitet für Sie: filtern, rechnen, lernen.",
-    "bandTitle": "Bereit für die nächste Generation der Wasserversorgung?",
-    "bandLead": "Sprechen Sie mit unserem Vertriebsteam über Ihr Projekt: von der Planung bis zur Schweißtechnik.",
-    "bandBtn": "Projektanfrage starten",
-    "bandBtn2": "Downloads & Service"
+    "lead": "K-Aqua vyvíjí a vyrábí potrubní systémy z PP-R a PP-RCT pro pitnou vodu: od 20 do 630 mm, v partnerství s prémiovým výrobcem KESSEL.",
+    "ctaProducts": "Objevte produktový systém",
+    "ctaContact": "Kontaktujte nás",
+    "toolsEyebrow": "Interaktivní nástroje",
+    "toolsTitle1": "Žádné stěny textu.",
+    "toolsTitle2": "Nástroje.",
+    "toolsLead": "Webové stránky pracují za vás: filtrujte, počítejte, učte se.",
+    "bandTitle": "Připraveni na další generaci zásobování vodou?",
+    "bandLead": "Promluvte si s naším prodejním týmem o svém projektu: od plánování po svařovací techniku.",
+    "bandBtn": "Zahájit projektovou poptávku",
+    "bandBtn2": "Soubory ke stažení a servis"
   },
   "geo": {
-    "eyebrow": "Märkte & Standorte",
-    "title1": "Eine Welt voller",
-    "title2": "Märkten.",
-    "lead": "{n} Märkte in {c} Ländern: jeder mit eigener Landingpage: Normen, Wasserprofil, Anwendungsfälle, Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
-    "all": "Alle",
-    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
-    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort: ",
-    "allMarkets": "Alle Märkte",
-    "request": "Projekt anfragen",
-    "finder": "Produktfinder",
-    "fromPlant": "km ab Werk Waldsolms",
-    "regFrame": "Regulatorischer Rahmen",
-    "water": "Wasserprofil & Materialantwort",
-    "typical": "Typische Projekte in {city}",
-    "onSite": "Verarbeitung vor Ort",
-    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne: in der Academy.",
-    "toAcademy": "Zur Academy",
-    "nearbyEyebrow": "Verwandte Märkte",
-    "nearby": "In der Nähe.",
-    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
+    "eyebrow": "Trhy a pobočky",
+    "title1": "Svět plný",
+    "title2": "trhů.",
+    "lead": "{n} trhů v {c} zemích: každý s vlastní vstupní stránkou: normy, profil vody, příklady použití, logistika. Uchopte svět a volně jím otáčejte; seznam vás dovede přímo k danému městu.",
+    "all": "Vše",
+    "cityTitle": "Potrubní systémy PP-R/PP-RCT v {city}.",
+    "cityLead": "Systémy pitné vody d20–d630, testováno podle místních požadavků: ",
+    "allMarkets": "Všechny trhy",
+    "request": "Poptat projekt",
+    "finder": "Vyhledávač produktů",
+    "fromPlant": "km od závodu Waldsolms",
+    "regFrame": "Regulační rámec",
+    "water": "Profil vody a reakce materiálu",
+    "typical": "Typické projekty v {city}",
+    "onSite": "Zpracování na místě",
+    "onSiteText": "Instruktáž svařovací techniky a video dokumentace pro váš tým: v Akademii.",
+    "toAcademy": "Do Akademie",
+    "nearbyEyebrow": "Související trhy",
+    "nearby": "V okolí.",
+    "prodNote": "Poznámka k výrobě: Tyto stránky odpovídají šabloně programového SEO (řez dat: Produkt × Regulace × Region). V Next.js jsou generovány prostřednictvím ISR z Headless CMS: včetně hreflang, schématu Produkt/Nabídka a sémantického interního propojení.",
     "km": "km",
-    "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
+    "seoExpansion": "Společnost K-Aqua vyrábí ve Waldsolms potrubní systémy z PP-R a PP-RCT pro nejvyšší nároky globálního stavebnictví a průmyslového inženýrství. Díky nekompromisnímu německému inženýrství a nejmodernější výrobní technologii zaručují naše systémy desítky let bezúdržbového provozu. Každý výrobek, od d20 do d630, prochází přísnou kontrolou kvality a odpovídá mezinárodním normám jako DVGW, KIWA a SKZ. Nabízíme nejen prvotřídní materiály pro pitnou vodu, chlazení a průmysl, ale podporujeme projektanty a instalatéry také komplexní technickou podporou a školením na místě. Důvěřujte systému, který přesvědčí extrémní trvanlivostí, odolností proti korozi a naprostou hygienou.",
+    "seoExpansionDynamic": "Zjistěte více o našich řešeních PP-R a PP-RCT v {city}. Splňujeme místní normy ({regulator}) a nabízíme optimální systémy pro kvalitu vody ({water}). Doplňující poznámka: {note}.",
     "cityMetaTitle": "Potrubní systémy PP-R v {city}",
     "hubMetaTitle": "Potrubní systémy PP-R pro {country}",
     "hubH1": "Infrastrukturní řešení pro {country}",
@@ -3803,7 +3803,7 @@
     "resultLabel": "Netto mehr pro Monat",
     "resultNote1": "Das entspricht grob einer",
     "resultNote2": "Bruttoerhöhung von ~{n} €",
-    "resultNote3": "- ohne Abzüge.",
+    "resultNote3": "ohne Abzüge.",
     "resultNote4": "(Richtwert, abhängig von Steuerklasse.)",
     "apply": "Jetzt bewerben",
     "call": "Oder anrufen: +49 (0)60 85 / 9868-410",

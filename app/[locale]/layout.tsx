@@ -41,9 +41,14 @@ import { setRequestLocale } from 'next-intl/server';
 import pick from 'lodash/pick';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://k-aqua-v1.vercel.app'),
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const isIndexed = ['de', 'en', 'ar'].includes(locale);
+  return {
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://k-aqua-v1.vercel.app'),
+    robots: isIndexed ? { index: true, follow: true } : { index: false, follow: false },
+  };
+}
 
 
 export default async function LocaleLayout({

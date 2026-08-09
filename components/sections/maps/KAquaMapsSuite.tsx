@@ -338,44 +338,44 @@ export function KAquaMapsSuite() {
             </h2>
           </div>
 
-          <div className="flex items-center gap-2 bg-card border border-card-border p-1.5 rounded-2xl shadow-sm">
+          <div className="flex items-center gap-2 bg-card border border-card-border p-1.5 rounded-2xl shadow-sm overflow-x-auto whitespace-nowrap no-scrollbar w-full md:w-auto">
             <button
               onClick={() => setActiveTab('hq')}
-              className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 ${
+              className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 shrink-0 ${
                 activeTab === 'hq'
                   ? 'bg-primary text-primary-foreground shadow-md'
                   : 'text-muted-foreground hover:text-foreground hover:bg-background-subtle'
               }`}
             >
-              <MapPin className="w-4 h-4" /> Hauptsitz Waldsolms
+              <MapPin className="w-4 h-4 shrink-0" /> Hauptsitz Waldsolms
             </button>
             <button
               onClick={() => setActiveTab('refs')}
-              className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 ${
+              className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 shrink-0 ${
                 activeTab === 'refs'
                   ? 'bg-primary text-primary-foreground shadow-md'
                   : 'text-muted-foreground hover:text-foreground hover:bg-background-subtle'
               }`}
             >
-              <Globe className="w-4 h-4" /> Dichtheitskarte
+              <Globe className="w-4 h-4 shrink-0" /> Dichtheitskarte
             </button>
             <button
               onClick={() => setActiveTab('spec')}
-              className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 ${
+              className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 shrink-0 ${
                 activeTab === 'spec'
                   ? 'bg-primary text-primary-foreground shadow-md'
                   : 'text-muted-foreground hover:text-foreground hover:bg-background-subtle'
               }`}
             >
-              <Compass className="w-4 h-4" /> Spezifikator
+              <Compass className="w-4 h-4 shrink-0" /> Spezifikator
             </button>
           </div>
         </div>
 
         {/* Tab 1: Hauptsitz Waldsolms */}
         {activeTab === 'hq' && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-            <div className="lg:col-span-2 rounded-2xl border border-card-border overflow-hidden h-[540px] relative shadow-diffuse">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-10 lg:gap-8 items-start">
+            <div className="lg:col-span-2 rounded-2xl border border-card-border overflow-hidden h-[400px] lg:h-[540px] relative shadow-diffuse">
               <div ref={hqMapRef} className="w-full h-full" />
             </div>
             <div className="bg-card border border-card-border rounded-2xl p-6 flex flex-col gap-6 shadow-sm">
@@ -418,13 +418,13 @@ export function KAquaMapsSuite() {
         {/* Tab 2: Referenzen Dichtheitskarte */}
         {activeTab === 'refs' && (
           <div className="flex flex-col gap-6">
-            <div className="flex items-center gap-2 overflow-x-auto pb-2">
-              <span className="text-xs font-bold uppercase text-muted-foreground me-2">Sektor Filter:</span>
+            <div className="flex items-center gap-2 overflow-x-auto pb-4 no-scrollbar whitespace-nowrap">
+              <span className="text-xs font-bold uppercase text-muted-foreground me-2 shrink-0">Sektor Filter:</span>
               {['all', 'hotel', 'wohnen', 'infra', 'klinik', 'buero'].map((s) => (
                 <button
                   key={s}
                   onClick={() => setActiveSector(s)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-colors ${
+                  className={`px-4 py-2 rounded-lg text-xs font-semibold uppercase tracking-wider transition-colors shrink-0 ${
                     activeSector === s
                       ? 'bg-primary text-primary-foreground'
                       : 'bg-card border border-card-border text-muted-foreground hover:text-foreground'
@@ -435,7 +435,7 @@ export function KAquaMapsSuite() {
               ))}
             </div>
 
-            <div className="rounded-2xl border border-card-border overflow-hidden h-[560px] relative shadow-diffuse">
+            <div className="rounded-2xl border border-card-border overflow-hidden h-[400px] lg:h-[560px] relative shadow-diffuse">
               <div ref={refsMapRef} className="w-full h-full" />
             </div>
           </div>
@@ -443,7 +443,7 @@ export function KAquaMapsSuite() {
 
         {/* Tab 3: Spezifikator */}
         {activeTab === 'spec' && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-10 lg:gap-8 items-start">
             <div className="lg:col-span-2 flex flex-col gap-4">
               <div className="relative">
                 <Search className="w-5 h-5 absolute start-4 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none" />
@@ -452,12 +452,12 @@ export function KAquaMapsSuite() {
                   type="text"
                   value={specQuery}
                   onChange={(e) => setSpecQuery(e.target.value)}
-                  placeholder="Ort oder Stadt weltweit eingeben (z.B. Riyadh, Dubai, Berlin)..."
+                  placeholder="Ort oder Stadt eingeben..."
                   className="w-full ps-12 pe-4 py-3.5 bg-card border border-card-border rounded-xl font-heading text-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-sm"
                 />
               </div>
 
-              <div className="rounded-2xl border border-card-border overflow-hidden h-[540px] relative shadow-diffuse">
+              <div className="rounded-2xl border border-card-border overflow-hidden h-[400px] lg:h-[540px] relative shadow-diffuse">
                 <div ref={specMapRef} className="w-full h-full" />
               </div>
             </div>

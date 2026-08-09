@@ -528,6 +528,10 @@ export default function WaterCursor(props: WaterCursorProps) {
         .wc-dot.is-active { opacity: 1; }
 
         @media (prefers-reduced-motion: reduce) { .wc-root { display: none !important; } }
+        @media (hover: none), (pointer: coarse), (max-width: 768px) { 
+          .wc-root { display: none !important; } 
+          html.kq-water-on, html.kq-water-on * { cursor: auto !important; }
+        }
       `}</style>
     </div>
   );

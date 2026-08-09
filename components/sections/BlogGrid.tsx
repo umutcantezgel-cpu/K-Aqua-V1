@@ -14,7 +14,7 @@ export function BlogGrid({ posts, locale }: BlogGridProps) {
   return (
     <section className="py-12 lg:py-24 bg-background">
       <div className="max-w-[1200px] mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-6 lg:gap-8">
           {posts.map((post, index) => (
             <Reveal key={post.slug} delay={index * 0.05}>
               <BlogCard post={post} locale={locale} />

@@ -189,7 +189,7 @@ export default function MarketsHub({
           </div>
 
           {/* Map & List Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-8 items-center">
             
             {/* Left: Globe Column */}
             <div className="lg:col-span-7 flex justify-center items-center relative min-h-[400px] lg:min-h-[600px]">

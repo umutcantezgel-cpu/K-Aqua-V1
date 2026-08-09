@@ -168,7 +168,7 @@ export default function HeroScrolly() {
   const staticCardEls = cardsList.map((c, i) => {
     const Ic = cardIcons[i] || Droplet;
     return (
-      <div key={i} className="k-orbit-card is-in">
+      <div key={i} className="w-full flex flex-col justify-start">
         <IconChip className="mb-2">
           <Ic className="w-5 h-5" />
         </IconChip>
@@ -272,7 +272,7 @@ export default function HeroScrolly() {
           showReducedDesktop ? 'block' : 'block lg:hidden'
         } py-12 bg-background relative z-10`}
       >
-        <div className="mx-auto max-w-[1400px] px-6 k-orbit-static" data-nosnippet="true">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-8 px-6 k-orbit-static-override" data-nosnippet="true">
           {staticCardEls}
         </div>
       </section>

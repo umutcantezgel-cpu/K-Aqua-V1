@@ -4,7 +4,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Card } from '@/components/ui/Card';
 import { SectionHead } from '@/components/ui/SectionHead';
-import { Shield, Droplet, Factory, Award, CheckCircle } from 'lucide-react';
+import { Shield, Droplet, Factory, Award, Leaf, Zap, ShieldCheck } from 'lucide-react';
 
 export function CustomerReviews() {
   const t = useTranslations('trustAndCases');
@@ -28,9 +28,9 @@ export function CustomerReviews() {
   ];
 
   const trustSignals = [
-    { label: t('iso9001'), icon: <CheckCircle className="w-5 h-5 text-accent" /> },
-    { label: t('iso14001'), icon: <CheckCircle className="w-5 h-5 text-accent" /> },
-    { label: t('iso50001'), icon: <CheckCircle className="w-5 h-5 text-accent" /> },
+    { label: t('iso9001'), icon: <ShieldCheck className="w-5 h-5 text-accent" /> },
+    { label: t('iso14001'), icon: <Leaf className="w-5 h-5 text-accent" /> },
+    { label: t('iso50001'), icon: <Zap className="w-5 h-5 text-accent" /> },
     { label: t('madeInGermany'), icon: <Award className="w-5 h-5 text-accent" /> }
   ];
 
@@ -45,10 +45,10 @@ export function CustomerReviews() {
             align="center"
           />
           
-          {/* Trust Signals Row */}
-          <div className="mt-8 flex flex-wrap justify-center items-center gap-4 bg-card border border-card-border px-6 py-4 rounded-2xl shadow-sm">
+          {/* Trust Signals Row - Horizontal Scroll on Mobile */}
+          <div className="mt-8 flex w-full md:w-auto overflow-x-auto hide-scrollbar snap-x snap-mandatory md:flex-wrap justify-start md:justify-center items-center gap-4 bg-card border border-card-border px-6 py-4 rounded-2xl shadow-sm -mx-6 px-6 md:mx-0">
             {trustSignals.map((signal, idx) => (
-              <div key={idx} className="flex items-center gap-2 font-heading font-semibold text-sm text-foreground bg-muted px-4 py-2 rounded-full">
+              <div key={idx} className="flex items-center gap-2 font-heading font-semibold text-sm text-foreground bg-muted px-4 py-2 rounded-full snap-center shrink-0">
                 {signal.icon}
                 {signal.label}
               </div>
@@ -56,20 +56,22 @@ export function CustomerReviews() {
           </div>
         </div>
 
-        {/* Abstract Cases Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Abstract Cases Grid - Horizontal Scroll on Mobile */}
+        <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar md:grid md:grid-cols-3 gap-6 pb-8 -mx-6 px-6 md:mx-0 md:px-0">
           {cases.map((c, idx) => (
-            <Card key={idx} className="flex flex-col h-full bg-card border border-card-border p-8 shadow-diffuse hover:shadow-lift transition-shadow duration-300">
-              <div className="mb-6 bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center">
-                {c.icon}
-              </div>
-              <div className="font-heading font-bold text-xl text-foreground mb-4">
-                {c.title}
-              </div>
-              <p className="text-body text-muted-foreground leading-relaxed">
-                {c.desc}
-              </p>
-            </Card>
+            <div key={idx} className="min-w-[85vw] sm:min-w-[340px] md:min-w-0 snap-center shrink-0 flex">
+              <Card className="w-full bg-card border border-card-border rounded-xl p-8 flex flex-col gap-6 shadow-sm hover:shadow-diffuse transition-shadow duration-300">
+                <div className="mb-2 bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center">
+                  {c.icon}
+                </div>
+                <div className="font-heading font-bold text-xl text-foreground">
+                  {c.title}
+                </div>
+                <p className="text-body text-muted-foreground leading-relaxed mt-auto">
+                  {c.desc}
+                </p>
+              </Card>
+            </div>
           ))}
         </div>
       </div>

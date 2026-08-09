@@ -23,8 +23,12 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
   const productCount = K_CATALOG.length;
   const marketCount = GEO_MARKETS.length;
 
-  // ── hover handlers ──────────────────────────────────────────
+  const containerRef = React.useRef<HTMLElement>(null);
+
+  // ── hover handlers (Desktop) ────────────────────────────────
   const handleEnter = useCallback((e: React.PointerEvent<HTMLAnchorElement>) => {
+    // Only apply if it's a mouse (cursor) interaction
+    if (e.pointerType !== 'mouse') return;
     const row = e.currentTarget;
     const rect = row.getBoundingClientRect();
     const midY = rect.top + rect.height / 2;
@@ -35,6 +39,7 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
   }, []);
 
   const handleLeave = useCallback((e: React.PointerEvent<HTMLAnchorElement>) => {
+    if (e.pointerType !== 'mouse') return;
     const row = e.currentTarget;
     const rect = row.getBoundingClientRect();
     const midY = rect.top + rect.height / 2;
@@ -42,6 +47,61 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
 
     row.classList.remove('is-hover');
     row.classList.toggle('from-top', fromTop);
+  }, []);
+
+  // ── Touch Screen Animation (Mobile Intersection Observer) ───
+  React.useEffect(() => {
+    // Only run on small screens (mobile horizontal scroll)
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    
+    let observer: IntersectionObserver | null = null;
+
+    const setupObserver = () => {
+      if (!mediaQuery.matches || !containerRef.current) return;
+      
+      observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const row = entry.target as HTMLElement;
+            if (entry.isIntersecting) {
+              row.classList.add('is-hover');
+              row.classList.remove('from-top');
+            } else {
+              row.classList.remove('is-hover');
+            }
+          });
+        },
+        {
+          root: containerRef.current,
+          rootMargin: '0px',
+          threshold: 0.6 // Trigger when at least 60% of the card is visible in the scroll container
+        }
+      );
+
+      const rows = containerRef.current.querySelectorAll('.row');
+      rows.forEach((row) => observer?.observe(row));
+    };
+
+    const handleResize = () => {
+      if (observer) {
+        observer.disconnect();
+        observer = null;
+      }
+      // Clean up classes if switching back to desktop
+      if (!mediaQuery.matches && containerRef.current) {
+        const rows = containerRef.current.querySelectorAll('.row');
+        rows.forEach(r => r.classList.remove('is-hover'));
+      }
+      setupObserver();
+    };
+
+    setupObserver();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      if (observer) observer.disconnect();
+    };
   }, []);
 
   // Duplicate the label text so the CSS marquee scrolls seamlessly
@@ -91,7 +151,7 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
   ];
 
   return (
-    <nav className={`ka-edgeindex ${className}`} aria-label={t('edgePageIndex')} data-ka-init="1">
+    <nav ref={containerRef} className={`ka-edgeindex ${className}`} aria-label={t('edgePageIndex')} data-ka-init="1">
       {rows.map((r) => (
         <div
           key={r.num}

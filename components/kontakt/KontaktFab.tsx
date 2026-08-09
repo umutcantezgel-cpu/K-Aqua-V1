@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { KontaktBlock } from "./KontaktBlock";
 import { type KontaktSlug } from "@/content/kontakt-bloecke";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, X } from "lucide-react";
 
 export function KontaktFab() {
@@ -40,35 +40,61 @@ export function KontaktFab() {
   else if (pathWithoutLocale.startsWith("/unternehmen")) slug = "unternehmen";
 
   return (
-    <motion.div 
-      className={`v-fabwrap ${open ? "open" : ""}`}
-      drag
-      dragMomentum={false}
-      style={{ 
-        // We set pointer-events to auto only when open so the whole wrapper can capture clicks.
-        // But if not open, pointer-events should be none, to not block clicks on the page.
-        pointerEvents: open ? "auto" : "none",
-        touchAction: "none"
-      }}
-    >
-      {open && (
-        <div style={{ position: "relative", pointerEvents: "auto" }}>
-          <button className="kqk-close" type="button" aria-label={t("closeAria")} onClick={() => setOpen(false)}>
-            <X size={16} strokeWidth={2.5} />
-          </button>
-          <KontaktBlock variant="fab" slug={slug} tone="inverse" />
-        </div>
-      )}
-      <button 
-        className="kqk-fab" 
-        type="button" 
-        aria-label={t("fabAria")} 
-        onClick={() => setOpen(!open)}
-        style={{ pointerEvents: "auto" }}
+    <>
+      {/* Premium Backdrop Overlay */}
+      <AnimatePresence>
+        {open && (
+          <motion.div 
+            className="kqk-fab-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            onClick={() => setOpen(false)}
+          />
+        )}
+      </AnimatePresence>
+
+      <div 
+        className={`v-fabwrap ${open ? "open" : ""}`}
+        style={{ 
+          pointerEvents: open ? "auto" : "none",
+          touchAction: "none"
+        }}
       >
-        <MessageCircle className="icon-main" size={24} strokeWidth={2.5} />
-        <X className="icon-close" size={24} strokeWidth={2.5} />
-      </button>
-    </motion.div>
+        <AnimatePresence>
+          {open && (
+            <motion.div 
+              className="kqk-fab-panel"
+              initial={{ opacity: 0, y: 40, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 40, scale: 0.95 }}
+              transition={{ type: "spring", damping: 25, stiffness: 350 }}
+              style={{ pointerEvents: "auto" }}
+            >
+              <div className="kqk-mobile-handle" onClick={() => setOpen(false)} />
+              <button className="kqk-close" type="button" aria-label={t("closeAria")} onClick={() => setOpen(false)}>
+                <X size={18} strokeWidth={2.5} />
+              </button>
+              <div className="kqk-fab-scroll">
+                <KontaktBlock variant="fab" slug={slug} tone="inverse" />
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+        
+        <button 
+          className="kqk-fab" 
+          type="button" 
+          aria-label={t("fabAria")} 
+          onClick={() => setOpen(!open)}
+          style={{ pointerEvents: "auto" }}
+        >
+          <div className="kqk-fab-glow" />
+          <MessageCircle className="icon-main" size={26} strokeWidth={2.5} />
+          <X className="icon-close" size={26} strokeWidth={2.5} />
+        </button>
+      </div>
+    </>
   );
 }

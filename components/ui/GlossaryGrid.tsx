@@ -14,7 +14,7 @@ export function GlossaryGrid({ items, title }: GlossaryGridProps) {
   return (
     <div className="w-full">
       {title && <h3 className="text-2xl font-bold mb-6">{title}</h3>}
-      <dl className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-3">
+      <dl className="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-6">
         {(items || []).map((item, idx) => {
           const isTuple = Array.isArray(item);
           const term = isTuple ? item[0] : item.term;
@@ -22,10 +22,14 @@ export function GlossaryGrid({ items, title }: GlossaryGridProps) {
           const icon = isTuple ? null : item.icon;
           
           return (
-            <div key={term || idx} className="rounded-lg border border-card-border bg-card p-4 flex flex-col">
-              {icon && <div className="mb-3 text-primary">{icon}</div>}
-              <dt className="mb-1 font-heading text-body font-extrabold text-primary">{term}</dt>
-              <dd className="m-0 text-small leading-snug text-muted-foreground">{def}</dd>
+            <div 
+              key={term || idx} 
+              className="group relative overflow-hidden rounded-2xl border border-card-border bg-card p-6 flex flex-col shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+            >
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              {icon && <div className="mb-4 text-primary bg-primary/10 w-10 h-10 flex items-center justify-center rounded-lg">{icon}</div>}
+              <dt className="mb-3 font-heading text-lg font-bold text-foreground group-hover:text-primary transition-colors duration-300">{term}</dt>
+              <dd className="m-0 text-base leading-relaxed text-muted-foreground">{def}</dd>
             </div>
           );
         })}

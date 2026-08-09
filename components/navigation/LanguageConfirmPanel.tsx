@@ -11,6 +11,7 @@
 import { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { X } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import type { KAquaLanguage } from '@/lib/i18n/languages';
 import { groupLabel } from '@/lib/i18n/languages';
 import type { GlobeAnchor } from '@/components/globe/LanguageGlobe';
@@ -33,6 +34,7 @@ export function LanguageConfirmPanel({
 }: LanguageConfirmPanelProps) {
   const wrapRef = useRef<HTMLDivElement>(null);
   const reduced = useReducedMotion();
+  const t = useTranslations('languagePage');
 
   /* Spatial Tracking: Anker → Panel-Transform, geclampt in den Host */
   useEffect(() => {
@@ -118,11 +120,11 @@ export function LanguageConfirmPanel({
         >
           <span dir={lang.rtl ? 'rtl' : 'ltr'}>{lang.ok}</span>
           {lang.ok !== 'Bestätigen' && (
-            <span className="text-xs font-normal opacity-75">Bestätigen</span>
+            <span className="text-xs font-normal opacity-75">{t('confirm')}</span>
           )}
         </button>
         <div className={`mt-2 text-center text-[11px] ${faintCls(dark)}`}>
-          Gilt für die gesamte Website
+          {t('globalEffect')}
         </div>
       </motion.div>
     </div>

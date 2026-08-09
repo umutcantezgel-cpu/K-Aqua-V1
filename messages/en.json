@@ -3948,7 +3948,7 @@
     "case3Desc": "Large projects with extreme requirements for longevity (SDR 11/17). Fast installation and 100% material recyclability at the end of their service life."
   },
   "co2": {
-    "guideText": "<h2>The K-Aqua CO2 Calculator: Precise Emission Analysis for Sustainable Pipe Networks</h2><p>Our CO2 Calculator is a powerful tool for determining the ecological footprint of piping systems. With increasing environmental requirements and stricter building regulations, it is becoming increasingly important for planners and builders to understand CO2 emissions over the entire life cycle of a building (Life Cycle Assessment, LCA). This calculator takes into account all decisive parameters, from raw material extraction, production, and transport to the use phase and eventual disposal or recycling.</p><p>The choice of the right pipe material has a significant impact on the energy efficiency of a building. K-Aqua PP-R and PPRCT pipes feature extremely smooth inner surfaces, which significantly reduces friction resistance and thus the required pump power. In addition, the energy required to manufacture polypropylene is significantly lower than for comparable metallic pipes such as copper or steel. With our calculator, you can simulate various scenarios, SDR classes, and insulation thicknesses to find the energetically and ecologically optimal solution for your project. In this way, you not only secure green building certificates such as LEED or BREEAM, but also make an active contribution to environmental protection.</p>",
+    "guideText": "<h2>Sustainability and LCA (Life Cycle Assessment)</h2><p>Choosing the right piping system has a significant impact on the carbon footprint of a building or industrial facility. The K-Aqua CO2 Calculator provides a comprehensive Life Cycle Assessment (LCA) in accordance with EN 15804 standards. This analysis covers the entire lifecycle: from raw material extraction and product manufacturing (Phases A1-A3) to transport and installation (Phases A4-A5), the use phase (Phase B), and end-of-life (Phase C).</p><p>Compared to traditional metal pipes like copper or steel, K-Aqua's PP-R and PPRCT pipes boast a much more favorable environmental footprint. The lower energy required for plastic extrusion and the significantly reduced weight drastically lower CO2 emissions during production and transport. Furthermore, the mirror-smooth inner surface (roughness of just 0.007 mm) ensures extremely low flow resistance. According to the Darcy-Weisbach equation, this means circulation pumps require significantly less energy (electricity) to move fluids through the system.</p><p>Particularly during the use phase (Phase B), which for piping systems often lasts 50 years or longer, these energy savings translate into massive CO2 and cost reductions (Total Cost of Ownership, TCO). Even at the end of its lifespan (Phase C), polypropylene offers environmental benefits, as it is 100% recyclable and can be reused in a circular economy (Module D). Use this calculator to accurately and transparently quantify the ecological and economic savings potential of your K-Aqua project.</p>",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4017,7 +4017,6 @@
     "tempCold": "Cold water (10°C)",
     "tempHot": "Hot water (60°C)",
     "recycle": "Enable End-of-Life recycling credit",
-    "guideText": "<h2>Sustainability and LCA (Life Cycle Assessment)</h2><p>Choosing the right piping system has a significant impact on the carbon footprint of a building or industrial facility. The K-Aqua CO2 Calculator provides a comprehensive Life Cycle Assessment (LCA) in accordance with EN 15804 standards. This analysis covers the entire lifecycle: from raw material extraction and product manufacturing (Phases A1-A3) to transport and installation (Phases A4-A5), the use phase (Phase B), and end-of-life (Phase C).</p><p>Compared to traditional metal pipes like copper or steel, K-Aqua's PP-R and PPRCT pipes boast a much more favorable environmental footprint. The lower energy required for plastic extrusion and the significantly reduced weight drastically lower CO2 emissions during production and transport. Furthermore, the mirror-smooth inner surface (roughness of just 0.007 mm) ensures extremely low flow resistance. According to the Darcy-Weisbach equation, this means circulation pumps require significantly less energy (electricity) to move fluids through the system.</p><p>Particularly during the use phase (Phase B), which for piping systems often lasts 50 years or longer, these energy savings translate into massive CO2 and cost reductions (Total Cost of Ownership, TCO). Even at the end of its lifespan (Phase C), polypropylene offers environmental benefits, as it is 100% recyclable and can be reused in a circular economy (Module D). Use this calculator to accurately and transparently quantify the ecological and economic savings potential of your K-Aqua project.</p>",
     "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
     "savedLabel": "CO₂e Savings vs. best alternative",
     "savedBody1": "Equals the CO₂ absorption of",
@@ -7638,6 +7637,7 @@
     }
   },
   "productNames": {
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
     "accessories_backing-flange": "Backing Flange PP-Steel (SF/BF)",
     "accessories_flat-gasket-for-unions": "Flat Gasket for Unions PP-R",
     "accessories_flat-gasket": "EPDM Flat Gasket for Flanged PP-R Connections",
@@ -7645,12 +7645,15 @@
     "accessories_plug": "PP-R Pipe Plug",
     "fittings_cap": "PP-R End Cap",
     "fittings_cross-over-pipe": "PP-R Cross-over Pipe",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
     "fittings_cross-over": "PP-R Cross-over",
     "fittings_cross": "PP-R Cross Fitting – Four-Way Connector",
     "fittings_elbow-45-female-male": "PP-R Elbow 45° (Female/Male)",
     "fittings_elbow-45": "PP-R Standard Elbow 45°",
     "fittings_elbow-90-female-male": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90": "PP-R Standard Elbow 90°",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
     "fittings_electrofusion-socket": "Electrofusion Socket",
     "fittings_flange-adaptor": "Flange Adaptor",
     "fittings_reducing-bush": "Reducing Bush",
@@ -7677,12 +7680,14 @@
     "tools_electrofusion-machine": "Electrofusion Machine",
     "tools_hand-welding-machine-20-32": "Hand Welding Machine d20-d32",
     "tools_hand-welding-machine-20-32_desc": "Compact socket welding machine as a complete set for small dimensions from d20 to d32 mm.",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
     "tools_hand-welding-machine-20-63": "Hand Welding Machine d20-d63",
     "tools_hand-welding-machine-20-63_desc": "Versatile socket welding machine in a set (heating plate, stand, matrices) for pipes from d20 to d63 mm.",
     "tools_hand-welding-machine-mirror-50-125": "Hand Welding Machine (Mirror only) 50–125",
     "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
     "tools_pipe-cutter-50-125-114": "Pipe Cutter 1 1/4",
     "tools_pipe-cutter-50-125": "Professional Pipe Cutter d50-d125",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "tools_repairing-plug": "Repairing Plug",
     "tools_welding-machine-50-125": "Welding Machine d50-d125",
     "tools_welding-tool-for-repairing-plug": "Welding Tool for Repairing Plug",
@@ -7712,6 +7717,8 @@
     "valves_pp-r-ball-valve-brass": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_straight-seat-valve-green-handle": "Straight Seat Valve (Top Part)",
     "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Concealed Valve",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve",
     "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
     "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
@@ -8278,5 +8285,16 @@
     "p3": "Sustainability is deeply embedded within the molecular engineering of our PP-R and PPRCT systems. By providing a remarkably low internal surface roughness of 0.007 mm, our pipes drastically reduce the hydraulic friction and pressure loss across the network. According to the Darcy-Weisbach flow dynamic models, this minimal resistance translates directly into massively reduced energy consumption for circulation pumps. Over a 50-year operational lifecycle, this efficiency yields unparalleled CO2 emissions savings and substantially lowers the Total Cost of Ownership (TCO) for building operators. Furthermore, polypropylene is 100% recyclable. Through our validated Type III Environmental Product Declarations (EPD) complying with EN 15804, we provide architects and green-building planners with transparent, quantifiable data for LEED, BREEAM, and DGNB certifications.",
     "t4": "Global Reach, German Engineering & Certifications",
     "p4": "Manufactured entirely in Germany under strict ISO 9001, ISO 14001, and ISO 50001 quality and environmental management protocols, K-Aqua exports premium piping solutions to over 50 countries worldwide. Our logistics network guarantees the rapid, secure delivery of complete systems to mega-projects in the Middle East, Southeast Asia, and across Europe. Our relentless commitment to quality is validated by major international certification bodies including DVGW, SKZ, WRAS, and KIWA. We empower consulting engineers, BIM modelers, and large-scale contractors with detailed CAD/BIM libraries, intelligent calculation software, and comprehensive technical support to ensure flawless project execution. K-Aqua represents the ultimate synthesis of advanced polymer science, sustainable engineering, and uncompromising reliability in fluid management."
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
   }
 }

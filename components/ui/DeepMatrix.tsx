@@ -33,14 +33,48 @@ export function DeepMatrix({ head, rows, data, heroCol = -1, note }: DeepMatrixP
 
   return (
     <div>
-      <div className="overflow-x-auto rounded-lg border border-card-border bg-card">
-        <table className="w-full min-w-[640px] border-collapse text-small">
+      {/* Mobile Card Layout (Vertical) */}
+      <div className="md:hidden flex flex-col gap-4">
+        {finalRows.map((row, ri) => (
+          <div key={ri} className="rounded-xl border border-card-border bg-card p-4 shadow-sm flex flex-col gap-3">
+            {(row || []).map((c, ci) => {
+              if (ci === 0) {
+                return (
+                  <h3 key={ci} className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-2 mb-1">
+                    {c}
+                  </h3>
+                );
+              }
+              return (
+                <div key={ci} className={clsx(
+                  "flex flex-col gap-1 rounded-lg p-2.5",
+                  ci === heroCol ? "bg-primary-soft/50" : "bg-background-subtle"
+                )}>
+                  <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
+                    {finalHead && finalHead[ci]}
+                  </span>
+                  <div className={clsx(
+                    "text-sm",
+                    ci === heroCol ? "font-semibold text-primary" : "text-foreground"
+                  )}>
+                    {c}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop Table Layout (Horizontal) */}
+      <div className="hidden md:block overflow-x-auto rounded-lg border border-card-border bg-card shadow-sm">
+        <table className="w-full min-w-max border-collapse text-small">
           <thead>
             <tr>
               {finalHead.map((h, i) => (
                 <th
                   key={i}
-                  className="sticky top-0 border-b border-card-border bg-background-subtle px-4 py-3 text-start font-heading text-tiny uppercase tracking-wider text-muted-foreground"
+                  className="sticky top-0 border-b border-card-border bg-background-subtle px-5 py-4 text-start font-heading text-xs uppercase tracking-wider text-muted-foreground"
                 >
                   {h}
                 </th>
@@ -49,13 +83,13 @@ export function DeepMatrix({ head, rows, data, heroCol = -1, note }: DeepMatrixP
           </thead>
           <tbody>
             {finalRows.map((row, ri) => (
-              <tr key={ri} className="group">
+              <tr key={ri} className="group transition-colors hover:bg-background-subtle">
                 {(row || []).map((c, ci) =>
                   ci === 0 ? (
                     <th
                       key={ci}
                       scope="row"
-                      className="whitespace-nowrap border-b border-card-border px-4 py-3 text-start font-semibold text-foreground group-hover:bg-background-subtle group-last:border-b-0"
+                      className="whitespace-normal sm:whitespace-nowrap border-b border-card-border px-5 py-4 text-start font-semibold text-foreground group-last:border-b-0 max-w-[200px]"
                     >
                       {c}
                     </th>
@@ -63,8 +97,8 @@ export function DeepMatrix({ head, rows, data, heroCol = -1, note }: DeepMatrixP
                     <td
                       key={ci}
                       className={clsx(
-                        "border-b border-card-border px-4 py-3 align-top text-muted-foreground group-last:border-b-0 group-hover:bg-background-subtle",
-                        ci === heroCol && "bg-primary-soft font-semibold text-primary group-hover:bg-primary-soft"
+                        "border-b border-card-border px-5 py-4 align-top text-muted-foreground group-last:border-b-0 leading-relaxed max-w-[300px]",
+                        ci === heroCol && "bg-primary-soft/30 font-semibold text-primary-strong"
                       )}
                     >
                       {c}
@@ -76,7 +110,7 @@ export function DeepMatrix({ head, rows, data, heroCol = -1, note }: DeepMatrixP
           </tbody>
         </table>
       </div>
-      {note ? <p className="mt-3 text-tiny leading-relaxed text-faint-foreground">{note}</p> : null}
+      {note ? <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{note}</p> : null}
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { useId, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import { Mail, Phone } from "lucide-react";
 import { submitLead } from "@/app/actions/lead";
 import { INTERESSEN, DIREKTWAHL_DISPLAY, DIREKTWAHL_TEL } from "@/content/kontakt-bloecke";
 
@@ -40,10 +41,14 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
   const phoneField = (
     <div className={`kqk-fld${errs.p ? " err" : ""}`}>
       <label htmlFor={`${uid}-phone`}>{t("phoneLabel")}</label>
-      <div className="kqk-in">
-        <select name="cc" aria-label={t("ccAria")} defaultValue="+49">
-          {["+49", "+41", "+43", "+971", "+1"].map(c => <option key={c}>{c}</option>)}
+      <div className="kqk-in relative group/in transition-all duration-300">
+        <div className="absolute left-[14px] top-1/2 -translate-y-1/2 text-muted-foreground group-focus-within/in:text-primary transition-colors pointer-events-none">
+          <Phone className="w-[18px] h-[18px]" />
+        </div>
+        <select name="cc" aria-label={t("ccAria")} defaultValue="+49" className="!pl-11 !bg-transparent !pr-2 !border-none">
+          {["+49", "+41", "+43", "+971", "+1"].map(c => <option key={c} value={c}>{c}</option>)}
         </select>
+        <div className="w-[1px] h-6 bg-card-border/60 mx-1"></div>
         <input
           id={`${uid}-phone`}
           name="phone"
@@ -54,6 +59,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           aria-required="true"
           aria-invalid={errs.p || undefined}
           aria-describedby={errs.p ? `${uid}-phone-err` : undefined}
+          className="!pl-3"
         />
       </div>
       <span className="emsg" id={`${uid}-phone-err`} role="alert">{t("phoneError")}</span>
@@ -63,7 +69,10 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
   const emailField = (
     <div className={`kqk-fld${errs.m ? " err" : ""}`}>
       <label htmlFor={`${uid}-email`}>{t("emailLabel")}</label>
-      <div className="kqk-in">
+      <div className="kqk-in relative group/in transition-all duration-300">
+        <div className="absolute left-[14px] top-1/2 -translate-y-1/2 text-muted-foreground group-focus-within/in:text-primary transition-colors pointer-events-none">
+          <Mail className="w-[18px] h-[18px]" />
+        </div>
         <input
           id={`${uid}-email`}
           name="email"
@@ -74,6 +83,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           aria-required="true"
           aria-invalid={errs.m || undefined}
           aria-describedby={errs.m ? `${uid}-email-err` : undefined}
+          className="!pl-11"
         />
       </div>
       <span className="emsg" id={`${uid}-email-err`} role="alert">{t("emailError")}</span>
