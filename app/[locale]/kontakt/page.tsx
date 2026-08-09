@@ -5,6 +5,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { MapPin, Phone, Wrench, ArrowUpRight } from "@/components/ui/icon";
 import { ContactDeep } from "@/components/sections/ContactDeep";
+import { MultiStepContactForm } from "@/components/sections/MultiStepContactForm";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
 import JsonLd from "@/components/seo/JsonLd";
 import { SeoExpand } from "@/components/seo/SeoExpand";
@@ -81,7 +82,7 @@ export default async function KontaktPage({ params }: Props) {
         {/* Contact Cards Section */}
         <section className="py-20 bg-background">
           <div className="max-w-[1200px] mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-y-8 md:gap-6">
               {/* Physical Location */}
               <Reveal>
                 <Card className="h-full text-start p-8 flex flex-col justify-between">
@@ -164,6 +165,20 @@ export default async function KontaktPage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        {/* Multi-Step Contact Form */}
+        <section className="py-20 bg-background-subtle border-t border-card-border">
+          <div className="max-w-[1200px] mx-auto px-6">
+            <div className="text-center mb-12">
+              <Eyebrow>Interaktiv</Eyebrow>
+              <h2 className="text-3xl lg:text-4xl font-heading font-extrabold text-foreground mt-4">
+                Projektanfrage & Support
+              </h2>
+            </div>
+            <MultiStepContactForm locale={locale} />
+          </div>
+        </section>
+
         {/* Deep Content am Ende der Kontakt Seite */}
         <ContactDeep />
         <SeoExpand pageType="kontakt" />
