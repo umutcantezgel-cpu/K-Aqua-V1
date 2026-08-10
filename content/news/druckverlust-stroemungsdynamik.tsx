@@ -38,7 +38,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
               <ArrowRight className="w-64 h-64 text-cyan-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die Physik des Fließens" className="mb-6 text-cyan-500" />
+              <Eyebrow className="mb-6 text-cyan-500">Die Physik des Fließens</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance mb-6">
                 In großen Gebäudekomplexen, Krankenhäusern und industriellen Anlagen werden täglich tausende Tonnen Wasser bewegt. Um diese gewaltigen Massen gegen die Schwerkraft und den Leitungswiderstand (Rohrreibung) zu fördern, leisten elektrische Umwälzpumpen kontinuierlich Schwerstarbeit. 
               </p>
@@ -54,7 +54,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Der unsichtbare Widerstand" />
+            <Eyebrow>Der unsichtbare Widerstand</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Turbulenz vs Laminarität
             </h2>
@@ -102,7 +102,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Physik in Zahlen" />
+            <Eyebrow>Physik in Zahlen</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Die absolute Minimierung des Druckverlusts
             </h2>
@@ -133,7 +133,7 @@ export const druckverlustStroemungsdynamik: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Der wirtschaftliche Hebel" />
+            <Eyebrow>Der wirtschaftliche Hebel</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Operationale Effizienz steigern
             </h2>

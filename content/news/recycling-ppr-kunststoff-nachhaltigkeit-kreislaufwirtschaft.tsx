@@ -39,11 +39,9 @@ export const recyclingPpr: NewsPost = {
 
       <Reveal>
         <ParallaxHero headingLevel="h2"
-          imageSrc="/images/news/recycling-ppr.jpg"
           title="Sortenreine Kunststoffrohrsysteme für echte Kreislaufwirtschaft"
-          subtitle="In der modernen Bauwirtschaft müssen Rohrsysteme nachhaltig, langlebig und am Ende ihres Lebenszyklus kreislauffähig gestaltet sein. Während herkömmliche Mehrschichtverbundrohre (PEX/Alu) durch unlösbare Verklebungen der Materialschichten schwer bis gar nicht recycelbar sind, bestehen K-Aqua PPR und PPRCT Rohre aus einem sortenreinen Thermoplast. Dadurch lassen sie sich nach Jahrzehnten zu 100 % einschmelzen und in neue hochwertige Kunststoffprodukte überführen."
-          badge="Ökologie & Recycling"
-          align="left"
+          description="In der modernen Bauwirtschaft müssen Rohrsysteme nachhaltig, langlebig und am Ende ihres Lebenszyklus kreislauffähig gestaltet sein. Während herkömmliche Mehrschichtverbundrohre (PEX/Alu) durch unlösbare Verklebungen der Materialschichten schwer bis gar nicht recycelbar sind, bestehen K-Aqua PPR und PPRCT Rohre aus einem sortenreinen Thermoplast. Dadurch lassen sie sich nach Jahrzehnten zu 100 % einschmelzen und in neue hochwertige Kunststoffprodukte überführen."
+          eyebrow="Ökologie & Recycling"
         />
       </Reveal>
 
@@ -112,27 +110,27 @@ export const recyclingPpr: NewsPost = {
             align="center"
           />
           <div className="mt-12">
-            <HorizontalTimeline
+            <HorizontalTimeline title=""
               items={[
                 {
                   year: "Phase 1",
                   title: "Ökologische Produktion",
-                  description: "K-Aqua Rohre werden aus hochwertigem, reinem PPR-Granulat ohne toxische Weichmacher oder Schwermetalle bei niedrigen Temperaturen extrem ressourcenschonend extrudiert."
+                  text: "K-Aqua Rohre werden aus hochwertigem, reinem PPR-Granulat ohne toxische Weichmacher oder Schwermetalle bei niedrigen Temperaturen extrem ressourcenschonend extrudiert."
                 },
                 {
                   year: "Phase 2",
                   title: "Nutzung (50+ Jahre)",
-                  description: "Im Gebäude transportieren die Rohre über Jahrzehnte hinweg hochreines Trinkwasser oder aggressives Heizungswasser, ohne zu korrodieren, Inkrustationen zu bilden oder Mikroplastik abzugeben."
+                  text: "Im Gebäude transportieren die Rohre über Jahrzehnte hinweg hochreines Trinkwasser oder aggressives Heizungswasser, ohne zu korrodieren, Inkrustationen zu bilden oder Mikroplastik abzugeben."
                 },
                 {
                   year: "Phase 3",
                   title: "Rückbau & Schreddern",
-                  description: "Sowohl der ungenutzte Verschnitt auf der Baustelle als auch alte Rohre beim Gebäudeabbruch werden gesammelt, in lokalen Zentren gereinigt und zu feinem Granulat mechanisch geschreddert."
+                  text: "Sowohl der ungenutzte Verschnitt auf der Baustelle als auch alte Rohre beim Gebäudeabbruch werden gesammelt, in lokalen Zentren gereinigt und zu feinem Granulat mechanisch geschreddert."
                 },
                 {
                   year: "Phase 4",
                   title: "Neues hochwertiges Produkt",
-                  description: "Das 100% sortenreine Rezyklat wird erneut eingeschmolzen und zur Herstellung neuer, nicht-trinkwasserführender Kunststoffprodukte (z.B. Gehäuseteile, Kabelkanäle) erfolgreich wiederverwendet."
+                  text: "Das 100% sortenreine Rezyklat wird erneut eingeschmolzen und zur Herstellung neuer, nicht-trinkwasserführender Kunststoffprodukte (z.B. Gehäuseteile, Kabelkanäle) erfolgreich wiederverwendet."
                 }
               ]}
             />

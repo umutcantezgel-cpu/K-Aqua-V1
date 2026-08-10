@@ -33,7 +33,7 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
               <Globe className="w-64 h-64 text-green-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Der grüne Rohstoff" className="mb-6 text-green-500" />
+              <Eyebrow className="mb-6 text-green-500">Der grüne Rohstoff</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
                 Die Bauindustrie befindet sich in einem radikalen Umbruch. Gebäudezertifikate nach internationalen Standards fordern kompromisslose Nachhaltigkeit in jedem Gewerk. Wenn es um die lebenswichtigen Adern eines Bauwerks geht, schlägt Polypropylen herkömmliche Metalle um Längen. Wir betrachten den gesamten Lebenszyklus unserer Systeme und beweisen, dass High Tech und Umweltschutz bei K Aqua Hand in Hand gehen.
               </p>
@@ -104,7 +104,7 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Cradle to Grave" />
+            <Eyebrow>Cradle to Grave</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Der ökologische Lebenszyklus
             </h2>
@@ -142,7 +142,7 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Energieeffizienz im Fokus" />
+            <Eyebrow>Energieeffizienz im Fokus</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Thermische Isolation als Standard
             </h2>
@@ -171,7 +171,7 @@ export const nachhaltigkeitOekobilanz: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Die ultimative Kreislaufwirtschaft" />
+            <Eyebrow>Die ultimative Kreislaufwirtschaft</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Ein Material ohne toxische Altlasten
             </h2>

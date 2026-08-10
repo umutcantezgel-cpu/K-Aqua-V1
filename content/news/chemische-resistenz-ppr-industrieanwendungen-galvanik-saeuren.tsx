@@ -3,7 +3,7 @@ import { NewsPost } from "./index";
 import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
@@ -82,28 +82,24 @@ export const chemischeResistenzIndustrie: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <BentoGrid
-            items={[
-              {
-                title: "Galvanik & Oberflächentechnik",
-                description: "Sicherer Transport von stark sauren Beizbädern, heißen galvanischen Elektrolyten und aggressiven Spülwässern. PP-R widersteht anorganischen Säuren wie Schwefel-, Salz- oder Salpetersäure auch bei erhöhten Prozesstemperaturen vollkommen korrosionsfrei.",
-                icon: <Factory className="w-6 h-6 text-primary" />,
-                size: "large"
-              },
-              {
-                title: "Reinstwasser & Halbleiter (VE-Wasser)",
-                description: "Vollentsalztes (VE) oder demineralisiertes (DI) Wasser ist extrem \"hungrig\" und entzieht Metallrohren sofort Ionen, was das Wasser unweigerlich kontaminiert. PP-R verhält sich absolut inert, gibt keine Partikel ab und hält das Reinstwasser sicher auf seinem geforderten Leitfähigkeitsniveau.",
-                icon: <Beaker className="w-6 h-6 text-primary" />,
-                size: "medium"
-              },
-              {
-                title: "Agrar-, Düngemittel & Lebensmittel",
-                description: "Außerordentliche Beständigkeit gegen stickstoffhaltige Verbindungen, Phosphorsäure, agrochemische Lösungen sowie organische Säuren in der Lebensmittelverarbeitung (Essigsäure, Milchsäure).",
-                icon: <Leaf className="w-6 h-6 text-primary" />,
-                size: "medium"
-              }
-            ]}
-          />
+          <BentoGrid>
+            <BentoGridItem
+              title="Galvanik & Oberflächentechnik"
+              description="Sicherer Transport von stark sauren Beizbädern, heißen galvanischen Elektrolyten und aggressiven Spülwässern. PP-R widersteht anorganischen Säuren wie Schwefel-, Salz- oder Salpetersäure auch bei erhöhten Prozesstemperaturen vollkommen korrosionsfrei."
+              icon={<Factory className="w-6 h-6 text-primary" />}
+              colSpan={2}
+            />
+            <BentoGridItem
+              title="Reinstwasser & Halbleiter (VE-Wasser)"
+              description='Vollentsalztes (VE) oder demineralisiertes (DI) Wasser ist extrem "hungrig" und entzieht Metallrohren sofort Ionen, was das Wasser unweigerlich kontaminiert. PP-R verhält sich absolut inert, gibt keine Partikel ab und hält das Reinstwasser sicher auf seinem geforderten Leitfähigkeitsniveau.'
+              icon={<Beaker className="w-6 h-6 text-primary" />}
+            />
+            <BentoGridItem
+              title="Agrar-, Düngemittel & Lebensmittel"
+              description="Außerordentliche Beständigkeit gegen stickstoffhaltige Verbindungen, Phosphorsäure, agrochemische Lösungen sowie organische Säuren in der Lebensmittelverarbeitung (Essigsäure, Milchsäure)."
+              icon={<Leaf className="w-6 h-6 text-primary" />}
+            />
+          </BentoGrid>
         </div>
       </Reveal>
 

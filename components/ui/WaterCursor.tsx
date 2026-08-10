@@ -430,7 +430,7 @@ export default function WaterCursor(props: WaterCursorProps) {
       }
 
       for (let i = 0; i < SMAX; i++) {
-        const p = particles[i];
+        const p = particles[i]!;
         if (!p.active) { splashAlphaBuf[i] = 0; continue; }
         const frx = Math.pow(0.90, dtMs / 16.67);
         p.vx *= frx;
@@ -467,15 +467,15 @@ export default function WaterCursor(props: WaterCursorProps) {
 
       const col = colorRef.current;
       gl!.clear(gl!.COLOR_BUFFER_BIT);
-      gl!.uniform3fv(U.uPts, ptsBuf);
-      gl!.uniform3f(U.uColor, col[0], col[1], col[2]);
-      gl!.uniform1i(U.uSplashCount, SMAX);
-      gl!.uniform4fv(U.uSplashPos, splashPosBuf);
-      gl!.uniform1fv(U.uSplashAlpha, splashAlphaBuf);
+      gl!.uniform3fv(U.uPts!, ptsBuf);
+      gl!.uniform3f(U.uColor!, col[0], col[1], col[2]);
+      gl!.uniform1i(U.uSplashCount!, SMAX);
+      gl!.uniform4fv(U.uSplashPos!, splashPosBuf);
+      gl!.uniform1fv(U.uSplashAlpha!, splashAlphaBuf);
       const cp = toDevice(clickPos.x, clickPos.y);
-      gl!.uniform2f(U.uClickPos, cp[0], cp[1]);
-      gl!.uniform1f(U.uClickAge, (t - clickTime) / 1000);
-      gl!.uniform4f(U.uBounds, minX, minY, maxX, maxY);
+      gl!.uniform2f(U.uClickPos!, cp[0], cp[1]);
+      gl!.uniform1f(U.uClickAge!, (t - clickTime) / 1000);
+      gl!.uniform4f(U.uBounds!, minX, minY, maxX, maxY);
       gl!.drawArrays(gl!.TRIANGLES, 0, 3);
 
       raf = requestAnimationFrame(frame);

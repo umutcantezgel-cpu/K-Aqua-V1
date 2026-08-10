@@ -60,6 +60,28 @@ print_*.js
 extract_*.js
 generate_*.js
 update_*.js
+patch_*.js
+inject_*.js
+repair_*.js
+make_*.js
+split.js
+count.js
+format.js
+combine.js
+batch_*.js
+append_*.js
+align_*.js
+apply_*.js
+assemble*.js
+deep_merge.js
+fill_*.js
+finish.js
+force_*.js
+chunker.js
+translate*.js
+# Python utility scripts
+*.py
+!scripts/*.py
 
 # data dumps
 *.patch

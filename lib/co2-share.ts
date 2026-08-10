@@ -7,7 +7,7 @@ export function co2DecodeHash() {
     if (typeof location === 'undefined') return null;
     const m = location.hash.match(/#s=(.+)/);
     if (!m) return null;
-    return JSON.parse(decodeURIComponent(escape(atob(m[1]))));
+    return JSON.parse(decodeURIComponent(escape(atob(m[1]!))));
   } catch (e) { return null; }
 }
 
@@ -45,8 +45,10 @@ export function co2ExportPng(svgEl: SVGElement | null, meta: string) {
   const dst = clone.querySelectorAll('*');
   const props = ['fill', 'stroke', 'stop-color', 'stroke-width', 'opacity', 'stroke-dasharray', 'stroke-linecap', 'stroke-linejoin'];
   for (let i = 0; i < src.length; i++) {
-    const cs = getComputedStyle(src[i]);
-    props.forEach((p) => { const v = cs.getPropertyValue(p); if (v) dst[i].setAttribute(p, v); });
+    const el = src[i];
+    if (!el) continue;
+    const cs = getComputedStyle(el);
+    props.forEach((p) => { const v = cs.getPropertyValue(p); if (v && dst[i]) dst[i]!.setAttribute(p, v); });
   }
   const W = 2000, H = 760, CAP = 88;
   clone.setAttribute('width', String(W)); 

@@ -31,10 +31,8 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
   content: (
     <div className="flex flex-col gap-24 py-12">
       <ParallaxHero headingLevel="h2"
-        image="/images/news/tco-maintenance-free.jpg"
         title="Die wahren Kosten zeigen sich später"
-        subtitle="Warum Investitionskosten (CAPEX) nur die Spitze des Eisbergs sind."
-        height="60vh"
+        description="Warum Investitionskosten (CAPEX) nur die Spitze des Eisbergs sind."
       />
 
       <Reveal>

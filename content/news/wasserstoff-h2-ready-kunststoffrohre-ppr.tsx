@@ -2,7 +2,7 @@ import React from "react";
 import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { StickyScrollReveal } from "@/components/ui/StickyScrollReveal";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { StatBand } from "@/components/ui/StatBand";
@@ -98,17 +98,14 @@ export const wasserstoffH2Ready: NewsPost = {
               {
                 title: "H2: Das kleinste Molekül im Universum",
                 description: "Wasserstoff hat eine extrem geringe molekulare Größe und Dichte. Die sogenannte Permeation (das langsame Hindurchdiffundieren von Gasen durch die geschlossene Rohrwand) ist ein unvermeidbarer physikalischer Fakt. Kunststoffrohre müssen für den Einsatz in H2-Netzen exakt auf die maximal zulässigen Permeationsraten geprüft und freigegeben werden.",
-                icon: <Activity className="w-8 h-8 text-primary" />
               },
               {
                 title: "Absolute Immunität gegen Versprödung",
                 description: "Während Stahlrohre extrem gefährdet sind, da eindringender Wasserstoff im Metallgitter Mikrorisse erzeugt (Wasserstoffversprödung), ist PPR-Kunststoff chemisch völlig anders aufgebaut. Das Makromolekül Polypropylen ist gegen diesen zerstörerischen Effekt zu 100 % immun. Das Rohr bleibt auf Dauer elastisch.",
-                icon: <Shield className="w-8 h-8 text-primary" />
               },
               {
                 title: "Homogene Verbindungen sind Pflicht",
                 description: "Mechanische Fittings, Flansche oder Pressverbindungen mit Elastomer-O-Ringen sind die absolute Hauptschwachstelle für gefährliche H2-Leckagen. Die vollflächige Verschweißung von K-Aqua PPR-Rohren eliminiert diese Gefahr komplett, da das Netz völlig ohne fremde Dichtmaterialien auskommt.",
-                icon: <Wrench className="w-8 h-8 text-primary" />
               }
             ]}
           />
@@ -120,28 +117,24 @@ export const wasserstoffH2Ready: NewsPost = {
           title="Warum PPR Kunststoffrohre für H2-Niederdrucknetze ideal sind"
           lead="Forschung, strenge Materialprüfungen und innovative Rohrsysteme für die nachhaltige H2-Energieinfrastruktur von morgen."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Keine Wasserstoffversprödung möglich",
-              description: "Die stabile Polymermatrix von hochwertigen PPR-Kunststoffrohren wird von gasförmigem Wasserstoff chemisch nicht angegriffen und verhindert Materialermüdung und Gefügeversprödungen vollständig.",
-              icon: <Shield className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Extreme Dichtheit durch Homogenes Schweißen",
-              description: "Die stoffschlüssige Heizelementmuffenschweißung schafft ein vollkommen homogenes, unlösbares PPR-Rohrsystem ohne anfällige mechanische Dichtungen, O-Ringe oder Pressübergänge, die bei Gasleckagen versagen könnten.",
-              icon: <Zap className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Flexible Verlegung & Hohe Lebensdauer",
-              description: "PPR Rohre zeichnen sich durch ein enorm geringes Gewicht sowie flexible Verlegemöglichkeiten aus und eignen sich hervorragend für die komplexe, dezentrale Verrohrung der H2-Elektrolyseur-Peripherie auf Werksgeländen.",
-              icon: <Activity className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Keine Wasserstoffversprödung möglich"
+            description="Die stabile Polymermatrix von hochwertigen PPR-Kunststoffrohren wird von gasförmigem Wasserstoff chemisch nicht angegriffen und verhindert Materialermüdung und Gefügeversprödungen vollständig."
+            icon={<Shield className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Extreme Dichtheit durch Homogenes Schweißen"
+            description="Die stoffschlüssige Heizelementmuffenschweißung schafft ein vollkommen homogenes, unlösbares PPR-Rohrsystem ohne anfällige mechanische Dichtungen, O-Ringe oder Pressübergänge, die bei Gasleckagen versagen könnten."
+            icon={<Zap className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Flexible Verlegung & Hohe Lebensdauer"
+            description="PPR Rohre zeichnen sich durch ein enorm geringes Gewicht sowie flexible Verlegemöglichkeiten aus und eignen sich hervorragend für die komplexe, dezentrale Verrohrung der H2-Elektrolyseur-Peripherie auf Werksgeländen."
+            icon={<Activity className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       <Reveal>

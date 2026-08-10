@@ -2,7 +2,7 @@ import React from "react";
 import { NewsPost } from "./index";
 import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { StatBand } from "@/components/ui/StatBand";
 import { CTABand } from "@/components/ui/CTABand";
@@ -87,28 +87,24 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
           title="Das 3-Stufen-Konzept zur perfekten Entkopplung"
           lead="So wird die schwere Maschine akustisch und mechanisch vollständig vom restlichen Gebäude isoliert."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "1. Elastomerlager (Das Maschinenbett)",
-              description: "Die Pumpe oder Kältemaschine darf unter keinen Umständen starr mit Schwerlastankern auf den Betonboden geschraubt werden. Sie wird auf ein sehr schweres Betonfundament gesetzt, welches wiederum auf exakt berechneten Gummipuffern, Stahlfedern oder vollflächigen Elastomerlagern ruht. Dies trennt die Maschine komplett vom Baukörper (Schwimmender Estrich-Effekt).",
-              icon: <Power className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "2. Gummikompensatoren (Rohranschluss)",
-              description: "Der absolut wichtigste Schritt für das Rohrnetz: Zwischen dem harten Anschlussflansch der vibrierenden Maschine und dem eigentlichen K-Aqua Rohrnetz wird zwingend ein flexibler Gummikompensator eingebaut. Dieser hochelastische Balg fängt die mechanischen Stöße und Schwingungen vollständig ab, bevor sie überhaupt in die PPR-Rohrwandung gelangen können.",
-              icon: <ArrowRightLeft className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "3. Akustik-Rohrschellen (Netzbefestigung)",
-              description: "Auch im weiteren Verlauf des Netzes, lange nach dem Kompensator, müssen die Rohre abgefangen werden. Hierbei sollten die Rohrbefestigungen (Schellen) immer mit dicken, profilierten und schallgedämmten Gummieinlagen ausgestattet sein. Starre Metallschellen ohne Gummi würden selbst feinste restliche Fließgeräusche sofort als Körperschall in die Wand leiten.",
-              icon: <Activity className="w-6 h-6 text-primary" />,
-              size: "large"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="1. Elastomerlager (Das Maschinenbett)"
+            description="Die Pumpe oder Kältemaschine darf unter keinen Umständen starr mit Schwerlastankern auf den Betonboden geschraubt werden. Sie wird auf ein sehr schweres Betonfundament gesetzt, welches wiederum auf exakt berechneten Gummipuffern, Stahlfedern oder vollflächigen Elastomerlagern ruht. Dies trennt die Maschine komplett vom Baukörper (Schwimmender Estrich-Effekt)."
+            icon={<Power className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="2. Gummikompensatoren (Rohranschluss)"
+            description="Der absolut wichtigste Schritt für das Rohrnetz: Zwischen dem harten Anschlussflansch der vibrierenden Maschine und dem eigentlichen K-Aqua Rohrnetz wird zwingend ein flexibler Gummikompensator eingebaut. Dieser hochelastische Balg fängt die mechanischen Stöße und Schwingungen vollständig ab, bevor sie überhaupt in die PPR-Rohrwandung gelangen können."
+            icon={<ArrowRightLeft className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="3. Akustik-Rohrschellen (Netzbefestigung)"
+            description="Auch im weiteren Verlauf des Netzes, lange nach dem Kompensator, müssen die Rohre abgefangen werden. Hierbei sollten die Rohrbefestigungen (Schellen) immer mit dicken, profilierten und schallgedämmten Gummieinlagen ausgestattet sein. Starre Metallschellen ohne Gummi würden selbst feinste restliche Fließgeräusche sofort als Körperschall in die Wand leiten."
+            icon={<Activity className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+        </BentoGrid>
       </Reveal>
 
       <Reveal>

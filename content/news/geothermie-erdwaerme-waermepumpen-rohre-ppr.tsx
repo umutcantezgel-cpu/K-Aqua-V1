@@ -1,7 +1,7 @@
 import React from "react";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { StatBand } from "@/components/ui/StatBand";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
@@ -112,28 +112,24 @@ export const geothermieErdwaerme: NewsPost = {
           title="Gemacht für den Untergrund"
           lead="Was einmal vergraben wird, kann nicht einfach repariert werden. Darum ist die Materialwahl entscheidend."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Wurzelfest & Verrottungsfrei",
-              description: "PPR ist ein Kunststoff, der von Mikroorganismen im Boden nicht angegriffen wird. Zudem widersteht das zähe Material dem Druck von Baumwurzeln und Erdbewegungen.",
-              icon: <ShieldCheck className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "100 % Leckagesicher",
-              description: "Es gibt im Erdreich keine O Ringe oder mechanische Schraubverbindungen. Die K Aqua Rohre werden zu einer homogenen Einheit verschweißt. Das Grundwasser bleibt absolut sicher vor Kontamination.",
-              icon: <Droplet className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Resistent gegen Sole",
-              description: "Das Wärmeträgermedium (Sole) besteht meist aus einem Wasserglykol Gemisch als Frostschutz. PPR ist hochgradig chemikalienbeständig und wird von diesen Zusätzen nicht angegriffen.",
-              icon: <Thermometer className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Wurzelfest & Verrottungsfrei"
+            description="PPR ist ein Kunststoff, der von Mikroorganismen im Boden nicht angegriffen wird. Zudem widersteht das zähe Material dem Druck von Baumwurzeln und Erdbewegungen."
+            icon={<ShieldCheck className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="100 % Leckagesicher"
+            description="Es gibt im Erdreich keine O Ringe oder mechanische Schraubverbindungen. Die K Aqua Rohre werden zu einer homogenen Einheit verschweißt. Das Grundwasser bleibt absolut sicher vor Kontamination."
+            icon={<Droplet className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Resistent gegen Sole"
+            description="Das Wärmeträgermedium (Sole) besteht meist aus einem Wasserglykol Gemisch als Frostschutz. PPR ist hochgradig chemikalienbeständig und wird von diesen Zusätzen nicht angegriffen."
+            icon={<Thermometer className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* HorizontalTimeline: Installationsablauf */}
@@ -146,26 +142,27 @@ export const geothermieErdwaerme: NewsPost = {
           />
           <div className="mt-12">
             <HorizontalTimeline
+              title="Ablauf"
               items={[
                 {
                   year: "Schritt 1",
                   title: "Tiefenbohrung",
-                  description: "Je nach Wärmebedarf und Geologie wird ein Bohrloch (oft 50 bis 100 Meter tief) für die Erdwärmesonde gebohrt."
+                  text: "Je nach Wärmebedarf und Geologie wird ein Bohrloch (oft 50 bis 100 Meter tief) für die Erdwärmesonde gebohrt."
                 },
                 {
                   year: "Schritt 2",
                   title: "Sonde einbringen",
-                  description: "Der vorgefertigte PPR / PPRCT Sondenfuß mit dem Doppel U Rohr wird hinabgelassen und mit einem Gewicht beschwert."
+                  text: "Der vorgefertigte PPR / PPRCT Sondenfuß mit dem Doppel U Rohr wird hinabgelassen und mit einem Gewicht beschwert."
                 },
                 {
                   year: "Schritt 3",
                   title: "Verpressen",
-                  description: "Das Bohrloch wird mit einer speziellen Suspension (Bentonitzement) verpresst, um eine perfekte thermische Anbindung ans Gestein zu gewährleisten."
+                  text: "Das Bohrloch wird mit einer speziellen Suspension (Bentonitzement) verpresst, um eine perfekte thermische Anbindung ans Gestein zu gewährleisten."
                 },
                 {
                   year: "Schritt 4",
                   title: "Anschluss",
-                  description: "Die Sonden werden in einem Verteilerschacht zusammengeführt, vollflächig verschweißt und an die Wärmepumpe im Haus angeschlossen."
+                  text: "Die Sonden werden in einem Verteilerschacht zusammengeführt, vollflächig verschweißt und an die Wärmepumpe im Haus angeschlossen."
                 }
               ]}
             />

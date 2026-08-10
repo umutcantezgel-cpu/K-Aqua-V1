@@ -38,7 +38,7 @@ export const flexibilitaetErdbebenresistenz: NewsPost = {
               <Activity className="w-64 h-64 text-amber-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die kinetische Antwort" className="mb-6 text-amber-500" />
+              <Eyebrow className="mb-6 text-amber-500">Die kinetische Antwort</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
                 Architektur in Erdbebengebieten basiert auf einem fundamentalen Prinzip: Ein Gebäude darf niemals starr gegen Naturgewalten ankämpfen, sondern muss die kinetische Energie durch Flexibilität aufnehmen und ableiten. Was für Wolkenkratzer gilt, gilt exakt so für die lebenswichtige Wasserinfrastruktur in ihrem Inneren. Während herkömmliche Metalle unter tektonischem Stress sofort reißen, agieren K Aqua PPR Rohrleitungssysteme als elastische Stoßdämpfer der Gebäudehydraulik.
               </p>

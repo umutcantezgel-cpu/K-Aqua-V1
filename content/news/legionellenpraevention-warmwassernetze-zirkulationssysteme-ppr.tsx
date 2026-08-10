@@ -3,7 +3,7 @@ import { NewsPost } from "./index";
 import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Stagger } from "@/components/ui/Stagger";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
@@ -165,28 +165,24 @@ export const legionellenpraeventionZirkulation: NewsPost = {
           title="Leitungsführung im Vergleich"
           lead="Das Rohrnetzdesign bestimmt die Hygiene maßgeblich."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "T Stück Installation",
-              description: "Der Klassiker, aber hygienisch am anfälligsten. Abzweige zu selten genutzten Zapfstellen (Gäste-WC) werden zu Stagnationszonen, die das gesamte System verkeimen können.",
-              icon: <Droplet className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Reiheninstallation",
-              description: "Die Hauptleitung schleift durch alle Wandscheiben. Der am häufigsten genutzte Verbraucher (z.B. WC) muss am Ende sitzen, um die davor liegenden Strecken bei jeder Nutzung mitzuspülen.",
-              icon: <Repeat className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Ringinstallation (K Aqua Favorit)",
-              description: "Alle Zapfstellen sind ringförmig verbunden. Egal welche Armatur geöffnet wird, das Wasser fließt von zwei Seiten heran. Das gesamte Rohrvolumen der Etage wird umgewälzt. Perfekt für K Aqua Rohrsysteme durch einfache Schweißtechnik.",
-              icon: <Thermometer className="w-6 h-6 text-primary" />,
-              size: "large"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="T Stück Installation"
+            description="Der Klassiker, aber hygienisch am anfälligsten. Abzweige zu selten genutzten Zapfstellen (Gäste-WC) werden zu Stagnationszonen, die das gesamte System verkeimen können."
+            icon={<Droplet className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Reiheninstallation"
+            description="Die Hauptleitung schleift durch alle Wandscheiben. Der am häufigsten genutzte Verbraucher (z.B. WC) muss am Ende sitzen, um die davor liegenden Strecken bei jeder Nutzung mitzuspülen."
+            icon={<Repeat className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Ringinstallation (K Aqua Favorit)"
+            description="Alle Zapfstellen sind ringförmig verbunden. Egal welche Armatur geöffnet wird, das Wasser fließt von zwei Seiten heran. Das gesamte Rohrvolumen der Etage wird umgewälzt. Perfekt für K Aqua Rohrsysteme durch einfache Schweißtechnik."
+            icon={<Thermometer className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepFAQ: Zirkulation Planer */}

@@ -142,8 +142,8 @@ export function computePortfolioResult(material: any, ctxList: any[], horizonYea
     totalMaintenance: parts.reduce((a, r) => a + r.totalMaintenance, 0),
     replacements: parts.reduce((a, r) => a + r.replacements, 0),
     recyclingCreditTotal: parts.reduce((a, r) => a + r.recyclingCreditTotal, 0),
-    grandTotal: points.length > 0 ? points[points.length - 1].value : 0,
-    events: Object.keys(evMap).map((k) => evMap[k]).sort((a: any, b: any) => a.year - b.year),
+    grandTotal: points.length > 0 ? (points[points.length - 1]?.value ?? 0) : 0,
+    events: Object.keys(evMap).map((k) => evMap[k]).filter(Boolean).sort((a: any, b: any) => a.year - b.year),
   };
 }
 

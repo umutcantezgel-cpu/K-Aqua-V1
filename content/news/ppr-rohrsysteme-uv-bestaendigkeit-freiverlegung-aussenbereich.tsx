@@ -3,7 +3,7 @@ import { NewsPost } from "./index";
 import { Link as NavLink } from "@/lib/i18n/navigation";
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
@@ -31,10 +31,8 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
     <div className="flex flex-col gap-24 py-12">
 
       <ParallaxHero headingLevel="h2" 
-        image="/images/news/outdoor-pipes-sun.jpg" 
-        height="50vh"
         title="Schutz vor der Sonne"
-        subtitle="Wie man PPR Rohre sicher auf dem Dach und an der Fassade verlegt."
+        description="Wie man PPR Rohre sicher auf dem Dach und an der Fassade verlegt."
       />
 
       {/* Intro mit SectionHead & PipeFX (Blueprint) */}
@@ -92,22 +90,22 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <HorizontalTimeline
-            events={[
+          <HorizontalTimeline title=""
+            items={[
               {
                 year: "Phase 1: Photooxidation",
                 title: "Molekülspaltung",
-                description: "UV-Strahlen dringen in die oberste Materialschicht ein und brechen durch ihre hohe Energie die C-C und C-H Bindungen des Polypropylens auf. Reaktive Radikale entstehen."
+                text: "UV-Strahlen dringen in die oberste Materialschicht ein und brechen durch ihre hohe Energie die C-C und C-H Bindungen des Polypropylens auf. Reaktive Radikale entstehen."
               },
               {
                 year: "Phase 2: Oberflächenveränderung",
                 title: "Ausbleichen & Mikrorisse",
-                description: "Das Rohr verliert seine ursprüngliche Farbe. Die Oberfläche wird matt, rau und erste, mit dem bloßen Auge kaum sichtbare Mikrorisse bilden sich durch den Abbau der amorphen Zonen."
+                text: "Das Rohr verliert seine ursprüngliche Farbe. Die Oberfläche wird matt, rau und erste, mit dem bloßen Auge kaum sichtbare Mikrorisse bilden sich durch den Abbau der amorphen Zonen."
               },
               {
                 year: "Phase 3: Materialermüdung",
                 title: "Versprödung (Kreidung)",
-                description: "Die obere Schicht zerfällt pulverartig (Kreidung). Das Material verliert seine Schlagzähigkeit und wird extrem spröde, bis es unter Leitungsdruck reißt."
+                text: "Die obere Schicht zerfällt pulverartig (Kreidung). Das Material verliert seine Schlagzähigkeit und wird extrem spröde, bis es unter Leitungsdruck reißt."
               }
             ]}
           />
@@ -120,28 +118,24 @@ export const uvBestaendigkeitFreiverlegung: NewsPost = {
           title="Zuverlässige Schutzmaßnahmen für die Praxis"
           lead="So wird K-Aqua PP-R fit für die direkte Sonneneinstrahlung auf dem Dach."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "1. Vorisolierte Systeme (K-Aqua Isopipe)",
-              description: "Die absolute Premiumlösung. Das PP-R Mediumrohr wird mit PUR-Schaum gedämmt und von einem schwarzen PE-HD Mantelrohr umschlossen. Schwarzes PE-HD ist durch die Zugabe von 2-3% hochdispersem Ruß (Carbon Black) von Natur aus extrem UV-beständig und hält der Sonneneinstrahlung jahrzehntelang stand.",
-              icon: <Layers className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "2. Aluminiumblechummantelung",
-              description: "Das Standardrohr wird mit einer regulären Dämmung (z.B. Mineralwolle oder Kautschuk) versehen und anschließend mit einem dünnen Aluminiumblech verkleidet. Dies bietet perfekten UV-Schutz und extremen mechanischen Schutz (z.B. gegen Vogelbiss und Hagel).",
-              icon: <Shield className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "3. UV-Schutzlackierung",
-              description: "Für blanke Rohre ohne Dämmung: Ein spezieller, hochdeckender UV-Schutzlack auf Acryl- oder Polyurethanbasis schirmt die Strahlen ab. Wichtig: Der Anstrich erfordert Wartung und muss bei Abblättern zwingend erneuert werden.",
-              icon: <ThermometerSun className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="1. Vorisolierte Systeme (K-Aqua Isopipe)"
+            description="Die absolute Premiumlösung. Das PP-R Mediumrohr wird mit PUR-Schaum gedämmt und von einem schwarzen PE-HD Mantelrohr umschlossen. Schwarzes PE-HD ist durch die Zugabe von 2-3% hochdispersem Ruß (Carbon Black) von Natur aus extrem UV-beständig und hält der Sonneneinstrahlung jahrzehntelang stand."
+            icon={<Layers className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="2. Aluminiumblechummantelung"
+            description="Das Standardrohr wird mit einer regulären Dämmung (z.B. Mineralwolle oder Kautschuk) versehen und anschließend mit einem dünnen Aluminiumblech verkleidet. Dies bietet perfekten UV-Schutz und extremen mechanischen Schutz (z.B. gegen Vogelbiss und Hagel)."
+            icon={<Shield className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="3. UV-Schutzlackierung"
+            description="Für blanke Rohre ohne Dämmung: Ein spezieller, hochdeckender UV-Schutzlack auf Acryl- oder Polyurethanbasis schirmt die Strahlen ab. Wichtig: Der Anstrich erfordert Wartung und muss bei Abblättern zwingend erneuert werden."
+            icon={<ThermometerSun className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepFAQ: Fragen zum Außenbereich */}

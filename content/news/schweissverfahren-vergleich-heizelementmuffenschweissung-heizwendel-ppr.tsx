@@ -2,7 +2,7 @@ import React from "react";
 import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
@@ -81,28 +81,24 @@ export const schweissverfahrenVergleich: NewsPost = {
           title="Welches Schweißverfahren für welchen Baustellen-Zweck?"
           lead="Die baulichen Gegebenheiten und Platzverhältnisse entscheiden über die Wahl der Technik."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Heizelementmuffenschweißen (Der Standard)",
-              description: "Der absolute Allrounder für die Dimensionen DN 16 bis DN 125. PP-R Rohr und Fitting werden gleichzeitig manuell auf einem teflonbeschichteten Heizdorn auf 260°C erwärmt und ineinandergefügt. Extrem kostengünstig und pfeilschnell bei der freien Vorfertigung an der Werkbank.",
-              icon: <Hammer className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Heizwendelschweißen (Der Problemlöser)",
-              description: "Die Elektromuffe für schwer zugängliche Bereiche. Ein im Fitting eingegossener Widerstandsdraht übernimmt das Aufschmelzen von innen. Unverzichtbar bei Reparaturen im engen Schacht, unter der Decke oder bei den finalen Verbindungsnähten starrer Rohrstränge.",
-              icon: <Zap className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Stumpfschweißen (Die Großrohr-Lösung)",
-              description: "Eingesetzt ab Dimension DN 160. Es werden keine Fittings benötigt. Die massiven Rohrenden werden plangefräst, an einem Heizspiegel erwärmt und mithilfe vollautomatisierter Hydraulikmaschinen exakt aneinandergedrückt.",
-              icon: <Settings className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Heizelementmuffenschweißen (Der Standard)"
+            description="Der absolute Allrounder für die Dimensionen DN 16 bis DN 125. PP-R Rohr und Fitting werden gleichzeitig manuell auf einem teflonbeschichteten Heizdorn auf 260°C erwärmt und ineinandergefügt. Extrem kostengünstig und pfeilschnell bei der freien Vorfertigung an der Werkbank."
+            icon={<Hammer className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Heizwendelschweißen (Der Problemlöser)"
+            description="Die Elektromuffe für schwer zugängliche Bereiche. Ein im Fitting eingegossener Widerstandsdraht übernimmt das Aufschmelzen von innen. Unverzichtbar bei Reparaturen im engen Schacht, unter der Decke oder bei den finalen Verbindungsnähten starrer Rohrstränge."
+            icon={<Zap className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Stumpfschweißen (Die Großrohr-Lösung)"
+            description="Eingesetzt ab Dimension DN 160. Es werden keine Fittings benötigt. Die massiven Rohrenden werden plangefräst, an einem Heizspiegel erwärmt und mithilfe vollautomatisierter Hydraulikmaschinen exakt aneinandergedrückt."
+            icon={<Settings className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepMatrix: Heizwendel vs. Muffenschweißen */}

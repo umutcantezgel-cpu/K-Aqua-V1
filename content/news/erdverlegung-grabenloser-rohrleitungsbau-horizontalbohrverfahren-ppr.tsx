@@ -5,7 +5,7 @@ import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
 import { Reveal } from "@/components/ui/Reveal";
@@ -113,28 +113,24 @@ export const erdverlegungGrabenlos: NewsPost = {
           title="Die entscheidenden Materialvorteile von PP-R"
           lead="Nicht jedes Rohr übersteht die mechanischen Extrembelastungen tief unter der Erde."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Totale Längskraftschlüssigkeit",
-              description: "Die Heizelement-Stumpfschweißung oder Heizwendelschweißung verbindet die Rohre auf molekularer Ebene. Es gibt keine mechanischen Schwachstellen. Der Strang hält den gigantischen Zugkräften der HDD-Maschine mühelos stand.",
-              icon: <TrendingUp className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Kaltbiegeflexibilität im Erdreich",
-              description: "Bohrkanäle verlaufen niemals exakt gerade. PP-R Rohre lassen sich aufgrund ihrer Materialstruktur kalt biegen (Biegeradien abhängig von Außendurchmesser und Temperatur) und folgen den Kurven des Bohrkanals ohne übermäßige Spannungen.",
-              icon: <Route className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Immunität gegen Punktlasten",
-              description: "Wenn sich nach der Installation Steine im Erdreich gegen das Rohr drücken, führen diese Punktlasten bei starren Rohren oft zum Bruch. PP-R kann solche Belastungen durch viskoelastische Verformung (Kriechen) spannungsfrei abbauen.",
-              icon: <ShieldCheck className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Totale Längskraftschlüssigkeit"
+            description="Die Heizelement-Stumpfschweißung oder Heizwendelschweißung verbindet die Rohre auf molekularer Ebene. Es gibt keine mechanischen Schwachstellen. Der Strang hält den gigantischen Zugkräften der HDD-Maschine mühelos stand."
+            icon={<TrendingUp className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Kaltbiegeflexibilität im Erdreich"
+            description="Bohrkanäle verlaufen niemals exakt gerade. PP-R Rohre lassen sich aufgrund ihrer Materialstruktur kalt biegen (Biegeradien abhängig von Außendurchmesser und Temperatur) und folgen den Kurven des Bohrkanals ohne übermäßige Spannungen."
+            icon={<Route className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Immunität gegen Punktlasten"
+            description="Wenn sich nach der Installation Steine im Erdreich gegen das Rohr drücken, führen diese Punktlasten bei starren Rohren oft zum Bruch. PP-R kann solche Belastungen durch viskoelastische Verformung (Kriechen) spannungsfrei abbauen."
+            icon={<ShieldCheck className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepMatrix: Offen vs Grabenlos */}

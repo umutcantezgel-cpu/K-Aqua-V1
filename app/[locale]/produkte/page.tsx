@@ -73,8 +73,7 @@ export default async function ProduktePage({ params }: Props) {
     <NextIntlClientProvider messages={pick(messages, ['catalog'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
-      <div className="sr-only">{tProducts("title1")}</div>
-      <div className="sr-only">{meta[0]}</div>
+
 
       {/* 5. Legacy Range System & Data Tables (Original Requirement) */}
       <section className="py-24 bg-background">
@@ -91,7 +90,7 @@ export default async function ProduktePage({ params }: Props) {
                 {t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}
               </p>
               <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
-                <span className="sr-only">{t("sysTitle")}{t.has("seoH1") ? t("seoH1") : "K-Aqua Produkte: Premium PP-R Rohrsysteme, Formteile und Armaturen"}</span>
+
                 {t("sysLead")}
               </p>
             </div>
