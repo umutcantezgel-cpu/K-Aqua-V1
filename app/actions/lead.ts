@@ -22,6 +22,11 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
   const interest = String(formData.get("interest") || "");
   const page = String(formData.get("page") || "fallback");
 
+  // Optionale Felder des mehrstufigen Formulars (/kontakt)
+  const name = String(formData.get("name") || "").trim();
+  const company = String(formData.get("company") || "").trim();
+  const message = String(formData.get("message") || "").trim();
+
   if (!phoneRaw) return { ok: false, error: "phone" };
   if (!/.+@.+\..+/.test(email)) return { ok: false, error: "email" };
 
@@ -31,6 +36,9 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
     phone,
     email,
     interest,
+    ...(name && { name }),
+    ...(company && { firma: company }),
+    ...(message && { nachricht: message }),
     quellSeite: page,
     pfad: h.get("referer") || "",
     sprache: h.get("accept-language")?.split(",")[0] || "",
@@ -54,8 +62,11 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
   const htmlBody = `
     <h2>Neue Anfrage über k-aqua.de</h2>
     <p><strong>Interesse:</strong> ${esc(interest || "Kontakt")}</p>
+    ${name ? `<p><strong>Name:</strong> ${esc(name)}</p>` : ""}
+    ${company ? `<p><strong>Firma:</strong> ${esc(company)}</p>` : ""}
     <p><strong>Telefon:</strong> <a href="tel:${esc(cleanPhone)}">${esc(phone)}</a></p>
     <p><strong>E-Mail:</strong> <a href="mailto:${esc(email)}">${esc(email)}</a></p>
+    ${message ? `<hr /><p><strong>Nachricht:</strong></p><p>${esc(message).replace(/\n/g, "<br />")}</p>` : ""}
     <hr />
     <p><strong>Quellseite:</strong> ${esc(page)}</p>
     <p><strong>Pfad:</strong> ${esc(lead.pfad)}</p>

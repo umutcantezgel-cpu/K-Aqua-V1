@@ -73,14 +73,12 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: [
-      'lucide-react', 
-      'motion', 
+      'lucide-react',
+      'motion',
       'motion/react',
-      'recharts',
       'framer-motion',
       'three',
-      '@react-three/fiber',
-      '@react-three/drei'
+      '@react-three/fiber'
     ],
   },
   eslint: {

@@ -1,14 +1,25 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Check, ChevronRight, ChevronLeft, Send, Phone, Wrench, MessageSquare, Building2, User, Mail } from "lucide-react";
+import { submitLead } from "@/app/actions/lead";
+
+// Ordnet die Auswahl aus Schritt 1 den kanonischen CRM-Interessenwerten zu
+// (identisch mit INTERESSEN in content/kontakt-bloecke.ts).
+const INTEREST_BY_INQUIRY: Record<string, string> = {
+  sales: "Rohrsysteme",
+  tech: "Beratung",
+  other: "Beratung",
+};
 
 interface MultiStepContactFormProps {
   locale: string;
 }
 
-const DICTIONARY: Record<string, Record<string, string>> = {
+type FormLang = "de" | "en" | "ar";
+
+const DICTIONARY: Record<FormLang, Record<string, string>> = {
   de: {
     step1Title: "Wie können wir Ihnen helfen?",
     step1Desc: "Wählen Sie den passenden Bereich für Ihr Anliegen.",
@@ -36,7 +47,9 @@ const DICTIONARY: Record<string, Record<string, string>> = {
     btnNext: "Weiter",
     btnBack: "Zurück",
     btnSubmit: "Anfrage Senden",
+    btnSending: "Wird gesendet…",
     btnHome: "Zurück zur Startseite",
+    sendError: "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an: +49 (0)60 85 / 9868-410",
   },
   en: {
     step1Title: "How can we help you?",
@@ -65,7 +78,9 @@ const DICTIONARY: Record<string, Record<string, string>> = {
     btnNext: "Next",
     btnBack: "Back",
     btnSubmit: "Submit Inquiry",
+    btnSending: "Sending…",
     btnHome: "Return to Homepage",
+    sendError: "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410",
   },
   ar: {
     step1Title: "كيف يمكننا مساعدتك؟",
@@ -94,16 +109,21 @@ const DICTIONARY: Record<string, Record<string, string>> = {
     btnNext: "التالي",
     btnBack: "رجوع",
     btnSubmit: "إرسال الاستفسار",
+    btnSending: "جارٍ الإرسال…",
     btnHome: "العودة للصفحة الرئيسية",
+    sendError: "تعذّر الإرسال. يرجى المحاولة مرة أخرى أو الاتصال بنا مباشرة: ‎+49 (0)60 85 / 9868-410",
   }
 };
 
 export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
-  const lang = (locale === "de" || locale === "en" || locale === "ar") ? locale : "en";
-  const dict = DICTIONARY[lang] || DICTIONARY.en;
+  const lang: FormLang = (locale === "de" || locale === "en" || locale === "ar") ? locale : "en";
+  const dict = DICTIONARY[lang];
   const isRtl = lang === "ar";
 
   const [step, setStep] = useState(1);
+  const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState(false);
+  const started = useRef(Date.now());
   const [formData, setFormData] = useState({
     inquiryType: "",
     message: "",
@@ -125,12 +145,29 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
     if (step > 1) setStep(step - 1);
   };
 
-  const submitForm = (e: React.FormEvent) => {
+  const submitForm = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate API call
-    setTimeout(() => {
+    if (sending) return;
+    setSending(true);
+    setSendError(false);
+
+    const fd = new FormData();
+    fd.set("phone", formData.phone);
+    fd.set("email", formData.email);
+    fd.set("name", formData.name);
+    fd.set("company", formData.company);
+    fd.set("message", formData.message);
+    fd.set("interest", INTEREST_BY_INQUIRY[formData.inquiryType] ?? "Beratung");
+    fd.set("page", "kontakt");
+    fd.set("startedAt", String(started.current));
+
+    const res = await submitLead(fd);
+    setSending(false);
+    if (res.ok) {
       setStep(4);
-    }, 600);
+    } else {
+      setSendError(true);
+    }
   };
 
   // Variants for animation
@@ -309,8 +346,9 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
                   <label className="text-sm font-bold text-muted-foreground flex items-center gap-2">
                     <Phone className="w-4 h-4" /> {dict.phoneLabel}
                   </label>
-                  <input 
-                    type="tel" 
+                  <input
+                    type="tel"
+                    required
                     className="w-full p-4 bg-background border-2 border-card-border focus:border-primary rounded-xl text-foreground focus:outline-none focus:ring-4 focus:ring-primary/10 transition-all"
                     value={formData.phone}
                     onChange={(e) => updateForm("phone", e.target.value)}
@@ -341,6 +379,15 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
           )}
         </AnimatePresence>
 
+        {sendError && step === 3 && (
+          <div
+            role="alert"
+            className="mt-6 rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-3 text-sm font-semibold text-red-600 dark:text-red-400"
+          >
+            {dict.sendError}
+          </div>
+        )}
+
         {/* Footer Navigation */}
         {step > 1 && step < 4 && (
           <div className="mt-10 flex items-center justify-between border-t border-card-border pt-6">
@@ -362,13 +409,13 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
                 {isRtl ? <ChevronLeft className="w-5 h-5" /> : <ChevronRight className="w-5 h-5" />}
               </button>
             ) : (
-              <button 
+              <button
                 onClick={submitForm}
-                disabled={!formData.name.trim() || !formData.email.trim()}
+                disabled={sending || !formData.name.trim() || !formData.email.trim() || !formData.phone.trim()}
                 className="px-8 py-3 rounded-xl font-bold bg-primary text-primary-foreground hover:bg-primary-hover shadow-lg shadow-primary/25 transition-all flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Send className="w-5 h-5" />
-                {dict.btnSubmit}
+                {sending ? dict.btnSending : dict.btnSubmit}
               </button>
             )}
           </div>

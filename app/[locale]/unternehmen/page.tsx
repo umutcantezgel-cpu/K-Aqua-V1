@@ -45,7 +45,7 @@ export default async function UnternehmenPage({ params }: Props) {
   const tMeta = await getTranslations({ locale, namespace: "about.meta" });
   const metaTitle = tMeta("title");
 
-  const cards = t.raw("cards") as PolicyItem[];
+  const cards = t.raw("cards") as { t: string; d: string }[];
   const points = t.raw("points") as string[];
 
   const messages = await getMessages();
