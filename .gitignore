@@ -16,13 +16,12 @@ next-env.d.ts
 *.pem
 Thumbs.db
 
-# debug
+# debug / logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-dev-server.log
-next-server.log
+*.log
 
 # env
 .env*.local
@@ -43,74 +42,68 @@ next-server.log
 
 # vercel
 .vercel
-scratch/
-server.log
-build_output.log
 
-*.mp4
+# ---------------------------------------------------------------------------
+# Generierungs-/Scratch-Artefakte
+#
+# Hintergrund: Das Repo enthielt ~3.000 Dump- und Skriptdateien aus früheren
+# KI-Generierungsläufen. Die Regeln unten fangen typische Muster ab, BEVOR sie
+# eingecheckt werden. Wichtig: .gitignore wirkt nur auf noch nicht getrackte
+# Dateien — bereits getrackte müssen mit `git rm --cached` entfernt werden.
+# ---------------------------------------------------------------------------
 
-# one-off scripts — never commit temp utility scripts
-fix_*.js
-get_*.js
-check_*.js
-compare*.js
-list_*.js
-find_*.js
-print_*.js
-extract_*.js
-generate_*.js
-update_*.js
-patch_*.js
-inject_*.js
-repair_*.js
-make_*.js
-split.js
-count.js
-format.js
-combine.js
-batch_*.js
-append_*.js
-align_*.js
-apply_*.js
-assemble*.js
-deep_merge.js
-fill_*.js
-finish.js
-force_*.js
-chunker.js
-translate*.js
-# Python utility scripts
-*.py
-!scripts/*.py
+# Einmal-Skripte im Repo-Root (echte Skripte gehören nach scripts/)
+/*.js
+/*.py
+/*.mjs
+/*.cjs
+!/eslint.config.mjs
+!/postcss.config.mjs
 
-# data dumps
-*.patch
-missing_*.json
-*_chunks_*.json
-de_*.json
-page.html
+# Daten-Dumps und Zwischenstände im Repo-Root
+/*.txt
+/*.json
+/*.jsonl
+/*.html
+/*.part
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/components.json
 
-# export prototypes
-export-*/
+# Videos gehören nach public/videos/ (die sind getrackt und werden ausgeliefert).
+# Streuner in public/images/ nicht committen — dort liegt u. a. eine 146-MB-Datei,
+# die von keiner Seite referenziert wird.
+public/images/**/*.mp4
 
-# agent logs (keep AGENTS.md via negation)
-.agents/*/
+# Scratch-Ordner
+/scratch/
+/scratch_chunks/
+/temp_de_chunks/
+/tmp/
+/export-*/
+/.agents/
 
-# Internal documents — never ship or commit
+# Interne Dokumente — niemals ausliefern oder committen
 docs/confidential/
 
-# All locales are tracked for deployment
-/messages/seo/*
-!/messages/seo/de
-!/messages/seo/en
-!/messages/seo/ar
-
-
-# scratch files
-messages/*.json
-!messages/de.json
-!messages/en.json
-!messages/ar.json
-
-dev*.log
-homepage.html
+# ---------------------------------------------------------------------------
+# messages/: ALLE Sprachdateien werden getrackt (Deployment braucht sie).
+# Nur Generierungs-Artefakte innerhalb von messages/ werden ignoriert.
+# (Die frühere Regel `messages/*.json` mit Ausnahmen nur für de/en/ar hätte
+#  jede neu angelegte Sprachdatei stillschweigend vom Commit ausgeschlossen —
+#  die Seite wäre im Deployment unbemerkt auf Englisch zurückgefallen.)
+# ---------------------------------------------------------------------------
+messages/*.js
+messages/*.py
+messages/*.txt
+messages/*.sh
+messages/*.bak
+messages/*.jsonl
+messages/batch*.json
+messages/chunk*.json
+messages/tmp_*.json
+messages/temp_*.json
+messages/scratch_*.json
+messages/*_temp*.json
+messages/*_part*.json

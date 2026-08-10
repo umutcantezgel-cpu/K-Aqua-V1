@@ -39,11 +39,15 @@ const eslintConfig = [
   },
   {
     ignores: [
-      'prototype/**',
       '.next/**',
       'node_modules/**',
+      'out/**',
+      'build/**',
       'scripts/**',
-      'kaqua-antigravity 6/**',
+      // Statische Assets: enthält vendorte Drittanbieter-Decoder
+      // (Draco, Basis) — minifiziert, nicht unser Code.
+      'public/**',
+      'docs/**',
       'components/tools/co2-dashboard/**',
       'lib/co2-*.ts',
       'components/ui/WaterCursor.tsx'
