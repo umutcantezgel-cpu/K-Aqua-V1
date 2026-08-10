@@ -77,6 +77,7 @@ export default async function LocaleLayout({
     'footer',
     'kontaktBlocks',
     'kontaktForm',
+    'enterprise',
     'seoExpansion'
   ]);
 
