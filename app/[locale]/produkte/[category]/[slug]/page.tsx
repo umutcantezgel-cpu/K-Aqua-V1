@@ -251,7 +251,7 @@ export default async function ProductDetailPage({
   return (
     <NextIntlClientProvider messages={pick(messages, ['common', 'nav'])}>
       <main className="flex flex-col w-full min-h-screen bg-background">
-      <div className="sr-only">{exactSeoTitle}</div>
+
       <JsonLd schema={[schema, breadcrumb]} />
       {/* 1. HERO SECTION (PREMIUM) */}
       <section className="relative overflow-hidden py-24 lg:py-32 border-b border-card-border bg-gradient-to-b from-background to-background-subtle">
@@ -271,9 +271,7 @@ export default async function ProductDetailPage({
               </Reveal>
               <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance mt-4 mb-2 animate-reveal">
                 {localizedTitle}
-                <span className="sr-only">
-                  {locale === 'de' ? ' für PP-R/PP-RCT Rohrsysteme & Fittings' : locale === 'ar' ? ' لأنظمة أنابيب وتجهيزات PP-R/PP-RCT' : ' for PP-R/PP-RCT Piping Systems & Fittings'}
-                </span>
+
               </h1>
               <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6 animate-reveal">
                 {dynamicSeoH1}

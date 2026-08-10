@@ -38,7 +38,7 @@ export const warumPpr: NewsPost = {
               <Thermometer className="w-64 h-64" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die Wissenschaft der Langlebigkeit" className="mb-6 text-primary" />
+              <Eyebrow className="mb-6 text-primary">Die Wissenschaft der Langlebigkeit</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
                 Wenn man heute eine moderne Großbaustelle betritt, fallen sofort die markanten Rohrleitungen ins Auge. Der Werkstoff, aus dem diese technologischen Meisterwerke gefertigt sind, nennt sich Polypropylen Random Copolymer. Um dessen Erfolg zu verstehen, ist ein Blick auf die PPR Materialkunde und ihre Grundlagen unerlässlich. Doch wie wurde aus einem einstigen Nebenprodukt der Erdölförderung der wohl wichtigste Kunststoff für die globale Wasserinstallation? Eine faszinierende Reise durch die moderne Chemie und den unbedingten Willen zur Perfektion.
               </p>
@@ -51,7 +51,7 @@ export const warumPpr: NewsPost = {
       <section className="py-8">
         <Reveal>
           <div className="text-center mb-8">
-            <Eyebrow text="Die physikalischen Grenzen verschoben" />
+            <Eyebrow>Die physikalischen Grenzen verschoben</Eyebrow>
           </div>
           <StatBand 
             stats={[
@@ -68,7 +68,7 @@ export const warumPpr: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Molekulare Architektur" />
+            <Eyebrow>Molekulare Architektur</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Vom nutzlosen Gas zum Hightech Kunststoff
             </h2>
@@ -99,7 +99,7 @@ export const warumPpr: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Ein neues Zeitalter der Installation" />
+            <Eyebrow>Ein neues Zeitalter der Installation</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Physikalische Überlegenheit gegenüber Metall
             </h2>
@@ -200,7 +200,7 @@ export const warumPpr: NewsPost = {
             <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mb-6">
               <Recycle className="w-10 h-10 text-green-500" />
             </div>
-            <Eyebrow text="Gelebte Kreislaufwirtschaft" className="text-green-500 mb-4" />
+            <Eyebrow className="text-green-500 mb-4">Gelebte Kreislaufwirtschaft</Eyebrow>
             <h2 className="text-3xl font-extrabold font-heading text-foreground mb-6">
               Grüne Industrie ohne Kompromisse
             </h2>

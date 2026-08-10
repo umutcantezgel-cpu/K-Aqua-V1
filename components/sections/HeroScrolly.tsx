@@ -149,7 +149,7 @@ export default function HeroScrolly() {
           <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
             {t('lead')}
           </p>
-          <p className="sr-only" aria-hidden="true">{t('h1a')} {t('h1b')}</p>
+
         </Reveal>
         <Reveal delay={0.24}>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">

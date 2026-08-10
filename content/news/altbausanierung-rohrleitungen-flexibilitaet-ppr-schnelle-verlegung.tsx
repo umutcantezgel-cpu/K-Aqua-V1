@@ -115,17 +115,14 @@ export const altbausanierungFlexibilitaet: NewsPost = {
               {
                 title: "Phase 1: Demontage & Bestandsaufnahme",
                 description: "Nachdem alte Bleirohre oder stark korrodierte, inkrustierte verzinkte Stahlrohre entfernt wurden, offenbaren die geöffneten Schächte oft unregelmäßige Maße und unvorhergesehene Hindernisse. Hier spielt Polypropylen (PP-R) seine strukturelle Flexibilität bei der Neuplanung der Rohrtrassen voll aus. Installateure können Leitungspfade anpassen, ohne auf starre Winkelstücke angewiesen zu sein.",
-                icon: <Wrench className="w-8 h-8 text-primary" />
               },
               {
                 title: "Phase 2: Die Steigleitungserneuerung",
                 description: "Das geringe Eigengewicht ermöglicht es, auch längere Rohrsegmente problemlos vertikal in den engen Schacht einzuführen. Ein massiver technologischer Vorteil ist die Vorfertigung (Prefabrication): Komplette Steigstrang-Verteiler können außerhalb des Schachts in einer sauberen Umgebung vorgeschweißt und dann als komplette Baugruppe eingesetzt werden. Das spart extrem viel Zeit in der kritischen Bauphase.",
-                icon: <Link className="w-8 h-8 text-primary" />
               },
               {
                 title: "Phase 3: Etagenanbindung & homogene Verschweißung",
                 description: "Auf der Etage, im Bereich der Wohnungsstationen oder Unterverteilungen, ist der Platz meist am knappsten. Die kompakten K Aqua Schweißwerkzeuge erlauben auch Verbindungen in sehr engen Vorwandinstallationen oder abgehängten Decken. Da Rohr und Fitting durch das Heizelement-Muffenschweißen zu einer untrennbaren, homogenen Einheit verschmelzen, gibt es keine Dichtringe, die altern, aushärten oder undicht werden können. Die Verbindung ist molekular absolut sicher.",
-                icon: <Hammer className="w-8 h-8 text-primary" />
               }
             ]}
           />

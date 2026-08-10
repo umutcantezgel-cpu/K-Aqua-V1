@@ -75,11 +75,7 @@ export default async function ProjektanfragePage({ params }: Props) {
   return (
     <>
       <JsonLd schema={jsonLd} />
-      <div className="sr-only">
-        <p>{rfqData.eyebrow}</p>
-        <p>{rfqData.title1} {rfqData.titleGrad}</p>
-        <p>{rfqData.lead}</p>
-      </div>
+
       <div className="flex flex-col w-full min-h-screen bg-background">
         <RfqWizard rfqData={rfqData} />
 

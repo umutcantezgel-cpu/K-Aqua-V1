@@ -38,9 +38,9 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
           title={<>Der Standard für das <br className="hidden md:block"/>wichtigste Lebensmittel</>}
           description="In der technischen Gebäudeausrüstung (TGA) entscheidet das Rohrleitungssystem über die Reinheit des Trinkwassers. K Aqua übertrifft die gesetzlichen Anforderungen der DVGW und internationaler Prüfinstitute um ein Vielfaches."
         >
-          <Chip icon={Shield} text="DVGW Zertifiziert" variant="primary" />
-          <Chip icon={Globe} text="KIWA / WRAS Zulassungen" variant="primary" />
-          <Chip icon={Check} text="Halogenfrei" variant="primary" />
+          <Chip><Shield className="w-4 h-4 mr-1" /> DVGW Zertifiziert</Chip>
+          <Chip><Globe className="w-4 h-4 mr-1" /> KIWA / WRAS Zulassungen</Chip>
+          <Chip><Check className="w-4 h-4 mr-1" /> Halogenfrei</Chip>
         </ParallaxHero>
       </section>
 
@@ -49,7 +49,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
         <Reveal>
           <div className="flex flex-col gap-12 w-full">
             <div>
-              <Eyebrow text="Weltweite Anerkennung" />
+              <Eyebrow>Weltweite Anerkennung</Eyebrow>
               <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground mb-6">
                 Grenzenlose Sicherheit
               </h2>
@@ -100,7 +100,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
       <section className="mt-8">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Die ungeschönte Wahrheit" />
+            <Eyebrow>Die ungeschönte Wahrheit</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Gesetzliche Grenzwerte im Vergleich
             </h2>

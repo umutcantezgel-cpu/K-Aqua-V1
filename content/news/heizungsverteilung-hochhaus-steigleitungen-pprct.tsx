@@ -109,18 +109,15 @@ export const heizungsverteilungHochhaus: NewsPost = {
             items={[
               {
                 title: "Die Technikzentrale (Keller)",
-                description: "Hier herrscht der höchste statische Druck der gesamten Wassersäule. K Aqua Rohre mit hohem SDR (z.B. SDR 7.4) und Glasfaserverstärkung halten selbst enormen Systemdrücken in Highrisegebäuden mühelos stand.",
-                icon: <Activity className="w-8 h-8 text-primary" />
+                description: "Hier herrscht der höchste statische Druck der gesamten Wassersäule. K Aqua Rohre mit hohem SDR (z.B. SDR 7.4) und Glasfaserverstärkung halten selbst enormen Systemdrücken in Highrisegebäuden mühelos stand."
               },
               {
                 title: "Der Steigschacht (Vertikal)",
-                description: "Auf dem Weg nach oben muss die thermische Längenänderung (Ausdehnung bei Heizwasser) kontrolliert werden. Durch fachgerecht berechnete Dehnungsbögen (Ubögen) und Festpunkte nimmt das Rohr die Dehnung geräuschlos auf.",
-                icon: <ArrowUpRight className="w-8 h-8 text-primary" />
+                description: "Auf dem Weg nach oben muss die thermische Längenänderung (Ausdehnung bei Heizwasser) kontrolliert werden. Durch fachgerecht berechnete Dehnungsbögen (Ubögen) und Festpunkte nimmt das Rohr die Dehnung geräuschlos auf."
               },
               {
                 title: "Die Etagenverteilung (Horizontal)",
-                description: "In den einzelnen Stockwerken erfolgt der Abzweig vom Steigstrang zu den Heizkreisverteilern der Wohnungen. Die einfache und sichere Verschweißung per Heizwendelmuffe oder Stumpfschweißung ermöglicht einen schnellen Baufortschritt.",
-                icon: <Building2 className="w-8 h-8 text-primary" />
+                description: "In den einzelnen Stockwerken erfolgt der Abzweig vom Steigstrang zu den Heizkreisverteilern der Wohnungen. Die einfache und sichere Verschweißung per Heizwendelmuffe oder Stumpfschweißung ermöglicht einen schnellen Baufortschritt."
               }
             ]}
           />

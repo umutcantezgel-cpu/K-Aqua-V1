@@ -39,7 +39,7 @@ export const schweisstechnikSicherheit: NewsPost = {
               <Flame className="w-64 h-64 text-red-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die thermische Fusion" className="mb-6 text-red-500" />
+              <Eyebrow className="mb-6 text-red-500">Die thermische Fusion</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
                 In der klassischen Gebäudeinstallation ist der Übergang zwischen zwei Rohren immer der kritischste Punkt. Wo Gewinde geschnitten, Gummidichtungen eingepresst oder Kleber aufgetragen werden, entstehen zwangsläufig Schwachstellen. K Aqua PPR Rohrsysteme setzen deshalb auf maximale Schweißtechnik Sicherheit und gehen einen fundamental anderen Weg: Durch kontrollierte thermische Verschmelzung verbinden sich die Kunststoffmoleküle untrennbar miteinander.
               </p>

@@ -88,17 +88,14 @@ export const klimaanlagenKuehldecken: NewsPost = {
               {
                 title: "Das Taupunktproblem im Kern",
                 description: "Sobald die Oberflächentemperatur eines ungedämmten Rohres den Taupunkt der Umgebungsluft unterschreitet, kondensiert zwangsläufig Luftfeuchtigkeit. Wasser sammelt sich auf dem Rohr und tropft unkontrolliert ab. Bei metallischen Systemen führt jede noch so kleine Lücke in der Dampfsperre unweigerlich zu irreparabel durchfeuchteter Dämmung.",
-                icon: <Droplet className="w-8 h-8 text-primary" />
               },
               {
                 title: "Keine Korrosion (CUI). Niemals.",
                 description: "PPRCT (Polypropylen-Random-Copolymer mit erhöhter Temperaturbeständigkeit) ist ein chemisch absolut inerter Kunststoff. Selbst wenn zentimeterdick Schwitzwasser entsteht, kann das Rohr nicht rosten. Das extrem gefürchtete und kostspielige Phänomen der Korrosion unter der Dämmung existiert bei K-Aqua schlichtweg nicht.",
-                icon: <Shield className="w-8 h-8 text-primary" />
               },
               {
                 title: "Dämmdicke drastisch reduzieren",
                 description: "Kunststoff isoliert von Natur aus hervorragend. Mit einer Wärmeleitfähigkeit von nur 0,24 W/mK ist PPRCT extrem thermisch träge. Die Folge: Um den Taupunkt in der Decke nicht zu unterschreiten, benötigen Sie bei K-Aqua Rohrnetzen deutlich weniger Dämmstoffdicke, was enge Schachtbelegungen rettet.",
-                icon: <Thermometer className="w-8 h-8 text-primary" />
               }
             ]}
           />

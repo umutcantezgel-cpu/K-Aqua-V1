@@ -40,7 +40,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
               <Droplet className="w-64 h-64" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die unsichtbare Gefahr im Leitungsnetz" className="mb-6 text-primary" />
+              <Eyebrow className="mb-6 text-primary">Die unsichtbare Gefahr im Leitungsnetz</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance mb-6">
                 Trinkwasser ist unser mit Abstand wertvollstes Lebensmittel. Die Wasserwerke liefern es in Deutschland und den meisten Teilen Europas in nahezu perfekter, keimfreier Qualität bis exakt an die Grundstücksgrenze (Wasserzähler). 
               </p>
@@ -56,7 +56,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Das Biotop im alten Metallrohr" />
+            <Eyebrow>Das Biotop im alten Metallrohr</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Wie gefährlicher Biofilm in Rohrleitungen entsteht
             </h2>
@@ -107,7 +107,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Die technologische Antwort" />
+            <Eyebrow>Die technologische Antwort</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Die drei Säulen der PP-R Hygiene
             </h2>
@@ -138,7 +138,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Kritische Infrastrukturen schützen" />
+            <Eyebrow>Kritische Infrastrukturen schützen</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Kompromisslose Hygiene in sensiblen Gebäuden
             </h2>

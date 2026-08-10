@@ -2,7 +2,7 @@ import React from "react";
 import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
@@ -62,28 +62,24 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
           title="Warum PPR die Industriekühlung revolutioniert"
           lead="Ökologische und physikalische Vorteile für offene und geschlossene Kühlkreisläufe."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Keine toxischen Inhibitoren",
-              description: "Da Kunststoffrohre immun gegen elektrochemische Korrosion sind, benötigt das Kühlwasser keine schützenden, umweltschädlichen ChemikalienCocktails mehr.",
-              icon: <Leaf className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Extreme Chemikalienbeständigkeit",
-              description: "Selbst wenn das Kühlwasser durch industrielle Prozesse leicht sauer oder alkalisch wird, bleibt K Aqua PPR chemisch stabil und zersetzt sich nicht.",
-              icon: <TestTube className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Weniger Schwitzwasser",
-              description: "Der natürliche Isolationswert (geringe Wärmeleitfähigkeit) von PPR reduziert die Kondensatbildung an der Rohraußenseite deutlich im Vergleich zu ungedämmtem Metall.",
-              icon: <Droplets className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Keine toxischen Inhibitoren"
+            description="Da Kunststoffrohre immun gegen elektrochemische Korrosion sind, benötigt das Kühlwasser keine schützenden, umweltschädlichen ChemikalienCocktails mehr."
+            icon={<Leaf className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Extreme Chemikalienbeständigkeit"
+            description="Selbst wenn das Kühlwasser durch industrielle Prozesse leicht sauer oder alkalisch wird, bleibt K Aqua PPR chemisch stabil und zersetzt sich nicht."
+            icon={<TestTube className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Weniger Schwitzwasser"
+            description="Der natürliche Isolationswert (geringe Wärmeleitfähigkeit) von PPR reduziert die Kondensatbildung an der Rohraußenseite deutlich im Vergleich zu ungedämmtem Metall."
+            icon={<Droplets className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepMatrix: Kühlwasserkreisläufe im Vergleich */}

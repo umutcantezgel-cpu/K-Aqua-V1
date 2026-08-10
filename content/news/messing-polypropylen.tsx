@@ -33,7 +33,7 @@ export const messingPolypropylen: NewsPost = {
               <Handshake className="w-64 h-64" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die Verbindung zweier Welten" className="mb-6 text-primary" />
+              <Eyebrow className="mb-6 text-primary">Die Verbindung zweier Welten</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance mb-6">
                 Kaum ein großes Bauprojekt startet heutzutage komplett auf der sprichwörtlichen grünen Wiese. Besonders bei der Modernisierung historischer Gebäude oder der Erweiterung bestehender Industrieanlagen trifft modernste Kunststofftechnik unweigerlich auf alte, historisch gewachsene Bestandsleitungen aus metallischen Werkstoffen. 
               </p>
@@ -49,7 +49,7 @@ export const messingPolypropylen: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Das Problem der Sanierung" />
+            <Eyebrow>Das Problem der Sanierung</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Der kritische Moment des Systemwechsels
             </h2>
@@ -100,7 +100,7 @@ export const messingPolypropylen: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Materialfusion" />
+            <Eyebrow>Materialfusion</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Stoffschluss trifft Metallgewinde
             </h2>
@@ -135,7 +135,7 @@ export const messingPolypropylen: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Maschinenbau in Perfektion" />
+            <Eyebrow>Maschinenbau in Perfektion</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Die perfekte mechanische Einbettung
             </h2>
@@ -212,7 +212,7 @@ export const messingPolypropylen: NewsPost = {
         <Reveal>
           <div className="flex flex-col gap-12 w-full">
             <div>
-              <Eyebrow text="Abschnittsweise Sanierung" />
+              <Eyebrow>Abschnittsweise Sanierung</Eyebrow>
               <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 mb-6 text-foreground leading-tight">
                 Sanieren bei laufendem Betrieb
               </h2>
@@ -239,7 +239,7 @@ export const messingPolypropylen: NewsPost = {
             <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mb-6">
               <Wrench className="w-10 h-10 text-primary" />
             </div>
-            <Eyebrow text="Maximale Wartungsfreundlichkeit" className="mb-4" />
+            <Eyebrow className="mb-4">Maximale Wartungsfreundlichkeit</Eyebrow>
             <h2 className="text-3xl font-extrabold font-heading text-foreground mb-6">
               Lösbare Verschraubungen für kritische Punkte
             </h2>

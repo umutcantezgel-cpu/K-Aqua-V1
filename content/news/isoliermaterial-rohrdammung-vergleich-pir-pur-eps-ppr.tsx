@@ -2,7 +2,7 @@ import React from "react";
 import { NewsPost } from "./index";
 import { Link as NavLink } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
@@ -95,21 +95,22 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
         />
         <div className="mt-8">
           <HorizontalTimeline
-            events={[
+            title="Ablauf"
+            items={[
               {
                 year: "Vergangenheit",
                 title: "Mineralwolle",
-                description: "Günstig und brandbeständig, jedoch extrem anfällig für Feuchtigkeit. Einmal nass, verliert sie sofort ihre Dämmwirkung und fördert Schimmelbildung."
+                text: "Günstig und brandbeständig, jedoch extrem anfällig für Feuchtigkeit. Einmal nass, verliert sie sofort ihre Dämmwirkung und fördert Schimmelbildung."
               },
               {
                 year: "Standard",
                 title: "PUR (Polyurethan)",
-                description: "Geschlossenzelliger Schaum mit sehr guten Dämmwerten. Lange Zeit der Branchenstandard für werksseitig isolierte Rohre und Kältetechnik."
+                text: "Geschlossenzelliger Schaum mit sehr guten Dämmwerten. Lange Zeit der Branchenstandard für werksseitig isolierte Rohre und Kältetechnik."
               },
               {
                 year: "Modern",
                 title: "PIR (Polyisocyanurat)",
-                description: "Die Weiterentwicklung von PUR. Höhere Temperaturbeständigkeit, stark verbessertes Brandverhalten und noch niedrigere Wärmeleitfähigkeit für minimale Dämmdicken."
+                text: "Die Weiterentwicklung von PUR. Höhere Temperaturbeständigkeit, stark verbessertes Brandverhalten und noch niedrigere Wärmeleitfähigkeit für minimale Dämmdicken."
               }
             ]}
           />
@@ -139,28 +140,24 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
           title="Welcher Dämmstoff für welchen Einsatz?"
           lead="Die Wahl des Materials hängt maßgeblich vom transportierten Medium, der geforderten Brandklasse und dem Verlegeort ab."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Fernwärme & Heißwasser (PIR)",
-              description: "Durch die extrem hohe thermische Stabilität bis 150°C ist PIR der unangefochtene Sieger für Fernwärmenetze. Selbst bei temporären Temperaturspitzen zersetzt sich der Schaum nicht und bietet maximalen Brandschutz.",
-              icon: <Thermometer className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Kältemaschinen & Klimawasser (PUR)",
-              description: "Hier kommt es primär auf eine geschlossenzellige Struktur an, um das Eindringen von Luftfeuchtigkeit (und damit unweigerliche Eisbildung) zu verhindern. PUR bietet hierfür den perfekten Kostennutzenfaktor bei hervorragender Leistung.",
-              icon: <ShieldCheck className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Frostschutz im Erdreich (EPS)",
-              description: "EPS (Styropor) wird oft als günstige Variante für Abwasser- oder Kaltwasserleitungen im Erdreich genutzt, wo die Temperaturen moderat sind, keine Brandgefahr besteht und keine aggressive Kondensatbildung droht.",
-              icon: <Box className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Fernwärme & Heißwasser (PIR)"
+            description="Durch die extrem hohe thermische Stabilität bis 150°C ist PIR der unangefochtene Sieger für Fernwärmenetze. Selbst bei temporären Temperaturspitzen zersetzt sich der Schaum nicht und bietet maximalen Brandschutz."
+            icon={<Thermometer className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Kältemaschinen & Klimawasser (PUR)"
+            description="Hier kommt es primär auf eine geschlossenzellige Struktur an, um das Eindringen von Luftfeuchtigkeit (und damit unweigerliche Eisbildung) zu verhindern. PUR bietet hierfür den perfekten Kostennutzenfaktor bei hervorragender Leistung."
+            icon={<ShieldCheck className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Frostschutz im Erdreich (EPS)"
+            description="EPS (Styropor) wird oft als günstige Variante für Abwasser- oder Kaltwasserleitungen im Erdreich genutzt, wo die Temperaturen moderat sind, keine Brandgefahr besteht und keine aggressive Kondensatbildung droht."
+            icon={<Box className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       <Reveal>

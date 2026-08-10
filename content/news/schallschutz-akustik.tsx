@@ -33,7 +33,7 @@ export const schallschutzAkustik: NewsPost = {
               <Moon className="w-64 h-64 text-indigo-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die Architektur der Stille" className="mb-6 text-indigo-500" />
+              <Eyebrow className="mb-6 text-indigo-500">Die Architektur der Stille</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
                 In Premiumimmobilien, Luxushotels und Krankenhäusern ist ungestörte Ruhe kein Luxus, sondern eine absolute Grundanforderung. Wenn mitten in der Nacht das Wasser in der Nachbarwohnung rauscht oder die Leitung beim Aufheizen metallisch knackt, ist die akustische Integrität des Gebäudes zerstört. Polypropylen (K Aqua PPR Rohrsysteme) besitzt einzigartige schallabsorbierende Eigenschaften, die den Lärmpegel der Hausinstallation auf ein kaum noch wahrnehmbares Minimum reduzieren.
               </p>
@@ -99,7 +99,7 @@ export const schallschutzAkustik: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Die physikalische Gegenüberstellung" />
+            <Eyebrow>Die physikalische Gegenüberstellung</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Resonanzkörper vs Absorber
             </h2>
@@ -128,7 +128,7 @@ export const schallschutzAkustik: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Die Mechanik der Ruhe" />
+            <Eyebrow>Die Mechanik der Ruhe</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Wie PPR den Schall schluckt
             </h2>
@@ -159,7 +159,7 @@ export const schallschutzAkustik: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Sensible Einsatzorte" />
+            <Eyebrow>Sensible Einsatzorte</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Wo absolute Ruhe gefordert ist
             </h2>

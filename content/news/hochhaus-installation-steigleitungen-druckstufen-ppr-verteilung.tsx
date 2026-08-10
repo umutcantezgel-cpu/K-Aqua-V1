@@ -4,7 +4,7 @@ import { Link } from "@/lib/i18n/navigation";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { StatBand } from "@/components/ui/StatBand";
@@ -132,28 +132,24 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
           title="Statik im Versorgungsschacht beherrschen"
           lead="Eine 100 Meter hohe, wassergefüllte PP-R Leitung wiegt mehrere Tonnen. So wird sie absolut sicher fixiert."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Elektroschweißmuffen als Festpunkte",
-              description: "Echte Festpunkte müssen die gesamte Gewichtskraft der Rohrleitung abfangen. Bei K-Aqua werden hierzu spezielle Elektroschweißmuffen direkt über und unter der massiven Stahlschelle formschlüssig auf das Steigrohr geschweißt. Das Rohr ist physisch blockiert und kann unter keinen Umständen mehr durch die Schelle rutschen.",
-              icon: <Link className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Gleitschellen zur sauberen Führung",
-              description: "Zwischen den starken Festpunkten (meist alle 3 bis 5 Meter platziert) wird das Rohr durch Gleitschellen geführt. Es kann sich thermisch bedingt ungehindert vertikal ausdehnen, ohne auszuknicken, was das gefährliche Ausbeulen der Steigleitung verhindert.",
-              icon: <Ruler className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Ausdehnung im Etagenabzweig",
-              description: "Die thermische Längenausdehnung der Steigleitung wird elegant in die horizontalen Etagenabzweige abgeleitet. Der Abzweig fungiert als elastischer Biegeschenkel. Ein T-Stück im Schacht muss daher zwingend mit ausreichend Freiraum montiert werden, um spannungsfrei nach oben und unten mitzuwandern.",
-              icon: <Settings className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Elektroschweißmuffen als Festpunkte"
+            description="Echte Festpunkte müssen die gesamte Gewichtskraft der Rohrleitung abfangen. Bei K-Aqua werden hierzu spezielle Elektroschweißmuffen direkt über und unter der massiven Stahlschelle formschlüssig auf das Steigrohr geschweißt. Das Rohr ist physisch blockiert und kann unter keinen Umständen mehr durch die Schelle rutschen."
+            icon={<LinkIcon className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Gleitschellen zur sauberen Führung"
+            description="Zwischen den starken Festpunkten (meist alle 3 bis 5 Meter platziert) wird das Rohr durch Gleitschellen geführt. Es kann sich thermisch bedingt ungehindert vertikal ausdehnen, ohne auszuknicken, was das gefährliche Ausbeulen der Steigleitung verhindert."
+            icon={<Ruler className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Ausdehnung im Etagenabzweig"
+            description="Die thermische Längenausdehnung der Steigleitung wird elegant in die horizontalen Etagenabzweige abgeleitet. Der Abzweig fungiert als elastischer Biegeschenkel. Ein T-Stück im Schacht muss daher zwingend mit ausreichend Freiraum montiert werden, um spannungsfrei nach oben und unten mitzuwandern."
+            icon={<Settings className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepFAQ: Fragen zur Montage */}

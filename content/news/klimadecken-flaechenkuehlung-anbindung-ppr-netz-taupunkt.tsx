@@ -2,7 +2,7 @@ import React from "react";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
@@ -95,18 +95,19 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
         />
         <div className="mt-8">
           <HorizontalTimeline
+            title="Systemkomponenten"
             items={[
               {
                 title: "1. Sehr effiziente Kälteerzeugung",
-                description: "Eine Wärmepumpe oder Kältemaschine temperiert das Wasser auf milde 16 bis 18 °C. Diese vergleichsweise hohen Systemtemperaturen (im Gegensatz zu 6 °C bei normalen Splitgeräten) sparen massiv Energie und ermöglichen Geothermie."
+                text: "Eine Wärmepumpe oder Kältemaschine temperiert das Wasser auf milde 16 bis 18 °C. Diese vergleichsweise hohen Systemtemperaturen (im Gegensatz zu 6 °C bei normalen Splitgeräten) sparen massiv Energie und ermöglichen Geothermie."
               },
               {
                 title: "2. Verteilung via sicherem PPR-Netz",
-                description: "Das verschweißte K-Aqua Rohrnetz transportiert das Kaltwasser leckagefrei durch die großen Steigeschächte in alle Stockwerke. Durch die geringe Wärmeleitfähigkeit von Kunststoff-PPR bleiben Kälteverluste auf dem Weg nach oben absolut minimal."
+                text: "Das verschweißte K-Aqua Rohrnetz transportiert das Kaltwasser leckagefrei durch die großen Steigeschächte in alle Stockwerke. Durch die geringe Wärmeleitfähigkeit von Kunststoff-PPR bleiben Kälteverluste auf dem Weg nach oben absolut minimal."
               },
               {
                 title: "3. Physikalischer Strahlungsaustausch",
-                description: "In den eleganten Deckenpaneelen zirkuliert das Wasser völlig geräuschlos. Warme Raumluft steigt auf, kühlt an der Decke ab, und fällt sanft, stetig und absolut zugfrei wie ein kühler Nebel wieder nach unten in den Aufenthaltsbereich."
+                text: "In den eleganten Deckenpaneelen zirkuliert das Wasser völlig geräuschlos. Warme Raumluft steigt auf, kühlt an der Decke ab, und fällt sanft, stetig und absolut zugfrei wie ein kühler Nebel wieder nach unten in den Aufenthaltsbereich."
               }
             ]}
           />
@@ -118,28 +119,24 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
           title="Maximaler Nutzerkomfort im Fokus"
           lead="Warum moderne Flächenkühlung das Raumklima in Büros auf ein völlig neues, gesundes Level hebt."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Absolute Stille und Kühlung ohne Zugluft",
-              description: "Da keine dröhnenden Ventilatoren laufen, ist das gesamte System im Raum absolut geräuschlos (0 dB). Es entsteht kein spürbarer Luftzug, was das massive Risiko von Sommer-Erkältungen, trockenen Augen und Nackenverspannungen bei den Mitarbeitern im Büro eliminiert.",
-              icon: <VolumeX className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Überragende Energieeffizienz",
-              description: "Durch die hohen Vorlauftemperaturen (16 °C) kann oft die kostenlose Umweltkälte (Free Cooling über tiefe Erdsonden oder kaltes Grundwasser) völlig ohne den Einsatz teurer, lauter Kompressoren genutzt werden.",
-              icon: <ThermometerSnowflake className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Maximale Architektonische Freiheit",
-              description: "Keine klobigen, unästhetischen Splitklimageräte, die an den Wänden hängen. Die gesamte komplexe Technik verschwindet völlig unsichtbar in der Akustik- oder Rasterdecke.",
-              icon: <LayoutDashboard className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Absolute Stille und Kühlung ohne Zugluft"
+            description="Da keine dröhnenden Ventilatoren laufen, ist das gesamte System im Raum absolut geräuschlos (0 dB). Es entsteht kein spürbarer Luftzug, was das massive Risiko von Sommer-Erkältungen, trockenen Augen und Nackenverspannungen bei den Mitarbeitern im Büro eliminiert."
+            icon={<VolumeX className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Überragende Energieeffizienz"
+            description="Durch die hohen Vorlauftemperaturen (16 °C) kann oft die kostenlose Umweltkälte (Free Cooling über tiefe Erdsonden oder kaltes Grundwasser) völlig ohne den Einsatz teurer, lauter Kompressoren genutzt werden."
+            icon={<ThermometerSnowflake className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Maximale Architektonische Freiheit"
+            description="Keine klobigen, unästhetischen Splitklimageräte, die an den Wänden hängen. Die gesamte komplexe Technik verschwindet völlig unsichtbar in der Akustik- oder Rasterdecke."
+            icon={<LayoutDashboard className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       <Reveal>

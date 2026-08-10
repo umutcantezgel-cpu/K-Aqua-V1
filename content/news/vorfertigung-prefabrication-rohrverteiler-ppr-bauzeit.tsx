@@ -3,7 +3,7 @@ import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { StatBand } from "@/components/ui/StatBand";
@@ -121,18 +121,22 @@ export const vorfertigungPrefabrication: NewsPost = {
         />
         <div className="mt-8">
           <HorizontalTimeline
+            title="Der digitale Workflow"
             items={[
               {
-                title: "1. 3DPlanung & BIM",
-                description: "Im ersten Schritt wird der Rohrverteiler virtuell modelliert. Alle Abgänge, Ventile und Platzverhältnisse werden am PC berechnet und in exakte Stücklisten überführt."
+                year: "01",
+                title: "3D-Planung & BIM",
+                text: "Im ersten Schritt wird der Rohrverteiler virtuell modelliert. Alle Abgänge, Ventile und Platzverhältnisse werden am PC berechnet und in exakte Stücklisten überführt."
               },
               {
-                title: "2. WerkstattSchweißung",
-                description: "Fernab von Baustellenstaub und Kälte verschweißen Spezialisten die K Aqua PPR Rohre unter perfekten klimatischen Bedingungen, oft unterstützt von stationären Schweißmaschinen."
+                year: "02",
+                title: "Werkstatt-Schweißung",
+                text: "Fernab von Baustellenstaub und Kälte verschweißen Spezialisten die K Aqua PPR Rohre unter perfekten klimatischen Bedingungen, oft unterstützt von stationären Schweißmaschinen."
               },
               {
-                title: "3. Plug & Play Montage",
-                description: "Die fertigen Baugruppen werden justintime auf die Baustelle geliefert. Vor Ort müssen nur noch wenige Anbindenähte gesetzt werden, der Rest ist bereits druckgeprüft."
+                year: "03",
+                title: "Plug & Play Montage",
+                text: "Die fertigen Baugruppen werden just-in-time auf die Baustelle geliefert. Vor Ort müssen nur noch wenige Anbindenähte gesetzt werden, der Rest ist bereits druckgeprüft."
               }
             ]}
           />
@@ -145,28 +149,24 @@ export const vorfertigungPrefabrication: NewsPost = {
           title="Warum Prefabrication?"
           lead="Der Wechsel von der Baustelle in die Werkstatt bringt messbare Vorteile."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Massive Bauzeitverkürzung",
-              description: "Indem die aufwendigen Schweißarbeiten in die Werkstatt verlagert werden, können die Installationszeiten auf der Baustelle um bis zu 70 % gesenkt werden. Ein enormer Gewinn für den Projektplan.",
-              icon: <Activity className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Höchste Präzision",
-              description: "In der Werkstatt gibt es keine Zwangslagen (z.B. Schweißen über Kopf im engen Schacht). Winkel und Abstände können millimetergenau eingehalten werden.",
-              icon: <Settings2 className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Wetterunabhängigkeit",
-              description: "Das Verschweißen von Kunststoffen erfordert bestimmte Umgebungstemperaturen. In der klimatisierten Werkstatt ist dies im Winter kein Problem.",
-              icon: <CheckCircle2 className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Massive Bauzeitverkürzung"
+            description="Indem die aufwendigen Schweißarbeiten in die Werkstatt verlagert werden, können die Installationszeiten auf der Baustelle um bis zu 70 % gesenkt werden. Ein enormer Gewinn für den Projektplan."
+            icon={<Activity className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Höchste Präzision"
+            description="In der Werkstatt gibt es keine Zwangslagen (z.B. Schweißen über Kopf im engen Schacht). Winkel und Abstände können millimetergenau eingehalten werden."
+            icon={<Settings2 className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Wetterunabhängigkeit"
+            description="Das Verschweißen von Kunststoffen erfordert bestimmte Umgebungstemperaturen. In der klimatisierten Werkstatt ist dies im Winter kein Problem."
+            icon={<CheckCircle2 className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepMatrix: Baustelle vs. Werkstatt */}

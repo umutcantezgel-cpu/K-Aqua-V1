@@ -3,7 +3,7 @@ import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
 import { Reveal } from "@/components/ui/Reveal";
@@ -124,28 +124,24 @@ export const chemischeReinigungDesinfektion: NewsPost = {
           title="Goldene Regeln der chemischen Desinfektion"
           lead="Wer diese drei grundlegenden Regeln missachtet, riskiert die jahrzehntelange Lebensdauer des Rohrsystems."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Grenzwertige Dosierung exakt einhalten",
-              description: "Die Konzentration des Wirkstoffs muss exakt eingehalten werden (z.B. max. 50 mg/l freies Chlor). 'Viel hilft viel' ist ein fataler Irrtum, der den Kunststoff chemisch oxidiert, angreift und nachhaltig spröde macht.",
-              icon: <FlaskConical className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Strikte Einwirkzeit beachten",
-              description: "Die aggressive chemische Lösung darf nur für einen streng begrenzten Zeitraum (meist max. 12 bis 24 Stunden) im Rohrsystem verbleiben. Danach muss das System zwingend und unverzüglich gespült werden.",
-              icon: <AlertOctagon className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Gründliches, lückenloses Nachspülen",
-              description: "Das System muss nach der Einwirkzeit so lange mit sauberem Frischwasser gespült werden, bis die Konzentration des Desinfektionsmittels am Auslauf exakt der Konzentration des Einspeisewassers entspricht.",
-              icon: <Droplet className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Grenzwertige Dosierung exakt einhalten"
+            description="Die Konzentration des Wirkstoffs muss exakt eingehalten werden (z.B. max. 50 mg/l freies Chlor). 'Viel hilft viel' ist ein fataler Irrtum, der den Kunststoff chemisch oxidiert, angreift und nachhaltig spröde macht."
+            icon={<FlaskConical className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Strikte Einwirkzeit beachten"
+            description="Die aggressive chemische Lösung darf nur für einen streng begrenzten Zeitraum (meist max. 12 bis 24 Stunden) im Rohrsystem verbleiben. Danach muss das System zwingend und unverzüglich gespült werden."
+            icon={<AlertOctagon className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Gründliches, lückenloses Nachspülen"
+            description="Das System muss nach der Einwirkzeit so lange mit sauberem Frischwasser gespült werden, bis die Konzentration des Desinfektionsmittels am Auslauf exakt der Konzentration des Einspeisewassers entspricht."
+            icon={<Droplet className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       <Reveal>

@@ -38,7 +38,7 @@ export const lebenszykluskostenTco: NewsPost = {
               <TrendingDown className="w-64 h-64 text-emerald-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die Flatline der Kosten" className="mb-6 text-emerald-500" />
+              <Eyebrow className="mb-6 text-emerald-500">Die Flatline der Kosten</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance mb-6">
                 Investoren, Projektentwickler und Bauherren fokussieren sich in der Planungsphase oft extrem auf den initialen CAPEX, die reinen Beschaffungs- und Installationskosten der Materialien. Doch bei der grundlegenden Gebäudeinfrastruktur wie dem Wasserleitungsnetz definiert der OPEX die wahren und oftmals schmerzhaften Kosten. 
               </p>
@@ -54,7 +54,7 @@ export const lebenszykluskostenTco: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Die TCO Matrix" />
+            <Eyebrow>Die TCO Matrix</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               CAPEX-Illusion vs OPEX-Realität
             </h2>
@@ -101,7 +101,7 @@ export const lebenszykluskostenTco: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Phasen der Wirtschaftlichkeit" />
+            <Eyebrow>Phasen der Wirtschaftlichkeit</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Rendite über Jahrzehnte kalkulieren
             </h2>
@@ -132,7 +132,7 @@ export const lebenszykluskostenTco: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Verborgene Einsparpotenziale" />
+            <Eyebrow>Verborgene Einsparpotenziale</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Risiko- und Kostenfaktoren eliminieren
             </h2>

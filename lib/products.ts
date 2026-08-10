@@ -73,13 +73,13 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
   let seoTextAr = '';
 
   const seoMatchDe = rawContent.match(/##\s*SEO-CONTENT-DE\s*([\s\S]*?)(?=##\s*SEO-CONTENT-(EN|AR)|$)/i);
-  if (seoMatchDe) seoTextDe = seoMatchDe[1].trim();
+  if (seoMatchDe?.[1]) seoTextDe = seoMatchDe[1].trim();
 
   const seoMatchEn = rawContent.match(/##\s*SEO-CONTENT-EN\s*([\s\S]*?)(?=##\s*SEO-CONTENT-(DE|AR)|$)/i);
-  if (seoMatchEn) seoTextEn = seoMatchEn[1].trim();
+  if (seoMatchEn?.[1]) seoTextEn = seoMatchEn[1].trim();
 
   const seoMatchAr = rawContent.match(/##\s*SEO-CONTENT-AR\s*([\s\S]*?)(?=##\s*SEO-CONTENT-(DE|EN)|$)/i);
-  if (seoMatchAr) seoTextAr = seoMatchAr[1].trim();
+  if (seoMatchAr?.[1]) seoTextAr = seoMatchAr[1].trim();
 
   // Remove SEO sections from rawContent
   rawContent = rawContent.replace(/##\s*SEO-CONTENT-(DE|EN|AR)[\s\S]*?(?=##\s*SEO-CONTENT-(DE|EN|AR)|$)/gi, '').trim();

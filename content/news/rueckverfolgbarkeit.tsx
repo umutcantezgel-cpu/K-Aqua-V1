@@ -33,7 +33,7 @@ export const rueckverfolgbarkeit: NewsPost = {
               <Layers className="w-64 h-64" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Die gläserne Produktion" className="mb-6 text-primary" />
+              <Eyebrow className="mb-6 text-primary">Die gläserne Produktion</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl">
                 Eine absolut lückenlose Rückverfolgbarkeit ist keine Kür, sondern zwingende Pflicht im modernen Rohrleitungsbau. Bauherren, Planer und Zertifizierungsstellen verlassen sich weltweit auf die erstklassige Qualität von K Aqua PPR Rohrsystemen. Um dieses unschätzbare Vertrauen zu rechtfertigen, wird jedes einzelne PPR Rohr direkt im laufenden Extrusionsprozess fortlaufend und dauerhaft gekennzeichnet.
               </p>
@@ -62,7 +62,7 @@ export const rueckverfolgbarkeit: NewsPost = {
               <PremiumAssetPlaceholder label="Industrielle Rohrinstallation Hochbau" image="/images/new-k-aqua/fertigung-pipes.jpg" />
             </div>
             <div>
-              <Eyebrow text="Die Lebensversicherung des Gebäudes" />
+              <Eyebrow>Die Lebensversicherung des Gebäudes</Eyebrow>
               <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 mb-6 text-foreground leading-tight">
                 Warum Rückverfolgbarkeit absolut überlebenswichtig ist
               </h2>
@@ -91,7 +91,7 @@ export const rueckverfolgbarkeit: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="High Tech im Millisekundentakt" />
+            <Eyebrow>High Tech im Millisekundentakt</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Continuous Inkjet Technologie
             </h2>
@@ -122,7 +122,7 @@ export const rueckverfolgbarkeit: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Gebündeltes Wissen auf einem Meter" />
+            <Eyebrow>Gebündeltes Wissen auf einem Meter</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Der Datensatz auf dem Rohr
             </h2>

@@ -4,7 +4,7 @@ import { NewsPost } from "./index";
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { HorizontalTimeline } from "@/components/ui/HorizontalTimeline";
 import { DeepFAQ } from "@/components/ui/DeepFAQ";
 import { CTABand } from "@/components/ui/CTABand";
@@ -32,10 +32,8 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
     <div className="flex flex-col gap-24 py-12">
 
       <ParallaxHero headingLevel="h2" 
-        image="/images/news/ppr-vs-pex.jpg" 
-        height="50vh"
         title="Schweißen oder Pressen? Der ultimative Systemvergleich"
-        subtitle="Ein strategischer Systementscheid bei der Rohrinstallation mit jahrzehntelangen Folgen für die Sicherheit, Hygiene und Wartungskosten Ihres Gebäudes."
+        description="Ein strategischer Systementscheid bei der Rohrinstallation mit jahrzehntelangen Folgen für die Sicherheit, Hygiene und Wartungskosten Ihres Gebäudes."
       />
 
       <Reveal>
@@ -86,22 +84,22 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
           align="center"
         />
         <div className="mt-8">
-          <HorizontalTimeline
-            events={[
+          <HorizontalTimeline title=""
+            items={[
               {
                 year: "1970er",
                 title: "Vernetztes Polyethylen (PEX)",
-                description: "Erste flexible Kunststoffrohre für Fußbodenheizungen. Großes Problem damals: Keine Sauerstoffdichtheit und enorm hohe, schwer kontrollierbare Längenausdehnung."
+                text: "Erste flexible Kunststoffrohre für Fußbodenheizungen. Großes Problem damals: Keine Sauerstoffdichtheit und enorm hohe, schwer kontrollierbare Längenausdehnung."
               },
               {
                 year: "1980er",
                 title: "Mehrschichtverbundrohr (Aluverbund)",
-                description: "Einbau einer diffusionsdichten Aluminiumschicht in PEX-Rohre (PEX-Alu-PEX). Die Rohre wurden formstabil. Die Verbindung erfolgte zwingend über Pressfittings mit O-Ringen."
+                text: "Einbau einer diffusionsdichten Aluminiumschicht in PEX-Rohre (PEX-Alu-PEX). Die Rohre wurden formstabil. Die Verbindung erfolgte zwingend über Pressfittings mit O-Ringen."
               },
               {
                 year: "1990er bis heute",
                 title: "Co-extrudiertes PPR / PPRCT",
-                description: "Entwicklung hochfester, homogener Vollkunststoffsysteme. Eine spezielle Mittelschicht mit Glasfasern (K-Faser) reduziert die Ausdehnung. Die Verbindung erfolgt dauerhaft sicher durch homogenes Schmelzschweißen ohne jegliche Dichtung."
+                text: "Entwicklung hochfester, homogener Vollkunststoffsysteme. Eine spezielle Mittelschicht mit Glasfasern (K-Faser) reduziert die Ausdehnung. Die Verbindung erfolgt dauerhaft sicher durch homogenes Schmelzschweißen ohne jegliche Dichtung."
               }
             ]}
           />
@@ -132,28 +130,24 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
           title="Warum Pressfittings Probleme machen können"
           lead="Die mechanische Verbindung birgt zahlreiche bauartbedingte Risiken, die beim Schweißen schlichtweg nicht existieren."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Druckverlust durch massive Querschnittsverengung",
-              description: "Da der metallische Pressfitting (Stützkörper) in das Rohr hineingesteckt wird, verengt sich der Leitungsquerschnitt an jeder Verbindung erheblich. Dies erhöht den Druckverlust massiv, erfordert stärkere Umwälzpumpen und erhöht das Risiko von Fließgeräuschen in der Wand.",
-              icon: <Droplet className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Das unterschätzte Risiko der O-Ringe",
-              description: "Gummidichtungen altern unweigerlich. Sie können durch hartes Chlor im Trinkwasser, hohe Dauertemperaturen oder unentgratete Rohrkanten bei der Montage beschädigt werden. Eine verschweißte PPR-Verbindung hingegen altert nicht in dieser Form.",
-              icon: <AlertTriangle className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Hygienerisiko durch mikroskopischen Totraum",
-              description: "Hinter dem O-Ring und der Einsteckhülse entstehen Toträume, in denen das Wasser dauerhaft steht. Hier können sich hochgefährliche Biofilme bilden (Legionellengefahr). Die PPR-Verschmelzung ist dagegen völlig glatt, bündig und spaltenfrei.",
-              icon: <Activity className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Druckverlust durch massive Querschnittsverengung"
+            description="Da der metallische Pressfitting (Stützkörper) in das Rohr hineingesteckt wird, verengt sich der Leitungsquerschnitt an jeder Verbindung erheblich. Dies erhöht den Druckverlust massiv, erfordert stärkere Umwälzpumpen und erhöht das Risiko von Fließgeräuschen in der Wand."
+            icon={<Droplet className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Das unterschätzte Risiko der O-Ringe"
+            description="Gummidichtungen altert unweigerlich. Sie können durch hartes Chlor im Trinkwasser, hohe Dauertemperaturen oder unentgratete Rohrkanten bei der Montage beschädigt werden. Eine verschweißte PPR-Verbindung hingegen altert nicht in dieser Form."
+            icon={<AlertTriangle className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Hygienerisiko durch mikroskopischen Totraum"
+            description="Hinter dem O-Ring und der Einsteckhülse entstehen Toträume, in denen das Wasser dauerhaft steht. Hier können sich hochgefährliche Biofilme bilden (Legionellengefahr). Die PPR-Verschmelzung ist dagegen völlig glatt, bündig und spaltenfrei."
+            icon={<Activity className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       <Reveal>

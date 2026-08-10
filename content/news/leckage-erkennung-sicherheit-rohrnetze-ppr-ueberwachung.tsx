@@ -2,7 +2,7 @@ import React from "react";
 import { Link as NavLink } from "@/lib/i18n/navigation";
 import { NewsPost } from "./index";
 import { SectionHead } from "@/components/ui/SectionHead";
-import { BentoGrid } from "@/components/ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/BentoGrid";
 import { DeepMatrix } from "@/components/ui/DeepMatrix";
 import { Stagger } from "@/components/ui/Stagger";
 import { StatBand } from "@/components/ui/StatBand";
@@ -60,28 +60,24 @@ export const leckageErkennungSicherheit: NewsPost = {
           title="Das 3 Stufen Sicherheitskonzept"
           lead="Wie K Aqua Systeme von der Montage bis zum Betrieb maximale Sicherheit garantieren."
         />
-        <BentoGrid
-          items={[
-            {
-              title: "Homogene Schweißverbindung",
-              description: "Beim Muffenschweißen verschmelzen Rohr und Fitting auf molekularer Ebene zu einem einzigen Bauteil. Wo keine Dichtung ist, kann auch keine Dichtung versagen.",
-              icon: <Wrench className="w-6 h-6 text-primary" />,
-              size: "large"
-            },
-            {
-              title: "Normgerechte Druckprüfung",
-              description: "Vor der Inbetriebnahme wird jedes K Aqua Netz (z.B. nach DIN EN 806) einem harten Stufendrucktest unterzogen, um selbst kleinste Verarbeitungsfehler aufzudecken.",
-              icon: <Activity className="w-6 h-6 text-primary" />,
-              size: "medium"
-            },
-            {
-              title: "Integration von Sensorik",
-              description: "In Smart Buildings lassen sich Feuchtigkeits und Volumenstromsensoren mühelos an K Aqua Verteiler anbinden, um kleinste Anomalien sofort an die GLT zu melden.",
-              icon: <Search className="w-6 h-6 text-primary" />,
-              size: "medium"
-            }
-          ]}
-        />
+        <BentoGrid>
+          <BentoGridItem
+            title="Homogene Schweißverbindung"
+            description="Beim Muffenschweißen verschmelzen Rohr und Fitting auf molekularer Ebene zu einem einzigen Bauteil. Wo keine Dichtung ist, kann auch keine Dichtung versagen."
+            icon={<Wrench className="w-6 h-6 text-primary" />}
+            colSpan={2}
+          />
+          <BentoGridItem
+            title="Normgerechte Druckprüfung"
+            description="Vor der Inbetriebnahme wird jedes K Aqua Netz (z.B. nach DIN EN 806) einem harten Stufendrucktest unterzogen, um selbst kleinste Verarbeitungsfehler aufzudecken."
+            icon={<Activity className="w-6 h-6 text-primary" />}
+          />
+          <BentoGridItem
+            title="Integration von Sensorik"
+            description="In Smart Buildings lassen sich Feuchtigkeits und Volumenstromsensoren mühelos an K Aqua Verteiler anbinden, um kleinste Anomalien sofort an die GLT zu melden."
+            icon={<Search className="w-6 h-6 text-primary" />}
+          />
+        </BentoGrid>
       </Reveal>
 
       {/* DeepMatrix: Leckagerisiko im Vergleich */}

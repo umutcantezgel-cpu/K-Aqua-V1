@@ -39,7 +39,7 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
               <Factory className="w-64 h-64 text-orange-500" />
             </div>
             <div className="relative z-10">
-              <Eyebrow text="Das chemische Schutzschild" className="mb-6 text-orange-500" />
+              <Eyebrow className="mb-6 text-orange-500">Das chemische Schutzschild</Eyebrow>
               <p className="text-xl lg:text-3xl font-semibold text-foreground leading-snug max-w-4xl text-balance">
                 Industrieanlagen sind die absoluten Härtetests für jedes Rohrleitungssystem. Hier fließen nicht nur harmlose Wässer, sondern hochaggressive Laugen, saure Kühlmedien und extrem komprimierte Druckluft. Wo gewöhnliche metallische Rohre unweigerlich durch Lochfraß und Korrosion kapitulieren, entfaltet Polypropylen seine ganze molekulare Überlegenheit. K Aqua bietet der Schwerindustrie eine dauerhaft sichere, inerte und unzerstörbare Infrastruktur.
               </p>
@@ -110,7 +110,7 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Der industrielle Kampf" />
+            <Eyebrow>Der industrielle Kampf</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Aggressive Medien vs Rohrleitung
             </h2>
@@ -139,7 +139,7 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Maschinenbau trifft Chemie" />
+            <Eyebrow>Maschinenbau trifft Chemie</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Das Polypropylen Geheimnis
             </h2>
@@ -170,7 +170,7 @@ export const chemischeBestaendigkeitIndustrie: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="In der Praxis erprobt" />
+            <Eyebrow>In der Praxis erprobt</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Einsatzgebiete der Schwerindustrie
             </h2>

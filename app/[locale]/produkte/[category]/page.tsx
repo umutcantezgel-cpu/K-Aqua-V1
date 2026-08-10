@@ -108,7 +108,7 @@ export default async function CategoryPage({ params }: Props) {
   
   let metaTitleExact = `${category.toUpperCase()} | K-Aqua`;
 
-  console.log("DEBUG CategoryPage catKey:", catKey, "t.has(catKey):", t.has(catKey), "t.has(catKey.guideText):", t.has(`${catKey}.guideText`));
+
 
   try {
     if (t.has(`${catKey}.advTitle`)) {
@@ -129,8 +129,7 @@ export default async function CategoryPage({ params }: Props) {
       const list = t.raw(`${catKey}.advList`);
       if (Array.isArray(list)) advantages = list;
     }
-  } catch (e) {
-    console.error("DEBUG CategoryPage translation error:", e);
+  } catch {
     // Ignore translation misses
   }
 
@@ -185,9 +184,7 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <NextIntlClientProvider messages={pick(messages, 'common', 'nav')}>
         <JsonLd schema={webPageSchema} />
-        <div className="sr-only">{metaTitleExact}</div>
-        <div className="sr-only">{seoTitle}</div>
-        <div className="sr-only">K-Aqua {category}</div>
+
         
         {/* Category Header with Breadcrumbs & Title */}
       <section className="relative pt-32 pb-20 overflow-hidden bg-background">

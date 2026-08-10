@@ -81,7 +81,7 @@ function scanFileForH1(
     // Check dynamic imports (e.g., import('./Co2Dashboard') or dynamic(() => import(...)))
     if (ts.isCallExpression(node)) {
       if (node.expression.kind === ts.SyntaxKind.ImportKeyword && node.arguments.length > 0) {
-        const arg = node.arguments[0];
+        const arg = node.arguments[0]!;
         if (ts.isStringLiteral(arg)) {
           const resolved = resolveImportPath(arg.text, filePath);
           if (resolved && (resolved.endsWith('.tsx') || resolved.endsWith('.jsx'))) {

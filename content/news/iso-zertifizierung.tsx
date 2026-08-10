@@ -29,7 +29,7 @@ export const isoZertifizierung: NewsPost = {
       <section className="relative">
         <Reveal>
           <div className="bg-card/50 backdrop-blur-sm border border-card-border p-8 lg:p-12 rounded-3xl shadow-soft">
-            <Eyebrow text="Der Standard der Industrie" className="mb-6" />
+            <Eyebrow className="mb-6">Der Standard der Industrie</Eyebrow>
             <p className="text-xl lg:text-2xl font-medium text-foreground leading-relaxed text-balance">
               Seit Oktober 2025 ist das integrierte Managementsystem der KWT GmbH offiziell dreifach geprüft und nach den allerhöchsten internationalen Maßstäben zertifiziert. Unsere ISO 9001, 14001 & 50001 Zertifizierung belegt unsere Exzellenz in Qualität, Umwelt und Energie. Die umfassenden Zertifizierungen beinhalten ISO 9001 für ein exzellentes Qualitätsmanagement, ISO 14001 für ein zukunftsorientiertes Umweltmanagement und ISO 50001 für ein hocheffizientes Energiemanagement. Die ausgestellten Zertifikate stammen von einer höchst renommierten und DAkkS akkreditierten Zertifizierungsgesellschaft und besitzen volle Gültigkeit bis Oktober 2028.
             </p>
@@ -92,7 +92,7 @@ export const isoZertifizierung: NewsPost = {
       <section>
         <Reveal>
           <div className="text-center mb-12">
-            <Eyebrow text="Das magische Dreieck" />
+            <Eyebrow>Das magische Dreieck</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Drei Säulen der industriellen Perfektion
             </h2>
@@ -126,7 +126,7 @@ export const isoZertifizierung: NewsPost = {
       <section className="mt-12">
         <Reveal>
           <div className="mb-8">
-            <Eyebrow text="Deep Dive ISO 9001" />
+            <Eyebrow>Deep Dive ISO 9001</Eyebrow>
             <h2 className="text-3xl lg:text-4xl font-extrabold font-heading mt-4 text-foreground">
               Das Fundament unserer Qualitätssicherung
             </h2>
@@ -170,7 +170,7 @@ export const isoZertifizierung: NewsPost = {
       <section>
         <Reveal>
           <Card className="p-8 lg:p-12 border-accent/20 bg-accent/5">
-            <Eyebrow text="Deep Dive ISO 14001 & 50001" className="text-accent" />
+            <Eyebrow className="text-accent">Deep Dive ISO 14001 & 50001</Eyebrow>
             <h2 className="text-3xl font-extrabold font-heading mt-4 mb-8 text-foreground">
               Verantwortung für Umwelt und Energieressourcen
             </h2>
