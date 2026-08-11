@@ -91,7 +91,39 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   async redirects() {
+    // Unterseiten, die in afeb284 (18.07.2026) entfernt wurden und seitdem
+    // ersatzlos 404 lieferten. Sie stehen teils noch im Index und in externen
+    // Links — daher permanent auf die jeweilige Oberseite umleiten.
+    const removedSubpages: Record<string, string> = {
+      'academy/faq': 'academy',
+      'academy/glossar': 'academy',
+      'academy/schulungen': 'academy',
+      'academy/webinare': 'academy',
+      'academy/zertifizierung': 'academy',
+      'loesungen/hochhaus': 'loesungen',
+      'loesungen/hotels': 'loesungen',
+      'loesungen/krankenhaus': 'loesungen',
+      'loesungen/rechenzentrum': 'loesungen',
+      'loesungen/vorfertigung': 'loesungen',
+      'maerkte/trinkwasser': 'maerkte',
+      'maerkte/industrie': 'maerkte',
+      'maerkte/klimaanlagen': 'maerkte',
+      'maerkte/landwirtschaft': 'maerkte',
+      'maerkte/schiffbau': 'maerkte',
+    };
+    const removedSubpageRedirects = Object.entries(removedSubpages).flatMap(
+      ([from, to]) => [
+        {
+          source: `/:locale([a-zA-Z-]{2,7})/${from}`,
+          destination: `/:locale/${to}`,
+          permanent: true,
+        },
+        { source: `/${from}`, destination: `/${to}`, permanent: true },
+      ]
+    );
+
     return [
+      ...removedSubpageRedirects,
       {
         source: '/:locale([a-zA-Z-]{2,7})/produkte/katalog',
         destination: '/:locale/produkte',

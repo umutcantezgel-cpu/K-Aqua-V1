@@ -39,6 +39,7 @@ interface AcademyData {
   title1: string;
   titleGrad: string;
   lead: string;
+  videosHeading: string;
   videos: AcademyVideo[];
   quizEyebrow: string;
   quizTitle: string;
@@ -132,7 +133,7 @@ export function Academy({ data }: AcademyProps) {
       {/* Videos Section */}
       <section className="py-16 border-b border-card-border">
         <div className="max-w-[1200px] mx-auto px-6">
-          <h2 className="sr-only">Schulungsvideos und Anleitungen</h2>
+          <h2 className="sr-only">{data.videosHeading}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 sm:gap-6">
             {data.videos.map((video, idx) => {
               const asset = VIDEO_ASSETS[idx] || VIDEO_ASSETS[0];

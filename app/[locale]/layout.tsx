@@ -75,6 +75,7 @@ export default async function LocaleLayout({
     'toggle_theme_dark',
     'cookieConsent',
     'footer',
+    'footerSitemap',
     'kontaktBlocks',
     'kontaktForm',
     'enterprise',

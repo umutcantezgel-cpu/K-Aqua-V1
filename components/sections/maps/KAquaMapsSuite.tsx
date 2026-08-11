@@ -41,7 +41,7 @@ const MARKET_PROFILES = [
 
 export function KAquaMapsSuite() {
   const locale = useLocale();
-  const t = useTranslations('nav');
+  const t = useTranslations('mapsSuite');
   const [activeTab, setActiveTab] = useState<'hq' | 'refs' | 'spec'>('hq');
   const [scriptLoaded, setScriptLoaded] = useState(false);
 
@@ -331,10 +331,10 @@ export function KAquaMapsSuite() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
             <span className="font-mono text-primary font-bold text-xs tracking-widest uppercase mb-2 block flex items-center gap-2">
-              <Globe className="w-4 h-4" /> K-Aqua Geografischer Hub & Telemetrie
+              <Globe className="w-4 h-4" /> {t('geoHub')}
             </span>
             <h2 className="text-3xl md:text-5xl font-heading font-extrabold tracking-tight">
-              Interaktive <span className="text-primary">Karten-Suite</span>
+              {t('title1')} <span className="text-primary">{t('titleGrad')}</span>
             </h2>
           </div>
 
@@ -347,7 +347,7 @@ export function KAquaMapsSuite() {
                   : 'text-muted-foreground hover:text-foreground hover:bg-background-subtle'
               }`}
             >
-              <MapPin className="w-4 h-4 shrink-0" /> Hauptsitz Waldsolms
+              <MapPin className="w-4 h-4 shrink-0" /> {t('tabHq')}
             </button>
             <button
               onClick={() => setActiveTab('refs')}
@@ -357,7 +357,7 @@ export function KAquaMapsSuite() {
                   : 'text-muted-foreground hover:text-foreground hover:bg-background-subtle'
               }`}
             >
-              <Globe className="w-4 h-4 shrink-0" /> Dichtheitskarte
+              <Globe className="w-4 h-4 shrink-0" /> {t('tabRefs')}
             </button>
             <button
               onClick={() => setActiveTab('spec')}
@@ -367,7 +367,7 @@ export function KAquaMapsSuite() {
                   : 'text-muted-foreground hover:text-foreground hover:bg-background-subtle'
               }`}
             >
-              <Compass className="w-4 h-4 shrink-0" /> Spezifikator
+              <Compass className="w-4 h-4 shrink-0" /> {t('tabSpec')}
             </button>
           </div>
         </div>
@@ -381,34 +381,34 @@ export function KAquaMapsSuite() {
             <div className="bg-card border border-card-border rounded-2xl p-6 flex flex-col gap-6 shadow-sm">
               <div>
                 <div className="font-heading font-bold text-xl mb-1 text-foreground">
-                  Zentrale Produktion & Entwicklungszentrum
+                  {t('hqTitle')}
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Waldsolms Brandoberndorf, Hessen, Deutschland.
+                  {t('hqAddress')}
                 </p>
               </div>
 
               <div className="space-y-3 text-sm border-t border-b border-card-border py-4">
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Registergericht:</span>
+                  <span className="text-muted-foreground">{t('registryLabel')}</span>
                   <span className="font-medium text-foreground">{HQ_SITE.registry.court} {HQ_SITE.registry.number}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Telefon:</span>
+                  <span className="text-muted-foreground">{t('phoneLabel')}</span>
                   <span className="font-medium text-foreground">{HQ_SITE.phone}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Zertifizierung:</span>
+                  <span className="text-muted-foreground">{t('certLabel')}</span>
                   <span className="font-medium text-primary">ISO 9001 · ISO 14001 · DAkkS</span>
                 </div>
               </div>
 
               <div className="flex flex-col gap-3">
                 <ButtonPrimary href={HQ_SITE.dirUrl} className="w-full justify-center">
-                  Routenplaner Öffnen <ExternalLink className="w-4 h-4 ms-2" />
+                  {t('directions')} <ExternalLink className="w-4 h-4 ms-2" />
                 </ButtonPrimary>
                 <Button variant="ghost" href="/unternehmen" className="w-full justify-center">
-                  Über das Werk Waldsolms
+                  {t('aboutPlant')}
                 </Button>
               </div>
             </div>
@@ -419,7 +419,7 @@ export function KAquaMapsSuite() {
         {activeTab === 'refs' && (
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-2 overflow-x-auto pb-4 no-scrollbar whitespace-nowrap">
-              <span className="text-xs font-bold uppercase text-muted-foreground me-2 shrink-0">Sektor Filter:</span>
+              <span className="text-xs font-bold uppercase text-muted-foreground me-2 shrink-0">{t('sectorFilter')}</span>
               {['all', 'hotel', 'wohnen', 'infra', 'klinik', 'buero'].map((s) => (
                 <button
                   key={s}
@@ -430,7 +430,7 @@ export function KAquaMapsSuite() {
                       : 'bg-card border border-card-border text-muted-foreground hover:text-foreground'
                   }`}
                 >
-                  {s === 'all' ? 'Alle Sektoren' : s}
+                  {t(`sectors.${s}`)}
                 </button>
               ))}
             </div>
@@ -452,7 +452,7 @@ export function KAquaMapsSuite() {
                   type="text"
                   value={specQuery}
                   onChange={(e) => setSpecQuery(e.target.value)}
-                  placeholder="Ort oder Stadt eingeben..."
+                  placeholder={t('specPlaceholder')}
                   className="w-full ps-12 pe-4 py-3.5 bg-card border border-card-border rounded-xl font-heading text-sm focus:outline-none focus:ring-2 focus:ring-primary shadow-sm"
                 />
               </div>
@@ -464,46 +464,46 @@ export function KAquaMapsSuite() {
 
             <div className="bg-card border border-card-border rounded-2xl p-6 flex flex-col gap-6 shadow-sm">
               <div className="font-heading font-bold text-xl text-foreground flex items-center gap-2">
-                <Compass className="w-5 h-5 text-primary" /> Markt- & Logistik-Profil
+                <Compass className="w-5 h-5 text-primary" /> {t('profileTitle')}
               </div>
 
               {!calculatedData ? (
                 <p className="text-sm text-muted-foreground">
-                  Klicken Sie auf die Karte oder suchen Sie eine Stadt, um die automatische System-Spezifikation und Lieferachsen-Berechnung auszulösen.
+                  {t('profileHint')}
                 </p>
               ) : (
                 <div className="space-y-4">
                   <div className="p-4 bg-primary/5 border border-primary/20 rounded-xl space-y-2">
-                    <div className="text-xs font-bold uppercase text-primary tracking-wider">Marktzuordnung</div>
+                    <div className="text-xs font-bold uppercase text-primary tracking-wider">{t('marketAssign')}</div>
                     <div className="font-heading font-bold text-lg text-foreground">{calculatedData.market?.name}</div>
-                    <div className="text-xs text-muted-foreground">Norm: {calculatedData.market?.reg}</div>
+                    <div className="text-xs text-muted-foreground">{t('normLabel')} {calculatedData.market?.reg}</div>
                   </div>
 
                   <div className="grid grid-cols-2 gap-3 text-center">
                     <div className="p-3 bg-background border border-card-border rounded-xl">
-                      <div className="text-xs text-muted-foreground">Luftlinie (HQ)</div>
+                      <div className="text-xs text-muted-foreground">{t('airDist')}</div>
                       <div className="font-heading font-bold text-base text-foreground mt-1">{calculatedData.airKm} km</div>
                     </div>
                     <div className="p-3 bg-background border border-card-border rounded-xl">
-                      <div className="text-xs text-muted-foreground">Straße (Geschätzt)</div>
+                      <div className="text-xs text-muted-foreground">{t('roadDist')}</div>
                       <div className="font-heading font-bold text-base text-foreground mt-1">{calculatedData.roadKm} km</div>
                     </div>
                   </div>
 
                   <div className="pt-2">
-                    <div className="text-xs font-bold uppercase text-muted-foreground mb-2">Empfohlenes Rohrsystem:</div>
+                    <div className="text-xs font-bold uppercase text-muted-foreground mb-2">{t('recommended')}</div>
                     <ul className="space-y-2 text-sm">
                       <li className="flex items-center gap-2 text-foreground font-medium">
                         <Check className="w-4 h-4 text-primary shrink-0" /> K-Aqua PP-RCT SDR 7.4 High-Pressure
                       </li>
                       <li className="flex items-center gap-2 text-foreground font-medium">
-                        <Check className="w-4 h-4 text-primary shrink-0" /> UV-Protect Außenmantel
+                        <Check className="w-4 h-4 text-primary shrink-0" /> {t('recUv')}
                       </li>
                     </ul>
                   </div>
 
                   <ButtonPrimary href="/projektanfrage" className="w-full justify-center mt-2">
-                    BIM & Spezifikationspaket anfordern
+                    {t('bimCta')}
                   </ButtonPrimary>
                 </div>
               )}

@@ -43,7 +43,7 @@ export default async function ReferenzenPage({ params }: Props) {
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['referenzenPage', 'refs', 'nav', 'common'])}>
+    <NextIntlClientProvider messages={pick(messages, ['referenzenPage', 'refs', 'nav', 'common', 'mapsSuite'])}>
     <main className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30 selection:text-primary">
       <JsonLd schema={jsonLd} />
 

@@ -1,4 +1,71 @@
 {
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geografischer Hub & Telemetrie",
+    "title1": "Interaktive",
+    "titleGrad": "Karten-Suite",
+    "tabHq": "Hauptsitz Waldsolms",
+    "tabRefs": "Dichtheitskarte",
+    "tabSpec": "Spezifikator",
+    "hqTitle": "Zentrale Produktion & Entwicklungszentrum",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, Deutschland.",
+    "registryLabel": "Registergericht:",
+    "phoneLabel": "Telefon:",
+    "certLabel": "Zertifizierung:",
+    "directions": "Routenplaner öffnen",
+    "aboutPlant": "Über das Werk Waldsolms",
+    "sectorFilter": "Sektor-Filter:",
+    "specPlaceholder": "Ort oder Stadt eingeben…",
+    "profileTitle": "Markt- & Logistik-Profil",
+    "profileHint": "Klicken Sie auf die Karte oder suchen Sie eine Stadt, um die automatische System-Spezifikation und Lieferachsen-Berechnung auszulösen.",
+    "marketAssign": "Marktzuordnung",
+    "normLabel": "Norm:",
+    "airDist": "Luftlinie (HQ)",
+    "roadDist": "Straße (geschätzt)",
+    "recommended": "Empfohlenes Rohrsystem:",
+    "recUv": "UV-Protect Außenmantel",
+    "bimCta": "BIM- & Spezifikationspaket anfordern",
+    "sectors": {
+      "all": "Alle Sektoren",
+      "hotel": "Hotel",
+      "wohnen": "Wohnbau",
+      "infra": "Infrastruktur",
+      "klinik": "Klinik",
+      "buero": "Büro"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Produkte",
+      "markets-solutions": "Märkte & Lösungen",
+      "academy-resources": "Academy & Ressourcen",
+      "company": "Unternehmen"
+    },
+    "links": {
+      "all_products": "Alle K-Aqua Produkte",
+      "finder": "Produktfinder für Rohre",
+      "pipes": "Rohre & Rohrsysteme (PP-R)",
+      "fittings": "Formteile & Fittings",
+      "valves": "Armaturen & Ventile",
+      "tools": "Werkzeuge & Zubehör",
+      "transition": "Übergänge für Rohre",
+      "all_markets": "Alle K-Aqua Märkte",
+      "all_solutions": "Alle K-Aqua Lösungen",
+      "overview": "K-Aqua Academy Übersicht",
+      "co2_calc": "CO₂-Rechner für PP-R",
+      "specifications": "K-Aqua Ausschreibungstexte",
+      "references": "K-Aqua Referenzen weltweit",
+      "support": "Technischer Support für K-Aqua",
+      "about_us": "Über K-Aqua",
+      "career": "Karriere bei K-Aqua",
+      "news": "K-Aqua News & Presse",
+      "contact": "K-Aqua kontaktieren",
+      "service": "K-Aqua Service & Wartung",
+      "rfq": "Projektanfrage für Rohrsysteme",
+      "partners": "K-Aqua Partnernetzwerk",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
   "catalogx": {
     "viewDetails": "Produktdetails anzeigen",
     "eyebrow": "Vollständiger Produktkatalog",
@@ -1407,6 +1474,33 @@
   "toggle_theme_light": "Zu hellem Design wechseln",
   "toggle_theme_dark": "Zu dunklem Design wechseln",
   "nav": {
+    "mega": {
+      "homeSr": "K-Aqua Startseite",
+      "pipeSystems": "Rohrsysteme",
+      "allProducts": "Alle Produkte",
+      "allProductsDesc": "Übersicht aller K-Aqua PP-R Lösungen",
+      "solutionsDesc": "Industriespezifische Applikationen",
+      "digitalTools": "Digitale Tools",
+      "finderDesc": "Das richtige System konfigurieren",
+      "co2Desc": "Umweltbilanz kalkulieren",
+      "academyDesc": "Schulungen & Zertifikate",
+      "trustDesc": "Downloads & Zertifizierungen",
+      "serviceDesc": "Planungsunterstützung",
+      "partnersDesc": "Werden Sie lokaler Partner",
+      "aboutGroup": "Über K-Aqua",
+      "company": "Das Unternehmen",
+      "companyDesc": "Mission, Vision & Historie",
+      "careerDesc": "Offene Stellen & Kultur",
+      "newsPress": "News & Presse",
+      "newsDesc": "Aktuelle Pressemitteilungen",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Strukturübersicht",
+      "globalFootprint": "Globaler Fußabdruck",
+      "globalMarkets": "Globale Märkte",
+      "marketsDesc": "Zertifizierte Regionen",
+      "refProjects": "Referenzprojekte",
+      "refDesc": "Erfolgreiche Installationen"
+    },
     "home": "Start",
     "products": "Produkte",
     "finder": "Produktfinder",
@@ -4174,6 +4268,7 @@
     ]
   },
   "academy": {
+    "videosHeading": "Schulungsvideos und Anleitungen",
     "schulungen": {
       "meta": {
         "title": "Schulungen | K Aqua",
@@ -4619,6 +4714,7 @@
     "titleGood": "Schweiß-Geselle"
   },
   "refs": {
+    "viewProject": "Projekt ansehen",
     "eyebrow": "Referenzen",
     "title1": "Ein Globus voller",
     "titleGrad": "Projekte.",

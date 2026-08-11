@@ -38,6 +38,7 @@ export default async function AcademyPage({ params }: Props) {
     eyebrow: t("eyebrow"),
     title1: t("title1"),
     titleGrad: t("titleGrad"),
+    videosHeading: t("videosHeading"),
     lead: t("lead"),
     videos: t.raw("videos") as { t: string; s: string }[],
     quizEyebrow: t("quizEyebrow"),

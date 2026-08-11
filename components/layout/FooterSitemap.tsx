@@ -4,55 +4,54 @@ import { Link } from '@/lib/i18n/navigation';
 import { FluidLink } from '@/components/ui/FluidTransition';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { ChevronDown } from 'lucide-react';
 
+// Beschriftungen kommen aus messages/<locale>.json unter footerSitemap.*.
+// labelId und die Gruppen-id sind die Message-Keys.
 const sitemapGroups = [
   {
     id: 'products',
     links: [
-      { href: '/produkte', labelId: 'all_products', fallback: 'Alle K-Aqua Produkte' },
-      { href: '/produkte/finder', labelId: 'finder', fallback: 'Product Finder für Rohre' },
-      { href: '/produkte/pipes', labelId: 'pipes', fallback: 'Rohre & Rohrsysteme (PP-R)' },
-      { href: '/produkte/fittings', labelId: 'fittings', fallback: 'Formteile & Fittings' },
-      { href: '/produkte/valves', labelId: 'valves', fallback: 'Armaturen & Ventile' },
-      { href: '/produkte/tools', labelId: 'tools', fallback: 'Werkzeuge & Zubehör' },
-      { href: '/produkte/transition-fittings', labelId: 'transition', fallback: 'Übergänge für Rohre' },
+      { href: '/produkte', labelId: 'all_products' },
+      { href: '/produkte/finder', labelId: 'finder' },
+      { href: '/produkte/pipes', labelId: 'pipes' },
+      { href: '/produkte/fittings', labelId: 'fittings' },
+      { href: '/produkte/valves', labelId: 'valves' },
+      { href: '/produkte/tools', labelId: 'tools' },
+      { href: '/produkte/transition-fittings', labelId: 'transition' },
     ],
-    fallback: 'Produkte'
   },
   {
     id: 'markets-solutions',
     links: [
-      { href: '/maerkte', labelId: 'all_markets', fallback: 'Alle K-Aqua Märkte' },
-      { href: '/loesungen', labelId: 'all_solutions', fallback: 'Alle K-Aqua Lösungen' }
+      { href: '/maerkte', labelId: 'all_markets' },
+      { href: '/loesungen', labelId: 'all_solutions' },
     ],
-    fallback: 'Märkte & Lösungen'
   },
   {
     id: 'academy-resources',
     links: [
-      { href: '/academy', labelId: 'overview', fallback: 'K-Aqua Academy Übersicht' },
-      { href: '/co2-rechner', labelId: 'co2_calc', fallback: 'CO2-Rechner für PP-R' },
-      { href: '/ressourcen/ausschreibungstexte', labelId: 'specifications', fallback: 'K-Aqua Ausschreibungstexte' },
-      { href: '/referenzen', labelId: 'references', fallback: 'K-Aqua Referenzen weltweit' },
-      { href: '/ressourcen/support', labelId: 'support', fallback: 'Technischer Support für K-Aqua' },
+      { href: '/academy', labelId: 'overview' },
+      { href: '/co2-rechner', labelId: 'co2_calc' },
+      { href: '/ressourcen/ausschreibungstexte', labelId: 'specifications' },
+      { href: '/referenzen', labelId: 'references' },
+      { href: '/ressourcen/support', labelId: 'support' },
     ],
-    fallback: 'Academy & Ressourcen'
   },
   {
     id: 'company',
     links: [
-      { href: '/unternehmen', labelId: 'about_us', fallback: 'Über K-Aqua' },
-      { href: '/karriere', labelId: 'career', fallback: 'Karriere bei K-Aqua' },
-      { href: '/news', labelId: 'news', fallback: 'K-Aqua News & Presse' },
-      { href: '/kontakt', labelId: 'contact', fallback: 'K-Aqua Kontaktieren' },
-      { href: '/service', labelId: 'service', fallback: 'K-Aqua Service & Wartung' },
-      { href: '/projektanfrage', labelId: 'rfq', fallback: 'Projektanfrage für Rohrsysteme' },
-      { href: '/partnerschaft', labelId: 'partners', fallback: 'K-Aqua Partnernetzwerk' },
-      { href: '/trust-center', labelId: 'trust', fallback: 'K-Aqua Trust Center' },
-      { href: '/sitemap', labelId: 'sitemap', fallback: 'Sitemap (HTML)' },
+      { href: '/unternehmen', labelId: 'about_us' },
+      { href: '/karriere', labelId: 'career' },
+      { href: '/news', labelId: 'news' },
+      { href: '/kontakt', labelId: 'contact' },
+      { href: '/service', labelId: 'service' },
+      { href: '/projektanfrage', labelId: 'rfq' },
+      { href: '/partnerschaft', labelId: 'partners' },
+      { href: '/trust-center', labelId: 'trust' },
+      { href: '/sitemap', labelId: 'sitemap' },
     ],
-    fallback: 'Unternehmen'
   },
 ];
 
@@ -64,6 +63,7 @@ const mainRoutes = [
 
 function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations('footerSitemap');
 
   return (
     <motion.div 
@@ -77,7 +77,7 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
         onClick={() => setIsOpen(!isOpen)}
         className="flex w-full items-center justify-between py-4 lg:py-0 lg:mb-6 text-start font-heading font-bold text-[10px] tracking-[0.2em] uppercase text-white/50 hover:text-white transition-colors select-none lg:cursor-default"
       >
-        <span>{group.fallback}</span>
+        <span>{t(`groups.${group.id}`)}</span>
         <ChevronDown 
           size={16} 
           className={`lg:hidden transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
@@ -104,7 +104,7 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
                     className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
                   >
                     <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1">
-                      {link.fallback}
+                      {t(`links.${link.labelId}`)}
                     </span>
                   </LinkComp>
                 </li>
@@ -127,7 +127,7 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
                 className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
               >
                 <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1.5">
-                  {link.fallback}
+                  {t(`links.${link.labelId}`)}
                 </span>
               </LinkComp>
             </li>

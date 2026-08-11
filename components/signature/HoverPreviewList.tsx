@@ -15,12 +15,28 @@ export default function HoverPreviewList({ className = '' }: { className?: strin
       {projects.map((proj, idx) => (
         <Link key={idx} href={`/referenzen#${proj.id}`} className="group block h-full outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-2xl">
           <Card className="h-full flex flex-col p-0 overflow-hidden shadow-sm hover:shadow-diffuse transition-all duration-500 border-card-border hover:border-primary/50 relative">
-            <div className="relative h-64 w-full overflow-hidden bg-muted">
-              <img 
-                src={`/images/geo/${proj.id}.jpg`} 
-                alt={proj.title} 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2s] ease-out" 
-                onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1541888052115-4127027b4097?auto=format&fit=crop&q=80&w=600' }}
+            {/* Gebrandetes Motiv statt Projektfoto: für diese Standorte gibt es
+                keine freigegebenen Aufnahmen. Der Farbton wird deterministisch
+                aus dem Index abgeleitet, damit die Kacheln unterscheidbar sind. */}
+            <div
+              className="relative h-64 w-full overflow-hidden bg-muted"
+              style={{ ['--tile-hue' as string]: `${(idx * 47) % 360}` }}
+            >
+              <div
+                className="absolute inset-0 transition-transform duration-[2s] ease-out group-hover:scale-105"
+                style={{
+                  backgroundImage:
+                    'radial-gradient(120% 90% at 20% 0%, hsl(var(--tile-hue) 55% 34%) 0%, hsl(var(--tile-hue) 60% 18%) 55%, hsl(var(--tile-hue) 65% 10%) 100%)',
+                }}
+                aria-hidden="true"
+              />
+              <div
+                className="absolute inset-0 opacity-[0.18]"
+                aria-hidden="true"
+                style={{
+                  backgroundImage:
+                    'repeating-linear-gradient(135deg, transparent 0 14px, rgba(255,255,255,.55) 14px 15px)',
+                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90" />
               <div className="absolute bottom-5 left-6 flex items-center gap-2">
@@ -35,7 +51,7 @@ export default function HoverPreviewList({ className = '' }: { className?: strin
                 {proj.d}
               </p>
               <div className="flex items-center gap-2 text-primary font-bold text-sm uppercase tracking-wider group-hover:translate-x-2 transition-transform duration-300">
-                Projekt Ansehen <ArrowRight className="w-4 h-4" />
+                {t('viewProject')} <ArrowRight className="w-4 h-4" />
               </div>
             </div>
           </Card>

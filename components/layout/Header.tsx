@@ -82,7 +82,7 @@ export default function Header() {
             className="inline-flex items-center min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg transition-transform active:scale-[0.97] shrink-0"
             aria-label="K Aqua Homepage"
           >
-            <span className="sr-only">K-Aqua Homepage</span>
+            <span className="sr-only">{t('mega.homeSr')}</span>
             <Logo height={48} />
           </FluidLink>
 
@@ -98,29 +98,29 @@ export default function Header() {
               {/* Premium Mega Dropdown */}
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
-                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Rohrsysteme</span>
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.pipeSystems')}</span>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/produkte" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
-                      Alle Produkte <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
+                      {t('mega.allProducts')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
                     </FluidLink>
-                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Übersicht aller K Aqua PPR Lösungen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.allProductsDesc')}</span>
                   </div>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/loesungen" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
                       {t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
                     </FluidLink>
-                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Industriespezifische Applikationen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.solutionsDesc')}</span>
                   </div>
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
-                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Digitale Tools</span>
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.digitalTools')}</span>
                   <FluidLink href="/produkte/finder" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Box className="w-4 h-4" /> {t('finder')}</span>
-                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Das richtige System konfigurieren</span>
+                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">{t('mega.finderDesc')}</span>
                   </FluidLink>
                   <FluidLink href="/co2-rechner" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Settings className="w-4 h-4" /> {t('co2')}</span>
-                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">Umweltbilanz kalkulieren</span>
+                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">{t('mega.co2Desc')}</span>
                   </FluidLink>
                 </div>
               </div>
@@ -135,19 +135,19 @@ export default function Header() {
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[320px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-3 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <FluidLink href="/academy" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5"><HardHat className="w-4 h-4" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('academy')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Schulungen & Zertifikate</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('academy')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">{t('mega.academyDesc')}</span></div>
                 </FluidLink>
                 <FluidLink href="/trust-center" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5"><Compass className="w-4 h-4" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('trust')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Downloads & Zertifizierungen</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('trust')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">{t('mega.trustDesc')}</span></div>
                 </FluidLink>
                 <FluidLink href="/service" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-background border border-card-border flex items-center justify-center shrink-0 mt-0.5"><Settings className="w-4 h-4 text-muted-foreground" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('service')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Planungsunterstützung</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('service')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">{t('mega.serviceDesc')}</span></div>
                 </FluidLink>
                 <FluidLink href="/partnerschaft" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-background border border-card-border flex items-center justify-center shrink-0 mt-0.5"><Map className="w-4 h-4 text-muted-foreground" /></div>
-                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('partners')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">Werden Sie lokaler Partner</span></div>
+                  <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('partners')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">{t('mega.partnersDesc')}</span></div>
                 </FluidLink>
               </div>
             </div>
@@ -160,37 +160,37 @@ export default function Header() {
               </FluidLink>
               <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
-                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Über K Aqua</span>
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.aboutGroup')}</span>
                   <FluidLink href="/unternehmen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Das Unternehmen</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Mission, Vision & Historie</span>
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">{t('mega.company')}</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">{t('mega.companyDesc')}</span>
                   </FluidLink>
                   <FluidLink href="/karriere" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Karriere</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Offene Stellen & Kultur</span>
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">{t('career')}</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">{t('mega.careerDesc')}</span>
                   </FluidLink>
                   <FluidLink href="/news" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">News & Presse</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Aktuelle Pressemitteilungen</span>
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">{t('mega.newsPress')}</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">{t('mega.newsDesc')}</span>
                   </FluidLink>
                   <FluidLink href="/sitemap" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">Sitemap</span>
-                    <span className="text-xs text-muted-foreground mt-0.5">Strukturübersicht</span>
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors">{t('mega.sitemap')}</span>
+                    <span className="text-xs text-muted-foreground mt-0.5">{t('mega.sitemapDesc')}</span>
                   </FluidLink>
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
-                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">Globaler Fußabdruck</span>
+                  <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.globalFootprint')}</span>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/maerkte" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors before:absolute before:inset-0">
-                      Globale Märkte
+                      {t('mega.globalMarkets')}
                     </FluidLink>
-                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Zertifizierte Regionen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.marketsDesc')}</span>
                   </div>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/referenzen" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors before:absolute before:inset-0">
-                      Referenzprojekte
+                      {t('mega.refProjects')}
                     </FluidLink>
-                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">Erfolgreiche Installationen</span>
+                    <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.refDesc')}</span>
                   </div>
                 </div>
               </div>
@@ -241,7 +241,6 @@ export default function Header() {
         </div>
       </header>
 
-      {/* SEO Navigation moved to SeoHiddenSitemap component */}
       <AnimatePresence mode="wait">
         {menuOpen && (
           <motion.div

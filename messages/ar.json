@@ -1,4 +1,71 @@
 {
+  "mapsSuite": {
+    "geoHub": "المركز الجغرافي والقياس عن بُعد من K-Aqua",
+    "title1": "مجموعة خرائط",
+    "titleGrad": "تفاعلية",
+    "tabHq": "المقر الرئيسي في فالدزولمس",
+    "tabRefs": "خريطة الإحكام",
+    "tabSpec": "المُحدِّد",
+    "hqTitle": "مركز الإنتاج والتطوير الرئيسي",
+    "hqAddress": "فالدزولمس براندوبرندورف، هسن، ألمانيا.",
+    "registryLabel": "السجل التجاري:",
+    "phoneLabel": "الهاتف:",
+    "certLabel": "الشهادات:",
+    "directions": "فتح مخطط الطريق",
+    "aboutPlant": "عن مصنع فالدزولمس",
+    "sectorFilter": "تصفية حسب القطاع:",
+    "specPlaceholder": "أدخل موقعًا أو مدينة…",
+    "profileTitle": "ملف السوق والخدمات اللوجستية",
+    "profileHint": "انقر على الخريطة أو ابحث عن مدينة لتشغيل المواصفات التلقائية للنظام وحساب مسارات التوريد.",
+    "marketAssign": "تحديد السوق",
+    "normLabel": "المعيار:",
+    "airDist": "المسافة المباشرة (المقر)",
+    "roadDist": "الطريق (تقديري)",
+    "recommended": "نظام الأنابيب الموصى به:",
+    "recUv": "طبقة خارجية واقية من الأشعة فوق البنفسجية",
+    "bimCta": "اطلب حزمة BIM والمواصفات",
+    "sectors": {
+      "all": "جميع القطاعات",
+      "hotel": "فنادق",
+      "wohnen": "سكني",
+      "infra": "بنية تحتية",
+      "klinik": "مستشفيات",
+      "buero": "مكاتب"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "المنتجات",
+      "markets-solutions": "الأسواق والحلول",
+      "academy-resources": "الأكاديمية والموارد",
+      "company": "الشركة"
+    },
+    "links": {
+      "all_products": "جميع منتجات K-Aqua",
+      "finder": "باحث المنتجات للأنابيب",
+      "pipes": "الأنابيب وأنظمة الأنابيب (PP-R)",
+      "fittings": "الوصلات والتركيبات",
+      "valves": "الصمامات والمحابس",
+      "tools": "الأدوات والملحقات",
+      "transition": "وصلات انتقالية للأنابيب",
+      "all_markets": "جميع أسواق K-Aqua",
+      "all_solutions": "جميع حلول K-Aqua",
+      "overview": "نظرة عامة على أكاديمية K-Aqua",
+      "co2_calc": "حاسبة CO₂ لأنظمة PP-R",
+      "specifications": "نصوص المناقصات من K-Aqua",
+      "references": "مراجع K-Aqua حول العالم",
+      "support": "الدعم الفني لـ K-Aqua",
+      "about_us": "عن K-Aqua",
+      "career": "الوظائف في K-Aqua",
+      "news": "أخبار وصحافة K-Aqua",
+      "contact": "تواصل مع K-Aqua",
+      "service": "خدمة وصيانة K-Aqua",
+      "rfq": "طلب مشروع لأنظمة الأنابيب",
+      "partners": "شبكة شركاء K-Aqua",
+      "trust": "مركز الثقة K-Aqua",
+      "sitemap": "خريطة الموقع (HTML)"
+    }
+  },
   "catalogx": {
     "viewDetails": "عرض مواصفات المنتج",
     "eyebrow": "الكتالوج الكامل للمنتجات",
@@ -1407,6 +1474,33 @@
   "toggle_theme_light": "التبديل إلى المظهر الفاتح",
   "toggle_theme_dark": "التبديل إلى المظهر الداكن",
   "nav": {
+    "mega": {
+      "homeSr": "الصفحة الرئيسية لـ K-Aqua",
+      "pipeSystems": "أنظمة الأنابيب",
+      "allProducts": "جميع المنتجات",
+      "allProductsDesc": "نظرة عامة على جميع حلول K-Aqua PP-R",
+      "solutionsDesc": "تطبيقات خاصة بكل قطاع",
+      "digitalTools": "أدوات رقمية",
+      "finderDesc": "اضبط النظام المناسب",
+      "co2Desc": "احسب البصمة البيئية",
+      "academyDesc": "دورات تدريبية وشهادات",
+      "trustDesc": "تنزيلات وشهادات",
+      "serviceDesc": "دعم التخطيط",
+      "partnersDesc": "كن شريكًا محليًا",
+      "aboutGroup": "عن K-Aqua",
+      "company": "الشركة",
+      "companyDesc": "الرسالة والرؤية والتاريخ",
+      "careerDesc": "الوظائف الشاغرة وثقافة العمل",
+      "newsPress": "الأخبار والصحافة",
+      "newsDesc": "أحدث البيانات الصحفية",
+      "sitemap": "خريطة الموقع",
+      "sitemapDesc": "نظرة عامة على البنية",
+      "globalFootprint": "الحضور العالمي",
+      "globalMarkets": "الأسواق العالمية",
+      "marketsDesc": "المناطق المعتمدة",
+      "refProjects": "المشاريع المرجعية",
+      "refDesc": "تركيبات ناجحة"
+    },
     "home": "الرئيسية",
     "products": "المنتجات",
     "finder": "باحث المنتجات",
@@ -4174,6 +4268,7 @@
     ]
   },
   "academy": {
+    "videosHeading": "فيديوهات تدريبية وأدلة إرشادية",
     "schulungen": {
       "meta": {
         "title": "الدورات التدريبية | K-Aqua",
@@ -4619,6 +4714,7 @@
     "titleGood": "صانع اللحام"
   },
   "refs": {
+    "viewProject": "عرض المشروع",
     "eyebrow": "المشاريع المرجعية",
     "title1": "كرة أرضية مليئة بـ",
     "titleGrad": "المشاريع.",
