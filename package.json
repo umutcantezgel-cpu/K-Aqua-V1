@@ -14,8 +14,6 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "@pinecone-database/pinecone": "^8.0.0",
     "@react-three/fiber": "^9.6.1",
     "@tailwindcss/typography": "^0.5.20",
     "class-variance-authority": "^0.7.1",
