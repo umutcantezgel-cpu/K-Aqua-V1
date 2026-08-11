@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="K-Aqua">
+  <!-- Favicon. Next.js verdrahtet app/icon.svg automatisch als <link rel="icon">.
+       Die Tropfenmarke stammt aus components/ui/Logo.tsx; die Matrix bildet das
+       dortige Pfad-Koordinatensystem mittig in die 512er-Fläche ab. -->
+  <rect width="512" height="512" rx="96" fill="#542791"/>
+  <g transform="matrix(0.44,0,0,-0.44,-9.4,493.28)">
+    <path d="M 295.344,880.215 H 910.77 L 569.793,539.234 910.77,198.258 H 295.344 v 681.957" fill="#ffffff"/>
+  </g>
+</svg>

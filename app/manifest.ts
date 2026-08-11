@@ -9,16 +9,20 @@ export default function manifest(): MetadataRoute.Manifest {
     display: 'standalone',
     background_color: '#FAFAFA',
     theme_color: '#5B2D8C',
+    // Vektor statt Bitmap: skaliert verlustfrei über alle Größen und
+    // vermeidet, dass das Manifest wie zuvor auf 404er zeigt.
     icons: [
       {
-        src: '/icon-192.png', // TODO(content): actual bitmap files are missing
-        sizes: '192x192',
-        type: 'image/png',
+        src: '/icon.svg',
+        sizes: 'any',
+        type: 'image/svg+xml',
+        purpose: 'any',
       },
       {
-        src: '/icon-512.png', // TODO(content): actual bitmap files are missing
-        sizes: '512x512',
-        type: 'image/png',
+        src: '/icon-maskable.svg',
+        sizes: 'any',
+        type: 'image/svg+xml',
+        purpose: 'maskable',
       },
     ],
   };
