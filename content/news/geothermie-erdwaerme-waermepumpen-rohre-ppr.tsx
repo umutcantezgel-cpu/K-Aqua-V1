@@ -76,7 +76,7 @@ export const geothermieErdwaerme: NewsPost = {
 
           <h3>Absolute Dichtheit schützt das Grundwasser</h3>
           <p>
-            In den Rohren der Erdwärmesonde zirkuliert kein reines Wasser, sondern eine "Sole" (meist ein Wasser-Glykol-Gemisch). Dieses Frostschutzmittel verhindert, dass die Anlage einfriert, wenn die Wärmepumpe der Erde sehr viel Energie entzieht.
+            In den Rohren der Erdwärmesonde zirkuliert kein reines Wasser, sondern eine &quot;Sole&quot; (meist ein Wasser-Glykol-Gemisch). Dieses Frostschutzmittel verhindert, dass die Anlage einfriert, wenn die Wärmepumpe der Erde sehr viel Energie entzieht.
           </p>
           <p>
             Glykol ist grundwassergefährdend. Ein Leck in 50 Metern Tiefe wäre eine ökologische Katastrophe und würde massive Strafen für den Bauherren nach sich ziehen. Genau deshalb sind mechanische Verbindungen (wie Schraub- oder Pressfittings mit Gummi-Dichtringen), die im Laufe der Jahre porös werden können, im Erdreich tabu. K Aqua Rohre und Fittings (z.B. der Sondenfuß) werden durch Heizelement-Muffenschweißung oder Elektroschweißmuffen thermisch verschmolzen. Das Rohrnetz wird zu einem einzigen, endlosen, homogenen Strang. Es gibt keine Schwachstellen. Das System ist 100 % leckagesicher.

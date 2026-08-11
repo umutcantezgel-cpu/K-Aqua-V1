@@ -81,15 +81,9 @@ export default async function LocaleLayout({
     'seoExpansion'
   ]);
 
-  // Optimize HTML Payload Size by removing heavy server-only translation branches
-  // products is mostly used in Server Components, so we delete heavy nested objects
-  if (clientMessages.products) {
-    clientMessages.products = { ...clientMessages.products };
-    delete (clientMessages.products as any).seoArticle;
-    delete (clientMessages.products as any).narrative;
-    delete (clientMessages.products as any).details;
-    delete (clientMessages.products as any).categories;
-  }
+  // Hinweis: 'products' wird bewusst NICHT an den Client gegeben (nicht in der
+  // pick-Liste oben) — die Namespace-Inhalte werden ausschließlich in Server
+  // Components gerendert und würden die HTML-Payload unnötig vergrößern.
 
   const orgJsonLd = await getOrganizationJsonLd(locale);
 

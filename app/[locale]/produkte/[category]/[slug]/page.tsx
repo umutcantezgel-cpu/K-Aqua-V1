@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-literals, @typescript-eslint/no-explicit-any */
+/* eslint-disable react/jsx-no-literals */
 import { notFound, redirect } from 'next/navigation';
 
 export const revalidate = 86400;
@@ -50,7 +50,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const slugKey = `${category}_${slug}`.replace(/\//g, '_');
   const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : (product ? product.title : 'Product');
   const uniqueDesc = tNames?.has(`${slugKey}_desc`) ? tNames(`${slugKey}_desc`) : null;
-  const codesArray = Array.isArray(product?.article_codes) ? product.article_codes : [product?.article_codes || 'N/A'];
+  const codesArray: string[] = Array.isArray(product?.article_codes)
+    ? product.article_codes
+    : [String(product?.article_codes ?? 'N/A')];
   const codesStr = codesArray.slice(0, 3).join(", ") + (codesArray.length > 3 ? ", ..." : "");
   
   let metaDesc = uniqueDesc || "";
@@ -168,7 +170,9 @@ export default async function ProductDetailPage({
   
   const slugKey = `${category}_${slug}`.replace(/\//g, '_');
   const localizedTitle = tNames?.has(slugKey) ? tNames(slugKey) : (product ? product.title : 'Product');
-  const codesArray = Array.isArray(product?.article_codes) ? product.article_codes : [product?.article_codes || 'N/A'];
+  const codesArray: string[] = Array.isArray(product?.article_codes)
+    ? product.article_codes
+    : [String(product?.article_codes ?? 'N/A')];
 
   const seoCat = getDynamicSeoCategory(category);
   const seoBlocks = tSeo.has(seoCat) ? tSeo.raw(seoCat) : [];

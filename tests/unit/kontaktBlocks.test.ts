@@ -5,7 +5,8 @@ import en from '@/messages/en.json';
 import ar from '@/messages/ar.json';
 
 const FIELDS = ['kicker', 'head', 'short', 'text', 'interest', 'done'] as const;
-const LOCALES = { de, en, ar } as Record<string, any>;
+type MessageBundle = { kontaktBlocks?: Record<string, Record<string, string>>; kontaktForm?: { interests?: Record<string, string> } };
+const LOCALES: Record<string, MessageBundle> = { de, en, ar };
 
 describe('kontaktBlocks message coverage', () => {
   for (const [name, messages] of Object.entries(LOCALES)) {
@@ -14,8 +15,9 @@ describe('kontaktBlocks message coverage', () => {
         const entry = messages.kontaktBlocks?.[slug];
         expect(entry, `${name}: kontaktBlocks.${slug}`).toBeTruthy();
         for (const f of FIELDS) {
-          expect(typeof entry[f], `${name}: kontaktBlocks.${slug}.${f}`).toBe('string');
-          expect(entry[f].length, `${name}: kontaktBlocks.${slug}.${f} empty`).toBeGreaterThan(0);
+          const value = entry?.[f];
+          expect(typeof value, `${name}: kontaktBlocks.${slug}.${f}`).toBe('string');
+          expect((value ?? '').length, `${name}: kontaktBlocks.${slug}.${f} empty`).toBeGreaterThan(0);
         }
       }
     });
@@ -24,7 +26,7 @@ describe('kontaktBlocks message coverage', () => {
       const canonical = new Set(INTERESSEN.map((i) => i.value));
       for (const slug of KONTAKT_SLUGS) {
         const interest = messages.kontaktBlocks?.[slug]?.interest;
-        expect(canonical.has(interest), `${name}: kontaktBlocks.${slug}.interest = "${interest}"`).toBe(true);
+        expect(canonical.has(interest as (typeof INTERESSEN)[number]['value']), `${name}: kontaktBlocks.${slug}.interest = "${interest}"`).toBe(true);
       }
     });
 

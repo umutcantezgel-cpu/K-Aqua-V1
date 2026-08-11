@@ -3,7 +3,7 @@
 import React from "react";
 import { motion, HTMLMotionProps } from "motion/react";
 
-export interface RevealProps extends Omit<HTMLMotionProps<any>, "initial" | "whileInView" | "viewport" | "transition"> {
+export interface RevealProps extends Omit<HTMLMotionProps<"div">, "initial" | "whileInView" | "viewport" | "transition"> {
   children: React.ReactNode;
   delay?: number;
   as?: React.ElementType;
@@ -11,6 +11,9 @@ export interface RevealProps extends Omit<HTMLMotionProps<any>, "initial" | "whi
 
 export const Reveal = React.forwardRef<HTMLElement, RevealProps>(
   ({ children, delay = 0, className, as = "div", ...props }, ref) => {
+    // motion.create() ist über ein dynamisches `as` nicht präzise typisierbar;
+    // ohne diese Ausnahme verengt TS die JSX-Props auf `never`.
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const Component = motion.create(as as any) as any;
     return (
       <Component

@@ -163,7 +163,7 @@ export const warumPpr: NewsPost = {
           Die Wahl des richtigen Rohrleitungswerkstoffs ist eine der folgenreichsten Entscheidungen in der Lebensdauer eines modernen Gebäudes. Hinter den Kulissen der Wände und Versorgungsschächte schlägt das Herz der Technischen Gebäudeausrüstung (TGA). Während Metalle wie Kupfer und Stahl seit dem Zeitalter der Industrialisierung den Standard setzten, hat die moderne Polymerchemie mit der Entwicklung von Polypropylen-Random-Copolymer (PP-R) und seiner fortschrittlichen Iteration Polypropylen-Random-Copolymer mit modifizierter Kristallinität (PP-RCT) die Grenzen des physikalisch Machbaren völlig neu definiert. Die K-Aqua PP-R Systeme repräsentieren den Gipfel dieser materialwissenschaftlichen Evolution und verbinden absolute Korrosionsfreiheit mit einer jahrzehntelangen, wartungsfreien Betriebszeit.
         </p>
 
-        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Das "Random" im Copolymer: Ein Meisterwerk der Chemie</h3>
+        <h3 className="text-2xl font-heading font-bold text-foreground mt-8 mb-4">Das &quot;Random&quot; im Copolymer: Ein Meisterwerk der Chemie</h3>
         <p>
           Um zu verstehen, warum K-Aqua Rohre so widerstandsfähig sind, muss man auf die atomare Ebene blicken. Gewöhnliches Homopolypropylen (PP-H) besteht aus extrem langen, monotonen Ketten von Propylenmolekülen. Diese hohe Regelmäßigkeit führt zwar zu einem harten Material, es ist jedoch bei niedrigen Temperaturen extrem spröde, für die Druckbelastung eines Wasserrohrs, besonders bei Erschütterungen oder Wasserschlägen, ein fatales Risiko.
         </p>

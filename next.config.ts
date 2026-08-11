@@ -4,7 +4,6 @@ import createNextIntlPlugin from 'next-intl/plugin';
 // Points next-intl at the request-scoped config (see lib/i18n/request.ts - Agent 05).
 const withNextIntl = createNextIntlPlugin('./lib/i18n/request.ts');
 
-const isDev = process.env.NODE_ENV === 'development';
 const cspHeader = `
   default-src 'self';
   script-src 'self' 'unsafe-inline' 'unsafe-eval';
@@ -81,11 +80,15 @@ const nextConfig: NextConfig = {
       '@react-three/fiber'
     ],
   },
+  // Qualitäts-Gates: scharf. Ein Build bricht ab, sobald TypeScript einen
+  // Fehler meldet oder ESLint einen Error wirft (Warnings bleiben erlaubt).
+  // Nicht auf `true` zurückstellen — das war der Grund, warum kaputter Code
+  // monatelang unbemerkt deployt werden konnte.
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   async redirects() {
     return [

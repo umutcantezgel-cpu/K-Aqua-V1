@@ -69,7 +69,7 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             Ein weiterer gewaltiger Vorteil von Klimadecken ist ihre unschlagbare Energieeffizienz. Eine konventionelle Klimaanlage, die eisige Luft in den Raum bläst, benötigt extrem niedriges Kaltwasser mit einer Vorlauftemperatur von etwa 6 °C. Um das Wasser derart tief abzukühlen, müssen Kältemaschinen unter enormem Stromeinsatz harte Kompressorarbeit leisten.
           </p>
           <p className="mb-4">
-            Flächenkühlsysteme arbeiten hingegen mit einer sehr milden Vorlauftemperatur von etwa 16 bis 18 °C. Da die Kühlfläche (die gesamte Raumdecke) riesig ist, reicht diese milde Temperatur völlig aus, um den Raum effektiv zu kühlen. Dieser hohe Temperaturunterschied erlaubt den Einsatz von "Free Cooling" (Freier Kühlung). Hierbei wird in Übergangszeiten oder kühlen Nächten schlichtweg die kühle Außenluft oder das kühle Grundwasser über Erdsonden und Wärmetauscher genutzt, um das Gebäude-Kaltwasser auf 16 °C zu bringen, die stromfressenden Kompressoren bleiben komplett ausgeschaltet. Das spart gewaltige Mengen an elektrischer Energie.
+            Flächenkühlsysteme arbeiten hingegen mit einer sehr milden Vorlauftemperatur von etwa 16 bis 18 °C. Da die Kühlfläche (die gesamte Raumdecke) riesig ist, reicht diese milde Temperatur völlig aus, um den Raum effektiv zu kühlen. Dieser hohe Temperaturunterschied erlaubt den Einsatz von &quot;Free Cooling&quot; (Freier Kühlung). Hierbei wird in Übergangszeiten oder kühlen Nächten schlichtweg die kühle Außenluft oder das kühle Grundwasser über Erdsonden und Wärmetauscher genutzt, um das Gebäude-Kaltwasser auf 16 °C zu bringen, die stromfressenden Kompressoren bleiben komplett ausgeschaltet. Das spart gewaltige Mengen an elektrischer Energie.
           </p>
 
           <h3 className="text-2xl font-bold text-foreground mt-8 mb-3">Die anspruchsvolle Anbindung: Warum PPR die Steigeschächte dominiert</h3>
@@ -98,15 +98,18 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
             title="Systemkomponenten"
             items={[
               {
-                title: "1. Sehr effiziente Kälteerzeugung",
+                year: "01",
+                title: "Sehr effiziente Kälteerzeugung",
                 text: "Eine Wärmepumpe oder Kältemaschine temperiert das Wasser auf milde 16 bis 18 °C. Diese vergleichsweise hohen Systemtemperaturen (im Gegensatz zu 6 °C bei normalen Splitgeräten) sparen massiv Energie und ermöglichen Geothermie."
               },
               {
-                title: "2. Verteilung via sicherem PPR-Netz",
+                year: "02",
+                title: "Verteilung via sicherem PPR-Netz",
                 text: "Das verschweißte K-Aqua Rohrnetz transportiert das Kaltwasser leckagefrei durch die großen Steigeschächte in alle Stockwerke. Durch die geringe Wärmeleitfähigkeit von Kunststoff-PPR bleiben Kälteverluste auf dem Weg nach oben absolut minimal."
               },
               {
-                title: "3. Physikalischer Strahlungsaustausch",
+                year: "03",
+                title: "Physikalischer Strahlungsaustausch",
                 text: "In den eleganten Deckenpaneelen zirkuliert das Wasser völlig geräuschlos. Warme Raumluft steigt auf, kühlt an der Decke ab, und fällt sanft, stetig und absolut zugfrei wie ein kühler Nebel wieder nach unten in den Aufenthaltsbereich."
               }
             ]}

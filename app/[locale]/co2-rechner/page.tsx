@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-literals */
+ 
 import React from "react";
 import dynamic from "next/dynamic";
 import { getTranslations, getMessages } from "next-intl/server";

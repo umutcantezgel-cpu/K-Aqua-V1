@@ -93,7 +93,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
               Kunststoffe wie Polypropylen Random Copolymer (PP-R) haben gegenüber Metallen den entscheidenden physikalischen Vorteil der fehlenden elektrochemischen Reaktivität. PP-R korrodiert nicht. Es gibt keine Oxidation, es entsteht kein Eisenoxid (Rost), das vielen Mikroorganismen als willkommene Nährstoffquelle dient. Der Kunststoff ist inert und entzieht den Keimen schlichtweg die Lebensgrundlage.
             </p>
             <p>
-              Zudem ist die Oberflächenbeschaffenheit von entscheidender Bedeutung. K-Aqua Rohre weisen aufgrund des hochwertigen Extrusionsverfahrens eine absolute Oberflächenrauheit (k-Wert) von lediglich 0,007 mm auf. Das ist glatter als gewöhnliches Fensterglas. Ohne die mikroskopischen "Täler", die man bei Metallrohren findet, fehlt dem Kalk der Haftgrund. Wo kein Kalk anhaftet, finden auch Biofilme keinen Halt. Etwaige vereinzelte Bakterien, die in das Netz gelangen, können keine stabilen Kolonien aufbauen und werden beim normalen Zapfvorgang durch die hohen Scherkräfte des fließenden Wassers sofort und vollständig ausgespült.
+              Zudem ist die Oberflächenbeschaffenheit von entscheidender Bedeutung. K-Aqua Rohre weisen aufgrund des hochwertigen Extrusionsverfahrens eine absolute Oberflächenrauheit (k-Wert) von lediglich 0,007 mm auf. Das ist glatter als gewöhnliches Fensterglas. Ohne die mikroskopischen &quot;Täler&quot;, die man bei Metallrohren findet, fehlt dem Kalk der Haftgrund. Wo kein Kalk anhaftet, finden auch Biofilme keinen Halt. Etwaige vereinzelte Bakterien, die in das Netz gelangen, können keine stabilen Kolonien aufbauen und werden beim normalen Zapfvorgang durch die hohen Scherkräfte des fließenden Wassers sofort und vollständig ausgespült.
             </p>
             <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Thermische Beherrschbarkeit</h3>
             <p>
@@ -195,7 +195,7 @@ export const trinkwasserhygieneLegionellen: NewsPost = {
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Wie verhindere ich Totleitungen bei der Montage?</h3>
                 <p className="text-muted-foreground">
-                  Hygiene beginnt bei der Planung. Sogenannte "Totstrecken" (ungenutzte Leitungsabschnitte) müssen strikt vermieden oder unmittelbar abgetrennt werden. Durch die enorme Flexibilität von PP-R bei der Vorfertigung lassen sich Ring- und Reihenleitungssysteme sehr einfach installieren. Diese zwingen das Wasser bei jeder Betätigung einer Armatur zum Fließen, wodurch Stagnation im gesamten Strangsystem effektiv verhindert wird.
+                  Hygiene beginnt bei der Planung. Sogenannte &quot;Totstrecken&quot; (ungenutzte Leitungsabschnitte) müssen strikt vermieden oder unmittelbar abgetrennt werden. Durch die enorme Flexibilität von PP-R bei der Vorfertigung lassen sich Ring- und Reihenleitungssysteme sehr einfach installieren. Diese zwingen das Wasser bei jeder Betätigung einer Armatur zum Fließen, wodurch Stagnation im gesamten Strangsystem effektiv verhindert wird.
                 </p>
               </div>
             </div>

@@ -1,4 +1,4 @@
-/* eslint-disable */
+ 
 /**
  * K-Aqua Motion - Physik-Vokabular (Phase 1)
  *

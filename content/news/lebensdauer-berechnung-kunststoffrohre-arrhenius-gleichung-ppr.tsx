@@ -86,12 +86,12 @@ export const lebensdauerBerechnungPpr: NewsPost = {
             Dank der mathematischen Extrapolation der Arrhenius-Kurve können diese Extremwerte nun präzise auf reale Betriebsbedingungen heruntergerechnet werden. Wenn ein Rohr bei 110 °C und 15 bar nach genau einem Jahr versagt, belegt die Mathematik unanfechtbar, dass exakt dasselbe Material bei 20 °C (Kaltwasser) und 4 bar über Jahrhunderte hinweg absolut formstabil bleibt.
           </p>
 
-          <h3>Sicherheitsbeiwerte und die Miner'sche Regel</h3>
+          <h3>Sicherheitsbeiwerte und die Miner&apos;sche Regel</h3>
           <p>
             Natürlich fließen in reale Berechnungen hohe Sicherheitsreserven ein. Die DIN-Normen schreiben für die Auslegung von Kunststoff-Rohrleitungssystemen für den Trinkwassertransport einen Sicherheitsbeiwert (C) von mindestens 1,25 vor. K Aqua Systeme sind von Haus aus so dickwandig (z. B. SDR 6 oder SDR 7.4), dass sie diesen Wert oft deutlich übertreffen.
           </p>
           <p>
-            Ein weiterer Aspekt der Praxis: Eine Heizungs- oder Warmwasserleitung läuft selten 50 Jahre lang konstant bei exakt 70 °C. Die Temperaturen schwanken je nach Tageszeit, Jahreszeit oder Legionellenschaltung. Um diese zyklischen thermischen Belastungen zu berechnen, nutzen Ingenieure die Miner'sche Regel (Palmgren-Miner-Hypothese). Dabei wird das Temperaturkollektiv eines Jahres aufgeschlüsselt (z.B. 100 Stunden bei 70°C, 3000 Stunden bei 60°C, Rest bei Raumtemperatur) und der prozentuale Lebensdauerverbrauch aufaddiert.
+            Ein weiterer Aspekt der Praxis: Eine Heizungs- oder Warmwasserleitung läuft selten 50 Jahre lang konstant bei exakt 70 °C. Die Temperaturen schwanken je nach Tageszeit, Jahreszeit oder Legionellenschaltung. Um diese zyklischen thermischen Belastungen zu berechnen, nutzen Ingenieure die Miner&apos;sche Regel (Palmgren-Miner-Hypothese). Dabei wird das Temperaturkollektiv eines Jahres aufgeschlüsselt (z.B. 100 Stunden bei 70°C, 3000 Stunden bei 60°C, Rest bei Raumtemperatur) und der prozentuale Lebensdauerverbrauch aufaddiert.
           </p>
 
           <h3>Häufig gestellte Fragen (FAQ) zur PP-R Lebensdauer</h3>

@@ -8,11 +8,12 @@ export default function SignatureInitializer() {
 
   useEffect(() => {
     // Re-initialize the vanilla JS signature components on route changes
-    if (typeof window !== 'undefined' && (window as any).KAquaSignature) {
+    const sig = typeof window !== 'undefined'
+      ? (window as unknown as { KAquaSignature?: { init?: () => void } }).KAquaSignature
+      : undefined;
+    if (sig?.init) {
       // Add a slight delay to allow React to render the new DOM elements
-      setTimeout(() => {
-        (window as any).KAquaSignature.init();
-      }, 100);
+      setTimeout(() => { sig.init?.(); }, 100);
     }
   }, [pathname]);
 

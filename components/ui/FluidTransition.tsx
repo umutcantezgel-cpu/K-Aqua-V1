@@ -1,4 +1,4 @@
-/* eslint-disable */
+ 
 'use client';
 'use client';
 
@@ -192,7 +192,8 @@ export function FluidLink({ href, children, onClick, ...rest }: FluidLinkProps) 
 
   return (
     <Link ref={ref} href={href} onClick={handle}
-      aria-current={href === pathname ? 'page' : undefined} {...rest}>
+      aria-current={href === pathname ? 'page' : undefined}
+      {...(rest as Omit<React.ComponentProps<typeof Link>, 'href' | 'ref' | 'onClick'>)}>
       {children}
     </Link>
   );

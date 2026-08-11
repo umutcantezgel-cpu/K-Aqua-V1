@@ -27,7 +27,7 @@ export const HorizontalTimeline = ({
 
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-75%"]);
 
-  const CardContent = ({ item, index }: { item: any, index: number }) => (
+  const CardContent = ({ item, index }: { item: { year: string; title: string; text: string }, index: number }) => (
     <>
       <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-background/40 to-transparent z-10 pointer-events-none" />
       

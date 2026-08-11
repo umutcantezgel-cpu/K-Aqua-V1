@@ -87,7 +87,7 @@ export const legionellenpraeventionZirkulation: NewsPost = {
 
           <h3>Thermische Desinfektion: Der Stresstest für das Rohr</h3>
           <p>
-            Trotz Zirkulation schreiben Hygienepläne (oder ein akuter Legionellenbefall) die regelmäßige thermische Desinfektion vor. Dabei wird das gesamte Rohrnetz inklusive aller Armaturen für mindestens 3 Minuten mit über 70 °C heißem Wasser durchspült. Diese "Hitzeschocks" töten die Legionellen im System zuverlässig ab.
+            Trotz Zirkulation schreiben Hygienepläne (oder ein akuter Legionellenbefall) die regelmäßige thermische Desinfektion vor. Dabei wird das gesamte Rohrnetz inklusive aller Armaturen für mindestens 3 Minuten mit über 70 °C heißem Wasser durchspült. Diese &quot;Hitzeschocks&quot; töten die Legionellen im System zuverlässig ab.
           </p>
           <p>
             Viele Standardkunststoffe oder minderwertige Dichtungsringe altern unter diesen extremen Temperaturschwankungen rapide und werden spröde. K Aqua PP-R Systeme sind wärmestabilisiert und speziell für diese thermischen Härtetests konzipiert. Da die Verbindungstechnik auf Muffenschweißung (ohne O-Ringe) basiert, gibt es keine Elastomere, die durch das kochende Wasser zersetzt werden könnten. Das System bleibt für Jahrzehnte 100 % dicht und sicher.
@@ -109,7 +109,7 @@ export const legionellenpraeventionZirkulation: NewsPost = {
           </p>
           <h3>Warum ist die Reihen- oder Ringinstallation besser als die T-Stück-Installation?</h3>
           <p>
-            Bei der klassischen T-Stück-Installation endet jede Leitung blind an einer Zapfstelle. Wird das Gäste-WC Wochen nicht genutzt, stagniert das Wasser dort. Bei der Ring- oder Reiheninstallation wird die Leitung "durchgeschleift". Wenn die letzte Zapfstelle (idealerweise die Toilette) gespült wird, wird das Wasser in allen Rohren davor ausgetauscht.
+            Bei der klassischen T-Stück-Installation endet jede Leitung blind an einer Zapfstelle. Wird das Gäste-WC Wochen nicht genutzt, stagniert das Wasser dort. Bei der Ring- oder Reiheninstallation wird die Leitung &quot;durchgeschleift&quot;. Wenn die letzte Zapfstelle (idealerweise die Toilette) gespült wird, wird das Wasser in allen Rohren davor ausgetauscht.
           </p>
         </div>
       </Reveal>

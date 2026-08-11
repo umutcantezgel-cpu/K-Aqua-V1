@@ -70,7 +70,7 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
           </p>
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Die K-Aqua Lösung: Intelligente Zonenarchitektur</h3>
           <p>
-            Die moderne, energieeffiziente Hochhausplanung setzt auf "echte" Druckzonen. Das Gebäude wird in vertikale Zonen (beispielsweise alle 8 bis 10 Stockwerke) aufgeteilt. Jede Zone wird aus der Zentrale mit völlig separaten Steigleitungen angefahren. Der Geniestreich bei der Verwendung von K-Aqua PP-R liegt in der Materialanpassung: Anstatt für die gesamte Gebäudehöhe extrem dickwandige (und damit teure) Rohre zu verwenden, wird die SDR-Klasse (Standard Dimension Ratio) exakt an den real anliegenden Druck der jeweiligen Zone angepasst. Das spart Materialkosten und Gewicht.
+            Die moderne, energieeffiziente Hochhausplanung setzt auf &quot;echte&quot; Druckzonen. Das Gebäude wird in vertikale Zonen (beispielsweise alle 8 bis 10 Stockwerke) aufgeteilt. Jede Zone wird aus der Zentrale mit völlig separaten Steigleitungen angefahren. Der Geniestreich bei der Verwendung von K-Aqua PP-R liegt in der Materialanpassung: Anstatt für die gesamte Gebäudehöhe extrem dickwandige (und damit teure) Rohre zu verwenden, wird die SDR-Klasse (Standard Dimension Ratio) exakt an den real anliegenden Druck der jeweiligen Zone angepasst. Das spart Materialkosten und Gewicht.
           </p>
           <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Thermische und dynamische Lasten im Steigstrang</h3>
           <p>

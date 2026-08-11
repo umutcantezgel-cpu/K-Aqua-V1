@@ -17,7 +17,7 @@ const titles: Record<string, [string, string]> = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const [title, description] = titles[locale] || titles['en'];
+  const [title, description] = titles[locale] ?? titles['en']!;
   return constructMetadata({
     title,
     description,

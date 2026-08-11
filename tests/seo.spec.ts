@@ -1,5 +1,15 @@
 import { test, expect } from '@playwright/test';
 
+/** Nur die JSON-LD-Felder, die dieser Test tatsächlich prüft. */
+type JsonLdNode = {
+  '@context'?: string;
+  '@type'?: string;
+  name?: string;
+  address?: { streetAddress?: string };
+  contactPoint?: { telephone?: string };
+  mainEntity?: Array<{ '@type'?: string; acceptedAnswer?: { '@type'?: string } }>;
+};
+
 const ACTIVE_ROUTES = [
   '/',
   '/produkte',
@@ -53,7 +63,7 @@ test.describe('Step 19: SEO Metadata & JSON-LD Validation', () => {
         const content = await jsonLdScripts.nth(i).innerHTML();
         expect(content).toBeTruthy();
 
-        let parsedSchema: any;
+        let parsedSchema: JsonLdNode = {};
         expect(() => {
           parsedSchema = JSON.parse(content);
         }).not.toThrow();
@@ -71,10 +81,11 @@ test.describe('Step 19: SEO Metadata & JSON-LD Validation', () => {
 
         if (route.startsWith('/maerkte/') && route !== '/maerkte') {
           if (parsedSchema['@type'] === 'FAQPage') {
+            const mainEntity = parsedSchema.mainEntity ?? [];
             expect(Array.isArray(parsedSchema.mainEntity)).toBe(true);
-            expect(parsedSchema.mainEntity.length).toBeGreaterThanOrEqual(1);
-            expect(parsedSchema.mainEntity[0]['@type']).toBe('Question');
-            expect(parsedSchema.mainEntity[0].acceptedAnswer['@type']).toBe('Answer');
+            expect(mainEntity.length).toBeGreaterThanOrEqual(1);
+            expect(mainEntity[0]?.['@type']).toBe('Question');
+            expect(mainEntity[0]?.acceptedAnswer?.['@type']).toBe('Answer');
           }
         }
       }

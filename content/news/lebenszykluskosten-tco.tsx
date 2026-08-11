@@ -72,7 +72,7 @@ export const lebenszykluskostenTco: NewsPost = {
               <Coins className="w-12 h-12 text-emerald-500 mb-6" />
               <h3 className="text-2xl font-bold font-heading mb-4 text-foreground">Die einmalige Investition (K-Aqua PP-R)</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Die Verlegung von hochmolekularem K-Aqua PP-R ist ein klassisches "Fit and Forget"-Investment. Die spiegelglatte, porenfreie Rohrinnenwand verhindert Ablagerungen jeglicher Art (Kalk, Schlamm, Biofilm) und hält den notwendigen Pumpenstrom über beeindruckende 50 Jahre konstant niedrig. Es gibt absolut keine laufenden Ausgaben für Korrosionsschutz oder mechanische Rohrreinigung. Da die Verbindungen homogen verschweißt sind (keine O-Ringe, die ermüden können), sinken die Wartungskosten für das physische Rohrnetz faktisch auf null.
+                Die Verlegung von hochmolekularem K-Aqua PP-R ist ein klassisches &quot;Fit and Forget&quot;-Investment. Die spiegelglatte, porenfreie Rohrinnenwand verhindert Ablagerungen jeglicher Art (Kalk, Schlamm, Biofilm) und hält den notwendigen Pumpenstrom über beeindruckende 50 Jahre konstant niedrig. Es gibt absolut keine laufenden Ausgaben für Korrosionsschutz oder mechanische Rohrreinigung. Da die Verbindungen homogen verschweißt sind (keine O-Ringe, die ermüden können), sinken die Wartungskosten für das physische Rohrnetz faktisch auf null.
               </p>
             </Card>
           </div>

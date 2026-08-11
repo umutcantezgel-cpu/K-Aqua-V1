@@ -76,7 +76,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
 
           <h3>CIP-Verfahren (Cleaning in Place): Chemische Beständigkeit im Fokus</h3>
           <p>
-            Ein zentraler Prozess in der Lebensmittelindustrie ist das "Cleaning in Place" (CIP), die Reinigung der Produktionsanlagen ohne Demontage. Bei diesem Verfahren kommen hochkonzentrierte Reinigungsmittel, aggressive Säuren (wie Salpetersäure oder Phosphorsäure) und scharfe Laugen (wie Natronlauge) bei Temperaturen von bis zu 90 °C zum Einsatz. 
+            Ein zentraler Prozess in der Lebensmittelindustrie ist das &quot;Cleaning in Place&quot; (CIP), die Reinigung der Produktionsanlagen ohne Demontage. Bei diesem Verfahren kommen hochkonzentrierte Reinigungsmittel, aggressive Säuren (wie Salpetersäure oder Phosphorsäure) und scharfe Laugen (wie Natronlauge) bei Temperaturen von bis zu 90 °C zum Einsatz. 
           </p>
           <p>
             Während Edelstahl bei bestimmten Chloridkonzentrationen zur gefürchteten Lochfraßkorrosion neigt, zeigt PP-R eine überragende chemische Beständigkeit. Die Rohre werden von den aggressiven Reinigungsmitteln weder angegriffen noch aufgeraut. Die absolute Korrosionsfreiheit von PP-R eliminiert das Risiko von Metallionen, die in die Lebensmittel gelangen könnten. Dies verlängert die Lebensdauer des gesamten Rohrnetzwerkes erheblich und reduziert die Wartungskosten für die Anlagenbetreiber drastisch.
@@ -148,7 +148,7 @@ export const lebensmittelindustrieHygiene: NewsPost = {
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-foreground">3. Resistent gegen CIP Chemie</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    In der Lebensmittelproduktion müssen Rohre durch 'Cleaning in Place' (CIP) mit aggressiven Säuren (z.B. Salpetersäure) und Laugen gereinigt werden. PPR ist hochgradig chemikalienbeständig und übersteht diese Zyklen problemlos.
+                    In der Lebensmittelproduktion müssen Rohre durch &apos;Cleaning in Place&apos; (CIP) mit aggressiven Säuren (z.B. Salpetersäure) und Laugen gereinigt werden. PPR ist hochgradig chemikalienbeständig und übersteht diese Zyklen problemlos.
                   </p>
                 </div>
               </div>

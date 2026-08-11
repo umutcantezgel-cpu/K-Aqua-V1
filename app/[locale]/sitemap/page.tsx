@@ -37,10 +37,8 @@ export default async function SitemapPage({ params }: Props) {
 
   // Group products by category
   const productsByCategory = products.reduce((acc, product) => {
-    if (!acc[product.category]) {
-      acc[product.category] = [];
-    }
-    acc[product.category].push(product);
+    const bucket = acc[product.category] ?? (acc[product.category] = []);
+    bucket.push(product);
     return acc;
   }, {} as Record<string, typeof products>);
 

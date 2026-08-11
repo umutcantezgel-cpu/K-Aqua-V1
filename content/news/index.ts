@@ -67,7 +67,7 @@ export interface NewsPost {
 export function resolveLocalized(content: LocalizedContent | undefined, locale: string): string {
   if (!content) return '';
   if (typeof content === 'string') return content;
-  return (content as any)[locale] || content.de || '';
+  return (content as Record<string, string>)[locale] || content.de || '';
 }
 
 // Zentrale Registry fuer alle News (derzeit 4 von 50 geplanten)

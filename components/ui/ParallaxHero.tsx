@@ -14,7 +14,7 @@ export const ParallaxHero = ({
 }: {
   eyebrow?: string;
   title: string | React.ReactNode;
-  description: string | React.ReactNode;
+  description?: string | React.ReactNode;
   children?: React.ReactNode;
   className?: string;
   headingLevel?: "h1" | "h2";
@@ -73,14 +73,16 @@ export const ParallaxHero = ({
           {title}
         </HeadingComponent>
         
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-xl sm:text-2xl text-muted-foreground leading-relaxed mt-4 max-w-3xl"
-        >
-          {description}
-        </motion.p>
+        {description && (
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="text-xl sm:text-2xl text-muted-foreground leading-relaxed mt-4 max-w-3xl"
+          >
+            {description}
+          </motion.p>
+        )}
         
         <motion.div
           initial={{ opacity: 0, y: 20 }}

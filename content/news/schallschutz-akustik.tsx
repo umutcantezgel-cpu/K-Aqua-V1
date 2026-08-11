@@ -72,7 +72,7 @@ export const schallschutzAkustik: NewsPost = {
 
             <h3>Knacken durch thermische Längenausdehnung</h3>
             <p>
-              Ein oft übersehenes Problem in Warmwasser- und Heizungsnetzen ist die thermische Längenausdehnung. Wenn heißes Wasser durch ein kaltes Rohr strömt, dehnt sich das Material aus. Bei Metallrohren geschieht dies oft ruckartig (Stick-Slip-Effekt). Das Rohr rutscht ruckartig ein paar Millimeter in der Rohrschelle weiter, was das typische, laute "Knacken" in den Wänden verursacht.
+              Ein oft übersehenes Problem in Warmwasser- und Heizungsnetzen ist die thermische Längenausdehnung. Wenn heißes Wasser durch ein kaltes Rohr strömt, dehnt sich das Material aus. Bei Metallrohren geschieht dies oft ruckartig (Stick-Slip-Effekt). Das Rohr rutscht ruckartig ein paar Millimeter in der Rohrschelle weiter, was das typische, laute &quot;Knacken&quot; in den Wänden verursacht.
             </p>
             <p>
               K Aqua PP-R Systeme dehnen sich zwar thermisch ebenfalls aus, jedoch geschieht dies absolut geräuschlos, da das gleitfähige Kunststoffmaterial in Verbindung mit entsprechenden Gleitschellen keine harten Reibungsgeräusche erzeugt. In den kritischen Steigsträngen reduzieren K Aqua Faserverbundrohre (PP-RCT) zudem die Längenausdehnung um 75 %, was das Problem bereits an der Wurzel packt.

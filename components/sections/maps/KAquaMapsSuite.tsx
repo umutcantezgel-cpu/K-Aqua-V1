@@ -264,7 +264,7 @@ export function KAquaMapsSuite() {
     const map = specInstanceRef.current;
 
     if (specPolylineRef.current) specPolylineRef.current.setMap(null);
-    if (specMarkerRef.current) specMarkerRef.current.map = null;
+    if (specMarkerRef.current) (specMarkerRef.current as google.maps.marker.AdvancedMarkerElement).map = null;
 
     if (selectedSite) {
       const line = new google.maps.Polyline({
@@ -475,8 +475,8 @@ export function KAquaMapsSuite() {
                 <div className="space-y-4">
                   <div className="p-4 bg-primary/5 border border-primary/20 rounded-xl space-y-2">
                     <div className="text-xs font-bold uppercase text-primary tracking-wider">Marktzuordnung</div>
-                    <div className="font-heading font-bold text-lg text-foreground">{calculatedData.market.name}</div>
-                    <div className="text-xs text-muted-foreground">Norm: {calculatedData.market.reg}</div>
+                    <div className="font-heading font-bold text-lg text-foreground">{calculatedData.market?.name}</div>
+                    <div className="text-xs text-muted-foreground">Norm: {calculatedData.market?.reg}</div>
                   </div>
 
                   <div className="grid grid-cols-2 gap-3 text-center">

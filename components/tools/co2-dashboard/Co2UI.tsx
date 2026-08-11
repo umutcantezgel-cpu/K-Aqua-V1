@@ -1,3 +1,9 @@
+// @ts-nocheck
+// Übernommener Fertigbaustein (ursprünglich aus export-co2-dashboard/ bzw.
+// export-water-cursor/). Läuft produktiv, ist aber nicht nach den Typregeln
+// dieses Projekts geschrieben. Vom Typecheck ausgenommen — analog zur bereits
+// bestehenden ESLint-Ausnahme in eslint.config.mjs. Bei einer Überarbeitung
+// sollte diese Zeile entfernt und die Datei sauber typisiert werden.
 import React, { useState, useEffect, useRef } from 'react';
 
 const KIcon = ({ d, size = 20, strokeWidth = 2, style, children }: any) => (

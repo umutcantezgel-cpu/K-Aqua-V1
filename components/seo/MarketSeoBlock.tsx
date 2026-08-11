@@ -26,7 +26,7 @@ export function MarketSeoBlock({ locale, locationName, isCity = false }: { local
           Besonders im Bereich der Trinkwasserhygiene setzen K-Aqua Produkte höchste Standards. Die porenfreie, extrem glatte Innenoberfläche der Rohre verhindert effektiv die Bildung von Biofilmen und Legionellen, wodurch eine makellose Wasserqualität vom Einspeisepunkt bis zur Entnahmestelle gewährleistet bleibt. Egal ob in komplexen Hochhaus-Steigleitungen, weitläufigen industriellen Kühlsystemen oder anspruchsvollen kommunalen Fernwärmenetzen in {locationName} – unsere nahtlose Schweißtechnik sorgt für eine hundertprozentig homogene, dauerhaft dichte Verbindung.
         </p>
         <p className="mb-4">
-          Nachhaltigkeit und Effizienz stehen im Zentrum unserer Entwicklungsphilosophie. Die lange Lebensdauer von über 50 Jahren reduziert die Total Cost of Ownership drastisch, während die vollständige Recycelbarkeit unserer Kunststoffe aktiv zu Green-Building-Zertifizierungen (wie LEED oder BREEAM) beiträgt. Planer, Ingenieure und Installateure in {locationName} vertrauen auf das kompromisslose "German Engineering" von K-Aqua, um selbst die anspruchsvollsten wasserführenden Systeme sicher, effizient und zukunftssicher zu realisieren.
+          Nachhaltigkeit und Effizienz stehen im Zentrum unserer Entwicklungsphilosophie. Die lange Lebensdauer von über 50 Jahren reduziert die Total Cost of Ownership drastisch, während die vollständige Recycelbarkeit unserer Kunststoffe aktiv zu Green-Building-Zertifizierungen (wie LEED oder BREEAM) beiträgt. Planer, Ingenieure und Installateure in {locationName} vertrauen auf das kompromisslose &quot;German Engineering&quot; von K-Aqua, um selbst die anspruchsvollsten wasserführenden Systeme sicher, effizient und zukunftssicher zu realisieren.
         </p>
       </div>
     );
@@ -57,7 +57,7 @@ export function MarketSeoBlock({ locale, locationName, isCity = false }: { local
           Particularly in the realm of potable water hygiene, K-Aqua products set the highest standards. The non-porous, extremely smooth inner surface of our pipes effectively prevents the formation of biofilms and Legionella, ensuring pristine water quality from the point of supply to the point of use. Whether in complex high-rise risers, expansive industrial cooling systems, or demanding municipal district heating networks in {locationName} – our seamless welding technology ensures a one-hundred-percent homogeneous, permanently leak-proof connection.
         </p>
         <p className="mb-4">
-          Sustainability and efficiency are at the core of our development philosophy. The extended lifespan of over 50 years drastically reduces the Total Cost of Ownership, while the complete recyclability of our plastics actively contributes to Green Building certifications (such as LEED or BREEAM). Planners, engineers, and installers in {locationName} rely on the uncompromising "German Engineering" of K-Aqua to realize even the most demanding water-bearing systems safely, efficiently, and future-proof.
+          Sustainability and efficiency are at the core of our development philosophy. The extended lifespan of over 50 years drastically reduces the Total Cost of Ownership, while the complete recyclability of our plastics actively contributes to Green Building certifications (such as LEED or BREEAM). Planners, engineers, and installers in {locationName} rely on the uncompromising &quot;German Engineering&quot; of K-Aqua to realize even the most demanding water-bearing systems safely, efficiently, and future-proof.
         </p>
       </div>
     );
@@ -89,7 +89,7 @@ export function MarketSeoBlock({ locale, locationName, isCity = false }: { local
         تضع منتجات K-Aqua أعلى المعايير بشكل خاص في مجال نظافة مياه الشرب. يمنع السطح الداخلي للأنابيب، الخالي من المسام والناعم للغاية، بشكل فعال تكوين الأغشية الحيوية والبكتيريا الفيلقية (Legionella)، مما يضمن جودة مياه نقية من نقطة الإمداد إلى نقطة الاستخدام. سواء في أنابيب الرفع المعقدة في المباني الشاهقة، أو أنظمة التبريد الصناعية الواسعة، أو شبكات التدفئة المركزية البلدية الصعبة في {locationName} - تضمن تقنية اللحام السلسة لدينا اتصالًا متجانسًا بنسبة مائة بالمائة ومقاومًا للتسرب بشكل دائم.
       </p>
       <p className="mb-4">
-        الاستدامة والكفاءة هما في صميم فلسفتنا التطويرية. يقلل العمر الافتراضي الطويل الذي يزيد عن 50 عامًا من التكلفة الإجمالية للملكية بشكل كبير، بينما تساهم قابلية إعادة التدوير الكاملة للمواد البلاستيكية لدينا بنشاط في شهادات المباني الخضراء (مثل LEED أو BREEAM). يعتمد المخططون والمهندسون والمقاولون في {locationName} على "الهندسة الألمانية" التي لا تقبل المساومة من K-Aqua لتنفيذ حتى أكثر أنظمة المياه تطلبًا بأمان وكفاءة واستدامة.
+        الاستدامة والكفاءة هما في صميم فلسفتنا التطويرية. يقلل العمر الافتراضي الطويل الذي يزيد عن 50 عامًا من التكلفة الإجمالية للملكية بشكل كبير، بينما تساهم قابلية إعادة التدوير الكاملة للمواد البلاستيكية لدينا بنشاط في شهادات المباني الخضراء (مثل LEED أو BREEAM). يعتمد المخططون والمهندسون والمقاولون في {locationName} على &quot;الهندسة الألمانية&quot; التي لا تقبل المساومة من K-Aqua لتنفيذ حتى أكثر أنظمة المياه تطلبًا بأمان وكفاءة واستدامة.
       </p>
     </div>
   );

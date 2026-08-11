@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
 import { TRANSLATED_LOCALES } from './languages';
@@ -29,8 +31,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
     }
   }
 
-  const fs = require('fs');
-  const path = require('path');
 
   const loadJson = (filePath: string) => {
     if (fs.existsSync(filePath)) {

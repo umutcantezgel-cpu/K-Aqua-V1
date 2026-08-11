@@ -78,14 +78,16 @@ export function KontaktBlock({ slug, variant = "block", tone = "", dynamicContex
     const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}(\/|$)/, "/");
     if (key === "maerkte") {
       const match = pathWithoutLocale.match(/\/maerkte\/([^\/]+)/);
-      if (match) {
-        resolvedDynamicContext = match[1].charAt(0).toUpperCase() + match[1].slice(1);
+      const seg = match?.[1];
+      if (seg) {
+        resolvedDynamicContext = seg.charAt(0).toUpperCase() + seg.slice(1);
       }
     } else if (key === "news") {
       const match = pathWithoutLocale.match(/\/news\/([^\/]+)/);
-      if (match) {
+      const seg = match?.[1];
+      if (seg) {
         // Simple heuristic for news title: remove hyphens, title case
-        resolvedDynamicContext = match[1].split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        resolvedDynamicContext = seg.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
       }
     }
   }

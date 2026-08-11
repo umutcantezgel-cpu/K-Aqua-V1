@@ -245,7 +245,7 @@ test.describe('Step 15: Karriere & Projektanfrage (Käufer-Strecke)', () => {
       });
       await page.evaluate(() => {
         window.open = (url) => {
-          (window as any).onWindowOpen(url);
+          (window as unknown as { onWindowOpen: (u: string) => void }).onWindowOpen(String(url));
           return null;
         };
       });

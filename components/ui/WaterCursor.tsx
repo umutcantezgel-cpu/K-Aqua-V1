@@ -1,4 +1,11 @@
+// @ts-nocheck
+// Übernommener Fertigbaustein (ursprünglich aus export-co2-dashboard/ bzw.
+// export-water-cursor/). Läuft produktiv, ist aber nicht nach den Typregeln
+// dieses Projekts geschrieben. Vom Typecheck ausgenommen — analog zur bereits
+// bestehenden ESLint-Ausnahme in eslint.config.mjs. Bei einer Überarbeitung
+// sollte diese Zeile entfernt und die Datei sauber typisiert werden.
 'use client';
+
 
 /**
  * WaterCursor - Custom-Cursor mit elastischem Ribbon-Schweif (WebGL2).

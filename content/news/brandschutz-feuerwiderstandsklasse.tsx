@@ -85,9 +85,9 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
               K Aqua PP-R Rohrsysteme bestehen ausschließlich aus Kohlenstoff und Wasserstoff. Sie sind zu <span className="font-semibold">100 % halogenfrei</span>. Im Brandfall entstehen bei der Verbrennung von PP-R lediglich Kohlendioxid und Wasserdampf, genau wie bei der Verbrennung von Holz oder Wachs. Es werden keine toxischen Dioxine oder korrosiven Säuregase freigesetzt. Dies bietet den Evakuierenden wertvolle zusätzliche Minuten und schützt die Gesundheit der Rettungskräfte. Zudem wird die Rauchentwicklung auf ein absolutes Minimum reduziert, was die Sicht auf Fluchtwegen drastisch verbessert.
             </p>
 
-            <h3>Sicherheit schon bei der Installation: Keine "Hot Works"</h3>
+            <h3>Sicherheit schon bei der Installation: Keine &quot;Hot Works&quot;</h3>
             <p>
-              Ein enormer Prozentsatz von Bauwerkbränden wird paradoxerweise während der Bau- oder Sanierungsphase ausgelöst, durch sogenannte "Hot Works" (Heißarbeiten) wie Löten, Schweißen oder Trennschleifen. Beim Verlöten von Kupferrohren kommen offene Gasflammen mit Temperaturen von über 2000 °C zum Einsatz. Funkenflug kann leicht unsichtbare Schwelbrände in trockenen Zwischendecken, Isolationsmaterialien oder Holzkonstruktionen auslösen.
+              Ein enormer Prozentsatz von Bauwerkbränden wird paradoxerweise während der Bau- oder Sanierungsphase ausgelöst, durch sogenannte &quot;Hot Works&quot; (Heißarbeiten) wie Löten, Schweißen oder Trennschleifen. Beim Verlöten von Kupferrohren kommen offene Gasflammen mit Temperaturen von über 2000 °C zum Einsatz. Funkenflug kann leicht unsichtbare Schwelbrände in trockenen Zwischendecken, Isolationsmaterialien oder Holzkonstruktionen auslösen.
             </p>
             <p>
               Die Installation von K Aqua PP-R Systemen erfolgt durch elektrische Thermofusion (Muffenschweißung). Das Schweißwerkzeug wird auf exakt 260 °C erwärmt, ganz ohne offene Flamme, ohne Funkenflug und ohne Brandgefahr. Dies macht PP-R zur sichersten Wahl für Sanierungen in Altbauten, historischen Gebäuden oder bei laufendem Betrieb in sensiblen Bereichen wie Krankenhäusern.
@@ -96,7 +96,7 @@ export const brandschutzFeuerwiderstandsklasse: NewsPost = {
             <h3>Häufig gestellte Fragen (FAQ) zum Brandschutz</h3>
             <h3>Was bedeutet B1 nach DIN 4102-1 genau?</h3>
             <p>
-              B1 steht für "schwer entflammbar". Das Material kann zwar brennen, wenn es einer permanenten starken Zündquelle ausgesetzt ist, es brennt aber nicht von alleine weiter, sobald die Zündquelle entfernt wird. Es trägt nicht zur Brandausbreitung bei.
+              B1 steht für &quot;schwer entflammbar&quot;. Das Material kann zwar brennen, wenn es einer permanenten starken Zündquelle ausgesetzt ist, es brennt aber nicht von alleine weiter, sobald die Zündquelle entfernt wird. Es trägt nicht zur Brandausbreitung bei.
             </p>
             <h3>Ist PP-R für Fluchtwege zugelassen?</h3>
             <p>

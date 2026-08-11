@@ -108,7 +108,7 @@ export function constructMetadata({
     overridePath = cleanPath.replace("rohrnetz-planung-ppr", "rohrleitungsplanung-ppr");
   }
   
-  let canonicalUrl = overridePath ? `${siteUrl}/${locale}/${overridePath}` : `${siteUrl}/${locale}`;
+  const canonicalUrl = overridePath ? `${siteUrl}/${locale}/${overridePath}` : `${siteUrl}/${locale}`;
 
   // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
   let cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua(.*)?$/i, "").trim();

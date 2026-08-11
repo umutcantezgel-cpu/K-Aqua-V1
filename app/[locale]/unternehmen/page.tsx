@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // STICKY_SCROLL_ITEMS moved into component
 
-const POLICY_ICONS = [Handshake, Users, Leaf];
+const POLICY_ICONS: React.ComponentType<{ className?: string }>[] = [Handshake, Users, Leaf];
 
 export default async function UnternehmenPage({ params }: Props) {
   const { locale } = await params;
@@ -134,7 +134,7 @@ export default async function UnternehmenPage({ params }: Props) {
                     01
                   </div>
                   <div className="w-16 h-16 rounded-[18px] grid place-items-center bg-primary-soft text-primary shrink-0 relative z-10">
-                    {React.createElement(POLICY_ICONS[0] as any, { className: "w-8 h-8" })}
+                    {React.createElement(POLICY_ICONS[0]!, { className: "w-8 h-8" })}
                   </div>
                   <div className="relative z-10 mt-auto">
                     <h3 className="font-heading font-bold text-3xl text-foreground mb-4">
@@ -150,7 +150,7 @@ export default async function UnternehmenPage({ params }: Props) {
               {/* Remaining 38% split into two smaller stacked cards */}
               <div className="flex flex-col gap-6 h-full">
                 {cards.slice(1, 3).map((c, i) => {
-                  const Icon = POLICY_ICONS[i + 1] as any;
+                  const Icon = POLICY_ICONS[i + 1]!;
                   const num = i + 2;
                   return (
                     <Reveal key={c.t} delay={0.1 + (i * 0.1)} className="flex-1">

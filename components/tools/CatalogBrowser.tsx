@@ -13,7 +13,7 @@
 // components/ui/icon.tsx muss ChevronDown exportieren, siehe PROMPT.txt (Icon-Segment)).
 // Eigener State (Kategorie/Suche/offene Zeile) -> "use client".
 "use client";
-/* eslint-disable react/jsx-no-literals */
+ 
 import React, { useState } from "react";
 import { useLocale } from 'next-intl';
 import { Reveal } from "@/components/ui/Reveal";
@@ -153,12 +153,13 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
                     if (dVals.length > 0) {
                       const minD = Math.min(...dVals);
                       const maxD = Math.max(...dVals);
-                      const unit = it.head[dIdx].includes('mm') || it.head[dIdx] === '#mainPipe' ? ' mm' : '';
+                      const headCell = it.head[dIdx] ?? '';
+                      const unit = headCell.includes('mm') || headCell === '#mainPipe' ? ' mm' : '';
                       const dStr = minD === maxD ? `${minD}${unit}` : `${minD} - ${maxD}${unit}`;
                       specs.push({ label: L.dim || "Dimension", value: dStr });
-                    } else if (it.rows.length === 1 && it.rows[0][dIdx]) {
+                    } else if (it.rows.length === 1 && it.rows[0]?.[dIdx]) {
                       // Fallback für Strings wie "1/2"
-                      specs.push({ label: L.dim || "Dimension", value: String(it.rows[0][dIdx]) });
+                      specs.push({ label: L.dim || "Dimension", value: String(it.rows[0]![dIdx]) });
                     }
                   }
 
@@ -169,7 +170,7 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
                      if (thVals.length > 0) {
                        const unique = Array.from(new Set(thVals));
                        if (unique.length === 1) {
-                         specs.push({ label: L.thread || "Gewinde", value: unique[0] });
+                         specs.push({ label: L.thread || "Gewinde", value: unique[0]! });
                        } else {
                          specs.push({ label: L.thread || "Gewinde", value: `${unique[0]} ... ${unique[unique.length - 1]}` });
                        }
@@ -190,8 +191,6 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
                 return (
                   <Reveal key={it.slug} delay={i * 0.05}>
                     <EngineeredCard
-                      glow={280}
-                      stagger={22}
                       overline={it.codes || activeMeta?.title || "K-Aqua"}
                       title={it.title}
                       lead={it.note || ""}

@@ -90,7 +90,7 @@ export const messingPolypropylen: NewsPost = {
               Polypropylen hat einen linearen Ausdehnungskoeffizienten, der deutlich über dem von Metallen liegt. Wird nun heißes Wasser (z. B. 70°C in Zirkulationsleitungen) durch das System gepumpt, dehnt sich der Kunststoffmantel des Fittings stärker aus als der metallische Kern. Um zu verhindern, dass Wasser zwischen die Materialschichten kriecht, besitzen die Metalleinleger der K-Aqua Fittings ausgeklügelte geometrische Profile: Widerhaken, tiefe Rillen und asymmetrische Fräsungen. 
             </p>
             <p>
-              Während des Herstellungsprozesses wird das flüssige PP-R unter extremem Druck (Spritzguss) um diesen Kern gepresst. Beim Abkühlen schrumpft der Kunststoff ("Schwindung") auf das Metall auf und verkrallt sich mikroskopisch in den Fräsungen. Das Ergebnis ist eine hundertprozentig dichte, formschlüssige Verbindung, die auch extremsten Temperaturwechselbelastungen standhält.
+              Während des Herstellungsprozesses wird das flüssige PP-R unter extremem Druck (Spritzguss) um diesen Kern gepresst. Beim Abkühlen schrumpft der Kunststoff (&quot;Schwindung&quot;) auf das Metall auf und verkrallt sich mikroskopisch in den Fräsungen. Das Ergebnis ist eine hundertprozentig dichte, formschlüssige Verbindung, die auch extremsten Temperaturwechselbelastungen standhält.
             </p>
           </div>
         </Reveal>
@@ -185,7 +185,7 @@ export const messingPolypropylen: NewsPost = {
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Welche Drehmomente hält der Fitting aus?</h3>
                 <p className="text-muted-foreground">
-                  Dank der extrem tiefen Verzahnung im Spritzgussprozess hält der Fitting branchenüblichen Anzugsmomenten mühelos stand. Das Überdrehen mit übergroßen Rohrzangen ("Gewaltmontage") ist dennoch zu vermeiden, um die Lebensdauer der Gewindegänge nicht zu gefährden.
+                  Dank der extrem tiefen Verzahnung im Spritzgussprozess hält der Fitting branchenüblichen Anzugsmomenten mühelos stand. Das Überdrehen mit übergroßen Rohrzangen (&quot;Gewaltmontage&quot;) ist dennoch zu vermeiden, um die Lebensdauer der Gewindegänge nicht zu gefährden.
                 </p>
               </div>
             </div>

@@ -87,7 +87,7 @@ export const brandschutzRohrschachtVerlegung: NewsPost = {
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Die Nullabstandproblematik</h3>
           <p>
-            In modernen Steigeschächten ist Platz extrem teuer, Rohre werden oft dicht an dicht verlegt. Reguläre Brandschutzmanschetten benötigen jedoch einen festgelegten Mindestabstand zueinander, damit sich die Stahlkragen nicht gegenseitig bei der Quellung behindern. Für enge Schächte müssen spezielle "Nullabstand-Manschetten" oder Brandschutz-Bandagen mit entsprechender Zulassung (aBG) verwendet werden.
+            In modernen Steigeschächten ist Platz extrem teuer, Rohre werden oft dicht an dicht verlegt. Reguläre Brandschutzmanschetten benötigen jedoch einen festgelegten Mindestabstand zueinander, damit sich die Stahlkragen nicht gegenseitig bei der Quellung behindern. Für enge Schächte müssen spezielle &quot;Nullabstand-Manschetten&quot; oder Brandschutz-Bandagen mit entsprechender Zulassung (aBG) verwendet werden.
           </p>
           <h3 className="text-xl font-semibold text-foreground mt-6">Umgang mit Rohrisolierungen</h3>
           <p>

@@ -26,7 +26,7 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
   const containerRef = React.useRef<HTMLElement>(null);
 
   // ── hover handlers (Desktop) ────────────────────────────────
-  const handleEnter = useCallback((e: React.PointerEvent<HTMLAnchorElement>) => {
+  const handleEnter = useCallback((e: React.PointerEvent<HTMLElement>) => {
     // Only apply if it's a mouse (cursor) interaction
     if (e.pointerType !== 'mouse') return;
     const row = e.currentTarget;
@@ -38,7 +38,7 @@ export default function EdgeIndex({ className = '' }: { className?: string }) {
     requestAnimationFrame(() => { row.classList.add('is-hover'); });
   }, []);
 
-  const handleLeave = useCallback((e: React.PointerEvent<HTMLAnchorElement>) => {
+  const handleLeave = useCallback((e: React.PointerEvent<HTMLElement>) => {
     if (e.pointerType !== 'mouse') return;
     const row = e.currentTarget;
     const rect = row.getBoundingClientRect();

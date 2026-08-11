@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-literals */
+ 
 import React from "react";
 import { getTranslations, getMessages } from "next-intl/server";
 import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';

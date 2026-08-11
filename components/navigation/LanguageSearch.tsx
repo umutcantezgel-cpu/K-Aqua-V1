@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-literals */
+ 
 
 // components/navigation/LanguageSearch.tsx
 // K-Aqua Language Switch Module - Sprachsuche als Glass-Overlay.

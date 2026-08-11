@@ -41,6 +41,10 @@ export type LiquidFill = 'flood' | 'crest' | 'droplet';
 
 export interface LiquidMagneticButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   href?: string;
+  /** Nur relevant wenn href gesetzt ist (rendert dann einen Link). */
+  target?: string;
+  /** Nur relevant wenn href gesetzt ist (rendert dann einen Link). */
+  rel?: string;
   /** Art des Einlaufens. flood = steigt, crest = läuft quer, droplet = wächst aus dem Cursorpunkt. */
   fill?: LiquidFill;
   /** Maximaler Magnetweg in px (horizontal; vertikal 0,7-fach). */

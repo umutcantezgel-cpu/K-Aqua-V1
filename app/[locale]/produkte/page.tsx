@@ -15,7 +15,9 @@ import { Layers, Wrench, Flame, Thermometer, Download } from "@/components/ui/ic
 import { Shield, Activity } from "lucide-react";
 
 import { ProductsDeep } from "@/components/sections/ProductsDeep";
+import type { ProductsDeepTranslations } from "@/components/sections/ProductsDeep";
 import { CatalogBrowser } from '@/components/tools/CatalogBrowser';
+import type { CatalogBrowserTranslations } from '@/components/tools/CatalogBrowser';
 import { constructMetadata, getProductCatalogJsonLd } from "@/lib/seo/metadata";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -57,6 +59,13 @@ export default async function ProduktePage({ params }: Props) {
     getTranslations("productNames"),
     getMessages()
   ]);
+
+  // Der productsx-Namespace liefert die strukturierten Daten für ProductsDeep.
+  // Ein einziger, eng typisierter Zugriff statt vieler `as any`-Casts.
+  const productsx = (messages as Record<string, unknown>).productsx as
+    Partial<ProductsDeepTranslations> | undefined;
+  const catalogx = (messages as Record<string, unknown>).catalogx as
+    Partial<CatalogBrowserTranslations> | undefined;
 
   const rawRange = t.raw("range");
   const range = Array.isArray(rawRange) ? rawRange as RangeItem[] : [];
@@ -175,46 +184,46 @@ export default async function ProduktePage({ params }: Props) {
 
       {/* Deep Content und Catalog Browser am Ende der Produktseite */}
       <ProductsDeep translations={{
-        pipes: (messages as any).productsx?.pipes || [],
-        anchors: (messages as any).productsx?.anchors || [],
-        matHead: (messages as any).productsx?.matHead || [],
-        matRows: (messages as any).productsx?.matRows || [],
-        normHead: (messages as any).productsx?.normHead || [],
-        norms: (messages as any).productsx?.norms || [],
-        faq: (messages as any).productsx?.faq || [],
-        dimHead: (messages as any).productsx?.dimHead || [],
-        pipesEyebrow: (messages as any).productsx?.pipesEyebrow || '',
-        pipesTitle: (messages as any).productsx?.pipesTitle || '',
-        pipesLead: (messages as any).productsx?.pipesLead || '',
-        pipesCta: (messages as any).productsx?.pipesCta || '',
-        dimEyebrow: (messages as any).productsx?.dimEyebrow || '',
-        dimTitle: (messages as any).productsx?.dimTitle || '',
-        dimLead: (messages as any).productsx?.dimLead || '',
-        dimTabAria: (messages as any).productsx?.dimTabAria || '',
-        dimNote: (messages as any).productsx?.dimNote || '',
-        anchorsTitle: (messages as any).productsx?.anchorsTitle || '',
-        matEyebrow: (messages as any).productsx?.matEyebrow || '',
-        matTitle: (messages as any).productsx?.matTitle || '',
-        matLead: (messages as any).productsx?.matLead || '',
-        normEyebrow: (messages as any).productsx?.normEyebrow || '',
-        normTitle: (messages as any).productsx?.normTitle || '',
-        normLead: (messages as any).productsx?.normLead || '',
-        faqEyebrow: (messages as any).productsx?.faqEyebrow || '',
-        faqTitle: (messages as any).productsx?.faqTitle || '',
+        pipes: productsx?.pipes || [],
+        anchors: productsx?.anchors || [],
+        matHead: productsx?.matHead || [],
+        matRows: productsx?.matRows || [],
+        normHead: productsx?.normHead || [],
+        norms: productsx?.norms || [],
+        faq: productsx?.faq || [],
+        dimHead: productsx?.dimHead || [],
+        pipesEyebrow: productsx?.pipesEyebrow || '',
+        pipesTitle: productsx?.pipesTitle || '',
+        pipesLead: productsx?.pipesLead || '',
+        pipesCta: productsx?.pipesCta || '',
+        dimEyebrow: productsx?.dimEyebrow || '',
+        dimTitle: productsx?.dimTitle || '',
+        dimLead: productsx?.dimLead || '',
+        dimTabAria: productsx?.dimTabAria || '',
+        dimNote: productsx?.dimNote || '',
+        anchorsTitle: productsx?.anchorsTitle || '',
+        matEyebrow: productsx?.matEyebrow || '',
+        matTitle: productsx?.matTitle || '',
+        matLead: productsx?.matLead || '',
+        normEyebrow: productsx?.normEyebrow || '',
+        normTitle: productsx?.normTitle || '',
+        normLead: productsx?.normLead || '',
+        faqEyebrow: productsx?.faqEyebrow || '',
+        faqTitle: productsx?.faqTitle || '',
       }} />
       <CatalogBrowser translations={{
-        cats: (messages as any).catalogx?.cats || {},
-        eyebrow: (messages as any).catalogx?.eyebrow || '',
-        title: (messages as any).catalogx?.title || '',
-        lead: (messages as any).catalogx?.lead || '',
-        searchPlaceholder: (messages as any).catalogx?.searchPlaceholder || '',
-        noResults: (messages as any).catalogx?.noResults || '',
-        materialLabel: (messages as any).catalogx?.materialLabel || '',
-        sdrLabel: (messages as any).catalogx?.sdrLabel || '',
-        seriesLabel: (messages as any).catalogx?.seriesLabel || '',
-        pressureLabel: (messages as any).catalogx?.pressureLabel || '',
-        lenLabel: (messages as any).catalogx?.lenLabel || '',
-        viewDetails: (messages as any).catalogx?.viewDetails || '',
+        cats: catalogx?.cats || {},
+        eyebrow: catalogx?.eyebrow || '',
+        title: catalogx?.title || '',
+        lead: catalogx?.lead || '',
+        searchPlaceholder: catalogx?.searchPlaceholder || '',
+        noResults: catalogx?.noResults || '',
+        materialLabel: catalogx?.materialLabel || '',
+        sdrLabel: catalogx?.sdrLabel || '',
+        seriesLabel: catalogx?.seriesLabel || '',
+        pressureLabel: catalogx?.pressureLabel || '',
+        lenLabel: catalogx?.lenLabel || '',
+        viewDetails: catalogx?.viewDetails || '',
       }} />
       
     </div>
