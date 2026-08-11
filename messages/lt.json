@@ -1401,7 +1401,8 @@
           }
         ]
       }
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "toggle_theme_light": "Perjungti į šviesiąją temą",
   "toggle_theme_dark": "Perjungti į tamsiąją temą",
@@ -1438,7 +1439,34 @@
     "edgeLiveFilter": "Gyvas filtras",
     "edgeComparisons": "3 Palyginimai",
     "edgeMarkets": "{count} Rinkos",
-    "edgePageIndex": "Puslapių indeksas"
+    "edgePageIndex": "Puslapių indeksas",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "Įrankiai",
@@ -3928,7 +3956,26 @@
     "nextEyebrow": "Mąstymas į priekį",
     "nextTitle": "Kaip tai draugiška klimatui?",
     "nextLead": "Perduokite matmenis tiesiogiai į CO₂ skaičiuoklę ir palyginkite su variu, nerūdijančiu plienu ir PVC.",
-    "nextCta": "Į CO₂ skaičiuoklę"
+    "nextCta": "Į CO₂ skaičiuoklę",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "Pasitikėjimas",
@@ -4255,7 +4302,8 @@
         "title": "Londonas, JK",
         "d": "Biurų renovacija: atsparus korozijai pakaitalas esamiems vamzdynams."
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "Planuotojams, pirkimams ir montuotojams",
@@ -5891,7 +5939,15 @@
     "valves_tee-90-female-thread-internal-valve": "Trišakis 90° (Vid. sriegis) potinkiniam vožtuvui",
     "weld-in-saddles_weld-in-saddle-female-thread": "Suvirinamas balnas (Vid. sriegis)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Suvirinamas balnas (Išor. sriegis)",
-    "weld-in-saddles_weld-in-saddle": "Suvirinamas balnas"
+    "weld-in-saddles_weld-in-saddle": "Suvirinamas balnas",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "application": {
     "tabs": {
@@ -6303,6 +6359,24 @@
           "Perėjimai prie metalinių sriegių",
           "Dalinis atnaujinimas",
           "Korozijos problema išspręsta visam laikui"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -8056,7 +8130,8 @@
     "title1": "Žinios, kurios",
     "titleGood": "Suvirinimo pameistrys",
     "titleGrad": "jungia.",
-    "titlePerfect": "Suvirinimo meistras"
+    "titlePerfect": "Suvirinimo meistras",
+    "videosHeading": "Training videos and guides"
   },
   "resources": {
     "support": {
@@ -8184,7 +8259,8 @@
         "btnPrimary": "Pradėti užklausą",
         "btnGhost": "Susisiekti su ekspertais"
       },
-      "metaTitle": "Techninis palaikymas ir aptarnavimas PP-R vamzdynų sistemoms"
+      "metaTitle": "Techninis palaikymas ir aptarnavimas PP-R vamzdynų sistemoms",
+      "sub": "Engineering consulting, application technology, and on-site support."
     },
     "common": {
       "eyebrow": "K Aqua RESURSAI",
@@ -8607,5 +8683,110 @@
         "btnOutline": "Susisiekti su BIM vadovu"
       }
     }
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

@@ -1401,7 +1401,8 @@
           }
         ]
       }
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "toggle_theme_light": "Switch to light theme",
   "toggle_theme_dark": "Switch to dark theme",
@@ -1438,7 +1439,34 @@
     "edgeLiveFilter": "Live Filter",
     "edgeComparisons": "3 Comparisons",
     "edgeMarkets": "{count} Markets",
-    "edgePageIndex": "Page Index"
+    "edgePageIndex": "Page Index",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "Tools",
@@ -3928,7 +3956,26 @@
     "nextEyebrow": "Think Further",
     "nextTitle": "How climate-friendly is your planning?",
     "nextLead": "Transfer dimension and length directly to the CO₂ calculator and compare against copper, stainless steel, and PVC.",
-    "nextCta": "To the CO₂ Calculator"
+    "nextCta": "To the CO₂ Calculator",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "Certified Safety",
@@ -3947,7 +3994,7 @@
     "case3Desc": "Large projects with extreme requirements for longevity (SDR 11/17). Fast installation and 100% material recyclability at the end of their service life."
   },
   "co2": {
-    "guideText": "<h2>The K-Aqua CO2 Calculator: Precise Emission Analysis for Sustainable Pipe Networks</h2><p>Our CO2 Calculator is a powerful tool for determining the ecological footprint of piping systems. With increasing environmental requirements and stricter building regulations, it is becoming increasingly important for planners and builders to understand CO2 emissions over the entire life cycle of a building (Life Cycle Assessment, LCA). This calculator takes into account all decisive parameters, from raw material extraction, production, and transport to the use phase and eventual disposal or recycling.</p><p>The choice of the right pipe material has a significant impact on the energy efficiency of a building. K-Aqua PP-R and PPRCT pipes feature extremely smooth inner surfaces, which significantly reduces friction resistance and thus the required pump power. In addition, the energy required to manufacture polypropylene is significantly lower than for comparable metallic pipes such as copper or steel. With our calculator, you can simulate various scenarios, SDR classes, and insulation thicknesses to find the energetically and ecologically optimal solution for your project. In this way, you not only secure green building certificates such as LEED or BREEAM, but also make an active contribution to environmental protection.</p>",
+    "guideText": "<h2>Sustainability and LCA (Life Cycle Assessment)</h2><p>Choosing the right piping system has a significant impact on the carbon footprint of a building or industrial facility. The K-Aqua CO2 Calculator provides a comprehensive Life Cycle Assessment (LCA) in accordance with EN 15804 standards. This analysis covers the entire lifecycle: from raw material extraction and product manufacturing (Phases A1-A3) to transport and installation (Phases A4-A5), the use phase (Phase B), and end-of-life (Phase C).</p><p>Compared to traditional metal pipes like copper or steel, K-Aqua's PP-R and PPRCT pipes boast a much more favorable environmental footprint. The lower energy required for plastic extrusion and the significantly reduced weight drastically lower CO2 emissions during production and transport. Furthermore, the mirror-smooth inner surface (roughness of just 0.007 mm) ensures extremely low flow resistance. According to the Darcy-Weisbach equation, this means circulation pumps require significantly less energy (electricity) to move fluids through the system.</p><p>Particularly during the use phase (Phase B), which for piping systems often lasts 50 years or longer, these energy savings translate into massive CO2 and cost reductions (Total Cost of Ownership, TCO). Even at the end of its lifespan (Phase C), polypropylene offers environmental benefits, as it is 100% recyclable and can be reused in a circular economy (Module D). Use this calculator to accurately and transparently quantify the ecological and economic savings potential of your K-Aqua project.</p>",
     "eyebrow": "Premium Engineering Tool",
     "title1": "LCA & TCO Simulator",
     "titleGrad": "Pro",
@@ -4016,7 +4063,6 @@
     "tempCold": "Cold water (10°C)",
     "tempHot": "Hot water (60°C)",
     "recycle": "Enable End-of-Life recycling credit",
-    "guideText": "<h2>Sustainability and LCA (Life Cycle Assessment)</h2><p>Choosing the right piping system has a significant impact on the carbon footprint of a building or industrial facility. The K-Aqua CO2 Calculator provides a comprehensive Life Cycle Assessment (LCA) in accordance with EN 15804 standards. This analysis covers the entire lifecycle: from raw material extraction and product manufacturing (Phases A1-A3) to transport and installation (Phases A4-A5), the use phase (Phase B), and end-of-life (Phase C).</p><p>Compared to traditional metal pipes like copper or steel, K-Aqua's PP-R and PPRCT pipes boast a much more favorable environmental footprint. The lower energy required for plastic extrusion and the significantly reduced weight drastically lower CO2 emissions during production and transport. Furthermore, the mirror-smooth inner surface (roughness of just 0.007 mm) ensures extremely low flow resistance. According to the Darcy-Weisbach equation, this means circulation pumps require significantly less energy (electricity) to move fluids through the system.</p><p>Particularly during the use phase (Phase B), which for piping systems often lasts 50 years or longer, these energy savings translate into massive CO2 and cost reductions (Total Cost of Ownership, TCO). Even at the end of its lifespan (Phase C), polypropylene offers environmental benefits, as it is 100% recyclable and can be reused in a circular economy (Module D). Use this calculator to accurately and transparently quantify the ecological and economic savings potential of your K-Aqua project.</p>",
     "disclaimer": "Calculations are based on validated Type III EPDs (EN 15804) and the ecoinvent database (A1-A3, A4, B, C1-C4).",
     "savedLabel": "CO₂e Savings vs. best alternative",
     "savedBody1": "Equals the CO₂ absorption of",
@@ -4597,7 +4643,8 @@
     "resLow": "The videos above will help, then you'll get the Master.",
     "retry": "Try again",
     "titlePerfect": "Welding Master",
-    "titleGood": "Welding Journeyman"
+    "titleGood": "Welding Journeyman",
+    "videosHeading": "Training videos and guides"
   },
   "refs": {
     "eyebrow": "References",
@@ -4656,7 +4703,8 @@
         "title": "London, UK",
         "d": "Office renovation, corrosion-free replacement for existing pipelines."
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "For Planners, Purchasing & Installers",
@@ -5418,6 +5466,24 @@
           "Transitions to metal threads",
           "Section-by-section renovation",
           "Corrosion problem permanently solved"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -7695,7 +7761,15 @@
     "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female Thread) for Concealed Valve",
     "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
-    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle"
+    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "customerReviews": {
     "eyebrow": "Quality that connects",
@@ -8259,5 +8333,110 @@
     "p3": "Sustainability is deeply embedded within the molecular engineering of our PP-R and PPRCT systems. By providing a remarkably low internal surface roughness of 0.007 mm, our pipes drastically reduce the hydraulic friction and pressure loss across the network. According to the Darcy-Weisbach flow dynamic models, this minimal resistance translates directly into massively reduced energy consumption for circulation pumps. Over a 50-year operational lifecycle, this efficiency yields unparalleled CO2 emissions savings and substantially lowers the Total Cost of Ownership (TCO) for building operators. Furthermore, polypropylene is 100% recyclable. Through our validated Type III Environmental Product Declarations (EPD) complying with EN 15804, we provide architects and green-building planners with transparent, quantifiable data for LEED, BREEAM, and DGNB certifications.",
     "t4": "Global Reach, German Engineering & Certifications",
     "p4": "Manufactured entirely in Germany under strict ISO 9001, ISO 14001, and ISO 50001 quality and environmental management protocols, K-Aqua exports premium piping solutions to over 50 countries worldwide. Our logistics network guarantees the rapid, secure delivery of complete systems to mega-projects in the Middle East, Southeast Asia, and across Europe. Our relentless commitment to quality is validated by major international certification bodies including DVGW, SKZ, WRAS, and KIWA. We empower consulting engineers, BIM modelers, and large-scale contractors with detailed CAD/BIM libraries, intelligent calculation software, and comprehensive technical support to ensure flawless project execution. K-Aqua represents the ultimate synthesis of advanced polymer science, sustainable engineering, and uncompromising reliability in fluid management."
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

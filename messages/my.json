@@ -34,7 +34,34 @@
     "edgeLiveFilter": "တိုက်ရိုက်စစ်ထုတ်မှု",
     "edgeComparisons": "နှိုင်းယှဉ်မှု ၃ ခု",
     "edgeMarkets": "{count} စျေးကွက်များ",
-    "edgePageIndex": "စာမျက်နှာ အညွှန်း"
+    "edgePageIndex": "စာမျက်နှာ အညွှန်း",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "ကိရိယာများ",
@@ -1825,7 +1852,8 @@
     },
     "similar": {
       "title": "ဘာသာပြန်ဆိုထားသော စာသား"
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "solutions": {
     "eyebrow": "ဖြေရှင်းချက်များ",
@@ -2925,9 +2953,18 @@
     "h2": "ကျွန်ုပ်တို့သည် သုံးဆ ISO-အသိအမှတ်ပြုခံရသည်",
     "p": "ကျွန်ုပ်တို့၏ ISO စီမံခန့်ခွဲမှုစနစ်ကို တိုးချဲ့ခဲ့ပြီး ယခုအခါ အရည်အသွေး၊ သဘာဝပတ်ဝန်းကျင်နှင့် စွမ်းအင်စီမံခန့်ခွဲမှုတို့ ပါဝင်လာပြီ-",
     "iso": [
-      ["ISO 9001:2015", "အရည်အသွေး စီမံခန့်ခွဲမှုစနစ်"],
-      ["ISO 14001:2015", "သဘာဝပတ်ဝန်းကျင် စီမံခန့်ခွဲမှုစနစ်"],
-      ["ISO 50001:2018", "စွမ်းအင် စီမံခန့်ခွဲမှုစနစ်"]
+      [
+        "ISO 9001:2015",
+        "အရည်အသွေး စီမံခန့်ခွဲမှုစနစ်"
+      ],
+      [
+        "ISO 14001:2015",
+        "သဘာဝပတ်ဝန်းကျင် စီမံခန့်ခွဲမှုစနစ်"
+      ],
+      [
+        "ISO 50001:2018",
+        "စွမ်းအင် စီမံခန့်ခွဲမှုစနစ်"
+      ]
     ],
     "btnDe": "လက်မှတ် (DE)",
     "btnEn": "လက်မှတ် (EN)",
@@ -2998,11 +3035,17 @@
       },
       {
         "q": "သင့်ကို ပို၍ စေ့ဆော်မှုဖြစ်စေသောအရာကား အဘယ်နည်း။",
-        "o": ["အနှစ် ၅၀ ခံသော ထုတ်ကုန်တစ်ခု", "မြန်ဆန်ပြီး မြင်သာသော ရလဒ်များ"]
+        "o": [
+          "အနှစ် ၅၀ ခံသော ထုတ်ကုန်တစ်ခု",
+          "မြန်ဆန်ပြီး မြင်သာသော ရလဒ်များ"
+        ]
       },
       {
         "q": "အဆိုင်းလိုက် အလုပ်လုပ်ခြင်းသည် သင့်အတွက် …",
-        "o": ["စီစဉ်နိုင်ပြီး အဆင်ပြေသည်", "အတော်လေး ခက်ခဲသည်"]
+        "o": [
+          "စီစဉ်နိုင်ပြီး အဆင်ပြေသည်",
+          "အတော်လေး ခက်ခဲသည်"
+        ]
       },
       {
         "q": "နည်းပညာနှင့် သင့်ဆက်ဆံရေး?",
@@ -3031,13 +3074,34 @@
     "eyebrow": "ဥပဒေရေးရာ",
     "title": "ဆက်သွယ်ရန်လိပ်စာ",
     "rows": [
-      ["ကုမ္ပဏီ", "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"],
-      ["စီမံခန့်ခွဲမှု", "Philipp Nickel, Marcello Gallio"],
-      ["မှတ်ပုံတင်တရားရုံး", "Wetzlar HRB 6732"],
-      ["ရုံးချုပ်", "Waldsolms"],
-      ["VAT မှတ်ပုံတင်နံပါတ်", "DE 296238486"],
-      ["ဖုန်း / ဖက်စ်", "+49 (0)60 85 / 9868-410 · ဖက်စ် -420"],
-      ["အီးမေးလ်", "info@k-aqua.de"]
+      [
+        "ကုမ္ပဏီ",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "စီမံခန့်ခွဲမှု",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "မှတ်ပုံတင်တရားရုံး",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "ရုံးချုပ်",
+        "Waldsolms"
+      ],
+      [
+        "VAT မှတ်ပုံတင်နံပါတ်",
+        "DE 296238486"
+      ],
+      [
+        "ဖုန်း / ဖက်စ်",
+        "+49 (0)60 85 / 9868-410 · ဖက်စ် -420"
+      ],
+      [
+        "အီးမေးလ်",
+        "info@k-aqua.de"
+      ]
     ]
   },
   "products": {
@@ -3914,7 +3978,26 @@
     "nextEyebrow": "ဆက်လက်တွေးတောခြင်း",
     "nextTitle": "သင့်စီမံကိန်းသည် မည်မျှ သဘာဝပတ်ဝန်းကျင်နှင့် ကိုက်ညီသနည်း?",
     "nextLead": "အရွယ်အစားနှင့် အရှည်ကို CO₂ တွက်ချက်စက်သို့ တိုက်ရိုက်ပေးပို့ပြီး ကြေးနီ၊ သံမဏိ၊ PVC တို့နှင့် နှိုင်းယှဉ်ပါ။",
-    "nextCta": "CO₂ တွက်ချက်စက်သို့"
+    "nextCta": "CO₂ တွက်ချက်စက်သို့",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "အသိအမှတ်ပြုထားသော လုံခြုံမှု",
@@ -4036,9 +4119,18 @@
     "titleGrad": "တိုင်းတာနိုင်ပါသည်။",
     "lead": "ယုံကြည်မှုသည် တိုင်းတာနိုင်ပါသည်။ လက်မှတ်များ၊ GENAU လုပ်ငန်းစဉ်နှင့် စာရင်းစစ် စာရွက်စာတမ်းများ၊ ကိုယ်တိုင် ဝန်ဆောင်မှုအဖြစ်။ လူကိုယ်တိုင် ပေးပို့ရန် ရက်ပေါင်းများစွာ စောင့်ဆိုင်းစရာမလိုပါ။",
     "certs": [
-      ["ISO 9001:2015", "အရည်အသွေး စီမံခန့်ခွဲမှု"],
-      ["ISO 14001:2015", "ပတ်ဝန်းကျင် စီမံခန့်ခွဲမှု"],
-      ["ISO 50001:2018", "စွမ်းအင် စီမံခန့်ခွဲမှု"]
+      [
+        "ISO 9001:2015",
+        "အရည်အသွေး စီမံခန့်ခွဲမှု"
+      ],
+      [
+        "ISO 14001:2015",
+        "ပတ်ဝန်းကျင် စီမံခန့်ခွဲမှု"
+      ],
+      [
+        "ISO 50001:2018",
+        "စွမ်းအင် စီမံခန့်ခွဲမှု"
+      ]
     ],
     "accred": "DAkkS-အသိအမှတ်ပြု",
     "certNo": "လက်မှတ်အမှတ်.",
@@ -4549,7 +4641,11 @@
     "quiz": [
       {
         "q": "PP-R ၏ socket fusion ဂဟေဆက်ခြင်းအတွက် မည်သည့် အပူချိန်ကို မဖြစ်မနေ လိုအပ်သနည်း။",
-        "o": ["200°C ± 10°C", "260°C ± 10°C", "300°C ± 10°C"],
+        "o": [
+          "200°C ± 10°C",
+          "260°C ± 10°C",
+          "300°C ± 10°C"
+        ],
         "c": 1
       },
       {
@@ -4572,7 +4668,11 @@
       },
       {
         "q": "မည်သည့် SDR တန်ဖိုး (Standard Dimension Ratio) သည် အမြင့်ဆုံး ဖိအားခံနိုင်ရည်ကို ကိုယ်စားပြုသနည်း။",
-        "o": ["SDR 11", "SDR 7.4", "SDR 6"],
+        "o": [
+          "SDR 11",
+          "SDR 7.4",
+          "SDR 6"
+        ],
         "c": 2
       },
       {
@@ -4598,7 +4698,8 @@
     "resLow": "ကြိုးစားကြည့်ပါ!",
     "retry": "ထပ်မံကြိုးစားရန်",
     "titlePerfect": "ပြီးပြည့်စုံသော",
-    "titleGood": "ကောင်းမွန်သော"
+    "titleGood": "ကောင်းမွန်သော",
+    "videosHeading": "Training videos and guides"
   },
   "refs": {
     "eyebrow": "ရည်ညွှန်းချက်များ",
@@ -4657,7 +4758,8 @@
         "title": "London, UK",
         "d": "ရေပေးဝေရေး"
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "စီစဉ်သူများ၊ ဝယ်ယူသူများနှင့် တပ်ဆင်သူများအတွက်",
@@ -4746,8 +4848,19 @@
     "dimsHint": "ခန့်မှန်းခြေ အချက်အလက်များဖြင့် လုံလောက်ပါသည်။",
     "fTime": "စီစဉ်ထားသော အချိန်ဇယား",
     "fRegion": "ပေးပို့မည့် ဒေသ",
-    "timelines": ["ချက်ချင်း", "၁-၃ လအတွင်း", "၃-၆ လအတွင်း", "စီစဉ်ဆဲ"],
-    "regions": ["ဂျာမနီ", "DACH", "ဥရောပ", "အရှေ့အလယ်ပိုင်း", "ကမ္ဘာတစ်ဝန်း"],
+    "timelines": [
+      "ချက်ချင်း",
+      "၁-၃ လအတွင်း",
+      "၃-၆ လအတွင်း",
+      "စီစဉ်ဆဲ"
+    ],
+    "regions": [
+      "ဂျာမနီ",
+      "DACH",
+      "ဥရောပ",
+      "အရှေ့အလယ်ပိုင်း",
+      "ကမ္ဘာတစ်ဝန်း"
+    ],
     "fName": "အမည်",
     "fCompany": "ကုမ္ပဏီ",
     "fEmail": "အီးမေးလ်",
@@ -4996,7 +5109,12 @@
     "libEyebrow": "စာရွက်စာတမ်း စာကြည့်တိုက်",
     "libTitle": "စာရွက်စာတမ်းအားလုံးကို တစ်နေရာတည်းတွင် ကြည့်ရှုနိုင်သည်။",
     "libLead": "ကတ်တလောက် ၃ မျိုးကို တိုက်ရိုက် ဒေါင်းလုဒ်လုပ်နိုင်သည်၊ ဘာသာစကားနှစ်မျိုးဖြင့် လက်မှတ်များနှင့် Trust Center တွင် ကိုယ်တိုင်ဝန်ဆောင်မှု စစ်ဆေးရေး စာရွက်စာတမ်းများ ရရှိနိုင်သည်။",
-    "libHead": ["စာရွက်စာတမ်း", "ပါဝင်မှု", "ဘာသာစကား", "ရယူရန်"],
+    "libHead": [
+      "စာရွက်စာတမ်း",
+      "ပါဝင်မှု",
+      "ဘာသာစကား",
+      "ရယူရန်"
+    ],
     "libRows": [
       {
         "t": "K Aqua ထုတ်ကုန် အစီအစဉ်",
@@ -5688,16 +5806,46 @@
     "glossEyebrow": "ဘာသာပြန်ဆိုထားသော စာသား",
     "glossTitle": "ဘာသာပြန်ဆိုထားသော စာသား",
     "gloss": [
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ]
     ]
   },
   "application": {
@@ -5916,11 +6064,26 @@
     ],
     "factsTitle": "ဘာသာပြန်ဆိုထားသော စာသား",
     "facts": [
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ]
     ],
     "mapLabel": "ဘာသာပြန်ဆိုထားသော စာသား",
     "faqEyebrow": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -6018,10 +6181,22 @@
       "tempLabel": "ဘာသာပြန်ဆိုထားသော စာသား",
       "tempNote": "ဘာသာပြန်ဆိုထားသော စာသား",
       "meta": [
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       ]
     },
     "layers": {
@@ -6046,10 +6221,22 @@
     "comply": {
       "title": "ဘာသာပြန်ဆိုထားသော စာသား",
       "items": [
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       ]
     },
     "rangeTitle": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -6057,9 +6244,18 @@
       "title": "ဘာသာပြန်ဆိုထားသော စာသား",
       "lead": "ဘာသာပြန်ဆိုထားသော စာသား",
       "chips": [
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-        ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ],
+        [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       ]
     },
     "heroDesc": "အရှေ့အလယ်ပိုင်းရှိ ရေရှည်တည်တံ့သော မိုးမျှော်တိုက်များမှ အာရှရှိ စက်မှုစက်ရုံများအထိ: အလျှော့မပေးသော အရည်အသွေး လိုအပ်သည့်နေရာတွင် ကမ္ဘာတစ်ဝှမ်းရှိ အဆောက်အအုံတည်ဆောက်သူများနှင့် အင်ဂျင်နီယာများသည် K Aqua ၏ PP-R ပိုက်စနစ်များကို မှီခိုအားထားကြသည်။ ၁၀၀% ဂျာမနီနိုင်ငံတွင် ထုတ်လုပ်သည်။",
@@ -6109,11 +6305,26 @@
     "helpTitle": "ဘာသာပြန်ဆိုထားသော စာသား",
     "helpLead": "ဘာသာပြန်ဆိုထားသော စာသား",
     "help": [
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"],
-      ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ],
+      [
+        "ဘာသာပြန်ဆိုထားသော စာသား",
+        "ဘာသာပြန်ဆိုထားသော စာသား"
+      ]
     ],
     "flowTitle": "ဘာသာပြန်ဆိုထားသော စာသား",
     "flow": [
@@ -6966,7 +7177,10 @@
         "tag": "ဘာသာပြန်ဆိုထားသော စာသား",
         "t": "ဘာသာပြန်ဆိုထားသော စာသား",
         "teaser": "ဘာသာပြန်ဆိုထားသော စာသား",
-        "body": ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        "body": [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       },
       {
         "date": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -6984,7 +7198,10 @@
         "tag": "ဘာသာပြန်ဆိုထားသော စာသား",
         "t": "ဘာသာပြန်ဆိုထားသော စာသား",
         "teaser": "ဘာသာပြန်ဆိုထားသော စာသား",
-        "body": ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        "body": [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       }
     ],
     "ishTitle": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -7067,7 +7284,15 @@
     "valves_tee-90-female-thread-internal-valve": "T-ပုံစံ ၉၀° (အမဝက်အူရစ်) မြှုပ်နှံအဆို့ရှင်အတွက်",
     "weld-in-saddles_weld-in-saddle-female-thread": "ဂဟေဆက်ကုန်းနှီး (အမဝက်အူရစ်)",
     "weld-in-saddles_weld-in-saddle-male-thread": "ဂဟေဆက်ကုန်းနှီး (အဖိုဝက်အူရစ်)",
-    "weld-in-saddles_weld-in-saddle": "ဂဟေဆက်ကုန်းနှီး"
+    "weld-in-saddles_weld-in-saddle": "ဂဟေဆက်ကုန်းနှီး",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "productsx": {
     "pipesEyebrow": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -7077,22 +7302,34 @@
       {
         "t": "ဘာသာပြန်ဆိုထားသော စာသား",
         "d": "ဘာသာပြန်ဆိုထားသော စာသား",
-        "tags": ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        "tags": [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       },
       {
         "t": "ဘာသာပြန်ဆိုထားသော စာသား",
         "d": "ဘာသာပြန်ဆိုထားသော စာသား",
-        "tags": ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        "tags": [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       },
       {
         "t": "ဘာသာပြန်ဆိုထားသော စာသား",
         "d": "ဘာသာပြန်ဆိုထားသော စာသား",
-        "tags": ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        "tags": [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       },
       {
         "t": "ဘာသာပြန်ဆိုထားသော စာသား",
         "d": "ဘာသာပြန်ဆိုထားသော စာသား",
-        "tags": ["ဘာသာပြန်ဆိုထားသော စာသား", "ဘာသာပြန်ဆိုထားသော စာသား"]
+        "tags": [
+          "ဘာသာပြန်ဆိုထားသော စာသား",
+          "ဘာသာပြန်ဆိုထားသော စာသား"
+        ]
       }
     ],
     "dimEyebrow": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -7564,7 +7801,8 @@
         "btnPrimary": "ဘာသာပြန်ဆိုထားသော စာသား",
         "btnGhost": "ဘာသာပြန်ဆိုထားသော စာသား"
       },
-      "metaTitle": "ဘာသာပြန်ဆိုထားသော စာသား"
+      "metaTitle": "ဘာသာပြန်ဆိုထားသော စာသား",
+      "sub": "Engineering consulting, application technology, and on-site support."
     },
     "downloads": {
       "title": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -8081,6 +8319,24 @@
           "ဘာသာပြန်ဆိုထားသော စာသား",
           "ဘာသာပြန်ဆိုထားသော စာသား"
         ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
+        ]
       }
     ],
     "cmpEyebrow": "ဘာသာပြန်ဆိုထားသော စာသား",
@@ -8253,5 +8509,110 @@
       "btn": "ဆက်သွယ်ရန်"
     }
   },
-  "quote": "စီမံကိန်းတောင်းဆိုမှု"
+  "quote": "စီမံကိန်းတောင်းဆိုမှု",
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+  }
 }

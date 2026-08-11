@@ -34,7 +34,34 @@
     "edgeLiveFilter": "لائیو فلٹر",
     "edgeComparisons": "3 موازنہ",
     "edgeMarkets": "{count} مارکیٹس",
-    "edgePageIndex": "صفحہ انڈیکس"
+    "edgePageIndex": "صفحہ انڈیکس",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "اوزار",
@@ -496,7 +523,26 @@
     "nextEyebrow": "آگے کی سوچ",
     "nextTitle": "آپ کی منصوبہ بندی کتنی ماحول دوست ہے؟",
     "nextLead": "ڈائمینشن اور لمبائی کو براہ راست CO₂ کیلکولیٹر میں منتقل کریں اور تانبے، سٹینلیس سٹیل اور PVC سے موازنہ کریں۔",
-    "nextCta": "CO₂ کیلکولیٹر پر جائیں"
+    "nextCta": "CO₂ کیلکولیٹر پر جائیں",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "مصدقہ سیکیورٹی",
@@ -3263,7 +3309,8 @@
     },
     "similar": {
       "title": "{category} سے مزید"
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "products": {
     "allMarkets": "تمام 50+ مارکیٹیں دیکھیں",
@@ -5623,7 +5670,8 @@
     "resLow": "اوپر دی گئی ویڈیوز مدد کریں گی۔ اس کے بعد، آپ ماسٹر بن جائیں گے۔",
     "retry": "دوبارہ کوشش کریں",
     "titlePerfect": "ویلڈنگ ماسٹر",
-    "titleGood": "ویلڈنگ جرنی مین"
+    "titleGood": "ویلڈنگ جرنی مین",
+    "videosHeading": "Training videos and guides"
   },
   "refs": {
     "eyebrow": "حوالہ جات",
@@ -5650,13 +5698,13 @@
       {
         "id": "warsaw",
         "lat": 52.2,
-        "lon": 21.0,
+        "lon": 21,
         "title": "وارسا، پولینڈ",
         "d": "نیا رہائشی علاقہ: پینے کے پانی کی مکمل تنصیب d20–d110۔"
       },
       {
         "id": "istanbul",
-        "lat": 41.0,
+        "lat": 41,
         "lon": 28.9,
         "title": "استنبول، ترکی",
         "d": "ہوٹل کمپلیکس: فائبر کمپوزٹ پائپ کے ساتھ سرکولیشن لائنز۔"
@@ -5682,7 +5730,8 @@
         "title": "لندن، برطانیہ",
         "d": "دفتر کی تزئین و آرائش: موجودہ پائپوں کے لیے سنکنرن سے پاک تبدیلی۔"
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "منصوبہ سازوں، خریداری اور پروسیسرز کے لیے",
@@ -6653,6 +6702,24 @@
           "دھاتی دھاگوں میں تبدیلی",
           "حصوں میں تزئین و آرائش",
           "سنکنرن کا مسئلہ مستقل طور پر حل ہو گیا"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -8013,7 +8080,15 @@
     "valves_tee-90-female-thread-internal-valve": "ٹی 90° (عورت کا دھاگہ) چھپے ہوئے والو کے لیے",
     "weld-in-saddles_weld-in-saddle-female-thread": "ویلڈ ان سیڈل (عورت کا دھاگہ)",
     "weld-in-saddles_weld-in-saddle-male-thread": "ویلڈ ان سیڈل (مرد کا دھاگہ)",
-    "weld-in-saddles_weld-in-saddle": "ویلڈ ان سیڈل"
+    "weld-in-saddles_weld-in-saddle": "ویلڈ ان سیڈل",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "customerReviews": {
     "eyebrow": "معیار جو جوڑتا ہے",
@@ -8595,5 +8670,110 @@
     "p3": "پائیداری ہمارے PP-R اور PPRCT نظام کی مالیکیولر انجینئرنگ میں گہرائی سے سرایت کر گئی ہے۔ 0.007 ملی میٹر کا نمایاں طور پر کم اندرونی سطح کا کھردرا پن فراہم کرکے، ہمارے پائپ پورے نیٹ ورک میں ہائیڈرولک رگڑ اور دباؤ کے نقصان کو کافی حد تک کم کرتے ہیں۔ ڈارسی-ویسباچ کے فلو ڈائنامک ماڈلز کے مطابق، یہ کم سے کم مزاحمت براہ راست گردشی پمپوں کے لیے بڑے پیمانے پر کم توانائی کی کھپت میں ترجمہ کرتی ہے۔ 50 سالہ آپریشنل لائف سائیکل کے دوران، یہ کارکردگی بے مثال CO2 کے اخراج کی بچت حاصل کرتی ہے اور عمارت چلانے والوں کے لیے ملکیتی کی کل لاگت (TCO) کو کافی حد تک کم کرتی ہے۔ مزید برآں، پولی پروپیلین 100% قابل ری سائیکل ہے۔ EN 15804 کی تعمیل کرنے والے ہمارے توثیق شدہ قسم III کے ماحولیاتی پروڈکٹ ڈیکلریشنز (EPD) کے ذریعے، ہم معماروں اور گرین بلڈنگ کے منصوبہ سازوں کو LEED، BREEAM، اور DGNB سرٹیفیکیشنز کے لیے شفاف، قابل مقدار ڈیٹا فراہم کرتے ہیں۔",
     "t4": "عالمی رسائی، جرمن انجینئرنگ اور سرٹیفیکیشنز",
     "p4": "ISO 9001، ISO 14001، اور ISO 50001 معیار اور ماحولیاتی انتظام کے سخت پروٹوکولز کے تحت مکمل طور پر جرمنی میں تیار کیا گیا، K-Aqua دنیا بھر کے 50 سے زائد ممالک میں پریمیم پائپنگ سلوشنز برآمد کرتا ہے۔ ہمارا لاجسٹکس نیٹ ورک مشرق وسطیٰ، جنوب مشرقی ایشیا اور پورے یورپ میں میگا پروجیکٹس کو مکمل نظاموں کی تیز رفتار، محفوظ ترسیل کی ضمانت دیتا ہے۔ معیار کے تئیں ہماری انتھک وابستگی کی توثیق بڑے بین الاقوامی سرٹیفیکیشن اداروں کے ذریعے کی جاتی ہے بشمول DVGW، SKZ، WRAS، اور KIWA۔ ہم مشاورتی انجینئرز، BIM ماڈلرز، اور بڑے پیمانے کے ٹھیکیداروں کو تفصیلی CAD/BIM لائبریریوں، ذہین حساب کتاب کے سافٹ ویئر، اور پراجیکٹ کے بے عیب نفاذ کو یقینی بنانے کے لیے جامع تکنیکی معاونت کے ساتھ بااختیار بناتے ہیں۔ K-Aqua ایڈوانسڈ پولیمر سائنس، پائیدار انجینئرنگ، اور سیال کے انتظام میں غیر سمجھوتہ قابل اعتماد کی حتمی ترکیب کی نمائندگی کرتا ہے۔"
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

@@ -35,7 +35,34 @@
     "edgeLiveFilter": "Filtru live",
     "edgeComparisons": "3 Comparații",
     "edgeMarkets": "{count} Piețe",
-    "edgePageIndex": "Index pagini"
+    "edgePageIndex": "Index pagini",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "Unelte",
@@ -467,7 +494,8 @@
         "title": "Londra, UK",
         "d": "Renovare birouri: înlocuirea conductelor existente cu soluții fără coroziune."
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "Pentru Planificatori, Achiziții & Instalatori",
@@ -1006,7 +1034,26 @@
     "nextEyebrow": "Gândire în perspectivă",
     "nextTitle": "Cât de ecologică este planificarea dumneavoastră?",
     "nextLead": "Transferați direct dimensiunea și lungimea în calculatorul de CO₂ și comparați cu cuprul, oțelul inoxidabil și PVC-ul.",
-    "nextCta": "Către calculatorul CO₂"
+    "nextCta": "Către calculatorul CO₂",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "Securitate certificată",
@@ -3824,7 +3871,8 @@
           }
         ]
       }
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "solutions": {
     "eyebrow": "SOLUȚII",
@@ -4129,57 +4177,81 @@
       }
     },
     "hotels": {
-      "meta": {
-        "title": "Infrastructură pentru Hoteluri și Resorturi | K Aqua",
-        "desc": "K Aqua Hotel & Resort: Siguranță invizibilă, liniște absolută. Oferim soluții pentru hoteluri și resorturi de lux."
+      "intro": {
+        "title1": "Adevăratul lux",
+        "title2": "este invizibil.",
+        "titleGrad": "Și inaudibil.",
+        "desc": "O experiență de cinci stele nu tolerează compromisuri. Nici în servicii, nici în structura clădirii. Polimerii noștri PP-R de înaltă densitate elimină zgomotele de curgere, previn pierderea termică și garantează puritatea microbiologică. Bun venit la clasa de referință a tehnicii fluidelor."
+      },
+      "bentoSection": {
+        "eyebrow": "Anatomia perfecțiunii",
+        "title": "Specificații care deconstruiesc standardul industriei.",
+        "lead": "Am analizat critic fiecare element al conductelor clasice și l-am înlocuit cu capodopere ale științei materialelor."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "Izolare acustică de clasă de referință",
+            "desc": "Izolarea fonică este atributul suprem de calitate în segmentul hotelier de lux. Structura noastră polimerică proprie în trei straturi absoarbe zgomotul structural și zgomotele de curgere direct la sursă. Niciun șoaptă a apei nu pătrunde în apartamentele oaspeților dvs. testat conform DIN 4109."
+          },
+          {
+            "title": "Reziliență termică",
+            "desc": "Pierdere minimă de căldură cu eficiență maximă. Densitatea moleculară a K Aqua PP-R izolează nativ și reduce drastic necesarul de izolație secundară. Rezultatul: Economii masive la OPEX."
+          },
+          {
+            "title": "100% fără coroziune",
+            "desc": "Apă agresivă, piscine clorurate sau salinitate extremă în stațiunile de coastă? Acolo unde metalele capitulează, K Aqua își păstrează integritatea structurală. Timp de o jumătate de secol."
+          },
+          {
+            "title": "Fortăreață microbiologică",
+            "desc": "Legionella și biofilmele se dezvoltă din cauza denivelărilor microscopice. Suprafața interioară a țevilor K Aqua este atât de netedă la nivel molecular încât bacteriile pur și simplu nu se pot atașa. Puritate clinică pentru alimentarea cu apă potabilă a complexului dumneavoastră."
+          }
+        ]
+      },
+      "textSection": {
+        "title": "Ingineria din spatele tăcerii",
+        "p1": "În zgârie-nori și resorturi extinse domină condiții fizice extreme. Presiunea apei, care este pompată sute de metri înălțime. Diferențe de temperatură care aduc materialele tradiționale la limitele lor de rezistență.",
+        "p2": "Sistemele tradiționale din cupru prezintă semne semnificative de eroziune la viteze mari de curgere. Cavitația, cauzată de fluctuațiile de presiune în conductele ascendente ale hotelurilor înalte, duce inevitabil la micro-fisuri, coroziune punctiformă și, în final, la daune catastrofale cauzate de apă care pot paraliza etaje întregi. Pentru un operator hotelier, acest lucru înseamnă nu doar costuri masive de renovare, ci și o pierdere ireparabilă de reputație.",
+        "p3": "K Aqua urmează o cale radical diferită.",
+        "p4": "Sistemele noastre se bazează pe copolimerizare random de polipropilenă (PP-R) de ultimă generație. Printr-un proces de extruziune extrem de complex în fabrica noastră principală din Germania, aliniem lanțurile de polimeri astfel încât să prezinte o combinație fără precedent de flexibilitate și rezistență extremă la presiune. Dacă apar șocuri de presiune (lovituri de berbec) în sistem, materialul absoarbe elastic această energie cinetică, în loc să o transmită structurii clădirii sub formă de șoc acustic sau fisură mecanică.",
+        "h3": "Suduri omogene: Sfârșitul scurgerilor",
+        "p5": "Veriga cea mai slabă din orice sistem de conducte este conexiunea. Filetele se corodează, inelele de etanșare devin poroase, conexiunile lipite cedează din cauza ciclizării termice.",
+        "p6": "Noi utilizăm principiul fuziunii moleculare. Țeava și fitingul sunt încălzite termic la exact 260°C și apoi îmbinate. În fracțiuni de secundă, lanțurile de polimeri ale ambelor componente se contopesc într-o unitate monolitică, inseparabilă. Rezultatul: nu mai există nicio \"conexiune\". Țeava și fitingul sunt o singură bucată continuă de material. Fără garnitură, fără puncte slabe, cu o fiabilitate de 100%."
       },
       "hero": {
-        "eyebrow": "Hoteluri & Resorturi",
-        "title1": "Liniște absolută.",
-        "title2": "Igienă invizibilă.",
-        "desc": "Într-un hotel de 5 stele, infrastructura trebuie să fie invizibilă. Zero zgomote, zero probleme cu apa, zero scurgeri. Sistemele noastre de polimeri garantează acustică perfectă, igienă ireproșabilă și decenii de fiabilitate operațională absolută.",
-        "cta1": "Cere o consultație",
-        "cta2": "Descarcă specificațiile"
-      },
-      "intro": {
-        "eyebrow": "Provocarea Ospitalității",
-        "title": "Adevăratul lux este ceea ce oaspeții nu observă.",
-        "lead": "Când un sistem de conducte eșuează într-un resort de lux, rezultatul nu este doar apă pe podea. Este reputație distrusă, daune operaționale și costuri uriașe.",
-        "h2": "De ce eșuează sistemele convenționale",
-        "p1": "Sistemele tradiționale de cupru și oțel sunt predispuse la uzură în hoteluri. Fluctuațiile termice extreme de la sistemele puternice de încălzire, dezinfecția termică constantă pentru prevenirea legionelelor și substanțele chimice agresive din piscine degradează metalul inexorabil.",
-        "p2": "Coroziunea duce la apă brună (ruginie). Pitting-ul duce la micro-scurgeri invizibile care pot distruge lent plafoanele unor apartamente întregi. Zgomotele de curgere prin pereții subțiri ai băilor deranjează somnul oaspeților.",
-        "p3": "K Aqua urmează o cale radical diferită.",
-        "p4": "Sistemele noastre se bazează pe Copolimer Random de Polipropilenă (PP-R) de ultimă generație. Printr-un proces de extruziune extrem de complex, în fabrica noastră principală din Germania, aliniem lanțurile de polimeri astfel încât să prezinte o combinație fără precedent de flexibilitate și rezistență extremă la presiune. Dacă apar șocuri de presiune (lovituri de berbec) în sistem, materialul absoarbe elastic această energie cinetică, în loc să o transmită structurii clădirii ca șoc acustic sau fisură mecanică.",
-        "h3": "Conexiuni sudate omogene: Sfârșitul scurgerilor",
-        "p5": "Cea mai slabă verigă în orice sistem de conducte este conexiunea. Filetele corodează, inelele de etanșare devin poroase, conexiunile lipite cedează din cauza ciclizării termice.",
-        "p6": "Noi folosim principiul fuziunii moleculare. Țeava și fitingul sunt încălzite termic la exact 260°C și apoi unite. Într-o fracțiune de secundă, lanțurile de polimeri ale ambelor componente fuzionează într-o unitate monolitică, inseparabilă. Rezultatul: nu mai există nicio \"conexiune\". Țeava și fitingul devin o singură bucată continuă de material. Fără garnituri, fără puncte slabe, cu o fiabilitate de 100%."
+        "eyebrow": "INFRASTRUCTURĂ PENTRU HOTELURI ȘI RESORTURI",
+        "title1": "Arhitectura tăcerii.",
+        "title2": "Proiectat în Germania.",
+        "desc": "Atunci când se investesc miliarde în dezvoltarea resorturilor de lux globale, invizibilul nu trebuie să devină niciodată un risc. K Aqua furnizează sisteme de conducte fără compromisuri pentru cele mai exigente proiecte hoteliere din lume. Construite pentru eternitate, concepute pentru siguranță absolută.",
+        "cta1": "Evaluează proiectul",
+        "cta2": "Whitepaper tehnic"
       },
       "stickySection": {
-        "eyebrow": "Cei 4 piloni",
+        "eyebrow": "Cele 4 Piloni",
         "title": "ADN-ul unei capodopere.",
         "lead": "Cum rezolvăm cele mai mari provocări ale infrastructurii hoteliere moderne prin inginerie radicală."
       },
       "sticky": {
         "items": [
           {
-            "title": "1. Prevenirea Legionelelor la nivel molecular",
-            "p1": "În rețelele hoteliere extinse, apa stagnantă în apartamente neutilizate temporar poate deveni o capcană mortală. Legionelele proliferează în biofilmele care se formează pe pereții rugoși ai țevilor.",
-            "p2": "Rugozitatea microscopică a suprafeței K Aqua PP-R este de 0,007 mm. Nu există pori, nici nișe, nici puncte de ancorare. În combinație cu dezinfecția termică, oferim cel mai steril mediu posibil din punct de vedere fizic."
+            "title": "1. Prevenirea legionelei la nivel molecular",
+            "p1": "În rețelele hoteliere extinse, apa stagnantă din suitele neutilizate temporar poate deveni o capcană mortală. Legionella proliferează în biofilme care se formează pe pereții aspri ai conductelor.",
+            "p2": "Rugozitatea microscopică a suprafeței K Aqua PP-R este de 0.007 mm. Nu există pori, nici nișe, nici puncte de ancorare. În combinație cu dezinfecția termică, oferim cel mai steril mediu posibil din punct de vedere fizic."
           },
           {
-            "title": "2. Absorbție fonică absolută",
-            "p1": "Fiecare decibel contează. În resorturile de lux, tragerea apei la toaletă sau dușul din apartamentul vecin nu trebuie să se audă.",
-            "p2": "Datorită densității ridicate a materialului nostru compozit (K Aqua compozit cu fibră) și factorului ridicat de amortizare internă, reducem zgomotul transmis prin structură cu până la 80% comparativ cu sistemele metalice. O diferență pe care oaspeții dumneavoastră nu o vor auzi."
+            "title": "2. Absorbție acustică absolută",
+            "p1": "Fiecare decibel contează. În resorturile de lux, trasul apei la toaletă sau dușul din suita vecină nu trebuie să fie perceptibile.",
+            "p2": "Datorită densității mari a materialului nostru compozit (K Aqua fibră de sticlă) și a factorului mare de amortizare internă, reducem zgomotul structural cu până la 80% față de sistemele metalice. O diferență pe care oaspeții dvs. nu o vor auzi."
           },
           {
             "title": "3. Reziliență la înaltă presiune în zgârie-nori",
-            "p1": "Hotelurile cu 80, 100 sau 120 de etaje impun cerințe extreme pentru coloanele montante. Presiunea hidrostatică din zona inferioară a clădirii este enormă.",
-            "p2": "K Aqua oferă clase de presiune speciale (SDR 6 / PN 20) în combinație cu armătura din fibră, garantând o durată de viață de peste 50 de ani sub sarcină continuă, chiar și la temperaturi de 70°C. Cucerim gravitația."
+            "p1": "Hotelurile cu 80, 100 sau 120 de etaje pun cerințe extreme asupra coloanelor montante. Presiunea hidrostatică în partea inferioară a clădirii este enormă.",
+            "p2": "K Aqua oferă clase speciale de presiune (SDR 6 / PN 20) în combinație cu armătura din fibră de sticlă, care garantează o durată de viață de peste 50 de ani sub sarcină continuă, chiar și la temperaturi de 70°C. Sfidăm gravitația."
           },
           {
-            "title": "4. Management termic & Răcire centralizată (District Cooling)",
-            "p1": "În regiunile deșertice precum Dubai sau Riad, frigul (răcirea) este cel mai scump bun. Sistemele de răcire centralizată transportă apa răcită pe distanțe lungi până la resort.",
-            "p2": "Valorile excelente de izolare ale PP-R previn formarea condensului și reduc masiv pierderile de răcire. Fără conducte de răcire ruginite, fără tavane care picură. Doar eficiență pură și nealterată."
+            "title": "4. Management Termic & District Cooling",
+            "p1": "În regiuni deșertice precum Dubai sau Riad, frigul este cel mai scump bun. Sistemele de District Cooling transportă apa răcită pe distanțe lungi către resort.",
+            "p2": "Valorile excelente de izolare ale PP-R previn formarea condensului și minimizează masiv pierderea de răcire. Fără țevi ruginite la chiller, fără tavane care picură. Doar eficiență pură și nealterată."
           }
         ]
       },
@@ -4188,14 +4260,14 @@
           {
             "val": "0.007",
             "unit": "mm",
-            "title": "Rugozitatea suprafeței",
+            "title": "Rugozitate a suprafeței",
             "desc": "Rezistență absolută împotriva biofilmelor și încrustațiilor."
           },
           {
             "val": "100",
             "unit": "%",
-            "title": "Fuziune omogenă",
-            "desc": "Conexiuni sudate care se unesc la nivel molecular."
+            "title": "Fuziune Omogenă",
+            "desc": "Îmbinări sudate care se contopesc la nivel molecular."
           },
           {
             "val": ">50",
@@ -4206,65 +4278,65 @@
           {
             "val": "0",
             "unit": "",
-            "title": "Efort de întreținere",
+            "title": "Costuri de întreținere",
             "desc": "Instalați, sigilați și uitați pentru totdeauna."
           }
         ]
       },
       "timelineSection": {
-        "title": "Referințe care scriu istoria.",
-        "desc": "De la insulele artificiale din Golful Persic până la cele mai exclusiviste resorturi de schi din Alpi. Acolo unde se construiește imposibilul, K Aqua este deja la fața locului."
+        "title": "Referințe care scriu istorie.",
+        "desc": "De la insule artificiale din Golful Persic până la cele mai exclusive stațiuni de schi din Alpi. Acolo unde se construiește imposibilul, K Aqua este deja la fața locului."
       },
       "timeline": {
         "items": [
           {
             "year": "Dubai",
-            "title": "Resortul Ultra-Lux The Palm Jumeirah",
-            "text": "Echiparea a 800 de apartamente și a 4 zone uriașe de piscină. Salinitatea extremă și temperaturile ambientale de până la 50°C au necesitat o rezistență termică și chimică maximă. K Aqua a furnizat întreaga rețea de apă caldă și rece, inclusiv conexiunea la District Cooling (Răcire Centralizată)."
+            "title": "The Palm Jumeirah Ultra-Luxury Resort",
+            "text": "Dotarea a 800 de suite și a 4 peisaje uriașe de piscine. Salinitatea extremă și temperaturile ambientale de până la 50°C au necesitat o rezistență termică și chimică maximă. K Aqua a furnizat întreaga rețea de apă rece și caldă, inclusiv conexiunea la District Cooling."
           },
           {
             "year": "Elveția",
             "title": "Alpine Retreat St. Moritz",
-            "text": "Un resort de 6 stele la 2.000 de metri altitudine. Provocarea: Risc extrem de îngheț în timpul fazei de construcție și cerințe maxime de izolare fonică. Conductele noastre din compozit cu fibră PP-R au absorbit suveran modificările de lungime termică și au garantat un sistem silențios."
+            "text": "Un resort de 6 stele la 2.000 de metri altitudine. Provocarea: Pericol extrem de îngheț în timpul fazei de construcție și cerințe maxime de izolare fonică. Țevile noastre compozite PP-R au absorbit cu succes modificările termice de lungime și au garantat o funcționare silențioasă."
           },
           {
             "year": "Singapore",
             "title": "Vertical Forest Hotel",
-            "text": "O capodoperă a arhitecturii ecologice cu 65 de etaje. Sistemul complex de irigare pentru mii de plante de pe balcoane, precum și întreaga infrastructură de apă potabilă, au fost realizate cu K Aqua. Tehnologia de sudare omogenă a protejat clădirea de scurgerile microscopice."
+            "text": "O capodoperă a arhitecturii ecologice cu 65 de etaje. Sistemul complex de irigare pentru mii de plante de balcon, precum și întreaga infrastructură de apă potabilă au fost realizate cu K Aqua. Tehnologia de sudură omogenă a protejat clădirea de scurgeri microscopice."
           },
           {
             "year": "Maldive",
-            "title": "Resort Insular cu Emisii Zero",
-            "text": "Construit direct deasupra recifului, a fost cerută compatibilitate absolută cu mediul. Conductele K Aqua sunt 100% reciclabile, nu eliberează microplastice sau metale grele și rezistă aerului marin extrem de coroziv, fără nicio uzură."
+            "title": "Zero-Emission Island Resort",
+            "text": "Construit direct deasupra recifului, a necesitat o compatibilitate ecologică absolută. Țevile K Aqua sunt 100% reciclabile, nu emit microplastice sau metale grele și rezistă aerului de mare extrem de coroziv, fără niciun pic de uzură."
           },
           {
             "year": "Viitor",
-            "title": "Următorul dumneavoastră megaproiect",
-            "text": "Limitele arhitecturii se deplasează zilnic. Suntem gata să turnăm fundația pentru cele mai îndrăznețe viziuni ale dumneavoastră. Cu tehnologie care este cu decenii înaintea timpului său."
+            "title": "Următorul tău megaproiect",
+            "text": "Limitele arhitecturii se extind zilnic. Suntem pregătiți să turnăm fundația pentru cele mai îndrăznețe viziuni ale tale. Cu o tehnologie care este cu decenii înaintea timpului său."
           }
         ]
       },
       "research": {
         "eyebrow": "Cercetare & Dezvoltare",
         "title": "Chimia <br/> indestructibilității.",
-        "desc": "Departamentul nostru de Cercetare și Dezvoltare din Germania lucrează neobosit pentru a perfecționa matricea polimerului. Adăugând aditivi brevetați și compuși speciali din fibră de sticlă, extrudăm conducte care au o dilatare longitudinală extrem de scăzută, comparabilă cu țevile metalice, dar fără dezavantajele lor evidente.",
+        "desc": "Departamentul nostru de C&D din Germania lucrează neobosit la perfecționarea matricei polimerice. Prin adăugarea de aditivi proprietari și compuși speciali de fibră de sticlă, extrudăm țevi care au o dilatare liniară extrem de redusă, comparabilă cu țevile metalice, dar fără dezavantajele lor evidente.",
         "items": [
-          "Dilatare liniară redusă (Valoarea Alpha: 0.035 mm/mK)",
-          "Secțiune transversală a fluxului mărită prin pereți mai subțiri la aceeași clasă de presiune",
-          "Rezistență totală la compușii cu clor din zona piscinelor hotelurilor",
-          "Complet inofensiv toxicologic, certificat pentru siguranța alimentară (apă potabilă)"
+          "Dilatare liniară redusă (Valoare Alfa: 0.035 mm/mK)",
+          "Secțiune de curgere mărită datorită grosimii mai subțiri a peretelui la aceeași clasă de presiune",
+          "Rezistență totală la compușii de clor din zona piscinelor hoteliere",
+          "Complet inofensiv toxicologic, testat pentru siguranța alimentară"
         ]
       },
       "certs": {
         "eyebrow": "Conformitate & Certificări",
-        "title": "Cele mai dure standarde din lume? Noi le depășim.",
-        "lead": "Proiectele internaționale necesită aprobări internaționale. K Aqua este testat, verificat și aprobat la nivel mondial de cele mai stricte autorități de reglementare."
+        "title": "Cele mai dure standarde din lume? Le depășim.",
+        "lead": "Proiectele internaționale necesită aprobări internaționale. K Aqua este testat și aprobat la nivel mondial de cele mai stricte autorități de reglementare."
       },
       "cta": {
-        "title": "Construiți pentru eternitate.",
-        "desc": "Pentru următorul dumneavoastră proiect de hotel sau resort, nu vă bazați pe standard. Redefiniți-l. Contactați inginerii noștri superiori pentru o evaluare tehnică profundă.",
-        "button1": "Evaluarea proiectului",
-        "button2": "Contactați Vânzări"
+        "title": "Construiește pentru eternitate.",
+        "desc": "Nu te baza pe standard pentru următorul tău proiect hotelier sau resort. Redefinește-l. Contactează inginerii noștri principali pentru o evaluare tehnică profundă.",
+        "button1": "Evaluează proiectul",
+        "button2": "Contact direct Vânzări"
       }
     },
     "krankenhaus": {
@@ -4646,169 +4718,6 @@
         "desc": "Pentru următorul dumneavoastră megaproiect, bazați-vă pe fiabilitatea absolută a prefabricării industriale germane. Echipa noastră de inginerie vă așteaptă modelele CAD.",
         "button1": "Solicitați un proiect",
         "button2": "Contactați suportul tehnic"
-      }
-    },
-    "hotels": {
-      "intro": {
-        "title1": "Adevăratul lux",
-        "title2": "este invizibil.",
-        "titleGrad": "Și inaudibil.",
-        "desc": "O experiență de cinci stele nu tolerează compromisuri. Nici în servicii, nici în structura clădirii. Polimerii noștri PP-R de înaltă densitate elimină zgomotele de curgere, previn pierderea termică și garantează puritatea microbiologică. Bun venit la clasa de referință a tehnicii fluidelor."
-      },
-      "bentoSection": {
-        "eyebrow": "Anatomia perfecțiunii",
-        "title": "Specificații care deconstruiesc standardul industriei.",
-        "lead": "Am analizat critic fiecare element al conductelor clasice și l-am înlocuit cu capodopere ale științei materialelor."
-      },
-      "bento": {
-        "items": [
-          {
-            "title": "Izolare acustică de clasă de referință",
-            "desc": "Izolarea fonică este atributul suprem de calitate în segmentul hotelier de lux. Structura noastră polimerică proprie în trei straturi absoarbe zgomotul structural și zgomotele de curgere direct la sursă. Niciun șoaptă a apei nu pătrunde în apartamentele oaspeților dvs. testat conform DIN 4109."
-          },
-          {
-            "title": "Reziliență termică",
-            "desc": "Pierdere minimă de căldură cu eficiență maximă. Densitatea moleculară a K Aqua PP-R izolează nativ și reduce drastic necesarul de izolație secundară. Rezultatul: Economii masive la OPEX."
-          },
-          {
-            "title": "100% fără coroziune",
-            "desc": "Apă agresivă, piscine clorurate sau salinitate extremă în stațiunile de coastă? Acolo unde metalele capitulează, K Aqua își păstrează integritatea structurală. Timp de o jumătate de secol."
-          },
-          {
-            "title": "Fortăreață microbiologică",
-            "desc": "Legionella și biofilmele se dezvoltă din cauza denivelărilor microscopice. Suprafața interioară a țevilor K Aqua este atât de netedă la nivel molecular încât bacteriile pur și simplu nu se pot atașa. Puritate clinică pentru alimentarea cu apă potabilă a complexului dumneavoastră."
-          }
-        ]
-      },
-      "textSection": {
-        "title": "Ingineria din spatele tăcerii",
-        "p1": "În zgârie-nori și resorturi extinse domină condiții fizice extreme. Presiunea apei, care este pompată sute de metri înălțime. Diferențe de temperatură care aduc materialele tradiționale la limitele lor de rezistență.",
-        "p2": "Sistemele tradiționale din cupru prezintă semne semnificative de eroziune la viteze mari de curgere. Cavitația, cauzată de fluctuațiile de presiune în conductele ascendente ale hotelurilor înalte, duce inevitabil la micro-fisuri, coroziune punctiformă și, în final, la daune catastrofale cauzate de apă care pot paraliza etaje întregi. Pentru un operator hotelier, acest lucru înseamnă nu doar costuri masive de renovare, ci și o pierdere ireparabilă de reputație.",
-        "p3": "K Aqua urmează o cale radical diferită.",
-        "p4": "Sistemele noastre se bazează pe copolimerizare random de polipropilenă (PP-R) de ultimă generație. Printr-un proces de extruziune extrem de complex în fabrica noastră principală din Germania, aliniem lanțurile de polimeri astfel încât să prezinte o combinație fără precedent de flexibilitate și rezistență extremă la presiune. Dacă apar șocuri de presiune (lovituri de berbec) în sistem, materialul absoarbe elastic această energie cinetică, în loc să o transmită structurii clădirii sub formă de șoc acustic sau fisură mecanică.",
-        "h3": "Suduri omogene: Sfârșitul scurgerilor",
-        "p5": "Veriga cea mai slabă din orice sistem de conducte este conexiunea. Filetele se corodează, inelele de etanșare devin poroase, conexiunile lipite cedează din cauza ciclizării termice.",
-        "p6": "Noi utilizăm principiul fuziunii moleculare. Țeava și fitingul sunt încălzite termic la exact 260°C și apoi îmbinate. În fracțiuni de secundă, lanțurile de polimeri ale ambelor componente se contopesc într-o unitate monolitică, inseparabilă. Rezultatul: nu mai există nicio \"conexiune\". Țeava și fitingul sunt o singură bucată continuă de material. Fără garnitură, fără puncte slabe, cu o fiabilitate de 100%."
-      },
-      "hero": {
-      "eyebrow": "INFRASTRUCTURĂ PENTRU HOTELURI ȘI RESORTURI",
-      "title1": "Arhitectura tăcerii.",
-      "title2": "Proiectat în Germania.",
-      "desc": "Atunci când se investesc miliarde în dezvoltarea resorturilor de lux globale, invizibilul nu trebuie să devină niciodată un risc. K Aqua furnizează sisteme de conducte fără compromisuri pentru cele mai exigente proiecte hoteliere din lume. Construite pentru eternitate, concepute pentru siguranță absolută.",
-      "cta1": "Evaluează proiectul",
-      "cta2": "Whitepaper tehnic"
-    },
-    "stickySection": {
-      "eyebrow": "Cele 4 Piloni",
-      "title": "ADN-ul unei capodopere.",
-      "lead": "Cum rezolvăm cele mai mari provocări ale infrastructurii hoteliere moderne prin inginerie radicală."
-    },
-    "sticky": {
-      "items": [
-        {
-          "title": "1. Prevenirea legionelei la nivel molecular",
-          "p1": "În rețelele hoteliere extinse, apa stagnantă din suitele neutilizate temporar poate deveni o capcană mortală. Legionella proliferează în biofilme care se formează pe pereții aspri ai conductelor.",
-          "p2": "Rugozitatea microscopică a suprafeței K Aqua PP-R este de 0.007 mm. Nu există pori, nici nișe, nici puncte de ancorare. În combinație cu dezinfecția termică, oferim cel mai steril mediu posibil din punct de vedere fizic."
-        },
-        {
-          "title": "2. Absorbție acustică absolută",
-          "p1": "Fiecare decibel contează. În resorturile de lux, trasul apei la toaletă sau dușul din suita vecină nu trebuie să fie perceptibile.",
-          "p2": "Datorită densității mari a materialului nostru compozit (K Aqua fibră de sticlă) și a factorului mare de amortizare internă, reducem zgomotul structural cu până la 80% față de sistemele metalice. O diferență pe care oaspeții dvs. nu o vor auzi."
-        },
-        {
-          "title": "3. Reziliență la înaltă presiune în zgârie-nori",
-          "p1": "Hotelurile cu 80, 100 sau 120 de etaje pun cerințe extreme asupra coloanelor montante. Presiunea hidrostatică în partea inferioară a clădirii este enormă.",
-          "p2": "K Aqua oferă clase speciale de presiune (SDR 6 / PN 20) în combinație cu armătura din fibră de sticlă, care garantează o durată de viață de peste 50 de ani sub sarcină continuă, chiar și la temperaturi de 70°C. Sfidăm gravitația."
-        },
-        {
-          "title": "4. Management Termic & District Cooling",
-          "p1": "În regiuni deșertice precum Dubai sau Riad, frigul este cel mai scump bun. Sistemele de District Cooling transportă apa răcită pe distanțe lungi către resort.",
-          "p2": "Valorile excelente de izolare ale PP-R previn formarea condensului și minimizează masiv pierderea de răcire. Fără țevi ruginite la chiller, fără tavane care picură. Doar eficiență pură și nealterată."
-        }
-      ]
-    },
-    "perf": {
-      "items": [
-        {
-          "val": "0.007",
-          "unit": "mm",
-          "title": "Rugozitate a suprafeței",
-          "desc": "Rezistență absolută împotriva biofilmelor și încrustațiilor."
-        },
-        {
-          "val": "100",
-          "unit": "%",
-          "title": "Fuziune Omogenă",
-          "desc": "Îmbinări sudate care se contopesc la nivel molecular."
-        },
-        {
-          "val": ">50",
-          "unit": "Ani",
-          "title": "Durată de viață",
-          "desc": "Testat și certificat conform celor mai stricte standarde ISO."
-        },
-        {
-          "val": "0",
-          "unit": "",
-          "title": "Costuri de întreținere",
-          "desc": "Instalați, sigilați și uitați pentru totdeauna."
-        }
-      ]
-    },
-    "timelineSection": {
-      "title": "Referințe care scriu istorie.",
-      "desc": "De la insule artificiale din Golful Persic până la cele mai exclusive stațiuni de schi din Alpi. Acolo unde se construiește imposibilul, K Aqua este deja la fața locului."
-    },
-    "timeline": {
-      "items": [
-        {
-          "year": "Dubai",
-          "title": "The Palm Jumeirah Ultra-Luxury Resort",
-          "text": "Dotarea a 800 de suite și a 4 peisaje uriașe de piscine. Salinitatea extremă și temperaturile ambientale de până la 50°C au necesitat o rezistență termică și chimică maximă. K Aqua a furnizat întreaga rețea de apă rece și caldă, inclusiv conexiunea la District Cooling."
-        },
-        {
-          "year": "Elveția",
-          "title": "Alpine Retreat St. Moritz",
-          "text": "Un resort de 6 stele la 2.000 de metri altitudine. Provocarea: Pericol extrem de îngheț în timpul fazei de construcție și cerințe maxime de izolare fonică. Țevile noastre compozite PP-R au absorbit cu succes modificările termice de lungime și au garantat o funcționare silențioasă."
-        },
-        {
-          "year": "Singapore",
-          "title": "Vertical Forest Hotel",
-          "text": "O capodoperă a arhitecturii ecologice cu 65 de etaje. Sistemul complex de irigare pentru mii de plante de balcon, precum și întreaga infrastructură de apă potabilă au fost realizate cu K Aqua. Tehnologia de sudură omogenă a protejat clădirea de scurgeri microscopice."
-        },
-        {
-          "year": "Maldive",
-          "title": "Zero-Emission Island Resort",
-          "text": "Construit direct deasupra recifului, a necesitat o compatibilitate ecologică absolută. Țevile K Aqua sunt 100% reciclabile, nu emit microplastice sau metale grele și rezistă aerului de mare extrem de coroziv, fără niciun pic de uzură."
-        },
-        {
-          "year": "Viitor",
-          "title": "Următorul tău megaproiect",
-          "text": "Limitele arhitecturii se extind zilnic. Suntem pregătiți să turnăm fundația pentru cele mai îndrăznețe viziuni ale tale. Cu o tehnologie care este cu decenii înaintea timpului său."
-        }
-      ]
-    },
-    "research": {
-      "eyebrow": "Cercetare & Dezvoltare",
-      "title": "Chimia <br/> indestructibilității.",
-      "desc": "Departamentul nostru de C&D din Germania lucrează neobosit la perfecționarea matricei polimerice. Prin adăugarea de aditivi proprietari și compuși speciali de fibră de sticlă, extrudăm țevi care au o dilatare liniară extrem de redusă, comparabilă cu țevile metalice, dar fără dezavantajele lor evidente.",
-      "items": [
-        "Dilatare liniară redusă (Valoare Alfa: 0.035 mm/mK)",
-        "Secțiune de curgere mărită datorită grosimii mai subțiri a peretelui la aceeași clasă de presiune",
-        "Rezistență totală la compușii de clor din zona piscinelor hoteliere",
-        "Complet inofensiv toxicologic, testat pentru siguranța alimentară"
-      ]
-    },
-    "certs": {
-      "eyebrow": "Conformitate & Certificări",
-      "title": "Cele mai dure standarde din lume? Le depășim.",
-      "lead": "Proiectele internaționale necesită aprobări internaționale. K Aqua este testat și aprobat la nivel mondial de cele mai stricte autorități de reglementare."
-    },
-    "cta": {
-      "title": "Construiește pentru eternitate.",
-      "desc": "Nu te baza pe standard pentru următorul tău proiect hotelier sau resort. Redefinește-l. Contactează inginerii noștri principali pentru o evaluare tehnică profundă.",
-      "button1": "Evaluează proiectul",
-      "button2": "Contact direct Vânzări"
       }
     }
   },
@@ -5255,7 +5164,8 @@
         "desc": "Confruntați-ne inginerii cu cele mai dure cerințe tehnice ale dumneavoastră. Noi vom oferi arhitectura de sistem.",
         "button": "Începe Briefing-ul de Inginerie"
       }
-    }
+    },
+    "videosHeading": "Training videos and guides"
   },
   "notFound": {
     "title": "Așteptați un moment.",
@@ -5621,6 +5531,24 @@
           "Tranziții la filet metalic",
           "Renovare pe secțiuni",
           "Problema coroziunii rezolvată permanent"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -7211,7 +7139,8 @@
         "desc": "Lăsați proiectul să fie îndrumat de ingineri care nu doar vând sisteme PP-R, ci le dezvoltă și le fabrică ei înșiși.",
         "btnPrimary": "Începeți solicitarea",
         "btnGhost": "Contactați experții"
-      }
+      },
+      "sub": "Engineering consulting, application technology, and on-site support."
     },
     "downloads": {
       "metaDesc": "Descărcări K Aqua: Securitate fără compromisuri prin Ingineria Germană pentru megaproiecte globale. Descărcați acum broșuri și fișe tehnice.",
@@ -8121,7 +8050,15 @@
     "fittings_electrofusion-socket": "Mufă de electrofuziune",
     "fittings_reducing-bush": "Reducție",
     "fittings_reducing-tee-large": "Teu redus PP-R (Mare)",
-    "fittings_reducing-tee": "Teu redus"
+    "fittings_reducing-tee": "Teu redus",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "customerReviews": {
     "eyebrow": "Calitatea care ne leagă",
@@ -8569,10 +8506,22 @@
       "tempLabel": "Temperatură max.",
       "tempNote": "PN20 · Funcționare continuă",
       "meta": [
-        ["Material", "K Aqua PP-R (Tip 3)"],
-        ["Normă", "DIN 8077/8078"],
-        ["Certificare", "DVGW, SKZ, KIWA"],
-        ["Durata de viață", "> 50 ani"]
+        [
+          "Material",
+          "K Aqua PP-R (Tip 3)"
+        ],
+        [
+          "Normă",
+          "DIN 8077/8078"
+        ],
+        [
+          "Certificare",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Durata de viață",
+          "> 50 ani"
+        ]
       ]
     },
     "layers": {
@@ -8580,18 +8529,39 @@
       "desc": "Structură în 3 straturi pentru dilatare liniară minimizată și stabilitate maximă la temperaturi ridicate.",
       "ariaGroup": "Straturi de material",
       "items": [
-        {"t": "PPRCT", "d": "Strat exterior"},
-        {"t": "Compozit cu fibră", "d": "Strat intermediar"},
-        {"t": "PPRCT", "d": "Strat interior"}
+        {
+          "t": "PPRCT",
+          "d": "Strat exterior"
+        },
+        {
+          "t": "Compozit cu fibră",
+          "d": "Strat intermediar"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Strat interior"
+        }
       ]
     },
     "comply": {
       "title": "Conformitate & Norme",
       "items": [
-        ["DVGW", "Aprobare apă potabilă"],
-        ["SKZ", "Monitorizarea calității"],
-        ["KIWA", "Certificarea sistemului"],
-        ["DIN 8077/8078", "Dimensiuni țevi & Toleranțe"]
+        [
+          "DVGW",
+          "Aprobare apă potabilă"
+        ],
+        [
+          "SKZ",
+          "Monitorizarea calității"
+        ],
+        [
+          "KIWA",
+          "Certificarea sistemului"
+        ],
+        [
+          "DIN 8077/8078",
+          "Dimensiuni țevi & Toleranțe"
+        ]
       ]
     },
     "rangeTitle": "Dimensiuni",
@@ -8599,9 +8569,18 @@
       "title": "Rețea Globală",
       "lead": "Sistemele K Aqua sunt utilizate la nivel mondial în peste 35 de țări. Din Waldsolms în lume.",
       "chips": [
-        ["35+", "Țări"],
-        ["3", "Continente"],
-        ["ISO", "Certificat"]
+        [
+          "35+",
+          "Țări"
+        ],
+        [
+          "3",
+          "Continente"
+        ],
+        [
+          "ISO",
+          "Certificat"
+        ]
       ]
     }
   },
@@ -8678,5 +8657,110 @@
     "p3": "Sustenabilitatea este încorporată adânc în ingineria moleculară a sistemelor noastre PP-R și PPRCT. Oferind o rugozitate excepțional de scăzută a suprafeței interioare de 0,007 mm, țevile noastre reduc considerabil frecarea hidraulică și pierderea de presiune pe tot parcursul rețelei. Conform modelelor de curgere dinamică Darcy-Weisbach, această rezistență minimă duce direct la un consum enorm redus de energie din partea pompelor de circulație. Peste un ciclu de viață operațional de 50 de ani, această eficiență se traduce prin economii fără precedent de CO2, scăzând masiv Costul Total al Proprietății (TCO) pentru operatorii clădirilor și facilităților. Mai mult, polipropilena este un material 100% reciclabil. Prin Declarațiile de Mediu pentru Produse (EPD) de Tip III validate de noi în conformitate cu EN 15804, furnizăm arhitecților și planificatorilor ecologici date cantitative și transparente menite să faciliteze certificările LEED, BREEAM și DGNB.",
     "t4": "Acoperire Globală, Inginerie Germană & Certificări",
     "p4": "Fabricate integral în Germania sub protocoale riguroase de management al calității și al mediului, validate conform standardelor ISO 9001, ISO 14001 și ISO 50001, K-Aqua exportă soluții premium de conducte în peste 50 de țări din întreaga lume. Rețeaua noastră logistică asigură livrarea sigură și rapidă a sistemelor complete către mega-proiecte din Orientul Mijlociu, Asia de Sud-Est și întreaga Europă. Angajamentul nostru implacabil față de calitate este validat de marile autorități internaționale de certificare, printre care se numără DVGW, SKZ, WRAS și KIWA. Susținem inginerii consultanți, modelatorii BIM și contractorii majori cu biblioteci CAD / BIM aprofundate, software inteligent de calcul (dimensionare) și asistență tehnică completă pentru a asigura o execuție perfectă a proiectului. K-Aqua reprezintă sinteza absolută între știința avansată a polimerilor, ingineria durabilă (sustenabilă) și fiabilitatea necompromisă în gestionarea apei și fluidelor."
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

@@ -34,7 +34,34 @@
     "edgeLiveFilter": "Filter langsung",
     "edgeComparisons": "3 perbandingan",
     "edgeMarkets": "{count} pasar",
-    "edgePageIndex": "Indeks halaman"
+    "edgePageIndex": "Indeks halaman",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "Peralatan",
@@ -76,13 +103,34 @@
     "eyebrow": "Hukum",
     "title": "Impresum",
     "rows": [
-      ["Perusahaan", "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"],
-      ["Manajemen", "Philipp Nickel, Marcello Gallio"],
-      ["Pengadilan Daftar", "Wetzlar HRB 6732"],
-      ["Lokasi", "Waldsolms"],
-      ["No. PPN", "DE 296238486"],
-      ["Telepon / Faks", "+49 (0)60 85 / 9868-410 · Faks -420"],
-      ["E-Mail", "info@k-aqua.de"]
+      [
+        "Perusahaan",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Manajemen",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Pengadilan Daftar",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Lokasi",
+        "Waldsolms"
+      ],
+      [
+        "No. PPN",
+        "DE 296238486"
+      ],
+      [
+        "Telepon / Faks",
+        "+49 (0)60 85 / 9868-410 · Faks -420"
+      ],
+      [
+        "E-Mail",
+        "info@k-aqua.de"
+      ]
     ]
   },
   "navigation": {
@@ -441,7 +489,26 @@
     "nextEyebrow": "Berpikir ke Depan",
     "nextTitle": "Seberapa ramah iklim perencanaan Anda?",
     "nextLead": "Kirimkan dimensi dan panjang langsung ke kalkulator CO₂ dan bandingkan dengan tembaga, baja tahan karat, dan PVC.",
-    "nextCta": "Ke Kalkulator CO₂"
+    "nextCta": "Ke Kalkulator CO₂",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "Keamanan Bersertifikat",
@@ -521,14 +588,6 @@
         "u": "Tahun",
         "l": "Cakrawala desain berdasarkan kurva mulur DIN 8077/8078"
       }
-    ],
-    "badges": [
-      "ISO 9001:2015",
-      "ISO 14001:2015",
-      "ISO 50001:2018",
-      "Sistem GENAU",
-      "DIN 8077/8078",
-      "DIN EN ISO 15874"
     ],
     "badges": [
       "ISO 9001:2015",
@@ -618,7 +677,6 @@
       "Sistem Pipa PP-R & PPRCT",
       "K Aqua memproduksi sistem pipa plastik PP-R dan PPRCT kelas satu untuk air minum dan aplikasi industri. Rekayasa Jerman untuk proyek global."
     ],
-
     "genauManagement": {
       "eyebrow": "Kualitas Teruji",
       "title1": "Sistem Manajemen ",
@@ -661,22 +719,34 @@
       {
         "t": "Pipa K Monolayer PP-R",
         "d": "Standar teruji untuk air minum panas dan dingin. Struktur lapisan tunggal, rentang SDR penuh dalam dimensi umum: ekonomis untuk bangunan perumahan dan komersial.",
-        "tags": ["d20–d630", "SDR 6–17"]
+        "tags": [
+          "d20–d630",
+          "SDR 6–17"
+        ]
       },
       {
         "t": "Pipa K PPRCT",
         "d": "Struktur kristal yang dimodifikasi untuk lebih banyak cadangan suhu dan tekanan: SDR 7.4 dirancang untuk operasi kontinu 70 °C pada 10 bar (1.0 MPa), pilihan untuk air panas dan sirkulasi.",
-        "tags": ["70 °C · 10 bar", "Air panas"]
+        "tags": [
+          "70 °C · 10 bar",
+          "Air panas"
+        ]
       },
       {
         "t": "Pipa Serat K (GF-Multilayer)",
         "d": "Inti yang diperkuat serat kaca di antara dua lapisan PP: ekspansi termal berkurang menjadi sekitar seperempat, jarak klem yang lebih besar, dimensi stabil hingga d630, hingga 20 bar (2.0 MPa) pada 20 °C di SDR 6.",
-        "tags": ["Inti GF", "d20–d630"]
+        "tags": [
+          "Inti GF",
+          "d20–d630"
+        ]
       },
       {
         "t": "Versi Stabil UV",
         "d": "Untuk instalasi dengan paparan sinar matahari (seperti rumah kaca atau saluran luar ruang), program ini tersedia dalam versi tahan UV.",
-        "tags": ["Luar ruangan", "Pertanian"]
+        "tags": [
+          "Luar ruangan",
+          "Pertanian"
+        ]
       }
     ],
     "dimEyebrow": "Tabel Dimensi",
@@ -708,16 +778,52 @@
     "matEyebrow": "Data Material",
     "matTitle": "Apa yang membedakan material ini.",
     "matLead": "Karakteristik kunci sistem PP-R/PPRCT dan mengapa mereka penting dalam perencanaan.",
-    "matHead": ["Properti", "Nilai", "Arti untuk Proyek Anda"],
+    "matHead": [
+      "Properti",
+      "Nilai",
+      "Arti untuk Proyek Anda"
+    ],
     "matRows": [
-      ["Kepadatan", "0.905 g/cm³", "Sekitar sepersepuluh dari tembaga: transportasi ringan, perakitan mudah tanpa alat angkat untuk dimensi kecil dan menengah."],
-      ["Kekasaran Dalam", "0.007 mm", "Permukaan sangat halus: kehilangan tekanan minimal, hampir tidak ada inkrustasi dan pembentukan biofilm."],
-      ["Konduktivitas Termal", "0.24 W/(m·K)", "Kehilangan panas rendah pada sirkulasi air panas: penghematan energi permanen dibandingkan logam."],
-      ["Ekspansi Linear (Monolayer)", "≈ 0.15 mm/(m·K)", "Diserap secara struktural oleh kaki ekspansi dan titik tetap."],
-      ["Ekspansi Linear (Pipa Serat, GF)", "≈ 0.04 mm/(m·K)", "Sekitar seperempat dari nilai Monolayer: jarak penjepit lebih besar, tampilan garis lebih tenang."],
-      ["Suhu Media", "dingin hingga 70 °C operasi kontinu", "Air minum panas dan dingin; titik desain: PPRCT SDR 7.4 pada 70 °C · 10 bar."],
-      ["Ketahanan Kimia", "Pelarut, basa, asam", "Sangat tahan sebagai plastik teknis: bebas korosi tanpa risiko pitting (lubang)."],
-      ["Daur Ulang", "Kode 5 (PP)", "Murni dapat dipisahkan; 100% limbah produksi masuk kembali ke siklus bahan."]
+      [
+        "Kepadatan",
+        "0.905 g/cm³",
+        "Sekitar sepersepuluh dari tembaga: transportasi ringan, perakitan mudah tanpa alat angkat untuk dimensi kecil dan menengah."
+      ],
+      [
+        "Kekasaran Dalam",
+        "0.007 mm",
+        "Permukaan sangat halus: kehilangan tekanan minimal, hampir tidak ada inkrustasi dan pembentukan biofilm."
+      ],
+      [
+        "Konduktivitas Termal",
+        "0.24 W/(m·K)",
+        "Kehilangan panas rendah pada sirkulasi air panas: penghematan energi permanen dibandingkan logam."
+      ],
+      [
+        "Ekspansi Linear (Monolayer)",
+        "≈ 0.15 mm/(m·K)",
+        "Diserap secara struktural oleh kaki ekspansi dan titik tetap."
+      ],
+      [
+        "Ekspansi Linear (Pipa Serat, GF)",
+        "≈ 0.04 mm/(m·K)",
+        "Sekitar seperempat dari nilai Monolayer: jarak penjepit lebih besar, tampilan garis lebih tenang."
+      ],
+      [
+        "Suhu Media",
+        "dingin hingga 70 °C operasi kontinu",
+        "Air minum panas dan dingin; titik desain: PPRCT SDR 7.4 pada 70 °C · 10 bar."
+      ],
+      [
+        "Ketahanan Kimia",
+        "Pelarut, basa, asam",
+        "Sangat tahan sebagai plastik teknis: bebas korosi tanpa risiko pitting (lubang)."
+      ],
+      [
+        "Daur Ulang",
+        "Kode 5 (PP)",
+        "Murni dapat dipisahkan; 100% limbah produksi masuk kembali ke siklus bahan."
+      ]
     ],
     "fitEyebrow": "Fiting & Komponen Sistem",
     "fitTitle": "Sistem di sekitar pipa.",
@@ -764,16 +870,52 @@
     "normEyebrow": "Standar & Bukti",
     "normTitle": "Teruji terhadap standar.",
     "normLead": "Sistem K Aqua diproduksi dan diuji terhadap standar relevan teknologi perpipaan. Setiap batch berada di bawah persyaratan kualitas ISO 9001.",
-    "normHead": ["Standar", "Judul", "Arti"],
+    "normHead": [
+      "Standar",
+      "Judul",
+      "Arti"
+    ],
     "norms": [
-      ["DIN 8077", "Pipa Polipropilena: Dimensi", "Mendefinisikan seri diameter dan ketebalan dinding (SDR) untuk pipa PP."],
-      ["DIN 8078", "Pipa Polipropilena: Persyaratan", "Persyaratan kualitas umum dan tes untuk pipa PP-R/PPRCT."],
-      ["DIN EN ISO 15874", "Sistem perpipaan plastik", "Standar sistem untuk instalasi air panas dan dingin yang terbuat dari polipropilena."],
-      ["DVS 2207-11", "Pengelasan PP", "Nilai referensi untuk pengelasan soket, elektro dan butt: dasar dari konten Akademi."],
-      ["DVGW / KTW", "Kontak air minum", "Bukti kesesuaian untuk kontak dengan air minum: tersedia berdasarkan permintaan di Pusat Kepercayaan."],
-      ["EN 15804", "EPD (Tipe III)", "Deklarasi produk lingkungan sebagai dasar data untuk LEED, BREEAM dan DGNB."],
-      ["ISO 9001 / 14001 / 50001", "Sistem Manajemen", "Kualitas, Lingkungan dan Energi: diuji tiga kali sejak Oktober 2025, terakreditasi DAkkS."],
-      ["GENAU", "Sistem Manajemen Terpadu", "Sistem internal di House of KWT menggabungkan kesehatan, keselamatan kerja, lingkungan dan energi."]
+      [
+        "DIN 8077",
+        "Pipa Polipropilena: Dimensi",
+        "Mendefinisikan seri diameter dan ketebalan dinding (SDR) untuk pipa PP."
+      ],
+      [
+        "DIN 8078",
+        "Pipa Polipropilena: Persyaratan",
+        "Persyaratan kualitas umum dan tes untuk pipa PP-R/PPRCT."
+      ],
+      [
+        "DIN EN ISO 15874",
+        "Sistem perpipaan plastik",
+        "Standar sistem untuk instalasi air panas dan dingin yang terbuat dari polipropilena."
+      ],
+      [
+        "DVS 2207-11",
+        "Pengelasan PP",
+        "Nilai referensi untuk pengelasan soket, elektro dan butt: dasar dari konten Akademi."
+      ],
+      [
+        "DVGW / KTW",
+        "Kontak air minum",
+        "Bukti kesesuaian untuk kontak dengan air minum: tersedia berdasarkan permintaan di Pusat Kepercayaan."
+      ],
+      [
+        "EN 15804",
+        "EPD (Tipe III)",
+        "Deklarasi produk lingkungan sebagai dasar data untuk LEED, BREEAM dan DGNB."
+      ],
+      [
+        "ISO 9001 / 14001 / 50001",
+        "Sistem Manajemen",
+        "Kualitas, Lingkungan dan Energi: diuji tiga kali sejak Oktober 2025, terakreditasi DAkkS."
+      ],
+      [
+        "GENAU",
+        "Sistem Manajemen Terpadu",
+        "Sistem internal di House of KWT menggabungkan kesehatan, keselamatan kerja, lingkungan dan energi."
+      ]
     ],
     "faqEyebrow": "Pertanyaan Umum",
     "faqTitle": "Jawaban untuk perencanaan dan pembelian.",
@@ -866,21 +1008,93 @@
           "Renovasi berdasarkan bagian",
           "Masalah korosi terpecahkan secara permanen"
         ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
+        ]
       }
     ],
     "cmpEyebrow": "Perbandingan Material",
     "cmpTitle": "PP-R/PPRCT sebagai perbandingan.",
     "cmpLead": "Empat bahan pipa, delapan kriteria: perbandingan yang disederhanakan sebagai titik awal untuk pemilihan material spesifik proyek.",
-    "cmpHead": ["Kriteria", "K Aqua PP-R/PPRCT", "Tembaga", "Besi tahan karat", "PVC-C"],
+    "cmpHead": [
+      "Kriteria",
+      "K Aqua PP-R/PPRCT",
+      "Tembaga",
+      "Besi tahan karat",
+      "PVC-C"
+    ],
     "cmpRows": [
-      ["Korosi", "bebas korosi: kebal korosi elektrokimia", "Mungkin terjadi pitting", "tahan (tergantung kualitas)", "bebas korosi"],
-      ["Inkrustasi & Biofilm", "sangat rendah: kekasaran bagian dalam 0.007 mm", "mungkin", "rendah", "rendah"],
-      ["Konduktivitas Termal", "0.24 W/(m·K): kerugian rendah", "≈ 390 W/(m·K)", "≈ 15 W/(m·K)", "≈ 0.14 W/(m·K)"],
-      ["Kepadatan / Berat", "0.905 g/cm³", "8.9 g/cm³", "7.9 g/cm³", "1.55 g/cm³"],
-      ["Teknologi Sambungan", "pengelasan material seragam: untaian homogen", "disolder / ditekan", "ditekan / dilas", "direkatkan"],
-      ["Rasa & Bau", "netral", "Pelepasan logam dimungkinkan", "netral", "netral"],
-      ["CO₂ (Konstruksi)", "rendah, bandingkan di kalkulator CO₂", "tinggi", "tinggi", "sedang"],
-      ["Daur Ulang", "Kode 5, murni terpisah: 100% limbah manufaktur masuk ke daur ulang", "Siklus memo besi", "Siklus memo besi", "terbatas"]
+      [
+        "Korosi",
+        "bebas korosi: kebal korosi elektrokimia",
+        "Mungkin terjadi pitting",
+        "tahan (tergantung kualitas)",
+        "bebas korosi"
+      ],
+      [
+        "Inkrustasi & Biofilm",
+        "sangat rendah: kekasaran bagian dalam 0.007 mm",
+        "mungkin",
+        "rendah",
+        "rendah"
+      ],
+      [
+        "Konduktivitas Termal",
+        "0.24 W/(m·K): kerugian rendah",
+        "≈ 390 W/(m·K)",
+        "≈ 15 W/(m·K)",
+        "≈ 0.14 W/(m·K)"
+      ],
+      [
+        "Kepadatan / Berat",
+        "0.905 g/cm³",
+        "8.9 g/cm³",
+        "7.9 g/cm³",
+        "1.55 g/cm³"
+      ],
+      [
+        "Teknologi Sambungan",
+        "pengelasan material seragam: untaian homogen",
+        "disolder / ditekan",
+        "ditekan / dilas",
+        "direkatkan"
+      ],
+      [
+        "Rasa & Bau",
+        "netral",
+        "Pelepasan logam dimungkinkan",
+        "netral",
+        "netral"
+      ],
+      [
+        "CO₂ (Konstruksi)",
+        "rendah, bandingkan di kalkulator CO₂",
+        "tinggi",
+        "tinggi",
+        "sedang"
+      ],
+      [
+        "Daur Ulang",
+        "Kode 5, murni terpisah: 100% limbah manufaktur masuk ke daur ulang",
+        "Siklus memo besi",
+        "Siklus memo besi",
+        "terbatas"
+      ]
     ],
     "cmpNote": "Perbandingan sederhana dengan nilai material tipikal; pemilihan material tetap spesifik proyek. Dasar angka untuk perbandingan CO₂: lihat kalkulator CO₂ dan lembar data EPD.",
     "lifeEyebrow": "Siklus Hidup",
@@ -909,46 +1123,117 @@
     "stakeEyebrow": "Untuk Pusat Pembelian Anda",
     "stakeTitle": "Setiap peran memeriksa secara berbeda.",
     "stakeLead": "Komite pengadaan B2B rata-rata terdiri dari 11 hingga 20 orang. Teknologi, pembelian, dan keberlanjutan memerlukan bukti yang berbeda. Inilah petanya.",
-    "stakeHead": ["Peran", "Apa yang penting", "Bukti relevan"],
+    "stakeHead": [
+      "Peran",
+      "Apa yang penting",
+      "Bukti relevan"
+    ],
     "stakeRows": [
-      ["Insinyur / Perencana Khusus", "Tingkat tekanan dan dimensi (d20–d630), bebas dari toksisitas, kemampuan las, umur panjang batch", "ISO 9001 · DIN 8077/8078 · DIN EN ISO 15874 · Tabel dimensi"],
-      ["Pembelian / Pengadaan", "Kemampuan pengiriman, minimalisasi risiko, kriteria RFP yang ketat, Total Cost of Ownership", "ISO 9001 sebagai \"Tiket-untuk-Bermain\" · Manual QA · Teks GAEB"],
-      ["Keberlanjutan / Kepatuhan", "Jejak CO₂, emisi Scope 1/2/3, Pengadaan Hijau, efisiensi energi produksi", "ISO 14001 · ISO 50001 · EPD (EN 15804) · Data Scope 3 sesuai permintaan"]
+      [
+        "Insinyur / Perencana Khusus",
+        "Tingkat tekanan dan dimensi (d20–d630), bebas dari toksisitas, kemampuan las, umur panjang batch",
+        "ISO 9001 · DIN 8077/8078 · DIN EN ISO 15874 · Tabel dimensi"
+      ],
+      [
+        "Pembelian / Pengadaan",
+        "Kemampuan pengiriman, minimalisasi risiko, kriteria RFP yang ketat, Total Cost of Ownership",
+        "ISO 9001 sebagai \"Tiket-untuk-Bermain\" · Manual QA · Teks GAEB"
+      ],
+      [
+        "Keberlanjutan / Kepatuhan",
+        "Jejak CO₂, emisi Scope 1/2/3, Pengadaan Hijau, efisiensi energi produksi",
+        "ISO 14001 · ISO 50001 · EPD (EN 15804) · Data Scope 3 sesuai permintaan"
+      ]
     ],
     "statEyebrow": "Mengapa Layanan Mandiri",
     "statTitle": "Pengadaan telah berubah.",
     "stats": [
-      {"n": "70", "u": "%", "l": "pembeli B2B meneliti secara anonim sebelum menghubungi bagian penjualan"},
-      {"n": "11–20", "u": " ", "l": "Pemangku kepentingan membentuk pusat pembelian tipikal dari sebuah proyek"},
-      {"n": "87", "u": " ", "l": "Titik kontak dapat menjadi bagian dari keputusan pembelian B2B"},
-      {"n": "50", "u": "%", "l": "pelanggan B2B lebih suka membeli dari pemasok yang terbukti berkelanjutan"}
+      {
+        "n": "70",
+        "u": "%",
+        "l": "pembeli B2B meneliti secara anonim sebelum menghubungi bagian penjualan"
+      },
+      {
+        "n": "11–20",
+        "u": " ",
+        "l": "Pemangku kepentingan membentuk pusat pembelian tipikal dari sebuah proyek"
+      },
+      {
+        "n": "87",
+        "u": " ",
+        "l": "Titik kontak dapat menjadi bagian dari keputusan pembelian B2B"
+      },
+      {
+        "n": "50",
+        "u": "%",
+        "l": "pelanggan B2B lebih suka membeli dari pemasok yang terbukti berkelanjutan"
+      }
     ],
     "statNote": "Angka-angka penting dari studi industri tentang pengadaan B2B. Oleh karena itu, semua bukti tersedia untuk diambil sendiri di sini, bukan \"atas permintaan tertulis\".",
     "instEyebrow": "Mitra Ujian",
     "instTitle": "Siapa yang berada di balik bukti.",
     "inst": [
-      {"t": "Ujian terakreditasi DAkkS", "d": "Sertifikat ISO 9001, 14001, dan 50001 berasal dari perusahaan sertifikasi yang terakreditasi oleh Badan Akreditasi Jerman (DAkkS): Berlaku dari 10/2025 hingga 10/2028."},
-      {"t": "SKZ: Pusat Plastik Jerman Selatan", "d": "Jaminan kualitas sistem perpipaan didampingi oleh institut pengujian plastik terkenal: pengujian independen dan bukan sekadar pujian diri sendiri."},
-      {"t": "DVGW / KTW: Kontak air minum", "d": "Bukti kesesuaian untuk kontak dengan air minum merupakan bagian dari paket dokumen RFP dan disediakan atas permintaan."}
+      {
+        "t": "Ujian terakreditasi DAkkS",
+        "d": "Sertifikat ISO 9001, 14001, dan 50001 berasal dari perusahaan sertifikasi yang terakreditasi oleh Badan Akreditasi Jerman (DAkkS): Berlaku dari 10/2025 hingga 10/2028."
+      },
+      {
+        "t": "SKZ: Pusat Plastik Jerman Selatan",
+        "d": "Jaminan kualitas sistem perpipaan didampingi oleh institut pengujian plastik terkenal: pengujian independen dan bukan sekadar pujian diri sendiri."
+      },
+      {
+        "t": "DVGW / KTW: Kontak air minum",
+        "d": "Bukti kesesuaian untuk kontak dengan air minum merupakan bagian dari paket dokumen RFP dan disediakan atas permintaan."
+      }
     ],
     "auditEyebrow": "Jadwal Audit",
     "auditTitle": "Dari pertanyaan ke persetujuan.",
     "auditLead": "Beginilah cara kerja kualifikasi pemasok dengan K Aqua: dapat direncanakan dan tanpa waktu tunggu.",
     "audit": [
-      {"t": "Ikat Paket Dokumen", "d": "Susun paket RFP Anda di atas: sertifikat, kebijakan GENAU, EPD, GAEB, dan manual QA, diminta sebagai ZIP."},
-      {"t": "Klarifikasi Pertanyaan", "d": "Kualitas dan dukungan teknis menjawab di support@k-aqua.de, dalam satu hari kerja."},
-      {"t": "Atur audit pabrik", "d": "Audit produksi, laboratorium pengujian, dan praktik GENAU di lokasi di Waldsolms: janji temu dengan kesepakatan."},
-      {"t": "Persetujuan & Rekualifikasi", "d": "Setelah pencantuman, audit pengawasan menyertai siklus 3 tahun dari sertifikat. Dokumen Anda tetap mutakhir."}
+      {
+        "t": "Ikat Paket Dokumen",
+        "d": "Susun paket RFP Anda di atas: sertifikat, kebijakan GENAU, EPD, GAEB, dan manual QA, diminta sebagai ZIP."
+      },
+      {
+        "t": "Klarifikasi Pertanyaan",
+        "d": "Kualitas dan dukungan teknis menjawab di support@k-aqua.de, dalam satu hari kerja."
+      },
+      {
+        "t": "Atur audit pabrik",
+        "d": "Audit produksi, laboratorium pengujian, dan praktik GENAU di lokasi di Waldsolms: janji temu dengan kesepakatan."
+      },
+      {
+        "t": "Persetujuan & Rekualifikasi",
+        "d": "Setelah pencantuman, audit pengawasan menyertai siklus 3 tahun dari sertifikat. Dokumen Anda tetap mutakhir."
+      }
     ],
     "faqEyebrow": "Kepatuhan-FAQ",
     "faqTitle": "Pertanyaan ujian yang paling umum.",
     "faq": [
-      {"q": "Berapa lama sertifikat ISO berlaku?", "a": "Tiga tahun. Siklus saat ini berjalan dari 10/2025 hingga 10/2028, disertai dengan audit pengawasan tahunan oleh perusahaan sertifikasi."},
-      {"q": "Apa arti dari \"terakreditasi DAkkS\"?", "a": "Badan Akreditasi Jerman (DAkkS) adalah badan akreditasi nasional Jerman. Ini memantau perusahaan sertifikasi itu sendiri. Akreditasi membuat sertifikat dapat diandalkan secara internasional."},
-      {"q": "Bagaimana cara memverifikasi sertifikat?", "a": "Setiap sertifikat memiliki nomor sertifikat (misalnya Q-2025-6732) dan badan penerbitnya. Dengan kedua informasi tersebut, keabsahan dapat diperiksa secara langsung dengan lembaga sertifikasi. Atau Anda dapat menanyakannya di support@k-aqua.de."},
-      {"q": "Apakah ada data mentah Scope 3 dan EPD?", "a": "Ya, kami memberikan data emisi Scope 3 dan data mentah EPD sesuai permintaan. Transparansi proaktif daripada pemenuhan kewajiban: Tim keberlanjutan Anda menerima angka yang andal untuk neraca mereka sendiri."},
-      {"q": "Apakah Anda mengirimkan teks spesifikasi GAEB?", "a": "Ya, teks GAEB adalah bagian dari paket dokumen RFP. Hal ini memungkinkan sistem K Aqua untuk berpindah ke dalam perangkat lunak AVA Anda dan daftar spesifikasi tanpa hambatan."},
-      {"q": "Apa itu EPD menurut EN 15804?", "a": "Sebuah Deklarasi Produk Lingkungan (Tipe III) dengan data penilaian siklus hidup yang terverifikasi selama siklus hidup. Ini adalah dasar data untuk sertifikasi bangunan seperti LEED, BREEAM dan DGNB, dan untuk model pengadaan yang disesuaikan CO₂."}
+      {
+        "q": "Berapa lama sertifikat ISO berlaku?",
+        "a": "Tiga tahun. Siklus saat ini berjalan dari 10/2025 hingga 10/2028, disertai dengan audit pengawasan tahunan oleh perusahaan sertifikasi."
+      },
+      {
+        "q": "Apa arti dari \"terakreditasi DAkkS\"?",
+        "a": "Badan Akreditasi Jerman (DAkkS) adalah badan akreditasi nasional Jerman. Ini memantau perusahaan sertifikasi itu sendiri. Akreditasi membuat sertifikat dapat diandalkan secara internasional."
+      },
+      {
+        "q": "Bagaimana cara memverifikasi sertifikat?",
+        "a": "Setiap sertifikat memiliki nomor sertifikat (misalnya Q-2025-6732) dan badan penerbitnya. Dengan kedua informasi tersebut, keabsahan dapat diperiksa secara langsung dengan lembaga sertifikasi. Atau Anda dapat menanyakannya di support@k-aqua.de."
+      },
+      {
+        "q": "Apakah ada data mentah Scope 3 dan EPD?",
+        "a": "Ya, kami memberikan data emisi Scope 3 dan data mentah EPD sesuai permintaan. Transparansi proaktif daripada pemenuhan kewajiban: Tim keberlanjutan Anda menerima angka yang andal untuk neraca mereka sendiri."
+      },
+      {
+        "q": "Apakah Anda mengirimkan teks spesifikasi GAEB?",
+        "a": "Ya, teks GAEB adalah bagian dari paket dokumen RFP. Hal ini memungkinkan sistem K Aqua untuk berpindah ke dalam perangkat lunak AVA Anda dan daftar spesifikasi tanpa hambatan."
+      },
+      {
+        "q": "Apa itu EPD menurut EN 15804?",
+        "a": "Sebuah Deklarasi Produk Lingkungan (Tipe III) dengan data penilaian siklus hidup yang terverifikasi selama siklus hidup. Ini adalah dasar data untuk sertifikasi bangunan seperti LEED, BREEAM dan DGNB, dan untuk model pengadaan yang disesuaikan CO₂."
+      }
     ]
   },
   "partnerx": {
@@ -956,119 +1241,298 @@
     "ecoTitle": "Apa yang diuntungkan pelanggan K Aqua.",
     "ecoLead": "KESSEL telah membangun infrastruktur merek premium selama puluhan tahun. K Aqua membawa sikap yang sama terhadap pasokan air.",
     "eco": [
-      {"t": "ISH Frankfurt", "d": "KESSEL hadir di pameran perdagangan terkemuka di dunia untuk industri TGA, panggung tempat drainase dan pasokan dipertimbangkan bersama."},
-      {"t": "PlanerPortal (Portal Perencana)", "d": "Platform digital untuk perencana spesialis adalah inti dari retensi perencana harian: model untuk alat digital K Aqua."},
-      {"t": "KundenForum (Forum Pelanggan)", "d": "Kursus pelatihan fisik dan hibrida di lokasi khusus, termasuk di Lenting dan Hamburg. Transfer pengetahuan adalah ikatan."},
-      {"t": "Manual Perencanaan", "d": "Pengetahuan perencanaan KESSEL yang dikelola secara editorial adalah referensi tentang bagaimana K Aqua memperluas area pengetahuannya bagi para perencana: dari Akademi hingga tabel dimensi."}
+      {
+        "t": "ISH Frankfurt",
+        "d": "KESSEL hadir di pameran perdagangan terkemuka di dunia untuk industri TGA, panggung tempat drainase dan pasokan dipertimbangkan bersama."
+      },
+      {
+        "t": "PlanerPortal (Portal Perencana)",
+        "d": "Platform digital untuk perencana spesialis adalah inti dari retensi perencana harian: model untuk alat digital K Aqua."
+      },
+      {
+        "t": "KundenForum (Forum Pelanggan)",
+        "d": "Kursus pelatihan fisik dan hibrida di lokasi khusus, termasuk di Lenting dan Hamburg. Transfer pengetahuan adalah ikatan."
+      },
+      {
+        "t": "Manual Perencanaan",
+        "d": "Pengetahuan perencanaan KESSEL yang dikelola secara editorial adalah referensi tentang bagaimana K Aqua memperluas area pengetahuannya bagi para perencana: dari Akademi hingga tabel dimensi."
+      }
     ],
     "flowEyebrow": "Dua aliran, satu bangunan",
     "flowTitle": "Pasokan masuk, drainase keluar.",
     "flowLead": "Setiap bangunan membutuhkan kedua arah. Kemitraan ini mencakup seluruh jalur air dengan DNA teknik bersama.",
     "flow": [
-      {"t": "K Aqua: Terdepan dalam Pasokan Air", "d": "Pasokan air minum d20–d630: Pipa, fiting, katup, dan teknologi pengelasan, diproduksi di Waldsolms."},
-      {"t": "KESSEL: Terdepan dalam Drainase", "d": "Produsen premium teknologi drainase: perlindungan aliran balik, stasiun pengangkat, pemisah. Otoritas di industri TGA."},
-      {"t": "Perdagangan Bersama", "d": "Perencana dan pemroses bekerja dengan komunitas nilai: filosofi kualitas yang sama, dukungan terkoordinasi, rute pendek."}
+      {
+        "t": "K Aqua: Terdepan dalam Pasokan Air",
+        "d": "Pasokan air minum d20–d630: Pipa, fiting, katup, dan teknologi pengelasan, diproduksi di Waldsolms."
+      },
+      {
+        "t": "KESSEL: Terdepan dalam Drainase",
+        "d": "Produsen premium teknologi drainase: perlindungan aliran balik, stasiun pengangkat, pemisah. Otoritas di industri TGA."
+      },
+      {
+        "t": "Perdagangan Bersama",
+        "d": "Perencana dan pemroses bekerja dengan komunitas nilai: filosofi kualitas yang sama, dukungan terkoordinasi, rute pendek."
+      }
     ],
     "roadEyebrow": "Peta Jalan Bersama",
     "roadTitle": "Dari video pelatihan hingga konfigurator.",
     "road": [
-      {"t": "Akademi & Video", "d": "Empat metode pengelasan sebagai dokumentasi video plus kuis: tersedia saat ini, dioptimalkan untuk lokasi konstruksi.", "s": "Hari ini"},
-      {"t": "Dukungan Teknologi Pengelasan", "d": "Perangkat, alat, dan instruksi untuk tim Anda, langsung dari produsen.", "s": "Hari ini"},
-      {"t": "Alat Perencanaan Digital", "d": "Pencari produk, kalkulator CO₂, dan Pusat Kepercayaan sebagai layanan mandiri, sedang diperluas berdasarkan model PlanerPortal.", "s": "Sedang diperluas"},
-      {"t": "Konfigurator Jaringan Pipa Parametrik", "d": "Perspektif: Mengonfigurasi jaringan perpipaan secara parametrik dan mentransfernya langsung ke bill of materials dan inquiry.", "s": "Perspektif"}
+      {
+        "t": "Akademi & Video",
+        "d": "Empat metode pengelasan sebagai dokumentasi video plus kuis: tersedia saat ini, dioptimalkan untuk lokasi konstruksi.",
+        "s": "Hari ini"
+      },
+      {
+        "t": "Dukungan Teknologi Pengelasan",
+        "d": "Perangkat, alat, dan instruksi untuk tim Anda, langsung dari produsen.",
+        "s": "Hari ini"
+      },
+      {
+        "t": "Alat Perencanaan Digital",
+        "d": "Pencari produk, kalkulator CO₂, dan Pusat Kepercayaan sebagai layanan mandiri, sedang diperluas berdasarkan model PlanerPortal.",
+        "s": "Sedang diperluas"
+      },
+      {
+        "t": "Konfigurator Jaringan Pipa Parametrik",
+        "d": "Perspektif: Mengonfigurasi jaringan perpipaan secara parametrik dan mentransfernya langsung ke bill of materials dan inquiry.",
+        "s": "Perspektif"
+      }
     ],
     "specEyebrow": "Untuk Spesifikasi Anda",
     "specTitle": "Data ditujukan ke tempat keputusan dibuat.",
     "specLead": "Spesifikasi produk ditentukan dalam perangkat lunak AVA dan CAD. Di sanalah kami menyampaikannya.",
     "spec": [
-      {"t": "Teks Spesifikasi GAEB", "d": "Teks yang telah disiapkan untuk daftar spesifikasi Anda: Bagian dari paket RFP di Pusat Kepercayaan."},
-      {"t": "Data BIM & CAD", "d": "Perencanaan data untuk pekerjaan berbasis model, tersedia berdasarkan permintaan melalui penjualan, ekspansi sedang berlangsung."},
-      {"t": "Lembar Data & Sampel", "d": "Katalog produk dan properti sebagai PDF, sampel dan saran proyek langsung dari pabrik."}
+      {
+        "t": "Teks Spesifikasi GAEB",
+        "d": "Teks yang telah disiapkan untuk daftar spesifikasi Anda: Bagian dari paket RFP di Pusat Kepercayaan."
+      },
+      {
+        "t": "Data BIM & CAD",
+        "d": "Perencanaan data untuk pekerjaan berbasis model, tersedia berdasarkan permintaan melalui penjualan, ekspansi sedang berlangsung."
+      },
+      {
+        "t": "Lembar Data & Sampel",
+        "d": "Katalog produk dan properti sebagai PDF, sampel dan saran proyek langsung dari pabrik."
+      }
     ]
   },
   "academyx": {
     "paramEyebrow": "Parameter Pengelasan",
     "paramTitle": "Pengelasan soket: nilai panduan.",
     "paramLead": "Waktu pemanasan, waktu transisi, dan waktu pendinginan untuk pengelasan soket menurut DVS 2207-11 (elemen pemanas 250–270 °C), dasar yang ditunjukkan secara praktis dalam video.",
-    "paramHead": ["d (mm)", "Kedalaman Las (mm)", "Pemanasan (d)", "Transisi maks. (d)", "Pendinginan (mnt)"],
+    "paramHead": [
+      "d (mm)",
+      "Kedalaman Las (mm)",
+      "Pemanasan (d)",
+      "Transisi maks. (d)",
+      "Pendinginan (mnt)"
+    ],
     "paramNote": "Nilai referensi menurut DVS 2207-11 untuk PP pada suhu elemen pemanas 250–270 °C. Spesifikasi dari pabrik mesin las dan panduan pemrosesan bersifat mengikat. Jika ragu: tonton videonya, periksa parameter pada perangkat.",
     "stepEyebrow": "Prosedur langkah demi langkah",
     "stepTitle": "Empat metode, satu standar kualitas.",
     "stepLead": "Setiap metode memiliki rentang dimensinya sendiri dan lima langkah yang menentukan kualitas koneksi.",
-    "procTabs": ["Soket (Manual)", "Soket (Mesin)", "Pengelasan Elektro", "Pengelasan Butt"],
+    "procTabs": [
+      "Soket (Manual)",
+      "Soket (Mesin)",
+      "Pengelasan Elektro",
+      "Pengelasan Butt"
+    ],
     "procs": [
       {
         "t": "Pengelasan soket manual: hingga d63",
         "steps": [
-          {"t": "Potong & bersihkan sisa", "d": "Potong pipa siku kanan, deburr dengan bersih dan talang. Gunakan pemotong pipa dari jajaran peralatan K Aqua."},
-          {"t": "Tandai kedalaman pengelasan", "d": "Tandai kedalaman penyisipan menurut tabel (mis. 14 mm untuk d20) pada pipa: ini menentukan zona penyambungan."},
-          {"t": "Panaskan bersama", "d": "Pipa ke soket pemanas, fiting ke kerucut pemanas. Dorong pada saat yang bersamaan dan pertahankan waktu pemanasan persis."},
-          {"t": "Gabungkan dengan cepat, tanpa memutar", "d": "Bergabung secara aksial dalam waktu konversi. Jangan pernah memelintir: memelintir akan menghancurkan struktur plastik."},
-          {"t": "Perbaiki & dinginkan", "d": "Perbaiki koneksi selama beberapa detik, lalu tunggu waktu pendinginan sebelum memuat secara mekanis."}
+          {
+            "t": "Potong & bersihkan sisa",
+            "d": "Potong pipa siku kanan, deburr dengan bersih dan talang. Gunakan pemotong pipa dari jajaran peralatan K Aqua."
+          },
+          {
+            "t": "Tandai kedalaman pengelasan",
+            "d": "Tandai kedalaman penyisipan menurut tabel (mis. 14 mm untuk d20) pada pipa: ini menentukan zona penyambungan."
+          },
+          {
+            "t": "Panaskan bersama",
+            "d": "Pipa ke soket pemanas, fiting ke kerucut pemanas. Dorong pada saat yang bersamaan dan pertahankan waktu pemanasan persis."
+          },
+          {
+            "t": "Gabungkan dengan cepat, tanpa memutar",
+            "d": "Bergabung secara aksial dalam waktu konversi. Jangan pernah memelintir: memelintir akan menghancurkan struktur plastik."
+          },
+          {
+            "t": "Perbaiki & dinginkan",
+            "d": "Perbaiki koneksi selama beberapa detik, lalu tunggu waktu pendinginan sebelum memuat secara mekanis."
+          }
         ]
       },
       {
         "t": "Pengelasan soket dengan mesin: dimensi sedang",
         "steps": [
-          {"t": "Jepit & sejajarkan", "d": "Jepit pipa dan fiting di mesin. Periksa keselarasan aksial agar pengelasan tepat."},
-          {"t": "Penggilingan", "d": "Giling pipa di kedua ujungnya secara paralel untuk menghilangkan lapisan luar. Ini penting untuk kebersihan lasan."},
-          {"t": "Pemanasan & Tekanan", "d": "Masukkan elemen pemanas dan berikan tekanan pemanasan yang benar. Pertahankan suhu dan tekanan dengan cermat."},
-          {"t": "Lepaskan elemen", "d": "Tarik mundur alat secara cepat untuk melepas elemen pemanas setelah waktu tercapai."},
-          {"t": "Gabungkan & Dinginkan", "d": "Terapkan tekanan sambungan secara bertahap dan biarkan koneksi mendingin sepenuhnya di bawah tekanan."}
+          {
+            "t": "Jepit & sejajarkan",
+            "d": "Jepit pipa dan fiting di mesin. Periksa keselarasan aksial agar pengelasan tepat."
+          },
+          {
+            "t": "Penggilingan",
+            "d": "Giling pipa di kedua ujungnya secara paralel untuk menghilangkan lapisan luar. Ini penting untuk kebersihan lasan."
+          },
+          {
+            "t": "Pemanasan & Tekanan",
+            "d": "Masukkan elemen pemanas dan berikan tekanan pemanasan yang benar. Pertahankan suhu dan tekanan dengan cermat."
+          },
+          {
+            "t": "Lepaskan elemen",
+            "d": "Tarik mundur alat secara cepat untuk melepas elemen pemanas setelah waktu tercapai."
+          },
+          {
+            "t": "Gabungkan & Dinginkan",
+            "d": "Terapkan tekanan sambungan secara bertahap dan biarkan koneksi mendingin sepenuhnya di bawah tekanan."
+          }
         ]
       },
       {
         "t": "Pengelasan Elektro",
         "steps": [
-          {"t": "Persiapan & Pembersihan", "d": "Bersihkan pipa dan lepaskan lapisan oksidasi. Tandai kedalaman sisipan pada pipa."},
-          {"t": "Penyisipan Fiting", "d": "Sisipkan pipa ke dalam fiting elektro dengan lurus. Pastikan tidak ada ketegangan pada rakitan."},
-          {"t": "Sambungan Kabel", "d": "Hubungkan kabel dari mesin las ke fiting. Mesin akan membaca kode batang atau memasukkan parameter secara manual."},
-          {"t": "Siklus Las", "d": "Mulai siklus las. Mesin akan menerapkan arus yang benar untuk waktu yang ditentukan."},
-          {"t": "Pendinginan", "d": "Tunggu siklus pendinginan selesai tanpa memindahkan atau membebani sambungan."}
+          {
+            "t": "Persiapan & Pembersihan",
+            "d": "Bersihkan pipa dan lepaskan lapisan oksidasi. Tandai kedalaman sisipan pada pipa."
+          },
+          {
+            "t": "Penyisipan Fiting",
+            "d": "Sisipkan pipa ke dalam fiting elektro dengan lurus. Pastikan tidak ada ketegangan pada rakitan."
+          },
+          {
+            "t": "Sambungan Kabel",
+            "d": "Hubungkan kabel dari mesin las ke fiting. Mesin akan membaca kode batang atau memasukkan parameter secara manual."
+          },
+          {
+            "t": "Siklus Las",
+            "d": "Mulai siklus las. Mesin akan menerapkan arus yang benar untuk waktu yang ditentukan."
+          },
+          {
+            "t": "Pendinginan",
+            "d": "Tunggu siklus pendinginan selesai tanpa memindahkan atau membebani sambungan."
+          }
         ]
       },
       {
         "t": "Pengelasan Butt: untuk dimensi besar",
         "steps": [
-          {"t": "Perataan & Penjepitan", "d": "Perataan pipa besar harus sangat tepat. Jepit pipa pada mesin las butt."},
-          {"t": "Pemangkasan", "d": "Pangkas ujung pipa dengan trimmer yang terintegrasi pada mesin untuk menciptakan ujung yang benar-benar rata."},
-          {"t": "Pemanasan", "d": "Masukkan pelat pemanas dan berikan tekanan pemanasan awal hingga terbentuk butiran. Kurangi tekanan selama fase pemanasan."},
-          {"t": "Melepas Pemanas & Menyambung", "d": "Keluarkan pelat secara cepat. Satukan kedua ujung pipa dengan tekanan gabungan yang telah ditentukan."},
-          {"t": "Pendinginan di Bawah Tekanan", "d": "Biarkan koneksi mendingin di bawah tekanan mesin untuk waktu pendinginan penuh sebelum dilepas."}
+          {
+            "t": "Perataan & Penjepitan",
+            "d": "Perataan pipa besar harus sangat tepat. Jepit pipa pada mesin las butt."
+          },
+          {
+            "t": "Pemangkasan",
+            "d": "Pangkas ujung pipa dengan trimmer yang terintegrasi pada mesin untuk menciptakan ujung yang benar-benar rata."
+          },
+          {
+            "t": "Pemanasan",
+            "d": "Masukkan pelat pemanas dan berikan tekanan pemanasan awal hingga terbentuk butiran. Kurangi tekanan selama fase pemanasan."
+          },
+          {
+            "t": "Melepas Pemanas & Menyambung",
+            "d": "Keluarkan pelat secara cepat. Satukan kedua ujung pipa dengan tekanan gabungan yang telah ditentukan."
+          },
+          {
+            "t": "Pendinginan di Bawah Tekanan",
+            "d": "Biarkan koneksi mendingin di bawah tekanan mesin untuk waktu pendinginan penuh sebelum dilepas."
+          }
         ]
       }
     ],
     "errEyebrow": "Ilmu Kesalahan",
     "errTitle": "Enam kesalahan termahal dan pencegahannya.",
-    "errHead": ["Kesalahan", "Konsekuensi", "Pencegahan"],
+    "errHead": [
+      "Kesalahan",
+      "Konsekuensi",
+      "Pencegahan"
+    ],
     "errRows": [
-      ["Pemanasan terlalu lama", "Manik tumbuh ke dalam, penampang menyempit", "Hentikan waktu pemanasan sesuai tabel, bukan berdasarkan perasaan"],
-      ["Memutar saat menyambung", "Struktur plastis hancur, sambungan bocor", "Sambung hanya secara aksial, gunakan tanda sebagai kontrol"],
-      ["Kurangnya deburring/chamfering", "Material menumpuk, zona sambungan menjadi tidak merata", "Deburr setiap potongan: alat ini bagian dari sistem"],
-      ["Elemen pemanas kotor", "Kotoran terbakar dan mengendap di dalam jahitan", "Bersihkan permukaan pemanas sebelum setiap pengelasan dengan kain bebas serat"],
-      ["Beban terlalu dini", "Jahitan berubah bentuk sebelum mengeras", "Patuhi waktu pendinginan: untuk d110 ini adalah 8 menit"],
-      ["Kedalaman pengelasan salah", "Terlalu pendek: area sambungan kecil · terlalu dalam: penyempitan penampang", "Selalu tandai kedalaman penyisipan, jangan pernah menebak"]
+      [
+        "Pemanasan terlalu lama",
+        "Manik tumbuh ke dalam, penampang menyempit",
+        "Hentikan waktu pemanasan sesuai tabel, bukan berdasarkan perasaan"
+      ],
+      [
+        "Memutar saat menyambung",
+        "Struktur plastis hancur, sambungan bocor",
+        "Sambung hanya secara aksial, gunakan tanda sebagai kontrol"
+      ],
+      [
+        "Kurangnya deburring/chamfering",
+        "Material menumpuk, zona sambungan menjadi tidak merata",
+        "Deburr setiap potongan: alat ini bagian dari sistem"
+      ],
+      [
+        "Elemen pemanas kotor",
+        "Kotoran terbakar dan mengendap di dalam jahitan",
+        "Bersihkan permukaan pemanas sebelum setiap pengelasan dengan kain bebas serat"
+      ],
+      [
+        "Beban terlalu dini",
+        "Jahitan berubah bentuk sebelum mengeras",
+        "Patuhi waktu pendinginan: untuk d110 ini adalah 8 menit"
+      ],
+      [
+        "Kedalaman pengelasan salah",
+        "Terlalu pendek: area sambungan kecil · terlalu dalam: penyempitan penampang",
+        "Selalu tandai kedalaman penyisipan, jangan pernah menebak"
+      ]
     ],
     "glossEyebrow": "Glosarium",
     "glossTitle": "Istilah-istilah teknik perpipaan.",
     "gloss": [
-      ["SDR", "Standard Dimension Ratio = Diameter luar dibagi ketebalan dinding (d/s). SDR kecil = dinding lebih tebal = tekanan nominal lebih tinggi."],
-      ["PN", "Tekanan nominal dalam bar pada 20 °C di atas horizon desain: SDR 6 sesuai dengan PN 20, SDR 17 sesuai dengan PN 6."],
-      ["d / di / s", "Diameter luar / diameter dalam / ketebalan dinding dalam milimeter. di = d − 2s."],
-      ["PP-R", "Polypropylene Random Copolymer: material standar yang teruji untuk instalasi air minum."],
-      ["PPRCT", "PP-R dengan struktur kristal termodifikasi (\"Crystallinity Temperature\"): lebih banyak cadangan suhu dan tekanan dengan dinding yang sama."],
-      ["K-Fiber / GF", "Struktur multilayer yang diperkuat serat kaca: mengurangi ekspansi termal menjadi sekitar seperempat."],
-      ["Pengelasan Soket", "Socket Fusion: pipa dan fitting diplastisasi menggunakan selongsong pemanas dan mandrel lalu disambungkan."],
-      ["Pengelasan Elektro", "Electrofusion: kumparan pemanas tertanam di fitting menghasilkan panas pengelasan, dikendalikan parameter."],
-      ["Pengelasan Butt", "Butt Fusion: ujung pipa sejajar datar dipanaskan pada elemen pemanas dan disambungkan di bawah tekanan, standar hingga d630."],
-      ["DVS 2207-11", "Seperangkat aturan untuk mengelas polipropilena: sumber nilai panduan di halaman ini."]
+      [
+        "SDR",
+        "Standard Dimension Ratio = Diameter luar dibagi ketebalan dinding (d/s). SDR kecil = dinding lebih tebal = tekanan nominal lebih tinggi."
+      ],
+      [
+        "PN",
+        "Tekanan nominal dalam bar pada 20 °C di atas horizon desain: SDR 6 sesuai dengan PN 20, SDR 17 sesuai dengan PN 6."
+      ],
+      [
+        "d / di / s",
+        "Diameter luar / diameter dalam / ketebalan dinding dalam milimeter. di = d − 2s."
+      ],
+      [
+        "PP-R",
+        "Polypropylene Random Copolymer: material standar yang teruji untuk instalasi air minum."
+      ],
+      [
+        "PPRCT",
+        "PP-R dengan struktur kristal termodifikasi (\"Crystallinity Temperature\"): lebih banyak cadangan suhu dan tekanan dengan dinding yang sama."
+      ],
+      [
+        "K-Fiber / GF",
+        "Struktur multilayer yang diperkuat serat kaca: mengurangi ekspansi termal menjadi sekitar seperempat."
+      ],
+      [
+        "Pengelasan Soket",
+        "Socket Fusion: pipa dan fitting diplastisasi menggunakan selongsong pemanas dan mandrel lalu disambungkan."
+      ],
+      [
+        "Pengelasan Elektro",
+        "Electrofusion: kumparan pemanas tertanam di fitting menghasilkan panas pengelasan, dikendalikan parameter."
+      ],
+      [
+        "Pengelasan Butt",
+        "Butt Fusion: ujung pipa sejajar datar dipanaskan pada elemen pemanas dan disambungkan di bawah tekanan, standar hingga d630."
+      ],
+      [
+        "DVS 2207-11",
+        "Seperangkat aturan untuk mengelas polipropilena: sumber nilai panduan di halaman ini."
+      ]
     ]
   },
   "servicex": {
     "libEyebrow": "Pusat Unduhan",
     "libTitle": "Perpustakaan K Aqua.",
     "libLead": "Katalog, lembar data, dan manual. Sertifikat dan bahan kepatuhan dapat disatukan dalam Pusat Kepercayaan.",
-    "libTypes": ["Semua", "Dokumentasi Produk", "Kepatuhan & Keberlanjutan"],
+    "libTypes": [
+      "Semua",
+      "Dokumentasi Produk",
+      "Kepatuhan & Keberlanjutan"
+    ],
     "libItems": [
       {
         "t": "Program Produk K Aqua",
@@ -1839,10 +2303,22 @@
       "tempLabel": "Suhu maks.",
       "tempNote": "PN20 · Operasi Berkelanjutan",
       "meta": [
-        ["Bahan", "K Aqua PP-R (Tipe 3)"],
-        ["Standar", "DIN 8077/8078"],
-        ["Sertifikasi", "DVGW, SKZ, KIWA"],
-        ["Masa Pakai", "> 50 Tahun"]
+        [
+          "Bahan",
+          "K Aqua PP-R (Tipe 3)"
+        ],
+        [
+          "Standar",
+          "DIN 8077/8078"
+        ],
+        [
+          "Sertifikasi",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Masa Pakai",
+          "> 50 Tahun"
+        ]
       ]
     },
     "layers": {
@@ -1850,18 +2326,39 @@
       "desc": "Struktur 3 lapis untuk ekspansi longitudinal yang diminimalkan.",
       "ariaGroup": "Lapisan material",
       "items": [
-        {"t": "PPRCT", "d": "Lapisan luar"},
-        {"t": "Komposit serat", "d": "Lapisan tengah"},
-        {"t": "PPRCT", "d": "Lapisan dalam"}
+        {
+          "t": "PPRCT",
+          "d": "Lapisan luar"
+        },
+        {
+          "t": "Komposit serat",
+          "d": "Lapisan tengah"
+        },
+        {
+          "t": "PPRCT",
+          "d": "Lapisan dalam"
+        }
       ]
     },
     "comply": {
       "title": "Kepatuhan & Standar",
       "items": [
-        ["DVGW", "Persetujuan Air Minum"],
-        ["SKZ", "Pemantauan Kualitas"],
-        ["KIWA", "Sertifikasi Sistem"],
-        ["DIN 8077/8078", "Dimensi Pipa & Toleransi"]
+        [
+          "DVGW",
+          "Persetujuan Air Minum"
+        ],
+        [
+          "SKZ",
+          "Pemantauan Kualitas"
+        ],
+        [
+          "KIWA",
+          "Sertifikasi Sistem"
+        ],
+        [
+          "DIN 8077/8078",
+          "Dimensi Pipa & Toleransi"
+        ]
       ]
     },
     "rangeTitle": "Dimensi",
@@ -1869,9 +2366,18 @@
       "title": "Jaringan Global",
       "lead": "Sistem K Aqua beroperasi di lebih dari 35 negara.",
       "chips": [
-        ["35+", "Negara"],
-        ["3", "Benua"],
-        ["ISO", "Tersertifikasi"]
+        [
+          "35+",
+          "Negara"
+        ],
+        [
+          "3",
+          "Benua"
+        ],
+        [
+          "ISO",
+          "Tersertifikasi"
+        ]
       ]
     }
   },
@@ -1954,11 +2460,26 @@
     ],
     "factsTitle": "Senang mengetahui",
     "facts": [
-      ["Waktu respons", "Balasan dalam satu hari kerja"],
-      ["Lokasi", "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf"],
-      ["Telepon / Faks", "+49 (0)60 85 / 9868-410 · Faks -420"],
-      ["Bahasa", "Jerman dan Inggris"],
-      ["Kunjungan pabrik", "Sesuai janji"]
+      [
+        "Waktu respons",
+        "Balasan dalam satu hari kerja"
+      ],
+      [
+        "Lokasi",
+        "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Telepon / Faks",
+        "+49 (0)60 85 / 9868-410 · Faks -420"
+      ],
+      [
+        "Bahasa",
+        "Jerman dan Inggris"
+      ],
+      [
+        "Kunjungan pabrik",
+        "Sesuai janji"
+      ]
     ],
     "mapLabel": "Peta akses Waldsolms",
     "faqEyebrow": "Sebelum menulis",
@@ -2012,17 +2533,38 @@
     "whyEyebrow": "Mengapa K Aqua",
     "whyTitle": "Empat alasan untuk bekerja di sini.",
     "why": [
-      {"t": "Posisi pasar berkembang", "d": "Berkontribusi pada kesuksesan."},
-      {"t": "Keselamatan", "d": "Sistem GENAU melindungi Anda."},
-      {"t": "Produk dengan substansi", "d": "Pipa dengan masa pakai 50 tahun."},
-      {"t": "Manfaat", "d": "Manfaat tambahan dari kartu prabayar hingga sepeda."}
+      {
+        "t": "Posisi pasar berkembang",
+        "d": "Berkontribusi pada kesuksesan."
+      },
+      {
+        "t": "Keselamatan",
+        "d": "Sistem GENAU melindungi Anda."
+      },
+      {
+        "t": "Produk dengan substansi",
+        "d": "Pipa dengan masa pakai 50 tahun."
+      },
+      {
+        "t": "Manfaat",
+        "d": "Manfaat tambahan dari kartu prabayar hingga sepeda."
+      }
     ],
     "procEyebrow": "Proses Aplikasi",
     "procTitle": "Tiga langkah menuju kontrak.",
     "proc": [
-      {"t": "Kirim aplikasi", "d": "Melalui email ke Andrea Nickel."},
-      {"t": "Wawancara", "d": "Kami menghubungi Anda segera."},
-      {"t": "Kunjungan pabrik", "d": "Lihat produksi sebelum memutuskan."}
+      {
+        "t": "Kirim aplikasi",
+        "d": "Melalui email ke Andrea Nickel."
+      },
+      {
+        "t": "Wawancara",
+        "d": "Kami menghubungi Anda segera."
+      },
+      {
+        "t": "Kunjungan pabrik",
+        "d": "Lihat produksi sebelum memutuskan."
+      }
     ],
     "procContact": "Kontak: Andrea Nickel · andrea.nickel@k-aqua.de"
   },
@@ -2320,7 +2862,8 @@
         "btnPrimary": "Mulai Permintaan",
         "btnGhost": "Hubungi Ahli"
       },
-      "metaTitle": "Dukungan Teknis & Layanan untuk Sistem Pipa PP-R"
+      "metaTitle": "Dukungan Teknis & Layanan untuk Sistem Pipa PP-R",
+      "sub": "Engineering consulting, application technology, and on-site support."
     },
     "downloads": {
       "title": "Unduhan",
@@ -3209,7 +3752,15 @@
     "valves_tee-90-female-thread-internal-valve": "Tee 90° (Ulir Dalam) untuk Katup",
     "weld-in-saddles_weld-in-saddle-female-thread": "Pelana Las (Ulir Dalam)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Pelana Las (Ulir Luar)",
-    "weld-in-saddles_weld-in-saddle": "Pelana Las"
+    "weld-in-saddles_weld-in-saddle": "Pelana Las",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "customerReviews": {
     "eyebrow": "Kualitas yang menghubungkan",
@@ -3259,101 +3810,293 @@
     "disclaimer": "Catatan: Ulasan dari Profil Bisnis Google kami."
   },
   "kontaktBlocks": {
-    "produkte": {
-      "kicker": "Katalog & Pengadaan",
-      "head": "Tanyakan waktu pengiriman dan ketersediaan langsung.",
-      "short": "Cek ketersediaan dan ketentuan",
-      "text": "Anda merencanakan tenggat waktu yang ketat? Kami siap membantu.",
-      "interest": "Sistem perpipaan",
-      "done": "Penjualan dalam kami akan segera memeriksa ketersediaan."
+    "home": {
+      "kicker": "Inisiasi Proyek",
+      "head": "Tinggalkan dimensi proyek Anda, kami urus sisanya.",
+      "short": "Minta Kalkulasi Beban Sistem Cepat",
+      "text": "Nomor telepon, email, satu klik pada spesialisasi tema Anda. Selebihnya akan kami paparkan saat berdiskusi via telepon atau dalam panggilan video.",
+      "interest": "Pusat Bantuan",
+      "done": "Terkirim! Tenaga ahli kami segera menghubungi Anda."
     },
-    "k_pipe_sdr_6": {
-      "kicker": "Dukungan Teknis SDR 6",
-      "head": "Klarifikasi batas tekanan ekstrem langsung dengan para insinyur.",
-      "short": "Tanyakan aplikasi SDR 6",
-      "text": "Jika pipa standar gagal, SDR 6 direkomendasikan. Diskusikan batasan tekanan.",
-      "interest": "Sistem perpipaan",
-      "done": "Seorang spesialis teknik tekanan tinggi akan menghubungi Anda."
+    "unternehmen": {
+      "kicker": "Pusat Operasional K Aqua",
+      "head": "Langsung terhubung dengan manajemen pusat di Jerman.",
+      "short": "Jadwalkan Kunjungan ke Pabrik Kami",
+      "text": "Jika Anda merencanakan kemitraan distribusi, silakan tinggalkan detail kontak Anda untuk membahas opsi penyusunan logistik pabrik dan tinjauan fasilitas di Osnabrück.",
+      "interest": "Konsultasi Teknis",
+      "done": "Bagus! Tim pusat akan langsung merespons Anda."
     },
-    "k_pipe_sdr_7_4": {
-      "kicker": "Dukungan Teknis SDR 7.4",
-      "head": "Hitung peningkatan laju aliran dengan PPRCT.",
-      "short": "Tanyakan aplikasi SDR 7.4 PPRCT",
-      "text": "PPRCT memungkinkan dinding yang lebih tipis dan aliran yang lebih besar.",
-      "interest": "Sistem perpipaan",
-      "done": "Seorang spesialis perpipaan akan menghubungi Anda."
+    "produkte_fittings": {
+      "kicker": "Spesifikasi Fitting",
+      "head": "Pertanyaan mengenai toleransi dimensi dan perilaku perpaduan (fusi)?",
+      "short": "Dapatkan Saran Teknis Penyambungan (Fusi)",
+      "text": "Apabila perencana instalasi membutuhkan parameter uji titik fusi pada T-pieces (Tee) reduksi atau spesifikasi adaptor flensa dengan dimensi khusus, segera isi formulir.",
+      "interest": "Teknis Polifusi",
+      "done": "Dokumen segera diproses dan teknisi pengelasan kami siap membantu."
     },
-    "k_fiber_sdr_11": {
-      "kicker": "Dukungan Teknis K-Fiber",
-      "head": "Kendalikan ekspansi termal.",
-      "short": "Tanyakan kompensasi ekspansi",
-      "text": "Serat mengurangi ekspansi. Kami membantu perhitungan.",
-      "interest": "Sistem perpipaan",
-      "done": "Dukungan teknis kami akan menghubungi Anda."
+    "produkte_rohre": {
+      "kicker": "Dimensi Perpipaan",
+      "head": "Saran pemilihan seri SDR yang presisi bagi tekanan proyek Anda.",
+      "short": "Analisis Kelas Tekanan Pipa PP-R",
+      "text": "Air dingin, instalasi pabrik, ataupun pompa bertekanan tinggi? Terangkan spesifikasi batas maksimum tekanan dan rentang temperaturnya. Kami akan usulkan tipe pipa K Aqua yang paling sejalan dengan TCO terendah.",
+      "interest": "Pipa & Sistem",
+      "done": "Berhasil! Data SDR pipa kami segera menanti Anda."
     },
-    "k_fiber_uv": {
-      "kicker": "Dukungan Teknis Tahan UV",
-      "head": "Instalasi luar ruangan tanpa risiko degradasi.",
-      "short": "Tanyakan aplikasi UV-Outdoor",
-      "text": "Pipa hitam kami tahan UV. Tanyakan tentang masa pakai.",
-      "interest": "Sistem perpipaan",
-      "done": "Pakar material kami akan menghubungi Anda."
+    "produkte_armaturen": {
+      "kicker": "Integrasi Katup",
+      "head": "Saran pengaturan aliran cairan hidrolik yang optimal tanpa korosi.",
+      "short": "Tanyakan Katup (Valve) PP-R Spesifik",
+      "text": "Kami mendesain ball valve, stopcock miring, maupun perlengkapan khusus perpipaan logam-ke-plastik bebas hambatan aliran. Para teknisi ahli sistem fluida kami siap memandu pemasangan yang akurat.",
+      "interest": "Produk Armatur",
+      "done": "Segera dihubungi! Kami akan meninjau rincian konfigurasi katup Anda."
     },
-    "fittings": {
-      "kicker": "Soket & Fitting",
-      "head": "Pertanyaan tentang pemasangan.",
-      "short": "Tanyakan aplikasi soket",
-      "text": "Punya pertanyaan tentang teknologi pengelasan?",
-      "interest": "Sistem perpipaan",
-      "done": "Ahli las kami akan menghubungi Anda."
+    "produkte_werkzeuge": {
+      "kicker": "Perlengkapan Las",
+      "head": "Penyelarasan instruksi alat las termofusi bagi perakit di lapangan.",
+      "short": "Bantuan Penggunaan Mesin Las Polifusi",
+      "text": "Baik mesin pengelasan manual hingga mesin elektro-fusi untuk pipa berskala 125mm. Sebutkan variasi kaliber instalasi Anda, kami akan arahkan alat uji las paling ideal untuk efisiensi kerja lapangan.",
+      "interest": "Alat Fusi Las",
+      "done": "Pesan diterima. Jadwal diskusi tim pelatihan mesin segera disiapkan."
     },
-    "transition": {
-      "kicker": "Koneksi Logam",
-      "head": "Transisi bebas korosi ke sistem yang ada.",
-      "short": "Tanyakan transisi logam-plastik",
-      "text": "Renovasi dan sambungkan perpipaan lama.",
-      "interest": "Sistem perpipaan",
-      "done": "Pakar sistem hibrida akan menghubungi Anda."
+    "produkte_uebergaenge": {
+      "kicker": "Teknologi Sambungan Transisi",
+      "head": "Menjembatani baja dan tembaga dengan keandalan PP-R (plastik).",
+      "short": "Saran Persambungan Campuran Logam",
+      "text": "Saat instalasi lama dirombak, jembatan antara logam dan polimer jadi vital. Informasikan tipe instalasi yang ada, kami merespons lewat arahan ulir logam cetak presisi kami (CW617N).",
+      "interest": "Sistem Transisi",
+      "done": "Teknisi sistem material ganda kami akan memandu Anda segera."
     },
-    "valves": {
-      "kicker": "Katup & Kontrol",
-      "head": "Dukungan untuk katup plastik murni.",
-      "short": "Tanyakan tentang katup PPR",
-      "text": "Katup 100% plastik menghindari korosi.",
-      "interest": "Sistem perpipaan",
-      "done": "Kami akan membantu pemilihan katup Anda."
+    "produkte_zubehoer": {
+      "kicker": "Komponen Pendukung",
+      "head": "Detail yang memastikan keamanan seluruh jaringan pipa.",
+      "short": "Tanya Tentang Klem dan Gasket",
+      "text": "Pertanyaan seputar batas toleransi pemuaian cincin gasket, atau kekuatan beban dinamis pada klem pipa gantung? Bagikan skenario pemasangan agar kami meninjau solusi pendukung terbaik.",
+      "interest": "Suku Cadang Tambahan",
+      "done": "Kami segera memberikan panduan aksesori instalasi."
     },
-    "weld_saddles": {
-      "kicker": "Sadel Las",
-      "head": "Percabangan retroaktif tanpa memotong pipa utama.",
-      "short": "Pertanyaan tentang sadel las",
-      "text": "Butuh bantuan dengan teknik sadel?",
-      "interest": "Sistem perpipaan",
-      "done": "Tim dukungan teknis akan segera membalas."
+    "katalog": {
+      "kicker": "Buku Katalog & Harga",
+      "head": "Daftar rincian material beserta lembar spesifikasi pengadaan.",
+      "short": "Minta Katalog Produk Lengkap",
+      "text": "Menginginkan harga partai besar untuk pesanan lebih spesifik? Tim penjualan korporasi kami bersiap mengirimkan daftar rincian estimasi biaya secara individual pasca perbincangan awal.",
+      "interest": "Panduan Konsultasi",
+      "done": "Selesai! Tautan dokumen segera disematkan dalam kotak masuk Anda."
     },
-    "tools": {
-      "kicker": "Teknologi Pengelasan",
-      "head": "Penyewaan dan pembelian mesin las.",
-      "short": "Peralatan pengelasan & instruksi",
-      "text": "Butuh mesin atau perbaikan?",
-      "interest": "Peralatan",
-      "done": "Layanan peralatan kami akan menghubungi Anda."
+    "finder": {
+      "kicker": "Cari Produk Terkait",
+      "head": "Tak temukan komponen yang pas? Hubungi penasihat material.",
+      "short": "Tanya Soal Komponen Terspesialisasi",
+      "text": "Bagi arsitek perancang spesifikasi atau pemburu material logistik. Cukup isikan ciri deskripsi komponen atau lampirkan foto teknisnya, lalu serahkan kepada staf spesialis gudang kami.",
+      "interest": "Pusat Bantuan Teknis",
+      "done": "Bantuan pencarian segera berjalan. Kami hubungi sebentar lagi."
     },
-    "academy": {
-      "kicker": "Pelatihan K-Aqua",
-      "head": "Ajukan pelatihan di lokasi.",
-      "short": "Pesan kursus Akademi",
-      "text": "Latih tim Anda dengan instruktur resmi kami.",
-      "interest": "Konsultasi",
-      "done": "Manajer Akademi akan segera mengonfirmasi."
+    "referenzen": {
+      "kicker": "Validasi Portofolio Proyek",
+      "head": "Minta penjelasan terperinci kasus penerapan (case study) proyek sejenis.",
+      "short": "Bedah Teknis Megaproyek Terkait",
+      "text": "Para ahli rancang infrastruktur K Aqua akan dengan leluasa membongkar kiat mengatasi hambatan hidrolika maupun proses perakitan khusus pada megaproyek yang relevan dengan kasus Anda.",
+      "interest": "Dukungan Konsultasi",
+      "done": "Luar biasa! Konsultan pengerjaan proyek K Aqua segera membalas."
+    },
+    "support": {
+      "kicker": "Dukungan Teknis",
+      "head": "Temukan jawaban untuk dilema instalasi terburuk Anda dari kami.",
+      "short": "Dukungan Teknisi Panggilan Cepat",
+      "text": "Masalah dalam pembacaan mesin las elektro-fusi? Butuh dukungan terkait parameter uji tekanan akhir sebelum semen ditutup? Sampaikan secepatnya keluhan kendala yang Anda hadapi.",
+      "interest": "Layanan Konsultasi Ahli",
+      "done": "Tiket masalah Anda diprioritaskan. Kami akan memandu jalan keluarnya."
+    },
+    "ausschreibungstexte": {
+      "kicker": "Rancangan Teks Tender",
+      "head": "Persingkat proses lelang berbekal format tender standar.",
+      "short": "Kirim Format Dokumen Lelang",
+      "text": "Cukup informasikan parameter tekanan yang diwajibkan (SDR) dan klasifikasi bidang aplikasinya (suhu ruang dingin atau ekstrem). K Aqua menyiapkan klausa format pelelangan berstandar internasional.",
+      "interest": "Dukungan Arsitek & Tender",
+      "done": "Dokumen tender sedang meluncur ke dalam daftar pekerjaan kami."
+    },
+    "service": {
+      "kicker": "Layanan Spesialis",
+      "head": "Temukan solusi jaminan mutu terpusat dari teknisi spesialis Jerman.",
+      "short": "Buat Janji Layanan Laboratorium",
+      "text": "Dukungan analisis umur pakai secara ilmiah yang dipercepat, pemetaan diagram beban struktural perpipaan, hingga evaluasi titik sambung las laboratorium bisa kami wujudkan saat dibutuhkan.",
+      "interest": "Bantuan Rekayasa Lanjut",
+      "done": "Permintaan uji lab teknis Anda akan segera diproses tim analis."
+    },
+    "maerkte_trinkwasser": {
+      "kicker": "Infrastruktur Air Bersih",
+      "head": "Jaminan air bersih tanpa logam berat dan risiko mikroba.",
+      "short": "Laporan Standarisasi Air Minum DVGW",
+      "text": "Penuhi jaminan pasokan steril tanpa rasa pada hunian dan sektor pabrik dengan jaminan DVGW. Perpipaan K-Aqua takkan pernah meluruhkan endapan korosi ke saluran keran.",
+      "interest": "Uji Konsultasi Ahli",
+      "done": "Berhasil! Laboratorium spesialis kami segera mengonfirmasinya."
+    },
+    "maerkte_klima": {
+      "kicker": "Pendinginan Udara & HVAC",
+      "head": "Ucapkan selamat tinggal pada masalah kondensasi isolasi berulang.",
+      "short": "Evaluasi Isolasi Pendingin K Aqua",
+      "text": "Saat jaringan pendingin baja terperangkap korosi karena perbedaan suhu konstan udara luar, sifat peredam konduktivitas termal bahan PPR K Aqua mengeliminasi masalah itu seutuhnya.",
+      "interest": "Sistem Termoregulasi",
+      "done": "Pengkaji arsitektur beban HVAC segera memaparkan analisis solusinya."
+    },
+    "maerkte_industrie": {
+      "kicker": "Sistem Cairan Industri",
+      "head": "Bahas ketahanan ketebalan lapisan pipa terhadap sifat kimia asam.",
+      "short": "Evaluasi Kompatibilitas Kimiawi",
+      "text": "Instalasi pabrik petrokimia atau jalur pengisian cairan asam berat? Kami memiliki parameter basis data penunjang reaktivitas 500 macam bahan cair kimia atas polimer yang digunakan K Aqua.",
+      "interest": "Dukungan Konsultasi Manufaktur",
+      "done": "Laboratorium kami sedang merumuskan resistansi uji kompatibilitas cairan."
+    },
+    "maerkte_schiffbau": {
+      "kicker": "Galangan Kapal Laut",
+      "head": "Ringan, kedap resonansi bising mesin, plus bebas pengarat air asin.",
+      "short": "Sertifikasi Klasifikasi Bahtera",
+      "text": "Baik pengelolaan sistem pengolahan air pembuangan (gray/black) ataupun pemberat lambung. Kabarkan tipe kapal Anda, sertifikasi Lloyd's atau DNV pun kami edarkan segera.",
+      "interest": "Sertifikat Kelayakan Maritim",
+      "done": "Dokumen lisensi bersertifikat maritim segera meluncur dalam waktu singkat."
+    },
+    "maerkte_landwirtschaft": {
+      "kicker": "Irigasi Agrikultur Hijau",
+      "head": "Distribusi masif di ladang terbuka dengan saluran kebal penyumbatan.",
+      "short": "Saran Desain Jaringan Selang Agrikultur",
+      "text": "Kemukakan seberapa luas hektar ladang serta intensitas volume curah kebutuhan Anda. Saluran tahan gempuran embun beku K-Aqua menekan penumpukan dinding selang oleh lendir alga.",
+      "interest": "Rancangan Pipa Agro-Irigasi",
+      "done": "Pakar hidrolika sistem penanaman kami menyambung kembali tidak lama lagi."
+    },
+    "maerkte": {
+      "kicker": "Pasar Internasional Regional",
+      "head": "Lakukan konsultasi dengan delegasi pemasaran global di regional Anda.",
+      "short": "Arahan Lisensi Regional Setempat",
+      "text": "Kami mendistribusi menyebar jaringan ke ujung benua di bumi. Konfirmasikan di pelabuhan mana material akan tiba, waktu sandar kargo laut, plus anjuran biro logistik setempat pun siap diuraikan.",
+      "interest": "Jaringan Mitra Ekspor",
+      "done": "Direktur pemasaran wilayah kami tengah menjadwalkan panggilan dengan Anda."
+    },
+    "loesungen_hochhaus": {
+      "kicker": "Gedung Pencakar Langit",
+      "head": "Tingkat kestabilan beban hidrodinamika sepanjang poros menara (shaft).",
+      "short": "Kalkulasi Beban Hilang Tekanan Gravitasi",
+      "text": "Hukum gerak mekanika gravitasi di bangunan menjulang sungguh tak kenal toleransi cacat. Konfirmasikan total tinggi struktur lantai, dan letak akurat unit kontrol katup pemutus redam tekanannya.",
+      "interest": "Analisis Model BIM",
+      "done": "Insinyur senior sistem aliran gedung bertingkat mulai membedah hitungannya."
+    },
+    "loesungen_krankenhaus": {
+      "kicker": "Fasilitas Medis Rumah Sakit",
+      "head": "Kemurnian sterilitas ruang kritis demi perlawanan atas Legionella.",
+      "short": "Uji Konsultasi Mutu Higienitas Instalasi Medis",
+      "text": "Perlindungan terhadap lansia rentan sangat diwajibkan. Diskusikan ihwal pemakaian metode putaran konstan, pemberantasan ruang henti udara mati, plus teknik fluktuasi suci hama air suhu didih.",
+      "interest": "Rangkaian Perpipaan Steril",
+      "done": "Satgas penasihat tingkat kontrol kesterilan bakal berdikusi bersama Anda."
+    },
+    "loesungen_hotel": {
+      "kicker": "Resor & Hotel Mewah",
+      "head": "Isolasi gangguan gema bising instalasi perpipaan dari tamu menginap.",
+      "short": "Rekomendasi Isolator Akustik Redam Suara",
+      "text": "Deru arus selokan limbah maupun sedotan deras dari kamar mandi atas tidak boleh merusak istirahat nyaman ruangan yang lain. Izinkan K Aqua memutus transfer frekuensi gelombang getaran gema pipa secara efektif.",
+      "interest": "Dukungan Konsultasi Teknis",
+      "done": "Solusi rekomendasi penempatan penjepit peredam tengah disusun untuk Anda."
+    },
+    "loesungen": {
+      "kicker": "Terapan Sistem Khusus",
+      "head": "Penyesuaian rekayasa sistem khusus demi konstruksi arsitektur ganjil.",
+      "short": "Pesan Saran Konstruktif Rancangan Tak Lazim",
+      "text": "Susunan rakitan tipe pasaran biasa kadang tidak muat. Ilustrasikan detail hambatan lekuk area pemasangan, departemen spesialis fabrikasi Jerman merakit desain modifikasi baru penyesuaian lapangan.",
+      "interest": "Bantuan Penasihat",
+      "done": "Konseptor biro departemen khusus menelisik keluhan instalasi teknis Anda."
+    },
+    "co2_rechner": {
+      "kicker": "Rekap Jejak Emisi CO2",
+      "head": "Validasi perbandingan perolehan penghematan jejak karbon proyek Anda.",
+      "short": "Minta Keluaran Terperinci Neraca Sertifikasi Emisi",
+      "text": "Angka keluaran awal cukup untuk tahap penyisihan estimasi awal. Bagikan seluruh dimensi rinci BOM (Bills of Material) pipa besi lama untuk disejajarkan agar mengantongi nilai audit pengurangan emisi sah.",
+      "interest": "Konsultasi Kalkulasi",
+      "done": "Petugas pakar laporan berkesinambungan tengah menghitung konversi nilainya."
+    },
+    "trust_center": {
+      "kicker": "Norma & Dokumen Sertifikasi",
+      "head": "Perlu melampirkan berkas sertifikat bagi petugas survei inspektur gedung?",
+      "short": "Mohon Penyerahan Dokumen Tanda Lulus Pemeriksaan",
+      "text": "Manakala pengawas menagih bukti jaminan validitas persetujuan yang disahkan (seperti DVGW, SKZ, lembaga KIWA), ketik rujukan edisi nomor pasal undang-undangnya. Kami suguhkan lampiran wujud format salinan aslinya (PDF).",
+      "interest": "Kelengkapan Pustaka Data",
+      "done": "Tim pengarsipan menyisir rak dokumen untuk menyajikannya kepada Anda."
+    },
+    "projektanfrage": {
+      "kicker": "Peresmian Proyek Awal",
+      "head": "Tukar daftar parameter krusial proyek demi angka alokasi budget kilat.",
+      "short": "Pemintaan Estimasi Beban Anggaran Belanja",
+      "text": "Sematkan sekumpulan ringkasan sketsa bagan lantai instalasi cetak biru (blueprint) pada sesi ke depan, atau bacakan total kubikasi meter area lantai, Anda kami beri kalkulasi estimasi dana pengerjaan kasar.",
+      "interest": "Opsi Arsitektur Perpipaan",
+      "done": "Gugus kemitraan pengerjaan instalasi menjadwalkan pembahasan pagu anggaran."
+    },
+    "kontakt": {
+      "kicker": "Jalur Utama Darurat",
+      "head": "Jalan terpintar menembus pintu pusat komando operasional K Aqua.",
+      "short": "Telepon Rute Tol Ekspres Terbuka dari Area Konstruksi",
+      "text": "Absolut putus rantai mesin antrean panggilan suara mesin robot operator berbelit. Sisipkan detail barisan deret nomor, niscaya perwakilan tim garda terdepan merespons memanggil memandu Anda.",
+      "interest": "Konsultasi Terpandu Cepat",
+      "done": "Data diri sukses diproses sistem. Delegasi perantara teknis memanggil Anda."
+    },
+    "news": {
+      "kicker": "Hubungan Media Pres",
+      "head": "Ingin mengajukan konfirmasi ulasan wawancara perilisan pembaruan produk?",
+      "short": "Jalur Pintu Saluran Divisi Publikasi Wacana Publik",
+      "text": "Guna memesan cetak potret beresolusi super besar, diskusi bersama dewan eksekutif tertinggi K-Aqua, paparan kupas terperinci dari balik tirai peluncuran penemuan pabrik, sodorkan nomor identitas redaksi.",
+      "interest": "Panduan Informasi Terkini",
+      "done": "Biro dewan penerbit jurnal kabar lekas bersurat mengatur agenda jadwal temu."
+    },
+    "karriere": {
+      "kicker": "Kesempatan Karier di K Aqua",
+      "head": "Sisipkan ulasan singkat teka-teki lowongan slot staf jabatan purna waktu.",
+      "short": "Hotline Sambung Singkat Menuju Bidang Eksekutif Sumber Daya Manusia (HRD)",
+      "text": "Sanksi merasa sangsi, atau gundah apakah serangkaian CV sejalan beralur senapas dengan denyut jantung atmosfer kantor? Konselor SDM K-Aqua kami ringan hati menyambut sapaan lisan jarak jauh untuk mengulasnya.",
+      "interest": "Informasi Pekerjaan",
+      "done": "Agenda berbincang-bincang saling menyapa ringan segera terkonfirmasi, bersiaplah."
+    },
+    "partnerschaft": {
+      "kicker": "Keagenan Mitra Resmi",
+      "head": "Padati deret rak ruang pamer pangkalan distribusi jajaran produk pipa kasta teratas buatan Republik Jerman.",
+      "short": "Proposal Kerangka Margin Insentif Jatah Penjualan Skala Lebar",
+      "text": "Berstatus perusahaan importir logistik masif merindukan pasokan PP-R solid tanpa celah kualitas? Sebut garis zona wilayah kekuasaan niaga, manajer pemasaran kami mendikte jangkauan margin penawaran perjanjian spesial.",
+      "interest": "Pola Diskusi Berpartner",
+      "done": "Delegasi pimpinan relasi aliansi keagenan menelaah kerangka zona kemitraan."
+    },
+    "impressum": {
+      "kicker": "Detail Informasi Legalitas",
+      "head": "Ada tebersit kejanggalan dalam wewenang izin dasar hukum badan lisensi niaga operasional (Impressum) milik perusahaan ini?",
+      "short": "Saluran Formal Hubungan Menuju Lobi Sekretariat Besar K-Aqua",
+      "text": "Silakan menaruh jejak saluran telekomunikasi apabila dirasa Anda tersandung keraguan wacana kepastian pasal, maupun sekadar tuntutan pengesahan birokrasi korporasi administrasi badan persero legal administratif K-Aqua.",
+      "interest": "Tanya Jawab Laporan Penjelasan Klarifikasi Hak Asasi Badan Administrasi Formal",
+      "done": "Rangkaian surat tanda kejelasan balasan keterangan pengacara formal bergegas bertolak tiba."
+    },
+    "datenschutz": {
+      "kicker": "Keamanan & Pengawalan Data Hak Pribadi (Privasi)",
+      "head": "Berinteraksi langsung membahas ihwal seluk beluk rincian keamanan bersama kepala spesialis urusan perisai penjagaan perlindungan data diri (Privacy).",
+      "short": "Tuntutan Surat Transparansi Arsip Log Catatan Riwayat Sesi Aktivitas Data Diri",
+      "text": "Ketegasan pilar hak ranah perlindungan kawasan batasan hak data diri terpatri krusial mutlak kaku di tempat kami. Kiranya berkeinginan membredel, memeriksa seutuhnya silsilah siklus paparan lalu lintas arsip jejak diri, sertakan kontak.",
+      "interest": "Kajian Edukasi Arahan Undang Undang Konstitusi Kepastian Payung Aturan Keamanan",
+      "done": "Sang petugas komisaris kepolisian arsip penjaga kerahasiaan rincian proteksi siber menanggapi seruan tuntutan panggilan dalam selang sejenak."
     },
     "fallback": {
-      "kicker": "Kontak",
-      "head": "Bicara langsung dengan insinyur kami.",
-      "short": "Jalur langsung",
-      "text": "Satu klik dan kami akan menghubungi Anda kembali.",
-      "interest": "Konsultasi",
-      "done": "Kami akan segera menghubungi Anda."
+      "kicker": "Area Sentral Komunikasi Bebas Kontak",
+      "head": "Suarakan berinteraksi mengobrol melempar aduan keluhan perihal permasalahan tanpa tabir dinding langsung menghadap jajaran meja insinyur kami.",
+      "short": "Sirkuit Jalur Panggilan Darurat Panas Kilat Bebas Hambatan Langsung Kepada Dewan Jajaran Barisan Pakar Rekayasa Teknisi Utama Ahli Mesin Pipa",
+      "text": "Identitas sandi digit (nomor telepon), papan surel, seret tuas opsi tombol spesialisasi fokus inti rincian keluhan persoalan Anda. Titik. Selanjutnya biar corong delegasi utusan insinyur ahli dewan mesin K-Aqua merakit konversinya lewat panggilan komunikasi interaktif dua arah diskusi di udara bebas (live).",
+      "interest": "Arahan Pendampingan Kepelatihan Navigasi Ulasan Mendalam Berantai",
+      "done": "Perwira utusan khusus pakar konselor mandataris berbekal sertifikasi K-Aqua membunyikan lonceng sinyal dering respons balik sebelum senja ufuk ufuk ujung jam pergantian tugas kerja tiba kelar (dalam interval tempo sesingkatnya satu kali dua puluh empat jam kerja hari biasa)."
+    },
+    "produkte": {
+      "kicker": "Koleksi Rangkaian Produk",
+      "head": "Meragukan kompatibilitas penyesuaian komponen PP-R milik kami?",
+      "short": "Jasa Layanan Konsultasi Penyesuaian Kompatibilitas Sistem",
+      "text": "Paparkan gambaran kasarnya sistem pipa jenis apa yang hendak Anda kawinkan. Bakal kami bedah panduan rakitan solid antibocor menggunakan koleksi andalan kami.",
+      "interest": "Panduan Instalasi Arus Alir Perpipaan",
+      "done": "Pesan merapat! Data lembar teknis kompatibilitas menyusul tiba."
+    },
+    "academy": {
+      "kicker": "Pelatihan & Sertifikasi Mutu",
+      "head": "Daftarkan tim montir Anda di kelas pelatihan praktik kami.",
+      "short": "Pemesanan Bangku Pelatihan Akademi",
+      "text": "Pastikan validitas garansi lewat kecakapan tukang rakit bersertifikat. Sebutkan kuantitas regu anak buah Anda, kami sodorkan jadwal pelatihan internal maupun di area pabrik.",
+      "interest": "Pengajuan Pertanyaan Layanan",
+      "done": "Regu komite akademi menyiapkan slot jadwal uji coba latihannya."
     }
   },
   "kontaktForm": {
@@ -3436,1498 +4179,1499 @@
       "title": "Lebih lanjut dari {category}"
     },
     "items": {
-  "k-pipe-pp-r-sdr-6": {
-    "name": "K-Pipe Pipa PP-R SDR 6",
-    "desc": "Sistem perpipaan Polypropylene serbaguna untuk instalasi kelas tekanan tinggi (SDR 6).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-pipe-pp-rct-sdr-74": {
-    "name": "K-Pipe Pipa PPRCT SDR 7.4",
-    "desc": "Sistem perpipaan berteknologi struktur matriks kokoh (PPRCT) tekanan SDR 7.4.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-pipe-pp-r-sdr-11": {
-    "name": "K-Pipe Pipa PP-R SDR 11",
-    "desc": "Pipa pasokan standar (SDR 11) instalasi sanitasi yang mengedepankan kualitas hampa polutan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-pipe-purple-pp-r-sdr-11": {
-    "name": "K-Pipe Ungu PP-R SDR 11",
-    "desc": "Varian warna lila ungu, spesifik penanda jalur sumber air limbah olahan (reclaimed water).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-rct-sdr-74": {
-    "name": "K-Fiber Pipa PPRCT SDR 7.4",
-    "desc": "Tipe PP-RCT lapisan serat (fiber) penangkal ekspansi panjang termal berkinerja tinggi.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiberclima-pipe-pp-rct-sdr-11": {
-    "name": "K-Fiberclima Pipa PPRCT SDR 11",
-    "desc": "Jaringan infrastruktur khusus suplai cairan penyejuk (AC) untuk tekanan SDR 11.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-74": {
-    "name": "K-Fiber Pipa PP-R SDR 7.4",
-    "desc": "Sistem penyokong pipa serat komposit SDR 7.4.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-9": {
-    "name": "K-Fiber Pipa PP-R SDR 9",
-    "desc": "Seri komposit penahan kontraksi kelas berat SDR 9.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-11": {
-    "name": "K-Fiber Pipa PP-R SDR 11",
-    "desc": "Instalasi pipa pengurang beban statis tekanan sedang.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiber-pipe-pp-r-sdr-17": {
-    "name": "K-Fiber Pipa PP-R SDR 17",
-    "desc": "Jalur kelancaran tingkat hidrolika maksimal SDR 17.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiber-uv-pipe-pp-r-sdr-74": {
-    "name": "K-Fiber UV Pipa PP-R SDR 7.4",
-    "desc": "Material pipa komposit pelapis pelindung radiasi ultra-violet luaran (outdoor).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "k-fiber-uv-pipe-pp-rct-sdr-74": {
-    "name": "K-Fiber UV Pipa PPRCT SDR 7.4",
-    "desc": "Instalasi berpelindung isolasi eksterior pencegah korosi sinar UV ekstrem (PPRCT).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "cap": {
-    "name": "Penutup Ujung PP-R",
-    "desc": "Aksesori penutup rongga terminasi akhir sambungan mati.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "socket": {
-    "name": "Soket Sambungan PP-R",
-    "desc": "Konektor selongsong (soket) perangkai sejalur.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elbow-45": {
-    "name": "Siku Bending 45°",
-    "desc": "Fitting kurva penyimpangan arah 45 derajat homogen.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elbow-45-femalemale": {
-    "name": "Siku Bending 45° (Dril Internal/Eksternal)",
-    "desc": "Persambungan siku perpaduan ukuran.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elbow-90": {
-    "name": "Siku Bending 90°",
-    "desc": "Modul belokan kurva patah 90 derajat.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elbow-90-femalemale": {
-    "name": "Siku Bending 90° (Dril Internal/Eksternal)",
-    "desc": "Koneksi pembelok paduan asimetris.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "electrofusion-socket": {
-    "name": "Soket Kumparan Pemanas Elektro-fusi",
-    "desc": "Tipe las elektro-fusi untuk menyolder di ruang terbatas.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "flange-adaptor": {
-    "name": "Adaptor Bund (Flensa)",
-    "desc": "Lengan penjepit leher bagi sekrup mur.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "reducing-bush": {
-    "name": "Modul Reducer",
-    "desc": "Tingkat persambungan pemangkasan besaran aliran (diameter).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "reducing-tee": {
-    "name": "Tee Reduksi",
-    "desc": "Percabangan 3 arah bervariasi kaliber.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "reducing-tee-large-sizes": {
-    "name": "Tee Reduksi (Dimensi Skala Lebar)",
-    "desc": "Persilangan tiga cabang pemangkas laju kubikasi industri.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "tee": {
-    "name": "Tee Simetris PP-R",
-    "desc": "Penghubung perempatan belah arah simetris.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "cross": {
-    "name": "Simpang 4 (Cross)",
-    "desc": "Pertemuan 4 lajur silang bertekanan stabil.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "cross-over": {
-    "name": "Crossover Belokan Bawah",
-    "desc": "Mekanis putar lekuk lompatan untuk persilangan sistem yang bertindihan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "cross-over-pipe": {
-    "name": "Pipa Lompatan Bending",
-    "desc": "Ruas loncatan silang bebas resistensi aliran.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "adaptor-socket-female-thread": {
-    "name": "Soket Transisi Ulir Dalam (IG)",
-    "desc": "Adpator perpaduan bahan logam dan resin berulir tanam.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "adaptor-socket-male-thread": {
-    "name": "Soket Transisi Ulir Luar (AG)",
-    "desc": "Jembatan konektor drat logam tertonjol utuh.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elbow-90-male-thread": {
-    "name": "Siku Bending 90° Ulir Luar (AG)",
-    "desc": "Komponen tikungan bertransisi paku putar luar (AG).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elbow-bracket-90-female-thread": {
-    "name": "Siku Dudukan Dinding 90° Ulir Dalam (IG)",
-    "desc": "Jangkar pengikat siku pemasangan tapak dinding satu bilah.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elbowwall-bracket-90-female-thread": {
-    "name": "Siku Dudukan Penopang Ganda 90° (IG)",
-    "desc": "Instalasi sekrup jangkar ganda tapak tembok stabil.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "metal-union-male-thread-yellow-brass": {
-    "name": "Persambungan Kuningan Ulir Luar (CW617N)",
-    "desc": "Rangkaian sekat jepit komponen kuningan kelas satu (AG).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "metal-union-female-thread-yellow-brass": {
-    "name": "Persambungan Kuningan Ulir Dalam (CW617N)",
-    "desc": "Modul rakitan kuningan kelas atas tipe drat jepit tanam (IG).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "metal-union-male-thread": {
-    "name": "Persambungan Logam Campuran Ulir Luar",
-    "desc": "Sambungan putar drat eksterior.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "metal-union-female-thread": {
-    "name": "Persambungan Logam Campuran Ulir Dalam",
-    "desc": "Koneksi fusi jepit mur penanam interior.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "tee-90-male-thread": {
-    "name": "T-Stück 90° Transisi (AG)",
-    "desc": "Tee simpang cabang tipe ulir ulir jantan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "tee-90-female-thread": {
-    "name": "T-Stück 90° Transisi (IG)",
-    "desc": "Tee perempatan cabang drat betina jepit dalam.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "union": {
-    "name": "Persambungan Mur PP-R Mutlak",
-    "desc": "Sekat fusi penyekat sambung antar dua tabung PP-R murni.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "union-for-watermeters": {
-    "name": "Soket Meteran Pengukur Air",
-    "desc": "Penyelarasan dudukan komponen pelacak alat baca hidrolik.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "pp-r-ball-valve-ball-in-pp": {
-    "name": "Katup Peluru (Ball Valve) Bola PP",
-    "desc": "Mekanisme pengatur tuas tutup aliran polimer murni 100%.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "pp-r-ball-valve-ball-in-brass-chromium-plated": {
-    "name": "Katup Peluru Bola Kuningan Lapis Krom",
-    "desc": "Katup inti metalik (Kuningan/Krom) tangguh penahan arus industri berat.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "tee-90-female-thread-for-internal-valve": {
-    "name": "Tee 90° (IG) Dudukan Katup Tanam (UP)",
-    "desc": "Titik persimpangan khusus jalur katup instalasi sirna (concealed).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "concealed-valve-chrome-light-part": {
-    "name": "Katup Tanam Krom (Beban Ringan)",
-    "desc": "Pengontrol sembunyi (concealed) unit putar lapisan pilar berbobot enteng.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "concealed-valve-chrome-heavy-part": {
-    "name": "Katup Tanam Krom (Beban Ekstra)",
-    "desc": "Tumpuan kontrol penekan beban berat lapis pelindung pilar solid krom.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "straight-seat-valve-upper-part-green-handle": {
-    "name": "Dudukan Katup Miring Pemutar Hijau",
-    "desc": "Sektor hulu kendali batas putar instalasi penghenti arus hidraulik.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "elongation-pieces": {
-    "name": "Tabung Sambung Pemanjang",
-    "desc": "Ragam modul pengulur ruas tambahan pilar keran.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "battery-female-thread": {
-    "name": "Unit Baterai (IG)",
-    "desc": "Konfigurasi jepit tanam pengunci instalasi sekat khusus.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "adjustable-battery-female-thread": {
-    "name": "Unit Baterai Fleksibel (IG)",
-    "desc": "Konfigurasi jarak geser jepit tanam pengatur jarak pemasangan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "weld-in-saddle": {
-    "name": "Pelana Las",
-    "desc": "Sadel sambung pencabang tengah las tanpa batas (fusi).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "weld-in-saddle-female-thread": {
-    "name": "Pelana Las Transisi (IG)",
-    "desc": "Sadel cabang pelebur tipe drat betina bertekanan mutlak.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "weld-in-saddle-male-thread": {
-    "name": "Pelana Las Transisi (AG)",
-    "desc": "Titik pelebur percabangan drat sekrup tipe jantan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "pipe-clamps": {
-    "name": "Pengikat Gantung Klem",
-    "desc": "Klip rahang pengunci gantung tembok dudukan stabilitas perpipaan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "backing-flange-pp-steel-sfbf": {
-    "name": "Flensa Penahan PP/Baja (SF/BF)",
-    "desc": "Gelar keping ring pelapis fondasi ikat flensa skala beban kargo ekstrim.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "flat-gasket": {
-    "name": "Pelat Segel Datar (Gasket)",
-    "desc": "Bantalan bantalan pelapis pengunci karet merapatkan klem persilangan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "flat-gasket-for-unions-pp-r": {
-    "name": "Pelat Segel Datar Khusus Ulir Persambungan",
-    "desc": "Gasket lapisan pengerat karet pengunci sekat transisi jepit mur (unions).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "plug": {
-    "name": "Sumbat Tutup Ruas PP-R",
-    "desc": "Aksesori penambal sekrup permanen penutup buntu batas aliran sistem.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "pipe-cutter-2040": {
-    "name": "Alat Pemotong Pipa Ratch d20-d40",
-    "desc": "Mesin potong bergerigi pemutus dimensi sirkuit kaliber bawah 40mm.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "pipe-cutter-50125": {
-    "name": "Alat Pemotong Pipa Profesional d50-d125",
-    "desc": "Gergaji gerinda pemangkas dimensi tabung kaliber 125mm dengan tingkat irisan tanpa pias serpihan.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "pipe-cutter-50125-1": {
-    "name": "Pemotong Pipa Spesialis 1 1/4",
-    "desc": "Bilah silet pemotong skala ukur penyesuaian khusus rasio 1 seperempat.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "hand-welding-machine-2032-complete-set": {
-    "name": "Set Alat Las Genggam d20-d32",
-    "desc": "Kit koper mesin saku perlengkapan lebur perakit kaliber radius minimal.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "hand-welding-machine-2063-complete-set": {
-    "name": "Set Alat Las Tangan Ekstensi d20-d63",
-    "desc": "Sistem koper perkakas pemanas lebur soket kelas menengah rentang matras hingga 63mm.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "hand-welding-machine-mirror-50125": {
-    "name": "Alat Las Pemanas Cermin d50-d125",
-    "desc": "Mesin pemanas papan piring (cermin) pelebur lempengan tepi instalasi ukuran lebar (kaliber masif).",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "welding-tool": {
-    "name": "Alat Perakitan Las Dasar",
-    "desc": "Papan pelebur (baking) komponen pemanas termofusi dasar pabrikan asli Jerman.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "welding-machine-50125-complete-set": {
-    "name": "Kit Mesin Pengelasan Lebar d50-d125",
-    "desc": "Kotak pengerjaan set lebur skala kaliber raksasa tingkat mahir konstruktor teknik.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "butt-welding-machine-90250": {
-    "name": "Mesin Las Ujung Penekan Silinder d90-d250",
-    "desc": "Mesin pres bertekan hidrolik penekan fusi raksasa (Butt-welding) industri perpipaan makro.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "electrofusion-machine": {
-    "name": "Mesin Pemanas Elektro-fusi",
-    "desc": "Penyalur daya tembak presisi induksi voltase sistem pelebur kumparan tembaga soket.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "welding-tool-for-weld-in-saddles": {
-    "name": "Alat Las Matras Khusus Pelana (Sadel)",
-    "desc": "Pencetak lengkung matras presisi khusus pemasang cabang tumpuk pelana pipa.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "drilling-tool-for-weld-in-saddle": {
-    "name": "Perkakas Bor Pencetak Rongga Pelana",
-    "desc": "Mata bor bor khusus penembus titik tembak dudukan cabang (sadel) dengan lubang halus.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "welding-tool-for-repairing-plug": {
-    "name": "Peralatan Matras Sumbat Reparasi",
-    "desc": "Penambal luka bor paku bocor dengan sekrup lebur pengisi padatan luka.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  },
-  "repairing-plug": {
-    "name": "Sumbat Penambal Kebocoran",
-    "desc": "Sekrup paku polimer PP-R untuk dilebur menutupi insiden penembusan jarum di titik pipa tertanam.",
-    "seo_p1": "-",
-    "seo_p2": "-",
-    "seo_p3": "-",
-    "faq": [
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      },
-      {
-        "q": "-",
-        "a": "-"
-      }
-    ]
-  }
-}
+      "k-pipe-pp-r-sdr-6": {
+        "name": "K-Pipe Pipa PP-R SDR 6",
+        "desc": "Sistem perpipaan Polypropylene serbaguna untuk instalasi kelas tekanan tinggi (SDR 6).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-pipe-pp-rct-sdr-74": {
+        "name": "K-Pipe Pipa PPRCT SDR 7.4",
+        "desc": "Sistem perpipaan berteknologi struktur matriks kokoh (PPRCT) tekanan SDR 7.4.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-pipe-pp-r-sdr-11": {
+        "name": "K-Pipe Pipa PP-R SDR 11",
+        "desc": "Pipa pasokan standar (SDR 11) instalasi sanitasi yang mengedepankan kualitas hampa polutan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-pipe-purple-pp-r-sdr-11": {
+        "name": "K-Pipe Ungu PP-R SDR 11",
+        "desc": "Varian warna lila ungu, spesifik penanda jalur sumber air limbah olahan (reclaimed water).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-rct-sdr-74": {
+        "name": "K-Fiber Pipa PPRCT SDR 7.4",
+        "desc": "Tipe PP-RCT lapisan serat (fiber) penangkal ekspansi panjang termal berkinerja tinggi.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiberclima-pipe-pp-rct-sdr-11": {
+        "name": "K-Fiberclima Pipa PPRCT SDR 11",
+        "desc": "Jaringan infrastruktur khusus suplai cairan penyejuk (AC) untuk tekanan SDR 11.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-74": {
+        "name": "K-Fiber Pipa PP-R SDR 7.4",
+        "desc": "Sistem penyokong pipa serat komposit SDR 7.4.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-9": {
+        "name": "K-Fiber Pipa PP-R SDR 9",
+        "desc": "Seri komposit penahan kontraksi kelas berat SDR 9.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-11": {
+        "name": "K-Fiber Pipa PP-R SDR 11",
+        "desc": "Instalasi pipa pengurang beban statis tekanan sedang.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiber-pipe-pp-r-sdr-17": {
+        "name": "K-Fiber Pipa PP-R SDR 17",
+        "desc": "Jalur kelancaran tingkat hidrolika maksimal SDR 17.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "name": "K-Fiber UV Pipa PP-R SDR 7.4",
+        "desc": "Material pipa komposit pelapis pelindung radiasi ultra-violet luaran (outdoor).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "name": "K-Fiber UV Pipa PPRCT SDR 7.4",
+        "desc": "Instalasi berpelindung isolasi eksterior pencegah korosi sinar UV ekstrem (PPRCT).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "cap": {
+        "name": "Penutup Ujung PP-R",
+        "desc": "Aksesori penutup rongga terminasi akhir sambungan mati.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "socket": {
+        "name": "Soket Sambungan PP-R",
+        "desc": "Konektor selongsong (soket) perangkai sejalur.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elbow-45": {
+        "name": "Siku Bending 45°",
+        "desc": "Fitting kurva penyimpangan arah 45 derajat homogen.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elbow-45-femalemale": {
+        "name": "Siku Bending 45° (Dril Internal/Eksternal)",
+        "desc": "Persambungan siku perpaduan ukuran.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elbow-90": {
+        "name": "Siku Bending 90°",
+        "desc": "Modul belokan kurva patah 90 derajat.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elbow-90-femalemale": {
+        "name": "Siku Bending 90° (Dril Internal/Eksternal)",
+        "desc": "Koneksi pembelok paduan asimetris.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "electrofusion-socket": {
+        "name": "Soket Kumparan Pemanas Elektro-fusi",
+        "desc": "Tipe las elektro-fusi untuk menyolder di ruang terbatas.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "flange-adaptor": {
+        "name": "Adaptor Bund (Flensa)",
+        "desc": "Lengan penjepit leher bagi sekrup mur.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "reducing-bush": {
+        "name": "Modul Reducer",
+        "desc": "Tingkat persambungan pemangkasan besaran aliran (diameter).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "reducing-tee": {
+        "name": "Tee Reduksi",
+        "desc": "Percabangan 3 arah bervariasi kaliber.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "reducing-tee-large-sizes": {
+        "name": "Tee Reduksi (Dimensi Skala Lebar)",
+        "desc": "Persilangan tiga cabang pemangkas laju kubikasi industri.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "tee": {
+        "name": "Tee Simetris PP-R",
+        "desc": "Penghubung perempatan belah arah simetris.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "cross": {
+        "name": "Simpang 4 (Cross)",
+        "desc": "Pertemuan 4 lajur silang bertekanan stabil.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "cross-over": {
+        "name": "Crossover Belokan Bawah",
+        "desc": "Mekanis putar lekuk lompatan untuk persilangan sistem yang bertindihan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "cross-over-pipe": {
+        "name": "Pipa Lompatan Bending",
+        "desc": "Ruas loncatan silang bebas resistensi aliran.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "adaptor-socket-female-thread": {
+        "name": "Soket Transisi Ulir Dalam (IG)",
+        "desc": "Adpator perpaduan bahan logam dan resin berulir tanam.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "adaptor-socket-male-thread": {
+        "name": "Soket Transisi Ulir Luar (AG)",
+        "desc": "Jembatan konektor drat logam tertonjol utuh.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elbow-90-male-thread": {
+        "name": "Siku Bending 90° Ulir Luar (AG)",
+        "desc": "Komponen tikungan bertransisi paku putar luar (AG).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elbow-bracket-90-female-thread": {
+        "name": "Siku Dudukan Dinding 90° Ulir Dalam (IG)",
+        "desc": "Jangkar pengikat siku pemasangan tapak dinding satu bilah.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elbowwall-bracket-90-female-thread": {
+        "name": "Siku Dudukan Penopang Ganda 90° (IG)",
+        "desc": "Instalasi sekrup jangkar ganda tapak tembok stabil.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "metal-union-male-thread-yellow-brass": {
+        "name": "Persambungan Kuningan Ulir Luar (CW617N)",
+        "desc": "Rangkaian sekat jepit komponen kuningan kelas satu (AG).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "metal-union-female-thread-yellow-brass": {
+        "name": "Persambungan Kuningan Ulir Dalam (CW617N)",
+        "desc": "Modul rakitan kuningan kelas atas tipe drat jepit tanam (IG).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "metal-union-male-thread": {
+        "name": "Persambungan Logam Campuran Ulir Luar",
+        "desc": "Sambungan putar drat eksterior.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "metal-union-female-thread": {
+        "name": "Persambungan Logam Campuran Ulir Dalam",
+        "desc": "Koneksi fusi jepit mur penanam interior.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "tee-90-male-thread": {
+        "name": "T-Stück 90° Transisi (AG)",
+        "desc": "Tee simpang cabang tipe ulir ulir jantan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "tee-90-female-thread": {
+        "name": "T-Stück 90° Transisi (IG)",
+        "desc": "Tee perempatan cabang drat betina jepit dalam.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "union": {
+        "name": "Persambungan Mur PP-R Mutlak",
+        "desc": "Sekat fusi penyekat sambung antar dua tabung PP-R murni.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "union-for-watermeters": {
+        "name": "Soket Meteran Pengukur Air",
+        "desc": "Penyelarasan dudukan komponen pelacak alat baca hidrolik.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-pp": {
+        "name": "Katup Peluru (Ball Valve) Bola PP",
+        "desc": "Mekanisme pengatur tuas tutup aliran polimer murni 100%.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "pp-r-ball-valve-ball-in-brass-chromium-plated": {
+        "name": "Katup Peluru Bola Kuningan Lapis Krom",
+        "desc": "Katup inti metalik (Kuningan/Krom) tangguh penahan arus industri berat.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "tee-90-female-thread-for-internal-valve": {
+        "name": "Tee 90° (IG) Dudukan Katup Tanam (UP)",
+        "desc": "Titik persimpangan khusus jalur katup instalasi sirna (concealed).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "concealed-valve-chrome-light-part": {
+        "name": "Katup Tanam Krom (Beban Ringan)",
+        "desc": "Pengontrol sembunyi (concealed) unit putar lapisan pilar berbobot enteng.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "concealed-valve-chrome-heavy-part": {
+        "name": "Katup Tanam Krom (Beban Ekstra)",
+        "desc": "Tumpuan kontrol penekan beban berat lapis pelindung pilar solid krom.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "straight-seat-valve-upper-part-green-handle": {
+        "name": "Dudukan Katup Miring Pemutar Hijau",
+        "desc": "Sektor hulu kendali batas putar instalasi penghenti arus hidraulik.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "elongation-pieces": {
+        "name": "Tabung Sambung Pemanjang",
+        "desc": "Ragam modul pengulur ruas tambahan pilar keran.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "battery-female-thread": {
+        "name": "Unit Baterai (IG)",
+        "desc": "Konfigurasi jepit tanam pengunci instalasi sekat khusus.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "adjustable-battery-female-thread": {
+        "name": "Unit Baterai Fleksibel (IG)",
+        "desc": "Konfigurasi jarak geser jepit tanam pengatur jarak pemasangan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "weld-in-saddle": {
+        "name": "Pelana Las",
+        "desc": "Sadel sambung pencabang tengah las tanpa batas (fusi).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "weld-in-saddle-female-thread": {
+        "name": "Pelana Las Transisi (IG)",
+        "desc": "Sadel cabang pelebur tipe drat betina bertekanan mutlak.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "weld-in-saddle-male-thread": {
+        "name": "Pelana Las Transisi (AG)",
+        "desc": "Titik pelebur percabangan drat sekrup tipe jantan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "pipe-clamps": {
+        "name": "Pengikat Gantung Klem",
+        "desc": "Klip rahang pengunci gantung tembok dudukan stabilitas perpipaan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "backing-flange-pp-steel-sfbf": {
+        "name": "Flensa Penahan PP/Baja (SF/BF)",
+        "desc": "Gelar keping ring pelapis fondasi ikat flensa skala beban kargo ekstrim.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "flat-gasket": {
+        "name": "Pelat Segel Datar (Gasket)",
+        "desc": "Bantalan bantalan pelapis pengunci karet merapatkan klem persilangan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "flat-gasket-for-unions-pp-r": {
+        "name": "Pelat Segel Datar Khusus Ulir Persambungan",
+        "desc": "Gasket lapisan pengerat karet pengunci sekat transisi jepit mur (unions).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "plug": {
+        "name": "Sumbat Tutup Ruas PP-R",
+        "desc": "Aksesori penambal sekrup permanen penutup buntu batas aliran sistem.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "pipe-cutter-2040": {
+        "name": "Alat Pemotong Pipa Ratch d20-d40",
+        "desc": "Mesin potong bergerigi pemutus dimensi sirkuit kaliber bawah 40mm.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "pipe-cutter-50125": {
+        "name": "Alat Pemotong Pipa Profesional d50-d125",
+        "desc": "Gergaji gerinda pemangkas dimensi tabung kaliber 125mm dengan tingkat irisan tanpa pias serpihan.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "pipe-cutter-50125-1": {
+        "name": "Pemotong Pipa Spesialis 1 1/4",
+        "desc": "Bilah silet pemotong skala ukur penyesuaian khusus rasio 1 seperempat.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "hand-welding-machine-2032-complete-set": {
+        "name": "Set Alat Las Genggam d20-d32",
+        "desc": "Kit koper mesin saku perlengkapan lebur perakit kaliber radius minimal.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "hand-welding-machine-2063-complete-set": {
+        "name": "Set Alat Las Tangan Ekstensi d20-d63",
+        "desc": "Sistem koper perkakas pemanas lebur soket kelas menengah rentang matras hingga 63mm.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "hand-welding-machine-mirror-50125": {
+        "name": "Alat Las Pemanas Cermin d50-d125",
+        "desc": "Mesin pemanas papan piring (cermin) pelebur lempengan tepi instalasi ukuran lebar (kaliber masif).",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "welding-tool": {
+        "name": "Alat Perakitan Las Dasar",
+        "desc": "Papan pelebur (baking) komponen pemanas termofusi dasar pabrikan asli Jerman.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "welding-machine-50125-complete-set": {
+        "name": "Kit Mesin Pengelasan Lebar d50-d125",
+        "desc": "Kotak pengerjaan set lebur skala kaliber raksasa tingkat mahir konstruktor teknik.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "butt-welding-machine-90250": {
+        "name": "Mesin Las Ujung Penekan Silinder d90-d250",
+        "desc": "Mesin pres bertekan hidrolik penekan fusi raksasa (Butt-welding) industri perpipaan makro.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "electrofusion-machine": {
+        "name": "Mesin Pemanas Elektro-fusi",
+        "desc": "Penyalur daya tembak presisi induksi voltase sistem pelebur kumparan tembaga soket.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "welding-tool-for-weld-in-saddles": {
+        "name": "Alat Las Matras Khusus Pelana (Sadel)",
+        "desc": "Pencetak lengkung matras presisi khusus pemasang cabang tumpuk pelana pipa.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "drilling-tool-for-weld-in-saddle": {
+        "name": "Perkakas Bor Pencetak Rongga Pelana",
+        "desc": "Mata bor bor khusus penembus titik tembak dudukan cabang (sadel) dengan lubang halus.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "welding-tool-for-repairing-plug": {
+        "name": "Peralatan Matras Sumbat Reparasi",
+        "desc": "Penambal luka bor paku bocor dengan sekrup lebur pengisi padatan luka.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      },
+      "repairing-plug": {
+        "name": "Sumbat Penambal Kebocoran",
+        "desc": "Sekrup paku polimer PP-R untuk dilebur menutupi insiden penembusan jarum di titik pipa tertanam.",
+        "seo_p1": "-",
+        "seo_p2": "-",
+        "seo_p3": "-",
+        "faq": [
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          },
+          {
+            "q": "-",
+            "a": "-"
+          }
+        ]
+      }
+    },
+    "viewDetails": "View product specifications"
   },
   "products": {
     "narrative": {
@@ -7505,7 +8249,8 @@
     "resLow": "Coba pelajari modul pelatihan kembali.",
     "retry": "Ulangi",
     "titlePerfect": "Sertifikat Diberikan",
-    "titleGood": "Selamat Lulus"
+    "titleGood": "Selamat Lulus",
+    "videosHeading": "Training videos and guides"
   },
   "refs": {
     "eyebrow": "Referensi",
@@ -7564,7 +8309,8 @@
         "title": "London, UK",
         "d": "Renovasi kantor: penggantian bebas korosi untuk jaringan perpipaan lama."
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "geoContent": {
     "frankfurt": {
@@ -7904,294 +8650,109 @@
       "extendedMarketText": "Infrastruktur perkotaan di kawasan ini memberikan tuntutan khusus terhadap umur panjang dan keandalan sistem perpipaan. Dengan kondisi iklim yang ekstrem dan persyaratan tinggi terhadap kebersihan air, solusi PP-R dan PPRCT dari K-Aqua menawarkan keunggulan yang menentukan. Pipa logam tradisional sering mengalami korosi dan deposit mineral, yang menyebabkan hilangnya tekanan secara signifikan dan pemborosan air akibat kebocoran. Sebaliknya, sistem K-Aqua menjamin instalasi bebas perawatan yang sepenuhnya kedap bocor selama lebih dari 50 tahun berkat ketahanan bebas korosinya dan pengelasan polifusi homogen. Selain itu, permukaan dalam yang halus memungkinkan aliran hidrolik yang optimal, secara drastis mengurangi konsumsi energi untuk pompa sirkulasi. Faktor-faktor ini menjadikan K-Aqua pilihan utama untuk kompleks hotel skala besar, rumah sakit, fasilitas pendingin industri, dan proyek perumahan yang menuntut di sektor perkotaan."
     }
   },
-  "kontaktBlocks": {
-    "home": {
-      "kicker": "Inisiasi Proyek",
-      "head": "Tinggalkan dimensi proyek Anda, kami urus sisanya.",
-      "short": "Minta Kalkulasi Beban Sistem Cepat",
-      "text": "Nomor telepon, email, satu klik pada spesialisasi tema Anda. Selebihnya akan kami paparkan saat berdiskusi via telepon atau dalam panggilan video.",
-      "interest": "Pusat Bantuan",
-      "done": "Terkirim! Tenaga ahli kami segera menghubungi Anda."
-    },
-    "unternehmen": {
-      "kicker": "Pusat Operasional K Aqua",
-      "head": "Langsung terhubung dengan manajemen pusat di Jerman.",
-      "short": "Jadwalkan Kunjungan ke Pabrik Kami",
-      "text": "Jika Anda merencanakan kemitraan distribusi, silakan tinggalkan detail kontak Anda untuk membahas opsi penyusunan logistik pabrik dan tinjauan fasilitas di Osnabrück.",
-      "interest": "Konsultasi Teknis",
-      "done": "Bagus! Tim pusat akan langsung merespons Anda."
-    },
-    "produkte_fittings": {
-      "kicker": "Spesifikasi Fitting",
-      "head": "Pertanyaan mengenai toleransi dimensi dan perilaku perpaduan (fusi)?",
-      "short": "Dapatkan Saran Teknis Penyambungan (Fusi)",
-      "text": "Apabila perencana instalasi membutuhkan parameter uji titik fusi pada T-pieces (Tee) reduksi atau spesifikasi adaptor flensa dengan dimensi khusus, segera isi formulir.",
-      "interest": "Teknis Polifusi",
-      "done": "Dokumen segera diproses dan teknisi pengelasan kami siap membantu."
-    },
-    "produkte_rohre": {
-      "kicker": "Dimensi Perpipaan",
-      "head": "Saran pemilihan seri SDR yang presisi bagi tekanan proyek Anda.",
-      "short": "Analisis Kelas Tekanan Pipa PP-R",
-      "text": "Air dingin, instalasi pabrik, ataupun pompa bertekanan tinggi? Terangkan spesifikasi batas maksimum tekanan dan rentang temperaturnya. Kami akan usulkan tipe pipa K Aqua yang paling sejalan dengan TCO terendah.",
-      "interest": "Pipa & Sistem",
-      "done": "Berhasil! Data SDR pipa kami segera menanti Anda."
-    },
-    "produkte_armaturen": {
-      "kicker": "Integrasi Katup",
-      "head": "Saran pengaturan aliran cairan hidrolik yang optimal tanpa korosi.",
-      "short": "Tanyakan Katup (Valve) PP-R Spesifik",
-      "text": "Kami mendesain ball valve, stopcock miring, maupun perlengkapan khusus perpipaan logam-ke-plastik bebas hambatan aliran. Para teknisi ahli sistem fluida kami siap memandu pemasangan yang akurat.",
-      "interest": "Produk Armatur",
-      "done": "Segera dihubungi! Kami akan meninjau rincian konfigurasi katup Anda."
-    },
-    "produkte_werkzeuge": {
-      "kicker": "Perlengkapan Las",
-      "head": "Penyelarasan instruksi alat las termofusi bagi perakit di lapangan.",
-      "short": "Bantuan Penggunaan Mesin Las Polifusi",
-      "text": "Baik mesin pengelasan manual hingga mesin elektro-fusi untuk pipa berskala 125mm. Sebutkan variasi kaliber instalasi Anda, kami akan arahkan alat uji las paling ideal untuk efisiensi kerja lapangan.",
-      "interest": "Alat Fusi Las",
-      "done": "Pesan diterima. Jadwal diskusi tim pelatihan mesin segera disiapkan."
-    },
-    "produkte_uebergaenge": {
-      "kicker": "Teknologi Sambungan Transisi",
-      "head": "Menjembatani baja dan tembaga dengan keandalan PP-R (plastik).",
-      "short": "Saran Persambungan Campuran Logam",
-      "text": "Saat instalasi lama dirombak, jembatan antara logam dan polimer jadi vital. Informasikan tipe instalasi yang ada, kami merespons lewat arahan ulir logam cetak presisi kami (CW617N).",
-      "interest": "Sistem Transisi",
-      "done": "Teknisi sistem material ganda kami akan memandu Anda segera."
-    },
-    "produkte_zubehoer": {
-      "kicker": "Komponen Pendukung",
-      "head": "Detail yang memastikan keamanan seluruh jaringan pipa.",
-      "short": "Tanya Tentang Klem dan Gasket",
-      "text": "Pertanyaan seputar batas toleransi pemuaian cincin gasket, atau kekuatan beban dinamis pada klem pipa gantung? Bagikan skenario pemasangan agar kami meninjau solusi pendukung terbaik.",
-      "interest": "Suku Cadang Tambahan",
-      "done": "Kami segera memberikan panduan aksesori instalasi."
-    },
-    "katalog": {
-      "kicker": "Buku Katalog & Harga",
-      "head": "Daftar rincian material beserta lembar spesifikasi pengadaan.",
-      "short": "Minta Katalog Produk Lengkap",
-      "text": "Menginginkan harga partai besar untuk pesanan lebih spesifik? Tim penjualan korporasi kami bersiap mengirimkan daftar rincian estimasi biaya secara individual pasca perbincangan awal.",
-      "interest": "Panduan Konsultasi",
-      "done": "Selesai! Tautan dokumen segera disematkan dalam kotak masuk Anda."
-    },
-    "finder": {
-      "kicker": "Cari Produk Terkait",
-      "head": "Tak temukan komponen yang pas? Hubungi penasihat material.",
-      "short": "Tanya Soal Komponen Terspesialisasi",
-      "text": "Bagi arsitek perancang spesifikasi atau pemburu material logistik. Cukup isikan ciri deskripsi komponen atau lampirkan foto teknisnya, lalu serahkan kepada staf spesialis gudang kami.",
-      "interest": "Pusat Bantuan Teknis",
-      "done": "Bantuan pencarian segera berjalan. Kami hubungi sebentar lagi."
-    },
-    "referenzen": {
-      "kicker": "Validasi Portofolio Proyek",
-      "head": "Minta penjelasan terperinci kasus penerapan (case study) proyek sejenis.",
-      "short": "Bedah Teknis Megaproyek Terkait",
-      "text": "Para ahli rancang infrastruktur K Aqua akan dengan leluasa membongkar kiat mengatasi hambatan hidrolika maupun proses perakitan khusus pada megaproyek yang relevan dengan kasus Anda.",
-      "interest": "Dukungan Konsultasi",
-      "done": "Luar biasa! Konsultan pengerjaan proyek K Aqua segera membalas."
-    },
-    "support": {
-      "kicker": "Dukungan Teknis",
-      "head": "Temukan jawaban untuk dilema instalasi terburuk Anda dari kami.",
-      "short": "Dukungan Teknisi Panggilan Cepat",
-      "text": "Masalah dalam pembacaan mesin las elektro-fusi? Butuh dukungan terkait parameter uji tekanan akhir sebelum semen ditutup? Sampaikan secepatnya keluhan kendala yang Anda hadapi.",
-      "interest": "Layanan Konsultasi Ahli",
-      "done": "Tiket masalah Anda diprioritaskan. Kami akan memandu jalan keluarnya."
-    },
-    "ausschreibungstexte": {
-      "kicker": "Rancangan Teks Tender",
-      "head": "Persingkat proses lelang berbekal format tender standar.",
-      "short": "Kirim Format Dokumen Lelang",
-      "text": "Cukup informasikan parameter tekanan yang diwajibkan (SDR) dan klasifikasi bidang aplikasinya (suhu ruang dingin atau ekstrem). K Aqua menyiapkan klausa format pelelangan berstandar internasional.",
-      "interest": "Dukungan Arsitek & Tender",
-      "done": "Dokumen tender sedang meluncur ke dalam daftar pekerjaan kami."
-    },
-    "service": {
-      "kicker": "Layanan Spesialis",
-      "head": "Temukan solusi jaminan mutu terpusat dari teknisi spesialis Jerman.",
-      "short": "Buat Janji Layanan Laboratorium",
-      "text": "Dukungan analisis umur pakai secara ilmiah yang dipercepat, pemetaan diagram beban struktural perpipaan, hingga evaluasi titik sambung las laboratorium bisa kami wujudkan saat dibutuhkan.",
-      "interest": "Bantuan Rekayasa Lanjut",
-      "done": "Permintaan uji lab teknis Anda akan segera diproses tim analis."
-    },
-    "maerkte_trinkwasser": {
-      "kicker": "Infrastruktur Air Bersih",
-      "head": "Jaminan air bersih tanpa logam berat dan risiko mikroba.",
-      "short": "Laporan Standarisasi Air Minum DVGW",
-      "text": "Penuhi jaminan pasokan steril tanpa rasa pada hunian dan sektor pabrik dengan jaminan DVGW. Perpipaan K-Aqua takkan pernah meluruhkan endapan korosi ke saluran keran.",
-      "interest": "Uji Konsultasi Ahli",
-      "done": "Berhasil! Laboratorium spesialis kami segera mengonfirmasinya."
-    },
-    "maerkte_klima": {
-      "kicker": "Pendinginan Udara & HVAC",
-      "head": "Ucapkan selamat tinggal pada masalah kondensasi isolasi berulang.",
-      "short": "Evaluasi Isolasi Pendingin K Aqua",
-      "text": "Saat jaringan pendingin baja terperangkap korosi karena perbedaan suhu konstan udara luar, sifat peredam konduktivitas termal bahan PPR K Aqua mengeliminasi masalah itu seutuhnya.",
-      "interest": "Sistem Termoregulasi",
-      "done": "Pengkaji arsitektur beban HVAC segera memaparkan analisis solusinya."
-    },
-    "maerkte_industrie": {
-      "kicker": "Sistem Cairan Industri",
-      "head": "Bahas ketahanan ketebalan lapisan pipa terhadap sifat kimia asam.",
-      "short": "Evaluasi Kompatibilitas Kimiawi",
-      "text": "Instalasi pabrik petrokimia atau jalur pengisian cairan asam berat? Kami memiliki parameter basis data penunjang reaktivitas 500 macam bahan cair kimia atas polimer yang digunakan K Aqua.",
-      "interest": "Dukungan Konsultasi Manufaktur",
-      "done": "Laboratorium kami sedang merumuskan resistansi uji kompatibilitas cairan."
-    },
-    "maerkte_schiffbau": {
-      "kicker": "Galangan Kapal Laut",
-      "head": "Ringan, kedap resonansi bising mesin, plus bebas pengarat air asin.",
-      "short": "Sertifikasi Klasifikasi Bahtera",
-      "text": "Baik pengelolaan sistem pengolahan air pembuangan (gray/black) ataupun pemberat lambung. Kabarkan tipe kapal Anda, sertifikasi Lloyd's atau DNV pun kami edarkan segera.",
-      "interest": "Sertifikat Kelayakan Maritim",
-      "done": "Dokumen lisensi bersertifikat maritim segera meluncur dalam waktu singkat."
-    },
-    "maerkte_landwirtschaft": {
-      "kicker": "Irigasi Agrikultur Hijau",
-      "head": "Distribusi masif di ladang terbuka dengan saluran kebal penyumbatan.",
-      "short": "Saran Desain Jaringan Selang Agrikultur",
-      "text": "Kemukakan seberapa luas hektar ladang serta intensitas volume curah kebutuhan Anda. Saluran tahan gempuran embun beku K-Aqua menekan penumpukan dinding selang oleh lendir alga.",
-      "interest": "Rancangan Pipa Agro-Irigasi",
-      "done": "Pakar hidrolika sistem penanaman kami menyambung kembali tidak lama lagi."
-    },
-    "maerkte": {
-      "kicker": "Pasar Internasional Regional",
-      "head": "Lakukan konsultasi dengan delegasi pemasaran global di regional Anda.",
-      "short": "Arahan Lisensi Regional Setempat",
-      "text": "Kami mendistribusi menyebar jaringan ke ujung benua di bumi. Konfirmasikan di pelabuhan mana material akan tiba, waktu sandar kargo laut, plus anjuran biro logistik setempat pun siap diuraikan.",
-      "interest": "Jaringan Mitra Ekspor",
-      "done": "Direktur pemasaran wilayah kami tengah menjadwalkan panggilan dengan Anda."
-    },
-    "loesungen_hochhaus": {
-      "kicker": "Gedung Pencakar Langit",
-      "head": "Tingkat kestabilan beban hidrodinamika sepanjang poros menara (shaft).",
-      "short": "Kalkulasi Beban Hilang Tekanan Gravitasi",
-      "text": "Hukum gerak mekanika gravitasi di bangunan menjulang sungguh tak kenal toleransi cacat. Konfirmasikan total tinggi struktur lantai, dan letak akurat unit kontrol katup pemutus redam tekanannya.",
-      "interest": "Analisis Model BIM",
-      "done": "Insinyur senior sistem aliran gedung bertingkat mulai membedah hitungannya."
-    },
-    "loesungen_krankenhaus": {
-      "kicker": "Fasilitas Medis Rumah Sakit",
-      "head": "Kemurnian sterilitas ruang kritis demi perlawanan atas Legionella.",
-      "short": "Uji Konsultasi Mutu Higienitas Instalasi Medis",
-      "text": "Perlindungan terhadap lansia rentan sangat diwajibkan. Diskusikan ihwal pemakaian metode putaran konstan, pemberantasan ruang henti udara mati, plus teknik fluktuasi suci hama air suhu didih.",
-      "interest": "Rangkaian Perpipaan Steril",
-      "done": "Satgas penasihat tingkat kontrol kesterilan bakal berdikusi bersama Anda."
-    },
-    "loesungen_hotel": {
-      "kicker": "Resor & Hotel Mewah",
-      "head": "Isolasi gangguan gema bising instalasi perpipaan dari tamu menginap.",
-      "short": "Rekomendasi Isolator Akustik Redam Suara",
-      "text": "Deru arus selokan limbah maupun sedotan deras dari kamar mandi atas tidak boleh merusak istirahat nyaman ruangan yang lain. Izinkan K Aqua memutus transfer frekuensi gelombang getaran gema pipa secara efektif.",
-      "interest": "Dukungan Konsultasi Teknis",
-      "done": "Solusi rekomendasi penempatan penjepit peredam tengah disusun untuk Anda."
-    },
-    "loesungen": {
-      "kicker": "Terapan Sistem Khusus",
-      "head": "Penyesuaian rekayasa sistem khusus demi konstruksi arsitektur ganjil.",
-      "short": "Pesan Saran Konstruktif Rancangan Tak Lazim",
-      "text": "Susunan rakitan tipe pasaran biasa kadang tidak muat. Ilustrasikan detail hambatan lekuk area pemasangan, departemen spesialis fabrikasi Jerman merakit desain modifikasi baru penyesuaian lapangan.",
-      "interest": "Bantuan Penasihat",
-      "done": "Konseptor biro departemen khusus menelisik keluhan instalasi teknis Anda."
-    },
-    "co2_rechner": {
-      "kicker": "Rekap Jejak Emisi CO2",
-      "head": "Validasi perbandingan perolehan penghematan jejak karbon proyek Anda.",
-      "short": "Minta Keluaran Terperinci Neraca Sertifikasi Emisi",
-      "text": "Angka keluaran awal cukup untuk tahap penyisihan estimasi awal. Bagikan seluruh dimensi rinci BOM (Bills of Material) pipa besi lama untuk disejajarkan agar mengantongi nilai audit pengurangan emisi sah.",
-      "interest": "Konsultasi Kalkulasi",
-      "done": "Petugas pakar laporan berkesinambungan tengah menghitung konversi nilainya."
-    },
-    "trust_center": {
-      "kicker": "Norma & Dokumen Sertifikasi",
-      "head": "Perlu melampirkan berkas sertifikat bagi petugas survei inspektur gedung?",
-      "short": "Mohon Penyerahan Dokumen Tanda Lulus Pemeriksaan",
-      "text": "Manakala pengawas menagih bukti jaminan validitas persetujuan yang disahkan (seperti DVGW, SKZ, lembaga KIWA), ketik rujukan edisi nomor pasal undang-undangnya. Kami suguhkan lampiran wujud format salinan aslinya (PDF).",
-      "interest": "Kelengkapan Pustaka Data",
-      "done": "Tim pengarsipan menyisir rak dokumen untuk menyajikannya kepada Anda."
-    },
-    "projektanfrage": {
-      "kicker": "Peresmian Proyek Awal",
-      "head": "Tukar daftar parameter krusial proyek demi angka alokasi budget kilat.",
-      "short": "Pemintaan Estimasi Beban Anggaran Belanja",
-      "text": "Sematkan sekumpulan ringkasan sketsa bagan lantai instalasi cetak biru (blueprint) pada sesi ke depan, atau bacakan total kubikasi meter area lantai, Anda kami beri kalkulasi estimasi dana pengerjaan kasar.",
-      "interest": "Opsi Arsitektur Perpipaan",
-      "done": "Gugus kemitraan pengerjaan instalasi menjadwalkan pembahasan pagu anggaran."
-    },
-    "kontakt": {
-      "kicker": "Jalur Utama Darurat",
-      "head": "Jalan terpintar menembus pintu pusat komando operasional K Aqua.",
-      "short": "Telepon Rute Tol Ekspres Terbuka dari Area Konstruksi",
-      "text": "Absolut putus rantai mesin antrean panggilan suara mesin robot operator berbelit. Sisipkan detail barisan deret nomor, niscaya perwakilan tim garda terdepan merespons memanggil memandu Anda.",
-      "interest": "Konsultasi Terpandu Cepat",
-      "done": "Data diri sukses diproses sistem. Delegasi perantara teknis memanggil Anda."
-    },
-    "news": {
-      "kicker": "Hubungan Media Pres",
-      "head": "Ingin mengajukan konfirmasi ulasan wawancara perilisan pembaruan produk?",
-      "short": "Jalur Pintu Saluran Divisi Publikasi Wacana Publik",
-      "text": "Guna memesan cetak potret beresolusi super besar, diskusi bersama dewan eksekutif tertinggi K-Aqua, paparan kupas terperinci dari balik tirai peluncuran penemuan pabrik, sodorkan nomor identitas redaksi.",
-      "interest": "Panduan Informasi Terkini",
-      "done": "Biro dewan penerbit jurnal kabar lekas bersurat mengatur agenda jadwal temu."
-    },
-    "karriere": {
-      "kicker": "Kesempatan Karier di K Aqua",
-      "head": "Sisipkan ulasan singkat teka-teki lowongan slot staf jabatan purna waktu.",
-      "short": "Hotline Sambung Singkat Menuju Bidang Eksekutif Sumber Daya Manusia (HRD)",
-      "text": "Sanksi merasa sangsi, atau gundah apakah serangkaian CV sejalan beralur senapas dengan denyut jantung atmosfer kantor? Konselor SDM K-Aqua kami ringan hati menyambut sapaan lisan jarak jauh untuk mengulasnya.",
-      "interest": "Informasi Pekerjaan",
-      "done": "Agenda berbincang-bincang saling menyapa ringan segera terkonfirmasi, bersiaplah."
-    },
-    "partnerschaft": {
-      "kicker": "Keagenan Mitra Resmi",
-      "head": "Padati deret rak ruang pamer pangkalan distribusi jajaran produk pipa kasta teratas buatan Republik Jerman.",
-      "short": "Proposal Kerangka Margin Insentif Jatah Penjualan Skala Lebar",
-      "text": "Berstatus perusahaan importir logistik masif merindukan pasokan PP-R solid tanpa celah kualitas? Sebut garis zona wilayah kekuasaan niaga, manajer pemasaran kami mendikte jangkauan margin penawaran perjanjian spesial.",
-      "interest": "Pola Diskusi Berpartner",
-      "done": "Delegasi pimpinan relasi aliansi keagenan menelaah kerangka zona kemitraan."
-    },
-    "impressum": {
-      "kicker": "Detail Informasi Legalitas",
-      "head": "Ada tebersit kejanggalan dalam wewenang izin dasar hukum badan lisensi niaga operasional (Impressum) milik perusahaan ini?",
-      "short": "Saluran Formal Hubungan Menuju Lobi Sekretariat Besar K-Aqua",
-      "text": "Silakan menaruh jejak saluran telekomunikasi apabila dirasa Anda tersandung keraguan wacana kepastian pasal, maupun sekadar tuntutan pengesahan birokrasi korporasi administrasi badan persero legal administratif K-Aqua.",
-      "interest": "Tanya Jawab Laporan Penjelasan Klarifikasi Hak Asasi Badan Administrasi Formal",
-      "done": "Rangkaian surat tanda kejelasan balasan keterangan pengacara formal bergegas bertolak tiba."
-    },
-    "datenschutz": {
-      "kicker": "Keamanan & Pengawalan Data Hak Pribadi (Privasi)",
-      "head": "Berinteraksi langsung membahas ihwal seluk beluk rincian keamanan bersama kepala spesialis urusan perisai penjagaan perlindungan data diri (Privacy).",
-      "short": "Tuntutan Surat Transparansi Arsip Log Catatan Riwayat Sesi Aktivitas Data Diri",
-      "text": "Ketegasan pilar hak ranah perlindungan kawasan batasan hak data diri terpatri krusial mutlak kaku di tempat kami. Kiranya berkeinginan membredel, memeriksa seutuhnya silsilah siklus paparan lalu lintas arsip jejak diri, sertakan kontak.",
-      "interest": "Kajian Edukasi Arahan Undang Undang Konstitusi Kepastian Payung Aturan Keamanan",
-      "done": "Sang petugas komisaris kepolisian arsip penjaga kerahasiaan rincian proteksi siber menanggapi seruan tuntutan panggilan dalam selang sejenak."
-    },
-    "fallback": {
-      "kicker": "Area Sentral Komunikasi Bebas Kontak",
-      "head": "Suarakan berinteraksi mengobrol melempar aduan keluhan perihal permasalahan tanpa tabir dinding langsung menghadap jajaran meja insinyur kami.",
-      "short": "Sirkuit Jalur Panggilan Darurat Panas Kilat Bebas Hambatan Langsung Kepada Dewan Jajaran Barisan Pakar Rekayasa Teknisi Utama Ahli Mesin Pipa",
-      "text": "Identitas sandi digit (nomor telepon), papan surel, seret tuas opsi tombol spesialisasi fokus inti rincian keluhan persoalan Anda. Titik. Selanjutnya biar corong delegasi utusan insinyur ahli dewan mesin K-Aqua merakit konversinya lewat panggilan komunikasi interaktif dua arah diskusi di udara bebas (live).",
-      "interest": "Arahan Pendampingan Kepelatihan Navigasi Ulasan Mendalam Berantai",
-      "done": "Perwira utusan khusus pakar konselor mandataris berbekal sertifikasi K-Aqua membunyikan lonceng sinyal dering respons balik sebelum senja ufuk ufuk ujung jam pergantian tugas kerja tiba kelar (dalam interval tempo sesingkatnya satu kali dua puluh empat jam kerja hari biasa)."
-    },
-    "produkte": {
-      "kicker": "Koleksi Rangkaian Produk",
-      "head": "Meragukan kompatibilitas penyesuaian komponen PP-R milik kami?",
-      "short": "Jasa Layanan Konsultasi Penyesuaian Kompatibilitas Sistem",
-      "text": "Paparkan gambaran kasarnya sistem pipa jenis apa yang hendak Anda kawinkan. Bakal kami bedah panduan rakitan solid antibocor menggunakan koleksi andalan kami.",
-      "interest": "Panduan Instalasi Arus Alir Perpipaan",
-      "done": "Pesan merapat! Data lembar teknis kompatibilitas menyusul tiba."
-    },
-    "academy": {
-      "kicker": "Pelatihan & Sertifikasi Mutu",
-      "head": "Daftarkan tim montir Anda di kelas pelatihan praktik kami.",
-      "short": "Pemesanan Bangku Pelatihan Akademi",
-      "text": "Pastikan validitas garansi lewat kecakapan tukang rakit bersertifikat. Sebutkan kuantitas regu anak buah Anda, kami sodorkan jadwal pelatihan internal maupun di area pabrik.",
-      "interest": "Pengajuan Pertanyaan Layanan",
-      "done": "Regu komite akademi menyiapkan slot jadwal uji coba latihannya."
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
     }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

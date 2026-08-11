@@ -34,7 +34,34 @@
     "edgeLiveFilter": "Livefilter",
     "edgeComparisons": "3 jämförelser",
     "edgeMarkets": "{count} marknader",
-    "edgePageIndex": "Sidindex"
+    "edgePageIndex": "Sidindex",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "Verktyg",
@@ -1592,7 +1619,8 @@
           }
         ]
       }
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "geo": {
     "eyebrow": "Marknader & Platser",
@@ -4046,7 +4074,26 @@
     "nextEyebrow": "Tänk vidare",
     "nextTitle": "Hur klimatvänlig är din planering?",
     "nextLead": "Överför dimension och längd direkt till CO₂-kalkylatorn och jämför mot koppar, rostfritt stål och PVC.",
-    "nextCta": "Till CO₂-kalkylatorn"
+    "nextCta": "Till CO₂-kalkylatorn",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "Certifierad säkerhet",
@@ -4714,7 +4761,8 @@
     "resLow": "Videon ovan hjälper. Sedan klarar du mästaren.",
     "retry": "Försök igen",
     "titlePerfect": "Svetsmästare",
-    "titleGood": "Svetsgesäll"
+    "titleGood": "Svetsgesäll",
+    "videosHeading": "Training videos and guides"
   },
   "refs": {
     "eyebrow": "Referenser",
@@ -4773,7 +4821,8 @@
         "title": "London, Storbritannien",
         "d": "Kontorsrenovering: korrosionsfritt alternativ till befintliga rör."
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "För planerare, inköpare & installatörer",
@@ -5535,6 +5584,24 @@
           "Övergångar till metallgänga",
           "Renovering i etapper",
           "Korrosionsproblemet löst permanent"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -6979,7 +7046,8 @@
         "btnPrimary": "Starta förfrågan",
         "btnGhost": "Kontakta experter"
       },
-      "metaTitle": "Teknisk Support & Service för PP-R Rörsystem"
+      "metaTitle": "Teknisk Support & Service för PP-R Rörsystem",
+      "sub": "Engineering consulting, application technology, and on-site support."
     },
     "downloads": {
       "title": "Nedladdningar",
@@ -7899,7 +7967,15 @@
     "valves_tee-90-female-thread-internal-valve": "T-rör 90° (Inv. gänga) för inbyggd ventil",
     "weld-in-saddles_weld-in-saddle-female-thread": "Insvetsningssadel (Inv. gänga)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Insvetsningssadel (Utv. gänga)",
-    "weld-in-saddles_weld-in-saddle": "Insvetsningssadel"
+    "weld-in-saddles_weld-in-saddle": "Insvetsningssadel",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "quote": "Projektförfrågan",
   "referenzenPage": {
@@ -8392,5 +8468,110 @@
     "p3": "Hållbarhet är djupt förankrad i den molekylära tekniken bakom våra PP-R- och PPRCT-system. Genom att tillhandahålla en anmärkningsvärt låg inre ytråhet på 0,007 mm minskar våra rör drastiskt den hydrauliska friktionen och tryckförlusten i hela nätverket. Enligt Darcy-Weisbachs dynamiska flödesmodeller leder detta minimala motstånd direkt till en kraftigt minskad energiförbrukning för cirkulationspumparna. Under en driftscykel på 50 år leder denna effektivitet till oöverträffade CO2-besparingar och sänker avsevärt den totala ägandekostnaden (TCO) för fastighets- och anläggningsägare. Dessutom är polypropen 100 % återvinningsbart. Genom våra validerade miljövarudeklarationer (EPD) typ III enligt EN 15804 erbjuder vi arkitekter och planerare av gröna byggnader transparenta, kvantifierbara data för LEED-, BREEAM- och DGNB-certifieringar.",
     "t4": "Global räckvidd, tysk ingenjörskonst & certifieringar",
     "p4": "Tillverkat helt i Tyskland under strikta protokoll för kvalitets- och miljöledning enligt ISO 9001, ISO 14001 och ISO 50001, exporterar K-Aqua premiumrörlösningar till över 50 länder världen över. Vårt logistiknätverk garanterar snabb och säker leverans av kompletta system till megaprojekt i Mellanöstern, Sydostasien och hela Europa. Vårt oförtröttliga engagemang för kvalitet valideras av stora internationella certifieringsorgan, inklusive DVGW, SKZ, WRAS och KIWA. Vi stödjer konsulterande ingenjörer, BIM-modellerare och stora entreprenörer med detaljerade CAD-/BIM-bibliotek, intelligent beräkningsprogramvara och omfattande teknisk support för att säkerställa ett smidigt projektgenomförande. K-Aqua representerar den ultimata syntesen av avancerad polymervetenskap, hållbar teknik och kompromisslös tillförlitlighet inom fluidhantering."
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

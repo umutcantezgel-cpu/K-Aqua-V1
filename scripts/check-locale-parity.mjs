@@ -40,14 +40,18 @@ function flatten(node, prefix = '', out = new Map()) {
 // Values that are legitimately identical across locales.
 const NEUTRAL = [
   /^[\d\s.,:;+\-–—·%°×xX\/()|"'&>≥≤]*$/, // numbers, ranges, punctuation only
-  /^(PP-R(CT)?|PPR|SDR|PN|DN|DIN|EN\b|ISO|DVGW|SKZ|KIWA|KTW|W\s?270|FDA)[\w\s.,/:·&()+-]*$/i, // norms & codes
+  /^(PP-R(CT)?|PPR|SDR|PN|DN|DIN|EN\b|ISO|DVGW|SKZ|KIWA|KTW|W\s?270|FDA|PVC|PE 100|SDR|DVS)[\w\s.,/:·&()+\-–—]*$/i, // norms & codes
   /^(d\d+|LEED|BREEAM|DGNB|TCO|CO2|CO₂|UV|3D|B2B|FAQ|IT|API|RCT|HRB[\s\d]*)$/i,
-  /^(K-Aqua|KWT( GmbH)?|Coday( Web( Agency)?)?|Made in Germany|Germany|NEOM|Big 5)[\w\s.,-]*$/i,
+  /^(K-Aqua|KWT( GmbH)?|Coday( Web( Agency)?)?|Made in Germany|Germany|NEOM|Big 5|GENAU|PlanerPortal|KundenForum|K-Fiber|GF|SVGW|TBDV|SASO|SWCC)[\w\s.,\-–—·/()]*$/i,
+  /^(Philipp Nickel|Marcello Gallio)[\w\s.,-]*$/i, // Names
+  /^(PDF|XLSX|ZIP).*$/i, // File types
+  /^(Gauge|ShieldCheck|Ruler|Globe2|Flame|Droplet|Factory)$/i, // Icons
   /^https?:\/\//,
-  /^[\w.-]+@[\w.-]+$/,
+  /^[\w.-]+@[\w.-]+(\s*·\s*\+?[\d\s()/-]+)?$/,
   /^\/[\w\-/[\]]*$/, // route paths
   /^tel:/,
   /^\+?[\d\s()/-]+$/, // phone numbers
+  /^× ISO$/i
 ];
 // Key paths whose values are data identifiers or locale-invariant facts, not copy.
 const NEUTRAL_KEYS = [

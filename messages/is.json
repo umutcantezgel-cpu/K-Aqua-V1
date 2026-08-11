@@ -1403,7 +1403,8 @@
           }
         ]
       }
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "nav": {
     "home": "Heim",
@@ -1438,7 +1439,34 @@
     "edgeLiveFilter": "Rauntímasía (Live filter)",
     "edgeComparisons": "3 samanburðir",
     "edgeMarkets": "{count} markaðir",
-    "edgePageIndex": "Síðuvísir"
+    "edgePageIndex": "Síðuvísir",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "Verkfæri",
@@ -2062,9 +2090,18 @@
     "h2": "Við erum með þrefalda ISO vottun",
     "p": "ISO stjórnunarkerfi okkar hefur verið stækkað og nær nú yfir gæða-, umhverfis- og orkustjórnun:",
     "iso": [
-      ["ISO 9001:2015", "Gæðastjórnunarkerfi"],
-      ["ISO 14001:2015", "Umhverfisstjórnunarkerfi"],
-      ["ISO 50001:2018", "Orkustjórnunarkerfi"]
+      [
+        "ISO 9001:2015",
+        "Gæðastjórnunarkerfi"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umhverfisstjórnunarkerfi"
+      ],
+      [
+        "ISO 50001:2018",
+        "Orkustjórnunarkerfi"
+      ]
     ],
     "btnDe": "Vottorð (DE)",
     "btnEn": "Certificate (EN)",
@@ -2089,12 +2126,18 @@
         "Matarstyrkur",
         "Stafrænir matarmiðar fyrir hádegismat og stórmarkaði."
       ],
-      "internet": ["Netstyrkur", "Styrkur vegna einkanota á internetinu."],
+      "internet": [
+        "Netstyrkur",
+        "Styrkur vegna einkanota á internetinu."
+      ],
       "jobrad": [
         "JobRad-leiga",
         "Óskareiðhjól gegnum launaafslátt, sparnaður miðað við einkakaup."
       ],
-      "kita": ["Leikskólastyrkur", "Skattfrjáls styrkur fyrir barnagæslu."],
+      "kita": [
+        "Leikskólastyrkur",
+        "Skattfrjáls styrkur fyrir barnagæslu."
+      ],
       "vwl": [
         "Eignamyndandi framlög",
         "Mánaðarlegt sparnaðarframlag frá vinnuveitanda."
@@ -2129,11 +2172,17 @@
       },
       {
         "q": "Hvað hvetur þig meira?",
-        "o": ["Vara sem endist í 50 ár", "Hraður, sýnilegur árangur"]
+        "o": [
+          "Vara sem endist í 50 ár",
+          "Hraður, sýnilegur árangur"
+        ]
       },
       {
         "q": "Vaktavinna er fyrir þig …",
-        "o": ["Hægt að skipuleggja og er í lagi", "Frekar erfið"]
+        "o": [
+          "Hægt að skipuleggja og er í lagi",
+          "Frekar erfið"
+        ]
       },
       {
         "q": "Viðhorf þitt til tækni?",
@@ -2162,13 +2211,34 @@
     "eyebrow": "Lagalegt",
     "title": "Um vefinn og lagalegar upplýsingar",
     "rows": [
-      ["Fyrirtæki", "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"],
-      ["Framkvæmdastjórn", "Philipp Nickel, Marcello Gallio"],
-      ["Skráningardómstóll", "Wetzlar HRB 6732"],
-      ["Staðsetning", "Waldsolms"],
-      ["VSK númer", "DE 296238486"],
-      ["Sími / Fax", "+49 (0)60 85 / 9868-410 · Fax -420"],
-      ["Netfang", "info@k-aqua.de"]
+      [
+        "Fyrirtæki",
+        "KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf"
+      ],
+      [
+        "Framkvæmdastjórn",
+        "Philipp Nickel, Marcello Gallio"
+      ],
+      [
+        "Skráningardómstóll",
+        "Wetzlar HRB 6732"
+      ],
+      [
+        "Staðsetning",
+        "Waldsolms"
+      ],
+      [
+        "VSK númer",
+        "DE 296238486"
+      ],
+      [
+        "Sími / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Netfang",
+        "info@k-aqua.de"
+      ]
     ]
   },
   "finder": {
@@ -2201,7 +2271,26 @@
     "nextEyebrow": "Hugsa fram í tímann",
     "nextTitle": "Hversu loftslagsvæn er áætlanagerð þín?",
     "nextLead": "Settu stærð og lengd beint í CO₂ reiknivélina og berðu saman við kopar, ryðfrítt stál og PVC.",
-    "nextCta": "Fara í CO₂ reiknivél"
+    "nextCta": "Fara í CO₂ reiknivél",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "Vottað öryggi",
@@ -2323,9 +2412,18 @@
     "titleGrad": "mælanlegt.",
     "lead": "Traust er mælanlegt. Vottorð, GENAU ramminn og úttektarskjöl, sem sjálfsafgreiðsla. Engin bið dögum saman eftir handvirkri sendingu.",
     "certs": [
-      ["ISO 9001:2015", "Gæðastjórnun"],
-      ["ISO 14001:2015", "Umhverfisstjórnun"],
-      ["ISO 50001:2018", "Orkustjórnun"]
+      [
+        "ISO 9001:2015",
+        "Gæðastjórnun"
+      ],
+      [
+        "ISO 14001:2015",
+        "Umhverfisstjórnun"
+      ],
+      [
+        "ISO 50001:2018",
+        "Orkustjórnun"
+      ]
     ],
     "accred": "DAkkS-faggilt",
     "certNo": "Vottorðsnr.",
@@ -2816,7 +2914,11 @@
     "quiz": [
       {
         "q": "Hvaða suðuaðferð er staðall fyrir stórar stærðir (t.d. d630)?",
-        "o": ["Handvirk múffusuða", "Stúfsuða (Butt Fusion)", "Líming"]
+        "o": [
+          "Handvirk múffusuða",
+          "Stúfsuða (Butt Fusion)",
+          "Líming"
+        ]
       },
       {
         "q": "Fyrir hvað stendur SDR í rörskerfum?",
@@ -2836,7 +2938,11 @@
       },
       {
         "q": "Hvaða endurvinnslukóða ber pólýprópýlen?",
-        "o": ["Kóði 3", "Kóði 5", "Kóði 7"]
+        "o": [
+          "Kóði 3",
+          "Kóði 5",
+          "Kóði 7"
+        ]
       },
       {
         "q": "Við rafsuðu (Electrofusion) kemur hitinn...",
@@ -2852,7 +2958,8 @@
     "resLow": "Myndböndin hér að ofan hjálpa. Eftir það tekst meistarinn.",
     "retry": "Reyna aftur",
     "titlePerfect": "Suðumeistari",
-    "titleGood": "Suðusveinn"
+    "titleGood": "Suðusveinn",
+    "videosHeading": "Training videos and guides"
   },
   "refs": {
     "eyebrow": "Tilvísanir",
@@ -2911,7 +3018,8 @@
         "title": "London, Bretland",
         "d": "Skrifstofuendurbætur: Tæringarfrí endurnýjun á eldri leiðslum."
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "Fyrir hönnuði, innkaup & uppsetningarmenn",
@@ -2958,7 +3066,11 @@
         "d": "Rör, formstykki, lokar og suðutækni frá einum aðila, frá framleiðanda, ekki millilið."
       }
     ],
-    "promise": ["Beint frá verksmiðju", "Svar < 24 klst", "Óskuldbindandi"],
+    "promise": [
+      "Beint frá verksmiðju",
+      "Svar < 24 klst",
+      "Óskuldbindandi"
+    ],
     "ctaAll": "Verkefnisfyrirspurn á 2 mínútum"
   },
   "rfq": {
@@ -3019,7 +3131,11 @@
     "next": "Áfram",
     "send": "Senda fyrirspurn",
     "mailSubject": "Verkefnisfyrirspurn K Aqua",
-    "promise": ["Svar < 24 klst", "Óskuldbindandi", "Beint frá framleiðanda"],
+    "promise": [
+      "Svar < 24 klst",
+      "Óskuldbindandi",
+      "Beint frá framleiðanda"
+    ],
     "doneTitle": "Næstum búið.",
     "doneText": "Tölvupóstforritið þitt hefur opnast með útfylltri fyrirspurn. Sendu hana af stað. Við höfum samband innan eins vinnudags. Viltu frekar ræða málið beint?",
     "doneBack": "Aftur á forsíðu",
@@ -3143,22 +3259,34 @@
       {
         "t": "K-Pipe PP-R Monolayer",
         "d": "Viðurkenndur staðall fyrir heitt og kalt neysluvatn. Eins lags uppbygging, full SDR-breidd í algengum stærðum: hagkvæmt fyrir íbúðar- og atvinnuhúsnæði.",
-        "tags": ["d20–d630", "SDR 6–17"]
+        "tags": [
+          "d20–d630",
+          "SDR 6–17"
+        ]
       },
       {
         "t": "K-Pipe PPRCT",
         "d": "Breytt kristalbygging fyrir meira hita- og þrýstingsþol: SDR 7,4 er hannað fyrir 70 °C í stöðugri notkun við 10 bar (1,0 MPa), kjörin lausn fyrir heitt vatn og hringrásarkerfi.",
-        "tags": ["70 °C · 10 bar", "Heitt vatn"]
+        "tags": [
+          "70 °C · 10 bar",
+          "Heitt vatn"
+        ]
       },
       {
         "t": "K-Fiber Pipe (GF-Multilayer)",
         "d": "Glerklæddur kjarni milli tveggja PP-laga: varmaþensla minnkar um það bil niður í fjórðung, meira bil á milli festinga, formstöðugt upp að d630, allt að 20 bar (2,0 MPa) við 20 °C í SDR 6.",
-        "tags": ["GF-Kjarni", "d20–d630"]
+        "tags": [
+          "GF-Kjarni",
+          "d20–d630"
+        ]
       },
       {
         "t": "UV-varin útfærsla",
         "d": "Fyrir uppsetningar sem eru útsettar fyrir sólarljósi (eins og gróðurhús eða loftlínur) er boðið upp á kerfi í UV-þolinni útfærslu.",
-        "tags": ["Utandyra", "Landbúnaður"]
+        "tags": [
+          "Utandyra",
+          "Landbúnaður"
+        ]
       }
     ],
     "dimEyebrow": "Stærðartöflur",
@@ -3190,7 +3318,11 @@
     "matEyebrow": "Efnisupplýsingar",
     "matTitle": "Hvað gerir efnið sérstakt.",
     "matLead": "Helstu kennistærðir PP-R/PPRCT-kerfisins og hvers vegna þær skipta máli við skipulagningu.",
-    "matHead": ["Eiginleiki", "Gildi", "Þýðing fyrir þitt verkefni"],
+    "matHead": [
+      "Eiginleiki",
+      "Gildi",
+      "Þýðing fyrir þitt verkefni"
+    ],
     "matRows": [
       [
         "Eðlismassi",
@@ -3278,7 +3410,11 @@
     "normEyebrow": "Staðlar og vottanir",
     "normTitle": "Prófað gagnvart regluverki.",
     "normLead": "K-Aqua kerfið er framleitt og prófað gagnvart viðeigandi stöðlum röratækni. Hver framleiðslulota fellur undir ISO-9001 gæðakröfur.",
-    "normHead": ["Staðall", "Titill", "Þýðing"],
+    "normHead": [
+      "Staðall",
+      "Titill",
+      "Þýðing"
+    ],
     "norms": [
       [
         "DIN 8077",
@@ -3380,12 +3516,20 @@
       {
         "t": "Iðnaður og atvinnuhúsnæði",
         "d": "Þolið gagnvart leysiefnum, bönsum og sýrum. Þar sem málmrör tærast stendur pólýprópýlen óhaggað.",
-        "pts": ["Efnaþol", "Löng viðhaldsbil", "Vinnslu- og neysluvatn"]
+        "pts": [
+          "Efnaþol",
+          "Löng viðhaldsbil",
+          "Vinnslu- og neysluvatn"
+        ]
       },
       {
         "t": "Gróðurhús og landbúnaður",
         "d": "UV-varðar útfærslur fyrir áveitu undir gleri og utandyra: létt, fljótlegt í uppsetningu, frostþolnara en stíf kerfi.",
-        "pts": ["UV-varin útfærsla", "Létt", "Notkunarsvið úr verkefnaskrá"]
+        "pts": [
+          "UV-varin útfærsla",
+          "Létt",
+          "Notkunarsvið úr verkefnaskrá"
+        ]
       },
       {
         "t": "Sveitarfélög og innviðir",
@@ -3403,6 +3547,24 @@
           "Millistykki fyrir málmgengjur",
           "Endurbætur í áföngum",
           "Tæringarvandamál leyst varanlega"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -3501,7 +3663,11 @@
     "stakeEyebrow": "Fyrir kaupenda",
     "stakeTitle": "Hvert hlutverk hefur sitt mat.",
     "stakeLead": "B2B-innkaupahópur samanstendur að meðaltali af 11 til 20 einstaklingum. Verkfræðingar, innkaupastjórar og sjálfbærnisérfræðingar þurfa mismunandi gögn. Hér er yfirlitið.",
-    "stakeHead": ["Hlutverk", "Áherslur", "Nauðsynleg gögn"],
+    "stakeHead": [
+      "Hlutverk",
+      "Áherslur",
+      "Nauðsynleg gögn"
+    ],
     "stakeRows": [
       [
         "Verkfræðingur / Hönnuður",
@@ -3706,7 +3872,12 @@
     "stepEyebrow": "Ferlið skref fyrir skref",
     "stepTitle": "Fjórar aðferðir, ein gæðakrafa.",
     "stepLead": "Hver aðferð hefur sitt stærðarsvið og fimm skref sem ráða úrslitum um gæði tengingarinnar.",
-    "procTabs": ["Múffa (Hand)", "Múffa (Vél)", "Rafsuða", "Stúfsuða"],
+    "procTabs": [
+      "Múffa (Hand)",
+      "Múffa (Vél)",
+      "Rafsuða",
+      "Stúfsuða"
+    ],
     "procs": [
       {
         "t": "Múffusuða í höndunum: að d63",
@@ -3811,7 +3982,11 @@
     ],
     "errEyebrow": "Villufræði",
     "errTitle": "Sex dýrustu mistökin og forvarnir.",
-    "errHead": ["Mistök", "Afleiðing", "Forvörn"],
+    "errHead": [
+      "Mistök",
+      "Afleiðing",
+      "Forvörn"
+    ],
     "errRows": [
       [
         "Of löng hitun",
@@ -3893,7 +4068,12 @@
     "libEyebrow": "Skjalasafn",
     "libTitle": "Öll gögn, ein yfirsýn.",
     "libLead": "Þrír vörulistar til beins niðurhals, vottorð á tveimur tungumálum og úttektargögn í sjálfsafgreiðslu í Traustmiðstöðinni.",
-    "libHead": ["Skjal", "Innihald", "Tungumál", "Aðgangur"],
+    "libHead": [
+      "Skjal",
+      "Innihald",
+      "Tungumál",
+      "Aðgangur"
+    ],
     "libRows": [
       {
         "t": "K-Aqua vöruúrval",
@@ -4189,8 +4369,14 @@
         "Staðsetning",
         "KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf, Mittelhessen"
       ],
-      ["Sími / Fax", "+49 (0)60 85 / 9868-410 · Fax -420"],
-      ["Tungumál", "Þýska og enska, vefsíðan er einnig á arabísku"],
+      [
+        "Sími / Fax",
+        "+49 (0)60 85 / 9868-410 · Fax -420"
+      ],
+      [
+        "Tungumál",
+        "Þýska og enska, vefsíðan er einnig á arabísku"
+      ],
       [
         "Heimsókn í verksmiðju",
         "Úttektir og heimsóknir eftir samkomulagi við söludeild"
@@ -4296,7 +4482,10 @@
         "SDR",
         "Standard Dimension Ratio = d/s. Minni SDR þýðir þykkari veggur og hærri nafnþrýstingur."
       ],
-      ["Veggur (s)", "Veggþykkt í millimetrum: leiðir af d og SDR: s = d/SDR."],
+      [
+        "Veggur (s)",
+        "Veggþykkt í millimetrum: leiðir af d og SDR: s = d/SDR."
+      ],
       [
         "di",
         "Innra þvermál = d − 2s. Skiptir sköpum fyrir flæði og þrýstitap."
@@ -4404,13 +4593,37 @@
     "techTitle": "Mál & þrýstiflokkar",
     "techLead": "Fer eftir rörgerð frá 20 mm til 630 mm, formstykki upp í 315 mm.",
     "ctaFeatures": "Vörueiginleikar (PDF)",
-    "tableHead": ["Íhlutur", "Stærð", "Þrýstiflokkar"],
+    "tableHead": [
+      "Íhlutur",
+      "Stærð",
+      "Þrýstiflokkar"
+    ],
     "tableRows": [
-      ["Einslaga rör", "20 – 630 mm", "SDR 6 / 7,4 / 9 / 11 / 17"],
-      ["Marglaga rör (glerklædd)", "20 – 630 mm", "SDR 6 / 7,4 / 9 / 11 / 17"],
-      ["Formstykki", "20 – 315 mm", "Kerfissamhæf"],
-      ["Ventlar & skrúftengi", "Fer eftir kerfi", "-"],
-      ["Suðutækni & verkfæri", "Allar stærðir", "-"]
+      [
+        "Einslaga rör",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Marglaga rör (glerklædd)",
+        "20 – 630 mm",
+        "SDR 6 / 7,4 / 9 / 11 / 17"
+      ],
+      [
+        "Formstykki",
+        "20 – 315 mm",
+        "Kerfissamhæf"
+      ],
+      [
+        "Ventlar & skrúftengi",
+        "Fer eftir kerfi",
+        "-"
+      ],
+      [
+        "Suðutækni & verkfæri",
+        "Allar stærðir",
+        "-"
+      ]
     ],
     "specAndDim": "Tæknilýsingar & mál",
     "certsAndNorms": "Vottorð & staðlar",
@@ -5364,10 +5577,22 @@
       "tempLabel": "Hámarkshiti",
       "tempNote": "PN20 · Stöðugur rekstur",
       "meta": [
-        ["Efni", "K-Aqua PP-R (Gerð 3)"],
-        ["Staðall", "DIN 8077/8078"],
-        ["Vottanir", "DVGW, SKZ, KIWA"],
-        ["Líftími", "> 50 ár"]
+        [
+          "Efni",
+          "K-Aqua PP-R (Gerð 3)"
+        ],
+        [
+          "Staðall",
+          "DIN 8077/8078"
+        ],
+        [
+          "Vottanir",
+          "DVGW, SKZ, KIWA"
+        ],
+        [
+          "Líftími",
+          "> 50 ár"
+        ]
       ]
     },
     "layers": {
@@ -5392,10 +5617,22 @@
     "comply": {
       "title": "Fylgni & Staðlar",
       "items": [
-        ["DVGW", "Drykkjarvatnsvottun"],
-        ["SKZ", "Gæðaeftirlit"],
-        ["KIWA", "Kerfisvottun"],
-        ["DIN 8077/8078", "Mál og þol (Tolerances)"]
+        [
+          "DVGW",
+          "Drykkjarvatnsvottun"
+        ],
+        [
+          "SKZ",
+          "Gæðaeftirlit"
+        ],
+        [
+          "KIWA",
+          "Kerfisvottun"
+        ],
+        [
+          "DIN 8077/8078",
+          "Mál og þol (Tolerances)"
+        ]
       ]
     },
     "rangeTitle": "Stærðir",
@@ -5403,9 +5640,18 @@
       "title": "Alþjóðlegt net",
       "lead": "Kerfi frá K-Aqua eru í notkun í yfir 35 löndum um allan heim. Frá Waldsolms til heimsins alls.",
       "chips": [
-        ["35+", "Lönd"],
-        ["3", "Heimsálfur"],
-        ["ISO", "Vottað"]
+        [
+          "35+",
+          "Lönd"
+        ],
+        [
+          "3",
+          "Heimsálfur"
+        ],
+        [
+          "ISO",
+          "Vottað"
+        ]
       ]
     }
   },
@@ -6823,7 +7069,8 @@
             "text": "Ítarleg tækniskýrsla (technical report) með dulritunar-undirskrift (cryptographic signature) fyrir algjört gagnsæi (absolute transparency) og endurskoðunaröryggi (audit security)."
           }
         ]
-      }
+      },
+      "sub": "Engineering consulting, application technology, and on-site support."
     }
   },
   "kontaktBlocks": {
@@ -7240,7 +7487,15 @@
     "valves_tee-90-female-thread-internal-valve": "T-stykki 90° (Innri gengjur) fyrir innbyggðan loka",
     "weld-in-saddles_weld-in-saddle-female-thread": "Innhitaður söðull (Innri gengjur)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Innhitaður söðull (Ytri gengjur)",
-    "weld-in-saddles_weld-in-saddle": "Innhitaður söðull"
+    "weld-in-saddles_weld-in-saddle": "Innhitaður söðull",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "solutions": {
     "eyebrow": "Lausnir (Solutions)",
@@ -8243,5 +8498,110 @@
     "title": "Tilbúin(n) fyrir næsta stórverkefni?",
     "desc": "Umsóknarverkfræðingar (Application engineers) okkar eru tilbúnir til að leysa flóknustu vökvaaflfræðilegu áskoranir (hydraulic challenges) klíníska verkefnisins þíns. Ekkert verkefni er of stórt, enginn staðall of strangur.",
     "button": "Hafa samband við verkfræðiteymi"
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

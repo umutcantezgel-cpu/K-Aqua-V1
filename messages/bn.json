@@ -34,7 +34,34 @@
     "edgeLiveFilter": "লাইভ ফিল্টার",
     "edgeComparisons": "3টি তুলনা",
     "edgeMarkets": "{count}টি বাজার",
-    "edgePageIndex": "পৃষ্ঠা সূচি"
+    "edgePageIndex": "পৃষ্ঠা সূচি",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "টুলস",
@@ -413,7 +440,8 @@
         "title": "লন্ডন, যুক্তরাজ্য",
         "d": "অফিস সংস্কার: বিদ্যমান লাইনের জন্য জং-মুক্ত প্রতিস্থাপন।"
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "পরিকল্পনাকারী, ক্রয় এবং প্রসেসরদের জন্য",
@@ -1012,7 +1040,26 @@
     "nextEyebrow": "সামনে ভাবুন",
     "nextTitle": "আপনার পরিকল্পনা কতটা জলবায়ু-বান্ধব?",
     "nextLead": "মাত্রা এবং দৈর্ঘ্য সরাসরি CO₂ ক্যালকুলেটরে স্থানান্তর করুন এবং তামা, স্টেইনলেস স্টিল এবং PVC এর সাথে তুলনা করুন।",
-    "nextCta": "CO₂ ক্যালকুলেটরে যান"
+    "nextCta": "CO₂ ক্যালকুলেটরে যান",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "প্রত্যয়িত নিরাপত্তা",
@@ -2037,7 +2084,15 @@
     "pipes_k-fiber-pipe-pp-r-sdr-11": "কে-ফাইবার পাইপ PP-R SDR 11",
     "pipes_k-fiber-pipe-pp-r-sdr-17": "কে-ফাইবার পাইপ PP-R SDR 17",
     "pipes_k-fiber-pipe-pp-r-sdr-7-4": "কে-ফাইবার পাইপ PP-R SDR 7.4",
-    "pipes_k-fiber-pipe-pp-r-sdr-9": "কে-ফাইবার পাইপ PP-R SDR 9"
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "কে-ফাইবার পাইপ PP-R SDR 9",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "kontaktForm": {
     "phoneLabel": "টেলিফোন",
@@ -2782,7 +2837,8 @@
         "btnPrimary": "অনুসন্ধান শুরু করুন",
         "btnGhost": "বিশেষজ্ঞদের সাথে যোগাযোগ করুন"
       },
-      "metaTitle": "PP-R পাইপিং সিস্টেমের জন্য টেকনিক্যাল সাপোর্ট এবং পরিষেবা"
+      "metaTitle": "PP-R পাইপিং সিস্টেমের জন্য টেকনিক্যাল সাপোর্ট এবং পরিষেবা",
+      "sub": "Engineering consulting, application technology, and on-site support."
     },
     "bim": {
       "title": "BIM-ডেটা",
@@ -3085,7 +3141,7 @@
         {
           "id": "sec-5",
           "title": "5. যোগাযোগ এবং অনুসন্ধান ফর্ম",
-"content": "আপনি যদি আমাদের অনুসন্ধান ফর্মগুলির একটি ব্যবহার করেন, আমরা সেখানে দেওয়া ডেটা প্রক্রিয়া করি: টেলিফোন নম্বর, ইমেইল ঠিকানা, আপনার নির্বাচিত অনুরোধ এবং যে পৃষ্ঠা থেকে অনুরোধটি পাঠানো হয়েছিল। এই ডেটা info@k-aqua.de-এ ইমেলের মাধ্যমে প্রেরণ করা হয় এবং (যদি একটি CRM সিস্টেম সংযুক্ত থাকে) আপনার অনুরোধ প্রক্রিয়া করার জন্য সেখানে সংরক্ষণ করা হয়।\n\nক্যারিয়ার ফর্মের মাধ্যমে অ্যাপ্লিকেশনগুলির ক্ষেত্রে, আপনার দেওয়া আবেদনের ডেটা (নাম, যোগাযোগের বিশদ, সিভি বা অভিজ্ঞতা এবং শিক্ষা সম্পর্কিত তথ্য) ইমেলের মাধ্যমে আমাদের মানব সম্পদ বিভাগে প্রেরণ করা হয়।\n\nপ্রক্রিয়াকরণের একমাত্র উদ্দেশ্য হলো আপনার অনুরোধ বা আবেদন প্রক্রিয়া করা। আইনি ভিত্তি হলো Art. 6 Para. 1 lit. b GDPR (প্রাক-চুক্তিমূলক ব্যবস্থার বাস্তবায়ন) বা Art. 6 Para. 1 lit. f GDPR। ডেটা মুছে ফেলা হবে যখন এটির উদ্দেশ্যে আর প্রয়োজন হবে না এবং আইনি ধরে রাখার প্রয়োজনীয়তাগুলি এর বিপরীতে না থাকে।\n\nস্বয়ংক্রিয় স্প্যাম সাবমিশন থেকে রক্ষা করার জন্য, আমরা তৃতীয় পক্ষের ক্যাপচা পরিষেবাগুলি ছাড়াই একটি অদৃশ্য প্রযুক্তিগত চেক (হানিপট ফিল্ড এবং সময় থ্রেশহোল্ড) ব্যবহার করি।"
+          "content": "আপনি যদি আমাদের অনুসন্ধান ফর্মগুলির একটি ব্যবহার করেন, আমরা সেখানে দেওয়া ডেটা প্রক্রিয়া করি: টেলিফোন নম্বর, ইমেইল ঠিকানা, আপনার নির্বাচিত অনুরোধ এবং যে পৃষ্ঠা থেকে অনুরোধটি পাঠানো হয়েছিল। এই ডেটা info@k-aqua.de-এ ইমেলের মাধ্যমে প্রেরণ করা হয় এবং (যদি একটি CRM সিস্টেম সংযুক্ত থাকে) আপনার অনুরোধ প্রক্রিয়া করার জন্য সেখানে সংরক্ষণ করা হয়।\n\nক্যারিয়ার ফর্মের মাধ্যমে অ্যাপ্লিকেশনগুলির ক্ষেত্রে, আপনার দেওয়া আবেদনের ডেটা (নাম, যোগাযোগের বিশদ, সিভি বা অভিজ্ঞতা এবং শিক্ষা সম্পর্কিত তথ্য) ইমেলের মাধ্যমে আমাদের মানব সম্পদ বিভাগে প্রেরণ করা হয়।\n\nপ্রক্রিয়াকরণের একমাত্র উদ্দেশ্য হলো আপনার অনুরোধ বা আবেদন প্রক্রিয়া করা। আইনি ভিত্তি হলো Art. 6 Para. 1 lit. b GDPR (প্রাক-চুক্তিমূলক ব্যবস্থার বাস্তবায়ন) বা Art. 6 Para. 1 lit. f GDPR। ডেটা মুছে ফেলা হবে যখন এটির উদ্দেশ্যে আর প্রয়োজন হবে না এবং আইনি ধরে রাখার প্রয়োজনীয়তাগুলি এর বিপরীতে না থাকে।\n\nস্বয়ংক্রিয় স্প্যাম সাবমিশন থেকে রক্ষা করার জন্য, আমরা তৃতীয় পক্ষের ক্যাপচা পরিষেবাগুলি ছাড়াই একটি অদৃশ্য প্রযুক্তিগত চেক (হানিপট ফিল্ড এবং সময় থ্রেশহোল্ড) ব্যবহার করি।"
         },
         {
           "id": "sec-6",
@@ -5693,7 +5749,8 @@
           }
         ]
       }
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "productsx": {
     "navOverview": "সিস্টেমের সংক্ষিপ্ত বিবরণ",
@@ -6044,6 +6101,24 @@
           "মেটাল থ্রেড রূপান্তর",
           "বিভাগ দ্বারা সংস্কার",
           "জারা সমস্যা স্থায়ীভাবে সমাধান করা হয়েছে"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -6981,7 +7056,6 @@
         ]
       },
       "stats": {
-        "title": "সংখ্যায় ইঞ্জিনিয়ারিং।",
         "0": {
           "label": "গ্যারান্টিযুক্ত পরিষেবা জীবন (বছর)",
           "desc": "স্ট্যান্ডার্ড অপারেটিং শর্তে (20°C / 10 bar), কে-অ্যাকোয়া PPR সিস্টেমগুলোর স্থায়িত্ব সহজেই উল্লেখযোগ্য উপাদানের অবক্ষয় ছাড়াই অর্ধ শতাব্দী অতিক্রম করে।"
@@ -6993,7 +7067,8 @@
         "2": {
           "label": "সমজাতীয় সংযোগ",
           "desc": "আণবিক ওয়েল্ডিং একটি সম্পূর্ণ বিজোড় সিস্টেম তৈরি করে। পাইপ এবং ফিটিং একসাথে মিশে একটি একক, অবিচ্ছেদ্য উপাদান হয়ে যায়।"
-        }
+        },
+        "title": "সংখ্যায় ইঞ্জিনিয়ারিং।"
       },
       "cta": {
         "eyebrow": "প্রজেক্ট ইনিশিয়েশন",
@@ -7636,7 +7711,8 @@
     "resLow": "উপরের ভিডিওগুলো সাহায্য করবে। তারপরে মাস্টারের জন্য চেষ্টা করুন।",
     "retry": "আবার চেষ্টা করুন",
     "titlePerfect": "ওয়েল্ডিং মাস্টার",
-    "titleGood": "ওয়েল্ডিং-জার্নিম্যান"
+    "titleGood": "ওয়েল্ডিং-জার্নিম্যান",
+    "videosHeading": "Training videos and guides"
   },
   "partnerx": {
     "ecoEyebrow": "কেসেল (KESSEL) ইকোসিস্টেম",
@@ -8438,5 +8514,110 @@
     "scopeTitle": "স্কোপ 1, 2, 3: সংক্ষেপে ব্যাখ্যা করা হয়েছে",
     "scopeText": "স্কোপ 1 কারখানার সরাসরি নির্গমন, স্কোপ 2 ক্রয় করা বিদ্যুত, স্কোপ 3 সাপ্লাই চেইনকে কভার করে, যার অর্থ আপনার কেনা পাইপগুলি। এ কারণেই কে-অ্যাকোয়া অনুরোধে স্কোপ 3 ডেটা এবং EPD কাঁচা ডেটা সরবরাহ করে: আপনার নিজস্ব কার্বন পদচিহ্নের জন্য সক্রিয় স্বচ্ছতা।",
     "statNote": "শিল্প অধ্যয়ন থেকে: প্রায় অর্ধেক B2B গ্রাহক প্রমাণিত টেকসই সরবরাহকারীদের কাছ থেকে কিনতে পছন্দ করেন। প্রমাণ একটি সংগ্রহ মাপকাঠি হয়ে ওঠে।"
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }

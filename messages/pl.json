@@ -1401,7 +1401,8 @@
           }
         ]
       }
-    }
+    },
+    "viewDetails": "View product specifications"
   },
   "toggle_theme_light": "Zu hellem Design wechseln",
   "toggle_theme_dark": "Zu dunklem Design wechseln",
@@ -1438,7 +1439,34 @@
     "edgeLiveFilter": "Filtr na żywo",
     "edgeComparisons": "3 porównania",
     "edgeMarkets": "{count} rynków",
-    "edgePageIndex": "Spis stron"
+    "edgePageIndex": "Spis stron",
+    "mega": {
+      "homeSr": "K-Aqua Homepage",
+      "pipeSystems": "Piping Systems",
+      "allProducts": "All Products",
+      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "solutionsDesc": "Industry-specific applications",
+      "digitalTools": "Digital Tools",
+      "finderDesc": "Configure the right system",
+      "co2Desc": "Calculate the environmental footprint",
+      "academyDesc": "Training & certificates",
+      "trustDesc": "Downloads & certifications",
+      "serviceDesc": "Planning support",
+      "partnersDesc": "Become a local partner",
+      "aboutGroup": "About K-Aqua",
+      "company": "The Company",
+      "companyDesc": "Mission, vision & history",
+      "careerDesc": "Open positions & culture",
+      "newsPress": "News & Press",
+      "newsDesc": "Latest press releases",
+      "sitemap": "Sitemap",
+      "sitemapDesc": "Structural overview",
+      "globalFootprint": "Global Footprint",
+      "globalMarkets": "Global Markets",
+      "marketsDesc": "Certified regions",
+      "refProjects": "Reference Projects",
+      "refDesc": "Successful installations"
+    }
   },
   "groups": {
     "tools": "Werkzeuge",
@@ -1595,29 +1623,29 @@
     "bandBtn2": "Pobieranie i Serwis"
   },
   "geo": {
-    "eyebrow": "Rynki i Lokalizacje",
-    "title1": "Świat pełen",
-    "title2": "Rynków.",
-    "lead": "{n} rynków w {c} krajach: każdy z własną stroną docelową: standardy, profil wody, przypadki użycia, logistyka. Chwyć świat i obracaj go swobodnie; lista zabierze Cię dokładnie do wybranego miasta.",
-    "all": "Wszystkie",
-    "cityTitle": "Systemy rurowe PP-R/PPRCT w {city}.",
-    "cityLead": "Systemy wody pitnej d20–d630, przetestowane zgodnie z lokalnymi wymaganiami.",
-    "allMarkets": "Wszystkie rynki",
-    "request": "Zapytaj o projekt",
-    "finder": "Wyszukiwarka produktów",
-    "fromPlant": "km od fabryki Waldsolms",
-    "regFrame": "Ramy regulacyjne",
-    "water": "Profil wody i reakcja materiału",
-    "typical": "Typowe projekty w {city}",
-    "onSite": "Przetwarzanie na miejscu",
-    "onSiteText": "Instrukcja technologii spawania i dokumentacja wideo dla Twojego zespołu: w Akademii.",
-    "toAcademy": "Do Akademii",
-    "nearbyEyebrow": "Powiązane rynki",
-    "nearby": "W pobliżu.",
-    "prodNote": "Uwaga produkcyjna: Te strony są zgodne z szablonem Programmatic SEO. W Next.js są generowane przez ISR z Headless CMS: w tym hreflang, schemat Product/Offer i semantyczne linkowanie wewnętrzne.",
+    "eyebrow": "Märkte & Standorte",
+    "title1": "Eine Welt voller",
+    "title2": "Märkten.",
+    "lead": "{n} Märkte in {c} Ländern: jeder mit eigener Landingpage: Normen, Wasserprofil, Anwendungsfälle, Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
+    "all": "Alle",
+    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
+    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort.",
+    "allMarkets": "Alle Märkte",
+    "request": "Projekt anfragen",
+    "finder": "Produktfinder",
+    "fromPlant": "km ab Werk Waldsolms",
+    "regFrame": "Regulatorischer Rahmen",
+    "water": "Wasserprofil & Materialantwort",
+    "typical": "Typische Projekte in {city}",
+    "onSite": "Verarbeitung vor Ort",
+    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne: in der Academy.",
+    "toAcademy": "Zur Academy",
+    "nearbyEyebrow": "Verwandte Märkte",
+    "nearby": "In der Nähe.",
+    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
     "km": "km",
-    "seoExpansion": "K Aqua produkuje systemy rurowe PP-R i PPRCT w Waldsolms spełniające najwyższe wymagania globalnej inżynierii budowlanej i instalacyjnej. Dzięki bezkompromisowej niemieckiej inżynierii i najnowocześniejszej technologii produkcji, nasze systemy gwarantują dziesięciolecia bezawaryjnej pracy. Każdy produkt, od d20 do d630, przechodzi rygorystyczne kontrole jakości i spełnia międzynarodowe normy, takie jak DVGW, KIWA i SKZ. Nie tylko oferujemy najwyższej klasy materiały do wody pitnej, chłodzenia i przemysłu, ale także wspieramy planistów i instalatorów kompleksowym wsparciem technicznym i szkoleniami na miejscu. Zaufaj systemowi, który imponuje niezwykłą trwałością, brakiem korozji i absolutną higieną.",
-    "seoExpansionDynamic": "Dowiedz się więcej o naszych rozwiązaniach PP-R i PPRCT w {city}. Spełniamy lokalne normy ({regulator}) i oferujemy optymalne systemy dla jakości wody ({water}). Dodatkowa uwaga: {note}.",
+    "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
+    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}.",
     "cityMetaTitle": "Systemy rurowe PP-R w {city}",
     "hubMetaTitle": "Systemy rurowe PP-R dla {country}",
     "hubH1": "Rozwiązania infrastrukturalne dla {country}",
@@ -1650,30 +1678,7 @@
         "description": "Jako jedno z najgęściej zaludnionych państw-miast na świecie w Azji, Singapur potrzebuje wysoce wydajnej i oszczędzającej miejsce technologii budowlanej. <strong>Innowacyjne systemy rurociągowe K-Aqua</strong> wspierają ambitne cele budownictwa ekologicznego Singapuru poprzez drastyczne zmniejszenie spadków ciśnienia i optymalizację właściwości termicznych. Wyznaczamy w Azji standardy dla wszystkiego, od klimatyzacji w wieżowcach (chilled water) po zaopatrzenie w ultraczystą wodę pitną.",
         "metaDesc": "Wydajne rury PP-R/PP-RCT dla ekologicznych budynków w Singapurze. Specjalistyczne systemy wody lodowej (chilled water) i zasilania w ultraczystą wodę pitną."
       }
-    },
-    "eyebrow": "Märkte & Standorte",
-    "title1": "Eine Welt voller",
-    "title2": "Märkten.",
-    "lead": "{n} Märkte in {c} Ländern: jeder mit eigener Landingpage: Normen, Wasserprofil, Anwendungsfälle, Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
-    "all": "Alle",
-    "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
-    "cityLead": "Trinkwassersysteme d20–d630, geprüft gegen die Anforderungen vor Ort.",
-    "allMarkets": "Alle Märkte",
-    "request": "Projekt anfragen",
-    "finder": "Produktfinder",
-    "fromPlant": "km ab Werk Waldsolms",
-    "regFrame": "Regulatorischer Rahmen",
-    "water": "Wasserprofil & Materialantwort",
-    "typical": "Typische Projekte in {city}",
-    "onSite": "Verarbeitung vor Ort",
-    "onSiteText": "Schweißtechnik-Einweisung und Videodokumentation für Ihre Kolonne: in der Academy.",
-    "toAcademy": "Zur Academy",
-    "nearbyEyebrow": "Verwandte Märkte",
-    "nearby": "In der Nähe.",
-    "prodNote": "Hinweis Produktion: Diese Seiten entsprechen dem Programmatic-SEO-Template (Daten-Slice: Produkt × Regulatorik × Region). In Next.js werden sie per ISR aus dem Headless CMS generiert: inkl. hreflang, Product-/Offer-Schema und semantischer interner Verlinkung.",
-    "km": "km",
-    "seoExpansion": "K Aqua fertigt in Waldsolms PP-R und PPRCT Rohrsysteme für die höchsten Ansprüche der weltweiten Gebäude- und Anlagentechnik. Dank kompromisslosem German Engineering und modernster Produktionstechnologie garantieren unsere Systeme eine jahrzehntelange, wartungsfreie Betriebssicherheit. Jedes Produkt, von d20 bis d630, durchläuft strikte Qualitätskontrollen und entspricht internationalen Normen wie DVGW, KIWA und SKZ. Wir bieten nicht nur erstklassige Materialien für Trinkwasser, Kühlung und Industrie, sondern unterstützen Planer und Installateure auch mit umfassendem technischen Support und Schulungen vor Ort. Vertrauen Sie auf ein System, das durch extreme Langlebigkeit, Korrosionsfreiheit und absolute Hygiene überzeugt.",
-    "seoExpansionDynamic": "Erfahren Sie mehr über unsere PP-R und PPRCT Lösungen in {city}. Wir erfüllen die lokalen Standards ({regulator}) und bieten optimale Systeme für die Wasserqualität ({water}). Zusätzlicher Hinweis: {note}."
+    }
   },
   "footer": {
     "tagline": "K Aqua: führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",
@@ -3951,7 +3956,26 @@
     "nextEyebrow": "Weiterdenken",
     "nextTitle": "Wie klimafreundlich ist Ihre Planung?",
     "nextLead": "Übergeben Sie Dimension und Länge direkt an den CO₂-Rechner und vergleichen Sie gegen Kupfer, Edelstahl und PVC.",
-    "nextCta": "Zum CO₂-Rechner"
+    "nextCta": "Zum CO₂-Rechner",
+    "searchLead": "Search our complete product range by category, name, or article number.",
+    "catAll": "All",
+    "catPipes": "Pipes",
+    "catFittings": "Fittings",
+    "catValves": "Valves",
+    "catTools": "Tools",
+    "catTransitionFittings": "Transition Fittings",
+    "catAccessories": "Accessories",
+    "catWeldInSaddles": "Weld-In Saddles",
+    "category": "Category",
+    "search": "Search",
+    "searchPlaceholder": "Article number or name...",
+    "foundFam": "product families found",
+    "catalogPdf": "Catalog as PDF",
+    "colName": "Product name",
+    "colCat": "Category",
+    "colCodes": "Article numbers",
+    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
+    "resetFilters": "Reset filters"
   },
   "trustAndCases": {
     "eyebrow": "Zertifizierte Sicherheit",
@@ -4619,7 +4643,8 @@
     "resLow": "Die Videos oben helfen: danach klappt der Meister.",
     "retry": "Nochmal versuchen",
     "titlePerfect": "Schweißmeister",
-    "titleGood": "Schweiß-Geselle"
+    "titleGood": "Schweiß-Geselle",
+    "videosHeading": "Training videos and guides"
   },
   "refs": {
     "eyebrow": "Referenzen",
@@ -4678,7 +4703,8 @@
         "title": "London, UK",
         "d": "Bürosanierung: korrosionsfreier Ersatz für Bestandsleitungen."
       }
-    ]
+    ],
+    "viewProject": "View project"
   },
   "buyers": {
     "eyebrow": "Für Planer, Einkauf & Verarbeiter",
@@ -5440,6 +5466,24 @@
           "Übergänge auf Metall-Gewinde",
           "Abschnittsweise Sanierung",
           "Korrosionsproblem dauerhaft gelöst"
+        ]
+      },
+      {
+        "t": "Shipbuilding & Offshore",
+        "d": "Resistant to saline environments and massive vibrations. Significant weight reduction compared to steel installations.",
+        "pts": [
+          "Saltwater resistant",
+          "Vibration resistant",
+          "Weight savings"
+        ]
+      },
+      {
+        "t": "Compressed Air Networks",
+        "d": "Leak-free transmission at extreme working pressures. No contamination of compressed air by rust or flaking particles.",
+        "pts": [
+          "Extreme working pressures",
+          "Leak-free welded",
+          "No rust particles"
         ]
       }
     ],
@@ -6819,7 +6863,8 @@
         "btnPrimary": "Anfrage starten",
         "btnGhost": "Experten kontaktieren"
       },
-      "metaTitle": "Technischer Support & Service für PP-R Rohrsysteme"
+      "metaTitle": "Technischer Support & Service für PP-R Rohrsysteme",
+      "sub": "Engineering consulting, application technology, and on-site support."
     },
     "downloads": {
       "title": "Downloads",
@@ -7716,7 +7761,15 @@
     "valves_tee-90-female-thread-internal-valve": "T-Stück 90° (IG) für UP-Ventil",
     "weld-in-saddles_weld-in-saddle-female-thread": "Einschweißsattel (IG)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Einschweißsattel (AG)",
-    "weld-in-saddles_weld-in-saddle": "Einschweißsattel"
+    "weld-in-saddles_weld-in-saddle": "Einschweißsattel",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
+    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
+    "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
+    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
   },
   "customerReviews": {
     "eyebrow": "Qualität, die verbindet",
@@ -8280,5 +8333,110 @@
     "p3": "Zrównoważony rozwój jest głęboko zakorzeniony w inżynierii molekularnej naszych systemów PP-R i PPRCT. Zapewniając niezwykle niską chropowatość powierzchni wewnętrznej rzędu 0,007 mm, nasze rury drastycznie zmniejszają tarcie hydrauliczne i spadek ciśnienia w całej sieci. Według dynamicznych modeli przepływu Darcy-Weisbacha, ten minimalny opór przekłada się bezpośrednio na masowe zmniejszenie zużycia energii przez pompy obiegowe. W 50-letnim cyklu życia ta wydajność pozwala osiągnąć bezprecedensowe oszczędności CO2 i znacznie zmniejszyć całkowity koszt posiadania (TCO) dla operatorów budynków i instalacji. Ponadto polipropylen w 100% nadaje się do recyklingu. Poprzez nasze zwalidowane Deklaracje Środowiskowe Produktu III typu (EPD) zgodne z normą EN 15804, dostarczamy architektom i planistom zrównoważonego budownictwa przejrzystych, wymiernych danych do certyfikacji LEED, BREEAM i DGNB.",
     "t4": "Globalny zasięg, German Engineering & certyfikacje",
     "p4": "Produkowane w całości w Niemczech pod rygorystycznymi protokołami zarządzania jakością i ochroną środowiska zgodnie z normami ISO 9001, ISO 14001 i ISO 50001, wysokiej jakości rozwiązania rurowe K-Aqua są eksportowane do ponad 50 krajów na całym świecie. Nasza sieć logistyczna gwarantuje szybką i bezpieczną dostawę kompletnych systemów do megaprojektów na Bliskim Wschodzie, w Azji Południowo-Wschodniej i w całej Europie. Nasze nieustanne zaangażowanie w jakość zostało potwierdzone przez najważniejsze międzynarodowe jednostki certyfikujące, takie jak DVGW, SKZ, WRAS i KIWA. Wspieramy inżynierów konsultantów, modelarzy BIM i generalnych wykonawców poprzez dostarczanie szczegółowych bibliotek CAD/BIM, inteligentnego oprogramowania obliczeniowego i kompleksowego wsparcia technicznego, w celu zapewnienia sprawnej realizacji projektów. K-Aqua to ostateczna synteza zaawansowanej wiedzy o polimerach (Polymerwissenschaft), zrównoważonej inżynierii i bezkompromisowej niezawodności w zarządzaniu płynami."
+  },
+  "mapsSuite": {
+    "geoHub": "K-Aqua Geographic Hub & Telemetry",
+    "title1": "Interactive",
+    "titleGrad": "Map Suite",
+    "tabHq": "Waldsolms Headquarters",
+    "tabRefs": "Tightness Map",
+    "tabSpec": "Specifier",
+    "hqTitle": "Central Production & Development Centre",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
+    "registryLabel": "Commercial register:",
+    "phoneLabel": "Phone:",
+    "certLabel": "Certification:",
+    "directions": "Open route planner",
+    "aboutPlant": "About the Waldsolms plant",
+    "sectorFilter": "Sector filter:",
+    "specPlaceholder": "Enter a location or city…",
+    "profileTitle": "Market & Logistics Profile",
+    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
+    "marketAssign": "Market assignment",
+    "normLabel": "Standard:",
+    "airDist": "Straight line (HQ)",
+    "roadDist": "Road (estimated)",
+    "recommended": "Recommended piping system:",
+    "recUv": "UV-Protect outer layer",
+    "bimCta": "Request BIM & specification package",
+    "sectors": {
+      "all": "All sectors",
+      "hotel": "Hotel",
+      "wohnen": "Residential",
+      "infra": "Infrastructure",
+      "klinik": "Clinic",
+      "buero": "Office"
+    }
+  },
+  "footerSitemap": {
+    "groups": {
+      "products": "Products",
+      "markets-solutions": "Markets & Solutions",
+      "academy-resources": "Academy & Resources",
+      "company": "Company"
+    },
+    "links": {
+      "all_products": "All K-Aqua Products",
+      "finder": "Product Finder for Pipes",
+      "pipes": "Pipes & Piping Systems (PP-R)",
+      "fittings": "Fittings & Connectors",
+      "valves": "Valves & Taps",
+      "tools": "Tools & Accessories",
+      "transition": "Pipe Transitions",
+      "all_markets": "All K-Aqua Markets",
+      "all_solutions": "All K-Aqua Solutions",
+      "overview": "K-Aqua Academy Overview",
+      "co2_calc": "CO₂ Calculator for PP-R",
+      "specifications": "K-Aqua Tender Texts",
+      "references": "K-Aqua References Worldwide",
+      "support": "Technical Support for K-Aqua",
+      "about_us": "About K-Aqua",
+      "career": "Careers at K-Aqua",
+      "news": "K-Aqua News & Press",
+      "contact": "Contact K-Aqua",
+      "service": "K-Aqua Service & Maintenance",
+      "rfq": "Project Inquiry for Piping Systems",
+      "partners": "K-Aqua Partner Network",
+      "trust": "K-Aqua Trust Center",
+      "sitemap": "Sitemap (HTML)"
+    }
+  },
+  "languagePage": {
+    "title": "Choose your language",
+    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
+    "searchPlaceholder": "Search for language or page...",
+    "pagesSection": "Pages & Navigation",
+    "noResults": "No language found.",
+    "confirm": "Confirm",
+    "beta": "Beta",
+    "globalEffect": "Applies to the entire website",
+    "active": "active"
+  },
+  "multiStepForm": {
+    "step1Title": "How can we help you?",
+    "step1Desc": "Select the appropriate department for your inquiry.",
+    "optSales": "Sales & Projects",
+    "optSalesDesc": "Pricing, large projects, and delivery times.",
+    "optTech": "Technical Support",
+    "optTechDesc": "Specifications, installation, and system design.",
+    "optOther": "General Inquiry",
+    "optOtherDesc": "Marketing, career, or other topics.",
+    "step2Title": "Inquiry Details",
+    "step2Desc": "Please briefly describe your project or question.",
+    "messagePlaceholder": "Your message to us...",
+    "step3Title": "Your Contact Info",
+    "step3Desc": "Almost done! How can we reach you?",
+    "nameLabel": "Full Name",
+    "companyLabel": "Company / Organization",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "step4Title": "Message sent!",
+    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnSubmit": "Submit Inquiry",
+    "btnSending": "Sending…",
+    "btnHome": "Return to Homepage",
+    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
   }
 }
