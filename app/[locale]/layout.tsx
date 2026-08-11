@@ -79,7 +79,8 @@ export default async function LocaleLayout({
     'kontaktBlocks',
     'kontaktForm',
     'enterprise',
-    'seoExpansion'
+    'seoExpansion',
+    'multiStepForm'
   ]);
 
   // Hinweis: 'products' wird bewusst NICHT an den Client gegeben (nicht in der

@@ -8410,5 +8410,32 @@
     "beta": "Beta",
     "globalEffect": "Gilt für die gesamte Website",
     "active": "aktiv"
+  },
+  "multiStepForm": {
+    "step1Title": "Wie können wir Ihnen helfen?",
+    "step1Desc": "Wählen Sie den passenden Bereich für Ihr Anliegen.",
+    "optSales": "Vertrieb & Projekte",
+    "optSalesDesc": "Preisanfragen, Großprojekte und Lieferzeiten.",
+    "optTech": "Technischer Support",
+    "optTechDesc": "Spezifikationen, Installation und Systemauslegung.",
+    "optOther": "Allgemeine Anfrage",
+    "optOtherDesc": "Marketing, Karriere oder Sonstiges.",
+    "step2Title": "Details zu Ihrem Anliegen",
+    "step2Desc": "Bitte beschreiben Sie kurz Ihr Projekt oder Ihre Frage.",
+    "messagePlaceholder": "Ihre Nachricht an uns...",
+    "step3Title": "Ihre Kontaktdaten",
+    "step3Desc": "Fast geschafft! Wie können wir Sie erreichen?",
+    "nameLabel": "Vollständiger Name",
+    "companyLabel": "Firma / Organisation",
+    "emailLabel": "E-Mail Adresse",
+    "phoneLabel": "Telefonnummer",
+    "step4Title": "Nachricht gesendet!",
+    "step4Desc": "Vielen Dank für Ihre Anfrage. Einer unserer Experten wird sich in Kürze bei Ihnen melden.",
+    "btnNext": "Weiter",
+    "btnBack": "Zurück",
+    "btnSubmit": "Anfrage Senden",
+    "btnSending": "Wird gesendet…",
+    "btnHome": "Zurück zur Startseite",
+    "sendError": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an: +49 (0)60 85 / 9868-410"
   }
 }
