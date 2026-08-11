@@ -32,6 +32,12 @@ jobs:
       - name: Run ESLint
         run: pnpm eslint .
 
+      - name: Locale parity
+        run: pnpm i18n:check
+
+      - name: Unit tests
+        run: pnpm test
+
       - name: Build Next.js
         run: pnpm build
 

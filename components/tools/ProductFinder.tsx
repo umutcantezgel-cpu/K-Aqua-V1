@@ -102,14 +102,14 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
             <h2 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
               {t("title1")}{" "}
               <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
-                Katalog
+                {t("titleGrad")}
               </span>
             </h2>
           </Reveal>
           <Reveal delay={0.12}>
             <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch]">
-              <span className="sr-only" aria-hidden="true">{t("title1")} Katalog </span>
-              Durchsuchen Sie unser komplettes Produktsortiment nach Kategorie, Name oder Artikelnummer.
+              <span className="sr-only" aria-hidden="true">{t("title1")} {t("titleGrad")} </span>
+              {t("searchLead")}
             </p>
           </Reveal>
         </div>
