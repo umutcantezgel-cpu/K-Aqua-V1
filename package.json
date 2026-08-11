@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test",
     "i18n:check": "node scripts/check-locale-parity.mjs",
     "test": "vitest run",
     "test:watch": "vitest"
