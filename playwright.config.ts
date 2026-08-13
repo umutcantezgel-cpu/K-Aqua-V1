@@ -24,7 +24,8 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:3000',
+    /* Muss zur webServer-Konfiguration unten passen — die Specs adressieren 3001. */
+    baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:3001',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -42,6 +43,8 @@ export default defineConfig({
   webServer: {
     command: 'PORT=3001 npm run start',
     url: 'http://localhost:3001',
-    reuseExistingServer: true,
+    /* Lokal einen laufenden Server weiterverwenden, in der CI immer frisch starten. */
+    reuseExistingServer: !process.env.CI,
+    timeout: 120 * 1000,
   },
 });
