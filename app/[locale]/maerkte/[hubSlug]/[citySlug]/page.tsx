@@ -145,8 +145,11 @@ export default async function GeoCityPage({ params }: Props) {
 
   // Get 3 nearest markets and pre-localize their regulator text for listings
   const nearest = nearestMarkets(citySlug, 3);
+  // Auch bei den Nachbarmärkten stehen Land und Stadt auf Deutsch in den Daten.
   const nearestLocalized = nearest.map((nm) => ({
     ...nm,
+    city: tGeo.has(`cityNames.${nm.slug}`) ? tGeo(`cityNames.${nm.slug}`) : nm.city,
+    country: tGeo.has(`hubNames.${nm.hubSlug}`) ? tGeo(`hubNames.${nm.hubSlug}`) : nm.country,
     regulator: geoContentTrans[nm.slug]?.regulator || nm.regulator
   }));
 
@@ -169,7 +172,13 @@ export default async function GeoCityPage({ params }: Props) {
 
       <GeoCity
         locale={locale}
-        market={market}
+        market={{
+          ...market,
+          city: cityName,
+          country: tGeo.has(`hubNames.${market.hubSlug}`)
+            ? tGeo(`hubNames.${market.hubSlug}`)
+            : market.country,
+        }}
         localizedData={localizedData}
         geoTrans={geoTrans}
         regionsTrans={regionsTrans}

@@ -69,6 +69,10 @@ export default async function GeoHubPage({ params }: Props) {
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   // GEO_HUBS führt deutsche Ländernamen — für EN/AR über geo.hubNames auflösen.
   const hubName = tGeo.has(`hubNames.${hub.slug}`) ? tGeo(`hubNames.${hub.slug}`) : hub.name;
+  // Städtenamen und Regulierungsrahmen stehen in GEO_MARKETS auf Deutsch;
+  // die Städteseiten lösen sie schon über geoContent auf, die Hub-Seite bisher nicht.
+  const tRoot = await getTranslations({ locale });
+  const geoContentTrans = tRoot.raw('geoContent') as Record<string, { regulator?: string }>;
 
   const breadcrumb = getBreadcrumbJsonLd(locale, [
     { name: tGeo("eyebrow", { country: hubName, hub: hubName }), path: "/maerkte" },
@@ -114,15 +118,15 @@ export default async function GeoHubPage({ params }: Props) {
               <Link 
                 key={market.slug} 
                 href={`/maerkte/${hub.slug}/${market.slug}`}
-                title={market.city}
-                aria-label={market.city}
+                title={tGeo.has(`cityNames.${market.slug}`) ? tGeo(`cityNames.${market.slug}`) : market.city}
+                aria-label={tGeo.has(`cityNames.${market.slug}`) ? tGeo(`cityNames.${market.slug}`) : market.city}
                 className="block p-6 rounded-xl border bg-card hover:bg-accent/50 transition-colors group"
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-medium group-hover:text-primary transition-colors">{market.city}</h3>
+                  <h3 className="text-xl font-medium group-hover:text-primary transition-colors">{tGeo.has(`cityNames.${market.slug}`) ? tGeo(`cityNames.${market.slug}`) : market.city}</h3>
                 </div>
                 <p className="text-sm text-muted-foreground line-clamp-2">
-                  {market.regulator}
+                  {geoContentTrans[market.slug]?.regulator || market.regulator}
                 </p>
               </Link>
             ))}
