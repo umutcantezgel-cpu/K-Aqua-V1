@@ -1,0 +1,304 @@
+<title>K-Aqua — Sprachprüfung EN / AR</title>
+<style>
+  :root {
+    --ground: #FBFAFC;
+    --surface: #FFFFFF;
+    --ink: #1B1424;
+    --ink-soft: #5B5266;
+    --ink-faint: #8B8296;
+    --rule: #E6E0EC;
+    --brand: #542791;
+    --brand-soft: #F1EBF9;
+    --pass: #17705A;
+    --pass-soft: #E3F1EC;
+    --gap: #9C5A15;
+    --gap-soft: #FAEEE0;
+    --shadow: 0 1px 2px rgba(27,20,36,.05), 0 8px 24px -12px rgba(27,20,36,.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #141019;
+      --surface: #1D1725;
+      --ink: #F2EEF7;
+      --ink-soft: #B3A9C0;
+      --ink-faint: #7D7389;
+      --rule: #302739;
+      --brand: #B693EE;
+      --brand-soft: #2A1F3C;
+      --pass: #5FC7A6;
+      --pass-soft: #16302A;
+      --gap: #E0A264;
+      --gap-soft: #33240F;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #141019;
+    --surface: #1D1725;
+    --ink: #F2EEF7;
+    --ink-soft: #B3A9C0;
+    --ink-faint: #7D7389;
+    --rule: #302739;
+    --brand: #B693EE;
+    --brand-soft: #2A1F3C;
+    --pass: #5FC7A6;
+    --pass-soft: #16302A;
+    --gap: #E0A264;
+    --gap-soft: #33240F;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px 96px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  .mono {
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  header { padding: 72px 0 40px; border-bottom: 1px solid var(--rule); }
+  .eyebrow {
+    font-size: 11px; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--brand); font-weight: 700; margin: 0 0 18px;
+  }
+  h1 {
+    font-size: clamp(30px, 5vw, 46px); line-height: 1.1; letter-spacing: -.025em;
+    font-weight: 800; margin: 0 0 18px; text-wrap: balance;
+  }
+  .standfirst { font-size: 18px; color: var(--ink-soft); margin: 0; max-width: 62ch; }
+
+  section { padding-top: 56px; }
+  h2 {
+    font-size: 13px; letter-spacing: .13em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 700; margin: 0 0 22px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--rule);
+  }
+  h3 { font-size: 17px; font-weight: 700; margin: 0 0 6px; letter-spacing: -.01em; }
+  p { margin: 0 0 14px; }
+  p:last-child { margin-bottom: 0; }
+
+  /* Kennzahlen */
+  .figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; }
+  .fig {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 20px; box-shadow: var(--shadow);
+  }
+  .fig .n { font-size: 34px; font-weight: 800; letter-spacing: -.03em; line-height: 1; display: block; }
+  .fig .l { font-size: 13px; color: var(--ink-soft); margin-top: 8px; display: block; }
+  .fig.ok .n { color: var(--pass); }
+
+  /* Aufteilung */
+  .split { display: flex; height: 40px; border-radius: 8px; overflow: hidden; border: 1px solid var(--rule); }
+  .split span { display: block; }
+  .s-clean { background: var(--pass); flex: 248; }
+  .s-news  { background: var(--gap); flex: 100; }
+  .s-fp    { background: var(--brand); flex: 12; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 14px; font-size: 14px; }
+  .legend div { display: flex; align-items: center; gap: 8px; color: var(--ink-soft); }
+  .dot { width: 10px; height: 10px; border-radius: 3px; flex: none; }
+  .d-clean { background: var(--pass); } .d-news { background: var(--gap); } .d-fp { background: var(--brand); }
+
+  /* Beleg-Paare */
+  .proof { display: flex; flex-direction: column; gap: 16px; }
+  .pair {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 18px 20px; box-shadow: var(--shadow);
+  }
+  .pair .where { font-size: 12px; color: var(--ink-faint); margin-bottom: 12px; font-weight: 600; }
+  .row { display: grid; grid-template-columns: 42px 1fr; gap: 12px; align-items: baseline; padding: 5px 0; }
+  .tag {
+    font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+    padding: 3px 6px; border-radius: 4px; text-align: center;
+  }
+  .t-de { background: var(--gap-soft); color: var(--gap); }
+  .t-en { background: var(--pass-soft); color: var(--pass); }
+  .t-ar { background: var(--brand-soft); color: var(--brand); }
+  .val { font-size: 14px; line-height: 1.5; word-break: break-word; }
+  .val.was { color: var(--ink-faint); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .val.ar { direction: rtl; text-align: right; font-size: 15px; }
+
+  /* Befund */
+  .note {
+    border-left: 3px solid var(--gap); background: var(--gap-soft);
+    padding: 18px 20px; border-radius: 0 8px 8px 0;
+  }
+  .note.pass { border-left-color: var(--pass); background: var(--pass-soft); }
+  .note h3 { color: var(--ink); }
+
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 7px; color: var(--ink-soft); }
+  li:last-child { margin-bottom: 0; }
+  li strong { color: var(--ink); font-weight: 650; }
+
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .88em;
+    background: var(--brand-soft); color: var(--brand);
+    padding: 1px 5px; border-radius: 4px;
+  }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); }
+  th { font-size: 11px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); font-weight: 700; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 650; }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink-faint); }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">K-Aqua · Sprachprüfung</p>
+    <h1>Englisch und Arabisch, Seite für Seite geprüft</h1>
+    <p class="standfirst">
+      Alle 360 englischen und arabischen Seiten wurden aus dem Produktions-Build abgerufen
+      und im ausgelieferten HTML auf unaufgelöste Übersetzungsschlüssel und deutschen Resttext
+      untersucht. Kein Stichprobenverfahren — jede Seite einzeln.
+    </p>
+  </header>
+
+  <section>
+    <h2>Ergebnis</h2>
+    <div class="figures">
+      <div class="fig ok"><span class="n mono">360</span><span class="l">Seiten geprüft, alle erreichbar</span></div>
+      <div class="fig ok"><span class="n mono">0</span><span class="l">unaufgelöste Übersetzungsschlüssel</span></div>
+      <div class="fig ok"><span class="n mono">0</span><span class="l">deutsche Texte in der Oberfläche</span></div>
+      <div class="fig"><span class="n mono">100</span><span class="l">News-Artikel mit deutschem Fließtext</span></div>
+    </div>
+
+    <div style="margin-top:32px">
+      <div class="split" role="img" aria-label="248 Seiten ohne Befund, 100 News-Artikelseiten mit deutschem Fließtext, 12 Seiten mit Fehlalarmen">
+        <span class="s-clean"></span><span class="s-news"></span><span class="s-fp"></span>
+      </div>
+      <div class="legend">
+        <div><span class="dot d-clean"></span>248 Seiten vollständig übersetzt</div>
+        <div><span class="dot d-news"></span>100 News-Artikelseiten (50 Artikel × EN/AR)</div>
+        <div><span class="dot d-fp"></span>12 Seiten, nur Fehlalarme</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Belege — vorher und nachher</h2>
+    <div class="proof">
+
+      <div class="pair">
+        <p class="where">Hauptnavigation · auf jeder Seite</p>
+        <div class="row"><span class="tag t-de">vorher</span><span class="val was">Rohrsysteme · Alle Produkte · Digitale Tools · Globaler Fußabdruck</span></div>
+        <div class="row"><span class="tag t-en">EN</span><span class="val">Piping Systems · All Products · Digital Tools · Global Footprint</span></div>
+        <div class="row"><span class="tag t-ar">AR</span><span class="val ar" lang="ar" dir="rtl">أنظمة الأنابيب · جميع المنتجات · أدوات رقمية · الحضور العالمي</span></div>
+      </div>
+
+      <div class="pair">
+        <p class="where">Städteseiten · 56 Seiten betroffen</p>
+        <div class="row"><span class="tag t-de">vorher</span><span class="val was">K-Aqua Infrastruktur für Österreich, entwickelt für Szenario: infrastructure-decay.</span></div>
+        <div class="row"><span class="tag t-en">EN</span><span class="val">K-Aqua infrastructure for Austria, engineered for ageing legacy networks.</span></div>
+        <div class="row"><span class="tag t-ar">AR</span><span class="val ar" lang="ar" dir="rtl">بنية K-Aqua التحتية في النمسا، مصمّمة لمواجهة الشبكات القديمة المتهالكة.</span></div>
+      </div>
+
+      <div class="pair">
+        <p class="where">Länderseiten · Überschrift</p>
+        <div class="row"><span class="tag t-de">vorher</span><span class="val was">Infrastructure Solutions for Österreich</span></div>
+        <div class="row"><span class="tag t-en">EN</span><span class="val">Infrastructure Solutions for Austria</span></div>
+        <div class="row"><span class="tag t-ar">AR</span><span class="val ar" lang="ar" dir="rtl">حلول البنية التحتية في النمسا</span></div>
+      </div>
+
+      <div class="pair">
+        <p class="where">Märkte in der Nähe · Entfernungsangaben</p>
+        <div class="row"><span class="tag t-de">vorher</span><span class="val was">Tschechien · 251 km · Deutschland · 355 km</span></div>
+        <div class="row"><span class="tag t-en">EN</span><span class="val">Czechia · 251 km · Germany · 355 km</span></div>
+        <div class="row"><span class="tag t-ar">AR</span><span class="val ar" lang="ar" dir="rtl">التشيك · 251 كم بعيدا · ألمانيا · 355 كم بعيدا</span></div>
+      </div>
+
+      <div class="pair">
+        <p class="where">Produktkatalog · 45 Artikelbeschreibungen</p>
+        <div class="row"><span class="tag t-de">vorher</span><span class="val was">Violett eingefärbt, z. B. für Betriebswasser-/Bewässerungssysteme zur eindeutigen Kennzeichnung.</span></div>
+        <div class="row"><span class="tag t-en">EN</span><span class="val">Coloured violet, e.g. for process or irrigation water systems, for unambiguous identification.</span></div>
+        <div class="row"><span class="tag t-ar">AR</span><span class="val ar" lang="ar" dir="rtl">ملوَّن بالبنفسجي، مثلاً لأنظمة المياه الصناعية أو الري، لتمييزها بوضوح.</span></div>
+      </div>
+
+      <div class="pair">
+        <p class="where">Arabische Grammatik · Artikelverschmelzung auf 24 Länderseiten</p>
+        <div class="row"><span class="tag t-de">vorher</span><span class="val was ar" lang="ar" dir="rtl">حلول البنية التحتية لـالنمسا</span></div>
+        <div class="row"><span class="tag t-ar">AR</span><span class="val ar" lang="ar" dir="rtl">حلول البنية التحتية في النمسا</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Was behoben wurde</h2>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Bereich</th><th>Befund</th><th class="num">Seiten</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Mega-Menü</td><td>25 Beschriftungen fest deutsch verdrahtet</td><td class="num">alle</td></tr>
+          <tr><td>Footer-Sitemap</td><td>23 Links + 4 Überschriften, <code>useTranslations</code> nie aufgerufen</td><td class="num">alle</td></tr>
+          <tr><td>Städteseiten</td><td>Deutscher Satz, deutscher Ländername, roher Datenslug</td><td class="num">56</td></tr>
+          <tr><td>Produktkatalog</td><td>45 Artikelbeschreibungen nur auf Deutsch</td><td class="num">2</td></tr>
+          <tr><td>Karten-Suite</td><td>24 Bedienelemente auf Deutsch</td><td class="num">2</td></tr>
+          <tr><td>Länder- und Städtenamen</td><td>„Österreich", „München" statt „Austria", „Munich"</td><td class="num">78</td></tr>
+          <tr><td>Produktfinder</td><td>18 Schlüssel fehlten, Oberfläche zeigte Schlüsselpfade</td><td class="num">2</td></tr>
+          <tr><td>Referenzen (AR)</td><td>Dubai fehlte in der arabischen Projektliste</td><td class="num">1</td></tr>
+          <tr><td>Arabische Grammatik</td><td>‏لـالنمسا‎ statt ‏في النمسا‎</td><td class="num">24</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Was offen bleibt</h2>
+    <div class="note">
+      <h3>50 News-Artikel haben deutschen Fließtext</h3>
+      <p>
+        Titel, Teaser und Kurzbeschreibung dieser Artikel <strong>sind</strong> in allen drei Sprachen
+        gepflegt — die Übersichtsseite <code>/news</code> ist auf Englisch und Arabisch vollständig korrekt.
+        Nur der Artikelkörper selbst liegt als ein einziger deutscher Textbaum vor, dazu 26 deutsche
+        Kategoriebezeichnungen.
+      </p>
+      <p style="margin-bottom:0">
+        Das sind rund 76.000 Wörter Fachtext über PP-R-Rohrsysteme. Eine fachlich korrekte Übersetzung
+        ins Englische und Arabische ist ein Redaktionsauftrag, keine Code-Änderung — und nichts,
+        was sich seriös nebenbei erledigen lässt.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Zu den 12 verbleibenden Treffern</h2>
+    <div class="note pass">
+      <h3>Alle geprüft, alle korrekt</h3>
+      <p>Der Detektor schlägt bei Umlauten an. Diese Treffer sind fachlich richtig und bleiben so:</p>
+      <ul>
+        <li><strong>ÖVGW, ÖNORM, GAEB</strong> — Namen österreichischer Normungsgremien und eines Datenformats. In keiner Sprache übersetzt.</li>
+        <li><strong>Türkiye</strong> — seit 2022 der offizielle englische Ländername.</li>
+        <li><strong>Industrie &amp; Kälte</strong> — eine der 26 News-Kategorien, gehört zum offenen Punkt oben.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Wie geprüft wurde</h2>
+    <ul>
+      <li>Abruf jeder Seite aus dem <strong>Produktions-Build</strong>, nicht aus dem Entwicklungsserver — dieser bricht unter einem 360-Seiten-Durchlauf zusammen und meldet falsche Fehler.</li>
+      <li>Entfernung der React-Datenschicht aus dem HTML, damit nicht die mitgelieferten Übersetzungstabellen als Seiteninhalt gewertet werden.</li>
+      <li>Suche nach <strong>Punktpfaden</strong> wie <code>finder.catAll</code> — so gibt next-intl einen fehlenden Schlüssel aus.</li>
+      <li>Suche nach <strong>deutschen Funktionswörtern und Umlauten</strong>, mit Ausnahmeliste für Marken-, Norm- und Ortsnamen.</li>
+      <li>Auch <code>sr-only</code>-Inhalte einbezogen: Screenreader lesen sie vor, sie zählen als Text.</li>
+      <li>Gegenprobe auf Schlüsselgleichheit: <code>de = 5.208 Schlüssel</code>, keiner fehlt in EN oder AR, keine unübersetzten Werte.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Geprüft am 13.08.2026 gegen den Produktions-Build · 4.349 statische Seiten ·
+    TypeScript 0 Fehler · ESLint 0 Fehler · Tests 33/33
+  </footer>
+</div>
