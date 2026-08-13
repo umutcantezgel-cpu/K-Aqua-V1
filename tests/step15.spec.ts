@@ -184,12 +184,12 @@ test.describe('Step 15: Karriere & Projektanfrage (Käufer-Strecke)', () => {
 
       // Click a dimension chip (e.g. "d20 – d63")
       const dimChip = page.getByRole('button', { name: 'd20 – d63', exact: true });
-      await dimChip.evaluate(el => el.click());
+      await dimChip.evaluate((el: HTMLElement) => el.click());
       await expect(nextBtn).toBeEnabled();
 
       // Let's select multiple dimension chips
       const dimChip2 = page.getByRole('button', { name: 'd75 – d160', exact: true });
-      await dimChip2.evaluate(el => el.click());
+      await dimChip2.evaluate((el: HTMLElement) => el.click());
 
       // Check slider can be set
       const slider = page.locator('input.k-range');
@@ -207,12 +207,12 @@ test.describe('Step 15: Karriere & Projektanfrage (Käufer-Strecke)', () => {
 
       // Click timeline chip "Sofort / laufend"
       const timelineChip = page.locator('button:has-text("Sofort / laufend")');
-      await timelineChip.evaluate(el => el.click());
+      await timelineChip.evaluate((el: HTMLElement) => el.click());
       await expect(nextBtn).toBeDisabled(); // still disabled, region not chosen
 
       // Click region chip "Deutschland"
       const regionChip = page.locator('button:has-text("Deutschland")');
-      await regionChip.evaluate(el => el.click());
+      await regionChip.evaluate((el: HTMLElement) => el.click());
       await expect(nextBtn).toBeEnabled();
 
       // Go to Step 3
