@@ -26,6 +26,7 @@ interface Milestone {
 
 export async function AboutDeep() {
   const t = await getTranslations("aboutx");
+  const tAd = await getTranslations("aboutDeep");
   const nums = t.raw("nums") as Array<{ n: string; u?: string; l: string }>;
   const prod = t.raw("prod") as Array<{ t: string; d: string }>;
   const house = t.raw("house") as HouseItem[];
@@ -118,7 +119,7 @@ export async function AboutDeep() {
       <section className="py-[clamp(64px,9vw,120px)] border-t border-card-border" data-screen-label="about-insights">
         <div className="mx-auto max-w-[1200px] px-6">
           <Reveal>
-            <SectionHead eyebrow="Insights" title="K-Aqua Einblicke" lead="Entdecken Sie die Vorteile unserer Premium PPR-Systeme" />
+            <SectionHead eyebrow={tAd("eyebrow")} title={tAd("title")} lead={tAd("lead")} />
           </Reveal>
           
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 mt-12 pb-8 md:pb-0 h-auto md:h-[640px]">

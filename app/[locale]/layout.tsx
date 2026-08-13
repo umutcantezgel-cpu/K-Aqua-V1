@@ -7,6 +7,8 @@ import Script from 'next/script';
 import { routing, coreLocales } from '@/lib/i18n/routing';
 import { outfit, inter, tajawal } from '../fonts';
 import '../globals.css';
+import '../../public/assets/kaqua-elemente.css';
+import '../../public/assets/kaqua-signature.css';
 import SkipLink from '@/components/layout/SkipLink';
 import ScrollProgress from '@/components/layout/ScrollProgress';
 import Header from '@/components/layout/Header';
@@ -96,10 +98,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={htmlLang} dir={dir} suppressHydrationWarning>
-      <head>
-        <link rel="stylesheet" href="/assets/kaqua-elemente.css" />
-        <link rel="stylesheet" href="/assets/kaqua-signature.css" />
-      </head>
       <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`} antialiased text-body bg-background min-h-screen flex flex-col`} suppressHydrationWarning>
         <ShapeDefs />
         <LiquidEngine />

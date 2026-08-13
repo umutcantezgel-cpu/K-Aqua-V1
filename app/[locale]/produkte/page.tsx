@@ -79,7 +79,7 @@ export default async function ProduktePage({ params }: Props) {
   const meta = tPages.raw("products") as string[];
 
   return (
-    <NextIntlClientProvider messages={pick(messages, ['catalog'])}>
+    <NextIntlClientProvider messages={pick(messages, ['catalog', 'catalogNotes', 'catalogExtra'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={catalogJsonLd} />
 

@@ -15,7 +15,7 @@
 "use client";
  
 import React, { useState } from "react";
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Reveal } from "@/components/ui/Reveal";
 import { SectionHead } from "@/components/ui/SectionHead";
 import EngineeredCard from "@/components/ui/EngineeredCard";
@@ -66,6 +66,8 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
     viewDetails
   } = translations;
 
+  const tNotes = useTranslations('catalogNotes');
+  const tCx = useTranslations('catalogExtra');
   const locale = useLocale() as 'de' | 'en' | 'ar';
   const L = CATALOG_COL_LABELS[locale] || CATALOG_COL_LABELS.en;
 
@@ -193,9 +195,9 @@ export function CatalogBrowser({ translations }: CatalogBrowserProps) {
                     <EngineeredCard
                       overline={it.codes || activeMeta?.title || "K-Aqua"}
                       title={it.title}
-                      lead={it.note || ""}
+                      lead={tNotes.has(it.slug) ? tNotes(it.slug) : (it.note || "")}
                       specs={specs}
-                      cta={`${viewDetails || "Produktdetails"}: ${it.title}`}
+                      cta={`${viewDetails || tCx("viewDetails")}: ${it.title}`}
                       href={`/produkte/${active!.id}/${it.slug}`}
                     />
                   </Reveal>

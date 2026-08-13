@@ -38,16 +38,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const localizedRegulator = geoContentTrans[citySlug]?.regulator || market.regulator;
   const localizedWater = geoContentTrans[citySlug]?.water || market.water || "";
   const localizedFocus = geoContentTrans[citySlug]?.focus || market.focus || [];
+  const cityName = tGeo.has(`cityNames.${market.slug}`) ? tGeo(`cityNames.${market.slug}`) : market.city;
   
   // SEO-optimized title with target keywords — keep concise for 580px pixel limit
-  const baseTitle = tGeo("cityMetaTitle", { city: market.city });
+  const baseTitle = tGeo("cityMetaTitle", { city: cityName });
   // Focus/use-case is preserved in description, not in title (to avoid >580px)
   const title = baseTitle;
   
   // Place the highly unique water profile string at the beginning to prevent 
   // "Duplicate Meta Description" flags from Seobility.
   const focusText = localizedFocus.length > 0 ? ` ${localizedFocus.join(", ")}.` : "";
-  const description = `${market.city} Wasserprofil: ${localizedWater} ${localizedRegulator}. ${tGeo("cityLead")}${focusText}`;
+  const description = `${cityName}: ${localizedWater} ${localizedRegulator}. ${tGeo("cityLead")}${focusText}`;
 
   return constructMetadata({
     title,
@@ -78,6 +79,18 @@ export default async function GeoCityPage({ params }: Props) {
   const tRoot = await getTranslations({ locale });
   const tSeo = await getTranslations({ locale, namespace: "seo" });
 
+  // GEO_HUBS/GEO_MARKETS führen deutsche Eigennamen ("Österreich", "München").
+  // Für EN/AR werden sie über geo.hubNames / geo.cityNames aufgelöst; fehlt ein
+  // Eintrag, bleibt der Name aus den Daten stehen.
+  const cityName = tGeo.has(`cityNames.${market.slug}`)
+    ? tGeo(`cityNames.${market.slug}`)
+    : market.city;
+  const hubName = hub
+    ? tGeo.has(`hubNames.${hub.slug}`)
+      ? tGeo(`hubNames.${hub.slug}`)
+      : hub.name
+    : market.hubSlug;
+
   // Get raw geoContent translations
   const geoContentTrans = tRoot.raw("geoContent") as Record<string, {
     regulator: string;
@@ -93,13 +106,13 @@ export default async function GeoCityPage({ params }: Props) {
     water: geoContentTrans[citySlug]?.water || market.water,
     focus: geoContentTrans[citySlug]?.focus || market.focus,
     note: geoContentTrans[citySlug]?.note || market.note,
-    focusHeading: geoContentTrans[citySlug]?.focusHeading || tGeo("typical", { city: market.city }),
+    focusHeading: geoContentTrans[citySlug]?.focusHeading || tGeo("typical", { city: cityName }),
     extendedMarketText: geoContentTrans[citySlug]?.extendedMarketText || ""
   };
 
   const geoTrans = {
     eyebrow: tGeo("eyebrow"),
-    cityTitle: tGeo("cityTitle", { city: market.city }),
+    cityTitle: tGeo("cityTitle", { city: cityName }),
     cityLead: tGeo("cityLead"),
     allMarkets: tGeo("allMarkets"),
     request: tGeo("request"),
@@ -107,7 +120,7 @@ export default async function GeoCityPage({ params }: Props) {
     fromPlant: tGeo("fromPlant"),
     regFrame: tGeo("regFrame"),
     water: tGeo("water"),
-    typical: tGeo("typical", { city: market.city }),
+    typical: tGeo("typical", { city: cityName }),
     onSite: tGeo("onSite"),
     onSiteText: tGeo("onSiteText"),
     toAcademy: tGeo("toAcademy"),
@@ -116,7 +129,7 @@ export default async function GeoCityPage({ params }: Props) {
     prodNote: tGeo("prodNote"),
     km: tGeo("km"),
     seoExpansion: tGeo.has("seoExpansionDynamic") ? tGeo("seoExpansionDynamic", {
-      city: market.city,
+      city: cityName,
       regulator: localizedData.regulator,
       water: localizedData.water,
       note: localizedData.note,
@@ -141,13 +154,13 @@ export default async function GeoCityPage({ params }: Props) {
   
   const breadcrumb = getBreadcrumbJsonLd(locale, [
     { name: tGeo("eyebrow"), path: "/maerkte" },
-    { name: hub ? hub.name : market.hubSlug, path: `/maerkte/${market.hubSlug}` },
-    { name: market.city, path: `/maerkte/${market.hubSlug}/${market.slug}` }
+    { name: hubName, path: `/maerkte/${market.hubSlug}` },
+    { name: cityName, path: `/maerkte/${market.hubSlug}/${market.slug}` }
   ]);
   
   const allSchemas = [...schemas, breadcrumb];
 
-  const baseTitle = tGeo("cityMetaTitle", { city: market.city });
+  const baseTitle = tGeo("cityMetaTitle", { city: cityName });
 
   return (
     <>
@@ -166,7 +179,12 @@ export default async function GeoCityPage({ params }: Props) {
       {/* Hub Breadcrumb or Crisis Context specific SEO text */}
       {hub && (
         <div className="max-w-3xl mx-auto text-sm text-muted-foreground/60 leading-relaxed px-4 pt-4 text-center">
-          K-Aqua Infrastruktur für {hub.name}, entwickelt für Szenario: {hub.crisisContext}.
+          {tGeo("hubInfraLine", {
+            hub: hubName,
+            scenario: tGeo.has(`crisis.${hub.crisisContext}`)
+              ? tGeo(`crisis.${hub.crisisContext}`)
+              : hub.crisisContext,
+          })}
         </div>
       )}
 

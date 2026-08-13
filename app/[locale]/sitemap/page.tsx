@@ -31,6 +31,7 @@ export default async function SitemapPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'nav' });
+  const tSm = await getTranslations({ locale, namespace: 'sitemapPage' });
 
   const products = getAllProducts();
   const news = getAllNews();
@@ -88,7 +89,7 @@ export default async function SitemapPage({ params }: Props) {
           
           {/* Main Pages */}
           <div>
-            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Unternehmen & Navigation</h2>
+            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">{tSm("company")}</h2>
             <ul className="flex flex-col gap-3">
               <li><Link href="/" className="hover:text-primary transition-colors">{t('home') || 'Startseite'}</Link></li>
               <li><Link href="/produkte" className="hover:text-primary transition-colors">{t('products') || 'Produkte'}</Link></li>
@@ -107,7 +108,7 @@ export default async function SitemapPage({ params }: Props) {
 
           {/* Products */}
           <div>
-            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Produkte & Kategorien</h2>
+            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">{tSm("products")}</h2>
             <div className="flex flex-col gap-6">
               {Object.entries(productsByCategory).map(([category, prods]) => (
                 <div key={category}>
@@ -130,7 +131,7 @@ export default async function SitemapPage({ params }: Props) {
 
           {/* News */}
           <div>
-            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">News & Presse</h2>
+            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">{tSm("news")}</h2>
             <ul className="flex flex-col gap-2">
               {news.map(n => (
                 <li key={n.slug}>
@@ -144,7 +145,7 @@ export default async function SitemapPage({ params }: Props) {
 
           {/* Markets & Regions */}
           <div>
-            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">Märkte & Regionen</h2>
+            <h2 className="text-2xl font-bold mb-6 font-heading text-primary">{tSm("markets")}</h2>
             <div className="flex flex-col gap-6">
               {GEO_HUBS.map(hub => {
                 const hubMarkets = GEO_MARKETS.filter(m => m.hubSlug === hub.slug);

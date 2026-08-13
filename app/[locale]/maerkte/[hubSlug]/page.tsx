@@ -33,10 +33,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!hub) return {};
 
   const tGeo = await getTranslations({ locale, namespace: "geo" });
+  const hubName = tGeo.has(`hubNames.${hub.slug}`) ? tGeo(`hubNames.${hub.slug}`) : hub.name;
   
-  const title = tGeo("hubMetaTitle", { country: hub.name, hub: hub.name });
+  const title = tGeo("hubMetaTitle", { country: hubName, hub: hubName });
   const description = tGeo.has(`hubs.${hub.slug}.metaDesc`)
-    ? tGeo(`hubs.${hub.slug}.metaDesc`, { country: hub.name, hub: hub.name })
+    ? tGeo(`hubs.${hub.slug}.metaDesc`, { country: hubName, hub: hubName })
     : hub.description;
 
   return constructMetadata({
@@ -66,10 +67,12 @@ export default async function GeoHubPage({ params }: Props) {
 
   const hubMarkets = GEO_MARKETS.filter(m => m.hubSlug === hubSlug);
   const tGeo = await getTranslations({ locale, namespace: "geo" });
+  // GEO_HUBS führt deutsche Ländernamen — für EN/AR über geo.hubNames auflösen.
+  const hubName = tGeo.has(`hubNames.${hub.slug}`) ? tGeo(`hubNames.${hub.slug}`) : hub.name;
 
   const breadcrumb = getBreadcrumbJsonLd(locale, [
-    { name: tGeo("eyebrow", { country: hub.name, hub: hub.name }), path: "/maerkte" },
-    { name: hub.name, path: `/maerkte/${hub.slug}` }
+    { name: tGeo("eyebrow", { country: hubName, hub: hubName }), path: "/maerkte" },
+    { name: hubName, path: `/maerkte/${hub.slug}` }
   ]);
 
   return (
@@ -82,22 +85,22 @@ export default async function GeoHubPage({ params }: Props) {
         <div className="mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 rounded-full bg-primary/10 text-primary text-sm font-medium">
             <Globe className="w-4 h-4" />
-            <span>{tGeo("eyebrow", { country: hub.name, hub: hub.name })} / {hub.name}</span>
+            <span>{tGeo("eyebrow", { country: hubName, hub: hubName })} / {hubName}</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            {tGeo("hubH1", { country: hub.name, hub: hub.name })}
+            {tGeo("hubH1", { country: hubName, hub: hubName })}
           </h1>
           <div className="text-xl text-muted-foreground max-w-3xl space-y-4">
             <p>
-              <span className="font-semibold text-foreground">{tGeo("hubH1", { country: hub.name, hub: hub.name })}</span> &ndash;
+              <span className="font-semibold text-foreground">{tGeo("hubH1", { country: hubName, hub: hubName })}</span> &ndash;
             </p>
             {tGeo.has(`hubs.${hub.slug}.description`) ? (
                <div dangerouslySetInnerHTML={{ 
                  __html: `<p>${String(tGeo.raw(`hubs.${hub.slug}.description`)).replace(/\\. /g, '.</p><p>')}</p>` 
                }} />
             ) : (
-               <p>{tGeo("hubLead", { country: hub.name, hub: hub.name })}</p>
+               <p>{tGeo("hubLead", { country: hubName, hub: hubName })}</p>
             )}
           </div>
           
@@ -105,7 +108,7 @@ export default async function GeoHubPage({ params }: Props) {
 
         {/* Cities Grid */}
         <div>
-          <h2 className="text-2xl font-semibold mb-8">{tGeo("hubCitiesTitle", { country: hub.name, hub: hub.name })}</h2>
+          <h2 className="text-2xl font-semibold mb-8">{tGeo("hubCitiesTitle", { country: hubName, hub: hubName })}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {hubMarkets.map(market => (
               <Link 
@@ -127,7 +130,7 @@ export default async function GeoHubPage({ params }: Props) {
         </div>
 
         {/* Dynamic SEO Text Blocks */}
-        <MarketSeoBlock locale={locale} locationName={hub.name} />
+        <MarketSeoBlock locale={locale} locationName={hubName} />
 
       </div>
     </div>

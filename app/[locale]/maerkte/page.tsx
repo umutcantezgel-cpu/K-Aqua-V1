@@ -62,6 +62,18 @@ export default async function MaerktePage({ params }: Props) {
     focusHeading: string;
   }>;
 
+  const tGx = await getTranslations({ locale, namespace: "geoExtra" });
+  const cityNames: Record<string, string> = {};
+  for (const m of GEO_MARKETS) {
+    if (tGeo.has(`cityNames.${m.slug}`)) cityNames[m.slug] = tGeo(`cityNames.${m.slug}`);
+  }
+  const uiTrans = {
+    cityBadge: tGx("cityBadge"),
+    regionBadge: tGx("regionBadge"),
+    marketFallbackLead: tGx("marketFallbackLead", { city: "{city}" }),
+    openMarketPage: tGx("openMarketPage", { city: "{city}" }),
+  };
+
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   const webPageSchema = {
     "@context": "https://schema.org",
@@ -79,6 +91,8 @@ export default async function MaerktePage({ params }: Props) {
         geoTrans={geoTrans}
         regionsTrans={regionsTrans}
         geoContentTrans={geoContentTrans}
+        cityNames={cityNames}
+        uiTrans={uiTrans}
       />
       {/* Hidden SEO navigation to ensure all market pages are easily crawlable */}
       <nav aria-label="Markets Directory" className="sr-only">
@@ -86,7 +100,7 @@ export default async function MaerktePage({ params }: Props) {
           {GEO_MARKETS.map((market) => (
             <li key={market.slug}>
               <a href={`/${locale}/maerkte/${market.hubSlug}/${market.slug}`}>
-                {market.city}, {market.country}
+                {cityNames[market.slug] || market.city}, {market.country}
               </a>
             </li>
           ))}

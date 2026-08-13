@@ -33,6 +33,13 @@ interface MarketsHubProps {
     canvasAria: string;
   };
   regionsTrans: Record<string, string>;
+  cityNames: Record<string, string>;
+  uiTrans: {
+    cityBadge: string;
+    regionBadge: string;
+    marketFallbackLead: string;
+    openMarketPage: string;
+  };
   geoContentTrans: Record<string, {
     regulator: string;
     water: string;
@@ -47,8 +54,17 @@ export default function MarketsHub({
   geoTrans,
   regionsTrans,
   geoContentTrans,
+  cityNames,
+  uiTrans,
 }: MarketsHubProps) {
   const shouldReduceMotion = useReducedMotion();
+  // Städtenamen und Kurz-Labels kommen als Props aus der Server Component —
+  // so muss nicht der komplette geo-Namespace in die Client-Payload.
+  const cityName = (m: { slug: string; city: string }) => cityNames[m.slug] || m.city;
+  const tGx = (key: keyof typeof uiTrans, vars?: { city: string }) => {
+    const raw = uiTrans[key];
+    return vars ? raw.replace('{city}', vars.city) : raw;
+  };
   const globeRef = useRef<GlobeRef | null>(null);
 
   // States
@@ -117,7 +133,7 @@ export default function MarketsHub({
       lat: g.lat,
       lon: g.lon,
       title: g.slug,
-      label: g.city,
+      label: cityName(g),
     }));
   }, []);
 
@@ -212,7 +228,7 @@ export default function MarketsHub({
                     className="absolute top-4 start-1/2 -translate-x-1/2 z-20 bg-card border border-card-border rounded-xl shadow-lift px-5 py-3 flex flex-col gap-0.5 pointer-events-none text-center min-w-[200px] transition-all duration-fast motion-reduce:transition-none"
                     role="status"
                   >
-                    <span className="font-heading font-bold text-base text-foreground block mb-1">{activeMarket.city}</span>
+                    <span className="font-heading font-bold text-base text-foreground block mb-1">{cityName(activeMarket)}</span>
                     <span className="text-small text-muted-foreground">
                       {activeMarket.country} · {formattedDistance} {geoTrans.fromPlant}
                     </span>
@@ -258,7 +274,7 @@ export default function MarketsHub({
                     <div className="flex w-full items-center justify-between">
                       <div className="flex flex-col">
                         <Link href={`/maerkte/${g.hubSlug}/${g.slug}`} className="font-heading font-bold text-[17px] text-foreground hover:text-primary transition-colors relative z-10" onClick={(e) => e.stopPropagation()}>
-                          {g.city}{g.city === g.country ? ' (Stadt)' : ''}
+                          {cityName(g)}{g.city === g.country ? ` ${tGx("cityBadge")}` : ''}
                         </Link>
                         <span className="text-[13px] text-muted-foreground">
                           <Link 
@@ -266,7 +282,7 @@ export default function MarketsHub({
                             className="hover:underline relative z-10"
                             onClick={(e) => e.stopPropagation()}
                           >
-                            {g.country}{g.city === g.country ? ' (Region)' : ''}
+                            {g.country}{g.city === g.country ? ` ${tGx("regionBadge")}` : ''}
                           </Link>
                           {" "}· {shortRegulator}
                         </span>
@@ -285,7 +301,7 @@ export default function MarketsHub({
                       isActive ? "mt-4 pt-4 border-t opacity-100 max-h-[500px]" : "opacity-0 max-h-0 border-t-0"
                     )}>
                       <p className="text-sm text-muted-foreground">
-                        {geoContentTrans[g.slug]?.focusHeading || geoContentTrans[g.slug]?.focus?.join(", ") || `Hochwertige PP-R Rohrsysteme für ${g.city}.`}
+                        {geoContentTrans[g.slug]?.focusHeading || geoContentTrans[g.slug]?.focus?.join(", ") || tGx("marketFallbackLead", { city: cityName(g) })}
                       </p>
                       <div className="flex flex-col sm:flex-row gap-2 mt-1">
                         <LiquidMagneticButton
@@ -294,9 +310,9 @@ export default function MarketsHub({
                           href={`/maerkte/${g.hubSlug}/${g.slug}`}
                           className="flex-1 w-full"
                           tabIndex={isActive ? 0 : -1}
-                          aria-label={g.city}
+                          aria-label={cityName(g)}
                         >
-                          Marktseite {g.city} öffnen
+                          {tGx("openMarketPage", { city: cityName(g) })}
                         </LiquidMagneticButton>
                         <button
                           onClick={(e) => {

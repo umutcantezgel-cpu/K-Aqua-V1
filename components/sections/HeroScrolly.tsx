@@ -10,7 +10,6 @@ import { Button } from '@/components/ui/Button';
 import LiquidMagneticButton from '@/components/ui/LiquidMagneticButton';
 
 import { IconChip } from '@/components/ui/IconChip';
-import { Reveal } from '@/components/ui/Reveal';
 
 // Dynamic load of Globe to prevent SSR issues
 const Globe = dynamic(
@@ -139,28 +138,21 @@ export default function HeroScrolly() {
   const renderHeroCopy = (ref?: React.Ref<HTMLDivElement>) => {
     return (
       <div ref={ref} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
-        <Reveal delay={0.08}>
-          <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08]">
-            {t('h1a')}{' '}
-            <span className="text-primary">{t('h1b')}</span>
-          </h1>
-        </Reveal>
-        <Reveal delay={0.16}>
-          <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-            {t('lead')}
-          </p>
-
-        </Reveal>
-        <Reveal delay={0.24}>
-          <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2">
-            <Button variant="primary" size="lg" href="/produkte" className="w-full sm:w-auto">
-              {t('ctaProducts')}
-            </Button>
-            <LiquidMagneticButton fill="flood" variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
-              {t('ctaContact')}
-            </LiquidMagneticButton>
-          </div>
-        </Reveal>
+        <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08] animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 fill-mode-forwards">
+          {t('h1a')}{' '}
+          <span className="text-primary">{t('h1b')}</span>
+        </h1>
+        <p className="text-base sm:text-lg text-muted-foreground leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200 fill-mode-forwards">
+          {t('lead')}
+        </p>
+        <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300 fill-mode-forwards">
+          <Button variant="primary" size="lg" href="/produkte" className="w-full sm:w-auto">
+            {t('ctaProducts')}
+          </Button>
+          <LiquidMagneticButton fill="flood" variant="ghost" size="lg" href="/projektanfrage" className="w-full sm:w-auto">
+            {t('ctaContact')}
+          </LiquidMagneticButton>
+        </div>
       </div>
     );
   };
