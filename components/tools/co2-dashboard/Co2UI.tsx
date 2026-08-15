@@ -14,7 +14,7 @@ const KIcon = ({ d, size = 20, strokeWidth = 2, style, children }: any) => (
   </svg>
 );
 
-export const Icons: any = {
+const RAW_ICONS: Record<string, (p: any) => React.ReactElement> = {
   ArrowRight: (p: any) => <KIcon {...p} d="M5 12h14m-7-7 7 7-7 7" />,
   ArrowUpRight: (p: any) => <KIcon {...p} d="M7 17 17 7m-10 0h10v10" />,
   Droplet: (p: any) => <KIcon {...p} d="M12 2.7s6.5 7 6.5 12a6.5 6.5 0 1 1-13 0c0-5 6.5-12 6.5-12Z" />,
@@ -43,7 +43,40 @@ export const Icons: any = {
   Ruler: (p: any) => <KIcon {...p} d="M3 17 17 3l4 4L7 21l-4-4Zm5-1-1.5-1.5m4.5-1.5L9.5 11.5m4.5-1.5-1.5-1.5M17 6.5 15.5 5" />,
   Flame: (p: any) => <KIcon {...p} d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-2.5-5.5C15 8 13.5 6 13 3.5c-2.5 2-4 4.5-4 7-1-.5-1.8-1.5-2-3C5.5 9.5 5 12 5 15a7 7 0 0 0 7 7Z" />,
   Handshake: (p: any) => <KIcon {...p} d="m11 17 2 2a1.4 1.4 0 0 0 2-2m-1-3 2.5 2.5a1.4 1.4 0 0 0 2-2L14 10l-2.3 1.5c-1.5 1-3.2-1-2-2.3L13 6h3l4.5 4.5M3 7l4-2 3.5 1.5M3 16l4 2 2-1" />,
+  Settings: (p: any) => (
+    <KIcon {...p}>
+      <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
+      <circle cx="12" cy="12" r="3" />
+    </KIcon>
+  ),
+  Info: (p: any) => (
+    <KIcon {...p}>
+      <circle cx="12" cy="12" r="10" />
+      <path d="M12 16v-4M12 8h.01" />
+    </KIcon>
+  ),
+  ExternalLink: (p: any) => <KIcon {...p} d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6m4-3h6v6m-11 5L21 3" />,
+  Share: (p: any) => (
+    <KIcon {...p}>
+      <circle cx="18" cy="5" r="3" />
+      <circle cx="6" cy="12" r="3" />
+      <circle cx="18" cy="19" r="3" />
+      <path d="m8.59 13.51 6.83 3.98M15.41 6.51l-6.82 3.98" />
+    </KIcon>
+  ),
+  Sliders: (p: any) => <KIcon {...p} d="M4 21v-7m0-4V3m8 18v-9m0-4V3m8 18v-5m0-4V3M1 14h6m2-6h6m2 8h6" />,
+  RefreshCw: (p: any) => <KIcon {...p} d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M8 16H3v5" />,
 };
+
+export const Icons: any = new Proxy(RAW_ICONS, {
+  get: (target, prop) => {
+    if (typeof prop === 'string' && prop in target) {
+      return target[prop];
+    }
+    // Safe fallback if an icon name is requested that is not in the map
+    return (p: any) => <KIcon {...p} d="M12 2v20M2 12h20" />;
+  },
+});
 
 export function Reveal({ children, delay = 0, as = 'div', style, className = '' }: any) {
   const ref = useRef<any>(null);
