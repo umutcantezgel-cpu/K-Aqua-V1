@@ -29,10 +29,10 @@ export interface SearchEntry {
 
 export const SEARCH_INDEX: SearchEntry[] = [
   // =========================================================================
-  // 1. PRODUKTE & SYSTEME (Pipes, Fittings, Valves, Tools, Saddles, Accs)
+  // 1. PIPES & ROHRSYSTEME
   // =========================================================================
   {
-    id: 'prod_pipes_fiber_rct_74',
+    id: 'prod_pipe_k_fiber_rct_sdr74',
     category: 'products',
     title: {
       de: 'K-Fiber Pipe PP-RCT SDR 7.4 (Faserverbundrohr)',
@@ -40,27 +40,73 @@ export const SEARCH_INDEX: SearchEntry[] = [
       ar: 'أنبوب K-Fiber PP-RCT SDR 7.4 (أنبوب مركب من الألياف)',
     },
     description: {
-      de: 'Hochleistungs-Faserverbundrohr mit modifizierter Kristallstruktur (PP-RCT) für Heißwasser, Kühlung und Trinkwasser. 75 % reduzierte Längenausdehnung.',
-      en: 'High-performance fiber composite pipe with modified crystalline structure (PP-RCT) for hot water, cooling, and potable water. 75% reduced thermal expansion.',
-      ar: 'أنبوب مركب عالي الأداء بالألياف مع بنية بلورية معدلة (PP-RCT) للمياه الساخنة والتبريد ومياه الشرب. تمدد حراري منخفض بنسبة 75٪.',
+      de: 'Hochleistungs-Faserverbundrohr mit modifizierter Kristallstruktur (PP-RCT) für Warmwasser, Heizung und Kühlung. 75 % weniger Längenausdehnung, erhöhte Druckfestigkeit bei hohen Temperaturen.',
+      en: 'High-performance fiber composite pipe with modified crystalline structure (PP-RCT) for hot water, heating, and cooling. 75% reduced linear expansion, superior high-temperature pressure ratings.',
+      ar: 'أنبوب مركب عالي الأداء بالألياف مع بنية بلورية معدلة (PP-RCT) للمياه الساخنة والتدفئة والتبريد. تمدد حراري منخفض بنسبة 75٪.',
     },
     origin: {
-      section: { de: 'Rohre & Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
       path: { de: 'K-Aqua > Produkte > Rohre > PP-RCT SDR 7.4', en: 'K-Aqua > Products > Pipes > PP-RCT SDR 7.4', ar: 'K-Aqua > المنتجات > الأنابيب > PP-RCT SDR 7.4' },
     },
-    keywords: ['pp-rct', 'faserverbund', 'fiber pipe', 'sdr 7.4', 'heißwasser', 'kühlwasser', 'steigstrang', 'k-fiber', 'rohr', 'pipe', 'längenausdehnung'],
+    keywords: ['pp-rct', 'faserverbund', 'fiber pipe', 'sdr 7.4', 'heißwasser', 'kühlwasser', 'steigstrang', 'k-fiber', 'rohr', 'pipe', 'längenausdehnung', 'aq200f'],
     href: '/produkte/pipes',
-    anchorId: 'pipes-rct',
-    badge: { de: 'PP-RCT Rohr', en: 'PP-RCT Pipe', ar: 'أنبوب PP-RCT' },
+    anchorId: 'pipes-rct-74',
+    badge: { de: 'PP-RCT Faser', en: 'PP-RCT Fiber', ar: 'ألياف PP-RCT' },
     specs: ['PP-RCT + Glasfaser', 'SDR 7.4', 'd20 – d250 mm', 'PN 20 / PN 25', 'DIN 8077/8078', 'DIN EN ISO 15874'],
-    articleCodes: ['AQ200F20', 'AQ200F25', 'AQ200F32', 'AQ200F40', 'AQ200F50', 'AQ200F63', 'AQ200F75', 'AQ200F90', 'AQ200F110', 'AQ200F125'],
+    articleCodes: ['AQ200F20', 'AQ200F25', 'AQ200F32', 'AQ200F40', 'AQ200F50', 'AQ200F63', 'AQ200F75', 'AQ200F90', 'AQ200F110', 'AQ200F125', 'AQ200F160', 'AQ200F200', 'AQ200F250'],
   },
   {
-    id: 'prod_pipes_fiber_r_74',
+    id: 'prod_pipe_k_fiberclima_rct_sdr11',
     category: 'products',
     title: {
-      de: 'K-Fiber Pipe PP-R SDR 7.4 (Faserverbundrohr)',
-      en: 'K-Fiber Pipe PP-R SDR 7.4 (Fiber Composite Pipe)',
+      de: 'K-Fiberclima Pipe PP-RCT SDR 11 (Klima- & Kälteleitungen)',
+      en: 'K-Fiberclima Pipe PP-RCT SDR 11 (Chilled Water & HVAC)',
+      ar: 'أنبوب K-Fiberclima PP-RCT SDR 11 (التكييف ومياه التبريد)',
+    },
+    description: {
+      de: 'Optimiert für maximale Durchflussmengen bei Kühldecken, Fan-Coils, Kaltwasserleitungen und industriellen Kühlkreisläufen. 20 % höherer Durchfluss durch dünnere Rohrwandung.',
+      en: 'Optimized for maximum flow rates in chilled ceilings, fan coils, chilled water piping, and industrial cooling loops. 20% higher flow capacity.',
+      ar: 'مُحسَّن لتحقيق أقصى معدلات تدفق في أسقف التبريد وشبكات المياه المبردة الصناعية.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > K-Fiberclima SDR 11', en: 'K-Aqua > Products > Pipes > K-Fiberclima SDR 11', ar: 'K-Aqua > المنتجات > الأنابيب > K-Fiberclima SDR 11' },
+    },
+    keywords: ['clima', 'klima', 'kaltwasser', 'chilled water', 'sdr 11', 'pp-rct', 'durchfluss', 'hvac', 'kühldecke', 'aq160f'],
+    href: '/produkte/pipes',
+    badge: { de: 'Klima & Kühlung', en: 'HVAC & Chilled', ar: 'تكييف وتبريد' },
+    specs: ['PP-RCT + Faser', 'SDR 11', 'd20 – d250 mm', 'Minimaler Druckverlust', 'Kondensationsoptimiert'],
+    articleCodes: ['AQ160F20', 'AQ160F25', 'AQ160F32', 'AQ160F40', 'AQ160F50', 'AQ160F63', 'AQ160F75', 'AQ160F90', 'AQ160F110', 'AQ160F125'],
+  },
+  {
+    id: 'prod_pipe_k_fiber_uv_rct_sdr74',
+    category: 'products',
+    title: {
+      de: 'K-Fiber UV Pipe PP-RCT SDR 7.4 (UV-beständiges Hochleistungsrohr)',
+      en: 'K-Fiber UV Pipe PP-RCT SDR 7.4 (UV-Resistant High-Performance Pipe)',
+      ar: 'أنبوب K-Fiber UV من PP-RCT SDR 7.4 (مقاوم للأشعة فوق البنفسجية)',
+    },
+    description: {
+      de: 'Spezial-Faserverbundrohr mit coextrudierter UV-Schutzschicht für die dauerhafte Freiverlegung auf Dächern, an Außenfassaden und in tropischen/Wüsten-Klimazonen.',
+      en: 'Special fiber composite pipe with co-extruded UV-resistant outer layer for permanent outdoor rooftop and facade installations in extreme sunny climates.',
+      ar: 'أنبوب مركب خاص مع طبقة حماية خارجية مقاومة للأشعة فوق البنفسجية للتركيب الخارجي الدائم على الأسطح.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > UV-Rohre PP-RCT', en: 'K-Aqua > Products > Pipes > UV Pipes PP-RCT', ar: 'K-Aqua > المنتجات > الأنابيب > أنابيب UV' },
+    },
+    keywords: ['uv', 'uv-beständig', 'sonnenschutz', 'außenbereich', 'dachzentrale', 'solar', 'freiverlegung', 'wetterfest', 'aq200fuvct'],
+    href: '/produkte/pipes',
+    badge: { de: 'UV-Schutz PP-RCT', en: 'UV-Proof PP-RCT', ar: 'حماية UV' },
+    specs: ['UV-stabilisiert', 'PP-RCT + Faser', 'SDR 7.4', 'd20 – d200 mm', 'Wetterfest nach ISO 4892'],
+    articleCodes: ['AQ200FUVCT20', 'AQ200FUVCT25', 'AQ200FUVCT32', 'AQ200FUVCT40', 'AQ200FUVCT50'],
+  },
+  {
+    id: 'prod_pipe_k_fiber_r_sdr74',
+    category: 'products',
+    title: {
+      de: 'K-Fiber Pipe PP-R SDR 7.4 (Standard-Faserverbundrohr)',
+      en: 'K-Fiber Pipe PP-R SDR 7.4 (Standard Fiber Composite Pipe)',
       ar: 'أنبوب K-Fiber PP-R SDR 7.4 (أنبوب مركب من الألياف)',
     },
     description: {
@@ -69,225 +115,686 @@ export const SEARCH_INDEX: SearchEntry[] = [
       ar: 'أنبوب مركب من ثلاث طبقات من البولي بروبيلين مع قلب من الألياف الزجاجية لشبكات المياه الساخنة والتدفئة.',
     },
     origin: {
-      section: { de: 'Rohre & Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
       path: { de: 'K-Aqua > Produkte > Rohre > PP-R SDR 7.4', en: 'K-Aqua > Products > Pipes > PP-R SDR 7.4', ar: 'K-Aqua > المنتجات > الأنابيب > PP-R SDR 7.4' },
     },
-    keywords: ['pp-r', 'faserverbund', 'fiber pipe', 'sdr 7.4', 'glasfaser', 'warmwasser', 'heizung', 'rohr', 'pipe'],
+    keywords: ['pp-r', 'faserverbund', 'fiber pipe', 'sdr 7.4', 'glasfaser', 'warmwasser', 'heizung', 'rohr', 'pipe', 'aq207pf'],
     href: '/produkte/pipes',
     badge: { de: 'PP-R Faser', en: 'PP-R Fiber', ar: 'ألياف PP-R' },
     specs: ['PP-R 100 + Glasfaser', 'SDR 7.4', 'd20 – d50 mm', 'PN 20', 'DIN 8077/8078'],
     articleCodes: ['AQ207PF20', 'AQ207PF25', 'AQ207PF32', 'AQ207PF40', 'AQ207PF50'],
   },
   {
-    id: 'prod_pipes_fiber_uv',
+    id: 'prod_pipe_k_fiber_r_sdr9',
     category: 'products',
     title: {
-      de: 'K-Fiber UV Pipe PP-R & PP-RCT (UV-beständiges Rohr)',
-      en: 'K-Fiber UV Pipe PP-R & PP-RCT (UV-Resistant Pipe)',
-      ar: 'أنبوب K-Fiber UV من PP-R و PP-RCT (مقاوم للأشعة فوق البنفسجية)',
+      de: 'K-Fiber Pipe PP-R SDR 9 (Faserverbundrohr PN 16)',
+      en: 'K-Fiber Pipe PP-R SDR 9 (Fiber Composite Pipe PN 16)',
+      ar: 'أنبوب K-Fiber PP-R SDR 9 (أنبوب مركب PN 16)',
     },
     description: {
-      de: 'UV-resistentes Faserverbundrohr mit coextrudierter schwarzer Schutzschicht für Freiverlegung im Außenbereich, Dachzentralen und solarthermische Anbindungen.',
-      en: 'UV-resistant fiber composite pipe with co-extruded black protective layer for outdoor rooftop installations and solar thermal connections.',
-      ar: 'أنبوب مركب مقاوم للأشعة فوق البنفسجية مع طبقة حماية سوداء مقذوفة للتركيب الخارجي على الأسطح.',
+      de: 'Faserverbundrohr mit reduzierter Wandstärke für mittlere Druckstufen in Heizungs- und Sanitärsystemen (d32 bis d75 mm).',
+      en: 'Fiber composite pipe with reduced wall thickness for medium pressure ratings in heating and plumbing (d32 to d75 mm).',
+      ar: 'أنبوب مركب بسماكة جدار مخفضة لمستويات الضغط المتوسطة في التدفئة والسباكة.',
     },
     origin: {
-      section: { de: 'Rohre & Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
-      path: { de: 'K-Aqua > Produkte > Rohre > UV-Rohre', en: 'K-Aqua > Products > Pipes > UV Pipes', ar: 'K-Aqua > المنتجات > الأنابيب > أنابيب UV' },
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > PP-R SDR 9', en: 'K-Aqua > Products > Pipes > PP-R SDR 9', ar: 'K-Aqua > المنتجات > الأنابيب > PP-R SDR 9' },
     },
-    keywords: ['uv', 'uv-beständig', 'außenbereich', 'dachzentrale', 'solar', 'freiverlegung', 'sonnenschutz', 'outdoor', 'k-fiber uv'],
+    keywords: ['sdr 9', 'pn16', 'faserverbund', 'heizung', 'sanitär', 'aq169pf'],
     href: '/produkte/pipes',
-    badge: { de: 'UV-Schutz', en: 'UV-Proof', ar: 'حماية UV' },
-    specs: ['UV-stabilisiert', 'SDR 7.4', 'd20 – d50 mm', 'Dauerhaft wetterfest'],
-    articleCodes: ['AQ200PFUV20', 'AQ200PFUV25', 'AQ200PFUV32', 'AQ200PFUV40', 'AQ200PFUV50'],
+    badge: { de: 'PP-R SDR 9', en: 'PP-R SDR 9', ar: 'PP-R SDR 9' },
+    specs: ['PP-R 100 + Glasfaser', 'SDR 9', 'd32 – d75 mm', 'PN 16'],
+    articleCodes: ['AQ169PF32', 'AQ169PF40', 'AQ169PF50', 'AQ169PF63', 'AQ169PF75'],
   },
   {
-    id: 'prod_pipes_solid_sdr6',
+    id: 'prod_pipe_k_fiber_r_sdr11',
     category: 'products',
     title: {
-      de: 'K-Pipe PP-R SDR 6 Vollkunststoffrohr',
-      en: 'K-Pipe PP-R SDR 6 Solid Plastic Pipe',
-      ar: 'أنبوب K-Pipe PP-R SDR 6 من البلاستيك الصلب',
+      de: 'K-Fiber Pipe PP-R SDR 11 (Klimarohr)',
+      en: 'K-Fiber Pipe PP-R SDR 11 (HVAC Pipe)',
+      ar: 'أنبوب K-Fiber PP-R SDR 11 (أنبوب التكييف)',
     },
     description: {
-      de: 'Extrem druckfestes Vollwand-Polypropylenrohr für Kalt- und Warmwasser sowie anspruchsvolle Sanitärinstallationen mit PN 20 Druckstufe.',
-      en: 'Extremely pressure-resistant solid-wall polypropylene pipe for cold and hot water as well as demanding sanitary installations (PN 20).',
-      ar: 'أنبوب بولي بروبيلين صلب الجدار عالي المقاومة للضغط لمياه الشرب الساخنة والباردة (PN 20).',
+      de: 'Dünnwandiges Faserverbundrohr für Kaltwasser-, Kühl- und Zirkulationsleitungen bei geringem Systemdruck (PN 10).',
+      en: 'Thin-walled fiber composite pipe for chilled water and cooling systems at lower pressure levels (PN 10).',
+      ar: 'أنبوب مركب رقيق الجدار لمياه التبريد عند مستويات ضغط منخفضة.',
     },
     origin: {
-      section: { de: 'Rohre & Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
-      path: { de: 'K-Aqua > Produkte > Rohre > PP-R SDR 6', en: 'K-Aqua > Products > Pipes > PP-R SDR 6', ar: 'K-Aqua > المنتجات > الأنابيب > PP-R SDR 6' },
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > PP-R SDR 11', en: 'K-Aqua > Products > Pipes > PP-R SDR 11', ar: 'K-Aqua > المنتجات > الأنابيب > PP-R SDR 11' },
     },
-    keywords: ['sdr 6', 'pn20', 'vollwand', 'trinkwasser', 'sanitär', 'kaltwasser', 'druckfest', 'k-pipe'],
+    keywords: ['sdr 11', 'pn10', 'kühlung', 'kaltwasser', 'faser', 'aq11pf'],
     href: '/produkte/pipes',
-    badge: { de: 'PP-R SDR 6', en: 'PP-R SDR 6', ar: 'PP-R SDR 6' },
+    badge: { de: 'PP-R SDR 11', en: 'PP-R SDR 11', ar: 'PP-R SDR 11' },
+    specs: ['PP-R 100 + Faser', 'SDR 11', 'd20 – d50 mm', 'PN 10'],
+    articleCodes: ['AQ11PF20', 'AQ11PF25', 'AQ11PF32', 'AQ11PF40', 'AQ11PF50'],
+  },
+  {
+    id: 'prod_pipe_k_fiber_r_sdr17',
+    category: 'products',
+    title: {
+      de: 'K-Fiber Pipe PP-R SDR 17 (Großrohre d90 – d200 mm)',
+      en: 'K-Fiber Pipe PP-R SDR 17 (Large Diameter Pipes d90 – d200 mm)',
+      ar: 'أنبوب K-Fiber PP-R SDR 17 (أنابيب بأقطار كبيرة)',
+    },
+    description: {
+      de: 'Großdimensionierte Faserverbundrohre für Hauptverteilleitungen, Steigstränge und Kühlturmanbindungen im Industriebau.',
+      en: 'Large-scale fiber composite pipes for primary headers, risers, and cooling tower connections in industrial facilities.',
+      ar: 'أنابيب مركبة بأقطار كبيرة لشبكات التوزيع الرئيسية والأنابيب الصاعدة.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > Großrohre SDR 17', en: 'K-Aqua > Products > Pipes > Large Pipes SDR 17', ar: 'K-Aqua > المنتجات > الأنابيب > أنابيب كبيرة' },
+    },
+    keywords: ['sdr 17', 'großrohr', 'hauptverteiler', 'd90', 'd110', 'd125', 'd160', 'd200', 'stumpfschweißen', 'aq17pf'],
+    href: '/produkte/pipes',
+    badge: { de: 'Großrohre SDR 17', en: 'Large Pipes SDR 17', ar: 'أنابيب كبيرة' },
+    specs: ['PP-R 100 + Faser', 'SDR 17', 'd90 – d200 mm', 'Stumpf- und Muffenschweißung'],
+    articleCodes: ['AQ17PF90', 'AQ17PF110', 'AQ17PF125', 'AQ17PF160', 'AQ17PF200'],
+  },
+  {
+    id: 'prod_pipe_k_pipe_r_sdr6',
+    category: 'products',
+    title: {
+      de: 'K-Pipe PP-R SDR 6 Vollkunststoffrohr (PN 20)',
+      en: 'K-Pipe PP-R SDR 6 Solid Wall Pipe (PN 20)',
+      ar: 'أنبوب K-Pipe PP-R SDR 6 من البلاستيك الصلب (PN 20)',
+    },
+    description: {
+      de: 'Klassisches dickwandiges Vollkunststoffrohr aus Polypropylen Random-Copolymer für extreme Druckspitzen und Kalt-/Warmwasserinstallationen.',
+      en: 'Classic heavy-wall solid polypropylene random copolymer pipe for high pressure demands in cold and hot water plumbing.',
+      ar: 'أنبوب كلاسيكي سميك الجدار من البولي بروبيلين لمياه الشرب الساخنة والباردة.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > K-Pipe SDR 6', en: 'K-Aqua > Products > Pipes > K-Pipe SDR 6', ar: 'K-Aqua > المنتجات > الأنابيب > K-Pipe SDR 6' },
+    },
+    keywords: ['k-pipe', 'sdr 6', 'pn20', 'vollwand', 'trinkwasser', 'sanitär', 'kaltwasser', 'druckfest', 'aq200p'],
+    href: '/produkte/pipes',
+    badge: { de: 'Vollwand SDR 6', en: 'Solid Wall SDR 6', ar: 'جدار صلب SDR 6' },
     specs: ['PP-R 100', 'SDR 6', 'd20 – d50 mm', 'PN 20', 'DIN 8077/8078'],
     articleCodes: ['AQ200P20', 'AQ200P25', 'AQ200P32', 'AQ200P40', 'AQ200P50'],
   },
   {
-    id: 'prod_pipes_clima_rct_11',
+    id: 'prod_pipe_k_pipe_purple_sdr11',
     category: 'products',
     title: {
-      de: 'K-Fiberclima Pipe PP-RCT SDR 11 (Klima- & Kälteleitungen)',
-      en: 'K-Fiberclima Pipe PP-RCT SDR 11 (Chilled Water & HVAC)',
-      ar: 'أنبوب K-Fiberclima PP-RCT SDR 11 (التكييف ومياه التبريد)',
+      de: 'K-Pipe Purple PP-R SDR 11 (Brauchwasser & Reclaimed Water)',
+      en: 'K-Pipe Purple PP-R SDR 11 (Reclaimed & Greywater)',
+      ar: 'أنبوب K-Pipe Purple PP-R SDR 11 (المياه المعالجة والرمادية)',
     },
     description: {
-      de: 'Optimiert für maximale Durchflussmengen bei Kühldecken, Fan-Coils, Kaltwasserleitungen und industriellen Kühlkreisläufen. Größerer Rohrinnenquerschnitt.',
-      en: 'Optimized for maximum flow rates in chilled ceilings, fan coils, chilled water piping, and industrial cooling loops. Larger internal diameter.',
-      ar: 'مُحسَّن لتحقيق أقصى معدلات تدفق في أسقف التبريد وملفات المروحة وشبكات المياه المبردة الصناعية.',
+      de: 'Violett gekennzeichnetes Spezialrohr für Grauwasser, Regenwassernutzung und Brauchwassernetze zur eindeutigen optischen Trennung vom Trinkwassernetz.',
+      en: 'Purple-colored dedicated piping for greywater, rainwater harvesting, and non-potable water systems ensuring unmistakable visual differentiation.',
+      ar: 'أنبوب أرجواني مخصص للمياه الرمادية ومياه الأمطار للتمييز البصري الواضح عن شبكة مياه الشرب.',
     },
     origin: {
-      section: { de: 'Rohre & Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
-      path: { de: 'K-Aqua > Produkte > Rohre > K-Fiberclima SDR 11', en: 'K-Aqua > Products > Pipes > K-Fiberclima SDR 11', ar: 'K-Aqua > المنتجات > الأنابيب > K-Fiberclima SDR 11' },
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > Purple Pipe Brauchwasser', en: 'K-Aqua > Products > Pipes > Purple Pipe Non-Potable', ar: 'K-Aqua > المنتجات > الأنابيب > أنبوب بنفسجي' },
     },
-    keywords: ['clima', 'klima', 'kaltwasser', 'chilled water', 'sdr 11', 'pp-rct', 'durchfluss', 'hvac', 'kühldecke'],
+    keywords: ['purple pipe', 'violett', 'brauchwasser', 'grauwasser', 'regenwasser', 'reclaimed water', 'nicht-trinkwasser', 'aq11pl'],
     href: '/produkte/pipes',
-    badge: { de: 'Klima & Kühlung', en: 'HVAC & Chilled', ar: 'تكييف وتبريد' },
-    specs: ['PP-RCT + Faser', 'SDR 11', 'd20 – d50 mm', 'Geringer Druckverlust'],
-    articleCodes: ['AQ160F20', 'AQ160F25', 'AQ160F32', 'AQ160F40', 'AQ160F50'],
-  },
-  {
-    id: 'prod_fittings_elbows',
-    category: 'products',
-    title: {
-      de: 'PP-R Spritzguss-Bögen & Winkel (45° & 90°)',
-      en: 'PP-R Injection Molded Elbows & Bends (45° & 90°)',
-      ar: 'أكواع وزوايا تشكيل بالحقن PP-R (45 و 90 درجة)',
-    },
-    description: {
-      de: 'Strömungsoptimierte Winkel 90° und 45° (Muffe/Muffe und Muffe/Stutzen) für homogene Heizelement-Muffenschweißung ohne Querschnittsverengung.',
-      en: 'Flow-optimized 90° and 45° elbows (socket/socket and male/female) for homogeneous thermofusion socket welding.',
-      ar: 'أكواع مصممة لتحسين التدفق بزاوية 90 و 45 درجة للحام الحراري المتجانس.',
-    },
-    origin: {
-      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
-      path: { de: 'K-Aqua > Produkte > Fittings > Winkel & Bögen', en: 'K-Aqua > Products > Fittings > Elbows & Bends', ar: 'K-Aqua > المنتجات > الوصلات > الأكواع' },
-    },
-    keywords: ['winkel', 'bogen', 'elbow', '45 grad', '90 grad', 'muffe', 'formteil', 'fitting', 'schweißen'],
-    href: '/produkte/fittings',
-    badge: { de: 'Spritzguss-Fitting', en: 'Molded Fitting', ar: 'وصلة بالحقن' },
-    specs: ['PP-R 100', 'd20 – d125 mm', 'DIN 16962', 'DVGW zertifiziert'],
-    articleCodes: ['AQ09020', 'AQ09025', 'AQ09032', 'AQ04520', 'AQ04525', 'AQ04532', 'AQ09120', 'AQ04120'],
-  },
-  {
-    id: 'prod_fittings_tees_reducers',
-    category: 'products',
-    title: {
-      de: 'PP-R T-Stücke, Reduzierungen & Muffen',
-      en: 'PP-R Tees, Reducing Tees, Reducers & Sockets',
-      ar: 'محملات تي ومخفضات وجلب من PP-R',
-    },
-    description: {
-      de: 'Egal-T-Stücke, reduzierte T-Stücke, konzentrische Reduzierungen, Verbindungsmuffen und Endkappen für homogene, dauerhafte Rohrverbindungen.',
-      en: 'Equal tees, reducing tees, concentric reducers, sockets, and end caps for permanent, leak-free pipe routing.',
-      ar: 'محملات تي متساوية ومخفضة ومخفضات متحدة المركز وجلب وأغطية نهائية.',
-    },
-    origin: {
-      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
-      path: { de: 'K-Aqua > Produkte > Fittings > T-Stücke & Reduzierungen', en: 'K-Aqua > Products > Fittings > Tees & Reducers', ar: 'K-Aqua > المنتجات > الوصلات > المحملات والمخفضات' },
-    },
-    keywords: ['t-stück', 'tee', 'reduzierung', 'reducer', 'muffe', 'socket', 'endkappe', 'cap', 'fitting'],
-    href: '/produkte/fittings',
-    badge: { de: 'Fittings', en: 'Fittings', ar: 'وصلات' },
-    specs: ['PP-R 100', 'd20 – d125 mm', 'Molekular verschweißt'],
-    articleCodes: ['AQ13020', 'AQ13025', 'AQ13032', 'AQ2432520', 'AQ27020', 'AQ27025', 'AQ30120'],
-  },
-  {
-    id: 'prod_transition_fittings',
-    category: 'products',
-    title: {
-      de: 'Übergangsfittings mit DZR-Messing-Gewinde (IG / AG)',
-      en: 'Transition Fittings with DZR Brass Threads (Female / Male)',
-      ar: 'وصلات انتقال مع سن نحاسي DZR (داخلي وخارجي)',
-    },
-    description: {
-      de: 'Übergangsmuffen, Übergangswinkel, Deckenwinkel und Verschraubungen mit eingegossenem, entzinkungsbeständigem DZR-Messing für metallische Schnittstellen.',
-      en: 'Adaptor sockets, elbows, wall brackets, and unions with integrated dezincification-resistant DZR brass inserts for metal interfaces.',
-      ar: 'مقابس انتقال وأكواع وأقواس جدارية مع حشوات نحاسية DZR مقاومة لإزالة الزنك.',
-    },
-    origin: {
-      section: { de: 'Übergangsfittings', en: 'Transition Fittings', ar: 'وصلات الانتقال' },
-      path: { de: 'K-Aqua > Produkte > Übergänge > DZR Messing', en: 'K-Aqua > Products > Transitions > DZR Brass', ar: 'K-Aqua > المنتجات > وصلات الانتقال > نحاس DZR' },
-    },
-    keywords: ['übergang', 'transition', 'messing', 'brass', 'dzr', 'gewinde', 'innengewinde', 'außengewinde', 'verschraubung', 'deckenwinkel'],
-    href: '/produkte/transition-fittings',
-    badge: { de: 'DZR Messing', en: 'DZR Brass', ar: 'نحاس DZR' },
-    specs: ['Entzinkungsbeständiges Messing (CuZn39Pb3 / CW617N)', 'Rp / R Gewinde', 'd20 – d125 mm', 'KTW-BWGL konform'],
-    articleCodes: ['AQ24RP20', 'AQ24R20', 'AQ09RP20', 'AQ09BRP20', 'AQ71RP20', 'AQ70RP20'],
-  },
-  {
-    id: 'prod_valves',
-    category: 'products',
-    title: {
-      de: 'PP-R Kugelhähne, Absperrventile & Unterputzarmaturen',
-      en: 'PP-R Ball Valves, Stop Valves & Concealed Valves',
-      ar: 'صمامات كروية وصمامات إغلاق وصمامات مخفية من PP-R',
-    },
-    description: {
-      de: 'PP-R Kugelhähne mit Messingkugel oder Vollkunststoff-Kugel, Geradsitzventile und elegante Unterputzventile mit Chrom-Bediengriff.',
-      en: 'PP-R ball valves with brass or PP ball, straight seat valves, and elegant concealed valves with chrome handle.',
-      ar: 'صمامات كروية PP-R مع كرة نحاسية أو بلاستيكية بالكامل، وصمامات مقعد مستقيم وصمامات مخفية أنيقة بمقبض كروم.',
-    },
-    origin: {
-      section: { de: 'Armaturen & Ventile', en: 'Valves & Flow Control', ar: 'الصمامات والتحكم بالتدفق' },
-      path: { de: 'K-Aqua > Produkte > Ventile > Kugelhähne & Armaturen', en: 'K-Aqua > Products > Valves > Ball Valves', ar: 'K-Aqua > المنتجات > الصمامات > صمامات كروية' },
-    },
-    keywords: ['ventil', 'valve', 'kugelhahn', 'ball valve', 'unterputz', 'concealed', 'absperrventil', 'geradsitzventil', 'armatur'],
-    href: '/produkte/valves',
-    badge: { de: 'Armaturen', en: 'Valves', ar: 'صمامات' },
-    specs: ['PP-R Gehäuse', 'Messing- oder PP-Kugel', 'd20 – d90 mm', 'Wartungsfrei', '100% leckagegeprüft'],
-    articleCodes: ['AQ60020', 'AQ60025', 'AQ50020', 'AQ62993', 'AQ62992', 'AQ62591'],
-  },
-  {
-    id: 'prod_weld_in_saddles',
-    category: 'products',
-    title: {
-      de: 'Einschweißsättel (Weld-in Saddles) für Verteiler & Abzweige',
-      en: 'Weld-in Saddles for Custom Manifolds & Branch Lines',
-      ar: 'سروج اللحام لمشعبات التوزيع والخطوط الفرعية',
-    },
-    description: {
-      de: 'Kosteneffiziente, zeitsparende Einschweißsättel zur Realisierung von nachträglichen Abgängen und individuellen Heizungs-/Sanitärverteilern.',
-      en: 'Cost-efficient, time-saving weld-in saddles for creating post-installation branches and customized distribution manifolds.',
-      ar: 'سروج لحام فعالة من حيث التكلفة لتنفيذ الفروع اللاحقة ومشعبات التوزيع المخصصة.',
-    },
-    origin: {
-      section: { de: 'Einschweißsättel', en: 'Weld-in Saddles', ar: 'سروج اللحام' },
-      path: { de: 'K-Aqua > Produkte > Einschweißsättel', en: 'K-Aqua > Products > Weld-in Saddles', ar: 'K-Aqua > المنتجات > سروج اللحام' },
-    },
-    keywords: ['einschweißsattel', 'weld-in saddle', 'verteiler', 'abzweig', 'manifold', 'sattel', 'abgang', 'bohren'],
-    href: '/produkte/weld-in-saddles',
-    badge: { de: 'Satteltechnik', en: 'Saddle Welding', ar: 'تقنية السرج' },
-    specs: ['Hauptrohr d40 – d250 mm', 'Abzweig d20 – d63 mm', 'Optional mit Messinggewinde'],
-    articleCodes: ['AQ1505406320', 'AQ270S406332', 'AQ243S406334'],
-  },
-  {
-    id: 'prod_tools_welding',
-    category: 'products',
-    title: {
-      de: 'Heizelement-Muffenschweißgeräte & Baustellen-Werkzeuge',
-      en: 'Socket Fusion Welding Machines & Site Tools',
-      ar: 'ماكينات لحام المقابس وأدوات مواقع البناء',
-    },
-    description: {
-      de: 'Komplette Handschweißgeräte-Sets 20-32 mm / 20-63 mm / 50-125 mm, PTFE-beschichtete Schweißdorne, Rohrabschneider und Reparaturstopfen.',
-      en: 'Complete hand welding machine sets 20-32 mm / 20-63 mm / 50-125 mm, PTFE-coated dies, pipe cutters, and repair plugs.',
-      ar: 'مجموعات ماكينات لحام يدوية كاملة 20-32 مم / 20-63 مم، وقوالب تسخين مطلية بـ PTFE وقواطع أنابيب.',
-    },
-    origin: {
-      section: { de: 'Werkzeuge & Montage', en: 'Tools & Equipment', ar: 'الأدوات ومعدات التركيب' },
-      path: { de: 'K-Aqua > Produkte > Werkzeuge > Schweißgeräte', en: 'K-Aqua > Products > Tools > Welding Machines', ar: 'K-Aqua > المنتجات > الأدوات > ماكينات اللحام' },
-    },
-    keywords: ['schweißgerät', 'welding machine', 'muffenschweißen', 'schweißdorn', 'rohrschneider', 'reparaturstopfen', 'cutter', 'werkzeug', 'tool'],
-    href: '/produkte/tools',
-    badge: { de: 'Schweißtechnik', en: 'Welding Tools', ar: 'أدوات اللحام' },
-    specs: ['230 V', 'Präzise Temperaturregelung 260 °C', 'DVS 2207-11 Konformität'],
-    articleCodes: ['AQ98032', 'AQ98063', 'AQ985125', 'AQ97040', 'AQ975125', 'AQ96557', 'AQ98220'],
+    badge: { de: 'Brauchwasser', en: 'Reclaimed Water', ar: 'مياه معالجة' },
+    specs: ['PP-R 100 Violett RAL 4001', 'SDR 11', 'd20 – d50 mm', 'Visuelle Trennung nach DIN 1988'],
+    articleCodes: ['AQ11PL20', 'AQ11PL25', 'AQ11PL32', 'AQ11PL40', 'AQ11PL50'],
   },
 
   // =========================================================================
-  // 2. DIGITALE TOOLS & PLANUNGSHILFEN (CO2, Finder, BIM, GAEB, Support)
+  // 2. FITTINGS & FORMTEILE (Winkel, T-Stücke, Reduzierungen, Muffen)
+  // =========================================================================
+  {
+    id: 'prod_fit_elbow_90',
+    category: 'products',
+    title: {
+      de: 'PP-R Winkel 90° (Elbow 90°)',
+      en: 'PP-R Elbow 90°',
+      ar: 'كوع 90 درجة من PP-R',
+    },
+    description: {
+      de: 'Strömungsgünstiger 90°-Spritzgusswinkel für homogene Muffenschweißung (d20 bis d75 mm). Keine Verengung des Rohrinnenquerschnitts.',
+      en: 'Flow-optimized 90° injection molded elbow for homogeneous socket welding (d20 to d75 mm). Zero internal flow restriction.',
+      ar: 'كوع 90 درجة مصبوب بالحقن ومحسّن للتدفق للحام المقابس المتجانس.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > Winkel 90°', en: 'K-Aqua > Products > Fittings > Elbow 90°', ar: 'K-Aqua > المنتجات > الوصلات > كوع 90' },
+    },
+    keywords: ['winkel 90', 'elbow 90', 'bogen', '90 grad', 'muffe', 'fitting', 'formteil', 'aq090'],
+    href: '/produkte/fittings',
+    badge: { de: 'Winkel 90°', en: 'Elbow 90°', ar: 'كوع 90' },
+    specs: ['PP-R 100', 'd20 – d75 mm', 'DIN 16962', 'DVGW geprüft'],
+    articleCodes: ['AQ09020', 'AQ09025', 'AQ09032', 'AQ09040', 'AQ09050', 'AQ09063', 'AQ09075'],
+  },
+  {
+    id: 'prod_fit_elbow_45',
+    category: 'products',
+    title: {
+      de: 'PP-R Winkel 45° (Elbow 45°)',
+      en: 'PP-R Elbow 45°',
+      ar: 'كوع 45 درجة من PP-R',
+    },
+    description: {
+      de: 'Hydraulisch optimierter 45°-Bogen zur Richtungsänderung bei minimalem Strömungswiderstand und reduzierten Druckverlusten.',
+      en: 'Hydraulically optimized 45° elbow for directional changes with minimal friction loss and turbulence.',
+      ar: 'كوع 45 درجة مصمم هيدروليكياً لتغيير الاتجاه بأقل قدر من فقدان الضغط.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > Winkel 45°', en: 'K-Aqua > Products > Fittings > Elbow 45°', ar: 'K-Aqua > المنتجات > الوصلات > كوع 45' },
+    },
+    keywords: ['winkel 45', 'elbow 45', '45 grad', 'bogen', 'fitting', 'aq045'],
+    href: '/produkte/fittings',
+    badge: { de: 'Winkel 45°', en: 'Elbow 45°', ar: 'كوع 45' },
+    specs: ['PP-R 100', 'd20 – d75 mm', 'Minimaler Zeta-Wert'],
+    articleCodes: ['AQ04520', 'AQ04525', 'AQ04532', 'AQ04540', 'AQ04550', 'AQ04563', 'AQ04575'],
+  },
+  {
+    id: 'prod_fit_tee_equal',
+    category: 'products',
+    title: {
+      de: 'PP-R T-Stück egal (Equal Tee 90°)',
+      en: 'PP-R Equal Tee 90°',
+      ar: 'محمل تي متساوي 90 درجة من PP-R',
+    },
+    description: {
+      de: 'Symmetrisches T-Stück für Abzweigungen im 90°-Winkel mit drei identischen Schweißmuffen (d20 bis d75 mm).',
+      en: 'Symmetrical equal tee for 90° branches with three identical fusion sockets (d20 to d75 mm).',
+      ar: 'محمل تي متماثل للفروع بزاوية 90 درجة مع ثلاثة مقابس لحام متطابقة.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > T-Stücke', en: 'K-Aqua > Products > Fittings > Tees', ar: 'K-Aqua > المنتجات > الوصلات > محملات تي' },
+    },
+    keywords: ['t-stück', 'tee', 'abzweig', 'egal', 'equal tee', 'fitting', 'aq130'],
+    href: '/produkte/fittings',
+    badge: { de: 'T-Stück egal', en: 'Equal Tee', ar: 'محمل تي' },
+    specs: ['PP-R 100', 'd20 – d75 mm', 'Homogen verschweißt'],
+    articleCodes: ['AQ13020', 'AQ13025', 'AQ13032', 'AQ13040', 'AQ13050', 'AQ13063', 'AQ13075'],
+  },
+  {
+    id: 'prod_fit_reducing_tee',
+    category: 'products',
+    title: {
+      de: 'PP-R Reduziertes T-Stück (Reducing Tee)',
+      en: 'PP-R Reducing Tee',
+      ar: 'محمل تي مخفض من PP-R',
+    },
+    description: {
+      de: 'T-Stück mit verengtem Mittelabzweig zur direkten Reduzierung der Leitungsdimension ohne zusätzliche Reduzierstücke.',
+      en: 'Tee with reduced branch outlet for direct line sizing reduction without extra fittings.',
+      ar: 'محمل تي بفرع أوسط مخفض لتقليل أبعاد الخط مباشرة.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > Reduzierte T-Stücke', en: 'K-Aqua > Products > Fittings > Reducing Tees', ar: 'K-Aqua > المنتجات > الوصلات > محملات مخفضة' },
+    },
+    keywords: ['reduziertes t-stück', 'reducing tee', 'abzweig reduziert', 'fitting', 'aq1302520', 'aq150'],
+    href: '/produkte/fittings',
+    badge: { de: 'T-Stück reduziert', en: 'Reducing Tee', ar: 'محمل تي مخفض' },
+    specs: ['PP-R 100', 'Ø 25×20 bis 75×32 mm'],
+    articleCodes: ['AQ1302520', 'AQ1303220', 'AQ1303225', 'AQ1304020', 'AQ1305020', 'AQ1506320', 'AQ1507532'],
+  },
+  {
+    id: 'prod_fit_socket_coupler',
+    category: 'products',
+    title: {
+      de: 'PP-R Verbindungsmuffe (Socket / Coupler)',
+      en: 'PP-R Socket Coupler',
+      ar: 'جلبة توصيل PP-R (مقبس)',
+    },
+    description: {
+      de: 'Präzisions-Schweißmuffe zur geraden Verbindung zweier Rohrabschnitte gleicher Nennweite (d20 bis d75 mm).',
+      en: 'Precision fusion socket for straight in-line coupling of two identical pipe ends (d20 to d75 mm).',
+      ar: 'جلبة لحام دقيقة للتوصيل المستقيم بين طرفي أنبوبين متطابقين.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > Verbindungsmuffen', en: 'K-Aqua > Products > Fittings > Sockets', ar: 'K-Aqua > المنتجات > الوصلات > جلب التوصيل' },
+    },
+    keywords: ['muffe', 'socket', 'coupler', 'verbindungsmuffe', 'fitting', 'aq270'],
+    href: '/produkte/fittings',
+    badge: { de: 'Muffe', en: 'Socket', ar: 'جلبة' },
+    specs: ['PP-R 100', 'd20 – d75 mm', 'Anschlagkante innen'],
+    articleCodes: ['AQ27020', 'AQ27025', 'AQ27032', 'AQ27040', 'AQ27050', 'AQ27063', 'AQ27075'],
+  },
+  {
+    id: 'prod_fit_reducing_bush',
+    category: 'products',
+    title: {
+      de: 'PP-R Reduzierung (Reducing Bush)',
+      en: 'PP-R Reducing Bush',
+      ar: 'مخفض PP-R (بوش مخفض)',
+    },
+    description: {
+      de: 'Konzentrische Schweißreduzierung zum nahtlosen Übergang auf einen kleineren Rohrdurchmesser (z. B. 25×20 bis 50×20 mm).',
+      en: 'Concentric fusion reducer for smooth dimension transition to smaller pipe diameters.',
+      ar: 'مخفض لحام متمركز للانتقال السلس إلى قطر أنبوب أصغر.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > Reduzierungen', en: 'K-Aqua > Products > Fittings > Reducers', ar: 'K-Aqua > المنتجات > الوصلات > مخفضات' },
+    },
+    keywords: ['reduzierung', 'reducing bush', 'reduzierstück', 'dimensionierung', 'fitting', 'aq243'],
+    href: '/produkte/fittings',
+    badge: { de: 'Reduzierung', en: 'Reducer', ar: 'مخفض' },
+    specs: ['PP-R 100', 'd25×20 bis d50×20 mm'],
+    articleCodes: ['AQ2432520', 'AQ2433220', 'AQ2433225', 'AQ2434020', 'AQ2435020'],
+  },
+  {
+    id: 'prod_fit_cap_end',
+    category: 'products',
+    title: {
+      de: 'PP-R Endkappe (End Cap)',
+      en: 'PP-R End Cap',
+      ar: 'غطاء طرفي PP-R (طبة)',
+    },
+    description: {
+      de: 'Robuste Endkappe zum dauerhaften oder temporären druckfesten Verschließen von Rohrleitungsenden bei Bauabschnitten und Druckprüfungen.',
+      en: 'Heavy-duty end cap for permanent or temporary pressure-tight termination of pipe runs.',
+      ar: 'غطاء طرفي قوي لإغلاق أطراف الأنابيب بشكل دائم أو مؤقت ومقاوم للضغط.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > Endkappen', en: 'K-Aqua > Products > Fittings > Caps', ar: 'K-Aqua > المنتجات > الوصلات > أغطية طرفية' },
+    },
+    keywords: ['endkappe', 'cap', 'verschlusskappe', 'stopfen', 'abschluss', 'aq301'],
+    href: '/produkte/fittings',
+    badge: { de: 'Endkappe', en: 'End Cap', ar: 'غطاء طرفي' },
+    specs: ['PP-R 100', 'd20 – d75 mm', 'PN 25 druckfest'],
+    articleCodes: ['AQ30120', 'AQ30125', 'AQ30132', 'AQ30140', 'AQ30150', 'AQ30163', 'AQ30175'],
+  },
+  {
+    id: 'prod_fit_cross_over',
+    category: 'products',
+    title: {
+      de: 'PP-R Kreuzungsbogen & Überbrückungsrohr (Cross Over)',
+      en: 'PP-R Cross Over & Bypass Bridge',
+      ar: 'قوس تقاطع وأنبوب عبور PP-R',
+    },
+    description: {
+      de: 'Vorgefertigter Bogen zum eleganten Überkreuzen bestehender Rohrleitungen ohne Achsenversatz in der Vorwand- und Fußbodeninstallation.',
+      en: 'Prefabricated crossover bridge for clean pipe-crossing installations without axis misalignment.',
+      ar: 'قوس تقاطع جاهز لعبور خطوط الأنابيب دون اختلال في المحاذاة.',
+    },
+    origin: {
+      section: { de: 'Fittings & Formteile', en: 'Fittings & Molded Parts', ar: 'الوصلات وقطع التشكيل' },
+      path: { de: 'K-Aqua > Produkte > Fittings > Kreuzungsbögen', en: 'K-Aqua > Products > Fittings > Cross Overs', ar: 'K-Aqua > المنتجات > الوصلات > أقواس تقاطع' },
+    },
+    keywords: ['kreuzungsbogen', 'cross over', 'überbrückung', 'überführung', 'bypass', 'aq267', 'aq285'],
+    href: '/produkte/fittings',
+    badge: { de: 'Kreuzungsbogen', en: 'Cross Over', ar: 'قوس تقاطع' },
+    specs: ['PP-R 100', 'd20 – d32 mm'],
+    articleCodes: ['AQ26720', 'AQ26725', 'AQ26732', 'AQ28520', 'AQ28525', 'AQ28532'],
+  },
+
+  // =========================================================================
+  // 3. TRANSITION FITTINGS (DZR-Messing Übergänge)
+  // =========================================================================
+  {
+    id: 'prod_trans_socket_female',
+    category: 'products',
+    title: {
+      de: 'Übergangsmuffe mit Innengewinde (DZR-Messing Rp)',
+      en: 'Adaptor Socket with Female Thread (DZR Brass Rp)',
+      ar: 'مقبس انتقال مع سن داخلي (نحاس DZR Rp)',
+    },
+    description: {
+      de: 'Schweißmuffe mit eingegossenem, entzinkungsbeständigem DZR-Messing-Innengewinde für Armaturenanschlüsse und metallische Rohrnetze.',
+      en: 'Fusion socket with embedded dezincification-resistant DZR brass internal thread for fixtures and metallic interfaces.',
+      ar: 'مقبس لحام مع سن داخلي من نحاس DZR المقاوم لإزالة الزنك لتركيب التجهيزات.',
+    },
+    origin: {
+      section: { de: 'Übergangsfittings', en: 'Transition Fittings', ar: 'وصلات الانتقال' },
+      path: { de: 'K-Aqua > Produkte > Übergänge > Muffe IG', en: 'K-Aqua > Products > Transitions > Female Socket', ar: 'K-Aqua > المنتجات > وصلات الانتقال > مقبس سن داخلي' },
+    },
+    keywords: ['übergangsmuffe', 'innengewinde', 'rp', 'female thread', 'messing', 'dzr', 'aq24rp'],
+    href: '/produkte/transition-fittings',
+    badge: { de: 'Übergang IG', en: 'Female Thread', ar: 'سن داخلي' },
+    specs: ['CuZn39Pb3 / CW617N', 'd20×½" bis d315×12"', 'Entzinkungsfest'],
+    articleCodes: ['AQ24RP20', 'AQ24RP25', 'AQ24RP32', 'AQ24RP40', 'AQ24RP50', 'AQ24RP63', 'AQ24RP75'],
+  },
+  {
+    id: 'prod_trans_socket_male',
+    category: 'products',
+    title: {
+      de: 'Übergangsmuffe mit Außengewinde (DZR-Messing R)',
+      en: 'Adaptor Socket with Male Thread (DZR Brass R)',
+      ar: 'مقبس انتقال مع سن خارجي (نحاس DZR R)',
+    },
+    description: {
+      de: 'Schweißmuffe mit massivem DZR-Messing-Außengewinde für Pumpen, Ventile und Verteilerblöcke.',
+      en: 'Fusion socket with heavy DZR brass external male thread for pumps, valves, and manifold ports.',
+      ar: 'مقبس لحام مع سن خارجي من نحاس DZR القوي للمضخات والصمامات والمشعبات.',
+    },
+    origin: {
+      section: { de: 'Übergangsfittings', en: 'Transition Fittings', ar: 'وصلات الانتقال' },
+      path: { de: 'K-Aqua > Produkte > Übergänge > Muffe AG', en: 'K-Aqua > Products > Transitions > Male Socket', ar: 'K-Aqua > المنتجات > وصلات الانتقال > مقبس سن خارجي' },
+    },
+    keywords: ['übergangsmuffe', 'außengewinde', 'male thread', 'r gewinde', 'messing', 'dzr', 'aq24r'],
+    href: '/produkte/transition-fittings',
+    badge: { de: 'Übergang AG', en: 'Male Thread', ar: 'سن خارجي' },
+    specs: ['CuZn39Pb3 / CW617N', 'd20×½" bis d160×6"'],
+    articleCodes: ['AQ24R20', 'AQ24R25', 'AQ24R32', 'AQ24R40', 'AQ24R50', 'AQ24R63'],
+  },
+  {
+    id: 'prod_trans_elbow_wall_bracket',
+    category: 'products',
+    title: {
+      de: 'Deckenwinkel & Wandanschlusswinkel 90° (Wall Bracket IG)',
+      en: 'Elbow Wall Bracket 90° Female Thread',
+      ar: 'قوس جداري 90 درجة مع سن داخلي',
+    },
+    description: {
+      de: 'Schallentkoppelter Montage-Wandwinkel mit Befestigungslaschen und DZR-Messing-Innengewinde für Sanitärarmaturen und Waschtischanschlüsse.',
+      en: 'Acoustically decoupled mounting wall elbow with mounting ears and DZR brass female thread for sanitary fixtures.',
+      ar: 'كوع تثبيت جداري مع أذن تثبيت وسن داخلي نحاسي DZR لتركيب التجهيزات الصحية.',
+    },
+    origin: {
+      section: { de: 'Übergangsfittings', en: 'Transition Fittings', ar: 'وصلات الانتقال' },
+      path: { de: 'K-Aqua > Produkte > Übergänge > Deckenwinkel', en: 'K-Aqua > Products > Transitions > Wall Bracket', ar: 'K-Aqua > المنتجات > وصلات الانتقال > قوس جداري' },
+    },
+    keywords: ['deckenwinkel', 'wandwinkel', 'wall bracket', 'armaturanschluss', 'waschtisch', 'aq09brp', 'aq09wbrp'],
+    href: '/produkte/transition-fittings',
+    badge: { de: 'Deckenwinkel', en: 'Wall Bracket', ar: 'قوس جداري' },
+    specs: ['Befestigungslaschen', 'd20×½" bis d40×1¼"', 'Schalldämmend'],
+    articleCodes: ['AQ09BRP20', 'AQ09BRP25', 'AQ09WBRP20', 'AQ09WBRP25'],
+  },
+  {
+    id: 'prod_trans_metal_union',
+    category: 'products',
+    title: {
+      de: 'PP-R / Messing-Verschraubung lösbar (Metal Union IG/AG)',
+      en: 'PP-R / Brass Disconnectable Union (Female/Male)',
+      ar: 'وصلة فك وتركيب من PP-R والنحاس (يونيون)',
+    },
+    description: {
+      de: 'Lösbare Übergangsverschraubung mit EPDM-Flachdichtung und Überwurfmutter zur einfachen Demontage von Pumpen, Filtern und Zählern.',
+      en: 'Demountable transition union with EPDM flat gasket and union nut for easy maintenance of pumps, meters, and filters.',
+      ar: 'وصلة يونيون قابلة للفك مع حشوة مسطحة وصامولة لسهولة صيانة المضخات والعدادات.',
+    },
+    origin: {
+      section: { de: 'Übergangsfittings', en: 'Transition Fittings', ar: 'وصلات الانتقال' },
+      path: { de: 'K-Aqua > Produkte > Übergänge > Verschraubungen', en: 'K-Aqua > Products > Transitions > Unions', ar: 'K-Aqua > المنتجات > وصلات الانتقال > وصلات يونيون' },
+    },
+    keywords: ['verschraubung', 'union', 'lösbare verbindung', 'überwurfmutter', 'pumpe', 'zähler', 'aq71rp', 'aq71r', 'aq70rp'],
+    href: '/produkte/transition-fittings',
+    badge: { de: 'Verschraubung', en: 'Metal Union', ar: 'يونيون' },
+    specs: ['d20×½" bis d50×2"', 'EPDM Flachdichtung', 'PN 20'],
+    articleCodes: ['AQ71RP20', 'AQ71RP25', 'AQ71RP32', 'AQ71R20', 'AQ71R25', 'AQ70RP20'],
+  },
+
+  // =========================================================================
+  // 4. VALVES & ARMATUREN (Kugelhähne, Unterputzventile, Schrägsitzventile)
+  // =========================================================================
+  {
+    id: 'prod_valve_ball_brass',
+    category: 'products',
+    title: {
+      de: 'PP-R Kugelhahn mit verchromter Messingkugel',
+      en: 'PP-R Ball Valve (Chromium Plated Brass Ball)',
+      ar: 'صمام كروي PP-R مع كرة نحاسية مطلية بالكروم',
+    },
+    description: {
+      de: 'Robuster PP-R Kugelhahn mit voller Durchgangsbohrung, PTFE-Dichtsitzen und verchromter Messingkugel für Trinkwasser und Industrie (d20–d90 mm).',
+      en: 'Heavy-duty full-bore PP-R ball valve with PTFE seats and chromium-plated brass ball for potable water and industry (d20–d90 mm).',
+      ar: 'صمام كروي PP-R قوي مع فتحة تدفق كاملة ومقاعد PTFE وكرة نحاسية مطلية بالكروم.',
+    },
+    origin: {
+      section: { de: 'Armaturen & Ventile', en: 'Valves & Flow Control', ar: 'الصمامات والتحكم بالتدفق' },
+      path: { de: 'K-Aqua > Produkte > Ventile > Kugelhahn Messing', en: 'K-Aqua > Products > Valves > Brass Ball Valve', ar: 'K-Aqua > المنتجات > الصمامات > صمام كروي نحاس' },
+    },
+    keywords: ['kugelhahn', 'ball valve', 'absperrhahn', 'ventil', 'messingkugel', 'voller durchgang', 'aq600'],
+    href: '/produkte/valves',
+    badge: { de: 'Kugelhahn Messing', en: 'Brass Ball Valve', ar: 'صمام كروي نحاس' },
+    specs: ['Voller Durchgang', 'd20 – d90 mm', 'PTFE Dichtungen', 'PN 20', '100% leckagegeprüft'],
+    articleCodes: ['AQ60020', 'AQ60025', 'AQ60032', 'AQ60040', 'AQ60050', 'AQ60063', 'AQ60075', 'AQ60090'],
+  },
+  {
+    id: 'prod_valve_ball_pp',
+    category: 'products',
+    title: {
+      de: 'PP-R Vollkunststoff-Kugelhahn (Ball in PP)',
+      en: 'PP-R All-Plastic Ball Valve (PP Ball)',
+      ar: 'صمام كروي بلاستيكي بالكامل من PP-R (كرة PP)',
+    },
+    description: {
+      de: 'Metallfreier Vollkunststoff-Kugelhahn für hochkorrosive Medien, aggressive Säuren, Laugen und Reinstwasseranwendungen (d20–d63 mm).',
+      en: 'Metal-free all-plastic ball valve for corrosive chemicals, aggressive acids, alkalis, and high-purity water circuits.',
+      ar: 'صمام كروي بلاستيكي بالكامل وخالٍ من المعادن للسوائل المسببة للتآكل والأحماض والقلويات.',
+    },
+    origin: {
+      section: { de: 'Armaturen & Ventile', en: 'Valves & Flow Control', ar: 'الصمامات والتحكم بالتدفق' },
+      path: { de: 'K-Aqua > Produkte > Ventile > Vollkunststoff-Kugelhahn', en: 'K-Aqua > Products > Valves > PP Ball Valve', ar: 'K-Aqua > المنتجات > الصمامات > صمام بلاستيكي بالكامل' },
+    },
+    keywords: ['vollkunststoff', 'metallfrei', 'kugelhahn pp', 'chemikalien', 'säure', 'reinstwasser', 'aq500'],
+    href: '/produkte/valves',
+    badge: { de: 'Metallfrei PP', en: 'All-Plastic Valve', ar: 'بلاستيك بالكامل' },
+    specs: ['100% metallfrei', 'd20 – d63 mm', 'Extreme Chemikalienresistenz'],
+    articleCodes: ['AQ50020', 'AQ50025', 'AQ50032', 'AQ50040', 'AQ50050', 'AQ50063'],
+  },
+  {
+    id: 'prod_valve_concealed_chrome',
+    category: 'products',
+    title: {
+      de: 'PP-R Unterputzventil mit Chrom-Bediengriff (Concealed Valve)',
+      en: 'PP-R Concealed Valve with Chrome Handle',
+      ar: 'صمام مخفي PP-R بمقبض كروم',
+    },
+    description: {
+      de: 'Formschönes Unterputz-Absperrventil für moderne Bad- und Hotelinstallationen mit verchromter Rosette und ergonomischem Griff.',
+      en: 'Elegant concealed shut-off valve for modern bathrooms and luxury hotels with chrome rosette and handle.',
+      ar: 'صمام إغلاق مخفي أنيق للحمامات الحديثة والفنادق الفاخرة مع غطاء ومقبض كروم.',
+    },
+    origin: {
+      section: { de: 'Armaturen & Ventile', en: 'Valves & Flow Control', ar: 'الصمامات والتحكم بالتدفق' },
+      path: { de: 'K-Aqua > Produkte > Ventile > Unterputzventile', en: 'K-Aqua > Products > Valves > Concealed Valves', ar: 'K-Aqua > المنتجات > الصمامات > صمام مخفي' },
+    },
+    keywords: ['unterputzventil', 'concealed valve', 'badarmatur', 'chromgriff', 'rosette', 'hotel', 'aq62993', 'aq62992'],
+    href: '/produkte/valves',
+    badge: { de: 'Unterputzventil', en: 'Concealed Valve', ar: 'صمام مخفي' },
+    specs: ['½" & ¾"', 'Chrom-Finish', 'Verlängerungsstücke verfügbar'],
+    articleCodes: ['AQ62993', 'AQ62992', 'AQ62990'],
+  },
+
+  // =========================================================================
+  // 5. WELD-IN SADDLES & SATTELTECHNIK
+  // =========================================================================
+  {
+    id: 'prod_saddle_standard',
+    category: 'products',
+    title: {
+      de: 'Einschweißsattel Standard (Weld-in Saddle)',
+      en: 'Weld-in Saddle Standard',
+      ar: 'سرج لحام قياسي من PP-R',
+    },
+    description: {
+      de: 'Effizienter Einschweißsattel zur schnellen Nachrüstung von Abgängen und zum rationellen Bau von Heizungs-/Kälteverteilern ohne Trennen des Hauptrohres.',
+      en: 'Efficient weld-in saddle for rapid post-installation branching and custom manifold construction without cutting the main pipe.',
+      ar: 'سرج لحام فعال للتفريعات السريعة وبناء المشعبات دون قطع الأنبوب الرئيسي.',
+    },
+    origin: {
+      section: { de: 'Einschweißsättel', en: 'Weld-in Saddles', ar: 'سروج اللحام' },
+      path: { de: 'K-Aqua > Produkte > Einschweißsättel > Standard', en: 'K-Aqua > Products > Saddles > Standard', ar: 'K-Aqua > المنتجات > سروج اللحام > قياسي' },
+    },
+    keywords: ['einschweißsattel', 'weld-in saddle', 'verteilerbau', 'abzweig nachrüsten', 'manifold', 'aq1505'],
+    href: '/produkte/weld-in-saddles',
+    badge: { de: 'Satteltechnik', en: 'Weld-in Saddle', ar: 'سرج لحام' },
+    specs: ['Hauptrohr d40 – d250 mm', 'Abzweig d20 – d63 mm', 'DVS 2207 konform'],
+    articleCodes: ['AQ1505406320', 'AQ1505406325', 'AQ1505160250'],
+  },
+  {
+    id: 'prod_saddle_female_thread',
+    category: 'products',
+    title: {
+      de: 'Einschweißsattel mit DZR-Messing-Innengewinde (Saddle Female Thread)',
+      en: 'Weld-in Saddle with DZR Brass Female Thread',
+      ar: 'سرج لحام مع سن داخلي نحاسي DZR',
+    },
+    description: {
+      de: 'Einschweißsattel mit integriertem Messinggewinde zum direkten Einschrauben von Sensoren, Manometern, Entlüftern oder metallischen Absperrventilen.',
+      en: 'Weld-in saddle with integrated brass thread for direct mounting of sensors, gauges, air vents, and metal valves.',
+      ar: 'سرج لحام مع سن نحاسي مدمج للتركيب المباشر لأجهزة الاستشعار ومقاييس الضغط والصمامات.',
+    },
+    origin: {
+      section: { de: 'Einschweißsättel', en: 'Weld-in Saddles', ar: 'سروج اللحام' },
+      path: { de: 'K-Aqua > Produkte > Einschweißsättel > Innengewinde', en: 'K-Aqua > Products > Saddles > Female Thread', ar: 'K-Aqua > المنتجات > سروج اللحام > سن داخلي' },
+    },
+    keywords: ['sattel innengewinde', 'sensorabgang', 'manometer', 'entlüfter', 'dzr messing', 'aq270s'],
+    href: '/produkte/weld-in-saddles',
+    badge: { de: 'Sattel Gewinde IG', en: 'Threaded Saddle', ar: 'سرج بسن' },
+    specs: ['Hauptrohr d40 – d125 mm', 'Gewinde ½" bis 1¼"'],
+    articleCodes: ['AQ270S406332', 'AQ270S751254'],
+  },
+
+  // =========================================================================
+  // 6. TOOLS & SCHWEISSTECHNIK
+  // =========================================================================
+  {
+    id: 'prod_tool_hand_welder_63',
+    category: 'products',
+    title: {
+      de: 'Heizelement-Muffenschweißgerät 20–63 mm Komplettset',
+      en: 'Socket Fusion Welding Machine 20–63 mm Complete Kit',
+      ar: 'ماكينة لحام المقابس 20-63 مم مجموعة كاملة',
+    },
+    description: {
+      de: 'Professionelles Handschweißgerät mit 800 W Leistung, elektronischer 260 °C Thermostatregelung, Schweißdornen d20–d63 und robustem Metallkoffer.',
+      en: 'Professional 800W socket fusion machine with electronic 260°C temperature regulation, dies d20–d63, and heavy steel transport case.',
+      ar: 'ماكينة لحام يدوية احترافية بقدرة 800 واط مع تحكم إلكتروني في درجة الحرارة 260 مئوية وقوالب تسخين.',
+    },
+    origin: {
+      section: { de: 'Werkzeuge & Montage', en: 'Tools & Equipment', ar: 'الأدوات ومعدات التركيب' },
+      path: { de: 'K-Aqua > Produkte > Werkzeuge > Schweißgerät 20–63', en: 'K-Aqua > Products > Tools > Welding Kit 20–63', ar: 'K-Aqua > المنتجات > الأدوات > ماكينة لحام 20-63' },
+    },
+    keywords: ['schweißgerät', 'muffenschweißgerät', 'welding kit', 'handschweißgerät', '260 grad', 'thermostat', 'aq98063'],
+    href: '/produkte/tools',
+    badge: { de: 'Schweißset 20–63', en: 'Welding Kit 20–63', ar: 'ماكينة لحام' },
+    specs: ['800 Watt / 230 Volt', 'Präzision ±2 °C', 'Dornen d20, d25, d32, d40, d50, d63'],
+    articleCodes: ['AQ98063', 'AQ98032'],
+  },
+  {
+    id: 'prod_tool_welder_125',
+    category: 'products',
+    title: {
+      de: 'Werkstatt- & Baustellen-Schweißmaschine 50–125 mm',
+      en: 'Heavy-Duty Socket Fusion Machine 50–125 mm',
+      ar: 'ماكينة لحام المقابس الثقيلة 50-125 مم',
+    },
+    description: {
+      de: 'Fahrbare Schweißmaschine mit Zahnstangenantrieb für präzise, achsengenaue Muffenschweißung großer Rohrdurchmesser (d50 bis d125 mm).',
+      en: 'Rack-and-pinion guided fusion machine for precise coaxial socket welding of large pipes (d50 to d125 mm).',
+      ar: 'ماكينة لحام موجهة بدقة للحام المحوري للمقابس للأنابيب الكبيرة (50 إلى 125 مم).',
+    },
+    origin: {
+      section: { de: 'Werkzeuge & Montage', en: 'Tools & Equipment', ar: 'الأدوات ومعدات التركيب' },
+      path: { de: 'K-Aqua > Produkte > Werkzeuge > Schweißmaschine 50–125', en: 'K-Aqua > Products > Tools > Fusion Machine 50–125', ar: 'K-Aqua > المنتجات > الأدوات > ماكينة لحام 50-125' },
+    },
+    keywords: ['schweißmaschine', 'zahnstange', 'großdurchmesser', 'd125', 'd110', 'd90', 'd75', 'aq985125'],
+    href: '/produkte/tools',
+    badge: { de: 'Schweißmaschine 125', en: 'Fusion Machine 125', ar: 'ماكينة 125' },
+    specs: ['1400 Watt', 'Achsengenaue Führung', 'Schweißdorne 50–125 mm'],
+    articleCodes: ['AQ985125'],
+  },
+  {
+    id: 'prod_tool_repair_plug',
+    category: 'products',
+    title: {
+      de: 'Reparaturstopfen & Reparaturschweißdorn (Repairing Plug)',
+      en: 'Repairing Plug & Emergency Hole Repair Tool',
+      ar: 'سدادة إصلاح الطوارئ وأداة تسخين الثقوب',
+    },
+    description: {
+      de: 'Geniales Reparatursystem zur sekundenschnellen, dauerhaften Beseitigung von Anbohrschäden (z. B. durch Dübel) in verputzten Wänden.',
+      en: 'Ingenious emergency repair plug system to permanently seal accidentally drilled pipe walls in seconds without wall opening.',
+      ar: 'نظام سدادات طوارئ ذكي لإصلاح الأنابيب المثقوبة عن طريق الخطأ في ثوانٍ دون تكسير الجدار.',
+    },
+    origin: {
+      section: { de: 'Werkzeuge & Montage', en: 'Tools & Equipment', ar: 'الأدوات ومعدات التركيب' },
+      path: { de: 'K-Aqua > Produkte > Werkzeuge > Reparaturstopfen', en: 'K-Aqua > Products > Tools > Repair Plug', ar: 'K-Aqua > المنتجات > الأدوات > سدادة إصلاح' },
+    },
+    keywords: ['reparaturstopfen', 'repair plug', 'anbohrschaden', 'notfallreparatur', 'leckage stopfen', 'aq96557', 'aq98625'],
+    href: '/produkte/tools',
+    badge: { de: 'Reparaturstopfen', en: 'Repair Plug', ar: 'سدادة إصلاح' },
+    specs: ['7 mm & 11 mm', 'PTFE Reparaturschweißdorn', 'Dauerhaft druckdicht'],
+    articleCodes: ['AQ96557', 'AQ96511', 'AQ98625'],
+  },
+  {
+    id: 'prod_tool_pipe_cutter',
+    category: 'products',
+    title: {
+      de: 'Professioneller Rohrabschneider & Schere (20–40 & 50–125 mm)',
+      en: 'Professional Pipe Cutters & Rotary Slicers (20–40 & 50–125 mm)',
+      ar: 'قواطع أنابيب احترافية ومقصات دوارة (20-40 و 50-125 مم)',
+    },
+    description: {
+      de: 'Hochpräzise Rohrabschneider mit spezialgehärteter Klinge für gratfreie, exakt rechtwinklige Schnitte bei PP-R und Faserverbundrohren.',
+      en: 'High-precision pipe cutters with hardened blades for burr-free, perfectly square cuts on PP-R and fiber composite pipes.',
+      ar: 'قواطع أنابيب عالية الدقة بشفرات مقواة لقطوعات نظيفة ومستقيمة بزاوية 90 درجة.',
+    },
+    origin: {
+      section: { de: 'Werkzeuge & Montage', en: 'Tools & Equipment', ar: 'الأدوات ومعدات التركيب' },
+      path: { de: 'K-Aqua > Produkte > Werkzeuge > Rohrschneider', en: 'K-Aqua > Products > Tools > Pipe Cutters', ar: 'K-Aqua > المنتجات > الأدوات > قواطع أنابيب' },
+    },
+    keywords: ['rohrschneider', 'cutter', 'rohrschere', 'gratfrei', 'rechtwinklig schneiden', 'aq97040', 'aq975125'],
+    href: '/produkte/tools',
+    badge: { de: 'Rohrabschneider', en: 'Pipe Cutter', ar: 'قاطع أنابيب' },
+    specs: ['d20–d40 mm Ratschenschnitt', 'd50–d125 mm Rotationsschneider'],
+    articleCodes: ['AQ97040', 'AQ975125', 'AQ974'],
+  },
+
+  // =========================================================================
+  // 7. ACCESSORIES & FLANSCHE (Flansche, Dichtungen, Schellen)
+  // =========================================================================
+  {
+    id: 'prod_acc_flange_pp_steel',
+    category: 'products',
+    title: {
+      de: 'Vorschweißbund & Losflansch PP-Stahl (Backing Flange SF/BF)',
+      en: 'Stub End & PP-Steel Backing Flange (SF/BF)',
+      ar: 'حلقة شفة وفلانشة PP مع قلب فولاذي',
+    },
+    description: {
+      de: 'Korrosionsgeschützter Losflansch mit glasfaserverstärktem PP-Mantel und massivem Stahlkern nach DIN EN 1092-1 / PN 16 (d40 bis d315 mm).',
+      en: 'Corrosion-proof backing flange with glass-fiber reinforced PP casing and solid steel core according to DIN EN 1092-1 (d40 to d315 mm).',
+      ar: 'فلانشة مقاومة للتآكل مع غلاف PP مقوى بالألياف وقلب فولاذي صلب وفقاً لـ DIN EN 1092-1.',
+    },
+    origin: {
+      section: { de: 'Zubehör & Flansche', en: 'Accessories & Flanges', ar: 'الملحقات والشفاه' },
+      path: { de: 'K-Aqua > Produkte > Zubehör > Flansche', en: 'K-Aqua > Products > Accessories > Flanges', ar: 'K-Aqua > المنتجات > الملحقات > فلانشات' },
+    },
+    keywords: ['losflansch', 'vorschweißbund', 'flansch', 'backing flange', 'stub end', 'pn16', 'aq575040', 'aq790'],
+    href: '/produkte/accessories',
+    badge: { de: 'PP-Stahl Flansch', en: 'Backing Flange', ar: 'فلانشة PP' },
+    specs: ['Stahlkern mit PP-Ummantelung', 'd40 – d315 mm', 'DIN EN 1092-1 PN 10/16'],
+    articleCodes: ['AQ575040', 'AQ575050', 'AQ575063', 'AQ575075', 'AQ575090', 'AQ575110', 'AQ575315'],
+  },
+  {
+    id: 'prod_acc_pipe_clamps',
+    category: 'products',
+    title: {
+      de: 'Schallgedämmte Rohrschellen mit Gummieinlage (Pipe Clamps)',
+      en: 'Acoustically Insulated Pipe Clamps with Rubber Lining',
+      ar: 'مشابك أنابيب معزولة صوتياً مع بطانة مطاطية',
+    },
+    description: {
+      de: 'Hochwertige Stahl-Rohrschellen mit alterungsbeständigem EPDM-Gummiprofil zur schallentkoppelten Fest- und Gleitpunktbefestigung nach DIN 4109.',
+      en: 'Heavy-duty steel pipe clamps with aging-resistant EPDM rubber lining for acoustically isolated fixed and sliding brackets (DIN 4109).',
+      ar: 'مشابك أنابيب فولاذية قوية مع بطانة مطاطية EPDM للتثبيت المعزول صوتياً.',
+    },
+    origin: {
+      section: { de: 'Zubehör & Flansche', en: 'Accessories & Flanges', ar: 'الملحقات والشفاه' },
+      path: { de: 'K-Aqua > Produkte > Zubehör > Rohrschellen', en: 'K-Aqua > Products > Accessories > Pipe Clamps', ar: 'K-Aqua > المنتجات > الملحقات > مشابك الأنابيب' },
+    },
+    keywords: ['rohrschelle', 'pipe clamp', 'schallschutz', 'gummieinlage', 'gleitpunkt', 'festpunkt', 'din 4109', 'aq9520'],
+    href: '/produkte/accessories',
+    badge: { de: 'Rohrschellen', en: 'Pipe Clamps', ar: 'مشابك أنابيب' },
+    specs: ['Ø 20 – 200 mm', 'EPDM Schalldämmeinlage', 'M8/M10 Kombimutter'],
+    articleCodes: ['AQ9520', 'AQ9525', 'AQ9532', 'AQ9540', 'AQ9550', 'AQ9563', 'AQ95200'],
+  },
+
+  // =========================================================================
+  // 8. DIGITALE TOOLS & BERECHNUNG (CO2, Finder, BIM, GAEB, Support)
   // =========================================================================
   {
     id: 'tool_finder_interactive',
@@ -379,7 +886,7 @@ export const SEARCH_INDEX: SearchEntry[] = [
   },
 
   // =========================================================================
-  // 3. ANWENDUNGEN & BRANCHENLÖSUNGEN (Solutions)
+  // 9. BRANCHENLÖSUNGEN (Solutions)
   // =========================================================================
   {
     id: 'sol_highrise_risers',
@@ -498,7 +1005,7 @@ export const SEARCH_INDEX: SearchEntry[] = [
   },
 
   // =========================================================================
-  // 4. WISSEN & 50 FACHARTIKEL (Whitepapers, Normen, Akustik, Brandschutz etc.)
+  // 10. 50 FACHARTIKEL & WHITEPAPER (Wissen)
   // =========================================================================
   {
     id: 'news_schallschutz',
@@ -744,7 +1251,7 @@ export const SEARCH_INDEX: SearchEntry[] = [
   },
 
   // =========================================================================
-  // 5. UNTERNEHMEN, VERTRIEBSNETZ, TRUST & SERVICE (Company)
+  // 11. UNTERNEHMEN, VERTRIEBSNETZ, TRUST & SERVICE
   // =========================================================================
   {
     id: 'comp_about_engineering',

@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { useLocale } from 'next-intl';
-import { useRouter } from 'next/navigation';
+import { useRouter } from '@/lib/i18n/navigation';
 import { searchKAqua, SearchResult, escapeRegExp } from '@/lib/search-engine';
 import { SearchCategory } from '@/lib/search-data';
 import {
@@ -117,9 +117,7 @@ export default function SearchModal({ isOpen, onClose }: Props) {
     (result: SearchResult) => {
       saveRecentSearch(query || result.entry.title[locale] || result.entry.title['de'] || '');
       onClose();
-      // Ensure localized route handling
-      const localizedPath = `/${locale}${result.deepHref}`;
-      router.push(localizedPath);
+      router.push(result.deepHref);
     },
     [query, locale, router, onClose, saveRecentSearch]
   );
@@ -127,9 +125,9 @@ export default function SearchModal({ isOpen, onClose }: Props) {
   const handleOpenFullSearch = useCallback(() => {
     if (query.trim()) saveRecentSearch(query.trim());
     onClose();
-    const targetUrl = `/${locale}/suche${query.trim() ? `?q=${encodeURIComponent(query.trim())}` : ''}`;
+    const targetUrl = `/suche${query.trim() ? `?q=${encodeURIComponent(query.trim())}` : ''}`;
     router.push(targetUrl);
-  }, [query, locale, router, onClose, saveRecentSearch]);
+  }, [query, router, onClose, saveRecentSearch]);
 
   // Keyboard navigation inside modal
   useEffect(() => {
@@ -207,11 +205,10 @@ export default function SearchModal({ isOpen, onClose }: Props) {
     );
   };
 
-  if (!isOpen) return null;
-
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-start justify-center pt-12 sm:pt-20 px-4 sm:px-6 select-none">
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-start justify-center pt-12 sm:pt-20 px-4 sm:px-6 select-none">
         {/* Backdrop */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -454,6 +451,7 @@ export default function SearchModal({ isOpen, onClose }: Props) {
           </div>
         </motion.div>
       </div>
+      )}
     </AnimatePresence>
   );
 }

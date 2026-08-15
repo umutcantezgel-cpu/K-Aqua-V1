@@ -1,5 +1,5 @@
 // lib/search-engine.ts
-// Leistungsfähige Such-, Ranking- und Snippet-Engine für K-Aqua
+// Leistungsfähige Such-, Ranking-, Normalisierungs- und Snippet-Engine für K-Aqua
 
 import { SEARCH_INDEX, SearchEntry } from './search-data';
 
@@ -23,6 +23,33 @@ export interface SearchOptions {
  */
 export function escapeRegExp(string: string): string {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Normalizes text for forgiving matching (stripping punctuation, umlauts, hyphens)
+ */
+export function normalizeSearchText(text: string): string {
+  if (!text) return '';
+  return text
+    .toLowerCase()
+    .replace(/ä/g, 'ae')
+    .replace(/ö/g, 'oe')
+    .replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .replace(/&/g, ' ')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '') // remove remaining diacritics
+    .replace(/[-_./\\(),;:'"?!]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Strips all non-alphanumeric characters for compact matching (e.g. 'pp-rct' -> 'pprct')
+ */
+export function stripAlphanumeric(text: string): string {
+  if (!text) return '';
+  return text.toLowerCase().replace(/[^a-z0-9]/g, '');
 }
 
 /**
@@ -124,6 +151,8 @@ export function searchKAqua(options: SearchOptions): SearchResult[] {
   const { query, category = 'all', locale = 'de', maxResults = 50 } = options;
   const rawQ = query.trim();
   const q = rawQ.toLowerCase();
+  const normQ = normalizeSearchText(rawQ);
+  const compactQ = stripAlphanumeric(rawQ);
 
   // If query is empty, return all items in the category or whole catalog
   if (!q) {
@@ -142,6 +171,7 @@ export function searchKAqua(options: SearchOptions): SearchResult[] {
   }
 
   const queryTerms = q.split(/\s+/).filter((t) => t.length > 0);
+  const normQueryTerms = normQ.split(/\s+/).filter((t) => t.length > 0);
 
   const scoredResults: SearchResult[] = [];
 
@@ -152,52 +182,84 @@ export function searchKAqua(options: SearchOptions): SearchResult[] {
     }
 
     const title = (entry.title[locale] || entry.title['de'] || '').toLowerCase();
+    const normTitle = normalizeSearchText(title);
+    const compactTitle = stripAlphanumeric(title);
+
     const desc = (entry.description[locale] || entry.description['de'] || '').toLowerCase();
+    const normDesc = normalizeSearchText(desc);
+
     const originSection = (entry.origin?.section[locale] || entry.origin?.section['de'] || '').toLowerCase();
     const originPath = (entry.origin?.path[locale] || entry.origin?.path['de'] || '').toLowerCase();
+    
     const keywords = (entry.keywords || []).map((k) => k.toLowerCase());
+    const normKeywords = (entry.keywords || []).map(normalizeSearchText);
+    const compactKeywords = (entry.keywords || []).map(stripAlphanumeric);
+
     const specs = (entry.specs || []).map((s) => s.toLowerCase());
     const articleCodes = (entry.articleCodes || []).map((c) => c.toLowerCase());
+    const compactArticleCodes = (entry.articleCodes || []).map(stripAlphanumeric);
 
     let score = 0;
     let matchedField: SearchResult['matchedField'] = 'description';
 
     // 1. Article code match (highest precision)
-    for (const code of articleCodes) {
-      if (code === q || code.includes(q)) {
-        score += 150;
+    for (let i = 0; i < articleCodes.length; i++) {
+      const code = articleCodes[i] || '';
+      const compactCode = compactArticleCodes[i] || '';
+      if (code === q || (compactQ.length >= 4 && compactCode === compactQ)) {
+        score += 250;
+        matchedField = 'articleCodes';
+      } else if (code.includes(q) || (compactQ.length >= 4 && compactCode.includes(compactQ))) {
+        score += 160;
         matchedField = 'articleCodes';
       }
     }
 
     // 2. Title matching
-    if (title === q) {
+    if (title === q || normTitle === normQ || (compactQ.length >= 4 && compactTitle === compactQ)) {
       score += 200;
       matchedField = 'title';
-    } else if (title.includes(q)) {
-      score += 100;
+    } else if (title.includes(q) || normTitle.includes(normQ) || (compactQ.length >= 4 && compactTitle.includes(compactQ))) {
+      score += 120;
       matchedField = 'title';
     } else {
-      for (const term of queryTerms) {
-        if (title.includes(term)) {
-          score += 40;
+      for (let i = 0; i < queryTerms.length; i++) {
+        const term = queryTerms[i] || '';
+        const normTerm = normQueryTerms[i] || term;
+        const compactTerm = stripAlphanumeric(term);
+        if (
+          title.includes(term) ||
+          normTitle.includes(normTerm) ||
+          (compactTerm.length >= 3 && compactTitle.includes(compactTerm))
+        ) {
+          score += 50;
           matchedField = 'title';
         }
       }
     }
 
     // 3. Keyword matching
-    for (const kw of keywords) {
-      if (kw === q) {
-        score += 80;
+    for (let i = 0; i < keywords.length; i++) {
+      const kw = keywords[i] || '';
+      const normKw = normKeywords[i] || '';
+      const compactKw = compactKeywords[i] || '';
+      if (kw === q || normKw === normQ || (compactQ.length >= 3 && compactKw === compactQ)) {
+        score += 90;
         if (matchedField === 'description') matchedField = 'keywords';
-      } else if (kw.includes(q)) {
-        score += 40;
+      } else if (kw.includes(q) || normKw.includes(normQ) || (compactQ.length >= 3 && compactKw.includes(compactQ))) {
+        score += 50;
         if (matchedField === 'description') matchedField = 'keywords';
       } else {
-        for (const term of queryTerms) {
-          if (kw.includes(term)) {
-            score += 15;
+        for (let j = 0; j < queryTerms.length; j++) {
+          const term = queryTerms[j] || '';
+          const normTerm = normQueryTerms[j] || term;
+          const compactTerm = stripAlphanumeric(term);
+          if (
+            kw.includes(term) ||
+            normKw.includes(normTerm) ||
+            (compactTerm.length >= 3 && compactKw.includes(compactTerm))
+          ) {
+            score += 25;
             if (matchedField === 'description') matchedField = 'keywords';
           }
         }
@@ -206,31 +268,35 @@ export function searchKAqua(options: SearchOptions): SearchResult[] {
 
     // 4. Specs matching
     for (const spec of specs) {
-      if (spec.includes(q)) {
-        score += 50;
+      const normSpec = normalizeSearchText(spec);
+      const compactSpec = stripAlphanumeric(spec);
+      if (spec.includes(q) || normSpec.includes(normQ) || (compactQ.length >= 3 && compactSpec.includes(compactQ))) {
+        score += 60;
         matchedField = 'specs';
       } else {
         for (const term of queryTerms) {
           if (spec.includes(term)) {
-            score += 20;
+            score += 25;
           }
         }
       }
     }
 
     // 5. Origin / Path matching
-    if (originSection.includes(q) || originPath.includes(q)) {
-      score += 30;
+    if (originSection.includes(q) || originPath.includes(q) || normSection(originSection).includes(normQ)) {
+      score += 35;
       matchedField = 'origin';
     }
 
     // 6. Description matching
-    if (desc.includes(q)) {
-      score += 40;
+    if (desc.includes(q) || normDesc.includes(normQ)) {
+      score += 45;
     } else {
-      for (const term of queryTerms) {
-        if (desc.includes(term)) {
-          score += 15;
+      for (let i = 0; i < queryTerms.length; i++) {
+        const term = queryTerms[i] || '';
+        const normTerm = normQueryTerms[i] || term;
+        if (desc.includes(term) || normDesc.includes(normTerm)) {
+          score += 18;
         }
       }
     }
@@ -253,4 +319,8 @@ export function searchKAqua(options: SearchOptions): SearchResult[] {
   scoredResults.sort((a, b) => b.score - a.score);
 
   return scoredResults.slice(0, maxResults);
+}
+
+function normSection(s: string) {
+  return normalizeSearchText(s);
 }
