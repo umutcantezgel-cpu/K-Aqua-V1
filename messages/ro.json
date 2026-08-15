@@ -1,4 +1,13 @@
 {
+  "aboutDeep": {
+    "eyebrow": "Prezentare Aprofundată",
+    "title": "Expertiza K-Aqua",
+    "lead": "Descoperiți avantajele sistemelor noastre de conducte premium PP-R",
+    "item1": "Longevitate și Eficiență · Sisteme de Țevi PP-RCT",
+    "item2": "Știința Materialelor: Copolimer Aleatoriu de Polipropilenă",
+    "item3": "Flexibilitatea Sistemului K-Aqua",
+    "item4": "Alamă DZR: Rezistentă la Dezincare"
+  },
   "toggle_theme_light": "Comută la tema luminoasă",
   "toggle_theme_dark": "Comută la tema întunecată",
   "nav": {
@@ -96,7 +105,7 @@
         "d": "De la Frankfurt la NEOM: testat conform standardelor și profilelor de apă locale."
       }
     ],
-    "lead": "K Aqua dezvoltă și fabrică sisteme de țevi PP-R/PPRCT pentru apă potabilă de la 20 la 630 mm, în parteneriat cu producătorul premium KESSEL.",
+    "lead": "K-Aqua dezvoltă și fabrică sisteme de țevi PP-R și PP-RCT pentru apă potabilă de la 20 la 630 mm cu o calitate certificată a ingineriei germane.",
     "ctaProducts": "Descoperiți sistemul de produse",
     "ctaContact": "Contactați-ne",
     "toolsEyebrow": "Unelte interactive",
@@ -191,7 +200,7 @@
       "ISO 9001 · 14001 · 50001",
       "Fabricat în Waldsolms",
       "100 % Reciclare",
-      "Partener: KESSEL"
+      "100 % Fabricat în Germania"
     ],
     "tools": [
       {
@@ -251,9 +260,9 @@
     "coTitle1": "Furnizor de materiale și producător:",
     "coTitle2": "din aceeași sursă.",
     "coLead": "KWT GmbH fabrică țevi și fitinguri pentru alimentarea cu apă din diverse materiale plastice, poziționându-se în lanțul valoric al construcțiilor ca furnizor și producător simultan.",
-    "kesselTitle": "Parteneriat puternic cu KESSEL",
-    "kesselText": "Un parteneriat strâns, pe termen lung, ne leagă de producătorul premium KESSEL, „Leading in drainage”. Ducem în viitor această experiență dobândită în zeci de ani.",
-    "kesselCta": "Mai multe despre parteneriat",
+    "kesselTitle": "Inginerie Germană Independentă",
+    "kesselText": "Ca întreprindere germană condusă de proprietari, Philipp Nickel și Marcello Gallio combină decenii de experiență în producție cu un management agil pentru proiecte globale de apă potabilă.",
+    "kesselCta": "Mai multe despre K-Aqua",
     "worldTitle": "Testat la nivel mondial",
     "worldText": "Produsele K Aqua și-au dovedit valoarea de-a lungul deceniilor, de nenumărate ori, în proiecte din întreaga lume.",
     "worldCta": "Glob de referințe",
@@ -357,8 +366,8 @@
       "Descărcați cataloage oficiale de produse K Aqua, fișe tehnice și ghiduri de instalare pentru sistemele de țevi din plastic PP-R și PPRCT."
     ],
     "partner": [
-      "Parteneriat KESSEL",
-      "K Aqua și KESSEL sunt unite printr-un parteneriat de decenii care transferă standardele de producție germană de la drenaj la alimentarea cu apă."
+      "Rețea Globală de Parteneri",
+      "K-Aqua colaborează cu birouri de proiectare, antreprenori MEP și distribuitori certificați din întreaga lume, garantând standarde germane de calitate pentru sistemele de apă potabilă."
     ],
     "markets": [
       "Piețe & Locații",
@@ -806,26 +815,26 @@
     "scope3": "Date privind emisiile Scope-3 și date brute EPD la cerere: transparență proactivă, nu doar o simplă conformitate."
   },
   "partner": {
-    "eyebrow": "Parteneriat",
-    "title1": "Două mărci.",
-    "titleGrad": "O atitudine.",
-    "lead": "Două mărci. O atitudine. Parteneriatul strâns de decenii cu KESSEL transferă încrederea premium de la drenaj către alimentarea cu apă.",
-    "onionAria": "Modelul straturilor parteneriatului (ceapă)",
+    "eyebrow": "Parteneri și Rețea",
+    "title1": "Parteneri Puternici.",
+    "titleGrad": "O Singură Misiune.",
+    "lead": "K-Aqua mizează pe parteneriate globale cu ingineri consultanți, antreprenori MEP și distribuitori pentru a asigura calitatea germană a alimentării cu apă la nivel mondial.",
+    "onionAria": "Modelul de parteneriat K-Aqua",
     "rings": [
       {
-        "l": "Marca principală",
-        "t": "KESSEL: Leading in Drainage",
-        "d": "Producător premium de tehnologie de drenaj. Târguri globale de top precum ISH, portalul planificatorilor și forumul clienților fac din KESSEL autoritatea în sectorul TGA (echipamente tehnice pentru clădiri)."
+        "l": "Conducere",
+        "t": "K-Aqua: ADN Ingineresc German",
+        "d": "Condus de proprietarii Philipp Nickel și Marcello Gallio: producție independentă, decizii rapide și control strict al calității."
       },
       {
         "l": "Sistem",
-        "t": "K Aqua: lider în alimentarea cu apă",
-        "d": "Partea de alimentare din același ADN ingineresc: sistem complet PP-R/PPRCT d20–d630, fabricat în Germania. Drenaj și alimentare dintr-o singură comunitate de valori."
+        "t": "K-Aqua: Lider în Alimentarea cu Apă",
+        "d": "Partea de alimentare a ingineriei germane de vârf: sistem complet PP-R/PP-RCT d20–d630, fabricat în Germania conform DIN EN ISO 15874."
       },
       {
         "l": "Servicii",
-        "t": "Ecosistem comun",
-        "d": "Planificatorii beneficiază dublu: traininguri, asistență pentru tehnologia de sudură și instrumente digitale de planificare, inclusiv configurator parametric de rețele de conducte."
+        "t": "Rețea Globală de Parteneri",
+        "d": "Proiectanții beneficiază la nivel mondial: instruire tehnică, asistență pentru tehnologia de sudare, obiecte BIM și consultanță individuală de proiect."
       }
     ],
     "whyEyebrow": "De ce PP-R/PPRCT",
@@ -1586,7 +1595,7 @@
     "lead": "Noi strategii, cunoștințe acumulate: Ca producător al K-Aqua, KWT GmbH combină decenii de experiență în producție cu o viziune clară spre viitor.",
     "h2": "K Aqua: lider în alimentarea cu apă",
     "p1": "Domeniul de activitate al KWT GmbH este fabricarea de țevi și fitinguri pentru alimentarea cu apă din diverse materiale plastice. Astfel, compania se poziționează în lanțul de valoare al construcțiilor ca furnizor și producător de materiale de construcții.",
-    "p2": "Există un parteneriat strâns și de lungă durată cu producătorul premium KESSEL, „Leading in drainage”. Cu această experiență de decenii, ne ducem succesul în viitor.",
+    "p2": "Sub conducerea antreprenorială a lui Philipp Nickel și Marcello Gallio, K-Aqua se concentrează pe cele mai înalte standarde de calitate, inovație tehnologică și producție sustenabilă de polimeri pentru piețele globale.",
     "polEyebrow": "Politica companiei",
     "polTitle": "Beneficiul apare din interacțiune.",
     "polLead": "Niciun beneficiu pentru client fără un beneficiu pentru angajat, niciun beneficiu pentru angajat fără un beneficiu pentru companie și niciun beneficiu pentru companie fără un beneficiu pentru mediu și societate.",
@@ -5828,58 +5837,58 @@
   "partnerx": {
     "networkEyebrow": "Rețeaua",
     "networkTitle": "Infrastructură Puternică. Legături Puternice.",
-    "networkLead": "K Aqua PP-R stă la baza proiectelor internaționale solicitante de conducte. O infrastructură fiabilă are nevoie de parteneri puternici. KESSEL și K Aqua reprezintă un etalon (benchmark).",
-    "kesselTitle": "Parteneriat bazat pe Calitate",
+    "networkLead": "K-Aqua PP-R stă la baza proiectelor internaționale solicitante de conducte. O infrastructură fiabilă are nevoie de parteneri puternici.",
+    "kesselTitle": "Excelență în Producție",
     "kesselItems": [
       {
-        "t": "Expertiză comună",
-        "d": "Experiență vastă reunită: de la alimentare la tehnologia de scurgere."
+        "t": "Expertiză în Fabricație",
+        "d": "Decenii de experiență în prelucrarea polimerilor pentru alimentarea cu apă potabilă."
       },
       {
         "t": "Inginerie Germană",
-        "d": "Ambele companii produc în Germania cu niveluri maxime de calitate."
+        "d": "Dezvoltare și producție 100% în Waldsolms conform standardelor DIN EN ISO 15874."
       },
       {
         "t": "Sinergii Industriale",
-        "d": "Inovație în polimeri combinată cu procese durabile."
+        "d": "Inovație în polimeri combinată cu procese durabile și management certificat GENAU."
       }
     ],
-    "ecoEyebrow": "Ecosistemul KESSEL",
-    "ecoTitle": "Beneficiile clienților K Aqua.",
-    "ecoLead": "KESSEL a construit infrastructura unui brand premium de-a lungul deceniilor. K Aqua aduce aceeași atitudine în alimentarea cu apă.",
+    "ecoEyebrow": "Ecosistemul K-Aqua",
+    "ecoTitle": "De ce beneficiază clienții K-Aqua.",
+    "ecoLead": "K-Aqua oferă antreprenorilor MEP, inginerilor și managerilor de proiect un ecosistem integrat de inginerie și servicii direct de la baza sa de producție din Germania.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL este prezent la cel mai mare târg internațional al industriei TGA, scena unde drenajul și alimentarea sunt gândite împreună."
+        "t": "Târguri Internaționale",
+        "d": "Prezență activă la marile târguri globale, inclusiv Big 5 Dubai/Riyadh și ISH: K-Aqua prezintă tehnologia modernă de sudare prin polifuziune."
       },
       {
-        "t": "PlanerPortal",
-        "d": "Platforma digitală pentru proiectanți este inima loialității zilnice a proiectanților: modelul pentru instrumentele digitale K Aqua."
+        "t": "Portalul Proiectanților & BIM",
+        "d": "Modele digitale 3D CAD și Revit cu specificații GAEB/IFC pentru o modelare MEP precisă și fără coliziuni."
       },
       {
-        "t": "KundenForum",
-        "d": "Sesiuni de formare fizice și hibride în locații dedicate, inclusiv Lenting și Hamburg. Transferul de cunoștințe înseamnă loialitate."
+        "t": "Academia K-Aqua",
+        "d": "Certificare practică pentru sudare prin mufare și cap la cap cu ghiduri video pentru instalatorii din întreaga lume."
       },
       {
-        "t": "Planungshandbuch",
-        "d": "Manualul de planificare editat de KESSEL este referința modului în care K Aqua își dezvoltă domeniul de cunoștințe pentru proiectanți: de la Academy la tabelele de dimensiuni."
+        "t": "Manual Tehnic",
+        "d": "Tabele complete de dimensionare și calcul al căderilor de presiune pentru ingineri și consultanți, disponibile imediat."
       }
     ],
-    "flowEyebrow": "Două fluxuri, o singură clădire",
-    "flowTitle": "Alimentare înăuntru, drenaj afară.",
-    "flowLead": "Orice clădire are nevoie de ambele direcții. Parteneriatul acoperă întregul traseu al apei printr-un ADN ingineresc comun.",
+    "flowEyebrow": "Compatibilitate Maximă a Sistemelor",
+    "flowTitle": "Apă potabilă, încălzire, conducte industriale.",
+    "flowLead": "De la coloanele montante din clădirile înalte până la distribuția pe etaje în proiecte de construcții complexe.",
     "flow": [
       {
-        "t": "K Aqua: Lider în alimentarea cu apă",
+        "t": "K-Aqua: Lider în Alimentarea cu Apă",
         "d": "Alimentare cu apă potabilă d20–d630: țevi, fitinguri, armături și tehnologie de sudare, fabricate în Waldsolms."
       },
       {
-        "t": "KESSEL: Lider în drenaj",
-        "d": "Producătorul premium de tehnologie de drenaj: protecție împotriva refulării, stații de pompare, separatoare. Autoritatea industriei TGA."
+        "t": "Calitate Certificată",
+        "d": "Certificat DVGW, monitorizat de SKZ și fiecare lot testat în laboratorul propriu conform DIN EN ISO 15874."
       },
       {
-        "t": "Sistem comun",
-        "d": "Proiectanții și instalatorii lucrează cu un set comun de valori: aceeași filozofie a calității, suport coordonat, comunicare rapidă."
+        "t": "Suport Ingineresc Cuprinzător",
+        "d": "Proiectanții și instalatorii au o linie directă cu echipa germană de inginerie: timp rapid de răspuns, consultanță expertă."
       }
     ],
     "roadEyebrow": "Foaia de parcurs comună",
@@ -6314,9 +6323,9 @@
         "d": "Procesarea polimerilor pentru alimentarea cu apă: expertiză infuzată în fiecare lot de extrudare."
       },
       {
-        "y": "Parteneriat",
-        "t": "Colaborare strânsă cu KESSEL",
-        "d": "Legături îndelungate cu „Leading in Drainage” împărtășind o fundație de valori comună."
+        "y": "Viitor",
+        "t": "Reorganizare condusă de proprietari",
+        "d": "Philipp Nickel și Marcello Gallio conduc K-Aqua, extinzând operațiunile internaționale ca producător german independent."
       },
       {
         "y": "GENAU",
@@ -6453,7 +6462,7 @@
       }
     ],
     "ishTitle": "Hub Industrie TGA",
-    "ishText": "Tehnologia sectorului HVAC (TGA) se expune la ISH Frankfurt, târgul comercial global principal la care partenerul nostru KESSEL prezintă progrese majore. Când programările de panel ale K Aqua sunt disponibile oficial, le puteți găsi chiar aici."
+    "ishText": "Industria HVAC se întâlnește periodic la târgurile globale de top precum Big 5 în Dubai și Riad, și ISH la Frankfurt. Datele viitoare pentru K-Aqua vor fi anunțate aici."
   },
   "contactx": {
     "routeEyebrow": "Rutare Directă",

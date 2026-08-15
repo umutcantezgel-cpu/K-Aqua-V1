@@ -45,7 +45,7 @@ export async function AboutDeep() {
                 <Card key={i} tint className="flex flex-col gap-2 p-8 text-center items-center justify-center relative overflow-hidden group shadow-sm hover:shadow-diffuse hover:border-primary/30 transition-all duration-500">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="font-heading font-extrabold text-5xl md:text-6xl text-primary tracking-tight relative z-10">
-                    {s.n}{s.u && <span className="text-3xl text-primary/70 ml-1">{s.u}</span>}
+                    {s.n}{s.u && <span className="text-3xl text-primary/70 ltr:ml-1 rtl:mr-1">{s.u}</span>}
                   </div>
                   <div className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mt-2 relative z-10">
                     {s.l}
@@ -91,12 +91,12 @@ export async function AboutDeep() {
           <Reveal>
             <SectionHead eyebrow={t("mileEyebrow")} title={t("mileTitle")} />
           </Reveal>
-          <div className="relative border-l-2 border-card-border/60 ml-4 md:ml-6 mt-16 space-y-12">
+          <div className="relative ltr:border-l-2 rtl:border-r-2 border-card-border/60 ltr:ml-4 rtl:mr-4 ltr:md:ml-6 rtl:md:mr-6 mt-16 space-y-12">
             {miles.map((m, i) => (
               <Reveal key={m.t} delay={i * 0.08}>
-                <div className="relative pl-10 md:pl-16 group">
+                <div className="relative ltr:pl-10 rtl:pr-10 ltr:md:pl-16 rtl:md:pr-16 group text-start">
                   {/* Timeline Dot */}
-                  <div className="absolute w-4 h-4 rounded-full bg-primary-soft border-2 border-primary left-[-9px] top-2 transition-transform duration-300 group-hover:scale-125 group-hover:bg-primary shadow-sm" />
+                  <div className="absolute w-4 h-4 rounded-full bg-primary-soft border-2 border-primary ltr:left-[-9px] rtl:right-[-9px] top-2 transition-transform duration-300 group-hover:scale-125 group-hover:bg-primary shadow-sm" />
                   
                   <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8 mb-3">
                     <span className="font-heading font-black text-3xl md:text-4xl text-primary/80 w-28 shrink-0 tracking-tight">
@@ -106,7 +106,7 @@ export async function AboutDeep() {
                       {m.t}
                     </h3>
                   </div>
-                  <p className="text-body text-muted-foreground leading-relaxed md:pl-[144px]">
+                  <p className="text-body text-muted-foreground leading-relaxed ltr:md:pl-[144px] rtl:md:pr-[144px]">
                     {m.d}
                   </p>
                 </div>
@@ -126,27 +126,19 @@ export async function AboutDeep() {
             {/* Big Main Feature (60% width, 100% height) */}
             <Reveal delay={0.07} className="md:col-span-2 md:row-span-2 h-[350px] md:h-full">
               <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-diffuse group">
-                <img 
-                  src="/images/new-k-aqua/ppr-rohre-vorteile.jpg" 
-                  alt="PPR-Rohre als beste Lösung" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                <MediaSlot 
+                  label={tAd("item1")}
+                  className="w-full h-full rounded-[24px]"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
-                <div className="absolute bottom-6 left-6 right-6">
-                  <div className="bg-background/95 backdrop-blur-md px-4 py-2 rounded-lg inline-block shadow-sm">
-                    <span className="text-sm font-bold text-foreground">Langlebigkeit & Effizienz</span>
-                  </div>
-                </div>
               </div>
             </Reveal>
             
             {/* Top Right Horizontal (40% width, 50% height) */}
             <Reveal delay={0.14} className="md:col-span-2 md:row-span-1 h-[250px] md:h-full">
               <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
-                <img 
-                  src="/images/new-k-aqua/was-ist-ppr.jpg" 
-                  alt="Was ist PPR?" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                <MediaSlot 
+                  label={tAd("item2")}
+                  className="w-full h-full rounded-[24px]"
                 />
               </div>
             </Reveal>
@@ -154,10 +146,9 @@ export async function AboutDeep() {
             {/* Bottom Right 1 (20% width, 50% height) */}
             <Reveal delay={0.21} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
               <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
-                <img 
-                  src="/images/new-k-aqua/flexibilitaet-ppr-rohre.jpg" 
-                  alt="K-Aqua Flexibilität" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                <MediaSlot 
+                  label={tAd("item3")}
+                  className="w-full h-full rounded-[24px]"
                 />
               </div>
             </Reveal>
@@ -165,10 +156,9 @@ export async function AboutDeep() {
             {/* Bottom Right 2 (20% width, 50% height) */}
             <Reveal delay={0.28} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
               <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
-                <img 
-                  src="/images/new-k-aqua/messingfittings-ppr.jpg" 
-                  alt="Hochwertige Messingeinsätze" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out" 
+                <MediaSlot 
+                  label={tAd("item4")}
+                  className="w-full h-full rounded-[24px]"
                 />
               </div>
             </Reveal>

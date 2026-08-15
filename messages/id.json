@@ -1,4 +1,13 @@
 {
+  "aboutDeep": {
+    "eyebrow": "Wawasan Mendalam",
+    "title": "Wawasan K-Aqua",
+    "lead": "Temukan keunggulan sistem perpipaan PP-R premium kami",
+    "item1": "Ketahanan & Efisiensi · Sistem Perpipaan PP-RCT",
+    "item2": "Ilmu Material: Polypropylene Random Copolymer",
+    "item3": "Fleksibilitas Sistem K-Aqua",
+    "item4": "Kuningan DZR Tahan Dezincifikasi"
+  },
   "toggle_theme_light": "Beralih ke tema terang",
   "toggle_theme_dark": "Beralih ke tema gelap",
   "nav": {
@@ -162,7 +171,7 @@
         "d": "Dari Frankfurt hingga NEOM: diuji sesuai dengan standar dan profil air lokal."
       }
     ],
-    "lead": "K-Aqua mengembangkan dan memproduksi sistem pipa PP-R dan PP-RCT untuk air minum berukuran 20 hingga 630 mm, bermitra dengan pabrikan premium KESSEL.",
+    "lead": "K-Aqua mengembangkan dan memproduksi sistem pipa PP-R dan PP-RCT untuk air minum berukuran 20 hingga 630 mm, dengan kualitas teknik Jerman yang bersertifikat.",
     "ctaProducts": "Temukan Sistem Produk",
     "ctaContact": "Hubungi Kami",
     "toolsEyebrow": "Peralatan Interaktif",
@@ -278,7 +287,7 @@
       "ISO 9001 · 14001 · 50001",
       "Diproduksi di Waldsolms",
       "100 % Daur Ulang",
-      "Mitra: KESSEL"
+      "100 % Buatan Jerman"
     ],
     "tools": [
       {
@@ -338,9 +347,9 @@
     "coTitle1": "Pemasok dan produsen bahan bangunan:",
     "coTitle2": "dari satu sumber.",
     "coLead": "KWT GmbH memproduksi pipa dan fiting untuk pasokan air dari berbagai plastik, menempatkan dirinya dalam rantai nilai konstruksi sebagai pemasok dan produsen.",
-    "kesselTitle": "Kemitraan yang kuat dengan KESSEL",
-    "kesselText": "Kemitraan yang erat dan berjangka panjang menghubungkan kami dengan pabrikan premium KESSEL, \"Terdepan dalam drainase\". Kami membawa pengalaman puluhan tahun ini ke masa depan.",
-    "kesselCta": "Lebih lanjut tentang kemitraan",
+    "kesselTitle": "Teknik Jerman Independen",
+    "kesselText": "Sebagai perusahaan Jerman yang dikelola oleh pemilik, Philipp Nickel dan Marcello Gallio menggabungkan keahlian manufaktur selama puluhan tahun dengan kepemimpinan yang tangkas untuk proyek air minum global.",
+    "kesselCta": "Lebih lanjut tentang K-Aqua",
     "worldTitle": "Terbukti di Seluruh Dunia",
     "worldText": "Produk K Aqua telah terbukti tak terhitung jumlahnya selama beberapa dekade di proyek-proyek di seluruh dunia.",
     "worldCta": "Globe Referensi",
@@ -642,8 +651,8 @@
       "Unduh katalog produk resmi K Aqua, lembar data teknis, dan panduan instalasi untuk sistem pipa plastik PP-R dan PPRCT."
     ],
     "partner": [
-      "Kemitraan KESSEL",
-      "K Aqua dan KESSEL telah dihubungkan oleh kemitraan puluhan tahun yang mentransfer standar manufaktur Jerman dari drainase ke pasokan air."
+      "Jaringan Mitra Global",
+      "K-Aqua bermitra dengan konsultan teknik, kontraktor MEP, dan distributor bersertifikat di seluruh dunia untuk menghadirkan sistem air minum berkualitas Jerman."
     ],
     "markets": [
       "Pasar & Lokasi",
@@ -1237,42 +1246,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "Ekosistem KESSEL",
-    "ecoTitle": "Apa yang diuntungkan pelanggan K Aqua.",
-    "ecoLead": "KESSEL telah membangun infrastruktur merek premium selama puluhan tahun. K Aqua membawa sikap yang sama terhadap pasokan air.",
+    "ecoEyebrow": "Ekosistem K-Aqua",
+    "ecoTitle": "Manfaat bagi pelanggan K-Aqua.",
+    "ecoLead": "K-Aqua menyediakan ekosistem teknik dan layanan yang mulus bagi kontraktor MEP, insinyur, dan manajer proyek dari basis manufaktur di Jerman.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL hadir di pameran perdagangan terkemuka di dunia untuk industri TGA, panggung tempat drainase dan pasokan dipertimbangkan bersama."
+        "t": "Pameran Dagang Internasional",
+        "d": "Kehadiran aktif di pameran konstruksi terkemuka termasuk Big 5 Dubai/Riyadh dan ISH: K-Aqua mengusung teknologi pengelasan fusi modern."
       },
       {
-        "t": "PlanerPortal (Portal Perencana)",
-        "d": "Platform digital untuk perencana spesialis adalah inti dari retensi perencana harian: model untuk alat digital K Aqua."
+        "t": "Portal Perencana & BIM",
+        "d": "Model CAD dan Revit 3D digital beserta spesifikasi GAEB/IFC untuk pemodelan MEP yang presisi dan bebas benturan."
       },
       {
-        "t": "KundenForum (Forum Pelanggan)",
-        "d": "Kursus pelatihan fisik dan hibrida di lokasi khusus, termasuk di Lenting dan Hamburg. Transfer pengetahuan adalah ikatan."
+        "t": "Akademi K-Aqua",
+        "d": "Pelatihan dan sertifikasi las soket dan butt-welding praktis beserta panduan video bagi para installer di seluruh dunia."
       },
       {
-        "t": "Manual Perencanaan",
-        "d": "Pengetahuan perencanaan KESSEL yang dikelola secara editorial adalah referensi tentang bagaimana K Aqua memperluas area pengetahuannya bagi para perencana: dari Akademi hingga tabel dimensi."
+        "t": "Buku Panduan Teknis",
+        "d": "Tabel dimensi dan kalkulasi penurunan tekanan yang komprehensif bagi para insinyur dan konsultan, dapat diakses langsung."
       }
     ],
-    "flowEyebrow": "Dua aliran, satu bangunan",
-    "flowTitle": "Pasokan masuk, drainase keluar.",
-    "flowLead": "Setiap bangunan membutuhkan kedua arah. Kemitraan ini mencakup seluruh jalur air dengan DNA teknik bersama.",
+    "flowEyebrow": "Kompatibilitas Sistem Maksimal",
+    "flowTitle": "Air minum, pemanas, perpipaan industri.",
+    "flowLead": "Mencakup pipa riser gedung bertingkat tinggi hingga distribusi setiap lantai untuk proyek konstruksi berstandar tinggi.",
     "flow": [
       {
-        "t": "K Aqua: Terdepan dalam Pasokan Air",
+        "t": "K-Aqua: Terdepan dalam Pasokan Air",
         "d": "Pasokan air minum d20–d630: Pipa, fiting, katup, dan teknologi pengelasan, diproduksi di Waldsolms."
       },
       {
-        "t": "KESSEL: Terdepan dalam Drainase",
-        "d": "Produsen premium teknologi drainase: perlindungan aliran balik, stasiun pengangkat, pemisah. Otoritas di industri TGA."
+        "t": "Kualitas Bersertifikat",
+        "d": "Bersertifikasi DVGW, dipantau oleh SKZ, dan diuji per batch di laboratorium internal kami sesuai DIN EN ISO 15874."
       },
       {
-        "t": "Perdagangan Bersama",
-        "d": "Perencana dan pemroses bekerja dengan komunitas nilai: filosofi kualitas yang sama, dukungan terkoordinasi, rute pendek."
+        "t": "Dukungan Teknik Komprehensif",
+        "d": "Para perencana dan installer memiliki akses langsung ke tim insinyur Jerman kami: respons cepat, konsultasi mendalam."
       }
     ],
     "roadEyebrow": "Peta Jalan Bersama",
@@ -1788,9 +1797,9 @@
         "d": "Pemrosesan plastik untuk pasokan air: pengalaman yang mengalir ke setiap batch."
       },
       {
-        "y": "Kemitraan",
-        "t": "Koneksi erat dengan KESSEL",
-        "d": "KWT dihubungkan dengan produsen premium \"Leading in Drainage\" oleh komunitas nilai jangka panjang."
+        "y": "Masa Depan",
+        "t": "Penyelarasan Kembali yang Dipimpin Pemilik",
+        "d": "Philipp Nickel dan Marcello Gallio memimpin K-Aqua, memperluas operasi internasional sebagai produsen independen Jerman."
       },
       {
         "y": "GENAU",
@@ -2432,7 +2441,7 @@
       }
     ],
     "ishTitle": "Titik Pertemuan Industri",
-    "ishText": "Industri HVAC bertemu di ISH di Frankfurt, pameran dagang terkemuka dunia di mana mitra KESSEL secara reguler hadir. Segera setelah jadwal K Aqua ditetapkan, jadwal tersebut akan muncul di sini."
+    "ishText": "Industri HVAC secara teratur berkumpul di pameran dagang dunia seperti Big 5 di Dubai dan Riyadh, serta ISH di Frankfurt. Jadwal partisipasi K-Aqua mendatang akan diumumkan di sini."
   },
   "contactx": {
     "routeEyebrow": "Rute Langsung",
@@ -7767,26 +7776,26 @@
     "scope3": "Data emisi Scope 3 dan data mentah EPD berdasarkan permintaan: transparansi proaktif daripada pemenuhan kewajiban semata."
   },
   "partner": {
-    "eyebrow": "Kemitraan",
-    "title1": "Dua Merek.",
-    "titleGrad": "Satu Sikap.",
-    "lead": "Dua Merek. Satu Sikap. Kemitraan yang erat selama puluhan tahun antara K-Aqua dan KESSEL mentransfer kepercayaan premium dari drainase ke penyediaan air untuk sistem pipa PP-R.",
-    "onionAria": "Model kemitraan lapisan bawang",
+    "eyebrow": "Mitra & Jaringan",
+    "title1": "Kemitraan yang Kuat.",
+    "titleGrad": "Satu Misi.",
+    "lead": "K-Aqua berfokus pada kemitraan global dengan konsultan teknik, kontraktor MEP, dan distributor untuk menegakkan standar kualitas Jerman dalam pasokan air minum di seluruh dunia.",
+    "onionAria": "Model kemitraan K-Aqua",
     "rings": [
       {
-        "l": "Merek Inti",
-        "t": "KESSEL: Pemimpin dalam Drainase",
-        "d": "Produsen premium teknologi drainase. Pameran global menjadikan KESSEL otoritas di industri TGA."
+        "l": "Kepemimpinan",
+        "t": "K-Aqua: DNA Rekayasa Jerman",
+        "d": "Dikelola langsung oleh Philipp Nickel dan Marcello Gallio: Manufaktur independen, pengambilan keputusan yang tangkas, dan kontrol kualitas tanpa kompromi."
       },
       {
         "l": "Sistem",
-        "t": "K Aqua: Terdepan dalam Penyediaan Air",
-        "d": "Sisi penyediaan dari DNA teknik yang sama: sistem PP-R/PPRCT lengkap d20–d630, diproduksi di Jerman."
+        "t": "K-Aqua: Terdepan dalam Penyediaan Air",
+        "d": "Sisi penyediaan dari rekayasa terkemuka Jerman: Sistem PP-R/PP-RCT lengkap d20–d630, diproduksi di Jerman sesuai DIN EN ISO 15874."
       },
       {
         "l": "Layanan",
-        "t": "Ekosistem Bersama",
-        "d": "Perencana mendapat manfaat ganda: pelatihan, dukungan pengelasan, dan alat perencanaan digital."
+        "t": "Jaringan Mitra Global",
+        "d": "Perencana mendapat manfaat di seluruh dunia: pelatihan teknis, dukungan teknologi pengelasan, objek BIM, dan konsultasi proyek khusus untuk proyek skala besar."
       }
     ],
     "whyEyebrow": "Mengapa PP-R/PPRCT",

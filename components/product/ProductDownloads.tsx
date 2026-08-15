@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLocale } from 'next-intl';
-import { FileText, Download, FileArchive, ShieldCheck } from 'lucide-react';
+import { FileText, Download, FileArchive, ShieldCheck, ArrowRight } from 'lucide-react';
+import { Link } from '@/lib/i18n/navigation';
 
 interface ProductDownloadsProps {
   translations: {
@@ -20,12 +21,31 @@ export default function ProductDownloads({ translations }: ProductDownloadsProps
 
   const downloads = [
     {
+      title: 'BIM / CAD Modelle (Revit & IFC)',
+      desc: '3D-Geometrie mit Dimensionen & SDR für Kollisionsprüfung',
+      icon: FileArchive,
+      href: '/ressourcen/ausschreibungstexte',
+      size: 'RFA / IFC',
+      lang: '3D',
+      isInternalLink: true,
+    },
+    {
+      title: 'Ausschreibungstexte (GAEB)',
+      desc: 'Standardisierte Leistungsverzeichnisse & Spezifikationen',
+      icon: FileText,
+      href: '/ressourcen/ausschreibungstexte',
+      size: 'GAEB / XML',
+      lang: 'DE/EN',
+      isInternalLink: true,
+    },
+    {
       title: translations.range,
       desc: translations.rangeDesc,
       icon: FileText,
       href: '/pdf/k-aqua-product-range-en.pdf',
       size: '1.2 MB',
       lang: 'EN',
+      isInternalLink: false,
     },
     {
       title: translations.cert,
@@ -34,6 +54,7 @@ export default function ProductDownloads({ translations }: ProductDownloadsProps
       href: certIsGerman ? '/pdf/kwt-iso-zertifikat-de.pdf' : '/pdf/kwt-iso-certificates-en.pdf',
       size: certIsGerman ? '0.3 MB' : '0.4 MB',
       lang: certIsGerman ? 'DE' : 'EN',
+      isInternalLink: false,
     },
     {
       title: translations.features,
@@ -42,6 +63,7 @@ export default function ProductDownloads({ translations }: ProductDownloadsProps
       href: '/pdf/k-aqua-product-features-en.pdf',
       size: '1.8 MB',
       lang: 'EN',
+      isInternalLink: false,
     },
   ];
 
@@ -54,15 +76,8 @@ export default function ProductDownloads({ translations }: ProductDownloadsProps
       <div className="flex flex-col gap-3">
         {downloads.map((item, idx) => {
           const Icon = item.icon;
-          return (
-            <a
-              key={idx}
-              href={item.href}
-              download
-              target="_blank"
-              rel="noopener"
-              className="group relative flex items-center justify-between p-4 rounded-xl border border-card-border bg-card shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300"
-            >
+          const content = (
+            <>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-background-subtle flex items-center justify-center text-muted-foreground group-hover:text-primary group-hover:bg-primary-soft transition-colors shrink-0">
                   <Icon className="w-6 h-6" />
@@ -78,12 +93,37 @@ export default function ProductDownloads({ translations }: ProductDownloadsProps
               </div>
               <div className="flex flex-col items-end gap-1">
                 <div className="w-8 h-8 rounded-full bg-background-subtle flex items-center justify-center text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground transition-all shrink-0">
-                  <Download className="w-4 h-4" />
+                  {item.isInternalLink ? <ArrowRight className="w-4 h-4" /> : <Download className="w-4 h-4" />}
                 </div>
                 <span className="text-[10px] font-mono text-muted-foreground opacity-50 group-hover:opacity-100 transition-opacity">
                   {item.lang} · {item.size}
                 </span>
               </div>
+            </>
+          );
+
+          if (item.isInternalLink) {
+            return (
+              <Link
+                key={idx}
+                href={item.href}
+                className="group relative flex items-center justify-between p-4 rounded-xl border border-card-border bg-card shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300"
+              >
+                {content}
+              </Link>
+            );
+          }
+
+          return (
+            <a
+              key={idx}
+              href={item.href}
+              download
+              target="_blank"
+              rel="noopener"
+              className="group relative flex items-center justify-between p-4 rounded-xl border border-card-border bg-card shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300"
+            >
+              {content}
             </a>
           );
         })}

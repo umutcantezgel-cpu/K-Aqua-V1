@@ -1,4 +1,13 @@
 {
+  "aboutDeep": {
+    "eyebrow": "Chuqur tahlil",
+    "title": "K-Aqua ekspertizasi",
+    "lead": "Bizning premium PP-R va PP-RCT quvur tizimlarining muhandislik afzalliklarini kashf eting",
+    "item1": "Chidamlilik va samaradorlik · PP-RCT quvur tizimlari",
+    "item2": "Materialshunoslik: Polipropilen tasodifiy sopolimeri",
+    "item3": "K-Aqua tizimining moslashuvchanligi",
+    "item4": "DZR latun: Ruxsizlanishga chidamli"
+  },
   "toggle_theme_light": "Yorqin mavzuga o'tish",
   "toggle_theme_dark": "Qorong'i mavzuga o'tish",
   "nav": {
@@ -103,8 +112,8 @@
       "Rasmiy K-Aqua mahsulot kataloglarini, texnik ma'lumotlarni va PP-R hamda PPRCT plastik quvurlari tizimlari bo'yicha o'rnatish ko'rsatmalarini yuklab oling."
     ],
     "partner": [
-      "KESSEL hamkorligi",
-      "K-Aqua va KESSEL uzoq yillik hamkorlik bilan bog'langan bo'lib, nemis ishlab chiqarish standartlarini drenajdan suv ta'minotiga o'tkazadi."
+      "Global hamkorlar tarmog'i",
+      "K-Aqua ichimlik suvi ta'minotida nemis sifati standartlarini kafolatlash uchun butun dunyo bo'ylab muhandislik maslahatchilari, santexnika pudratchilari va sertifikatlangan distribyutorlar bilan hamkorlik qiladi."
     ],
     "markets": [
       "Bozorlar va joylashuvlar",
@@ -205,7 +214,7 @@
         "d": "Frankfurtdan NEOMgacha: mahalliy standartlar va suv profillari bo'yicha sinovdan o'tgan."
       }
     ],
-    "lead": "K-Aqua KESSEL premium ishlab chiqaruvchisi bilan hamkorlikda 20 dan 630 mm gacha bo'lgan ichimlik suvi uchun PP-R va PP-RCT quvur tizimlarini ishlab chiqadi va ishlab chiqaradi.",
+    "lead": "K-Aqua sertifikatlangan nemis muhandisligi bilan 20 dan 630 mm gacha bo'lgan ichimlik suvi uchun PP-R va PP-RCT quvur tizimlarini ishlab chiqadi va ishlab chiqaradi.",
     "ctaProducts": "Mahsulot tizimini kashf eting",
     "ctaContact": "Aloqaga chiqing",
     "toolsEyebrow": "Interaktiv asboblar",
@@ -364,7 +373,7 @@
       "ISO 9001 · 14001 · 50001",
       "Waldsolmsda ishlab chiqarilgan",
       "100 % qayta ishlash",
-      "Hamkor: KESSEL"
+      "100 % Made in Germany"
     ],
     "tools": [
       {
@@ -424,9 +433,9 @@
     "coTitle1": "Qurilish materiallari yetkazib beruvchisi va ishlab chiqaruvchisi:",
     "coTitle2": "bitta manbadan.",
     "coLead": "KWT GmbH suv ta'minoti uchun turli plastmassalardan quvurlar va fitinglar ishlab chiqaradi va o'zini qurilish zanjirida ham yetkazib beruvchi, ham ishlab chiqaruvchi sifatida ko'rsatadi.",
-    "kesselTitle": "KESSEL bilan kuchli hamkorlik",
-    "kesselText": "Premium ishlab chiqaruvchi KESSEL bilan, \"Drenajda yetakchi\", bizni yaqin, uzoq muddatli hamkorlik bog'laydi. Biz o'n yillik bu tajribani kelajakka olib o'tamiz.",
-    "kesselCta": "Hamkorlik haqida ko'proq",
+    "kesselTitle": "Mustaqil nemis muhandisligi",
+    "kesselText": "Egalari tomonidan boshqariladigan nemis korxonasi sifatida Philipp Nickel va Marcello Gallio o'n yillik ishlab chiqarish tajribasini global ichimlik suvi loyihalari uchun tezkor yetakchilik bilan birlashtiradi.",
+    "kesselCta": "K-Aqua haqida batafsil",
     "worldTitle": "Butun dunyo bo'ylab isbotlangan",
     "worldText": "K-Aqua mahsulotlari o'nlab yillar davomida butun dunyo bo'ylab loyihalarda son-sanoqsiz marta o'zini isbotlagan.",
     "worldCta": "Loyiha globusi",
@@ -1429,7 +1438,7 @@
     "lead": "Yangi strategiyalar, o'sib borayotgan bilim: K-Aqua ishlab chiqaruvchisi sifatida KWT GmbH o'n yillik ishlab chiqarish tajribasini kelajakka aniq qarash bilan birlashtiradi.",
     "h2": "K Aqua: suv ta'minotida yetakchi",
     "p1": "KWT GmbH ning faoliyat sohasi turli plastmassalardan suv ta'minoti uchun quvurlar va armatura ishlab chiqarishdir. Shu tariqa kompaniya o'zini qurilish zanjirida qurilish materiallari yetkazib beruvchi va ishlab chiqaruvchi sifatida ko'rsatadi.",
-    "p2": "Premium ishlab chiqaruvchi KESSEL, „Drenajda yetakchi“ bilan yaqin va uzoq muddatli hamkorlik mavjud. Ushbu o'n yillik tajriba bilan biz muvaffaqiyatimizni kelajakka olib boramiz.",
+    "p2": "Philipp Nickel va Marcello Gallio ning tadbirkorlik boshqaruvi ostida K-Aqua jahon bozorlari uchun eng yuqori sifat standartlariga, texnologik innovatsiyalarga va barqaror polimer ishlab chiqarishga e'tibor qaratadi.",
     "polEyebrow": "Kompaniya siyosati",
     "polTitle": "Foyda o'zaro ta'sirdan kelib chiqadi.",
     "polLead": "Xodimlar foydasisiz mijozlar foydasi bo'lmaydi, kompaniya foydasisiz xodimlar foydasi bo'lmaydi va atrof-muhit va boshqa mavjudotlar uchun foydasiz kompaniya foydasi bo'lmaydi.",
@@ -4537,30 +4546,26 @@
     "scope3": "K-Aqua mahsulotlari bilan Scope 3 emissiyalarini kamaytirish haqida bilib oling."
   },
   "partner": {
-    "eyebrow": "Bizning mas'uliyatimiz",
-    "title1": "Biz global miqyosda ishlaymiz.",
-    "titleGrad": "Lekin mahalliymiz.",
-    "lead": "K Aqua PP-R tizimlari butun dunyo bo'ylab qo'llaniladi. Shunga qaramay, biz har bir metr quvurni Valdsolmsdagi (Germaniya) zavodimizda ishlab chiqaramiz va sinovdan o'tkazamiz.",
-    "globeAria": "Interaktiv globus, aylantirish uchun torting",
-    "factory": "Bizning zavodimiz (Valdsolms)",
-    "factoryDesc": "Markaziy Yevropa bo'ylab etkazib berish. Mahsulotlarni kuzatib borish va nemis sifati nazorati.",
-    "globeTooltip": "Butun dunyo bo'ylab K-Aqua",
-    "onionAria": "Global hamkorlar tarmog'i",
+    "eyebrow": "Hamkorlar va global tarmoq",
+    "title1": "Kuchli hamkorlar.",
+    "titleGrad": "Yagona missiya.",
+    "lead": "K-Aqua butun dunyo bo'ylab suv ta'minotida nemis sifati standartlarini ta'minlash uchun muhandislar, montajchilar va distribyutorlar bilan global hamkorlikka tayanadi.",
+    "onionAria": "K-Aqua hamkorlik modeli",
     "rings": [
       {
-        "l": "Kernmarke",
-        "t": "Batafsil ma'lumot...",
-        "d": "Batafsil ma'lumot..."
+        "l": "Yetakchilik",
+        "t": "K-Aqua: Nemis muhandislik DNKsi",
+        "d": "Egalari Philipp Nickel va Marcello Gallio tomonidan boshqariladi: mustaqil ishlab chiqarish, tezkor qarorlar va murosasiz sifat nazorati."
       },
       {
-        "l": "System",
-        "t": "Batafsil ma'lumot...",
-        "d": "Batafsil ma'lumot..."
+        "l": "Tizim",
+        "t": "K-Aqua: Suv ta'minotida yetakchi",
+        "d": "Nemis premium muhandisligi: DIN EN ISO 15874 bo'yicha Germaniyada ishlab chiqarilgan to'liq PP-R/PP-RCT d20–d630 tizimi."
       },
       {
-        "l": "Service",
-        "t": "Gemeinsames Ökosystem",
-        "d": "Batafsil ma'lumot..."
+        "l": "Xizmat",
+        "t": "Global hamkorlar tarmog'i",
+        "d": "Loyihachilar butun dunyo bo'ylab foyda ko'radi: texnik treninglar, payvandlashni qo'llab-quvvatlash, BIM modellari va yirik loyihalar uchun shaxsiy maslahat."
       }
     ],
     "whyEyebrow": "Nima uchun biz?",
@@ -5601,42 +5606,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "KESSEL ekotizimi",
-    "ecoTitle": "K Aqua mijozlari nimadan foyda ko'rishadi.",
-    "ecoLead": "KESSEL o'nlab yillar davomida premium brend infratuzilmasini qurgan. K Aqua suv ta'minotiga ham xuddi shunday yondashuvni olib keladi.",
+    "ecoEyebrow": "K-Aqua ekotizimi",
+    "ecoTitle": "K-Aqua mijozlari qanday foyda ko'radi.",
+    "ecoLead": "K-Aqua loyihachilar, montajchilar va quruvchilar uchun to'g'ridan-to'g'ri o'zining nemis zavodidan keng qamrovli muhandislik va servis ekotizimini taqdim etadi.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL o'z ishtirokini TGA tarmog'ining dunyodagi yetakchi ko'rgazmasida, drenaj va ta'minot birgalikda ko'rib chiqiladigan sahnada namoyish etadi."
+        "t": "Xalqaro ko'rgazmalar",
+        "d": "Big 5 Dubay/Ar-Riyod va ISH kabi yetakchi ko'rgazmalarda faol ishtirok: K-Aqua ilg'or polifuzion payvandlash texnologiyasini namoyish etadi."
       },
       {
-        "t": "Loyihachilar portali (PlanerPortal)",
-        "d": "Mutaxassis loyihachilar uchun raqamli platforma kunlik loyihachi sadoqatining markazidir: K Aqua ning raqamli vositalari uchun o'rnak."
+        "t": "Loyihachilar portali va BIM",
+        "d": "Quvur tarmog'ini aniq va xatosiz rejalashtirish uchun GAEB/IFC spetsifikatsiyalariga ega raqamli 3D CAD va Revit modellari."
       },
       {
-        "t": "Mijozlar forumi (KundenForum)",
-        "d": "Maxsus joylarda, jumladan Lenting va Hamburgda jismoniy va gibrid treninglar. Bilim almashish - bu aloqani mustahkamlashdir."
+        "t": "K-Aqua Akademiyasi",
+        "d": "Butun dunyo bo'ylab montajchilar uchun video qo'llanmalar bilan muftali va to'g'ri payvandlash bo'yicha amaliy sertifikatlash."
       },
       {
-        "t": "Loyihalashtirish qo'llanmasi (Planungshandbuch)",
-        "d": "KESSEL ning ehtiyotkorlik bilan tahrirlangan loyihalash bilimlari K Aqua o'zining loyihachilar uchun bilimlar bazasini qanday kengaytirayotganiga yorqin misoldir: Akademiyadan tortib o'lchamlar jadvallarigacha."
+        "t": "Texnik loyihalash qo'llanmasi",
+        "d": "Muhandislar va maslahatchilar uchun bosim yo'qotilishi va o'lchamlarni hisoblashning to'liq jadvallari darhol mavjud."
       }
     ],
-    "flowEyebrow": "Ikkita oqim, bitta bino",
-    "flowTitle": "Ta'minot ichkariga, drenaj tashqariga.",
-    "flowLead": "Har bir binoga har ikki yo'nalish kerak. Hamkorlik yagona muhandislik DNKsi bilan butun suv yo'lini qoplaydi.",
+    "flowEyebrow": "Maksimal tizim mosligi",
+    "flowTitle": "Ichimlik suvi, isitish va sanoat quvurlari.",
+    "flowLead": "Osmono'par binolardagi tik quvurlardan tortib murakkab inshootlardagi qavatlararo taqsimotgacha.",
     "flow": [
       {
-        "t": "K Aqua: Suv ta'minoti bo'yicha yetakchi (Leading in Water Supply)",
-        "d": "Ichimlik suvi ta'minoti d20–d630: Valdsolmsda ishlab chiqarilgan quvurlar, fittinglar, armaturalar va payvandlash texnologiyasi."
+        "t": "K-Aqua: Suv ta'minotida yetakchi",
+        "d": "d20–d630 ichimlik suvi ta'minoti: Valdsolmsda ishlab chiqarilgan quvurlar, fitinglar, klapanlar va payvandlash texnologiyasi."
       },
       {
-        "t": "KESSEL: Drenaj bo'yicha yetakchi (Leading in Drainage)",
-        "d": "Drenaj texnologiyasining premium ishlab chiqaruvchisi: teskari oqimdan himoya, nasos stansiyalari, ajratgichlar. TGA sohasining obro'si."
+        "t": "Sertifikatlangan sifat",
+        "d": "DVGW sertifikatiga ega, SKZ tomonidan nazorat qilinadi va DIN EN ISO 15874 bo'yicha o'z laboratoriyamizda har bir partiya sinovdan o'tkaziladi."
       },
       {
-        "t": "Umumiy ish",
-        "d": "Loyihachilar va o'rnatuvchilar umumiy qadriyatlarga ega tizim bilan ishlaydi: bir xil sifat falsafasi, muvofiqlashtirilgan yordam, qisqa yo'llar."
+        "t": "To'liq muhandislik yordami",
+        "d": "Loyihachilar va montajchilar bizning nemis muhandislik guruhimiz bilan to'g'ridan-to'g'ri bog'lanishlari mumkin: tezkor javob va professional maslahat."
       }
     ],
     "roadEyebrow": "Umumiy yo'l xaritasi",
@@ -6085,9 +6090,9 @@
         "d": "Suv ta'minoti uchun plastmassani qayta ishlash: har bir partiyaga kiritilgan tajriba."
       },
       {
-        "y": "Hamkorlik",
-        "t": "KESSEL bilan yaqin aloqa",
-        "d": "KWT uzoq yillik umumiy qadriyatlar orqali \"Leading in Drainage\" premium ishlab chiqaruvchisi bilan bog'langan."
+        "y": "Kelajak",
+        "t": "Egalari boshchiligidagi yangi yo'nalish",
+        "d": "Philipp Nickel va Marcello Gallio K-Aqua-ni boshqarib, mustaqil nemis ishlab chiqaruvchisi sifatida xalqaro faoliyatni kengaytirmoqda."
       },
       {
         "y": "GENAU",
@@ -6156,8 +6161,8 @@
         ]
       }
     ],
-    "ishTitle": "Sohaning uchrashuv joyi",
-    "ishText": "TGA tarmog'i Frankfurtda ISH da yig'iladi, u yerda KESSEL hamkori muntazam ishtirok etadigan dunyoning yetakchi savdo ko'rgazmasi. K Aqua tadbirlari tasdiqlanishi bilanoq, ular bu yerda e'lon qilinadi."
+    "ishTitle": "Sohaviy uchrashuv joyi",
+    "ishText": "Bino muhandisligi va santexnika sohasi muntazam ravishda Dubay va Ar-Riyoddagi Big 5 hamda Frankfurtda ISH kabi dunyoning yetakchi ko'rgazmalarida yig'iladi. K-Aqua tadbirlari bu yerda e'lon qilinadi."
   },
   "contactx": {
     "routeEyebrow": "To'g'ridan-to'g'ri yo'llar",

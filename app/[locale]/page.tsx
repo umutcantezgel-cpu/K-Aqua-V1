@@ -313,7 +313,7 @@ export default async function Page({ params }: Props) {
                   alt={tHomex('manifestTitle')} 
                   aspectRatio="4/3" 
                   shapeVariant="sweep-r" 
-                  src="/images/new-k-aqua/about-us.webp" 
+                  label="K-Aqua Qualitätsfertigung Waldsolms" 
                   loading="lazy"
                 />
               </div>
@@ -334,7 +334,7 @@ export default async function Page({ params }: Props) {
                   alt={tHomex('worldTitle')} 
                   aspectRatio="16/9" 
                   shapeVariant="sweep-l" 
-                  src="/images/new-k-aqua/big5-messe-saudi-arabien.webp"
+                  label="Globale Projekte & Referenzen"
                   loading="lazy"
                 />
                 <Button

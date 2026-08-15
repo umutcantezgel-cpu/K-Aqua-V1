@@ -1,4 +1,13 @@
 {
+  "aboutDeep": {
+    "eyebrow": "Kapsamlı Genel Bakış",
+    "title": "K-Aqua Uzmanlığı",
+    "lead": "Üstün kaliteli PP-R boru sistemlerimizin avantajlarını keşfedin",
+    "item1": "Uzun Ömür ve Verimlilik · PP-RCT Boru Sistemleri",
+    "item2": "Malzeme Bilimi: Polipropilen Random Kopolimer",
+    "item3": "K-Aqua Sisteminin Esnekliği",
+    "item4": "DZR Pirinç: Çinkosuzlaşmaya Dirençli"
+  },
   "catalogx": {
     "eyebrow": "Vollständiger Produktkatalog",
     "faqTitle": "Häufig gestellte Fragen",
@@ -587,7 +596,7 @@
       "adaptor-socket-male-thread": {
         "seo_p1": "Die Übergangsmuffe mit Außengewinde (Adaptor Socket Male Thread) ermöglicht den festen und sicheren Anschluss des PP-R Netzes an weiterführende metallische Rohrleitungen.",
         "seo_p2": "Eine auszugssichere Verankerung des Messing-Außengewindes im hochfesten Polypropylen-Körper verhindert Verdrehungen und garantiert extreme Langlebigkeit bei hohen Temperatur- und Druckschwankungen.",
-        "seo_p3": "Häufig verwendet beim Anschluss von Heizkesseln, Wärmepumpen oder Filtern, stellt diese Muffe eine dauerhafte und normgerechte Gewindeverbindung sicher.",
+        "seo_p3": "Kazanlar, ısı pompaları veya filtre bağlantılarında sıklıkla kullanılan bu manşon, standartlara uygun ve kalıcı bir dişli bağlantı sağlar.",
         "faq": [
           {
             "q": "Ist das Innengewinde durchgängig aus Messing?",
@@ -1508,8 +1517,8 @@
       "K Aqua PP-R ve PPRCT plastik boru sistemleri için resmi ürün kataloglarını, teknik veri sayfalarını ve kurulum kılavuzlarını indirin."
     ],
     "partner": [
-      "Borular için Premium KESSEL Ortaklığı",
-      "K Aqua ve KESSEL, Alman üretim standartlarını drenaj sistemlerinden su teminine taşıyan onlarca yıllık bir ortaklığa sahiptir."
+      "Küresel Ortaklık Ağı",
+      "K-Aqua, içme suyu sistemlerinde Alman mühendislik kalitesini garanti etmek için dünya genelinde planlama ofisleri, MEP yüklenicileri ve sertifikalı distribütörlerle iş birliği yapmaktadır."
     ],
     "markets": [
       "Küresel Pazarlar ve Yerel Satış Yapısı",
@@ -1610,7 +1619,7 @@
         "d": "Frankfurt'tan NEOM'a: Yerel standartlara ve su profillerine göre test edilmiştir."
       }
     ],
-    "lead": "K Aqua, KESSEL premium üreticisi ile ortaklaşa olarak içme suyu için 20 ila 630 mm arasında PP-R/PPRCT boru sistemleri geliştirir ve üretir.",
+    "lead": "K-Aqua, sertifikalı Alman mühendislik kalitesiyle 20 ila 630 mm arasında içme suyu için PP-R ve PP-RCT boru sistemleri geliştirmekte ve üretmektedir.",
     "ctaProducts": "Ürün Sistemini Keşfet",
     "ctaContact": "İletişime Geç",
     "toolsEyebrow": "İnteraktif Araçlar",
@@ -1681,19 +1690,19 @@
     }
   },
   "footer": {
-    "tagline": "K Aqua, führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",
-    "colTools": "Produkte & Tools",
-    "colCompany": "Unternehmen",
-    "colContact": "Kontakt",
-    "directions": "Anfahrt & Standort",
-    "rights": "Alle Rechte vorbehalten.",
-    "imprint": "Impressum",
-    "privacy": "Datenschutz",
+    "tagline": "K-Aqua, su temininde lider. KWT GmbH tarafından Waldsolms'ta üretilen içme suyu PP-R/PP-RCT boru sistemleri.",
+    "colTools": "Ürünler & Araçlar",
+    "colCompany": "Şirket",
+    "colContact": "İletişim",
+    "directions": "Ulaşım & Konum",
+    "rights": "Tüm hakları saklıdır.",
+    "imprint": "Künye",
+    "privacy": "Gizlilik",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
-    "address": "Auweg 3, 35647 Waldsolms, Deutschland",
+    "address": "Auweg 3, 35647 Waldsolms, Almanya",
     "copyright": "© 2026 KWT GmbH.",
-    "projectCta": "Projekt anfragen",
+    "projectCta": "Proje Talebi",
     "badges": [
       {
         "t": "SKZ-Cert",
@@ -1738,61 +1747,60 @@
       {
         "n": "630",
         "u": "mm",
-        "l": "maximale Rohrdimension im Programm"
+        "l": "ürün gamındaki maksimum boru çapı"
       },
       {
         "n": "5",
         "u": "SDR",
-        "l": "Druckstufen: SDR 6 / 7,4 / 9 / 11 / 17"
+        "l": "Basınç sınıfları: SDR 6 / 7,4 / 9 / 11 / 17"
       },
       {
         "n": "3×",
         "u": "ISO",
-        "l": "Qualität, Umwelt & Energie geprüft"
+        "l": "Kalite, Çevre ve Enerji sertifikalı"
       },
       {
         "n": "100",
         "u": "%",
-        "l": "Produktionsabfälle werden recycelt"
+        "l": "üretim atıkları geri dönüştürülür"
       }
     ],
-    "heroBadgeLabel": "Rohrdimensionen, SDR 6 bis SDR 17",
+    "heroBadgeLabel": "Boru boyutları, SDR 6'dan SDR 17'ye",
     "marquee": [
-      "Führend in der Wasserversorgung",
-      "d20, d630",
+      "Su Temininde Lider",
+      "d20 – d630",
       "ISO 9001 · 14001 · 50001",
-      "Gefertigt in Waldsolms",
-      "100 % Recycling",
-      "Partner: KESSEL"
+      "Waldsolms'ta Üretilmiştir",
+      "100 % Geri Dönüşüm",
+      "100 % Made in Germany"
     ],
     "tools": [
       {
         "id": "finder",
-        "t": "Produktfinder",
-        "d": "170+ Artikelvarianten live filtern, Dimension, SDR, Wandstärke sofort.",
-        "cta": "Jetzt filtern"
+        "t": "Ürün Bulucu",
+        "d": "170'den fazla ürün çeşidini canlı filtreleyin: Çap, SDR ve et kalınlığı anında.",
+        "cta": "Şimdi filtrele"
       },
       {
         "id": "co2",
-        "t": "CO₂-Rechner",
-        "d": "Ihr Projekt vs. Kupfer, Edelstahl und PVC, in Bäumen und Pkw-Kilometern.",
-        "cta": "Jetzt rechnen"
+        "t": "CO₂ Hesaplayıcı",
+        "d": "Projeniz vs. bakır, paslanmaz çelik ve PVC; ağaç ve araç kilometreleri cinsinden.",
+        "cta": "Şimdi hesapla"
       },
       {
         "id": "academy",
-        "t": "Academy + Quiz",
-        "d": "Vier Schweißverfahren im Video, dann das Schweißmeister-Quiz.",
-        "cta": "Meister werden"
+        "t": "Akademi + Quiz",
+        "d": "Videolu dört kaynak yöntemi, ardından kaynak ustalık testi.",
+        "cta": "Usta olun"
       },
       {
         "id": "references",
-        "t": "Referenz-Globus",
-        "d": "Den Planeten drehen, Projekte entdecken, von Waldsolms bis Singapur.",
-        "cta": "Globus drehen"
+        "t": "Referans Küresi",
+        "d": "Gezegeni döndürün, projeleri keşfedin: Waldsolms'tan Singapur'a.",
+        "cta": "Küreyi döndür"
       },
       {
         "id": "trust",
-        "t": "Trust Center",
         "d": "Zertifikate prüfen und das RFP-Dokumentenpaket selbst schnüren.",
         "cta": "Paket bauen"
       },
@@ -1819,16 +1827,16 @@
       "CO₂-Rechner macht Daten zum Argument",
       "Benefits-Rechner + Culture Match"
     ],
-    "coEyebrow": "Das Unternehmen",
-    "coTitle1": "Baustofflieferant und Hersteller",
-    "coTitle2": "aus einer Hand.",
-    "coLead": "Die KWT GmbH fertigt Rohre und Formteile für die Wasserversorgung aus verschiedenen Kunststoffen und positioniert sich damit in der Wertschöpfungskette Bau als Lieferant und Hersteller zugleich.",
-    "kesselTitle": "Starke Partnerschaft mit KESSEL",
-    "kesselText": "Mit dem Premiumhersteller KESSEL, „Leading in drainage\", verbindet uns eine enge, langjährige Partnerschaft. Diese Erfahrung aus Jahrzehnten tragen wir in die Zukunft.",
-    "kesselCta": "Mehr zur Partnerschaft",
-    "worldTitle": "Weltweit bewährt",
-    "worldText": "K Aqua-Produkte haben sich über Jahrzehnte unzählige Male in Projekten auf der ganzen Welt bewährt.",
-    "worldCta": "Referenz-Globus",
+    "coEyebrow": "Şirket",
+    "coTitle1": "Yapı malzemesi tedarikçisi ve üretici:",
+    "coTitle2": "tek elden.",
+    "coLead": "KWT GmbH, su temini için çeşitli plastiklerden borular ve bağlantı parçaları üretmekte; inşaat değer zincirinde hem tedarikçi hem de üretici olarak konumlanmaktadır.",
+    "kesselTitle": "Bağımsız Alman Mühendisliği",
+    "kesselText": "Sahibi tarafından yönetilen bir Alman işletmesi olarak Philipp Nickel ve Marcello Gallio, küresel içme suyu projeleri için onlarca yıllık üretim uzmanlığını çevik yönetimle birleştirmektedir.",
+    "kesselCta": "K-Aqua hakkında daha fazla bilgi",
+    "worldTitle": "Dünya Çapında Kanıtlanmış",
+    "worldText": "K Aqua ürünleri, onlarca yıldır dünyanın dört bir yanındaki projelerde sayısız kez kendini kanıtlamıştır.",
+    "worldCta": "Referans Küresi",
     "cards": [
       {
         "t": "GENAU-Managementsystem",
@@ -3601,7 +3609,7 @@
     "lead": "Neue Strategien, gewachsenes Wissen: Die KWT GmbH verbindet jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
     "h2": "K Aqua, führend in der Wasserversorgung",
     "p1": "KWT GmbH'nin faaliyet alanı, su tedariği için çeşitli plastiklerden boru ve bağlantı parçalarının üretimidir. Bu sayede şirket, inşaat değer zincirinde yapı malzemesi tedarikçisi ve üreticisi olarak konumlanmaktadır.",
-    "p2": "Drenaj sistemlerinde lider olan premium üretici KESSEL ile yakın ve uzun soluklu bir ortaklığımız bulunmaktadır. Onlarca yıllık bu deneyimle başarımızı geleceğe taşıyoruz.",
+    "p2": "Philipp Nickel ve Marcello Gallio'nun girişimci liderliğinde K-Aqua; küresel pazarlar için en yüksek kalite standartlarına, teknolojik yeniliklere ve sürdürülebilir polimer üretimine odaklanmaktadır.",
     "polEyebrow": "Şirket Politikası",
     "polTitle": "Değer, işbirliği ile doğar.",
     "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen, und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
@@ -4161,26 +4169,26 @@
     "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage, proaktive Transparenz statt Pflichterfüllung."
   },
   "partner": {
-    "eyebrow": "Partnerschaft",
-    "title1": "Zwei Marken.",
-    "titleGrad": "Eine Haltung.",
-    "lead": "Zwei Marken. Eine Haltung. Die enge, jahrzehntelange Partnerschaft mit KESSEL überträgt Premium-Vertrauen aus der Entwässerung in die Wasserversorgung.",
-    "onionAria": "Zwiebelschalenmodell der Partnerschaft",
+    "eyebrow": "Ortaklar ve Ağ",
+    "title1": "Güçlü Ortaklar.",
+    "titleGrad": "Tek Bir Misyon.",
+    "lead": "K-Aqua, dünya çapında Alman kalitesinde su temini sağlamak için danışman mühendisler, MEP yüklenicileri ve distribütörlerle küresel ortaklıklara odaklanmaktadır.",
+    "onionAria": "K-Aqua ortaklık modeli",
     "rings": [
       {
-        "l": "Kernmarke",
-        "t": "KESSEL, Leading in Drainage",
-        "d": "Premiumhersteller der Entwässerungstechnik. Weltleitmessen wie die ISH, das PlanerPortal und das KundenForum machen KESSEL zur Autorität der TGA-Branche."
+        "l": "Liderlik",
+        "t": "K-Aqua: Alman Mühendislik DNA'sı",
+        "d": "Sahipleri Philipp Nickel ve Marcello Gallio yönetiminde: bağımsız üretim, hızlı kararlar ve tavizsiz kalite kontrolü."
       },
       {
-        "l": "System",
-        "t": "K Aqua, führend in der Wasserversorgung",
-        "d": "Die Versorgungsseite derselben Ingenieurs-DNA: vollständiges PP-R/PPRCT-System d20–d630, gefertigt in Deutschland. Entwässerung und Versorgung aus einer Wertegemeinschaft."
+        "l": "Sistem",
+        "t": "K-Aqua: Su Temininde Lider",
+        "d": "Üst düzey Alman mühendisliğinin tedarik tarafı: DIN EN ISO 15874'e göre Almanya'da üretilen eksiksiz d20–d630 PP-R/PP-RCT sistemi."
       },
       {
-        "l": "Service",
-        "t": "Gemeinsames Ökosystem",
-        "d": "Planer profitieren doppelt: Schulungen, Schweißtechnik-Support und digitale Planungswerkzeuge, perspektivisch bis zum parametrischen Rohrnetz-Konfigurator."
+        "l": "Hizmet",
+        "t": "Küresel Ortaklık Ağı",
+        "d": "Planlamacılar dünya çapında kazanır: teknik eğitim, kaynak teknolojisi desteği, BIM modelleri ve bireysel proje danışmanlığı."
       }
     ],
     "whyEyebrow": "Warum PP-R/PPRCT",
@@ -4916,7 +4924,7 @@
     },
     "london": {
       "regulator": "WRAS, Water Regulations Approval Scheme",
-      "water": "Sehr hartes Wasser (Themse-Becken), PPRCT bleibt frei von Kesselstein-Anhaftung und Querschnittsverengung.",
+      "water": "Çok sert su (Thames Havzası), PP-RCT kireç taşı/tortu yapışmasından ve kesit daralmasından tamamen muaftır.",
       "focus": [
         "High-Rise Residential",
         "Heritage-Sanierung",
@@ -5696,42 +5704,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "Das KESSEL-Ökosystem",
-    "ecoTitle": "Wovon K Aqua-Kunden profitieren.",
-    "ecoLead": "KESSEL hat über Jahrzehnte die Infrastruktur einer Premiummarke aufgebaut, K Aqua bringt dieselbe Haltung in die Wasserversorgung.",
+    "ecoEyebrow": "K-Aqua Ekosistemi",
+    "ecoTitle": "K-Aqua müşterilerinin yararlandığı avantajlar.",
+    "ecoLead": "K-Aqua, MEP yüklenicilerine, mühendislere ve proje yöneticilerine doğrudan Almanya'daki üretim merkezinden entegre bir mühendislik ve hizmet ekosistemi sunar.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL zeigt Präsenz auf der Weltleitmesse der TGA-Branche, der Bühne, auf der Entwässerung und Versorgung zusammen gedacht werden."
+        "t": "Uluslararası Fuarlar",
+        "d": "Big 5 Dubai/Riyad ve ISH dahil olmak üzere büyük küresel fuarlarda aktif varlık: K-Aqua modern polifüzyon kaynak teknolojisini sergiliyor."
       },
       {
-        "t": "PlanerPortal",
-        "d": "Die digitale Plattform für Fachplaner ist das Herzstück der täglichen Planerbindung, Vorbild für die digitalen Werkzeuge von K Aqua."
+        "t": "Planlamacı Portalı & BIM",
+        "d": "Hassas ve çakışmasız MEP modellemesi için GAEB/IFC özelliklerine sahip dijital 3D CAD ve Revit modelleri."
       },
       {
-        "t": "KundenForum",
-        "d": "Physische und hybride Schulungen an dedizierten Standorten, unter anderem in Lenting und Hamburg, Wissenstransfer ist Bindung."
+        "t": "K-Aqua Akademi",
+        "d": "Dünya çapındaki uygulayıcılar için video rehberler eşliğinde manşon ve alın kaynağı pratik sertifikasyonu."
       },
       {
-        "t": "Planungshandbuch",
-        "d": "Das redaktionell gepflegte Planungswissen von KESSEL ist Referenz dafür, wie K Aqua seinen Wissensbereich für Planer ausbaut, von der Academy bis zu den Dimensionstabellen."
+        "t": "Teknik Kılavuz",
+        "d": "Mühendisler ve danışmanlar için anında erişilebilir kapsamlı boyutlandırma ve basınç kaybı hesaplama tabloları."
       }
     ],
-    "flowEyebrow": "Zwei Ströme, ein Gebäude",
-    "flowTitle": "Versorgung rein, Entwässerung raus.",
-    "flowLead": "Jedes Gebäude braucht beide Richtungen, die Partnerschaft deckt den kompletten Wasserweg mit einer gemeinsamen Ingenieurs-DNA ab.",
+    "flowEyebrow": "Maksimum Sistem Uyumluluğu",
+    "flowTitle": "İçme suyu, ısıtma, endüstriyel boru hatları.",
+    "flowLead": "Yüksek binalardaki dikey kolon hatlarından karmaşık inşaat projelerindeki kat dağıtımına kadar.",
     "flow": [
       {
-        "t": "K Aqua, Leading in Water Supply",
-        "d": "Trinkwasserversorgung d20–d630: Rohre, Formteile, Armaturen und Schweißtechnik, gefertigt in Waldsolms."
+        "t": "K-Aqua: Su Temininde Lider",
+        "d": "İçme suyu temini d20–d630: Waldsolms'ta üretilen borular, bağlantı parçaları, vanalar ve kaynak teknolojisi."
       },
       {
-        "t": "KESSEL, Leading in Drainage",
-        "d": "Der Premiumhersteller der Entwässerungstechnik: Rückstauschutz, Hebeanlagen, Abscheider, die Autorität der TGA-Branche."
+        "t": "Sertifikalı Kalite",
+        "d": "DVGW sertifikalı, SKZ tarafından denetlenen ve DIN EN ISO 15874'e göre kendi laboratuvarımızda test edilen her parti."
       },
       {
-        "t": "Gemeinsames Gewerk",
-        "d": "Planer und Verarbeiter arbeiten mit einer Wertegemeinschaft: gleiche Qualitätsphilosophie, abgestimmter Support, kurze Wege."
+        "t": "Kapsamlı Mühendislik Desteği",
+        "d": "Planlamacılar ve tesisatçılar Alman mühendislik ekibimizle doğrudan iletişim kurabilir: hızlı yanıt, uzman danışmanlık."
       }
     ],
     "roadEyebrow": "Gemeinsame Roadmap",
@@ -6180,9 +6188,9 @@
         "d": "Kunststoffverarbeitung für die Wasserversorgung, Erfahrung, die in jede Charge einfließt."
       },
       {
-        "y": "Partnerschaft",
-        "t": "Enge Verbindung zu KESSEL",
-        "d": "Mit dem Premiumhersteller „Leading in Drainage\" verbindet KWT eine langjährige Wertegemeinschaft."
+        "y": "Gelecek",
+        "t": "Sahip Yönetiminde Yeniden Yapılanma",
+        "d": "Philipp Nickel ve Marcello Gallio, bağımsız bir Alman üretici olarak uluslararası operasyonları genişleterek K-Aqua'ya liderlik etmektedir."
       },
       {
         "y": "GENAU",
@@ -6252,7 +6260,7 @@
       }
     ],
     "ishTitle": "Treffpunkt Branche",
-    "ishText": "Die TGA-Branche trifft sich auf der ISH in Frankfurt, der Weltleitmesse, auf der Partner KESSEL regelmäßig Präsenz zeigt. Sobald K Aqua-Termine feststehen, erscheinen sie hier."
+    "ishText": "HVAC sektörü düzenli olarak Dubai ve Riyad'daki Big 5 ile Frankfurt'taki ISH gibi büyük dünya fuarlarında buluşuyor. K-Aqua'nın gelecek etkinlik tarihleri burada duyurulacaktır."
   },
   "contactx": {
     "routeEyebrow": "Direkte Wege",
@@ -7838,7 +7846,7 @@
         "Das verdrehsichere Design hält hohen Drehmomenten stand.",
         "Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine leckagefreie Leistung."
       ],
-      "guideText": "\n    <h2>Die Lücke schließen</h2>\n    <p>Wenn es darum geht, moderne Polymersysteme mit traditioneller metallischer Infrastruktur zu verbinden, sind sichere und homogene Verbindungen von absoluter Bedeutung. Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten wie Kesseln, Kühlern und Sanitärarmaturen. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik, um sicherzustellen, dass die Verbindung zwischen Metall und Kunststoff auch unter extremen thermischen Zyklen und mechanischer Beanspruchung absolut dicht bleibt.</p>\n    <p>K Aqua-Übergangsfittings verfügen über tief eingebettete, verdrehsichere DZR-Messingeinsätze (Dezincification Resistant). Während des Spritzgussverfahrens wird das heiße PP-R direkt um das komplexe geometrische Profil des Messingeinsatzes geformt. Wenn der Kunststoff abkühlt und schrumpft, greift er das Messing mit enormer Kraft und bildet so eine untrennbare mechanische Verbindung. Dieses Design verhindert, dass sich der Messingeinsatz verdreht oder herauszieht, selbst wenn er bei der Installation dem hohen Drehmoment eines Klempnerschlüssels ausgesetzt ist.</p>\n    <p>Darüber hinaus stellt das hochwertige DZR-Messing sicher, dass der metallische Teil des Fittings äußerst widerstandsfähig gegen aggressive Wasserbedingungen ist, wodurch die vorzeitige Korrosion verhindert wird, die Standard-Messingfittings häufig plagt. Dies ist insbesondere in Warmwassersystemen von entscheidender Bedeutung, in denen die Reaktionsgeschwindigkeit deutlich beschleunigt wird.</p>\n    <ul>\n      <li>DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung und Korrosion.</li>\n      <li>Das verdrehsichere Design hält hohen Drehmomenten bei Gewindeinstallationen problemlos stand.</li>\n      <li>Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine lebenslange, leckagefreie Leistung.</li>\n      <li>Erhältlich in einer großen Auswahl an Konfigurationen mit Außen- und Innengewinde.</li>\n      <li>Perfekt für den Anschluss von PP-R-Netzen an metallische Pumpen, Ventile und Kessel.</li>\n    </ul>\n    <p>Egal, ob Sie eine massive 125-mm-Industriekühlleitung an einen Stahlflansch anpassen oder einfach eine 20-mm-Wohnwasserleitung an ein Chrom-Eckventil anschließen müssen, K Aqua bietet das exakt erforderliche Übergangsstück.</p>\n  "
+      "guideText": "\n    <h2>Farkı Kapatmak</h2>\n    <p>Modern polimer sistemlerini geleneksel metalik altyapıyla birleştirme söz konusu olduğunda, güvenli ve homojen bağlantılar mutlak önem taşır. Geçiş bağlantı parçaları (adaptörler), K-Aqua'nın gelişmiş PP-R/PP-RCT boruları ile kazanlar, soğutucular ve sıhhi armatürler gibi mevcut çelik, bakır veya pirinç bileşenler arasında kritik bir köprü görevi görür. Bu bağlantı parçaları, metal ile plastik arasındaki bağlantının aşırı termal döngüler ve mekanik stres altında bile mutlak sızdırmaz kalmasını sağlamak için üstün mühendislik gerektirir.</p>\n    <p>K-Aqua geçiş parçaları, derin gömülü, dönmeye karşı korumalı DZR (Çinkosuzlaşmaya Dirençli) pirinç eklentilere sahiptir. Enjeksiyon kalıplama işlemi sırasında sıcak PP-R, doğrudan pirinç eklentinin karmaşık geometrik profili etrafında kalıplanır. Plastik soğuyup büzüldükçe, pirinci muazzam bir güçle kavrar ve ayrılmaz bir mekanik bağ oluşturur. Bu tasarım, kurulum sırasında bir boru anahtarının yüksek torkuna maruz kalsa bile pirinç eklentinin dönmesini veya çıkmasını önler.</p>\n    <p>Ayrıca, yüksek kaliteli DZR pirinç, bağlantı parçasının metal kısmının agresif su koşullarına karşı son derece dirençli olmasını sağlayarak standart pirinç parçaları sıklıkla etkileyen erken korozyonu önler. Bu durum, reaksiyon hızının önemli ölçüde arttığı sıcak su sistemlerinde kritik önem taşır.</p>\n    <ul>\n      <li>DZR pirinç ekler, çinkosuzlaşmaya ve korozyona karşı üstün direnç sunar.</li>\n      <li>Dönmeye karşı korumalı tasarım, dişli montajlarda yüksek torklara kolayca dayanır.</li>\n      <li>Plastik ve metal arasındaki ayrılmaz bağ, ömür boyu sızdırmaz performans sağlar.</li>\n      <li>Geniş dış ve iç dişli konfigürasyon seçenekleri mevcuttur.</li>\n      <li>PP-R ağlarının metalik pompalara, vanalara ve kazanlara bağlanması için mükemmeldir.</li>\n    </ul>\n    <p>İster 125 mm'lik büyük bir endüstriyel soğutma hattını çelik bir flanşa bağlamanız, ister 20 mm'lik bir konut su hattını krom ara musluğa bağlamanız gereksin, K-Aqua gereken tam geçiş parçasını sunar.</p>\n  "
     },
     "valves": {
       "guideText": "\n    <h2>Absolute Durchflusskontrolle</h2>\n    <p>Präzise Steuerung und langlebige Funktion sind für das Management moderner Sanitärnetze unerlässlich. Ein effektives Fluidmanagement erfordert robuste, zuverlässige Kontrollpunkte, die sich nahtlos in das Hauptverteilungsnetz integrieren lassen. K Aqua bietet eine umfassende Palette an Hochleistungs-Absperrarmaturen, einschließlich Kugelhähnen mit vollem Durchgang, Unterputzventilen und Präzisionsventilen, die alle speziell für die direkte Polyfusion in PP-R-Rohrleitungen entwickelt wurden.</p>\n    <p>Indem wir den Ventilkörper aus genau demselben PP-R-Polymer wie die umgebenden Rohre herstellen, eliminieren wir die Notwendigkeit von Gewindeübergangsstücken bei der Installation von Absperrpunkten. Dies beschleunigt die Installationszeit drastisch, senkt die Materialkosten und beseitigt potenzielle Schwachstellen im System. Die internen mechanischen Komponenten, wie die präzisionsgefertigten Messingkugeln, Edelstahlspindeln und hochwertigen Teflon-Sitzringe (PTFE), sind so konstruiert, dass sie jahrzehntelang einen unglaublich reibungslosen, wartungsfreien Betrieb bieten.</p>\n    <p>Im Gegensatz zu herkömmlichen metallischen Schiebern, die nach jahrelanger Inaktivität häufig klemmen oder an der Stopfbuchse undicht werden, sind die kunststoffgekapselten Ventile von K Aqua immun gegen äußere Korrosion und eignen sich daher perfekt für feuchte Maschinenräume, erdverlegte Installationen oder feuchte Industrieumgebungen.</p>\n    <ul>\n      <li>Das Design mit vollem Durchgang verhindert jegliche Einschränkung des Flüssigkeitsstroms.</li>\n      <li>Korrosionsbeständige Kunststoffgehäuse schützen interne Metallkomponenten.</li>\n      <li>Direkte Polyfusion eliminiert die Notwendigkeit gefährdeter Schraubverbindungen.</li>\n      <li>Ergonomische Griffe und Feinmechanik sorgen für eine reibungslose Bedienung.</li>\n      <li>Erhältlich in einer Vielzahl von Größen, um sowohl den Bedürfnissen im Wohn- als auch im Industriebereich gerecht zu werden.</li>\n    </ul>\n    <p>Unser Design mit vollem Durchgang stellt sicher, dass bei geöffnetem Ventil der hydraulische Durchfluss nicht eingeschränkt wird, wodurch der optimale Systemdruck aufrechterhalten und die Effizienz der Zirkulationspumpen maximiert wird. Egal, ob Sie eine einzelne Sanitärarmatur isolieren oder die Hauptversorgungsleitung eines Gewerbegebäudes steuern müssen, K Aqua-Ventile liefern die erforderliche Zuverlässigkeit und Leistung.</p>\n    <p>Jedes Ventil wird vor dem Verpacken strengen Drucktests unterzogen, um sicherzustellen, dass es unseren kompromisslosen Qualitätsstandards entspricht. Vertrauen Sie auf K Aqua, wenn es um die Kontrollmechanismen geht, mit denen Ihre Flüssigkeitsnetzwerke Tag für Tag und Jahr für Jahr sicher und effizient arbeiten.</p>\n  "

@@ -31,22 +31,22 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     {
       title: t("scroll1Title"),
       description: t("scroll1Desc"),
-      content: <PremiumAssetPlaceholder label="Mikrostruktur Analyse" image="/images/new-k-aqua/was-ist-ppr.jpg" className="w-full h-full bg-card" />
+      content: <PremiumAssetPlaceholder label="Mikrostruktur Analyse" className="w-full h-full bg-card" />
     },
     {
       title: t("scroll2Title"),
       description: t("scroll2Desc"),
-      content: <PremiumAssetPlaceholder label="5-Achs CNC Fräsung" video="/videos/factory.mp4" className="w-full h-full bg-card" />
+      content: <PremiumAssetPlaceholder label="Präzisions-CNC Fertigung" className="w-full h-full bg-card" />
     },
     {
       title: t("scroll3Title"),
       description: t("scroll3Desc"),
-      content: <PremiumAssetPlaceholder label="CFD Strömungsprofil" image="/images/new-k-aqua/valves-profil.png" className="w-full h-full bg-card" />
+      content: <PremiumAssetPlaceholder label="CFD Strömungsprofil" className="w-full h-full bg-card" />
     },
     {
       title: t("scroll4Title"),
       description: t("scroll4Desc"),
-      content: <PremiumAssetPlaceholder label="Automatisierte Druckprüfung" video="/videos/factory.mp4" className="w-full h-full bg-card" />
+      content: <PremiumAssetPlaceholder label="Automatisierte Druckprüfung" className="w-full h-full bg-card" />
     }
   ];
   return (

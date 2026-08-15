@@ -19,12 +19,12 @@ const HQ_SITE = {
 };
 
 const REFERENCE_SITES = [
-  { id: 'dubai', sector: 'hotel', sys: 'PP-RCT / K-Aqua SDR 7.4', dims: 'd20 – d355 mm', pn: 'PN 20 / PN 25', weld: 'muffen_stumpf', kessel: true, hot: 48, year: 2014, position: { lat: 25.197, lng: 55.274 } },
-  { id: 'warschau', sector: 'wohnen', sys: 'K-Aqua SDR 11 / Fibre-Composite', dims: 'd20 – d160 mm', pn: 'PN 16', weld: 'muffen', kessel: false, hot: 0, year: 2017, position: { lat: 52.229, lng: 21.012 } },
-  { id: 'istanbul', sector: 'infra', sys: 'PP-R High-Temp / K-Aqua UV-Protect', dims: 'd32 – d250 mm', pn: 'PN 20', weld: 'stumpf_heizwendel', kessel: true, hot: 42, year: 2016, position: { lat: 41.008, lng: 28.978 } },
-  { id: 'singapur', sector: 'klinik', sys: 'PP-RCT Clean-Hygiene / K-Aqua', dims: 'd20 – d200 mm', pn: 'PN 20', weld: 'muffen_stumpf', kessel: true, hot: 38, year: 2019, position: { lat: 1.352, lng: 103.82 } },
-  { id: 'kapstadt', sector: 'buero', sys: 'K-Aqua SDR 7.4 Standard', dims: 'd20 – d110 mm', pn: 'PN 20', weld: 'muffen', kessel: false, hot: 0, year: 2018, position: { lat: -33.924, lng: 18.424 } },
-  { id: 'london', sector: 'wohnen', sys: 'K-Aqua SDR 11 Riser System', dims: 'd32 – d160 mm', pn: 'PN 16', weld: 'muffen', kessel: false, hot: 0, year: 2021, position: { lat: 51.507, lng: -0.127 } }
+  { id: 'dubai', sector: 'hotel', sys: 'PP-RCT / K-Aqua SDR 7.4', dims: 'd20 – d355 mm', pn: 'PN 20 / PN 25', weld: 'muffen_stumpf', dvgw: true, hot: 48, year: 2014, position: { lat: 25.197, lng: 55.274 } },
+  { id: 'warschau', sector: 'wohnen', sys: 'K-Aqua SDR 11 / Fibre-Composite', dims: 'd20 – d160 mm', pn: 'PN 16', weld: 'muffen', dvgw: true, hot: 0, year: 2017, position: { lat: 52.229, lng: 21.012 } },
+  { id: 'istanbul', sector: 'infra', sys: 'PP-R High-Temp / K-Aqua UV-Protect', dims: 'd32 – d250 mm', pn: 'PN 20', weld: 'stumpf_heizwendel', dvgw: true, hot: 42, year: 2016, position: { lat: 41.008, lng: 28.978 } },
+  { id: 'singapur', sector: 'klinik', sys: 'PP-RCT Clean-Hygiene / K-Aqua', dims: 'd20 – d200 mm', pn: 'PN 20', weld: 'muffen_stumpf', dvgw: true, hot: 38, year: 2019, position: { lat: 1.352, lng: 103.82 } },
+  { id: 'kapstadt', sector: 'buero', sys: 'K-Aqua SDR 7.4 Standard', dims: 'd20 – d110 mm', pn: 'PN 20', weld: 'muffen', dvgw: true, hot: 0, year: 2018, position: { lat: -33.924, lng: 18.424 } },
+  { id: 'london', sector: 'wohnen', sys: 'K-Aqua SDR 11 Riser System', dims: 'd32 – d160 mm', pn: 'PN 16', weld: 'muffen', dvgw: true, hot: 0, year: 2021, position: { lat: 51.507, lng: -0.127 } }
 ];
 
 const MARKET_PROFILES = [

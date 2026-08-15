@@ -1,4 +1,13 @@
 {
+  "aboutDeep": {
+    "eyebrow": "Góc nhìn chuyên sâu",
+    "title": "Góc nhìn chuyên sâu K-Aqua",
+    "lead": "Khám phá các ưu điểm vượt trội của hệ thống ống PP-R cao cấp của chúng tôi",
+    "item1": "Độ bền & Hiệu suất · Hệ thống ống PP-RCT",
+    "item2": "Khoa học vật liệu: Polypropylene Random Copolymer",
+    "item3": "Tính linh hoạt của hệ thống K-Aqua",
+    "item4": "Đồng thau DZR chống khử kẽm"
+  },
   "toggle_theme_light": "Chuyển sang giao diện sáng",
   "toggle_theme_dark": "Chuyển sang giao diện tối",
   "nav": {
@@ -103,8 +112,8 @@
       "Tải xuống danh mục sản phẩm chính thức của K Aqua, bảng dữ liệu kỹ thuật và hướng dẫn lắp đặt cho các hệ thống ống nhựa PP-R và PPRCT."
     ],
     "partner": [
-      "Quan hệ đối tác KESSEL",
-      "K Aqua và KESSEL có một mối quan hệ đối tác kéo dài nhiều thập kỷ, mang các tiêu chuẩn sản xuất của Đức từ hệ thống thoát nước sang cung cấp nước."
+      "Mạng lưới Đối tác Toàn cầu",
+      "K-Aqua hợp tác với các đơn vị tư vấn kỹ thuật, nhà thầu cơ điện MEP và nhà phân phối được chứng nhận trên toàn cầu để cung cấp hệ thống nước uống chất lượng Đức."
     ],
     "markets": [
       "Thị trường & Vị trí",
@@ -263,7 +272,7 @@
         "d": "Từ Frankfurt đến NEOM: đã được kiểm tra theo tiêu chuẩn và thông số nước địa phương."
       }
     ],
-    "lead": "K-Aqua phát triển và sản xuất hệ thống ống nhựa PP-R và PP-RCT cho nước uống từ 20 đến 630 mm, hợp tác với nhà sản xuất cao cấp KESSEL.",
+    "lead": "K-Aqua phát triển và sản xuất hệ thống ống nhựa PP-R và PP-RCT cho nước uống từ 20 đến 630 mm, với chất lượng kỹ thuật Đức đã được chứng nhận.",
     "ctaProducts": "Khám phá hệ thống sản phẩm",
     "ctaContact": "Liên hệ với chúng tôi",
     "toolsEyebrow": "Công cụ tương tác",
@@ -305,7 +314,7 @@
       "ISO 9001 · 14001 · 50001",
       "Sản xuất tại Waldsolms",
       "100% tái chế",
-      "Đối tác: KESSEL"
+      "100% Sản xuất tại Đức"
     ],
     "tools": [
       {
@@ -365,9 +374,9 @@
     "coTitle1": "Nhà cung cấp vật liệu xây dựng và nhà sản xuất:",
     "coTitle2": "từ một nguồn.",
     "coLead": "KWT GmbH sản xuất ống và phụ kiện để cấp nước từ các loại nhựa khác nhau và nhờ đó định vị bản thân trong chuỗi giá trị xây dựng vừa là nhà cung cấp vừa là nhà sản xuất.",
-    "kesselTitle": "Đối tác mạnh mẽ với KESSEL",
-    "kesselText": "Chúng tôi có mối quan hệ đối tác chặt chẽ, lâu dài với nhà sản xuất cao cấp KESSEL, \"Leading in drainage\". Chúng tôi mang kinh nghiệm nhiều thập kỷ này vào tương lai.",
-    "kesselCta": "Tìm hiểu thêm về quan hệ đối tác",
+    "kesselTitle": "Kỹ thuật Đức độc lập",
+    "kesselText": "Là một doanh nghiệp Đức do chủ sở hữu trực tiếp điều hành, Philipp Nickel và Marcello Gallio kết hợp nhiều thập kỷ chuyên môn sản xuất với sự lãnh đạo linh hoạt cho các dự án nước uống toàn cầu.",
+    "kesselCta": "Tìm hiểu thêm về K-Aqua",
     "worldTitle": "Được chứng minh trên toàn thế giới",
     "worldText": "Sản phẩm K Aqua đã chứng minh bản thân vô số lần trong các dự án trên toàn thế giới qua nhiều thập kỷ.",
     "worldCta": "Quả địa cầu dự án",
@@ -2932,6 +2941,30 @@
           }
         ]
       },
+      "partner": {
+        "eyebrow": "Đối tác & Mạng lưới",
+        "title1": "Đối tác Vững mạnh.",
+        "titleGrad": "Một Sứ mệnh.",
+        "lead": "K-Aqua tập trung vào các mối quan hệ đối tác toàn cầu với các nhà tư vấn kỹ thuật, nhà thầu MEP và nhà phân phối nhằm thiết lập chất lượng Đức trong phân phối nước uống trên toàn thế giới.",
+        "onionAria": "Mô hình đối tác K-Aqua",
+        "rings": [
+          {
+            "l": "Lãnh đạo",
+            "t": "K-Aqua: DNA Kỹ thuật Đức",
+            "d": "Được điều hành bởi Philipp Nickel và Marcello Gallio: Sản xuất độc lập, quy trình ra quyết định linh hoạt và kiểm soát chất lượng không thỏa hiệp."
+          },
+          {
+            "l": "Hệ thống",
+            "t": "K-Aqua: Dẫn đầu trong Cung cấp Nước",
+            "d": "Khía cạnh cung ứng của kỹ thuật hàng đầu nước Đức: Hệ thống PP-R/PP-RCT hoàn chỉnh d20–d630, sản xuất tại Đức theo tiêu chuẩn DIN EN ISO 15874."
+          },
+          {
+            "l": "Dịch vụ",
+            "t": "Mạng lưới Đối tác Toàn cầu",
+            "d": "Các nhà lập kế hoạch được hưởng lợi trên toàn thế giới: đào tạo kỹ thuật, hỗ trợ công nghệ hàn, các đối tượng BIM và tư vấn dự án chuyên sâu cho các công trình quy mô lớn."
+          }
+        ]
+      },
       "timelineSection": {
         "title": "Những công trình tham khảo làm nên lịch sử.",
         "desc": "Từ những hòn đảo nhân tạo ở Vịnh Ba Tư đến những khu nghỉ mát trượt tuyết độc quyền nhất ở dãy Alps. Nơi những điều không thể được xây dựng, K Aqua đã có mặt."
@@ -3796,26 +3829,26 @@
     "scope3": "Dữ liệu phát thải Scope-3 và dữ liệu thô EPD theo yêu cầu: sự minh bạch chủ động thay vì sự tuân thủ bắt buộc."
   },
   "partner": {
-    "eyebrow": "Quan hệ đối tác",
-    "title1": "Hai thương hiệu.",
-    "titleGrad": "Một thái độ.",
-    "lead": "Hai thương hiệu. Một thái độ. Mối quan hệ đối tác chặt chẽ, kéo dài hàng thập kỷ giữa K-Aqua và KESSEL chuyển giao niềm tin cao cấp từ hệ thống thoát nước sang cấp nước cho hệ thống ống PP-R.",
-    "onionAria": "Mô hình lớp vỏ hành tây của sự hợp tác",
+    "eyebrow": "Đối tác & Mạng lưới",
+    "title1": "Đối tác Vững mạnh.",
+    "titleGrad": "Một Sứ mệnh.",
+    "lead": "K-Aqua tập trung vào các mối quan hệ đối tác toàn cầu với các nhà tư vấn kỹ thuật, nhà thầu MEP và nhà phân phối nhằm thiết lập chất lượng Đức trong phân phối nước uống trên toàn thế giới.",
+    "onionAria": "Mô hình đối tác K-Aqua",
     "rings": [
       {
-        "l": "Thương hiệu cốt lõi",
-        "t": "KESSEL: Dẫn đầu trong Thoát nước",
-        "d": "Nhà sản xuất thiết bị thoát nước cao cấp. Các hội chợ thương mại hàng đầu thế giới như ISH, PlanerPortal và KundenForum đưa KESSEL trở thành cơ quan có thẩm quyền trong ngành Dịch vụ Tòa nhà (TGA)."
+        "l": "Lãnh đạo",
+        "t": "K-Aqua: DNA Kỹ thuật Đức",
+        "d": "Được điều hành bởi Philipp Nickel và Marcello Gallio: Sản xuất độc lập, quy trình ra quyết định linh hoạt và kiểm soát chất lượng không thỏa hiệp."
       },
       {
         "l": "Hệ thống",
-        "t": "K Aqua: dẫn đầu trong cấp nước",
-        "d": "Khía cạnh cung ứng của cùng một DNA kỹ thuật: Hệ thống PP-R/PPRCT hoàn chỉnh d20–d630, sản xuất tại Đức. Thoát nước và cấp nước từ cùng một cộng đồng giá trị."
+        "t": "K-Aqua: Dẫn đầu trong Cung cấp Nước",
+        "d": "Khía cạnh cung ứng của kỹ thuật hàng đầu nước Đức: Hệ thống PP-R/PP-RCT hoàn chỉnh d20–d630, sản xuất tại Đức theo tiêu chuẩn DIN EN ISO 15874."
       },
       {
         "l": "Dịch vụ",
-        "t": "Hệ sinh thái chung",
-        "d": "Các nhà lập kế hoạch được hưởng lợi gấp đôi: Đào tạo, hỗ trợ công nghệ hàn và công cụ lập kế hoạch kỹ thuật số, triển vọng tiến tới cả bộ cấu hình mạng lưới đường ống tham số."
+        "t": "Mạng lưới Đối tác Toàn cầu",
+        "d": "Các nhà lập kế hoạch được hưởng lợi trên toàn thế giới: đào tạo kỹ thuật, hỗ trợ công nghệ hàn, các đối tượng BIM và tư vấn dự án chuyên sâu cho các công trình quy mô lớn."
       }
     ],
     "whyEyebrow": "Tại sao lại là PP-R/PPRCT",
@@ -4145,7 +4178,7 @@
     "lead": "Chiến lược mới, kiến thức ngày càng sâu rộng: Là nhà sản xuất của K-Aqua, KWT GmbH kết hợp hàng thập kỷ kinh nghiệm sản xuất với một tầm nhìn rõ ràng hướng về tương lai.",
     "h2": "K Aqua: Tiên phong trong cung cấp nước",
     "p1": "Lĩnh vực kinh doanh của KWT GmbH là sản xuất ống và phụ kiện cấp nước từ các loại nhựa khác nhau. Qua đó, công ty định vị mình trong chuỗi giá trị xây dựng với tư cách là nhà cung cấp và nhà sản xuất vật liệu xây dựng.",
-    "p2": "Chúng tôi có mối quan hệ đối tác chặt chẽ và lâu dài với nhà sản xuất cao cấp KESSEL, „Dẫn đầu về thoát nước\". Với kinh nghiệm từ nhiều thập kỷ này, chúng tôi mang thành công của mình tiến vào tương lai.",
+    "p2": "Dưới sự lãnh đạo của Philipp Nickel và Marcello Gallio, K-Aqua tập trung vào các tiêu chuẩn chất lượng cao nhất, đổi mới công nghệ và sản xuất polyme bền vững cho các thị trường toàn cầu.",
     "polEyebrow": "Chính sách Công ty",
     "polTitle": "Lợi ích được tạo ra từ sự kết hợp.",
     "polLead": "Không có lợi ích của khách hàng nếu không có lợi ích của nhân viên, không có lợi ích của nhân viên nếu không có lợi ích của công ty và không có lợi ích của công ty nếu không có lợi ích đối với môi trường và xã hội.",
@@ -4399,9 +4432,9 @@
         "d": "Gia công vật liệu nhựa cho ngành nước: Kinh nghiệm kết tinh trong từng mẻ hàng."
       },
       {
-        "y": "Sự hợp tác",
-        "t": "Gắn kết bền vững cùng KESSEL",
-        "d": "Là những người 'Dẫn đầu trong Lĩnh vực Cấp Thoát nước', KWT và đối tác xây dựng trên những giá trị bền vững."
+        "y": "Tương lai",
+        "t": "Tái định hướng do Chủ sở hữu dẫn dắt",
+        "d": "Philipp Nickel và Marcello Gallio dẫn dắt K-Aqua, mở rộng các hoạt động quốc tế với tư cách là nhà sản xuất độc lập của Đức."
       },
       {
         "y": "GENAU",
@@ -4955,7 +4988,7 @@
       }
     ],
     "ishTitle": "Điểm hẹn của Ngành",
-    "ishText": "Ngành HVAC (TGA) gặp gỡ tại ISH ở Frankfurt, hội chợ thương mại hàng đầu thế giới, nơi đối tác KESSEL thường xuyên góp mặt. Ngay khi lịch hẹn của K Aqua được ấn định, chúng sẽ xuất hiện tại đây."
+    "ishText": "Ngành HVAC thường xuyên quy tụ tại các hội chợ thương mại lớn của thế giới như Big 5 ở Dubai và Riyadh, và ISH ở Frankfurt. Các lịch trình sắp tới của K-Aqua sẽ được công bố tại đây."
   },
   "geo": {
     "eyebrow": "Thị trường & Địa điểm",
@@ -5054,7 +5087,7 @@
         "Tối ưu hóa tiếng ồn & cách âm tự nhiên thông qua PP-R.",
         "Hoàn toàn có thể tái chế & cực kỳ bền (>50 năm)."
       ],
-      "guideText": "\n    <h2>Die Lücke schließen</h2>\n    <p>Wenn es darum geht, moderne Polymersysteme mit traditioneller metallischer Infrastruktur zu verbinden, sind sichere und homogene Verbindungen von absoluter Bedeutung. Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten wie Kesseln, Kühlern und Sanitärarmaturen. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik, um sicherzustellen, dass die Verbindung zwischen Metall und Kunststoff auch unter extremen thermischen Zyklen und mechanischer Beanspruchung absolut dicht bleibt.</p>\n    <p>K Aqua-Übergangsfittings verfügen über tief eingebettete, verdrehsichere DZR-Messingeinsätze (Dezincification Resistant). Während des Spritzgussverfahrens wird das heiße PP-R direkt um das komplexe geometrische Profil des Messingeinsatzes geformt. Wenn der Kunststoff abkühlt und schrumpft, greift er das Messing mit enormer Kraft und bildet so eine untrennbare mechanische Verbindung. Dieses Design verhindert, dass sich der Messingeinsatz verdreht oder herauszieht, selbst wenn er bei der Installation dem hohen Drehmoment eines Klempnerschlüssels ausgesetzt ist.</p>\n    <p>Darüber hinaus stellt das hochwertige DZR-Messing sicher, dass der metallische Teil des Fittings äußerst widerstandsfähig gegen aggressive Wasserbedingungen ist, wodurch die vorzeitige Korrosion verhindert wird, die Standard-Messingfittings häufig plagt. Dies ist insbesondere in Warmwassersystemen von entscheidender Bedeutung, in denen die Reaktionsgeschwindigkeit deutlich beschleunigt wird.</p>\n    <ul>\n      <li>DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung und Korrosion.</li>\n      <li>Das verdrehsichere Design hält hohen Drehmomenten bei Gewindeinstallationen problemlos stand.</li>\n      <li>Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine lebenslange, leckagefreie Leistung.</li>\n      <li>Erhältlich in einer großen Auswahl an Konfigurationen mit Außen- und Innengewinde.</li>\n      <li>Perfekt für den Anschluss von PP-R-Netzen an metallische Pumpen, Ventile und Kessel.</li>\n    </ul>\n    <p>Egal, ob Sie eine massive 125-mm-Industriekühlleitung an einen Stahlflansch anpassen oder einfach eine 20-mm-Wohnwasserleitung an ein Chrom-Eckventil anschließen müssen, K Aqua bietet das exakt erforderliche Übergangsstück.</p>\n  ",
+      "guideText": "\n    <h2>Die Lücke schließen</h2>\n    <p>Wenn es darum geht, moderne Polymersysteme mit traditioneller metallischer Infrastruktur zu verbinden, sind sichere und homogene Verbindungen von absoluter Bedeutung. Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten wie Heizkesseln, Kühlern und Sanitärarmaturen. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik, um sicherzustellen, dass die Verbindung zwischen Metall und Kunststoff auch unter extremen thermischen Zyklen und mechanischer Beanspruchung absolut dicht bleibt.</p>\n    <p>K Aqua-Übergangsfittings verfügen über tief eingebettete, verdrehsichere DZR-Messingeinsätze (Dezincification Resistant). Während des Spritzgussverfahrens wird das heiße PP-R direkt um das komplexe geometrische Profil des Messingeinsatzes geformt. Wenn der Kunststoff abkühlt und schrumpft, greift er das Messing mit enormer Kraft und bildet so eine untrennbare mechanische Verbindung. Dieses Design verhindert, dass sich der Messingeinsatz verdreht oder herauszieht, selbst wenn er bei der Installation dem hohen Drehmoment eines Klempnerschlüssels ausgesetzt ist.</p>\n    <p>Darüber hinaus stellt das hochwertige DZR-Messing sicher, dass der metallische Teil des Fittings äußerst widerstandsfähig gegen aggressive Wasserbedingungen ist, wodurch die vorzeitige Korrosion verhindert wird, die Standard-Messingfittings häufig plagt. Dies ist insbesondere in Warmwassersystemen von entscheidender Bedeutung, in denen die Reaktionsgeschwindigkeit deutlich beschleunigt wird.</p>\n    <ul>\n      <li>DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung und Korrosion.</li>\n      <li>Das verdrehsichere Design hält hohen Drehmomenten bei Gewindeinstallationen problemlos stand.</li>\n      <li>Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine lebenslange, leckagefreie Leistung.</li>\n      <li>Erhältlich in einer großen Auswahl an Konfigurationen mit Außen- und Innengewinde.</li>\n      <li>Perfekt für den Anschluss von PP-R-Netzen an metallische Pumpen, Ventile und Kessel.</li>\n    </ul>\n    <p>Egal, ob Sie eine massive 125-mm-Industriekühlleitung an einen Stahlflansch anpassen oder einfach eine 20-mm-Wohnwasserleitung an ein Chrom-Eckventil anschließen müssen, K Aqua bietet das exakt erforderliche Übergangsstück.</p>\n  ",
       "areas": "Lĩnh vực ứng dụng"
     },
     "valves": {
@@ -5436,42 +5469,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "Khía cạnh thoát nước",
-    "ecoTitle": "Cộng đồng giá trị KESSEL.",
-    "ecoLead": "Sự xuất sắc về kỹ thuật, được neo giữ trong khu vực, hoạt động trên toàn cầu: Cùng một DNA làm cho cả KESSEL và K-Aqua trở nên mạnh mẽ.",
+    "ecoEyebrow": "Hệ sinh thái K-Aqua",
+    "ecoTitle": "Lợi ích dành cho khách hàng K-Aqua.",
+    "ecoLead": "K-Aqua cung cấp cho các kỹ sư cơ điện MEP, nhà thầu và quản lý dự án một hệ sinh thái kỹ thuật và dịch vụ liền mạch từ nền sản xuất Đức.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL thể hiện sự hiện diện tại hội chợ thương mại hàng đầu thế giới về TGA, sân khấu nơi thoát nước và cấp nước được cân nhắc cùng nhau."
+        "t": "Hội chợ Thương mại Quốc tế",
+        "d": "Hiện diện tích cực tại các triển lãm xây dựng hàng đầu bao gồm Big 5 Dubai/Riyadh và ISH: K-Aqua đại diện cho công nghệ hàn nhiệt hiện đại."
       },
       {
-        "t": "PlanerPortal",
-        "d": "Nền tảng kỹ thuật số dành cho các nhà quy hoạch là trung tâm của việc kết nối các nhà quy hoạch hàng ngày: Một mô hình cho các công cụ kỹ thuật số của K Aqua."
+        "t": "Cổng thông tin Thiết kế & BIM",
+        "d": "Mô hình CAD và Revit 3D kỹ thuật số cùng các văn bản thông số kỹ thuật GAEB/IFC giúp mô hình hóa MEP chính xác và không xung đột."
       },
       {
-        "t": "KundenForum",
-        "d": "Đào tạo vật lý và kết hợp tại các địa điểm chuyên biệt, bao gồm Lenting và Hamburg. Truyền đạt kiến thức là sự gắn kết."
+        "t": "Học viện K-Aqua",
+        "d": "Chứng chỉ hàn nối socket và hàn đối đầu thực tế cùng các video hướng dẫn chi tiết cho thợ lắp đặt trên toàn thế giới."
       },
       {
-        "t": "Sổ tay Quy hoạch",
-        "d": "Kiến thức lập kế hoạch được bảo trì biên tập của KESSEL là tài liệu tham khảo cho cách K Aqua đang mở rộng lĩnh vực kiến thức cho các nhà quy hoạch: từ Học viện đến các bảng kích thước."
+        "t": "Cẩm nang Kỹ thuật",
+        "d": "Bảng tính toán kích thước và tổn thất áp suất toàn diện cho các kỹ sư và chuyên gia tư vấn, truy cập tức thì."
       }
     ],
-    "flowEyebrow": "Hai Dòng chảy, Một Tòa nhà",
-    "flowTitle": "Cấp nước vào, thoát nước ra.",
-    "flowLead": "Mọi tòa nhà đều cần cả hai hướng. Quan hệ đối tác bao gồm toàn bộ đường nước với chung một DNA kỹ thuật.",
+    "flowEyebrow": "Khả năng tương thích hệ thống tối đa",
+    "flowTitle": "Nước uống, sưởi ấm, đường ống công nghiệp.",
+    "flowLead": "Danh mục toàn diện từ ống trục đứng nhà cao tầng đến phân phối từng tầng cho các dự án xây dựng đòi hỏi khắt khe.",
     "flow": [
       {
-        "t": "K Aqua: Dẫn đầu trong Cấp nước",
+        "t": "K-Aqua: Dẫn đầu trong Cấp nước",
         "d": "Cấp nước uống d20–d630: Ống, phụ kiện, van và công nghệ hàn, được sản xuất tại Waldsolms."
       },
       {
-        "t": "KESSEL: Dẫn đầu trong Thoát nước",
-        "d": "Nhà sản xuất thiết bị thoát nước cao cấp: bảo vệ chống chảy ngược, trạm nâng, bộ tách dòng. Cơ quan có thẩm quyền trong ngành TGA."
+        "t": "Chất lượng được chứng nhận",
+        "d": "Được chứng nhận DVGW, giám sát bởi SKZ và kiểm tra theo lô trong phòng thí nghiệm độc quyền của chúng tôi theo tiêu chuẩn DIN EN ISO 15874."
       },
       {
-        "t": "Cùng chung một nghề",
-        "d": "Các nhà lập kế hoạch và thợ xử lý làm việc với một cộng đồng giá trị: triết lý chất lượng giống nhau, hỗ trợ được phối hợp, khoảng cách ngắn."
+        "t": "Hỗ trợ Kỹ thuật Toàn diện",
+        "d": "Các nhà thiết kế và thợ lắp đặt có quyền truy cập trực tiếp vào đội ngũ kỹ thuật người Đức của chúng tôi: phản hồi nhanh chóng, tư vấn tận tâm."
       }
     ],
     "roadEyebrow": "Lộ trình chung",
@@ -6827,11 +6860,11 @@
     },
     "london": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: WRAS: Water Regulations Approval Scheme",
-      "water": "Chất lượng nước: Sehr hartes Wasser (Themse-Becken): PPRCT bleibt frei von Kesselstein-Anhaftung und Querschnittsverengung.",
+      "water": "Chất lượng nước: Nước rất cứng (Lưu vực sông Thames): PP-RCT không bị bám cặn vôi và không bị thu hẹp tiết diện.",
       "focus": [
-        "High-Rise Residential",
-        "Heritage-Sanierung",
-        "Distriktweite Heißwassernetze"
+        "Nhà ở cao tầng",
+        "Cải tạo công trình di sản",
+        "Mạng lưới nước nóng toàn khu vực"
       ],
       "note": "Ghi chú: WRAS-konforme Dokumentation und englischsprachige Datenblätter verfügbar.",
       "focusHeading": "Các dự án tiêu biểu tại London"

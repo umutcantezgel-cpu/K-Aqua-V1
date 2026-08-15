@@ -1,4 +1,75 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "Coloré en violet, par ex. pour les réseaux d'eaux techniques ou d'irrigation, pour une identification sans équivoque.",
+    "k-fiber-pipe-pp-rct-sdr-74": "La couche intermédiaire renforcée de fibres réduit la dilatation thermique d'environ 50 %.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "Optimisé pour les applications CVC (eau glacée et eau de chauffage).",
+    "k-fiber-pipe-pp-r-sdr-17": "Tube composite renforcé de fibres de grand diamètre pour l'industrie et le bâtiment.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "Couche extérieure stabilisée aux UV pour les applications extérieures.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "Stabilisé aux UV pour les installations apparentes et en toiture.",
+    "electrofusion-socket": "Manchon électrosoudable : assemblage par électrofusion, aucun fer à souder requis.",
+    "flange-adaptor": "Collet pour raccordement à bride, pour vannes, pompes et compteurs d'eau.",
+    "reducing-tee-large-sizes": "Pour collecteurs principaux de 63 à 75 mm.",
+    "cross-over": "Permet de franchir une autre conduite sans la raccorder.",
+    "elbow-bracket-90-female-thread": "Avec bride de montage pour fixation murale.",
+    "elbowwall-bracket-90-female-thread": "Fixation murale des deux côtés.",
+    "metal-union-male-thread-yellow-brass": "Laiton CW617N.",
+    "metal-union-female-thread-yellow-brass": "Laiton CW617N.",
+    "tee-90-female-thread": "Démontable pour la maintenance sans couper le tube.",
+    "union-for-watermeters": "Simplifies installing and removing water meters.",
+    "pp-r-ball-valve-ball-in-pp": "Passage intégral, bille en PP, manchons à souder des deux côtés.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "Bille en laiton chromé pour utilisation intensive.",
+    "tee-90-female-thread-for-internal-valve": "Té récepteur pour vannes encastrées.",
+    "concealed-valve-chrome-light-part": "Rosace de finition et tige de manœuvre apparentes, finition chromée.",
+    "concealed-valve-chrome-heavy-part": "Corps de vanne encastré, monté dans le té récepteur.",
+    "straight-seat-valve-upper-part-green-handle": "Partie supérieure avec poignée pour vannes à siège droit.",
+    "elongation-pieces": "Rallonge pour différentes épaisseurs de paroi.",
+    "battery-female-thread": "Collecteur pour plancher chauffant et distribution multicircuit.",
+    "adjustable-battery-female-thread": "Entraxe réglable entre les départs.",
+    "weld-in-saddle": "Sans filetage : dérivation PP-R soudée directement sur la conduite principale.",
+    "pipe-clamps": "Avec garniture en caoutchouc, pour support et fixation des tubes.",
+    "backing-flange-pp-steel-sfbf": "Bride libre avec âme en acier pour collets à souder.",
+    "flat-gasket": "Joint plat en EPDM pour raccords à brides.",
+    "flat-gasket-for-unions-pp-r": "Joint EPDM pour raccords unions.",
+    "plug": "Bouchon fileté pour obturer les extrémités libres. Autres dimensions sur demande.",
+    "pipe-cutter-2040": "Coupe-tube à cliquet pour coupes nettes et à angle droit.",
+    "pipe-cutter-50125": "Coupe-tube haute performance pour grands diamètres.",
+    "pipe-cutter-50125-1": "Version alternative (1¼).",
+    "hand-welding-machine-2032-complete-set": "Appareil compact de polyfusion bout à bout/emboîtement.",
+    "hand-welding-machine-2063-complete-set": "Kit complet avec miroir chauffant, support et matrices.",
+    "hand-welding-machine-mirror-50125": "Miroir chauffant de rechange pour appareil 50–125 mm.",
+    "welding-tool": "Paires de matrices mâles/femelles individuelles par dimension.",
+    "welding-machine-50125-complete-set": "Machine professionnelle de polyfusion pour grands diamètres.",
+    "butt-welding-machine-90250": "Machine de soudage bout à bout pour grands diamètres.",
+    "electrofusion-machine": "Appareil d'électrosoudage pour raccords électrosoudables avec lecteur de code-barres.",
+    "welding-tool-for-weld-in-saddles": "Outil spécial pour la pose de selles à souder.",
+    "drilling-tool-for-weld-in-saddle": "Fraise à carotter pour percer la conduite après soudage de la selle.",
+    "welding-tool-for-repairing-plug": "Outils de chauffe pour système de bouchon de réparation.",
+    "repairing-plug": "Bouchon d'urgence pour colmater les perforations sans vidanger l'installation."
+  },
+  "geoExtra": {
+    "cityBadge": "(Ville)",
+    "regionBadge": "(Région)",
+    "marketFallbackLead": "Systèmes de tuyauterie PP-R de haute qualité pour {city}.",
+    "openMarketPage": "Ouvrir la page du marché {city}"
+  },
+  "sitemapPage": {
+    "company": "Entreprise & Navigation",
+    "products": "Produits & Catégories",
+    "news": "Actualités & Presse",
+    "markets": "Marchés & Régions"
+  },
+  "aboutDeep": {
+    "eyebrow": "Perspectives",
+    "title": "Perspectives K-Aqua",
+    "lead": "Découvrez les avantages de nos systèmes PP-R haut de gamme",
+    "item1": "Durabilité et efficacité · Systèmes de tuyauterie PP-RCT",
+    "item2": "Science des matériaux : Copolymère statistique de polypropylène",
+    "item3": "Flexibilité du système K-Aqua",
+    "item4": "Laiton DZR résistant à la dézincision"
+  },
+  "catalogExtra": {
+    "viewDetails": "Détails du produit"
+  },
   "catalogx": {
     "eyebrow": "Catalogue Complet des Produits",
     "faqTitle": "Foire aux questions",
@@ -1508,8 +1579,8 @@
       "Téléchargez les catalogues de produits officiels K-Aqua, les fiches techniques et les directives d'installation pour les systèmes de tuyauterie en plastique PP-R et PP-RCT."
     ],
     "partner": [
-      "Partenariat premium avec KESSEL Drainage",
-      "K-Aqua et KESSEL sont unis par un partenariat de plusieurs décennies qui transfère les normes de fabrication allemandes du drainage à l'approvisionnement en eau."
+      "Réseau mondial de partenaires",
+      "K-Aqua collabore avec des bureaux d'études, entreprises MEP et distributeurs certifiés à l'international pour des réseaux d'eau potable de qualité allemande."
     ],
     "markets": [
       "Marchés mondiaux & Structure de vente locale",
@@ -1610,7 +1681,7 @@
         "d": "De Francfort à NEOM : nos produits sont rigoureusement testés pour résister aux normes et profils d'eau locaux."
       }
     ],
-    "lead": "K-Aqua conçoit et fabrique des systèmes de tuyauterie PP-R/PP-RCT pour l'eau potable : du 20 au 630 mm, en partenariat exclusif avec le fabricant premium KESSEL.",
+    "lead": "K-Aqua conçoit et fabrique des systèmes de tuyauterie PP-R et PP-RCT pour l'eau potable : du 20 au 630 mm, avec l'excellence de l'ingénierie allemande certifiée.",
     "ctaProducts": "Découvrir la gamme",
     "ctaContact": "Nous contacter",
     "toolsEyebrow": "Outils interactifs",
@@ -1763,7 +1834,7 @@
       "ISO 9001 · 14001 · 50001",
       "Fabriqué à Waldsolms",
       "100 % Recyclage",
-      "Partenaire : KESSEL"
+      "100 % Made in Germany"
     ],
     "tools": [
       {
@@ -1823,9 +1894,9 @@
     "coTitle1": "Fournisseur et Fabricant : ",
     "coTitle2": "votre partenaire direct.",
     "coLead": "La société KWT GmbH extrude et façonne des tubes et raccords en matériaux de synthèse pour l'adduction d'eau. Ce positionnement unique nous place au cœur de la chaîne de valeur : nous sommes à la fois le concepteur et le producteur de vos solutions.",
-    "kesselTitle": "Un partenariat solide avec KESSEL",
-    "kesselText": "Nous entretenons un partenariat historique et privilégié avec KESSEL, leader incontesté de l'assainissement. Cette alliance de plusieurs décennies nous permet de construire l'avenir sur des fondations solides.",
-    "kesselCta": "Découvrir le partenariat",
+    "kesselTitle": "Ingénierie allemande indépendante",
+    "kesselText": "En tant qu'entreprise allemande dirigée par ses propriétaires, Philipp Nickel et Marcello Gallio allient des décennies d'expertise industrielle à un leadership agile pour les projets mondiaux d'eau potable.",
+    "kesselCta": "En savoir plus sur K-Aqua",
     "worldTitle": "Une fiabilité mondiale",
     "worldText": "Depuis des décennies, les systèmes K-Aqua font leurs preuves au quotidien dans d'innombrables projets à travers le monde.",
     "worldCta": "Voir le Globe des Références",
@@ -3601,7 +3672,7 @@
     "lead": "De nouvelles stratégies fondées sur un savoir-faire éprouvé : KWT GmbH associe des décennies de maîtrise industrielle à une vision résolument tournée vers l'avenir.",
     "h2": "K-Aqua : Un acteur de premier plan de l'eau potable",
     "p1": "Le cœur de métier de KWT GmbH est l'extrusion de tubes et l'injection de raccords plastiques destinés aux réseaux de distribution d'eau. Cette intégration fait de nous un partenaire incontournable de la filière construction : nous sommes à la fois le fabricant et votre fournisseur direct.",
-    "p2": "Notre alliance stratégique avec KESSEL : « Leading in drainage » : consolide notre assise. Forts de cette expertise acquise au fil des décennies, nous bâtissons aujourd'hui les succès de demain.",
+    "p2": "Sous la direction entrepreneuriale de Philipp Nickel et Marcello Gallio, K-Aqua met l'accent sur les normes de qualité les plus strictes, l'innovation technologique et la fabrication durable de polymères pour les marchés internationaux.",
     "polEyebrow": "Politique d'entreprise",
     "polTitle": "Créer de la valeur par la synergie.",
     "polLead": "Il n'y a pas de satisfaction client sans collaborateurs engagés, ni de réussite d'entreprise sans bénéfice pour l'environnement et la société.",
@@ -4161,26 +4232,26 @@
     "scope3": "Les données d'émissions Scope-3 et l'intégralité des datas EPD sont fournies sur demande : une transparence proactive plutôt qu'une contrainte réglementaire."
   },
   "partner": {
-    "eyebrow": "Partenariat d'Excellence",
-    "title1": "Deux Marques.",
-    "titleGrad": "Une même Vision.",
-    "lead": "Notre partenariat historique avec KESSEL exporte l'exigence absolue des métiers de l'assainissement vers les réseaux de distribution d'eau.",
-    "onionAria": "Modèle stratégique de partenariat en couches",
+    "eyebrow": "Partenariat & Réseau",
+    "title1": "Des partenaires solides.",
+    "titleGrad": "Une même mission.",
+    "lead": "K-Aqua s'appuie sur des partenariats mondiaux avec des consultants en ingénierie, des installateurs CVC/MEP et des distributeurs pour établir l'excellence allemande dans l'approvisionnement en eau potable.",
+    "onionAria": "Modèle de partenariat K-Aqua",
     "rings": [
       {
-        "l": "La Marque",
-        "t": "KESSEL : Leading in Drainage",
-        "d": "Pionnier de l'assainissement premium. Sa présence sur des salons de rang mondial (ISH) et ses portails de formation en font l'autorité de la filière."
+        "l": "Leadership",
+        "t": "K-Aqua : L'ADN de l'ingénierie allemande",
+        "d": "Dirigée par ses propriétaires Philipp Nickel et Marcello Gallio : fabrication indépendante, processus décisionnels agiles et contrôle qualité sans compromis."
       },
       {
-        "l": "Le Système",
-        "t": "K-Aqua : Leader de la distribution d'eau",
-        "d": "La même ingénierie d'excellence, appliquée à l'eau sous pression : gamme PP-R/PP-RCT intégrale (d20–d630), made in Germany. Assainissement et alimentation partagent la même philosophie."
+        "l": "Système",
+        "t": "K-Aqua : Référence de l'adduction d'eau",
+        "d": "L'excellence de l'ingénierie allemande pour l'approvisionnement : système complet PP-R/PP-RCT du d20 au d630, fabriqué en Allemagne selon DIN EN ISO 15874."
       },
       {
-        "l": "Le Service",
-        "t": "Un Écosystème Unifié",
-        "d": "Un atout décisif pour les bureaux d'études : parcours de formation commun, assistance soudage de pointe et de puissants outils de dimensionnement paramétrique en cours de déploiement."
+        "l": "Service",
+        "t": "Réseau mondial de partenaires",
+        "d": "Les prescripteurs bénéficient d'un accompagnement mondial : formations techniques, support en soudage, objets BIM et conseil dédié pour les grands projets."
       }
     ],
     "whyEyebrow": "Le Choix PP-R / PP-RCT",
@@ -5696,42 +5767,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "L'Écosystème KESSEL",
-    "ecoTitle": "Ce que gagnent les clients K-Aqua.",
-    "ecoLead": "KESSEL a bâti l'infrastructure d'une marque premium sur plusieurs décennies : K-Aqua transpose exactement cette rigueur dans le domaine de la distribution d'eau.",
+    "ecoEyebrow": "L'Écosystème K-Aqua",
+    "ecoTitle": "Comment les clients K-Aqua en bénéficient.",
+    "ecoLead": "K-Aqua met à disposition des bureaux d'études, entreprises MEP et maîtres d'œuvre un écosystème complet de services et d'ingénierie issu de notre production allemande.",
     "eco": [
       {
-        "t": "Présence à l'ISH de Francfort",
-        "d": "KESSEL s'expose sur le salon de référence mondial du CVC : la plateforme où l'évacuation et l'alimentation en eau se pensent de concert."
+        "t": "Salons internationaux",
+        "d": "Présence active sur les grands salons mondiaux comme Big 5 à Dubaï et Riyad ou ISH : K-Aqua incarne les technologies modernes de fusion."
       },
       {
-        "t": "Portail Bureaux d'Études",
-        "d": "Cette plateforme numérique destinée aux prescripteurs est le cœur de la fidélisation : elle sert de matrice pour les futurs outils digitaux de K-Aqua."
+        "t": "Portail Prescripteurs & BIM",
+        "d": "Modèles 3D CAO et Revit ainsi que textes de spécification GAEB/IFC pour une modélisation BIM fluide et sans collisions."
       },
       {
-        "t": "Forum Clients",
-        "d": "Des formations présentielles et hybrides sur des sites dédiés, comme Lenting ou Hambourg : parce que la transmission du savoir cimente la confiance."
+        "t": "K-Aqua Academy",
+        "d": "Formations certifiantes en polyfusion et soudage bout à bout, accompagnées de guides vidéo pour les installateurs du monde entier."
       },
       {
-        "t": "Manuel de Planification",
-        "d": "Le savoir technique centralisé par KESSEL est notre modèle pour structurer l'expertise K-Aqua destinée aux ingénieurs : de l'Academy aux tableaux d'abaques."
+        "t": "Manuels techniques",
+        "d": "Abaques de dimensionnement complets et tables de pertes de charge immédiatement accessibles pour ingénieurs et projeteurs."
       }
     ],
-    "flowEyebrow": "Deux Flux, Un Bâtiment",
-    "flowTitle": "L'eau qui entre, l'eau qui sort.",
-    "flowLead": "Chaque ouvrage gère une double circulation hydrique : notre partenariat couvre la totalité de ce cycle avec le même ADN d'excellence technique.",
+    "flowEyebrow": "Compatibilité système maximale",
+    "flowTitle": "Eau potable, chauffage, tuyauterie industrielle.",
+    "flowLead": "Une gamme complète des colonnes montantes aux réseaux terminaux pour les projets de construction les plus exigeants.",
     "flow": [
       {
-        "t": "K-Aqua : L'excellence de l'Adduction",
-        "d": "Réseaux sous pression d20–d630 : tubes, raccords, vannes et machines de soudage de haute technologie, directement issus de notre usine de Waldsolms."
+        "t": "K-Aqua : Référence de l'adduction d'eau",
+        "d": "Alimentation en eau potable d20–d630 : tubes, raccords, vannes et outillage de soudage, fabriqués à Waldsolms."
       },
       {
-        "t": "KESSEL : Le leader de l'Évacuation",
-        "d": "Le fabricant premium de la technique d'assainissement : clapets anti-retour, stations de relevage, séparateurs : l'autorité incontestée de la filière."
+        "t": "Qualité certifiée",
+        "d": "Certifié DVGW, surveillé par le SKZ et testé par lots dans notre propre laboratoire selon DIN EN ISO 15874."
       },
       {
-        "t": "Synergie Opérationnelle",
-        "d": "Ingénieurs et installateurs s'appuient sur un front commun : philosophie de qualité identique, support harmonisé, interlocuteurs directs."
+        "t": "Support d'ingénierie complet",
+        "d": "Prescripteurs et installateurs bénéficient d'un accès direct à notre équipe d'ingénierie allemande : réactivité et conseil personnalisé."
       }
     ],
     "roadEyebrow": "Notre Feuille de Route Commune",
@@ -6180,9 +6251,9 @@
         "d": "Une expertise intergénérationnelle dans la mise sous forme des hauts-polymères pour défier l'épreuve de l'eau pressurisée."
       },
       {
-        "y": "Alliance",
-        "t": "L'Ancrage avec KESSEL",
-        "d": "Un mariage de conviction avec la référence incontournable de l'évacuation des eaux, cimentant une vision industrielle partagée."
+        "y": "Avenir",
+        "t": "Réorientation portée par les dirigeants",
+        "d": "Philipp Nickel et Marcello Gallio dirigent K-Aqua et développent les opérations internationales en tant que fabricant allemand indépendant."
       },
       {
         "y": "Méthode GENAU",
@@ -6252,7 +6323,7 @@
       }
     ],
     "ishTitle": "Rendez-vous à Francfort",
-    "ishText": "Le salon ISH de Francfort est le cœur battant du monde du bâtiment et de la thermique. Notre partenaire industriel de référence, KESSEL, y orchestre ses plus belles démonstrations. Restez connectés : c'est ici que nous vous inviterons dès que nos équipes organiseront leurs journées d'immersion."
+    "ishText": "L'industrie du CVC se réunit régulièrement lors des grands salons mondiaux tels que Big 5 à Dubaï et Riyad, ou ISH à Francfort. Les prochaines dates d'exposition de K-Aqua seront annoncées ici."
   },
   "contactx": {
     "routeEyebrow": "Passerelles d'Échange",

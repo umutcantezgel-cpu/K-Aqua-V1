@@ -1,4 +1,4 @@
-// K-Aqua - PartnerDeep: KESSEL-Ökosystem, Wasserwege (Versorgung+Entwässerung), gemeinsame
+// K-Aqua - PartnerDeep: K-Aqua Ökosystem, Wasserversorgungssysteme, globale
 // Roadmap, Spezifikations-Kanäle (GAEB/BIM/Datenblätter).
 //
 // QUELLE: kaqua-deep-sections-2.jsx (PartnerDeep). PORTIERT 1:1 (4 Abschnitte).

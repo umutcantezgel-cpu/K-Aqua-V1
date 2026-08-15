@@ -153,15 +153,6 @@ export default async function CategoryPage({ params }: Props) {
   const tc = await getTranslations({ locale, namespace: "products.category" });
   const tProd = await getTranslations({ locale, namespace: "products" });
 
-  let heroImage = "";
-  if (lowerCat.includes('pipes')) heroImage = "/images/new-k-aqua/pipes-profil.png";
-  else if (lowerCat.includes('transition')) heroImage = "/images/new-k-aqua/transition-fittings-profil.png";
-  else if (lowerCat.includes('fitting')) heroImage = "/images/new-k-aqua/fittings-profil.png";
-  else if (lowerCat.includes('weld')) heroImage = "/images/new-k-aqua/weld-in-saddles.png";
-  else if (lowerCat.includes('accessories')) heroImage = "/images/new-k-aqua/accessories-profil.png";
-  else if (lowerCat.includes('valve')) heroImage = "/images/new-k-aqua/valves-profil.png";
-  else if (lowerCat.includes('tools')) heroImage = "/images/new-k-aqua/tools-profil.png";
-
   const messages = await getMessages();
 
   let rawFaqs: { q: string, a: string }[] = [];
@@ -218,18 +209,16 @@ export default async function CategoryPage({ params }: Props) {
             )}
           </div>
           
-          {heroImage && (
-            <div className="w-full">
-              <MediaSlot 
-                alt={seoTitle} 
-                aspectRatio="4/3" 
-                shapeVariant="sweep-l" 
-                src={heroImage} 
-                className="shadow-2xl"
-                priority
-              />
-            </div>
-          )}
+          <div className="w-full">
+            <MediaSlot 
+              alt={seoTitle} 
+              aspectRatio="4/3" 
+              shapeVariant="sweep-l" 
+              label={`K-Aqua ${seoTitle}`} 
+              className="shadow-2xl"
+              priority
+            />
+          </div>
         </div>
       </section>
 
@@ -260,18 +249,8 @@ export default async function CategoryPage({ params }: Props) {
                   return (
                     <>
                       <div className="aspect-[4/3] bg-background-subtle relative flex items-center justify-center border-b border-card-border/50 overflow-hidden">
-                         {heroImage ? (
-                           <Image 
-                             src={heroImage} 
-                             alt={localizedTitle} 
-                             fill 
-                             sizes="(max-width: 768px) 100vw, 300px" 
-                             className="object-contain p-4 mix-blend-multiply opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
-                           />
-                         ) : (
-                           <Package className="w-16 h-16 text-muted-foreground/30 group-hover:text-primary/40 transition-colors" />
-                         )}
-                         <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none" />
+                        <Package className="w-16 h-16 text-muted-foreground/30 group-hover:text-primary/40 transition-colors" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none" />
                       </div>
                       <div className="p-6 flex flex-col flex-1">
                         <div className="text-xs font-mono text-muted-foreground mb-2">

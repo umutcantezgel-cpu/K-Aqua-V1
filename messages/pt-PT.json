@@ -1,4 +1,13 @@
 {
+  "aboutDeep": {
+    "eyebrow": "Visão Aprofundada",
+    "title": "Experiência K-Aqua",
+    "lead": "Descubra as vantagens dos nossos sistemas de tubagens PP-R de primeira classe",
+    "item1": "Longevidade e Eficiência · Sistemas de Tubagens PP-RCT",
+    "item2": "Ciência dos Materiais: Copolímero Random de Polipropileno",
+    "item3": "Flexibilidade do Sistema K-Aqua",
+    "item4": "Latão DZR: Resistente à Dezincificação"
+  },
   "catalogx": {
     "eyebrow": "Vollständiger Produktkatalog",
     "faqTitle": "Häufig gestellte Fragen",
@@ -585,9 +594,9 @@
         ]
       },
       "adaptor-socket-male-thread": {
-        "seo_p1": "Die Übergangsmuffe mit Außengewinde (Adaptor Socket Male Thread) ermöglicht den festen und sicheren Anschluss des PP-R Netzes an weiterführende metallische Rohrleitungen.",
-        "seo_p2": "Eine auszugssichere Verankerung des Messing-Außengewindes im hochfesten Polypropylen-Körper verhindert Verdrehungen und garantiert extreme Langlebigkeit bei hohen Temperatur- und Druckschwankungen.",
-        "seo_p3": "Häufig verwendet beim Anschluss von Heizkesseln, Wärmepumpen oder Filtern, stellt diese Muffe eine dauerhafte und normgerechte Gewindeverbindung sicher.",
+        "seo_p1": "O casquilho de transição com rosca macho (Adaptor Socket Male Thread) permite uma ligação sólida e segura da rede de PP-R a tubagens metálicas.",
+        "seo_p2": "Uma fixação antitorção da rosca macho em latão no corpo de polipropileno de alta resistência evita deformações e garante uma durabilidade extrema sob variações de temperatura e pressão.",
+        "seo_p3": "Frequentemente utilizado na ligação de caldeiras, bombas de calor ou filtros, este casquilho assegura uma união roscada duradoura e normalizada.",
         "faq": [
           {
             "q": "Ist das Innengewinde durchgängig aus Messing?",
@@ -1507,8 +1516,8 @@
       "Descarregue catálogos oficiais de produtos K Aqua, fichas técnicas e diretrizes de instalação para sistemas de tubagens de plástico PP-R e PPRCT."
     ],
     "partner": [
-      "Parceria Premium KESSEL para Tubos",
-      "K Aqua e KESSEL partilham uma parceria de décadas que traz padrões de fabrico alemães da drenagem para o abastecimento de água."
+      "Rede Global de Parceiros",
+      "A K-Aqua colabora com gabinetes de engenharia, instaladores AVAC e distribuidores certificados em todo o mundo para assegurar padrões de qualidade alemães em sistemas de água potável."
     ],
     "markets": [
       "Mercados Globais e Estrutura de Vendas Local",
@@ -1610,7 +1619,7 @@
         "d": "De Frankfurt a NEOM: testado de acordo com as normas e perfis de água locais."
       }
     ],
-    "lead": "A K Aqua desenvolve e fabrica sistemas de tubagens de PP-R/PPRCT para água potável: de 20 a 630 mm, em parceria com a fabricante premium KESSEL.",
+    "lead": "A K-Aqua desenvolve e fabrica sistemas de tubagens PP-R/PP-RCT para água potável de 20 a 630 mm com engenharia alemã certificada.",
     "ctaProducts": "Descubra o Sistema de Produtos",
     "ctaContact": "Contacte-nos",
     "toolsEyebrow": "Ferramentas Interativas",
@@ -1681,50 +1690,50 @@
     "seoExpansionDynamic": "Saiba mais sobre as nossas soluções PP-R e PPRCT em {city}. Cumprimos as normas locais ({regulator}) e oferecemos sistemas ótimos para a qualidade da água ({water}). Nota adicional: {note}."
   },
   "footer": {
-    "tagline": "K Aqua: führend in der Wasserversorgung. PP-R/PPRCT-Rohrsysteme für Trinkwasser, gefertigt von der KWT GmbH in Waldsolms.",
-    "colTools": "Produkte & Tools",
-    "colCompany": "Unternehmen",
-    "colContact": "Kontakt",
-    "directions": "Anfahrt & Standort",
-    "rights": "Alle Rechte vorbehalten.",
-    "imprint": "Impressum",
-    "privacy": "Datenschutz",
+    "tagline": "K-Aqua: líder no abastecimento de água. Sistemas de tubagens PP-R/PP-RCT para água potável, fabricados pela KWT GmbH em Waldsolms, Alemanha.",
+    "colTools": "Produtos e Ferramentas",
+    "colCompany": "Empresa",
+    "colContact": "Contacto",
+    "directions": "Como chegar e Localização",
+    "rights": "Todos os direitos reservados.",
+    "imprint": "Aviso legal",
+    "privacy": "Proteção de dados",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
-    "address": "Auweg 3, 35647 Waldsolms, Deutschland",
+    "address": "Auweg 3, 35647 Waldsolms, Alemanha",
     "copyright": "© 2026 KWT GmbH.",
-    "projectCta": "Projekt anfragen",
+    "projectCta": "Solicitar projeto",
     "badges": [
       {
-        "t": "SKZ-Cert",
+        "t": "Certificado SKZ",
         "s": "ISO 9001 / 14001 / 50001"
       },
       {
         "t": "DIN 8077/8078",
-        "s": "PP-R Rohrstandards"
+        "s": "Normas de tubos PP-R"
       },
       {
-        "t": "Nachhaltigkeit",
-        "s": "Umweltfreundlich"
+        "t": "Sustentabilidade",
+        "s": "Ecológico"
       },
       {
-        "t": "GENAU-System",
-        "s": "Integriertes Management"
+        "t": "Sistema GENAU",
+        "s": "Gestão integrada"
       },
       {
         "t": "Made in Germany",
-        "s": "Produktion in Waldsolms"
+        "s": "Produção em Waldsolms"
       }
     ],
     "attribution": {
       "texts": [
-        "Webdesign von Coday",
-        "Ein Projekt der Coday Web Agency",
+        "Web design por Coday",
+        "Um projeto da Coday Web Agency",
         "Coday Web Agency",
-        "Digitalisiert durch Coday"
+        "Digitalizado por Coday"
       ],
-      "srDesc": "Diese Webseite wurde konzipiert und technisch realisiert durch die Coday Web Agency, Experten für Webdesign und GEO in Hessen.",
-      "linkTitle": "Zur Coday Web Agency: Premium Webdesign"
+      "srDesc": "Este site foi concebido e realizado tecnicamente pela Coday Web Agency, especialistas em web design e SEO em Hesse.",
+      "linkTitle": "Ir para Coday Web Agency: Premium Web Design"
     }
   },
   "regions": {
@@ -1738,109 +1747,109 @@
       {
         "n": "630",
         "u": "mm",
-        "l": "maximale Rohrdimension im Programm"
+        "l": "dimensão máxima do tubo na gama"
       },
       {
         "n": "5",
         "u": "SDR",
-        "l": "Druckstufen: SDR 6 / 7,4 / 9 / 11 / 17"
+        "l": "Classes de pressão: SDR 6 / 7,4 / 9 / 11 / 17"
       },
       {
         "n": "3×",
         "u": "ISO",
-        "l": "Qualität, Umwelt & Energie geprüft"
+        "l": "Qualidade, ambiente e energia auditados"
       },
       {
         "n": "100",
         "u": "%",
-        "l": "Produktionsabfälle werden recycelt"
+        "l": "Os resíduos de produção são reciclados"
       }
     ],
-    "heroBadgeLabel": "Rohrdimensionen, SDR 6 bis SDR 17",
+    "heroBadgeLabel": "Dimensões de tubo, de SDR 6 a SDR 17",
     "marquee": [
-      "Führend in der Wasserversorgung",
-      "d20: d630",
+      "Líder no abastecimento de água",
+      "d20-d630",
       "ISO 9001 · 14001 · 50001",
-      "Gefertigt in Waldsolms",
-      "100 % Recycling",
-      "Partner: KESSEL"
+      "Fabricado em Waldsolms",
+      "100 % Reciclagem",
+      "100 % Made in Germany"
     ],
     "tools": [
       {
         "id": "finder",
-        "t": "Produktfinder",
-        "d": "170+ Artikelvarianten live filtern: Dimension, SDR, Wandstärke sofort.",
-        "cta": "Jetzt filtern"
+        "t": "Localizador de produtos",
+        "d": "Filtre mais de 170 variantes ao vivo: dimensão, SDR, espessura de parede instantâneos.",
+        "cta": "Filtrar agora"
       },
       {
         "id": "co2",
-        "t": "CO₂-Rechner",
-        "d": "Ihr Projekt vs. Kupfer, Edelstahl und PVC: in Bäumen und Pkw-Kilometern.",
-        "cta": "Jetzt rechnen"
+        "t": "Calculadora de CO₂",
+        "d": "O seu projeto vs. cobre, aço inoxidável e PVC: em árvores e km de automóvel.",
+        "cta": "Calcular agora"
       },
       {
         "id": "academy",
-        "t": "Academy + Quiz",
-        "d": "Vier Schweißverfahren im Video, dann das Schweißmeister-Quiz.",
-        "cta": "Meister werden"
+        "t": "Academia + Questionário",
+        "d": "Quatro processos de soldadura em vídeo, depois o questionário de mestre soldador.",
+        "cta": "Tornar-se mestre"
       },
       {
         "id": "references",
-        "t": "Referenz-Globus",
-        "d": "Den Planeten drehen, Projekte entdecken: von Waldsolms bis Singapur.",
-        "cta": "Globus drehen"
+        "t": "Globo de referência",
+        "d": "Gire o planeta, descubra projetos: de Waldsolms a Singapura.",
+        "cta": "Girar globo"
       },
       {
         "id": "trust",
         "t": "Trust Center",
-        "d": "Zertifikate prüfen und das RFP-Dokumentenpaket selbst schnüren.",
-        "cta": "Paket bauen"
+        "d": "Verifique os certificados e componha você mesmo o pacote de documentos RFP.",
+        "cta": "Criar pacote"
       },
       {
         "id": "career",
-        "t": "Benefits-Rechner",
-        "d": "Was steuerfreie Extras netto bringen: plus 60-Sekunden Culture Match.",
-        "cta": "Netto checken"
+        "t": "Calculadora de benefícios",
+        "d": "O que os extras isentos de impostos trazem em líquido: mais Culture Match de 60 segundos.",
+        "cta": "Verificar líquido"
       }
     ],
-    "vsEyebrow": "Der Unterschied",
-    "vsTitle": "Branchenstandard vs. K Aqua digital.",
-    "vsBadTitle": "So macht es die Branche",
-    "vsGoodTitle": "So macht es K Aqua",
+    "vsEyebrow": "A diferença",
+    "vsTitle": "Padrão da indústria vs. K-Aqua digital.",
+    "vsBadTitle": "Como faz a indústria",
+    "vsGoodTitle": "Como faz a K-Aqua",
     "vsBad": [
-      "220-seitige PDF-Kataloge ohne Suche",
-      "Zertifikate nur auf schriftliche Anfrage",
-      "Technische Daten tief in Tabellenwüsten",
-      "Karriereseite: ein Briefkasten"
+      "Catálogos em PDF de 220 páginas sem pesquisa",
+      "Certificados apenas mediante pedido por escrito",
+      "Dados técnicos enterrados no fundo de tabelas",
+      "Página de carreiras: uma simples caixa de correio"
     ],
     "vsGood": [
-      "Produktfinder: filtern in Sekunden",
-      "Trust Center: Downloads als Self Service",
-      "CO₂-Rechner macht Daten zum Argument",
-      "Benefits-Rechner + Culture Match"
+      "Localizador de produtos: filtragem em segundos",
+      "Trust Center: downloads em modo self-service",
+      "Calculadora de CO₂ transforma dados em argumentos sólidos",
+      "Calculadora de benefícios + Culture Match"
     ],
-    "coEyebrow": "Das Unternehmen",
-    "coTitle1": "Baustofflieferant und Hersteller: ",
-    "coTitle2": "aus einer Hand.",
-    "coLead": "Die KWT GmbH fertigt Rohre und Formteile für die Wasserversorgung aus verschiedenen Kunststoffen und positioniert sich damit in der Wertschöpfungskette Bau als Lieferant und Hersteller zugleich.",
-    "kesselTitle": "Starke Partnerschaft mit KESSEL",
-    "kesselText": "Mit dem Premiumhersteller KESSEL: „Leading in drainage\": verbindet uns eine enge, langjährige Partnerschaft. Diese Erfahrung aus Jahrzehnten tragen wir in die Zukunft.",
-    "kesselCta": "Mehr zur Partnerschaft",
-    "worldTitle": "Weltweit bewährt",
-    "worldText": "K Aqua-Produkte haben sich über Jahrzehnte unzählige Male in Projekten auf der ganzen Welt bewährt.",
-    "worldCta": "Referenz-Globus",
+    "coEyebrow": "A Empresa",
+    "coTitle1": "Fornecedor e fabricante de materiais de construção:",
+    "coTitle2": "de uma única fonte.",
+    "coLead": "A KWT GmbH fabrica tubos e acessórios para o abastecimento de água a partir de diversos plásticos, posicionando-se na cadeia de valor da construção como fornecedora e fabricante.",
+    "kesselTitle": "Engenharia Alemã Independente",
+    "kesselText": "Como empresa alemã gerida pelos proprietários, Philipp Nickel e Marcello Gallio combinam décadas de experiência de fabrico com uma liderança ágil para projetos globais de água potável.",
+    "kesselCta": "Mais sobre a K-Aqua",
+    "worldTitle": "Comprovado mundialmente",
+    "worldText": "Os produtos K-Aqua comprovaram a sua eficácia inúmeras vezes ao longo de décadas em projetos por todo o mundo.",
+    "worldCta": "Globo de referência",
     "cards": [
       {
-        "t": "GENAU-Managementsystem",
-        "d": "Kontinuierliche Verbesserung von Arbeits-, Umwelt- und Gesundheitsschutz: nach DIN EN ISO 14001 und 50001."
+        "t": "Sistema de gestão GENAU",
+        "d": "Melhoria contínua da segurança no trabalho, proteção ambiental e saúde: de acordo com a DIN EN ISO 14001 e 50001."
       },
       {
-        "t": "Fertigung in Deutschland",
-        "d": "Entwicklung und Produktion am Standort Waldsolms: Qualität, Kosten und Termine immer im Einklang."
+        "t": "Fabrico na Alemanha",
+        "d": "Desenvolvimento e produção nas instalações de Waldsolms: qualidade, custos e prazos sempre alinhados."
       },
       {
-        "t": "Ökologische Verantwortung",
-        "d": "Ressourcenschonung und Umweltverträglichkeit sind fester Bestandteil unseres Qualitätsverständnisses."
+        "t": "Responsabilidade ecológica",
+        "d": "A poupança de recursos e a compatibilidade ambiental são parte integrante do nosso conceito de qualidade."
       }
     ],
     "manifestTitle": "Unsere Mission",
@@ -3597,42 +3606,44 @@
     },
     "eyebrow": "Über uns",
     "title1": "Erfahrung ist Ihr",
-    "titleGrad": "Vorteil.",
-    "lead": "Neue Strategien, gewachsenes Wissen: Die KWT GmbH verbindet jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
-    "h2": "K Aqua: führend in der Wasserversorgung",
-    "p1": "Das Geschäftsfeld der KWT GmbH ist die Fertigung von Rohren und Formteilen für die Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich das Unternehmen in der Wertschöpfungskette Bau als Baustofflieferant und Hersteller.",
-    "p2": "Mit dem Premiumhersteller KESSEL: „Leading in drainage\": besteht eine enge und langjährige Partnerschaft. Mit dieser Erfahrung aus Jahrzehnten tragen wir unseren Erfolg in die Zukunft.",
-    "polEyebrow": "Unternehmenspolitik",
-    "polTitle": "Nutzen entsteht im Zusammenspiel.",
-    "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen: und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
+    "eyebrow": "Sobre nós",
+    "title1": "A experiência é a sua",
+    "titleGrad": "vantagem.",
+    "lead": "Novas estratégias, conhecimento consolidado: a KWT GmbH combina décadas de experiência de fabrico com uma visão clara para o futuro.",
+    "h2": "K-Aqua: líder no abastecimento de água",
+    "p1": "A área de atividade da KWT GmbH é o fabrico de tubos e acessórios para o abastecimento de água a partir de diferentes polímeros. A empresa posiciona-se assim na cadeia de valor da construção como fornecedora e fabricante.",
+    "p2": "Sob a liderança empresarial de Philipp Nickel e Marcello Gallio, a K-Aqua foca-se nos mais elevados padrões de qualidade, inovação tecnológica e fabrico sustentável de polímeros para os mercados globais.",
+    "polEyebrow": "Política corporativa",
+    "polTitle": "O valor surge da colaboração.",
+    "polLead": "Nenhum benefício para o cliente sem benefício para os colaboradores, nenhum benefício para os colaboradores sem benefício para a empresa: e nenhum benefício para a empresa sem benefício para o ambiente e a sociedade.",
     "cards": [
       {
-        "t": "Menschen im Mittelpunkt",
-        "d": "Alle Mitarbeitenden sind in den kontinuierlichen Verbesserungsprozess eingebunden: Qualität bleibt dabei stets mit Kosten und Terminen vereinbar."
+        "t": "Pessoas no centro",
+        "d": "Todos os colaboradores participam no processo de melhoria contínua: a qualidade mantém-se sempre compatível com custos e prazos."
       },
       {
-        "t": "Verlässlichkeit",
-        "d": "Wünsche von Kunden und allen Interessierten werden unter Einhaltung gesetzlicher und sozialer Standards erkannt, ernst genommen und umgesetzt."
+        "t": "Fiabilidade",
+        "d": "Os requisitos dos clientes e partes interessadas são identificados, valorizados e executados respeitando as normas legais e sociais."
       },
       {
-        "t": "Ökologische Verantwortung",
-        "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung von Ressourcenschonung, Umweltverträglichkeit und strikter Einhaltung aller Verpflichtungen."
+        "t": "Responsabilidade ecológica",
+        "d": "Todas as atividades da empresa decorrem com respeito pela preservação dos recursos, compatibilidade ambiental e rigoroso cumprimento de todas as obrigações."
       }
     ],
-    "genauEyebrow": "GENAU-Managementsystem",
-    "genauTitle": "Genau hinschauen. Genau verbessern.",
-    "genauLead": "Das GENAU-Managementsystem ist in das House of KWT integriert und damit ein zentrales Element unserer Philosophie.",
+    "genauEyebrow": "Sistema de gestão GENAU",
+    "genauTitle": "Observar com precisão. Melhorar com precisão.",
+    "genauLead": "O sistema de gestão GENAU está integrado na House of KWT, constituindo um pilar central da nossa filosofia.",
     "points": [
-      "Kontinuierliche Verbesserung von Arbeits-, Umwelt- und Gesundheitsschutz",
-      "Optimierung der Energieeffizienz",
-      "Prävention, laufende Gefahrenermittlung und Risikobewertung",
-      "Jeder Mitarbeitende ist verpflichtet, Gefahren zu melden und aktiv mitzuwirken"
+      "Melhoria contínua da proteção laboral, ambiental e da saúde",
+      "Otimização da eficiência energética",
+      "Prevenção, identificação contínua de perigos e avaliação de riscos",
+      "Cada colaborador tem a obrigação de comunicar perigos e colaborar ativamente"
     ],
-    "certTitle": "geprüft nach Norm",
-    "certText": "Das gelebte GENAU-Management erfüllt die Anforderungen der DIN EN ISO 14001 und 50001: seit Oktober 2025 ergänzt um ISO 9001:2015.",
+    "certTitle": "Testado conforme as normas",
+    "certText": "A gestão GENAU praticada cumpre os requisitos das normas DIN EN ISO 14001 e 50001: desde outubro de 2025 complementada pela ISO 9001:2015.",
     "meta": {
-      "title": "Über KWT GmbH: Experten für Rohrherstellung",
-      "desc": "Das Epizentrum deutscher Ingenieurskunst."
+      "title": "Quem é a KWT GmbH: Especialistas em fabrico de tubagens",
+      "desc": "O epicentro da engenharia alemã."
     },
     "hero": {
       "eyebrow": "Die K Aqua Doktrin",
@@ -4086,10 +4097,9 @@
     "transportShip": "Ship",
     "transportAir": "Air Freight",
     "phaseProduction": "Production",
-    "phaseTransport": "Transport",
-    "phaseOperation": "Operation",
-    "phaseEol": "End of Life",
-    "guideText": "<h2>Sustentabilidade e ACV (Avaliação do Ciclo de Vida)</h2><p>A escolha do sistema de tubagens adequado tem um impacto significativo na pegada de carbono de um edifício ou instalação industrial. A calculadora de CO2 da K-Aqua permite uma avaliação completa do ciclo de vida (ACV) de acordo com a norma EN 15804. Esta análise abrange todo o ciclo: desde a extração de matérias-primas e o fabrico do produto (fases A1-A3), passando pelo transporte e instalação (fases A4-A5), até à fase de utilização (fase B) e ao fim de vida (fase C).</p><p>Em comparação com os tubos metálicos convencionais de cobre ou aço, os tubos de PP-R e PPRCT da K-Aqua apresentam um balanço ambiental substancialmente mais favorável. A menor necessidade de energia durante a extrusão do plástico e o seu peso muito inferior reduzem significativamente as emissões de CO2 na produção e no transporte. Além disso, a superfície interna extremamente lisa (rugosidade de apenas 0,007 mm) garante uma resistência ao fluxo muito baixa. Segundo a equação de Darcy-Weisbach, isto significa que as bombas de circulação requerem muito menos energia (eletricidade) para bombear o fluido através do sistema.</p><p>Especialmente na fase de utilização (fase B), que para os sistemas de tubagens se prolonga frequentemente por 50 anos ou mais, esta poupança de energia resulta numa enorme redução das emissões de CO2 e dos custos (Custo Total de Propriedade, CTP). Mesmo no fim da vida útil (fase C), o polipropileno oferece vantagens ecológicas, uma vez que é 100% reciclável e pode ser reutilizado de acordo com os princípios da economia circular (Módulo D). Utilize esta calculadora para quantificar de forma precisa e transparente o potencial de poupança ecológica e económica do seu projeto K-Aqua.</p>"
+    "phaseTransport": "Transporte",
+    "phaseOperation": "Operação",
+    "phaseEol": "Fim de Vida"
   },
   "trust": {
     "eyebrow": "Trust Center",
@@ -4161,26 +4171,26 @@
     "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
   },
   "partner": {
-    "eyebrow": "Partnerschaft",
-    "title1": "Zwei Marken.",
-    "titleGrad": "Eine Haltung.",
-    "lead": "Zwei Marken. Eine Haltung. Die enge, jahrzehntelange Partnerschaft mit KESSEL überträgt Premium-Vertrauen aus der Entwässerung in die Wasserversorgung.",
-    "onionAria": "Zwiebelschalenmodell der Partnerschaft",
+    "eyebrow": "Parceiros e Rede",
+    "title1": "Parceiros Fortes.",
+    "titleGrad": "Uma Só Missão.",
+    "lead": "A K-Aqua aposta em parcerias globais com engenheiros projetistas, instaladores AVAC e distribuidores para garantir padrões de qualidade alemães no abastecimento de água mundial.",
+    "onionAria": "Modelo de parceiros K-Aqua",
     "rings": [
       {
-        "l": "Kernmarke",
-        "t": "KESSEL: Leading in Drainage",
-        "d": "Premiumhersteller der Entwässerungstechnik. Weltleitmessen wie die ISH, das PlanerPortal und das KundenForum machen KESSEL zur Autorität der TGA-Branche."
+        "l": "Liderança",
+        "t": "K-Aqua: ADN de Engenharia Alemã",
+        "d": "Gerida pelos proprietários Philipp Nickel e Marcello Gallio: fabrico independente, processos de decisão ágeis e controlo de qualidade intransigente."
       },
       {
-        "l": "System",
-        "t": "K Aqua: führend in der Wasserversorgung",
-        "d": "Die Versorgungsseite derselben Ingenieurs-DNA: vollständiges PP-R/PPRCT-System d20–d630, gefertigt in Deutschland. Entwässerung und Versorgung aus einer Wertegemeinschaft."
+        "l": "Sistema",
+        "t": "K-Aqua: Líder no Abastecimento de Água",
+        "d": "A vanguarda da engenharia de topo alemã: sistema completo PP-R/PP-RCT d20–d630, fabricado na Alemanha segundo a DIN EN ISO 15874."
       },
       {
-        "l": "Service",
-        "t": "Gemeinsames Ökosystem",
-        "d": "Planer profitieren doppelt: Schulungen, Schweißtechnik-Support und digitale Planungswerkzeuge: perspektivisch bis zum parametrischen Rohrnetz-Konfigurator."
+        "l": "Serviço",
+        "t": "Rede Global de Parceiros",
+        "d": "Os projetistas beneficiam em todo o mundo: formação técnica, apoio em soldadura, objetos BIM e consultoria personalizada para grandes projetos."
       }
     ],
     "whyEyebrow": "Warum PP-R/PPRCT",
@@ -4916,7 +4926,7 @@
     },
     "london": {
       "regulator": "WRAS: Water Regulations Approval Scheme",
-      "water": "Sehr hartes Wasser (Themse-Becken): PPRCT bleibt frei von Kesselstein-Anhaftung und Querschnittsverengung.",
+      "water": "Água muito dura (bacia do Tamisa): o PPRCT permanece livre de incrustações de calcário e redução de secção.",
       "focus": [
         "High-Rise Residential",
         "Heritage-Sanierung",
@@ -5696,42 +5706,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "Das KESSEL-Ökosystem",
-    "ecoTitle": "Wovon K Aqua-Kunden profitieren.",
-    "ecoLead": "KESSEL hat über Jahrzehnte die Infrastruktur einer Premiummarke aufgebaut: K Aqua bringt dieselbe Haltung in die Wasserversorgung.",
+    "ecoEyebrow": "O ecossistema K-Aqua",
+    "ecoTitle": "As vantagens para os clientes K-Aqua.",
+    "ecoLead": "A K-Aqua disponibiliza a instaladores, engenheiros e diretores de projeto um ecossistema integrado de engenharia e serviços diretamente a partir da fábrica alemã.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL zeigt Präsenz auf der Weltleitmesse der TGA-Branche: der Bühne, auf der Entwässerung und Versorgung zusammen gedacht werden."
+        "t": "Feiras Internacionais",
+        "d": "Presença ativa em feiras líderes como Big 5 Dubai/Riade e ISH: a K-Aqua apresenta moderna tecnologia de soldadura por polifusão."
       },
       {
-        "t": "PlanerPortal",
-        "d": "Die digitale Plattform für Fachplaner ist das Herzstück der täglichen Planerbindung: Vorbild für die digitalen Werkzeuge von K Aqua."
+        "t": "Portal de Projetistas e BIM",
+        "d": "Modelos 3D CAD e Revit digitais com especificações GAEB/IFC para um dimensionamento de instalações preciso e sem falhas."
       },
       {
-        "t": "KundenForum",
-        "d": "Physische und hybride Schulungen an dedizierten Standorten, unter anderem in Lenting und Hamburg: Wissenstransfer ist Bindung."
+        "t": "K-Aqua Academy",
+        "d": "Certificação prática para soldadura topo a topo e por encaixe com vídeos de instrução para instaladores em todo o mundo."
       },
       {
-        "t": "Planungshandbuch",
-        "d": "Das redaktionell gepflegte Planungswissen von KESSEL ist Referenz dafür, wie K Aqua seinen Wissensbereich für Planer ausbaut: von der Academy bis zu den Dimensionstabellen."
+        "t": "Manual Técnico",
+        "d": "Tabelas completas de dimensionamento e cálculo de perda de carga para engenheiros e consultores disponíveis imediatamente."
       }
     ],
-    "flowEyebrow": "Zwei Ströme, ein Gebäude",
-    "flowTitle": "Versorgung rein, Entwässerung raus.",
-    "flowLead": "Jedes Gebäude braucht beide Richtungen: die Partnerschaft deckt den kompletten Wasserweg mit einer gemeinsamen Ingenieurs-DNA ab.",
+    "flowEyebrow": "Máxima Compatibilidade de Sistema",
+    "flowTitle": "Água potável, aquecimento, tubagens industriais.",
+    "flowLead": "Desde colunas montantes em arranha-céus até à distribuição por piso em edifícios complexos.",
     "flow": [
       {
-        "t": "K Aqua: Leading in Water Supply",
-        "d": "Trinkwasserversorgung d20–d630: Rohre, Formteile, Armaturen und Schweißtechnik, gefertigt in Waldsolms."
+        "t": "K-Aqua: Líder no Abastecimento de Água",
+        "d": "Distribuição de água potável d20–d630: tubos, acessórios, válvulas e tecnologia de soldadura, fabricados em Waldsolms."
       },
       {
-        "t": "KESSEL: Leading in Drainage",
-        "d": "Der Premiumhersteller der Entwässerungstechnik: Rückstauschutz, Hebeanlagen, Abscheider: die Autorität der TGA-Branche."
+        "t": "Qualidade Certificada",
+        "d": "Certificado DVGW, supervisionado pelo SKZ e cada lote testado em laboratório próprio de acordo com a DIN EN ISO 15874."
       },
       {
-        "t": "Gemeinsames Gewerk",
-        "d": "Planer und Verarbeiter arbeiten mit einer Wertegemeinschaft: gleiche Qualitätsphilosophie, abgestimmter Support, kurze Wege."
+        "t": "Apoio Completo de Engenharia",
+        "d": "Projetistas e instaladores têm contacto direto com a nossa equipa de engenharia alemã: tempos de resposta rápidos, aconselhamento especializado."
       }
     ],
     "roadEyebrow": "Gemeinsame Roadmap",
@@ -6180,9 +6190,9 @@
         "d": "Kunststoffverarbeitung für die Wasserversorgung: Erfahrung, die in jede Charge einfließt."
       },
       {
-        "y": "Partnerschaft",
-        "t": "Enge Verbindung zu KESSEL",
-        "d": "Mit dem Premiumhersteller „Leading in Drainage\" verbindet KWT eine langjährige Wertegemeinschaft."
+        "y": "Futuro",
+        "t": "Reorientação Liderada pelos Proprietários",
+        "d": "Philipp Nickel e Marcello Gallio lideram a K-Aqua expandindo as operações internacionais como fabricante alemão independente."
       },
       {
         "y": "GENAU",
@@ -6251,8 +6261,8 @@
         ]
       }
     ],
-    "ishTitle": "Treffpunkt Branche",
-    "ishText": "Die TGA-Branche trifft sich auf der ISH in Frankfurt: der Weltleitmesse, auf der Partner KESSEL regelmäßig Präsenz zeigt. Sobald K Aqua-Termine feststehen, erscheinen sie hier."
+    "ishTitle": "Ponto de encontro do setor",
+    "ishText": "O setor de instalações hidrosanitárias reúne-se regularmente nas principais feiras mundiais como Big 5 no Dubai e Riade, e ISH em Frankfurt. As próximas datas da K-Aqua serão anunciadas aqui."
   },
   "contactx": {
     "routeEyebrow": "Direkte Wege",
@@ -7820,15 +7830,15 @@
   },
   "seoArticle": {
     "transitionFittings": {
-      "seoTitle": "Übergangsfittings aus Messing & PP-R",
-      "seoText": "Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik.",
-      "advTitle": "Sichere und homogene Verbindungen",
+      "seoTitle": "Acessórios de Transição em Latão e PP-R",
+      "seoText": "Os acessórios de transição servem como ponte crucial entre os tubos avançados de PP-R/PP-RCT da K-Aqua e componentes metálicos existentes como caldeiras, chillers e torneiras.",
+      "advTitle": "Ligações seguras e homogéneas",
       "advList": [
-        "DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung.",
-        "Das verdrehsichere Design hält hohen Drehmomenten stand.",
-        "Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine leckagefreie Leistung."
+        "Os insertos em latão DZR oferecem resistência superior à dezincificação.",
+        "O design antitorção suporta binários elevados durante o aperto.",
+        "Uma ligação inseparável entre plástico e metal garante um desempenho à prova de fugas para toda a vida."
       ],
-      "guideText": "\n    <h2>Die Lücke schließen</h2>\n    <p>Wenn es darum geht, moderne Polymersysteme mit traditioneller metallischer Infrastruktur zu verbinden, sind sichere und homogene Verbindungen von absoluter Bedeutung. Übergangsfittings dienen als entscheidende Brücke zwischen den fortschrittlichen PP-R/PPRCT-Rohren von K Aqua und vorhandenen Stahl-, Kupfer- oder Messingkomponenten wie Kesseln, Kühlern und Sanitärarmaturen. Diese Beschläge erfordern ein außergewöhnliches Maß an Technik, um sicherzustellen, dass die Verbindung zwischen Metall und Kunststoff auch unter extremen thermischen Zyklen und mechanischer Beanspruchung absolut dicht bleibt.</p>\n    <p>K Aqua-Übergangsfittings verfügen über tief eingebettete, verdrehsichere DZR-Messingeinsätze (Dezincification Resistant). Während des Spritzgussverfahrens wird das heiße PP-R direkt um das komplexe geometrische Profil des Messingeinsatzes geformt. Wenn der Kunststoff abkühlt und schrumpft, greift er das Messing mit enormer Kraft und bildet so eine untrennbare mechanische Verbindung. Dieses Design verhindert, dass sich der Messingeinsatz verdreht oder herauszieht, selbst wenn er bei der Installation dem hohen Drehmoment eines Klempnerschlüssels ausgesetzt ist.</p>\n    <p>Darüber hinaus stellt das hochwertige DZR-Messing sicher, dass der metallische Teil des Fittings äußerst widerstandsfähig gegen aggressive Wasserbedingungen ist, wodurch die vorzeitige Korrosion verhindert wird, die Standard-Messingfittings häufig plagt. Dies ist insbesondere in Warmwassersystemen von entscheidender Bedeutung, in denen die Reaktionsgeschwindigkeit deutlich beschleunigt wird.</p>\n    <ul>\n      <li>DZR-Messingeinsätze bieten überlegene Beständigkeit gegen Entzinkung und Korrosion.</li>\n      <li>Das verdrehsichere Design hält hohen Drehmomenten bei Gewindeinstallationen problemlos stand.</li>\n      <li>Eine untrennbare Verbindung zwischen Kunststoff und Metall gewährleistet eine lebenslange, leckagefreie Leistung.</li>\n      <li>Erhältlich in einer großen Auswahl an Konfigurationen mit Außen- und Innengewinde.</li>\n      <li>Perfekt für den Anschluss von PP-R-Netzen an metallische Pumpen, Ventile und Kessel.</li>\n    </ul>\n    <p>Egal, ob Sie eine massive 125-mm-Industriekühlleitung an einen Stahlflansch anpassen oder einfach eine 20-mm-Wohnwasserleitung an ein Chrom-Eckventil anschließen müssen, K Aqua bietet das exakt erforderliche Übergangsstück.</p>\n  "
+      "guideText": "\n    <h2>Unir os sistemas</h2>\n    <p>Quando se trata de ligar sistemas poliméricos modernos a infraestruturas metálicas tradicionais, as ligações seguras e homogéneas são de vital importância. Os acessórios de transição atuam como a ponte essencial entre os tubos avançados de PP-R/PP-RCT da K-Aqua e os componentes existentes em aço, cobre ou latão, como caldeiras, bombas e torneiras. Estes acessórios exigem um nível excecional de engenharia para assegurar que a conexão entre metal e plástico permaneça absolutamente estanque mesmo sob ciclos térmicos extremos e solicitações mecânicas.</p>\n    <p>Os acessórios de transição K-Aqua integram insertos em latão DZR (resistente à dezincificação) profundamente embutidos e com design antitorção. Durante a moldagem por injeção, o PP-R fundido é moldado diretamente em redor do perfil geométrico complexo do inserto em latão. Ao arrefecer e retrair, o plástico abraça o latão com enorme força, criando uma ligação mecânica inseparável. Este design impede que o inserto rode ou se solte mesmo quando submetido ao elevado binário de uma chave de canalizador durante a instalação.</p>\n    <p>Além disso, o latão DZR de alta qualidade garante que a parte metálica do acessório seja altamente resistente a águas agressivas, evitando a corrosão prematura que frequentemente afeta os acessórios de latão padrão.</p>\n    <ul>\n      <li>Os insertos em latão DZR oferecem resistência superior à dezincificação e à corrosão.</li>\n      <li>O design antitorção suporta facilmente binários elevados em instalações roscadas.</li>\n      <li>A união inseparável entre plástico e metal garante um desempenho fiável e livre de fugas durante décadas.</li>\n      <li>Disponível numa vasta gama de configurações roscadas macho e fêmea.</li>\n      <li>Perfeito para ligar redes de PP-R a bombas metálicas, válvulas e caldeiras.</li>\n    </ul>\n    <p>Quer necessite de adaptar uma tubagem de refrigeração industrial de 125 mm a um flange de aço ou simplesmente ligar uma tubagem residencial de 20 mm a uma torneira de esquadria cromada, a K-Aqua disponibiliza a peça de transição exata requerida.</p>\n  "
     },
     "valves": {
       "guideText": "\n    <h2>Absolute Durchflusskontrolle</h2>\n    <p>Präzise Steuerung und langlebige Funktion sind für das Management moderner Sanitärnetze unerlässlich. Ein effektives Fluidmanagement erfordert robuste, zuverlässige Kontrollpunkte, die sich nahtlos in das Hauptverteilungsnetz integrieren lassen. K Aqua bietet eine umfassende Palette an Hochleistungs-Absperrarmaturen, einschließlich Kugelhähnen mit vollem Durchgang, Unterputzventilen und Präzisionsventilen, die alle speziell für die direkte Polyfusion in PP-R-Rohrleitungen entwickelt wurden.</p>\n    <p>Indem wir den Ventilkörper aus genau demselben PP-R-Polymer wie die umgebenden Rohre herstellen, eliminieren wir die Notwendigkeit von Gewindeübergangsstücken bei der Installation von Absperrpunkten. Dies beschleunigt die Installationszeit drastisch, senkt die Materialkosten und beseitigt potenzielle Schwachstellen im System. Die internen mechanischen Komponenten: wie die präzisionsgefertigten Messingkugeln, Edelstahlspindeln und hochwertigen Teflon-Sitzringe (PTFE): sind so konstruiert, dass sie jahrzehntelang einen unglaublich reibungslosen, wartungsfreien Betrieb bieten.</p>\n    <p>Im Gegensatz zu herkömmlichen metallischen Schiebern, die nach jahrelanger Inaktivität häufig klemmen oder an der Stopfbuchse undicht werden, sind die kunststoffgekapselten Ventile von K Aqua immun gegen äußere Korrosion und eignen sich daher perfekt für feuchte Maschinenräume, erdverlegte Installationen oder feuchte Industrieumgebungen.</p>\n    <ul>\n      <li>Das Design mit vollem Durchgang verhindert jegliche Einschränkung des Flüssigkeitsstroms.</li>\n      <li>Korrosionsbeständige Kunststoffgehäuse schützen interne Metallkomponenten.</li>\n      <li>Direkte Polyfusion eliminiert die Notwendigkeit gefährdeter Schraubverbindungen.</li>\n      <li>Ergonomische Griffe und Feinmechanik sorgen für eine reibungslose Bedienung.</li>\n      <li>Erhältlich in einer Vielzahl von Größen, um sowohl den Bedürfnissen im Wohn- als auch im Industriebereich gerecht zu werden.</li>\n    </ul>\n    <p>Unser Design mit vollem Durchgang stellt sicher, dass bei geöffnetem Ventil der hydraulische Durchfluss nicht eingeschränkt wird, wodurch der optimale Systemdruck aufrechterhalten und die Effizienz der Zirkulationspumpen maximiert wird. Egal, ob Sie eine einzelne Sanitärarmatur isolieren oder die Hauptversorgungsleitung eines Gewerbegebäudes steuern müssen, K Aqua-Ventile liefern die erforderliche Zuverlässigkeit und Leistung.</p>\n    <p>Jedes Ventil wird vor dem Verpacken strengen Drucktests unterzogen, um sicherzustellen, dass es unseren kompromisslosen Qualitätsstandards entspricht. Vertrauen Sie auf K Aqua, wenn es um die Kontrollmechanismen geht, mit denen Ihre Flüssigkeitsnetzwerke Tag für Tag und Jahr für Jahr sicher und effizient arbeiten.</p>\n  "

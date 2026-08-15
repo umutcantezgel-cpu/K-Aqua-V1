@@ -38,10 +38,10 @@ export default function ProductGallery({ category }: Props) {
             className={clsx('w-full h-full flex items-center justify-center', placeholders[currentIndex])}
           >
             {/* Placeholder graphic */}
-            <div className="flex flex-col items-center justify-center opacity-30 text-foreground">
-              <ImageIcon className="w-20 h-20 mb-4" />
-              <span className="font-heading font-semibold text-lg">{category.toUpperCase()} Studio Shot {currentIndex + 1}</span>
-              <span className="text-sm font-mono mt-2">placeholder_{currentIndex + 1}.webp</span>
+            <div className="flex flex-col items-center justify-center opacity-40 text-foreground">
+              <ImageIcon className="w-16 h-16 mb-3 text-primary" />
+              <span className="font-heading font-semibold text-base">{category.toUpperCase()} Studio Ansicht {currentIndex + 1}</span>
+              <span className="text-xs font-mono text-muted-foreground mt-1">K-Aqua CAD/BIM Render</span>
             </div>
           </motion.div>
         </AnimatePresence>

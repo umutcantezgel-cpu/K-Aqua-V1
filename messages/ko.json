@@ -1,6 +1,15 @@
 {
-  "toggle_theme_light": "Zu hellem Design wechseln",
-  "toggle_theme_dark": "Zu dunklem Design wechseln",
+  "aboutDeep": {
+    "eyebrow": "심층 분석",
+    "title": "K-Aqua 심층 분석",
+    "lead": "프리미엄 PP-R 시스템의 장점을 확인하십시오",
+    "item1": "내구성과 효율성 · PP-RCT 파이프 시스템",
+    "item2": "재료 과학: 폴리프로필렌 랜덤 공중합체 (PP-R)",
+    "item3": "K-Aqua 시스템 유연성",
+    "item4": "탈아연 내성 DZR 황동"
+  },
+  "toggle_theme_light": "라이트 테마로 전환",
+  "toggle_theme_dark": "다크 테마로 전환",
   "nav": {
     "home": "Start",
     "products": "Produkte",
@@ -103,8 +112,8 @@
       "PP-R 및 PPRCT 플라스틱 파이프 시스템에 대한 공식 K Aqua 제품 카탈로그, 기술 데이터 시트 및 설치 지침을 다운로드하십시오."
     ],
     "partner": [
-      "KESSEL 파트너십",
-      "K Aqua와 KESSEL은 수십 년간의 파트너십을 통해 배수에서 급수까지 독일 제조 표준을 적용하고 있습니다."
+      "파트너십 및 네트워크",
+      "K-Aqua는 독일의 제조 표준과 수십 년간의 엔지니어링 전문성을 결합하여 생산부터 글로벌 급수 공급까지 지원합니다."
     ],
     "markets": [
       "시장 및 위치",
@@ -205,7 +214,7 @@
         "d": "Von Frankfurt bis NEOM: geprüft gegen die Normen und Wasserprofile vor Ort."
       }
     ],
-    "lead": "K-Aqua entwickelt und fertigt PP-R und PP-RCT Rohrsysteme für Trinkwasser von 20 bis 630 mm, in Partnerschaft mit dem Premiumhersteller KESSEL.",
+    "lead": "K-Aqua는 탁월한 독일 엔지니어링 정밀도를 바탕으로 20~630mm 직경의 음용수용 PP-R 및 PP-RCT 파이프 시스템을 개발 및 생산합니다.",
     "ctaProducts": "Produktsystem entdecken",
     "ctaContact": "Kontakt aufnehmen",
     "toolsEyebrow": "Interaktive Werkzeuge",
@@ -359,50 +368,50 @@
       "ISO 9001 · 14001 · 50001",
       "Waldsolms에서 제조",
       "100% 재활용",
-      "파트너: KESSEL"
+      "100 % 독일 제조"
     ],
     "tools": [
       {
         "id": "finder",
-        "t": "Produktfinder",
-        "d": "170+ Artikelvarianten live filtern: Dimension, SDR, Wandstärke sofort.",
-        "cta": "Jetzt filtern"
+        "t": "제품 파인더",
+        "d": "170개 이상의 제품 변형을 실시간으로 필터링: 규격, SDR, 벽 두께를 즉시 확인.",
+        "cta": "지금 필터링"
       },
       {
         "id": "co2",
-        "t": "CO₂-Rechner",
-        "d": "Ihr Projekt vs. Kupfer, Edelstahl und PVC, in Bäumen und Pkw-Kilometern.",
-        "cta": "Jetzt rechnen"
+        "t": "CO₂ 계산기",
+        "d": "귀하의 프로젝트를 구리, 스테인리스강, PVC와 비교하여 나무 그루 수 및 차량 주행 거리로 환산.",
+        "cta": "지금 계산"
       },
       {
         "id": "academy",
-        "t": "Academy + Quiz",
-        "d": "Vier Schweißverfahren im Video, dann das Schweißmeister-Quiz.",
-        "cta": "Meister werden"
+        "t": "아카데미 + 퀴즈",
+        "d": "4가지 용접 공정을 비디오로 학습한 후 용접 마스터 퀴즈에 도전하십시오.",
+        "cta": "마스터 되기"
       },
       {
         "id": "references",
-        "t": "Referenz-Globus",
-        "d": "Den Planeten drehen, Projekte entdecken: von Waldsolms bis Singapur.",
-        "cta": "Globus drehen"
+        "t": "레퍼런스 지구본",
+        "d": "지구본을 돌려 프로젝트 탐색: Waldsolms부터 싱가포르까지.",
+        "cta": "지구본 돌리기"
       },
       {
         "id": "trust",
-        "t": "Trust Center",
-        "d": "Zertifikate prüfen und das RFP-Dokumentenpaket selbst schnüren.",
-        "cta": "Paket bauen"
+        "t": "트러스트 센터",
+        "d": "인증서를 확인하고 RFP 문서 패키지를 직접 구성하십시오.",
+        "cta": "패키지 구성"
       },
       {
         "id": "career",
-        "t": "Benefits-Rechner",
-        "d": "Was steuerfreie Extras netto bringen, plus 60-Sekunden Culture Match.",
-        "cta": "Netto checken"
+        "t": "복리후생 계산기",
+        "d": "비과세 추가 혜택이 세후 실수령액에 미치는 영향 확인 및 60초 컬처 매치.",
+        "cta": "실수령액 확인"
       }
     ],
-    "vsEyebrow": "Der Unterschied",
-    "vsTitle": "Branchenstandard vs. K Aqua digital.",
-    "vsBadTitle": "So macht es die Branche",
-    "vsGoodTitle": "So macht es K Aqua",
+    "vsEyebrow": "차별점",
+    "vsTitle": "업계 표준 vs. K Aqua 디지털.",
+    "vsBadTitle": "업계 관행",
+    "vsGoodTitle": "K Aqua 방식",
     "vsBad": [
       "검색할 수 없는 220페이지 분량의 PDF 카탈로그",
       "서면 요청 시에만 제공되는 인증서",
@@ -415,13 +424,13 @@
       "CO₂ 계산기로 데이터를 명확한 근거로 제공",
       "복리후생 계산기 + 컬처 매치"
     ],
-    "coEyebrow": "Das Unternehmen",
-    "coTitle1": "Baustofflieferant und Hersteller:",
-    "coTitle2": "aus einer Hand.",
-    "coLead": "Die KWT GmbH fertigt Rohre und Formteile für die Wasserversorgung aus verschiedenen Kunststoffen und positioniert sich damit in der Wertschöpfungskette Bau als Lieferant und Hersteller zugleich.",
-    "kesselTitle": "Starke Partnerschaft mit KESSEL",
-    "kesselText": "Mit dem Premiumhersteller KESSEL, „Leading in drainage\", verbindet uns eine enge, langjährige Partnerschaft. Diese Erfahrung aus Jahrzehnten tragen wir in die Zukunft.",
-    "kesselCta": "Mehr zur Partnerschaft",
+    "coEyebrow": "기업 정보",
+    "coTitle1": "건축 자재 공급업체이자 제조업체:",
+    "coTitle2": "원스톱 서비스 제공.",
+    "coLead": "KWT GmbH는 다양한 플라스틱으로 급수용 파이프와 피팅을 제조하며, 건축 가치 사슬에서 공급업체와 제조업체의 역할을 동시에 수행합니다.",
+    "kesselTitle": "독립적인 독일 엔지니어링",
+    "kesselText": "소유주가 직접 경영하는 독일 기업으로서, Philipp Nickel과 Marcello Gallio는 수십 년간의 제조 전문성과 민첩한 리더십을 결합하여 글로벌 음용수 프로젝트를 이끌어갑니다.",
+    "kesselCta": "기업 정보 더 보기",
     "worldTitle": "Weltweit bewährt",
     "worldText": "K Aqua-Produkte haben sich über Jahrzehnte unzählige Male in Projekten auf der ganzen Welt bewährt.",
     "worldCta": "Referenz-Globus",
@@ -510,9 +519,9 @@
     "title1": "Erfahrung ist Ihr",
     "titleGrad": "Vorteil.",
     "lead": "Neue Strategien, gewachsenes Wissen: Als Hersteller von K-Aqua verbindet die KWT GmbH jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
-    "h2": "K Aqua: führend in der Wasserversorgung",
-    "p1": "Das Geschäftsfeld der KWT GmbH ist die Fertigung von Rohren und Formteilen für die Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich das Unternehmen in der Wertschöpfungskette Bau als Baustofflieferant und Hersteller.",
-    "p2": "Mit dem Premiumhersteller KESSEL, „Leading in drainage\", besteht eine enge und langjährige Partnerschaft. Mit dieser Erfahrung aus Jahrzehnten tragen wir unseren Erfolg in die Zukunft.",
+    "h2": "K Aqua: 급수 시스템의 선두주자",
+    "p1": "KWT GmbH의 핵심 사업 분야는 다양한 플라스틱으로 급수용 파이프 및 피팅을 제조하는 것입니다. 이를 통해 당사는 건축 가치 사슬에서 건축 자재 공급업체이자 제조업체로서의 입지를 확고히 하고 있습니다.",
+    "p2": "Philipp Nickel과 Marcello Gallio의 기업가적 리더십 하에, K-Aqua는 최고 품질 기준, 기술 혁신 및 글로벌 시장을 위한 지속 가능한 폴리머 제조에 주력하고 있습니다.",
     "polEyebrow": "Unternehmenspolitik",
     "polTitle": "Nutzen entsteht im Zusammenspiel.",
     "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
@@ -750,29 +759,29 @@
     "mileTitle": "Der Weg bis hierher.",
     "miles": [
       {
-        "y": "Jahrzehnte",
-        "t": "Fertigungserfahrung",
-        "d": "Kunststoffverarbeitung für die Wasserversorgung: Erfahrung, die in jede Charge einfließt."
+        "y": "수십 년",
+        "t": "제조 경험",
+        "d": "급수용 플라스틱 가공: 모든 생산 배치에 녹아든 경험."
       },
       {
-        "y": "Partnerschaft",
-        "t": "Enge Verbindung zu KESSEL",
-        "d": "Mit dem Premiumhersteller „Leading in Drainage\" verbindet KWT eine langjährige Wertegemeinschaft."
+        "y": "미래",
+        "t": "소유주 주도의 전략적 재편",
+        "d": "Philipp Nickel과 Marcello Gallio가 K-Aqua를 이끌며 독립적인 독일 제조업체로서 국제 사업을 확장하고 있습니다."
       },
       {
         "y": "GENAU",
-        "t": "Managementsystem im House of KWT",
-        "d": "Arbeitsschutz, Umwelt und Energie als tägliche Praxis jedes Mitarbeitenden, nicht als Audit-Übung."
+        "t": "House of KWT 관리 시스템",
+        "d": "단순한 감사용 연습이 아닌, 모든 임직원의 일상적인 실천으로서의 산업 안전, 환경 및 에너지 관리."
       },
       {
         "y": "10/2025",
-        "t": "Dreifach ISO-geprüft",
-        "d": "ISO 9001, 14001 und 50001 in einem Schritt: DAkkS-akkreditiert, gültig bis 10/2028."
+        "t": "트리플 ISO 인증",
+        "d": "ISO 9001, 14001, 50001 동시 인증: DAkkS 인증, 2028년 10월까지 유효."
       },
       {
         "y": "2026",
-        "t": "Digitale Plattform",
-        "d": "Produktfinder, CO₂-Rechner, Trust Center und Academy machen die Website zum Werkzeugkasten."
+        "t": "디지털 플랫폼",
+        "d": "제품 파인더, CO₂ 계산기, 트러스트 센터 및 아카데미를 통해 웹사이트를 종합 도구 상자로 구축."
       }
     ]
   },
@@ -2985,42 +2994,42 @@
     "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
   },
   "partner": {
-    "eyebrow": "Partnerschaft",
-    "title1": "Zwei Marken.",
-    "titleGrad": "Eine Haltung.",
-    "lead": "Zwei Marken. Eine Haltung. Die enge, jahrzehntelange Partnerschaft zwischen K-Aqua und KESSEL überträgt Premium-Vertrauen aus der Entwässerung in die Wasserversorgung für PP-R Rohrsysteme.",
-    "onionAria": "Zwiebelschalenmodell der Partnerschaft",
+    "eyebrow": "파트너십 및 네트워크",
+    "title1": "강력한 파트너.",
+    "titleGrad": "하나의 사명.",
+    "lead": "K-Aqua는 엔지니어링 컨설턴트, MEP 시공사 및 유통업체와의 글로벌 파트너십에 집중하여 전 세계 음용수 분배에서 독일 품질을 확립하고 있습니다.",
+    "onionAria": "K-Aqua 파트너 모델",
     "rings": [
       {
-        "l": "Kernmarke",
-        "t": "KESSEL: Leading in Drainage",
-        "d": "Premiumhersteller der Entwässerungstechnik. Weltleitmessen wie die ISH, das PlanerPortal und das KundenForum machen KESSEL zur Autorität der TGA-Branche."
+        "l": "리더십",
+        "t": "K-Aqua: 독일 엔지니어링 DNA",
+        "d": "소유주 Philipp Nickel 및 Marcello Gallio 직접 경영: 독립적인 제조, 민첩한 의사 결정 및 타협 없는 품질 관리."
       },
       {
-        "l": "System",
-        "t": "K Aqua: führend in der Wasserversorgung",
-        "d": "Die Versorgungsseite derselben Ingenieurs-DNA: vollständiges PP-R/PPRCT-System d20–d630, gefertigt in Deutschland. Entwässerung und Versorgung aus einer Wertegemeinschaft."
+        "l": "시스템",
+        "t": "K-Aqua: 급수 시스템의 선두주자",
+        "d": "독일 프리미엄 엔지니어링의 공급 측면: DIN EN ISO 15874에 따라 독일에서 제조된 완벽한 PP-R/PP-RCT 시스템 d20–d630."
       },
       {
-        "l": "Service",
-        "t": "Gemeinsames Ökosystem",
-        "d": "Planer profitieren doppelt: Schulungen, Schweißtechnik-Support und digitale Planungswerkzeuge, perspektivisch bis zum parametrischen Rohrnetz-Konfigurator."
+        "l": "서비스",
+        "t": "글로벌 파트너 네트워크",
+        "d": "전 세계 설계자의 혜택: 기술 교육, 용접 기술 지원, BIM 객체 및 대규모 개발 프로젝트를 위한 맞춤형 프로젝트 컨설팅."
       }
     ],
-    "whyEyebrow": "Warum PP-R/PPRCT",
-    "whyTitle": "Das Rückgrat des Produktversprechens.",
+    "whyEyebrow": "왜 PP-R/PP-RCT인가",
+    "whyTitle": "제품 약속의 핵심 기반.",
     "cards": [
       {
-        "t": "Absolute Korrosionsfreiheit",
-        "d": "Immun gegen elektrochemische Korrosion: kein Lochfraß, keine Rohrbrüche wie bei Kupfer oder verzinktem Stahl."
+        "t": "완벽한 부식 방지",
+        "d": "전기화학적 부식에 면역: 구리나 아연도금강과 같은 점식이나 파이프 파열 위험 없음."
       },
       {
-        "t": "Thermische Effizienz",
-        "d": "Minimaler Wärmeverlust in der Warmwasserzirkulation: direkte Energieeinsparung über Jahrzehnte."
+        "t": "열 효율성",
+        "d": "온수 순환 시 최소한의 열 손실: 수십 년간 지속되는 직접적인 에너지 절감."
       },
       {
-        "t": "Hygienische Neutralität",
-        "d": "Geschmacks- und geruchsneutral; die extrem glatte Innenoberfläche verhindert Biofilm und Inkrustation."
+        "t": "위생적 중립성",
+        "d": "맛과 냄새가 없음: 극도로 매끄러운 내부 표면으로 바이오필름 및 스케일 형성 방지."
       }
     ],
     "formTitle": "파트너십 요청",
@@ -4891,8 +4900,8 @@
         ]
       }
     ],
-    "ishTitle": "Treffpunkt Branche",
-    "ishText": "Die TGA-Branche trifft sich auf der ISH in Frankfurt, der Weltleitmesse, auf der Partner KESSEL regelmäßig Präsenz zeigt. Sobald K Aqua-Termine feststehen, erscheinen sie hier."
+    "ishTitle": "업계의 만남의 장",
+    "ishText": "HVAC 및 건축 설비(TGA) 업계는 두바이와 리야드의 Big 5, 프랑크푸르트의 ISH 등 세계 유수의 주요 박람회에 정기적으로 참가합니다. 향후 K-Aqua의 참가 일정이 확정되는 대로 여기에 공지됩니다."
   },
   "contactx": {
     "routeEyebrow": "Direkte Wege",
@@ -4964,85 +4973,63 @@
     ]
   },
   "partnerx": {
+    "ecoEyebrow": "K-Aqua 생태계",
+    "ecoTitle": "K-Aqua 고객이 누리는 혜택.",
+    "ecoLead": "K-Aqua는 독일 제조 공정으로부터 MEP 엔지니어, 시공업체 및 프로젝트 관리자에게 원활한 서비스와 엔지니어링 생태계를 제공합니다.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL zeigt Präsenz auf der Weltleitmesse der TGA-Branche, der Bühne, auf der Entwässerung und Versorgung zusammen gedacht werden."
+        "t": "국제 무역 박람회",
+        "d": "두바이/리야드의 Big 5 및 프랑크푸르트의 ISH를 포함한 주요 건설 박람회에 적극 참여: K-Aqua는 현대적인 융착 기술을 대표합니다."
       },
       {
-        "t": "PlanerPortal",
-        "d": "Die digitale Plattform für Fachplaner ist das Herzstück der täglichen Planerbindung: Vorbild für die digitalen Werkzeuge von K Aqua."
+        "t": "설계자 포털 및 BIM",
+        "d": "오류 및 간섭 없는 MEP 모델링을 위한 GAEB/IFC 사양 텍스트와 디지털 CAD 및 Revit 3D 모델."
       },
       {
-        "t": "KundenForum",
-        "d": "Physische und hybride Schulungen an dedizierten Standorten, unter anderem in Lenting und Hamburg. Wissenstransfer ist Bindung."
+        "t": "K-Aqua 아카데미",
+        "d": "전 세계 설치 전문가를 위한 실습 소켓 및 맞대기 용접 인증과 비디오 가이드."
       },
       {
-        "t": "Planungshandbuch",
-        "d": "Das redaktionell gepflegte Planungswissen von KESSEL ist Referenz dafür, wie K Aqua seinen Wissensbereich für Planer ausbaut: von der Academy bis zu den Dimensionstabellen."
+        "t": "기술 매뉴얼",
+        "d": "엔지니어와 컨설턴트가 즉시 액세스할 수 있는 포괄적인 치수 및 압력 강하 표."
       }
     ],
-    "flowEyebrow": "Zwei Ströme, ein Gebäude",
-    "flowTitle": "Versorgung rein, Entwässerung raus.",
-    "flowLead": "Jedes Gebäude braucht beide Richtungen. Die Partnerschaft deckt den kompletten Wasserweg mit einer gemeinsamen Ingenieurs-DNA ab.",
+    "flowEyebrow": "최고 수준의 시스템 호환성",
+    "flowTitle": "음용수, 난방, 산업용 파이프라인.",
+    "flowLead": "까다로운 건설 프로젝트를 위해 초고층 입상관부터 각 층 분배까지 포괄적인 제품군 지원.",
     "flow": [
       {
-        "t": "K Aqua: Leading in Water Supply",
-        "d": "Trinkwasserversorgung d20–d630: Rohre, Formteile, Armaturen und Schweißtechnik, gefertigt in Waldsolms."
+        "t": "K-Aqua: 급수 시스템의 선두주자",
+        "d": "음용수 공급 d20–d630: Waldsolms에서 제조된 파이프, 피팅, 밸브 및 용접 기술."
       },
       {
-        "t": "KESSEL: Leading in Drainage",
-        "d": "Der Premiumhersteller der Entwässerungstechnik: Rückstauschutz, Hebeanlagen, Abscheider. Die Autorität der TGA-Branche."
+        "t": "인증된 품질",
+        "d": "DVGW 인증 획득, SKZ 모니터링, DIN EN ISO 15874에 따라 자체 연구실에서 배치별 테스트 완료."
       },
       {
-        "t": "Gemeinsames Gewerk",
-        "d": "Planer und Verarbeiter arbeiten mit einer Wertegemeinschaft: gleiche Qualitätsphilosophie, abgestimmter Support, kurze Wege."
+        "t": "포괄적인 엔지니어링 지원",
+        "d": "설계자와 시공업체는 독일 기술 엔지니어링 팀에 직접 문의 가능: 빠른 응답, 맞춤형 상담."
       }
     ],
-    "roadEyebrow": "Gemeinsame Roadmap",
-    "roadTitle": "Vom Schulungsvideo zum Konfigurator.",
+    "roadEyebrow": "공동 로드맵",
+    "roadTitle": "교육용 비디오에서 구성기까지.",
     "road": [
       {
-        "t": "Academy & Videos",
-        "d": "Vier Schweißverfahren als Videodokumentation plus Quiz: heute verfügbar, baustellenoptimiert.",
-        "s": "Heute"
+        "t": "아카데미 및 비디오",
+        "d": "비디오 문서로 제공되는 4가지 용접 공정과 퀴즈: 현장 최적화 완료, 즉시 이용 가능.",
+        "s": "현재 제공"
       },
       {
-        "t": "Schweißtechnik-Support",
-        "d": "Geräte, Werkzeuge und Einweisung für Ihre Kolonne, direkt vom Hersteller.",
-        "s": "Heute"
+        "t": "용접 기술 지원",
+        "d": "시공팀을 위한 장비, 도구 및 교육을 제조업체에서 직접 제공.",
+        "s": "현재 제공"
       },
       {
-        "t": "Digitale Planungswerkzeuge",
-        "d": "Produktfinder, CO₂-Rechner und Trust Center als Self Service, im Ausbau nach dem Vorbild PlanerPortal.",
-        "s": "Im Ausbau"
-      },
-      {
-        "t": "Parametrischer Rohrnetz-Konfigurator",
-        "d": "Die Perspektive: Rohrnetze parametrisch konfigurieren und direkt in Stückliste und Anfrage überführen.",
-        "s": "Perspektive"
+        "t": "디지털 계획 도구",
+        "d": "제품 파인더, CO₂ 계산기 및 사양 패키지 온라인 제공, 파이프 네트워크 구성기 개발 중.",
+        "s": "개발 중"
       }
-    ],
-    "specEyebrow": "Für Ihre Spezifikation",
-    "specTitle": "Daten dahin, wo entschieden wird.",
-    "specLead": "Die Produktspezifikation entscheidet sich in AVA- und CAD-Software. Dort liefern wir hin.",
-    "spec": [
-      {
-        "t": "GAEB-Ausschreibungstexte",
-        "d": "Fertige Texte für Ihr Leistungsverzeichnis: Teil des RFP-Pakets im Trust Center."
-      },
-      {
-        "t": "BIM- & CAD-Daten",
-        "d": "Planungsdaten für die modellbasierte Arbeit, auf Anfrage über den Vertrieb, Ausbau läuft."
-      },
-      {
-        "t": "Datenblätter & Muster",
-        "d": "Produktkatalog und Eigenschaften als PDF, Muster und Projektberatung direkt vom Werk."
-      }
-    ],
-    "ecoEyebrow": "Das KESSEL-Ökosystem",
-    "ecoTitle": "Wovon K Aqua-Kunden profitieren.",
-    "ecoLead": "KESSEL hat über Jahrzehnte die Infrastruktur einer Premiummarke aufgebaut. K Aqua bringt dieselbe Haltung in die Wasserversorgung."
+    ]
   },
   "servicex": {
     "libEyebrow": "Dokumentenbibliothek",

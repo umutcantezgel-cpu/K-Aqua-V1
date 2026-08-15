@@ -93,7 +93,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <BentoGridItem
                 title={t('support.bento.items.0.title')}
                 description={t('support.bento.items.0.desc')}
-                header={<PremiumAssetPlaceholder label={t('support.bento.items.0.title')} image="/images/new-k-aqua/pipes-profil.png" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.0.title')} className="min-h-[240px]" />}
                 colSpan={2}
               />
               <BentoGridItem
@@ -111,13 +111,13 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <BentoGridItem
                 title={t('support.bento.items.3.title')}
                 description={t('support.bento.items.3.desc')}
-                header={<PremiumAssetPlaceholder label={t('support.bento.items.3.title')} image="/images/new-k-aqua/fittings-profil.png" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.3.title')} className="min-h-[240px]" />}
                 colSpan={2}
               />
               <BentoGridItem
                 title={t('support.bento.items.4.title')}
                 description={t('support.bento.items.4.desc')}
-                header={<PremiumAssetPlaceholder label={t('support.bento.items.4.title')} image="/images/new-k-aqua/weld-in-saddles.png" className="min-h-[300px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.4.title')} className="min-h-[300px]" />}
                 colSpan={3}
               />
             </BentoGrid>
@@ -158,7 +158,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               </ul>
             </div>
             <div className="h-full min-h-[700px] rounded-[2rem] overflow-hidden border border-card-border relative shadow-2xl">
-              <PremiumAssetPlaceholder label={t('support.metrics.badge')} image="/images/new-k-aqua/fertigung-pipes.jpg" />
+              <PremiumAssetPlaceholder label={t('support.metrics.badge')} />
             </div>
           </div>
         </div>

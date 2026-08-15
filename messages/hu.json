@@ -1,4 +1,13 @@
 {
+  "aboutDeep": {
+    "eyebrow": "Mélyreható Áttekintés",
+    "title": "K-Aqua Szakértelem",
+    "lead": "Fedezze fel prémium PP-R csőrendszereink előnyeit",
+    "item1": "Hosszú Élettartam és Hatékonyság · PP-RCT Csőrendszerek",
+    "item2": "Anyagtudomány: Polipropilén Random Kopolimer",
+    "item3": "A K-Aqua Rendszer Rugalmassága",
+    "item4": "DZR Sárgaréz: Cinktelenítésnek Ellenálló"
+  },
   "toggle_theme_light": "Világos mód",
   "toggle_theme_dark": "Sötét mód",
   "nav": {
@@ -103,8 +112,8 @@
       "Töltse le a hivatalos K-Aqua termékkatalógusokat, műszaki adatlapokat és telepítési irányelveket a PP-R és PPRCT műanyag csőrendszerekhez."
     ],
     "partner": [
-      "KESSEL Partnerség",
-      "A K-Aqua és a KESSEL több évtizedes partnerséget ápol, amely a német gyártási szabványokat a vízelvezetéstől a vízellátásig viszi át."
+      "Globális Partnerhálózat",
+      "A K-Aqua világszerte együttműködik mérnökirodákkal, épületgépészeti (MEP) kivitelezőkkel és minősített forgalmazókkal, garantálva a német minőségi szabványokat az ivóvíz-hálózatokban."
     ],
     "markets": [
       "Piacok és Helyszínek",
@@ -205,7 +214,7 @@
         "d": "Frankfurttól a NEOM-ig: a helyi szabványok és vízprofilok szerint ellenőrizve."
       }
     ],
-    "lead": "A K-Aqua 20-tól 630 mm-ig terjedő méretben fejleszt és gyárt PP-R/PPRCT csőrendszereket ivóvízhez, partnerségben a KESSEL prémium gyártóval.",
+    "lead": "A K-Aqua 20-tól 630 mm-ig terjedő méretben fejleszt és gyárt PP-R és PP-RCT csőrendszereket ivóvízhez, tanúsított német mérnöki minőségben.",
     "ctaProducts": "Fedezze fel a termékrendszert",
     "ctaContact": "Lépjen kapcsolatba velünk",
     "toolsEyebrow": "Interaktív Eszközök",
@@ -2830,42 +2839,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "A KESSEL ökoszisztéma",
+    "ecoEyebrow": "K-Aqua Ökoszisztéma",
     "ecoTitle": "Miből profitálnak a K-Aqua ügyfelek.",
-    "ecoLead": "A KESSEL évtizedek alatt építette fel egy prémium márka infrastruktúráját. A K-Aqua ugyanezt a hozzáállást hozza a vízellátásba.",
+    "ecoLead": "A K-Aqua integrált mérnöki és szerviz ökoszisztémát biztosít az épületgépészeti kivitelezőknek, mérnököknek és projektvezetőknek közvetlenül németországi gyártóbázisáról.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "A KESSEL jelen van az épületgépészeti (TGA) iparág vezető világkiállításán, azon a színpadon, ahol a vízelvezetés és a vízellátás együtt jelenik meg."
+        "t": "Nemzetközi Szakvásárok",
+        "d": "Aktív részvétel a vezető világkiállításokon, mint a Big 5 Dubai/Riyadh és az ISH: A K-Aqua bemutatja a korszerű polifúziós hegesztési technológiát."
       },
       {
-        "t": "Tervezői Portál (PlanerPortal)",
-        "d": "A szakmai tervezők digitális platformja a mindennapi tervezői elköteleződés központja: példakép a K-Aqua digitális eszközei számára."
+        "t": "Tervezői Portál és BIM",
+        "d": "Digitális 3D CAD és Revit modellek GAEB/IFC specifikációkkal a precíz és ütközésmentes MEP modellezéshez."
       },
       {
-        "t": "Ügyfélfórum (KundenForum)",
-        "d": "Személyes és hibrid képzések dedikált helyszíneken, többek között Lentingben és Hamburgban. A tudástranszfer elköteleződést jelent."
+        "t": "K-Aqua Akadémia",
+        "d": "Gyakorlati tanúsítás tokos és tompahegesztéshez videós útmutatókkal a kivitelezők számára világszerte."
       },
       {
-        "t": "Tervezési kézikönyv",
-        "d": "A KESSEL szerkesztett tervezési tudásbázisa referenciaként szolgál arra, hogyan bővíti a K-Aqua tervezői tudásbázisát: az Akadémiától a mérettáblázatokig."
+        "t": "Műszaki Kézikönyv",
+        "d": "Átfogó méretezési és nyomásveszteség-számítási táblázatok mérnökök és tanácsadók számára, azonnal elérhetően."
       }
     ],
-    "flowEyebrow": "Két áramlat, egy épület",
-    "flowTitle": "Ellátás be, vízelvezetés ki.",
-    "flowLead": "Minden épületnek mindkét irányra szüksége van. A partnerség a teljes vízi utat lefedi egy közös mérnöki DNS-sel.",
+    "flowEyebrow": "Maximális Rendszerkompatibilitás",
+    "flowTitle": "Ivóvíz, fűtés, ipari csővezetékek.",
+    "flowLead": "A magasházi felszálló vezetékektől a szinti elosztásokig az igényes építési projektekben.",
     "flow": [
       {
-        "t": "K-Aqua: Vezető a vízellátásban",
+        "t": "K-Aqua: Vezető a Vízellátásban",
         "d": "Ivóvízellátás d20–d630: Csövek, idomok, szerelvények és hegesztéstechnika, Waldsolmsban gyártva."
       },
       {
-        "t": "KESSEL: Vezető a vízelvezetésben",
-        "d": "A vízelvezetési technológia prémium gyártója: visszatorlódás elleni védelem, átemelő berendezések, leválasztók. Az épületgépészeti iparág tekintélye."
+        "t": "Tanúsított Minőség",
+        "d": "DVGW tanúsítvánnyal, SKZ felügyelettel, minden sarzst saját laboratóriumban tesztelve a DIN EN ISO 15874 szerint."
       },
       {
-        "t": "Közös szakma",
-        "d": "A tervezők és kivitelezők egy értékközösséggel dolgoznak együtt: azonos minőségi filozófia, összehangolt támogatás, rövid utak."
+        "t": "Átfogó Mérnöki Támogatás",
+        "d": "A tervezők és kivitelezők közvetlen kapcsolatban állnak német mérnökcsapatunkkal: gyors válaszidő, szaktanácsadás."
       }
     ],
     "roadEyebrow": "Közös Útiterv",
@@ -3314,9 +3323,9 @@
         "d": "Műanyagfeldolgozás a vízellátás számára: tapasztalat, amely minden egyes tételbe beépül."
       },
       {
-        "y": "Partnerség",
-        "t": "Szoros kapcsolat a KESSEL-lel",
-        "d": "A „Leading in Drainage\" prémium gyártóhoz a KWT-t egy többéves értékközösség köti."
+        "y": "Jövő",
+        "t": "Tulajdonosi vezetésű átszervezés",
+        "d": "Philipp Nickel és Marcello Gallio vezetik a K-Aqua-t, bővítve a nemzetközi operációt független német gyártóként."
       },
       {
         "y": "GENAU",
@@ -3386,7 +3395,7 @@
       }
     ],
     "ishTitle": "Iparági Találkozóhely",
-    "ishText": "Az épületgépészeti iparág a frankfurti ISH-n, a vezető világkiállításon találkozik, ahol a partner KESSEL rendszeresen jelen van. Amint a K-Aqua időpontjai rögzülnek, itt is megjelennek."
+    "ishText": "A HVAC iparág rendszeresen találkozik a világ vezető szakvásárain, mint a Big 5 Dubajban és Rijádban, valamint az ISH Frankfurtban. A közelgő K-Aqua időpontokat itt tesszük közzé."
   },
   "contactx": {
     "routeEyebrow": "Közvetlen utak",
@@ -3555,7 +3564,7 @@
         "Élvonalbeli orvostudományi és kutatási létesítmények",
         "Exkluzív lakóépületek"
       ],
-      "note": "Nagy sűrűségű bajorországi telepítői hálózat KESSEL-szinergiákkal (Lenting).",
+      "note": "Nagy sűrűségű bajorországi telepítői hálózat közvetlen waldsolmsi gyári logisztikával.",
       "focusHeading": "Tipikus projektek itt: München",
       "extendedMarketText": "Ennek a régiónak a városi infrastruktúrája különleges követelményeket támaszt a csővezeték-rendszerek tartósságával és megbízhatóságával szemben. Az extrém éghajlati viszonyok és a víz higiéniájával szembeni magas követelmények miatt a K-Aqua PP-R és PPRCT megoldásai döntő előnyt jelentenek. A hagyományos fémcsövek gyakran szenvednek korróziótól és ásványi lerakódásoktól, ami jelentős nyomásveszteséghez és a szivárgások miatti vízpazarláshoz vezet. A K-Aqua rendszerek ezzel szemben korróziómentes anyaguknak és a homogén polifúziós hegesztésnek köszönhetően abszolút tömített, karbantartásmentes telepítést garantálnak több mint 50 évre. Ezenkívül a sima belső felület optimális hidraulikus áramlási tulajdonságokat tesz lehetővé, ami drasztikusan csökkenti a keringető szivattyúk energiaigényét. Ezek a tényezők teszik a K-Aqua-t az elsődleges választássá nagy szállodakomplexumok, kórházak, ipari hűtőrendszerek és igényes lakóépítési projektek számára a városi szektorban."
     },
@@ -3932,26 +3941,26 @@
     "scope3": "Scope-3 kibocsátási adatok és EPD nyers adatok kérésre: proaktív átláthatóság a kötelező előírások teljesítése helyett."
   },
   "partner": {
-    "eyebrow": "Partnerség",
-    "title1": "Két márka.",
-    "titleGrad": "Egy szemlélet.",
-    "lead": "Két márka. Egy szemlélet. A KESSEL-lel ápolt szoros, évtizedes partnerség átülteti a vízelvezetés területén megszerzett prémium bizalmat a vízellátásba.",
-    "onionAria": "A partnerség hagymahéj modellje",
+    "eyebrow": "Partnerek és Hálózat",
+    "title1": "Erős Partnerek.",
+    "titleGrad": "Egyetlen Küldetés.",
+    "lead": "A K-Aqua globális partnerségekre épít tervezőmérnökökkel, MEP kivitelezőkkel és disztribútorokkal, hogy világszerte biztosítsa a német minőségű vízellátást.",
+    "onionAria": "K-Aqua partnerségi modell",
     "rings": [
       {
-        "l": "Alapmárka",
-        "t": "KESSEL: Vezető a Vízelvezetésben",
-        "d": "A vízelvezetési technológia prémium gyártója. A világ vezető szakkiállításai, mint az ISH, a Tervezői Portál és az Ügyfélfórum teszik a KESSEL-t az épületgépészeti (TGA) iparág szaktekintélyévé."
+        "l": "Vezetés",
+        "t": "K-Aqua: Német Mérnöki DNS",
+        "d": "Philipp Nickel és Marcello Gallio tulajdonosi vezetése alatt: független gyártás, agilis döntéshozatal és kompromisszummentes minőségellenőrzés."
       },
       {
         "l": "Rendszer",
         "t": "K-Aqua: Vezető a Vízellátásban",
-        "d": "Ugyanazon mérnöki DNS ellátási oldala: egy teljes, Németországban gyártott PP-R/PPRCT rendszer d20-tól d630-ig. Vízelvezetés és vízellátás egyetlen értékközösségből."
+        "d": "A csúcsszintű német mérnökség ellátási oldala: teljes PP-R/PP-RCT rendszer d20–d630, Németországban gyártva a DIN EN ISO 15874 szerint."
       },
       {
         "l": "Szerviz",
-        "t": "Közös Ökoszisztéma",
-        "d": "A tervezők duplán profitálnak: képzések, hegesztéstechnikai támogatás és digitális tervezési eszközök, a jövőben egészen a parametrikus csőhálózat-konfigurátorig."
+        "t": "Globális Partnerhálózat",
+        "d": "A tervezők világszerte profitálnak: műszaki képzések, hegesztéstechnológiai támogatás, BIM objektumok és személyes projekttanácsadás."
       }
     ],
     "whyEyebrow": "Miért PP-R/PPRCT?",
@@ -4421,7 +4430,7 @@
       "ISO 9001 · 14001 · 50001",
       "Gyártva Waldsolmsban",
       "100 % újrahasznosítás",
-      "Partner: KESSEL"
+      "100 % Németországban gyártva"
     ],
     "tools": [
       {
@@ -4481,9 +4490,9 @@
     "coTitle1": "Építőanyag-beszállító és gyártó:",
     "coTitle2": "egy kézből.",
     "coLead": "A KWT GmbH műanyagokból gyárt csöveket és idomokat vízellátáshoz, így az építőipari értékláncban beszállítóként és gyártóként is jelen van.",
-    "kesselTitle": "Erős partnerség a KESSEL-lel",
-    "kesselText": "Szoros, hosszú távú partnerség fűz minket a prémium gyártó KESSEL-hez („Vezető a vízelvezetésben”). Ezt az évtizedes tapasztalatot visszük a jövőbe.",
-    "kesselCta": "Bővebben a partnerségről",
+    "kesselTitle": "Független Német Mérnökség",
+    "kesselText": "Tulajdonos által irányított német vállalatként Philipp Nickel és Marcello Gallio több évtizedes gyártási tapasztalatot ötvöznek agilis vezetéssel a globális ivóvízprojektekhez.",
+    "kesselCta": "Tudjon meg többet a K-Aqua-ról",
     "worldTitle": "Világszerte bizonyított",
     "worldText": "A K-Aqua termékek évtizedek óta számtalanszor bizonyítottak projektekben világszerte.",
     "worldCta": "Referenciagömb",
@@ -4531,7 +4540,7 @@
     "lead": "Új stratégiák, felhalmozott tudás: A KWT GmbH egyesíti az évtizedes gyártási tapasztalatot az előretekintő jövőképpel.",
     "h2": "K-Aqua: Vezető a vízellátásban",
     "p1": "A KWT GmbH tevékenységi köre a vízellátáshoz használt különféle műanyag csövek és idomok gyártása. Ezzel a vállalat építőanyag-beszállítóként és gyártóként pozicionálja magát az építőipari értékláncban.",
-    "p2": "Szoros, hosszú távú partnerséget ápolunk a vízelvezetés területén vezető (\"Leading in drainage\") KESSEL prémium gyártóval. Ezt a több évtizedes tapasztalatot visszük tovább a jövőbeni sikereinkbe.",
+    "p2": "Philipp Nickel és Marcello Gallio vállalkozói vezetése alatt a K-Aqua a legmagasabb minőségi szabványokra, a technológiai innovációra és a fenntartható polimergyártásra összpontosít a globális piacokon.",
     "polEyebrow": "Vállalati Irányelvek",
     "polTitle": "Az érték az együttműködésből fakad.",
     "polLead": "Nincs ügyfélérték munkavállalói érték nélkül, nincs munkavállalói érték vállalati érték nélkül, és nincs vállalati érték környezeti és társadalmi érték nélkül.",

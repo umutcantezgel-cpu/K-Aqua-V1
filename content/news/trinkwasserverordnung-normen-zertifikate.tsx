@@ -190,7 +190,7 @@ export const trinkwasserverordnungNormenZertifikate: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Zertifizierungsdokumente und Prüfsiegel: Ein visuelles Array aller internationalen Zulassungen (DVGW, KIWA, ISO)" image="/images/new-k-aqua/about-us.webp" />
+          <PremiumAssetPlaceholder label="Zertifizierungsdokumente und Prüfsiegel: Qualitätsnachweise aus deutscher Fertigung (DVGW, SKZ, ISO)" />
         </Reveal>
       </section>
 

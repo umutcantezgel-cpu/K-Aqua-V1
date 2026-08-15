@@ -17,7 +17,6 @@ import Footer from '@/components/layout/Footer';
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { ShapeDefs } from '@/components/ui/ShapeDefs';
 import { LiquidEngine } from '@/components/ui/LiquidEngine';
-import WaterCursor from '@/components/ui/WaterCursor';
 import { getOrganizationJsonLd } from '@/lib/seo/metadata';
 import JsonLd from '@/components/seo/JsonLd';
 import { KAquaElementeInitializer } from '@/components/providers/KAquaElementeInitializer';
@@ -101,7 +100,6 @@ export default async function LocaleLayout({
       <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`} antialiased text-body bg-background min-h-screen flex flex-col`} suppressHydrationWarning>
         <ShapeDefs />
         <LiquidEngine />
-        <WaterCursor />
         <JsonLd schema={orgJsonLd} />
         <ThemeProvider
           attribute="data-theme"

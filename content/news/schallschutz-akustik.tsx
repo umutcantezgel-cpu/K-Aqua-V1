@@ -207,7 +207,7 @@ export const schallschutzAkustik: NewsPost = {
       {/* Visual Placeholder */}
       <section>
         <Reveal>
-          <PremiumAssetPlaceholder label="Schallwellen Visualisierung: Die Dämpfung von Strömungsgeräuschen durch die PPR Rohrwand" image="/images/new-k-aqua/pipes-profil.png" />
+          <PremiumAssetPlaceholder label="Schallwellen Visualisierung: Die Dämpfung von Strömungsgeräuschen durch die PP-R Rohrwand" />
         </Reveal>
       </section>
 

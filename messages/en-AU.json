@@ -1,4 +1,75 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "Coloured violet, e.g. for process or irrigation water systems, for unambiguous identification.",
+    "k-fiber-pipe-pp-rct-sdr-74": "Fibre-reinforced middle layer reduces thermal expansion by around 50%.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "Optimised for HVAC applications (chilled and heating water).",
+    "k-fiber-pipe-pp-r-sdr-17": "Large-diameter fibre composite pipe for industry and building supply.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "UV-stabilised outer layer for outdoor applications.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "UV-stabilised for exposed runs and rooftop installations.",
+    "electrofusion-socket": "Electrofusion socket: joined by electrical heating, no welding iron required.",
+    "flange-adaptor": "Transition to a flanged connection, for valves, pumps and water meters.",
+    "reducing-tee-large-sizes": "For main lines of 63–75 mm.",
+    "cross-over": "Crosses a second line without connecting to it.",
+    "elbow-bracket-90-female-thread": "With mounting flange for wall fixing.",
+    "elbowwall-bracket-90-female-thread": "Wall fixing on both sides.",
+    "metal-union-male-thread-yellow-brass": "Brass CW617N.",
+    "metal-union-female-thread-yellow-brass": "Brass CW617N.",
+    "tee-90-female-thread": "Demountable for maintenance without cutting the pipe.",
+    "union-for-watermeters": "Simplifies installing and removing water meters.",
+    "pp-r-ball-valve-ball-in-pp": "Full bore, PP ball, welding sockets on both sides.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "Chrome-plated brass ball for heavy duty use.",
+    "tee-90-female-thread-for-internal-valve": "Carrier tee for concealed valves.",
+    "concealed-valve-chrome-light-part": "Visible trim plate and spindle, chrome finish.",
+    "concealed-valve-chrome-heavy-part": "Concealed valve body, mounted in the carrier tee.",
+    "straight-seat-valve-upper-part-green-handle": "Upper part with handle for straight-seat valves.",
+    "elongation-pieces": "Extension for varying wall thicknesses.",
+    "battery-female-thread": "Manifold for underfloor heating and multi-circuit distribution.",
+    "adjustable-battery-female-thread": "Adjustable centre distance between the outlets.",
+    "weld-in-saddle": "Without thread: PP-R branch welded directly onto the main line.",
+    "pipe-clamps": "With rubber insert, for pipe support and fixing.",
+    "backing-flange-pp-steel-sfbf": "Steel-reinforced backing flange for flange adaptors.",
+    "flat-gasket": "EPDM flat gasket for flanged connections.",
+    "flat-gasket-for-unions-pp-r": "EPDM gasket for unions.",
+    "plug": "Threaded plug for closing open ends. Further sizes on request.",
+    "pipe-cutter-2040": "Ratchet pipe cutter for clean, square cuts.",
+    "pipe-cutter-50125": "Heavy-duty pipe cutter for large diameters.",
+    "pipe-cutter-50125-1": "Alternative version (1¼).",
+    "hand-welding-machine-2032-complete-set": "Compact socket welding machine.",
+    "hand-welding-machine-2063-complete-set": "Complete set with heating plate, stand and tools.",
+    "hand-welding-machine-mirror-50125": "Replacement heating mirror for the 50–125 mm machine.",
+    "welding-tool": "Individual male/female tool pairs per dimension.",
+    "welding-machine-50125-complete-set": "Professional socket welding machine for large diameters.",
+    "butt-welding-machine-90250": "Butt fusion machine for large diameters.",
+    "electrofusion-machine": "Control unit for electrofusion fittings, with barcode scanner.",
+    "welding-tool-for-weld-in-saddles": "Special tool for welding on weld-in saddles.",
+    "drilling-tool-for-weld-in-saddle": "Core drill for opening the branch after the saddle has been welded.",
+    "welding-tool-for-repairing-plug": "Heating tools for the repair plug system.",
+    "repairing-plug": "Emergency repair plug for sealing leaks without draining the system."
+  },
+  "geoExtra": {
+    "cityBadge": "(City)",
+    "regionBadge": "(Region)",
+    "marketFallbackLead": "High-quality PP-R piping systems for {city}.",
+    "openMarketPage": "Open the {city} market page"
+  },
+  "sitemapPage": {
+    "company": "Company & Navigation",
+    "products": "Products & Categories",
+    "news": "News & Press",
+    "markets": "Markets & Regions"
+  },
+  "aboutDeep": {
+    "eyebrow": "Insights",
+    "title": "K-Aqua Insights",
+    "lead": "Discover the advantages of our premium PP-R systems",
+    "item1": "Durability & Efficiency · PP-RCT Piping Systems",
+    "item2": "Materials Science: Polypropylene Random Copolymer",
+    "item3": "K-Aqua System Flexibility",
+    "item4": "Dezincification-Resistant DZR Brass"
+  },
+  "catalogExtra": {
+    "viewDetails": "Product details"
+  },
   "toggle_theme_light": "Switch to light mode",
   "toggle_theme_dark": "Switch to dark mode",
   "nav": {
@@ -103,8 +174,8 @@
       "Download official K Aqua product catalogues, technical data sheets, and installation guidelines for PP-R and PPRCT plastic pipe systems."
     ],
     "partner": [
-      "KESSEL Partnership",
-      "K Aqua and KESSEL share a decades-long partnership that transfers German manufacturing standards from drainage to water supply."
+      "Global Partner Network",
+      "K Aqua works with engineering consultancies, MEP contractors, and certified distributors worldwide for premium German potable water systems."
     ],
     "markets": [
       "Markets & Locations",
@@ -205,7 +276,7 @@
         "d": "From Frankfurt to NEOM: tested against local standards and water profiles."
       }
     ],
-    "lead": "K-Aqua develops and manufactures PP-R and PP-RCT pipe systems for drinking water from 20 to 630 mm, in partnership with premium manufacturer KESSEL.",
+    "lead": "K-Aqua develops and manufactures PP-R and PP-RCT pipe systems for drinking water from 20 to 630 mm, with certified German engineering quality.",
     "ctaProducts": "Discover product system",
     "ctaContact": "Get in touch",
     "toolsEyebrow": "Interactive Tools",
@@ -358,7 +429,7 @@
       "ISO 9001 · 14001 · 50001",
       "Manufactured in Waldsolms",
       "100% recycling",
-      "Partner: KESSEL"
+      "100% Made in Germany"
     ],
     "tools": [
       {
@@ -418,9 +489,9 @@
     "coTitle1": "Building material supplier and manufacturer:",
     "coTitle2": "from a single source.",
     "coLead": "KWT GmbH manufactures pipes and fittings for water supply from various plastics, positioning itself in the construction value chain as both a supplier and manufacturer.",
-    "kesselTitle": "Strong partnership with KESSEL",
-    "kesselText": "We share a close, long-standing partnership with the premium manufacturer KESSEL, \"Leading in drainage\". We carry this experience from decades into the future.",
-    "kesselCta": "More about the partnership",
+    "kesselTitle": "Independent German Engineering",
+    "kesselText": "As an owner-managed German enterprise, Philipp Nickel and Marcello Gallio combine decades of manufacturing expertise with agile leadership for global potable water projects.",
+    "kesselCta": "More about K-Aqua",
     "worldTitle": "Proven worldwide",
     "worldText": "K Aqua products have proven themselves countless times over decades in projects around the world.",
     "worldCta": "Reference Globe",
@@ -3602,7 +3673,7 @@
     "lead": "New strategies, grown knowledge: KWT GmbH combines decades of manufacturing experience with a clear view ahead.",
     "h2": "K Aqua, leading in water supply",
     "p1": "The business area of KWT GmbH is the production of pipes and fittings for water supply from various plastics. Thus, the company positions itself in the construction value chain as a building materials supplier and manufacturer.",
-    "p2": "With the premium manufacturer KESSEL, \"Leading in drainage\", there is a close and long-standing partnership. With this experience from decades, we carry our success into the future.",
+    "p2": "Under the entrepreneurial leadership of Philipp Nickel and Marcello Gallio, K-Aqua focuses on highest quality standards, technological innovation, and sustainable polymer manufacturing for global markets.",
     "polEyebrow": "Corporate Policy",
     "polTitle": "Value is created through interaction.",
     "polLead": "No customer benefit without employee benefit, no employee benefit without company benefit, and no company benefit without benefit for the environment and the world around us.",
@@ -4162,26 +4233,26 @@
     "scope3": "Scope 3 emissions data and raw EPD data upon request, proactive transparency instead of mere compliance."
   },
   "partner": {
-    "eyebrow": "Partnership",
-    "title1": "Two brands.",
-    "titleGrad": "One attitude.",
-    "lead": "Two brands. One attitude. The close, decades-long partnership with KESSEL transfers premium trust from drainage into water supply.",
-    "onionAria": "Onion shell model of the partnership",
+    "eyebrow": "Partnership & Network",
+    "title1": "Strong Partners.",
+    "titleGrad": "One Mission.",
+    "lead": "K-Aqua focuses on global partnerships with engineering consultants, MEP contractors, and distributors to establish German quality in potable water distribution worldwide.",
+    "onionAria": "K-Aqua Partner Model",
     "rings": [
       {
-        "l": "Core brand",
-        "t": "KESSEL, Leading in Drainage",
-        "d": "Premium manufacturer of drainage technology. World-leading trade fairs like ISH, the PlannerPortal, and the CustomerForum make KESSEL the authority of the building services engineering industry."
+        "l": "Leadership",
+        "t": "K-Aqua: German Engineering DNA",
+        "d": "Owner-managed by Philipp Nickel and Marcello Gallio: Independent manufacturing, agile decision making, and uncompromising quality control."
       },
       {
         "l": "System",
-        "t": "K Aqua, leading in water supply",
-        "d": "The supply side of the same engineering DNA: complete PP-R/PPRCT system d20–d630, manufactured in Germany. Drainage and supply from a community of values."
+        "t": "K-Aqua: Leading in Water Supply",
+        "d": "The supply side of German premier engineering: Complete PP-R/PP-RCT system d20–d630, manufactured in Germany according to DIN EN ISO 15874."
       },
       {
         "l": "Service",
-        "t": "Shared ecosystem",
-        "d": "Planners profit twice: training, welding technology support, and digital planning tools, perspectively up to the parametric pipe network configurator."
+        "t": "Global Partner Network",
+        "d": "Planners profit worldwide: technical training, welding technology support, BIM objects, and personal project consulting for large-scale developments."
       }
     ],
     "whyEyebrow": "Why PP-R/PPRCT",
@@ -5692,42 +5763,42 @@
     ]
   },
   "partnerx": {
-    "ecoEyebrow": "The KESSEL Ecosystem",
-    "ecoTitle": "How K Aqua customers benefit.",
-    "ecoLead": "KESSEL has built the infrastructure of a premium brand over decades, K Aqua brings the same attitude to water supply.",
+    "ecoEyebrow": "The K-Aqua Ecosystem",
+    "ecoTitle": "How K-Aqua customers benefit.",
+    "ecoLead": "K-Aqua provides MEP engineers, contractors, and project managers with a seamless service and engineering ecosystem from German production.",
     "eco": [
       {
-        "t": "ISH Frankfurt",
-        "d": "KESSEL shows its presence at the world's leading trade fair for the HVAC industry, the stage where drainage and supply are thought of together."
+        "t": "International Trade Fairs",
+        "d": "Active presence at leading construction expos including Big 5 Dubai/Riyadh and ISH: K-Aqua stands for modern fusion technology."
       },
       {
-        "t": "PlanerPortal",
-        "d": "The digital platform for specialist planners is the heart of daily planner loyalty, a model for K Aqua's digital tools."
+        "t": "Planer Portal & BIM",
+        "d": "Digital CAD and Revit 3D models alongside GAEB/IFC specification texts for error-free, clash-free MEP modeling."
       },
       {
-        "t": "KundenForum",
-        "d": "Physical and hybrid training courses at dedicated locations, including in Lenting and Hamburg, knowledge transfer is loyalty."
+        "t": "K-Aqua Academy",
+        "d": "Hands-on socket and butt-welding certifications and video guides for installers worldwide."
       },
       {
-        "t": "Planungshandbuch",
-        "d": "KESSEL's editorially maintained planning knowledge is a reference for how K Aqua is expanding its knowledge area for planners, from the Academy to the dimension tables."
+        "t": "Technical Manuals",
+        "d": "Comprehensive dimensioning and pressure drop tables for engineers and consultants, immediately accessible."
       }
     ],
-    "flowEyebrow": "Two flows, one building",
-    "flowTitle": "Supply in, drainage out.",
-    "flowLead": "Every building needs both directions, the partnership covers the entire water path with a common engineering DNA.",
+    "flowEyebrow": "Maximum System Compatibility",
+    "flowTitle": "Potable water, heating, industrial piping.",
+    "flowLead": "Comprehensive range from high-rise risers to floor distribution for demanding construction projects.",
     "flow": [
       {
-        "t": "K Aqua, Leading in Water Supply",
+        "t": "K-Aqua: Leading in Water Supply",
         "d": "Drinking water supply d20–d630: pipes, fittings, valves and welding technology, manufactured in Waldsolms."
       },
       {
-        "t": "KESSEL, Leading in Drainage",
-        "d": "The premium manufacturer of drainage technology: backwater protection, lifting stations, separators, the authority in the HVAC industry."
+        "t": "Certified Quality",
+        "d": "DVGW-certified, SKZ-monitored, and batch-tested in our proprietary lab according to DIN EN ISO 15874."
       },
       {
-        "t": "Common trade",
-        "d": "Planners and processors work with a community of values: same quality philosophy, coordinated support, short distances."
+        "t": "Comprehensive Engineering Support",
+        "d": "Planners and installers have direct access to our German technical engineering team: fast responses, dedicated advice."
       }
     ],
     "roadEyebrow": "Joint Roadmap",
@@ -6176,9 +6247,9 @@
         "d": "Plastics processing for water supply, experience that flows into every batch."
       },
       {
-        "y": "Partnership",
-        "t": "Close connection to KESSEL",
-        "d": "KWT shares a long-standing community of values with the premium manufacturer \"Leading in Drainage\"."
+        "y": "Future",
+        "t": "Owner-Led Re-alignment",
+        "d": "Philipp Nickel and Marcello Gallio lead K-Aqua, expanding international operations as an independent German manufacturer."
       },
       {
         "y": "GENAU",
@@ -6248,7 +6319,7 @@
       }
     ],
     "ishTitle": "Industry Meeting Point",
-    "ishText": "The HVAC industry meets at ISH in Frankfurt, the world's leading trade fair where partner KESSEL regularly exhibits. As soon as K-Aqua dates are set, they will appear here."
+    "ishText": "The HVAC industry regularly gathers at major world expos such as Big 5 in Dubai and Riyadh, and ISH in Frankfurt. Upcoming K-Aqua dates will be announced here."
   },
   "contactx": {
     "routeEyebrow": "Direct Routes",

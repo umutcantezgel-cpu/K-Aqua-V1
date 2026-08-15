@@ -50,8 +50,7 @@ const eslintConfig = [
       'public/**',
       'docs/**',
       'components/tools/co2-dashboard/**',
-      'lib/co2-*.ts',
-      'components/ui/WaterCursor.tsx'
+      'lib/co2-*.ts'
     ],
   },
 ];

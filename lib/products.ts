@@ -81,15 +81,8 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
   const seoMatchAr = rawContent.match(/##\s*SEO-CONTENT-AR\s*([\s\S]*?)(?=##\s*SEO-CONTENT-(DE|EN)|$)/i);
   if (seoMatchAr?.[1]) seoTextAr = seoMatchAr[1].trim();
 
-  // Remove SEO sections from rawContent
+  // Remove SEO sections from rawContent cleanly
   rawContent = rawContent.replace(/##\s*SEO-CONTENT-(DE|EN|AR)[\s\S]*?(?=##\s*SEO-CONTENT-(DE|EN|AR)|$)/gi, '').trim();
-
-  // We strip the english description at the top of the MD files to avoid Duplicate Content across locales.
-  let cleanContent = rawContent;
-  const match = cleanContent.match(/(?:## Article Table|## Available Sizes|\|.*\|)/i);
-  if (match && match.index !== undefined) {
-    cleanContent = cleanContent.substring(match.index);
-  }
 
   const processMd = async (md: string) => {
     if (!md) return '';
@@ -97,7 +90,7 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
     return res.toString();
   };
 
-  const processedContent = await processMd(cleanContent);
+  const processedContent = await processMd(rawContent);
   const processedSeoDe = await processMd(seoTextDe);
   const processedSeoEn = await processMd(seoTextEn);
   const processedSeoAr = await processMd(seoTextAr);

@@ -82,7 +82,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 </ul>
              </div>
              <div className="h-[600px] w-full">
-               <PremiumAssetPlaceholder label="K-Aqua Toolkit Pro" image="/images/new-k-aqua/tools-profil.png" />
+               <PremiumAssetPlaceholder label="K-Aqua Toolkit Pro" />
              </div>
            </div>
          </div>

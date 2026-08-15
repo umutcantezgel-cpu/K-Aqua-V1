@@ -66,7 +66,7 @@ export default async function UnternehmenPage({ params }: Props) {
             <Reveal delay={0.06}>
               <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] mt-4 mb-4">
                 {t("title1")}{" "}
-                <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
+                <span className="ltr:bg-gradient-to-r rtl:bg-gradient-to-l from-primary to-accent-strong bg-clip-text text-transparent">
                   {t("titleGrad")}
                 </span>
 
@@ -91,11 +91,7 @@ export default async function UnternehmenPage({ params }: Props) {
               <Card className="overflow-hidden border border-card-border p-0 shadow-diffuse group">
                 <div className="grid grid-cols-1 lg:grid-cols-[38%_62%] items-stretch">
                   <div className="relative min-h-[300px] h-full lg:h-auto overflow-hidden">
-                    <img 
-                      alt={t("h2")}
-                      src="/images/new-k-aqua/fertigung-pipes.jpg"
-                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
-                    />
+                    <MediaSlot label={t("h2")} className="w-full h-full min-h-[300px] rounded-none border-none" />
                   </div>
                   <div className="p-8 lg:p-16 flex flex-col justify-center text-start bg-card/80 backdrop-blur-sm">
                     <Eyebrow>{t("eyebrow")}</Eyebrow>
@@ -130,7 +126,7 @@ export default async function UnternehmenPage({ params }: Props) {
               {/* Golden Ratio: 62% for the first card */}
               <Reveal delay={0}>
                 <Card tint className="h-full flex flex-col gap-6 text-start p-10 lg:p-12 relative overflow-hidden group">
-                  <div className="absolute -top-24 -right-24 text-[300px] font-heading font-black opacity-[0.03] text-primary select-none group-hover:scale-110 transition-transform duration-1000 ease-out">
+                  <div className="absolute -top-24 ltr:-right-24 rtl:-left-24 text-[300px] font-heading font-black opacity-[0.03] text-primary select-none group-hover:scale-110 transition-transform duration-1000 ease-out">
                     01
                   </div>
                   <div className="w-16 h-16 rounded-[18px] grid place-items-center bg-primary-soft text-primary shrink-0 relative z-10">
@@ -155,7 +151,7 @@ export default async function UnternehmenPage({ params }: Props) {
                   return (
                     <Reveal key={c.t} delay={0.1 + (i * 0.1)} className="flex-1">
                       <Card className="h-full flex flex-col gap-3 text-start p-8 relative overflow-hidden group hover:border-primary/50 transition-colors">
-                        <div className="absolute -bottom-10 -right-10 text-[140px] font-heading font-black opacity-[0.02] text-primary select-none group-hover:scale-110 transition-transform duration-1000 ease-out">
+                        <div className="absolute -bottom-10 ltr:-right-10 rtl:-left-10 text-[140px] font-heading font-black opacity-[0.02] text-primary select-none group-hover:scale-110 transition-transform duration-1000 ease-out">
                           0{num}
                         </div>
                         <div className="w-12 h-12 rounded-[14px] grid place-items-center bg-primary/10 text-primary shrink-0 relative z-10 mb-2">
@@ -202,7 +198,7 @@ export default async function UnternehmenPage({ params }: Props) {
               </Reveal>
               <Reveal delay={0.12} className="h-full">
                 <Card tint className="text-start p-10 h-full flex flex-col justify-center gap-8 relative overflow-hidden shadow-diffuse">
-                  <div className="absolute -bottom-16 -right-16 text-[200px] opacity-[0.03] text-primary rotate-12 select-none pointer-events-none">
+                  <div className="absolute -bottom-16 ltr:-right-16 rtl:-left-16 text-[200px] opacity-[0.03] text-primary rotate-12 select-none pointer-events-none">
                     <Award />
                   </div>
                   
