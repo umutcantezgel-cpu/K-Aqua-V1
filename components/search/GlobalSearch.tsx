@@ -3,74 +3,120 @@
 
 import React, { useState, useMemo } from 'react';
 import { useLocale } from 'next-intl';
-import { SEARCH_INDEX, SearchEntry } from '@/lib/search-data';
+import { searchKAqua, SearchResult, escapeRegExp } from '@/lib/search-engine';
+import { SearchCategory, SEARCH_INDEX } from '@/lib/search-data';
 import { Link } from '@/lib/i18n/navigation';
-import { Search, X, ArrowRight, Layers, Cpu, BookOpen, Compass, Wrench, Building2, Sparkles } from 'lucide-react';
+import {
+  Search,
+  X,
+  ArrowRight,
+  Layers,
+  Cpu,
+  BookOpen,
+  Compass,
+  Building2,
+  ShieldCheck,
+  Sparkles,
+  ExternalLink,
+  SlidersHorizontal,
+} from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface Props {
   initialQuery?: string;
 }
 
-const CATEGORY_TABS = [
+const CATEGORY_TABS: { id: string; category?: SearchCategory; label: Record<string, string> }[] = [
   { id: 'all', label: { de: 'Alle Ergebnisse', en: 'All Results', ar: 'جميع النتائج' } },
-  { id: 'products', label: { de: 'Produkte & Rohre', en: 'Products & Pipes', ar: 'المنتجات والأنابيب' } },
-  { id: 'tools', label: { de: 'Tools & BIM', en: 'Tools & BIM', ar: 'الأدوات ونماذج BIM' } },
-  { id: 'solutions', label: { de: 'Lösungen & Märkte', en: 'Solutions & Markets', ar: 'الحلول والأسواق' } },
-  { id: 'knowledge', label: { de: 'Wissen & Academy', en: 'Knowledge & Academy', ar: 'المعرفة والأكاديمية' } },
-  { id: 'company', label: { de: 'Unternehmen & Kontakt', en: 'Company & Contact', ar: 'الشركة والاتصال' } },
+  { id: 'products', category: 'products', label: { de: 'Produkte & Rohre', en: 'Products & Pipes', ar: 'المنتجات والأنابيب' } },
+  { id: 'knowledge', category: 'knowledge', label: { de: 'Wissen & Fachartikel', en: 'Knowledge & Articles', ar: 'المعرفة والمقالات' } },
+  { id: 'tools', category: 'tools', label: { de: 'Tools & BIM', en: 'Tools & BIM', ar: 'الأدوات و BIM' } },
+  { id: 'solutions', category: 'solutions', label: { de: 'Lösungen & Märkte', en: 'Solutions & Markets', ar: 'الحلول والأسواق' } },
+  { id: 'certifications', category: 'certifications', label: { de: 'Zertifikate & Normen', en: 'Standards & Certs', ar: 'المعايير والشهادات' } },
+  { id: 'company', category: 'company', label: { de: 'Unternehmen & Kontakt', en: 'Company & Contact', ar: 'الشركة والاتصال' } },
 ];
 
-const POPULAR_TAGS = ['BIM', 'PP-RCT', 'CO2-Rechner', 'Heizung & Kühlung', 'Schweißen', 'Trinkwasser', 'DZR Messing', 'Hochhaus'];
+const POPULAR_TAGS = [
+  'PP-RCT SDR 7.4',
+  'Schallschutz',
+  'Trinkwasserhygiene',
+  'BIM Revit',
+  'CO2-Rechner',
+  'DVGW',
+  'DZR Messing',
+  'Heizelementmuffenschweißen',
+  'Brandschutz EI90',
+  'Hochhausbau',
+  'K-Fiber UV',
+  'Philipp Nickel',
+];
 
 export default function GlobalSearch({ initialQuery = '' }: Props) {
   const locale = useLocale();
   const [query, setQuery] = useState(initialQuery);
   const [activeCategory, setActiveCategory] = useState('all');
 
-  const filteredResults = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return SEARCH_INDEX.filter((item) => {
-      // Category filter
-      if (activeCategory !== 'all' && item.category !== activeCategory) {
-        return false;
-      }
-      if (!q) return true;
-
-      // Text matching across locale title, description, and keywords
-      const title = (item.title[locale] || item.title['de'] || '').toLowerCase();
-      const desc = (item.description[locale] || item.description['de'] || '').toLowerCase();
-      const keywords = item.keywords.join(' ').toLowerCase();
-
-      return title.includes(q) || desc.includes(q) || keywords.includes(q);
+  // Compute search results using the ranking engine
+  const results = useMemo(() => {
+    return searchKAqua({
+      query,
+      category: activeCategory,
+      locale,
+      maxResults: 60,
     });
   }, [query, activeCategory, locale]);
 
-  const getCategoryIcon = (category: SearchEntry['category']) => {
+  // Compute counts per category tab for the current query
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = { all: 0 };
+    for (const tab of CATEGORY_TABS) {
+      if (tab.id === 'all') continue;
+      const filtered = searchKAqua({
+        query,
+        category: tab.id,
+        locale,
+        maxResults: 200,
+      });
+      counts[tab.id] = filtered.length;
+    }
+    const allFiltered = searchKAqua({
+      query,
+      category: 'all',
+      locale,
+      maxResults: 200,
+    });
+    counts['all'] = allFiltered.length;
+    return counts;
+  }, [query, locale]);
+
+  const getCategoryIcon = (category: SearchCategory) => {
     switch (category) {
       case 'products':
-        return <Layers className="w-4 h-4 text-primary" />;
+        return <Layers className="w-5 h-5 text-primary" />;
       case 'tools':
-        return <Cpu className="w-4 h-4 text-accent" />;
+        return <Cpu className="w-5 h-5 text-accent" />;
       case 'solutions':
-        return <Building2 className="w-4 h-4 text-primary-strong" />;
+        return <Building2 className="w-5 h-5 text-primary" />;
       case 'knowledge':
-        return <BookOpen className="w-4 h-4 text-secondary" />;
+        return <BookOpen className="w-5 h-5 text-secondary" />;
+      case 'certifications':
+        return <ShieldCheck className="w-5 h-5 text-emerald-500" />;
       case 'company':
-        return <Compass className="w-4 h-4 text-foreground" />;
+        return <Compass className="w-5 h-5 text-foreground" />;
       default:
-        return <Wrench className="w-4 h-4 text-muted-foreground" />;
+        return <Search className="w-5 h-5 text-muted-foreground" />;
     }
   };
 
   const highlightMatch = (text: string, term: string) => {
     if (!term.trim()) return text;
-    const parts = text.split(new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'));
+    const cleanTerm = escapeRegExp(term.trim());
+    const parts = text.split(new RegExp(`(${cleanTerm})`, 'gi'));
     return (
       <>
         {parts.map((part, i) =>
-          part.toLowerCase() === term.toLowerCase() ? (
-            <mark key={i} className="bg-primary/20 text-primary font-semibold rounded px-1 py-0.5">
+          part.toLowerCase() === term.trim().toLowerCase() ? (
+            <mark key={i} className="bg-primary/20 text-primary font-bold rounded px-1 py-0.5">
               {part}
             </mark>
           ) : (
@@ -95,10 +141,10 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
             onChange={(e) => setQuery(e.target.value)}
             placeholder={
               locale === 'de'
-                ? 'Suche nach Produkten, BIM-Daten, Rohren, SDR, Normen...'
+                ? 'Suche nach Begriffen, Artikeln, Normen, SDR, BIM, Schweißen...'
                 : locale === 'ar'
-                ? 'ابحث عن المنتجات، نماذج BIM، الأنابيب، المعايير...'
-                : 'Search products, BIM models, pipes, SDR, standards...'
+                ? 'ابحث عن المصطلحات، المقالات، المعايير، SDR، نماذج BIM...'
+                : 'Search terms, articles, standards, SDR, BIM, welding...'
             }
             className="w-full py-4 pr-12 text-base md:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
             autoFocus
@@ -136,18 +182,26 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
       <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none border-b border-card-border">
         {CATEGORY_TABS.map((tab) => {
           const isActive = activeCategory === tab.id;
-          const label = tab.label[locale as keyof typeof tab.label] || tab.label.de;
+          const label = tab.label[locale] || tab.label['de'];
+          const count = categoryCounts[tab.id] ?? 0;
           return (
             <button
               key={tab.id}
               onClick={() => setActiveCategory(tab.id)}
-              className={`px-4 py-2 rounded-xl text-sm font-heading font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer ${
+              className={`px-4 py-2 rounded-xl text-sm font-heading font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer flex items-center gap-2 ${
                 isActive
                   ? 'bg-primary text-primary-foreground shadow-sm'
                   : 'bg-card text-muted-foreground hover:text-foreground hover:bg-background-subtle border border-card-border'
               }`}
             >
-              {label}
+              <span>{label}</span>
+              <span
+                className={`text-xs px-1.5 py-0.5 rounded-full font-mono font-bold ${
+                  isActive ? 'bg-primary-foreground/20 text-primary-foreground' : 'bg-background-subtle text-muted-foreground'
+                }`}
+              >
+                {count}
+              </span>
             </button>
           );
         })}
@@ -155,12 +209,13 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
 
       {/* Search Results Summary */}
       <div className="flex items-center justify-between text-sm text-muted-foreground px-1">
-        <span>
+        <span className="flex items-center gap-1.5">
+          <SlidersHorizontal className="w-4 h-4 text-primary" />
           {locale === 'de'
-            ? `${filteredResults.length} Ergebnis${filteredResults.length === 1 ? '' : 'se'} gefunden`
+            ? `${results.length} Treffer in der Datenbank`
             : locale === 'ar'
-            ? `تم العثور على ${filteredResults.length} نتيجة`
-            : `Found ${filteredResults.length} result${filteredResults.length === 1 ? '' : 's'}`}
+            ? `${results.length} نتيجة في قاعدة البيانات`
+            : `${results.length} matches in database`}
         </span>
         {query && (
           <button
@@ -168,20 +223,23 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
               setQuery('');
               setActiveCategory('all');
             }}
-            className="text-primary hover:underline text-xs cursor-pointer"
+            className="text-primary hover:underline text-xs cursor-pointer font-medium"
           >
             {locale === 'de' ? 'Filter zurücksetzen' : locale === 'ar' ? 'إعادة ضبط' : 'Reset filters'}
           </button>
         )}
       </div>
 
-      {/* Results List */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {/* Results Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <AnimatePresence mode="popLayout">
-          {filteredResults.length > 0 ? (
-            filteredResults.map((item) => {
+          {results.length > 0 ? (
+            results.map((res) => {
+              const item = res.entry;
               const itemTitle = item.title[locale] || item.title['de'] || '';
-              const itemDesc = item.description[locale] || item.description['de'] || '';
+              const originPath = item.origin?.path[locale] || item.origin?.path['de'] || '';
+              const badge = item.badge[locale] || item.badge['de'] || '';
+
               return (
                 <motion.div
                   key={item.id}
@@ -192,33 +250,78 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
                   transition={{ duration: 0.2 }}
                 >
                   <Link
-                    href={item.href}
-                    className="group flex flex-col justify-between h-full p-5 rounded-2xl bg-card border border-card-border hover:border-primary hover:shadow-lift transition-all duration-200"
+                    href={res.deepHref}
+                    className="group flex flex-col justify-between h-full p-6 rounded-2xl bg-card border border-card-border hover:border-primary hover:shadow-lift transition-all duration-200 relative overflow-hidden"
                   >
                     <div>
+                      {/* Origin Breadcrumb & Category Badge */}
                       <div className="flex items-center justify-between gap-2 mb-3">
-                        <div className="flex items-center gap-2">
-                          <div className="p-2 rounded-lg bg-background-subtle group-hover:bg-primary-soft transition-colors">
+                        <div className="flex items-center gap-2.5 flex-wrap">
+                          <div className="p-2 rounded-xl bg-background-subtle group-hover:bg-primary-soft transition-colors">
                             {getCategoryIcon(item.category)}
                           </div>
-                          {item.badge && (
-                            <span className="px-2 py-0.5 text-xs font-bold font-heading rounded-md bg-background-subtle text-muted-foreground border border-card-border">
-                              {item.badge}
-                            </span>
-                          )}
+                          <span className="px-2.5 py-1 text-xs font-bold font-heading rounded-md bg-background-subtle text-foreground border border-card-border">
+                            {badge}
+                          </span>
                         </div>
-                        <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
+                        <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
                       </div>
-                      <h3 className="text-base font-heading font-bold text-foreground group-hover:text-primary transition-colors line-clamp-1 mb-2">
+
+                      {/* Origin Path */}
+                      {originPath && (
+                        <div className="text-[11px] font-mono text-muted-foreground mb-2 flex items-center gap-1">
+                          <span>{originPath}</span>
+                        </div>
+                      )}
+
+                      {/* Title */}
+                      <h3 className="text-base sm:text-lg font-heading font-bold text-foreground group-hover:text-primary transition-colors mb-2.5 line-clamp-2 leading-snug">
                         {highlightMatch(itemTitle, query)}
                       </h3>
-                      <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
-                        {highlightMatch(itemDesc, query)}
+
+                      {/* Snippet */}
+                      <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3 mb-4">
+                        {highlightMatch(res.snippet, query)}
                       </p>
+
+                      {/* Specs / Tags */}
+                      {item.specs && item.specs.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5 mb-2">
+                          {item.specs.map((spec, sIdx) => (
+                            <span
+                              key={sIdx}
+                              className="text-[11px] font-mono px-2 py-0.5 rounded-md bg-background-subtle text-foreground/80 border border-card-border/60"
+                            >
+                              {spec}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* Article Codes */}
+                      {item.articleCodes && item.articleCodes.length > 0 && (
+                        <div className="flex flex-wrap items-center gap-1 mt-2 text-[11px] text-muted-foreground">
+                          <span className="font-semibold">Codes:</span>
+                          {item.articleCodes.slice(0, 4).map((code) => (
+                            <span key={code} className="font-mono bg-card px-1.5 py-0.5 rounded border border-card-border">
+                              {highlightMatch(code, query)}
+                            </span>
+                          ))}
+                          {item.articleCodes.length > 4 && <span>+{item.articleCodes.length - 4} mehr</span>}
+                        </div>
+                      )}
                     </div>
-                    <div className="mt-4 pt-3 border-t border-card-border/60 flex items-center justify-between text-xs text-primary font-medium">
-                      <span>{locale === 'de' ? 'Direkt aufrufen' : locale === 'ar' ? 'فتح الصفحة' : 'View details'}</span>
-                      <span className="font-mono text-muted-foreground text-[11px]">{item.href}</span>
+
+                    {/* Bottom Action Footer */}
+                    <div className="mt-5 pt-3.5 border-t border-card-border/60 flex items-center justify-between text-xs font-semibold text-primary">
+                      <span className="flex items-center gap-1">
+                        {locale === 'de'
+                          ? 'Seite aufrufen & Begriff automatisch anspringen'
+                          : locale === 'ar'
+                          ? 'فتح الصفحة والتمييز التلقائي'
+                          : 'Open page & auto-highlight keyword'}
+                      </span>
+                      <ExternalLink className="w-3.5 h-3.5 opacity-70 group-hover:opacity-100" />
                     </div>
                   </Link>
                 </motion.div>
@@ -236,8 +339,8 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
               </h3>
               <p className="text-sm text-muted-foreground max-w-md mb-6">
                 {locale === 'de'
-                  ? `Für den Suchbegriff "${query}" konnten keine Einträge gefunden werden. Bitte überprüfen Sie die Schreibweise oder versuchen Sie allgemeine Begriffe wie "Pipes", "BIM" oder "Fittings".`
-                  : `No matches found for "${query}". Try searching for general terms like "Pipes", "BIM", or "Valves".`}
+                  ? `Für den Suchbegriff "${query}" konnten keine Einträge gefunden werden. Bitte überprüfen Sie die Schreibweise oder versuchen Sie allgemeine Begriffe wie "PP-RCT", "Schallschutz", "BIM" oder "DVGW".`
+                  : `No matches found for "${query}". Try searching for terms like "PP-RCT", "Acoustics", "BIM", or "DVGW".`}
               </p>
               <button
                 onClick={() => setQuery('')}

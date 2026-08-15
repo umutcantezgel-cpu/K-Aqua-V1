@@ -785,3 +785,39 @@ textarea.k-input { resize: vertical; }
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 }
+
+/* ============================================================
+   K-Aqua Search Highlighting & On-Page Spotlight
+   ============================================================ */
+mark.kaqua-search-mark {
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
+  color: inherit;
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin: 0 1px;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 45%, transparent);
+  transition: all 0.25s ease-out;
+  display: inline;
+}
+
+mark.kaqua-search-mark.kaqua-search-mark-active {
+  background: var(--accent);
+  color: #0A0A0F !important;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 2px 6px;
+  box-shadow: 0 0 0 3px var(--primary), 0 0 20px var(--accent);
+  animation: kaqua-search-pulse 2s ease-in-out infinite;
+}
+
+@keyframes kaqua-search-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 2px var(--primary), 0 0 14px var(--accent);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 5px var(--primary), 0 0 26px var(--accent);
+    transform: scale(1.02);
+  }
+}
+

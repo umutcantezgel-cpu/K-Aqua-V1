@@ -10,6 +10,7 @@ import { Logo } from '@/components/ui/Logo';
 import ThemeToggle from './ThemeToggle';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import MegaMenu from './MegaMenu';
+import SearchModal from '@/components/search/SearchModal';
 import { Globe, ArrowRight } from '@/components/ui/icon';
 import { ChevronDown, Map, Compass, Box, Settings, HardHat, Search } from 'lucide-react';
 
@@ -17,9 +18,25 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const locale = useLocale();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [searchModalOpen, setSearchModalOpen] = useState(false);
   const pathname = usePathname();
   const t = useTranslations('nav');
   const shouldReduceMotion = useReducedMotion();
+
+  // Listen for global Cmd+K / Ctrl+K / '/' hotkeys
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setSearchModalOpen((prev) => !prev);
+      } else if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement)?.tagName)) {
+        e.preventDefault();
+        setSearchModalOpen(true);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -200,14 +217,15 @@ export default function Header() {
           {/* Action bar (Search, Globe, Theme, CTA, Hamburger) */}
           <div className="flex items-center gap-1.5 sm:gap-2 lg:gap-3 shrink-0">
             {/* Search Button */}
-            <Link
-              href="/suche"
-              title="Suche"
-              aria-label="Suche"
-              className="flex items-center justify-center min-h-[40px] min-w-[40px] lg:min-h-[44px] lg:min-w-[44px] px-2.5 lg:px-3 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
+            <button
+              type="button"
+              onClick={() => setSearchModalOpen(true)}
+              title="Suche (Cmd+K)"
+              aria-label="Suche (Cmd+K)"
+              className="flex items-center justify-center min-h-[40px] min-w-[40px] lg:min-h-[44px] lg:min-w-[44px] px-2.5 lg:px-3 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer group"
             >
-              <Search className="w-4 h-4 lg:w-5 lg:h-5 shrink-0" />
-            </Link>
+              <Search className="w-4 h-4 lg:w-5 lg:h-5 shrink-0 group-hover:text-primary transition-colors" />
+            </button>
 
             {/* Language Switcher */}
             <Link
@@ -255,6 +273,9 @@ export default function Header() {
           </div>
         </div>
       </header>
+
+      {/* Global Search Modal (Command Palette) */}
+      <SearchModal isOpen={searchModalOpen} onClose={() => setSearchModalOpen(false)} />
 
       <AnimatePresence mode="wait">
         {menuOpen && (

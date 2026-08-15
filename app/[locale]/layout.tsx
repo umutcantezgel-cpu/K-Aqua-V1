@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, Suspense } from 'react';
 import { ThemeProvider } from 'next-themes';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -13,6 +13,7 @@ import SkipLink from '@/components/layout/SkipLink';
 import ScrollProgress from '@/components/layout/ScrollProgress';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import OnPageHighlighter from '@/components/search/OnPageHighlighter';
 
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { ShapeDefs } from '@/components/ui/ShapeDefs';
@@ -112,6 +113,9 @@ export default async function LocaleLayout({
             <SkipLink />
             <ScrollProgress />
             <Header />
+            <Suspense fallback={null}>
+              <OnPageHighlighter />
+            </Suspense>
             <main id="main-content" className="pt-(--header-h) min-h-screen">
               <FluidTransitionProvider>{children}</FluidTransitionProvider>
             </main>

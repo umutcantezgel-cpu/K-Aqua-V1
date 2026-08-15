@@ -41,7 +41,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function SearchPage({ params, searchParams }: Props) {
   const { locale } = await params;
   const resolvedSearchParams = searchParams ? await searchParams : {};
-  const initialQuery = resolvedSearchParams?.q || '';
+  const initialQuery = (resolvedSearchParams as Record<string, string | undefined>)?.q || 
+                       (resolvedSearchParams as Record<string, string | undefined>)?.query || 
+                       (resolvedSearchParams as Record<string, string | undefined>)?.highlight || '';
   setRequestLocale(locale);
 
   const breadcrumb = getBreadcrumbJsonLd(locale, [
