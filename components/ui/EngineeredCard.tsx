@@ -41,8 +41,8 @@ export default function EngineeredCard({
             {lead}
           </p>
           <dl className="flex flex-col">
-            {specs.map((s) => (
-              <div key={s.label}
+            {specs.map((s, idx) => (
+              <div key={`${s.label}-${s.value}-${idx}`}
                 className="flex items-baseline justify-between gap-3 border-b border-card-border py-2">
                 <dt className={`${MONO} text-faint-foreground`}>{s.label}</dt>
                 <dd className="text-right font-heading text-[15px] font-semibold text-foreground">{s.value}</dd>
