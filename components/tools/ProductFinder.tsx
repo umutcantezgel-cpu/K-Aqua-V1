@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-literals, @typescript-eslint/no-unused-vars */
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Card } from "@/components/ui/Card";
 import { FilterChip } from "@/components/ui/FilterChip";
@@ -12,8 +12,8 @@ import { Search, Box, Sparkles, X, Maximize2 } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 import { Link, usePathname, useRouter } from "@/lib/i18n/navigation";
 import { useSearchParams } from "next/navigation";
-import { useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import Native3DCanvas from "@/components/3d/Native3DCanvas";
 
 interface ProductMeta {
   slug: string;
@@ -385,11 +385,13 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                 {(() => {
                   const slugOnly = inspectingProduct.slug.includes("/") ? inspectingProduct.slug.split("/").pop() : inspectingProduct.slug;
                   return (
-                    <iframe
-                      src={`/api/3d-view/${slugOnly}`}
-                      title={`${inspectingProduct.title} 3D Vorschau`}
-                      className="w-full h-full border-0 bg-card"
-                      allow="fullscreen"
+                    <Native3DCanvas
+                      slug={slugOnly}
+                      category={inspectingProduct.category}
+                      heightClass="h-full w-full"
+                      showControls={true}
+                      showSizeSelector={true}
+                      autoRotateDefault={true}
                     />
                   );
                 })()}

@@ -1,10 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any, react/jsx-no-literals */
-/* K-Aqua 3D — React-Komponente für Next.js (App Router).
-   Kapselt WebGL-Lifecycle, Ein-Kontext-Garantie, Doppel-Resize und GPU-Speicherbereinigung. */
-
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Native3DCanvas from '@/components/3d/Native3DCanvas';
 
 export interface KaquaProductMeta {
   id: string;
@@ -27,96 +25,19 @@ export interface KaquaViewerProps {
 export default function KaquaViewer({
   productId,
   size,
-  features,
-  basePath = '/kaqua-3d',
   className,
-  style,
+  basePath = '/kaqua-3d',
 }: KaquaViewerProps) {
-  const hostRef = useRef<HTMLDivElement | null>(null);
-  const appRef = useRef<any>(null);
-  const [fehler, setFehler] = useState<string | null>(null);
-
-  useEffect(() => {
-    let abgebrochen = false;
-    const host = hostRef.current;
-    if (!host) return;
-
-    (async () => {
-      try {
-        /* stage.js registriert die Custom Element <three-d-stage> global.
-           Es ist ein klassisches Skript, kein Modul — deshalb per <script>
-           und nicht per import. Zweimal laden ist unschädlich, aber
-           unnötig: das id-Attribut verhindert es. */
-        if (typeof window !== 'undefined' && !window.customElements.get('three-d-stage')) {
-          await new Promise<void>((res, rej) => {
-            const vorhanden = document.getElementById('kaqua-stage-js');
-            if (vorhanden) {
-              vorhanden.addEventListener('load', () => res());
-              return;
-            }
-            const s = document.createElement('script');
-            s.id = 'kaqua-stage-js';
-            s.src = `${basePath}/lib/stage.js`;
-            s.onload = () => res();
-            s.onerror = () => rej(new Error(`stage.js nicht ladbar: ${s.src}`));
-            document.head.appendChild(s);
-          });
-        }
-
-        const mod = await import(/* webpackIgnore: true */ `${basePath}/lib/index.mjs`);
-        if (abgebrochen) return;
-
-        const product = await mod.loadProduct(productId);
-        if (abgebrochen) return;
-
-        const app = mod.mount(product, { host, size, features });
-        appRef.current = app;
-
-        if (!app.ok) {
-          setFehler('kein WebGL2 — Maßtabelle wird angezeigt');
-        }
-      } catch (e: any) {
-        if (!abgebrochen) {
-          setFehler(e?.message || 'Fehler beim Laden des 3D-Modells');
-        }
-      }
-    })();
-
-    return () => {
-      abgebrochen = true;
-      /* Beim Verlassen die Geometrie freigeben. Ohne das wächst der
-         GPU-Speicher mit jedem Seitenwechsel, bis der Kontext verloren
-         geht — bei einer SPA nach wenigen Navigationen. */
-      const app = appRef.current;
-      if (app && app.built && typeof app.built.dispose === 'function') {
-        app.built.dispose();
-      }
-      appRef.current = null;
-      if (host) {
-        host.textContent = '';
-      }
-    };
-  }, [productId, size, features, basePath]);
-
   return (
-    <div
-      ref={hostRef}
+    <Native3DCanvas
+      productId={productId}
+      initialSize={size}
+      basePath={basePath}
       className={className}
-      style={{ position: 'relative', minHeight: 420, ...style }}
-      data-kaqua-viewer={productId}
-    >
-      {fehler ? (
-        <p
-          style={{
-            padding: '12px 16px',
-            font: '500 13px/1.5 var(--font-sans, system-ui, sans-serif)',
-            color: 'var(--color-text-tertiary, #71717a)',
-          }}
-        >
-          {fehler}
-        </p>
-      ) : null}
-    </div>
+      showControls={true}
+      showSizeSelector={true}
+      autoRotateDefault={true}
+    />
   );
 }
 

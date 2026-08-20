@@ -13,6 +13,7 @@ import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
 import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
+import Native3DCanvas from '@/components/3d/Native3DCanvas';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -160,13 +161,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               className="bg-card/50 backdrop-blur-sm"
               header={
                 <div className="h-64 w-full bg-card rounded-t-2xl overflow-hidden border-b border-card-border relative">
-                  <iframe
-                    src="/api/3d-view/k-pipe-pp-r-sdr-6"
-                    title="BIM 5D Integration CAD Model"
-                    className="w-full h-full border-0 bg-card"
-                    loading="lazy"
+                  <Native3DCanvas
+                    slug="k-pipe-pp-r-sdr-6"
+                    heightClass="h-64"
+                    showControls={false}
+                    showSizeSelector={false}
+                    autoRotateDefault={true}
                   />
-                  <div className="absolute bottom-2 end-2 px-2.5 py-1 rounded-md bg-background/80 backdrop-blur-sm border border-card-border text-[10px] font-mono text-muted-foreground pointer-events-none">
+                  <div className="absolute bottom-2 end-2 px-2.5 py-1 rounded-md bg-background/80 backdrop-blur-sm border border-card-border text-[10px] font-mono text-muted-foreground pointer-events-none z-10">
                     3D CAD Live-Vorschau
                   </div>
                 </div>

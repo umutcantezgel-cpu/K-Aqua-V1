@@ -18,6 +18,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import React from 'react';
 
 import ProductGallery from '@/components/product/ProductGallery';
+import Native3DCanvas from '@/components/3d/Native3DCanvas';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
 import ProductVideo from '@/components/product/ProductVideo';
@@ -313,24 +314,14 @@ export default async function ProductDetailPage({
             
             {/* Right Column: Interactive 3D CAD Preview Card */}
             <Reveal delay={0.2} className="w-full">
-              <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden border border-card-border shadow-lift bg-card group">
-                <iframe
-                  src={`/api/3d-view/${product.slug}`}
-                  title={`${localizedTitle} ${locale === 'de' ? '3D Vorschau' : locale === 'ar' ? 'معاينة ثلاثية الأبعاد' : '3D Preview'}`}
-                  className="w-full h-full border-0 bg-card"
-                  loading="eager"
-                  allow="fullscreen"
-                />
-                <div className="absolute bottom-3 start-3 end-3 flex items-center justify-between px-3.5 py-2 rounded-xl bg-background/85 backdrop-blur-md border border-card-border pointer-events-none">
-                  <span className="text-[11px] font-heading font-bold text-foreground flex items-center gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-                    {locale === 'de' ? '3D CAD Live-Vorschau' : locale === 'ar' ? 'معاينة ثلاثية الأبعاد مباشرة' : '3D CAD Live Preview'}
-                  </span>
-                  <span className="text-[10px] text-muted-foreground font-mono">
-                    {locale === 'de' ? '360° drehbar' : locale === 'ar' ? 'دوران 360°' : '360° rotatable'}
-                  </span>
-                </div>
-              </div>
+              <Native3DCanvas
+                slug={product.slug}
+                category={product.category}
+                heightClass="h-[360px] sm:h-[420px] lg:h-[460px]"
+                showSizeSelector={false}
+                showControls={true}
+                autoRotateDefault={true}
+              />
             </Reveal>
 
           </div>
