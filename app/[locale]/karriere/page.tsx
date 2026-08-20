@@ -5,7 +5,9 @@ import pick from 'lodash/pick';
 import Career from "@/components/tools/Career";
 import ApplicationPortal from "@/components/tools/ApplicationPortal";
 import { CareerDeep } from "@/components/sections/CareerDeep";
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -19,8 +21,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("career") as string[];
   return constructMetadata({
-    title: meta[0] ?? "Karriere bei K-Aqua | Präzision. Innovation. Dominanz.",
-    description: meta[1] ?? "Werden Sie Teil der technologischen Speerspitze der industriellen Wasseraufbereitung.",
+    title: meta[0] ?? "Karriere bei K-Aqua | Präzision & Innovation",
+    description: meta[1] ?? "Werden Sie Teil unseres Teams bei KWT K-Aqua in Waldsolms.",
     path: "/karriere",
     locale,
   });
@@ -29,7 +31,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function KarrierePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const jsonLd = await getWebPageJsonLd(locale, "career");
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("career") as string[];
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/karriere",
+      type: "AboutPage",
+      name: meta[0] || "Karriere | K-Aqua",
+      description: meta[1] || "Karrierechancen, Stellenangebote und Benefits bei K-Aqua.",
+      breadcrumbId: `${siteUrl}/${locale}/karriere#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("career") || (locale === "de" ? "Karriere" : locale === "ar" ? "الوظائف" : "Careers"), path: "/karriere" },
+    ]),
+  ]);
   const t = await getTranslations({ locale, namespace: "career" });
 
 
@@ -69,7 +90,6 @@ export default async function KarrierePage({ params }: Props) {
     again: t("again"),
   };
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   const messages = await getMessages();
   
   return (

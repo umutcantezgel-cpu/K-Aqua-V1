@@ -6,7 +6,9 @@ import type { Metadata } from "next";
 import { GEO_HUBS, GEO_MARKETS } from "@/lib/data/geo";
 import { routing } from "@/lib/i18n/routing";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
+import { constructMetadata } from "@/lib/seo/metadata";
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import { Link } from "@/lib/i18n/navigation";
 import { MarketSeoBlock } from "@/components/seo/MarketSeoBlock";
@@ -16,14 +18,10 @@ interface Props {
   params: Promise<{ locale: string; hubSlug: string }>;
 }
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  const params: Array<{ locale: string; hubSlug: string }> = [];
-  for (const locale of routing.locales) {
-    for (const hub of GEO_HUBS) {
-      params.push({ locale, hubSlug: hub.slug });
-    }
-  }
-  return params;
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -50,6 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function GeoHubPage({ params }: Props) {
   const { locale, hubSlug } = await params;
+  setRequestLocale(locale);
   
   if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
@@ -67,21 +66,47 @@ export default async function GeoHubPage({ params }: Props) {
 
   const hubMarkets = GEO_MARKETS.filter(m => m.hubSlug === hubSlug);
   const tGeo = await getTranslations({ locale, namespace: "geo" });
-  // GEO_HUBS führt deutsche Ländernamen — für EN/AR über geo.hubNames auflösen.
   const hubName = tGeo.has(`hubNames.${hub.slug}`) ? tGeo(`hubNames.${hub.slug}`) : hub.name;
-  // Städtenamen und Regulierungsrahmen stehen in GEO_MARKETS auf Deutsch;
-  // die Städteseiten lösen sie schon über geoContent auf, die Hub-Seite bisher nicht.
   const tRoot = await getTranslations({ locale });
   const geoContentTrans = tRoot.raw('geoContent') as Record<string, { regulator?: string }>;
 
-  const breadcrumb = getBreadcrumbJsonLd(locale, [
-    { name: tGeo("eyebrow", { country: hubName, hub: hubName }), path: "/maerkte" },
-    { name: hubName, path: `/maerkte/${hub.slug}` }
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const pageTitle = tGeo("hubH1", { country: hubName, hub: hubName });
+  const pageDesc = tGeo.has(`hubs.${hub.slug}.metaDesc`)
+    ? tGeo(`hubs.${hub.slug}.metaDesc`, { country: hubName, hub: hubName })
+    : hub.description;
+
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: `/maerkte/${hub.slug}`,
+      type: "CollectionPage",
+      name: pageTitle,
+      description: pageDesc,
+      breadcrumbId: `${siteUrl}/${locale}/maerkte/${hub.slug}#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    {
+      "@type": "ItemList",
+      "@id": `${siteUrl}/${locale}/maerkte/${hub.slug}#itemlist`,
+      name: `K-Aqua Märkte in ${hubName}`,
+      itemListElement: hubMarkets.map((market, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `${siteUrl}/${locale}/maerkte/${hub.slug}/${market.slug}`,
+        name: `${market.city}, ${hubName}`,
+      })),
+    },
+    getBreadcrumbGraphNode(locale, [
+      { name: locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home", path: "/" },
+      { name: locale === "de" ? "Märkte" : locale === "ar" ? "الأسواق" : "Markets", path: "/maerkte" },
+      { name: hubName, path: `/maerkte/${hub.slug}` },
+    ]),
   ]);
 
   return (
     <>
-      <JsonLd schema={breadcrumb} />
+      <JsonLd schema={jsonLd} />
       <div className="min-h-screen bg-background text-foreground pt-[var(--header-h)]">
         <div className="max-w-7xl mx-auto px-4 py-16">
         

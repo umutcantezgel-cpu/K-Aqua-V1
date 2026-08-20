@@ -11,7 +11,7 @@ import { Thermometer, Shield, Leaf, Droplet, Layers, Recycle } from '@/component
 
 export const warumPpr: NewsPost = {
   slug: 'warum-eigentlich-ppr-materialkunde',
-  date: 'Wissen',
+  date: '2024-10-15',
   tag: 'Material',
   title: {
     de: 'PPR Materialkunde: Grundlagen',

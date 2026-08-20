@@ -1552,6 +1552,8 @@
       "allProductsDesc": "Übersicht aller K-Aqua PP-R Lösungen",
       "solutionsDesc": "Industriespezifische Applikationen",
       "digitalTools": "Digitale Tools",
+      "cadStudio": "3D CAD Studio",
+      "cadModels": "70 interaktive Modelle",
       "finderDesc": "Das richtige System konfigurieren",
       "co2Desc": "Umweltbilanz kalkulieren",
       "academyDesc": "Schulungen & Zertifikate",
@@ -1570,7 +1572,11 @@
       "globalMarkets": "Globale Märkte",
       "marketsDesc": "Zertifizierte Regionen",
       "refProjects": "Referenzprojekte",
-      "refDesc": "Erfolgreiche Installationen"
+      "refDesc": "Erfolgreiche Installationen",
+      "contactDesc": "Sprechen Sie mit unserem Fachteam",
+      "quoteDesc": "Unverbindliches Projektangebot anfragen",
+      "imprintDesc": "Rechtliche Unternehmensinformationen",
+      "privacyDesc": "Richtlinien zur Datenverarbeitung"
     },
     "home": "Start",
     "products": "Produkte",
@@ -1582,6 +1588,9 @@
     "quote": "Angebot anfragen",
     "menu": "Menü",
     "lang": "Sprache",
+    "searchShortcut": "Suche (Cmd+K)",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
     "skipToContent": "Zum Inhalt springen",
     "menuPlaceholder": "Platzhalter (Mega-Menü)",
     "academy": "Academy",
@@ -1801,7 +1810,22 @@
       "kapstadt": "Kapstadt",
       "maskat": "Maskat",
       "kualalumpur": "Kuala Lumpur",
-      "singapur": "Singapur"
+      "singapur": "Singapur",
+      "frankfurt": "Frankfurt am Main",
+      "berlin": "Berlin",
+      "hamburg": "Hamburg",
+      "london": "London",
+      "paris": "Paris",
+      "dubai": "Dubai",
+      "abudhabi": "Abu Dhabi",
+      "doha": "Doha",
+      "neom": "NEOM / The Line",
+      "kuwait": "Kuwait-Stadt",
+      "manama": "Manama",
+      "amman": "Amman",
+      "istanbul": "Istanbul",
+      "mumbai": "Mumbai",
+      "nairobi": "Nairobi"
     },
     "crisis": {
       "infrastructure-decay": "alternde Bestandsnetze",
@@ -4076,6 +4100,9 @@
     "eyebrow": "Kontakt",
     "title1": "Sprechen wir über Ihr",
     "titleGrad": "Projekt.",
+    "seoH1": "Kontakt zu K-Aqua: Treten Sie mit unseren PP-R Experten in Verbindung",
+    "formEyebrow": "Interaktiv",
+    "formTitle": "Projektanfrage & Support",
     "locTitle": "Standort Deutschland",
     "salesTitle": "Vertrieb",
     "supportTitle": "Qualität & technischer Support",
@@ -4347,7 +4374,11 @@
     "requestBtn": "Paket anfordern",
     "mailSubject": "RFP-Dokumentenpaket",
     "mailBody": "Bitte senden Sie mir folgende Dokumente:",
-    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
+    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung.",
+    "bimEyebrow": "3D CAD & BIM DATENRAUM",
+    "bimTitle": "Maßhaltige 3D-Baugruppen & CAD-Geometrien",
+    "bimLead": "Für TGA-Planer, Architekten und Bauherren: Greifen Sie direkt auf die 70 interaktiven K-Aqua CAD-Modelle mit DIN 8077/8078 & ISO 15874 Maßhaltigkeit zu. Nutzen Sie Echtzeit-Bemaßung, Halbschnitt-Prüfung und GLTF/OBJ-Exporte für Revit und AutoCAD.",
+    "bimCta": "3D Studio öffnen"
   },
   "partner": {
     "eyebrow": "Partnerschaft & Netzwerk",
@@ -6722,7 +6753,7 @@
       "sections": [
         {
           "id": "section-contact",
-          "title": "Angaben gemäß § 5 TMG",
+          "title": "Angaben gemäß § 5 DDG",
           "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
         },
         {

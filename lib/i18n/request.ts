@@ -43,16 +43,17 @@ export default getRequestConfig(async ({ requestLocale }) => {
     return {};
   };
 
-  // Fallback to English for missing translations
-  const fallbackLocale = 'en';
-  const fallbackMessages = targetLocale === fallbackLocale 
-    ? {} 
-    : loadJson(path.join(process.cwd(), 'messages', `${fallbackLocale}.json`));
-
-  const baseMessages = loadJson(path.join(process.cwd(), 'messages', `${targetLocale}.json`));
+  // Load reference messages (German as canonical default, English as international fallback)
+  const deMessages = loadJson(path.join(process.cwd(), 'messages', 'de.json'));
+  const enMessages = loadJson(path.join(process.cwd(), 'messages', 'en.json'));
+  const baseMessages = targetLocale === 'de' 
+    ? deMessages 
+    : targetLocale === 'en' 
+    ? enMessages 
+    : loadJson(path.join(process.cwd(), 'messages', `${targetLocale}.json`));
   
-  // Deep merge fallback and target messages
-  let messages = merge({}, fallbackMessages, baseMessages);
+  // Deep merge canonical default -> english -> target messages
+  let messages = merge({}, deMessages, enMessages, baseMessages);
 
   // Load SEO Expansion files dynamically if they exist (for Swarm)
   const seoModules = [
@@ -75,16 +76,16 @@ export default getRequestConfig(async ({ requestLocale }) => {
   ];
 
   for (const mod of seoModules) {
-    const seoFilePath = path.join(process.cwd(), 'messages', 'seo', targetLocale, `${mod}.json`);
-    if (fs.existsSync(seoFilePath)) {
-      try {
-        const content = fs.readFileSync(seoFilePath, 'utf8');
-        const extension = JSON.parse(content);
-        messages = merge({}, messages, extension);
-      } catch (e) {
-        console.error(`Error loading SEO module ${mod} for locale ${targetLocale}:`, e);
-      }
-    }
+    const deSeoPath = path.join(process.cwd(), 'messages', 'seo', 'de', `${mod}.json`);
+    const enSeoPath = path.join(process.cwd(), 'messages', 'seo', 'en', `${mod}.json`);
+    const targetSeoPath = path.join(process.cwd(), 'messages', 'seo', targetLocale, `${mod}.json`);
+
+    const deSeo = loadJson(deSeoPath);
+    const enSeo = loadJson(enSeoPath);
+    const targetSeo = targetLocale === 'de' ? deSeo : targetLocale === 'en' ? enSeo : loadJson(targetSeoPath);
+
+    const mergedSeo = merge({}, deSeo, enSeo, targetSeo);
+    messages = merge({}, messages, mergedSeo);
   }
 
   return {
@@ -93,7 +94,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
     getMessageFallback({ namespace, key, error }) {
       const path = [namespace, key].filter((part) => part != null).join('.');
       if (error.code === 'MISSING_MESSAGE') {
-        return path;
+        const lastPart = key || namespace || path;
+        return String(lastPart);
       }
       return path;
     },

@@ -11,67 +11,74 @@ export function CustomerReviews() {
 
   const cases = [
     {
-      icon: <Droplet className="w-8 h-8 text-primary" />,
+      icon: <Droplet className="w-6 h-6 sm:w-7 sm:h-7 text-primary shrink-0" />,
       title: t('case1Title'),
       desc: t('case1Desc')
     },
     {
-      icon: <Factory className="w-8 h-8 text-primary" />,
+      icon: <Factory className="w-6 h-6 sm:w-7 sm:h-7 text-primary shrink-0" />,
       title: t('case2Title'),
       desc: t('case2Desc')
     },
     {
-      icon: <Shield className="w-8 h-8 text-primary" />,
+      icon: <Shield className="w-6 h-6 sm:w-7 sm:h-7 text-primary shrink-0" />,
       title: t('case3Title'),
       desc: t('case3Desc')
     }
   ];
 
   const trustSignals = [
-    { label: t('iso9001'), icon: <ShieldCheck className="w-5 h-5 text-accent" /> },
-    { label: t('iso14001'), icon: <Leaf className="w-5 h-5 text-accent" /> },
-    { label: t('iso50001'), icon: <Zap className="w-5 h-5 text-accent" /> },
-    { label: t('madeInGermany'), icon: <Award className="w-5 h-5 text-accent" /> }
+    { label: t('iso9001'), icon: <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 text-accent shrink-0" /> },
+    { label: t('iso14001'), icon: <Leaf className="w-4 h-4 sm:w-5 sm:h-5 text-accent shrink-0" /> },
+    { label: t('iso50001'), icon: <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-accent shrink-0" /> },
+    { label: t('madeInGermany'), icon: <Award className="w-4 h-4 sm:w-5 sm:h-5 text-accent shrink-0" /> }
   ];
 
   return (
-    <section className="py-24 lg:py-32 bg-background kq-band kq-band--slant-b relative">
-      <div className="mx-auto max-w-[1400px] px-6">
-        <div className="flex flex-col items-center text-center mb-16">
+    <section className="py-16 sm:py-20 lg:py-28 bg-background border-t border-card-border relative">
+      <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
+        <div className="flex flex-col items-start text-start mb-10 sm:mb-14">
           <SectionHead
             eyebrow={t('eyebrow')}
             title={t('title')}
             lead={t('lead')}
-            align="center"
+            align="left"
+            className="mb-6 sm:mb-8"
           />
           
-          {/* Trust Signals Row - Horizontal Scroll on Mobile */}
-          <div className="mt-8 flex w-full md:w-auto overflow-x-auto hide-scrollbar snap-x snap-mandatory md:flex-wrap justify-start md:justify-center items-center gap-4 bg-card border border-card-border px-6 py-4 rounded-2xl shadow-sm -mx-6 px-6 md:mx-0">
+          {/* Trust Signals: Clean responsive grid on mobile, flex wrap on desktop */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-wrap items-stretch sm:items-center gap-2 sm:gap-3 bg-card/60 border border-card-border p-3 sm:p-4 rounded-2xl w-full lg:w-auto shadow-sm">
             {trustSignals.map((signal, idx) => (
-              <div key={idx} className="flex items-center gap-2 font-heading font-semibold text-sm text-foreground bg-muted px-4 py-2 rounded-full snap-center shrink-0">
+              <div
+                key={idx}
+                className="flex items-center gap-2.5 font-mono font-medium text-xs sm:text-sm text-foreground bg-muted/70 border border-card-border/80 px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-xl"
+              >
                 {signal.icon}
-                {signal.label}
+                <span>{signal.label}</span>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Abstract Cases Grid - Horizontal Scroll on Mobile */}
-        <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar md:grid md:grid-cols-3 gap-6 pb-8 -mx-6 px-6 md:mx-0 md:px-0">
+        {/* Abstract Cases Grid: Native vertical stack on mobile, 3-column grid on md+ */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
           {cases.map((c, idx) => (
-            <div key={idx} className="min-w-[85vw] sm:min-w-[340px] md:min-w-0 snap-center shrink-0 flex">
-              <Card className="w-full bg-card border border-card-border rounded-xl p-8 flex flex-col gap-6 shadow-sm hover:shadow-diffuse transition-shadow duration-300">
-                <div className="mb-2 bg-primary/10 w-16 h-16 rounded-2xl flex items-center justify-center">
+            <Card
+              key={idx}
+              className="w-full bg-card border border-card-border rounded-2xl p-6 sm:p-8 flex flex-col gap-4 sm:gap-5 shadow-sm hover:border-primary/40 hover:shadow-diffuse transition-all duration-300"
+            >
+              <div className="flex items-center gap-4">
+                <div className="bg-primary/10 w-12 h-12 sm:w-14 sm:h-14 rounded-xl border border-primary/20 flex items-center justify-center shrink-0">
                   {c.icon}
                 </div>
-                <div className="font-heading font-bold text-xl text-foreground">
+                <div className="font-heading font-bold text-lg sm:text-xl text-foreground leading-snug">
                   {c.title}
                 </div>
-                <p className="text-body text-muted-foreground leading-relaxed mt-auto">
-                  {c.desc}
-                </p>
-              </Card>
-            </div>
+              </div>
+              <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                {c.desc}
+              </p>
+            </Card>
           ))}
         </div>
       </div>

@@ -1,11 +1,11 @@
 ---
-title: "Flange Adaptor"
+title: "Stub End"
 category: "Fittings"
-slug: "fittings/flange-adaptor"
+slug: "fittings/stub-end"
 article_codes: ["AQ79040", "AQ79050", "AQ79063", "AQ79075", "AQ79090", "AQ790110", "AQ790125"]
 ---
 
-# Flange Adaptor
+# Stub End
 
 PP-R socket fusion fitting for connecting to flanged equipment (valves, pumps, meters).
 

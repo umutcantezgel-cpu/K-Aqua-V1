@@ -106,36 +106,42 @@ export default function Header() {
           {/* Desktop & Tablet Navigation (Dropdowns) - Visible on Tablets / Surface Pro / Notebooks (md and up) */}
           <nav className="hidden md:flex items-center justify-center flex-1 mx-1 lg:mx-3 xl:mx-4 gap-0.5 lg:gap-1 min-w-0">
             
-            {/* Group 1: Produkte & Tools */}
-            <div className="relative group">
-              <FluidLink href="/produkte" className="px-2 lg:px-3 2xl:px-4 py-1.5 lg:py-2 text-[13px] lg:text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle whitespace-nowrap">
+            {/* Group 1: Produkte & Lösungen */}
+            <div className="relative group focus-within:z-50">
+              <FluidLink
+                href="/produkte"
+                className="px-2 lg:px-3 2xl:px-4 py-1.5 lg:py-2 text-[13px] lg:text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle group-focus-within:text-foreground group-focus-within:bg-background-subtle whitespace-nowrap"
+              >
                 {t('products')}
-                <ChevronDown className="w-3.5 h-3.5 lg:w-4 lg:h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
+                <ChevronDown className="w-3.5 h-3.5 lg:w-4 lg:h-4 opacity-50 group-hover:opacity-100 group-focus-within:opacity-100 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" />
               </FluidLink>
-              {/* Premium Mega Dropdown */}
-              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
-                <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
+              <div className="absolute top-[calc(100%+4px)] left-0 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:pointer-events-auto group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <div className="flex-1 flex flex-col gap-1 border-e border-card-border pe-4">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.pipeSystems')}</span>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/produkte" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
-                      {t('mega.allProducts')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
+                      {t('mega.allProducts')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 rtl-flip transition-all" />
                     </FluidLink>
                     <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.allProductsDesc')}</span>
                   </div>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/loesungen" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
-                      {t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
+                      {t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 rtl-flip transition-all" />
                     </FluidLink>
                     <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.solutionsDesc')}</span>
                   </div>
                 </div>
                 <div className="flex-1 flex flex-col gap-1">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.digitalTools')}</span>
-                  <FluidLink href="/produkte/finder" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
-                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Box className="w-4 h-4" /> {t('finder')}</span>
+                  <FluidLink href="/3d" className="group/item px-3 py-2 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Box className="w-4 h-4 text-accent" /> {t('mega.cadStudio')}</span>
+                    <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">{t('mega.cadModels')}</span>
+                  </FluidLink>
+                  <FluidLink href="/produkte/finder" className="group/item px-3 py-2 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                    <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Search className="w-4 h-4" /> {t('finder')}</span>
                     <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">{t('mega.finderDesc')}</span>
                   </FluidLink>
-                  <FluidLink href="/co2-rechner" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
+                  <FluidLink href="/co2-rechner" className="group/item px-3 py-2 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <span className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center gap-2"><Settings className="w-4 h-4" /> {t('co2')}</span>
                     <span className="text-xs text-muted-foreground mt-0.5" aria-hidden="true">{t('mega.co2Desc')}</span>
                   </FluidLink>
@@ -144,12 +150,16 @@ export default function Header() {
             </div>
 
             {/* Group 2: Wissen & Vertrauen */}
-            <div className="relative group">
-              <span className="px-2 lg:px-3 2xl:px-4 py-1.5 lg:py-2 text-[13px] lg:text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground cursor-pointer inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle whitespace-nowrap">
+            <div className="relative group focus-within:z-50">
+              <button
+                type="button"
+                aria-haspopup="true"
+                className="px-2 lg:px-3 2xl:px-4 py-1.5 lg:py-2 text-[13px] lg:text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground cursor-pointer inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle group-focus-within:text-foreground group-focus-within:bg-background-subtle whitespace-nowrap outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              >
                 {t('knowledge_trust')}
-                <ChevronDown className="w-3.5 h-3.5 lg:w-4 lg:h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
-              </span>
-              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[320px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-3 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+                <ChevronDown className="w-3.5 h-3.5 lg:w-4 lg:h-4 opacity-50 group-hover:opacity-100 group-focus-within:opacity-100 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" />
+              </button>
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[320px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:pointer-events-auto group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-3 flex flex-col gap-1 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <FluidLink href="/academy" className="group/item p-3 rounded-xl hover:bg-background-subtle transition-colors flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5"><HardHat className="w-4 h-4" /></div>
                   <div className="flex flex-col"><span className="text-sm font-semibold text-foreground">{t('academy')}</span><span className="text-xs text-muted-foreground" aria-hidden="true">{t('mega.academyDesc')}</span></div>
@@ -220,11 +230,11 @@ export default function Header() {
             <button
               type="button"
               onClick={() => setSearchModalOpen(true)}
-              title="Suche (Cmd+K)"
-              aria-label="Suche (Cmd+K)"
-              className="flex items-center justify-center min-h-[40px] min-w-[40px] lg:min-h-[44px] lg:min-w-[44px] px-2.5 lg:px-3 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer group"
+              title={t('searchShortcut')}
+              aria-label={t('searchShortcut')}
+              className="flex items-center justify-center min-h-[44px] min-w-[44px] px-3 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer group"
             >
-              <Search className="w-4 h-4 lg:w-5 lg:h-5 shrink-0 group-hover:text-primary transition-colors" />
+              <Search className="w-5 h-5 shrink-0 group-hover:text-primary transition-colors" />
             </button>
 
             {/* Language Switcher */}
@@ -232,9 +242,9 @@ export default function Header() {
               href="/language"
               title={t('lang') || 'Language'}
               aria-label={t('lang') || 'Language'}
-              className="flex items-center justify-center min-h-[40px] min-w-[40px] lg:min-h-[44px] lg:min-w-[44px] px-2.5 lg:px-3 gap-1.5 lg:gap-2 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
+              className="flex items-center justify-center min-h-[44px] min-w-[44px] px-3 gap-2 rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.97] transition-all duration-fast cursor-pointer"
             >
-              <Globe className="w-4 h-4 lg:w-5 lg:h-5 shrink-0" />
+              <Globe className="w-5 h-5 shrink-0" />
               <span className="text-small font-bold tracking-wider uppercase font-body select-none hidden sm:inline">
                 {locale.toUpperCase()}
               </span>
@@ -248,7 +258,7 @@ export default function Header() {
             <span className="hidden lg:inline-flex">
               <FluidLink
                 href="/projektanfrage"
-                className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-xl active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[40px] lg:min-h-[44px] px-3.5 lg:px-5 text-[13px] lg:text-[15px] whitespace-nowrap"
+                className="inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-xl active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out bg-primary text-primary-foreground shadow-diffuse hover:bg-primary-hover hover:shadow-lift hover:-translate-y-0.5 min-h-[44px] px-3.5 lg:px-5 text-[13px] lg:text-[15px] whitespace-nowrap"
               >
                 {t('quote')}
               </FluidLink>
@@ -257,7 +267,7 @@ export default function Header() {
             {/* Mobile Hamburger Menu Button (Only for < md) */}
             <button
               type="button"
-              className="md:hidden relative flex items-center justify-center h-10 w-10 sm:h-11 sm:w-11 rounded-xl border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.95] transition-all duration-fast cursor-pointer group border-card-border bg-card text-foreground hover:bg-background-subtle"
+              className="md:hidden relative flex items-center justify-center h-11 w-11 min-h-[44px] min-w-[44px] rounded-xl border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring active:scale-[0.95] transition-all duration-fast cursor-pointer group border-card-border bg-card text-foreground hover:bg-background-subtle"
               aria-label={t('menu')}
               title={t('menu')}
               aria-expanded={menuOpen}

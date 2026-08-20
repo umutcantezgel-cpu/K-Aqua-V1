@@ -1,12 +1,14 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Card } from "@/components/ui/Card";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
 import { FileText, Download } from "@/components/ui/icon";
 import { ServiceDeep } from "@/components/sections/ServiceDeep";
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getServiceGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -20,13 +22,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("service") as string[];
   return constructMetadata({
-    title: meta[0] ?? "",
-    description: meta[1] ?? "",
+    title: meta[0] ?? "K-Aqua Service & Engineering",
+    description: meta[1] ?? "Technischer Support, Schulungen und Planungsunterstützung.",
     path: "/service",
     locale,
   });
 }
-
 
 interface DownloadItem {
   t: string;
@@ -45,7 +46,6 @@ const K_DL_LINKS = [
 ];
 
 import { LocalVideo } from "@/components/ui/LocalVideo";
-import { setRequestLocale } from 'next-intl/server';
 
 // Mappings for Service videos: local path and YouTube SEO fallback
 const VIDEO_ASSETS = [
@@ -55,18 +55,42 @@ const VIDEO_ASSETS = [
   { src: '/videos/butt-fusion.mp4', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
 ];
 
-
 export default async function ServicePage({ params }: Props) {
   const { locale } = await params;
-  const jsonLd = await getWebPageJsonLd(locale, "service");
+  setRequestLocale(locale);
   const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("service") as string[];
   const t = await getTranslations({ locale, namespace: "service" });
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/service",
+      type: "WebPage",
+      name: meta[0] || "Service & Engineering | K-Aqua",
+      description: meta[1] || "Technischer Support, Schulungen und Planungsunterstützung.",
+      breadcrumbId: `${siteUrl}/${locale}/service#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/service#service`,
+    }),
+    getServiceGraphNode({
+      locale,
+      path: "/service",
+      name: meta[0] || "K-Aqua Service & Engineering Support",
+      description: meta[1] || "Technischer Support, Schweißschulungen und Auslegungsunterstützung.",
+      serviceType: "Technical Engineering Support & Pipe Sizing",
+      areaServed: "Worldwide",
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("service") || (locale === "de" ? "Service" : locale === "ar" ? "الخدمات" : "Service"), path: "/service" },
+    ]),
+  ]);
 
   const downloads = t.raw("downloads") as DownloadItem[];
   const videos = t.raw("videos") as VideoItem[];
 
-  
   return (
     <>
       <JsonLd schema={jsonLd} />

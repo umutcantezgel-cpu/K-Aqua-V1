@@ -8,11 +8,12 @@ import { FilterChip } from "@/components/ui/FilterChip";
 import { Button } from "@/components/ui/Button";
 import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Download, ArrowRight } from "@/components/ui/icon";
-import { Search } from "lucide-react";
+import { Search, Box, Sparkles, X, Maximize2 } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 import { Link, usePathname, useRouter } from "@/lib/i18n/navigation";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
+import { motion, AnimatePresence } from "motion/react";
 
 interface ProductMeta {
   slug: string;
@@ -44,6 +45,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
   const searchQuery = searchParams.get("q") || "";
   const [localSearchQuery, setLocalSearchQuery] = useState(searchQuery);
   const [isMounted, setIsMounted] = useState(false);
+  const [inspectingProduct, setInspectingProduct] = useState<ProductMeta | null>(null);
 
   useEffect(() => {
     setIsMounted(true);
@@ -175,6 +177,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                     fill="crest"
                     variant="ghost"
                     size="md"
+                    className="w-full justify-center"
                     href="/pdf/k-aqua-product-range-en.pdf"
                     target="_blank"
                     rel="noreferrer"
@@ -182,6 +185,23 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                     <Download className="w-4 h-4 mr-2" />
                     {t("catalogPdf") || "Katalog als PDF"}
                   </LiquidMagneticButton>
+
+                  <div className="mt-4 pt-4 border-t border-card-border flex flex-col gap-2">
+                    <span className="text-xs font-heading font-bold text-foreground flex items-center gap-1.5">
+                      <Box className="w-3.5 h-3.5 text-accent" />
+                      3D CAD Studio
+                    </span>
+                    <p className="text-[12px] text-muted-foreground leading-snug">
+                      Alle 70 K-Aqua Produkte als interaktive CAD-Modelle (360° &amp; Bemaßung).
+                    </p>
+                    <Link
+                      href="/3d"
+                      className="mt-1 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-primary text-primary-foreground text-xs font-bold hover:bg-primary-hover transition-colors shadow-sm"
+                    >
+                      <Sparkles className="w-3.5 h-3.5" />
+                      <span>3D Studio öffnen</span>
+                    </Link>
+                  </div>
                 </Card>
               </Reveal>
             </div>
@@ -202,6 +222,9 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                           </th>
                           <th className="font-heading font-bold text-start p-3 px-4 whitespace-nowrap text-foreground bg-card">
                             {t("colCodes") || "Artikelnummern"}
+                          </th>
+                          <th className="font-heading font-bold text-end p-3 px-4 whitespace-nowrap text-foreground bg-card">
+                            3D CAD
                           </th>
                         </tr>
                       </thead>
@@ -227,6 +250,20 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                             <td className="p-3 px-4 border-b border-card-border text-muted-foreground text-start font-mono text-sm max-w-[200px] truncate">
                               {Array.isArray(r.article_codes) ? r.article_codes.join(", ") : (r.article_codes || "-")}
                             </td>
+                            <td className="p-3 px-4 border-b border-card-border text-end">
+                              <button
+                                type="button"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setInspectingProduct(r);
+                                }}
+                                className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-background border border-card-border text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary text-xs font-semibold transition-all shadow-sm cursor-pointer"
+                                title="3D CAD Modell vorschauen"
+                              >
+                                <Box className="w-3.5 h-3.5" />
+                                <span>3D</span>
+                              </button>
+                            </td>
                           </tr>
                            );
                          })}
@@ -241,19 +278,28 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                       const catObj = CATEGORIES.find((c) => c.id === r.category);
                       const catLabel = catObj ? (t.has(catObj.key) ? t(catObj.key) : catObj.fallback) : r.category;
                       return (
-                        <Link 
+                        <div 
                           key={i} 
-                          href={`/produkte/${r.category}/${slugOnly}`}
-                          className="block rounded-lg border border-card-border p-4 bg-background-subtle hover:border-primary/50 transition-colors"
+                          className="block rounded-xl border border-card-border p-4 bg-background-subtle hover:border-primary/50 transition-colors flex flex-col gap-3"
                         >
-                          <div className="flex flex-col gap-2">
+                          <div className="flex items-start justify-between gap-2">
                             <span className="text-xs font-bold uppercase tracking-wider text-primary">{catLabel}</span>
-                            <h3 className="font-heading font-bold text-foreground leading-tight">{r.title}</h3>
-                            <div className="text-muted-foreground font-mono text-xs mt-2 line-clamp-2">
-                              {Array.isArray(r.article_codes) ? r.article_codes.join(", ") : (r.article_codes || "-")}
-                            </div>
+                            <button
+                              type="button"
+                              onClick={() => setInspectingProduct(r)}
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-card border border-card-border text-[11px] font-bold text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                            >
+                              <Box className="w-3 h-3" />
+                              3D
+                            </button>
                           </div>
-                        </Link>
+                          <Link href={`/produkte/${r.category}/${slugOnly}`}>
+                            <h3 className="font-heading font-bold text-foreground leading-tight hover:text-primary transition-colors">{r.title}</h3>
+                          </Link>
+                          <div className="text-muted-foreground font-mono text-xs line-clamp-2">
+                            {Array.isArray(r.article_codes) ? r.article_codes.join(", ") : (r.article_codes || "-")}
+                          </div>
+                        </div>
                       );
                     })}
                   </div>
@@ -286,6 +332,72 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
           </div>
         </div>
       </section>
+
+      {/* 3D Quick-Inspect Modal */}
+      <AnimatePresence>
+        {inspectingProduct && (
+          <div className="fixed inset-0 z-[200] flex items-center justify-center p-4 sm:p-8 bg-background/90 backdrop-blur-2xl">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              className="relative w-full max-w-5xl h-[80vh] bg-card border-2 border-card-border rounded-3xl shadow-2xl overflow-hidden flex flex-col"
+            >
+              <div className="p-4 px-6 border-b border-card-border flex items-center justify-between bg-card/80 backdrop-blur-md">
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+                    <Box className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-foreground text-base">
+                      {inspectingProduct.title}
+                    </h3>
+                    <p className="text-xs text-muted-foreground font-mono">
+                      {Array.isArray(inspectingProduct.article_codes) ? inspectingProduct.article_codes.join(", ") : inspectingProduct.article_codes}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  {(() => {
+                    const slugOnly = inspectingProduct.slug.includes("/") ? inspectingProduct.slug.split("/").pop() : inspectingProduct.slug;
+                    return (
+                      <Link
+                        href={`/produkte/${inspectingProduct.category}/${slugOnly}`}
+                        className="px-3.5 py-1.5 rounded-xl bg-primary text-primary-foreground text-xs font-bold hover:bg-primary-hover transition-colors inline-flex items-center gap-1.5"
+                      >
+                        <span>Zur Produktseite</span>
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </Link>
+                    );
+                  })()}
+                  <button
+                    type="button"
+                    onClick={() => setInspectingProduct(null)}
+                    className="p-2 rounded-xl bg-background-subtle hover:bg-card-border/50 text-foreground text-xs font-bold border border-card-border transition-colors cursor-pointer"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex-1 w-full h-full relative">
+                {(() => {
+                  const slugOnly = inspectingProduct.slug.includes("/") ? inspectingProduct.slug.split("/").pop() : inspectingProduct.slug;
+                  return (
+                    <iframe
+                      src={`/api/3d-view/${slugOnly}`}
+                      title={`${inspectingProduct.title} 3D Vorschau`}
+                      className="w-full h-full border-0 bg-card"
+                      allow="fullscreen"
+                    />
+                  );
+                })()}
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

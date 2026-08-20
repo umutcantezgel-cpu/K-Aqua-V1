@@ -38,22 +38,28 @@ export async function SolutionsDeep() {
             <SectionHead eyebrow={t("segEyebrow")} title={t("segTitle")} lead={t("segLead")} />
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6 pb-8 md:pb-0">
-            {segments.map((s, i) => (
-              <Reveal key={s.t} delay={i * 0.07}>
-                <Card className="h-full">
-                  <div className="font-heading text-body font-bold text-foreground">{s.t}</div>
-                  <p className="text-small text-muted-foreground">{s.d}</p>
-                  <ul className="mt-2 flex list-none flex-col gap-1 p-0">
-                    {s.pts.map((pt) => (
-                      <li key={pt} className="flex items-start gap-1.5 text-tiny text-muted-foreground">
-                        <Check size={14} className="mt-0.5 shrink-0 text-primary" />
-                        {pt}
-                      </li>
-                    ))}
-                  </ul>
-                </Card>
-              </Reveal>
-            ))}
+            {segments.map((s, i) => {
+              const segmentIds = ['hygiene', 'hochhaus', 'industrie', 'agrar', 'fernwaerme', 'sanierung', 'marine', 'druckluft', 'datencenter'];
+              const cardId = segmentIds[i] || undefined;
+              return (
+                <Reveal key={s.t} delay={i * 0.07}>
+                  <div id={cardId} className="h-full scroll-mt-28">
+                    <Card className="h-full">
+                      <div className="font-heading text-body font-bold text-foreground">{s.t}</div>
+                      <p className="text-small text-muted-foreground">{s.d}</p>
+                      <ul className="mt-2 flex list-none flex-col gap-1 p-0">
+                        {s.pts.map((pt) => (
+                          <li key={pt} className="flex items-start gap-1.5 text-tiny text-muted-foreground">
+                            <Check size={14} className="mt-0.5 shrink-0 text-primary" />
+                            {pt}
+                          </li>
+                        ))}
+                      </ul>
+                    </Card>
+                  </div>
+                </Reveal>
+              );
+            })}
           </div>
         </div>
       </section>

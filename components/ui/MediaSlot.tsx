@@ -32,7 +32,7 @@ export function MediaSlot({
     <div
       className={clsx(
         "relative overflow-hidden bg-[linear-gradient(135deg,var(--primary-soft),var(--background-subtle))] flex items-center justify-center w-full h-full",
-        !shapeVariant ? "rounded-xl border border-card-border" : "kq-liquid kq-ix-tilt kq-zoom",
+        !shapeVariant ? "rounded-2xl border border-card-border" : "kq-liquid kq-ix-tilt kq-zoom",
         !src && "p-4",
         className
       )}

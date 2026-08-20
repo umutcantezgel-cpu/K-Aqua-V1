@@ -1,11 +1,12 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Partner } from "@/components/sections/Partner";
 import { PartnerDeep } from "@/components/sections/PartnerDeep";
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
-import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -17,8 +18,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("partner") as string[];
   return constructMetadata({
-    title: meta[0] ?? "",
-    description: meta[1] ?? "",
+    title: meta[0] ?? "Partnerschaft & Vertrieb | K-Aqua",
+    description: meta[1] ?? "Werden Sie Vertriebspartner für K-Aqua PP-R & PP-RCT Rohrleitungssysteme.",
     path: "/partnerschaft",
     locale,
   });
@@ -26,7 +27,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PartnerschaftPage({ params }: Props) {
   const { locale } = await params;
-  const jsonLd = await getWebPageJsonLd(locale, "partner");
+  setRequestLocale(locale);
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("partner") as string[];
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/partnerschaft",
+      type: "WebPage",
+      name: meta[0] || "Partnerschaft | K-Aqua",
+      description: meta[1] || "K-Aqua B2B Partnerschaftsprogramm für Großhändler und Fachplaner.",
+      breadcrumbId: `${siteUrl}/${locale}/partnerschaft#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("partner") || (locale === "de" ? "Partnerschaft" : locale === "ar" ? "الشراكة" : "Partnership"), path: "/partnerschaft" },
+    ]),
+  ]);
   const t = await getTranslations({ locale, namespace: "partner" });
 
   const data = {

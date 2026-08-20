@@ -44,8 +44,11 @@
   --color-card-tint: var(--card-tint);
   --color-primary: var(--primary);
   --color-primary-hover: var(--primary-hover);
+  --color-primary-strong: var(--primary-hover);
   --color-primary-foreground: var(--primary-foreground);
   --color-primary-soft: var(--primary-soft);
+  --color-muted: var(--background-subtle);
+  --color-secondary: var(--primary-soft);
   --color-accent: var(--accent);
   --color-accent-strong: var(--accent-strong);
   --color-ring: var(--ring);
@@ -179,29 +182,30 @@
 }
 
 /* ─────────────────────────────────────────────────────────────
-   SEMANTIC - LIGHT
+   SEMANTIC - LIGHT (Default on :root and [data-theme="light"])
    ───────────────────────────────────────────────────────────── */
+:root,
 [data-theme="light"] {
   color-scheme: light;
-  --background: oklch(0.985 0.004 300);
-  --background-subtle: oklch(0.965 0.008 302);
-  --foreground: oklch(0.22 0.03 300);
-  --muted-foreground: oklch(0.48 0.025 300);
-  --faint-foreground: oklch(0.62 0.02 300);
-  --card: #ffffff;
-  --card-border: oklch(0.91 0.012 302);
+  --background: #FAFAFB;
+  --background-subtle: #F4F4F6;
+  --foreground: #1A1A24;
+  --muted-foreground: #5A5A6E;
+  --faint-foreground: #8C8CA0;
+  --card: #FFFFFF;
+  --card-border: #E8E8EE;
   --card-tint: var(--brand-50);
   --primary: var(--brand-600);
   --primary-hover: var(--brand-700);
-  --primary-foreground: #ffffff;
+  --primary-foreground: #FFFFFF;
   --primary-soft: oklch(0.95 0.03 305);
   --accent: var(--aqua-500);
   --accent-strong: var(--aqua-600);
   --ring: var(--brand-400);
-  --inverse-surface: oklch(0.21 0.04 300);
-  --inverse-foreground: oklch(0.97 0.01 300);
-  --nav-glass: oklch(0.985 0.004 300 / 0.72);
-  --nav-border: oklch(0.5 0.03 300 / 0.12);
+  --inverse-surface: #1A1A24;
+  --inverse-foreground: #FAFAFB;
+  --nav-glass: rgba(250, 250, 251, 0.85);
+  --nav-border: rgba(0, 0, 0, 0.08);
   --elev-diffuse: 0 1px 2px oklch(0.3 0.05 300 / 0.05), 0 8px 24px -8px oklch(0.3 0.08 300 / 0.12);
   --elev-lift: 0 2px 4px oklch(0.3 0.05 300 / 0.06), 0 16px 40px -12px oklch(0.3 0.1 300 / 0.22);
   --elev-glow: 0 0 28px oklch(0.44 0.17 302 / 0.28);
@@ -210,43 +214,34 @@
 }
 
 /* ─────────────────────────────────────────────────────────────
-   SEMANTIC - DARK (OLED, #0A0A0F - never pure black in markup)
+   SEMANTIC - DARK (OLED / Slate-950, #0E1017)
    ───────────────────────────────────────────────────────────── */
 [data-theme="dark"] {
   color-scheme: dark;
-  --background: #0A0A0F;
-  --background-subtle: oklch(0.17 0.015 300);
-  --foreground: oklch(0.94 0.008 300);
-  --muted-foreground: oklch(0.7 0.015 300);
-  --faint-foreground: oklch(0.55 0.015 300);
-  --card: oklch(0.185 0.02 300);
-  --card-border: oklch(0.3 0.025 300 / 0.7);
+  --background: #0E1017;
+  --background-subtle: #151822;
+  --foreground: #F1F3F9;
+  --muted-foreground: #9499AB;
+  --faint-foreground: #63687A;
+  --card: #151822;
+  --card-border: rgba(255, 255, 255, 0.08);
   --card-tint: oklch(0.22 0.04 302);
   --primary: var(--brand-400);
   --primary-hover: var(--brand-300);
-  --primary-foreground: oklch(0.13 0.02 300);
+  --primary-foreground: #0E1017;
   --primary-soft: oklch(0.24 0.06 302);
   --accent: var(--aqua-400);
   --accent-strong: var(--aqua-300);
   --ring: var(--brand-300);
-  --inverse-surface: oklch(0.94 0.008 300);
-  --inverse-foreground: oklch(0.17 0.02 300);
-  --nav-glass: oklch(0.12 0.015 300 / 0.66);
-  --nav-border: oklch(0.9 0.02 300 / 0.1);
+  --inverse-surface: #F1F3F9;
+  --inverse-foreground: #0E1017;
+  --nav-glass: rgba(14, 16, 23, 0.85);
+  --nav-border: rgba(255, 255, 255, 0.08);
   --elev-diffuse: 0 1px 2px rgb(0 0 0 / 0.5), 0 8px 24px -8px rgb(0 0 0 / 0.6);
   --elev-lift: 0 2px 4px rgb(0 0 0 / 0.5), 0 16px 40px -12px rgb(0 0 0 / 0.7);
   --elev-glow: 0 0 28px oklch(0.62 0.16 303 / 0.4);
   --hero-wash: radial-gradient(1100px 520px at 78% -10%, oklch(0.3 0.08 302 / 0.55), transparent 65%),
                radial-gradient(900px 480px at 12% 110%, oklch(0.3 0.06 220 / 0.4), transparent 60%);
-}
-
-/* Default theme when next-themes hasn't resolved yet (SSR/first paint). */
-:root:not([data-theme]) {
-  color-scheme: light;
-  --background: oklch(0.985 0.004 300);
-  --foreground: oklch(0.22 0.03 300);
-  --nav-glass: oklch(0.985 0.004 300 / 0.72);
-  --nav-border: oklch(0.5 0.03 300 / 0.12);
 }
 
 /* ─────────────────────────────────────────────────────────────

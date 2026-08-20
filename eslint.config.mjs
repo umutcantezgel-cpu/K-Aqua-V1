@@ -49,6 +49,7 @@ const eslintConfig = [
       // (Draco, Basis) — minifiziert, nicht unser Code.
       'public/**',
       'docs/**',
+      'kaqua-3d/**',
       'components/tools/co2-dashboard/**',
       'lib/co2-*.ts'
     ],

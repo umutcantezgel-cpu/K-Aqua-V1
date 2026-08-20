@@ -11,7 +11,7 @@ import { Moon, Shield, Layers, Droplet, Globe, Thermometer } from '@/components/
 
 export const schallschutzAkustik: NewsPost = {
   slug: 'schallschutz-akustik-ppr-rohre-hotel-krankenhaus',
-  date: 'Komfort',
+  date: '2024-11-05',
   tag: 'Akustik',
   title: {
     de: 'Schallschutz Akustik',

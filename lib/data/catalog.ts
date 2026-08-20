@@ -1813,7 +1813,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "elbowwall-bracket-90-female-thread",
+        slug: "elbow-wall-bracket-90-female-thread",
         title: "Elbow/Wall Bracket 90° (Female Thread)",
         codes: "AQ09WBRP20–AQ09WBRP40",
         head: [
@@ -1841,7 +1841,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "metal-union-male-thread-yellow-brass",
+        slug: "metal-union-male-thread-brass",
         title: "Metal Union - Male Thread (Yellow Brass)",
         codes: "AQ70R20–AQ70R50",
         head: [
@@ -1873,7 +1873,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "metal-union-female-thread-yellow-brass",
+        slug: "metal-union-female-thread-brass",
         title: "Metal Union - Female Thread (Yellow Brass)",
         codes: "AQ70RP20–AQ70RP50",
         head: [
@@ -2285,7 +2285,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "straight-seat-valve-upper-part-green-handle",
+        slug: "straight-seat-valve-green-handle",
         title: "Straight Seat Valve - Upper Part, Green Handle",
         codes: "AQ62591",
         head: [
@@ -2830,7 +2830,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "hand-welding-machine-2063-complete-set",
+        slug: "hand-welding-machine-20-63",
         title: "Hand Welding Machine 20–63 (Complete Set)",
         codes: "AQ98063",
         head: [
@@ -2846,7 +2846,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "hand-welding-machine-mirror-50125",
+        slug: "hand-welding-machine-mirror-50-125",
         title: "Hand Welding Machine Mirror 50–125",
         codes: "AQ991125",
         head: [
@@ -2906,7 +2906,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "welding-machine-50125-complete-set",
+        slug: "welding-machine-50-125",
         title: "Welding Machine 50–125 (Complete Set)",
         codes: "AQ985125",
         head: [
@@ -2922,7 +2922,7 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "butt-welding-machine-90250",
+        slug: "butt-welding-machine-90-250",
         title: "Butt Welding Machine 90–250",
         codes: "AQ989250",
         head: [

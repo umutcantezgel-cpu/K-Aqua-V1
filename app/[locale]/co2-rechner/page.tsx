@@ -1,13 +1,13 @@
- 
 import React from "react";
 import dynamic from "next/dynamic";
-import { getTranslations, getMessages } from "next-intl/server";
+import { getTranslations, getMessages, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getWebApplicationGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
-import { setRequestLocale } from 'next-intl/server';
 import "@/components/tools/co2-dashboard/co2-dashboard.css";
 
 import Co2DashboardWrapper from "@/components/tools/co2-dashboard/Co2DashboardWrapper";
@@ -22,11 +22,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("co2") as string[];
   return constructMetadata({
-    title: meta[0] ?? "CO2-Rechner & Emissionsanalyse",
-    description: meta[1] ?? "Präzise Berechnung der CO2-Emissionen für industrielle Rohrsysteme.",
+    title: meta[0] ?? "CO2-Rechner für Rohrleitungssysteme | K-Aqua",
+    description: meta[1] ?? "Berechnen und vergleichen Sie CO2-Emissionen von PP-R/PP-RCT gegenüber metallischen Rohrleitungen.",
     path: "/co2-rechner",
     locale,
-    noIndex: true,
   });
 }
 
@@ -35,8 +34,32 @@ export default async function Co2RechnerPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const tCo2 = await getTranslations({ locale, namespace: "co2" });
+  const tNav = await getTranslations({ locale, namespace: "nav" });
   const meta = t.raw("co2") as string[];
-  const jsonLd = await getWebPageJsonLd(locale, "co2");
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/co2-rechner",
+      type: "WebPage",
+      name: meta[0] || "CO2-Rechner | K-Aqua",
+      description: meta[1] || "Berechnung der CO2-Emissionen und Umweltbilanz für industrielle Rohrsysteme.",
+      breadcrumbId: `${siteUrl}/${locale}/co2-rechner#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/co2-rechner#app`,
+    }),
+    getWebApplicationGraphNode({
+      locale,
+      path: "/co2-rechner",
+      name: "K-Aqua CO2 & Lifecycle Footprint Calculator",
+      description: "Interaktives Tool zur Berechnung von Treibhausgasemissionen und Materialvergleichen bei Rohrleitungsinstallationen.",
+      applicationCategory: "EngineeringApplication",
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: locale === "de" ? "CO2-Rechner" : locale === "ar" ? "حاسبة الكربون" : "CO2 Calculator", path: "/co2-rechner" },
+    ]),
+  ]);
   
   const guideText = tCo2.has("guideText") ? tCo2.raw("guideText") as string : "";
   const messages = await getMessages();

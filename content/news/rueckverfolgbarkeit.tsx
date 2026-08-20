@@ -11,7 +11,7 @@ import { Layers, Shield, FileText, Factory, MapPin, Check } from '@/components/u
 
 export const rueckverfolgbarkeit: NewsPost = {
   slug: 'fortlaufende-kennzeichnung-rueckverfolgbarkeit',
-  date: '2018',
+  date: '2024-09-15',
   tag: 'Produktion',
   title: {
     de: 'Rückverfolgbarkeit ab Extruder',

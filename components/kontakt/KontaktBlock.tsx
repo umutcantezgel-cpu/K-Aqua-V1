@@ -108,25 +108,44 @@ export function KontaktBlock({ slug, variant = "block", tone = "", dynamicContex
   switch (variant) {
     case "block":
       content = (
-        <div className="kqk-grid">
+        <div className="kqk-grid flex flex-col lg:grid lg:grid-cols-[5fr_7fr] gap-8 lg:gap-12 items-start w-full">
           <CtxFull c={c} />
-          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="full" />
+          <div className="w-full min-w-0">
+            <KontaktForm slug={key} interest={c.interest} done={c.done} layout="full" />
+          </div>
         </div>
       );
       break;
     case "band":
       content = (
-        <div className="kqk-ctr">
+        <div className="kqk-ctr flex flex-col lg:flex-row gap-6 lg:gap-8 lg:items-center justify-between w-full">
           <CtxShort c={c} withPromise />
-          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
+          <div className="w-full lg:flex-1 min-w-0">
+            <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
+          </div>
         </div>
       );
       break;
     case "hero":
       content = (
-        <div className="flex flex-col lg:flex-row gap-5 lg:items-center">
-          <div className="kqk-h sh kqk-ctx w-full lg:flex-1 lg:min-w-[220px] text-center lg:text-left font-heading font-bold">{c.short}</div>
-          <div className="kqk-right w-full lg:flex-[2]">
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 lg:items-center justify-between w-full">
+          <div className="kqk-ctx w-full lg:max-w-[440px] flex flex-col gap-2.5 text-start shrink-0">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/15 border border-accent/30 text-accent text-xs font-mono font-bold uppercase tracking-wider w-fit">
+              <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+              <span>{c.kicker || "DIREKTKONTAKT AB WERK"}</span>
+            </div>
+            <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-foreground tracking-tight leading-tight">
+              {c.short}
+            </h2>
+            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed font-normal">
+              {c.text}
+            </p>
+            <div className="flex items-center gap-2 text-xs font-mono font-semibold text-accent mt-0.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
+              <span>Rückmeldung innerhalb 24h garantiert</span>
+            </div>
+          </div>
+          <div className="kqk-right w-full lg:flex-1 min-w-0">
             <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
           </div>
         </div>
@@ -134,9 +153,11 @@ export function KontaktBlock({ slug, variant = "block", tone = "", dynamicContex
       break;
     case "inline":
       content = (
-        <div className="kqk-ctr">
+        <div className="kqk-ctr flex flex-col lg:flex-row gap-6 lg:gap-8 lg:items-center justify-between w-full">
           <CtxShort c={c} />
-          <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
+          <div className="w-full lg:flex-1 min-w-0">
+            <KontaktForm slug={key} interest={c.interest} done={c.done} layout="row" slimDone />
+          </div>
         </div>
       );
       break;

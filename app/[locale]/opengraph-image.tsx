@@ -13,7 +13,7 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   const titles: Record<string, string> = {
     de: 'Premium PP-R & PP-RCT Rohrleitungssysteme',
     en: 'Premium PP-R & PP-RCT Piping Systems',
-    ar: 'Premium PP-R & PP-RCT Piping Systems',
+    ar: 'أنظمة أنابيب PP-R و PP-RCT الفاخرة',
   };
 
   const subtitle = 'Made in Germany';

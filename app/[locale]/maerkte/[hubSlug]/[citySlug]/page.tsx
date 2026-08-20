@@ -7,7 +7,15 @@ import { GEO_MARKETS, GEO_HUBS, nearestMarkets } from "@/lib/data/geo";
 import { routing } from "@/lib/i18n/routing";
 import { getTranslations } from "next-intl/server";
 import GeoCity from "@/components/sections/GeoCity";
-import { constructMetadata, getGeoCityJsonLd, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
+import { constructMetadata } from "@/lib/seo/metadata";
+import {
+  wrapGraph,
+  getWebPageGraphNode,
+  getLocalMarketGraphNode,
+  getFaqGraphNode,
+  getBreadcrumbGraphNode,
+} from "@/lib/seo/schema";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import { setRequestLocale } from 'next-intl/server';
 
@@ -15,14 +23,10 @@ interface Props {
   params: Promise<{ locale: string; hubSlug: string; citySlug: string }>;
 }
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  const params: Array<{ locale: string; hubSlug: string; citySlug: string }> = [];
-  for (const locale of routing.locales) {
-    for (const market of GEO_MARKETS) {
-      params.push({ locale, hubSlug: market.hubSlug, citySlug: market.slug });
-    }
-  }
-  return params;
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -61,6 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function GeoCityPage({ params }: Props) {
   const { locale, hubSlug, citySlug } = await params;
+  setRequestLocale(locale);
   
   // Validate locale
   if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
@@ -153,21 +158,58 @@ export default async function GeoCityPage({ params }: Props) {
     regulator: geoContentTrans[nm.slug]?.regulator || nm.regulator
   }));
 
-  const schemas = await getGeoCityJsonLd(locale, market, localizedData);
-  
-  const breadcrumb = getBreadcrumbJsonLd(locale, [
-    { name: tGeo("eyebrow"), path: "/maerkte" },
-    { name: hubName, path: `/maerkte/${market.hubSlug}` },
-    { name: cityName, path: `/maerkte/${market.hubSlug}/${market.slug}` }
-  ]);
-  
-  const allSchemas = [...schemas, breadcrumb];
-
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
   const baseTitle = tGeo("cityMetaTitle", { city: cityName });
+  const cityPageUrl = `${siteUrl}/${locale}/maerkte/${market.hubSlug}/${market.slug}`;
+
+  const faqItems = [
+    {
+      question: locale === "de" ? `Welche Wasserbehörde regelt Trinkwassersysteme in ${cityName}?` : `Which water authority regulates drinking water systems in ${cityName}?`,
+      answer: `${tGeo("cityLead")} ${localizedData.regulator}.`,
+    },
+    {
+      question: locale === "de" ? `Wie verhält sich das K-Aqua Rohrsystem bei dem Wasserprofil in ${cityName}?` : `How does K-Aqua piping respond to the water profile in ${cityName}?`,
+      answer: localizedData.water,
+    },
+  ];
+
+  if (localizedData.focus && localizedData.focus.length > 0) {
+    faqItems.push({
+      question: locale === "de" ? `Was sind typische Projektanwendungen für K-Aqua in ${cityName}?` : `What are typical project applications for K-Aqua in ${cityName}?`,
+      answer: `${localizedData.focusHeading}: ${localizedData.focus.join(", ")}.`,
+    });
+  }
+
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: `/maerkte/${market.hubSlug}/${market.slug}`,
+      type: "ItemPage",
+      name: baseTitle,
+      description: `${cityName}: ${localizedData.water} ${localizedData.regulator}.`,
+      breadcrumbId: `${cityPageUrl}#breadcrumb`,
+      mainEntityId: `${cityPageUrl}#local-business`,
+    }),
+    getLocalMarketGraphNode({
+      locale,
+      hubSlug: market.hubSlug,
+      citySlug: market.slug,
+      city: cityName,
+      country: hubName,
+      regulator: localizedData.regulator,
+      waterDescription: localizedData.water,
+    }),
+    getFaqGraphNode(faqItems, cityPageUrl),
+    getBreadcrumbGraphNode(locale, [
+      { name: tGeo("eyebrow"), path: "/maerkte" },
+      { name: hubName, path: `/maerkte/${market.hubSlug}` },
+      { name: cityName, path: `/maerkte/${market.hubSlug}/${market.slug}` },
+    ]),
+  ]);
 
   return (
     <>
-      <JsonLd schema={allSchemas} />
+      <JsonLd schema={jsonLd} />
       <div className="sr-only">{baseTitle} | K-Aqua</div>
 
       <GeoCity

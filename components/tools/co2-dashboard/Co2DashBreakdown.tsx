@@ -1,3 +1,6 @@
+// @ts-nocheck
+'use client';
+
 import React, { useState as useSB } from 'react';
 
 export function Co2Breakdown({ results, phases, fmt, horizonYears }: any) {

@@ -32,64 +32,64 @@ export function MarketSeoBlock({ locale, locationName, isCity = false }: { local
     );
   }
 
-  if (locale === 'en') {
+  if (locale === 'ar') {
     if (isCity) {
       return (
-        <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start mt-8">
+        <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start mt-8" dir="rtl">
           <p className="mb-4">
-            Urban construction projects in {locationName} demand innovative solutions that comply with local building regulations. K-Aqua provides customized PP-R/PP-RCT Piping Systems in {locationName}, perfectly suited for the specific requirements of this metropolitan area. With our proven <strong className="font-medium text-foreground">PP-R Piping Systems in {locationName}</strong>, we ensure long-lasting resistance against corrosion and deposits. At the same time, local installations benefit from outstanding thermal insulation, significantly reducing the operating costs of heating and cooling systems.
+            تتطلب مشاريع البناء الحضرية في {locationName} حلولاً مبتكرة تتوافق مع لوائح البناء المحلية. توفر K-Aqua أنظمة أنابيب PP-R/PP-RCT مخصصة في {locationName}، وهي مناسبة تمامًا للمتطلبات الخاصة لهذه المنطقة الحضرية. من خلال <strong className="font-medium text-foreground">أنظمة أنابيب PP-R في {locationName}</strong> الموثوقة لدينا، نضمن مقاومة طويلة الأمد ضد التآكل والرواسب. وفي الوقت نفسه، تستفيد التركيبات المحلية من عزل حراري متميز، مما يقلل بشكل كبير من تكاليف تشغيل أنظمة التدفئة والتبريد.
           </p>
           <p className="mb-4">
-            In urban environments, maintaining drinking water purity is a top priority. K-Aqua polypropylene pipes feature an extremely smooth surface that strongly inhibits bacterial growth, thereby protecting end-user health. For complex buildings in {locationName} – from skyscrapers and hospitals to industrial plants – our polyfusion welding technology offers leak-proof and maintenance-free connections.
+            في البيئات الحضرية، يعتبر الحفاظ على نقاء مياه الشرب أولوية قصوى. تتميز أنابيب البولي بروبلين من K-Aqua بسطح أملس للغاية يمنع نمو البكتيريا بقوة، مما يحمي صحة المستخدم النهائي. بالنسبة للمباني المعقدة في {locationName} - من ناطحات السحاب والمستشفيات إلى المصانع الصناعية - توفر تقنية اللحام الانصهاري لدينا وصلات مانعة للتسرب ولا تحتاج إلى صيانة.
           </p>
           <p className="mb-4">
-            Furthermore, we support eco-friendly construction in the city. Our fully recyclable materials and an extended operational life of over 50 years help developers in {locationName} achieve strict environmental goals and secure green building certifications (such as LEED or BREEAM). Specialized contractors and planners trust our German quality to build future-ready water networks.
+            علاوة على ذلك، نحن ندعم البناء الصديق للبيئة في المدينة. تساعد موادنا القابلة لإعادة التدوير بالكامل وعمرها التشغيلي الممتد لأكثر من 50 عامًا المطورين في {locationName} على تحقيق أهداف بيئية صارمة وتأمين شهادات المباني الخضراء (مثل LEED أو BREEAM). يثق المقاولون والمخططون المتخصصون في جودتنا الألمانية لبناء شبكات مياه جاهزة للمستقبل.
           </p>
         </div>
       );
     }
-    return (
-      <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start mt-8">
-        <p className="mb-4">
-          The growing demands of modern infrastructure projects in {locationName} require uncompromising material quality and system reliability. As a leading manufacturer, K-Aqua delivers specially developed PP-R/PP-RCT Piping Systems for {locationName} tailored precisely to the climatic and regulatory challenges of this market. Our certified <strong className="font-medium text-foreground">PP-R Piping Systems for {locationName}</strong> guarantee absolute corrosion resistance, prevent scale buildup, and offer exceptional thermal insulation capabilities that minimize energy loss in hot water and HVAC circuits.
-        </p>
-        <p className="mb-4">
-          Particularly in the realm of potable water hygiene, K-Aqua products set the highest standards. The non-porous, extremely smooth inner surface of our pipes effectively prevents the formation of biofilms and Legionella, ensuring pristine water quality from the point of supply to the point of use. Whether in complex high-rise risers, expansive industrial cooling systems, or demanding municipal district heating networks in {locationName} – our seamless welding technology ensures a one-hundred-percent homogeneous, permanently leak-proof connection.
-        </p>
-        <p className="mb-4">
-          Sustainability and efficiency are at the core of our development philosophy. The extended lifespan of over 50 years drastically reduces the Total Cost of Ownership, while the complete recyclability of our plastics actively contributes to Green Building certifications (such as LEED or BREEAM). Planners, engineers, and installers in {locationName} rely on the uncompromising &quot;German Engineering&quot; of K-Aqua to realize even the most demanding water-bearing systems safely, efficiently, and future-proof.
-        </p>
-      </div>
-    );
-  }
 
-  // Arabic
-  if (isCity) {
     return (
       <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start mt-8" dir="rtl">
         <p className="mb-4">
-          تتطلب مشاريع البناء الحضرية في {locationName} حلولاً مبتكرة تتوافق مع لوائح البناء المحلية. توفر K-Aqua أنظمة أنابيب PP-R/PP-RCT مخصصة في {locationName}، وهي مناسبة تمامًا للمتطلبات الخاصة لهذه المنطقة الحضرية. من خلال <strong className="font-medium text-foreground">أنظمة أنابيب PP-R في {locationName}</strong> الموثوقة لدينا، نضمن مقاومة طويلة الأمد ضد التآكل والرواسب. وفي الوقت نفسه، تستفيد التركيبات المحلية من عزل حراري متميز، مما يقلل بشكل كبير من تكاليف تشغيل أنظمة التدفئة والتبريد.
+          تتطلب المتطلبات المتزايدة لمشاريع البنية التحتية الحديثة في {locationName} جودة مواد وموثوقية نظام لا تقبل المساومة. بصفتها شركة رائدة، تقدم K-Aqua حلول أنظمة أنابيب PP-R/PP-RCT لـ{locationName} تم تطويرها خصيصًا ومصممة لتناسب التحديات المناخية والتنظيمية في هذا السوق. تضمن منتجاتنا المعتمدة <strong className="font-medium text-foreground">أنظمة أنابيب PP-R لـ{locationName}</strong> مقاومة مطلقة للتآكل، وتمنع تكون القشور، وتوفر قدرات عزل حراري استثنائية تقلل من فقدان الطاقة في دوائر الماء الساخن وتكييف الهواء.
         </p>
         <p className="mb-4">
-          في البيئات الحضرية، يعتبر الحفاظ على نقاء مياه الشرب أولوية قصوى. تتميز أنابيب البولي بروبلين من K-Aqua بسطح أملس للغاية يمنع نمو البكتيريا بقوة، مما يحمي صحة المستخدم النهائي. بالنسبة للمباني المعقدة في {locationName} - من ناطحات السحاب والمستشفيات إلى المصانع الصناعية - توفر تقنية اللحام الانصهاري لدينا وصلات مانعة للتسرب ولا تحتاج إلى صيانة.
+          تضع منتجات K-Aqua أعلى المعايير بشكل خاص في مجال نظافة مياه الشرب. يمنع السطح الداخلي للأنابيب، الخالي من المسام والناعم للغاية، بشكل فعال تكوين الأغشية الحيوية والبكتيريا الفيلقية (Legionella)، مما يضمن جودة مياه نقية من نقطة الإمداد إلى نقطة الاستخدام. سواء في أنابيب الرفع المعقدة في المباني الشاهقة، أو أنظمة التبريد الصناعية الواسعة، أو شبكات التدفئة المركزية البلدية الصعبة في {locationName} - تضمن تقنية اللحام السلسة لدينا اتصالًا متجانسًا بنسبة مائة بالمائة ومقاومًا للتسرب بشكل دائم.
         </p>
         <p className="mb-4">
-          علاوة على ذلك، نحن ندعم البناء الصديق للبيئة في المدينة. تساعد موادنا القابلة لإعادة التدوير بالكامل وعمرها التشغيلي الممتد لأكثر من 50 عامًا المطورين في {locationName} على تحقيق أهداف بيئية صارمة وتأمين شهادات المباني الخضراء (مثل LEED أو BREEAM). يثق المقاولون والمخططون المتخصصون في جودتنا الألمانية لبناء شبكات مياه جاهزة للمستقبل.
+          الاستدامة والكفاءة هما في صميم فلسفتنا التطويرية. يقلل العمر الافتراضي الطويل الذي يزيد عن 50 عامًا من التكلفة الإجمالية للملكية بشكل كبير، بينما تساهم قابلية إعادة التدوير الكاملة للمواد البلاستيكية لدينا بنشاط في شهادات المباني الخضراء (مثل LEED أو BREEAM). يعتمد المخططون والمهندسون والمقاولون في {locationName} على &quot;الهندسة الألمانية&quot; التي لا تقبل المساومة من K-Aqua لتنفيذ حتى أكثر أنظمة المياه تطلبًا بأمان وكفاءة واستدامة.
         </p>
       </div>
     );
   }
 
+  // Default / English
+  if (isCity) {
+    return (
+      <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start mt-8">
+        <p className="mb-4">
+          Urban construction projects in {locationName} demand innovative solutions that comply with local building regulations. K-Aqua provides customized PP-R/PP-RCT Piping Systems in {locationName}, perfectly suited for the specific requirements of this metropolitan area. With our proven <strong className="font-medium text-foreground">PP-R Piping Systems in {locationName}</strong>, we ensure long-lasting resistance against corrosion and deposits. At the same time, local installations benefit from outstanding thermal insulation, significantly reducing the operating costs of heating and cooling systems.
+        </p>
+        <p className="mb-4">
+          In urban environments, maintaining drinking water purity is a top priority. K-Aqua polypropylene pipes feature an extremely smooth surface that strongly inhibits bacterial growth, thereby protecting end-user health. For complex buildings in {locationName} – from skyscrapers and hospitals to industrial plants – our polyfusion welding technology offers leak-proof and maintenance-free connections.
+        </p>
+        <p className="mb-4">
+          Furthermore, we support eco-friendly construction in the city. Our fully recyclable materials and an extended operational life of over 50 years help developers in {locationName} achieve strict environmental goals and secure green building certifications (such as LEED or BREEAM). Specialized contractors and planners trust our German quality to build future-ready water networks.
+        </p>
+      </div>
+    );
+  }
   return (
-    <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start mt-8" dir="rtl">
+    <div className="prose dark:prose-invert text-muted-foreground text-sm max-w-none text-start mt-8">
       <p className="mb-4">
-        تتطلب المتطلبات المتزايدة لمشاريع البنية التحتية الحديثة في {locationName} جودة مواد وموثوقية نظام لا تقبل المساومة. بصفتها شركة رائدة، تقدم K-Aqua حلول أنظمة أنابيب PP-R/PP-RCT لـ{locationName} تم تطويرها خصيصًا ومصممة لتناسب التحديات المناخية والتنظيمية في هذا السوق. تضمن منتجاتنا المعتمدة <strong className="font-medium text-foreground">أنظمة أنابيب PP-R لـ{locationName}</strong> مقاومة مطلقة للتآكل، وتمنع تكون القشور، وتوفر قدرات عزل حراري استثنائية تقلل من فقدان الطاقة في دوائر الماء الساخن وتكييف الهواء.
+        The growing demands of modern infrastructure projects in {locationName} require uncompromising material quality and system reliability. As a leading manufacturer, K-Aqua delivers specially developed PP-R/PP-RCT Piping Systems for {locationName} tailored precisely to the climatic and regulatory challenges of this market. Our certified <strong className="font-medium text-foreground">PP-R Piping Systems for {locationName}</strong> guarantee absolute corrosion resistance, prevent scale buildup, and offer exceptional thermal insulation capabilities that minimize energy loss in hot water and HVAC circuits.
       </p>
       <p className="mb-4">
-        تضع منتجات K-Aqua أعلى المعايير بشكل خاص في مجال نظافة مياه الشرب. يمنع السطح الداخلي للأنابيب، الخالي من المسام والناعم للغاية، بشكل فعال تكوين الأغشية الحيوية والبكتيريا الفيلقية (Legionella)، مما يضمن جودة مياه نقية من نقطة الإمداد إلى نقطة الاستخدام. سواء في أنابيب الرفع المعقدة في المباني الشاهقة، أو أنظمة التبريد الصناعية الواسعة، أو شبكات التدفئة المركزية البلدية الصعبة في {locationName} - تضمن تقنية اللحام السلسة لدينا اتصالًا متجانسًا بنسبة مائة بالمائة ومقاومًا للتسرب بشكل دائم.
+        Particularly in the realm of potable water hygiene, K-Aqua products set the highest standards. The non-porous, extremely smooth inner surface of our pipes effectively prevents the formation of biofilms and Legionella, ensuring pristine water quality from the point of supply to the point of use. Whether in complex high-rise risers, expansive industrial cooling systems, or demanding municipal district heating networks in {locationName} – our seamless welding technology ensures a one-hundred-percent homogeneous, permanently leak-proof connection.
       </p>
       <p className="mb-4">
-        الاستدامة والكفاءة هما في صميم فلسفتنا التطويرية. يقلل العمر الافتراضي الطويل الذي يزيد عن 50 عامًا من التكلفة الإجمالية للملكية بشكل كبير، بينما تساهم قابلية إعادة التدوير الكاملة للمواد البلاستيكية لدينا بنشاط في شهادات المباني الخضراء (مثل LEED أو BREEAM). يعتمد المخططون والمهندسون والمقاولون في {locationName} على &quot;الهندسة الألمانية&quot; التي لا تقبل المساومة من K-Aqua لتنفيذ حتى أكثر أنظمة المياه تطلبًا بأمان وكفاءة واستدامة.
+        Sustainability and efficiency are at the core of our development philosophy. The extended lifespan of over 50 years drastically reduces the Total Cost of Ownership, while the complete recyclability of our plastics actively contributes to Green Building certifications (such as LEED or BREEAM). Planners, engineers, and installers in {locationName} rely on the uncompromising &quot;German Engineering&quot; of K-Aqua to realize even the most demanding water-bearing systems safely, efficiently, and future-proof.
       </p>
     </div>
   );

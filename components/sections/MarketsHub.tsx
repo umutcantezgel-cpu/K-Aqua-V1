@@ -322,7 +322,7 @@ export default function MarketsHub({
                           className="inline-flex items-center justify-center font-heading font-semibold rounded-lg border border-card-border bg-card text-foreground hover:bg-background-subtle h-10 px-4 text-sm transition-colors"
                           tabIndex={isActive ? 0 : -1}
                         >
-                          Schließen
+                          {locale === 'de' ? 'Schließen' : locale.startsWith('ar') ? 'إغلاق' : 'Close'}
                         </button>
                       </div>
                     </div>

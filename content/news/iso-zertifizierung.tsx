@@ -11,7 +11,7 @@ import { Shield, Leaf, Factory, Award } from '@/components/ui/icon';
 
 export const isoZertifizierung: NewsPost = {
   slug: 'iso-zertifizierung-qualitaet-umwelt-energie',
-  date: 'Oktober 2025',
+  date: '2025-10-01',
   tag: 'Unternehmen',
   title: {
     de: 'ISO 9001, 14001 & 50001 Zertifizierung: Exzellenz in Qualität, Umwelt und Energie',

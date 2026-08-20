@@ -2,26 +2,29 @@ import React from 'react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/lib/i18n/navigation';
 import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
+import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 import { getAllProducts } from '@/lib/products';
 import { getAllNews, resolveLocalized } from '@/content/news';
 import { GEO_HUBS, GEO_MARKETS } from '@/lib/data/geo';
-import { routing } from '@/lib/i18n/routing';
+import { routing, coreLocales } from '@/lib/i18n/routing';
 
 interface Props {
   params: Promise<{ locale: string }>;
 }
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  return coreLocales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   setRequestLocale(locale);
   return constructMetadata({
-    title: "Sitemap | K-Aqua",
-    description: "Sitemap der K-Aqua Website mit allen Produkten, News und Ressourcen.",
+    title: "Sitemap: Alle Seiten im Überblick | K-Aqua",
+    description: "Sitemap der K-Aqua Website mit allen Produkten, News, Märkten und Ressourcen.",
     path: "/sitemap",
     locale,
   });
@@ -36,6 +39,23 @@ export default async function SitemapPage({ params }: Props) {
   const products = getAllProducts();
   const news = getAllNews();
 
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/sitemap",
+      type: "WebPage",
+      name: "Sitemap: Alle Seiten im Überblick | K-Aqua",
+      description: "Sitemap der K-Aqua Website mit allen Produkten, News, Märkten und Ressourcen.",
+      breadcrumbId: `${siteUrl}/${locale}/sitemap#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: t('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: locale === "de" ? "Sitemap" : locale === "ar" ? "خريطة الموقع" : "Sitemap", path: "/sitemap" },
+    ]),
+  ]);
+
   // Group products by category
   const productsByCategory = products.reduce((acc, product) => {
     const bucket = acc[product.category] ?? (acc[product.category] = []);
@@ -45,6 +65,7 @@ export default async function SitemapPage({ params }: Props) {
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
+      <JsonLd schema={jsonLd} />
       <section className="relative overflow-hidden pt-32 pb-16 lg:py-40 border-b border-card-border">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none" />
         <div className="max-w-[1200px] mx-auto px-6 relative z-10 text-start">

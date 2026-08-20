@@ -6,7 +6,7 @@ import { useLocale } from 'next-intl';
 import { Link } from "@/lib/i18n/navigation";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.97] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none",
+  "inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-lg active:scale-[0.98] focus-visible:ring-2 focus-visible:ring-ring outline-none transition-all duration-fast ease-out disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none",
   {
     variants: {
       variant: {

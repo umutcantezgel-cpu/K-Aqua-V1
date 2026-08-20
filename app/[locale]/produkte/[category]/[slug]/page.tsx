@@ -10,9 +10,10 @@ import { ArrowRight } from '@/components/ui/icon';
 import { Link } from '@/lib/i18n/navigation';
 import { Shield, Package, CheckCircle, Activity, ThermometerSun } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
-import { Metadata } from 'next';
-import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
-import { getProductSchema } from '@/lib/seo/schema';
+import type { Metadata } from 'next';
+import { constructMetadata } from "@/lib/seo/metadata";
+import { wrapGraph, getWebPageGraphNode, getProductGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import React from 'react';
 
@@ -25,12 +26,10 @@ import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  const products = getAllProducts();
-  return products.map((p) => ({
-    category: p.category,
-    slug: p.slug,
-  }));
+  return [];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; category: string; slug: string }> }): Promise<Metadata> {
@@ -185,17 +184,8 @@ export default async function ProductDetailPage({
   const uniqueDesc = tNames?.has(`${slugKey}_desc`) ? tNames(`${slugKey}_desc`) : null;
   const finalSeoText = uniqueDesc || dynamicSeoText || localizedTitle;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
-    || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
-    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://k-aqua.de");
-
-  const schema = getProductSchema({
-    name: localizedTitle,
-    description: finalSeoText,
-    category: product.category,
-    url: `${siteUrl}/${locale}/produkte/${category}/${slug}`,
-    codes: Array.isArray(product.article_codes) ? product.article_codes : [product.article_codes || 'N/A']
-  });
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const productUrl = `${siteUrl}/${locale}/produkte/${category}/${slug}`;
 
   const tNav = await getTranslations({ locale, namespace: 'nav' });
   const categoryNameMap: Record<string, string> = {
@@ -207,32 +197,38 @@ export default async function ProductDetailPage({
     'weld-in-saddles': 'Weld-in Saddles',
     'transition-fittings': 'Transition Fittings',
   };
-  
-  const breadcrumb = getBreadcrumbJsonLd(locale, [
-    { name: tNav('products'), path: '/produkte' },
-    { name: categoryNameMap[category] || category, path: `/produkte#${category}` },
-    { name: localizedTitle, path: `/produkte/${category}/${slug}` }
+
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: `/produkte/${category}/${slug}`,
+      type: "ItemPage",
+      name: `${localizedTitle} | K-Aqua`,
+      description: finalSeoText,
+      breadcrumbId: `${productUrl}#breadcrumb`,
+      mainEntityId: `${productUrl}#product`,
+    }),
+    getProductGraphNode({
+      locale,
+      category,
+      slug,
+      name: localizedTitle,
+      description: finalSeoText,
+      image: product.image ? `${siteUrl}${product.image}` : `${siteUrl}/images/logo.png`,
+      articleCodes: codesArray,
+      categoryName: categoryNameMap[category] || category,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: '/produkte' },
+      { name: categoryNameMap[category] || category, path: `/produkte/${category}` },
+      { name: localizedTitle, path: `/produkte/${category}/${slug}` },
+    ]),
   ]);
 
   // Extract dimensions for dynamic SEO text generation to fix "low word count" and "duplicate content"
   const seoTextHtml = locale === 'de' ? product.seoTextDe 
                     : locale === 'ar' ? product.seoTextAr 
                     : product.seoTextEn;
-
-  // Enhance schema with Local SEO properties
-  Object.assign(schema, {
-    offers: {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "areaServed": [
-        { "@type": "Country", "name": "Germany" },
-        { "@type": "Country", "name": "United Arab Emirates" },
-        { "@type": "Country", "name": "Saudi Arabia" },
-        { "@type": "Country", "name": "United Kingdom" },
-        { "@type": "Country", "name": "Singapore" }
-      ]
-    }
-  });
 
   // Dynamic SEO H1 string based on locale to resolve "H1 too short" issues
   let dynamicSeoH1 = localizedTitle;
@@ -256,7 +252,7 @@ export default async function ProductDetailPage({
     <NextIntlClientProvider messages={pick(messages, ['common', 'nav'])}>
       <main className="flex flex-col w-full min-h-screen bg-background">
 
-      <JsonLd schema={[schema, breadcrumb]} />
+      <JsonLd schema={jsonLd} />
       {/* 1. HERO SECTION (PREMIUM) */}
       <section className="relative overflow-hidden py-24 lg:py-32 border-b border-card-border bg-gradient-to-b from-background to-background-subtle">
         <div className="absolute inset-0 bg-[var(--hero-wash)] pointer-events-none opacity-50" />
@@ -303,6 +299,27 @@ export default async function ProductDetailPage({
               </Reveal>
             </div>
             
+            {/* Right Column: Interactive 3D CAD Preview Card */}
+            <Reveal delay={0.2} className="w-full">
+              <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden border border-card-border shadow-lift bg-card group">
+                <iframe
+                  src={`/api/3d-view/${product.slug}`}
+                  title={`${localizedTitle} ${locale === 'de' ? '3D Vorschau' : locale === 'ar' ? 'معاينة ثلاثية الأبعاد' : '3D Preview'}`}
+                  className="w-full h-full border-0 bg-card"
+                  loading="eager"
+                  allow="fullscreen"
+                />
+                <div className="absolute bottom-3 start-3 end-3 flex items-center justify-between px-3.5 py-2 rounded-xl bg-background/85 backdrop-blur-md border border-card-border pointer-events-none">
+                  <span className="text-[11px] font-heading font-bold text-foreground flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
+                    {locale === 'de' ? '3D CAD Live-Vorschau' : locale === 'ar' ? 'معاينة ثلاثية الأبعاد مباشرة' : '3D CAD Live Preview'}
+                  </span>
+                  <span className="text-[10px] text-muted-foreground font-mono">
+                    {locale === 'de' ? '360° drehbar' : locale === 'ar' ? 'دوران 360°' : '360° rotatable'}
+                  </span>
+                </div>
+              </div>
+            </Reveal>
 
           </div>
         </div>
@@ -322,9 +339,9 @@ export default async function ProductDetailPage({
                   title={tProd('specAndDim')} 
                 />
                 
-                {/* Image Gallery */}
+                {/* Image & 3D CAD Gallery */}
                 <div className="my-8">
-                  <ProductGallery category={product.category} />
+                  <ProductGallery category={product.category} slug={product.slug} title={localizedTitle} />
                 </div>
                 
                 {/* YouTube Video Section */}
@@ -359,7 +376,7 @@ export default async function ProductDetailPage({
                 {seoTextHtml && (
                   <div className="mt-8 p-8 bg-background-subtle border border-card-border rounded-xl shadow-sm">
                     <h2 className="font-heading font-bold text-xl text-foreground mb-6">
-                      Technische Spezifikationen & Detailwissen
+                      {locale === 'de' ? 'Technische Spezifikationen & Detailwissen' : locale === 'ar' ? 'المواصفات الفنية والتفاصيل الهندسية' : 'Technical Specifications & In-Depth Details'}
                     </h2>
                     <div 
                       className="prose dark:prose-invert max-w-none w-full text-body text-muted-foreground leading-relaxed

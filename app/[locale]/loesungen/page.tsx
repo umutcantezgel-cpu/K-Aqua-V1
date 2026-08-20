@@ -1,7 +1,9 @@
  
 import React from "react";
-import { getTranslations, getMessages } from "next-intl/server";
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { getTranslations, getMessages, setRequestLocale } from "next-intl/server";
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getServiceGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
@@ -16,7 +18,6 @@ import { StatNumber } from "@/components/ui/StatNumber";
 import { CTABand } from "@/components/ui/CTABand";
 import { KontaktForm } from "@/components/kontakt/KontaktForm";
 import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
-import { setRequestLocale } from 'next-intl/server';
 import { Droplet, Thermometer, Factory, Flame, Wrench } from "@/components/ui/icon";
 
 interface Props {
@@ -39,9 +40,35 @@ const bentoIcons = [Droplet, Thermometer, Wrench, Factory, Flame];
 
 export default async function LoesungenPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "solutions.index" });
+  const tNav = await getTranslations({ locale, namespace: "nav" });
   const messages = await getMessages();
-  const jsonLd = await getWebPageJsonLd(locale, "solutions", "WebPage", { title: t('meta.title'), description: t('meta.desc') });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/loesungen",
+      type: "CollectionPage",
+      name: t('meta.title') || "Lösungen | K-Aqua",
+      description: t('meta.desc') || "Industrielle Branchenlösungen für Hochhausbau, Krankenhäuser, HVAC und Rechenzentren.",
+      breadcrumbId: `${siteUrl}/${locale}/loesungen#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/loesungen#service`,
+    }),
+    getServiceGraphNode({
+      locale,
+      path: "/loesungen",
+      name: "K-Aqua Industrie- & Gebäudeanwendungslösungen",
+      description: "Spezifische Rohrsystemlösungen für Hochhausbauten, Rechenzentren, Krankenhäuser und Fernwärme.",
+      serviceType: "Industrial Piping Solutions & Sector Applications",
+      areaServed: "Worldwide",
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("solutions") || (locale === "de" ? "Lösungen" : locale === "ar" ? "الحلول" : "Solutions"), path: "/loesungen" },
+    ]),
+  ]);
   
   const stickyItemsRaw = t.raw('sticky.items');
   const stickyItems = Array.isArray(stickyItemsRaw) ? stickyItemsRaw as Array<{ title: string; p1: string; p2: string }> : [];

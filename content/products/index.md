@@ -54,7 +54,7 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Flange Adaptor](./fittings/flange-adaptor.md) | AQ79040–AQ790125 | Ø 40–125 mm |
 | [Reducing Bush](./fittings/reducing-bush.md) | AQ2432520–AQ2435020 | Ø 25×20–50×20 mm |
 | [Reducing Tee](./fittings/reducing-tee.md) | AQ1302520–AQ1305020 | Ø 25×20–50×20 mm |
-| [Reducing Tee (Large Sizes)](./fittings/reducing-tee-large.md) | AQ1506320–AQ1507532 | Ø 63×20–75×32 mm |
+| [Reducing Tee (Large Sizes)](./fittings/reducing-tee-large-sizes.md) | AQ1506320–AQ1507532 | Ø 63×20–75×32 mm |
 | [Socket](./fittings/socket.md) | AQ27020–AQ27075 | Ø 20–75 mm |
 | [Tee](./fittings/tee.md) | AQ13020–AQ13075 | Ø 20–75 mm |
 

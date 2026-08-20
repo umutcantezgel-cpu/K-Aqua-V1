@@ -135,7 +135,7 @@
 .ent-eyebrow {
   display: inline-flex; align-items: center; gap: 10px;
   font-family: var(--ent-font-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--aqua-300); padding: 8px 14px; border-radius: 999px;
+  color: var(--aqua-300); padding: 8px 14px; border-radius: 0;
   border: 1px solid var(--ent-glass-border); background: var(--ent-glass);
   -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
   margin-bottom: 28px;
@@ -155,7 +155,7 @@
 .ent-chip {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--ent-font-mono); font-size: 12px; letter-spacing: 0.03em;
-  padding: 9px 14px; border-radius: 10px;
+  padding: 9px 14px; border-radius: 0;
   border: 1px solid var(--ent-glass-border); background: var(--ent-glass); color: var(--ent-fg-dim);
 }
 .ent-chip b { color: var(--ent-fg); font-weight: 600; }
@@ -179,7 +179,7 @@
   position: relative;
   background: var(--ent-glass);
   border: 1px solid var(--ent-glass-border);
-  border-radius: 22px;
+  border-radius: 0;
   box-shadow: var(--ent-shadow);
   -webkit-backdrop-filter: blur(26px) saturate(1.4);
   backdrop-filter: blur(26px) saturate(1.4);
@@ -235,9 +235,9 @@
 }
 .k-tele-unit { font-size: 15px; color: var(--muted-foreground); }
 .k-tele-live { font-size: 12px; color: var(--accent-strong); font-variant-numeric: tabular-nums; display: inline-flex; align-items: center; gap: 6px; }
-.k-tele-live .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent-strong); }
+.k-tele-live .dot { width: 6px; height: 6px; border-radius: 0; background: var(--accent-strong); }
 
-.k-flow { position: relative; height: 26px; border-radius: var(--radius-full); background: var(--background-subtle); border: 1px solid var(--card-border); overflow: hidden; margin-top: var(--sp-2); }
+.k-flow { position: relative; height: 26px; border-radius: 0; background: var(--background-subtle); border: 1px solid var(--card-border); overflow: hidden; margin-top: var(--sp-2); }
 .k-flow::before {
   content: ""; position: absolute; inset: 0; width: 200%;
   background: repeating-linear-gradient(115deg, var(--primary) 0 8px, transparent 8px 20px, var(--accent) 20px 28px, transparent 28px 40px);
@@ -256,13 +256,13 @@
 /* ---------- material layer diagram (fan-apart on hover/focus) ---------- */
 .k-layers {
   display: flex; flex-direction: column; gap: 10px; cursor: pointer;
-  border-radius: var(--radius); padding: var(--sp-2); margin: -var(--sp-2);
+  border-radius: 0; padding: var(--sp-2); margin: -var(--sp-2);
 }
 .k-layer-row {
-  display: flex; align-items: center; gap: 14px; padding: 16px 18px; border-radius: 12px;
+  display: flex; align-items: center; gap: 14px; padding: 16px 18px; border-radius: 0;
   transition: transform 420ms var(--ease-out), box-shadow 420ms var(--ease-out);
 }
-.k-layer-row .idx { font-family: var(--font-heading); font-weight: 700; font-size: 13px; color: #fff; width: 26px; height: 26px; border-radius: 8px; background: rgb(0 0 0 / 0.18); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.k-layer-row .idx { font-family: var(--font-heading); font-weight: 700; font-size: 13px; color: #fff; width: 26px; height: 26px; border-radius: 0; background: rgb(0 0 0 / 0.18); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .k-layer-row .tt b { display: block; font-family: var(--font-heading); font-weight: 700; font-size: 15px; color: #fff; line-height: 1.3; }
 .k-layer-row .tt span { display: block; font-size: 13px; color: rgb(255 255 255 / 0.82); line-height: 1.3; margin-top: 2px; }
 .k-layer-row[data-l="1"] { background: linear-gradient(90deg, var(--brand-400), var(--brand-600)); }
@@ -282,11 +282,11 @@
 .k-comply-row b { color: var(--foreground); font-weight: 700; }
 
 /* ---------- range ---------- */
-.k-range-scale { position: relative; height: 6px; border-radius: var(--radius-full); background: var(--background-subtle); margin: var(--sp-6) 2px var(--sp-2); }
-.k-range-scale::before { content: ""; position: absolute; inset: 0; border-radius: var(--radius-full); background: linear-gradient(90deg, var(--brand-400), var(--aqua-500)); }
+.k-range-scale { position: relative; height: 6px; border-radius: 0; background: var(--background-subtle); margin: var(--sp-6) 2px var(--sp-2); }
+.k-range-scale::before { content: ""; position: absolute; inset: 0; border-radius: 0; background: linear-gradient(90deg, var(--brand-400), var(--aqua-500)); }
 .k-range-marks { display: flex; justify-content: space-between; font-size: 13px; color: var(--faint-foreground); font-weight: 600; }
 .k-range-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: var(--sp-4); }
-.k-range-chip { font-size: 12.5px; font-weight: 600; padding: 7px 13px; border-radius: var(--radius-full); background: var(--primary-soft); color: var(--primary-hover); }
+.k-range-chip { font-size: 12.5px; font-weight: 600; padding: 7px 13px; border-radius: 0; background: var(--primary-soft); color: var(--primary-hover); }
 
 /* ---------- global network ---------- */
 .k-network {

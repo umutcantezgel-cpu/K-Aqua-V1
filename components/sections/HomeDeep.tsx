@@ -34,7 +34,7 @@ export async function HomeDeep() {
           <div className="mt-8 text-center">
             <div className="flex flex-wrap justify-center gap-2">
               {badges.map((b) => (
-                <span key={b} className="rounded-full bg-primary-soft px-3 py-1 text-tiny font-semibold text-foreground">
+                <span key={b} className="rounded-full bg-primary-soft border border-primary/20 px-3 py-1 font-mono text-tiny font-semibold text-foreground">
                   {b}
                 </span>
               ))}

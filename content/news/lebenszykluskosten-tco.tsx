@@ -11,7 +11,7 @@ import { TrendingDown, Coins, Zap, Shield, ArrowRight, BarChart } from '@/compon
 
 export const lebenszykluskostenTco: NewsPost = {
   slug: 'lebenszykluskosten-tco-investition-ppr-rohre',
-  date: 'Wirtschaftlichkeit',
+  date: '2024-11-25',
   tag: 'TCO',
   title: {
     de: 'Lebenszykluskosten (TCO): Die wahre Wirtschaftlichkeit von PP-R',

@@ -3,6 +3,8 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import MarketsHub from "@/components/sections/MarketsHub";
 import { GEO_MARKETS } from "@/lib/data/geo";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -74,18 +76,37 @@ export default async function MaerktePage({ params }: Props) {
     openMarketPage: tGx("openMarketPage", { city: "{city}" }),
   };
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": `${geoTrans.title1} ${geoTrans.title2}`,
-    "description": geoTrans.lead,
-    "url": `${siteUrl}/${locale}/maerkte`,
-  };
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/maerkte",
+      type: "CollectionPage",
+      name: `${geoTrans.title1} ${geoTrans.title2}` || "Globale Märkte & Standorte | K-Aqua",
+      description: geoTrans.lead || "Weltweite Märkte und regionale Zertifizierungen für K-Aqua PP-R Rohrsysteme.",
+      breadcrumbId: `${siteUrl}/${locale}/maerkte#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    {
+      "@type": "ItemList",
+      "@id": `${siteUrl}/${locale}/maerkte#itemlist`,
+      name: "K-Aqua Regionale Märkte",
+      itemListElement: GEO_MARKETS.map((market, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `${siteUrl}/${locale}/maerkte/${market.hubSlug}/${market.slug}`,
+        name: `${cityNames[market.slug] || market.city}, ${market.country}`,
+      })),
+    },
+    getBreadcrumbGraphNode(locale, [
+      { name: locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home", path: "/" },
+      { name: locale === "de" ? "Märkte" : locale === "ar" ? "الأسواق" : "Markets", path: "/maerkte" },
+    ]),
+  ]);
 
   return (
     <>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <MarketsHub
         locale={locale}
         geoTrans={geoTrans}

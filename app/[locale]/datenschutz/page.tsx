@@ -1,12 +1,13 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
 import { LegalContent } from "@/components/sections/LegalContent";
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
-import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -32,12 +33,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function DatenschutzPage({ params }: Props) {
   const { locale } = await params;
-  const jsonLd = await getWebPageJsonLd(locale, "legal.datenschutz");
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "legal.datenschutz" });
+  const tNav = await getTranslations({ locale, namespace: "nav" });
 
   const title = t("title");
   const sections = t.raw("sections") as { id?: string; title: string; icon?: string; tldr?: string; content: string }[];
   const tLegal = await getTranslations({ locale, namespace: "legal" });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/datenschutz",
+      type: "WebPage",
+      name: `${title} | K-Aqua`,
+      description: `Datenschutzerklärung und Informationen zur Datenverarbeitung gemäß DSGVO der KWT GmbH (K-Aqua).`,
+      breadcrumbId: `${siteUrl}/${locale}/datenschutz#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: title, path: "/datenschutz" },
+    ]),
+  ]);
 
 
   

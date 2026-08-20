@@ -1,5 +1,7 @@
 import React from 'react';
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -24,15 +26,30 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
-// deepDiveContent moved inside component
-
-// timelineData moved inside component
-
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte' });
   const tMeta = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte.meta' });
-  const jsonLd = await getWebPageJsonLd(locale, "ausschreibungstexte", "WebPage", { title: tMeta('title'), description: tMeta('desc') });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/ressourcen/ausschreibungstexte",
+      type: "WebPage",
+      name: tMeta('title'),
+      description: tMeta('desc'),
+      breadcrumbId: `${siteUrl}/${locale}/ressourcen/ausschreibungstexte#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: locale === "de" ? "Ressourcen" : locale === "ar" ? "الموارد" : "Resources", path: "/ressourcen/support" },
+      { name: locale === "de" ? "Ausschreibungstexte" : locale === "ar" ? "نصوص المناقصات" : "Tender Specifications", path: "/ressourcen/ausschreibungstexte" },
+    ]),
+  ]);
 
   const deepDiveContent = [
     { title: t('deep.items.0.title'), description: t('deep.items.0.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 1" /> },
@@ -141,7 +158,19 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               icon={<Globe className="w-8 h-8 text-primary" />}
               colSpan={3}
               className="bg-card/50 backdrop-blur-sm"
-              header={<div className="h-64 w-full bg-primary/5 rounded-t-2xl flex items-center justify-center p-6"><PremiumAssetPlaceholder label="BIM 5D Integration Model" className="w-full h-full rounded-xl" /></div>}
+              header={
+                <div className="h-64 w-full bg-card rounded-t-2xl overflow-hidden border-b border-card-border relative">
+                  <iframe
+                    src="/api/3d-view/k-pipe-pp-r-sdr-6"
+                    title="BIM 5D Integration CAD Model"
+                    className="w-full h-full border-0 bg-card"
+                    loading="lazy"
+                  />
+                  <div className="absolute bottom-2 end-2 px-2.5 py-1 rounded-md bg-background/80 backdrop-blur-sm border border-card-border text-[10px] font-mono text-muted-foreground pointer-events-none">
+                    3D CAD Live-Vorschau
+                  </div>
+                </div>
+              }
             />
           </BentoGrid>
         </div>

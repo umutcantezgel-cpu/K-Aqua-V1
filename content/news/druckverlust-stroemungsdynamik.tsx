@@ -11,7 +11,7 @@ import { ArrowRight, Zap, Droplet, Layers, Thermometer, ChevronDown } from '@/co
 
 export const druckverlustStroemungsdynamik: NewsPost = {
   slug: 'druckverlust-stroemungsdynamik-effizienz-ppr',
-  date: 'Technik',
+  date: '2024-11-20',
   tag: 'Effizienz',
   title: {
     de: 'Druckverlust & Strömungsdynamik: Pumpstrom radikal sparen',

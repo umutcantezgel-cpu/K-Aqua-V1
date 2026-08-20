@@ -56,7 +56,17 @@ export default function HeroScrolly() {
 
   // Scroll choreography (direct DOM writes, rAF-throttled)
   useEffect(() => {
-    if (staticMode) return;
+    if (staticMode) {
+      if (copyRef.current) {
+        copyRef.current.style.opacity = '';
+        copyRef.current.style.transform = '';
+        copyRef.current.style.pointerEvents = '';
+      }
+      if (globeWrapRef.current) {
+        globeWrapRef.current.style.transform = '';
+      }
+      return;
+    }
 
     let ticking = false;
     const ease = (x: number) => 1 - Math.pow(1 - x, 3);

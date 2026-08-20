@@ -22,7 +22,7 @@ PP-R socket fusion and electrofusion fittings. All fittings are compatible with 
 | [Reducing Bush](./reducing-bush.md) | 25×20–50×20 | AQ2432520–AQ2435020 |
 | [Tee](./tee.md) | 20–75 | AQ13020–AQ13075 |
 | [Reducing Tee](./reducing-tee.md) | 25×20–50×20 | AQ1302520–AQ1305020 |
-| [Reducing Tee (Large)](./reducing-tee-large.md) | 63×20–75×32 | AQ1506320–AQ1507532 |
+| [Reducing Tee (Large)](./reducing-tee-large-sizes.md) | 63×20–75×32 | AQ1506320–AQ1507532 |
 | [Cross](./cross.md) | 25–32 | AQ18025–AQ18032 |
 | [Cross Over](./cross-over.md) | 20–32 | AQ26720–AQ26732 |
 | [Cross Over Pipe](./cross-over-pipe.md) | 20–32 | AQ28520–AQ28532 |

@@ -10,7 +10,9 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Users, Handshake, Leaf, Award, Check } from "@/components/ui/icon";
 import { AboutDeep } from "@/components/sections/AboutDeep";
 import LiquidHeadline from '@/components/signature/LiquidHeadline';
-import { getWebPageJsonLd, constructMetadata } from "@/lib/seo/metadata";
+import { constructMetadata } from "@/lib/seo/metadata";
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
@@ -31,25 +33,36 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-// TIMELINE_ITEMS moved into component
-
-// STICKY_SCROLL_ITEMS moved into component
-
 const POLICY_ICONS: React.ComponentType<{ className?: string }>[] = [Handshake, Users, Leaf];
 
 export default async function UnternehmenPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const jsonLd = await getWebPageJsonLd(locale, "about");
   const t = await getTranslations({ locale, namespace: "about" });
   const tMeta = await getTranslations({ locale, namespace: "about.meta" });
-  const metaTitle = tMeta("title");
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/unternehmen",
+      type: "AboutPage",
+      name: tMeta("title"),
+      description: tMeta("desc"),
+      breadcrumbId: `${siteUrl}/${locale}/unternehmen#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("about") || (locale === "de" ? "Unternehmen" : locale === "ar" ? "الشركة" : "About Us"), path: "/unternehmen" },
+    ]),
+  ]);
 
   const cards = t.raw("cards") as { t: string; d: string }[];
   const points = t.raw("points") as string[];
 
   const messages = await getMessages();
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://k-aqua.de";
   
   return (
     <NextIntlClientProvider messages={pick(messages, ['about', 'homex'])}>
@@ -85,7 +98,7 @@ export default async function UnternehmenPage({ params }: Props) {
         </section>
 
         {/* History / Partner Section */}
-        <section className="py-24 lg:py-32 bg-background kq-band kq-band--curve-b">
+        <section id="management" className="py-24 lg:py-32 bg-background kq-band kq-band--curve-b scroll-mt-24">
           <div className="max-w-[1200px] mx-auto px-6">
             <Reveal>
               <Card className="overflow-hidden border border-card-border p-0 shadow-diffuse group">

@@ -71,7 +71,7 @@ export function CookieBanner() {
   return (
     <AnimatePresence>
       {isVisible && (
-        <div data-nosnippet="true" className="fixed inset-0 z-[200] flex items-end sm:items-center justify-center sm:p-6 pointer-events-none">
+        <div data-nosnippet="true" className="fixed inset-0 z-[1000] flex items-end sm:items-center justify-center sm:p-6 pointer-events-none">
           {/* Blur Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -111,10 +111,10 @@ export function CookieBanner() {
                     </p>
                     <div className="flex gap-4 mt-1">
                       <Link href="/datenschutz" className="text-sm font-medium text-primary hover:text-primary-strong flex items-center gap-1 group">
-                        Datenschutzerklärung <ExternalLink className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 transition-opacity" />
+                        {t('privacyLink') || 'Datenschutz'} <ExternalLink className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 transition-opacity" />
                       </Link>
                       <Link href="/impressum" className="text-sm font-medium text-primary hover:text-primary-strong flex items-center gap-1 group">
-                        Impressum <ExternalLink className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 transition-opacity" />
+                        {t('imprintLink') || 'Impressum'} <ExternalLink className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 transition-opacity" />
                       </Link>
                     </div>
                   </div>
@@ -137,7 +137,7 @@ export function CookieBanner() {
                   </button>
                   <button
                     onClick={() => saveConsent('all')}
-                    className="px-8 py-3.5 rounded-xl bg-primary text-white hover:bg-primary-strong text-[15px] font-bold transition-all hover:scale-[1.02] active:scale-[0.98] w-full sm:w-auto shadow-lg shadow-primary/25"
+                    className="px-8 py-3.5 rounded-xl bg-primary text-primary-foreground hover:bg-primary-hover text-[15px] font-bold transition-all hover:scale-[1.02] active:scale-[0.98] w-full sm:w-auto shadow-lg shadow-primary/25"
                   >
                     {t('acceptAll')}
                   </button>
@@ -157,21 +157,21 @@ export function CookieBanner() {
                       <h3 className="font-heading font-extrabold text-foreground text-xl">
                         {t('title')}
                       </h3>
-                      <p className="text-sm text-muted-foreground mt-0.5">Detaillierte Einstellungen</p>
+                      <p className="text-sm text-muted-foreground mt-0.5">{t('customize')}</p>
                     </div>
                   </div>
                   <button
                     onClick={() => saveConsent('all')}
                     className="text-[13px] font-bold uppercase tracking-wider text-primary hover:text-primary-strong transition-colors bg-primary/10 px-4 py-2 rounded-full hidden sm:block"
                   >
-                    Alle Akzeptieren
+                    {t('acceptAll')}
                   </button>
                 </div>
 
                 <div className="p-6 md:p-10 flex flex-col gap-6 overflow-y-auto custom-scrollbar flex-1">
                   {/* Essential */}
                   <div className="flex flex-col sm:flex-row gap-5 items-start p-6 rounded-2xl bg-background-subtle/50 border border-card-border/50 relative overflow-hidden group">
-                    <div className="absolute top-0 left-0 w-1 h-full bg-emerald-500/50" />
+                    <div className="absolute top-0 start-0 w-1 h-full bg-emerald-500/50" />
                     <div className="bg-emerald-500/10 p-3 rounded-xl shrink-0 mt-1">
                       <ShieldCheck className="w-6 h-6 text-emerald-500" />
                     </div>

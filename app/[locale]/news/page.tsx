@@ -2,7 +2,9 @@ import React from "react";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
-import { constructMetadata, getArticleJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getAllNews } from "@/content/news";
@@ -18,8 +20,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("news") as string[];
   return constructMetadata({
-    title: meta[0] ?? "",
-    description: meta[1] ?? "",
+    title: meta[0] ?? "K-Aqua News & Fachbeiträge",
+    description: meta[1] ?? "Aktuelle Branchenberichte, Normen-Updates und Innovationen der Rohrleitungswelt.",
     path: "/news",
     locale,
   });
@@ -28,12 +30,39 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function NewsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const jsonLd = await getArticleJsonLd(locale, "news");
   const t = await getTranslations({ locale, namespace: "news" });
   const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("news") as string[];
+  const tNav = await getTranslations({ locale, namespace: "nav" });
   
   const allPosts = getAllNews();
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/news",
+      type: "CollectionPage",
+      name: meta[0] || "News & Fachberichte | K-Aqua",
+      description: meta[1] || "Aktuelle technische Berichte, Fallstudien und Branchenneuigkeiten.",
+      breadcrumbId: `${siteUrl}/${locale}/news#breadcrumb`,
+    }),
+    {
+      "@type": "ItemList",
+      "@id": `${siteUrl}/${locale}/news#itemlist`,
+      name: meta[0] || "K-Aqua Fachartikel",
+      itemListElement: allPosts.map((post, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `${siteUrl}/${locale}/news/${post.slug}`,
+        name: post.title,
+      })),
+    },
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("news") || (locale === "de" ? "News" : locale === "ar" ? "الأخبار" : "News"), path: "/news" },
+    ]),
+  ]);
 
   return (
     <>

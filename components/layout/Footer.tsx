@@ -63,7 +63,7 @@ export default function Footer() {
           <div className="flex flex-col lg:flex-row justify-between items-center gap-6 pt-6 border-t border-white/10">
             
             <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 text-[11px] uppercase tracking-widest font-medium opacity-50">
-              <span>
+              <span suppressHydrationWarning>
                 &copy; {new Date().getFullYear()} {t('footer.rights')}
               </span>
               <div className="flex items-center gap-8">

@@ -1,5 +1,7 @@
 import React from 'react';
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getServiceGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
@@ -27,9 +29,36 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'resources' });
   const tMeta = await getTranslations({ locale, namespace: 'resources.support' });
-  const jsonLd = await getWebPageJsonLd(locale, "support", "WebPage", { title: tMeta('metaTitle'), description: tMeta('metaDesc') });
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/ressourcen/support",
+      type: "WebPage",
+      name: tMeta('metaTitle') || "Technischer Support | K-Aqua",
+      description: tMeta('metaDesc') || "Technischer Support, Dokumentation und Ingenieurdienstleistungen von K-Aqua.",
+      breadcrumbId: `${siteUrl}/${locale}/ressourcen/support#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/ressourcen/support#service`,
+    }),
+    getServiceGraphNode({
+      locale,
+      path: "/ressourcen/support",
+      name: "K-Aqua Technischer Support & Ingenieurservice",
+      description: "Technischer Support für Planer, Architekten und Installationsunternehmen.",
+      serviceType: "Technical Engineering Support & Hotline",
+      areaServed: "Worldwide",
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: locale === "de" ? "Ressourcen" : locale === "ar" ? "الموارد" : "Resources", path: "/ressourcen/support" },
+      { name: locale === "de" ? "Support" : locale === "ar" ? "الدعم الفني" : "Support", path: "/ressourcen/support" },
+    ]),
+  ]);
 
   return (
     <>
@@ -80,7 +109,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
 
       {/* 4) Bento Grid: Engineering Services */}
-      <section className="py-32 md:py-48 bg-background kq-band kq-band--slant-t relative z-10">
+      <section id="protocols" className="py-32 md:py-48 bg-background kq-band kq-band--slant-t relative z-10 scroll-mt-24">
         <div className="mx-auto max-w-[1400px] px-6">
           <SectionHead
             eyebrow={t('support.bento.eyebrow')}

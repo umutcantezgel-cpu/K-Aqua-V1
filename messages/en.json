@@ -1552,6 +1552,8 @@
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
       "solutionsDesc": "Industry-specific applications",
       "digitalTools": "Digital Tools",
+      "cadStudio": "3D CAD Studio",
+      "cadModels": "70 interactive models",
       "finderDesc": "Configure the right system",
       "co2Desc": "Calculate the environmental footprint",
       "academyDesc": "Training & certificates",
@@ -1570,7 +1572,11 @@
       "globalMarkets": "Global Markets",
       "marketsDesc": "Certified regions",
       "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "refDesc": "Successful installations",
+      "contactDesc": "Speak with our engineers",
+      "quoteDesc": "Request a tailored project proposal",
+      "imprintDesc": "Legal details and provider identification",
+      "privacyDesc": "Personal data protection policy"
     },
     "home": "Home",
     "products": "Products",
@@ -1582,6 +1588,9 @@
     "quote": "Request Quote",
     "menu": "Menu",
     "lang": "Language",
+    "searchShortcut": "Search (Cmd+K)",
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy",
     "skipToContent": "Skip to content",
     "menuPlaceholder": "Placeholder (Mega Menu)",
     "academy": "Academy",
@@ -1801,7 +1810,22 @@
       "kapstadt": "Cape Town",
       "maskat": "Muscat",
       "kualalumpur": "Kuala Lumpur",
-      "singapur": "Singapore"
+      "singapur": "Singapore",
+      "frankfurt": "Frankfurt am Main",
+      "berlin": "Berlin",
+      "hamburg": "Hamburg",
+      "london": "London",
+      "paris": "Paris",
+      "dubai": "Dubai",
+      "abudhabi": "Abu Dhabi",
+      "doha": "Doha",
+      "neom": "NEOM / The Line",
+      "kuwait": "Kuwait City",
+      "manama": "Manama",
+      "amman": "Amman",
+      "istanbul": "Istanbul",
+      "mumbai": "Mumbai",
+      "nairobi": "Nairobi"
     },
     "crisis": {
       "infrastructure-decay": "ageing legacy networks",
@@ -4076,6 +4100,9 @@
     "eyebrow": "Contact",
     "title1": "Let's talk about your",
     "titleGrad": "Project.",
+    "seoH1": "Contact K-Aqua: Connect with our PP-R Piping Experts",
+    "formEyebrow": "Interactive",
+    "formTitle": "Project Inquiry & Support",
     "locTitle": "Location Germany",
     "salesTitle": "Sales",
     "supportTitle": "Quality & Technical Support",
@@ -4347,7 +4374,11 @@
     "requestBtn": "Request package",
     "mailSubject": "RFP Document Package",
     "mailBody": "Please send me the following documents:",
-    "scope3": "Scope 3 emissions data and raw EPD data upon request, proactive transparency instead of mere compliance."
+    "scope3": "Scope 3 emissions data and raw EPD data upon request, proactive transparency instead of mere compliance.",
+    "bimEyebrow": "3D CAD & BIM DATA ROOM",
+    "bimTitle": "Dimensionally Accurate 3D Assemblies & CAD Geometries",
+    "bimLead": "For MEP engineers, architects, and contractors: Access 70 interactive K-Aqua CAD models with DIN 8077/8078 & ISO 15874 precision. Benefit from real-time dimensioning, section cuts, and GLTF/OBJ exports for Revit and AutoCAD.",
+    "bimCta": "Open 3D Studio"
   },
   "partner": {
     "eyebrow": "Partnership & Network",
@@ -6722,7 +6753,7 @@
       "sections": [
         {
           "id": "section-contact",
-          "title": "Information according to § 5 TMG",
+          "title": "Information according to § 5 DDG",
           "content": "KWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf\n\nTel. +49 (0)60 85 / 9868-410\nFax +49 (0)60 85 / 9868-420\ninfo@k-aqua.de · www.k-aqua.de"
         },
         {

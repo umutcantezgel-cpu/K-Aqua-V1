@@ -1,3 +1,5 @@
+import { CO2_DISCLAIMER } from './co2-data';
+
 export function co2EncodeHash(p: any) {
   try { return '#s=' + btoa(unescape(encodeURIComponent(JSON.stringify(p)))); } catch (e) { return ''; }
 }
@@ -34,7 +36,7 @@ export function co2ExportCsv(series: any[], horizon: number, meta: string) {
     lines.push(row.join(';'));
   }
   lines.push(''); 
-  lines.push(((window as any).CO2_DISCLAIMER || '') + ' | ' + (meta || ''));
+  lines.push((CO2_DISCLAIMER || '') + ' | ' + (meta || ''));
   co2Download(co2Slug(meta) + '.csv', new Blob(['\ufeff' + lines.join('\n')], { type: 'text/csv;charset=utf-8' }));
 }
 
@@ -71,7 +73,7 @@ export function co2ExportPng(svgEl: SVGElement | null, meta: string) {
     ctx.font = '600 26px system-ui, sans-serif';
     ctx.fillText('K-Aqua CO₂-Rechner · ' + (meta || ''), 32, H + 36);
     ctx.globalAlpha = 0.55; ctx.font = '400 20px system-ui, sans-serif';
-    ctx.fillText(((window as any).CO2_DISCLAIMER || '').slice(0, 140), 32, H + 68);
+    ctx.fillText((CO2_DISCLAIMER || '').slice(0, 140), 32, H + 68);
     URL.revokeObjectURL(url);
     c.toBlob((b) => { if (b) co2Download(co2Slug(meta) + '.png', b); }, 'image/png');
   };

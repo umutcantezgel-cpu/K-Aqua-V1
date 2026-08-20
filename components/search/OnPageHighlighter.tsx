@@ -306,10 +306,10 @@ export default function OnPageHighlighter() {
         exit={{ opacity: 0, y: 20, scale: 0.95 }}
         transition={{ type: 'spring', damping: 25, stiffness: 350 }}
         aria-live="polite"
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 p-2 sm:p-2.5 rounded-2xl bg-card/95 backdrop-blur-xl border-2 border-primary/30 shadow-lift text-foreground select-none max-w-[calc(100vw-3rem)]"
+        className="fixed bottom-24 end-6 z-50 flex items-center gap-2 p-2 sm:p-2.5 rounded-2xl bg-card/95 backdrop-blur-xl border-2 border-primary/30 shadow-lift text-foreground select-none max-w-[calc(100vw-3rem)]"
       >
         {/* Term & Badge */}
-        <div className="flex items-center gap-2 pl-2 pr-1.5 border-r border-card-border">
+        <div className="flex items-center gap-2 ps-2 pe-1.5 border-e border-card-border">
           <div className="w-7 h-7 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0">
             <Search className="w-3.5 h-3.5" />
           </div>
@@ -354,7 +354,7 @@ export default function OnPageHighlighter() {
           onClick={handleClose}
           title={locale === 'de' ? 'Hervorhebung beenden (Esc)' : 'Dismiss highlights (Esc)'}
           aria-label="Dismiss search highlights"
-          className="p-1.5 rounded-lg hover:bg-red-500/10 hover:text-red-500 text-muted-foreground active:scale-95 transition-all ml-0.5 cursor-pointer"
+          className="p-1.5 rounded-lg hover:bg-red-500/10 hover:text-red-500 text-muted-foreground active:scale-95 transition-all ms-0.5 cursor-pointer"
         >
           <X className="w-4 h-4" />
         </button>

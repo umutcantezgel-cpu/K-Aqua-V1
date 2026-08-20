@@ -11,7 +11,7 @@ import { Leaf, Globe, Recycle, Zap, Thermometer, Factory, Droplet } from '@/comp
 
 export const nachhaltigkeitOekobilanz: NewsPost = {
   slug: 'nachhaltigkeit-oekobilanz-gruener-fussabdruck-ppr',
-  date: 'Umwelt',
+  date: '2024-10-20',
   tag: 'Nachhaltigkeit',
   title: {
     de: 'Nachhaltigkeit & Ökobilanz',

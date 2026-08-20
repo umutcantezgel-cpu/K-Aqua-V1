@@ -13,12 +13,14 @@ import HeroScrolly from '@/components/sections/HeroScrolly';
 import HomeBuyers from '@/components/sections/HomeBuyers';
 import { HomeDeep } from "@/components/sections/HomeDeep";
 import { CustomerReviews } from "@/components/sections/CustomerReviews";
-import SpotlightGrid from '@/components/signature/SpotlightGrid';
+import { ToolsBento } from '@/components/sections/ToolsBento';
 import DiagonalBand from '@/components/signature/DiagonalBand';
 import EdgeIndex from '@/components/signature/EdgeIndex';
 
 import { KontaktBlock } from '@/components/kontakt/KontaktBlock';
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
@@ -28,15 +30,6 @@ import pick from 'lodash/pick';
 
 const DOT = '•';
 const SPACE = ' ';
-
-const toolItems = [
-  { id: 'finder', href: '/produkte/finder', span: 2, tint: true },
-  { id: 'co2', href: '/co2-rechner', span: 1, tint: false },
-  { id: 'academy', href: '/academy', span: 1, tint: false },
-  { id: 'references', href: '/referenzen', span: 1, tint: true },
-  { id: 'trust', href: '/trust-center', span: 1, tint: false },
-  { id: 'career', href: '/karriere', span: 3, tint: false },
-];
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -102,14 +95,6 @@ export default async function Page({ params }: Props) {
     },
   ];
 
-  // 5) Tools Bento
-  const tools = toolItems.map((tool, idx) => ({
-    ...tool,
-    t: tHomex(`tools.${idx}.t`),
-    d: tHomex(`tools.${idx}.d`),
-    cta: tHomex(`tools.${idx}.cta`),
-  }));
-
   // 6) Branche vs. K Aqua Comparison
   const vsBadItems = [
     tHomex('vsBad.0'),
@@ -132,7 +117,20 @@ export default async function Page({ params }: Props) {
     { t: tHomex('cards.2.t'), d: tHomex('cards.2.d') },
   ];
 
-  const webPageJsonLd = await getWebPageJsonLd(locale, "home");
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const webPageJsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "",
+      type: "WebPage",
+      name: `${tHome("h1a")} ${tHome("h1b")}`,
+      description: tHome("lead"),
+      breadcrumbId: `${siteUrl}/${locale}#breadcrumb`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home", path: "/" },
+    ]),
+  ]);
   const messages = await getMessages();
   const pageMessages = pick(messages, ['home', 'homex', 'materials', 'application', 'trustAndCases', 'buyers', 'kontaktBlocks', 'kontaktForm', 'nav']);
 
@@ -144,8 +142,8 @@ export default async function Page({ params }: Props) {
       <HeroScrolly />
       
       {/* Lead Module: Hero Variant */}
-      <div className="bg-background pt-8 pb-4">
-        <div className="mx-auto max-w-[1400px] px-6">
+      <div className="bg-background pt-6 sm:pt-10 pb-6 sm:pb-8">
+        <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
           <KontaktBlock slug="home" variant="hero" tone="primary" />
         </div>
       </div>
@@ -187,8 +185,8 @@ export default async function Page({ params }: Props) {
       <HomeBuyers />
 
       {/* 5) Tools Bento */}
-      <section className="py-24 lg:py-32 bg-background kq-band kq-band--slant-b">
-        <div className="mx-auto max-w-[1400px] px-6">
+      <section className="py-20 lg:py-28 bg-background border-t border-card-border">
+        <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
           <SectionHead
             eyebrow={tHome('toolsEyebrow')}
             title={
@@ -201,41 +199,12 @@ export default async function Page({ params }: Props) {
             lead={tHome('toolsLead')}
             align="center"
           />
-          {/* Mobile: Horizontal Snap / Desktop: Grid */}
-          <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar md:grid md:grid-cols-3 gap-4 md:gap-6 mt-12 pb-8 -mx-6 px-6 md:mx-0 md:px-0">
-            {tools.map((tool) => (
-              <div key={tool.id} className="min-w-[85vw] sm:min-w-[340px] md:min-w-0 snap-center shrink-0 flex">
-                <Card span={tool.span} tint={tool.tint} className="w-full flex flex-col justify-between h-full">
-                  <div>
-                    <h3 className="font-heading font-bold text-xl mb-3 text-foreground">
-                      {tool.t}
-                    </h3>
-                    <p className="text-body text-muted-foreground leading-relaxed mb-6">
-                      {tool.d}
-                    </p>
-                  </div>
-                  <Button
-                    variant="ghost"
-                    href={tool.href}
-                    className="w-full justify-between mt-auto"
-                    icon={<ArrowRight className="w-4 h-4" />}
-                    iconPosition="right"
-                  >
-                    {tool.cta}
-                  </Button>
-                </Card>
-              </div>
-            ))}
-          </div>
-          
-          <div className="mt-16">
-            <SpotlightGrid />
-          </div>
+          <ToolsBento />
         </div>
       </section>
 
       {/* 6) "Branche vs. K Aqua"-Vergleich */}
-      <section className="py-24 lg:py-32 bg-background kq-band kq-band--curve-b">
+      <section className="py-24 lg:py-32 bg-background border-t border-card-border">
         <div className="mx-auto max-w-[1400px] px-6">
           <SectionHead
             eyebrow={tHomex('vsEyebrow')}
@@ -244,7 +213,7 @@ export default async function Page({ params }: Props) {
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 pb-8">
             {/* Bad Industry Standard */}
-            <div className="w-full bg-card border border-card-border rounded-xl p-8 flex flex-col gap-6">
+            <div className="w-full bg-card border border-card-border rounded-2xl p-8 flex flex-col gap-6">
               <h3 className="font-heading font-bold text-xl text-muted-foreground border-b border-card-border pb-4">
                 {tHomex('vsBadTitle')}
               </h3>
@@ -259,7 +228,7 @@ export default async function Page({ params }: Props) {
             </div>
 
             {/* Good K-Aqua */}
-            <div className="w-full bg-card border border-primary/20 rounded-xl p-8 flex flex-col gap-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
+            <div className="w-full bg-card border border-primary/20 rounded-2xl p-8 flex flex-col gap-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative overflow-hidden">
               <div className="absolute top-0 start-0 w-1.5 h-full bg-primary" />
               <h3 className="font-heading font-bold text-xl text-primary border-b border-card-border pb-4">
                 {tHomex('vsGoodTitle')}
@@ -278,7 +247,7 @@ export default async function Page({ params }: Props) {
       </section>
 
       {/* 7) Unternehmens-Bento */}
-      <section className="py-24 lg:py-32 bg-background kq-band kq-band--dune">
+      <section className="py-24 lg:py-32 bg-background border-t border-card-border">
         <div className="mx-auto max-w-[1400px] px-6">
           <SectionHead
             eyebrow={tHomex('coEyebrow')}
@@ -312,7 +281,7 @@ export default async function Page({ params }: Props) {
                 <MediaSlot 
                   alt={tHomex('manifestTitle')} 
                   aspectRatio="4/3" 
-                  shapeVariant="sweep-r" 
+                  shapeVariant="sweep-r"
                   label="K-Aqua Qualitätsfertigung Waldsolms" 
                   loading="lazy"
                 />
@@ -333,7 +302,7 @@ export default async function Page({ params }: Props) {
                 <MediaSlot 
                   alt={tHomex('worldTitle')} 
                   aspectRatio="16/9" 
-                  shapeVariant="sweep-l" 
+                  shapeVariant="sweep-l"
                   label="Globale Projekte & Referenzen"
                   loading="lazy"
                 />
@@ -376,7 +345,7 @@ export default async function Page({ params }: Props) {
       <HomeDeep />
 
       {/* 7.6) Export- & Handelsrouten Globus */}
-      <section className="py-24 lg:py-32 bg-background kq-band kq-band--slant-t overflow-hidden relative">
+      <section className="py-24 lg:py-32 bg-background border-t border-card-border overflow-hidden relative">
         <div className="mx-auto max-w-[1400px] px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col gap-6 z-10">
             <SectionHead

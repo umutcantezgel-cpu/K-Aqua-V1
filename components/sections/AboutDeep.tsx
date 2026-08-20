@@ -96,7 +96,7 @@ export async function AboutDeep() {
               <Reveal key={m.t} delay={i * 0.08}>
                 <div className="relative ltr:pl-10 rtl:pr-10 ltr:md:pl-16 rtl:md:pr-16 group text-start">
                   {/* Timeline Dot */}
-                  <div className="absolute w-4 h-4 rounded-full bg-primary-soft border-2 border-primary ltr:left-[-9px] rtl:right-[-9px] top-2 transition-transform duration-300 group-hover:scale-125 group-hover:bg-primary shadow-sm" />
+                  <div className="absolute w-3.5 h-3.5 rounded-full bg-primary-soft border-2 border-primary ltr:left-[-8px] rtl:right-[-8px] top-2 transition-transform duration-300 group-hover:scale-125 group-hover:bg-primary shadow-sm" />
                   
                   <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8 mb-3">
                     <span className="font-heading font-black text-3xl md:text-4xl text-primary/80 w-28 shrink-0 tracking-tight">
@@ -125,40 +125,40 @@ export async function AboutDeep() {
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 mt-12 pb-8 md:pb-0 h-auto md:h-[640px]">
             {/* Big Main Feature (60% width, 100% height) */}
             <Reveal delay={0.07} className="md:col-span-2 md:row-span-2 h-[350px] md:h-full">
-              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-diffuse group">
+              <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-diffuse group">
                 <MediaSlot 
                   label={tAd("item1")}
-                  className="w-full h-full rounded-[24px]"
+                  className="w-full h-full rounded-2xl"
                 />
               </div>
             </Reveal>
             
             {/* Top Right Horizontal (40% width, 50% height) */}
             <Reveal delay={0.14} className="md:col-span-2 md:row-span-1 h-[250px] md:h-full">
-              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
+              <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-sm group">
                 <MediaSlot 
                   label={tAd("item2")}
-                  className="w-full h-full rounded-[24px]"
+                  className="w-full h-full rounded-2xl"
                 />
               </div>
             </Reveal>
             
             {/* Bottom Right 1 (20% width, 50% height) */}
             <Reveal delay={0.21} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
-              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
+              <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-sm group">
                 <MediaSlot 
                   label={tAd("item3")}
-                  className="w-full h-full rounded-[24px]"
+                  className="w-full h-full rounded-2xl"
                 />
               </div>
             </Reveal>
             
             {/* Bottom Right 2 (20% width, 50% height) */}
             <Reveal delay={0.28} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
-              <div className="w-full h-full relative rounded-[24px] overflow-hidden shadow-sm group">
+              <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-sm group">
                 <MediaSlot 
                   label={tAd("item4")}
-                  className="w-full h-full rounded-[24px]"
+                  className="w-full h-full rounded-2xl"
                 />
               </div>
             </Reveal>

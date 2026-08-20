@@ -1,15 +1,15 @@
 import React, { Suspense } from "react";
 import ProductFinder from "@/components/tools/ProductFinder";
 import { FinderDeep } from "@/components/sections/FinderDeep";
-import { getTranslations, getMessages } from "next-intl/server";
+import { getTranslations, getMessages, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
 import { constructMetadata } from "@/lib/seo/metadata";
+import { wrapGraph, getWebPageGraphNode, getWebApplicationGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { getAllProducts, getProductsIndex } from "@/lib/products";
-import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("finder") as string[];
   return constructMetadata({
-    title: meta[0] ?? "",
-    description: meta[1] ?? "",
+    title: meta[0] ?? "K-Aqua Produktfinder & Filter",
+    description: meta[1] ?? "Finden und filtern Sie passende PP-R & PP-RCT Rohre, Fittings und Ventile.",
     path: "/produkte/finder",
     locale,
     noIndex: true,
@@ -31,8 +31,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function FinderPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("finder") as string[];
+  const tNav = await getTranslations({ locale, namespace: "nav" });
   const tNames = await getTranslations({ locale, namespace: "productNames" }).catch(() => null);
   const products = getAllProducts().map(p => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -47,22 +49,36 @@ export default async function FinderPage({ params }: Props) {
   });
   const indexContent = await getProductsIndex();
 
-  const siteUrl = getBaseUrl();
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": meta[0],
-    "description": meta[1],
-    "url": `${siteUrl}/${locale}/produkte/finder`,
-  };
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/produkte/finder",
+      type: "SearchResultsPage",
+      name: meta[0] || "Produktfinder | K-Aqua",
+      description: meta[1] || "Interaktiver Filter- und Produktsuchassistent für K-Aqua Rohrleitungssysteme.",
+      breadcrumbId: `${siteUrl}/${locale}/produkte/finder#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/produkte/finder#app`,
+    }),
+    getWebApplicationGraphNode({
+      locale,
+      path: "/produkte/finder",
+      name: "K-Aqua Interactive Product Finder",
+      description: "Interaktiver Produktfilter zur Dimensionierung und Auswahl von PP-R / PP-RCT Komponenten.",
+      applicationCategory: "CatalogSearchTool",
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("products") || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
+      { name: locale === "de" ? "Finder" : locale === "ar" ? "الباحث" : "Finder", path: "/produkte/finder" },
+    ]),
+  ]);
 
-  const cleanTitle = meta[0]?.replace(/\s*?[|·-]\s*?K-Aqua$/i, "").trim() || "";
-  const finalTitle = `${cleanTitle} | ${locale.toUpperCase()} · K-Aqua`;
   const messages = await getMessages();
 
   return (
     <NextIntlClientProvider messages={pick(messages, ['finder', 'finderx'])}>
-      <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
       <h1 className="sr-only">{meta[0] || "Produktfinder"}</h1>
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-[400px]">

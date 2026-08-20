@@ -11,6 +11,7 @@ const staticRoutes = [
   '',
   'academy',
   'karriere',
+  'kontakt',
   'loesungen',
   'maerkte',
   'news',
@@ -23,15 +24,18 @@ const staticRoutes = [
   'produkte/transition-fittings',
   'produkte/weld-in-saddles',
   'produkte/accessories',
+  'projektanfrage',
   'co2-rechner',
-
   'referenzen',
   'ressourcen/support',
   'ressourcen/ausschreibungstexte',
   'service',
   'sitemap',
+  'suche',
   'trust-center',
   'unternehmen',
+  'datenschutz',
+  'impressum',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

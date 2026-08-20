@@ -34,6 +34,7 @@ interface MegaMenuProps {
 
 const ICON_MAP: Record<string, LucideIcon> = {
   products: Package,
+  '3d': Package,
   finder: Search,
   wissen: FileText,
   co2: Leaf,
@@ -55,44 +56,46 @@ const MEGA_LAYOUT = [
   {
     group: 'products',
     items: [
-      { id: 'products_all', href: '/produkte', fallback: 'Alle Produkte' },
-      { id: 'finder', href: '/produkte/finder', fallback: 'Product Finder' },
-      { id: 'co2', href: '/co2-rechner', fallback: 'CO2-Rechner für PP-R Rohre' },
+      { id: 'products_all', href: '/produkte', titleKey: 'mega.allProducts', descKey: 'mega.allProductsDesc' },
+      { id: '3d', href: '/3d', titleKey: 'mega.cadStudio', descKey: 'mega.cadModels' },
+      { id: 'finder', href: '/produkte/finder', titleKey: 'finder', descKey: 'mega.finderDesc' },
+      { id: 'co2', href: '/co2-rechner', titleKey: 'co2', descKey: 'mega.co2Desc' },
     ],
   },
   {
     group: 'markets_solutions',
     items: [
-      { id: 'markets', href: '/maerkte', fallback: 'Alle Märkte' },
-      { id: 'solutions', href: '/loesungen', fallback: 'Alle Lösungen' },
+      { id: 'markets', href: '/maerkte', titleKey: 'mega.globalMarkets', descKey: 'mega.marketsDesc' },
+      { id: 'solutions', href: '/loesungen', titleKey: 'solutions', descKey: 'mega.solutionsDesc' },
     ],
   },
   {
     group: 'knowledge_resources',
     items: [
-      { id: 'academy', href: '/academy', fallback: 'Academy' },
-      { id: 'trust', href: '/trust-center', fallback: 'Trust Center' },
-      { id: 'service', href: '/service', fallback: 'Service & Wartung' },
-      { id: 'partner', href: '/partnerschaft', fallback: 'Partnernetzwerk' },
+      { id: 'academy', href: '/academy', titleKey: 'academy', descKey: 'mega.academyDesc' },
+      { id: 'trust', href: '/trust-center', titleKey: 'trust', descKey: 'mega.trustDesc' },
+      { id: 'service', href: '/service', titleKey: 'service', descKey: 'mega.serviceDesc' },
+      { id: 'partner', href: '/partnerschaft', titleKey: 'partners', descKey: 'mega.partnersDesc' },
     ],
   },
   {
     group: 'company',
     items: [
-      { id: 'about', href: '/unternehmen', fallback: 'Über K-Aqua' },
-      { id: 'references', href: '/referenzen', fallback: 'Referenzen weltweit' },
-      { id: 'career', href: '/karriere', fallback: 'Karriere bei K-Aqua' },
-      { id: 'news', href: '/news', fallback: 'K-Aqua News & Presse' },
-      { id: 'contact', href: '/kontakt', fallback: 'K-Aqua Kontaktieren' },
-      { id: 'rfq', href: '/projektanfrage', fallback: 'Projektanfrage' },
-      { id: 'imprint', href: '/impressum', fallback: 'K-Aqua Impressum' },
-      { id: 'privacy', href: '/datenschutz', fallback: 'K-Aqua Datenschutz' },
+      { id: 'about', href: '/unternehmen', titleKey: 'mega.company', descKey: 'mega.companyDesc' },
+      { id: 'references', href: '/referenzen', titleKey: 'mega.refProjects', descKey: 'mega.refDesc' },
+      { id: 'career', href: '/karriere', titleKey: 'career', descKey: 'mega.careerDesc' },
+      { id: 'news', href: '/news', titleKey: 'mega.newsPress', descKey: 'mega.newsDesc' },
+      { id: 'contact', href: '/kontakt', titleKey: 'contact', descKey: 'mega.contactDesc' },
+      { id: 'rfq', href: '/projektanfrage', titleKey: 'quote', descKey: 'mega.quoteDesc' },
+      { id: 'imprint', href: '/impressum', titleKey: 'imprint', descKey: 'mega.imprintDesc' },
+      { id: 'privacy', href: '/datenschutz', titleKey: 'privacy', descKey: 'mega.privacyDesc' },
     ],
   },
 ];
 
 export default function MegaMenu({ onClose }: MegaMenuProps) {
-  const t = useTranslations();
+  const tNav = useTranslations('nav');
+  const tGroups = useTranslations('groups');
   const locale = useLocale();
   const pathname = usePathname();
   const containerRef = useRef<HTMLDivElement>(null);
@@ -190,20 +193,6 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
     }
   };
 
-  const getPageMeta = (id: string): [string, string] => {
-    try {
-      if (t.has(`pages.${id}`)) {
-        const arr = t.raw(`pages.${id}`);
-        if (Array.isArray(arr) && arr.length >= 2) {
-          return [arr[0], arr[1]];
-        }
-      }
-      return [id, ''];
-    } catch {
-      return [id, ''];
-    }
-  };
-
   // Animation variants
   const containerVariants = {
     hidden: {},
@@ -245,7 +234,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
       className="k-mega"
       role="dialog"
       aria-modal="true"
-      aria-label={t('nav.menu')}
+      aria-label={tNav('menu')}
       onClick={handleBackdropClick}
       ref={containerRef}
     >
@@ -261,7 +250,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
           variants={sectionVariants}
         >
           <span className="k-mega-head">
-            {t('nav.home') || 'Startseite'}
+            {tNav('home')}
           </span>
           <div className="k-mega-group">
             <motion.div variants={itemVariants}>
@@ -269,14 +258,14 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
                 href="/"
                 className={`k-mega-item ${pathname === '/' ? 'is-active' : ''}`}
                 aria-current={pathname === '/' ? 'page' : undefined}
-                aria-label="K-Aqua Homepage"
+                aria-label={tNav('mega.homeSr')}
                 onClick={onClose}
               >
                 <span className="k-mega-icon" aria-hidden="true">
                   <Package size={20} strokeWidth={1.8} />
                 </span>
                 <span className="k-mega-text">
-                  <span className="t">{t('nav.home') || 'Startseite'}</span>
+                  <span className="t">{tNav('home')}</span>
                 </span>
               </FluidLink>
             </motion.div>
@@ -290,19 +279,12 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
             variants={sectionVariants}
           >
             <span className="k-mega-head">
-              {t(`groups.${sec.group}`)}
+              {tGroups(sec.group as any)}
             </span>
             <div className="k-mega-group">
               {sec.items.map((item) => {
-                let title = '';
-                let subtitle = '';
-                if (item.id.startsWith('menu.')) {
-                  try { title = t(item.id as any); } catch { title = item.fallback || item.id; }
-                } else {
-                  const [transTitle, sub] = getPageMeta(item.id);
-                  title = transTitle !== item.id ? transTitle : (item.fallback || item.id);
-                  subtitle = sub;
-                }
+                const title = tNav(item.titleKey as any);
+                const subtitle = item.descKey ? tNav(item.descKey as any) : '';
                 const isActive = pathname === item.href;
                 const IconComp = ICON_MAP[item.id] || Package;
                 return (
@@ -362,7 +344,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
             className="flex-1 inline-flex items-center justify-center gap-2 font-heading font-semibold rounded-xl transition-all duration-fast ease-out bg-primary text-primary-foreground hover:bg-primary-hover h-11 px-4 text-sm"
           >
             <MessageSquare size={18} />
-            {t('quote')}
+            {tNav('quote')}
           </FluidLink>
         </motion.div>
       </motion.div>

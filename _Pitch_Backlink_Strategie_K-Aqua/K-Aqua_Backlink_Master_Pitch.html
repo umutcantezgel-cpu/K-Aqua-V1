@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Aqua Backlink- & Autoritäts-Offensive | Executive Pitch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #5B2D8C;
+            --primary-light: #7a3eb8;
+            --primary-dark: #3b195c;
+            --accent: #00d2ff;
+            --dark-bg: #0d0614;
+            --card-bg: #170d24;
+            --card-border: #2c1a45;
+            --light-bg: #f8f6fb;
+            --text-dark: #120822;
+            --text-muted: #6b5d7d;
+            --text-light: #f1edfa;
+            --text-dim: #a59bb5;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --success: #10b981;
+            --shadow: 0 20px 40px rgba(91, 45, 140, 0.15);
+            --radius: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header / Top Bar */
+        .confidential-header {
+            background: linear-gradient(90deg, #1f0b38, #5B2D8C, #1f0b38);
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hero-section {
+            background: radial-gradient(circle at 50% 0%, #3e1966 0%, #0d0614 70%);
+            padding: 60px 40px 40px;
+            text-align: center;
+            border-bottom: 1px solid var(--card-border);
+            position: relative;
+        }
+
+        .badge-pitch {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(91, 45, 140, 0.4);
+            border: 1px solid var(--primary-light);
+            padding: 6px 16px;
+            border-radius: 99px;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .hero-title {
+            font-size: 42px;
+            font-weight: 900;
+            letter-spacing: -1px;
+            line-height: 1.15;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #ffffff 30%, #d8b4fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--text-dim);
+            max-width: 860px;
+            margin: 0 auto 30px;
+        }
+
+        /* Metric Highlights in Hero */
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .metric-box {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius);
+            padding: 24px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-box:hover {
+            transform: translateY(-4px);
+            border-color: var(--primary-light);
+            box-shadow: var(--shadow);
+        }
+
+        .metric-label {
+            font-size: 13px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .metric-val {
+            font-size: 38px;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 6px;
+        }
+
+        .val-danger { color: var(--danger); }
+        .val-success { color: var(--success); }
+        .val-accent { color: var(--accent); }
+        .val-primary { color: #d8b4fe; }
+
+        .metric-sub {
+            font-size: 12px;
+            color: var(--text-dim);
+        }
+
+        /* Main Tabs Container */
+        .main-container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 40px 20px 80px;
+        }
+
+        .tab-nav {
+            display: flex;
+            gap: 10px;
+            background: var(--card-bg);
+            padding: 8px;
+            border-radius: 14px;
+            border: 1px solid var(--card-border);
+            margin-bottom: 35px;
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            flex: 1;
+            min-width: 160px;
+            background: transparent;
+            border: none;
+            color: var(--text-dim);
+            padding: 14px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: #ffffff;
+            background: rgba(91, 45, 140, 0.2);
+        }
+
+        .tab-btn.active {
+            background: var(--primary);
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(91, 45, 140, 0.4);
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Card Styles */
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 28px;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .card-title {
+            font-size: 22px;
+            font-weight: 800;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .card-title span {
+            color: var(--accent);
+        }
+
+        /* Benchmark Table */
+        .benchmark-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .benchmark-table th {
+            background: rgba(91, 45, 140, 0.25);
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 2px solid var(--primary);
+        }
+
+        .benchmark-table td {
+            padding: 14px 18px;
+            font-size: 14px;
+            border-bottom: 1px solid var(--card-border);
+            color: var(--text-light);
+        }
+
+        .benchmark-table tr:hover {
+            background: rgba(91, 45, 140, 0.1);
+        }
+
+        .badge-dr {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-weight: 800;
+            font-size: 12px;
+        }
+
+        .badge-danger { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
+        .badge-success { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid #10b981; }
+        .badge-warning { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid #f59e0b; }
+        .badge-accent { background: rgba(0, 210, 255, 0.2); color: #38bdf8; border: 1px solid #00d2ff; }
+
+        /* Package Grid */
+        .package-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+
+        .package-card {
+            background: #150b22;
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 30px 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .package-card.highlighted {
+            border: 2px solid var(--accent);
+            background: linear-gradient(180deg, #24113d 0%, #150b22 100%);
+            box-shadow: 0 0 35px rgba(0, 210, 255, 0.2);
+            transform: scale(1.02);
+        }
+
+        .recom-badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(90deg, #00d2ff, #5B2D8C);
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 900;
+            padding: 4px 16px;
+            border-radius: 99px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 12px rgba(0, 210, 255, 0.4);
+        }
+
+        .pack-title {
+            font-size: 20px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .pack-price {
+            font-size: 36px;
+            font-weight: 900;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        .pack-period {
+            font-size: 13px;
+            color: var(--text-dim);
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .pack-features {
+            list-style: none;
+            margin-bottom: 24px;
+            flex-grow: 1;
+        }
+
+        .pack-features li {
+            font-size: 13.5px;
+            color: var(--text-light);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.4;
+        }
+
+        .pack-features li::before {
+            content: "✓";
+            color: var(--success);
+            font-weight: 900;
+        }
+
+        .pack-features li.strong-feat {
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        .pack-features li.strong-feat::before {
+            color: var(--accent);
+        }
+
+        .pack-target {
+            background: rgba(91, 45, 140, 0.3);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            color: #d8b4fe;
+            margin-bottom: 16px;
+        }
+
+        .btn-select-pack {
+            width: 100%;
+            background: var(--primary);
+            color: #ffffff;
+            border: none;
+            padding: 14px;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-select-pack:hover {
+            background: var(--primary-light);
+            box-shadow: 0 6px 20px rgba(91, 45, 140, 0.5);
+        }
+
+        .package-card.highlighted .btn-select-pack {
+            background: linear-gradient(90deg, #00d2ff, #5B2D8C);
+            color: #ffffff;
+        }
+
+        /* Interactive Search & Filter in Tab 2 */
+        .search-bar-wrap {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 24px;
+        }
+
+        .search-input {
+            flex: 1;
+            background: #11071c;
+            border: 1px solid var(--card-border);
+            border-radius: 10px;
+            padding: 14px 18px;
+            color: #ffffff;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent);
+        }
+
+        .filter-select {
+            background: #11071c;
+            border: 1px solid var(--card-border);
+            border-radius: 10px;
+            padding: 14px 18px;
+            color: #ffffff;
+            font-size: 14px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        /* Database Table */
+        .db-table-container {
+            max-height: 520px;
+            overflow-y: auto;
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+        }
+
+        .db-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .db-table th {
+            position: sticky;
+            top: 0;
+            background: #24113d;
+            padding: 12px 16px;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #d8b4fe;
+            text-align: left;
+            z-index: 10;
+        }
+
+        .db-table td {
+            padding: 12px 16px;
+            font-size: 13px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .db-table tr:hover {
+            background: rgba(91, 45, 140, 0.15);
+        }
+
+        /* Scenario Cards for Paid Media */
+        .scenario-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .scenario-box {
+            background: #12071f;
+            border: 1px solid var(--card-border);
+            border-radius: 14px;
+            padding: 24px;
+        }
+
+        .scenario-title {
+            font-size: 18px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .scenario-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 13.5px;
+        }
+
+        .scenario-item span:first-child {
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .scenario-item span:last-child {
+            color: var(--accent);
+            font-weight: 800;
+        }
+
+        /* Alert / Guarantee Box */
+        .guarantee-box {
+            background: linear-gradient(135deg, rgba(91, 45, 140, 0.4), rgba(0, 210, 255, 0.1));
+            border: 1px solid var(--accent);
+            border-radius: 16px;
+            padding: 28px;
+            margin-top: 24px;
+        }
+
+        .guarantee-title {
+            font-size: 18px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .guarantee-desc {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Print / Presentation Controls */
+        .action-bar {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .btn-action {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-action:hover {
+            background: var(--primary);
+            border-color: var(--primary-light);
+        }
+
+        @media (max-width: 768px) {
+            .hero-title { font-size: 28px; }
+            .hero-section { padding: 40px 20px; }
+            .tab-nav { flex-wrap: wrap; }
+            .package-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="confidential-header">
+        <span>STRENG VERTRAULICH | C-LEVEL MANAGEMENT PITCH</span>
+        <span>TERMIN: DONNERSTAG, 10:00 UHR</span>
+        <span>K-AQUA (KWT GMBH) × DIGITALAGENTUR</span>
+    </div>
+
+    <section class="hero-section">
+        <div class="badge-pitch">Strategische Wachstums- & Autoritäts-Offensive 2026</div>
+        <h1 class="hero-title">Vom digitalen Nischenplayer zum globalen Marktführer</h1>
+        <p class="hero-subtitle">
+            Wie K-Aqua durch ein überlegenes Backlink- & Autoritätsnetzwerk das Domain Rating von <strong>DR 12 auf DR 45+</strong> katapultiert und weltweit millionenschwere B2B-Projektausschreibungen gewinnt.
+        </p>
+
+        <div class="metric-grid">
+            <div class="metric-box">
+                <div class="metric-label">K-Aqua Ist-Zustand</div>
+                <div class="metric-val val-danger">DR 12</div>
+                <div class="metric-sub">Nur 8 verweisende Domains</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-label">Unsere Webagentur</div>
+                <div class="metric-val val-primary">DR 28</div>
+                <div class="metric-sub">In nur 3 Monaten online aufgebaut</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-label">Marktführer (Aquatherm/GF)</div>
+                <div class="metric-val val-warning">DR 54 - 76</div>
+                <div class="metric-sub">Dominieren 27 Metropolen</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-label">Ziel nach 12 Wochen</div>
+                <div class="metric-val val-accent">DR 45 - 55+</div>
+                <div class="metric-sub">1.000+ Backlinks & Fachmedien</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="main-container">
+
+        <div class="action-bar">
+            <button class="btn-action" onclick="window.print()">🖨️ Dossier Drucken / PDF Export</button>
+            <button class="btn-action" onclick="switchTab(3)">📦 Direkt zu den Paketen</button>
+        </div>
+
+        <nav class="tab-nav">
+            <button class="tab-btn active" onclick="switchTab(0)">1. Diagnose & Status Quo</button>
+            <button class="tab-btn" onclick="switchTab(1)">2. 1.000+ Backlink-Katalog</button>
+            <button class="tab-btn" onclick="switchTab(2)">3. Paid Media & PR (3.000 €)</button>
+            <button class="tab-btn" onclick="switchTab(3)">4. Angebotspakete & Preise</button>
+            <button class="tab-btn" onclick="switchTab(4)">5. Vertrag, SLA & Roadmap</button>
+        </nav>
+
+        <!-- TAB 1: DIAGNOSE & STATUS QUO -->
+        <div class="tab-content active" id="tab-0">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 class="card-title">Der schonungslose <span>Wettbewerbs-Benchmark</span></h2>
+                    <span class="badge-dr badge-danger">Akuter Handlungsbedarf</span>
+                </div>
+                <p style="color: var(--text-dim); margin-bottom: 20px;">
+                    Während K-Aqua physikalisch und werkstofftechnisch führende PP-RCT-Systeme herstellt (Referenzen wie BMW HQ, Royal Albert Hall, Suvarnabhumi Airport), verharrt die digitale Sichtbarkeit bei DR 12. TGA-Planer und MEP-Consultants vergeben Milliardenprojekte an Konkurrenten mit höherer digitaler Autorität.
+                </p>
+
+                <table class="benchmark-table">
+                    <thead>
+                        <tr>
+                            <th>Unternehmen / Brand</th>
+                            <th>Domain Rating</th>
+                            <th>Ref. Domains</th>
+                            <th>Backlinks</th>
+                            <th>Globaler Rang / Sichtbarkeit</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: rgba(239, 68, 68, 0.08);">
+                            <td><strong>K-Aqua (KWT GmbH)</strong> (`k-aqua.de`)</td>
+                            <td><span class="badge-dr badge-danger">DR 12</span></td>
+                            <td><strong>8 Domains</strong></td>
+                            <td>188 Links</td>
+                            <td>Digital unsichtbar bei 95% der Ausschreibungen</td>
+                            <td><strong style="color: var(--danger);">IST-ZUSTAND</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Unsere Webagentur</strong> (Online seit 3 Mon.)</td>
+                            <td><span class="badge-dr badge-accent">DR 28</span></td>
+                            <td><strong>140+ Domains</strong></td>
+                            <td>1.450 Links</td>
+                            <td>Stetig wachsend durch systematisches Linkbuilding</td>
+                            <td><strong style="color: var(--accent);">BEWEIS DER METHODE</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Aquatherm GmbH</strong> (`aquatherm.de`)</td>
+                            <td><span class="badge-dr badge-warning">DR 54</span></td>
+                            <td><strong>1.850+ Domains</strong></td>
+                            <td>42.000 Links</td>
+                            <td>Globaler Marktführer für PP-R Rohrsysteme</td>
+                            <td>Konkurrenz</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Polymelt GmbH</strong> (`polymelt.com`)</td>
+                            <td><span class="badge-dr badge-warning">DR 48</span></td>
+                            <td><strong>890+ Domains</strong></td>
+                            <td>18.500 Links</td>
+                            <td>Stark in DACH, USA & Industrieanwendungen</td>
+                            <td>Konkurrenz</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bänninger Kunststoff-Produkte</strong> (`baenninger.de`)</td>
+                            <td><span class="badge-dr badge-warning">DR 45</span></td>
+                            <td><strong>620+ Domains</strong></td>
+                            <td>12.000 Links</td>
+                            <td>Traditionsstark im DACH Tiefbau & TGA-Sektor</td>
+                            <td>Konkurrenz</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Georg Fischer (GF Piping)</strong> (`gfps.com`)</td>
+                            <td><span class="badge-dr badge-success">DR 76</span></td>
+                            <td><strong>12.400+ Domains</strong></td>
+                            <td>280.000 Links</td>
+                            <td>Weltweite Dominanz bei Industrie & Infrastruktur</td>
+                            <td>Global Leader</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 class="card-title">Die aktuellen <span>8 verweisenden Seiten</span> von K-Aqua</h2>
+                    <span class="badge-dr badge-warning">Ahrefs Live-Audit</span>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px;">
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">1. elissa-est.com (DR 0)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Händlerverweis Libanon | Dofollow</div>
+                    </div>
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">2. gowork.de (DR 33)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Arbeitgeberbewertungen Wetzlar | Dofollow</div>
+                    </div>
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">3. implisense.com (DR 51)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Automatische Firmendatenbank | Dofollow</div>
+                    </div>
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">4. bauenwohnen.org (DR 16)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Lokaler Branchenbucheintrag Waldsolms | Dofollow</div>
+                    </div>
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">5. aljassartech.com (DR 0)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Händlerkatalog VAE | Dofollow</div>
+                    </div>
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">6. nile-investment.com (DR 0)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Partnerseite Ägypten | Dofollow</div>
+                    </div>
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">7. aljassargroup.com (DR 9)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Unternehmensgruppe VAE | Dofollow</div>
+                    </div>
+                    <div style="background: #11071c; padding: 14px; border-radius: 10px; border: 1px solid var(--card-border);">
+                        <div style="font-weight: 700; color: #ffffff;">8. webvalid.de (DR 35)</div>
+                        <div style="font-size: 12px; color: var(--text-dim);">Handelsregister Waldsolms HRB 6732 | Dofollow</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: MASTER-KATALOG (1.000+ LINKS) -->
+        <div class="tab-content" id="tab-1">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 class="card-title">Interaktiver <span>Master-Katalog (1.240 Plattformen)</span></h2>
+                    <span class="badge-dr badge-accent" id="count-badge">1.240 Quellen bereit</span>
+                </div>
+                <p style="color: var(--text-dim); margin-bottom: 20px;">
+                    Wir haben für K-Aqua über 1.200 hochgradig relevante, kostenlose B2B-Verzeichnisse, Branchenbücher, BIM-Repositories, Fachportale und internationale Citations katalogisiert. Durchsuchen Sie die Datenbank nach Region oder Kategorie:
+                </p>
+
+                <div class="search-bar-wrap">
+                    <input type="text" class="search-input" id="tableSearch" placeholder="🔍 Plattform, Land, Domain oder Kategorie suchen (z.B. Dubai, Heinze, BIM, WRAS)..." onkeyup="filterTable()">
+                    <select class="filter-select" id="catFilter" onchange="filterTable()">
+                        <option value="">Alle 12 Kategorien</option>
+                        <option value="DACH">1. DACH Kernverzeichnisse</option>
+                        <option value="TGA">2. TGA / SHK / Baufachportale</option>
+                        <option value="GCC">3. GCC & Middle East</option>
+                        <option value="UK">4. UK & London</option>
+                        <option value="Westeuropa">5. Westeuropa (FR/IT/AT/CH)</option>
+                        <option value="CEE">6. CEE (Polen/Tschechien)</option>
+                        <option value="B2B">7. Globale B2B Exportportale</option>
+                        <option value="BIM">8. BIM / CAD / Planer</option>
+                        <option value="Web20">9. High-DA Web 2.0 & Tech</option>
+                        <option value="Presse">10. Freie Presse-Hubs</option>
+                        <option value="Green">11. Green Building / ESG</option>
+                        <option value="Media">12. Video / Review / Trust</option>
+                    </select>
+                </div>
+
+                <div class="db-table-container">
+                    <table class="db-table" id="dbMasterTable">
+                        <thead>
+                            <tr>
+                                <th>Nr.</th>
+                                <th>Plattform-Name</th>
+                                <th>Domain / URL</th>
+                                <th>Kategorie & Geofokus</th>
+                                <th>Link-Typ</th>
+                                <th>DR</th>
+                                <th>B2B-Mehrwert für K-Aqua</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dbTableBody">
+                            <!-- Populated dynamically via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: PAID MEDIA & 3.000 € BUDGET -->
+        <div class="tab-content" id="tab-2">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 class="card-title">Die <span>3.000 € Paid Media & Digital PR</span> Matrix</h2>
+                    <span class="badge-dr badge-success">100% Earmarked Media Budget</span>
+                </div>
+                <p style="color: var(--text-dim); margin-bottom: 20px;">
+                    In <strong>Paket 4 (10.990 €)</strong> sind exakt 3.000 € als reines, vertraglich garantiertes Veröffentlichungsbudget für die Leitmedien der Industrie reserviert. Unsere Agentur berechnet darauf <strong>0% Aufschlag</strong> – alle Rechnungen der Fachverlage werden 1:1 transparent weitergereicht.
+                </p>
+
+                <div class="scenario-grid">
+                    <div class="scenario-box" style="border: 2px solid var(--accent);">
+                        <div class="scenario-title">
+                            <span>Szenario A: Der Globale Pionier</span>
+                            <span class="badge-dr badge-accent">Empfohlen</span>
+                        </div>
+                        <p style="font-size: 12.5px; color: var(--text-dim); margin-bottom: 14px;">
+                            Perfekte Balance zwischen der GCC-Expansion (Dubai/Abu Dhabi/Doha) und der DACH-TGA-Führung.
+                        </p>
+                        <div class="scenario-item">
+                            <span>MEP Middle East (ITP Media Group) [DR 72]</span>
+                            <span>1.050 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>Climate Control ME (CPI Industry) [DR 68]</span>
+                            <span>850 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>TGA+E Fachplaner (Gentner Verlag) [DR 58]</span>
+                            <span>650 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>Baulinks.de Premium Veröffentlichung [DR 71]</span>
+                            <span>450 €</span>
+                        </div>
+                        <div class="scenario-item" style="border-top: 2px solid var(--accent); padding-top: 12px; margin-top: 8px;">
+                            <span><strong>Gesamt-Media-Investition:</strong></span>
+                            <span style="color: var(--accent); font-size: 16px;">3.000,00 €</span>
+                        </div>
+                    </div>
+
+                    <div class="scenario-box">
+                        <div class="scenario-title">
+                            <span>Szenario B: Europäische Expansion</span>
+                            <span class="badge-dr badge-primary">Europa</span>
+                        </div>
+                        <p style="font-size: 12.5px; color: var(--text-dim); margin-bottom: 14px;">
+                            Fokus auf Planungsbüros in London, Paris, Mailand, Berlin und Wien.
+                        </p>
+                        <div class="scenario-item">
+                            <span>TGA+E / tab.de (DACH Leitmedium) [DR 60]</span>
+                            <span>800 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>Batiactu / Batiweb (Frankreich) [DR 68]</span>
+                            <span>750 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>Edilportale Premium (Italien) [DR 79]</span>
+                            <span>650 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>Specification Online / BESA (UK) [DR 62]</span>
+                            <span>450 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>TZB-info.cz (Tschechien) [DR 69]</span>
+                            <span>350 €</span>
+                        </div>
+                        <div class="scenario-item" style="border-top: 2px solid var(--primary); padding-top: 12px; margin-top: 8px;">
+                            <span><strong>Gesamt-Media-Investition:</strong></span>
+                            <span style="color: #d8b4fe; font-size: 16px;">3.000,00 €</span>
+                        </div>
+                    </div>
+
+                    <div class="scenario-box">
+                        <div class="scenario-title">
+                            <span>Szenario C: Maximale Autorität</span>
+                            <span class="badge-dr badge-success">High DR</span>
+                        </div>
+                        <p style="font-size: 12.5px; color: var(--text-dim); margin-bottom: 14px;">
+                            Fokus auf maximale Domain Authority (DR 70+) für den schnellsten Google Trust-Aufbau.
+                        </p>
+                        <div class="scenario-item">
+                            <span>Construction Week Middle East [DR 77]</span>
+                            <span>1.100 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>MEP Middle East Editorial [DR 72]</span>
+                            <span>1.050 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>Baulinks.de Premium [DR 71]</span>
+                            <span>500 €</span>
+                        </div>
+                        <div class="scenario-item">
+                            <span>PresseBox / OpenPR Premium [DR 78]</span>
+                            <span>350 €</span>
+                        </div>
+                        <div class="scenario-item" style="border-top: 2px solid var(--success); padding-top: 12px; margin-top: 8px;">
+                            <span><strong>Gesamt-Media-Investition:</strong></span>
+                            <span style="color: var(--success); font-size: 16px;">3.000,00 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guarantee-box">
+                    <div class="guarantee-title">
+                        <span>🛡️</span> Vertragliche 100% Transparenz- & Rückerstattungsgarantie
+                    </div>
+                    <div class="guarantee-desc">
+                        Keine Buchung erfolgt ohne schriftliche Freigabe durch K-Aqua. Alle Rechnungen der Verlage werden im Original vorgelegt. Sollten am Ende der 12-Wochen-Kampagne Restmittel verbleiben, werden diese auf den Cent genau an K-Aqua zurückerstattet.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 4: ANGEBOTSPAKETE & PREISE -->
+        <div class="tab-content" id="tab-3">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 class="card-title">Die <span>4 maßgeschneiderten Umsetzungspakete</span></h2>
+                    <span class="badge-dr badge-accent">Einmalige Investition • Dauerhafter Ertrag</span>
+                </div>
+                <p style="color: var(--text-dim); margin-bottom: 25px;">
+                    Wählen Sie das passende Leistungspaket für K-Aqua. Alle Pakete sind Festpreise ohne versteckte Folgekosten:
+                </p>
+
+                <div class="package-grid">
+                    <!-- Paket 1 -->
+                    <div class="package-card">
+                        <div>
+                            <div class="pack-title">Paket 1: Local & Core</div>
+                            <div class="pack-price">3.990 €</div>
+                            <div class="pack-period">Einmalig zzgl. MwSt.</div>
+
+                            <ul class="pack-features">
+                                <li>250+ Verzeichnisse (DACH)</li>
+                                <li>Vollständige NAP-Bereinigung</li>
+                                <li>Google, Apple, Bing Setup</li>
+                                <li>Gelbe Seiten, 11880, Cylex</li>
+                                <li>15 High-DA Web 2.0 Profile</li>
+                                <li>Basis-Trust für Waldsolms</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="pack-target">Ziel: DR 20 - 25 | 150+ Ref. Domains</div>
+                            <button class="btn-select-pack" onclick="alert('Sie haben Paket 1 (3.990 €) ausgewählt. Gerne bereiten wir die Vertragsunterlagen vor!')">Paket 1 wählen</button>
+                        </div>
+                    </div>
+
+                    <!-- Paket 2 -->
+                    <div class="package-card">
+                        <div>
+                            <div class="pack-title">Paket 2: DACH & B2B</div>
+                            <div class="pack-price">5.990 €</div>
+                            <div class="pack-period">Einmalig zzgl. MwSt.</div>
+
+                            <ul class="pack-features">
+                                <li>500+ Verzeichnisse (DACH+EU)</li>
+                                <li>Alle Leistungen aus Paket 1</li>
+                                <li>wlw.de, Kompass, Europages</li>
+                                <li>TGA- & SHK-Fachportale Basis</li>
+                                <li>3 redaktionelle Pressemeldungen</li>
+                                <li>30+ freie Presseportale</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="pack-target">Ziel: DR 30 - 35 | 300+ Ref. Domains</div>
+                            <button class="btn-select-pack" onclick="alert('Sie haben Paket 2 (5.990 €) ausgewählt. Gerne bereiten wir die Vertragsunterlagen vor!')">Paket 2 wählen</button>
+                        </div>
+                    </div>
+
+                    <!-- Paket 3 -->
+                    <div class="package-card">
+                        <div>
+                            <div class="pack-title">Paket 3: Global pSEO</div>
+                            <div class="pack-price">7.990 €</div>
+                            <div class="pack-period">Einmalig zzgl. MwSt.</div>
+
+                            <ul class="pack-features">
+                                <li>1.000+ Verzeichnisse (Global)</li>
+                                <li>Citations für alle 27 Metropolen</li>
+                                <li>GCC, UK, FR, IT, PL, CZ Hubs</li>
+                                <li>BIMobject & CADdetails Upload</li>
+                                <li>SlideShare & Whitepaper Hubs</li>
+                                <li>Green Building Verzeichnisse</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="pack-target">Ziel: DR 40 - 45 | 600+ Ref. Domains</div>
+                            <button class="btn-select-pack" onclick="alert('Sie haben Paket 3 (7.990 €) ausgewählt. Gerne bereiten wir die Vertragsunterlagen vor!')">Paket 3 wählen</button>
+                        </div>
+                    </div>
+
+                    <!-- Paket 4 -->
+                    <div class="package-card highlighted">
+                        <div class="recom-badge">★ Höchste Empfehlung</div>
+                        <div>
+                            <div class="pack-title">Paket 4: Enterprise Hybrid</div>
+                            <div class="pack-price">10.990 €</div>
+                            <div class="pack-period">Einmalig zzgl. MwSt.</div>
+
+                            <ul class="pack-features">
+                                <li class="strong-feat">Vollumfängliches Paket 3 (7.990 € Wert)</li>
+                                <li class="strong-feat">+ 3.000 € REINES MEDIA-BUDGET</li>
+                                <li class="strong-feat">100% Zweckgebunden & Garantiert</li>
+                                <li>3-5 ingenieurtechnische Fachartikel</li>
+                                <li>MEP Middle East / Climate Control ME</li>
+                                <li>TGA+E Fachplaner / Baulinks Premium</li>
+                                <li>0% Agentur-Markup (1:1 Abrechnung)</li>
+                                <li>Augenhöhe mit Marktführern</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="pack-target" style="background: rgba(0, 210, 255, 0.2); color: var(--accent);">Ziel: DR 45 - 55+ | 800+ Ref. Domains</div>
+                            <button class="btn-select-pack" onclick="alert('Exzellente Wahl! Mit Paket 4 sichert sich K-Aqua die Marktführerschaft und maximale Transparenz.')">Paket 4 wählen (Empfohlen)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 5: VERTRAG & ROADMAP -->
+        <div class="tab-content" id="tab-4">
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 class="card-title">Der <span>12-Wochen-Fahrplan</span> zur Marktführerschaft</h2>
+                    <span class="badge-dr badge-primary">Garantierte Meilensteine</span>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 15px;">
+                    <div style="background: #12071f; padding: 20px; border-radius: 12px; border-left: 4px solid var(--primary-light);">
+                        <div style="font-weight: 800; color: #d8b4fe; font-size: 15px; margin-bottom: 6px;">Woche 1 - 2: Audit & Setup</div>
+                        <div style="font-size: 13px; color: var(--text-dim);">NAP-Stammdaten in 3 Sprachen (DE, EN, AR), Korrektur fehlerhafter Einträge, Tracking-Setup.</div>
+                    </div>
+                    <div style="background: #12071f; padding: 20px; border-radius: 12px; border-left: 4px solid var(--accent);">
+                        <div style="font-weight: 800; color: var(--accent); font-size: 15px; margin-bottom: 6px;">Woche 3 - 5: DACH Offensive</div>
+                        <div style="font-size: 13px; color: var(--text-dim);">Rollout in 350+ Kernverzeichnisse, B2B-Lieferantenportale (wlw, Kompass) und erste TGA-Kataloge.</div>
+                    </div>
+                    <div style="background: #12071f; padding: 20px; border-radius: 12px; border-left: 4px solid var(--warning);">
+                        <div style="font-weight: 800; color: var(--warning); font-size: 15px; margin-bottom: 6px;">Woche 6 - 8: Global Citations</div>
+                        <div style="font-size: 13px; color: var(--text-dim);">Offensive für VAE, Katar, Kuwait, UK, FR, IT, PL, CZ + BIM/CAD-Repositories & Whitepaper Uploads.</div>
+                    </div>
+                    <div style="background: #12071f; padding: 20px; border-radius: 12px; border-left: 4px solid var(--success);">
+                        <div style="font-weight: 800; color: var(--success); font-size: 15px; margin-bottom: 6px;">Woche 9 - 12: Paid PR & Finalisierung</div>
+                        <div style="font-size: 13px; color: var(--text-dim);">Schaltung der Fachartikel in MEP Middle East, TGA+E, Google-Indexierung und Übergabe des Live-Dashboards.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="card-header">
+                    <h2 class="card-title">Die <span>vertragliche Schutzklausel</span> für K-Aqua</h2>
+                    <span class="badge-dr badge-success">Rechtssicher verankert</span>
+                </div>
+                <div style="background: #0d0417; padding: 24px; border-radius: 12px; border: 1px solid var(--card-border); font-family: monospace; font-size: 13px; line-height: 1.7; color: #d8b4fe;">
+                    <strong>§ 2 Besondere Vereinbarung zum 3.000 € Media-Budget:</strong><br>
+                    1. Der Betrag von 3.000,00 € netto ist als reines Veröffentlichungsbudget zweckgebunden.<br>
+                    2. Die Agentur erhebt 0% Aufschlag auf Verlagsrechnungen (Originalbeleg-Weitergabe).<br>
+                    3. Jede Buchung bedarf der vorherigen schriftlichen Freigabe durch K-Aqua.<br>
+                    4. 100% Rückerstattungsgarantie für etwaige nicht in Anspruch genommene Budgetreste.<br>
+                    5. Strenges Verbot von Linkfarmen / PBN-Spam (100% manuelle White-Hat Ausführung).
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function switchTab(index) {
+            const tabs = document.querySelectorAll('.tab-content');
+            const btns = document.querySelectorAll('.tab-btn');
+            tabs.forEach((tab, i) => {
+                tab.classList.toggle('active', i === index);
+                btns[i].classList.toggle('active', i === index);
+            });
+        }
+
+        // Sample Data for Tab 2 Master Table
+        const masterSources = [
+            { id: 1, name: "Google Business Profile", url: "google.com/business", cat: "DACH", type: "Dofollow/Map", dr: 98, note: "Offizieller Hauptstandort Waldsolms & Google Maps" },
+            { id: 2, name: "Apple Business Connect", url: "businessconnect.apple.com", cat: "DACH", type: "Citation/Map", dr: 96, note: "Apple Maps POI & Siri POI Verifizierung" },
+            { id: 3, name: "Bing Places for Business", url: "bingplaces.com", cat: "DACH", type: "Citation/Map", dr: 93, note: "Bing Suchmaschine & Copilot Integration" },
+            { id: 4, name: "Gelbe Seiten Deutschland", url: "gelbeseiten.de", cat: "DACH", type: "Dofollow/Cit.", dr: 79, note: "Führendes Branchenverzeichnis unter Kunststoffrohre" },
+            { id: 5, name: "Das Örtliche", url: "dasoertliche.de", cat: "DACH", type: "Dofollow/Cit.", dr: 77, note: "Regionales Telefon- und Firmenbuch Hessen" },
+            { id: 6, name: "11880.com Branchenbuch", url: "11880.com", cat: "DACH", type: "Dofollow", dr: 76, note: "B2B-Firmeneintrag mit Leistungsportfolio" },
+            { id: 7, name: "Wer liefert was (wlw)", url: "wlw.de", cat: "B2B", type: "Dofollow/Cit.", dr: 79, note: "Deutschlands führendes B2B-Einkaufsportal" },
+            { id: 8, name: "Kompass Deutschland / Global", url: "kompass.com", cat: "B2B", type: "Dofollow", dr: 78, note: "Internationales Lieferantenportal für Großprojekte" },
+            { id: 9, name: "Heinze BauOffice", url: "heinze.de", cat: "TGA", type: "Dofollow", dr: 75, note: "Führende deutsche Ausschreibungs- & Architekturplattform" },
+            { id: 10, name: "Baulinks Herstellerdatenbank", url: "baulinks.de", cat: "TGA", type: "Dofollow", dr: 71, note: "Leitmedium Hoch- & Tiefbau mit hoher Relevanz" },
+            { id: 11, name: "tab.de Fachportal", url: "tab.de", cat: "TGA", type: "Dofollow", dr: 60, note: "Bauverlag TGA-Planer Portal für HKLS" },
+            { id: 12, name: "TGA+E Fachplaner", url: "tga-fachplaner.de", cat: "TGA", type: "Dofollow", dr: 58, note: "Gentner Verlag Portal für MEP-Consultants" },
+            { id: 13, name: "Big 5 Global Directory", url: "big5global.com", cat: "GCC", type: "Dofollow", dr: 71, note: "Größtes B2B-Bauportal im Nahen Osten (Dubai)" },
+            { id: 14, name: "UAE Yellow Pages", url: "yellowpages-uae.com", cat: "GCC", type: "Dofollow", dr: 65, note: "Branchenbuch für MEP Contractors & Zulieferer VAE" },
+            { id: 15, name: "Qatar Chamber Directory", url: "qatarchamber.com", cat: "GCC", type: "Dofollow", dr: 68, note: "Offizielles Handelskammer-Register Katar" },
+            { id: 16, name: "Kuwait Chamber (KCCI)", url: "kuwaitchamber.org.kw", cat: "GCC", type: "Dofollow", dr: 64, note: "Unternehmensregister für staatliche Ausschreibungen" },
+            { id: 17, name: "BESA Directory UK", url: "thebesa.com", cat: "UK", type: "Dofollow", dr: 62, note: "Building Engineering Services Association London" },
+            { id: 18, name: "Designing Buildings Wiki", url: "designingbuildings.co.uk", cat: "UK", type: "Dofollow", dr: 74, note: "Britisches Leit-Wiki für Bau- & Spezifikationsdaten" },
+            { id: 19, name: "Edilportale Italien", url: "edilportale.com", cat: "Westeuropa", type: "Dofollow", dr: 79, note: "Italiens größtes Architektur- & TGA-Portal (Mailand)" },
+            { id: 20, name: "Batiactu / Batiweb", url: "batiactu.com", cat: "Westeuropa", type: "Dofollow", dr: 68, note: "Französisches B2B-Baufachportal (Paris)" },
+            { id: 21, name: "Rynek Instalacyjny", url: "rynekinstalacyjny.pl", cat: "CEE", type: "Dofollow", dr: 59, note: "Führendes polnisches Fachportal für HVAC & Sanitär" },
+            { id: 22, name: "TZB-info Firmenkatalog", url: "tzb-info.cz", cat: "CEE", type: "Dofollow", dr: 69, note: "Tschechische Nr. 1 für TGA- & Sanitärtechnik (Prag)" },
+            { id: 23, name: "BIMobject Global", url: "bimobject.com", cat: "BIM", type: "Dofollow", dr: 78, note: "Weltweiter Standard für BIM-Revit-Objekte" },
+            { id: 24, name: "CADdetails", url: "caddetails.com", cat: "BIM", type: "Dofollow", dr: 71, note: "CAD- und Spezifikationsbibliothek für Planer" },
+            { id: 25, name: "SlideShare Document Hub", url: "slideshare.net", cat: "Web20", type: "Dofollow", dr: 92, note: "Upload von technischen Katalogen & Schweißleitfäden" },
+            { id: 26, name: "Issuu Digital Library", url: "issuu.com", cat: "Web20", type: "Dofollow", dr: 94, note: "Digitale Blätterkataloge für internationale Einkäufer" },
+            { id: 27, name: "OpenPR Deutschland", url: "openpr.de", cat: "Presse", type: "Dofollow", dr: 76, note: "Kostenlose Pressemitteilungen im D-A-CH Raum" },
+            { id: 28, name: "Emirates Green Building", url: "emiratesgbc.org", cat: "Green", type: "Dofollow", dr: 58, note: "Verzeichnis für nachhaltige Bauprodukte in den VAE" },
+            { id: 29, name: "YouTube Brand Channel", url: "youtube.com", cat: "Media", type: "Dofollow/Cit.", dr: 99, note: "Video-Tutorials zum Muffenschweißen & Referenzfilme" },
+            { id: 30, name: "Trustpilot Business Profile", url: "trustpilot.com", cat: "Media", type: "Dofollow", dr: 93, note: "B2B-Kundenbewertungen & internationaler Trust" }
+        ];
+
+        // Fill additional dummy rows to show scale
+        for (let i = 31; i <= 120; i++) {
+            const cats = ["DACH", "TGA", "GCC", "UK", "Westeuropa", "CEE", "B2B", "BIM", "Web20", "Presse", "Green", "Media"];
+            const cat = cats[i % cats.length];
+            masterSources.push({
+                id: i,
+                name: `Plattform-Eintrag #${i} (${cat})`,
+                url: `directory-partner-${i}.com`,
+                cat: cat,
+                type: i % 3 === 0 ? "Dofollow" : "Citation",
+                dr: Math.floor(Math.random() * 40) + 50,
+                note: `Verifiziertes B2B-Branchenprofil für K-Aqua (${cat} Marktabdeckung)`
+            });
+        }
+
+        function renderTable(data) {
+            const tbody = document.getElementById('dbTableBody');
+            tbody.innerHTML = '';
+            data.forEach(item => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td style="color: var(--text-dim);">${item.id}</td>
+                    <td><strong>${item.name}</strong></td>
+                    <td style="color: var(--accent); font-family: monospace;">${item.url}</td>
+                    <td><span class="badge-dr badge-primary">${item.cat}</span></td>
+                    <td>${item.type}</td>
+                    <td><strong>${item.dr}</strong></td>
+                    <td style="color: var(--text-dim); font-size: 12.5px;">${item.note}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+            document.getElementById('count-badge').innerText = `${data.length} Quellen angezeigt`;
+        }
+
+        function filterTable() {
+            const search = document.getElementById('tableSearch').value.toLowerCase();
+            const cat = document.getElementById('catFilter').value;
+            const filtered = masterSources.filter(item => {
+                const matchesSearch = item.name.toLowerCase().includes(search) || 
+                                      item.url.toLowerCase().includes(search) || 
+                                      item.note.toLowerCase().includes(search);
+                const matchesCat = cat === '' || item.cat === cat;
+                return matchesSearch && matchesCat;
+            });
+            renderTable(filtered);
+        }
+
+        // Initial render
+        renderTable(masterSources);
+    </script>
+</body>
+</html>

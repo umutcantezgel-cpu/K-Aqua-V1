@@ -1,0 +1,1536 @@
+{
+ "k-fiber-pipe-pp-r-sdr-74": {
+  "id": "pipes/k-fiber-pipe-pp-r-sdr-7-4",
+  "mod": "kaqua-k-fiber-pipe-pp-r-sdr-7-4",
+  "de": "K-Fiber Rohr PP-R SDR 7,4",
+  "en": "K-Fiber Pipe PP-R SDR 7,4",
+  "sdr": 7.4,
+  "sClass": "S 3,2",
+  "press": "20 °C/2,5 MPa — 60 °C/1,2 MPa",
+  "mat": "PP-R GF",
+  "colour": "green with 4 grey stripes",
+  "colourRead": true,
+  "src": "pipes-k-fiber-pipe-pp-r-sdr-74",
+  "img": "fiber74",
+  "star": true,
+  "layers": [
+   [
+    "pprGreen",
+    0.3,
+    "PP-R außen"
+   ],
+   [
+    "fiberLayer",
+    0.4,
+    "PP-R GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.3,
+    "PP-R innen"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "steel"
+   ],
+   [
+    90,
+    "steel"
+   ],
+   [
+    180,
+    "steel"
+   ],
+   [
+    270,
+    "steel"
+   ]
+  ],
+  "tile": "Glasfaserverstärkt: der Faserkern nimmt die Längsdehnung auf, die Leitung braucht weniger Festpunkte. Im Schnitt sichtbar.",
+  "rows": [
+   {
+    "code": "AQ207PF20",
+    "d": 20,
+    "dn": 15,
+    "di": 14.4,
+    "s": 2.8,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.16
+   },
+   {
+    "code": "AQ207PF25",
+    "d": 25,
+    "dn": 20,
+    "di": 18,
+    "s": 3.5,
+    "pack": 100,
+    "kgm": 0.25,
+    "lm": 0.25
+   },
+   {
+    "code": "AQ207PF32",
+    "d": 32,
+    "dn": 25,
+    "di": 23.2,
+    "s": 4.4,
+    "pack": 60,
+    "kgm": 0.39,
+    "lm": 0.42
+   },
+   {
+    "code": "AQ207PF40",
+    "d": 40,
+    "dn": 32,
+    "di": 29,
+    "s": 5.5,
+    "pack": 40,
+    "kgm": 0.59,
+    "lm": 0.66
+   },
+   {
+    "code": "AQ207PF50",
+    "d": 50,
+    "dn": 40,
+    "di": 36.2,
+    "s": 6.9,
+    "pack": 20,
+    "kgm": 0.91,
+    "lm": 1.03
+   },
+   {
+    "code": "AQ207PF63",
+    "d": 63,
+    "dn": 50,
+    "di": 45.8,
+    "s": 8.6,
+    "pack": 20,
+    "kgm": 1.45,
+    "lm": 1.63
+   },
+   {
+    "code": "AQ207PF75",
+    "d": 75,
+    "dn": null,
+    "di": 54.4,
+    "s": 10.3,
+    "pack": 12,
+    "kgm": 2.06,
+    "lm": 2.31
+   },
+   {
+    "code": "AQ207PF90",
+    "d": 90,
+    "dn": 65,
+    "di": 65.4,
+    "s": 12.3,
+    "pack": 8,
+    "kgm": 2.94,
+    "lm": 3.32
+   },
+   {
+    "code": "AQ207PF110",
+    "d": 110,
+    "dn": 80,
+    "di": 79.8,
+    "s": 15.1,
+    "pack": 4,
+    "kgm": 4.36,
+    "lm": 4.97
+   },
+   {
+    "code": "AQ207PF125",
+    "d": 125,
+    "dn": 90,
+    "di": 90.8,
+    "s": 17.1,
+    "pack": 4,
+    "kgm": 5.61,
+    "lm": 6.47
+   },
+   {
+    "code": "AQ207PF160",
+    "d": 160,
+    "dn": 115,
+    "di": 116.2,
+    "s": 21.9,
+    "pack": 4,
+    "kgm": 9.09,
+    "lm": 10.6
+   },
+   {
+    "code": "AQ207PF200",
+    "d": 200,
+    "dn": 145,
+    "di": 145.2,
+    "s": 27.4,
+    "pack": 4,
+    "kgm": 14.23,
+    "lm": 16.55
+   },
+   {
+    "code": "AQ207PF250",
+    "d": 250,
+    "dn": 180,
+    "di": 181.6,
+    "s": 34.2,
+    "pack": 4,
+    "kgm": 22.08,
+    "lm": 25.89
+   },
+   {
+    "code": "AQ207PF315",
+    "d": 315,
+    "dn": 230,
+    "di": 228.8,
+    "s": 43.1,
+    "pack": 4,
+    "kgm": 34.89,
+    "lm": 39.39,
+    "diAbgeleitet": true
+   }
+  ],
+  "note": "ASSUMPTION d315: Di am Screenshot als 229,8 gelesen. Das verletzt die Identitaet D minus 2S gleich Di (315 minus 86,2 gleich 228,8). In den anderen 13 Zeilen stimmt sie auf die Zehntelstelle, deshalb ist 228,8 uebernommen und als abgeleitet markiert. Am Original nachzulesen.",
+  "footnote": "Pipe can be delivered in 5.80 meter length on special request with product code AQ258F+dimension"
+ },
+ "k-pipe-pp-r-sdr-11": {
+  "id": "pipes/k-pipe-pp-r-sdr-11",
+  "mod": "kaqua-k-pipe-pp-r-sdr-11",
+  "de": "K-Rohr PP-R SDR 11",
+  "en": "K-Pipe PP-R SDR 11",
+  "sdr": 11,
+  "sClass": "S 5",
+  "press": "20 °C/1,6 MPa — 60 °C/0,8 MPa",
+  "mat": "PP-R",
+  "colour": "green with 1 red stripe",
+  "colourRead": false,
+  "src": "pipes-k-pipe-pp-r-sdr-11",
+  "img": "pg-k-pipe-pp-r-sdr-11",
+  "layers": [
+   [
+    "pprGreen",
+    1,
+    "PP-R"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "redStripe"
+   ]
+  ],
+  "tile": "Dünnwandiges Druckrohr für niedrigere Betriebsdrücke — mehr Durchfluss bei gleichem Außendurchmesser.",
+  "rows": [
+   {
+    "code": "AQ111P20",
+    "d": 20,
+    "dn": 15,
+    "di": 16.2,
+    "s": 1.9,
+    "pack": 100,
+    "kgm": 0.11,
+    "lm": 0.21
+   },
+   {
+    "code": "AQ111P25",
+    "d": 25,
+    "dn": 20,
+    "di": 20.4,
+    "s": 2.3,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.33
+   },
+   {
+    "code": "AQ111P32",
+    "d": 32,
+    "dn": 25,
+    "di": 26.2,
+    "s": 2.9,
+    "pack": 60,
+    "kgm": 0.26,
+    "lm": 0.54
+   },
+   {
+    "code": "AQ111P40",
+    "d": 40,
+    "dn": 32,
+    "di": 32.6,
+    "s": 3.7,
+    "pack": 40,
+    "kgm": 0.41,
+    "lm": 0.83
+   },
+   {
+    "code": "AQ111P50",
+    "d": 50,
+    "dn": 40,
+    "di": 40.8,
+    "s": 4.6,
+    "pack": 20,
+    "kgm": 0.64,
+    "lm": 1.31
+   },
+   {
+    "code": "AQ111P63",
+    "d": 63,
+    "dn": 50,
+    "di": 51.4,
+    "s": 5.8,
+    "pack": 20,
+    "kgm": 1.01,
+    "lm": 2.07
+   },
+   {
+    "code": "AQ111P75",
+    "d": 75,
+    "dn": null,
+    "di": 61.4,
+    "s": 6.8,
+    "pack": 12,
+    "kgm": 1.41,
+    "lm": 2.96
+   },
+   {
+    "code": "AQ111P90",
+    "d": 90,
+    "dn": 65,
+    "di": 73.6,
+    "s": 8.2,
+    "pack": 8,
+    "kgm": 2.03,
+    "lm": 4.25
+   },
+   {
+    "code": "AQ111P110",
+    "d": 110,
+    "dn": 80,
+    "di": 90,
+    "s": 10,
+    "pack": 4,
+    "kgm": 3.01,
+    "lm": 6.36
+   }
+  ]
+ },
+ "k-pipe-purple-pp-r-sdr-11": {
+  "id": "pipes/k-pipe-purple-pp-r-sdr-11",
+  "mod": "kaqua-k-pipe-purple-pp-r-sdr-11",
+  "de": "K-Rohr Violett PP-R SDR 11",
+  "en": "K-Pipe Purple PP-R SDR 11",
+  "sdr": 11,
+  "sClass": "S 5",
+  "press": "20 °C/1,6 MPa — 60 °C/0,8 MPa",
+  "mat": "PP-R",
+  "colour": "purple",
+  "colourRead": false,
+  "src": "pipes-k-pipe-purple-pp-r-sdr-11",
+  "img": "pg-k-pipe-purple-pp-r-sdr-11",
+  "layers": [
+   [
+    "pprPurple",
+    1,
+    "PP-R violett"
+   ]
+  ],
+  "stripes": [],
+  "tile": "Violette Kennfarbe für Betriebswasser und Regenwassernutzung — maßgleich zum grünen SDR-11-Rohr.",
+  "rows": [
+   {
+    "code": "AQ111PL20",
+    "d": 20,
+    "dn": 15,
+    "di": 16.2,
+    "s": 1.9,
+    "pack": 100,
+    "kgm": 0.11,
+    "lm": 0.21
+   },
+   {
+    "code": "AQ111PL25",
+    "d": 25,
+    "dn": 20,
+    "di": 20.4,
+    "s": 2.3,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.33
+   },
+   {
+    "code": "AQ111PL32",
+    "d": 32,
+    "dn": 25,
+    "di": 26.2,
+    "s": 2.9,
+    "pack": 60,
+    "kgm": 0.26,
+    "lm": 0.54
+   },
+   {
+    "code": "AQ111PL40",
+    "d": 40,
+    "dn": 32,
+    "di": 32.6,
+    "s": 3.7,
+    "pack": 40,
+    "kgm": 0.41,
+    "lm": 0.83
+   },
+   {
+    "code": "AQ111PL50",
+    "d": 50,
+    "dn": 40,
+    "di": 40.8,
+    "s": 4.6,
+    "pack": 20,
+    "kgm": 0.64,
+    "lm": 1.31
+   },
+   {
+    "code": "AQ111PL63",
+    "d": 63,
+    "dn": 50,
+    "di": 51.4,
+    "s": 5.8,
+    "pack": 20,
+    "kgm": 1.01,
+    "lm": 2.07
+   },
+   {
+    "code": "AQ111PL75",
+    "d": 75,
+    "dn": null,
+    "di": 61.4,
+    "s": 6.8,
+    "pack": 12,
+    "kgm": 1.41,
+    "lm": 2.96
+   },
+   {
+    "code": "AQ111PL90",
+    "d": 90,
+    "dn": 65,
+    "di": 73.6,
+    "s": 8.2,
+    "pack": 8,
+    "kgm": 2.03,
+    "lm": 4.25
+   },
+   {
+    "code": "AQ111PL110",
+    "d": 110,
+    "dn": 80,
+    "di": 90,
+    "s": 10,
+    "pack": 4,
+    "kgm": 3.01,
+    "lm": 6.36
+   }
+  ]
+ },
+ "k-pipe-pp-rct-sdr-74": {
+  "id": "pipes/k-pipe-pp-rct-sdr-7-4",
+  "mod": "kaqua-k-pipe-pp-rct-sdr-7-4",
+  "de": "K-Rohr PP-RCT SDR 7,4",
+  "en": "K-Pipe PP-RCT SDR 7,4",
+  "sdr": 7.4,
+  "sClass": "S 3,2",
+  "press": "20 °C/2,5 MPa — 60 °C/1,2 MPa",
+  "mat": "PP-RCT",
+  "colour": "green with 1 red stripe",
+  "colourRead": false,
+  "src": "pipes-k-pipe-pp-rct-sdr-74",
+  "img": "pg-k-pipe-pp-rct-sdr-74",
+  "layers": [
+   [
+    "pprGreen",
+    1,
+    "PP-RCT"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "redStripe"
+   ]
+  ],
+  "tile": "PP-RCT hält bei gleicher Wandstärke höhere Dauertemperaturen als PP-R.",
+  "rows": [
+   {
+    "code": "AQ20020",
+    "d": 20,
+    "dn": 15,
+    "di": 14.4,
+    "s": 2.8,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.16
+   },
+   {
+    "code": "AQ20025",
+    "d": 25,
+    "dn": 20,
+    "di": 18,
+    "s": 3.5,
+    "pack": 100,
+    "kgm": 0.23,
+    "lm": 0.25
+   },
+   {
+    "code": "AQ20032",
+    "d": 32,
+    "dn": 25,
+    "di": 23.2,
+    "s": 4.4,
+    "pack": 60,
+    "kgm": 0.37,
+    "lm": 0.42
+   },
+   {
+    "code": "AQ20040",
+    "d": 40,
+    "dn": 32,
+    "di": 29,
+    "s": 5.5,
+    "pack": 40,
+    "kgm": 0.57,
+    "lm": 0.66
+   },
+   {
+    "code": "AQ20050",
+    "d": 50,
+    "dn": 40,
+    "di": 36.2,
+    "s": 6.9,
+    "pack": 20,
+    "kgm": 0.88,
+    "lm": 1.03
+   },
+   {
+    "code": "AQ20063",
+    "d": 63,
+    "dn": 50,
+    "di": 45.8,
+    "s": 8.6,
+    "pack": 20,
+    "kgm": 1.39,
+    "lm": 1.63
+   },
+   {
+    "code": "AQ20075",
+    "d": 75,
+    "dn": null,
+    "di": 54.4,
+    "s": 10.3,
+    "pack": 12,
+    "kgm": 1.98,
+    "lm": 2.31
+   },
+   {
+    "code": "AQ20090",
+    "d": 90,
+    "dn": 65,
+    "di": 65.4,
+    "s": 12.3,
+    "pack": 8,
+    "kgm": 2.83,
+    "lm": 3.32
+   },
+   {
+    "code": "AQ200110",
+    "d": 110,
+    "dn": 80,
+    "di": 79.8,
+    "s": 15.1,
+    "pack": 4,
+    "kgm": 4.25,
+    "lm": 4.97
+   },
+   {
+    "code": "AQ200125",
+    "d": 125,
+    "dn": 90,
+    "di": 90.8,
+    "s": 17.1,
+    "pack": 4,
+    "kgm": 5.41,
+    "lm": 6.47
+   }
+  ]
+ },
+ "k-fiber-pipe-pp-rct-sdr-74": {
+  "id": "pipes/k-fiber-pipe-pp-rct-sdr-7-4",
+  "mod": "kaqua-k-fiber-pipe-pp-rct-sdr-7-4",
+  "de": "K-Fiber Rohr PP-RCT SDR 7,4",
+  "en": "K-Fiber Pipe PP-RCT SDR 7,4",
+  "sdr": 7.4,
+  "sClass": "S 3,2",
+  "press": "20 °C/2,5 MPa — 60 °C/1,2 MPa",
+  "mat": "PP-RCT GF",
+  "colour": "green with 4 grey stripes",
+  "colourRead": false,
+  "src": "pipes-k-fiber-pipe-pp-rct-sdr-74",
+  "img": "pg-k-fiber-pipe-pp-rct-sdr-74",
+  "star": true,
+  "layers": [
+   [
+    "pprGreen",
+    0.3,
+    "PP-RCT außen"
+   ],
+   [
+    "fiberLayer",
+    0.4,
+    "PP-RCT GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.3,
+    "PP-RCT innen"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "steel"
+   ],
+   [
+    90,
+    "steel"
+   ],
+   [
+    180,
+    "steel"
+   ],
+   [
+    270,
+    "steel"
+   ]
+  ],
+  "tile": "Faserverstärkt und temperaturfester: die Kombination für Heizungs- und Warmwasserleitungen.",
+  "rows": [
+   {
+    "code": "AQ200F20",
+    "d": 20,
+    "dn": 15,
+    "di": 14.4,
+    "s": 2.8,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.16
+   },
+   {
+    "code": "AQ200F25",
+    "d": 25,
+    "dn": 20,
+    "di": 18,
+    "s": 3.5,
+    "pack": 100,
+    "kgm": 0.25,
+    "lm": 0.25
+   },
+   {
+    "code": "AQ200F32",
+    "d": 32,
+    "dn": 25,
+    "di": 23.2,
+    "s": 4.4,
+    "pack": 60,
+    "kgm": 0.39,
+    "lm": 0.42
+   },
+   {
+    "code": "AQ200F40",
+    "d": 40,
+    "dn": 32,
+    "di": 29,
+    "s": 5.5,
+    "pack": 40,
+    "kgm": 0.59,
+    "lm": 0.66
+   },
+   {
+    "code": "AQ200F50",
+    "d": 50,
+    "dn": 40,
+    "di": 36.2,
+    "s": 6.9,
+    "pack": 20,
+    "kgm": 0.91,
+    "lm": 1.03
+   },
+   {
+    "code": "AQ200F63",
+    "d": 63,
+    "dn": 50,
+    "di": 45.8,
+    "s": 8.6,
+    "pack": 20,
+    "kgm": 1.45,
+    "lm": 1.63
+   },
+   {
+    "code": "AQ200F75",
+    "d": 75,
+    "dn": null,
+    "di": 54.4,
+    "s": 10.3,
+    "pack": 12,
+    "kgm": 2.06,
+    "lm": 2.31
+   },
+   {
+    "code": "AQ200F90",
+    "d": 90,
+    "dn": 65,
+    "di": 65.4,
+    "s": 12.3,
+    "pack": 8,
+    "kgm": 2.94,
+    "lm": 3.32
+   },
+   {
+    "code": "AQ200F110",
+    "d": 110,
+    "dn": 80,
+    "di": 79.8,
+    "s": 15.1,
+    "pack": 4,
+    "kgm": 4.36,
+    "lm": 4.89
+   },
+   {
+    "code": "AQ200F125",
+    "d": 125,
+    "dn": 90,
+    "di": 90.8,
+    "s": 17.1,
+    "pack": 4,
+    "kgm": 5.61,
+    "lm": 6.47
+   }
+  ]
+ },
+ "k-fiberclima-pipe-pp-rct-sdr-11": {
+  "id": "pipes/k-fiberclima-pipe-pp-rct-sdr-11",
+  "mod": "kaqua-k-fiberclima-pipe-pp-rct-sdr-11",
+  "de": "K-FiberClima Rohr PP-RCT SDR 11",
+  "en": "K-FiberClima Pipe PP-RCT SDR 11",
+  "sdr": 11,
+  "sClass": "S 5",
+  "press": "20 °C/1,6 MPa — 60 °C/0,8 MPa",
+  "mat": "PP-RCT GF",
+  "colour": "green with 4 grey stripes",
+  "colourRead": false,
+  "src": "pipes-k-fiberclima-pipe-pp-rct-sdr-11",
+  "img": "pg-k-fiberclima-pipe-pp-rct-sdr-11",
+  "layers": [
+   [
+    "pprGreen",
+    0.3,
+    "PP-RCT außen"
+   ],
+   [
+    "fiberLayer",
+    0.4,
+    "PP-RCT GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.3,
+    "PP-RCT innen"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "steel"
+   ],
+   [
+    90,
+    "steel"
+   ],
+   [
+    180,
+    "steel"
+   ],
+   [
+    270,
+    "steel"
+   ]
+  ],
+  "tile": "Für Klima- und Heizungsverteilung: faserverstärkt, dünnwandig, hoher Durchfluss.",
+  "note": "Die Zeilen d20 und d25 tragen in der Quelle ein Sternchen an der Spalte S min. und führen SDR-7,4-Maße (2,8 / 3,5 mm) statt SDR-11-Maßen. Ab d32 gilt die SDR-11-Reihe. Übernommen wie abgebildet; params.js prüft deshalb je Zeile gegen D/S und nicht gegen den Reihennennwert.",
+  "rows": [
+   {
+    "code": "AQ160F20",
+    "d": 20,
+    "dn": 15,
+    "di": 14.4,
+    "s": 2.8,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.16
+   },
+   {
+    "code": "AQ160F25",
+    "d": 25,
+    "dn": 20,
+    "di": 18,
+    "s": 3.5,
+    "pack": 100,
+    "kgm": 0.25,
+    "lm": 0.25
+   },
+   {
+    "code": "AQ160F32",
+    "d": 32,
+    "dn": 25,
+    "di": 26.2,
+    "s": 2.9,
+    "pack": 60,
+    "kgm": 0.28,
+    "lm": 0.54
+   },
+   {
+    "code": "AQ160F40",
+    "d": 40,
+    "dn": 32,
+    "di": 32.6,
+    "s": 3.7,
+    "pack": 40,
+    "kgm": 0.43,
+    "lm": 0.83
+   },
+   {
+    "code": "AQ160F50",
+    "d": 50,
+    "dn": 40,
+    "di": 40.8,
+    "s": 4.6,
+    "pack": 20,
+    "kgm": 0.67,
+    "lm": 1.31
+   },
+   {
+    "code": "AQ160F63",
+    "d": 63,
+    "dn": 50,
+    "di": 51.4,
+    "s": 5.8,
+    "pack": 20,
+    "kgm": 1.04,
+    "lm": 2.07
+   },
+   {
+    "code": "AQ160F75",
+    "d": 75,
+    "dn": null,
+    "di": 61.4,
+    "s": 6.8,
+    "pack": 12,
+    "kgm": 1.44,
+    "lm": 2.96
+   },
+   {
+    "code": "AQ160F90",
+    "d": 90,
+    "dn": 65,
+    "di": 73.6,
+    "s": 8.2,
+    "pack": 8,
+    "kgm": 2.08,
+    "lm": 4.25
+   },
+   {
+    "code": "AQ160F110",
+    "d": 110,
+    "dn": 80,
+    "di": 90,
+    "s": 10,
+    "pack": 4,
+    "kgm": 3.1,
+    "lm": 6.36
+   }
+  ]
+ },
+ "k-fiber-pipe-pp-r-sdr-9": {
+  "id": "pipes/k-fiber-pipe-pp-r-sdr-9",
+  "mod": "kaqua-k-fiber-pipe-pp-r-sdr-9",
+  "de": "K-Fiber Rohr PP-R SDR 9",
+  "en": "K-Fiber Pipe PP-R SDR 9",
+  "sdr": 9,
+  "sClass": "S 4",
+  "press": "20 °C/2,0 MPa — 60 °C/1,0 MPa",
+  "mat": "PP-R GF",
+  "colour": "green with 4 grey stripes",
+  "colourRead": false,
+  "src": "pipes-k-fiber-pipe-pp-r-sdr-9",
+  "img": "pg-k-fiber-pipe-pp-r-sdr-9",
+  "layers": [
+   [
+    "pprGreen",
+    0.3,
+    "PP-R außen"
+   ],
+   [
+    "fiberLayer",
+    0.4,
+    "PP-R GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.3,
+    "PP-R innen"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "steel"
+   ],
+   [
+    90,
+    "steel"
+   ],
+   [
+    180,
+    "steel"
+   ],
+   [
+    270,
+    "steel"
+   ]
+  ],
+  "tile": "Mittlere Druckstufe der Faserrohre — beginnt erst bei d32.",
+  "rows": [
+   {
+    "code": "AQ169PF32",
+    "d": 32,
+    "dn": 25,
+    "di": 24.8,
+    "s": 3.6,
+    "pack": 60,
+    "kgm": 0.33,
+    "lm": 0.48
+   },
+   {
+    "code": "AQ169PF40",
+    "d": 40,
+    "dn": 32,
+    "di": 31,
+    "s": 4.5,
+    "pack": 40,
+    "kgm": 0.52,
+    "lm": 0.75
+   },
+   {
+    "code": "AQ169PF50",
+    "d": 50,
+    "dn": 40,
+    "di": 38.8,
+    "s": 5.6,
+    "pack": 20,
+    "kgm": 0.8,
+    "lm": 1.18
+   },
+   {
+    "code": "AQ169PF63",
+    "d": 63,
+    "dn": 50,
+    "di": 48.8,
+    "s": 7.1,
+    "pack": 20,
+    "kgm": 1.25,
+    "lm": 1.87
+   },
+   {
+    "code": "AQ169PF75",
+    "d": 75,
+    "dn": null,
+    "di": 58.2,
+    "s": 8.4,
+    "pack": 12,
+    "kgm": 1.77,
+    "lm": 2.66
+   },
+   {
+    "code": "AQ169PF90",
+    "d": 90,
+    "dn": 65,
+    "di": 69.8,
+    "s": 10.1,
+    "pack": 8,
+    "kgm": 2.55,
+    "lm": 3.83
+   },
+   {
+    "code": "AQ169PF110",
+    "d": 110,
+    "dn": 80,
+    "di": 85.4,
+    "s": 12.3,
+    "pack": 4,
+    "kgm": 3.78,
+    "lm": 5.73
+   },
+   {
+    "code": "AQ169PF125",
+    "d": 125,
+    "dn": 100,
+    "di": 97,
+    "s": 14,
+    "pack": 4,
+    "kgm": 4.89,
+    "lm": 7.39
+   }
+  ]
+ },
+ "k-fiber-pipe-pp-r-sdr-11": {
+  "id": "pipes/k-fiber-pipe-pp-r-sdr-11",
+  "mod": "kaqua-k-fiber-pipe-pp-r-sdr-11",
+  "de": "K-Fiber Rohr PP-R SDR 11",
+  "en": "K-Fiber Pipe PP-R SDR 11",
+  "sdr": 11,
+  "sClass": "S 5",
+  "press": "20 °C/1,6 MPa — 60 °C/0,8 MPa",
+  "mat": "PP-R GF",
+  "colour": "green with 4 grey stripes",
+  "colourRead": false,
+  "src": "pipes-k-fiber-pipe-pp-r-sdr-11",
+  "img": "pg-k-fiber-pipe-pp-r-sdr-11",
+  "layers": [
+   [
+    "pprGreen",
+    0.3,
+    "PP-R außen"
+   ],
+   [
+    "fiberLayer",
+    0.4,
+    "PP-R GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.3,
+    "PP-R innen"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "steel"
+   ],
+   [
+    90,
+    "steel"
+   ],
+   [
+    180,
+    "steel"
+   ],
+   [
+    270,
+    "steel"
+   ]
+  ],
+  "tile": "Dünnwandiges Faserrohr für Verteilleitungen mit niedrigerem Betriebsdruck.",
+  "note": "Wie beim K-FiberClima tragen d20 und d25 ein Sternchen an S min. und führen SDR-7,4-Maße (2,8 / 3,5 mm). Ab d32 gilt SDR 11.",
+  "rows": [
+   {
+    "code": "AQ111PF20",
+    "d": 20,
+    "dn": 15,
+    "di": 14.4,
+    "s": 2.8,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.16
+   },
+   {
+    "code": "AQ111PF25",
+    "d": 25,
+    "dn": 20,
+    "di": 18,
+    "s": 3.5,
+    "pack": 100,
+    "kgm": 0.25,
+    "lm": 0.25
+   },
+   {
+    "code": "AQ111PF32",
+    "d": 32,
+    "dn": 25,
+    "di": 26.2,
+    "s": 2.9,
+    "pack": 60,
+    "kgm": 0.28,
+    "lm": 0.54
+   },
+   {
+    "code": "AQ111PF40",
+    "d": 40,
+    "dn": 32,
+    "di": 32.6,
+    "s": 3.7,
+    "pack": 40,
+    "kgm": 0.43,
+    "lm": 0.83
+   },
+   {
+    "code": "AQ111PF50",
+    "d": 50,
+    "dn": 40,
+    "di": 40.8,
+    "s": 4.6,
+    "pack": 20,
+    "kgm": 0.67,
+    "lm": 1.31
+   },
+   {
+    "code": "AQ111PF63",
+    "d": 63,
+    "dn": 50,
+    "di": 51.4,
+    "s": 5.8,
+    "pack": 20,
+    "kgm": 1.04,
+    "lm": 2.07
+   },
+   {
+    "code": "AQ111PF75",
+    "d": 75,
+    "dn": null,
+    "di": 61.4,
+    "s": 6.8,
+    "pack": 12,
+    "kgm": 1.44,
+    "lm": 2.96
+   },
+   {
+    "code": "AQ111PF90",
+    "d": 90,
+    "dn": 65,
+    "di": 73.6,
+    "s": 8.2,
+    "pack": 8,
+    "kgm": 2.08,
+    "lm": 4.25
+   },
+   {
+    "code": "AQ111PF110",
+    "d": 110,
+    "dn": 80,
+    "di": 90,
+    "s": 10,
+    "pack": 4,
+    "kgm": 3.1,
+    "lm": 6.36
+   }
+  ]
+ },
+ "k-fiber-pipe-pp-r-sdr-17": {
+  "id": "pipes/k-fiber-pipe-pp-r-sdr-17",
+  "mod": "kaqua-k-fiber-pipe-pp-r-sdr-17",
+  "de": "K-Fiber Rohr PP-R SDR 17",
+  "en": "K-Fiber Pipe PP-R SDR 17",
+  "sdr": 17,
+  "sClass": "S 8",
+  "press": "20 °C/1,0 MPa",
+  "mat": "PP-R GF",
+  "colour": "green with 4 grey stripes",
+  "colourRead": false,
+  "src": "pipes-k-fiber-pipe-pp-r-sdr-17",
+  "img": "pg-k-fiber-pipe-pp-r-sdr-17",
+  "layers": [
+   [
+    "pprGreen",
+    0.3,
+    "PP-R außen"
+   ],
+   [
+    "fiberLayer",
+    0.4,
+    "PP-R GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.3,
+    "PP-R innen"
+   ]
+  ],
+  "stripes": [
+   [
+    0,
+    "steel"
+   ],
+   [
+    90,
+    "steel"
+   ],
+   [
+    180,
+    "steel"
+   ],
+   [
+    270,
+    "steel"
+   ]
+  ],
+  "tile": "Die Großdurchmesser-Reihe, d90 bis d355 — für Steigleitungen und Hauptverteilung.",
+  "rows": [
+   {
+    "code": "AQ117PF90",
+    "d": 90,
+    "dn": 65,
+    "di": 79.2,
+    "s": 5.4,
+    "pack": 8,
+    "kgm": 1.46,
+    "lm": 4.93
+   },
+   {
+    "code": "AQ117PF110",
+    "d": 110,
+    "dn": 80,
+    "di": 96.8,
+    "s": 6.6,
+    "pack": 4,
+    "kgm": 2.16,
+    "lm": 7.36
+   },
+   {
+    "code": "AQ117PF125",
+    "d": 125,
+    "dn": 100,
+    "di": 110.2,
+    "s": 7.4,
+    "pack": 4,
+    "kgm": 2.77,
+    "lm": 9.54
+   },
+   {
+    "code": "AQ117PF160",
+    "d": 160,
+    "dn": 125,
+    "di": 141,
+    "s": 9.5,
+    "pack": 4,
+    "kgm": 4.52,
+    "lm": 15.61
+   },
+   {
+    "code": "AQ117PF200",
+    "d": 200,
+    "dn": 160,
+    "di": 176.2,
+    "s": 11.9,
+    "pack": 4,
+    "kgm": 7.05,
+    "lm": 24.38
+   },
+   {
+    "code": "AQ117PF250",
+    "d": 250,
+    "dn": 200,
+    "di": 220.4,
+    "s": 14.8,
+    "pack": 4,
+    "kgm": 10.9,
+    "lm": 38.15
+   },
+   {
+    "code": "AQ117PF315",
+    "d": 315,
+    "dn": 250,
+    "di": 277.6,
+    "s": 18.7,
+    "pack": 4,
+    "kgm": 17.26,
+    "lm": 60.52
+   },
+   {
+    "code": "AQ117PF355",
+    "d": 355,
+    "dn": 300,
+    "di": 312.8,
+    "s": 21.1,
+    "pack": 4,
+    "kgm": 21.83,
+    "lm": 76.85
+   }
+  ]
+ },
+ "k-fiber-uv-pipe-pp-rct-sdr-74": {
+  "id": "pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4",
+  "mod": "kaqua-k-fiber-uv-pipe-pp-rct-sdr-7-4",
+  "de": "K-Fiber UV Rohr PP-RCT SDR 7,4",
+  "en": "K-Fiber UV Pipe PP-RCT SDR 7,4",
+  "sdr": 7.4,
+  "sClass": "S 3,2",
+  "press": "20 °C/2,5 MPa — 60 °C/1,2 MPa",
+  "mat": "PP-RCT GF, UV-Schutzschicht",
+  "colour": "black outer layer",
+  "colourRead": false,
+  "src": "pipes-k-fiber-uv-pipe-pp-rct-sdr-74",
+  "img": "pg-k-fiber-uv-pipe-pp-rct-sdr-74",
+  "layers": [
+   [
+    "pprUvBlack",
+    0.22,
+    "UV-Schutzschicht schwarz"
+   ],
+   [
+    "pprGreen",
+    0.2,
+    "PP-RCT"
+   ],
+   [
+    "fiberLayer",
+    0.36,
+    "PP-RCT GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.22,
+    "PP-RCT innen"
+   ]
+  ],
+  "stripes": [],
+  "tile": "Schwarze UV-Schutzschicht für die Freiverlegung im Außenbereich — im Schnitt als vierte Lage sichtbar.",
+  "rows": [
+   {
+    "code": "AQ200FUV20",
+    "d": 20,
+    "dn": 15,
+    "di": 14.4,
+    "s": 2.8,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.16
+   },
+   {
+    "code": "AQ200FUV25",
+    "d": 25,
+    "dn": 20,
+    "di": 18,
+    "s": 3.5,
+    "pack": 100,
+    "kgm": 0.25,
+    "lm": 0.25
+   },
+   {
+    "code": "AQ200FUV32",
+    "d": 32,
+    "dn": 25,
+    "di": 23.2,
+    "s": 4.4,
+    "pack": 60,
+    "kgm": 0.39,
+    "lm": 0.42
+   },
+   {
+    "code": "AQ200FUV40",
+    "d": 40,
+    "dn": 32,
+    "di": 29,
+    "s": 5.5,
+    "pack": 40,
+    "kgm": 0.59,
+    "lm": 0.66
+   },
+   {
+    "code": "AQ200FUV50",
+    "d": 50,
+    "dn": 40,
+    "di": 36.2,
+    "s": 6.9,
+    "pack": 20,
+    "kgm": 0.91,
+    "lm": 1.03
+   },
+   {
+    "code": "AQ200FUV63",
+    "d": 63,
+    "dn": 50,
+    "di": 45.8,
+    "s": 8.6,
+    "pack": 20,
+    "kgm": 1.45,
+    "lm": 1.63
+   },
+   {
+    "code": "AQ200FUV75",
+    "d": 75,
+    "dn": null,
+    "di": 54.4,
+    "s": 10.3,
+    "pack": 12,
+    "kgm": 2.06,
+    "lm": 2.31
+   },
+   {
+    "code": "AQ200FUV90",
+    "d": 90,
+    "dn": 65,
+    "di": 65.4,
+    "s": 12.3,
+    "pack": 8,
+    "kgm": 2.94,
+    "lm": 3.32
+   },
+   {
+    "code": "AQ200FUV110",
+    "d": 110,
+    "dn": 80,
+    "di": 79.8,
+    "s": 15.1,
+    "pack": 4,
+    "kgm": 4.36,
+    "lm": 4.97
+   }
+  ]
+ },
+ "k-fiber-uv-pipe-pp-r-sdr-74": {
+  "id": "pipes/k-fiber-uv-pipe-pp-r-sdr-7-4",
+  "mod": "kaqua-k-fiber-uv-pipe-pp-r-sdr-7-4",
+  "de": "K-Fiber UV Rohr PP-R SDR 7,4",
+  "en": "K-Fiber UV Pipe PP-R SDR 7,4",
+  "sdr": 7.4,
+  "sClass": "S 3,2",
+  "press": "20 °C/2,5 MPa — 60 °C/1,2 MPa",
+  "mat": "PP-R GF, UV-Schutzschicht",
+  "colour": "black outer layer",
+  "colourRead": false,
+  "src": "pipes-k-fiber-uv-pipe-pp-r-sdr-74",
+  "img": "pg-k-fiber-uv-pipe-pp-r-sdr-74",
+  "layers": [
+   [
+    "pprUvBlack",
+    0.22,
+    "UV-Schutzschicht schwarz"
+   ],
+   [
+    "pprGreen",
+    0.2,
+    "PP-R"
+   ],
+   [
+    "fiberLayer",
+    0.36,
+    "PP-R GF, glasfaserverstärkt"
+   ],
+   [
+    "pprGreen",
+    0.22,
+    "PP-R innen"
+   ]
+  ],
+  "stripes": [],
+  "tile": "UV-geschützte Ausführung des Standard-Faserrohrs, bis d125.",
+  "rows": [
+   {
+    "code": "AQ200PFUV20",
+    "d": 20,
+    "dn": 15,
+    "di": 14.4,
+    "s": 2.8,
+    "pack": 100,
+    "kgm": 0.16,
+    "lm": 0.16
+   },
+   {
+    "code": "AQ200PFUV25",
+    "d": 25,
+    "dn": 20,
+    "di": 18,
+    "s": 3.5,
+    "pack": 100,
+    "kgm": 0.25,
+    "lm": 0.25
+   },
+   {
+    "code": "AQ200PFUV32",
+    "d": 32,
+    "dn": 25,
+    "di": 23.2,
+    "s": 4.4,
+    "pack": 60,
+    "kgm": 0.39,
+    "lm": 0.42
+   },
+   {
+    "code": "AQ200PFUV40",
+    "d": 40,
+    "dn": 32,
+    "di": 29,
+    "s": 5.5,
+    "pack": 40,
+    "kgm": 0.59,
+    "lm": 0.66
+   },
+   {
+    "code": "AQ200PFUV50",
+    "d": 50,
+    "dn": 40,
+    "di": 36.2,
+    "s": 6.9,
+    "pack": 20,
+    "kgm": 0.91,
+    "lm": 1.03
+   },
+   {
+    "code": "AQ200PFUV63",
+    "d": 63,
+    "dn": 50,
+    "di": 45.8,
+    "s": 8.6,
+    "pack": 20,
+    "kgm": 1.45,
+    "lm": 1.63
+   },
+   {
+    "code": "AQ200PFUV75",
+    "d": 75,
+    "dn": null,
+    "di": 54.4,
+    "s": 10.3,
+    "pack": 12,
+    "kgm": 2.06,
+    "lm": 2.31
+   },
+   {
+    "code": "AQ200PFUV90",
+    "d": 90,
+    "dn": 65,
+    "di": 65.4,
+    "s": 12.3,
+    "pack": 8,
+    "kgm": 2.94,
+    "lm": 3.32
+   },
+   {
+    "code": "AQ200PFUV110",
+    "d": 110,
+    "dn": 80,
+    "di": 79.8,
+    "s": 15.1,
+    "pack": 4,
+    "kgm": 4.36,
+    "lm": 4.97
+   },
+   {
+    "code": "AQ200PFUV125",
+    "d": 125,
+    "dn": 90,
+    "di": 90.8,
+    "s": 17.1,
+    "pack": 4,
+    "kgm": 5.61,
+    "lm": 6.47
+   }
+  ]
+ }
+}

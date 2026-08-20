@@ -11,7 +11,7 @@ import { Handshake, Shield, Thermometer, Wrench, Layers, Factory } from '@/compo
 
 export const messingPolypropylen: NewsPost = {
   slug: 'messing-trifft-polypropylen-uebergaenge-bestand',
-  date: 'Wissen',
+  date: '2024-11-15',
   tag: 'Material',
   title: {
     de: 'Messing trifft Polypropylen: Perfekte Übergänge',

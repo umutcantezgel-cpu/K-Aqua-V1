@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 export function Co2TooltipPanel({ pct, title, rows, delta, note, pinned }: any) {

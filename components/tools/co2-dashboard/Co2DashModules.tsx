@@ -1,4 +1,6 @@
 // @ts-nocheck
+'use client';
+
 // Übernommener Fertigbaustein (ursprünglich aus export-co2-dashboard/ bzw.
 // export-water-cursor/). Läuft produktiv, ist aber nicht nach den Typregeln
 // dieses Projekts geschrieben. Vom Typecheck ausgenommen — analog zur bereits

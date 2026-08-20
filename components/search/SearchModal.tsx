@@ -224,11 +224,14 @@ export default function SearchModal({ isOpen, onClose }: Props) {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.96, y: -10 }}
           transition={{ type: 'spring', damping: 28, stiffness: 350 }}
+          role="dialog"
+          aria-modal="true"
+          aria-label={locale === 'de' ? 'Globale Suche' : locale === 'ar' ? 'البحث الشامل' : 'Global Search'}
           className="relative w-full max-w-2xl bg-card border-2 border-card-border rounded-3xl shadow-lift overflow-hidden flex flex-col max-h-[85vh] z-10"
         >
           {/* Header Search Input */}
-          <div className="relative flex items-center px-4 py-3.5 border-b border-card-border">
-            <Search className="w-5 h-5 text-primary shrink-0 ml-1" />
+          <div role="search" className="relative flex items-center px-4 py-3.5 border-b border-card-border">
+            <Search className="w-5 h-5 text-primary shrink-0 ms-1" />
             <input
               ref={inputRef}
               type="text"
@@ -241,7 +244,7 @@ export default function SearchModal({ isOpen, onClose }: Props) {
                   ? 'ابحث عن الأنابيب، العزل الصوتي، نماذج BIM، المعايير...'
                   : 'Search pipes, SDR, acoustics, BIM, DVGW...'
               }
-              className="w-full pl-3 pr-10 py-1.5 text-base sm:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
+              className="w-full ps-3 pe-10 py-1.5 text-base sm:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
             />
             {query ? (
               <button
@@ -395,8 +398,8 @@ export default function SearchModal({ isOpen, onClose }: Props) {
 
                     <div className="shrink-0 flex items-center gap-1 text-muted-foreground self-center">
                       <ArrowRight
-                        className={`w-4 h-4 transition-transform ${
-                          isSelected ? 'translate-x-1 text-primary' : 'group-hover:translate-x-1'
+                        className={`w-4 h-4 rtl-flip transition-transform ${
+                          isSelected ? 'translate-x-1 rtl:-translate-x-1 text-primary' : 'group-hover:translate-x-1 group-hover:rtl:-translate-x-1'
                         }`}
                       />
                     </div>

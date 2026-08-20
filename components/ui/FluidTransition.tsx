@@ -34,8 +34,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import type { AnchorHTMLAttributes, MouseEvent as ReactMouseEvent, ReactNode } from 'react';
-import { Link } from '@/lib/i18n/navigation';
-import { usePathname, useRouter } from 'next/navigation';
+import { Link, usePathname, useRouter } from '@/lib/i18n/navigation';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { BLOB_RADII, MASK } from './motion-physics';
 

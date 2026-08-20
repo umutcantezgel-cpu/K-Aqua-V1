@@ -24,17 +24,17 @@ export interface StatBandProps {
   cols?: number;
 }
 
-export function StatBand({ stats, cols = 220 }: StatBandProps) {
+export function StatBand({ stats }: StatBandProps) {
   return (
-    <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar md:grid gap-4 pb-6 md:pb-0 -mx-6 px-6 md:mx-0 md:px-0" style={{ gridTemplateColumns: `repeat(auto-fit, minmax(${cols}px, 1fr))` }}>
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
       {(stats || []).map((s, i) => (
-        <Reveal key={i} delay={i * 0.07} className="w-[85vw] sm:w-[320px] md:w-auto shrink-0 snap-center flex">
-          <Card className="h-full justify-center gap-0 w-full shadow-sm md:shadow-none">
-            <span className="font-heading text-h3 font-extrabold text-foreground">
+        <Reveal key={i} delay={i * 0.07} className="w-full flex">
+          <Card className="h-full justify-center gap-0 w-full p-4 sm:p-6 shadow-sm rounded-2xl border border-card-border">
+            <span className="font-heading text-2xl sm:text-3xl lg:text-h3 font-extrabold text-foreground">
               {s.n}
               {s.u ? <span className="ms-1 text-[0.45em] font-bold text-accent-strong">{s.u}</span> : null}
             </span>
-            <span className="text-small text-muted-foreground">{s.l}</span>
+            <span className="text-xs sm:text-small text-muted-foreground mt-1">{s.l}</span>
           </Card>
         </Reveal>
       ))}

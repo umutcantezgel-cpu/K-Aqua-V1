@@ -130,9 +130,9 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
   return (
     <div className="w-full flex flex-col gap-8">
       {/* Search Input Bar */}
-      <div className="relative w-full">
+      <div role="search" className="relative w-full">
         <div className="relative flex items-center bg-card border-2 border-card-border focus-within:border-primary rounded-2xl shadow-lift overflow-hidden transition-all duration-200">
-          <div className="pl-5 pr-3 text-muted-foreground flex items-center justify-center">
+          <div className="ps-5 pe-3 text-muted-foreground flex items-center justify-center">
             <Search className="w-6 h-6 text-primary" />
           </div>
           <input
@@ -146,13 +146,13 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
                 ? 'ابحث عن المصطلحات، المقالات، المعايير، SDR، نماذج BIM...'
                 : 'Search terms, articles, standards, SDR, BIM, welding...'
             }
-            className="w-full py-4 pr-12 text-base md:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
+            className="w-full py-4 pe-12 text-base md:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
             autoFocus
           />
           {query && (
             <button
               onClick={() => setQuery('')}
-              className="absolute right-4 p-2 rounded-full hover:bg-background-subtle text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              className="absolute end-4 p-2 rounded-full hover:bg-background-subtle text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               aria-label="Clear search"
             >
               <X className="w-5 h-5" />
@@ -264,7 +264,7 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
                             {badge}
                           </span>
                         </div>
-                        <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0" />
+                        <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:rtl:-translate-x-1 rtl-flip transition-all shrink-0" />
                       </div>
 
                       {/* Origin Path */}

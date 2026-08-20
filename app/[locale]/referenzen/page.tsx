@@ -2,7 +2,9 @@ import React from "react";
 import { getTranslations, getMessages, setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { Link } from '@/lib/i18n/navigation';
@@ -10,6 +12,11 @@ import { Link } from '@/lib/i18n/navigation';
 import {
   Droplet,
   Factory,
+  Gauge,
+  ShieldCheck,
+  Ruler,
+  Globe2,
+  Flame,
 } from "lucide-react";
 
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
@@ -35,10 +42,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ReferenzenPage({ params }: Props) {
   const { locale } = await params;
-  const jsonLd = await getWebPageJsonLd(locale, "references");
-  const t = await getTranslations({ locale, namespace: "referenzenPage" });
+  setRequestLocale(locale);
   const tPages = await getTranslations({ locale, namespace: "pages" });
   const meta = tPages.raw("references") as string[];
+  const t = await getTranslations({ locale, namespace: "referenzenPage" });
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/referenzen",
+      type: "CollectionPage",
+      name: meta[0] || "Referenzen | K-Aqua",
+      description: meta[1] || "Globale Referenzen und Case Studies von K-Aqua Projekten.",
+      breadcrumbId: `${siteUrl}/${locale}/referenzen#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("references") || (locale === "de" ? "Referenzen" : locale === "ar" ? "المشاريع" : "References"), path: "/referenzen" },
+    ]),
+  ]);
   const metricKeys = ["pressure", "isolation", "tolerance", "network", "welding"] as const;
   const messages = await getMessages();
 
@@ -87,7 +112,7 @@ export default async function ReferenzenPage({ params }: Props) {
               </div>
               <div className="space-y-8">
                 <p>{t('manifesto.p3')}</p>
-                <div className="border-l-2 border-primary pl-6 py-2 mt-4">
+                <div className="border-s-2 border-primary ps-6 py-2 mt-4">
                   <p className="text-foreground font-semibold">{t('manifesto.p4')}</p>
                 </div>
               </div>
@@ -96,30 +121,73 @@ export default async function ReferenzenPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Technical Metrics Section */}
+      <section className="py-24 bg-background-subtle border-b border-card-border">
+        <div className="max-w-[1400px] mx-auto px-6">
+          <div className="text-start max-w-3xl mb-16">
+            <span className="text-tiny uppercase tracking-[0.2em] font-mono text-primary font-bold block mb-3">
+              {t('metrics.eyebrow')}
+            </span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black tracking-tight text-foreground uppercase">
+              {t('metrics.title1')} <span className="text-primary">{t('metrics.title2')}</span>
+            </h2>
+            <p className="text-lead text-muted-foreground mt-4 leading-relaxed">
+              {t('metrics.lead')}
+            </p>
+          </div>
 
-
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {metricKeys.map((key) => {
+              const iconsMap: Record<string, React.ReactNode> = {
+                pressure: <Gauge className="w-6 h-6 text-primary" />,
+                isolation: <ShieldCheck className="w-6 h-6 text-primary" />,
+                tolerance: <Ruler className="w-6 h-6 text-primary" />,
+                network: <Globe2 className="w-6 h-6 text-primary" />,
+                welding: <Flame className="w-6 h-6 text-primary" />,
+              };
+              return (
+                <div key={key} className="bg-card border border-card-border rounded-2xl p-8 flex flex-col justify-between hover:border-primary/40 transition-colors">
+                  <div>
+                    <div className="w-12 h-12 rounded-xl bg-primary-soft flex items-center justify-center mb-6">
+                      {iconsMap[key]}
+                    </div>
+                    <h3 className="font-heading font-bold text-xl text-foreground mb-3">
+                      {t(`metrics.items.${key}.title`)}
+                    </h3>
+                    <p className="text-small text-muted-foreground leading-relaxed">
+                      {t(`metrics.items.${key}.desc`)}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
 
       {/* Signature: Hover Preview List (real reference projects) */}
-      <section className="py-32 bg-background border-b border-card-border">
+      <section id="projekte" className="py-32 bg-background border-b border-card-border scroll-mt-24">
         <div className="max-w-[1400px] mx-auto px-6">
           <HoverPreviewList />
         </div>
       </section>
 
       {/* Interactive Google Maps Suite */}
-      <KAquaMapsSuite />
+      <div id="karten" className="scroll-mt-24">
+        <KAquaMapsSuite />
+      </div>
 
       {/* Final Call to Action */}
       <section className="py-48 bg-background relative overflow-hidden flex items-center justify-center">
         {/* Grid and gradients */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(var(--primary),0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(var(--primary),0.05)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,rgba(var(--primary),0.15)_0%,transparent_60%)] pointer-events-none" />
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,var(--card-border)_1px,transparent_1px),linear-gradient(to_bottom,var(--card-border)_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-30 pointer-events-none" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,var(--primary-soft)_0%,transparent_60%)] pointer-events-none" />
 
         <div className="relative z-10 text-center max-w-5xl px-6">
-          <Factory className="w-24 h-24 text-primary mx-auto mb-12 opacity-90 drop-shadow-[0_0_15px_rgba(var(--primary),0.5)]" />
+          <Factory className="w-24 h-24 text-primary mx-auto mb-12 opacity-90 drop-shadow-[0_0_15px_var(--primary)]" />
           <h2 className="text-6xl md:text-8xl font-heading font-black tracking-tighter mb-10 uppercase leading-none">
             {t('cta.title1')} <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary/50">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent-strong">
               {t('cta.title2')}
             </span>
           </h2>
@@ -127,12 +195,12 @@ export default async function ReferenzenPage({ params }: Props) {
             {t('cta.lead')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="px-14 py-6 bg-primary text-primary-foreground font-mono font-black tracking-[0.2em] uppercase text-lg hover:scale-105 hover:shadow-[0_0_40px_rgba(var(--primary),0.6)] transition-all duration-300">
+            <Link href="/trust-center" className="px-14 py-6 bg-primary text-primary-foreground font-mono font-black tracking-[0.2em] uppercase text-lg hover:scale-105 transition-all duration-300 rounded-full">
               {t('cta.btn1')}
-            </button>
-            <button className="px-14 py-6 bg-transparent border-2 border-primary text-primary font-mono font-bold tracking-[0.2em] uppercase text-lg hover:bg-primary/10 transition-all duration-300">
+            </Link>
+            <Link href="/projektanfrage" className="px-14 py-6 bg-transparent border-2 border-primary text-primary font-mono font-bold tracking-[0.2em] uppercase text-lg hover:bg-primary/10 transition-all duration-300 rounded-full">
               {t('cta.btn2')}
-            </button>
+            </Link>
           </div>
         </div>
       </section>

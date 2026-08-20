@@ -1,11 +1,12 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import RfqWizard from "@/components/tools/RfqWizard";
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getServiceGraphNode, getFaqGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import { SeoExpand } from "@/components/seo/SeoExpand";
 import type { Metadata } from "next";
-import { setRequestLocale } from 'next-intl/server';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -16,22 +17,53 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("rfq") as string[];
-  const baseMetadata = constructMetadata({
-    title: meta[0] ?? "",
-    description: meta[1] ?? "",
+  return constructMetadata({
+    title: meta[0] ?? "Projektanfrage & Ausschreibung | K-Aqua",
+    description: meta[1] ?? "Fordern Sie jetzt ein unverbindliches B2B-Angebot oder technische Auslegungen an.",
     path: "/projektanfrage",
     locale,
   });
-  return {
-    ...baseMetadata,
-    robots: { index: false, follow: false }
-  };
 }
 
 export default async function ProjektanfragePage({ params }: Props) {
   const { locale } = await params;
-  const jsonLd = await getWebPageJsonLd(locale, "rfq");
+  setRequestLocale(locale);
   const tRfq = await getTranslations({ locale, namespace: "rfq" });
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("rfq") as string[];
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+
+  const faqsRaw = tRfq.raw("faqs") as Array<{ q: string; a: string }>;
+  const faqs = Array.isArray(faqsRaw) ? faqsRaw : [];
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/projektanfrage",
+      type: "ContactPage",
+      name: meta[0] || "Projektanfrage | K-Aqua",
+      description: meta[1] || "B2B Projektanfrage für PP-R & PP-RCT Rohrleitungssysteme.",
+      breadcrumbId: `${siteUrl}/${locale}/projektanfrage#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/projektanfrage#service`,
+    }),
+    getServiceGraphNode({
+      locale,
+      path: "/projektanfrage",
+      name: "K-Aqua Projektberatung & Angebotserstellung",
+      description: "Projektbezogene Dimensionierung, Mengenkalkulation und Angebotserstellung.",
+      serviceType: "B2B Project Quotation & Sizing",
+      areaServed: "Worldwide",
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("quote") || (locale === "de" ? "Projektanfrage" : locale === "ar" ? "طلب مشروع" : "Project Inquiry"), path: "/projektanfrage" },
+    ]),
+    getFaqGraphNode(
+      faqs.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/projektanfrage`
+    ),
+  ]);
 
   const rfqData = {
     locale,
@@ -69,9 +101,7 @@ export default async function ProjektanfragePage({ params }: Props) {
   const infoText1 = tRfq("infoText1");
   const infoText2 = tRfq("infoText2");
   const faqTitle = tRfq("faqTitle");
-  const faqs = tRfq.raw("faqs") as Array<{ q: string; a: string }>;
 
-  
   return (
     <>
       <JsonLd schema={jsonLd} />

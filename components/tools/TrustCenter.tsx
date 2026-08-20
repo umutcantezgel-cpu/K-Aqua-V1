@@ -1,13 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 import { Chip } from "@/components/ui/Chip";
 import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
-import { Download, FileText, Check } from "@/components/ui/icon";
+import { Download, Check } from "@/components/ui/icon";
+import { Box, Sparkles, Layers } from "lucide-react";
+import { Link } from "@/lib/i18n/navigation";
 
 // TODO(content) certificate numbers
 const CERT_NUMBERS = [
@@ -22,7 +25,6 @@ const VALIDITY_DATES = [
   "10/2025 – 10/2028"
 ];
 
-const DOWNLOAD_URL = "/pdf/kwt-iso-zertifikat-de.pdf";
 const SUPPORT_EMAIL_PREFIX = "mailto:support@k-aqua.de";
 const QUERY_SUBJECT = "?subject=";
 const QUERY_BODY = "&body=";
@@ -67,8 +69,11 @@ interface TrustCenterProps {
 }
 
 export function TrustCenter({ data }: TrustCenterProps) {
+  const locale = useLocale();
+  const t = useTranslations("trust");
   const [activeGenauIdx, setActiveGenauIdx] = useState<number>(0);
   const [pickedDocs, setPickedDocs] = useState<string[]>([]);
+  const downloadUrl = locale === "de" ? "/pdf/kwt-iso-zertifikat-de.pdf" : "/pdf/kwt-iso-certificates-en.pdf";
 
   const handleToggleDoc = (doc: string) => {
     if (pickedDocs.includes(doc)) {
@@ -147,7 +152,7 @@ export function TrustCenter({ data }: TrustCenterProps) {
                     </div>
                     <div className="w-full mt-6">
                       <Button
-                        href={DOWNLOAD_URL}
+                        href={downloadUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         variant="ghost"
@@ -243,6 +248,45 @@ export function TrustCenter({ data }: TrustCenterProps) {
               </Reveal>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* 3D CAD & BIM Data Room Section */}
+      <section className="py-12 border-b border-card-border bg-gradient-to-b from-card to-background">
+        <div className="max-w-[1200px] mx-auto px-6">
+          <Reveal>
+            <div className="p-8 sm:p-12 rounded-3xl bg-card border border-card-border shadow-lift flex flex-col lg:flex-row items-center justify-between gap-8">
+              <div className="flex flex-col gap-3 text-start max-w-2xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-soft text-primary text-xs font-heading font-bold w-fit">
+                  <Box className="w-4 h-4" />
+                  <span>{t("bimEyebrow")}</span>
+                </div>
+                <h2 className="text-2xl sm:text-3xl font-heading font-bold text-foreground">
+                  {t("bimTitle")}
+                </h2>
+                <p className="text-muted-foreground text-sm sm:text-base leading-relaxed">
+                  {t("bimLead")}
+                </p>
+              </div>
+
+              <div className="flex flex-col sm:flex-row items-center gap-3 shrink-0 w-full lg:w-auto">
+                <Link
+                  href="/3d"
+                  className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-primary text-primary-foreground font-heading font-bold text-sm hover:bg-primary-hover transition-all shadow-diffuse inline-flex items-center justify-center gap-2"
+                >
+                  <Sparkles className="w-4 h-4" />
+                  <span>{t("bimCta")}</span>
+                </Link>
+                <Link
+                  href="/3d"
+                  className="w-full sm:w-auto px-5 py-3.5 rounded-xl bg-background border border-card-border hover:bg-background-subtle text-foreground font-heading font-semibold text-sm transition-colors inline-flex items-center justify-center gap-2"
+                >
+                  <Layers className="w-4 h-4 text-muted-foreground" />
+                  <span>CAD-QA</span>
+                </Link>
+              </div>
+            </div>
+          </Reveal>
         </div>
       </section>
 

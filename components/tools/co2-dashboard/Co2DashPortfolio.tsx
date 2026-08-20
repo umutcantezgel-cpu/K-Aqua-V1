@@ -1,3 +1,6 @@
+// @ts-nocheck
+'use client';
+
 import React, { useState as uPS, useMemo as uPM } from 'react';
 import { Icons } from './Co2UI';
 import { MiniSparkline } from './Co2ChartCore';

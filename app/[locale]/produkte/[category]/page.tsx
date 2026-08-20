@@ -6,6 +6,7 @@ import { getTranslations, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import pick from "lodash/pick";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { wrapGraph, getWebPageGraphNode, getFaqGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -13,28 +14,19 @@ import { getProductsByCategory, getProductCategories } from "@/lib/products";
 import { notFound } from "next/navigation";
 import { Link } from "@/lib/i18n/navigation";
 import { Package, ArrowRight, ShieldCheck, PenTool } from "lucide-react";
-import { routing } from "@/lib/i18n/routing";
+import { routing, coreLocales } from "@/lib/i18n/routing";
 import { setRequestLocale } from 'next-intl/server';
 import { MediaSlot } from "@/components/ui/MediaSlot";
-import Image from "next/image";
 import ProductFAQ from '@/components/product/ProductFAQ';
 
 interface Props {
   params: Promise<{ locale: string; category: string }>;
 }
 
-// Generate static params for categories
+export const dynamicParams = true;
+
 export function generateStaticParams() {
-  const categories = getProductCategories();
-  const params: { locale: string; category: string }[] = [];
-  
-  for (const locale of routing.locales) {
-    for (const category of categories) {
-      params.push({ locale, category });
-    }
-  }
-  
-  return params;
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -95,9 +87,10 @@ export default async function CategoryPage({ params }: Props) {
   let catKey = "fallback";
   const lowerCat = category.toLowerCase();
   if (lowerCat.includes('pipes')) catKey = 'pipes';
-  else if (lowerCat.includes('fitting') || lowerCat.includes('transition')) catKey = 'fittings';
-  else if (lowerCat.includes('weld-in-saddles')) catKey = 'weldInSaddles';
-  else if (lowerCat.includes('accessories')) catKey = 'accessories';
+  else if (lowerCat.includes('transition-fittings') || lowerCat.includes('transitionfittings') || lowerCat.includes('transition')) catKey = 'transitionFittings';
+  else if (lowerCat.includes('fitting')) catKey = 'fittings';
+  else if (lowerCat.includes('weld-in-saddles') || lowerCat.includes('saddles') || lowerCat.includes('einschweiss')) catKey = 'weldInSaddles';
+  else if (lowerCat.includes('accessories') || lowerCat.includes('zubehoer')) catKey = 'accessories';
   else if (lowerCat.includes('valve')) catKey = 'valves';
   else if (lowerCat.includes('tools')) catKey = 'tools';
 
@@ -107,8 +100,6 @@ export default async function CategoryPage({ params }: Props) {
   let advantages: string[] = [];
   
   let metaTitleExact = `${category.toUpperCase()} | K-Aqua`;
-
-
 
   try {
     if (t.has(`${catKey}.advTitle`)) {
@@ -133,29 +124,15 @@ export default async function CategoryPage({ params }: Props) {
     // Ignore translation misses
   }
 
-  const siteUrl = getBaseUrl();
-  const webPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": seoTitle,
-    "description": seoText || `K-Aqua ${category} Produkte`,
-    "url": `${siteUrl}/${locale}/produkte/${category}`,
-    "mainEntity": {
-      "@type": "ItemList",
-      "itemListElement": products.map((p, idx) => ({
-        "@type": "ListItem",
-        "position": idx + 1,
-        "url": `${siteUrl}/${locale}/produkte/${category}/${p.slug}`
-      }))
-    }
-  };
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const categoryPageUrl = `${siteUrl}/${locale}/produkte/${category}`;
 
   const tc = await getTranslations({ locale, namespace: "products.category" });
   const tProd = await getTranslations({ locale, namespace: "products" });
 
   const messages = await getMessages();
 
-  let rawFaqs: { q: string, a: string }[] = [];
+  let rawFaqs: { q: string; a: string }[] = [];
   try {
     if (tProd.has(`seoArticle.${catKey}.faq`)) {
       rawFaqs = tProd.raw(`seoArticle.${catKey}.faq`) || [];
@@ -170,14 +147,44 @@ export default async function CategoryPage({ params }: Props) {
     { q: tProd('labels.faqFallbackQ3') || "Wie erfolgt die Installation?", a: tProd('labels.faqFallbackA3') || "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen." }
   ];
 
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: `/produkte/${category}`,
+      type: "CollectionPage",
+      name: seoTitle,
+      description: seoText || `K-Aqua ${category} Produkte`,
+      breadcrumbId: `${categoryPageUrl}#breadcrumb`,
+      mainEntityId: `${categoryPageUrl}#itemlist`,
+    }),
+    {
+      "@type": "ItemList",
+      "@id": `${categoryPageUrl}#itemlist`,
+      name: seoTitle,
+      itemListElement: products.map((p, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `${siteUrl}/${locale}/produkte/${category}/${p.slug}`,
+      })),
+    },
+    getFaqGraphNode(
+      faqs.map((f) => ({ question: f.q, answer: f.a })),
+      categoryPageUrl
+    ),
+    getBreadcrumbGraphNode(locale, [
+      { name: locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home", path: "/" },
+      { name: locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products", path: "/produkte" },
+      { name: seoTitle, path: `/produkte/${category}` },
+    ]),
+  ]);
+
   const faqTitle = tProd('labels.faqTitle') || "Häufig gestellte Fragen (FAQ)";
 
   return (
     <NextIntlClientProvider messages={pick(messages, 'common', 'nav')}>
-        <JsonLd schema={webPageSchema} />
+      <JsonLd schema={jsonLd} />
 
-        
-        {/* Category Header with Breadcrumbs & Title */}
+      {/* Category Header with Breadcrumbs & Title */}
       <section className="relative pt-32 pb-20 overflow-hidden bg-background">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
         <div className="absolute top-1/4 right-0 w-1/2 h-1/2 bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
@@ -213,14 +220,95 @@ export default async function CategoryPage({ params }: Props) {
             <MediaSlot 
               alt={seoTitle} 
               aspectRatio="4/3" 
-              shapeVariant="sweep-l" 
               label={`K-Aqua ${seoTitle}`} 
-              className="shadow-2xl"
+              className="shadow-md"
               priority
             />
           </div>
         </div>
       </section>
+
+      {/* Specialized Feature Showcase for Weld-In Saddles */}
+      {catKey === 'weldInSaddles' && (() => {
+        const saddleContent = {
+          de: {
+            eyebrow: 'TECHNOLOGIE-VORTEIL',
+            title: 'Einschweißsättel: Bis zu 50 % Zeit- und Kostenvorteil gegenüber T-Stücken',
+            lead: 'Nachträgliche Steigstrang-Abzweige oder Verteileranschlüsse ohne Auftrennen der Hauptrohrleitung.',
+            s1Title: 'Stufenbohrung',
+            s1Desc: 'Hauptrohr an der gewünschten Stelle mit dem K-Aqua Spezial-Stufenbohrer gratfrei anbohren.',
+            s2Title: '260 °C Konkav-Erwärmung',
+            s2Desc: 'Mit dem passenden Sattel-Schweißwerkzeug Bohrungsrand und Sattelfuß zeitgleich auf Schmelztemperatur bringen.',
+            s3Title: 'Homogene Verschmelzung',
+            s3Desc: 'Sattel axial andrücken. Nach 30 Sekunden ist der Abzweig dauerhaft und absolut unlösbar verschweißt.',
+          },
+          en: {
+            eyebrow: 'TECHNOLOGY ADVANTAGE',
+            title: 'Weld-in Saddles: Up to 50% Time and Cost Savings vs. Standard Tees',
+            lead: 'Subsequent riser branches or manifold connections without cutting into the main distribution pipe.',
+            s1Title: 'Step Drilling',
+            s1Desc: 'Drill a burr-free branch hole in the main pipe using the K-Aqua precision step drill.',
+            s2Title: '260 °C Concave Heating',
+            s2Desc: 'Heat both the drilled hole perimeter and saddle base simultaneously using the matching saddle welding tool.',
+            s3Title: 'Homogeneous Fusion',
+            s3Desc: 'Press the saddle axially into place. Within 30 seconds, the branch forms a permanent, leak-proof fused joint.',
+          },
+          ar: {
+            eyebrow: 'الميزة التكنولوجية',
+            title: 'سروج اللحام: توفير يصل إلى 50% في الوقت والتكلفة مقارنة بالوصلات الثلاثية T',
+            lead: 'تنفيذ تفريعات صاعدة أو توصيلات توزيع لاحقة دون الحاجة لقطع خط الأنابيب الرئيسي.',
+            s1Title: 'الحفر المتدرج',
+            s1Desc: 'حفر ثقب التفريع في الأنبوب الرئيسي بدقة وبدون زوائد باستخدام مثقاب K-Aqua المتدرج.',
+            s2Title: 'تسخين مقعر عند 260 °م',
+            s2Desc: 'تسخين حواف الثقب وقاعدة السرج في نفس الوقت لدرجة حرارة الانصهار باستخدام أداة لحام السرج المخصصة.',
+            s3Title: 'اندماج متجانس',
+            s3Desc: 'ضغط السرج محورياً في موضعه. خلال 30 ثانية تتشكل وصلة ملحومة دائمة وغير قابلة للانفصال.',
+          },
+        };
+        const sc = saddleContent[locale as 'de' | 'en' | 'ar'] || (locale.startsWith('ar') ? saddleContent.ar : locale === 'de' ? saddleContent.de : saddleContent.en);
+
+        return (
+          <section className="py-16 bg-background-subtle border-y border-card-border">
+            <div className="max-w-[1200px] mx-auto px-6">
+              <div className="max-w-3xl mb-8">
+                <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold uppercase tracking-wider mb-2">
+                  {sc.eyebrow}
+                </span>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground">
+                  {sc.title}
+                </h2>
+                <p className="text-muted-foreground text-sm mt-2">
+                  {sc.lead}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="p-6 rounded-2xl bg-card border border-card-border shadow-sm">
+                  <div className="text-2xl font-heading font-extrabold text-primary mb-2">01</div>
+                  <h3 className="text-base font-heading font-bold text-foreground mb-1">{sc.s1Title}</h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">
+                    {sc.s1Desc}
+                  </p>
+                </div>
+                <div className="p-6 rounded-2xl bg-card border border-card-border shadow-sm">
+                  <div className="text-2xl font-heading font-extrabold text-primary mb-2">02</div>
+                  <h3 className="text-base font-heading font-bold text-foreground mb-1">{sc.s2Title}</h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">
+                    {sc.s2Desc}
+                  </p>
+                </div>
+                <div className="p-6 rounded-2xl bg-card border border-card-border shadow-sm">
+                  <div className="text-2xl font-heading font-extrabold text-primary mb-2">03</div>
+                  <h3 className="text-base font-heading font-bold text-foreground mb-1">{sc.s3Title}</h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">
+                    {sc.s3Desc}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Products Grid */}
       <section className="py-20 bg-background-subtle border-t border-card-border/50">
@@ -284,12 +372,15 @@ export default async function CategoryPage({ params }: Props) {
 
       {/* Category Guide Section */}
       {t.has(`${catKey}.guideText`) && (
-        <section className="py-20 bg-background border-t border-card-border">
+        <section id="category-guide" className="py-20 bg-background border-t border-card-border scroll-mt-24">
           <div className="max-w-[1200px] mx-auto px-6">
-            <div className="max-w-3xl mx-auto text-left mb-12">
-              <div className="text-muted-foreground leading-relaxed space-y-4">
-                <div dangerouslySetInnerHTML={{ __html: String(t.raw(`${catKey}.guideText`)).replace(/<h1/g, '<h2').replace(/<\/h1>/g, '</h2>') }} />
+            <div className="max-w-4xl mx-auto rounded-2xl bg-card border border-card-border p-8 md:p-12 shadow-sm">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-6">
+                <span>{locale === 'de' ? 'FACHWISSEN & TECHNISCHER LEITFADEN' : locale === 'ar' ? 'الخبرة الفنية والدليل الهندسي' : 'TECHNICAL EXPERTISE & SPECIFICATION GUIDE'}</span>
               </div>
+              <article className="prose prose-slate dark:prose-invert max-w-none prose-headings:font-heading prose-headings:font-bold prose-headings:text-foreground prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-muted-foreground prose-p:leading-relaxed prose-li:text-muted-foreground prose-strong:text-foreground">
+                <div dangerouslySetInnerHTML={{ __html: String(t.raw(`${catKey}.guideText`)).replace(/<h1/g, '<h2').replace(/<\/h1>/g, '</h2>') }} />
+              </article>
             </div>
           </div>
         </section>

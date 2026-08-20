@@ -1,24 +1,26 @@
 import React from "react";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 export const revalidate = 86400;
 import { setRequestLocale } from 'next-intl/server';
 import { getNewsBySlug, getAllNews, resolveLocalized } from "@/content/news";
 import { KontaktBlock } from "@/components/kontakt/KontaktBlock";
 import { ArticleHero } from "@/components/ui/ArticleHero";
-import { constructMetadata, getBreadcrumbJsonLd } from "@/lib/seo/metadata";
+import { constructMetadata } from "@/lib/seo/metadata";
+import { wrapGraph, getWebPageGraphNode, getArticleGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
+import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  const allNews = getAllNews();
-  return allNews.map((news) => ({
-    slug: news.slug,
-  }));
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -38,14 +40,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return constructMetadata({
     title: newsTitle,
     description: resolveLocalized(newsItem.teaser || newsItem.excerpt, locale),
-    path: `/news/${slug}`,
+    path: `/news/${newsItem.slug}`,
     locale,
     noIndex: locale !== 'de',
   });
 }
 
-export default async function NewsDetailPage({ params }: Props) {
+export default async function NewsDetailPage({ params, searchParams }: Props) {
   const { locale, slug } = await params;
+  const resolvedSearchParams = searchParams ? await searchParams : {};
   setRequestLocale(locale);
   const newsItem = getNewsBySlug(slug);
 
@@ -53,35 +56,53 @@ export default async function NewsDetailPage({ params }: Props) {
     notFound();
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL 
-    || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : null)
-    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://k-aqua.de");
-
-  const breadcrumb = getBreadcrumbJsonLd(locale, [
-    { name: "News", path: '/news' },
-    { name: resolveLocalized(newsItem.title, locale), path: `/news/${slug}` }
-  ]);
-  
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: resolveLocalized(newsItem.title, locale),
-    description: resolveLocalized(newsItem.teaser || newsItem.excerpt, locale),
-    datePublished: newsItem.date,
-    url: `${siteUrl}/${locale}/news/${slug}`,
-    publisher: {
-      "@type": "Organization",
-      name: "KWT GmbH",
-      logo: {
-        "@type": "ImageObject",
-        url: `${siteUrl}/images/logo.png`,
+  // If accessed via an old alias slug, redirect to the canonical slug preserving search params
+  if (slug !== newsItem.slug) {
+    const searchParamsObj = new URLSearchParams();
+    for (const [key, value] of Object.entries(resolvedSearchParams)) {
+      if (typeof value === "string") {
+        searchParamsObj.set(key, value);
+      } else if (Array.isArray(value)) {
+        value.forEach((v) => searchParamsObj.append(key, v));
       }
     }
-  };
+    const queryStr = searchParamsObj.toString();
+    redirect(`/${locale}/news/${newsItem.slug}${queryStr ? `?${queryStr}` : ''}`);
+  }
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const title = resolveLocalized(newsItem.title, locale);
+  const description = resolveLocalized(newsItem.teaser || newsItem.excerpt, locale);
+
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: `/news/${newsItem.slug}`,
+      type: "ItemPage",
+      name: title,
+      description,
+      breadcrumbId: `${siteUrl}/${locale}/news/${newsItem.slug}#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/news/${newsItem.slug}#article`,
+    }),
+    getArticleGraphNode({
+      locale,
+      slug: newsItem.slug,
+      headline: title,
+      description,
+      datePublished: newsItem.date,
+      image: newsItem.coverImage ? `${siteUrl}${newsItem.coverImage}` : undefined,
+      type: "TechArticle",
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home", path: "/" },
+      { name: locale === "de" ? "News" : locale === "ar" ? "الأخبار" : "News", path: "/news" },
+      { name: title, path: `/news/${newsItem.slug}` },
+    ]),
+  ]);
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">
-      <JsonLd schema={[breadcrumb, articleSchema]} />
+      <JsonLd schema={jsonLd} />
       
       {/* Redesigned Article Hero */}
       <ArticleHero post={newsItem} locale={locale} />

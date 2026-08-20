@@ -1,4 +1,6 @@
 // @ts-nocheck
+'use client';
+
 // Übernommener Fertigbaustein (ursprünglich aus export-co2-dashboard/ bzw.
 // export-water-cursor/). Läuft produktiv, ist aber nicht nach den Typregeln
 // dieses Projekts geschrieben. Vom Typecheck ausgenommen — analog zur bereits
@@ -8,6 +10,7 @@ import React, { useState as uCS, useRef as uCR, useMemo as uCM, useEffect as uCE
 import { Icons } from './Co2UI';
 import { Co2GridLabels, Co2Flag, Co2BreakEvenTag, Co2TooltipPanel } from './Co2ChartOverlay';
 import { useTweenedSeries } from '../../../lib/co2-anim';
+import { co2ExportCsv, co2ExportPng } from '../../../lib/co2-share';
 const CO2_RANGES = [
   { id: '1y', label: '1 Jahr', years: 1 },
   { id: '5y', label: '5 Jahre', years: 5 },
@@ -28,7 +31,7 @@ const CO2_VIEW_CAPTIONS = {
   index: 'Alle Werkstoffe starten bei 100 %. Relatives Wachstum im Vergleich.',
 };
 const VB_W = 1000, VB_H = 380, PAD_TOP = 22, PAD_BOTTOM = 6;
-const CO2_REDUCED = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+const CO2_REDUCED = typeof window !== 'undefined' ? !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) : false;
 
 /* Monotone kubische Interpolation (Fritsch-Carlson): glatt, aber ohne Überschwingen -
    kumulierte Emissionen können nie sinken, also darf es die Kurve auch nicht. */
@@ -333,8 +336,8 @@ function Co2Chart({ series, horizonYears, fmt, events = [], breakEven = null, vi
                   {onSeriesMode ? <label className="co2-panelmenu-row"><input type="checkbox" checked={seriesMode === 'all'} onChange={(e) => onSeriesMode(e.target.checked ? 'all' : 'duel')} />Alle 4 Werkstoffe zeigen</label> : null}
                   <label className={`co2-panelmenu-row ${view === 'annual' || view === 'diff' ? 'is-dis' : ''}`}><input type="checkbox" checked={showBand} disabled={view === 'annual' || view === 'diff'} onChange={(e) => onBand(e.target.checked)} />± 15 % Bandbreite anzeigen</label>
                   <div className="co2-kebab-sep"></div>
-                  <button type="button" className="co2-panelmenu-row is-btn" onClick={() => { setMenuOpen(false); window.co2ExportCsv(series, horizonYears, metaCaption); }}><Icons.FileText size={14} />Daten als CSV exportieren</button>
-                  <button type="button" className="co2-panelmenu-row is-btn" onClick={() => { setMenuOpen(false); window.co2ExportPng(svgRef.current, metaCaption); }}><Icons.Download size={14} />Chart als PNG exportieren</button>
+                  <button type="button" className="co2-panelmenu-row is-btn" onClick={() => { setMenuOpen(false); co2ExportCsv(series, horizonYears, metaCaption); }}><Icons.FileText size={14} />Daten als CSV exportieren</button>
+                  <button type="button" className="co2-panelmenu-row is-btn" onClick={() => { setMenuOpen(false); co2ExportPng(svgRef.current, metaCaption); }}><Icons.Download size={14} />Chart als PNG exportieren</button>
                 </div>
               </React.Fragment>
             ) : null}

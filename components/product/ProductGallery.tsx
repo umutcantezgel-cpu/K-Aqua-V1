@@ -3,91 +3,180 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Image as ImageIcon, ChevronLeft, ChevronRight, Maximize2 } from 'lucide-react';
+import { Box, Maximize2, RotateCw, Layers, Sparkles, ExternalLink } from 'lucide-react';
 import clsx from 'clsx';
+import { Link } from '@/lib/i18n/navigation';
 
 interface Props {
   category: string;
+  slug?: string;
+  title?: string;
 }
 
-export default function ProductGallery({ category }: Props) {
-  // We don't have real images yet, so we generate high-end procedural placeholders
-  // using CSS gradients that look like premium studio shots.
-  const placeholders = [
-    'bg-gradient-to-br from-card to-background-subtle border border-card-border',
-    'bg-gradient-to-tr from-primary-soft/40 to-background border border-card-border',
-    'bg-gradient-to-bl from-card to-background border border-card-border'
-  ];
+export default function ProductGallery({ category, slug, title }: Props) {
+  const [viewMode, setViewMode] = useState<'3d' | 'studio1' | 'studio2'>('3d');
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextImage = () => setCurrentIndex((prev) => (prev + 1) % placeholders.length);
-  const prevImage = () => setCurrentIndex((prev) => (prev - 1 + placeholders.length) % placeholders.length);
+  const cleanSlug = slug || category;
+  const viewerUrl = `/api/3d-view/${cleanSlug}`;
 
   return (
-    <div className="w-full flex flex-col gap-4">
-      {/* Main Large Image */}
-      <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-3xl overflow-hidden shadow-sm group">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentIndex}
-            initial={{ opacity: 0, scale: 1.05 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.4, ease: 'easeOut' }}
-            className={clsx('w-full h-full flex items-center justify-center', placeholders[currentIndex])}
+    <div className="w-full flex flex-col gap-4 select-none">
+      {/* View Mode Switcher */}
+      <div className="flex items-center justify-between gap-2 flex-wrap">
+        <div className="flex items-center gap-2 p-1 bg-background-subtle rounded-xl border border-card-border">
+          <button
+            type="button"
+            onClick={() => setViewMode('3d')}
+            className={clsx(
+              'flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-heading font-bold transition-all cursor-pointer',
+              viewMode === '3d'
+                ? 'bg-primary text-primary-foreground shadow-sm'
+                : 'text-muted-foreground hover:text-foreground'
+            )}
           >
-            {/* Placeholder graphic */}
-            <div className="flex flex-col items-center justify-center opacity-40 text-foreground">
-              <ImageIcon className="w-16 h-16 mb-3 text-primary" />
-              <span className="font-heading font-semibold text-base">{category.toUpperCase()} Studio Ansicht {currentIndex + 1}</span>
-              <span className="text-xs font-mono text-muted-foreground mt-1">K-Aqua CAD/BIM Render</span>
-            </div>
-          </motion.div>
-        </AnimatePresence>
-
-        {/* Controls Overlay */}
-        <div className="absolute inset-0 flex items-center justify-between p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-          <button 
-            onClick={prevImage}
-            aria-label="Previous Image"
-            className="w-10 h-10 rounded-full bg-background/80 backdrop-blur-md text-foreground flex items-center justify-center border border-card-border pointer-events-auto hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors shadow-sm"
-          >
-            <ChevronLeft className="w-5 h-5" />
+            <Box className="w-4 h-4 animate-spin-slow" />
+            <span>3D CAD Modell (360°)</span>
           </button>
-          <button 
-            onClick={nextImage}
-            aria-label="Next Image"
-            className="w-10 h-10 rounded-full bg-background/80 backdrop-blur-md text-foreground flex items-center justify-center border border-card-border pointer-events-auto hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors shadow-sm"
+          <button
+            type="button"
+            onClick={() => setViewMode('studio1')}
+            className={clsx(
+              'flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-heading font-semibold transition-all cursor-pointer',
+              viewMode === 'studio1'
+                ? 'bg-card text-foreground shadow-sm border border-card-border'
+                : 'text-muted-foreground hover:text-foreground'
+            )}
           >
-            <ChevronRight className="w-5 h-5" />
+            <Layers className="w-4 h-4" />
+            <span>Studio Ansicht</span>
           </button>
         </div>
 
-        <button aria-label="Expand Image" className="absolute top-4 right-4 w-10 h-10 rounded-full bg-background/80 backdrop-blur-md text-foreground flex items-center justify-center border border-card-border opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-background shadow-sm">
-          <Maximize2 className="w-4 h-4" />
-        </button>
+        <div className="flex items-center gap-3">
+          <Link
+            href="/3d"
+            className="text-xs font-semibold text-primary hover:text-primary-strong flex items-center gap-1 transition-colors"
+          >
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>Alle 70 Produkte in 3D</span>
+            <ExternalLink className="w-3 h-3 opacity-60" />
+          </Link>
+        </div>
       </div>
 
-      {/* Thumbnails row */}
-      <div className="grid grid-cols-3 gap-4">
-        {placeholders.map((bg, idx) => (
-          <button
-            key={idx}
-            onClick={() => setCurrentIndex(idx)}
-            aria-label={`View Image ${idx + 1}`}
-            className={clsx(
-              'relative w-full aspect-[4/3] rounded-xl overflow-hidden transition-all duration-300',
-              bg,
-              currentIndex === idx ? 'ring-2 ring-primary ring-offset-2 ring-offset-background' : 'opacity-60 hover:opacity-100 cursor-pointer'
-            )}
-          >
-            <div className="absolute inset-0 flex items-center justify-center opacity-20">
-               <ImageIcon className="w-6 h-6" />
-            </div>
-          </button>
-        ))}
+      {/* Main Display Box */}
+      <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3] rounded-3xl overflow-hidden border border-card-border shadow-lift bg-card group">
+        <AnimatePresence mode="wait">
+          {viewMode === '3d' ? (
+            <motion.div
+              key="3d-viewer"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="w-full h-full relative"
+            >
+              {/* Interactive 3D Iframe */}
+              <iframe
+                src={viewerUrl}
+                title={`${title || cleanSlug} 3D CAD Modell`}
+                className="w-full h-full border-0 bg-card"
+                loading="eager"
+                allow="fullscreen"
+              />
+
+              {/* Interaction Hint Overlay */}
+              <div className="absolute top-4 start-4 pointer-events-none flex items-center gap-2 px-3 py-1.5 rounded-full bg-background/80 backdrop-blur-md border border-card-border text-[11px] font-heading font-bold text-foreground shadow-sm">
+                <RotateCw className="w-3.5 h-3.5 text-primary animate-spin-slow" />
+                <span>360° Drehen · Scrollen zum Zoomen</span>
+              </div>
+
+              {/* Expand to Fullscreen button */}
+              <button
+                type="button"
+                onClick={() => setIsFullscreen(true)}
+                title="Vollbild 3D-Inspektion"
+                aria-label="Vollbild 3D-Inspektion"
+                className="absolute top-4 end-4 p-2.5 rounded-xl bg-background/80 backdrop-blur-md hover:bg-card border border-card-border text-foreground shadow-sm cursor-pointer transition-all hover:scale-105 active:scale-95"
+              >
+                <Maximize2 className="w-4 h-4" />
+              </button>
+            </motion.div>
+          ) : (
+            <motion.div
+              key="studio-view"
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-card via-background to-primary-soft/20 p-8 text-center"
+            >
+              <div className="w-20 h-20 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary mb-4 shadow-inner">
+                <Box className="w-10 h-10" />
+              </div>
+              <h3 className="text-lg font-heading font-bold text-foreground mb-1">
+                {title || cleanSlug.toUpperCase()}
+              </h3>
+              <p className="text-xs font-mono text-muted-foreground mb-4">
+                K-Aqua DIN 8077/8078 &amp; ISO 15874 CAD Geometrie
+              </p>
+              <button
+                type="button"
+                onClick={() => setViewMode('3d')}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-primary text-primary-foreground text-xs font-bold shadow-sm hover:bg-primary-hover transition-all cursor-pointer"
+              >
+                <RotateCw className="w-3.5 h-3.5" />
+                <span>Interaktives 3D-Modell starten</span>
+              </button>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
+
+      {/* Fullscreen 3D Modal */}
+      <AnimatePresence>
+        {isFullscreen && (
+          <div className="fixed inset-0 z-[200] flex items-center justify-center p-4 sm:p-8 bg-background/90 backdrop-blur-2xl">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              className="relative w-full max-w-6xl h-[85vh] bg-card border-2 border-card-border rounded-3xl shadow-2xl overflow-hidden flex flex-col"
+            >
+              <div className="p-4 px-6 border-b border-card-border flex items-center justify-between bg-card/80 backdrop-blur-md">
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center">
+                    <Box className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-foreground text-base">
+                      {title || cleanSlug} — 3D CAD Studio
+                    </h3>
+                    <p className="text-xs text-muted-foreground">Maßhaltige 3D-Vorschau mit Nennweiten &amp; Querschnitt</p>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsFullscreen(false)}
+                  className="px-4 py-2 rounded-xl bg-background-subtle hover:bg-card-border/50 text-foreground text-xs font-bold border border-card-border transition-colors cursor-pointer"
+                >
+                  Schließen (Esc)
+                </button>
+              </div>
+
+              <div className="flex-1 w-full h-full relative">
+                <iframe
+                  src={viewerUrl}
+                  title={`${title || cleanSlug} 3D CAD Vollbild`}
+                  className="w-full h-full border-0 bg-card"
+                  allow="fullscreen"
+                />
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

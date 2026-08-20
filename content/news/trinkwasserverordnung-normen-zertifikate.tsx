@@ -11,7 +11,7 @@ import { Shield, Globe, FileText, Check } from '@/components/ui/icon';
 
 export const trinkwasserverordnungNormenZertifikate: NewsPost = {
   slug: 'trinkwasserverordnung-normen-zertifikate',
-  date: 'Zertifizierung',
+  date: '2024-12-10',
   tag: 'Hygiene',
   title: {
     de: 'Trinkwasserverordnung & Zertifikate',

@@ -200,7 +200,7 @@ export default function HomeBuyers() {
                 key={i}
                 className="flex gap-5 p-8 rounded-2xl border border-card-border bg-card hover:shadow-diffuse transition-all duration-300 group"
               >
-                <div className="flex items-center justify-center size-10 rounded-full bg-primary/10 text-primary shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <div className="flex items-center justify-center size-10 rounded-full bg-primary/10 text-primary shrink-0 group-hover:scale-105 transition-transform duration-300">
                   <CheckCircle2 className="w-5 h-5" />
                 </div>
                 <div>
@@ -220,7 +220,7 @@ export default function HomeBuyers() {
         <div className="mt-20 flex flex-col items-center gap-8 text-center px-4">
           <div className="flex flex-wrap justify-center gap-2.5">
             {promises.map((promise, i) => (
-              <Chip key={i} className="bg-primary-soft text-primary border-primary-soft font-medium text-sm md:text-base px-4 py-1.5">
+              <Chip key={i} className="bg-primary-soft text-primary border-primary-soft font-mono font-medium text-sm md:text-base px-4 py-1.5">
                 {promise}
               </Chip>
             ))}

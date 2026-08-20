@@ -124,6 +124,29 @@ export const newsRegistry: Record<string, NewsPost> = {
   [lebensdauerBerechnungPpr.slug]: lebensdauerBerechnungPpr,
 };
 
+export const NEWS_SLUG_ALIASES: Record<string, string> = {
+  'trinkwasserhygiene-legionellen': 'trinkwasserhygiene-legionellenpraevention-ppr',
+  'brandschutz-feuerwiderstandsklasse': 'brandschutz-feuerwiderstandsklasse-b1-ppr-rohre',
+  'schweisstechnik-sicherheit': 'schweisstechnik-sicherheit-homogene-materialverbindung-ppr',
+  'lebenszykluskosten-tco': 'lebenszykluskosten-tco-investition-ppr-rohre',
+  'messing-polypropylen': 'messing-trifft-polypropylen-uebergaenge-bestand',
+  'druckverlust-stroemungsdynamik': 'druckverlust-stroemungsdynamik-effizienz-ppr',
+  'schallschutz-akustik': 'schallschutz-akustik-ppr-rohre-hotel-krankenhaus',
+  'iso-zertifizierung': 'iso-zertifizierung-qualitaet-umwelt-energie',
+  'rueckverfolgbarkeit': 'fortlaufende-kennzeichnung-rueckverfolgbarkeit',
+  'warum-pp-r': 'warum-eigentlich-ppr-materialkunde',
+  'warum-ppr': 'warum-eigentlich-ppr-materialkunde',
+  'nachhaltigkeit-oekobilanz': 'nachhaltigkeit-oekobilanz-gruener-fussabdruck-ppr',
+  'chemische-bestaendigkeit-industrie': 'chemische-bestaendigkeit-ppr-im-industriellen-anlagenbau',
+  'gewichtsreduktion': 'gewichtsreduktion-logistik-handling-ppr',
+  'flexibilitaet-erdbebenresistenz': 'flexibilitaet-erdbebenresistenz-ppr-rohre',
+};
+
 export const getAllNews = () => Object.values(newsRegistry);
 
-export const getNewsBySlug = (slug: string) => newsRegistry[slug];
+export const getNewsBySlug = (slug: string) => {
+  if (newsRegistry[slug]) return newsRegistry[slug];
+  const targetSlug = NEWS_SLUG_ALIASES[slug];
+  if (targetSlug && newsRegistry[targetSlug]) return newsRegistry[targetSlug];
+  return undefined;
+};

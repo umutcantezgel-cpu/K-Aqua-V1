@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { Icons, KAquaLogo } from './Co2UI';
 import { catmullRomPath } from './Co2ChartCore';

@@ -1,3 +1,6 @@
+// @ts-nocheck
+'use client';
+
 import React, { useState as uSS } from 'react';
 import { Icons } from './Co2UI';
 

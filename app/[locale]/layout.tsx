@@ -18,7 +18,7 @@ import OnPageHighlighter from '@/components/search/OnPageHighlighter';
 import { CookieBanner } from '@/components/layout/CookieBanner';
 import { ShapeDefs } from '@/components/ui/ShapeDefs';
 import { LiquidEngine } from '@/components/ui/LiquidEngine';
-import { getOrganizationJsonLd } from '@/lib/seo/metadata';
+import { getRootKnowledgeGraph } from '@/lib/seo/schema';
 import JsonLd from '@/components/seo/JsonLd';
 import { KAquaElementeInitializer } from '@/components/providers/KAquaElementeInitializer';
 import SignatureInitializer from '@/components/signature/SignatureInitializer';
@@ -42,13 +42,18 @@ interface LayoutProps {
 import { setRequestLocale } from 'next-intl/server';
 import pick from 'lodash/pick';
 import { Metadata } from 'next';
+import { getBaseUrl } from '@/lib/env';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isIndexed = ['de', 'en', 'ar'].includes(locale);
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://k-aqua-v1.vercel.app'),
+    metadataBase: new URL(getBaseUrl()),
     robots: isIndexed ? { index: true, follow: true } : { index: false, follow: false },
+    other: {
+      'darkreader-lock': 'true',
+      'color-scheme': 'light dark',
+    },
   };
 }
 
@@ -67,29 +72,8 @@ export default async function LocaleLayout({
 
   // Retrieve the localized messages for the provider
   const messages = await getMessages();
-  
-  const clientMessages = pick(messages, [
-    'nav',
-    'menu',
-    'header',
-    'quote',
-    'toggle_theme_light',
-    'toggle_theme_dark',
-    'cookieConsent',
-    'footer',
-    'footerSitemap',
-    'kontaktBlocks',
-    'kontaktForm',
-    'enterprise',
-    'seoExpansion',
-    'multiStepForm'
-  ]);
 
-  // Hinweis: 'products' wird bewusst NICHT an den Client gegeben (nicht in der
-  // pick-Liste oben) — die Namespace-Inhalte werden ausschließlich in Server
-  // Components gerendert und würden die HTML-Payload unnötig vergrößern.
-
-  const orgJsonLd = await getOrganizationJsonLd(locale);
+  const rootKnowledgeGraph = getRootKnowledgeGraph(locale);
 
   const dir = ['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr';
   const isRTLFont = dir === 'rtl';
@@ -98,16 +82,20 @@ export default async function LocaleLayout({
 
   return (
     <html lang={htmlLang} dir={dir} suppressHydrationWarning>
+      <head>
+        <meta name="darkreader-lock" content="true" />
+        <meta name="color-scheme" content="light dark" />
+      </head>
       <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`} antialiased text-body bg-background min-h-screen flex flex-col`} suppressHydrationWarning>
         <ShapeDefs />
         <LiquidEngine />
-        <JsonLd schema={orgJsonLd} />
+        <JsonLd schema={rootKnowledgeGraph} />
         <ThemeProvider
           attribute="data-theme"
           defaultTheme="light"
           enableSystem={false}
         >
-          <NextIntlClientProvider messages={clientMessages}>
+          <NextIntlClientProvider messages={messages}>
             <SignatureInitializer />
             <KAquaElementeInitializer />
             <SkipLink />

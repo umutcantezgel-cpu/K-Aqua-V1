@@ -1,10 +1,10 @@
-// components/kontakt/KontaktForm.tsx
 "use client";
+
 import { useId, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, ArrowRight } from "lucide-react";
 import { submitLead } from "@/app/actions/lead";
 import { INTERESSEN, DIREKTWAHL_DISPLAY, DIREKTWAHL_TEL } from "@/content/kontakt-bloecke";
 
@@ -39,16 +39,25 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
   }
 
   const phoneField = (
-    <div className={`kqk-fld${errs.p ? " err" : ""}`}>
-      <label htmlFor={`${uid}-phone`}>{t("phoneLabel")}</label>
-      <div className="kqk-in relative group/in transition-all duration-300">
-        <div className="absolute left-[14px] top-1/2 -translate-y-1/2 text-muted-foreground group-focus-within/in:text-primary transition-colors pointer-events-none">
-          <Phone className="w-[18px] h-[18px]" />
+    <div className={`kqk-fld w-full flex flex-col gap-1.5${errs.p ? " err" : ""}`}>
+      <label htmlFor={`${uid}-phone`} className="block font-heading font-semibold text-xs sm:text-sm text-foreground/90 tracking-wide text-start">
+        {t("phoneLabel")}
+      </label>
+      <div className="kqk-in relative flex items-center h-[52px] rounded-xl transition-all duration-300 w-full border border-card-border bg-card shadow-sm hover:border-primary/50 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
+        <div className="flex items-center gap-1 pl-3.5 pr-2 shrink-0">
+          <Phone className="w-4 h-4 text-muted-foreground shrink-0" />
+          <select
+            name="cc"
+            aria-label={t("ccAria")}
+            defaultValue="+49"
+            className="bg-transparent border-0 font-semibold text-xs sm:text-sm outline-none cursor-pointer p-0 pr-1 text-foreground"
+          >
+            {["+49", "+41", "+43", "+971", "+1", "+33", "+44", "+39", "+34", "+48", "+90"].map(c => (
+              <option key={c} value={c} className="bg-card text-foreground">{c}</option>
+            ))}
+          </select>
         </div>
-        <select name="cc" aria-label={t("ccAria")} defaultValue="+49" className="!pl-11 !bg-transparent !pr-2 !border-none">
-          {["+49", "+41", "+43", "+971", "+1"].map(c => <option key={c} value={c}>{c}</option>)}
-        </select>
-        <div className="w-[1px] h-6 bg-card-border/60 mx-1"></div>
+        <div className="w-[1px] h-6 bg-card-border shrink-0 mx-1"></div>
         <input
           id={`${uid}-phone`}
           name="phone"
@@ -59,19 +68,21 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           aria-required="true"
           aria-invalid={errs.p || undefined}
           aria-describedby={errs.p ? `${uid}-phone-err` : undefined}
-          className="!pl-3"
+          className="flex-1 min-w-0 bg-transparent border-0 pl-2 pr-4 py-3 text-sm sm:text-base font-medium outline-none text-foreground placeholder:text-muted-foreground/60"
         />
       </div>
-      <span className="emsg" id={`${uid}-phone-err`} role="alert">{t("phoneError")}</span>
+      <span className="emsg text-xs mt-0.5 text-red-500 font-semibold text-start" id={`${uid}-phone-err`} role="alert">{t("phoneError")}</span>
     </div>
   );
 
   const emailField = (
-    <div className={`kqk-fld${errs.m ? " err" : ""}`}>
-      <label htmlFor={`${uid}-email`}>{t("emailLabel")}</label>
-      <div className="kqk-in relative group/in transition-all duration-300">
-        <div className="absolute left-[14px] top-1/2 -translate-y-1/2 text-muted-foreground group-focus-within/in:text-primary transition-colors pointer-events-none">
-          <Mail className="w-[18px] h-[18px]" />
+    <div className={`kqk-fld w-full flex flex-col gap-1.5${errs.m ? " err" : ""}`}>
+      <label htmlFor={`${uid}-email`} className="block font-heading font-semibold text-xs sm:text-sm text-foreground/90 tracking-wide text-start">
+        {t("emailLabel")}
+      </label>
+      <div className="kqk-in relative flex items-center h-[52px] rounded-xl transition-all duration-300 w-full border border-card-border bg-card shadow-sm hover:border-primary/50 focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20">
+        <div className="pl-3.5 pr-2 shrink-0 flex items-center pointer-events-none">
+          <Mail className="w-4 h-4 text-muted-foreground shrink-0" />
         </div>
         <input
           id={`${uid}-email`}
@@ -83,19 +94,31 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           aria-required="true"
           aria-invalid={errs.m || undefined}
           aria-describedby={errs.m ? `${uid}-email-err` : undefined}
-          className="!pl-11"
+          className="flex-1 min-w-0 bg-transparent border-0 pl-1 pr-4 py-3 text-sm sm:text-base font-medium outline-none text-foreground placeholder:text-muted-foreground/60"
         />
       </div>
-      <span className="emsg" id={`${uid}-email-err`} role="alert">{t("emailError")}</span>
+      <span className="emsg text-xs mt-0.5 text-red-500 font-semibold text-start" id={`${uid}-email-err`} role="alert">{t("emailError")}</span>
     </div>
   );
 
   const chipsField = (max?: number) => (
-    <div className="kqk-fld">
-      <label>{t("chipsLabel")}</label>
-      <div className="kqk-chips">
+    <div className="kqk-fld w-full flex flex-col gap-2">
+      <label className="block font-heading font-semibold text-xs sm:text-sm text-foreground/90 tracking-wide text-start">
+        {t("chipsLabel")}
+      </label>
+      <div className="kqk-chips flex flex-wrap gap-2">
         {INTERESSEN.slice(0, max || INTERESSEN.length).map(n => (
-          <button key={n.key} type="button" className="kqk-chip" aria-pressed={sel === n.value} onClick={() => setSel(n.value)}>
+          <button
+            key={n.key}
+            type="button"
+            className={`kqk-chip px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all duration-150 cursor-pointer ${
+              sel === n.value
+                ? "bg-primary text-primary-foreground border-primary shadow-sm"
+                : "bg-background-subtle text-muted-foreground border-card-border hover:border-primary/40 hover:text-foreground"
+            }`}
+            aria-pressed={sel === n.value}
+            onClick={() => setSel(n.value)}
+          >
             {t(`interests.${n.key}`)}
           </button>
         ))}
@@ -103,58 +126,73 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     </div>
   );
 
-  const hpField = <input className="kqk-hp" type="text" name="firma2" tabIndex={-1} autoComplete="off" aria-hidden="true" />;
+  const hpField = <input className="kqk-hp hidden" type="text" name="firma2" tabIndex={-1} autoComplete="off" aria-hidden="true" />;
 
   const sendBtn = (text?: string) => (
-    <button className={`kqk-send${state === "loading" ? " loading" : ""}`} disabled={state === "loading"} type="submit">
-      <span className="tx">{text ?? t("send")}</span><span className="sp" />
+    <button
+      className={`kqk-send group/btn relative flex items-center justify-center gap-2.5 h-[52px] px-8 rounded-xl bg-primary text-primary-foreground font-heading font-bold text-sm sm:text-base cursor-pointer shadow-md hover:bg-primary-hover active:scale-[0.98] transition-all duration-200 w-full lg:w-auto shrink-0 ${state === "loading" ? " loading opacity-75" : ""}`}
+      disabled={state === "loading"}
+      type="submit"
+    >
+      <span className="tx flex items-center justify-center gap-2">
+        <span>{text ?? t("send")}</span>
+        <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform rtl:-scale-x-100" />
+      </span>
+      <span className="sp" />
     </button>
   );
 
-  const legal = <span className="kqk-legal" data-nosnippet="true">{t("legal")} <Link href="/datenschutz">{t("legalLink")}</Link></span>;
+  const legal = (
+    <span className="kqk-legal text-xs text-muted-foreground text-start" data-nosnippet="true">
+      {t("legal")}{" "}
+      <Link href="/datenschutz" className="underline hover:text-primary transition-colors font-medium">
+        {t("legalLink")}
+      </Link>
+    </span>
+  );
 
   const errorBanner = state === "error" ? (
-    <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="kqk-error" role="alert">
-      {t("sendError")} <a href={`tel:${DIREKTWAHL_TEL}`}>{DIREKTWAHL_DISPLAY}</a>
+    <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="kqk-error w-full p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-500 text-xs font-semibold text-start" role="alert">
+      {t("sendError")} <a href={`tel:${DIREKTWAHL_TEL}`} className="underline font-bold">{DIREKTWAHL_DISPLAY}</a>
     </motion.div>
   ) : null;
 
   const renderForm = () => {
     if (layout === "row") {
       return (
-        <form className="kqk-form kqk-lrow" onSubmit={onSubmit} noValidate>
-          {phoneField}
-          {emailField}
+        <form className="kqk-form flex flex-col lg:flex-row gap-4 lg:gap-3 items-stretch lg:items-end w-full" onSubmit={onSubmit} noValidate>
+          <div className="flex-1 min-w-0">{phoneField}</div>
+          <div className="flex-1 min-w-0">{emailField}</div>
           {hpField}
-          {sendBtn()}
+          <div className="w-full lg:w-auto lg:shrink-0 pt-1 lg:pt-0">{sendBtn()}</div>
           {errorBanner}
         </form>
       );
     }
     if (layout === "stack") {
       return (
-        <form className="kqk-form kqk-stack" onSubmit={onSubmit} noValidate>
+        <form className="kqk-form flex flex-col gap-4 w-full" onSubmit={onSubmit} noValidate>
           {phoneField}
           {emailField}
           {chipsField(3)}
           {hpField}
           {errorBanner}
-          <div className="kqk-actions">{sendBtn()}</div>
+          <div className="w-full pt-1">{sendBtn()}</div>
           {legal}
         </form>
       );
     }
     // Full layout
     return (
-      <form className="kqk-form" onSubmit={onSubmit} noValidate>
-        <div className="kqk-row2">
+      <form className="kqk-form flex flex-col gap-5 w-full" onSubmit={onSubmit} noValidate>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 w-full">
           {phoneField}
           {emailField}
         </div>
         {chipsField()}
         {hpField}
         {errorBanner}
-        <div className="kqk-actions">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 pt-2">
           {sendBtn()}
           {legal}
         </div>
@@ -163,33 +201,34 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
   };
 
   return (
-    <div className={`kqk-right${state === "success" ? " success-inner" : ""}`} aria-live="polite">
+    <div className={`kqk-right w-full${state === "success" ? " success-inner" : ""}`} aria-live="polite">
       <AnimatePresence mode="wait">
         {state !== "success" ? (
-          <motion.div key="form" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 20 }} transition={{ duration: 0.4, ease: "anticipate" }}>
+          <motion.div key="form" initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 10 }} transition={{ duration: 0.3 }} className="w-full">
             {renderForm()}
           </motion.div>
         ) : (
-          <motion.div key="success" initial={{ opacity: 0, scale: 0.95, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ type: "spring", stiffness: 300, damping: 25, delay: 0.1 }} className="flex justify-center items-center h-full w-full">
+          <motion.div key="success" initial={{ opacity: 0, scale: 0.95, y: 15 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ type: "spring", stiffness: 300, damping: 25 }} className="flex justify-center items-center h-full w-full">
             {slimDone ? (
-              <div className="kqk-done slim shadow-2xl border border-primary/20 bg-card/80 backdrop-blur-md rounded-2xl p-6" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
-                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.3 }} className="ring flex items-center justify-center bg-primary/10 text-primary w-12 h-12 rounded-full mb-4 mx-auto">
+              <div className="kqk-done slim shadow-xl border border-primary/20 bg-card rounded-2xl p-6 w-full text-center sm:text-left flex flex-col sm:flex-row items-center gap-4">
+                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.2 }} className="ring flex items-center justify-center bg-primary/10 text-primary w-12 h-12 rounded-full shrink-0 border border-primary/20">
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg>
                 </motion.div>
-                <div className="text-center">
-                  <div className="font-heading font-bold text-lg mb-2 text-foreground">{t("doneTitleSlim")}</div>
+                <div>
+                  <div className="font-heading font-bold text-lg text-foreground">{t("doneTitleSlim")}</div>
                   <p className="text-muted-foreground text-sm">{done}</p>
                 </div>
               </div>
             ) : (
-              <div className="kqk-done shadow-2xl border border-primary/20 bg-card/80 backdrop-blur-md rounded-3xl p-10 text-center" style={{ opacity: 1, transform: "none", pointerEvents: "auto" }}>
-                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.3 }} className="ring flex items-center justify-center bg-primary/10 text-primary w-16 h-16 rounded-full mb-6 mx-auto">
+              <div className="kqk-done shadow-2xl border border-primary/20 bg-card rounded-3xl p-8 sm:p-10 text-center w-full">
+                <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ type: "spring", delay: 0.2 }} className="ring flex items-center justify-center bg-primary/10 text-primary w-16 h-16 rounded-full border border-primary/20 mb-5 mx-auto">
                   <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" aria-hidden="true"><polyline points="4 12.5 10 18 20 6" /></svg>
                 </motion.div>
-                <div className="font-heading font-bold text-2xl mb-4 text-foreground">{t("doneTitle")}</div>
-                <p className="text-muted-foreground mb-6">{done}</p>
-                <div className="alt text-sm font-medium text-foreground bg-background/50 rounded-xl p-4 border border-card-border">
-                  {t("direct")} <a href={`tel:${DIREKTWAHL_TEL}`} className="text-primary hover:underline">{DIREKTWAHL_DISPLAY}</a>
+                <div className="font-heading font-bold text-2xl mb-3 text-foreground">{t("doneTitle")}</div>
+                <p className="text-muted-foreground mb-6 text-sm sm:text-base">{done}</p>
+                <div className="alt text-sm font-mono font-medium text-foreground bg-background-subtle rounded-xl p-4 border border-card-border inline-flex items-center gap-2">
+                  <span>{t("direct")}</span>
+                  <a href={`tel:${DIREKTWAHL_TEL}`} className="text-primary font-bold hover:underline">{DIREKTWAHL_DISPLAY}</a>
                 </div>
               </div>
             )}

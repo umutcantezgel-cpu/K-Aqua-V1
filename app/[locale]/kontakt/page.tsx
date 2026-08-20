@@ -6,7 +6,9 @@ import { Reveal } from "@/components/ui/Reveal";
 import { MapPin, Phone, Wrench, ArrowUpRight } from "@/components/ui/icon";
 import { ContactDeep } from "@/components/sections/ContactDeep";
 import { MultiStepContactForm } from "@/components/sections/MultiStepContactForm";
-import { constructMetadata, getWebPageJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import { SeoExpand } from "@/components/seo/SeoExpand";
 import type { Metadata } from "next";
@@ -21,16 +23,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages" });
   const meta = t.raw("contact") as string[];
-  const baseMetadata = constructMetadata({
-    title: meta[0] ?? "",
-    description: meta[1] ?? "",
+  return constructMetadata({
+    title: meta[0] ?? "Kontakt zu K-Aqua",
+    description: meta[1] ?? "Kontaktieren Sie unsere Rohrexperten und technischen Berater.",
     path: "/kontakt",
     locale,
   });
-  return {
-    ...baseMetadata,
-    robots: { index: false, follow: false }
-  };
 }
 
 const COMPANY_NAME = "KWT GmbH";
@@ -47,13 +45,30 @@ const SUPPORT_EMAIL_HREF = "mailto:support@k-aqua.de";
 
 export default async function KontaktPage({ params }: Props) {
   const { locale } = await params;
-  const jsonLd = await getWebPageJsonLd(locale, "contact");
+  setRequestLocale(locale);
+  const tPages = await getTranslations({ locale, namespace: "pages" });
+  const meta = tPages.raw("contact") as string[];
+  const tNav = await getTranslations({ locale, namespace: "nav" });
+
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/kontakt",
+      type: "ContactPage",
+      name: meta[0] || "Kontakt | K-Aqua",
+      description: meta[1] || "Treten Sie mit dem K-Aqua Vertrieb und technischen Support in Kontakt.",
+      breadcrumbId: `${siteUrl}/${locale}/kontakt#breadcrumb`,
+      mainEntityId: `${siteUrl}/#local-business`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav("contact") || (locale === "de" ? "Kontakt" : locale === "ar" ? "اتصل بنا" : "Contact"), path: "/kontakt" },
+    ]),
+  ]);
   const t = await getTranslations({ locale, namespace: "contact" });
   const tFooter = await getTranslations({ locale, namespace: "footer" });
 
-
-
-  
   return (
     <>
       <JsonLd schema={jsonLd} />
@@ -170,9 +185,9 @@ export default async function KontaktPage({ params }: Props) {
         <section className="py-20 bg-background-subtle border-t border-card-border">
           <div className="max-w-[1200px] mx-auto px-6">
             <div className="text-center mb-12">
-              <Eyebrow>Interaktiv</Eyebrow>
+              <Eyebrow>{t("formEyebrow") || (locale === "de" ? "Interaktiv" : locale === "ar" ? "تفاعلي" : "Interactive")}</Eyebrow>
               <h2 className="text-3xl lg:text-4xl font-heading font-extrabold text-foreground mt-4">
-                Projektanfrage & Support
+                {t("formTitle") || (locale === "de" ? "Projektanfrage & Support" : locale === "ar" ? "طلب مشروع والدعم الفني" : "Project Inquiry & Support")}
               </h2>
             </div>
             <MultiStepContactForm locale={locale} />

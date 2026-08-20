@@ -1,6 +1,8 @@
 import React, { Suspense } from 'react';
 import { setRequestLocale } from 'next-intl/server';
-import { constructMetadata, getBreadcrumbJsonLd } from '@/lib/seo/metadata';
+import { constructMetadata } from '@/lib/seo/metadata';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import GlobalSearch from '@/components/search/GlobalSearch';
 import { Metadata } from 'next';
@@ -46,14 +48,26 @@ export default async function SearchPage({ params, searchParams }: Props) {
                        (resolvedSearchParams as Record<string, string | undefined>)?.highlight || '';
   setRequestLocale(locale);
 
-  const breadcrumb = getBreadcrumbJsonLd(locale, [
-    { name: locale === 'de' ? 'Startseite' : locale === 'ar' ? 'الرئيسية' : 'Home', path: '/' },
-    { name: locale === 'de' ? 'Suche' : locale === 'ar' ? 'البحث' : 'Search', path: '/suche' },
+  const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/suche",
+      type: "SearchResultsPage",
+      name: locale === 'de' ? 'Suche & Index | K-Aqua' : locale === 'ar' ? 'البحث والفهرس | K-Aqua' : 'Search & Index | K-Aqua',
+      description: locale === 'de' ? 'K-Aqua Suchzentrum für Produkte, BIM-Dateien und technische Dokumente.' : 'Search hub for K-Aqua products, BIM files and technical datasheets.',
+      breadcrumbId: `${siteUrl}/${locale}/suche#breadcrumb`,
+      mainEntityId: `${siteUrl}/#organization`,
+    }),
+    getBreadcrumbGraphNode(locale, [
+      { name: locale === 'de' ? 'Startseite' : locale === 'ar' ? 'الرئيسية' : 'Home', path: '/' },
+      { name: locale === 'de' ? 'Suche' : locale === 'ar' ? 'البحث' : 'Search', path: '/suche' },
+    ]),
   ]);
 
   return (
     <main className="min-h-screen bg-background text-foreground py-12 md:py-20">
-      <JsonLd schema={breadcrumb} />
+      <JsonLd schema={jsonLd} />
       
       {/* Header Banner */}
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 mb-10 md:mb-14">
