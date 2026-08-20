@@ -56,13 +56,77 @@ export function getAllProducts(): ProductData[] {
   return allProducts;
 }
 
+const CATEGORY_MAP: Record<string, string> = {
+  armaturen: 'valves',
+  formteile: 'fittings',
+  rohre: 'pipes',
+  uebergangsfittings: 'transition-fittings',
+  'übergangsfittings': 'transition-fittings',
+  werkzeuge: 'tools',
+  zubehoer: 'accessories',
+  'zubehör': 'accessories',
+  einschweisssattel: 'weld-in-saddles',
+  'einschweißsattel': 'weld-in-saddles',
+  transitionfittings: 'transition-fittings',
+  transitionFittings: 'transition-fittings',
+  weldinsaddles: 'weld-in-saddles',
+  weldInSaddles: 'weld-in-saddles',
+};
+
+const SLUG_ALIASES: Record<string, string> = {
+  'k-fiber-pipe-pp-r-sdr-7-4': 'k-fiber-pipe-pp-r-sdr-74',
+  'k-fiber-pipe-pp-rct-sdr-7-4': 'k-fiber-pipe-pp-rct-sdr-74',
+  'k-pipe-pp-rct-sdr-7-4': 'k-pipe-pp-rct-sdr-74',
+  'k-fiber-uv-pipe-pp-r-sdr-7-4': 'k-fiber-uv-pipe-pp-r-sdr-74',
+  'k-fiber-uv-pipe-pp-rct-sdr-7-4': 'k-fiber-uv-pipe-pp-rct-sdr-74',
+  'ball-valve-pp': 'pp-r-ball-valve-ball-in-pp',
+  'pp-r-ball-valve-brass': 'pp-r-ball-valve-ball-in-brass-chromium-plated',
+  'backing-flange': 'backing-flange-pp-steel-sfbf',
+  'flat-gasket-for-unions': 'flat-gasket-for-unions-pp-r',
+  'elbow-45-female-male': 'elbow-45-femalemale',
+  'elbow-90-female-male': 'elbow-90-femalemale',
+  'reducing-tee-large': 'reducing-tee-large-sizes',
+  'tee-90-female-thread-internal-valve': 'tee-90-female-thread-for-internal-valve',
+  'pipe-cutter-20-40': 'pipe-cutter-2040',
+  'hand-welding-machine-20-32': 'hand-welding-machine-2032-complete-set',
+  'hand-welding-machine-mirror-50125': 'hand-welding-machine-mirror-50-125',
+};
+
+export function normalizeCategory(cat: string): string {
+  const c = cat.toLowerCase().trim();
+  return CATEGORY_MAP[c] || c;
+}
+
+export function normalizeSlug(s: string): string {
+  const slug = s.toLowerCase().trim();
+  return SLUG_ALIASES[slug] || slug;
+}
+
 export function getProductsByCategory(category: string): ProductData[] {
-  return getAllProducts().filter(p => p.category === category);
+  const normCat = normalizeCategory(category);
+  return getAllProducts().filter(p => p.category === normCat);
 }
 
 async function getProductBySlugRaw(category: string, slug: string): Promise<ProductData | null> {
-  const products = getProductsByCategory(category);
-  const product = products.find(p => p.slug === slug);
+  const normCat = normalizeCategory(category);
+  const normSlug = normalizeSlug(slug);
+
+  const all = getAllProducts();
+  
+  // Try exact category + normalized slug
+  let product = all.find(p => p.category === normCat && (p.slug === normSlug || p.slug === slug));
+  
+  // Fallback: search across all categories by slug
+  if (!product) {
+    product = all.find(p => p.slug === normSlug || p.slug === slug);
+  }
+
+  // Fallback 2: search by slug without hyphens/dots
+  if (!product) {
+    const clean = normSlug.replace(/[-_.]/g, '');
+    product = all.find(p => p.slug.replace(/[-_.]/g, '') === clean);
+  }
+
   if (!product) return null;
 
   let rawContent = product.content;
@@ -106,7 +170,7 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
 
 export const getProductBySlug = unstable_cache(
   async (category: string, slug: string) => getProductBySlugRaw(category, slug),
-  ['product-by-slug'], // Base key string
+  ['product-by-slug-v2'],
   { tags: ['product-data'] }
 );
 

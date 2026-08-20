@@ -147,19 +147,15 @@ export default async function ProductDetailPage({
 }) {
   const { category, slug, locale } = await params;
 
-  // Redirect legacy camelCase category URLs to kebab-case
-  const CATEGORY_REDIRECTS: Record<string, string> = {
-    transitionFittings: 'transition-fittings',
-    weldInSaddles: 'weld-in-saddles',
-  };
-  if (CATEGORY_REDIRECTS[category]) {
-    redirect(`/${locale}/produkte/${CATEGORY_REDIRECTS[category]}/${slug}`);
-  }
-
   const product = await getProductBySlug(category, slug);
 
   if (!product) {
     notFound();
+  }
+
+  // Canonical redirect if accessed via German category name (e.g. formteile, armaturen) or alias slug
+  if (product.category !== category || product.slug !== slug) {
+    redirect(`/${locale}/produkte/${product.category}/${product.slug}`);
   }
 
   const tSeo = await getTranslations({ locale, namespace: 'seo' });
