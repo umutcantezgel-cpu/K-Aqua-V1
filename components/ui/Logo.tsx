@@ -10,7 +10,7 @@ export function Logo({ height = 30, className }: LogoProps) {
   const width = height * 3.2; // 496.84 / 155.26666 ≈ 3.2
 
   return (
-    <span className={clsx("inline-flex items-center select-none", className)} suppressHydrationWarning>
+    <span className={clsx("inline-flex items-center select-none text-[#4B5262] dark:text-[#CBD5E1]", className)} suppressHydrationWarning>
       <svg
         width={width}
         height={height}

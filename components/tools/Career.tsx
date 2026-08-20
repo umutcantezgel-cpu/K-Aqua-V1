@@ -33,7 +33,7 @@ const CHAR_SLASH = "/";
 const STR_TOTAL_QUESTIONS = "5";
 const TOTAL_QUESTIONS = 5;
 
-const APPLY_MAILTO_HREF = "mailto:andrea.nickel@k-aqua.de?subject=Bewerbung%20bei%20K-Aqua";
+const APPLY_MAILTO_HREF = "mailto:jobs@k-aqua.de?subject=Bewerbung%20bei%20K-Aqua";
 const PHONE_TEL_HREF = "tel:+4960859868410";
 
 interface CareerProps {

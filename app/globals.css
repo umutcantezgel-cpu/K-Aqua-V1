@@ -187,13 +187,13 @@
 :root,
 [data-theme="light"] {
   color-scheme: light;
-  --background: #FAFAFB;
-  --background-subtle: #F4F4F6;
-  --foreground: #1A1A24;
-  --muted-foreground: #5A5A6E;
-  --faint-foreground: #8C8CA0;
+  --background: #F8F8FA;
+  --background-subtle: #F0F1F5;
+  --foreground: #2D333F;
+  --muted-foreground: #5B6275;
+  --faint-foreground: #8C94A6;
   --card: #FFFFFF;
-  --card-border: #E8E8EE;
+  --card-border: #E2E4ED;
   --card-tint: var(--brand-50);
   --primary: var(--brand-600);
   --primary-hover: var(--brand-700);

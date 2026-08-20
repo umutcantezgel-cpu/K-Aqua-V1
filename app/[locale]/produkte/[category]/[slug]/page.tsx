@@ -21,7 +21,6 @@ import ProductGallery from '@/components/product/ProductGallery';
 import Native3DCanvas from '@/components/3d/Native3DCanvas';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
-import ProductVideo from '@/components/product/ProductVideo';
 import LocalAvailability from '@/components/product/LocalAvailability';
 import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
@@ -347,10 +346,7 @@ export default async function ProductDetailPage({
                   <ProductGallery category={product.category} slug={product.slug} title={localizedTitle} />
                 </div>
                 
-                {/* YouTube Video Section */}
-                <div className="mb-8">
-                  <ProductVideo category={seoCat} locale={locale} />
-                </div>
+
                 
                 {/* 
                   Custom Markdown Table Styling 

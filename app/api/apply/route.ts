@@ -107,7 +107,7 @@ export async function POST(req: Request) {
 
       await transporter.sendMail({
         from: process.env.SMTP_FROM || `"K-Aqua Bewerberportal" <noreply@k-aqua.de>`,
-        to: "andrea.nickel@k-aqua.de",
+        to: "jobs@k-aqua.de",
         subject: `Neue Bewerbung: ${firstName} ${lastName} (${jobId})`,
         html: htmlBody,
         attachments,
@@ -115,7 +115,7 @@ export async function POST(req: Request) {
     } else {
       // Mock for development
       console.log("=== EMAIL MOCK (No SMTP credentials found) ===");
-      console.log(`To: andrea.nickel@k-aqua.de`);
+      console.log(`To: jobs@k-aqua.de`);
       console.log(`Subject: Neue Bewerbung: ${firstName} ${lastName} (${jobId})`);
       console.log(`Attachments: ${attachments.length}`);
       console.log("HTML Body:");
