@@ -26,10 +26,25 @@ import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 
+import { coreLocales } from '@/lib/i18n/routing';
+
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  return [];
+  const allProducts = getAllProducts();
+  const params: { locale: string; category: string; slug: string }[] = [];
+
+  for (const locale of coreLocales) {
+    for (const p of allProducts) {
+      params.push({
+        locale,
+        category: p.category,
+        slug: p.slug,
+      });
+    }
+  }
+
+  return params;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; category: string; slug: string }> }): Promise<Metadata> {
@@ -146,6 +161,7 @@ export default async function ProductDetailPage({
   params: Promise<{ locale: string; category: string; slug: string }>;
 }) {
   const { category, slug, locale } = await params;
+  setRequestLocale(locale);
 
   const product = await getProductBySlug(category, slug);
 
@@ -342,7 +358,7 @@ export default async function ProductDetailPage({
                 
                 {/* YouTube Video Section */}
                 <div className="mb-8">
-                  <ProductVideo category={seoCat} />
+                  <ProductVideo category={seoCat} locale={locale} />
                 </div>
                 
                 {/* 

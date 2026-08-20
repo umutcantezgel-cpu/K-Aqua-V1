@@ -55,7 +55,14 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  serverExternalPackages: ['nodemailer'],
+  outputFileTracingIncludes: {
+    '/**': [
+      './content/**/*',
+      './messages/**/*',
+      './kaqua-3d/dist/**/*',
+      './public/**/*',
+    ],
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [],

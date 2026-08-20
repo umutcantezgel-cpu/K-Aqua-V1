@@ -4,6 +4,7 @@ import { LocalVideo } from '@/components/ui/LocalVideo';
 
 interface ProductVideoProps {
   category: string;
+  locale?: string;
 }
 
 interface VideoData {
@@ -48,9 +49,9 @@ function getVideoForCategory(category: string): VideoData {
   };
 }
 
-export default async function ProductVideo({ category }: ProductVideoProps) {
+export default async function ProductVideo({ category, locale }: ProductVideoProps) {
   const video = getVideoForCategory(category);
-  const t = await getTranslations('products').catch(() => null);
+  const t = await getTranslations({ locale, namespace: 'products' }).catch(() => null);
   
   return (
     <div className="w-full bg-card border border-card-border rounded-xl shadow-sm overflow-hidden flex flex-col">

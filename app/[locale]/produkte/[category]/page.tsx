@@ -26,7 +26,19 @@ interface Props {
 export const dynamicParams = true;
 
 export function generateStaticParams() {
-  return [];
+  const categories = getProductCategories();
+  const params: { locale: string; category: string }[] = [];
+
+  for (const locale of coreLocales) {
+    for (const category of categories) {
+      params.push({
+        locale,
+        category,
+      });
+    }
+  }
+
+  return params;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -74,6 +86,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CategoryPage({ params }: Props) {
   const { locale, category } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "products.seoArticle" });
   const tNames = await getTranslations({ locale, namespace: "productNames" }).catch(() => null);
 
