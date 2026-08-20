@@ -178,26 +178,26 @@ export default function ApplicationPortal() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 sm:gap-4">
                 <label className="flex flex-col gap-2">
                   <span className="text-small font-bold text-foreground">{formText.firstName}*</span>
-                  <input required name="firstName" value={formData.firstName} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
+                  <input required name="firstName" value={formData.firstName} onChange={handleInputChange} className="h-12 px-4 rounded-xl bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
                 </label>
                 <label className="flex flex-col gap-2">
                   <span className="text-small font-bold text-foreground">{formText.lastName}*</span>
-                  <input required name="lastName" value={formData.lastName} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
+                  <input required name="lastName" value={formData.lastName} onChange={handleInputChange} className="h-12 px-4 rounded-xl bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
                 </label>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 sm:gap-4">
                 <label className="flex flex-col gap-2">
                   <span className="text-small font-bold text-foreground">{formText.email}*</span>
-                  <input required type="email" name="email" value={formData.email} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
+                  <input required type="email" name="email" value={formData.email} onChange={handleInputChange} className="h-12 px-4 rounded-xl bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
                 </label>
                 <label className="flex flex-col gap-2">
                   <span className="text-small font-bold text-foreground">{formText.phone}</span>
-                  <input type="tel" name="phone" value={formData.phone} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
+                  <input type="tel" name="phone" value={formData.phone} onChange={handleInputChange} className="h-12 px-4 rounded-xl bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
                 </label>
               </div>
               <label className="flex flex-col gap-2">
                 <span className="text-small font-bold text-foreground">{formText.startDate}</span>
-                <input type="date" name="startDate" value={formData.startDate} onChange={handleInputChange} className="h-12 px-4 rounded-lg bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
+                <input type="date" name="startDate" value={formData.startDate} onChange={handleInputChange} className="h-12 px-4 rounded-xl bg-background-subtle border border-card-border focus:border-primary focus:outline-none transition-colors" />
               </label>
 
               <div className="flex justify-end mt-4">

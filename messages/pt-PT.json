@@ -4032,13 +4032,16 @@
     "again": "Nochmal"
   },
   "contact": {
-    "eyebrow": "Kontakt",
-    "title1": "Sprechen wir über Ihr",
-    "titleGrad": "Projekt.",
-    "locTitle": "Standort Deutschland",
-    "salesTitle": "Vertrieb",
-    "supportTitle": "Qualität & technischer Support",
-    "supportText": "Sprechen wir über Ihr Projekt. Unser Support Team hilft bei technischen Fragen rund um Planung, Material und Verarbeitung."
+    "eyebrow": "Contacto",
+    "title1": "Falemos sobre o seu",
+    "titleGrad": "projeto.",
+    "seoH1": "Contacte a K-Aqua: Fale com os nossos especialistas em tubagens PP-R",
+    "formEyebrow": "Interativo",
+    "formTitle": "Consulta de projeto e suporte",
+    "locTitle": "Sede na Alemanha",
+    "salesTitle": "Vendas",
+    "supportTitle": "Qualidade e Suporte Técnico",
+    "supportText": "Falemos sobre o seu projeto. A nossa equipa técnica apoia no dimensionamento, escolha de materiais e instalação."
   },
   "imprint": {
     "eyebrow": "Rechtliches",
@@ -4236,7 +4239,8 @@
     "phaseProduction": "Production",
     "phaseTransport": "Transporte",
     "phaseOperation": "Operação",
-    "phaseEol": "Fim de Vida"
+    "phaseEol": "Fim de Vida",
+    "guideText": "<h2>Sustentabilidade e ACV (Avaliação do Ciclo de Vida)</h2><p>A escolha do sistema de tubagens adequado tem um impacto significativo na pegada de carbono de um edifício ou instalação industrial. A calculadora de CO₂ da K-Aqua permite uma avaliação completa do ciclo de vida (ACV) de acordo com as normas da EN 15804. Esta análise abrange todo o ciclo de vida: desde a extração de matérias-primas e fabrico do produto (fases A1-A3), passando pelo transporte e instalação (fases A4-A5), até à fase de utilização (fase B) e fim de vida (fase C).</p><p>Em comparação com tubos metálicos tradicionais de cobre ou aço, os tubos PP-R e PP-RCT da K-Aqua apresentam uma pegada ecológica significativamente mais vantajosa. O menor consumo de energia na extrusão do polímero e o peso consideravelmente inferior reduzem drasticamente as emissões de CO₂ na produção e no transporte. Além disso, a superfície interna espelhada (rugosidade de apenas 0,007 mm) garante uma resistência ao fluxo extremamente reduzida. De acordo com a equação de Darcy-Weisbach, isto significa que as bombas de circulação requerem muito menos energia elétrica para transportar o fluido pelo sistema.</p><p>Especialmente na fase de utilização (fase B), que em sistemas de tubagem costuma durar 50 anos ou mais, esta poupança de energia traduz-se em reduções maciças de CO₂ e de custos operacionais (Custo Total de Propriedade, TCO). No fim de vida (fase C), o polipropileno oferece também vantagens ecológicas, sendo 100% reciclável e reutilizável na economia circular (Módulo D). Utilize esta calculadora para quantificar de forma precisa e transparente o potencial de poupança ecológica e económica do seu projeto K-Aqua.</p>"
   },
   "trust": {
     "eyebrow": "Trust Center",
@@ -4305,7 +4309,11 @@
     "requestBtn": "Paket anfordern",
     "mailSubject": "RFP-Dokumentenpaket",
     "mailBody": "Bitte senden Sie mir folgende Dokumente:",
-    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung."
+    "scope3": "Scope-3-Emissionsdaten und EPD-Rohdaten auf Anfrage: proaktive Transparenz statt Pflichterfüllung.",
+    "bimEyebrow": "SALA DE DADOS 3D CAD E BIM",
+    "bimTitle": "Conjuntos 3D e geometrias CAD de alta precisão",
+    "bimLead": "Para engenheiros MEP, arquitetos e empreiteiros: Aceda diretamente a 70 modelos CAD interativos K-Aqua com precisão DIN 8077/8078 e ISO 15874. Beneficie de cotagem em tempo real, cortes transversais e exportações GLTF/OBJ para Revit e AutoCAD.",
+    "bimCta": "Abrir Estúdio 3D"
   },
   "partner": {
     "eyebrow": "Parceiros e Rede",

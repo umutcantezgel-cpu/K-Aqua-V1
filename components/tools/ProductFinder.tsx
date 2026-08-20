@@ -153,7 +153,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
                       <input
                         type="text"
                         placeholder={t("searchPlaceholder") || "Artikelnummer oder Name..."}
-                        className="k-input h-11 py-2.5 ps-10 pe-4 w-full bg-background-subtle border border-card-border focus:border-primary focus:ring-1 focus:ring-primary rounded-lg transition-all outline-none"
+                        className="k-input h-11 py-2.5 ps-10 pe-4 w-full bg-background-subtle border border-card-border focus:border-primary focus:ring-1 focus:ring-primary rounded-xl transition-all outline-none"
                         value={localSearchQuery}
                         onChange={(e) => {
                           setLocalSearchQuery(e.target.value);
