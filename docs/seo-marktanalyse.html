@@ -1,0 +1,207 @@
+<title>K-Aqua Marktanalyse</title>
+<style>
+  :root {
+    --ground: #FBFAFC; --surface: #FFFFFF; --ink: #1B1424; --ink-soft: #5B5266;
+    --ink-faint: #8B8296; --rule: #E6E0EC; --brand: #542791; --brand-soft: #F1EBF9;
+    --pass: #17705A; --pass-soft: #E3F1EC; --gap: #9C5A15; --gap-soft: #FAEEE0;
+    --crit: #A3352C; --crit-soft: #F9E8E6;
+    --shadow: 0 1px 2px rgba(27,20,36,.05), 0 8px 24px -12px rgba(27,20,36,.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #141019; --surface: #1D1725; --ink: #F2EEF7; --ink-soft: #B3A9C0;
+      --ink-faint: #7D7389; --rule: #302739; --brand: #B693EE; --brand-soft: #2A1F3C;
+      --pass: #5FC7A6; --pass-soft: #16302A; --gap: #E0A264; --gap-soft: #33240F;
+      --crit: #E58B82; --crit-soft: #3A1F1C;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #141019; --surface: #1D1725; --ink: #F2EEF7; --ink-soft: #B3A9C0;
+    --ink-faint: #7D7389; --rule: #302739; --brand: #B693EE; --brand-soft: #2A1F3C;
+    --pass: #5FC7A6; --pass-soft: #16302A; --gap: #E0A264; --gap-soft: #33240F;
+    --crit: #E58B82; --crit-soft: #3A1F1C;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--ground); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.6; margin: 0; padding: 0 20px 96px; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-variant-numeric: tabular-nums; }
+  header { padding: 72px 0 40px; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--brand); font-weight: 700; margin: 0 0 18px; }
+  h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.1; letter-spacing: -.025em; font-weight: 800; margin: 0 0 18px; text-wrap: balance; }
+  .standfirst { font-size: 18px; color: var(--ink-soft); margin: 0; max-width: 64ch; }
+  section { padding-top: 56px; }
+  h2 { font-size: 13px; letter-spacing: .13em; text-transform: uppercase; color: var(--ink-faint); font-weight: 700; margin: 0 0 22px; padding-bottom: 10px; border-bottom: 1px solid var(--rule); }
+  h3 { font-size: 17px; font-weight: 700; margin: 0 0 8px; letter-spacing: -.01em; }
+  p { margin: 0 0 14px; max-width: 72ch; }
+  .figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
+  .fig { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 18px; box-shadow: var(--shadow); }
+  .fig .n { font-size: 30px; font-weight: 800; letter-spacing: -.03em; line-height: 1; display: block; }
+  .fig .l { font-size: 13px; color: var(--ink-soft); margin-top: 8px; display: block; }
+  .fig.ok .n { color: var(--pass); } .fig.warn .n { color: var(--gap); } .fig.crit .n { color: var(--crit); }
+  .scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); box-shadow: var(--shadow); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: 11px; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-faint); font-weight: 700; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  .pill { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .05em; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+  .p-ok { background: var(--pass-soft); color: var(--pass); }
+  .p-fix { background: var(--brand-soft); color: var(--brand); }
+  .p-warn { background: var(--gap-soft); color: var(--gap); }
+  .p-crit { background: var(--crit-soft); color: var(--crit); }
+  .was { color: var(--ink-faint); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .note { border-left: 3px solid var(--gap); background: var(--gap-soft); padding: 16px 20px; border-radius: 0 8px 8px 0; margin-bottom: 14px; }
+  .note.pass { border-left-color: var(--pass); background: var(--pass-soft); }
+  .note.crit { border-left-color: var(--crit); background: var(--crit-soft); }
+  .note h3 { margin-top: 0; }
+  .note p:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 14px; padding-left: 20px; max-width: 72ch; }
+  li { margin-bottom: 7px; color: var(--ink-soft); }
+  li strong { color: var(--ink); font-weight: 650; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .88em; background: var(--brand-soft); color: var(--brand); padding: 1px 5px; border-radius: 4px; }
+  .kw { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 4px; }
+  .kw span { background: var(--surface); border: 1px solid var(--rule); border-radius: 20px; padding: 4px 12px; font-size: 13px; color: var(--ink-soft); }
+  .kw span.hot { border-color: var(--brand); color: var(--brand); font-weight: 650; }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--ink-faint); }
+</style>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">K-Aqua · Website-Review &amp; Marktanalyse</p>
+    <h1>Jede Seite geprüft, aus Sicht des Käufers</h1>
+    <p class="standfirst">
+      Alle 186 deutschen Sitemap-Seiten wurden aus dem Produktions-Build abgerufen und vermessen;
+      die 31 einzigartigen Seitentypen zusätzlich inhaltlich bewertet: Versteht ein Planer,
+      Installateur oder Einkäufer sofort, was hier angeboten wird — und findet Google es?
+    </p>
+  </header>
+
+  <section>
+    <h2>Ergebnis in Zahlen</h2>
+    <div class="figures">
+      <div class="fig"><span class="n mono">186</span><span class="l">Seiten vermessen (Titel, Description, H1, Canonical)</span></div>
+      <div class="fig crit"><span class="n mono">50</span><span class="l">News-Artikel waren in Produktion kaputt — behoben</span></div>
+      <div class="fig ok"><span class="n mono">0</span><span class="l">fehlende oder doppelte Titel &amp; Descriptions</span></div>
+      <div class="fig ok"><span class="n mono">41</span><span class="l">Titel und H1s überarbeitet (de/en/ar)</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Der kritische Fund</h2>
+    <div class="note crit">
+      <h3>Alle 50 Fachartikel lieferten in Produktion einen Serverfehler</h3>
+      <p>
+        Die Artikel-Route wertete Query-Parameter aus — in einer statisch erzeugten Route löst das
+        in Next.js <code>DYNAMIC_SERVER_USAGE</code> aus. Jeder Artikel antwortete mit 500.
+        Damit war der wertvollste SEO-Bestand der Website — rund 76.000 Wörter Fachwissen zu
+        PP-R — für Besucher wie für Google <strong>unsichtbar</strong>. Der einzige Zweck des Codes war,
+        UTM-Parameter über eine Legacy-Weiterleitung zu retten. Behoben; alle Artikel liefern wieder 200.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Wofür K-Aqua gefunden werden sollte</h2>
+    <p>
+      K-Aqua ist deutscher <strong>Hersteller</strong> — nicht Händler — von PP-R/PP-RCT-Rohrsystemen
+      (d20–d630) mit eigener Fertigung, drei ISO-Zertifizierungen und Exportmärkten von DACH bis Nahost.
+      Die Käufer sind TGA-Planer, Installationsbetriebe, Großhändler und Industrie-Einkäufer. Daraus
+      ergeben sich drei Suchintentionen:
+    </p>
+    <h3>1 · Produkt &amp; Beschaffung — die Kaufabsicht</h3>
+    <div class="kw">
+      <span class="hot">PP-R Rohre Hersteller</span><span class="hot">PP-R Rohrsysteme</span>
+      <span>PP-RCT Rohr</span><span>PP-R Formteile</span><span>Übergangsfittings PP-R</span>
+      <span>Einschweißsattel</span><span>PP-R Rohr d630</span>
+    </div>
+    <p>Bedient von den 7 Kategorieseiten und 82 Produktseiten. Nach der Überarbeitung führt jede Kategorie-H1 mit dem Suchbegriff.</p>
+    <h3>2 · Wissen &amp; Problemlösung — der Planer vor der Entscheidung</h3>
+    <div class="kw">
+      <span class="hot">PP-R oder Kupfer</span><span>PP-R schweißen Parameter</span>
+      <span>Druckverlust PP-R</span><span>Trinkwasserhygiene Legionellen</span>
+      <span>Rohrleitung Brandschutz B1</span><span>Lebensdauer Kunststoffrohr</span>
+    </div>
+    <p>Bedient von den 50 Fachartikeln — dem stärksten Differenzierungs-Bestand der Website. Genau dieser Bestand war bis heute kaputt.</p>
+    <h3>3 · Lokal &amp; Export — der internationale Einkäufer</h3>
+    <div class="kw">
+      <span class="hot">PP-R pipes Germany</span><span>PP-R pipe manufacturer Europe</span>
+      <span>أنابيب PP-R</span><span>PP-R Rohre Frankfurt</span>
+    </div>
+    <p>Bedient von 24 Länder- und 56 Städteseiten mit lokalem Wasserprofil und Normbezug — ein Aufbau, den kaum ein Wettbewerber hat.</p>
+  </section>
+
+  <section>
+    <h2>Seite für Seite — die wichtigsten Urteile</h2>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Seite</th><th>Aus Nutzersicht</th><th>Stand</th></tr></thead>
+        <tbody>
+          <tr><td>Startseite</td><td>Sofort klar: Hersteller, Produkt, Herkunft. „Führend bei K-Aqua PP-R Rohrsystemen" + KESSEL-Partnerschaft als Vertrauensanker.</td><td><span class="pill p-ok">gut</span></td></tr>
+          <tr><td>/produkte + 7 Kategorien</td><td>H1s waren Agentur-Pathos ohne Produktwort (<span class="was">„Überlegene Rohrleitungstechnik für jedes Projekt"</span>). Jetzt führt jede mit dem Suchbegriff: „PP-R &amp; PP-RCT Rohre: …".</td><td><span class="pill p-fix">behoben</span></td></tr>
+          <tr><td>/produkte/transition-fittings</td><td>H1 war der rohe englische Slug <span class="was">„TRANSITION-FITTINGS"</span> — der Übersetzungsblock fehlte komplett. Ergänzt in drei Sprachen.</td><td><span class="pill p-fix">behoben</span></td></tr>
+          <tr><td>/maerkte</td><td>H1 war grammatisch falsch (<span class="was">„Eine Welt voller Märkten."</span>) und keyword-frei. Jetzt: „PP-R Rohrsysteme für Märkte weltweit."</td><td><span class="pill p-fix">behoben</span></td></tr>
+          <tr><td>/loesungen</td><td><span class="was">„SYSTEMARCHITEKTUR FÜR DIE EWIGKEIT."</span> — Drama ohne Substanz. Jetzt: „PP-R SYSTEMLÖSUNGEN FÜR DIE EWIGKEIT." Ton bleibt, Produkt steht drin.</td><td><span class="pill p-fix">behoben</span></td></tr>
+          <tr><td>Städteseiten (56)</td><td>Stärkstes Asset: Wasserprofil, Normrahmen, Distanz zum Werk je Stadt. Einzigartig im Wettbewerb.</td><td><span class="pill p-ok">gut</span></td></tr>
+          <tr><td>News (50 Artikel)</td><td>Waren komplett kaputt (500). Zusätzlich schnitten 10 Titel mitten im Wort ab („PPR-Roh…"). Beides behoben.</td><td><span class="pill p-fix">behoben</span></td></tr>
+          <tr><td>Produktseiten (82)</td><td>8 Titel verschenkten das Ranking-Feld (<span class="was">„Stub End"</span> → „PP-R Vorschweißbund (Stub End) für Flanschverbindungen"). Rest solide mit Maßtabellen + 3D.</td><td><span class="pill p-fix">behoben</span></td></tr>
+          <tr><td>/kontakt, /projektanfrage</td><td>Klare Handlungsaufforderung, Formular nachweislich funktionsfähig, Antwortversprechen. Stark für B2B-Konversion.</td><td><span class="pill p-ok">gut</span></td></tr>
+          <tr><td>/unternehmen, /academy, /karriere, /referenzen</td><td>Emotionale H1s („Wissen, das verbindet.") — auf Markenseiten in Ordnung, die Substanz trägt jeweils die H2. Bewusst nicht angefasst.</td><td><span class="pill p-ok">gut</span></td></tr>
+          <tr><td>/3d, /co2-rechner, /trust-center</td><td>Echte Differenzierer: interaktives CAD mit Export, ISO-14040-Rechner, Zertifikats-Center. Kaum ein Mitbewerber bietet das.</td><td><span class="pill p-ok">gut</span></td></tr>
+          <tr><td>Social-Vorschau (alle Seiten)</td><td>Nur die Startseite hatte ein OG-Bild — jeder geteilte Produktlink erschien ohne Vorschaukarte. Fallback auf das generierte Markenbild gesetzt.</td><td><span class="pill p-fix">behoben</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Was der Markt noch bemängeln würde</h2>
+    <div class="note">
+      <h3>1 · Die Fachartikel sind nur auf Deutsch belastbar</h3>
+      <p>
+        Titel und Teaser der 50 Artikel sind dreisprachig, die Artikelkörper deutsch (~76.000 Wörter).
+        Die EN/AR-Fassungen stehen korrekt auf <code>noindex</code> — sauber gelöst, aber der
+        internationale Wissens-Traffic bleibt liegen. Das ist ein Redaktionsauftrag, kein Code-Fix,
+        und der größte verbleibende Hebel für die Exportmärkte.
+      </p>
+    </div>
+    <div class="note">
+      <h3>2 · Englische Zwischenüberschriften auf deutschen Produktseiten</h3>
+      <p>
+        Die Maßtabellen der Produktseiten stammen aus englischen Quelldateien — „Article Table",
+        „Available Sizes" erscheinen auch auf /de. Für Techniker verständlich, aber ein gemischtes
+        Sprachsignal auf 82 Seiten. Erfordert die Überarbeitung der Produkt-Quelldateien.
+      </p>
+    </div>
+    <div class="note">
+      <h3>3 · Ohne Zugangsdaten geht weiterhin jede Anfrage ins Leere</h3>
+      <p>
+        Der wichtigste Geschäftsprozess — die Projektanfrage — schreibt ohne
+        <code>RESEND_API_KEY</code>/<code>SMTP_*</code> in Vercel nur ins Server-Log.
+        Beste SEO-Werte nützen nichts, wenn die gewonnene Anfrage nicht ankommt.
+      </p>
+    </div>
+    <div class="note pass">
+      <h3>Fundament steht</h3>
+      <p>
+        Null fehlende oder doppelte Metadaten über 186 Seiten, kein dünner Inhalt, durchgängig
+        Canonicals und strukturierte Daten, konsequentes hreflang, drei kuratierte Sprachen mit
+        sauberer Indexierungssteuerung. Diese Basis haben die wenigsten Hersteller-Websites.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Empfohlene Reihenfolge</h2>
+    <ul>
+      <li><strong>Sofort:</strong> Die 11 Commits deployen — der News-Fix allein schaltet 50 Inhaltsseiten wieder frei. Vercel-Umgebungsvariablen setzen.</li>
+      <li><strong>Diese Woche:</strong> Search Console: Sitemap neu einreichen, Indexierung der News-Artikel anstoßen (sie waren als 500 bekannt).</li>
+      <li><strong>Dieser Monat:</strong> Fachübersetzung der 10 stärksten Artikel ins Englische — die Kaufthemen zuerst („PP-R vs. Copper", „Welding Parameters").</li>
+      <li><strong>Laufend:</strong> 3D-Bestand ausbauen (28/71) — jedes neue Modell stärkt das stärkste Alleinstellungsmerkmal.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Geprüft am 23.08.2026 gegen den Produktions-Build · 186 Seiten vermessen · 31 Seitentypen inhaltlich bewertet ·
+    TypeScript 0 Fehler · ESLint 0 Fehler · Tests 36/36 · Build grün
+  </footer>
+</div>
