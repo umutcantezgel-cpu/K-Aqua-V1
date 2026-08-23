@@ -107,3 +107,8 @@ messages/temp_*.json
 messages/scratch_*.json
 messages/*_temp*.json
 messages/*_part*.json
+
+# Arbeitsunterlagen, keine Website-Bestandteile.
+# Die 3D-Produktionsstrecke selbst liegt versioniert in docs/3d-produktion/.
+/K-Aqua Unterseitem Kopie/
+/Backlinks K-Aqua/

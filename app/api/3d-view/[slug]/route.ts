@@ -51,10 +51,11 @@ export async function GET(
   const cleanSlug = slug.replace(/\.html$/, '').toLowerCase();
   const targetSlug = SLUG_ALIASES[cleanSlug] || cleanSlug;
 
+  // public/3d war eine byteidentische Kopie von public/kaqua-3d und wurde
+  // entfernt; der Eintrag entfällt damit.
   const baseDirs = [
     path.join(process.cwd(), 'kaqua-3d', 'dist'),
     path.join(process.cwd(), 'public', 'kaqua-3d'),
-    path.join(process.cwd(), 'public', '3d'),
   ];
 
   // Variations to check in order
