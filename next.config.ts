@@ -55,6 +55,16 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+
+  // Barrel-Importe auflösen. 51 Dateien importieren aus 'lucide-react' in der
+  // Form `import { ArrowRight, Shield } from 'lucide-react'` — ohne diese
+  // Option zieht jeder davon den gesamten Index des Pakets mit und der Bundler
+  // muss ihn erst per Tree-Shaking wieder abtragen. Die Optimierung war in
+  // `docs/lighthouse.md` dokumentiert, im Baum aber nicht mehr vorhanden:
+  // `experimental` fehlte vollständig.
+  experimental: {
+    optimizePackageImports: ['lucide-react', 'framer-motion', 'motion'],
+  },
   outputFileTracingIncludes: {
     '/**': [
       './content/**/*',

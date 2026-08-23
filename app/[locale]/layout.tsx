@@ -124,6 +124,36 @@ export default async function LocaleLayout({
       <head>
         <meta name="darkreader-lock" content="true" />
         <meta name="color-scheme" content="light dark" />
+        {/*
+          Import Map für die 3D-Produktmodule.
+
+          `Native3DCanvas` lädt die Produktgeometrie zur Laufzeit als natives
+          ES-Modul (`import('/kaqua-3d/lib/index.mjs')`). Diese Module schreiben
+          `import * as THREE from 'three'` — einen nackten Bezeichner, den der
+          Browser ohne Import Map nicht auflösen kann. Ohne sie brach jeder
+          Ladevorgang mit „Failed to resolve module specifier 'three'" ab, und
+          der Viewer zeigte auf allen Produktseiten und im 3D-Studio den
+          Fehlerzustand statt eines Modells.
+
+          Die mitgelieferten Demo-Seiten unter `public/kaqua-3d/*.html` haben
+          eine solche Map — sie zeigt allerdings auf unpkg.com. Für die Website
+          kommt das nicht in Frage: Der Einwilligungsdialog sagt zu, dass keine
+          Daten an Dritte übermittelt werden. Ein Abruf bei unpkg würde die
+          IP-Adresse jedes Besuchers dorthin senden und diese Zusage zur
+          Falschaussage machen. Deshalb liegt three.js unter
+          `public/kaqua-3d/vendor/` im eigenen Haus.
+
+          Die Map muss im `<head>` stehen und vor dem ersten Modulimport
+          ausgeliefert werden — daher hier und nicht in der Seite.
+        */}
+        <script
+          type="importmap"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              imports: { three: '/kaqua-3d/vendor/three.module.js' },
+            }),
+          }}
+        />
       </head>
       <body className={`${isRTLFont ? tajawal.variable : `${outfit.variable} ${inter.variable}`} antialiased text-body bg-background min-h-screen flex flex-col`} suppressHydrationWarning>
         <ShapeDefs />

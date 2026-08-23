@@ -2,7 +2,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import Native3DCanvas from '@/components/3d/Native3DCanvas';
+import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 
 export interface KaquaProductMeta {
   id: string;

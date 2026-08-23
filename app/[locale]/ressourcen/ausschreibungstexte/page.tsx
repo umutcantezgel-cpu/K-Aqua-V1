@@ -15,7 +15,7 @@ import { StickyScrollReveal } from '@/components/ui/StickyScrollReveal';
 import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
-import Native3DCanvas from '@/components/3d/Native3DCanvas';
+import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -52,7 +52,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     }),
     getBreadcrumbGraphNode(locale, [
       { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
-      { name: locale === "de" ? "Ressourcen" : locale === "ar" ? "الموارد" : "Resources", path: "/ressourcen/support" },
+      // Die Zwischenstufe „Ressourcen" ist entfernt: Es gibt keine Seite
+      // `/ressourcen`, sie zeigte ersatzweise auf `/ressourcen/support` — also
+      // auf eine Schwesterseite statt auf die Ebene darüber. Ein Breadcrumb,
+      // der seitwärts zeigt, führt Nutzer wie Suchmaschine in die Irre.
       { name: locale === "de" ? "Ausschreibungstexte" : locale === "ar" ? "نصوص المناقصات" : "Tender Specifications", path: "/ressourcen/ausschreibungstexte" },
     ]),
   ]);

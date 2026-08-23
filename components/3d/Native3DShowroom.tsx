@@ -2,7 +2,11 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import Native3DCanvas, { resolve3DProductId } from '@/components/3d/Native3DCanvas';
+// `resolve3DProductId` kommt jetzt aus `lib/3d/resolve` — die reine
+// Zuordnungsfunktion soll kein three.js ins Bundle ziehen. Der Viewer selbst
+// wird über die Lazy-Fassung nachgeladen.
+import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
+import { resolve3DProductId } from '@/lib/3d/resolve';
 import { useTranslations } from 'next-intl';
 // @ts-expect-error - registry is an untyped mjs module
 import { REGISTRY } from '@/kaqua-3d/dist/lib/registry.mjs';

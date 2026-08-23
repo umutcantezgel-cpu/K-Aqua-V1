@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Box, Maximize2, Layers, Sparkles, ExternalLink } from 'lucide-react';
 import clsx from 'clsx';
 import { Link } from '@/lib/i18n/navigation';
-import Native3DCanvas from '@/components/3d/Native3DCanvas';
+import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 
 interface Props {
   category: string;

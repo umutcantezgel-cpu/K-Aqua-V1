@@ -22,14 +22,7 @@ import {
 } from 'lucide-react';
 import clsx from 'clsx';
 import { useTranslations } from 'next-intl';
-import { GENERATED_SLUG_MAP } from '@/lib/3d/slug-map.generated';
-import { SLUG_ALIASES } from '@/lib/3d/aliases';
-
-// Die triviale Zuordnung entsteht aus der Registry (erzeugt), die
-// redaktionellen Ausnahmen stehen daneben. Ein neues Produkt braucht damit
-// keine Codeänderung mehr — es genügt, die Bibliothek zu aktualisieren und
-// `node scripts/sync-3d-registry.mjs` laufen zu lassen.
-const SLUG_TO_3D_ID: Record<string, string> = { ...GENERATED_SLUG_MAP, ...SLUG_ALIASES };
+import { resolve3DProductId } from '@/lib/3d/resolve';
 
 export interface Native3DCanvasProps {
   productId?: string; // e.g. "fittings/socket", "pipes/k-pipe-pp-r-sdr-6", "valves/pp-r-ball-valve-ball-in-pp"
@@ -47,19 +40,11 @@ export interface Native3DCanvasProps {
 }
 
 
-/**
- * Ordnet einen Katalog-Slug einer 3D-Modul-ID zu.
- *
- * Gibt null zurück, wenn es für das Produkt (noch) kein Modell gibt. Vorher
- * fiel die Funktion auf 'fittings/socket' zurück — ein Produkt ohne Modell
- * zeigte damit stillschweigend eine Muffe, also ein anderes Bauteil. Für einen
- * maßhaltigen CAD-Viewer ist das schlechter als gar keine Darstellung.
- */
-export function resolve3DProductId(slugOrId?: string): string | null {
-  if (!slugOrId) return null;
-  const clean = slugOrId.replace(/^.*\//, '').toLowerCase().trim();
-  return SLUG_TO_3D_ID[clean] ?? SLUG_TO_3D_ID[slugOrId] ?? null;
-}
+// `resolve3DProductId` liegt jetzt in `lib/3d/resolve.ts` und wird hier nur
+// re-exportiert, damit bestehende Importe weiter funktionieren. Wer die
+// Funktion allein braucht, sollte direkt aus `lib/3d/resolve` importieren —
+// sonst zieht er three.js mit ins Bundle.
+export { resolve3DProductId };
 
 export default function Native3DCanvas({
   productId,

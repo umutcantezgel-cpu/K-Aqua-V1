@@ -13,7 +13,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Link, usePathname, useRouter } from "@/lib/i18n/navigation";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
-import Native3DCanvas from "@/components/3d/Native3DCanvas";
+import Native3DCanvas from "@/components/3d/Native3DCanvasLazy";
 
 interface ProductMeta {
   slug: string;

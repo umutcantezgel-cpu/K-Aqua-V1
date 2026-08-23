@@ -55,7 +55,10 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     }),
     getBreadcrumbGraphNode(locale, [
       { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
-      { name: locale === "de" ? "Ressourcen" : locale === "ar" ? "الموارد" : "Resources", path: "/ressourcen/support" },
+      // Die Zwischenstufe „Ressourcen" ist entfernt: Es gibt keine Seite
+      // `/ressourcen`, sie zeigte deshalb auf `/ressourcen/support` — also auf
+      // dieselbe Adresse wie die Stufe darunter. Ein Breadcrumb, in dem zwei
+      // Stufen auf dieselbe URL verweisen, beschreibt keinen Pfad mehr.
       { name: locale === "de" ? "Support" : locale === "ar" ? "الدعم الفني" : "Support", path: "/ressourcen/support" },
     ]),
   ]);

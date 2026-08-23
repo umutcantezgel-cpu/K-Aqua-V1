@@ -19,7 +19,7 @@ import React from 'react';
 
 import ProductGallery from '@/components/product/ProductGallery';
 import ProductFAQ from '@/components/product/ProductFAQ';
-import Native3DCanvas from '@/components/3d/Native3DCanvas';
+import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
 import LocalAvailability from '@/components/product/LocalAvailability';
