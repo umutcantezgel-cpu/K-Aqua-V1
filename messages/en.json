@@ -1838,8 +1838,8 @@
     },
     "hubInfraLine": "K-Aqua infrastructure for {hub}, engineered for {scenario}.",
     "eyebrow": "Markets & Locations",
-    "title1": "A World Full of",
-    "title2": "Markets.",
+    "title1": "PP-R piping systems for",
+    "title2": "markets worldwide.",
     "lead": "{n} markets in {c} countries, each with its own landing page: standards, water profile, use cases, logistics. Interact with the globe and rotate freely; the list takes you directly to the city.",
     "all": "All",
     "cityTitle": "PP-R/PP-RCT Piping Systems in {city}.",
@@ -2152,7 +2152,7 @@
     "seoArticle": {
       "pipes": {
         "areas": "Drinking water installation, Heating systems, Air conditioning & HVAC, Industrial plants, Shipbuilding",
-        "advTitle": "Superior Piping Technology for Every Project",
+        "advTitle": "PP-R & PP-RCT Pipes: Superior Technology for Every Project",
         "advList": [
           "No Corrosion: 100% resistant to pitting and rust.",
           "Low Pressure Drop: The extremely smooth inner surface minimizes friction and saves pump energy.",
@@ -2189,7 +2189,7 @@
       },
       "fittings": {
         "areas": "Drinking water network, Sanitary installation, Industrial distribution, Heating construction",
-        "advTitle": "Safe and homogeneous connections",
+        "advTitle": "PP-R Fittings: Safe and Homogeneous Connections",
         "advList": [
           "Homogeneous welding: Pipe and fitting fuse into an inseparable unit.",
           "No seals required: The permanent connection does not require error-prone O-rings.",
@@ -2204,7 +2204,7 @@
       },
       "valves": {
         "areas": "Branch isolation, Plant control, Distribution cabinets, Industry",
-        "advTitle": "Precise control and long-lasting function",
+        "advTitle": "PP-R Valves: Precise Control, Long-Lasting Function",
         "advList": [
           "Maintenance-free: The mechanics are designed for decades of smooth operation.",
           "Full port: Ball valves with full cross-section minimize pressure drops.",
@@ -2234,7 +2234,7 @@
       },
       "accessories": {
         "areas": "Pipe fastening, Sealing, Flange connection, Repair",
-        "advTitle": "Accessories for standard-compliant installation",
+        "advTitle": "PP-R Accessories for Standard-Compliant Installation",
         "advList": [
           "Perfect fit: All accessories are geometrically matched to the K Aqua pipe system.",
           "Thermodynamic fastening: Pipe clamps with rubber inserts for fixed and sliding points.",
@@ -2263,7 +2263,7 @@
       },
       "tools": {
         "areas": "Pre-assembly, On-site assembly, Repair, Special applications",
-        "advTitle": "Highest precision for the perfect connection",
+        "advTitle": "PP-R Welding Tools: Precision for the Perfect Joint",
         "advList": [
           "Exact temperature control: Microprocessor-controlled heating elements keep exactly 260°C.",
           "Non-stick coating: Teflon PTFE for a residue-free melt.",
@@ -2287,6 +2287,17 @@
           "Economy: Excellent price-performance ratio."
         ],
         "seoText": "As a system provider, K Aqua supplies not only pipes and fittings, but also all the necessary tools and accessories. From high-precision welding machines to reliable pipe cutters - our tools guarantee standard-compliant processing and maximum installation safety. Rely on original accessories to maintain the warranty of your entire K Aqua system."
+      },
+      "transitionFittings": {
+        "advTitle": "PP-R Transition Fittings: The Secure Interface to Metal",
+        "seoTitle": "PP-R Transition Fittings: Metal-to-Plastic Connections",
+        "seoText": "Heavy-duty transition sockets, wall elbows and unions with deeply anchored brass or stainless-steel inserts connect the PP-R system permanently tight to valves, pumps and existing metal pipework.",
+        "advList": [
+          "Deeply anchored metal inserts with maximum pull-out resistance",
+          "Drinking-water hygiene compliant with UBA guidelines",
+          "Brass and stainless-steel variants for every environment",
+          "Permanently tight connection to existing installations"
+        ]
       }
     },
     "labels": {
@@ -3591,7 +3602,7 @@
       },
       "hero": {
         "eyebrow": "INDUSTRIAL & BUILDING SOLUTIONS",
-        "title1": "SYSTEM ARCHITECTURE",
+        "title1": "PP-R SYSTEM SOLUTIONS",
         "title2": "FOR ETERNITY.",
         "desc": "High-performance polymer systems for critical infrastructure. Developed under extreme conditions, verified by uncompromising German engineering. A perfect synthesis of material science and applied fluid dynamics. System architecture for eternity.",
         "cta": "Contact Us"

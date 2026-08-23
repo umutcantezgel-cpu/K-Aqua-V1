@@ -1838,8 +1838,8 @@
     },
     "hubInfraLine": "K-Aqua Infrastruktur für {hub}, ausgelegt auf {scenario}.",
     "eyebrow": "Märkte & Standorte",
-    "title1": "Eine Welt voller",
-    "title2": "Märkten.",
+    "title1": "PP-R Rohrsysteme für",
+    "title2": "Märkte weltweit.",
     "lead": "Entdecken Sie die K-Aqua Standorte für PP-R Rohrsysteme: {n} Märkte in {c} Ländern, jeder mit eigener Landingpage zu Normen, Wasserprofil, Anwendungsfällen und Logistik. Greifen Sie die Welt und drehen Sie sie frei; die Liste fliegt Sie punktgenau zur Stadt.",
     "all": "Alle",
     "cityTitle": "PP-R/PPRCT Rohrsysteme in {city}.",
@@ -2152,7 +2152,7 @@
     "seoArticle": {
       "pipes": {
         "areas": "Trinkwasserinstallation, Heizungsbau, Klimatechnik, Industrielle Anlagen, Schiffbau",
-        "advTitle": "Überlegene Rohrleitungstechnik für jedes Projekt",
+        "advTitle": "PP-R & PP-RCT Rohre: Überlegene Technik für jedes Projekt",
         "advList": [
           "Keine Korrosion: 100% resistent gegen Lochfraß und Rost.",
           "Geringer Druckverlust: Die extrem glatte Innenfläche minimiert Reibung und spart Pumpenenergie.",
@@ -2189,7 +2189,7 @@
       },
       "fittings": {
         "areas": "Trinkwassernetz, Sanitärinstallation, Industrielle Verteilung, Heizungsbau",
-        "advTitle": "Sichere und homogene Verbindungen",
+        "advTitle": "PP-R Formteile: Sichere und homogene Verbindungen",
         "advList": [
           "Homogene Verschweißung: Rohr und Fitting verschmelzen zu einer untrennbaren Einheit.",
           "Keine Dichtungen nötig: Die dauerhafte Verbindung benötigt keine fehleranfälligen O-Ringe.",
@@ -2204,7 +2204,7 @@
       },
       "valves": {
         "areas": "Strangabsperrung, Anlagensteuerung, Verteilerschränke, Industrie",
-        "advTitle": "Präzise Steuerung und langlebige Funktion",
+        "advTitle": "PP-R Armaturen & Ventile: Präzise Steuerung, langlebige Funktion",
         "advList": [
           "Wartungsfrei: Die Mechanik ist auf jahrzehntelange reibungslose Funktion ausgelegt.",
           "Voller Durchgang: Kugelhähne mit vollem Querschnitt minimieren Druckverluste.",
@@ -2234,7 +2234,7 @@
       },
       "accessories": {
         "areas": "Rohrbefestigung, Dichtung, Flanschverbindung, Reparatur",
-        "advTitle": "Accessories (Zubehör) für eine normgerechte Installation",
+        "advTitle": "PP-R Zubehör für die normgerechte Installation",
         "advList": [
           "Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K Aqua Rohrsystem abgestimmt.",
           "Thermodynamische Befestigung: Rohrschellen mit Gummieinlage für Fest- und Loslager.",
@@ -2263,7 +2263,7 @@
       },
       "tools": {
         "areas": "Vorfertigung, Baustellenmontage, Reparatur, Spezialanwendungen",
-        "advTitle": "Höchste Präzision für die perfekte Verbindung",
+        "advTitle": "PP-R Schweißwerkzeuge: Präzision für die perfekte Verbindung",
         "advList": [
           "Exakte Temperaturkontrolle: Mikroprozessorgesteuerte Heizelemente halten exakt 260°C.",
           "Antihaft-Beschichtung: Teflon-PTFE für eine rückstandsfreie Schmelze.",
@@ -2287,6 +2287,17 @@
           "Wirtschaftlichkeit: Hervorragendes Preis-Leistungs-Verhältnis."
         ],
         "seoText": "Als Systemanbieter liefert K Aqua nicht nur Rohre und Fittings, sondern auch das gesamte benötigte Werkzeug und Zubehör. Vom hochpräzisen Schweißgerät bis zum zuverlässigen Rohrabschneider: unsere Werkzeuge garantieren eine normgerechte Verarbeitung und maximale Installationssicherheit. Setzen Sie auf Originalzubehör, um die Gewährleistung Ihres K Aqua Gesamtsystems zu erhalten."
+      },
+      "transitionFittings": {
+        "advTitle": "PP-R Übergangsformteile: Die sichere Schnittstelle zu Metall",
+        "seoTitle": "PP-R Übergangsformteile: Metall-Kunststoff-Verbindungen",
+        "seoText": "Hochbelastbare Übergangsmuffen, Wandwinkel und Verschraubungen mit tief verankerten Messing- oder Edelstahleinsätzen verbinden das PP-R System dauerhaft dicht mit Armaturen, Pumpen und Bestandsleitungen aus Metall.",
+        "advList": [
+          "Tief verankerte Metalleinsätze mit höchster Ausreißfestigkeit",
+          "UBA-konforme Trinkwasserhygiene",
+          "Messing- und Edelstahlvarianten für jede Umgebung",
+          "Dauerhaft dichte Verbindung zu Bestandsinstallationen"
+        ]
       }
     },
     "labels": {
@@ -3591,7 +3602,7 @@
       },
       "hero": {
         "eyebrow": "INDUSTRIELLE & BAUTECHNISCHE LÖSUNGEN",
-        "title1": "SYSTEMARCHITEKTUR",
+        "title1": "PP-R SYSTEMLÖSUNGEN",
         "title2": "FÜR DIE EWIGKEIT.",
         "desc": "Entdecken Sie die PP-R Materialvorteile und die physikalische Überlegenheit unserer Hochleistungspolymersysteme von K-Aqua. Entwickelt unter extremen Bedingungen, verifiziert durch kompromisslose deutsche Ingenieurskunst. Diese Systemarchitektur ist für die Ewigkeit konzipiert.",
         "cta": "Kontakt aufnehmen"
