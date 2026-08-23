@@ -65,12 +65,26 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion', 'motion'],
   },
+  // Nur mitnehmen, was zur Laufzeit wirklich vom Dateisystem gelesen wird.
+  //
+  // Vorher stand hier `./public/**/*` — damit wanderte der gesamte
+  // Öffentlichkeitsordner in JEDES Serverless-Bundle: 150 MB Bilder und 113 MB
+  // Videos, zusammen 263 MB. Next.js liefert diese Dateien statisch aus; die
+  // Serverless-Funktion greift nie auf sie zu. Vercels Grenze für eine
+  // entpackte Funktion liegt bei 250 MB — der Eintrag war also nicht nur
+  // Ballast, sondern eine tickende Zeitbombe.
+  //
+  // Belegt wird der Bedarf so:
+  //   content/**   lib/products.ts liest die Produkt-Markdowns (readFileSync)
+  //   messages/**  lib/i18n/request.ts liest die Sprachdateien (readFileSync)
+  //   kaqua-3d     app/api/3d-view/[slug]/route.ts liest die Demo-HTML aus
+  //                `kaqua-3d/dist` bzw. `public/kaqua-3d` (existsSync/readFileSync)
   outputFileTracingIncludes: {
     '/**': [
       './content/**/*',
       './messages/**/*',
       './kaqua-3d/dist/**/*',
-      './public/**/*',
+      './public/kaqua-3d/**/*',
     ],
   },
   images: {

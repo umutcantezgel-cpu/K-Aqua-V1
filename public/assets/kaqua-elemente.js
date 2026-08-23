@@ -1117,4 +1117,22 @@
     } catch (e) { console.error('[kaqua-elemente] maparc:', e); }
   }
   window.KAquaElemente = { init: scan };
+
+  // Selbststart — wie in kaqua-signature.js.
+  //
+  // Vorher stand hier nur die Zuweisung. Der erste `scan()` kam damit
+  // ausschließlich aus `KAquaElementeInitializer`, dessen Effekt nach der
+  // Hydration einmal läuft und erst bei einem Pfadwechsel erneut. Ob dieser
+  // Effekt vor oder nach dem Laden dieser 49-kB-Datei ausgeführt wurde, war
+  // Zufall: Kam er zuerst, war `window.KAquaElemente` noch undefiniert und die
+  // Effekte starteten auf der ersten Seite nie.
+  //
+  // Mit dem Selbststart ist die Reihenfolge gleichgültig — Voraussetzung dafür,
+  // dass das Skript per `lazyOnload` aus dem kritischen Pfad genommen werden
+  // kann, ohne die Gestaltung zu verlieren.
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scan);
+  } else {
+    scan();
+  }
 })();

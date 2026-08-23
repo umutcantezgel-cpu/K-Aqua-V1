@@ -187,8 +187,22 @@ export default async function LocaleLayout({
             <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>
-        <Script src="/assets/kaqua-elemente.js" strategy="afterInteractive" />
-        <Script src="/assets/kaqua-signature.js" strategy="afterInteractive" />
+        {/*
+          `lazyOnload` statt `afterInteractive`.
+
+          `afterInteractive` erzeugt ein `<link rel="preload" as="script">` im
+          `<head>`. Beide Dateien — zusammen 57 kB — konkurrierten damit während
+          des LCP um Bandbreite, obwohl sie ausschließlich Gestaltungseffekte
+          bewegen (Lichtstrahlen, Wellen, Punktraster, Kartenbögen) und nichts
+          zum Inhalt beitragen. Mit `lazyOnload` laden sie nach dem
+          `load`-Ereignis.
+
+          Voraussetzung dafür war der Selbststart in `kaqua-elemente.js`: Das
+          Skript setzte zuvor nur `window.KAquaElemente` und verließ sich auf
+          einen React-Effekt, der zeitlich vor dem Laden liegen konnte.
+        */}
+        <Script src="/assets/kaqua-elemente.js" strategy="lazyOnload" />
+        <Script src="/assets/kaqua-signature.js" strategy="lazyOnload" />
       </body>
     </html>
   );

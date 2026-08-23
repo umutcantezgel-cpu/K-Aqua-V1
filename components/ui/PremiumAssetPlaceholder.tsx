@@ -1,15 +1,70 @@
 'use client';
 
  
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { cn } from '@/lib/utils/cn';
+
+/**
+ * Lädt die Videodatei erst, wenn sie in die Nähe des Sichtbereichs kommt.
+ *
+ * `/ressourcen/support` bindet zwei dieser Kacheln ein: socket-welding-hand.mp4
+ * (10,2 MB) und factory.mp4 (28,4 MB). Beide standen mit `autoPlay` und ohne
+ * `preload` im Markup — zusammen 38,6 MB, die der Browser beim Seitenaufbau zu
+ * laden begann, während sie weit unterhalb des ersten Bildschirms lagen.
+ *
+ * Der Trick ist, `src` erst zu setzen, wenn der Beobachter anschlägt: Ein
+ * `<video>` ohne `src` fordert nichts an, unabhängig von `preload`. 400 px
+ * Vorlauf reichen, damit das Bild steht, bevor die Kachel den Sichtbereich
+ * erreicht.
+ */
+function LazyVideo({ src, poster }: { src: string; poster?: string }) {
+  const ref = useRef<HTMLVideoElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    // Ohne IntersectionObserver (sehr alte Browser) sofort laden — lieber die
+    // alte Last als eine leere Kachel.
+    if (typeof IntersectionObserver === 'undefined') {
+      setVisible(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setVisible(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: '400px' }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  return (
+    <video
+      ref={ref}
+      {...(visible ? { src } : {})}
+      poster={poster}
+      autoPlay
+      muted
+      loop
+      playsInline
+      preload="none"
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+  );
+}
 
 export const PremiumAssetPlaceholder = ({
   className,
   label,
   image,
   video,
+  poster,
 }: {
   className?: string;
   label?: string;
@@ -17,6 +72,8 @@ export const PremiumAssetPlaceholder = ({
   image?: string;
   /** Path to a real video under public/ (e.g. /videos/factory.mp4). Takes priority over `image` if both are set. */
   video?: string;
+  /** Standbild für das Video. Ohne Standbild bleibt die Kachel schwarz, bis das erste Bild steht. */
+  poster?: string;
 }) => {
   if (video) {
     return (
@@ -24,14 +81,7 @@ export const PremiumAssetPlaceholder = ({
         "w-full h-full min-h-[400px] rounded-3xl overflow-hidden relative group bg-black",
         className
       )}>
-        <video
-          src={video}
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+        <LazyVideo src={video} poster={poster} />
         {label && (
           <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
             <span className="font-heading font-bold tracking-widest uppercase text-xs text-white/90">

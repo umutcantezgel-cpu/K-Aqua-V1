@@ -113,7 +113,10 @@ export function LiquidEngine() {
     }
 
     let isDestroyed = false;
-    let rAFId: number;
+    // 0 bedeutet „keine Schleife läuft". Der Wert wird jetzt geprüft, bevor eine
+    // neue angefordert wird — uninitialisiert wäre er `undefined` und der
+    // Vergleich stillschweigend falsch.
+    let rAFId = 0;
 
     function motionInit() {
       if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -210,8 +213,31 @@ export function LiquidEngine() {
         ];
       }
 
+      // Anzahl der derzeit sichtbaren Elemente. Die Schleife lief bisher
+      // ununterbrochen weiter, auch wenn kein einziges Element im Blick war —
+      // sie prüfte dann sechzigmal je Sekunde eine Liste, um jedes Mal
+      // festzustellen, dass nichts zu tun ist. Auf langen Seiten ist das der
+      // Normalfall, nicht die Ausnahme.
+      var visibleCount = 0;
+
       var vio = new IntersectionObserver(function (entries) {
-        entries.forEach(function (e: any) { if (e.target._kqT) e.target._kqT.vis = e.isIntersecting; });
+        entries.forEach(function (e: any) {
+          if (!e.target._kqT) return;
+          var was = e.target._kqT.vis;
+          var now = e.isIntersecting;
+          if (was === now) return;
+          e.target._kqT.vis = now;
+          visibleCount += now ? 1 : -1;
+          // Absicherung: Ein negativer Zähler würde die Schleife dauerhaft
+          // stillhalten, auch wenn wieder etwas sichtbar wird. Beim aktuellen
+          // Startwert (`vis: false`) kann das nicht eintreten — die Klammer
+          // kostet nichts und macht die Invariante offensichtlich.
+          if (visibleCount < 0) visibleCount = 0;
+        });
+        // Wieder anlaufen, sobald das erste Element in Sicht kommt.
+        if (visibleCount > 0 && rAFId === 0 && !isDestroyed) {
+          rAFId = window.requestAnimationFrame(frame);
+        }
       }, { rootMargin: '160px' });
       tracked.forEach(function (t) { vio.observe(t.el); });
 
@@ -236,11 +262,25 @@ export function LiquidEngine() {
         var pv = (lpX > -1e3) ? Math.hypot(pX - lpX, pY - lpY) : 0;
         lpX = pX; lpY = pY;
 
+        // LESEPHASE — erst alle Geometrien einsammeln, dann schreiben.
+        //
+        // Vorher wechselten sich Lesen und Schreiben je Element ab: rect lesen,
+        // Stil setzen, nächstes Element rect lesen … Jede Stilzuweisung
+        // entwertet das Layout, sodass das nächste `getBoundingClientRect()`
+        // den Browser zwingt, es neu zu berechnen. Bei n sichtbaren Elementen
+        // waren das n erzwungene Layoutdurchläufe je Bild. Getrennt ist es
+        // einer.
+        for (var ri = 0; ri < tracked.length; ri++) {
+          var rt = tracked[ri];
+          if (rt.vis) rt.rect = rt.el.getBoundingClientRect();
+        }
+
+        // SCHREIBPHASE
         for (var i = 0; i < tracked.length; i++) {
           var t = tracked[i];
-          if (!t.vis) continue;
+          if (!t.vis || !t.rect) continue;
           var el = t.el;
-          var r = el.getBoundingClientRect();
+          var r = t.rect;
           var s = t.seed, sp = t.sp;
 
           var inside = pActive &&
@@ -346,6 +386,12 @@ export function LiquidEngine() {
             st.setProperty('--kq-lm-x', ((2.5 + energy * 10) * Math.sin(time * sp * 0.7 + s + 1.3)).toFixed(2) + 'px');
             st.setProperty('--kq-lm-y', ((2 + energy * 8) * Math.sin(time * sp * 0.9 + s + 2.4)).toFixed(2) + 'px');
           }
+        }
+        // Anhalten, wenn nichts sichtbar ist. Der IntersectionObserver oben
+        // startet die Schleife wieder, sobald ein Element in Sicht kommt.
+        if (visibleCount <= 0) {
+          rAFId = 0;
+          return;
         }
         rAFId = window.requestAnimationFrame(frame);
       }

@@ -41,12 +41,18 @@ export function MediaSlot({
     >
       {src ? (
         src.endsWith('.mp4') ? (
+          // `preload="none"`: Diese Verzweigung wird derzeit von keiner
+          // Aufrufstelle genutzt, aber ein automatisch startendes Video ohne
+          // `preload` lädt seine gesamte Datei beim Seitenaufbau. Der
+          // Vorsichtsschritt kostet nichts und verhindert, dass die nächste
+          // Verwendung dieselbe Last erzeugt wie zuvor auf /ressourcen/support.
           <video
             src={src}
             autoPlay
             loop
             muted
             playsInline
+            preload="none"
             className="w-full h-full object-cover"
           />
         ) : (
