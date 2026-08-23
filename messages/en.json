@@ -6773,6 +6773,16 @@
           "content": "Value added tax identification number according to § 27 a Value Added Tax Act:\nDE 296238486"
         },
         {
+          "title": "Responsible for content",
+          "content": "Responsible for editorial content under § 18 (2) MStV:\n\n[ENTER NAME — pending approval]\nKWT GmbH\nAuweg 3\n35647 Waldsolms-Brandoberndorf, Germany",
+          "id": "content-responsibility"
+        },
+        {
+          "title": "Consumer dispute resolution",
+          "content": "We are neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board (§ 36 (1) no. 1 VSBG).\n\nNote: the European Commission’s online dispute resolution platform was discontinued on 20 July 2025, so no reference to it is given.",
+          "id": "consumer-dispute"
+        },
+        {
           "id": "section-disclaimer",
           "title": "Legal Notice & Disclaimer",
           "content": "K-Aqua PP-R and PPRCT piping systems are high-tech products for the transport of drinking water, heating water, and industrial fluids. The information on this website has been compiled with the greatest possible care. Nevertheless, we assume no liability for the absolute accuracy, completeness, and timeliness of the technical data and specifications provided. Technical changes in the course of further development remain reserved at all times.\n\nLiability for links\nOur website contains links to external websites of third parties, on whose contents we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages.\n\nCopyright\nThe content, technical drawings, 3D models, and works created by the site operators on these pages are subject to German copyright law. The reproduction, processing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator."
@@ -6813,9 +6823,8 @@
           "content": "If you use one of our request forms, we process the data provided there: phone number, email address, your chosen request, and the page from which the request was sent. This data is transmitted by email to info@k-aqua.de and, if a CRM system is connected, stored there to process your request.\n\nFor applications via the career form, the application data you provide (name, contact details, CV or details of experience and education) is transmitted by email to our HR department.\n\nThe purpose of the processing is exclusively to process your request or application. The legal basis is Art. 6 para. 1 lit. b GDPR (performance of pre-contractual measures) or Art. 6 para. 1 lit. f GDPR. The data will be deleted as soon as it is no longer required for the purpose and there are no conflicting statutory retention obligations.\n\nTo protect against automated spam submissions, we use an invisible technical check (honeypot field and time threshold), without third-party captcha services."
         },
         {
-          "id": "sec-6",
-          "title": "6. Cookies and consent",
-          "content": "This website uses technically necessary cookies or comparable storage technologies, for example to store your language and display settings as well as your cookie decision. These are required for the operation of the website (legal basis: Art. 6 para. 1 lit. f GDPR or § 25 para. 2 TDDDG).\n\nVia the cookie banner, you can additionally consent to the categories \"Analytics\" and \"Marketing\". We currently do not use any analytics or marketing services; should such services be integrated in the future, they will only be loaded after your consent (Art. 6 para. 1 lit. a GDPR, § 25 para. 1 TDDDG). You can revoke your consent at any time with effect for the future via the cookie settings."
+          "title": "6. Local storage and consent",
+          "content": "This website sets no cookies. It embeds no third-party services, performs no audience measurement, and transfers no data to third parties or outside the EU.\n\nEverything is stored in your browser’s local storage only. None of it leaves your device:\n\n• Privacy decision (k-aqua-consent-v2) — records what you decided, together with the time and the version of this policy. Strictly necessary so that you are not asked again on every visit. Legal basis: § 25 (2) no. 2 TDDDG, Art. 6 (1)(f) GDPR. Retention: until withdrawn.\n\n• Appearance (theme) — your choice between the light and dark presentation.\n• CO₂ calculator (kaqua-co2-*) — the scenarios and project lists you create.\n• Recent searches (kaqua_recent_searches) — your latest search terms.\n\nThese three are grouped as the “Convenience” category. They are stored only with your consent (Art. 6 (1)(a) GDPR, § 25 (1) TDDDG) and deleted again when you withdraw it. If you decline, the site remains fully usable — nothing is simply kept. Retention: until you withdraw or clear your browser storage.\n\nShould audience measurement services be added in future, they will load only after your consent. This is technically enforced: such services are registered behind a consent gate that does not start them without agreement and removes them again on withdrawal.\n\nYou can change your decision at any time with effect for the future — via the “Privacy settings” entry in the footer of every page. Withdrawal is therefore as easy as giving consent (Art. 7 (3) GDPR)."
         },
         {
           "id": "sec-7",
