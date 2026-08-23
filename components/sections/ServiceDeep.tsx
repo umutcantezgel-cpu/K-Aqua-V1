@@ -57,9 +57,14 @@ export async function ServiceDeep() {
                     </div>
                     
                     <div className="flex flex-col gap-1.5">
-                      <h4 className="font-heading text-lg font-bold text-foreground leading-tight group-hover:text-primary transition-colors duration-300">
+                      {/* h3, nicht h4: Diese Karten stehen direkt unter der
+                          Abschnittsüberschrift, die `SectionHead` als h2
+                          ausgibt. Mit h4 entstand der einzige Ebenensprung im
+                          gesamten Baum (h2 → h4). Die Schriftgröße kommt aus
+                          `text-lg` und bleibt dadurch unverändert. */}
+                      <h3 className="font-heading text-lg font-bold text-foreground leading-tight group-hover:text-primary transition-colors duration-300">
                         {r.t}
-                      </h4>
+                      </h3>
                       <p className="text-sm text-muted-foreground line-clamp-2">
                         {r.s}
                       </p>
