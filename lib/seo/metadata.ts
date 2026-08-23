@@ -185,14 +185,16 @@ export function constructMetadata({
       siteName: "K-Aqua",
       locale,
       alternateLocale: translatedLocales.filter((l) => l !== locale),
-      ...(ogImage ? { images: [{ url: ogImage }] } : {}),
+      // Ohne eigenes Bild fällt jede Seite auf das generierte Locale-Bild
+      // zurück — vorher teilten Produkt- und News-Seiten ganz ohne Vorschaubild.
+      images: [{ url: ogImage || `${siteUrl}/${locale}/opengraph-image` }],
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: finalTitle,
       description: finalDescription,
-      ...(ogImage ? { images: [ogImage] } : {}),
+      images: [ogImage || `${siteUrl}/${locale}/opengraph-image`],
     },
   };
 }
