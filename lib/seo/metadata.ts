@@ -107,7 +107,14 @@ export function constructMetadata({
       const lowerTitle = finalTitle.toLowerCase();
       const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
 
-      const MAX_TITLE_CHARS = 58;
+      // 65 statt 58. Google zeigt im Suchergebnis rund 600 px, was für deutschen
+      // Fließsatz etwa 60–65 Zeichen entspricht; Seobility beanstandet erst
+      // ab 70. Bei 58 blieb nach Abzug des Suffixes (" | K-Aqua", 9 Zeichen) nur
+      // ein Budget von 49 Zeichen für den eigentlichen Titel — und wer es
+      // überschritt, verlor unten die Marke ganz, weil das Suffix dann nicht
+      // mehr passte. Gemessen lagen dadurch 61 % der deutschen Titel unter
+      // 45 Zeichen. Siehe docs/keyword-matrix.md.
+      const MAX_TITLE_CHARS = 65;
       let suffix = "";
       if (!hasBrand && !finalTitle.toLowerCase().includes("k-aqua")) {
           suffix = " | K-Aqua";
@@ -135,23 +142,31 @@ export function constructMetadata({
 
   let finalDescription = description || "";
   
-  // Ensure description is unique by injecting the cleanTitle if it's too short
+  // Kurze Descriptions auffüllen — aber nur, wenn der Zusatz vollständig
+  // hineinpasst. Vorher wurde ein Satz angehängt, der den Titel wiederholte
+  // („Erfahren Sie mehr über {title} und unsere zertifizierten …"), und die
+  // Kürzung darunter schnitt ihn dann mitten im Wort ab. Im Suchergebnis stand
+  // dann „… Erfahren Sie mehr über PP-R Rohrsysteme Verei…" — Fläche verbraucht,
+  // nichts gesagt. Der Zusatz nennt jetzt, was den Klick wert macht.
+  const MAX_DESCRIPTION_CHARS = 155;
   if (finalDescription.length < 120) {
-    if (locale === 'de') {
-      finalDescription += ` Erfahren Sie mehr über ${cleanTitle} und unsere zertifizierten PP-R & PP-RCT Rohrleitungssysteme.`;
-    } else if (locale === 'en') {
-      finalDescription += ` Learn more about ${cleanTitle} and our certified PP-R & PP-RCT piping systems.`;
-    } else if (locale === 'ar') {
-      finalDescription += ` تعرف على المزيد حول ${cleanTitle} وأنظمة الأنابيب المعتمدة لدينا.`;
-    } else {
-      finalDescription += ` K-Aqua PP-R / PP-RCT Piping Systems: ${cleanTitle}.`;
+    const filler =
+      locale === 'de' ? ' Datenblätter, Maße und Angebot direkt bei K-Aqua.'
+      : locale === 'ar' ? ' أوراق البيانات والمقاسات وعرض السعر من K-Aqua.'
+      : ' Datasheets, dimensions and quotes direct from K-Aqua.';
+    if (finalDescription.length + filler.length <= MAX_DESCRIPTION_CHARS) {
+      finalDescription += filler;
     }
   }
 
-  // Strictly enforce 155 character limit for description
-  if (finalDescription.length > 155) {
-    const cutPos = finalDescription.lastIndexOf(" ", 152);
-    finalDescription = finalDescription.substring(0, cutPos > 110 ? cutPos : 152) + "...";
+  if (finalDescription.length > MAX_DESCRIPTION_CHARS) {
+    // An der Wortgrenze schneiden und Satzzeichen am Ende entfernen, damit nicht
+    // „… DVGW /…" stehen bleibt. „…" ist ein Zeichen statt drei.
+    const cutPos = finalDescription.lastIndexOf(" ", MAX_DESCRIPTION_CHARS - 3);
+    finalDescription =
+      finalDescription
+        .substring(0, cutPos > 110 ? cutPos : MAX_DESCRIPTION_CHARS - 3)
+        .replace(/[\s.,;:/–—-]+$/, "") + "…";
   }
 
   // Set robots based on noIndex, isVariant or translation languages

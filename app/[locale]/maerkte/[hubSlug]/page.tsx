@@ -3,7 +3,7 @@ import { notFound, redirect } from "next/navigation";
 
 export const revalidate = 86400;
 import type { Metadata } from "next";
-import { GEO_HUBS, GEO_MARKETS } from "@/lib/data/geo";
+import { GEO_HUBS, GEO_MARKETS, HUB_APPROVAL } from "@/lib/data/geo";
 import { routing } from "@/lib/i18n/routing";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { constructMetadata } from "@/lib/seo/metadata";
@@ -33,7 +33,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tGeo = await getTranslations({ locale, namespace: "geo" });
   const hubName = tGeo.has(`hubNames.${hub.slug}`) ? tGeo(`hubNames.${hub.slug}`) : hub.name;
   
-  const title = tGeo("hubMetaTitle", { country: hubName, hub: hubName });
+  // Das nationale Zulassungsregime im Titel ist das, was die Länderseite von der
+  // Städteseite trennt: Das Land beantwortet „Darf ich dort verkaufen?", die Stadt
+  // „Wer liefert mir hier?". Beide zielten vorher auf „PP-R Rohrsysteme + Ort"
+  // und nahmen sich damit gegenseitig die Signale weg.
+  // Siehe docs/keyword-matrix.md, Abschnitt 4.
+  const approval = HUB_APPROVAL[hub.slug] ?? "ISO 15874";
+  const longTitle = tGeo("hubMetaTitle", { country: hubName, hub: hubName, approval });
+  // 56 Zeichen + " | K-Aqua" (9) = 65, die Obergrenze in constructMetadata. Wird
+  // sie überschritten, greift die Kurzform, statt den Titel abschneiden zu lassen.
+  const title = longTitle.length <= 56
+    ? longTitle
+    : tGeo("hubMetaTitleShort", { country: hubName, hub: hubName, approval });
   const description = tGeo.has(`hubs.${hub.slug}.metaDesc`)
     ? tGeo(`hubs.${hub.slug}.metaDesc`, { country: hubName, hub: hubName })
     : hub.description;

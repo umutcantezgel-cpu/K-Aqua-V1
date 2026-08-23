@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 
 export const revalidate = 86400;
 import type { Metadata } from "next";
-import { GEO_MARKETS, GEO_HUBS, nearestMarkets } from "@/lib/data/geo";
+import { GEO_MARKETS, GEO_HUBS, nearestMarkets, MARKET_REGULATOR_SHORT } from "@/lib/data/geo";
 import { routing } from "@/lib/i18n/routing";
 import { getTranslations } from "next-intl/server";
 import GeoCity from "@/components/sections/GeoCity";
@@ -44,15 +44,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const localizedFocus = geoContentTrans[citySlug]?.focus || market.focus || [];
   const cityName = tGeo.has(`cityNames.${market.slug}`) ? tGeo(`cityNames.${market.slug}`) : market.city;
   
-  // SEO-optimized title with target keywords — keep concise for 580px pixel limit
-  const baseTitle = tGeo("cityMetaTitle", { city: cityName });
-  // Focus/use-case is preserved in description, not in title (to avoid >580px)
-  const title = baseTitle;
+  // Der örtliche Versorger im Titel trennt die Städteseite von der Länderseite:
+  // Land = nationales Zulassungsregime (Marktzugang), Stadt = örtlicher Versorger
+  // (Beschaffung). Für Deutschland heißt das Land „DVGW", Berlin dagegen
+  // „Berliner Wasserbetriebe" — zwei verschiedene Anfragen, zwei Seiten.
+  // Vorher zielten beide auf „PP-R Rohrsysteme + Ort".
+  // Siehe docs/keyword-matrix.md, Abschnitt 4.
+  const regulatorShort = MARKET_REGULATOR_SHORT[market.slug] ?? localizedRegulator;
+  const longTitle = tGeo("cityMetaTitle", { city: cityName, regulator: regulatorShort });
+  // 56 Zeichen + " | K-Aqua" (9) = 65, die Obergrenze in constructMetadata.
+  const title = longTitle.length <= 56
+    ? longTitle
+    : tGeo("cityMetaTitleShort", { city: cityName, regulator: regulatorShort });
   
-  // Place the highly unique water profile string at the beginning to prevent 
-  // "Duplicate Meta Description" flags from Seobility.
-  const focusText = localizedFocus.length > 0 ? ` ${localizedFocus.join(", ")}.` : "";
-  const description = `${cityName}: ${localizedWater} ${localizedRegulator}. ${tGeo("cityLead")}${focusText}`;
+  // Das Wasserprofil steht zuerst: Es ist je Stadt einmalig und verhindert damit
+  // die Dubletten-Beanstandung. Der Regulierer ist hier bewusst NICHT mehr
+  // enthalten — er steht seit der Titel-Umstellung im Titel, und doppelt gesagt
+  // verbrauchte er die Zeichen, an denen die Description sonst abgeschnitten
+  // wurde (Frankfurt endete auf „… DVGW /…").
+  // Der Projekttyp am Ende ist die Information, die einen Bauleiter klicken
+  // lässt: Er erkennt seinen eigenen Anwendungsfall wieder.
+  // Reihenfolge: Stadt, Projekttyp, Wasserprofil. Der Projekttyp steht vor dem
+  // Wasserprofil, weil er ein Etikett ist — angeschnitten wird er unlesbar,
+  // während das Wasserprofil Fließtext ist und einen Schnitt verträgt. Vorher
+  // stand er hinten und fiel bei jeder Stadt der 155-Zeichen-Grenze zum Opfer.
+  // Nur der erste Eintrag: Er ist der kennzeichnende, die Liste sprengt sonst
+  // das Budget.
+  const focusText = localizedFocus[0] ? `${localizedFocus[0]}. ` : "";
+  const description = `${cityName}: ${focusText}${localizedWater}`;
 
   return constructMetadata({
     title,
@@ -159,7 +178,14 @@ export default async function GeoCityPage({ params }: Props) {
   }));
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
-  const baseTitle = tGeo("cityMetaTitle", { city: cityName });
+  // Muss mit dem Titel aus generateMetadata übereinstimmen — er speist den
+  // `name` des WebPage-Knotens und die sr-only-Überschrift. Weicht er ab,
+  // widersprechen sich Auszeichnung und Suchergebnis.
+  const regulatorShort = MARKET_REGULATOR_SHORT[market.slug] ?? localizedData.regulator;
+  const longBaseTitle = tGeo("cityMetaTitle", { city: cityName, regulator: regulatorShort });
+  const baseTitle = longBaseTitle.length <= 56
+    ? longBaseTitle
+    : tGeo("cityMetaTitleShort", { city: cityName, regulator: regulatorShort });
   const cityPageUrl = `${siteUrl}/${locale}/maerkte/${market.hubSlug}/${market.slug}`;
 
   const faqItems = [

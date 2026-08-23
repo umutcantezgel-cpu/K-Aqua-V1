@@ -632,3 +632,83 @@ export function nearestMarkets(slug: string, n = 3): GeoMarket[] {
     .slice(0, n)
     .map((x) => x.g);
 }
+
+/* ────────────────────────────────────────────────────────────────────────────
+   Kurzformen für Seitentitel
+
+   Die vollen Regulierer-Bezeichnungen in `regulator` bzw. `geoContent.*.regulator`
+   sind für einen Titel zu lang — „DVGW / Trinkwasserverordnung (TrinkwV)" allein
+   sind 38 Zeichen. Für den Titel zählt das Kürzel, nach dem auch gesucht wird.
+
+   Die Kürzel sind Eigennamen und werden deshalb NICHT übersetzt; sie stehen
+   bewusst hier in den Daten und nicht in den Sprachdateien.
+
+   Trennschärfe ist Absicht: Das Land nennt das nationale ZULASSUNGSregime
+   (Marktzugang), die Stadt den örtlichen VERSORGER bzw. dessen Regelwerk
+   (Beschaffung). Für Deutschland heißt das Land „DVGW", Berlin dagegen
+   „Berliner Wasserbetriebe" — zwei verschiedene Suchanfragen, zwei Seiten.
+   Siehe docs/keyword-matrix.md, Abschnitt 4.
+   ──────────────────────────────────────────────────────────────────────────── */
+
+/** Nationales Zulassungsregime je Länder-Hub, kurz. */
+export const HUB_APPROVAL: Record<string, string> = {
+  deutschland: "DVGW",
+  oesterreich: "ÖVGW",
+  schweiz: "SVGW",
+  uk: "WRAS",
+  frankreich: "ACS",
+  italien: "DM 174/2004",
+  polen: "PZH",
+  tschechien: "SZÚ",
+  uae: "DEWA",
+  ksa: "SASO",
+  katar: "Kahramaa",
+  kuwait: "MEW",
+  oman: "Nama",
+  bahrain: "EWA",
+  jordanien: "WAJ",
+  aegypten: "HCWW",
+  tuerkei: "TSE",
+  singapur: "PUB",
+  malaysia: "SPAN",
+  indien: "BIS",
+  suedafrika: "SABS",
+  kenia: "KEBS",
+  // Für Chile und Japan ist in GEO_MARKETS keine Stadt und damit kein
+  // nationales Sonderregime hinterlegt. ISO 15874 ist die Norm, nach der
+  // K-Aqua fertigt, und damit die belastbare Aussage.
+  chile: "ISO 15874",
+  japan: "ISO 15874",
+};
+
+/** Örtlicher Versorger bzw. dessen Regelwerk je Stadt, kurz. */
+export const MARKET_REGULATOR_SHORT: Record<string, string> = {
+  frankfurt: "DVGW",
+  berlin: "Berliner Wasserbetriebe",
+  muenchen: "SWM",
+  hamburg: "Hamburg Wasser",
+  wien: "ÖVGW",
+  zuerich: "SVGW",
+  london: "WRAS",
+  paris: "ACS",
+  mailand: "DM 174/2004",
+  warschau: "PZH-Atest",
+  prag: "SZÚ",
+  dubai: "DEWA",
+  abudhabi: "Estidama",
+  doha: "Kahramaa",
+  riad: "SASO",
+  dschidda: "SWCC",
+  neom: "NEOM Design Codes",
+  kuwait: "MEW",
+  maskat: "Nama Water Services",
+  manama: "EWA",
+  amman: "Miyahuna",
+  kairo: "HCWW",
+  istanbul: "İSKİ",
+  singapur: "PUB",
+  kualalumpur: "SPAN",
+  mumbai: "BIS",
+  kapstadt: "SANS",
+  nairobi: "KEBS",
+};

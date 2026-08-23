@@ -1625,22 +1625,22 @@
     "knowledge_resources": "Knowledge & Resources"
   },
   "pages": {
-    "catalogOverview": "Complete Product Catalog",
+    "catalogOverview": "Complete PP-R Product Catalogue: 74 Items",
     "products": [
-      "Products & Fittings",
+      "PP-R Pipes & Fittings — d20 to d630 in Stock",
       "Discover K-Aqua's complete plastic piping systems from d20 to d630 mm. High-performance PP-R and PPRCT pipes for domestic and industrial use."
     ],
     "finder": [
-      "Product Finder",
+      "Product Finder: Identify PP-R Pipe & Fitting",
       "Instantly find the perfect PP-R or PPRCT pipe, fitting, or valve. Filter our catalog live by dimension, pressure class, and wall thickness."
     ],
     "finderGuideText": "<h2>Interactive Product Finder for K-Aqua Piping Systems</h2><p>Use our innovative product finder to identify the exact fitting for your specific pipeline installation. Whether you are looking for standard PP-R pipes for drinking water installations, fiber-reinforced PPRCT pipes for demanding industrial plants, or special transition fittings and valves - our tool filters the entire catalog in real time. The product search helps you select by diameter (d20 to d630), pressure class (SDR class), and material.</p><p>A well-structured piping system requires precise planning and the exact combination of pipes, fittings (such as sockets, elbows, and tees), and corresponding accessories. Our product finder eliminates the time-consuming search in static PDF catalogs and instead provides you with immediate, reliable data on article numbers, packaging units, and technical specifications. With just a few clicks, you can compile your material list and ensure the compatibility of the various components for heating, cooling, and drinking water systems. This not only optimizes your planning process but also minimizes errors when ordering materials for your next construction project.</p>",
     "co2": [
-      "CO₂ Calculator for PP-R Piping Systems",
+      "CO₂ Calculator: PP-R vs. Copper, Steel and PVC",
       "Compare the CO2 footprint of K-Aqua PP-R plastic pipes with copper, stainless steel, and PVC. Verified according to ISO 14040/44 for Green Building."
     ],
     "solutions": [
-      "Material Benefits",
+      "PP-R Solutions: Potable Water, Heating, Industry",
       "Learn why polypropylene (PP-R/PPRCT) is the superior material for water supply. Ecological, technically advanced, and economical."
     ],
     "academy": [
@@ -1648,19 +1648,19 @@
       "Learn professional welding techniques for PP-R plastic pipes. Watch video tutorials and pass our Welding Master Quiz."
     ],
     "trust": [
-      "Trust Center",
+      "Trust Center: ISO Certificates & Test Reports",
       "Access K-Aqua's quality documentation. Download ISO certificates, the GENAU framework, and audit documents for your project."
     ],
     "service": [
-      "Service & Resources",
+      "Service & Downloads: Catalogues and Datasheets",
       "Download official K-Aqua product catalogs, technical data sheets, and installation guidelines for PP-R and PPRCT plastic piping systems."
     ],
     "partner": [
-      "Partnership & Network",
+      "Become a Partner: PP-R Distribution & Trade",
       "K-Aqua combines German manufacturing standards and decades of engineering expertise from production to global water supply."
     ],
     "markets": [
-      "Markets & Locations",
+      "PP-R Piping Systems Worldwide: Codes & Approvals",
       "K-Aqua supplies PP-R piping systems to over 27 countries. Use our interactive world map for local standards, water profiles, and logistics information."
     ],
     "references": [
@@ -1668,7 +1668,7 @@
       "Discover global reference projects with K-Aqua PP-R piping systems. Our interactive 3D globe shows domestic, commercial & industrial installations."
     ],
     "about": [
-      "About KWT GmbH",
+      "KWT GmbH: Maker of K-Aqua PP-R Piping Systems",
       "KWT GmbH pools decades of experience to manufacture the K-Aqua premium piping system. German engineering for the highest quality and innovation."
     ],
     "career": [
@@ -1680,11 +1680,11 @@
       "Latest reports, technical articles, and company news."
     ],
     "contact": [
-      "Contact & Support",
+      "Contact: Sales & Technical Support for PP-R",
       "Speak with our engineers."
     ],
     "rfq": [
-      "Project Inquiry for PP-R Piping Systems",
+      "Project Inquiry: PP-R Quote Within 24 Hours",
       "Request a tailored quote for your construction project."
     ],
     "home": [
@@ -1715,23 +1715,23 @@
       "list2Desc": "Targeted identification of risks and implementation of measures to optimize energy efficiency."
     },
     "pipes": [
-      "Pipes & Systems",
+      "PP-R & PP-RCT Pipes: All SDR Classes, d20–d630",
       "High-performance PP-R and PP-RCT pipes for domestic and industrial applications. Explore all SDR classes and dimensions for your next project."
     ],
     "fittings": [
-      "Fittings",
+      "PP-R Fittings: Elbows, Tees, Sockets & Reducers",
       "Complete range of fittings for all K-Aqua piping systems. Discover elbows, tees, reducers, and sockets for polyfusion welding."
     ],
     "valves": [
-      "Valves & Accessories",
+      "PP-R Valves: Ball, Concealed & Check Valves",
       "Premium valves, shut-offs, and accessories for piping networks. High-quality ball valves, concealed valves, and check valves."
     ],
     "tools": [
-      "Tools & Equipment",
+      "PP-R Tools: Welding Machines & Pipe Cutters",
       "Professional welding tools and accessories for PP-R installation. Explore welding machines, pipe cutters, and specialized tools."
     ],
     "transition-fittings": [
-      "Transition Fittings",
+      "PP-R Transition Fittings with Thread & Brass",
       "Reliable transition fittings for secure connections. Discover brass transition fittings with threaded or flanged connections."
     ]
   },
@@ -1860,8 +1860,10 @@
     "km": "km",
     "seoExpansion": "K-Aqua manufactures PP-R and PP-RCT piping systems in Waldsolms for the highest demands of global building and industrial engineering. Thanks to uncompromising German engineering and state-of-the-art production technology, our systems guarantee decades of maintenance-free operational reliability. Every product, from d20 to d630, undergoes strict quality controls and complies with international standards such as DVGW, KIWA, and SKZ. We provide not only premium materials for potable water, cooling, and industry, but also support planners and installers with comprehensive technical support and on-site training. Trust in a system that excels through extreme durability, zero corrosion, and absolute hygiene.",
     "seoExpansionDynamic": "Learn more about our PP-R and PP-RCT solutions in {city}. We meet local standards ({regulator}) and provide optimal systems for local water quality ({water}). Additional note: {note}.",
-    "cityMetaTitle": "PP-R Piping Systems in {city}",
-    "hubMetaTitle": "PP-R Piping Systems for {country}",
+    "cityMetaTitle": "PP-R Piping Systems {city} — {regulator} Compliant",
+    "cityMetaTitleShort": "PP-R Piping Systems {city} — {regulator}",
+    "hubMetaTitle": "PP-R Piping Systems {country} — {approval} Approved Maker",
+    "hubMetaTitleShort": "PP-R Piping Systems {country} — {approval}",
     "hubH1": "Infrastructure Solutions for {country}",
     "hubLead": "K-Aqua provides certified PP-R and PP-RCT infrastructure solutions for {country}. Our piping systems meet the highest international standards and are optimized for the specific challenges in {country}.",
     "hubContextTitle": "Regional Context: {context}",
@@ -2076,7 +2078,8 @@
       "weights": "Material efficiency is optimized across the entire range, with unit weights scaling from {minWeight} kg to {maxWeight} kg depending on the selected dimension.",
       "packaging": "Logistics are optimized by standardized packaging units designed for safe global transport and efficient handling on the construction site.",
       "rowCount": "Our technical portfolio offers this configuration in {count} highly specialized dimensional variants, precisely scaled to meet the hydraulic and mechanical requirements of modern fluid transport systems.",
-      "intro": "The product {title} forms a cornerstone of K Aqua's high-performance fluid management solutions. Officially cataloged under the article numbers {codes}, each variant undergoes strict quality assurance protocols in our German production facilities before delivery.",
+      "intro": "{title} in {dimensions}, made in Germany. Article numbers {codes}. Dimension table, datasheet and 3D model direct from K-Aqua.",
+      "introNoDimension": "{title}, made in Germany. Article numbers {codes}. Dimension table, datasheet and 3D model direct from K-Aqua.",
       "outro": "By employing advanced polymer processing techniques, the geometric precision of {title} guarantees optimal flow characteristics, minimizes pressure losses, and completely eliminates the risk of limescale deposits or corrosion over the entire service life. This uncompromising dedication to material science ensures that every connection maintains absolute integrity even under extreme thermal and pressure fluctuations. Whether used in high-rise residential buildings, critical healthcare facilities, or demanding industrial processing plants, this product delivers maintenance-free reliability that engineers and installers can trust blindly."
     },
     "uniqueProductContext": "The product {title} is an essential part of the K Aqua {category} range. Designed for maximum durability and seamless integration, it meets the highest international standards for modern piping and plumbing applications. You can identify and order this specific product using the article number(s): {codes}. For further documentation or support, please contact our technical team.",
@@ -8022,6 +8025,16 @@
     "fittings_socket": "PP-R Socket – Straight Pipe Coupler",
     "fittings_tee": "PP-R Tee 90° for Socket Fusion",
     "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Pipe PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-74": "K-Fiber Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-rct-sdr-74": "K-Fiber Pipe PP-RCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-74": "K-Fiber UV Pipe PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-74": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+    "pipes_k-pipe-pp-rct-sdr-74": "K-Pipe PP-RCT SDR 7.4",
+    "fittings_elbow-45-femalemale": "PP-R Elbow 45° Female/Male",
+    "fittings_reducing-tee-large-sizes": "PP-R Reducing Tee, Large Sizes",
+    "accessories_flat-gasket-for-unions-pp-r": "PP-R Flat Gasket for Unions",
+    "tools_pipe-cutter-2040": "Ratchet Pipe Cutter d20-d40",
+    "tools_pipe-cutter-50125-1": "Pipe Cutter 1¼″ d50-d125",
     "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
     "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
     "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",

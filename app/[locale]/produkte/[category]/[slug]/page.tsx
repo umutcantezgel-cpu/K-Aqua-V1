@@ -67,26 +67,59 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const codesArray: string[] = Array.isArray(product?.article_codes)
     ? product.article_codes
     : [String(product?.article_codes ?? 'N/A')];
-  const codesStr = codesArray.slice(0, 3).join(", ") + (codesArray.length > 3 ? ", ..." : "");
-  
+  // Der Nennweitenbereich stammt aus der Artikeltabelle des Produkts, nicht aus
+  // einer Pflegeliste. Er ist der Unterschied zwischen „PP-R Winkel 45°" (34
+  // Zeichen, austauschbar) und „PP-R Winkel 45°, d20-d75" (44, trifft die Suche
+  // nach Bauteil plus Dimension). Gemessen lagen 61 % der deutschen Titel unter
+  // 45 Zeichen — siehe docs/keyword-matrix.md.
+  //
+  // Nur anhängen, wenn er nicht ohnehin schon im Namen steht (Werkzeuge tragen
+  // ihn dort bereits, z. B. „Rohrabschneider d50-d125"), und nur, wenn das
+  // Zeichenbudget es hergibt: 56 Zeichen plus " | K-Aqua" (9) ergeben die 65,
+  // die constructMetadata zulässt.
+  const dimensionRange = typeof product?.dimensionRange === 'string' ? product.dimensionRange : undefined;
+
   let metaDesc = uniqueDesc || "";
   if (!metaDesc) {
-    metaDesc = tProd('narrative.intro', { title: localizedTitle, codes: codesStr });
+    // So viele Artikelnummern aufnehmen, wie ins Budget passen, statt stur die
+    // ersten drei zu nehmen. Vorher wurde die Vorlage bei 155 Zeichen hart
+    // abgeschnitten — mitten in einer Artikelnummer, was im Suchergebnis wie ein
+    // Datenfehler aussieht. Die Nummern sind der Grund, warum diese Description
+    // je Produkt einmalig ist; sie gehören vollständig hinein oder gar nicht.
+    const MAX_DESC = 155;
+    const render = (codes: string) =>
+      dimensionRange
+        ? tProd('narrative.intro', { title: localizedTitle, codes, dimensions: dimensionRange })
+        : tProd('narrative.introNoDimension', { title: localizedTitle, codes });
+
+    let codesStr = codesArray[0] ?? 'N/A';
+    for (let i = 2; i <= codesArray.length; i++) {
+      const candidate = codesArray.slice(0, i).join(", ");
+      if (render(candidate).length > MAX_DESC) break;
+      codesStr = candidate;
+    }
+    metaDesc = render(codesStr);
   }
   if (metaDesc.length > 155) {
-    metaDesc = metaDesc.substring(0, 155).trim() + '...';
+    metaDesc = metaDesc.substring(0, 154).trimEnd().replace(/[\s,;:–—-]+$/, "") + '…';
   }
-  
-  // SEO optimization: Keep title under 65 characters to avoid truncation warning
-  let displayTitle = localizedTitle;
+  const nameHasDimension = dimensionRange
+    ? localizedTitle.toLowerCase().includes(dimensionRange.toLowerCase())
+    : true;
+  const withDimension = dimensionRange && !nameHasDimension
+    ? `${localizedTitle}, ${dimensionRange}`
+    : localizedTitle;
+
+  let displayTitle = withDimension.length <= 56 ? withDimension : localizedTitle;
   if (displayTitle.length > 60) {
     displayTitle = displayTitle.substring(0, 57).trim() + '...';
   }
 
-  const articleCode = Array.isArray(product?.article_codes) ? product.article_codes[0] : product?.article_codes;
-  const suffix = articleCode ? ` | Art. ${articleCode}` : '';
-  const finalTitle = displayTitle; // Keep title short, remove suffix
-  const finalDesc = metaDesc.endsWith(suffix) ? metaDesc : `${metaDesc}${suffix}`;
+  // Kein " | Art. …" mehr hinten anhängen: Die Artikelnummern stehen jetzt im
+  // Satz selbst, und der angehängte Zusatz schob die Description regelmäßig über
+  // die 155 Zeichen, sodass sie im Suchergebnis abgeschnitten wurde.
+  const finalTitle = displayTitle;
+  const finalDesc = metaDesc;
 
   // Handle SEO duplicate content for product variants by mapping them to a canonical variant
   let canonicalSlug = slug;

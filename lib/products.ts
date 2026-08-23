@@ -18,6 +18,56 @@ export interface ProductData {
   seoTextDe?: string;
   seoTextEn?: string;
   seoTextAr?: string;
+  /**
+   * Nennweitenbereich als Text, z. B. "d20-d75" — aus der Artikeltabelle
+   * gelesen, nicht gepflegt. `undefined`, wenn das Produkt keine
+   * Durchmesserspalte hat (Werkzeuge, Dichtmittel).
+   * Wird im Seitentitel gebraucht: „PP-R Winkel 45°" allein ist zu unspezifisch,
+   * „PP-R Winkel 45°, d20-d75" trifft die Suche nach Bauteil plus Dimension.
+   */
+  dimensionRange?: string;
+}
+
+/**
+ * Liest den Durchmesserbereich aus der ersten Markdown-Tabelle eines Produkts.
+ *
+ * Die Tabellen haben eine Spalte „d (mm)" (bei Rohren auch „d"), deren Werte die
+ * Nennweiten sind. Bewusst konservativ: Findet sich keine solche Spalte oder kein
+ * Zahlenwert, wird nichts geraten, sondern `undefined` zurückgegeben. Lieber kein
+ * Zusatz im Titel als ein falscher — im technischen Vertrieb ist eine erfundene
+ * Dimension teurer als eine fehlende.
+ */
+export function extractDimensionRange(markdown: string): string | undefined {
+  const lines = markdown.split('\n');
+  const headerIndex = lines.findIndex(
+    (l) => l.trimStart().startsWith('|') && /\|\s*d\s*(\(mm\))?\s*\|/i.test(l)
+  );
+  if (headerIndex === -1) return undefined;
+
+  const header = lines[headerIndex];
+  if (!header) return undefined;
+  const cells = header.split('|').map((c) => c.trim());
+  const col = cells.findIndex((c) => /^d\s*(\(mm\))?$/i.test(c));
+  if (col === -1) return undefined;
+
+  const values: number[] = [];
+  // +2 überspringt die Trennzeile (|---|---|) direkt unter dem Kopf.
+  for (let i = headerIndex + 2; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line || !line.trimStart().startsWith('|')) break; // Tabelle zu Ende
+    const cols = line.split('|').map((c) => c.trim());
+    const raw = cols[col];
+    if (!raw) continue;
+    // „20", „20 x 1/2\"", „20–25" — die erste Zahl ist die Nennweite.
+    const num = Number.parseFloat(raw.replace(',', '.'));
+    if (Number.isFinite(num) && num > 0) values.push(num);
+  }
+  if (values.length === 0) return undefined;
+
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const fmt = (n: number) => `d${Number.isInteger(n) ? n : n.toFixed(1)}`;
+  return min === max ? fmt(min) : `${fmt(min)}-${fmt(max)}`;
 }
 
 export function getProductCategories(): string[] {
@@ -165,6 +215,9 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
     seoTextDe: processedSeoDe,
     seoTextEn: processedSeoEn,
     seoTextAr: processedSeoAr,
+    // Aus dem Markdown lesen, nicht aus dem erzeugten HTML: Die Tabellenstruktur
+    // ist dort eindeutig, im HTML müsste sie erst wieder zerlegt werden.
+    dimensionRange: extractDimensionRange(rawContent),
   };
 }
 
