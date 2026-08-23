@@ -12,7 +12,8 @@
     "test:e2e": "playwright test",
     "i18n:check": "node scripts/check-locale-parity.mjs",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "i18n:usage": "node scripts/check-message-usage.mjs"
   },
   "dependencies": {
     "@react-three/fiber": "^9.6.1",

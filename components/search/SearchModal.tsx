@@ -21,6 +21,7 @@ import {
   Clock,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { readJson, writeJson } from '@/lib/consent/storage';
 
 interface Props {
   isOpen: boolean;
@@ -59,16 +60,11 @@ export default function SearchModal({ isOpen, onClose }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
 
-  // Load recent searches from localStorage
+  // Zuletzt gesuchte Begriffe. Läuft über die Einwilligungsschicht: ohne
+  // Zustimmung zur Kategorie "Komfort" wird weder gelesen noch geschrieben.
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem('kaqua_recent_searches');
-      if (saved) {
-        setRecentSearches(JSON.parse(saved).slice(0, 5));
-      }
-    } catch {
-      // Ignore localStorage errors
-    }
+    const saved = readJson<string[]>('kaqua_recent_searches', 'comfort', []);
+    if (saved.length) setRecentSearches(saved.slice(0, 5));
   }, []);
 
   const saveRecentSearch = useCallback((term: string) => {
@@ -77,7 +73,7 @@ export default function SearchModal({ isOpen, onClose }: Props) {
     try {
       setRecentSearches((prev) => {
         const updated = [clean, ...prev.filter((item) => item.toLowerCase() !== clean.toLowerCase())].slice(0, 5);
-        localStorage.setItem('kaqua_recent_searches', JSON.stringify(updated));
+        writeJson('kaqua_recent_searches', 'comfort', updated);
         return updated;
       });
     } catch {

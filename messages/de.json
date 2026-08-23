@@ -134,7 +134,8 @@
       "rfq": "Projektanfrage für Rohrsysteme",
       "partners": "K-Aqua Partnernetzwerk",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Sitemap (HTML)",
+      "cookieSettings": "Datenschutz-Einstellungen"
     }
   },
   "catalogx": {
@@ -6840,7 +6841,7 @@
   "cookieConsent": {
     "privacyLink": "Datenschutzerklärung",
     "imprintLink": "Impressum",
-    "title": "Privatsphäre-Einstellungen & Cookies",
+    "title": "Datenschutz-Einstellungen",
     "description": "Wir nutzen Cookies und ähnliche Technologien (wie Pixel und Local Storage), um dir das bestmögliche Erlebnis auf unserer Plattform zu bieten. Einige sind zwingend erforderlich, während andere uns helfen, diese Website zu verbessern. Du hast jederzeit die volle Kontrolle.",
     "customize": "Einstellungen anpassen",
     "declineAll": "Nur Essenzielle",
@@ -6852,8 +6853,77 @@
     "analyticsDesc": "Diese Cookies helfen uns, das Verhalten unserer Besucher zu verstehen. Wir sammeln pseudonymisierte Daten darüber, wie Nutzer mit K Aqua interagieren (z. B. meistbesuchte Seiten, Verweildauer, Fehlermeldungen). Dadurch können wir Fehler beheben und die Plattform kontinuierlich verbessern.",
     "marketingTitle": "Marketing & Personalisierung",
     "marketingDesc": "Wir verwenden diese Technologien, um dir relevantere Inhalte und Werbeanzeigen (auch auf externen Plattformen) anzuzeigen. Wenn du dies deaktivierst, siehst du weiterhin Werbung, diese ist jedoch weniger auf deine Interessen zugeschnitten.",
-    "vendorListTitle": "Detaillierte Cookie-Liste ansehen",
-    "backToSimple": "Zurück zur Übersicht"
+    "intro": "Diese Website setzt keine Cookies und bindet keine Dienste Dritter ein. Gespeichert wird ausschließlich lokal in Deinem Browser — nichts davon verlässt Dein Gerät.",
+    "noCookiesNote": "Keine Cookies · keine Werbe-Tracker · keine Datenübermittlung an Dritte",
+    "btnAcceptAll": "Alles zulassen",
+    "btnNecessaryOnly": "Nur Erforderliches",
+    "btnCustomize": "Einzeln entscheiden",
+    "btnSaveSelection": "Auswahl speichern",
+    "btnBack": "Zurück",
+    "btnClose": "Schließen",
+    "categories": {
+      "necessary": {
+        "title": "Technisch erforderlich",
+        "desc": "Hält Deine Datenschutz-Entscheidung und die gewählte Sprache fest. Ohne diese Speicherung müsstest Du bei jedem Seitenaufruf erneut entscheiden. Nicht abwählbar."
+      },
+      "comfort": {
+        "title": "Komfort",
+        "desc": "Merkt sich Deine Eingaben im CO₂-Rechner, Deine zuletzt gesuchten Begriffe und die Wahl zwischen hellem und dunklem Erscheinungsbild. Lehnst Du ab, funktioniert alles weiter — es wird nur nichts behalten."
+      },
+      "analytics": {
+        "title": "Reichweitenmessung",
+        "desc": "Anonyme Auswertung, welche Seiten aufgerufen werden.",
+        "emptyNote": "Derzeit ist kein solcher Dienst eingebunden. Sollte sich das ändern, wird er erst nach Deiner Zustimmung geladen."
+      }
+    },
+    "inventory": {
+      "toggle": "Gespeicherte Einträge anzeigen",
+      "heading": "Was genau gespeichert wird",
+      "colName": "Eintrag",
+      "colPurpose": "Zweck",
+      "colCategory": "Kategorie",
+      "colRetention": "Speicherdauer",
+      "note": "Alle Einträge liegen im lokalen Speicher Deines Browsers (localStorage). Es werden keine Cookies gesetzt und keine Daten an Dritte oder in Drittländer übermittelt."
+    },
+    "entries": {
+      "consent": {
+        "name": "Datenschutz-Entscheidung",
+        "purpose": "Hält fest, wofür Du Dich entschieden hast",
+        "retention": "Bis zum Widerruf"
+      },
+      "theme": {
+        "name": "Erscheinungsbild",
+        "purpose": "Hell oder dunkel",
+        "retention": "Bis zum Löschen im Browser"
+      },
+      "co2": {
+        "name": "CO₂-Rechner",
+        "purpose": "Deine Szenarien und Projektlisten",
+        "retention": "Bis zum Löschen im Browser"
+      },
+      "search": {
+        "name": "Zuletzt gesucht",
+        "purpose": "Deine letzten Suchbegriffe",
+        "retention": "Bis zum Löschen im Browser"
+      }
+    },
+    "record": {
+      "decidedOn": "Entschieden am {date}",
+      "policyVersion": "Fassung {version}",
+      "notDecided": "Noch keine Entscheidung getroffen"
+    },
+    "withdraw": {
+      "title": "Entscheidung ändern",
+      "desc": "Du kannst Deine Entscheidung jederzeit ändern — der Widerruf ist genauso einfach wie die Zustimmung.",
+      "button": "Alles widerrufen",
+      "done": "Deine Entscheidung wurde zurückgesetzt."
+    },
+    "a11y": {
+      "dialogLabel": "Datenschutz-Einstellungen",
+      "closeLabel": "Einstellungen schließen",
+      "switchOn": "eingeschaltet",
+      "switchOff": "ausgeschaltet"
+    }
   },
   "seo": {
     "extendedProductText": {

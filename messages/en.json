@@ -134,7 +134,8 @@
       "rfq": "Project Inquiry for Piping Systems",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Sitemap (HTML)",
+      "cookieSettings": "Privacy settings"
     }
   },
   "catalogx": {
@@ -6840,7 +6841,7 @@
   "cookieConsent": {
     "privacyLink": "Privacy Policy",
     "imprintLink": "Imprint",
-    "title": "Privacy Settings & Cookies",
+    "title": "Privacy settings",
     "description": "We use cookies and similar technologies (like pixels and local storage) to give you the best possible experience on our platform. Some are absolutely necessary, while others help us improve this website. You have full control at all times.",
     "customize": "Customize Settings",
     "declineAll": "Only Essential",
@@ -6852,8 +6853,77 @@
     "analyticsDesc": "These cookies help us understand the behavior of our visitors. We collect pseudonymized data about how users interact with K Aqua (e.g., most visited pages, time spent, error messages). This allows us to fix errors and continuously improve the platform.",
     "marketingTitle": "Marketing & Personalization",
     "marketingDesc": "We use these technologies to show you more relevant content and advertisements, also on external platforms. If you deactivate this, you will still see advertisements, but they will be less tailored to your interests.",
-    "vendorListTitle": "View Detailed Cookie List",
-    "backToSimple": "Back to Overview"
+    "intro": "This website sets no cookies and embeds no third-party services. Everything is stored locally in your browser — none of it leaves your device.",
+    "noCookiesNote": "No cookies · no advertising trackers · no data shared with third parties",
+    "btnAcceptAll": "Allow everything",
+    "btnNecessaryOnly": "Essential only",
+    "btnCustomize": "Choose individually",
+    "btnSaveSelection": "Save selection",
+    "btnBack": "Back",
+    "btnClose": "Close",
+    "categories": {
+      "necessary": {
+        "title": "Strictly necessary",
+        "desc": "Remembers your privacy choice and the language you selected. Without it you would have to decide again on every visit. Cannot be switched off."
+      },
+      "comfort": {
+        "title": "Convenience",
+        "desc": "Remembers your entries in the CO₂ calculator, your recent searches, and whether you prefer the light or dark appearance. Decline and everything still works — nothing is simply kept."
+      },
+      "analytics": {
+        "title": "Audience measurement",
+        "desc": "Anonymous analysis of which pages are visited.",
+        "emptyNote": "No such service is currently in use. Should that change, it will only load after you agree."
+      }
+    },
+    "inventory": {
+      "toggle": "Show stored entries",
+      "heading": "Exactly what is stored",
+      "colName": "Entry",
+      "colPurpose": "Purpose",
+      "colCategory": "Category",
+      "colRetention": "Retention",
+      "note": "All entries live in your browser’s local storage. No cookies are set, and no data is passed to third parties or transferred outside the EU."
+    },
+    "entries": {
+      "consent": {
+        "name": "Privacy choice",
+        "purpose": "Records what you decided",
+        "retention": "Until withdrawn"
+      },
+      "theme": {
+        "name": "Appearance",
+        "purpose": "Light or dark",
+        "retention": "Until cleared in the browser"
+      },
+      "co2": {
+        "name": "CO₂ calculator",
+        "purpose": "Your scenarios and project lists",
+        "retention": "Until cleared in the browser"
+      },
+      "search": {
+        "name": "Recent searches",
+        "purpose": "Your latest search terms",
+        "retention": "Until cleared in the browser"
+      }
+    },
+    "record": {
+      "decidedOn": "Decided on {date}",
+      "policyVersion": "Version {version}",
+      "notDecided": "No decision made yet"
+    },
+    "withdraw": {
+      "title": "Change your decision",
+      "desc": "You can change your decision at any time — withdrawing is just as easy as agreeing.",
+      "button": "Withdraw everything",
+      "done": "Your decision has been reset."
+    },
+    "a11y": {
+      "dialogLabel": "Privacy settings",
+      "closeLabel": "Close settings",
+      "switchOn": "on",
+      "switchOff": "off"
+    }
   },
   "seo": {
     "extendedProductText": {

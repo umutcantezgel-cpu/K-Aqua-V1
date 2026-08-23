@@ -16,6 +16,7 @@ import Footer from '@/components/layout/Footer';
 import OnPageHighlighter from '@/components/search/OnPageHighlighter';
 
 import { CookieBanner } from '@/components/layout/CookieBanner';
+import { ConsentInitializer } from '@/components/providers/ConsentInitializer';
 import { ShapeDefs } from '@/components/ui/ShapeDefs';
 import { LiquidEngine } from '@/components/ui/LiquidEngine';
 import { getRootKnowledgeGraph } from '@/lib/seo/schema';
@@ -114,6 +115,7 @@ export default async function LocaleLayout({
             <KontaktModal />
             <Footer />
 
+            <ConsentInitializer />
             <CookieBanner />
           </NextIntlClientProvider>
         </ThemeProvider>

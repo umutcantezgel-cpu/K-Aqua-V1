@@ -51,6 +51,9 @@ const sitemapGroups = [
       { href: '/partnerschaft', labelId: 'partners' },
       { href: '/trust-center', labelId: 'trust' },
       { href: '/sitemap', labelId: 'sitemap' },
+      // Kein Link, sondern ein Aufruf des Einwilligungsdialogs. Art. 7 Abs. 3 DSGVO
+      // verlangt, dass der Widerruf so einfach erreichbar ist wie die Erteilung.
+      { href: '/datenschutz', labelId: 'cookieSettings', action: 'consent' as const },
     ],
   },
 ];
@@ -101,6 +104,7 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
                   <LinkComp
                     // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     href={link.href as any}
+                    {...('action' in link ? { 'data-consent-open': '' } : {})}
                     className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
                   >
                     <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1">
@@ -124,6 +128,7 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
               <LinkComp
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 href={link.href as any}
+                {...('action' in link ? { 'data-consent-open': '' } : {})}
                 className="group inline-flex items-center text-sm text-white/60 hover:text-white transition-colors py-1"
               >
                 <span className="transform transition-transform duration-300 ease-out group-hover:translate-x-1.5">

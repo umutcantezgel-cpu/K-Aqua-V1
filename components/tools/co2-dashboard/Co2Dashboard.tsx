@@ -24,6 +24,7 @@ import {
   CO2_SEO_COPY, CO2_SOURCES, CO2_DISCLAIMER, CO2_PHASES 
 } from '../../../lib/co2-data';
 import { co2EncodeHash, co2DecodeHash } from '../../../lib/co2-share';
+import { readJson, writeJson } from '@/lib/consent/storage';
 
 const CO2_INIT = ((typeof window !== 'undefined' && co2DecodeHash) ? co2DecodeHash() : {}) || {};
 const co2Pk = (k: string, d: any) => (CO2_INIT[k] == null ? d : CO2_INIT[k]);
@@ -163,16 +164,16 @@ export default function Co2Dashboard() {
   const [showBand, setShowBand] = useSD(!!co2Pk('b', 0));
   const [seriesMode, setSeriesMode] = useSD(co2Pk('sm', 'duel'));
   const [presetId, setPresetId] = useSD(null);
-  const [scenarios, setScenarios] = useSD<any[]>(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-scenarios-v1') || '[]'); } catch (e) { return []; } });
+  const [scenarios, setScenarios] = useSD<any[]>(() => readJson<any[]>('kaqua-co2-scenarios-v1', 'comfort', []));
   const [overlayIds, setOverlayIds] = useSD<string[]>([]);
-  const [portfolioRows, setPortfolioRows] = useSD<any[]>(() => { try { return JSON.parse(localStorage.getItem('kaqua-co2-portfolio-v1') || '[]'); } catch (e) { return []; } });
+  const [portfolioRows, setPortfolioRows] = useSD<any[]>(() => readJson<any[]>('kaqua-co2-portfolio-v1', 'comfort', []));
   const [usePortfolio, setUsePortfolio] = useSD(false);
   const [drawerId, setDrawerId] = useSD(null);
   const [extHoverYear, setExtHoverYear] = useSD(null);
   const [sidebarOpen, setSidebarOpen] = useSD(false);
 
-  useED(() => { try { localStorage.setItem('kaqua-co2-scenarios-v1', JSON.stringify(scenarios)); } catch (e) {} }, [scenarios]);
-  useED(() => { try { localStorage.setItem('kaqua-co2-portfolio-v1', JSON.stringify(portfolioRows)); } catch (e) {} }, [portfolioRows]);
+  useED(() => { writeJson('kaqua-co2-scenarios-v1', 'comfort', scenarios); }, [scenarios]);
+  useED(() => { writeJson('kaqua-co2-portfolio-v1', 'comfort', portfolioRows); }, [portfolioRows]);
   useED(() => {
     const h = co2EncodeHash({ l: lengthKm, d: diameter, s: sdr, o: opponentId, r: regionId, t: transportKm, m: opModeId, f: flowLps, h: horizon, g: gridPath, fp: fittingsPct, cp: co2Price, v: chartView, b: showBand ? 1 : 0, sm: seriesMode, ls: oppLife });
     try { window.history.replaceState(null, '', h || window.location.pathname); } catch (e) {}

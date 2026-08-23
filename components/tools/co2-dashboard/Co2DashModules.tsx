@@ -11,6 +11,7 @@ import { Icons } from './Co2UI';
 import { MiniSparkline } from './Co2ChartCore';
 import { useTweenedValue } from '../../../lib/co2-anim';
 import { CO2_EQUIVALENTS, CO2_MATERIALS, CO2_REGIONS, CO2_PHASES, CO2_DISCLAIMER, computeFullResult, co2PressureLossPaPerM, co2WallMm, pipeMassKg } from '../../../lib/co2-data';
+import { readItem, writeItem } from '@/lib/consent/storage';
 
 export function BreakEvenCard({ breakEven, savings, oppLabel, horizon, diffPoints, fmt }: any) {
   const anim = useTweenedValue(Math.max(0, savings), 550);
@@ -185,16 +186,16 @@ export function Co2Coachmarks() {
   const [step, setStep] = uMS(() => {
     try {
       if (typeof window === 'undefined') return null;
-      return localStorage.getItem('kaqua-co2-coach-v1') ? null : 0; 
+      return readItem('kaqua-co2-coach-v1', 'comfort') ? null : 0; 
     } catch (e) { return null; }
   });
   if (step == null || step >= CO2_COACH_STEPS.length) return null;
   const s = CO2_COACH_STEPS[step];
   function next() {
-    if (step + 1 >= CO2_COACH_STEPS.length) { try { localStorage.setItem('kaqua-co2-coach-v1', '1'); } catch (e) {} setStep(null); }
+    if (step + 1 >= CO2_COACH_STEPS.length) { writeItem('kaqua-co2-coach-v1', 'comfort', '1'); setStep(null); }
     else setStep(step + 1);
   }
-  function done() { try { localStorage.setItem('kaqua-co2-coach-v1', '1'); } catch (e) {} setStep(null); }
+  function done() { writeItem('kaqua-co2-coach-v1', 'comfort', '1'); setStep(null); }
   return (
     <div className="co2-coach" role="note">
       <span className="font-semibold">{step + 1}/3 · {s.t}</span>

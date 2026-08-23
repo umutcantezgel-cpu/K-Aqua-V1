@@ -1,294 +1,399 @@
-/* eslint-disable react/jsx-no-literals */
 'use client';
 
-import React, { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { Cookie, Check, Settings2, ShieldCheck, BarChart3, Target, X, ExternalLink } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { clsx } from 'clsx';
-import { Link } from '@/lib/i18n/navigation';
+// Einwilligungsdialog.
+//
+// Die Website setzt keine Cookies und bindet keine Drittanbieter ein. Der Dialog
+// bildet deshalb ab, was tatsächlich gespeichert wird, statt nach Kategorien zu
+// fragen, die es nicht gibt. Kategorien ohne angemeldeten Dienst bleiben
+// ausgeblendet — siehe lib/consent/gate.ts.
 
-type ViewMode = 'banner' | 'preferences';
+import React, { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
+import { useTranslations, useLocale } from 'next-intl';
+import { Cookie, ShieldCheck, Sparkles, BarChart3, ChevronDown, X } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import clsx from 'clsx';
+import { Link } from '@/lib/i18n/navigation';
+import {
+  CONSENT_OPEN_EVENT,
+  CONSENT_POLICY_VERSION,
+  getActiveCategories,
+  getConsentRecord,
+  getServices,
+  type ConsentCategory,
+} from '@/lib/consent';
+import { useConsent } from '@/lib/consent/useConsent';
+
+/** Was tatsächlich im Browser abgelegt wird — speist das Verzeichnis im Dialog. */
+const STORAGE_INVENTORY: { key: string; entry: string; category: ConsentCategory }[] = [
+  { key: 'k-aqua-consent-v2', entry: 'consent', category: 'necessary' },
+  { key: 'theme', entry: 'theme', category: 'comfort' },
+  { key: 'kaqua-co2-*', entry: 'co2', category: 'comfort' },
+  { key: 'kaqua_recent_searches', entry: 'search', category: 'comfort' },
+];
+
+const CATEGORY_ICON: Record<ConsentCategory, React.ComponentType<{ className?: string }>> = {
+  necessary: ShieldCheck,
+  comfort: Sparkles,
+  analytics: BarChart3,
+};
 
 export function CookieBanner() {
-  const [isVisible, setIsVisible] = useState(false);
-  const [viewMode, setViewMode] = useState<ViewMode>('banner');
-  const [preferences, setPreferences] = useState({
-    essential: true, // Always true
-    analytics: false,
-    marketing: false,
-  });
-
   const t = useTranslations('cookieConsent');
+  const locale = useLocale();
+  const { decisions, decided, save, revoke } = useConsent();
 
-  useEffect(() => {
-    try {
-      const consent = localStorage.getItem('k-aqua-cookie-consent');
-      if (!consent) {
-        const timer = setTimeout(() => {
-          setIsVisible(true);
-        }, 1500);
-        return () => clearTimeout(timer);
-      }
-    } catch {
-      // Ignore localStorage errors in strict privacy browsers
-    }
+  const [open, setOpen] = useState(false);
+  const [detailed, setDetailed] = useState(false);
+  const [showInventory, setShowInventory] = useState(false);
+  const [draft, setDraft] = useState({ comfort: false, analytics: false });
+
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const openerRef = useRef<HTMLElement | null>(null);
+  const titleId = useId();
+  const descId = useId();
+
+  // Kategorien ohne angemeldeten Dienst werden nicht angezeigt. Nach etwas zu
+  // fragen, das es nicht gibt, wäre irreführend.
+  const activeCategories = useMemo(() => {
+    const active = getActiveCategories();
+    active.add('comfort'); // Komfortspeicher existiert immer
+    return active;
   }, []);
 
-  const saveConsent = (type: 'all' | 'none' | 'custom') => {
-    try {
-      if (type === 'all') {
-        localStorage.setItem('k-aqua-cookie-consent', 'all');
-        localStorage.setItem('cookie_essential', 'true');
-        localStorage.setItem('cookie_analytics', 'true');
-        localStorage.setItem('cookie_marketing', 'true');
-      } else if (type === 'none') {
-        localStorage.setItem('k-aqua-cookie-consent', 'none');
-        localStorage.setItem('cookie_essential', 'true');
-        localStorage.setItem('cookie_analytics', 'false');
-        localStorage.setItem('cookie_marketing', 'false');
-      } else {
-        localStorage.setItem('k-aqua-cookie-consent', 'custom');
-        localStorage.setItem('cookie_essential', 'true');
-        localStorage.setItem('cookie_analytics', String(preferences.analytics));
-        localStorage.setItem('cookie_marketing', String(preferences.marketing));
+  const services = useMemo(() => getServices(), []);
+
+  // Erstbesuch: Dialog zeigen, sobald feststeht, dass keine gültige Entscheidung vorliegt.
+  useEffect(() => {
+    if (decided) return;
+    const timer = setTimeout(() => setOpen(true), 900);
+    return () => clearTimeout(timer);
+  }, [decided]);
+
+  // Aufruf aus Footer, Datenschutzseite oder jedem Element mit data-consent-open.
+  useEffect(() => {
+    const openHandler = () => {
+      openerRef.current = (document.activeElement as HTMLElement) ?? null;
+      setDraft({ comfort: decisions.comfort, analytics: decisions.analytics });
+      setDetailed(true);
+      setOpen(true);
+    };
+    window.addEventListener(CONSENT_OPEN_EVENT, openHandler);
+
+    const clickHandler = (event: MouseEvent) => {
+      const target = (event.target as HTMLElement)?.closest?.('[data-consent-open]');
+      if (target) {
+        event.preventDefault();
+        event.stopPropagation();
+        openerRef.current = target as HTMLElement;
+        openHandler();
       }
-    } catch {
-      // Ignore localStorage errors
-    }
-    
-    setIsVisible(false);
-    
-    if (typeof window !== 'undefined') {
-      window.dispatchEvent(new Event('cookiesUpdated'));
-    }
+    };
+    // Capture-Phase: Next's Link fängt den Klick sonst zuerst ab und navigiert,
+    // bevor preventDefault greift. Ohne JavaScript bleibt der Eintrag ein
+    // gewöhnlicher Link auf die Datenschutzerklärung.
+    document.addEventListener('click', clickHandler, true);
+
+    return () => {
+      window.removeEventListener(CONSENT_OPEN_EVENT, openHandler);
+      document.removeEventListener('click', clickHandler, true);
+    };
+  }, [decisions]);
+
+  const close = useCallback(() => {
+    setOpen(false);
+    setDetailed(false);
+    setShowInventory(false);
+    openerRef.current?.focus?.();
+  }, []);
+
+  // Escape schließt, Tab bleibt im Dialog. Ohne Fokus-Fang bindet ein modaler
+  // Überlagerer nur sehende Nutzer.
+  useEffect(() => {
+    if (!open) return;
+    const node = dialogRef.current;
+    node?.querySelector<HTMLElement>('[data-autofocus]')?.focus();
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && decided) {
+        event.preventDefault();
+        close();
+        return;
+      }
+      if (event.key !== 'Tab' || !node) return;
+      const focusable = node.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+      const first = focusable[0]!;
+      const last = focusable[focusable.length - 1]!;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [open, decided, close, detailed]);
+
+  const decide = (next: { comfort: boolean; analytics: boolean }) => {
+    save(next, detailed ? 'settings' : 'banner');
+    close();
   };
 
-  const togglePreference = (key: 'analytics' | 'marketing') => {
-    setPreferences(prev => ({ ...prev, [key]: !prev[key] }));
-  };
+  const record = getConsentRecord();
+  const decidedOn = record
+    ? new Intl.DateTimeFormat(locale, { dateStyle: 'long', timeStyle: 'short' }).format(new Date(record.ts))
+    : null;
+
+  const categoryList = (['necessary', 'comfort', 'analytics'] as ConsentCategory[]).filter((c) =>
+    activeCategories.has(c)
+  );
 
   return (
     <AnimatePresence>
-      {isVisible && (
-        <div data-nosnippet="true" className="fixed inset-0 z-[1000] flex items-end sm:items-center justify-center sm:p-6 pointer-events-none">
-          {/* Blur Backdrop */}
+      {open && (
+        <div
+          data-nosnippet="true"
+          className="fixed inset-0 z-[1000] flex items-end sm:items-center justify-center p-0 sm:p-6"
+        >
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.4 }}
-            className="absolute inset-0 bg-background/60 backdrop-blur-md pointer-events-auto"
-            onClick={() => viewMode === 'preferences' ? setViewMode('banner') : null}
+            className="absolute inset-0 bg-foreground/25 backdrop-blur-sm"
+            onClick={decided ? close : undefined}
+            aria-hidden="true"
           />
 
           <motion.div
-            layout
-            initial={{ y: "100%", opacity: 0, scale: 0.95 }}
-            animate={{ y: 0, opacity: 1, scale: 1 }}
-            exit={{ y: "100%", opacity: 0, scale: 0.95 }}
-            transition={{ type: 'spring', damping: 28, stiffness: 280, mass: 0.8 }}
-            className={clsx(
-              "bg-card/95 backdrop-blur-2xl sm:border border-card-border/60 shadow-2xl pointer-events-auto flex flex-col overflow-hidden relative z-10 w-full sm:rounded-3xl",
-              viewMode === 'banner' ? "max-w-4xl" : "max-w-4xl h-[90vh] sm:h-auto sm:max-h-[85vh]"
-            )}
+            ref={dialogRef}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={titleId}
+            aria-describedby={descId}
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 24 }}
+            transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+            className="relative z-10 w-full sm:max-w-2xl max-h-[92vh] overflow-y-auto bg-card border border-card-border rounded-t-3xl sm:rounded-3xl shadow-2xl"
           >
-            {/* Top decorative glow */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-32 bg-primary/20 blur-[80px] pointer-events-none rounded-full" />
-
-            {viewMode === 'banner' ? (
-              <div className="p-6 md:p-10 flex flex-col gap-8 relative z-10">
-                <div className="flex gap-6 items-start">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl shrink-0 hidden sm:flex items-center justify-center border border-primary/10 shadow-inner">
-                    <Cookie className="w-8 h-8 text-primary" />
-                  </div>
-                  <div className="flex flex-col gap-3 pt-1">
-                    <h3 className="font-heading font-extrabold text-foreground text-2xl tracking-tight">
-                      {t('title')}
-                    </h3>
-                    <p className="text-muted-foreground text-[15px] leading-relaxed max-w-[65ch]">
-                      {t('description')}
-                    </p>
-                    <div className="flex gap-4 mt-1">
-                      <Link href="/datenschutz" className="text-sm font-medium text-primary hover:text-primary-strong flex items-center gap-1 group">
-                        {t('privacyLink') || 'Datenschutz'} <ExternalLink className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 transition-opacity" />
-                      </Link>
-                      <Link href="/impressum" className="text-sm font-medium text-primary hover:text-primary-strong flex items-center gap-1 group">
-                        {t('imprintLink') || 'Impressum'} <ExternalLink className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 transition-opacity" />
-                      </Link>
-                    </div>
-                  </div>
+            <div className="p-6 sm:p-8 flex flex-col gap-6">
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 w-11 h-11 rounded-2xl bg-primary-soft text-primary grid place-items-center">
+                  <Cookie className="w-5 h-5" aria-hidden="true" />
+                </span>
+                <div className="flex-1 min-w-0">
+                  <h2 id={titleId} className="font-heading font-extrabold text-xl text-foreground">
+                    {t('title')}
+                  </h2>
+                  <p className="text-[13px] text-primary font-semibold mt-1">{t('noCookiesNote')}</p>
                 </div>
-
-                <div className="flex flex-col sm:flex-row gap-3 pt-6 border-t border-card-border/50">
+                {decided && (
                   <button
-                    onClick={() => setViewMode('preferences')}
-                    className="px-6 py-3.5 rounded-xl flex items-center justify-center gap-2 bg-background-subtle hover:bg-card-border/50 text-foreground text-[15px] font-semibold transition-colors w-full sm:w-auto border border-transparent hover:border-card-border"
+                    type="button"
+                    onClick={close}
+                    aria-label={t('a11y.closeLabel')}
+                    className="shrink-0 w-9 h-9 grid place-items-center rounded-full hover:bg-background-subtle text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   >
-                    <Settings2 className="w-4 h-4" />
-                    {t('customize')}
+                    <X className="w-4 h-4" aria-hidden="true" />
                   </button>
-                  <div className="flex-1" />
-                  <button
-                    onClick={() => saveConsent('none')}
-                    className="px-6 py-3.5 rounded-xl border border-card-border hover:bg-background-subtle text-foreground text-[15px] font-semibold transition-colors w-full sm:w-auto"
-                  >
-                    {t('declineAll')}
-                  </button>
-                  <button
-                    onClick={() => saveConsent('all')}
-                    className="px-8 py-3.5 rounded-xl bg-primary text-primary-foreground hover:bg-primary-hover text-[15px] font-bold transition-all hover:scale-[1.02] active:scale-[0.98] w-full sm:w-auto shadow-lg shadow-primary/25"
-                  >
-                    {t('acceptAll')}
-                  </button>
-                </div>
+                )}
               </div>
-            ) : (
-              <div className="flex flex-col h-full relative z-10">
-                <div className="p-6 md:px-10 md:pt-10 md:pb-6 border-b border-card-border/50 flex items-center justify-between sticky top-0 bg-card/80 backdrop-blur-xl z-20">
-                  <div className="flex items-center gap-5">
-                    <button 
-                      onClick={() => setViewMode('banner')}
-                      className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-background-subtle transition-colors"
-                    >
-                      <X className="w-5 h-5 text-muted-foreground" />
-                    </button>
-                    <div>
-                      <h3 className="font-heading font-extrabold text-foreground text-xl">
-                        {t('title')}
-                      </h3>
-                      <p className="text-sm text-muted-foreground mt-0.5">{t('customize')}</p>
-                    </div>
-                  </div>
-                  <button
-                    onClick={() => saveConsent('all')}
-                    className="text-[13px] font-bold uppercase tracking-wider text-primary hover:text-primary-strong transition-colors bg-primary/10 px-4 py-2 rounded-full hidden sm:block"
-                  >
-                    {t('acceptAll')}
-                  </button>
-                </div>
 
-                <div className="p-6 md:p-10 flex flex-col gap-6 overflow-y-auto custom-scrollbar flex-1">
-                  {/* Essential */}
-                  <div className="flex flex-col sm:flex-row gap-5 items-start p-6 rounded-2xl bg-background-subtle/50 border border-card-border/50 relative overflow-hidden group">
-                    <div className="absolute top-0 start-0 w-1 h-full bg-emerald-500/50" />
-                    <div className="bg-emerald-500/10 p-3 rounded-xl shrink-0 mt-1">
-                      <ShieldCheck className="w-6 h-6 text-emerald-500" />
-                    </div>
-                    <div className="flex flex-col gap-2 flex-1">
-                      <div className="flex items-center justify-between">
-                        <h4 className="font-heading font-bold text-lg text-foreground">{t('essentialTitle')}</h4>
-                        <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
-                          Immer Aktiv
+              <p id={descId} className="text-[15px] text-muted-foreground leading-relaxed">
+                {t('intro')}
+              </p>
+
+              {detailed && (
+                <div className="flex flex-col gap-3">
+                  {categoryList.map((category) => {
+                    const Icon = CATEGORY_ICON[category];
+                    const locked = category === 'necessary';
+                    const checked = locked ? true : draft[category as 'comfort' | 'analytics'];
+                    const empty = category === 'analytics' && services.length === 0;
+                    return (
+                      <div
+                        key={category}
+                        className="flex gap-4 items-start p-5 rounded-2xl bg-background-subtle/60 border border-card-border/60"
+                      >
+                        <span className="shrink-0 w-9 h-9 rounded-xl bg-card text-primary grid place-items-center border border-card-border/60">
+                          <Icon className="w-4 h-4" aria-hidden="true" />
                         </span>
-                      </div>
-                      <p className="text-[15px] text-muted-foreground leading-relaxed">{t('essentialDesc')}</p>
-                      <div className="mt-2 flex flex-wrap gap-2">
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">Session ID</span>
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">Consent State</span>
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">CSRF Token</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Analytics */}
-                  <div 
-                    className={clsx(
-                      "flex flex-col sm:flex-row gap-5 items-start p-6 rounded-2xl border transition-all duration-300 cursor-pointer relative overflow-hidden",
-                      preferences.analytics ? "border-blue-500/30 bg-blue-500/5 shadow-[0_0_30px_-15px_rgba(59,130,246,0.3)]" : "border-card-border hover:border-foreground/20"
-                    )}
-                    onClick={() => togglePreference('analytics')}
-                  >
-                    <div className={clsx(
-                      "p-3 rounded-xl shrink-0 mt-1 transition-colors",
-                      preferences.analytics ? "bg-blue-500/20" : "bg-foreground/5"
-                    )}>
-                      <BarChart3 className={clsx("w-6 h-6 transition-colors", preferences.analytics ? "text-blue-500" : "text-muted-foreground")} />
-                    </div>
-                    <div className="flex flex-col gap-2 flex-1">
-                      <div className="flex items-center justify-between">
-                        <h4 className="font-heading font-bold text-lg text-foreground">{t('analyticsTitle')}</h4>
-                        <button
-                          className={clsx(
-                            "relative inline-flex h-7 w-12 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
-                            preferences.analytics ? "bg-blue-500" : "bg-card-border"
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center justify-between gap-4">
+                            <h3 className="font-heading font-bold text-[15px] text-foreground">
+                              {t(`categories.${category}.title`)}
+                            </h3>
+                            <button
+                              type="button"
+                              role="switch"
+                              aria-checked={checked}
+                              aria-label={`${t(`categories.${category}.title`)} — ${checked ? t('a11y.switchOn') : t('a11y.switchOff')}`}
+                              disabled={locked}
+                              onClick={() =>
+                                !locked &&
+                                setDraft((prev) => ({
+                                  ...prev,
+                                  [category]: !prev[category as 'comfort' | 'analytics'],
+                                }))
+                              }
+                              className={clsx(
+                                'shrink-0 w-12 h-7 rounded-full relative transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
+                                checked ? 'bg-primary' : 'bg-card-border',
+                                locked && 'opacity-60 cursor-not-allowed'
+                              )}
+                            >
+                              <span
+                                className={clsx(
+                                  'absolute top-1 w-5 h-5 rounded-full bg-white shadow transition-all',
+                                  checked ? 'start-6' : 'start-1'
+                                )}
+                              />
+                            </button>
+                          </div>
+                          <p className="text-[13.5px] text-muted-foreground leading-relaxed mt-1.5">
+                            {t(`categories.${category}.desc`)}
+                          </p>
+                          {empty && (
+                            <p className="text-[13px] text-muted-foreground/80 italic mt-2">
+                              {t('categories.analytics.emptyNote')}
+                            </p>
                           )}
-                        >
-                          <span
-                            className={clsx(
-                              "inline-block h-5 w-5 transform rounded-full bg-white transition-transform shadow-sm",
-                              preferences.analytics ? "translate-x-6" : "translate-x-1"
-                            )}
-                          />
-                        </button>
+                        </div>
                       </div>
-                      <p className="text-[15px] text-muted-foreground leading-relaxed">{t('analyticsDesc')}</p>
-                      <div className="mt-2 flex flex-wrap gap-2">
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">Google Analytics 4</span>
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">Matomo</span>
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">Vercel Web Vitals</span>
-                      </div>
-                    </div>
-                  </div>
+                    );
+                  })}
 
-                  {/* Marketing */}
-                  <div 
-                    className={clsx(
-                      "flex flex-col sm:flex-row gap-5 items-start p-6 rounded-2xl border transition-all duration-300 cursor-pointer relative overflow-hidden",
-                      preferences.marketing ? "border-purple-500/30 bg-purple-500/5 shadow-[0_0_30px_-15px_rgba(168,85,247,0.3)]" : "border-card-border hover:border-foreground/20"
-                    )}
-                    onClick={() => togglePreference('marketing')}
+                  <button
+                    type="button"
+                    onClick={() => setShowInventory((v) => !v)}
+                    aria-expanded={showInventory}
+                    className="self-start inline-flex items-center gap-1.5 text-[13.5px] font-semibold text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
                   >
-                    <div className={clsx(
-                      "p-3 rounded-xl shrink-0 mt-1 transition-colors",
-                      preferences.marketing ? "bg-purple-500/20" : "bg-foreground/5"
-                    )}>
-                      <Target className={clsx("w-6 h-6 transition-colors", preferences.marketing ? "text-purple-500" : "text-muted-foreground")} />
-                    </div>
-                    <div className="flex flex-col gap-2 flex-1">
-                      <div className="flex items-center justify-between">
-                        <h4 className="font-heading font-bold text-lg text-foreground">{t('marketingTitle')}</h4>
-                        <button
-                          className={clsx(
-                            "relative inline-flex h-7 w-12 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2",
-                            preferences.marketing ? "bg-purple-500" : "bg-card-border"
-                          )}
-                        >
-                          <span
-                            className={clsx(
-                              "inline-block h-5 w-5 transform rounded-full bg-white transition-transform shadow-sm",
-                              preferences.marketing ? "translate-x-6" : "translate-x-1"
-                            )}
-                          />
-                        </button>
-                      </div>
-                      <p className="text-[15px] text-muted-foreground leading-relaxed">{t('marketingDesc')}</p>
-                      <div className="mt-2 flex flex-wrap gap-2">
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">Meta Pixel</span>
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">LinkedIn Insights</span>
-                        <span className="text-[11px] font-medium px-2 py-1 bg-card rounded-md border border-card-border text-foreground/70">Google Ads</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                    <ChevronDown
+                      className={clsx('w-4 h-4 transition-transform', showInventory && 'rotate-180')}
+                      aria-hidden="true"
+                    />
+                    {t('inventory.toggle')}
+                  </button>
 
-                <div className="p-6 md:px-10 md:py-6 border-t border-card-border/50 bg-card/80 backdrop-blur-xl flex flex-col sm:flex-row justify-between items-center gap-4 sticky bottom-0 z-20">
-                  <button
-                    onClick={() => setViewMode('banner')}
-                    className="text-sm text-muted-foreground hover:text-foreground font-semibold transition-colors flex items-center gap-1 group w-full sm:w-auto justify-center"
-                  >
-                    Zurück zur Übersicht
-                  </button>
-                  <button
-                    onClick={() => saveConsent('custom')}
-                    className="px-8 py-3.5 rounded-xl bg-foreground text-background hover:bg-foreground/90 text-[15px] font-bold transition-all hover:scale-[1.02] active:scale-[0.98] w-full sm:w-auto shadow-lg flex items-center justify-center gap-2"
-                  >
-                    <Check className="w-4 h-4" />
-                    {t('acceptSelected')}
-                  </button>
+                  {showInventory && (
+                    <div className="rounded-2xl border border-card-border/60 overflow-hidden">
+                      <div className="overflow-x-auto">
+                        <table className="w-full text-[13px]">
+                          <caption className="sr-only">{t('inventory.heading')}</caption>
+                          <thead>
+                            <tr className="bg-background-subtle/80 text-muted-foreground">
+                              <th scope="col" className="text-start font-semibold px-4 py-2.5">{t('inventory.colName')}</th>
+                              <th scope="col" className="text-start font-semibold px-4 py-2.5">{t('inventory.colPurpose')}</th>
+                              <th scope="col" className="text-start font-semibold px-4 py-2.5">{t('inventory.colRetention')}</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {STORAGE_INVENTORY.map((item) => (
+                              <tr key={item.key} className="border-t border-card-border/50">
+                                <td className="px-4 py-2.5 text-foreground font-medium">
+                                  {t(`entries.${item.entry}.name`)}
+                                  <span className="block text-[11.5px] text-muted-foreground font-mono mt-0.5">{item.key}</span>
+                                </td>
+                                <td className="px-4 py-2.5 text-muted-foreground">{t(`entries.${item.entry}.purpose`)}</td>
+                                <td className="px-4 py-2.5 text-muted-foreground">{t(`entries.${item.entry}.retention`)}</td>
+                              </tr>
+                            ))}
+                            {services.map((service) => (
+                              <tr key={service.id} className="border-t border-card-border/50">
+                                <td className="px-4 py-2.5 text-foreground font-medium">
+                                  {service.name}
+                                  <span className="block text-[11.5px] text-muted-foreground mt-0.5">{service.provider}</span>
+                                </td>
+                                <td className="px-4 py-2.5 text-muted-foreground">{service.purpose}</td>
+                                <td className="px-4 py-2.5 text-muted-foreground">{service.retention}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                      <p className="text-[12.5px] text-muted-foreground leading-relaxed px-4 py-3 bg-background-subtle/40 border-t border-card-border/50">
+                        {t('inventory.note')}
+                      </p>
+                    </div>
+                  )}
+
+                  {decidedOn && (
+                    <p className="text-[12.5px] text-muted-foreground">
+                      {t('record.decidedOn', { date: decidedOn })} ·{' '}
+                      {t('record.policyVersion', { version: String(CONSENT_POLICY_VERSION) })}
+                    </p>
+                  )}
                 </div>
+              )}
+
+              {/* Beide Entscheidungen gleich prominent: gleiche Größe, gleiches Gewicht,
+                  gleiche Form. Eine hervorgehobene Zustimmung neben einer zurückhaltenden
+                  Ablehnung gilt als Dark Pattern (EDSA-Leitlinien 03/2022). */}
+              <div className="flex flex-col sm:flex-row gap-2.5">
+                <button
+                  type="button"
+                  data-autofocus
+                  onClick={() => decide({ comfort: false, analytics: false })}
+                  className="flex-1 px-5 py-3.5 rounded-xl border border-card-border bg-card text-foreground text-[15px] font-semibold hover:bg-background-subtle transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                >
+                  {t('btnNecessaryOnly')}
+                </button>
+                {detailed ? (
+                  <button
+                    type="button"
+                    onClick={() => decide(draft)}
+                    className="flex-1 px-5 py-3.5 rounded-xl border border-card-border bg-card text-foreground text-[15px] font-semibold hover:bg-background-subtle transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  >
+                    {t('btnSaveSelection')}
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setDraft({ comfort: decisions.comfort, analytics: decisions.analytics });
+                      setDetailed(true);
+                    }}
+                    className="flex-1 px-5 py-3.5 rounded-xl border border-card-border bg-card text-foreground text-[15px] font-semibold hover:bg-background-subtle transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                  >
+                    {t('btnCustomize')}
+                  </button>
+                )}
+                <button
+                  type="button"
+                  onClick={() => decide({ comfort: true, analytics: true })}
+                  className="flex-1 px-5 py-3.5 rounded-xl border border-card-border bg-card text-foreground text-[15px] font-semibold hover:bg-background-subtle transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                >
+                  {t('btnAcceptAll')}
+                </button>
               </div>
-            )}
+
+              {detailed && decided && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    revoke();
+                    setDraft({ comfort: false, analytics: false });
+                  }}
+                  className="self-start text-[13px] font-semibold text-muted-foreground hover:text-foreground underline underline-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
+                >
+                  {t('withdraw.button')}
+                </button>
+              )}
+
+              <p className="text-[12.5px] text-muted-foreground flex flex-wrap gap-x-4 gap-y-1">
+                <Link href="/datenschutz" className="hover:text-foreground underline underline-offset-2">
+                  {t('privacyLink')}
+                </Link>
+                <Link href="/impressum" className="hover:text-foreground underline underline-offset-2">
+                  {t('imprintLink')}
+                </Link>
+              </p>
+            </div>
           </motion.div>
         </div>
       )}

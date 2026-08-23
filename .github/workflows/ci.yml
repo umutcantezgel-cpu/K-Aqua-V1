@@ -35,6 +35,11 @@ jobs:
       - name: Locale parity
         run: pnpm i18n:check
 
+      # Findet Schlüssel, die der Code verlangt, die es aber in KEINER Sprache
+      # gibt — die Parität allein übersieht das, weil sie nur en/ar gegen de hält.
+      - name: Message key usage
+        run: pnpm i18n:usage
+
       - name: Unit tests
         run: pnpm test
 
