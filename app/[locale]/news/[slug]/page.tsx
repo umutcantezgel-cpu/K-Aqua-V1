@@ -46,9 +46,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-export default async function NewsDetailPage({ params, searchParams }: Props) {
+export default async function NewsDetailPage({ params }: Props) {
   const { locale, slug } = await params;
-  const resolvedSearchParams = searchParams ? await searchParams : {};
   setRequestLocale(locale);
   const newsItem = getNewsBySlug(slug);
 
@@ -56,18 +55,14 @@ export default async function NewsDetailPage({ params, searchParams }: Props) {
     notFound();
   }
 
-  // If accessed via an old alias slug, redirect to the canonical slug preserving search params
+  // Alter Alias-Slug: auf den kanonischen Slug weiterleiten.
+  //
+  // Bewusst OHNE searchParams: `await searchParams` macht die Route dynamisch
+  // und kollidiert mit `revalidate` — das hat mit DYNAMIC_SERVER_USAGE jeden
+  // Artikel auf 500 gesetzt. Ein verlorener Query-Parameter auf einem
+  // Legacy-Alias ist verschmerzbar; 50 kaputte Artikel sind es nicht.
   if (slug !== newsItem.slug) {
-    const searchParamsObj = new URLSearchParams();
-    for (const [key, value] of Object.entries(resolvedSearchParams)) {
-      if (typeof value === "string") {
-        searchParamsObj.set(key, value);
-      } else if (Array.isArray(value)) {
-        value.forEach((v) => searchParamsObj.append(key, v));
-      }
-    }
-    const queryStr = searchParamsObj.toString();
-    redirect(`/${locale}/news/${newsItem.slug}${queryStr ? `?${queryStr}` : ''}`);
+    redirect(`/${locale}/news/${newsItem.slug}`);
   }
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
