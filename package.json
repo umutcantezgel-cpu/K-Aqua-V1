@@ -13,7 +13,10 @@
     "i18n:check": "node scripts/check-locale-parity.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
-    "i18n:usage": "node scripts/check-message-usage.mjs"
+    "i18n:usage": "node scripts/check-message-usage.mjs",
+    "3d:sync": "node scripts/sync-3d-registry.mjs",
+    "3d:check": "node scripts/sync-3d-registry.mjs --check",
+    "3d:coverage": "node scripts/check-3d-coverage.mjs"
   },
   "dependencies": {
     "@react-three/fiber": "^9.6.1",

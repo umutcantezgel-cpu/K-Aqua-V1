@@ -8706,6 +8706,8 @@
     "socketStop": "Socket stop (z)",
     "weightPer": "Weight / pc",
     "packUnit": "Packaging unit",
-    "toProductPage": "To the product page"
+    "toProductPage": "To the product page",
+    "noModelTitle": "No 3D model exists for this product yet",
+    "noModelHint": "The technical DIN/ISO dimension table is shown below."
   }
 }

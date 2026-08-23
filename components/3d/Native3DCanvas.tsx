@@ -22,6 +22,14 @@ import {
 } from 'lucide-react';
 import clsx from 'clsx';
 import { useTranslations } from 'next-intl';
+import { GENERATED_SLUG_MAP } from '@/lib/3d/slug-map.generated';
+import { SLUG_ALIASES } from '@/lib/3d/aliases';
+
+// Die triviale Zuordnung entsteht aus der Registry (erzeugt), die
+// redaktionellen Ausnahmen stehen daneben. Ein neues Produkt braucht damit
+// keine Codeänderung mehr — es genügt, die Bibliothek zu aktualisieren und
+// `node scripts/sync-3d-registry.mjs` laufen zu lassen.
+const SLUG_TO_3D_ID: Record<string, string> = { ...GENERATED_SLUG_MAP, ...SLUG_ALIASES };
 
 export interface Native3DCanvasProps {
   productId?: string; // e.g. "fittings/socket", "pipes/k-pipe-pp-r-sdr-6", "valves/pp-r-ball-valve-ball-in-pp"
@@ -38,102 +46,19 @@ export interface Native3DCanvasProps {
   basePath?: string;
 }
 
-// Normalized mapping from any catalog slug or category to 3D library module ID
-const SLUG_TO_3D_ID: Record<string, string> = {
-  'cap': 'fittings/cap',
-  'socket': 'fittings/socket',
-  'elbow-45': 'fittings/elbow-45',
-  'elbow-45-femalemale': 'fittings/elbow-45',
-  'elbow-90': 'fittings/elbow-90',
-  'elbow-90-femalemale': 'fittings/elbow-90',
-  'elbow-90-large-sizes': 'fittings/elbow-90',
-  'tee': 'fittings/tee',
-  'cross': 'fittings/cross',
-  'reducing-bush': 'fittings/reducing-bush',
-  'reducing-tee': 'fittings/reducing-bush',
-  'reducing-tee-large-sizes': 'fittings/reducing-bush',
-  'flange-adaptor': 'accessories/backing-flange',
-  'stub-end': 'accessories/backing-flange',
-  'electrofusion-socket': 'fittings/socket',
-  'cross-over': 'fittings/elbow-90',
-  'cross-over-pipe': 'fittings/elbow-90',
-  'cross-over-with-socket': 'fittings/socket',
 
-  // Pipes
-  'k-pipe-pp-r-sdr-6': 'pipes/k-pipe-pp-r-sdr-6',
-  'k-pipe-pp-r-sdr-11': 'pipes/k-pipe-pp-r-sdr-11',
-  'k-pipe-purple-pp-r-sdr-11': 'pipes/k-pipe-purple-pp-r-sdr-11',
-  'k-pipe-pp-rct-sdr-74': 'pipes/k-pipe-pp-rct-sdr-7-4',
-  'k-pipe-pp-rct-sdr-7-4': 'pipes/k-pipe-pp-rct-sdr-7-4',
-  'k-fiber-pipe-pp-r-sdr-74': 'pipes/k-fiber-pipe-pp-r-sdr-7-4',
-  'k-fiber-pipe-pp-r-sdr-7-4': 'pipes/k-fiber-pipe-pp-r-sdr-7-4',
-  'k-fiber-pipe-pp-r-sdr-9': 'pipes/k-fiber-pipe-pp-r-sdr-9',
-  'k-fiber-pipe-pp-r-sdr-11': 'pipes/k-fiber-pipe-pp-r-sdr-11',
-  'k-fiber-pipe-pp-r-sdr-17': 'pipes/k-fiber-pipe-pp-r-sdr-17',
-  'k-fiber-pipe-pp-rct-sdr-74': 'pipes/k-fiber-pipe-pp-rct-sdr-7-4',
-  'k-fiber-pipe-pp-rct-sdr-7-4': 'pipes/k-fiber-pipe-pp-rct-sdr-7-4',
-  'k-fiber-uv-pipe-pp-r-sdr-74': 'pipes/k-fiber-uv-pipe-pp-r-sdr-7-4',
-  'k-fiber-uv-pipe-pp-r-sdr-7-4': 'pipes/k-fiber-uv-pipe-pp-r-sdr-7-4',
-  'k-fiber-uv-pipe-pp-rct-sdr-74': 'pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4',
-  'k-fiber-uv-pipe-pp-rct-sdr-7-4': 'pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4',
-  'k-fiberclima-pipe-pp-rct-sdr-11': 'pipes/k-fiberclima-pipe-pp-rct-sdr-11',
-
-  // Valves
-  'pp-r-ball-valve-ball-in-pp': 'valves/pp-r-ball-valve-ball-in-pp',
-  'ball-valve-pp': 'valves/pp-r-ball-valve-ball-in-pp',
-  'pp-r-ball-valve-brass': 'valves/pp-r-ball-valve-ball-in-pp',
-  'pp-r-ball-valve-ball-in-brass-chromium-plated': 'valves/pp-r-ball-valve-ball-in-pp',
-  'straight-seat-valve-green-handle': 'valves/pp-r-ball-valve-ball-in-pp',
-  'concealed-valve-chrome-light-part': 'valves/pp-r-ball-valve-ball-in-pp',
-  'concealed-valve-chrome-heavy-part': 'valves/pp-r-ball-valve-ball-in-pp',
-  'battery-female-thread': 'valves/pp-r-ball-valve-ball-in-pp',
-  'adjustable-battery-female-thread': 'valves/pp-r-ball-valve-ball-in-pp',
-  'elongation-pieces': 'valves/pp-r-ball-valve-ball-in-pp',
-  'tee-90-female-thread-for-internal-valve': 'valves/pp-r-ball-valve-ball-in-pp',
-
-  // Transition Fittings
-  'adaptor-socket-male-thread': 'transition-fittings/adaptor-socket-male-thread',
-  'adaptor-socket-female-thread': 'transition-fittings/adaptor-socket-male-thread',
-  'union': 'transition-fittings/union',
-  'union-for-watermeters': 'transition-fittings/union',
-  'metal-union-female-thread': 'transition-fittings/metal-union-female-thread',
-  'metal-union-female-thread-brass': 'transition-fittings/metal-union-female-thread',
-  'metal-union-male-thread': 'transition-fittings/metal-union-female-thread',
-  'metal-union-male-thread-brass': 'transition-fittings/metal-union-female-thread',
-  'elbow-90-male-thread': 'transition-fittings/adaptor-socket-male-thread',
-  'elbow-bracket-90-female-thread': 'transition-fittings/adaptor-socket-male-thread',
-  'elbow-wall-bracket-90-female-thread': 'transition-fittings/adaptor-socket-male-thread',
-  'tee-90-female-thread': 'transition-fittings/adaptor-socket-male-thread',
-  'tee-90-male-thread': 'transition-fittings/adaptor-socket-male-thread',
-
-  // Weld-In Saddles
-  'weld-in-saddle': 'fittings/socket',
-  'weld-in-saddle-female-thread': 'transition-fittings/adaptor-socket-male-thread',
-  'weld-in-saddle-male-thread': 'transition-fittings/adaptor-socket-male-thread',
-
-  // Accessories
-  'plug': 'accessories/plug',
-  'flat-gasket': 'accessories/flat-gasket',
-  'flat-gasket-for-unions': 'accessories/flat-gasket-for-unions',
-  'flat-gasket-for-unions-pp-r': 'accessories/flat-gasket-for-unions',
-  'backing-flange': 'accessories/backing-flange',
-  'backing-flange-pp-steel-sfbf': 'accessories/backing-flange',
-  'pipe-clamps': 'accessories/pipe-clamps',
-
-  // Tools
-  'pipe-cutter-2040': 'accessories/pipe-clamps',
-  'pipe-cutter-50125': 'accessories/pipe-clamps',
-  'pipe-cutter-50125-1': 'accessories/pipe-clamps',
-  'welding-tool': 'accessories/plug',
-  'repairing-plug': 'accessories/plug',
-};
-
-export function resolve3DProductId(slugOrId?: string): string {
-  if (!slugOrId) return 'fittings/socket';
+/**
+ * Ordnet einen Katalog-Slug einer 3D-Modul-ID zu.
+ *
+ * Gibt null zurück, wenn es für das Produkt (noch) kein Modell gibt. Vorher
+ * fiel die Funktion auf 'fittings/socket' zurück — ein Produkt ohne Modell
+ * zeigte damit stillschweigend eine Muffe, also ein anderes Bauteil. Für einen
+ * maßhaltigen CAD-Viewer ist das schlechter als gar keine Darstellung.
+ */
+export function resolve3DProductId(slugOrId?: string): string | null {
+  if (!slugOrId) return null;
   const clean = slugOrId.replace(/^.*\//, '').toLowerCase().trim();
-  if (SLUG_TO_3D_ID[clean]) return SLUG_TO_3D_ID[clean];
-  if (SLUG_TO_3D_ID[slugOrId]) return SLUG_TO_3D_ID[slugOrId];
-  return 'fittings/socket';
+  return SLUG_TO_3D_ID[clean] ?? SLUG_TO_3D_ID[slugOrId] ?? null;
 }
 
 export default function Native3DCanvas({
@@ -359,6 +284,13 @@ export default function Native3DCanvas({
     setLoading(true);
     setError(null);
 
+    if (!effectiveId) {
+      // Kein Modell hinterlegt — das ist kein Fehler, sondern ein noch offener
+      // Produktionsschritt. Wird als eigener Zustand angezeigt, nicht als Panne.
+      setLoading(false);
+      return;
+    }
+
     (async () => {
       try {
         const mod = await import(/* webpackIgnore: true */ `${basePath}/lib/index.mjs`);
@@ -525,6 +457,14 @@ export default function Native3DCanvas({
       )}
 
       {/* Error Fallback */}
+      {!effectiveId && !loading && (
+        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-card/95 p-6 text-center">
+          <Box className="w-12 h-12 text-muted-foreground/50 mb-3" />
+          <h4 className="text-sm font-heading font-bold text-foreground mb-1">{t('noModelTitle')}</h4>
+          <p className="text-xs text-muted-foreground max-w-xs">{t('noModelHint')}</p>
+        </div>
+      )}
+
       {error && !loading && (
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-card/95 p-6 text-center">
           <Box className="w-12 h-12 text-muted-foreground/50 mb-3" />

@@ -40,6 +40,11 @@ jobs:
       - name: Message key usage
         run: pnpm i18n:usage
 
+      # Stellt sicher, dass die erzeugte 3D-Zuordnung zur Bibliothek passt.
+      # Wird ein Modell ergänzt, ohne sie neu zu erzeugen, fällt es hier auf.
+      - name: 3D registry in sync
+        run: pnpm 3d:check
+
       - name: Unit tests
         run: pnpm test
 
