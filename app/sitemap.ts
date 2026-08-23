@@ -26,6 +26,7 @@ const staticRoutes = [
   'produkte/accessories',
   'projektanfrage',
   'co2-rechner',
+  '3d',
   'referenzen',
   'ressourcen/support',
   'ressourcen/ausschreibungstexte',

@@ -21,6 +21,7 @@ import {
   Loader2,
 } from 'lucide-react';
 import clsx from 'clsx';
+import { useTranslations } from 'next-intl';
 
 export interface Native3DCanvasProps {
   productId?: string; // e.g. "fittings/socket", "pipes/k-pipe-pp-r-sdr-6", "valves/pp-r-ball-valve-ball-in-pp"
@@ -149,6 +150,7 @@ export default function Native3DCanvas({
   autoRotateDefault = true,
   basePath = '/kaqua-3d',
 }: Native3DCanvasProps) {
+  const t = useTranslations('viewer3d');
   const containerRef = useRef<HTMLDivElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
@@ -381,8 +383,15 @@ export default function Native3DCanvas({
         setLoading(false);
       } catch (err: any) {
         if (!cancelled) {
-          console.warn('Could not load 3D product module:', err);
-          setError('3D-CAD-Modell wird vorbereitet');
+          // "wird vorbereitet" las sich wie ein normaler Zwischenzustand und
+          // verdeckte damit echte Ladefehler. Die Modul-ID und der Pfad gehören
+          // in die Konsole, sonst ist im Betrieb nicht feststellbar, welches
+          // Modell fehlt.
+          console.error(
+            `[3D] Produktmodul "${effectiveId}" konnte nicht geladen werden (Basis: ${basePath}).`,
+            err
+          );
+          setError(effectiveId);
           setLoading(false);
         }
       }
@@ -519,9 +528,10 @@ export default function Native3DCanvas({
       {error && !loading && (
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-card/95 p-6 text-center">
           <Box className="w-12 h-12 text-muted-foreground/50 mb-3" />
-          <h4 className="text-sm font-heading font-bold text-foreground mb-1">{error}</h4>
-          <p className="text-xs text-muted-foreground max-w-xs">
-            Technische DIN/ISO Maßtabelle ist unten aufgeführt.
+          <h4 className="text-sm font-heading font-bold text-foreground mb-1">{t('errorTitle')}</h4>
+          <p className="text-xs text-muted-foreground max-w-xs">{t('errorHint')}</p>
+          <p className="text-[10px] text-muted-foreground/60 mt-2 font-mono">
+            {t('errorModule', { id: error })}
           </p>
         </div>
       )}
@@ -546,8 +556,8 @@ export default function Native3DCanvas({
           <button
             type="button"
             onClick={handleToggleSection}
-            title={isSection ? 'Vollansicht' : 'Halbschnitt (Querschnitt)'}
-            aria-label="Halbschnitt"
+            title={isSection ? t('sectionOff') : t('sectionOn')}
+            aria-label={t('section')}
             className={clsx(
               'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
               isSection
@@ -563,8 +573,8 @@ export default function Native3DCanvas({
           <button
             type="button"
             onClick={() => setShowDimensions(!showDimensions)}
-            title="CAD-Bemaßung"
-            aria-label="CAD-Bemaßung"
+            title={t('dimensions')}
+            aria-label={t('dimensions')}
             className={clsx(
               'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
               showDimensions
@@ -580,8 +590,8 @@ export default function Native3DCanvas({
           <button
             type="button"
             onClick={handleToggleAutoRotate}
-            title={isAutoRotate ? 'Rotation stoppen' : '360° Drehen starten'}
-            aria-label="360° Rotation"
+            title={isAutoRotate ? t('rotateStop') : t('rotateStart')}
+            aria-label={t('rotate')}
             className={clsx(
               'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
               isAutoRotate
@@ -596,8 +606,8 @@ export default function Native3DCanvas({
           <button
             type="button"
             onClick={handleToggleWireframe}
-            title="Drahtgitter / Solid"
-            aria-label="Drahtgitter"
+            title={t('wireframeToggle')}
+            aria-label={t('wireframe')}
             className={clsx(
               'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md hidden sm:flex items-center gap-1.5',
               isWireframe
@@ -612,8 +622,8 @@ export default function Native3DCanvas({
           <button
             type="button"
             onClick={handleResetCamera}
-            title="Kamera zentrieren"
-            aria-label="Kamera zentrieren"
+            title={t('center')}
+            aria-label={t('center')}
             className="p-2 sm:p-2.5 rounded-xl bg-background/80 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all"
           >
             <RotateCcw className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -623,8 +633,8 @@ export default function Native3DCanvas({
           <div className="relative group">
             <button
               type="button"
-              title="CAD-Daten exportieren"
-              aria-label="CAD Export"
+              title={t('exportCad')}
+              aria-label={t('exportCad')}
               className="p-2 sm:p-2.5 rounded-xl bg-background/80 hover:bg-card border border-card-border text-foreground text-xs font-bold shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 transition-all"
             >
               <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary" />
@@ -653,8 +663,8 @@ export default function Native3DCanvas({
           <button
             type="button"
             onClick={() => setIsFullscreen(!isFullscreen)}
-            title={isFullscreen ? 'Vollbild beenden' : 'Vollbild'}
-            aria-label="Vollbild"
+            title={isFullscreen ? t('fullscreenExit') : t('fullscreen')}
+            aria-label={t('fullscreen')}
             className="p-2 sm:p-2.5 rounded-xl bg-background/80 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all"
           >
             {isFullscreen ? (
@@ -688,7 +698,7 @@ export default function Native3DCanvas({
         <div className="absolute bottom-3 start-3 end-3 sm:bottom-4 sm:start-4 sm:end-4 z-10 flex items-center justify-between gap-2 p-2 rounded-2xl bg-background/85 backdrop-blur-md border border-card-border shadow-sm overflow-x-auto scrollbar-none">
           <div className="flex items-center gap-1.5 shrink-0 text-xs font-heading font-bold text-foreground pe-2 border-e border-card-border">
             <Sparkles className="w-3.5 h-3.5 text-primary" />
-            <span>Nennweite:</span>
+            <span>{t('nominalSize')}</span>
           </div>
 
           <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5">

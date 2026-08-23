@@ -3,6 +3,7 @@
 
 import React, { useState, useMemo } from 'react';
 import Native3DCanvas, { resolve3DProductId } from '@/components/3d/Native3DCanvas';
+import { useTranslations } from 'next-intl';
 // @ts-expect-error - registry is an untyped mjs module
 import { REGISTRY } from '@/kaqua-3d/dist/lib/registry.mjs';
 import { Link } from '@/lib/i18n/navigation';
@@ -35,6 +36,7 @@ const CATEGORIES = [
 ];
 
 export default function Native3DShowroom({ locale }: Native3DShowroomProps) {
+  const t = useTranslations('viewer3d');
   const isDe = locale === 'de';
 
   const [activeCategory, setActiveCategory] = useState('all');
@@ -99,11 +101,11 @@ export default function Native3DShowroom({ locale }: Native3DShowroomProps) {
             <div className="flex flex-wrap items-center gap-2 shrink-0">
               <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-card border border-card-border text-xs font-medium text-foreground shadow-sm">
                 <CheckCircle className="w-4 h-4 text-emerald-500" />
-                <span>100% Maßhaltig</span>
+                <span>{t('accurate')}</span>
               </div>
               <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-card border border-card-border text-xs font-medium text-foreground shadow-sm">
                 <Shield className="w-4 h-4 text-primary" />
-                <span>Made in Germany</span>
+                <span>{t('madeInGermany')}</span>
               </div>
             </div>
           </div>
@@ -164,7 +166,7 @@ export default function Native3DShowroom({ locale }: Native3DShowroomProps) {
               <div className="flex items-center justify-between text-xs text-muted-foreground px-2">
                 <span className="flex items-center gap-1.5">
                   <Box className="w-3.5 h-3.5 text-primary" />
-                  <span>360° drehbar · Zoom per Mausrad / Touch · Halbschnitt per Toolbar</span>
+                  <span>{t('hint')}</span>
                 </span>
                 <span className="font-mono text-[11px] font-semibold text-foreground/80">
                   ID: {activeItem.id}
@@ -358,14 +360,14 @@ export default function Native3DShowroom({ locale }: Native3DShowroomProps) {
 
                   <div className="pt-3 border-t border-card-border flex items-center justify-between gap-2 text-xs">
                     <span className="text-primary font-heading font-bold flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
-                      <span>In 3D laden</span>
+                      <span>{t('loadIn3d')}</span>
                       <ArrowRight className="w-3.5 h-3.5" />
                     </span>
                     <Link
                       href={getProductHref(item)}
                       onClick={(e) => e.stopPropagation()}
                       className="text-muted-foreground hover:text-foreground p-1 hover:bg-background rounded-lg transition-colors"
-                      title="Zur Produktseite"
+                      title={t('toProductPage')}
                     >
                       <ExternalLink className="w-3.5 h-3.5" />
                     </Link>
