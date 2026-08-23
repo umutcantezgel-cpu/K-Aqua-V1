@@ -24,6 +24,31 @@ import clsx from 'clsx';
 import { useTranslations } from 'next-intl';
 import { resolve3DProductId } from '@/lib/3d/resolve';
 
+/**
+ * Gibt ein Material samt seiner Texturen frei.
+ *
+ * `material.dispose()` allein reicht nicht: Es löst die Shader-Programme, lässt
+ * aber die Texturen im Grafikspeicher stehen. Die 3D-Bibliothek erzeugt je
+ * Modell über `noiseTexture()` eine 512×512-`CanvasTexture` als `roughnessMap`
+ * (siehe `public/kaqua-3d/lib/kaqua-3d-core.mjs`). Bei jedem Produkt- und
+ * Größenwechsel wird das Modell neu gebaut — ohne diese Freigabe sammeln sich
+ * die alten Texturen an, und im 3D-Studio, wo man Produkt für Produkt
+ * durchsieht, wächst der Speicher stetig.
+ *
+ * Statt einer festen Liste von Slots werden alle Eigenschaften geprüft: Kommt
+ * ein Material mit einer weiteren Map hinzu, ist sie damit automatisch erfasst.
+ */
+function disposeMaterial(material: any): void {
+  if (!material) return;
+  for (const key of Object.keys(material)) {
+    const value = material[key];
+    if (value && typeof value === 'object' && typeof value.dispose === 'function' && value.isTexture) {
+      value.dispose();
+    }
+  }
+  material.dispose();
+}
+
 export interface Native3DCanvasProps {
   productId?: string; // e.g. "fittings/socket", "pipes/k-pipe-pp-r-sdr-6", "valves/pp-r-ball-valve-ball-in-pp"
   slug?: string;
@@ -188,8 +213,19 @@ export default function Native3DCanvas({
       if (animFrameIdRef.current) cancelAnimationFrame(animFrameIdRef.current);
       resizeObserver.disconnect();
       controls.dispose();
-      renderer.dispose();
+      // `scene.clear()` trennt die Kinder nur vom Baum — Geometrien, Materialien
+      // und Texturen des zuletzt gezeigten Modells blieben im Grafikspeicher
+      // stehen. Beim Verlassen einer Produktseite ist das genau der Moment, in
+      // dem sie freigegeben gehören.
+      scene.traverse((child: any) => {
+        if (child.geometry) child.geometry.dispose();
+        if (child.material) {
+          const materials = Array.isArray(child.material) ? child.material : [child.material];
+          materials.forEach((m: any) => disposeMaterial(m));
+        }
+      });
       scene.clear();
+      renderer.dispose();
     };
   }, [autoRotateDefault]);
 
@@ -207,11 +243,8 @@ export default function Native3DCanvas({
         currentGroupRef.current.traverse((child: any) => {
           if (child.geometry) child.geometry.dispose();
           if (child.material) {
-            if (Array.isArray(child.material)) {
-              child.material.forEach((m: any) => m.dispose());
-            } else {
-              child.material.dispose();
-            }
+            const materials = Array.isArray(child.material) ? child.material : [child.material];
+            materials.forEach((m: any) => disposeMaterial(m));
           }
         });
         currentGroupRef.current = null;
