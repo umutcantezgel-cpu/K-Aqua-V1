@@ -98,7 +98,9 @@ export async function ServiceDeep() {
           <Reveal>
             <SectionHead eyebrow={t("supEyebrow")} title={t("supTitle")} lead={t("supLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
+          {/* Rückfall auf eine volle Spalte bis `sm` — sonst bleibt bei 320 px
+              eine zu schmale Spalte stehen, deren Inhalt überläuft. */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-4">
             {sup.map((s, i) => (
               <Reveal key={s.t} delay={i * 0.08}>
                 <Card className="h-full">

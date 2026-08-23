@@ -60,7 +60,12 @@ export async function TrustDeep() {
           <Reveal>
             <SectionHead eyebrow={t("instEyebrow")} title={t("instTitle")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6">
+          {/* `auto-fit` mit fester Untergrenze kippt auf schmalen Geräten: Bei
+              320 px Breite blieb eine 262-px-Spalte in einem 310-px-Container
+              stehen, während ihr Inhalt 312 px brauchte. Der Rückfall auf eine
+              volle Spalte bis `sm` löst das — dasselbe Muster nutzen
+              ProductsDeep, SolutionsDeep und AboutDeep bereits. */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6">
             {inst.map((it, i) => (
               <Reveal key={it.t} delay={i * 0.08}>
                 <Card className="h-full">

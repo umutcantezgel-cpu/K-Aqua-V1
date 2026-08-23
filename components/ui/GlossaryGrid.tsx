@@ -14,7 +14,10 @@ export function GlossaryGrid({ items, title }: GlossaryGridProps) {
   return (
     <div className="w-full">
       {title && <h3 className="text-2xl font-bold mb-6">{title}</h3>}
-      <dl className="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-6">
+      {/* 280 px Untergrenze ist die härteste im Baum. Rückfall auf eine volle
+          Spalte bis `sm`, sonst bleibt bei 320 px eine Spalte stehen, die
+          breiter ist als der Platz, der ihr bleibt. */}
+      <dl className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-6">
         {(items || []).map((item, idx) => {
           const isTuple = Array.isArray(item);
           const term = isTuple ? item[0] : item.term;

@@ -25,8 +25,12 @@ export interface StatBandProps {
 }
 
 export function StatBand({ stats }: StatBandProps) {
+  // Einspaltig bis `sm`: Bei 320–390 px bleiben in zwei Spalten rund 130–150 px
+  // Textbreite je Kachel. Beschriftungen wie „Zertifizierte Rohrleitungssysteme"
+  // stehen darin auf vier Zeilen und wirken gequetscht. Ab `sm` (640 px) sind
+  // zwei Spalten wieder angemessen.
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
       {(stats || []).map((s, i) => (
         <Reveal key={i} delay={i * 0.07} className="w-full flex">
           <Card className="h-full justify-center gap-0 w-full p-4 sm:p-6 shadow-sm rounded-2xl border border-card-border">

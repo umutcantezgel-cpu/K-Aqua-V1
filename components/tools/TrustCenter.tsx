@@ -136,7 +136,14 @@ export function TrustCenter({ data }: TrustCenterProps) {
                 <Reveal key={name} delay={idx * 0.08}>
                   <Card className="h-full flex flex-col justify-between items-start text-start p-5 sm:p-8">
                     <div className="flex flex-col gap-4 items-start w-full">
-                      <div className="flex justify-between items-start w-full gap-2">
+                      {/* `flex-wrap`: Überschrift und Akkreditierungs-Chip standen
+                          in einer Zeile, die nicht umbrechen konnte, und der Chip
+                          ist `shrink-0`. Bei 320 px brauchen „ISO 9001:2015" und
+                          „DAkkS-akkreditiert" zusammen rund 306 px in einer Karte,
+                          die 222 px breit ist — der Chip lief heraus. Jetzt rutscht
+                          er auf eine eigene Zeile, sobald der Platz fehlt; auf
+                          breiteren Geräten bleibt die Zeile wie gehabt. */}
+                      <div className="flex flex-wrap justify-between items-start w-full gap-2">
                         <h2 className="font-heading font-extrabold text-2xl text-foreground">
                           {name}
                         </h2>

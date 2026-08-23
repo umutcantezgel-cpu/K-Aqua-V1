@@ -36,7 +36,10 @@ export async function CareerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("areaEyebrow")} title={t("areaTitle")} lead={t("areaLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6">
+          {/* Rückfall auf eine volle Spalte bis `sm`: `auto-fit` mit fester
+              Untergrenze lässt sonst bei 320 px eine zu schmale Spalte stehen,
+              deren Inhalt überläuft. */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6">
             {areas.map((a, i) => (
               <Reveal key={a.t} delay={i * 0.08}>
                 <Card className="h-full">
@@ -56,7 +59,7 @@ export async function CareerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("whyEyebrow")} title={t("whyTitle")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
             {why.map((w, i) => (
               <Reveal key={w.t} delay={i * 0.07}>
                 <Card tint className="h-full">

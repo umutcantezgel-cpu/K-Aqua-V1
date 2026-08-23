@@ -78,7 +78,9 @@ export async function PartnerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("flowEyebrow")} title={t("flowTitle")} lead={t("flowLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
+          {/* Rückfall auf eine volle Spalte bis `sm` — sonst bleibt bei 320 px
+              eine zu schmale Spalte stehen, deren Inhalt überläuft. */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
             {flow.map((f, i) => (
               <Reveal key={f.t} delay={i * 0.08}>
                 <Card tint={i === 2} className="h-full">
@@ -126,7 +128,7 @@ export async function PartnerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("specEyebrow")} title={t("specTitle")} lead={t("specLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
             {spec.map((s, i) => (
               <Reveal key={s.t} delay={i * 0.08}>
                 <Card className="h-full">

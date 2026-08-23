@@ -32,7 +32,9 @@ export async function ContactDeep() {
           <Reveal>
             <SectionHead eyebrow={t("routeEyebrow")} title={t("routeTitle")} lead={t("routeLead")} />
           </Reveal>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
+          {/* Rückfall auf eine volle Spalte bis `sm` — sonst bleibt bei 320 px
+              eine zu schmale Spalte stehen, deren Inhalt überläuft. */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
             {routes.map((r, i) => (
               <Reveal key={r.t} delay={i * 0.08}>
                 <Card className="h-full">
