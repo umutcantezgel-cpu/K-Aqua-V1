@@ -114,9 +114,15 @@ export function constructMetadata({
       }
       
       if (finalTitle.length + suffix.length > MAX_TITLE_CHARS) {
-          const availableSpace = MAX_TITLE_CHARS - suffix.length - 3;
+          // An der Wortgrenze kürzen — ein Schnitt mitten im Wort ("PPR-Roh...")
+          // wirkt im Suchergebnis kaputt. "…" als ein Zeichen statt "..." spart
+          // zwei Zeichen für den eigentlichen Titel.
+          const availableSpace = MAX_TITLE_CHARS - suffix.length - 1;
           if (availableSpace > 10) {
-              finalTitle = finalTitle.substring(0, availableSpace).trim() + "...";
+              const cut = finalTitle.lastIndexOf(" ", availableSpace);
+              finalTitle = finalTitle
+                .substring(0, cut > 20 ? cut : availableSpace)
+                .replace(/[\s:,;&\-–—|]+$/, "") + "…";
           }
       }
       
