@@ -185,8 +185,8 @@ export default function Native3DCanvas({
     const canvas = canvasRef.current;
     if (!container || !canvas) return;
 
-    let width = container.clientWidth || 600;
-    let height = container.clientHeight || 450;
+    const width = container.clientWidth || 600;
+    const height = container.clientHeight || 450;
 
     // 1. Scene
     const scene = new THREE.Scene();
