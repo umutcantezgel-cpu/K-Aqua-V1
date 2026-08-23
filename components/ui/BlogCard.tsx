@@ -45,7 +45,9 @@ export function BlogCard({ post, locale }: BlogCardProps) {
       </div>
 
       <div className="mt-8 flex items-center gap-2 text-primary font-bold text-small tracking-wide relative z-10 pointer-events-none" aria-hidden="true">
-        <span className="truncate">{locale === 'de' ? `Artikel lesen: ${title}` : locale === 'ar' ? `اقرأ المقال: ${title}` : `Read article: ${title}`}</span>
+        {/* `min-w-0`: Ohne das behält ein Flex-Kind seine Inhaltsbreite
+            (`min-width: auto`) und läuft über, statt die Ellipse zu zeigen. */}
+        <span className="truncate min-w-0">{locale === 'de' ? `Artikel lesen: ${title}` : locale === 'ar' ? `اقرأ المقال: ${title}` : `Read article: ${title}`}</span>
         <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform shrink-0" />
       </div>
     </div>

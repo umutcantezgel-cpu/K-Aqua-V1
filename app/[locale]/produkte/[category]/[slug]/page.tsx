@@ -281,7 +281,7 @@ export default async function ProductDetailPage({
                   {product.category}
                 </span>
               </Reveal>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance mt-4 mb-2 animate-reveal">
+              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-balance mt-4 mb-2 animate-reveal">
                 {localizedTitle}
 
               </h1>

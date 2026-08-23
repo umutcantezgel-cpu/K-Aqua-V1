@@ -30,12 +30,12 @@ export const SectionHead = React.forwardRef<HTMLDivElement, SectionHeadProps>(
         )}
         <Tag className={clsx(
           Tag === "h1" ? "text-h1" : "text-h2",
-          "font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance"
+          "font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-balance"
         )}>
           {title}
         </Tag>
         {lead && (
-          <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
+          <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-pretty">
             {lead}
           </p>
         )}

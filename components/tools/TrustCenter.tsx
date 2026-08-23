@@ -106,14 +106,14 @@ export function TrustCenter({ data }: TrustCenterProps) {
                 <span className="text-small font-bold uppercase tracking-wider text-primary">{data.eyebrow}</span>
               </div>
             )}
-            <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-wrap-balance mt-4 mb-4">
+            <h1 className="text-h1 font-heading font-extrabold text-foreground tracking-tight leading-[1.08] text-balance mt-4 mb-4">
               {data.title1}{ENSPACE}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 {data.titleGrad}
               </span>
             </h1>
             {data.lead && (
-              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty font-body font-normal mb-2">
+              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-pretty font-body font-normal mb-2">
                 {data.lead}
               </p>
             )}

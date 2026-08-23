@@ -363,7 +363,9 @@ export default async function CategoryPage({ params }: Props) {
                           </Link>
                         </h3>
                         <div className="mt-auto flex items-center text-sm font-semibold text-primary gap-1 group-hover:gap-2 transition-all w-full" aria-hidden="true">
-                          <span className="truncate">{tc("viewDetails")}: {localizedTitle}</span>
+                          {/* `min-w-0`: Ohne das behält ein Flex-Kind seine
+                              Inhaltsbreite und läuft über, statt zu kürzen. */}
+                          <span className="truncate min-w-0">{tc("viewDetails")}: {localizedTitle}</span>
                           <ArrowRight className="w-4 h-4 shrink-0" />
                         </div>
                       </div>

@@ -181,7 +181,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
               <h2 className="text-h2 font-heading font-bold text-foreground mb-4">
                 {rfqData.doneTitle}
               </h2>
-              <p className="text-lead text-muted-foreground leading-relaxed mb-8 text-wrap-pretty">
+              <p className="text-lead text-muted-foreground leading-relaxed mb-8 text-pretty">
                 {rfqData.doneText}
               </p>
               <div className="flex gap-4 flex-wrap justify-center">
@@ -219,7 +219,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
             </span>
           </Reveal>
           <Reveal delay={0.06}>
-            <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
+            <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-balance">
               {rfqData.title1}{" "}
               <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                 {rfqData.titleGrad}
@@ -227,7 +227,7 @@ export default function RfqWizard({ rfqData }: RfqWizardProps) {
             </h1>
           </Reveal>
           <Reveal delay={0.12}>
-            <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty">
+            <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-pretty">
               <span className="sr-only" aria-hidden="true">{rfqData.title1} {rfqData.titleGrad} </span>
               {rfqData.lead}
             </p>

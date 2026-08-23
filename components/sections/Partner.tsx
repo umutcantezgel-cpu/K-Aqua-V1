@@ -57,13 +57,13 @@ export function Partner({ data }: PartnerProps) {
               <span className="inline-block px-3 py-1 text-[13px] font-bold tracking-[0.1em] text-primary bg-primary-soft rounded-full uppercase mb-4 font-body">
                 {data.eyebrow}
               </span>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
+              <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-balance">
                 {data.title1}{ENSPACE}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   {data.titleGrad}
                 </span>
               </h1>
-              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-wrap-pretty">
+              <p className="text-lead text-muted-foreground max-w-[62ch] mt-1 text-pretty">
                 {data.lead}
               </p>
               <p className="sr-only" aria-hidden="true">{data.title1} {data.titleGrad}</p>

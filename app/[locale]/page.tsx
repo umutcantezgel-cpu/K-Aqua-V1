@@ -172,7 +172,11 @@ export default async function Page({ params }: Props) {
                 <span className="font-heading font-extrabold text-4xl lg:text-5xl text-primary leading-none tracking-tight mb-3 group-hover:scale-105 transition-transform duration-300 origin-left">
                   {stat.value}
                 </span>
-                <span className="text-base lg:text-lg text-foreground/80 font-medium leading-snug text-balance hyphens-none">
+                {/* Kein `hyphens-none`: Die Kachel ist auf Mobil zweispaltig, es
+                    bleiben ~150 px Textbreite. Genau hier braucht eine
+                    Beschriftung wie „Zertifizierte Rohrleitungssysteme" die
+                    Silbentrennung — sonst überläuft sie. */}
+                <span className="text-base lg:text-lg text-foreground/80 font-medium leading-snug text-balance">
                   {stat.label}
                 </span>
               </div>

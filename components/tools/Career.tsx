@@ -131,13 +131,13 @@ export default function Career({ careerData }: CareerProps) {
               {careerData.eyebrow}
             </span>
           </Reveal>
-          <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-wrap-balance mt-4 mb-4">
+          <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-balance mt-4 mb-4">
             {careerData.title1}{" "}
             <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
               {careerData.titleGrad}
             </span>
           </h1>
-          <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-wrap-pretty font-body font-normal mb-6">
+          <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] text-pretty font-body font-normal mb-6">
             {careerData.lead}
           </p>
           <p className="sr-only" aria-hidden="true">{careerData.title1} {careerData.titleGrad}</p>
@@ -205,7 +205,7 @@ export default function Career({ careerData }: CareerProps) {
                   {CHAR_SPACE}
                   {CHAR_EURO}
                 </span>
-                <p className="text-body text-muted-foreground leading-relaxed text-wrap-pretty">
+                <p className="text-body text-muted-foreground leading-relaxed text-pretty">
                   {careerData.resultNote1}{" "}
                   <span className="font-semibold text-foreground">
                     {careerData.resultNote2.replace(
@@ -260,7 +260,7 @@ export default function Career({ careerData }: CareerProps) {
                   <div className="w-16 h-16 rounded-[20px] grid place-items-center bg-primary-soft text-primary shrink-0">
                     <Users className="w-8 h-8" />
                   </div>
-                  <p className="text-lead text-muted-foreground max-w-[50ch] text-wrap-pretty">
+                  <p className="text-lead text-muted-foreground max-w-[50ch] text-pretty">
                     {careerData.cmIntro}
                   </p>
                   <Button
@@ -305,7 +305,7 @@ export default function Career({ careerData }: CareerProps) {
                     {matchPercentage}
                     {CHAR_PERCENT}
                   </span>
-                  <p className="text-lead text-muted-foreground max-w-[50ch] text-wrap-pretty">
+                  <p className="text-lead text-muted-foreground max-w-[50ch] text-pretty">
                     {matchPercentage >= 80
                       ? careerData.resHigh
                       : matchPercentage >= 50

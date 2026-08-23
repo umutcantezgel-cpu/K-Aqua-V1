@@ -263,11 +263,30 @@ body {
   overscroll-behavior-x: none;
   max-width: 100vw;
   width: 100%;
+  /* Nur als Notbremse: bricht ein Wort erst, wenn es allein nicht in die Zeile
+     passt. KEIN `word-break: break-word` daneben — das ist ein veralteter Alias,
+     der laut CSS Text 3 zu `overflow-wrap: anywhere` auflöst und diese Zeile
+     damit überschreibt. Genau dadurch durfte jedes Flex-/Grid-Kind auf
+     Buchstabenbreite schrumpfen und deutsche Komposita wurden ohne Trennstrich
+     zerhackt. */
   overflow-wrap: break-word;
-  word-break: break-word;
+  /* Der saubere Weg für lange Komposita: Trennung am Silbenende mit Trennstrich.
+     Die Voraussetzung — <html lang> — ist gesetzt. */
+  hyphens: auto;
+  /* Verhindert Schnipsel wie „Ab-" am Zeilenende: erst ab 8 Zeichen trennen,
+     mindestens 4 davor und 3 danach stehen lassen. */
+  hyphenate-limit-chars: 8 4 3;
+  -webkit-hyphenate-limit-before: 4;
+  -webkit-hyphenate-limit-after: 3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Technische Zeichenketten — Artikelnummern, Maße, Codeschnipsel — dürfen
+   niemals getrennt werden; ein eingefügter Trennstrich verfälscht sie. */
+code, pre, kbd, samp, [class*="font-mono"] {
+  hyphens: none;
 }
 
 ::selection { background: var(--primary); color: var(--primary-foreground); }
@@ -277,6 +296,21 @@ body {
 [dir="rtl"] {
   --font-heading: var(--font-tajawal), ui-sans-serif, system-ui, sans-serif;
   --font-body: var(--font-tajawal), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Arabisch ist eine Verbindungsschrift: Ein Umbruch innerhalb eines Wortes
+   zerreißt die Ligatur und stellt die Buchstaben in der falschen Kontextform
+   dar (isoliert statt medial). Es gibt zudem kein arabisches Trennwörterbuch —
+   ausgeglichen wird dort über Kashida, nicht über Trennstriche.
+
+   Der Selektor muss `body` treffen, nicht `<html>`: `body` setzt `hyphens: auto`
+   selbst, und eine eigene Deklaration schlägt jede Vererbung von oben. Das
+   `lang`-Attribut steht auf `<html>`, deshalb der Nachfahren-Selektor.
+   `overflow-wrap: break-word` bleibt bestehen — es greift nur, wenn ein Wort
+   allein nicht in die Zeile passt, und rettet dort lateinische Artikelnummern
+   im arabischen Fließtext. */
+[lang="ar"] body, [lang="he"] body, [lang="fa"] body, [lang="ur"] body {
+  hyphens: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -459,7 +493,6 @@ body {
   letter-spacing: -0.01em;
   color: var(--foreground);
   line-height: 1.3;
-  word-break: break-word;
   white-space: normal;
 }
 
@@ -472,7 +505,6 @@ body {
   font-size: 13px;
   color: var(--muted-foreground);
   line-height: 1.35;
-  word-break: break-word;
   white-space: normal;
 }
 

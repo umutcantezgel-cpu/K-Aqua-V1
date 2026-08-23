@@ -63,9 +63,13 @@ export function EnterpriseLayers() {
         {layers.map((layer, i) => (
           <div className="k-layer-row flex items-center gap-4 p-4 rounded-xl" data-l={i + 1} key={`${layer.t}-${i}`}>
             <span className="idx flex items-center justify-center font-bold text-white shrink-0 w-8 h-8 rounded-lg bg-black/20">{i + 1}</span>
+            {/* Kein `truncate` auf diesen Spans: Auf einem inline-Element greift
+                `overflow: hidden` nicht, nur das `white-space: nowrap` daraus —
+                die Beschriftung lief also aus dem Container heraus, statt gekürzt
+                zu werden. Längere Übersetzungen (en/ar) brauchen hier den Umbruch. */}
             <div className="tt flex-1 min-w-0">
-              <span className="font-heading font-bold text-white text-base leading-tight truncate">{layer.t}</span>
-              <span className="text-sm text-white/80 leading-snug block mt-0.5 truncate">{layer.d}</span>
+              <span className="font-heading font-bold text-white text-base leading-tight block">{layer.t}</span>
+              <span className="text-sm text-white/80 leading-snug block mt-0.5">{layer.d}</span>
             </div>
           </div>
         ))}

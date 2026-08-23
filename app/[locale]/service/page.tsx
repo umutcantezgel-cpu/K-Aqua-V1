@@ -140,7 +140,10 @@ export default async function ServicePage({ params }: Props) {
                         <FileText className="w-6 h-6" />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-heading font-bold text-[17px] text-foreground leading-snug truncate">
+                        {/* Kein `truncate`: „K Aqua Produkteigenschaften" passt bei
+                            375 px nicht in die ~227 px Restbreite und wurde bisher
+                            abgeschnitten. Der Titel bricht jetzt um. */}
+                        <h3 className="font-heading font-bold text-[17px] text-foreground leading-snug text-pretty">
                           {d.t}
                         </h3>
                         <p className="text-small text-muted-foreground leading-normal mt-1 line-clamp-2">

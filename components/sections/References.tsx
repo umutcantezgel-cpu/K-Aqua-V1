@@ -82,7 +82,7 @@ export default function References({ referencesData }: ReferencesProps) {
             <Eyebrow>{referencesData.eyebrow}</Eyebrow>
           </Reveal>
           <Reveal delay={0.06}>
-            <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-wrap-balance">
+            <h1 className="text-h1 font-heading font-extrabold tracking-tight mt-4 mb-6 text-foreground leading-[1.1] text-balance">
               {referencesData.title1}{" "}
               <span className="bg-gradient-to-r from-primary to-accent-strong bg-clip-text text-transparent">
                 {referencesData.titleGrad}
