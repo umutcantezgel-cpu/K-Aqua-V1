@@ -193,8 +193,12 @@ export default async function CategoryPage({ params }: Props) {
 
   const faqTitle = tProd('labels.faqTitle') || "Häufig gestellte Fragen (FAQ)";
 
+  // `common` existiert in keiner Sprachdatei — der Eintrag war wirkungslos und
+  // ist entfernt. Der Provider bleibt stehen: Er begrenzt den Teilbaum bewusst
+  // und macht sichtbar, wo Nachrichten zu ergänzen wären, falls hier später eine
+  // übersetzte Client-Komponente einzieht.
   return (
-    <NextIntlClientProvider messages={pick(messages, 'common', 'nav')}>
+    <NextIntlClientProvider messages={pick(messages, ['nav'])}>
       <JsonLd schema={jsonLd} />
 
       {/* Category Header with Breadcrumbs & Title */}

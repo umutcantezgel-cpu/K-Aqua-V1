@@ -1,5 +1,7 @@
 import React from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import pick from "lodash/pick";
 import { Card } from "@/components/ui/Card";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Reveal } from "@/components/ui/Reveal";
@@ -190,7 +192,12 @@ export default async function KontaktPage({ params }: Props) {
                 {t("formTitle") || (locale === "de" ? "Projektanfrage & Support" : locale === "ar" ? "طلب مشروع والدعم الفني" : "Project Inquiry & Support")}
               </h2>
             </div>
-            <MultiStepContactForm locale={locale} />
+            {/* Eigener Provider für den Namensraum `multiStepForm`
+                (MultiStepContactForm.tsx:23). Er gehört nicht ins Layout — dort
+                läge er auf allen 335 Seiten, gebraucht wird er auf dieser einen. */}
+            <NextIntlClientProvider messages={pick(await getMessages(), ['multiStepForm'])}>
+              <MultiStepContactForm locale={locale} />
+            </NextIntlClientProvider>
           </div>
         </section>
 

@@ -1,5 +1,7 @@
 import React from 'react';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import type { Metadata } from 'next';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getWebApplicationGraphNode } from '@/lib/seo/schema';
@@ -59,7 +61,11 @@ export default async function ThreeDShowroomPage({ params }: Props) {
   return (
     <main className="flex flex-col w-full min-h-screen bg-background text-foreground">
       <JsonLd schema={jsonLd} />
-      <Native3DShowroom locale={locale} />
+      {/* `viewer3d` versorgt Native3DShowroom:39 und Native3DCanvas:78 — jede
+          Beschriftung, jeder Tooltip und jeder Fehlertext des Viewers. */}
+      <NextIntlClientProvider messages={pick(await getMessages(), ['viewer3d'])}>
+        <Native3DShowroom locale={locale} />
+      </NextIntlClientProvider>
     </main>
   );
 }

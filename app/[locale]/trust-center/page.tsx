@@ -1,5 +1,7 @@
 import React from "react";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale, getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import pick from "lodash/pick";
 import { TrustCenter } from "@/components/tools/TrustCenter";
 import { TrustDeep } from "@/components/sections/TrustDeep";
 import { constructMetadata } from '@/lib/seo/metadata';
@@ -84,9 +86,15 @@ export default async function TrustCenterPage({ params }: Props) {
       <div className="sr-only">
         {locale === 'de' ? 'Trust Center: Zertifikate & Sicherheit | K-Aqua' : locale === 'ar' ? 'مركز الثقة: الشهادات والأمان | K-Aqua' : 'Trust Center: Certificates & Security | K-Aqua'}
       </div>
-      <TrustCenter data={data} />
+      {/* TrustCenter zieht die vier `bim*`-Texte über `useTranslations("trust")`
+          (TrustCenter.tsx:73) und nicht über die `data`-Prop. Bis das Layout den
+          ganzen Katalog auslieferte, fiel das nicht auf. Jetzt liefert die Seite
+          den Namensraum selbst — dort, wo er gebraucht wird. */}
+      <NextIntlClientProvider messages={pick(await getMessages(), ['trust'])}>
+        <TrustCenter data={data} />
+      </NextIntlClientProvider>
       <TrustDeep />
-      
+
     </>
   );
 }

@@ -2,7 +2,9 @@ import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
 import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale, getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import pick from 'lodash/pick';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { Button } from '@/components/ui/Button';
@@ -33,6 +35,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const t = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte' });
   const tMeta = await getTranslations({ locale, namespace: 'resources.ausschreibungstexte.meta' });
   const tNav = await getTranslations({ locale, namespace: 'nav' });
+  // Diese Seite bettet weiter unten eine 3D-Live-Vorschau ein; Native3DCanvas:78
+  // liest `viewer3d` über den Client-Provider.
+  const viewer3dMessages = pick(await getMessages(), ['viewer3d']);
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
   const jsonLd = wrapGraph([
@@ -161,13 +166,15 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               className="bg-card/50 backdrop-blur-sm"
               header={
                 <div className="h-64 w-full bg-card rounded-t-2xl overflow-hidden border-b border-card-border relative">
-                  <Native3DCanvas
-                    slug="k-pipe-pp-r-sdr-6"
-                    heightClass="h-64"
-                    showControls={false}
-                    showSizeSelector={false}
-                    autoRotateDefault={true}
-                  />
+                  <NextIntlClientProvider messages={viewer3dMessages}>
+                    <Native3DCanvas
+                      slug="k-pipe-pp-r-sdr-6"
+                      heightClass="h-64"
+                      showControls={false}
+                      showSizeSelector={false}
+                      autoRotateDefault={true}
+                    />
+                  </NextIntlClientProvider>
                   <div className="absolute bottom-2 end-2 px-2.5 py-1 rounded-md bg-background/80 backdrop-blur-sm border border-card-border text-[10px] font-mono text-muted-foreground pointer-events-none z-10">
                     3D CAD Live-Vorschau
                   </div>

@@ -110,8 +110,9 @@ export default async function ProduktePage({ params }: Props) {
     ]),
   ]);
 
+  // `catalog` gibt es in keiner Sprachdatei — Eintrag entfernt.
   return (
-    <NextIntlClientProvider messages={pick(messages, ['catalog', 'catalogNotes', 'catalogExtra'])}>
+    <NextIntlClientProvider messages={pick(messages, ['catalogNotes', 'catalogExtra'])}>
     <div className="flex flex-col w-full min-h-screen bg-background">
       <JsonLd schema={jsonLd} />
 

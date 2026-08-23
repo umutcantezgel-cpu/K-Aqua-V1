@@ -76,8 +76,11 @@ export default async function FinderPage({ params }: Props) {
 
   const messages = await getMessages();
 
+  // `viewer3d` ergänzt: ProductFinder rendert Native3DCanvas in der Vorschau,
+  // das brauchte die Schlüssel und bekam sie nicht. `finderx` entfernt — es
+  // liest nur FinderDeep, eine Server-Komponente über `getTranslations`.
   return (
-    <NextIntlClientProvider messages={pick(messages, ['finder', 'finderx'])}>
+    <NextIntlClientProvider messages={pick(messages, ['finder', 'viewer3d'])}>
       <JsonLd schema={jsonLd} />
       <h1 className="sr-only">{meta[0] || "Produktfinder"}</h1>
       <Suspense fallback={

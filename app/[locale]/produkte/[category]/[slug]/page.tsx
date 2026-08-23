@@ -260,8 +260,15 @@ export default async function ProductDetailPage({
   }
   const exactSeoTitle = `${finalTitle} | K-Aqua`;
 
+  // `viewer3d` fehlte hier. Ein verschachtelter NextIntlClientProvider ersetzt
+  // die Nachrichten seines Teilbaums vollständig — er ergänzt sie nicht (siehe
+  // use-intl `IntlProvider`, der den Kontext aus den eigenen Props neu aufbaut).
+  // Native3DCanvas sitzt in diesem Teilbaum und gab deshalb auf allen
+  // Produktseiten rohe Schlüssel aus: sichtbar als Fehlertext und in jedem
+  // `aria-label`/`title` des Viewers. `common` gibt es in keiner Sprachdatei —
+  // der Eintrag war wirkungslos.
   return (
-    <NextIntlClientProvider messages={pick(messages, ['common', 'nav'])}>
+    <NextIntlClientProvider messages={pick(messages, ['nav', 'viewer3d'])}>
       <main className="flex flex-col w-full min-h-screen bg-background">
 
       <JsonLd schema={jsonLd} />
@@ -281,11 +288,15 @@ export default async function ProductDetailPage({
                   {product.category}
                 </span>
               </Reveal>
-              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-balance mt-4 mb-2 animate-reveal">
+              {/* Kein `animate-reveal` auf H1 und Lead: Die Animation startet bei
+                  `opacity: 0` und verzögert damit das LCP-Element um 0,6 s. Es
+                  ist der oberste Block der Seite — alles darunter behält den
+                  Effekt. */}
+              <h1 className="text-h1 font-heading font-extrabold tracking-tight text-foreground leading-[1.1] text-balance mt-4 mb-2">
                 {localizedTitle}
 
               </h1>
-              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6 animate-reveal">
+              <p className="text-lead text-muted-foreground leading-relaxed max-w-[64ch] font-normal mb-6">
                 {dynamicSeoH1}
               </p>
               <p className="sr-only">

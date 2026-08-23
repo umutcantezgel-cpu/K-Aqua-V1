@@ -74,6 +74,44 @@ export default async function LocaleLayout({
   // Retrieve the localized messages for the provider
   const messages = await getMessages();
 
+  // Nur die Namensräume, die der Rahmen dieses Layouts tatsächlich liest —
+  // nicht der ganze Katalog. `messages={messages}` schickte zuvor alle 586 kB
+  // an jeden Client; `de.html` wog dadurch 1.434.021 Bytes (370 kB gzip).
+  //
+  // Ein verschachtelter NextIntlClientProvider ERSETZT die Nachrichten seines
+  // Teilbaums, er ergänzt sie nicht (use-intl `IntlProvider` baut den Kontext
+  // aus den eigenen Props neu auf). Seiten mit eigenem Provider sind davon
+  // also unberührt; Seiten ohne eigenen Provider sehen genau diese Auswahl.
+  // Jeder Eintrag ist belegt:
+  //   nav                 Header:23, MegaMenu:97, SkipLink:4
+  //   groups              MegaMenu:98 (dynamisch: tGroups(sec.group))
+  //   footer              Footer:13 (ohne Argument, liest footer.*),
+  //                       FooterTrustBadges:14, CodayAttribution:8
+  //   footerSitemap       FooterSitemap:69 (dynamisch: groups.*, links.*)
+  //   cookieConsent       CookieBanner:41 (dynamisch: categories.*, entries.*)
+  //   kontaktBlocks       KontaktBlock:55 (dynamisch nach Pfad: ${key}.kicker …)
+  //   kontaktForm         KontaktBlock:29, KontaktFab:11, KontaktModal:9,
+  //                       KontaktForm:20
+  //   notFound            app/[locale]/not-found.tsx:11 — rendert in diesem Provider
+  //   toggle_theme_*      ThemeToggle:30 — TOP-LEVEL-STRINGS, keine Namensräume;
+  //                       `t(isDark ? 'toggle_theme_light' : 'toggle_theme_dark')`
+  //                       greift sie direkt an der Wurzel ab.
+  //
+  // Wer hier etwas ergänzt, das nur eine einzelne Route braucht, verteilt es auf
+  // alle 335 Seiten. Der richtige Ort dafür ist ein Provider in der Seite selbst.
+  const layoutMessages = pick(messages, [
+    'nav',
+    'groups',
+    'footer',
+    'footerSitemap',
+    'cookieConsent',
+    'kontaktBlocks',
+    'kontaktForm',
+    'notFound',
+    'toggle_theme_light',
+    'toggle_theme_dark',
+  ]);
+
   const rootKnowledgeGraph = getRootKnowledgeGraph(locale);
 
   const dir = ['ar', 'he', 'fa', 'ur'].includes(locale) ? 'rtl' : 'ltr';
@@ -96,7 +134,7 @@ export default async function LocaleLayout({
           defaultTheme="light"
           enableSystem={false}
         >
-          <NextIntlClientProvider messages={messages}>
+          <NextIntlClientProvider messages={layoutMessages}>
             <SignatureInitializer />
             <KAquaElementeInitializer />
             <SkipLink />

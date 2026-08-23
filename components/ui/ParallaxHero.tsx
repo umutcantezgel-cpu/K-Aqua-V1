@@ -53,37 +53,47 @@ export const ParallaxHero = ({
         style={{ y: yText, opacity: opacityText }}
         className="relative z-10 max-w-[1400px] mx-auto w-full px-6 flex flex-col items-center text-center gap-6"
       >
+        {/* Eyebrow, Überschrift und Beschreibung sind der Inhalt, an dem der
+            Browser das LCP misst. Sie hatten bisher `initial={{ opacity: 0 }}`
+            und standen damit im server-gerenderten HTML als
+            `style="opacity:0"` — sichtbar wurden sie erst, nachdem das Dokument
+            geparst, das Bundle geladen und hydriert war, plus 0,2 s Verzögerung
+            und 0,8 s Animation. Das LCP war damit an die Hydration gekoppelt.
+
+            Die Bewegung bleibt erhalten, nur die Deckkraft nicht: Der Text wird
+            sofort gezeichnet und fährt aus der Versetzung hoch. `transform`
+            löst kein Layout aus und geht deshalb auch nicht in den CLS ein. */}
         {eyebrow && (
-          <motion.span 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+          <motion.span
+            initial={{ y: 20 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-heading font-bold text-sm tracking-widest uppercase text-primary"
           >
             {eyebrow}
           </motion.span>
         )}
-        
-        <HeadingComponent 
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
+
+        <HeadingComponent
+          initial={{ y: 30 }}
+          animate={{ y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-5xl sm:text-6xl lg:text-8xl font-heading font-extrabold tracking-tight leading-[1.05]"
         >
           {title}
         </HeadingComponent>
-        
+
         {description && (
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ y: 20 }}
+            animate={{ y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-xl sm:text-2xl text-muted-foreground leading-relaxed mt-4 max-w-3xl"
           >
             {description}
           </motion.p>
         )}
-        
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

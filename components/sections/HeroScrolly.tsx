@@ -148,7 +148,11 @@ export default function HeroScrolly() {
   const renderHeroCopy = (ref?: React.Ref<HTMLDivElement>) => {
     return (
       <div ref={ref} className="relative z-10 w-full max-w-md lg:max-w-lg flex flex-col gap-4 sm:gap-5 text-start">
-        <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08] animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100 fill-mode-forwards">
+        {/* Ohne `fade-in`: Diese H1 ist das LCP-Element der Startseite. Mit
+            `fade-in delay-100 duration-700` war sie erst nach 0,8 s voll
+            deckend. Die Aufwärtsbewegung bleibt — sie verzögert das Zeichnen
+            nicht, weil `transform` keinen Einfluss auf die Sichtbarkeit hat. */}
+        <h1 className="text-3xl min-[375px]:text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold tracking-tight leading-[1.08] animate-in slide-in-from-bottom-4 duration-700 delay-100 fill-mode-forwards">
           {t('h1a')}{' '}
           <span className="text-primary">{t('h1b')}</span>
         </h1>
