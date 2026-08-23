@@ -1,6 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getItemListGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -45,22 +45,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const [title, description] = titles[locale] ?? titles['en']!;
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
-  const jsonLd = wrapGraph([
-    getWebPageGraphNode({
-      locale,
-      path: "/produkte/transition-fittings",
-      type: "CollectionPage",
-      name: title,
-      description,
-      breadcrumbId: `${siteUrl}/${locale}/produkte/transition-fittings#breadcrumb`,
-      mainEntityId: `${siteUrl}/#organization`,
-    }),
-    getBreadcrumbGraphNode(locale, [
-      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
-      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
-      { name: locale === "de" ? "Übergangsformteile" : locale === "ar" ? "التركيبات الانتقالية" : "Transition Fittings", path: "/produkte/transition-fittings" },
-    ]),
-  ]);
 
   const transCategory = CATALOG.find((c) => c.id === 'transition-fittings');
   const transItems = transCategory?.items || [];
@@ -252,6 +236,35 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       a: isDe ? "Ja, unsere trennbaren 2-teiligen Übergangsverschraubungen mit hochwertiger EPDM-Flachdichtung ermöglichen den schnellen Ausbau von Pumpen, Filtern oder Messgeräten für Wartungsarbeiten, ohne das Rohr zerschneiden zu müssen." : isAr ? "نعم، تتيح وصلات الـ Union القابلة للفك المزودة بحلقات EPDM فك المضخات والفلاتر بسهولة لأعمال الصيانة الدورية دون الحاجة لقطع الأنابيب." : "Yes, our demountable 2-piece unions with EPDM flat seals allow rapid equipment removal for pump or filter maintenance without cutting the piping."
     }
   ];
+
+  // Der Graph wird erst hier gebaut, nachdem Katalogliste und FAQ feststehen.
+  // Beide sind auf der Seite sichtbar und gehörten von Anfang an ausgezeichnet:
+  // Die statische Route überschattet `produkte/[category]`, wo ItemList und
+  // FAQPage bereits erzeugt wurden — die fünf größten Kategorien bekamen
+  // deshalb das dünnere Schema. `mainEntity` zeigt jetzt auf die Liste statt
+  // auf die Organisation; Hauptgegenstand einer Kategorieseite ist ihr Sortiment.
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/produkte/transition-fittings",
+      type: "CollectionPage",
+      name: title,
+      description,
+      breadcrumbId: `${siteUrl}/${locale}/produkte/transition-fittings#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/produkte/transition-fittings#itemlist`,
+      hasPartIds: [`${siteUrl}/${locale}/produkte/transition-fittings#faq`],
+    }),
+    getItemListGraphNode({ locale, category: 'transition-fittings', name: title, items: transItems }),
+    getFaqGraphNode(
+      transFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/produkte/transition-fittings`
+    ),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
+      { name: locale === "de" ? "Übergangsformteile" : locale === "ar" ? "التركيبات الانتقالية" : "Transition Fittings", path: "/produkte/transition-fittings" },
+    ]),
+  ]);
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background text-foreground selection:bg-primary/30">

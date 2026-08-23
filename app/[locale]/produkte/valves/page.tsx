@@ -1,6 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getItemListGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -45,22 +45,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const [title, description] = titles[locale] ?? titles['en']!;
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
-  const jsonLd = wrapGraph([
-    getWebPageGraphNode({
-      locale,
-      path: "/produkte/valves",
-      type: "CollectionPage",
-      name: title,
-      description,
-      breadcrumbId: `${siteUrl}/${locale}/produkte/valves#breadcrumb`,
-      mainEntityId: `${siteUrl}/#organization`,
-    }),
-    getBreadcrumbGraphNode(locale, [
-      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
-      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
-      { name: tNav('valves') || (locale === "de" ? "Ventile" : locale === "ar" ? "الصمامات" : "Valves"), path: "/produkte/valves" },
-    ]),
-  ]);
 
   const valveCategory = CATALOG.find((c) => c.id === 'valves');
   const valveItems = valveCategory?.items || [];
@@ -254,6 +238,35 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       a: isDe ? "K-Aqua Kugelhähne sind als 'Full Bore' (voller Durchgang) konstruiert. Die Bohrung in der Kugel entspricht exakt dem Rohrinnendurchmesser, sodass der Druckverlustbeiwert zeta (ζ) vernachlässigbar gering ist." : isAr ? "صُممت محابس كرة K-Aqua بتدفق كامل (Full Bore) يطابق القطر الداخلي للأنبوب، مما يجعل معامل فقدان الضغط (zeta) ضئيلاً جداً ولا يذكر." : "K-Aqua ball valves feature full bore design with ball apertures matching pipe inner diameters, keeping pressure loss coefficient zeta negligible."
     }
   ];
+
+  // Der Graph wird erst hier gebaut, nachdem Katalogliste und FAQ feststehen.
+  // Beide sind auf der Seite sichtbar und gehörten von Anfang an ausgezeichnet:
+  // Die statische Route überschattet `produkte/[category]`, wo ItemList und
+  // FAQPage bereits erzeugt wurden — die fünf größten Kategorien bekamen
+  // deshalb das dünnere Schema. `mainEntity` zeigt jetzt auf die Liste statt
+  // auf die Organisation; Hauptgegenstand einer Kategorieseite ist ihr Sortiment.
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/produkte/valves",
+      type: "CollectionPage",
+      name: title,
+      description,
+      breadcrumbId: `${siteUrl}/${locale}/produkte/valves#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/produkte/valves#itemlist`,
+      hasPartIds: [`${siteUrl}/${locale}/produkte/valves#faq`],
+    }),
+    getItemListGraphNode({ locale, category: 'valves', name: title, items: valveItems }),
+    getFaqGraphNode(
+      valvesFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/produkte/valves`
+    ),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
+      { name: tNav('valves') || (locale === "de" ? "Ventile" : locale === "ar" ? "الصمامات" : "Valves"), path: "/produkte/valves" },
+    ]),
+  ]);
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">

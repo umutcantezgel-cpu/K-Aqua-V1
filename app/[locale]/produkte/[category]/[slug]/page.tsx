@@ -12,12 +12,13 @@ import { Shield, Package, CheckCircle, Activity, ThermometerSun } from 'lucide-r
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { constructMetadata } from "@/lib/seo/metadata";
-import { wrapGraph, getWebPageGraphNode, getProductGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getProductGraphNode, getBreadcrumbGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import React from 'react';
 
 import ProductGallery from '@/components/product/ProductGallery';
+import ProductFAQ from '@/components/product/ProductFAQ';
 import Native3DCanvas from '@/components/3d/Native3DCanvas';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
@@ -232,6 +233,53 @@ export default async function ProductDetailPage({
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
   const productUrl = `${siteUrl}/${locale}/produkte/${category}/${slug}`;
 
+  // Acht FAQ-Schlüssel sind gegenüber den Produkt-Slugs verrutscht — teils ein
+  // fehlender Bindestrich, teils eine ältere Benennung. Bewusst als explizite
+  // Liste statt als unscharfer Vergleich: Ein Fuzzy-Match würde irgendwann die
+  // falschen Antworten unter das falsche Produkt schreiben.
+  const FAQ_SLUG_ALIASES: Record<string, string> = {
+    'elbow-wall-bracket-90-female-thread': 'elbowwall-bracket-90-female-thread',
+    'metal-union-male-thread-brass': 'metal-union-male-thread-yellow-brass',
+    'metal-union-female-thread-brass': 'metal-union-female-thread-yellow-brass',
+    'straight-seat-valve-green-handle': 'straight-seat-valve-upper-part-green-handle',
+    'hand-welding-machine-20-63': 'hand-welding-machine-2063-complete-set',
+    'hand-welding-machine-mirror-50-125': 'hand-welding-machine-mirror-50125',
+    'welding-machine-50-125': 'welding-machine-50125-complete-set',
+    'butt-welding-machine-90-250': 'butt-welding-machine-90250',
+  };
+
+  // 213 übersetzte Frage-Antwort-Paare zu 71 der 74 Produkte lagen in
+  // `catalogx.items.<slug>.faq` — in allen drei Sprachen fertig geschrieben und
+  // von nichts gelesen. Weder die Nutzer noch Google haben je etwas davon
+  // gesehen. Sie werden jetzt sichtbar ausgespielt und als FAQPage ausgezeichnet.
+  const catalogItems = (messages as Record<string, unknown>).catalogx as
+    | { items?: Record<string, { faq?: { q: string; a: string }[] }> }
+    | undefined;
+  const faqKey = FAQ_SLUG_ALIASES[slug] ?? slug;
+  const productFaqs = (catalogItems?.items?.[faqKey]?.faq ?? []).filter(
+    (f): f is { q: string; a: string } => Boolean(f?.q && f?.a)
+  );
+  // Die Produkt-Markdowns tragen ihre Abschnittsüberschriften auf Englisch —
+  // „Article Table" (60×), „Available Sizes" (41×), „Specifications" (12×) und
+  // vier weitere. Sie wurden auf jeder deutschen und arabischen Produktseite
+  // unübersetzt ausgegeben. Die Ersetzung greift exakt den vollständigen
+  // Überschriftentext, nicht ein Textmuster: Ein unscharfer Ersatz würde früher
+  // oder später mitten in einem Fließtext zuschlagen.
+  const contentHeadings = (tProd.has('labels.contentHeadings')
+    ? tProd.raw('labels.contentHeadings')
+    : {}) as Record<string, string>;
+  const localizedProductContent = Object.entries(contentHeadings).reduce(
+    (html, [english, translated]) =>
+      english === translated ? html : html.split(`<h2>${english}</h2>`).join(`<h2>${translated}</h2>`),
+    product.content.replace(/<h1/g, '<h2').replace(/<[/]h1>/g, '</h2>')
+  );
+
+  const faqTitle = tProd.has('labels.faqTitle')
+    ? tProd('labels.faqTitle')
+    : locale === 'de' ? 'Häufige Fragen zu diesem Produkt'
+    : locale === 'ar' ? 'أسئلة شائعة حول هذا المنتج'
+    : 'Frequently asked questions about this product';
+
   const tNav = await getTranslations({ locale, namespace: 'nav' });
   const categoryNameMap: Record<string, string> = {
     pipes: tNav('pipes'),
@@ -252,6 +300,9 @@ export default async function ProductDetailPage({
       description: finalSeoText,
       breadcrumbId: `${productUrl}#breadcrumb`,
       mainEntityId: `${productUrl}#product`,
+      // Ohne diese Referenz bliebe der FAQPage-Knoten eine Waise im Graphen:
+      // vorhanden, aber von keiner Seite als Bestandteil ausgewiesen.
+      hasPartIds: productFaqs.length > 0 ? [`${productUrl}#faq`] : undefined,
     }),
     getProductGraphNode({
       locale,
@@ -268,6 +319,10 @@ export default async function ProductDetailPage({
       { name: categoryNameMap[category] || category, path: `/produkte/${category}` },
       { name: localizedTitle, path: `/produkte/${category}/${slug}` },
     ]),
+    getFaqGraphNode(
+      productFaqs.map((f) => ({ question: f.q, answer: f.a })),
+      productUrl
+    ),
   ]);
 
   // Extract dimensions for dynamic SEO text generation to fix "low word count" and "duplicate content"
@@ -412,7 +467,7 @@ export default async function ProductDetailPage({
                     prose-tr:transition-colors hover:prose-tr:bg-primary-soft/30
                     overflow-x-auto rounded-xl border border-card-border bg-card shadow-sm p-4 sm:p-8
                   "
-                  dangerouslySetInnerHTML={{ __html: product.content.replace(/<h1/g, '<h2').replace(/<[/]h1>/g, '</h2>') }}
+                  dangerouslySetInnerHTML={{ __html: localizedProductContent }}
                 />
 
                 {/* 4. Individual SEO Technical Specs */}
@@ -491,6 +546,20 @@ export default async function ProductDetailPage({
           </div>
         </div>
       </section>
+
+      {/* Produktbezogene Fragen und Antworten. Der Inhalt lag fertig übersetzt in
+          `catalogx.items.<slug>.faq` und wurde von nichts gelesen — 213 Paare je
+          Sprache über 71 Produkte. Er ist jetzt sichtbar und als FAQPage
+          ausgezeichnet, die vom WebPage-Knoten über `hasPart` referenziert wird. */}
+      {productFaqs.length > 0 && (
+        <section className="py-20 lg:py-24 bg-background-subtle border-t border-card-border">
+          <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
+            <div className="max-w-[860px] mx-auto">
+              <ProductFAQ title={faqTitle} faqs={productFaqs} headingLevel="h2" />
+            </div>
+          </div>
+        </section>
+      )}
     </main>
     </NextIntlClientProvider>
   );

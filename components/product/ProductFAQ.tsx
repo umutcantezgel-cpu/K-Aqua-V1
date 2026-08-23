@@ -48,10 +48,18 @@ function FAQItem({ question, answer, isOpen, onToggle }: FAQItemProps) {
 interface Props {
   title: string;
   faqs: { q: string, a: string }[];
+  /**
+   * Überschriftenebene des Abschnitts. Auf der Kategorieseite sitzt der Block
+   * unter einer H2 und bleibt deshalb H3 (Vorgabewert); auf der
+   * Produktdetailseite ist er ein eigener Hauptabschnitt und muss H2 sein,
+   * damit die Abfolge H1 → H2 keine Ebene überspringt.
+   */
+  headingLevel?: 'h2' | 'h3';
 }
 
-export default function ProductFAQ({ title, faqs }: Props) {
+export default function ProductFAQ({ title, faqs, headingLevel = 'h3' }: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const Heading = headingLevel;
 
   return (
     <section className="w-full flex flex-col gap-8">
@@ -59,9 +67,9 @@ export default function ProductFAQ({ title, faqs }: Props) {
         <div className="w-10 h-10 rounded-xl bg-primary-soft flex items-center justify-center text-primary shrink-0">
           <MessageCircleQuestion className="w-5 h-5" />
         </div>
-        <h3 className="font-heading font-bold text-h3 text-foreground">
+        <Heading className="font-heading font-bold text-h3 text-foreground">
           {title}
-        </h3>
+        </Heading>
       </div>
       
       <div className="flex flex-col gap-4">

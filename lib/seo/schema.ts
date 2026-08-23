@@ -153,6 +153,7 @@ export function getWebPageGraphNode({
   description,
   breadcrumbId,
   mainEntityId,
+  hasPartIds,
 }: {
   locale: string;
   path?: string;
@@ -161,6 +162,14 @@ export function getWebPageGraphNode({
   description: string;
   breadcrumbId?: string;
   mainEntityId?: string;
+  /**
+   * `@id`s weiterer Knoten, die Bestandteil dieser Seite sind — typischerweise
+   * ein FAQPage-Block. Ohne diese Referenz stünde so ein Knoten als Waise im
+   * Graphen: vorhanden, aber von keiner Seite als Bestandteil ausgewiesen.
+   * `mainEntity` ist dafür der falsche Platz, wenn die Seite bereits eine
+   * Hauptentität hat (auf Produktseiten das Produkt).
+   */
+  hasPartIds?: string[];
 }): GraphNode {
   const domain = getBaseUrl().replace(/\/+$/, "");
   const cleanPath = path.replace(/^\/+|\/+$/g, "");
@@ -182,6 +191,9 @@ export function getWebPageGraphNode({
   }
   if (mainEntityId) {
     node.mainEntity = { "@id": mainEntityId };
+  }
+  if (hasPartIds && hasPartIds.length > 0) {
+    node.hasPart = hasPartIds.map((id) => ({ "@id": id }));
   }
 
   return node;
@@ -409,6 +421,47 @@ export function getWebApplicationGraphNode({
 /**
  * Builds an FAQPage graph node.
  */
+/**
+ * ItemList einer Produktkategorie.
+ *
+ * Hintergrund: Die statischen Segmente `produkte/pipes|fittings|valves|tools|
+ * transition-fittings` überschatten in Next.js die dynamische Route
+ * `produkte/[category]`. Nur letztere erzeugte bisher ItemList und FAQPage — sie
+ * bedient aber nur noch `accessories` und `weld-in-saddles`. Die fünf größten
+ * Kategorien bekamen dadurch das dünnere Schema. Dieser Baustein gleicht das an.
+ *
+ * `name` und `url` je Eintrag statt nur `url`: Google darf die Liste dann als
+ * benannte Sammlung lesen, nicht nur als Linkliste.
+ */
+export function getItemListGraphNode({
+  locale,
+  category,
+  name,
+  items,
+}: {
+  locale: string;
+  category: string;
+  name: string;
+  items: { slug: string; title: string }[];
+}): GraphNode | null {
+  if (!items || items.length === 0) return null;
+  const domain = getBaseUrl().replace(/\/+$/, "");
+  const categoryUrl = `${domain}/${locale}/produkte/${category}`;
+
+  return {
+    "@type": "ItemList",
+    "@id": `${categoryUrl}#itemlist`,
+    name,
+    numberOfItems: items.length,
+    itemListElement: items.map((item, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: item.title,
+      url: `${categoryUrl}/${item.slug}`,
+    })),
+  };
+}
+
 export function getFaqGraphNode(
   faqs: { question: string; answer: string }[],
   pageUrl?: string

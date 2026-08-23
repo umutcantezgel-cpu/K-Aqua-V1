@@ -1,6 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getItemListGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -45,22 +45,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const [title, description] = titles[locale] ?? titles['en']!;
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
-  const jsonLd = wrapGraph([
-    getWebPageGraphNode({
-      locale,
-      path: "/produkte/pipes",
-      type: "CollectionPage",
-      name: title,
-      description,
-      breadcrumbId: `${siteUrl}/${locale}/produkte/pipes#breadcrumb`,
-      mainEntityId: `${siteUrl}/#organization`,
-    }),
-    getBreadcrumbGraphNode(locale, [
-      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
-      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
-      { name: tNav('pipes') || (locale === "de" ? "Rohre" : locale === "ar" ? "الأنابيب" : "Pipes"), path: "/produkte/pipes" },
-    ]),
-  ]);
 
   const pipeCategory = CATALOG.find((c) => c.id === 'pipes');
   const pipeItems = pipeCategory?.items || [];
@@ -305,6 +289,35 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       a: isDe ? "Ja, unsere Rohrsysteme sind nach den strengsten internationalen Normen geprüft und zertifiziert, darunter DVGW, WRAS, NSF 61, hygiene-geprüft und 100 % frei von Schwermetallen und Weichmachern." : isAr ? "نعم، أنظمتنا معتمدة ومختبرة وفق أعلى المعايير الدولية مثل DVGW و WRAS و NSF 61، وهي خالية تماماً من المعادن الثقيلة والملدنات الضارة." : "Yes, our systems carry DVGW, WRAS, NSF 61, and international hygiene certifications, completely free of heavy metals and plasticizers."
     }
   ];
+
+  // Der Graph wird erst hier gebaut, nachdem Katalogliste und FAQ feststehen.
+  // Beide sind auf der Seite sichtbar und gehörten von Anfang an ausgezeichnet:
+  // Die statische Route überschattet `produkte/[category]`, wo ItemList und
+  // FAQPage bereits erzeugt wurden — die fünf größten Kategorien bekamen
+  // deshalb das dünnere Schema. `mainEntity` zeigt jetzt auf die Liste statt
+  // auf die Organisation; Hauptgegenstand einer Kategorieseite ist ihr Sortiment.
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/produkte/pipes",
+      type: "CollectionPage",
+      name: title,
+      description,
+      breadcrumbId: `${siteUrl}/${locale}/produkte/pipes#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/produkte/pipes#itemlist`,
+      hasPartIds: [`${siteUrl}/${locale}/produkte/pipes#faq`],
+    }),
+    getItemListGraphNode({ locale, category: 'pipes', name: title, items: pipeItems }),
+    getFaqGraphNode(
+      pipesFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/produkte/pipes`
+    ),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
+      { name: tNav('pipes') || (locale === "de" ? "Rohre" : locale === "ar" ? "الأنابيب" : "Pipes"), path: "/produkte/pipes" },
+    ]),
+  ]);
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getItemListGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -45,22 +45,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const [title, description] = titles[locale] ?? titles['en']!;
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
-  const jsonLd = wrapGraph([
-    getWebPageGraphNode({
-      locale,
-      path: "/produkte/tools",
-      type: "CollectionPage",
-      name: title,
-      description,
-      breadcrumbId: `${siteUrl}/${locale}/produkte/tools#breadcrumb`,
-      mainEntityId: `${siteUrl}/#organization`,
-    }),
-    getBreadcrumbGraphNode(locale, [
-      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
-      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
-      { name: tNav('tools') || (locale === "de" ? "Werkzeuge" : locale === "ar" ? "الأدوات" : "Tools"), path: "/produkte/tools" },
-    ]),
-  ]);
 
   const toolCategory = CATALOG.find((c) => c.id === 'tools');
   const toolItems = toolCategory?.items || [];
@@ -263,6 +247,35 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       a: isDe ? "Für Dimensionen von d125 bis d250 mm empfiehlt K-Aqua unsere mechanischen oder hydraulischen Werkstatt-Schweißmaschinen für Heizelementmuffen- oder Stumpfschweißung sowie Barcode-Elektroschweißgeräte." : isAr ? "للأقطار من d125 إلى d250 مم توصي K-Aqua بمكائن اللحام الميكانيكية أو الهيدروليكية للحام الجلب والتناكبي وأجهزة اللحام الكهربائي بالباركود." : "For d125 to d250 mm, K-Aqua offers mechanical and hydraulic bench machines for socket and butt fusion as well as barcode electrofusion units."
     }
   ];
+
+  // Der Graph wird erst hier gebaut, nachdem Katalogliste und FAQ feststehen.
+  // Beide sind auf der Seite sichtbar und gehörten von Anfang an ausgezeichnet:
+  // Die statische Route überschattet `produkte/[category]`, wo ItemList und
+  // FAQPage bereits erzeugt wurden — die fünf größten Kategorien bekamen
+  // deshalb das dünnere Schema. `mainEntity` zeigt jetzt auf die Liste statt
+  // auf die Organisation; Hauptgegenstand einer Kategorieseite ist ihr Sortiment.
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/produkte/tools",
+      type: "CollectionPage",
+      name: title,
+      description,
+      breadcrumbId: `${siteUrl}/${locale}/produkte/tools#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/produkte/tools#itemlist`,
+      hasPartIds: [`${siteUrl}/${locale}/produkte/tools#faq`],
+    }),
+    getItemListGraphNode({ locale, category: 'tools', name: title, items: toolItems }),
+    getFaqGraphNode(
+      toolsFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/produkte/tools`
+    ),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
+      { name: tNav('tools') || (locale === "de" ? "Werkzeuge" : locale === "ar" ? "الأدوات" : "Tools"), path: "/produkte/tools" },
+    ]),
+  ]);
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">

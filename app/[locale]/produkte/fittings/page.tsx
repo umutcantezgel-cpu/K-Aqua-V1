@@ -1,6 +1,6 @@
 import React from 'react';
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getItemListGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from '@/components/seo/JsonLd';
 import { SectionHead } from '@/components/ui/SectionHead';
@@ -45,22 +45,6 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   const [title, description] = titles[locale] ?? titles['en']!;
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
-  const jsonLd = wrapGraph([
-    getWebPageGraphNode({
-      locale,
-      path: "/produkte/fittings",
-      type: "CollectionPage",
-      name: title,
-      description,
-      breadcrumbId: `${siteUrl}/${locale}/produkte/fittings#breadcrumb`,
-      mainEntityId: `${siteUrl}/#organization`,
-    }),
-    getBreadcrumbGraphNode(locale, [
-      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
-      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
-      { name: tNav('fittings') || (locale === "de" ? "Fittings" : locale === "ar" ? "الوصلات" : "Fittings"), path: "/produkte/fittings" },
-    ]),
-  ]);
 
   const fittingCategory = CATALOG.find((c) => c.id === 'fittings');
   const fittingItems = fittingCategory?.items || [];
@@ -255,6 +239,35 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       a: isDe ? "Für Dimensionen von d160 bis d630 mm kommen K-Aqua Stumpfschweißmaschinen (Heizelementstumpfschweißen) oder K-Aqua Elektroschweißmuffen mit Barcode-Schweißautomaten zum Einsatz." : isAr ? "للأقطار من d160 إلى d630 مم تُستخدم مكائن اللحام التناكبي من K-Aqua أو وصلات اللحام الكهربائي المزودة بماسح باركود آلي." : "For dimensions from d160 to d630 mm, butt welding machines or electrofusion sockets with barcode scanning are utilized."
     }
   ];
+
+  // Der Graph wird erst hier gebaut, nachdem Katalogliste und FAQ feststehen.
+  // Beide sind auf der Seite sichtbar und gehörten von Anfang an ausgezeichnet:
+  // Die statische Route überschattet `produkte/[category]`, wo ItemList und
+  // FAQPage bereits erzeugt wurden — die fünf größten Kategorien bekamen
+  // deshalb das dünnere Schema. `mainEntity` zeigt jetzt auf die Liste statt
+  // auf die Organisation; Hauptgegenstand einer Kategorieseite ist ihr Sortiment.
+  const jsonLd = wrapGraph([
+    getWebPageGraphNode({
+      locale,
+      path: "/produkte/fittings",
+      type: "CollectionPage",
+      name: title,
+      description,
+      breadcrumbId: `${siteUrl}/${locale}/produkte/fittings#breadcrumb`,
+      mainEntityId: `${siteUrl}/${locale}/produkte/fittings#itemlist`,
+      hasPartIds: [`${siteUrl}/${locale}/produkte/fittings#faq`],
+    }),
+    getItemListGraphNode({ locale, category: 'fittings', name: title, items: fittingItems }),
+    getFaqGraphNode(
+      fittingsFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/produkte/fittings`
+    ),
+    getBreadcrumbGraphNode(locale, [
+      { name: tNav('home') || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
+      { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: "/produkte" },
+      { name: tNav('fittings') || (locale === "de" ? "Fittings" : locale === "ar" ? "الوصلات" : "Fittings"), path: "/produkte/fittings" },
+    ]),
+  ]);
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-background">

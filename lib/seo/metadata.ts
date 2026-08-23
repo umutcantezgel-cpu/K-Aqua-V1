@@ -214,6 +214,30 @@ export function constructMetadata({
   };
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   TOTER CODE — NICHT REAKTIVIEREN
+
+   Die sechs folgenden Bauer (getOrganizationJsonLd, getProductCatalogJsonLd,
+   getGeoCityJsonLd, getWebPageJsonLd, getArticleJsonLd, getBreadcrumbJsonLd)
+   haben null Aufrufstellen im gesamten Baum — geprüft über alle .ts/.tsx
+   außerhalb dieser Datei.
+
+   Sie stammen aus der Zeit vor `lib/seo/schema.ts`. Dort liegt das aktive
+   System: ein zusammenhängender @graph mit stabilen `@id` und wechselseitigen
+   Referenzen. Die Bauer hier erzeugen dagegen freistehende Einzelobjekte OHNE
+   `@id`.
+
+   Wer einen davon wieder einhängt, erzeugt sofort ein ZWEITES `Organization`
+   bzw. einen zweiten `BreadcrumbList` auf derselben Seite — ohne `@id` sind sie
+   für Google nicht als dieselbe Entität erkennbar, und die Seite widerspricht
+   sich selbst. Wird eine dieser Funktionen gebraucht, gehört die Ergänzung nach
+   `lib/seo/schema.ts` und nicht hierher.
+
+   Die physische Entfernung steht noch aus: Diese Datei erzeugt die Metadaten
+   JEDER Seite; ein Sammel-Löschvorgang über 270 Zeilen wurde bewusst nicht
+   riskiert, solange die Wirkung dieselbe ist. Siehe docs/keyword-matrix.md.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
 /**
  * Builds the Organization JSON-LD schema.
  */
