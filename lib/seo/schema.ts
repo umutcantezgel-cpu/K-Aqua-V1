@@ -292,6 +292,7 @@ export function getProductGraphNode({
   image,
   articleCodes,
   categoryName,
+  dimensionRange,
 }: {
   locale: string;
   category: string;
@@ -301,10 +302,32 @@ export function getProductGraphNode({
   image?: string;
   articleCodes?: string[] | string;
   categoryName?: string;
+  /** Nennweitenbereich aus der Artikeltabelle, z. B. "d20-d75". */
+  dimensionRange?: string;
 }): GraphNode {
   const domain = getBaseUrl().replace(/\/+$/, "");
   const productUrl = `${domain}/${locale}/produkte/${category}/${slug}`;
   const codes = Array.isArray(articleCodes) ? articleCodes : articleCodes ? [articleCodes] : [];
+
+  // Nur die Artikelnummern und Maße, die tatsächlich vorliegen. `sku` kann laut
+  // Schema.org nur einen Wert tragen; die übrigen vier bis sieben Nummern gingen
+  // bisher verloren, obwohl im B2B-Einkauf genau nach ihnen gesucht wird.
+  const additionalProperty: Record<string, unknown>[] = [];
+  if (codes.length > 1) {
+    additionalProperty.push({
+      "@type": "PropertyValue",
+      name: "Artikelnummern",
+      value: codes.join(", "),
+    });
+  }
+  if (dimensionRange) {
+    additionalProperty.push({
+      "@type": "PropertyValue",
+      name: "Nennweite",
+      value: dimensionRange,
+      unitCode: "MMT", // UN/CEFACT: Millimeter
+    });
+  }
 
   return {
     "@type": "Product",
@@ -312,22 +335,36 @@ export function getProductGraphNode({
     name,
     description,
     url: productUrl,
-    image: image || `${domain}/images/logo.png`,
+    // KEIN Rückfall auf das Firmenlogo. Zuvor stand dort
+    // `image || `${domain}/images/logo.png``, und da in keiner einzigen
+    // Produkt-Frontmatter ein `image` gepflegt ist, hat jede der 74
+    // Produktseiten in jeder der drei Sprachen das Firmenlogo als
+    // Produktabbildung gemeldet — 222 sachlich falsche Angaben in
+    // strukturierten Daten. Ohne echtes Produktfoto wird das Feld weggelassen.
+    // Folge: Kein Product-Rich-Result mit Bild. Das ist der ehrliche Zustand;
+    // Produktfotografie ist der fehlende Baustein, nicht die Auszeichnung.
+    ...(image ? { image } : {}),
     category: categoryName || category,
     brand: { "@id": `${domain}/#organization` },
     manufacturer: { "@id": `${domain}/#organization` },
     ...(codes.length > 0 ? { sku: codes[0], mpn: codes[0] } : {}),
+    ...(additionalProperty.length > 0 ? { additionalProperty } : {}),
     offers: {
       "@type": "Offer",
       url: productUrl,
       priceCurrency: "EUR",
-      price: "0.00",
+      // KEIN `price: "0.00"`. K-Aqua verkauft im Projektgeschäft gegen Angebot;
+      // ein ausgewiesener Preis von null ist schlicht falsch und riskiert eine
+      // Beanstandung des Rich Results. Schema.org erlaubt ein Angebot ohne
+      // Preisangabe — die `priceSpecification` benennt stattdessen die
+      // Preisfindung. Google zeigt dann keinen Preis, was dem Sachverhalt
+      // entspricht.
       availability: "https://schema.org/InStock",
       seller: { "@id": `${domain}/#organization` },
       priceSpecification: {
         "@type": "PriceSpecification",
+        priceCurrency: "EUR",
         description: "B2B Project Pricing / Upon Request",
-        valueAddedTaxIncluded: true,
       },
     },
   };

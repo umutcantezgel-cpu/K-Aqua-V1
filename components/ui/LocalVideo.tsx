@@ -28,15 +28,41 @@ export function LocalVideo({
   className = "",
   ...props
 }: LocalVideoProps) {
-  // Create VideoObject schema
+  // VideoObject.
+  //
+  // Drei Korrekturen gegenüber der vorherigen Fassung:
+  //
+  // 1. `@id` ergänzt. Ohne stabile Kennung stand der Knoten außerhalb jedes
+  //    Graphen und war weder referenzierbar noch als dieselbe Entität
+  //    erkennbar, wenn dasselbe Video auf zwei Seiten liegt.
+  // 2. `contentUrl` zeigt jetzt auf die Videodatei, `embedUrl` auf die
+  //    Einbettungsadresse. Zuvor stand in beiden Feldern dieselbe
+  //    YouTube-Zuschauer-Adresse samt Zeitmarke (`&t=20s`) — das ist weder
+  //    eine Mediendatei noch eine Einbettungsadresse.
+  // 3. `thumbnailUrl` wird aus dem Standbild abgeleitet, sofern eines gesetzt
+  //    ist. Google verlangt es für Video-Rich-Results; ohne das Feld ist der
+  //    Knoten dafür ohnehin nicht zugelassen.
+  //
+  // Offen bleibt `uploadDate`: Der Vorgabewert ist ein gesetztes Datum, kein
+  // erhobenes. Wer ein Video einbindet, sollte das tatsächliche
+  // Veröffentlichungsdatum übergeben.
+  const embedUrl = fallbackYoutubeUrl
+    ? fallbackYoutubeUrl.replace(
+        /^https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([A-Za-z0-9_-]+).*$/,
+        'https://www.youtube.com/embed/$1'
+      )
+    : undefined;
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "VideoObject",
+    "@id": `${src}#video`,
     "name": title,
     "description": description,
     "uploadDate": uploadDate,
-    "contentUrl": fallbackYoutubeUrl || src, // Keep YouTube URL as contentUrl if provided for SEO
-    "embedUrl": fallbackYoutubeUrl,
+    "contentUrl": src,
+    ...(embedUrl ? { embedUrl } : {}),
+    ...(poster ? { thumbnailUrl: poster } : {}),
   };
 
   return (

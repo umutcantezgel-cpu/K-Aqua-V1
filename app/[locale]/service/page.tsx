@@ -7,7 +7,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { FileText, Download } from "@/components/ui/icon";
 import { ServiceDeep } from "@/components/sections/ServiceDeep";
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getServiceGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getServiceGraphNode, getBreadcrumbGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -64,6 +64,9 @@ export default async function ServicePage({ params }: Props) {
   const tNav = await getTranslations({ locale, namespace: "nav" });
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  // Dieselbe Quelle, aus der ServiceDeep seinen sichtbaren FAQ-Block speist.
+  const tServiceDeep = await getTranslations({ locale, namespace: "servicex" });
+  const deepFaq = (tServiceDeep.raw("faq") ?? []) as Array<{ q: string; a: string }>;
   const jsonLd = wrapGraph([
     getWebPageGraphNode({
       locale,
@@ -73,7 +76,14 @@ export default async function ServicePage({ params }: Props) {
       description: meta[1] || "Technischer Support, Schulungen und Planungsunterstützung.",
       breadcrumbId: `${siteUrl}/${locale}/service#breadcrumb`,
       mainEntityId: `${siteUrl}/${locale}/service#service`,
+      // ServiceDeep rendert weiter unten sechs Frage-Antwort-Paare sichtbar aus,
+      // die bislang nicht ausgezeichnet waren.
+      hasPartIds: deepFaq.length > 0 ? [`${siteUrl}/${locale}/service#faq`] : undefined,
     }),
+    getFaqGraphNode(
+      deepFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/service`
+    ),
     getServiceGraphNode({
       locale,
       path: "/service",

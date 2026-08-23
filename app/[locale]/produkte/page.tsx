@@ -19,7 +19,7 @@ import type { ProductsDeepTranslations } from "@/components/sections/ProductsDee
 import { CatalogBrowser } from '@/components/tools/CatalogBrowser';
 import type { CatalogBrowserTranslations } from '@/components/tools/CatalogBrowser';
 import { constructMetadata } from "@/lib/seo/metadata";
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getFaqGraphNode } from "@/lib/seo/schema";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -87,7 +87,14 @@ export default async function ProduktePage({ params }: Props) {
       description: meta[1] || "K-Aqua Produktkatalog: Rohre, Fittings, Ventile und Schweißwerkzeuge.",
       breadcrumbId: `${siteUrl}/${locale}/produkte#breadcrumb`,
       mainEntityId: `${siteUrl}/${locale}/produkte#itemlist`,
+      // ProductsDeep rendert weiter unten sieben Frage-Antwort-Paare sichtbar
+      // aus, die bislang nicht ausgezeichnet waren.
+      hasPartIds: (productsx?.faq?.length ?? 0) > 0 ? [`${siteUrl}/${locale}/produkte#faq`] : undefined,
     }),
+    getFaqGraphNode(
+      (productsx?.faq ?? []).map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/produkte`
+    ),
     {
       "@type": "ItemList",
       "@id": `${siteUrl}/${locale}/produkte#itemlist`,

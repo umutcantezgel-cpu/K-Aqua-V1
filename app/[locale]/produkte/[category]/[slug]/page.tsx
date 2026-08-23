@@ -233,6 +233,11 @@ export default async function ProductDetailPage({
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
   const productUrl = `${siteUrl}/${locale}/produkte/${category}/${slug}`;
 
+  // Nennweitenbereich aus der Artikeltabelle — dieselbe Quelle wie im Titel
+  // (siehe generateMetadata). Er geht als `additionalProperty` in den
+  // Product-Knoten, damit die Dimension auch maschinenlesbar vorliegt.
+  const dimensionRange = typeof product.dimensionRange === 'string' ? product.dimensionRange : undefined;
+
   // Acht FAQ-Schlüssel sind gegenüber den Produkt-Slugs verrutscht — teils ein
   // fehlender Bindestrich, teils eine ältere Benennung. Bewusst als explizite
   // Liste statt als unscharfer Vergleich: Ein Fuzzy-Match würde irgendwann die
@@ -310,9 +315,12 @@ export default async function ProductDetailPage({
       slug,
       name: localizedTitle,
       description: finalSeoText,
-      image: product.image ? `${siteUrl}${product.image}` : `${siteUrl}/images/logo.png`,
+      // `product.image` ist in keiner Frontmatter gepflegt. Ohne echtes Foto
+      // bleibt das Feld leer, statt das Firmenlogo als Produktbild auszugeben.
+      image: typeof product.image === 'string' && product.image ? `${siteUrl}${product.image}` : undefined,
       articleCodes: codesArray,
       categoryName: categoryNameMap[category] || category,
+      dimensionRange,
     }),
     getBreadcrumbGraphNode(locale, [
       { name: tNav('products') || (locale === "de" ? "Produkte" : locale === "ar" ? "المنتجات" : "Products"), path: '/produkte' },

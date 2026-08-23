@@ -9,7 +9,7 @@ import { MapPin, Phone, Wrench, ArrowUpRight } from "@/components/ui/icon";
 import { ContactDeep } from "@/components/sections/ContactDeep";
 import { MultiStepContactForm } from "@/components/sections/MultiStepContactForm";
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import { SeoExpand } from "@/components/seo/SeoExpand";
@@ -53,6 +53,9 @@ export default async function KontaktPage({ params }: Props) {
   const tNav = await getTranslations({ locale, namespace: "nav" });
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  // Dieselbe Quelle, aus der ContactDeep seinen sichtbaren FAQ-Block speist.
+  const tContactDeep = await getTranslations({ locale, namespace: "contactx" });
+  const deepFaq = (tContactDeep.raw("faq") ?? []) as Array<{ q: string; a: string }>;
   const jsonLd = wrapGraph([
     getWebPageGraphNode({
       locale,
@@ -62,7 +65,14 @@ export default async function KontaktPage({ params }: Props) {
       description: meta[1] || "Treten Sie mit dem K-Aqua Vertrieb und technischen Support in Kontakt.",
       breadcrumbId: `${siteUrl}/${locale}/kontakt#breadcrumb`,
       mainEntityId: `${siteUrl}/#local-business`,
+      // ContactDeep rendert weiter unten vier Frage-Antwort-Paare sichtbar aus,
+      // die bislang nicht ausgezeichnet waren.
+      hasPartIds: deepFaq.length > 0 ? [`${siteUrl}/${locale}/kontakt#faq`] : undefined,
     }),
+    getFaqGraphNode(
+      deepFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/kontakt`
+    ),
     getBreadcrumbGraphNode(locale, [
       { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
       { name: tNav("contact") || (locale === "de" ? "Kontakt" : locale === "ar" ? "اتصل بنا" : "Contact"), path: "/kontakt" },

@@ -5,7 +5,7 @@ import pick from "lodash/pick";
 import { TrustCenter } from "@/components/tools/TrustCenter";
 import { TrustDeep } from "@/components/sections/TrustDeep";
 import { constructMetadata } from '@/lib/seo/metadata';
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from '@/lib/seo/schema';
+import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode, getFaqGraphNode } from '@/lib/seo/schema';
 import { getBaseUrl } from '@/lib/env';
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -36,6 +36,9 @@ export default async function TrustCenterPage({ params }: Props) {
   const tNav = await getTranslations({ locale, namespace: "nav" });
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
+  // Dieselbe Quelle, aus der TrustDeep seinen sichtbaren FAQ-Block speist.
+  const tTrustDeep = await getTranslations({ locale, namespace: "trustx" });
+  const deepFaq = (tTrustDeep.raw("faq") ?? []) as Array<{ q: string; a: string }>;
   const jsonLd = wrapGraph([
     getWebPageGraphNode({
       locale,
@@ -45,7 +48,14 @@ export default async function TrustCenterPage({ params }: Props) {
       description: meta[1] || "Zertifikate, Prüfberichte und Qualitätsnachweise von K-Aqua.",
       breadcrumbId: `${siteUrl}/${locale}/trust-center#breadcrumb`,
       mainEntityId: `${siteUrl}/#organization`,
+      // TrustDeep rendert weiter unten sechs Frage-Antwort-Paare sichtbar aus,
+      // die bislang nicht ausgezeichnet waren.
+      hasPartIds: deepFaq.length > 0 ? [`${siteUrl}/${locale}/trust-center#faq`] : undefined,
     }),
+    getFaqGraphNode(
+      deepFaq.map((f) => ({ question: f.q, answer: f.a })),
+      `${siteUrl}/${locale}/trust-center`
+    ),
     getBreadcrumbGraphNode(locale, [
       { name: tNav("home") || (locale === "de" ? "Startseite" : locale === "ar" ? "الرئيسية" : "Home"), path: "/" },
       { name: locale === "de" ? "Trust Center" : locale === "ar" ? "مركز الثقة" : "Trust Center", path: "/trust-center" },
