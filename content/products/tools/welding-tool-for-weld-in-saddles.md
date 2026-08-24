@@ -2,23 +2,35 @@
 title: "Welding Tool for Weld-in Saddles"
 category: "Tools"
 slug: "tools/welding-tool-for-weld-in-saddles"
-article_codes: ["AQ9850400632S","AQ98507512525","AQ98507512532","AQ98507512540","AQ98516025025","AQ98516025032","AQ98516025040","AQ98516025050"]
+article_codes: ["AQ98504006325", "AQ98507512525", "AQ98507512532", "AQ98507512540", "AQ98516025025", "AQ98516025032", "AQ98516025040", "AQ98516025050", "AQ98516025063"]
+source: "KA-Katalog_GB_06-2025, S. 115"
 ---
 
 # Welding Tool for Weld-in Saddles
 
-Specialised heating tools for welding saddle fittings onto main pipes.
+Catalogue designation: **Welding tool for weld in saddles**.  
+Heating tools for welding weld-in saddles onto the main pipe. The dimension is given as main pipe range x branch diameter.
 
-| Code             | Pipe Range (mm) | Branch d (mm) | Pack |
-|------------------|----------------|---------------|------|
-| AQ9850400632S    | 40–63          | 25            | 1    |
-| AQ98507512525    | 75–125         | 25            | 1    |
-| AQ98507512532    | 75–125         | 32            | 1    |
-| AQ98507512540    | 75–125         | 40            | 1    |
-| AQ98516025025    | 160–250        | 25            | 1    |
-| AQ98516025032    | 160–250        | 32            | 1    |
-| AQ98516025040    | 160–250        | 40            | 1    |
-| AQ98516025050    | 160–250        | 50            | 1    |
+## Article Table
+
+| Code          | d          | Pack. |
+|---------------|------------|-------|
+| AQ98504006325 | 40-63x25   | 1     |
+| AQ98507512525 | 75-125x25  | 1     |
+| AQ98507512532 | 75-125x32  | 1     |
+| AQ98507512540 | 75-125x40  | 1     |
+| AQ98516025025 | 160-250x25 | 1     |
+| AQ98516025032 | 160-250x32 | 1     |
+| AQ98516025040 | 160-250x40 | 1     |
+| AQ98516025050 | 160-250x50 | 1     |
+| AQ98516025063 | 160-250x63 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Dimension format: main pipe range x branch diameter
+- Main pipe ranges: 40–63, 75–125, 160–250
+- Branch diameters: 25, 32, 40, 50, 63
+- Packing unit: 1 per size
 
 ## SEO-CONTENT-DE
 ### Schweißwerkzeug für Einschweißsättel: Höchste Präzision in der Kunststoffrohrverbindung
@@ -35,7 +47,7 @@ Durch die exakt abgestimmten Durchmesser des Werkzeugs wird verhindert, dass sic
 
 Um allen baulichen Anforderungen und Dimensionen gerecht zu werden, bieten wir das Schweißwerkzeug für Einschweißsättel in einer Vielzahl von Größen an. Die Abmessungen beziehen sich dabei auf den Bereich des Hauptrohres (Pipe Range) und den Durchmesser des abgehenden Sattels (Branch d). In unserem Sortiment finden Sie:
 
-*   Hauptrohr 40–63 mm: Abgangsdurchmesser 25 mm (Artikel-Code AQ9850400632S). Ideal für kleinere Verteilerleitungen und Etageninstallationen.
+*   Hauptrohr 40–63 mm: Abgangsdurchmesser 25 mm (Artikel-Code AQ98504006325). Ideal für kleinere Verteilerleitungen und Etageninstallationen.
 *   Hauptrohr 75–125 mm: Abzweigdurchmesser in den Dimensionen 25 mm, 32 mm und 40 mm (Artikel-Codes AQ98507512525, AQ98507512532, AQ98507512540). Perfekt für Steigleitungen und mittelgroße Industrieanlagen.
 *   Hauptrohr 160–250 mm: Für großformatige Leitungen und Hauptverteilungen bieten wir Werkzeuge für Abgänge in 25 mm, 32 mm, 40 mm und 50 mm (Artikel-Codes AQ98516025025 bis AQ98516025050). 
 

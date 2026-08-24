@@ -2,7 +2,10 @@
 title: "PP-R End Cap"
 category: "Fittings"
 slug: "fittings/cap"
-article_codes: ["AQ30120", "AQ30125", "AQ30132", "AQ30140", "AQ30150", "AQ30163", "AQ30175"]
+article_codes: ["AQ30120", "AQ30125", "AQ30132", "AQ30140", "AQ30150", "AQ30163", "AQ30175", "AQ30190", "AQ301110", "AQ301125", "AQ301160", "AQ301200", "AQ301250", "AQ301315"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 86"
 ---
 
 # Cap
@@ -11,18 +14,33 @@ PP-R socket fusion fitting - closes off the end of a pipe.
 
 ## Article Table
 
-| Code    | d (mm) | H (mm) | L (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ30120 | 20     | 29     | 25     | 0.01        | 600  |
-| AQ30125 | 25     | 34     | 28     | 0.01        | 400  |
-| AQ30132 | 32     | 43     | 32     | 0.02        | 255  |
-| AQ30140 | 40     | 52     | 36     | 0.03        | 160  |
-| AQ30150 | 50     | 65     | 41     | 0.06        | 100  |
-| AQ30163 | 63     | 79     | 48     | 0.09        | 60   |
-| AQ30175 | 75     | 99     | 54     | 0.18        | 30   |
+| Code     | d   | D   | l  | L   | s    | kg   | Pack. |
+|----------|-----|-----|----|-----|------|------|-------|
+| AQ30120  | 20  | 29  | 25 | –   | –    | 0,01 | 600   |
+| AQ30125  | 25  | 34  | 28 | –   | –    | 0,01 | 400   |
+| AQ30132  | 32  | 43  | 32 | –   | –    | 0,02 | 255   |
+| AQ30140  | 40  | 52  | 36 | –   | –    | 0,03 | 160   |
+| AQ30150  | 50  | 65  | 41 | –   | –    | 0,06 | 100   |
+| AQ30163  | 63  | 79  | 48 | –   | –    | 0,09 | 60    |
+| AQ30175  | 75  | 99  | 54 | –   | –    | 0,18 | 30    |
+| AQ30190  | 90  | 120 | 66 | –   | –    | 0,35 | 18    |
+| AQ301110 | 110 | 148 | 79 | –   | –    | 0,59 | 10    |
+| AQ301125 | 125 | 162 | 87 | –   | –    | 0,85 | 5     |
+| **SDR 11\*** |     |     |    |     |      |      |       |
+| AQ301160 | 160 | –   | –  | 162 | 14,6 | 1,1  | 3     |
+| AQ301200 | 200 | –   | –  | 180 | 18,2 | 2    | 1     |
+| AQ301250 | 250 | –   | –  | 217 | 22,7 | 5    | 1     |
+| AQ301315 | 315 | –   | –  | 256 | 28,6 | 7,6  | 1     |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 mm
+\* SDR 11 jointing techniques: butt-fusion or electrofusion welding
+
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 – 315 mm
+- Jointing: socket fusion (d 20 – 125); SDR 11 sizes d 160 – 315: butt-fusion or electrofusion welding
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### K-Aqua PP-R Endkappe (End Cap) – Die ultimative Lösung für sichere Rohrverschlüsse

@@ -4,7 +4,10 @@ titleDE: "PP-R Rohrverschraubung"
 titleAR: "وصلة تجميع أنابيب PP-R"
 category: "Transition Fittings"
 slug: "transition-fittings/union"
-article_codes: ["AQ69E20","AQ69E25","AQ69E32","AQ69E40","AQ69E50","AQ69E63"]
+article_codes: ["AQ330A20", "AQ330A25", "AQ330A32", "AQ330A40", "AQ330A50", "AQ330A63"]
+colour: "green (PP-R)"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "EN ISO 228"]
+source: "KA-Katalog_GB_06-2025, S. 96"
 ---
 
 # Union
@@ -13,17 +16,25 @@ PP-R socket fusion union - allows disassembly of the pipe system for maintenance
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | d1 (mm) | Pack |
-|---------|--------|--------|---------|------|
-| AQ69E20 | 20     | -      | -       | 114  |
-| AQ69E25 | 25     | 137    | -       | 120  |
-| AQ69E32 | 32     | 161    | -       | 48   |
-| AQ69E40 | 40     | -      | -       | 26   |
-| AQ69E50 | 50     | 213    | -       | 17   |
-| AQ69E63 | 63     | 2½"    | -       | 8    |
+| Code     | d  | G       | D   | l  | L  | z  | l₁ | kg   | Pack. |
+|----------|----|---------|-----|----|----|----|----|------|-------|
+| AQ330A20 | 20 | 1 "     | 46  | 18 | 44 | 15 | 26 | 0,04 | 120   |
+| AQ330A25 | 25 | 1 1/4 " | 56  | 19 | 48 | 15 | 28 | 0,06 | 100   |
+| AQ330A32 | 32 | 1 1/2 " | 66  | 21 | 52 | 15 | 30 | 0,09 | 40    |
+| AQ330A40 | 40 | 2 "     | 79  | 23 | 58 | 17 | 34 | 0,14 | 30    |
+| AQ330A50 | 50 | 2 1/4 " | 87  | 26 | 66 | 19 | 39 | 0,16 | 30    |
+| AQ330A63 | 63 | 2 3/4 " | 107 | 30 | 79 | 23 | 47 | 0,27 | 10    |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R
+- Colour: green
+- Connection: socket fusion (d) on both sides, detachable via union nut
+- Union nut thread G: 1 " – 2 3/4 " (sealed by flat gasket, not on the thread)
+- Standards: DIN EN ISO 15874-3, DIN 16962, EN ISO 228
+- Socket sizes d: 20 · 25 · 32 · 40 · 50 · 63 mm
+- 6 article numbers
 
 ## SEO-CONTENT-DE
 K-Aqua PP-R Rohrverschraubung (Union): Maximale Flexibilität für Ihre Rohrleitungssysteme
@@ -35,12 +46,12 @@ Die K-Aqua PP-R Verschraubung ermöglicht die schnelle und unkomplizierte Trennu
 ### Technische Spezifikationen und Dimensionen
 
 Unsere PP-R Rohrverschraubungen sind exakt auf die Anforderungen professioneller Installateure zugeschnitten und in einer Vielzahl von Durchmessern erhältlich, um eine nahtlose Integration in jedes Rohrleitungssystem zu gewährleisten. Wir bieten die Unions in den folgenden präzisen Dimensionen (d) an:
-- 20 mm (Artikelcode: AQ69E20)
-- 25 mm (Artikelcode: AQ69E25)
-- 32 mm (Artikelcode: AQ69E32)
-- 40 mm (Artikelcode: AQ69E40)
-- 50 mm (Artikelcode: AQ69E50)
-- 63 mm (Artikelcode: AQ69E63)
+- 20 mm (Artikelcode: AQ330A20)
+- 25 mm (Artikelcode: AQ330A25)
+- 32 mm (Artikelcode: AQ330A32)
+- 40 mm (Artikelcode: AQ330A40)
+- 50 mm (Artikelcode: AQ330A50)
+- 63 mm (Artikelcode: AQ330A63)
 
 Jede dieser Verschraubungen wird durch Muffenschweißen (Socket Fusion) mit dem PP-R Rohr verbunden, was eine 100% dichte und dauerhafte Verbindung garantiert. Der homogene Materialverbund eliminiert Schwachstellen und sorgt dafür, dass das System dem hohen Druck und den Temperaturschwankungen in Kalt- und Warmwassersystemen dauerhaft standhält.
 

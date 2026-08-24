@@ -4,27 +4,44 @@ titleDE: "Muffenschweißgerät d50-d125"
 titleAR: "ماكينة لحام المواسير d50-d125"
 category: "Tools"
 slug: "tools/welding-machine-50-125"
-article_codes: ["AQ985125"]
+article_codes: ["AQ988125"]
+source: "KA-Katalog_GB_06-2025, S. 116"
 ---
 
 # Welding Machine 50–125 (Complete Set)
 
-Professional socket fusion welding machine complete set for large diameter pipes Ø 50–125 mm.
+Catalogue designation: **Welding machine 50-125 (complete set)**.  
+Socket welding machine Type AQ988125 for on-site use, suitable for polyfusion socket welding of pipes and fittings (catalogue p. 40, section 3.3 and p. 42, section 3.5).
 
-| Code     | Range (mm) | Pack |
-|----------|-----------|------|
-| AQ985125 | 50–125    | 1    |
+## Article Table
+
+| Code     | Pack. |
+|----------|-------|
+| AQ988125 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Type: AQ988125
+- Self-centering clamp system (prismatic clamps on movement slides) for automatic self-centering of pipes and fittings (catalogue p. 40 / p. 42)
+- Manual selector switch to ensure correct welding (catalogue p. 40)
+- Thermo-element with electronic temperature control (catalogue p. 40)
+- Series of coated bushes with non-stick material (catalogue p. 40)
+- Tripod to support the pipe (catalogue p. 40)
+- Delivered in a metal transport case / box (catalogue p. 40 / p. 42)
+- Power supply: 220 V, 700 W (catalogue p. 40)
+- Working range: 50–125 mm (per catalogue product designation)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Professionelles Muffenschweißgerät d50-d125 für Kunststoffrohre: Höchste Präzision und Zuverlässigkeit in der Rohrinstallation
 
-Wenn es um die professionelle und dauerhafte Verbindung von großen Kunststoffrohren in der Sanitär- und Heizungstechnik sowie in industriellen Rohrleitungssystemen geht, ist das Muffenschweißgerät d50-d125 (Artikelnummer AQ985125) die erste Wahl für Installateure, Anlagenbauer und Rohrleitungsexperten. Dieses hochspezialisierte Werkzeug wurde speziell für die anspruchsvollen Anforderungen der Verarbeitung von Rohrdurchmessern zwischen 50 mm und 125 mm entwickelt. Ob in der industriellen Fertigung, bei kommunalen Wasserversorgungsnetzen oder in der anspruchsvollen Gebäudetechnik – dieses Schweißgerät garantiert höchste Effizienz, Sicherheit und perfekte Schweißergebnisse.
+Wenn es um die professionelle und dauerhafte Verbindung von großen Kunststoffrohren in der Sanitär- und Heizungstechnik sowie in industriellen Rohrleitungssystemen geht, ist das Muffenschweißgerät d50-d125 (Artikelnummer AQ988125) die erste Wahl für Installateure, Anlagenbauer und Rohrleitungsexperten. Dieses hochspezialisierte Werkzeug wurde speziell für die anspruchsvollen Anforderungen der Verarbeitung von Rohrdurchmessern zwischen 50 mm und 125 mm entwickelt. Ob in der industriellen Fertigung, bei kommunalen Wasserversorgungsnetzen oder in der anspruchsvollen Gebäudetechnik – dieses Schweißgerät garantiert höchste Effizienz, Sicherheit und perfekte Schweißergebnisse.
 
 #### Warum ein spezialisiertes Muffenschweißgerät für große Durchmesser unverzichtbar ist
 
 Das Muffenschweißen, auch als Heizelementmuffenschweißen bekannt, ist ein bewährtes Verfahren zur homogenen und stoffschlüssigen Verbindung von thermoplastischen Kunststoffrohren und Formteilen, wie beispielsweise aus Polypropylen (PP), Polyethylen (PE) oder Polyvinylidenfluorid (PVDF). Bei großen Rohrdurchmessern von 50 mm bis 125 mm steigen die Anforderungen an das Werkzeug erheblich. Die Heizelemente müssen eine absolut gleichmäßige Wärmeverteilung über große Flächen gewährleisten, und die Temperaturregelung muss extrem präzise arbeiten, um eine Überhitzung oder unzureichende Erwärmung des Materials zu vermeiden. 
 
-Das Muffenschweißgerät d50-d125 erfüllt diese Anforderungen mit Bravour. Es zeichnet sich durch eine robuste Bauweise, eine leistungsstarke Heizplatte und eine hochmoderne Temperatursteuerung aus. Dadurch wird sichergestellt, dass die Schweißzone exakt auf die material- und durchmesserspezifische Schweißtemperatur erhitzt wird. Eine fehlerhafte Verschweißung kann bei großen Rohrleitungsdimensionen zu enormen Schäden, Leckagen und kostspieligen Reparaturen führen. Daher ist der Einsatz eines zuverlässigen und zertifizierten Schweißgeräts wie dem Modell AQ985125 für professionelle Anwender absolut unerlässlich.
+Das Muffenschweißgerät d50-d125 erfüllt diese Anforderungen mit Bravour. Es zeichnet sich durch eine robuste Bauweise, eine leistungsstarke Heizplatte und eine hochmoderne Temperatursteuerung aus. Dadurch wird sichergestellt, dass die Schweißzone exakt auf die material- und durchmesserspezifische Schweißtemperatur erhitzt wird. Eine fehlerhafte Verschweißung kann bei großen Rohrleitungsdimensionen zu enormen Schäden, Leckagen und kostspieligen Reparaturen führen. Daher ist der Einsatz eines zuverlässigen und zertifizierten Schweißgeräts wie dem Modell AQ988125 für professionelle Anwender absolut unerlässlich.
 
 #### Technische Spezifikationen und herausragende Merkmale
 
@@ -47,7 +64,7 @@ Das Einsatzspektrum des Muffenschweißgeräts d50-d125 ist äußerst vielseitig.
 
 #### Fazit: Eine Investition, die sich durch Qualität und Sicherheit auszahlt
 
-Zusammenfassend lässt sich sagen, dass das Muffenschweißgerät d50-d125 (AQ985125) eine essenzielle Investition für jeden professionellen Rohrleitungsbauer und Installateurbetrieb darstellt, der regelmäßig mit großen Kunststoffrohren arbeitet. Die Kombination aus präziser Technik, robuster Bauweise, ergonomischer Handhabung und dem umfangreichen Komplettset macht es zu einem unverzichtbaren Helfer auf jeder Baustelle. Es garantiert nicht nur normgerechte und dauerhaft dichte Schweißverbindungen, sondern trägt durch seine Zuverlässigkeit und einfache Bedienung auch maßgeblich zur Effizienzsteigerung und Kostensenkung bei Rohrinstallationsprojekten bei. Vertrauen Sie auf Qualität und Präzision, wenn es um die Verbindung großer Rohrquerschnitte geht.
+Zusammenfassend lässt sich sagen, dass das Muffenschweißgerät d50-d125 (AQ988125) eine essenzielle Investition für jeden professionellen Rohrleitungsbauer und Installateurbetrieb darstellt, der regelmäßig mit großen Kunststoffrohren arbeitet. Die Kombination aus präziser Technik, robuster Bauweise, ergonomischer Handhabung und dem umfangreichen Komplettset macht es zu einem unverzichtbaren Helfer auf jeder Baustelle. Es garantiert nicht nur normgerechte und dauerhaft dichte Schweißverbindungen, sondern trägt durch seine Zuverlässigkeit und einfache Bedienung auch maßgeblich zur Effizienzsteigerung und Kostensenkung bei Rohrinstallationsprojekten bei. Vertrauen Sie auf Qualität und Präzision, wenn es um die Verbindung großer Rohrquerschnitte geht.
 
 #### Wartung, Sicherheit und langfristige Zuverlässigkeit
 Ein weiterer wesentlicher Aspekt bei der Verwendung dieses professionellen Schweißgeräts ist die einfache Wartung und die daraus resultierende langfristige Zuverlässigkeit. Die hochwertigen Komponenten sind so konzipiert, dass sie dem harten Baustellenalltag dauerhaft standhalten. Regelmäßige Überprüfungen und die Pflege der PTFE-beschichteten Heizelemente gewährleisten stets optimale Ergebnisse und eine maximale Lebensdauer des Geräts. Zudem sind umfassende Sicherheitsmechanismen integriert, die den Anwender vor Verbrennungen und elektrischen Gefahren schützen, wodurch ein sicheres Arbeitsumfeld unter allen Bedingungen sichergestellt wird.
@@ -55,13 +72,13 @@ Ein weiterer wesentlicher Aspekt bei der Verwendung dieses professionellen Schwe
 ## SEO-CONTENT-EN
 ### Professional Socket Fusion Welding Machine d50-d125 for Plastic Pipes: Supreme Precision and Reliability in Pipe Installation
 
-When it comes to the professional and permanent connection of large plastic pipes in plumbing, heating, and industrial piping systems, the Socket Welding Machine d50-d125 (Article Code AQ985125) is the premier choice for installers, plant engineers, and piping experts. This highly specialized tool is explicitly designed to meet the demanding requirements of processing pipe diameters ranging from 50 mm up to 125 mm. Whether deployed in industrial manufacturing facilities, municipal water supply networks, or complex building services engineering, this welding machine guarantees maximum efficiency, unparalleled safety, and flawless welding results every time.
+When it comes to the professional and permanent connection of large plastic pipes in plumbing, heating, and industrial piping systems, the Socket Welding Machine d50-d125 (Article Code AQ988125) is the premier choice for installers, plant engineers, and piping experts. This highly specialized tool is explicitly designed to meet the demanding requirements of processing pipe diameters ranging from 50 mm up to 125 mm. Whether deployed in industrial manufacturing facilities, municipal water supply networks, or complex building services engineering, this welding machine guarantees maximum efficiency, unparalleled safety, and flawless welding results every time.
 
 #### Why a Specialized Socket Welding Machine for Large Diameters is Indispensable
 
 Socket fusion welding, also known as heating element socket welding, is a proven, standardized method for creating a homogeneous, cohesive joint between thermoplastic pipes and fittings—such as those made from Polypropylene (PP), Polyethylene (PE), or Polyvinylidene Fluoride (PVDF). When dealing with large pipe diameters from 50 mm to 125 mm, the demands placed on the welding tool increase exponentially. The heating elements must ensure an absolutely uniform heat distribution over extensive surface areas, and the temperature control mechanism must operate with extreme precision to prevent either the degradation (overheating) or insufficient plasticization (underheating) of the material.
 
-The Socket Welding Machine d50-d125 meets these stringent requirements effortlessly. It is characterized by its heavy-duty construction, a high-performance heating plate, and state-of-the-art temperature management electronics. This ensures that the fusion zone is heated exactly to the material- and diameter-specific welding temperature. An improper weld in large-dimension piping systems can lead to catastrophic failures, severe leaks, and highly expensive remediation work. Therefore, utilizing a reliable, certified, and precision-engineered welding machine like the AQ985125 model is absolutely vital for professional practitioners.
+The Socket Welding Machine d50-d125 meets these stringent requirements effortlessly. It is characterized by its heavy-duty construction, a high-performance heating plate, and state-of-the-art temperature management electronics. This ensures that the fusion zone is heated exactly to the material- and diameter-specific welding temperature. An improper weld in large-dimension piping systems can lead to catastrophic failures, severe leaks, and highly expensive remediation work. Therefore, utilizing a reliable, certified, and precision-engineered welding machine like the AQ988125 model is absolutely vital for professional practitioners.
 
 #### Technical Specifications and Outstanding Features
 
@@ -84,7 +101,7 @@ The application spectrum of the Socket Welding Machine d50-d125 is highly versat
 
 #### Conclusion: An Investment that Pays Off in Quality and Safety
 
-In summary, the Socket Welding Machine d50-d125 (AQ985125) represents an essential investment for any professional pipefitter, plumbing contractor, or installation company that regularly works with large thermoplastic piping systems. The combination of precise thermal engineering, robust construction, ergonomic handling, and the all-inclusive nature of the complete set makes it an indispensable asset on any job site. It not only guarantees standard-compliant and permanently leak-tight welded joints but also significantly contributes to increased efficiency and cost reduction in pipe installation projects through its reliability and ease of use. Trust in superior quality and precision when dealing with the vital connections of large pipe cross-sections.
+In summary, the Socket Welding Machine d50-d125 (AQ988125) represents an essential investment for any professional pipefitter, plumbing contractor, or installation company that regularly works with large thermoplastic piping systems. The combination of precise thermal engineering, robust construction, ergonomic handling, and the all-inclusive nature of the complete set makes it an indispensable asset on any job site. It not only guarantees standard-compliant and permanently leak-tight welded joints but also significantly contributes to increased efficiency and cost reduction in pipe installation projects through its reliability and ease of use. Trust in superior quality and precision when dealing with the vital connections of large pipe cross-sections.
 
 #### Maintenance, Safety, and Long-Term Reliability
 Another crucial aspect when utilizing this professional welding machine is its straightforward maintenance and resulting long-term reliability. The high-quality components are specifically engineered to permanently withstand the harsh realities of daily construction site environments. Regular inspections and proper care of the PTFE-coated heating elements consistently ensure optimal fusion results and maximum equipment lifespan. Additionally, comprehensive safety mechanisms are deeply integrated to protect the operator from severe burns and electrical hazards, thereby ensuring a highly secure working environment under all conditions.
@@ -92,13 +109,13 @@ Another crucial aspect when utilizing this professional welding machine is its s
 ## SEO-CONTENT-AR
 ### ماكينة لحام المواسير البلاستيكية d50-d125 الاحترافية (Socket Welding Machine): دقة وموثوقية فائقة في تركيب الأنابيب
 
-عندما يتعلق الأمر بالتوصيل الاحترافي والدائم للأنابيب البلاستيكية ذات الأقطار الكبيرة في أنظمة السباكة والتدفئة، فضلاً عن شبكات الأنابيب الصناعية، فإن ماكينة لحام المواسير d50-d125 (رمز المنتج AQ985125) هي الخيار الأول والمفضل للمقاولين، ومهندسي المصانع، وخبراء تركيب الأنابيب. تم تصميم هذه الأداة المتخصصة للغاية لتلبية المتطلبات الصارمة لمعالجة ولحام الأنابيب التي تتراوح أقطارها من 50 مم إلى 125 مم. سواء كان العمل في منشآت التصنيع الصناعي، أو شبكات إمدادات المياه البلدية، أو هندسة خدمات المباني المعقدة، فإن هذه الماكينة تضمن أقصى درجات الكفاءة، والأمان العالي، ونتائج لحام خالية من العيوب في كل مرة.
+عندما يتعلق الأمر بالتوصيل الاحترافي والدائم للأنابيب البلاستيكية ذات الأقطار الكبيرة في أنظمة السباكة والتدفئة، فضلاً عن شبكات الأنابيب الصناعية، فإن ماكينة لحام المواسير d50-d125 (رمز المنتج AQ988125) هي الخيار الأول والمفضل للمقاولين، ومهندسي المصانع، وخبراء تركيب الأنابيب. تم تصميم هذه الأداة المتخصصة للغاية لتلبية المتطلبات الصارمة لمعالجة ولحام الأنابيب التي تتراوح أقطارها من 50 مم إلى 125 مم. سواء كان العمل في منشآت التصنيع الصناعي، أو شبكات إمدادات المياه البلدية، أو هندسة خدمات المباني المعقدة، فإن هذه الماكينة تضمن أقصى درجات الكفاءة، والأمان العالي، ونتائج لحام خالية من العيوب في كل مرة.
 
 #### لماذا تعتبر ماكينة اللحام المتخصصة للأقطار الكبيرة أمراً لا غنى عنه؟
 
 لحام المواسير بالصهر (Socket fusion welding)، المعروف أيضاً باسم لحام عنصر التسخين، هو طريقة قياسية ومثبتة لإنشاء مفصل متجانس ومتماسك بين الأنابيب البلاستيكية الحرارية والوصلات - مثل تلك المصنوعة من البولي بروبيلين (PP) أو البولي إيثيلين (PE) أو فلوريد البولي فينيليدين (PVDF). عند التعامل مع الأقطار الكبيرة للأنابيب (من 50 مم إلى 125 مم)، تزداد المتطلبات المفروضة على أداة اللحام بشكل كبير. يجب أن تضمن عناصر التسخين توزيعاً منتظماً ومطلقاً للحرارة على مساحات الأسطح الكبيرة، ويجب أن تعمل آلية التحكم في درجة الحرارة بدقة متناهية لمنع تدهور المادة البلاستيكية (بسبب الحرارة الزائدة) أو عدم ذوبانها بشكل كافٍ (بسبب الحرارة المنخفضة).
 
-تلبي ماكينة اللحام d50-d125 هذه المتطلبات الصارمة بسهولة تامة. فهي تتميز ببنية شديدة التحمل، ولوحة تسخين عالية الأداء، وإلكترونيات حديثة لإدارة درجة الحرارة. وهذا يضمن تسخين منطقة اللحام بدقة إلى درجة حرارة اللحام الخاصة بالمادة والقطر. يمكن أن يؤدي اللحام غير السليم في أنظمة الأنابيب ذات الأبعاد الكبيرة إلى فشل كارثي، وتسربات خطيرة، وأعمال إصلاح باهظة التكلفة. لذلك، فإن استخدام ماكينة لحام موثوقة ومعتمدة ومصممة بدقة مثل طراز AQ985125 يعد أمراً حيوياً للغاية للممارسين المحترفين في هذا المجال.
+تلبي ماكينة اللحام d50-d125 هذه المتطلبات الصارمة بسهولة تامة. فهي تتميز ببنية شديدة التحمل، ولوحة تسخين عالية الأداء، وإلكترونيات حديثة لإدارة درجة الحرارة. وهذا يضمن تسخين منطقة اللحام بدقة إلى درجة حرارة اللحام الخاصة بالمادة والقطر. يمكن أن يؤدي اللحام غير السليم في أنظمة الأنابيب ذات الأبعاد الكبيرة إلى فشل كارثي، وتسربات خطيرة، وأعمال إصلاح باهظة التكلفة. لذلك، فإن استخدام ماكينة لحام موثوقة ومعتمدة ومصممة بدقة مثل طراز AQ988125 يعد أمراً حيوياً للغاية للممارسين المحترفين في هذا المجال.
 
 #### المواصفات الفنية والميزات البارزة
 
@@ -121,7 +138,7 @@ Another crucial aspect when utilizing this professional welding machine is its s
 
 #### الخلاصة: استثمار يؤتي ثماره من حيث الجودة والأمان والموثوقية
 
-باختصار، تمثل ماكينة لحام المواسير d50-d125 (AQ985125) استثماراً أساسياً لأي فني تركيب أنابيب محترف، أو مقاول سباكة، أو شركة تركيب تعمل بانتظام مع أنظمة الأنابيب البلاستيكية الحرارية الكبيرة. إن الجمع بين الهندسة الحرارية الدقيقة، والبنية القوية، والتعامل المريح، والطبيعة الشاملة للمجموعة الكاملة يجعلها أصلاً لا غنى عنه في أي موقع عمل. إنها لا تضمن فقط وصلات ملحومة متوافقة مع المعايير ومحكمة الغلق بشكل دائم، بل تساهم أيضاً بشكل كبير في زيادة الكفاءة وخفض التكاليف في مشاريع تركيب الأنابيب من خلال موثوقيتها وسهولة استخدامها. ثق في الجودة الفائقة والدقة العالية عند التعامل مع التوصيلات الحيوية للمقاطع العرضية للأنابيب الكبيرة.
+باختصار، تمثل ماكينة لحام المواسير d50-d125 (AQ988125) استثماراً أساسياً لأي فني تركيب أنابيب محترف، أو مقاول سباكة، أو شركة تركيب تعمل بانتظام مع أنظمة الأنابيب البلاستيكية الحرارية الكبيرة. إن الجمع بين الهندسة الحرارية الدقيقة، والبنية القوية، والتعامل المريح، والطبيعة الشاملة للمجموعة الكاملة يجعلها أصلاً لا غنى عنه في أي موقع عمل. إنها لا تضمن فقط وصلات ملحومة متوافقة مع المعايير ومحكمة الغلق بشكل دائم، بل تساهم أيضاً بشكل كبير في زيادة الكفاءة وخفض التكاليف في مشاريع تركيب الأنابيب من خلال موثوقيتها وسهولة استخدامها. ثق في الجودة الفائقة والدقة العالية عند التعامل مع التوصيلات الحيوية للمقاطع العرضية للأنابيب الكبيرة.
 
 #### الصيانة والسلامة والموثوقية على المدى الطويل
 جانب آخر حاسم عند استخدام آلة اللحام الاحترافية هذه هو سهولة صيانتها والموثوقية الناتجة على المدى الطويل. تم تصميم المكونات عالية الجودة خصيصًا لتحمل الحقائق القاسية لبيئات مواقع البناء اليومية بشكل دائم. تضمن عمليات الفحص المنتظمة والعناية المناسبة بعناصر التسخين المطلية بـ PTFE باستمرار نتائج انصهار مثالية وأقصى عمر للمعدات. بالإضافة إلى ذلك، تم دمج آليات أمان شاملة بعمق لحماية المشغل من الحروق الشديدة والمخاطر الكهربائية، وبالتالي ضمان بيئة عمل آمنة للغاية في ظل جميع الظروف.

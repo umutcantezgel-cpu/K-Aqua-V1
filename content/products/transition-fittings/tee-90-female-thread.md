@@ -2,7 +2,10 @@
 title: "Tee 90° (Female Thread)"
 category: "Transition Fittings"
 slug: "transition-fittings/tee-90-female-thread"
-article_codes: ["AQ13RP20","AQ13RP25","AQ13RP32","AQ13RP40"]
+article_codes: ["AQ130G2012", "AQ130G2512", "AQ130G2534", "AQ130G3234", "AQ130G321"]
+colour: "green (PP-R) with brass threaded insert"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
+source: "KA-Katalog_GB_06-2025, S. 99"
 ---
 
 # Tee 90° (Female Thread)
@@ -11,15 +14,24 @@ PP-R tee with two socket fusion ends and one female thread (Rp) branch outlet.
 
 ## Article Table
 
-| Code     | d (mm) | Rp Thread | Pack |
-|----------|--------|-----------|------|
-| AQ13RP20 | 20     | ½"        | -    |
-| AQ13RP25 | 25     | ¾"        | -    |
-| AQ13RP32 | 32     | 1"        | -    |
-| AQ13RP40 | 40     | 1¼"       | -    |
+| Code       | d  | Rp    | D  | l  | z  | l₁ | z₁ | kg   | Pack. |
+|------------|----|-------|----|----|----|----|----|------|-------|
+| AQ130G2012 | 20 | 1/2 " | 29 | 28 | 14 | 33 | 20 | 0,08 | 180   |
+| AQ130G2512 | 25 | 1/2 " | 35 | 31 | 16 | 37 | 24 | 0,09 | 100   |
+| AQ130G2534 | 25 | 3/4 " | 34 | 32 | 16 | 40 | 25 | 0,13 | 80    |
+| AQ130G3234 | 32 | 3/4 " | 43 | 38 | 20 | 45 | 30 | 0,15 | 60    |
+| AQ130G321  | 32 | 1 "   | 43 | 38 | 20 | 48 | 30 | 0,20 | 60    |
 
-## Available Sizes
-20 · 25 · 32 · 40 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass threaded insert
+- Colour: green (PP-R) with brass threaded insert
+- Connection: two socket fusion ends (d), female thread (Rp) branch outlet
+- Thread: Rp 1/2 " and 3/4 " and 1 "
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226
+- Socket sizes d: 20 · 25 · 32 mm
+- 5 article numbers
 
 ## SEO-CONTENT-DE
 ### Das PP-R T-Stück 90° mit Innengewinde – Perfektion in der Rohrleitungstechnik

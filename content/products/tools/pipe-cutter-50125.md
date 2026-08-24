@@ -5,15 +5,24 @@ titleAR: "قاطعة أنابيب للخدمة الشاقة d50-d125"
 category: "Tools"
 slug: "tools/pipe-cutter-50125"
 article_codes: ["AQ975125"]
+source: "KA-Katalog_GB_06-2025, S. 114"
 ---
 
 # Pipe Cutter 50–125
 
-Heavy-duty pipe cutter for PP-R pipes Ø 50–125 mm.
+Catalogue designation: **Pipe cutter 50-125**.  
+Pipe cutter for plastic pipes in the larger diameter range, used to cut the pipe square before socket fusion welding.
 
-| Code     | Range (mm) | Pack |
-|----------|-----------|------|
-| AQ975125 | 50–125    | 1    |
+## Article Table
+
+| Code     | Pack. |
+|----------|-------|
+| AQ975125 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Application: cutting PP-R pipes, working range 50–125 mm (per catalogue product designation)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Hochleistungs-Rohrabschneider für PP-R Rohre (Ø 50-125 mm)

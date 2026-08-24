@@ -4,24 +4,38 @@ titleDE: "PP-R Winkel 90° Große Dimensionen"
 titleAR: "كوع PP-R زاوية 90 درجة مقاسات كبيرة"
 category: "Fittings"
 slug: "fittings/elbow-90-large-sizes"
-article_codes: ["AQ09090", "AQ09110", "AQ09125", "AQ09160"]
+article_codes: ["AQ09090", "AQ090110", "AQ090125", "AQ090160", "AQ090200", "AQ090250", "AQ090315"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 85"
 ---
 
 # Elbow 90° Large Sizes
 
-PP-R socket fusion elbow for standard 90° directional changes for large pipe dimensions.
+PP-R socket fusion elbow for standard 90° directional changes for large pipe dimensions. Large-size section of the catalogue's "Elbow 90°" range (KA-Katalog_GB_06-2025, S. 85); the complete range d 20 – 315 mm is listed under [Elbow 90°](./elbow-90.md).
 
 ## Article Table
 
-| Code    | d (mm) | L1 (mm) | L2 (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|---------|---------|--------|-------------|------|
-| AQ09090 | 90     | -       | -       | -      | 0.80        | 5    |
-| AQ09110 | 110    | -       | -       | -      | 1.35        | 2    |
-| AQ09125 | 125    | -       | -       | -      | 1.95        | 1    |
-| AQ09160 | 160    | -       | -       | -      | 3.85        | 1    |
+| Code     | d   | D   | L   | l   | z   | s    | kg   | Pack. |
+|----------|-----|-----|-----|-----|-----|------|------|-------|
+| AQ09090  | 90  | 120 | 83  | –   | 50  | –    | 0,79 | 6     |
+| AQ090110 | 110 | 148 | 99  | –   | 62  | –    | 1,30 | 4     |
+| AQ090125 | 125 | 165 | 125 | –   | 84  | –    | 2,17 | 2     |
+| **SDR 11\*** |     |     |     |     |     |      |      |       |
+| AQ090160 | 160 | –   | –   | 143 | 238 | 14,6 | 3,2  | 1     |
+| AQ090200 | 200 | –   | –   | 153 | 262 | 18,2 | 5,7  | 1     |
+| AQ090250 | 250 | –   | –   | 133 | 292 | 22,7 | 10,4 | 1     |
+| AQ090315 | 315 | –   | –   | 154 | 370 | 28,6 | 19,6 | 1     |
 
-## Available Sizes
-90 · 110 · 125 · 160 mm
+\* SDR 11 jointing techniques: butt-fusion or electrofusion welding
+
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 90 – 315 mm
+- Jointing: socket fusion (d 90 – 125); SDR 11 sizes d 160 – 315: butt-fusion or electrofusion welding
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 Der PP-R Winkel 90° in großen Dimensionen (Large Sizes) repräsentiert eine der wichtigsten Komponenten für industrielle und großvolumige Sanitär-, Heizungs- und Klimaanlagen. Diese massiven Rohrverbindungsstücke, typischerweise in den Durchmessern 90 mm, 110 mm, 125 mm und 160 mm erhältlich, sind speziell dafür konstruiert, um signifikante Volumenströme sicher und effizient in einem 90-Grad-Winkel umzuleiten. In diesem umfassenden technischen Leitfaden gehen wir tief in die werkstoffkundlichen Eigenschaften, die hydraulischen Vorteile, die Verarbeitungstechniken und die typischen Anwendungsfelder dieser XXL-Fittings ein. Durch die Verwendung von Polypropylen Random-Copolymer (PP-R), einem bewährten thermoplastischen Kunststoff, setzen diese Winkel Maßstäbe in puncto Langlebigkeit, Druckbelastbarkeit und Korrosionsbeständigkeit. 

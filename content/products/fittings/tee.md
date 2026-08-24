@@ -4,7 +4,10 @@ titleDE: "PP-R T-Stück (Gleichschenklig)"
 titleAR: "وصلة تيه متساوية PP-R"
 category: "Fittings"
 slug: "fittings/tee"
-article_codes: ["AQ13020", "AQ13025", "AQ13032", "AQ13040", "AQ13050", "AQ13063", "AQ13075"]
+article_codes: ["AQ13020", "AQ13025", "AQ13032", "AQ13040", "AQ13050", "AQ13063", "AQ13075", "AQ13090", "AQ130110", "AQ130125", "AQ130160", "AQ130200", "AQ130250", "AQ130315"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 88"
 ---
 
 # Tee
@@ -13,18 +16,33 @@ PP-R socket fusion equal tee for branch connections.
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ13020 | 20     | -      | -      | 0.02        | 200  |
-| AQ13025 | 25     | -      | -      | 0.04        | 100  |
-| AQ13032 | 32     | -      | -      | 0.06        | 60   |
-| AQ13040 | 40     | 65     | -      | 0.09        | 36   |
-| AQ13050 | 50     | -      | -      | 0.17        | 22   |
-| AQ13063 | 63     | -      | -      | -           | -    |
-| AQ13075 | 75     | -      | -      | -           | -    |
+| Code     | d   | D   | l   | L   | l1  | z   | s    | kg   | Pack. |
+|----------|-----|-----|-----|-----|-----|-----|------|------|-------|
+| AQ13020  | 20  | 29  | 27  | 55  | 27  | 11  | –    | 0,02 | 200   |
+| AQ13025  | 25  | 35  | 32  | 62  | 31  | 13  | –    | 0,04 | 100   |
+| AQ13032  | 32  | 44  | 37  | 74  | 37  | 16  | –    | 0,06 | 60    |
+| AQ13040  | 40  | 52  | 43  | 88  | 44  | 23  | –    | 0,09 | 42    |
+| AQ13050  | 50  | 65  | 51  | 104 | 52  | 28  | –    | 0,17 | 28    |
+| AQ13063  | 63  | 84  | 62  | 124 | 62  | 34  | –    | 0,34 | 15    |
+| AQ13075  | 75  | 100 | 73  | 142 | 71  | 41  | –    | 0,54 | 12    |
+| AQ13090  | 90  | 120 | 84  | 166 | 83  | 50  | –    | 0,95 | 6     |
+| AQ130110 | 110 | 148 | 100 | 198 | 99  | 62  | –    | 1,56 | 4     |
+| AQ130125 | 125 | 165 | 125 | 250 | 124 | 78  | –    | 2,70 | 1     |
+| **SDR 11\*** |     |     |     |     |     |     |      |      |       |
+| AQ130160 | 160 | –   | 104 | –   | –   | 206 | 14,6 | 4,1  | 1     |
+| AQ130200 | 200 | –   | 124 | –   | –   | 253 | 18,2 | 7,4  | 1     |
+| AQ130250 | 250 | –   | 132 | –   | –   | 291 | 22,7 | 13,1 | 1     |
+| AQ130315 | 315 | –   | 153 | –   | –   | 351 | 28,6 | 26,5 | 1     |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 mm
+\* SDR 11 jointing techniques: butt-fusion or electrofusion welding
+
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 – 315 mm
+- Jointing: socket fusion (d 20 – 125); SDR 11 sizes d 160 – 315: butt-fusion or electrofusion welding
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 Das PP-R T-Stück (Tee Fitting) ist ein unverzichtbares Bauteil für professionelle Rohrleitungssysteme aus Polypropylen Random-Copolymer (PP-R). Dieses hochwertige Fitting, welches mittels Heizelement-Muffenschweißung (Socket Fusion) verbunden wird, ermöglicht zuverlässige und langlebige Abzweigungen in komplexen Leitungsnetzen. In der modernen Gebäudetechnik, bei industriellen Anwendungen sowie im klassischen Sanitär- und Heizungsbau spielt das PP-R T-Stück eine zentrale Rolle, da es die Verteilung von Flüssigkeiten effizient und sicher gestaltet. Bei der Planung von Rohrnetzen ist die Wahl des richtigen Abzweigs entscheidend für die Hydraulik des gesamten Systems.

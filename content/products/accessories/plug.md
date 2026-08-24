@@ -4,7 +4,8 @@ titleDE: "PP-R Rohrstopfen"
 titleAR: "سدادة أنابيب PP-R"
 category: "Accessories"
 slug: "accessories/plug"
-article_codes: ["AQ98P57"]
+article_codes: ["AQ90912"]
+source: "KA-Katalog_GB_06-2025, S. 112"
 ---
 
 # Plug
@@ -13,12 +14,15 @@ Threaded end plug - used to seal off open pipe ends or unused ports.
 
 ## Article Table
 
-| Code    | d (mm) | Rp   | Pack |
-|---------|--------|------|------|
-| AQ98P57 | -      | ½"   | 1    |
+| Code    | G      | kg   | Pack. |
+|---------|--------|------|-------|
+| AQ90912 | 1/2 "  | 0,02 | 1     |
 
-## Note
-Contact K-Aqua for additional sizes.
+## Specifications
+- Thread G: 1/2 "
+- Weight: 0,02 kg
+- Packing unit: 1
+- Use: sealing off open pipe ends or unused ports
 
 ## SEO-CONTENT-DE
 ### PP-R Rohrstopfen (PP-R Pipe Plug) – Die ultimative Lösung für den sicheren Leitungsabschluss

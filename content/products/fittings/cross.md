@@ -5,6 +5,9 @@ titleAR: "وصلة تصالب PP-R"
 category: "Fittings"
 slug: "fittings/cross"
 article_codes: ["AQ18025", "AQ18032"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 90"
 ---
 
 # Cross
@@ -13,13 +16,18 @@ PP-R socket fusion equal cross for four-way branch connections.
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ18025 | 25     | 60     | -      | 0.06        | 80   |
-| AQ18032 | 32     | 75     | 34     | 0.08        | 50   |
+| Code    | d  | L  | z  | kg   | Pack. |
+|---------|----|----|----|------|-------|
+| AQ18025 | 25 | 60 | 27 | 0,06 | 80    |
+| AQ18032 | 32 | 75 | 34 | 0,08 | 50    |
 
-## Available Sizes
-25 · 32 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 25 and 32 mm
+- Jointing: socket fusion
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 PP-R Kreuzstücke (Cross Fittings) sind unverzichtbare Komponenten in der modernen Sanitär- und Heizungsinstallation. Sie ermöglichen die effiziente und sichere Verteilung von Flüssigkeiten in vier verschiedene Richtungen und sind speziell für den Einsatz in Polypropylen-Random-Copolymer (PP-R) Rohrsystemen konzipiert. In diesem umfassenden Ratgeber erfahren Sie alles Wissenswerte über die technischen Spezifikationen, Anwendungsbereiche und die Montage von PP-R Kreuzstücken.

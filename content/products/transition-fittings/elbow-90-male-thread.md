@@ -4,7 +4,10 @@ titleDE: "PP-R Übergangswinkel 90° (Außengewinde)"
 titleAR: "كوع تحويل PP-R 90 درجة (ذكر)"
 category: "Transition Fittings"
 slug: "transition-fittings/elbow-90-male-thread"
-article_codes: ["AQ09R20","AQ09R25","AQ09R32","AQ09R40"]
+article_codes: ["AQ092G2012", "AQ092G2512", "AQ092G2534", "AQ092G321"]
+colour: "green (PP-R) with brass threaded insert"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
+source: "KA-Katalog_GB_06-2025, S. 96"
 ---
 
 # Elbow 90° (Male Thread)
@@ -13,15 +16,23 @@ PP-R elbow with socket fusion inlet and male thread (R) outlet - for transitioni
 
 ## Article Table
 
-| Code    | d (mm) | R Thread | Pack |
-|---------|--------|----------|------|
-| AQ09R20 | 20     | ½"       | -    |
-| AQ09R25 | 25     | ¾"       | -    |
-| AQ09R32 | 32     | 1"       | -    |
-| AQ09R40 | 40     | 1¼"      | -    |
+| Code       | d  | R     | D  | l  | z  | L₁ | z₁ | kg   | Pack. |
+|------------|----|-------|----|----|----|----|----|------|-------|
+| AQ092G2012 | 20 | 1/2 " | 29 | 28 | 14 | 34 | 49 | 0,09 | 180   |
+| AQ092G2512 | 25 | 1/2 " | 34 | 32 | 16 | 38 | 53 | 0,10 | 150   |
+| AQ092G2534 | 25 | 3/4 " | 34 | 32 | 16 | 40 | 56 | 0,15 | 100   |
+| AQ092G321  | 32 | 1 "   | 43 | 38 | 20 | 48 | 66 | 0,21 | 60    |
 
-## Available Sizes
-20 · 25 · 32 · 40 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass threaded insert
+- Colour: green (PP-R) with brass threaded insert
+- Connection: socket fusion (d) to male thread (R), 90°
+- Thread: R 1/2 " and 3/4 " and 1 "
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226
+- Socket sizes d: 20 · 25 · 32 mm
+- 4 article numbers
 
 ## SEO-CONTENT-DE
 ### K-Aqua PP-R Übergangswinkel 90° mit Außengewinde: Die ideale Lösung für sichere Rohrverbindungen

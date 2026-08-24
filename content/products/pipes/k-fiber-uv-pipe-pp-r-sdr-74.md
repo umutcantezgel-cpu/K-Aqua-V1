@@ -2,7 +2,10 @@
 title: "K-Fiber UV Pipe PP-R SDR 7.4"
 category: "Pipes"
 slug: "pipes/k-fiber-uv-pipe-pp-r-sdr-74"
-article_codes: ["AQ200PFUV20", "AQ200PFUV25", "AQ200PFUV32", "AQ200PFUV40", "AQ200PFUV50"]
+article_codes: ["AQ200PFUV20", "AQ200PFUV25", "AQ200PFUV32", "AQ200PFUV40", "AQ200PFUV50", "AQ200PFUV63", "AQ200PFUV75", "AQ200PFUV90", "AQ200PFUV110", "AQ200PFUV125", "AQ200PFUV160"]
+colour: "outside layer black, inside layer green"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 82"
 ---
 
 # K-Fiber UV Pipe PP-R SDR 7.4
@@ -12,17 +15,30 @@ Length: 4 m. UV-resistant outer layer for outdoor use.
 
 ## Article Table
 
-| Code          | d (mm) | s (mm) | L (mm) | Weight (kg/m) | Pack |
-|---------------|--------|--------|--------|---------------|------|
-| AQ200PFUV20   | 20     | 2.8    | 144    | 0.16          | 100  |
-| AQ200PFUV25   | 25     | 3.5    | 180    | 0.25          | 100  |
-| AQ200PFUV32   | 32     | 4.4    | 232    | 0.39          | 60   |
-| AQ200PFUV40   | 40     | 5.5    | 290    | 0.59          | 40   |
-| AQ200PFUV50   | 50     | 6.9    | 362    | 0.91          | 20   |
+| Code           | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|----------------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ200PFUV20    | 20     | 15  | 14,4    | 2,8         | 100   | 0,16          | 0,16                 |
+| AQ200PFUV25    | 25     | 20  | 18,0    | 3,5         | 100   | 0,25          | 0,25                 |
+| AQ200PFUV32    | 32     | 25  | 23,2    | 4,4         | 60    | 0,39          | 0,42                 |
+| AQ200PFUV40    | 40     | 32  | 29,0    | 5,5         | 40    | 0,59          | 0,66                 |
+| AQ200PFUV50    | 50     | 40  | 36,2    | 6,9         | 20    | 0,91          | 1,03                 |
+| AQ200PFUV63    | 63     | 50  | 45,8    | 8,6         | 20    | 1,45          | 1,63                 |
+| AQ200PFUV75    | 75     | –   | 54,4    | 10,3        | 12    | 2,06          | 2,31                 |
+| AQ200PFUV90    | 90     | 65  | 65,4    | 12,3        | 8     | 2,94          | 3,32                 |
+| AQ200PFUV110   | 110    | 80  | 79,8    | 15,1        | 4     | 4,36          | 4,97                 |
+| AQ200PFUV125   | 125    | 90  | 90,8    | 17,1        | 4     | 5,61          | 6,47                 |
+| AQ200PFUV160   | 160    | 115 | 116,2   | 21,9        | 4     | 9,09          | 10,60                |
 
 ## Specifications
-- Material: PP-R with UV-stabilised outer layer
-- Standard: SDR 7.4 / S 3.2## SEO-CONTENT-DE
+- Material: PP-R GF
+- Colour: outside layer black, inside layer green
+- Standard: SDR 7.4 / S 3.2
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 2,0 MPa
+- Max. operating pressure at 60°C: 1,0 MPa
+- Length: 4 m per bar
+
+## SEO-CONTENT-DE
 ### K-Aqua K-Fiber UV Pipe PP-R SDR 7.4: Die ultimative Lösung für UV-beständige, oberirdische und hochbeanspruchte Rohrleitungsinstallationen im Freien
 
 Die Wahl des richtigen Rohrleitungssystems ist ein kritischer Faktor für die Langlebigkeit, Sicherheit und Wirtschaftlichkeit von Bau- und Industrieprojekten. Mit dem K-Aqua K-Fiber UV Pipe aus Polypropylen Random-Copolymer (PP-R) in der Druckstufe SDR 7.4 (S 3.2) steht Ihnen ein technologisch hochmodernes Faserverbundrohr zur Verfügung, das speziell für die extremen Anforderungen von Außeninstallationen konzipiert wurde. Anders als herkömmliche Kunststoffrohre, die bei direkter Sonneneinstrahlung schnell degradieren, bietet dieses System einen integrierten, hochwirksamen UV-Schutz, der die Lebensdauer der Rohre selbst unter direkter und intensiver Sonneneinstrahlung signifikant verlängert. 

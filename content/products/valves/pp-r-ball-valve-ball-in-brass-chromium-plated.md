@@ -4,28 +4,34 @@ titleDE: "PP-R Kugelhahn (Messingkern, verchromt)"
 titleAR: "صمام PP-R (نواة نحاسية، مطلي بالكروم)"
 category: "Valves"
 slug: "valves/pp-r-ball-valve-ball-in-brass-chromium-plated"
-article_codes: ["AQ60020","AQ60025","AQ60032","AQ60040","AQ60050","AQ60063","AQ60075","AQ60090"]
+article_codes: ["AQ85020", "AQ85025", "AQ85032", "AQ85040", "AQ85050", "AQ85063", "AQ85075", "AQ85090"]
+source: "KA-Katalog_GB_06-2025, S. 107"
 ---
 
 # PP-R Valve (Brass Core, Chromium Plated)
 
+Catalogue designation: **PP-R Ball valve (Ball in brass, chromium plated)**.  
 Full-bore ball valve with chromium-plated brass ball for high-durability applications - socket fusion ends.
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ60020 | 20     | 67.5   | 64.5   | -           | 1    |
-| AQ60025 | 25     | 75     | 63     | -           | 1    |
-| AQ60032 | 32     | 90     | 46     | -           | 1    |
-| AQ60040 | 40     | 108    | 100    | -           | 1    |
-| AQ60050 | 50     | 106    | 120    | -           | 1    |
-| AQ60063 | 63     | 127    | 120    | -           | 1    |
-| AQ60075 | 75     | -      | -      | -           | 1    |
-| AQ60090 | 90     | 175    | 155    | -           | 1    |
+| Code    | d  | A    | C    | H   | L     | P  |
+|---------|----|------|------|-----|-------|----|
+| AQ85020 | 20 | 67,5 | 14,5 | 60  | 102   | 15 |
+| AQ85025 | 25 | 70,5 | 16   | 60  | 102   | 15 |
+| AQ85032 | 32 | 79,5 | 18   | 63  | 102   | 20 |
+| AQ85040 | 40 | 94   | 20,5 | 78  | 119,5 | 25 |
+| AQ85050 | 50 | 109  | 23,5 | 83  | 119,5 | 32 |
+| AQ85063 | 63 | 130  | 27,5 | 103 | 146   | 40 |
+| AQ85075 | 75 | 151  | 31   | 110 | 146   | 50 |
+| AQ85090 | 90 | 173  | 35,5 | 133 | 205   | 65 |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 mm
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: PP-R Ball valve (Ball in brass, chromium plated)
+- Ball: brass, chromium plated
+- Available sizes d: 20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 mm
+- The catalogue table states no weight and no packing unit for this article group.
 
 ## SEO-CONTENT-DE
 PP-R Kugelhahn mit verchromtem Messingkern: Der Branchenstandard für industrielle und private Rohrleitungssysteme

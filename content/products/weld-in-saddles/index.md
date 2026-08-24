@@ -13,9 +13,9 @@ PP-R saddle fittings welded directly onto an existing main pipe to create branch
 
 | Product | Thread | Main Pipe (mm) | Codes |
 |---------|--------|----------------|-------|
-| [Weld-in Saddle](./weld-in-saddle.md) | None (PP-R branch) | 40–250 | AQ150… |
-| [Weld-in Saddle (Female Thread)](./weld-in-saddle-female-thread.md) | Rp (internal) | 40–125 | AQ270S… |
-| [Weld-in Saddle (Male Thread)](./weld-in-saddle-male-thread.md) | R (external) | 40–125 | AQ243S… |
+| [Weld-in Saddle](./weld-in-saddle.md) | None (PP-R branch d1 20–63) | 40–250 | AQ130S406320–AQ130S16025063 |
+| [Weld-in Saddle (Female Thread)](./weld-in-saddle-female-thread.md) | Rp (internal) 1/2 " · 3/4 " | 40–125 | AQ270S406312–AQ270S7512534 |
+| [Weld-in Saddle (Male Thread)](./weld-in-saddle-male-thread.md) | Male 1/2 " · 3/4 " | 40–125 | AQ243S406312–AQ243S7512534 |
 
 ## Installation
 1. Weld saddle onto main pipe using the welding tool for weld-in saddles

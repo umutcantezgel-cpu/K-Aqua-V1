@@ -4,26 +4,38 @@ titleDE: "Schweißwerkzeug"
 titleAR: "أداة لحام"
 category: "Tools"
 slug: "tools/welding-tool"
-article_codes: ["AQ98220","AQ98225","AQ98232","AQ98240","AQ98250","AQ98263","AQ98275","AQ98290"]
+article_codes: ["AQ98220", "AQ98225", "AQ98232", "AQ98240", "AQ98250", "AQ98263", "AQ98275", "AQ98290", "AQ982110", "AQ982125"]
+source: "KA-Katalog_GB_06-2025, S. 115"
 ---
 
 # Welding Tool
 
-Individual socket fusion die sets (heating mandrel + socket die) for use in hand welding machines.
+Catalogue designation: **Welding tool**.  
+Coated welding bushes and mandrels (heating tools) mounted on the heating element of the hand welding machines and the socket welding machine.
 
-| Code    | d (mm) | Pack |
-|---------|--------|------|
-| AQ98220 | 20     | 1    |
-| AQ98225 | 25     | 1    |
-| AQ98232 | 32     | 1    |
-| AQ98240 | 40     | 1    |
-| AQ98250 | 50     | 1    |
-| AQ98263 | 63     | 1    |
-| AQ98275 | 75     | 1    |
-| AQ98290 | 90     | 1    |
+## Article Table
+
+| Code     | d   | Pack. |
+|----------|-----|-------|
+| AQ98220  | 20  | 1     |
+| AQ98225  | 25  | 1     |
+| AQ98232  | 32  | 1     |
+| AQ98240  | 40  | 1     |
+| AQ98250  | 50  | 1     |
+| AQ98263  | 63  | 1     |
+| AQ98275  | 75  | 1     |
+| AQ98290  | 90  | 1     |
+| AQ982110 | 110 | 1     |
+| AQ982125 | 125 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Surface: coated with non-stick material (catalogue p. 40)
+- Sizes: d 20, 25, 32, 40, 50, 63, 75, 90, 110, 125
+- Packing unit: 1 per size
 
 ## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 mm
+20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 · 110 · 125 mm
 
 ## SEO-CONTENT-DE
 ### Hochleistungs-Schweißwerkzeuge für PP-R Rohrsysteme

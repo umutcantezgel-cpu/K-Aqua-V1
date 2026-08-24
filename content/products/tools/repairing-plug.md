@@ -4,26 +4,37 @@ titleDE: "Reparaturstopfen"
 titleAR: "سدادة الإصلاح"
 category: "Tools"
 slug: "tools/repairing-plug"
-article_codes: ["AQ96557","AQ96511"]
+article_codes: ["AQ5937", "AQ59311"]
+source: "KA-Katalog_GB_06-2025, S. 116"
 ---
 
 # Repairing Plug
 
-Emergency pipe repair plug for sealing leaks in PP-R pipe systems without draining.
+Catalogue designation: **Repairing plug**.  
+PP-R plug rod used to close a drilled hole or a damaged spot in the pipe wall; it is fused in place with the matching welding tool.
 
-| Code    | d (mm) | Pack |
-|---------|--------|------|
-| AQ96557 | 75     | 1    |
-| AQ96511 | 110    | 1    |
+## Article Table
+
+| Code    | d  | Pack. |
+|---------|----|-------|
+| AQ5937  | 7  | 1     |
+| AQ59311 | 11 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Material: PP-R
+- Sizes: d 7 and d 11
+- Matching tool: Welding tool for repairing plug AQ9837 (d 7) / AQ98311 (d 11), catalogue p. 116
+- Packing unit: 1 per size
 
 ## SEO-CONTENT-DE
 ### Der ultimative Reparaturstopfen für PP-R Rohrsysteme
 Wenn Leckagen oder Schäden in bestehenden Rohrleitungssystemen auftreten, ist schnelles und effizientes Handeln gefragt. Der K-Aqua Repairing Plug (Reparaturstopfen) ist das ideale Notfallwerkzeug, um Beschädigungen in PP-R (Polypropylen Random Copolymer) Rohrsystemen professionell und dauerhaft zu reparieren, ohne dass das gesamte System entleert werden muss. Dies spart nicht nur wertvolle Zeit bei der Instandsetzung, sondern reduziert auch drastisch die Betriebsausfallzeiten von industriellen oder häuslichen Wasserversorgungssystemen.
 
 ### Technische Spezifikationen und Modellvarianten
-Unser Reparaturstopfen ist in zwei spezifischen Größen erhältlich, um die gängigsten großen Rohrdimensionen in industriellen und gewerblichen Anlagen abzudecken:
-- Modell AQ96557: Ausgelegt für einen Durchmesser von 75 mm.
-- Modell AQ96511: Ausgelegt für einen Durchmesser von 110 mm.
+Unser Reparaturstopfen ist in zwei spezifischen Größen erhältlich, um die gängigsten Bohrloch- und Schadstellendurchmesser in industriellen und gewerblichen Anlagen abzudecken:
+- Modell AQ5937: Ausgelegt für einen Stopfendurchmesser von 7 mm.
+- Modell AQ59311: Ausgelegt für einen Stopfendurchmesser von 11 mm.
 Beide Varianten werden einzeln verpackt geliefert und bestehen aus hochwertigen Materialien, die eine sichere, druckbeständige Abdichtung gewährleisten. Die Konstruktion ist darauf ausgelegt, hohen Drücken und den thermischen Belastungen von Warm- und Kaltwassersystemen standzuhalten.
 
 ### Warum ein Reparaturstopfen ohne Systementleerung unverzichtbar ist
@@ -59,9 +70,9 @@ Um die höchste Zuverlässigkeit und langfristige Dichtheit des gesamten Systems
 When leaks or damages occur in existing piping systems, rapid and efficient action is crucial. The K-Aqua Repairing Plug is the ideal emergency tool designed to professionally and permanently repair damages in PP-R (Polypropylene Random Copolymer) piping systems without the need to drain the entire system. This not only saves valuable time during the repair process but also drastically reduces operational downtime for industrial, commercial, or domestic water supply systems.
 
 ### Technical Specifications and Model Variants
-Our repairing plug is available in two specific sizes to cover the most common large pipe dimensions used in industrial and commercial installations:
-- Model AQ96557: Designed for a diameter of 75 mm.
-- Model AQ96511: Designed for a diameter of 110 mm.
+Our repairing plug is available in two specific sizes to cover the most common drill hole and damage diameters found in industrial and commercial installations:
+- Model AQ5937: Designed for a plug diameter of 7 mm.
+- Model AQ59311: Designed for a plug diameter of 11 mm.
 Both variants are supplied in single packs and are manufactured from high-quality materials that ensure a secure, pressure-resistant seal. The robust construction is engineered to withstand high pressures and the thermal stresses of both hot and cold water distribution systems.
 
 ### Why a Repairing Plug Without System Draining is Indispensable
@@ -97,9 +108,9 @@ To ensure the utmost reliability and long-term leak tightness of the entire syst
 عند حدوث تسربات أو أضرار في أنظمة الأنابيب الحالية، فإن التدخل السريع والفعال يعد أمراً بالغ الأهمية. تعتبر سدادة الإصلاح (Repairing Plug) من K-Aqua الأداة المثالية لحالات الطوارئ، حيث تم تصميمها لإصلاح الأضرار في أنظمة أنابيب البولي بروبيلين العشوائي (PP-R) بشكل احترافي ودائم دون الحاجة إلى تفريغ النظام بأكمله. هذا لا يوفر فقط وقتاً ثميناً أثناء عملية الإصلاح، ولكنه يقلل أيضاً بشكل كبير من فترات التوقف التشغيلي لأنظمة إمدادات المياه الصناعية أو التجارية أو المنزلية.
 
 ### المواصفات الفنية وخيارات الطرازات
-تتوفر سدادة الإصلاح لدينا بحجمين محددين لتغطية أبعاد الأنابيب الكبيرة الأكثر شيوعاً المستخدمة في التركيبات الصناعية والتجارية:
-- الطراز AQ96557: مصمم لقطر 75 مم.
-- الطراز AQ96511: مصمم لقطر 110 مم.
+تتوفر سدادة الإصلاح لدينا بحجمين محددين لتغطية أقطار الثقوب ومواضع الضرر الأكثر شيوعاً في التركيبات الصناعية والتجارية:
+- الطراز AQ5937: مصمم لقطر سدادة 7 مم.
+- الطراز AQ59311: مصمم لقطر سدادة 11 مم.
 يتم توفير كلا الطرازين في عبوات فردية ومصنعين من مواد عالية الجودة تضمن إحكاماً آمناً ومقاوماً للضغط. تم تصميم البنية القوية لتحمل الضغوط العالية والإجهاد الحراري في أنظمة توزيع المياه الساخنة والباردة.
 
 ### لماذا تعتبر سدادة الإصلاح بدون تفريغ النظام أمراً لا غنى عنه؟

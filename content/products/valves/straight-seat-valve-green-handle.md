@@ -4,18 +4,28 @@ titleDE: "Geradsitzventil (Oberteil)"
 titleAR: "صمام مقعد مستقيم (الجزء العلوي)"
 category: "Valves"
 slug: "valves/straight-seat-valve-green-handle"
-article_codes: ["AQ62591"]
+article_codes: ["AQ5991"]
+source: "KA-Katalog_GB_06-2025, S. 106"
 ---
 
 # Straight Seat Valve - Upper Part Only, Green Handle
 
-Upper spindle and handle part for straight seat (globe) valves - green handle for easy identification. Compatible with standard lower valve bodies.
+Catalogue designation: **Straight seat valve (only upper part) green handle**.  
+Upper spindle and handwheel part for straight seat (globe) valves - green handle for easy identification.
 
 ## Article Table
 
-| Code    | Dimension d | Weight (kg) | Pack |
-|---------|-------------|-------------|------|
-| AQ62591 | 3/4"        | 0.25        | 1    |
+| Code   | Dimension G | kg   | Pack. |
+|--------|-------------|------|-------|
+| AQ5991 | 3/4 "       | 0,12 | 1     |
+
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: Straight seat valve (only upper part) green handle
+- Scope of supply: upper part only
+- Dimension G: 3/4 "
+- Weight: 0,12 kg
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 

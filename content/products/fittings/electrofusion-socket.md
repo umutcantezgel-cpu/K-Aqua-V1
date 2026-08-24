@@ -2,7 +2,10 @@
 title: "Electrofusion Socket"
 category: "Fittings"
 slug: "fittings/electrofusion-socket"
-article_codes: ["AQ27E20", "AQ27E25", "AQ27E32", "AQ27E40", "AQ27E50", "AQ27E63", "AQ27E75"]
+article_codes: ["AQ27120", "AQ27125", "AQ27132", "AQ27140", "AQ27150", "AQ27163", "AQ27175", "AQ27190", "AQ271110", "AQ271125", "AQ271160", "AQ271200", "AQ271250", "AQ271315"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "DVS 2207-11"]
+source: "KA-Katalog_GB_06-2025, S. 92"
 ---
 
 # Electrofusion Socket
@@ -11,18 +14,30 @@ PP-R electrofusion coupling - joined by electrical heating without a welding iro
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ27E20 | 20     | 38     | 57     | 0.05        | 60   |
-| AQ27E25 | 25     | 48     | 57     | 0.05        | 50   |
-| AQ27E32 | 32     | 45     | 65     | -           | 47   |
-| AQ27E40 | 40     | 55     | 65     | 0.11        | 40   |
-| AQ27E50 | 50     | 61     | -      | 0.15        | 20   |
-| AQ27E63 | 63     | 72     | 56     | -           | 20   |
-| AQ27E75 | 75     | 56     | -      | 0.54        | 10   |
+| Code     | d   | D     | L   | h   | L1  | kg   | Pack. |
+|----------|-----|-------|-----|-----|-----|------|-------|
+| AQ27120  | 20  | 33    | 70  | 52  | 34  | 0,05 | 60    |
+| AQ27125  | 25  | 38    | 70  | 58  | 34  | 0,05 | 50    |
+| AQ27132  | 32  | 45    | 70  | 65  | 34  | 0,07 | 40    |
+| AQ27140  | 40  | 55    | 85  | 75  | 41  | 0,11 | 30    |
+| AQ27150  | 50  | 68    | 88  | 87  | 42  | 0,15 | 20    |
+| AQ27163  | 63  | 82    | 98  | 100 | 47  | 0,22 | 20    |
+| AQ27175  | 75  | 98    | 125 | 114 | 61  | 0,34 | 10    |
+| AQ27190  | 90  | 113   | 146 | 130 | 72  | 0,50 | 6     |
+| AQ271110 | 110 | 136   | 155 | 144 | 77  | 0,66 | 5     |
+| AQ271125 | 125 | 156   | 166 | 167 | 82  | 1,00 | 5     |
+| AQ271160 | 160 | 190   | 175 | 201 | 86  | 1,50 | 1     |
+| AQ271200 | 200 | 232   | 185 | 243 | 91  | 2,17 | 1     |
+| AQ271250 | 250 | 296   | 212 | 300 | 106 | 4,46 | 1     |
+| AQ271315 | 315 | 372,5 | 240 | 373 | 120 | 9,65 | 1     |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 – 315 mm
+- Jointing: electrofusion welding
+- Standards: DIN EN ISO 15874-3, DIN 16962, DVS 2207-11
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### Die PP-R Elektroschweißmuffe (Electrofusion Socket) für hochsichere und moderne Rohrverbindungen

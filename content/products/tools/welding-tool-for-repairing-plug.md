@@ -4,20 +4,27 @@ titleDE: "Schweißwerkzeug für Reparaturstopfen"
 titleAR: "أداة لحام لإصلاح السدادات"
 category: "Tools"
 slug: "tools/welding-tool-for-repairing-plug"
-article_codes: ["AQ98625","AQ98632","AQ98640","AQ98650","AQ98663"]
+article_codes: ["AQ9837", "AQ98311"]
+source: "KA-Katalog_GB_06-2025, S. 116"
 ---
 
 # Welding Tool for Repairing Plug
 
-Heating tool dies used together with the repairing plug system.
+Catalogue designation: **Welding tool for repairing plug**.  
+Heating tool for welding the repairing plug into a drilled or damaged spot in the pipe wall. Available for plug diameters 7 and 11 mm.
 
-| Code    | d (mm) | Pack |
-|---------|--------|------|
-| AQ98625 | 25     | 1    |
-| AQ98632 | 32     | 1    |
-| AQ98640 | 40     | 1    |
-| AQ98650 | 50     | 1    |
-| AQ98663 | 63     | 1    |
+## Article Table
+
+| Code    | d  | Pack. |
+|---------|----|-------|
+| AQ9837  | 7  | 1     |
+| AQ98311 | 11 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Sizes: d 7 and d 11
+- Matching article: Repairing plug AQ5937 (d 7) / AQ59311 (d 11), catalogue p. 116
+- Packing unit: 1 per size
 
 ## SEO-CONTENT-DE
 ### Hochleistungs-Schweißwerkzeug für Reparaturstopfen in PPR-Rohrsystemen
@@ -30,14 +37,11 @@ Ein beschädigtes Wasserrohr, das beispielsweise durch eine versehentlich gesetz
 Mit unserem speziellen Schweißwerkzeug für Reparaturstopfen gehört dieser Aufwand der Vergangenheit an. Die speziell geformten Heizdorn-Matrizen (Heating Tool Dies) erlauben es, den beschädigten Bereich im Rohr exakt auf die benötigte Schmelztemperatur zu bringen, während gleichzeitig der Reparaturstopfen erwärmt wird. Durch das einfache Einführen und Verschweißen des Stopfens wird die Schadstelle in wenigen Minuten hermetisch verschlossen, ohne dass wesentliche Teile der Installation demontiert oder Wände aufgerissen werden müssen. Das spart Zeit, Material und erhebliche Kosten.
 
 #### Technische Spezifikationen und Produktvarianten
-Unser Schweißwerkzeug ist für eine Vielzahl von Rohrdimensionen ausgelegt und bietet somit maximale Flexibilität auf der Baustelle. Die Matrizen sind aus hochwertigem, wärmeleitfähigem Material gefertigt und mit einer extrem widerstandsfähigen Antihaftbeschichtung (Teflon/PTFE) versehen. Diese Beschichtung verhindert, dass geschmolzener Kunststoff (Polypropylen / PPR) am Werkzeug haften bleibt, was nicht nur die Lebensdauer der Matrizen verlängert, sondern auch eine perfekte, glatte und saubere Schweißnaht garantiert.
+Unser Schweißwerkzeug ist passgenau auf die beiden Durchmesser des Reparaturstopfens ausgelegt und bietet somit maximale Flexibilität auf der Baustelle. Die Matrizen sind aus hochwertigem, wärmeleitfähigem Material gefertigt und mit einer extrem widerstandsfähigen Antihaftbeschichtung (Teflon/PTFE) versehen. Diese Beschichtung verhindert, dass geschmolzener Kunststoff (Polypropylen / PPR) am Werkzeug haften bleibt, was nicht nur die Lebensdauer der Matrizen verlängert, sondern auch eine perfekte, glatte und saubere Schweißnaht garantiert.
 
-Die Werkzeuge sind in den folgenden standardisierten Durchmessern erhältlich, um alle gängigen PPR-Rohrsysteme abzudecken:
-- Art.-Nr. AQ98625: 25 mm Durchmesser – Ideal für Standard-Wasserversorgungsleitungen im Wohnbereich.
-- Art.-Nr. AQ98632: 32 mm Durchmesser – Geeignet für Hauptversorgungsleitungen und größere Verteilungsnetze.
-- Art.-Nr. AQ98640: 40 mm Durchmesser – Konzipiert für Industrieanlagen und größere Heizungsnetze.
-- Art.-Nr. AQ98650: 50 mm Durchmesser – Für industrielle Anwendungen mit höherem Durchsatz.
-- Art.-Nr. AQ98663: 63 mm Durchmesser – Für Hauptsteigleitungen und industrielle Großanlagen.
+Die Werkzeuge sind in den folgenden zwei standardisierten Stopfendurchmessern erhältlich, um alle gängigen Reparaturfälle an PPR-Rohrsystemen abzudecken:
+- Art.-Nr. AQ9837: 7 mm Durchmesser – Ideal für kleinere Bohr- und Einstichschäden an Standard-Wasserversorgungsleitungen im Wohnbereich.
+- Art.-Nr. AQ98311: 11 mm Durchmesser – Geeignet für größere Schadstellen an Hauptversorgungsleitungen und Steigleitungen.
 
 Jedes Set wird standardmäßig mit einer Matrize (Packungsinhalt: 1 Stück) geliefert und lässt sich nahtlos mit handelsüblichen Muffenschweißgeräten (Heizelementmuffenschweißgeräten) kombinieren. 
 
@@ -71,14 +75,11 @@ In the past, a damaged water pipe—punctured by an accidental screw or drill bi
 With our specialized Welding Tool for Repairing Plugs, this excessive effort is entirely eliminated. The uniquely shaped heating tool dies allow the installer to precisely heat the damaged hole in the pipe to the exact melting temperature while simultaneously heating the corresponding PPR repair plug. By simply inserting and welding the plug into place, the damage is hermetically sealed within minutes, without dismantling the existing infrastructure or causing severe structural disruption. This innovative process saves significant time, materials, and labor costs.
 
 #### Technical Specifications and Product Range
-Our welding tool is designed to accommodate a wide variety of pipe dimensions, ensuring maximum flexibility and adaptability on the job site. The heating dies are manufactured from premium, highly thermal-conductive metal alloys and are coated with a heavy-duty, anti-stick Teflon (PTFE) layer. This high-grade coating prevents the melted plastic from adhering to the tool, which not only significantly extends the lifespan of the dies but also guarantees a flawlessly smooth and clean welding seam every single time.
+Our welding tool is precisely matched to the two diameters of the repairing plug, ensuring maximum flexibility and adaptability on the job site. The heating dies are manufactured from premium, highly thermal-conductive metal alloys and are coated with a heavy-duty, anti-stick Teflon (PTFE) layer. This high-grade coating prevents the melted plastic from adhering to the tool, which not only significantly extends the lifespan of the dies but also guarantees a flawlessly smooth and clean welding seam every single time.
 
-To cover all standard PPR piping requirements, these tools are available in the following diameters:
-- Code AQ98625: 25 mm diameter – Ideal for standard residential water supply lines.
-- Code AQ98632: 32 mm diameter – Suited for main supply lines and larger distribution networks in multi-family dwellings.
-- Code AQ98640: 40 mm diameter – Designed for industrial systems and larger commercial heating networks.
-- Code AQ98650: 50 mm diameter – Perfect for heavy-duty industrial applications with higher flow volume requirements.
-- Code AQ98663: 63 mm diameter – For main risers and large-scale industrial fluid transport systems.
+To cover all standard PPR repair requirements, these tools are available in the following two plug diameters:
+- Code AQ9837: 7 mm diameter – Ideal for smaller drill and puncture damage in standard residential water supply lines.
+- Code AQ98311: 11 mm diameter – Suited for larger damaged spots in main supply lines and risers.
 
 Each package contains one precision-engineered die (Pack: 1) that fits seamlessly onto standard socket fusion welding machines, providing universal compatibility for professional plumbers.
 
@@ -112,14 +113,11 @@ Every welding tool for repairing plugs undergoes strict quality controls to meet
 مع أداة اللحام المتخصصة لإصلاح السدادات، يتم التخلص من هذا الجهد المفرط تمامًا. تسمح قوالب أداة التسخين (Heating Tool Dies) ذات الشكل الفريد للسباك بتسخين الثقب التالف في الأنبوب بدقة حتى يصل إلى درجة حرارة الانصهار الدقيقة، مع تسخين سدادة الإصلاح (PPR) المطابقة في نفس الوقت. بمجرد إدخال السدادة ولحامها في مكانها، يتم إغلاق التلف تمامًا في غضون دقائق، دون تفكيك البنية التحتية الحالية أو التسبب في أضرار هيكلية جسيمة. توفر هذه العملية المبتكرة الكثير من الوقت والمواد وتكاليف العمالة.
 
 #### المواصفات الفنية ومجموعة المنتجات
-تم تصميم أداة اللحام الخاصة بنا لتلائم مجموعة واسعة من أبعاد الأنابيب، مما يضمن أقصى قدر من المرونة والتكيف في موقع العمل. يتم تصنيع قوالب التسخين من سبائك معدنية ممتازة وعالية التوصيل الحراري، ومطلية بطبقة من التيفلون (PTFE) شديدة التحمل ومضادة للالتصاق. يمنع هذا الطلاء عالي الجودة البلاستيك المذاب من الالتصاق بالأداة، مما لا يطيل العمر الافتراضي للقوالب بشكل كبير فحسب، بل يضمن أيضًا الحصول على درزة لحام ناعمة ونظيفة تمامًا في كل مرة.
+تم تصميم أداة اللحام الخاصة بنا لتلائم بدقة قطري سدادة الإصلاح، مما يضمن أقصى قدر من المرونة والتكيف في موقع العمل. يتم تصنيع قوالب التسخين من سبائك معدنية ممتازة وعالية التوصيل الحراري، ومطلية بطبقة من التيفلون (PTFE) شديدة التحمل ومضادة للالتصاق. يمنع هذا الطلاء عالي الجودة البلاستيك المذاب من الالتصاق بالأداة، مما لا يطيل العمر الافتراضي للقوالب بشكل كبير فحسب، بل يضمن أيضًا الحصول على درزة لحام ناعمة ونظيفة تمامًا في كل مرة.
 
-لتغطية جميع متطلبات أنابيب PPR القياسية، تتوفر هذه الأدوات بالأقطار التالية:
-- الكود AQ98625: قطر 25 مم – مثالي لخطوط إمداد المياه السكنية القياسية.
-- الكود AQ98632: قطر 32 مم – مناسب لخطوط الإمداد الرئيسية وشبكات التوزيع الأكبر في المساكن متعددة العائلات.
-- الكود AQ98640: قطر 40 مم – مصمم للأنظمة الصناعية وشبكات التدفئة التجارية الأكبر.
-- الكود AQ98650: قطر 50 مم – مثالي للتطبيقات الصناعية الشاقة التي تتطلب حجم تدفق أعلى.
-- الكود AQ98663: قطر 63 مم – للخطوط الصاعدة الرئيسية وأنظمة نقل السوائل الصناعية واسعة النطاق.
+لتغطية جميع متطلبات إصلاح أنابيب PPR القياسية، تتوفر هذه الأدوات بقطري السدادة التاليين:
+- الكود AQ9837: قطر 7 مم – مثالي لأضرار الثقب والحفر الصغيرة في خطوط إمداد المياه السكنية القياسية.
+- الكود AQ98311: قطر 11 مم – مناسب لمواضع الضرر الأكبر في خطوط الإمداد الرئيسية والخطوط الصاعدة.
 
 تحتوي كل عبوة على قالب واحد مصمم بدقة (العبوة: 1 قطعة) يتناسب بسلاسة مع آلات لحام الانصهار القياسية، مما يوفر توافقًا عالميًا للسباكين المحترفين.
 

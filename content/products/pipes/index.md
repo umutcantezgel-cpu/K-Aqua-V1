@@ -11,20 +11,20 @@ K-Aqua PP-R and PP-RCT pipe range - available in standard, fiber-reinforced and 
 
 ## Product Overview
 
-| Product | d (mm) | SDR | Material | Codes |
+| Product | D (mm) | SDR | Material | Codes |
 |---------|--------|-----|----------|-------|
-| [K-Pipe PP-R SDR 6](./k-pipe-pp-r-sdr-6.md) | 20–50 | 6 | PP-R | AQ200P20–AQ200P50 |
-| [K-Pipe PP-RCT SDR 7.4](./k-pipe-pp-rct-sdr-74.md) | 20–50 | 7.4 | PP-RCT | AQ20020–AQ20050 |
-| [K-Pipe PP-R SDR 11](./k-pipe-pp-r-sdr-11.md) | 20–50 | 11 | PP-R | AQ11P20–AQ11P50 |
-| [K-Pipe Purple PP-R SDR 11](./k-pipe-purple-pp-r-sdr-11.md) | 20–50 | 11 | PP-R | AQ11PL20–AQ11PL50 |
-| [K-Fiber Pipe PP-RCT SDR 7.4](./k-fiber-pipe-pp-rct-sdr-74.md) | 20–50 | 7.4 | PP-RCT + Fiber | AQ200F20–AQ200F50 |
-| [K-Fiberclima Pipe PP-RCT SDR 11](./k-fiberclima-pipe-pp-rct-sdr-11.md) | 20–50 | 11 | PP-RCT + Fiber | AQ160F20–AQ160F50 |
-| [K-Fiber Pipe PP-R SDR 7.4](./k-fiber-pipe-pp-r-sdr-74.md) | 20–50 | 7.4 | PP-R + Fiber | AQ207PF20–AQ207PF50 |
-| [K-Fiber Pipe PP-R SDR 9](./k-fiber-pipe-pp-r-sdr-9.md) | 32–75 | 9 | PP-R + Fiber | AQ169PF32–AQ169PF75 |
-| [K-Fiber Pipe PP-R SDR 11](./k-fiber-pipe-pp-r-sdr-11.md) | 20–50 | 11 | PP-R + Fiber | AQ11PF20–AQ11PF50 |
-| [K-Fiber Pipe PP-R SDR 17](./k-fiber-pipe-pp-r-sdr-17.md) | 90–200 | 17 | PP-R + Fiber | AQ17PF90–AQ17PF200 |
-| [K-Fiber UV Pipe PP-RCT SDR 7.4](./k-fiber-uv-pipe-pp-rct-sdr-74.md) | 20–50 | 7.4 | PP-RCT + UV | AQ200FUVCT20–50 |
-| [K-Fiber UV Pipe PP-R SDR 7.4](./k-fiber-uv-pipe-pp-r-sdr-74.md) | 20–50 | 7.4 | PP-R + UV | AQ200PFUV20–50 |
+| [K-Pipe PP-R SDR 6](./k-pipe-pp-r-sdr-6.md) | 20–125 | 6 | PP-R | AQ200P20–AQ200P125 |
+| [K-Pipe PP-RCT SDR 7.4](./k-pipe-pp-rct-sdr-74.md) | 20–315 | 7.4 | PP-RCT | AQ20020–AQ200315 |
+| [K-Pipe PP-R SDR 11](./k-pipe-pp-r-sdr-11.md) | 20–500 | 11 | PP-R | AQ111P20–AQ111P500 |
+| [K-Pipe Purple PP-R SDR 11](./k-pipe-purple-pp-r-sdr-11.md) | 20–160 | 11 | PP-R | AQ111PL20–AQ111PL160 |
+| [K-Fiber Pipe PP-RCT SDR 7.4](./k-fiber-pipe-pp-rct-sdr-74.md) | 20–315 | 7.4 | PP-RCT GF | AQ200F20–AQ200F315 |
+| [K-Fiberclima Pipe PP-RCT SDR 11](./k-fiberclima-pipe-pp-rct-sdr-11.md) | 20–500 | 11 | PP-RCT GF | AQ160F20–AQ160F500 |
+| [K-Fiber Pipe PP-R SDR 7.4](./k-fiber-pipe-pp-r-sdr-74.md) | 20–315 | 7.4 | PP-R GF | AQ207PF20–AQ207PF315 |
+| [K-Fiber Pipe PP-R SDR 9](./k-fiber-pipe-pp-r-sdr-9.md) | 32–355 | 9 | PP-R GF | AQ169PF32–AQ169PF355 |
+| [K-Fiber Pipe PP-R SDR 11](./k-fiber-pipe-pp-r-sdr-11.md) | 20–500 | 11 | PP-R GF | AQ111PF20–AQ111PF500 |
+| [K-Fiber Pipe PP-R SDR 17](./k-fiber-pipe-pp-r-sdr-17.md) | 90–630 | 17 | PP-R GF | AQ117PF90–AQ117PF630 |
+| [K-Fiber UV Pipe PP-RCT SDR 7.4](./k-fiber-uv-pipe-pp-rct-sdr-74.md) | 20–160 | 7.4 | PP-RCT GF | AQ200FUV20–AQ200FUV160 |
+| [K-Fiber UV Pipe PP-R SDR 7.4](./k-fiber-uv-pipe-pp-r-sdr-74.md) | 20–160 | 7.4 | PP-R GF | AQ200PFUV20–AQ200PFUV160 |
 
 ## Pipe Type Guide
 

@@ -4,18 +4,28 @@ titleDE: "Unterputz-Ventil Chrom - Sichtteil"
 titleAR: "صمام مخفي كروم - الجزء الظاهر"
 category: "Valves"
 slug: "valves/concealed-valve-chrome-light-part"
-article_codes: ["AQ62992"]
+article_codes: ["AQ5992"]
+source: "KA-Katalog_GB_06-2025, S. 106"
 ---
 
 # Concealed Valve Chrome - Light Part
 
-Chrome-finish upper (light) part of the concealed valve system - visible decorative escutcheon and spindle. Used together with the Tee 90° for internal valve.
+Catalogue designation: **Concealed valve (only upper part) chrome light part**.  
+Chrome-finish upper part of the concealed valve, in the light version. Used together with the Tee 90° (Female thread) for internal valve.
 
 ## Article Table
 
-| Code    | Dimension d | Weight (kg) | Pack |
-|---------|-------------|-------------|------|
-| AQ62992 | ½"          | 0.21        | 1    |
+| Code   | Dimension G | kg   | Pack. |
+|--------|-------------|------|-------|
+| AQ5992 | 3/4 "       | 0,21 | 1     |
+
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: Concealed valve (only upper part) chrome light part
+- Scope of supply: upper part only
+- Dimension G: 3/4 "
+- Weight: 0,21 kg
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 Das Unterputz-Ventil Chrom – Sichtteil (Concealed Valve Chrome - Light Part) ist ein essenzielles und ästhetisch anspruchsvolles Bauteil für moderne Sanitärinstallationen. Wenn es um die Gestaltung von Badezimmern, Küchen oder gewerblichen Waschräumen geht, spielt nicht nur die zuverlässige Funktion im Hintergrund eine Rolle, sondern auch das sichtbare Design. Dieses speziell entwickelte Sichtteil dient als eleganter Abschluss für Unterputz-Ventilsysteme und verleiht jeder Installation ein hochwertiges, professionelles Erscheinungsbild.

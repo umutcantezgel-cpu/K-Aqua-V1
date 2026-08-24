@@ -2,28 +2,43 @@
 title: "K-Fiber Pipe PP-R SDR 17"
 category: "Pipes"
 slug: "pipes/k-fiber-pipe-pp-r-sdr-17"
-article_codes: ["AQ17PF90", "AQ17PF110", "AQ17PF125", "AQ17PF160", "AQ17PF200"]
+article_codes: ["AQ117PF90", "AQ117PF110", "AQ117PF125", "AQ117PF160", "AQ117PF200", "AQ117PF250", "AQ117PF315", "AQ117PF355", "AQ117PF400", "AQ117PF450", "AQ117PF500", "AQ117PF560", "AQ117PF630"]
+colour: "green with 4 red stripes"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 81"
 ---
 
 # K-Fiber Pipe PP-R SDR 17
 
-S 8 - Working pressure: 20°C / 1.0 MPa - 60°C / 0.6 MPa  
+S 8 - Working pressure: 20°C / 0.8 MPa - 60°C / 0.4 MPa  
 Length: 4 m per bar. Large-diameter fiber pipe for industrial and building supply.
 
 ## Article Table
 
-| Code      | d (mm) | s (mm) | L (mm) | kg/m  | Weight (kg) | Pack |
-|-----------|--------|--------|--------|-------|-------------|------|
-| AQ17PF90  | 90     | 6.5    | 792    | 1.46  | 4.93        | 8    |
-| AQ17PF110 | 110    | 8.0    | 968    | 2.16  | 7.36        | 4    |
-| AQ17PF125 | 125    | 10.0   | 1102   | 2.77  | 9.4         | 4    |
-| AQ17PF160 | 160    | 12.5   | 1400   | 4.52  | 15.61       | 4    |
-| AQ17PF200 | 200    | 16.0   | 1762   | 7.05  | 24.38       | 2    |
+| Code        | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|-------------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ117PF90   | 90     | 65  | 79,20   | 5,4         | 8     | 1,46          | 4,93                 |
+| AQ117PF110  | 110    | 80  | 96,80   | 6,6         | 4     | 2,16          | 7,36                 |
+| AQ117PF125  | 125    | 100 | 110,20  | 7,4         | 4     | 2,77          | 9,54                 |
+| AQ117PF160  | 160    | 125 | 141,00  | 9,5         | 4     | 4,52          | 15,61                |
+| AQ117PF200  | 200    | 160 | 176,20  | 11,9        | 4     | 7,05          | 24,38                |
+| AQ117PF250  | 250    | 200 | 220,40  | 14,8        | 4     | 10,90         | 38,15                |
+| AQ117PF315  | 315    | 250 | 277,60  | 18,7        | 4     | 17,26         | 60,52                |
+| AQ117PF355  | 355    | 300 | 312,80  | 21,1        | 4     | 21,83         | 76,85                |
+| AQ117PF400  | 400    | –   | 352,60  | 23,7        | 4     | 27,61         | 97,65                |
+| AQ117PF450  | 450    | 400 | 396,60  | 26,7        | 4     | 34,16         | 123,54               |
+| AQ117PF500  | 500    | 450 | 440,60  | 29,7        | 4     | 42,07         | 152,47               |
+| AQ117PF560  | 560    | –   | 493,60  | 33,2        | 4     | 52,51         | 191,36               |
+| AQ117PF630  | 630    | 500 | 555,20  | 37,4        | 4     | 66,34         | 242,10               |
 
 ## Specifications
-- Material: PP-R with fiber composite layer
+- Material: PP-R GF
+- Colour: green with 4 red stripes
 - Standard: SDR 17 / S 8
-- Application: Large-bore building supply, industrial
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 0,8 MPa
+- Max. operating pressure at 60°C: 0,4 MPa
+- Length: 4 m per bar
 
 ## SEO-CONTENT-DE
 

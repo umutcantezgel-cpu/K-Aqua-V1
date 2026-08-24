@@ -4,23 +4,31 @@ titleDE: "PP-R Sprungbogen mit Muffe"
 titleAR: "أنبوب تقاطع PP-R مع جلبة"
 category: "Fittings"
 slug: "fittings/cross-over-with-socket"
-article_codes: ["AQ29520", "AQ29525", "AQ29532"]
+article_codes: ["AQ28720", "AQ28725", "AQ28732"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 91"
 ---
 
 # Cross Over With Socket
 
-PP-R crossover pipe fitting with integrated sockets for crossing pipe runs.
+PP-R crossover pipe fitting with integrated sockets for crossing pipe runs. Listed in the catalogue under the heading "Cross over" (KA-Katalog_GB_06-2025, S. 91); identical article range to [Cross Over](./cross-over.md).
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ29520 | 20     | 54     | 36.5   | 0.07        | 100  |
-| AQ29525 | 25     | 42     | 37.0   | 0.10        | 80   |
-| AQ29532 | 32     | 54     | 37.0   | 0.16        | 60   |
+| Code    | d  | L   | z  | H  | t  | kg   | Pack. |
+|---------|----|-----|----|----|----|------|-------|
+| AQ28720 | 20 | 90  | 63 | 45 | 14 | 0,04 | 140   |
+| AQ28725 | 25 | 104 | 80 | 55 | 16 | 0,06 | 90    |
+| AQ28732 | 32 | 126 | 98 | 70 | 23 | 0,13 | 65    |
 
-## Available Sizes
-20 · 25 · 32 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 · 25 · 32 mm
+- Jointing: socket fusion (socket at each end)
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### Der K-Aqua PP-R Sprungbogen mit Muffe: Die intelligente Lösung für kreuzende Rohrleitungen

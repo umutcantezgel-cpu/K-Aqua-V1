@@ -2,7 +2,10 @@
 title: "PP-R Standard Elbow 45°"
 category: "Fittings"
 slug: "fittings/elbow-45"
-article_codes: ["AQ04520", "AQ04525", "AQ04532", "AQ04540", "AQ04550", "AQ04563", "AQ04575"]
+article_codes: ["AQ04520", "AQ04525", "AQ04532", "AQ04540", "AQ04550", "AQ04563", "AQ04575", "AQ04590", "AQ045110", "AQ045125", "AQ045160", "AQ045200", "AQ045250", "AQ045315"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 84"
 ---
 
 # Elbow 45°
@@ -11,18 +14,33 @@ PP-R socket fusion elbow for 45° directional changes. This 45-degree angle fitt
 
 ## Article Table
 
-| Code    | d (mm) | L1 (mm) | L2 (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|---------|---------|--------|-------------|------|
-| AQ04520 | 20     | -       | -       | -      | 0.02        | 300  |
-| AQ04525 | 25     | -       | -       | -      | 0.02        | 200  |
-| AQ04532 | 32     | 44      | -       | -      | 0.05        | 100  |
-| AQ04540 | 40     | 52      | -       | -      | 0.06        | 70   |
-| AQ04550 | 50     | -       | -       | -      | 0.10        | 48   |
-| AQ04563 | 63     | -       | -       | -      | 0.21        | 24   |
-| AQ04575 | 75     | 99      | -       | 50     | 0.32        | 12   |
+| Code     | d   | D   | l   | z   | s    | kg   | Pack. |
+|----------|-----|-----|-----|-----|------|------|-------|
+| AQ04520  | 20  | 29  | 21  | 6   | –    | 0,02 | 300   |
+| AQ04525  | 25  | 35  | 24  | 8   | –    | 0,02 | 200   |
+| AQ04532  | 32  | 44  | 29  | 10  | –    | 0,05 | 100   |
+| AQ04540  | 40  | 52  | 32  | 11  | –    | 0,06 | 70    |
+| AQ04550  | 50  | 65  | 37  | 13  | –    | 0,10 | 48    |
+| AQ04563  | 63  | 84  | 44  | 16  | –    | 0,21 | 24    |
+| AQ04575  | 75  | 99  | 50  | 20  | –    | 0,32 | 14    |
+| AQ04590  | 90  | 120 | 58  | 25  | –    | 0,58 | 9     |
+| AQ045110 | 110 | 148 | 69  | 32  | –    | 0,98 | 4     |
+| AQ045125 | 125 | 165 | 78  | 37  | –    | 1,53 | 2     |
+| **SDR 11\*** |     |     |     |     |      |      |       |
+| AQ045160 | 160 | –   | 143 | 190 | 14,6 | 2,6  | 1     |
+| AQ045200 | 200 | –   | 153 | 207 | 18,2 | 4,5  | 1     |
+| AQ045250 | 250 | –   | 134 | 220 | 22,7 | 7,9  | 1     |
+| AQ045315 | 315 | –   | 155 | 250 | 28,6 | 13,7 | 1     |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 mm
+\* SDR 11 jointing techniques: butt-fusion or electrofusion welding
+
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 – 315 mm
+- Jointing: socket fusion (d 20 – 125); SDR 11 sizes d 160 – 315: butt-fusion or electrofusion welding
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### Der PP-R Standard Winkel 45°: Maximale Effizienz für Ihre Rohrleitungssysteme

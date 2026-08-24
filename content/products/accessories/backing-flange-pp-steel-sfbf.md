@@ -4,7 +4,8 @@ titleDE: "Losflansch PP-Stahl (SF/BF)"
 titleAR: "شفة دعم بولي بروبيلين-فولاذ (SF/BF)"
 category: "Accessories"
 slug: "accessories/backing-flange-pp-steel-sfbf"
-article_codes: ["AQ575040","AQ575050","AQ575063","AQ575075","AQ575090","AQ575110","AQ575125","AQ575160","AQ575200","AQ575250","AQ575315"]
+article_codes: ["AQ75040", "AQ75050", "AQ75063", "AQ75075", "AQ75090", "AQ750110", "AQ750125", "AQ750160", "AQ750200", "AQ750250", "AQ750315"]
+source: "KA-Katalog_GB_06-2025, S. 110"
 ---
 
 # Backing Flange PP-Steel for Socket Fusion (SF) or Butt Fusion (BF) System
@@ -13,22 +14,25 @@ Steel-reinforced PP backing flange used together with the flange adaptor for bol
 
 ## Article Table
 
-| Code     | d (mm) | DN  | Weight (kg) | Pack |
-|----------|--------|-----|-------------|------|
-| AQ575040 | 40     | 40  | 0.37        | 12   |
-| AQ575050 | 50     | 50  | 0.48        | 8    |
-| AQ575063 | 63     | 65  | -           | -    |
-| AQ575075 | 75     | 80  | -           | -    |
-| AQ575090 | 90     | 90  | -           | -    |
-| AQ575110 | 110    | 100 | -           | -    |
-| AQ575125 | 125    | 125 | 2.24        | -    |
-| AQ575160 | 160    | 150 | -           | -    |
-| AQ575200 | 200    | 200 | -           | -    |
-| AQ575250 | 250    | 250 | 4.55        | -    |
-| AQ575315 | 315    | 300 | -           | -    |
+| Code     | d (mm) | D (mm) | D1 (mm) | D2 (mm) | D3 (mm) | H (mm) | System | kg   | Pack. |
+|----------|--------|--------|---------|---------|---------|--------|--------|------|-------|
+| AQ75040  | 40     | 140    | 100     | 51      | 18      | 16     | SF/BF  | 0,62 | 20    |
+| AQ75050  | 50     | 150    | 110     | 62      | 18      | 18     | SF/BF  | 0,82 | 17    |
+| AQ75063  | 63     | 165    | 125     | 78      | 18      | 18     | SF/BF  | 0,94 | 15    |
+| AQ75075  | 75     | 185    | 145     | 92      | 18      | 18     | SF/BF  | 1,35 | 11    |
+| AQ75090  | 90     | 200    | 160     | 110     | 18      | 20     | SF     | 1,39 | 13    |
+| AQ750110 | 110    | 220    | 180     | 133     | 18      | 20     | SF     | 1,41 | 13    |
+| AQ750125 | 125    | 250    | 210     | 150     | 18      | 20     | SF     | 1,41 | 12    |
+| AQ750160 | 160    | 285    | 240     | 178     | 22      | 24     | BF     | 3,60 | 1     |
+| AQ750200 | 200    | 340    | 295     | 235     | 22      | 27     | BF     | 5,20 | 1     |
+| AQ750250 | 250    | 395    | 350     | 288     | 22      | 30     | BF     | 6,63 | 1     |
+| AQ750315 | 315    | 445    | 400     | 338     | 22      | 34     | BF     | 8,40 | 1     |
 
-## Available Sizes
-40–315 mm (DN 40–DN 300)
+## Specifications
+- Material: PP-Steel
+- Sizes d: 40 - 315 mm
+- System: SF/BF (d 40 - 75) · SF (d 90 - 125) · BF (d 160 - 315)
+- Use: with the flange adaptor for bolted flange connections
 
 ## SEO-CONTENT-DE
 Backing Flange PP-Steel (SF/BF): Die optimale Lösung für industrielle Flanschverbindungen

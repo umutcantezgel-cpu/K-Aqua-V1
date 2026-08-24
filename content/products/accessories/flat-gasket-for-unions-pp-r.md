@@ -2,23 +2,28 @@
 title: "Flat Gasket for Unions PP-R"
 category: "Accessories"
 slug: "accessories/flat-gasket-for-unions-pp-r"
-article_codes: ["AQ9ANRP20","AQ9ANRP25","AQ9ANRP32"]
+article_codes: ["AQ490F20", "AQ490F25", "AQ490F32"]
+source: "KA-Katalog_GB_06-2025, S. 111"
 ---
 
 # Flat Gasket for Unions PP-R
 
-EPDM sealing gasket for PP-R union fittings.
+Sealing gasket for PP-R union fittings.
 
 ## Article Table
 
-| Code      | d (mm) | Rp     | d1 (mm) | d2 (mm) | Pack |
-|-----------|--------|--------|---------|---------|------|
-| AQ9ANRP20 | 20     | ½"     | 27      | 20      | 1    |
-| AQ9ANRP25 | 25     | ¾"     | 35      | 26      | 1    |
-| AQ9ANRP32 | 32     | 1"     | 42      | 33      | 1    |
+| Code     | d (mm) | R/Rp   | Nut thread | D (mm) | d1 (mm) | s (mm) | Pack. |
+|----------|--------|--------|------------|--------|---------|--------|-------|
+| AQ490F20 | 20     | 1/2 "  | G 3/4 "    | 27     | 20      | 3      | 1     |
+| AQ490F25 | 25     | 3/4 "  | G 1 "      | 35     | 25      | 3      | 1     |
+| AQ490F32 | 32     | 1 "    | G 1 1/4 "  | 38     | 28      | 3      | 1     |
 
-## Available Sizes
-20 · 25 · 32 mm
+## Specifications
+- Sizes d: 20 · 25 · 32 mm
+- Thread R/Rp: 1/2 " · 3/4 " · 1 "
+- Nut thread: G 3/4 " · G 1 " · G 1 1/4 "
+- Thickness s: 3 mm
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 Title: K-Aqua Flachdichtung für PP-R Verschraubungen (EPDM)

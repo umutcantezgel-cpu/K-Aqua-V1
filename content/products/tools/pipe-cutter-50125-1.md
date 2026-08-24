@@ -3,15 +3,25 @@ title: "Alternative Pipe Cutter 1 1/4\" (d50-d125)"
 category: "Tools"
 slug: "tools/pipe-cutter-50125-1"
 article_codes: ["AQ974"]
+source: "KA-Katalog_GB_06-2025, S. 114"
 ---
 
-# Pipe Cutter 50–125 (1¼)
+# Pipe Scraper
 
-Pipe cutter 50–125 mm - alternative model (1¼ version).
+Catalogue designation: **Pipe scraper**.  
+Hand scraper used to remove the outer layer of the pipe surface and to clean the pipe end before welding. The catalogue lists no diameter range for this article.
 
-| Code  | Range (mm) | Pack |
-|-------|-----------|------|
-| AQ974 | 50–125    | 1    |
+## Article Table
+
+| Code  | Pack. |
+|-------|-------|
+| AQ974 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Application: scraping / cleaning the pipe surface prior to welding
+- Diameter range: – (not stated in the catalogue)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 Der Rohrabschneider 50-125 mm (Modell AQ974) ist ein unverzichtbares Werkzeug für professionelle Installateure und Handwerker, die mit großen Rohrdurchmessern arbeiten. Dieses hochwertige Schneidwerkzeug wurde speziell entwickelt, um präzise und saubere Schnitte an Rohren mit einem Durchmesser von 50 bis 125 Millimetern durchzuführen. Mit seiner robusten Konstruktion und dem effizienten Schneidmechanismus ist der Rohrabschneider eine ausgezeichnete Alternative zu herkömmlichen Sägen oder Trennschleifern. Er bietet nicht nur eine höhere Sicherheit bei der Anwendung, sondern garantiert auch eine gratfreie und rechtwinklige Schnittkante, die für eine optimale Weiterverarbeitung unerlässlich ist.

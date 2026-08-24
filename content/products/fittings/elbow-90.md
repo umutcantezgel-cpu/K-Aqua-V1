@@ -2,7 +2,10 @@
 title: "PP-R Standard Elbow 90°"
 category: "Fittings"
 slug: "fittings/elbow-90"
-article_codes: ["AQ09020", "AQ09025", "AQ09032", "AQ09040", "AQ09050", "AQ09063", "AQ09075"]
+article_codes: ["AQ09020", "AQ09025", "AQ09032", "AQ09040", "AQ09050", "AQ09063", "AQ09075", "AQ09090", "AQ090110", "AQ090125", "AQ090160", "AQ090200", "AQ090250", "AQ090315"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 85"
 ---
 
 # Elbow 90°
@@ -11,18 +14,33 @@ PP-R socket fusion elbow for standard 90° directional changes. The 90-degree el
 
 ## Article Table
 
-| Code    | d (mm) | L1 (mm) | L2 (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|---------|---------|--------|-------------|------|
-| AQ09020 | 20     | 29      | 27      | -      | 0.02        | 300  |
-| AQ09025 | 25     | -       | -       | -      | 0.02        | 180  |
-| AQ09032 | 32     | -       | -       | -      | 0.05        | 100  |
-| AQ09040 | 40     | 52      | -       | -      | 0.07        | 60   |
-| AQ09050 | 50     | 65      | -       | -      | 0.11        | 36   |
-| AQ09063 | 63     | -       | -       | -      | 0.27        | -    |
-| AQ09075 | 75     | -       | -       | -      | 0.44        | 10   |
+| Code     | d   | D   | L   | l   | z   | s    | kg   | Pack. |
+|----------|-----|-----|-----|-----|-----|------|------|-------|
+| AQ09020  | 20  | 29  | 27  | –   | 14  | –    | 0,02 | 300   |
+| AQ09025  | 25  | 35  | 31  | –   | 16  | –    | 0,02 | 180   |
+| AQ09032  | 32  | 44  | 37  | –   | 20  | –    | 0,05 | 100   |
+| AQ09040  | 40  | 52  | 44  | –   | 23  | –    | 0,07 | 60    |
+| AQ09050  | 50  | 65  | 52  | –   | 28  | –    | 0,14 | 36    |
+| AQ09063  | 63  | 84  | 62  | –   | 34  | –    | 0,27 | 22    |
+| AQ09075  | 75  | 101 | 71  | –   | 41  | –    | 0,44 | 10    |
+| AQ09090  | 90  | 120 | 83  | –   | 50  | –    | 0,79 | 6     |
+| AQ090110 | 110 | 148 | 99  | –   | 62  | –    | 1,30 | 4     |
+| AQ090125 | 125 | 165 | 125 | –   | 84  | –    | 2,17 | 2     |
+| **SDR 11\*** |     |     |     |     |     |      |      |       |
+| AQ090160 | 160 | –   | –   | 143 | 238 | 14,6 | 3,2  | 1     |
+| AQ090200 | 200 | –   | –   | 153 | 262 | 18,2 | 5,7  | 1     |
+| AQ090250 | 250 | –   | –   | 133 | 292 | 22,7 | 10,4 | 1     |
+| AQ090315 | 315 | –   | –   | 154 | 370 | 28,6 | 19,6 | 1     |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 mm
+\* SDR 11 jointing techniques: butt-fusion or electrofusion welding
+
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 – 315 mm
+- Jointing: socket fusion (d 20 – 125); SDR 11 sizes d 160 – 315: butt-fusion or electrofusion welding
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 

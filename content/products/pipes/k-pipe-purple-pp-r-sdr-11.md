@@ -2,7 +2,10 @@
 title: "K-Pipe Purple PP-R SDR 11"
 category: "Pipes"
 slug: "pipes/k-pipe-purple-pp-r-sdr-11"
-article_codes: ["AQ11PL20", "AQ11PL25", "AQ11PL32", "AQ11PL40", "AQ11PL50"]
+article_codes: ["AQ111PL20", "AQ111PL25", "AQ111PL32", "AQ111PL40", "AQ111PL50", "AQ111PL63", "AQ111PL75", "AQ111PL90", "AQ111PL110", "AQ111PL125", "AQ111PL160"]
+colour: "outside layer purple, inside layer green"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 77"
 ---
 
 # K-Pipe "Purple" PP-R SDR 11
@@ -12,18 +15,28 @@ Length: 4 m per bar. Purple colour for easy identification (e.g. reclaimed water
 
 ## Article Table
 
-| Code     | d (mm) | s (mm) | L (mm) | kg/m | Weight (kg) | Pack |
-|----------|--------|--------|--------|------|-------------|------|
-| AQ11PL20 | 20     | -      | 162    | -    | -           | 100  |
-| AQ11PL25 | 25     | 2.0    | 204    | 0.16 | 0.33        | 100  |
-| AQ11PL32 | 32     | 2.5    | 262    | 0.26 | 0.54        | 60   |
-| AQ11PL40 | 40     | 3.2    | 326    | 0.41 | 0.85        | 40   |
-| AQ11PL50 | 50     | 4.0    | 408    | 0.65 | 1.31        | 20   |
+| Code        | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|-------------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ111PL20   | 20     | 15  | 16,2    | 1,9         | 100   | 0,11          | 0,21                 |
+| AQ111PL25   | 25     | 20  | 20,4    | 2,3         | 100   | 0,16          | 0,33                 |
+| AQ111PL32   | 32     | 25  | 26,2    | 2,9         | 60    | 0,26          | 0,54                 |
+| AQ111PL40   | 40     | 32  | 32,6    | 3,7         | 40    | 0,41          | 0,83                 |
+| AQ111PL50   | 50     | 40  | 40,8    | 4,6         | 20    | 0,64          | 1,31                 |
+| AQ111PL63   | 63     | 50  | 51,4    | 5,8         | 20    | 1,01          | 2,07                 |
+| AQ111PL75   | 75     | –   | 61,4    | 6,8         | 12    | 1,41          | 2,96                 |
+| AQ111PL90   | 90     | 65  | 73,6    | 8,2         | 8     | 2,03          | 4,25                 |
+| AQ111PL110  | 110    | 80  | 90      | 10,0        | 4     | 3,01          | 6,36                 |
+| AQ111PL125  | 125    | 100 | 102,2   | 11,4        | 4     | 3,91          | 8,20                 |
+| AQ111PL160  | 160    | 125 | 130,8   | 14,6        | 4     | 6,38          | 13,43                |
 
 ## Specifications
 - Material: PP-R
+- Colour: outside layer purple, inside layer green
 - Standard: SDR 11 / S 5
-- Colour: Purple (violet)
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 1,2 MPa
+- Max. operating pressure at 60°C: 0,6 MPa
+- Length: 4 m per bar
 
 ## SEO-CONTENT-DE
 ### K-Pipe Purple PP-R SDR 11: Die ultimative Lösung für Brauchwasser- und Regenwassernutzungsanlagen
@@ -37,10 +50,11 @@ Die technische Auslegung des K-Pipe Purple PP-R SDR 11 basiert auf den strengen 
 - Bei 60°C Wassertemperatur ist das Rohr für einen Betriebsdruck von 0,6 MPa (6 bar) zugelassen, was es ideal für temperierte Brauchwassersysteme oder bestimmte landwirtschaftliche und industrielle Prozesse macht.
 
 Das Rohr wird in praktischen 4-Meter-Stangen geliefert, was das Handling auf der Baustelle erleichtert, den Transport vereinfacht und gleichzeitig die Anzahl der benötigten Schweißverbindungen im Vergleich zu kürzeren Stücken minimiert. Die verfügbaren Außendurchmesser (d) decken eine breite Palette von Durchflussanforderungen ab:
-- 20 mm (AQ11PL20): Ideal für Endabzweigungen und kleinere Verbraucher.
-- 25 mm (AQ11PL25): Mit einer Wandstärke (s) von 2,0 mm und einem Gewicht von 0,16 kg/m perfekt für Stockwerksverteilungen.
-- 32 mm (AQ11PL32): Wandstärke 2,5 mm, für größere Verteilstränge.
-- 40 mm (AQ11PL40) & 50 mm (AQ11PL50): Für Hauptsteigleitungen und industrielle Großanlagen, die ein hohes Wasservolumen bei geringem Druckverlust benötigen.
+- 20 mm (AQ111PL20): Ideal für Endabzweigungen und kleinere Verbraucher.
+- 25 mm (AQ111PL25): Mit einer Wandstärke (s) von 2,3 mm und einem Gewicht von 0,16 kg/m perfekt für Stockwerksverteilungen.
+- 32 mm (AQ111PL32): Wandstärke 2,9 mm, für größere Verteilstränge.
+- 40 mm (AQ111PL40) & 50 mm (AQ111PL50): Für Hauptsteigleitungen und industrielle Großanlagen, die ein hohes Wasservolumen bei geringem Druckverlust benötigen.
+- Ergänzt wird das Programm durch die Dimensionen 63, 75, 90, 110, 125 und 160 mm – insgesamt 11 Größen von 20 mm bis 160 mm.
 
 #### Die Vorteile des Materials Polypropylen Random Copolymer (PP-R)
 Die Wahl von PP-R als Grundmaterial für das K-Pipe Purple SDR 11 ist kein Zufall. PP-R bringt eine Vielzahl physikalischer und chemischer Vorteile mit sich, die es metallischen Rohren und anderen Kunststoffen überlegen machen:
@@ -72,10 +86,11 @@ The technical design of the K-Pipe Purple PP-R SDR 11 is firmly based on the str
 - At an elevated temperature of 60°C, the pipe is fully certified for a working pressure of 0.6 MPa (6 bar). This makes it highly suitable for tempered reclaimed water systems, specific agricultural applications, and industrial cooling cycles where thermal stability is required.
 
 To facilitate logical logistics and efficient on-site handling, the pipe is supplied in convenient 4-meter straight lengths (bars). This length is ideal for transport in standard vehicles while minimizing the total number of fusion joints required compared to shorter segments. The comprehensive range of available outer diameters (d) covers virtually any flow requirement:
-- 20 mm (AQ11PL20): The perfect choice for final branch lines feeding individual fixtures like toilets or washing machines.
-- 25 mm (AQ11PL25): Featuring a wall thickness (s) of 2.0 mm and a weight of 0.16 kg/m, this is the standard for floor-level distribution manifolds.
-- 32 mm (AQ11PL32): With a 2.5 mm wall thickness, ideal for intermediate sub-mains.
-- 40 mm (AQ11PL40) & 50 mm (AQ11PL50): The heavyweight options for primary vertical risers and large-scale industrial plants demanding high volumetric flow rates with minimal pressure drop.
+- 20 mm (AQ111PL20): The perfect choice for final branch lines feeding individual fixtures like toilets or washing machines.
+- 25 mm (AQ111PL25): Featuring a wall thickness (s) of 2.3 mm and a weight of 0.16 kg/m, this is the standard for floor-level distribution manifolds.
+- 32 mm (AQ111PL32): With a 2.9 mm wall thickness, ideal for intermediate sub-mains.
+- 40 mm (AQ111PL40) & 50 mm (AQ111PL50): The heavyweight options for primary vertical risers and large-scale industrial plants demanding high volumetric flow rates with minimal pressure drop.
+- The programme is completed by the 63, 75, 90, 110, 125 and 160 mm dimensions — 11 sizes in total, from 20 mm to 160 mm.
 
 #### The Distinct Advantages of Polypropylene Random Copolymer (PP-R)
 The selection of PP-R as the foundational material for the K-Pipe Purple SDR 11 is driven by its extraordinary physical and chemical properties, rendering it vastly superior to traditional metallic pipes (like copper or galvanized steel) and older generation plastics:
@@ -106,10 +121,11 @@ The joining of K-Pipe Purple PP-R SDR 11 pipes and associated fittings is achiev
 - عند درجات الحرارة المرتفعة التي تصل إلى 60 درجة مئوية، يكون الأنبوب معتمدًا بالكامل لتحمل ضغط عمل يبلغ 0.6 ميجا باسكال (6 بار). هذا يجعله مناسبًا للغاية لأنظمة المياه المستصلحة المعتدلة الحرارة، والتطبيقات الزراعية المحددة، ودوائر التبريد الصناعية التي تتطلب استقرارًا حراريًا.
 
 لتسهيل الخدمات اللوجستية والمناولة الفعالة في مواقع العمل، يتم توريد الأنابيب في أطوال مستقيمة عملية تبلغ 4 أمتار للقطعة الواحدة. هذا الطول مثالي للنقل في المركبات القياسية مع تقليل العدد الإجمالي لوصلات اللحام المطلوبة مقارنة بالقطع الأقصر. وتغطي المجموعة الشاملة من الأقطار الخارجية (d) المتاحة تقريبًا أي متطلبات لتدفق المياه:
-- 20 مم (AQ11PL20): الخيار المثالي للخطوط الفرعية النهائية التي تغذي التركيبات الفردية مثل صناديق طرد المراحيض أو غسالات الملابس.
-- 25 مم (AQ11PL25): يتميز بسماكة جدار (s) تبلغ 2.0 مم ووزن 0.16 كجم/متر، وهو المعيار لمجمعات التوزيع على مستوى الطوابق.
-- 32 مم (AQ11PL32): بسماكة جدار تبلغ 2.5 مم، مما يجعله مثاليًا للخطوط الرئيسية الفرعية المتوسطة.
-- 40 مم (AQ11PL40) و 50 مم (AQ11PL50): الخيارات ذات الوزن الثقيل للصواعد الرأسية الرئيسية والمنشآت الصناعية الكبيرة التي تتطلب معدلات تدفق حجمية عالية مع أقل قدر ممكن من فقدان الضغط (هبوط الضغط).
+- 20 مم (AQ111PL20): الخيار المثالي للخطوط الفرعية النهائية التي تغذي التركيبات الفردية مثل صناديق طرد المراحيض أو غسالات الملابس.
+- 25 مم (AQ111PL25): يتميز بسماكة جدار (s) تبلغ 2.3 مم ووزن 0.16 كجم/متر، وهو المعيار لمجمعات التوزيع على مستوى الطوابق.
+- 32 مم (AQ111PL32): بسماكة جدار تبلغ 2.9 مم، مما يجعله مثاليًا للخطوط الرئيسية الفرعية المتوسطة.
+- 40 مم (AQ111PL40) و 50 مم (AQ111PL50): الخيارات ذات الوزن الثقيل للصواعد الرأسية الرئيسية والمنشآت الصناعية الكبيرة التي تتطلب معدلات تدفق حجمية عالية مع أقل قدر ممكن من فقدان الضغط (هبوط الضغط).
+- وتكتمل المجموعة بالمقاسات 63 و75 و90 و110 و125 و160 مم، أي 11 مقاساً إجمالاً من 20 مم إلى 160 مم.
 
 #### المزايا الفريدة لمادة البولي بروبيلين العشوائي (PP-R)
 لم يكن اختيار مادة PP-R كمادة أساسية لصناعة K-Pipe Purple SDR 11 وليد الصدفة، بل جاء نتيجة لخصائصها الفيزيائية والكيميائية الاستثنائية، مما يجعلها تتفوق بشكل كبير على الأنابيب المعدنية التقليدية (مثل النحاس أو الصلب المجلفن) والبلاستيك من الأجيال القديمة:

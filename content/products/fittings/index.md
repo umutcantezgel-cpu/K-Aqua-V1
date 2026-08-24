@@ -13,24 +13,26 @@ PP-R socket fusion and electrofusion fittings. All fittings are compatible with 
 
 | Product | Sizes (mm) | Codes |
 |---------|-----------|-------|
-| [Cap](./cap.md) | 20–75 | AQ30120–AQ30175 |
-| [Socket](./socket.md) | 20–75 | AQ27020–AQ27075 |
-| [Elbow 45°](./elbow-45.md) | 20–75 | AQ04520–AQ04575 |
+| [Cap](./cap.md) | 20–315 | AQ30120–AQ301315 |
+| [Socket](./socket.md) | 20–125 | AQ27020–AQ270125 |
+| [Elbow 45°](./elbow-45.md) | 20–315 | AQ04520–AQ045315 |
 | [Elbow 45° Female/Male](./elbow-45-femalemale.md) | 20–25 | AQ04120–AQ04125 |
-| [Elbow 90°](./elbow-90.md) | 20–75 | AQ09020–AQ09075 |
+| [Elbow 90°](./elbow-90.md) | 20–315 | AQ09020–AQ090315 |
 | [Elbow 90° Female/Male](./elbow-90-femalemale.md) | 20–25 | AQ09120–AQ09125 |
-| [Reducing Bush](./reducing-bush.md) | 25×20–50×20 | AQ2432520–AQ2435020 |
-| [Tee](./tee.md) | 20–75 | AQ13020–AQ13075 |
-| [Reducing Tee](./reducing-tee.md) | 25×20–50×20 | AQ1302520–AQ1305020 |
-| [Reducing Tee (Large)](./reducing-tee-large-sizes.md) | 63×20–75×32 | AQ1506320–AQ1507532 |
+| [Reducing Bush](./reducing-bush.md) | 25×20–315×250 | AQ2432520–AQ243315250 |
+| [Tee](./tee.md) | 20–315 | AQ13020–AQ130315 |
+| [Reducing Tee](./reducing-tee.md) | 25×20–315×250 | AQ1302520–AQ130315250 |
+| [Reducing Tee (Large)](./reducing-tee-large-sizes.md) | 63×20–315×250 | AQ1306320–AQ130315250 |
 | [Cross](./cross.md) | 25–32 | AQ18025–AQ18032 |
-| [Cross Over](./cross-over.md) | 20–32 | AQ26720–AQ26732 |
+| [Cross Over](./cross-over.md) | 20–32 | AQ28720–AQ28732 |
 | [Cross Over Pipe](./cross-over-pipe.md) | 20–32 | AQ28520–AQ28532 |
-| [Flange Adaptor](./flange-adaptor.md) | 40–125 | AQ79040–AQ790125 |
-| [Electrofusion Socket](./electrofusion-socket.md) | 20–75 | AQ27E20–AQ27E75 |
+| [Flange Adaptor](./flange-adaptor.md) | 40–315 | AQ79040–AQ790315 |
+| [Electrofusion Socket](./electrofusion-socket.md) | 20–315 | AQ27120–AQ271315 |
 
 ## Material
 PP-R (Polypropylene Random Copolymer) - socket fusion welding system, compatible with SF and BF tools.
+Sizes d 160–315 mm are jointed by butt-fusion or electrofusion welding (SDR 11).
+Source: KA-Katalog_GB_06-2025, S. 84–92.
 
 ## SEO-CONTENT-DE
 ## Hochwertige PP-R Fittings für maximale Sicherheit in der Sanitär- und Heizungsinstallation

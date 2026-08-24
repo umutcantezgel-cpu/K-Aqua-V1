@@ -2,7 +2,10 @@
 title: "Metal Union in Brass CW617N (Female)"
 category: "Transition Fittings"
 slug: "transition-fittings/metal-union-female-thread-brass"
-article_codes: ["AQ70RP20","AQ70RP25","AQ70RP32","AQ70RP40","AQ70RP50"]
+article_codes: ["AQ53220", "AQ53225", "AQ53232", "AQ53240", "AQ53250", "AQ53263"]
+colour: "green (PP-R nut) with yellow brass (CW617N) body"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226", "EN ISO 228"]
+source: "KA-Katalog_GB_06-2025, S. 98"
 ---
 
 # Metal Union with PP-R Nut in Yellow Brass CW617N (Female Thread)
@@ -11,16 +14,27 @@ Union connector - PP-R socket on one side, female brass thread (Rp) on the other
 
 ## Article Table
 
-| Code     | d (mm) | Rp Thread | Pack |
-|----------|--------|-----------|------|
-| AQ70RP20 | 20     | ½"        | -    |
-| AQ70RP25 | 25     | ¾"        | -    |
-| AQ70RP32 | 32     | 1"        | -    |
-| AQ70RP40 | 40     | 1¼"       | -    |
-| AQ70RP50 | 50     | 1½"       | -    |
+| Code    | d  | Rp      | DN | G     | L  | l  | l₁ | SW  | SW₁ | Pack. |
+|---------|----|---------|----|-------|----|----|----|-----|-----|-------|
+| AQ53220 | 20 | 1/2 "   | 15 | 1     | 38 | 19 | 16 | 38  | 26  | 100   |
+| AQ53225 | 25 | 3/4 "   | 20 | 1 3/4 | 43 | 22 | 18 | 48  | 32  | 100   |
+| AQ53232 | 32 | 1 "     | 25 | 1 1/2 | 48 | 23 | 23 | 54  | 37  | 100   |
+| AQ53240 | 40 | 1 1/4 " | 32 | 2     | 55 | 26 | 26 | 73  | 47  | 25    |
+| AQ53250 | 50 | 1 1/2 " | 40 | 2 1/4 | 58 | 29 | 26 | 85  | 55  | 25    |
+| AQ53263 | 63 | 2 "     | 50 | 2 3/4 | 63 | 32 | 28 | 107 | 64  | 18    |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 mm
+All linear dimensions in mm. The catalogue gives no weight column for this table.
+
+## Specifications
+- Material: yellow brass CW617N body with PP-R union nut
+- Colour: green (PP-R nut) with yellow brass (CW617N) body
+- Connection: socket fusion (d) to female thread (Rp), detachable via union nut
+- Thread: Rp 1/2 " – 2 "
+- Union nut thread G: 1 – 2 3/4
+- Nominal size DN: 15 – 50
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226, EN ISO 228
+- Socket sizes d: 20 · 25 · 32 · 40 · 50 · 63 mm
+- 6 article numbers
 
 ## SEO-CONTENT-DE
 ### Die ultimative Lösung für Rohrverbindungen: Die Metallverschraubung aus Messing CW617N mit Innengewinde (Metal Union in Brass Female)
@@ -38,11 +52,12 @@ Die Kombination zweier so unterschiedlicher, aber sich perfekt ergänzender Mate
 #### Technische Spezifikationen und Dimensionen
 Um eine maximale Kompatibilität mit bestehenden und neuen Rohrleitungssystemen zu gewährleisten, ist die Metallverschraubung aus Messing CW617N mit Innengewinde in einer breiten Palette von Größen erhältlich. Die Produktpalette deckt die gängigsten Rohraußendurchmesser ab und bietet die entsprechenden metrischen Gewindeanschlüsse:
 
-- AQ70RP20: Diese Variante ist für PP-R-Rohre mit einem Außendurchmesser von 20 mm konzipiert und verfügt über ein ½" (Zoll) Innengewinde. Sie ist ideal für den Anschluss einzelner Zapfstellen oder kleinerer Verteilerleitungen.
-- AQ70RP25: Ausgelegt für 25 mm Rohre, bietet diese Verschraubung ein ¾" Innengewinde. Ein Standardmaß für Steigleitungen und größere Entnahmestellen im Wohnungsbau.
-- AQ70RP32: Mit einem Anschluss für 32 mm Rohre und einem 1" Innengewinde eignet sich dieses Modell hervorragend für Hauptverteilungsleitungen in Mehrfamilienhäusern oder kleineren gewerblichen Objekten.
-- AQ70RP40: Diese Größe für 40 mm Rohre mit 1¼" Innengewinde ist prädestiniert für den industriellen Einsatz und für große Heizungs- und Kühlkreisläufe.
-- AQ70RP50: Das größte Standardmodell für 50 mm Rohre mit einem massiven 1½" Innengewinde bietet maximale Durchflussraten für anspruchsvolle kommerzielle und industrielle Anwendungen.
+- AQ53220: Diese Variante ist für PP-R-Rohre mit einem Außendurchmesser von 20 mm konzipiert und verfügt über ein ½" (Zoll) Innengewinde. Sie ist ideal für den Anschluss einzelner Zapfstellen oder kleinerer Verteilerleitungen.
+- AQ53225: Ausgelegt für 25 mm Rohre, bietet diese Verschraubung ein ¾" Innengewinde. Ein Standardmaß für Steigleitungen und größere Entnahmestellen im Wohnungsbau.
+- AQ53232: Mit einem Anschluss für 32 mm Rohre und einem 1" Innengewinde eignet sich dieses Modell hervorragend für Hauptverteilungsleitungen in Mehrfamilienhäusern oder kleineren gewerblichen Objekten.
+- AQ53240: Diese Größe für 40 mm Rohre mit 1¼" Innengewinde ist prädestiniert für den industriellen Einsatz und für große Heizungs- und Kühlkreisläufe.
+- AQ53250: Das Modell für 50 mm Rohre mit einem massiven 1½" Innengewinde bietet hohe Durchflussraten für anspruchsvolle kommerzielle und industrielle Anwendungen.
+- AQ53263: Das größte Standardmodell für 63 mm Rohre mit einem 2" Innengewinde bietet maximale Durchflussraten für schwere industrielle Anwendungen.
 
 Alle Innengewinde entsprechen der Rp-Norm (zylindrisches Rohrinnengewinde), was eine universelle Passform und eine dauerhaft dichte Verbindung mit entsprechenden konischen oder zylindrischen Außengewinden sicherstellt.
 

@@ -5,15 +5,24 @@ titleAR: "آلة اللحام الكهربائي"
 category: "Tools"
 slug: "tools/electrofusion-machine"
 article_codes: ["AQ990"]
+source: "KA-Katalog_GB_06-2025, S. 117"
 ---
 
 # Electrofusion Machine
 
-Control unit for electrofusion fittings - barcode-scanning, automatic welding parameter control.
+Catalogue designation: **Electrofusion machine**.  
+Control unit for welding electrofusion fittings (see Electrofusion coupler AQ271, catalogue chapter Fittings).
 
-| Code  | Pack |
-|-------|------|
-| AQ990 | 1    |
+## Article Table
+
+| Code  | Pack. |
+|-------|-------|
+| AQ990 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Application: welding of electrofusion fittings
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Elektroschweißgerät AQ990: Höchste Präzision bei der Rohrverbindung

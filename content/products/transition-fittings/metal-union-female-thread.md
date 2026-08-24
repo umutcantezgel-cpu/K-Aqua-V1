@@ -2,25 +2,39 @@
 title: "Metal Union with PP-R Nut (Female Thread)"
 category: "Transition Fittings"
 slug: "transition-fittings/metal-union-female-thread"
-article_codes: ["AQ71RP20","AQ71RP25","AQ71RP32","AQ71RP40","AQ71RP50"]
+article_codes: ["AQ54220", "AQ54225", "AQ54232", "AQ54240", "AQ54250", "AQ54263"]
+colour: "green (PP-R nut) with metal union body"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226", "EN ISO 228"]
+source: "KA-Katalog_GB_06-2025, S. 97"
 ---
 
 # Metal Union with PP-R Nut (Female Thread)
 
-Union connector - PP-R socket on one side, female thread (Rp) on the other. Standard brass version.
+Detachable union connector - PP-R socket on one side, female thread (Rp) on the other, joined by a PP-R union nut.
 
 ## Article Table
 
-| Code     | d (mm) | Rp Thread | Pack |
-|----------|--------|-----------|------|
-| AQ71RP20 | 20     | ½"        | -    |
-| AQ71RP25 | 25     | ¾"        | -    |
-| AQ71RP32 | 32     | 1"        | -    |
-| AQ71RP40 | 40     | 1¼"       | -    |
-| AQ71RP50 | 50     | 1½"       | -    |
+| Code    | d  | Rp      | DN | G     | L  | l  | l₁ | SW  | SW₁ | Pack. |
+|---------|----|---------|----|-------|----|----|----|-----|-----|-------|
+| AQ54220 | 20 | 1/2 "   | 15 | 1     | 38 | 19 | 16 | 38  | 26  | 100   |
+| AQ54225 | 25 | 3/4 "   | 20 | 1 3/4 | 43 | 22 | 18 | 48  | 32  | 100   |
+| AQ54232 | 32 | 1 "     | 25 | 1 1/2 | 48 | 23 | 23 | 54  | 37  | 100   |
+| AQ54240 | 40 | 1 1/4 " | 32 | 2     | 55 | 26 | 26 | 73  | 47  | 25    |
+| AQ54250 | 50 | 1 1/2 " | 40 | 2 1/4 | 58 | 29 | 26 | 85  | 55  | 25    |
+| AQ54263 | 63 | 2 "     | 50 | 2 3/4 | 63 | 32 | 28 | 107 | 64  | 18    |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 mm
+All linear dimensions in mm. The catalogue gives no weight column for this table.
+
+## Specifications
+- Material: metal union body with PP-R union nut (the catalogue does not name the body alloy for this range; the yellow brass CW617N version is listed separately on page 98)
+- Colour: green (PP-R nut) with metal union body
+- Connection: socket fusion (d) to female thread (Rp), detachable via union nut
+- Thread: Rp 1/2 " – 2 "
+- Union nut thread G: 1 – 2 3/4
+- Nominal size DN: 15 – 50
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226, EN ISO 228
+- Socket sizes d: 20 · 25 · 32 · 40 · 50 · 63 mm
+- 6 article numbers
 
 ## SEO-CONTENT-DE
 ### Hochwertige Metallverschraubung mit PP-R Mutter (Innengewinde) für anspruchsvolle Rohrleitungssysteme

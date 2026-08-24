@@ -2,22 +2,29 @@
 title: "Battery (Female Thread)"
 category: "Valves"
 slug: "valves/battery-female-thread"
-article_codes: ["AQ64RCG20","AQ64RCG25"]
+article_codes: ["AQ490G2012", "AQ490G2512"]
+source: "KA-Katalog_GB_06-2025, S. 108"
 ---
 
 # Battery (Female Thread)
 
-PP-R distribution manifold (battery) with female thread outlets - for underfloor heating or multiple circuit distribution.
+Catalogue designation: **Battery (Female thread)**.  
+Battery with two female thread outlets and welding sockets d - fixed length L.
 
 ## Article Table
 
-| Code       | d (mm) | Rp  | L (mm) | Weight (kg) | Pack |
-|------------|--------|-----|--------|-------------|------|
-| AQ64RCG20  | 20     | ½"  | 166    | 0.38        | 1    |
-| AQ64RCG25  | 25     | ½"  | 166    | 0.38        | 1    |
+| Code       | d  | Rp    | L   | L1  | kg   | Pack. |
+|------------|----|-------|-----|-----|------|-------|
+| AQ490G2012 | 20 | 1/2 " | 150 | 185 | 0,18 | 1     |
+| AQ490G2512 | 25 | 1/2 " | 150 | 185 | 0,19 | 1     |
 
-## Available Sizes
-20 · 25 mm
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: Battery (Female thread)
+- Available sizes d: 20 · 25 mm
+- Female thread Rp: 1/2 "
+- L: 150 mm, L1: 185 mm
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Die PP-R Verteiler-Batterie mit Innengewinde: Revolution in der Heizungs- und Sanitärinstallation

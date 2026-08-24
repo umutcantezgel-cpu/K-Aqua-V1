@@ -5,15 +5,27 @@ titleAR: "ماكينة لحام يدوية (مجموعة حقيبة كاملة) 
 category: "Tools"
 slug: "tools/hand-welding-machine-2032-complete-set"
 article_codes: ["AQ98032"]
+source: "KA-Katalog_GB_06-2025, S. 114"
 ---
 
 # Hand Welding Machine 20–32 (Complete Set)
 
-Compact socket fusion welding machine for pipes Ø 20–32 mm.
+Catalogue designation: **Hand welding machine 20-32 (complete set)**.  
+Type AQ98032 consists of Polywelder and bushes dim 20-32 (catalogue p. 40, section 3.2).
 
-| Code    | Range (mm) | Pack |
-|---------|-----------|------|
-| AQ98032 | 20–32     | 1    |
+## Article Table
+
+| Code    | Pack. |
+|---------|-------|
+| AQ98032 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Type: AQ98032 — Polywelder with bushes, dim. 20–32 (catalogue p. 40)
+- Scope of delivery: delivered as a kit in a metal box (catalogue p. 40)
+- Thermoelement with electronic thermostat, temperature controlled automatically (catalogue p. 40)
+- Supply voltage: 230 V (catalogue p. 40)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Die Ultimative Hand-Schweißmaschine d20-d32 für Professionelle Rohrinstallationen

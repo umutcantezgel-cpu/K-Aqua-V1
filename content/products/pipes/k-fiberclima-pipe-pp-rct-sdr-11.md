@@ -2,7 +2,10 @@
 title: "K-Fiberclima Pipe PP-RCT SDR 11"
 category: "Pipes"
 slug: "pipes/k-fiberclima-pipe-pp-rct-sdr-11"
-article_codes: ["AQ160F20", "AQ160F25", "AQ160F32", "AQ160F40", "AQ160F50"]
+article_codes: ["AQ160F20", "AQ160F25", "AQ160F32", "AQ160F40", "AQ160F50", "AQ160F63", "AQ160F75", "AQ160F90", "AQ160F110", "AQ160F125", "AQ160F160", "AQ160F200", "AQ160F250", "AQ160F315", "AQ160F355", "AQ160F400", "AQ160F450", "AQ160F500"]
+colour: "green with 4 blue stripes"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 78"
 ---
 
 # K-Fiberclima Pipe PP-RCT SDR 11
@@ -12,18 +15,37 @@ Length: 4 m per bar. Optimised for HVAC and climate applications.
 
 ## Article Table
 
-| Code     | d (mm) | s (mm) | L (mm) | Weight (kg/m) | Pack |
-|----------|--------|--------|--------|---------------|------|
-| AQ160F20 | 20     | 2.8    | 144    | 0.16          | 100  |
-| AQ160F25 | 25     | 3.5    | 180    | 0.25          | 100  |
-| AQ160F32 | 32     | 2.9    | 252    | 0.28          | 60   |
-| AQ160F40 | 40     | 3.7    | 326    | 0.43          | 40   |
-| AQ160F50 | 50     | 4.6    | 408    | 0.67          | 20   |
+| Code       | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|------------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ160F20   | 20     | 15  | 14,4    | 2,8*        | 100   | 0,16          | 0,16                 |
+| AQ160F25   | 25     | 20  | 18,0    | 3,5*        | 100   | 0,25          | 0,25                 |
+| AQ160F32   | 32     | 25  | 26,2    | 2,9         | 60    | 0,28          | 0,54                 |
+| AQ160F40   | 40     | 32  | 32,6    | 3,7         | 40    | 0,43          | 0,83                 |
+| AQ160F50   | 50     | 40  | 40,8    | 4,6         | 20    | 0,67          | 1,31                 |
+| AQ160F63   | 63     | 50  | 51,4    | 5,8         | 20    | 1,04          | 2,07                 |
+| AQ160F75   | 75     | –   | 61,4    | 6,8         | 12    | 1,44          | 2,96                 |
+| AQ160F90   | 90     | 65  | 73,6    | 8,2         | 8     | 2,08          | 4,25                 |
+| AQ160F110  | 110    | 80  | 90,0    | 10,0        | 4     | 3,10          | 6,36                 |
+| AQ160F125  | 125    | 100 | 102,2   | 11,4        | 4     | 4,02          | 8,20                 |
+| AQ160F160  | 160    | 125 | 130,8   | 14,6        | 4     | 6,50          | 13,43                |
+| AQ160F200  | 200    | 160 | 163,6   | 18,2        | 4     | 10,09         | 21,01                |
+| AQ160F250  | 250    | 200 | 204,6   | 22,7        | 4     | 15,01         | 32,86                |
+| AQ160F315  | 315    | 250 | 257,8   | 28,6        | 4     | 24,67         | 52,17                |
+| AQ160F355  | 355    | 300 | 290,60  | 32,2        | 4     | 31,93         | 66,29                |
+| AQ160F400  | 400    | –   | 327,40  | 36,3        | 4     | 40,31         | 84,14                |
+| AQ160F450  | 450    | 350 | 368,20  | 40,9        | 4     | 49,96         | 106,28               |
+| AQ160F500  | 500    | 400 | 409,20  | 45,4        | 4     | 61,49         | 131,32               |
+
+\* SDR 7,4 - S 3,2
 
 ## Specifications
-- Material: PP-RCT with fiber composite middle layer
+- Material: PP-RCT GF
+- Colour: green with 4 blue stripes
 - Standard: SDR 11 / S 5
-- Application: Chilled water, heating, climate systems
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 1,6 MPa
+- Max. operating pressure at 70°C: 0,8 MPa
+- Length: 4 m per bar
 
 ## SEO-CONTENT-DE
 K-Fiberclima Pipe PP-RCT SDR 11: Die ultimative Lösung für Klimatechnik und Heizungssysteme

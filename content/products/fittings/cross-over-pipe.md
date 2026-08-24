@@ -5,6 +5,9 @@ titleAR: "مكون أنبوب التقاطع PP-R"
 category: "Fittings"
 slug: "fittings/cross-over-pipe"
 article_codes: ["AQ28520", "AQ28525", "AQ28532"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 91"
 ---
 
 # Cross Over Pipe
@@ -13,14 +16,19 @@ PP-R extended crossover pipe fitting.
 
 ## Article Table
 
-| Code    | d (mm) | L1 (mm) | L2 (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|---------|---------|--------|-------------|------|
-| AQ28520 | 20     | 54      | 53      | 36.5   | 0.06        | 100  |
-| AQ28525 | 25     | 42      | -       | 37.0   | 0.09        | 70   |
-| AQ28532 | 32     | 54      | 68      | 37.0   | 0.15        | 50   |
+| Code    | d  | s   | H  | L   | kg   | Pack. |
+|---------|----|-----|----|-----|------|-------|
+| AQ28520 | 20 | 3,4 | 53 | 365 | 0,06 | 100   |
+| AQ28525 | 25 | 4,2 | 56 | 370 | 0,09 | 70    |
+| AQ28532 | 32 | 5,4 | 68 | 370 | 0,15 | 50    |
 
-## Available Sizes
-20 · 25 · 32 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 · 25 · 32 mm
+- Jointing: socket fusion (plain pipe ends)
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### Der K-Aqua PP-R Sprungbogen (Cross Over Pipe): Die ultimative Lösung für kreuzende Rohrleitungen

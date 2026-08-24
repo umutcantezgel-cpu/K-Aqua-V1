@@ -2,27 +2,42 @@
 title: "Stub End"
 category: "Fittings"
 slug: "fittings/stub-end"
-article_codes: ["AQ79040", "AQ79050", "AQ79063", "AQ79075", "AQ79090", "AQ790110", "AQ790125"]
+article_codes: ["AQ79040", "AQ79050", "AQ79063", "AQ79075", "AQ79090", "AQ790110", "AQ790125", "AQ790160", "AQ790200", "AQ790250", "AQ790315"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 90"
 ---
 
 # Stub End
 
-PP-R socket fusion fitting for connecting to flanged equipment (valves, pumps, meters).
+PP-R socket fusion fitting for connecting to flanged equipment (valves, pumps, meters). Listed in the catalogue under the heading "Flange adaptor" (KA-Katalog_GB_06-2025, S. 90); identical article range to [Flange Adaptor](./flange-adaptor.md).
 
 ## Article Table
 
-| Code     | d (mm) | DN  | L (mm) | H (mm) | Weight (kg) | Pack |
-|----------|--------|-----|--------|--------|-------------|------|
-| AQ79040  | 40     | 40  | 60     | 29     | 0.15        | 8    |
-| AQ79050  | 50     | 50  | 70     | 38     | 0.19        | 8    |
-| AQ79063  | 63     | 65  | 40     | 95     | -           | 4    |
-| AQ79075  | 75     | 80  | 57     | 75     | -           | 4    |
-| AQ79090  | 90     | 90  | 65     | -      | -           | 2    |
-| AQ790110 | 110    | 100 | 57     | 58     | -           | 2    |
-| AQ790125 | 125    | 125 | 56     | 22     | -           | 1    |
+| Code     | d   | D   | l  | z    | h    | D1  | s    | kg   | Pack. |
+|----------|-----|-----|----|------|------|-----|------|------|-------|
+| AQ79040  | 40  | 60  | 29 | 7,4  | 7,8  | 50  | –    | 0,03 | 80    |
+| AQ79050  | 50  | 70  | 33 | 9,7  | 9,5  | 60  | –    | 0,05 | 60    |
+| AQ79063  | 63  | 89  | 40 | 12,9 | 15,5 | 76  | –    | 0,08 | 48    |
+| AQ79075  | 75  | 105 | 37 | 7,5  | 15   | 89  | –    | 0,13 | 40    |
+| AQ79090  | 90  | 125 | 46 | 9,5  | 19,5 | 109 | –    | 0,25 | 26    |
+| AQ790110 | 110 | 158 | 57 | 13   | 18   | 132 | –    | 0,38 | 12    |
+| AQ790125 | 125 | 162 | 62 | 13   | 21   | 146 | –    | 0,48 | 10    |
+| **SDR 11\*** |     |     |    |      |      |     |      |      |       |
+| AQ790160 | 160 | –   | –  | 207  | 25   | 212 | 14,6 | 1,8  | 1     |
+| AQ790200 | 200 | –   | –  | 201  | 32   | 269 | 18,2 | 3    | 1     |
+| AQ790250 | 250 | –   | –  | 220  | 35   | 320 | 22,7 | 4,9  | 1     |
+| AQ790315 | 315 | –   | –  | 239  | 35   | 370 | 28,6 | 7,5  | 1     |
 
-## Available Sizes
-40 · 50 · 63 · 75 · 90 · 110 · 125 mm
+\* SDR 11 jointing techniques: butt-fusion or electrofusion welding
+
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 40 – 315 mm
+- Jointing: socket fusion (d 40 – 125); SDR 11 sizes d 160 – 315: butt-fusion or electrofusion welding
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### K-Aqua PP-R Bundkragen (Flange Adaptor): Maximale Sicherheit für Ihre Rohrleitungssysteme

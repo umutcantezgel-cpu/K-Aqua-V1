@@ -4,7 +4,10 @@ titleDE: "T-Stück 90° (Außengewinde)"
 titleAR: "تي 90 درجة (ذكر)"
 category: "Transition Fittings"
 slug: "transition-fittings/tee-90-male-thread"
-article_codes: ["AQ13R20","AQ13R25","AQ13R32","AQ13R40"]
+article_codes: ["AQ133G2012", "AQ133G2034", "AQ133G2512", "AQ133G2534"]
+colour: "green (PP-R) with brass threaded insert"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
+source: "KA-Katalog_GB_06-2025, S. 99"
 ---
 
 # Tee 90° (Male Thread)
@@ -13,15 +16,23 @@ PP-R tee with two socket fusion ends and one male thread (R) branch outlet.
 
 ## Article Table
 
-| Code    | d (mm) | R Thread | Pack |
-|---------|--------|----------|------|
-| AQ13R20 | 20     | ½"       | -    |
-| AQ13R25 | 25     | ¾"       | -    |
-| AQ13R32 | 32     | 1"       | -    |
-| AQ13R40 | 40     | 1¼"      | -    |
+| Code       | d  | R     | D  | l  | z  | l1 | z1 | kg   | Pack. |
+|------------|----|-------|----|----|----|----|----|------|-------|
+| AQ133G2012 | 20 | 1/2 " | 29 | 28 | 14 | 34 | 49 | 0,11 | 100   |
+| AQ133G2034 | 20 | 3/4 " | 29 | 28 | 14 | 35 | 50 | 0,15 | 100   |
+| AQ133G2512 | 25 | 1/2 " | 34 | 32 | 16 | 38 | 53 | 0,11 | 80    |
+| AQ133G2534 | 25 | 3/4 " | 34 | 32 | 16 | 40 | 55 | 0,15 | 80    |
 
-## Available Sizes
-20 · 25 · 32 · 40 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass threaded insert
+- Colour: green (PP-R) with brass threaded insert
+- Connection: two socket fusion ends (d), male thread (R) branch outlet
+- Thread: R 1/2 " and 3/4 "
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226
+- Socket sizes d: 20 · 25 mm
+- 4 article numbers
 
 ## SEO-CONTENT-DE
 T-Stück 90° mit Außengewinde – Die optimale Lösung für Übergänge in PP-R-Rohrleitungssystemen

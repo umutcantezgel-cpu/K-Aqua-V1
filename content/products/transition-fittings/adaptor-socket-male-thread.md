@@ -2,7 +2,10 @@
 title: "Adaptor Socket (Male Thread)"
 category: "Transition Fittings"
 slug: "transition-fittings/adaptor-socket-male-thread"
-article_codes: ["AQ24R20","AQ24R25","AQ24R32","AQ24R40","AQ24R50","AQ24R63","AQ24R75","AQ24R90","AQ24R110","AQ24R125","AQ24R160"]
+article_codes: ["AQ243G2012", "AQ243G2034", "AQ243G2512", "AQ243G2534", "AQ243G3234", "AQ243G321", "AQ243G40114", "AQ243G50112", "AQ243G632", "AQ243G75212", "AQ243G903", "AQ243G1104"]
+colour: "green (PP-R) with brass threaded insert"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
+source: "KA-Katalog_GB_06-2025, S. 94"
 ---
 
 # Adaptor Socket (Male Thread)
@@ -11,22 +14,31 @@ PP-R socket fusion fitting with male thread (R) for transition to female-threade
 
 ## Article Table
 
-| Code     | d (mm) | R Thread | Pack |
-|----------|--------|----------|------|
-| AQ24R20  | 20     | ½"       | 100  |
-| AQ24R25  | 25     | ¾"       | 100  |
-| AQ24R32  | 32     | 1"       | 60   |
-| AQ24R40  | 40     | 1¼"      | 40   |
-| AQ24R50  | 50     | 1½"      | 20   |
-| AQ24R63  | 63     | 2"       | 20   |
-| AQ24R75  | 75     | 2½"      | 10   |
-| AQ24R90  | 90     | 3"       | 8    |
-| AQ24R110 | 110    | 4"       | 8    |
-| AQ24R125 | 125    | -        | 4    |
-| AQ24R160 | 160    | -        | 2    |
+| Code        | d   | R       | D   | D₁  | l   | z   | kg   | Pack. |
+|-------------|-----|---------|-----|-----|-----|-----|------|-------|
+| AQ243G2012  | 20  | 1/2 "   | 35  | 29  | 53  | 40  | 0,08 | 200   |
+| AQ243G2034  | 20  | 3/4 "   | 43  | 34  | 58  | 42  | 0,12 | 140   |
+| AQ243G2512  | 25  | 1/2 "   | 35  | 34  | 53  | 40  | 0,08 | 160   |
+| AQ243G2534  | 25  | 3/4 "   | 43  | 34  | 58  | 42  | 0,12 | 160   |
+| AQ243G3234  | 32  | 3/4 "   | 43  | 43  | 58  | 42  | 0,13 | 150   |
+| AQ243G321   | 32  | 1 "     | 50  | 43  | 66  | 48  | 0,19 | 75    |
+| AQ243G40114 | 40  | 1 1/4 " | 62  | 52  | 74  | 53  | 0,31 | 48    |
+| AQ243G50112 | 50  | 1 1/2 " | 69  | 64  | 77  | 54  | 0,35 | 36    |
+| AQ243G632   | 63  | 2 "     | 84  | 79  | 92  | 65  | 0,65 | 24    |
+| AQ243G75212 | 75  | 2 1/2 " | 112 | 99  | 112 | 82  | 1,19 | 8     |
+| AQ243G903   | 90  | 3 "     | 134 | 124 | 143 | 111 | 1,98 | 6     |
+| AQ243G1104  | 110 | 4 "     | 169 | 151 | 161 | 124 | 2,80 | 3     |
 
-## Available Sizes
-20–160 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass threaded insert
+- Colour: green (PP-R) with brass threaded insert
+- Connection: socket fusion (d) to male thread (R)
+- Thread: R 1/2 " – 4 " (taper male thread)
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226
+- Socket sizes d: 20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 · 110 mm
+- 12 article numbers
 
 ## SEO-CONTENT-DE
 Die Übergangsmuffe mit Außengewinde (Adaptor Socket Male Thread) aus Polypropylen Random Copolymer (PP-R) ist ein unverzichtbares Bauteil in modernen Rohrleitungssystemen. Dieses hochspezialisierte Fitting ermöglicht den nahtlosen und sicheren Übergang von Kunststoffrohren zu Metallkomponenten, Armaturen oder Geräten mit Innengewinde. In der Welt der Sanitär-, Heizungs- und Industrietechnik stellt diese Muffe ein Kernelement dar, um die Integrität und Dichtheit des gesamten Systems unter anspruchsvollen Bedingungen zu gewährleisten. 
@@ -37,19 +49,22 @@ Die K-Aqua Übergangsmuffe mit Außengewinde wird aus erstklassigem PP-R-Kunstst
 
 ### Technische Spezifikationen im Detail
 
-Unser Sortiment an Übergangsmuffen mit Außengewinde deckt alle gängigen Durchmesser und Gewindegrößen ab, um für jede Installation die passende Lösung zu bieten. Die verfügbaren Rohrdurchmesser (d) reichen von 20 mm bis zu stattlichen 160 mm. Entsprechend variieren die Außengewinde (R) von 1/2 Zoll für kleinere Anschlüsse bis hin zu 4 Zoll für industrielle Großanlagen. 
+Unser Sortiment an Übergangsmuffen mit Außengewinde deckt alle gängigen Durchmesser und Gewindegrößen ab, um für jede Installation die passende Lösung zu bieten. Die verfügbaren Rohrdurchmesser (d) reichen von 20 mm bis zu stattlichen 110 mm. Entsprechend variieren die Außengewinde (R) von 1/2 Zoll für kleinere Anschlüsse bis hin zu 4 Zoll für industrielle Großanlagen. 
 Die Artikeltabelle bietet einen klaren Überblick:
-- AQ24R20: 20 mm d, 1/2" R Thread
-- AQ24R25: 25 mm d, 3/4" R Thread
-- AQ24R32: 32 mm d, 1" R Thread
-- AQ24R40: 40 mm d, 1 1/4" R Thread
-- AQ24R50: 50 mm d, 1 1/2" R Thread
-- AQ24R63: 63 mm d, 2" R Thread
-- AQ24R75: 75 mm d, 2 1/2" R Thread
-- AQ24R90: 90 mm d, 3" R Thread
-- AQ24R110: 110 mm d, 4" R Thread
+- AQ243G2012: 20 mm d, 1/2" R Thread
+- AQ243G2034: 20 mm d, 3/4" R Thread
+- AQ243G2512: 25 mm d, 1/2" R Thread
+- AQ243G2534: 25 mm d, 3/4" R Thread
+- AQ243G3234: 32 mm d, 3/4" R Thread
+- AQ243G321: 32 mm d, 1" R Thread
+- AQ243G40114: 40 mm d, 1 1/4" R Thread
+- AQ243G50112: 50 mm d, 1 1/2" R Thread
+- AQ243G632: 63 mm d, 2" R Thread
+- AQ243G75212: 75 mm d, 2 1/2" R Thread
+- AQ243G903: 90 mm d, 3" R Thread
+- AQ243G1104: 110 mm d, 4" R Thread
 
-Für spezielle Hochleistungsanwendungen sind zudem die Größen 125 mm und 160 mm verfügbar, die extremen Durchflussraten standhalten. Diese Vielfalt garantiert, dass Installateure stets das exakt benötigte Bauteil zur Hand haben, was Planungs- und Installationszeiten erheblich reduziert.
+Für spezielle Hochleistungsanwendungen stehen die Großdimensionen 75 mm, 90 mm und 110 mm zur Verfügung, die extremen Durchflussraten standhalten. Die Sockelweiten 20 mm, 25 mm und 32 mm sind zudem in jeweils zwei Gewindevarianten erhältlich. Diese Vielfalt garantiert, dass Installateure stets das exakt benötigte Bauteil zur Hand haben, was Planungs- und Installationszeiten erheblich reduziert.
 
 ### Vielseitige Anwendungsbereiche
 

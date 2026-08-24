@@ -2,7 +2,10 @@
 title: "Metal Union in Brass CW617N (Male)"
 category: "Transition Fittings"
 slug: "transition-fittings/metal-union-male-thread-brass"
-article_codes: ["AQ70R20","AQ70R25","AQ70R32","AQ70R40","AQ70R50"]
+article_codes: ["AQ53720", "AQ53725", "AQ53732", "AQ53740", "AQ53750", "AQ53763"]
+colour: "green (PP-R nut) with yellow brass (CW617N) body"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226", "EN ISO 228"]
+source: "KA-Katalog_GB_06-2025, S. 98"
 ---
 
 # Metal Union with PP-R Nut in Yellow Brass CW617N (Male Thread)
@@ -11,16 +14,27 @@ Union connector - PP-R socket on one side, male brass thread (R) on the other. M
 
 ## Article Table
 
-| Code    | d (mm) | R Thread | Pack |
-|---------|--------|----------|------|
-| AQ70R20 | 20     | ½"       | -    |
-| AQ70R25 | 25     | ¾"       | -    |
-| AQ70R32 | 32     | 1"       | -    |
-| AQ70R40 | 40     | 1¼"      | -    |
-| AQ70R50 | 50     | 1½"      | -    |
+| Code    | d  | R       | DN | G     | L  | l  | l₁ | SW  | SW₁ | Pack. |
+|---------|----|---------|----|-------|----|----|----|-----|-----|-------|
+| AQ53720 | 20 | 1/2 "   | 15 | 1     | 51 | 19 | 29 | 38  | 26  | 100   |
+| AQ53725 | 25 | 3/4 "   | 20 | 1 3/4 | 57 | 22 | 31 | 48  | 32  | 100   |
+| AQ53732 | 32 | 1 "     | 25 | 1 1/2 | 65 | 23 | 38 | 54  | 37  | 100   |
+| AQ53740 | 40 | 1 1/4 " | 32 | 2     | 73 | 26 | 44 | 73  | 47  | 25    |
+| AQ53750 | 50 | 1 1/2 " | 40 | 2 1/4 | 76 | 29 | 44 | 85  | 55  | 25    |
+| AQ53763 | 63 | 2 "     | 50 | 2 3/4 | 85 | 32 | 50 | 107 | 64  | 18    |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 mm
+All linear dimensions in mm. The catalogue gives no weight column for this table.
+
+## Specifications
+- Material: yellow brass CW617N body with PP-R union nut
+- Colour: green (PP-R nut) with yellow brass (CW617N) body
+- Connection: socket fusion (d) to male thread (R), detachable via union nut
+- Thread: R 1/2 " – 2 "
+- Union nut thread G: 1 – 2 3/4
+- Nominal size DN: 15 – 50
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226, EN ISO 228
+- Socket sizes d: 20 · 25 · 32 · 40 · 50 · 63 mm
+- 6 article numbers
 
 ## SEO-CONTENT-DE
 
@@ -48,11 +62,12 @@ Vorteile von CW617N in der Übersicht:
 
 Unsere Metallverschraubung mit PP-R Mutter und Außengewinde deckt ein breites Spektrum an Dimensionen ab, um für jedes Projekt die passende Lösung bereitzustellen. Die verfügbaren Kombinationen aus Rohr-Außendurchmesser (d in mm) und Gewindegröße (R in Zoll) gewährleisten höchste Kompatibilität mit Standard-Installationsmaterialien:
 
-- AQ70R20: d 20 mm x ½" (Halbzoll) Außengewinde – Ideal für den Etagenbau, Einzelzapfstellen und Heizkörperanbindungen.
-- AQ70R25: d 25 mm x ¾" (Dreiviertelzoll) Außengewinde – Perfekt für Steigleitungen und mittlere Verteilernetze.
-- AQ70R32: d 32 mm x 1" (Einzoll) Außengewinde – Eingesetzt bei Hauptverteilungen und in gewerblichen Sanitäranlagen.
-- AQ70R40: d 40 mm x 1¼" (Einviertelzoll) Außengewinde – Für industrielle Anwendungen und große Volumenströme.
-- AQ70R50: d 50 mm x 1½" (Eineinhalbzoll) Außengewinde – Maßgeschneidert für Hauptanschlussleitungen und industrielle Kühlsysteme.
+- AQ53720: d 20 mm x ½" (Halbzoll) Außengewinde – Ideal für den Etagenbau, Einzelzapfstellen und Heizkörperanbindungen.
+- AQ53725: d 25 mm x ¾" (Dreiviertelzoll) Außengewinde – Perfekt für Steigleitungen und mittlere Verteilernetze.
+- AQ53732: d 32 mm x 1" (Einzoll) Außengewinde – Eingesetzt bei Hauptverteilungen und in gewerblichen Sanitäranlagen.
+- AQ53740: d 40 mm x 1¼" (Einviertelzoll) Außengewinde – Für industrielle Anwendungen und große Volumenströme.
+- AQ53750: d 50 mm x 1½" (Eineinhalbzoll) Außengewinde – Maßgeschneidert für Hauptanschlussleitungen und industrielle Kühlsysteme.
+- AQ53763: d 63 mm x 2" (Zweizoll) Außengewinde – Für Hauptverteilungen und industrielle Anlagen mit maximalem Durchfluss.
 
 #### Anwendungsbereiche und Einsatzgebiete
 

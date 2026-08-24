@@ -4,7 +4,10 @@ titleDE: "Wandwinkel 90° (Innengewinde)"
 titleAR: "كوع تثبيت جداري 90 درجة (تسنين داخلي)"
 category: "Transition Fittings"
 slug: "transition-fittings/elbow-wall-bracket-90-female-thread"
-article_codes: ["AQ09WBRP20","AQ09WBRP25","AQ09WBRP32","AQ09WBRP40"]
+article_codes: ["AQ472G2012", "AQ472G2512", "AQ472G2534", "AQ472G3234", "AQ472G321"]
+colour: "green (PP-R) with brass threaded insert"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
+source: "KA-Katalog_GB_06-2025, S. 95"
 ---
 
 # Elbow/Wall Bracket 90° (Female Thread)
@@ -13,15 +16,24 @@ PP-R elbow with double-sided wall mounting bracket and female thread - for fixed
 
 ## Article Table
 
-| Code       | d (mm) | Rp Thread | Pack |
-|------------|--------|-----------|------|
-| AQ09WBRP20 | 20     | ½"        | -    |
-| AQ09WBRP25 | 25     | ¾"        | -    |
-| AQ09WBRP32 | 32     | 1"        | -    |
-| AQ09WBRP40 | 40     | 1¼"       | -    |
+| Code       | d  | Rp    | D  | L  | z  | h  | D₁ | L₁ | z₁ | kg   | Pack. |
+|------------|----|-------|----|----|----|----|----|----|----|------|-------|
+| AQ472G2012 | 20 | 1/2 " | 35 | 35 | 21 | 15 | 29 | 27 | 11 | 0,08 | 150   |
+| AQ472G2512 | 25 | 1/2 " | 35 | 37 | 23 | 17 | 34 | 30 | 14 | 0,09 | 130   |
+| AQ472G2534 | 25 | 3/4 " | 43 | 43 | 28 | 22 | 34 | 35 | 19 | 0,14 | 90    |
+| AQ472G3234 | 32 | 3/4 " | 43 | 43 | 28 | 22 | 43 | 35 | 17 | 0,15 | 60    |
+| AQ472G321  | 32 | 1 "   | 43 | 43 | 28 | 22 | 43 | 35 | 17 | 0,17 | 60    |
 
-## Available Sizes
-20 · 25 · 32 · 40 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass threaded insert
+- Colour: green (PP-R) with brass threaded insert
+- Connection: socket fusion (d) to female thread (Rp), 90° with wall bracket
+- Thread: Rp 1/2 " and 3/4 " and 1 "
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226
+- Socket sizes d: 20 · 25 · 32 mm
+- 5 article numbers
 
 ## SEO-CONTENT-DE
 Der PP-R Wandwinkel 90° mit Innengewinde und Wandbefestigung (Elbow/Wall Bracket 90° Female Thread) ist ein unverzichtbares Bauteil in der modernen Sanitär- und Heizungsinstallation. Dieser hochwertige PP-R Übergangswinkel wurde speziell für die sichere und dauerhafte Wandmontage von Armaturen, Ventilen und Entnahmestellen entwickelt. Dank der beidseitigen Wandbefestigung (Flansch) bietet der Wandwinkel eine extrem stabile Fixierung auf unterschiedlichen Untergründen wie Mauerwerk, Beton oder Vorwandinstallationen. Die Kombination aus hochmolekularem Polypropylen Random-Copolymer (PP-R) und einem präzisionsgefertigten, korrosionsbeständigen Innengewinde aus Metall gewährleistet maximale Langlebigkeit und Zuverlässigkeit in Trinkwasser- und Heizungssystemen.

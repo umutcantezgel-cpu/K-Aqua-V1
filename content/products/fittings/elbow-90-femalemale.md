@@ -4,7 +4,10 @@ titleDE: "PP-R Winkel 90° Innen/Außen"
 titleAR: "كوع PP-R زاوية 90 درجة أنثى/ذكر"
 category: "Fittings"
 slug: "fittings/elbow-90-femalemale"
-article_codes: ["AQ09020FM", "AQ09025FM", "AQ09032FM"]
+article_codes: ["AQ09120", "AQ09125"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 85"
 ---
 
 # Elbow 90° Female/Male
@@ -19,14 +22,18 @@ By halving the required number of welds for a 90-degree transition, the K-Aqua 9
 
 ## Article Table
 
-| Code      | d (mm) | Weight (kg) | Pack |
-|-----------|--------|-------------|------|
-| AQ09020FM | 20     | 0.02        | 300  |
-| AQ09025FM | 25     | 0.02        | 180  |
-| AQ09032FM | 32     | 0.05        | 100  |
+| Code    | d  | D  | l  | z  | z1 | kg   | Pack. |
+|---------|----|----|----|----|----|------|-------|
+| AQ09120 | 20 | 29 | 27 | 12 | 36 | 0,02 | 300   |
+| AQ09125 | 25 | 34 | 30 | 14 | 41 | 0,02 | 180   |
 
-## Available Sizes
-20 · 25 · 32 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 and 25 mm
+- Jointing: socket fusion (socket one side, spigot the other)
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### Höchste Präzision in engen Räumen: Der K-Aqua PP-R Winkel 90° Innen/Außen
@@ -55,9 +62,9 @@ Die Verbindungstechnologie, die bei der Installation des K-Aqua PP-R Winkels 90�
 #### Technische Spezifikationen und Dimensionen
 
 Der K-Aqua PP-R Winkel 90° Innen/Außen ist in den gängigsten Durchmessern für die Gebäudeinstallation erhältlich, um eine nahtlose Integration in bestehende oder neu geplante Rohrnetze zu gewährleisten.
-- Durchmesser: Verfügbar in den Nennweiten 20 mm, 25 mm und 32 mm. Diese Größen decken den Großteil der typischen Verteilungsleitungen innerhalb von Gebäuden ab.
-- Artikelnummern: Jede Dimension hat eine eindeutige Kennzeichnung (z. B. AQ09020FM für 20 mm) zur einfachen Identifikation und Bestellung.
-- Druckstufen: Konzipiert für maximale Betriebsdrücke (wie PN20 oder PN25, abhängig von der jeweiligen Systemauslegung), was eine hohe Sicherheitsmarge selbst bei Druckstößen oder thermischer Ausdehnung bietet.
+- Durchmesser: Verfügbar in den Nennweiten 20 mm und 25 mm. Diese Größen decken den Großteil der typischen Verteilungsleitungen innerhalb von Gebäuden ab.
+- Artikelnummern: Jede Dimension hat eine eindeutige Kennzeichnung (AQ09120 für 20 mm, AQ09125 für 25 mm) zur einfachen Identifikation und Bestellung.
+- Betriebsdrücke: Konzipiert für maximale Betriebsdrücke gemäß der jeweiligen Systemauslegung, was eine hohe Sicherheitsmarge selbst bei Druckstößen oder thermischer Ausdehnung bietet.
 
 #### Anwendungsbereiche
 

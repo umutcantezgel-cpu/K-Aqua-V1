@@ -3,15 +3,24 @@ title: "Ratchet Pipe Cutter d20-d40"
 category: "Tools"
 slug: "tools/pipe-cutter-2040"
 article_codes: ["AQ97040"]
+source: "KA-Katalog_GB_06-2025, S. 114"
 ---
 
 # Pipe Cutter 20–40
 
-Ratchet pipe cutter for clean, square cuts on PP-R pipes Ø 20–40 mm.
+Catalogue designation: **Pipe cutter 20-40**.  
+Pipe cutter for plastic pipes, used to cut the pipe square before socket fusion welding.
 
-| Code    | Range (mm) | Pack |
-|---------|-----------|------|
-| AQ97040 | 20–40     | 1    |
+## Article Table
+
+| Code    | Pack. |
+|---------|-------|
+| AQ97040 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Application: cutting PP-R pipes, working range 20–40 mm (per catalogue product designation)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Ratschen-Rohrschneider 20-40 mm (Artikelnummer: AQ97040): Das unverzichtbare Werkzeug für PP-R Installationen

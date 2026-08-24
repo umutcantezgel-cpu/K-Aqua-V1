@@ -2,18 +2,28 @@
 title: "Concealed Valve Chrome - Heavy Part"
 category: "Valves"
 slug: "valves/concealed-valve-chrome-heavy-part"
-article_codes: ["AQ62993"]
+article_codes: ["AQ5993"]
+source: "KA-Katalog_GB_06-2025, S. 106"
 ---
 
 # Concealed Valve Chrome - Heavy Part
 
-Chrome-finish lower (heavy) body part of the concealed valve - installed inside wall cavity in the Tee 90° for internal valve.
+Catalogue designation: **Concealed valve (only upper part) chrome heavy part**.  
+Chrome-finish upper part of the concealed valve, in the heavy version. Used together with the Tee 90° (Female thread) for internal valve.
 
 ## Article Table
 
-| Code    | Dimension d | Weight (kg) | Pack |
-|---------|-------------|-------------|------|
-| AQ62993 | ½"          | 0.21        | 1    |
+| Code   | Dimension G | kg   | Pack. |
+|--------|-------------|------|-------|
+| AQ5993 | 3/4 "       | 0,31 | 1     |
+
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: Concealed valve (only upper part) chrome heavy part
+- Scope of supply: upper part only
+- Dimension G: 3/4 "
+- Weight: 0,31 kg
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Verchromtes Unterputzventil (Schweres Unterteil) – Höchste Präzision für die versteckte Installation

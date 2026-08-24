@@ -4,18 +4,27 @@ titleDE: "Verlängerungsstücke"
 titleAR: "قطع الإطالة"
 category: "Valves"
 slug: "valves/elongation-pieces"
-article_codes: ["AQ62990"]
+article_codes: ["AQ599E"]
+source: "KA-Katalog_GB_06-2025, S. 106"
 ---
 
 # Elongation Pieces
 
-Extension tubes used to adjust concealed valve depth for varying wall thicknesses.
+Catalogue designation: **Elongation pieces**.  
+Extension pieces used to adjust concealed valve depth for varying wall thicknesses.
 
 ## Article Table
 
-| Code    | d (mm) | Weight (kg) | Pack |
-|---------|--------|-------------|------|
-| AQ62990 | 30     | 0.05        | 1    |
+| Code   | L  | kg   | Pack. |
+|--------|----|------|-------|
+| AQ599E | 30 | 0,05 | 1     |
+
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: Elongation pieces
+- Length L: 30 mm
+- Weight: 0,05 kg
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Elongation Pieces (Verlängerungsstücke) für verdeckte Ventile: Die professionelle Lösung zur Tiefenanpassung

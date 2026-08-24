@@ -4,7 +4,10 @@ titleDE: "Wandwinkel 90° (Innengewinde)"
 titleAR: "كوع تثبيت 90 درجة (بسن داخلي)"
 category: "Transition Fittings"
 slug: "transition-fittings/elbow-bracket-90-female-thread"
-article_codes: ["AQ09BRP20","AQ09BRP25","AQ09BRP32","AQ09BRP40","AQ09BRP50"]
+article_codes: ["AQ090G2012", "AQ090G2512", "AQ090G2534", "AQ090G3212", "AQ090G321"]
+colour: "green (PP-R) with brass threaded insert"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
+source: "KA-Katalog_GB_06-2025, S. 95"
 ---
 
 # Elbow Bracket 90° (Female Thread)
@@ -13,16 +16,24 @@ PP-R elbow with integral mounting flange (bracket) and female thread (Rp) outlet
 
 ## Article Table
 
-| Code      | d (mm) | Rp Thread | Pack |
-|-----------|--------|-----------|------|
-| AQ09BRP20 | 20     | ½"        | -    |
-| AQ09BRP25 | 25     | ¾"        | -    |
-| AQ09BRP32 | 32     | 1"        | -    |
-| AQ09BRP40 | 40     | 1¼"       | -    |
-| AQ09BRP50 | 50     | 1½"       | -    |
+| Code       | d  | Rp    | D  | L  | z  | h  | D₁ | L₁   | z₁ | kg   | Pack. |
+|------------|----|-------|----|----|----|----|----|------|----|------|-------|
+| AQ090G2012 | 20 | 1/2 " | 35 | 35 | 21 | 13 | 29 | 27   | 11 | 0,08 | 200   |
+| AQ090G2512 | 25 | 1/2 " | 35 | 37 | 23 | 15 | 34 | 30   | 14 | 0,09 | 130   |
+| AQ090G2534 | 25 | 3/4 " | 43 | 39 | 28 | 20 | 34 | 32   | 19 | 0,14 | 120   |
+| AQ090G3212 | 32 | 1/2 " | 48 | 43 | 28 | 18 | 43 | 36,5 | 18 | 0,10 | 60    |
+| AQ090G321  | 32 | 1 "   | 48 | 45 | 28 | 20 | 43 | 39,5 | 17 | 0,17 | 60    |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass threaded insert
+- Colour: green (PP-R) with brass threaded insert
+- Connection: socket fusion (d) to female thread (Rp), 90° with mounting bracket
+- Thread: Rp 1/2 " and 3/4 " and 1 "
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226
+- Socket sizes d: 20 · 25 · 32 mm
+- 5 article numbers
 
 ## SEO-CONTENT-DE
 ### Die perfekte Lösung für Wandmontagen: PP-R Wandwinkel 90° mit Innengewinde

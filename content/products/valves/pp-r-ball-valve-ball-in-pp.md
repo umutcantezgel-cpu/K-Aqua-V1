@@ -2,26 +2,32 @@
 title: "PP-R Valve (PP Core)"
 category: "Valves"
 slug: "valves/pp-r-ball-valve-ball-in-pp"
-article_codes: ["AQ50020","AQ50025","AQ50032","AQ50040","AQ50050","AQ50063"]
+article_codes: ["AQ85220", "AQ85225", "AQ85232", "AQ85240", "AQ85250", "AQ85263"]
+source: "KA-Katalog_GB_06-2025, S. 107"
 ---
 
 # PP-R Valve (PP Core)
 
+Catalogue designation: **PP-R Ball valve (Ball in PP)**.  
 Full-bore ball valve with PP ball - welded directly into PP-R pipe system via socket fusion.
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ50020 | 20     | 90     | 63     | -           | 1    |
-| AQ50025 | 25     | 96     | 63     | 0.28        | 1    |
-| AQ50032 | 32     | 104    | 82     | -           | 1    |
-| AQ50040 | 40     | 108    | 100    | 0.55        | 1    |
-| AQ50050 | 50     | 106    | 98     | -           | 1    |
-| AQ50063 | 63     | 107    | 103    | 0.64        | 1    |
+| Code    | d  | D   | L   | z   | H   | A   | L₁  | kg   | Pack. |
+|---------|----|-----|-----|-----|-----|-----|-----|------|-------|
+| AQ85220 | 20 | 46  | 98  | 70  | 51  | 68  | 63  | 0,11 | 1     |
+| AQ85225 | 25 | 56  | 113 | 82  | 61  | 78  | 75  | 0,19 | 1     |
+| AQ85232 | 32 | 66  | 121 | 87  | 70  | 88  | 79  | 0,28 | 1     |
+| AQ85240 | 40 | 79  | 138 | 98  | 81  | 98  | 91  | 0,44 | 1     |
+| AQ85250 | 50 | 87  | 148 | 101 | 90  | 108 | 95  | 0,54 | 1     |
+| AQ85263 | 63 | 107 | 175 | 121 | 110 | 118 | 115 | 0,93 | 1     |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 mm
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: PP-R Ball valve (Ball in PP)
+- Ball: PP
+- Available sizes d: 20 · 25 · 32 · 40 · 50 · 63 mm
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 

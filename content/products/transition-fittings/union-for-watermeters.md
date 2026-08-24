@@ -4,7 +4,10 @@ titleDE: "Wasserzählerverschraubung"
 titleAR: "وصلة عداد المياه"
 category: "Transition Fittings"
 slug: "transition-fittings/union-for-watermeters"
-article_codes: ["AQ72E20","AQ72E25","AQ72E32"]
+article_codes: ["AQ3322012", "AQ3322034", "AQ3322534"]
+colour: "green (PP-R) with brass union nut"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "EN ISO 228"]
+source: "KA-Katalog_GB_06-2025, S. 100"
 ---
 
 # Union for Watermeters
@@ -13,14 +16,22 @@ PP-R union fitting specifically designed for connecting water meters - allows ea
 
 ## Article Table
 
-| Code    | d (mm) | Thread | d1 (mm) | d2 (mm) | Pack |
-|---------|--------|--------|---------|---------|------|
-| AQ72E20 | 20     | -      | -       | -       | -    |
-| AQ72E25 | 25     | -      | -       | -       | -    |
-| AQ72E32 | 32     | -      | -       | -       | -    |
+| Code      | d  | Nut thread | D1 | L  | L1 | SW | SW1 | kg   | Pack. |
+|-----------|----|------------|----|----|----|----|-----|------|-------|
+| AQ3322012 | 20 | G 1/2      | 29 | 67 | 44 | 36 | 23  | 0,11 | 180   |
+| AQ3322034 | 20 | G 3/4      | 29 | 67 | 44 | 36 | 31  | 0,13 | 160   |
+| AQ3322534 | 25 | G 3/4      | 34 | 67 | 44 | 36 | 31  | 0,13 | 150   |
 
-## Available Sizes
-20 · 25 · 32 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass union nut
+- Colour: green (PP-R) with brass union nut
+- Connection: socket fusion (d) to watermeter, detachable via union nut
+- Nut thread: G 1/2 and G 3/4 (sealed by flat gasket, not on the thread)
+- Standards: DIN EN ISO 15874-3, DIN 16962, EN ISO 228
+- Socket sizes d: 20 · 25 mm
+- 3 article numbers
 
 ## SEO-CONTENT-DE
 ### Die hochwertige PP-R Wasserzählerverschraubung (Union for Watermeters): Eine technische Meisterleistung für moderne Trinkwassersysteme

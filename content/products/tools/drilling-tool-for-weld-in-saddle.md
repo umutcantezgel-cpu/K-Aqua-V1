@@ -2,20 +2,30 @@
 title: "Drilling Tool for Weld-in Saddle"
 category: "Tools"
 slug: "tools/drilling-tool-for-weld-in-saddle"
-article_codes: ["AQ98625","AQ98632","AQ98640","AQ98650","AQ98663"]
+article_codes: ["AQ98625", "AQ98632", "AQ98640", "AQ98650", "AQ98663"]
+source: "KA-Katalog_GB_06-2025, S. 116"
 ---
 
 # Drilling Tool for Weld-in Saddle
 
-Core drill tool used after saddle welding to open the branch connection.
+Catalogue designation: **Drilling tool for weld in saddle**.  
+Hole cutter used after the saddle has been welded on, to open the branch through the main pipe wall.
 
-| Code    | d (mm) | Pack |
-|---------|--------|------|
-| AQ98625 | 25     | 1    |
-| AQ98632 | 32     | 1    |
-| AQ98640 | 40     | 1    |
-| AQ98650 | 50     | 1    |
-| AQ98663 | 63     | 1    |
+## Article Table
+
+| Code    | Pack. |
+|---------|-------|
+| AQ98625 | 1     |
+| AQ98632 | 1     |
+| AQ98640 | 1     |
+| AQ98650 | 1     |
+| AQ98663 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Article range: AQ98625 – AQ98663 (five articles)
+- Diameter: – (the catalogue table lists no dimension column for this article)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### Bohrwerkzeug für Einschweißsättel: Präzision und Effizienz bei der Rohrabzweigung

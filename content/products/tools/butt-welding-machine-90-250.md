@@ -5,15 +5,24 @@ titleAR: "آلة اللحام التناكبي d90-d250"
 category: "Tools"
 slug: "tools/butt-welding-machine-90-250"
 article_codes: ["AQ989250"]
+source: "KA-Katalog_GB_06-2025, S. 117"
 ---
 
 # Butt Welding Machine 90–250
 
-Butt fusion welding machine for pipes Ø 90–250 mm. Used for large-bore pipe connections.
+Catalogue designation: **Butt welding machine 90-250**.  
+Butt fusion welding machine for the large diameter range, used for joining pipes and fittings by heated-tool butt welding.
 
-| Code     | Range (mm) | Pack |
-|----------|-----------|------|
-| AQ989250 | 90–250    | 1    |
+## Article Table
+
+| Code     | Pack. |
+|----------|-------|
+| AQ989250 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Working range: 90–250 mm (per catalogue product designation)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### K-Aqua Hochleistungs-Stumpfschweißmaschine für Rohre d90 bis d250

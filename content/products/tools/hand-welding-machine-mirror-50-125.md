@@ -5,15 +5,25 @@ titleAR: "ماكينة لحام يدوية (مرآة تسخين فقط) 50-125 �
 category: "Tools"
 slug: "tools/hand-welding-machine-mirror-50-125"
 article_codes: ["AQ991125"]
+source: "KA-Katalog_GB_06-2025, S. 114"
 ---
 
-# Hand Welding Machine - Mirror Only 50–125
+# Hand Welding Machine (only mirror) 50–125
 
-Replacement heating mirror for welding machine 50–125 mm.
+Catalogue designation: **Hand welding machine (only mirror) 50-125**.  
+Heating mirror without stand, for socket fusion welding in the 50–125 mm range.
 
-| Code     | Range (mm) | Pack |
-|----------|-----------|------|
-| AQ991125 | 50–125    | 1    |
+## Article Table
+
+| Code     | Pack. |
+|----------|-------|
+| AQ991125 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Scope of delivery: heating mirror only (welding bushes/tools ordered separately, see Welding tool, catalogue p. 115)
+- Working range: 50–125 mm (per catalogue product designation)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 Professionelle Rohrverbindungen mit der K-Aqua Hand-Schweißmaschine (Nur Spiegel) 50–125 mm

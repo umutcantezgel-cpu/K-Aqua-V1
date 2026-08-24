@@ -2,7 +2,8 @@
 title: "Weld-in Saddle (Female Thread)"
 category: "Weld-in Saddles"
 slug: "weld-in-saddles/weld-in-saddle-female-thread"
-article_codes: ["AQ270S406332","AQ270S406334","AQ270S751251S","AQ270S751254"]
+article_codes: ["AQ270S406312", "AQ270S406334", "AQ270S7512512", "AQ270S7512534"]
+source: "KA-Katalog_GB_06-2025, S. 102"
 ---
 
 # Weld-in Saddle (Female Thread)
@@ -11,15 +12,18 @@ PP-R saddle fitting welded onto main pipe - female internal thread branch outlet
 
 ## Article Table
 
-| Code          | Main Pipe (mm) | Rp Thread | Weight (kg) | Pack |
-|---------------|----------------|-----------|-------------|------|
-| AQ270S406332  | 40–63          | 1"        | -           | 150  |
-| AQ270S406334  | 40–63          | 1¼"       | 3.2         | 90   |
-| AQ270S751251  | 75–125         | 1"        | -           | 90   |
-| AQ270S751254  | 75–125         | 1¼"       | 2.50        | 60   |
+| Code           | d (mm)   | Rp     | -d2 (mm) | h (mm) | Pack. |
+|----------------|----------|--------|----------|--------|-------|
+| AQ270S406312   | 40 - 63  | 1/2 "  | 25       | 43     | 150   |
+| AQ270S406334   | 40 - 63  | 3/4 "  | 32       | 50     | 90    |
+| AQ270S7512512  | 75 - 125 | 1/2 "  | 25       | 43     | 90    |
+| AQ270S7512534  | 75 - 125 | 3/4 "  | 32       | 50     | 60    |
 
-## Available Main Pipe Ranges
-40–63 · 75–125 mm
+## Specifications
+- Material: PP-R with brass insert
+- Main pipe range d: 40 - 63 · 75 - 125 mm
+- Thread Rp (female): 1/2 " · 3/4 "
+- Connection: welded onto the main pipe, female threaded branch outlet
 
 ## SEO-CONTENT-DE
 ### Der K-Aqua PP-R Einschweißsattel mit Innengewinde: Die ideale Lösung für sichere Rohrabzweigungen

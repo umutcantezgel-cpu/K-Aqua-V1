@@ -2,7 +2,10 @@
 title: "K-Fiber Pipe PP-RCT SDR 7.4"
 category: "Pipes"
 slug: "pipes/k-fiber-pipe-pp-rct-sdr-74"
-article_codes: ["AQ200F20", "AQ200F25", "AQ200F32", "AQ200F40", "AQ200F50"]
+article_codes: ["AQ200F20", "AQ200F25", "AQ200F32", "AQ200F40", "AQ200F50", "AQ200F63", "AQ200F75", "AQ200F90", "AQ200F110", "AQ200F125", "AQ200F160", "AQ200F200", "AQ200F250", "AQ200F315"]
+colour: "green with 4 red stripes"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 78"
 ---
 
 # K-Fiber Pipe PP-RCT SDR 7.4
@@ -12,18 +15,33 @@ Length: 4 m per bar. Fiber-reinforced middle layer reduces thermal expansion.
 
 ## Article Table
 
-| Code     | d (mm) | s (mm) | L (mm) | Weight (kg/m) | Pack |
-|----------|--------|--------|--------|---------------|------|
-| AQ200F20 | 20     | 2.8    | 144    | 0.16          | 100  |
-| AQ200F25 | 25     | 3.5    | 180    | 0.25          | 100  |
-| AQ200F32 | 32     | 4.4    | 232    | 0.39          | 60   |
-| AQ200F40 | 40     | 5.5    | 280    | 0.59          | 40   |
-| AQ200F50 | 50     | 6.9    | 362    | 0.91          | 20   |
+| Code        | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|-------------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ200F20*   | 20     | 15  | 14,4    | 2,8         | 100   | 0,16          | 0,16                 |
+| AQ200F25*   | 25     | 20  | 18,0    | 3,5         | 100   | 0,25          | 0,25                 |
+| AQ200F32*   | 32     | 25  | 23,2    | 4,4         | 60    | 0,39          | 0,42                 |
+| AQ200F40*   | 40     | 32  | 29,0    | 5,5         | 40    | 0,59          | 0,66                 |
+| AQ200F50*   | 50     | 40  | 36,2    | 6,9         | 20    | 0,91          | 1,03                 |
+| AQ200F63*   | 63     | 50  | 45,8    | 8,6         | 20    | 1,45          | 1,63                 |
+| AQ200F75*   | 75     | –   | 54,4    | 10,3        | 12    | 2,06          | 2,31                 |
+| AQ200F90*   | 90     | 65  | 65,4    | 12,3        | 8     | 2,94          | 3,32                 |
+| AQ200F110*  | 110    | 80  | 79,8    | 15,1        | 4     | 4,36          | 4,97                 |
+| AQ200F125*  | 125    | 90  | 90,8    | 17,1        | 4     | 5,61          | 6,47                 |
+| AQ200F160*  | 160    | 115 | 116,2   | 21,9        | 4     | 9,09          | 10,60                |
+| AQ200F200*  | 200    | 145 | 145,2   | 27,4        | 4     | 14,23         | 16,55                |
+| AQ200F250*  | 250    | 180 | 181,6   | 34,2        | 4     | 22,08         | 25,89                |
+| AQ200F315*  | 315    | 230 | 229,8   | 43,1        | 4     | 34,89         | 39,39                |
+
+\* pipe can be delivered in 5,80 meter length on special request with product code AQ258F+dimension
 
 ## Specifications
-- Material: PP-RCT with aluminium/glass-fibre composite layer
+- Material: PP-RCT GF
+- Colour: green with 4 red stripes
 - Standard: SDR 7.4 / S 3.2
-- Thermal expansion coefficient reduced by ~50 % vs. standard PP-R
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 2,0 MPa
+- Max. operating pressure at 70°C: 1,0 MPa
+- Length: 4 m per bar
 
 ## SEO-CONTENT-DE
 ### K-Aqua K-Fiber Pipe PP-RCT SDR 7.4: Die zukunftsweisende Lösung für moderne Rohrleitungssysteme

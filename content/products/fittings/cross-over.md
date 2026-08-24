@@ -4,7 +4,10 @@ titleDE: "PP-R Sprungbogen"
 titleAR: "وصلة عبور الأنابيب PP-R"
 category: "Fittings"
 slug: "fittings/cross-over"
-article_codes: ["AQ26720", "AQ26725", "AQ26732"]
+article_codes: ["AQ28720", "AQ28725", "AQ28732"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 91"
 ---
 
 # Cross Over
@@ -13,14 +16,19 @@ PP-R crossover pipe fitting for crossing pipe runs without connection.
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | H (mm) | Weight (kg) | Pack |
-|---------|--------|--------|--------|-------------|------|
-| AQ26720 | 20     | -      | -      | -           | 90   |
-| AQ26725 | 25     | -      | -      | -           | 90   |
-| AQ26732 | 32     | -      | -      | -           | 65   |
+| Code    | d  | L   | z  | H  | t  | kg   | Pack. |
+|---------|----|-----|----|----|----|------|-------|
+| AQ28720 | 20 | 90  | 63 | 45 | 14 | 0,04 | 140   |
+| AQ28725 | 25 | 104 | 80 | 55 | 16 | 0,06 | 90    |
+| AQ28732 | 32 | 126 | 98 | 70 | 23 | 0,13 | 65    |
 
-## Available Sizes
-20 · 25 · 32 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 · 25 · 32 mm
+- Jointing: socket fusion (socket at each end)
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### Der ultimative Leitfaden für PP-R Sprungbögen (Cross Over Fittings)

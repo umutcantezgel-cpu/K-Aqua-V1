@@ -2,7 +2,8 @@
 title: "Pipe Clamps"
 category: "Accessories"
 slug: "accessories/pipe-clamps"
-article_codes: ["AQ9520","AQ9525","AQ9532","AQ9540","AQ9550","AQ9563","AQ9575","AQ9590","AQ95110","AQ95125","AQ95160","AQ95200"]
+article_codes: ["AQ50020", "AQ50025", "AQ50032", "AQ50040", "AQ50050", "AQ50063", "AQ50075", "AQ50090", "AQ500110", "AQ500125", "AQ500160", "AQ500200", "AQ500250"]
+source: "KA-Katalog_GB_06-2025, S. 111"
 ---
 
 # Pipe Clamps
@@ -11,23 +12,26 @@ Heavy-duty pipe clamps with rubber insert for supporting PP-R pipe installations
 
 ## Article Table
 
-| Code    | d (mm) | Weight (kg) | Pack |
-|---------|--------|-------------|------|
-| AQ9520  | 20     | -           | 100  |
-| AQ9525  | 25     | -           | 75   |
-| AQ9532  | 32     | -           | 60   |
-| AQ9540  | 40     | 0.06        | 50   |
-| AQ9550  | 50     | -           | 40   |
-| AQ9563  | 63     | -           | 25   |
-| AQ9575  | 75     | -           | 20   |
-| AQ9590  | 90     | -           | 10   |
-| AQ95110 | 110    | -           | 10   |
-| AQ95125 | 125    | -           | 10   |
-| AQ95160 | 160    | -           | 5    |
-| AQ95200 | 200    | -           | 5    |
+| Code     | d (mm) | kg   | Pack. |
+|----------|--------|------|-------|
+| AQ50020  | 20     | 0,06 | 100   |
+| AQ50025  | 25     | 0,06 | 100   |
+| AQ50032  | 32     | 0,07 | 75    |
+| AQ50040  | 40     | 0,08 | 50    |
+| AQ50050  | 50     | 0,08 | 50    |
+| AQ50063  | 63     | 0,13 | 50    |
+| AQ50075  | 75     | 0,20 | 25    |
+| AQ50090  | 90     | 0,21 | 25    |
+| AQ500110 | 110    | 0,24 | 25    |
+| AQ500125 | 125    | 0,30 | 25    |
+| AQ500160 | 160    | 0,35 | 25    |
+| AQ500200 | 200    | 0,37 | 10    |
+| AQ500250 | 250    | 0,52 | 10    |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 · 110 · 125 · 160 · 200 mm
+## Specifications
+- Sizes d: 20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 · 110 · 125 · 160 · 200 · 250 mm
+- Weight: 0,06 - 0,52 kg
+- Use: supporting PP-R pipe installations
 
 ## SEO-CONTENT-DE
 ### Hochwertige Rohrschellen mit Gummieinlage für sichere PP-R Rohrinstallationen

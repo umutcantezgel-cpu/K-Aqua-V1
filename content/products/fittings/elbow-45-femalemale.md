@@ -2,7 +2,10 @@
 title: "PP-R Elbow 45° Female/Male"
 category: "Fittings"
 slug: "fittings/elbow-45-femalemale"
-article_codes: ["AQ04520FM", "AQ04525FM", "AQ04532FM"]
+article_codes: ["AQ04120", "AQ04125"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 84"
 ---
 
 # Elbow 45° Female/Male
@@ -13,18 +16,22 @@ PP-R socket/spigot fusion elbow for 45° directional changes. This specialized f
 The 45° female/male geometry is specifically designed to eliminate the need for short pipe bridging. When constructing complex manifolds or navigating tight corners, this fitting can be directly inserted into another PP-R component's socket. This reduces the number of required welds by exactly 50% for that joint, thereby cutting down potential failure points and drastically speeding up the installation timeline in cramped plumbing shafts.
 
 ## Hydraulic and Mechanical Tolerances
-Unlike mechanical joints, the K-Aqua 45° street elbow relies on polyfusion. Once heated and joined, the socket and spigot boundaries dissolve, creating a continuous macromolecular structure. It handles PN20 / SDR6 pressures effortlessly at ambient temperatures, while the 45-degree curve ensures superior laminar flow compared to sharper directional changes, minimizing pressure loss across the network.
+Unlike mechanical joints, the K-Aqua 45° street elbow relies on polyfusion. Once heated and joined, the socket and spigot boundaries dissolve, creating a continuous macromolecular structure. It handles operating pressures effortlessly at ambient temperatures, while the 45-degree curve ensures superior laminar flow compared to sharper directional changes, minimizing pressure loss across the network.
 
 ## Article Table
 
-| Code      | d (mm) | Weight (kg) | Pack |
-|-----------|--------|-------------|------|
-| AQ04520FM | 20     | 0.02        | 300  |
-| AQ04525FM | 25     | 0.02        | 200  |
-| AQ04532FM | 32     | 0.05        | 100  |
+| Code    | d  | D  | l  | z | z1 | kg   | Pack. |
+|---------|----|----|----|---|----|------|-------|
+| AQ04120 | 20 | 29 | 20 | 5 | 28 | 0,02 | 300   |
+| AQ04125 | 25 | 34 | 22 | 6 | 34 | 0,02 | 200   |
 
-## Available Sizes
-20 · 25 · 32 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 and 25 mm
+- Jointing: socket fusion (socket one side, spigot the other)
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 ### K-Aqua PP-R Winkel 45° Innen-/Außengewinde (Female/Male): Maximale Effizienz in der Rohrleitungstechnik
@@ -38,11 +45,10 @@ Dies führt zu einer drastischen Reduzierung der benötigten Schweißnähte. Fü
 Ein weiterer kritischer Aspekt bei der Planung und Ausführung von Rohrleitungssystemen ist die Strömungsdynamik. Jeder Richtungswechsel in einem Rohrsystem verursacht Druckverluste und Turbulenzen, die sich negativ auf die Effizienz der Pumpen und den Energieverbrauch auswirken können. Der 45-Grad-Winkel ist strömungstechnisch wesentlich günstiger als ein 90-Grad-Winkel. Er sorgt für eine sanftere Umlenkung des Mediums, wodurch ein nahezu laminarer Fluss erhalten bleibt. 
 Der K-Aqua PP-R Winkel 45° Female/Male minimiert hydraulische Schocks (Druckschläge) und Reibungsverluste drastisch. Durch die homogene Polyfusionsschweißung entsteht ein nahtloser Übergang zwischen den Komponenten. Es gibt keine Verengungen, Dichtungsringe oder mechanischen Kanten, die den Durchfluss behindern könnten. Das Wasser oder die industriellen Flüssigkeiten können ohne signifikante Widerstände zirkulieren.
 
-#### Technische Spezifikationen und Druckbeständigkeit (PN20 / SDR6)
+#### Technische Spezifikationen und Materialgüte
 Der K-Aqua PP-R Winkel 45° Innen-/Außengewinde (Female/Male) wird aus feinstem, hochmolekularem Polypropylen-Random-Copolymer (PP-R) gefertigt. Dieses Material zeichnet sich durch außergewöhnliche thermische und mechanische Stabilität aus.
-- Druckstufe: PN20 (SDR6) – Dieses Fitting ist für Hochdruckanwendungen konzipiert und hält Betriebsdrücken von bis zu 20 bar bei Umgebungstemperaturen mühelos stand.
-- Dimensionen: Verfügbar in den essenziellen Durchmessern 20 mm (AQ04520FM), 25 mm (AQ04525FM) und 32 mm (AQ04532FM), passend für die gängigsten Verteilungs- und Anbindungsleitungen.
-- Gewicht: Extrem leicht (nur 0,02 kg für 20/25 mm und 0,05 kg für 32 mm), was die Handhabung auf der Baustelle, insbesondere bei Überkopfarbeiten, enorm erleichtert.
+- Dimensionen: Verfügbar in den essenziellen Durchmessern 20 mm (AQ04120) und 25 mm (AQ04125), passend für die gängigsten Verteilungs- und Anbindungsleitungen.
+- Gewicht: Extrem leicht (nur 0,02 kg je Stück), was die Handhabung auf der Baustelle, insbesondere bei Überkopfarbeiten, enorm erleichtert.
 - Korrosionsresistenz: PP-R ist absolut immun gegen elektrochemische Korrosion, Rost und Lochfraß, selbst bei aggressiven Wasserqualitäten oder industriellen Medien.
 - Inkrustationsfreiheit: Die extrem glatten Innenwände verhindern die Ablagerung von Kalk, Schmutz oder Biofilmen, was eine dauerhaft konstante Durchflussrate und ein Höchstmaß an Trinkwasserhygiene garantiert.
 
@@ -57,7 +63,7 @@ Dank seiner einzigartigen Konstruktion und der hervorragenden Materialeigenschaf
 Die Verbindungstechnik des K-Aqua PP-R Systems basiert auf der thermischen Polyfusion. Dabei werden sowohl die Muffen- als auch die Einsteckseite des Fittings sowie das anzuschließende Rohr (oder das aufnehmende Fitting) mittels eines speziellen Schweißgerätes zeitgleich erhitzt. Nach dem Zusammenfügen verschmelzen die makromolekularen Strukturen der Kunststoffteile zu einer einzigen, unlösbaren und homogenen Einheit.
 Dieser Prozess garantiert, dass die Verbindungsstelle genauso stark und widerstandsfähig ist wie das Rohr selbst. Im Gegensatz zu mechanischen Verbindungen (wie Press- oder Schraubfittings) gibt es hier keine O-Ringe, die mit der Zeit ermüden oder durch chemische Einflüsse zersetzt werden könnten. Der 45° Female/Male Winkel bietet somit eine wartungsfreie Lösung für die gesamte Lebensdauer des Gebäudes, die in der Regel 50 Jahre und mehr beträgt.
 
-Zusammenfassend lässt sich sagen, dass der K-Aqua PP-R Winkel 45° Female/Male (AQ04520FM, AQ04525FM, AQ04532FM) ein echtes Meisterstück der Fittings-Technik darstellt. Er kombiniert herausragende Strömungseigenschaften mit einem unschlagbar platzsparenden Design und den bewährten Vorteilen des K-Aqua PP-R Materials. Für Installateure und Ingenieure bedeutet dies schnellere Montagezeiten, geringere Materialkosten, reduzierte Fehlerquoten und letztlich die Realisierung von langlebigen, hochleistungsfähigen Rohrleitungsnetzwerken.
+Zusammenfassend lässt sich sagen, dass der K-Aqua PP-R Winkel 45° Female/Male (AQ04120, AQ04125) ein echtes Meisterstück der Fittings-Technik darstellt. Er kombiniert herausragende Strömungseigenschaften mit einem unschlagbar platzsparenden Design und den bewährten Vorteilen des K-Aqua PP-R Materials. Für Installateure und Ingenieure bedeutet dies schnellere Montagezeiten, geringere Materialkosten, reduzierte Fehlerquoten und letztlich die Realisierung von langlebigen, hochleistungsfähigen Rohrleitungsnetzwerken.
 
 ## SEO-CONTENT-EN
 ### K-Aqua PP-R Elbow 45° Female/Male: Unlocking Maximum Efficiency in Plumbing Networks
@@ -71,11 +77,10 @@ This engineering brilliant move leads to a drastic reduction in the number of re
 Another critical aspect in the design and execution of high-performance piping systems is fluid dynamics. Every directional change in a pipe network induces pressure drops, friction losses, and turbulent flow, all of which negatively impact pump efficiency and increase energy consumption. A 45-degree elbow is hydrodynamically vastly superior to a sharp 90-degree bend. It ensures a much gentler diversion of the fluid medium, allowing the system to maintain a nearly perfect laminar flow.
 The K-Aqua PP-R Elbow 45° Female/Male dramatically minimizes hydraulic shocks (water hammer) and friction resistance. Through the homogeneous polyfusion welding process, a completely seamless transition is created between components. There are no internal constrictions, no sealing rings, and no mechanical ridges that could impede flow. Water, compressed air, or industrial fluids can circulate freely with minimal resistance, maximizing the energy efficiency of the entire system.
 
-#### Technical Specifications and Unyielding Pressure Resistance (PN20 / SDR6)
+#### Technical Specifications and Material Grade
 The K-Aqua PP-R Elbow 45° Female/Male is manufactured from the highest grade, high-molecular-weight Polypropylene Random Copolymer (PP-R). This premium material is renowned for its exceptional thermal stability and mechanical robustness.
-- Pressure Rating: PN20 (SDR6) – This robust fitting is engineered for high-pressure applications, effortlessly withstanding operating pressures up to 20 bar at ambient temperatures.
-- Dimensions: Available in the most essential diameters of 20 mm (AQ04520FM), 25 mm (AQ04525FM), and 32 mm (AQ04532FM), perfectly suited for standard distribution and connection lines.
-- Weight: Extremely lightweight (a mere 0.02 kg for 20/25 mm and 0.05 kg for 32 mm sizes), drastically facilitating handling and maneuverability on the construction site, especially during challenging overhead installations.
+- Dimensions: Available in the most essential diameters of 20 mm (AQ04120) and 25 mm (AQ04125), perfectly suited for standard distribution and connection lines.
+- Weight: Extremely lightweight (a mere 0.02 kg per piece), drastically facilitating handling and maneuverability on the construction site, especially during challenging overhead installations.
 - Corrosion Immunity: PP-R is entirely immune to electrochemical corrosion, rusting, and pitting, ensuring structural integrity even when exposed to aggressive water qualities or harsh industrial media.
 - Zero Incrustation: The highly polished, ultra-smooth internal walls prevent the buildup of limescale, debris, or biofilms. This guarantees a permanently constant flow rate and highest standards of drinking water hygiene over decades.
 
@@ -90,7 +95,7 @@ Thanks to its ingenious construction and the superior properties of the K-Aqua P
 The joining technology behind the K-Aqua PP-R system relies on thermal polyfusion. In this process, the socket, the spigot, and the connecting pipe or fitting are simultaneously heated using a specialized calibrated welding tool. Once pushed together, the macromolecular structures of the plastic components melt and fuse into a single, inseparable, and continuous homogeneous unit.
 This molecular bonding guarantees that the joint is exactly as strong and resilient as the pipe itself. Unlike mechanical joints (such as press-fit or threaded brass fittings), there are no O-rings or rubber gaskets that might degrade over time or succumb to chemical attacks. Therefore, the 45° Female/Male elbow provides a completely maintenance-free solution designed to last for the entire lifespan of the building, typically exceeding 50 years.
 
-In conclusion, the K-Aqua PP-R Elbow 45° Female/Male (AQ04520FM, AQ04525FM, AQ04532FM) stands as a true masterpiece of fitting technology. It seamlessly combines outstanding fluid dynamics with an unbeatable space-saving design and all the proven benefits of premium K-Aqua PP-R material. For installers, contractors, and engineers, specifying this fitting translates directly into faster installation times, reduced material costs, minimized error rates, and the ultimate realization of durable, high-performance piping networks.
+In conclusion, the K-Aqua PP-R Elbow 45° Female/Male (AQ04120, AQ04125) stands as a true masterpiece of fitting technology. It seamlessly combines outstanding fluid dynamics with an unbeatable space-saving design and all the proven benefits of premium K-Aqua PP-R material. For installers, contractors, and engineers, specifying this fitting translates directly into faster installation times, reduced material costs, minimized error rates, and the ultimate realization of durable, high-performance piping networks.
 
 ## SEO-CONTENT-AR
 ### كوع K-Aqua PP-R بزاوية 45 درجة (ذكر/أنثى): أقصى درجات الكفاءة في شبكات الأنابيب
@@ -104,11 +109,10 @@ In conclusion, the K-Aqua PP-R Elbow 45° Female/Male (AQ04520FM, AQ04525FM, AQ0
 جانب آخر بالغ الأهمية في تصميم وتنفيذ أنظمة الأنابيب عالية الأداء هو ديناميكيات السوائل. كل تغيير في الاتجاه في شبكة الأنابيب يؤدي إلى انخفاض الضغط وفقدان الاحتكاك والتدفق المضطرب، وكل ذلك يؤثر سلباً على كفاءة المضخة ويزيد من استهلاك الطاقة. من الناحية الهيدروديناميكية، يعتبر الكوع بزاوية 45 درجة أفضل بكثير من الانحناء الحاد بزاوية 90 درجة. فهو يضمن تحويلاً أكثر سلاسة للوسط السائل، مما يسمح للنظام بالحفاظ على تدفق رقائقي (Laminar flow) شبه مثالي.
 يقلل كوع K-Aqua PP-R بزاوية 45 درجة (ذكر/أنثى) بشكل كبير من الصدمات الهيدروليكية (المطرقة المائية) ومقاومة الاحتكاك. من خلال عملية لحام الانصهار المتعدد (Polyfusion) المتجانسة، يتم إنشاء انتقال سلس تماماً بين المكونات. لا توجد تضييقات داخلية، ولا حلقات مانعة للتسرب، ولا حواف ميكانيكية يمكن أن تعيق التدفق. يمكن للمياه أو الهواء المضغوط أو السوائل الصناعية الدوران بحرية مع الحد الأدنى من المقاومة، مما يزيد من كفاءة الطاقة للنظام بأكمله.
 
-#### المواصفات الفنية ومقاومة الضغط الثابتة (PN20 / SDR6)
+#### المواصفات الفنية وجودة المواد
 يتم تصنيع كوع K-Aqua PP-R بزاوية 45 درجة (ذكر/أنثى) من أجود أنواع البولي بروبيلين العشوائي (PP-R) ذو الوزن الجزيئي العالي. تشتهر هذه المادة الممتازة باستقرارها الحراري الاستثنائي وقوتها الميكانيكية.
-- تصنيف الضغط: PN20 (SDR6) - تم تصميم هذه الوصلة القوية لتطبيقات الضغط العالي، وتتحمل بسهولة ضغوط التشغيل التي تصل إلى 20 بار في درجات الحرارة المحيطة.
-- الأبعاد: متوفر بالأقطار الأساسية 20 مم (AQ04520FM)، 25 مم (AQ04525FM)، و 32 مم (AQ04532FM)، ومناسبة تماماً لخطوط التوزيع والتوصيل القياسية.
-- الوزن: خفيف الوزن للغاية (فقط 0.02 كجم للمقاسات 20/25 مم و 0.05 كجم للمقاس 32 مم)، مما يسهل بشكل كبير التعامل والمناورة في موقع البناء، خاصة أثناء التركيبات العلوية الصعبة.
+- الأبعاد: متوفر بالأقطار الأساسية 20 مم (AQ04120) و 25 مم (AQ04125)، ومناسبة تماماً لخطوط التوزيع والتوصيل القياسية.
+- الوزن: خفيف الوزن للغاية (فقط 0.02 كجم للقطعة الواحدة)، مما يسهل بشكل كبير التعامل والمناورة في موقع البناء، خاصة أثناء التركيبات العلوية الصعبة.
 - المناعة ضد التآكل: PP-R محصن تماماً ضد التآكل الكهروكيميائي والصدأ والتنقير، مما يضمن السلامة الهيكلية حتى عند التعرض لصفات المياه العدوانية أو الوسائط الصناعية القاسية.
 - خالي من الترسبات: تمنع الجدران الداخلية الملساء والمصقولة للغاية تراكم الترسبات الكلسية أو الحطام أو الأغشية الحيوية. وهذا يضمن معدل تدفق ثابت بشكل دائم وأعلى معايير نظافة مياه الشرب على مدى عقود.
 
@@ -123,4 +127,4 @@ In conclusion, the K-Aqua PP-R Elbow 45° Female/Male (AQ04520FM, AQ04525FM, AQ0
 تعتمد تقنية التوصيل الكامنة وراء نظام K-Aqua PP-R على الانصهار الحراري المتعدد. في هذه العملية، يتم تسخين كل من المقبس وطرف الإدخال والأنبوب أو الوصلة المتصلة في وقت واحد باستخدام أداة لحام متخصصة ومعايرة. بمجرد دفعها معاً، تذوب الهياكل الجزيئية الكبيرة للمكونات البلاستيكية وتندمج في وحدة متجانسة واحدة غير قابلة للفصل ومستمرة.
 يضمن هذا الترابط الجزيئي أن تكون الوصلة بنفس قوة ومرونة الأنبوب نفسه. على عكس الوصلات الميكانيكية (مثل التركيبات النحاسية بالضغط أو الملولبة)، لا توجد حلقات دائرية (O-rings) أو حشيات مطاطية قد تتحلل بمرور الوقت أو تستسلم للهجمات الكيميائية. لذلك، يوفر الكوع بزاوية 45 درجة (ذكر/أنثى) حلاً خالياً تماماً من الصيانة مصمماً ليدوم طوال العمر الافتراضي للمبنى، والذي يتجاوز عادة 50 عاماً.
 
-في الختام، يقف كوع K-Aqua PP-R بزاوية 45 درجة (ذكر/أنثى) (AQ04520FM، AQ04525FM، AQ04532FM) كتحفة حقيقية في تكنولوجيا الوصلات. فهو يجمع بسلاسة بين ديناميكيات السوائل المتميزة وتصميم لا يهزم موفر للمساحة وجميع الفوائد المثبتة لمادة K-Aqua PP-R الممتازة. بالنسبة للمركبين والمقاولين والمهندسين، يُترجم تحديد هذه الوصلة مباشرة إلى أوقات تركيب أسرع، وتقليل تكاليف المواد، وتقليل معدلات الخطأ، والتحقيق النهائي لشبكات أنابيب متينة وعالية الأداء.
+في الختام، يقف كوع K-Aqua PP-R بزاوية 45 درجة (ذكر/أنثى) (AQ04120، AQ04125) كتحفة حقيقية في تكنولوجيا الوصلات. فهو يجمع بسلاسة بين ديناميكيات السوائل المتميزة وتصميم لا يهزم موفر للمساحة وجميع الفوائد المثبتة لمادة K-Aqua PP-R الممتازة. بالنسبة للمركبين والمقاولين والمهندسين، يُترجم تحديد هذه الوصلة مباشرة إلى أوقات تركيب أسرع، وتقليل تكاليف المواد، وتقليل معدلات الخطأ، والتحقيق النهائي لشبكات أنابيب متينة وعالية الأداء.

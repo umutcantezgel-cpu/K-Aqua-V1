@@ -2,7 +2,10 @@
 title: "PP-R Pipe Socket"
 category: "Fittings"
 slug: "fittings/socket"
-article_codes: ["AQ27020", "AQ27025", "AQ27032", "AQ27040", "AQ27050", "AQ27065", "AQ27075"]
+article_codes: ["AQ27020", "AQ27025", "AQ27032", "AQ27040", "AQ27050", "AQ27063", "AQ27075", "AQ27090", "AQ270110", "AQ270125"]
+colour: "green"
+standards: ["DIN EN ISO 15874-3", "DIN 16962"]
+source: "KA-Katalog_GB_06-2025, S. 86"
 ---
 
 # Socket
@@ -11,18 +14,26 @@ PP-R socket fusion coupling for joining two pipes of equal diameter.
 
 ## Article Table
 
-| Code    | d (mm) | L (mm) | Weight (kg) | Pack |
-|---------|--------|--------|-------------|------|
-| AQ27020 | 20     | 34     | 0.01        | 500  |
-| AQ27025 | 25     | 35     | 0.02        | 300  |
-| AQ27032 | 32     | -      | 0.03        | 160  |
-| AQ27040 | 40     | 56     | 0.05        | 80   |
-| AQ27050 | 50     | 65     | 0.07        | 60   |
-| AQ27065 | 63     | -      | 0.15        | 45   |
-| AQ27075 | 75     | 90     | 0.20        | 24   |
+| Code     | d   | D   | l   | z  | kg   | Pack. |
+|----------|-----|-----|-----|----|------|-------|
+| AQ27020  | 20  | 29  | 34  | 5  | 0,01 | 500   |
+| AQ27025  | 25  | 35  | 37  | 5  | 0,02 | 300   |
+| AQ27032  | 32  | 44  | 41  | 5  | 0,03 | 160   |
+| AQ27040  | 40  | 52  | 46  | 5  | 0,05 | 80    |
+| AQ27050  | 50  | 65  | 52  | 5  | 0,07 | 60    |
+| AQ27063  | 63  | 84  | 60  | 5  | 0,13 | 45    |
+| AQ27075  | 75  | 99  | 65  | 5  | 0,20 | 28    |
+| AQ27090  | 90  | 120 | 76  | 10 | 0,35 | 15    |
+| AQ270110 | 110 | 148 | 80  | 6  | 0,57 | 10    |
+| AQ270125 | 125 | 160 | 102 | 7  | 0,90 | 5     |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 · 63 · 75 mm
+## Specifications
+- Material: PP-R
+- Colour: green
+- Available sizes: d 20 – 125 mm
+- Jointing: socket fusion
+- Standards: DIN EN ISO 15874-3, DIN 16962
+- Dimensions in mm, weight in kg per piece
 
 ## SEO-CONTENT-DE
 Der PP-R Rohrmuffe (Socket) ist ein unverzichtbares Bauteil in der modernen Sanitär- und Heizungstechnik. Er dient in erster Linie dazu, zwei PP-R Rohre mit demselben Durchmesser dauerhaft, sicher und absolut dicht miteinander zu verbinden. Durch das bewährte Verfahren der Muffenschweißung (Socket Fusion) entsteht eine homogene, unlösbare Verbindung, die selbst höchsten Drücken und Temperaturen standhält. In diesem umfassenden Ratgeber erfahren Sie alles Wissenswerte über PP-R Muffen, ihre technischen Eigenschaften, Anwendungsbereiche und die Vorteile dieses herausragenden Materials.

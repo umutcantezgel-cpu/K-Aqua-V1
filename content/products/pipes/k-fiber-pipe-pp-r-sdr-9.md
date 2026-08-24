@@ -2,28 +2,43 @@
 title: "K-Fiber Pipe PP-R SDR 9"
 category: "Pipes"
 slug: "pipes/k-fiber-pipe-pp-r-sdr-9"
-article_codes: ["AQ169PF32", "AQ169PF40", "AQ169PF50", "AQ169PF63", "AQ169PF75"]
+article_codes: ["AQ169PF32", "AQ169PF40", "AQ169PF50", "AQ169PF63", "AQ169PF75", "AQ169PF90", "AQ169PF110", "AQ169PF125", "AQ169PF160", "AQ169PF200", "AQ169PF250", "AQ169PF315", "AQ169PF355"]
+colour: "green with 4 grey stripes"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 80"
 ---
 
 # K-Fiber Pipe PP-R SDR 9
 
-S 4 - Working pressure: 20°C / 2.0 MPa - 60°C / 1.0 MPa  
+S 4 - Working pressure: 20°C / 1.6 MPa - 60°C / 0.8 MPa  
 Length: 4 m per bar.
 
 ## Article Table
 
-| Code      | d (mm) | s (mm) | L (mm) | Weight (kg/m) | Pack |
-|-----------|--------|--------|--------|---------------|------|
-| AQ169PF32 | 32     | 4.0    | 248    | 0.55          | 60   |
-| AQ169PF40 | 40     | 5.0    | 310    | 0.84          | 40   |
-| AQ169PF50 | 50     | 6.2    | 388    | 0.80          | 20   |
-| AQ169PF63 | 63     | 7.8    | 488    | 1.25          | 20   |
-| AQ169PF75 | 75     | 9.2    | -      | 1.77          | 12   |
+| Code        | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|-------------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ169PF32   | 32     | 25  | 24,80   | 3,6         | 60    | 0,33          | 0,48                 |
+| AQ169PF40   | 40     | 32  | 31,00   | 4,5         | 40    | 0,52          | 0,75                 |
+| AQ169PF50   | 50     | 40  | 38,80   | 5,6         | 20    | 0,80          | 1,18                 |
+| AQ169PF63   | 63     | 50  | 48,80   | 7,1         | 20    | 1,25          | 1,87                 |
+| AQ169PF75   | 75     | –   | 58,20   | 8,4         | 12    | 1,77          | 2,66                 |
+| AQ169PF90   | 90     | 65  | 69,80   | 10,1        | 8     | 2,55          | 3,83                 |
+| AQ169PF110  | 110    | 80  | 85,40   | 12,3        | 4     | 3,78          | 5,73                 |
+| AQ169PF125  | 125    | 100 | 97,00   | 14,0        | 4     | 4,89          | 7,39                 |
+| AQ169PF160  | 160    | 125 | 124,20  | 17,9        | 4     | 7,70          | 12,12                |
+| AQ169PF200  | 200    | 160 | 155,20  | 22,4        | 4     | 12,35         | 18,92                |
+| AQ169PF250  | 250    | 200 | 194,20  | 27,9        | 4     | 19,08         | 29,62                |
+| AQ169PF315  | 315    | 250 | 244,60  | 35,2        | 4     | 30,10         | 46,99                |
+| AQ169PF355  | 355    | 300 | 275,60  | 39,7        | 4     | 38,14         | 59,66                |
 
 ## Specifications
-- Material: PP-R with fiber composite layer
+- Material: PP-R GF
+- Colour: green with 4 grey stripes
 - Standard: SDR 9 / S 4
-- Max. pressure at 20°C: 2.0 MPa
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 1,6 MPa
+- Max. operating pressure at 60°C: 0,8 MPa
+- Length: 4 m per bar
 
 ## SEO-CONTENT-DE
 ### K-Fiber Pipe PP-R SDR 9: Das ultimative faserverstärkte Rohrleitungssystem für höchste Ansprüche

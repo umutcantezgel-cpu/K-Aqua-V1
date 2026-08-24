@@ -2,25 +2,39 @@
 title: "Metal Union with PP-R Nut (Male Thread)"
 category: "Transition Fittings"
 slug: "transition-fittings/metal-union-male-thread"
-article_codes: ["AQ71R20","AQ71R25","AQ71R32","AQ71R40","AQ71R50"]
+article_codes: ["AQ54720", "AQ54725", "AQ54732", "AQ54740", "AQ54750", "AQ54763"]
+colour: "green (PP-R nut) with metal union body"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226", "EN ISO 228"]
+source: "KA-Katalog_GB_06-2025, S. 97"
 ---
 
 # Metal Union with PP-R Nut (Male Thread)
 
-Union connector - PP-R socket on one side, male thread (R) on the other. Standard brass version.
+Detachable union connector - PP-R socket on one side, male thread (R) on the other, joined by a PP-R union nut.
 
 ## Article Table
 
-| Code    | d (mm) | R Thread | Pack |
-|---------|--------|----------|------|
-| AQ71R20 | 20     | ½"       | -    |
-| AQ71R25 | 25     | ¾"       | -    |
-| AQ71R32 | 32     | 1"       | -    |
-| AQ71R40 | 40     | 1¼"      | -    |
-| AQ71R50 | 50     | 1½"      | -    |
+| Code    | d  | R       | DN | G     | L  | l  | l₁ | SW  | SW₁ | Pack. |
+|---------|----|---------|----|-------|----|----|----|-----|-----|-------|
+| AQ54720 | 20 | 1/2 "   | 15 | 1     | 51 | 19 | 29 | 38  | 26  | 100   |
+| AQ54725 | 25 | 3/4 "   | 20 | 1 3/4 | 57 | 22 | 31 | 48  | 32  | 100   |
+| AQ54732 | 32 | 1 "     | 25 | 1 1/2 | 65 | 23 | 38 | 54  | 37  | 100   |
+| AQ54740 | 40 | 1 1/4 " | 32 | 2     | 73 | 26 | 44 | 73  | 47  | 25    |
+| AQ54750 | 50 | 1 1/2 " | 40 | 2 1/4 | 76 | 29 | 44 | 85  | 55  | 25    |
+| AQ54763 | 63 | 2 "     | 50 | 2 3/4 | 85 | 32 | 50 | 107 | 64  | 18    |
 
-## Available Sizes
-20 · 25 · 32 · 40 · 50 mm
+All linear dimensions in mm. The catalogue gives no weight column for this table.
+
+## Specifications
+- Material: metal union body with PP-R union nut (the catalogue does not name the body alloy for this range; the yellow brass CW617N version is listed separately on page 98)
+- Colour: green (PP-R nut) with metal union body
+- Connection: socket fusion (d) to male thread (R), detachable via union nut
+- Thread: R 1/2 " – 2 "
+- Union nut thread G: 1 – 2 3/4
+- Nominal size DN: 15 – 50
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226, EN ISO 228
+- Socket sizes d: 20 · 25 · 32 · 40 · 50 · 63 mm
+- 6 article numbers
 
 ## SEO-CONTENT-DE
 
@@ -36,15 +50,16 @@ Die Integration der PP-R Mutter ist ein Meisterstück der Konstruktion. PP-R (Po
 
 ### Vielfältige Dimensionen für jedes Projekt
 
-Um den unterschiedlichen Anforderungen von Bau- und Industrieprojekten gerecht zu werden, bieten wir die Metall-Verschraubung in einer Vielzahl von Dimensionen an. Die verfügbaren Größen decken Rohraußendurchmesser (d) von 20 mm bis 50 mm ab und sind mit den entsprechenden Außengewinden (R) gepaart:
+Um den unterschiedlichen Anforderungen von Bau- und Industrieprojekten gerecht zu werden, bieten wir die Metall-Verschraubung in einer Vielzahl von Dimensionen an. Die verfügbaren Größen decken Rohraußendurchmesser (d) von 20 mm bis 63 mm ab und sind mit den entsprechenden Außengewinden (R) gepaart:
 
-- AQ71R20: Durchmesser 20 mm mit einem ½" Außengewinde. Ideal für feine Hausinstallationen und Anschlussleitungen an Waschbecken oder Toiletten.
-- AQ71R25: Durchmesser 25 mm mit einem ¾" Außengewinde. Die Standardgröße für Hauptversorgungsleitungen im Wohnbereich.
-- AQ71R32: Durchmesser 32 mm mit einem 1" Außengewinde. Perfekt für Verteilnetzwerke und mittelgroße Heizungssysteme.
-- AQ71R40: Durchmesser 40 mm mit einem 1¼" Außengewinde. Geeignet für industrielle Anwendungen und größere Gebäudekomplexe.
-- AQ71R50: Durchmesser 50 mm mit einem 1½" Außengewinde. Die optimale Lösung für Hauptsteigleitungen und Hochleistungs-Kühlsysteme.
+- AQ54720: Durchmesser 20 mm mit einem ½" Außengewinde. Ideal für feine Hausinstallationen und Anschlussleitungen an Waschbecken oder Toiletten.
+- AQ54725: Durchmesser 25 mm mit einem ¾" Außengewinde. Die Standardgröße für Hauptversorgungsleitungen im Wohnbereich.
+- AQ54732: Durchmesser 32 mm mit einem 1" Außengewinde. Perfekt für Verteilnetzwerke und mittelgroße Heizungssysteme.
+- AQ54740: Durchmesser 40 mm mit einem 1¼" Außengewinde. Geeignet für industrielle Anwendungen und größere Gebäudekomplexe.
+- AQ54750: Durchmesser 50 mm mit einem 1½" Außengewinde. Die zuverlässige Lösung für Hauptsteigleitungen und leistungsstarke Kühlsysteme.
+- AQ54763: Durchmesser 63 mm mit einem 2" Außengewinde. Die optimale Lösung für Hauptverteilungen und Hochleistungs-Kühlsysteme.
 
-Diese breite Palette an Artikelcodes (AQ71R20 bis AQ71R50) stellt sicher, dass Installateure und Ingenieure stets das genau passende Bauteil für ihre spezifischen Durchflussanforderungen und Anschlussgrößen zur Hand haben.
+Diese breite Palette an Artikelcodes (AQ54720 bis AQ54763) stellt sicher, dass Installateure und Ingenieure stets das genau passende Bauteil für ihre spezifischen Durchflussanforderungen und Anschlussgrößen zur Hand haben.
 
 ### Anwendungsbereiche und Einsatzgebiete
 

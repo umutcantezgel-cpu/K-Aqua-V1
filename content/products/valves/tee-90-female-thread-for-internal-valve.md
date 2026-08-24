@@ -4,24 +4,30 @@ titleDE: "T-Stück 90° (Innengewinde) für Unterputzventile"
 titleAR: "تيه زاوية 90 درجة (بسن داخلي) للصمامات الداخلية"
 category: "Valves"
 slug: "valves/tee-90-female-thread-for-internal-valve"
-article_codes: ["AQ60RP20","AQ60RP25","AQ60RP32","AQ60RP40"]
+article_codes: ["AQ599A2034", "AQ599A2534", "AQ599A3234", "AQ599A321"]
+source: "KA-Katalog_GB_06-2025, S. 108"
 ---
 
 # Tee 90° (Female Thread) for Internal Valve
 
+Catalogue designation: **Tee 90° (Female thread) for internal valve**.  
 PP-R tee specially designed to house concealed (internal) valves - female thread branch.
 
 ## Article Table
 
-| Code     | d (mm) | Rp Thread | L (mm) | H (mm) | Pack |
-|----------|--------|-----------|--------|--------|------|
-| AQ60RP20 | 20     | ½"        | 80     | 43     | 100  |
-| AQ60RP25 | 25     | ¾"        | 80     | 43     | 80   |
-| AQ60RP32 | 32     | 1"        | 70     | 40     | 80   |
-| AQ60RP40 | 40     | 1¼"       | 70     | 40     | 80   |
+| Code       | d  | G     | D  | L  | D₁ | z  | h  | kg   | Pack. |
+|------------|----|-------|----|----|----|----|----|------|-------|
+| AQ599A2034 | 20 | 3/4 " | 33 | 80 | 45 | 46 | 33 | 0,11 | 100   |
+| AQ599A2534 | 25 | 3/4 " | 36 | 80 | 45 | 43 | 33 | 0,12 | 80    |
+| AQ599A3234 | 32 | 3/4 " | 43 | 75 | 45 | 39 | 33 | 0,14 | 80    |
+| AQ599A321  | 32 | 1 "   | 44 | 94 | 45 | 58 | 33 | 0,19 | 80    |
 
-## Available Sizes
-20 · 25 · 32 · 40 mm
+## Specifications
+- Product group: K-Aqua Valves
+- Catalogue designation: Tee 90° (Female thread) for internal valve
+- Available sizes d: 20 · 25 · 32 mm
+- Thread G: 3/4 " (d20, d25, d32) and 1 " (d32)
+- Packing unit: 100 pcs (d20), 80 pcs (d25, d32)
 
 ## SEO-CONTENT-DE
 

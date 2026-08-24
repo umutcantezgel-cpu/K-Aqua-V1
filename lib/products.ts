@@ -12,7 +12,21 @@ export interface ProductData {
   slug: string;
   category: string;
   title: string;
-  article_codes?: string;
+  /**
+   * Artikelnummern des Produkts, wie sie im Herstellerkatalog stehen.
+   *
+   * Deklariert war hier `string` — tatsächlich steht in jeder Frontmatter ein
+   * Array (`["AQ111P20", …]`). Der Fehler blieb folgenlos, weil die
+   * Index-Signatur darunter jede Abweichung durchwinkt; jede Aufrufstelle
+   * prüft ohnehin mit `Array.isArray`. Jetzt steht da, was wirklich kommt.
+   */
+  article_codes?: string[];
+  /** Farbkennzeichnung laut Katalog, z. B. „green with 1 blue stripe". */
+  colour?: string;
+  /** Normen laut Katalog, z. B. ["DIN EN ISO 15874", "DIN 8077 / 8078"]. */
+  standards?: string[];
+  /** Fundstelle im Katalog, damit jede Zahl rückverfolgbar bleibt. */
+  source?: string;
   [key: string]: unknown;
   content: string;
   seoTextDe?: string;
@@ -223,7 +237,11 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
 
 export const getProductBySlug = unstable_cache(
   async (category: string, slug: string) => getProductBySlugRaw(category, slug),
-  ['product-by-slug-v2'],
+  // v3: Die Artikeldaten sind gegen den Herstellerkatalog 06-2025 korrigiert
+  // worden — Artikelnummern, Maßtabellen, Wandstärken. Ohne neuen Schlüssel
+  // überleben die alten Objekte im Cache den Deploy, und die Seiten zeigten
+  // weiter die falschen Werte.
+  ['product-by-slug-v3'],
   { tags: ['product-data'] }
 );
 

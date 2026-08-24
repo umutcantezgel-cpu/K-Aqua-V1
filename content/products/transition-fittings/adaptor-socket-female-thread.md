@@ -2,7 +2,10 @@
 title: "Adaptor Socket (Female Thread)"
 category: "Transition Fittings"
 slug: "transition-fittings/adaptor-socket-female-thread"
-article_codes: ["AQ24RP20","AQ24RP25","AQ24RP32","AQ24RP40","AQ24RP50","AQ24RP63","AQ24RP75","AQ24RP90","AQ24RP110","AQ24RP125","AQ24RP160","AQ24RP315"]
+article_codes: ["AQ270G2012", "AQ270G2034", "AQ270G2512", "AQ270G2534", "AQ270G3234", "AQ270G321", "AQ270G40114", "AQ270G50112", "AQ270G632", "AQ270G75212", "AQ270G903", "AQ270G1104"]
+colour: "green (PP-R) with brass threaded insert"
+standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
+source: "KA-Katalog_GB_06-2025, S. 94"
 ---
 
 # Adaptor Socket (Female Thread)
@@ -11,23 +14,31 @@ PP-R socket fusion fitting with female thread (Rp) for transition to metal pipe 
 
 ## Article Table
 
-| Code       | d (mm) | Rp Thread | Pack |
-|------------|--------|-----------|------|
-| AQ24RP20   | 20     | ½"        | 100  |
-| AQ24RP25   | 25     | ¾"        | 100  |
-| AQ24RP32   | 32     | 1"        | 60   |
-| AQ24RP40   | 40     | 1¼"       | 40   |
-| AQ24RP50   | 50     | 1½"       | 20   |
-| AQ24RP63   | 63     | 2"        | 20   |
-| AQ24RP75   | 75     | 2½"       | 10   |
-| AQ24RP90   | 90     | 3"        | 8    |
-| AQ24RP110  | 110    | 4"        | 8    |
-| AQ24RP125  | 125    | -         | 4    |
-| AQ24RP160  | 160    | -         | 2    |
-| AQ24RP315  | 315    | -         | 1    |
+| Code        | d   | Rp      | D   | D₁  | l   | z  | kg   | Pack. |
+|-------------|-----|---------|-----|-----|-----|----|------|-------|
+| AQ270G2012  | 20  | 1/2 "   | 35  | 29  | 41  | 11 | 0,07 | 200   |
+| AQ270G2034  | 20  | 3/4 "   | 43  | 34  | 42  | 11 | 0,10 | 240   |
+| AQ270G2512  | 25  | 1/2 "   | 35  | 34  | 41  | 11 | 0,07 | 200   |
+| AQ270G2534  | 25  | 3/4 "   | 43  | 34  | 41  | 11 | 0,11 | 180   |
+| AQ270G3234  | 32  | 3/4 "   | 43  | 43  | 44  | 11 | 0,11 | 160   |
+| AQ270G321   | 32  | 1 "     | 50  | 43  | 48  | 12 | 0,15 | 130   |
+| AQ270G40114 | 40  | 1 1/4 " | 62  | 52  | 54  | 13 | 0,22 | 70    |
+| AQ270G50112 | 50  | 1 1/2 " | 69  | 64  | 57  | 14 | 0,24 | 48    |
+| AQ270G632   | 63  | 2 "     | 84  | 79  | 68  | 19 | 0,49 | 30    |
+| AQ270G75212 | 75  | 2 1/2 " | 113 | 99  | 82  | 22 | 0,81 | 14    |
+| AQ270G903   | 90  | 3 "     | 129 | 124 | 92  | 27 | 1,44 | 6     |
+| AQ270G1104  | 110 | 4 "     | 160 | 151 | 165 | 27 | 2,15 | 4     |
 
-## Available Sizes
-20–315 mm
+All linear dimensions in mm.
+
+## Specifications
+- Material: PP-R with brass threaded insert
+- Colour: green (PP-R) with brass threaded insert
+- Connection: socket fusion (d) to female thread (Rp)
+- Thread: Rp 1/2 " – 4 " (cylindrical female thread)
+- Standards: DIN EN ISO 15874-3, DIN 16962, ISO 7 / EN 10226
+- Socket sizes d: 20 · 25 · 32 · 40 · 50 · 63 · 75 · 90 · 110 mm
+- 12 article numbers
 
 ## SEO-CONTENT-DE
 ### Adaptor Socket (Female Thread) – Die perfekte Verbindungstechnik für Ihr PP-R Rohrleitungssystem

@@ -3,15 +3,27 @@ title: "Hand Welding Machine d20-d63"
 category: "Tools"
 slug: "tools/hand-welding-machine-20-63"
 article_codes: ["AQ98063"]
+source: "KA-Katalog_GB_06-2025, S. 114"
 ---
 
 # Hand Welding Machine 20–63 (Complete Set)
 
-Socket fusion welding machine complete set for pipes Ø 20–63 mm. Includes heating plate, stand and dies.
+Catalogue designation: **Hand welding machine 20-63 (complete set)**.  
+Type AQ98063 consists of Polywelder and bushes dim 20-63 (catalogue p. 40, section 3.2).
 
-| Code    | Range (mm) | Pack |
-|---------|-----------|------|
-| AQ98063 | 20–63     | 1    |
+## Article Table
+
+| Code    | Pack. |
+|---------|-------|
+| AQ98063 | 1     |
+
+## Specifications
+- Product group: K-Aqua Tools
+- Type: AQ98063 — Polywelder with bushes, dim. 20–63 (catalogue p. 40)
+- Scope of delivery: delivered as a kit in a metal box (catalogue p. 40)
+- Thermoelement with electronic thermostat, temperature controlled automatically (catalogue p. 40)
+- Supply voltage: 230 V (catalogue p. 40)
+- Packing unit: 1
 
 ## SEO-CONTENT-DE
 ### K-Aqua Hand-Schweißgerät d20-d63: Die professionelle Lösung für die Muffenschweißung

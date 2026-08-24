@@ -2,7 +2,10 @@
 title: "K-Pipe PP-RCT SDR 7.4"
 category: "Pipes"
 slug: "pipes/k-pipe-pp-rct-sdr-74"
-article_codes: ["AQ20020", "AQ20025", "AQ20032", "AQ20040", "AQ20050"]
+article_codes: ["AQ20020", "AQ20025", "AQ20032", "AQ20040", "AQ20050", "AQ20063", "AQ20075", "AQ20090", "AQ200110", "AQ200125", "AQ200160", "AQ200200", "AQ200250", "AQ200315"]
+colour: "green with 1 red stripe"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 76"
 ---
 
 # K-Pipe PP-RCT SDR 7.4
@@ -12,19 +15,31 @@ Length: 4 m per bar
 
 ## Article Table
 
-| Code    | d (mm) | s (mm) | L (mm) | Weight (kg/m) | Pack |
-|---------|--------|--------|--------|---------------|------|
-| AQ20020 | 20     | 2.8    | 144    | 0.16          | 100  |
-| AQ20025 | 25     | 3.5    | 180    | 0.23          | 100  |
-| AQ20032 | 32     | 4.4    | 232    | 0.37          | 60   |
-| AQ20040 | 40     | 5.5    | 290    | 0.57          | 40   |
-| AQ20050 | 50     | 6.9    | 362    | 0.88          | 20   |
+| Code      | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|-----------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ20020   | 20     | 15  | 14,4    | 2,8         | 100   | 0,16          | 0,16                 |
+| AQ20025   | 25     | 20  | 18,0    | 3,5         | 100   | 0,23          | 0,25                 |
+| AQ20032   | 32     | 25  | 23,2    | 4,4         | 60    | 0,37          | 0,42                 |
+| AQ20040   | 40     | 32  | 29,0    | 5,5         | 40    | 0,57          | 0,66                 |
+| AQ20050   | 50     | 40  | 36,2    | 6,9         | 20    | 0,88          | 1,03                 |
+| AQ20063   | 63     | 50  | 45,8    | 8,6         | 20    | 1,39          | 1,63                 |
+| AQ20075   | 75     | –   | 54,4    | 10,3        | 12    | 1,98          | 2,31                 |
+| AQ20090   | 90     | 65  | 65,4    | 12,3        | 8     | 2,83          | 3,32                 |
+| AQ200110  | 110    | 80  | 79,8    | 15,1        | 4     | 4,25          | 4,97                 |
+| AQ200125  | 125    | 90  | 90,8    | 17,1        | 4     | 5,41          | 6,47                 |
+| AQ200160  | 160    | 115 | 116,2   | 21,9        | 4     | 9,09          | 10,60                |
+| AQ200200  | 200    | 145 | 145,2   | 27,4        | 4     | 13,70         | 16,55                |
+| AQ200250  | 250    | 180 | 181,6   | 34,2        | 4     | 21,25         | 25,89                |
+| AQ200315  | 315    | 250 | 232,80  | 41,1        | 4     | 33,69         | 39,39                |
 
 ## Specifications
-- Material: PP-RCT (PP-R with crystallinity technology)
+- Material: PP-RCT
+- Colour: green with 1 red stripe
 - Standard: SDR 7.4 / S 3.2
-- Max. operating pressure at 20°C: 2.0 MPa
-- Max. operating pressure at 70°C: 1.0 MPa
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 2,0 MPa
+- Max. operating pressure at 70°C: 1,0 MPa
+- Length: 4 m per bar
 
 ## SEO-CONTENT-DE
 ### K-Pipe PP-RCT SDR 7.4: Die Premium-Rohrlösung für anspruchsvolle Trinkwasser- und Heizungssysteme

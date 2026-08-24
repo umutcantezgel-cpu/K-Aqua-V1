@@ -2,7 +2,8 @@
 title: "Weld-in Saddle"
 category: "Weld-in Saddles"
 slug: "weld-in-saddles/weld-in-saddle"
-article_codes: ["AQ1505406320","AQ1505406325","AQ1505406332","AQ1505751232S","AQ1505751252","AQ1505751540","AQ1505160250S"]
+article_codes: ["AQ130S406320", "AQ130S406325", "AQ130S406332", "AQ130S7512525", "AQ130S7512532", "AQ130S7512540", "AQ130S16025025", "AQ130S16025032", "AQ130S16025040", "AQ130S16025050", "AQ130S16025063"]
+source: "KA-Katalog_GB_06-2025, S. 102"
 ---
 
 # Weld-in Saddle
@@ -11,19 +12,25 @@ PP-R saddle fitting welded directly onto a main pipe for branch tapping - no thr
 
 ## Article Table
 
-| Code           | Main Pipe (mm) | Branch d (mm) | Weight (kg) | Pack |
-|----------------|----------------|---------------|-------------|------|
-| AQ1505406320   | 40–63          | 20            | -           | 150  |
-| AQ1505406325   | 40–63          | 25            | -           | 90   |
-| AQ1505406332   | 40–63          | 32            | -           | 90   |
-| AQ1505751232   | 75–125         | 32            | -           | 60   |
-| AQ1505751252   | 75–125         | -             | -           | 60   |
-| AQ1505751540   | 75–125         | 40            | 0.38        | 60   |
-| AQ1505160250   | 160–250        | 25            | -           | 40   |
-| AQ1505160250R  | 160–250        | 32            | -           | 40   |
+| Code            | d (mm)    | d1 (mm) | d2 (mm) | h (mm) | Pack. |
+|-----------------|-----------|---------|---------|--------|-------|
+| AQ130S406320    | 40 - 63   | 20      | 25      | 29     | 150   |
+| AQ130S406325    | 40 - 63   | 25      | 25      | 29     | 90    |
+| AQ130S406332    | 40 - 63   | 32      | 25      | 29     | 90    |
+| AQ130S7512525   | 75 - 125  | 25      | 25      | 29     | 60    |
+| AQ130S7512532   | 75 - 125  | 32      | 32      | 35     | 60    |
+| AQ130S7512540   | 75 - 125  | 40      | 40      | 38     | 60    |
+| AQ130S16025025  | 160 - 250 | 25      | 25      | 29     | 40    |
+| AQ130S16025032  | 160 - 250 | 32      | 32      | 35     | 40    |
+| AQ130S16025040  | 160 - 250 | 40      | 40      | 38     | 40    |
+| AQ130S16025050  | 160 - 250 | 50      | 50      | 39     | 30    |
+| AQ130S16025063  | 160 - 250 | 63      | 63      | 45     | 20    |
 
-## Available Main Pipe Ranges
-40–63 · 75–125 · 160–250 mm
+## Specifications
+- Material: PP-R
+- Main pipe range d: 40 - 63 · 75 - 125 · 160 - 250 mm
+- Branch sizes d1: 20 · 25 · 32 · 40 · 50 · 63 mm
+- Connection: welded onto the main pipe, unthreaded PP-R branch socket
 
 ## SEO-CONTENT-DE
 

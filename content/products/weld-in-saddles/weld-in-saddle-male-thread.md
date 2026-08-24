@@ -2,7 +2,8 @@
 title: "Weld-in Saddle (Male Thread)"
 category: "Weld-in Saddles"
 slug: "weld-in-saddles/weld-in-saddle-male-thread"
-article_codes: ["AQ243S406334","AQ243S751251S"]
+article_codes: ["AQ243S406312", "AQ243S406334", "AQ243S7512512", "AQ243S7512534"]
+source: "KA-Katalog_GB_06-2025, S. 103"
 ---
 
 # Weld-in Saddle (Male Thread)
@@ -11,13 +12,20 @@ PP-R saddle fitting welded onto main pipe - male external thread branch outlet (
 
 ## Article Table
 
-| Code          | Main Pipe (mm) | R Thread | Weight (kg) | Pack |
-|---------------|----------------|----------|-------------|------|
-| AQ243S406334  | 40–63          | 3/4"     | 3.2         | 90   |
-| AQ243S751251  | 75–125         | 1"       | 8.80        | -    |
+| Code           | d (mm)   | Rp     | -d2 (mm) | h (mm) | Pack. |
+|----------------|----------|--------|----------|--------|-------|
+| AQ243S406312   | 40 - 63  | 1/2 "  | 25       | 43     | 150   |
+| AQ243S406334   | 40 - 63  | 3/4 "  | 32       | 50     | 90    |
+| AQ243S7512512  | 75 - 125 | 1/2 "  | 25       | 43     | 90    |
+| AQ243S7512534  | 75 - 125 | 3/4 "  | 32       | 50     | 60    |
 
-## Available Main Pipe Ranges
-40–63 · 75–125 mm
+> The catalogue labels the thread column of this male-thread saddle "Rp".
+
+## Specifications
+- Material: PP-R with brass insert
+- Main pipe range d: 40 - 63 · 75 - 125 mm
+- Thread (male): 1/2 " · 3/4 "
+- Connection: welded onto the main pipe, male threaded branch outlet
 
 ## SEO-CONTENT-DE
 ### K-Aqua Einschweißsattel mit Außengewinde (Weld-in Saddle Male Thread): Die ultimative Lösung für Rohrleitungssysteme

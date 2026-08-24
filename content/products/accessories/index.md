@@ -13,11 +13,11 @@ Supporting accessories for K-Aqua PP-R piping systems - pipe support, sealing an
 
 | Product | Description | Codes |
 |---------|-------------|-------|
-| [Pipe Clamps](./pipe-clamps.md) | Pipe support clamps with rubber insert, Ø 20–200 mm | AQ9520–AQ95200 |
-| [Backing Flange PP-Steel](./backing-flange-pp-steel-sfbf.md) | Steel-reinforced backing flange for flanged connections, Ø 40–315 mm | AQ575040–AQ575315 |
-| [Flat Gasket](./flat-gasket.md) | EPDM flange gasket, Ø 40–250 mm | AQ97040–AQ97250 |
-| [Flat Gasket for Unions PP-R](./flat-gasket-for-unions-pp-r.md) | EPDM union gasket, Ø 20–32 mm | AQ9ANRP20–AQ9ANRP32 |
-| [Plug](./plug.md) | Threaded end plug | AQ98P57 |
+| [Pipe Clamps](./pipe-clamps.md) | Pipe support clamps, Ø 20–250 mm | AQ50020–AQ500250 |
+| [Backing Flange PP-Steel](./backing-flange-pp-steel-sfbf.md) | Backing flange PP-Steel for socket fusion system (SF) or butt fusion system (BF), Ø 40–315 mm | AQ75040–AQ750315 |
+| [Flat Gasket](./flat-gasket.md) | Flange gasket, Ø 40–315 mm | AQ71440–AQ714315 |
+| [Flat Gasket for Unions PP-R](./flat-gasket-for-unions-pp-r.md) | Union gasket, Ø 20–32 mm | AQ490F20–AQ490F32 |
+| [Plug](./plug.md) | Plug, G 1/2 " | AQ90912 |
 
 ## SEO-CONTENT-DE
 ### Umfassendes Zubehör für das K-Aqua PP-R Rohrleitungssystem

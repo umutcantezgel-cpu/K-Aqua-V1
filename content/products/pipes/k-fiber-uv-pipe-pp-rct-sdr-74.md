@@ -2,7 +2,10 @@
 title: "K-Fiber UV Pipe PP-RCT SDR 7.4"
 category: "Pipes"
 slug: "pipes/k-fiber-uv-pipe-pp-rct-sdr-74"
-article_codes: ["AQ200FUVCT20", "AQ200FUVCT25", "AQ200FUVCT32", "AQ200FUVCT40", "AQ200FUVCT50"]
+article_codes: ["AQ200FUV20", "AQ200FUV25", "AQ200FUV32", "AQ200FUV40", "AQ200FUV50", "AQ200FUV63", "AQ200FUV75", "AQ200FUV90", "AQ200FUV110", "AQ200FUV125", "AQ200FUV160"]
+colour: "outside layer black, inside layer green"
+standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
+source: "KA-Katalog_GB_06-2025, S. 82"
 ---
 
 # K-Fiber UV Pipe PP-RCT SDR 7.4
@@ -12,18 +15,28 @@ Length: 4 m. UV-resistant outer layer for outdoor and exposed installations.
 
 ## Article Table
 
-| Code           | d (mm) | s (mm) | L (mm) | Weight (kg/m) | Pack |
-|----------------|--------|--------|--------|---------------|------|
-| AQ200FUVCT20   | 20     | 2.8    | 144    | 0.16          | 100  |
-| AQ200FUVCT25   | 25     | 3.5    | 180    | 0.25          | 100  |
-| AQ200FUVCT32   | 32     | 4.4    | 232    | 0.39          | 60   |
-| AQ200FUVCT40   | 40     | 5.5    | 290    | 0.59          | 40   |
-| AQ200FUVCT50   | 50     | 6.9    | 362    | 0.91          | 20   |
+| Code          | D (mm) | DN  | Di (mm) | s min. (mm) | Pack. | Weight (kg/m) | Water capacity (l/m) |
+|---------------|--------|-----|---------|-------------|-------|---------------|----------------------|
+| AQ200FUV20    | 20     | 15  | 14,4    | 2,8         | 100   | 0,16          | 0,16                 |
+| AQ200FUV25    | 25     | 20  | 18,0    | 3,5         | 100   | 0,25          | 0,25                 |
+| AQ200FUV32    | 32     | 25  | 23,2    | 4,4         | 60    | 0,39          | 0,42                 |
+| AQ200FUV40    | 40     | 32  | 29,0    | 5,5         | 40    | 0,59          | 0,66                 |
+| AQ200FUV50    | 50     | 40  | 36,2    | 6,9         | 20    | 0,91          | 1,03                 |
+| AQ200FUV63    | 63     | 50  | 45,8    | 8,6         | 20    | 1,45          | 1,63                 |
+| AQ200FUV75    | 75     | –   | 54,4    | 10,3        | 12    | 2,06          | 2,31                 |
+| AQ200FUV90    | 90     | 65  | 65,4    | 12,3        | 8     | 2,94          | 3,32                 |
+| AQ200FUV110   | 110    | 80  | 79,8    | 15,1        | 4     | 4,36          | 4,97                 |
+| AQ200FUV125   | 125    | 90  | 90,8    | 17,1        | 4     | 5,61          | 6,47                 |
+| AQ200FUV160   | 160    | 115 | 116,2   | 21,9        | 4     | 9,09          | 10,60                |
 
 ## Specifications
-- Material: PP-RCT with UV-stabilised outer layer
+- Material: PP-RCT GF
+- Colour: outside layer black, inside layer green
 - Standard: SDR 7.4 / S 3.2
-- Application: Outdoor, exposed runs, rooftop
+- Standards: DIN EN ISO 15874, DIN 8077 / 8078
+- Max. operating pressure at 20°C: 2,0 MPa
+- Max. operating pressure at 70°C: 1,0 MPa
+- Length: 4 m per bar
 
 ## SEO-CONTENT-DE
 ### K-Aqua K-Fiber UV Pipe PP-RCT SDR 7.4: Das ultimative Faserverbundrohr für anspruchsvolle Außeninstallationen
@@ -47,13 +60,14 @@ Die revolutionäre Glasfaser-Compound-Schicht des K-Aqua Rohres reduziert diese 
 
 #### Spezifikationen und Dimensionen für jedes Projekt
 
-Um den unterschiedlichen Anforderungen von Haustechnik, Industrie und Landwirtschaft gerecht zu werden, ist das K-Aqua UV Pipe in Längen von 4 Metern und in fünf essenziellen Dimensionen erhältlich:
-- AQ200FUVCT20 (20 mm, s=2,8 mm): Ideal für Mess- und Steuerleitungen, kleine Verteilerkreise oder landwirtschaftliche Tröpfchenbewässerung.
-- AQ200FUVCT25 (25 mm, s=3,5 mm): Die perfekte Wahl für Standard-Anschlussleitungen und Etagenverteiler im Freien.
-- AQ200FUVCT32 (32 mm, s=4,4 mm): Optimal dimensioniert für Hauptsteigleitungen und Zuleitungen für mittlere Kühlsysteme.
-- AQ200FUVCT40 (40 mm, s=5,5 mm) & AQ200FUVCT50 (50 mm, s=6,9 mm): Entwickelt für Hauptverkehrsadern in der Kalt- und Warmwasserversorgung, industrielle Kühlwasser-Ringleitungen (z. B. für Chiller auf dem Dach) und großvolumige Transportleitungen.
+Um den unterschiedlichen Anforderungen von Haustechnik, Industrie und Landwirtschaft gerecht zu werden, ist das K-Aqua UV Pipe in Längen von 4 Metern und in elf essenziellen Dimensionen von 20 mm bis 160 mm erhältlich:
+- AQ200FUV20 (20 mm, s=2,8 mm): Ideal für Mess- und Steuerleitungen, kleine Verteilerkreise oder landwirtschaftliche Tröpfchenbewässerung.
+- AQ200FUV25 (25 mm, s=3,5 mm): Die perfekte Wahl für Standard-Anschlussleitungen und Etagenverteiler im Freien.
+- AQ200FUV32 (32 mm, s=4,4 mm): Optimal dimensioniert für Hauptsteigleitungen und Zuleitungen für mittlere Kühlsysteme.
+- AQ200FUV40 (40 mm, s=5,5 mm) & AQ200FUV50 (50 mm, s=6,9 mm): Entwickelt für Hauptverkehrsadern in der Kalt- und Warmwasserversorgung, industrielle Kühlwasser-Ringleitungen (z. B. für Chiller auf dem Dach) und großvolumige Transportleitungen.
+- AQ200FUV63 bis AQ200FUV160 (63, 75, 90, 110, 125 und 160 mm, s=8,6 bis 21,9 mm): Für Hauptverteilungen und großvolumige Industrieleitungen im Außenbereich.
 
-Die Lieferung erfolgt in praktischen Verpackungseinheiten von 20 bis 100 Metern, je nach Rohrdurchmesser. Das geringe Eigengewicht (z. B. nur 0,16 kg/m bei 20 mm) erleichtert den Transport auf der Baustelle – ein enormer ergonomischer Vorteil gegenüber schweren Metallrohren.
+Die Lieferung erfolgt in praktischen Verpackungseinheiten von 4 bis 100, je nach Rohrdurchmesser. Das geringe Eigengewicht (z. B. nur 0,16 kg/m bei 20 mm) erleichtert den Transport auf der Baustelle – ein enormer ergonomischer Vorteil gegenüber schweren Metallrohren.
 
 #### Vielfältige Anwendungsbereiche des K-Fiber UV Pipe
 
@@ -87,13 +101,14 @@ The revolutionary glass-fiber middle layer of the K-Aqua pipe reduces this linea
 
 #### Specifications and Dimensions for Every Project Scope
 
-To perfectly accommodate the diverse requirements of building services, industrial applications, and agricultural sectors, the K-Aqua UV Pipe is supplied in practical 4-meter lengths and is available in five essential dimensions:
-- AQ200FUVCT20 (20 mm, wall thickness 2.8 mm): Ideal for instrumentation lines, small distribution circuits, or robust agricultural drip irrigation mains.
-- AQ200FUVCT25 (25 mm, wall thickness 3.5 mm): The optimal choice for standard supply lines and outdoor floor distribution.
-- AQ200FUVCT32 (32 mm, wall thickness 4.4 mm): Perfectly sized for primary risers and feed lines for medium-capacity cooling systems.
-- AQ200FUVCT40 (40 mm, wall thickness 5.5 mm) & AQ200FUVCT50 (50 mm, wall thickness 6.9 mm): Engineered for main arterial distribution in hot and cold water supply, industrial cooling water loops (e.g., for roof-mounted chillers), and high-volume fluid transport.
+To perfectly accommodate the diverse requirements of building services, industrial applications, and agricultural sectors, the K-Aqua UV Pipe is supplied in practical 4-meter lengths and is available in eleven essential dimensions from 20 mm to 160 mm:
+- AQ200FUV20 (20 mm, wall thickness 2.8 mm): Ideal for instrumentation lines, small distribution circuits, or robust agricultural drip irrigation mains.
+- AQ200FUV25 (25 mm, wall thickness 3.5 mm): The optimal choice for standard supply lines and outdoor floor distribution.
+- AQ200FUV32 (32 mm, wall thickness 4.4 mm): Perfectly sized for primary risers and feed lines for medium-capacity cooling systems.
+- AQ200FUV40 (40 mm, wall thickness 5.5 mm) & AQ200FUV50 (50 mm, wall thickness 6.9 mm): Engineered for main arterial distribution in hot and cold water supply, industrial cooling water loops (e.g., for roof-mounted chillers), and high-volume fluid transport.
+- AQ200FUV63 through AQ200FUV160 (63, 75, 90, 110, 125 and 160 mm, wall thicknesses 8.6 to 21.9 mm): For main distribution runs and high-volume industrial lines in outdoor environments.
 
-Depending on the diameter, the pipes are packaged in bundles ranging from 20 to 100 meters. The exceptionally low weight (e.g., merely 0.16 kg/m for the 20 mm size) makes handling and transport on the construction site incredibly easy—a massive ergonomic advantage over heavy, cumbersome metal pipes.
+Depending on the diameter, the pipes are packaged in units ranging from 4 to 100. The exceptionally low weight (e.g., merely 0.16 kg/m for the 20 mm size) makes handling and transport on the construction site incredibly easy—a massive ergonomic advantage over heavy, cumbersome metal pipes.
 
 #### Versatile Application Areas of the K-Fiber UV Pipe
 
@@ -127,13 +142,14 @@ By choosing the K-Aqua K-Fiber UV Pipe, you are investing in a future-proof, eco
 
 #### مواصفات وأبعاد تناسب كل المشاريع
 
-لتلبية المتطلبات المتنوعة لخدمات البناء والتطبيقات الصناعية والقطاعات الزراعية بشكل مثالي، يتم توريد أنبوب K-Aqua UV بأطوال عملية تبلغ 4 أمتار ويتوفر بخمسة أبعاد أساسية:
-- AQ200FUVCT20 (20 مم، سماكة الجدار 2.8 مم): مثالي لخطوط الأجهزة، ودوائر التوزيع الصغيرة، أو الخطوط الرئيسية القوية للري بالتنقيط الزراعي.
-- AQ200FUVCT25 (25 مم، سماكة الجدار 3.5 مم): الخيار الأمثل لخطوط الإمداد القياسية وتوزيع الأرضيات في الهواء الطلق.
-- AQ200FUVCT32 (32 مم، سماكة الجدار 4.4 مم): مصمم بشكل مثالي للأنابيب الصاعدة الأولية وخطوط التغذية لأنظمة التبريد ذات السعة المتوسطة.
-- AQ200FUVCT40 (40 مم، سماكة الجدار 5.5 مم) و AQ200FUVCT50 (50 مم، سماكة الجدار 6.9 مم): تم تصميمه للتوزيع الشرياني الرئيسي في إمدادات المياه الساخنة والباردة، وحلقات مياه التبريد الصناعية (مثل المبردات المثبتة على الأسطح)، ونقل السوائل بكميات كبيرة.
+لتلبية المتطلبات المتنوعة لخدمات البناء والتطبيقات الصناعية والقطاعات الزراعية بشكل مثالي، يتم توريد أنبوب K-Aqua UV بأطوال عملية تبلغ 4 أمتار ويتوفر بأحد عشر بعداً أساسياً من 20 مم إلى 160 مم:
+- AQ200FUV20 (20 مم، سماكة الجدار 2.8 مم): مثالي لخطوط الأجهزة، ودوائر التوزيع الصغيرة، أو الخطوط الرئيسية القوية للري بالتنقيط الزراعي.
+- AQ200FUV25 (25 مم، سماكة الجدار 3.5 مم): الخيار الأمثل لخطوط الإمداد القياسية وتوزيع الأرضيات في الهواء الطلق.
+- AQ200FUV32 (32 مم، سماكة الجدار 4.4 مم): مصمم بشكل مثالي للأنابيب الصاعدة الأولية وخطوط التغذية لأنظمة التبريد ذات السعة المتوسطة.
+- AQ200FUV40 (40 مم، سماكة الجدار 5.5 مم) و AQ200FUV50 (50 مم، سماكة الجدار 6.9 مم): تم تصميمه للتوزيع الشرياني الرئيسي في إمدادات المياه الساخنة والباردة، وحلقات مياه التبريد الصناعية (مثل المبردات المثبتة على الأسطح)، ونقل السوائل بكميات كبيرة.
+- من AQ200FUV63 إلى AQ200FUV160 (63 و75 و90 و110 و125 و160 مم، سماكة الجدار من 8.6 إلى 21.9 مم): لخطوط التوزيع الرئيسية والخطوط الصناعية الكبيرة في البيئات الخارجية.
 
-اعتماداً على القطر، يتم تغليف الأنابيب في حزم تتراوح من 20 إلى 100 متر. الوزن المنخفض للغاية (على سبيل المثال، 0.16 كجم/متر فقط لحجم 20 مم) يجعل التعامل معها ونقلها في موقع البناء سهلاً للغاية - وهي ميزة عملية هائلة مقارنة بالأنابيب المعدنية الثقيلة والمرهقة.
+اعتماداً على القطر، يتم تغليف الأنابيب في وحدات تتراوح من 4 إلى 100. الوزن المنخفض للغاية (على سبيل المثال، 0.16 كجم/متر فقط لحجم 20 مم) يجعل التعامل معها ونقلها في موقع البناء سهلاً للغاية - وهي ميزة عملية هائلة مقارنة بالأنابيب المعدنية الثقيلة والمرهقة.
 
 #### مجالات التطبيق المتعددة لأنبوب K-Fiber UV
 
