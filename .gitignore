@@ -112,3 +112,28 @@ messages/*_part*.json
 # Die 3D-Produktionsstrecke selbst liegt versioniert in docs/3d-produktion/.
 /K-Aqua Unterseitem Kopie/
 /Backlinks K-Aqua/
+
+# ---------------------------------------------------------------------------
+# Marketing-Quellarchiv
+#
+# 381 MB, 546 Dateien: Studiofotografie in voller Auflösung (bis 5616×3744),
+# TIFF-Masterdateien, der 121-seitige Katalog, Logos, Videos. Das ist das
+# ARCHIV, aus dem die Website-Fassungen abgeleitet werden — nicht die Website
+# selbst. Ins Repository gehören ausschließlich die abgeleiteten, web-tauglichen
+# Dateien unter public/.
+#
+# Ohne diesen Eintrag würde ein `git add -A` — die in diesem Projekt übliche
+# Form — 381 MB in ein .git schreiben, das bereits 690 MB groß ist. Jeder Clone
+# und jeder CI-Lauf trüge das dauerhaft mit.
+#
+# ACHTUNG: Der Ordner ist damit NICHT gesichert. Er muss außerhalb des
+# Repositories aufbewahrt werden — sonst ist er beim nächsten Rechnerwechsel
+# verloren.
+/Marketing/
+
+# Abgelegte Kopien der 3D-Strecke, die macOS beim Duplizieren mit einer Ziffer
+# versieht („kaqua-3d 3"). Die gültige Fassung liegt unter kaqua-3d/ bzw. wird
+# nach public/kaqua-3d/ ausgeliefert; Duplikate im Projektstamm sind
+# Arbeitsstände und gehören nicht in die Versionierung.
+/kaqua-3d [0-9]/
+/kaqua-3d [0-9][0-9]/
