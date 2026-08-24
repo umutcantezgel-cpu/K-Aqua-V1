@@ -1,10 +1,17 @@
 # 40 — FEHLERKATALOG
 
-**33 echte Fehler** aus dem Bau der ersten 28 Produkte. Jeder wurde gemacht,
-gefunden und behoben. Sie sind der wertvollste Teil dieser Pipeline: wer sie
-kennt, spart die Runden, die sie gekostet haben.
+**42 Nummern, 40 beschriebene Fehler** aus dem Bau der ersten 34 Produkte.
+Jeder wurde gemacht, gefunden und behoben. Sie sind der wertvollste Teil
+dieser Pipeline: wer sie kennt, spart die Runden, die sie gekostet haben.
 
 Nach jedem Maßtest gehst du diese Liste durch.
+
+**Zum Stand 24.08.2026:** Die Fälle 1–33 stammen aus den Wellen 1–2. Die
+Fälle 34–40 wurden in den Wellen 3–5 aufgeschrieben und gingen mit dem
+Arbeitsbaum verloren; 34, 35 und 38–40 sind aus der Übergabe neu gefasst,
+**36 und 37 sind unwiederbringlich** und stehen als leere Nummern. Sie werden
+nicht neu belegt — eine stille Lücke läse sich später wie „gab es nie".
+41 und 42 sind bei der Wiederherstellung selbst entstanden.
 
 ---
 
@@ -624,6 +631,186 @@ Zeilen Platz, danach Ellipse. Damit ist die Höhe vom Titeltext unabhängig.
 **Prüfung:** `[...new Set(tiles.map(t => Math.round(t.getBoundingClientRect().height)))]`
 muss **genau einen** Wert enthalten.
 
+### Fall 34 · Die Maßzeichnung löst eine Spalte auf, die undeutbar schien
+
+**Was passierte:** Mehrfach galt eine Tabellenspalte als nicht deutbar und
+wäre nach Fall 29 nur benannt worden. Aufgelöst hat sie nicht die Tabelle,
+sondern die **Maßzeichnung**: sie trägt dieselben Buchstaben und zeigt, an
+welcher Kante sie liegen.
+
+Bei den Website-Aufnahmen liegt die Zeichnung als **zweite Miniatur** unter
+dem Foto. Zuschnitt und Vergrößerung:
+
+| Aufnahmeform | Zuschnitt | Bemerkung |
+|---|---|---|
+| PNG (accessories, transition-fittings, valves) | `x 455–705, y 2510–2720` | über alle Seitenhöhen 8376–10070 px stabil |
+| PDF (fittings, pipes, tools, weld-in-saddles) | `x 455–705, y 2640–2850` | anderes Seitenlayout, **~130 px tiefer**; oft DREI Miniaturen |
+
+Vierfach vergrößern. Bei PDF-Aufnahmen nicht über eine Renderfunktion gehen —
+die skaliert von Seitenpunkten und liefert weniger Pixel als das Original.
+Stattdessen das eingebettete JPEG ziehen: Seite 1 → XObject `/I0`,
+3004×3949 px. Zeile *n* der Gesamtseite liegt auf Seite `floor(n/3949)+1`.
+
+**Seit 24.08.2026 gibt es die bessere Quelle.**
+`Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf` führt auf den Seiten 76–117
+dieselben Tabellen **mit Vektor-Maßzeichnung** und auslesbarer Textebene.
+Kein Zuschnitt, keine Vergrößerung, kein Ablesen. Siehe
+`pipeline/25-BILDQUELLEN.md`.
+
+**Prüfung:** Bevor eine Spalte als undeutbar in den Kopfkommentar geht — steht
+ihr Buchstabe in der Zeichnung?
+
+### Fall 35 · Ein Foto sagt nichts über Maße, solange die Größe unbekannt ist
+
+**Was passierte:** Ein Katalogfoto zeigt die FAMILIE, nicht die Größe. Wird aus
+ihm ein Verhältnis abgeleitet, ohne vorher zu bestimmen, welche Tabellenzeile
+abgebildet ist, ist das Ergebnis ein Mittelwert über Größen, die sich nicht
+proportional verhalten.
+
+**Verfahren:** Länge und größte Breite in Pixeln messen, das Verhältnis durch
+**alle** Tabellenzeilen teilen. Genau eine Zeile trifft. Erst dann darf das
+Foto etwas über Maße sagen — und auch dann nur über Verhältnisse, nie über
+absolute Millimeter.
+
+**Der Sonderfall, der den Ratepunkt aufhebt:** Ein Render aus
+`Marketing/diverse Fotos alt/ALH Produktbilder/<CODE>/` trägt den Artikelcode
+im ORDNERNAMEN. Die Größe ist damit gegeben, nicht erschlossen — 109 der 112
+Ordner tragen einen Code, der wörtlich im Druckkatalog steht.
+
+**Prüfung:** Steht im Prüfbericht, welche Tabellenzeile das ausgewertete Bild
+zeigt, und woran das erkannt wurde?
+
+### Fall 36 · Text verloren
+
+Der Inhalt dieses Falls ist mit dem Arbeitsbaum am 24.08.2026 verloren
+gegangen und ließ sich aus keiner Kopie und keinem Bundle zurückgewinnen.
+
+Die Nummer bleibt vergeben und wird **nicht** neu belegt: eine stille Lücke
+läse sich später wie „gab es nie". Fällt in einem Prüfbericht oder Quelltext
+ein Verweis auf Fall 36 auf, ist das die einzige Spur seines Inhalts — dann
+hier nachtragen.
+
+### Fall 37 · Text verloren
+
+Wie Fall 36. Nummer vergeben, Inhalt unbekannt, nicht neu belegen.
+
+### Fall 38 · Die Dateiliste beweist nur, dass geschrieben wurde
+
+**Was passierte:** Ein Bau meldete Erfolg, die Dateiliste zeigte alle
+erwarteten Namen — und die Seite zeigte trotzdem kein Bild. Geschrieben
+worden war sie; geladen hat sie nicht.
+
+Die Dateiliste prüft Fall 17 (Timeout meldet Erfolg) ab, also ob der
+Schreibvorgang überhaupt stattfand. Über den INHALT sagt sie nichts: ein
+Bundle mit einem Importfehler, einer Namenskollision oder einer Ausnahme im
+Aufbau ist eine vollständige, richtig große, tote Datei.
+
+**Prüfung:** Die gebaute Seite wirklich öffnen und drei Werte abfragen:
+
+```js
+kaqua.ok                      // true
+kaqua.built.triangleCount()   // { meshes, tris } — tris > 0
+kaqua.measureAll()            // jede Abweichung erklärt
+```
+
+Für das ganze Paket auf einmal: `dist/lib-selbsttest.html` lädt jedes Modul
+über `loadProduct()`, baut die Referenzgröße und vermisst sie. Diese Seite
+beweist, dass die Importe auflösen — die Dateiliste beweist das nie.
+
+### Fall 39 · Eine neue Flächenfunktion wickelt die Haut nach innen
+
+**Was passierte:** `sweepPath` legte die Dreiecke der Außenhaut mit der
+falschen Umlaufrichtung an. Ein FrontSide-Material verwirft rückseitige
+Dreiecke — der ausgelieferte Winkel 90° wurde **ohne Mantelfläche**
+gezeichnet, man sah durch ihn hindurch auf die gegenüberliegende
+Bohrungswand. Nur die Schnittansicht sah richtig aus, weil `setSection(true)`
+auf DoubleSide schaltet.
+
+**Warum kein Maßtest das fand:** Eine Messung über `Box3` fragt nach der
+Ausdehnung. Die Ausdehnung stimmte. Gefunden hat es ein **Strahl**, der von
+außen kam, durch die Außenhaut hindurchlief und erst die Bohrung traf.
+
+**Die Ursache, die sich wiederholen wird:** `revolve` und `sweepPath` laufen
+über verschiedene Parameterordnungen (θ×Profil gegen Bahn×Umfang). Dieselbe
+Indexreihenfolge ergibt dort **entgegengesetzte** Normalen. Wer eine neue
+Flächenfunktion nach dem Vorbild einer bestehenden schreibt, erbt die
+Reihenfolge und dreht damit die Haut um.
+
+**Prüfung:** Bei jeder neuen Flächenfunktion ein Strahl von außen auf die
+Mantelfläche — er muss die Außenhaut treffen, nicht die Bohrung. Gegenprobe an
+der Bohrung, die den anderen Wert liefern muss (Fall 25). Sichtprobe:
+eigener Renderer mit `preserveDrawingBuffer` und `toDataURL` in ein `<img>`,
+weil sich WebGL-Screenshots hier nicht auslesen lassen.
+
+### Fall 40 · Gegenstandslos in dieser Umgebung
+
+Der ursprüngliche Fall betraf den Aufruf von `build/sandbox-runner.js`, mit
+dem sich `build/incremental.mjs` ohne Node aus dem Browser fahren ließ, und
+eine Klammer, die dabei nicht optional war.
+
+**Diese Datei existiert nicht mehr** — weder im Arbeitsbaum noch in einer
+Kopie noch in einem Bundle. Sie ist mit dem Verlust am 24.08.2026 weg, und
+`dist/INTEGRATION.md` verwies auf sie ins Leere. Der Verweis ist entfernt.
+
+Gebaut wird direkt: `node build/incremental.mjs <schritt>` (geprüft mit
+v24.14.1). Der Fall bleibt als Nummer stehen; wird je wieder ohne Node
+gebaut, gehört seine Regel hierher zurück.
+
+### Fall 41 · Ein Bauergebnis ist keine Sicherung — aber eine Quelle
+
+**Was passierte:** Der Arbeitsbaum `kaqua-3d/` wurde gelöscht; im Projekt lag
+nur noch eine Kopie mit `dist/`. Damit waren `core/`, `products/`,
+`pipeline/`, `produkt-registry.json` und alle Prüfberichte weg. Der
+Papierkorb war leer, git kannte den Stand der Wellen 3–5 nicht.
+
+**Was rettete:** `build/incremental.mjs` schreibt beim Verketten eine
+Abschnittsmarke je Quelldatei:
+
+```
+/* == _bend/params.js === */    /* == elbow-90/data.js === */
+```
+
+Der Stripper entfernt **nur** `import`-Zeilen und Re-Export-Hüllen.
+Kopfkommentare, ASSUMPTION-Notizen, Fall-Verweise und Artikeltabellen stehen
+wörtlich im Bundle. Ein Vergleich Quelle gegen Bundle-Abschnitt ist
+zeichengleich. Damit ließen sich 6 Produkte und 2 Familien zurückgewinnen,
+die nirgends sonst existierten.
+
+**Was nicht zurückkam:** alles, was der Bau nicht anfasst — Prüfberichte,
+`quellen/`, Übergabetexte, dieser Katalog ab Fall 34. Und die
+`import`-Zeilen, die sich nur aus der Benutzung neu ableiten lassen.
+
+**Zwei Regeln:**
+
+1. Ein Arbeitsstand außerhalb von git ist **nicht** gesichert. Nach jedem
+   abgeschlossenen Produkt committen, nicht nach jeder Welle.
+2. Die Abschnittsmarken sind kein Schmuck. Wer den Bau ändert, lässt sie
+   stehen — sie sind die letzte Kopie der Quellen.
+
+**Prüfung nach einer Rückgewinnung:** neu bauen und `dist/` gegen das
+überlebende `dist/` diffen. Stimmt es überein, ist die Rekonstruktion
+bewiesen; alles andere ist Meinung.
+
+### Fall 42 · Zwei Bauwege, zwei Regelsätze — einer driftet
+
+**Was passierte:** `products/flat-gasket-for-unions/parts.js` ist eine reine
+Re-Export-Hülle auf `../flat-gasket/parts.js`. Hüllen strippt der Bau immer
+weg, also muss die Zieldatei über `familyFor()` mit ins Bundle. In
+`build/browser-build.mjs` steht diese Regel; in `build/incremental.mjs`
+fehlte sie. Wer mit `incremental.mjs` baute, bekam ein Bundle **ohne**
+`buildGasket` — vollständig, richtig groß, tot.
+
+Aufgefallen ist es erst beim Nachbau, weil das überlebende `dist/` die Datei
+enthielt und das neue nicht.
+
+**Die allgemeine Form:** Sobald zwei Skripte dieselbe Verkettung mit
+getrennten Tabellen beschreiben, driften die Tabellen. Fall 32 in Grün — nur
+liegen die zwei Definitionen hier nicht in einer Datei, sondern in zwei.
+
+**Prüfung:** Nach jeder Änderung an `familyFor()` in einem der Bauwege die
+Regelsätze aller Bauwege nebeneinanderlegen. Und: jede Anleihe QUER durch den
+Katalog (nicht `_familie/`) gehört benannt — es gibt genau eine.
+
 ---
 
 ## Die Prüfliste in Kurzform
@@ -653,3 +840,9 @@ Nach jedem Maßtest:
 - [ ] Wird eine Längenprüfung negativ? Dann durchdringen sich zwei Teile → Fall 31
 - [ ] Wird ein Begriff an zwei Stellen verschieden geprüft? Ein Prädikat für alle → Fall 32
 - [ ] Haben alle Kacheln genau eine Höhe? → Fall 33
+- [ ] Bei Fotoableitung: abgebildete Größe über alle Tabellenzeilen bestimmt? → Fall 35
+- [ ] Undeutbare Spalte gegen die Maßzeichnung geprüft, bevor sie benannt wird? → Fall 34
+- [ ] Gebaute Seite geöffnet und `kaqua.ok` / `triangleCount()` abgefragt? → Fall 38
+- [ ] Neue Flächenfunktion: Strahl von außen trifft die Außenhaut, nicht die Bohrung? → Fall 39
+- [ ] Produkt fertig? Dann committen, nicht erst am Wellenende → Fall 41
+- [ ] `familyFor()` geändert? Dann in ALLEN Bauwegen → Fall 42
