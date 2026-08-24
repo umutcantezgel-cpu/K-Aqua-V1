@@ -98,6 +98,14 @@ export const REGISTRY = [
   "category": "transition-fittings"
  },
  {
+  "slug": "electrofusion-socket",
+  "id": "fittings/electrofusion-socket",
+  "module": "kaqua-electrofusion-socket",
+  "titleDe": "Elektroschweißmuffe",
+  "titleEn": "Electrofusion socket",
+  "category": "fittings"
+ },
+ {
   "slug": "flat-gasket",
   "id": "accessories/flat-gasket",
   "module": "kaqua-flat-gasket",

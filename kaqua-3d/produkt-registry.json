@@ -613,8 +613,8 @@
       "md_file": "docs Unterseiten/fittings/electrofusion-socket.md",
       "sizes_md": 7,
       "sizes_source_ocr": 14,
-      "sizes_source_verified": null,
-      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "sizes_source_verified": 14,
+      "data_status": "verifiziert",
       "geometry": {
         "family": "rot-sym",
         "complexity": 2,
@@ -622,11 +622,32 @@
       },
       "build": {
         "tier": 2,
-        "status": "offen",
+        "status": "fertig",
         "order": 16
       },
       "article_prefix_md_unverified": "AQ27E",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_codes_source": [
+        "AQ27120",
+        "AQ27125",
+        "AQ27132",
+        "AQ27140",
+        "AQ27150",
+        "AQ27163",
+        "AQ27175",
+        "AQ27190",
+        "AQ271110",
+        "AQ271125",
+        "AQ271160",
+        "AQ271200",
+        "AQ271250",
+        "AQ271315"
+      ],
+      "article_prefix_source": "AQ271",
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S.92",
+        "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-electrofusion-socket-2026-06-20-05_43_01.pdf"
+      ]
     },
     {
       "id": "pipes/k-fiber-pipe-pp-r-sdr-11",

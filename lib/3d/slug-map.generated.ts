@@ -18,6 +18,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "elbow-90-male-thread": "transition-fittings/elbow-90-male-thread",
   "elbow-bracket-90-female-thread": "transition-fittings/elbow-bracket-90-female-thread",
   "elbow-wall-bracket-90-female-thread": "transition-fittings/elbow-wall-bracket-90-female-thread",
+  "electrofusion-socket": "fittings/electrofusion-socket",
   "flat-gasket": "accessories/flat-gasket",
   "flat-gasket-for-unions": "accessories/flat-gasket-for-unions",
   "k-fiber-pipe-pp-r-sdr-11": "pipes/k-fiber-pipe-pp-r-sdr-11",
@@ -46,4 +47,4 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "union": "transition-fittings/union",
 };
 
-export const GENERATED_COUNT = 38;
+export const GENERATED_COUNT = 39;

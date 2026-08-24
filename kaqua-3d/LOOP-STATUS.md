@@ -3,7 +3,7 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Welle 3.1/3.2 gebaut. **38 von 71.**
+**Letzte Änderung:** 24.08.2026 — Elektroschweißmuffe gebaut. **39 von 71.**
 
 ---
 
@@ -11,10 +11,10 @@ können, ohne die ganze Pipeline zu lesen.
 
 | | |
 |---|---|
-| Fertig | **38 von 71** · Selbsttest 38/38, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **39 von 71** · Selbsttest 39/39, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
-| Spur B | 4 von 37 gebaut: Welle 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende) ✓ |
+| Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
 | Letzter Bauzustand | vollständig gebaut und ausgeliefert; `npm run build` grün |
 | Branch | `wiederherstellung-kaqua-3d` |
 
@@ -79,8 +79,14 @@ Katalog S. 108) und 4.8 `transition-fittings/union-for-watermeters`
 das `z` (46/43/39/58 gegen L/2 = 40/40/37,5/47), bei AQ332 sind es zwei
 Schlüsselweiten SW und SW₁. Zuerst die Zeichnungen lesen.
 
-Danach 3.3/3.4 (`cross-over`, `cross-over-pipe`, AQ287/AQ285) — auch
-Bögen, vermutlich wieder `_bendthread`.
+**Die Elektroschweißmuffe ist ebenfalls fertig** (Prüfbericht
+`pruefung/w2-electrofusion-socket.md`), 14 Größen, 0,01 mm.
+
+Danach 3.3/3.4 (`cross-over`, `cross-over-pipe`, AQ287/AQ285). Sie
+brauchen als erste eine **neue Bahn**: einen U-Bogen über ein
+kreuzendes Rohr, nicht einen einfachen Winkel. `bendPath` trägt das
+nicht; entweder zwei Bögen hintereinandergesetzt oder eine eigene
+Bahnfunktion im Core.
 
 **Spur C — Farbvarianten**, gebündelt am Ende einer Produktgruppe.
 
@@ -160,7 +166,14 @@ Das Website-Katalogfoto von `elbow-90-male-thread` passt zu keiner
 Tabellenzeile (freiliegendes Gewinde 47–80 % zu lang). Herstellerauskunft wäre
 nötig; am Modell ändert sie nichts, weil das Modell der Tabelle folgt.
 
-### 3.9 `Marketing/` ist nicht gesichert
+### 3.9 Kontaktdome der Elektroschweißmuffe schrumpfen
+
+h − D fällt von 20 mm bei d25 auf 0,5 mm bei d315. Kontaktdome schrumpfen
+in Wirklichkeit nicht. Entweder sind sie bei den großen Muffen versenkt,
+oder h bedeutet dort etwas anderes. Beide Rang-1-Quellen tragen die
+Zahlen; am Originalteil zu prüfen.
+
+### 3.10 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
