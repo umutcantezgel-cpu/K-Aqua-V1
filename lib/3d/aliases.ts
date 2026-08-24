@@ -20,10 +20,14 @@ export const SLUG_ALIASES: Record<string, string> = {
   "reducing-tee": "fittings/reducing-bush",
   "reducing-tee-large-sizes": "fittings/reducing-bush",
   "flange-adaptor": "accessories/backing-flange",
-  "stub-end": "accessories/backing-flange",
   "cross-over": "fittings/elbow-90",
   "cross-over-pipe": "fittings/elbow-90",
-  "cross-over-with-socket": "fittings/socket",
+  // „stub-end" und „cross-over-with-socket" sind hier entfallen: Beide Seiten
+  // waren Dubletten derselben Katalogtabellen (S. 90 bzw. S. 91) und leiten
+  // seit next.config.ts permanent auf „flange-adaptor" bzw. „cross-over" um.
+  // Ein stehengebliebener Alias hätte auf einen Slug gezeigt, den es nicht
+  // mehr gibt — `npm run 3d:check` prüft die erzeugte Zuordnung, nicht diese
+  // Ausnahmen.
   "k-pipe-pp-rct-sdr-7-4": "pipes/k-pipe-pp-rct-sdr-7-4",
   "k-fiber-pipe-pp-r-sdr-7-4": "pipes/k-fiber-pipe-pp-r-sdr-7-4",
   "k-fiber-pipe-pp-rct-sdr-7-4": "pipes/k-fiber-pipe-pp-rct-sdr-7-4",

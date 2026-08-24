@@ -134,8 +134,38 @@ const nextConfig: NextConfig = {
       ]
     );
 
+    // Zwei Produktseiten beschrieben dieselbe Katalogtabelle.
+    //
+    // Beim Abgleich mit dem Herstellerkatalog 06-2025 stellte sich heraus:
+    // „Stub End" und „Flange Adaptor" sind beide die Tabelle „Flange adaptor"
+    // auf S. 90 — identischer Artikelbereich AQ79040–AQ790315. „Cross over
+    // with socket" und „Cross over" sind beide die Tabelle „Cross over" auf
+    // S. 91 (AQ287…); die Schnittzeichnung dort zeigt an beiden Enden eine
+    // Muffe mit Einstecktiefe t, das Bauteil IST also das gemuffte. Der
+    // eigenständige Artikel daneben ist „Cross over pipe" (AQ285…), das
+    // glatte Bogenrohr — der bleibt unangetastet.
+    //
+    // Kanonisch ist jeweils der Name, unter dem der Katalog die Tabelle führt.
+    // Die Dubletten lieferten sonst zwei URLs mit identischem Inhalt, was sich
+    // im Index gegenseitig kannibalisiert.
+    const duplicateProducts: Record<string, string> = {
+      'produkte/fittings/stub-end': 'produkte/fittings/flange-adaptor',
+      'produkte/fittings/cross-over-with-socket': 'produkte/fittings/cross-over',
+    };
+    const duplicateProductRedirects = Object.entries(duplicateProducts).flatMap(
+      ([from, to]) => [
+        {
+          source: `/:locale([a-zA-Z-]{2,7})/${from}`,
+          destination: `/:locale/${to}`,
+          permanent: true,
+        },
+        { source: `/${from}`, destination: `/${to}`, permanent: true },
+      ]
+    );
+
     return [
       ...removedSubpageRedirects,
+      ...duplicateProductRedirects,
       {
         source: '/:locale([a-zA-Z-]{2,7})/produkte/katalog',
         destination: '/:locale/produkte',

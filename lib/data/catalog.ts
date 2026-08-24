@@ -418,7 +418,10 @@ export const CATALOG: CatalogCategory[] = [
   },
   {
     id: "fittings",
-    count: 18,
+    // 16, nicht 18: „Stub End" und „Cross Over With Socket" waren Dubletten
+    // derselben Katalogtabellen (S. 90 bzw. S. 91) und leiten seit
+    // next.config.ts permanent auf „Flange Adaptor" bzw. „Cross Over" um.
+    count: 16,
     items: [
       {
         slug: "cap",
@@ -748,18 +751,6 @@ export const CATALOG: CatalogCategory[] = [
         ]
       },
       {
-        slug: "cross-over-with-socket",
-        title: "Cross Over With Socket",
-        codes: "AQ28720–AQ28732",
-        head: ["d (mm)", "L (mm)", "z (mm)", "H (mm)", "t (mm)", "#weight", "#pack"],
-        note: "Sprungbogen mit integrierten Muffen; im Katalog unter \"Cross over\" geführt, identischer Artikelbereich wie Cross Over.",
-        rows: [
-          [20, 90, 63, 45, 14, 0.04, 140],
-          [25, 104, 80, 55, 16, 0.06, 90],
-          [32, 126, 98, 70, 23, 0.13, 65]
-        ]
-      },
-      {
         slug: "elbow-90-large-sizes",
         title: "Elbow 90° (Large Sizes)",
         codes: "AQ09090–AQ090315",
@@ -773,26 +764,6 @@ export const CATALOG: CatalogCategory[] = [
           [200, "-", "-", 153, 262, 18.2, 5.7, 1],
           [250, "-", "-", 133, 292, 22.7, 10.4, 1],
           [315, "-", "-", 154, 370, 28.6, 19.6, 1]
-        ]
-      },
-      {
-        slug: "stub-end",
-        title: "Stub End",
-        codes: "AQ79040–AQ790315",
-        head: ["d (mm)", "D (mm)", "l (mm)", "z (mm)", "h (mm)", "D1 (mm)", "s (mm)", "#weight", "#pack"],
-        note: "Im Katalog unter \"Flange adaptor\" geführt, identischer Artikelbereich wie Flange Adaptor. Ab d 160 in SDR 11.",
-        rows: [
-          [40, 60, 29, 7.4, 7.8, 50, "-", 0.03, 80],
-          [50, 70, 33, 9.7, 9.5, 60, "-", 0.05, 60],
-          [63, 89, 40, 12.9, 15.5, 76, "-", 0.08, 48],
-          [75, 105, 37, 7.5, 15, 89, "-", 0.13, 40],
-          [90, 125, 46, 9.5, 19.5, 109, "-", 0.25, 26],
-          [110, 158, 57, 13, 18, 132, "-", 0.38, 12],
-          [125, 162, 62, 13, 21, 146, "-", 0.48, 10],
-          [160, "-", "-", 207, 25, 212, 14.6, 1.8, 1],
-          [200, "-", "-", 201, 32, 269, 18.2, 3, 1],
-          [250, "-", "-", 220, 35, 320, 22.7, 4.9, 1],
-          [315, "-", "-", 239, 35, 370, 28.6, 7.5, 1]
         ]
       }
     ]

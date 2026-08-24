@@ -14,7 +14,7 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Category | Products |
 |----------|---------|
-| [Fittings](./fittings/index.md) | 18 products |
+| [Fittings](./fittings/index.md) | 16 products |
 | [Pipes](./pipes/index.md) | 12 products |
 | [Transition Fittings](./transition-fittings/index.md) | 13 products |
 | [Valves](./valves/index.md) | 9 products |
@@ -46,7 +46,6 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Cross](./fittings/cross.md) | AQ18025–AQ18032 | Ø 25–32 mm |
 | [Cross Over](./fittings/cross-over.md) | AQ28720–AQ28732 | Ø 20–32 mm |
 | [Cross Over Pipe](./fittings/cross-over-pipe.md) | AQ28520–AQ28532 | Ø 20–32 mm |
-| [Cross Over with Socket](./fittings/cross-over-with-socket.md) | AQ28720–AQ28732 | Ø 20–32 mm |
 | [Elbow 45°](./fittings/elbow-45.md) | AQ04520–AQ045315 | Ø 20–315 mm |
 | [Elbow 45° (Female/Male)](./fittings/elbow-45-femalemale.md) | AQ04120–AQ04125 | Ø 20–25 mm |
 | [Elbow 90°](./fittings/elbow-90.md) | AQ09020–AQ090315 | Ø 20–315 mm |
@@ -58,7 +57,6 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Reducing Tee](./fittings/reducing-tee.md) | AQ1302520–AQ130315250 | Ø 25×20–315×250 mm |
 | [Reducing Tee (Large Sizes)](./fittings/reducing-tee-large-sizes.md) | AQ1306320–AQ130315250 | Ø 63×20–315×250 mm |
 | [Socket](./fittings/socket.md) | AQ27020–AQ270125 | Ø 20–125 mm |
-| [Stub End](./fittings/stub-end.md) | AQ79040–AQ790315 | Ø 40–315 mm |
 | [Tee](./fittings/tee.md) | AQ13020–AQ130315 | Ø 20–315 mm |
 
 ---
