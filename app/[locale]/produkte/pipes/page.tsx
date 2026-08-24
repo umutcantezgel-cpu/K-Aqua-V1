@@ -12,6 +12,7 @@ import { DeepFAQ } from '@/components/ui/DeepFAQ';
 import { StepFlow } from '@/components/ui/StepFlow';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { CategoryCatalogSection } from '@/components/product/CategoryCatalogSection';
+import PipeColourCoding from '@/components/product/PipeColourCoding';
 import { CATALOG } from '@/lib/data/catalog';
 import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
@@ -378,6 +379,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         subtitle={p.catalogSub}
         locale={locale}
       />
+
+      {/* Farbcodierung — aus `colour:` der Produktdateien, mit Fundstelle. */}
+      <PipeColourCoding locale={locale} />
 
       {/* SDR & Material Technical Matrix */}
       <section className="py-20 bg-background border-b border-card-border">
