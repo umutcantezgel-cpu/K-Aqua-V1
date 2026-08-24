@@ -22,6 +22,7 @@ import {
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import HoverPreviewList from "@/components/signature/HoverPreviewList";
 import KAquaMapsSuite from "@/components/sections/maps/KAquaMapsSuite";
+import CatalogReferences from "@/components/signature/CatalogReferences";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -164,6 +165,9 @@ export default async function ReferenzenPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Belegte Referenzen aus dem Herstellerkatalog (S. 7) — mit Fundstelle. */}
+      <CatalogReferences locale={locale} />
 
       {/* Signature: Hover Preview List (real reference projects) */}
       <section id="projekte" className="py-32 bg-background border-b border-card-border scroll-mt-24">

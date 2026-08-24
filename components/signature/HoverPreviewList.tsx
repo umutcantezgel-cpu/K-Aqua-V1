@@ -16,9 +16,20 @@ export default function HoverPreviewList({ className = '' }: { className?: strin
         <div key={proj.id || idx} id={proj.id} className="scroll-mt-28 h-full">
           <Link href={`/referenzen#${proj.id}`} className="group block h-full outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-2xl">
             <Card className="h-full flex flex-col p-0 overflow-hidden shadow-sm hover:shadow-diffuse transition-all duration-500 border-card-border hover:border-primary/50 relative">
-              {/* Gebrandetes Motiv statt Projektfoto: für diese Standorte gibt es
-                  keine freigegebenen Aufnahmen. Der Farbton wird deterministisch
-                  aus dem Index abgeleitet, damit die Kacheln unterscheidbar sind. */}
+              {/* Gebrandetes Motiv statt Projektfoto: für diese sieben Standorte
+                  gibt es keine freigegebenen Aufnahmen. Der Farbton wird
+                  deterministisch aus dem Index abgeleitet, damit die Kacheln
+                  unterscheidbar sind.
+
+                  ACHTUNG, offener Punkt für den Auftraggeber: Diese Liste kommt
+                  aus `refs.projects` in messages/ und nennt Städte (Dubai,
+                  Warschau, Istanbul, Singapur, Kapstadt, London) mit konkreten
+                  Projektbehauptungen. Im freigegebenen Marketing-Material ist
+                  keine davon belegt; belegt ist allein Waldsolms, der Firmensitz.
+                  Die vier Projekte, die der Hersteller selbst im Katalog nennt,
+                  stehen jetzt in components/signature/CatalogReferences.tsx —
+                  mit echten Aufnahmen und Fundstelle. Ob die sieben hier bleiben
+                  dürfen, kann nur K-Aqua entscheiden. */}
               <div
                 className="relative h-64 w-full overflow-hidden bg-muted"
                 style={{ ['--tile-hue' as string]: `${(idx * 47) % 360}` }}
