@@ -52,12 +52,12 @@ Der stahlverstärkte PP-Losflansch eignet sich ideal für den Bau komplexer Rohr
 4.  Lebensmittelindustrie und Pharmazie: Dank der hygienischen Eigenschaften von PP kann er problemlos in Systemen eingesetzt werden, die höchsten Reinheits- und Qualitätsstandards unterliegen.
 
 ### Kompatibilität: Socket Fusion (SF) und Butt Fusion (BF)
-Die Flexibilität in der Installationstechnik macht diesen Flansch besonders wertvoll für Bauingenieure und Installateure. Er ist voll kompatibel mit:
-*   Socket Fusion (Heizelementmuffenschweißen): Bei dieser bewährten Methode wird das Rohr direkt in eine Muffe eingeschweißt. Der Losflansch wird zuvor über das Rohr geschoben. Diese Methode eignet sich oft für kleinere bis mittlere Dimensionen und bietet eine sehr schnelle und zuverlässige Verbindungstechnik.
-*   Butt Fusion (Heizelementstumpfschweißen): Hierbei werden die Rohrenden stirnseitig aneinandergeschweißt. Der Flansch liegt sicher hinter dem sogenannten Vorschweißbund. Diese Methode wird insbesondere bei großen und sehr großen Rohrdurchmessern bevorzugt.
+Die Flexibilität in der Installationstechnik macht diesen Flansch besonders wertvoll für Bauingenieure und Installateure. Er ist je nach Dimension kompatibel mit:
+*   Socket Fusion (Heizelementmuffenschweißen, Größen d 40 - 125): Bei dieser bewährten Methode wird das Rohr direkt in eine Muffe eingeschweißt. Der Losflansch wird zuvor über das Rohr geschoben. Diese Methode eignet sich oft für kleinere bis mittlere Dimensionen und bietet eine sehr schnelle und zuverlässige Verbindungstechnik.
+*   Butt Fusion (Heizelementstumpfschweißen, Größen d 40 - 75 und d 160 - 315): Hierbei werden die Rohrenden stirnseitig aneinandergeschweißt. Der Flansch liegt sicher hinter dem sogenannten Vorschweißbund. Diese Methode wird insbesondere bei großen und sehr großen Rohrdurchmessern bevorzugt.
 
 ### Verfügbare Dimensionen und Skalierbarkeit
-Mit einer sehr breiten Palette an verfügbaren Größen von 40 mm bis 315 mm Außendurchmesser (d), was einer Nennweite von DN 40 bis DN 300 entspricht, lässt sich nahezu jedes Bauprojekt nahtlos realisieren. Von kleineren Versorgungs- und Nebenleitungen bis hin zu massiven industriellen Hauptsträngen bietet das umfangreiche Sortiment (Artikelnummern AQ575040 bis AQ575315) immer die exakt passende Dimensionierung. 
+Mit einer sehr breiten Palette an verfügbaren Größen von 40 mm bis 315 mm Außendurchmesser (d) lässt sich nahezu jedes Bauprojekt nahtlos realisieren. Von kleineren Versorgungs- und Nebenleitungen bis hin zu massiven industriellen Hauptsträngen bietet das umfangreiche Sortiment (Artikelnummern AQ75040 bis AQ750315) immer die exakt passende Dimensionierung. 
 Die strikte Einhaltung der internationalen Maßnormen (DN-System) garantiert eine nahtlose Kompatibilität mit genormten Armaturen, Pumpen, Ventilen, Kompensatoren und anderen Rohrleitungskomponenten, unabhängig vom jeweiligen Dritthersteller.
 
 ### Montagehinweise für maximale Sicherheit
@@ -83,12 +83,12 @@ The steel-reinforced PP backing flange is ideally suited for constructing comple
 4.  Food and Beverage Industry: Given the highly hygienic and non-toxic properties of PP, it can be seamlessly integrated into processing systems that are bound by the strictest sanitary, health, and purity standards.
 
 ### Compatibility: Socket Fusion (SF) and Butt Fusion (BF)
-The inherent flexibility in installation techniques makes this flange particularly valuable on multi-faceted construction sites. It is fully and unconditionally compatible with:
-*   Socket Fusion (SF): In this widely used method, the pipe and the fitting are heated and fused socket-style. The backing flange is simply slipped over the pipe prior to fusing the flange adaptor. This method is often preferred for small to medium pipe diameters, offering a rapid, robust, and permanent connection.
-*   Butt Fusion (BF): Here, the pipe ends are heated and pressed together directly in a seamless joint. The backing flange sits securely behind the butt fusion stub. This technique is generally favored for larger pipe diameters where socket fusion becomes impractical or impossible.
+The inherent flexibility in installation techniques makes this flange particularly valuable on multi-faceted construction sites. Depending on the dimension, it is fully compatible with:
+*   Socket Fusion (SF, sizes d 40 - 125): In this widely used method, the pipe and the fitting are heated and fused socket-style. The backing flange is simply slipped over the pipe prior to fusing the flange adaptor. This method is often preferred for small to medium pipe diameters, offering a rapid, robust, and permanent connection.
+*   Butt Fusion (BF, sizes d 40 - 75 and d 160 - 315): Here, the pipe ends are heated and pressed together directly in a seamless joint. The backing flange sits securely behind the butt fusion stub. This technique is generally favored for larger pipe diameters where socket fusion becomes impractical or impossible.
 
 ### Available Dimensions and Scalability
-Offering a very wide array of available sizes from 40 mm up to 315 mm in outer diameter (d)—which corresponds precisely to nominal diameters ranging from DN 40 to DN 300—this product line can accommodate almost any conceivable project scale. From minor utility supply lines to massive industrial main headers, the comprehensive range (covering article codes AQ575040 through AQ575315) always provides the exact dimension required for the job. 
+Offering a very wide array of available sizes from 40 mm up to 315 mm in outer diameter (d), this product line can accommodate almost any conceivable project scale. From minor utility supply lines to massive industrial main headers, the comprehensive range (covering article codes AQ75040 through AQ750315) always provides the exact dimension required for the job. 
 Strict and rigorous adherence to international dimensional standards ensures seamless, hassle-free compatibility with standardized valves, pumps, compensators, and other pipeline components, regardless of the original equipment manufacturer.
 
 ### Installation Best Practices for Maximum Safety
@@ -114,12 +114,12 @@ In conclusion, the Backing Flange PP-Steel is an indispensable, highly engineere
 4.  صناعة الأغذية والمشروبات والصناعات الدوائية: نظراً للخصائص الصحية العالية وغير السامة لمادة البولي بروبيلين، يمكن دمجها بسلاسة وأمان في أنظمة المعالجة التي تخضع لأكثر معايير النظافة والصحة والنقاء صرامة.
 
 ### التوافق الشامل: اللحام بالتجويف (SF) واللحام التناكبي (BF)
-إن المرونة المتأصلة في تقنيات التركيب تجعل هذه الشفة ذات قيمة خاصة للمهندسين والمقاولين في مواقع البناء المتعددة الأوجه. فهي متوافقة تماماً وبدون شروط مع:
-*   اللحام الانصهاري بالتجويف (Socket Fusion): في هذه الطريقة المستخدمة على نطاق واسع، يتم تسخين الأنبوب والمحول ودمجهما داخل التجويف. يتم ببساطة انزلاق شفة الدعم فوق الأنبوب قبل لحام محول الفلنجة. تُفضل هذه الطريقة غالباً لأقطار الأنابيب الصغيرة إلى المتوسطة، وتوفر اتصالاً سريعاً وقوياً ودائماً.
-*   اللحام الانصهاري التناكبي (Butt Fusion): هنا، يتم تسخين أطراف الأنابيب وضغطها معاً مباشرة في وصلة غير ملحومة. تستقر شفة الدعم بأمان خلف محول اللحام التناكبي. يُفضل هذا الأسلوب التقني بشكل عام لأقطار الأنابيب الكبيرة حيث يصبح اللحام بالتجويف غير عملي أو مستحيلاً.
+إن المرونة المتأصلة في تقنيات التركيب تجعل هذه الشفة ذات قيمة خاصة للمهندسين والمقاولين في مواقع البناء المتعددة الأوجه. وهي متوافقة تماماً، بحسب المقاس، مع:
+*   اللحام الانصهاري بالتجويف (Socket Fusion، المقاسات d 40 - 125): في هذه الطريقة المستخدمة على نطاق واسع، يتم تسخين الأنبوب والمحول ودمجهما داخل التجويف. يتم ببساطة انزلاق شفة الدعم فوق الأنبوب قبل لحام محول الفلنجة. تُفضل هذه الطريقة غالباً لأقطار الأنابيب الصغيرة إلى المتوسطة، وتوفر اتصالاً سريعاً وقوياً ودائماً.
+*   اللحام الانصهاري التناكبي (Butt Fusion، المقاسات d 40 - 75 و d 160 - 315): هنا، يتم تسخين أطراف الأنابيب وضغطها معاً مباشرة في وصلة غير ملحومة. تستقر شفة الدعم بأمان خلف محول اللحام التناكبي. يُفضل هذا الأسلوب التقني بشكل عام لأقطار الأنابيب الكبيرة حيث يصبح اللحام بالتجويف غير عملي أو مستحيلاً.
 
 ### الأبعاد المتوفرة وقابلية التوسع للمشاريع الضخمة
-مع توفير مجموعة واسعة جداً من الأحجام المتاحة من 40 مم وحتى 315 مم للقطر الخارجي (d) - والذي يتوافق بدقة تامة مع الأقطار الاسمية التي تتراوح من DN 40 إلى DN 300 - يمكن لخط الإنتاج هذا أن يلبي متطلبات أي حجم مشروع يمكن تصوره. بدءاً من خطوط إمداد المرافق الصغيرة والمحلية وصولاً إلى الأنابيب الصناعية الرئيسية الضخمة، توفر المجموعة الشاملة (التي تغطي رموز المقالات من AQ575040 إلى AQ575315) دائماً البعد الدقيق المطلوب لإنجاز المهمة. 
+مع توفير مجموعة واسعة جداً من الأحجام المتاحة من 40 مم وحتى 315 مم للقطر الخارجي (d)، يمكن لخط الإنتاج هذا أن يلبي متطلبات أي حجم مشروع يمكن تصوره. بدءاً من خطوط إمداد المرافق الصغيرة والمحلية وصولاً إلى الأنابيب الصناعية الرئيسية الضخمة، توفر المجموعة الشاملة (التي تغطي رموز المقالات من AQ75040 إلى AQ750315) دائماً البعد الدقيق المطلوب لإنجاز المهمة. 
 يضمن الالتزام الصارم والدقيق بالمعايير الدولية للأبعاد توافقاً سلساً وخالياً من المتاعب مع الصمامات والمضخات والمعوضات ومكونات خطوط الأنابيب القياسية الأخرى، بغض النظر عن الشركة المصنعة الأصلية للمعدات.
 
 ### أفضل ممارسات التركيب الهندسي لضمان أقصى درجات الأمان

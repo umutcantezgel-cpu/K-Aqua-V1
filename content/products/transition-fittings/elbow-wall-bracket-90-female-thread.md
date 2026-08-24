@@ -43,10 +43,11 @@ Das Herzstück dieses Wandwinkels ist das PP-R-Material, das sich durch hervorra
 
 ### Technische Spezifikationen und Dimensionen
 Unser PP-R Wandwinkel 90° mit Innengewinde ist in verschiedenen Dimensionen erhältlich, um den Anforderungen unterschiedlichster Installationsprojekte gerecht zu werden:
-- Durchmesser 20 mm mit Rp ½" Innengewinde (Code: AQ09WBRP20): Ideal für Standard-Waschtischanschlüsse, Duschen und Badewannen.
-- Durchmesser 25 mm mit Rp ¾" Innengewinde (Code: AQ09WBRP25): Perfekt für Spültische, Gartenwasserhähne oder Installationen mit höherem Volumenstrombedarf.
-- Durchmesser 32 mm mit Rp 1" Innengewinde (Code: AQ09WBRP32): Geeignet für größere Verteilerstationen und gewerbliche Sanitäranlagen.
-- Durchmesser 40 mm mit Rp 1¼" Innengewinde (Code: AQ09WBRP40): Für industrielle Anwendungen und Hauptanschlussleitungen mit maximalem Durchfluss.
+- Durchmesser 20 mm mit Rp ½" Innengewinde (Code: AQ472G2012): Ideal für Standard-Waschtischanschlüsse, Duschen und Badewannen.
+- Durchmesser 25 mm mit Rp ½" Innengewinde (Code: AQ472G2512): Für Standardarmaturen an stärker dimensionierten Zuleitungen.
+- Durchmesser 25 mm mit Rp ¾" Innengewinde (Code: AQ472G2534): Perfekt für Spültische, Gartenwasserhähne oder Installationen mit höherem Volumenstrombedarf.
+- Durchmesser 32 mm mit Rp ¾" Innengewinde (Code: AQ472G3234): Für ¾"-Entnahmestellen an Zuleitungen mit größerem Querschnitt.
+- Durchmesser 32 mm mit Rp 1" Innengewinde (Code: AQ472G321): Geeignet für größere Verteilerstationen und gewerbliche Sanitäranlagen.
 
 Alle Gewinde entsprechen den gängigen Normen für Rohrgewinde (Rp-Gewinde) und gewährleisten eine problemlose Kompatibilität mit Standard-Sanitärarmaturen, Hahnverlängerungen und Ventilen.
 
@@ -73,10 +74,11 @@ The core of this wall bracket elbow is the advanced PP-R material, which is char
 
 ### Technical Specifications and Dimensions
 Our PP-R Wall Bracket Elbow 90° with Female Thread is available in various dimensions to meet the rigorous demands of diverse installation projects:
-- Diameter 20 mm with Rp ½" Female Thread (Code: AQ09WBRP20): Ideal for standard washbasin connections, showers, and bathtubs.
-- Diameter 25 mm with Rp ¾" Female Thread (Code: AQ09WBRP25): Perfect for kitchen sinks, garden taps, or installations requiring higher flow rates.
-- Diameter 32 mm with Rp 1" Female Thread (Code: AQ09WBRP32): Suitable for larger distribution manifolds and commercial sanitary facilities.
-- Diameter 40 mm with Rp 1¼" Female Thread (Code: AQ09WBRP40): Designed for industrial applications and main supply lines demanding maximum throughput.
+- Diameter 20 mm with Rp ½" Female Thread (Code: AQ472G2012): Ideal for standard washbasin connections, showers, and bathtubs.
+- Diameter 25 mm with Rp ½" Female Thread (Code: AQ472G2512): For standard fixtures fed by a larger supply line.
+- Diameter 25 mm with Rp ¾" Female Thread (Code: AQ472G2534): Perfect for kitchen sinks, garden taps, or installations requiring higher flow rates.
+- Diameter 32 mm with Rp ¾" Female Thread (Code: AQ472G3234): For ¾" draw-off points on supply lines of a larger cross-section.
+- Diameter 32 mm with Rp 1" Female Thread (Code: AQ472G321): Suitable for larger distribution manifolds and commercial sanitary facilities.
 
 All threads comply with established standards for pipe threads (Rp thread) and guarantee seamless compatibility with standard plumbing fixtures, tap extensions, and valves across the global market.
 
@@ -103,10 +105,11 @@ To meet the ever-growing demands of the modern construction industry, every K-Aq
 
 ### المواصفات الفنية والأبعاد
 يتوفر كوع التثبيت الجداري PP-R بزاوية 90 درجة مع تسنين داخلي بأبعاد مختلفة لتلبية المتطلبات الصارمة لمشاريع التركيب المتنوعة:
-- قطر 20 مم مع تسنين داخلي Rp ½ بوصة (الرمز: AQ09WBRP20): مثالي لوصلات أحواض الغسيل القياسية، والاستحمام، وأحواض الاستحمام.
-- قطر 25 مم مع تسنين داخلي Rp ¾ بوصة (الرمز: AQ09WBRP25): مثالي لأحواض المطبخ، أو صنابير الحدائق، أو التركيبات التي تتطلب معدلات تدفق أعلى.
-- قطر 32 مم مع تسنين داخلي Rp 1 بوصة (الرمز: AQ09WBRP32): مناسب لمجمعات التوزيع الأكبر والمرافق الصحية التجارية.
-- قطر 40 مم مع تسنين داخلي Rp 1¼ بوصة (الرمز: AQ09WBRP40): مصمم للتطبيقات الصناعية وخطوط الإمداد الرئيسية التي تتطلب أقصى قدر من الإنتاجية.
+- قطر 20 مم مع تسنين داخلي Rp ½ بوصة (الرمز: AQ472G2012): مثالي لوصلات أحواض الغسيل القياسية، والاستحمام، وأحواض الاستحمام.
+- قطر 25 مم مع تسنين داخلي Rp ½ بوصة (الرمز: AQ472G2512): للتجهيزات القياسية المغذاة بخط إمداد أكبر قطراً.
+- قطر 25 مم مع تسنين داخلي Rp ¾ بوصة (الرمز: AQ472G2534): مثالي لأحواض المطبخ، أو صنابير الحدائق، أو التركيبات التي تتطلب معدلات تدفق أعلى.
+- قطر 32 مم مع تسنين داخلي Rp ¾ بوصة (الرمز: AQ472G3234): لنقاط السحب مقاس ¾ بوصة على خطوط إمداد ذات مقطع أكبر.
+- قطر 32 مم مع تسنين داخلي Rp 1 بوصة (الرمز: AQ472G321): مناسب لمجمعات التوزيع الأكبر والمرافق الصحية التجارية.
 
 تتوافق جميع التسنينات مع المعايير المعمول بها لخيوط الأنابيب (تسنين Rp) وتضمن التوافق السلس مع تركيبات السباكة القياسية، ووصلات الصنابير، والصمامات في جميع أنحاء السوق العالمية.
 

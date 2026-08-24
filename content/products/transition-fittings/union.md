@@ -94,12 +94,12 @@ The primary function of the K-Aqua PP-R Union is to allow for the quick, straigh
 ### Technical Specifications and Available Dimensions
 
 Our PP-R Pipe Unions are precisely engineered to meet the rigorous demands of professional installers and engineers. To ensure seamless integration into diverse piping systems, we offer these transition fittings in a comprehensive range of diameters. The available sizes (d) include:
-- 20 mm (Article Code: AQ69E20)
-- 25 mm (Article Code: AQ69E25)
-- 32 mm (Article Code: AQ69E32)
-- 40 mm (Article Code: AQ69E40)
-- 50 mm (Article Code: AQ69E50)
-- 63 mm (Article Code: AQ69E63)
+- 20 mm (Article Code: AQ330A20)
+- 25 mm (Article Code: AQ330A25)
+- 32 mm (Article Code: AQ330A32)
+- 40 mm (Article Code: AQ330A40)
+- 50 mm (Article Code: AQ330A50)
+- 63 mm (Article Code: AQ330A63)
 
 Each union is designed to be connected to the PP-R pipe via socket fusion welding. This technique fuses the pipe and fitting into a single, homogeneous piece of material, guaranteeing a 100% leak-proof and permanent connection. This robust joint eliminates weak points, ensuring the system can easily withstand high pressures and temperature fluctuations common in hot and cold water applications.
 
@@ -142,12 +142,12 @@ Every PP-R Pipe Union is subjected to comprehensive quality testing protocols be
 ### المواصفات الفنية والأبعاد المتاحة
 
 تم تصميم وصلات التجميع PP-R الخاصة بنا هندسياً بدقة متناهية لتلبية المتطلبات الصارمة للمهندسين وفنيي التركيب المحترفين. ولضمان التكامل السلس في أنظمة الأنابيب المتنوعة، نقدم هذه الوصلات الانتقالية في مجموعة شاملة من الأقطار. تشمل الأحجام المتاحة (d):
-- 20 مم (كود المنتج: AQ69E20)
-- 25 مم (كود المنتج: AQ69E25)
-- 32 مم (كود المنتج: AQ69E32)
-- 40 مم (كود المنتج: AQ69E40)
-- 50 مم (كود المنتج: AQ69E50)
-- 63 مم (كود المنتج: AQ69E63)
+- 20 مم (كود المنتج: AQ330A20)
+- 25 مم (كود المنتج: AQ330A25)
+- 32 مم (كود المنتج: AQ330A32)
+- 40 مم (كود المنتج: AQ330A40)
+- 50 مم (كود المنتج: AQ330A50)
+- 63 مم (كود المنتج: AQ330A63)
 
 تم تصميم كل وصلة تجميع ليتم توصيلها بأنبوب PP-R عن طريق اللحام الحراري بالانصهار (Socket Fusion). تعمل هذه التقنية على دمج الأنبوب والوصلة ليصبحا قطعة واحدة متجانسة من المواد، مما يضمن اتصالاً دائماً ومقاوماً للتسرب بنسبة 100%. يزيل هذا المفصل القوي أي نقاط ضعف، مما يضمن قدرة النظام على تحمل الضغوط العالية وتقلبات درجات الحرارة الشائعة في تطبيقات المياه الساخنة والباردة بسهولة تامة.
 

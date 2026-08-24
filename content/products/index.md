@@ -14,7 +14,7 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Category | Products |
 |----------|---------|
-| [Fittings](./fittings/index.md) | 15 products |
+| [Fittings](./fittings/index.md) | 18 products |
 | [Pipes](./pipes/index.md) | 12 products |
 | [Transition Fittings](./transition-fittings/index.md) | 13 products |
 | [Valves](./valves/index.md) | 9 products |
@@ -30,11 +30,11 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | Sizes |
 |---------|--------------|-------|
-| [Backing Flange PP-Steel (SF/BF)](./accessories/backing-flange-pp-steel-sfbf.md) | AQ575040–AQ575315 | Ø 40–315 mm |
-| [Flat Gasket](./accessories/flat-gasket.md) | AQ97040–AQ97250 | Ø 40–250 mm |
-| [Flat Gasket for Unions PP-R](./accessories/flat-gasket-for-unions-pp-r.md) | AQ9ANRP20–AQ9ANRP32 | Ø 20–32 mm |
-| [Pipe Clamps](./accessories/pipe-clamps.md) | AQ9520–AQ95200 | Ø 20–200 mm |
-| [Plug](./accessories/plug.md) | AQ98P57 | ½" |
+| [Backing Flange PP-Steel (SF/BF)](./accessories/backing-flange-pp-steel-sfbf.md) | AQ75040–AQ750315 | Ø 40–315 mm |
+| [Flat Gasket](./accessories/flat-gasket.md) | AQ71440–AQ714315 | Ø 40–315 mm |
+| [Flat Gasket for Unions PP-R](./accessories/flat-gasket-for-unions-pp-r.md) | AQ490F20–AQ490F32 | Ø 20–32 mm |
+| [Pipe Clamps](./accessories/pipe-clamps.md) | AQ50020–AQ500250 | Ø 20–250 mm |
+| [Plug](./accessories/plug.md) | AQ90912 | ½" |
 
 ---
 
@@ -42,21 +42,24 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | Sizes |
 |---------|--------------|-------|
-| [Cap](./fittings/cap.md) | AQ30120–AQ30175 | Ø 20–75 mm |
+| [Cap](./fittings/cap.md) | AQ30120–AQ301315 | Ø 20–315 mm |
 | [Cross](./fittings/cross.md) | AQ18025–AQ18032 | Ø 25–32 mm |
-| [Cross Over](./fittings/cross-over.md) | AQ26720–AQ26732 | Ø 20–32 mm |
+| [Cross Over](./fittings/cross-over.md) | AQ28720–AQ28732 | Ø 20–32 mm |
 | [Cross Over Pipe](./fittings/cross-over-pipe.md) | AQ28520–AQ28532 | Ø 20–32 mm |
-| [Elbow 45°](./fittings/elbow-45.md) | AQ04520–AQ04575 | Ø 20–75 mm |
+| [Cross Over with Socket](./fittings/cross-over-with-socket.md) | AQ28720–AQ28732 | Ø 20–32 mm |
+| [Elbow 45°](./fittings/elbow-45.md) | AQ04520–AQ045315 | Ø 20–315 mm |
 | [Elbow 45° (Female/Male)](./fittings/elbow-45-femalemale.md) | AQ04120–AQ04125 | Ø 20–25 mm |
-| [Elbow 90°](./fittings/elbow-90.md) | AQ09020–AQ09075 | Ø 20–75 mm |
+| [Elbow 90°](./fittings/elbow-90.md) | AQ09020–AQ090315 | Ø 20–315 mm |
 | [Elbow 90° (Female/Male)](./fittings/elbow-90-femalemale.md) | AQ09120–AQ09125 | Ø 20–25 mm |
-| [Electrofusion Socket](./fittings/electrofusion-socket.md) | AQ27E20–AQ27E75 | Ø 20–75 mm |
-| [Flange Adaptor](./fittings/flange-adaptor.md) | AQ79040–AQ790125 | Ø 40–125 mm |
-| [Reducing Bush](./fittings/reducing-bush.md) | AQ2432520–AQ2435020 | Ø 25×20–50×20 mm |
-| [Reducing Tee](./fittings/reducing-tee.md) | AQ1302520–AQ1305020 | Ø 25×20–50×20 mm |
-| [Reducing Tee (Large Sizes)](./fittings/reducing-tee-large-sizes.md) | AQ1506320–AQ1507532 | Ø 63×20–75×32 mm |
-| [Socket](./fittings/socket.md) | AQ27020–AQ27075 | Ø 20–75 mm |
-| [Tee](./fittings/tee.md) | AQ13020–AQ13075 | Ø 20–75 mm |
+| [Elbow 90° (Large Sizes)](./fittings/elbow-90-large-sizes.md) | AQ09090–AQ090315 | Ø 90–315 mm |
+| [Electrofusion Socket](./fittings/electrofusion-socket.md) | AQ27120–AQ271315 | Ø 20–315 mm |
+| [Flange Adaptor](./fittings/flange-adaptor.md) | AQ79040–AQ790315 | Ø 40–315 mm |
+| [Reducing Bush](./fittings/reducing-bush.md) | AQ2432520–AQ243315250 | Ø 25×20–315×250 mm |
+| [Reducing Tee](./fittings/reducing-tee.md) | AQ1302520–AQ130315250 | Ø 25×20–315×250 mm |
+| [Reducing Tee (Large Sizes)](./fittings/reducing-tee-large-sizes.md) | AQ1306320–AQ130315250 | Ø 63×20–315×250 mm |
+| [Socket](./fittings/socket.md) | AQ27020–AQ270125 | Ø 20–125 mm |
+| [Stub End](./fittings/stub-end.md) | AQ79040–AQ790315 | Ø 40–315 mm |
+| [Tee](./fittings/tee.md) | AQ13020–AQ130315 | Ø 20–315 mm |
 
 ---
 
@@ -64,18 +67,18 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | d (mm) | SDR | Material |
 |---------|--------------|--------|-----|----------|
-| [K-Fiber Pipe PP-R SDR 7.4](./pipes/k-fiber-pipe-pp-r-sdr-74.md) | AQ207PF20–AQ207PF50 | 20–50 | 7.4 | PP-R + Fiber |
-| [K-Fiber Pipe PP-R SDR 9](./pipes/k-fiber-pipe-pp-r-sdr-9.md) | AQ169PF32–AQ169PF75 | 32–75 | 9 | PP-R + Fiber |
-| [K-Fiber Pipe PP-R SDR 11](./pipes/k-fiber-pipe-pp-r-sdr-11.md) | AQ11PF20–AQ11PF50 | 20–50 | 11 | PP-R + Fiber |
-| [K-Fiber Pipe PP-R SDR 17](./pipes/k-fiber-pipe-pp-r-sdr-17.md) | AQ17PF90–AQ17PF200 | 90–200 | 17 | PP-R + Fiber |
-| [K-Fiber Pipe PP-RCT SDR 7.4](./pipes/k-fiber-pipe-pp-rct-sdr-74.md) | AQ200F20–AQ200F50 | 20–50 | 7.4 | PP-RCT + Fiber |
-| [K-Fiber UV Pipe PP-R SDR 7.4](./pipes/k-fiber-uv-pipe-pp-r-sdr-74.md) | AQ200PFUV20–50 | 20–50 | 7.4 | PP-R + UV |
-| [K-Fiber UV Pipe PP-RCT SDR 7.4](./pipes/k-fiber-uv-pipe-pp-rct-sdr-74.md) | AQ200FUVCT20–50 | 20–50 | 7.4 | PP-RCT + UV |
-| [K-Fiberclima Pipe PP-RCT SDR 11](./pipes/k-fiberclima-pipe-pp-rct-sdr-11.md) | AQ160F20–AQ160F50 | 20–50 | 11 | PP-RCT + Fiber |
-| [K-Pipe PP-R SDR 6](./pipes/k-pipe-pp-r-sdr-6.md) | AQ200P20–AQ200P50 | 20–50 | 6 | PP-R |
-| [K-Pipe PP-R SDR 11](./pipes/k-pipe-pp-r-sdr-11.md) | AQ11P20–AQ11P50 | 20–50 | 11 | PP-R |
-| [K-Pipe PP-R Purple SDR 11](./pipes/k-pipe-purple-pp-r-sdr-11.md) | AQ11PL20–AQ11PL50 | 20–50 | 11 | PP-R |
-| [K-Pipe PP-RCT SDR 7.4](./pipes/k-pipe-pp-rct-sdr-74.md) | AQ20020–AQ20050 | 20–50 | 7.4 | PP-RCT |
+| [K-Fiber Pipe PP-R SDR 7.4](./pipes/k-fiber-pipe-pp-r-sdr-74.md) | AQ207PF20–AQ207PF315 | 20–315 | 7.4 | PP-R + Fiber |
+| [K-Fiber Pipe PP-R SDR 9](./pipes/k-fiber-pipe-pp-r-sdr-9.md) | AQ169PF32–AQ169PF355 | 32–355 | 9 | PP-R + Fiber |
+| [K-Fiber Pipe PP-R SDR 11](./pipes/k-fiber-pipe-pp-r-sdr-11.md) | AQ111PF20–AQ111PF500 | 20–500 | 11 | PP-R + Fiber |
+| [K-Fiber Pipe PP-R SDR 17](./pipes/k-fiber-pipe-pp-r-sdr-17.md) | AQ117PF90–AQ117PF630 | 90–630 | 17 | PP-R + Fiber |
+| [K-Fiber Pipe PP-RCT SDR 7.4](./pipes/k-fiber-pipe-pp-rct-sdr-74.md) | AQ200F20–AQ200F315 | 20–315 | 7.4 | PP-RCT + Fiber |
+| [K-Fiber UV Pipe PP-R SDR 7.4](./pipes/k-fiber-uv-pipe-pp-r-sdr-74.md) | AQ200PFUV20–AQ200PFUV160 | 20–160 | 7.4 | PP-R + UV |
+| [K-Fiber UV Pipe PP-RCT SDR 7.4](./pipes/k-fiber-uv-pipe-pp-rct-sdr-74.md) | AQ200FUV20–AQ200FUV160 | 20–160 | 7.4 | PP-RCT + UV |
+| [K-Fiberclima Pipe PP-RCT SDR 11](./pipes/k-fiberclima-pipe-pp-rct-sdr-11.md) | AQ160F20–AQ160F500 | 20–500 | 11 | PP-RCT + Fiber |
+| [K-Pipe PP-R SDR 6](./pipes/k-pipe-pp-r-sdr-6.md) | AQ200P20–AQ200P125 | 20–125 | 6 | PP-R |
+| [K-Pipe PP-R SDR 11](./pipes/k-pipe-pp-r-sdr-11.md) | AQ111P20–AQ111P500 | 20–500 | 11 | PP-R |
+| [K-Pipe PP-R Purple SDR 11](./pipes/k-pipe-purple-pp-r-sdr-11.md) | AQ111PL20–AQ111PL160 | 20–160 | 11 | PP-R |
+| [K-Pipe PP-RCT SDR 7.4](./pipes/k-pipe-pp-rct-sdr-74.md) | AQ20020–AQ200315 | 20–315 | 7.4 | PP-RCT |
 
 ---
 
@@ -91,12 +94,12 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Hand Welding Machine Mirror 50–125](./tools/hand-welding-machine-mirror-50-125.md) | AQ991125 | Replacement heating mirror |
 | [Pipe Cutter 20–40](./tools/pipe-cutter-2040.md) | AQ97040 | Cutting Ø 20–40 mm |
 | [Pipe Cutter 50–125](./tools/pipe-cutter-50125.md) | AQ975125 | Cutting Ø 50–125 mm |
-| [Pipe Cutter 50–125 (1¼)](./tools/pipe-cutter-50125-1.md) | AQ974 | Cutting Ø 50–125 mm |
-| [Repairing Plug](./tools/repairing-plug.md) | AQ96557–AQ96511 | Emergency leak repair |
-| [Welding Machine 50–125 (Complete)](./tools/welding-machine-50-125.md) | AQ985125 | Socket fusion Ø 50–125 mm |
-| [Welding Tool](./tools/welding-tool.md) | AQ98220–AQ98290 | Individual die sets Ø 20–90 mm |
-| [Welding Tool for Repairing Plug](./tools/welding-tool-for-repairing-plug.md) | AQ98625–AQ98663 | Heating dies for repair plug |
-| [Welding Tool for Weld-in Saddles](./tools/welding-tool-for-weld-in-saddles.md) | AQ985040–AQ985160 | Saddle welding Ø 40–250 mm |
+| [Pipe Cutter 50–125 (1¼)](./tools/pipe-cutter-50125-1.md) | AQ974 | Scraping / cleaning the pipe surface prior to welding |
+| [Repairing Plug](./tools/repairing-plug.md) | AQ5937–AQ59311 | Emergency leak repair |
+| [Welding Machine 50–125 (Complete)](./tools/welding-machine-50-125.md) | AQ988125 | Socket fusion Ø 50–125 mm |
+| [Welding Tool](./tools/welding-tool.md) | AQ98220–AQ982125 | Individual die sets Ø 20–125 mm |
+| [Welding Tool for Repairing Plug](./tools/welding-tool-for-repairing-plug.md) | AQ9837–AQ98311 | Heating dies for repair plug |
+| [Welding Tool for Weld-in Saddles](./tools/welding-tool-for-weld-in-saddles.md) | AQ98504006325–AQ98516025063 | Saddle welding Ø 40–250 mm |
 
 ---
 
@@ -104,19 +107,19 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | Thread | Sizes |
 |---------|--------------|--------|-------|
-| [Adaptor Socket (Female Thread)](./transition-fittings/adaptor-socket-female-thread.md) | AQ24RP20–AQ24RP315 | Rp (int.) | Ø 20–315 mm |
-| [Adaptor Socket (Male Thread)](./transition-fittings/adaptor-socket-male-thread.md) | AQ24R20–AQ24R160 | R (ext.) | Ø 20–160 mm |
-| [Elbow 90° (Male Thread)](./transition-fittings/elbow-90-male-thread.md) | AQ09R20–AQ09R40 | R (ext.) | Ø 20–40 mm |
-| [Elbow Bracket 90° (Female Thread)](./transition-fittings/elbow-bracket-90-female-thread.md) | AQ09BRP20–AQ09BRP50 | Rp (int.) | Ø 20–50 mm |
-| [Elbow/Wall Bracket 90° (Female Thread)](./transition-fittings/elbow-wall-bracket-90-female-thread.md) | AQ09WBRP20–AQ09WBRP40 | Rp (int.) | Ø 20–40 mm |
-| [Metal Union - Female Thread](./transition-fittings/metal-union-female-thread.md) | AQ71RP20–AQ71RP50 | Rp (int.) | Ø 20–50 mm |
-| [Metal Union - Female Thread (Yellow Brass)](./transition-fittings/metal-union-female-thread-brass.md) | AQ70RP20–AQ70RP50 | Rp (int.) | Ø 20–50 mm |
-| [Metal Union - Male Thread](./transition-fittings/metal-union-male-thread.md) | AQ71R20–AQ71R50 | R (ext.) | Ø 20–50 mm |
-| [Metal Union - Male Thread (Yellow Brass)](./transition-fittings/metal-union-male-thread-brass.md) | AQ70R20–AQ70R50 | R (ext.) | Ø 20–50 mm |
-| [Tee 90° (Female Thread)](./transition-fittings/tee-90-female-thread.md) | AQ13RP20–AQ13RP40 | Rp (int.) | Ø 20–40 mm |
-| [Tee 90° (Male Thread)](./transition-fittings/tee-90-male-thread.md) | AQ13R20–AQ13R40 | R (ext.) | Ø 20–40 mm |
-| [Union](./transition-fittings/union.md) | AQ69E20–AQ69E63 | - | Ø 20–63 mm |
-| [Union for Watermeters](./transition-fittings/union-for-watermeters.md) | AQ72E20–AQ72E32 | - | Ø 20–32 mm |
+| [Adaptor Socket (Female Thread)](./transition-fittings/adaptor-socket-female-thread.md) | AQ270G2012–AQ270G1104 | Rp (int.) | Ø 20–110 mm |
+| [Adaptor Socket (Male Thread)](./transition-fittings/adaptor-socket-male-thread.md) | AQ243G2012–AQ243G1104 | R (ext.) | Ø 20–110 mm |
+| [Elbow 90° (Male Thread)](./transition-fittings/elbow-90-male-thread.md) | AQ092G2012–AQ092G321 | R (ext.) | Ø 20–32 mm |
+| [Elbow Bracket 90° (Female Thread)](./transition-fittings/elbow-bracket-90-female-thread.md) | AQ090G2012–AQ090G321 | Rp (int.) | Ø 20–32 mm |
+| [Elbow/Wall Bracket 90° (Female Thread)](./transition-fittings/elbow-wall-bracket-90-female-thread.md) | AQ472G2012–AQ472G321 | Rp (int.) | Ø 20–32 mm |
+| [Metal Union - Female Thread](./transition-fittings/metal-union-female-thread.md) | AQ54220–AQ54263 | Rp (int.) | Ø 20–63 mm |
+| [Metal Union - Female Thread (Yellow Brass)](./transition-fittings/metal-union-female-thread-brass.md) | AQ53220–AQ53263 | Rp (int.) | Ø 20–63 mm |
+| [Metal Union - Male Thread](./transition-fittings/metal-union-male-thread.md) | AQ54720–AQ54763 | R (ext.) | Ø 20–63 mm |
+| [Metal Union - Male Thread (Yellow Brass)](./transition-fittings/metal-union-male-thread-brass.md) | AQ53720–AQ53763 | R (ext.) | Ø 20–63 mm |
+| [Tee 90° (Female Thread)](./transition-fittings/tee-90-female-thread.md) | AQ130G2012–AQ130G321 | Rp (int.) | Ø 20–32 mm |
+| [Tee 90° (Male Thread)](./transition-fittings/tee-90-male-thread.md) | AQ133G2012–AQ133G2534 | R (ext.) | Ø 20–25 mm |
+| [Union](./transition-fittings/union.md) | AQ330A20–AQ330A63 | - | Ø 20–63 mm |
+| [Union for Watermeters](./transition-fittings/union-for-watermeters.md) | AQ3322012–AQ3322534 | - | Ø 20–25 mm |
 
 ---
 
@@ -124,15 +127,15 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | Sizes |
 |---------|--------------|-------|
-| [Adjustable Battery (Female Thread)](./valves/adjustable-battery-female-thread.md) | AQ64ARCG20–AQ64ARCG25 | Ø 20–25 mm |
-| [Battery (Female Thread)](./valves/battery-female-thread.md) | AQ64RCG20–AQ64RCG25 | Ø 20–25 mm |
-| [Concealed Valve Chrome - Heavy Part](./valves/concealed-valve-chrome-heavy-part.md) | AQ62993 | ½" |
-| [Concealed Valve Chrome - Light Part](./valves/concealed-valve-chrome-light-part.md) | AQ62992 | ½" |
-| [Elongation Pieces](./valves/elongation-pieces.md) | AQ62990 | 30 mm |
-| [PP-R Ball Valve (Ball in Brass, Chromium Plated)](./valves/pp-r-ball-valve-ball-in-brass-chromium-plated.md) | AQ60020–AQ60090 | Ø 20–90 mm |
-| [PP-R Ball Valve (Ball in PP)](./valves/pp-r-ball-valve-ball-in-pp.md) | AQ50020–AQ50063 | Ø 20–63 mm |
-| [Straight Seat Valve - Upper Part, Green Handle](./valves/straight-seat-valve-green-handle.md) | AQ62591 | ¾" |
-| [Tee 90° (Female Thread) for Internal Valve](./valves/tee-90-female-thread-for-internal-valve.md) | AQ60RP20–AQ60RP40 | Ø 20–40 mm |
+| [Adjustable Battery (Female Thread)](./valves/adjustable-battery-female-thread.md) | AQ492G2012–AQ492G2512 | Ø 20–25 mm |
+| [Battery (Female Thread)](./valves/battery-female-thread.md) | AQ490G2012–AQ490G2512 | Ø 20–25 mm |
+| [Concealed Valve Chrome - Heavy Part](./valves/concealed-valve-chrome-heavy-part.md) | AQ5993 | ¾" |
+| [Concealed Valve Chrome - Light Part](./valves/concealed-valve-chrome-light-part.md) | AQ5992 | ¾" |
+| [Elongation Pieces](./valves/elongation-pieces.md) | AQ599E | 30 mm |
+| [PP-R Ball Valve (Ball in Brass, Chromium Plated)](./valves/pp-r-ball-valve-ball-in-brass-chromium-plated.md) | AQ85020–AQ85090 | Ø 20–90 mm |
+| [PP-R Ball Valve (Ball in PP)](./valves/pp-r-ball-valve-ball-in-pp.md) | AQ85220–AQ85263 | Ø 20–63 mm |
+| [Straight Seat Valve - Upper Part, Green Handle](./valves/straight-seat-valve-green-handle.md) | AQ5991 | ¾" |
+| [Tee 90° (Female Thread) for Internal Valve](./valves/tee-90-female-thread-for-internal-valve.md) | AQ599A2034–AQ599A321 | Ø 20–32 mm |
 
 ---
 
@@ -140,9 +143,9 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 
 | Product | Article Codes | Main Pipe Range |
 |---------|--------------|----------------|
-| [Weld-in Saddle](./weld-in-saddles/weld-in-saddle.md) | AQ1505406320–AQ1505160250 | Ø 40–250 mm |
-| [Weld-in Saddle (Female Thread)](./weld-in-saddles/weld-in-saddle-female-thread.md) | AQ270S406332–AQ270S751254 | Ø 40–125 mm |
-| [Weld-in Saddle (Male Thread)](./weld-in-saddles/weld-in-saddle-male-thread.md) | AQ243S406334–AQ243S751251 | Ø 40–125 mm |
+| [Weld-in Saddle](./weld-in-saddles/weld-in-saddle.md) | AQ130S406320–AQ130S16025063 | Ø 40–250 mm |
+| [Weld-in Saddle (Female Thread)](./weld-in-saddles/weld-in-saddle-female-thread.md) | AQ270S406312–AQ270S7512534 | Ø 40–125 mm |
+| [Weld-in Saddle (Male Thread)](./weld-in-saddles/weld-in-saddle-male-thread.md) | AQ243S406312–AQ243S7512534 | Ø 40–125 mm |
 
 ## SEO-CONTENT-DE
 ### Der komplette K-Aqua Produktkatalog: Hochleistungs-Rohrsysteme aus PP-R und PP-RCT

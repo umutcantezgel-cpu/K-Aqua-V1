@@ -40,10 +40,11 @@ Das PP-R T-Stück 90° mit Innengewinde (Tee 90° Female Thread) ist eine essenz
 #### Technische Spezifikationen und Konstruktionsmerkmale
 Das Übergangs-T-Stück zeichnet sich durch zwei Schweißmuffen (Socket Fusion Ends) und einen 90-Grad-Abzweig mit zylindrischem Innengewinde aus. Diese Konstruktion ermöglicht die nahtlose Integration von Armaturen, Sensoren, Ventilen oder metallischen Rohrleitungen in ein bestehendes PP-R-Netzwerk.
 Die verfügbaren Dimensionen umfassen die gängigsten Größen für vielseitige Anwendungen:
-- 20 mm x ½" (Artikelnummer AQ13RP20): Ideal für feine Abzweigungen und den Anschluss von Standard-Sanitärarmaturen.
-- 25 mm x ¾" (Artikelnummer AQ13RP25): Perfekt für Steigleitungen und Heizungsverteiler mit mittlerem Durchfluss.
-- 32 mm x 1" (Artikelnummer AQ13RP32): Geeignet für Hauptversorgungsleitungen und industrielle Anwendungen, die ein größeres Volumen erfordern.
-- 40 mm x 1¼" (Artikelnummer AQ13RP40): Entwickelt für Hochleistungsnetze, große Verteileranlagen und kommunale Wasserversorgungssysteme.
+- 20 mm x ½" (Artikelnummer AQ130G2012): Ideal für feine Abzweigungen und den Anschluss von Standard-Sanitärarmaturen.
+- 25 mm x ½" (Artikelnummer AQ130G2512): Für Standardarmaturen an Zuleitungen mit größerem Querschnitt.
+- 25 mm x ¾" (Artikelnummer AQ130G2534): Perfekt für Steigleitungen und Heizungsverteiler mit mittlerem Durchfluss.
+- 32 mm x ¾" (Artikelnummer AQ130G3234): Für ¾"-Abzweige an Hauptleitungen mit größerem Volumen.
+- 32 mm x 1" (Artikelnummer AQ130G321): Geeignet für Hauptversorgungsleitungen und industrielle Anwendungen, die ein größeres Volumen erfordern.
 
 Das Metallgewinde ist so in den Kunststoffkörper eingegossen, dass es extrem hohen Torsionskräften standhält und ein Mitdrehen beim Einschrauben von Metallfittings absolut verhindert wird. Dies wird durch ein spezielles Verankerungsdesign im Inneren des Bauteils erreicht, das höchste Stabilität gewährleistet.
 
@@ -73,10 +74,11 @@ The PP-R Tee 90° with Female Thread is an essential component in modern plumbin
 #### Technical Specifications and Advanced Design Features
 This specialized transition tee is characterized by two socket fusion ends and a 90-degree branch outlet featuring a cylindrical female thread. This intelligent construction allows for the seamless integration of fixtures, pressure sensors, valves, or metallic pipes directly into an existing PP-R network without compromising the structural integrity of the system.
 The available dimensions cover the most critical sizes for versatile applications across various sectors:
-- 20 mm x ½" (Article Code: AQ13RP20): Ideal for precise, smaller-scale branching and the connection of standard sanitary fixtures, faucets, and localized distribution points.
-- 25 mm x ¾" (Article Code: AQ13RP25): Perfectly suited for riser pipes, secondary distribution lines, and heating manifolds requiring moderate flow rates.
-- 32 mm x 1" (Article Code: AQ13RP32): Highly recommended for primary supply lines, commercial applications, and industrial setups that demand a larger volumetric flow.
-- 40 mm x 1¼" (Article Code: AQ13RP40): Specifically engineered for heavy-duty networks, large-scale distribution systems, and municipal water supply infrastructure.
+- 20 mm x ½" (Article Code: AQ130G2012): Ideal for precise, smaller-scale branching and the connection of standard sanitary fixtures, faucets, and localized distribution points.
+- 25 mm x ½" (Article Code: AQ130G2512): For standard fixtures on supply lines of a larger cross-section.
+- 25 mm x ¾" (Article Code: AQ130G2534): Perfectly suited for riser pipes, secondary distribution lines, and heating manifolds requiring moderate flow rates.
+- 32 mm x ¾" (Article Code: AQ130G3234): For ¾" branch outlets on main lines carrying a larger volume.
+- 32 mm x 1" (Article Code: AQ130G321): Highly recommended for primary supply lines, commercial applications, and industrial setups that demand a larger volumetric flow.
 
 The metallic thread is intricately molded and deeply anchored into the plastic body during the manufacturing process. This exceptional design ensures that the metal insert can withstand extremely high torsional forces, completely preventing it from turning or coming loose when metallic fittings are screwed in. This guarantees structural stability even under demanding operational pressures.
 
@@ -106,10 +108,11 @@ Choosing this specific transition fitting is a long-term investment in operation
 #### المواصفات الفنية وميزات التصميم المتقدمة
 تتميز هذه الوصلة الانتقالية المتخصصة بنهايتين للّحام الحراري (Socket Fusion Ends) ومخرج فرعي بزاوية 90 درجة يحتوي على سن داخلي أسطواني. يسمح هذا التصميم الذكي بالدمج السلس للتركيبات، أو أجهزة استشعار الضغط، أو الصمامات، أو الأنابيب المعدنية مباشرة في شبكة PP-R الحالية دون المساس بالسلامة الهيكلية للنظام.
 تغطي الأبعاد المتاحة الأحجام الأكثر أهمية لتطبيقات متعددة الاستخدامات في مختلف القطاعات:
-- 20 مم × ½ بوصة (رمز المقال: AQ13RP20): مثالي للتفريعات الدقيقة والصغيرة الحجم وتوصيل تركيبات الصرف الصحي القياسية وصنابير المياه ونقاط التوزيع المحلية في المنازل.
-- 25 مم × ¾ بوصة (رمز المقال: AQ13RP25): مناسب تماماً للأنابيب الصاعدة، وخطوط التوزيع الثانوية، ومشعبات التدفئة التي تتطلب معدلات تدفق متوسطة ومستقرة.
-- 32 مم × 1 بوصة (رمز المقال: AQ13RP32): يوصى به بشدة لخطوط الإمداد الرئيسية، والتطبيقات التجارية، والمنشآت الصناعية التي تتطلب تدفقاً حجمياً أكبر وقوة تحمل أعلى.
-- 40 مم × 1¼ بوصة (رمز المقال: AQ13RP40): مصمم خصيصاً للشبكات شديدة التحمل، وأنظمة التوزيع واسعة النطاق، والبنية التحتية لإمدادات المياه البلدية والمشاريع الكبيرة.
+- 20 مم × ½ بوصة (رمز المقال: AQ130G2012): مثالي للتفريعات الدقيقة والصغيرة الحجم وتوصيل تركيبات الصرف الصحي القياسية وصنابير المياه ونقاط التوزيع المحلية في المنازل.
+- 25 مم × ½ بوصة (رمز المقال: AQ130G2512): للتجهيزات القياسية على خطوط إمداد ذات مقطع أكبر.
+- 25 مم × ¾ بوصة (رمز المقال: AQ130G2534): مناسب تماماً للأنابيب الصاعدة، وخطوط التوزيع الثانوية، ومشعبات التدفئة التي تتطلب معدلات تدفق متوسطة ومستقرة.
+- 32 مم × ¾ بوصة (رمز المقال: AQ130G3234): للتفريعات مقاس ¾ بوصة على الخطوط الرئيسية ذات الحجم الأكبر.
+- 32 مم × 1 بوصة (رمز المقال: AQ130G321): يوصى به بشدة لخطوط الإمداد الرئيسية، والتطبيقات التجارية، والمنشآت الصناعية التي تتطلب تدفقاً حجمياً أكبر وقوة تحمل أعلى.
 
 يتم تشكيل السن المعدني وتثبيته بعمق داخل الهيكل البلاستيكي أثناء عملية التصنيع. يضمن هذا التصميم الاستثنائي قدرة الجزء المعدني الداخلي على تحمل قوى الالتواء العالية جداً، مما يمنعه تماماً من الدوران أو التخلخل عند تثبيت المكونات المعدنية فيه. هذا يضمن استقراراً هيكلياً حتى تحت ضغوط التشغيل الصعبة للغاية.
 

@@ -98,11 +98,12 @@ The combination of two distinct yet perfectly complementary materials transforms
 #### Technical Specifications and Dimensions
 To guarantee maximum compatibility with both existing infrastructure and new piping systems, the Metal Union in Brass CW617N with female thread is available in a comprehensive range of sizes. The product lineup covers the most common pipe outer diameters and provides the corresponding metric threaded connections:
 
-- AQ70RP20: This variant is designed for PP-R pipes with an outer diameter of 20 mm and features a ½" (inch) female thread. It is ideal for connecting individual tap points or smaller distribution lines in residential settings.
-- AQ70RP25: Engineered for 25 mm pipes, this union offers a ¾" female thread. It is a standard dimension for risers and larger water withdrawal points in residential and commercial building construction.
-- AQ70RP32: Featuring a connection for 32 mm pipes and a 1" female thread, this model is perfectly suited for main distribution lines in multi-family dwellings or smaller commercial facilities.
-- AQ70RP40: This size, tailored for 40 mm pipes with a 1¼" female thread, is predestined for industrial applications and for integrating large heating and cooling circuits.
-- AQ70RP50: The largest standard model, designed for 50 mm pipes with a massive 1½" female thread, provides maximum flow rates for demanding commercial and heavy industrial applications.
+- AQ53220: This variant is designed for PP-R pipes with an outer diameter of 20 mm and features a ½" (inch) female thread. It is ideal for connecting individual tap points or smaller distribution lines in residential settings.
+- AQ53225: Engineered for 25 mm pipes, this union offers a ¾" female thread. It is a standard dimension for risers and larger water withdrawal points in residential and commercial building construction.
+- AQ53232: Featuring a connection for 32 mm pipes and a 1" female thread, this model is perfectly suited for main distribution lines in multi-family dwellings or smaller commercial facilities.
+- AQ53240: This size, tailored for 40 mm pipes with a 1¼" female thread, is predestined for industrial applications and for integrating large heating and cooling circuits.
+- AQ53250: Designed for 50 mm pipes with a massive 1½" female thread, it provides high flow rates for demanding commercial and industrial applications.
+- AQ53263: The largest standard model, designed for 63 mm pipes with a 2" female thread, provides maximum flow rates for heavy industrial applications.
 
 All female threads strictly adhere to the Rp standard (cylindrical internal pipe thread), which ensures a universal fit and a permanently tight seal when mated with corresponding conical or cylindrical male threads.
 
@@ -143,11 +144,12 @@ In conclusion, the Metal Union in Brass CW617N with PP-R nut and female thread i
 #### المواصفات الفنية والأبعاد
 لضمان أقصى قدر من التوافق مع كل من البنية التحتية الحالية وأنظمة الأنابيب الجديدة، تتوفر الوصلة المعدنية من النحاس CW617N بسن داخلي في مجموعة شاملة من الأحجام. تغطي مجموعة المنتجات أقطار الأنابيب الخارجية الأكثر شيوعاً وتوفر التوصيلات الملولبة المترية المقابلة:
 
-- AQ70RP20: تم تصميم هذا البديل لأنابيب PP-R بقطر خارجي يبلغ 20 مم ويتميز بسن داخلي مقاس ½ بوصة. وهو مثالي لربط نقاط الحنفية الفردية أو خطوط التوزيع الأصغر في الأماكن السكنية.
-- AQ70RP25: تم تصميم هذه الوصلة لأنابيب 25 مم، وتوفر سناً داخلياً مقاس ¾ بوصة. وهو بعد قياسي للرافعات ونقاط سحب المياه الأكبر في بناء المباني السكنية والتجارية.
-- AQ70RP32: تتميز هذه الوصلة بوصلة لأنابيب 32 مم وسن داخلي مقاس 1 بوصة، وهذا الطراز مناسب تماماً لخطوط التوزيع الرئيسية في المساكن متعددة العائلات أو المرافق التجارية الأصغر.
-- AQ70RP40: هذا الحجم، المصمم لأنابيب 40 مم مع سن داخلي 1¼ بوصة، مخصص للتطبيقات الصناعية ولدمج دوائر التدفئة والتبريد الكبيرة.
-- AQ70RP50: أكبر طراز قياسي، مصمم لأنابيب 50 مم مع سن داخلي ضخم مقاس 1½ بوصة، يوفر أقصى معدلات تدفق للتطبيقات التجارية والصناعية الثقيلة المتطلبة.
+- AQ53220: تم تصميم هذا البديل لأنابيب PP-R بقطر خارجي يبلغ 20 مم ويتميز بسن داخلي مقاس ½ بوصة. وهو مثالي لربط نقاط الحنفية الفردية أو خطوط التوزيع الأصغر في الأماكن السكنية.
+- AQ53225: تم تصميم هذه الوصلة لأنابيب 25 مم، وتوفر سناً داخلياً مقاس ¾ بوصة. وهو بعد قياسي للرافعات ونقاط سحب المياه الأكبر في بناء المباني السكنية والتجارية.
+- AQ53232: تتميز هذه الوصلة بوصلة لأنابيب 32 مم وسن داخلي مقاس 1 بوصة، وهذا الطراز مناسب تماماً لخطوط التوزيع الرئيسية في المساكن متعددة العائلات أو المرافق التجارية الأصغر.
+- AQ53240: هذا الحجم، المصمم لأنابيب 40 مم مع سن داخلي 1¼ بوصة، مخصص للتطبيقات الصناعية ولدمج دوائر التدفئة والتبريد الكبيرة.
+- AQ53250: مصمم لأنابيب 50 مم مع سن داخلي ضخم مقاس 1½ بوصة، ويوفر معدلات تدفق عالية للتطبيقات التجارية والصناعية المتطلبة.
+- AQ53263: أكبر طراز قياسي، مصمم لأنابيب 63 مم مع سن داخلي مقاس 2 بوصة، يوفر أقصى معدلات تدفق للتطبيقات الصناعية الثقيلة.
 
 تلتزم جميع الخيوط الداخلية بصرامة بمعيار Rp (السن الداخلي الأسطواني للأنابيب)، مما يضمن ملاءمة عالمية وختماً محكماً بشكل دائم عند تزاوجها مع الخيوط الخارجية المخروطية أو الأسطوانية المقابلة.
 

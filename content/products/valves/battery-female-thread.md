@@ -35,10 +35,10 @@ Eine Verteiler-Batterie, auch Heizkreisverteiler oder Wasserverteiler genannt, d
 
 #### Technische Spezifikationen und Varianten im Detail
 Unsere PP-R Verteiler-Batterien mit Innengewinde sind in den gängigsten Größen für professionelle Installationen in Wohn- und Gewerbegebäuden erhältlich. Konkret umfasst das Sortiment:
-* Artikel AQ64RCG20: Durchmesser (d) 20 mm, Innengewinde (Rp) ½ Zoll, Länge 166 mm, Gewicht 0,38 kg, Verpackungseinheit 1 Stück.
-* Artikel AQ64RCG25: Durchmesser (d) 25 mm, Innengewinde (Rp) ½ Zoll, Länge 166 mm, Gewicht 0,38 kg, Verpackungseinheit 1 Stück.
+* Artikel AQ490G2012: Durchmesser (d) 20 mm, Innengewinde (Rp) ½ Zoll, Länge (L) 150 mm, Gesamtlänge (L1) 185 mm, Gewicht 0,18 kg, Verpackungseinheit 1 Stück.
+* Artikel AQ490G2512: Durchmesser (d) 25 mm, Innengewinde (Rp) ½ Zoll, Länge (L) 150 mm, Gesamtlänge (L1) 185 mm, Gewicht 0,19 kg, Verpackungseinheit 1 Stück.
 
-Diese Präzisionsbauteile zeichnen sich durch ihre exakten Maße und eine extrem robuste Bauweise aus. Der Innengewinde-Anschluss von ½ Zoll bietet höchste Kompatibilität mit Standard-Fittings und Übergangsstücken aus Messing oder Edelstahl. Die Länge von 166 mm ermöglicht eine kompakte Bauweise, selbst in engen Verteilerkästen.
+Diese Präzisionsbauteile zeichnen sich durch ihre exakten Maße und eine extrem robuste Bauweise aus. Der Innengewinde-Anschluss von ½ Zoll bietet höchste Kompatibilität mit Standard-Fittings und Übergangsstücken aus Messing oder Edelstahl. Die Länge von 150 mm ermöglicht eine kompakte Bauweise, selbst in engen Verteilerkästen.
 
 #### Warum PP-R? Die unschlagbaren Vorteile des Materials
 Polypropylen-Random-Copolymer (PP-R) hat sich in den letzten Jahrzehnten als eines der absolut besten Materialien für die Sanitär- und Heizungsinstallation etabliert. Die Gründe dafür sind vielfältig:
@@ -71,10 +71,10 @@ A distribution manifold, or battery, serves as a central hub or nexus within a c
 
 #### Technical Specifications and Available Variants in Detail
 Our highly engineered PP-R batteries with female threads are available in the most common dimensions to perfectly suit professional installation requirements in both residential and commercial buildings. Specifically, our comprehensive product range includes the following standard configurations:
-* Article Code AQ64RCG20: Pipe diameter (d) 20 mm, Female Thread (Rp) ½", Length 166 mm, Weight 0.38 kg, Pack size 1.
-* Article Code AQ64RCG25: Pipe diameter (d) 25 mm, Female Thread (Rp) ½", Length 166 mm, Weight 0.38 kg, Pack size 1.
+* Article Code AQ490G2012: Pipe diameter (d) 20 mm, Female Thread (Rp) ½", Length (L) 150 mm, Overall length (L1) 185 mm, Weight 0.18 kg, Pack size 1.
+* Article Code AQ490G2512: Pipe diameter (d) 25 mm, Female Thread (Rp) ½", Length (L) 150 mm, Overall length (L1) 185 mm, Weight 0.19 kg, Pack size 1.
 
-These precision-engineered components stand out remarkably due to their exact dimensional tolerances and incredibly rugged construction. The ½" female thread connection ensures maximum, hassle-free compatibility with standard industry fittings and transition pieces made of brass or stainless steel. The compact length of 166 mm allows for space-saving installations, even within tight, concealed manifold cabinets.
+These precision-engineered components stand out remarkably due to their exact dimensional tolerances and incredibly rugged construction. The ½" female thread connection ensures maximum, hassle-free compatibility with standard industry fittings and transition pieces made of brass or stainless steel. The compact length of 150 mm allows for space-saving installations, even within tight, concealed manifold cabinets.
 
 #### Why Choose PP-R? The Unbeatable Material Advantages
 Polypropylene Random Copolymer (PP-R) has firmly established itself over the past decades as one of the premier, go-to materials for plumbing, heating, and cooling installations worldwide. The reasons for this dominance are manifold:
@@ -107,10 +107,10 @@ With the PP-R Battery (Female Thread) available in the highly requested 20 mm an
 
 #### المواصفات الفنية والمتغيرات المتاحة بالتفصيل
 تتوفر بطاريات PP-R ذات السنون الداخلية والمصممة هندسياً بعناية فائقة لدينا بالأبعاد الأكثر شيوعاً لتلبي متطلبات التركيب الاحترافي في كل من المباني السكنية والتجارية بدقة متناهية. ويشمل نطاق منتجاتنا الشامل التكوينات القياسية التالية تحديداً:
-* رمز المنتج AQ64RCG20: قطر الأنبوب (d) 20 ملم، السن الداخلي (Rp) ½ بوصة، الطول 166 ملم، الوزن 0.38 كجم، التعبئة: 1 قطعة.
-* رمز المنتج AQ64RCG25: قطر الأنبوب (d) 25 ملم، السن الداخلي (Rp) ½ بوصة، الطول 166 ملم، الوزن 0.38 كجم، التعبئة: 1 قطعة.
+* رمز المنتج AQ490G2012: قطر الأنبوب (d) 20 ملم، السن الداخلي (Rp) ½ بوصة، الطول (L) 150 ملم، الطول الإجمالي (L1) 185 ملم، الوزن 0.18 كجم، التعبئة: 1 قطعة.
+* رمز المنتج AQ490G2512: قطر الأنبوب (d) 25 ملم، السن الداخلي (Rp) ½ بوصة، الطول (L) 150 ملم، الطول الإجمالي (L1) 185 ملم، الوزن 0.19 كجم، التعبئة: 1 قطعة.
 
-تتميز هذه المكونات المصممة هندسياً بدقة بأبعادها المضبوطة وبنيتها القوية للغاية. يضمن السن الداخلي بحجم ½ بوصة أقصى درجات التوافق الخالي من المتاعب مع التركيبات القياسية والقطع الانتقالية المتوفرة في الأسواق والمصنوعة من النحاس الأصفر أو الفولاذ المقاوم للصدأ. كما يسمح الطول المدمج البالغ 166 ملم بتركيبات موفرة للمساحة، حتى داخل خزائن المجمعات الضيقة والمخفية.
+تتميز هذه المكونات المصممة هندسياً بدقة بأبعادها المضبوطة وبنيتها القوية للغاية. يضمن السن الداخلي بحجم ½ بوصة أقصى درجات التوافق الخالي من المتاعب مع التركيبات القياسية والقطع الانتقالية المتوفرة في الأسواق والمصنوعة من النحاس الأصفر أو الفولاذ المقاوم للصدأ. كما يسمح الطول المدمج البالغ 150 ملم بتركيبات موفرة للمساحة، حتى داخل خزائن المجمعات الضيقة والمخفية.
 
 #### لماذا تختار مادة PP-R؟ المزايا التي لا تقبل المنافسة
 أثبت البولي بروبيلين العشوائي (PP-R) مكانته الراسخة على مدى العقود الماضية كواحد من أفضل المواد وأكثرها اعتمادية في تركيبات السباكة والتدفئة والتبريد في جميع أنحاء العالم. وتتعدد أسباب هذه الهيمنة:

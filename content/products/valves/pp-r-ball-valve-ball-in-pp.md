@@ -44,8 +44,8 @@ Dieses Vollbohrungs-Kugelventil (Full-bore ball valve) wurde speziell entwickelt
 Die Materialwahl ist das Herzstück dieses Produkts:
 1. Das Gehäuse und der Kern (Kugel) bestehen aus hochwertigem PP-R (Polypropylen-Random-Copolymer). Dieses Material zeichnet sich durch seine außergewöhnliche chemische Beständigkeit aus und ist vollständig lebensmittelecht, was es ideal für den Transport von Trinkwasser (sowohl Kalt- als auch Warmwasser) macht.
 2. Die Dimensionen (d) reichen von 20 mm bis zu 63 mm, wodurch das Ventil sowohl in kleinen Hausinstallationen als auch in größeren gewerblichen Verteilersystemen problemlos eingesetzt werden kann.
-3. Leichtes Gewicht: Verglichen mit Messing- oder Stahlventilen ist der PP-R Kugelhahn extrem leicht (z. B. nur 0,28 kg bei d=25 mm und 0,64 kg bei d=63 mm). Dies erleichtert den Transport, das Handling auf der Baustelle und reduziert die statische Belastung der Rohrleitungsaufhängungen.
-4. Kompaktes Design: Mit Baulängen (L) zwischen 90 mm und 108 mm sowie Bauhöhen (H) von 63 mm bis 103 mm lässt sich das Ventil auch in beengten Einbausituationen (z. B. in Installationsschächten oder Unterputzkästen) problemlos montieren.
+3. Leichtes Gewicht: Verglichen mit Messing- oder Stahlventilen ist der PP-R Kugelhahn extrem leicht (z. B. nur 0,19 kg bei d=25 mm und 0,93 kg bei d=63 mm). Dies erleichtert den Transport, das Handling auf der Baustelle und reduziert die statische Belastung der Rohrleitungsaufhängungen.
+4. Kompaktes Design: Mit Baulängen (L) zwischen 98 mm und 175 mm sowie Bauhöhen (H) von 51 mm bis 110 mm lässt sich das Ventil auch in beengten Einbausituationen (z. B. in Installationsschächten oder Unterputzkästen) problemlos montieren.
 
 #### Anwendungsbereiche und Einsatzgebiete
 
@@ -67,7 +67,7 @@ In einer Zeit, in der nachhaltiges Bauen (Green Building) immer wichtiger wird, 
 
 #### Warum Sie sich für den PP-R Kugelhahn mit PP-Kern entscheiden sollten
 
-Zusammenfassend lässt sich sagen, dass dieser Kugelhahn die ultimative Synthese aus modernster Kunststofftechnologie und praxiserprobtem Ingenieurswesen darstellt. Er bietet einen vollen Durchgang für maximale hydraulische Effizienz, ist absolut korrosionsbeständig, lebensmittelecht und lässt sich durch das Muffenschweißen nahtlos und leckagefrei in jedes PP-R System integrieren. Ob für das Einfamilienhaus, den Hotelkomplex oder die Industriehalle – mit den verfügbaren Größen von 20 mm bis 63 mm (Artikelnummern AQ50020 bis AQ50063) deckt dieses Ventil alle Anforderungen professioneller Rohrleitungsnetze ab. Investieren Sie in Qualität, Langlebigkeit und Sicherheit mit unserem erstklassigen PP-R Kugelhahn.
+Zusammenfassend lässt sich sagen, dass dieser Kugelhahn die ultimative Synthese aus modernster Kunststofftechnologie und praxiserprobtem Ingenieurswesen darstellt. Er bietet einen vollen Durchgang für maximale hydraulische Effizienz, ist absolut korrosionsbeständig, lebensmittelecht und lässt sich durch das Muffenschweißen nahtlos und leckagefrei in jedes PP-R System integrieren. Ob für das Einfamilienhaus, den Hotelkomplex oder die Industriehalle – mit den verfügbaren Größen von 20 mm bis 63 mm (Artikelnummern AQ85220 bis AQ85263) deckt dieses Ventil alle Anforderungen professioneller Rohrleitungsnetze ab. Investieren Sie in Qualität, Langlebigkeit und Sicherheit mit unserem erstklassigen PP-R Kugelhahn.
 
 ## SEO-CONTENT-EN
 
@@ -84,8 +84,8 @@ This specific model is a full-bore ball valve, meticulously engineered to reduce
 The choice of materials is the true heart of this product:
 1. The Body and the Core (Ball) are manufactured from premium-grade PP-R. This material is renowned for its exceptional chemical resistance and is completely food-safe and non-toxic, making it the perfect choice for the transport of potable water (both hot and cold).
 2. Dimension Range (d): Available in outside diameters ranging from 20 mm up to 63 mm, this valve can be easily implemented in both small-scale domestic installations and large commercial or industrial manifold systems.
-3. Lightweight Construction: Compared to heavy brass, bronze, or stainless-steel alternatives, the PP-R ball valve is incredibly light (e.g., weighing only 0.28 kg for d=25 mm and 0.64 kg for d=63 mm). This significantly eases transportation, simplifies handling on the construction site, and reduces the static load placed on pipe hangers and structural supports.
-4. Compact Architecture: With face-to-face lengths (L) between 90 mm and 108 mm, and overall heights (H) spanning from 63 mm to 103 mm, the valve can be comfortably installed even in highly confined spaces, such as installation shafts, drywalls, or compact utility boxes.
+3. Lightweight Construction: Compared to heavy brass, bronze, or stainless-steel alternatives, the PP-R ball valve is incredibly light (e.g., weighing only 0.19 kg for d=25 mm and 0.93 kg for d=63 mm). This significantly eases transportation, simplifies handling on the construction site, and reduces the static load placed on pipe hangers and structural supports.
+4. Compact Architecture: With face-to-face lengths (L) between 98 mm and 175 mm, and overall heights (H) spanning from 51 mm to 110 mm, the valve can be comfortably installed even in highly confined spaces, such as installation shafts, drywalls, or compact utility boxes.
 
 #### Wide Range of Applications and Industries
 
@@ -107,7 +107,7 @@ In an era where sustainable construction and Green Building certifications (like
 
 #### Why You Should Choose the PP-R Ball Valve with PP Core
 
-In summary, this ball valve represents the ultimate synthesis of cutting-edge polymer technology and field-proven fluid engineering. It delivers a full-bore design for maximum flow efficiency, is completely immune to corrosion, guarantees food-safe water transport, and integrates seamlessly and leak-free into any PP-R network via socket fusion. Whether you are outfitting a single-family home, a massive hotel complex, or an industrial processing facility—with available sizes from 20 mm to 63 mm (Article Codes AQ50020 through AQ50063), this valve meets and exceeds all the demands of professional piping networks. Invest in premium quality, long-term durability, and absolute peace of mind with our state-of-the-art PP-R Ball Valve.
+In summary, this ball valve represents the ultimate synthesis of cutting-edge polymer technology and field-proven fluid engineering. It delivers a full-bore design for maximum flow efficiency, is completely immune to corrosion, guarantees food-safe water transport, and integrates seamlessly and leak-free into any PP-R network via socket fusion. Whether you are outfitting a single-family home, a massive hotel complex, or an industrial processing facility—with available sizes from 20 mm to 63 mm (Article Codes AQ85220 through AQ85263), this valve meets and exceeds all the demands of professional piping networks. Invest in premium quality, long-term durability, and absolute peace of mind with our state-of-the-art PP-R Ball Valve.
 
 ## SEO-CONTENT-AR
 
@@ -124,8 +124,8 @@ In summary, this ball valve represents the ultimate synthesis of cutting-edge po
 اختيار المواد هو القلب الحقيقي لهذا المنتج:
 1. تم تصنيع الجسم والقلب (الكرة) من مادة PP-R عالية الجودة. تشتهر هذه المادة بمقاومتها الكيميائية الاستثنائية وهي آمنة تمامًا على الغذاء وغير سامة، مما يجعلها الخيار الأمثل لنقل مياه الشرب (سواء الماء الساخن أو البارد).
 2. نطاق الأبعاد (d): يتوفر الصمام بأقطار خارجية تتراوح من 20 مم إلى 63 مم، ويمكن استخدامه بسهولة في التركيبات المنزلية الصغيرة وكذلك في أنظمة التوزيع التجارية أو الصناعية الكبيرة.
-3. هيكل خفيف الوزن: مقارنة بالبدائل الثقيلة من النحاس أو البرونز أو الفولاذ المقاوم للصدأ، فإن صمام الكرة PP-R خفيف بشكل لا يصدق (على سبيل المثال، يزن 0.28 كجم فقط لقطر 25 مم و 0.64 كجم لقطر 63 مم). هذا يسهل النقل بشكل كبير، ويبسط التعامل في موقع البناء، ويقلل من الحمل الثابت الواقع على دعامات الأنابيب.
-4. تصميم مدمج: مع أطوال (L) تتراوح بين 90 مم و 108 مم، وارتفاعات إجمالية (H) تمتد من 63 مم إلى 103 مم، يمكن تركيب الصمام بسهولة حتى في الأماكن الضيقة للغاية، مثل أعمدة التركيب، أو الجدران الجافة، أو صناديق المرافق المدمجة.
+3. هيكل خفيف الوزن: مقارنة بالبدائل الثقيلة من النحاس أو البرونز أو الفولاذ المقاوم للصدأ، فإن صمام الكرة PP-R خفيف بشكل لا يصدق (على سبيل المثال، يزن 0.19 كجم فقط لقطر 25 مم و 0.93 كجم لقطر 63 مم). هذا يسهل النقل بشكل كبير، ويبسط التعامل في موقع البناء، ويقلل من الحمل الثابت الواقع على دعامات الأنابيب.
+4. تصميم مدمج: مع أطوال (L) تتراوح بين 98 مم و 175 مم، وارتفاعات إجمالية (H) تمتد من 51 مم إلى 110 مم، يمكن تركيب الصمام بسهولة حتى في الأماكن الضيقة للغاية، مثل أعمدة التركيب، أو الجدران الجافة، أو صناديق المرافق المدمجة.
 
 #### مجموعة واسعة من التطبيقات والصناعات
 
@@ -147,4 +147,4 @@ In summary, this ball valve represents the ultimate synthesis of cutting-edge po
 
 #### لماذا يجب عليك اختيار صمام الكرة PP-R بقلب PP
 
-باختصار، يمثل هذا الصمام الكروي التوليف النهائي لتكنولوجيا البوليمر المتطورة والهندسة السائلة المثبتة ميدانيًا. إنه يوفر تصميمًا كامل التجويف لتحقيق أقصى كفاءة في التدفق، وهو محصن تمامًا ضد التآكل، ويضمن نقلًا آمنًا لمياه الشرب، ويندمج بسلاسة وبدون تسرب في أي شبكة PP-R عبر اللحام الحراري. سواء كنت تقوم بتجهيز منزل لعائلة واحدة، أو مجمع فندقي ضخم، أو منشأة معالجة صناعية - مع الأحجام المتوفرة من 20 مم إلى 63 مم (أكواد المقالات AQ50020 حتى AQ50063)، فإن هذا الصمام يلبي ويتجاوز جميع متطلبات شبكات الأنابيب الاحترافية. استثمر في الجودة الممتازة والمتانة طويلة الأجل وراحة البال المطلقة من خلال صمام الكرة PP-R المتطور الخاص بنا.
+باختصار، يمثل هذا الصمام الكروي التوليف النهائي لتكنولوجيا البوليمر المتطورة والهندسة السائلة المثبتة ميدانيًا. إنه يوفر تصميمًا كامل التجويف لتحقيق أقصى كفاءة في التدفق، وهو محصن تمامًا ضد التآكل، ويضمن نقلًا آمنًا لمياه الشرب، ويندمج بسلاسة وبدون تسرب في أي شبكة PP-R عبر اللحام الحراري. سواء كنت تقوم بتجهيز منزل لعائلة واحدة، أو مجمع فندقي ضخم، أو منشأة معالجة صناعية - مع الأحجام المتوفرة من 20 مم إلى 63 مم (أكواد المقالات AQ85220 حتى AQ85263)، فإن هذا الصمام يلبي ويتجاوز جميع متطلبات شبكات الأنابيب الاحترافية. استثمر في الجودة الممتازة والمتانة طويلة الأجل وراحة البال المطلقة من خلال صمام الكرة PP-R المتطور الخاص بنا.

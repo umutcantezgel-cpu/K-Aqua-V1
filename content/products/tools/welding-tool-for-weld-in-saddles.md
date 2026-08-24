@@ -49,7 +49,7 @@ Um allen baulichen Anforderungen und Dimensionen gerecht zu werden, bieten wir d
 
 *   Hauptrohr 40–63 mm: Abgangsdurchmesser 25 mm (Artikel-Code AQ98504006325). Ideal für kleinere Verteilerleitungen und Etageninstallationen.
 *   Hauptrohr 75–125 mm: Abzweigdurchmesser in den Dimensionen 25 mm, 32 mm und 40 mm (Artikel-Codes AQ98507512525, AQ98507512532, AQ98507512540). Perfekt für Steigleitungen und mittelgroße Industrieanlagen.
-*   Hauptrohr 160–250 mm: Für großformatige Leitungen und Hauptverteilungen bieten wir Werkzeuge für Abgänge in 25 mm, 32 mm, 40 mm und 50 mm (Artikel-Codes AQ98516025025 bis AQ98516025050). 
+*   Hauptrohr 160–250 mm: Für großformatige Leitungen und Hauptverteilungen bieten wir Werkzeuge für Abgänge in 25 mm, 32 mm, 40 mm, 50 mm und 63 mm (Artikel-Codes AQ98516025025 bis AQ98516025063). 
 
 #### Anwendungsbereiche und Vorteile in der Praxis
 
@@ -77,9 +77,9 @@ The precisely calibrated diameters of the tool prevent excess material from accu
 
 To meet all structural requirements and piping dimensions, we offer the Welding Tool for Weld-in Saddles in a wide variety of sizes. The dimensions refer to the range of the main pipe (Pipe Range) and the diameter of the outgoing saddle branch (Branch d). Our product portfolio includes:
 
-*   Main Pipe 40–63 mm: Branch diameter of 25 mm (Article Code AQ9850400632S). Ideal for smaller distribution lines and floor-level installations.
+*   Main Pipe 40–63 mm: Branch diameter of 25 mm (Article Code AQ98504006325). Ideal for smaller distribution lines and floor-level installations.
 *   Main Pipe 75–125 mm: Branch diameters in 25 mm, 32 mm, and 40 mm (Article Codes AQ98507512525, AQ98507512532, AQ98507512540). Perfect for risers, main building feeds, and mid-sized industrial systems.
-*   Main Pipe 160–250 mm: For large-format pipelines and main distributions, we offer tools for branches in 25 mm, 32 mm, 40 mm, and 50 mm (Article Codes AQ98516025025 through AQ98516025050).
+*   Main Pipe 160–250 mm: For large-format pipelines and main distributions, we offer tools for branches in 25 mm, 32 mm, 40 mm, 50 mm, and 63 mm (Article Codes AQ98516025025 through AQ98516025063).
 
 #### Application Areas and Practical Advantages
 
@@ -107,9 +107,9 @@ Rely on professional tools for your piping installations. The Welding Tool for W
 
 لتلبية جميع المتطلبات الإنشائية وأبعاد أنظمة الأنابيب المختلفة، نقدم أداة اللحام لسروج التوصيل بمجموعة واسعة من المقاسات. تشير الأبعاد إلى نطاق قطر الأنبوب الرئيسي (Pipe Range) وقطر فرع السرج الخارج (Branch d). تتضمن محفظة منتجاتنا الخيارات التالية:
 
-*   الأنبوب الرئيسي 40–63 مم: قطر الفرع 25 مم (رمز المنتج AQ9850400632S). مثالي لخطوط التوزيع الصغيرة والتركيبات على مستوى الطوابق.
+*   الأنبوب الرئيسي 40–63 مم: قطر الفرع 25 مم (رمز المنتج AQ98504006325). مثالي لخطوط التوزيع الصغيرة والتركيبات على مستوى الطوابق.
 *   الأنبوب الرئيسي 75–125 مم: أقطار فروع بـ 25 مم، و 32 مم، و 40 مم (رموز المنتجات AQ98507512525, AQ98507512532, AQ98507512540). مثالية للخطوط الصاعدة والشبكات الرئيسية في المباني والأنظمة الصناعية متوسطة الحجم.
-*   الأنبوب الرئيسي 160–250 مم: بالنسبة لخطوط الأنابيب الضخمة وشبكات التوزيع الرئيسية، نقدم أدوات للفروع بمقاسات 25 مم، 32 مم، 40 مم، و 50 مم (من رمز المنتج AQ98516025025 إلى AQ98516025050).
+*   الأنبوب الرئيسي 160–250 مم: بالنسبة لخطوط الأنابيب الضخمة وشبكات التوزيع الرئيسية، نقدم أدوات للفروع بمقاسات 25 مم، 32 مم، 40 مم، 50 مم، و 63 مم (من رمز المنتج AQ98516025025 إلى AQ98516025063).
 
 #### مجالات التطبيق والمزايا العملية
 

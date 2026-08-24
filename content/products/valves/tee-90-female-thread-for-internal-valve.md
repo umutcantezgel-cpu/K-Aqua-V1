@@ -37,12 +37,12 @@ Das T-Stück 90° mit Innengewinde für Unterputzventile (Tee 90° Female Thread
 
 #### Technische Spezifikationen und Dimensionen
 
-Dieses spezialisierte T-Stück bietet eine Abzweigung mit Innengewinde und ist in verschiedenen präzise gefertigten Größen erhältlich, um unterschiedlichsten hydraulischen Anforderungen gerecht zu werden. Die verfügbaren Durchmesser (d) und die entsprechenden Rp-Gewinde (Rohr-Innengewinde) sind optimal aufeinander abgestimmt:
+Dieses spezialisierte T-Stück bietet eine Abzweigung mit Innengewinde und ist in verschiedenen präzise gefertigten Größen erhältlich, um unterschiedlichsten hydraulischen Anforderungen gerecht zu werden. Die verfügbaren Durchmesser (d) und die entsprechenden Innengewinde (G) sind optimal aufeinander abgestimmt:
 
-*   20 mm Durchmesser (Code AQ60RP20): Ausgestattet mit einem ½" Rp-Innengewinde. Die Baulänge (L) beträgt 80 mm und die Höhe (H) 43 mm. Ideal für Standard-Hausinstallationen und kleinere Wasserkreisläufe.
-*   25 mm Durchmesser (Code AQ60RP25): Verfügt über ein ¾" Rp-Innengewinde. Mit einer Länge (L) von 80 mm und einer Höhe (H) von 43 mm eignet es sich perfekt für Hauptverteilungsleitungen mit höherem Durchflussbedarf.
-*   32 mm Durchmesser (Code AQ60RP32): Bietet ein großzügiges 1" Rp-Innengewinde. Die kompakte Bauform mit einer Länge (L) von 70 mm und einer Höhe (H) von 40 mm ermöglicht den Einsatz in anspruchsvollen industriellen und gewerblichen Systemen.
-*   40 mm Durchmesser (Code AQ60RP40): Mit einem robusten 1¼" Rp-Innengewinde. Ebenfalls mit einer Länge (L) von 70 mm und einer Höhe (H) von 40 mm konzipiert für maximale Volumenströme in großen Anlagen.
+*   20 mm Durchmesser (Code AQ599A2034): Ausgestattet mit einem ¾" Innengewinde. Die Baulänge (L) beträgt 80 mm und die Höhe (h) 33 mm. Ideal für Standard-Hausinstallationen und kleinere Wasserkreisläufe.
+*   25 mm Durchmesser (Code AQ599A2534): Verfügt ebenfalls über ein ¾" Innengewinde. Mit einer Länge (L) von 80 mm und einer Höhe (h) von 33 mm eignet es sich perfekt für Hauptverteilungsleitungen mit höherem Durchflussbedarf.
+*   32 mm Durchmesser (Code AQ599A3234): Mit ¾" Innengewinde. Die kompakte Bauform mit einer Länge (L) von 75 mm und einer Höhe (h) von 33 mm ermöglicht den Einsatz in anspruchsvollen industriellen und gewerblichen Systemen.
+*   32 mm Durchmesser (Code AQ599A321): Bietet ein großzügiges 1" Innengewinde. Mit einer Länge (L) von 94 mm und einer Höhe (h) von 33 mm konzipiert für maximale Volumenströme in großen Anlagen.
 
 #### Hauptvorteile und Materialeigenschaften von PP-R
 
@@ -72,12 +72,12 @@ The Tee 90° (Female Thread) for Internal Valve is a highly specialized PP-R (Po
 
 #### Technical Specifications and Dimensions
 
-This specialized tee fitting features a branch with a female thread and is available in a variety of precisely manufactured sizes to accommodate a wide spectrum of hydraulic requirements. The available outer diameters (d) and the corresponding Rp (pipe inner) threads are optimally matched for superior performance:
+This specialized tee fitting features a branch with a female thread and is available in a variety of precisely manufactured sizes to accommodate a wide spectrum of hydraulic requirements. The available outer diameters (d) and the corresponding G threads are optimally matched for superior performance:
 
-*   20 mm Diameter (Article Code AQ60RP20): Equipped with a ½" Rp female thread. It has an overall length (L) of 80 mm and a height (H) of 43 mm. This size is ideal for standard domestic plumbing and smaller water circuits.
-*   25 mm Diameter (Article Code AQ60RP25): Features a ¾" Rp female thread. With a length (L) of 80 mm and a height (H) of 43 mm, it is perfectly suited for main distribution lines requiring a higher flow rate.
-*   32 mm Diameter (Article Code AQ60RP32): Offers a substantial 1" Rp female thread. Its compact design, featuring a length (L) of 70 mm and a height (H) of 40 mm, allows for deployment in demanding industrial and commercial piping systems.
-*   40 mm Diameter (Article Code AQ60RP40): Built with a robust 1¼" Rp female thread. Also designed with a length (L) of 70 mm and a height (H) of 40 mm, it is engineered to handle maximum volumetric flows in large-scale installations.
+*   20 mm Diameter (Article Code AQ599A2034): Equipped with a ¾" female thread. It has an overall length (L) of 80 mm and a height (h) of 33 mm. This size is ideal for standard domestic plumbing and smaller water circuits.
+*   25 mm Diameter (Article Code AQ599A2534): Also features a ¾" female thread. With a length (L) of 80 mm and a height (h) of 33 mm, it is perfectly suited for main distribution lines requiring a higher flow rate.
+*   32 mm Diameter (Article Code AQ599A3234): Comes with a ¾" female thread. Its compact design, featuring a length (L) of 75 mm and a height (h) of 33 mm, allows for deployment in demanding industrial and commercial piping systems.
+*   32 mm Diameter (Article Code AQ599A321): Offers a substantial 1" female thread. Designed with a length (L) of 94 mm and a height (h) of 33 mm, it is engineered to handle maximum volumetric flows in large-scale installations.
 
 #### Key Advantages and Material Properties of PP-R
 
@@ -107,12 +107,12 @@ To guarantee long-lasting and maintenance-free operation, each Tee 90° undergoe
 
 #### المواصفات الفنية والأبعاد الدقيقة
 
-تتميز هذه الوصلة المتخصصة (تيه) بفرع يحتوي على سن داخلي (Female Thread) وهي متوفرة بمجموعة متنوعة من الأحجام المصنعة بدقة لاستيعاب طيف واسع من المتطلبات الهيدروليكية. الأقطار الخارجية المتاحة (d) وأسنان Rp المقابلة (أسنان الأنابيب الداخلية) متطابقة بشكل مثالي للحصول على أداء فائق:
+تتميز هذه الوصلة المتخصصة (تيه) بفرع يحتوي على سن داخلي (Female Thread) وهي متوفرة بمجموعة متنوعة من الأحجام المصنعة بدقة لاستيعاب طيف واسع من المتطلبات الهيدروليكية. الأقطار الخارجية المتاحة (d) وأسنان G المقابلة (الأسنان الداخلية) متطابقة بشكل مثالي للحصول على أداء فائق:
 
-*   قطر 20 مم (كود المنتج AQ60RP20): مزود بسن داخلي Rp مقاس ½ بوصة. يبلغ الطول الإجمالي (L) 80 مم والارتفاع (H) 43 مم. هذا الحجم مثالي لأعمال السباكة المنزلية القياسية ودوائر المياه الأصغر.
-*   قطر 25 مم (كود المنتج AQ60RP25): يتميز بسن داخلي Rp مقاس ¾ بوصة. بطول (L) يبلغ 80 مم وارتفاع (H) يبلغ 43 مم، فهو مناسب تماماً لخطوط التوزيع الرئيسية التي تتطلب معدل تدفق أعلى.
-*   قطر 32 مم (كود المنتج AQ60RP32): يوفر سناً داخلياً كبيراً Rp مقاس 1 بوصة. يسمح تصميمه المدمج، الذي يتميز بطول (L) يبلغ 70 مم وارتفاع (H) يبلغ 40 مم، بنشره في أنظمة الأنابيب الصناعية والتجارية الصعبة والمعقدة.
-*   قطر 40 مم (كود المنتج AQ60RP40): مبني بسن داخلي قوي Rp مقاس 1¼ بوصة. مصمم أيضاً بطول (L) يبلغ 70 مم وارتفاع (H) يبلغ 40 مم، وقد تمت هندسته للتعامل مع أقصى معدلات التدفق الحجمي في التركيبات واسعة النطاق.
+*   قطر 20 مم (كود المنتج AQ599A2034): مزود بسن داخلي مقاس ¾ بوصة. يبلغ الطول الإجمالي (L) 80 مم والارتفاع (h) 33 مم. هذا الحجم مثالي لأعمال السباكة المنزلية القياسية ودوائر المياه الأصغر.
+*   قطر 25 مم (كود المنتج AQ599A2534): يتميز أيضاً بسن داخلي مقاس ¾ بوصة. بطول (L) يبلغ 80 مم وارتفاع (h) يبلغ 33 مم، فهو مناسب تماماً لخطوط التوزيع الرئيسية التي تتطلب معدل تدفق أعلى.
+*   قطر 32 مم (كود المنتج AQ599A3234): يأتي بسن داخلي مقاس ¾ بوصة. يسمح تصميمه المدمج، الذي يتميز بطول (L) يبلغ 75 مم وارتفاع (h) يبلغ 33 مم، بنشره في أنظمة الأنابيب الصناعية والتجارية الصعبة والمعقدة.
+*   قطر 32 مم (كود المنتج AQ599A321): يوفر سناً داخلياً كبيراً مقاس 1 بوصة. مصمم بطول (L) يبلغ 94 مم وارتفاع (h) يبلغ 33 مم، وقد تمت هندسته للتعامل مع أقصى معدلات التدفق الحجمي في التركيبات واسعة النطاق.
 
 #### المزايا الرئيسية وخصائص مادة PP-R
 

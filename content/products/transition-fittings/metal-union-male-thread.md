@@ -75,7 +75,7 @@ Die Montage der Metall-Verschraubung mit PP-R Mutter ist denkbar einfach und spa
 
 Wir empfehlen stets, die Installation durch qualifiziertes Fachpersonal durchführen zu lassen und die Gewinde nicht zu überdrehen, um Beschädigungen zu vermeiden. Die präzise Gewindeführung sorgt jedoch grundsätzlich für ein leichtgängiges und sicheres Anziehen.
 
-Zusammenfassend lässt sich sagen, dass die Metall-Verschraubung mit PP-R Mutter und Außengewinde ein Meisterwerk der Verbindungstechnik ist. Sie bietet unübertroffene Sicherheit, Langlebigkeit und Vielseitigkeit. Investieren Sie in Qualität und vertrauen Sie auf ein Bauteil, das die Brücke zwischen der Kunststoff- und der Metallwelt perfekt schlägt. Mit den verfügbaren Größen von 20 bis 50 mm haben Sie für jede Herausforderung die richtige Lösung zur Hand.
+Zusammenfassend lässt sich sagen, dass die Metall-Verschraubung mit PP-R Mutter und Außengewinde ein Meisterwerk der Verbindungstechnik ist. Sie bietet unübertroffene Sicherheit, Langlebigkeit und Vielseitigkeit. Investieren Sie in Qualität und vertrauen Sie auf ein Bauteil, das die Brücke zwischen der Kunststoff- und der Metallwelt perfekt schlägt. Mit den verfügbaren Größen von 20 bis 63 mm haben Sie für jede Herausforderung die richtige Lösung zur Hand.
 
 
 ## SEO-CONTENT-EN
@@ -92,15 +92,16 @@ The integration of the PP-R nut is a true masterpiece of engineering. PP-R is gl
 
 ### A Comprehensive Range of Sizes for Every Project
 
-To fully accommodate the diverse and specific requirements of various construction and industrial projects, we offer the Metal Union with PP-R Nut in a comprehensive range of dimensions. The available sizes perfectly cover pipe outer diameters (d) ranging from 20 mm up to 50 mm, each paired with the precise male thread (R) specification:
+To fully accommodate the diverse and specific requirements of various construction and industrial projects, we offer the Metal Union with PP-R Nut in a comprehensive range of dimensions. The available sizes perfectly cover pipe outer diameters (d) ranging from 20 mm up to 63 mm, each paired with the precise male thread (R) specification:
 
-- AQ71R20: A 20 mm diameter combined with a ½" male thread. This is the ideal choice for fine residential plumbing, such as connecting supply lines to sinks, toilets, and individual fixtures.
-- AQ71R25: A 25 mm diameter with a ¾" male thread. This serves as the standard size for primary water supply distribution lines within residential and small commercial buildings.
-- AQ71R32: A 32 mm diameter featuring a 1" male thread. Perfectly suited for larger distribution networks, risers, and mid-sized central heating systems.
-- AQ71R40: A 40 mm diameter with a 1¼" male thread. Highly recommended for heavy-duty industrial applications, extensive HVAC systems, and large building complexes.
-- AQ71R50: A 50 mm diameter paired with a 1½" male thread. The ultimate solution for major main lines, high-capacity cooling systems, and demanding fluid transport requirements.
+- AQ54720: A 20 mm diameter combined with a ½" male thread. This is the ideal choice for fine residential plumbing, such as connecting supply lines to sinks, toilets, and individual fixtures.
+- AQ54725: A 25 mm diameter with a ¾" male thread. This serves as the standard size for primary water supply distribution lines within residential and small commercial buildings.
+- AQ54732: A 32 mm diameter featuring a 1" male thread. Perfectly suited for larger distribution networks, risers, and mid-sized central heating systems.
+- AQ54740: A 40 mm diameter with a 1¼" male thread. Highly recommended for heavy-duty industrial applications, extensive HVAC systems, and large building complexes.
+- AQ54750: A 50 mm diameter paired with a 1½" male thread. The reliable solution for major main lines, high-capacity cooling systems, and demanding fluid transport requirements.
+- AQ54763: A 63 mm diameter paired with a 2" male thread. The optimal solution for main distribution lines and high-performance cooling systems.
 
-This extensive array of article codes (AQ71R20 through AQ71R50) ensures that plumbers, installers, and engineers always have the exact right component at their fingertips, perfectly matching their specific flow rate requirements and connection dimensions.
+This extensive array of article codes (AQ54720 through AQ54763) ensures that plumbers, installers, and engineers always have the exact right component at their fingertips, perfectly matching their specific flow rate requirements and connection dimensions.
 
 ### Wide-Ranging Applications and Use Cases
 
@@ -116,7 +117,7 @@ The installation process for the Metal Union with PP-R Nut is incredibly straigh
 
 We strongly recommend that all installations be carried out by qualified plumbing professionals. Care should be taken not to overtighten the threads to prevent any potential damage, though the precision thread cutting generally ensures smooth, easy, and secure tightening.
 
-In conclusion, the Metal Union with PP-R Nut (Male Thread) is a pinnacle of connection technology. It delivers unsurpassed safety, exceptional longevity, and incredible versatility. Invest in top-tier quality and rely on a component that perfectly bridges the gap between the worlds of plastic and metal piping. With available sizes ranging from 20 to 50 mm, you are fully equipped with the right solution for any installation challenge.
+In conclusion, the Metal Union with PP-R Nut (Male Thread) is a pinnacle of connection technology. It delivers unsurpassed safety, exceptional longevity, and incredible versatility. Invest in top-tier quality and rely on a component that perfectly bridges the gap between the worlds of plastic and metal piping. With available sizes ranging from 20 to 63 mm, you are fully equipped with the right solution for any installation challenge.
 
 
 ## SEO-CONTENT-AR
@@ -133,15 +134,16 @@ In conclusion, the Metal Union with PP-R Nut (Male Thread) is a pinnacle of conn
 
 ### مجموعة شاملة من الأحجام لكل مشروع
 
-لتلبية المتطلبات المتنوعة والمحددة لمختلف المشاريع الإنشائية والصناعية بشكل كامل، نقدم الوصلة المعدنية مع صامولة PP-R في مجموعة شاملة من الأبعاد. تغطي الأحجام المتوفرة بشكل مثالي الأقطار الخارجية للأنابيب (d) التي تتراوح من 20 مم إلى 50 مم، وكل منها مقترن بمواصفات السن الخارجي (R) الدقيقة:
+لتلبية المتطلبات المتنوعة والمحددة لمختلف المشاريع الإنشائية والصناعية بشكل كامل، نقدم الوصلة المعدنية مع صامولة PP-R في مجموعة شاملة من الأبعاد. تغطي الأحجام المتوفرة بشكل مثالي الأقطار الخارجية للأنابيب (d) التي تتراوح من 20 مم إلى 63 مم، وكل منها مقترن بمواصفات السن الخارجي (R) الدقيقة:
 
-- AQ71R20: قطر 20 مم مدمج مع سن خارجي ½ بوصة. هذا هو الخيار المثالي للسباكة السكنية الدقيقة، مثل توصيل خطوط الإمداد بالأحواض والمراحيض والتركيبات الفردية.
-- AQ71R25: قطر 25 مم مع سن خارجي ¾ بوصة. يعمل هذا كحجم قياسي لخطوط توزيع إمدادات المياه الأولية داخل المباني السكنية والتجارية الصغيرة.
-- AQ71R32: قطر 32 مم يتميز بسن خارجي 1 بوصة. مناسب تماماً لشبكات التوزيع الأكبر، والأنابيب الصاعدة، وأنظمة التدفئة المركزية متوسطة الحجم.
-- AQ71R40: قطر 40 مم مع سن خارجي 1¼ بوصة. يوصى به بشدة للتطبيقات الصناعية الشاقة، وأنظمة التدفئة والتهوية وتكييف الهواء الواسعة، والمجمعات السكنية الكبيرة.
-- AQ71R50: قطر 50 مم مقترن بسن خارجي 1½ بوصة. الحل النهائي للخطوط الرئيسية الكبرى، وأنظمة التبريد عالية السعة، ومتطلبات نقل السوائل الصعبة.
+- AQ54720: قطر 20 مم مدمج مع سن خارجي ½ بوصة. هذا هو الخيار المثالي للسباكة السكنية الدقيقة، مثل توصيل خطوط الإمداد بالأحواض والمراحيض والتركيبات الفردية.
+- AQ54725: قطر 25 مم مع سن خارجي ¾ بوصة. يعمل هذا كحجم قياسي لخطوط توزيع إمدادات المياه الأولية داخل المباني السكنية والتجارية الصغيرة.
+- AQ54732: قطر 32 مم يتميز بسن خارجي 1 بوصة. مناسب تماماً لشبكات التوزيع الأكبر، والأنابيب الصاعدة، وأنظمة التدفئة المركزية متوسطة الحجم.
+- AQ54740: قطر 40 مم مع سن خارجي 1¼ بوصة. يوصى به بشدة للتطبيقات الصناعية الشاقة، وأنظمة التدفئة والتهوية وتكييف الهواء الواسعة، والمجمعات السكنية الكبيرة.
+- AQ54750: قطر 50 مم مقترن بسن خارجي 1½ بوصة. حل موثوق للخطوط الرئيسية الكبرى، وأنظمة التبريد عالية السعة، ومتطلبات نقل السوائل الصعبة.
+- AQ54763: قطر 63 مم مقترن بسن خارجي 2 بوصة. الحل الأمثل لخطوط التوزيع الرئيسية وأنظمة التبريد عالية الأداء.
 
-تضمن هذه المجموعة الواسعة من رموز المقالات (AQ71R20 إلى AQ71R50) أن يكون لدى السباكين والمركبين والمهندسين دائماً المكون الصحيح الدقيق في متناول أيديهم، مما يطابق تماماً متطلبات معدل التدفق المحددة وأبعاد التوصيل الخاصة بهم.
+تضمن هذه المجموعة الواسعة من رموز المقالات (AQ54720 إلى AQ54763) أن يكون لدى السباكين والمركبين والمهندسين دائماً المكون الصحيح الدقيق في متناول أيديهم، مما يطابق تماماً متطلبات معدل التدفق المحددة وأبعاد التوصيل الخاصة بهم.
 
 ### تطبيقات واسعة النطاق وحالات الاستخدام
 
@@ -157,4 +159,4 @@ In conclusion, the Metal Union with PP-R Nut (Male Thread) is a pinnacle of conn
 
 نوصي بشدة أن يتم تنفيذ جميع التركيبات بواسطة متخصصين مؤهلين في مجال السباكة. يجب توخي الحذر لعدم الإفراط في إحكام ربط الأسنان لمنع أي ضرر محتمل، على الرغم من أن قطع السن الدقيق يضمن عموماً إحكاماً سلساً وسهلاً وآمناً.
 
-في الختام، تعتبر الوصلة المعدنية مع صامولة PP-R (سن خارجي) قمة في تكنولوجيا التوصيل. فهي توفر أماناً غير مسبوق، وعمراً استثنائياً، وتنوعاً لا يصدق. استثمر في الجودة من الدرجة الأولى واعتمد على مكون يسد الفجوة تماماً بين عوالم الأنابيب البلاستيكية والمعدنية. مع الأحجام المتوفرة التي تتراوح من 20 إلى 50 مم، فأنت مجهز بالكامل بالحل المناسب لأي تحدٍ في التركيب.
+في الختام، تعتبر الوصلة المعدنية مع صامولة PP-R (سن خارجي) قمة في تكنولوجيا التوصيل. فهي توفر أماناً غير مسبوق، وعمراً استثنائياً، وتنوعاً لا يصدق. استثمر في الجودة من الدرجة الأولى واعتمد على مكون يسد الفجوة تماماً بين عوالم الأنابيب البلاستيكية والمعدنية. مع الأحجام المتوفرة التي تتراوح من 20 إلى 63 مم، فأنت مجهز بالكامل بالحل المناسب لأي تحدٍ في التركيب.

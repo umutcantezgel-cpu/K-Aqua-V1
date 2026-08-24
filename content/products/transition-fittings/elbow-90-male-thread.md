@@ -44,10 +44,10 @@ Für das Außengewinde wird eine robuste, entzinkungsbeständige Messing- oder M
 
 ### Technische Spezifikationen und Dimensionen
 Um eine maximale Flexibilität bei der Planung und Ausführung von Rohrleitungsnetzen zu gewährleisten, bietet K-Aqua den PP-R Übergangswinkel 90° mit Außengewinde in verschiedenen praxisgerechten Dimensionen an. Die verfügbaren Ausführungen decken die gängigsten Rohrdurchmesser ab:
-- AQ09R20: Durchmesser (d) 20 mm mit einem Außengewinde von ½"
-- AQ09R25: Durchmesser (d) 25 mm mit einem Außengewinde von ¾"
-- AQ09R32: Durchmesser (d) 32 mm mit einem Außengewinde von 1"
-- AQ09R40: Durchmesser (d) 40 mm mit einem Außengewinde von 1¼"
+- AQ092G2012: Durchmesser (d) 20 mm mit einem Außengewinde von ½"
+- AQ092G2512: Durchmesser (d) 25 mm mit einem Außengewinde von ½"
+- AQ092G2534: Durchmesser (d) 25 mm mit einem Außengewinde von ¾"
+- AQ092G321: Durchmesser (d) 32 mm mit einem Außengewinde von 1"
 
 Diese klar abgestuften Größen ermöglichen Installateuren, exakt das passende Fitting für Kaltwasser-, Warmwasser- oder Heizungskreisläufe auszuwählen, was die Lagerhaltung vereinfacht und die Effizienz auf der Baustelle steigert.
 
@@ -66,7 +66,7 @@ Die Seite mit dem Außengewinde lässt sich klassisch mit anderen Gewindefitting
 K-Aqua steht für kompromisslose Qualität. Alle PP-R-Fittings, einschließlich des Übergangswinkels 90° mit Außengewinde, werden unter strengen Qualitätskontrollen gefertigt und entsprechen den gängigen internationalen Normen für Kunststoff-Rohrleitungssysteme. Die glatten Innenoberflächen des PP-R-Körpers verhindern die Bildung von Biofilmen und sorgen für einen geringen Reibungsverlust, was langfristig die Energieeffizienz von Pumpen im System optimiert. Bei fachgerechter Installation erreicht das System eine Lebensdauer von mehreren Jahrzehnten, ohne dass aufwendige Wartungsarbeiten anfallen.
 
 ### Fazit
-Mit dem PP-R Übergangswinkel 90° mit Außengewinde von K-Aqua treffen Planer, Bauherren und Installateure die richtige Wahl für eine zukunftssichere Sanitär- und Heizungsinstallation. Die Kombination aus langlebigem PP-R und präzisem Metallgewinde in den Dimensionen von 20 mm (½") bis 40 mm (1¼") bietet die ideale Schnittstelle zwischen Kunststoff- und Metallrohrsystemen. Sicherheit, Hygiene und Montagefreundlichkeit machen dieses Fitting zu einem unverzichtbaren Bestandteil in jedem professionellen Rohrleitungsprojekt.
+Mit dem PP-R Übergangswinkel 90° mit Außengewinde von K-Aqua treffen Planer, Bauherren und Installateure die richtige Wahl für eine zukunftssichere Sanitär- und Heizungsinstallation. Die Kombination aus langlebigem PP-R und präzisem Metallgewinde in den Dimensionen von 20 mm (½") bis 32 mm (1") bietet die ideale Schnittstelle zwischen Kunststoff- und Metallrohrsystemen. Sicherheit, Hygiene und Montagefreundlichkeit machen dieses Fitting zu einem unverzichtbaren Bestandteil in jedem professionellen Rohrleitungsprojekt.
 
 ### Qualitätssicherung und Langzeitbeständigkeit
 Jeder K-Aqua PP-R Übergangswinkel 90° unterliegt strengsten Qualitätsprüfungen, um höchste Standards zu gewährleisten. Das extrem belastbare PP-R-Material bietet exzellente Beständigkeit gegen Druckschwankungen und chemische Einflüsse, während das hochpräzise Metallgewinde eine ausreißsichere und extrem dichte Verbindung sicherstellt. Diese sorgfältige Konstruktion schützt effektiv vor Leckagen und Spannungsrissen. Dadurch profitieren Installateure von einer sicheren, effizienten Montage und Gebäudeplaner von einer absolut wartungsfreien, zuverlässigen Lösung für jahrzehntelange Anwendungen.
@@ -81,10 +81,10 @@ For the male threaded section, K-Aqua incorporates a robust, dezincification-res
 
 ### Technical Specifications and Dimensions
 To ensure maximum versatility in the design and execution of plumbing installations, K-Aqua offers the PP-R Transition Elbow 90° with Male Thread in several practical dimensions. The available configurations are meticulously designed to cover the most common pipe diameters and threading standards:
-- AQ09R20: Outer pipe diameter (d) 20 mm featuring a ½" male thread
-- AQ09R25: Outer pipe diameter (d) 25 mm featuring a ¾" male thread
-- AQ09R32: Outer pipe diameter (d) 32 mm featuring a 1" male thread
-- AQ09R40: Outer pipe diameter (d) 40 mm featuring a 1¼" male thread
+- AQ092G2012: Outer pipe diameter (d) 20 mm featuring a ½" male thread
+- AQ092G2512: Outer pipe diameter (d) 25 mm featuring a ½" male thread
+- AQ092G2534: Outer pipe diameter (d) 25 mm featuring a ¾" male thread
+- AQ092G321: Outer pipe diameter (d) 32 mm featuring a 1" male thread
 
 These standardized sizes empower plumbers and system designers to select the exact fitting required for cold water, hot water, or heating circuits, significantly streamlining inventory management and boosting on-site productivity.
 
@@ -103,7 +103,7 @@ The male threaded end is designed to be screwed into compatible female metal fit
 K-Aqua is synonymous with uncompromised manufacturing quality. All PP-R fittings, including the 90° transition elbow with a male thread, undergo rigorous quality control procedures and comply with major international standards for plastic piping systems. The exceptionally smooth internal surfaces of the PP-R body prevent the accumulation of biofilms and significantly reduce frictional pressure loss. This hydraulic efficiency helps lower the energy consumption of circulation pumps. When installed correctly by certified professionals, a K-Aqua PP-R system boasts an expected service life of several decades, requiring virtually zero maintenance.
 
 ### Conclusion
-With the K-Aqua PP-R Transition Elbow 90° with Male Thread, engineers, contractors, and homebuilders make the optimal choice for future-proof sanitary and heating installations. The seamless integration of durable PP-R and precise metallic threads—ranging from 20 mm (½") to 40 mm (1¼")—provides the perfect interface between plastic and metal piping infrastructures. Unmatched safety, strict hygiene compliance, and ease of installation solidify this fitting as an essential building block in any professional plumbing project.
+With the K-Aqua PP-R Transition Elbow 90° with Male Thread, engineers, contractors, and homebuilders make the optimal choice for future-proof sanitary and heating installations. The seamless integration of durable PP-R and precise metallic threads—ranging from 20 mm (½") to 32 mm (1")—provides the perfect interface between plastic and metal piping infrastructures. Unmatched safety, strict hygiene compliance, and ease of installation solidify this fitting as an essential building block in any professional plumbing project.
 
 ### Quality Assurance and Long-Term Durability
 Every K-Aqua PP-R Transition Elbow 90° undergoes rigorous quality testing to guarantee the highest industry standards. The heavy-duty PP-R material offers exceptional resistance to pressure surges and chemical exposure, while the precisely engineered metal thread ensures a pull-out resistant and completely leak-proof joint. This careful construction effectively prevents potential stress cracks and water damage over time. Installers benefit from secure and efficient assembly, while system designers can rely on a maintenance-free, dependable solution built to last for decades.
@@ -118,10 +118,10 @@ Every K-Aqua PP-R Transition Elbow 90° undergoes rigorous quality testing to gu
 
 ### المواصفات الفنية والأبعاد المتاحة
 لضمان أقصى درجات المرونة في تصميم وتنفيذ شبكات السباكة، توفر K-Aqua كوع التحويل PP-R بزاوية 90 درجة مع السن الخارجي بعدة أبعاد عملية. تم تصميم القياسات المتوفرة بعناية لتغطي أقطار الأنابيب ومعايير الأسنان الأكثر شيوعاً في السوق:
-- AQ09R20: قطر الأنبوب الخارجي (d) 20 مم مع سن خارجي مقاس ½ بوصة.
-- AQ09R25: قطر الأنبوب الخارجي (d) 25 مم مع سن خارجي مقاس ¾ بوصة.
-- AQ09R32: قطر الأنبوب الخارجي (d) 32 مم مع سن خارجي مقاس 1 بوصة.
-- AQ09R40: قطر الأنبوب الخارجي (d) 40 مم مع سن خارجي مقاس 1¼ بوصة.
+- AQ092G2012: قطر الأنبوب الخارجي (d) 20 مم مع سن خارجي مقاس ½ بوصة.
+- AQ092G2512: قطر الأنبوب الخارجي (d) 25 مم مع سن خارجي مقاس ½ بوصة.
+- AQ092G2534: قطر الأنبوب الخارجي (d) 25 مم مع سن خارجي مقاس ¾ بوصة.
+- AQ092G321: قطر الأنبوب الخارجي (d) 32 مم مع سن خارجي مقاس 1 بوصة.
 
 تتيح هذه المقاسات القياسية للسباكين ومهندسي الأنظمة اختيار القطعة الدقيقة والمناسبة لدوائر الماء البارد أو الساخن أو أنظمة التدفئة، مما يبسط عملية إدارة المخزون ويزيد من الإنتاجية في مواقع العمل.
 
@@ -140,7 +140,7 @@ Every K-Aqua PP-R Transition Elbow 90° undergoes rigorous quality testing to gu
 تُعد علامة K-Aqua مرادفاً للجودة التي لا تقبل المساومة. تخضع جميع تركيبات PP-R، بما في ذلك كوع التحويل 90 درجة مع السن الخارجي، لإجراءات صارمة لمراقبة الجودة وتتوافق مع المعايير الدولية الرئيسية لأنظمة الأنابيب البلاستيكية. تمنع الأسطح الداخلية الملساء للغاية لجسم PP-R تراكم الأغشية الحيوية (البكتيريا) وتقلل بشكل كبير من فقدان الضغط الناتج عن الاحتكاك. تساعد هذه الكفاءة الهيدروليكية في تقليل استهلاك الطاقة لمضخات المياه. عند التركيب الصحيح بواسطة متخصصين معتمدين، يتمتع نظام K-Aqua PP-R بعمر افتراضي متوقع يمتد لعدة عقود، ولا يتطلب أي صيانة تقريباً.
 
 ### استنتاج (الخلاصة)
-باستخدام كوع التحويل PP-R بزاوية 90 درجة مع السن الخارجي من K-Aqua، يتخذ المهندسون والمقاولون الخيار الأمثل لتركيبات صحية وتدفئة مضمونة للمستقبل. يوفر الدمج السلس بين مادة PP-R المتينة والأسنان المعدنية الدقيقة - بأقطار تتراوح من 20 مم (½ بوصة) إلى 40 مم (1¼ بوصة) - الواجهة المثالية بين البنية التحتية للأنابيب البلاستيكية والمعدنية. إن الأمان الذي لا مثيل له، والامتثال الصارم لمعايير النظافة، وسهولة التركيب، كلها عوامل ترسخ مكانة هذا التركيب كحجر أساس لا غنى عنه في أي مشروع سباكة احترافي.
+باستخدام كوع التحويل PP-R بزاوية 90 درجة مع السن الخارجي من K-Aqua، يتخذ المهندسون والمقاولون الخيار الأمثل لتركيبات صحية وتدفئة مضمونة للمستقبل. يوفر الدمج السلس بين مادة PP-R المتينة والأسنان المعدنية الدقيقة - بأقطار تتراوح من 20 مم (½ بوصة) إلى 32 مم (1 بوصة) - الواجهة المثالية بين البنية التحتية للأنابيب البلاستيكية والمعدنية. إن الأمان الذي لا مثيل له، والامتثال الصارم لمعايير النظافة، وسهولة التركيب، كلها عوامل ترسخ مكانة هذا التركيب كحجر أساس لا غنى عنه في أي مشروع سباكة احترافي.
 
 ### ضمان الجودة والمتانة على المدى الطويل
 يخضع كل كوع تحويل K-Aqua PP-R بزاوية 90 درجة لاختبارات جودة صارمة لضمان أعلى معايير الصناعة. توفر مادة PP-R شديدة التحمل مقاومة استثنائية لاندفاعات الضغط والتعرض الكيميائي، بينما يضمن السن المعدني المصمم بدقة وصلة مقاومة للسحب ومانعة للتسرب تمامًا. يمنع هذا البناء الدقيق بفعالية تشققات الإجهاد المحتملة وتسرب المياه بمرور الوقت. يستفيد فنيو التركيب من تجميع آمن وفعال، بينما يمكن لمصممي الأنظمة الاعتماد على حل موثوق وخالٍ من الصيانة مصمم ليدوم لعقود.

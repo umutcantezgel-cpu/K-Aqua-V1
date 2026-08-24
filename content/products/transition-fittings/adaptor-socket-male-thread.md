@@ -89,7 +89,7 @@ Die Wahl von PP-R Fittings mit Metallübergängen ist auch unter wirtschaftliche
 
 ### Fazit
 
-Die PP-R Übergangsmuffe mit Außengewinde ist eine technische Meisterleistung für moderne Rohrleitungssysteme. Mit Größen von 20 bis 160 mm bietet sie für jede Dimension die passende Lösung. Die Kombination aus hygienischem, langlebigem Kunststoff und robustem Metallgewinde macht sie zur ersten Wahl für professionelle Installateure und Ingenieure weltweit. Vertrauen Sie auf K-Aqua Qualität für dauerhaft sichere, effiziente und nachhaltige Rohrverbindungen in allen Anwendungsbereichen.
+Die PP-R Übergangsmuffe mit Außengewinde ist eine technische Meisterleistung für moderne Rohrleitungssysteme. Mit Größen von 20 bis 110 mm bietet sie für jede Dimension die passende Lösung. Die Kombination aus hygienischem, langlebigem Kunststoff und robustem Metallgewinde macht sie zur ersten Wahl für professionelle Installateure und Ingenieure weltweit. Vertrauen Sie auf K-Aqua Qualität für dauerhaft sichere, effiziente und nachhaltige Rohrverbindungen in allen Anwendungsbereichen.
 
 ## SEO-CONTENT-EN
 The Adaptor Socket (Male Thread) made of Polypropylene Random Copolymer (PP-R) is an indispensable component in modern piping systems. This highly specialized transition fitting allows for a seamless and secure connection between plastic pipes and metal components, fixtures, or equipment that feature a female thread. In the realms of plumbing, heating, and industrial engineering, this socket represents a core element designed to maintain the integrity and leak-proof nature of the entire system under demanding environmental and operational conditions.
@@ -100,19 +100,22 @@ The K-Aqua Adaptor Socket with Male Thread is manufactured from premium-grade PP
 
 ### Technical Specifications in Detail
 
-Our comprehensive range of Adaptor Sockets with Male Threads covers all standard diameters and thread sizes to provide the perfect solution for any installation requirement. The available pipe diameters (d) range from a compact 20 mm up to a substantial 160 mm. Accordingly, the male threads (R) vary from 1/2 inch for smaller connections up to 4 inches for large-scale industrial applications. 
+Our comprehensive range of Adaptor Sockets with Male Threads covers all standard diameters and thread sizes to provide the perfect solution for any installation requirement. The available pipe diameters (d) range from a compact 20 mm up to a substantial 110 mm. Accordingly, the male threads (R) vary from 1/2 inch for smaller connections up to 4 inches for large-scale industrial applications. 
 The article table provides a clear overview of the available combinations:
-- AQ24R20: 20 mm d, 1/2" R Thread
-- AQ24R25: 25 mm d, 3/4" R Thread
-- AQ24R32: 32 mm d, 1" R Thread
-- AQ24R40: 40 mm d, 1 1/4" R Thread
-- AQ24R50: 50 mm d, 1 1/2" R Thread
-- AQ24R63: 63 mm d, 2" R Thread
-- AQ24R75: 75 mm d, 2 1/2" R Thread
-- AQ24R90: 90 mm d, 3" R Thread
-- AQ24R110: 110 mm d, 4" R Thread
+- AQ243G2012: 20 mm d, 1/2" R Thread
+- AQ243G2034: 20 mm d, 3/4" R Thread
+- AQ243G2512: 25 mm d, 1/2" R Thread
+- AQ243G2534: 25 mm d, 3/4" R Thread
+- AQ243G3234: 32 mm d, 3/4" R Thread
+- AQ243G321: 32 mm d, 1" R Thread
+- AQ243G40114: 40 mm d, 1 1/4" R Thread
+- AQ243G50112: 50 mm d, 1 1/2" R Thread
+- AQ243G632: 63 mm d, 2" R Thread
+- AQ243G75212: 75 mm d, 2 1/2" R Thread
+- AQ243G903: 90 mm d, 3" R Thread
+- AQ243G1104: 110 mm d, 4" R Thread
 
-For specialized, high-capacity applications, sizes 125 mm and 160 mm are also available, capable of withstanding extreme flow rates. This extensive variety guarantees that installers always have the exact component needed at their disposal, which significantly reduces planning and installation times on the construction site.
+For specialized, high-capacity applications, sizes 75 mm, 90 mm and 110 mm are available, capable of withstanding extreme flow rates. The socket sizes 20 mm, 25 mm and 32 mm are each offered in two thread variants. This extensive variety guarantees that installers always have the exact component needed at their disposal, which significantly reduces planning and installation times on the construction site.
 
 ### Versatile Areas of Application
 
@@ -137,7 +140,7 @@ Choosing PP-R fittings with metal transitions makes excellent sense from an econ
 
 ### Conclusion
 
-The PP-R Adaptor Socket with Male Thread represents a masterclass in engineering for modern piping systems. With sizes ranging from 20 to 160 mm, it provides the right fit for every dimension. The synergy of a hygienic, long-lasting plastic body and a robust metal thread makes it the preferred choice for professional plumbers and engineers worldwide. Rely on K-Aqua quality for dependably secure, highly efficient, and sustainable pipe connections across all fields of application.
+The PP-R Adaptor Socket with Male Thread represents a masterclass in engineering for modern piping systems. With sizes ranging from 20 to 110 mm, it provides the right fit for every dimension. The synergy of a hygienic, long-lasting plastic body and a robust metal thread makes it the preferred choice for professional plumbers and engineers worldwide. Rely on K-Aqua quality for dependably secure, highly efficient, and sustainable pipe connections across all fields of application.
 
 ## SEO-CONTENT-AR
 يعتبر مقبس المحول (الوصلة الانتقالية) ذو السن الخارجي (Adaptor Socket Male Thread) المصنوع من البولي بروبيلين العشوائي المشترك (PP-R) مكونًا لا غنى عنه في أنظمة الأنابيب الحديثة. يتيح هذا التركيب الانتقالي المتخصص للغاية اتصالًا سلسًا وآمنًا بين الأنابيب البلاستيكية والمكونات المعدنية أو التركيبات أو المعدات التي تتميز بسن داخلي (أنثى). في مجالات السباكة والتدفئة والهندسة الصناعية، يمثل هذا المقبس عنصرًا أساسيًا مصممًا للحفاظ على سلامة النظام بأكمله ومقاومته للتسرب في ظل الظروف البيئية والتشغيلية الصعبة.
@@ -148,19 +151,22 @@ The PP-R Adaptor Socket with Male Thread represents a masterclass in engineering
 
 ### المواصفات الفنية بالتفصيل
 
-تغطي مجموعتنا الشاملة من مقابس المحولات ذات السنون الخارجية جميع الأقطار القياسية وأحجام السنون لتوفير الحل الأمثل لأي متطلبات تركيب. تتراوح أقطار الأنابيب المتاحة (d) من 20 ملم صغير الحجم إلى 160 ملم كبير. وبناءً على ذلك، تختلف السنون الخارجية (R) من 1/2 بوصة للوصلات الصغيرة إلى 4 بوصات للتطبيقات الصناعية واسعة النطاق.
+تغطي مجموعتنا الشاملة من مقابس المحولات ذات السنون الخارجية جميع الأقطار القياسية وأحجام السنون لتوفير الحل الأمثل لأي متطلبات تركيب. تتراوح أقطار الأنابيب المتاحة (d) من 20 ملم صغير الحجم إلى 110 ملم كبير. وبناءً على ذلك، تختلف السنون الخارجية (R) من 1/2 بوصة للوصلات الصغيرة إلى 4 بوصات للتطبيقات الصناعية واسعة النطاق.
 يوفر جدول المقالات نظرة عامة واضحة على المجموعات المتاحة:
-- AQ24R20: قطر 20 مم، سن خارجي 1/2 بوصة
-- AQ24R25: قطر 25 مم، سن خارجي 3/4 بوصة
-- AQ24R32: قطر 32 مم، سن خارجي 1 بوصة
-- AQ24R40: قطر 40 مم، سن خارجي 1 1/4 بوصة
-- AQ24R50: قطر 50 مم، سن خارجي 1 1/2 بوصة
-- AQ24R63: قطر 63 مم، سن خارجي 2 بوصة
-- AQ24R75: قطر 75 مم، سن خارجي 2 1/2 بوصة
-- AQ24R90: قطر 90 مم، سن خارجي 3 بوصة
-- AQ24R110: قطر 110 مم، سن خارجي 4 بوصة
+- AQ243G2012: قطر 20 مم، سن خارجي 1/2 بوصة
+- AQ243G2034: قطر 20 مم، سن خارجي 3/4 بوصة
+- AQ243G2512: قطر 25 مم، سن خارجي 1/2 بوصة
+- AQ243G2534: قطر 25 مم، سن خارجي 3/4 بوصة
+- AQ243G3234: قطر 32 مم، سن خارجي 3/4 بوصة
+- AQ243G321: قطر 32 مم، سن خارجي 1 بوصة
+- AQ243G40114: قطر 40 مم، سن خارجي 1 1/4 بوصة
+- AQ243G50112: قطر 50 مم، سن خارجي 1 1/2 بوصة
+- AQ243G632: قطر 63 مم، سن خارجي 2 بوصة
+- AQ243G75212: قطر 75 مم، سن خارجي 2 1/2 بوصة
+- AQ243G903: قطر 90 مم، سن خارجي 3 بوصة
+- AQ243G1104: قطر 110 مم، سن خارجي 4 بوصة
 
-بالنسبة للتطبيقات المتخصصة وعالية السعة، تتوفر أيضًا أحجام 125 مم و 160 مم، قادرة على تحمل معدلات التدفق القصوى. يضمن هذا التنوع الواسع للمهندسين والمقاولين الحصول دائمًا على المكون الدقيق المطلوب تحت تصرفهم، مما يقلل بشكل كبير من أوقات التخطيط والتركيب في موقع البناء.
+بالنسبة للتطبيقات المتخصصة وعالية السعة، تتوفر أحجام 75 مم و 90 مم و 110 مم، قادرة على تحمل معدلات التدفق القصوى. كما تتوفر المقاسات 20 مم و 25 مم و 32 مم بنوعين من السن لكل منها. يضمن هذا التنوع الواسع للمهندسين والمقاولين الحصول دائمًا على المكون الدقيق المطلوب تحت تصرفهم، مما يقلل بشكل كبير من أوقات التخطيط والتركيب في موقع البناء.
 
 ### مجالات التطبيق المتنوعة
 
@@ -185,4 +191,4 @@ The PP-R Adaptor Socket with Male Thread represents a masterclass in engineering
 
 ### الخاتمة
 
-يمثل مقبس المحول PP-R ذو السن الخارجي تحفة هندسية لأنظمة الأنابيب الحديثة. مع أحجام تتراوح من 20 إلى 160 مم، فإنه يوفر الملاءمة المناسبة لكل بُعد. التآزر بين جسم بلاستيكي صحي طويل الأمد وسن معدني قوي يجعله الخيار المفضل للسباكين والمهندسين المحترفين في جميع أنحاء العالم. اعتمد على جودة K-Aqua للحصول على توصيلات أنابيب آمنة وموثوقة وعالية الكفاءة ومستدامة عبر جميع مجالات التطبيق.
+يمثل مقبس المحول PP-R ذو السن الخارجي تحفة هندسية لأنظمة الأنابيب الحديثة. مع أحجام تتراوح من 20 إلى 110 مم، فإنه يوفر الملاءمة المناسبة لكل بُعد. التآزر بين جسم بلاستيكي صحي طويل الأمد وسن معدني قوي يجعله الخيار المفضل للسباكين والمهندسين المحترفين في جميع أنحاء العالم. اعتمد على جودة K-Aqua للحصول على توصيلات أنابيب آمنة وموثوقة وعالية الكفاءة ومستدامة عبر جميع مجالات التطبيق.

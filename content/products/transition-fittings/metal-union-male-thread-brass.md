@@ -110,11 +110,12 @@ Overview of CW617N Advantages:
 
 Our metal union with PP-R nut and male thread covers a wide spectrum of dimensions to provide the right solution for every project. The available combinations of pipe outer diameter (d in mm) and thread size (R in inches) guarantee the highest compatibility with standard plumbing materials:
 
-- AQ70R20: d 20 mm x ½" male thread – Ideal for residential floor distribution, individual tap points, and radiator connections.
-- AQ70R25: d 25 mm x ¾" male thread – Perfect for risers and medium-sized distribution networks.
-- AQ70R32: d 32 mm x 1" male thread – Used in main distribution lines and commercial sanitary facilities.
-- AQ70R40: d 40 mm x 1¼" male thread – For industrial applications and large volume flows.
-- AQ70R50: d 50 mm x 1½" male thread – Tailor-made for main supply lines and industrial cooling systems.
+- AQ53720: d 20 mm x ½" male thread – Ideal for residential floor distribution, individual tap points, and radiator connections.
+- AQ53725: d 25 mm x ¾" male thread – Perfect for risers and medium-sized distribution networks.
+- AQ53732: d 32 mm x 1" male thread – Used in main distribution lines and commercial sanitary facilities.
+- AQ53740: d 40 mm x 1¼" male thread – For industrial applications and large volume flows.
+- AQ53750: d 50 mm x 1½" male thread – Tailor-made for main supply lines and industrial cooling systems.
+- AQ53763: d 63 mm x 2" male thread – For main distribution lines and industrial plants with maximum flow.
 
 #### Fields of Application and Usage
 
@@ -157,11 +158,12 @@ In summary, the metal union with PP-R nut and male thread made of CW617N yellow 
 
 تغطي وصلتنا المعدنية ذات صامولة PP-R والسن الخارجي طيفًا واسعًا من الأبعاد لتوفير الحل المناسب لكل مشروع. تضمن التركيبات المتاحة للقطر الخارجي للأنبوب (d بالملليمتر) وحجم السن (R بالبوصة) أعلى توافق مع مواد السباكة القياسية:
 
-- AQ70R20: قطر 20 مم × ½ بوصة سن خارجي - مثالي لتوزيع الطوابق السكنية، ونقاط الحنفيات الفردية، وتوصيلات المشعات (الرادياتير).
-- AQ70R25: قطر 25 مم × ¾ بوصة سن خارجي - مثالي للأنابيب الصاعدة وشبكات التوزيع متوسطة الحجم.
-- AQ70R32: قطر 32 مم × 1 بوصة سن خارجي - يستخدم في خطوط التوزيع الرئيسية والمرافق الصحية التجارية.
-- AQ70R40: قطر 40 مم × 1¼ بوصة سن خارجي - للتطبيقات الصناعية وتدفقات الحجم الكبير.
-- AQ70R50: قطر 50 مم × 1½ بوصة سن خارجي - مصمم خصيصًا لخطوط الإمداد الرئيسية وأنظمة التبريد الصناعية.
+- AQ53720: قطر 20 مم × ½ بوصة سن خارجي - مثالي لتوزيع الطوابق السكنية، ونقاط الحنفيات الفردية، وتوصيلات المشعات (الرادياتير).
+- AQ53725: قطر 25 مم × ¾ بوصة سن خارجي - مثالي للأنابيب الصاعدة وشبكات التوزيع متوسطة الحجم.
+- AQ53732: قطر 32 مم × 1 بوصة سن خارجي - يستخدم في خطوط التوزيع الرئيسية والمرافق الصحية التجارية.
+- AQ53740: قطر 40 مم × 1¼ بوصة سن خارجي - للتطبيقات الصناعية وتدفقات الحجم الكبير.
+- AQ53750: قطر 50 مم × 1½ بوصة سن خارجي - مصمم خصيصًا لخطوط الإمداد الرئيسية وأنظمة التبريد الصناعية.
+- AQ53763: قطر 63 مم × 2 بوصة سن خارجي - لخطوط التوزيع الرئيسية والمنشآت الصناعية ذات التدفق الأقصى.
 
 #### مجالات التطبيق والاستخدام
 

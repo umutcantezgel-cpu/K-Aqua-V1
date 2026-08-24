@@ -41,11 +41,11 @@ Ein PP-R Sprungbogen ist ein speziell geformtes Rohrformteil, das eine markante,
 
 #### Technische Spezifikationen und verfügbare Größen
 
-Unsere K-Aqua PP-R Sprungbögen sind in den gängigsten Durchmessern erhältlich, um eine maximale Kompatibilität mit Standard-Rohrsystemen zu gewährleisten. Die Artikelnummern für unsere hochwertigen Crossover-Fittings lauten AQ26720, AQ26725 und AQ26732. Diese entsprechen den Außendurchmessern 20 mm, 25 mm und 32 mm. 
+Unsere K-Aqua PP-R Sprungbögen sind in den gängigsten Durchmessern erhältlich, um eine maximale Kompatibilität mit Standard-Rohrsystemen zu gewährleisten. Die Artikelnummern für unsere hochwertigen Crossover-Fittings lauten AQ28720, AQ28725 und AQ28732. Diese entsprechen den Außendurchmessern 20 mm, 25 mm und 32 mm. 
 
-- Größe 20 mm (Artikelcode: AQ26720): Ideal für Standard-Trinkwasserinstallationen im Einfamilienhaus oder für die Anbindung von Einzelverbrauchern. Verpackungseinheit: 90 Stück.
-- Größe 25 mm (Artikelcode: AQ26725): Wird häufig für Steigleitungen oder bei höherem Volumenstrombedarf eingesetzt, beispielsweise in Mehrfamilienhäusern. Verpackungseinheit: 90 Stück.
-- Größe 32 mm (Artikelcode: AQ26732): Perfekt für industrielle Anwendungen, Hauptverteilungsleitungen oder größere kommerzielle Projekte, bei denen ein hoher Durchfluss gewährleistet sein muss. Verpackungseinheit: 65 Stück.
+- Größe 20 mm (Artikelcode: AQ28720): Ideal für Standard-Trinkwasserinstallationen im Einfamilienhaus oder für die Anbindung von Einzelverbrauchern. Verpackungseinheit: 140 Stück.
+- Größe 25 mm (Artikelcode: AQ28725): Wird häufig für Steigleitungen oder bei höherem Volumenstrombedarf eingesetzt, beispielsweise in Mehrfamilienhäusern. Verpackungseinheit: 90 Stück.
+- Größe 32 mm (Artikelcode: AQ28732): Perfekt für industrielle Anwendungen, Hauptverteilungsleitungen oder größere kommerzielle Projekte, bei denen ein hoher Durchfluss gewährleistet sein muss. Verpackungseinheit: 65 Stück.
 
 Die präzise Fertigung dieser Fittings garantiert einen reibungslosen Schweißprozess und eine exakte Passform, wodurch die Installationszeit erheblich reduziert wird.
 
@@ -76,7 +76,7 @@ Der Installateur erhitzt das Rohr und die Muffe des Fittings mit einem spezielle
 
 #### Warum Sie K-Aqua PP-R Sprungbögen wählen sollten
 
-K-Aqua steht für höchste Qualität in der Kunststoffrohrtechnik. Unsere Crossover-Fittings werden unter strengen Qualitätskontrollen hergestellt und entsprechen internationalen Normen. Die sorgfältige Auswahl der Rohstoffe garantiert, dass jeder AQ26720, AQ26725 und AQ26732 Sprungbogen den anspruchsvollen Bedingungen auf der Baustelle standhält. Mit K-Aqua entscheiden Sie sich für ein System, das durch Verlässlichkeit, Langlebigkeit und einfache Handhabung überzeugt.
+K-Aqua steht für höchste Qualität in der Kunststoffrohrtechnik. Unsere Crossover-Fittings werden unter strengen Qualitätskontrollen hergestellt und entsprechen internationalen Normen. Die sorgfältige Auswahl der Rohstoffe garantiert, dass jeder AQ28720, AQ28725 und AQ28732 Sprungbogen den anspruchsvollen Bedingungen auf der Baustelle standhält. Mit K-Aqua entscheiden Sie sich für ein System, das durch Verlässlichkeit, Langlebigkeit und einfache Handhabung überzeugt.
 
 #### Zusammenfassung und Fazit
 
@@ -97,11 +97,11 @@ A PP-R Crossover is a precisely engineered pipe fitting featuring a distinct, cu
 
 #### Technical Specifications and Sizing Options
 
-Our premium K-Aqua PP-R crossover fittings are manufactured to the highest standards and are available in the most commonly required diameters for residential and commercial plumbing. The article codes for our crossovers are AQ26720, AQ26725, and AQ26732, corresponding to their respective outer diameters of 20 mm, 25 mm, and 32 mm.
+Our premium K-Aqua PP-R crossover fittings are manufactured to the highest standards and are available in the most commonly required diameters for residential and commercial plumbing. The article codes for our crossovers are AQ28720, AQ28725, and AQ28732, corresponding to their respective outer diameters of 20 mm, 25 mm, and 32 mm.
 
-- Size 20 mm (Article Code: AQ26720): This size is the standard choice for most domestic potable water systems, branch lines, and single-fixture connections. It comes in a convenient packing size of 90 pieces per carton.
-- Size 25 mm (Article Code: AQ26725): Frequently used for main distribution lines within apartments, riser pipes, and medium-flow requirements. Also packed at 90 pieces per carton.
-- Size 32 mm (Article Code: AQ26732): The ideal solution for larger residential buildings, commercial installations, or industrial applications where higher flow rates and lower pressure drops are critical. Packed at 65 pieces per carton.
+- Size 20 mm (Article Code: AQ28720): This size is the standard choice for most domestic potable water systems, branch lines, and single-fixture connections. It comes in a convenient packing size of 140 pieces per carton.
+- Size 25 mm (Article Code: AQ28725): Frequently used for main distribution lines within apartments, riser pipes, and medium-flow requirements. Packed at 90 pieces per carton.
+- Size 32 mm (Article Code: AQ28732): The ideal solution for larger residential buildings, commercial installations, or industrial applications where higher flow rates and lower pressure drops are critical. Packed at 65 pieces per carton.
 
 These dimensions ensure full compatibility with standard PP-R piping systems, allowing installers to execute complex pipe crossings without sacrificing flow efficiency.
 
@@ -131,7 +131,7 @@ To install, the technician heats the pipe end and the crossover socket using a s
 
 #### Why K-Aqua Crossovers Stand Out
 
-K-Aqua is synonymous with excellence in plastic piping systems. Our crossover fittings, including the AQ26720, AQ26725, and AQ26732 models, are subjected to rigorous quality control protocols and comply with stringent international standards. By choosing K-Aqua, you are investing in a piping solution that delivers unmatched reliability, ease of installation, and long-term performance.
+K-Aqua is synonymous with excellence in plastic piping systems. Our crossover fittings, including the AQ28720, AQ28725, and AQ28732 models, are subjected to rigorous quality control protocols and comply with stringent international standards. By choosing K-Aqua, you are investing in a piping solution that delivers unmatched reliability, ease of installation, and long-term performance.
 
 #### Conclusion
 
@@ -152,11 +152,11 @@ All PP-R crossover fittings undergo rigorous quality control procedures during t
 
 #### المواصفات الفنية وخيارات الأحجام
 
-تتوفر وصلات العبور K-Aqua PP-R بأكثر الأقطار شيوعاً لضمان أقصى درجات التوافق مع أنظمة الأنابيب القياسية في المشاريع السكنية والتجارية. أرقام المقالات الخاصة بوصلات العبور عالية الجودة لدينا هي AQ26720 و AQ26725 و AQ26732، والتي تتوافق مع الأقطار الخارجية 20 مم، 25 مم، و 32 مم على التوالي.
+تتوفر وصلات العبور K-Aqua PP-R بأكثر الأقطار شيوعاً لضمان أقصى درجات التوافق مع أنظمة الأنابيب القياسية في المشاريع السكنية والتجارية. أرقام المقالات الخاصة بوصلات العبور عالية الجودة لدينا هي AQ28720 و AQ28725 و AQ28732، والتي تتوافق مع الأقطار الخارجية 20 مم، 25 مم، و 32 مم على التوالي.
 
-- حجم 20 مم (رمز المنتج: AQ26720): يعتبر هذا الحجم الخيار القياسي لتركيبات مياه الشرب في المنازل أو لتوصيل نقاط الاستهلاك الفردية. يتوفر هذا الحجم في عبوات تحتوي على 90 قطعة، مما يجعله مثالياً للمشاريع واسعة النطاق.
-- حجم 25 مم (رمز المنتج: AQ26725): يُستخدم بشكل متكرر في الخطوط الرئيسية داخل الشقق، أو في أنابيب الصعود (الروايزر)، أو في التطبيقات التي تتطلب معدل تدفق أعلى للمياه. يتوفر أيضاً في عبوات تحتوي على 90 قطعة.
-- حجم 32 مم (رمز المنتج: AQ26732): الحل المثالي للمباني السكنية الكبيرة، التطبيقات التجارية، أو المشاريع الصناعية حيث يجب ضمان تدفق عالٍ للمياه وتقليل فقدان الضغط إلى أدنى حد. يتوفر في عبوات تحتوي على 65 قطعة.
+- حجم 20 مم (رمز المنتج: AQ28720): يعتبر هذا الحجم الخيار القياسي لتركيبات مياه الشرب في المنازل أو لتوصيل نقاط الاستهلاك الفردية. يتوفر هذا الحجم في عبوات تحتوي على 140 قطعة، مما يجعله مثالياً للمشاريع واسعة النطاق.
+- حجم 25 مم (رمز المنتج: AQ28725): يُستخدم بشكل متكرر في الخطوط الرئيسية داخل الشقق، أو في أنابيب الصعود (الروايزر)، أو في التطبيقات التي تتطلب معدل تدفق أعلى للمياه. يتوفر في عبوات تحتوي على 90 قطعة.
+- حجم 32 مم (رمز المنتج: AQ28732): الحل المثالي للمباني السكنية الكبيرة، التطبيقات التجارية، أو المشاريع الصناعية حيث يجب ضمان تدفق عالٍ للمياه وتقليل فقدان الضغط إلى أدنى حد. يتوفر في عبوات تحتوي على 65 قطعة.
 
 يضمن التصنيع الدقيق لهذه الوصلات عملية لحام سلسة وملاءمة دقيقة، مما يقلل بشكل كبير من الوقت اللازم للتركيب.
 
@@ -186,7 +186,7 @@ All PP-R crossover fittings undergo rigorous quality control procedures during t
 
 #### لماذا تختار وصلات K-Aqua PP-R؟
 
-تعتبر K-Aqua رمزاً للجودة العالية في تقنية الأنابيب البلاستيكية. يتم إنتاج وصلات العبور الخاصة بنا (AQ26720، AQ26725، AQ26732) تحت رقابة صارمة على الجودة وتتوافق مع المعايير الدولية المعترف بها. يضمن الاختيار الدقيق للمواد الخام أن كل وصلة عبور تتحمل الظروف القاسية في مواقع العمل. باختيارك K-Aqua، فإنك تستثمر في نظام يتميز بالموثوقية، طول العمر الافتراضي، وسهولة التركيب.
+تعتبر K-Aqua رمزاً للجودة العالية في تقنية الأنابيب البلاستيكية. يتم إنتاج وصلات العبور الخاصة بنا (AQ28720، AQ28725، AQ28732) تحت رقابة صارمة على الجودة وتتوافق مع المعايير الدولية المعترف بها. يضمن الاختيار الدقيق للمواد الخام أن كل وصلة عبور تتحمل الظروف القاسية في مواقع العمل. باختيارك K-Aqua، فإنك تستثمر في نظام يتميز بالموثوقية، طول العمر الافتراضي، وسهولة التركيب.
 
 #### خلاصة القول حول وصلات عبور الأنابيب
 

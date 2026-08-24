@@ -40,8 +40,8 @@ Eines der herausragendsten Merkmale dieser Verteilerbatterie ist die Möglichkei
 
 #### Technische Spezifikationen und Dimensionen
 Die K-Aqua einstellbare Verteilerbatterie mit Innengewinde ist in den gängigen Größen 20 mm und 25 mm (Außendurchmesser der Rohranschlüsse) erhältlich. Der Innengewindeanschluss (Rp) beträgt bei beiden Modellen ½ Zoll. Dies ermöglicht eine nahtlose Integration in bestehende Systeme und die Kompatibilität mit einer Vielzahl von Armaturen und Ventilen. 
-- Artikelcode AQ64ARCG20: Rohraußendurchmesser (d) 20 mm, Innengewinde (Rp) ½".
-- Artikelcode AQ64ARCG25: Rohraußendurchmesser (d) 25 mm, Innengewinde (Rp) ½".
+- Artikelcode AQ492G2012: Rohraußendurchmesser (d) 20 mm, Innengewinde (Rp) ½", einstellbare Länge (L) 100-135-150 mm, Gesamtlänge (L1) 230 mm, Gewicht 0,21 kg.
+- Artikelcode AQ492G2512: Rohraußendurchmesser (d) 25 mm, Innengewinde (Rp) ½", einstellbare Länge (L) 100-135-150 mm, Gesamtlänge (L1) 230 mm, Gewicht 0,23 kg.
 
 Diese präzisen Dimensionierungen garantieren eine dichte, sichere und dauerhafte Verbindung. Das Innengewinde ist robust ausgeführt, um hohen Drehmomenten bei der Installation standzuhalten und langfristige Dichtheit zu gewährleisten.
 
@@ -67,8 +67,8 @@ One of the most outstanding features of this distribution manifold is its adjust
 
 #### Technical Specifications and Dimensions
 The K-Aqua Adjustable Battery with female thread is available in the standard pipe outer diameters of 20 mm and 25 mm, catering to the most common installation requirements. Both models feature a standard ½" internal thread (Rp), ensuring seamless integration into existing systems and broad compatibility with a wide range of valves and fixtures.
-- Article Code AQ64ARCG20: Pipe outer diameter (d) 20 mm, female thread (Rp) ½".
-- Article Code AQ64ARCG25: Pipe outer diameter (d) 25 mm, female thread (Rp) ½".
+- Article Code AQ492G2012: Pipe outer diameter (d) 20 mm, female thread (Rp) ½", adjustable length (L) 100-135-150 mm, overall length (L1) 230 mm, weight 0.21 kg.
+- Article Code AQ492G2512: Pipe outer diameter (d) 25 mm, female thread (Rp) ½", adjustable length (L) 100-135-150 mm, overall length (L1) 230 mm, weight 0.23 kg.
 
 These precise dimensions guarantee a tight, secure, and permanent connection. The metallic female thread insert is durably constructed to withstand high torque during installation, ensuring long-term leak prevention and system integrity.
 
@@ -94,8 +94,8 @@ Opting for the K-Aqua Adjustable Battery with Female Thread is an investment in 
 
 #### المواصفات الفنية والأبعاد
 تتوفر بطارية K-Aqua القابلة للتعديل بسن داخلي بأقطار خارجية قياسية للأنابيب تبلغ 20 مم و 25 مم، لتلبية متطلبات التركيب الأكثر شيوعاً. يتميز كلا الطرازين بسن داخلي قياسي بحجم ½ بوصة (Rp)، مما يضمن التكامل السلس في الأنظمة الحالية والتوافق الواسع مع مجموعة كبيرة من الصمامات والتركيبات.
-- كود المنتج AQ64ARCG20: القطر الخارجي للأنبوب (d) 20 مم، السن الداخلي (Rp) ½ بوصة.
-- كود المنتج AQ64ARCG25: القطر الخارجي للأنبوب (d) 25 مم، السن الداخلي (Rp) ½ بوصة.
+- كود المنتج AQ492G2012: القطر الخارجي للأنبوب (d) 20 مم، السن الداخلي (Rp) ½ بوصة، الطول القابل للتعديل (L) 100-135-150 مم، الطول الإجمالي (L1) 230 مم، الوزن 0.21 كجم.
+- كود المنتج AQ492G2512: القطر الخارجي للأنبوب (d) 25 مم، السن الداخلي (Rp) ½ بوصة، الطول القابل للتعديل (L) 100-135-150 مم، الطول الإجمالي (L1) 230 مم، الوزن 0.23 كجم.
 
 تضمن هذه الأبعاد الدقيقة توصيلاً محكماً وآمناً ودائماً. تم تصميم الملحق المعدني ذو السن الداخلي بشكل متين لتحمل عزم الدوران العالي أثناء التركيب، مما يضمن منع التسرب على المدى الطويل وسلامة النظام بشكل عام.
 

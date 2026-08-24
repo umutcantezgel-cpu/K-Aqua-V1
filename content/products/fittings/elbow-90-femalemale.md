@@ -107,7 +107,7 @@ As the PP-R cools, the polymer chains of the two separate pieces intertwine and 
 
 #### Available Dimensions for Versatile Application
 
-To meet the diverse needs of modern plumbing architectures, the K-Aqua PP-R 90° street elbow is available in the most critical distribution sizes: 20 mm, 25 mm, and 32 mm (identified by product codes AQ09020FM, AQ09025FM, and AQ09032FM). These dimensions are perfectly suited for final branches, tight fixture connections, and complex manifold assemblies in both residential and commercial buildings.
+To meet the diverse needs of modern plumbing architectures, the K-Aqua PP-R 90° street elbow is available in the most critical distribution sizes: 20 mm and 25 mm (identified by product codes AQ09120 and AQ09125). These dimensions are perfectly suited for final branches, tight fixture connections, and complex manifold assemblies in both residential and commercial buildings.
 
 In conclusion, the K-Aqua PP-R Elbow 90° Female/Male is an indispensable component for any forward-thinking plumbing professional. It transcends the role of a simple directional fitting, acting instead as a strategic tool for optimizing space, accelerating installation, and guaranteeing the flawless, leak-free operation of high-performance piping networks for generations to come.
 
@@ -141,6 +141,6 @@ In conclusion, the K-Aqua PP-R Elbow 90° Female/Male is an indispensable compon
 
 #### أبعاد متوفرة لتطبيقات متنوعة
 
-لتلبية الاحتياجات المتنوعة للبنى التحتية الحديثة للسباكة، يتوفر كوع الشارع K-Aqua PP-R 90 درجة في أهم أحجام التوزيع: 20 مم، 25 مم، و 32 مم (والمعروفة برموز المنتجات AQ09020FM، AQ09025FM، و AQ09032FM). هذه الأبعاد مناسبة تماماً للتفرعات النهائية، وتوصيلات التركيبات الضيقة، وتجمعات الأنابيب المعقدة في كل من المباني السكنية والتجارية.
+لتلبية الاحتياجات المتنوعة للبنى التحتية الحديثة للسباكة، يتوفر كوع الشارع K-Aqua PP-R 90 درجة في أهم أحجام التوزيع: 20 مم و 25 مم (والمعروفة برموز المنتجات AQ09120 و AQ09125). هذه الأبعاد مناسبة تماماً للتفرعات النهائية، وتوصيلات التركيبات الضيقة، وتجمعات الأنابيب المعقدة في كل من المباني السكنية والتجارية.
 
 في الختام، يُعد كوع K-Aqua PP-R 90 درجة أنثى/ذكر مكوناً لا غنى عنه لأي محترف سباكة يتطلع إلى المستقبل. فهو يتجاوز دور كونه مجرد تركيب اتجاهي بسيط، ليعمل بدلاً من ذلك كأداة استراتيجية لتحسين المساحة، وتسريع التركيب، وضمان التشغيل الخالي من العيوب والتسربات لشبكات الأنابيب عالية الأداء للأجيال القادمة.
