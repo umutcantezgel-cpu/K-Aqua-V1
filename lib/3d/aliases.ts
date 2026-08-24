@@ -10,14 +10,17 @@
 // automatisch in lib/3d/slug-map.generated.ts — dort ist nichts zu pflegen.
 
 export const SLUG_ALIASES: Record<string, string> = {
-  "elbow-45-femalemale": "fittings/elbow-45",
-  "elbow-90-femalemale": "fittings/elbow-90",
+  // Die Seiten-Slugs schreiben "femalemale" ohne Bindestriche, die Modelle
+  // "female-male" mit. Sie kollidieren deshalb NICHT sichtbar — sie gingen
+  // aneinander vorbei, und beide Seiten zeigten bis zum 24.08.2026 den
+  // einfachen Winkel statt der Muffe/Spitzende-Ausführung.
+  "elbow-45-femalemale": "fittings/elbow-45-female-male",
+  "elbow-90-femalemale": "fittings/elbow-90-female-male",
   "elbow-90-large-sizes": "fittings/elbow-90",
   "reducing-tee": "fittings/reducing-bush",
   "reducing-tee-large-sizes": "fittings/reducing-bush",
   "flange-adaptor": "accessories/backing-flange",
   "stub-end": "accessories/backing-flange",
-  "electrofusion-socket": "fittings/socket",
   "cross-over": "fittings/elbow-90",
   "cross-over-pipe": "fittings/elbow-90",
   "cross-over-with-socket": "fittings/socket",
@@ -52,10 +55,15 @@ export const SLUG_ALIASES: Record<string, string> = {
   // Übergangsmuffe.
   //
   // Wer die Bibliothek erweitert, muss diese Liste gegen die neuen Modelle
-  // prüfen. `npm run 3d:check` merkt das nicht — es vergleicht nur die erzeugte
-  // Datei mit der Registry, nicht die Ausnahmen mit der Wirklichkeit.
-  "elbow-bracket-90-female-thread": "transition-fittings/adaptor-socket-male-thread",
-  "elbow-wall-bracket-90-female-thread": "transition-fittings/adaptor-socket-male-thread",
+  // prüfen. Das merkt jetzt `npm run 3d:coverage`: es bricht ab, sobald ein
+  // Eintrag hier auf ein anderes Modell zeigt als die erzeugte Datei — auch
+  // dann, wenn sich die Schlüssel nur in Bindestrichen unterscheiden.
+  //
+  // Am 24.08.2026 waren es fünf: electrofusion-socket,
+  // elbow-bracket-90-female-thread, elbow-wall-bracket-90-female-thread
+  // (alle drei entfernt, die erzeugte Zuordnung trägt sie jetzt) sowie
+  // elbow-45-femalemale und elbow-90-femalemale (auf das eigene Modell
+  // umgehängt). Fünf Produktseiten zeigten bis dahin ein fremdes Bauteil.
   "weld-in-saddle": "fittings/socket",
   "weld-in-saddle-female-thread": "transition-fittings/adaptor-socket-male-thread",
   "weld-in-saddle-male-thread": "transition-fittings/adaptor-socket-male-thread",

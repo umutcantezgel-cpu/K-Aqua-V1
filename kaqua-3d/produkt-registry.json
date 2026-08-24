@@ -2,7 +2,7 @@
   "_meta": {
     "projekt": "K-Aqua 3D-Produktmodelle",
     "erzeugt": "2026-08-15",
-    "produkte": 71,
+    "produkte": 72,
     "fertig": 1,
     "hinweis": "sizes_source_ocr ist maschinell gelesen und fehleranfaellig (Zeilen koennen doppelt gezaehlt sein). Nur sizes_source_verified ist per Auge geprueft. data_status steuert, ob vor dem Modellieren die Quelltabelle neu gelesen werden muss.",
     "familien": [
@@ -35,7 +35,8 @@
     "warnung_artikelnummern": "article_prefix_md_unverified und article_codes_md stammen aus den Markdown-Dateien und sind NICHT verifiziert. Bei beiden Kugelhaehnen sind sie nachweislich falsch. Verbindliche Nummern entstehen erst in Phase 1 des Produkt-Prompts aus dem Screenshot.",
     "screenshot_zuordnung": "Jede Zuordnung ist exakt oder ueber eine explizite Alias-Tabelle belegt; keine Teilstring-Treffer.",
     "hinweis_article_codes_source": "article_codes_source ist gegen Druckkatalog UND Website-Aufnahme geprueft. article_prefix_md_unverified widerspricht bei 22 von 71 Produkten dem Katalog (siehe pipeline/25-BILDQUELLEN.md Abschnitt 6) und ist keine Zuordnungsgrundlage.",
-    "hinweis_build_status": "build.status wird aus gallery/registry.js gespiegelt — dort ist der Modellstand die einzige Quelle. Abgeglichen am 24.08.2026; davor stand hier 1 fertig, waehrend 34 gebaut waren."
+    "hinweis_build_status": "build.status wird aus gallery/registry.js gespiegelt — dort ist der Modellstand die einzige Quelle. Abgeglichen am 24.08.2026; davor stand hier 1 fertig, waehrend 34 gebaut waren.",
+    "hinweis_produktzahl": "Die 71 stammten aus dem Website-Scrape. Die sieben Kategorie-Inhaltsverzeichnisse des Druckkatalogs 06/2025 (S. 75, 83, 93, 101, 105, 109, 113) ergeben ebenfalls 71 — aber mit einem Tausch: k-fiber-pipe-pp-r-sdr-6 fehlte hier, und fittings/reducing-tee-large ist eine Aufteilung der Website, die der Katalog als EIN Produkt ueber S. 88/89 fuehrt. Mit dem aufgenommenen Rohr sind es 72; ob reducing-tee-large ein eigenes Produkt bleibt, entscheidet der Mensch."
   },
   "produkte": [
     {
@@ -329,6 +330,49 @@
       },
       "article_prefix_md_unverified": "AQ207PF",
       "screenshot_match": "alias"
+    },
+    {
+      "id": "pipes/k-fiber-pipe-pp-r-sdr-6",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-pipe-pp-r-sdr-6",
+      "title_en": "K-Fiber Pipe PP-R SDR 6",
+      "title_de": "K-Fiber Rohr PP-R SDR 6",
+      "url": "/de/produkte/pipes/k-fiber-pipe-pp-r-sdr-6",
+      "module": "kaqua-k-fiber-pipe-pp-r-sdr-6",
+      "article_codes_source": [
+        "AQ206PF20",
+        "AQ206PF25",
+        "AQ206PF32",
+        "AQ206PF40",
+        "AQ206PF50",
+        "AQ206PF63",
+        "AQ206PF75",
+        "AQ206PF90",
+        "AQ206PF110",
+        "AQ206PF125"
+      ],
+      "article_prefix_source": "AQ206PF",
+      "source_screenshot": null,
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S.79"
+      ],
+      "md_file": null,
+      "sizes_md": null,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": 10,
+      "data_status": "verifiziert-nur-katalog",
+      "geometry": {
+        "family": "pipe-fiber",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "offen",
+        "order": 72
+      },
+      "hinweis": "Steht NUR im Druckkatalog (S. 79), nicht auf der Website: unter den zwoelf Rohr-Aufnahmen in 'K-Aqua Unterseitem Kopie/Piepes K-Aqua' fehlt es. Deshalb fehlte es auch in der aus dem Website-Scrape gewonnenen 71er-Liste. Aufgenommen am 24.08.2026 beim Auszaehlen der Katalog-Inhaltsverzeichnisse; die Zielproduktzahl steigt damit auf 72. PP-R GF, gruen mit vier roten Streifen, S 2,5, Laenge 4 m, 10 Groessen d20-d125."
     },
     {
       "id": "transition-fittings/adaptor-socket-female-thread",

@@ -2,7 +2,12 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-// Mapping table for slug variations between catalog, URLs, and 3D files
+// Zuordnung von Katalog-Slugs auf Dateinamen in dist/.
+//
+// ZWEITE TABELLE, ACHTUNG: lib/3d/aliases.ts fuehrt dieselbe Art Ausnahme fuer
+// den eingebetteten Viewer. Beide sind am 24.08.2026 auseinandergelaufen — dort
+// wie hier standen Ersatzzuordnungen, die inzwischen gebaute Modelle verdeckten.
+// `node scripts/check-3d-coverage.mjs` prueft jetzt BEIDE Tabellen.
 const SLUG_ALIASES: Record<string, string> = {
   // Gallery & Showroom aliases
   'galerie': '3d-galerie',
@@ -28,14 +33,25 @@ const SLUG_ALIASES: Record<string, string> = {
   'pp-r-ball-valve-ball-in-brass-chromium-plated': 'pp-r-ball-valve-ball-in-pp',
   'backing-flange-pp-steel-sfbf': 'backing-flange',
   'flat-gasket-for-unions-pp-r': 'flat-gasket-for-unions',
-  'elbow-45-femalemale': 'elbow-45',
-  'elbow-90-femalemale': 'elbow-90',
+  // Muffe/Spitzende hat seit dem 24.08.2026 eigene Modelle. Die Seiten-Slugs
+  // schreiben 'femalemale' ohne Bindestriche, die Module 'female-male' mit —
+  // deshalb bleibt hier ein Eintrag noetig, aber er zeigt jetzt auf das
+  // richtige Teil statt auf den einfachen Winkel.
+  'elbow-45-femalemale': 'elbow-45-female-male',
+  'elbow-90-femalemale': 'elbow-90-female-male',
+  // Groessenvariante desselben Produkts — bleibt.
   'elbow-90-large-sizes': 'elbow-90',
-  'metal-union-female-thread-brass': 'metal-union-female-thread',
-  'metal-union-male-thread': 'metal-union-female-thread',
-  'metal-union-male-thread-brass': 'metal-union-female-thread',
+  // Die drei Metallverschraubungen hatten hier Ersatzzuordnungen auf die
+  // Innengewindevariante, solange es ihre Modelle nicht gab. Seit Welle 5
+  // gibt es sie; die Eintraege sind entfallen, sonst verdecken sie sie.
   'reducing-tee-large-sizes': 'reducing-tee',
   'reducing-tee-large': 'reducing-tee',
+  // ACHTUNG, offener Punkt: die vier Rohrschneider zeigen eine ROHRSCHELLE.
+  // lib/3d/resolve.ts hat genau diesen Notbehelf abgeschafft — dort steht
+  // begruendet, dass fuer einen masshaltigen Viewer gar keine Darstellung
+  // besser ist als ein fremdes Bauteil. Hier steht er noch, weil das Entfernen
+  // vier Seiten ihre (falsche) 3D-Ansicht kostet. Entscheidung des Menschen,
+  // vermerkt in kaqua-3d/LOOP-STATUS.md.
   'pipe-cutter-2040': 'pipe-clamps',
   'pipe-cutter-50125': 'pipe-clamps',
   'pipe-cutter-50125-1': 'pipe-clamps',

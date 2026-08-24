@@ -3,7 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Elektroschweißmuffe gebaut. **39 von 71.**
+**Letzte Änderung:** 24.08.2026 — acht verdeckte Modelle freigelegt,
+Zielzahl auf 72 korrigiert. **39 von 72.**
 
 ---
 
@@ -11,7 +12,7 @@ können, ohne die ganze Pipeline zu lesen.
 
 | | |
 |---|---|
-| Fertig | **39 von 71** · Selbsttest 39/39, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **39 von 72** · Selbsttest 39/39, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -217,7 +218,43 @@ in Wirklichkeit nicht. Entweder sind sie bei den großen Muffen versenkt,
 oder h bedeutet dort etwas anderes. Beide Rang-1-Quellen tragen die
 Zahlen; am Originalteil zu prüfen.
 
-### 3.10 `Marketing/` ist nicht gesichert
+### 3.10 Vier Rohrschneider zeigen eine Rohrschelle
+
+`app/api/3d-view/[slug]/route.ts` bildet `pipe-cutter-*` auf `pipe-clamps`
+ab — ein fremdes Bauteil als Notbehelf, solange es kein eigenes Modell gibt.
+`lib/3d/resolve.ts` hat genau diesen Notbehelf abgeschafft und begründet das
+dort: für einen maßhaltigen Viewer ist **gar keine** Darstellung besser als
+ein falsches Teil. In der API-Route steht er noch.
+
+Ihn zu entfernen kostet vier Seiten ihre (falsche) 3D-Ansicht, bis die
+Werkzeuge gebaut sind. **Entscheidung des Menschen.** Dasselbe gilt für
+`pp-r-ball-valve-brass` → Kugelhahn PP und `reducing-tee-large` →
+`reducing-tee` (letzteres hat selbst noch kein Modell).
+
+### 3.11 `k-fiber-pipe-pp-r-sdr-6` hat keine Produktseite
+
+Das Rohr steht nur im Druckkatalog (S. 79), nicht auf der Website — deshalb
+fehlte es in der 71er-Liste. Aufgenommen in beide Registries; die Zielzahl
+steht damit auf **72**.
+
+Es gibt aber **keine** Seite unter `content/products/pipes/`. Der
+Galerie-Eintrag verlinkt bis dahin auf die Kategorieseite, damit kein toter
+Link entsteht. Die Produktseite muss geschrieben werden — das ist
+Redaktionsarbeit, keine Modellarbeit.
+
+Offen bleibt die Gegenfrage: `fittings/reducing-tee-large` ist eine
+Aufteilung der Website; der Katalog führt das Reduzier-T-Stück als **ein**
+Produkt über S. 88/89. Bleibt es ein eigenes Produkt, sind es 72 — sonst 71.
+
+### 3.12 Zwei Kopien der Produktregistry
+
+`kaqua-3d/produkt-registry.json` (gepflegt) und
+`docs/3d-produktion/produkt-registry.json` (Kopie) sind auseinandergelaufen.
+`check-3d-coverage.mjs` rechnet jetzt mit der ersten und **meldet** den
+Unterschied, statt still die alte zu nehmen. Ob die Kopie unter `docs/`
+mitgezogen oder gelöscht wird, entscheidet der Mensch.
+
+### 3.13 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
@@ -240,6 +277,9 @@ Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
   Quelle) und steht auf 36 / 35. Die 22 Präfixkorrekturen aus §3.3 sind
   **noch offen**; für die beiden Laschen sind `article_codes_source` und
   `article_prefix_source` bereits eingetragen.
+- **„Alle 70 Produkte im 3D Studio"** steht als feste Zahl im Seitentext
+  (Produktseiten-Bausteine). Sie war schon vor dieser Sitzung falsch und ist
+  jetzt 72. Die Zahl gehört aus der Registry gelesen, nicht getippt.
 - **`buildBrassRing` in den Core.** Er steht jetzt zweimal:
   `_teethread/parts.js` und `_bracket/parts.js`, Zeichen für Zeichen
   gleich. Reine Kerngeometrie — ein Rotationskörper mit Innengewinde —
