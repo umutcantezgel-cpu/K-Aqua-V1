@@ -1,5 +1,5 @@
-/* K-Aqua 3D · Metallverschraubung mit PP-R-Mutter (Innengewinde) — gebündeltes ES-Modul.
-   Erzeugt, nicht handgepflegt. Produkt-ID transition-fittings/metal-union-female-thread.
+/* K-Aqua 3D · Metallverschraubung mit PP-R-Mutter (Außengewinde) — gebündeltes ES-Modul.
+   Erzeugt, nicht handgepflegt. Produkt-ID transition-fittings/metal-union-male-thread.
    Maße in Millimetern; die Umrechnung auf Meter macht der Viewer. */
 
 import * as THREE from 'three';
@@ -795,21 +795,22 @@ export function buildUnion(cfg, size, variant, clipPlane) {
 }
 
 
-/* == metal-union-female-thread/data.js ================================= */
-/* K-Aqua Metallverschraubung mit PP-R-Mutter (Innengewinde) — Artikeltabelle.
+/* == metal-union-male-thread/data.js =================================== */
+/* K-Aqua Metallverschraubung mit PP-R-Mutter (Außengewinde) — Artikeltabelle.
 
-   PHASE 1, verifiziert am 20.08.2026, Gestalt korrigiert am 23.08.2026
-   gegen
-   Transition Fittings K-Aqua/screencapture-…-metal-union-with-pp-r-nut-female-thread-….png
-   (quellen/w3-metal-union-fem.png).
+   PHASE 1, verifiziert am 23.08.2026 gegen
+   Transition Fittings K-Aqua/screencapture-…-metal-union-with-pp-r-nut-male-thread-….png
+   (quellen/w5-metal-union-male.png, Tabellenausschnitte
+   quellen/w5-tabelle-male-a.png und -b.png).
 
    Spaltenköpfe wie abgebildet:
-     Code · d · Rp · DN · G · L · l · l1 · SW · SW1 · Pack.
-   6 Größen, d20 bis d63. Nach der letzten Zeile folgt der ORDER-Knopf.
+     Code · d · R · DN · G · L · l · l1 · SW · SW1 · Pack.
+   6 Größen, d20 bis d63. Nach der letzten Zeile folgt der ORDER-Knopf —
+   die Tabelle ist vollständig gelesen (Fall 2).
 
    MASSSCHLÜSSEL:
      d    Rohr-Außendurchmesser = Muffenbohrung der PP-R-Seite
-     Rp   zylindrisches Innengewinde der Metallseite, in Zoll (ISO 228-1)
+     R    kegeliges Außengewinde der Metallseite, in Zoll (ISO 7-1)
      DN   Nennweite des Gewindeanschlusses, informativ
      G    Gewinde der Überwurfmutter, in Zoll
      L    Gesamtlänge
@@ -818,104 +819,104 @@ export function buildUnion(cfg, size, variant, clipPlane) {
      SW   Schlüsselweite der Überwurfmutter
      SW1  Schlüsselweite des Gewindekörpers
 
-   ── KORREKTUR VOM 23.08.2026: SW IST DOCH AUFLÖSBAR ──
-
-   Der frühere Stand führte hier:
-
-     „Was SW bezeichnet, ist nicht auflösbar. […] SW wird deshalb NICHT
-      modelliert und erscheint nur in der Fallback-Tabelle."
-
-   und setzte das Produkt auf status 'prototyp'.
-
-   Die Maßzeichnung liegt auf der Produktseite, unter dem Foto, als
-   zweite Miniatur (Ausschnitt quellen/w5-zeichnung-fem.png). Sie führt
-   SW an den linken Sechskant und SW1 an den rechten. SW ist die
-   Schlüsselweite der Überwurfmutter.
-
-   Die Fotoableitung, die SW ausgeschlossen hatte, setzte voraus, dass
-   das Katalogfoto d32 zeigt — eine Annahme, die derselbe Absatz als
-   offene Frage führte. Die Silhouettenvermessung beantwortet sie:
-
-     gemessen  Länge 557 px, größte Höhe 514 px  →  L/B = 1,08
-     d20   L 38, SW 38 über Fläche … 43,9 über Ecke   →  L/B 0,87…1,00  ✓
-     d25   L 43, SW 48 …………………… 55,4              →  L/B 0,78…0,90  ✗
-     d32   L 48, SW 54 …………………… 62,4              →  L/B 0,77…0,89  ✗
-     d63   L 63, SW 107 ………………… 123,6             →  L/B 0,51…0,59  ✗
-
-   Nur d20 trägt die Messung. Beim Außengewindefoto ergibt dieselbe
-   Auswertung dasselbe Ergebnis (L/B 1,30; nur d20 liegt im Bereich).
-   Beide Katalogfotos zeigen die kleinste Größe.
-
-   Damit kehrt sich die alte Rechnung um: bei d20 ist SW = 38 genau die
-   Breite, die das Foto zeigt. Der Sechskant ist da, und er ist der
-   breiteste Punkt des Teils.
-
-   Rangfolge nach Fall 31: Tabellenmaß (Rang 1) und Zeichnung (Rang 2)
-   stehen über der Fotoableitung (Rang 3). Alle drei sagen jetzt
-   dasselbe.
+   Die Zuordnung von SW und SW1 steht nicht im Text, sondern in der
+   MASSZEICHNUNG unter dem Produktfoto (quellen/w5-zeichnung-male.png):
+   sie führt SW an den linken Sechskant (Mutter) und SW1 an den rechten
+   (Körper). Die Zeichnung ist schematisch, nicht maßstäblich — sie
+   ordnet Spalten Kanten zu, sie liefert keine Proportionen.
 
    ── VIER GEGENPROBEN ──
 
-   1 · l ist mit der Außengewindevariante Zeile für Zeile IDENTISCH:
-       19 · 22 · 23 · 26 · 29 · 32. SW und SW1 ebenso. Die beiden
-       Produkte unterscheiden sich nur in L und l1 — also nur im
-       Gewindekörper.
+   1 · l ist mit der Innengewindevariante Zeile für Zeile IDENTISCH:
+       19 · 22 · 23 · 26 · 29 · 32. Die PP-R-Seite ist dieselbe; der
+       ganze Längenunterschied der beiden Produkte sitzt in l1.
 
-   2 · l + l1 gegen L, über alle Zeilen und mit Vorzeichen (Fall 28):
-         d20  19+16 = 35  L 38  → −3      d40  26+26 = 52  L 55  → −3
-         d25  22+18 = 40  L 43  → −3      d50  29+26 = 55  L 58  → −3
-         d32  23+23 = 46  L 48  → −2      d63  32+28 = 60  L 63  → −3
-       Durchgehend negativ. Die Lücke ist die Flachdichtung zwischen
-       PP-R-Bund und Metallkörper — 2 bis 3 mm, genau die Dicke, die
+         L  − L_IG   13 · 14 · 17 · 18 · 18 · 22
+         l1 − l1_IG  13 · 13 · 15 · 18 · 18 · 22
+
+       Bis auf zwei Zeilen deckungsgleich. Zwei unabhängig gelesene
+       Tabellen bestätigen sich damit gegenseitig.
+
+   2 · SW und SW1 sind mit der Innengewindevariante identisch:
+       38/26 · 48/32 · 54/37 · 73/47 · 85/55 · 107/64. Beide Produkte
+       tragen dieselbe Mutter und denselben Körpersechskant.
+
+   3 · l + l1 gegen L, über alle Zeilen und mit Vorzeichen (Fall 28):
+         d20  19+29 = 48  L 51  → −3
+         d25  22+31 = 53  L 57  → −4
+         d32  23+38 = 61  L 65  → −4
+         d40  26+44 = 70  L 73  → −3
+         d50  29+44 = 73  L 76  → −3
+         d63  32+50 = 82  L 85  → −3
+       Durchgehend negativ, 3 bis 4 mm. Es fehlt ein Stück, es
+       überlappt nichts. Die Lücke ist die Flachdichtung zwischen
+       PP-R-Bund und Metallkörper — 3 bis 4 mm ist genau die Dicke, die
        20-VISUELLE-REFERENZ §4.1 für Flachdichtungen nennt.
 
-   3 · SW > SW1 in jeder Zeile, beide monoton steigend.
-       SW/d = 1,90 · 1,92 · 1,69 · 1,83 · 1,70 · 1,70 — kein glatter
-       Faktor, also tabellierte Werte und keine Rechenreihe.
-
    4 · l minus Schweißtiefe DVS 2207-11 ist über alle Größen konstant:
-       4,5 · 6,0 · 5,0 · 5,5 · 5,5 · 4,5 mm — der Hals mit dem
-       Dichtbund, auf dem die Mutter sitzt.
+         4,5 · 6,0 · 5,0 · 5,5 · 5,5 · 4,5 mm.
+       Das ist der Hals mit dem Dichtbund — und eine unabhängige
+       Bestätigung der Normreihe aus einer zweiten Tabelle.
+
+   ── TIPPFEHLER IM KATALOG: G BEI d25 ──
+
+   Die Seite druckt bei d25 G = 1 3/4". Gesetzt ist hier 1 1/4".
+
+   Begründung: G 1 3/4" hat nach ISO 228-1 einen Außendurchmesser von
+   53,74 mm. Die Schlüsselweite der Mutter beträgt bei d25 aber 48 mm —
+   das Gewinde wäre größer als die Mutter, die es umschließt. Die
+   Restwand wird −2,87 mm. Zusätzlich fiele die Spalte zwischen d25 und
+   d32 (1,75 gegen 1,5), was bei einer Gewindereihe nicht vorkommt.
+
+   Mit 1 1/4" ergibt sich eine Restwand von 3,05 mm — derselbe Wert wie
+   bei d32 (3,10 mm) — und die Reihe steigt monoton.
+
+   Dieselbe Zahl steht auf der Innengewindeseite als 1 1/4" und in
+   products/union/data.js als 1 1/4". Beleg für alle vier Lesungen:
+   quellen/w5-spalte-g-vier-seiten.png.
+
+   params.js wirft, falls der Wert je zurückkommt.
 
    ── DIE SPALTE G WIRD NICHT MODELLIERT ──
    Werte 1 · 1 1/4 · 1 1/2 · 2 · 2 1/4 · 2 3/4 Zoll.
 
-   G ist das Kupplungsgewinde zwischen Mutter und Körper, liegt
-   vollständig im Inneren der Mutter und bildet keine Silhouette.
-   products/union führt dieselbe Spalte ebenso mit, ohne sie zu
-   modellieren.
+   G ist das Kupplungsgewinde zwischen Mutter und Körper. Es liegt
+   vollständig im Inneren der Mutter, bildet keine Silhouette und ist
+   auch im Halbschnitt von der Mutter verdeckt. products/union führt
+   dieselbe Spalte ebenso mit, ohne sie zu modellieren.
 
-   Diese Seite druckt bei d25 als einzige der vier Metallverschraubungs-
-   seiten 1 1/4"; die drei anderen drucken 1 3/4". 1 1/4" ist richtig:
-   G 1 3/4" hat 53,74 mm Außendurchmesser und passt nicht in eine
-   Mutter mit Schlüsselweite 48. Beleg und Rechnung im Kopfkommentar
-   von metal-union-male-thread/data.js.
+   Die Normdurchmesser sind trotzdem in _union/params.js hinterlegt —
+   sie tragen die Zusicherung, die den Tippfehler oben abfängt.
 
    ── ARTIKELNUMMERN ──
-   Die Registry führt fünf Nummern der Reihe AQ71RPxx aus der
-   Markdown-Datei. Der Screenshot zeigt sechs der Reihe AQ542xx. Maße
-   und Nummern kommen aus dem Screenshot (Regel 3).
+   Die Registry führt unter article_codes_md fünf Nummern der Reihe
+   AQ71Rxx aus der Markdown-Datei. Der Screenshot zeigt sechs Nummern
+   der Reihe AQ547xx. Maße und Artikelnummern kommen aus dem
+   Screenshot (Regel 3) — die Markdown-Dateien sind als Maßquelle
+   verboten und hier auch bei den Nummern nachweislich anders.
 
-   ASSUMPTION Muffentiefe: Normreihe DVS 2207-11, gestützt durch
+   ASSUMPTION Muffentiefe: Normreihe DVS 2207-11. Begründung wie bei
+   Winkel und T-Stück (products/tee/data.js), zusätzlich gestützt durch
    Gegenprobe 4. */
 
 export const DATA_STATUS = 'tabelle-verifiziert-zeichnung-gelesen';
 export const SIZES_SOURCE_VERIFIED = 6;
 
 export const ARTICLES = [
-  { code: 'AQ54220', d: 20, Rp: '1/2', dn: 15, G: '1', L: 38, l: 19, l1: 16, SW: 38, SW1: 26, pack: 100 },
-  { code: 'AQ54225', d: 25, Rp: '3/4', dn: 20, G: '1 1/4', L: 43, l: 22, l1: 18, SW: 48, SW1: 32, pack: 100 },
-  { code: 'AQ54232', d: 32, Rp: '1', dn: 25, G: '1 1/2', L: 48, l: 23, l1: 23, SW: 54, SW1: 37, pack: 100 },
-  { code: 'AQ54240', d: 40, Rp: '1 1/4', dn: 32, G: '2', L: 55, l: 26, l1: 26, SW: 73, SW1: 47, pack: 25 },
-  { code: 'AQ54250', d: 50, Rp: '1 1/2', dn: 40, G: '2 1/4', L: 58, l: 29, l1: 26, SW: 85, SW1: 55, pack: 25 },
-  { code: 'AQ54263', d: 63, Rp: '2', dn: 50, G: '2 3/4', L: 63, l: 32, l1: 28, SW: 107, SW1: 64, pack: 18 },
+  { code: 'AQ54720', d: 20, R: '1/2', dn: 15, G: '1', L: 51, l: 19, l1: 29, SW: 38, SW1: 26, pack: 100 },
+  /* G im Katalog als 1 3/4 gedruckt — Tippfehler, siehe Kopfkommentar. */
+  { code: 'AQ54725', d: 25, R: '3/4', dn: 20, G: '1 1/4', L: 57, l: 22, l1: 31, SW: 48, SW1: 32, pack: 100 },
+  { code: 'AQ54732', d: 32, R: '1', dn: 25, G: '1 1/2', L: 65, l: 23, l1: 38, SW: 54, SW1: 37, pack: 100 },
+  { code: 'AQ54740', d: 40, R: '1 1/4', dn: 32, G: '2', L: 73, l: 26, l1: 44, SW: 73, SW1: 47, pack: 25 },
+  { code: 'AQ54750', d: 50, R: '1 1/2', dn: 40, G: '2 1/4', L: 76, l: 29, l1: 44, SW: 85, SW1: 55, pack: 25 },
+  { code: 'AQ54763', d: 63, R: '2', dn: 50, G: '2 3/4', L: 85, l: 32, l1: 50, SW: 107, SW1: 64, pack: 18 },
 ];
 
 export const SIZES = ARTICLES.map((a) => a.d);
 
 export const DIMENSION_KEY = {
   d: 'Nennmaß',
-  Rp: 'Innengewinde',
+  R: 'Außengewinde',
   dn: 'Nennweite',
   G: 'Muttergewinde (nicht modelliert)',
   L: 'Gesamtlänge',
@@ -932,23 +933,23 @@ export function article(d) {
 }
 
 
-/* == metal-union-female-thread/params.js =============================== */
-/* K-Aqua Metallverschraubung (Innengewinde) — Parametrik.
+/* == metal-union-male-thread/params.js ================================= */
+/* K-Aqua Metallverschraubung (Außengewinde) — Parametrik.
 
    Die Rechnung steht in ../_union/params.js: vier Produkte teilen die
    Baugruppe, und viermal dieselbe Rechnung driftet (Fall 32). Hier
    steht nur, was dieses Produkt daran festlegt. */
 
 
-export const CONFIG = { threadKind: 'Rp' };
+export const CONFIG = { threadKind: 'R' };
 
 export function params(dNom) {
   return unionParams(article(dNom), CONFIG);
 }
 
 
-/* == metal-union-female-thread/parts.js ================================ */
-/* K-Aqua Metallverschraubung (Innengewinde) — Konturen.
+/* == metal-union-male-thread/parts.js ================================== */
+/* K-Aqua Metallverschraubung (Außengewinde) — Konturen.
 
    Alle vier Teile kommen aus ../_union/parts.js. Der Unterschied
    zwischen Innen- und Außengewindevariante ist ein einziger: buildBody
@@ -960,21 +961,21 @@ export function params(dNom) {
    pruefung/w5-masstest.html. */
 
 
-/* == metal-union-female-thread/index.js ================================ */
-/* K-Aqua Metallverschraubung mit PP-R-Mutter (Innengewinde) —
+/* == metal-union-male-thread/index.js ================================== */
+/* K-Aqua Metallverschraubung mit PP-R-Mutter (Außengewinde) —
    Produktpaket nach PRODUKT-VERTRAG.md.
 
    Vier Teile, drei Werkstoffe. Der Halbschnitt zeigt, wie die Mutter
    hinter dem PP-R-Dichtbund greift und wo die Flachdichtung sitzt;
-   die Explosionsansicht nimmt die Mutter seitlich heraus, weil sie das
-   einzige lösbare Teil der Baugruppe ist. */
+   die Explosionsansicht nimmt die Mutter seitlich heraus, weil sie
+   das einzige lösbare Teil der Baugruppe ist. */
 
 
 const product = {
-  id: 'transition-fittings/metal-union-female-thread',
-  module: 'kaqua-metal-union-female-thread',
-  titleDe: 'Metallverschraubung mit PP-R-Mutter (Innengewinde)',
-  titleEn: 'Metal union with PP-R nut (Female thread)',
+  id: 'transition-fittings/metal-union-male-thread',
+  module: 'kaqua-metal-union-male-thread',
+  titleDe: 'Metallverschraubung mit PP-R-Mutter (Außengewinde)',
+  titleEn: 'Metal union with PP-R nut (Male thread)',
   category: 'transition-fittings',
   brandLine: 'K-Aqua PP-R · vernickelt',
   dataStatus: DATA_STATUS,
@@ -984,14 +985,14 @@ const product = {
   defaultSize: 32,
 
   dimensionKey: DIMENSION_KEY,
-  metaFields: ['d', 'Rp', 'L', 'SW'],
+  metaFields: ['d', 'R', 'L', 'SW'],
   dimensions: ['L', 'l', 'l1', 'SW'],
-  ariaFields: ['d', 'Rp', 'L', 'SW', 'SW1'],
+  ariaFields: ['d', 'R', 'L', 'SW', 'SW1'],
 
   variants: [],
   states: null,
 
-  tile: 'Lösbarer Übergang von PP-R auf zylindrisches Innengewinde — ' +
+  tile: 'Lösbarer Übergang von PP-R auf kegeliges Außengewinde — ' +
         'die Überwurfmutter trennt die Verbindung, ohne die Schweißnaht zu öffnen.',
 
   build(size, variant, clipPlane) {
@@ -1000,8 +1001,8 @@ const product = {
       article,
       metal: 'steel',
       metalLabel: 'vernickelt',
-      exportName: 'K-Aqua_Metallverschraubung_IG',
-      seed: 163,
+      exportName: 'K-Aqua_Metallverschraubung_AG',
+      seed: 167,
     }, size, variant, clipPlane);
   },
 };

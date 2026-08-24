@@ -1,5 +1,5 @@
-/* K-Aqua 3D · Metallverschraubung mit PP-R-Mutter (Innengewinde) — gebündeltes ES-Modul.
-   Erzeugt, nicht handgepflegt. Produkt-ID transition-fittings/metal-union-female-thread.
+/* K-Aqua 3D · Metallverschraubung Messing CW617N (Innengewinde) — gebündeltes ES-Modul.
+   Erzeugt, nicht handgepflegt. Produkt-ID transition-fittings/metal-union-female-thread-brass.
    Maße in Millimetern; die Umrechnung auf Meter macht der Viewer. */
 
 import * as THREE from 'three';
@@ -795,13 +795,29 @@ export function buildUnion(cfg, size, variant, clipPlane) {
 }
 
 
-/* == metal-union-female-thread/data.js ================================= */
-/* K-Aqua Metallverschraubung mit PP-R-Mutter (Innengewinde) — Artikeltabelle.
+/* == metal-union-female-thread-brass/data.js =========================== */
+/* K-Aqua Metallverschraubung Messing CW617N (Innengewinde) — Artikeltabelle.
+
+   WERKSTOFFVARIANTE. Maßtabelle und Baugruppe sind mit
+   metal-union-female-thread identisch — Zeile für Zeile geprüft:
+   L, l, l1, SW, SW1 und Rp stimmen in allen sechs Größen überein.
+   Verschieden sind nur die Codereihe (AQ532xx statt AQ542xx) und der
+   Werkstoff: gelbes Messing CW617N statt vernickelt.
+
+   Der Unterschied ist im Katalogfoto sichtbar und der einzige Grund,
+   warum es zwei Artikel gibt — quellen/w5-foto-fem-brass.png gegen
+   quellen/w5-foto-fem.png: dieselbe Gestalt, einmal goldgelb, einmal
+   silbrig.
+
+   ACHTUNG G BEI d25: Diese Seite druckt 1 3/4". Gesetzt ist 1 1/4"
+   wie beim Zwilling — G 1 3/4" hat 53,74 mm Außendurchmesser und passt
+   nicht in eine Mutter mit Schlüsselweite 48. Rechnung im
+   Kopfkommentar von metal-union-male-thread/data.js.
 
    PHASE 1, verifiziert am 20.08.2026, Gestalt korrigiert am 23.08.2026
    gegen
-   Transition Fittings K-Aqua/screencapture-…-metal-union-with-pp-r-nut-female-thread-….png
-   (quellen/w3-metal-union-fem.png).
+   Transition Fittings K-Aqua/screencapture-…-metal-union-with-pp-r-nut-in-yellow-brass-cw617n-female-thread-….png
+   (quellen/w5-metal-union-fem-brass.png).
 
    Spaltenköpfe wie abgebildet:
      Code · d · Rp · DN · G · L · l · l1 · SW · SW1 · Pack.
@@ -903,12 +919,12 @@ export const DATA_STATUS = 'tabelle-verifiziert-zeichnung-gelesen';
 export const SIZES_SOURCE_VERIFIED = 6;
 
 export const ARTICLES = [
-  { code: 'AQ54220', d: 20, Rp: '1/2', dn: 15, G: '1', L: 38, l: 19, l1: 16, SW: 38, SW1: 26, pack: 100 },
-  { code: 'AQ54225', d: 25, Rp: '3/4', dn: 20, G: '1 1/4', L: 43, l: 22, l1: 18, SW: 48, SW1: 32, pack: 100 },
-  { code: 'AQ54232', d: 32, Rp: '1', dn: 25, G: '1 1/2', L: 48, l: 23, l1: 23, SW: 54, SW1: 37, pack: 100 },
-  { code: 'AQ54240', d: 40, Rp: '1 1/4', dn: 32, G: '2', L: 55, l: 26, l1: 26, SW: 73, SW1: 47, pack: 25 },
-  { code: 'AQ54250', d: 50, Rp: '1 1/2', dn: 40, G: '2 1/4', L: 58, l: 29, l1: 26, SW: 85, SW1: 55, pack: 25 },
-  { code: 'AQ54263', d: 63, Rp: '2', dn: 50, G: '2 3/4', L: 63, l: 32, l1: 28, SW: 107, SW1: 64, pack: 18 },
+  { code: 'AQ53220', d: 20, Rp: '1/2', dn: 15, G: '1', L: 38, l: 19, l1: 16, SW: 38, SW1: 26, pack: 100 },
+  { code: 'AQ53225', d: 25, Rp: '3/4', dn: 20, G: '1 1/4', L: 43, l: 22, l1: 18, SW: 48, SW1: 32, pack: 100 },
+  { code: 'AQ53232', d: 32, Rp: '1', dn: 25, G: '1 1/2', L: 48, l: 23, l1: 23, SW: 54, SW1: 37, pack: 100 },
+  { code: 'AQ53240', d: 40, Rp: '1 1/4', dn: 32, G: '2', L: 55, l: 26, l1: 26, SW: 73, SW1: 47, pack: 25 },
+  { code: 'AQ53250', d: 50, Rp: '1 1/2', dn: 40, G: '2 1/4', L: 58, l: 29, l1: 26, SW: 85, SW1: 55, pack: 25 },
+  { code: 'AQ53263', d: 63, Rp: '2', dn: 50, G: '2 3/4', L: 63, l: 32, l1: 28, SW: 107, SW1: 64, pack: 18 },
 ];
 
 export const SIZES = ARTICLES.map((a) => a.d);
@@ -932,8 +948,8 @@ export function article(d) {
 }
 
 
-/* == metal-union-female-thread/params.js =============================== */
-/* K-Aqua Metallverschraubung (Innengewinde) — Parametrik.
+/* == metal-union-female-thread-brass/params.js ========================= */
+/* K-Aqua Metallverschraubung (Innengewinde, Messing) — Parametrik.
 
    Die Rechnung steht in ../_union/params.js: vier Produkte teilen die
    Baugruppe, und viermal dieselbe Rechnung driftet (Fall 32). Hier
@@ -947,8 +963,8 @@ export function params(dNom) {
 }
 
 
-/* == metal-union-female-thread/parts.js ================================ */
-/* K-Aqua Metallverschraubung (Innengewinde) — Konturen.
+/* == metal-union-female-thread-brass/parts.js ========================== */
+/* K-Aqua Metallverschraubung (Innengewinde, Messing) — Konturen.
 
    Alle vier Teile kommen aus ../_union/parts.js. Der Unterschied
    zwischen Innen- und Außengewindevariante ist ein einziger: buildBody
@@ -960,8 +976,8 @@ export function params(dNom) {
    pruefung/w5-masstest.html. */
 
 
-/* == metal-union-female-thread/index.js ================================ */
-/* K-Aqua Metallverschraubung mit PP-R-Mutter (Innengewinde) —
+/* == metal-union-female-thread-brass/index.js ========================== */
+/* K-Aqua Metallverschraubung Messing CW617N (Innengewinde) —
    Produktpaket nach PRODUKT-VERTRAG.md.
 
    Vier Teile, drei Werkstoffe. Der Halbschnitt zeigt, wie die Mutter
@@ -971,12 +987,12 @@ export function params(dNom) {
 
 
 const product = {
-  id: 'transition-fittings/metal-union-female-thread',
-  module: 'kaqua-metal-union-female-thread',
-  titleDe: 'Metallverschraubung mit PP-R-Mutter (Innengewinde)',
-  titleEn: 'Metal union with PP-R nut (Female thread)',
+  id: 'transition-fittings/metal-union-female-thread-brass',
+  module: 'kaqua-metal-union-female-thread-brass',
+  titleDe: 'Metallverschraubung Messing CW617N (Innengewinde)',
+  titleEn: 'Metal union with PP-R nut in yellow brass CW617N (Female thread)',
   category: 'transition-fittings',
-  brandLine: 'K-Aqua PP-R · vernickelt',
+  brandLine: 'K-Aqua PP-R · Messing CW617N',
   dataStatus: DATA_STATUS,
 
   articles: ARTICLES,
@@ -991,17 +1007,17 @@ const product = {
   variants: [],
   states: null,
 
-  tile: 'Lösbarer Übergang von PP-R auf zylindrisches Innengewinde — ' +
-        'die Überwurfmutter trennt die Verbindung, ohne die Schweißnaht zu öffnen.',
+  tile: 'Innengewindeverschraubung in gelbem Messing CW617N — ' +
+        'gleiche Maße wie die vernickelte Variante, anderer Werkstoff.',
 
   build(size, variant, clipPlane) {
     return buildUnion({
       ...CONFIG,
       article,
-      metal: 'steel',
-      metalLabel: 'vernickelt',
-      exportName: 'K-Aqua_Metallverschraubung_IG',
-      seed: 163,
+      metal: 'brass',
+      metalLabel: 'Messing CW617N',
+      exportName: 'K-Aqua_Metallverschraubung_IG_Messing',
+      seed: 173,
     }, size, variant, clipPlane);
   },
 };

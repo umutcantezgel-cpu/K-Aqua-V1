@@ -38,14 +38,24 @@ export const SLUG_ALIASES: Record<string, string> = {
   "tee-90-female-thread-for-internal-valve": "valves/pp-r-ball-valve-ball-in-pp",
   "adaptor-socket-female-thread": "transition-fittings/adaptor-socket-male-thread",
   "union-for-watermeters": "transition-fittings/union",
-  "metal-union-female-thread-brass": "transition-fittings/metal-union-female-thread",
-  "metal-union-male-thread": "transition-fittings/metal-union-female-thread",
-  "metal-union-male-thread-brass": "transition-fittings/metal-union-female-thread",
-  "elbow-90-male-thread": "transition-fittings/adaptor-socket-male-thread",
+  // Sechs Ersatz-Zuordnungen sind hier entfallen, weil es die Modelle inzwischen
+  // wirklich gibt (Bibliotheksstand 24.08.2026):
+  //   metal-union-female-thread-brass · metal-union-male-thread ·
+  //   metal-union-male-thread-brass · elbow-90-male-thread ·
+  //   tee-90-female-thread · tee-90-male-thread
+  //
+  // Sie zeigten auf ein ähnlich aussehendes Bauteil, solange kein eigenes Modell
+  // vorlag. Diese Datei wird nach der erzeugten Zuordnung ausgebreitet
+  // (`{ ...GENERATED_SLUG_MAP, ...SLUG_ALIASES }` in lib/3d/resolve.ts) und
+  // gewinnt damit jeden Konflikt — ein stehengebliebener Eintrag hätte das neue
+  // Modell dauerhaft verdeckt. Auf der T-Stück-Seite stand dadurch eine
+  // Übergangsmuffe.
+  //
+  // Wer die Bibliothek erweitert, muss diese Liste gegen die neuen Modelle
+  // prüfen. `npm run 3d:check` merkt das nicht — es vergleicht nur die erzeugte
+  // Datei mit der Registry, nicht die Ausnahmen mit der Wirklichkeit.
   "elbow-bracket-90-female-thread": "transition-fittings/adaptor-socket-male-thread",
   "elbow-wall-bracket-90-female-thread": "transition-fittings/adaptor-socket-male-thread",
-  "tee-90-female-thread": "transition-fittings/adaptor-socket-male-thread",
-  "tee-90-male-thread": "transition-fittings/adaptor-socket-male-thread",
   "weld-in-saddle": "fittings/socket",
   "weld-in-saddle-female-thread": "transition-fittings/adaptor-socket-male-thread",
   "weld-in-saddle-male-thread": "transition-fittings/adaptor-socket-male-thread",

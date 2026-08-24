@@ -97,11 +97,18 @@ export function teeParams(article, opt) {
 
 
 /* Durchgang: identischer Aufbau wie die Muffe, nur ohne mittleren
-   Anschlag — im T-Stück trifft der Abzweig auf die Mitte. */
-function runProfile(P) {
+   Anschlag — im T-Stück trifft der Abzweig auf die Mitte.
+
+   Exportiert, weil die Gewinde-T-Stücke (products/_teethread/) denselben
+   Durchgang tragen. Zweimal geschrieben würde er driften (Fall 32). */
+export function runProfile(P) {
   const ro = P.rOut;
   const rSock = (x) => P.d / 2 - P.sockTaper * (P.half - x);
-  const xBell = P.half - Math.max(3, 0.10 * P.socket);
+  /* Der Aufrufer kann die Lage des Mundlochbunds vorgeben. Die
+     Gewinde-T-Stücke tun das, weil ihr Maßtest genau dort D abtastet —
+     die Formel zweimal zu schreiben hieße, sie driften zu lassen
+     (Fall 32). */
+  const xBell = P.xBell ?? (P.half - Math.max(3, 0.10 * P.socket));
   const bellRise = Math.min(0.35, P.wallFitting * 0.08);
   const rBarrel = ro - bellRise;
 

@@ -13,6 +13,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "cross": "fittings/cross",
   "elbow-45": "fittings/elbow-45",
   "elbow-90": "fittings/elbow-90",
+  "elbow-90-male-thread": "transition-fittings/elbow-90-male-thread",
   "flat-gasket": "accessories/flat-gasket",
   "flat-gasket-for-unions": "accessories/flat-gasket-for-unions",
   "k-fiber-pipe-pp-r-sdr-11": "pipes/k-fiber-pipe-pp-r-sdr-11",
@@ -28,12 +29,17 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "k-pipe-pp-rct-sdr-74": "pipes/k-pipe-pp-rct-sdr-7-4",
   "k-pipe-purple-pp-r-sdr-11": "pipes/k-pipe-purple-pp-r-sdr-11",
   "metal-union-female-thread": "transition-fittings/metal-union-female-thread",
+  "metal-union-female-thread-brass": "transition-fittings/metal-union-female-thread-brass",
+  "metal-union-male-thread": "transition-fittings/metal-union-male-thread",
+  "metal-union-male-thread-brass": "transition-fittings/metal-union-male-thread-brass",
   "pipe-clamps": "accessories/pipe-clamps",
   "plug": "accessories/plug",
   "reducing-bush": "fittings/reducing-bush",
   "socket": "fittings/socket",
   "tee": "fittings/tee",
+  "tee-90-female-thread": "transition-fittings/tee-90-female-thread",
+  "tee-90-male-thread": "transition-fittings/tee-90-male-thread",
   "union": "transition-fittings/union",
 };
 
-export const GENERATED_COUNT = 28;
+export const GENERATED_COUNT = 34;
