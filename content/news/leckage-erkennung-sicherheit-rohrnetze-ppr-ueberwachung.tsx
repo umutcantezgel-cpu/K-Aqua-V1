@@ -23,7 +23,6 @@ export const leckageErkennungSicherheit: NewsPost = {
     en: "Water damage in large buildings causes immense costs. Learn how K Aqua PPR pipe systems guarantee maximum safety in leak detection and network monitoring through cohesive welded joints without O rings.",
     ar: "تتسبب أضرار المياه في المباني الكبيرة في تكاليف هائلة. تعرف على كيف تضمن أنظمة أنابيب K Aqua PPR أقصى درجات الأمان في كشف التسرب ومراقبة الشبكات من خلال وصلات ملحومة متماسكة بدون حلقات منع التسرب (O rings)."
   },
-  coverImage: "/images/news/leak-detection.jpg",
   category: "Gebäudesicherheit",
   tags: ["Leckage", "Sicherheit", "Druckprüfung", "Überwachung", "PPR", "Schweißtechnik", "Rohrsysteme"],
   

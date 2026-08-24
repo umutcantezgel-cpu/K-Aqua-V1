@@ -8,6 +8,8 @@ article_codes: ["AQ090G2012", "AQ090G2512", "AQ090G2534", "AQ090G3212", "AQ090G3
 colour: "green (PP-R) with brass threaded insert"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
 source: "KA-Katalog_GB_06-2025, S. 95"
+image: "/images/produkte/elbow-bracket-90-female-thread/hero.jpg"
+images: ["/images/produkte/elbow-bracket-90-female-thread/hero.jpg", "/images/produkte/elbow-bracket-90-female-thread/2.jpg", "/images/produkte/elbow-bracket-90-female-thread/3.jpg"]
 ---
 
 # Elbow Bracket 90° (Female Thread)

@@ -29,7 +29,6 @@ export const lebensdauerBerechnungPpr: NewsPost = {
     en: "A 50-year lifespan for PPR pipe systems is no marketing slogan, but applied physics. How internal pressure creep rupture testing and the Arrhenius equation make the aging of PPR plastic pipes precisely predictable.",
     ar: "إن العمر الافتراضي البالغ 50 عاماً لأنظمة أنابيب PPR ليس مجرد شعار ترويجي، بل هو فيزياء تطبيقية. كيف تجعل اختبارات ضغط الانفجار الزحفي الداخلي ومعادلة أرهينيوس تقادم الأنابيب البلاستيكية PPR قابلاً للتنبؤ بدقة."
   },
-  coverImage: "/images/news/arrhenius-equation-pipe-lifespan.jpg",
   category: "Technologie & Material",
   tags: ["Lebensdauer", "Arrhenius", "Zeitstandinnendruck", "Berechnung", "Materialprüfung", "PPR"],
   

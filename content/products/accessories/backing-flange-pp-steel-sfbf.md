@@ -6,6 +6,8 @@ category: "Accessories"
 slug: "accessories/backing-flange-pp-steel-sfbf"
 article_codes: ["AQ75040", "AQ75050", "AQ75063", "AQ75075", "AQ75090", "AQ750110", "AQ750125", "AQ750160", "AQ750200", "AQ750250", "AQ750315"]
 source: "KA-Katalog_GB_06-2025, S. 110"
+image: "/images/produkte/backing-flange-pp-steel-sfbf/studio.jpg"
+images: ["/images/produkte/backing-flange-pp-steel-sfbf/studio.jpg"]
 ---
 
 # Backing Flange PP-Steel for Socket Fusion (SF) or Butt Fusion (BF) System

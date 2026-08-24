@@ -315,8 +315,11 @@ export default async function ProductDetailPage({
       slug,
       name: localizedTitle,
       description: finalSeoText,
-      // `product.image` ist in keiner Frontmatter gepflegt. Ohne echtes Foto
-      // bleibt das Feld leer, statt das Firmenlogo als Produktbild auszugeben.
+      // `image` ist seit der Marketing-Integration für 35 der Produkte gepflegt
+      // (abgeleitet aus dem freigegebenen Archiv, `image:` in der Frontmatter).
+      // Für die übrigen — Werkzeuge, Zubehör und einige Rohrtypen — gibt es dort
+      // keine Aufnahme; dann bleibt das Feld leer, statt das Firmenlogo als
+      // Produktbild auszugeben.
       image: typeof product.image === 'string' && product.image ? `${siteUrl}${product.image}` : undefined,
       articleCodes: codesArray,
       categoryName: categoryNameMap[category] || category,
@@ -450,7 +453,12 @@ export default async function ProductDetailPage({
                 
                 {/* Image & 3D CAD Gallery */}
                 <div className="my-8">
-                  <ProductGallery category={product.category} slug={product.slug} title={localizedTitle} />
+                  <ProductGallery
+                    category={product.category}
+                    slug={product.slug}
+                    title={localizedTitle}
+                    photos={Array.isArray(product.images) ? (product.images as string[]) : []}
+                  />
                 </div>
                 
 

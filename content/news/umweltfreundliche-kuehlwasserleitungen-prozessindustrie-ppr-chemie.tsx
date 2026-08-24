@@ -28,7 +28,6 @@ export const umweltfreundlicheKuehlwasserleitungen: NewsPost = {
     en: "Eliminate toxic corrosion inhibitors: K Aqua PPR pipe systems enable ecologically clean, sustainable, and economical cooling circuits for the process industry.",
     ar: "تخلص من مثبطات التآكل السامة: أنظمة أنابيب K Aqua PPR تتيح دوائر تبريد نظيفة بيئيًا ومستدامة واقتصادية لصناعة المعالجة."
   },
-  coverImage: "/images/news/industrial-cooling-eco.jpg",
   category: "Industrie & Kälte",
   tags: ["Kühlwasser", "Prozessindustrie", "Umweltschutz", "Korrosion", "PPR", "Green Tech"],
   

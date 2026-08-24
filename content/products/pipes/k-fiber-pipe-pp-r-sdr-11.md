@@ -6,6 +6,8 @@ article_codes: ["AQ111PF20", "AQ111PF25", "AQ111PF32", "AQ111PF40", "AQ111PF50",
 colour: "green with 4 blue stripes"
 standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
 source: "KA-Katalog_GB_06-2025, S. 80"
+image: "/images/produkte/k-fiber-pipe-pp-r-sdr-11/studio.jpg"
+images: ["/images/produkte/k-fiber-pipe-pp-r-sdr-11/studio.jpg"]
 ---
 
 # K-Fiber Pipe PP-R SDR 11

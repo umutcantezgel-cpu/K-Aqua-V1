@@ -28,7 +28,6 @@ export const waermeausdehnungKunststoffrohre: NewsPost = {
     en: "Learn how to precisely calculate thermal expansion in PPR plastic pipes and safely compensate for linear expansion in piping systems using expansion loops, bending legs, and fixed points.",
     ar: "تعرف على كيفية حساب التمدد الحراري بدقة في الأنابيب البلاستيكية PPR وتعويض التمدد الطولي بأمان في أنظمة الأنابيب باستخدام حلقات التمدد، وأذرع الانحناء، والنقاط الثابتة.",
   },
-  coverImage: "/images/news/thermal-expansion-pipes.jpg",
   category: "Planung & Berechnung",
   tags: ["Wärmeausdehnung", "Längenausdehnung", "Festpunkt", "Kompensator", "Planung", "PPR Rohrsysteme"],
   

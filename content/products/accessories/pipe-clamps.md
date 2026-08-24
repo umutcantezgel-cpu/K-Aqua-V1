@@ -4,6 +4,8 @@ category: "Accessories"
 slug: "accessories/pipe-clamps"
 article_codes: ["AQ50020", "AQ50025", "AQ50032", "AQ50040", "AQ50050", "AQ50063", "AQ50075", "AQ50090", "AQ500110", "AQ500125", "AQ500160", "AQ500200", "AQ500250"]
 source: "KA-Katalog_GB_06-2025, S. 111"
+image: "/images/produkte/pipe-clamps/studio.jpg"
+images: ["/images/produkte/pipe-clamps/studio.jpg"]
 ---
 
 # Pipe Clamps

@@ -22,7 +22,6 @@ export const klimaanlagenKuehldecken: NewsPost = {
     en: "Condensation is the enemy of metallic piping. Discover how corrosion-free PPRCT & PPR pipe systems from K Aqua prevent sweating.",
     ar: "التكثيف هو عدو الأنابيب المعدنية. اكتشف كيف تمنع أنظمة أنابيب PPRCT و PPR الخالية من التآكل من K Aqua التعرق."
   },
-  coverImage: "/images/news/chiller-cooling.jpg",
   category: "Gebäudetechnik",
   tags: ["Kaltwasser", "Kühldecken", "Klimaanlagen", "PPRCT", "PPR", "Rohrsysteme", "Taupunkt", "Korrosionsschutz", "CUI", "Chiller"],
   

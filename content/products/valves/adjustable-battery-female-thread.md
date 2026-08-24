@@ -4,6 +4,8 @@ category: "Valves"
 slug: "valves/adjustable-battery-female-thread"
 article_codes: ["AQ492G2012", "AQ492G2512"]
 source: "KA-Katalog_GB_06-2025, S. 108"
+image: "/images/produkte/adjustable-battery-female-thread/studio.jpg"
+images: ["/images/produkte/adjustable-battery-female-thread/studio.jpg"]
 ---
 
 # Adjustable Battery (Female Thread)

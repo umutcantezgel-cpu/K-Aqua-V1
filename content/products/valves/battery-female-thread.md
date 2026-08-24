@@ -4,6 +4,8 @@ category: "Valves"
 slug: "valves/battery-female-thread"
 article_codes: ["AQ490G2012", "AQ490G2512"]
 source: "KA-Katalog_GB_06-2025, S. 108"
+image: "/images/produkte/battery-female-thread/studio.jpg"
+images: ["/images/produkte/battery-female-thread/studio.jpg"]
 ---
 
 # Battery (Female Thread)

@@ -4,6 +4,8 @@ category: "Valves"
 slug: "valves/pp-r-ball-valve-ball-in-pp"
 article_codes: ["AQ85220", "AQ85225", "AQ85232", "AQ85240", "AQ85250", "AQ85263"]
 source: "KA-Katalog_GB_06-2025, S. 107"
+image: "/images/produkte/pp-r-ball-valve-ball-in-pp/studio.jpg"
+images: ["/images/produkte/pp-r-ball-valve-ball-in-pp/studio.jpg"]
 ---
 
 # PP-R Valve (PP Core)

@@ -6,6 +6,8 @@ article_codes: ["AQ200P20", "AQ200P25", "AQ200P32", "AQ200P40", "AQ200P50", "AQ2
 colour: "green with 1 red stripe"
 standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
 source: "KA-Katalog_GB_06-2025, S. 76"
+image: "/images/produkte/k-pipe-pp-r-sdr-6/studio.jpg"
+images: ["/images/produkte/k-pipe-pp-r-sdr-6/studio.jpg"]
 ---
 
 # K-Pipe PP-R SDR 6

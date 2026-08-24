@@ -24,7 +24,6 @@ export const klimadeckenFlaechenkuehlung: NewsPost = {
     en: "Quiet, draft-free, and highly energy-efficient: Discover how K Aqua PPR pipe systems form the ideal corrosion-free infrastructure for modern climate ceilings.",
     ar: "هادئة، خالية من التيارات الهوائية، وعالية الكفاءة في استخدام الطاقة: اكتشف كيف تشكل أنظمة الأنابيب K Aqua PPR."
   },
-  coverImage: "/images/news/radiant-cooling-ceiling.jpg",
   category: "Industrie & Kälte",
   tags: ["Klimadecke", "Flächenkühlung", "Taupunkt", "Wärmepumpe", "PPR", "PPRCT", "Kältetechnik", "Free Cooling"],
   

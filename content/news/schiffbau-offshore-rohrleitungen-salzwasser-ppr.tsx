@@ -28,7 +28,6 @@ export const schiffbauOffshore: NewsPost = {
     en: "Saltwater is the ultimate endurance test for any material: Discover why K Aqua PPR piping systems are replacing heavy CuNiFe pipes in the shipbuilding and offshore sectors, saving weight and guaranteeing absolute maintenance free operation.",
     ar: "المياه المالحة هي اختبار التحمل النهائي لأي مادة: اكتشف لماذا تحل أنظمة أنابيب K Aqua PPR محل أنابيب CuNiFe الثقيلة في قطاعات بناء السفن والمنصات البحرية، مما يوفر الوزن ويضمن تشغيلاً خالياً تماماً من الصيانة."
   },
-  coverImage: "/images/news/ship-offshore.jpg",
   category: "Industrie",
   tags: ["Schiffbau", "Offshore", "Salzwasser", "Marine", "PPR", "DNV"],
   

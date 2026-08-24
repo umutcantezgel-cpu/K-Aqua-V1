@@ -23,7 +23,6 @@ export const chemischeReinigungDesinfektion: NewsPost = {
     en: "Hygiene after installation: How PPR pipe systems and networks are flushed according to standards and chemically disinfected when necessary.",
     ar: "النظافة بعد التركيب: كيفية شطف أنظمة وشبكات أنابيب PPR وفقاً للمعايير وتطهيرها كيميائياً عند الضرورة."
   },
-  coverImage: "/images/news/cleaning-disinfection.jpg",
   category: "Wartung & Betrieb",
   tags: ["Desinfektion", "Spülen", "Hygiene", "Legionellen", "Wartung", "PPR", "Trinkwasser", "Chlor"],
   

@@ -30,7 +30,6 @@ export const recyclingPpr: NewsPost = {
     en: "Plastics and environmental protection are not mutually exclusive. Discover how K Aqua PPR and PPRCT pipe systems, as pure thermoplastics, are 100% recyclable and make a significant contribution to the sustainable circular economy in building construction.",
     ar: "البلاستيك وحماية البيئة لا يتعارضان. اكتشف كيف أن أنظمة أنابيب K Aqua PPR و PPRCT، باعتبارها لدائن حرارية نقية، قابلة لإعادة التدوير بنسبة 100٪ وتساهم بشكل كبير في الاقتصاد الدائري المستدام في تشييد المباني."
   },
-  coverImage: "/images/news/recycling-ppr.jpg",
   category: "Nachhaltigkeit",
   tags: ["Recycling", "Nachhaltigkeit", "Kreislaufwirtschaft", "PPR", "Umweltschutz", "Thermoplast", "Rohrsysteme", "DGNB", "LEED"],
   

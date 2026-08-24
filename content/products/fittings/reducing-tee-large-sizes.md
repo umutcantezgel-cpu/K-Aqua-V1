@@ -6,6 +6,8 @@ article_codes: ["AQ1306320", "AQ1306325", "AQ1306332", "AQ1306340", "AQ1306350",
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 89"
+image: "/images/produkte/reducing-tee-large-sizes/hero.jpg"
+images: ["/images/produkte/reducing-tee-large-sizes/hero.jpg", "/images/produkte/reducing-tee-large-sizes/2.jpg", "/images/produkte/reducing-tee-large-sizes/3.jpg", "/images/produkte/reducing-tee-large-sizes/4.jpg"]
 ---
 
 # Reducing Tee (Large Sizes)

@@ -28,7 +28,6 @@ export const geothermieErdwaerme: NewsPost = {
     en: "Geothermal probes must endure in the ground for decades. K Aqua PPR and PPRCT pipe systems are rot-proof, chemically resistant to antifreeze, and absolutely leak-proof thanks to full-surface welding.",
     ar: "يجب أن تتحمل مجسات الطاقة الحرارية الأرضية البقاء في الأرض لعقود. تتميز أنظمة أنابيب K Aqua PPR و PPRCT بأنها غير قابلة للتعفن، ومقاومة كيميائياً لمضادات التجمد، ومانعة للتسرب تماماً بفضل اللحام كامل السطح."
   },
-  coverImage: "/images/news/geothermal-heatpump.jpg",
   category: "Erneuerbare Energien",
   tags: ["Geothermie", "Erdwärme", "Wärmepumpe", "Sole", "PPR", "Tiefbau"],
   

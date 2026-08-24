@@ -23,7 +23,6 @@ export const trinkwasserhygieneKrankenhaus: NewsPost = {
     en: "Clinics and hospitals require the highest drinking water quality. Learn how K Aqua PPR piping systems prevent biofilm formation thanks to extremely smooth inner walls and permanently withstand thermal legionella flushing above 70 °C.",
     ar: "تتطلب العيادات والمستشفيات أعلى جودة لمياه الشرب. تعرف على كيف تمنع أنظمة الأنابيب K Aqua PPR تكوين الغشاء الحيوي بفضل جدرانها الداخلية شديدة النعومة، وكيف تتحمل التنظيف الحراري لبكتيريا الليجيونيلا بدرجة حرارة تتجاوز 70 درجة مئوية بشكل دائم."
   },
-  coverImage: "/images/news/hospital-water.jpg",
   category: "Sanitärtechnik",
   tags: ["Trinkwasserhygiene", "Krankenhaus", "Legionellen", "Thermische Desinfektion", "PPR", "Biofilm", "Rohrsysteme"],
   

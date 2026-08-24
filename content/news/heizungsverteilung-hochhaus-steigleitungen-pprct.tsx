@@ -24,7 +24,6 @@ export const heizungsverteilungHochhaus: NewsPost = {
     en: "High-rise buildings present structural and hydraulic challenges for MEP planners. K Aqua PPR & PPRCT pipe systems dramatically reduce weight in the riser shaft, offer excellent sound insulation, and withstand extreme pressures in heating distribution.",
     ar: "تمثل المباني الشاهقة تحديات إنشائية وهيدروليكية لمخططي الهندسة الميكانيكية والكهربائية والسباكة (MEP). تقلل أنظمة أنابيب K Aqua PPR و PPRCT بشكل كبير من الوزن في عمود الصاعد، وتوفر عزلًا صوتيًا ممتازًا، وتتحمل الضغوط الشديدة في توزيع التدفئة."
   },
-  coverImage: "/images/news/highrise-building.jpg",
   category: "Heizungstechnik",
   tags: ["Hochhaus", "Steigleitung", "TGA", "PPRCT", "PPR", "Rohrsysteme", "Schallschutz", "Heizungsverteilung"],
   

@@ -6,6 +6,8 @@ article_codes: ["AQ200F20", "AQ200F25", "AQ200F32", "AQ200F40", "AQ200F50", "AQ2
 colour: "green with 4 red stripes"
 standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
 source: "KA-Katalog_GB_06-2025, S. 78"
+image: "/images/produkte/k-fiber-pipe-pp-rct-sdr-74/studio.jpg"
+images: ["/images/produkte/k-fiber-pipe-pp-rct-sdr-74/studio.jpg"]
 ---
 
 # K-Fiber Pipe PP-RCT SDR 7.4

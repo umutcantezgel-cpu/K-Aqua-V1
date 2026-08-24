@@ -6,6 +6,8 @@ article_codes: ["AQ160F20", "AQ160F25", "AQ160F32", "AQ160F40", "AQ160F50", "AQ1
 colour: "green with 4 blue stripes"
 standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
 source: "KA-Katalog_GB_06-2025, S. 78"
+image: "/images/produkte/k-fiberclima-pipe-pp-rct-sdr-11/studio.jpg"
+images: ["/images/produkte/k-fiberclima-pipe-pp-rct-sdr-11/studio.jpg"]
 ---
 
 # K-Fiberclima Pipe PP-RCT SDR 11

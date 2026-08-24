@@ -22,7 +22,6 @@ export const sportstaettenSchwimmbaeder: NewsPost = {
     en: "Indoor pools, swimming pools, and stadiums present extremely corrosive environments. Discover why K Aqua PPR pipe systems are completely resistant to chlorinated water, ozone, and humid air, making them ideal for pool technology and pitch heating.",
     ar: "تمثل المسابح الداخلية وحمامات السباحة والملاعب بيئات شديدة التآكل. اكتشف لماذا تعتبر أنظمة أنابيب PPR من K Aqua مقاومة تمامًا للمياه المكلورة والأوزون والهواء الرطب، مما يجعلها مثالية لتقنيات حمامات السباحة وتدفئة الملاعب."
   },
-  coverImage: "/images/news/swimming-pool.jpg",
   category: "Freizeitanlagen",
   tags: ["Schwimmbad", "Sportstätte", "Chlorwasser", "Rasenheizung", "PPR", "Korrosion", "Rohrsysteme"],
   

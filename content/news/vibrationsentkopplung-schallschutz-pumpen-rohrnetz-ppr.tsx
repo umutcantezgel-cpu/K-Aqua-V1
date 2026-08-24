@@ -27,7 +27,6 @@ export const vibrationsentkopplungSchallschutz: NewsPost = {
     en: "When pumps roar and pipes vibrate: How to acoustically safely decouple chillers and pressure boosting systems in the machine room from the K Aqua PPR piping system and comply with DIN 4109.",
     ar: "عندما تدوي المضخات وتهتز الأنابيب: كيف تفصل المبردات وأنظمة تعزيز الضغط في غرفة الآلات صوتياً وبشكل آمن عن نظام أنابيب K Aqua PPR وتتوافق مع معيار DIN 4109."
   },
-  coverImage: "/images/news/vibration-decoupling-pumps.jpg",
   category: "Planung & Berechnung",
   tags: ["Schallschutz", "Vibration", "Pumpen", "Maschinenraum", "Kältemaschinen", "Akustik", "DIN 4109", "Körperschall"],
   

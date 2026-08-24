@@ -6,6 +6,8 @@ article_codes: ["AQ09020", "AQ09025", "AQ09032", "AQ09040", "AQ09050", "AQ09063"
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 85"
+image: "/images/produkte/elbow-90/hero.jpg"
+images: ["/images/produkte/elbow-90/hero.jpg", "/images/produkte/elbow-90/2.jpg", "/images/produkte/elbow-90/3.jpg", "/images/produkte/elbow-90/4.jpg"]
 ---
 
 # Elbow 90°

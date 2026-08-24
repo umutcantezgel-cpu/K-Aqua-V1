@@ -20,7 +20,6 @@ export const bimBuildingInformationModeling: NewsPost = {
     en: "Discover how Building Information Modeling (BIM) is revolutionizing the planning of MEP systems and PPR piping networks. With K Aqua Revit and IFC data, you can plan collision-free, time-efficiently, and cost-effectively.",
     ar: "اكتشف كيف تُحدث نمذجة معلومات البناء (BIM) ثورة في تخطيط أنظمة الهندسة الميكانيكية والكهربائية والسباكة (MEP) وشبكات أنابيب PPR. باستخدام بيانات K Aqua Revit و IFC، يمكنك التخطيط بدون تعارضات، وبكفاءة في الوقت، وبتكلفة محسنة.",
   },
-  coverImage: "/images/news/bim-planning.jpg",
   category: "Digitalisierung",
   tags: ["BIM", "Digitaler Zwilling", "Revit", "IFC", "Planung", "TGA", "PPR", "Rohrsysteme", "K Aqua"],
   

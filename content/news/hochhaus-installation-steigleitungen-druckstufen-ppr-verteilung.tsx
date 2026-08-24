@@ -24,7 +24,6 @@ export const hochhausInstallationSteigleitungen: NewsPost = {
     en: "Skyscrapers challenge MEP hydraulics. Discover how to optimally plan pressure zones in risers using K Aqua PPR pipe systems, safely absorb static loads in the service shafts, and save on installation costs.",
     ar: "تشكل ناطحات السحاب تحدياً كبيراً للأنظمة الهيدروليكية. اكتشف كيف يمكنك التخطيط الأمثل لمناطق الضغط في الأنابيب الصاعدة باستخدام أنظمة أنابيب K Aqua PPR، وامتصاص الأحمال الساكنة بأمان في مسارات الأنابيب، وتوفير تكاليف التركيب."
   },
-  coverImage: "/images/news/high-rise-pipes-pressure.jpg",
   category: "Planung & Berechnung",
   tags: ["Hochhaus", "Steigleitung", "PPR", "Rohrsysteme", "Druckstufe", "Befestigung", "Festpunkt", "Planung"],
   

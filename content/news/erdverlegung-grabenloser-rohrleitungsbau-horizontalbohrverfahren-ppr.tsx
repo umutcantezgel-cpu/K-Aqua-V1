@@ -29,7 +29,6 @@ export const erdverlegungGrabenlos: NewsPost = {
     en: "Tearing up roads is expensive and disrupts infrastructure. Learn how K Aqua PPR pipe systems drastically reduce civil engineering costs and sustainably lower CO2 emissions through the HDD method.",
     ar: "إن حفر الطرق مكلف ويعطل البنية التحتية. تعرف على كيف تعمل أنظمة أنابيب PPR من K Aqua على تقليل تكاليف الهندسة المدنية بشكل كبير وخفض انبعاثات ثاني أكسيد الكربون بشكل مستدام من خلال تقنية الحفر الموجه الأفقي (HDD)."
   },
-  coverImage: "/images/news/trenchless-hdd-pipe-installation.jpg",
   category: "Installation & Praxis",
   tags: ["Erdverlegung", "HDD", "Grabenlos", "Infrastruktur", "Tiefbau", "PP-R", "Rohrsysteme"],
   

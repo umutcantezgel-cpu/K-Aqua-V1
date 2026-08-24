@@ -6,6 +6,8 @@ article_codes: ["AQ243G2012", "AQ243G2034", "AQ243G2512", "AQ243G2534", "AQ243G3
 colour: "green (PP-R) with brass threaded insert"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
 source: "KA-Katalog_GB_06-2025, S. 94"
+image: "/images/produkte/adaptor-socket-male-thread/hero.jpg"
+images: ["/images/produkte/adaptor-socket-male-thread/hero.jpg", "/images/produkte/adaptor-socket-male-thread/2.jpg", "/images/produkte/adaptor-socket-male-thread/3.jpg", "/images/produkte/adaptor-socket-male-thread/4.jpg"]
 ---
 
 # Adaptor Socket (Male Thread)

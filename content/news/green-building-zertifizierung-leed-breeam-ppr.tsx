@@ -27,7 +27,6 @@ export const greenBuildingZertifizierung: NewsPost = {
     en: "Investors and developers are demanding sustainable buildings. Discover how modern PPR piping systems from K Aqua deliver crucial credits in the Water, Energy, and Material categories for LEED, BREEAM, and DGNB.",
     ar: "يطالب المستثمرون والمطورون بمبانٍ مستدامة. اكتشف كيف توفر أنظمة أنابيب PPR الحديثة من K Aqua نقاطاً حاسمة في فئات المياه والطاقة والمواد لشهادات LEED و BREEAM و DGNB."
   },
-  coverImage: "/images/news/green-building.jpg",
   category: "Nachhaltigkeit",
   tags: ["Green Building", "LEED", "BREEAM", "DGNB", "ESG", "PPR", "Rohrsysteme", "Nachhaltigkeit"],
   

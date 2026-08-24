@@ -28,7 +28,6 @@ export const wasserstoffH2Ready: NewsPost = {
     en: "Hydrogen imposes extreme physical demands on modern piping systems. Discover why high quality PPR plastic pipes are immune to hydrogen embrittlement and are ideal for low pressure H2 networks.",
     ar: "يفرض الهيدروجين متطلبات فيزيائية قصوى على أنظمة الأنابيب الحديثة. اكتشف لماذا تعتبر أنابيب البلاستيك PPR عالية الجودة محصنة ضد التقصف الهيدروجيني ومثالية لشبكات الهيدروجين منخفضة الضغط."
   },
-  coverImage: "/images/news/hydrogen-future.jpg",
   category: "Future Energy",
   tags: ["Wasserstoff", "H2 Ready", "Future Energy", "PPR", "Versprödung", "Permeation", "Energiewende", "Elektrolyseur"],
   

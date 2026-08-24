@@ -23,7 +23,6 @@ export const legionellenpraeventionZirkulation: NewsPost = {
     en: "Lukewarm stagnant water is the greatest risk in drinking water hygiene. Discover how well-designed circulation systems and K Aqua PPR pipe systems provide reliable protection against Legionella and ensure compliance with drinking water regulations.",
     ar: "المياه الراكدة الفاترة هي الخطر الأكبر في نظافة مياه الشرب. اكتشف كيف توفر أنظمة التدوير المصممة بعناية وأنظمة أنابيب K Aqua PPR حماية موثوقة ضد الفيلقية وتلبي لوائح مياه الشرب."
   },
-  coverImage: "/images/news/legionella-prevention-circulation.jpg",
   category: "Trinkwasser & Hygiene",
   tags: ["Legionellen", "Trinkwasser", "Hygiene", "Zirkulation", "Thermische Desinfektion", "PPR", "Rohrsysteme"],
   

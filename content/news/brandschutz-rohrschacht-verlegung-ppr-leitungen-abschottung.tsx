@@ -27,7 +27,6 @@ export const brandschutzRohrschachtVerlegung: NewsPost = {
     en: "How do you prevent fire propagation through pipelines? A guide to the proper firestopping of K Aqua PPR pipe systems in floor penetrations, walls, and risers according to DIN 4102.",
     ar: "كيف يمكن منع انتشار الحريق عبر شبكات الأنابيب؟ دليل العزل الاحترافي لأنظمة أنابيب K Aqua PPR في اختراقات الأسقف والجدران والمناور الصاعدة وفقاً للمعيار DIN 4102."
   },
-  coverImage: "/images/news/fire-protection-shaft.jpg",
   category: "Normen & Richtlinien",
   tags: ["Brandschutz", "Brandschott", "Rohrschacht", "DIN 4102", "Sicherheit", "PPR", "Rohrsysteme"],
   

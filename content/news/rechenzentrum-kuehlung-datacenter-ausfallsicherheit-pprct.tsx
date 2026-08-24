@@ -28,7 +28,6 @@ export const rechenzentrumKuehlung: NewsPost = {
     en: "Data centers require the highest level of reliability and uptime. K Aqua PPRCT pipe systems for industrial cooling systems offer 100% leak protection through cohesive welded joints and prevent harmful particle and corrosion deposits.",
     ar: "تتطلب مراكز البيانات أعلى مستويات الموثوقية ووقت التشغيل. توفر أنظمة أنابيب K Aqua PPRCT لأنظمة التبريد الصناعية حماية من التسرب بنسبة 100% من خلال وصلات ملحومة متماسكة وتمنع ترسبات الجسيمات والتآكل الضارة.",
   },
-  coverImage: "/images/news/data-center.jpg",
   category: "Industrie & Anlagenbau",
   tags: ["Rechenzentrum", "Data Center", "Kühlung", "Liquid Cooling", "PPRCT", "Ausfallsicherheit", "Rohrsysteme"],
   

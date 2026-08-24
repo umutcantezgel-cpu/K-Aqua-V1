@@ -8,6 +8,8 @@ article_codes: ["AQ28720", "AQ28725", "AQ28732"]
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 91"
+image: "/images/produkte/cross-over/hero.jpg"
+images: ["/images/produkte/cross-over/hero.jpg", "/images/produkte/cross-over/studio.jpg", "/images/produkte/cross-over/2.jpg", "/images/produkte/cross-over/3.jpg", "/images/produkte/cross-over/4.jpg"]
 ---
 
 # Cross Over

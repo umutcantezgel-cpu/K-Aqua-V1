@@ -29,7 +29,6 @@ export const vorfertigungPrefabrication: NewsPost = {
     en: "Building under time pressure: Discover how the prefabrication of K Aqua PPR pipe manifolds in the workshop reduces construction and installation time on site by up to 70%.",
     ar: "البناء تحت ضغط الوقت: اكتشف كيف يقلل التجهيز المسبق لمجمعات أنابيب K Aqua PPR في الورشة من وقت البناء والتركيب في الموقع بنسبة تصل إلى 70٪."
   },
-  coverImage: "/images/news/prefabrication-workshop.jpg",
   category: "Planung & BIM",
   tags: ["Vorfertigung", "Prefabrication", "Rohrverteiler", "BIM", "PPR", "Effizienz"],
   

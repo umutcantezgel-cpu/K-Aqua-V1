@@ -23,7 +23,6 @@ export const kuehltuermeAusseneinsatz: NewsPost = {
     en: "Rooftop pipelines are exposed to extreme weather fluctuations and UV radiation. K Aqua PPRCT piping systems with UV protection offer frost resistance, absolute corrosion resistance, and a decades-long service life for open cooling towers and outdoor cooling systems.",
     ar: "تتعرض خطوط الأنابيب على الأسطح لتقلبات الطقس القاسية والأشعة فوق البنفسجية. توفر أنظمة أنابيب K Aqua PPRCT المزودة بحماية من الأشعة فوق البنفسجية مقاومة للصقيع، ومقاومة مطلقة للتآكل، وعمرًا تشغيليًا يمتد لعقود لأبراج التبريد المفتوحة وأنظمة التبريد الخارجية."
   },
-  coverImage: "/images/news/cooling-tower.jpg",
   category: "Klimatechnik",
   tags: ["Kühlturm", "Außeneinsatz", "UV Beständigkeit", "Frostschutz", "PPRCT", "Klimatechnik"],
   

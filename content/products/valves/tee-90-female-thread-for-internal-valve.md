@@ -6,6 +6,8 @@ category: "Valves"
 slug: "valves/tee-90-female-thread-for-internal-valve"
 article_codes: ["AQ599A2034", "AQ599A2534", "AQ599A3234", "AQ599A321"]
 source: "KA-Katalog_GB_06-2025, S. 108"
+image: "/images/produkte/tee-90-female-thread-for-internal-valve/studio.jpg"
+images: ["/images/produkte/tee-90-female-thread-for-internal-valve/studio.jpg"]
 ---
 
 # Tee 90° (Female Thread) for Internal Valve

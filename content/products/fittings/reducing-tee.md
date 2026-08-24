@@ -8,6 +8,8 @@ article_codes: ["AQ1302520", "AQ1303220", "AQ1303225", "AQ1304020", "AQ1304025",
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 88/89"
+image: "/images/produkte/reducing-tee/hero.jpg"
+images: ["/images/produkte/reducing-tee/hero.jpg", "/images/produkte/reducing-tee/2.jpg", "/images/produkte/reducing-tee/3.jpg", "/images/produkte/reducing-tee/4.jpg"]
 ---
 
 # Reducing Tee

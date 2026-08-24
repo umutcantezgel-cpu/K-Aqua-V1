@@ -23,7 +23,6 @@ export const chemischeResistenzIndustrie: NewsPost = {
     en: "Where stainless steel corrodes, PPR polypropylene fully demonstrates its strengths. A practical guide for the application of K Aqua pipe systems in electroplating, pharmaceuticals, and the process industry.",
     ar: "حيثما يتآكل الفولاذ المقاوم للصدأ، يُظهر البولي بروبيلين PPR نقاط قوته بالكامل. دليل عملي لاستخدام أنظمة أنابيب K Aqua في الطلاء الكهربائي والأدوية وصناعة العمليات الكيميائية."
   },
-  coverImage: "/images/news/industry-chemical-pipes.jpg",
   category: "Technologie & Material",
   tags: ["Chemische Resistenz", "Industrieanlagen", "Galvanik", "Säuren", "Korrosionsschutz", "PPR", "Rohrsysteme"],
   

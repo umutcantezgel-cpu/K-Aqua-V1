@@ -29,7 +29,6 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
     en: "The digital twin in MEP: How K Aqua BIM data and Autodesk Revit families make modern pipe network planning of PPR piping systems more precise, faster, and absolutely flawless.",
     ar: "التوأم الرقمي في الهندسة الميكانيكية والكهربائية والسباكة (MEP): كيف تجعل بيانات K Aqua BIM وعائلات Autodesk Revit التخطيط الحديث لشبكات أنابيب PPR أكثر دقة وسرعة وخالية تماماً من الأخطاء."
   },
-  coverImage: "/images/news/bim-3d-modeling.jpg",
   category: "Planung & BIM",
   tags: ["BIM", "Revit", "Digital Twin", "Planung", "Kollisionsprüfung", "PPR"],
   

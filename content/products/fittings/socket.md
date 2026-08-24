@@ -6,6 +6,8 @@ article_codes: ["AQ27020", "AQ27025", "AQ27032", "AQ27040", "AQ27050", "AQ27063"
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 86"
+image: "/images/produkte/socket/hero.jpg"
+images: ["/images/produkte/socket/hero.jpg", "/images/produkte/socket/2.jpg", "/images/produkte/socket/3.jpg", "/images/produkte/socket/4.jpg"]
 ---
 
 # Socket

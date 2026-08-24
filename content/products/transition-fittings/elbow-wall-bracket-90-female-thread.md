@@ -8,6 +8,8 @@ article_codes: ["AQ472G2012", "AQ472G2512", "AQ472G2534", "AQ472G3234", "AQ472G3
 colour: "green (PP-R) with brass threaded insert"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
 source: "KA-Katalog_GB_06-2025, S. 95"
+image: "/images/produkte/elbow-wall-bracket-90-female-thread/studio.jpg"
+images: ["/images/produkte/elbow-wall-bracket-90-female-thread/studio.jpg"]
 ---
 
 # Elbow/Wall Bracket 90° (Female Thread)

@@ -23,7 +23,6 @@ export const isoliermaterialRohrdammungVergleich: NewsPost = {
     en: "To minimize energy loss and prevent condensation, choosing the right pipe insulation is essential. A technical comparison of PIR, PUR, and EPS insulation materials for PPR pipe systems.",
     ar: "لتقليل فقدان الطاقة ومنع التكثف، يعد اختيار عزل الأنابيب المناسب أمراً ضرورياً. مقارنة فنية لمواد العزل PIR وPUR وEPS لأنظمة أنابيب PPR."
   },
-  coverImage: "/images/news/insulation-materials-comparison.jpg",
   category: "Verarbeitung & Montage",
   tags: ["Isolierung", "PIR", "PUR", "EPS", "Wärmeschutz", "Fernwärme", "Kältetechnik", "Gebäudeenergiegesetz"],
   

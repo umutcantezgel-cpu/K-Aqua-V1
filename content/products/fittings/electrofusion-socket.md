@@ -6,6 +6,8 @@ article_codes: ["AQ27120", "AQ27125", "AQ27132", "AQ27140", "AQ27150", "AQ27163"
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "DVS 2207-11"]
 source: "KA-Katalog_GB_06-2025, S. 92"
+image: "/images/produkte/electrofusion-socket/studio.jpg"
+images: ["/images/produkte/electrofusion-socket/studio.jpg"]
 ---
 
 # Electrofusion Socket

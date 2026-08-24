@@ -6,6 +6,8 @@ article_codes: ["AQ2432520", "AQ2433220", "AQ2433225", "AQ2434020", "AQ2434025",
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 87"
+image: "/images/produkte/reducing-bush/hero.jpg"
+images: ["/images/produkte/reducing-bush/hero.jpg", "/images/produkte/reducing-bush/2.jpg", "/images/produkte/reducing-bush/3.jpg"]
 ---
 
 # Reducing Bush

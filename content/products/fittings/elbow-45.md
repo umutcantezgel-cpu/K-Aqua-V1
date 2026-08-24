@@ -6,6 +6,8 @@ article_codes: ["AQ04520", "AQ04525", "AQ04532", "AQ04540", "AQ04550", "AQ04563"
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 84"
+image: "/images/produkte/elbow-45/hero.jpg"
+images: ["/images/produkte/elbow-45/hero.jpg", "/images/produkte/elbow-45/2.jpg", "/images/produkte/elbow-45/3.jpg"]
 ---
 
 # Elbow 45°

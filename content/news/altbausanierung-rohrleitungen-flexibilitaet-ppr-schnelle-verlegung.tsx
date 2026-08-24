@@ -23,7 +23,6 @@ export const altbausanierungFlexibilitaet: NewsPost = {
     en: "Narrow shafts, crooked walls, and strict fire protection regulations make riser renovation in old buildings demanding. Thanks to their low weight and flameless welding, K Aqua PPR pipe systems offer decisive advantages for trades and building planning.",
     ar: "تُعد عمليات تجديد الأنابيب الصاعدة في المباني القديمة مهمة شاقة بسبب الآبار الضيقة والجدران المائلة ولوائح الحماية من الحرائق الصارمة. توفر أنظمة أنابيب PPR من K Aqua مزايا حاسمة للحرفيين ومخططي المباني بفضل وزنها الخفيف ولحامها بدون لهب."
   },
-  coverImage: "/images/news/old-building-renovation.jpg",
   category: "Sanierung",
   tags: ["Altbausanierung", "Strangsanierung", "Brandschutz", "Mischinstallation", "PPR", "Rohrsysteme", "Flexibilität"],
   

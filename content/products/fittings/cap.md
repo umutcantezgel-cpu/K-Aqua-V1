@@ -6,6 +6,8 @@ article_codes: ["AQ30120", "AQ30125", "AQ30132", "AQ30140", "AQ30150", "AQ30163"
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 86"
+image: "/images/produkte/cap/hero.jpg"
+images: ["/images/produkte/cap/hero.jpg", "/images/produkte/cap/2.jpg", "/images/produkte/cap/3.jpg", "/images/produkte/cap/4.jpg"]
 ---
 
 # Cap

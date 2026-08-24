@@ -6,6 +6,8 @@ article_codes: ["AQ207PF20", "AQ207PF25", "AQ207PF32", "AQ207PF40", "AQ207PF50",
 colour: "green with 4 red stripes"
 standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
 source: "KA-Katalog_GB_06-2025, S. 79"
+image: "/images/produkte/k-fiber-pipe-pp-r-sdr-74/studio.jpg"
+images: ["/images/produkte/k-fiber-pipe-pp-r-sdr-74/studio.jpg"]
 ---
 
 # K-Fiber Pipe PP-R SDR 7.4

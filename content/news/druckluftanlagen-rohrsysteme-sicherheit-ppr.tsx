@@ -28,7 +28,6 @@ export const druckluftanlagenSicherheit: NewsPost = {
     en: "A bursting steel pipe in a compressed air system acts like a fragmentation bomb. PPR pipe systems from K Aqua offer absolute freedom from corrosion, reduce pressure drops, and in an emergency provide vital occupational safety through splinter-free failure.",
     ar: "يعمل الأنبوب الفولاذي المنفجر في نظام الهواء المضغوط مثل قنبلة متشظية. توفر أنظمة أنابيب PPR من K Aqua خلوًا تامًا من التآكل، وتقلل من انخفاض الضغط، وتوفر في حالات الطوارئ سلامة مهنية حيوية من خلال الانهيار الخالي من الشظايا."
   },
-  coverImage: "/images/news/compressed-air.jpg",
   category: "Industrie",
   tags: ["Druckluft", "Industrie", "Arbeitssicherheit", "Pneumatik", "PPR", "Rohrsysteme", "Korrosion"],
   

@@ -8,6 +8,8 @@ article_codes: ["AQ28520", "AQ28525", "AQ28532"]
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 91"
+image: "/images/produkte/cross-over-pipe/hero.jpg"
+images: ["/images/produkte/cross-over-pipe/hero.jpg", "/images/produkte/cross-over-pipe/studio.jpg", "/images/produkte/cross-over-pipe/2.jpg", "/images/produkte/cross-over-pipe/3.jpg", "/images/produkte/cross-over-pipe/4.jpg"]
 ---
 
 # Cross Over Pipe

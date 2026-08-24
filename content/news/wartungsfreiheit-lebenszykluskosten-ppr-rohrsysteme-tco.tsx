@@ -24,7 +24,6 @@ export const wartungsfreiheitLebenszykluskosten: NewsPost = {
     en: "The true costs of piping systems become apparent in longterm operation. Learn how maintenancefree K Aqua PPR piping systems sustainably reduce lifecycle costs (TCO) and OPEX in building services engineering (MEP).",
     ar: "تتضح التكاليف الحقيقية لأنظمة الأنابيب في التشغيل طويل الأمد. اكتشف كيف تعمل أنظمة أنابيب K Aqua PPR الخالية من الصيانة على تقليل تكاليف دورة الحياة (TCO) والنفقات التشغيلية (OPEX) بشكل مستدام في هندسة خدمات المباني (MEP)."
   },
-  coverImage: "/images/news/tco-maintenance-free.jpg",
   category: "Wirtschaftlichkeit",
   tags: ["TCO", "Lebenszykluskosten", "Wartungsfreiheit", "OPEX", "PPR Rohrsysteme", "Wirtschaftlichkeit"],
   

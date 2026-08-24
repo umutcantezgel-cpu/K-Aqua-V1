@@ -27,7 +27,6 @@ export const fernwaermeNahwaerme: NewsPost = {
     en: "Urban heating networks require pipe systems with minimal heat loss and maximum corrosion resistance. Pre-insulated PPRCT pipe systems from K Aqua are increasingly replacing heavy steel in underground installations.",
     ar: "تتطلب شبكات التدفئة الحضرية أنظمة أنابيب بأقل قدر من فقدان الحرارة وأقصى مقاومة للتآكل. تحل أنظمة أنابيب PPRCT المعزولة مسبقًا من K Aqua بشكل متزايد محل الفولاذ الثقيل في التركيبات تحت الأرض."
   },
-  coverImage: "/images/news/district-heating.jpg",
   category: "Infrastruktur",
   tags: ["Fernwärme", "Nahwärme", "Infrastruktur", "Vorisoliert", "PPRCT", "Wärmeverlust", "Rohrsysteme", "PPR"],
   

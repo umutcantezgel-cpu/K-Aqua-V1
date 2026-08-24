@@ -6,6 +6,8 @@ category: "Valves"
 slug: "valves/pp-r-ball-valve-ball-in-brass-chromium-plated"
 article_codes: ["AQ85020", "AQ85025", "AQ85032", "AQ85040", "AQ85050", "AQ85063", "AQ85075", "AQ85090"]
 source: "KA-Katalog_GB_06-2025, S. 107"
+image: "/images/produkte/pp-r-ball-valve-ball-in-brass-chromium-plated/studio.jpg"
+images: ["/images/produkte/pp-r-ball-valve-ball-in-brass-chromium-plated/studio.jpg"]
 ---
 
 # PP-R Valve (Brass Core, Chromium Plated)

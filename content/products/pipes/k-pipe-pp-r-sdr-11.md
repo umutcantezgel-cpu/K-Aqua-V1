@@ -6,6 +6,8 @@ article_codes: ["AQ111P20", "AQ111P25", "AQ111P32", "AQ111P40", "AQ111P50", "AQ1
 colour: "green with 1 blue stripe"
 standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
 source: "KA-Katalog_GB_06-2025, S. 77"
+image: "/images/produkte/k-pipe-pp-r-sdr-11/studio.jpg"
+images: ["/images/produkte/k-pipe-pp-r-sdr-11/studio.jpg"]
 ---
 
 # K-Pipe PP-R SDR 11

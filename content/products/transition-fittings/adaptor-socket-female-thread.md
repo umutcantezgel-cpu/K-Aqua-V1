@@ -6,6 +6,8 @@ article_codes: ["AQ270G2012", "AQ270G2034", "AQ270G2512", "AQ270G2534", "AQ270G3
 colour: "green (PP-R) with brass threaded insert"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226"]
 source: "KA-Katalog_GB_06-2025, S. 94"
+image: "/images/produkte/adaptor-socket-female-thread/hero.jpg"
+images: ["/images/produkte/adaptor-socket-female-thread/hero.jpg", "/images/produkte/adaptor-socket-female-thread/2.jpg", "/images/produkte/adaptor-socket-female-thread/3.jpg", "/images/produkte/adaptor-socket-female-thread/4.jpg"]
 ---
 
 # Adaptor Socket (Female Thread)

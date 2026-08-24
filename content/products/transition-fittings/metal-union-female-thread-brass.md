@@ -6,6 +6,8 @@ article_codes: ["AQ53220", "AQ53225", "AQ53232", "AQ53240", "AQ53250", "AQ53263"
 colour: "green (PP-R nut) with yellow brass (CW617N) body"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226", "EN ISO 228"]
 source: "KA-Katalog_GB_06-2025, S. 98"
+image: "/images/produkte/metal-union-female-thread-brass/studio.jpg"
+images: ["/images/produkte/metal-union-female-thread-brass/studio.jpg"]
 ---
 
 # Metal Union with PP-R Nut in Yellow Brass CW617N (Female Thread)

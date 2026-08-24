@@ -8,6 +8,8 @@ article_codes: ["AQ13020", "AQ13025", "AQ13032", "AQ13040", "AQ13050", "AQ13063"
 colour: "green"
 standards: ["DIN EN ISO 15874-3", "DIN 16962"]
 source: "KA-Katalog_GB_06-2025, S. 88"
+image: "/images/produkte/tee/hero.jpg"
+images: ["/images/produkte/tee/hero.jpg", "/images/produkte/tee/2.jpg", "/images/produkte/tee/3.jpg", "/images/produkte/tee/4.jpg"]
 ---
 
 # Tee

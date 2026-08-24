@@ -8,6 +8,8 @@ article_codes: ["AQ330A20", "AQ330A25", "AQ330A32", "AQ330A40", "AQ330A50", "AQ3
 colour: "green (PP-R)"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "EN ISO 228"]
 source: "KA-Katalog_GB_06-2025, S. 96"
+image: "/images/produkte/union/hero.jpg"
+images: ["/images/produkte/union/hero.jpg", "/images/produkte/union/studio.jpg", "/images/produkte/union/2.jpg", "/images/produkte/union/3.jpg", "/images/produkte/union/4.jpg"]
 ---
 
 # Union

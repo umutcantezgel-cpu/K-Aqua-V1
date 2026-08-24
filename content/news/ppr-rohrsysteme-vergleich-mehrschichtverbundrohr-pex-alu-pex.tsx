@@ -24,7 +24,6 @@ export const pprMehrschichtverbundrohrVergleich: NewsPost = {
     en: "A system comparison of PPR pipe systems with multilayer composite pipes (PEX/Alu PEX).",
     ar: "مقارنة بين أنظمة أنابيب PPR والأنابيب المركبة متعددة الطبقات (PEX/Alu PEX)."
   },
-  coverImage: "/images/news/ppr-vs-pex.jpg",
   category: "Materialkunde & Vergleiche",
   tags: ["Vergleich", "Mehrschichtverbundrohr", "PEX", "Aluverbundrohr", "Materialkunde", "Installationssysteme", "Schweißen vs Pressen"],
   

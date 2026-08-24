@@ -6,6 +6,8 @@ article_codes: ["AQ53720", "AQ53725", "AQ53732", "AQ53740", "AQ53750", "AQ53763"
 colour: "green (PP-R nut) with yellow brass (CW617N) body"
 standards: ["DIN EN ISO 15874-3", "DIN 16962", "ISO 7 / EN 10226", "EN ISO 228"]
 source: "KA-Katalog_GB_06-2025, S. 98"
+image: "/images/produkte/metal-union-male-thread-brass/studio.jpg"
+images: ["/images/produkte/metal-union-male-thread-brass/studio.jpg"]
 ---
 
 # Metal Union with PP-R Nut in Yellow Brass CW617N (Male Thread)

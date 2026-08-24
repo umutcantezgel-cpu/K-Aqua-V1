@@ -6,6 +6,8 @@ article_codes: ["AQ200FUV20", "AQ200FUV25", "AQ200FUV32", "AQ200FUV40", "AQ200FU
 colour: "outside layer black, inside layer green"
 standards: ["DIN EN ISO 15874", "DIN 8077 / 8078"]
 source: "KA-Katalog_GB_06-2025, S. 82"
+image: "/images/produkte/k-fiber-uv-pipe-pp-rct-sdr-74/studio.jpg"
+images: ["/images/produkte/k-fiber-uv-pipe-pp-rct-sdr-74/studio.jpg"]
 ---
 
 # K-Fiber UV Pipe PP-RCT SDR 7.4
