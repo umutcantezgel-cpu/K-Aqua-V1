@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile, threadSpec,
+  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile, threadRing, threadSpec,
 } from '../kaqua-3d-core.mjs';
 
 /* == _tee/parts.js ===================================================== */
@@ -370,37 +370,19 @@ export function buildBody(P) {
   };
 }
 
-/* 2a · Messingring mit Innengewinde Rp. Sitzt bündig in der
-   Aufnahmebohrung, oben als schmaler goldener Kreis sichtbar.
+/* 2a · Messingring mit zylindrischem Innengewinde Rp.
+   Der Ring selbst steht seit dem 24.08.2026 im Core (threadRing) — er ist
+   reine Kerngeometrie und wurde vom Anschlussbogen ein zweites Mal
+   gebraucht (Fall 32). Hier bleibt nur die Zuordnung der P-Werte.
 
-   threadProfile mit kind 'Rp': die Kuppe liegt auf dem KERN
-   (threadOD − 2h), der Grund auf dem Nennmaß. Seit der Korrektur vom
-   23.08.2026 — vorher lag das ganze Gewinde eine Gewindetiefe zu weit
-   außen (Fall 20). */
+   Sichtbar ist von außen nur der schmale goldene Kreis an der
+   Stirnfläche. */
 export function buildBrassRing(P) {
-  const yA = P.brassBottom;
-  const yB = P.brassTop;
-  const rIn = P.threadCore / 2;
-
-  const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'Rp')
-    .map((p) => ({ a: yA + 1.0 + p.a, r: p.r, fillet: p.fillet }))
-    .filter((p) => p.a <= yB - 0.8);
-
-  const outer = [
-    { a: yA, r: P.brassR - 0.15, chamfer: 0.5 },
-    { a: yB, r: P.brassR - 0.15, chamfer: 0.5 },
-  ];
-  const inner = [
-    { a: yB, r: rIn + P.threadPitch * 0.25, chamfer: 0.8 },
-    ...thread.slice().reverse(),
-    { a: yA + 1.0, r: rIn, fillet: 0.4 },
-    { a: yA, r: rIn, chamfer: 0.4 },
-  ];
-  const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  return {
-    geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
-    cap: capFromProfile(profile, 'y'),
-  };
+  return threadRing({
+    a0: P.brassBottom, a1: P.brassTop, rOuter: P.brassR,
+    od: P.threadOD, pitch: P.threadPitch, turns: P.turns,
+    coreDia: P.threadCore, axis: 'y', segs: SEG_VIS,
+  });
 }
 
 /* 2b · Messingzapfen mit Sechskant und kegeligem Außengewinde R.

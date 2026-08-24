@@ -2,7 +2,7 @@
   "_meta": {
     "projekt": "K-Aqua 3D-Produktmodelle",
     "erzeugt": "2026-08-15",
-    "produkte": 72,
+    "produkte": 71,
     "fertig": 1,
     "hinweis": "sizes_source_ocr ist maschinell gelesen und fehleranfaellig (Zeilen koennen doppelt gezaehlt sein). Nur sizes_source_verified ist per Auge geprueft. data_status steuert, ob vor dem Modellieren die Quelltabelle neu gelesen werden muss.",
     "familien": [
@@ -36,7 +36,8 @@
     "screenshot_zuordnung": "Jede Zuordnung ist exakt oder ueber eine explizite Alias-Tabelle belegt; keine Teilstring-Treffer.",
     "hinweis_article_codes_source": "article_codes_source ist gegen Druckkatalog UND Website-Aufnahme geprueft. article_prefix_md_unverified widerspricht bei 22 von 71 Produkten dem Katalog (siehe pipeline/25-BILDQUELLEN.md Abschnitt 6) und ist keine Zuordnungsgrundlage.",
     "hinweis_build_status": "build.status wird aus gallery/registry.js gespiegelt — dort ist der Modellstand die einzige Quelle. Abgeglichen am 24.08.2026; davor stand hier 1 fertig, waehrend 34 gebaut waren.",
-    "hinweis_produktzahl": "Die 71 stammten aus dem Website-Scrape. Die sieben Kategorie-Inhaltsverzeichnisse des Druckkatalogs 06/2025 (S. 75, 83, 93, 101, 105, 109, 113) ergeben ebenfalls 71 — aber mit einem Tausch: k-fiber-pipe-pp-r-sdr-6 fehlte hier, und fittings/reducing-tee-large ist eine Aufteilung der Website, die der Katalog als EIN Produkt ueber S. 88/89 fuehrt. Mit dem aufgenommenen Rohr sind es 72; ob reducing-tee-large ein eigenes Produkt bleibt, entscheidet der Mensch."
+    "hinweis_produktzahl": "Zielzahl 71. Die 71 aus dem Website-Scrape und die 71 aus den Kategorie-Inhaltsverzeichnissen des Druckkatalogs 06/2025 stimmen in der Summe, aber nicht in der Zusammensetzung: k-fiber-pipe-pp-r-sdr-6 (AQ206PF, S. 79) fehlte im Scrape und wurde am 24.08.2026 aufgenommen; fittings/reducing-tee-large war eine Aufteilung der Website und wurde am selben Tag mit fittings/reducing-tee zusammengelegt.",
+    "hinweis_artikelcodes": "article_prefix_source und article_codes_source sind am 24.08.2026 fuer 70 der 71 Produkte gegen den Druckkatalog 06/2025 gesetzt worden. 546 der 550 Katalogcodes sind damit einem Produkt zugeordnet. Die vier uebrigen sind AQ258P/F/PF (5,80-m-Sonderlaenge auf Anfrage, keine eigenen Produkte) und AQ974 (Rohrschaber — siehe Hinweis bei pipe-cutter-50-125-114). article_prefix_md_unverified bleibt als Herkunftsnachweis stehen, ist aber bei 22 Produkten nachweislich falsch und keine Zuordnungsgrundlage."
   },
   "produkte": [
     {
@@ -74,7 +75,19 @@
       },
       "hinweis": "Markdown fuehrt AQ50020-AQ50063 mit d/L/H; Quelle fuehrt AQ85220-AQ85263 mit d/D/L/z/H/A/L1. Modell nutzt die Quelldaten.",
       "article_prefix_md_unverified": "AQ500",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ852",
+      "article_codes_source": [
+        "AQ85220",
+        "AQ85225",
+        "AQ85232",
+        "AQ85240",
+        "AQ85250",
+        "AQ85263"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/cap",
@@ -111,7 +124,27 @@
         "order": 2
       },
       "article_prefix_md_unverified": "AQ301",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ301",
+      "article_codes_source": [
+        "AQ301110",
+        "AQ301125",
+        "AQ301160",
+        "AQ30120",
+        "AQ301200",
+        "AQ30125",
+        "AQ301250",
+        "AQ301315",
+        "AQ30132",
+        "AQ30140",
+        "AQ30150",
+        "AQ30163",
+        "AQ30175",
+        "AQ30190"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/socket",
@@ -135,7 +168,7 @@
       "md_file": "docs Unterseiten/fittings/socket.md",
       "sizes_md": 7,
       "sizes_source_ocr": 9,
-      "sizes_source_verified": 9,
+      "sizes_source_verified": 10,
       "data_status": "verifiziert-md-unvollstaendig",
       "geometry": {
         "family": "rot-sym",
@@ -148,7 +181,23 @@
         "order": 3
       },
       "article_prefix_md_unverified": "AQ270",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ270",
+      "article_codes_source": [
+        "AQ270110",
+        "AQ270125",
+        "AQ27020",
+        "AQ27025",
+        "AQ27032",
+        "AQ27040",
+        "AQ27050",
+        "AQ27063",
+        "AQ27075",
+        "AQ27090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-pipe-pp-r-sdr-6",
@@ -170,7 +219,7 @@
       "md_file": "docs Unterseiten/pipes/k-pipe-pp-r-sdr-6.md",
       "sizes_md": 5,
       "sizes_source_ocr": 10,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 10,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe",
@@ -183,7 +232,23 @@
         "order": 4
       },
       "article_prefix_md_unverified": "AQ200P",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ200P",
+      "article_codes_source": [
+        "AQ200P110",
+        "AQ200P125",
+        "AQ200P20",
+        "AQ200P25",
+        "AQ200P32",
+        "AQ200P40",
+        "AQ200P50",
+        "AQ200P63",
+        "AQ200P75",
+        "AQ200P90"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/elbow-45",
@@ -207,7 +272,7 @@
       "md_file": "docs Unterseiten/fittings/elbow-45.md",
       "sizes_md": 7,
       "sizes_source_ocr": 14,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 14,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "elbow",
@@ -220,7 +285,27 @@
         "order": 5
       },
       "article_prefix_md_unverified": "AQ045",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ045",
+      "article_codes_source": [
+        "AQ045110",
+        "AQ045125",
+        "AQ045160",
+        "AQ04520",
+        "AQ045200",
+        "AQ04525",
+        "AQ045250",
+        "AQ045315",
+        "AQ04532",
+        "AQ04540",
+        "AQ04550",
+        "AQ04563",
+        "AQ04575",
+        "AQ04590"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/elbow-90",
@@ -244,7 +329,7 @@
       "md_file": "docs Unterseiten/fittings/elbow-90.md",
       "sizes_md": 7,
       "sizes_source_ocr": 14,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 15,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "elbow",
@@ -257,7 +342,28 @@
         "order": 6
       },
       "article_prefix_md_unverified": "AQ090",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ090",
+      "article_codes_source": [
+        "AQ090",
+        "AQ090110",
+        "AQ090125",
+        "AQ090160",
+        "AQ09020",
+        "AQ090200",
+        "AQ09025",
+        "AQ090250",
+        "AQ090315",
+        "AQ09032",
+        "AQ09040",
+        "AQ09050",
+        "AQ09063",
+        "AQ09075",
+        "AQ09090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/tee",
@@ -294,7 +400,27 @@
         "order": 7
       },
       "article_prefix_md_unverified": "AQ130",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ130",
+      "article_codes_source": [
+        "AQ130110",
+        "AQ130125",
+        "AQ130160",
+        "AQ13020",
+        "AQ130200",
+        "AQ13025",
+        "AQ130250",
+        "AQ130315",
+        "AQ13032",
+        "AQ13040",
+        "AQ13050",
+        "AQ13063",
+        "AQ13075",
+        "AQ13090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-fiber-pipe-pp-r-sdr-7-4",
@@ -316,7 +442,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-7-4.md",
       "sizes_md": 5,
       "sizes_source_ocr": 14,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 14,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-fiber",
@@ -329,7 +455,27 @@
         "order": 8
       },
       "article_prefix_md_unverified": "AQ207PF",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ207PF",
+      "article_codes_source": [
+        "AQ207PF110",
+        "AQ207PF125",
+        "AQ207PF160",
+        "AQ207PF20",
+        "AQ207PF200",
+        "AQ207PF25",
+        "AQ207PF250",
+        "AQ207PF315",
+        "AQ207PF32",
+        "AQ207PF40",
+        "AQ207PF50",
+        "AQ207PF63",
+        "AQ207PF75",
+        "AQ207PF90"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-fiber-pipe-pp-r-sdr-6",
@@ -341,6 +487,8 @@
       "url": "/de/produkte/pipes/k-fiber-pipe-pp-r-sdr-6",
       "module": "kaqua-k-fiber-pipe-pp-r-sdr-6",
       "article_codes_source": [
+        "AQ206PF110",
+        "AQ206PF125",
         "AQ206PF20",
         "AQ206PF25",
         "AQ206PF32",
@@ -348,9 +496,7 @@
         "AQ206PF50",
         "AQ206PF63",
         "AQ206PF75",
-        "AQ206PF90",
-        "AQ206PF110",
-        "AQ206PF125"
+        "AQ206PF90"
       ],
       "article_prefix_source": "AQ206PF",
       "source_screenshot": null,
@@ -401,7 +547,7 @@
       "md_file": "docs Unterseiten/transition-fittings/adaptor-socket-female-thread.md",
       "sizes_md": 12,
       "sizes_source_ocr": 14,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 12,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "thread-socket",
@@ -414,7 +560,25 @@
         "order": 9
       },
       "article_prefix_md_unverified": "AQ24RP",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ270G",
+      "article_codes_source": [
+        "AQ270G1104",
+        "AQ270G2012",
+        "AQ270G2034",
+        "AQ270G2512",
+        "AQ270G2534",
+        "AQ270G321",
+        "AQ270G3234",
+        "AQ270G40114",
+        "AQ270G50112",
+        "AQ270G632",
+        "AQ270G75212",
+        "AQ270G903"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/adaptor-socket-male-thread",
@@ -442,7 +606,7 @@
       "md_file": "docs Unterseiten/transition-fittings/adaptor-socket-male-thread.md",
       "sizes_md": 11,
       "sizes_source_ocr": 12,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 12,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "thread-socket",
@@ -455,7 +619,25 @@
         "order": 10
       },
       "article_prefix_md_unverified": "AQ24R",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ243G",
+      "article_codes_source": [
+        "AQ243G1104",
+        "AQ243G2012",
+        "AQ243G2034",
+        "AQ243G2512",
+        "AQ243G2534",
+        "AQ243G321",
+        "AQ243G3234",
+        "AQ243G40114",
+        "AQ243G50112",
+        "AQ243G632",
+        "AQ243G75212",
+        "AQ243G903"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "valves/pp-r-ball-valve-brass",
@@ -494,7 +676,21 @@
       },
       "hinweis": "Markdown fuehrt AQ60020-AQ60090 und uebernimmt Spalte A (Hebellaenge) als L (Baulaenge). Quelle: AQ85020-AQ85090 mit d/A/C/H/L/P.",
       "article_prefix_md_unverified": "AQ600",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ850",
+      "article_codes_source": [
+        "AQ85020",
+        "AQ85025",
+        "AQ85032",
+        "AQ85040",
+        "AQ85050",
+        "AQ85063",
+        "AQ85075",
+        "AQ85090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/reducing-bush",
@@ -515,7 +711,7 @@
       "md_file": "docs Unterseiten/fittings/reducing-bush.md",
       "sizes_md": 7,
       "sizes_source_ocr": 30,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 30,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "rot-red",
@@ -528,7 +724,43 @@
         "order": 12
       },
       "article_prefix_md_unverified": "AQ243",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ243",
+      "article_codes_source": [
+        "AQ24311063",
+        "AQ24311075",
+        "AQ24311090",
+        "AQ243125110",
+        "AQ243160110",
+        "AQ243160125",
+        "AQ24316090",
+        "AQ243200160",
+        "AQ243250160",
+        "AQ243250200",
+        "AQ2432520",
+        "AQ243315250",
+        "AQ2433220",
+        "AQ2433225",
+        "AQ2434020",
+        "AQ2434025",
+        "AQ2434032",
+        "AQ2435020",
+        "AQ2435025",
+        "AQ2435032",
+        "AQ2435040",
+        "AQ2436320",
+        "AQ2436325",
+        "AQ2436332",
+        "AQ2436340",
+        "AQ2436350",
+        "AQ2437550",
+        "AQ2437563",
+        "AQ2439063",
+        "AQ2439075"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-pipe-pp-r-sdr-11",
@@ -550,7 +782,7 @@
       "md_file": "docs Unterseiten/pipes/k-pipe-pp-r-sdr-11.md",
       "sizes_md": 5,
       "sizes_source_ocr": 18,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 18,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe",
@@ -563,7 +795,28 @@
         "order": 13
       },
       "article_prefix_md_unverified": "AQ11P",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ111P",
+      "article_codes_source": [
+        "AQ111P110",
+        "AQ111P125",
+        "AQ111P160",
+        "AQ111P20",
+        "AQ111P200",
+        "AQ111P25",
+        "AQ111P250",
+        "AQ111P315",
+        "AQ111P32",
+        "AQ111P355",
+        "AQ111P40",
+        "AQ111P400",
+        "AQ111P450",
+        "AQ111P50",
+        "AQ111P500",
+        "AQ111P63",
+        "AQ111P75",
+        "AQ111P90"
+      ]
     },
     {
       "id": "pipes/k-pipe-pp-rct-sdr-7-4",
@@ -585,7 +838,7 @@
       "md_file": "docs Unterseiten/pipes/k-pipe-pp-rct-sdr-7-4.md",
       "sizes_md": 5,
       "sizes_source_ocr": 14,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 14,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe",
@@ -598,7 +851,27 @@
         "order": 14
       },
       "article_prefix_md_unverified": "AQ200",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ200",
+      "article_codes_source": [
+        "AQ200110",
+        "AQ200125",
+        "AQ200160",
+        "AQ20020",
+        "AQ200200",
+        "AQ20025",
+        "AQ200250",
+        "AQ200315",
+        "AQ20032",
+        "AQ20040",
+        "AQ20050",
+        "AQ20063",
+        "AQ20075",
+        "AQ20090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-pipe-purple-pp-r-sdr-11",
@@ -620,7 +893,7 @@
       "md_file": "docs Unterseiten/pipes/k-pipe-purple-pp-r-sdr-11.md",
       "sizes_md": 5,
       "sizes_source_ocr": 11,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 11,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe",
@@ -633,7 +906,21 @@
         "order": 15
       },
       "article_prefix_md_unverified": "AQ11PL",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ111PL",
+      "article_codes_source": [
+        "AQ111PL110",
+        "AQ111PL125",
+        "AQ111PL160",
+        "AQ111PL20",
+        "AQ111PL25",
+        "AQ111PL32",
+        "AQ111PL40",
+        "AQ111PL50",
+        "AQ111PL63",
+        "AQ111PL75",
+        "AQ111PL90"
+      ]
     },
     {
       "id": "fittings/electrofusion-socket",
@@ -672,20 +959,20 @@
       "article_prefix_md_unverified": "AQ27E",
       "screenshot_match": "exakt",
       "article_codes_source": [
+        "AQ271110",
+        "AQ271125",
+        "AQ271160",
         "AQ27120",
+        "AQ271200",
         "AQ27125",
+        "AQ271250",
+        "AQ271315",
         "AQ27132",
         "AQ27140",
         "AQ27150",
         "AQ27163",
         "AQ27175",
-        "AQ27190",
-        "AQ271110",
-        "AQ271125",
-        "AQ271160",
-        "AQ271200",
-        "AQ271250",
-        "AQ271315"
+        "AQ27190"
       ],
       "article_prefix_source": "AQ271",
       "source_verified_by": [
@@ -713,7 +1000,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-11.md",
       "sizes_md": 5,
       "sizes_source_ocr": 13,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 18,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-fiber",
@@ -726,7 +1013,28 @@
         "order": 17
       },
       "article_prefix_md_unverified": "AQ11PF",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ111PF",
+      "article_codes_source": [
+        "AQ111PF110",
+        "AQ111PF125",
+        "AQ111PF160",
+        "AQ111PF20",
+        "AQ111PF200",
+        "AQ111PF25",
+        "AQ111PF250",
+        "AQ111PF315",
+        "AQ111PF32",
+        "AQ111PF355",
+        "AQ111PF40",
+        "AQ111PF400",
+        "AQ111PF450",
+        "AQ111PF50",
+        "AQ111PF500",
+        "AQ111PF63",
+        "AQ111PF75",
+        "AQ111PF90"
+      ]
     },
     {
       "id": "pipes/k-fiber-pipe-pp-r-sdr-9",
@@ -748,7 +1056,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-9.md",
       "sizes_md": 5,
       "sizes_source_ocr": 13,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 13,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-fiber",
@@ -761,7 +1069,26 @@
         "order": 18
       },
       "article_prefix_md_unverified": "AQ169PF",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ169PF",
+      "article_codes_source": [
+        "AQ169PF110",
+        "AQ169PF125",
+        "AQ169PF160",
+        "AQ169PF200",
+        "AQ169PF250",
+        "AQ169PF315",
+        "AQ169PF32",
+        "AQ169PF355",
+        "AQ169PF40",
+        "AQ169PF50",
+        "AQ169PF63",
+        "AQ169PF75",
+        "AQ169PF90"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-fiber-pipe-pp-rct-sdr-7-4",
@@ -783,7 +1110,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-rct-sdr-7-4.md",
       "sizes_md": 5,
       "sizes_source_ocr": 14,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 14,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-fiber",
@@ -796,7 +1123,27 @@
         "order": 19
       },
       "article_prefix_md_unverified": "AQ200F",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ200F",
+      "article_codes_source": [
+        "AQ200F110",
+        "AQ200F125",
+        "AQ200F160",
+        "AQ200F20",
+        "AQ200F200",
+        "AQ200F25",
+        "AQ200F250",
+        "AQ200F315",
+        "AQ200F32",
+        "AQ200F40",
+        "AQ200F50",
+        "AQ200F63",
+        "AQ200F75",
+        "AQ200F90"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-fiber-uv-pipe-pp-r-sdr-7-4",
@@ -818,7 +1165,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiber-uv-pipe-pp-r-sdr-7-4.md",
       "sizes_md": 5,
       "sizes_source_ocr": 11,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 11,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-uv",
@@ -831,7 +1178,24 @@
         "order": 20
       },
       "article_prefix_md_unverified": "AQ200PFUV",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ200PFUV",
+      "article_codes_source": [
+        "AQ200PFUV110",
+        "AQ200PFUV125",
+        "AQ200PFUV160",
+        "AQ200PFUV20",
+        "AQ200PFUV25",
+        "AQ200PFUV32",
+        "AQ200PFUV40",
+        "AQ200PFUV50",
+        "AQ200PFUV63",
+        "AQ200PFUV75",
+        "AQ200PFUV90"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "tools/welding-tool",
@@ -856,7 +1220,7 @@
       "md_file": "docs Unterseiten/tools/welding-tool.md",
       "sizes_md": 8,
       "sizes_source_ocr": 10,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 10,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "tool-die",
@@ -869,7 +1233,23 @@
         "order": 21
       },
       "article_prefix_md_unverified": "AQ982",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ982",
+      "article_codes_source": [
+        "AQ982110",
+        "AQ982125",
+        "AQ98220",
+        "AQ98225",
+        "AQ98232",
+        "AQ98240",
+        "AQ98250",
+        "AQ98263",
+        "AQ98275",
+        "AQ98290"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "accessories/pipe-clamps",
@@ -898,7 +1278,7 @@
       "md_file": "docs Unterseiten/accessories/pipe-clamps.md",
       "sizes_md": 12,
       "sizes_source_ocr": 13,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 13,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "clamp",
@@ -911,7 +1291,26 @@
         "order": 22
       },
       "article_prefix_md_unverified": "AQ95",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ500",
+      "article_codes_source": [
+        "AQ500110",
+        "AQ500125",
+        "AQ500160",
+        "AQ50020",
+        "AQ500200",
+        "AQ50025",
+        "AQ500250",
+        "AQ50032",
+        "AQ50040",
+        "AQ50050",
+        "AQ50063",
+        "AQ50075",
+        "AQ50090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/reducing-tee",
@@ -932,7 +1331,7 @@
       "md_file": "docs Unterseiten/fittings/reducing-tee.md",
       "sizes_md": 7,
       "sizes_source_ocr": 10,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 37,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "tee-red",
@@ -945,7 +1344,52 @@
         "order": 23
       },
       "article_prefix_md_unverified": "AQ130",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "hinweis": "Zusammengelegt am 24.08.2026. Der Druckkatalog 06/2025 fuehrt das Reduzier-T-Stueck als EIN Produkt ueber die Seiten 88/89; die Aufteilung in 'reducing-tee' und 'reducing-tee-large' stammt von der Website, die die Tabelle auf zwei Seiten verteilt hat. Beide Website-Aufnahmen bleiben als Quelle: Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2026-06-20-05_42_14.pdf und Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2-2026-06-20-05_42_22.pdf. Das Modell muss ALLE Groessen beider Seiten tragen.",
+      "source_screenshot_2": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2-2026-06-20-05_42_22.pdf",
+      "article_prefix_source": "AQ130",
+      "article_codes_source": [
+        "AQ13011063",
+        "AQ13011075",
+        "AQ13011090",
+        "AQ130125110",
+        "AQ130160110",
+        "AQ13016090",
+        "AQ130200110",
+        "AQ130200160",
+        "AQ13020090",
+        "AQ130250110",
+        "AQ130250160",
+        "AQ1302520",
+        "AQ130315110",
+        "AQ130315160",
+        "AQ130315250",
+        "AQ1303220",
+        "AQ1303225",
+        "AQ1304020",
+        "AQ1304025",
+        "AQ1304032",
+        "AQ1305020",
+        "AQ1305025",
+        "AQ1305032",
+        "AQ1305040",
+        "AQ1306320",
+        "AQ1306325",
+        "AQ1306332",
+        "AQ1306340",
+        "AQ1306350",
+        "AQ1307520",
+        "AQ1307525",
+        "AQ1307532",
+        "AQ1307540",
+        "AQ1307550",
+        "AQ1307563",
+        "AQ1309063",
+        "AQ1309075"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/elbow-90-male-thread",
@@ -966,7 +1410,7 @@
       "md_file": "docs Unterseiten/transition-fittings/elbow-90-male-thread.md",
       "sizes_md": 4,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 4,
       "data_status": "pruefen",
       "geometry": {
         "family": "thread-elbow",
@@ -979,7 +1423,17 @@
         "order": 24
       },
       "article_prefix_md_unverified": "AQ09R",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ092G",
+      "article_codes_source": [
+        "AQ092G2012",
+        "AQ092G2512",
+        "AQ092G2534",
+        "AQ092G321"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/metal-union-female-thread",
@@ -1001,7 +1455,7 @@
       "md_file": "docs Unterseiten/transition-fittings/metal-union-female-thread.md",
       "sizes_md": 5,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 6,
       "data_status": "pruefen",
       "geometry": {
         "family": "union-metal",
@@ -1014,7 +1468,19 @@
         "order": 25
       },
       "article_prefix_md_unverified": "AQ71RP",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ542",
+      "article_codes_source": [
+        "AQ54220",
+        "AQ54225",
+        "AQ54232",
+        "AQ54240",
+        "AQ54250",
+        "AQ54263"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/metal-union-male-thread",
@@ -1036,7 +1502,7 @@
       "md_file": "docs Unterseiten/transition-fittings/metal-union-male-thread.md",
       "sizes_md": 5,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 6,
       "data_status": "pruefen",
       "geometry": {
         "family": "union-metal",
@@ -1049,7 +1515,19 @@
         "order": 26
       },
       "article_prefix_md_unverified": "AQ71R",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ547",
+      "article_codes_source": [
+        "AQ54720",
+        "AQ54725",
+        "AQ54732",
+        "AQ54740",
+        "AQ54750",
+        "AQ54763"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/tee-90-female-thread",
@@ -1070,7 +1548,7 @@
       "md_file": "docs Unterseiten/transition-fittings/tee-90-female-thread.md",
       "sizes_md": 4,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 5,
       "data_status": "pruefen",
       "geometry": {
         "family": "thread-tee",
@@ -1083,7 +1561,18 @@
         "order": 27
       },
       "article_prefix_md_unverified": "AQ13RP",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ130G",
+      "article_codes_source": [
+        "AQ130G2012",
+        "AQ130G2512",
+        "AQ130G2534",
+        "AQ130G321",
+        "AQ130G3234"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/tee-90-male-thread",
@@ -1104,7 +1593,7 @@
       "md_file": "docs Unterseiten/transition-fittings/tee-90-male-thread.md",
       "sizes_md": 4,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 4,
       "data_status": "pruefen",
       "geometry": {
         "family": "thread-tee",
@@ -1117,7 +1606,17 @@
         "order": 28
       },
       "article_prefix_md_unverified": "AQ13R",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ133G",
+      "article_codes_source": [
+        "AQ133G2012",
+        "AQ133G2034",
+        "AQ133G2512",
+        "AQ133G2534"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/union",
@@ -1140,7 +1639,7 @@
       "md_file": "docs Unterseiten/transition-fittings/union.md",
       "sizes_md": 6,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 6,
       "data_status": "pruefen",
       "geometry": {
         "family": "union-ppr",
@@ -1153,7 +1652,19 @@
         "order": 29
       },
       "article_prefix_md_unverified": "AQ69E",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ330A",
+      "article_codes_source": [
+        "AQ330A20",
+        "AQ330A25",
+        "AQ330A32",
+        "AQ330A40",
+        "AQ330A50",
+        "AQ330A63"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "weld-in-saddles/weld-in-saddle",
@@ -1177,7 +1688,7 @@
       "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle.md",
       "sizes_md": 8,
       "sizes_source_ocr": 11,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 11,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "saddle",
@@ -1190,7 +1701,24 @@
         "order": 30
       },
       "article_prefix_md_unverified": "AQ1505",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ130S",
+      "article_codes_source": [
+        "AQ130S16025025",
+        "AQ130S16025032",
+        "AQ130S16025040",
+        "AQ130S16025050",
+        "AQ130S16025063",
+        "AQ130S406320",
+        "AQ130S406325",
+        "AQ130S406332",
+        "AQ130S7512525",
+        "AQ130S7512532",
+        "AQ130S7512540"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "tools/repairing-plug",
@@ -1209,7 +1737,7 @@
       "md_file": "docs Unterseiten/tools/repairing-plug.md",
       "sizes_md": 2,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 2,
       "data_status": "pruefen",
       "geometry": {
         "family": "rot-sym",
@@ -1222,7 +1750,15 @@
         "order": 31
       },
       "article_prefix_md_unverified": "AQ965",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ593",
+      "article_codes_source": [
+        "AQ59311",
+        "AQ5937"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "accessories/backing-flange",
@@ -1250,7 +1786,7 @@
       "md_file": "docs Unterseiten/accessories/backing-flange.md",
       "sizes_md": 11,
       "sizes_source_ocr": 11,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 11,
       "data_status": "pruefen",
       "geometry": {
         "family": "flange",
@@ -1263,7 +1799,24 @@
         "order": 32
       },
       "article_prefix_md_unverified": "AQ575",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ750",
+      "article_codes_source": [
+        "AQ750110",
+        "AQ750125",
+        "AQ750160",
+        "AQ750200",
+        "AQ750250",
+        "AQ750315",
+        "AQ75040",
+        "AQ75050",
+        "AQ75063",
+        "AQ75075",
+        "AQ75090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/elbow-45-female-male",
@@ -1369,7 +1922,7 @@
       "md_file": "docs Unterseiten/fittings/flange-adaptor.md",
       "sizes_md": 7,
       "sizes_source_ocr": 11,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 11,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "flange",
@@ -1382,7 +1935,24 @@
         "order": 35
       },
       "article_prefix_md_unverified": "AQ790",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ790",
+      "article_codes_source": [
+        "AQ790110",
+        "AQ790125",
+        "AQ790160",
+        "AQ790200",
+        "AQ790250",
+        "AQ790315",
+        "AQ79040",
+        "AQ79050",
+        "AQ79063",
+        "AQ79075",
+        "AQ79090"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "pipes/k-fiber-pipe-pp-r-sdr-17",
@@ -1404,7 +1974,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-17.md",
       "sizes_md": 5,
       "sizes_source_ocr": 13,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 13,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-fiber",
@@ -1417,7 +1987,23 @@
         "order": 36
       },
       "article_prefix_md_unverified": "AQ17PF",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ117PF",
+      "article_codes_source": [
+        "AQ117PF110",
+        "AQ117PF125",
+        "AQ117PF160",
+        "AQ117PF200",
+        "AQ117PF250",
+        "AQ117PF315",
+        "AQ117PF355",
+        "AQ117PF400",
+        "AQ117PF450",
+        "AQ117PF500",
+        "AQ117PF560",
+        "AQ117PF630",
+        "AQ117PF90"
+      ]
     },
     {
       "id": "pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4",
@@ -1439,7 +2025,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4.md",
       "sizes_md": 5,
       "sizes_source_ocr": 11,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 11,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-uv",
@@ -1452,7 +2038,21 @@
         "order": 37
       },
       "article_prefix_md_unverified": "AQ200FUVCT",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ200FUV",
+      "article_codes_source": [
+        "AQ200FUV110",
+        "AQ200FUV125",
+        "AQ200FUV160",
+        "AQ200FUV20",
+        "AQ200FUV25",
+        "AQ200FUV32",
+        "AQ200FUV40",
+        "AQ200FUV50",
+        "AQ200FUV63",
+        "AQ200FUV75",
+        "AQ200FUV90"
+      ]
     },
     {
       "id": "pipes/k-fiberclima-pipe-pp-rct-sdr-11",
@@ -1474,7 +2074,7 @@
       "md_file": "docs Unterseiten/pipes/k-fiberclima-pipe-pp-rct-sdr-11.md",
       "sizes_md": 5,
       "sizes_source_ocr": 18,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 18,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "pipe-fiber",
@@ -1487,7 +2087,31 @@
         "order": 38
       },
       "article_prefix_md_unverified": "AQ160F",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ160F",
+      "article_codes_source": [
+        "AQ160F110",
+        "AQ160F125",
+        "AQ160F160",
+        "AQ160F20",
+        "AQ160F200",
+        "AQ160F25",
+        "AQ160F250",
+        "AQ160F315",
+        "AQ160F32",
+        "AQ160F355",
+        "AQ160F40",
+        "AQ160F400",
+        "AQ160F450",
+        "AQ160F50",
+        "AQ160F500",
+        "AQ160F63",
+        "AQ160F75",
+        "AQ160F90"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/cross",
@@ -1506,7 +2130,7 @@
       "md_file": "docs Unterseiten/fittings/cross.md",
       "sizes_md": 2,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 2,
       "data_status": "pruefen",
       "geometry": {
         "family": "cross",
@@ -1519,39 +2143,15 @@
         "order": 39
       },
       "article_prefix_md_unverified": "AQ180",
-      "screenshot_match": "exakt"
-    },
-    {
-      "id": "fittings/reducing-tee-large",
-      "category": "fittings",
-      "category_de": "Formteile",
-      "slug": "reducing-tee-large",
-      "title_en": "Reducing Tee (Large Sizes)",
-      "title_de": "Reduzier-T-Stück große Größen",
-      "url": "/de/produkte/formteile/reducing-tee-large",
-      "module": "kaqua-reducing-tee-large",
-      "article_codes_md": [
-        "AQ15063",
-        "AQ15075"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ180",
+      "article_codes_source": [
+        "AQ18025",
+        "AQ18032"
       ],
-      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2-2026-06-20-05_42_22.pdf",
-      "md_file": "docs Unterseiten/fittings/reducing-tee-large.md",
-      "sizes_md": 7,
-      "sizes_source_ocr": 26,
-      "sizes_source_verified": null,
-      "data_status": "pruefen-md-vermutlich-unvollstaendig",
-      "geometry": {
-        "family": "tee-red",
-        "complexity": 3,
-        "ref_size": "63x32"
-      },
-      "build": {
-        "tier": 3,
-        "status": "offen",
-        "order": 40
-      },
-      "article_prefix_md_unverified": "AQ150",
-      "screenshot_match": "alias"
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/metal-union-female-thread-brass",
@@ -1573,7 +2173,7 @@
       "md_file": "docs Unterseiten/transition-fittings/metal-union-female-thread-brass.md",
       "sizes_md": 5,
       "sizes_source_ocr": 6,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 6,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "union-metal",
@@ -1586,7 +2186,19 @@
         "order": 41
       },
       "article_prefix_md_unverified": "AQ70RP",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ532",
+      "article_codes_source": [
+        "AQ53220",
+        "AQ53225",
+        "AQ53232",
+        "AQ53240",
+        "AQ53250",
+        "AQ53263"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/metal-union-male-thread-brass",
@@ -1608,7 +2220,7 @@
       "md_file": "docs Unterseiten/transition-fittings/metal-union-male-thread-brass.md",
       "sizes_md": 5,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 6,
       "data_status": "pruefen",
       "geometry": {
         "family": "union-metal",
@@ -1621,7 +2233,19 @@
         "order": 42
       },
       "article_prefix_md_unverified": "AQ70R",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ537",
+      "article_codes_source": [
+        "AQ53720",
+        "AQ53725",
+        "AQ53732",
+        "AQ53740",
+        "AQ53750",
+        "AQ53763"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "valves/tee-90-female-thread-internal-valve",
@@ -1642,7 +2266,7 @@
       "md_file": "docs Unterseiten/valves/tee-90-female-thread-internal-valve.md",
       "sizes_md": 4,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 4,
       "data_status": "pruefen",
       "geometry": {
         "family": "thread-tee",
@@ -1655,7 +2279,14 @@
         "order": 43
       },
       "article_prefix_md_unverified": "AQ60RP",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ599A",
+      "article_codes_source": [
+        "AQ599A2034",
+        "AQ599A2534",
+        "AQ599A321",
+        "AQ599A3234"
+      ]
     },
     {
       "id": "weld-in-saddles/weld-in-saddle-female-thread",
@@ -1676,7 +2307,7 @@
       "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle-female-thread.md",
       "sizes_md": 4,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 4,
       "data_status": "pruefen",
       "geometry": {
         "family": "saddle",
@@ -1689,7 +2320,17 @@
         "order": 44
       },
       "article_prefix_md_unverified": "AQ270S",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ270S",
+      "article_codes_source": [
+        "AQ270S406312",
+        "AQ270S406334",
+        "AQ270S7512512",
+        "AQ270S7512534"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "weld-in-saddles/weld-in-saddle-male-thread",
@@ -1708,7 +2349,7 @@
       "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle-male-thread.md",
       "sizes_md": 2,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 4,
       "data_status": "pruefen",
       "geometry": {
         "family": "saddle",
@@ -1721,7 +2362,17 @@
         "order": 45
       },
       "article_prefix_md_unverified": "AQ243S",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ243S",
+      "article_codes_source": [
+        "AQ243S406312",
+        "AQ243S406334",
+        "AQ243S7512512",
+        "AQ243S7512534"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "tools/pipe-cutter-20-40",
@@ -1739,7 +2390,7 @@
       "md_file": "docs Unterseiten/tools/pipe-cutter-20-40.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -1752,7 +2403,11 @@
         "order": 46
       },
       "article_prefix_md_unverified": "AQ97040",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ97040",
+      "article_codes_source": [
+        "AQ97040"
+      ]
     },
     {
       "id": "transition-fittings/elbow-bracket-90-female-thread",
@@ -1792,8 +2447,8 @@
         "AQ090G2012",
         "AQ090G2512",
         "AQ090G2534",
-        "AQ090G3212",
-        "AQ090G321"
+        "AQ090G321",
+        "AQ090G3212"
       ],
       "article_prefix_source": "AQ090G",
       "source_verified_by": [
@@ -1838,8 +2493,8 @@
         "AQ472G2012",
         "AQ472G2512",
         "AQ472G2534",
-        "AQ472G3234",
-        "AQ472G321"
+        "AQ472G321",
+        "AQ472G3234"
       ],
       "article_prefix_source": "AQ472G",
       "source_verified_by": [
@@ -1864,7 +2519,7 @@
       "md_file": "docs Unterseiten/valves/battery-female-thread.md",
       "sizes_md": 2,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 2,
       "data_status": "pruefen",
       "geometry": {
         "family": "battery",
@@ -1877,7 +2532,12 @@
         "order": 49
       },
       "article_prefix_md_unverified": "AQ64RCG2",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ490G",
+      "article_codes_source": [
+        "AQ490G2012",
+        "AQ490G2512"
+      ]
     },
     {
       "id": "valves/straight-seat-valve-green-handle",
@@ -1895,7 +2555,7 @@
       "md_file": "docs Unterseiten/valves/straight-seat-valve-green-handle.md",
       "sizes_md": 1,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "seat-valve",
@@ -1908,7 +2568,11 @@
         "order": 50
       },
       "article_prefix_md_unverified": "AQ62591",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ5991",
+      "article_codes_source": [
+        "AQ5991"
+      ]
     },
     {
       "id": "accessories/flat-gasket",
@@ -1935,7 +2599,7 @@
       "md_file": "docs Unterseiten/accessories/flat-gasket.md",
       "sizes_md": 10,
       "sizes_source_ocr": 11,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 11,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "rot-sym",
@@ -1948,7 +2612,24 @@
         "order": 51
       },
       "article_prefix_md_unverified": "AQ97",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ714",
+      "article_codes_source": [
+        "AQ714110",
+        "AQ714125",
+        "AQ714160",
+        "AQ714200",
+        "AQ714250",
+        "AQ714315",
+        "AQ71440",
+        "AQ71450",
+        "AQ71463",
+        "AQ71475",
+        "AQ71490"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "accessories/flat-gasket-for-unions",
@@ -1968,7 +2649,7 @@
       "md_file": "docs Unterseiten/accessories/flat-gasket-for-unions.md",
       "sizes_md": 3,
       "sizes_source_ocr": 2,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 3,
       "data_status": "pruefen",
       "geometry": {
         "family": "rot-sym",
@@ -1981,7 +2662,16 @@
         "order": 52
       },
       "article_prefix_md_unverified": "AQ9ANRP",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ490F",
+      "article_codes_source": [
+        "AQ490F20",
+        "AQ490F25",
+        "AQ490F32"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "accessories/plug",
@@ -1999,7 +2689,7 @@
       "md_file": "docs Unterseiten/accessories/plug.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "rot-sym",
@@ -2012,7 +2702,11 @@
         "order": 53
       },
       "article_prefix_md_unverified": "AQ98P57",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ90912",
+      "article_codes_source": [
+        "AQ90912"
+      ]
     },
     {
       "id": "valves/elongation-pieces",
@@ -2030,7 +2724,7 @@
       "md_file": "docs Unterseiten/valves/elongation-pieces.md",
       "sizes_md": 1,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "rot-sym",
@@ -2043,7 +2737,11 @@
         "order": 54
       },
       "article_prefix_md_unverified": "AQ62990",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ599E",
+      "article_codes_source": [
+        "AQ599E"
+      ]
     },
     {
       "id": "tools/welding-tool-for-repairing-plug",
@@ -2065,7 +2763,7 @@
       "md_file": "docs Unterseiten/tools/welding-tool-for-repairing-plug.md",
       "sizes_md": 5,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 2,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-die",
@@ -2078,7 +2776,15 @@
         "order": 55
       },
       "article_prefix_md_unverified": "AQ986",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ983",
+      "article_codes_source": [
+        "AQ98311",
+        "AQ9837"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/cross-over",
@@ -2098,7 +2804,7 @@
       "md_file": "docs Unterseiten/fittings/cross-over.md",
       "sizes_md": 3,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 3,
       "data_status": "pruefen",
       "geometry": {
         "family": "crossover",
@@ -2111,7 +2817,16 @@
         "order": 56
       },
       "article_prefix_md_unverified": "AQ267",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ287",
+      "article_codes_source": [
+        "AQ28720",
+        "AQ28725",
+        "AQ28732"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "fittings/cross-over-pipe",
@@ -2131,7 +2846,7 @@
       "md_file": "docs Unterseiten/fittings/cross-over-pipe.md",
       "sizes_md": 3,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 3,
       "data_status": "pruefen",
       "geometry": {
         "family": "crossover",
@@ -2144,7 +2859,16 @@
         "order": 57
       },
       "article_prefix_md_unverified": "AQ285",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ285",
+      "article_codes_source": [
+        "AQ28520",
+        "AQ28525",
+        "AQ28532"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "tools/drilling-tool-for-weld-in-saddle",
@@ -2166,7 +2890,7 @@
       "md_file": "docs Unterseiten/tools/drilling-tool-for-weld-in-saddle.md",
       "sizes_md": 5,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 5,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-die",
@@ -2179,7 +2903,18 @@
         "order": 58
       },
       "article_prefix_md_unverified": "AQ986",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ986",
+      "article_codes_source": [
+        "AQ98625",
+        "AQ98632",
+        "AQ98640",
+        "AQ98650",
+        "AQ98663"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "tools/welding-tool-for-weld-in-saddles",
@@ -2204,7 +2939,7 @@
       "md_file": "docs Unterseiten/tools/welding-tool-for-weld-in-saddles.md",
       "sizes_md": 8,
       "sizes_source_ocr": 9,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 9,
       "data_status": "pruefen-md-vermutlich-unvollstaendig",
       "geometry": {
         "family": "tool-die",
@@ -2217,7 +2952,22 @@
         "order": 59
       },
       "article_prefix_md_unverified": "AQ985",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ985",
+      "article_codes_source": [
+        "AQ98504006325",
+        "AQ98507512525",
+        "AQ98507512532",
+        "AQ98507512540",
+        "AQ98516025025",
+        "AQ98516025032",
+        "AQ98516025040",
+        "AQ98516025050",
+        "AQ98516025063"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "transition-fittings/union-for-watermeters",
@@ -2237,7 +2987,7 @@
       "md_file": "docs Unterseiten/transition-fittings/union-for-watermeters.md",
       "sizes_md": 3,
       "sizes_source_ocr": 2,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 3,
       "data_status": "pruefen",
       "geometry": {
         "family": "union-ppr",
@@ -2250,7 +3000,13 @@
         "order": 60
       },
       "article_prefix_md_unverified": "AQ72E",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ332",
+      "article_codes_source": [
+        "AQ3322012",
+        "AQ3322034",
+        "AQ3322534"
+      ]
     },
     {
       "id": "valves/concealed-valve-chrome-heavy-part",
@@ -2268,7 +3024,7 @@
       "md_file": "docs Unterseiten/valves/concealed-valve-chrome-heavy-part.md",
       "sizes_md": 1,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "concealed",
@@ -2281,7 +3037,11 @@
         "order": 61
       },
       "article_prefix_md_unverified": "AQ62993",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ5993",
+      "article_codes_source": [
+        "AQ5993"
+      ]
     },
     {
       "id": "valves/concealed-valve-chrome-light-part",
@@ -2299,7 +3059,7 @@
       "md_file": "docs Unterseiten/valves/concealed-valve-chrome-light-part.md",
       "sizes_md": 1,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "concealed",
@@ -2312,7 +3072,11 @@
         "order": 62
       },
       "article_prefix_md_unverified": "AQ62992",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ5992",
+      "article_codes_source": [
+        "AQ5992"
+      ]
     },
     {
       "id": "tools/pipe-cutter-50-125",
@@ -2330,7 +3094,7 @@
       "md_file": "docs Unterseiten/tools/pipe-cutter-50-125.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -2343,7 +3107,11 @@
         "order": 63
       },
       "article_prefix_md_unverified": "AQ975125",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ975125",
+      "article_codes_source": [
+        "AQ975125"
+      ]
     },
     {
       "id": "tools/pipe-cutter-50-125-114",
@@ -2374,7 +3142,11 @@
         "order": 64
       },
       "article_prefix_md_unverified": "AQ974",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ],
+      "hinweis_artikelnummer": "OFFEN, nicht geraten. Der Druckkatalog 06/2025 fuehrt im Werkzeug-Inhaltsverzeichnis (S. 113) genau drei schneidende Werkzeuge: Pipe cutter 20-40 (AQ97040), Pipe cutter 50-125 (AQ975125) und den Pipe scraper (AQ974). Ein dritter Rohrschneider '50-125 (1 1/4)' kommt dort nicht vor — dieses Produkt stammt von der Website. Umgekehrt fehlt uns der Rohrschaber. Entweder ist dieses Produkt der falsch betitelte Schaber, oder der Schaber fehlt und dieses Produkt ist ein Website-Artefakt. Entscheidung des Menschen; solange bleibt article_prefix_source leer."
     },
     {
       "id": "valves/adjustable-battery-female-thread",
@@ -2393,7 +3165,7 @@
       "md_file": "docs Unterseiten/valves/adjustable-battery-female-thread.md",
       "sizes_md": 2,
       "sizes_source_ocr": 1,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 2,
       "data_status": "pruefen",
       "geometry": {
         "family": "battery",
@@ -2406,7 +3178,12 @@
         "order": 65
       },
       "article_prefix_md_unverified": "AQ64ARCG2",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ492G",
+      "article_codes_source": [
+        "AQ492G2012",
+        "AQ492G2512"
+      ]
     },
     {
       "id": "tools/hand-welding-machine-20-32",
@@ -2424,7 +3201,7 @@
       "md_file": "docs Unterseiten/tools/hand-welding-machine-20-32.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -2437,7 +3214,11 @@
         "order": 66
       },
       "article_prefix_md_unverified": "AQ98032",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ98032",
+      "article_codes_source": [
+        "AQ98032"
+      ]
     },
     {
       "id": "tools/hand-welding-machine-20-63",
@@ -2455,7 +3236,7 @@
       "md_file": "docs Unterseiten/tools/hand-welding-machine-20-63.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -2468,7 +3249,11 @@
         "order": 67
       },
       "article_prefix_md_unverified": "AQ98063",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ98063",
+      "article_codes_source": [
+        "AQ98063"
+      ]
     },
     {
       "id": "tools/hand-welding-machine-mirror-50-125",
@@ -2486,7 +3271,7 @@
       "md_file": "docs Unterseiten/tools/hand-welding-machine-mirror-50-125.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -2499,7 +3284,11 @@
         "order": 68
       },
       "article_prefix_md_unverified": "AQ991125",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ991125",
+      "article_codes_source": [
+        "AQ991125"
+      ]
     },
     {
       "id": "tools/electrofusion-machine",
@@ -2517,7 +3306,7 @@
       "md_file": "docs Unterseiten/tools/electrofusion-machine.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -2530,7 +3319,14 @@
         "order": 69
       },
       "article_prefix_md_unverified": "AQ990",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ990",
+      "article_codes_source": [
+        "AQ990"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+      ]
     },
     {
       "id": "tools/butt-welding-machine-90-250",
@@ -2548,7 +3344,7 @@
       "md_file": "docs Unterseiten/tools/butt-welding-machine-90-250.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -2561,7 +3357,11 @@
         "order": 70
       },
       "article_prefix_md_unverified": "AQ989250",
-      "screenshot_match": "exakt"
+      "screenshot_match": "exakt",
+      "article_prefix_source": "AQ989250",
+      "article_codes_source": [
+        "AQ989250"
+      ]
     },
     {
       "id": "tools/welding-machine-50-125",
@@ -2579,7 +3379,7 @@
       "md_file": "docs Unterseiten/tools/welding-machine-50-125.md",
       "sizes_md": 1,
       "sizes_source_ocr": null,
-      "sizes_source_verified": null,
+      "sizes_source_verified": 1,
       "data_status": "pruefen",
       "geometry": {
         "family": "tool-machine",
@@ -2592,7 +3392,11 @@
         "order": 71
       },
       "article_prefix_md_unverified": "AQ985125",
-      "screenshot_match": "alias"
+      "screenshot_match": "alias",
+      "article_prefix_source": "AQ988125",
+      "article_codes_source": [
+        "AQ988125"
+      ]
     }
   ]
 }

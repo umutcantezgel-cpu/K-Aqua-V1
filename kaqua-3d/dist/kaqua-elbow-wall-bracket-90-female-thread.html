@@ -1702,6 +1702,60 @@ function threadProfile(D, pitch, turns, kind = 'R') {
   return out;
 }
 
+/* ── threadRing: Ring mit zylindrischem Innengewinde ──
+   Ein Rotationskörper, außen glatt, innen ein Rp-Gewinde nach ISO 228-1.
+   Das Messingteil, das bündig in einem PP-Körper sitzt und von außen nur
+   als schmaler Kreis an der Stirnfläche zu sehen ist.
+
+     a0, a1    Anfang und Ende auf der Achse
+     rOuter    Außenradius des Rings
+     od        Nenn-Außendurchmesser des Gewindes (Flankenberg)
+     pitch     Steigung
+     turns     Zahl der Gänge
+     coreDia   Kerndurchmesser; ohne Angabe aus od und pitch gerechnet
+     axis      Drehachse, Vorgabe 'y'
+     segs      Umfangssegmente
+
+   Der Ring beginnt 1 mm hinter a0 mit dem Gewinde und endet 0,8 mm vor
+   a1 — davor und dahinter bleibt glatte Bohrung, sonst liefe das Profil
+   in die Stirnfase.
+
+   STEHT IM CORE, WEIL ER ZWEIMAL GEBRAUCHT WIRD (Fall 32): das
+   Gewinde-T-Stück und der Anschlussbogen tragen denselben Ring. Vor dem
+   24.08.2026 stand er wortgleich in products/_teethread/parts.js und
+   products/_bracket/parts.js.
+
+   Beispiel — Rp½"-Ring von y 20 bis y 34, Außenradius 12,7:
+     const r = threadRing({ a0: 20, a1: 34, rOuter: 12.7,
+                            od: 20.955, pitch: 1.814, turns: 6 });        */
+function threadRing(opt) {
+  const { a0, a1, rOuter, od, pitch, turns, axis = 'y', segs = SEG_VIS } = opt;
+  const h = 0.640327 * pitch;
+  const coreDia = opt.coreDia ?? Math.round((od - 2 * h) * 1000) / 1000;
+  const rIn = coreDia / 2;
+
+  const gewinde = threadProfile(od, pitch, turns, 'Rp')
+    .map((p) => ({ a: a0 + 1.0 + p.a, r: p.r, fillet: p.fillet }))
+    .filter((p) => p.a <= a1 - 0.8);
+
+  const aussen = [
+    { a: a0, r: rOuter - 0.15, chamfer: 0.5 },
+    { a: a1, r: rOuter - 0.15, chamfer: 0.5 },
+  ];
+  const innen = [
+    { a: a1, r: rIn + pitch * 0.25, chamfer: 0.8 },
+    ...gewinde.slice().reverse(),
+    { a: a0 + 1.0, r: rIn, fillet: 0.4 },
+    { a: a0, r: rIn, chamfer: 0.4 },
+  ];
+  const profile = buildProfile([...aussen, ...innen], { segs: 4 });
+  return {
+    geo: revolve(profile, { axis, segments: segs }),
+    cap: capFromProfile(profile, axis),
+    profile,
+  };
+}
+
 /* ── hexPrism: Sechskant mit verrundeten Kanten ──
    af = Schlüsselweite (Abstand der Schlüsselflächen), h = Länge in +X,
    filletR = Kantenradius an den sechs Ecken. Beginnt bei a = 0.
@@ -3838,7 +3892,9 @@ function bracketParams(a, cfg) {
      hinter der Muffe und vor dem Bogen. Das Fenster ist eng — bei
      d25×½" 0,5 mm breit — deshalb genau die Mitte. */
   const boreLo = -a.L1 + P.socket + P.groundLen;
-  const boreHi = -P.bendR;
+  /* Setback statt bendR — bei 90° derselbe Wert, aber der Setback ist
+     der richtige Begriff: der Bogen frisst R·tan(α/2) vom Schenkel. */
+  const boreHi = -P.bendR * Math.tan((90 * D2R) / 2);
   P.xBore = Math.round(((boreLo + boreHi) / 2) * 100) / 100;
   if (!(boreHi > boreLo)) {
     throw new Error('K-Aqua ' + a.key + ': kein freier Rohrabschnitt zwischen ' +
@@ -3922,37 +3978,18 @@ function lugParams(P, a) {
 
 
 /* 1 · Messingring mit zylindrischem Innengewinde Rp.
+   Der Ring steht im Core (threadRing); hier bleibt nur die Zuordnung der
+   P-Werte. Bis zum 24.08.2026 stand er wortgleich hier UND in
+   ../_teethread/parts.js — genau die Dopplung, die dieser Kopf benannte.
 
-   Bündig im PP: sichtbar ist von außen nur der schmale goldene Kreis an
-   der Stirnfläche und das Gewinde in der Bohrung — genau das, was
-   AQ090GP und das Katalogfoto S. 95 zeigen.
-
-   threadProfile mit kind 'Rp': die Kuppe liegt auf dem KERN
-   (threadOD − 2h), der Grund auf dem Nennmaß. */
+   Sichtbar ist von außen nur der schmale goldene Kreis an der
+   Stirnfläche. */
 function buildBrassRing(P) {
-  const yA = P.brassBottom;
-  const yB = P.brassTop;
-  const rIn = P.threadCore / 2;
-
-  const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'Rp')
-    .map((p) => ({ a: yA + 1.0 + p.a, r: p.r, fillet: p.fillet }))
-    .filter((p) => p.a <= yB - 0.8);
-
-  const outer = [
-    { a: yA, r: P.brassR - 0.15, chamfer: 0.5 },
-    { a: yB, r: P.brassR - 0.15, chamfer: 0.5 },
-  ];
-  const inner = [
-    { a: yB, r: rIn + P.threadPitch * 0.25, chamfer: 0.8 },
-    ...thread.slice().reverse(),
-    { a: yA + 1.0, r: rIn, fillet: 0.4 },
-    { a: yA, r: rIn, chamfer: 0.4 },
-  ];
-  const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  return {
-    geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
-    cap: capFromProfile(profile, 'y'),
-  };
+  return threadRing({
+    a0: P.brassBottom, a1: P.brassTop, rOuter: P.brassR,
+    od: P.threadOD, pitch: P.threadPitch, turns: P.turns,
+    coreDia: P.threadCore, axis: 'y', segs: SEG_VIS,
+  });
 }
 
 /* 2 · Lasche der Wandscheibe.

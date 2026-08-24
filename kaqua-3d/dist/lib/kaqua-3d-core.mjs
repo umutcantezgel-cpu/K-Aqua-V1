@@ -769,6 +769,60 @@ export function threadProfile(D, pitch, turns, kind = 'R') {
   return out;
 }
 
+/* ── threadRing: Ring mit zylindrischem Innengewinde ──
+   Ein Rotationskörper, außen glatt, innen ein Rp-Gewinde nach ISO 228-1.
+   Das Messingteil, das bündig in einem PP-Körper sitzt und von außen nur
+   als schmaler Kreis an der Stirnfläche zu sehen ist.
+
+     a0, a1    Anfang und Ende auf der Achse
+     rOuter    Außenradius des Rings
+     od        Nenn-Außendurchmesser des Gewindes (Flankenberg)
+     pitch     Steigung
+     turns     Zahl der Gänge
+     coreDia   Kerndurchmesser; ohne Angabe aus od und pitch gerechnet
+     axis      Drehachse, Vorgabe 'y'
+     segs      Umfangssegmente
+
+   Der Ring beginnt 1 mm hinter a0 mit dem Gewinde und endet 0,8 mm vor
+   a1 — davor und dahinter bleibt glatte Bohrung, sonst liefe das Profil
+   in die Stirnfase.
+
+   STEHT IM CORE, WEIL ER ZWEIMAL GEBRAUCHT WIRD (Fall 32): das
+   Gewinde-T-Stück und der Anschlussbogen tragen denselben Ring. Vor dem
+   24.08.2026 stand er wortgleich in products/_teethread/parts.js und
+   products/_bracket/parts.js.
+
+   Beispiel — Rp½"-Ring von y 20 bis y 34, Außenradius 12,7:
+     const r = threadRing({ a0: 20, a1: 34, rOuter: 12.7,
+                            od: 20.955, pitch: 1.814, turns: 6 });        */
+export function threadRing(opt) {
+  const { a0, a1, rOuter, od, pitch, turns, axis = 'y', segs = SEG_VIS } = opt;
+  const h = 0.640327 * pitch;
+  const coreDia = opt.coreDia ?? Math.round((od - 2 * h) * 1000) / 1000;
+  const rIn = coreDia / 2;
+
+  const gewinde = threadProfile(od, pitch, turns, 'Rp')
+    .map((p) => ({ a: a0 + 1.0 + p.a, r: p.r, fillet: p.fillet }))
+    .filter((p) => p.a <= a1 - 0.8);
+
+  const aussen = [
+    { a: a0, r: rOuter - 0.15, chamfer: 0.5 },
+    { a: a1, r: rOuter - 0.15, chamfer: 0.5 },
+  ];
+  const innen = [
+    { a: a1, r: rIn + pitch * 0.25, chamfer: 0.8 },
+    ...gewinde.slice().reverse(),
+    { a: a0 + 1.0, r: rIn, fillet: 0.4 },
+    { a: a0, r: rIn, chamfer: 0.4 },
+  ];
+  const profile = buildProfile([...aussen, ...innen], { segs: 4 });
+  return {
+    geo: revolve(profile, { axis, segments: segs }),
+    cap: capFromProfile(profile, axis),
+    profile,
+  };
+}
+
 /* ── hexPrism: Sechskant mit verrundeten Kanten ──
    af = Schlüsselweite (Abstand der Schlüsselflächen), h = Länge in +X,
    filletR = Kantenradius an den sechs Ecken. Beginnt bei a = 0.

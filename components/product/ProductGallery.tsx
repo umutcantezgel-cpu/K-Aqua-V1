@@ -7,6 +7,7 @@ import { Box, Maximize2, Layers, Sparkles, ExternalLink } from 'lucide-react';
 import clsx from 'clsx';
 import { Link } from '@/lib/i18n/navigation';
 import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
+import { CATALOG_TOTAL } from '@/lib/3d/slug-map.generated';
 
 interface Props {
   category: string;
@@ -59,7 +60,7 @@ export default function ProductGallery({ category, slug, title }: Props) {
             className="text-xs font-semibold text-primary hover:text-primary-strong flex items-center gap-1 transition-colors"
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Alle 70 Produkte im 3D Studio</span>
+            <span>Alle {CATALOG_TOTAL} Produkte im 3D Studio</span>
             <ExternalLink className="w-3 h-3 opacity-60" />
           </Link>
         </div>

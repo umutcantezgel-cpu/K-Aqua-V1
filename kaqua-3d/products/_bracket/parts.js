@@ -13,41 +13,22 @@
    benannt statt stillschweigend angelegt (Fall 32). */
 
 import {
-  SEG_VIS, buildProfile, capFromProfile, plateWithHoles, revolve, threadProfile,
+  SEG_VIS, plateWithHoles, threadRing,
 } from '../../core/index.js';
 
 /* 1 · Messingring mit zylindrischem Innengewinde Rp.
+   Der Ring steht im Core (threadRing); hier bleibt nur die Zuordnung der
+   P-Werte. Bis zum 24.08.2026 stand er wortgleich hier UND in
+   ../_teethread/parts.js — genau die Dopplung, die dieser Kopf benannte.
 
-   Bündig im PP: sichtbar ist von außen nur der schmale goldene Kreis an
-   der Stirnfläche und das Gewinde in der Bohrung — genau das, was
-   AQ090GP und das Katalogfoto S. 95 zeigen.
-
-   threadProfile mit kind 'Rp': die Kuppe liegt auf dem KERN
-   (threadOD − 2h), der Grund auf dem Nennmaß. */
+   Sichtbar ist von außen nur der schmale goldene Kreis an der
+   Stirnfläche. */
 export function buildBrassRing(P) {
-  const yA = P.brassBottom;
-  const yB = P.brassTop;
-  const rIn = P.threadCore / 2;
-
-  const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'Rp')
-    .map((p) => ({ a: yA + 1.0 + p.a, r: p.r, fillet: p.fillet }))
-    .filter((p) => p.a <= yB - 0.8);
-
-  const outer = [
-    { a: yA, r: P.brassR - 0.15, chamfer: 0.5 },
-    { a: yB, r: P.brassR - 0.15, chamfer: 0.5 },
-  ];
-  const inner = [
-    { a: yB, r: rIn + P.threadPitch * 0.25, chamfer: 0.8 },
-    ...thread.slice().reverse(),
-    { a: yA + 1.0, r: rIn, fillet: 0.4 },
-    { a: yA, r: rIn, chamfer: 0.4 },
-  ];
-  const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  return {
-    geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
-    cap: capFromProfile(profile, 'y'),
-  };
+  return threadRing({
+    a0: P.brassBottom, a1: P.brassTop, rOuter: P.brassR,
+    od: P.threadOD, pitch: P.threadPitch, turns: P.turns,
+    coreDia: P.threadCore, axis: 'y', segs: SEG_VIS,
+  });
 }
 
 /* 2 · Lasche der Wandscheibe.

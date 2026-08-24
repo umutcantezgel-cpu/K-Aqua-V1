@@ -15,6 +15,11 @@ import { pathToFileURL } from 'node:url';
 
 const ROOT = process.cwd();
 const LIB = pathToFileURL(path.join(ROOT, 'public', 'kaqua-3d', 'lib', 'index.mjs')).href;
+// Die GEPLANTE Produktzahl des Katalogs — nicht dieselbe wie die Zahl der
+// gebauten Modelle. Sie stand bis zum 24.08.2026 an zwei Stellen fest im Text
+// ("Alle 70 Produkte") und war schon damals falsch.
+const PLAN = path.join(ROOT, 'kaqua-3d', 'produkt-registry.json');
+const katalogTotal = JSON.parse(fs.readFileSync(PLAN, 'utf8')).produkte.length;
 const OUT = path.join(ROOT, 'lib', '3d', 'slug-map.generated.ts');
 
 const { REGISTRY } = await import(LIB);
@@ -37,6 +42,9 @@ ${body}
 };
 
 export const GENERATED_COUNT = ${entries.length};
+
+/** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
+export const CATALOG_TOTAL = ${katalogTotal};
 `;
 
 if (process.argv.includes('--check')) {
@@ -52,4 +60,4 @@ if (process.argv.includes('--check')) {
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, file);
-console.log(`✓ ${entries.length} Zuordnungen nach lib/3d/slug-map.generated.ts geschrieben.`);
+console.log(`✓ ${entries.length} Zuordnungen und CATALOG_TOTAL=${katalogTotal} nach lib/3d/slug-map.generated.ts geschrieben.`);

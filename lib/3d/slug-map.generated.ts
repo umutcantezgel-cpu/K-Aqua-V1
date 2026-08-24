@@ -48,3 +48,6 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
 };
 
 export const GENERATED_COUNT = 39;
+
+/** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
+export const CATALOG_TOTAL = 71;

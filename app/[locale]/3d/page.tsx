@@ -10,6 +10,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { Box, Layers, ShieldCheck } from 'lucide-react';
 import { Link } from '@/lib/i18n/navigation';
 import Native3DShowroom from '@/components/3d/Native3DShowroom';
+import { CATALOG_TOTAL } from '@/lib/3d/slug-map.generated';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -21,11 +22,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return constructMetadata({
     title: locale === 'de' 
-      ? 'K-Aqua 3D Studio — Alle 70 Produkte interaktiv in CAD' 
-      : 'K-Aqua 3D Studio — All 70 Products Interactive in CAD',
+      ? `K-Aqua 3D Studio — Alle ${CATALOG_TOTAL} Produkte interaktiv in CAD` 
+      : `K-Aqua 3D Studio — All ${CATALOG_TOTAL} Products Interactive in CAD`,
     description: locale === 'de'
-      ? 'Interaktiver 3D CAD-Showroom für alle 70 K-Aqua PP-R & PP-RCT Produkte: 360° Drehen, Bemaßung, Halbschnitt, Explosionsansicht & OBJ/GLTF Export.'
-      : 'Interactive 3D CAD showroom for all 70 K-Aqua PP-R & PP-RCT products: 360° rotation, dimensioning, cross-section, explode view & OBJ/GLTF export.',
+      ? `Interaktiver 3D CAD-Showroom für alle ${CATALOG_TOTAL} K-Aqua PP-R & PP-RCT Produkte: 360° Drehen, Bemaßung, Halbschnitt, Explosionsansicht & OBJ/GLTF Export.`
+      : `Interactive 3D CAD showroom for all ${CATALOG_TOTAL} K-Aqua PP-R & PP-RCT products: 360° rotation, dimensioning, cross-section, explode view & OBJ/GLTF export.`,
     path: '/3d',
     locale,
   });
