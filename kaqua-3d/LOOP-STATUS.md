@@ -3,7 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Wiederherstellung abgeschlossen.
+**Letzte Änderung:** 24.08.2026 — Wiederherstellung abgeschlossen,
+Spur A begonnen (1 von 34 nachgeschärft).
 
 ---
 
@@ -12,7 +13,8 @@ können, ohne die ganze Pipeline zu lesen.
 | | |
 |---|---|
 | Fertig | **34 von 71** · Selbsttest 34/34, max. 0,20 mm, keine Auffälligkeiten |
-| Laufendes Produkt | **keines** — der Loop steht am Anfang von Spur A |
+| Laufendes Produkt | **keines** |
+| Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Letzter Bauzustand | vollständig gebaut und ausgeliefert; `npm run build` grün |
 | Branch | `wiederherstellung-kaqua-3d` |
 
@@ -46,7 +48,8 @@ Wellen 3–5, der Originaltext von **Fall 36 und 37**. `UEBERGABE.md`,
 ## 2 · Als Nächstes
 
 **Spur A — die 34 fertigen gegen die neuen Bilder prüfen.**
-Beginn mit `elbow-90-male-thread`. **Erledigt: der Maßabgleich.** Die
+`elbow-90-male-thread` ist **fertig nachgeschärft** (Prüfbericht
+`pruefung/w6a-elbow-90-male-gestalt.md`). Der Maßabgleich: die
 Katalogtabelle S. 96 (`AQ092G`, 4 Größen) stimmt mit `data.js` in **jedem
 Wert** überein — d, R, D, l, z, L₁, z₁, kg und Pack. über alle vier Zeilen.
 Website-Tabelle und Druckkatalog sind damit zwei unabhängige Rang-1-Quellen,
@@ -71,21 +74,18 @@ bereits im Core.
 
 ## 3 · Offene Punkte für den Menschen
 
-### 3.1 `elbow-90-male-thread` — Klotz am Gewindeschenkel *(entscheidungsreif)*
+### 3.1 `elbow-90-male-thread` — Facettierung des Gewindeschenkels
 
-Das Foto `AQ092GP` zeigt am Gewindeschenkel einen breiten, flankierten
-PP-Klotz, deutlich weiter als der Muffenschenkel. `params.js` wirft eine
-Ausnahme, sobald der Gewindeschenkel über `D` hinausgeht — das Modell
-erzwingt das Gegenteil.
+**Erledigt:** Der Körper am Gewindeschenkel ist korrigiert. Er ist jetzt
+1,05–1,31 · D statt künstlich unter D gehalten; Herleitung, Maßtest und die
+vier Prüffragen in `pruefung/w6a-elbow-90-male-gestalt.md`. Der
+Sechskant-Verdacht war eine Codeverwechslung (`AQ090G` ist der Anschlussbogen
+IG, ein anderes Produkt) — das Modell hatte recht.
 
-Die Katalogtabelle S. 96 bemaßt diesen Körper **nicht** (`Code d R D l z L1
-z1`, Zeichnung `d D z l R L z1`). Nach der Rangregel darf ein Bild eine
-Gestalt bestimmen, die keine Tabelle bemaßt. **Vorschlag:** Wächter entfernen,
-Klotz nach Foto, als ASSUMPTION mit Herleitung.
-
-*Der Sechskant-Verdacht hat sich erledigt:* `AQ090G2012` ist der
-Anschlussbogen IG (S. 95), ein anderes Produkt. `AQ092G` hat keinen Render.
-Das Modell hat recht.
+**Offen:** Beide Fotos zeigen den Körper **facettiert**, nicht rund. Wie viele
+Flächen und über welche Länge, geben sie nicht her; modelliert ist der
+Umkreis. Ein besseres Bild (oder Herstellerauskunft) würde das lösen. Kein
+Maßfehler — der Umkreis ist das größte Maß.
 
 ### 3.2 `adaptor-socket-female-thread` — die Website zeigt eine fremde Tabelle
 
