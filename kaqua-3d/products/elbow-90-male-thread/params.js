@@ -13,9 +13,9 @@
    verschieden (28 gegen 34 bei d20). bendPath hat jetzt ein sechstes
    Argument LB; ohne Angabe bleibt das Verhalten das alte. */
 
-import { D2R } from '../../core/index.js';
+import { D2R, threadSpec } from '../../core/index.js';
 import { bendParams } from '../_bend/params.js';
-import { ANGLE, SDR, THREAD, article } from './data.js';
+import { ANGLE, SDR, article } from './data.js';
 
 export function params(key) {
   const a = article(key);
@@ -28,7 +28,7 @@ export function params(key) {
   P.l = a.l;
   P.leg = a.l;
 
-  const th = THREAD[a.R];
+  const th = threadSpec(a.R);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde R' + a.R);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;

@@ -4,14 +4,14 @@
    Produktfoto abgeleitet und in data.js über das Gewicht gegengeprüft.
    Entsprechend trägt praktisch jede Zeile ASSUMPTION. */
 
-import { D2R } from '../../core/index.js';
-import { article, THREAD } from './data.js';
+import { D2R, threadSpec } from '../../core/index.js';
+import { article } from './data.js';
 
 export function params(key) {
   const a = article(key);
   const P = Object.assign({}, a);
 
-  const th = THREAD[a.G];
+  const th = threadSpec(a.G);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde G' + a.G);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;

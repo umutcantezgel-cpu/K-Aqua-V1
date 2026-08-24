@@ -76,12 +76,9 @@ export const SIZES_SOURCE_VERIFIED = 4;
 export const ANGLE = 90;
 export const SDR = 6;
 
-/* Außendurchmesser und Steigung je Gewindegröße, ISO 7-1 / DIN 2999. */
-export const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 export const ARTICLES = [
   { key: '20x1/2', code: 'AQ092G2012', d: 20, R: '1/2', D: 29, l: 28, z: 14, L1: 34, z1: 49, kg: 0.09, pack: 180 },

@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, arcPts, buildProfile, capFromProfile, createAssembly, grooveMod, materials, mergeGeometries, revolve, thetaSamples, threadProfile,
+  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, arcPts, buildProfile, capFromProfile, createAssembly, grooveMod, materials, mergeGeometries, revolve, thetaSamples, threadProfile, threadSpec,
 } from '../kaqua-3d-core.mjs';
 
 /* == plug/data.js ====================================================== */
@@ -49,11 +49,9 @@ import {
 export const DATA_STATUS = 'verifiziert-ohne-masse';
 export const SIZES_SOURCE_VERIFIED = 1;
 
-/* G-Gewinde nach ISO 228-1 (zylindrisch, im Gegensatz zum kegeligen R). */
-export const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 export const ARTICLES = [
   { key: '1/2', code: 'AQ90912', G: '1/2', kg: 0.02, pack: 1 },
@@ -86,7 +84,7 @@ export function params(key) {
   const a = article(key);
   const P = Object.assign({}, a);
 
-  const th = THREAD[a.G];
+  const th = threadSpec(a.G);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde G' + a.G);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;

@@ -1849,6 +1849,47 @@ function fusionDepth(dNom) {
   return FUSION_DEPTH[dNom] ?? null;
 }
 
+/* ── Rohrgewinde nach ISO 7-1 / ISO 228-1 ──
+   Außendurchmesser (Flankenberg) und Steigung je Zollgröße. Kegeliges
+   Außengewinde R, zylindrisches Innengewinde Rp und zylindrisches
+   Außengewinde G teilen dieselben Werte — sie unterscheiden sich in der
+   Verjüngung, nicht im Nennmaß. Welche Art gemeint ist, entscheidet das
+   Produkt über den Parameter `kind` von threadProfile.
+
+   STEHT IM CORE, WEIL SIE ES MUSS (Fall 19). Vor dem 24.08.2026 stand
+   diese Tabelle FÜNFMAL im Produktcode — in _teethread/params.js,
+   _union/params.js, elbow-90-male-thread/data.js,
+   adaptor-socket-male-thread/data.js und plug/data.js. Alle fünf trugen
+   für jede gemeinsame Größe denselben Wert; eine einzige Abweichung
+   hätte zwei Produkte still auseinanderlaufen lassen.
+
+   Die Werte sind Norm, keine Schätzung: die Zollangabe bestimmt sie
+   eindeutig. Deshalb gehören sie neben FUSION_DEPTH und nicht in ein
+   Produkt.
+
+   Rückgabe null für Größen außerhalb der Reihe — der Aufrufer wirft mit
+   seiner eigenen, sprechenden Meldung.
+
+   Beispiel:
+     const th = threadSpec('1/2');   // { od: 20.955, pitch: 1.814 }   */
+const THREAD_ISO = {
+  '1/2': { od: 20.955, pitch: 1.814 },
+  '3/4': { od: 26.441, pitch: 1.814 },
+  '1': { od: 33.249, pitch: 2.309 },
+  '1 1/4': { od: 41.910, pitch: 2.309 },
+  '1 1/2': { od: 47.803, pitch: 2.309 },
+  '2': { od: 59.614, pitch: 2.309 },
+  '2 1/2': { od: 75.184, pitch: 2.309 },
+  '3': { od: 87.884, pitch: 2.309 },
+  '4': { od: 113.030, pitch: 2.309 },
+};
+function threadSpec(size) {
+  return THREAD_ISO[size] ?? null;
+}
+function threadSizes() {
+  return Object.keys(THREAD_ISO);
+}
+
 /* ── bendPath: Gerade – Bogen – Gerade ──
    Die Bahn eines Rohrbogens oder Winkels. Schenkel A misst L von der
    Achsenschnittstelle bis zur Stirnfläche, Schenkel B misst LB; der
@@ -3540,18 +3581,9 @@ const DATA_STATUS = 'verifiziert';
 const SIZES_SOURCE_VERIFIED = 12;
 const SDR = 6;
 
-/* Außendurchmesser und Steigung je Gewindegröße, ISO 7-1 / DIN 2999. */
-const THREAD = {
-  '1': { od: 33.249, pitch: 2.309 },
-  '2': { od: 59.614, pitch: 2.309 },
-  '3': { od: 87.884, pitch: 2.309 },
-  '4': { od: 113.03, pitch: 2.309 },
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1 1/4': { od: 41.91, pitch: 2.309 },
-  '1 1/2': { od: 47.803, pitch: 2.309 },
-  '2 1/2': { od: 75.184, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 const ARTICLES = [
   { key: '20x1/2', code: 'AQ243G2012', d: 20, R: '1/2', D: 35, D1: 29, l: 53, z: 40, kg: 0.08, pack: 200 },
@@ -3597,7 +3629,7 @@ function params(key) {
   const a = article(key);
   const P = Object.assign({}, a);
 
-  const th = THREAD[a.R];
+  const th = threadSpec(a.R);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde R' + a.R);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;
@@ -6505,12 +6537,9 @@ const SIZES_SOURCE_VERIFIED = 4;
 const ANGLE = 90;
 const SDR = 6;
 
-/* Außendurchmesser und Steigung je Gewindegröße, ISO 7-1 / DIN 2999. */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 const ARTICLES = [
   { key: '20x1/2', code: 'AQ092G2012', d: 20, R: '1/2', D: 29, l: 28, z: 14, L1: 34, z1: 49, kg: 0.09, pack: 180 },
@@ -6566,7 +6595,7 @@ function params(key) {
   P.l = a.l;
   P.leg = a.l;
 
-  const th = THREAD[a.R];
+  const th = threadSpec(a.R);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde R' + a.R);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;
@@ -11339,16 +11368,9 @@ const __p22 = (() => {
    Tabelle: gemessener Grünring Ø28,2 bei d20 gegen tabellierte 29. */
 const SOCKET_OD = { 20: 29, 25: 35, 32: 44, 40: 52, 50: 65, 63: 84 };
 
-/* R nach ISO 7-1 (kegelig), Rp nach ISO 228-1 (zylindrisch).
-   Außendurchmesser und Steigung sind für beide gleich. */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-  '1 1/4': { od: 41.910, pitch: 2.309 },
-  '1 1/2': { od: 47.803, pitch: 2.309 },
-  '2': { od: 59.614, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 /* Kupplungsgewinde der Mutter, ISO 228-1. Nur für die Zusicherung. */
 const NUT_THREAD_OD = {
@@ -11396,7 +11418,7 @@ function unionParams(a, cfg) {
   const d = a.d;
   const gewinde = kind === 'R' ? a.R : a.Rp;
 
-  const th = THREAD[gewinde];
+  const th = threadSpec(gewinde);
   if (!th) throw new Error('K-Aqua Verschraubung: kein Normmaß für ' + kind + gewinde);
   P.threadKind = kind;
   P.threadLabel = gewinde;
@@ -12343,16 +12365,9 @@ const __p23 = (() => {
    Tabelle: gemessener Grünring Ø28,2 bei d20 gegen tabellierte 29. */
 const SOCKET_OD = { 20: 29, 25: 35, 32: 44, 40: 52, 50: 65, 63: 84 };
 
-/* R nach ISO 7-1 (kegelig), Rp nach ISO 228-1 (zylindrisch).
-   Außendurchmesser und Steigung sind für beide gleich. */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-  '1 1/4': { od: 41.910, pitch: 2.309 },
-  '1 1/2': { od: 47.803, pitch: 2.309 },
-  '2': { od: 59.614, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 /* Kupplungsgewinde der Mutter, ISO 228-1. Nur für die Zusicherung. */
 const NUT_THREAD_OD = {
@@ -12400,7 +12415,7 @@ function unionParams(a, cfg) {
   const d = a.d;
   const gewinde = kind === 'R' ? a.R : a.Rp;
 
-  const th = THREAD[gewinde];
+  const th = threadSpec(gewinde);
   if (!th) throw new Error('K-Aqua Verschraubung: kein Normmaß für ' + kind + gewinde);
   P.threadKind = kind;
   P.threadLabel = gewinde;
@@ -13363,16 +13378,9 @@ const __p24 = (() => {
    Tabelle: gemessener Grünring Ø28,2 bei d20 gegen tabellierte 29. */
 const SOCKET_OD = { 20: 29, 25: 35, 32: 44, 40: 52, 50: 65, 63: 84 };
 
-/* R nach ISO 7-1 (kegelig), Rp nach ISO 228-1 (zylindrisch).
-   Außendurchmesser und Steigung sind für beide gleich. */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-  '1 1/4': { od: 41.910, pitch: 2.309 },
-  '1 1/2': { od: 47.803, pitch: 2.309 },
-  '2': { od: 59.614, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 /* Kupplungsgewinde der Mutter, ISO 228-1. Nur für die Zusicherung. */
 const NUT_THREAD_OD = {
@@ -13420,7 +13428,7 @@ function unionParams(a, cfg) {
   const d = a.d;
   const gewinde = kind === 'R' ? a.R : a.Rp;
 
-  const th = THREAD[gewinde];
+  const th = threadSpec(gewinde);
   if (!th) throw new Error('K-Aqua Verschraubung: kein Normmaß für ' + kind + gewinde);
   P.threadKind = kind;
   P.threadLabel = gewinde;
@@ -14368,16 +14376,9 @@ const __p25 = (() => {
    Tabelle: gemessener Grünring Ø28,2 bei d20 gegen tabellierte 29. */
 const SOCKET_OD = { 20: 29, 25: 35, 32: 44, 40: 52, 50: 65, 63: 84 };
 
-/* R nach ISO 7-1 (kegelig), Rp nach ISO 228-1 (zylindrisch).
-   Außendurchmesser und Steigung sind für beide gleich. */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-  '1 1/4': { od: 41.910, pitch: 2.309 },
-  '1 1/2': { od: 47.803, pitch: 2.309 },
-  '2': { od: 59.614, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 /* Kupplungsgewinde der Mutter, ISO 228-1. Nur für die Zusicherung. */
 const NUT_THREAD_OD = {
@@ -14425,7 +14426,7 @@ function unionParams(a, cfg) {
   const d = a.d;
   const gewinde = kind === 'R' ? a.R : a.Rp;
 
-  const th = THREAD[gewinde];
+  const th = threadSpec(gewinde);
   if (!th) throw new Error('K-Aqua Verschraubung: kein Normmaß für ' + kind + gewinde);
   P.threadKind = kind;
   P.threadLabel = gewinde;
@@ -15897,11 +15898,9 @@ const __p27 = (() => {
 const DATA_STATUS = 'verifiziert-ohne-masse';
 const SIZES_SOURCE_VERIFIED = 1;
 
-/* G-Gewinde nach ISO 228-1 (zylindrisch, im Gegensatz zum kegeligen R). */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 const ARTICLES = [
   { key: '1/2', code: 'AQ90912', G: '1/2', kg: 0.02, pack: 1 },
@@ -15934,7 +15933,7 @@ function params(key) {
   const a = article(key);
   const P = Object.assign({}, a);
 
-  const th = THREAD[a.G];
+  const th = threadSpec(a.G);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde G' + a.G);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;
@@ -17365,12 +17364,9 @@ function buildTee(P) {
    Tabellenwert wandert als socketFromTable in den Prüfbericht (Fall 4). */
 
 
-/* R nach ISO 7-1 (kegelig), Rp nach ISO 228-1 (zylindrisch). */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 /* Muffen-Außendurchmesser aus products/socket/data.js, Spalte D.
    Dient nur der Gegenprobe des Widerspruchs bei d25 (siehe unten). */
@@ -17382,7 +17378,7 @@ function teeThreadParams(a, cfg) {
   const d = a.d;
   const gewinde = kind === 'R' ? a.R : a.Rp;
 
-  const th = THREAD[gewinde];
+  const th = threadSpec(gewinde);
   if (!th) throw new Error('K-Aqua Gewinde-T-Stück: kein Normmaß für ' + kind + gewinde);
   P.threadKind = kind;
   P.threadLabel = gewinde;
@@ -18225,12 +18221,9 @@ function buildTee(P) {
    Tabellenwert wandert als socketFromTable in den Prüfbericht (Fall 4). */
 
 
-/* R nach ISO 7-1 (kegelig), Rp nach ISO 228-1 (zylindrisch). */
-const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 /* Muffen-Außendurchmesser aus products/socket/data.js, Spalte D.
    Dient nur der Gegenprobe des Widerspruchs bei d25 (siehe unten). */
@@ -18242,7 +18235,7 @@ function teeThreadParams(a, cfg) {
   const d = a.d;
   const gewinde = kind === 'R' ? a.R : a.Rp;
 
-  const th = THREAD[gewinde];
+  const th = threadSpec(gewinde);
   if (!th) throw new Error('K-Aqua Gewinde-T-Stück: kein Normmaß für ' + kind + gewinde);
   P.threadKind = kind;
   P.threadLabel = gewinde;

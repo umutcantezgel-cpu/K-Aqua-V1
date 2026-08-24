@@ -39,11 +39,9 @@
 export const DATA_STATUS = 'verifiziert-ohne-masse';
 export const SIZES_SOURCE_VERIFIED = 1;
 
-/* G-Gewinde nach ISO 228-1 (zylindrisch, im Gegensatz zum kegeligen R). */
-export const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 export const ARTICLES = [
   { key: '1/2', code: 'AQ90912', G: '1/2', kg: 0.02, pack: 1 },

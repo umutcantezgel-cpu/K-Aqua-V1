@@ -3,14 +3,14 @@
    Zwei Werkstoffe, zwei Nennweiten. Aus der Tabelle kommen d, R, D, D1,
    l und z; die Gewindegeometrie aus der Normtabelle in data.js. */
 
-import { D2R, fusionDepth } from '../../core/index.js';
-import { article, THREAD } from './data.js';
+import { D2R, fusionDepth, threadSpec } from '../../core/index.js';
+import { article } from './data.js';
 
 export function params(key) {
   const a = article(key);
   const P = Object.assign({}, a);
 
-  const th = THREAD[a.R];
+  const th = threadSpec(a.R);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde R' + a.R);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;

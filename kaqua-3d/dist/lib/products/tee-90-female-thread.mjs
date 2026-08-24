@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile,
+  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile, threadSpec,
 } from '../kaqua-3d-core.mjs';
 
 /* == _tee/parts.js ===================================================== */
@@ -165,12 +165,9 @@ export function buildTee(P) {
    Tabellenwert wandert als socketFromTable in den Prüfbericht (Fall 4). */
 
 
-/* R nach ISO 7-1 (kegelig), Rp nach ISO 228-1 (zylindrisch). */
-export const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 /* Muffen-Außendurchmesser aus products/socket/data.js, Spalte D.
    Dient nur der Gegenprobe des Widerspruchs bei d25 (siehe unten). */
@@ -182,7 +179,7 @@ export function teeThreadParams(a, cfg) {
   const d = a.d;
   const gewinde = kind === 'R' ? a.R : a.Rp;
 
-  const th = THREAD[gewinde];
+  const th = threadSpec(gewinde);
   if (!th) throw new Error('K-Aqua Gewinde-T-Stück: kein Normmaß für ' + kind + gewinde);
   P.threadKind = kind;
   P.threadLabel = gewinde;

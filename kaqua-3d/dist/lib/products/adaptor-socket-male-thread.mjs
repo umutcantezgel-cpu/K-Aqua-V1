@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, DRAFT, ISO, SEG_FINE, SEG_INT, SEG_VIS, buildProfile, capFromProfile, createAssembly, fusionDepth, grooveMod, hexPrism, knurl, materials, mergeGeometries, revolve, thetaSamples, threadProfile,
+  D2R, DRAFT, ISO, SEG_FINE, SEG_INT, SEG_VIS, buildProfile, capFromProfile, createAssembly, fusionDepth, grooveMod, hexPrism, knurl, materials, mergeGeometries, revolve, thetaSamples, threadProfile, threadSpec,
 } from '../kaqua-3d-core.mjs';
 
 /* == adaptor-socket-male-thread/data.js ================================ */
@@ -49,18 +49,9 @@ export const DATA_STATUS = 'verifiziert';
 export const SIZES_SOURCE_VERIFIED = 12;
 export const SDR = 6;
 
-/* Außendurchmesser und Steigung je Gewindegröße, ISO 7-1 / DIN 2999. */
-export const THREAD = {
-  '1': { od: 33.249, pitch: 2.309 },
-  '2': { od: 59.614, pitch: 2.309 },
-  '3': { od: 87.884, pitch: 2.309 },
-  '4': { od: 113.03, pitch: 2.309 },
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1 1/4': { od: 41.91, pitch: 2.309 },
-  '1 1/2': { od: 47.803, pitch: 2.309 },
-  '2 1/2': { od: 75.184, pitch: 2.309 },
-};
+/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
+   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
+   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
 
 export const ARTICLES = [
   { key: '20x1/2', code: 'AQ243G2012', d: 20, R: '1/2', D: 35, D1: 29, l: 53, z: 40, kg: 0.08, pack: 200 },
@@ -106,7 +97,7 @@ export function params(key) {
   const a = article(key);
   const P = Object.assign({}, a);
 
-  const th = THREAD[a.R];
+  const th = threadSpec(a.R);
   if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde R' + a.R);
   P.threadOD = th.od;
   P.threadPitch = th.pitch;

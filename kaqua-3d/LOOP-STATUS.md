@@ -136,8 +136,14 @@ Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
 
 ## 4 · Eigene Arbeitsschritte, nicht nebenbei
 
-- **ISO-7-1-Gewindetabelle in den Core.** Sie steht in vier Produktdateien mit
-  identischen Werten (Fall 19). Vollbau danach.
+- ~~ISO-7-1-Gewindetabelle in den Core~~ **erledigt 24.08.2026.** Sie stand
+  nicht in vier, sondern in **fünf** Produktdateien (`_teethread`, `_union`,
+  `elbow-90-male-thread`, `adaptor-socket-male-thread`, `plug`), alle mit
+  identischen Werten. Jetzt `threadSpec()` in `core/geometry.js`, neben
+  `fusionDepth`. Vollbau danach: Selbsttest unverändert 34/34, 0,20 mm,
+  956 348 Dreiecke — der Umzug ist geometrisch neutral.
+  Nicht mitgenommen: `NUT_THREAD_OD` in `_union/params.js`. Das ist die
+  Tabelle des Kupplungsgewindes der Mutter, eine andere Größenreihe.
 - **`produkt-registry.json` nachziehen:** `build.status` führt 1 fertig / 70
   offen, tatsächlich sind es 34 / 37. Dazu die 22 Präfixkorrekturen aus §3.3.
 - **Verwaiste Bau-Caches:** `build/core-stripped.js`, `prod-a.js`, `prod-b.js`,
