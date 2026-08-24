@@ -23,6 +23,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "flat-gasket-for-unions": "accessories/flat-gasket-for-unions",
   "k-fiber-pipe-pp-r-sdr-11": "pipes/k-fiber-pipe-pp-r-sdr-11",
   "k-fiber-pipe-pp-r-sdr-17": "pipes/k-fiber-pipe-pp-r-sdr-17",
+  "k-fiber-pipe-pp-r-sdr-6": "pipes/k-fiber-pipe-pp-r-sdr-6",
   "k-fiber-pipe-pp-r-sdr-74": "pipes/k-fiber-pipe-pp-r-sdr-7-4",
   "k-fiber-pipe-pp-r-sdr-9": "pipes/k-fiber-pipe-pp-r-sdr-9",
   "k-fiber-pipe-pp-rct-sdr-74": "pipes/k-fiber-pipe-pp-rct-sdr-7-4",
@@ -47,7 +48,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "union": "transition-fittings/union",
 };
 
-export const GENERATED_COUNT = 39;
+export const GENERATED_COUNT = 40;
 
 /** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
 export const CATALOG_TOTAL = 71;

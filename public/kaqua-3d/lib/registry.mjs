@@ -138,6 +138,14 @@ export const REGISTRY = [
   "category": "pipes"
  },
  {
+  "slug": "k-fiber-pipe-pp-r-sdr-6",
+  "id": "pipes/k-fiber-pipe-pp-r-sdr-6",
+  "module": "kaqua-k-fiber-pipe-pp-r-sdr-6",
+  "titleDe": "K-Fiber Rohr PP-R SDR 6",
+  "titleEn": "K-Fiber Pipe PP-R SDR 6",
+  "category": "pipes"
+ },
+ {
   "slug": "k-fiber-pipe-pp-r-sdr-74",
   "id": "pipes/k-fiber-pipe-pp-r-sdr-7-4",
   "module": "kaqua-k-fiber-pipe-pp-r-sdr-7-4",

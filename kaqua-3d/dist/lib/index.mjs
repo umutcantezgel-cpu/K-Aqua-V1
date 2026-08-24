@@ -30,6 +30,7 @@ const LOADERS = {
   'accessories/flat-gasket-for-unions': () => import('./products/flat-gasket-for-unions.mjs'),
   'pipes/k-fiber-pipe-pp-r-sdr-11': () => import('./products/k-fiber-pipe-pp-r-sdr-11.mjs'),
   'pipes/k-fiber-pipe-pp-r-sdr-17': () => import('./products/k-fiber-pipe-pp-r-sdr-17.mjs'),
+  'pipes/k-fiber-pipe-pp-r-sdr-6': () => import('./products/k-fiber-pipe-pp-r-sdr-6.mjs'),
   'pipes/k-fiber-pipe-pp-r-sdr-7-4': () => import('./products/k-fiber-pipe-pp-r-sdr-74.mjs'),
   'pipes/k-fiber-pipe-pp-r-sdr-9': () => import('./products/k-fiber-pipe-pp-r-sdr-9.mjs'),
   'pipes/k-fiber-pipe-pp-rct-sdr-7-4': () => import('./products/k-fiber-pipe-pp-rct-sdr-74.mjs'),

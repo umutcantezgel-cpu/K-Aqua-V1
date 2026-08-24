@@ -1,7 +1,14 @@
-/* K-Aqua K-Rohr Violett PP-R SDR 11 — Produktpaket nach PRODUKT-VERTRAG.md.
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Produktpaket nach PRODUKT-VERTRAG.md.
+
+   Das dickwandigste Rohr der PP-R-Faserreihe: S 2,5 trägt 2,0 MPa bei
+   20 °C und 1,0 MPa bei 70 °C. Bei d125 sind das 20,8 mm Mindestwand.
 
    Ein Rohrabschnitt, kein Zustand. Der Nutzen steckt in der
-   Schnittansicht: dort wird der Wandaufbau sichtbar. */
+   Schnittansicht: dort wird der Faserkern sichtbar.
+
+   Aufgenommen am 24.08.2026 — das Produkt fehlte in der 71er-Liste, weil
+   es keine Website-Seite hat und die Liste aus dem Scrape stammte. Der
+   Druckkatalog führt es auf S. 79. */
 
 import * as THREE from 'three';
 import { createAssembly } from '../../core/index.js';
@@ -12,12 +19,12 @@ import { buildTube, buildStripe } from './parts.js';
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
 const product = {
-  id: 'pipes/k-pipe-purple-pp-r-sdr-11',
-  module: 'kaqua-k-pipe-purple-pp-r-sdr-11',
-  titleDe: 'K-Rohr Violett PP-R SDR 11',
-  titleEn: 'K-Pipe Purple PP-R SDR 11',
+  id: 'pipes/k-fiber-pipe-pp-r-sdr-6',
+  module: 'kaqua-k-fiber-pipe-pp-r-sdr-6',
+  titleDe: 'K-Fiber Rohr PP-R SDR 6',
+  titleEn: 'K-Fiber Pipe PP-R SDR 6',
   category: 'pipes',
-  brandLine: 'K-Aqua PP-R · SDR 11 · S 5',
+  brandLine: 'K-Aqua PP-R GF · SDR 6 · S 2,5',
   dataStatus: DATA_STATUS,
 
   articles: ARTICLES,
@@ -32,15 +39,15 @@ const product = {
   variants: [],
   states: null,
 
-  tile: 'Violette Kennfarbe für Betriebswasser und Regenwassernutzung — maßgleich zum grünen SDR-11-Rohr.',
+  tile: 'Glasfaserverstärkt: der Faserkern nimmt die Längsdehnung auf, die Leitung braucht weniger Festpunkte. Im Schnitt sichtbar.',
 
   build(size, variant, clipPlane) {
     const P = params(size);
     const matKeys = [...new Set([...LAYERS.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
     const A = createAssembly({
-      name: 'K-Aqua_kaqua-k-pipe-purple-pp-r-sdr-11' + '_d' + size,
+      name: 'K-Aqua_kaqua-k-fiber-pipe-pp-r-sdr-6' + '_d' + size,
       materials: matKeys,
-      seed: 97,
+      seed: 79,
       clipPlane,
     });
 
@@ -85,7 +92,7 @@ const product = {
     A.hotspot({
       v: V3(P.len * 0.12, P.rOut * 0.95, P.rOut * 0.28),
       n: V3(0, 0.95, 0.3),
-      text: 'SDR 11, S 5 — Lieferlänge ' + P.stockLength + ' m',
+      text: 'SDR 6, S 2,5 — Lieferlänge ' + P.stockLength + ' m',
     });
 
     const zf = P.rOut + 0.10 * P.len;

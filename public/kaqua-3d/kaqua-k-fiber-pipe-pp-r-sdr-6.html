@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>K-Fiber Rohr PP-R SDR 9 (K-Fiber Pipe PP-R SDR 9) — K-Aqua 3D-Ansicht</title>
-<meta name="description" content="Interaktive 3D-Ansicht: K-Fiber Rohr PP-R SDR 9. Nennweiten, Explosionsansicht, Halbschnitt, Bemaßung.">
+<title>K-Fiber Rohr PP-R SDR 6 (K-Fiber Pipe PP-R SDR 6) — K-Aqua 3D-Ansicht</title>
+<meta name="description" content="Interaktive 3D-Ansicht: K-Fiber Rohr PP-R SDR 6. Nennweiten, Explosionsansicht, Halbschnitt, Bemaßung.">
 <script type="importmap">
 {
   "imports": {
@@ -3705,41 +3705,75 @@ function buildStripe(P, stripe) {
 }
 
 
-/* == k-fiber-pipe-pp-r-sdr-9/data.js =================================== */
-/* K-Aqua K-Fiber Rohr PP-R SDR 9 — Artikeltabelle.
+/* == k-fiber-pipe-pp-r-sdr-6/data.js =================================== */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Artikeltabelle.
 
-   PHASE 1, verifiziert am 17.08.2026 gegen
-   Piepes K-Aqua/screencapture-…-pipes-k-fiber-pipe-pp-r-sdr-9-….pdf
-   (Seitenbilder quellen/pg-k-fiber-pipe-pp-r-sdr-9-p1.jpg, -p2.jpg). Die Tabelle läuft
-   über den Seitenumbruch.
+   PHASE 1, verifiziert am 24.08.2026 gegen
+   Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf, Seite 79 (oberer Block).
+
+   ── EINZIGE QUELLE, UND DAS IST HIER KEIN MANGEL ──
+   Dieses Produkt hat KEINE Website-Aufnahme: unter den zwölf Rohrseiten in
+   'K-Aqua Unterseitem Kopie/Piepes K-Aqua' fehlt es. Genau deshalb fehlte
+   es auch in der 71er-Produktliste, die aus dem Website-Scrape stammte.
+   Der Druckkatalog führt es dagegen im Rohr-Inhaltsverzeichnis (S. 75) und
+   auf S. 79 mit vollständiger Tabelle. Aufgenommen am 24.08.2026.
+
+   Kopfzeile wörtlich:
+     „K-Fiber Pipe PP-R" SDR 6 – S 2,5 (20° C/2,0 MPa – 70° C/1,0 MPa),
+     length 4 meter
 
    Spaltenköpfe: Code · D · DN · Di · S min. · Pack. · Weight (kg/m) ·
    Water capacity (l/m)
-   Kopfzeile: „K-Fiber Pipe PP-R SDR 9" SDR 9 — S 4 (20 °C/2,0 MPa — 60 °C/1,0 MPa), length 4 meter
 
-   Zeichnungsangabe wörtlich (Miniatur neben dem Produktfoto):
-     Material: PP-R GF
-     Colour:   green with 4 blue stripes
-     Standards: DIN EN ISO 15874
-   Am 17.08.2026 nachgelesen — vorher war grau.
+   Angaben neben der Tabelle, wörtlich:
+     Material:  PP-R GF
+     Colour:    green with 4 red stripes
+     Standards: DIN EN ISO 15874, DIN 8077 / 8078
 
-   Transkriptionsprobe D − 2·S = Di: über alle 8 Zeilen erfüllt.
- */
+   ── TRANSKRIPTIONSPROBE D − 2·S = Di ──
+   Sie geht in sieben der zehn Zeilen exakt auf. Drei weichen um 0,2 mm ab:
 
-const DATA_STATUS = 'verifiziert';
-const SIZES_SOURCE_VERIFIED = 8;
-const SDR = 9;
+     d50   50 − 16,6 = 33,4   Tabelle Di 33,2
+     d110  110 − 36,6 = 73,4  Tabelle Di 73,2
+     d125  125 − 41,6 = 83,4  Tabelle Di 83,2
+
+   Das ist KEIN Lesefehler und wird nicht korrigiert: die Spalte heißt
+   „S min.", also Mindestwandstärke. Ist die wirkliche Wand um 0,1 mm
+   dicker, wird die Bohrung um 0,2 mm enger — die Abweichung hat genau
+   dieses Vorzeichen und diese Größe. Modelliert wird Di aus der Tabelle,
+   die Wand ergibt sich daraus.
+
+   ── STREIFENFARBE: WIDERSPRUCH IN DER FAMILIE, HIER ABER EINDEUTIG ──
+   Der Katalog gibt für dieses Rohr „4 red stripes". Eine zweite Quelle
+   gibt es nicht, also ist die Farbe hier unstrittig.
+
+   Bei drei Schwesterrohren widersprechen sich Katalog und
+   Website-Aufnahme allerdings, und zwar als sauberer Ringtausch:
+
+     k-fiber-pipe-pp-r-sdr-7-4   Website grau  · Katalog rot
+     k-fiber-pipe-pp-r-sdr-9     Website blau  · Katalog grau
+     k-fiber-pipe-pp-r-sdr-11    Website rot   · Katalog blau
+
+   Die Streifenzahl stimmt überall (vier). Zwei Rang-1-Quellen, keine
+   gewinnt — der Widerspruch steht in LOOP-STATUS.md und wird nicht durch
+   Nachgeben aufgelöst. Dieses Produkt ist davon unberührt. */
+
+const DATA_STATUS = 'verifiziert-nur-katalog';
+const SIZES_SOURCE_VERIFIED = 10;
+const SDR = 6;
 const STOCK_LENGTH_M = 4;
 
 const ARTICLES = [
-  { code: 'AQ169PF32', d: 32, dn: 25, di: 24.8, s: 3.6, pack: 60, kgm: 0.33, lm: 0.48 },
-  { code: 'AQ169PF40', d: 40, dn: 32, di: 31, s: 4.5, pack: 40, kgm: 0.52, lm: 0.75 },
-  { code: 'AQ169PF50', d: 50, dn: 40, di: 38.8, s: 5.6, pack: 20, kgm: 0.8, lm: 1.18 },
-  { code: 'AQ169PF63', d: 63, dn: 50, di: 48.8, s: 7.1, pack: 20, kgm: 1.25, lm: 1.87 },
-  { code: 'AQ169PF75', d: 75, dn: null, di: 58.2, s: 8.4, pack: 12, kgm: 1.77, lm: 2.66 },
-  { code: 'AQ169PF90', d: 90, dn: 65, di: 69.8, s: 10.1, pack: 8, kgm: 2.55, lm: 3.83 },
-  { code: 'AQ169PF110', d: 110, dn: 80, di: 85.4, s: 12.3, pack: 4, kgm: 3.78, lm: 5.73 },
-  { code: 'AQ169PF125', d: 125, dn: 100, di: 97, s: 14, pack: 4, kgm: 4.89, lm: 7.39 },
+  { code: 'AQ206PF20', d: 20, dn: 12, di: 13.2, s: 3.4, pack: 100, kgm: 0.18, lm: 0.14 },
+  { code: 'AQ206PF25', d: 25, dn: 15, di: 16.6, s: 4.2, pack: 100, kgm: 0.28, lm: 0.22 },
+  { code: 'AQ206PF32', d: 32, dn: 20, di: 21.2, s: 5.4, pack: 60, kgm: 0.46, lm: 0.35 },
+  { code: 'AQ206PF40', d: 40, dn: 25, di: 26.6, s: 6.7, pack: 40, kgm: 0.68, lm: 0.56 },
+  { code: 'AQ206PF50', d: 50, dn: 32, di: 33.2, s: 8.3, pack: 20, kgm: 1.09, lm: 0.87 },
+  { code: 'AQ206PF63', d: 63, dn: 40, di: 42, s: 10.5, pack: 20, kgm: 1.6, lm: 1.39 },
+  { code: 'AQ206PF75', d: 75, dn: 50, di: 50, s: 12.5, pack: 12, kgm: 2.5, lm: 1.96 },
+  { code: 'AQ206PF90', d: 90, dn: null, di: 60, s: 15, pack: 8, kgm: 3.3, lm: 2.83 },
+  { code: 'AQ206PF110', d: 110, dn: 65, di: 73.2, s: 18.3, pack: 4, kgm: 5, lm: 4.21 },
+  { code: 'AQ206PF125', d: 125, dn: 80, di: 83.2, s: 20.8, pack: 4, kgm: 6.5, lm: 5.46 },
 ];
 
 const SIZES = ARTICLES.map((a) => a.d);
@@ -3748,12 +3782,12 @@ const DIMENSION_KEY = {
   d: 'Außendurchmesser',
   dn: 'Nennweite DN',
   di: 'Innendurchmesser',
-  s: 'Wandstärke',
+  s: 'Wandstärke (Mindestmaß)',
 };
 
-/* Wandaufbau von außen nach innen. Der Grund, warum diese Produkte ein
-   3D-Modell rechtfertigen: im Schnitt wird sichtbar, was ein
-   Katalogfoto nicht zeigen kann. */
+/* Wandaufbau von außen nach innen — wie bei den Schwesterrohren der
+   K-Fiber-Reihe. Im Schnitt wird der Faserkern sichtbar; das ist der
+   Grund, warum ein Rohr überhaupt ein 3D-Modell rechtfertigt. */
 const LAYERS = [
   { key: 'pprGreen', frac: 0.3, label: 'PP-R außen' },
   { key: 'fiberLayer', frac: 0.4, label: 'PP-R GF, glasfaserverstärkt' },
@@ -3761,10 +3795,10 @@ const LAYERS = [
 ];
 
 const STRIPES = [
-  { key: 'blueStripe', angleDeg: 0, widthDeg: 7 },
-  { key: 'blueStripe', angleDeg: 90, widthDeg: 7 },
-  { key: 'blueStripe', angleDeg: 180, widthDeg: 7 },
-  { key: 'blueStripe', angleDeg: 270, widthDeg: 7 },
+  { key: 'redStripe', angleDeg: 0, widthDeg: 7 },
+  { key: 'redStripe', angleDeg: 90, widthDeg: 7 },
+  { key: 'redStripe', angleDeg: 180, widthDeg: 7 },
+  { key: 'redStripe', angleDeg: 270, widthDeg: 7 },
 ];
 
 function article(d) {
@@ -3774,8 +3808,8 @@ function article(d) {
 }
 
 
-/* == k-fiber-pipe-pp-r-sdr-9/params.js ================================= */
-/* K-Aqua K-Fiber Rohr PP-R SDR 9 — Parametrik.
+/* == k-fiber-pipe-pp-r-sdr-6/params.js ================================= */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Parametrik.
    Dünne Hülle um das Familienmodul; produktspezifisch ist nur data.js. */
 
 
@@ -3784,27 +3818,34 @@ function params(dNom) {
 }
 
 
-/* == k-fiber-pipe-pp-r-sdr-9/parts.js ================================== */
-/* K-Aqua K-Fiber Rohr PP-R SDR 9 — Kontur.
+/* == k-fiber-pipe-pp-r-sdr-6/parts.js ================================== */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Kontur.
    Kommt vollständig aus dem Familienmodul. */
 
 
-/* == k-fiber-pipe-pp-r-sdr-9/index.js ================================== */
-/* K-Aqua K-Fiber Rohr PP-R SDR 9 — Produktpaket nach PRODUKT-VERTRAG.md.
+/* == k-fiber-pipe-pp-r-sdr-6/index.js ================================== */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Produktpaket nach PRODUKT-VERTRAG.md.
+
+   Das dickwandigste Rohr der PP-R-Faserreihe: S 2,5 trägt 2,0 MPa bei
+   20 °C und 1,0 MPa bei 70 °C. Bei d125 sind das 20,8 mm Mindestwand.
 
    Ein Rohrabschnitt, kein Zustand. Der Nutzen steckt in der
-   Schnittansicht: dort wird der Wandaufbau sichtbar. */
+   Schnittansicht: dort wird der Faserkern sichtbar.
+
+   Aufgenommen am 24.08.2026 — das Produkt fehlte in der 71er-Liste, weil
+   es keine Website-Seite hat und die Liste aus dem Scrape stammte. Der
+   Druckkatalog führt es auf S. 79. */
 
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
 const product = {
-  id: 'pipes/k-fiber-pipe-pp-r-sdr-9',
-  module: 'kaqua-k-fiber-pipe-pp-r-sdr-9',
-  titleDe: 'K-Fiber Rohr PP-R SDR 9',
-  titleEn: 'K-Fiber Pipe PP-R SDR 9',
+  id: 'pipes/k-fiber-pipe-pp-r-sdr-6',
+  module: 'kaqua-k-fiber-pipe-pp-r-sdr-6',
+  titleDe: 'K-Fiber Rohr PP-R SDR 6',
+  titleEn: 'K-Fiber Pipe PP-R SDR 6',
   category: 'pipes',
-  brandLine: 'K-Aqua PP-R GF · SDR 9 · S 4',
+  brandLine: 'K-Aqua PP-R GF · SDR 6 · S 2,5',
   dataStatus: DATA_STATUS,
 
   articles: ARTICLES,
@@ -3819,15 +3860,15 @@ const product = {
   variants: [],
   states: null,
 
-  tile: 'Mittlere Druckstufe der Faserrohre — beginnt erst bei d32.',
+  tile: 'Glasfaserverstärkt: der Faserkern nimmt die Längsdehnung auf, die Leitung braucht weniger Festpunkte. Im Schnitt sichtbar.',
 
   build(size, variant, clipPlane) {
     const P = params(size);
     const matKeys = [...new Set([...LAYERS.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
     const A = createAssembly({
-      name: 'K-Aqua_kaqua-k-fiber-pipe-pp-r-sdr-9' + '_d' + size,
+      name: 'K-Aqua_kaqua-k-fiber-pipe-pp-r-sdr-6' + '_d' + size,
       materials: matKeys,
-      seed: 149,
+      seed: 79,
       clipPlane,
     });
 
@@ -3872,7 +3913,7 @@ const product = {
     A.hotspot({
       v: V3(P.len * 0.12, P.rOut * 0.95, P.rOut * 0.28),
       n: V3(0, 0.95, 0.3),
-      text: 'SDR 9, S 4 — Lieferlänge ' + P.stockLength + ' m',
+      text: 'SDR 6, S 2,5 — Lieferlänge ' + P.stockLength + ' m',
     });
 
     const zf = P.rOut + 0.10 * P.len;

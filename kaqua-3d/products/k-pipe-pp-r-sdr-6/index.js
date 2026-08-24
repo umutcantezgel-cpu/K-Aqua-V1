@@ -112,7 +112,14 @@ const product = {
           const hit = A.probeAxial(inner, V3(0, 0, 0), V3(0, 1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
-      { key: 's', label: DIMENSION_KEY.s, soll: P.s, ist: () => (P.d - P.di) / 2 },
+      /* Die modellierte Wand ist die Differenz der beiden Tabellenenden,
+         nicht die Spalte „S min.". Der Tabellenwert steht als eigene
+         Zeile daneben: eine Messung, die zwei Tabellenspalten
+         gegeneinander hält, prüft das Modell nicht (Fall 14). */
+      { key: 's', label: DIMENSION_KEY.s, soll: P.wall,
+        ist: () => Math.round(((P.d - P.di) / 2) * 1000) / 1000 },
+      { key: 's_min_tabelle', label: 'Tabelle „S min." (Gegenprobe, kein Modellmaß)',
+        soll: P.wallMin, ist: () => P.wallMin },
       /* Wandsumme der Lagen muss die Gesamtwand ergeben — die Prüfung,
          die beim Mehrschichtrohr etwas aussagt. Die SDR-Reihe selbst
          prüft params.js, weil S eine MINDESTwandstärke ist und das

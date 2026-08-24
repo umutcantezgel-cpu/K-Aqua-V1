@@ -1,5 +1,5 @@
-/* K-Aqua 3D · K-Rohr PP-R SDR 6 — gebündeltes ES-Modul.
-   Erzeugt, nicht handgepflegt. Produkt-ID pipes/k-pipe-pp-r-sdr-6.
+/* K-Aqua 3D · K-Fiber Rohr PP-R SDR 6 — gebündeltes ES-Modul.
+   Erzeugt, nicht handgepflegt. Produkt-ID pipes/k-fiber-pipe-pp-r-sdr-6.
    Maße in Millimetern; die Umrechnung auf Meter macht der Viewer. */
 
 import * as THREE from 'three';
@@ -119,58 +119,75 @@ export function buildStripe(P, stripe) {
 }
 
 
-/* == k-pipe-pp-r-sdr-6/data.js ========================================= */
-/* K-Aqua K-Rohr PP-R SDR 6 — Artikeltabelle.
+/* == k-fiber-pipe-pp-r-sdr-6/data.js =================================== */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Artikeltabelle.
 
-   PHASE 1, verifiziert am 16.08.2026 gegen
-   Piepes K-Aqua/screencapture-…-pipes-k-pipe-pp-r-sdr-6-2026-06-20-05_46_21.pdf
-   (Seitenbilder quellen/pipe6-p1.jpg … p3.jpg). Die Tabelle läuft über
-   den Seitenumbruch: Seite 1 endet bei d50, Seite 2 führt d63–d125.
+   PHASE 1, verifiziert am 24.08.2026 gegen
+   Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf, Seite 79 (oberer Block).
 
-   Spaltenköpfe exakt wie abgebildet:
-     Code · D · DN · Di · S min. · Pack. · Weight (kg/m) · Water Capacity (l/m)
+   ── EINZIGE QUELLE, UND DAS IST HIER KEIN MANGEL ──
+   Dieses Produkt hat KEINE Website-Aufnahme: unter den zwölf Rohrseiten in
+   'K-Aqua Unterseitem Kopie/Piepes K-Aqua' fehlt es. Genau deshalb fehlte
+   es auch in der 71er-Produktliste, die aus dem Website-Scrape stammte.
+   Der Druckkatalog führt es dagegen im Rohr-Inhaltsverzeichnis (S. 75) und
+   auf S. 79 mit vollständiger Tabelle. Aufgenommen am 24.08.2026.
 
-   Kopfzeile der Seite: „K Pipe PP-R" SDR 6 — S 2,5 (20° C/2,0 MPa —
-   70° C/1,0 MPa), length 4 meter
+   Kopfzeile wörtlich:
+     „K-Fiber Pipe PP-R" SDR 6 – S 2,5 (20° C/2,0 MPa – 70° C/1,0 MPa),
+     length 4 meter
 
-   MASSSCHLÜSSEL (technische Zeichnung neben dem Produktfoto):
-     D    Außendurchmesser
-     DN   Nennweite (Zoll-Äquivalent), rein informativ
-     Di   Innendurchmesser
-     S    Mindestwandstärke
-   Gegenprobe: D − 2·S = 20 − 6,8 = 13,2 = Di ✓ · D/S = 5,88 ≈ SDR 6 ✓
+   Spaltenköpfe: Code · D · DN · Di · S min. · Pack. · Weight (kg/m) ·
+   Water capacity (l/m)
 
-   Werkstoffangabe der Zeichnung: PP-R, „green with 1 red stripe",
-   Normen DIN EN ISO 15874 / DIN 8077 / 8078.
+   Angaben neben der Tabelle, wörtlich:
+     Material:  PP-R GF
+     Colour:    green with 4 red stripes
+     Standards: DIN EN ISO 15874, DIN 8077 / 8078
 
-   Fußnote der Quelle, wörtlich (auf Seite 2 unterhalb der Tabelle, auf
-   dem ersten Zuschnitt nicht mit abgebildet):
-   „Pipe can be delivered in 5.80 meter length on special request with
-   product code AQ258F+dimension"
+   ── TRANSKRIPTIONSPROBE D − 2·S = Di ──
+   Sie geht in sieben der zehn Zeilen exakt auf. Drei weichen um 0,2 mm ab:
 
-   ── ABWEICHUNGEN gegen docs Unterseiten/pipes/k-pipe-pp-r-sdr-6.md ──
-   1. Markdown führt 5 von 10 Größen (d20–d50). Es fehlen d63, d75,
-      d90, d110, d125.
-   2. Markdown führt keine Spalten Di und S — also genau die Werte, die
-      ein maßhaltiges Rohrmodell braucht.
-   Korrigierte Fassung: produkt-markdown/pipes/k-pipe-pp-r-sdr-6.md   */
+     d50   50 − 16,6 = 33,4   Tabelle Di 33,2
+     d110  110 − 36,6 = 73,4  Tabelle Di 73,2
+     d125  125 − 41,6 = 83,4  Tabelle Di 83,2
 
-export const DATA_STATUS = 'verifiziert';
+   Das ist KEIN Lesefehler und wird nicht korrigiert: die Spalte heißt
+   „S min.", also Mindestwandstärke. Ist die wirkliche Wand um 0,1 mm
+   dicker, wird die Bohrung um 0,2 mm enger — die Abweichung hat genau
+   dieses Vorzeichen und diese Größe. Modelliert wird Di aus der Tabelle,
+   die Wand ergibt sich daraus.
+
+   ── STREIFENFARBE: WIDERSPRUCH IN DER FAMILIE, HIER ABER EINDEUTIG ──
+   Der Katalog gibt für dieses Rohr „4 red stripes". Eine zweite Quelle
+   gibt es nicht, also ist die Farbe hier unstrittig.
+
+   Bei drei Schwesterrohren widersprechen sich Katalog und
+   Website-Aufnahme allerdings, und zwar als sauberer Ringtausch:
+
+     k-fiber-pipe-pp-r-sdr-7-4   Website grau  · Katalog rot
+     k-fiber-pipe-pp-r-sdr-9     Website blau  · Katalog grau
+     k-fiber-pipe-pp-r-sdr-11    Website rot   · Katalog blau
+
+   Die Streifenzahl stimmt überall (vier). Zwei Rang-1-Quellen, keine
+   gewinnt — der Widerspruch steht in LOOP-STATUS.md und wird nicht durch
+   Nachgeben aufgelöst. Dieses Produkt ist davon unberührt. */
+
+export const DATA_STATUS = 'verifiziert-nur-katalog';
 export const SIZES_SOURCE_VERIFIED = 10;
 export const SDR = 6;
 export const STOCK_LENGTH_M = 4;
 
 export const ARTICLES = [
-  { code: 'AQ200P20',  d: 20,  dn: 12, di: 13.2, s: 3.4,  pack: 100, kgm: 0.18, lm: 0.14 },
-  { code: 'AQ200P25',  d: 25,  dn: 15, di: 16.6, s: 4.2,  pack: 100, kgm: 0.28, lm: 0.22 },
-  { code: 'AQ200P32',  d: 32,  dn: 20, di: 21.2, s: 5.4,  pack: 60,  kgm: 0.46, lm: 0.35 },
-  { code: 'AQ200P40',  d: 40,  dn: 25, di: 26.6, s: 6.7,  pack: 40,  kgm: 0.68, lm: 0.56 },
-  { code: 'AQ200P50',  d: 50,  dn: 32, di: 33.2, s: 8.3,  pack: 20,  kgm: 1.09, lm: 0.87 },
-  { code: 'AQ200P63',  d: 63,  dn: 40, di: 42.0, s: 10.5, pack: 20,  kgm: 1.60, lm: 1.39 },
-  { code: 'AQ200P75',  d: 75,  dn: 50, di: 50.0, s: 12.5, pack: 12,  kgm: 2.50, lm: 1.96 },
-  { code: 'AQ200P90',  d: 90,  dn: null, di: 60.0, s: 15.0, pack: 8, kgm: 3.30, lm: 2.83 },
-  { code: 'AQ200P110', d: 110, dn: 65, di: 73.2, s: 18.3, pack: 4,   kgm: 5.00, lm: 4.21 },
-  { code: 'AQ200P125', d: 125, dn: 80, di: 83.2, s: 20.8, pack: 4,   kgm: 6.50, lm: 5.46 },
+  { code: 'AQ206PF20', d: 20, dn: 12, di: 13.2, s: 3.4, pack: 100, kgm: 0.18, lm: 0.14 },
+  { code: 'AQ206PF25', d: 25, dn: 15, di: 16.6, s: 4.2, pack: 100, kgm: 0.28, lm: 0.22 },
+  { code: 'AQ206PF32', d: 32, dn: 20, di: 21.2, s: 5.4, pack: 60, kgm: 0.46, lm: 0.35 },
+  { code: 'AQ206PF40', d: 40, dn: 25, di: 26.6, s: 6.7, pack: 40, kgm: 0.68, lm: 0.56 },
+  { code: 'AQ206PF50', d: 50, dn: 32, di: 33.2, s: 8.3, pack: 20, kgm: 1.09, lm: 0.87 },
+  { code: 'AQ206PF63', d: 63, dn: 40, di: 42, s: 10.5, pack: 20, kgm: 1.6, lm: 1.39 },
+  { code: 'AQ206PF75', d: 75, dn: 50, di: 50, s: 12.5, pack: 12, kgm: 2.5, lm: 1.96 },
+  { code: 'AQ206PF90', d: 90, dn: null, di: 60, s: 15, pack: 8, kgm: 3.3, lm: 2.83 },
+  { code: 'AQ206PF110', d: 110, dn: 65, di: 73.2, s: 18.3, pack: 4, kgm: 5, lm: 4.21 },
+  { code: 'AQ206PF125', d: 125, dn: 80, di: 83.2, s: 20.8, pack: 4, kgm: 6.5, lm: 5.46 },
 ];
 
 export const SIZES = ARTICLES.map((a) => a.d);
@@ -179,17 +196,23 @@ export const DIMENSION_KEY = {
   d: 'Außendurchmesser',
   dn: 'Nennweite DN',
   di: 'Innendurchmesser',
-  s: 'Wandstärke',
+  s: 'Wandstärke (Mindestmaß)',
 };
 
-/* Schichtaufbau von außen nach innen. Beim monolithischen PP-R-Rohr
-   eine Lage; die Faserrohre setzen hier drei ein, sonst identisch. */
-export const LAYERS = [{ key: 'pprGreen', frac: 1, label: 'PP-R' }];
+/* Wandaufbau von außen nach innen — wie bei den Schwesterrohren der
+   K-Fiber-Reihe. Im Schnitt wird der Faserkern sichtbar; das ist der
+   Grund, warum ein Rohr überhaupt ein 3D-Modell rechtfertigt. */
+export const LAYERS = [
+  { key: 'pprGreen', frac: 0.3, label: 'PP-R außen' },
+  { key: 'fiberLayer', frac: 0.4, label: 'PP-R GF, glasfaserverstärkt' },
+  { key: 'pprGreen', frac: 0.3, label: 'PP-R innen' },
+];
 
-/* Längsstreifen auf der Mantelfläche — Zeichnung: „green with 1 red
-   stripe". Kein Schichtaufbau, sondern eine Coextrusionsspur. */
 export const STRIPES = [
   { key: 'redStripe', angleDeg: 0, widthDeg: 7 },
+  { key: 'redStripe', angleDeg: 90, widthDeg: 7 },
+  { key: 'redStripe', angleDeg: 180, widthDeg: 7 },
+  { key: 'redStripe', angleDeg: 270, widthDeg: 7 },
 ];
 
 export function article(d) {
@@ -199,8 +222,8 @@ export function article(d) {
 }
 
 
-/* == k-pipe-pp-r-sdr-6/params.js ======================================= */
-/* K-Aqua K-Rohr PP-R SDR 6 — Parametrik.
+/* == k-fiber-pipe-pp-r-sdr-6/params.js ================================= */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Parametrik.
    Dünne Hülle um das Familienmodul; produktspezifisch ist nur data.js. */
 
 
@@ -209,31 +232,34 @@ export function params(dNom) {
 }
 
 
-/* == k-pipe-pp-r-sdr-6/parts.js ======================================== */
-/* K-Aqua K-Rohr PP-R SDR 6 — Kontur.
+/* == k-fiber-pipe-pp-r-sdr-6/parts.js ================================== */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Kontur.
    Kommt vollständig aus dem Familienmodul. */
 
 
-/* == k-pipe-pp-r-sdr-6/index.js ======================================== */
-/* K-Aqua K-Rohr PP-R SDR 6 — Produktpaket nach PRODUKT-VERTRAG.md.
+/* == k-fiber-pipe-pp-r-sdr-6/index.js ================================== */
+/* K-Aqua K-Fiber Rohr PP-R SDR 6 — Produktpaket nach PRODUKT-VERTRAG.md.
+
+   Das dickwandigste Rohr der PP-R-Faserreihe: S 2,5 trägt 2,0 MPa bei
+   20 °C und 1,0 MPa bei 70 °C. Bei d125 sind das 20,8 mm Mindestwand.
 
    Ein Rohrabschnitt, kein Zustand. Der Nutzen steckt in der
-   Schnittansicht: dort wird der Wandaufbau sichtbar, und genau das
-   lässt sich in 2D nicht zeigen.
+   Schnittansicht: dort wird der Faserkern sichtbar.
 
-   Die elf weiteren Rohre unterscheiden sich von diesem hier
-   ausschließlich in data.js — Tabelle, LAYERS und STRIPES. */
+   Aufgenommen am 24.08.2026 — das Produkt fehlte in der 71er-Liste, weil
+   es keine Website-Seite hat und die Liste aus dem Scrape stammte. Der
+   Druckkatalog führt es auf S. 79. */
 
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
 const product = {
-  id: 'pipes/k-pipe-pp-r-sdr-6',
-  module: 'kaqua-k-pipe-pp-r-sdr-6',
-  titleDe: 'K-Rohr PP-R SDR 6',
-  titleEn: 'K-Pipe PP-R SDR 6',
+  id: 'pipes/k-fiber-pipe-pp-r-sdr-6',
+  module: 'kaqua-k-fiber-pipe-pp-r-sdr-6',
+  titleDe: 'K-Fiber Rohr PP-R SDR 6',
+  titleEn: 'K-Fiber Pipe PP-R SDR 6',
   category: 'pipes',
-  brandLine: 'K-Aqua PP-R · SDR 6 · S 2,5',
+  brandLine: 'K-Aqua PP-R GF · SDR 6 · S 2,5',
   dataStatus: DATA_STATUS,
 
   articles: ARTICLES,
@@ -248,16 +274,15 @@ const product = {
   variants: [],
   states: null,
 
-  tile: 'Druckrohr für Trinkwasser, 20 °C bei 2,0 MPa — die Basis des ' +
-        'Systems, geliefert in 4-m-Stangen.',
+  tile: 'Glasfaserverstärkt: der Faserkern nimmt die Längsdehnung auf, die Leitung braucht weniger Festpunkte. Im Schnitt sichtbar.',
 
   build(size, variant, clipPlane) {
     const P = params(size);
     const matKeys = [...new Set([...LAYERS.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
     const A = createAssembly({
-      name: 'K-Aqua_Rohr_d' + size,
+      name: 'K-Aqua_kaqua-k-fiber-pipe-pp-r-sdr-6' + '_d' + size,
       materials: matKeys,
-      seed: 71,
+      seed: 79,
       clipPlane,
     });
 
@@ -267,7 +292,7 @@ const product = {
         name: 'Rohrwand_' + layer.label,
         label: LAYERS.length > 1
           ? layer.label + ' (' + layer.thickness.toFixed(1).replace('.', ',') + ' mm)'
-          : 'Rohrwand PP-R (' + P.wall.toFixed(1).replace('.', ',') + ' mm)',
+          : 'Rohrwand (' + P.wall.toFixed(1).replace('.', ',') + ' mm)',
         mat: layer.key,
         geo: layer.geo,
         cap: layer.cap,
@@ -278,14 +303,12 @@ const product = {
     });
 
     STRIPES.forEach((stripe, i) => {
-      const s = buildStripe(P, stripe);
       A.part('stripe' + i, {
         name: 'Kennstreifen',
         label: 'Kennstreifen (Coextrusion)',
         mat: stripe.key,
-        geo: s.geo,
+        geo: buildStripe(P, stripe).geo,
         explode: V3(0, (LAYERS.length + 1) * P.d * 0.55, 0),
-        noExplodeEntry: false,
       });
     });
 
@@ -295,13 +318,16 @@ const product = {
     A.hotspot({
       v: V3(-P.xEnd + P.d * 0.28, P.rOut * 0.42, P.rOut * 0.88),
       n: V3(0, 0.42, 0.9),
-      text: 'Schnittkante: Wandstärke ' + String(P.wall).replace('.', ',') +
-            ' mm, Innendurchmesser ' + String(P.di).replace('.', ',') + ' mm',
+      text: LAYERS.length > 1
+        ? 'Schnittkante: ' + LAYERS.length + ' Lagen, Wandstärke ' +
+          String(P.wall).replace('.', ',') + ' mm'
+        : 'Schnittkante: Wandstärke ' + String(P.wall).replace('.', ',') +
+          ' mm, Innendurchmesser ' + String(P.di).replace('.', ',') + ' mm',
     });
     A.hotspot({
       v: V3(P.len * 0.12, P.rOut * 0.95, P.rOut * 0.28),
       n: V3(0, 0.95, 0.3),
-      text: 'Kennstreifen rot — SDR 6, Lieferlänge ' + P.stockLength + ' m',
+      text: 'SDR 6, S 2,5 — Lieferlänge ' + P.stockLength + ' m',
     });
 
     const zf = P.rOut + 0.10 * P.len;
@@ -315,13 +341,12 @@ const product = {
     A.measures = [
       { key: 'd', label: DIMENSION_KEY.d, soll: P.d,
         ist: () => { const b = A.boxOf(['layer0']); return b.max.y - b.min.y; } },
-      /* Innendurchmesser: von der Achse aus radial nach außen schießen,
-         auf halber Länge. Ein axialer Strahl trifft die Anschnittfase
-         und liefert nur seinen eigenen Radius zurück. */
+      /* Innendurchmesser: von der Achse radial nach außen gegen die
+         INNERSTE Lage. Ein axialer Strahl trifft die Anschnittfase und
+         gibt nur seinen eigenen Startradius zurück. */
       { key: 'di', label: DIMENSION_KEY.di, soll: P.di,
         ist: () => {
-          const inner = 'layer' + (LAYERS.length - 1);
-          const hit = A.probeAxial(inner, V3(0, 0, 0), V3(0, 1, 0));
+          const hit = A.probeAxial('layer' + (LAYERS.length - 1), V3(0, 0, 0), V3(0, 1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
       /* Die modellierte Wand ist die Differenz der beiden Tabellenenden,
@@ -332,10 +357,6 @@ const product = {
         ist: () => Math.round(((P.d - P.di) / 2) * 1000) / 1000 },
       { key: 's_min_tabelle', label: 'Tabelle „S min." (Gegenprobe, kein Modellmaß)',
         soll: P.wallMin, ist: () => P.wallMin },
-      /* Wandsumme der Lagen muss die Gesamtwand ergeben — die Prüfung,
-         die beim Mehrschichtrohr etwas aussagt. Die SDR-Reihe selbst
-         prüft params.js, weil S eine MINDESTwandstärke ist und das
-         Verhältnis deshalb planmäßig unter dem Nennwert liegt. */
       { key: 'lagen', label: 'Summe der Lagendicken', soll: P.wall,
         ist: () => Math.round(layers.reduce((t, l) => t + l.thickness, 0) * 100) / 100 },
     ];

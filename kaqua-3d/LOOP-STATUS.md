@@ -3,8 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — acht verdeckte Modelle freigelegt,
-Zielzahl auf 72 korrigiert. **39 von 72.**
+**Letzte Änderung:** 24.08.2026 — Nachtlauf Phase 1 fertig, erstes Produkt
+der Phase 2 gebaut. **40 von 71.**
 
 ---
 
@@ -12,7 +12,7 @@ Zielzahl auf 72 korrigiert. **39 von 72.**
 
 | | |
 |---|---|
-| Fertig | **39 von 72** · Selbsttest 39/39, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **40 von 71** · Selbsttest 40/40, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -254,7 +254,31 @@ Produkt über S. 88/89. Bleibt es ein eigenes Produkt, sind es 72 — sonst 71.
 Unterschied, statt still die alte zu nehmen. Ob die Kopie unter `docs/`
 mitgezogen oder gelöscht wird, entscheidet der Mensch.
 
-### 3.13 `Marketing/` ist nicht gesichert
+### 3.13 Streifenfarben: Katalog gegen Website, drei Rohre im Ringtausch
+
+Beim Bau des K-Fiber Rohrs SDR 6 aufgefallen. Die **Zahl** der Streifen
+stimmt bei allen dreizehn Rohren; bei dreien widerspricht die **Farbe**:
+
+| Rohr | Modell (aus der Website) | Katalog S. 79–80 |
+|---|---|---|
+| `k-fiber-pipe-pp-r-sdr-7-4` | 4 grau | 4 **rot** |
+| `k-fiber-pipe-pp-r-sdr-9` | 4 blau | 4 **grau** |
+| `k-fiber-pipe-pp-r-sdr-11` | 4 rot | 4 **blau** |
+
+Das ist kein Streuen, sondern ein sauberer **Ringtausch** grau→rot,
+blau→grau, rot→blau. So etwas entsteht, wenn in einer der beiden Quellen
+die Zeilen um eins verrutscht sind — welche, lässt sich von hier aus nicht
+sagen.
+
+Dazu ein vierter Fall: `k-pipe-purple-pp-r-sdr-11` trägt im Modell einen
+roten Streifen, der Katalog sagt „outside layer purple" — also kein
+Streifen, sondern eine durchgefärbte Außenlage.
+
+Zwei Rang-1-Quellen, keine gewinnt. **Nicht geändert.** Am Originalrohr
+oder beim Hersteller zu klären; es ist eine Frage von Minuten, wenn man
+eines in der Hand hat.
+
+### 3.14 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
