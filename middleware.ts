@@ -10,5 +10,12 @@ export default function middleware(request: NextRequest) {
 
 export const config = {
   // Match everything except API routes, Next internals, and files with an extension.
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
+  //
+  // `apple-icon` muss ausdrücklich ausgenommen werden: Next.js liefert
+  // app/apple-icon.tsx unter genau diesem Pfad aus — ohne Dateiendung. Die
+  // Regel `.*\..*` nimmt nur Pfade MIT Punkt aus, deshalb griff die
+  // Locale-Weiterleitung und machte aus /apple-icon ein /de/apple-icon, das es
+  // nicht gibt: HTTP 404. Der Favicon war davon nie betroffen, weil er als
+  // /icon.svg einen Punkt trägt — was den Fehler beim Lesen leicht übersieht.
+  matcher: ['/((?!api|_next|_vercel|apple-icon|.*\\..*).*)'],
 };

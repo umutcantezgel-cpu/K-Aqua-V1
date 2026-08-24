@@ -29,7 +29,7 @@ export function Logo({ height = 30, className }: LogoProps) {
           {/* Main Drop Purple */}
           <path
             d="M 295.344,880.215 H 910.77 L 569.793,539.234 910.77,198.258 H 295.344 v 681.957"
-            fill="#542791"
+            fill="#5B2D8C"
             suppressHydrationWarning
           />
           {/* Drop outline */}
@@ -46,7 +46,7 @@ export function Logo({ height = 30, className }: LogoProps) {
           {/* Inner Drop Purple */}
           <path
             d="m 1004.75,634.465 h 388.63 V 456.984 h -388.63 v 177.481"
-            fill="#542791"
+            fill="#5B2D8C"
             suppressHydrationWarning
           />
           {/* Inner Drop outline */}
