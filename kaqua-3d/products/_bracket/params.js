@@ -146,7 +146,9 @@ export function bracketParams(a, cfg) {
      hinter der Muffe und vor dem Bogen. Das Fenster ist eng — bei
      d25×½" 0,5 mm breit — deshalb genau die Mitte. */
   const boreLo = -a.L1 + P.socket + P.groundLen;
-  const boreHi = -P.bendR;
+  /* Setback statt bendR — bei 90° derselbe Wert, aber der Setback ist
+     der richtige Begriff: der Bogen frisst R·tan(α/2) vom Schenkel. */
+  const boreHi = -P.bendR * Math.tan((90 * D2R) / 2);
   P.xBore = Math.round(((boreLo + boreHi) / 2) * 100) / 100;
   if (!(boreHi > boreLo)) {
     throw new Error('K-Aqua ' + a.key + ': kein freier Rohrabschnitt zwischen ' +

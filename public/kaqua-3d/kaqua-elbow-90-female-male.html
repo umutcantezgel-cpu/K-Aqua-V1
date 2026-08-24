@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Winkel 90° mit Außengewinde (Elbow 90° (Male thread)) — K-Aqua 3D-Ansicht</title>
-<meta name="description" content="Interaktive 3D-Ansicht: Winkel 90° mit Außengewinde. Nennweiten, Explosionsansicht, Halbschnitt, Bemaßung.">
+<title>Winkel 90° Muffe/Spitzende (Elbow 90° (Female/male)) — K-Aqua 3D-Ansicht</title>
+<meta name="description" content="Interaktive 3D-Ansicht: Winkel 90° Muffe/Spitzende. Nennweiten, Explosionsansicht, Halbschnitt, Bemaßung.">
 <script type="importmap">
 {
   "imports": {
@@ -3539,69 +3539,6 @@ function download(blob, filename) {
 
 
 
-/* == _bend/params.js =================================================== */
-/* K-Aqua Winkelfamilie — Parametrik.
-
-   Gemeinsam für Winkel 45° und 90°. Aus der Tabelle kommen d, D, das
-   Schenkelmaß (bei 45° Spalte l, bei 90° Spalte L) und z.
-
-   Die Muffentiefe wird NICHT geschätzt, sondern gerechnet: Schenkel − z.
-   Gegenprobe gegen die Normreihe DVS 2207-11 steht in P.depthDeltaToNorm
-   und erscheint im Prüfbericht. */
-
-
-function bendParams(article, opt) {
-  const a = article;
-  const P = Object.assign({}, a);
-  const { d, D } = a;
-
-  P.angle = opt.angle;
-  P.leg = a.leg;                       // Achsenschnittstelle bis Stirnfläche
-  P.OD = D;
-  P.wallFitting = (D - d) / 2;
-  /* Muffentiefe aus der Normreihe, nicht aus leg − z. Begründung im
-     Kopfkommentar von products/tee/data.js: die Tiefe ist durch das
-     Schweißwerkzeug je Nennweite festgelegt und muss bei Muffe, Winkel
-     und T-Stück gleich sein. Die Muffentabelle belegt die Reihe exakt;
-     leg − z streut bei Winkel und T-Stück um bis zu 3 mm. */
-  P.socket = fusionDepth(d) ?? (a.leg - a.z);
-  P.socketFromTable = a.leg - a.z;     // Gegenprobe, erscheint im Prüfbericht
-
-  P.wallPipe = d / (opt.sdr ?? 6);
-  P.bore = d - 2 * P.wallPipe;
-  P.boreR = P.bore / 2;
-  P.rOut = D / 2;
-
-  P.sockTaper = Math.tan(0.6 * D2R);   // 0,6° Muffenkonus
-  P.lead = 2 * Math.tan(15 * D2R);     // Einführfase 15° × 2 mm
-  P.restwand = P.wallFitting;
-
-  /* ASSUMPTION Bogenradius. Die Tabelle führt keinen. Angesetzt 0,5·d,
-     begrenzt auf das, was der Schenkel hergibt (bendPath rechnet den
-     Verbrauch R·tan(α/2) und bricht sonst ab). 0,5·d ist der Wert, bei
-     dem die Außenkontur im Katalogfoto sichtbar rund über die Ecke
-     läuft, ohne dass der Bogen in die Muffe hineinreicht.
-     Gegen die Zeichnung zu verifizieren. */
-  const maxR = (a.leg - P.socket - 1.5) / Math.tan((opt.angle * D2R) / 2);
-  P.bendR = Math.max(d * 0.22, Math.min(d * 0.5, maxR));
-
-  P.emR = Math.min(2.0, 0.05 * d);
-  const norm = fusionDepth(d);
-  P.normDepth = norm;
-  P.depthDeltaToNorm = norm == null ? null
-    : Math.round((P.socketFromTable - norm) * 10) / 10;
-
-  if (P.restwand < 3) {
-    throw new Error('K-Aqua Winkel d' + d + ': Restwand ' + P.restwand.toFixed(2) + ' mm < 3 mm');
-  }
-  if (P.socket <= 0 || P.socket >= a.leg) {
-    throw new Error('K-Aqua Winkel d' + d + ': Muffentiefe ' + P.socket +
-      ' mm passt nicht zum Schenkel ' + a.leg + ' mm');
-  }
-  return P;
-}
-
-
 /* == _bendthread/parts.js ============================================== */
 /* K-Aqua Winkel 90° mit Gewindeschenkel — gemeinsame Kontur.
 
@@ -3753,106 +3690,295 @@ function buildElbowBody(P) {
    als Verankerung im PP. Sichtbar ist außen nur das Gewinde. */
 
 
-/* == elbow-90-male-thread/data.js ====================================== */
-/* K-Aqua Winkel 90° mit Außengewinde — Artikeltabelle.
+/* == _femalemale/params.js ============================================= */
+/* K-Aqua Winkel Muffe/Spitzende — Parametrik.
 
-   PHASE 1, verifiziert am 23.08.2026 gegen
-   Transition Fittings K-Aqua/screencapture-…-elbow-90-male-thread-….png
-   (quellen/w4-elbow-male.png, 3004 × 8724 px). Ausschnitte:
-   Tabelle quellen/w4-tabelle-elbow-male.png, Zeichnung
-   quellen/w4-zeichnung-elbow-male.png. Vollständiger Befund in
-   pruefung/w4-elbow-90-male-phase1.md.
+   Zwei Produkte, ein Körper:
+     fittings/elbow-45-female-male   AQ041, 45°
+     fittings/elbow-90-female-male   AQ091, 90°
 
-   Spaltenköpfe wie abgebildet: Code · d · R · D · l · z · L₁ · z₁ · kg · Pack.
-   Nach der letzten Zeile folgt der ORDER-Knopf — die Tabelle ist zu Ende
-   gelesen (Fall 2). Es sind 4 Größen, wie im Arbeitsauftrag.
+   Ein Winkel, dessen einer Schenkel eine SCHWEISSMUFFE ist und dessen
+   anderer ein ROHRENDE (Spitzende) — es steckt in die Muffe des nächsten
+   Teils. Damit kommt der Körper aus ../_bendthread/parts.js unverändert
+   zurecht: dort ist Schenkel A ohnehin eine Muffe, und Schenkel B braucht
+   nur einen Sitz von der Tiefe null, dann bleibt er durchgehend Rohr.
 
-   MASSSCHLÜSSEL:
-     d   Rohr-Außendurchmesser = Muffenbohrung
-     R   Rohrgewinde in Zoll (kegelig, ISO 7-1 / DIN 2999)
-     D   Außendurchmesser des Muffenschenkels
-     l   Achse des Gewindeschenkels bis Stirnfläche der Muffe
-     z   Achse des Gewindeschenkels bis Muffengrund
-     L1  Achse des Muffenschenkels bis Ende des PP-R-Körpers
-         (die Zeichnung schreibt sie `L`, die Tabelle `L₁` — dieselbe
-          Kante, zwei Schreibweisen. Im Modell heißt sie durchgehend L1,
-          Fall 19.)
-     z1  Achse des Muffenschenkels bis Gewindespitze
+   ── MASSSCHLÜSSEL ──
+     d    Rohr-Außendurchmesser. Gilt für BEIDE Enden: die Muffe nimmt
+          ihn auf, das Spitzende hat ihn.
+     D    Außendurchmesser des Fittings am Muffenschenkel
+     l    Achse bis Stirnfläche der Muffe
+     z    Einbaulänge der Muffe
+     z₁   Achse bis Spitze des Rohrendes
 
-   GEGENPROBE 1 — l − z trifft die Normreihe DVS 2207-11 (Fall 4):
-     d20  14 gegen 14,5   ·  d25  16 gegen 16  ·  d32  18 gegen 18
-   Die Muffentiefe kommt trotzdem aus fusionDepth(d); der Tabellenwert
-   wandert als P.socketFromTable in den Prüfbericht.
+   ── l − z TRIFFT DIE NORMREIHE, UND ZWAR BESSER ALS ANDERSWO ──
 
-   GEGENPROBE 2 — z1 − L1 ist die Gewindelänge, über ALLE Zeilen
-   durchgerechnet und im Vorzeichen geprüft (Fall 28):
-     15 · 15 · 16 · 18
-   Die Differenz folgt R, nicht d: Zeile 2 und 3 haben dasselbe d25 und
-   verschiedene Werte (15 gegen 16), Zeile 1 und 2 verschiedene d bei
-   gleichem Wert. Die Reihe entspricht den Gewindelängen nach ISO 7-1
-   (R ½" ≈ 15, R ¾" ≈ 16, R 1" ≈ 18). Damit ist getragen: das PP-R endet
-   bei L1, das Gewinde beginnt dort und läuft bis z1.
+     45°  d20  20 − 5  = 15      Normreihe DVS 2207-11: 14,5
+          d25  22 − 6  = 16                              16,0
+     90°  d20  27 − 12 = 15                              14,5
+          d25  30 − 14 = 16                              16,0
 
-   GEGENPROBE 3 — Plausibilität (Fall 3): D > d und D > Gewinde-Ø in
-   jeder Zeile, l > z in jeder Zeile, L1 > D/2 in jeder Zeile.
+   Vier von vier Zeilen auf 0…0,5 mm. Die Muffentiefe kommt trotzdem aus
+   fusionDepth(d); der Tabellenwert wandert als socketFromTable in den
+   Prüfbericht (Fall 4).
 
-   KEIN SECHSKANT. Die Zeichnung führt keine Spalte SW und zeigt keinen
-   Sechskant; das Foto bestätigt einen runden Messingzapfen. Anders als
-   adaptor-socket-male-thread und tee-90-male-thread braucht dieses Teil
-   weder hexPrism noch knurl.
+   ── D DECKT SICH MIT DER MUFFENTABELLE ──
+   29 bei d20, 34 bei d25 — dieselben Werte wie products/socket. Der
+   Muffenschenkel ist derselbe Körper wie beim einfachen Winkel.
 
-   ── DAS KATALOGFOTO GEHÖRT ZU KEINER ZEILE ──
-   Die Größenbestimmung nach Fall 35 wurde durchgeführt und ist negativ
-   ausgegangen. An der Silhouette gemessen: Gewinde-Ø/D = 0,746 (Tabelle
-   0,616…0,778, passt), aber Gewindelänge/D = 0,758 gegen 0,419…0,517
-   und z1/D = 1,98 gegen 1,535…1,690. Das freiliegende Gewinde ist
-   47–80 % länger, als jede Zeile zulässt; auch unentzerrt bleibt der
-   Abstand. Gegenprobe über die Steigung: 0,107 gemessen gegen 0,069…0,087.
-   Nach Fall 31 gewinnt das Tabellenmaß (Rang 1) gegen die Fotoableitung
-   (Rang 3); der Widerspruch wird dokumentiert, nicht aufgelöst. Aus dem
-   Foto kommt deshalb KEIN Längenmaß, nur die Gestalt: zwei Werkstoffe,
-   kein Sechskant, glatter PP-Körper mit Absatz.
+   ── ASSUMPTION Einstecktiefe des Spitzendes ──
+   Die Tabelle bemaßt sie nicht. Das Rohrende soll in die Muffe des
+   Gegenstücks passen, also ist seine nutzbare Länge die Muffentiefe.
+   Angesetzt wird die volle freie Länge z₁ − (Bogenauslauf); geprüft wird
+   nur, dass sie die Normtiefe TRÄGT — reicht sie nicht, wirft die
+   Parametrik. */
 
-   Auch die ZEICHNUNG ist nicht maßstäblich — geprüft: d/D 0,645,
-   l/D 0,727, z1/D 1,364 gegen die Tabellenwerte. Sie legt fest, welches
-   Maß wo liegt, nicht wie groß es ist.
 
-   ASSUMPTION Gewindemaße: die Tabelle nennt nur die Zollgröße. Kern- und
-   Steigungsmaße kommen aus ISO 7-1. Das ist Norm, keine Schätzung — die
-   Zollangabe bestimmt sie eindeutig.
+function femaleMaleParams(a, cfg) {
+  const P = Object.assign({}, a);
+  const d = a.d;
 
-   Anmerkung zur Wiederholung: dieselbe ISO-7-1-Tabelle steht auch in
-   adaptor-socket-male-thread/data.js, _teethread/params.js und
-   _union/params.js. Vier Produkte, eine Norm — ein Kandidat für den
-   Core (Fall 19). Nicht in dieser Runde, weil die Migration alle vier
-   Gewindeprodukte anfasst; als Nachtrag im Prüfbericht vermerkt. */
+  P.angle = cfg.angle;
+  P.l = a.l;                     // Schenkel A: Muffe
+  P.L1 = a.z1;                   // Schenkel B: Rohrende
+  P.rOut = a.D / 2;
+  P.rLegB = d / 2;               // das Spitzende IST ein Rohr
+  P.OD = a.D;
+
+  P.socket = fusionDepth(d);
+  if (!P.socket) throw new Error('K-Aqua Winkel M/S d' + d + ': keine Schweißtiefe in der Normreihe');
+  P.socketFromTable = a.l - a.z;
+  P.depthDeltaToNorm = Math.round((P.socketFromTable - P.socket) * 10) / 10;
+
+  P.wallPipe = d / 6;            // SDR 6
+  P.bore = d - 2 * P.wallPipe;
+  P.boreR = P.bore / 2;
+  P.wallFitting = (a.D - d) / 2;
+  P.restwand = P.wallFitting;
+  P.restwandB = P.wallPipe;
+  P.sockTaper = Math.tan(0.6 * D2R);
+  P.lead = 2 * Math.tan(15 * D2R);
+
+  P.rSockGround = d / 2 - P.sockTaper * (P.socket - 2);
+  P.groundLen = 1.0;
+  P.probeR = P.rSockGround - 0.15;
+
+  /* Kein Messingsitz und kein Absatz: Schenkel B ist durchgehend Rohr.
+     insertDepth = 0 schaltet die Sitzzone in boreAlong ab, rInsertOut
+     auf die Rohrbohrung gesetzt macht auch die Übergangsrampe wirkungslos. */
+  P.insertDepth = 0;
+  P.rInsertOut = P.boreR;
+  P.collarLen = 0;
+  P.collarR = P.rLegB;
+
+  const halb = Math.tan((P.angle * D2R) / 2);
+  const maxRA = (a.l - P.socket - 1.5) / halb;
+  const maxRB = (a.z1 - 1.5) / halb;
+  P.bendR = Math.max(d * 0.22, Math.min(d * 0.5, maxRA, maxRB));
+
+  P.emR = Math.min(2.0, 0.05 * d);
+
+  /* Das freie Rohrende ab dem Bogenauslauf. Es muss die Normtiefe
+     tragen, sonst passt das Teil in kein Gegenstück. */
+  P.spigotFree = Math.round((a.z1 - P.bendR) * 10) / 10;
+  if (P.spigotFree < P.socket) {
+    throw new Error('K-Aqua ' + a.key + ': freies Rohrende ' + P.spigotFree +
+      ' mm trägt die Muffentiefe ' + P.socket + ' mm nicht');
+  }
+
+  /* Messstation für die Rohrbohrung am Muffenschenkel: hinter der Muffe,
+     vor dem Bogen. */
+  /* Der gerade Teil des Schenkels endet am SETBACK, nicht bei bendR:
+     der Bogen frisst R·tan(α/2). Bei 90° sind beide gleich, bei 45° ist
+     der Setback nur 41 % von R — mit bendR gerechnet lag die Grenze
+     6 mm zu weit außen und der Wächter schlug an. */
+  const setback = P.bendR * halb;
+  const lo = -a.l + P.socket + P.groundLen;
+  const hi = -setback;
+  if (!(hi > lo)) {
+    throw new Error('K-Aqua ' + a.key + ': kein freier Rohrabschnitt zwischen ' +
+      'Muffe und Bogen (' + lo.toFixed(1) + ' … ' + hi.toFixed(1) + ')');
+  }
+  P.xBore = Math.round(((lo + hi) / 2) * 100) / 100;
+  return P;
+}
+
+
+/* == _femalemale/assembly.js =========================================== */
+/* K-Aqua Winkel Muffe/Spitzende — Baugruppe und Maßtest.
+
+   Zwei Produkte rufen buildFemaleMale() mit ihrer Tabelle und ihrem
+   Winkel auf. Der Bau steht genau einmal hier (Fall 32).
+
+   ── WARUM DIE MESSUNGEN ENTLANG DER SCHENKELACHSEN LAUFEN ──
+   Bei 90° zeigt Schenkel B auf +Y, und man kommt mit Schnitten in x und
+   y aus. Bei 45° zeigt er auf (cos45°, sin45°) — dort trifft ein
+   y-Schnitt die Achse nicht mehr. Beide Schenkelachsen gehen durch den
+   Ursprung, deshalb misst diese Datei generisch:
+
+     t = v · dir            Bogenlänge längs der Schenkelachse
+     r = |v − t·dir|        Abstand von der Schenkelachse
+
+   Das gilt für jeden Winkel und ist zugleich genauer als der Schnitt:
+   es fällt kein Punkt heraus, nur weil er neben der Ebene liegt. */
+
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+
+function buildFemaleMale(cfg, size, variant, clipPlane) {
+  const a = cfg.article(size);
+  const P = femaleMaleParams(a, cfg);
+  const ang = P.angle * D2R;
+
+  const A = createAssembly({
+    name: cfg.exportName + '_d' + a.d,
+    materials: ['pprGreen'],
+    seed: cfg.seed,
+    clipPlane,
+  });
+
+  const body = buildElbowBody(P);
+
+  A.part('body', {
+    name: 'PP_Winkel', label: 'PP-R-Winkelkörper', mat: 'pprGreen',
+    explode: V3(0, 0, 0),
+    geo: body.geo, cap: body.cap,
+    anchor: V3(-a.l * 0.7, P.rOut + 0.3 * a.l, 0),
+  });
+
+  A.light(V3(-a.l * 0.6, 0, 0));
+  A.light(V3(a.z1 * 0.4, a.z1 * 0.5, 0));
+
+  const dirA = new THREE.Vector3(-1, 0, 0);
+  const dirB = new THREE.Vector3(Math.cos(ang), Math.sin(ang), 0);
+  const POS = body.geo.attributes.position;
+
+  /* Schnitt durch einen Schenkel: Punkte, deren Projektion auf die
+     Schenkelachse bei s liegt UND die in der Ebene liegen, die die Achse
+     mit z aufspannt. Radius ist dann |z|.
+
+     ── WARUM NICHT DER REINE ACHSABSTAND ──
+     Die erste Fassung nahm alle Punkte mit t ≈ s und maß ihren Abstand
+     zur Achse. Bei 90° geht das durch; bei 45° las sie D = 30,54 statt
+     29. Ursache: nahe der Ecke haben Mantelpunkte des SPITZENDES
+     ebenfalls t ≈ s, und ihr Abstand zur MUFFENachse ist größer als
+     deren Radius.
+
+     Der Ebenenschnitt schließt sie aus, und zwar nachweislich: ein Punkt
+     des Spitzendes mit v·n = 0 liegt bei x = +1,414·u (u ist sein Ort
+     auf der B-Achse, u ≥ Setback > 0), also bei t = −x < 0. Er kann die
+     Station s > 0 des Muffenschenkels nicht erreichen. */
+  const cut = (dir, nrm, s, half) => {
+    const v = new THREE.Vector3();
+    let rMax = 0, rMin = Infinity, n = 0;
+    for (let i = 0; i < POS.count; i++) {
+      v.set(POS.getX(i), POS.getY(i), POS.getZ(i));
+      if (Math.abs(v.dot(dir) - s) > half) continue;
+      if (Math.abs(v.dot(nrm)) > 0.35) continue;
+      const r = Math.abs(v.z);
+      if (r > rMax) rMax = r;
+      if (r < rMin) rMin = r;
+      n++;
+    }
+    return n ? { rMax, rMin, n } : { rMax: NaN, rMin: NaN, n: 0 };
+  };
+  /* In der Bogenebene senkrecht auf der jeweiligen Schenkelachse. */
+  const nA = new THREE.Vector3(0, 1, 0);
+  const nB = new THREE.Vector3(-Math.sin(ang), Math.cos(ang), 0);
+  const reach = (dir) => {
+    const v = new THREE.Vector3();
+    let m = -Infinity;
+    for (let i = 0; i < POS.count; i++) {
+      v.set(POS.getX(i), POS.getY(i), POS.getZ(i));
+      const t = v.dot(dir);
+      if (t > m) m = t;
+    }
+    return Math.round(m * 100) / 100;
+  };
+  const r2 = (v) => (Number.isFinite(v) ? Math.round(v * 200) / 100 : NaN);
+
+  A.measures = [
+    { key: 'l', label: cfg.dimensionKey.l, soll: a.l, ist: () => reach(dirA) },
+    { key: 'z1', label: cfg.dimensionKey.z1, soll: a.z1, ist: () => reach(dirB) },
+
+    /* D am Muffenschenkel gegen d am Spitzende: dasselbe Merkmal an zwei
+       Stellen, und es MUSS verschiedene Werte liefern (Fall 25). */
+    { key: 'D', label: cfg.dimensionKey.D, soll: a.D,
+      ist: () => r2(cut(dirA, nA, a.l - P.socket, 0.4).rMax) },
+    { key: 'd_spitze', label: 'Ø des Spitzendes', soll: a.d,
+      ist: () => r2(cut(dirB, nB, a.z1 - 3, 0.4).rMax) },
+
+    { key: 'muffenbohrung', label: 'Muffenbohrung (2 mm hinter dem Mundloch)', soll: a.d,
+      ist: () => r2(cut(dirA, nA, a.l - 2, 0.4).rMin) },
+    { key: 'bohrung', label: 'Rohrbohrung hinter der Muffe', soll: r2(P.boreR),
+      ist: () => r2(cut(dirA, nA, -P.xBore, 0.35).rMin) },
+    { key: 'bohrung_spitze', label: 'Rohrbohrung im Spitzende', soll: r2(P.boreR),
+      ist: () => r2(cut(dirB, nB, a.z1 - 3, 0.4).rMin) },
+
+    { key: 'freies_ende', label: 'Freies Rohrende ab Bogenauslauf', soll: P.spigotFree,
+      ist: () => P.spigotFree },
+
+    { key: 'symmetrie_z', label: 'Körper symmetrisch zur XY-Ebene (soll 0)', soll: 0,
+      ist: () => {
+        const b = A.visibleBoxOf(['body']);
+        return Math.round((b.max.z + b.min.z) * 1000) / 1000;
+      } },
+
+    { key: 'restwand', label: 'Restwand Muffenschenkel', soll: P.restwand,
+      ist: () => P.restwand },
+    { key: 'restwandB', label: 'Wandstärke Spitzende', soll: P.restwandB,
+      ist: () => P.restwandB },
+  ];
+
+  return A;
+}
+
+
+/* == elbow-90-female-male/data.js ====================================== */
+/* K-Aqua Winkel 90° Muffe/Spitzende — Artikeltabelle.
+
+   PHASE 1, verifiziert am 24.08.2026 gegen den Druckkatalog
+   Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf, Seite 85 (unterer
+   Block), und gegen die Website-Aufnahme
+   K-Aqua Unterseitem Kopie/Fittings K-Aqua/
+     screencapture-…-fittings-elbow-90-femalemale-….pdf
+
+   Spaltenköpfe wie abgebildet:
+     Code · d · D · l · z · z₁ · kg · Pack.
+   2 Größen — mehr führt der Katalog nicht. Nach der letzten Zeile folgt
+   der ORDER-Knopf (Fall 2).
+
+   MASSSCHLÜSSEL: siehe ../_femalemale/params.js.
+
+   ── GEGENPROBE l − z GEGEN DIE NORMREIHE DVS 2207-11 ──
+     d20  27 − 12 = 15     Normreihe 14,5
+     d25  30 − 14 = 16     Normreihe 16,0
+   Beide Zeilen auf 0…0,5 mm. Die Muffentiefe kommt trotzdem aus
+   fusionDepth(d); der Tabellenwert steht als socketFromTable im
+   Prüfbericht (Fall 4).
+
+   ── GEGENPROBE D GEGEN DIE MUFFENTABELLE ──
+   29 bei d20, 34 bei d25 — dieselben Werte wie products/socket und wie
+   der einfache Winkel. Der Muffenschenkel ist derselbe Körper. */
 
 const DATA_STATUS = 'verifiziert';
-const SIZES_SOURCE_VERIFIED = 4;
-const ANGLE = 90;
+const SIZES_SOURCE_VERIFIED = 2;
 const SDR = 6;
-
-/* Die Gewindetabelle steht seit dem 24.08.2026 im Core
-   (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode
-   und gehört dorthin, wo FUSION_DEPTH steht (Fall 19). */
+const ANGLE = 90;
 
 const ARTICLES = [
-  { key: '20x1/2', code: 'AQ092G2012', d: 20, R: '1/2', D: 29, l: 28, z: 14, L1: 34, z1: 49, kg: 0.09, pack: 180 },
-  { key: '25x1/2', code: 'AQ092G2512', d: 25, R: '1/2', D: 34, l: 32, z: 16, L1: 38, z1: 53, kg: 0.10, pack: 150 },
-  { key: '25x3/4', code: 'AQ092G2534', d: 25, R: '3/4', D: 34, l: 32, z: 16, L1: 40, z1: 56, kg: 0.15, pack: 100 },
-  { key: '32x1', code: 'AQ092G321', d: 32, R: '1', D: 43, l: 38, z: 20, L1: 48, z1: 66, kg: 0.21, pack: 60 },
+  { code: 'AQ09120', key: '20', d: 20, l: 27, z: 12, D: 29, z1: 36, kg: 0.02, pack: 300 },
+  { code: 'AQ09125', key: '25', d: 25, l: 30, z: 14, D: 34, z1: 41, kg: 0.02, pack: 180 },
 ];
 
 const SIZES = ARTICLES.map((a) => a.key);
 
 const DIMENSION_KEY = {
-  d: 'Nennmaß',
-  R: 'Rohrgewinde',
-  D: 'Außendurchmesser Muffenschenkel',
-  l: 'Schenkelmaß Muffe l',
-  z: 'Einbaulänge z',
-  L1: 'Schenkelmaß PP-R-Körper L₁',
-  z1: 'Achse bis Gewindespitze z₁',
+  d: 'Nennmaß Rohr',
+  D: 'Außendurchmesser am Muffenschenkel',
+  l: 'Achse bis Stirnfläche der Muffe',
+  z: 'Einbaulänge der Muffe',
+  z1: 'Achse bis Spitze des Rohrendes',
 };
 
 function article(key) {
@@ -3861,487 +3987,83 @@ function article(key) {
   return a;
 }
 
+function sizeLabel(key) { return 'd' + key; }
 
-/* == elbow-90-male-thread/params.js ==================================== */
-/* K-Aqua Winkel 90° mit Außengewinde — Parametrik.
 
-   Zwei Werkstoffe, zwei Nennweiten (d und R), UNGLEICHE SCHENKEL.
+/* == elbow-90-female-male/params.js ==================================== */
+/* K-Aqua Winkel 90° Muffe/Spitzende — Parametrik.
 
-   Die Fachlogik des Winkels kommt aus products/_bend/params.js — dieselbe
-   Muffentiefenregel, dieselbe Restwandprüfung, dieselbe Gegenprobe gegen
-   die Normreihe. Hier kommt nur dazu, was der Gewindeschenkel braucht.
+   Die Rechnung steht in ../_femalemale/params.js: der 45°- und der
+   90°-Winkel teilen sie, und zweimal dieselbe Rechnung driftet (Fall 32).
+   Hier steht nur der Ablenkwinkel. */
 
-   ── Warum bendPath geändert werden musste ──
-   Bis zum 23.08.2026 nahm bendPath EIN Schenkelmaß für beide Seiten. Das
-   trägt jeden Winkel mit gleichen Enden, aber nicht diesen: der
-   Muffenschenkel misst l, der Gewindeschenkel L1, und die beiden sind
-   verschieden (28 gegen 34 bei d20). bendPath hat jetzt ein sechstes
-   Argument LB; ohne Angabe bleibt das Verhalten das alte. */
 
+const CONFIG = { angle: ANGLE };
 
 function params(key) {
-  const a = article(key);
-
-  /* Der Winkelteil: _bend rechnet mit `leg` und `z`. Für diesen Winkel
-     ist `leg` der MUFFENSCHENKEL l — der kürzere der beiden und damit
-     der, an dem der Bogenradius sich messen lassen muss. */
-  const P = bendParams({ d: a.d, D: a.D, leg: a.l, z: a.z }, { angle: ANGLE, sdr: SDR });
-  Object.assign(P, a);
-  P.l = a.l;
-  P.leg = a.l;
-
-  const th = threadSpec(a.R);
-  if (!th) throw new Error('K-Aqua: kein Normmaß für Gewinde R' + a.R);
-  P.threadOD = th.od;
-  P.threadPitch = th.pitch;
-
-  /* Gewindelänge aus der Tabelle, nicht geschätzt: z1 − L1. Die Deutung
-     ist über alle vier Zeilen gerechnet (data.js, Gegenprobe 2). */
-  P.threadLen = a.z1 - a.L1;
-  P.turns = Math.max(4, Math.round(P.threadLen / P.threadPitch));
-  if (P.threadLen <= 0) {
-    throw new Error('K-Aqua ' + a.key + ': z1 − L1 = ' + P.threadLen +
-      ' mm — die Gewindelänge kann nicht null oder negativ sein');
-  }
-
-  /* ASSUMPTION Messingeinsatz. Die Tabelle nennt nur, wo das PP endet
-     (L1) und wo das Gewinde aufhört (z1). Wie tief der Einsatz im PP
-     steckt und wie dick er ist, steht nirgends.
-
-     Angesetzt:
-       Außendurchmesser = Gewinde-Ø + 1,2 mm Verankerungsschulter. Die
-       Zeichnung zeigt im Schnitt eine gezahnte Verankerung, die über dem
-       Gewindedurchmesser liegt; 0,6 mm je Seite ist das kleinste Maß,
-       das die Zähne trägt. Ergibt 11,08 · 11,08 · 13,82 · 17,22 mm
-       Radius.
-       Einbautiefe = 0,55 · Gewinde-Ø, mindestens 6 mm. Das ist die
-       Länge, über die die Zeichnung die Zähne zeigt.
-
-       Die frühere Begründung nannte hier zusätzlich, der Einsatz bleibe
-       „in jeder Zeile unter D" und verglich 14,08 · 14,08 · 16,82 · 20,74
-       gegen D/2. Diese Zahlen waren nicht der Einsatz, sondern der PP
-       Körper darüber, und der Vergleich mit D ist hinfällig — siehe den
-       nächsten Block. */
-  P.rInsertOut = P.threadOD / 2 + 0.6;
-  P.insertDepth = Math.max(6, P.threadOD * 0.55);
-
-  /* ── ASSUMPTION Wand über dem Einsatz — KORRIGIERT 24.08.2026 ──
-
-     Der frühere Stand setzte `Math.max(3, 0.11 * a.d)` und erzwang mit
-     einer Ausnahme, dass der Gewindeschenkel unter D bleibt. Beides ist
-     falsch, und zwar aus derselben Ursache: D ist hier NICHT das größte
-     Maß des Teils.
-
-     KEINE Tabellenspalte bemaßt diesen Körper. Die Katalogtabelle S. 96
-     führt `Code d R D l z L1 z1`, die Maßzeichnung die Marken
-     `d D z l R L z1`. D liegt in beiden am MUFFENSCHENKEL — die
-     Zeichnung setzt die Maßhilfslinien unten an das runde Rohrende, nicht
-     an den Gewindeschenkel.
-
-     Damit greift die Rangregel aus pipeline/25-BILDQUELLEN.md §1.2:
-     Ein Bild darf eine Gestalt bestimmen, die keine Tabelle bemaßt.
-
-     MESSUNG, zwei unabhängige Bilder, Maßstab jeweils über den bekannten
-     Gewindeaußendurchmesser (der Katalog nennt R je Zeile):
-
-       Marketing/Produktbilder/grün (RAL 6024)/AQ092GP …png   1,62
-       Katalog S. 96, Produktfoto oben links                   1,78
-                                    Körper-Ø / Gewinde-Ø  ø   1,70 ± 0,08
-
-     Aufgelöst nach der Wand ergibt das in ALLEN VIER Zeilen denselben
-     Beiwert — 0,32 · Gewinde-Ø (6,7 / 6,7 / 8,7 / 11,0 mm). Das ist kein
-     Zufall: der Körper umschließt den Messingeinsatz und wird von dessen
-     Durchmesser bestimmt, nicht von d. Genau deshalb trug die alte Formel
-     über d den Fehler.
-
-     GEGENPROBE gegen D: der Körper liegt damit bei 1,23 · D (d20×½"),
-     1,05 · D (d25×½"), 1,31 · D (d25×¾") und 1,30 · D (d32×1") — in
-     JEDER Zeile über D. Die Aussage „Körper breiter als D" hängt also
-     nicht daran, welche Größe die Fotos zeigen; sie gilt für alle vier.
-     Das ist wichtig, weil sich die abgebildete Größe nach Fall 35 aus
-     diesen Fotos NICHT sicher bestimmen ließ.
-
-     NICHT bestimmt und deshalb nicht modelliert: die Fotos zeigen den
-     Körper FACETTIERT (Flächen, kein glatter Zylinder). Wie viele
-     Flächen und über welche Länge, geben sie nicht her — die
-     Facettierung bleibt offen und steht in LOOP-STATUS.md. Modelliert
-     ist der Umkreis, also das größte Maß. */
-  P.wallB = 0.32 * P.threadOD;
-  P.rLegB = P.rInsertOut + P.wallB;
-  P.restwandB = P.wallB;
-
-  /* Wächter jetzt nach unten statt nach oben: die Restwand über dem
-     Einsatz darf die Fittingregel von 3 mm nicht unterschreiten. Dass
-     der Schenkel D überschreitet, ist gewollt und belegt (siehe oben). */
-  if (P.restwandB < 3) {
-    throw new Error('K-Aqua ' + a.key + ': Restwand über dem Einsatz ' +
-      P.restwandB.toFixed(2) + ' mm < 3 mm');
-  }
-
-  /* Bogenradius: er muss in BEIDE Schenkel passen. _bend rechnet ihn nur
-     gegen den ersten; hier kommt der Gewindeschenkel dazu, dessen freier
-     Raum bei L1 − Einbautiefe endet. */
-  const maxRA = (a.l - P.socket - 1.5) / Math.tan((ANGLE * D2R) / 2);
-  const maxRB = (a.L1 - P.insertDepth - 1.5) / Math.tan((ANGLE * D2R) / 2);
-  P.bendR = Math.max(a.d * 0.22, Math.min(a.d * 0.5, maxRA, maxRB));
-
-  /* Muffengrund: flacher Ringabsatz mit kurzem Übergang auf die
-     Rohrbohrung. Über eine Bahn lässt sich keine Kante bauen, die genau
-     null Länge hat — groundLen ist die kürzeste, die die Bahnabtastung
-     noch auflöst. Der Messpunkt liegt DAVOR, siehe index.js. */
-  P.rSockGround = a.d / 2 - P.sockTaper * (P.socket - 2);
-  P.groundLen = 1.0;
-  P.probeR = P.rSockGround - 0.15;
-
-  /* Absatz am PP-Ende: der breitere Ring, den das Foto kurz vor dem
-     Messing zeigt. 0,3 mm über der Mantelfläche, wie der Bund am
-     Mundloch jeder Muffe (Formensprache §2.1). */
-  P.collarLen = Math.min(0.28 * a.L1, 8);
-  /* Deckel auf D entfernt (24.08.2026). Er stammte aus derselben
-     Fehlannahme wie der alte Wächter — D ist nicht das größte Maß des
-     Teils. Gedeckelt hätte er den Absatz UNTER den Schenkel gedrückt,
-     den er umgibt. */
-  P.collarR = P.rLegB + 0.3;
-
-  P.emR = Math.min(2.0, 0.05 * a.d);
-
-  if (P.insertDepth >= a.L1 - P.bendR) {
-    throw new Error('K-Aqua ' + a.key + ': Messingeinsatz ' +
-      P.insertDepth.toFixed(1) + ' mm reicht in den Bogen hinein');
-  }
-  if (P.rInsertOut <= P.boreR + 1) {
-    throw new Error('K-Aqua ' + a.key + ': Messingeinsatz Ø ' +
-      (2 * P.rInsertOut).toFixed(1) + ' mm trägt die Bohrung ' +
-      P.bore.toFixed(1) + ' mm nicht');
-  }
-  return P;
+  return femaleMaleParams(article(key), CONFIG);
 }
 
 
-/* == elbow-90-male-thread/parts.js ===================================== */
-/* K-Aqua Winkel 90° mit Außengewinde — Kontur.
+/* == elbow-90-female-male/parts.js ===================================== */
+/* K-Aqua Winkel 90° Muffe/Spitzende — Konturen.
 
-   Zwei Teile, zwei Werkstoffe:
-     1. PP-R-Körper: Winkel mit Schweißmuffe am einen Schenkel und
-        Aufnahme für den Messingeinsatz am anderen
-     2. Messingeinsatz: verzahnter Schaft im PP, davor das kegelige
-        R-Gewinde (threadProfile)
-
-   Keine neue Geometriefunktion. Der Winkel ist EIN Loft über eine
-   Gerade-Bogen-Gerade-Bahn wie in products/_bend/parts.js; neu ist nur,
-   dass die beiden Schenkel verschieden lang sind und verschiedene Enden
-   haben. Kein CSG, kein Sechskant, keine Riffelung — Zeichnung und Foto
-   zeigen einen glatten Körper und einen runden Zapfen.
-
-   Die Funktionsnamen weichen bewusst von _bend/parts.js ab: der Bau
-   verkettet Familien- und Produktdateien zu EINEM flachen Skript, und
-   `boreAt` gibt es dort schon. */
+   Der Körper kommt vollständig aus ../_bendthread/parts.js, die
+   Baugruppe aus ../_femalemale/assembly.js. */
 
 
-/* Der Winkelkörper steht seit dem 24.08.2026 im Familienmodul
-   ../_bendthread/parts.js — dieselbe Kontur tragen die beiden Laschen
-   (Anschlussbogen und Wandscheibe). Dreimal geschrieben würde sie
-   driften (Fall 32). Verschoben, nicht umgeschrieben; der Maßtest
-   dieses Produkts ist danach Zahl für Zahl derselbe geblieben. */
+/* == elbow-90-female-male/index.js ===================================== */
+/* K-Aqua Winkel 90° Muffe/Spitzende — Produktpaket nach PRODUKT-VERTRAG.md.
 
-/* Messingeinsatz. Achse ist +Y — das ist der Gewindeschenkel der Bahn.
-   Der Schaft trägt drei Ringzähne; die Zeichnung zeigt sie im Schnitt
-   als Verankerung im PP. Sichtbar ist außen nur das Gewinde. */
-function buildStud(P) {
-  const rThread = P.threadOD / 2;
-  const yRoot = P.L1 - P.insertDepth;
-  const step = P.insertDepth / 3;
+   Ein Winkel mit ZWEI verschiedenen Enden: der eine Schenkel ist eine
+   Schweißmuffe, der andere ein Rohrende, das in die Muffe des nächsten
+   Teils gesteckt wird. Damit lässt sich die Richtung wechseln, ohne ein
+   Rohrstück dazwischenzusetzen.
 
-  const teeth = [];
-  for (let k = 0; k < 3; k++) {
-    teeth.push({ a: yRoot + step * (k + 0.35), r: P.rInsertOut, fillet: 0.2 });
-    teeth.push({ a: yRoot + step * (k + 0.75), r: P.rInsertOut - 0.9, fillet: 0.2 });
-  }
+   Ein Werkstoff, ein Teil. Der Halbschnitt zeigt, dass die Bohrung vom
+   Muffengrund bis in die Spitze durchläuft.
 
-  /* Gewindekontur ab dem PP-Ende bis zur Spitze, kegelig 1:16. */
-  const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'R')
-    .map((p) => ({ a: P.L1 + p.a, r: p.r, fillet: p.fillet }))
-    .filter((p) => p.a <= P.z1);
+   Der Körper ist derselbe wie beim Winkel mit Außengewinde — ungleiche
+   Schenkel, ungleiche Außendurchmesser (../_bendthread/parts.js). Er
+   trägt seit dem 24.08.2026 auch den Ablenkwinkel als Parameter; vorher
+   war 90° fest verdrahtet. */
 
-  const outer = [
-    { a: yRoot, r: P.rInsertOut - 0.9, chamfer: 0.4 },
-    ...teeth,
-    { a: P.L1 - 0.8, r: P.rInsertOut, fillet: 0.3 },
-    { a: P.L1, r: Math.min(P.rInsertOut, rThread + P.threadPitch * 0.2), chamfer: 0.5 },
-    ...thread,
-    { a: P.z1, r: rThread * 0.93 - P.threadLen / 32, chamfer: 0.8 },
-  ];
-  const inner = [
-    { a: P.z1, r: P.boreR + 0.4, fillet: 0.5 },
-    { a: P.L1, r: P.boreR, fillet: 0.6 },
-    { a: yRoot, r: P.boreR, fillet: 0 },
-  ];
-  const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  return {
-    geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
-    cap: capFromProfile(profile, 'y'),
-    profile, yRoot,
-  };
-}
-
-
-/* == elbow-90-male-thread/index.js ===================================== */
-/* K-Aqua Winkel 90° mit Außengewinde — Produktpaket nach PRODUKT-VERTRAG.md.
-
-   Verbundteil aus PP-R-Winkel und Messingeinsatz. Der Winkel ist EIN
-   Loft über eine Bahn mit UNGLEICHEN SCHENKELN — der erste im Katalog.
-
-   Der Messingeinsatz steckt im PP; sichtbar ist außen nur das Gewinde.
-   Im Halbschnitt wird die Verzahnung sichtbar, mit der er im Körper
-   sitzt — das ist der Punkt, den das Katalogfoto nicht zeigt. */
-
-
-const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
 const product = {
-  id: 'transition-fittings/elbow-90-male-thread',
-  module: 'kaqua-elbow-90-male-thread',
-  titleDe: 'Winkel 90° mit Außengewinde',
-  titleEn: 'Elbow 90° (Male thread)',
-  category: 'transition-fittings',
-  brandLine: 'K-Aqua PP-R · Messing',
+  id: 'fittings/elbow-90-female-male',
+  module: 'kaqua-elbow-90-female-male',
+  titleDe: 'Winkel 90° Muffe/Spitzende',
+  titleEn: 'Elbow 90° (Female/male)',
+  category: 'fittings',
+  brandLine: 'K-Aqua PP-R',
   dataStatus: DATA_STATUS,
 
   articles: ARTICLES,
   sizes: SIZES,
   sizeKey: 'key',
-  sizeLabel: (k) => {
-    const [d, r] = String(k).split('x');
-    return 'd' + d + ' · R' + r + '"';
-  },
-  sizeTitle: 'Nennweite · Gewinde',
-  defaultSize: '25x3/4',
+  sizeLabel,
+  sizeTitle: 'Nennweite',
+  defaultSize: '25',
 
   dimensionKey: DIMENSION_KEY,
-  metaFields: ['d', 'R', 'D', 'l', 'kg'],
+  metaFields: ['d', 'D', 'l', 'z1', 'kg'],
   dimensions: ['l', 'z1'],
-  ariaFields: ['d', 'R', 'D', 'l', 'z', 'L1', 'z1'],
+  ariaFields: ['d', 'D', 'l', 'z', 'z1'],
 
   variants: [],
   states: null,
 
-  tile: 'Richtungswechsel mit Rohrgewinde: Schweißmuffe am einen Schenkel, ' +
-        'Messingzapfen am anderen. Im Schnitt wird seine Verzahnung im PP sichtbar.',
+  tile: 'Richtungswechsel um 90° ohne Zwischenrohr: Muffe am einen ' +
+        'Schenkel, Spitzende am anderen.',
 
   build(size, variant, clipPlane) {
-    const P = params(size);
-    const A = createAssembly({
-      name: 'K-Aqua_Winkel' + ANGLE + '_AG_' + String(P.key).replace('/', '-'),
-      materials: ['pprGreen', 'brass'],
-      seed: 131,
-      clipPlane,
-    });
-
-    const body = buildElbowBody(P);
-    const stud = buildStud(P);
-
-    /* ── Silhouetten-Abtastung statt Strahl am PP-Körper ──
-       Ein Raycast von außen lief hier zunächst durch die Außenhaut
-       hindurch und traf erst die Bohrung. Ursache war die Wicklung in
-       sweepPath — sie ist im Core behoben (Fall 39), und ein Strahl
-       träfe jetzt richtig.
-
-       Die Abtastung der Punktwolke bleibt trotzdem: sie liefert Werte
-       statt Treffer/kein Treffer (Fall 25), ist unabhängig von Wicklung
-       und Materialseite, und sie kann dieselbe Stelle in zwei um 90°
-       gedrehten Ebenen messen — das ist der Nachweis, den ein einzelner
-       Strahl nicht führen kann (Fall 11). Vorgehen nach
-       20-VISUELLE-REFERENZ §6. */
-    const POS = body.geo.attributes.position;
-    /* Schenkel A liegt auf −X, Schenkel B auf +Y. Ein reiner x-Schnitt
-       fängt aber auch Punkte des anderen Schenkels und des Bogens ein —
-       ein Zylinder um Y reicht in x bis ±r. Deshalb zusätzlich die
-       Querebene: Schenkel A wird bei y ≈ 0 abgetastet, Schenkel B bei
-       x ≈ 0. In beiden Fällen ist der Radius dann |z|, und circleLoop
-       legt bei 96 Segmenten Punkte exakt auf ±z (Fall 27: keine
-       Sekante). Geprüft: in dieser Querebene liegt kein Punkt des
-       jeweils anderen Schenkels und keiner des Bogens. */
-    const slab = (achse, wert, halb, ebene) => {
-      const querZ = ebene === 'z0';   // Radius aus |y| statt aus |z|
-      let rMax = 0, rMin = Infinity, n = 0;
-      for (let i = 0; i < POS.count; i++) {
-        const x = POS.getX(i), y = POS.getY(i), z = POS.getZ(i);
-        const s = achse === 'x' ? x : y;
-        const q = querZ ? z : (achse === 'x' ? y : x);
-        if (Math.abs(s - wert) > halb || Math.abs(q) > 0.35) continue;
-        const r = querZ ? Math.abs(y) : Math.abs(z);
-        if (r > rMax) rMax = r;
-        if (r < rMin) rMin = r;
-        n++;
-      }
-      return n ? { rMax, rMin, n } : { rMax: NaN, rMin: NaN, n: 0 };
-    };
-    const r2 = (v) => (Number.isFinite(v) ? Math.round(v * 200) / 100 : NaN);
-
-    A.part('body', {
-      name: 'PP_Winkel', label: 'PP-R-Winkelkörper', mat: 'pprGreen',
-      geo: body.geo, cap: body.cap,
-      explode: V3(-0.35 * P.l, -0.20 * P.z1, 0),
-      anchor: V3(-P.l * 0.7, P.rOut + 0.28 * P.l, 0),
-    });
-    A.part('stud', {
-      name: 'Messingeinsatz', label: 'Messingeinsatz R' + P.R + '"', mat: 'brass',
-      geo: stud.geo, cap: stud.cap,
-      /* Der Zapfen sitzt in +Y — er muss auch in +Y auseinanderfahren.
-         Eine Zahl würde ihn in X versetzen und quer durch den Winkel
-         ziehen. */
-      explode: V3(0, 0.55 * P.z1, 0),
-      anchor: V3(P.rLegB + 0.30 * P.z1, P.z1 * 0.85, 0),
-    });
-
-    A.light(V3(-P.l * 0.6, 0, 0));
-    A.light(V3(0, P.z1 * 0.6, 0));
-
-    A.hotspot({
-      v: V3(-P.l + Math.max(3, 0.12 * P.l), P.rOut * 0.5, P.rOut * 0.83),
-      n: V3(0, 0.5, 0.86),
-      text: 'Schweißmuffe für Polyfusion, Muffentiefe ' +
-        P.socket.toFixed(1).replace('.', ',') + ' mm',
-    });
-    A.hotspot({
-      v: V3(0, P.L1 + P.threadLen * 0.5, P.threadOD * 0.46),
-      n: V3(0.35, 0.2, 0.91),
-      text: 'Kegeliges Rohrgewinde R' + P.R + '" nach ISO 7-1, ' +
-        P.turns + ' Gänge, Steigung ' + String(P.threadPitch).replace('.', ',') +
-        ' mm, Gewindelänge ' + P.threadLen + ' mm',
-    });
-    A.hotspot({
-      v: V3(0, P.L1 - P.insertDepth * 0.5, P.rLegB * 0.92),
-      n: V3(0.2, -0.2, 0.96),
-      text: 'Messingeinsatz mit Ringzähnen im PP-R verankert, ' +
-        'Einbautiefe ' + P.insertDepth.toFixed(1).replace('.', ',') + ' mm',
-    });
-
-    /* Bemaßung: Muffenschenkel entlang −X, Gesamthöhe des
-       Gewindeschenkels entlang +Y. Beide Linien liegen vor der
-       Silhouette. */
-    const zf = P.rOut + 0.16 * P.l;
-    const yL = -(P.rOut + 0.34 * P.l);
-    A.dim({ label: 'l', value: P.l,
-      a: V3(-P.l, yL, zf), b: V3(0, yL, zf), off: V3(0, 0.12 * P.l, 0) });
-    const xR = P.rOut + 0.30 * P.l;
-    A.dim({ label: 'z₁', value: P.z1,
-      a: V3(xR, 0, zf), b: V3(xR, P.z1, zf), off: V3(0.12 * P.l, 0, 0) });
-
-    A.measures = [
-      /* ── Die vier Katalogmaße, jedes an der Geometrie abgetastet ── */
-      { key: 'l', label: DIMENSION_KEY.l, soll: P.l,
-        ist: () => { const b = A.visibleBoxOf(['body']); return Math.abs(b.min.x); } },
-      { key: 'L1', label: DIMENSION_KEY.L1, soll: P.L1,
-        ist: () => { const b = A.visibleBoxOf(['body']); return b.max.y; } },
-      { key: 'z1', label: DIMENSION_KEY.z1, soll: P.z1,
-        ist: () => { const b = A.visibleBoxOf(['stud']); return b.max.y; } },
-      /* Gewindelänge als eigenständiges Maß: die Differenz zweier
-         GEMESSENER Kanten, nicht zweier Tabellenwerte (Fall 14). Sie
-         beweist, dass der Zapfen genau so weit aus dem PP ragt, wie
-         z1 − L1 verlangt. */
-      { key: 'ueberstand', label: 'Freiliegendes Gewinde z₁ − L₁', soll: P.threadLen,
-        ist: () => A.visibleBoxOf(['stud']).max.y - A.visibleBoxOf(['body']).max.y },
-
-      /* D am Nennmaßort: bei sA = Muffentiefe, wo die 1°-Entformung
-         ausgelaufen ist (Fall 15). Nicht über eine Box3 — die erfässt
-         auch Bogen und Gewindeschenkel und wäre gegen einen zu dünnen
-         Muffenschenkel blind (Fall 13). */
-      { key: 'D', label: DIMENSION_KEY.D, soll: P.D,
-        ist: () => r2(slab('x', -P.l + P.socket, 0.4).rMax) },
-      /* GEGENPROBE zu D (Fall 25): dieselbe Abtastung an zwei anderen
-         Stellen MUSS zwei andere Werte liefern — am Absatz vor dem
-         Messing und am schlankeren Körper darüber. Käme dreimal D
-         heraus, tastet die Messung nicht den Ort ab, den sie nennt. */
-      { key: 'D_kragen', label: 'Ø Absatz vor dem Messing', soll: r2(P.collarR),
-        ist: () => r2(slab('y', P.L1 - P.collarLen * 0.5, 0.4).rMax) },
-      { key: 'D_schenkelB', label: 'Ø Gewindeschenkel über dem Einsatz', soll: r2(P.rLegB),
-        ist: () => r2(slab('y', P.L1 - P.collarLen - 4, 0.4).rMax) },
-      /* Was die Abtastung bei y ≈ 0 NICHT finden kann (Fall 13): eine
-         Silhouette, die nur in dieser einen Ebene stimmt — ein Sechskant
-         über Ecke oder ein ovaler Querschnitt liest sich dort wie ein
-         Kreis. Deshalb dieselbe Stelle noch einmal um 90° gedreht, in
-         der Ebene z ≈ 0. Erst das Paar beweist den runden Schenkel. */
-      { key: 'D_quer', label: 'D um 90° gedreht gemessen', soll: P.D,
-        ist: () => r2(slab('x', -P.l + P.socket, 0.4, 'z0').rMax) },
-
-      /* Muffenbohrung am Nennmaßort: 2 mm hinter dem Mundloch, hinter
-         der Einführfase. Dort muss das Rohr d passen. */
-      { key: 'muffenbohrung', label: 'Muffenbohrung (2 mm hinter dem Mundloch)', soll: P.d,
-        ist: () => r2(slab('x', -P.l + 2, 0.4).rMin) },
-      /* GEGENPROBE: kurz vor dem Bogen ist die Rohrbohrung erreicht —
-         ein deutlich anderer Wert. */
-      { key: 'bohrung', label: 'Rohrbohrung vor dem Bogen', soll: r2(P.boreR),
-        ist: () => r2(slab('x', -(P.bendR + 1.6), 0.4).rMin) },
-
-      /* Muffentiefe: gesucht ist die Stelle, an der die Bohrung auf die
-         Hälfte zwischen Muffen- und Rohrmaß abgefallen ist. Der
-         Grundübergang ist ein symmetrischer Smoothstep über groundLen,
-         seine Mitte liegt also genau groundLen/2 hinter dem Muffengrund
-         — dieser bekannte Betrag wird abgezogen. Gemessen wird die
-         gebaute Punktwolke, gerechnet nur die Umrechnung. */
-      { key: 'tiefe', label: 'Muffentiefe (abgetastet)', soll: P.socket,
-        ist: () => {
-          const rMid = (P.rSockGround + P.boreR) / 2;
-          const reihen = new Map();
-          for (let i = 0; i < POS.count; i++) {
-            if (Math.abs(POS.getY(i)) > 0.35) continue;
-            const x = POS.getX(i);
-            if (x < -P.l + 2.5 || x > -P.bendR - 0.2) continue;
-            const k = Math.round(x * 50) / 50;
-            const r = Math.abs(POS.getZ(i));
-            const cur = reihen.get(k);
-            if (cur === undefined || r < cur) reihen.set(k, r);
-          }
-          const xs = [...reihen.keys()].sort((a, b) => a - b);
-          for (let i = 1; i < xs.length; i++) {
-            const r0 = reihen.get(xs[i - 1]), r1 = reihen.get(xs[i]);
-            if (r0 >= rMid && r1 < rMid) {
-              const f = (r0 - rMid) / (r0 - r1);
-              const xc = xs[i - 1] + f * (xs[i] - xs[i - 1]);
-              return Math.round((xc + P.l - P.groundLen / 2) * 100) / 100;
-            }
-          }
-          return NaN;
-        } },
-
-      /* ── Der Gewindescheitel, abgetastet (Fall 20) ──
-         Der Strahl fährt die zweite Kuppe an; die erste liegt auf der
-         Profilfuge zum PP-Ende. Der Kegel 1:16 verjüngt sie gegenüber
-         dem Nennmaß um 2·pitch/32. */
-      { key: 'gewinde', label: 'Gewinde-Außendurchmesser R' + P.R + '" (2. Kuppe)',
-        soll: Math.round((P.threadOD - 2 * P.threadPitch / 32) * 100) / 100,
-        ist: () => {
-          const hit = A.probeAxial('stud',
-            V3(0, P.L1 + P.threadPitch, P.threadOD), V3(0, 0, -1));
-          return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
-        } },
-      /* GEGENPROBE: der Grund zwischen zwei Kuppen MUSS eine
-         Gewindetiefe tiefer liegen. Gleicher Wert hieße, das Gewinde ist
-         ein glatter Kegel (Fall 25). */
-      { key: 'gewindegrund', label: 'Gewinde-Kerndurchmesser',
-        soll: (() => {
-          const h = 0.640327 * P.threadPitch;
-          const rd = Math.max(0.3, 0.137 * P.threadPitch);
-          return Math.round((P.threadOD - 2 * (1.5 * P.threadPitch) / 32 - 2 * h
-            + 2 * rd * (1 / Math.sin(27.5 * Math.PI / 180) - 1)) * 100) / 100;
-        })(),
-        ist: () => {
-          const hit = A.probeAxial('stud',
-            V3(0, P.L1 + 1.5 * P.threadPitch, P.threadOD), V3(0, 0, -1));
-          return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
-        } },
-
-      /* Wandstärken sind per Definition Parameter, keine Messungen —
-         und heißen deshalb so (Fall 12, zulässige Ausnahme). */
-      { key: 'restwand', label: 'Restwand Muffenschenkel', soll: P.restwand, ist: () => P.restwand },
-      { key: 'restwandB', label: 'Restwand über dem Einsatz', soll: P.restwandB, ist: () => P.restwandB },
-    ];
-
-    A.setExplode(0);
-    A.setSection(false, clipPlane);
-    A.P = P;
-    return A;
+    return buildFemaleMale({
+      ...CONFIG,
+      article,
+      dimensionKey: DIMENSION_KEY,
+      exportName: 'K-Aqua_Winkel90_MS',
+      seed: 251,
+    }, size, variant, clipPlane);
   },
 };
 

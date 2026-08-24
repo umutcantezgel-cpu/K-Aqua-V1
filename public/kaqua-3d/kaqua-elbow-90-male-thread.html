@@ -3686,7 +3686,10 @@ function skinAlong(P, sA, sB, legB) {
 }
 
 function buildElbowBody(P) {
-  const path = bendPath(P.l, 90, P.bendR, 24, 40, P.L1);
+  /* Der Winkel kommt aus P, damit auch die 45°-Varianten diesen Körper
+     tragen. Ohne P.angle bleibt es bei 90 — die drei Gewindeprodukte
+     bauen damit Zeichen für Zeichen wie vorher. */
+  const path = bendPath(P.l, P.angle ?? 90, P.bendR, 24, 40, P.L1);
   let pathLen = 0;
   for (let i = 1; i < path.length; i++) pathLen += path[i].c.distanceTo(path[i - 1].c);
 

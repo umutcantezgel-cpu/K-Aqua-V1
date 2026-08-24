@@ -72,10 +72,15 @@ const FAMILY = {
      dazu — bendParams rechnet mit den Spalten des Winkels. */
   bracket: ['_bendthread/parts.js', '_bracket/params.js',
     '_bracket/parts.js', '_bracket/assembly.js'],
+  /* Winkel Muffe/Spitzende, 45° und 90°. Derselbe Körper, aber ohne
+     Messingteil — Schenkel B ist durchgehend Rohr. */
+  femalemale: ['_bendthread/parts.js', '_femalemale/params.js',
+    '_femalemale/assembly.js'],
 };
 function familyFor(slug) {
   if (/^elbow-90-male-thread$/.test(slug)) return FAMILY.bendthread;
   if (/^elbow-(?:wall-)?bracket-90-female-thread$/.test(slug)) return FAMILY.bracket;
+  if (/^elbow-\d+-female-male$/.test(slug)) return FAMILY.femalemale;
   if (/^elbow-\d/.test(slug)) return FAMILY.bend;
   if (/^tee-\d+-(?:fe)?male-thread$/.test(slug)) return FAMILY.teethread;
   if (/^metal-union-/.test(slug)) return FAMILY.union;

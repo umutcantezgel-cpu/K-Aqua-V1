@@ -3,7 +3,7 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Welle 4.5/4.6 gebaut. **36 von 71.**
+**Letzte Änderung:** 24.08.2026 — Welle 3.1/3.2 gebaut. **38 von 71.**
 
 ---
 
@@ -11,10 +11,10 @@ können, ohne die ganze Pipeline zu lesen.
 
 | | |
 |---|---|
-| Fertig | **36 von 71** · Selbsttest 36/36, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **38 von 71** · Selbsttest 38/38, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
-| Spur B | 2 von 37 gebaut: Welle 4.5 + 4.6, das Laschenpaar ✓ |
+| Spur B | 4 von 37 gebaut: Welle 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende) ✓ |
 | Letzter Bauzustand | vollständig gebaut und ausgeliefert; `npm run build` grün |
 | Branch | `wiederherstellung-kaqua-3d` |
 
@@ -67,10 +67,20 @@ Das Laschenpaar 4.5/4.6 ist **fertig** (Prüfbericht
 unabhängigen Rang-1-Quellen, Maßtest über zehn Größen mit größter
 Abweichung 0,03 mm.
 
-Als Nächstes 4.7 `valves/tee-90-female-thread-internal-valve` und 4.8
-`transition-fittings/union-for-watermeters`. Danach Welle 5 (Rest) und
-Welle 3, wo die Winkel Muffe/Spitzende stehen — deren Körper trägt
-`_bendthread/parts.js` vermutlich ebenfalls.
+**Welle 3.1/3.2 ist ebenfalls fertig** (Prüfbericht
+`pruefung/w31-32-winkel-muffe-spitzende.md`): die Winkel 45° und 90°
+Muffe/Spitzende tragen `_bendthread/parts.js` ohne jede Änderung am
+Körper — Schenkel B ist einfach durchgehend Rohr. Maßtest 0,01 bzw.
+**0,00 mm**.
+
+Als Nächstes 4.7 `valves/tee-90-female-thread-internal-valve` (AQ599A,
+Katalog S. 108) und 4.8 `transition-fittings/union-for-watermeters`
+(AQ332, S. 100). Bei beiden ist eine Spalte noch ungedeutet — bei AQ599A
+das `z` (46/43/39/58 gegen L/2 = 40/40/37,5/47), bei AQ332 sind es zwei
+Schlüsselweiten SW und SW₁. Zuerst die Zeichnungen lesen.
+
+Danach 3.3/3.4 (`cross-over`, `cross-over-pipe`, AQ287/AQ285) — auch
+Bögen, vermutlich wieder `_bendthread`.
 
 **Spur C — Farbvarianten**, gebündelt am Ende einer Produktgruppe.
 

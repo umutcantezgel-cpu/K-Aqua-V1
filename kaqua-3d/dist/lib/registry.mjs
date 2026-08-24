@@ -50,11 +50,27 @@ export const REGISTRY = [
   "category": "fittings"
  },
  {
+  "slug": "elbow-45-female-male",
+  "id": "fittings/elbow-45-female-male",
+  "module": "kaqua-elbow-45-female-male",
+  "titleDe": "Winkel 45° Muffe/Spitzende",
+  "titleEn": "Elbow 45° (Female/male)",
+  "category": "fittings"
+ },
+ {
   "slug": "elbow-90",
   "id": "fittings/elbow-90",
   "module": "kaqua-elbow-90",
   "titleDe": "Winkel 90°",
   "titleEn": "Elbow 90°",
+  "category": "fittings"
+ },
+ {
+  "slug": "elbow-90-female-male",
+  "id": "fittings/elbow-90-female-male",
+  "module": "kaqua-elbow-90-female-male",
+  "titleDe": "Winkel 90° Muffe/Spitzende",
+  "titleEn": "Elbow 90° (Female/male)",
   "category": "fittings"
  },
  {

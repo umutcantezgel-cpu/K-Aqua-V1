@@ -12,7 +12,9 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "cap": "fittings/cap",
   "cross": "fittings/cross",
   "elbow-45": "fittings/elbow-45",
+  "elbow-45-female-male": "fittings/elbow-45-female-male",
   "elbow-90": "fittings/elbow-90",
+  "elbow-90-female-male": "fittings/elbow-90-female-male",
   "elbow-90-male-thread": "transition-fittings/elbow-90-male-thread",
   "elbow-bracket-90-female-thread": "transition-fittings/elbow-bracket-90-female-thread",
   "elbow-wall-bracket-90-female-thread": "transition-fittings/elbow-wall-bracket-90-female-thread",
@@ -44,4 +46,4 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "union": "transition-fittings/union",
 };
 
-export const GENERATED_COUNT = 36;
+export const GENERATED_COUNT = 38;

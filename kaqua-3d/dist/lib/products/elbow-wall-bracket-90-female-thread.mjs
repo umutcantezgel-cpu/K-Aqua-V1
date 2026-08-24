@@ -91,7 +91,10 @@ function skinAlong(P, sA, sB, legB) {
 }
 
 export function buildElbowBody(P) {
-  const path = bendPath(P.l, 90, P.bendR, 24, 40, P.L1);
+  /* Der Winkel kommt aus P, damit auch die 45°-Varianten diesen Körper
+     tragen. Ohne P.angle bleibt es bei 90 — die drei Gewindeprodukte
+     bauen damit Zeichen für Zeichen wie vorher. */
+  const path = bendPath(P.l, P.angle ?? 90, P.bendR, 24, 40, P.L1);
   let pathLen = 0;
   for (let i = 1; i < path.length; i++) pathLen += path[i].c.distanceTo(path[i - 1].c);
 
@@ -303,7 +306,9 @@ export function bracketParams(a, cfg) {
      hinter der Muffe und vor dem Bogen. Das Fenster ist eng — bei
      d25×½" 0,5 mm breit — deshalb genau die Mitte. */
   const boreLo = -a.L1 + P.socket + P.groundLen;
-  const boreHi = -P.bendR;
+  /* Setback statt bendR — bei 90° derselbe Wert, aber der Setback ist
+     der richtige Begriff: der Bogen frisst R·tan(α/2) vom Schenkel. */
+  const boreHi = -P.bendR * Math.tan((90 * D2R) / 2);
   P.xBore = Math.round(((boreLo + boreHi) / 2) * 100) / 100;
   if (!(boreHi > boreLo)) {
     throw new Error('K-Aqua ' + a.key + ': kein freier Rohrabschnitt zwischen ' +
