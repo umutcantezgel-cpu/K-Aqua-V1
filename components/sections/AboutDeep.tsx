@@ -126,7 +126,10 @@ export async function AboutDeep() {
             {/* Big Main Feature (60% width, 100% height) */}
             <Reveal delay={0.07} className="md:col-span-2 md:row-span-2 h-[350px] md:h-full">
               <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-diffuse group">
-                <MediaSlot 
+                {/* „Langlebigkeit & Effizienz · PP-RCT Rohrsysteme" */}
+                <MediaSlot
+                  src="/images/marke/rohre.jpg"
+                  alt={tAd("item1")}
                   label={tAd("item1")}
                   className="w-full h-full rounded-2xl"
                 />
@@ -136,7 +139,12 @@ export async function AboutDeep() {
             {/* Top Right Horizontal (40% width, 50% height) */}
             <Reveal delay={0.14} className="md:col-span-2 md:row-span-1 h-[250px] md:h-full">
               <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-sm group">
-                <MediaSlot 
+                {/* „Werkstoffkunde: Polypropylen Random-Copolymer" — die
+                    Aufnahme zeigt genau das: PP-R-Granulat, einen
+                    DZR-Messingeinsatz und die daraus gefertigten Fittings. */}
+                <MediaSlot
+                  src="/images/marke/werkstoff-granulat.jpg"
+                  alt={tAd("item2")}
                   label={tAd("item2")}
                   className="w-full h-full rounded-2xl"
                 />
@@ -146,7 +154,10 @@ export async function AboutDeep() {
             {/* Bottom Right 1 (20% width, 50% height) */}
             <Reveal delay={0.21} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
               <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-sm group">
-                <MediaSlot 
+                {/* „K-Aqua Systemflexibilität" */}
+                <MediaSlot
+                  src="/images/marke/programm.jpg"
+                  alt={tAd("item3")}
                   label={tAd("item3")}
                   className="w-full h-full rounded-2xl"
                 />
@@ -156,7 +167,11 @@ export async function AboutDeep() {
             {/* Bottom Right 2 (20% width, 50% height) */}
             <Reveal delay={0.28} className="md:col-span-1 md:row-span-1 h-[250px] md:h-full">
               <div className="w-full h-full relative rounded-2xl overflow-hidden shadow-sm group">
-                <MediaSlot 
+                {/* „Entzinkungsbeständiges DZR-Messing" — die Aufnahme zeigt
+                    die eingegossenen Messinggewinde in den Fittings. */}
+                <MediaSlot
+                  src="/images/marke/fittings-messing.jpg"
+                  alt={tAd("item4")}
                   label={tAd("item4")}
                   className="w-full h-full rounded-2xl"
                 />

@@ -282,11 +282,12 @@ export default async function Page({ params }: Props) {
                 </div>
               </div>
               <div className="w-full md:w-1/3 shrink-0">
-                <MediaSlot 
-                  alt={tHomex('manifestTitle')} 
-                  aspectRatio="4/3" 
+                <MediaSlot
+                  src="/images/video-poster/factory.jpg"
+                  alt={tHomex('manifestTitle')}
+                  aspectRatio="4/3"
                   shapeVariant="sweep-r"
-                  label="K-Aqua Qualitätsfertigung Waldsolms" 
+                  label="K-Aqua Qualitätsfertigung Waldsolms"
                   loading="lazy"
                 />
               </div>
@@ -303,9 +304,10 @@ export default async function Page({ params }: Props) {
                 </p>
               </div>
               <div className="mt-6 flex flex-col gap-4">
-                <MediaSlot 
-                  alt={tHomex('worldTitle')} 
-                  aspectRatio="16/9" 
+                <MediaSlot
+                  src="/images/referenzen/al-kout-mall.jpg"
+                  alt={tHomex('worldTitle')}
+                  aspectRatio="16/9"
                   shapeVariant="sweep-l"
                   label="Globale Projekte & Referenzen"
                   loading="lazy"

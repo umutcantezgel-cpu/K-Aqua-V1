@@ -104,7 +104,7 @@ export default async function UnternehmenPage({ params }: Props) {
               <Card className="overflow-hidden border border-card-border p-0 shadow-diffuse group">
                 <div className="grid grid-cols-1 lg:grid-cols-[38%_62%] items-stretch">
                   <div className="relative min-h-[300px] h-full lg:h-auto overflow-hidden">
-                    <MediaSlot label={t("h2")} className="w-full h-full min-h-[300px] rounded-t-2xl lg:rounded-l-2xl lg:rounded-tr-none border-none" />
+                    <MediaSlot src="/images/marke/sortiment.jpg" alt={t("h2")} label={t("h2")} className="w-full h-full min-h-[300px] rounded-t-2xl lg:rounded-l-2xl lg:rounded-tr-none border-none" />
                   </div>
                   <div className="p-8 lg:p-16 flex flex-col justify-center text-start bg-card/80 backdrop-blur-sm">
                     <Eyebrow>{t("eyebrow")}</Eyebrow>
