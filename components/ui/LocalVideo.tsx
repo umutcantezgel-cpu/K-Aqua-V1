@@ -10,7 +10,7 @@ export interface LocalVideoProps extends React.VideoHTMLAttributes<HTMLVideoElem
   title: string;
   /** Description for SEO schema */
   description?: string;
-  /** Upload date for SEO schema (ISO string). Defaults to 2026-01-01T08:00:00+08:00 */
+  /** Upload date for SEO schema (ISO string). Defaults to 2026-07-08, the day the videos were published on this site. */
   uploadDate?: string;
   /** The fallback YouTube URL, kept strictly for SEO */
   fallbackYoutubeUrl?: string;
@@ -22,7 +22,7 @@ export function LocalVideo({
   src,
   title,
   description = "K-Aqua PP-R / PP-RCT piping system video.",
-  uploadDate = "2026-01-01T08:00:00+08:00",
+  uploadDate = "2026-07-08T00:00:00+02:00",
   fallbackYoutubeUrl,
   poster,
   className = "",
@@ -43,9 +43,17 @@ export function LocalVideo({
   //    ist. Google verlangt es für Video-Rich-Results; ohne das Feld ist der
   //    Knoten dafür ohnehin nicht zugelassen.
   //
-  // Offen bleibt `uploadDate`: Der Vorgabewert ist ein gesetztes Datum, kein
-  // erhobenes. Wer ein Video einbindet, sollte das tatsächliche
-  // Veröffentlichungsdatum übergeben.
+  // `uploadDate`: Der Vorgabewert war „2026-01-01T08:00:00+08:00" — ein frei
+  // gesetztes Datum, dazu mit einer Zeitzone (+08:00), die zu einem deutschen
+  // Hersteller nicht passt. Jetzt steht dort der Tag, an dem die Videodateien
+  // tatsächlich in dieses Repository und damit auf die Seite kamen
+  // (`git log --diff-filter=A` über public/videos/: 08.07.2026, alle fünf im
+  // selben Commit), mit deutscher Zeitzone.
+  //
+  // Das ist bewusst das Veröffentlichungsdatum AUF DIESER SEITE, nicht das
+  // Aufnahmedatum — letzteres ist nirgends belegt. Genau das verlangt
+  // schema.org: „The date when this media object was uploaded to this site."
+  // Wer ein Video mit bekanntem Datum einbindet, übergibt es weiterhin selbst.
   const embedUrl = fallbackYoutubeUrl
     ? fallbackYoutubeUrl.replace(
         /^https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([A-Za-z0-9_-]+).*$/,

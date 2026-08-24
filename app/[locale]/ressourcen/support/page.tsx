@@ -131,13 +131,13 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <BentoGridItem
                 title={t('support.bento.items.1.title')}
                 description={t('support.bento.items.1.desc')}
-                header={<PremiumAssetPlaceholder label={t('support.bento.items.1.title')} video="/videos/socket-welding-hand.mp4" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.1.title')} video="/videos/socket-welding-hand.mp4" poster="/images/video-poster/socket-welding-hand.jpg" className="min-h-[240px]" />}
                 colSpan={1}
               />
               <BentoGridItem
                 title={t('support.bento.items.2.title')}
                 description={t('support.bento.items.2.desc')}
-                header={<PremiumAssetPlaceholder label={t('support.bento.items.2.title')} video="/videos/factory.mp4" className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.2.title')} video="/videos/factory.mp4" poster="/images/video-poster/factory.jpg" className="min-h-[240px]" />}
                 colSpan={1}
               />
               <BentoGridItem

@@ -47,12 +47,15 @@ const K_DL_LINKS = [
 
 import { LocalVideo } from "@/components/ui/LocalVideo";
 
-// Mappings for Service videos: local path and YouTube SEO fallback
+// Mappings for Service videos: local path, poster frame and YouTube SEO fallback.
+// Standbilder wie in components/tools/Academy.tsx — ohne sie steht bis zum
+// Laden der Metadaten ein schwarzes Rechteck, und der VideoObject-Knoten hat
+// keine `thumbnailUrl`.
 const VIDEO_ASSETS = [
-  { src: '/videos/socket-welding-hand.mp4', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
-  { src: '/videos/socket-welding-machine.mp4', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
-  { src: '/videos/electrofusion.mp4', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
-  { src: '/videos/butt-fusion.mp4', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
+  { src: '/videos/socket-welding-hand.mp4', poster: '/images/video-poster/socket-welding-hand.jpg', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
+  { src: '/videos/socket-welding-machine.mp4', poster: '/images/video-poster/socket-welding-machine.jpg', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
+  { src: '/videos/electrofusion.mp4', poster: '/images/video-poster/electrofusion.jpg', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
+  { src: '/videos/butt-fusion.mp4', poster: '/images/video-poster/butt-fusion.jpg', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
 ];
 
 export default async function ServicePage({ params }: Props) {
@@ -189,6 +192,7 @@ export default async function ServicePage({ params }: Props) {
                         <div>
                           <LocalVideo
                             src={asset?.src || ""}
+                            poster={asset?.poster}
                             title={v.t}
                             description={v.s}
                             fallbackYoutubeUrl={asset?.fallback}

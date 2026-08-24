@@ -10,12 +10,23 @@ import { LocalVideo } from "@/components/ui/LocalVideo";
 import { Flame, Award } from "@/components/ui/icon";
 import LiquidMagneticButton from "@/components/ui/LiquidMagneticButton";
 
-// Mappings for Academy videos: local path and YouTube SEO fallback
+// Mappings for Academy videos: local path, poster frame and YouTube SEO fallback.
+//
+// `poster` fehlte bisher an jeder Kachel. Bis die Metadaten geladen sind — bei
+// 10 bis 40 MB je Datei spürbar lange — stand dort ein schwarzes Rechteck. Der
+// Anhang `#t=0.001` sollte das abfangen, greift aber erst nach dem ersten
+// Ladeschritt. Ohne Standbild ist der VideoObject-Knoten zudem nicht für
+// Video-Rich-Results zugelassen; `LocalVideo` leitet `thumbnailUrl` daraus ab.
+//
+// Die beiden Schweißvideos zeigen als erstes Bild eine fast weiße Titelkarte;
+// für sie sind deshalb die Prozessaufnahmen aus dem Marketing-Archiv als
+// Standbild gesetzt. Wo das Video selbst ein brauchbares Bild liefert, stammt
+// das Standbild aus dem Video.
 const VIDEO_ASSETS = [
-  { src: '/videos/socket-welding-hand.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
-  { src: '/videos/socket-welding-machine.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
-  { src: '/videos/electrofusion.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
-  { src: '/videos/butt-fusion.mp4#t=0.001', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
+  { src: '/videos/socket-welding-hand.mp4#t=0.001', poster: '/images/video-poster/socket-welding-hand.jpg', fallback: 'https://www.youtube.com/watch?v=d56p048YB2o&t=20s' },
+  { src: '/videos/socket-welding-machine.mp4#t=0.001', poster: '/images/video-poster/socket-welding-machine.jpg', fallback: 'https://www.youtube.com/watch?v=yD99teROIKc&t=59s' },
+  { src: '/videos/electrofusion.mp4#t=0.001', poster: '/images/video-poster/electrofusion.jpg', fallback: 'https://www.youtube.com/watch?v=ob2wMFZgm0k' },
+  { src: '/videos/butt-fusion.mp4#t=0.001', poster: '/images/video-poster/butt-fusion.jpg', fallback: 'https://www.youtube.com/watch?v=Ws7-whaL-q8&t=43s' }
 ];
 
 const CORRECT_ANSWERS = [1, 0, 1, 1, 1];
@@ -144,6 +155,7 @@ export function Academy({ data }: AcademyProps) {
                     <Card className="h-full flex flex-col gap-4 text-start p-6 hover:-translate-y-1 transition-all duration-200">
                       <LocalVideo
                         src={asset?.src || ""}
+                        poster={asset?.poster}
                         title={video.t}
                         description={video.s}
                         fallbackYoutubeUrl={asset?.fallback}

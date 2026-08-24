@@ -9,6 +9,13 @@ interface ProductVideoProps {
 
 interface VideoData {
   src: string;
+  /**
+   * Standbild aus public/images/video-poster/. Ohne dieses Feld zeigte die
+   * Kachel bis zum Laden der Metadaten ein schwarzes Rechteck, und
+   * `LocalVideo` konnte keine `thumbnailUrl` in den VideoObject-Knoten
+   * schreiben — ohne die lässt Google keine Video-Rich-Results zu.
+   */
+  poster: string;
   youtubeId: string;
   title: string;
 }
@@ -16,34 +23,38 @@ interface VideoData {
 // Maps product SEO categories to specific K-Aqua videos
 function getVideoForCategory(category: string): VideoData {
   const cat = category.toLowerCase();
-  
+
   if (cat.includes('electrofusion') || cat.includes('elektroschweiss')) {
     return {
       src: '/videos/electrofusion.mp4',
+      poster: '/images/video-poster/electrofusion.jpg',
       youtubeId: 'ob2wMFZgm0k',
       title: 'K-Aqua Electrofusion Welding'
     };
   }
-  
+
   if (cat.includes('fittings') || cat.includes('transition')) {
     return {
       src: '/videos/socket-welding-hand.mp4',
+      poster: '/images/video-poster/socket-welding-hand.jpg',
       youtubeId: 'd56p048YB2o',
       title: 'K-Aqua Socket Welding by Hand'
     };
   }
-  
+
   if (cat.includes('pipes')) {
     return {
       src: '/videos/factory.mp4',
+      poster: '/images/video-poster/factory.jpg',
       youtubeId: 'QDe3x9-ztHQ',
       title: 'Inside the K-Aqua Factory'
     };
   }
-  
+
   // Default to factory tour
   return {
     src: '/videos/factory.mp4',
+    poster: '/images/video-poster/factory.jpg',
     youtubeId: 'QDe3x9-ztHQ',
     title: 'Inside the K-Aqua Factory'
   };
@@ -66,6 +77,7 @@ export default async function ProductVideo({ category, locale }: ProductVideoPro
       </div>
       <LocalVideo
         src={video.src}
+        poster={video.poster}
         title={video.title}
         fallbackYoutubeUrl={`https://www.youtube.com/watch?v=${video.youtubeId}`}
         className="rounded-none rounded-b-xl"
