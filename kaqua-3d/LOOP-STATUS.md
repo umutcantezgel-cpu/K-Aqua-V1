@@ -82,11 +82,55 @@ Schlüsselweiten SW und SW₁. Zuerst die Zeichnungen lesen.
 **Die Elektroschweißmuffe ist ebenfalls fertig** (Prüfbericht
 `pruefung/w2-electrofusion-socket.md`), 14 Größen, 0,01 mm.
 
-Danach 3.3/3.4 (`cross-over`, `cross-over-pipe`, AQ287/AQ285). Sie
-brauchen als erste eine **neue Bahn**: einen U-Bogen über ein
-kreuzendes Rohr, nicht einen einfachen Winkel. `bendPath` trägt das
-nicht; entweder zwei Bögen hintereinandergesetzt oder eine eigene
-Bahnfunktion im Core.
+### Erkundung der nächsten drei — gemacht, damit sie nicht doppelt läuft
+
+**3.3 `cross-over` (AQ287, Katalog S. 91)** — 3 Größen, Tabelle aus
+Katalog UND Website gelesen, Zeile für Zeile gleich:
+
+| Code | d | L | z | H | t |
+|---|---|---|---|---|---|
+| AQ28720 | 20 | 90 | 63 | 45 | 14 |
+| AQ28725 | 25 | 104 | 80 | 55 | 16 |
+| AQ28732 | 32 | 126 | 98 | 70 | 23 |
+
+Die Zeichnung zeigt einen symmetrischen Brückenbogen: Muffe, Anstieg,
+Scheitel, Abstieg, Muffe. Sie setzt `t` an die Muffentiefe und `L` über
+alles — daraus müsste `L = t + z + t` folgen. **Tut es nicht:**
+L − z = 27 · 24 · 28, aber 2t = 28 · 32 · 46. Nur d20 stimmt annähernd.
+**`z` ist damit nicht gedeutet** (Fall 29) und wird nicht angesetzt.
+
+Modellierbar ist das Teil trotzdem aus d, L, H und t. Zwei Dinge fehlen
+und wären ASSUMPTION: der **Außendurchmesser** (die Tabelle führt keine
+Spalte D — die Muffentabelle gibt 29 · 35 · 44 her) und die
+**Bogenradien** des Anstiegs.
+
+Neu nötig: eine **Bahnfunktion für den Brückenbogen**. `bendPath` trägt
+einen Knick, nicht vier. Entweder mehrere `arcPath`-Abschnitte
+aneinandergesetzt oder eine eigene Funktion im Core.
+
+**3.4 `cross-over-pipe` (AQ285, S. 91)** — 3 Größen, Spalten
+`Code d L H s`. Kein `t`, kein `z`: das Teil ist aus **Rohr** gebogen
+(daher die Wandstärke s = 3,4 · 4,2 · 5,4), die Enden sind Spitzenden.
+L = 365 · 370 · 370 mm — es ist ein langes Rohrstück mit einem Bogen in
+der Mitte. Dieselbe Bahnfunktion wie 3.3, aber ohne Muffen und mit
+konstanter Wand. **Der einfachere der beiden**, wenn die Bahn steht.
+
+**`reducing-tee` (AQ130 mit zwei Nennweiten, S. 88–89)** — Spalten
+`Code d d1 d2 D l z l1 D1 z1 s s1`. `d2 = d` in allen gelesenen Zeilen:
+der Durchgang ist beidseitig gleich, `d1` ist der reduzierte Abzweig.
+
+Gegenprobe l − z gegen die Normreihe trifft gut (16 · 18 · 18 · 20 ·
+21 · 21 · 24 · 24 …). **Aber `D1` folgt keiner erkennbaren Regel:**
+29 · 34 · 34 · 43 · 43 · 43 · 43 · 43 · 43 · 65, während der Abzweig
+d1 = 20 · 20 · 25 · 20 · 25 · 32 · 20 · 25 · 32 · 40 läuft. Weder der
+Abzweigmuffen-Außendurchmesser noch der des Durchgangs passt darauf.
+Auch `l1` springt bei AQ1305032 und AQ1305040 von 46 auf 62. **Vor dem
+Bau zu klären** — vermutlich am besten an der Maßzeichnung, wie es bei
+der Elektroschweißmuffe die Spalte `h` gelöst hat.
+
+Das Familienmodul `_tee` kennt nur EINEN Durchmesser. Für die
+Reduzier-T-Stücke muss der Abzweig eine eigene Nennweite bekommen —
+eine echte Erweiterung, kein Durchreichen.
 
 **Spur C — Farbvarianten**, gebündelt am Ende einer Produktgruppe.
 
