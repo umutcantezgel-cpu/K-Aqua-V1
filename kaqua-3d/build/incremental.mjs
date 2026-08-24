@@ -60,8 +60,15 @@ const FAMILY = {
   teethread: ['_tee/parts.js', '_teethread/params.js', '_teethread/parts.js',
     '_teethread/assembly.js'],
   union: ['_union/params.js', '_union/parts.js', '_union/assembly.js'],
+  /* Winkel mit Gewindeschenkel: ungleiche Schenkel, ungleiche
+     Außendurchmesser. _bend/params.js liefert die Grundrechnung,
+     _bendthread/parts.js den Körper. _bend/parts.js gehört NICHT dazu —
+     sein buildBend setzt gleiche Schenkel voraus und lag in diesen
+     Bundles bis zum 24.08.2026 als toter Code. */
+  bendthread: ['_bend/params.js', '_bendthread/parts.js'],
 };
 function familyFor(slug) {
+  if (/^elbow-90-male-thread$/.test(slug)) return FAMILY.bendthread;
   if (/^elbow-\d/.test(slug)) return FAMILY.bend;
   if (/^tee-\d+-(?:fe)?male-thread$/.test(slug)) return FAMILY.teethread;
   if (/^metal-union-/.test(slug)) return FAMILY.union;
