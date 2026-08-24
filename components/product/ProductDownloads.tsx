@@ -43,7 +43,14 @@ export default function ProductDownloads({ translations }: ProductDownloadsProps
       desc: translations.rangeDesc,
       icon: FileText,
       href: '/pdf/k-aqua-product-range-en.pdf',
-      size: '1.2 MB',
+      // 12,9 MB, 121 Seiten: der vollständige Herstellerkatalog 06-2025.
+      // Vorher lag hier die 36-seitige Web-Fassung (KA-Katalog_GB_2025_WEB,
+      // 1,2 MB) — angeboten als „Vollständiger Katalog mit Dimensionen &
+      // Artikeln", obwohl ihr genau die Artikeltabellen fehlten. Seit die
+      // Artikelnummern der Website gegen den 06-2025-Katalog korrigiert sind,
+      // wäre die alte Datei zudem die falsche Quelle: Der Download muss
+      // dieselben Nummern zeigen wie die Produktseiten.
+      size: '12.9 MB',
       lang: 'EN',
       isInternalLink: false,
     },
