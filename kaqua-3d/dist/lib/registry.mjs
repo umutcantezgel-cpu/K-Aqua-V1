@@ -66,6 +66,22 @@ export const REGISTRY = [
   "category": "transition-fittings"
  },
  {
+  "slug": "elbow-bracket-90-female-thread",
+  "id": "transition-fittings/elbow-bracket-90-female-thread",
+  "module": "kaqua-elbow-bracket-90-female-thread",
+  "titleDe": "Anschlussbogen 90° mit Innengewinde",
+  "titleEn": "Elbow bracket 90° (Female thread)",
+  "category": "transition-fittings"
+ },
+ {
+  "slug": "elbow-wall-bracket-90-female-thread",
+  "id": "transition-fittings/elbow-wall-bracket-90-female-thread",
+  "module": "kaqua-elbow-wall-bracket-90-female-thread",
+  "titleDe": "Wandscheibe 90° mit Innengewinde",
+  "titleEn": "Elbow/Wall bracket 90° (Female thread)",
+  "category": "transition-fittings"
+ },
+ {
   "slug": "flat-gasket",
   "id": "accessories/flat-gasket",
   "module": "kaqua-flat-gasket",

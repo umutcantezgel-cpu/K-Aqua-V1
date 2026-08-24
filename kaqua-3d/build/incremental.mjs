@@ -66,9 +66,16 @@ const FAMILY = {
      sein buildBend setzt gleiche Schenkel voraus und lag in diesen
      Bundles bis zum 24.08.2026 als toter Code. */
   bendthread: ['_bend/params.js', '_bendthread/parts.js'],
+  /* Anschlussbogen und Wandscheibe: derselbe Körper wie bendthread,
+     aber eigene Parametrik (die Tabelle heißt anders) und ein
+     Messingring statt eines Zapfens. _bend/params.js gehört NICHT
+     dazu — bendParams rechnet mit den Spalten des Winkels. */
+  bracket: ['_bendthread/parts.js', '_bracket/params.js',
+    '_bracket/parts.js', '_bracket/assembly.js'],
 };
 function familyFor(slug) {
   if (/^elbow-90-male-thread$/.test(slug)) return FAMILY.bendthread;
+  if (/^elbow-(?:wall-)?bracket-90-female-thread$/.test(slug)) return FAMILY.bracket;
   if (/^elbow-\d/.test(slug)) return FAMILY.bend;
   if (/^tee-\d+-(?:fe)?male-thread$/.test(slug)) return FAMILY.teethread;
   if (/^metal-union-/.test(slug)) return FAMILY.union;

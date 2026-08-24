@@ -3,8 +3,7 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Wiederherstellung abgeschlossen,
-Spur A begonnen (1 von 34 nachgeschärft).
+**Letzte Änderung:** 24.08.2026 — Welle 4.5/4.6 gebaut. **36 von 71.**
 
 ---
 
@@ -12,9 +11,10 @@ Spur A begonnen (1 von 34 nachgeschärft).
 
 | | |
 |---|---|
-| Fertig | **34 von 71** · Selbsttest 34/34, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **36 von 71** · Selbsttest 36/36, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
+| Spur B | 2 von 37 gebaut: Welle 4.5 + 4.6, das Laschenpaar ✓ |
 | Letzter Bauzustand | vollständig gebaut und ausgeliefert; `npm run build` grün |
 | Branch | `wiederherstellung-kaqua-3d` |
 
@@ -61,12 +61,16 @@ Danach die Produkte mit ALH-Render, wo der Beweis am stärksten ist:
 `socket` (9) · `cap` (9) · `adaptor-socket-male-thread` (10) ·
 `union` (3) · `cross-over-pipe` (2).
 
-**Spur B — die 37 offenen** nach `pipeline/70-ARBEITSAUFTRAEGE.md`.
-Als Nächstes das Laschenpaar 4.5/4.6 (`elbow-bracket-90-female-thread`
-`AQ090G`, `elbow-wall-bracket-90-female-thread` `AQ472G`) — beide Tabellen
-liegen vollständig vor, Katalog S. 95, Spalten `d Rp D L z h D1 L1 z1`.
-Neu ist die Lasche; `roundedPad`, `boltCircle` und `plateWithHoles` stehen
-bereits im Core.
+**Spur B — die 35 noch offenen** nach `pipeline/70-ARBEITSAUFTRAEGE.md`.
+Das Laschenpaar 4.5/4.6 ist **fertig** (Prüfbericht
+`pruefung/w45-46-laschenpaar.md`): beide Tabellen vollständig aus zwei
+unabhängigen Rang-1-Quellen, Maßtest über zehn Größen mit größter
+Abweichung 0,03 mm.
+
+Als Nächstes 4.7 `valves/tee-90-female-thread-internal-valve` und 4.8
+`transition-fittings/union-for-watermeters`. Danach Welle 5 (Rest) und
+Welle 3, wo die Winkel Muffe/Spitzende stehen — deren Körper trägt
+`_bendthread/parts.js` vermutlich ebenfalls.
 
 **Spur C — Farbvarianten**, gebündelt am Ende einer Produktgruppe.
 
@@ -121,13 +125,32 @@ Ohne Katalogentsprechung, als unzugeordnet geführt: `AQ002P`, `AQ050GP`,
 `AQ050P`, `AQ051GP`, `AQ286`, `AQ473G`, `AQ730_750` und zwei
 `AQVerteiler`-Fotos (4-fach-Verteilerbalken). Gibt es diese Produkte noch?
 
-### 3.6 Aus Welle 4.2, weiter offen
+### 3.6 Was bezeichnet die Spalte `h` bei den Laschen?
+
+Die naheliegende Deutung „Achse bis Unterkante" ist am gebauten Modell
+**widerlegt**: das Modell liegt in jeder Größe bei genau D₁/2 (14,5 · 17 ·
+17 · 21,5 · 21,5), die Tabelle führt 13 · 15 · 20 · 18 · 20 — vier von fünf
+Werten **unter** dem Radius des Muffenschenkels, wohin die Unterkante eines
+Winkels nicht kommen kann.
+
+Verwertbar ist die **Differenz**: h ist bei AQ472G in jeder vergleichbaren
+Zeile genau 2 mm größer als bei AQ090G. Das ist die Lasche, und darauf ist
+sie gesetzt. Der absolute Bezugspunkt bleibt offen. Betrifft
+möglicherweise weitere Tabellen dieser Familie.
+
+### 3.7 Ringhöhe 11 mm bei AQ090G2534
+
+L − z ergibt bei AQ090G 14 · 14 · **11** · 15 · 17. Die 11 mm für ¾" liegen
+unter den 14 mm für ½". Von **beiden** Rang-1-Quellen bestätigt, also kein
+Lesefehler — aber gegen die eigene Reihe. Am Originalteil zu prüfen.
+
+### 3.8 Aus Welle 4.2, weiter offen
 
 Das Website-Katalogfoto von `elbow-90-male-thread` passt zu keiner
 Tabellenzeile (freiliegendes Gewinde 47–80 % zu lang). Herstellerauskunft wäre
 nötig; am Modell ändert sie nichts, weil das Modell der Tabelle folgt.
 
-### 3.7 `Marketing/` ist nicht gesichert
+### 3.9 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
@@ -144,8 +167,17 @@ Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
   956 348 Dreiecke — der Umzug ist geometrisch neutral.
   Nicht mitgenommen: `NUT_THREAD_OD` in `_union/params.js`. Das ist die
   Tabelle des Kupplungsgewindes der Mutter, eine andere Größenreihe.
-- **`produkt-registry.json` nachziehen:** `build.status` führt 1 fertig / 70
-  offen, tatsächlich sind es 34 / 37. Dazu die 22 Präfixkorrekturen aus §3.3.
+- ~~`produkt-registry.json` `build.status` nachziehen~~ **erledigt 24.08.2026.**
+  Er führte 1 fertig / 70 offen, während 34 gebaut waren. Wird jetzt aus
+  `gallery/registry.js` gespiegelt (dort ist der Modellstand die einzige
+  Quelle) und steht auf 36 / 35. Die 22 Präfixkorrekturen aus §3.3 sind
+  **noch offen**; für die beiden Laschen sind `article_codes_source` und
+  `article_prefix_source` bereits eingetragen.
+- **`buildBrassRing` in den Core.** Er steht jetzt zweimal:
+  `_teethread/parts.js` und `_bracket/parts.js`, Zeichen für Zeichen
+  gleich. Reine Kerngeometrie — ein Rotationskörper mit Innengewinde —
+  und gehört neben `threadProfile` und `hexPrism`. Eigener Schritt mit
+  Vollbau danach, wie bei der ISO-Tabelle.
 - **Verwaiste Bau-Caches:** `build/core-stripped.js`, `prod-a.js`, `prod-b.js`,
   `tokens-inlined.css` liegen im Wurzelverzeichnis von `build/`;
   `incremental.mjs` schreibt nach `build/cache/`. Die vier sind toter Stand.

@@ -1,2489 +1,2515 @@
 {
- "_meta": {
-  "projekt": "K-Aqua 3D-Produktmodelle",
-  "erzeugt": "2026-08-15",
-  "produkte": 71,
-  "fertig": 1,
-  "hinweis": "sizes_source_ocr ist maschinell gelesen und fehleranfaellig (Zeilen koennen doppelt gezaehlt sein). Nur sizes_source_verified ist per Auge geprueft. data_status steuert, ob vor dem Modellieren die Quelltabelle neu gelesen werden muss.",
-  "familien": [
-   "ball-valve",
-   "battery",
-   "bracket",
-   "clamp",
-   "concealed",
-   "cross",
-   "crossover",
-   "elbow",
-   "flange",
-   "pipe",
-   "pipe-fiber",
-   "pipe-uv",
-   "rot-red",
-   "rot-sym",
-   "saddle",
-   "seat-valve",
-   "tee",
-   "tee-red",
-   "thread-elbow",
-   "thread-socket",
-   "thread-tee",
-   "tool-die",
-   "tool-machine",
-   "union-metal",
-   "union-ppr"
-  ],
-  "warnung_artikelnummern": "article_prefix_md_unverified und article_codes_md stammen aus den Markdown-Dateien und sind NICHT verifiziert. Bei beiden Kugelhaehnen sind sie nachweislich falsch. Verbindliche Nummern entstehen erst in Phase 1 des Produkt-Prompts aus dem Screenshot.",
-  "screenshot_zuordnung": "Jede Zuordnung ist exakt oder ueber eine explizite Alias-Tabelle belegt; keine Teilstring-Treffer."
- },
- "produkte": [
-  {
-   "id": "valves/pp-r-ball-valve-ball-in-pp",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "pp-r-ball-valve-ball-in-pp",
-   "title_en": "PP-R Ball Valve (Ball in PP)",
-   "title_de": "Kugelhahn PP-R (Kugel in PP)",
-   "url": "/de/produkte/armaturen/pp-r-ball-valve-ball-in-pp",
-   "module": "kaqua-pp-r-ball-valve-ball-in-pp",
-   "article_codes_md": [
-    "AQ50020",
-    "AQ50025",
-    "AQ50032",
-    "AQ50040",
-    "AQ50050",
-    "AQ50063"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-pp-r-ball-valve-ball-in-pp-2026-06-22-20_37_14.png",
-   "md_file": "docs Unterseiten/valves/pp-r-ball-valve-ball-in-pp.md",
-   "sizes_md": 6,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": 6,
-   "data_status": "verifiziert-md-falsch",
-   "geometry": {
-    "family": "ball-valve",
-    "complexity": 5,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 0,
-    "status": "fertig",
-    "order": 1
-   },
-   "hinweis": "Markdown fuehrt AQ50020-AQ50063 mit d/L/H; Quelle fuehrt AQ85220-AQ85263 mit d/D/L/z/H/A/L1. Modell nutzt die Quelldaten.",
-   "article_prefix_md_unverified": "AQ500",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/cap",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "cap",
-   "title_en": "Cap",
-   "title_de": "Kappe",
-   "url": "/de/produkte/formteile/cap",
-   "module": "kaqua-cap",
-   "article_codes_md": [
-    "AQ30120",
-    "AQ30125",
-    "AQ30132",
-    "AQ30140",
-    "AQ30150",
-    "AQ30163",
-    "AQ30175"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cap-2026-06-20-05_41_10.pdf",
-   "md_file": "docs Unterseiten/fittings/cap.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": 14,
-   "data_status": "verifiziert-md-unvollstaendig",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 1,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 2
-   },
-   "article_prefix_md_unverified": "AQ301",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/socket",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "socket",
-   "title_en": "Socket",
-   "title_de": "Muffe",
-   "url": "/de/produkte/formteile/socket",
-   "module": "kaqua-socket",
-   "article_codes_md": [
-    "AQ27020",
-    "AQ27025",
-    "AQ27032",
-    "AQ27040",
-    "AQ27050",
-    "AQ27065",
-    "AQ27075"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-socket-2026-06-20-05_41_01.pdf",
-   "md_file": "docs Unterseiten/fittings/socket.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 9,
-   "sizes_source_verified": 9,
-   "data_status": "verifiziert-md-unvollstaendig",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 1,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 3
-   },
-   "article_prefix_md_unverified": "AQ270",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-pipe-pp-r-sdr-6",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-pipe-pp-r-sdr-6",
-   "title_en": "K-Pipe PP-R SDR 6",
-   "title_de": "K-Rohr PP-R SDR 6",
-   "url": "/de/produkte/rohre/k-pipe-pp-r-sdr-6",
-   "module": "kaqua-k-pipe-pp-r-sdr-6",
-   "article_codes_md": [
-    "AQ200P20",
-    "AQ200P25",
-    "AQ200P32",
-    "AQ200P40",
-    "AQ200P50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-pp-r-sdr-6-2026-06-20-05_46_21.pdf",
-   "md_file": "docs Unterseiten/pipes/k-pipe-pp-r-sdr-6.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 10,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe",
-    "complexity": 1,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 4
-   },
-   "article_prefix_md_unverified": "AQ200P",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/elbow-45",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "elbow-45",
-   "title_en": "Elbow 45°",
-   "title_de": "Winkel 45°",
-   "url": "/de/produkte/formteile/elbow-45",
-   "module": "kaqua-elbow-45",
-   "article_codes_md": [
-    "AQ04520",
-    "AQ04525",
-    "AQ04532",
-    "AQ04540",
-    "AQ04550",
-    "AQ04563",
-    "AQ04575"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-45-2026-06-20-05_40_35.pdf",
-   "md_file": "docs Unterseiten/fittings/elbow-45.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "elbow",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 5
-   },
-   "article_prefix_md_unverified": "AQ045",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/elbow-90",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "elbow-90",
-   "title_en": "Elbow 90°",
-   "title_de": "Winkel 90°",
-   "url": "/de/produkte/formteile/elbow-90",
-   "module": "kaqua-elbow-90",
-   "article_codes_md": [
-    "AQ09020",
-    "AQ09025",
-    "AQ09032",
-    "AQ09040",
-    "AQ09050",
-    "AQ09063",
-    "AQ09075"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-90-2026-06-20-05_40_45.pdf",
-   "md_file": "docs Unterseiten/fittings/elbow-90.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "elbow",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 6
-   },
-   "article_prefix_md_unverified": "AQ090",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/tee",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "tee",
-   "title_en": "Tee",
-   "title_de": "T-Stück",
-   "url": "/de/produkte/formteile/tee",
-   "module": "kaqua-tee",
-   "article_codes_md": [
-    "AQ13020",
-    "AQ13025",
-    "AQ13032",
-    "AQ13040",
-    "AQ13050",
-    "AQ13063",
-    "AQ13075"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-tee-2026-06-20-05_41_48.pdf",
-   "md_file": "docs Unterseiten/fittings/tee.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": 14,
-   "data_status": "verifiziert-md-unvollstaendig",
-   "geometry": {
-    "family": "tee",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 7
-   },
-   "article_prefix_md_unverified": "AQ130",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-fiber-pipe-pp-r-sdr-7-4",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiber-pipe-pp-r-sdr-7-4",
-   "title_en": "K-Fiber Pipe PP-R SDR 7.4",
-   "title_de": "K-Fiber Rohr PP-R SDR 7,4",
-   "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-7-4",
-   "module": "kaqua-k-fiber-pipe-pp-r-sdr-7-4",
-   "article_codes_md": [
-    "AQ207PF20",
-    "AQ207PF25",
-    "AQ207PF32",
-    "AQ207PF40",
-    "AQ207PF50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-74-2026-06-20-05_47_20.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-7-4.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-fiber",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 8
-   },
-   "article_prefix_md_unverified": "AQ207PF",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "transition-fittings/adaptor-socket-female-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "adaptor-socket-female-thread",
-   "title_en": "Adaptor Socket (Female Thread)",
-   "title_de": "Übergangsmuffe IG",
-   "url": "/de/produkte/uebergangsfittings/adaptor-socket-female-thread",
-   "module": "kaqua-adaptor-socket-female-thread",
-   "article_codes_md": [
-    "AQ24RP20",
-    "AQ24RP25",
-    "AQ24RP32",
-    "AQ24RP40",
-    "AQ24RP50",
-    "AQ24RP63",
-    "AQ24RP75",
-    "AQ24RP90",
-    "AQ24RP110",
-    "AQ24RP125",
-    "AQ24RP160",
-    "AQ24RP315"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-adaptor-socket-female-thread-2026-06-22-22_22_35.png",
-   "md_file": "docs Unterseiten/transition-fittings/adaptor-socket-female-thread.md",
-   "sizes_md": 12,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "thread-socket",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 9
-   },
-   "article_prefix_md_unverified": "AQ24RP",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/adaptor-socket-male-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "adaptor-socket-male-thread",
-   "title_en": "Adaptor Socket (Male Thread)",
-   "title_de": "Übergangsmuffe AG",
-   "url": "/de/produkte/uebergangsfittings/adaptor-socket-male-thread",
-   "module": "kaqua-adaptor-socket-male-thread",
-   "article_codes_md": [
-    "AQ24R20",
-    "AQ24R25",
-    "AQ24R32",
-    "AQ24R40",
-    "AQ24R50",
-    "AQ24R63",
-    "AQ24R75",
-    "AQ24R90",
-    "AQ24R110",
-    "AQ24R125",
-    "AQ24R160"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-adaptor-socket-male-thread-2026-06-22-22_22_46.png",
-   "md_file": "docs Unterseiten/transition-fittings/adaptor-socket-male-thread.md",
-   "sizes_md": 11,
-   "sizes_source_ocr": 12,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "thread-socket",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 10
-   },
-   "article_prefix_md_unverified": "AQ24R",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "valves/pp-r-ball-valve-brass",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "pp-r-ball-valve-brass",
-   "title_en": "PP-R Ball Valve (Ball in Brass, Chromium Plated)",
-   "title_de": "Kugelhahn PP-R (Kugel Messing verchromt)",
-   "url": "/de/produkte/armaturen/pp-r-ball-valve-brass",
-   "module": "kaqua-pp-r-ball-valve-brass",
-   "article_codes_md": [
-    "AQ60020",
-    "AQ60025",
-    "AQ60032",
-    "AQ60040",
-    "AQ60050",
-    "AQ60063",
-    "AQ60075",
-    "AQ60090"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-pp-r-ball-valve-ball-in-brass-chromium-plated-2026-06-22-20_37_27.png",
-   "md_file": "docs Unterseiten/valves/pp-r-ball-valve-brass.md",
-   "sizes_md": 8,
-   "sizes_source_ocr": 8,
-   "sizes_source_verified": 8,
-   "data_status": "verifiziert-md-falsch",
-   "geometry": {
-    "family": "ball-valve",
-    "complexity": 5,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 1,
-    "status": "offen",
-    "order": 11
-   },
-   "hinweis": "Markdown fuehrt AQ60020-AQ60090 und uebernimmt Spalte A (Hebellaenge) als L (Baulaenge). Quelle: AQ85020-AQ85090 mit d/A/C/H/L/P.",
-   "article_prefix_md_unverified": "AQ600",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "fittings/reducing-bush",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "reducing-bush",
-   "title_en": "Reducing Bush",
-   "title_de": "Reduziermuffe",
-   "url": "/de/produkte/formteile/reducing-bush",
-   "module": "kaqua-reducing-bush",
-   "article_codes_md": [
-    "AQ24325",
-    "AQ24332",
-    "AQ24340",
-    "AQ24350"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-bush-2026-06-20-05_41_19.pdf",
-   "md_file": "docs Unterseiten/fittings/reducing-bush.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 30,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "rot-red",
-    "complexity": 1,
-    "ref_size": "32x20"
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 12
-   },
-   "article_prefix_md_unverified": "AQ243",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-pipe-pp-r-sdr-11",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-pipe-pp-r-sdr-11",
-   "title_en": "K-Pipe PP-R SDR 11",
-   "title_de": "K-Rohr PP-R SDR 11",
-   "url": "/de/produkte/rohre/k-pipe-pp-r-sdr-11",
-   "module": "kaqua-k-pipe-pp-r-sdr-11",
-   "article_codes_md": [
-    "AQ11P20",
-    "AQ11P25",
-    "AQ11P32",
-    "AQ11P40",
-    "AQ11P50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-pp-r-sdr-11-2026-06-20-05_46_39.pdf",
-   "md_file": "docs Unterseiten/pipes/k-pipe-pp-r-sdr-11.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 18,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe",
-    "complexity": 1,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 13
-   },
-   "article_prefix_md_unverified": "AQ11P",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-pipe-pp-rct-sdr-7-4",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-pipe-pp-rct-sdr-7-4",
-   "title_en": "K-Pipe PP-RCT SDR 7.4",
-   "title_de": "K-Rohr PP-RCT SDR 7,4",
-   "url": "/de/produkte/rohre/k-pipe-pp-rct-sdr-7-4",
-   "module": "kaqua-k-pipe-pp-rct-sdr-7-4",
-   "article_codes_md": [
-    "AQ20020",
-    "AQ20025",
-    "AQ20032",
-    "AQ20040",
-    "AQ20050"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-pp-rct-sdr-74-2026-06-20-05_46_31.pdf",
-   "md_file": "docs Unterseiten/pipes/k-pipe-pp-rct-sdr-7-4.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe",
-    "complexity": 1,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 14
-   },
-   "article_prefix_md_unverified": "AQ200",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "pipes/k-pipe-purple-pp-r-sdr-11",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-pipe-purple-pp-r-sdr-11",
-   "title_en": "K-Pipe Purple PP-R SDR 11",
-   "title_de": "K-Rohr PP-R violett SDR 11",
-   "url": "/de/produkte/rohre/k-pipe-purple-pp-r-sdr-11",
-   "module": "kaqua-k-pipe-purple-pp-r-sdr-11",
-   "article_codes_md": [
-    "AQ11PL20",
-    "AQ11PL25",
-    "AQ11PL32",
-    "AQ11PL40",
-    "AQ11PL50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-purple-pp-r-sdr-11-2026-06-20-05_46_47.pdf",
-   "md_file": "docs Unterseiten/pipes/k-pipe-purple-pp-r-sdr-11.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 11,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe",
-    "complexity": 1,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 15
-   },
-   "article_prefix_md_unverified": "AQ11PL",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/electrofusion-socket",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "electrofusion-socket",
-   "title_en": "Electrofusion Socket",
-   "title_de": "Elektroschweißmuffe",
-   "url": "/de/produkte/formteile/electrofusion-socket",
-   "module": "kaqua-electrofusion-socket",
-   "article_codes_md": [
-    "AQ27E20",
-    "AQ27E25",
-    "AQ27E32",
-    "AQ27E40",
-    "AQ27E50",
-    "AQ27E63",
-    "AQ27E75"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-electrofusion-socket-2026-06-20-05_43_01.pdf",
-   "md_file": "docs Unterseiten/fittings/electrofusion-socket.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 16
-   },
-   "article_prefix_md_unverified": "AQ27E",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-fiber-pipe-pp-r-sdr-11",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiber-pipe-pp-r-sdr-11",
-   "title_en": "K-Fiber Pipe PP-R SDR 11",
-   "title_de": "K-Fiber Rohr PP-R SDR 11",
-   "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-11",
-   "module": "kaqua-k-fiber-pipe-pp-r-sdr-11",
-   "article_codes_md": [
-    "AQ11PF20",
-    "AQ11PF25",
-    "AQ11PF32",
-    "AQ11PF40",
-    "AQ11PF50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-11-2026-06-20-05_47_37.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-11.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 13,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-fiber",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 17
-   },
-   "article_prefix_md_unverified": "AQ11PF",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-fiber-pipe-pp-r-sdr-9",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiber-pipe-pp-r-sdr-9",
-   "title_en": "K-Fiber Pipe PP-R SDR 9",
-   "title_de": "K-Fiber Rohr PP-R SDR 9",
-   "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-9",
-   "module": "kaqua-k-fiber-pipe-pp-r-sdr-9",
-   "article_codes_md": [
-    "AQ169PF32",
-    "AQ169PF40",
-    "AQ169PF50",
-    "AQ169PF63",
-    "AQ169PF75"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-9-2026-06-20-05_47_30.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-9.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 13,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-fiber",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 18
-   },
-   "article_prefix_md_unverified": "AQ169PF",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-fiber-pipe-pp-rct-sdr-7-4",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiber-pipe-pp-rct-sdr-7-4",
-   "title_en": "K-Fiber Pipe PP-RCT SDR 7.4",
-   "title_de": "K-Fiber Rohr PP-RCT SDR 7,4",
-   "url": "/de/produkte/rohre/k-fiber-pipe-pp-rct-sdr-7-4",
-   "module": "kaqua-k-fiber-pipe-pp-rct-sdr-7-4",
-   "article_codes_md": [
-    "AQ200F20",
-    "AQ200F25",
-    "AQ200F32",
-    "AQ200F40",
-    "AQ200F50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-rct-sdr-74-2026-06-20-05_46_55.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-rct-sdr-7-4.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 14,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-fiber",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 19
-   },
-   "article_prefix_md_unverified": "AQ200F",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "pipes/k-fiber-uv-pipe-pp-r-sdr-7-4",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiber-uv-pipe-pp-r-sdr-7-4",
-   "title_en": "K-Fiber UV Pipe PP-R SDR 7.4",
-   "title_de": "K-Fiber UV-Rohr PP-R SDR 7,4",
-   "url": "/de/produkte/rohre/k-fiber-uv-pipe-pp-r-sdr-7-4",
-   "module": "kaqua-k-fiber-uv-pipe-pp-r-sdr-7-4",
-   "article_codes_md": [
-    "AQ200PFUV20",
-    "AQ200PFUV25",
-    "AQ200PFUV32",
-    "AQ200PFUV40",
-    "AQ200PFUV50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-uv-pipe-pp-r-sdr-74-2026-06-20-05_48_00.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiber-uv-pipe-pp-r-sdr-7-4.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 11,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-uv",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 20
-   },
-   "article_prefix_md_unverified": "AQ200PFUV",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "tools/welding-tool",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "welding-tool",
-   "title_en": "Welding Tool",
-   "title_de": "Schweißwerkzeug (Heizelement-Paar)",
-   "url": "/de/produkte/werkzeuge/welding-tool",
-   "module": "kaqua-welding-tool",
-   "article_codes_md": [
-    "AQ98220",
-    "AQ98225",
-    "AQ98232",
-    "AQ98240",
-    "AQ98250",
-    "AQ98263",
-    "AQ98275",
-    "AQ98290"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-tool-2026-06-20-05_51_39.pdf",
-   "md_file": "docs Unterseiten/tools/welding-tool.md",
-   "sizes_md": 8,
-   "sizes_source_ocr": 10,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "tool-die",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 21
-   },
-   "article_prefix_md_unverified": "AQ982",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "accessories/pipe-clamps",
-   "category": "accessories",
-   "category_de": "Zubehör",
-   "slug": "pipe-clamps",
-   "title_en": "Pipe Clamps",
-   "title_de": "Rohrschelle",
-   "url": "/de/produkte/zubehoer/pipe-clamps",
-   "module": "kaqua-pipe-clamps",
-   "article_codes_md": [
-    "AQ9520",
-    "AQ9525",
-    "AQ9532",
-    "AQ9540",
-    "AQ9550",
-    "AQ9563",
-    "AQ9575",
-    "AQ9590",
-    "AQ95110",
-    "AQ95125",
-    "AQ95160",
-    "AQ95200"
-   ],
-   "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-pipe-clamps-2026-06-22-20_53_26.png",
-   "md_file": "docs Unterseiten/accessories/pipe-clamps.md",
-   "sizes_md": 12,
-   "sizes_source_ocr": 13,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "clamp",
-    "complexity": 3,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 22
-   },
-   "article_prefix_md_unverified": "AQ95",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/reducing-tee",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "reducing-tee",
-   "title_en": "Reducing Tee",
-   "title_de": "Reduzier-T-Stück",
-   "url": "/de/produkte/formteile/reducing-tee",
-   "module": "kaqua-reducing-tee",
-   "article_codes_md": [
-    "AQ13025",
-    "AQ13032",
-    "AQ13040",
-    "AQ13050"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2026-06-20-05_42_14.pdf",
-   "md_file": "docs Unterseiten/fittings/reducing-tee.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 10,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "tee-red",
-    "complexity": 3,
-    "ref_size": "32x20"
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 23
-   },
-   "article_prefix_md_unverified": "AQ130",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/elbow-90-male-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "elbow-90-male-thread",
-   "title_en": "Elbow 90° (Male Thread)",
-   "title_de": "Winkel 90° AG",
-   "url": "/de/produkte/uebergangsfittings/elbow-90-male-thread",
-   "module": "kaqua-elbow-90-male-thread",
-   "article_codes_md": [
-    "AQ09R20",
-    "AQ09R25",
-    "AQ09R32",
-    "AQ09R40"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbow-90-male-thread-2026-06-22-22_03_43.png",
-   "md_file": "docs Unterseiten/transition-fittings/elbow-90-male-thread.md",
-   "sizes_md": 4,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "thread-elbow",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 24
-   },
-   "article_prefix_md_unverified": "AQ09R",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/metal-union-female-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "metal-union-female-thread",
-   "title_en": "Metal Union with PP-R Nut (Female Thread)",
-   "title_de": "Verschraubung IG",
-   "url": "/de/produkte/uebergangsfittings/metal-union-female-thread",
-   "module": "kaqua-metal-union-female-thread",
-   "article_codes_md": [
-    "AQ71RP20",
-    "AQ71RP25",
-    "AQ71RP32",
-    "AQ71RP40",
-    "AQ71RP50"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-female-thread-2026-06-22-22_21_48.png",
-   "md_file": "docs Unterseiten/transition-fittings/metal-union-female-thread.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "union-metal",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 25
-   },
-   "article_prefix_md_unverified": "AQ71RP",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "transition-fittings/metal-union-male-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "metal-union-male-thread",
-   "title_en": "Metal Union with PP-R Nut (Male Thread)",
-   "title_de": "Verschraubung AG",
-   "url": "/de/produkte/uebergangsfittings/metal-union-male-thread",
-   "module": "kaqua-metal-union-male-thread",
-   "article_codes_md": [
-    "AQ71R20",
-    "AQ71R25",
-    "AQ71R32",
-    "AQ71R40",
-    "AQ71R50"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-male-thread-2026-06-22-22_22_04.png",
-   "md_file": "docs Unterseiten/transition-fittings/metal-union-male-thread.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "union-metal",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 26
-   },
-   "article_prefix_md_unverified": "AQ71R",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "transition-fittings/tee-90-female-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "tee-90-female-thread",
-   "title_en": "Tee 90° (Female Thread)",
-   "title_de": "T-Stück 90° IG",
-   "url": "/de/produkte/uebergangsfittings/tee-90-female-thread",
-   "module": "kaqua-tee-90-female-thread",
-   "article_codes_md": [
-    "AQ13RP20",
-    "AQ13RP25",
-    "AQ13RP32",
-    "AQ13RP40"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-tee-90-female-thread-2026-06-22-21_46_01.png",
-   "md_file": "docs Unterseiten/transition-fittings/tee-90-female-thread.md",
-   "sizes_md": 4,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "thread-tee",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 27
-   },
-   "article_prefix_md_unverified": "AQ13RP",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/tee-90-male-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "tee-90-male-thread",
-   "title_en": "Tee 90° (Male Thread)",
-   "title_de": "T-Stück 90° AG",
-   "url": "/de/produkte/uebergangsfittings/tee-90-male-thread",
-   "module": "kaqua-tee-90-male-thread",
-   "article_codes_md": [
-    "AQ13R20",
-    "AQ13R25",
-    "AQ13R32",
-    "AQ13R40"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-tee-90-male-thread-2026-06-22-21_45_54.png",
-   "md_file": "docs Unterseiten/transition-fittings/tee-90-male-thread.md",
-   "sizes_md": 4,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "thread-tee",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 28
-   },
-   "article_prefix_md_unverified": "AQ13R",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/union",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "union",
-   "title_en": "Union",
-   "title_de": "Verschraubung PP-R",
-   "url": "/de/produkte/uebergangsfittings/union",
-   "module": "kaqua-union",
-   "article_codes_md": [
-    "AQ69E20",
-    "AQ69E25",
-    "AQ69E32",
-    "AQ69E40",
-    "AQ69E50",
-    "AQ69E63"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-union-2026-06-22-22_23_48.png",
-   "md_file": "docs Unterseiten/transition-fittings/union.md",
-   "sizes_md": 6,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "union-ppr",
-    "complexity": 3,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 29
-   },
-   "article_prefix_md_unverified": "AQ69E",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "weld-in-saddles/weld-in-saddle",
-   "category": "weld-in-saddles",
-   "category_de": "Einschweißsattel",
-   "slug": "weld-in-saddle",
-   "title_en": "Weld-in Saddle",
-   "title_de": "Einschweißsattel",
-   "url": "/de/produkte/einschweisssattel/weld-in-saddle",
-   "module": "kaqua-weld-in-saddle",
-   "article_codes_md": [
-    "AQ1505406320",
-    "AQ1505406325",
-    "AQ1505406332",
-    "AQ1505751232S",
-    "AQ1505751252",
-    "AQ1505751540",
-    "AQ1505160250S"
-   ],
-   "source_screenshot": "weld-in-saddles K-Aqua/screencapture-project-301-webtm-ru-weld-in-saddles-weld-in-saddle-2026-06-20-05_49_59.pdf",
-   "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle.md",
-   "sizes_md": 8,
-   "sizes_source_ocr": 11,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "saddle",
-    "complexity": 3,
-    "ref_size": "63x20"
-   },
-   "build": {
-    "tier": 2,
-    "status": "offen",
-    "order": 30
-   },
-   "article_prefix_md_unverified": "AQ1505",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/repairing-plug",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "repairing-plug",
-   "title_en": "Repairing Plug",
-   "title_de": "Reparaturstopfen",
-   "url": "/de/produkte/werkzeuge/repairing-plug",
-   "module": "kaqua-repairing-plug",
-   "article_codes_md": [
-    "AQ96557",
-    "AQ96511"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-repairing-plug-2026-06-20-05_52_07.pdf",
-   "md_file": "docs Unterseiten/tools/repairing-plug.md",
-   "sizes_md": 2,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 1,
-    "ref_size": "1/2\""
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 31
-   },
-   "article_prefix_md_unverified": "AQ965",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "accessories/backing-flange",
-   "category": "accessories",
-   "category_de": "Zubehör",
-   "slug": "backing-flange",
-   "title_en": "Backing Flange PP-Steel (SF/BF)",
-   "title_de": "Losflansch PP-Stahl",
-   "url": "/de/produkte/zubehoer/backing-flange",
-   "module": "kaqua-backing-flange",
-   "article_codes_md": [
-    "AQ575040",
-    "AQ575050",
-    "AQ575063",
-    "AQ575075",
-    "AQ575090",
-    "AQ575110",
-    "AQ575125",
-    "AQ575160",
-    "AQ575200",
-    "AQ575250",
-    "AQ575315"
-   ],
-   "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-backing-flange-pp-steel-for-socket-fusion-system-sf-or-butt-fusion-system-bf-2026-06-22-20_54_21.png",
-   "md_file": "docs Unterseiten/accessories/backing-flange.md",
-   "sizes_md": 11,
-   "sizes_source_ocr": 11,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "flange",
-    "complexity": 2,
-    "ref_size": 63
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 32
-   },
-   "article_prefix_md_unverified": "AQ575",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "fittings/elbow-45-female-male",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "elbow-45-female-male",
-   "title_en": "Elbow 45° (Female/Male)",
-   "title_de": "Winkel 45° Muffe/Spitzende",
-   "url": "/de/produkte/formteile/elbow-45-female-male",
-   "module": "kaqua-elbow-45-female-male",
-   "article_codes_md": [
-    "AQ04120",
-    "AQ04125"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-45-femalemale-2026-06-20-05_40_27.pdf",
-   "md_file": "docs Unterseiten/fittings/elbow-45-female-male.md",
-   "sizes_md": 2,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "elbow",
-    "complexity": 2,
-    "ref_size": 20
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 33
-   },
-   "article_prefix_md_unverified": "AQ0412",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "fittings/elbow-90-female-male",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "elbow-90-female-male",
-   "title_en": "Elbow 90° (Female/Male)",
-   "title_de": "Winkel 90° Muffe/Spitzende",
-   "url": "/de/produkte/formteile/elbow-90-female-male",
-   "module": "kaqua-elbow-90-female-male",
-   "article_codes_md": [
-    "AQ09120",
-    "AQ09125"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-90-femalemale-2026-06-20-05_40_54.pdf",
-   "md_file": "docs Unterseiten/fittings/elbow-90-female-male.md",
-   "sizes_md": 2,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "elbow",
-    "complexity": 2,
-    "ref_size": 20
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 34
-   },
-   "article_prefix_md_unverified": "AQ0912",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "fittings/flange-adaptor",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "flange-adaptor",
-   "title_en": "Flange Adaptor",
-   "title_de": "Bundbuchse",
-   "url": "/de/produkte/formteile/flange-adaptor",
-   "module": "kaqua-flange-adaptor",
-   "article_codes_md": [
-    "AQ79040",
-    "AQ79050",
-    "AQ79063",
-    "AQ79075",
-    "AQ79090",
-    "AQ790110",
-    "AQ790125"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-flange-adaptor-2026-06-20-05_42_38.pdf",
-   "md_file": "docs Unterseiten/fittings/flange-adaptor.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 11,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "flange",
-    "complexity": 2,
-    "ref_size": 63
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 35
-   },
-   "article_prefix_md_unverified": "AQ790",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-fiber-pipe-pp-r-sdr-17",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiber-pipe-pp-r-sdr-17",
-   "title_en": "K-Fiber Pipe PP-R SDR 17",
-   "title_de": "K-Fiber Rohr PP-R SDR 17",
-   "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-17",
-   "module": "kaqua-k-fiber-pipe-pp-r-sdr-17",
-   "article_codes_md": [
-    "AQ17PF90",
-    "AQ17PF110",
-    "AQ17PF125",
-    "AQ17PF160",
-    "AQ17PF200"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-17-2026-06-20-05_47_45.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-17.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 13,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-fiber",
-    "complexity": 2,
-    "ref_size": 110
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 36
-   },
-   "article_prefix_md_unverified": "AQ17PF",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiber-uv-pipe-pp-rct-sdr-7-4",
-   "title_en": "K-Fiber UV Pipe PP-RCT SDR 7.4",
-   "title_de": "K-Fiber UV-Rohr PP-RCT SDR 7,4",
-   "url": "/de/produkte/rohre/k-fiber-uv-pipe-pp-rct-sdr-7-4",
-   "module": "kaqua-k-fiber-uv-pipe-pp-rct-sdr-7-4",
-   "article_codes_md": [
-    "AQ200FUVCT20",
-    "AQ200FUVCT25",
-    "AQ200FUVCT32",
-    "AQ200FUVCT40",
-    "AQ200FUVCT50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-uv-pipe-pp-rct-sdr-74-2026-06-20-05_47_52.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 11,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-uv",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 37
-   },
-   "article_prefix_md_unverified": "AQ200FUVCT",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "pipes/k-fiberclima-pipe-pp-rct-sdr-11",
-   "category": "pipes",
-   "category_de": "Rohre",
-   "slug": "k-fiberclima-pipe-pp-rct-sdr-11",
-   "title_en": "K-Fiberclima Pipe PP-RCT SDR 11",
-   "title_de": "K-Fiberclima Rohr PP-RCT SDR 11",
-   "url": "/de/produkte/rohre/k-fiberclima-pipe-pp-rct-sdr-11",
-   "module": "kaqua-k-fiberclima-pipe-pp-rct-sdr-11",
-   "article_codes_md": [
-    "AQ160F20",
-    "AQ160F25",
-    "AQ160F32",
-    "AQ160F40",
-    "AQ160F50"
-   ],
-   "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiberclima-pipe-pp-rct-sdr-11-2026-06-20-05_47_06.pdf",
-   "md_file": "docs Unterseiten/pipes/k-fiberclima-pipe-pp-rct-sdr-11.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 18,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "pipe-fiber",
-    "complexity": 2,
-    "ref_size": 32
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 38
-   },
-   "article_prefix_md_unverified": "AQ160F",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/cross",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "cross",
-   "title_en": "Cross",
-   "title_de": "Kreuzstück",
-   "url": "/de/produkte/formteile/cross",
-   "module": "kaqua-cross",
-   "article_codes_md": [
-    "AQ18025",
-    "AQ18032"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cross-2026-06-20-05_42_31.pdf",
-   "md_file": "docs Unterseiten/fittings/cross.md",
-   "sizes_md": 2,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "cross",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 39
-   },
-   "article_prefix_md_unverified": "AQ180",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/reducing-tee-large",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "reducing-tee-large",
-   "title_en": "Reducing Tee (Large Sizes)",
-   "title_de": "Reduzier-T-Stück große Größen",
-   "url": "/de/produkte/formteile/reducing-tee-large",
-   "module": "kaqua-reducing-tee-large",
-   "article_codes_md": [
-    "AQ15063",
-    "AQ15075"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2-2026-06-20-05_42_22.pdf",
-   "md_file": "docs Unterseiten/fittings/reducing-tee-large.md",
-   "sizes_md": 7,
-   "sizes_source_ocr": 26,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "tee-red",
-    "complexity": 3,
-    "ref_size": "63x32"
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 40
-   },
-   "article_prefix_md_unverified": "AQ150",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "transition-fittings/metal-union-female-thread-brass",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "metal-union-female-thread-brass",
-   "title_en": "Metal Union with PP-R Nut in Yellow Brass CW617N (Female Thread)",
-   "title_de": "Verschraubung IG Messing",
-   "url": "/de/produkte/uebergangsfittings/metal-union-female-thread-brass",
-   "module": "kaqua-metal-union-female-thread-brass",
-   "article_codes_md": [
-    "AQ70RP20",
-    "AQ70RP25",
-    "AQ70RP32",
-    "AQ70RP40",
-    "AQ70RP50"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-in-yellow-brass-cw617n-female-thread-2026-06-22-21_46_17.png",
-   "md_file": "docs Unterseiten/transition-fittings/metal-union-female-thread-brass.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": 6,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "union-metal",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 41
-   },
-   "article_prefix_md_unverified": "AQ70RP",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "transition-fittings/metal-union-male-thread-brass",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "metal-union-male-thread-brass",
-   "title_en": "Metal Union with PP-R Nut in Yellow Brass CW617N (Male Thread)",
-   "title_de": "Verschraubung AG Messing",
-   "url": "/de/produkte/uebergangsfittings/metal-union-male-thread-brass",
-   "module": "kaqua-metal-union-male-thread-brass",
-   "article_codes_md": [
-    "AQ70R20",
-    "AQ70R25",
-    "AQ70R32",
-    "AQ70R40",
-    "AQ70R50"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-in-yellow-brass-cw617n-male-thread-2026-06-22-21_46_09.png",
-   "md_file": "docs Unterseiten/transition-fittings/metal-union-male-thread-brass.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "union-metal",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 42
-   },
-   "article_prefix_md_unverified": "AQ70R",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "valves/tee-90-female-thread-internal-valve",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "tee-90-female-thread-internal-valve",
-   "title_en": "Tee 90° (Female Thread) for Internal Valve",
-   "title_de": "T-Stück 90° IG für Einbauventil",
-   "url": "/de/produkte/armaturen/tee-90-female-thread-internal-valve",
-   "module": "kaqua-tee-90-female-thread-internal-valve",
-   "article_codes_md": [
-    "AQ60RP20",
-    "AQ60RP25",
-    "AQ60RP32",
-    "AQ60RP40"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-tee-90-female-thread-for-internal-valve-2026-06-22-20_37_01.png",
-   "md_file": "docs Unterseiten/valves/tee-90-female-thread-internal-valve.md",
-   "sizes_md": 4,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "thread-tee",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 43
-   },
-   "article_prefix_md_unverified": "AQ60RP",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "weld-in-saddles/weld-in-saddle-female-thread",
-   "category": "weld-in-saddles",
-   "category_de": "Einschweißsattel",
-   "slug": "weld-in-saddle-female-thread",
-   "title_en": "Weld-in Saddle (Female Thread)",
-   "title_de": "Einschweißsattel IG",
-   "url": "/de/produkte/einschweisssattel/weld-in-saddle-female-thread",
-   "module": "kaqua-weld-in-saddle-female-thread",
-   "article_codes_md": [
-    "AQ270S406332",
-    "AQ270S406334",
-    "AQ270S751251S",
-    "AQ270S751254"
-   ],
-   "source_screenshot": "weld-in-saddles K-Aqua/screencapture-project-301-webtm-ru-weld-in-saddles-weld-in-saddle-female-thread-2026-06-20-05_49_42.pdf",
-   "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle-female-thread.md",
-   "sizes_md": 4,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "saddle",
-    "complexity": 3,
-    "ref_size": "63x1/2\""
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 44
-   },
-   "article_prefix_md_unverified": "AQ270S",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "weld-in-saddles/weld-in-saddle-male-thread",
-   "category": "weld-in-saddles",
-   "category_de": "Einschweißsattel",
-   "slug": "weld-in-saddle-male-thread",
-   "title_en": "Weld-in Saddle (Male Thread)",
-   "title_de": "Einschweißsattel AG",
-   "url": "/de/produkte/einschweisssattel/weld-in-saddle-male-thread",
-   "module": "kaqua-weld-in-saddle-male-thread",
-   "article_codes_md": [
-    "AQ243S406334",
-    "AQ243S751251S"
-   ],
-   "source_screenshot": "weld-in-saddles K-Aqua/screencapture-project-301-webtm-ru-weld-in-saddles-weld-in-saddle-male-thread-2026-06-20-05_49_49.pdf",
-   "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle-male-thread.md",
-   "sizes_md": 2,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "saddle",
-    "complexity": 3,
-    "ref_size": "63x1/2\""
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 45
-   },
-   "article_prefix_md_unverified": "AQ243S",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/pipe-cutter-20-40",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "pipe-cutter-20-40",
-   "title_en": "Pipe Cutter 20–40",
-   "title_de": "Rohrschere 20–40",
-   "url": "/de/produkte/werkzeuge/pipe-cutter-20-40",
-   "module": "kaqua-pipe-cutter-20-40",
-   "article_codes_md": [
-    "AQ97040"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-pipe-cutter-20-40-2026-06-20-05_51_11.pdf",
-   "md_file": "docs Unterseiten/tools/pipe-cutter-20-40.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 4,
-    "ref_size": "20-40"
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 46
-   },
-   "article_prefix_md_unverified": "AQ97040",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/elbow-bracket-90-female-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "elbow-bracket-90-female-thread",
-   "title_en": "Elbow Bracket 90° (Female Thread)",
-   "title_de": "Winkel-Anschlussbogen 90° IG",
-   "url": "/de/produkte/uebergangsfittings/elbow-bracket-90-female-thread",
-   "module": "kaqua-elbow-bracket-90-female-thread",
-   "article_codes_md": [
-    "AQ09BRP20",
-    "AQ09BRP25",
-    "AQ09BRP32",
-    "AQ09BRP40",
-    "AQ09BRP50"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbow-bracket-90-female-thread-2026-06-22-22_22_15.png",
-   "md_file": "docs Unterseiten/transition-fittings/elbow-bracket-90-female-thread.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "bracket",
-    "complexity": 4,
-    "ref_size": 20
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 47
-   },
-   "article_prefix_md_unverified": "AQ09BRP",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/elbow-wall-bracket-90-female-thread",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "elbow-wall-bracket-90-female-thread",
-   "title_en": "Elbow/Wall Bracket 90° (Female Thread)",
-   "title_de": "Wandscheibe 90° IG",
-   "url": "/de/produkte/uebergangsfittings/elbow-wall-bracket-90-female-thread",
-   "module": "kaqua-elbow-wall-bracket-90-female-thread",
-   "article_codes_md": [
-    "AQ09WBRP20",
-    "AQ09WBRP25",
-    "AQ09WBRP32",
-    "AQ09WBRP40"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbowwall-bracket-90-female-thread-2026-06-22-22_22_23.png",
-   "md_file": "docs Unterseiten/transition-fittings/elbow-wall-bracket-90-female-thread.md",
-   "sizes_md": 4,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "bracket",
-    "complexity": 4,
-    "ref_size": 20
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 48
-   },
-   "article_prefix_md_unverified": "AQ09WBRP",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "valves/battery-female-thread",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "battery-female-thread",
-   "title_en": "Battery (Female Thread)",
-   "title_de": "Wandbatterie IG",
-   "url": "/de/produkte/armaturen/battery-female-thread",
-   "module": "kaqua-battery-female-thread",
-   "article_codes_md": [
-    "AQ64RCG20",
-    "AQ64RCG25"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-battery-female-thread-2026-06-22-20_36_52.png",
-   "md_file": "docs Unterseiten/valves/battery-female-thread.md",
-   "sizes_md": 2,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "battery",
-    "complexity": 4,
-    "ref_size": 20
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 49
-   },
-   "article_prefix_md_unverified": "AQ64RCG2",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "valves/straight-seat-valve-green-handle",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "straight-seat-valve-green-handle",
-   "title_en": "Straight Seat Valve (Only Upper Part) Green Handle",
-   "title_de": "Durchgangsventil Oberteil grün",
-   "url": "/de/produkte/armaturen/straight-seat-valve-green-handle",
-   "module": "kaqua-straight-seat-valve-green-handle",
-   "article_codes_md": [
-    "AQ62591"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-straight-seat-valve-only-upper-part-green-handle-2026-06-22-20_38_07.png",
-   "md_file": "docs Unterseiten/valves/straight-seat-valve-green-handle.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "seat-valve",
-    "complexity": 4,
-    "ref_size": "3/4\""
-   },
-   "build": {
-    "tier": 3,
-    "status": "offen",
-    "order": 50
-   },
-   "article_prefix_md_unverified": "AQ62591",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "accessories/flat-gasket",
-   "category": "accessories",
-   "category_de": "Zubehör",
-   "slug": "flat-gasket",
-   "title_en": "Flat Gasket",
-   "title_de": "Flachdichtung",
-   "url": "/de/produkte/zubehoer/flat-gasket",
-   "module": "kaqua-flat-gasket",
-   "article_codes_md": [
-    "AQ97040",
-    "AQ97050",
-    "AQ97063",
-    "AQ97075",
-    "AQ97090",
-    "AQ97110",
-    "AQ97125",
-    "AQ97160",
-    "AQ97200",
-    "AQ97250"
-   ],
-   "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-flat-gasket-2026-06-22-20_54_29.png",
-   "md_file": "docs Unterseiten/accessories/flat-gasket.md",
-   "sizes_md": 10,
-   "sizes_source_ocr": 11,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 1,
-    "ref_size": 63
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 51
-   },
-   "article_prefix_md_unverified": "AQ97",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "accessories/flat-gasket-for-unions",
-   "category": "accessories",
-   "category_de": "Zubehör",
-   "slug": "flat-gasket-for-unions",
-   "title_en": "Flat Gasket for Unions PP-R",
-   "title_de": "Flachdichtung für Verschraubungen",
-   "url": "/de/produkte/zubehoer/flat-gasket-for-unions",
-   "module": "kaqua-flat-gasket-for-unions",
-   "article_codes_md": [
-    "AQ9ANRP20",
-    "AQ9ANRP25",
-    "AQ9ANRP32"
-   ],
-   "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-flat-gasket-for-unions-pp-r-2026-06-22-20_54_42.png",
-   "md_file": "docs Unterseiten/accessories/flat-gasket-for-unions.md",
-   "sizes_md": 3,
-   "sizes_source_ocr": 2,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 1,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 52
-   },
-   "article_prefix_md_unverified": "AQ9ANRP",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "accessories/plug",
-   "category": "accessories",
-   "category_de": "Zubehör",
-   "slug": "plug",
-   "title_en": "Plug",
-   "title_de": "Stopfen",
-   "url": "/de/produkte/zubehoer/plug",
-   "module": "kaqua-plug",
-   "article_codes_md": [
-    "AQ98P57"
-   ],
-   "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-plug-2026-06-22-20_54_11.png",
-   "md_file": "docs Unterseiten/accessories/plug.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 1,
-    "ref_size": "1/2\""
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 53
-   },
-   "article_prefix_md_unverified": "AQ98P57",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "valves/elongation-pieces",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "elongation-pieces",
-   "title_en": "Elongation Pieces",
-   "title_de": "Verlängerungsstück",
-   "url": "/de/produkte/armaturen/elongation-pieces",
-   "module": "kaqua-elongation-pieces",
-   "article_codes_md": [
-    "AQ62990"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-elongation-pieces-2026-06-22-20_38_39.png",
-   "md_file": "docs Unterseiten/valves/elongation-pieces.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "rot-sym",
-    "complexity": 1,
-    "ref_size": "30 mm"
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 54
-   },
-   "article_prefix_md_unverified": "AQ62990",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/welding-tool-for-repairing-plug",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "welding-tool-for-repairing-plug",
-   "title_en": "Welding Tool for Repairing Plug",
-   "title_de": "Schweißwerkzeug Reparaturstopfen",
-   "url": "/de/produkte/werkzeuge/welding-tool-for-repairing-plug",
-   "module": "kaqua-welding-tool-for-repairing-plug",
-   "article_codes_md": [
-    "AQ98625",
-    "AQ98632",
-    "AQ98640",
-    "AQ98650",
-    "AQ98663"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-tool-for-repairing-plug-2026-06-20-05_52_00.pdf",
-   "md_file": "docs Unterseiten/tools/welding-tool-for-repairing-plug.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-die",
-    "complexity": 2,
-    "ref_size": "1/2\""
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 55
-   },
-   "article_prefix_md_unverified": "AQ986",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/cross-over",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "cross-over",
-   "title_en": "Cross Over",
-   "title_de": "Überbogen",
-   "url": "/de/produkte/formteile/cross-over",
-   "module": "kaqua-cross-over",
-   "article_codes_md": [
-    "AQ26720",
-    "AQ26725",
-    "AQ26732"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cross-over-2026-06-20-05_42_47.pdf",
-   "md_file": "docs Unterseiten/fittings/cross-over.md",
-   "sizes_md": 3,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "crossover",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 56
-   },
-   "article_prefix_md_unverified": "AQ267",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "fittings/cross-over-pipe",
-   "category": "fittings",
-   "category_de": "Formteile",
-   "slug": "cross-over-pipe",
-   "title_en": "Cross Over Pipe",
-   "title_de": "Überbogen mit Rohr",
-   "url": "/de/produkte/formteile/cross-over-pipe",
-   "module": "kaqua-cross-over-pipe",
-   "article_codes_md": [
-    "AQ28520",
-    "AQ28525",
-    "AQ28532"
-   ],
-   "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cross-over-pipe-2026-06-20-05_42_53.pdf",
-   "md_file": "docs Unterseiten/fittings/cross-over-pipe.md",
-   "sizes_md": 3,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "crossover",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 57
-   },
-   "article_prefix_md_unverified": "AQ285",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/drilling-tool-for-weld-in-saddle",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "drilling-tool-for-weld-in-saddle",
-   "title_en": "Drilling Tool for Weld-in Saddle",
-   "title_de": "Bohrwerkzeug Einschweißsattel",
-   "url": "/de/produkte/werkzeuge/drilling-tool-for-weld-in-saddle",
-   "module": "kaqua-drilling-tool-for-weld-in-saddle",
-   "article_codes_md": [
-    "AQ98625",
-    "AQ98632",
-    "AQ98640",
-    "AQ98650",
-    "AQ98663"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-drilling-tool-for-weld-in-saddle-2026-06-20-05_51_54.pdf",
-   "md_file": "docs Unterseiten/tools/drilling-tool-for-weld-in-saddle.md",
-   "sizes_md": 5,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-die",
-    "complexity": 3,
-    "ref_size": "25-63"
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 58
-   },
-   "article_prefix_md_unverified": "AQ986",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/welding-tool-for-weld-in-saddles",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "welding-tool-for-weld-in-saddles",
-   "title_en": "Welding Tool for Weld-in Saddles",
-   "title_de": "Schweißwerkzeug Einschweißsattel",
-   "url": "/de/produkte/werkzeuge/welding-tool-for-weld-in-saddles",
-   "module": "kaqua-welding-tool-for-weld-in-saddles",
-   "article_codes_md": [
-    "AQ9850400632S",
-    "AQ98507512525",
-    "AQ98507512532",
-    "AQ98507512540",
-    "AQ98516025025",
-    "AQ98516025032",
-    "AQ98516025040",
-    "AQ98516025050"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-tool-for-weld-in-saddles-2026-06-20-05_51_46.pdf",
-   "md_file": "docs Unterseiten/tools/welding-tool-for-weld-in-saddles.md",
-   "sizes_md": 8,
-   "sizes_source_ocr": 9,
-   "sizes_source_verified": null,
-   "data_status": "pruefen-md-vermutlich-unvollstaendig",
-   "geometry": {
-    "family": "tool-die",
-    "complexity": 3,
-    "ref_size": 63
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 59
-   },
-   "article_prefix_md_unverified": "AQ985",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "transition-fittings/union-for-watermeters",
-   "category": "transition-fittings",
-   "category_de": "Übergangsfittings",
-   "slug": "union-for-watermeters",
-   "title_en": "Union for Watermeters",
-   "title_de": "Wasserzähler-Verschraubung",
-   "url": "/de/produkte/uebergangsfittings/union-for-watermeters",
-   "module": "kaqua-union-for-watermeters",
-   "article_codes_md": [
-    "AQ72E20",
-    "AQ72E25",
-    "AQ72E32"
-   ],
-   "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-union-for-watermeters-2026-06-22-21_45_47.png",
-   "md_file": "docs Unterseiten/transition-fittings/union-for-watermeters.md",
-   "sizes_md": 3,
-   "sizes_source_ocr": 2,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "union-ppr",
-    "complexity": 3,
-    "ref_size": 25
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 60
-   },
-   "article_prefix_md_unverified": "AQ72E",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "valves/concealed-valve-chrome-heavy-part",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "concealed-valve-chrome-heavy-part",
-   "title_en": "Concealed Valve Chrome — Heavy Part",
-   "title_de": "UP-Ventil Chrom Unterteil",
-   "url": "/de/produkte/armaturen/concealed-valve-chrome-heavy-part",
-   "module": "kaqua-concealed-valve-chrome-heavy-part",
-   "article_codes_md": [
-    "AQ62993"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-concealed-valve-chrome-heavy-part-2026-06-22-20_37_59.png",
-   "md_file": "docs Unterseiten/valves/concealed-valve-chrome-heavy-part.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "concealed",
-    "complexity": 3,
-    "ref_size": "1/2\""
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 61
-   },
-   "article_prefix_md_unverified": "AQ62993",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "valves/concealed-valve-chrome-light-part",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "concealed-valve-chrome-light-part",
-   "title_en": "Concealed Valve Chrome — Light Part",
-   "title_de": "UP-Ventil Chrom Oberteil",
-   "url": "/de/produkte/armaturen/concealed-valve-chrome-light-part",
-   "module": "kaqua-concealed-valve-chrome-light-part",
-   "article_codes_md": [
-    "AQ62992"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-concealed-valve-chrome-light-part-2026-06-22-20_37_37.png",
-   "md_file": "docs Unterseiten/valves/concealed-valve-chrome-light-part.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "concealed",
-    "complexity": 3,
-    "ref_size": "1/2\""
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 62
-   },
-   "article_prefix_md_unverified": "AQ62992",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/pipe-cutter-50-125",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "pipe-cutter-50-125",
-   "title_en": "Pipe Cutter 50–125",
-   "title_de": "Rohrschneider 50–125",
-   "url": "/de/produkte/werkzeuge/pipe-cutter-50-125",
-   "module": "kaqua-pipe-cutter-50-125",
-   "article_codes_md": [
-    "AQ975125"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-pipe-cutter-50-125-2026-06-20-05_51_18.pdf",
-   "md_file": "docs Unterseiten/tools/pipe-cutter-50-125.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 4,
-    "ref_size": "50-125"
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 63
-   },
-   "article_prefix_md_unverified": "AQ975125",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/pipe-cutter-50-125-114",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "pipe-cutter-50-125-114",
-   "title_en": "Pipe Cutter 50–125 (1¼)",
-   "title_de": "Rohrschneider 50–125 (1¼)",
-   "url": "/de/produkte/werkzeuge/pipe-cutter-50-125-114",
-   "module": "kaqua-pipe-cutter-50-125-114",
-   "article_codes_md": [
-    "AQ974"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-pipe-cutter-50-125-114-2026-06-20-05_50_56.pdf",
-   "md_file": "docs Unterseiten/tools/pipe-cutter-50-125-114.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 4,
-    "ref_size": "50-125"
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 64
-   },
-   "article_prefix_md_unverified": "AQ974",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "valves/adjustable-battery-female-thread",
-   "category": "valves",
-   "category_de": "Armaturen",
-   "slug": "adjustable-battery-female-thread",
-   "title_en": "Adjustable Battery (Female Thread)",
-   "title_de": "Wandbatterie IG verstellbar",
-   "url": "/de/produkte/armaturen/adjustable-battery-female-thread",
-   "module": "kaqua-adjustable-battery-female-thread",
-   "article_codes_md": [
-    "AQ64ARCG20",
-    "AQ64ARCG25"
-   ],
-   "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-adjustable-battery-female-thread-2026-06-22-20_36_44.png",
-   "md_file": "docs Unterseiten/valves/adjustable-battery-female-thread.md",
-   "sizes_md": 2,
-   "sizes_source_ocr": 1,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "battery",
-    "complexity": 4,
-    "ref_size": 20
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 65
-   },
-   "article_prefix_md_unverified": "AQ64ARCG2",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/hand-welding-machine-20-32",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "hand-welding-machine-20-32",
-   "title_en": "Hand Welding Machine 20–32 (Complete Set)",
-   "title_de": "Handschweißgerät 20–32 komplett",
-   "url": "/de/produkte/werkzeuge/hand-welding-machine-20-32",
-   "module": "kaqua-hand-welding-machine-20-32",
-   "article_codes_md": [
-    "AQ98032"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-hand-welding-machine-20-32-complete-set-2026-06-20-05_51_25.pdf",
-   "md_file": "docs Unterseiten/tools/hand-welding-machine-20-32.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 5,
-    "ref_size": "20-32"
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 66
-   },
-   "article_prefix_md_unverified": "AQ98032",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "tools/hand-welding-machine-20-63",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "hand-welding-machine-20-63",
-   "title_en": "Hand Welding Machine 20–63 (Complete Set)",
-   "title_de": "Handschweißgerät 20–63 komplett",
-   "url": "/de/produkte/werkzeuge/hand-welding-machine-20-63",
-   "module": "kaqua-hand-welding-machine-20-63",
-   "article_codes_md": [
-    "AQ98063"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-hand-welding-machine-20-63-complete-set-2026-06-20-05_51_04.pdf",
-   "md_file": "docs Unterseiten/tools/hand-welding-machine-20-63.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 5,
-    "ref_size": "20-63"
-   },
-   "build": {
-    "tier": 4,
-    "status": "offen",
-    "order": 67
-   },
-   "article_prefix_md_unverified": "AQ98063",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "tools/hand-welding-machine-mirror-50-125",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "hand-welding-machine-mirror-50-125",
-   "title_en": "Hand Welding Machine (Only Mirror) 50–125",
-   "title_de": "Heizspiegel 50–125",
-   "url": "/de/produkte/werkzeuge/hand-welding-machine-mirror-50-125",
-   "module": "kaqua-hand-welding-machine-mirror-50-125",
-   "article_codes_md": [
-    "AQ991125"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-hand-welding-machine-only-mirror-50-125-2026-06-20-05_51_32.pdf",
-   "md_file": "docs Unterseiten/tools/hand-welding-machine-mirror-50-125.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 3,
-    "ref_size": "50-125"
-   },
-   "build": {
-    "tier": 5,
-    "status": "offen",
-    "order": 68
-   },
-   "article_prefix_md_unverified": "AQ991125",
-   "screenshot_match": "alias"
-  },
-  {
-   "id": "tools/electrofusion-machine",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "electrofusion-machine",
-   "title_en": "Electrofusion Machine",
-   "title_de": "Elektroschweißgerät",
-   "url": "/de/produkte/werkzeuge/electrofusion-machine",
-   "module": "kaqua-electrofusion-machine",
-   "article_codes_md": [
-    "AQ990"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-electrofusion-machine-2026-06-20-05_52_27.pdf",
-   "md_file": "docs Unterseiten/tools/electrofusion-machine.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 4,
-    "ref_size": "—"
-   },
-   "build": {
-    "tier": 5,
-    "status": "offen",
-    "order": 69
-   },
-   "article_prefix_md_unverified": "AQ990",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/butt-welding-machine-90-250",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "butt-welding-machine-90-250",
-   "title_en": "Butt Welding Machine 90–250",
-   "title_de": "Stumpfschweißmaschine 90–250",
-   "url": "/de/produkte/werkzeuge/butt-welding-machine-90-250",
-   "module": "kaqua-butt-welding-machine-90-250",
-   "article_codes_md": [
-    "AQ989250"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-butt-welding-machine-90-250-2026-06-20-05_52_20.pdf",
-   "md_file": "docs Unterseiten/tools/butt-welding-machine-90-250.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 5,
-    "ref_size": "90-250"
-   },
-   "build": {
-    "tier": 5,
-    "status": "offen",
-    "order": 70
-   },
-   "article_prefix_md_unverified": "AQ989250",
-   "screenshot_match": "exakt"
-  },
-  {
-   "id": "tools/welding-machine-50-125",
-   "category": "tools",
-   "category_de": "Werkzeuge",
-   "slug": "welding-machine-50-125",
-   "title_en": "Welding Machine 50–125 (Complete Set)",
-   "title_de": "Schweißgerät 50–125 komplett",
-   "url": "/de/produkte/werkzeuge/welding-machine-50-125",
-   "module": "kaqua-welding-machine-50-125",
-   "article_codes_md": [
-    "AQ985125"
-   ],
-   "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-machine-50-125-complete-set-2026-06-20-05_52_14.pdf",
-   "md_file": "docs Unterseiten/tools/welding-machine-50-125.md",
-   "sizes_md": 1,
-   "sizes_source_ocr": null,
-   "sizes_source_verified": null,
-   "data_status": "pruefen",
-   "geometry": {
-    "family": "tool-machine",
-    "complexity": 5,
-    "ref_size": "50-125"
-   },
-   "build": {
-    "tier": 5,
-    "status": "offen",
-    "order": 71
-   },
-   "article_prefix_md_unverified": "AQ985125",
-   "screenshot_match": "alias"
-  }
- ]
+  "_meta": {
+    "projekt": "K-Aqua 3D-Produktmodelle",
+    "erzeugt": "2026-08-15",
+    "produkte": 71,
+    "fertig": 1,
+    "hinweis": "sizes_source_ocr ist maschinell gelesen und fehleranfaellig (Zeilen koennen doppelt gezaehlt sein). Nur sizes_source_verified ist per Auge geprueft. data_status steuert, ob vor dem Modellieren die Quelltabelle neu gelesen werden muss.",
+    "familien": [
+      "ball-valve",
+      "battery",
+      "bracket",
+      "clamp",
+      "concealed",
+      "cross",
+      "crossover",
+      "elbow",
+      "flange",
+      "pipe",
+      "pipe-fiber",
+      "pipe-uv",
+      "rot-red",
+      "rot-sym",
+      "saddle",
+      "seat-valve",
+      "tee",
+      "tee-red",
+      "thread-elbow",
+      "thread-socket",
+      "thread-tee",
+      "tool-die",
+      "tool-machine",
+      "union-metal",
+      "union-ppr"
+    ],
+    "warnung_artikelnummern": "article_prefix_md_unverified und article_codes_md stammen aus den Markdown-Dateien und sind NICHT verifiziert. Bei beiden Kugelhaehnen sind sie nachweislich falsch. Verbindliche Nummern entstehen erst in Phase 1 des Produkt-Prompts aus dem Screenshot.",
+    "screenshot_zuordnung": "Jede Zuordnung ist exakt oder ueber eine explizite Alias-Tabelle belegt; keine Teilstring-Treffer.",
+    "hinweis_article_codes_source": "article_codes_source ist gegen Druckkatalog UND Website-Aufnahme geprueft. article_prefix_md_unverified widerspricht bei 22 von 71 Produkten dem Katalog (siehe pipeline/25-BILDQUELLEN.md Abschnitt 6) und ist keine Zuordnungsgrundlage.",
+    "hinweis_build_status": "build.status wird aus gallery/registry.js gespiegelt — dort ist der Modellstand die einzige Quelle. Abgeglichen am 24.08.2026; davor stand hier 1 fertig, waehrend 34 gebaut waren."
+  },
+  "produkte": [
+    {
+      "id": "valves/pp-r-ball-valve-ball-in-pp",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "pp-r-ball-valve-ball-in-pp",
+      "title_en": "PP-R Ball Valve (Ball in PP)",
+      "title_de": "Kugelhahn PP-R (Kugel in PP)",
+      "url": "/de/produkte/armaturen/pp-r-ball-valve-ball-in-pp",
+      "module": "kaqua-pp-r-ball-valve-ball-in-pp",
+      "article_codes_md": [
+        "AQ50020",
+        "AQ50025",
+        "AQ50032",
+        "AQ50040",
+        "AQ50050",
+        "AQ50063"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-pp-r-ball-valve-ball-in-pp-2026-06-22-20_37_14.png",
+      "md_file": "docs Unterseiten/valves/pp-r-ball-valve-ball-in-pp.md",
+      "sizes_md": 6,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": 6,
+      "data_status": "verifiziert-md-falsch",
+      "geometry": {
+        "family": "ball-valve",
+        "complexity": 5,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 0,
+        "status": "fertig",
+        "order": 1
+      },
+      "hinweis": "Markdown fuehrt AQ50020-AQ50063 mit d/L/H; Quelle fuehrt AQ85220-AQ85263 mit d/D/L/z/H/A/L1. Modell nutzt die Quelldaten.",
+      "article_prefix_md_unverified": "AQ500",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/cap",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "cap",
+      "title_en": "Cap",
+      "title_de": "Kappe",
+      "url": "/de/produkte/formteile/cap",
+      "module": "kaqua-cap",
+      "article_codes_md": [
+        "AQ30120",
+        "AQ30125",
+        "AQ30132",
+        "AQ30140",
+        "AQ30150",
+        "AQ30163",
+        "AQ30175"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cap-2026-06-20-05_41_10.pdf",
+      "md_file": "docs Unterseiten/fittings/cap.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": 14,
+      "data_status": "verifiziert-md-unvollstaendig",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 1,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 2
+      },
+      "article_prefix_md_unverified": "AQ301",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/socket",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "socket",
+      "title_en": "Socket",
+      "title_de": "Muffe",
+      "url": "/de/produkte/formteile/socket",
+      "module": "kaqua-socket",
+      "article_codes_md": [
+        "AQ27020",
+        "AQ27025",
+        "AQ27032",
+        "AQ27040",
+        "AQ27050",
+        "AQ27065",
+        "AQ27075"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-socket-2026-06-20-05_41_01.pdf",
+      "md_file": "docs Unterseiten/fittings/socket.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 9,
+      "sizes_source_verified": 9,
+      "data_status": "verifiziert-md-unvollstaendig",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 1,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 3
+      },
+      "article_prefix_md_unverified": "AQ270",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-pipe-pp-r-sdr-6",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-pipe-pp-r-sdr-6",
+      "title_en": "K-Pipe PP-R SDR 6",
+      "title_de": "K-Rohr PP-R SDR 6",
+      "url": "/de/produkte/rohre/k-pipe-pp-r-sdr-6",
+      "module": "kaqua-k-pipe-pp-r-sdr-6",
+      "article_codes_md": [
+        "AQ200P20",
+        "AQ200P25",
+        "AQ200P32",
+        "AQ200P40",
+        "AQ200P50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-pp-r-sdr-6-2026-06-20-05_46_21.pdf",
+      "md_file": "docs Unterseiten/pipes/k-pipe-pp-r-sdr-6.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 10,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe",
+        "complexity": 1,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 4
+      },
+      "article_prefix_md_unverified": "AQ200P",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/elbow-45",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "elbow-45",
+      "title_en": "Elbow 45°",
+      "title_de": "Winkel 45°",
+      "url": "/de/produkte/formteile/elbow-45",
+      "module": "kaqua-elbow-45",
+      "article_codes_md": [
+        "AQ04520",
+        "AQ04525",
+        "AQ04532",
+        "AQ04540",
+        "AQ04550",
+        "AQ04563",
+        "AQ04575"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-45-2026-06-20-05_40_35.pdf",
+      "md_file": "docs Unterseiten/fittings/elbow-45.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "elbow",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 5
+      },
+      "article_prefix_md_unverified": "AQ045",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/elbow-90",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "elbow-90",
+      "title_en": "Elbow 90°",
+      "title_de": "Winkel 90°",
+      "url": "/de/produkte/formteile/elbow-90",
+      "module": "kaqua-elbow-90",
+      "article_codes_md": [
+        "AQ09020",
+        "AQ09025",
+        "AQ09032",
+        "AQ09040",
+        "AQ09050",
+        "AQ09063",
+        "AQ09075"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-90-2026-06-20-05_40_45.pdf",
+      "md_file": "docs Unterseiten/fittings/elbow-90.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "elbow",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 6
+      },
+      "article_prefix_md_unverified": "AQ090",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/tee",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "tee",
+      "title_en": "Tee",
+      "title_de": "T-Stück",
+      "url": "/de/produkte/formteile/tee",
+      "module": "kaqua-tee",
+      "article_codes_md": [
+        "AQ13020",
+        "AQ13025",
+        "AQ13032",
+        "AQ13040",
+        "AQ13050",
+        "AQ13063",
+        "AQ13075"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-tee-2026-06-20-05_41_48.pdf",
+      "md_file": "docs Unterseiten/fittings/tee.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": 14,
+      "data_status": "verifiziert-md-unvollstaendig",
+      "geometry": {
+        "family": "tee",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 7
+      },
+      "article_prefix_md_unverified": "AQ130",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-fiber-pipe-pp-r-sdr-7-4",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-pipe-pp-r-sdr-7-4",
+      "title_en": "K-Fiber Pipe PP-R SDR 7.4",
+      "title_de": "K-Fiber Rohr PP-R SDR 7,4",
+      "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-7-4",
+      "module": "kaqua-k-fiber-pipe-pp-r-sdr-7-4",
+      "article_codes_md": [
+        "AQ207PF20",
+        "AQ207PF25",
+        "AQ207PF32",
+        "AQ207PF40",
+        "AQ207PF50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-74-2026-06-20-05_47_20.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-7-4.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-fiber",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 8
+      },
+      "article_prefix_md_unverified": "AQ207PF",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "transition-fittings/adaptor-socket-female-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "adaptor-socket-female-thread",
+      "title_en": "Adaptor Socket (Female Thread)",
+      "title_de": "Übergangsmuffe IG",
+      "url": "/de/produkte/uebergangsfittings/adaptor-socket-female-thread",
+      "module": "kaqua-adaptor-socket-female-thread",
+      "article_codes_md": [
+        "AQ24RP20",
+        "AQ24RP25",
+        "AQ24RP32",
+        "AQ24RP40",
+        "AQ24RP50",
+        "AQ24RP63",
+        "AQ24RP75",
+        "AQ24RP90",
+        "AQ24RP110",
+        "AQ24RP125",
+        "AQ24RP160",
+        "AQ24RP315"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-adaptor-socket-female-thread-2026-06-22-22_22_35.png",
+      "md_file": "docs Unterseiten/transition-fittings/adaptor-socket-female-thread.md",
+      "sizes_md": 12,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "thread-socket",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "offen",
+        "order": 9
+      },
+      "article_prefix_md_unverified": "AQ24RP",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "transition-fittings/adaptor-socket-male-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "adaptor-socket-male-thread",
+      "title_en": "Adaptor Socket (Male Thread)",
+      "title_de": "Übergangsmuffe AG",
+      "url": "/de/produkte/uebergangsfittings/adaptor-socket-male-thread",
+      "module": "kaqua-adaptor-socket-male-thread",
+      "article_codes_md": [
+        "AQ24R20",
+        "AQ24R25",
+        "AQ24R32",
+        "AQ24R40",
+        "AQ24R50",
+        "AQ24R63",
+        "AQ24R75",
+        "AQ24R90",
+        "AQ24R110",
+        "AQ24R125",
+        "AQ24R160"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-adaptor-socket-male-thread-2026-06-22-22_22_46.png",
+      "md_file": "docs Unterseiten/transition-fittings/adaptor-socket-male-thread.md",
+      "sizes_md": 11,
+      "sizes_source_ocr": 12,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "thread-socket",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "fertig",
+        "order": 10
+      },
+      "article_prefix_md_unverified": "AQ24R",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "valves/pp-r-ball-valve-brass",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "pp-r-ball-valve-brass",
+      "title_en": "PP-R Ball Valve (Ball in Brass, Chromium Plated)",
+      "title_de": "Kugelhahn PP-R (Kugel Messing verchromt)",
+      "url": "/de/produkte/armaturen/pp-r-ball-valve-brass",
+      "module": "kaqua-pp-r-ball-valve-brass",
+      "article_codes_md": [
+        "AQ60020",
+        "AQ60025",
+        "AQ60032",
+        "AQ60040",
+        "AQ60050",
+        "AQ60063",
+        "AQ60075",
+        "AQ60090"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-pp-r-ball-valve-ball-in-brass-chromium-plated-2026-06-22-20_37_27.png",
+      "md_file": "docs Unterseiten/valves/pp-r-ball-valve-brass.md",
+      "sizes_md": 8,
+      "sizes_source_ocr": 8,
+      "sizes_source_verified": 8,
+      "data_status": "verifiziert-md-falsch",
+      "geometry": {
+        "family": "ball-valve",
+        "complexity": 5,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 1,
+        "status": "offen",
+        "order": 11
+      },
+      "hinweis": "Markdown fuehrt AQ60020-AQ60090 und uebernimmt Spalte A (Hebellaenge) als L (Baulaenge). Quelle: AQ85020-AQ85090 mit d/A/C/H/L/P.",
+      "article_prefix_md_unverified": "AQ600",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "fittings/reducing-bush",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "reducing-bush",
+      "title_en": "Reducing Bush",
+      "title_de": "Reduziermuffe",
+      "url": "/de/produkte/formteile/reducing-bush",
+      "module": "kaqua-reducing-bush",
+      "article_codes_md": [
+        "AQ24325",
+        "AQ24332",
+        "AQ24340",
+        "AQ24350"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-bush-2026-06-20-05_41_19.pdf",
+      "md_file": "docs Unterseiten/fittings/reducing-bush.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 30,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "rot-red",
+        "complexity": 1,
+        "ref_size": "32x20"
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 12
+      },
+      "article_prefix_md_unverified": "AQ243",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-pipe-pp-r-sdr-11",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-pipe-pp-r-sdr-11",
+      "title_en": "K-Pipe PP-R SDR 11",
+      "title_de": "K-Rohr PP-R SDR 11",
+      "url": "/de/produkte/rohre/k-pipe-pp-r-sdr-11",
+      "module": "kaqua-k-pipe-pp-r-sdr-11",
+      "article_codes_md": [
+        "AQ11P20",
+        "AQ11P25",
+        "AQ11P32",
+        "AQ11P40",
+        "AQ11P50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-pp-r-sdr-11-2026-06-20-05_46_39.pdf",
+      "md_file": "docs Unterseiten/pipes/k-pipe-pp-r-sdr-11.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 18,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe",
+        "complexity": 1,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 13
+      },
+      "article_prefix_md_unverified": "AQ11P",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-pipe-pp-rct-sdr-7-4",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-pipe-pp-rct-sdr-7-4",
+      "title_en": "K-Pipe PP-RCT SDR 7.4",
+      "title_de": "K-Rohr PP-RCT SDR 7,4",
+      "url": "/de/produkte/rohre/k-pipe-pp-rct-sdr-7-4",
+      "module": "kaqua-k-pipe-pp-rct-sdr-7-4",
+      "article_codes_md": [
+        "AQ20020",
+        "AQ20025",
+        "AQ20032",
+        "AQ20040",
+        "AQ20050"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-pp-rct-sdr-74-2026-06-20-05_46_31.pdf",
+      "md_file": "docs Unterseiten/pipes/k-pipe-pp-rct-sdr-7-4.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe",
+        "complexity": 1,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 14
+      },
+      "article_prefix_md_unverified": "AQ200",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "pipes/k-pipe-purple-pp-r-sdr-11",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-pipe-purple-pp-r-sdr-11",
+      "title_en": "K-Pipe Purple PP-R SDR 11",
+      "title_de": "K-Rohr PP-R violett SDR 11",
+      "url": "/de/produkte/rohre/k-pipe-purple-pp-r-sdr-11",
+      "module": "kaqua-k-pipe-purple-pp-r-sdr-11",
+      "article_codes_md": [
+        "AQ11PL20",
+        "AQ11PL25",
+        "AQ11PL32",
+        "AQ11PL40",
+        "AQ11PL50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-pipe-purple-pp-r-sdr-11-2026-06-20-05_46_47.pdf",
+      "md_file": "docs Unterseiten/pipes/k-pipe-purple-pp-r-sdr-11.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 11,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe",
+        "complexity": 1,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 15
+      },
+      "article_prefix_md_unverified": "AQ11PL",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/electrofusion-socket",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "electrofusion-socket",
+      "title_en": "Electrofusion Socket",
+      "title_de": "Elektroschweißmuffe",
+      "url": "/de/produkte/formteile/electrofusion-socket",
+      "module": "kaqua-electrofusion-socket",
+      "article_codes_md": [
+        "AQ27E20",
+        "AQ27E25",
+        "AQ27E32",
+        "AQ27E40",
+        "AQ27E50",
+        "AQ27E63",
+        "AQ27E75"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-electrofusion-socket-2026-06-20-05_43_01.pdf",
+      "md_file": "docs Unterseiten/fittings/electrofusion-socket.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "offen",
+        "order": 16
+      },
+      "article_prefix_md_unverified": "AQ27E",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-fiber-pipe-pp-r-sdr-11",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-pipe-pp-r-sdr-11",
+      "title_en": "K-Fiber Pipe PP-R SDR 11",
+      "title_de": "K-Fiber Rohr PP-R SDR 11",
+      "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-11",
+      "module": "kaqua-k-fiber-pipe-pp-r-sdr-11",
+      "article_codes_md": [
+        "AQ11PF20",
+        "AQ11PF25",
+        "AQ11PF32",
+        "AQ11PF40",
+        "AQ11PF50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-11-2026-06-20-05_47_37.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-11.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 13,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-fiber",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 17
+      },
+      "article_prefix_md_unverified": "AQ11PF",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-fiber-pipe-pp-r-sdr-9",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-pipe-pp-r-sdr-9",
+      "title_en": "K-Fiber Pipe PP-R SDR 9",
+      "title_de": "K-Fiber Rohr PP-R SDR 9",
+      "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-9",
+      "module": "kaqua-k-fiber-pipe-pp-r-sdr-9",
+      "article_codes_md": [
+        "AQ169PF32",
+        "AQ169PF40",
+        "AQ169PF50",
+        "AQ169PF63",
+        "AQ169PF75"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-9-2026-06-20-05_47_30.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-9.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 13,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-fiber",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 18
+      },
+      "article_prefix_md_unverified": "AQ169PF",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-fiber-pipe-pp-rct-sdr-7-4",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-pipe-pp-rct-sdr-7-4",
+      "title_en": "K-Fiber Pipe PP-RCT SDR 7.4",
+      "title_de": "K-Fiber Rohr PP-RCT SDR 7,4",
+      "url": "/de/produkte/rohre/k-fiber-pipe-pp-rct-sdr-7-4",
+      "module": "kaqua-k-fiber-pipe-pp-rct-sdr-7-4",
+      "article_codes_md": [
+        "AQ200F20",
+        "AQ200F25",
+        "AQ200F32",
+        "AQ200F40",
+        "AQ200F50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-rct-sdr-74-2026-06-20-05_46_55.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-rct-sdr-7-4.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 14,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-fiber",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 19
+      },
+      "article_prefix_md_unverified": "AQ200F",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "pipes/k-fiber-uv-pipe-pp-r-sdr-7-4",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-uv-pipe-pp-r-sdr-7-4",
+      "title_en": "K-Fiber UV Pipe PP-R SDR 7.4",
+      "title_de": "K-Fiber UV-Rohr PP-R SDR 7,4",
+      "url": "/de/produkte/rohre/k-fiber-uv-pipe-pp-r-sdr-7-4",
+      "module": "kaqua-k-fiber-uv-pipe-pp-r-sdr-7-4",
+      "article_codes_md": [
+        "AQ200PFUV20",
+        "AQ200PFUV25",
+        "AQ200PFUV32",
+        "AQ200PFUV40",
+        "AQ200PFUV50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-uv-pipe-pp-r-sdr-74-2026-06-20-05_48_00.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiber-uv-pipe-pp-r-sdr-7-4.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 11,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-uv",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 20
+      },
+      "article_prefix_md_unverified": "AQ200PFUV",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "tools/welding-tool",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "welding-tool",
+      "title_en": "Welding Tool",
+      "title_de": "Schweißwerkzeug (Heizelement-Paar)",
+      "url": "/de/produkte/werkzeuge/welding-tool",
+      "module": "kaqua-welding-tool",
+      "article_codes_md": [
+        "AQ98220",
+        "AQ98225",
+        "AQ98232",
+        "AQ98240",
+        "AQ98250",
+        "AQ98263",
+        "AQ98275",
+        "AQ98290"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-tool-2026-06-20-05_51_39.pdf",
+      "md_file": "docs Unterseiten/tools/welding-tool.md",
+      "sizes_md": 8,
+      "sizes_source_ocr": 10,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "tool-die",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "offen",
+        "order": 21
+      },
+      "article_prefix_md_unverified": "AQ982",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "accessories/pipe-clamps",
+      "category": "accessories",
+      "category_de": "Zubehör",
+      "slug": "pipe-clamps",
+      "title_en": "Pipe Clamps",
+      "title_de": "Rohrschelle",
+      "url": "/de/produkte/zubehoer/pipe-clamps",
+      "module": "kaqua-pipe-clamps",
+      "article_codes_md": [
+        "AQ9520",
+        "AQ9525",
+        "AQ9532",
+        "AQ9540",
+        "AQ9550",
+        "AQ9563",
+        "AQ9575",
+        "AQ9590",
+        "AQ95110",
+        "AQ95125",
+        "AQ95160",
+        "AQ95200"
+      ],
+      "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-pipe-clamps-2026-06-22-20_53_26.png",
+      "md_file": "docs Unterseiten/accessories/pipe-clamps.md",
+      "sizes_md": 12,
+      "sizes_source_ocr": 13,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "clamp",
+        "complexity": 3,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 22
+      },
+      "article_prefix_md_unverified": "AQ95",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/reducing-tee",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "reducing-tee",
+      "title_en": "Reducing Tee",
+      "title_de": "Reduzier-T-Stück",
+      "url": "/de/produkte/formteile/reducing-tee",
+      "module": "kaqua-reducing-tee",
+      "article_codes_md": [
+        "AQ13025",
+        "AQ13032",
+        "AQ13040",
+        "AQ13050"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2026-06-20-05_42_14.pdf",
+      "md_file": "docs Unterseiten/fittings/reducing-tee.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 10,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "tee-red",
+        "complexity": 3,
+        "ref_size": "32x20"
+      },
+      "build": {
+        "tier": 2,
+        "status": "offen",
+        "order": 23
+      },
+      "article_prefix_md_unverified": "AQ130",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "transition-fittings/elbow-90-male-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "elbow-90-male-thread",
+      "title_en": "Elbow 90° (Male Thread)",
+      "title_de": "Winkel 90° AG",
+      "url": "/de/produkte/uebergangsfittings/elbow-90-male-thread",
+      "module": "kaqua-elbow-90-male-thread",
+      "article_codes_md": [
+        "AQ09R20",
+        "AQ09R25",
+        "AQ09R32",
+        "AQ09R40"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbow-90-male-thread-2026-06-22-22_03_43.png",
+      "md_file": "docs Unterseiten/transition-fittings/elbow-90-male-thread.md",
+      "sizes_md": 4,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "thread-elbow",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 24
+      },
+      "article_prefix_md_unverified": "AQ09R",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "transition-fittings/metal-union-female-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "metal-union-female-thread",
+      "title_en": "Metal Union with PP-R Nut (Female Thread)",
+      "title_de": "Verschraubung IG",
+      "url": "/de/produkte/uebergangsfittings/metal-union-female-thread",
+      "module": "kaqua-metal-union-female-thread",
+      "article_codes_md": [
+        "AQ71RP20",
+        "AQ71RP25",
+        "AQ71RP32",
+        "AQ71RP40",
+        "AQ71RP50"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-female-thread-2026-06-22-22_21_48.png",
+      "md_file": "docs Unterseiten/transition-fittings/metal-union-female-thread.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "union-metal",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 25
+      },
+      "article_prefix_md_unverified": "AQ71RP",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "transition-fittings/metal-union-male-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "metal-union-male-thread",
+      "title_en": "Metal Union with PP-R Nut (Male Thread)",
+      "title_de": "Verschraubung AG",
+      "url": "/de/produkte/uebergangsfittings/metal-union-male-thread",
+      "module": "kaqua-metal-union-male-thread",
+      "article_codes_md": [
+        "AQ71R20",
+        "AQ71R25",
+        "AQ71R32",
+        "AQ71R40",
+        "AQ71R50"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-male-thread-2026-06-22-22_22_04.png",
+      "md_file": "docs Unterseiten/transition-fittings/metal-union-male-thread.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "union-metal",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 26
+      },
+      "article_prefix_md_unverified": "AQ71R",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "transition-fittings/tee-90-female-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "tee-90-female-thread",
+      "title_en": "Tee 90° (Female Thread)",
+      "title_de": "T-Stück 90° IG",
+      "url": "/de/produkte/uebergangsfittings/tee-90-female-thread",
+      "module": "kaqua-tee-90-female-thread",
+      "article_codes_md": [
+        "AQ13RP20",
+        "AQ13RP25",
+        "AQ13RP32",
+        "AQ13RP40"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-tee-90-female-thread-2026-06-22-21_46_01.png",
+      "md_file": "docs Unterseiten/transition-fittings/tee-90-female-thread.md",
+      "sizes_md": 4,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "thread-tee",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 27
+      },
+      "article_prefix_md_unverified": "AQ13RP",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "transition-fittings/tee-90-male-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "tee-90-male-thread",
+      "title_en": "Tee 90° (Male Thread)",
+      "title_de": "T-Stück 90° AG",
+      "url": "/de/produkte/uebergangsfittings/tee-90-male-thread",
+      "module": "kaqua-tee-90-male-thread",
+      "article_codes_md": [
+        "AQ13R20",
+        "AQ13R25",
+        "AQ13R32",
+        "AQ13R40"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-tee-90-male-thread-2026-06-22-21_45_54.png",
+      "md_file": "docs Unterseiten/transition-fittings/tee-90-male-thread.md",
+      "sizes_md": 4,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "thread-tee",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 28
+      },
+      "article_prefix_md_unverified": "AQ13R",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "transition-fittings/union",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "union",
+      "title_en": "Union",
+      "title_de": "Verschraubung PP-R",
+      "url": "/de/produkte/uebergangsfittings/union",
+      "module": "kaqua-union",
+      "article_codes_md": [
+        "AQ69E20",
+        "AQ69E25",
+        "AQ69E32",
+        "AQ69E40",
+        "AQ69E50",
+        "AQ69E63"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-union-2026-06-22-22_23_48.png",
+      "md_file": "docs Unterseiten/transition-fittings/union.md",
+      "sizes_md": 6,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "union-ppr",
+        "complexity": 3,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 2,
+        "status": "fertig",
+        "order": 29
+      },
+      "article_prefix_md_unverified": "AQ69E",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "weld-in-saddles/weld-in-saddle",
+      "category": "weld-in-saddles",
+      "category_de": "Einschweißsattel",
+      "slug": "weld-in-saddle",
+      "title_en": "Weld-in Saddle",
+      "title_de": "Einschweißsattel",
+      "url": "/de/produkte/einschweisssattel/weld-in-saddle",
+      "module": "kaqua-weld-in-saddle",
+      "article_codes_md": [
+        "AQ1505406320",
+        "AQ1505406325",
+        "AQ1505406332",
+        "AQ1505751232S",
+        "AQ1505751252",
+        "AQ1505751540",
+        "AQ1505160250S"
+      ],
+      "source_screenshot": "weld-in-saddles K-Aqua/screencapture-project-301-webtm-ru-weld-in-saddles-weld-in-saddle-2026-06-20-05_49_59.pdf",
+      "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle.md",
+      "sizes_md": 8,
+      "sizes_source_ocr": 11,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "saddle",
+        "complexity": 3,
+        "ref_size": "63x20"
+      },
+      "build": {
+        "tier": 2,
+        "status": "offen",
+        "order": 30
+      },
+      "article_prefix_md_unverified": "AQ1505",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/repairing-plug",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "repairing-plug",
+      "title_en": "Repairing Plug",
+      "title_de": "Reparaturstopfen",
+      "url": "/de/produkte/werkzeuge/repairing-plug",
+      "module": "kaqua-repairing-plug",
+      "article_codes_md": [
+        "AQ96557",
+        "AQ96511"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-repairing-plug-2026-06-20-05_52_07.pdf",
+      "md_file": "docs Unterseiten/tools/repairing-plug.md",
+      "sizes_md": 2,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 1,
+        "ref_size": "1/2\""
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 31
+      },
+      "article_prefix_md_unverified": "AQ965",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "accessories/backing-flange",
+      "category": "accessories",
+      "category_de": "Zubehör",
+      "slug": "backing-flange",
+      "title_en": "Backing Flange PP-Steel (SF/BF)",
+      "title_de": "Losflansch PP-Stahl",
+      "url": "/de/produkte/zubehoer/backing-flange",
+      "module": "kaqua-backing-flange",
+      "article_codes_md": [
+        "AQ575040",
+        "AQ575050",
+        "AQ575063",
+        "AQ575075",
+        "AQ575090",
+        "AQ575110",
+        "AQ575125",
+        "AQ575160",
+        "AQ575200",
+        "AQ575250",
+        "AQ575315"
+      ],
+      "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-backing-flange-pp-steel-for-socket-fusion-system-sf-or-butt-fusion-system-bf-2026-06-22-20_54_21.png",
+      "md_file": "docs Unterseiten/accessories/backing-flange.md",
+      "sizes_md": 11,
+      "sizes_source_ocr": 11,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "flange",
+        "complexity": 2,
+        "ref_size": 63
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 32
+      },
+      "article_prefix_md_unverified": "AQ575",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "fittings/elbow-45-female-male",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "elbow-45-female-male",
+      "title_en": "Elbow 45° (Female/Male)",
+      "title_de": "Winkel 45° Muffe/Spitzende",
+      "url": "/de/produkte/formteile/elbow-45-female-male",
+      "module": "kaqua-elbow-45-female-male",
+      "article_codes_md": [
+        "AQ04120",
+        "AQ04125"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-45-femalemale-2026-06-20-05_40_27.pdf",
+      "md_file": "docs Unterseiten/fittings/elbow-45-female-male.md",
+      "sizes_md": 2,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "elbow",
+        "complexity": 2,
+        "ref_size": 20
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 33
+      },
+      "article_prefix_md_unverified": "AQ0412",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "fittings/elbow-90-female-male",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "elbow-90-female-male",
+      "title_en": "Elbow 90° (Female/Male)",
+      "title_de": "Winkel 90° Muffe/Spitzende",
+      "url": "/de/produkte/formteile/elbow-90-female-male",
+      "module": "kaqua-elbow-90-female-male",
+      "article_codes_md": [
+        "AQ09120",
+        "AQ09125"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-elbow-90-femalemale-2026-06-20-05_40_54.pdf",
+      "md_file": "docs Unterseiten/fittings/elbow-90-female-male.md",
+      "sizes_md": 2,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "elbow",
+        "complexity": 2,
+        "ref_size": 20
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 34
+      },
+      "article_prefix_md_unverified": "AQ0912",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "fittings/flange-adaptor",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "flange-adaptor",
+      "title_en": "Flange Adaptor",
+      "title_de": "Bundbuchse",
+      "url": "/de/produkte/formteile/flange-adaptor",
+      "module": "kaqua-flange-adaptor",
+      "article_codes_md": [
+        "AQ79040",
+        "AQ79050",
+        "AQ79063",
+        "AQ79075",
+        "AQ79090",
+        "AQ790110",
+        "AQ790125"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-flange-adaptor-2026-06-20-05_42_38.pdf",
+      "md_file": "docs Unterseiten/fittings/flange-adaptor.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 11,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "flange",
+        "complexity": 2,
+        "ref_size": 63
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 35
+      },
+      "article_prefix_md_unverified": "AQ790",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-fiber-pipe-pp-r-sdr-17",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-pipe-pp-r-sdr-17",
+      "title_en": "K-Fiber Pipe PP-R SDR 17",
+      "title_de": "K-Fiber Rohr PP-R SDR 17",
+      "url": "/de/produkte/rohre/k-fiber-pipe-pp-r-sdr-17",
+      "module": "kaqua-k-fiber-pipe-pp-r-sdr-17",
+      "article_codes_md": [
+        "AQ17PF90",
+        "AQ17PF110",
+        "AQ17PF125",
+        "AQ17PF160",
+        "AQ17PF200"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-pipe-pp-r-sdr-17-2026-06-20-05_47_45.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiber-pipe-pp-r-sdr-17.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 13,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-fiber",
+        "complexity": 2,
+        "ref_size": 110
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 36
+      },
+      "article_prefix_md_unverified": "AQ17PF",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiber-uv-pipe-pp-rct-sdr-7-4",
+      "title_en": "K-Fiber UV Pipe PP-RCT SDR 7.4",
+      "title_de": "K-Fiber UV-Rohr PP-RCT SDR 7,4",
+      "url": "/de/produkte/rohre/k-fiber-uv-pipe-pp-rct-sdr-7-4",
+      "module": "kaqua-k-fiber-uv-pipe-pp-rct-sdr-7-4",
+      "article_codes_md": [
+        "AQ200FUVCT20",
+        "AQ200FUVCT25",
+        "AQ200FUVCT32",
+        "AQ200FUVCT40",
+        "AQ200FUVCT50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiber-uv-pipe-pp-rct-sdr-74-2026-06-20-05_47_52.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 11,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-uv",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 37
+      },
+      "article_prefix_md_unverified": "AQ200FUVCT",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "pipes/k-fiberclima-pipe-pp-rct-sdr-11",
+      "category": "pipes",
+      "category_de": "Rohre",
+      "slug": "k-fiberclima-pipe-pp-rct-sdr-11",
+      "title_en": "K-Fiberclima Pipe PP-RCT SDR 11",
+      "title_de": "K-Fiberclima Rohr PP-RCT SDR 11",
+      "url": "/de/produkte/rohre/k-fiberclima-pipe-pp-rct-sdr-11",
+      "module": "kaqua-k-fiberclima-pipe-pp-rct-sdr-11",
+      "article_codes_md": [
+        "AQ160F20",
+        "AQ160F25",
+        "AQ160F32",
+        "AQ160F40",
+        "AQ160F50"
+      ],
+      "source_screenshot": "Piepes K-Aqua/screencapture-project-301-webtm-ru-pipes-k-fiberclima-pipe-pp-rct-sdr-11-2026-06-20-05_47_06.pdf",
+      "md_file": "docs Unterseiten/pipes/k-fiberclima-pipe-pp-rct-sdr-11.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 18,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "pipe-fiber",
+        "complexity": 2,
+        "ref_size": 32
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 38
+      },
+      "article_prefix_md_unverified": "AQ160F",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/cross",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "cross",
+      "title_en": "Cross",
+      "title_de": "Kreuzstück",
+      "url": "/de/produkte/formteile/cross",
+      "module": "kaqua-cross",
+      "article_codes_md": [
+        "AQ18025",
+        "AQ18032"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cross-2026-06-20-05_42_31.pdf",
+      "md_file": "docs Unterseiten/fittings/cross.md",
+      "sizes_md": 2,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "cross",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 39
+      },
+      "article_prefix_md_unverified": "AQ180",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/reducing-tee-large",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "reducing-tee-large",
+      "title_en": "Reducing Tee (Large Sizes)",
+      "title_de": "Reduzier-T-Stück große Größen",
+      "url": "/de/produkte/formteile/reducing-tee-large",
+      "module": "kaqua-reducing-tee-large",
+      "article_codes_md": [
+        "AQ15063",
+        "AQ15075"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2-2026-06-20-05_42_22.pdf",
+      "md_file": "docs Unterseiten/fittings/reducing-tee-large.md",
+      "sizes_md": 7,
+      "sizes_source_ocr": 26,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "tee-red",
+        "complexity": 3,
+        "ref_size": "63x32"
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 40
+      },
+      "article_prefix_md_unverified": "AQ150",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "transition-fittings/metal-union-female-thread-brass",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "metal-union-female-thread-brass",
+      "title_en": "Metal Union with PP-R Nut in Yellow Brass CW617N (Female Thread)",
+      "title_de": "Verschraubung IG Messing",
+      "url": "/de/produkte/uebergangsfittings/metal-union-female-thread-brass",
+      "module": "kaqua-metal-union-female-thread-brass",
+      "article_codes_md": [
+        "AQ70RP20",
+        "AQ70RP25",
+        "AQ70RP32",
+        "AQ70RP40",
+        "AQ70RP50"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-in-yellow-brass-cw617n-female-thread-2026-06-22-21_46_17.png",
+      "md_file": "docs Unterseiten/transition-fittings/metal-union-female-thread-brass.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": 6,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "union-metal",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 41
+      },
+      "article_prefix_md_unverified": "AQ70RP",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "transition-fittings/metal-union-male-thread-brass",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "metal-union-male-thread-brass",
+      "title_en": "Metal Union with PP-R Nut in Yellow Brass CW617N (Male Thread)",
+      "title_de": "Verschraubung AG Messing",
+      "url": "/de/produkte/uebergangsfittings/metal-union-male-thread-brass",
+      "module": "kaqua-metal-union-male-thread-brass",
+      "article_codes_md": [
+        "AQ70R20",
+        "AQ70R25",
+        "AQ70R32",
+        "AQ70R40",
+        "AQ70R50"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-metal-union-with-pp-r-nut-in-yellow-brass-cw617n-male-thread-2026-06-22-21_46_09.png",
+      "md_file": "docs Unterseiten/transition-fittings/metal-union-male-thread-brass.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "union-metal",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 42
+      },
+      "article_prefix_md_unverified": "AQ70R",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "valves/tee-90-female-thread-internal-valve",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "tee-90-female-thread-internal-valve",
+      "title_en": "Tee 90° (Female Thread) for Internal Valve",
+      "title_de": "T-Stück 90° IG für Einbauventil",
+      "url": "/de/produkte/armaturen/tee-90-female-thread-internal-valve",
+      "module": "kaqua-tee-90-female-thread-internal-valve",
+      "article_codes_md": [
+        "AQ60RP20",
+        "AQ60RP25",
+        "AQ60RP32",
+        "AQ60RP40"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-tee-90-female-thread-for-internal-valve-2026-06-22-20_37_01.png",
+      "md_file": "docs Unterseiten/valves/tee-90-female-thread-internal-valve.md",
+      "sizes_md": 4,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "thread-tee",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 43
+      },
+      "article_prefix_md_unverified": "AQ60RP",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "weld-in-saddles/weld-in-saddle-female-thread",
+      "category": "weld-in-saddles",
+      "category_de": "Einschweißsattel",
+      "slug": "weld-in-saddle-female-thread",
+      "title_en": "Weld-in Saddle (Female Thread)",
+      "title_de": "Einschweißsattel IG",
+      "url": "/de/produkte/einschweisssattel/weld-in-saddle-female-thread",
+      "module": "kaqua-weld-in-saddle-female-thread",
+      "article_codes_md": [
+        "AQ270S406332",
+        "AQ270S406334",
+        "AQ270S751251S",
+        "AQ270S751254"
+      ],
+      "source_screenshot": "weld-in-saddles K-Aqua/screencapture-project-301-webtm-ru-weld-in-saddles-weld-in-saddle-female-thread-2026-06-20-05_49_42.pdf",
+      "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle-female-thread.md",
+      "sizes_md": 4,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "saddle",
+        "complexity": 3,
+        "ref_size": "63x1/2\""
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 44
+      },
+      "article_prefix_md_unverified": "AQ270S",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "weld-in-saddles/weld-in-saddle-male-thread",
+      "category": "weld-in-saddles",
+      "category_de": "Einschweißsattel",
+      "slug": "weld-in-saddle-male-thread",
+      "title_en": "Weld-in Saddle (Male Thread)",
+      "title_de": "Einschweißsattel AG",
+      "url": "/de/produkte/einschweisssattel/weld-in-saddle-male-thread",
+      "module": "kaqua-weld-in-saddle-male-thread",
+      "article_codes_md": [
+        "AQ243S406334",
+        "AQ243S751251S"
+      ],
+      "source_screenshot": "weld-in-saddles K-Aqua/screencapture-project-301-webtm-ru-weld-in-saddles-weld-in-saddle-male-thread-2026-06-20-05_49_49.pdf",
+      "md_file": "docs Unterseiten/weld-in-saddles/weld-in-saddle-male-thread.md",
+      "sizes_md": 2,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "saddle",
+        "complexity": 3,
+        "ref_size": "63x1/2\""
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 45
+      },
+      "article_prefix_md_unverified": "AQ243S",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/pipe-cutter-20-40",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "pipe-cutter-20-40",
+      "title_en": "Pipe Cutter 20–40",
+      "title_de": "Rohrschere 20–40",
+      "url": "/de/produkte/werkzeuge/pipe-cutter-20-40",
+      "module": "kaqua-pipe-cutter-20-40",
+      "article_codes_md": [
+        "AQ97040"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-pipe-cutter-20-40-2026-06-20-05_51_11.pdf",
+      "md_file": "docs Unterseiten/tools/pipe-cutter-20-40.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 4,
+        "ref_size": "20-40"
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 46
+      },
+      "article_prefix_md_unverified": "AQ97040",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "transition-fittings/elbow-bracket-90-female-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "elbow-bracket-90-female-thread",
+      "title_en": "Elbow Bracket 90° (Female Thread)",
+      "title_de": "Winkel-Anschlussbogen 90° IG",
+      "url": "/de/produkte/uebergangsfittings/elbow-bracket-90-female-thread",
+      "module": "kaqua-elbow-bracket-90-female-thread",
+      "article_codes_md": [
+        "AQ09BRP20",
+        "AQ09BRP25",
+        "AQ09BRP32",
+        "AQ09BRP40",
+        "AQ09BRP50"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbow-bracket-90-female-thread-2026-06-22-22_22_15.png",
+      "md_file": "docs Unterseiten/transition-fittings/elbow-bracket-90-female-thread.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": 5,
+      "data_status": "verifiziert",
+      "geometry": {
+        "family": "bracket",
+        "complexity": 4,
+        "ref_size": 20
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 47
+      },
+      "article_prefix_md_unverified": "AQ09BRP",
+      "screenshot_match": "exakt",
+      "article_codes_source": [
+        "AQ090G2012",
+        "AQ090G2512",
+        "AQ090G2534",
+        "AQ090G3212",
+        "AQ090G321"
+      ],
+      "article_prefix_source": "AQ090G",
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S.95",
+        "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbow-bracket-90-female-thread-2026-06-22-22_22_15.png"
+      ]
+    },
+    {
+      "id": "transition-fittings/elbow-wall-bracket-90-female-thread",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "elbow-wall-bracket-90-female-thread",
+      "title_en": "Elbow/Wall Bracket 90° (Female Thread)",
+      "title_de": "Wandscheibe 90° IG",
+      "url": "/de/produkte/uebergangsfittings/elbow-wall-bracket-90-female-thread",
+      "module": "kaqua-elbow-wall-bracket-90-female-thread",
+      "article_codes_md": [
+        "AQ09WBRP20",
+        "AQ09WBRP25",
+        "AQ09WBRP32",
+        "AQ09WBRP40"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbowwall-bracket-90-female-thread-2026-06-22-22_22_23.png",
+      "md_file": "docs Unterseiten/transition-fittings/elbow-wall-bracket-90-female-thread.md",
+      "sizes_md": 4,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": 5,
+      "data_status": "verifiziert",
+      "geometry": {
+        "family": "bracket",
+        "complexity": 4,
+        "ref_size": 20
+      },
+      "build": {
+        "tier": 3,
+        "status": "fertig",
+        "order": 48
+      },
+      "article_prefix_md_unverified": "AQ09WBRP",
+      "screenshot_match": "alias",
+      "article_codes_source": [
+        "AQ472G2012",
+        "AQ472G2512",
+        "AQ472G2534",
+        "AQ472G3234",
+        "AQ472G321"
+      ],
+      "article_prefix_source": "AQ472G",
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S.95",
+        "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-elbowwall-bracket-90-female-thread-2026-06-22-22_22_23.png"
+      ]
+    },
+    {
+      "id": "valves/battery-female-thread",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "battery-female-thread",
+      "title_en": "Battery (Female Thread)",
+      "title_de": "Wandbatterie IG",
+      "url": "/de/produkte/armaturen/battery-female-thread",
+      "module": "kaqua-battery-female-thread",
+      "article_codes_md": [
+        "AQ64RCG20",
+        "AQ64RCG25"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-battery-female-thread-2026-06-22-20_36_52.png",
+      "md_file": "docs Unterseiten/valves/battery-female-thread.md",
+      "sizes_md": 2,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "battery",
+        "complexity": 4,
+        "ref_size": 20
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 49
+      },
+      "article_prefix_md_unverified": "AQ64RCG2",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "valves/straight-seat-valve-green-handle",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "straight-seat-valve-green-handle",
+      "title_en": "Straight Seat Valve (Only Upper Part) Green Handle",
+      "title_de": "Durchgangsventil Oberteil grün",
+      "url": "/de/produkte/armaturen/straight-seat-valve-green-handle",
+      "module": "kaqua-straight-seat-valve-green-handle",
+      "article_codes_md": [
+        "AQ62591"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-straight-seat-valve-only-upper-part-green-handle-2026-06-22-20_38_07.png",
+      "md_file": "docs Unterseiten/valves/straight-seat-valve-green-handle.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "seat-valve",
+        "complexity": 4,
+        "ref_size": "3/4\""
+      },
+      "build": {
+        "tier": 3,
+        "status": "offen",
+        "order": 50
+      },
+      "article_prefix_md_unverified": "AQ62591",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "accessories/flat-gasket",
+      "category": "accessories",
+      "category_de": "Zubehör",
+      "slug": "flat-gasket",
+      "title_en": "Flat Gasket",
+      "title_de": "Flachdichtung",
+      "url": "/de/produkte/zubehoer/flat-gasket",
+      "module": "kaqua-flat-gasket",
+      "article_codes_md": [
+        "AQ97040",
+        "AQ97050",
+        "AQ97063",
+        "AQ97075",
+        "AQ97090",
+        "AQ97110",
+        "AQ97125",
+        "AQ97160",
+        "AQ97200",
+        "AQ97250"
+      ],
+      "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-flat-gasket-2026-06-22-20_54_29.png",
+      "md_file": "docs Unterseiten/accessories/flat-gasket.md",
+      "sizes_md": 10,
+      "sizes_source_ocr": 11,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 1,
+        "ref_size": 63
+      },
+      "build": {
+        "tier": 4,
+        "status": "fertig",
+        "order": 51
+      },
+      "article_prefix_md_unverified": "AQ97",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "accessories/flat-gasket-for-unions",
+      "category": "accessories",
+      "category_de": "Zubehör",
+      "slug": "flat-gasket-for-unions",
+      "title_en": "Flat Gasket for Unions PP-R",
+      "title_de": "Flachdichtung für Verschraubungen",
+      "url": "/de/produkte/zubehoer/flat-gasket-for-unions",
+      "module": "kaqua-flat-gasket-for-unions",
+      "article_codes_md": [
+        "AQ9ANRP20",
+        "AQ9ANRP25",
+        "AQ9ANRP32"
+      ],
+      "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-flat-gasket-for-unions-pp-r-2026-06-22-20_54_42.png",
+      "md_file": "docs Unterseiten/accessories/flat-gasket-for-unions.md",
+      "sizes_md": 3,
+      "sizes_source_ocr": 2,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 1,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 4,
+        "status": "fertig",
+        "order": 52
+      },
+      "article_prefix_md_unverified": "AQ9ANRP",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "accessories/plug",
+      "category": "accessories",
+      "category_de": "Zubehör",
+      "slug": "plug",
+      "title_en": "Plug",
+      "title_de": "Stopfen",
+      "url": "/de/produkte/zubehoer/plug",
+      "module": "kaqua-plug",
+      "article_codes_md": [
+        "AQ98P57"
+      ],
+      "source_screenshot": "Accessories K-Aqua/screencapture-project-301-webtm-ru-accessories-plug-2026-06-22-20_54_11.png",
+      "md_file": "docs Unterseiten/accessories/plug.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 1,
+        "ref_size": "1/2\""
+      },
+      "build": {
+        "tier": 4,
+        "status": "fertig",
+        "order": 53
+      },
+      "article_prefix_md_unverified": "AQ98P57",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "valves/elongation-pieces",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "elongation-pieces",
+      "title_en": "Elongation Pieces",
+      "title_de": "Verlängerungsstück",
+      "url": "/de/produkte/armaturen/elongation-pieces",
+      "module": "kaqua-elongation-pieces",
+      "article_codes_md": [
+        "AQ62990"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-elongation-pieces-2026-06-22-20_38_39.png",
+      "md_file": "docs Unterseiten/valves/elongation-pieces.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "rot-sym",
+        "complexity": 1,
+        "ref_size": "30 mm"
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 54
+      },
+      "article_prefix_md_unverified": "AQ62990",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/welding-tool-for-repairing-plug",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "welding-tool-for-repairing-plug",
+      "title_en": "Welding Tool for Repairing Plug",
+      "title_de": "Schweißwerkzeug Reparaturstopfen",
+      "url": "/de/produkte/werkzeuge/welding-tool-for-repairing-plug",
+      "module": "kaqua-welding-tool-for-repairing-plug",
+      "article_codes_md": [
+        "AQ98625",
+        "AQ98632",
+        "AQ98640",
+        "AQ98650",
+        "AQ98663"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-tool-for-repairing-plug-2026-06-20-05_52_00.pdf",
+      "md_file": "docs Unterseiten/tools/welding-tool-for-repairing-plug.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-die",
+        "complexity": 2,
+        "ref_size": "1/2\""
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 55
+      },
+      "article_prefix_md_unverified": "AQ986",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/cross-over",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "cross-over",
+      "title_en": "Cross Over",
+      "title_de": "Überbogen",
+      "url": "/de/produkte/formteile/cross-over",
+      "module": "kaqua-cross-over",
+      "article_codes_md": [
+        "AQ26720",
+        "AQ26725",
+        "AQ26732"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cross-over-2026-06-20-05_42_47.pdf",
+      "md_file": "docs Unterseiten/fittings/cross-over.md",
+      "sizes_md": 3,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "crossover",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 56
+      },
+      "article_prefix_md_unverified": "AQ267",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "fittings/cross-over-pipe",
+      "category": "fittings",
+      "category_de": "Formteile",
+      "slug": "cross-over-pipe",
+      "title_en": "Cross Over Pipe",
+      "title_de": "Überbogen mit Rohr",
+      "url": "/de/produkte/formteile/cross-over-pipe",
+      "module": "kaqua-cross-over-pipe",
+      "article_codes_md": [
+        "AQ28520",
+        "AQ28525",
+        "AQ28532"
+      ],
+      "source_screenshot": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-cross-over-pipe-2026-06-20-05_42_53.pdf",
+      "md_file": "docs Unterseiten/fittings/cross-over-pipe.md",
+      "sizes_md": 3,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "crossover",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 57
+      },
+      "article_prefix_md_unverified": "AQ285",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/drilling-tool-for-weld-in-saddle",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "drilling-tool-for-weld-in-saddle",
+      "title_en": "Drilling Tool for Weld-in Saddle",
+      "title_de": "Bohrwerkzeug Einschweißsattel",
+      "url": "/de/produkte/werkzeuge/drilling-tool-for-weld-in-saddle",
+      "module": "kaqua-drilling-tool-for-weld-in-saddle",
+      "article_codes_md": [
+        "AQ98625",
+        "AQ98632",
+        "AQ98640",
+        "AQ98650",
+        "AQ98663"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-drilling-tool-for-weld-in-saddle-2026-06-20-05_51_54.pdf",
+      "md_file": "docs Unterseiten/tools/drilling-tool-for-weld-in-saddle.md",
+      "sizes_md": 5,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-die",
+        "complexity": 3,
+        "ref_size": "25-63"
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 58
+      },
+      "article_prefix_md_unverified": "AQ986",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/welding-tool-for-weld-in-saddles",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "welding-tool-for-weld-in-saddles",
+      "title_en": "Welding Tool for Weld-in Saddles",
+      "title_de": "Schweißwerkzeug Einschweißsattel",
+      "url": "/de/produkte/werkzeuge/welding-tool-for-weld-in-saddles",
+      "module": "kaqua-welding-tool-for-weld-in-saddles",
+      "article_codes_md": [
+        "AQ9850400632S",
+        "AQ98507512525",
+        "AQ98507512532",
+        "AQ98507512540",
+        "AQ98516025025",
+        "AQ98516025032",
+        "AQ98516025040",
+        "AQ98516025050"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-tool-for-weld-in-saddles-2026-06-20-05_51_46.pdf",
+      "md_file": "docs Unterseiten/tools/welding-tool-for-weld-in-saddles.md",
+      "sizes_md": 8,
+      "sizes_source_ocr": 9,
+      "sizes_source_verified": null,
+      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "geometry": {
+        "family": "tool-die",
+        "complexity": 3,
+        "ref_size": 63
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 59
+      },
+      "article_prefix_md_unverified": "AQ985",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "transition-fittings/union-for-watermeters",
+      "category": "transition-fittings",
+      "category_de": "Übergangsfittings",
+      "slug": "union-for-watermeters",
+      "title_en": "Union for Watermeters",
+      "title_de": "Wasserzähler-Verschraubung",
+      "url": "/de/produkte/uebergangsfittings/union-for-watermeters",
+      "module": "kaqua-union-for-watermeters",
+      "article_codes_md": [
+        "AQ72E20",
+        "AQ72E25",
+        "AQ72E32"
+      ],
+      "source_screenshot": "Transition Fittings K-Aqua/screencapture-project-301-webtm-ru-transition-fittings-union-for-watermeters-2026-06-22-21_45_47.png",
+      "md_file": "docs Unterseiten/transition-fittings/union-for-watermeters.md",
+      "sizes_md": 3,
+      "sizes_source_ocr": 2,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "union-ppr",
+        "complexity": 3,
+        "ref_size": 25
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 60
+      },
+      "article_prefix_md_unverified": "AQ72E",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "valves/concealed-valve-chrome-heavy-part",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "concealed-valve-chrome-heavy-part",
+      "title_en": "Concealed Valve Chrome — Heavy Part",
+      "title_de": "UP-Ventil Chrom Unterteil",
+      "url": "/de/produkte/armaturen/concealed-valve-chrome-heavy-part",
+      "module": "kaqua-concealed-valve-chrome-heavy-part",
+      "article_codes_md": [
+        "AQ62993"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-concealed-valve-chrome-heavy-part-2026-06-22-20_37_59.png",
+      "md_file": "docs Unterseiten/valves/concealed-valve-chrome-heavy-part.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "concealed",
+        "complexity": 3,
+        "ref_size": "1/2\""
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 61
+      },
+      "article_prefix_md_unverified": "AQ62993",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "valves/concealed-valve-chrome-light-part",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "concealed-valve-chrome-light-part",
+      "title_en": "Concealed Valve Chrome — Light Part",
+      "title_de": "UP-Ventil Chrom Oberteil",
+      "url": "/de/produkte/armaturen/concealed-valve-chrome-light-part",
+      "module": "kaqua-concealed-valve-chrome-light-part",
+      "article_codes_md": [
+        "AQ62992"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-concealed-valve-chrome-light-part-2026-06-22-20_37_37.png",
+      "md_file": "docs Unterseiten/valves/concealed-valve-chrome-light-part.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "concealed",
+        "complexity": 3,
+        "ref_size": "1/2\""
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 62
+      },
+      "article_prefix_md_unverified": "AQ62992",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/pipe-cutter-50-125",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "pipe-cutter-50-125",
+      "title_en": "Pipe Cutter 50–125",
+      "title_de": "Rohrschneider 50–125",
+      "url": "/de/produkte/werkzeuge/pipe-cutter-50-125",
+      "module": "kaqua-pipe-cutter-50-125",
+      "article_codes_md": [
+        "AQ975125"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-pipe-cutter-50-125-2026-06-20-05_51_18.pdf",
+      "md_file": "docs Unterseiten/tools/pipe-cutter-50-125.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 4,
+        "ref_size": "50-125"
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 63
+      },
+      "article_prefix_md_unverified": "AQ975125",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/pipe-cutter-50-125-114",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "pipe-cutter-50-125-114",
+      "title_en": "Pipe Cutter 50–125 (1¼)",
+      "title_de": "Rohrschneider 50–125 (1¼)",
+      "url": "/de/produkte/werkzeuge/pipe-cutter-50-125-114",
+      "module": "kaqua-pipe-cutter-50-125-114",
+      "article_codes_md": [
+        "AQ974"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-pipe-cutter-50-125-114-2026-06-20-05_50_56.pdf",
+      "md_file": "docs Unterseiten/tools/pipe-cutter-50-125-114.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 4,
+        "ref_size": "50-125"
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 64
+      },
+      "article_prefix_md_unverified": "AQ974",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "valves/adjustable-battery-female-thread",
+      "category": "valves",
+      "category_de": "Armaturen",
+      "slug": "adjustable-battery-female-thread",
+      "title_en": "Adjustable Battery (Female Thread)",
+      "title_de": "Wandbatterie IG verstellbar",
+      "url": "/de/produkte/armaturen/adjustable-battery-female-thread",
+      "module": "kaqua-adjustable-battery-female-thread",
+      "article_codes_md": [
+        "AQ64ARCG20",
+        "AQ64ARCG25"
+      ],
+      "source_screenshot": "Valves K-Aqua/screencapture-project-301-webtm-ru-valves-adjustable-battery-female-thread-2026-06-22-20_36_44.png",
+      "md_file": "docs Unterseiten/valves/adjustable-battery-female-thread.md",
+      "sizes_md": 2,
+      "sizes_source_ocr": 1,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "battery",
+        "complexity": 4,
+        "ref_size": 20
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 65
+      },
+      "article_prefix_md_unverified": "AQ64ARCG2",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/hand-welding-machine-20-32",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "hand-welding-machine-20-32",
+      "title_en": "Hand Welding Machine 20–32 (Complete Set)",
+      "title_de": "Handschweißgerät 20–32 komplett",
+      "url": "/de/produkte/werkzeuge/hand-welding-machine-20-32",
+      "module": "kaqua-hand-welding-machine-20-32",
+      "article_codes_md": [
+        "AQ98032"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-hand-welding-machine-20-32-complete-set-2026-06-20-05_51_25.pdf",
+      "md_file": "docs Unterseiten/tools/hand-welding-machine-20-32.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 5,
+        "ref_size": "20-32"
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 66
+      },
+      "article_prefix_md_unverified": "AQ98032",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "tools/hand-welding-machine-20-63",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "hand-welding-machine-20-63",
+      "title_en": "Hand Welding Machine 20–63 (Complete Set)",
+      "title_de": "Handschweißgerät 20–63 komplett",
+      "url": "/de/produkte/werkzeuge/hand-welding-machine-20-63",
+      "module": "kaqua-hand-welding-machine-20-63",
+      "article_codes_md": [
+        "AQ98063"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-hand-welding-machine-20-63-complete-set-2026-06-20-05_51_04.pdf",
+      "md_file": "docs Unterseiten/tools/hand-welding-machine-20-63.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 5,
+        "ref_size": "20-63"
+      },
+      "build": {
+        "tier": 4,
+        "status": "offen",
+        "order": 67
+      },
+      "article_prefix_md_unverified": "AQ98063",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "tools/hand-welding-machine-mirror-50-125",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "hand-welding-machine-mirror-50-125",
+      "title_en": "Hand Welding Machine (Only Mirror) 50–125",
+      "title_de": "Heizspiegel 50–125",
+      "url": "/de/produkte/werkzeuge/hand-welding-machine-mirror-50-125",
+      "module": "kaqua-hand-welding-machine-mirror-50-125",
+      "article_codes_md": [
+        "AQ991125"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-hand-welding-machine-only-mirror-50-125-2026-06-20-05_51_32.pdf",
+      "md_file": "docs Unterseiten/tools/hand-welding-machine-mirror-50-125.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 3,
+        "ref_size": "50-125"
+      },
+      "build": {
+        "tier": 5,
+        "status": "offen",
+        "order": 68
+      },
+      "article_prefix_md_unverified": "AQ991125",
+      "screenshot_match": "alias"
+    },
+    {
+      "id": "tools/electrofusion-machine",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "electrofusion-machine",
+      "title_en": "Electrofusion Machine",
+      "title_de": "Elektroschweißgerät",
+      "url": "/de/produkte/werkzeuge/electrofusion-machine",
+      "module": "kaqua-electrofusion-machine",
+      "article_codes_md": [
+        "AQ990"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-electrofusion-machine-2026-06-20-05_52_27.pdf",
+      "md_file": "docs Unterseiten/tools/electrofusion-machine.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 4,
+        "ref_size": "—"
+      },
+      "build": {
+        "tier": 5,
+        "status": "offen",
+        "order": 69
+      },
+      "article_prefix_md_unverified": "AQ990",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/butt-welding-machine-90-250",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "butt-welding-machine-90-250",
+      "title_en": "Butt Welding Machine 90–250",
+      "title_de": "Stumpfschweißmaschine 90–250",
+      "url": "/de/produkte/werkzeuge/butt-welding-machine-90-250",
+      "module": "kaqua-butt-welding-machine-90-250",
+      "article_codes_md": [
+        "AQ989250"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-butt-welding-machine-90-250-2026-06-20-05_52_20.pdf",
+      "md_file": "docs Unterseiten/tools/butt-welding-machine-90-250.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 5,
+        "ref_size": "90-250"
+      },
+      "build": {
+        "tier": 5,
+        "status": "offen",
+        "order": 70
+      },
+      "article_prefix_md_unverified": "AQ989250",
+      "screenshot_match": "exakt"
+    },
+    {
+      "id": "tools/welding-machine-50-125",
+      "category": "tools",
+      "category_de": "Werkzeuge",
+      "slug": "welding-machine-50-125",
+      "title_en": "Welding Machine 50–125 (Complete Set)",
+      "title_de": "Schweißgerät 50–125 komplett",
+      "url": "/de/produkte/werkzeuge/welding-machine-50-125",
+      "module": "kaqua-welding-machine-50-125",
+      "article_codes_md": [
+        "AQ985125"
+      ],
+      "source_screenshot": "Tools K-Aqua/screencapture-project-301-webtm-ru-tools-welding-machine-50-125-complete-set-2026-06-20-05_52_14.pdf",
+      "md_file": "docs Unterseiten/tools/welding-machine-50-125.md",
+      "sizes_md": 1,
+      "sizes_source_ocr": null,
+      "sizes_source_verified": null,
+      "data_status": "pruefen",
+      "geometry": {
+        "family": "tool-machine",
+        "complexity": 5,
+        "ref_size": "50-125"
+      },
+      "build": {
+        "tier": 5,
+        "status": "offen",
+        "order": 71
+      },
+      "article_prefix_md_unverified": "AQ985125",
+      "screenshot_match": "alias"
+    }
+  ]
 }
