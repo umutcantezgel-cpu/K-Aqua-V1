@@ -1467,6 +1467,22 @@ function sweepPath(loop, path, opt = {}) {
     }
   }
 
+  /* ── Wicklung ──
+     Bis zum 23.08.2026 stand die Zuordnung hier umgekehrt, und damit
+     zeigte die Außenhaut JEDES gelofteten Körpers nach innen. Ein
+     FrontSide-Material verwirft rückseitige Dreiecke: der ausgelieferte
+     Winkel 90° wurde ohne Mantelfläche gezeichnet, man sah durch ihn
+     hindurch auf die gegenüberliegende Bohrungswand. Nur im Schnitt sah
+     er richtig aus — setSection(true) schaltet auf DoubleSide.
+
+     Gefunden über einen Maßtest, nicht über das Auge: ein Strahl von
+     außen lief durch die Außenhaut hindurch und traf erst die Bohrung.
+     Nachweis und Sichtprobe in pruefung/w4-wicklung-check.html und
+     pruefung/w4-sichtprobe-haut.html.
+
+     Merksatz: revolve und sweepPath laufen über verschiedene
+     Parameterordnungen (θ×Profil gegen Bahn×Umfang). Dieselbe
+     Indexreihenfolge ergibt dort entgegengesetzte Normalen. */
   const idx = [];
   const kMax = closedLoop ? N : N - 1;
   for (let i = 0; i < M - 1; i++) {
@@ -1474,8 +1490,8 @@ function sweepPath(loop, path, opt = {}) {
       const k2 = (k + 1) % N;
       const A = i * N + k, B = i * N + k2;
       const C = (i + 1) * N + k2, Dd = (i + 1) * N + k;
-      if (opt.flip) idx.push(A, B, C, A, C, Dd);
-      else idx.push(A, C, B, A, Dd, C);
+      if (opt.flip) idx.push(A, C, B, A, Dd, C);
+      else idx.push(A, B, C, A, C, Dd);
     }
   }
   const g = new THREE.BufferGeometry();
@@ -1626,15 +1642,35 @@ function branchJoin(opt) {
    turns Anzahl Gänge
    kind  'R'  kegeliges Außengewinde (1:16), verjüngt in +a
          'G'  zylindrisches Außengewinde
-         'Rp' zylindrisches Innengewinde (Kontur nach innen versetzt)
+         'Rp' zylindrisches Innengewinde
+
+   D ist in JEDEM Fall der NENN-AUSSENDURCHMESSER (der Flankenberg des
+   Außengewindes). Beim Innengewinde liegt der Nennmaßort damit im
+   GRUND der Kontur — die Kuppe des Innengewindes, also der engste
+   Punkt der Bohrung, liegt eine Gewindetiefe darunter bei D − 2h.
+   Nur so paaren Innen- und Außengewinde: die Kuppe des einen läuft in
+   den Grund des anderen.
+
+   ── KORREKTUR 23.08.2026, Fall 20 ──
+   Der 'Rp'-Zweig legte die Kuppe auf rMaj und den Grund auf rMaj + h.
+   Das verschob das ganze Innengewinde um eine volle Gewindetiefe nach
+   außen: der engste Punkt der Bohrung lag bei Rp 1" auf Ø33,25 statt
+   auf Ø30,29 — 2,96 mm zu weit, und ein so gebautes Innengewinde nimmt
+   das zugehörige Außengewinde nicht auf.
+
+   Unentdeckt blieb das, weil genau ein Produkt 'Rp' benutzte und dort
+   kein Maßtest das Gewinde abgetastet hat. Fall 20 in Worten: kommt ein
+   Katalogmaß aus einer Core-Funktion, muss mindestens ein Produkt es
+   ABTASTEN. Die Metallverschraubungen tun das jetzt über 'kern'.
 
    Rückgabe: Punktliste [{ a, r, fillet }] ab a = 0 in +a-Richtung, zum
    Einsetzen in eine größere Profilkontur.
 
-   Beispiel — Rp½" Innengewinde, 5 Gänge, ab a = 12:
-     const inner = [{ a: 0, r: 9.7, fillet: 0.4 },
-       ...threadProfile(20.96, 1.814, 5, 'Rp').map(p => ({ ...p, a: p.a + 12 })),
-       { a: 24, r: 9.7, fillet: 0.4 }];                                     */
+   Beispiel — Rp½" Innengewinde, 5 Gänge, ab a = 12. Die umgebende
+   Bohrung liegt auf dem Kerndurchmesser 20,955 − 2·1,162 = 18,63:
+     const inner = [{ a: 0, r: 9.32, fillet: 0.4 },
+       ...threadProfile(20.955, 1.814, 5, 'Rp').map(p => ({ ...p, a: p.a + 12 })),
+       { a: 24, r: 9.32, fillet: 0.4 }];                                    */
 function threadProfile(D, pitch, turns, kind = 'R') {
   const h = 0.640327 * pitch;            // Whitworth-Gewindetiefe
   const rd = Math.max(0.3, 0.137 * pitch); // Kuppen-/Grundradius
@@ -1654,8 +1690,12 @@ function threadProfile(D, pitch, turns, kind = 'R') {
   for (let i = 0; i <= turns; i++) {
     const a0 = i * pitch;
     const shrink = taper * a0;
-    const crest = (female ? rMaj - setback : rMaj - shrink + setback);
-    const root = (female ? rMaj + h : rMaj - shrink - h);
+    /* Kuppe: der Fillet zieht sie um setback vom Kontrollpunkt WEG vom
+       Material, deshalb liegt der Kontrollpunkt um setback davor. Beim
+       Innengewinde zeigt die Kuppe zur Achse und sitzt auf dem KERN
+       (rMaj − h), der Grund auf dem Nennmaß rMaj. */
+    const crest = (female ? rMaj - h - setback : rMaj - shrink + setback);
+    const root = (female ? rMaj : rMaj - shrink - h);
     out.push({ a: a0, r: crest, fillet: rd });
     if (i < turns) out.push({ a: a0 + pitch * 0.5, r: root, fillet: rd });
   }
@@ -1810,24 +1850,40 @@ function fusionDepth(dNom) {
 }
 
 /* ── bendPath: Gerade – Bogen – Gerade ──
-   Die Bahn eines Rohrbogens oder Winkels. Beide Schenkel messen L von
-   der Achsenschnittstelle bis zur Stirnfläche; der Bogen hat Radius R.
+   Die Bahn eines Rohrbogens oder Winkels. Schenkel A misst L von der
+   Achsenschnittstelle bis zur Stirnfläche, Schenkel B misst LB; der
+   Bogen hat Radius R.
 
-   Der Bogen frisst von jedem Schenkel R·tan(angle/2) — bei 90° also R.
-   Ist L kleiner als das, passt kein Bogen dieses Radius hinein und die
-   Funktion bricht ab, statt eine Bahn mit negativer Gerade zu liefern.
+   LB ist neu (23.08.2026, Welle 4.2). Bis dahin nahm die Funktion EIN
+   Schenkelmaß für beide Seiten — das trägt jeden Winkel, dessen Enden
+   gleich sind, aber nicht den Gewindewinkel: dort ist der Muffenschenkel
+   `l` und der Gewindeschenkel `L1` verschieden lang (28 gegen 34 bei
+   d20). Ohne LB weggelassen bleibt das Verhalten Zeichen für Zeichen das
+   alte, damit die zehn bestehenden Winkel- und Bogenprodukte unverändert
+   bauen.
+
+   Der Bogen frisst von JEDEM Schenkel R·tan(angle/2) — bei 90° also R.
+   Ist einer der beiden kleiner als das, passt kein Bogen dieses Radius
+   hinein und die Funktion bricht ab, statt eine Bahn mit negativer
+   Gerade zu liefern. Geprüft werden beide, nicht nur der erste: sonst
+   käme der kürzere Schenkel unbemerkt durch.
 
    Rückgabe [{ c, t }] wie arcPath, verwendbar in sweepPath.
 
    Beispiel — Winkel 90° d32, Schenkel 37 mm, Bogenradius 16:
      const p = bendPath(37, 90, 16, 20);
-     const aussen = sweepPath(circleLoop(22, SEG_VIS), p);                  */
-function bendPath(L, angleDeg, R, arcSegs = 20, legSegs = 4) {
+     const aussen = sweepPath(circleLoop(22, SEG_VIS), p);
+
+   Beispiel — ungleiche Schenkel, Muffe 28 mm, Gewindeseite 34 mm:
+     const p = bendPath(28, 90, 10, 24, 5, 34);                             */
+function bendPath(L, angleDeg, R, arcSegs = 20, legSegs = 4, LB = L) {
   const ang = angleDeg * D2R;
   const setback = R * Math.tan(ang / 2);
-  if (setback >= L - 0.5) {
-    throw new Error('K-Aqua bendPath: Bogenradius ' + R + ' braucht ' +
-      setback.toFixed(1) + ' mm Schenkel, vorhanden ' + L + ' mm');
+  for (const [name, len] of [['A', L], ['B', LB]]) {
+    if (setback >= len - 0.5) {
+      throw new Error('K-Aqua bendPath: Bogenradius ' + R + ' braucht ' +
+        setback.toFixed(1) + ' mm, Schenkel ' + name + ' hat ' + len + ' mm');
+    }
   }
 
   /* Achsensystem. angleDeg ist der ABLENKWINKEL: die Fließrichtung tritt
@@ -1845,7 +1901,7 @@ function bendPath(L, angleDeg, R, arcSegs = 20, legSegs = 4) {
   const faceA = dirA.clone().multiplyScalar(L);
   const startArc = dirA.clone().multiplyScalar(setback);
   const endArc = dirB.clone().multiplyScalar(setback);
-  const faceB = dirB.clone().multiplyScalar(L);
+  const faceB = dirB.clone().multiplyScalar(LB);
 
   /* Bogenmittelpunkt: auf der Winkelhalbierenden von dirA und dirB, im
      Abstand R/cos(angleDeg/2). Die Halbierende zeigt bereits zur
@@ -3441,6 +3497,7 @@ function download(blob, filename) {
 }
 
 
+
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
 
@@ -3736,6 +3793,7 @@ const product = {
 };
 
 mount(product);
+
 </script>
 </body>
 </html>

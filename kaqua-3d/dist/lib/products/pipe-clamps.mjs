@@ -4,8 +4,105 @@
 
 import * as THREE from 'three';
 import {
-  D2R, SEG_INT, SEG_VIS, buildProfile, capFromProfile, createAssembly, hexPrism, materials, mergeGeometries, plateWithHoles, polygonCap, revolve, roundedPad,
+  D2R, SEG_INT, SEG_VIS, buildProfile, capFromProfile, createAssembly, hexPrism, materials, mergeGeometries, plateWithHoles, polygonCap, revolve, roundedPad, tubeLayers,
 } from '../kaqua-3d-core.mjs';
+
+/* == _pipe/params.js =================================================== */
+/* K-Aqua Rohrfamilie — Parametrik.
+
+   Gemeinsam für alle zwölf Rohre. D, Di und S stehen in der Tabelle;
+   gerechnet wird nur die Darstellungslänge.
+
+   Warum ein Familienmodul: params.js und parts.js waren bei allen zwölf
+   Rohren wörtlich identisch. Ab dem dritten Rohr ist die Duplizierung
+   nicht mehr zu rechtfertigen — der Produktvertrag erlaubt geteilte
+   Fachlogik ausdrücklich. Produktspezifisch bleibt nur data.js. */
+
+export function pipeParams(article, opt) {
+  const a = article;
+  const P = Object.assign({}, a);
+
+  P.sdr = opt.sdr;
+  P.stockLength = opt.stockLength ?? 4;
+  P.rOut = a.d / 2;
+  P.rIn = a.di / 2;
+  P.wall = a.s;
+
+  /* ASSUMPTION: Darstellungslänge. Geliefert werden 4-m-Stangen; in der
+     Länge ist das Rohr im Viewer ein Strich. Gezeigt wird ein Abschnitt
+     von 6·D, mindestens 140 mm — lang genug, dass die Silhouette als
+     Rohr lesbar bleibt, kurz genug für die Schnittkante. Die
+     Lieferlänge steht in der Metaleiste und im Hotspot. */
+  P.len = Math.max(140, 6 * a.d);
+  P.xEnd = P.len / 2;
+
+  /* Transkriptionsprobe: D − 2·S muss Di ergeben. Weicht es ab, stimmt
+     eine abgelesene Zahl nicht — dann lieber abbrechen als ein falsches
+     Rohr modellieren. Genau diese Probe hat beim Ablesen einen Fehler
+     gefunden. */
+  const check = a.d - 2 * a.s;
+  if (Math.abs(check - a.di) > 0.25) {
+    throw new Error('K-Aqua Rohr d' + a.d + ': D − 2·S = ' + check.toFixed(1) +
+      ' passt nicht zu Di = ' + a.di + ' — Tabellenwert prüfen');
+  }
+
+  /* Wandstärke: die 3-mm-Restwandregel gilt für Fittings (Wand über
+     einer Bohrung), nicht für Rohre — dort bestimmt die SDR-Reihe die
+     Wand, und d20 bei SDR 7,4 hat legitim 2,8 mm.
+
+     Geprüft wird deshalb zeilenweise gegen D/S, nicht gegen den
+     Reihennennwert des Produkts: K-FiberClima SDR 11 und K-Fiber PP-R
+     SDR 11 führen bei d20 und d25 SDR-7,4-Maße (in der Quelle mit
+     Sternchen markiert). Eine Prüfung gegen den Nennwert würde diese
+     beiden Rohre zu Recht abweisen. */
+  P.sdrIst = Math.round((a.d / a.s) * 100) / 100;
+  P.sdrAbweichend = P.sdrIst < opt.sdr - 0.5;
+  if (a.s < 1.5) {
+    throw new Error('K-Aqua Rohr d' + a.d + ': Wand ' + a.s + ' mm unplausibel');
+  }
+  return P;
+}
+
+
+/* == _pipe/parts.js ==================================================== */
+/* K-Aqua Rohrfamilie — Kontur.
+
+   Mehrschichtrohr über tubeLayers(): jede Lage ein eigener Ring mit
+   eigener Schnittfläche. Ein monolithisches PP-R-Rohr hat eine Lage,
+   die Faserrohre drei, die UV-Rohre vier. Sonst ändert sich nichts.
+
+   Dazu die Längsstreifen als Coextrusionsspur: ein Kreisbogen-
+   Ausschnitt der Mantelfläche, minimal aufgesetzt, an den Rändern
+   verlaufend — beim Coextrudieren fließt die Farbspur in die
+   Mantelfläche ein, sie sitzt nicht als Leiste darauf. */
+
+
+export function buildTube(P, layers) {
+  return tubeLayers(P.d, P.wall, layers, { length: P.len, x0: -P.xEnd });
+}
+
+export function buildStripe(P, stripe) {
+  const rise = 0.25;
+  const half = (stripe.widthDeg / 2) * D2R;
+  const c = (stripe.angleDeg || 0) * D2R;
+  const n = 16;
+  const thetas = [];
+  for (let i = 0; i <= n; i++) thetas.push(c - half + (2 * half * i) / n);
+
+  const profile = buildProfile([
+    { a: -P.xEnd, r: P.rOut, fillet: 0 },
+    { a: -P.xEnd, r: P.rOut + rise, chamfer: 0.2 },
+    { a: P.xEnd, r: P.rOut + rise, chamfer: 0.2 },
+    { a: P.xEnd, r: P.rOut, fillet: 0 },
+  ], { segs: 2 });
+
+  const mod = (th) => {
+    const u = Math.abs((th - c) / half);
+    return u >= 1 ? -rise : -rise * (1 - Math.pow(Math.min(1, u), 6));
+  };
+  return { geo: revolve(profile, { axis: 'x', thetas, mod }), cap: null, profile };
+}
+
 
 /* == pipe-clamps/data.js =============================================== */
 /* K-Aqua Rohrschelle — Artikeltabelle.

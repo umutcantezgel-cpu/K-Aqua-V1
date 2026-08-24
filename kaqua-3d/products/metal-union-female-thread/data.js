@@ -1,12 +1,13 @@
 /* K-Aqua Metallverschraubung mit PP-R-Mutter (Innengewinde) — Artikeltabelle.
 
-   PHASE 1, verifiziert am 20.08.2026 gegen
+   PHASE 1, verifiziert am 20.08.2026, Gestalt korrigiert am 23.08.2026
+   gegen
    Transition Fittings K-Aqua/screencapture-…-metal-union-with-pp-r-nut-female-thread-….png
    (quellen/w3-metal-union-fem.png).
 
    Spaltenköpfe wie abgebildet:
      Code · d · Rp · DN · G · L · l · l1 · SW · SW1 · Pack.
-   6 Größen, d20 bis d63. Vollständig bemaßt.
+   6 Größen, d20 bis d63. Nach der letzten Zeile folgt der ORDER-Knopf.
 
    MASSSCHLÜSSEL:
      d    Rohr-Außendurchmesser = Muffenbohrung der PP-R-Seite
@@ -14,104 +15,94 @@
      DN   Nennweite des Gewindeanschlusses, informativ
      G    Gewinde der Überwurfmutter, in Zoll
      L    Gesamtlänge
-     l    Länge des vorderen Abschnitts
-     l1   Länge des hinteren Abschnitts
-     SW   größere Schlüsselweite
-     SW1  kleinere Schlüsselweite
+     l    Länge des PP-R-Teils bis zur Dichtfläche
+     l1   Länge des Gewindekörpers ab der Dichtfläche
+     SW   Schlüsselweite der Überwurfmutter
+     SW1  Schlüsselweite des Gewindekörpers
 
-   ── DREI GEGENPROBEN ──
+   ── KORREKTUR VOM 23.08.2026: SW IST DOCH AUFLÖSBAR ──
 
-   1 · Die Spalte G ist IDENTISCH mit der G-Spalte der PP-R-Verschraubung
-       (products/union/data.js): 1 · 1¼ · 1½ · 2 · 2¼ · 2¾. Beide
-       Produkte tragen dieselbe Überwurfmutter — die Metallvariante
-       ersetzt nur den Stutzen durch ein Messingteil mit Innengewinde.
-       Zwei unabhängig abgelesene Tabellen bestätigen sich gegenseitig.
+   Der frühere Stand führte hier:
+
+     „Was SW bezeichnet, ist nicht auflösbar. […] SW wird deshalb NICHT
+      modelliert und erscheint nur in der Fallback-Tabelle."
+
+   und setzte das Produkt auf status 'prototyp'.
+
+   Die Maßzeichnung liegt auf der Produktseite, unter dem Foto, als
+   zweite Miniatur (Ausschnitt quellen/w5-zeichnung-fem.png). Sie führt
+   SW an den linken Sechskant und SW1 an den rechten. SW ist die
+   Schlüsselweite der Überwurfmutter.
+
+   Die Fotoableitung, die SW ausgeschlossen hatte, setzte voraus, dass
+   das Katalogfoto d32 zeigt — eine Annahme, die derselbe Absatz als
+   offene Frage führte. Die Silhouettenvermessung beantwortet sie:
+
+     gemessen  Länge 557 px, größte Höhe 514 px  →  L/B = 1,08
+     d20   L 38, SW 38 über Fläche … 43,9 über Ecke   →  L/B 0,87…1,00  ✓
+     d25   L 43, SW 48 …………………… 55,4              →  L/B 0,78…0,90  ✗
+     d32   L 48, SW 54 …………………… 62,4              →  L/B 0,77…0,89  ✗
+     d63   L 63, SW 107 ………………… 123,6             →  L/B 0,51…0,59  ✗
+
+   Nur d20 trägt die Messung. Beim Außengewindefoto ergibt dieselbe
+   Auswertung dasselbe Ergebnis (L/B 1,30; nur d20 liegt im Bereich).
+   Beide Katalogfotos zeigen die kleinste Größe.
+
+   Damit kehrt sich die alte Rechnung um: bei d20 ist SW = 38 genau die
+   Breite, die das Foto zeigt. Der Sechskant ist da, und er ist der
+   breiteste Punkt des Teils.
+
+   Rangfolge nach Fall 31: Tabellenmaß (Rang 1) und Zeichnung (Rang 2)
+   stehen über der Fotoableitung (Rang 3). Alle drei sagen jetzt
+   dasselbe.
+
+   ── VIER GEGENPROBEN ──
+
+   1 · l ist mit der Außengewindevariante Zeile für Zeile IDENTISCH:
+       19 · 22 · 23 · 26 · 29 · 32. SW und SW1 ebenso. Die beiden
+       Produkte unterscheiden sich nur in L und l1 — also nur im
+       Gewindekörper.
 
    2 · l + l1 gegen L, über alle Zeilen und mit Vorzeichen (Fall 28):
-         d20  19+16 = 35  L 38  → −3
-         d25  22+18 = 40  L 43  → −3
-         d32  23+23 = 46  L 48  → −2
-         d40  26+26 = 52  L 55  → −3
-         d50  29+26 = 55  L 58  → −3
-         d63  32+28 = 60  L 63  → −3
-       Durchgehend negativ, fast konstant −3 mm. Es fehlt ein Stück, es
-       überlappt nichts — dasselbe Muster wie bei der PP-R-Verschraubung,
-       wo diese Lücke der freiliegende Bundring ist.
+         d20  19+16 = 35  L 38  → −3      d40  26+26 = 52  L 55  → −3
+         d25  22+18 = 40  L 43  → −3      d50  29+26 = 55  L 58  → −3
+         d32  23+23 = 46  L 48  → −2      d63  32+28 = 60  L 63  → −3
+       Durchgehend negativ. Die Lücke ist die Flachdichtung zwischen
+       PP-R-Bund und Metallkörper — 2 bis 3 mm, genau die Dicke, die
+       20-VISUELLE-REFERENZ §4.1 für Flachdichtungen nennt.
 
-   3 · SW > SW1 in jeder Zeile ✓, beide monoton steigend ✓.
+   3 · SW > SW1 in jeder Zeile, beide monoton steigend.
        SW/d = 1,90 · 1,92 · 1,69 · 1,83 · 1,70 · 1,70 — kein glatter
        Faktor, also tabellierte Werte und keine Rechenreihe.
 
-   ── DIE SPALTE SW WIRD NICHT MODELLIERT ──
-   Werte: 38 · 48 · 54 · 73 · 85 · 107.
+   4 · l minus Schweißtiefe DVS 2207-11 ist über alle Größen konstant:
+       4,5 · 6,0 · 5,0 · 5,5 · 5,5 · 4,5 mm — der Hals mit dem
+       Dichtbund, auf dem die Mutter sitzt.
 
-   Der erste Entwurf setzte SW als Schlüsselweite eines zweiten
-   Sechskants an der Mutter. Der Vergleichstest gegen das Katalogfoto
-   hat das widerlegt — und zwar eindeutig.
+   ── DIE SPALTE G WIRD NICHT MODELLIERT ──
+   Werte 1 · 1 1/4 · 1 1/2 · 2 · 2 1/4 · 2 3/4 Zoll.
 
-   Spaltenweise Auswertung von quellen/w3-metal-union-fem.png
-   (Bereich x150–1550, y1700–2600):
+   G ist das Kupplungsgewinde zwischen Mutter und Körper, liegt
+   vollständig im Inneren der Mutter und bildet keine Silhouette.
+   products/union führt dieselbe Spalte ebenso mit, ohne sie zu
+   modellieren.
 
-     Bauteil x 335…745            → Länge 410 px
-     größte Höhe 385 px bei x≈555 → Breite/Länge = 0,94
-     Grünanteil x 340–410 zu über 90 % grün, ab x 460 zu 0 %
-                                  → grüne Muffe etwa 30 % der Länge
+   Diese Seite druckt bei d25 als einzige der vier Metallverschraubungs-
+   seiten 1 1/4"; die drei anderen drucken 1 3/4". 1 1/4" ist richtig:
+   G 1 3/4" hat 53,74 mm Außendurchmesser und passt nicht in eine
+   Mutter mit Schlüsselweite 48. Beleg und Rechnung im Kopfkommentar
+   von metal-union-male-thread/data.js.
 
-   Das Foto ist schräg aufgenommen (die elliptische Stirnfläche der
-   Muffe ist sichtbar), die Länge also verkürzt. Der wahre Aspekt
-   Länge/Breite liegt damit bei mindestens 1,07 — das Teil ist länger
-   als breit.
+   ── ARTIKELNUMMERN ──
+   Die Registry führt fünf Nummern der Reihe AQ71RPxx aus der
+   Markdown-Datei. Der Screenshot zeigt sechs der Reihe AQ542xx. Maße
+   und Nummern kommen aus dem Screenshot (Regel 3).
 
-   Bei d32 mit L = 48 folgt daraus eine Maximalbreite von etwa 45 mm.
+   ASSUMPTION Muffentiefe: Normreihe DVS 2207-11, gestützt durch
+   Gegenprobe 4. */
 
-     SW = 54 über Fläche  → 62,3 mm über Ecke   ✗ ausgeschlossen
-     SW1 = 37 über Fläche → 42,7 mm über Ecke   ✓ passt
-
-   42,7 mm liegt knapp unter dem Muffendurchmesser von 44 mm, und im
-   Foto sind grüne Muffe und Metallteil tatsächlich ähnlich breit. SW1
-   ist damit die Schlüsselweite des einen sichtbaren Sechskants.
-
-   Was SW bezeichnet, ist nicht auflösbar. Geprüfte Verhältnisse:
-
-     SW/d      1,90 · 1,92 · 1,69 · 1,83 · 1,70 · 1,70
-     SW/SW1    1,46 · 1,50 · 1,46 · 1,55 · 1,55 · 1,67
-     SW/L      1,00 · 1,12 · 1,13 · 1,33 · 1,47 · 1,70
-     SW gegen D der Verschraubung (products/union):
-               38/46 · 48/56 · 54/66 · 73/79 · 85/87 · 107/107
-               — nähert sich an, deckt sich aber nur bei d63
-
-   Keine dieser Reihen ergibt einen Bezug zu einer Kante DIESES Teils.
-   Denkbar ist ein Maß der zugehörigen PP-R-Mutter, die als
-   Einzelartikel geführt wird — dann gehört SW nicht auf dieses Teil.
-
-   SW wird deshalb NICHT modelliert und erscheint nur in der
-   Fallback-Tabelle. Ein geratener Bezugspunkt wäre schlechter als eine
-   benannte Lücke (Fall 29).
-
-   ── STATUS: PROTOTYP ──
-   Solange SW ungeklärt ist, bleibt die Gestalt des Metallteils eine
-   Fotoableitung. Das Produkt trägt deshalb status 'prototyp' in der
-   Registry — der Export liefert es sichtbar als vorläufig aus.
-   Zu klären: was bezeichnet SW, und welcher Größe entspricht das
-   Katalogfoto?
-
-   ASSUMPTION Muffentiefe: Normreihe DVS 2207-11, nicht aus l oder l1.
-   Begründung wie bei Winkel und T-Stück (products/tee/data.js): ein
-   Schweißwerkzeug je Nennweite für alle Fittings. */
-
-export const DATA_STATUS = 'tabelle-verifiziert-gestalt-prototyp';
+export const DATA_STATUS = 'tabelle-verifiziert-zeichnung-gelesen';
 export const SIZES_SOURCE_VERIFIED = 6;
-export const SDR = 6;
-
-/* Rp-Innengewinde nach ISO 228-1, zylindrisch. */
-export const THREAD = {
-  '1/2': { od: 20.955, pitch: 1.814 },
-  '3/4': { od: 26.441, pitch: 1.814 },
-  '1': { od: 33.249, pitch: 2.309 },
-  '1 1/4': { od: 41.910, pitch: 2.309 },
-  '1 1/2': { od: 47.803, pitch: 2.309 },
-  '2': { od: 59.614, pitch: 2.309 },
-};
 
 export const ARTICLES = [
   { code: 'AQ54220', d: 20, Rp: '1/2', dn: 15, G: '1', L: 38, l: 19, l1: 16, SW: 38, SW1: 26, pack: 100 },
@@ -127,12 +118,13 @@ export const SIZES = ARTICLES.map((a) => a.d);
 export const DIMENSION_KEY = {
   d: 'Nennmaß',
   Rp: 'Innengewinde',
-  G: 'Muttergewinde',
+  dn: 'Nennweite',
+  G: 'Muttergewinde (nicht modelliert)',
   L: 'Gesamtlänge',
-  l: 'Länge vorderer Abschnitt',
-  l1: 'Länge hinterer Abschnitt',
-  SW: 'Schlüsselweite (nicht auflösbar, nicht modelliert)',
-  SW1: 'Schlüsselweite Sechskant',
+  l: 'Länge PP-R-Teil',
+  l1: 'Länge Gewindekörper',
+  SW: 'Schlüsselweite Mutter',
+  SW1: 'Schlüsselweite Körper',
 };
 
 export function article(d) {

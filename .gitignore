@@ -137,3 +137,8 @@ messages/*_part*.json
 # Arbeitsstände und gehören nicht in die Versionierung.
 /kaqua-3d [0-9]/
 /kaqua-3d [0-9][0-9]/
+
+# Zwischenstände des inkrementellen 3D-Baus. Werden aus core/ und products/
+# erzeugt (node kaqua-3d/build/incremental.mjs cache) und tragen einen
+# Längenstempel; im Repo wären sie nur ein zweiter, stiller Stand.
+/kaqua-3d/build/cache/

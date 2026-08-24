@@ -10,6 +10,7 @@
    AUFRUF
      node build/incremental.mjs cache          Caches erneuern (nach Quelländerung)
      node build/incremental.mjs product <slug> ein Einzelviewer
+     node build/incremental.mjs products      alle Einzelviewer
      node build/incremental.mjs gallery        Galerieseite
      node build/incremental.mjs lib            ES-Module für die Integration
      node build/incremental.mjs all            alles, in richtiger Reihenfolge
@@ -53,11 +54,26 @@ const FAMILY = {
   pipe: ['_pipe/params.js', '_pipe/parts.js'],
   bend: ['_bend/params.js', '_bend/parts.js'],
   tee:  ['_tee/params.js', '_tee/parts.js'],
+  /* Die Gewinde-T-Stücke tragen den Durchgang des einfachen T-Stücks —
+     deshalb _tee/parts.js, aber NICHT _tee/params.js: ihre Parametrik
+     rechnet den Gewindeabzweig und steht in _teethread/params.js. */
+  teethread: ['_tee/parts.js', '_teethread/params.js', '_teethread/parts.js',
+    '_teethread/assembly.js'],
+  union: ['_union/params.js', '_union/parts.js', '_union/assembly.js'],
 };
 function familyFor(slug) {
   if (/^elbow-\d/.test(slug)) return FAMILY.bend;
+  if (/^tee-\d+-(?:fe)?male-thread$/.test(slug)) return FAMILY.teethread;
+  if (/^metal-union-/.test(slug)) return FAMILY.union;
   if (slug === 'tee' || /reducing-tee/.test(slug)) return FAMILY.tee;
   if (slug === 'cross') return [];            // baut eigene Arme
+  /* Die einzige Anleihe QUER durch den Katalog, keine Familie: die
+     Dichtung für Verschraubungen teilt die Kontur der einfachen
+     Flachdichtung. Ihre parts.js ist nur eine Re-Export-Hülle, und
+     Hüllen strippt der Bau weg — ohne diese Zeile fehlt buildGasket
+     im Bundle. build/browser-build.mjs führt die Regel seit jeher;
+     hier fehlte sie, und das fiel erst beim Nachbau 24.08.2026 auf. */
+  if (slug === 'flat-gasket-for-unions') return ['flat-gasket/parts.js'];
   if (/pipe/.test(slug)) return FAMILY.pipe;
   return [];
 }
@@ -368,6 +384,9 @@ try {
     case 'product':
       if (!arg) throw new Error('Slug fehlt: node build/incremental.mjs product <slug>');
       buildProduct(arg); break;
+    /* Alle Einzelseiten in einem Aufruf. dist/INTEGRATION.md nennt dieses
+       Kommando seit jeher, es fehlte hier — ergänzt 24.08.2026. */
+    case 'products': allSlugs().forEach(buildProduct); break;
     case 'gallery': buildGallery(); break;
     case 'lib':     buildLib(); break;
     case 'all':
@@ -378,7 +397,7 @@ try {
       buildGallery();
       break;
     default:
-      console.log('cache | check | product <slug> | gallery | lib | all');
+      console.log('cache | check | product <slug> | products | gallery | lib | all');
       process.exit(1);
   }
 } catch (e) {

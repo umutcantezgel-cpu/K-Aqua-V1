@@ -4,11 +4,14 @@ Anleitung zum Einbau der K-Aqua 3D-Modelle in die bestehende Website.
 Geschrieben für eine externe KI oder Entwicklerin, die dieses Verzeichnis
 bekommt und sonst nichts über das Projekt weiß.
 
-**Stand 20. August 2026 — 28 von 71 Produkten als Modell** (27 fertig, 1 Prototyp).
+**Stand 24. August 2026 — 34 von 71 Produkten als Modell**, davon 0 Prototypen.
 Selbsttest: `dist/lib-selbsttest.html`. Er lädt jedes Modul, baut die
-Referenzgröße und vermisst sie. Zuletzt: **28/28 geladen, größte Abweichung
-0,18 mm**, 618 124 Dreiecke, keine Auffälligkeiten. Der Test ist nicht Zierde — er hat bei den
-Winkeln zwei Vorzeichenfehler in der Bahnberechnung gefunden.
+Referenzgröße und vermisst sie. Zuletzt: **34/34 geladen, größte Abweichung
+0,20 mm**, keine Auffälligkeiten. Der Test ist nicht Zierde — er hat bei den
+Winkeln zwei Vorzeichenfehler in der Bahnberechnung gefunden, und der Maßtest
+des Gewindewinkels hat gefunden, dass `sweepPath` die Außenhaut nach innen
+wickelte: der ausgelieferte Winkel 90° wurde ohne Mantelfläche gezeichnet.
+Behoben, Nachweis in `pruefung/w4-wicklung-check.html`.
 
 Zusätzlich: `dist/export.html` erzeugt Standbilder, GLB und OBJ für jedes
 Produkt und packt sie als ZIP. Läuft im Browser, ohne Server.
@@ -17,7 +20,7 @@ Produkt und packt sie als ZIP. Läuft im Browser, ohne Server.
 
 ## 0 · Der kürzeste Weg
 
-**`EINBAU.md`** im selben Ordner ist die Kurzfassung: die Liste der 27
+**`EINBAU.md`** im selben Ordner ist die Kurzfassung: die Liste der 34
 Modelle, drei Schritte zum Einbau, die eine nicht verhandelbare Regel.
 Für den reinen Einbau genügt sie.
 
@@ -41,9 +44,9 @@ dist/
 │   ├── kaqua-3d-core.mjs             Core (Geometrie, Material, Viewer, Export)
 │   ├── stage.js                      Web-Component <three-d-stage>, klassisches Skript
 │   ├── registry.mjs / .json          Produktliste
-│   └── products/<slug>.mjs           15 Produktmodule, je ein default-Export
+│   └── products/<slug>.mjs           34 Produktmodule, je ein default-Export
 │
-├── kaqua-<modul>.html                28 fertige Einzelseiten, offline lauffähig
+├── kaqua-<modul>.html                34 fertige Einzelseiten, offline lauffähig
 ├── kaqua-3d-galerie.html             alle 71 Produkte auf einer Seite
 ├── export.html                       Standbilder · GLB · OBJ als ZIP
 └── lib-selbsttest.html               Prüfblatt, siehe oben
@@ -289,7 +292,7 @@ Abschnitt 4: jedes geladene iframe ist ein eigener WebGL-Kontext.
 
 ## 7 · Übersichtsseite
 
-`kaqua-3d-galerie.html` zeigt alle 71 Produkte, davon 15 mit Modell.
+`kaqua-3d-galerie.html` zeigt alle 71 Produkte, davon 34 mit Modell.
 Kategoriefilter, Freitextsuche über Titel und Artikelnummer, Raster- und
 Listenansicht, Zustand in der URL (`?kategorie=pipes&q=fiber&produkt=…`).
 
@@ -339,7 +342,7 @@ Materialnamen im Export sind die Schlüssel der Materialregistry
 category }`. Die vollständige Liste mit Familie, Artikelnummern und Baustatus
 über alle 71 Produkte steht in `gallery/registry.js`.
 
-Die 28 vorhandenen Modelle:
+Die 34 vorhandenen Modelle:
 
 | Produkt-ID | Titel | Größen |
 |---|---|---|
@@ -358,7 +361,13 @@ Die 28 vorhandenen Modelle:
 | `accessories/backing-flange` | Bundflansch PP-Stahl | 11 |
 | `accessories/pipe-clamps` | Rohrschelle | 9 |
 | `transition-fittings/union` | Verschraubung | 6 |
-| `transition-fittings/metal-union-female-thread` | Metallverschraubung mit PP-R-Mutter (Innengewinde) | 6 — **Prototyp** |
+| `transition-fittings/metal-union-female-thread` | Metallverschraubung mit PP-R-Mutter (Innengewinde) | 6 |
+| `transition-fittings/metal-union-female-thread-brass` | Metallverschraubung Innengewinde, Messing | 6 |
+| `transition-fittings/metal-union-male-thread` | Metallverschraubung Außengewinde | 6 |
+| `transition-fittings/metal-union-male-thread-brass` | Metallverschraubung Außengewinde, Messing | 6 |
+| `transition-fittings/tee-90-female-thread` | T-Stück 90° mit Innengewinde | 5 |
+| `transition-fittings/tee-90-male-thread` | T-Stück 90° mit Außengewinde | 4 |
+| `transition-fittings/elbow-90-male-thread` | Winkel 90° mit Außengewinde | 4 |
 | `pipes/k-pipe-pp-r-sdr-6` | K-Rohr PP-R SDR 6 | 10 |
 | `pipes/k-pipe-pp-r-sdr-11` | K-Rohr PP-R SDR 11 | 9 |
 | `pipes/k-pipe-purple-pp-r-sdr-11` | K-Rohr Violett PP-R SDR 11 | 9 |
@@ -375,12 +384,11 @@ Die 28 vorhandenen Modelle:
 Beachte die Schreibweise `sdr-7-4`, nicht `sdr-74` — sie folgt
 `produkt-registry.json`, der kanonischen Quelle.
 
-**Ein Produkt trägt `status: 'prototyp'`.** Bei der Metallverschraubung ist
-die Tabellenspalte `SW` nicht auflösbar, und sie bestimmt die Breite des
-Metallteils. Maße und Gewinde stimmen; die Gestalt des Metallteils ist eine
-Fotoableitung. Die Galerie zeigt an solchen Kacheln „Maße vorläufig",
-`registry.mjs` führt den Status mit. Begründung und die geprüften
-Verhältnisse stehen in `products/metal-union-female-thread/data.js`.
+**Kein Produkt trägt mehr `status: 'prototyp'`.** Bei der Metallverschraubung
+war die Tabellenspalte `SW` zunächst nicht auflösbar; sie ist inzwischen über
+vier Katalogseiten hinweg bestätigt. Die Galerie kennt den Prototyp-Zustand
+weiterhin und zeigt an solchen Kacheln „Maße vorläufig" — `registry.mjs` führt
+den Status mit, falls er wieder gebraucht wird.
 
 ---
 
@@ -436,9 +444,15 @@ Veröffentlichung geklärt sein sollten:
 | **Muffe d110:** `z`, `kg` und `Pack.` sind in der Quelle leer. `z = 12,0` ist aus d90 gerechnet. | `products/socket/data.js` |
 | **Vergleichstest gegen Katalogfotos** ist für Kappe und Muffe gelaufen. Für die Rohre ist er nicht durchführbar: ihre Katalogbilder sind CG-Renders, die der eigenen technischen Zeichnung widersprechen (einfarbig grün, obwohl vier Streifen gezeichnet sind). Für Winkel und T-Stück steht er aus. | `pruefung/` |
 
-Die Maße selbst sind geprüft: `app.measureAll()` über alle 15 Produkte ergibt
-maximal 0,18 mm Abweichung, und dieser Wert ist der beabsichtigte
-Formtrenngrat.
+Die Maße selbst sind geprüft: `app.measureAll()` über alle 34 Produkte ergibt
+maximal 0,20 mm Abweichung, und dieser Wert ist der beabsichtigte
+Scheitelausgleich am Gewindeprofil.
+
+Dazu ein Punkt, der die Integration nicht blockiert, aber die Modelle betrifft:
+**das neue Marketing-Bildmaterial widerspricht teils den fertigen Modellen** —
+am Winkel 90° AG zeigen die Fotos einen breiteren Körper am Gewindeschenkel und
+die Werksrender einen Sechskant, den die Maßzeichnung nicht bemaßt. Belegbilder
+in `quellen/marketing/`, Bewertung steht aus.
 
 ---
 
@@ -457,13 +471,16 @@ products/<slug>/
 Vollständige Schnittstelle: `core/PRODUKT-VERTRAG.md`.
 Kürzestes Beispiel: `products/socket/`. Reichstes: `products/ball-valve-pp/`.
 
-Danach in `gallery/registry.js` den `status` auf `'fertig'` setzen und
-neu bauen:
+Danach in **beiden** Registrys den Status setzen — `produkt-registry.json` und
+`gallery/registry.js` — und neu bauen:
 
 ```bash
-node build/bundle.mjs --all      # Standalone-HTML
-node build/bundle.mjs --lib      # ES-Module
+node build/incremental.mjs cache
+node build/incremental.mjs products
+node build/incremental.mjs lib
+node build/incremental.mjs gallery
 ```
 
-`build/browser-build.mjs` enthält dieselbe Logik für eine Browserumgebung
-ohne Node, einschließlich Galerie- und Bibliotheksbau.
+Der Bau braucht Node (geprüft mit v24). Jeden Schritt einzeln, sonst sieht
+der nächste die frisch geschriebenen Caches nicht. Nach einer Änderung im
+`core/` müssen **alle** Einzelseiten neu gebaut werden.

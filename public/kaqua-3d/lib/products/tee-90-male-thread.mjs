@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, DRAFT, ISO, SEG_FINE, SEG_INT, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile,
+  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile,
 } from '../kaqua-3d-core.mjs';
 
 /* == _tee/parts.js ===================================================== */

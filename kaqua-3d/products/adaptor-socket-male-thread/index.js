@@ -6,9 +6,9 @@
 
 import * as THREE from 'three';
 import { createAssembly } from '../../core/index.js';
-import { ARTICLES, SIZES, DIMENSION_KEY, DATA_STATUS } from './data.js';
+import { ARTICLES, DATA_STATUS, DIMENSION_KEY, SIZES } from './data.js';
 import { params } from './params.js';
-import { buildSleeve, buildBrass } from './parts.js';
+import { buildBrass, buildSleeve } from './parts.js';
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
@@ -131,8 +131,42 @@ const product = {
          oder Rücken. Die Box3 des PP-Teils erfasst immer den Rücken. */
       { key: 'D1', label: DIMENSION_KEY.D1, soll: P.D1,
         ist: () => { const b = A.boxOf(['sleeve']); return b.max.z - b.min.z; } },
-      { key: 'gewinde', label: 'Gewinde-Außendurchmesser R' + P.R + '"',
-        soll: P.threadOD, ist: () => P.threadOD },
+      /* ── Der Gewindescheitel, abgetastet ──
+         Hier stand: `soll: P.threadOD, ist: () => P.threadOD`. Das ist
+         Fall 12 in Reinform — die Messung gibt die Annahme zurück, die
+         sie prüfen soll, und meldet auf ewig 0,00 mm. Fall 20 verlangt
+         genau das Gegenteil: kommt ein Katalogmaß aus einer
+         Core-Funktion, muss mindestens ein Produkt es ABTASTEN.
+
+         Der Strahl fährt die zweite Kuppe an (die erste liegt auf der
+         Profilfuge zum Bund). Der Kegel 1:16 verjüngt sie gegenüber
+         dem Nennmaß um 2·pitch/32.
+
+         Korrigiert am 23.08.2026 zusammen mit den
+         Metallverschraubungen, die denselben Nachweis führen. */
+      { key: 'gewinde', label: 'Gewinde-Außendurchmesser R' + P.R + '" (2. Kuppe)',
+        soll: Math.round((P.threadOD - 2 * P.threadPitch / 32) * 100) / 100,
+        ist: () => {
+          const x = -P.xEnd + P.ppLen + P.collarLen + P.threadPitch;
+          const hit = A.probeAxial('brass', V3(x, 0, P.threadOD), V3(0, 0, -1));
+          return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
+        } },
+      /* GEGENPROBE: der Grund zwischen zwei Kuppen MUSS eine
+         Gewindetiefe tiefer liegen. Gleicher Wert hieße, das Gewinde
+         ist ein glatter Kegel (Fall 25). Der Grund trägt keinen
+         Scheitelausgleich, sein Fillet schiebt ihn nach außen. */
+      { key: 'gewindegrund', label: 'Gewinde-Kerndurchmesser',
+        soll: (() => {
+          const h = 0.640327 * P.threadPitch;
+          const rd = Math.max(0.3, 0.137 * P.threadPitch);
+          return Math.round((P.threadOD - 2 * (1.5 * P.threadPitch) / 32 - 2 * h
+            + 2 * rd * (1 / Math.sin(27.5 * Math.PI / 180) - 1)) * 100) / 100;
+        })(),
+        ist: () => {
+          const x = -P.xEnd + P.ppLen + P.collarLen + 1.5 * P.threadPitch;
+          const hit = A.probeAxial('brass', V3(x, 0, P.threadOD), V3(0, 0, -1));
+          return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
+        } },
       { key: 'restwand', label: 'Muffenwand', soll: P.restwand, ist: () => P.restwand },
     ];
 
