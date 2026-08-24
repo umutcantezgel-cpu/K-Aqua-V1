@@ -23,6 +23,30 @@ interface Props {
   params: Promise<{ locale: string; category: string }>;
 }
 
+/**
+ * Kategoriebild je `catKey` — das LCP-Element der Kategorieseite.
+ *
+ * Die Dateien liegen seit jeher im Repo, wurden aber von keiner Stelle
+ * referenziert: Der `MediaSlot` unten bekam `alt`, `label` und `priority`,
+ * nur kein `src`, und zeigte deshalb einen Verlauf mit Textmarke. Genau ein
+ * Bild je Kategorie, deshalb eine feste Zuordnung statt einer Ableitung aus
+ * dem Slug — `transitionFittings` und `weldInSaddles` heißen als Datei anders
+ * als als Schlüssel, und ein `weld-in-saddles.png` ohne `-profil` fiele bei
+ * jeder Namenskonstruktion durchs Raster.
+ *
+ * `fallback` bleibt bewusst ohne Eintrag: Lieber der vorhandene Platzhalter
+ * als ein willkürlich gewähltes Bild für eine unbekannte Kategorie.
+ */
+const CATEGORY_IMAGE: Record<string, string> = {
+  pipes: "/images/new-k-aqua/pipes-profil.png",
+  fittings: "/images/new-k-aqua/fittings-profil.png",
+  transitionFittings: "/images/new-k-aqua/transition-fittings-profil.png",
+  valves: "/images/new-k-aqua/valves-profil.png",
+  weldInSaddles: "/images/new-k-aqua/weld-in-saddles.png",
+  accessories: "/images/new-k-aqua/accessories-profil.png",
+  tools: "/images/new-k-aqua/tools-profil.png",
+};
+
 export const dynamicParams = true;
 
 export function generateStaticParams() {
@@ -234,10 +258,11 @@ export default async function CategoryPage({ params }: Props) {
           </div>
           
           <div className="w-full">
-            <MediaSlot 
-              alt={seoTitle} 
-              aspectRatio="4/3" 
-              label={`K-Aqua ${seoTitle}`} 
+            <MediaSlot
+              src={CATEGORY_IMAGE[catKey]}
+              alt={seoTitle}
+              aspectRatio="4/3"
+              label={`K-Aqua ${seoTitle}`}
               className="shadow-md"
               priority
             />

@@ -9,7 +9,6 @@ import { SectionHead } from "@/components/ui/SectionHead";
 import { Reveal } from "@/components/ui/Reveal";
 import { DataTable } from "@/components/ui/DataTable";
 
-import { PremiumAssetPlaceholder } from "@/components/ui/PremiumAssetPlaceholder";
 
 import { Layers, Wrench, Flame, Thermometer, Download } from "@/components/ui/icon";
 import { Shield, Activity, ArrowRight } from "lucide-react";
