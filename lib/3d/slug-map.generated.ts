@@ -20,6 +20,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "elbow-bracket-90-female-thread": "transition-fittings/elbow-bracket-90-female-thread",
   "elbow-wall-bracket-90-female-thread": "transition-fittings/elbow-wall-bracket-90-female-thread",
   "electrofusion-socket": "fittings/electrofusion-socket",
+  "flange-adaptor": "fittings/flange-adaptor",
   "flat-gasket": "accessories/flat-gasket",
   "flat-gasket-for-unions": "accessories/flat-gasket-for-unions",
   "k-fiber-pipe-pp-r-sdr-11": "pipes/k-fiber-pipe-pp-r-sdr-11",
@@ -51,7 +52,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "union": "transition-fittings/union",
 };
 
-export const GENERATED_COUNT = 43;
+export const GENERATED_COUNT = 44;
 
 /** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
 export const CATALOG_TOTAL = 71;

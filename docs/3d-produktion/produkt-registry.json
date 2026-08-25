@@ -1924,7 +1924,7 @@
       "sizes_md": 7,
       "sizes_source_ocr": 11,
       "sizes_source_verified": 11,
-      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "flange",
         "complexity": 2,
@@ -1932,7 +1932,7 @@
       },
       "build": {
         "tier": 3,
-        "status": "offen",
+        "status": "fertig",
         "order": 35
       },
       "article_prefix_md_unverified": "AQ790",
@@ -1952,8 +1952,10 @@
         "AQ79090"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-      ]
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 90 (11 Groessen, zwei Bauarten)",
+        "S. 110 Gegenflansch AQ750, Spalte D2 (belegt die Deutung von D und D1)"
+      ],
+      "hinweis": "Zwei Bauarten: 7 mit Schweissmuffe, 4 mit Spitzende (SDR 11). D und D1 bedeuten in den beiden Bloecken Verschiedenes; belegt an der Bohrung D2 des Gegenflansches, die in allen 11 Zeilen zwischen Schaft und Bund liegt."
     },
     {
       "id": "pipes/k-fiber-pipe-pp-r-sdr-17",

@@ -114,6 +114,14 @@ export const REGISTRY = [
   "category": "fittings"
  },
  {
+  "slug": "flange-adaptor",
+  "id": "fittings/flange-adaptor",
+  "module": "kaqua-flange-adaptor",
+  "titleDe": "Flanschadapter (Bundbuchse)",
+  "titleEn": "Flange adaptor",
+  "category": "fittings"
+ },
+ {
   "slug": "flat-gasket",
   "id": "accessories/flat-gasket",
   "module": "kaqua-flat-gasket",

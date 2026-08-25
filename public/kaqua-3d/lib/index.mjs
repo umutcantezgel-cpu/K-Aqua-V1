@@ -27,6 +27,7 @@ const LOADERS = {
   'transition-fittings/elbow-bracket-90-female-thread': () => import('./products/elbow-bracket-90-female-thread.mjs'),
   'transition-fittings/elbow-wall-bracket-90-female-thread': () => import('./products/elbow-wall-bracket-90-female-thread.mjs'),
   'fittings/electrofusion-socket': () => import('./products/electrofusion-socket.mjs'),
+  'fittings/flange-adaptor': () => import('./products/flange-adaptor.mjs'),
   'accessories/flat-gasket': () => import('./products/flat-gasket.mjs'),
   'accessories/flat-gasket-for-unions': () => import('./products/flat-gasket-for-unions.mjs'),
   'pipes/k-fiber-pipe-pp-r-sdr-11': () => import('./products/k-fiber-pipe-pp-r-sdr-11.mjs'),

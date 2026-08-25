@@ -21,7 +21,6 @@ export const SLUG_ALIASES: Record<string, string> = {
      selbst enthalten (10 Spitzendgroessen, Katalog S. 89). Vorher zeigte
      diese Seite die Reduziermuffe, also ein Bauteil ohne Abzweig. */
   "reducing-tee-large-sizes": "fittings/reducing-tee",
-  "flange-adaptor": "accessories/backing-flange",
   "cross-over": "fittings/elbow-90",
   "cross-over-pipe": "fittings/elbow-90",
   // „stub-end" und „cross-over-with-socket" sind hier entfallen: Beide Seiten
@@ -54,6 +53,9 @@ export const SLUG_ALIASES: Record<string, string> = {
   //   reducing-tee — zeigte die Reduziermuffe, also ein Bauteil ohne Abzweig.
   //   Das eigene Modell traegt beide Bauarten und alle 37 Groessen
   //   (Katalog S. 88-89).
+  //   flange-adaptor — zeigte den losen GEGENFLANSCH. Der gehoert dazu, ist
+  //   aber ein anderes Teil: Stahl statt PP-R, und er wird ueber den Adapter
+  //   geschoben. Das eigene Modell steht seit dem 24.08.2026 (Katalog S. 90).
   //   metal-union-female-thread-brass · metal-union-male-thread ·
   //   metal-union-male-thread-brass · elbow-90-male-thread ·
   //   tee-90-female-thread · tee-90-male-thread

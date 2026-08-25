@@ -3,9 +3,9 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, vier Produkte gebaut,
+**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, fünf Produkte gebaut,
 zwei tote Produktseiten repariert, ein Core-Wächter und ein Layoutfehler.
-**43 von 71.**
+**44 von 71.**
 
 ---
 
@@ -13,7 +13,7 @@ zwei tote Produktseiten repariert, ein Core-Wächter und ein Layoutfehler.
 
 | | |
 |---|---|
-| Fertig | **43 von 71** · Selbsttest 43/43, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **44 von 71** · Selbsttest 44/44, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
