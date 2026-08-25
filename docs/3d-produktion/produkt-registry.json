@@ -1690,7 +1690,7 @@
       "sizes_md": 8,
       "sizes_source_ocr": 11,
       "sizes_source_verified": 11,
-      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "saddle",
         "complexity": 3,
@@ -1698,28 +1698,30 @@
       },
       "build": {
         "tier": 2,
-        "status": "offen",
+        "status": "fertig",
         "order": 30
       },
       "article_prefix_md_unverified": "AQ1505",
       "screenshot_match": "exakt",
       "article_prefix_source": "AQ130S",
       "article_codes_source": [
-        "AQ130S16025025",
-        "AQ130S16025032",
-        "AQ130S16025040",
-        "AQ130S16025050",
-        "AQ130S16025063",
         "AQ130S406320",
         "AQ130S406325",
         "AQ130S406332",
         "AQ130S7512525",
         "AQ130S7512532",
-        "AQ130S7512540"
+        "AQ130S7512540",
+        "AQ130S16025025",
+        "AQ130S16025032",
+        "AQ130S16025040",
+        "AQ130S16025050",
+        "AQ130S16025063"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-      ]
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 102-103 (11 Groessen)",
+        "Sechs unabhaengige Transkriptionen, deckungsgleich; vier Spaltendeutungen adversarial geprueft"
+      ],
+      "hinweis": "Spalte d ist ein Rohrbereich, kein Bauteilmass. Die Sattelunterseite ist auf das GROESSTE Rohr der Gruppe gekruemmt — sonst hebt der Sattel ueber der Bohrung ab. h misst den Kunststoffkoerper ueber der Rohroberflaeche; beim AG-Sattel ragt das Messing darueber hinaus. Die Sattelzeichnung des Katalogs ist eine masstabslose Schablone und dreimal dieselbe Datei."
     },
     {
       "id": "tools/repairing-plug",
@@ -2311,7 +2313,7 @@
       "sizes_md": 4,
       "sizes_source_ocr": null,
       "sizes_source_verified": 4,
-      "data_status": "pruefen",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "saddle",
         "complexity": 3,
@@ -2319,7 +2321,7 @@
       },
       "build": {
         "tier": 3,
-        "status": "offen",
+        "status": "fertig",
         "order": 44
       },
       "article_prefix_md_unverified": "AQ270S",
@@ -2332,8 +2334,10 @@
         "AQ270S7512534"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-      ]
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 102-103 (4 Groessen)",
+        "Sechs unabhaengige Transkriptionen, deckungsgleich; vier Spaltendeutungen adversarial geprueft"
+      ],
+      "hinweis": "Spalte d ist ein Rohrbereich, kein Bauteilmass. Die Sattelunterseite ist auf das GROESSTE Rohr der Gruppe gekruemmt — sonst hebt der Sattel ueber der Bohrung ab. h misst den Kunststoffkoerper ueber der Rohroberflaeche; beim AG-Sattel ragt das Messing darueber hinaus. Die Sattelzeichnung des Katalogs ist eine masstabslose Schablone und dreimal dieselbe Datei."
     },
     {
       "id": "weld-in-saddles/weld-in-saddle-male-thread",
@@ -2353,7 +2357,7 @@
       "sizes_md": 2,
       "sizes_source_ocr": null,
       "sizes_source_verified": 4,
-      "data_status": "pruefen",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "saddle",
         "complexity": 3,
@@ -2361,7 +2365,7 @@
       },
       "build": {
         "tier": 3,
-        "status": "offen",
+        "status": "fertig",
         "order": 45
       },
       "article_prefix_md_unverified": "AQ243S",
@@ -2374,8 +2378,10 @@
         "AQ243S7512534"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-      ]
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 102-103 (4 Groessen)",
+        "Sechs unabhaengige Transkriptionen, deckungsgleich; vier Spaltendeutungen adversarial geprueft"
+      ],
+      "hinweis": "Spalte d ist ein Rohrbereich, kein Bauteilmass. Die Sattelunterseite ist auf das GROESSTE Rohr der Gruppe gekruemmt — sonst hebt der Sattel ueber der Bohrung ab. h misst den Kunststoffkoerper ueber der Rohroberflaeche; beim AG-Sattel ragt das Messing darueber hinaus. Die Sattelzeichnung des Katalogs ist eine masstabslose Schablone und dreimal dieselbe Datei."
     },
     {
       "id": "tools/pipe-cutter-20-40",

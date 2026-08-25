@@ -77,9 +77,6 @@ export const SLUG_ALIASES: Record<string, string> = {
   // (alle drei entfernt, die erzeugte Zuordnung trägt sie jetzt) sowie
   // elbow-45-femalemale und elbow-90-femalemale (auf das eigene Modell
   // umgehängt). Fünf Produktseiten zeigten bis dahin ein fremdes Bauteil.
-  "weld-in-saddle": "fittings/socket",
-  "weld-in-saddle-female-thread": "transition-fittings/adaptor-socket-male-thread",
-  "weld-in-saddle-male-thread": "transition-fittings/adaptor-socket-male-thread",
   "flat-gasket-for-unions-pp-r": "accessories/flat-gasket-for-unions",
   "backing-flange-pp-steel-sfbf": "accessories/backing-flange",
   "pipe-cutter-2040": "accessories/pipe-clamps",

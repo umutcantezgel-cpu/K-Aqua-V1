@@ -966,6 +966,24 @@ const FUSION_DEPTH = {
   20: 14.5, 25: 16.0, 32: 18.0, 40: 20.5, 50: 23.5,
   63: 27.5, 75: 31.0, 90: 35.0, 110: 41.0, 125: 46.0,
 };
+/* Außendurchmesser der Schweißmuffe je Nennweite — die Spalte D der
+   Muffentabelle des Katalogs (AQ270xx, S. 85). Sie ist über den ganzen
+   Katalog dieselbe: Muffe, Winkel, T-Stück und Sattel tragen bei
+   gleicher Nennweite denselben Muffenaußendurchmesser.
+
+   Stand bis zum 24.08.2026 in products/_union/params.js. Umgezogen, als
+   die dritte Familie sie brauchte (Fall 19: eine Aussage, eine Quelle).
+   _union/params.js reicht sie weiterhin durch, damit dort nichts bricht. */
+const SOCKET_OD_TABLE = { 20: 29, 25: 35, 32: 44, 40: 52, 50: 65, 63: 84 };
+
+export function socketOD(dNom) {
+  return SOCKET_OD_TABLE[dNom] ?? null;
+}
+
+export function socketODSizes() {
+  return Object.keys(SOCKET_OD_TABLE).map(Number).sort((x, y) => x - y);
+}
+
 export function fusionDepth(dNom) {
   return FUSION_DEPTH[dNom] ?? null;
 }

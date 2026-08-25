@@ -3,9 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, fünf Produkte gebaut,
-zwei tote Produktseiten repariert, ein Core-Wächter und ein Layoutfehler.
-**44 von 71.**
+**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, acht Produkte gebaut,
+darunter die drei Anbohrsättel mit neuer Sattelgeometrie. **47 von 71.**
 
 ---
 
@@ -13,7 +12,7 @@ zwei tote Produktseiten repariert, ein Core-Wächter und ein Layoutfehler.
 
 | | |
 |---|---|
-| Fertig | **44 von 71** · Selbsttest 44/44, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **47 von 71** · Selbsttest 47/47, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -370,7 +369,24 @@ Die Geometrie dafür steht seit dem 24.08.2026 im Reduzier-T-Stück
 nachgezogen wird — dann ist es ein Datensatz und ein Umzug, kein neuer
 Bau. Gehört zu Spur A.
 
-### 3.20 BLOCKIERT — Verschraubung für Wasserzähler (AQ3322)
+### 3.20 Ein Schweißwerkzeug für Anbohrsättel fehlt
+
+Seite 115 führt neun Schweißwerkzeuge. Über die AQ130S-Tabelle allein
+passen sie lückenlos auf die neun (d, d₂)-Paare. Mit den Gewindesätteln
+entsteht ein zehntes: `AQ270S406334` und `AQ243S406334` führen
+(40–63, d₂ = 32). Für den Bereich 40–63 gibt es auf S. 115 aber nur
+`AQ98504006325`, also 40–63 × 25.
+
+**Die Geometrie zeigt dieselbe Auffälligkeit unabhängig:** genau diese
+beiden Artikel fallen mit einem Sitzverhältnis von 1,49 aus der Reihe,
+während die übrigen 17 zwischen 1,91 und 7,58 liegen. Ein 32-mm-Loch in
+einem 40er Rohr verlangt eine im Verhältnis zum Sitz auffällig breite
+Schürze.
+
+Zwei unabhängige Wege, dieselbe Zeile. Entweder ist die Werkzeugliste
+unvollständig, oder diese Größe wird anders gefügt. **Nicht aufgelöst.**
+
+### 3.21 BLOCKIERT — Verschraubung für Wasserzähler (AQ3322)
 
 Drei Größen, Katalog S. 100. Nicht gebaut, weil sich die Rolle der
 beiden Sechskante nicht klären lässt und sie das Modellende bestimmen.
@@ -401,7 +417,7 @@ Alles außer `SW1` und `L1` ist eindeutig. Die Verschraubungsfamilie
 **Was fehlt:** ein Blick auf das Originalteil, oder eine Auskunft des
 Herstellers. Eine Minute Arbeit für jemanden, der eines in der Hand hat.
 
-### 3.21 Der Selbsttest prüft die Einzelseiten nicht
+### 3.22 Der Selbsttest prüft die Einzelseiten nicht
 
 Aufgefallen bei den zwei toten T-Stück-Seiten (Commit 941554c9): ihnen
 fehlte `sizeKey: 'key'`, die Modelle erschienen, aber Größenumschalter,
@@ -417,7 +433,7 @@ wollte.
 **Was fehlt:** eine Prüfung, die jede erzeugte Einzelseite wirklich lädt
 und `window.kaqua` abfragt. 41 Seiten, ein Skript. Noch nicht gebaut.
 
-### 3.22 `Marketing/` ist nicht gesichert
+### 3.23 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.

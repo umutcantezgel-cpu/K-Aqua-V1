@@ -352,6 +352,30 @@ export const REGISTRY = [
   "titleDe": "Verschraubung",
   "titleEn": "Union",
   "category": "transition-fittings"
+ },
+ {
+  "slug": "weld-in-saddle",
+  "id": "weld-in-saddles/weld-in-saddle",
+  "module": "kaqua-weld-in-saddle",
+  "titleDe": "Anbohrsattel mit Schweißmuffe",
+  "titleEn": "Weld-in saddle",
+  "category": "weld-in-saddles"
+ },
+ {
+  "slug": "weld-in-saddle-female-thread",
+  "id": "weld-in-saddles/weld-in-saddle-female-thread",
+  "module": "kaqua-weld-in-saddle-female-thread",
+  "titleDe": "Anbohrsattel mit Innengewinde",
+  "titleEn": "Weld-in saddle (Female thread)",
+  "category": "weld-in-saddles"
+ },
+ {
+  "slug": "weld-in-saddle-male-thread",
+  "id": "weld-in-saddles/weld-in-saddle-male-thread",
+  "module": "kaqua-weld-in-saddle-male-thread",
+  "titleDe": "Anbohrsattel mit Außengewinde",
+  "titleEn": "Weld-in saddle (Male thread)",
+  "category": "weld-in-saddles"
  }
 ];
 export default REGISTRY;

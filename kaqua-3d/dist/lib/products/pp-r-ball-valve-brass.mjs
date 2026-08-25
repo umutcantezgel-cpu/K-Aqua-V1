@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, SEG_INT, SEG_VIS, arcPts, buildProfile, capFromProfile, createAssembly, loft, materials, mergeGeometries, polygonCap, revolve, roundedPad,
+  D2R, SEG_INT, SEG_VIS, arcPts, buildProfile, capFromProfile, createAssembly, loft, materials, mergeGeometries, polygonCap, revolve, roundedPad, socketOD,
 } from '../kaqua-3d-core.mjs';
 
 /* == _ballvalve/parts.js =============================================== */

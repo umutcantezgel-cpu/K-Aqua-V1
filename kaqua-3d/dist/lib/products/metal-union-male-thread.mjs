@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, DRAFT, ISO, SEG_INT, SEG_VIS, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, revolve, threadProfile, threadSpec,
+  D2R, DRAFT, ISO, SEG_INT, SEG_VIS, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, revolve, socketOD, socketODSizes, threadProfile, threadSpec,
 } from '../kaqua-3d-core.mjs';
 
 /* == _union/params.js ================================================== */
@@ -99,7 +99,13 @@ import {
    frühere Ansatz 1,375·d trifft nur d32 — er lag bei d20 um 1,5 mm zu
    klein und bei d63 um 2,6 mm zu groß. Das Katalogfoto bestätigt die
    Tabelle: gemessener Grünring Ø28,2 bei d20 gegen tabellierte 29. */
-export const SOCKET_OD = { 20: 29, 25: 35, 32: 44, 40: 52, 50: 65, 63: 84 };
+/* Die Tabelle steht seit dem 24.08.2026 im Core (socketOD) — die
+   Anbohrsattel-Familie braucht dieselbe Reihe. Hier bleibt ein
+   Durchreicher stehen, damit der Rest dieser Familie unverändert
+   bleibt; der Selbsttest muss danach Zahl für Zahl dasselbe melden. */
+export const SOCKET_OD = Object.fromEntries(
+  socketODSizes().map((d) => [d, socketOD(d)])
+);
 
 /* Die Gewindetabelle steht seit dem 24.08.2026 im Core
    (core/geometry.js, threadSpec) — sie stand fünfmal im Produktcode

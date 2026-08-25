@@ -57,6 +57,9 @@ const LOADERS = {
   'transition-fittings/tee-90-female-thread': () => import('./products/tee-90-female-thread.mjs'),
   'transition-fittings/tee-90-male-thread': () => import('./products/tee-90-male-thread.mjs'),
   'transition-fittings/union': () => import('./products/union.mjs'),
+  'weld-in-saddles/weld-in-saddle': () => import('./products/weld-in-saddle.mjs'),
+  'weld-in-saddles/weld-in-saddle-female-thread': () => import('./products/weld-in-saddle-female-thread.mjs'),
+  'weld-in-saddles/weld-in-saddle-male-thread': () => import('./products/weld-in-saddle-male-thread.mjs'),
 };
 
 export const PRODUCT_IDS = Object.keys(LOADERS);

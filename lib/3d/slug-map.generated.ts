@@ -50,9 +50,12 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "tee-90-female-thread": "transition-fittings/tee-90-female-thread",
   "tee-90-male-thread": "transition-fittings/tee-90-male-thread",
   "union": "transition-fittings/union",
+  "weld-in-saddle": "weld-in-saddles/weld-in-saddle",
+  "weld-in-saddle-female-thread": "weld-in-saddles/weld-in-saddle-female-thread",
+  "weld-in-saddle-male-thread": "weld-in-saddles/weld-in-saddle-male-thread",
 };
 
-export const GENERATED_COUNT = 44;
+export const GENERATED_COUNT = 47;
 
 /** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
 export const CATALOG_TOTAL = 71;
