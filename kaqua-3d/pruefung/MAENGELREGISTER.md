@@ -70,7 +70,44 @@ Schwere **A** falsche Gestalt / falscher Werkstoff / fehlendes Teil ·
 
 | Nr | Produkt | Beleg (Bild) | Messung | Schwere | Datei | Familie/Core? | Status |
 |---|---|---|---|---|---|---|---|
-| M1 | `fittings/reducing-bush` | — (Fund des Messwerks, kein Bild nötig) | `D`-Messung liest +0,11 … +0,41 mm, wachsend mit der Mutter-Nennweite bei gleichem Soll (34,11 bei d40 → 34,41 bei d63); LOOP-STATUS §3.28 | Messfehler (eigene Klasse: die Messung, nicht die Form) | `products/reducing-bush/index.js` | nein | offen |
+| M1 | `fittings/reducing-bush` | — (Fund des Messwerks, kein Bild nötig) | `D`-Messung liest +0,11 … +0,41 mm, wachsend mit der Mutter-Nennweite. **Wurzel bewiesen** am Radiusprofil: die Sonde steht 0,6 mm hinter dem Zapfenende und trifft die Kehlrundung zum Körper — bei 63x20 liegt 1,2 mm daneben schon r = 31 (d63). Der Kragenzylinder selbst liest 16,98 ≈ 17,00: **die Form stimmt, die Station nicht.** LOOP-STATUS §3.28 | Messfehler | `products/reducing-bush/index.js` (Sondenstation) | nein | offen |
+| M2 | `transition-fittings/union` | ALH `AQ330A32_3` (Rang 2) **und** Foto `AQ330A` (Rang 3), unabhängig einig | Mutter liegt im Modell bei x −26…−5 — am **Ende**, links von ihr kein Netzpunkt. Beide Bilder zeigen die Mutter in der **Mitte** mit geriffelten Stutzen auf BEIDEN Seiten | **A** (zweite Körperhälfte fehlt bzw. Anordnung falsch) | `products/union/` | fam `union-ppr` (nur dieses Produkt) | offen |
+| M3 | `transition-fittings/adaptor-socket-male-thread` | ALH `AQ243G2512_2` **und** Foto `AQ243GP`, unabhängig einig | Modell: Messing x −4,2…26,5 = **58 %** der Länge, freiliegender Messing-Sechskant (Spanne 8–15 % bei x −4…8). Bilder: Messing nur als Gewindezapfen ≈ 26–28 %, **kein freier Sechskant**, die Griffzone trägt der PP-Körper | **B** (Gestalt der Fuge PP/Messing; Bild darf sie bestimmen — die Tabelle bemaßt sie nicht) | `products/adaptor-socket-male-thread/parts.js` | **ja** — Vorlage der Gewindeteile; gleiches Muster wie §3.1 (Winkel AG) | offen |
+| M4 | `transition-fittings/adaptor-socket-female-thread` | Foto `AQ270GP` (Riffelung) und ALH `AQ270G2512_3` (Sechskant-Ausführung) | PP-Griffzone fehlt im Modell ganz: Silhouetten-Spanne im Mittelband **1,6 %** = glatt-rund. Beide Bildquellen zeigen eine Griffstruktur (geriffelt bzw. sechskantig — das ist die Variantenachse §3.4, kein Widerspruch) | **B** | `products/adaptor-socket-female-thread/parts.js` | **ja** — gleiche Familie wie M3 | offen |
+| M5 | `fittings/cross-over` | ALH `AQ28720_4` (einziger Seitenriss) | Lichte Öffnung unterm Scheitel: Bild **0,485·H**, Modell **0,407·H** (alle drei Größen 0,39–0,41); Scheitelrohrdicke im Bild ≈ **0,87×** Modell. Die Scheitelwand ist ASSUMPTION (d + 2·d/6). VORBEHALT: Einzelansicht, leichte Kameraneigung nicht ausschließbar. WÄCHTER für jede Behebung: die Massenprobe steht bei d20 schon auf **−7,5 %** — dünner machen allein verbietet sie | **C** (Proportion einer unbemaßten Annahme) | `products/_crossover/params.js` | **ja** — `_crossover` trägt beide Überbögen | offen |
+| M6 | `fittings/cross-over-pipe` | ALH `AQ28520_2` (Parallellage **bewiesen**: Rohrdicke links = rechts = 91 px) | ASSUMPTION `tEnde = 0,27·L`: Bild zeigt Hügelbreite **30,5 %** der Länge ⇒ t ≈ 0,35·L (Modell: 46 % Hügel). Die Massenprobe ist gegen t unempfindlich (±3 % Bahnlänge) und lässt das Nachschärfen zu | **C** (ASSUMPTION bildseitig nachschärfbar) | `products/cross-over-pipe/data.js` (ANNAHME-Kommentar) + `_crossover` | ja | offen |
+
+
+## 2a · Befund an der Bildquelle selbst — dem Menschen vorlegen
+
+**B1 — Der ALH-Ordnername belegt die GRÖSSE nicht.** Der Ordner
+`AQ28520` (d20) enthält einen Seitenriss in **bewiesener Parallellage**
+(Rohrdicke links = rechts auf das Pixel), dessen L/H = 5,30 exakt der
+Katalogzeile **d32** entspricht (5,44; d20 wäre 6,89 — 30 % daneben).
+Mindestens dieser Render ist ein größenunspezifisches Familienbild.
+**Regel 3 aus `25-BILDQUELLEN.md` §1 ist damit eingeschränkt:** der
+Ordnername benennt das Produkt sicher, die Größe nur unverbindlich —
+Proportionsschlüsse aus Rendern brauchen ab jetzt die Gegenprobe über
+alle Katalogzeilen (wie hier). Die sieben Deckungsbefunde aus §3a unten
+bleiben gültig: sie wurden gegen die jeweils **besitzende** Zeile
+geprüft und trafen auf 1–6 %.
+
+**B2 — Render und Foto zeigen zwei Ausführungen.** Bei den
+Gewindeteilen zeigt das Foto die runde geriffelte, der Render die
+Sechskant-Ausführung (`AQ270GP`/`AQ2706GP`-Achse, §3.4 LOOP-STATUS).
+Bei der PP-Verschraubung zeigen Render (Pfeilrippen) und Foto (glatte
+Mulden) verschiedene Mutteroberflächen. Kein Bild gewinnt; für Mängel
+zählt nur, worin BEIDE einig sind.
+
+## 3a · Deckt sich (Etappe 2a, die 14 mit Render)
+
+`cap` · `socket` · `elbow-45` · `elbow-90` · `tee` · `reducing-tee` ·
+`reducing-bush` · `tee-90-female-thread` · `elbow-bracket-90-female-thread`
+— Proportionen in den belastbaren Ansichten 1–6 % neben dem Modell,
+Werkstoffzahl und Silhouetten decken sich. Der Anschlussbogen hat in
+KEINER Quelle eine Lasche (der Name „bracket" stammt von der Website;
+der Katalog sagt Anschlussbogen); die Render zeigen seine
+Sechskant-Ausführung.
 
 ## 3 · Bereits bildgeprüft — nur Verweis
 
