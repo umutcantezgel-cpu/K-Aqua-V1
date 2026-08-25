@@ -49,17 +49,17 @@ Wenn es um moderne, langlebige und sichere Sanitär- und Heizungsinstallationen 
 
 Das Geheimnis des K-Fiber Pipe liegt in seinem mehrschichtigen Aufbau. Die mittlere Schicht besteht aus einer innovativen Glasfaser-Polypropylen-Mischung, die dem Rohr eine enorme strukturelle Integrität verleiht. Dadurch wird die thermische Längenausdehnung im Vergleich zu herkömmlichen PP-R Rohren um bis zu 75 % reduziert. Dies bedeutet für Installateure, dass wesentlich weniger Befestigungsschellen und Dehnungsausgleicher benötigt werden, was sowohl Material- als auch Arbeitskosten drastisch senkt.
 
-Die Rohrklasse SDR 9 (Standard Dimension Ratio) bzw. Rohrserie S 4 gewährleistet zudem eine beeindruckende Druckbeständigkeit. Bei einer Betriebstemperatur von 20 °C ist das K-Fiber Pipe PP-R SDR 9 für einen maximalen Betriebsdruck von 2.0 MPa (20 bar) zugelassen. Selbst bei höheren Temperaturen von 60 °C widersteht das Rohr noch einem Druck von 1.0 MPa (10 bar). Diese Leistungswerte machen es zur perfekten Wahl für anspruchsvolle Trinkwasserinstallationen (Kalt- und Warmwasser) sowie für Heizungs- und Klimasysteme.
+Die Rohrklasse SDR 9 (Standard Dimension Ratio) bzw. Rohrserie S 4 gewährleistet zudem eine beeindruckende Druckbeständigkeit. Bei einer Betriebstemperatur von 20 °C ist das K-Fiber Pipe PP-R SDR 9 für einen maximalen Betriebsdruck von 1.6 MPa (16 bar) zugelassen. Selbst bei höheren Temperaturen von 60 °C widersteht das Rohr noch einem Druck von 0.8 MPa (8 bar). Diese Leistungswerte machen es zur perfekten Wahl für anspruchsvolle Trinkwasserinstallationen (Kalt- und Warmwasser) sowie für Heizungs- und Klimasysteme.
 
 #### Vielfältige Dimensionen für jedes Projekt
 
-Um den unterschiedlichen Anforderungen auf der Baustelle gerecht zu werden, ist das K-Fiber Pipe PP-R SDR 9 in einer Vielzahl von Außendurchmessern erhältlich. Jeder Durchmesser ist optimal auf spezifische Durchflussmengen und Druckverhältnisse abgestimmt:
+Um den unterschiedlichen Anforderungen auf der Baustelle gerecht zu werden, ist das K-Fiber Pipe PP-R SDR 9 in 13 Außendurchmessern von d32 bis d355 erhältlich. Jeder Durchmesser ist optimal auf spezifische Durchflussmengen und Druckverhältnisse abgestimmt:
 
-- 32 mm (Code AQ169PF32): Wandstärke 4,0 mm, ideal für kleinere Verteilungsnetze und Steigleitungen. Gewicht nur 0,55 kg/m.
-- 40 mm (Code AQ169PF40): Wandstärke 5,0 mm, Gewicht 0,84 kg/m. Perfekt für mittlere Installationen in Wohn- und Gewerbegebäuden.
-- 50 mm (Code AQ169PF50): Wandstärke 6,2 mm, Gewicht 0,80 kg/m. Bietet optimale Strömungseigenschaften für größere Gebäudekomplexe.
-- 63 mm (Code AQ169PF63): Wandstärke 7,8 mm, Gewicht 1,25 kg/m. Die erste Wahl für Hauptverteilungsleitungen.
-- 75 mm (Code AQ169PF75): Wandstärke 9,2 mm, Gewicht 1,77 kg/m. Ausgelegt für industrielle Anwendungen und massive Verteilersysteme.
+- 32 mm (Code AQ169PF32): Wandstärke 3,6 mm, ideal für kleinere Verteilungsnetze und Steigleitungen. Gewicht nur 0,33 kg/m.
+- 40 mm (Code AQ169PF40): Wandstärke 4,5 mm, Gewicht 0,52 kg/m. Perfekt für mittlere Installationen in Wohn- und Gewerbegebäuden.
+- 50 mm (Code AQ169PF50): Wandstärke 5,6 mm, Gewicht 0,80 kg/m. Bietet optimale Strömungseigenschaften für größere Gebäudekomplexe.
+- 63 mm (Code AQ169PF63): Wandstärke 7,1 mm, Gewicht 1,25 kg/m. Die erste Wahl für Hauptverteilungsleitungen.
+- 75 mm (Code AQ169PF75): Wandstärke 8,4 mm, Gewicht 1,77 kg/m. Ausgelegt für industrielle Anwendungen und massive Verteilersysteme.
 
 Alle Rohre werden in praktischen Stangen von 4 Metern Länge geliefert, was das Handling und den Transport auf der Baustelle erheblich erleichtert.
 
@@ -89,17 +89,17 @@ When it comes to modern, durable, and safe plumbing and heating installations, t
 
 The secret of the K-Fiber Pipe lies in its multi-layered structure. The middle layer consists of an innovative glass fiber-polypropylene compound that gives the pipe enormous structural integrity. As a result, the thermal linear expansion is reduced by up to 75% compared to conventional PP-R pipes. For installers, this means that significantly fewer mounting brackets and expansion compensators are needed, drastically reducing both material and labor costs.
 
-The pipe class SDR 9 (Standard Dimension Ratio) or pipe series S 4 also ensures impressive pressure resistance. At an operating temperature of 20°C, the K-Fiber Pipe PP-R SDR 9 is approved for a maximum operating pressure of 2.0 MPa (20 bar). Even at higher temperatures of 60°C, the pipe withstands a pressure of 1.0 MPa (10 bar). These performance values make it the perfect choice for demanding potable water installations (cold and hot water) as well as for heating and air conditioning systems.
+The pipe class SDR 9 (Standard Dimension Ratio) or pipe series S 4 also ensures impressive pressure resistance. At an operating temperature of 20°C, the K-Fiber Pipe PP-R SDR 9 is approved for a maximum operating pressure of 1.6 MPa (16 bar). Even at higher temperatures of 60°C, the pipe withstands a pressure of 0.8 MPa (8 bar). These performance values make it the perfect choice for demanding potable water installations (cold and hot water) as well as for heating and air conditioning systems.
 
 #### Versatile Dimensions for Every Project
 
-To meet the various requirements on the construction site, the K-Fiber Pipe PP-R SDR 9 is available in a variety of outer diameters. Each diameter is optimally matched to specific flow rates and pressure conditions:
+To meet the various requirements on the construction site, the K-Fiber Pipe PP-R SDR 9 is available in 13 outer diameters from 32 mm to 355 mm. Each diameter is optimally matched to specific flow rates and pressure conditions:
 
-- 32 mm (Code AQ169PF32): Wall thickness 4.0 mm, ideal for smaller distribution networks and risers. Weight only 0.55 kg/m.
-- 40 mm (Code AQ169PF40): Wall thickness 5.0 mm, weight 0.84 kg/m. Perfect for medium-sized installations in residential and commercial buildings.
-- 50 mm (Code AQ169PF50): Wall thickness 6.2 mm, weight 0.80 kg/m. Offers optimal flow characteristics for larger building complexes.
-- 63 mm (Code AQ169PF63): Wall thickness 7.8 mm, weight 1.25 kg/m. The first choice for main distribution lines.
-- 75 mm (Code AQ169PF75): Wall thickness 9.2 mm, weight 1.77 kg/m. Designed for industrial applications and massive distribution systems.
+- 32 mm (Code AQ169PF32): Wall thickness 3.6 mm, ideal for smaller distribution networks and risers. Weight only 0.33 kg/m.
+- 40 mm (Code AQ169PF40): Wall thickness 4.5 mm, weight 0.52 kg/m. Perfect for medium-sized installations in residential and commercial buildings.
+- 50 mm (Code AQ169PF50): Wall thickness 5.6 mm, weight 0.80 kg/m. Offers optimal flow characteristics for larger building complexes.
+- 63 mm (Code AQ169PF63): Wall thickness 7.1 mm, weight 1.25 kg/m. The first choice for main distribution lines.
+- 75 mm (Code AQ169PF75): Wall thickness 8.4 mm, weight 1.77 kg/m. Designed for industrial applications and massive distribution systems.
 
 All pipes are supplied in practical lengths of 4 meters, which significantly facilitates handling and transport on the construction site.
 
@@ -129,17 +129,17 @@ Those who choose the K-Fiber Pipe PP-R SDR 9 are investing in a piping system th
 
 يكمن سر أنبوب K-Fiber في هيكله متعدد الطبقات. تتكون الطبقة الوسطى من مركب مبتكر من الألياف الزجاجية والبولي بروبيلين الذي يمنح الأنبوب سلامة هيكلية هائلة. ونتيجة لذلك، يتم تقليل التمدد الحراري الطولي بنسبة تصل إلى 75٪ مقارنة بأنابيب PP-R التقليدية. بالنسبة لفنيي التركيب، هذا يعني أن هناك حاجة إلى عدد أقل بكثير من أقواس التثبيت ومعوضات التمدد، مما يقلل بشكل كبير من تكاليف المواد والعمالة.
 
-كما تضمن فئة الأنابيب SDR 9 (نسبة الأبعاد القياسية) أو سلسلة الأنابيب S 4 مقاومة رائعة للضغط. عند درجة حرارة تشغيل تبلغ 20 درجة مئوية، تمت الموافقة على أنبوب K-Fiber Pipe PP-R SDR 9 لضغط تشغيل أقصى يبلغ 2.0 ميجا باسكال (20 بار). وحتى في درجات الحرارة المرتفعة التي تصل إلى 60 درجة مئوية، يتحمل الأنبوب ضغطًا يبلغ 1.0 ميجا باسكال (10 بار). تجعل قيم الأداء هذه الخيار الأمثل لتركيبات مياه الشرب الصعبة (الماء البارد والساخن) وكذلك لأنظمة التدفئة وتكييف الهواء.
+كما تضمن فئة الأنابيب SDR 9 (نسبة الأبعاد القياسية) أو سلسلة الأنابيب S 4 مقاومة رائعة للضغط. عند درجة حرارة تشغيل تبلغ 20 درجة مئوية، تمت الموافقة على أنبوب K-Fiber Pipe PP-R SDR 9 لضغط تشغيل أقصى يبلغ 1.6 ميجا باسكال (16 بار). وحتى في درجات الحرارة المرتفعة التي تصل إلى 60 درجة مئوية، يتحمل الأنبوب ضغطًا يبلغ 0.8 ميجا باسكال (8 بار). تجعل قيم الأداء هذه الخيار الأمثل لتركيبات مياه الشرب الصعبة (الماء البارد والساخن) وكذلك لأنظمة التدفئة وتكييف الهواء.
 
 #### أبعاد متعددة لكل مشروع
 
-لتلبية المتطلبات المختلفة في موقع البناء، يتوفر أنبوب K-Fiber Pipe PP-R SDR 9 في مجموعة متنوعة من الأقطار الخارجية. يتوافق كل قطر بشكل مثالي مع معدلات التدفق وظروف الضغط المحددة:
+لتلبية المتطلبات المختلفة في موقع البناء، يتوفر أنبوب K-Fiber Pipe PP-R SDR 9 في 13 قطرًا خارجيًا من 32 مم إلى 355 مم. يتوافق كل قطر بشكل مثالي مع معدلات التدفق وظروف الضغط المحددة:
 
-- 32 مم (الرمز AQ169PF32): سمك الجدار 4.0 مم، مثالي لشبكات التوزيع الأصغر والأنابيب الصاعدة. الوزن 0.55 كجم/م فقط.
-- 40 مم (الرمز AQ169PF40): سمك الجدار 5.0 مم، الوزن 0.84 كجم/م. مثالي للتركيبات متوسطة الحجم في المباني السكنية والتجارية.
-- 50 مم (الرمز AQ169PF50): سمك الجدار 6.2 مم، الوزن 0.80 كجم/م. يوفر خصائص تدفق مثالية لمجمعات المباني الأكبر.
-- 63 مم (الرمز AQ169PF63): سمك الجدار 7.8 مم، الوزن 1.25 كجم/م. الخيار الأول لخطوط التوزيع الرئيسية.
-- 75 مم (الرمز AQ169PF75): سمك الجدار 9.2 مم، الوزن 1.77 كجم/م. مصمم للتطبيقات الصناعية وأنظمة التوزيع الضخمة.
+- 32 مم (الرمز AQ169PF32): سمك الجدار 3.6 مم، مثالي لشبكات التوزيع الأصغر والأنابيب الصاعدة. الوزن 0.33 كجم/م فقط.
+- 40 مم (الرمز AQ169PF40): سمك الجدار 4.5 مم، الوزن 0.52 كجم/م. مثالي للتركيبات متوسطة الحجم في المباني السكنية والتجارية.
+- 50 مم (الرمز AQ169PF50): سمك الجدار 5.6 مم، الوزن 0.80 كجم/م. يوفر خصائص تدفق مثالية لمجمعات المباني الأكبر.
+- 63 مم (الرمز AQ169PF63): سمك الجدار 7.1 مم، الوزن 1.25 كجم/م. الخيار الأول لخطوط التوزيع الرئيسية.
+- 75 مم (الرمز AQ169PF75): سمك الجدار 8.4 مم، الوزن 1.77 كجم/م. مصمم للتطبيقات الصناعية وأنظمة التوزيع الضخمة.
 
 يتم توفير جميع الأنابيب بأطوال عملية تبلغ 4 أمتار، مما يسهل بشكل كبير التعامل والنقل في موقع البناء.
 

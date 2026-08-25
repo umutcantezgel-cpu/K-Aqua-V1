@@ -50,11 +50,10 @@ Wenn es um professionelle Rohrleitungssysteme geht, spielt die zuverlässige und
 Der Adaptor Socket (Female Thread) ist ein hochwertiger Übergangsfitting, der aus Polypropylen Random Copolymer (PP-R) gefertigt ist und über ein metallisches Innengewinde (Rp) verfügt. PP-R ist ein thermoplastischer Kunststoff, der sich durch herausragende Temperatur- und Druckbeständigkeit auszeichnet. Das integrierte Metallgewinde ermöglicht den direkten Anschluss von Armaturen, Ventilen, Pumpen oder metallischen Rohrleitungen an das Kunststoffsystem. Die Verbindung zum PP-R-Rohr erfolgt durch das bewährte Verfahren der Muffenschweißung (Socket Fusion). Dabei werden Rohr und Fitting kurz erhitzt und anschließend ineinandergefügt, was zu einer unlösbaren, homogenen und extrem langlebigen Verbindung auf molekularer Ebene führt. Im Gegensatz zu mechanischen Schraub- oder Pressverbindungen gibt es hier keine O-Ringe, die mit der Zeit spröde werden könnten.
 
 ### Technische Spezifikationen, Dimensionen und Druckstufen
-Unsere Übergangsmuffen mit Innengewinde decken ein extrem breites Spektrum an Dimensionen ab, um für jede Projektgröße die exakt passende Lösung bereitzustellen. Die verfügbaren Rohrdurchmesser reichen von 20 mm bis 315 mm. Gleichzeitig stehen passende Innengewinde in den Größen von ½ Zoll bis 4 Zoll zur Verfügung. 
+Unsere Übergangsmuffen mit Innengewinde decken ein extrem breites Spektrum an Dimensionen ab, um für jede Projektgröße die exakt passende Lösung bereitzustellen. Die verfügbaren Rohrdurchmesser reichen von 20 mm bis 110 mm. Gleichzeitig stehen passende Innengewinde in den Größen von ½ Zoll bis 4 Zoll zur Verfügung. 
 
 - Durchmesser 20 mm bis 40 mm (Rp ½" bis 1¼"): Ideal für den klassischen Hausbau, Wohnungsbau, Trinkwasserinstallationen in Einfamilienhäusern und kompakte Heizungsanlagen.
 - Durchmesser 50 mm bis 110 mm (Rp 1½" bis 4"): Perfekt geeignet für Steigleitungen, Mehrfamilienhäuser, industrielle Anwendungen und größere Kühlwassersysteme.
-- Durchmesser 125 mm bis 315 mm: Ausgelegt für industrielle Großprojekte, kommunale Wasserversorgung, Kläranlagen und hochbelastbare Infrastruktursysteme. In diesen Größenordnungen bieten wir spezialisierte Flanschverbindungen oder große Übergangsstücke an.
 
 Das robuste Metallinnengewinde gewährleistet eine enorm hohe Ausreißfestigkeit und ist korrosionsbeständig ausgelegt (oft aus hochwertigem Messing oder entzinkungsbeständigem Messing), sodass ein Einsatz auch in herausfordernden Umgebungen (wie z. B. bei aggressiven Medien oder extremen Temperaturen) bedenkenlos möglich ist. Die Fittings sind typischerweise für hohe Druckstufen (wie PN20 oder PN25) ausgelegt, was eine sichere Funktion über Jahrzehnte hinweg garantiert.
 
@@ -67,7 +66,7 @@ Das robuste Metallinnengewinde gewährleistet eine enorm hohe Ausreißfestigkeit
 6. Umweltfreundlichkeit und Nachhaltigkeit: PP-R ist vollständig recycelbar. Der Produktionsprozess ist energieeffizienter als die Herstellung von Metallrohren, was den CO2-Fußabdruck Ihres Bauprojekts deutlich reduziert.
 
 ### Anwendungsbereiche in der modernen Praxis
-Aufgrund der enormen Vielseitigkeit, der Robustheit und der weiten Spanne an verfügbaren Durchmessern (20 mm bis 315 mm) wird der Adaptor Socket (Female Thread) in unterschiedlichsten Branchen und Projekten eingesetzt:
+Aufgrund der enormen Vielseitigkeit, der Robustheit und der weiten Spanne an verfügbaren Durchmessern (20 mm bis 110 mm) wird der Adaptor Socket (Female Thread) in unterschiedlichsten Branchen und Projekten eingesetzt:
 - Heizungs-, Lüftungs- und Klimatechnik (HLK): Für den sicheren Anschluss von Heizkesseln, Fußbodenheizungsverteilern, Wärmepumpen, Kaltwassersätzen und Klimageräten.
 - Trinkwassernetzwerke: Sichere und hygienische Anbindung von Wasserzählern, Filteranlagen, Hausanschlussstationen, Boilern und Sanitärarmaturen in öffentlichen und privaten Gebäuden.
 - Industrieller Rohrleitungsbau: Zuverlässiger Transport von Kühlwasser, Druckluft und verschiedenen chemischen Flüssigkeiten unter hohem Druck in Fertigungshallen.
@@ -93,11 +92,10 @@ In the highly demanding realm of professional plumbing, HVAC, and industrial flu
 The Adaptor Socket (Female Thread) is a high-performance transition fitting comprising a robust PP-R thermoplastic body perfectly integrated with a precision-machined metallic female thread (Rp). PP-R is internationally highly regarded for its exceptional resistance to elevated temperatures and consistently high pressures, making it a gold standard in modern fluid transport systems. The built-in metal thread allows for direct, heavy-duty threaded connections to sanitary fixtures, circulation pumps, distribution manifolds, and existing metallic pipe networks (like copper, steel, or brass). The plastic end of the fitting connects to the PP-R pipe using the established and highly secure socket fusion welding technique. This thermal process involves heating both the pipe exterior and the fitting interior before joining them, creating a permanent, homogeneous, and incredibly strong molecular bond without the need for toxic glues, vulnerable O-rings, or mechanical compression seals that can degrade over time.
 
 ### Technical Specifications, Dimensional Range, and Pressure Ratings
-To properly cater to projects of any scale—from standard residential plumbing repairs to massive, highly complex industrial infrastructures—our Adaptor Sockets are meticulously manufactured in an extensive range of sizes. We proudly offer pipe diameters spanning from 20 mm up to an impressive 315 mm. The corresponding internal female threads are available in dimensions ranging from ½" up to 4".
+To properly cater to projects of any scale—from standard residential plumbing repairs to massive, highly complex industrial infrastructures—our Adaptor Sockets are meticulously manufactured in an extensive range of sizes. We proudly offer pipe diameters spanning from 20 mm up to 110 mm. The corresponding internal female threads are available in dimensions ranging from ½" up to 4".
 
 - Diameters 20 mm to 40 mm (Rp ½" to 1¼"): Perfectly suited for domestic hot and cold water supply, residential underfloor heating circuits, bathroom fixtures, and compact plumbing installations.
 - Diameters 50 mm to 110 mm (Rp 1½" to 4"): Ideal for commercial building water risers, HVAC chilled water lines, municipal supply networks, and heavy-duty industrial fluid distribution.
-- Diameters 125 mm to 315 mm: Specifically designed for large-scale municipal water mains, heavy industrial fluid transport, wastewater treatment plants, and specialized civil infrastructure projects.
 
 The robust metallic female insert is heavily engineered to easily withstand high torque forces during installation and guarantees excellent pull-out resistance over its entire lifecycle. Made typically from high-grade brass or dezincification-resistant (DZR) brass, its superior corrosion-resistant properties ensure safe, leak-free, and durable operation even in harsh environmental conditions. Furthermore, these fittings are engineered to meet high pressure classifications (such as PN20 or PN25), ensuring complete peace of mind in high-stress systems.
 
@@ -110,7 +108,7 @@ The robust metallic female insert is heavily engineered to easily withstand high
 6. Eco-Friendly and Sustainable: PP-R is a highly sustainable, 100% recyclable material. Its manufacturing process demands significantly less energy and produces fewer carbon emissions compared to traditional metal pipes, making it the premier choice for green building certifications (like LEED or BREEAM).
 
 ### Practical Applications Across Industries
-Given its extreme versatility, robust construction, and the broad spectrum of available diameters (20 mm to 315 mm), the Adaptor Socket (Female Thread) is heavily utilized across a multitude of critical sectors:
+Given its extreme versatility, robust construction, and the broad spectrum of available diameters (20 mm to 110 mm), the Adaptor Socket (Female Thread) is heavily utilized across a multitude of critical sectors:
 - HVAC Systems: Securely connecting hot water boilers, heat exchangers, massive chiller units, and complex distribution manifolds.
 - Potable Water Supply: Hygienic, long-lasting integration of water meters, advanced filtration units, water heaters, and main incoming water connections in high-rise buildings.
 - Industrial and Chemical Piping: Reliable and safe transport of factory compressed air, aggressive cooling water, and various chemical fluids under extreme high pressure.
@@ -137,11 +135,10 @@ Choose unparalleled durability and modern engineering excellence. The PP-R Adapt
 يتصل الطرف البلاستيكي للوصلة بأنبوب PP-R باستخدام تقنية لحام الانصهار المقطعي (Socket Fusion) الآمنة والمعتمدة عالمياً. تتضمن هذه العملية الحرارية تسخين كل من الجزء الخارجي للأنبوب والجزء الداخلي للوصلة قبل ضمهما معاً، مما يخلق رابطة جزيئية دائمة ومتجانسة وقوية للغاية، وذلك دون الحاجة إلى المواد اللاصقة السامة، أو الحلقات المطاطية (O-rings) المعرضة للتلف، أو الأختام الميكانيكية التي يمكن أن تتدهور بمرور الوقت وتسبب التسريبات.
 
 ### المواصفات الفنية، نطاق الأبعاد، وتقييمات الضغط
-لتلبية متطلبات المشاريع بجميع أحجامها بدقة - بدءاً من إصلاحات السباكة السكنية القياسية وصولاً إلى البنى التحتية الصناعية الضخمة والمعقدة للغاية - يتم تصنيع مقابس التحويل الخاصة بنا بدقة في مجموعة واسعة وشاملة من الأحجام. نحن نفخر بتقديم أقطار أنابيب تمتد من 20 مم وحتى 315 مم. الأقطار المعدنية ذات السن الداخلي المقابلة متوفرة بأبعاد تتراوح من ½ بوصة إلى 4 بوصات.
+لتلبية متطلبات المشاريع بجميع أحجامها بدقة - بدءاً من إصلاحات السباكة السكنية القياسية وصولاً إلى البنى التحتية الصناعية الضخمة والمعقدة للغاية - يتم تصنيع مقابس التحويل الخاصة بنا بدقة في مجموعة واسعة وشاملة من الأحجام. نحن نفخر بتقديم أقطار أنابيب تمتد من 20 مم وحتى 110 مم. الأقطار المعدنية ذات السن الداخلي المقابلة متوفرة بأبعاد تتراوح من ½ بوصة إلى 4 بوصات.
 
 - الأقطار من 20 مم إلى 40 مم (سن داخلي Rp ½" إلى 1¼"): مناسبة تماماً وبشكل مثالي لإمدادات المياه المنزلية الساخنة والباردة، ودوائر التدفئة تحت الأرضية السكنية، وتركيبات الحمامات، والتركيبات المدمجة.
 - الأقطار من 50 مم إلى 110 مم (سن داخلي Rp 1½" إلى 4"): مثالية للأنابيب الصاعدة للمياه في المباني التجارية، وخطوط المياه المبردة لأنظمة (HVAC)، وشبكات التوريد البلدية، وتوزيع السوائل الصناعية الشاقة.
-- الأقطار من 125 مم إلى 315 مم: مصممة خصيصاً لخطوط المياه البلدية واسعة النطاق، ونقل السوائل الصناعية الثقيلة، ومحطات معالجة مياه الصرف الصحي، ومشاريع البنية التحتية المدنية المتخصصة.
 
 تم تصميم الملحق المعدني الداخلي القوي هندسياً لتحمل قوى عزم الدوران العالية بسهولة أثناء التثبيت، ويضمن مقاومة ممتازة وقوية للسحب على مدار دورة حياته بأكملها. يُصنع عادةً من النحاس الأصفر عالي الجودة أو النحاس المقاوم لإزالة الزنك (DZR)، وتضمن خصائصه الفائقة المقاومة للتآكل تشغيلاً آمناً وخالياً من التسرب ودائماً حتى في أقسى الظروف البيئية. علاوة على ذلك، تم تصميم هذه الوصلات لتلبية تصنيفات الضغط العالي (مثل PN20 أو PN25)، مما يضمن راحة البال التامة في الأنظمة ذات الضغط العالي.
 
@@ -154,7 +151,7 @@ Choose unparalleled durability and modern engineering excellence. The PP-R Adapt
 6. صديقة للبيئة ومستدامة: PP-R هي مادة مستدامة للغاية وقابلة لإعادة التدوير بنسبة 100٪. تتطلب عملية تصنيعها طاقة أقل بكثير وتنتج انبعاثات كربونية أقل مقارنة بالأنابيب المعدنية التقليدية، مما يجعلها الخيار الأول لشهادات المباني الخضراء (مثل LEED أو BREEAM).
 
 ### التطبيقات العملية عبر الصناعات المختلفة
-نظراً لتعدد استخداماته الشديد، وبنيته القوية، والطيف الواسع للأقطار المتاحة (20 مم إلى 315 مم)، يتم استخدام مقبس التحويل (بسن داخلي) بكثافة في العديد من القطاعات الحيوية:
+نظراً لتعدد استخداماته الشديد، وبنيته القوية، والطيف الواسع للأقطار المتاحة (20 مم إلى 110 مم)، يتم استخدام مقبس التحويل (بسن داخلي) بكثافة في العديد من القطاعات الحيوية:
 - أنظمة التدفئة والتهوية وتكييف الهواء (HVAC): توصيل غلايات الماء الساخن، والمبادلات الحرارية، ووحدات التبريد الضخمة، ومجمعات التوزيع المعقدة بأمان تام.
 - إمدادات مياه الشرب: دمج صحي وطويل الأمد لعدادات المياه، ووحدات الترشيح المتقدمة، وسخانات المياه، وتوصيلات المياه الرئيسية الواردة في المباني الشاهقة.
 - الأنابيب الصناعية والكيميائية: النقل الموثوق والآمن لهواء المصانع المضغوط، ومياه التبريد العدوانية، والسوائل الكيميائية المختلفة تحت ضغط عالٍ شديد.
