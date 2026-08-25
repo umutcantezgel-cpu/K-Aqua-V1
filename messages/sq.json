@@ -234,7 +234,7 @@
       },
       "k-fiber-pipe-pp-r-sdr-17": {
         "seo_p1": "K-Fiber Pipe PP-R SDR 17 me përmasa të mëdha është zhvilluar posaçërisht për impiantet e mëdha industriale dhe linjat kryesore të furnizimit. Ofron prerje tërthore masive për rrjedhjen.",
-        "seo_p2": "Me diametra deri në 200 mm dhe serinë S 8 (SDR 17), ky tub përballon 1.0 MPa në 20°C. Përforcimi me fibra siguron stabilitet të lartë përmasor edhe në këto dimensione të mëdha.",
+        "seo_p2": "Me diametra deri në 630 mm dhe serinë S 8 (SDR 17), ky tub përballon 0.8 MPa në 20°C dhe 0.4 MPa në 60°C. Përforcimi me fibra siguron stabilitet të lartë përmasor edhe në këto dimensione të mëdha.",
         "seo_p3": "Ideal për rrjetet e ftohjes në distancë, furnizimin komunal me ujë ose si kolonë qendrore në ndërtesat e larta. Është alternativa pa korrozion ndaj tubave të mëdhenj të rëndë metalikë.",
         "faq": [
           {
@@ -243,7 +243,7 @@
           },
           {
             "q": "Si lidhen dimensionet kaq të mëdha?",
-            "a": "Tubat e mëdhenj (nga 90 mm deri në 200 mm) lidhen preferueshëm me saldim ballor me element ngrohës ose me fasheta saldimi elektrik."
+            "a": "Tubat e mëdhenj (nga 90 mm deri në 630 mm) lidhen preferueshëm me saldim ballor me element ngrohës ose me fasheta saldimi elektrik."
           },
           {
             "q": "Cili është avantazhi kryesor ndaj tubave të çelikut?",
@@ -361,7 +361,7 @@
           },
           {
             "q": "Për cilat dimensione është i disponueshëm ky bërryl?",
-            "a": "Ai prodhohet zakonisht për dimensionet e zakonshme në shpërndarjen e kateve nga 20 mm në 40 mm."
+            "a": "Ai prodhohet zakonisht për dimensionet e zakonshme në shpërndarjen e kateve, përkatësisht 20 mm dhe 25 mm."
           }
         ]
       },
@@ -532,7 +532,7 @@
           },
           {
             "q": "A janë degëzimet gjithmonë me të njëjtën madhësi?",
-            "a": "Tek kryqi ynë standard, të katër lidhjet kanë të njëjtat dimensione (p.sh. 4x 20mm)."
+            "a": "Tek kryqi ynë standard, të katër lidhjet kanë të njëjtat dimensione (p.sh. 4x 25 mm)."
           }
         ]
       },
@@ -775,7 +775,7 @@
           },
           {
             "q": "A ka kufizime në madhësinë e degëzimit?",
-            "a": "Diametri i degëzimit të shalës, për arsye teknike, duhet të gjithmonë ndjeshëm më i vogël se diametri i linjës kryesore (p.sh. 63 mm në 1/2\")."
+            "a": "Degëzimi me filetë, për arsye teknike, është gjithmonë më i vogël se kalimi i tubit (p.sh. 32 mm në 1\")."
           },
           {
             "q": "A mund të saldohet shala edhe në tuba me fibra?",

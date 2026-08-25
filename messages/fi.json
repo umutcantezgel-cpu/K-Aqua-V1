@@ -234,7 +234,7 @@
       },
       "k-fiber-pipe-pp-r-sdr-17": {
         "seo_p1": "Suurimittainen K-Fiber Pipe PP-R SDR 17 on kehitetty erityisesti suuriin teollisuuslaitoksiin ja pääsyöttölinjoihin. Se tarjoaa massiiviset virtauspoikkipinta-alat.",
-        "seo_p2": "Halkaisijoiltaan jopa 200 mm ja sarjalla S 8 (SDR 17), tämä putki kestää 1.0 MPa:n 20°C:ssa. Kuituvahvistus takaa suuren mittavakauden myös näissä suurissa ko'oissa.",
+        "seo_p2": "Halkaisijoiltaan jopa 630 mm ja sarjalla S 8 (SDR 17), tämä putki kestää 0,8 MPa:n 20°C:ssa ja 0,4 MPa:n 60°C:ssa. Kuituvahvistus takaa suuren mittavakauden myös näissä suurissa ko'oissa.",
         "seo_p3": "Ihanteellinen kaukokylmäverkkoihin, kunnalliseen vesihuoltoon tai pääjohdoksi korkeissa rakennuksissa. Se on korroosiovapaa vaihtoehto raskaille metallisille suurputkille.",
         "faq": [
           {
@@ -243,7 +243,7 @@
           },
           {
             "q": "Miten näin suuret putket yhdistetään?",
-            "a": "Suuret putket (90 mm - 200 mm) yhdistetään ensisijaisesti lämpöelementtipuskuhitsauksella tai sähköhitsausmuhveilla."
+            "a": "Suuret putket (90 mm - 630 mm) yhdistetään ensisijaisesti lämpöelementtipuskuhitsauksella tai sähköhitsausmuhveilla."
           },
           {
             "q": "Mikä on tärkein etu teräsputkiin verrattuna?",
@@ -361,7 +361,7 @@
           },
           {
             "q": "Mille dimensioille tämä kulma on saatavilla?",
-            "a": "Sitä valmistetaan tyypillisesti kerrosjakelun yleisimpiin dimensioihin 20 mm - 40 mm."
+            "a": "Sitä valmistetaan tyypillisesti kerrosjakelun yleisimpiin dimensioihin 20 mm ja 25 mm."
           }
         ]
       },
@@ -532,7 +532,7 @@
           },
           {
             "q": "Ovatko haarat aina samankokoisia?",
-            "a": "Vakioristikappaleessamme kaikki neljä liitäntää ovat samankokoisia (esim. 4x 20 mm)."
+            "a": "Vakioristikappaleessamme kaikki neljä liitäntää ovat samankokoisia (esim. 4x 25 mm)."
           }
         ]
       },
@@ -775,7 +775,7 @@
           },
           {
             "q": "Onko haaran koolle rajoituksia?",
-            "a": "Satulahaaran halkaisijan on teknisistä syistä aina oltava merkittävästi pienempi kuin pääputken halkaisija (esim. 63 mm -> 1/2\")."
+            "a": "Kierrehaaran halkaisijan on teknisistä syistä aina oltava pienempi kuin läpivirtauksen halkaisija (esim. 32 mm -> 1\")."
           },
           {
             "q": "Voidaanko satula hitsata myös kuituputkiin?",
