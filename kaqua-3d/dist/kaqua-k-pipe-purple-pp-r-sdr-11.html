@@ -3770,13 +3770,38 @@ const DIMENSION_KEY = {
 /* Wandaufbau von außen nach innen. Der Grund, warum diese Produkte ein
    3D-Modell rechtfertigen: im Schnitt wird sichtbar, was ein
    Katalogfoto nicht zeigen kann. */
+/* WANDAUFBAU UND STREIFEN, berichtigt am 24.08.2026.
+
+   Das Modell zeigte eine durchgehend violette Wand mit einem roten
+   Streifen. Der Katalog sagt auf S. 77 unter „K Pipe purple PP-R":
+
+       Colour:  outside layer purple
+                inside layer green
+
+   Also ZWEI Lagen und KEIN Streifen. Drei Quellen sagen dasselbe:
+   die Farbangabe, das Produktfoto daneben (durchgehend violett, am
+   Schnittrand ein schmaler violetter Saum über grün) und die
+   Kategorieaufnahme „PIPES" der alten Website — die damit ihrer
+   EIGENEN Tabelle widerspricht, aus der der rote Streifen stammte.
+
+   Der Streifen ist damit ersatzlos gestrichen.
+
+   ASSUMPTION Lagenverhältnis 0,35 / 0,65. Der Katalog nennt die beiden
+   Lagen, bemaßt aber keine. Aus dem Foto ist nur zu lesen, dass das
+   Violett die SCHMALERE Lage ist: am Schnittrand steht ein dünner
+   violetter Saum über einer breiten grünen Fläche. Weiter trägt das
+   Bild nicht — ein großer Teil des sichtbaren Grüns ist die
+   Bohrungsinnenseite, nicht der Wandquerschnitt, und die Verkürzung
+   lässt sie breiter erscheinen als sie ist. Der Wert ist deshalb
+   bewusst NICHT auf das optische Extrem gesetzt. Dieselbe Art Annahme
+   wie die 0,3/0,4/0,3 der Faserrohre; steht in LOOP-STATUS.md. */
 const LAYERS = [
-  { key: 'pprPurple', frac: 1, label: 'PP-R violett' },
+  { key: 'pprPurple', frac: 0.35, label: 'PP-R violett, Außenlage' },
+  { key: 'pprGreen', frac: 0.65, label: 'PP-R grün, Innenlage' },
 ];
 
-const STRIPES = [
-  { key: 'redStripe', angleDeg: 0, widthDeg: 7 },
-];
+/* Kein Streifen — siehe oben. */
+const STRIPES = [];
 
 function article(d) {
   const a = ARTICLES.find((x) => x.d === d);

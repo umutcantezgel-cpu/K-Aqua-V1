@@ -52,11 +52,34 @@ export const LAYERS = [
   { key: 'pprGreen', frac: 0.3, label: 'PP-R innen' },
 ];
 
+/* STREIFENFARBE, berichtigt am 24.08.2026.
+
+   Das Modell trug vier blaue Streifen. Der Katalog sagt auf S. 80
+   „green with 4 grey stripes". Geändert auf den Katalog.
+
+   Warum der Katalog gewinnt und nicht die alte Website-Tabelle, aus der
+   die frühere Farbe stammte — drei unabhängige Belege:
+
+   1. Auf S. 80 stehen SDR 9 und SDR 11 untereinander, und NEBEN jeder
+      Farbangabe steht das Produktfoto. Text und Bild derselben Seite
+      sagen dasselbe: grauer Streifen oben, blauer unten. Der Katalog
+      stützt sich selbst.
+   2. Das freigegebene Studiofoto zu AQ111P zeigt genau einen blauen
+      Streifen, wie der Katalog auf S. 77 sagt. Eine dritte Quelle,
+      geprüft an einer Zeile, die gar nicht strittig war.
+   3. Die alte Website WIDERSPRICHT SICH SELBST: ihre Kategorie-
+      aufnahme „PIPES" zeigt das violette Rohr ohne jeden Streifen,
+      während ihre eigene Tabelle einen roten nennt. Eine Quelle, die
+      sich selbst widerspricht, ist als Quelle erledigt.
+
+   Die drei Faserrohre bildeten zusammen einen sauberen Ringtausch
+   grau→rot, blau→grau, rot→blau — die Handschrift einer um eine Zeile
+   verrutschten Tabelle, nicht die von Streuung. */
 export const STRIPES = [
-  { key: 'blueStripe', angleDeg: 0, widthDeg: 7 },
-  { key: 'blueStripe', angleDeg: 90, widthDeg: 7 },
-  { key: 'blueStripe', angleDeg: 180, widthDeg: 7 },
-  { key: 'blueStripe', angleDeg: 270, widthDeg: 7 },
+  { key: 'greyStripe', angleDeg: 0, widthDeg: 7 },
+  { key: 'greyStripe', angleDeg: 90, widthDeg: 7 },
+  { key: 'greyStripe', angleDeg: 180, widthDeg: 7 },
+  { key: 'greyStripe', angleDeg: 270, widthDeg: 7 },
 ];
 
 export function article(d) {

@@ -254,29 +254,48 @@ Produkt über S. 88/89. Bleibt es ein eigenes Produkt, sind es 72 — sonst 71.
 Unterschied, statt still die alte zu nehmen. Ob die Kopie unter `docs/`
 mitgezogen oder gelöscht wird, entscheidet der Mensch.
 
-### 3.13 Streifenfarben: Katalog gegen Website, drei Rohre im Ringtausch
+### 3.13 Streifenfarben — AUFGELÖST am 24.08.2026, zugunsten des Katalogs
 
-Beim Bau des K-Fiber Rohrs SDR 6 aufgefallen. Die **Zahl** der Streifen
-stimmt bei allen dreizehn Rohren; bei dreien widerspricht die **Farbe**:
+Beim Bau des K-Fiber Rohrs SDR 6 fielen vier Rohre auf, deren
+Streifenfarbe im Modell dem Katalog widersprach. Die Zahl der Streifen
+stimmte überall, nur die Farbe nicht — und zwar als sauberer Ringtausch,
+die Handschrift einer um eine Zeile verrutschten Tabelle.
 
-| Rohr | Modell (aus der Website) | Katalog S. 79–80 |
-|---|---|---|
-| `k-fiber-pipe-pp-r-sdr-7-4` | 4 grau | 4 **rot** |
-| `k-fiber-pipe-pp-r-sdr-9` | 4 blau | 4 **grau** |
-| `k-fiber-pipe-pp-r-sdr-11` | 4 rot | 4 **blau** |
+Aufgelöst durch **drei unabhängige Belege**, die alle in dieselbe
+Richtung zeigen:
 
-Das ist kein Streuen, sondern ein sauberer **Ringtausch** grau→rot,
-blau→grau, rot→blau. So etwas entsteht, wenn in einer der beiden Quellen
-die Zeilen um eins verrutscht sind — welche, lässt sich von hier aus nicht
-sagen.
+1. **Der Katalog stützt sich selbst.** Auf S. 80 stehen SDR 9 und SDR 11
+   untereinander, und neben jeder Farbangabe steht das Produktfoto. Text
+   und Bild derselben Seite sagen dasselbe: grauer Streifen oben, blauer
+   unten.
+2. **Die freigegebene Studiofotografie stimmt mit dem Katalog überein.**
+   Das Foto zu AQ111P zeigt genau einen blauen Streifen, wie S. 77 sagt —
+   geprüft an einer Zeile, die gar nicht strittig war. (Beitrag der
+   Parallelsitzung.)
+3. **Die alte Website widerspricht sich selbst.** Ihre Kategorie-
+   aufnahme „PIPES" zeigt das violette Rohr ohne jeden Streifen, während
+   ihre eigene Tabelle einen roten nennt. Eine Quelle, die sich selbst
+   widerspricht, ist als Quelle erledigt — dieselbe Website ist im
+   Übrigen auch bei Wandstärken (d÷10 statt Messwert) und
+   Artikelnummern aufgefallen.
 
-Dazu ein vierter Fall: `k-pipe-purple-pp-r-sdr-11` trägt im Modell einen
-roten Streifen, der Katalog sagt „outside layer purple" — also kein
-Streifen, sondern eine durchgefärbte Außenlage.
+Geändert wurden vier Modelle:
 
-Zwei Rang-1-Quellen, keine gewinnt. **Nicht geändert.** Am Originalrohr
-oder beim Hersteller zu klären; es ist eine Frage von Minuten, wenn man
-eines in der Hand hat.
+| Rohr | vorher | jetzt | Katalog |
+|---|---|---|---|
+| `k-fiber-pipe-pp-r-sdr-7-4` | 4 grau | 4 rot | S. 79 |
+| `k-fiber-pipe-pp-r-sdr-9` | 4 blau | 4 grau | S. 80 |
+| `k-fiber-pipe-pp-r-sdr-11` | 4 rot | 4 blau | S. 80 |
+| `k-pipe-purple-pp-r-sdr-11` | grün + roter Streifen | violette Außenlage, grüne Innenlage, kein Streifen | S. 77 |
+
+Alle dreizehn Rohre decken sich jetzt mit dem Katalog, S. 76 bis 82.
+
+**Ein Rest bleibt offen:** der Katalog nennt beim violetten Rohr zwei
+Lagen, bemaßt aber keine. Angesetzt sind 0,35 violett / 0,65 grün, als
+ASSUMPTION vermerkt. Aus dem Foto ist nur zu lesen, dass das Violett die
+schmalere Lage ist; ein großer Teil des sichtbaren Grüns ist die
+Bohrungsinnenseite, nicht der Wandquerschnitt. Am Rohrabschnitt in einer
+Minute zu klären.
 
 ### 3.14 Die Spalte `z` der Übergangsmuffe IG ist nicht gedeutet
 
