@@ -29,7 +29,6 @@ const SLUG_ALIASES: Record<string, string> = {
 
   // Catalog to 3D slug aliases
   'ball-valve-pp': 'pp-r-ball-valve-ball-in-pp',
-  'pp-r-ball-valve-brass': 'pp-r-ball-valve-ball-in-pp',
   'pp-r-ball-valve-ball-in-brass-chromium-plated': 'pp-r-ball-valve-ball-in-pp',
   'backing-flange-pp-steel-sfbf': 'backing-flange',
   'flat-gasket-for-unions-pp-r': 'flat-gasket-for-unions',

@@ -664,7 +664,7 @@
       "sizes_md": 8,
       "sizes_source_ocr": 8,
       "sizes_source_verified": 8,
-      "data_status": "verifiziert-md-falsch",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "ball-valve",
         "complexity": 5,
@@ -672,7 +672,7 @@
       },
       "build": {
         "tier": 1,
-        "status": "offen",
+        "status": "fertig",
         "order": 11
       },
       "hinweis": "Markdown fuehrt AQ60020-AQ60090 und uebernimmt Spalte A (Hebellaenge) als L (Baulaenge). Quelle: AQ85020-AQ85090 mit d/A/C/H/L/P.",
@@ -690,7 +690,7 @@
         "AQ85090"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 107 (vollstaendige Masstabelle, 8 Groessen)"
       ]
     },
     {

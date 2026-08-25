@@ -41,6 +41,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "metal-union-male-thread-brass": "transition-fittings/metal-union-male-thread-brass",
   "pipe-clamps": "accessories/pipe-clamps",
   "plug": "accessories/plug",
+  "pp-r-ball-valve-brass": "valves/pp-r-ball-valve-brass",
   "reducing-bush": "fittings/reducing-bush",
   "socket": "fittings/socket",
   "tee": "fittings/tee",
@@ -49,7 +50,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "union": "transition-fittings/union",
 };
 
-export const GENERATED_COUNT = 41;
+export const GENERATED_COUNT = 42;
 
 /** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
 export const CATALOG_TOTAL = 71;

@@ -3,8 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, zwei Produkte gebaut,
-zwei tote Produktseiten repariert. **41 von 71.**
+**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, drei Produkte gebaut,
+zwei tote Produktseiten repariert, ein Core-Wächter dazu. **42 von 71.**
 
 ---
 
@@ -12,7 +12,7 @@ zwei tote Produktseiten repariert. **41 von 71.**
 
 | | |
 |---|---|
-| Fertig | **41 von 71** · Selbsttest 41/41, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **42 von 71** · Selbsttest 42/42, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -331,7 +331,21 @@ Codes `AQ24RP*` in `article_codes_md` der Registry, die zu keinem der
 beiden Produkte gehören. In der Registry vermerkt, nicht stillschweigend
 gelöscht — die Falschzuordnung ist selbst ein Befund.
 
-### 3.17 Der Selbsttest prüft die Einzelseiten nicht
+### 3.17 GESCHLOSSEN — ein NaN leerte die Seite, ohne dass ein Maß es merkte
+
+Beim Kugelhahn mit Messingkugel stand eine Parameterzeile vor der Zeile,
+aus der sie rechnete. Die O-Ringe wurden NaN, ein einziges NaN machte die
+Bounding-Box der ganzen Baugruppe ungültig, die Kamera bekam keinen
+Rahmen — und die Ansicht blieb **weiß, während alle acht Maße 0,00 mm
+meldeten**. Keines von ihnen fasst die O-Ringe an.
+
+`createAssembly.part()` prüft jetzt bei jedem Teil die Positionen und
+wirft mit Teilenamen. Nachgewiesen, indem der Fehler absichtlich noch
+einmal hergestellt wurde: statt der weißen Fläche steht seither die
+Meldung. Danach zurückgebaut, alle 42 Viewer neu (Fall 22), Selbsttest
+unverändert 42/42.
+
+### 3.18 Der Selbsttest prüft die Einzelseiten nicht
 
 Aufgefallen bei den zwei toten T-Stück-Seiten (Commit 941554c9): ihnen
 fehlte `sizeKey: 'key'`, die Modelle erschienen, aber Größenumschalter,
@@ -347,7 +361,7 @@ wollte.
 **Was fehlt:** eine Prüfung, die jede erzeugte Einzelseite wirklich lädt
 und `window.kaqua` abfragt. 41 Seiten, ein Skript. Noch nicht gebaut.
 
-### 3.18 `Marketing/` ist nicht gesichert
+### 3.19 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.

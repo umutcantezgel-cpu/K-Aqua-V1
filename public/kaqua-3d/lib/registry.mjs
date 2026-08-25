@@ -282,6 +282,14 @@ export const REGISTRY = [
   "category": "accessories"
  },
  {
+  "slug": "pp-r-ball-valve-brass",
+  "id": "valves/pp-r-ball-valve-brass",
+  "module": "kaqua-pp-r-ball-valve-brass",
+  "titleDe": "Kugelhahn PP-R (Kugel Messing verchromt)",
+  "titleEn": "PP-R Ball Valve (Ball in Brass, Chromium Plated)",
+  "category": "valves"
+ },
+ {
   "slug": "reducing-bush",
   "id": "fittings/reducing-bush",
   "module": "kaqua-reducing-bush",

@@ -34,7 +34,6 @@ export const SLUG_ALIASES: Record<string, string> = {
   "k-fiber-uv-pipe-pp-r-sdr-7-4": "pipes/k-fiber-uv-pipe-pp-r-sdr-7-4",
   "k-fiber-uv-pipe-pp-rct-sdr-7-4": "pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4",
   "pp-r-ball-valve-ball-in-pp": "valves/pp-r-ball-valve-ball-in-pp",
-  "pp-r-ball-valve-brass": "valves/pp-r-ball-valve-ball-in-pp",
   "pp-r-ball-valve-ball-in-brass-chromium-plated": "valves/pp-r-ball-valve-ball-in-pp",
   "straight-seat-valve-green-handle": "valves/pp-r-ball-valve-ball-in-pp",
   "concealed-valve-chrome-light-part": "valves/pp-r-ball-valve-ball-in-pp",
@@ -44,10 +43,12 @@ export const SLUG_ALIASES: Record<string, string> = {
   "elongation-pieces": "valves/pp-r-ball-valve-ball-in-pp",
   "tee-90-female-thread-for-internal-valve": "valves/pp-r-ball-valve-ball-in-pp",
   "union-for-watermeters": "transition-fittings/union",
-  // Sieben Ersatz-Zuordnungen sind hier entfallen, weil es die Modelle inzwischen
+  // Acht Ersatz-Zuordnungen sind hier entfallen, weil es die Modelle inzwischen
   // wirklich gibt (Bibliotheksstand 24.08.2026):
   //   adaptor-socket-female-thread — zeigte die AG-Muffe, also ein fremdes
   //   Bauteil; das eigene Modell steht seit dem 24.08.2026 (Katalog S. 94).
+  //   pp-r-ball-valve-brass — zeigte den Kugelhahn mit PP-Kugel; das ist ein
+  //   anderes Geraet (einteiliger Korpus statt Verschraubung, Katalog S. 107).
   //   metal-union-female-thread-brass · metal-union-male-thread ·
   //   metal-union-male-thread-brass · elbow-90-male-thread ·
   //   tee-90-female-thread · tee-90-male-thread

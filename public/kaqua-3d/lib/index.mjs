@@ -48,6 +48,7 @@ const LOADERS = {
   'transition-fittings/metal-union-male-thread-brass': () => import('./products/metal-union-male-thread-brass.mjs'),
   'accessories/pipe-clamps': () => import('./products/pipe-clamps.mjs'),
   'accessories/plug': () => import('./products/plug.mjs'),
+  'valves/pp-r-ball-valve-brass': () => import('./products/pp-r-ball-valve-brass.mjs'),
   'fittings/reducing-bush': () => import('./products/reducing-bush.mjs'),
   'fittings/socket': () => import('./products/socket.mjs'),
   'fittings/tee': () => import('./products/tee.mjs'),

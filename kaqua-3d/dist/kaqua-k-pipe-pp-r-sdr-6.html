@@ -2383,12 +2383,39 @@ function createAssembly(opt = {}) {
        explode  Vector3 oder Zahl (= X), Versatz bei t = 1
        anchor   Vector3 für das Beschriftungslabel
        noExplodeEntry  aus parts weglassen (rein geometrische Hilfsteile) */
+  /* Ein einziges NaN in einem Teil macht die Bounding-Box der GANZEN
+     Baugruppe ungültig, die Kamera bekommt keinen Rahmen und die Seite
+     bleibt LEER — während jede Maßprüfung weiter 0,00 mm meldet, solange
+     sie das betroffene Teil nicht anfasst.
+
+     Genau so passiert am 24.08.2026 beim Kugelhahn mit Messingkugel:
+     eine Parameterzeile stand vor der Zeile, aus der sie rechnete, die
+     O-Ringe wurden NaN, alle acht Maße blieben grün und die Ansicht war
+     weiß. Aufgefallen ist es nur am Blick auf die Seite (Fall 38).
+
+     Der Prüfling meldet sich jetzt selbst. Kosten: ein Durchlauf über
+     die Positionen bei jedem Teil, einmal je Aufbau. */
+  function pruefeGeometrie(id, geo) {
+    if (!geo) throw new Error('K-Aqua: Teil "' + id + '" hat keine Geometrie');
+    const pos = geo.attributes && geo.attributes.position;
+    if (!pos) throw new Error('K-Aqua: Teil "' + id + '" hat keine Positionen');
+    const a = pos.array;
+    for (let i = 0; i < a.length; i++) {
+      if (!Number.isFinite(a[i])) {
+        throw new Error('K-Aqua: Teil "' + id + '" hat einen ungültigen Punkt an ' +
+          'Stelle ' + i + ' (' + a[i] + '). Ein einziges NaN leert die ganze ' +
+          'Ansicht, ohne dass ein Maß es merkt.');
+      }
+    }
+  }
+
   function part(id, spec) {
     const g = new THREE.Group();
     g.name = spec.name || id;
     const mat = M[spec.mat];
     if (!mat) throw new Error('K-Aqua: Material "' + spec.mat + '" nicht angefordert (' + id + ')');
     baseKeys.add(spec.mat);
+    pruefeGeometrie(id, spec.geo);
     const mesh = new THREE.Mesh(spec.geo, mat);
     mesh.name = g.name;
     g.add(mesh);

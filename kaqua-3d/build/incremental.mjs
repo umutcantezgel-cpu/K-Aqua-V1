@@ -60,6 +60,11 @@ const FAMILY = {
   teethread: ['_tee/parts.js', '_teethread/params.js', '_teethread/parts.js',
     '_teethread/assembly.js'],
   union: ['_union/params.js', '_union/parts.js', '_union/assembly.js'],
+  /* Kugelhähne teilen die INNEREIEN, nicht die Gehäuse: Kugel, zwei
+     PTFE-Sitze, Spindel, O-Ringe. Der PP-Hahn ist eine Verschraubung
+     mit zwei Überwurfmuttern, der Messinghahn ein einteiliger Korpus
+     mit Stahlhebel — außen nichts gemeinsam, innen dasselbe Gerät. */
+  ballvalve: ['_ballvalve/parts.js'],
   /* Winkel mit Gewindeschenkel: ungleiche Schenkel, ungleiche
      Außendurchmesser. _bend/params.js liefert die Grundrechnung,
      _bendthread/parts.js den Körper. _bend/parts.js gehört NICHT dazu —
@@ -84,6 +89,7 @@ function familyFor(slug) {
   if (/^elbow-\d/.test(slug)) return FAMILY.bend;
   if (/^tee-\d+-(?:fe)?male-thread$/.test(slug)) return FAMILY.teethread;
   if (/^metal-union-/.test(slug)) return FAMILY.union;
+  if (/ball-valve/.test(slug)) return FAMILY.ballvalve;
   if (slug === 'tee' || /reducing-tee/.test(slug)) return FAMILY.tee;
   if (slug === 'cross') return [];            // baut eigene Arme
   /* Die einzige Anleihe QUER durch den Katalog, keine Familie: die
