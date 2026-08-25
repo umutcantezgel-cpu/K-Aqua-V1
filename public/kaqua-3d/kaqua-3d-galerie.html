@@ -4407,39 +4407,61 @@ function params(key) {
   P.lead = 2 * Math.tan(15 * D2R);
   P.restwand = P.wallFitting;
 
-  /* ASSUMPTION Aufteilung der Länge. Die Tabelle nennt l und z, aber
-     nicht, wo PP endet und Messing beginnt. Angesetzt: der PP-Teil ist
-     so lang, wie die Muffentiefe plus Muffengrund braucht; der Rest ist
-     Messing. Das PP-Teil wird nach unten auf die Muffentiefe + 3 mm
-     begrenzt, damit der Muffengrund immer Material trägt.
+  /* ── DIE AUFTEILUNG PP/MESSING, NEU NACH DEN BILDERN (M3) ──
 
-     Gegenprobe bei d20/½": Muffentiefe 14,5 + 3 = 17,5 mm PP von 53 mm
-     Gesamtlänge. Das Foto zeigt etwa ein Drittel PP — 17,5/53 = 0,33.
-     Trifft. */
-  P.ppLen = Math.max(P.socket + 3, Math.min(a.l * 0.42, a.l - P.threadOD * 0.55));
-  P.brassLen = a.l - P.ppLen;
+     Die Tabelle nennt nicht, wo PP endet und Messing beginnt. Die
+     erste Fassung las aus einem Foto „etwa ein Drittel PP" und stellte
+     58 % der Länge als Messing mit freiem Sechskant dar. ALH-Render
+     UND Produktfoto zeigen unabhängig das Gegenteil: der GRÜNE Körper
+     trägt ~72–74 % der Länge und die Griffzone; Messing liegt nur als
+     Gewindezapfen mit schmalem Bundring frei. Kein freier Sechskant.
 
-  /* Gewindelänge: der Zapfen trägt Gewinde über etwa zwei Drittel
-     seiner Länge, davor ein glatter Bund mit Schlüsselflächen. */
-  P.threadLen = Math.max(P.threadPitch * 4, P.brassLen * 0.62);
+     ASSUMPTION Messing sichtbar = 0,27·l, aus beiden Bildern (26–28 %
+     in der aufrechten Renderansicht und im Produktfoto). Die
+     Massenprobe unten hält die Annahme fest: Messing wiegt 8,4 g/cm³,
+     PP 0,9 — die Teilung schlägt voll auf die kg-Spalte durch. */
+  P.brassShow = Math.round(a.l * 0.27 * 10) / 10;
+  P.ppLen = a.l - P.brassShow;
+  P.bundRing = 2;                       // sichtbarer Messingring vor dem Gewinde
+  P.threadLen = P.brassShow - P.bundRing;
   P.turns = Math.max(4, Math.round(P.threadLen / P.threadPitch));
-  P.collarLen = P.brassLen - P.threadLen;
 
-  /* Schlüsselweite. D ist der größte Außendurchmesser, also das
-     Eckenmaß des Sechskants: Umkreis = D/2, Schlüsselweite = D·cos(30°).
-     Der Rotationskörper darunter liegt auf dem Inkreis (af/2) — sonst
-     umhüllt er den Sechskant und die Flächen sind unsichtbar. */
-  P.af = Math.round(a.D * Math.cos(30 * D2R) * 10) / 10;
-  P.hexLen = Math.max(4, P.collarLen * 0.78);
+  /* ── D IST DIE PP-GRIFFZONE, NICHT DER SECHSKANT ──
 
-  /* Riffelung des PP-Körpers — im Produktfoto deutlich sichtbar.
-     Zahl der Riffel wächst mit dem Umfang. */
-  P.ribCount = Math.max(10, Math.round((Math.PI * a.D1) / 6.5));
-  P.ribDepth = Math.max(0.35, a.D1 * 0.012);
+     D hängt in allen 12 Zeilen am GEWINDE (½"→35, ¾"→43, 1"→50 …) und
+     ist bei der IG-Schwestertabelle (AQ270G) bei gleichem Gewinde fast
+     identisch — obwohl es dort nie einen freien Messing-Sechskant gab.
+     D ist das dickste Maß des PP-Körpers: die geriffelte Griffzone am
+     Gewindeende. D1 bleibt die Muffenzone. Die alte Deutung
+     (Sechskant-Eckenmaß) konnte die IG-Spalte nie erklären.
+
+     ASSUMPTION Länge der Griffzone: ~0,35·l, aus dem Produktfoto; nach
+     unten begrenzt, damit die Muffenzone ihre Schweißtiefe behält. */
+  P.gripLen = Math.min(P.ppLen - P.socket - 3, Math.round(a.l * 0.35 * 10) / 10);
+  P.rGrip = a.D / 2;
+
+  /* ── DER UMSPRITZTE MESSINGKERN ──
+     Das echte Teil ist ein Verbund: der Messingeinsatz reicht unter die
+     Griffzone, sonst könnte sie ihr Schraubmoment nicht übertragen —
+     und sonst stimmt die Masse nicht. Die kg-Spalte entscheidet wie
+     beim Überbogen: nur PP wiegt das Teil um die Hälfte zu leicht, der
+     alte freie Messingkörper doppelt zu schwer. Die Einbettung ist
+     unsichtbar bis zum Schnitt; ihre Tiefe ist ASSUMPTION = Griffzone,
+     ihr Radius das Gewindekernmaß. */
+  P.embedLen = P.gripLen;
+  P.rEmbed = P.threadOD / 2 - 0.640327 * P.threadPitch;
+
+  /* Riffelung der Griffzone — im Produktfoto deutlich sichtbar. */
+  P.ribCount = Math.max(12, Math.round((Math.PI * a.D) / 6.5));
+  P.ribDepth = Math.max(0.35, a.D * 0.012);
 
   if (P.restwand < 2.4) {
     throw new Error('K-Aqua Übergangsmuffe ' + a.key + ': Muffenwand ' +
       P.restwand.toFixed(2) + ' mm zu dünn');
+  }
+  if (P.gripLen < 4) {
+    throw new Error('K-Aqua Übergangsmuffe ' + a.key + ': Griffzone ' +
+      P.gripLen.toFixed(1) + ' mm — Aufteilung prüfen');
   }
   if (P.ppLen <= P.socket) {
     throw new Error('K-Aqua Übergangsmuffe ' + a.key + ': PP-Teil ' +
@@ -4452,34 +4474,41 @@ function params(key) {
 /* == adaptor-socket-male-thread/parts.js =============================== */
 /* K-Aqua Übergangsmuffe mit Außengewinde — Kontur.
 
-   Zwei Teile, zwei Werkstoffe:
-     1. PP-Körper: Schweißmuffe mit geriffelter Mantelfläche (grooveMod)
-     2. Messingzapfen: Sechskantbund (hexPrism) + kegeliges R-Gewinde
-        (threadProfile)
+   Zwei Teile, zwei Werkstoffe — neu geschnitten nach M3:
+     1. PP-Körper: glatte Schweißmuffenzone (D1), dann die geriffelte
+        GRIFFZONE (D) am Gewindeende. Sie ist das dickste Maß des
+        Teils — die Spalte D der Tabelle (Deutung in params.js).
+     2. Messingzapfen: schmaler Bundring + kegeliges R-Gewinde
+        (threadProfile). KEIN freier Sechskant — beide Bilder zeigen
+        keinen; wo die Hand gegenhält, liegt PP.
 
-   Das ist der erste echte Einsatz von threadProfile, hexPrism und
-   knurl. Kein CSG. */
+   Kein CSG. */
 
 
-/* PP-Muffenteil. Die Riffelung sitzt auf der Mantelfläche und läuft
-   an beiden Enden aus — sie ist eine Griffhilfe beim Verschrauben, kein
-   Zierrat, und deshalb dort am tiefsten, wo die Hand fasst. */
+/* PP-Körper: Muffenzone glatt, Griffzone geriffelt. */
 function buildSleeve(P) {
   const xA = -P.xEnd;                  // Mundloch der Schweißmuffe
   const xB = xA + P.ppLen;             // Fügestelle zum Messing
+  const xGrip = xB - P.gripLen;        // Beginn der Griffzone
   const rSock = (x) => P.d / 2 - P.sockTaper * (x - xA);
-
-  const kn = knurl(P.rSleeve, P.ppLen, P.ribCount, P.ribDepth);
+  const kn = knurl(P.rGrip, P.gripLen, P.ribCount, P.ribDepth);
   const rMouth = Math.max(1.0, P.rSleeve * 0.06);
 
   const outer = [
     { a: xA, r: P.rSleeve, fillet: rMouth, w: 0 },
-    { a: xA + rMouth * 0.7, r: P.rSleeve - DRAFT * rMouth * 0.7, fillet: 0.4, w: 1 },
-    { a: xB - 1.2, r: P.rSleeve, fillet: 0.5, w: 1 },
-    { a: xB, r: P.rSleeve + 0.15, chamfer: 0.5, w: 0 },
+    { a: xA + rMouth * 0.7, r: P.rSleeve - DRAFT * rMouth * 0.7, fillet: 0.4, w: 0 },
+    { a: xGrip - 1.6, r: P.rSleeve, fillet: 0.8, w: 0 },
+    /* Schulter auf die Griffzone. Bei Größen mit D = D1 (32x3/4)
+       entfällt sie von selbst. */
+    { a: xGrip, r: P.rGrip - 0.3, fillet: 0.5, w: 0 },
+    { a: xGrip + 0.9, r: P.rGrip, fillet: 0.4, w: 1 },
+    { a: xB - 1.0, r: P.rGrip, fillet: 0.4, w: 1 },
+    { a: xB, r: P.rGrip - 0.6, chamfer: 0.7, w: 0 },
   ];
   const inner = [
     { a: xB, r: P.boreR, fillet: 0.6, w: 0 },
+    /* Netzpunkt auf der geraden Bohrstrecke. */
+    { a: (xB + xA + P.socket) / 2, r: P.boreR, fillet: 0, w: 0 },
     { a: xA + P.socket, r: P.boreR, fillet: 1.0, w: 0 },
     { a: xA + P.socket, r: rSock(xA + P.socket), fillet: 1.0, w: 0 },
     { a: xA + 2, r: rSock(xA + 2), fillet: 0.4, w: 0 },
@@ -4490,57 +4519,38 @@ function buildSleeve(P) {
   return { geo, cap: capFromProfile(profile, 'x'), profile, xB };
 }
 
-/* Messingzapfen: Sechskantbund plus kegeliges Rohrgewinde. Die
-   Gewindekontur kommt aus threadProfile — eine echte Helix kostet
-   zehntausende Dreiecke und ist im Katalogmaßstab nicht zu sehen. */
+/* Messingzapfen: Bundring + kegeliges Rohrgewinde. Die Gewindekontur
+   kommt aus threadProfile — eine echte Helix kostet zehntausende
+   Dreiecke und ist im Katalogmaßstab nicht zu sehen. */
 function buildBrass(P, xStart) {
   const rThread = P.threadOD / 2;
-  const xCollarEnd = xStart + P.collarLen;
+  const xRingEnd = xStart + P.bundRing;
   const xTip = P.xEnd;
 
-  /* Gewindekontur ab dem Bundende bis zur Spitze, kegelig 1:16. */
   const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'R')
-    .map((p) => ({ a: xCollarEnd + p.a, r: p.r, fillet: p.fillet }))
+    .map((p) => ({ a: xRingEnd + p.a, r: p.r, fillet: p.fillet }))
     .filter((p) => p.a <= xTip);
 
-  /* Über der Sechskantlänge liegt der Rotationskörper auf dem
-     INKREISRADIUS (af/2), nicht auf dem Umkreis (D/2). Sonst umhüllt er
-     den Sechskant und die Schlüsselflächen verschwinden im Material —
-     genau das war der erste Versuch. D wird vom Sechskant über Ecke
-     getragen, nicht vom Bund. */
-  const rIn = P.af / 2;
-  const hexA = xStart + (P.collarLen - P.hexLen) * 0.5;
-  const hexB = hexA + P.hexLen;
+  const xEmbed = xStart - P.embedLen;   // umspritzter Kern, unsichtbar
 
   const outer = [
-    { a: xStart, r: P.rSleeve - 0.2, fillet: 0.4 },
-    { a: xStart + 0.8, r: rIn, fillet: 0.6 },
-    { a: hexA - 0.4, r: rIn, fillet: 0.4 },
-    { a: hexB + 0.4, r: rIn, fillet: 0.4 },
-    { a: xCollarEnd - 1.0, r: rIn, fillet: 0.5 },
-    { a: xCollarEnd, r: Math.min(rIn, rThread + P.threadPitch * 0.2), chamfer: 0.6 },
+    { a: xEmbed, r: P.rEmbed, fillet: 0 },
+    { a: xStart - 0.5, r: P.rEmbed, fillet: 0 },
+    { a: xStart, r: P.rGrip - 1.2, fillet: 0.3 },
+    { a: xStart + 0.4, r: rThread + 0.8, fillet: 0.4 },
+    { a: xRingEnd - 0.3, r: rThread + 0.8, fillet: 0.3 },
+    { a: xRingEnd, r: Math.min(rThread + 0.8, rThread + P.threadPitch * 0.2), chamfer: 0.4 },
     ...thread,
-    { a: xTip, r: rThread * 0.93 - 1 / 32 * (xTip - xCollarEnd), chamfer: 0.8 },
+    { a: xTip, r: rThread * 0.93 - 1 / 32 * (xTip - xRingEnd), chamfer: 0.8 },
   ];
   const inner = [
     { a: xTip, r: P.boreR + 0.4, fillet: 0.5 },
-    { a: xCollarEnd, r: P.boreR, fillet: 0.6 },
-    { a: xStart, r: P.boreR, fillet: 0 },
+    { a: xRingEnd, r: P.boreR, fillet: 0.6 },
+    { a: xEmbed, r: P.boreR, fillet: 0 },
   ];
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  const geos = [revolve(profile, { axis: 'x', segments: SEG_VIS })];
-
-  /* Sechskant: er trägt jetzt die Silhouette. hexPrism baut in +X ab
-     a = 0, deshalb versetzt. */
-  /* bevel = 0: die Stirnfase von hexPrism nimmt vom Umkreis und würde
-     das Eckenmaß D unterschreiten. Der Sechskant sitzt zwischen zwei
-     Bundabschnitten, eine Stirnfase ist dort nicht sichtbar. Der
-     Eckenradius bleibt klein, damit D erreicht wird. */
-  const hex = hexPrism(P.af, P.hexLen, 0.3, 0);
-  hex.translate(hexA, 0, 0);
-  geos.push(hex);
-
-  return { geo: mergeGeometries(geos), cap: capFromProfile(profile, 'x'), profile };
+  const geo = revolve(profile, { axis: 'x', segments: SEG_VIS });
+  return { geo, cap: capFromProfile(profile, 'x'), profile };
 }
 
 
@@ -4625,9 +4635,9 @@ const product = {
         P.turns + ' Gänge, Steigung ' + String(P.threadPitch).replace('.', ',') + ' mm',
     });
     A.hotspot({
-      v: V3(-P.xEnd + P.ppLen + P.collarLen * 0.5, P.af * 0.42, P.af * 0.3),
+      v: V3(-P.xEnd + P.ppLen - P.gripLen * 0.5, P.rGrip * 0.6, P.rGrip * 0.62),
       n: V3(0, 0.8, 0.6),
-      text: 'Sechskant SW ' + String(P.af).replace('.', ',') + ' mm zum Gegenhalten',
+      text: 'Geriffelte Griffzone Ø ' + String(P.OD).replace('.', ',') + ' mm — hier hält die Hand gegen; Messing liegt nur als Gewindezapfen frei',
     });
 
     const zf = P.rOut + 0.12 * P.len;
@@ -4641,38 +4651,36 @@ const product = {
     A.measures = [
       { key: 'l', label: DIMENSION_KEY.l, soll: P.len,
         ist: () => { const b = A.boxOf(); return b.max.x - b.min.x; } },
-      /* Eckenmaß des Sechskants — das ist D. Die Box3-Ausdehnung
-         allein wäre blind: sie ist für einen runden Bund mit R = D/2
-         und einen Sechskant über Ecke identisch. Genau so ist der
-         unsichtbare Sechskant durch den Test gekommen. */
-      /* Eckenmaß = D. hexPrism legt die Ecke auf die Y-Achse. Der
-         0,3-mm-Eckenradius setzt den Scheitel um rund 0,05 mm zurück;
-         die restliche Differenz ist der Radius selbst — dieselbe Art
-         beabsichtigter Abweichung wie der Formtrenngrat am PP-Teil. */
+      /* D ist nach der neuen Deutung die PP-GRIFFZONE (params.js).
+         Die Box3 des PP-Teils erfasst die Riffelrücken — und die
+         liegen planmäßig auf D. */
       { key: 'D', label: DIMENSION_KEY.D, soll: P.OD,
-        ist: () => { const b = A.boxOf(['brass']); return b.max.y - b.min.y; } },
-      /* Schlüsselweite: quer zur Fläche gemessen. Nur diese Messung
-         beweist, dass der Sechskant die Silhouette bildet — bei einem
-         umhüllenden Zylinder käme hier D heraus, nicht af. */
-      { key: 'af', label: 'Schlüsselweite SW', soll: P.af,
-        /* Strahl auf die Sechskantmitte, in −Z: dort liegt die
-           Schlüsselfläche (Orientierungsvermerk bei hexPrism). Eine
-           Box3 wäre hier untauglich — bei kleinen Größen ist der
-           Anschlussbund am PP-Körper breiter als der Sechskant und
-           würde stattdessen gemessen.
-
-           Nur diese Messung beweist, dass der Sechskant die Silhouette
-           bildet: bei einem umhüllenden Zylinder käme D heraus, nicht af. */
+        ist: () => { const b = A.boxOf(['sleeve']); return b.max.y - b.min.y; } },
+      /* GEGENPROBE: die Nuttiefe der Riffelung. Eine Max-Abtastung ist
+         für Nuten blind (Lehre aus P1) — gemessen wird der tiefste
+         Punkt der Außenhaut in der Griffzone gegen den Rücken. Gleicher
+         Wert hieße: die Riffelung fehlt. */
+      { key: 'nut', label: 'Riffelnuttiefe der Griffzone', soll: Math.round(P.ribDepth * 100) / 100,
         ist: () => {
-          const x = -P.xEnd + P.ppLen + (P.collarLen - P.hexLen) * 0.5 + P.hexLen * 0.5;
-          const hit = A.probeAxial('brass', V3(x, 0, P.OD), V3(0, 0, -1));
+          const g = A.geos[0].attributes.position.array;
+          const x0 = -P.xEnd + P.ppLen - P.gripLen + 0.9,
+                x1 = -P.xEnd + P.ppLen - 1.0;
+          let max = 0, min = Infinity;
+          for (let i = 0; i < g.length; i += 3) {
+            const x = g[i]; if (x < x0 || x > x1) continue;
+            const r = Math.hypot(g[i + 1], g[i + 2]);
+            if (r < P.rGrip - 2 * P.ribDepth - 0.4) continue;
+            if (r > max) max = r; if (r < min) min = r;
+          }
+          return isFinite(min) ? Math.round((max - min) * 100) / 100 : NaN;
+        } },
+      /* D1 ist die glatte Muffenzone — die Teil-Box trägt jetzt D
+         (Griffzone), deshalb ein Strahl auf halber Schweißtiefe. */
+      { key: 'D1', label: DIMENSION_KEY.D1, soll: P.D1,
+        ist: () => {
+          const hit = A.probeAxial('sleeve', V3(-P.xEnd + P.socket * 0.5, 0, P.OD), V3(0, 0, -1));
           return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
         } },
-      /* Am Riffelrücken gemessen: die Nuten liegen planmäßig unter dem
-         Nennmaß, und ein einzelner Strahl trifft je nach Winkel Nut
-         oder Rücken. Die Box3 des PP-Teils erfasst immer den Rücken. */
-      { key: 'D1', label: DIMENSION_KEY.D1, soll: P.D1,
-        ist: () => { const b = A.boxOf(['sleeve']); return b.max.z - b.min.z; } },
       /* ── Der Gewindescheitel, abgetastet ──
          Hier stand: `soll: P.threadOD, ist: () => P.threadOD`. Das ist
          Fall 12 in Reinform — die Messung gibt die Annahme zurück, die
@@ -4689,7 +4697,7 @@ const product = {
       { key: 'gewinde', label: 'Gewinde-Außendurchmesser R' + P.R + '" (2. Kuppe)',
         soll: Math.round((P.threadOD - 2 * P.threadPitch / 32) * 100) / 100,
         ist: () => {
-          const x = -P.xEnd + P.ppLen + P.collarLen + P.threadPitch;
+          const x = -P.xEnd + P.ppLen + P.bundRing + P.threadPitch;
           const hit = A.probeAxial('brass', V3(x, 0, P.threadOD), V3(0, 0, -1));
           return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
         } },
@@ -4705,7 +4713,7 @@ const product = {
             + 2 * rd * (1 / Math.sin(27.5 * Math.PI / 180) - 1)) * 100) / 100;
         })(),
         ist: () => {
-          const x = -P.xEnd + P.ppLen + P.collarLen + 1.5 * P.threadPitch;
+          const x = -P.xEnd + P.ppLen + P.bundRing + 1.5 * P.threadPitch;
           const hit = A.probeAxial('brass', V3(x, 0, P.threadOD), V3(0, 0, -1));
           return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
         } },
@@ -25155,15 +25163,16 @@ function teeThreadParams(a, cfg) {
     P.brassEmbed = Math.round(0.62 * P.threadOD * 10) / 10;
     P.brassBottom = P.ppTop - P.brassEmbed;
     P.brassTop = a.z1;
-    /* ASSUMPTION Schlüsselweite. Die Zeichnung zeigt einen Sechskant am
-       Zapfen und beschriftet ihn SW; die Tabelle führt ihn NICHT.
-       Angesetzt 1,32·Gewinde-Ø — der Faktor, den der Gewindeadaptor bei
-       denselben Gewinden zeigt. Am Originalteil zu prüfen. */
-    P.afHex = Math.round(1.32 * P.threadOD * 10) / 10;
-    P.hexFillet = Math.max(0.3, P.afHex * 0.03);
-    P.cornerHex = Math.round((2 * (P.afHex / Math.sqrt(3)
-      - (1 / Math.sin(60 * D2R) - 1) * P.hexFillet)) * 100) / 100;
-    P.hexLen = Math.round(Math.max(4, P.brassStick * 0.42) * 10) / 10;
+    /* ── QUELLENWIDERSPRUCH SECHSKANT, dokumentiert am 25.08.2026 ──
+       Die Maßzeichnung S. 99 zeigt am Zapfen einen Sechskant mit
+       SW-Marke — unbemaßt. Das Produktfoto AQ133GP zeigt KEINEN freien
+       Sechskant: über dem PP-Abzweig liegt nur ein schmaler Bundring,
+       dann das Gewinde. Die Skizzen dieses Katalogs sind belegt
+       maßstabslose Schablonen; das Foto ist das echte Teil. Keine
+       Quelle gewinnt — gebaut wird nach der besseren Handhabung (Foto),
+       der Widerspruch steht hier und im Mängelregister (M7).
+       Dieselbe Entscheidung fiel beim Gewindeadaptor (M3). */
+    P.bundRing = 1.8;
   } else {
     P.brassBottom = a.z1;
     P.brassTop = a.h;
@@ -25173,7 +25182,7 @@ function teeThreadParams(a, cfg) {
   P.branchTotal = kind === 'R' ? P.threadTip : P.ppTop;
 
   /* Gänge über die tragende Gewindelänge, mindestens drei. */
-  P.threadLen = kind === 'R' ? P.brassStick - (P.hexLen ?? 0) - 1.2 : P.brassRing - 2.0;
+  P.threadLen = kind === 'R' ? P.brassStick - (P.bundRing ?? 0) - 1.2 : P.brassRing - 2.0;
   P.turns = Math.max(3, Math.floor((P.threadLen - 0.6) / P.threadPitch));
 
   /* Außendurchmesser des Messingteils im PP-Körper. */
@@ -25321,23 +25330,21 @@ function buildBrassRing(P) {
 function buildBrassSpigot(P) {
   const yA = P.brassBottom;
   const yPP = P.ppTop;
-  const yHexA = yPP + 0.8;
-  const yHexB = yHexA + P.hexLen;
+  const yRingB = yPP + P.bundRing;      // schmaler Bundring statt Sechskant (M7)
   const yTip = P.threadTip;
-  const rHexIn = P.afHex / 2;
 
   const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'R')
-    .map((p) => ({ a: yHexB + 0.8 + p.a, r: p.r, fillet: p.fillet }))
+    .map((p) => ({ a: yRingB + 0.8 + p.a, r: p.r, fillet: p.fillet }))
     .filter((p) => p.a <= yTip - 0.8);
 
   const outer = [
     { a: yA, r: P.brassR - 0.15, chamfer: 0.5 },
     { a: yPP - 0.6, r: P.brassR - 0.15, fillet: 0.4 },
-    { a: yHexA, r: rHexIn, fillet: 0.5 },
-    { a: yHexB, r: rHexIn, fillet: 0.4 },
+    { a: yPP + 0.2, r: P.threadOD / 2 + 0.8, fillet: 0.3 },
+    { a: yRingB, r: P.threadOD / 2 + 0.8, fillet: 0.3 },
     /* Gewindeauslauf auf dem Kerndurchmesser, dann die Kontur. Kein
        Punkt auf demselben a wie die erste Kuppe (Fall 23). */
-    { a: yHexB + 0.35, r: P.threadOD / 2 - P.threadH, chamfer: 0.4 },
+    { a: yRingB + 0.35, r: P.threadOD / 2 - P.threadH, chamfer: 0.4 },
     ...thread,
     { a: yTip, r: P.threadOD / 2 - P.threadH - 0.3, chamfer: 0.4 },
   ];
@@ -25349,17 +25356,6 @@ function buildBrassSpigot(P) {
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
   const geos = [revolve(profile, { axis: 'y', segments: SEG_VIS })];
 
-  /* hexPrism baut entlang +X und legt eine SCHLÜSSELFLÄCHE auf Z, eine
-     ECKE auf Y. Für den Abzweig um Y muss er gedreht werden — die
-     Drehung VOR dem Verschieben, sonst läuft das Teil auf einer
-     Kreisbahn um den Ursprung (Fall 24).
-
-     Nach rotateZ(+90°) zeigt die frühere +X-Richtung nach +Y; die
-     Schlüsselfläche liegt weiterhin auf Z, die Ecke jetzt auf −X. */
-  const hex = hexPrism(P.afHex, P.hexLen, P.hexFillet, 0);
-  hex.rotateZ(Math.PI / 2);
-  hex.translate(0, yHexA, 0);
-  geos.push(hex);
 
   return { geo: mergeGeometries(geos), cap: capFromProfile(profile, 'y') };
 }
@@ -25522,24 +25518,17 @@ function buildTeeThread(cfg, size, variant, clipPlane) {
   ];
 
   if (male) {
-    const yTh0 = P.ppTop + 0.8 + P.hexLen + 0.8;
+    const yTh0 = P.ppTop + P.bundRing + 0.8;
     const kuppe = (i) => yTh0 + i * P.threadPitch;
     const sollKuppe = (i) => r2(P.threadOD - 2 * (i * P.threadPitch) / 32);
     messungen.push(
-      /* Schlüsselweite: Strahl in −Z auf eine Schlüsselfläche.
-         hexPrism ist um Z gedreht — die Fläche liegt weiterhin auf Z. */
-      { key: 'SW', label: 'Schlüsselweite Sechskant', soll: P.afHex,
+      /* Der Bundring über dem PP — der einzige freie Messingring vor
+         dem Gewinde. GEGENPROBE zum Gewindemaß: er MUSS dicker sein
+         als die erste Kuppe (Fall 25). */
+      { key: 'bund', label: 'Bundring über dem PP-Abzweig', soll: r2(P.threadOD + 1.6),
         ist: () => {
-          const h = strahl('brass', V3(0, yHexMid, P.afHex), V3(0, 0, -1));
+          const h = strahl('brass', V3(0, P.ppTop + P.bundRing * 0.5, P.threadOD), V3(0, 0, -1));
           return h ? r2(2 * h.z) : NaN;
-        } },
-      /* GEGENPROBE: nach rotateZ(+90°) liegt die ECKE auf −X. Der Wert
-         MUSS hier das Eckenmaß sein. Käme wieder SW heraus, umhüllte
-         ein Zylinder den Sechskant (Fall 11 und 13). */
-      { key: 'SW_ecke', label: 'Eckenmaß Sechskant', soll: P.cornerHex,
-        ist: () => {
-          const h = strahl('brass', V3(-P.afHex, yHexMid, 0), V3(1, 0, 0));
-          return h ? r2(2 * Math.abs(h.x)) : NaN;
         } },
       { key: 'gewinde', label: 'Gewinde-Außendurchmesser (1. Kuppe)', soll: sollKuppe(1),
         ist: () => {
@@ -26600,15 +26589,16 @@ function teeThreadParams(a, cfg) {
     P.brassEmbed = Math.round(0.62 * P.threadOD * 10) / 10;
     P.brassBottom = P.ppTop - P.brassEmbed;
     P.brassTop = a.z1;
-    /* ASSUMPTION Schlüsselweite. Die Zeichnung zeigt einen Sechskant am
-       Zapfen und beschriftet ihn SW; die Tabelle führt ihn NICHT.
-       Angesetzt 1,32·Gewinde-Ø — der Faktor, den der Gewindeadaptor bei
-       denselben Gewinden zeigt. Am Originalteil zu prüfen. */
-    P.afHex = Math.round(1.32 * P.threadOD * 10) / 10;
-    P.hexFillet = Math.max(0.3, P.afHex * 0.03);
-    P.cornerHex = Math.round((2 * (P.afHex / Math.sqrt(3)
-      - (1 / Math.sin(60 * D2R) - 1) * P.hexFillet)) * 100) / 100;
-    P.hexLen = Math.round(Math.max(4, P.brassStick * 0.42) * 10) / 10;
+    /* ── QUELLENWIDERSPRUCH SECHSKANT, dokumentiert am 25.08.2026 ──
+       Die Maßzeichnung S. 99 zeigt am Zapfen einen Sechskant mit
+       SW-Marke — unbemaßt. Das Produktfoto AQ133GP zeigt KEINEN freien
+       Sechskant: über dem PP-Abzweig liegt nur ein schmaler Bundring,
+       dann das Gewinde. Die Skizzen dieses Katalogs sind belegt
+       maßstabslose Schablonen; das Foto ist das echte Teil. Keine
+       Quelle gewinnt — gebaut wird nach der besseren Handhabung (Foto),
+       der Widerspruch steht hier und im Mängelregister (M7).
+       Dieselbe Entscheidung fiel beim Gewindeadaptor (M3). */
+    P.bundRing = 1.8;
   } else {
     P.brassBottom = a.z1;
     P.brassTop = a.h;
@@ -26618,7 +26608,7 @@ function teeThreadParams(a, cfg) {
   P.branchTotal = kind === 'R' ? P.threadTip : P.ppTop;
 
   /* Gänge über die tragende Gewindelänge, mindestens drei. */
-  P.threadLen = kind === 'R' ? P.brassStick - (P.hexLen ?? 0) - 1.2 : P.brassRing - 2.0;
+  P.threadLen = kind === 'R' ? P.brassStick - (P.bundRing ?? 0) - 1.2 : P.brassRing - 2.0;
   P.turns = Math.max(3, Math.floor((P.threadLen - 0.6) / P.threadPitch));
 
   /* Außendurchmesser des Messingteils im PP-Körper. */
@@ -26766,23 +26756,21 @@ function buildBrassRing(P) {
 function buildBrassSpigot(P) {
   const yA = P.brassBottom;
   const yPP = P.ppTop;
-  const yHexA = yPP + 0.8;
-  const yHexB = yHexA + P.hexLen;
+  const yRingB = yPP + P.bundRing;      // schmaler Bundring statt Sechskant (M7)
   const yTip = P.threadTip;
-  const rHexIn = P.afHex / 2;
 
   const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'R')
-    .map((p) => ({ a: yHexB + 0.8 + p.a, r: p.r, fillet: p.fillet }))
+    .map((p) => ({ a: yRingB + 0.8 + p.a, r: p.r, fillet: p.fillet }))
     .filter((p) => p.a <= yTip - 0.8);
 
   const outer = [
     { a: yA, r: P.brassR - 0.15, chamfer: 0.5 },
     { a: yPP - 0.6, r: P.brassR - 0.15, fillet: 0.4 },
-    { a: yHexA, r: rHexIn, fillet: 0.5 },
-    { a: yHexB, r: rHexIn, fillet: 0.4 },
+    { a: yPP + 0.2, r: P.threadOD / 2 + 0.8, fillet: 0.3 },
+    { a: yRingB, r: P.threadOD / 2 + 0.8, fillet: 0.3 },
     /* Gewindeauslauf auf dem Kerndurchmesser, dann die Kontur. Kein
        Punkt auf demselben a wie die erste Kuppe (Fall 23). */
-    { a: yHexB + 0.35, r: P.threadOD / 2 - P.threadH, chamfer: 0.4 },
+    { a: yRingB + 0.35, r: P.threadOD / 2 - P.threadH, chamfer: 0.4 },
     ...thread,
     { a: yTip, r: P.threadOD / 2 - P.threadH - 0.3, chamfer: 0.4 },
   ];
@@ -26794,17 +26782,6 @@ function buildBrassSpigot(P) {
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
   const geos = [revolve(profile, { axis: 'y', segments: SEG_VIS })];
 
-  /* hexPrism baut entlang +X und legt eine SCHLÜSSELFLÄCHE auf Z, eine
-     ECKE auf Y. Für den Abzweig um Y muss er gedreht werden — die
-     Drehung VOR dem Verschieben, sonst läuft das Teil auf einer
-     Kreisbahn um den Ursprung (Fall 24).
-
-     Nach rotateZ(+90°) zeigt die frühere +X-Richtung nach +Y; die
-     Schlüsselfläche liegt weiterhin auf Z, die Ecke jetzt auf −X. */
-  const hex = hexPrism(P.afHex, P.hexLen, P.hexFillet, 0);
-  hex.rotateZ(Math.PI / 2);
-  hex.translate(0, yHexA, 0);
-  geos.push(hex);
 
   return { geo: mergeGeometries(geos), cap: capFromProfile(profile, 'y') };
 }
@@ -26967,24 +26944,17 @@ function buildTeeThread(cfg, size, variant, clipPlane) {
   ];
 
   if (male) {
-    const yTh0 = P.ppTop + 0.8 + P.hexLen + 0.8;
+    const yTh0 = P.ppTop + P.bundRing + 0.8;
     const kuppe = (i) => yTh0 + i * P.threadPitch;
     const sollKuppe = (i) => r2(P.threadOD - 2 * (i * P.threadPitch) / 32);
     messungen.push(
-      /* Schlüsselweite: Strahl in −Z auf eine Schlüsselfläche.
-         hexPrism ist um Z gedreht — die Fläche liegt weiterhin auf Z. */
-      { key: 'SW', label: 'Schlüsselweite Sechskant', soll: P.afHex,
+      /* Der Bundring über dem PP — der einzige freie Messingring vor
+         dem Gewinde. GEGENPROBE zum Gewindemaß: er MUSS dicker sein
+         als die erste Kuppe (Fall 25). */
+      { key: 'bund', label: 'Bundring über dem PP-Abzweig', soll: r2(P.threadOD + 1.6),
         ist: () => {
-          const h = strahl('brass', V3(0, yHexMid, P.afHex), V3(0, 0, -1));
+          const h = strahl('brass', V3(0, P.ppTop + P.bundRing * 0.5, P.threadOD), V3(0, 0, -1));
           return h ? r2(2 * h.z) : NaN;
-        } },
-      /* GEGENPROBE: nach rotateZ(+90°) liegt die ECKE auf −X. Der Wert
-         MUSS hier das Eckenmaß sein. Käme wieder SW heraus, umhüllte
-         ein Zylinder den Sechskant (Fall 11 und 13). */
-      { key: 'SW_ecke', label: 'Eckenmaß Sechskant', soll: P.cornerHex,
-        ist: () => {
-          const h = strahl('brass', V3(-P.afHex, yHexMid, 0), V3(1, 0, 0));
-          return h ? r2(2 * Math.abs(h.x)) : NaN;
         } },
       { key: 'gewinde', label: 'Gewinde-Außendurchmesser (1. Kuppe)', soll: sollKuppe(1),
         ist: () => {

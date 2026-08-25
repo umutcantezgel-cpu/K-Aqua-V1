@@ -158,24 +158,17 @@ export function buildTeeThread(cfg, size, variant, clipPlane) {
   ];
 
   if (male) {
-    const yTh0 = P.ppTop + 0.8 + P.hexLen + 0.8;
+    const yTh0 = P.ppTop + P.bundRing + 0.8;
     const kuppe = (i) => yTh0 + i * P.threadPitch;
     const sollKuppe = (i) => r2(P.threadOD - 2 * (i * P.threadPitch) / 32);
     messungen.push(
-      /* Schlüsselweite: Strahl in −Z auf eine Schlüsselfläche.
-         hexPrism ist um Z gedreht — die Fläche liegt weiterhin auf Z. */
-      { key: 'SW', label: 'Schlüsselweite Sechskant', soll: P.afHex,
+      /* Der Bundring über dem PP — der einzige freie Messingring vor
+         dem Gewinde. GEGENPROBE zum Gewindemaß: er MUSS dicker sein
+         als die erste Kuppe (Fall 25). */
+      { key: 'bund', label: 'Bundring über dem PP-Abzweig', soll: r2(P.threadOD + 1.6),
         ist: () => {
-          const h = strahl('brass', V3(0, yHexMid, P.afHex), V3(0, 0, -1));
+          const h = strahl('brass', V3(0, P.ppTop + P.bundRing * 0.5, P.threadOD), V3(0, 0, -1));
           return h ? r2(2 * h.z) : NaN;
-        } },
-      /* GEGENPROBE: nach rotateZ(+90°) liegt die ECKE auf −X. Der Wert
-         MUSS hier das Eckenmaß sein. Käme wieder SW heraus, umhüllte
-         ein Zylinder den Sechskant (Fall 11 und 13). */
-      { key: 'SW_ecke', label: 'Eckenmaß Sechskant', soll: P.cornerHex,
-        ist: () => {
-          const h = strahl('brass', V3(-P.afHex, yHexMid, 0), V3(1, 0, 0));
-          return h ? r2(2 * Math.abs(h.x)) : NaN;
         } },
       { key: 'gewinde', label: 'Gewinde-Außendurchmesser (1. Kuppe)', soll: sollKuppe(1),
         ist: () => {

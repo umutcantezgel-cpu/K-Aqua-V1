@@ -108,23 +108,21 @@ export function buildBrassRing(P) {
 export function buildBrassSpigot(P) {
   const yA = P.brassBottom;
   const yPP = P.ppTop;
-  const yHexA = yPP + 0.8;
-  const yHexB = yHexA + P.hexLen;
+  const yRingB = yPP + P.bundRing;      // schmaler Bundring statt Sechskant (M7)
   const yTip = P.threadTip;
-  const rHexIn = P.afHex / 2;
 
   const thread = threadProfile(P.threadOD, P.threadPitch, P.turns, 'R')
-    .map((p) => ({ a: yHexB + 0.8 + p.a, r: p.r, fillet: p.fillet }))
+    .map((p) => ({ a: yRingB + 0.8 + p.a, r: p.r, fillet: p.fillet }))
     .filter((p) => p.a <= yTip - 0.8);
 
   const outer = [
     { a: yA, r: P.brassR - 0.15, chamfer: 0.5 },
     { a: yPP - 0.6, r: P.brassR - 0.15, fillet: 0.4 },
-    { a: yHexA, r: rHexIn, fillet: 0.5 },
-    { a: yHexB, r: rHexIn, fillet: 0.4 },
+    { a: yPP + 0.2, r: P.threadOD / 2 + 0.8, fillet: 0.3 },
+    { a: yRingB, r: P.threadOD / 2 + 0.8, fillet: 0.3 },
     /* Gewindeauslauf auf dem Kerndurchmesser, dann die Kontur. Kein
        Punkt auf demselben a wie die erste Kuppe (Fall 23). */
-    { a: yHexB + 0.35, r: P.threadOD / 2 - P.threadH, chamfer: 0.4 },
+    { a: yRingB + 0.35, r: P.threadOD / 2 - P.threadH, chamfer: 0.4 },
     ...thread,
     { a: yTip, r: P.threadOD / 2 - P.threadH - 0.3, chamfer: 0.4 },
   ];
@@ -136,17 +134,6 @@ export function buildBrassSpigot(P) {
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
   const geos = [revolve(profile, { axis: 'y', segments: SEG_VIS })];
 
-  /* hexPrism baut entlang +X und legt eine SCHLÜSSELFLÄCHE auf Z, eine
-     ECKE auf Y. Für den Abzweig um Y muss er gedreht werden — die
-     Drehung VOR dem Verschieben, sonst läuft das Teil auf einer
-     Kreisbahn um den Ursprung (Fall 24).
-
-     Nach rotateZ(+90°) zeigt die frühere +X-Richtung nach +Y; die
-     Schlüsselfläche liegt weiterhin auf Z, die Ecke jetzt auf −X. */
-  const hex = hexPrism(P.afHex, P.hexLen, P.hexFillet, 0);
-  hex.rotateZ(Math.PI / 2);
-  hex.translate(0, yHexA, 0);
-  geos.push(hex);
 
   return { geo: mergeGeometries(geos), cap: capFromProfile(profile, 'y') };
 }

@@ -108,15 +108,16 @@ export function teeThreadParams(a, cfg) {
     P.brassEmbed = Math.round(0.62 * P.threadOD * 10) / 10;
     P.brassBottom = P.ppTop - P.brassEmbed;
     P.brassTop = a.z1;
-    /* ASSUMPTION Schlüsselweite. Die Zeichnung zeigt einen Sechskant am
-       Zapfen und beschriftet ihn SW; die Tabelle führt ihn NICHT.
-       Angesetzt 1,32·Gewinde-Ø — der Faktor, den der Gewindeadaptor bei
-       denselben Gewinden zeigt. Am Originalteil zu prüfen. */
-    P.afHex = Math.round(1.32 * P.threadOD * 10) / 10;
-    P.hexFillet = Math.max(0.3, P.afHex * 0.03);
-    P.cornerHex = Math.round((2 * (P.afHex / Math.sqrt(3)
-      - (1 / Math.sin(60 * D2R) - 1) * P.hexFillet)) * 100) / 100;
-    P.hexLen = Math.round(Math.max(4, P.brassStick * 0.42) * 10) / 10;
+    /* ── QUELLENWIDERSPRUCH SECHSKANT, dokumentiert am 25.08.2026 ──
+       Die Maßzeichnung S. 99 zeigt am Zapfen einen Sechskant mit
+       SW-Marke — unbemaßt. Das Produktfoto AQ133GP zeigt KEINEN freien
+       Sechskant: über dem PP-Abzweig liegt nur ein schmaler Bundring,
+       dann das Gewinde. Die Skizzen dieses Katalogs sind belegt
+       maßstabslose Schablonen; das Foto ist das echte Teil. Keine
+       Quelle gewinnt — gebaut wird nach der besseren Handhabung (Foto),
+       der Widerspruch steht hier und im Mängelregister (M7).
+       Dieselbe Entscheidung fiel beim Gewindeadaptor (M3). */
+    P.bundRing = 1.8;
   } else {
     P.brassBottom = a.z1;
     P.brassTop = a.h;
@@ -126,7 +127,7 @@ export function teeThreadParams(a, cfg) {
   P.branchTotal = kind === 'R' ? P.threadTip : P.ppTop;
 
   /* Gänge über die tragende Gewindelänge, mindestens drei. */
-  P.threadLen = kind === 'R' ? P.brassStick - (P.hexLen ?? 0) - 1.2 : P.brassRing - 2.0;
+  P.threadLen = kind === 'R' ? P.brassStick - (P.bundRing ?? 0) - 1.2 : P.brassRing - 2.0;
   P.turns = Math.max(3, Math.floor((P.threadLen - 0.6) / P.threadPitch));
 
   /* Außendurchmesser des Messingteils im PP-Körper. */

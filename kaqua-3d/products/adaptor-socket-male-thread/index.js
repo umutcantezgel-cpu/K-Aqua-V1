@@ -83,9 +83,9 @@ const product = {
         P.turns + ' Gänge, Steigung ' + String(P.threadPitch).replace('.', ',') + ' mm',
     });
     A.hotspot({
-      v: V3(-P.xEnd + P.ppLen + P.collarLen * 0.5, P.af * 0.42, P.af * 0.3),
+      v: V3(-P.xEnd + P.ppLen - P.gripLen * 0.5, P.rGrip * 0.6, P.rGrip * 0.62),
       n: V3(0, 0.8, 0.6),
-      text: 'Sechskant SW ' + String(P.af).replace('.', ',') + ' mm zum Gegenhalten',
+      text: 'Geriffelte Griffzone Ø ' + String(P.OD).replace('.', ',') + ' mm — hier hält die Hand gegen; Messing liegt nur als Gewindezapfen frei',
     });
 
     const zf = P.rOut + 0.12 * P.len;
@@ -99,38 +99,36 @@ const product = {
     A.measures = [
       { key: 'l', label: DIMENSION_KEY.l, soll: P.len,
         ist: () => { const b = A.boxOf(); return b.max.x - b.min.x; } },
-      /* Eckenmaß des Sechskants — das ist D. Die Box3-Ausdehnung
-         allein wäre blind: sie ist für einen runden Bund mit R = D/2
-         und einen Sechskant über Ecke identisch. Genau so ist der
-         unsichtbare Sechskant durch den Test gekommen. */
-      /* Eckenmaß = D. hexPrism legt die Ecke auf die Y-Achse. Der
-         0,3-mm-Eckenradius setzt den Scheitel um rund 0,05 mm zurück;
-         die restliche Differenz ist der Radius selbst — dieselbe Art
-         beabsichtigter Abweichung wie der Formtrenngrat am PP-Teil. */
+      /* D ist nach der neuen Deutung die PP-GRIFFZONE (params.js).
+         Die Box3 des PP-Teils erfasst die Riffelrücken — und die
+         liegen planmäßig auf D. */
       { key: 'D', label: DIMENSION_KEY.D, soll: P.OD,
-        ist: () => { const b = A.boxOf(['brass']); return b.max.y - b.min.y; } },
-      /* Schlüsselweite: quer zur Fläche gemessen. Nur diese Messung
-         beweist, dass der Sechskant die Silhouette bildet — bei einem
-         umhüllenden Zylinder käme hier D heraus, nicht af. */
-      { key: 'af', label: 'Schlüsselweite SW', soll: P.af,
-        /* Strahl auf die Sechskantmitte, in −Z: dort liegt die
-           Schlüsselfläche (Orientierungsvermerk bei hexPrism). Eine
-           Box3 wäre hier untauglich — bei kleinen Größen ist der
-           Anschlussbund am PP-Körper breiter als der Sechskant und
-           würde stattdessen gemessen.
-
-           Nur diese Messung beweist, dass der Sechskant die Silhouette
-           bildet: bei einem umhüllenden Zylinder käme D heraus, nicht af. */
+        ist: () => { const b = A.boxOf(['sleeve']); return b.max.y - b.min.y; } },
+      /* GEGENPROBE: die Nuttiefe der Riffelung. Eine Max-Abtastung ist
+         für Nuten blind (Lehre aus P1) — gemessen wird der tiefste
+         Punkt der Außenhaut in der Griffzone gegen den Rücken. Gleicher
+         Wert hieße: die Riffelung fehlt. */
+      { key: 'nut', label: 'Riffelnuttiefe der Griffzone', soll: Math.round(P.ribDepth * 100) / 100,
         ist: () => {
-          const x = -P.xEnd + P.ppLen + (P.collarLen - P.hexLen) * 0.5 + P.hexLen * 0.5;
-          const hit = A.probeAxial('brass', V3(x, 0, P.OD), V3(0, 0, -1));
+          const g = A.geos[0].attributes.position.array;
+          const x0 = -P.xEnd + P.ppLen - P.gripLen + 0.9,
+                x1 = -P.xEnd + P.ppLen - 1.0;
+          let max = 0, min = Infinity;
+          for (let i = 0; i < g.length; i += 3) {
+            const x = g[i]; if (x < x0 || x > x1) continue;
+            const r = Math.hypot(g[i + 1], g[i + 2]);
+            if (r < P.rGrip - 2 * P.ribDepth - 0.4) continue;
+            if (r > max) max = r; if (r < min) min = r;
+          }
+          return isFinite(min) ? Math.round((max - min) * 100) / 100 : NaN;
+        } },
+      /* D1 ist die glatte Muffenzone — die Teil-Box trägt jetzt D
+         (Griffzone), deshalb ein Strahl auf halber Schweißtiefe. */
+      { key: 'D1', label: DIMENSION_KEY.D1, soll: P.D1,
+        ist: () => {
+          const hit = A.probeAxial('sleeve', V3(-P.xEnd + P.socket * 0.5, 0, P.OD), V3(0, 0, -1));
           return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
         } },
-      /* Am Riffelrücken gemessen: die Nuten liegen planmäßig unter dem
-         Nennmaß, und ein einzelner Strahl trifft je nach Winkel Nut
-         oder Rücken. Die Box3 des PP-Teils erfasst immer den Rücken. */
-      { key: 'D1', label: DIMENSION_KEY.D1, soll: P.D1,
-        ist: () => { const b = A.boxOf(['sleeve']); return b.max.z - b.min.z; } },
       /* ── Der Gewindescheitel, abgetastet ──
          Hier stand: `soll: P.threadOD, ist: () => P.threadOD`. Das ist
          Fall 12 in Reinform — die Messung gibt die Annahme zurück, die
@@ -147,7 +145,7 @@ const product = {
       { key: 'gewinde', label: 'Gewinde-Außendurchmesser R' + P.R + '" (2. Kuppe)',
         soll: Math.round((P.threadOD - 2 * P.threadPitch / 32) * 100) / 100,
         ist: () => {
-          const x = -P.xEnd + P.ppLen + P.collarLen + P.threadPitch;
+          const x = -P.xEnd + P.ppLen + P.bundRing + P.threadPitch;
           const hit = A.probeAxial('brass', V3(x, 0, P.threadOD), V3(0, 0, -1));
           return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
         } },
@@ -163,7 +161,7 @@ const product = {
             + 2 * rd * (1 / Math.sin(27.5 * Math.PI / 180) - 1)) * 100) / 100;
         })(),
         ist: () => {
-          const x = -P.xEnd + P.ppLen + P.collarLen + 1.5 * P.threadPitch;
+          const x = -P.xEnd + P.ppLen + P.bundRing + 1.5 * P.threadPitch;
           const hit = A.probeAxial('brass', V3(x, 0, P.threadOD), V3(0, 0, -1));
           return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
         } },

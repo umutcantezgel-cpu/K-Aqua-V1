@@ -31,39 +31,61 @@ export function params(key) {
   P.lead = 2 * Math.tan(15 * D2R);
   P.restwand = P.wallFitting;
 
-  /* ASSUMPTION Aufteilung der Länge. Die Tabelle nennt l und z, aber
-     nicht, wo PP endet und Messing beginnt. Angesetzt: der PP-Teil ist
-     so lang, wie die Muffentiefe plus Muffengrund braucht; der Rest ist
-     Messing. Das PP-Teil wird nach unten auf die Muffentiefe + 3 mm
-     begrenzt, damit der Muffengrund immer Material trägt.
+  /* ── DIE AUFTEILUNG PP/MESSING, NEU NACH DEN BILDERN (M3) ──
 
-     Gegenprobe bei d20/½": Muffentiefe 14,5 + 3 = 17,5 mm PP von 53 mm
-     Gesamtlänge. Das Foto zeigt etwa ein Drittel PP — 17,5/53 = 0,33.
-     Trifft. */
-  P.ppLen = Math.max(P.socket + 3, Math.min(a.l * 0.42, a.l - P.threadOD * 0.55));
-  P.brassLen = a.l - P.ppLen;
+     Die Tabelle nennt nicht, wo PP endet und Messing beginnt. Die
+     erste Fassung las aus einem Foto „etwa ein Drittel PP" und stellte
+     58 % der Länge als Messing mit freiem Sechskant dar. ALH-Render
+     UND Produktfoto zeigen unabhängig das Gegenteil: der GRÜNE Körper
+     trägt ~72–74 % der Länge und die Griffzone; Messing liegt nur als
+     Gewindezapfen mit schmalem Bundring frei. Kein freier Sechskant.
 
-  /* Gewindelänge: der Zapfen trägt Gewinde über etwa zwei Drittel
-     seiner Länge, davor ein glatter Bund mit Schlüsselflächen. */
-  P.threadLen = Math.max(P.threadPitch * 4, P.brassLen * 0.62);
+     ASSUMPTION Messing sichtbar = 0,27·l, aus beiden Bildern (26–28 %
+     in der aufrechten Renderansicht und im Produktfoto). Die
+     Massenprobe unten hält die Annahme fest: Messing wiegt 8,4 g/cm³,
+     PP 0,9 — die Teilung schlägt voll auf die kg-Spalte durch. */
+  P.brassShow = Math.round(a.l * 0.27 * 10) / 10;
+  P.ppLen = a.l - P.brassShow;
+  P.bundRing = 2;                       // sichtbarer Messingring vor dem Gewinde
+  P.threadLen = P.brassShow - P.bundRing;
   P.turns = Math.max(4, Math.round(P.threadLen / P.threadPitch));
-  P.collarLen = P.brassLen - P.threadLen;
 
-  /* Schlüsselweite. D ist der größte Außendurchmesser, also das
-     Eckenmaß des Sechskants: Umkreis = D/2, Schlüsselweite = D·cos(30°).
-     Der Rotationskörper darunter liegt auf dem Inkreis (af/2) — sonst
-     umhüllt er den Sechskant und die Flächen sind unsichtbar. */
-  P.af = Math.round(a.D * Math.cos(30 * D2R) * 10) / 10;
-  P.hexLen = Math.max(4, P.collarLen * 0.78);
+  /* ── D IST DIE PP-GRIFFZONE, NICHT DER SECHSKANT ──
 
-  /* Riffelung des PP-Körpers — im Produktfoto deutlich sichtbar.
-     Zahl der Riffel wächst mit dem Umfang. */
-  P.ribCount = Math.max(10, Math.round((Math.PI * a.D1) / 6.5));
-  P.ribDepth = Math.max(0.35, a.D1 * 0.012);
+     D hängt in allen 12 Zeilen am GEWINDE (½"→35, ¾"→43, 1"→50 …) und
+     ist bei der IG-Schwestertabelle (AQ270G) bei gleichem Gewinde fast
+     identisch — obwohl es dort nie einen freien Messing-Sechskant gab.
+     D ist das dickste Maß des PP-Körpers: die geriffelte Griffzone am
+     Gewindeende. D1 bleibt die Muffenzone. Die alte Deutung
+     (Sechskant-Eckenmaß) konnte die IG-Spalte nie erklären.
+
+     ASSUMPTION Länge der Griffzone: ~0,35·l, aus dem Produktfoto; nach
+     unten begrenzt, damit die Muffenzone ihre Schweißtiefe behält. */
+  P.gripLen = Math.min(P.ppLen - P.socket - 3, Math.round(a.l * 0.35 * 10) / 10);
+  P.rGrip = a.D / 2;
+
+  /* ── DER UMSPRITZTE MESSINGKERN ──
+     Das echte Teil ist ein Verbund: der Messingeinsatz reicht unter die
+     Griffzone, sonst könnte sie ihr Schraubmoment nicht übertragen —
+     und sonst stimmt die Masse nicht. Die kg-Spalte entscheidet wie
+     beim Überbogen: nur PP wiegt das Teil um die Hälfte zu leicht, der
+     alte freie Messingkörper doppelt zu schwer. Die Einbettung ist
+     unsichtbar bis zum Schnitt; ihre Tiefe ist ASSUMPTION = Griffzone,
+     ihr Radius das Gewindekernmaß. */
+  P.embedLen = P.gripLen;
+  P.rEmbed = P.threadOD / 2 - 0.640327 * P.threadPitch;
+
+  /* Riffelung der Griffzone — im Produktfoto deutlich sichtbar. */
+  P.ribCount = Math.max(12, Math.round((Math.PI * a.D) / 6.5));
+  P.ribDepth = Math.max(0.35, a.D * 0.012);
 
   if (P.restwand < 2.4) {
     throw new Error('K-Aqua Übergangsmuffe ' + a.key + ': Muffenwand ' +
       P.restwand.toFixed(2) + ' mm zu dünn');
+  }
+  if (P.gripLen < 4) {
+    throw new Error('K-Aqua Übergangsmuffe ' + a.key + ': Griffzone ' +
+      P.gripLen.toFixed(1) + ' mm — Aufteilung prüfen');
   }
   if (P.ppLen <= P.socket) {
     throw new Error('K-Aqua Übergangsmuffe ' + a.key + ': PP-Teil ' +
