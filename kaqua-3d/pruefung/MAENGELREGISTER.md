@@ -76,6 +76,12 @@ Schwere **A** falsche Gestalt / falscher Werkstoff / fehlendes Teil ·
 | M4 | `transition-fittings/adaptor-socket-female-thread` | Foto `AQ270GP` (Riffelung) und ALH `AQ270G2512_3` (Sechskant-Ausführung) | PP-Griffzone fehlt im Modell ganz: Silhouetten-Spanne im Mittelband **1,6 %** = glatt-rund. Beide Bildquellen zeigen eine Griffstruktur (geriffelt bzw. sechskantig — das ist die Variantenachse §3.4, kein Widerspruch) | **B** | `products/adaptor-socket-female-thread/parts.js` | **ja** — gleiche Familie wie M3 | offen |
 | M5 | `fittings/cross-over` | ALH `AQ28720_4` (einziger Seitenriss) | Lichte Öffnung unterm Scheitel: Bild **0,485·H**, Modell **0,407·H** (alle drei Größen 0,39–0,41); Scheitelrohrdicke im Bild ≈ **0,87×** Modell. Die Scheitelwand ist ASSUMPTION (d + 2·d/6). VORBEHALT: Einzelansicht, leichte Kameraneigung nicht ausschließbar. WÄCHTER für jede Behebung: die Massenprobe steht bei d20 schon auf **−7,5 %** — dünner machen allein verbietet sie | **C** (Proportion einer unbemaßten Annahme) | `products/_crossover/params.js` | **ja** — `_crossover` trägt beide Überbögen | offen |
 | M6 | `fittings/cross-over-pipe` | ALH `AQ28520_2` (Parallellage **bewiesen**: Rohrdicke links = rechts = 91 px) | ASSUMPTION `tEnde = 0,27·L`: Bild zeigt Hügelbreite **30,5 %** der Länge ⇒ t ≈ 0,35·L (Modell: 46 % Hügel). Die Massenprobe ist gegen t unempfindlich (±3 % Bahnlänge) und lässt das Nachschärfen zu | **C** (ASSUMPTION bildseitig nachschärfbar) | `products/cross-over-pipe/data.js` (ANNAHME-Kommentar) + `_crossover` | ja | offen |
+| M7 | `transition-fittings/tee-90-male-thread` | Foto `AQ133GP` (Rang 3) | Modellteil heißt „Messingzapfen R½" **mit Sechskant**"; das Foto zeigt **nur das Gewinde** frei — der Sechskant liegt unter dem glatten PP-Abzweig. Gleiches Muster wie M3 | **B** | `products/_teethread/parts.js` | **ja** — `_teethread` trägt beide Gewinde-T-Stücke | offen |
+| M8 | `valves/pp-r-ball-valve-brass` | Foto `AQ850` (Rang 3) | Hebel im Foto **rot**, abgetastet `#df2e1f` (Median aus 3 779 Pixeln), mit sichtbarer Edelstahl-Sechskantschraube; Modell führt den Hebel als „Stahl" und hat keine Schraube | **B** (Werkstoff-/Farbdarstellung eines sichtbaren Teils) | `products/pp-r-ball-valve-brass/index.js` (+ ggf. `core/materials.js` neuer Schlüssel `leverRed`) | Material ggf. Core | offen |
+| M9 | `valves/pp-r-ball-valve-ball-in-pp` | Foto `AQ852` (Rang 3) | Griff im Foto: kurzer schwarzer **Knebelgriff** mit grüner Einlage, etwa körperbreit; Modell trägt einen 88-mm-Hebel (Box 88 × 41 × 32). Die Doppel-Union-Bauart (nutL/nutR, Sechskant-Mittelkörper) deckt sich | **B** | `products/ball-valve-pp/parts.js` (buildLever) | fam `ball-valve` — prüfen, ob AQ850 den langen Hebel behält (Foto: ja) | offen |
+| M10 | `weld-in-saddles/weld-in-saddle` (+ beide Gewindesättel) | Fotos `AQ130SP`, `AQ130GSP` (Rang 3) | Fotos zeigen **vier Griffrippenpaare** außen am Boss; Modell-Silhouette am Stutzenband: Spanne **0 %** = völlig rund. Grundform (kompakter Boss, Sattelfuß) deckt sich | **B** | `products/_saddle/parts.js` | **ja** — `_saddle`, drei Produkte | offen |
+| M11 | `accessories/pipe-clamps` | Foto `AQ500` (Rang 3) | Modell führt eine **EPDM-Gummieinlage**, das Foto zeigt grüne Schalen-Innenflächen ohne Einlage (VORBEHALT: könnte demontiert fotografiert sein); die Wandanschluss-Buchse ist im Foto ein markanter **Sechskant-Stahlstutzen**, im Modell ein kleiner „Mutterblock"; Schrauben im Foto Kreuzschlitz mit U-Scheiben und schwarzen Vierkantmuttern in seitlichen Taschen | **B/C** | `products/pipe-clamps/parts.js` | nein | offen |
+| M12 | `fittings/electrofusion-socket` | Foto `AQ271` (Rang 3) | Mantel trägt im Foto flache erhabene **Rechteckfelder** (Wickelfeld-Panels) und Segmentlinien; Modellmantel ist glatt. Die Kontaktdome decken sich (grüne PP-Kragen mit versenkter Hülse) | **C** | `products/electrofusion-socket/parts.js` | nein | offen |
 
 
 ## 2a · Befund an der Bildquelle selbst — dem Menschen vorlegen
@@ -118,6 +124,25 @@ Sechskant-Ausführung.
 | `transition-fittings/elbow-90-male-thread` | `w6a-elbow-90-male-gestalt.md` |
 | Rohre (`k-pipe`-Linie) | `rohre-und-muffe-pruefbericht.md` + `01-rohr.png`/`02-rohr.png` |
 
+## 3b · Deckt sich (Etappe 2b, nur Foto)
+
+`metal-union-male-thread-brass` (Messing-Sechskantmutter SW 54 im Modell
+wie im Foto — die §4.2-Beschreibung „PP-Mutter mit Riffelung" gilt nur
+für AQ542/547) · `metal-union-female-thread-brass` (analog) ·
+`elbow-wall-bracket-90-female-thread` (Lasche 60 × 4,3 im Modell, im
+Foto vorhanden) · `tee-90-female-thread-internal-valve` (Dom/Durchgang
+≈ 1,25 wie im Modell) · `elbow-45-female-male` · `elbow-90-female-male`
+· `fittings/cross` (Foto zeigt sogar die Formtrennnaht, die der Core
+baut) · `k-pipe-pp-r-sdr-11` (genau EIN blauer Streifen, wie `data.js`)
+· `electrofusion-socket`-Dome und Werkstoffzahl.
+
+**Aufklärungen nebenbei:** `AQ130GSP`/`AQ1306GSP` zeigen den
+**Gewinde-Anbohrsattel** (IG, rund bzw. sechskant) — der IG-Sattel hat
+also doch ein Bild und verlässt die Ohne-Bild-Liste. Die Beschreibung
+der E-Muffen-Kontakte in `20-VISUELLE-REFERENZ.md` §4.1 („orange oder
+schwarz") widerspricht dem Foto `AQ271` (grüne PP-Kragen, Hülse
+versenkt) — Doku-Korrektur, kein Modellmangel.
+
 ## 4 · Bild kann nicht entscheiden
 
 Die 15 Produkte aus §1.3: **kein Bildbeweis möglich — geprüft bleibt der
@@ -131,3 +156,7 @@ nicht in den Plan.)*
 
 | Produkt | Verdacht | Warum keine Messung |
 |---|---|---|
+| `fittings/flange-adaptor` | Dichtwulst auf der Flanschfläche: §4.1-Beschreibung fordert ihn, Foto `AQ790P` zeigt die sichtbare Fläche flach, das Modell hat keinen | Nur eine Frontalansicht; welche Seite die Dichtfläche ist, gibt das Foto nicht her |
+| `fittings/flange-adaptor` | Länge des Muffenkörpers hinter der Scheibe | Frontalperspektive verdeckt den Körper vollständig |
+| `fittings/cap` u. a. | Prägungen (PP-R, Nennweite, Kavität) auf Stirnflächen, sichtbar in ALH-Rendern | Kanon fordert keine Prägungen; Nachbildung bräuchte lesbare Vorlagen je Größe |
+| `fittings/cross-over` | Bogenform: Flanken im Render steiler als die vier gleichen `bridgePath`-Bögen | Einzelansicht mit Neigungsvorbehalt; Öffnungsmessung steht als M5, die Bahnform selbst bleibt Verdacht |
