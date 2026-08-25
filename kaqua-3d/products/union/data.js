@@ -18,19 +18,36 @@
    gegenseitig und legt die Überwurfmutter-Geometrie fest, ohne dass sie
    geschätzt werden muss.
 
-   MASSSCHLÜSSEL (aus Spaltenlogik und Kugelhahn-Vergleich):
+   MASSSCHLÜSSEL (aus Spaltenlogik, Kugelhahn-Vergleich und — für die
+   Teilzuordnung — den Bildern vom 25.08.2026):
      d   Rohr-Außendurchmesser = Muffenbohrung
      G   Gewinde der Überwurfmutter, in Zoll
      D   Außendurchmesser der Überwurfmutter — größtes Maß
-     l   Länge des Mutterteils
+     l   Länge der Überwurfmutter
      L   Gesamtlänge, Stirnfläche bis Stirnfläche
      z   Einbaulänge (Rohrende bis Rohrende)
-     l1  Länge des Stutzenteils
+     l1  Länge des GEWINDETEILS — des linken Muffenstücks, das das
+         Außengewinde trägt und größtenteils UNTER der Mutter steckt
+
+   ── DIE DRITTE DEUTUNG DER TEILUNG, UND WARUM SIE TRÄGT ──
+   ALH-Render und Produktfoto zeigen übereinstimmend: die Mutter sitzt
+   in der MITTE, links und rechts tritt je ein Stutzen heraus. Die
+   zweite Fassung dieses Modells hatte die Mutter am linken ENDE — sie
+   stand mit gedrücktem Bild im Widerspruch (Mängelregister M2).
+
+   Mit l1 = linkes Gewindeteil gehen alle sechs Zeilen restlos auf:
+     sichtbarer linker Stutzen  = l1 − l   →  8 · 9 · 9 · 11 · 13 · 17
+     sichtbares rechtes Stück   = L − l1   → 18 · 20 · 22 · 24 · 27 · 32
+     Summe sichtbar + Mutter    = L        →  exakt, in jeder Zeile
+   Und die schärfste Gegenprobe: (L − l1) minus der Schweißtiefe der
+   Normreihe ergibt 3,5 bis 4,5 mm, praktisch konstant — das rechte
+   Teil IST seine Schweißmuffe plus Bund. Eine Deutung, bei der drei
+   unabhängige Reihen gleichzeitig aufgehen, ist keine Anpassung mehr
+   (Fall 28).
 
    Gegenproben:
-     l + l1 ≈ L in jeder Zeile (18+26=44 ✓ · 21+30=51 gegen L=52 ·
-       30+47=77 gegen L=79). Die 1–2 mm Differenz ist die Überlappung
-       im Gewinde — beide Teile greifen ineinander.
+     l1 > l und l1 < L in jeder Zeile ✓ (das Gewindeteil ist länger
+       als die Mutter, die auf ihm sitzt, und kürzer als das Ganze).
      z < L in jeder Zeile ✓
      D wächst monoton, G wächst monoton ✓
 
@@ -45,10 +62,11 @@
      d50  26+39 = 65  L 66  → 1 mm
      d63  30+47 = 77  L 79  → 2 mm
 
-   l + l1 ist nie GRÖSSER als L. Es überlappt nichts, es fehlt ein
-   Stück. Gedeutet als der freiliegende Ring des Stutzenbundes zwischen
-   Mutterkante und Stutzenschulter — an einer angezogenen Verschraubung
-   genau dort sichtbar. Er wird als P.collarGap modelliert und gemessen.
+   l + l1 ist nie GRÖSSER als L. Die zweite Fassung deutete die
+   Differenz als sichtbaren Bundring — auch das hat sich mit den
+   Bildern erledigt: in der dritten Deutung (oben) ist L − l − l1 gar
+   keine Baugruppenkante, sondern schlicht (L − l1) − (l1 − l) − … die
+   Zonen gehen ohne Rest auf. Kein collarGap mehr im Modell.
 
    ── DIE SPALTE z WIRD NICHT MODELLIERT ──
    z lautet 15 · 15 · 15 · 17 · 19 · 23 — bei d20 bis d32 konstant, dann

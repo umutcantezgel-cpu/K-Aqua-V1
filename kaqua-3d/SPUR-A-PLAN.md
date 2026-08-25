@@ -9,7 +9,7 @@ schlägt nie ein Tabellenmaß. Dreieckszahlen dürfen sich ändern (die
 
 | Posten | Mängel | Eingriff | Dateien | Produkte | Status |
 |---|---|---|---|---|---|
-| **P1** | M2 (A) | Verschraubung: Mutter in die Mitte, zweite Körperhälfte (geriffelter Stutzen) ergänzen; Explosion/Hotspots nachziehen | `products/union/parts.js`, `index.js`, `params.js` | 1 | offen |
+| **P1** | M2 (A) | Verschraubung: Mutter in die Mitte, zweite Körperhälfte (geriffelter Stutzen) ergänzen; Explosion/Hotspots nachziehen | `products/union/parts.js`, `index.js`, `params.js` | 1 | **erledigt 25.08.** |
 | **P2** | M3 · M4 · M7 (B) | Gewindefamilie: PP-Körper trägt die Griffzone (Riffelung, runde Grundausführung nach Foto), Messing sichtbar nur als Gewinde + Bundring. Messinglängen-Aufteilung als ASSUMPTION aus den Fotos (~72–74 % PP). Die Sechskant-Ausführung (`…6GP`-Fotos) bleibt die offene Variantenachse §3.4 — nicht gebaut, nicht geraten | `products/adaptor-socket-male-thread/parts.js`, `products/adaptor-socket-female-thread/parts.js`, `products/_teethread/parts.js` | 4 | offen |
 | **P3** | M9 (B) | Kugelhahn PP: Knebelgriff nach Foto `AQ852` statt 88-mm-Hebel | `products/ball-valve-pp/parts.js` (`buildLever`) | 1 | offen |
 | **P4** | M8 (B) | Kugelhahn Messing: Hebel rot (`#df2e1f` abgetastet) + Befestigungsschraube | `core/materials.js` (Schlüssel `leverRed`), `products/pp-r-ball-valve-brass/index.js` | 1 | offen |
