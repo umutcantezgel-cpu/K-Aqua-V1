@@ -145,9 +145,16 @@ versenkt) — Doku-Korrektur, kein Modellmangel.
 
 ## 4 · Bild kann nicht entscheiden
 
-Die 15 Produkte aus §1.3: **kein Bildbeweis möglich — geprüft bleibt der
-Maßtest.** Bei den Faserrohren trägt das Katalogfoto S. 78–82 den
-Schichtaufbau. Dazu die Foto-IDs aus §1.4.
+**14 Produkte ohne jedes Bild** (der IG-Sattel ist per `AQ130GSP`
+herausgelöst, siehe §3b): die sechs Faser-/UV-Rohre der PP-R-Linie
+(`k-fiber-pp-r` SDR 6 · 7,4 · 9 · 11 · 17, `k-fiber-uv-pp-r`),
+`k-pipe-purple`, die Metallverschraubungen mit PP-Mutter
+(`AQ542`/`AQ547`), der AG-Anbohrsattel (`AQ243S` — nur die IG-Variante
+hat ein Foto), beide Flachdichtungen, `plug`, `backing-flange`.
+**Kein Bildbeweis möglich — geprüft bleibt der Maßtest.** Bei den
+Faserrohren trägt das Katalogfoto S. 78–82 den Schichtaufbau; der
+AG-Sattel erbt die belegten Merkmale des IG-Sattels bis auf den
+Gewindeteil (ASSUMPTION, so vermerkt). Dazu die Foto-IDs aus §1.4.
 
 ## 5 · Verdacht ohne Messung
 
