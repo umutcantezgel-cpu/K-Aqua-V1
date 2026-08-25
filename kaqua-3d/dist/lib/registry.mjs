@@ -50,6 +50,22 @@ export const REGISTRY = [
   "category": "fittings"
  },
  {
+  "slug": "cross-over",
+  "id": "fittings/cross-over",
+  "module": "kaqua-cross-over",
+  "titleDe": "Überbogen",
+  "titleEn": "Cross over",
+  "category": "fittings"
+ },
+ {
+  "slug": "cross-over-pipe",
+  "id": "fittings/cross-over-pipe",
+  "module": "kaqua-cross-over-pipe",
+  "titleDe": "Überbogen-Rohr",
+  "titleEn": "Cross over pipe",
+  "category": "fittings"
+ },
+ {
   "slug": "elbow-45",
   "id": "fittings/elbow-45",
   "module": "kaqua-elbow-45",

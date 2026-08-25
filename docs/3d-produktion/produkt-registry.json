@@ -2814,7 +2814,7 @@
       "sizes_md": 3,
       "sizes_source_ocr": null,
       "sizes_source_verified": 3,
-      "data_status": "pruefen",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "crossover",
         "complexity": 3,
@@ -2822,7 +2822,7 @@
       },
       "build": {
         "tier": 4,
-        "status": "offen",
+        "status": "fertig",
         "order": 56
       },
       "article_prefix_md_unverified": "AQ267",
@@ -2834,8 +2834,10 @@
         "AQ28732"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-      ]
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 91 (3 Groessen)",
+        "Massenprobe gegen die kg-Spalte, am gebauten Netz"
+      ],
+      "hinweis": "H ist die BAUHOEHE, nicht die Achsanhebung — entschieden durch die tabellierte Masse: von drei moeglichen Lesarten trifft nur diese das Gewicht (-7,5 / +8,3 / +0,8 %), die beiden anderen liegen 15 bis 75 % daneben. Die Spalte z ist NICHT gedeutet; beide Kandidatendeutungen scheitern an den Zeilen."
     },
     {
       "id": "fittings/cross-over-pipe",
@@ -2856,7 +2858,7 @@
       "sizes_md": 3,
       "sizes_source_ocr": null,
       "sizes_source_verified": 3,
-      "data_status": "pruefen",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "crossover",
         "complexity": 3,
@@ -2864,7 +2866,7 @@
       },
       "build": {
         "tier": 4,
-        "status": "offen",
+        "status": "fertig",
         "order": 57
       },
       "article_prefix_md_unverified": "AQ285",
@@ -2876,8 +2878,10 @@
         "AQ28532"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-      ]
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 91 (3 Groessen)",
+        "Massenprobe gegen die kg-Spalte, am gebauten Netz"
+      ],
+      "hinweis": "s ist die SDR-6-Wand (d/s = 5,88 / 5,95 / 5,93). Die gerade Endstrecke ist nicht bemasst und angenommen; der Versuch, sie aus der Masse herzuleiten, scheitert an der Empfindlichkeit — die Bahnlaenge aendert sich ueber den ganzen plausiblen Bereich nur um drei Prozent."
     },
     {
       "id": "tools/drilling-tool-for-weld-in-saddle",

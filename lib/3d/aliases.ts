@@ -21,8 +21,6 @@ export const SLUG_ALIASES: Record<string, string> = {
      selbst enthalten (10 Spitzendgroessen, Katalog S. 89). Vorher zeigte
      diese Seite die Reduziermuffe, also ein Bauteil ohne Abzweig. */
   "reducing-tee-large-sizes": "fittings/reducing-tee",
-  "cross-over": "fittings/elbow-90",
-  "cross-over-pipe": "fittings/elbow-90",
   // „stub-end" und „cross-over-with-socket" sind hier entfallen: Beide Seiten
   // waren Dubletten derselben Katalogtabellen (S. 90 bzw. S. 91) und leiten
   // seit next.config.ts permanent auf „flange-adaptor" bzw. „cross-over" um.

@@ -71,6 +71,11 @@ const FAMILY = {
      Rohrgruppen aus data-gemeinsam.js. */
   saddle: ['_saddle/parts.js', '_saddle/data-gemeinsam.js',
     '_saddle/params.js', '_saddle/assembly.js'],
+  /* Überbögen: Parametrik, Sweep, Baugruppe. Die Bahn selbst steht als
+     bridgePath im Core — sie ist reine Geometrie und gehört dorthin,
+     wo bendPath steht. */
+  crossover: ['_crossover/params.js', '_crossover/parts.js',
+    '_crossover/assembly.js'],
   /* Winkel mit Gewindeschenkel: ungleiche Schenkel, ungleiche
      Außendurchmesser. _bend/params.js liefert die Grundrechnung,
      _bendthread/parts.js den Körper. _bend/parts.js gehört NICHT dazu —
@@ -97,6 +102,7 @@ function familyFor(slug) {
   if (/^metal-union-/.test(slug)) return FAMILY.union;
   if (/ball-valve/.test(slug)) return FAMILY.ballvalve;
   if (/^weld-in-saddle/.test(slug)) return FAMILY.saddle;
+  if (/^cross-over/.test(slug)) return FAMILY.crossover;
   if (slug === 'tee' || /reducing-tee/.test(slug)) return FAMILY.tee;
   if (slug === 'cross') return [];            // baut eigene Arme
   /* Die einzige Anleihe QUER durch den Katalog, keine Familie: die

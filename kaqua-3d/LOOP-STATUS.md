@@ -3,8 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, acht Produkte gebaut,
-darunter die drei Anbohrsättel mit neuer Sattelgeometrie. **47 von 71.**
+**Letzte Änderung:** 25.08.2026 — Phase 2 läuft, zehn Produkte gebaut,
+darunter Sattelschnitt und Brückenbahn als neue Geometrien. **49 von 71.**
 
 ---
 
@@ -12,7 +12,7 @@ darunter die drei Anbohrsättel mit neuer Sattelgeometrie. **47 von 71.**
 
 | | |
 |---|---|
-| Fertig | **47 von 71** · Selbsttest 47/47, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **49 von 71** · Selbsttest 49/49, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -369,7 +369,61 @@ Die Geometrie dafür steht seit dem 24.08.2026 im Reduzier-T-Stück
 nachgezogen wird — dann ist es ein Datensatz und ein Umzug, kein neuer
 Bau. Gehört zu Spur A.
 
-### 3.20 Ein Schweißwerkzeug für Anbohrsättel fehlt
+### 3.20 Die Spalte `z` des Überbogens ist nicht deutbar
+
+Katalog S. 91, Tabelle AQ287. Drei Deutungen geprüft und verworfen:
+
+| Deutung | d20 | d25 | d32 | tabelliert |
+|---|---|---|---|---|
+| `L − 2t` | 62 | 72 | 80 | **63 · 80 · 98** |
+| `L − t` | 76 | 88 | 103 | |
+| `L − 2·Muffentiefe` | 61 | 72 | 90 | |
+
+`L − z` beträgt 27 · 24 · 28 und wächst nicht mit der Nennweite. Für die
+Geometrie wird `z` nicht gebraucht (L, H und t bestimmen die Bahn
+vollständig), deshalb ungedeutet und ungemessen (Fall 29). Unabhängig
+von einem Gegenleser bestätigt.
+
+### 3.21 Der Überbogen lässt weniger Luft, als ein gleich großes Rohr braucht
+
+Unter dem Scheitel bleiben 3,8 mm (d20) bis 5,3 mm (d32), also rund ein
+Fünftel der Nennweite. Ein kreuzendes Rohr gleicher Größe passt da nicht
+hindurch.
+
+Die naheliegende Folgerung — `H` müsse anders gedeutet werden — verbietet
+die MASSE: von drei Lesarten trifft nur „Bauhöhe" das tabellierte
+Gewicht, die beiden anderen liegen 15 bis 75 % daneben. Der Überbogen
+überquert also etwas Dünneres, oder die Rohre liegen ohnehin versetzt.
+Nicht aufgelöst.
+
+### 3.22 Seite 106 ist unbemaßt — die vier Ventilteile bleiben Prototypen
+
+Geprüft, weil der Plan sie als Prototypen führte und das nachzuweisen
+war. Ergebnis, unabhängig bestätigt:
+
+| Produkt | Spalten | Maßskizze |
+|---|---|---|
+| `AQ5993` Concealed valve, chrome heavy | Code · Dimension G (¾") · kg · Pack. | **keine** |
+| `AQ5992` Concealed valve, chrome light | Code · Dimension G (¾") · kg · Pack. | **keine** |
+| `AQ5991` Straight seat valve | Code · Dimension G (¾") · kg · Pack. | **keine** |
+| `AQ599E` Elongation pieces | Code · L (30, ohne Einheit) · kg · Pack. | eine, mit genau einem Pfeil |
+
+Je Tabelle **eine** Datenzeile und **eine** maßhaltige Spalte. Aus keiner
+lässt sich ein Modell bauen. Die Einstufung als Prototyp ist damit
+belegt, nicht angenommen.
+
+### 3.23 Seite 108 ist dagegen voll bemaßt — drei Produkte rücken von 2c nach 2b
+
+`AQ599A` (T-Stück für Innenventil) führt zehn Spalten, darunter `D1 = 45`
+und `h = 33` KONSTANT über alle vier Größen — dasselbe genormte
+Ventiloberteil passt auf jede Nennweite. `AQ490G` und `AQ492G`
+(Batterieanschlüsse) führen `d`, `Rp`, `L` und `L1`; beim verstellbaren
+steht in der L-Spalte „100-135-150", also drei Raststellungen.
+
+Diese drei sind damit regulär baubar und gehören nicht zu den
+Prototypen.
+
+### 3.24 Ein Schweißwerkzeug für Anbohrsättel fehlt
 
 Seite 115 führt neun Schweißwerkzeuge. Über die AQ130S-Tabelle allein
 passen sie lückenlos auf die neun (d, d₂)-Paare. Mit den Gewindesätteln
@@ -386,7 +440,7 @@ Schürze.
 Zwei unabhängige Wege, dieselbe Zeile. Entweder ist die Werkzeugliste
 unvollständig, oder diese Größe wird anders gefügt. **Nicht aufgelöst.**
 
-### 3.21 BLOCKIERT — Verschraubung für Wasserzähler (AQ3322)
+### 3.25 BLOCKIERT — Verschraubung für Wasserzähler (AQ3322)
 
 Drei Größen, Katalog S. 100. Nicht gebaut, weil sich die Rolle der
 beiden Sechskante nicht klären lässt und sie das Modellende bestimmen.
@@ -417,7 +471,7 @@ Alles außer `SW1` und `L1` ist eindeutig. Die Verschraubungsfamilie
 **Was fehlt:** ein Blick auf das Originalteil, oder eine Auskunft des
 Herstellers. Eine Minute Arbeit für jemanden, der eines in der Hand hat.
 
-### 3.22 Der Selbsttest prüft die Einzelseiten nicht
+### 3.26 Der Selbsttest prüft die Einzelseiten nicht
 
 Aufgefallen bei den zwei toten T-Stück-Seiten (Commit 941554c9): ihnen
 fehlte `sizeKey: 'key'`, die Modelle erschienen, aber Größenumschalter,
@@ -433,7 +487,7 @@ wollte.
 **Was fehlt:** eine Prüfung, die jede erzeugte Einzelseite wirklich lädt
 und `window.kaqua` abfragt. 41 Seiten, ein Skript. Noch nicht gebaut.
 
-### 3.23 `Marketing/` ist nicht gesichert
+### 3.27 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.

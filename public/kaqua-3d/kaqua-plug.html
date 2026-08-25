@@ -2054,6 +2054,114 @@ function bendPath(L, angleDeg, R, arcSegs = 20, legSegs = 4, LB = L) {
   return out;
 }
 
+/* ── bridgePath: Bahn eines Überbogens ──
+   L        Baulänge, Stirnfläche zu Stirnfläche
+   H        Anhebung der ACHSE am Scheitel (nicht die Bauhöhe des Teils)
+   t        gerade Strecke an jedem Ende, vor dem ersten Bogen
+   arcSegs  Punkte je Viertelbogen
+   legSegs  Punkte je Gerade
+
+   Ein Überbogen führt ein Rohr über ein kreuzendes hinweg. Seine beiden
+   Enden liegen in einer Flucht und zeigen in dieselbe Richtung — anders
+   als beim Winkel, wo die Bahn abgelenkt wird. Das erzwingt VIER Bögen,
+   nicht einen: hoch, wieder waagerecht, hinunter, wieder waagerecht. Die
+   Summe der Ablenkungen ist null.
+
+   ── Die Bahn ist geschlossen lösbar ──
+
+   Für die linke Hälfte, von der Stirnfläche bis zum Scheitel, gilt mit
+   dem Bogenradius R und dem Bogenwinkel α:
+
+       waagerecht   2·R·sin α        = L/2 − t
+       senkrecht    2·R·(1 − cos α)  = H
+
+   Der Quotient beider Gleichungen ist (1−cos α)/sin α = tan(α/2), also
+
+       α = 2·arctan( H / (L/2 − t) )
+       R = H / (2·(1 − cos α))
+
+   Nichts daran ist geschätzt: L, H und t stehen in der Tabelle, α und R
+   folgen. Genau deshalb steht die Rechnung hier und nicht im Produkt —
+   zweimal geschrieben würde sie driften (Fall 32).
+
+   Der Scheitel liegt bei x = 0, die Enden bei ∓L/2. Die rechte Hälfte
+   wird gespiegelt, nicht neu gerechnet; damit ist die Symmetrie exakt
+   und nicht nur ungefähr.
+
+   Rückgabe [{ c, t }] wie bendPath und arcPath, verwendbar in sweepPath. */
+function bridgePath(L, H, t, arcSegs = 14, legSegs = 4) {
+  const half = L / 2 - t;
+  if (half <= 0.5) {
+    throw new Error('K-Aqua bridgePath: die geraden Enden (2 × ' + t +
+      ') lassen von der Baulänge ' + L + ' keinen Platz für den Bogen');
+  }
+  if (H <= 0.1) {
+    throw new Error('K-Aqua bridgePath: Anhebung ' + H +
+      ' — ohne Anhebung ist es kein Überbogen, sondern ein Rohr');
+  }
+  const alpha = 2 * Math.atan2(H, half);
+  const R = H / (2 * (1 - Math.cos(alpha)));
+
+  const pts = [];
+  const push = (x, y, tx, ty) => {
+    const n = Math.hypot(tx, ty) || 1;
+    pts.push({ c: new THREE.Vector3(x, y, 0), t: new THREE.Vector3(tx / n, ty / n, 0) });
+  };
+
+  /* 1 — die gerade Strecke am Anfang */
+  const x0 = -L / 2;
+  for (let i = 0; i <= legSegs; i++) {
+    push(x0 + (t * i) / legSegs, 0, 1, 0);
+  }
+
+  /* 2 — erster Bogen, Mittelpunkt ÜBER der Bahn, Ablenkung +α */
+  const c1x = x0 + t, c1y = R;
+  for (let i = 1; i <= arcSegs; i++) {
+    const th = -Math.PI / 2 + (alpha * i) / arcSegs;
+    push(c1x + R * Math.cos(th), c1y + R * Math.sin(th), -Math.sin(th), Math.cos(th));
+  }
+
+  /* 3 — zweiter Bogen, Mittelpunkt UNTER der Bahn, Ablenkung −α.
+     Er endet am Scheitel wieder waagerecht. */
+  const p2x = c1x + R * Math.sin(alpha);
+  const p2y = R * (1 - Math.cos(alpha));
+  const c2x = p2x + R * Math.sin(alpha), c2y = p2y - R * Math.cos(alpha);
+  const phi0 = Math.atan2(p2y - c2y, p2x - c2x);
+  for (let i = 1; i <= arcSegs; i++) {
+    const th = phi0 - (alpha * i) / arcSegs;
+    push(c2x + R * Math.cos(th), c2y + R * Math.sin(th), Math.sin(th), -Math.cos(th));
+  }
+
+  /* 4 — die rechte Hälfte ist die linke, an x = 0 gespiegelt. Gespiegelt
+     und nicht gerechnet: so ist die Symmetrie exakt, und ein Vorzeichen-
+     fehler in den Bögen fiele auf beiden Seiten gleich aus statt sich zu
+     verstecken. */
+  const links = pts.slice();
+  for (let i = links.length - 2; i >= 0; i--) {
+    const p = links[i];
+    pts.push({
+      c: new THREE.Vector3(-p.c.x, p.c.y, 0),
+      t: new THREE.Vector3(p.t.x, -p.t.y, 0),
+    });
+  }
+
+  /* Selbstprobe: Enden auf ∓L/2 und y = 0, Scheitel auf H. Eine Bahn,
+     die das verfehlt, hat einen Vorzeichenfehler — und der fiele im
+     fertigen Modell nur als „sieht komisch aus" auf. */
+  const a = pts[0].c, b = pts[pts.length - 1].c;
+  const scheitel = Math.max(...pts.map((p) => p.c.y));
+  const fehler = Math.max(
+    Math.abs(a.x + L / 2), Math.abs(b.x - L / 2),
+    Math.abs(a.y), Math.abs(b.y), Math.abs(scheitel - H)
+  );
+  if (fehler > 0.02) {
+    throw new Error('K-Aqua bridgePath: Bahn verfehlt ihre Vorgaben um ' +
+      fehler.toFixed(3) + ' mm (L ' + L + ', H ' + H + ', t ' + t + ')');
+  }
+
+  return pts;
+}
+
 /* ── plateWithHoles: Scheibe mit Durchgangslöchern ──
    rOut     Außenradius
    rIn      Innenradius (0 = Vollscheibe)

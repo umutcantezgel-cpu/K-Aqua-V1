@@ -12,6 +12,8 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "ball-valve-pp": "valves/pp-r-ball-valve-ball-in-pp",
   "cap": "fittings/cap",
   "cross": "fittings/cross",
+  "cross-over": "fittings/cross-over",
+  "cross-over-pipe": "fittings/cross-over-pipe",
   "elbow-45": "fittings/elbow-45",
   "elbow-45-female-male": "fittings/elbow-45-female-male",
   "elbow-90": "fittings/elbow-90",
@@ -55,7 +57,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "weld-in-saddle-male-thread": "weld-in-saddles/weld-in-saddle-male-thread",
 };
 
-export const GENERATED_COUNT = 47;
+export const GENERATED_COUNT = 49;
 
 /** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
 export const CATALOG_TOTAL = 71;
