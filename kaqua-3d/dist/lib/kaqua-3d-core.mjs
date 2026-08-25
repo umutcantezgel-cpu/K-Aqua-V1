@@ -1858,6 +1858,13 @@ export const FRAME_CSS = String.raw`
     position: relative;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    /* minmax(0, 1fr) statt der Vorgabe: Grid-Elemente haben
+       min-width: auto und sprengen die Spalte, sobald ein Kind breiter
+       ist als der Rahmen — max-width am Container hilft dann nicht.
+       Mit 37 Größenknöpfen (Reduzier-T-Stück) wuchs das Dokument auf
+       1964 px, die Seite scrollte waagerecht und das Modell stand
+       außermittig. Bei bis zu 14 Größen war davon nichts zu sehen. */
+    grid-template-columns: minmax(0, 1fr);
     height: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -1997,13 +2004,27 @@ export const FRAME_CSS = String.raw`
   /* untere Leiste */
   .bar {
     display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap;
+    min-width: 0;
     padding: var(--space-2);
     background: var(--color-card-bg);
     border: 1px solid var(--color-card-border);
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow-sm);
   }
-  .seg { display: flex; gap: 2px; padding: 2px; background: var(--color-neutral-100); border-radius: var(--radius-lg); }
+  /* Die Größenleiste darf die SEITE nicht verbreitern. Ein Flex-Kind
+     schrumpft ohne min-width:0 nicht unter seinen Inhalt; mit 37 Knöpfen
+     (Reduzier-T-Stück) wuchs das Dokument dadurch auf 1968 px und die
+     Seite scrollte waagerecht. Jetzt scrollt die LEISTE in sich. */
+  .seg {
+    display: flex; gap: 2px; padding: 2px;
+    background: var(--color-neutral-100); border-radius: var(--radius-lg);
+    max-width: 100%; min-width: 0;
+    overflow-x: auto; overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+  }
+  .seg::-webkit-scrollbar { height: 6px; }
+  .seg::-webkit-scrollbar-thumb { background: var(--color-neutral-300); border-radius: 3px; }
+  .seg > button { flex: 0 0 auto; }
   .seg button {
     all: unset;
     min-height: 34px; padding: 0 11px;
@@ -2018,7 +2039,7 @@ export const FRAME_CSS = String.raw`
   .seg button[aria-pressed="true"] { background: #fff; color: var(--color-primary-700); box-shadow: var(--shadow-xs); }
   .seg button:focus-visible { outline: 2px solid var(--color-primary-500); outline-offset: 1px; }
 
-  .grp { display: flex; align-items: center; gap: var(--space-2); }
+  .grp { display: flex; align-items: center; gap: var(--space-2); min-width: 0; max-width: 100%; }
   .grp > .overline { margin-right: 2px; }
   .btn {
     all: unset;

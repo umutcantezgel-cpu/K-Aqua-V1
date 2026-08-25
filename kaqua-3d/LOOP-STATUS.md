@@ -3,8 +3,9 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, drei Produkte gebaut,
-zwei tote Produktseiten repariert, ein Core-Wächter dazu. **42 von 71.**
+**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, vier Produkte gebaut,
+zwei tote Produktseiten repariert, ein Core-Wächter und ein Layoutfehler.
+**43 von 71.**
 
 ---
 
@@ -12,7 +13,7 @@ zwei tote Produktseiten repariert, ein Core-Wächter dazu. **42 von 71.**
 
 | | |
 |---|---|
-| Fertig | **42 von 71** · Selbsttest 42/42, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **43 von 71** · Selbsttest 43/43, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -345,7 +346,31 @@ einmal hergestellt wurde: statt der weißen Fläche steht seither die
 Meldung. Danach zurückgebaut, alle 42 Viewer neu (Fall 22), Selbsttest
 unverändert 42/42.
 
-### 3.18 Der Selbsttest prüft die Einzelseiten nicht
+### 3.18 GESCHLOSSEN — die Größenleiste sprengte das Seitenlayout
+
+Mit 37 Größenknöpfen (Reduzier-T-Stück) wuchs das Dokument auf 1964 px
+statt 1280, die Seite scrollte waagerecht und das Modell stand
+außermittig. Ursache: `.viewer` ist ein Grid, und Grid-Elemente haben
+`min-width: auto` — ein Kind, das breiter ist als der Rahmen, sprengt
+die Spalte, und `max-width: 1280px` am Container hilft dann nicht.
+
+Behoben mit `grid-template-columns: minmax(0, 1fr)`; die Größenleiste
+scrollt jetzt in sich. Der Fehler steckte seit jeher in ALLEN Viewern,
+war aber bis 14 Größen unsichtbar. Alle 43 neu gebaut.
+
+### 3.19 Dem gleichschenkligen T-Stück fehlen vier Größen
+
+Der Katalog führt auf S. 88 unter „Tee" nicht nur die zehn
+Muffengrößen, sondern darunter vier SDR-11-Größen mit Spitzenden
+(AQ130160 · AQ130200 · AQ130250 · AQ130315, d160 bis d315). Das gebaute
+Produkt hat nur die zehn Muffengrößen.
+
+Die Geometrie dafür steht seit dem 24.08.2026 im Reduzier-T-Stück
+(`buildSpigotTee`). Sie gehört in die Familie, sobald das T-Stück
+nachgezogen wird — dann ist es ein Datensatz und ein Umzug, kein neuer
+Bau. Gehört zu Spur A.
+
+### 3.20 Der Selbsttest prüft die Einzelseiten nicht
 
 Aufgefallen bei den zwei toten T-Stück-Seiten (Commit 941554c9): ihnen
 fehlte `sizeKey: 'key'`, die Modelle erschienen, aber Größenumschalter,
@@ -361,7 +386,7 @@ wollte.
 **Was fehlt:** eine Prüfung, die jede erzeugte Einzelseite wirklich lädt
 und `window.kaqua` abfragt. 41 Seiten, ein Skript. Noch nicht gebaut.
 
-### 3.19 `Marketing/` ist nicht gesichert
+### 3.21 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.

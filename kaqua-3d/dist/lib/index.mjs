@@ -50,6 +50,7 @@ const LOADERS = {
   'accessories/plug': () => import('./products/plug.mjs'),
   'valves/pp-r-ball-valve-brass': () => import('./products/pp-r-ball-valve-brass.mjs'),
   'fittings/reducing-bush': () => import('./products/reducing-bush.mjs'),
+  'fittings/reducing-tee': () => import('./products/reducing-tee.mjs'),
   'fittings/socket': () => import('./products/socket.mjs'),
   'fittings/tee': () => import('./products/tee.mjs'),
   'transition-fittings/tee-90-female-thread': () => import('./products/tee-90-female-thread.mjs'),

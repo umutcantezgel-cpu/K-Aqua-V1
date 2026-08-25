@@ -298,6 +298,14 @@ export const REGISTRY = [
   "category": "fittings"
  },
  {
+  "slug": "reducing-tee",
+  "id": "fittings/reducing-tee",
+  "module": "kaqua-reducing-tee",
+  "titleDe": "Reduzier-T-Stück",
+  "titleEn": "Reducing tee",
+  "category": "fittings"
+ },
+ {
   "slug": "socket",
   "id": "fittings/socket",
   "module": "kaqua-socket",

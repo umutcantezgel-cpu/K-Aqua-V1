@@ -44,7 +44,6 @@ const SLUG_ALIASES: Record<string, string> = {
   // Innengewindevariante, solange es ihre Modelle nicht gab. Seit Welle 5
   // gibt es sie; die Eintraege sind entfallen, sonst verdecken sie sie.
   'reducing-tee-large-sizes': 'reducing-tee',
-  'reducing-tee-large': 'reducing-tee',
   // ACHTUNG, offener Punkt: die vier Rohrschneider zeigen eine ROHRSCHELLE.
   // lib/3d/resolve.ts hat genau diesen Notbehelf abgeschafft — dort steht
   // begruendet, dass fuer einen masshaltigen Viewer gar keine Darstellung

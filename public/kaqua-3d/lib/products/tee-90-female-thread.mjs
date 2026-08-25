@@ -65,9 +65,20 @@ export function buildTee(P) {
   const geos = [revolve(profile, { axis: 'x', segments: SEG_VIS })];
 
   /* Kehle zuerst: sie liefert insertDepth, also wie weit der
-     Abzweigstutzen in den Durchgang eintauchen muss. */
+     Abzweigstutzen in den Durchgang eintauchen muss.
+
+     Der Abzweig kann kleiner sein als der Durchgang (Reduzier-T). Ohne
+     d1 in der Tabelle sind rOutB, socketB und boreRB identisch mit den
+     Werten des Durchgangs — für das gleichschenklige T-Stück ändert
+     sich damit nichts. */
+  const rOutB = P.rOutB ?? P.rOut;
+  const socketB = P.socketB ?? P.socket;
+  const boreRB = P.boreRB ?? P.boreR;
+  const dB = P.dB ?? P.d;
+  const wallB = P.wallFittingB ?? P.wallFitting;
+
   const kehle = branchJoin({
-    mainR: rBarrel, branchR: P.rOut, filletR: P.filletR,
+    mainR: rBarrel, branchR: rOutB, filletR: P.filletR,
     angle: 90, segments: SEG_VIS, uSegs: 6,
   });
   // branchJoin baut um +X als Hauptachse und legt den Abzweig in die
@@ -79,23 +90,23 @@ export function buildTee(P) {
      Stirnfläche bei y = branch. */
   const yStart = -kehle.insertDepth;
   const yEnd = P.branch;
-  const rSockB = (y) => P.d / 2 - P.sockTaper * (yEnd - y);
-  const yBell = yEnd - Math.max(3, 0.10 * P.socket);
-  const bellRise = Math.min(0.35, P.wallFitting * 0.08);
-  const rB = P.rOut - bellRise;
+  const rSockB = (y) => dB / 2 - P.sockTaper * (yEnd - y);
+  const yBell = yEnd - Math.max(3, 0.10 * socketB);
+  const bellRise = Math.min(0.35, wallB * 0.08);
+  const rB = rOutB - bellRise;
 
   const bOuter = [
     { a: yStart, r: rB, fillet: 0 },
     { a: yBell - 1.5, r: rB - DRAFT * (yBell - 1.5 - yStart) * 0.35, fillet: 2.0 },
-    { a: yBell, r: P.rOut, fillet: 1.0 },
-    { a: yEnd, r: P.rOut - DRAFT * (yEnd - yBell), chamfer: Math.min(1.4, P.wallFitting * 0.4) },
+    { a: yBell, r: rOutB, fillet: 1.0 },
+    { a: yEnd, r: rOutB - DRAFT * (yEnd - yBell), chamfer: Math.min(1.4, wallB * 0.4) },
   ];
   const bInner = [
-    { a: yEnd, r: P.d / 2 + P.lead, fillet: 0 },
+    { a: yEnd, r: dB / 2 + P.lead, fillet: 0 },
     { a: yEnd - 2, r: rSockB(yEnd - 2), fillet: 0.4 },
-    { a: yEnd - P.socket, r: rSockB(yEnd - P.socket), fillet: 1.2 },
-    { a: yEnd - P.socket, r: P.boreR, fillet: 1.2 },
-    { a: yStart, r: P.boreR, fillet: 0 },
+    { a: yEnd - socketB, r: rSockB(yEnd - socketB), fillet: 1.2 },
+    { a: yEnd - socketB, r: boreRB, fillet: 1.2 },
+    { a: yStart, r: boreRB, fillet: 0 },
   ];
   const bProfile = buildProfile([...bOuter, ...bInner], { segs: 4 });
   geos.push(revolve(bProfile, { axis: 'y', segments: SEG_VIS }));

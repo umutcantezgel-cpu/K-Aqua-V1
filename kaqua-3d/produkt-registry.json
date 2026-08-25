@@ -1333,7 +1333,7 @@
       "sizes_md": 7,
       "sizes_source_ocr": 10,
       "sizes_source_verified": 37,
-      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "tee-red",
         "complexity": 3,
@@ -1341,12 +1341,12 @@
       },
       "build": {
         "tier": 2,
-        "status": "offen",
+        "status": "fertig",
         "order": 23
       },
       "article_prefix_md_unverified": "AQ130",
       "screenshot_match": "exakt",
-      "hinweis": "Zusammengelegt am 24.08.2026. Der Druckkatalog 06/2025 fuehrt das Reduzier-T-Stueck als EIN Produkt ueber die Seiten 88/89; die Aufteilung in 'reducing-tee' und 'reducing-tee-large' stammt von der Website, die die Tabelle auf zwei Seiten verteilt hat. Beide Website-Aufnahmen bleiben als Quelle: Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2026-06-20-05_42_14.pdf und Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2-2026-06-20-05_42_22.pdf. Das Modell muss ALLE Groessen beider Seiten tragen.",
+      "hinweis": "Die Tabelle enthaelt ZWEI Bauarten: 27 Groessen mit Schweissmuffe und 10 Groessen mit Spitzende fuer Stumpf- oder Elektroschweissung (SDR 11). Die Spalten l und z bedeuten in den beiden Bloecken Verschiedenes. Damit ist reducing-tee-large mit abgedeckt.",
       "source_screenshot_2": "Fittings K-Aqua/screencapture-project-301-webtm-ru-fittings-reducing-tee-2-2026-06-20-05_42_22.pdf",
       "article_prefix_source": "AQ130",
       "article_codes_source": [
@@ -1389,7 +1389,7 @@
         "AQ1309075"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 88-89 (37 Groessen, zwei Bauarten)"
       ]
     },
     {
