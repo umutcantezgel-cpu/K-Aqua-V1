@@ -803,6 +803,25 @@
         "seo_p3": "u   kompakten Verteilerinstallation ili beim Bau od engen Vorwandsystemen spart dieses Bauteil wertvolle Montagezeit i reduziert   Anzahl   Schweißstellen.",
         "faq": [
           {
+            "q": "Eignet sich   45-Grad I/A Winkel za parallele Versprünge?",
+            "a": "Ja, kombiniert sa einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
+          },
+          {
+            "q": "Ist   Druckbeständigkeit   Innen-/Außen-Verbindung genauso hoch?",
+            "a": "  homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an   Verbindungsstelle."
+          },
+          {
+            "q": "za welche Dimenzije ist dieser Winkel verfügbar?",
+            "a": "Er wird typischerweise za   gängigen Dimenzije u   Etagenverteilung od 20 mm do 40 mm produziert."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "  90°-Winkel (Elbow 90°) ist   Standard-Richtungswechsler u unserem Fitinzi-Sortiment, ausgelegt za präzise, rechtwinklige Abzweigungen.",
+        "seo_p2": "Dieses formstabile PP-R Bauteil ist so konstruiert, dass es   mechanischen i thermischen Belastungen des Systems problemlos aufnimmt i sa allen SDR-Stufen kompatibel ist.",
+        "seo_p3": "Perfekt za Eckverlegungen i Wanddurchführungen u   gesamten Gebäudetechnik, es garantiert einen dichten i sicheren 90-Grad-Knick ohne strömungsstörende Kanten.",
+        "faq": [
+          {
             "q": "Erhöht ein 90-Grad-Winkel   Verschleiß durch Strömungsdruck?",
             "a": "Dank   Wandstärkenreserven i   extrem glatten Innenflächen des PP-R Materials ist Verschleiß durch Abrasion praktisch ausgeschlossen."
           },
@@ -816,10 +835,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "  90°-Winkel (Elbow 90°) ist   Standard-Richtungswechsler u unserem Fitinzi-Sortiment, ausgelegt za präzise, rechtwinklige Abzweigungen.",
-        "seo_p2": "Dieses formstabile PP-R Bauteil ist so konstruiert, dass es   mechanischen i thermischen Belastungen des Systems problemlos aufnimmt i sa allen SDR-Stufen kompatibel ist.",
-        "seo_p3": "Perfekt za Eckverlegungen i Wanddurchführungen u   gesamten Gebäudetechnik, es garantiert einen dichten i sicheren 90-Grad-Knick ohne strömungsstörende Kanten.",
+      "elbow-90-femalemale": {
+        "seo_p1": "  90°-Winkel sa Innen-/Außenschweißende (Elbow 90° Female/Male) ist   Lösung za ultrakompakte Eckverbindungen direkt an anderen Bauteilen.",
+        "seo_p2": "Dieses intelligente PP-R Fitting kombiniert ein reguläres Muffenende sa einem Einsteckende, um Formteil-an-Formteil-Schweißungen nahtlos umzusetzen.",
+        "seo_p3": "Insbesondere kod   Montage od Armature ili Heizkreisverteilern reduziert dieses Design   Platzbedarf erheblich i minimiert   Materijal- sowie Arbeitsaufwand.",
         "faq": [
           {
             "q": "Was bedeutet I/A (M/F) kod diesem Winkel?",
@@ -832,25 +851,6 @@
           {
             "q": "Ändert sich dadurch   Schweißvorgang?",
             "a": "  Prozess bleibt gleich, es werden lediglich Matrize i Patrize am Schweißspiegel gleichzeitig za Rohr i Fitting genutzt."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "  90°-Winkel sa Innen-/Außenschweißende (Elbow 90° Female/Male) ist   Lösung za ultrakompakte Eckverbindungen direkt an anderen Bauteilen.",
-        "seo_p2": "Dieses intelligente PP-R Fitting kombiniert ein reguläres Muffenende sa einem Einsteckende, um Formteil-an-Formteil-Schweißungen nahtlos umzusetzen.",
-        "seo_p3": "Insbesondere kod   Montage od Armature ili Heizkreisverteilern reduziert dieses Design   Platzbedarf erheblich i minimiert   Materijal- sowie Arbeitsaufwand.",
-        "faq": [
-          {
-            "q": "Eignet sich   45-Grad I/A Winkel za parallele Versprünge?",
-            "a": "Ja, kombiniert sa einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
-          },
-          {
-            "q": "Ist   Druckbeständigkeit   Innen-/Außen-Verbindung genauso hoch?",
-            "a": "  homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an   Verbindungsstelle."
-          },
-          {
-            "q": "za welche Dimenzije ist dieser Winkel verfügbar?",
-            "a": "Er wird typischerweise za   gängigen Dimenzije u   Etagenverteilung od 20 mm do 40 mm produziert."
           }
         ]
       },
@@ -1630,25 +1630,6 @@
           {
             "q": "Ersetzt   Rollenschneider   Anfasen?",
             "a": "  Muffenschweißen erfordert kein Anfasen.   absolut gerade Schnitt dieses Werkzeugs ist   perfekte Vorbereitung za   Schweißprozess."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "  Hochleistungs-Rohrschneider d50-d125 V1 (Pipe Cutter 50-125-1) ist eine modifizierte Version za besonders schnelle i ergonomische Schnitte.",
-        "seo_p2": "sa einer optimierten Spindelführung i einem integrierten Schnellrücklauf-Mechanismus beschleunigt er   Schneidprozess massiver PP-R Cevi enorm.",
-        "seo_p3": "za Bauprojekte sa hohem Rohrverbrauch ab 50 mm Durchmesser konzipiert, reduziert dieses Werkzeug   physische Belastung des Anwenders na ein Minimum.",
-        "faq": [
-          {
-            "q": "Was bedeutet 'Schnellrücklauf-Mechanismus'?",
-            "a": "Nach Beendigung des Schnitts kann   Schneidrad per Knopfdruck sofort u   Ausgangsposition gefahren werden, ohne lästiges Zurückkurbeln."
-          },
-          {
-            "q": "Eignet sich dieses Modell besser za   stationären Einsatz?",
-            "a": "Es ist mobil, lässt sich aber dank seiner massiven Bauform i   präzisen Spindelführung hervorragend za stationäre Vorfertigungen nutzen."
-          },
-          {
-            "q": "Gibt es Ersatzteile za diesen Rohrschneider?",
-            "a": "Ja, sowohl   Schneidrad als auch   Führungsrollen sind als Original-Ersatzteile dauerhaft lieferbar."
           }
         ]
       },

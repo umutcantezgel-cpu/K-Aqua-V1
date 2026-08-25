@@ -62,8 +62,13 @@ export function constructMetadata({
     'concealed-valve-chrome-heavy-part',
     'hand-welding-machine-2063-complete-set',
     'hand-welding-machine-mirror-50125',
-    'pipe-cutter-2040',
-    'pipe-cutter-50125-1'
+    'pipe-cutter-2040'
+    // `pipe-cutter-50125-1` ist hier entfallen. Der Slug legt eine Variante des
+    // Rohrabschneiders nahe, das Bauteil ist laut Katalog S. 114 aber ein
+    // „Pipe scraper" — ein eigenes Werkzeug mit eigener Artikelnummer (AQ974).
+    // Als Variante geführt bekam die Seite keine hreflang-Alternativen und
+    // wurde auf den Rohrabschneider kanonisiert; damit stand im Index, sie sei
+    // eine Dublette eines anderen Produkts.
   ]);
 
   const isVariant = Array.from(variantSlugs).some(slug => cleanPath.endsWith(`/${slug}`) || cleanPath === slug);

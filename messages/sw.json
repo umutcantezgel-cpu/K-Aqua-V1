@@ -7050,6 +7050,25 @@
         "seo_p3": "Katika usakinishaji wa kompakti au wakati wa kujenga mifumo finyu iliyofichwa ukutani, kipengele hiki kinaokoa muda muhimu wa kusanyiko na kupunguza idadi ya viungo vinavyochomelewa.",
         "faq": [
           {
+            "q": "Je, kiwiko cha 45-degree M/F kinafaa kwa marekebisho sambamba?",
+            "a": "Ndiyo, kikiunganishwa na kiwiko cha kawaida cha digrii 45, mipangilio ya sakafu fupi zaidi inaweza kufikiwa."
+          },
+          {
+            "q": "Je, upinzani wa shinikizo la uhusiano wa kike/kiume ni sawa pia?",
+            "a": "Uchomeleaji sawa wa polyfusion pia unahakikisha asilimia 100 ya upinzani wa shinikizo (PN 25) kwenye kiungo hiki."
+          },
+          {
+            "q": "Kiwiko hiki kinapatikana kwa vipimo gani?",
+            "a": "Kawaida huzalishwa kwa vipimo vya kawaida katika usambazaji wa sakafu kuanzia mm 20 hadi mm 40."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Kiwiko cha 90° ndicho kigeuzi kikuu cha mwelekeo katika anuwai yetu ya fitingi, iliyoundwa kwa ajili ya matawi sahihi ya pembe mraba.",
+        "seo_p2": "Kipengele hiki thabiti cha kijiometri cha PP-R kimejengwa ili kunyonya kwa urahisi mizigo ya kimitambo na ya joto ya mfumo na inaoana na viwango vyote vya SDR.",
+        "seo_p3": "Ni kamili kwa ufungaji wa pembeni na kupenya kwa ukuta kote katika uhandisi wa huduma za majengo, inahakikisha mkunjo thabiti na salama wa digrii 90 bila kingo zinazosumbua mtiririko.",
+        "faq": [
+          {
             "q": "Je, kiwiko cha digrii 90 kinaongeza uchakavu kutokana na shinikizo la mtiririko?",
             "a": "Shukrani kwa hifadhi ya unene wa ukuta na nyuso laini sana za ndani za nyenzo za PP-R, uchakavu wa kukwarua umeondolewa karibu kabisa."
           },
@@ -7063,10 +7082,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Kiwiko cha 90° ndicho kigeuzi kikuu cha mwelekeo katika anuwai yetu ya fitingi, iliyoundwa kwa ajili ya matawi sahihi ya pembe mraba.",
-        "seo_p2": "Kipengele hiki thabiti cha kijiometri cha PP-R kimejengwa ili kunyonya kwa urahisi mizigo ya kimitambo na ya joto ya mfumo na inaoana na viwango vyote vya SDR.",
-        "seo_p3": "Ni kamili kwa ufungaji wa pembeni na kupenya kwa ukuta kote katika uhandisi wa huduma za majengo, inahakikisha mkunjo thabiti na salama wa digrii 90 bila kingo zinazosumbua mtiririko.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Kiwiko cha 90° cha Kike/Kiume (Female/Male) ndilo suluhisho la miunganisho ya pembeni fupi zaidi moja kwa moja kwenye vipengele vingine.",
+        "seo_p2": "Fitingi hii yenye akili ya PP-R inachanganya ncha ya kawaida ya soketi na ncha ya kuingiza ili kutekeleza bila mshono miunganisho ya fitingi hadi fitingi.",
+        "seo_p3": "Hasa unapoweka valvu au mifumo ya usambazaji, muundo huu hupunguza sana mahitaji ya nafasi na kupunguza gharama za vifaa na wafanyakazi.",
         "faq": [
           {
             "q": "M/F (Male/Female) inamaanisha nini kwa kiwiko hiki?",
@@ -7079,25 +7098,6 @@
           {
             "q": "Hii inabadilisha mchakato wa kuchomelea?",
             "a": "Mchakato unabakia sawa, isipokuwa die za kiume na kike kwenye kioo cha kuchomelea hutumiwa wakati huo huo kwa bomba na fitingi."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Kiwiko cha 90° cha Kike/Kiume (Female/Male) ndilo suluhisho la miunganisho ya pembeni fupi zaidi moja kwa moja kwenye vipengele vingine.",
-        "seo_p2": "Fitingi hii yenye akili ya PP-R inachanganya ncha ya kawaida ya soketi na ncha ya kuingiza ili kutekeleza bila mshono miunganisho ya fitingi hadi fitingi.",
-        "seo_p3": "Hasa unapoweka valvu au mifumo ya usambazaji, muundo huu hupunguza sana mahitaji ya nafasi na kupunguza gharama za vifaa na wafanyakazi.",
-        "faq": [
-          {
-            "q": "Je, kiwiko cha 45-degree M/F kinafaa kwa marekebisho sambamba?",
-            "a": "Ndiyo, kikiunganishwa na kiwiko cha kawaida cha digrii 45, mipangilio ya sakafu fupi zaidi inaweza kufikiwa."
-          },
-          {
-            "q": "Je, upinzani wa shinikizo la uhusiano wa kike/kiume ni sawa pia?",
-            "a": "Uchomeleaji sawa wa polyfusion pia unahakikisha asilimia 100 ya upinzani wa shinikizo (PN 25) kwenye kiungo hiki."
-          },
-          {
-            "q": "Kiwiko hiki kinapatikana kwa vipimo gani?",
-            "a": "Kawaida huzalishwa kwa vipimo vya kawaida katika usambazaji wa sakafu kuanzia mm 20 hadi mm 40."
           }
         ]
       },
@@ -7877,25 +7877,6 @@
           {
             "q": "Je, zana ina beveling mechanism (chamfering)?",
             "a": "Baadhi ya mifano yetu mikubwa inaweza kuambatana na njia inayosawazisha makali kabla ya kuchomelea kwa electrofusion."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Kikata Mabomba Kielektroniki d50-d125 kimeundwa kutoa suluhisho mbadala la haraka zaidi kwa kukata vipenyo vikubwa kwenye mazingira yenye shughuli nyingi.",
-        "seo_p2": "Utaratibu mkubwa na utendaji wake hupunguza kazi ya mwongozo kwa kukata kwa wepesi. Hutengeneza viwango (edges) laini.",
-        "seo_p3": "Zana isiyoweza kukosekana katika utengenezaji uliofungiwa kwenye kiwanda cha usambazaji, kuokoa wakati zaidi unaposhughulikia mamia ya vipande.",
-        "faq": [
-          {
-            "q": "Tofauti gani na kile cha kuzungusha mkono?",
-            "a": "Kwa ukataji rahisi wa nguvu (guillotine style/electric), inahitaji juhudi ndogo lakini hutoa matokeo bora."
-          },
-          {
-            "q": "Je, vile (blades) vinaweza kubadilishwa?",
-            "a": "Ndiyo, vile vinaweza kuondolewa kwa haraka ili kubadilishwa vinapoanza kuwa hafifu (blunt)."
-          },
-          {
-            "q": "Hii inaweza kutumika kwa ujenzi wa nje?",
-            "a": "Ina uimara (heavy-duty) na inaweza kuhamishwa kwa usalama, ingawa ni kubwa kidogo ikilinganishwa na kikataji cha kawaida."
           }
         ]
       },

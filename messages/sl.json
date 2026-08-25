@@ -352,6 +352,25 @@
         "seo_p3": "Pri kompaktni namestitvi razdelilnika ali pri gradnji ozkih predstenskih sistemov ta komponenta prihrani dragocen čas namestitve in zmanjša število varjenih spojev.",
         "faq": [
           {
+            "q": "Ali je 45-stopinjsko I/A koleno primerno za vzporedne odmike?",
+            "a": "Da, v kombinaciji s standardnim 45-stopinjskim kolenom je mogoče realizirati izjemno kompaktne etažne zamike."
+          },
+          {
+            "q": "Ali je tlačna odpornost povezave notranjost/zunanjost enako visoka?",
+            "a": "Homogeno polifuzijsko varjenje tukaj prav tako zagotavlja 100-odstotno tlačno trdnost (PN 25) na priključnem mestu."
+          },
+          {
+            "q": "Za katere dimenzije je to koleno na voljo?",
+            "a": "Običajno se proizvaja za standardne dimenzije v etažni distribuciji od 20 mm do 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Koleno 90° (Elbow 90°) je standardni pripomoček za spremembo smeri v našem asortimanu fitingov, zasnovan za natančne, pravokotne odcepe.",
+        "seo_p2": "Ta dimenzijsko stabilna PP-R komponenta je zasnovana tako, da zlahka absorbira mehanske in toplotne obremenitve sistema in je združljiva z vsemi stopnjami SDR.",
+        "seo_p3": "Popolno za kotne instalacije in preboje sten v celotni gradbeni tehnologiji, zagotavlja gost in varen 90-stopinjski prelom brez robov, ki bi motili pretok.",
+        "faq": [
+          {
             "q": "Ali 90-stopinjsko koleno poveča obrabo zaradi tlaka pretoka?",
             "a": "Zahvaljujoč rezervam debeline stene in izjemno gladkim notranjim površinam materiala PP-R je obraba zaradi abrazije praktično izključena."
           },
@@ -365,10 +384,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Koleno 90° (Elbow 90°) je standardni pripomoček za spremembo smeri v našem asortimanu fitingov, zasnovan za natančne, pravokotne odcepe.",
-        "seo_p2": "Ta dimenzijsko stabilna PP-R komponenta je zasnovana tako, da zlahka absorbira mehanske in toplotne obremenitve sistema in je združljiva z vsemi stopnjami SDR.",
-        "seo_p3": "Popolno za kotne instalacije in preboje sten v celotni gradbeni tehnologiji, zagotavlja gost in varen 90-stopinjski prelom brez robov, ki bi motili pretok.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Koleno 90° z notranjim/zunanjim zvarom (Elbow 90° Female/Male) je rešitev za izjemno kompaktne kotne priključke neposredno na druge komponente.",
+        "seo_p2": "Ta inteligentni PP-R fiting združuje običajen konec mufe z vtičnim koncem za brezhibno izvajanje varjenja fiting na fiting.",
+        "seo_p3": "Še posebej pri nameščanju armatur ali razdelilnikov ogrevalnih krogov ta zasnova znatno zmanjša potrebo po prostoru ter material in delo.",
         "faq": [
           {
             "q": "Kaj pomeni I/A (M/F) pri tem kolenu?",
@@ -381,25 +400,6 @@
           {
             "q": "Ali se s tem spremeni postopek varjenja?",
             "a": "Proces ostaja enak, samo matrica in patrica na varilnem ogledalu se uporabljata hkrati za cev in fiting."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Koleno 90° z notranjim/zunanjim zvarom (Elbow 90° Female/Male) je rešitev za izjemno kompaktne kotne priključke neposredno na druge komponente.",
-        "seo_p2": "Ta inteligentni PP-R fiting združuje običajen konec mufe z vtičnim koncem za brezhibno izvajanje varjenja fiting na fiting.",
-        "seo_p3": "Še posebej pri nameščanju armatur ali razdelilnikov ogrevalnih krogov ta zasnova znatno zmanjša potrebo po prostoru ter material in delo.",
-        "faq": [
-          {
-            "q": "Ali je 45-stopinjsko I/A koleno primerno za vzporedne odmike?",
-            "a": "Da, v kombinaciji s standardnim 45-stopinjskim kolenom je mogoče realizirati izjemno kompaktne etažne zamike."
-          },
-          {
-            "q": "Ali je tlačna odpornost povezave notranjost/zunanjost enako visoka?",
-            "a": "Homogeno polifuzijsko varjenje tukaj prav tako zagotavlja 100-odstotno tlačno trdnost (PN 25) na priključnem mestu."
-          },
-          {
-            "q": "Za katere dimenzije je to koleno na voljo?",
-            "a": "Običajno se proizvaja za standardne dimenzije v etažni distribuciji od 20 mm do 40 mm."
           }
         ]
       },
@@ -1179,25 +1179,6 @@
           {
             "q": "Ali orodje za rezanje z valjčki nadomesti posnemanje robov?",
             "a": "Varjenje muf ne zahteva posnemanja robov. Absolutno ravni rez tega orodja je popolna priprava za proces varjenja."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Visoko zmogljiv rezalnik cevi d50-d125 V1 (Pipe Cutter 50-125-1) je prilagojena različica za posebej hitre in ergonomske reze.",
-        "seo_p2": "Z optimiziranim vodenjem vretena in integriranim mehanizmom za hitro vračanje izjemno pospeši postopek rezanja masivnih PP-R cevi.",
-        "seo_p3": "Zasnovano za gradbene projekte z visoko porabo cevi premera 50 mm in več, to orodje zmanjša fizični napor uporabnika na minimum.",
-        "faq": [
-          {
-            "q": "Kaj pomeni 'mehanizem za hitro vračanje'?",
-            "a": "Po končanem rezanju se lahko rezalno kolo s pritiskom na gumb takoj premakne v začetni položaj, brez nadležnega navijanja nazaj."
-          },
-          {
-            "q": "Ali je ta model primernejši za stacionarno uporabo?",
-            "a": "Je mobilen, vendar se lahko zaradi svoje masivne konstrukcije in natančnega vodenja vretena odlično uporablja tudi za stacionarno predpripravo."
-          },
-          {
-            "q": "Ali so na voljo nadomestni deli za ta rezalnik cevi?",
-            "a": "Da, tako rezalno kolo kot vodilni valjčki so stalno na voljo kot originalni nadomestni deli."
           }
         ]
       },

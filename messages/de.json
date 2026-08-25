@@ -33,7 +33,7 @@
     "plug": "Gewindestopfen zum Verschließen offener Enden. Weitere Größen auf Anfrage.",
     "pipe-cutter-2040": "Ratschen-Rohrschneider für saubere, rechtwinklige Schnitte.",
     "pipe-cutter-50125": "Robuster Rohrschneider für große Dimensionen.",
-    "pipe-cutter-50125-1": "Alternative Ausführung (1¼).",
+    "pipe-cutter-50125-1": "Zieht die Rohroberfläche vor dem Schweißen ab.",
     "hand-welding-machine-2032-complete-set": "Kompaktes Muffenschweißgerät.",
     "hand-welding-machine-2063-complete-set": "Komplettset mit Heizplatte, Ständer und Werkzeugen.",
     "hand-welding-machine-mirror-50125": "Ersatz-Heizspiegel für das 50–125-mm-Gerät.",
@@ -1310,25 +1310,6 @@
           {
             "q": "Ersetzt der Rollenschneider das Anfasen?",
             "a": "Das Muffenschweißen erfordert kein Anfasen. Der absolut gerade Schnitt dieses Werkzeugs ist die perfekte Vorbereitung für den Schweißprozess."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Der Hochleistungs-Rohrschneider d50-d125 V1 (Pipe Cutter 50-125-1) ist eine modifizierte Version für besonders schnelle und ergonomische Schnitte.",
-        "seo_p2": "Mit einer optimierten Spindelführung und einem integrierten Schnellrücklauf-Mechanismus beschleunigt er den Schneidprozess massiver PP-R Rohre enorm.",
-        "seo_p3": "Für Bauprojekte mit hohem Rohrverbrauch ab 50 mm Durchmesser konzipiert, reduziert dieses Werkzeug die physische Belastung des Anwenders auf ein Minimum.",
-        "faq": [
-          {
-            "q": "Was bedeutet 'Schnellrücklauf-Mechanismus'?",
-            "a": "Nach Beendigung des Schnitts kann das Schneidrad per Knopfdruck sofort in die Ausgangsposition gefahren werden, ohne lästiges Zurückkurbeln."
-          },
-          {
-            "q": "Eignet sich dieses Modell besser für den stationären Einsatz?",
-            "a": "Es ist mobil, lässt sich aber dank seiner massiven Bauform und der präzisen Spindelführung hervorragend für stationäre Vorfertigungen nutzen."
-          },
-          {
-            "q": "Gibt es Ersatzteile für diesen Rohrschneider?",
-            "a": "Ja, sowohl das Schneidrad als auch die Führungsrollen sind als Original-Ersatzteile dauerhaft lieferbar."
           }
         ]
       },
@@ -8040,7 +8021,7 @@
     "fittings_reducing-tee-large-sizes": "PP-R T-Stück reduziert, große Dimensionen",
     "accessories_flat-gasket-for-unions-pp-r": "PP-R Flachdichtung für Verschraubungen",
     "tools_pipe-cutter-2040": "Ratschen-Rohrabschneider d20-d40",
-    "tools_pipe-cutter-50125-1": "Rohrabschneider 1¼″ d50-d125",
+    "tools_pipe-cutter-50125-1": "Rohrschaber",
     "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Rohr PP-R SDR 17",
     "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Rohr PP-R SDR 7.4",
     "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Rohr PP-R SDR 9",

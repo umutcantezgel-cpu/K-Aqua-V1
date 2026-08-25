@@ -33,7 +33,7 @@
     "plug": "Bouchon fileté pour obturer les extrémités libres. Autres dimensions sur demande.",
     "pipe-cutter-2040": "Coupe-tube à cliquet pour coupes nettes et à angle droit.",
     "pipe-cutter-50125": "Coupe-tube haute performance pour grands diamètres.",
-    "pipe-cutter-50125-1": "Version alternative (1¼).",
+    "pipe-cutter-50125-1": "Gratte la surface du tube avant soudage.",
     "hand-welding-machine-2032-complete-set": "Appareil compact de polyfusion bout à bout/emboîtement.",
     "hand-welding-machine-2063-complete-set": "Kit complet avec miroir chauffant, support et matrices.",
     "hand-welding-machine-mirror-50125": "Miroir chauffant de rechange pour appareil 50–125 mm.",
@@ -414,6 +414,25 @@
         "seo_p3": "C'est le raccord de choix pour les locaux techniques exigus et les collecteurs compacts. Il réduit le nombre de soudures nécessaires, accélérant le temps de pose tout en conservant une sécurité d'étanchéité totale.",
         "faq": [
           {
+            "q": "Le coude à 45 degrés I/A est-il adapté aux décalages parallèles ?",
+            "a": "Oui, combiné à un coude standard à 45 degrés, des décalages d'étages extrêmement compacts peuvent être réalisés."
+          },
+          {
+            "q": "La résistance à la pression de la connexion intérieur/extérieur est-elle aussi élevée ?",
+            "a": "Le soudage par polyfusion homogène garantit ici aussi une résistance à la pression à 100 % (PN 25) au point de connexion."
+          },
+          {
+            "q": "Pour quelles dimensions ce coude est-il disponible ?",
+            "a": "Il est typiquement produit pour les dimensions courantes de distribution d'étage de 20 mm à 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Le coude à 90° K-Aqua est le raccord directionnel par excellence, permettant des virages à angle droit nets et sécurisés. Il est l'épine dorsale des installations géométriques et des réseaux muraux encastrés.",
+        "seo_p2": "Fabriqué en PP-R injecté avec des tolérances strictes, ce coude assure une parfaite homogénéité lors du soudage. Sa paroi renforcée résiste aux contraintes directionnelles extrêmes créées par le flux d'eau sous pression.",
+        "seo_p3": "Indispensable pour la plomberie résidentielle, le contournement des angles de murs et la construction d'infrastructures HVAC. Il offre un débit fiable et supprime le risque d'entartrage dans le virage.",
+        "faq": [
+          {
             "q": "Un coude à 90 degrés augmente-il l'usure due à la pression d'écoulement ?",
             "a": "Grâce aux réserves d'épaisseur de paroi et aux surfaces intérieures extrêmement lisses du matériau PP-R, l'usure par abrasion est pratiquement exclue."
           },
@@ -427,10 +446,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Le coude à 90° K-Aqua est le raccord directionnel par excellence, permettant des virages à angle droit nets et sécurisés. Il est l'épine dorsale des installations géométriques et des réseaux muraux encastrés.",
-        "seo_p2": "Fabriqué en PP-R injecté avec des tolérances strictes, ce coude assure une parfaite homogénéité lors du soudage. Sa paroi renforcée résiste aux contraintes directionnelles extrêmes créées par le flux d'eau sous pression.",
-        "seo_p3": "Indispensable pour la plomberie résidentielle, le contournement des angles de murs et la construction d'infrastructures HVAC. Il offre un débit fiable et supprime le risque d'entartrage dans le virage.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Le coude à 90° Femelle/Mâle offre une solution d'assemblage compacte pour des angles droits immédiats après un autre composant. Il élimine le besoin d'un mamelon intermédiaire, rendant l'installation plus propre et plus rapide.",
+        "seo_p2": "Composé à 100 % de PP-R, il intègre un embout mâle à souder directement dans le corps d'un autre raccord. Cette conception astucieuse maintient toutes les spécifications de résistance thermique et de pression du système.",
+        "seo_p3": "Très prisé pour les passages difficiles, la connexion directe de vannes ou l'intégration dans des armoires de distribution étroites. Ce gain d'espace s'accompagne d'une réduction du nombre d'opérations de soudage.",
         "faq": [
           {
             "q": "Que signifie I/A (M/F) pour ce coude ?",
@@ -443,25 +462,6 @@
           {
             "q": "Le processus de soudage change-t-il de ce fait ?",
             "a": "Le processus reste le même, seules la matrice et la patrice du miroir de soudage sont utilisées simultanément pour le tube et le raccord."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Le coude à 90° Femelle/Mâle offre une solution d'assemblage compacte pour des angles droits immédiats après un autre composant. Il élimine le besoin d'un mamelon intermédiaire, rendant l'installation plus propre et plus rapide.",
-        "seo_p2": "Composé à 100 % de PP-R, il intègre un embout mâle à souder directement dans le corps d'un autre raccord. Cette conception astucieuse maintient toutes les spécifications de résistance thermique et de pression du système.",
-        "seo_p3": "Très prisé pour les passages difficiles, la connexion directe de vannes ou l'intégration dans des armoires de distribution étroites. Ce gain d'espace s'accompagne d'une réduction du nombre d'opérations de soudage.",
-        "faq": [
-          {
-            "q": "Le coude à 45 degrés I/A est-il adapté aux décalages parallèles ?",
-            "a": "Oui, combiné à un coude standard à 45 degrés, des décalages d'étages extrêmement compacts peuvent être réalisés."
-          },
-          {
-            "q": "La résistance à la pression de la connexion intérieur/extérieur est-elle aussi élevée ?",
-            "a": "Le soudage par polyfusion homogène garantit ici aussi une résistance à la pression à 100 % (PN 25) au point de connexion."
-          },
-          {
-            "q": "Pour quelles dimensions ce coude est-il disponible ?",
-            "a": "Il est typiquement produit pour les dimensions courantes de distribution d'étage de 20 mm à 40 mm."
           }
         ]
       },
@@ -1241,25 +1241,6 @@
           {
             "q": "Y a-t-il des pièces de rechange pour ce coupe-tube ?",
             "a": "Oui, la lame ainsi que le mécanisme à cliquet sont disponibles en tant que pièces de rechange d'origine et peuvent être remplacés."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "La variante 'guillotine' du coupe-tube 50-125 mm est une alternative redoutable pour les travaux en tranchée ou dans des espaces extrêmement réduits où la rotation complète autour du tube est impossible.",
-        "seo_p2": "Fonctionnant avec une lame en 'V' puissante et un mécanisme de vis sans fin ou hydraulique, cet outil tranche net les tubes en PP-R de grand diamètre. La géométrie de la lame est étudiée pour minimiser la déformation de l'épaisseur de la paroi.",
-        "seo_p3": "Très apprécié par les équipes de voirie et de génie civil pour les réparations d'urgence. Il combine rapidité d'exécution et encombrement minimal, tout en assurant une coupe suffisamment propre pour l'électrosoudage.",
-        "faq": [
-          {
-            "q": "Quel est l'avantage du coupe-tube à roulettes par rapport à la pince à cliquet ?",
-            "a": "Le coupe-tube circulaire garantit une coupe à 100 % d'équerre et sans aucune déformation, particulièrement important pour les tubes à grandes parois ou le soudage bout à bout."
-          },
-          {
-            "q": "Faut-il ajuster l'outil pendant la coupe ?",
-            "a": "Oui, on tourne le coupe-tube autour du tube en resserrant continuellement la molette jusqu'à ce que la roulette de coupe traverse la paroi."
-          },
-          {
-            "q": "Y a-t-il des pièces de rechange pour ce coupe-tube ?",
-            "a": "Oui, la roulette de coupe et les rouleaux de guidage sont disponibles en permanence en tant que pièces de rechange d'origine."
           }
         ]
       },

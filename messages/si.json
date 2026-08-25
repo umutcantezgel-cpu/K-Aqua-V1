@@ -7378,6 +7378,25 @@
         "seo_p3": "In compact manifold installations or when building narrow pre-wall systems, this component saves valuable assembly time and reduces the number of welds.",
         "faq": [
           {
+            "q": "Is the 45-degree M/F elbow suitable for parallel offsets?",
+            "a": "Yes, combined with a standard 45-degree elbow, extremely compact floor offsets can be realized."
+          },
+          {
+            "q": "Is the pressure resistance of the female/male connection just as high?",
+            "a": "The homogeneous polyfusion welding also ensures 100 percent pressure resistance (PN 25) at the joint here."
+          },
+          {
+            "q": "For which dimensions is this elbow available?",
+            "a": "It is typically produced for the common dimensions in floor distribution from 20 mm to 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "The Elbow 90° is the standard direction changer in our fittings range, designed for precise, right-angled branches.",
+        "seo_p2": "This dimensionally stable PP-R component is constructed to easily absorb the mechanical and thermal loads of the system and is compatible with all SDR levels.",
+        "seo_p3": "Perfect for corner installations and wall penetrations throughout building services engineering, it guarantees a tight and secure 90-degree bend without edges that disturb the flow.",
+        "faq": [
+          {
             "q": "Does a 90-degree elbow increase wear due to flow pressure?",
             "a": "Thanks to the wall thickness reserves and the extremely smooth inner surfaces of the PP-R material, wear from abrasion is practically excluded."
           },
@@ -7391,10 +7410,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "The Elbow 90° is the standard direction changer in our fittings range, designed for precise, right-angled branches.",
-        "seo_p2": "This dimensionally stable PP-R component is constructed to easily absorb the mechanical and thermal loads of the system and is compatible with all SDR levels.",
-        "seo_p3": "Perfect for corner installations and wall penetrations throughout building services engineering, it guarantees a tight and secure 90-degree bend without edges that disturb the flow.",
+      "elbow-90-femalemale": {
+        "seo_p1": "The Elbow 90° Female/Male is the solution for ultra-compact corner connections directly to other components.",
+        "seo_p2": "This intelligent PP-R fitting combines a regular socket end with an insertion end to seamlessly implement fitting-to-fitting welds.",
+        "seo_p3": "Especially when installing valves or heating circuit manifolds, this design significantly reduces space requirements and minimizes material and labor costs.",
         "faq": [
           {
             "q": "What does M/F (Male/Female) mean for this elbow?",
@@ -7407,25 +7426,6 @@
           {
             "q": "Does this change the welding process?",
             "a": "The process remains the same, only the male and female dies on the welding mirror are used simultaneously for the pipe and fitting."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "The Elbow 90° Female/Male is the solution for ultra-compact corner connections directly to other components.",
-        "seo_p2": "This intelligent PP-R fitting combines a regular socket end with an insertion end to seamlessly implement fitting-to-fitting welds.",
-        "seo_p3": "Especially when installing valves or heating circuit manifolds, this design significantly reduces space requirements and minimizes material and labor costs.",
-        "faq": [
-          {
-            "q": "Is the 45-degree M/F elbow suitable for parallel offsets?",
-            "a": "Yes, combined with a standard 45-degree elbow, extremely compact floor offsets can be realized."
-          },
-          {
-            "q": "Is the pressure resistance of the female/male connection just as high?",
-            "a": "The homogeneous polyfusion welding also ensures 100 percent pressure resistance (PN 25) at the joint here."
-          },
-          {
-            "q": "For which dimensions is this elbow available?",
-            "a": "It is typically produced for the common dimensions in floor distribution from 20 mm to 40 mm."
           }
         ]
       },
@@ -8129,25 +8129,6 @@
           {
             "q": "Is the cutter suitable for fiber pipes?",
             "a": "Yes, our hardened blades easily cut through the fiberglass layers of K-Fiber pipes."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "The Pipe Cutter (50-125) wheel version uses a rotating cutting wheel instead of a shear blade for extreme precision on large dimensions.",
-        "seo_p2": "By constantly tightening the adjusting wheel while rotating around the pipe, the tool separates the pipe wall millimetre by millimetre.",
-        "seo_p3": "This technique absolutely guarantees that even very thick-walled SDR 6 pipes do not experience any oval deformation during the cutting process, which is critical for an optimal welding socket.",
-        "faq": [
-          {
-            "q": "What is the advantage over the scissor pipe cutter?",
-            "a": "The wheel cutter absolutely guarantees that the pipe remains circular. Scissors press the pipe slightly together during cutting."
-          },
-          {
-            "q": "Does cutting with the wheel cutter take longer?",
-            "a": "Yes, it takes a few seconds longer, but it delivers an absolutely perfect cut edge that does not need to be reworked."
-          },
-          {
-            "q": "Can the cutting wheel be replaced?",
-            "a": "Yes, the hardened steel wheel can be replaced in a few simple steps."
           }
         ]
       },

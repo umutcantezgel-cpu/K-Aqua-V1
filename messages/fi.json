@@ -352,6 +352,25 @@
         "seo_p3": "Kompakteissa jakotukkien asennuksissa tai ahtaiden seinäasennusjärjestelmien rakentamisessa tämä osa säästää arvokasta asennusaikaa ja vähentää hitsausten määrää.",
         "faq": [
           {
+            "q": "Sopiiko 45 asteen S/U-kulma rinnakkaisiin siirtymiin?",
+            "a": "Kyllä, yhdistettynä vakio 45 asteen kulmaan voidaan toteuttaa erittäin kompakteja kerrossiirtymiä."
+          },
+          {
+            "q": "Onko sisä-/ulkoliitoksen paineenkestävyys yhtä korkea?",
+            "a": "Homogeeninen polyfuusiohitsaus takaa myös tässä sataprosenttisen paineenkestävyyden (PN 25) liitoskohdassa."
+          },
+          {
+            "q": "Mille dimensioille tämä kulma on saatavilla?",
+            "a": "Sitä valmistetaan tyypillisesti kerrosjakelun yleisimpiin dimensioihin 20 mm - 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "90° kulma (Elbow 90°) on liitinvalikoimamme vakiomuotoinen suunnanmuuttaja, joka on suunniteltu tarkkoihin, suorakulmaisiin haaroituksiin.",
+        "seo_p2": "Tämä muotonsa säilyttävä PP-R-osa on suunniteltu kestämään järjestelmän mekaaniset ja termiset kuormitukset ongelmitta ja on yhteensopiva kaikkien SDR-luokkien kanssa.",
+        "seo_p3": "Täydellinen kulma-asennuksiin ja seinän läpivienteihin koko talotekniikassa, taaten tiiviin ja turvallisen 90 asteen taitteen ilman virtausta häiritseviä reunoja.",
+        "faq": [
+          {
             "q": "Lisääkö 90 asteen kulma virtauspaineen aiheuttamaa kulumista?",
             "a": "PP-R-materiaalin seinämäpaksuusreservien ja erittäin sileiden sisäpintojen ansiosta abraasion aiheuttama kuluminen on käytännössä mahdotonta."
           },
@@ -365,10 +384,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "90° kulma (Elbow 90°) on liitinvalikoimamme vakiomuotoinen suunnanmuuttaja, joka on suunniteltu tarkkoihin, suorakulmaisiin haaroituksiin.",
-        "seo_p2": "Tämä muotonsa säilyttävä PP-R-osa on suunniteltu kestämään järjestelmän mekaaniset ja termiset kuormitukset ongelmitta ja on yhteensopiva kaikkien SDR-luokkien kanssa.",
-        "seo_p3": "Täydellinen kulma-asennuksiin ja seinän läpivienteihin koko talotekniikassa, taaten tiiviin ja turvallisen 90 asteen taitteen ilman virtausta häiritseviä reunoja.",
+      "elbow-90-femalemale": {
+        "seo_p1": "90° kulma sisä-/ulkohitsauspäällä (Elbow 90° Female/Male) on ratkaisu erittäin kompakteihin kulmaliitoksiin suoraan muihin osiin.",
+        "seo_p2": "Tämä älykäs PP-R-liitin yhdistää tavallisen muhvipään ja pistopään mahdollistaen saumattomat liitin-liittimeen-hitsaukset.",
+        "seo_p3": "Erityisesti venttiilejä tai lämmönjakotukkeja asennettaessa tämä rakenne vähentää tilantarvetta huomattavasti ja minimoi materiaali- ja työkustannukset.",
         "faq": [
           {
             "q": "Mitä S/U (M/F) tarkoittaa tässä kulmassa?",
@@ -381,25 +400,6 @@
           {
             "q": "Muuttaako tämä hitsausprosessia?",
             "a": "Prosessi pysyy samana, matriisia ja patriisia vain käytetään hitsauspeilissä samanaikaisesti putkelle ja liittimelle."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "90° kulma sisä-/ulkohitsauspäällä (Elbow 90° Female/Male) on ratkaisu erittäin kompakteihin kulmaliitoksiin suoraan muihin osiin.",
-        "seo_p2": "Tämä älykäs PP-R-liitin yhdistää tavallisen muhvipään ja pistopään mahdollistaen saumattomat liitin-liittimeen-hitsaukset.",
-        "seo_p3": "Erityisesti venttiilejä tai lämmönjakotukkeja asennettaessa tämä rakenne vähentää tilantarvetta huomattavasti ja minimoi materiaali- ja työkustannukset.",
-        "faq": [
-          {
-            "q": "Sopiiko 45 asteen S/U-kulma rinnakkaisiin siirtymiin?",
-            "a": "Kyllä, yhdistettynä vakio 45 asteen kulmaan voidaan toteuttaa erittäin kompakteja kerrossiirtymiä."
-          },
-          {
-            "q": "Onko sisä-/ulkoliitoksen paineenkestävyys yhtä korkea?",
-            "a": "Homogeeninen polyfuusiohitsaus takaa myös tässä sataprosenttisen paineenkestävyyden (PN 25) liitoskohdassa."
-          },
-          {
-            "q": "Mille dimensioille tämä kulma on saatavilla?",
-            "a": "Sitä valmistetaan tyypillisesti kerrosjakelun yleisimpiin dimensioihin 20 mm - 40 mm."
           }
         ]
       },
@@ -1179,25 +1179,6 @@
           {
             "q": "Korvaako rullaleikkuri viistämisen?",
             "a": "Muhvihitsaus ei vaadi viistämistä. Tämän työkalun täysin suora leikkaus on täydellinen valmistelu hitsausprosessiin."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Suurteho-putkileikkuri d50-d125 V1 (Pipe Cutter 50-125-1) on modifioitu versio erityisen nopeisiin ja ergonomisiin leikkauksiin.",
-        "seo_p2": "Optimoidun karaohjauksen ja integroidun pikapaluumekanismin ansiosta se nopeuttaa massiivisten PP-R-putkien leikkausprosessia valtavasti.",
-        "seo_p3": "Suunniteltu rakennusprojekteihin, joissa yli 50 mm:n putkien kulutus on suurta, tämä työkalu vähentää käyttäjän fyysistä rasitusta minimiin.",
-        "faq": [
-          {
-            "q": "Mitä 'pikapaluumekanismi' tarkoittaa?",
-            "a": "Leikkauksen päätyttyä leikkuuterä voidaan palauttaa napin painalluksella heti alkuasentoon ilman vaivalloista takaisinkelausta."
-          },
-          {
-            "q": "Sopiiko tämä malli paremmin kiinteään käyttöön?",
-            "a": "Se on liikuteltava, mutta massiivisen rakenteensa ja tarkan karaohjauksensa ansiosta se sopii erinomaisesti myös kiinteisiin esivalmisteluihin."
-          },
-          {
-            "q": "Onko tähän putkileikkuriin saatavilla varaosia?",
-            "a": "Kyllä, sekä leikkuuterä että ohjausrullat ovat jatkuvasti saatavilla alkuperäisinä varaosina."
           }
         ]
       },

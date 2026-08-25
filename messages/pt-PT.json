@@ -33,7 +33,7 @@
     "plug": "Tampão roscado para fechar extremidades livres. Outros diâmetros sob consulta.",
     "pipe-cutter-2040": "Corta-tubos de roquete para cortes limpos e em ângulo reto.",
     "pipe-cutter-50125": "Corta-tubos de alto rendimento para grandes diâmetros.",
-    "pipe-cutter-50125-1": "Versão alternativa (1¼).",
+    "pipe-cutter-50125-1": "Raspa a superfície do tubo antes da soldadura.",
     "hand-welding-machine-2032-complete-set": "Polifusor manual compacto para soldadura topo a topo/encaixe.",
     "hand-welding-machine-2063-complete-set": "Conjunto completo com placa térmica, suporte e matrizes.",
     "hand-welding-machine-mirror-50125": "Espelho térmico de substituição para polifusor 50–125 mm.",
@@ -414,6 +414,25 @@
         "seo_p3": "In der kompakten Verteilerinstallation oder beim Bau von engen Vorwandsystemen spart dieses Bauteil wertvolle Montagezeit und reduziert die Anzahl der Schweißstellen.",
         "faq": [
           {
+            "q": "Eignet sich der 45-Grad I/A Winkel für parallele Versprünge?",
+            "a": "Ja, kombiniert mit einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
+          },
+          {
+            "q": "Ist die Druckbeständigkeit der Innen-/Außen-Verbindung genauso hoch?",
+            "a": "Die homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle."
+          },
+          {
+            "q": "Für welche Dimensionen ist dieser Winkel verfügbar?",
+            "a": "Er wird typischerweise für die gängigen Dimensionen in der Etagenverteilung von 20 mm bis 40 mm produziert."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Der 90°-Winkel (Elbow 90°) ist der Standard-Richtungswechsler in unserem Fittings-Sortiment, ausgelegt für präzise, rechtwinklige Abzweigungen.",
+        "seo_p2": "Dieses formstabile PP-R Bauteil ist so konstruiert, dass es die mechanischen und thermischen Belastungen des Systems problemlos aufnimmt und mit allen SDR-Stufen kompatibel ist.",
+        "seo_p3": "Perfekt für Eckverlegungen und Wanddurchführungen in der gesamten Gebäudetechnik: er garantiert einen dichten und sicheren 90-Grad-Knick ohne strömungsstörende Kanten.",
+        "faq": [
+          {
             "q": "Erhöht ein 90-Grad-Winkel den Verschleiß durch Strömungsdruck?",
             "a": "Dank der Wandstärkenreserven und der extrem glatten Innenflächen des PP-R Materials ist Verschleiß durch Abrasion praktisch ausgeschlossen."
           },
@@ -427,10 +446,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Der 90°-Winkel (Elbow 90°) ist der Standard-Richtungswechsler in unserem Fittings-Sortiment, ausgelegt für präzise, rechtwinklige Abzweigungen.",
-        "seo_p2": "Dieses formstabile PP-R Bauteil ist so konstruiert, dass es die mechanischen und thermischen Belastungen des Systems problemlos aufnimmt und mit allen SDR-Stufen kompatibel ist.",
-        "seo_p3": "Perfekt für Eckverlegungen und Wanddurchführungen in der gesamten Gebäudetechnik: er garantiert einen dichten und sicheren 90-Grad-Knick ohne strömungsstörende Kanten.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Der 90°-Winkel mit Innen-/Außenschweißende (Elbow 90° Female/Male) ist die Lösung für ultrakompakte Eckverbindungen direkt an anderen Bauteilen.",
+        "seo_p2": "Dieses intelligente PP-R Fitting kombiniert ein reguläres Muffenende mit einem Einsteckende, um Formteil-an-Formteil-Schweißungen nahtlos umzusetzen.",
+        "seo_p3": "Insbesondere bei der Montage von Armaturen oder Heizkreisverteilern reduziert dieses Design den Platzbedarf erheblich und minimiert den Material- sowie Arbeitsaufwand.",
         "faq": [
           {
             "q": "Was bedeutet I/A (M/F) bei diesem Winkel?",
@@ -443,25 +462,6 @@
           {
             "q": "Ändert sich dadurch der Schweißvorgang?",
             "a": "Der Prozess bleibt gleich, es werden lediglich Matrize und Patrize am Schweißspiegel gleichzeitig für Rohr und Fitting genutzt."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Der 90°-Winkel mit Innen-/Außenschweißende (Elbow 90° Female/Male) ist die Lösung für ultrakompakte Eckverbindungen direkt an anderen Bauteilen.",
-        "seo_p2": "Dieses intelligente PP-R Fitting kombiniert ein reguläres Muffenende mit einem Einsteckende, um Formteil-an-Formteil-Schweißungen nahtlos umzusetzen.",
-        "seo_p3": "Insbesondere bei der Montage von Armaturen oder Heizkreisverteilern reduziert dieses Design den Platzbedarf erheblich und minimiert den Material- sowie Arbeitsaufwand.",
-        "faq": [
-          {
-            "q": "Eignet sich der 45-Grad I/A Winkel für parallele Versprünge?",
-            "a": "Ja, kombiniert mit einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
-          },
-          {
-            "q": "Ist die Druckbeständigkeit der Innen-/Außen-Verbindung genauso hoch?",
-            "a": "Die homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle."
-          },
-          {
-            "q": "Für welche Dimensionen ist dieser Winkel verfügbar?",
-            "a": "Er wird typischerweise für die gängigen Dimensionen in der Etagenverteilung von 20 mm bis 40 mm produziert."
           }
         ]
       },
@@ -1241,25 +1241,6 @@
           {
             "q": "Ersetzt der Rollenschneider das Anfasen?",
             "a": "Das Muffenschweißen erfordert kein Anfasen. Der absolut gerade Schnitt dieses Werkzeugs ist die perfekte Vorbereitung für den Schweißprozess."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Der Hochleistungs-Rohrschneider d50-d125 V1 (Pipe Cutter 50-125-1) ist eine modifizierte Version für besonders schnelle und ergonomische Schnitte.",
-        "seo_p2": "Mit einer optimierten Spindelführung und einem integrierten Schnellrücklauf-Mechanismus beschleunigt er den Schneidprozess massiver PP-R Rohre enorm.",
-        "seo_p3": "Für Bauprojekte mit hohem Rohrverbrauch ab 50 mm Durchmesser konzipiert, reduziert dieses Werkzeug die physische Belastung des Anwenders auf ein Minimum.",
-        "faq": [
-          {
-            "q": "Was bedeutet 'Schnellrücklauf-Mechanismus'?",
-            "a": "Nach Beendigung des Schnitts kann das Schneidrad per Knopfdruck sofort in die Ausgangsposition gefahren werden, ohne lästiges Zurückkurbeln."
-          },
-          {
-            "q": "Eignet sich dieses Modell besser für den stationären Einsatz?",
-            "a": "Es ist mobil, lässt sich aber dank seiner massiven Bauform und der präzisen Spindelführung hervorragend für stationäre Vorfertigungen nutzen."
-          },
-          {
-            "q": "Gibt es Ersatzteile für diesen Rohrschneider?",
-            "a": "Ja, sowohl das Schneidrad als auch die Führungsrollen sind als Original-Ersatzteile dauerhaft lieferbar."
           }
         ]
       },

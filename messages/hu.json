@@ -7560,6 +7560,25 @@
         "seo_p3": "Kompakt elosztó telepítéseknél vagy szűk előfalas rendszerek építésekor ez az alkatrész értékes szerelési időt takarít meg és csökkenti a hegesztési pontok számát.",
         "faq": [
           {
+            "q": "Alkalmas a 45 fokos I/A könyök párhuzamos eltolásokhoz? (Német kérdés valószínűleg a 90-esre vonatkozik, de 45-öt említ)",
+            "a": "Igen, egy standard 45 fokos könyökkel kombinálva extrém kompakt emeleti eltolások (kerülőágak) valósíthatók meg."
+          },
+          {
+            "q": "A belső/külső csatlakozás nyomásállósága is ugyanolyan magas?",
+            "a": "A homogén polifúziós hegesztés itt is 100%-os nyomásállóságot (PN 25) garantál a csatlakozási ponton."
+          },
+          {
+            "q": "Milyen méretekben kapható ez a könyök?",
+            "a": "Általában a 20 mm-től 40 mm-ig terjedő, emeleti elosztásoknál szokásos (leggyakoribb) méretekben gyártják."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "A 90°-os könyök (Elbow 90°) a standard irányváltó idomkínálatunkban, precíz, derékszögű elágazásokhoz tervezve.",
+        "seo_p2": "Ezt a mérettartó PP-R alkatrészt úgy tervezték, hogy könnyedén elnyelje a rendszer mechanikai és termikus terheléseit, és minden SDR szinttel kompatibilis legyen.",
+        "seo_p3": "Tökéletes sarokvezetésekhez és fali átvezetésekhez az egész épületgépészetben; szoros és biztonságos 90 fokos törést garantál az áramlást zavaró élek nélkül.",
+        "faq": [
+          {
             "q": "Növeli a 45 fokos könyök az áramlási nyomás miatti kopást? (Német Q tévesen 90-et írt)",
             "a": "A falvastagság-tartalékoknak és a PP-R anyag rendkívül sima belső felületeinek köszönhetően a kopás (abrázió) gyakorlatilag kizárt."
           },
@@ -7573,10 +7592,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "A 90°-os könyök (Elbow 90°) a standard irányváltó idomkínálatunkban, precíz, derékszögű elágazásokhoz tervezve.",
-        "seo_p2": "Ezt a mérettartó PP-R alkatrészt úgy tervezték, hogy könnyedén elnyelje a rendszer mechanikai és termikus terheléseit, és minden SDR szinttel kompatibilis legyen.",
-        "seo_p3": "Tökéletes sarokvezetésekhez és fali átvezetésekhez az egész épületgépészetben; szoros és biztonságos 90 fokos törést garantál az áramlást zavaró élek nélkül.",
+      "elbow-90-femalemale": {
+        "seo_p1": "A 90°-os könyök belső/külső hegesztővéggel (Elbow 90° Female/Male) a megoldás az ultrakompakt sarokcsatlakozásokhoz közvetlenül más alkatrészekhez.",
+        "seo_p2": "Ez az intelligens PP-R idom egy normál tokos véget egy bedugós (tokba illeszthető) véggel kombinál, hogy zökkenőmentesen megvalósítsa az idom-az-idomhoz hegesztést.",
+        "seo_p3": "Különösen szerelvények vagy fűtőkör-elosztók telepítésekor ez a kialakítás jelentősen csökkenti a helyigényt, és minimalizálja az anyag- és munkaráfordítást.",
         "faq": [
           {
             "q": "Mit jelent az I/A (M/F) ennél a könyöknél?",
@@ -7589,25 +7608,6 @@
           {
             "q": "Változtat-e ez a hegesztési folyamaton?",
             "a": "A folyamat ugyanaz marad; a fűtőtükrön lévő matricát és patrizát egyidejűleg használják a csőhöz és az idomhoz."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "A 90°-os könyök belső/külső hegesztővéggel (Elbow 90° Female/Male) a megoldás az ultrakompakt sarokcsatlakozásokhoz közvetlenül más alkatrészekhez.",
-        "seo_p2": "Ez az intelligens PP-R idom egy normál tokos véget egy bedugós (tokba illeszthető) véggel kombinál, hogy zökkenőmentesen megvalósítsa az idom-az-idomhoz hegesztést.",
-        "seo_p3": "Különösen szerelvények vagy fűtőkör-elosztók telepítésekor ez a kialakítás jelentősen csökkenti a helyigényt, és minimalizálja az anyag- és munkaráfordítást.",
-        "faq": [
-          {
-            "q": "Alkalmas a 45 fokos I/A könyök párhuzamos eltolásokhoz? (Német kérdés valószínűleg a 90-esre vonatkozik, de 45-öt említ)",
-            "a": "Igen, egy standard 45 fokos könyökkel kombinálva extrém kompakt emeleti eltolások (kerülőágak) valósíthatók meg."
-          },
-          {
-            "q": "A belső/külső csatlakozás nyomásállósága is ugyanolyan magas?",
-            "a": "A homogén polifúziós hegesztés itt is 100%-os nyomásállóságot (PN 25) garantál a csatlakozási ponton."
-          },
-          {
-            "q": "Milyen méretekben kapható ez a könyök?",
-            "a": "Általában a 20 mm-től 40 mm-ig terjedő, emeleti elosztásoknál szokásos (leggyakoribb) méretekben gyártják."
           }
         ]
       },
@@ -8387,25 +8387,6 @@
           {
             "q": "Helyettesíti a görgős vágó a letörést (Anfasen)?",
             "a": "A tokos hegesztéshez nem szükséges a csővégek letörése. Ennek a szerszámnak az abszolút egyenes vágása a tökéletes előkészítés a hegesztési folyamathoz."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "A d50-d125 V1 nagy teljesítményű csővágó (Pipe Cutter 50-125-1) egy módosított változat a különösen gyors és ergonomikus vágásokhoz.",
-        "seo_p2": "Optimalizált orsóvezetéssel és beépített gyorsvisszafutó mechanizmussal (Schnellrücklauf) rendkívüli mértékben felgyorsítja a masszív PP-R csövek vágási folyamatát.",
-        "seo_p3": "Magas csőfelhasználású, 50 mm feletti átmérőjű építési projektekhez tervezték, ez a szerszám minimálisra csökkenti a felhasználó fizikai terhelését.",
-        "faq": [
-          {
-            "q": "Mit jelent a 'gyorsvisszafutó mechanizmus'?",
-            "a": "A vágás befejezése után a vágókerék egy gombnyomásra azonnal a kiindulási helyzetbe mozgatható, bosszantó visszatekerés nélkül."
-          },
-          {
-            "q": "Ez a modell jobban megfelel a helyhez kötött (telepített) használatra?",
-            "a": "Mobil, de masszív kialakításának és a precíz orsóvezetésnek köszönhetően kiválóan alkalmas a helyhez kötött előregyártáshoz is."
-          },
-          {
-            "q": "Vannak pótalkatrészek ehhez a csővágóhoz?",
-            "a": "Igen, mind a vágókerék, mind a vezetőgörgők folyamatosan kaphatók eredeti pótalkatrészként."
           }
         ]
       },

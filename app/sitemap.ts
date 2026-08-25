@@ -100,8 +100,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'concealed-valve-chrome-heavy-part',
     'hand-welding-machine-2063-complete-set',
     'hand-welding-machine-mirror-50125',
-    'pipe-cutter-2040',
-    'pipe-cutter-50125-1'
+    'pipe-cutter-2040'
+    // `pipe-cutter-50125-1` ist hier entfallen: laut Katalog S. 114 ein
+    // „Pipe scraper" (AQ974), kein Rohrabschneider. Als Variante gefuehrt
+    // fehlte die Seite in der Sitemap, obwohl sie ein eigenes Produkt zeigt.
   ]);
   for (const product of getAllProducts()) {
     if (variantSlugs.has(product.slug)) continue;

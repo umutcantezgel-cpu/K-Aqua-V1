@@ -33,7 +33,7 @@
     "plug": "Threaded plug for closing open ends. Further sizes on request.",
     "pipe-cutter-2040": "Ratchet pipe cutter for clean, square cuts.",
     "pipe-cutter-50125": "Heavy-duty pipe cutter for large diameters.",
-    "pipe-cutter-50125-1": "Alternative version (1¼).",
+    "pipe-cutter-50125-1": "Scrapes the pipe surface before welding.",
     "hand-welding-machine-2032-complete-set": "Compact socket welding machine.",
     "hand-welding-machine-2063-complete-set": "Complete set with heating plate, stand and tools.",
     "hand-welding-machine-mirror-50125": "Replacement heating mirror for the 50–125 mm machine.",
@@ -4404,25 +4404,6 @@
           {
             "q": "Is it heavy to use?",
             "a": "It requires physical space to rotate around the pipe, but the leverage provided by the tool makes the cutting process manageable."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "The K-Aqua Guillotine Pipe Cutter (50-125mm) is an alternative heavy-duty cutting tool for rapid sectioning of large PP-R pipes.",
-        "seo_p2": "Using a powerful ratcheting guillotine blade, it provides a fast, straight cut without the need to rotate the tool entirely around the pipe.",
-        "seo_p3": "This is especially useful in confined trenches or tight ceiling spaces where a rotary cutter cannot swing a full 360 degrees.",
-        "faq": [
-          {
-            "q": "Does the guillotine deform the pipe?",
-            "a": "High-quality guillotine cutters are designed with a V-shaped cradle to support the pipe and prevent ovalization during the cut."
-          },
-          {
-            "q": "Is it faster than the rotary cutter?",
-            "a": "Yes, it is generally much faster, making it ideal for high-volume demolition or rough cutting."
-          },
-          {
-            "q": "Can it cut fibre pipes?",
-            "a": "Yes, it cleanly slices through all K-Aqua PP-R and PPRCT fibre composite pipes."
           }
         ]
       },

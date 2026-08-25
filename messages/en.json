@@ -33,7 +33,7 @@
     "plug": "Threaded plug for closing open ends. Further sizes on request.",
     "pipe-cutter-2040": "Ratchet pipe cutter for clean, square cuts.",
     "pipe-cutter-50125": "Heavy-duty pipe cutter for large diameters.",
-    "pipe-cutter-50125-1": "Alternative version (1¼).",
+    "pipe-cutter-50125-1": "Scrapes the pipe surface before welding.",
     "hand-welding-machine-2032-complete-set": "Compact socket welding machine.",
     "hand-welding-machine-2063-complete-set": "Complete set with heating plate, stand and tools.",
     "hand-welding-machine-mirror-50125": "Replacement heating mirror for the 50–125 mm machine.",
@@ -1310,25 +1310,6 @@
           {
             "q": "Does the roller cutter replace chamfering?",
             "a": "Socket welding requires no chamfering. The absolutely straight cut of this tool is the perfect preparation for the welding process."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "The high-performance pipe cutter d50-d125 V1 (Pipe Cutter 50-125-1) is a modified version for particularly fast and ergonomic cuts.",
-        "seo_p2": "With an optimized spindle guide and an integrated quick-return mechanism, it enormously accelerates the cutting process of massive PP-R pipes.",
-        "seo_p3": "Designed for construction projects with high pipe consumption from 50 mm diameter, this tool reduces the physical strain on the user to a minimum.",
-        "faq": [
-          {
-            "q": "What does 'quick-return mechanism' mean?",
-            "a": "After completion of the cut, the cutting wheel can be immediately returned to the starting position at the push of a button, without tedious cranking back."
-          },
-          {
-            "q": "Is this model better suited for stationary use?",
-            "a": "It is mobile, but thanks to its massive design and precise spindle guide, it can be excellently used for stationary prefabrication."
-          },
-          {
-            "q": "Are there spare parts for this pipe cutter?",
-            "a": "Yes, both the cutting wheel and the guide rollers are permanently available as original spare parts."
           }
         ]
       },
@@ -8045,7 +8026,7 @@
     "fittings_reducing-tee-large-sizes": "PP-R Reducing Tee, Large Sizes",
     "accessories_flat-gasket-for-unions-pp-r": "PP-R Flat Gasket for Unions",
     "tools_pipe-cutter-2040": "Ratchet Pipe Cutter d20-d40",
-    "tools_pipe-cutter-50125-1": "Pipe Cutter 1¼″ d50-d125",
+    "tools_pipe-cutter-50125-1": "Pipe Scraper",
     "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Pipe PP-R SDR 17",
     "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Pipe PP-R SDR 7.4",
     "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Pipe PP-R SDR 9",

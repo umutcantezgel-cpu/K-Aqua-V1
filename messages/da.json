@@ -5604,6 +5604,25 @@
         "seo_p3": "I den kompakte fordelerinstallation eller ved bygning af smalle forvægssystemer, sparer denne komponent værdifuld monteringstid og reducerer antallet af svejsninger.",
         "faq": [
           {
+            "q": "Er den 45-graders I/U-vinkel egnet til parallelle forskydninger?",
+            "a": "Ja, kombineret med en standard 45-graders vinkel kan der realiseres ekstremt kompakte etageforskydninger."
+          },
+          {
+            "q": "Er trykmodstanden af indvendig/udvendig samlingen lige så høj?",
+            "a": "Den homogene polyfusionssvejsning garanterer også her en 100 procent trykmodstand (PN 25) ved samlingen."
+          },
+          {
+            "q": "Hvilke dimensioner fås denne vinkel i?",
+            "a": "Den produceres typisk til de gængse dimensioner i etagefordelingen fra 20 mm til 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "90°-vinklen (Elbow 90°) er standard retningsskifteren i vores fittings-sortiment, designet til præcise, retvinklede afgreninger.",
+        "seo_p2": "Denne formstabile PP-R komponent er designet til let at absorbere de mekaniske og termiske belastninger af systemet og er kompatibel med alle SDR-klasser.",
+        "seo_p3": "Perfekt til hjørneinstallationer og væggennemføringer i al bygningsteknik, den garanterer en tæt og sikker 90-graders bøjning uden flow-forstyrrende kanter.",
+        "faq": [
+          {
             "q": "Øger en 90-graders vinkel slid fra flowtryk?",
             "a": "Takket være vægtykkelsesreserverne og de ekstremt glatte indvendige overflader på PP-R-materialet er slid forårsaget af slid praktisk talt udelukket."
           },
@@ -5617,10 +5636,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "90°-vinklen (Elbow 90°) er standard retningsskifteren i vores fittings-sortiment, designet til præcise, retvinklede afgreninger.",
-        "seo_p2": "Denne formstabile PP-R komponent er designet til let at absorbere de mekaniske og termiske belastninger af systemet og er kompatibel med alle SDR-klasser.",
-        "seo_p3": "Perfekt til hjørneinstallationer og væggennemføringer i al bygningsteknik, den garanterer en tæt og sikker 90-graders bøjning uden flow-forstyrrende kanter.",
+      "elbow-90-femalemale": {
+        "seo_p1": "90°-vinklen med indvendig/udvendig svejseende (Elbow 90° Female/Male) er løsningen til ultrakompakte hjørneforbindelser direkte til andre komponenter.",
+        "seo_p2": "Denne intelligente PP-R fitting kombinerer en almindelig muffeende med en indstiksende for at implementere fitting-til-fitting svejsninger problemfrit.",
+        "seo_p3": "Specielt ved installation af ventiler eller varmekredsfordelere reducerer dette design pladsbehovet betydeligt og minimerer materiale og indsats.",
         "faq": [
           {
             "q": "Hvad betyder I/U (M/F) ved denne vinkel?",
@@ -5633,25 +5652,6 @@
           {
             "q": "Ændrer dette svejseprocessen?",
             "a": "Processen forbliver den samme, blot at dornen og muffen på svejsespejlet bruges samtidigt til rør og fitting."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "90°-vinklen med indvendig/udvendig svejseende (Elbow 90° Female/Male) er løsningen til ultrakompakte hjørneforbindelser direkte til andre komponenter.",
-        "seo_p2": "Denne intelligente PP-R fitting kombinerer en almindelig muffeende med en indstiksende for at implementere fitting-til-fitting svejsninger problemfrit.",
-        "seo_p3": "Specielt ved installation af ventiler eller varmekredsfordelere reducerer dette design pladsbehovet betydeligt og minimerer materiale og indsats.",
-        "faq": [
-          {
-            "q": "Er den 45-graders I/U-vinkel egnet til parallelle forskydninger?",
-            "a": "Ja, kombineret med en standard 45-graders vinkel kan der realiseres ekstremt kompakte etageforskydninger."
-          },
-          {
-            "q": "Er trykmodstanden af indvendig/udvendig samlingen lige så høj?",
-            "a": "Den homogene polyfusionssvejsning garanterer også her en 100 procent trykmodstand (PN 25) ved samlingen."
-          },
-          {
-            "q": "Hvilke dimensioner fås denne vinkel i?",
-            "a": "Den produceres typisk til de gængse dimensioner i etagefordelingen fra 20 mm til 40 mm."
           }
         ]
       },
@@ -6507,25 +6507,6 @@
           {
             "q": "Erstatter rulleskæreren affasning?",
             "a": "Muffesvejsning kræver ikke affasning. Det helt lige snit, der opnås med dette værktøj, er den perfekte forberedelse til svejseprocessen."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Den højtydende rørskærer d50-d125 V1 (Pipe Cutter 50-125-1) er en modificeret version til specielt hurtige og ergonomiske snit.",
-        "seo_p2": "Med en optimeret spindelføring og en integreret hurtig-tilbage mekanisme accelererer den massivt skæreprocessen for tykke PP-R rør.",
-        "seo_p3": "Designet til byggeprojekter med højt rørforbrug fra 50 mm i diameter og fremefter, reducerer dette værktøj den fysiske belastning af brugeren til et minimum.",
-        "faq": [
-          {
-            "q": "Hvad betyder 'hurtig-tilbage mekanisme'?",
-            "a": "Når snittet er færdigt, kan skærehjulet straks flyttes til udgangspositionen med et tryk på en knap, uden generende tilbagespoling."
-          },
-          {
-            "q": "Er denne model mere egnet til stationær brug?",
-            "a": "Den er mobil, men takket være dens massive design og præcise spindelføring, er den også fremragende til stationær præfabrikation."
-          },
-          {
-            "q": "Fås der reservedele til denne rørskærer?",
-            "a": "Ja, både skærehjulet og styrerullerne fås permanent som originale reservedele."
           }
         ]
       },

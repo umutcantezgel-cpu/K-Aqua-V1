@@ -33,7 +33,7 @@
     "plug": "Tampão roscado para fechar extremidades livres. Outros diâmetros sob consulta.",
     "pipe-cutter-2040": "Corta-tubos de roquete para cortes limpos e em ângulo reto.",
     "pipe-cutter-50125": "Corta-tubos de alto rendimento para grandes diâmetros.",
-    "pipe-cutter-50125-1": "Versão alternativa (1¼).",
+    "pipe-cutter-50125-1": "Raspa a superfície do tubo antes da soldadura.",
     "hand-welding-machine-2032-complete-set": "Polifusor manual compacto para soldadura topo a topo/encaixe.",
     "hand-welding-machine-2063-complete-set": "Conjunto completo com placa térmica, suporte e matrizes.",
     "hand-welding-machine-mirror-50125": "Espelho térmico de substituição para polifusor 50–125 mm.",
@@ -487,6 +487,25 @@
         "seo_p3": "Em instalações compactas de colectores ou ao construir sistemas estreitos de encastre, este componente poupa tempo valioso de montagem e reduz o número de soldaduras.",
         "faq": [
           {
+            "q": "A curva F/M de 45 graus é adequada para desvios paralelos?",
+            "a": "Sim, combinada com uma curva standard de 45 graus, podem ser realizados desvios de piso extremamente compactos."
+          },
+          {
+            "q": "A resistência à pressão da ligação fêmea/macho é igualmente alta?",
+            "a": "A soldadura homogénea por polifusão também garante aqui 100% de resistência à pressão (PN 25) na junta."
+          },
+          {
+            "q": "Para que dimensões está disponível esta curva?",
+            "a": "É habitualmente produzida para as dimensões comuns na distribuição de pisos, de 20 mm a 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "A Curva 90° é o acessório de mudança de direcção standard na nossa gama, concebida para derivações precisas e em ângulo recto.",
+        "seo_p2": "Este componente dimensionalmente estável em PP-R foi construído para absorver facilmente as cargas mecânicas e térmicas do sistema, sendo compatível com todos os níveis SDR.",
+        "seo_p3": "Perfeita para instalações de canto e atravessamentos de paredes em toda a engenharia de edifícios, garante uma curva de 90 graus estanque e segura, sem arestas que perturbem o caudal.",
+        "faq": [
+          {
             "q": "Uma curva de 90 graus aumenta o desgaste devido à pressão do caudal?",
             "a": "Graças às reservas na espessura de parede e às superfícies interiores extremamente lisas do material PP-R, o desgaste por abrasão está praticamente excluído."
           },
@@ -500,10 +519,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "A Curva 90° é o acessório de mudança de direcção standard na nossa gama, concebida para derivações precisas e em ângulo recto.",
-        "seo_p2": "Este componente dimensionalmente estável em PP-R foi construído para absorver facilmente as cargas mecânicas e térmicas do sistema, sendo compatível com todos os níveis SDR.",
-        "seo_p3": "Perfeita para instalações de canto e atravessamentos de paredes em toda a engenharia de edifícios, garante uma curva de 90 graus estanque e segura, sem arestas que perturbem o caudal.",
+      "elbow-90-femalemale": {
+        "seo_p1": "A Curva 90° Fêmea/Macho é a solução para ligações de canto ultra compactas directamente a outros componentes.",
+        "seo_p2": "Este acessório inteligente em PP-R combina uma extremidade normal de encaixe (fêmea) com uma extremidade de inserção (macho) para realizar soldaduras de acessório com acessório na perfeição.",
+        "seo_p3": "Especialmente na instalação de válvulas ou colectores de circuitos de aquecimento, este design reduz significativamente a necessidade de espaço, bem como os custos de material e mão-de-obra.",
         "faq": [
           {
             "q": "O que significa F/M (Fêmea/Macho) para esta curva?",
@@ -516,25 +535,6 @@
           {
             "q": "Isso altera o processo de soldadura?",
             "a": "O processo mantém-se o mesmo, apenas as matrizes macho e fêmea do espelho de soldadura são utilizadas em simultâneo para o tubo e acessório."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "A Curva 90° Fêmea/Macho é a solução para ligações de canto ultra compactas directamente a outros componentes.",
-        "seo_p2": "Este acessório inteligente em PP-R combina uma extremidade normal de encaixe (fêmea) com uma extremidade de inserção (macho) para realizar soldaduras de acessório com acessório na perfeição.",
-        "seo_p3": "Especialmente na instalação de válvulas ou colectores de circuitos de aquecimento, este design reduz significativamente a necessidade de espaço, bem como os custos de material e mão-de-obra.",
-        "faq": [
-          {
-            "q": "A curva F/M de 45 graus é adequada para desvios paralelos?",
-            "a": "Sim, combinada com uma curva standard de 45 graus, podem ser realizados desvios de piso extremamente compactos."
-          },
-          {
-            "q": "A resistência à pressão da ligação fêmea/macho é igualmente alta?",
-            "a": "A soldadura homogénea por polifusão também garante aqui 100% de resistência à pressão (PN 25) na junta."
-          },
-          {
-            "q": "Para que dimensões está disponível esta curva?",
-            "a": "É habitualmente produzida para as dimensões comuns na distribuição de pisos, de 20 mm a 40 mm."
           }
         ]
       },
@@ -1314,25 +1314,6 @@
           {
             "q": "O corta-tubos de rolos substitui o chanfre?",
             "a": "A soldadura de encaixe não necessita de chanfre. O corte absolutamente recto desta ferramenta é a preparação perfeita para o processo de soldadura."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "O Corta-tubos de Alto Rendimento d50-d125 V1 (Pipe Cutter 50-125-1) é uma versão modificada para cortes particularmente rápidos e ergonómicos.",
-        "seo_p2": "Com um guia de eixo optimizado e mecanismo de retorno rápido integrado, acelera enormemente o processo de corte de tubos PP-R maciços.",
-        "seo_p3": "Concebida para projectos de construção com elevado consumo de tubos a partir de 50 mm de diâmetro, esta ferramenta reduz a fadiga física do utilizador a um mínimo.",
-        "faq": [
-          {
-            "q": "O que significa 'mecanismo de retorno rápido'?",
-            "a": "Após a conclusão do corte, a roda de corte pode regressar imediatamente à posição inicial premindo um botão, sem necessitar de recuar tediosamente."
-          },
-          {
-            "q": "Este modelo é mais adequado para uso estacionário?",
-            "a": "É móvel, mas graças ao seu design maciço e ao guia preciso do eixo, pode ser perfeitamente utilizado para a pré-fabricação estacionária."
-          },
-          {
-            "q": "Existem peças de substituição para este corta-tubos?",
-            "a": "Sim, tanto a roda de corte como os rolos de guia estão sempre disponíveis como peças originais de reposição."
           }
         ]
       },

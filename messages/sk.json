@@ -3882,6 +3882,25 @@
         "seo_p3": "Pri inštalácii kompaktných rozdeľovačov alebo pri budovaní úzkych predstenových systémov šetrí tento komponent cenný čas montáže a znižuje počet zvarov.",
         "faq": [
           {
+            "q": "Je koleno I/A s uhlom 45 stupňov vhodné na paralelné odskočenia?",
+            "a": "Áno, v kombinácii so štandardným 45-stupňovým kolenom je možné realizovať extrémne kompaktné poschodové odskočenia."
+          },
+          {
+            "q": "Je tlaková odolnosť vnútorného/vonkajšieho spoja rovnako vysoká?",
+            "a": "Homogénne polyfúzne zváranie tu zabezpečuje aj 100% tlakovú odolnosť (PN 25) v mieste spoja."
+          },
+          {
+            "q": "Pre aké rozmery je toto koleno dostupné?",
+            "a": "Typicky sa vyrába pre bežné rozmery v etážových rozvodoch od 20 mm do 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Koleno 90° (Elbow 90°) je štandardný prvok na zmenu smeru v našom sortimente tvaroviek, určený pre presné pravouhlé odbočky.",
+        "seo_p2": "Tento rozmerovo stabilný komponent z PP-R je navrhnutý tak, aby bez problémov absorboval mechanické a tepelné namáhanie systému a je kompatibilný so všetkými úrovňami SDR.",
+        "seo_p3": "Ideálne pre rohové inštalácie a stenové priechody v celom technickom vybavení budov, zaručuje tesný a bezpečný 90-stupňový ohyb bez hrán narúšajúcich prietok.",
+        "faq": [
+          {
             "q": "Zvyšuje 90-stupňové koleno opotrebovanie spôsobené dynamickým tlakom?",
             "a": "Vďaka rezervám hrúbky steny a extrémne hladkým vnútorným povrchom materiálu PP-R je opotrebovanie abráziou prakticky vylúčené."
           },
@@ -3895,10 +3914,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Koleno 90° (Elbow 90°) je štandardný prvok na zmenu smeru v našom sortimente tvaroviek, určený pre presné pravouhlé odbočky.",
-        "seo_p2": "Tento rozmerovo stabilný komponent z PP-R je navrhnutý tak, aby bez problémov absorboval mechanické a tepelné namáhanie systému a je kompatibilný so všetkými úrovňami SDR.",
-        "seo_p3": "Ideálne pre rohové inštalácie a stenové priechody v celom technickom vybavení budov, zaručuje tesný a bezpečný 90-stupňový ohyb bez hrán narúšajúcich prietok.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Koleno 90° s vnútorným/vonkajším koncom pre zváranie (Elbow 90° Female/Male) je riešením pre ultrakompaktné rohové spoje priamo na iných komponentoch.",
+        "seo_p2": "Táto inteligentná tvarovka PP-R kombinuje bežný hrdlový koniec so zásuvným koncom pre bezproblémové zváranie tvarovky s tvarovkou.",
+        "seo_p3": "Toto riešenie výrazne znižuje nároky na priestor a minimalizuje materiálové aj pracovné náklady, najmä pri inštalácii armatúr alebo rozdeľovačov vykurovacích okruhov.",
         "faq": [
           {
             "q": "Čo znamená I/A (M/F) pri tomto kolene?",
@@ -3911,25 +3930,6 @@
           {
             "q": "Mení to proces zvárania?",
             "a": "Proces zostáva rovnaký, len matrica a patrica na zváracom zrkadle sa používajú súčasne pre rúru a tvarovku."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Koleno 90° s vnútorným/vonkajším koncom pre zváranie (Elbow 90° Female/Male) je riešením pre ultrakompaktné rohové spoje priamo na iných komponentoch.",
-        "seo_p2": "Táto inteligentná tvarovka PP-R kombinuje bežný hrdlový koniec so zásuvným koncom pre bezproblémové zváranie tvarovky s tvarovkou.",
-        "seo_p3": "Toto riešenie výrazne znižuje nároky na priestor a minimalizuje materiálové aj pracovné náklady, najmä pri inštalácii armatúr alebo rozdeľovačov vykurovacích okruhov.",
-        "faq": [
-          {
-            "q": "Je koleno I/A s uhlom 45 stupňov vhodné na paralelné odskočenia?",
-            "a": "Áno, v kombinácii so štandardným 45-stupňovým kolenom je možné realizovať extrémne kompaktné poschodové odskočenia."
-          },
-          {
-            "q": "Je tlaková odolnosť vnútorného/vonkajšieho spoja rovnako vysoká?",
-            "a": "Homogénne polyfúzne zváranie tu zabezpečuje aj 100% tlakovú odolnosť (PN 25) v mieste spoja."
-          },
-          {
-            "q": "Pre aké rozmery je toto koleno dostupné?",
-            "a": "Typicky sa vyrába pre bežné rozmery v etážových rozvodoch od 20 mm do 40 mm."
           }
         ]
       },
@@ -4709,25 +4709,6 @@
           {
             "q": "Nahrádza valčekový rezač zrážanie hrán?",
             "a": "Polyfúzne zváranie nevyžaduje zrážanie hrán. Absolútne rovný rez z tohto nástroja je dokonalou prípravou na proces zvárania."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Vysokovýkonný rezač rúr d50-d125 V1 (Pipe Cutter 50-125-1) je upravená verzia pre obzvlášť rýchle a ergonomické rezy.",
-        "seo_p2": "Vďaka optimalizovanému vedeniu vretena a integrovanému mechanizmu rýchleho spätného chodu ohromne urýchľuje proces rezania masívnych rúr PP-R.",
-        "seo_p3": "Tento nástroj, určený pre stavebné projekty s vysokou spotrebou rúr od priemeru 50 mm, znižuje fyzickú námahu používateľa na minimum.",
-        "faq": [
-          {
-            "q": "Čo znamená 'mechanizmus rýchleho spätného chodu'?",
-            "a": "Po dokončení rezu je možné rezacie koliesko stlačením tlačidla okamžite vrátiť do východiskovej polohy bez únavného vytáčania kľukou."
-          },
-          {
-            "q": "Je tento model vhodnejší na stacionárne použitie?",
-            "a": "Je mobilný, no vďaka svojej masívnej konštrukcii a precíznemu vedeniu vretena sa vynikajúco hodí aj na stacionárnu prefabrikáciu."
-          },
-          {
-            "q": "Sú k dispozícii náhradné diely pre tento rezač rúr?",
-            "a": "Áno, rezacie koliesko, ako aj vodiace valčeky, sú trvalo dostupné ako originálne náhradné diely."
           }
         ]
       },

@@ -1588,6 +1588,25 @@
         "seo_p3": "Trong lắp đặt bộ phân phối nhỏ gọn hoặc khi xây dựng hệ thống ống sát tường chật hẹp, bộ phận này giúp tiết kiệm thời gian lắp ráp quý giá và giảm số lượng mối hàn.",
         "faq": [
           {
+            "q": "Cút 45 độ I/A (M/F) có phù hợp với các độ lệch song song không?",
+            "a": "Có, kết hợp với một cút 45 độ tiêu chuẩn, có thể tạo ra các phần lệch sàn cực kỳ nhỏ gọn."
+          },
+          {
+            "q": "Khả năng chịu áp lực của kết nối trong/ngoài có cao như vậy không?",
+            "a": "Phương pháp hàn nung chảy đồng nhất cũng đảm bảo khả năng chịu áp lực 100% (PN 25) tại điểm nối."
+          },
+          {
+            "q": "Cút này có sẵn cho những kích thước nào?",
+            "a": "Nó thường được sản xuất cho các kích thước phân phối tầng thông thường từ 20 mm đến 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Cút 90° (Elbow 90°) là thiết bị chuyển hướng tiêu chuẩn trong danh mục phụ kiện của chúng tôi, được thiết kế cho các nhánh vuông góc, chính xác.",
+        "seo_p2": "Bộ phận PP-R ổn định về mặt kích thước này được thiết kế để dễ dàng hấp thụ các ứng suất cơ học và nhiệt của hệ thống, đồng thời tương thích với tất cả các mức SDR.",
+        "seo_p3": "Hoàn hảo cho việc lắp đặt góc và xuyên tường trong toàn bộ công nghệ tòa nhà, nó đảm bảo bẻ góc 90 độ kín và an toàn mà không có các cạnh cản trở dòng chảy.",
+        "faq": [
+          {
             "q": "Cút 90 độ có làm tăng độ mài mòn do áp lực dòng chảy không?",
             "a": "Nhờ khả năng dự trữ độ dày của thành ống và bề mặt bên trong cực kỳ nhẵn của vật liệu PP-R, sự mài mòn thực tế đã được loại trừ."
           },
@@ -1601,10 +1620,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Cút 90° (Elbow 90°) là thiết bị chuyển hướng tiêu chuẩn trong danh mục phụ kiện của chúng tôi, được thiết kế cho các nhánh vuông góc, chính xác.",
-        "seo_p2": "Bộ phận PP-R ổn định về mặt kích thước này được thiết kế để dễ dàng hấp thụ các ứng suất cơ học và nhiệt của hệ thống, đồng thời tương thích với tất cả các mức SDR.",
-        "seo_p3": "Hoàn hảo cho việc lắp đặt góc và xuyên tường trong toàn bộ công nghệ tòa nhà, nó đảm bảo bẻ góc 90 độ kín và an toàn mà không có các cạnh cản trở dòng chảy.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Cút 90° với đầu hàn trong/ngoài (Elbow 90° Female/Male) là giải pháp cho các kết nối góc cực kỳ nhỏ gọn trực tiếp vào các bộ phận khác.",
+        "seo_p2": "Phụ kiện PP-R thông minh này kết hợp một đầu măng xông thông thường với một đầu cắm để thực hiện trơn tru các mối hàn phụ kiện với phụ kiện.",
+        "seo_p3": "Đặc biệt khi lắp ráp các van hoặc bộ phân phối mạch gia nhiệt, thiết kế này giảm đáng kể không gian cần thiết và giảm thiểu nhân công cũng như vật liệu.",
         "faq": [
           {
             "q": "I/A (M/F) nghĩa là gì đối với góc này?",
@@ -1617,25 +1636,6 @@
           {
             "q": "Điều đó có thay đổi quá trình hàn không?",
             "a": "Quá trình vẫn giữ nguyên, chỉ có các đầu hàn âm và dương trên máy hàn được sử dụng đồng thời cho ống và phụ kiện."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Cút 90° với đầu hàn trong/ngoài (Elbow 90° Female/Male) là giải pháp cho các kết nối góc cực kỳ nhỏ gọn trực tiếp vào các bộ phận khác.",
-        "seo_p2": "Phụ kiện PP-R thông minh này kết hợp một đầu măng xông thông thường với một đầu cắm để thực hiện trơn tru các mối hàn phụ kiện với phụ kiện.",
-        "seo_p3": "Đặc biệt khi lắp ráp các van hoặc bộ phân phối mạch gia nhiệt, thiết kế này giảm đáng kể không gian cần thiết và giảm thiểu nhân công cũng như vật liệu.",
-        "faq": [
-          {
-            "q": "Cút 45 độ I/A (M/F) có phù hợp với các độ lệch song song không?",
-            "a": "Có, kết hợp với một cút 45 độ tiêu chuẩn, có thể tạo ra các phần lệch sàn cực kỳ nhỏ gọn."
-          },
-          {
-            "q": "Khả năng chịu áp lực của kết nối trong/ngoài có cao như vậy không?",
-            "a": "Phương pháp hàn nung chảy đồng nhất cũng đảm bảo khả năng chịu áp lực 100% (PN 25) tại điểm nối."
-          },
-          {
-            "q": "Cút này có sẵn cho những kích thước nào?",
-            "a": "Nó thường được sản xuất cho các kích thước phân phối tầng thông thường từ 20 mm đến 40 mm."
           }
         ]
       },
@@ -2415,25 +2415,6 @@
           {
             "q": "Kéo cắt con lăn có thay thế việc vát mép không?",
             "a": "Hàn măng xông không cần vát mép. Vết cắt hoàn toàn thẳng của dụng cụ này là sự chuẩn bị hoàn hảo cho quá trình hàn."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Máy cắt ống d50-d125 V1 hiệu suất cao (Pipe Cutter 50-125-1) là phiên bản được tinh chỉnh để cắt đặc biệt nhanh và phù hợp với tiện dụng học.",
-        "seo_p2": "Với hệ thống dẫn hướng trục xoay được tối ưu hóa và cơ chế tua lại nhanh tích hợp, nó tăng tốc quá trình cắt ống PP-R lớn lên rất nhiều.",
-        "seo_p3": "Được thiết kế cho các dự án xây dựng có mức tiêu thụ đường ống cao từ đường kính 50 mm, công cụ này giúp giảm thiểu sự căng thẳng về mặt thể chất cho người sử dụng.",
-        "faq": [
-          {
-            "q": "'Cơ chế tua lại nhanh' nghĩa là gì?",
-            "a": "Sau khi cắt xong, bánh xe cắt có thể được đưa về vị trí xuất phát ngay lập tức chỉ bằng một nút bấm, không cần phải quay ngược lại một cách khó khăn."
-          },
-          {
-            "q": "Mô hình này có phù hợp hơn để sử dụng cố định không?",
-            "a": "Nó có thể di động, nhưng nhờ thiết kế chắc chắn và hệ thống dẫn hướng trục xoay chính xác, nó cũng tuyệt vời cho công tác đúc sẵn cố định."
-          },
-          {
-            "q": "Có phụ tùng thay thế cho máy cắt ống này không?",
-            "a": "Có, cả bánh xe cắt và các con lăn dẫn hướng đều có sẵn dưới dạng phụ tùng chính hãng vĩnh viễn."
           }
         ]
       },

@@ -161,10 +161,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     slug === 'hand-welding-machine-mirror-50125'
   ) {
     canonicalSlug = 'hand-welding-machine-2032-complete-set';
-  } else if (
-    slug === 'pipe-cutter-2040' ||
-    slug === 'pipe-cutter-50125-1'
-  ) {
+  } else if (slug === 'pipe-cutter-2040') {
+    // `pipe-cutter-2040` (AQ97040) und `pipe-cutter-50125` (AQ975125) sind
+    // derselbe Rohrabschneider in zwei Größen — die Kanonisierung stimmt.
+    //
+    // `pipe-cutter-50125-1` stand hier ebenfalls und ist entfallen: Das Bauteil
+    // heißt im Katalog (S. 114) „Pipe scraper", trägt die eigene Nummer AQ974
+    // und zieht die Rohroberfläche vor dem Schweißen ab. Es auf den
+    // Rohrabschneider zu kanonisieren hieß, dem Index ein anderes Produkt als
+    // Dublette zu melden.
     canonicalSlug = 'pipe-cutter-50125';
   }
 

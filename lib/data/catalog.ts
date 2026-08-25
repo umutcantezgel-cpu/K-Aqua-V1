@@ -1263,7 +1263,11 @@ export const CATALOG: CatalogCategory[] = [
       },
       {
         slug: "pipe-cutter-50125-1",
-        title: "Pipe Cutter 50–125 (1¼)",
+        // Katalogbezeichnung S. 114: „Pipe scraper". Der Slug sagt
+        // „pipe-cutter", das Bauteil ist aber ein Schaber zum Abziehen der
+        // Rohroberfläche vor dem Schweißen — ein anderes Werkzeug als die
+        // beiden Rohrabschneider AQ97040 und AQ975125 auf derselben Seite.
+        title: "Pipe Scraper",
         codes: "AQ974",
         head: ["#pack"],
         note: "Katalogbezeichnung: \"Pipe scraper\" – Handschaber zum Abtragen der Rohroberfläche und Reinigen des Rohrendes vor dem Schweißen. Der Katalog nennt für diesen Artikel keinen Durchmesserbereich.",

@@ -2218,6 +2218,25 @@
         "seo_p3": "Kompaktās sadales iekārtās vai būvējot šauras priekšsienu sistēmas, šī detaļa ietaupa vērtīgu montāžas laiku un samazina metināšanas vietu skaitu.",
         "faq": [
           {
+            "q": "Vai 45 grādu I/A līkums ir piemērots paralēlām nobīdēm?",
+            "a": "Jā, apvienojumā ar standarta 45 grādu līkumu var izveidot ārkārtīgi kompaktas stāvu nobīdes."
+          },
+          {
+            "q": "Vai iekšējā/ārējā savienojuma spiedienizturība ir tikpat augsta?",
+            "a": "Homogēna polifūzijas metināšana arī šeit nodrošina 100 procentu spiedienizturību (PN 25) savienojuma vietā."
+          },
+          {
+            "q": "Kādiem izmēriem ir pieejams šis līkums?",
+            "a": "Tas parasti tiek ražots parastajiem izmēriem stāvu sadalē no 20 mm līdz 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "90° līkums (Elbow 90°) ir standarta virziena mainītājs mūsu veidgabalu klāstā, paredzēts precīziem taisnleņķa atzariem.",
+        "seo_p2": "Šī izmēros stabilā PP-R detaļa ir izstrādāta tā, lai bez problēmām absorbētu sistēmas mehānisko un termisko slodzi un būtu saderīga ar visiem SDR līmeņiem.",
+        "seo_p3": "Lieliski piemērots stūru instalācijām un caurbraucieniem sienās visās ēku sistēmās, tas garantē blīvu un drošu 90 grādu līkumu bez plūsmu traucējošām malām.",
+        "faq": [
+          {
             "q": "Vai 90 grādu leņķis palielina nolietojumu plūsmas spiediena dēļ?",
             "a": "Pateicoties sienu biezuma rezervēm un ārkārtīgi gludajām PP-R materiāla iekšējām virsmām, noberšanās izraisīts nolietojums ir praktiski neiespējams."
           },
@@ -2231,10 +2250,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "90° līkums (Elbow 90°) ir standarta virziena mainītājs mūsu veidgabalu klāstā, paredzēts precīziem taisnleņķa atzariem.",
-        "seo_p2": "Šī izmēros stabilā PP-R detaļa ir izstrādāta tā, lai bez problēmām absorbētu sistēmas mehānisko un termisko slodzi un būtu saderīga ar visiem SDR līmeņiem.",
-        "seo_p3": "Lieliski piemērots stūru instalācijām un caurbraucieniem sienās visās ēku sistēmās, tas garantē blīvu un drošu 90 grādu līkumu bez plūsmu traucējošām malām.",
+      "elbow-90-femalemale": {
+        "seo_p1": "90° līkums ar iekšējo/ārējo metināšanas galu (Elbow 90° Female/Male) ir risinājums ultrakompaktiem stūra savienojumiem tieši pie citiem komponentiem.",
+        "seo_p2": "Šis viedais PP-R veidgabals apvieno parasto uzmavas galu ar spraudņa galu, lai nemanāmi īstenotu veidgabals-pie-veidgabala metināšanu.",
+        "seo_p3": "Īpaši, uzstādot armatūru vai apkures loku sadalītājus, šis dizains ievērojami samazina vietas nepieciešamību, kā arī materiālu un darba izmaksas.",
         "faq": [
           {
             "q": "Ko šim līkumam nozīmē I/A (M/F)?",
@@ -2247,25 +2266,6 @@
           {
             "q": "Vai tas maina metināšanas procesu?",
             "a": "Process paliek nemainīgs, vienkārši caurulei un veidgabalam vienlaicīgi izmanto sildīšanas spoguļa iekšējos un ārējos uzgaļus."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "90° līkums ar iekšējo/ārējo metināšanas galu (Elbow 90° Female/Male) ir risinājums ultrakompaktiem stūra savienojumiem tieši pie citiem komponentiem.",
-        "seo_p2": "Šis viedais PP-R veidgabals apvieno parasto uzmavas galu ar spraudņa galu, lai nemanāmi īstenotu veidgabals-pie-veidgabala metināšanu.",
-        "seo_p3": "Īpaši, uzstādot armatūru vai apkures loku sadalītājus, šis dizains ievērojami samazina vietas nepieciešamību, kā arī materiālu un darba izmaksas.",
-        "faq": [
-          {
-            "q": "Vai 45 grādu I/A līkums ir piemērots paralēlām nobīdēm?",
-            "a": "Jā, apvienojumā ar standarta 45 grādu līkumu var izveidot ārkārtīgi kompaktas stāvu nobīdes."
-          },
-          {
-            "q": "Vai iekšējā/ārējā savienojuma spiedienizturība ir tikpat augsta?",
-            "a": "Homogēna polifūzijas metināšana arī šeit nodrošina 100 procentu spiedienizturību (PN 25) savienojuma vietā."
-          },
-          {
-            "q": "Kādiem izmēriem ir pieejams šis līkums?",
-            "a": "Tas parasti tiek ražots parastajiem izmēriem stāvu sadalē no 20 mm līdz 40 mm."
           }
         ]
       },
@@ -3045,25 +3045,6 @@
           {
             "q": "Vai rullīšu griezējs aizstāj fāzēšanu?",
             "a": "Uzmavu metināšanai nav nepieciešama fāzēšana. Pilnīgi taisnais šī instrumenta griezums ir ideāls sagatavošanās posms metināšanas procesam."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Augstas veiktspējas cauruļu griezējs d50-d125 V1 (Pipe Cutter 50-125-1) ir pārveidota versija īpaši ātriem un ergonomiskiem griezumiem.",
-        "seo_p2": "Ar optimizētu vārpstas vadotni un integrētu ātrās atgriešanās mehānismu, tas ievērojami paātrina masīvu PP-R cauruļu griešanas procesu.",
-        "seo_p3": "Paredzēts būvniecības projektiem ar lielu cauruļu patēriņu ar diametru 50 mm un vairāk, šis rīks samazina fizisko slodzi lietotājam līdz minimumam.",
-        "faq": [
-          {
-            "q": "Ko nozīmē 'ātrās atgriešanās mehānisms'?",
-            "a": "Kad griešana ir pabeigta, griešanas riteni var nekavējoties atgriezt sākuma stāvoklī, nospiežot pogu, bez apnicīgas atpakaļgriešanas."
-          },
-          {
-            "q": "Vai šis modelis ir vairāk piemērots stacionārai lietošanai?",
-            "a": "Tas ir mobils, bet, pateicoties tās masīvajai konstrukcijai un precīzajai vārpstas vadotnei, to var lieliski izmantot stacionārai iepriekšējai sagatavošanai."
-          },
-          {
-            "q": "Vai šim cauruļu griezējam ir pieejamas rezerves daļas?",
-            "a": "Jā, gan griešanas ritenis, gan vadošie rullīši ir pastāvīgi pieejami kā oriģinālās rezerves daļas."
           }
         ]
       },

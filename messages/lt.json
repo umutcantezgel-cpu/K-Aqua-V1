@@ -352,6 +352,25 @@
         "seo_p3": "Kompaktiškuose paskirstymo mazguose arba statant ankštas potinkines sistemas, šis komponentas taupo brangų montavimo laiką ir sumažina suvirinimo siūlių skaičių.",
         "faq": [
           {
+            "q": "Ar 45 laipsnių V/I alkūnė tinka lygiagretiems perėjimams?",
+            "a": "Taip, derinant su standartine 45 laipsnių alkūne, galima realizuoti ypač kompaktiškus lygių perėjimus."
+          },
+          {
+            "q": "Ar vidinio/išorinio sujungimo atsparumas slėgiui yra toks pat didelis?",
+            "a": "Homogeniškas polifuzinis suvirinimas užtikrina 100 procentų atsparumą slėgiui (PN 25) sujungimo vietoje."
+          },
+          {
+            "q": "Kokiems matmenims gaminama ši alkūnė?",
+            "a": "Ji paprastai gaminama įprastiems aukštų paskirstymo matmenims nuo 20 mm iki 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "90° alkūnė (Elbow 90°) yra standartinis krypties keitiklis mūsų jungiamųjų detalių asortimente, skirtas tiksliems stačiojo kampo atšakojimams.",
+        "seo_p2": "Šis matmenis išlaikantis PP-R komponentas yra suprojektuotas taip, kad be problemų atlaikytų sistemos mechanines ir šilumines apkrovas ir yra suderinamas su visomis SDR klasėmis.",
+        "seo_p3": "Puikiai tinka kampiniam montavimui ir praėjimams pro sienas visoje pastato inžinerijoje, garantuoja sandarų ir saugų 90 laipsnių lenkimą be srautą trikdančių kraštų.",
+        "faq": [
+          {
             "q": "Ar 90 laipsnių alkūnė padidina nusidėvėjimą dėl srauto slėgio?",
             "a": "Dėl sienelių storio rezervų ir ypač lygių PP-R medžiagos vidinių paviršių, nusidėvėjimas dėl abrazijos yra praktiškai neįmanomas."
           },
@@ -365,10 +384,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "90° alkūnė (Elbow 90°) yra standartinis krypties keitiklis mūsų jungiamųjų detalių asortimente, skirtas tiksliems stačiojo kampo atšakojimams.",
-        "seo_p2": "Šis matmenis išlaikantis PP-R komponentas yra suprojektuotas taip, kad be problemų atlaikytų sistemos mechanines ir šilumines apkrovas ir yra suderinamas su visomis SDR klasėmis.",
-        "seo_p3": "Puikiai tinka kampiniam montavimui ir praėjimams pro sienas visoje pastato inžinerijoje, garantuoja sandarų ir saugų 90 laipsnių lenkimą be srautą trikdančių kraštų.",
+      "elbow-90-femalemale": {
+        "seo_p1": "90° alkūnė su vidiniu/išoriniu suvirinimo galu (Elbow 90° Female/Male) yra sprendimas ypač kompaktiškoms kampinėms jungtims tiesiogiai su kitais komponentais.",
+        "seo_p2": "Ši išmani PP-R detalė sujungia įprastą movos galą su lygiu įkišamu galu, kad būtų galima sklandžiai atlikti detalės-prie-detalės suvirinimą.",
+        "seo_p3": "Ypač montuojant armatūrą arba šildymo kontūrų kolektorius, šis dizainas žymiai sumažina vietos poreikį bei sumažina medžiagų ir darbo sąnaudas.",
         "faq": [
           {
             "q": "Ką reiškia V/I (M/F) ant šios alkūnės?",
@@ -381,25 +400,6 @@
           {
             "q": "Ar dėl to keičiasi suvirinimo procesas?",
             "a": "Procesas lieka toks pat, tiesiog ant suvirinimo aparato kaitinimo elemento vienu metu naudojamos matricos ir patricos vamzdžiui bei detalei."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "90° alkūnė su vidiniu/išoriniu suvirinimo galu (Elbow 90° Female/Male) yra sprendimas ypač kompaktiškoms kampinėms jungtims tiesiogiai su kitais komponentais.",
-        "seo_p2": "Ši išmani PP-R detalė sujungia įprastą movos galą su lygiu įkišamu galu, kad būtų galima sklandžiai atlikti detalės-prie-detalės suvirinimą.",
-        "seo_p3": "Ypač montuojant armatūrą arba šildymo kontūrų kolektorius, šis dizainas žymiai sumažina vietos poreikį bei sumažina medžiagų ir darbo sąnaudas.",
-        "faq": [
-          {
-            "q": "Ar 45 laipsnių V/I alkūnė tinka lygiagretiems perėjimams?",
-            "a": "Taip, derinant su standartine 45 laipsnių alkūne, galima realizuoti ypač kompaktiškus lygių perėjimus."
-          },
-          {
-            "q": "Ar vidinio/išorinio sujungimo atsparumas slėgiui yra toks pat didelis?",
-            "a": "Homogeniškas polifuzinis suvirinimas užtikrina 100 procentų atsparumą slėgiui (PN 25) sujungimo vietoje."
-          },
-          {
-            "q": "Kokiems matmenims gaminama ši alkūnė?",
-            "a": "Ji paprastai gaminama įprastiems aukštų paskirstymo matmenims nuo 20 mm iki 40 mm."
           }
         ]
       },
@@ -1179,25 +1179,6 @@
           {
             "q": "Ar ritininis pjoviklis atstoja nusklembimą?",
             "a": "Movinio suvirinimo metu nusklembti nereikia. Visiškai tiesus šio įrankio pjūvis yra tobulas paruošimas suvirinimo procesui."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Didelio našumo vamzdžių pjoviklis d50-d125 V1 (Pipe Cutter 50-125-1) yra modifikuota versija ypač greitiems ir ergonomiškiems pjūviams.",
-        "seo_p2": "Su optimizuotu ašies kreiptuvu ir integruotu greito grąžinimo mechanizmu jis nepaprastai pagreitina masyvių PP-R vamzdžių pjovimo procesą.",
-        "seo_p3": "Sukurtas statybos projektams su dideliu vamzdžių sunaudojimu nuo 50 mm skersmens, šis įrankis sumažina fizinę vartotojo apkrovą iki minimumo.",
-        "faq": [
-          {
-            "q": "Ką reiškia „greito grąžinimo mechanizmas“?",
-            "a": "Baigus pjovimą, pjovimo ratuką vienu mygtuko paspaudimu galima iškart grąžinti į pradinę padėtį, be varginančio atsukimo atgal."
-          },
-          {
-            "q": "Ar šis modelis labiau tinka stacionariam naudojimui?",
-            "a": "Jis yra mobilus, tačiau dėl savo masyvios konstrukcijos ir tikslaus ašies kreiptuvo puikiai tinka stacionariam išankstiniam surinkimui."
-          },
-          {
-            "q": "Ar šiam vamzdžių pjovikliui yra atsarginių dalių?",
-            "a": "Taip, tiek pjovimo ratukas, tiek kreipiamieji ritinėliai yra nuolat prieinami kaip originalios atsarginės dalys."
           }
         ]
       },

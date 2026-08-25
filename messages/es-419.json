@@ -33,7 +33,7 @@
     "plug": "Tapón roscado para cierre provisional o definitivo. Más medidas bajo consulta.",
     "pipe-cutter-2040": "Cortatubos de carraca para cortes limpios y en ángulo recto.",
     "pipe-cutter-50125": "Cortatubos de alto rendimiento para grandes diámetros.",
-    "pipe-cutter-50125-1": "Versión alternativa (1¼).",
+    "pipe-cutter-50125-1": "Raspa la superficie del tubo antes de soldar.",
     "hand-welding-machine-2032-complete-set": "Polifusor manual compacto para soldadura a enchufe.",
     "hand-welding-machine-2063-complete-set": "Kit completo con espejo calefactor, soporte y matrices.",
     "hand-welding-machine-mirror-50125": "Espejo calefactor de repuesto para máquina de 50–125 mm.",
@@ -4933,16 +4933,16 @@
         "seo_p3": "Especialmente al instalar válvulas o distribuidores de circuitos de calefacción, este diseño reduce drásticamente los requisitos de espacio y minimiza los costos de material y mano de obra.",
         "faq": [
           {
-            "q": "¿Es adecuado el codo H/M de 45 grados para desplazamientos paralelos?",
-            "a": "Sí, combinado con un codo estándar de 45 grados, se pueden realizar desplazamientos de nivel extremadamente compactos."
+            "q": "¿Qué significa I/A o H/M?",
+            "a": "Significa Interior/Exterior (Hembra/Macho). Un lado se suelda como manguito, el otro lado se inserta directamente en otro accesorio."
           },
           {
-            "q": "¿La resistencia a la presión de la conexión interior/exterior es igual de alta?",
-            "a": "La soldadura de polifusión homogénea también garantiza una resistencia a la presión del 100% (PN 25) en el punto de conexión."
+            "q": "¿Tiene este codo la misma resistencia a la presión que un codo estándar?",
+            "a": "Sí, está diseñado para las mismas clases de presión SDR que el tubo y soporta exactamente la misma presión del sistema después del enfriamiento."
           },
           {
-            "q": "¿Para qué dimensiones está disponible este codo?",
-            "a": "Normalmente se produce para las dimensiones comunes en la distribución de plantas de 20 mm a 40 mm."
+            "q": "¿Cómo se suelda este accesorio?",
+            "a": "La técnica de soldadura es idéntica a la soldadura por encaje estándar; un accesorio adicional (manguito) a menudo no es necesario debido al diseño M/H."
           }
         ]
       },
@@ -5478,25 +5478,6 @@
           }
         ]
       },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "El cortatubos de alto rendimiento d50-d125 V1 (Pipe Cutter 50-125-1) es una versión modificada para cortes particularmente rápidos y ergonómicos.",
-        "seo_p2": "Con una guía de husillo optimizada y un mecanismo integrado de retorno rápido, acelera enormemente el proceso de corte de tuberías sólidas de PP-R.",
-        "seo_p3": "Diseñada para proyectos de construcción con alto consumo de tuberías de 50 mm de diámetro en adelante, esta herramienta reduce al mínimo la carga física del usuario.",
-        "faq": [
-          {
-            "q": "¿Qué significa 'mecanismo de retorno rápido'?",
-            "a": "Después de completar el corte, la rueda de corte se puede mover de nuevo a la posición inicial con solo presionar un botón, sin el molesto giro manual."
-          },
-          {
-            "q": "¿Es este modelo más adecuado para uso estacionario?",
-            "a": "Es móvil, pero gracias a su diseño sólido y a la guía precisa del husillo, es ideal para la prefabricación estacionaria."
-          },
-          {
-            "q": "¿Hay repuestos disponibles para este cortatubos?",
-            "a": "Sí, tanto la rueda de corte como los rodillos guía están disponibles de forma permanente como piezas de repuesto originales."
-          }
-        ]
-      },
       "hand-welding-machine-2032-complete-set": {
         "seo_p1": "La máquina de soldar manual d20-d32 en set completo (Hand Welding Machine 20-32 Complete Set) es la estación base profesional para dimensiones pequeñas.",
         "seo_p2": "Incluye un elemento calefactor de 800 vatios controlado por termostato, herramientas de soldadura recubiertas de teflón y un soporte estable en una robusta caja de metal.",
@@ -5712,16 +5693,16 @@
         "seo_p3": "Este accesorio ahorra un valioso espacio de instalación y tiempo, especialmente en redes de distribución ramificadas en espacios confinados, como ejes o áreas de instalación técnica.",
         "faq": [
           {
-            "q": "¿Qué significa I/A o H/M?",
-            "a": "Significa Interior/Exterior (Hembra/Macho). Un lado se suelda como manguito, el otro lado se inserta directamente en otro accesorio."
+            "q": "¿Es adecuado el codo H/M de 45 grados para desplazamientos paralelos?",
+            "a": "Sí, combinado con un codo estándar de 45 grados, se pueden realizar desplazamientos de nivel extremadamente compactos."
           },
           {
-            "q": "¿Tiene este codo la misma resistencia a la presión que un codo estándar?",
-            "a": "Sí, está diseñado para las mismas clases de presión SDR que el tubo y soporta exactamente la misma presión del sistema después del enfriamiento."
+            "q": "¿La resistencia a la presión de la conexión interior/exterior es igual de alta?",
+            "a": "La soldadura de polifusión homogénea también garantiza una resistencia a la presión del 100% (PN 25) en el punto de conexión."
           },
           {
-            "q": "¿Cómo se suelda este accesorio?",
-            "a": "La técnica de soldadura es idéntica a la soldadura por encaje estándar; un accesorio adicional (manguito) a menudo no es necesario debido al diseño M/H."
+            "q": "¿Para qué dimensiones está disponible este codo?",
+            "a": "Normalmente se produce para las dimensiones comunes en la distribución de plantas de 20 mm a 40 mm."
           }
         ]
       },

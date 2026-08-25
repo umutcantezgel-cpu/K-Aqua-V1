@@ -316,6 +316,25 @@
         "seo_p3": "Í þéttum dreifikerfum eða við uppsetningu á þröngum innfelldum lögnum sparar þessi hluti dýrmætan uppsetningartíma og fækkar suðupunktum.",
         "faq": [
           {
+            "q": "Er 45-gráðu I/A hnéð hentugt fyrir hliðrunarsveigjur?",
+            "a": "Já, blandað saman við staðlað 45-gráðu hné er hægt að gera ofurþéttar hliðranir."
+          },
+          {
+            "q": "Er þrýstiþolið á Innri/Ytri tengingunni jafnmikið?",
+            "a": "Einsleita bræðslusuðan tryggir 100 prósent þrýstiþol (PN 25) við samskeytin."
+          },
+          {
+            "q": "Í hvaða stærðum fæst þetta hné?",
+            "a": "Það er jafnan framleitt í algengum stærðum fyrir dreifingu á hæðum, frá 20 mm til 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "90° hné (Elbow 90°) er staðlað stefnubreytingarstykki í formstykkjalínunni okkar, hannað fyrir nákvæmar, rétthyrndar afgreiningar.",
+        "seo_p2": "Þessi formstöðugi PP-R hluti er gerður þannig að hann tekur auðveldlega á sig vélrænt og hitafræðilegt álag kerfisins og er samhæfður öllum SDR-flokkum.",
+        "seo_p3": "Fullkomið fyrir hornlagnir og gegnumdrætti í veggjum í allri byggingartækni, það tryggir þétta og örugga 90 gráðu beygju án brúna sem trufla flæðið.",
+        "faq": [
+          {
             "q": "Eykur 90 gráðu hné slit vegna straumþrýstings?",
             "a": "Þökk sé hönnun veggþykktar og mjög sléttu innra yfirborði PP-R efnisins er núningsslit nánast útilokað."
           },
@@ -329,10 +348,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "90° hné (Elbow 90°) er staðlað stefnubreytingarstykki í formstykkjalínunni okkar, hannað fyrir nákvæmar, rétthyrndar afgreiningar.",
-        "seo_p2": "Þessi formstöðugi PP-R hluti er gerður þannig að hann tekur auðveldlega á sig vélrænt og hitafræðilegt álag kerfisins og er samhæfður öllum SDR-flokkum.",
-        "seo_p3": "Fullkomið fyrir hornlagnir og gegnumdrætti í veggjum í allri byggingartækni, það tryggir þétta og örugga 90 gráðu beygju án brúna sem trufla flæðið.",
+      "elbow-90-femalemale": {
+        "seo_p1": "90° hné með innri/ytri suðuenda (Elbow 90° Female/Male) er lausnin fyrir ofurþéttar horntengingar beint við aðra hluta.",
+        "seo_p2": "Þetta snjalla PP-R formstykki sameinar hefðbundinn múffuenda og innstungukant til að setja saman formstykki við formstykki án vandkvæða.",
+        "seo_p3": "Sérstaklega við uppsetningu loka eða dreifistöðva fyrir hitakerfi minnkar þessi hönnun plássþörfina verulega og lágmarkar bæði efnis- og vinnukostnað.",
         "faq": [
           {
             "q": "Hvað þýðir I/A (M/F) við þetta hné?",
@@ -345,25 +364,6 @@
           {
             "q": "Breytist suðuferlið vegna þessa?",
             "a": "Ferlið helst óbreytt, það eru aðeins hitunarhólkarnir á hitaplötunni sem eru notaðir bæði fyrir rör og formstykki samtímis."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "90° hné með innri/ytri suðuenda (Elbow 90° Female/Male) er lausnin fyrir ofurþéttar horntengingar beint við aðra hluta.",
-        "seo_p2": "Þetta snjalla PP-R formstykki sameinar hefðbundinn múffuenda og innstungukant til að setja saman formstykki við formstykki án vandkvæða.",
-        "seo_p3": "Sérstaklega við uppsetningu loka eða dreifistöðva fyrir hitakerfi minnkar þessi hönnun plássþörfina verulega og lágmarkar bæði efnis- og vinnukostnað.",
-        "faq": [
-          {
-            "q": "Er 45-gráðu I/A hnéð hentugt fyrir hliðrunarsveigjur?",
-            "a": "Já, blandað saman við staðlað 45-gráðu hné er hægt að gera ofurþéttar hliðranir."
-          },
-          {
-            "q": "Er þrýstiþolið á Innri/Ytri tengingunni jafnmikið?",
-            "a": "Einsleita bræðslusuðan tryggir 100 prósent þrýstiþol (PN 25) við samskeytin."
-          },
-          {
-            "q": "Í hvaða stærðum fæst þetta hné?",
-            "a": "Það er jafnan framleitt í algengum stærðum fyrir dreifingu á hæðum, frá 20 mm til 40 mm."
           }
         ]
       },
@@ -991,25 +991,6 @@
           {
             "q": "Kemur hjólaskerinn í staðinn fyrir afröndun?",
             "a": "Múffusuða krefst þess ekki að rör séu afrönduð. Algjörlega beinn skurður þessa verkfæris er fullkominn undirbúningur fyrir suðuferlið."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Hágæða rörskerinn d50-d125 V1 (Pipe Cutter 50-125-1) er breytt útgáfa fyrir sérlega hröð og þægileg skurðarstörf.",
-        "seo_p2": "Með bættri snældustýringu og innbyggðum flýtitilbakabúnaði hraðar hann verulega skurði í stórum PP-R rörum.",
-        "seo_p3": "Verkfærið er hannað fyrir byggingarverkefni þar sem mikil notkun er á rörum sem eru yfir 50 mm í þvermál og það dregur verulega úr líkamlegu álagi notandans.",
-        "faq": [
-          {
-            "q": "Hvað þýðir 'flýtitilbakabúnaður'?",
-            "a": "Eftir skurð er hægt að keyra skurðarhjólið strax til baka í upphafsstöðu með einum hnappi án þess að þurfa að sveifa."
-          },
-          {
-            "q": "Hentar þetta líkan betur til staðbundinnar notkunar?",
-            "a": "Það er færanlegt, en vegna massífrar hönnunar og nákvæmrar stýringar hentar það einnig mjög vel fyrir fasta forsmíði á verkstæði."
-          },
-          {
-            "q": "Fást varahlutir fyrir þennan rörskera?",
-            "a": "Já, bæði skurðarhjólið og stýrihjólin eru alltaf fáanleg sem upprunalegir varahlutir."
           }
         ]
       },

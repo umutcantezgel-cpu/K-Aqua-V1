@@ -33,7 +33,7 @@
     "plug": "Dop filetat pentru închiderea capetelor libere. Alte dimensiuni la cerere.",
     "pipe-cutter-2040": "Foarfecă de tăiat țevi cu clichet pentru tăieturi curate și perpendiculare.",
     "pipe-cutter-50125": "Tăietor industrial pentru diametre mari.",
-    "pipe-cutter-50125-1": "Versiune alternativă (1¼).",
+    "pipe-cutter-50125-1": "Răzuiește suprafața țevii înainte de sudare.",
     "hand-welding-machine-2032-complete-set": "Aparat manual compact de sudură prin polifuziune.",
     "hand-welding-machine-2063-complete-set": "Set complet cu plită de sudură, suport și bacuri.",
     "hand-welding-machine-mirror-50125": "Plită de încălzire de schimb pentru aparatul 50–125 mm.",
@@ -2966,6 +2966,25 @@
         "seo_p3": "În instalațiile compacte ale distribuitoarelor sau la construcția sistemelor înguste pe perete, această componentă economisește timp prețios de instalare și reduce numărul zonelor de sudură.",
         "faq": [
           {
+            "q": "Este cotul de 45 de grade I/A potrivit pentru ramificații paralele?",
+            "a": "Da, atunci când este combinat cu un cot standard de 45 de grade, se pot realiza compensări de etaj extrem de compacte."
+          },
+          {
+            "q": "Este rezistența la presiune a conexiunii Interior/Exterior la fel de mare?",
+            "a": "Sudura prin polifuziune omogenă garantează și aici o rezistență la presiune de 100% (PN 25) la îmbinare."
+          },
+          {
+            "q": "Pentru ce dimensiuni este disponibil acest cot?",
+            "a": "Este produs în mod obișnuit pentru dimensiunile comune din distribuția pe etaj, de la 20 mm la 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Cotul de 90° (Elbow 90°) este componenta standard pentru schimbarea direcției din gama noastră de fitinguri, proiectată pentru ramificații precise, în unghi drept.",
+        "seo_p2": "Această componentă din PP-R, stabilă dimensional, este construită astfel încât să absoarbă cu ușurință solicitările mecanice și termice ale sistemului și este compatibilă cu toate nivelele SDR.",
+        "seo_p3": "Perfectă pentru instalări în colț și treceri prin perete în ingineria tuturor clădirilor, garantează o îndoire strânsă și sigură de 90 de grade, fără margini care ar putea perturba fluxul.",
+        "faq": [
+          {
             "q": "Mărește un cot de 90 de grade uzura din cauza presiunii de curgere?",
             "a": "Datorită rezervelor de grosime a peretelui și suprafețelor interioare extrem de netede din PP-R, uzura prin abraziune este practic imposibilă."
           },
@@ -2979,10 +2998,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Cotul de 90° (Elbow 90°) este componenta standard pentru schimbarea direcției din gama noastră de fitinguri, proiectată pentru ramificații precise, în unghi drept.",
-        "seo_p2": "Această componentă din PP-R, stabilă dimensional, este construită astfel încât să absoarbă cu ușurință solicitările mecanice și termice ale sistemului și este compatibilă cu toate nivelele SDR.",
-        "seo_p3": "Perfectă pentru instalări în colț și treceri prin perete în ingineria tuturor clădirilor, garantează o îndoire strânsă și sigură de 90 de grade, fără margini care ar putea perturba fluxul.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Cotul de 90° cu capăt de sudură Interior/Exterior (Elbow 90° Female/Male) reprezintă soluția pentru conexiuni de colț ultracompacte direct pe alte componente.",
+        "seo_p2": "Acest fiting inteligent din PP-R combină un capăt de mufă normal cu un capăt de inserție, pentru a realiza fără probleme suduri fiting-la-fiting.",
+        "seo_p3": "În mod particular la instalarea armăturilor sau distribuitoarelor circuitelor de încălzire, acest design reduce considerabil necesarul de spațiu, material și muncă.",
         "faq": [
           {
             "q": "Ce înseamnă I/A (M/F) pentru acest cot?",
@@ -2995,25 +3014,6 @@
           {
             "q": "Modifică acest lucru procesul de sudură?",
             "a": "Procesul rămâne același; trebuie doar utilizate simultan matrița și patriza pe aparatul de sudură, pentru țeavă și fiting."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Cotul de 90° cu capăt de sudură Interior/Exterior (Elbow 90° Female/Male) reprezintă soluția pentru conexiuni de colț ultracompacte direct pe alte componente.",
-        "seo_p2": "Acest fiting inteligent din PP-R combină un capăt de mufă normal cu un capăt de inserție, pentru a realiza fără probleme suduri fiting-la-fiting.",
-        "seo_p3": "În mod particular la instalarea armăturilor sau distribuitoarelor circuitelor de încălzire, acest design reduce considerabil necesarul de spațiu, material și muncă.",
-        "faq": [
-          {
-            "q": "Este cotul de 45 de grade I/A potrivit pentru ramificații paralele?",
-            "a": "Da, atunci când este combinat cu un cot standard de 45 de grade, se pot realiza compensări de etaj extrem de compacte."
-          },
-          {
-            "q": "Este rezistența la presiune a conexiunii Interior/Exterior la fel de mare?",
-            "a": "Sudura prin polifuziune omogenă garantează și aici o rezistență la presiune de 100% (PN 25) la îmbinare."
-          },
-          {
-            "q": "Pentru ce dimensiuni este disponibil acest cot?",
-            "a": "Este produs în mod obișnuit pentru dimensiunile comune din distribuția pe etaj, de la 20 mm la 40 mm."
           }
         ]
       },
@@ -3793,25 +3793,6 @@
           {
             "q": "Poate acest tăietor debita și țevi cu fibră de sticlă K Aqua?",
             "a": "Da, roata tăietoare întărită taie cu ușurință și țevi compozite cu miez din fibră de sticlă."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Tăietorul tip ghilotină 50-125 (Pipe Cutter 50-125-1) este varianta grea, staționară, pentru secționarea dreaptă și ultra-rapidă a țevilor mari pe bancul de lucru.",
-        "seo_p2": "Lama masivă din oțel este trasă cu putere prin materialul PP-R rezistent utilizând o acționare cu cremalieră, similar unui spărgător de nuci.",
-        "seo_p3": "Pentru prefabricarea conductelor ascendente (coloanelor de alimentare) în atelier sau pre-tăierea segmentelor lungi de conductă pentru distribuitoare, permite productivitate maximă fără muchii sau margini neregulate.",
-        "faq": [
-          {
-            "q": "Acest clește este potrivit pentru utilizare pe șantier?",
-            "a": "Datorită greutății și mecanismului masiv de pârghie, se potrivește cel mai bine pentru tăieri prefabricate staționare (ex. fixat într-o menghină)."
-          },
-          {
-            "q": "Rola tăietoare sau lama pot strivi țeava PP-R la diametre mari?",
-            "a": "Datorită brațelor masive de prindere care stabilizează forma, forța aplicată lamei este transmisă foarte precis, minimizând riscul de ovalizare a conductei."
-          },
-          {
-            "q": "Pentru ce grosime de perete este adecvat dispozitivul?",
-            "a": "Poate tăia cu ușurință conductele cu grosimi extreme ale pereților din seria SDR 6 în dimensiunea maximă de 125 mm."
           }
         ]
       },

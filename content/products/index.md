@@ -92,7 +92,7 @@ All K-Aqua PP-R products in one place. Use the category filters or search by art
 | [Hand Welding Machine Mirror 50–125](./tools/hand-welding-machine-mirror-50-125.md) | AQ991125 | Replacement heating mirror |
 | [Pipe Cutter 20–40](./tools/pipe-cutter-2040.md) | AQ97040 | Cutting Ø 20–40 mm |
 | [Pipe Cutter 50–125](./tools/pipe-cutter-50125.md) | AQ975125 | Cutting Ø 50–125 mm |
-| [Pipe Cutter 50–125 (1¼)](./tools/pipe-cutter-50125-1.md) | AQ974 | Scraping / cleaning the pipe surface prior to welding |
+| [Pipe Scraper](./tools/pipe-cutter-50125-1.md) | AQ974 | Scraping / cleaning the pipe surface prior to welding |
 | [Repairing Plug](./tools/repairing-plug.md) | AQ5937–AQ59311 | Emergency leak repair |
 | [Welding Machine 50–125 (Complete)](./tools/welding-machine-50-125.md) | AQ988125 | Socket fusion Ø 50–125 mm |
 | [Welding Tool](./tools/welding-tool.md) | AQ98220–AQ982125 | Individual die sets Ø 20–125 mm |

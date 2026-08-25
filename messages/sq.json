@@ -352,6 +352,25 @@
         "seo_p3": "Në instalimet kompakte të kolektorëve ose kur ndërtohen sisteme të ngushta në mur, ky komponent kursen kohë të vlefshme instalimi dhe zvogëlon numrin e saldimeve.",
         "faq": [
           {
+            "q": "A është bërryli B/J 45 gradë i përshtatshëm për zhvendosje paralele?",
+            "a": "Po, i kombinuar me një bërryl standard 45 gradë, mund të realizohen zhvendosje dyshemeje jashtëzakonisht kompakte."
+          },
+          {
+            "q": "A është rezistenca e presionit e lidhjes së brendshme/të jashtme po aq e lartë?",
+            "a": "Saldimi homogjen me polifuzion siguron forcë presioni 100 për qind (PN 25) në bashkim."
+          },
+          {
+            "q": "Për cilat dimensione është i disponueshëm ky bërryl?",
+            "a": "Ai prodhohet zakonisht për dimensionet e zakonshme në shpërndarjen e kateve nga 20 mm në 40 mm."
+          }
+        ]
+      },
+      "elbow-90": {
+        "seo_p1": "Bërryli 90° (Elbow 90°) është ndërruesi standard i drejtimit në gamën tonë, i projektuar për degëzime të sakta me kënd të drejtë.",
+        "seo_p2": "Kjo pajisje PP-R gjeometrikisht e qëndrueshme është ndërtuar për të përthithur lehtësisht ngarkesat mekanike dhe termike të sistemit dhe është e përputhshme me të gjitha nivelet SDR.",
+        "seo_p3": "E përsosur për vendosjen në qoshe dhe kalimet në mur në të gjithë teknologjinë e ndërtesës, garanton një kthesë të ngushtë dhe të sigurt 90 gradë pa skaje që ndërhyjnë në rrjedhje.",
+        "faq": [
+          {
             "q": "A e rrit një bërryl 90-gradë konsumin për shkak të presionit të rrjedhjes?",
             "a": "Në sajë të rezervave të trashësisë së murit dhe sipërfaqeve të brendshme jashtëzakonisht të lëmuara të materialit PP-R, konsumimi nga gërryerja praktikisht përjashtohet."
           },
@@ -365,10 +384,10 @@
           }
         ]
       },
-      "elbow-90": {
-        "seo_p1": "Bërryli 90° (Elbow 90°) është ndërruesi standard i drejtimit në gamën tonë, i projektuar për degëzime të sakta me kënd të drejtë.",
-        "seo_p2": "Kjo pajisje PP-R gjeometrikisht e qëndrueshme është ndërtuar për të përthithur lehtësisht ngarkesat mekanike dhe termike të sistemit dhe është e përputhshme me të gjitha nivelet SDR.",
-        "seo_p3": "E përsosur për vendosjen në qoshe dhe kalimet në mur në të gjithë teknologjinë e ndërtesës, garanton një kthesë të ngushtë dhe të sigurt 90 gradë pa skaje që ndërhyjnë në rrjedhje.",
+      "elbow-90-femalemale": {
+        "seo_p1": "Bërryli 90° me fund saldimi të brendshëm/të jashtëm (Elbow 90° Female/Male) është zgjidhja për lidhjet ultrakompakte në qoshe drejtpërdrejt me komponentët e tjerë.",
+        "seo_p2": "Ky fiting inteligjent PP-R kombinon një fund të rregullt mufe me një fund futës për të zbatuar saldimet fiting-në-fiting pa probleme.",
+        "seo_p3": "Veçanërisht gjatë instalimit të valvulave ose kolektorëve të qarkut të ngrohjes, ky dizajn redukton ndjeshëm kërkesat e hapësirës dhe minimizon përpjekjet materiale dhe të punës.",
         "faq": [
           {
             "q": "Çfarë do të thotë B/J (M/F) tek ky bërryl?",
@@ -381,25 +400,6 @@
           {
             "q": "A e ndryshon kjo procesin e saldimit?",
             "a": "Procesi mbetet i njëjtë, vetëm matrica dhe patrica në pllakën e saldimit përdoren në të njëjtën kohë për tubin dhe pajisjen lidhëse."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "Bërryli 90° me fund saldimi të brendshëm/të jashtëm (Elbow 90° Female/Male) është zgjidhja për lidhjet ultrakompakte në qoshe drejtpërdrejt me komponentët e tjerë.",
-        "seo_p2": "Ky fiting inteligjent PP-R kombinon një fund të rregullt mufe me një fund futës për të zbatuar saldimet fiting-në-fiting pa probleme.",
-        "seo_p3": "Veçanërisht gjatë instalimit të valvulave ose kolektorëve të qarkut të ngrohjes, ky dizajn redukton ndjeshëm kërkesat e hapësirës dhe minimizon përpjekjet materiale dhe të punës.",
-        "faq": [
-          {
-            "q": "A është bërryli B/J 45 gradë i përshtatshëm për zhvendosje paralele?",
-            "a": "Po, i kombinuar me një bërryl standard 45 gradë, mund të realizohen zhvendosje dyshemeje jashtëzakonisht kompakte."
-          },
-          {
-            "q": "A është rezistenca e presionit e lidhjes së brendshme/të jashtme po aq e lartë?",
-            "a": "Saldimi homogjen me polifuzion siguron forcë presioni 100 për qind (PN 25) në bashkim."
-          },
-          {
-            "q": "Për cilat dimensione është i disponueshëm ky bërryl?",
-            "a": "Ai prodhohet zakonisht për dimensionet e zakonshme në shpërndarjen e kateve nga 20 mm në 40 mm."
           }
         ]
       },
@@ -1179,25 +1179,6 @@
           {
             "q": "A e zëvendëson prerësi me rrota (rul) procesin e bërjes së buzës (këndit/fazimit)?",
             "a": "Saldimi i mufave nuk kërkon bërjen e buzës (anëzimit/fazimit). Prerja absolutisht e drejtë e kësaj vegle është përgatitja e përsosur për procesin e saldimit."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Prerësi i tubave me performancë të lartë d50-d125 V1 (Pipe Cutter 50-125-1) është një version i modifikuar për prerje veçanërisht të shpejta dhe ergonomike.",
-        "seo_p2": "Me një udhëzues të optimizuar të boshtit dhe një mekanizëm të integruar të rikthimit të shpejtë, ai e përshpejton jashtëzakonisht shumë procesin e prerjes së tubave masivë PP-R.",
-        "seo_p3": "E projektuar për projekte ndërtimi me konsum të lartë tubash me diametër mbi 50 mm, kjo vegël redukton në minimum ngarkesën fizike të përdoruesit.",
-        "faq": [
-          {
-            "q": "Çfarë do të thotë 'Mekanizëm i rikthimit të shpejtë'?",
-            "a": "Pas përfundimit të prerjes, rrota prerëse mund të kthehet menjëherë në pozicionin e fillimit me shtypjen e një butoni, pa u dashur rrotullimi i lodhshëm mbrapsht."
-          },
-          {
-            "q": "A është ky model më i përshtatshëm për përdorim stacionar (të palëvizshëm)?",
-            "a": "Është i lëvizshëm, por falë dizajnit të tij masiv dhe udhëzuesit të saktë të boshtit, mund të përdoret në mënyrë të shkëlqyer për para-montime (përgatitje) stacionare."
-          },
-          {
-            "q": "A ka pjesë këmbimi për këtë prerës tubash?",
-            "a": "Po, si rrota prerëse ashtu edhe rrotat (rulet) udhëzuese ofrohen përgjithmonë si pjesë këmbimi origjinale."
           }
         ]
       },

@@ -1,6 +1,12 @@
 ---
-title: "Alternative Pipe Cutter 1 1/4\" (d50-d125)"
+title: "Pipe Scraper"
+titleDE: "Rohrschaber"
+titleAR: "كاشطة أنابيب"
 category: "Tools"
+# Der Slug bleibt „pipe-cutter-50125-1", obwohl das Bauteil kein Rohrschneider
+# ist: Die Adresse ist seit Langem im Umlauf, steht in 65 Sprachdateien und in
+# zwei Weiterleitungen. Ein Umbenennen der URL brächte dem Leser nichts, was
+# der korrigierte Titel nicht schon leistet.
 slug: "tools/pipe-cutter-50125-1"
 article_codes: ["AQ974"]
 source: "KA-Katalog_GB_06-2025, S. 114"
@@ -24,104 +30,107 @@ Hand scraper used to remove the outer layer of the pipe surface and to clean the
 - Packing unit: 1
 
 ## SEO-CONTENT-DE
-Der Rohrabschneider 50-125 mm (Modell AQ974) ist ein unverzichtbares Werkzeug für professionelle Installateure und Handwerker, die mit großen Rohrdurchmessern arbeiten. Dieses hochwertige Schneidwerkzeug wurde speziell entwickelt, um präzise und saubere Schnitte an Rohren mit einem Durchmesser von 50 bis 125 Millimetern durchzuführen. Mit seiner robusten Konstruktion und dem effizienten Schneidmechanismus ist der Rohrabschneider eine ausgezeichnete Alternative zu herkömmlichen Sägen oder Trennschleifern. Er bietet nicht nur eine höhere Sicherheit bei der Anwendung, sondern garantiert auch eine gratfreie und rechtwinklige Schnittkante, die für eine optimale Weiterverarbeitung unerlässlich ist.
+Der Rohrschaber AQ974 ist ein Handwerkzeug für die Vorbereitung der Rohroberfläche. Er zieht die äußere Schicht des Rohrs ab und reinigt das Rohrende, bevor die Verbindung hergestellt wird. Damit steht er am Anfang einer fachgerecht ausgeführten Schweißverbindung: Die äußere Lage eines PP-R-Rohrs verändert sich unter Luft- und Lichteinfluss, und diese oxidierte Schicht muss vor dem Fügen entfernt werden, damit die Verbindung stoffschlüssig wird. Genau diesen Arbeitsschritt übernimmt der Schaber — er bereitet die Oberfläche vor, er kürzt oder trennt das Rohr nicht. Der Herstellerkatalog führt ihn unter der Bezeichnung „Pipe scraper" mit der Artikelnummer AQ974 und der Verpackungseinheit 1; einen Durchmesserbereich nennt er für dieses Werkzeug nicht.
 
 ### Anwendungsbereiche und Einsatzgebiete
-Der Rohrabschneider AQ974 findet in einer Vielzahl von Branchen und Projekten Anwendung. Zu den Hauptbereichen gehören:
+Der Rohrschaber AQ974 wird überall dort eingesetzt, wo Rohrleitungen aus Kunststoff verschweißt werden. Zu den Hauptbereichen gehören:
 * Sanitär- und Heizungsinstallationen
 * Rohrleitungsbau und Infrastrukturprojekte
 * Industrieanlagen und chemische Prozessindustrie
 * Bewässerungssysteme und Wasserversorgung
 
-Durch seine große Spannweite von 50 bis 125 mm eignet er sich hervorragend für dickwandige Kunststoffrohre (wie PE, PP, PVC), Verbundrohre und in bestimmten Fällen, je nach Schneidrad, auch für Metallrohre. Die Flexibilität des Werkzeugs ermöglicht es, verschiedene Materialien effizient und mit minimalem Kraftaufwand zu trennen. 
+In allen diesen Bereichen gehört das Schaben zur Vorbereitung des Rohrendes und liegt zwischen dem Ablängen und dem eigentlichen Fügen. Zuerst wird das Rohr auf Maß gebracht — K-Aqua führt dafür die Handwerkzeuge AQ97040 und AQ975125 —, danach zieht der Schaber die Oberfläche des vorbereiteten Endes ab. Erst anschließend folgt die Verbindung, etwa mit den Handschweißgeräten AQ98032 und AQ98063 oder mit der Schweißmaschine AQ988125.
 
 ### Technische Spezifikationen und Merkmale
-Der Rohrabschneider zeichnet sich durch folgende technische Merkmale aus:
-* Spannbereich: 50 mm bis 125 mm (1¼ Version)
+Der Katalog hält zu diesem Artikel nur wenige Angaben fest. Sie sind hier vollständig wiedergegeben:
+* Katalogbezeichnung: Pipe scraper
 * Artikelnummer: AQ974
-* Verpackungseinheit: 1 Stück
-* Ergonomisches Design: Der Handgriff ist so geformt, dass er auch bei längerem Einsatz gut in der Hand liegt und Ermüdungserscheinungen minimiert.
-* Schnellverstellung: Eine integrierte Schnellverstellung ermöglicht eine rasche Anpassung an unterschiedliche Rohrdurchmesser.
-* Integrierter Entgrater: Oftmals verfügen hochwertige Rohrabschneider in dieser Größenordnung über integrierte Entgrater, um die Innenkanten nach dem Schneiden sofort zu glätten.
-* Langlebige Schneidräder: Die aus gehärtetem Spezialstahl gefertigten Schneidräder garantieren eine lange Lebensdauer und dauerhaft scharfe Schnitte.
+* Verpackungseinheit: 1
+* Durchmesserbereich: im Katalog nicht angegeben
+* Anwendung: Abziehen der Rohroberfläche und Reinigen des Rohrendes vor dem Schweißen
+* Handhabung: Handwerkzeug, ohne Strom- oder Druckluftanschluss
 
-### Vorteile gegenüber herkömmlichen Werkzeugen
-Die Verwendung eines spezialisierten Rohrabschneiders bietet erhebliche Vorteile:
-1. Präzision: Der Schnitt erfolgt exakt im 90-Grad-Winkel, was für Schweiß-, Klebe- oder Steckverbindungen zwingend erforderlich ist.
-2. Sauberkeit: Es entstehen keine Späne, die das Rohrinnere verschmutzen und später zu Verstopfungen oder Schäden an Armaturen führen könnten.
-3. Sicherheit: Im Gegensatz zum Einsatz von Winkelschleifern entstehen weder Funkenflug noch gesundheitsschädliche Stäube. Die Verletzungsgefahr ist deutlich reduziert.
-4. Geschwindigkeit: Nach kurzer Einarbeitung lassen sich Schnitte wesentlich schneller und reproduzierbarer durchführen.
-5. Wirtschaftlichkeit: Durch die sauberen Schnitte entfallen aufwändige Nacharbeiten, was wertvolle Arbeitszeit spart.
+Abmessungen, Gewicht oder Werkstoff nennt der Katalog für AQ974 nicht. Wir führen an dieser Stelle bewusst keine solchen Werte auf, statt sie zu schätzen. Wenn Sie diese Angaben für eine Ausschreibung benötigen, fragen Sie sie bitte direkt bei uns an.
+
+### Vorteile gegenüber improvisierten Lösungen
+Ein dafür vorgesehener Schaber bietet gegenüber Schleifpapier, Messer oder Feile mehrere Vorteile:
+1. Gleichmäßiger Abtrag: Die Oberfläche wird über den Umfang gleichmäßig abgezogen, statt an einer Stelle zu stark und an einer anderen zu schwach bearbeitet zu werden.
+2. Verbindungsqualität: Erst nach dem Entfernen der oxidierten äußeren Schicht können die Fügeflächen beim Schweißen stoffschlüssig zusammenwachsen.
+3. Sauberes Rohrende: Anhaftende Verschmutzungen werden im selben Arbeitsgang mit entfernt und gelangen so nicht in die Schweißzone.
+4. Nachvollziehbarkeit: Die abgezogene Fläche ist auf dem Rohr sichtbar. Auf der Baustelle lässt sich dadurch erkennen, welches Rohrende bereits vorbereitet wurde.
+5. Einfache Handhabung: Das Werkzeug arbeitet ohne Energieversorgung und ist an jeder Stelle der Trasse einsetzbar, auch dort, wo keine Steckdose in der Nähe ist.
 
 ### Wartung und Pflege
-Um die Lebensdauer und Leistungsfähigkeit des Rohrabschneiders 50-125 mm zu maximieren, ist eine regelmäßige Wartung empfehlenswert. Das Schneidrad sollte regelmäßig auf Beschädigungen oder Verschleiß kontrolliert und gegebenenfalls ausgetauscht werden. Ein stumpfes Schneidrad führt zu unsauberen Schnitten und erfordert einen höheren Kraftaufwand. Die Führungsrollen sollten stets sauber und leichtgängig gehalten werden. Gelegentliches Ölen der beweglichen Teile, insbesondere der Gewindespindel, stellt sicher, dass die Schnellverstellung reibungslos funktioniert. Lagern Sie das Werkzeug an einem trockenen Ort, um Korrosion zu vermeiden.
+Der Rohrschaber braucht wenig Pflege, sollte aber nicht vernachlässigt werden. Entfernen Sie die Späne nach jedem Einsatz, damit sie sich nicht im Werkzeug festsetzen und den Abtrag ungleichmäßig machen. Prüfen Sie die Schabkante vor der Arbeit: Wenn sie das Material nicht mehr sauber abhebt, sondern nur noch darüber gleitet, ist die Vorbereitung nicht mehr zuverlässig. Lagern Sie das Werkzeug trocken und getrennt von schwerem Gerät, damit die Kante keinen Schaden nimmt. Und setzen Sie den Schaber nur für den vorgesehenen Zweck ein — als Hebel oder als Kratzer für andere Arbeiten verliert er rasch seine Wirkung.
 
-Dieser Rohrabschneider (Alternative Version) stellt somit eine lohnende Investition für jeden Handwerksbetrieb dar, der Wert auf Effizienz, Qualität und Langlebigkeit legt. Die Artikelnummer AQ974 bürgt für ein geprüftes, professionelles Werkzeug, das den harten Anforderungen auf der Baustelle jederzeit gewachsen ist.
+Der Rohrschaber AQ974 ist damit ein kleines Werkzeug mit einer klaren Aufgabe: Er stellt sicher, dass die Schweißverbindung auf einer vorbereiteten Oberfläche entsteht und nicht auf einer gealterten. Zusammen mit den K-Aqua-Schweißgeräten AQ98032, AQ98063 und AQ988125 gehört er in jede Ausrüstung, in der PP-R-Leitungen fachgerecht gefügt werden.
 
 ## SEO-CONTENT-EN
-The Pipe Cutter 50-125 mm (model AQ974) is an indispensable tool for professional installers, plumbers, and technicians working with large diameter pipes. This high-quality cutting tool is specifically designed to make precise and clean cuts on pipes ranging from 50 to 125 millimeters in diameter. With its robust construction and efficient cutting mechanism, the pipe cutter is an excellent alternative to conventional saws or angle grinders. It not only offers increased safety during use but also guarantees a burr-free, perfectly square cut, which is essential for optimal subsequent processing and joining.
+The Pipe Scraper AQ974 is a hand tool for preparing the pipe surface. It removes the outer layer of the pipe and cleans the pipe end before the joint is made. This places it right at the start of a properly executed welded connection: the outer layer of a PP-R pipe changes under the influence of air and light, and this oxidised layer has to be removed before joining so that the connection can fuse. The scraper handles exactly this step — it prepares the surface, it does not shorten or divide the pipe. The manufacturer's catalogue lists it as "Pipe scraper" under article code AQ974 with a packing unit of 1; it states no diameter range for this tool.
 
 ### Areas of Application
-The AQ974 Pipe Cutter is utilized across a wide range of industries and projects. The primary fields of application include:
+The AQ974 Pipe Scraper is used wherever plastic pipework is welded. The primary fields of application include:
 * Plumbing and heating installations
 * Pipeline construction and infrastructure projects
 * Industrial plants and chemical processing industries
 * Irrigation systems and water supply networks
 
-Thanks to its large clamping capacity of 50 to 125 mm, it is exceptionally well-suited for thick-walled plastic pipes (such as PE, PP, PVC), composite pipes, and, depending on the cutting wheel used, specific metal pipes. The flexibility of this tool allows users to cut various materials efficiently and with minimal physical effort, ensuring high productivity on the job site.
+In all of these areas, scraping is part of preparing the pipe end and sits between bringing the pipe to length and the joining operation itself. The pipe is first brought to length — K-Aqua supplies the hand tools AQ97040 and AQ975125 for this purpose — and the scraper then removes the surface layer from the prepared end. Only afterwards is the joint made, for example with the hand welding devices AQ98032 and AQ98063 or with the welding machine AQ988125.
 
 ### Technical Specifications and Features
-This pipe cutter is characterized by the following technical attributes:
-* Cutting Range: 50 mm to 125 mm (1¼ version)
+The catalogue records only a few details for this article. They are reproduced here in full:
+* Catalogue designation: Pipe scraper
 * Article Code: AQ974
-* Packaging Unit: 1 piece
-* Ergonomic Design: The handle is shaped to fit comfortably in the hand, minimizing fatigue even during extended periods of use.
-* Quick Adjustment Mechanism: An integrated quick adjustment system allows for rapid adaptation to different pipe diameters, saving valuable time.
-* Durable Cutting Wheels: Manufactured from hardened special steel, the cutting wheels ensure a long service life and consistently sharp, precise cuts.
-* Guide Rollers: High-quality guide rollers ensure smooth rotation around the pipe, preventing tracking issues or spiraling during the cut.
+* Packaging Unit: 1
+* Diameter range: not stated in the catalogue
+* Application: scraping the pipe surface and cleaning the pipe end prior to welding
+* Handling: hand tool, no power or compressed-air supply required
 
-### Advantages Over Conventional Tools
-Using a specialized pipe cutter offers significant advantages:
-1. Precision: The cut is executed precisely at a 90-degree angle, which is absolutely mandatory for welding, gluing, or push-fit connections.
-2. Cleanliness: The cutting process generates no swarf or shavings that could contaminate the inside of the pipe and later cause blockages or damage to valves and fittings.
-3. Safety: Unlike using angle grinders, there are no flying sparks, dangerous kickbacks, or harmful dust emissions. The risk of injury is significantly reduced.
-4. Speed: Once accustomed to the tool, cuts can be performed much faster and with greater reproducibility compared to manual sawing.
-5. Cost-Effectiveness: The clean cuts eliminate the need for time-consuming deburring and finishing work, thereby saving valuable labor time and reducing overall project costs.
+The catalogue gives no dimensions, weight, or material for AQ974. We deliberately list no such figures here rather than estimate them. If you need this data for a tender, please request it from us directly.
+
+### Advantages Over Improvised Solutions
+A purpose-made scraper offers several advantages over sandpaper, a knife, or a file:
+1. Even removal: The surface is taken down evenly around the circumference, instead of being worked too heavily in one place and too lightly in another.
+2. Joint quality: Only once the oxidised outer layer has been removed can the joining faces fuse properly during welding.
+3. Clean pipe end: Adhering contamination is removed in the same operation and therefore does not end up in the weld zone.
+4. Traceability: The scraped area remains visible on the pipe, so on site it is easy to see which pipe end has already been prepared.
+5. Simple handling: The tool works without any power supply and can be used at any point along the route, including places where no socket is nearby.
 
 ### Maintenance and Care
-To maximize the lifespan and performance of the Pipe Cutter 50-125 mm, regular maintenance is highly recommended. The cutting wheel should be inspected frequently for damage or wear and replaced when necessary. A dull cutting wheel leads to unclean cuts, pipe deformation, and requires excessive force to operate. The guide rollers must be kept clean and free of debris to ensure smooth operation. Occasional lubrication of the moving parts, particularly the threaded spindle, ensures that the quick adjustment mechanism functions flawlessly. Always store the tool in a dry environment to prevent corrosion and maintain its structural integrity.
+The pipe scraper needs little care, but it should not be neglected. Remove the shavings after every use so that they cannot lodge in the tool and make the removal uneven. Check the scraping edge before starting work: if it no longer lifts material cleanly and merely slides across the surface, the preparation is no longer reliable. Store the tool in a dry place and separately from heavy equipment so that the edge is not damaged. And use the scraper only for its intended purpose — pressed into service as a lever or as a general scratching tool, it quickly loses its effect.
 
-In conclusion, this alternative version of the pipe cutter represents a worthwhile investment for any professional tradesperson who values efficiency, quality, and durability. The article code AQ974 stands for a tested, professional-grade tool that is fully capable of withstanding the rigorous demands of daily use on construction sites.
+The Pipe Scraper AQ974 is therefore a small tool with a clear task: it ensures that a welded joint is made on a prepared surface rather than an aged one. Together with the K-Aqua welding equipment AQ98032, AQ98063, and AQ988125, it belongs in any kit used to join PP-R pipework properly.
 
 ## SEO-CONTENT-AR
-تعتبر قطاعة الأنابيب 50-125 ملم (الموديل AQ974) أداة لا غنى عنها للسباكين والفنيين المحترفين الذين يعملون مع أنابيب ذات أقطار كبيرة. تم تصميم أداة القطع عالية الجودة هذه خصيصًا لإجراء عمليات قطع دقيقة ونظيفة على الأنابيب التي يتراوح قطرها من 50 إلى 125 ملم. بفضل بنيتها القوية وآلية القطع الفعالة، تعتبر قطاعة الأنابيب بديلاً ممتازًا للمناشير التقليدية أو المطاحن الزاوية. فهي لا توفر فقط مزيدًا من الأمان أثناء الاستخدام ولكنها تضمن أيضًا قطعًا خاليًا من النتوءات ومستقيمًا تمامًا بزاوية 90 درجة، وهو أمر ضروري للمعالجة والتوصيل الأمثل.
+كاشطة الأنابيب AQ974 أداة يدوية لتحضير سطح الأنبوب. تكشط الطبقة الخارجية من الأنبوب وتنظّف طرفه قبل تنفيذ الوصلة. لذلك تأتي هذه الأداة في بداية أي وصلة لحام منفَّذة بشكل صحيح: الطبقة الخارجية لأنبوب PP-R تتغيّر بفعل الهواء والضوء، ويجب إزالة هذه الطبقة المتأكسدة قبل الوصل حتى يتحقق اندماج كامل بين السطحين. تؤدي الكاشطة هذه المهمة تحديدًا؛ فهي تحضّر السطح ولا تُقصّر الأنبوب ولا تفصله. يذكر كتالوج الشركة المصنّعة هذا الصنف باسم Pipe scraper برقم AQ974 ووحدة تعبئة 1، ولا يذكر له أي نطاق أقطار.
 
 ### مجالات التطبيق والاستخدامات
-تُستخدم قطاعة الأنابيب AQ974 في مجموعة واسعة من الصناعات والمشاريع. تشمل المجالات الرئيسية للتطبيق ما يلي:
+تُستخدم كاشطة الأنابيب AQ974 في كل مكان تُلحَم فيه أنابيب البلاستيك. تشمل المجالات الرئيسية للتطبيق ما يلي:
 * تركيبات السباكة والتدفئة المركزية
 * بناء خطوط الأنابيب ومشاريع البنية التحتية
 * المنشآت الصناعية والصناعات الكيميائية
 * أنظمة الري وشبكات إمدادات المياه
 
-بفضل قدرتها الكبيرة على الاستيعاب التي تتراوح من 50 إلى 125 ملم، فهي مناسبة بشكل استثنائي للأنابيب البلاستيكية ذات الجدران السميكة (مثل البولي إيثيلين، البولي بروبلين، والـ بي في سي)، والأنابيب المركبة، واعتمادًا على عجلة القطع المستخدمة، لبعض الأنابيب المعدنية. تتيح مرونة هذه الأداة للمستخدمين قطع المواد المختلفة بكفاءة وبأقل جهد بدني، مما يضمن إنتاجية عالية في موقع العمل.
+في كل هذه المجالات يُعدّ الكشط جزءًا من تحضير طرف الأنبوب، ويأتي بين تجهيز الأنبوب بالطول المطلوب وبين عملية الوصل نفسها. أولًا يُجهَّز الأنبوب بالطول المطلوب، وتقدّم K-Aqua لهذا الغرض الأداتين اليدويتين AQ97040 و AQ975125. ثم تكشط الأداة سطح الطرف المُحضَّر. وبعد ذلك فقط تُنفَّذ الوصلة، مثلًا بجهاز اللحام اليدوي AQ98032 أو AQ98063، أو بماكينة اللحام AQ988125.
 
 ### المواصفات الفنية والميزات
-تتميز قطاعة الأنابيب هذه بالخصائص الفنية التالية:
-* نطاق القطع: من 50 ملم إلى 125 ملم (نسخة 1¼)
-* رقم القطعة: AQ974
-* وحدة التعبئة: قطعة واحدة
-* تصميم مريح: تم تشكيل المقبض ليناسب اليد بشكل مريح، مما يقلل من التعب حتى خلال فترات الاستخدام الطويلة.
-* آلية التعديل السريع: يتيح نظام التعديل السريع المدمج التكيف السريع مع أقطار الأنابيب المختلفة، مما يوفر وقتًا ثمينًا.
-* عجلات قطع متينة: عجلات القطع مصنوعة من صلب خاص مقسى، مما يضمن عمر خدمة طويل وعمليات قطع حادة ودقيقة باستمرار.
-* بكرات التوجيه: تضمن بكرات التوجيه عالية الجودة دورانًا سلسًا حول الأنبوب، مما يمنع مشاكل التتبع أو الانحراف أثناء القطع.
+لا يذكر الكتالوج عن هذا الصنف سوى بيانات قليلة، وهي مذكورة هنا بالكامل:
+* التسمية في الكتالوج: Pipe scraper
+* رقم الصنف: AQ974
+* وحدة التعبئة: 1
+* نطاق الأقطار: غير مذكور في الكتالوج
+* الاستخدام: كشط سطح الأنبوب وتنظيف طرفه قبل اللحام
+* التشغيل: أداة يدوية، لا تحتاج إلى كهرباء أو هواء مضغوط
 
-### مزايا على الأدوات التقليدية
-يوفر استخدام قطاعة أنابيب متخصصة مزايا كبيرة:
-1. الدقة: يتم تنفيذ القطع بدقة بزاوية 90 درجة، وهو أمر إلزامي تمامًا للحام أو اللصق أو وصلات الدفع.
-2. النظافة: لا تولد عملية القطع أي برادة أو نشارة يمكن أن تلوث داخل الأنبوب وتتسبب لاحقًا في انسدادات أو تلف للصمامات والتجهيزات.
-3. الأمان: على عكس استخدام المطاحن الزاوية، لا يوجد شرر متطاير أو ارتدادات خطيرة أو انبعاثات غبار ضارة. يتم تقليل خطر الإصابة بشكل كبير.
-4. السرعة: بمجرد التعود على الأداة، يمكن إجراء عمليات القطع بشكل أسرع بكثير وبقدرة أكبر على التكرار مقارنة بالنشر اليدوي.
-5. الفعالية من حيث التكلفة: تقضي التخفيضات النظيفة على الحاجة إلى أعمال إزالة النتوءات والتشطيب التي تستغرق وقتًا طويلاً، مما يوفر وقت العمل الثمين ويقلل من تكاليف المشروع الإجمالية.
+لا يذكر الكتالوج أبعادًا أو وزنًا أو مادة الصنع للصنف AQ974. ولذلك لا نذكر هنا أي أرقام من هذا النوع بدلًا من تقديرها. إذا كنت بحاجة إلى هذه البيانات لعطاء أو مناقصة، فاطلبها منا مباشرة.
+
+### مزايا مقارنة بالحلول البديلة
+تقدّم الكاشطة المخصصة لهذا الغرض مزايا واضحة مقارنة بورق الصنفرة أو السكين أو المبرد:
+1. إزالة متساوية: يُكشط السطح بانتظام حول محيط الأنبوب، بدلًا من إزالة كثيرة في موضع وقليلة في موضع آخر.
+2. جودة الوصلة: بعد إزالة الطبقة الخارجية المتأكسدة فقط يمكن للسطحين أن يندمجا اندماجًا كاملًا أثناء اللحام.
+3. طرف نظيف: تُزال الأوساخ العالقة في العملية نفسها، فلا تصل إلى منطقة اللحام.
+4. الوضوح: يبقى السطح المكشوط ظاهرًا على الأنبوب. لذلك يسهل في الموقع معرفة أي طرف تم تحضيره بالفعل.
+5. سهولة الاستخدام: تعمل الأداة بدون أي مصدر طاقة، ويمكن استخدامها في أي نقطة على المسار، حتى حيث لا يوجد مصدر كهرباء قريب.
 
 ### الصيانة والعناية
-لتعظيم عمر وأداء قطاعة الأنابيب 50-125 ملم، يوصى بشدة بإجراء صيانة دورية. يجب فحص عجلة القطع بشكل متكرر بحثًا عن أي تلف أو تآكل واستبدالها عند الضرورة. تؤدي عجلة القطع الباهتة إلى عمليات قطع غير نظيفة، وتشوه الأنبوب، وتتطلب قوة مفرطة للتشغيل. يجب الحفاظ على بكرات التوجيه نظيفة وخالية من الحطام لضمان التشغيل السلس. يضمن التشحيم العرضي للأجزاء المتحركة، وخاصة عمود الدوران الملولب، أن تعمل آلية التعديل السريع بشكل لا تشوبه شائبة. قم دائمًا بتخزين الأداة في بيئة جافة لمنع التآكل والحفاظ على سلامتها الهيكلية، مما يضمن جاهزيتها للعمل في أي وقت.
+تحتاج كاشطة الأنابيب إلى عناية بسيطة، لكن لا ينبغي إهمالها. أزل البرادة بعد كل استخدام حتى لا تعلق في الأداة وتجعل الإزالة غير منتظمة. افحص حافة الكشط قبل بدء العمل: إذا لم تعد ترفع المادة بشكل نظيف واكتفت بالانزلاق على السطح، فإن التحضير لم يعد موثوقًا. خزّن الأداة في مكان جاف وبعيدًا عن المعدات الثقيلة حتى لا تتضرر الحافة. واستخدم الكاشطة للغرض المخصص لها فقط؛ فاستعمالها كرافعة أو كأداة حكّ عامة يفقدها فاعليتها بسرعة.

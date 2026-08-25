@@ -7447,16 +7447,16 @@
         "seo_p3": "I kompakte fordelerinstallasjoner eller ved bygging av trange forveggsystemer sparer denne komponenten verdifull monteringstid og reduserer antall sveisepunkter.",
         "faq": [
           {
-            "q": "Øker en 45-graders vinkel slitasje fra strømningstrykk?",
-            "a": "Takket være veggtykkelsesreservene og de ekstremt glatte innvendige overflatene til PP-R-materialet, er slitasje fra abrasjon praktisk talt utelukket."
+            "q": "Egner 45-graders I/U-vinkelen seg for parallelle forskyvninger?",
+            "a": "Ja, kombinert med en standard 45-graders vinkel kan det realiseres ekstremt kompakte etasjeforskyvninger."
           },
           {
-            "q": "Finnes det retningsmarkeringer på K Aqua-vinklene?",
-            "a": "Ja, våre fittings har ofte produksjonsmarkeringer som hjelper med den nøyaktige aksiale justeringen på byggeplassen."
+            "q": "Er trykkbestandigheten til innvendig/utvendig-forbindelsen like høy?",
+            "a": "Den homogene polyfusjonssveisingen garanterer en 100-prosent trykkfasthet også her ved skjøten."
           },
           {
-            "q": "Kan 45-graders vinkelen brukes til stigerør?",
-            "a": "Ja, den er ideell for å vinkle avstikkere fra sjakter til de respektive etasjene."
+            "q": "For hvilke dimensjoner er denne vinkelen tilgjengelig?",
+            "a": "Den produseres i dimensjonene 20 mm og 25 mm."
           }
         ]
       },
@@ -7464,6 +7464,25 @@
         "seo_p1": "90°-vinkelen (Elbow 90°) er standard retningsveksler i vårt fittings-sortiment, designet for presise, rettvinklede avstikkere.",
         "seo_p2": "Dette formstabile PP-R-beslaget er konstruert for å absorbere systemets mekaniske og termiske belastninger uten problemer, og er kompatibelt med alle SDR-nivåer.",
         "seo_p3": "Perfekt for hjørneinstallasjoner og veggjennomføringer i hele bygningsteknologien. Den garanterer en tett og sikker 90-graders knekk uten kanter som forstyrrer strømningen.",
+        "faq": [
+          {
+            "q": "Øker en 90-graders vinkel slitasje fra strømningstrykk?",
+            "a": "Takket være veggtykkelsesreservene og de ekstremt glatte innvendige overflatene til PP-R-materialet, er slitasje fra abrasjon praktisk talt utelukket."
+          },
+          {
+            "q": "Finnes det retningsmarkeringer på K Aqua-vinklene?",
+            "a": "Ja, våre fittings har ofte produksjonsmarkeringer som hjelper med den nøyaktige aksiale justeringen på byggeplassen."
+          },
+          {
+            "q": "Kan 90-graders vinkelen brukes til stigerør?",
+            "a": "Ja, den er ideell for å vinkle avstikkere fra sjakter til de respektive etasjene."
+          }
+        ]
+      },
+      "elbow-90-femalemale": {
+        "seo_p1": "90°-vinkelen med innvendig/utvendig sveiseende (Elbow 90° Female/Male) er løsningen for ultrakompakte hjørneforbindelser direkte på andre komponenter.",
+        "seo_p2": "Dette intelligente PP-R-beslaget kombinerer en vanlig muffeende med en innstikksende for sømløst å utføre fitting-til-fitting-sveisinger.",
+        "seo_p3": "Spesielt ved montering av armaturer eller varmekretsfordelere reduserer dette designet plassbehovet betydelig og minimerer material- og arbeidsinnsats.",
         "faq": [
           {
             "q": "Hva betyr I/U (M/F) for denne vinkelen?",
@@ -7476,25 +7495,6 @@
           {
             "q": "Endrer dette sveiseprosessen?",
             "a": "Prosessen forblir den samme, man bruker bare matrise og patrise på sveisespeilet samtidig for rør og fitting."
-          }
-        ]
-      },
-      "elbow-90-femalemale": {
-        "seo_p1": "90°-vinkelen med innvendig/utvendig sveiseende (Elbow 90° Female/Male) er løsningen for ultrakompakte hjørneforbindelser direkte på andre komponenter.",
-        "seo_p2": "Dette intelligente PP-R-beslaget kombinerer en vanlig muffeende med en innstikksende for sømløst å utføre fitting-til-fitting-sveisinger.",
-        "seo_p3": "Spesielt ved montering av armaturer eller varmekretsfordelere reduserer dette designet plassbehovet betydelig og minimerer material- og arbeidsinnsats.",
-        "faq": [
-          {
-            "q": "Egner 90-graders I/U-vinkelen seg for parallelle forskyvninger?",
-            "a": "Ja, kombinert med en standard 90-graders vinkel kan det realiseres ekstremt kompakte etasjeforskyvninger."
-          },
-          {
-            "q": "Er trykkbestandigheten til innvendig/utvendig-forbindelsen like høy?",
-            "a": "Den homogene polyfusjonssveisingen garanterer en 100-prosent trykkfasthet (PN 25) også her ved skjøten."
-          },
-          {
-            "q": "For hvilke dimensjoner er denne vinkelen tilgjengelig?",
-            "a": "Den produseres typisk for de vanlige dimensjonene i etasjefordelingen fra 20 mm til 40 mm."
           }
         ]
       },
@@ -8084,25 +8084,6 @@
           {
             "q": "Må skjærehjulet byttes?",
             "a": "Ved tung daglig bruk bør hjulet inspiseres og skiftes ut for å bevare det rene snittet."
-          }
-        ]
-      },
-      "pipe-cutter-50125-1": {
-        "seo_p1": "Den roterende skjæremaskinen 50-125 (Pipe Cutter 50-125 type 2) er en alternativ modell optimalisert for kapping i trange omgivelser (f.eks. sjakter).",
-        "seo_p2": "Dette verktøyet krever mindre plass og kan kappe store PP-R rør med færre svingninger. Det har en forsterket mekanisme som håndterer stivheten i fiberrør bedre.",
-        "seo_p3": "Sikrer at selv under vanskelige monteringsforhold i sjakten oppnås det perfekte 90-graders kuttet som kreves for elektrosveising.",
-        "faq": [
-          {
-            "q": "Fungerer den for elektrosveisemuffer?",
-            "a": "Et rettvinklet kutt er absolutt kritisk for elektrosveising, og denne kutteren leverer eksakt toleransen som kreves."
-          },
-          {
-            "q": "Hvordan vedlikeholdes den?",
-            "a": "Ledeskruen og rullene må holdes rene og smøres lett, og skjærehjulet må byttes ved tegn på slitasje."
-          },
-          {
-            "q": "Kan den brukes for metallrør?",
-            "a": "Nei, skjærehjulets egg er utelukkende designet for PP-R og plast, og vil bli ødelagt ved kapping av metall."
           }
         ]
       },
