@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>K-Aqua 3D — Seitenprüfstand</title>
+<style>
+  body { font: 13px/1.5 ui-monospace, monospace; margin: 16px; background:#fafafa; color:#1a1a1a; }
+  h1 { font-size: 15px; }
+  table { border-collapse: collapse; }
+  td, th { padding: 2px 10px; border-bottom: 1px solid #e5e5e5; text-align: left; }
+  .ok { color: #0a7d43; } .fehler { color: #c02626; font-weight: 700; }
+  #buehne { position: fixed; left: -10000px; top: 0; width: 1100px; height: 700px; }
+  #stand { margin: 10px 0; font-weight: 700; }
+</style>
+</head>
+<body>
+<h1>Seitenprüfstand — lädt jede erzeugte Produktseite wirklich (LOOP-STATUS §3.26, Teil 2)</h1>
+<p>Prüft je Seite: <code>window.kaqua.ok</code> · Dreieckszahl &gt; 0 · ein Klick auf einen
+anderen Größenknopf ändert die Größe (genau das war bei den beiden toten
+T-Stück-Seiten tot) · Fehler und unbehandelte Rejections, soweit nach dem
+Einhängen fangbar. Ergebnis in <code>window.pruefstand</code>.</p>
+<div id="stand">lädt…</div>
+<table id="tab"><tr><th>Seite</th><th>kaqua.ok</th><th>Dreiecke</th><th>Größenklick</th><th>Fehler</th><th>ms</th></tr></table>
+<div id="buehne"></div>
+<script type="module">
+import { REGISTRY } from './lib/registry.mjs';
+
+const tab = document.getElementById('tab');
+const stand = document.getElementById('stand');
+const results = [];
+window.pruefstand = { fertig: false, results };
+
+/* KEIN setTimeout: verdeckte Tabs drosseln Timer bis auf Minutentakt,
+   und dieser Prüfstand läuft oft in einer verdeckten Ansicht — der
+   dritte Lauf kroch mit einer Seite pro Minute. MessageChannel-Aufgaben
+   werden nicht gedrosselt; das ist ein zahmer Spin, begrenzt durch die
+   kurzen Wartezeiten des Prüfstands. */
+const warte = (ms) => new Promise((r) => {
+  const t0 = performance.now();
+  const ch = new MessageChannel();
+  ch.port1.onmessage = () => {
+    if (performance.now() - t0 >= ms) { ch.port1.close(); r(); }
+    else ch.port2.postMessage(0);
+  };
+  ch.port2.postMessage(0);
+});
+async function bis(fn, timeoutMs, schrittMs = 120) {
+  const ende = performance.now() + timeoutMs;
+  for (;;) {
+    let v; try { v = fn(); } catch { v = null; }
+    if (v) return v;
+    if (performance.now() > ende) return null;
+    await warte(schrittMs);
+  }
+}
+
+async function pruefeSeite(p) {
+  const t0 = performance.now();
+  const r = { seite: p.module + '.html', id: p.id, ok: false, tris: 0,
+              klick: 'nicht geprüft', fehler: [], ms: 0 };
+  const frame = document.createElement('iframe');
+  /* Cache-Brecher: python http.server sendet kein Cache-Control, und der
+     Browser hat hier schon einmal einen frisch gebauten Stand mit der
+     alten Seite aus dem Speicher überdeckt — der Lauf prüfte dann den
+     Stand von vor dem Fix. */
+  frame.src = './' + p.module + '.html?pruefstand=' + Date.now();
+  document.getElementById('buehne').appendChild(frame);
+
+  /* Fehlerfänger, so früh wie erreichbar. Frühere Fehler entgehen ihm —
+     eine tote Seite fällt trotzdem an kaqua.ok oder am Klick auf. */
+  const haenger = setInterval(() => {
+    try {
+      const w = frame.contentWindow;
+      if (w && !w.__pruefstand) {
+        w.__pruefstand = true;
+        w.addEventListener('error', (e) => r.fehler.push(String(e.message || e.type)));
+        w.addEventListener('unhandledrejection', (e) => r.fehler.push('unhandledrejection: ' + String(e.reason)));
+      }
+    } catch {}
+  }, 40);
+
+  try {
+    const kaqua = await bis(() => {
+      const w = frame.contentWindow;
+      return w && w.kaqua && w.kaqua.built ? w.kaqua : null;
+    }, 25000);
+
+    if (!kaqua) {
+      r.fehler.push('window.kaqua erschien nicht binnen 25 s');
+    } else {
+      r.ok = kaqua.ok === true;
+      const tc = kaqua.built.triangleCount();
+      r.tris = tc ? tc.tris : 0;
+      if (!r.tris) r.fehler.push('triangleCount = 0');
+
+      const doc = frame.contentWindow.document;
+      const knoepfe = [...doc.querySelectorAll('#sizes button[data-d]')];
+      const sollKnoepfe = (kaqua.product && kaqua.product.sizes || []).length;
+      if (knoepfe.length < 2) {
+        /* Bei genau einer Größe lässt ui.js die Leiste absichtlich weg —
+           das ist kein Befund (erster Fehlalarm dieses Prüfstands: plug). */
+        r.klick = sollKnoepfe <= 1 ? 'eine Größe, Leiste entfällt' : 'KEINE Größenknöpfe';
+        if (sollKnoepfe > 1) r.fehler.push('Größenleiste fehlt trotz ' + sollKnoepfe + ' Größen');
+      } else {
+        const vorher = String(kaqua.size());
+        const anderer = knoepfe.find((b) => String(b.dataset.d) !== vorher);
+        anderer.click();
+        const gewechselt = await bis(() => String(kaqua.size()) !== vorher, 8000);
+        r.klick = gewechselt ? 'wechselt' : 'TOT';
+        if (!gewechselt) r.fehler.push('Größenklick ändert die Größe nicht — die Seite ist tot wie die beiden T-Stücke');
+        else {
+          const tc2 = kaqua.built.triangleCount();
+          if (!tc2 || !tc2.tris) r.fehler.push('nach Größenwechsel triangleCount = 0');
+        }
+      }
+    }
+  } catch (e) {
+    r.fehler.push('Prüfstand: ' + String(e && e.message || e));
+  }
+  clearInterval(haenger);
+  frame.remove();               // WebGL-Kontexte sind begrenzt
+  await warte(80);
+  r.ms = Math.round(performance.now() - t0);
+  return r;
+}
+
+for (let i = 0; i < REGISTRY.length; i++) {
+  stand.textContent = 'prüft ' + (i + 1) + ' von ' + REGISTRY.length + ' — ' + REGISTRY[i].module;
+  const r = await pruefeSeite(REGISTRY[i]);
+  results.push(r);
+  const tr = document.createElement('tr');
+  const schlecht = !r.ok || !r.tris || r.klick === 'TOT' || r.fehler.length;
+  tr.innerHTML = '<td>' + r.seite + '</td><td class="' + (r.ok ? 'ok' : 'fehler') + '">' + r.ok +
+    '</td><td>' + r.tris.toLocaleString('de-DE') + '</td><td class="' + (r.klick === 'TOT' ? 'fehler' : 'ok') + '">' + r.klick +
+    '</td><td class="' + (r.fehler.length ? 'fehler' : 'ok') + '">' + (r.fehler.join(' · ') || '—') + '</td><td>' + r.ms + '</td>';
+  tab.appendChild(tr);
+}
+
+const kaputt = results.filter((r) => !r.ok || !r.tris || r.klick === 'TOT' || r.fehler.length);
+window.pruefstand.fertig = true;
+window.pruefstand.kaputt = kaputt.map((r) => r.seite);
+stand.textContent = kaputt.length
+  ? 'FERTIG — ' + kaputt.length + ' von ' + results.length + ' Seiten mit Befund: ' + kaputt.map((r) => r.seite).join(', ')
+  : 'FERTIG — alle ' + results.length + ' Seiten leben.';
+stand.className = kaputt.length ? 'fehler' : 'ok';
+</script>
+</body>
+</html>

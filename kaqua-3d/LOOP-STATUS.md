@@ -477,21 +477,39 @@ Alles außer `SW1` und `L1` ist eindeutig. Die Verschraubungsfamilie
 **Was fehlt:** ein Blick auf das Originalteil, oder eine Auskunft des
 Herstellers. Eine Minute Arbeit für jemanden, der eines in der Hand hat.
 
-### 3.26 Der Selbsttest prüft die Einzelseiten nicht
+### 3.26 GESCHLOSSEN am 25.08.2026 — der Seitenprüfstand existiert jetzt und fand beim ersten Lauf vier kranke Seiten
 
-Aufgefallen bei den zwei toten T-Stück-Seiten (Commit 941554c9): ihnen
-fehlte `sizeKey: 'key'`, die Modelle erschienen, aber Größenumschalter,
-Schnitt und Explosion waren tot und `window.kaqua` fehlte. Auf der
-Konsole stand eine einzige „Uncaught (in promise)".
+Der fehlende Prüfer ist gebaut, zweiteilig, weil dieses Repository
+keinen Headless-Browser hat:
 
-Der Selbsttest lädt die **Bibliotheksmodule** und ruft `build()` direkt
-auf — er kommt an `articleOf` gar nicht vorbei und konnte das nie sehen.
-Die Dateiliste erst recht nicht (Fall 38). Aufgefallen ist es nur, weil
-ich das T-Stück zufällig als Gegenprobe für ein anderes Produkt aufrufen
-wollte.
+- **`scripts/check-3d-seiten.mjs`** — statisch: HTTP 200, Modulverweis,
+  Moduldatei, für alle 50 Seiten, mit Exitcode.
+- **`public/kaqua-3d/seiten-pruefstand.html`** — lebend: lädt jede Seite
+  nacheinander in einen iframe und prüft `kaqua.ok`, Dreieckszahl und
+  dass ein Klick auf einen anderen Größenknopf die Größe wirklich
+  wechselt. Ergebnis in `window.pruefstand`.
 
-**Was fehlt:** eine Prüfung, die jede erzeugte Einzelseite wirklich lädt
-und `window.kaqua` abfragt. 41 Seiten, ein Skript. Noch nicht gebaut.
+**Der erste Lauf fand vier Seiten, die auf Größenklick eine Ausnahme
+warfen:** `cross-over`, `cross-over-pipe`, `flange-adaptor`,
+`pp-r-ball-valve-brass`. Ursache war eine ZWEITE, abweichende Deutung
+von `sizeKey` (Fall 32): `articleOf` versteht es als „welches Feld
+adressiert die Zeile" und vergleicht als String; der Klickpfad im Viewer
+verstand es als „Schlüssel sind Strings" und ließ die Zahl ungewandelt.
+Vier Produkte führen `sizeKey:'d'` über numerischen Größen — der Klick
+reichte `'20'` an ein striktes `article(20)` durch, die Seite stand mit
+gedrücktem d20-Knopf vor dem d25-Modell. Schlimmer als tot: sie log.
+
+Behoben im Core (`viewer.js`): der Klick holt den ORIGINALWERT aus
+`product.sizes` zurück, statt den Typ zu raten. Vollbau, Auslieferung,
+Wiederholungslauf grün. Dazu ein Fehlalarm des Prüfstands selbst
+(`plug` hat genau eine Größe, die Leiste entfällt absichtlich) und eine
+Falle des Prüfaufbaus: `python http.server` sendet kein Cache-Control,
+der zweite Lauf prüfte gecachte alte Seiten — der Prüfstand trägt jetzt
+einen Cache-Brecher.
+
+**Merksatz dazu:** die beiden toten T-Stück-Seiten von damals waren kein
+Einzelfall, sondern die erste Sichtung einer Klasse. Ein Prüfer, der nur
+`build()` ruft, sieht die ganze Klasse nicht.
 
 ### 3.27 `Marketing/` ist nicht gesichert
 
@@ -499,6 +517,21 @@ Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
 
 ---
+
+### 3.28 Die D-Messung der Reduzierbuchse liest bis 0,41 mm zu dick
+
+Gefunden beim Aufbau des Node-Messwerks (`scripts/messe-gestalt.mjs`),
+das ALLE Größen baut, wo der Selbsttest je Produkt eine lädt. Die
+`D`-Messung (Bund am Zapfen) weicht nach oben ab, und die Abweichung
+wächst mit der MUTTER-Nennweite bei gleichem Sollwert:
+
+    d40/x  Δ +0,11 · d50/x Δ +0,15 · d63/20 Δ +0,41 · d63/32 Δ +0,37
+
+Ein Formfehler skalierte mit D selbst; das hier skaliert mit d — die
+Handschrift eines Messfensters, das Punkte des größeren Körpers
+mitfängt (dasselbe Muster wie der Halbraum beim Reduzier-T-Stück).
+Gehört ins Mängelregister der Spur A; ob auch die FORM falsch ist,
+entscheidet erst das enge Fenster.
 
 ## 4 · Eigene Arbeitsschritte, nicht nebenbei
 

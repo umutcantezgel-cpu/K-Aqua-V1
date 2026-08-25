@@ -204,9 +204,14 @@ export function mount(product, opt = {}) {
     if (sizes) sizes.addEventListener('click', (e) => {
       const b = e.target.closest('button[data-d]');
       if (!b) return;
-      // Bei zusammengesetzten Schlüsseln ('40x25') darf nicht in eine
-      // Zahl gewandelt werden — das ergäbe NaN.
-      size = product.sizeKey ? b.dataset.d : Number(b.dataset.d);
+      // data-d ist immer der in einen String gewandelte Eintrag aus
+      // product.sizes — also den ORIGINALWERT dort zurückholen, statt den
+      // Typ zu raten. Die frühere Regel „sizeKey gesetzt = String lassen"
+      // war eine zweite, abweichende Deutung von sizeKey (Fall 32): vier
+      // Produkte führten sizeKey:'d' über numerischen Größen, der Klick
+      // reichte '20' an ein striktes article(20) durch, und die Seite
+      // stand mit gedrücktem Knopf vor dem alten Modell.
+      size = product.sizes.find((s) => String(s) === b.dataset.d) ?? b.dataset.d;
       [...b.parentNode.children].forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
       rebuild();
     });
