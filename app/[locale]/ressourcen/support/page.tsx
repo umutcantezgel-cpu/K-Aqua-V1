@@ -143,7 +143,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               <BentoGridItem
                 title={t('support.bento.items.3.title')}
                 description={t('support.bento.items.3.desc')}
-                header={<PremiumAssetPlaceholder label={t('support.bento.items.3.title')} className="min-h-[240px]" />}
+                header={<PremiumAssetPlaceholder label={t('support.bento.items.3.title')} image="/images/marke/programm.jpg" className="min-h-[240px]" />}
                 colSpan={2}
               />
               <BentoGridItem

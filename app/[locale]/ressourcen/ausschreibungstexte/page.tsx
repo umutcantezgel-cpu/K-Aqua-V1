@@ -60,11 +60,21 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     ]),
   ]);
 
+  // Die Beschriftungen lauteten fest „Deep Tech 1" bis „Deep Tech 4" — englischer
+  // Platzhaltertext, der in allen 65 Sprachfassungen so ausgeliefert wurde. Jetzt
+  // steht dort die bereits uebersetzte Ueberschrift des jeweiligen Abschnitts.
+  //
+  // Ein echtes Bild bekommt nur der Materialabschnitt: Die Aufnahme zeigt
+  // PP-R-Granulat, einen Messingeinsatz und die daraus gefertigten Fittings —
+  // genau die Werkstoffkette, die dort beschrieben wird. Fuer Rechtssicherheit,
+  // GAEB-Kompatibilitaet und Thermodynamik gibt es im freigegebenen Archiv kein
+  // Motiv, das den Inhalt zeigt; dort bleibt der Platzhalter, jetzt aber mit
+  // sprechender, uebersetzter Beschriftung.
   const deepDiveContent = [
-    { title: t('deep.items.0.title'), description: t('deep.items.0.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 1" /> },
-    { title: t('deep.items.1.title'), description: t('deep.items.1.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 2" /> },
-    { title: t('deep.items.2.title'), description: t('deep.items.2.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 3" /> },
-    { title: t('deep.items.3.title'), description: t('deep.items.3.desc'), content: <PremiumAssetPlaceholder label="Deep Tech 4" /> }
+    { title: t('deep.items.0.title'), description: t('deep.items.0.desc'), content: <PremiumAssetPlaceholder label={t('deep.items.0.title')} /> },
+    { title: t('deep.items.1.title'), description: t('deep.items.1.desc'), content: <PremiumAssetPlaceholder label={t('deep.items.1.title')} /> },
+    { title: t('deep.items.2.title'), description: t('deep.items.2.desc'), content: <PremiumAssetPlaceholder label={t('deep.items.2.title')} image="/images/marke/werkstoff-granulat.jpg" /> },
+    { title: t('deep.items.3.title'), description: t('deep.items.3.desc'), content: <PremiumAssetPlaceholder label={t('deep.items.3.title')} /> }
   ];
 
   const timelineData = [
