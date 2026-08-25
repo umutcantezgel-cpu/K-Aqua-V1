@@ -548,7 +548,7 @@
       "sizes_md": 12,
       "sizes_source_ocr": 14,
       "sizes_source_verified": 12,
-      "data_status": "pruefen-md-vermutlich-unvollstaendig",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "thread-socket",
         "complexity": 2,
@@ -556,7 +556,7 @@
       },
       "build": {
         "tier": 1,
-        "status": "offen",
+        "status": "fertig",
         "order": 9
       },
       "article_prefix_md_unverified": "AQ24RP",
@@ -577,8 +577,9 @@
         "AQ270G903"
       ],
       "source_verified_by": [
-        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-      ]
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 94 (vollstaendige Masstabelle, 12 Groessen)"
+      ],
+      "hinweis": "Die Website-Aufnahme unter diesem Titel zeigt ein ANDERES Produkt: keine Gewindespalte, Codes AQ271xx, 14 Groessen bis d315, Spalten d/D/L/h/L1 — das ist die Elektroschweissmuffe. Daher stammen auch die 14 sizes_source_ocr und die Codes in article_codes_md (AQ24RP*), die zu keinem der beiden Produkte gehoeren. Gebaut wurde nach Katalog S. 94, AQ270G, 12 Groessen."
     },
     {
       "id": "transition-fittings/adaptor-socket-male-thread",

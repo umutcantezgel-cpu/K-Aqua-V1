@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile, threadRing, threadSpec,
+  D2R, DRAFT, ISO, SEG_FINE, SEG_VIS, articleOf, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, mirrorProfile, revolve, threadProfile, threadRing, threadSpec,
 } from '../kaqua-3d-core.mjs';
 
 /* == _tee/parts.js ===================================================== */
@@ -815,6 +815,12 @@ const product = {
 
   articles: ARTICLES,
   sizes: SIZES,
+  /* Zwei Nennweiten je Zeile: der Artikel wird erst durch das Paar
+     (d, Rp) eindeutig, deshalb der zusammengesetzte Schlüssel. OHNE
+     diese Zeile fällt articleOf auf 'd' zurück, sucht ein Bauteil mit
+     d = '25x1_2' und wirft — die Seite zeigte dann zwar das Modell,
+     aber die Bedienung war tot und window.kaqua fehlte. */
+  sizeKey: 'key',
   sizeLabel,
   sizeTitle: 'Nennweite · Gewinde',
   defaultSize: '25x1_2',

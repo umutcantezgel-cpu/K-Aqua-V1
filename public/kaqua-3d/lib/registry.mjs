@@ -2,6 +2,14 @@
 
 export const REGISTRY = [
  {
+  "slug": "adaptor-socket-female-thread",
+  "id": "transition-fittings/adaptor-socket-female-thread",
+  "module": "kaqua-adaptor-socket-female-thread",
+  "titleDe": "Übergangsmuffe mit Innengewinde",
+  "titleEn": "Adaptor socket (Female thread)",
+  "category": "transition-fittings"
+ },
+ {
   "slug": "adaptor-socket-male-thread",
   "id": "transition-fittings/adaptor-socket-male-thread",
   "module": "kaqua-adaptor-socket-male-thread",

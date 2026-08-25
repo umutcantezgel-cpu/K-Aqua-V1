@@ -43,10 +43,11 @@ export const SLUG_ALIASES: Record<string, string> = {
   "adjustable-battery-female-thread": "valves/pp-r-ball-valve-ball-in-pp",
   "elongation-pieces": "valves/pp-r-ball-valve-ball-in-pp",
   "tee-90-female-thread-for-internal-valve": "valves/pp-r-ball-valve-ball-in-pp",
-  "adaptor-socket-female-thread": "transition-fittings/adaptor-socket-male-thread",
   "union-for-watermeters": "transition-fittings/union",
-  // Sechs Ersatz-Zuordnungen sind hier entfallen, weil es die Modelle inzwischen
+  // Sieben Ersatz-Zuordnungen sind hier entfallen, weil es die Modelle inzwischen
   // wirklich gibt (Bibliotheksstand 24.08.2026):
+  //   adaptor-socket-female-thread — zeigte die AG-Muffe, also ein fremdes
+  //   Bauteil; das eigene Modell steht seit dem 24.08.2026 (Katalog S. 94).
   //   metal-union-female-thread-brass · metal-union-male-thread ·
   //   metal-union-male-thread-brass · elbow-90-male-thread ·
   //   tee-90-female-thread · tee-90-male-thread

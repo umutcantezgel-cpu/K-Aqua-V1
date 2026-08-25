@@ -3,8 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 24.08.2026 — Nachtlauf Phase 1 fertig, erstes Produkt
-der Phase 2 gebaut. **40 von 71.**
+**Letzte Änderung:** 24.08.2026 — Phase 2 läuft, zwei Produkte gebaut,
+zwei tote Produktseiten repariert. **41 von 71.**
 
 ---
 
@@ -12,7 +12,7 @@ der Phase 2 gebaut. **40 von 71.**
 
 | | |
 |---|---|
-| Fertig | **40 von 71** · Selbsttest 40/40, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **41 von 71** · Selbsttest 41/41, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -278,7 +278,57 @@ Zwei Rang-1-Quellen, keine gewinnt. **Nicht geändert.** Am Originalrohr
 oder beim Hersteller zu klären; es ist eine Frage von Minuten, wenn man
 eines in der Hand hat.
 
-### 3.14 `Marketing/` ist nicht gesichert
+### 3.14 Die Spalte `z` der Übergangsmuffe IG ist nicht gedeutet
+
+Katalog S. 94, Tabelle AQ270G. Geprüft und **verworfen** wurde die
+Deutung *z = l − Gewindetiefe − Muffentiefe*: mit den echten
+Muffentiefen aus der Muffentabelle ergäbe sie bei d20 × ½" 13,5 mm gegen
+tabellierte 11 und bei d63 × 2" 13,5 gegen 19. Eine Deutung, die über die
+Zeilen nicht trägt, ist keine (Fall 28).
+
+Für die Geometrie wird `z` nicht gebraucht. Der Wert steht in `data.js`,
+wird aber weder modelliert noch gemessen (Fall 29). Am Originalteil in
+einer Minute zu klären.
+
+### 3.15 `l = 165` bei AQ270G1104 fällt aus der Reihe
+
+Drei voneinander unabhängige Anzeichen:
+
+| Anzeichen | d20 … d90 | d110 |
+|---|---|---|
+| `l/d` | 2,05 → 1,02, monoton fallend | **1,50** |
+| AG-Muffe gegen IG-Muffe | AG ist 12–51 mm länger | AG ist 4 mm **kürzer** |
+| Steg zwischen Muffengrund und Ring | 7,5 → 23,5 mm, gleichmäßig | **85,5 mm** |
+
+Der Katalog ist hier die einzige Quelle — die gleichnamige Website-Seite
+zeigt ein anderes Produkt (§3.16). **Nicht geändert:** das Modell baut
+165 und zeigt genau das, was im Katalog steht.
+
+### 3.16 Die Website-Seite „Adaptor socket (Female thread)" zeigt die Elektroschweißmuffe
+
+Keine Gewindespalte, Codes `AQ271xx` statt `AQ270G`, 14 Größen bis d315,
+Spalten `d · D · L · h · L1`, Foto ohne Messing. Daraus stammen auch die
+Codes `AQ24RP*` in `article_codes_md` der Registry, die zu keinem der
+beiden Produkte gehören. In der Registry vermerkt, nicht stillschweigend
+gelöscht — die Falschzuordnung ist selbst ein Befund.
+
+### 3.17 Der Selbsttest prüft die Einzelseiten nicht
+
+Aufgefallen bei den zwei toten T-Stück-Seiten (Commit 941554c9): ihnen
+fehlte `sizeKey: 'key'`, die Modelle erschienen, aber Größenumschalter,
+Schnitt und Explosion waren tot und `window.kaqua` fehlte. Auf der
+Konsole stand eine einzige „Uncaught (in promise)".
+
+Der Selbsttest lädt die **Bibliotheksmodule** und ruft `build()` direkt
+auf — er kommt an `articleOf` gar nicht vorbei und konnte das nie sehen.
+Die Dateiliste erst recht nicht (Fall 38). Aufgefallen ist es nur, weil
+ich das T-Stück zufällig als Gegenprobe für ein anderes Produkt aufrufen
+wollte.
+
+**Was fehlt:** eine Prüfung, die jede erzeugte Einzelseite wirklich lädt
+und `window.kaqua` abfragt. 41 Seiten, ein Skript. Noch nicht gebaut.
+
+### 3.18 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.

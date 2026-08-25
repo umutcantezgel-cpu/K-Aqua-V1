@@ -13,6 +13,7 @@ export * from './kaqua-3d-core.mjs';
 export { REGISTRY } from './registry.mjs';
 
 const LOADERS = {
+  'transition-fittings/adaptor-socket-female-thread': () => import('./products/adaptor-socket-female-thread.mjs'),
   'transition-fittings/adaptor-socket-male-thread': () => import('./products/adaptor-socket-male-thread.mjs'),
   'accessories/backing-flange': () => import('./products/backing-flange.mjs'),
   'valves/pp-r-ball-valve-ball-in-pp': () => import('./products/ball-valve-pp.mjs'),

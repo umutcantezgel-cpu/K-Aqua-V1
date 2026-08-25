@@ -6,6 +6,7 @@
 // lib/3d/aliases.ts und werden dort gepflegt.
 
 export const GENERATED_SLUG_MAP: Record<string, string> = {
+  "adaptor-socket-female-thread": "transition-fittings/adaptor-socket-female-thread",
   "adaptor-socket-male-thread": "transition-fittings/adaptor-socket-male-thread",
   "backing-flange": "accessories/backing-flange",
   "ball-valve-pp": "valves/pp-r-ball-valve-ball-in-pp",
@@ -48,7 +49,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "union": "transition-fittings/union",
 };
 
-export const GENERATED_COUNT = 40;
+export const GENERATED_COUNT = 41;
 
 /** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
 export const CATALOG_TOTAL = 71;
