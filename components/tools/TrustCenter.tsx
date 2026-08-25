@@ -12,17 +12,33 @@ import { Download, Check } from "@/components/ui/icon";
 import { Box, Sparkles, Layers } from "lucide-react";
 import { Link } from "@/lib/i18n/navigation";
 
-// TODO(content) certificate numbers
+// Echte Zertifikatsnummern, abgelesen aus der Urkunde, die diese Seite ohnehin
+// zum Download anbietet: public/pdf/kwt-iso-certificates-en.pdf, ausgestellt von
+// der SKZ - Cert GmbH, Würzburg (DAkkS-akkreditiert, D-ZM-17265-01-00) für die
+// KWT GmbH, Auweg 3, 35647 Waldsolms-Brandoberndorf.
+//
+// Hier standen zuvor „Q-2025-6732", „U-2025-6733", „E-2025-6734" unter einem
+// `TODO(content)` — erfundene Nummern, dazu eine erfundene Laufzeit
+// („10/2025 – 10/2028"). Zertifikatsnummern sind eine Konformitätsaussage; sie
+// zu erfinden ist schwerer zu vertreten als eine falsche Artikelnummer. Die
+// Belege lagen die ganze Zeit im ausgelieferten PDF.
+//
+// Reihenfolge folgt `trust.certs` in messages/: 9001, 14001, 50001 — im
+// Zertifikat als Suffix .Q (Qualität), .U (Umwelt), .E (Energie).
+// Nur die nackte Nummer: Die Beschriftung „Zertifikat-Nr." setzt die Komponente
+// selbst davor (`data.certNo`), sonst stünde sie doppelt da.
 const CERT_NUMBERS = [
-  "Q-2025-6732",
-  "U-2025-6733",
-  "E-2025-6734"
+  "000932.Q",
+  "000932.U",
+  "000932.E"
 ];
 
+// Alle drei tragen dieselbe Laufzeit und dieselbe Projektnummer
+// (000932.EQU/24.R) — sie wurden in einem Audit ausgestellt.
 const VALIDITY_DATES = [
-  "10/2025 – 10/2028",
-  "10/2025 – 10/2028",
-  "10/2025 – 10/2028"
+  "01.10.2025 – 22.11.2027",
+  "01.10.2025 – 22.11.2027",
+  "01.10.2025 – 22.11.2027"
 ];
 
 const SUPPORT_EMAIL_PREFIX = "mailto:support@k-aqua.de";
@@ -74,6 +90,15 @@ export function TrustCenter({ data }: TrustCenterProps) {
   const [activeGenauIdx, setActiveGenauIdx] = useState<number>(0);
   const [pickedDocs, setPickedDocs] = useState<string[]>([]);
   const downloadUrl = locale === "de" ? "/pdf/kwt-iso-zertifikat-de.pdf" : "/pdf/kwt-iso-certificates-en.pdf";
+
+  // Alle drei Karten führen auf dieselbe Urkunde — das ist richtig, die Datei
+  // enthält alle drei Zertifikate. Bisher landete jeder Klick aber auf Seite 1,
+  // also bei ISO 50001, auch wenn man auf „ISO 9001" geklickt hatte.
+  //
+  // Seitenreihenfolge in BEIDEN Dateien (deutsch wie englisch, am gerenderten
+  // PDF geprüft): 1 = ISO 50001, 2 = ISO 9001, 3 = ISO 14001.
+  // Kartenreihenfolge laut `trust.certs`: 9001, 14001, 50001.
+  const CERT_PDF_PAGES = [2, 3, 1];
 
   const handleToggleDoc = (doc: string) => {
     if (pickedDocs.includes(doc)) {
@@ -159,7 +184,7 @@ export function TrustCenter({ data }: TrustCenterProps) {
                     </div>
                     <div className="w-full mt-6">
                       <Button
-                        href={downloadUrl}
+                        href={`${downloadUrl}#page=${CERT_PDF_PAGES[idx] ?? 1}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         variant="ghost"
