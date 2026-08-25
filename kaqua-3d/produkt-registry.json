@@ -2991,7 +2991,7 @@
       "sizes_md": 3,
       "sizes_source_ocr": 2,
       "sizes_source_verified": 3,
-      "data_status": "pruefen",
+      "data_status": "widerspruch-quellen",
       "geometry": {
         "family": "union-ppr",
         "complexity": 3,
@@ -2999,7 +2999,7 @@
       },
       "build": {
         "tier": 4,
-        "status": "offen",
+        "status": "blockiert",
         "order": 60
       },
       "article_prefix_md_unverified": "AQ72E",
@@ -3009,7 +3009,11 @@
         "AQ3322012",
         "AQ3322034",
         "AQ3322534"
-      ]
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 100 (3 Groessen)"
+      ],
+      "hinweis": "BLOCKIERT: SW1 = 23 kann das tabellierte G-1/2-Innengewinde (Aussen-Ø 20,96) nicht fassen — das liesse 1 mm Wand. SW = 36 kann es, und die Gewindeschraffur der Zeichnung liegt unter SW. Die Zeichnung setzt SW1 aber ans Gewindeende, und das Produktfoto zeigt gar keinen Sechskant, sondern eine runde Mutter mit drei Zapfenloechern. Drei Quellen, drei Bilder. SW1 und L1 bestimmen das Modellende, also nicht geraten. Aufloesbar am Originalteil in einer Minute."
     },
     {
       "id": "valves/concealed-valve-chrome-heavy-part",

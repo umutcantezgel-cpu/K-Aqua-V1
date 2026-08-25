@@ -370,7 +370,38 @@ Die Geometrie dafür steht seit dem 24.08.2026 im Reduzier-T-Stück
 nachgezogen wird — dann ist es ein Datensatz und ein Umzug, kein neuer
 Bau. Gehört zu Spur A.
 
-### 3.20 Der Selbsttest prüft die Einzelseiten nicht
+### 3.20 BLOCKIERT — Verschraubung für Wasserzähler (AQ3322)
+
+Drei Größen, Katalog S. 100. Nicht gebaut, weil sich die Rolle der
+beiden Sechskante nicht klären lässt und sie das Modellende bestimmen.
+
+Der Befund, der es entscheidet: **`SW1 = 23` kann das tabellierte
+G½-Innengewinde nicht fassen.** Der Gewindeaußendurchmesser beträgt
+20,96 mm; in einem Sechskant von 23 mm Schlüsselweite bliebe rund ein
+Millimeter Wand. `SW = 36` kann es (7,5 mm Wand), und die
+Gewindeschraffur der Schnittzeichnung liegt tatsächlich unter `SW`.
+
+Dagegen steht:
+
+| Quelle | was sie zeigt |
+|---|---|
+| Zeichnung S. 100 | `SW` neben der Muffe, `SW1` am Gewindeende |
+| Zeichnung S. 100 | Gewindeschraffur unter `SW`, nicht unter `SW1` |
+| Foto S. 100 | **gar kein Sechskant** — eine runde Mutter mit drei Zapfenlöchern |
+| Physik | ein G½-Innengewinde braucht mindestens ~26 mm Schlüsselweite |
+
+Drei Quellen, drei verschiedene Bilder. Eine Bauart, die alle drei
+erfüllt, gibt es nicht.
+
+**Was gebaut werden KÖNNTE**, wenn die Frage geklärt ist: PP-R-Muffe
+(D1, d) plus Messing-Überwurfmutter mit G-Innengewinde, Gesamtlänge L.
+Alles außer `SW1` und `L1` ist eindeutig. Die Verschraubungsfamilie
+(`_union`) trägt Sechskantmuttern über `SW`/`SW1` bereits.
+
+**Was fehlt:** ein Blick auf das Originalteil, oder eine Auskunft des
+Herstellers. Eine Minute Arbeit für jemanden, der eines in der Hand hat.
+
+### 3.21 Der Selbsttest prüft die Einzelseiten nicht
 
 Aufgefallen bei den zwei toten T-Stück-Seiten (Commit 941554c9): ihnen
 fehlte `sizeKey: 'key'`, die Modelle erschienen, aber Größenumschalter,
@@ -386,7 +417,7 @@ wollte.
 **Was fehlt:** eine Prüfung, die jede erzeugte Einzelseite wirklich lädt
 und `window.kaqua` abfragt. 41 Seiten, ein Skript. Noch nicht gebaut.
 
-### 3.21 `Marketing/` ist nicht gesichert
+### 3.22 `Marketing/` ist nicht gesichert
 
 Der Ordner steht in `.gitignore` (381 MB). Er liegt **nur** lokal. Nach dem
 Verlust vom 24.08. ist das die zweite ungesicherte Stelle im Projekt.
