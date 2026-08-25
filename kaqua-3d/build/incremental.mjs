@@ -99,6 +99,9 @@ function familyFor(slug) {
   if (/^elbow-\d+-female-male$/.test(slug)) return FAMILY.femalemale;
   if (/^elbow-\d/.test(slug)) return FAMILY.bend;
   if (/^tee-\d+-(?:fe)?male-thread$/.test(slug)) return FAMILY.teethread;
+  /* Der Ventilkoerper leiht sich NUR den Durchgang; sein Dom ist eigen.
+     Deshalb _tee/parts.js und nicht die ganze Gewinde-T-Familie. */
+  if (slug === 'tee-90-female-thread-internal-valve') return ['_tee/parts.js'];
   if (/^metal-union-/.test(slug)) return FAMILY.union;
   if (/ball-valve/.test(slug)) return FAMILY.ballvalve;
   if (/^weld-in-saddle/.test(slug)) return FAMILY.saddle;

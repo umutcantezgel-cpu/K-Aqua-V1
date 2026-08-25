@@ -3,8 +3,8 @@
 Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
-**Letzte Änderung:** 25.08.2026 — Phase 2 läuft, zehn Produkte gebaut,
-darunter Sattelschnitt und Brückenbahn als neue Geometrien. **49 von 71.**
+**Letzte Änderung:** 25.08.2026 — Phase 2 läuft, elf Produkte gebaut,
+darunter Sattelschnitt und Brückenbahn als neue Geometrien. **50 von 71.**
 
 ---
 
@@ -12,7 +12,7 @@ darunter Sattelschnitt und Brückenbahn als neue Geometrien. **49 von 71.**
 
 | | |
 |---|---|
-| Fertig | **49 von 71** · Selbsttest 49/49, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **50 von 71** · Selbsttest 50/50, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -406,11 +406,17 @@ war. Ergebnis, unabhängig bestätigt:
 | `AQ5993` Concealed valve, chrome heavy | Code · Dimension G (¾") · kg · Pack. | **keine** |
 | `AQ5992` Concealed valve, chrome light | Code · Dimension G (¾") · kg · Pack. | **keine** |
 | `AQ5991` Straight seat valve | Code · Dimension G (¾") · kg · Pack. | **keine** |
-| `AQ599E` Elongation pieces | Code · L (30, ohne Einheit) · kg · Pack. | eine, mit genau einem Pfeil |
+| `AQ599E` Elongation pieces | Code · L (30, ohne Einheit) · kg · Pack. | **eine, bemaßt aber nur L** |
 
 Je Tabelle **eine** Datenzeile und **eine** maßhaltige Spalte. Aus keiner
 lässt sich ein Modell bauen. Die Einstufung als Prototyp ist damit
 belegt, nicht angenommen.
+
+*Präzisierung, von der Parallelsitzung nachgetragen:* das
+Verlängerungsstück HAT eine Maßskizze — zwei Ansichten mit einem
+Bemaßungspfeil. Der bemaßt aber ausschließlich `L`; kein Durchmesser,
+keine Bauhöhe, kein Gewinde. Nur die drei Ventiloberteile haben gar
+keine Skizze. Am Schluss ändert das nichts, an der Begründung schon.
 
 ### 3.23 Seite 108 ist dagegen voll bemaßt — drei Produkte rücken von 2c nach 2b
 

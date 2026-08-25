@@ -57,6 +57,7 @@ const LOADERS = {
   'fittings/socket': () => import('./products/socket.mjs'),
   'fittings/tee': () => import('./products/tee.mjs'),
   'transition-fittings/tee-90-female-thread': () => import('./products/tee-90-female-thread.mjs'),
+  'valves/tee-90-female-thread-internal-valve': () => import('./products/tee-90-female-thread-internal-valve.mjs'),
   'transition-fittings/tee-90-male-thread': () => import('./products/tee-90-male-thread.mjs'),
   'transition-fittings/union': () => import('./products/union.mjs'),
   'weld-in-saddles/weld-in-saddle': () => import('./products/weld-in-saddle.mjs'),

@@ -2272,7 +2272,7 @@
       "sizes_md": 4,
       "sizes_source_ocr": null,
       "sizes_source_verified": 4,
-      "data_status": "pruefen",
+      "data_status": "verifiziert-katalog",
       "geometry": {
         "family": "thread-tee",
         "complexity": 3,
@@ -2280,7 +2280,7 @@
       },
       "build": {
         "tier": 3,
-        "status": "offen",
+        "status": "fertig",
         "order": 43
       },
       "article_prefix_md_unverified": "AQ60RP",
@@ -2289,9 +2289,13 @@
       "article_codes_source": [
         "AQ599A2034",
         "AQ599A2534",
-        "AQ599A321",
-        "AQ599A3234"
-      ]
+        "AQ599A3234",
+        "AQ599A321"
+      ],
+      "source_verified_by": [
+        "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf S. 108 (4 Groessen)"
+      ],
+      "hinweis": "Kein Uebergangsstueck, sondern ein Ventilkoerper: D1 = 45 und h = 33 sind ueber ALLE vier Groessen konstant, waehrend d von 20 auf 32 waechst. Die Aufnahme ist fuer ein genormtes Ventiloberteil. Spalte G statt Rp — G dichtet an einer Planflaeche, nicht im Gewinde. Der Bezugspunkt von z bleibt offen."
     },
     {
       "id": "weld-in-saddles/weld-in-saddle-female-thread",

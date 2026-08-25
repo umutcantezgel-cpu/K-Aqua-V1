@@ -40,7 +40,12 @@ export const SLUG_ALIASES: Record<string, string> = {
   "battery-female-thread": "valves/pp-r-ball-valve-ball-in-pp",
   "adjustable-battery-female-thread": "valves/pp-r-ball-valve-ball-in-pp",
   "elongation-pieces": "valves/pp-r-ball-valve-ball-in-pp",
-  "tee-90-female-thread-for-internal-valve": "valves/pp-r-ball-valve-ball-in-pp",
+  /* Die Seite heisst „…-for-internal-valve", das Modell heisst
+     „…-internal-valve" — ein „for" Unterschied, den die erzeugte Zuordnung
+     nicht ueberbrueckt. Vorher zeigte die Seite den Kugelhahn, also ein
+     ganz anderes Geraet. Seit dem 25.08.2026 gibt es das eigene Modell
+     (Katalog S. 108). */
+  "tee-90-female-thread-for-internal-valve": "valves/tee-90-female-thread-internal-valve",
   "union-for-watermeters": "transition-fittings/union",
   // Acht Ersatz-Zuordnungen sind hier entfallen, weil es die Modelle inzwischen
   // wirklich gibt (Bibliotheksstand 24.08.2026):

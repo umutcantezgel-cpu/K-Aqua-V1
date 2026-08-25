@@ -354,6 +354,14 @@ export const REGISTRY = [
   "category": "transition-fittings"
  },
  {
+  "slug": "tee-90-female-thread-internal-valve",
+  "id": "valves/tee-90-female-thread-internal-valve",
+  "module": "kaqua-tee-90-female-thread-internal-valve",
+  "titleDe": "T-Stück 90° mit Innengewinde für Innenventil",
+  "titleEn": "Tee 90° (Female thread) for internal valve",
+  "category": "valves"
+ },
+ {
   "slug": "tee-90-male-thread",
   "id": "transition-fittings/tee-90-male-thread",
   "module": "kaqua-tee-90-male-thread",
