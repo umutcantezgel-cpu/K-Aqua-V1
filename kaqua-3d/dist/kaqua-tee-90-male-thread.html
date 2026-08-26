@@ -1838,6 +1838,32 @@ function knurl(r, h, count, depth, opt = {}) {
   };
 }
 
+/* Rauminhalt eines geschlossenen Netzes über den Satz von Gauß: Summe
+   der vorzeichenbehafteten Tetraeder (0, v0, v1, v2). Die Innenfläche
+   ist umgekehrt gewickelt und zieht ihren Hohlraum von selbst ab — das
+   Ergebnis ist der WERKSTOFF, nicht der umschlossene Raum. Mit der
+   Dichte multipliziert wird daraus die Massenprobe gegen die kg-Spalte
+   des Katalogs. Stand als Kopie in drei Produkten (Überbögen, beide
+   Batterien), hierher gezogen am 25.08.2026 — die vierte Kopie wäre
+   Drift gewesen (Fall 32). */
+function meshVolume(geo) {
+  const p = geo.attributes.position.array;
+  const idx = geo.index ? geo.index.array : null;
+  const n = idx ? idx.length : p.length / 3;
+  let v = 0;
+  for (let i = 0; i < n; i += 3) {
+    const a = (idx ? idx[i] : i) * 3;
+    const b = (idx ? idx[i + 1] : i + 1) * 3;
+    const c = (idx ? idx[i + 2] : i + 2) * 3;
+    v += (
+      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
+      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
+      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
+    ) / 6;
+  }
+  return Math.abs(v);
+}
+
 /* ── tubeLayers: Mehrschichtrohr mit farbigen Lagen ──
    d = Außendurchmesser, s = Wandstärke (= d / SDR), layers = Lagen von
    außen nach innen, jede mit Materialschlüssel und Anteil an s.

@@ -1230,15 +1230,13 @@
    },
    "build": {
     "tier": 2,
-    "status": "offen",
+    "status": "prototyp",
     "order": 21
    },
    "article_prefix_md_unverified": "AQ982",
    "screenshot_match": "exakt",
    "article_prefix_source": "AQ982",
    "article_codes_source": [
-    "AQ982110",
-    "AQ982125",
     "AQ98220",
     "AQ98225",
     "AQ98232",
@@ -1246,11 +1244,11 @@
     "AQ98250",
     "AQ98263",
     "AQ98275",
-    "AQ98290"
+    "AQ98290",
+    "AQ982110",
+    "AQ982125"
    ],
-   "source_verified_by": [
-    "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-   ]
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "accessories/pipe-clamps",
@@ -1749,19 +1747,17 @@
    },
    "build": {
     "tier": 3,
-    "status": "offen",
+    "status": "prototyp",
     "order": 31
    },
    "article_prefix_md_unverified": "AQ965",
    "screenshot_match": "exakt",
    "article_prefix_source": "AQ593",
    "article_codes_source": [
-    "AQ59311",
-    "AQ5937"
+    "AQ5937",
+    "AQ59311"
    ],
-   "source_verified_by": [
-    "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-   ]
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "accessories/backing-flange",
@@ -2412,7 +2408,7 @@
    },
    "build": {
     "tier": 3,
-    "status": "offen",
+    "status": "prototyp",
     "order": 46
    },
    "article_prefix_md_unverified": "AQ97040",
@@ -2420,7 +2416,8 @@
    "article_prefix_source": "AQ97040",
    "article_codes_source": [
     "AQ97040"
-   ]
+   ],
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "transition-fittings/elbow-bracket-90-female-thread",
@@ -2788,19 +2785,17 @@
    },
    "build": {
     "tier": 4,
-    "status": "offen",
+    "status": "prototyp",
     "order": 55
    },
    "article_prefix_md_unverified": "AQ986",
    "screenshot_match": "exakt",
    "article_prefix_source": "AQ983",
    "article_codes_source": [
-    "AQ98311",
-    "AQ9837"
+    "AQ9837",
+    "AQ98311"
    ],
-   "source_verified_by": [
-    "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-   ]
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "fittings/cross-over",
@@ -2919,7 +2914,7 @@
    },
    "build": {
     "tier": 4,
-    "status": "offen",
+    "status": "prototyp",
     "order": 58
    },
    "article_prefix_md_unverified": "AQ986",
@@ -2932,9 +2927,7 @@
     "AQ98650",
     "AQ98663"
    ],
-   "source_verified_by": [
-    "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-   ]
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "tools/welding-tool-for-weld-in-saddles",
@@ -2968,7 +2961,7 @@
    },
    "build": {
     "tier": 4,
-    "status": "offen",
+    "status": "prototyp",
     "order": 59
    },
    "article_prefix_md_unverified": "AQ985",
@@ -2985,9 +2978,7 @@
     "AQ98516025050",
     "AQ98516025063"
    ],
-   "source_verified_by": [
-    "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-   ]
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "transition-fittings/union-for-watermeters",
@@ -3129,7 +3120,7 @@
    },
    "build": {
     "tier": 4,
-    "status": "offen",
+    "status": "prototyp",
     "order": 63
    },
    "article_prefix_md_unverified": "AQ975125",
@@ -3137,7 +3128,8 @@
    "article_prefix_source": "AQ975125",
    "article_codes_source": [
     "AQ975125"
-   ]
+   ],
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "tools/pipe-cutter-50-125-114",
@@ -3164,15 +3156,17 @@
    },
    "build": {
     "tier": 4,
-    "status": "offen",
+    "status": "prototyp",
     "order": 64
    },
    "article_prefix_md_unverified": "AQ974",
    "screenshot_match": "exakt",
-   "source_verified_by": [
-    "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-   ],
-   "hinweis_artikelnummer": "OFFEN, nicht geraten. Der Druckkatalog 06/2025 fuehrt im Werkzeug-Inhaltsverzeichnis (S. 113) genau drei schneidende Werkzeuge: Pipe cutter 20-40 (AQ97040), Pipe cutter 50-125 (AQ975125) und den Pipe scraper (AQ974). Ein dritter Rohrschneider '50-125 (1 1/4)' kommt dort nicht vor — dieses Produkt stammt von der Website. Umgekehrt fehlt uns der Rohrschaber. Entweder ist dieses Produkt der falsch betitelte Schaber, oder der Schaber fehlt und dieses Produkt ist ein Website-Artefakt. Entscheidung des Menschen; solange bleibt article_prefix_source leer."
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP",
+   "hinweis_artikelnummer": "OFFEN, nicht geraten. Der Druckkatalog 06/2025 fuehrt im Werkzeug-Inhaltsverzeichnis (S. 113) genau drei schneidende Werkzeuge: Pipe cutter 20-40 (AQ97040), Pipe cutter 50-125 (AQ975125) und den Pipe scraper (AQ974). Ein dritter Rohrschneider '50-125 (1 1/4)' kommt dort nicht vor — dieses Produkt stammt von der Website. Umgekehrt fehlt uns der Rohrschaber. Entweder ist dieses Produkt der falsch betitelte Schaber, oder der Schaber fehlt und dieses Produkt ist ein Website-Artefakt. Entscheidung des Menschen; solange bleibt article_prefix_source leer.",
+   "article_prefix_source": "AQ974",
+   "article_codes_source": [
+    "AQ974"
+   ]
   },
   {
    "id": "valves/adjustable-battery-female-thread",
@@ -3237,7 +3231,7 @@
    },
    "build": {
     "tier": 4,
-    "status": "offen",
+    "status": "prototyp",
     "order": 66
    },
    "article_prefix_md_unverified": "AQ98032",
@@ -3245,7 +3239,8 @@
    "article_prefix_source": "AQ98032",
    "article_codes_source": [
     "AQ98032"
-   ]
+   ],
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "tools/hand-welding-machine-20-63",
@@ -3272,7 +3267,7 @@
    },
    "build": {
     "tier": 4,
-    "status": "offen",
+    "status": "prototyp",
     "order": 67
    },
    "article_prefix_md_unverified": "AQ98063",
@@ -3280,7 +3275,8 @@
    "article_prefix_source": "AQ98063",
    "article_codes_source": [
     "AQ98063"
-   ]
+   ],
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "tools/hand-welding-machine-mirror-50-125",
@@ -3307,7 +3303,7 @@
    },
    "build": {
     "tier": 5,
-    "status": "offen",
+    "status": "prototyp",
     "order": 68
    },
    "article_prefix_md_unverified": "AQ991125",
@@ -3315,7 +3311,8 @@
    "article_prefix_source": "AQ991125",
    "article_codes_source": [
     "AQ991125"
-   ]
+   ],
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "tools/electrofusion-machine",
@@ -3342,7 +3339,7 @@
    },
    "build": {
     "tier": 5,
-    "status": "offen",
+    "status": "prototyp",
     "order": 69
    },
    "article_prefix_md_unverified": "AQ990",
@@ -3351,9 +3348,7 @@
    "article_codes_source": [
     "AQ990"
    ],
-   "source_verified_by": [
-    "Marketing/Print/KA-Katalog_GB_06-2025_NEU.pdf (Artikelcodes)"
-   ]
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "tools/butt-welding-machine-90-250",
@@ -3380,7 +3375,7 @@
    },
    "build": {
     "tier": 5,
-    "status": "offen",
+    "status": "prototyp",
     "order": 70
    },
    "article_prefix_md_unverified": "AQ989250",
@@ -3388,7 +3383,8 @@
    "article_prefix_source": "AQ989250",
    "article_codes_source": [
     "AQ989250"
-   ]
+   ],
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   },
   {
    "id": "tools/welding-machine-50-125",
@@ -3415,7 +3411,7 @@
    },
    "build": {
     "tier": 5,
-    "status": "offen",
+    "status": "prototyp",
     "order": 71
    },
    "article_prefix_md_unverified": "AQ985125",
@@ -3423,7 +3419,8 @@
    "article_prefix_source": "AQ988125",
    "article_codes_source": [
     "AQ988125"
-   ]
+   ],
+   "source_verified_by": "Druckkatalog S. 114-117, Textebene 25.08.2026 — nur Code/Nennweite/Pack, PROTOTYP"
   }
  ]
 }

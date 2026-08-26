@@ -50,12 +50,36 @@ export const REGISTRY = [
   "category": "valves"
  },
  {
+  "slug": "butt-welding-machine-90-250",
+  "id": "tools/butt-welding-machine-90-250",
+  "module": "kaqua-butt-welding-machine-90-250",
+  "titleDe": "Stumpfschweißmaschine 90–250",
+  "titleEn": "Butt welding machine 90-250",
+  "category": "tools"
+ },
+ {
   "slug": "cap",
   "id": "fittings/cap",
   "module": "kaqua-cap",
   "titleDe": "Kappe",
   "titleEn": "Cap",
   "category": "fittings"
+ },
+ {
+  "slug": "concealed-valve-chrome-heavy-part",
+  "id": "valves/concealed-valve-chrome-heavy-part",
+  "module": "kaqua-concealed-valve-chrome-heavy-part",
+  "titleDe": "Unterputzventil-Oberteil (schwere Ausführung)",
+  "titleEn": "Concealed valve (only upper part) chrome heavy part",
+  "category": "valves"
+ },
+ {
+  "slug": "concealed-valve-chrome-light-part",
+  "id": "valves/concealed-valve-chrome-light-part",
+  "module": "kaqua-concealed-valve-chrome-light-part",
+  "titleDe": "Unterputzventil-Oberteil (leichte Ausführung)",
+  "titleEn": "Concealed valve (only upper part) chrome light part",
+  "category": "valves"
  },
  {
   "slug": "cross",
@@ -80,6 +104,14 @@ export const REGISTRY = [
   "titleDe": "Überbogen-Rohr",
   "titleEn": "Cross over pipe",
   "category": "fittings"
+ },
+ {
+  "slug": "drilling-tool-for-weld-in-saddle",
+  "id": "tools/drilling-tool-for-weld-in-saddle",
+  "module": "kaqua-drilling-tool-for-weld-in-saddle",
+  "titleDe": "Anbohrwerkzeug für Einschweißsättel",
+  "titleEn": "Drilling tool for weld in saddle",
+  "category": "tools"
  },
  {
   "slug": "elbow-45",
@@ -138,12 +170,28 @@ export const REGISTRY = [
   "category": "transition-fittings"
  },
  {
+  "slug": "electrofusion-machine",
+  "id": "tools/electrofusion-machine",
+  "module": "kaqua-electrofusion-machine",
+  "titleDe": "Elektroschweißgerät",
+  "titleEn": "Electrofusion machine",
+  "category": "tools"
+ },
+ {
   "slug": "electrofusion-socket",
   "id": "fittings/electrofusion-socket",
   "module": "kaqua-electrofusion-socket",
   "titleDe": "Elektroschweißmuffe",
   "titleEn": "Electrofusion socket",
   "category": "fittings"
+ },
+ {
+  "slug": "elongation-pieces",
+  "id": "valves/elongation-pieces",
+  "module": "kaqua-elongation-pieces",
+  "titleDe": "Verlängerungsstück",
+  "titleEn": "Elongation pieces",
+  "category": "valves"
  },
  {
   "slug": "flange-adaptor",
@@ -168,6 +216,30 @@ export const REGISTRY = [
   "titleDe": "Flachdichtung für Verschraubungen",
   "titleEn": "Flat gasket for unions PP-R",
   "category": "accessories"
+ },
+ {
+  "slug": "hand-welding-machine-20-32",
+  "id": "tools/hand-welding-machine-20-32",
+  "module": "kaqua-hand-welding-machine-20-32",
+  "titleDe": "Handschweißgerät 20–32 (Set)",
+  "titleEn": "Hand welding machine 20-32 (complete set)",
+  "category": "tools"
+ },
+ {
+  "slug": "hand-welding-machine-20-63",
+  "id": "tools/hand-welding-machine-20-63",
+  "module": "kaqua-hand-welding-machine-20-63",
+  "titleDe": "Handschweißgerät 20–63 (Set)",
+  "titleEn": "Hand welding machine 20-63 (complete set)",
+  "category": "tools"
+ },
+ {
+  "slug": "hand-welding-machine-mirror-50-125",
+  "id": "tools/hand-welding-machine-mirror-50-125",
+  "module": "kaqua-hand-welding-machine-mirror-50-125",
+  "titleDe": "Heizspiegel 50–125",
+  "titleEn": "Hand welding machine (only mirror) 50-125",
+  "category": "tools"
  },
  {
   "slug": "k-fiber-pipe-pp-r-sdr-11",
@@ -314,6 +386,30 @@ export const REGISTRY = [
   "category": "accessories"
  },
  {
+  "slug": "pipe-cutter-20-40",
+  "id": "tools/pipe-cutter-20-40",
+  "module": "kaqua-pipe-cutter-20-40",
+  "titleDe": "Rohrschere 20–40",
+  "titleEn": "Pipe cutter 20-40",
+  "category": "tools"
+ },
+ {
+  "slug": "pipe-cutter-50-125",
+  "id": "tools/pipe-cutter-50-125",
+  "module": "kaqua-pipe-cutter-50-125",
+  "titleDe": "Rohrabschneider 50–125",
+  "titleEn": "Pipe cutter 50-125",
+  "category": "tools"
+ },
+ {
+  "slug": "pipe-cutter-50-125-114",
+  "id": "tools/pipe-cutter-50-125-114",
+  "module": "kaqua-pipe-cutter-50-125-114",
+  "titleDe": "Rohrschaber",
+  "titleEn": "Pipe scraper",
+  "category": "tools"
+ },
+ {
   "slug": "plug",
   "id": "accessories/plug",
   "module": "kaqua-plug",
@@ -346,12 +442,28 @@ export const REGISTRY = [
   "category": "fittings"
  },
  {
+  "slug": "repairing-plug",
+  "id": "tools/repairing-plug",
+  "module": "kaqua-repairing-plug",
+  "titleDe": "Reparaturstopfen",
+  "titleEn": "Repairing plug",
+  "category": "tools"
+ },
+ {
   "slug": "socket",
   "id": "fittings/socket",
   "module": "kaqua-socket",
   "titleDe": "Muffe",
   "titleEn": "Socket",
   "category": "fittings"
+ },
+ {
+  "slug": "straight-seat-valve-green-handle",
+  "id": "valves/straight-seat-valve-green-handle",
+  "module": "kaqua-straight-seat-valve-green-handle",
+  "titleDe": "Geradsitzventil-Oberteil (grünes Handrad)",
+  "titleEn": "Straight seat valve (only upper part)",
+  "category": "valves"
  },
  {
   "slug": "tee",
@@ -416,6 +528,38 @@ export const REGISTRY = [
   "titleDe": "Anbohrsattel mit Außengewinde",
   "titleEn": "Weld-in saddle (Male thread)",
   "category": "weld-in-saddles"
+ },
+ {
+  "slug": "welding-machine-50-125",
+  "id": "tools/welding-machine-50-125",
+  "module": "kaqua-welding-machine-50-125",
+  "titleDe": "Schweißmaschine 50–125 (Set)",
+  "titleEn": "Welding machine 50-125 (complete set)",
+  "category": "tools"
+ },
+ {
+  "slug": "welding-tool",
+  "id": "tools/welding-tool",
+  "module": "kaqua-welding-tool",
+  "titleDe": "Schweißwerkzeug (Heizelement-Paar)",
+  "titleEn": "Welding tool",
+  "category": "tools"
+ },
+ {
+  "slug": "welding-tool-for-repairing-plug",
+  "id": "tools/welding-tool-for-repairing-plug",
+  "module": "kaqua-welding-tool-for-repairing-plug",
+  "titleDe": "Schweißwerkzeug für Reparaturstopfen",
+  "titleEn": "Welding tool for repairing plug",
+  "category": "tools"
+ },
+ {
+  "slug": "welding-tool-for-weld-in-saddles",
+  "id": "tools/welding-tool-for-weld-in-saddles",
+  "module": "kaqua-welding-tool-for-weld-in-saddles",
+  "titleDe": "Schweißwerkzeug für Anbohrsättel",
+  "titleEn": "Welding tool for weld in saddles",
+  "category": "tools"
  }
 ];
 export default REGISTRY;

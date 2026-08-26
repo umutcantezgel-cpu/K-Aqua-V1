@@ -44,17 +44,13 @@ const SLUG_ALIASES: Record<string, string> = {
   // Innengewindevariante, solange es ihre Modelle nicht gab. Seit Welle 5
   // gibt es sie; die Eintraege sind entfallen, sonst verdecken sie sie.
   'reducing-tee-large-sizes': 'reducing-tee',
-  // ACHTUNG, offener Punkt: die vier Rohrschneider zeigen eine ROHRSCHELLE.
-  // lib/3d/resolve.ts hat genau diesen Notbehelf abgeschafft — dort steht
-  // begruendet, dass fuer einen masshaltigen Viewer gar keine Darstellung
-  // besser ist als ein fremdes Bauteil. Hier steht er noch, weil das Entfernen
-  // vier Seiten ihre (falsche) 3D-Ansicht kostet. Entscheidung des Menschen,
-  // vermerkt in kaqua-3d/LOOP-STATUS.md.
-  'pipe-cutter-2040': 'pipe-clamps',
-  'pipe-cutter-50125': 'pipe-clamps',
-  'pipe-cutter-50125-1': 'pipe-clamps',
-  'pipe-cutter-50-125-114': 'pipe-clamps',
-  'pipe-cutter-50-125': 'pipe-clamps',
+  // Der Rohrschellen-Notbehelf der Schneidwerkzeuge ist Geschichte:
+  // seit dem 25.08.2026 existieren die echten Modelle (als Prototypen).
+  // Es bleiben nur die Slug-Schreibvarianten der Website als Umleitung
+  // auf die kanonischen Produkte (LOOP-STATUS §3.10, geschlossen).
+  'pipe-cutter-2040': 'pipe-cutter-20-40',
+  'pipe-cutter-50125': 'pipe-cutter-50-125',
+  'pipe-cutter-50125-1': 'pipe-cutter-50-125-114',
 };
 
 export async function GET(

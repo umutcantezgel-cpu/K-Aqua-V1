@@ -97,6 +97,12 @@ function familyFor(slug) {
   /* Batterieanschlüsse: der feste nutzt den Winkelblock der Familie;
      der verstellbare hat eigene Schlitten und braucht nichts daraus. */
   if (slug === 'battery-female-thread') return ['_battery/parts.js'];
+  /* Prototypen-Familien (25.08.2026): Ventilteile, Drehwerkzeuge,
+     Handwerkzeuge. Wer hier fehlt, dem fehlt sein Baustein im Bundle —
+     13 Seiten standen deshalb ohne window.kaqua da. */
+  if (/^(straight-seat-valve|concealed-valve)/.test(slug)) return ['_valveparts/parts.js'];
+  if (/^welding-tool(-for-weld-in-saddles)?$/.test(slug)) return ['_tooldie/parts.js'];
+  if (/^(pipe-cutter-20-40|pipe-cutter-50-125|hand-welding-machine)/.test(slug)) return ['_handtools/parts.js'];
   if (slug === 'adjustable-battery-female-thread') return [];
   if (/^elbow-90-male-thread$/.test(slug)) return FAMILY.bendthread;
   if (/^elbow-(?:wall-)?bracket-90-female-thread$/.test(slug)) return FAMILY.bracket;

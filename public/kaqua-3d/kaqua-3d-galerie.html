@@ -1838,6 +1838,32 @@ function knurl(r, h, count, depth, opt = {}) {
   };
 }
 
+/* Rauminhalt eines geschlossenen Netzes über den Satz von Gauß: Summe
+   der vorzeichenbehafteten Tetraeder (0, v0, v1, v2). Die Innenfläche
+   ist umgekehrt gewickelt und zieht ihren Hohlraum von selbst ab — das
+   Ergebnis ist der WERKSTOFF, nicht der umschlossene Raum. Mit der
+   Dichte multipliziert wird daraus die Massenprobe gegen die kg-Spalte
+   des Katalogs. Stand als Kopie in drei Produkten (Überbögen, beide
+   Batterien), hierher gezogen am 25.08.2026 — die vierte Kopie wäre
+   Drift gewesen (Fall 32). */
+function meshVolume(geo) {
+  const p = geo.attributes.position.array;
+  const idx = geo.index ? geo.index.array : null;
+  const n = idx ? idx.length : p.length / 3;
+  let v = 0;
+  for (let i = 0; i < n; i += 3) {
+    const a = (idx ? idx[i] : i) * 3;
+    const b = (idx ? idx[i + 1] : i + 1) * 3;
+    const c = (idx ? idx[i + 2] : i + 2) * 3;
+    v += (
+      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
+      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
+      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
+    ) / 6;
+  }
+  return Math.abs(v);
+}
+
 /* ── tubeLayers: Mehrschichtrohr mit farbigen Lagen ──
    d = Außendurchmesser, s = Wandstärke (= d / SDR), layers = Lagen von
    außen nach innen, jede mit Materialschlüssel und Anteil an s.
@@ -4982,23 +5008,6 @@ function buildBockRing(P, zTop) {
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const r2 = (v) => Math.round(v * 100) / 100;
 
-function netzVolumen(geo) {
-  const p = geo.attributes.position.array;
-  const idx = geo.index ? geo.index.array : null;
-  const n = idx ? idx.length : p.length / 3;
-  let v = 0;
-  for (let i = 0; i < n; i += 3) {
-    const a = (idx ? idx[i] : i) * 3;
-    const b = (idx ? idx[i + 1] : i + 1) * 3;
-    const c = (idx ? idx[i + 2] : i + 2) * 3;
-    v += (
-      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
-      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
-      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
-    ) / 6;
-  }
-  return Math.abs(v);
-}
 
 const product = {
   id: 'valves/adjustable-battery-female-thread',
@@ -5172,7 +5181,7 @@ const product = {
           for (const t of A.parts) {
             const dichte = /Messing/i.test(t.label || '') ? 8.4 : 0.9;
             let v = 0;
-            t.obj.traverse((o) => { if (o.isMesh) v += netzVolumen(o.geometry); });
+            t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
             g += (v * dichte) / 1e6;
           }
           return r2(g);
@@ -6568,23 +6577,6 @@ function params(dNom) {
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const r2 = (v) => Math.round(v * 100) / 100;
 
-function netzVolumen(geo) {
-  const p = geo.attributes.position.array;
-  const idx = geo.index ? geo.index.array : null;
-  const n = idx ? idx.length : p.length / 3;
-  let v = 0;
-  for (let i = 0; i < n; i += 3) {
-    const a = (idx ? idx[i] : i) * 3;
-    const b = (idx ? idx[i + 1] : i + 1) * 3;
-    const c = (idx ? idx[i + 2] : i + 2) * 3;
-    v += (
-      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
-      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
-      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
-    ) / 6;
-  }
-  return Math.abs(v);
-}
 
 const product = {
   id: 'valves/battery-female-thread',
@@ -6722,7 +6714,7 @@ const product = {
           for (const t of A.parts) {
             const dichte = /Messing/i.test(t.label || '') ? 8.4 : 0.9;
             let v = 0;
-            t.obj.traverse((o) => { if (o.isMesh) v += netzVolumen(o.geometry); });
+            t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
             g += (v * dichte) / 1e6;
           }
           return r2(g * 100) / 100;
@@ -6740,6 +6732,108 @@ return product;
 })();
 
 const __p6 = (() => {
+
+/* == butt-welding-machine-90-250/data.js =============================== */
+/* K-Aqua Stumpfschweißmaschine 90–250 — PROTOTYP.
+   QUELLE: S. 117: nur Code AQ989250, Pack 1. Gestalt nach dem
+   Katalogrender (Kontaktbogen s117-01); alle Maße ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: 'set', code: 'AQ989250', pack: 1 } ];
+const SIZES = ['set'];
+const DIMENSION_KEY = {};
+function article() { return ARTICLES[0]; }
+
+
+/* == butt-welding-machine-90-250/params.js ============================= */
+function params() {
+  const P = Object.assign({}, article());
+  P.bettL = 560; P.bettB = 240; P.bettH = 80;
+  P.backenR = 160; P.backenX = [-190, -70, 70, 190];
+  P.sollBreite = 562.6;   // konstruktiv, inkl. Fasen
+  return P;
+}
+
+
+/* == butt-welding-machine-90-250/parts.js ============================== */
+/* Rote Bank mit Klemmbacken-Paaren (Halbring-Backen angedeutet). */
+function buildBank(P) {
+  const geos = [];
+  const bett = roundedPad(P.bettL, P.bettB, P.bettH, 8);
+  geos.push(bett);
+  for (const fx of [-P.bettL * 0.36, P.bettL * 0.36]) {
+    const fuss = roundedPad(P.bettB * 0.85, 24, P.bettH, 6);
+    fuss.rotateZ(Math.PI / 2);
+    fuss.translate(fx, -P.bettB * 0.15 - 12, 0);
+    geos.push(fuss);
+  }
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+function buildBacken(P) {
+  const geos = [];
+  for (const fx of P.backenX) {
+    const backe = revolve(buildProfile([
+      { a: -9, r: P.backenR, chamfer: 2 },
+      { a: 9, r: P.backenR, chamfer: 2 },
+      { a: 9, r: P.backenR * 0.42, fillet: 0 },
+      { a: -9, r: P.backenR * 0.42, fillet: 0 },
+    ], { segs: 3 }), { axis: 'x', segments: SEG_INT });
+    backe.translate(fx, P.backenR * 0.55, 0);
+    geos.push(backe);
+  }
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+
+/* == butt-welding-machine-90-250/index.js ============================== */
+/* Stumpfschweißmaschine 90–250 — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/butt-welding-machine-90-250',
+  module: 'kaqua-butt-welding-machine-90-250',
+  titleDe: 'Stumpfschweißmaschine 90–250',
+  titleEn: 'Butt welding machine 90-250',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: 'set',
+  dimensionKey: DIMENSION_KEY, metaFields: [], dimensions: [],
+  ariaFields: [], variants: [], states: null,
+  tile: 'Stumpfschweißmaschine für d90–250 — Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_butt-welding-machine-90-250'.replace(/-/g, '_'), materials: ['toolRed', 'brass'], seed: 241, clipPlane,
+    });
+    const b = buildBank(P);
+    const k = buildBacken(P);
+    A.part('bank', { name: 'Bank', label: 'Maschinenbett (rot)', mat: 'toolRed',
+      geo: b.geo, cap: null, anchor: V3(-P.bettL * 0.3, P.bettH, 0) });
+    A.part('backen', { name: 'Backen', label: 'Spannringe', mat: 'brass',
+      geo: k.geo, cap: null, explode: V3(0, 80, 0) });
+    A.light(V3(0, 60, 0)); A.light(V3(120, 20, 0));
+
+    A.measures = [
+      { key: 'teile', label: 'Baugruppen', soll: 2,
+        ist: () => A.parts.length },
+      { key: 'breite', label: 'Gesamtbreite (ASSUMPTION)', soll: P.sollBreite,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p7 = (() => {
 
 /* == cap/data.js ======================================================= */
 /* K-Aqua Kappe (Cap) — Artikeltabelle.
@@ -7124,7 +7218,521 @@ const product = {
 return product;
 })();
 
-const __p7 = (() => {
+const __p8 = (() => {
+
+/* == _valveparts/parts.js ============================================== */
+/* K-Aqua Ventiloberteile (S. 106) — gemeinsame Bausteine.
+
+   PROTOTYPEN: die Seite 106 bemaßt außer G (Gewinde), L = 30 beim
+   Verlängerungsstück und den kg-Angaben NICHTS (LOOP-STATUS §3.22).
+   Jede Zahl hier ist ASSUMPTION; der Maßstab kommt aus zwei Ankern:
+     1. dem Gewinde G ¾" (Normmaß, OD 26,44) — es setzt den Foto-Maßstab,
+     2. der kg-Spalte über die Massenprobe (meshVolume × Dichte).
+
+   Bausteine: Kleeblatt-Handrad (grün, fünf Lappen), Chromknauf auf
+   Rosette, Messing-Oberteil mit Sechskant, Spindel und Ventilteller. */
+
+
+/* Fünflappiges Handrad um Y: Grundscheibe, deren Radius über θ
+   zwischen Kern und Lappenspitze pendelt. */
+function buildKleeHandrad(P) {
+  const R = P.radR, rKern = R * 0.52, dicke = P.radDicke;
+  const mod = (th) => {
+    const lappen = Math.cos(5 * th);           // 5 Lappen
+    return (R - rKern) * 0.5 * (lappen - 1);   // 0 am Lappen, −(R−rKern) in der Kerbe
+  };
+  const thetas = [];
+  { const K = 5 * 24; for (let j = 0; j <= K; j++) thetas.push((j / K) * Math.PI * 2); }
+  const y0 = P.radY;
+  const profile = buildProfile([
+    { a: y0, r: R * 0.14, fillet: 0 },
+    { a: y0, r: R, fillet: dicke * 0.45, w: 1 },
+    { a: y0 + dicke, r: R, fillet: dicke * 0.45, w: 1 },
+    { a: y0 + dicke, r: R * 0.14, fillet: 0 },
+  ], { segs: 3 });
+  const geo = revolve(profile, { axis: 'y', thetas, mod });
+  /* Nabe in der Mitte. */
+  const nabe = revolve(buildProfile([
+    { a: y0 - 1, r: P.spindelR + 0.4, fillet: 0 },
+    { a: y0 - 1, r: R * 0.16, fillet: 0.8 },
+    { a: y0 + dicke + 2.5, r: R * 0.16, chamfer: 1.0 },
+    { a: y0 + dicke + 2.5, r: P.spindelR + 0.4, fillet: 0 },
+  ], { segs: 3 }), { axis: 'y', segments: SEG_INT });
+  return { geo: mergeGeometries([geo, nabe]), cap: capFromProfile(profile, 'y') };
+}
+
+/* Messing-Oberteil um Y: Ventilteller unten (mit EPDM-Ring als
+   eigenem Teil), Spindelschaft, Sechskant-Sockel mit G-Außengewinde. */
+function buildOberteil(P) {
+  const geos = [];
+  /* Gewindesockel: AG G von yG0 bis yG1, darüber Sechskant. */
+  const gew = threadProfile(P.threadOD, P.threadPitch, P.turns, 'G')
+    .map((q) => ({ a: P.yG0 + q.a, r: q.r, fillet: q.fillet }))
+    .filter((q) => q.a <= P.yG1);
+  const sockel = buildProfile([
+    { a: P.yG0, r: P.threadOD / 2 - 0.8, chamfer: 0.5 },
+    ...gew,
+    { a: P.yG1, r: P.threadOD / 2 - 0.3, fillet: 0.3 },
+    { a: P.yG1, r: P.spindelR + 0.6, fillet: 0.4 },
+    { a: P.yHex1 + 2, r: P.spindelR + 0.6, fillet: 0.3 },
+    { a: P.yHex1 + 2, r: P.spindelR, fillet: 0 },
+    { a: P.yG0, r: P.spindelR, fillet: 0 },
+  ], { segs: 4 });
+  geos.push(revolve(sockel, { axis: 'y', segments: SEG_VIS }));
+  const hex = hexPrism(P.hexAf, P.yHex1 - P.yG1, 0.4, 0);
+  hex.rotateZ(Math.PI / 2);
+  hex.translate(0, P.yG1, 0);
+  geos.push(hex);
+  /* Spindel bis zur Handrad-Nabe. */
+  const spindel = buildProfile([
+    { a: P.yHex1, r: P.spindelR, fillet: 0 },
+    { a: P.ySpindelTop, r: P.spindelR, chamfer: 0.6 },
+    { a: P.ySpindelTop, r: 0.02, fillet: 0 },
+    { a: P.yHex1, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  geos.push(revolve(spindel, { axis: 'y', segments: SEG_INT }));
+  /* Ventilteller unten. */
+  const teller = buildProfile([
+    { a: P.yG0, r: P.spindelR, fillet: 0 },
+    { a: P.yTeller + P.tellerH, r: P.spindelR + 0.6, fillet: 0.4 },
+    { a: P.yTeller + P.tellerH, r: P.tellerR, fillet: 0.6 },
+    { a: P.yTeller, r: P.tellerR, chamfer: 0.8 },
+    { a: P.yTeller, r: 0.02, fillet: 0 },
+    { a: P.yG0, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  geos.push(revolve(teller, { axis: 'y', segments: SEG_INT }));
+  return { geo: mergeGeometries(geos), cap: capFromProfile(sockel, 'y') };
+}
+
+/* EPDM-Dichtscheibe unter dem Teller. */
+function buildTellerDichtung(P) {
+  const profile = buildProfile([
+    { a: P.yTeller - P.dichtH, r: 0.02, fillet: 0 },
+    { a: P.yTeller - P.dichtH, r: P.tellerR - 0.4, fillet: 0.4 },
+    { a: P.yTeller, r: P.tellerR - 0.4, fillet: 0.2 },
+    { a: P.yTeller, r: 0.02, fillet: 0 },
+  ], { segs: 2 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_INT }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Chromknauf auf Rosette, um Y. profilArt 'zylinder' (light) oder
+   'konus' (heavy). */
+function buildChromKnauf(P) {
+  const R = P.rosR, h = P.knaufH, r0 = P.knaufR;
+  const kn = P.art === 'konus'
+    ? [
+        { a: P.yRos + P.rosH, r: r0 * 0.72, fillet: 0.8 },
+        { a: P.yRos + P.rosH + h * 0.72, r: r0, fillet: 2.2 },
+        { a: P.yRos + P.rosH + h, r: r0 * 0.86, fillet: 2.0 },
+      ]
+    : [
+        { a: P.yRos + P.rosH, r: r0, fillet: 0.8 },
+        { a: P.yRos + P.rosH + h - 1.5, r: r0 * 0.97, fillet: 1.6 },
+        { a: P.yRos + P.rosH + h, r: r0 * 0.88, fillet: 1.4 },
+      ];
+  /* HOHLKÖRPER: der erste Wurf rechnete den Knauf massiv und wog
+     +86 % gegen die kg-Spalte — reale Chromknäufe sind dünnwandige
+     Drehteile. Wand 2,8 mm (kalibriert: 2,0 wog −24 %, massiv +86 %). */
+  const w = 2.8;
+  const innen = kn.slice().reverse().map((q) => ({ a: q.a - w * 0.7, r: Math.max(0.4, q.r - w), fillet: q.fillet }));
+  const profile = buildProfile([
+    { a: P.yRos, r: R, fillet: P.rosH * 0.4 },
+    { a: P.yRos + P.rosH, r: R, fillet: P.rosH * 0.45 },
+    ...kn,
+    { a: P.yRos + P.rosH + h - w, r: 0.02, fillet: 0 },
+    ...innen.slice(1).map((q) => ({ ...q, a: q.a - 0 })),
+    { a: P.yRos + P.rosH - w, r: Math.max(1, P.knaufR - w), fillet: 0.4 },
+    { a: P.yRos + P.rosH - w, r: R - w, fillet: 0.4 },
+    { a: P.yRos, r: R - w, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Gewinde-Unterteil der UP-Ventile: kurzes AG-Rohr mit O-Ring-Nut. */
+function buildUPUnterteil(P) {
+  const gew = threadProfile(P.threadOD, P.threadPitch, P.turns, 'G')
+    .map((q) => ({ a: P.yU0 + q.a, r: q.r, fillet: q.fillet }))
+    .filter((q) => q.a <= P.yRos - 1);
+  const profile = buildProfile([
+    { a: P.yU0, r: P.threadOD / 2 - 0.8, chamfer: 0.5 },
+    ...gew,
+    { a: P.yRos - 1, r: P.threadOD / 2 - 0.3, fillet: 0.3 },
+    { a: P.yRos - 1, r: P.boreR, fillet: 0 },
+    { a: P.yU0, r: P.boreR, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
+/* == concealed-valve-chrome-heavy-part/data.js ========================= */
+/* K-Aqua Unterputzventil-Oberteil (schwere Ausführung) — PROTOTYP.
+
+   QUELLE: Druckkatalog S. 106. Die Tabelle führt NUR Code, G ¾",
+   kg 0.31, Pack 1 — keine Maßspalten, keine Maßskizze (LOOP-STATUS
+   §3.22). Alle Formmaße sind ASSUMPTION aus dem Katalogfoto; Anker:
+   G-Gewinde (Norm) und kg-Spalte (Massenprobe). Der Knauf ist
+   verchromtes Messing — Dichte 8,4. */
+
+const DATA_STATUS = 'prototyp';
+const SIZES_SOURCE_VERIFIED = 1;
+const ARTICLES = [ { code: 'AQ5993', G: '3/4', kg: 0.31, pack: 1 } ];
+const SIZES = ['3/4'];
+const DIMENSION_KEY = { G: 'Gewinde', kg: 'Gewicht' };
+function article() { return ARTICLES[0]; }
+
+
+/* == concealed-valve-chrome-heavy-part/params.js ======================= */
+function params() {
+  const a = article();
+  const P = Object.assign({}, a);
+  const th = threadSpec(a.G);
+  P.threadOD = th.od;
+  P.threadPitch = th.pitch;
+  P.turns = 6;
+  /* Alles ASSUMPTION (data.js), an Foto und Waage kalibriert. */
+  P.art = 'konus';
+  P.yRos = 0; P.rosR = 33; P.rosH = 6;
+  P.knaufR = 21; P.knaufH = 38;
+  P.yU0 = -24; P.boreR = 8;
+  return P;
+}
+
+
+/* == concealed-valve-chrome-heavy-part/parts.js ======================== */
+
+
+
+/* == concealed-valve-chrome-heavy-part/index.js ======================== */
+/* Unterputzventil-Oberteil (schwere Ausführung) — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'valves/concealed-valve-chrome-heavy-part',
+  module: 'kaqua-concealed-valve-chrome-heavy-part',
+  titleDe: 'Unterputzventil-Oberteil (schwere Ausführung)',
+  titleEn: 'Concealed valve (only upper part) chrome heavy part',
+  category: 'valves',
+  brandLine: 'K-Aqua Messing verchromt',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'G', defaultSize: '3/4',
+  dimensionKey: DIMENSION_KEY, metaFields: ['G', 'kg'], dimensions: [],
+  ariaFields: ['G'], variants: [], states: null,
+  tile: 'Sichtbares Oberteil des Unterputzventils — Maße vorläufig, aus ' +
+        'Foto und Gewicht abgeleitet.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_UP_AQ5993', materials: ['chrome', 'brass'], seed: 193, clipPlane,
+    });
+    const knauf = buildChromKnauf(P);
+    const unten = buildUPUnterteil(P);
+    A.part('knauf', { name: 'Knauf', label: 'Knauf mit Rosette (Messing verchromt)', mat: 'chrome',
+      geo: knauf.geo, cap: knauf.cap, anchor: V3(P.knaufR * 0.6, P.rosH + P.knaufH * 0.7, 0) });
+    A.part('unterteil', { name: 'Unterteil', label: 'Gewindeansatz (Messing)', mat: 'brass',
+      geo: unten.geo, cap: unten.cap, explode: V3(0, -16, 0) });
+    A.light(V3(0, P.knaufH * 0.5, 0)); A.light(V3(0, P.yU0 * 0.5, 0));
+    A.hotspot({ v: V3(0, P.rosH + P.knaufH * 0.6, P.knaufR * 0.9), n: V3(0, 0.2, 0.98),
+      text: 'Verchromtes Sichtteil — der Einbaukörper sitzt in der Wand' });
+
+    A.measures = [
+      { key: 'gewinde', label: 'G ' + P.G + '\" Außengewinde (Kuppe)', soll: r2(P.threadOD),
+        ist: () => {
+          let max = 0;
+          for (let k = 0; k < 8; k++) {
+            const y = P.yU0 + P.threadPitch * (1.2 + k * 0.25);
+            const hit = A.probeAxial('unterteil', V3(0, y, P.threadOD), V3(0, 0, -1));
+            if (hit) max = Math.max(max, 2 * hit.z);
+          }
+          return max ? r2(max) : NaN;
+        } },
+      { key: 'rosette', label: 'Rosetten-Ø (ASSUMPTION)', soll: 2 * P.rosR,
+        ist: () => { const b = A.boxOf(['knauf']); return r2(b.max.x - b.min.x); } },
+      { key: 'hoehe', label: 'Bauhöhe (ASSUMPTION)', soll: r2(P.rosH + P.knaufH - P.yU0),
+        ist: () => { const b = A.boxOf(); return r2(b.max.y - b.min.y); } },
+      { key: 'masse', label: 'Masse aus dem Volumen (Anker: kg-Spalte)', soll: P.kg,
+        ist: () => {
+          let g = 0;
+          for (const t of A.parts) {
+            let v = 0; t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
+            g += (v * 8.4) / 1e6;
+          }
+          return r2(g);
+        } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p9 = (() => {
+
+/* == _valveparts/parts.js ============================================== */
+/* K-Aqua Ventiloberteile (S. 106) — gemeinsame Bausteine.
+
+   PROTOTYPEN: die Seite 106 bemaßt außer G (Gewinde), L = 30 beim
+   Verlängerungsstück und den kg-Angaben NICHTS (LOOP-STATUS §3.22).
+   Jede Zahl hier ist ASSUMPTION; der Maßstab kommt aus zwei Ankern:
+     1. dem Gewinde G ¾" (Normmaß, OD 26,44) — es setzt den Foto-Maßstab,
+     2. der kg-Spalte über die Massenprobe (meshVolume × Dichte).
+
+   Bausteine: Kleeblatt-Handrad (grün, fünf Lappen), Chromknauf auf
+   Rosette, Messing-Oberteil mit Sechskant, Spindel und Ventilteller. */
+
+
+/* Fünflappiges Handrad um Y: Grundscheibe, deren Radius über θ
+   zwischen Kern und Lappenspitze pendelt. */
+function buildKleeHandrad(P) {
+  const R = P.radR, rKern = R * 0.52, dicke = P.radDicke;
+  const mod = (th) => {
+    const lappen = Math.cos(5 * th);           // 5 Lappen
+    return (R - rKern) * 0.5 * (lappen - 1);   // 0 am Lappen, −(R−rKern) in der Kerbe
+  };
+  const thetas = [];
+  { const K = 5 * 24; for (let j = 0; j <= K; j++) thetas.push((j / K) * Math.PI * 2); }
+  const y0 = P.radY;
+  const profile = buildProfile([
+    { a: y0, r: R * 0.14, fillet: 0 },
+    { a: y0, r: R, fillet: dicke * 0.45, w: 1 },
+    { a: y0 + dicke, r: R, fillet: dicke * 0.45, w: 1 },
+    { a: y0 + dicke, r: R * 0.14, fillet: 0 },
+  ], { segs: 3 });
+  const geo = revolve(profile, { axis: 'y', thetas, mod });
+  /* Nabe in der Mitte. */
+  const nabe = revolve(buildProfile([
+    { a: y0 - 1, r: P.spindelR + 0.4, fillet: 0 },
+    { a: y0 - 1, r: R * 0.16, fillet: 0.8 },
+    { a: y0 + dicke + 2.5, r: R * 0.16, chamfer: 1.0 },
+    { a: y0 + dicke + 2.5, r: P.spindelR + 0.4, fillet: 0 },
+  ], { segs: 3 }), { axis: 'y', segments: SEG_INT });
+  return { geo: mergeGeometries([geo, nabe]), cap: capFromProfile(profile, 'y') };
+}
+
+/* Messing-Oberteil um Y: Ventilteller unten (mit EPDM-Ring als
+   eigenem Teil), Spindelschaft, Sechskant-Sockel mit G-Außengewinde. */
+function buildOberteil(P) {
+  const geos = [];
+  /* Gewindesockel: AG G von yG0 bis yG1, darüber Sechskant. */
+  const gew = threadProfile(P.threadOD, P.threadPitch, P.turns, 'G')
+    .map((q) => ({ a: P.yG0 + q.a, r: q.r, fillet: q.fillet }))
+    .filter((q) => q.a <= P.yG1);
+  const sockel = buildProfile([
+    { a: P.yG0, r: P.threadOD / 2 - 0.8, chamfer: 0.5 },
+    ...gew,
+    { a: P.yG1, r: P.threadOD / 2 - 0.3, fillet: 0.3 },
+    { a: P.yG1, r: P.spindelR + 0.6, fillet: 0.4 },
+    { a: P.yHex1 + 2, r: P.spindelR + 0.6, fillet: 0.3 },
+    { a: P.yHex1 + 2, r: P.spindelR, fillet: 0 },
+    { a: P.yG0, r: P.spindelR, fillet: 0 },
+  ], { segs: 4 });
+  geos.push(revolve(sockel, { axis: 'y', segments: SEG_VIS }));
+  const hex = hexPrism(P.hexAf, P.yHex1 - P.yG1, 0.4, 0);
+  hex.rotateZ(Math.PI / 2);
+  hex.translate(0, P.yG1, 0);
+  geos.push(hex);
+  /* Spindel bis zur Handrad-Nabe. */
+  const spindel = buildProfile([
+    { a: P.yHex1, r: P.spindelR, fillet: 0 },
+    { a: P.ySpindelTop, r: P.spindelR, chamfer: 0.6 },
+    { a: P.ySpindelTop, r: 0.02, fillet: 0 },
+    { a: P.yHex1, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  geos.push(revolve(spindel, { axis: 'y', segments: SEG_INT }));
+  /* Ventilteller unten. */
+  const teller = buildProfile([
+    { a: P.yG0, r: P.spindelR, fillet: 0 },
+    { a: P.yTeller + P.tellerH, r: P.spindelR + 0.6, fillet: 0.4 },
+    { a: P.yTeller + P.tellerH, r: P.tellerR, fillet: 0.6 },
+    { a: P.yTeller, r: P.tellerR, chamfer: 0.8 },
+    { a: P.yTeller, r: 0.02, fillet: 0 },
+    { a: P.yG0, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  geos.push(revolve(teller, { axis: 'y', segments: SEG_INT }));
+  return { geo: mergeGeometries(geos), cap: capFromProfile(sockel, 'y') };
+}
+
+/* EPDM-Dichtscheibe unter dem Teller. */
+function buildTellerDichtung(P) {
+  const profile = buildProfile([
+    { a: P.yTeller - P.dichtH, r: 0.02, fillet: 0 },
+    { a: P.yTeller - P.dichtH, r: P.tellerR - 0.4, fillet: 0.4 },
+    { a: P.yTeller, r: P.tellerR - 0.4, fillet: 0.2 },
+    { a: P.yTeller, r: 0.02, fillet: 0 },
+  ], { segs: 2 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_INT }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Chromknauf auf Rosette, um Y. profilArt 'zylinder' (light) oder
+   'konus' (heavy). */
+function buildChromKnauf(P) {
+  const R = P.rosR, h = P.knaufH, r0 = P.knaufR;
+  const kn = P.art === 'konus'
+    ? [
+        { a: P.yRos + P.rosH, r: r0 * 0.72, fillet: 0.8 },
+        { a: P.yRos + P.rosH + h * 0.72, r: r0, fillet: 2.2 },
+        { a: P.yRos + P.rosH + h, r: r0 * 0.86, fillet: 2.0 },
+      ]
+    : [
+        { a: P.yRos + P.rosH, r: r0, fillet: 0.8 },
+        { a: P.yRos + P.rosH + h - 1.5, r: r0 * 0.97, fillet: 1.6 },
+        { a: P.yRos + P.rosH + h, r: r0 * 0.88, fillet: 1.4 },
+      ];
+  /* HOHLKÖRPER: der erste Wurf rechnete den Knauf massiv und wog
+     +86 % gegen die kg-Spalte — reale Chromknäufe sind dünnwandige
+     Drehteile. Wand 2,8 mm (kalibriert: 2,0 wog −24 %, massiv +86 %). */
+  const w = 2.8;
+  const innen = kn.slice().reverse().map((q) => ({ a: q.a - w * 0.7, r: Math.max(0.4, q.r - w), fillet: q.fillet }));
+  const profile = buildProfile([
+    { a: P.yRos, r: R, fillet: P.rosH * 0.4 },
+    { a: P.yRos + P.rosH, r: R, fillet: P.rosH * 0.45 },
+    ...kn,
+    { a: P.yRos + P.rosH + h - w, r: 0.02, fillet: 0 },
+    ...innen.slice(1).map((q) => ({ ...q, a: q.a - 0 })),
+    { a: P.yRos + P.rosH - w, r: Math.max(1, P.knaufR - w), fillet: 0.4 },
+    { a: P.yRos + P.rosH - w, r: R - w, fillet: 0.4 },
+    { a: P.yRos, r: R - w, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Gewinde-Unterteil der UP-Ventile: kurzes AG-Rohr mit O-Ring-Nut. */
+function buildUPUnterteil(P) {
+  const gew = threadProfile(P.threadOD, P.threadPitch, P.turns, 'G')
+    .map((q) => ({ a: P.yU0 + q.a, r: q.r, fillet: q.fillet }))
+    .filter((q) => q.a <= P.yRos - 1);
+  const profile = buildProfile([
+    { a: P.yU0, r: P.threadOD / 2 - 0.8, chamfer: 0.5 },
+    ...gew,
+    { a: P.yRos - 1, r: P.threadOD / 2 - 0.3, fillet: 0.3 },
+    { a: P.yRos - 1, r: P.boreR, fillet: 0 },
+    { a: P.yU0, r: P.boreR, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
+/* == concealed-valve-chrome-light-part/data.js ========================= */
+/* K-Aqua Unterputzventil-Oberteil (leichte Ausführung) — PROTOTYP.
+
+   QUELLE: Druckkatalog S. 106. Die Tabelle führt NUR Code, G ¾",
+   kg 0.21, Pack 1 — keine Maßspalten, keine Maßskizze (LOOP-STATUS
+   §3.22). Alle Formmaße sind ASSUMPTION aus dem Katalogfoto; Anker:
+   G-Gewinde (Norm) und kg-Spalte (Massenprobe). Der Knauf ist
+   verchromtes Messing — Dichte 8,4. */
+
+const DATA_STATUS = 'prototyp';
+const SIZES_SOURCE_VERIFIED = 1;
+const ARTICLES = [ { code: 'AQ5992', G: '3/4', kg: 0.21, pack: 1 } ];
+const SIZES = ['3/4'];
+const DIMENSION_KEY = { G: 'Gewinde', kg: 'Gewicht' };
+function article() { return ARTICLES[0]; }
+
+
+/* == concealed-valve-chrome-light-part/params.js ======================= */
+function params() {
+  const a = article();
+  const P = Object.assign({}, a);
+  const th = threadSpec(a.G);
+  P.threadOD = th.od;
+  P.threadPitch = th.pitch;
+  P.turns = 6;
+  /* Alles ASSUMPTION (data.js), an Foto und Waage kalibriert. */
+  P.art = 'zylinder';
+  P.yRos = 0; P.rosR = 30; P.rosH = 5;
+  P.knaufR = 17; P.knaufH = 30;
+  P.yU0 = -20; P.boreR = 8;
+  return P;
+}
+
+
+/* == concealed-valve-chrome-light-part/parts.js ======================== */
+
+
+
+/* == concealed-valve-chrome-light-part/index.js ======================== */
+/* Unterputzventil-Oberteil (leichte Ausführung) — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'valves/concealed-valve-chrome-light-part',
+  module: 'kaqua-concealed-valve-chrome-light-part',
+  titleDe: 'Unterputzventil-Oberteil (leichte Ausführung)',
+  titleEn: 'Concealed valve (only upper part) chrome light part',
+  category: 'valves',
+  brandLine: 'K-Aqua Messing verchromt',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'G', defaultSize: '3/4',
+  dimensionKey: DIMENSION_KEY, metaFields: ['G', 'kg'], dimensions: [],
+  ariaFields: ['G'], variants: [], states: null,
+  tile: 'Sichtbares Oberteil des Unterputzventils — Maße vorläufig, aus ' +
+        'Foto und Gewicht abgeleitet.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_UP_AQ5992', materials: ['chrome', 'brass'], seed: 193, clipPlane,
+    });
+    const knauf = buildChromKnauf(P);
+    const unten = buildUPUnterteil(P);
+    A.part('knauf', { name: 'Knauf', label: 'Knauf mit Rosette (Messing verchromt)', mat: 'chrome',
+      geo: knauf.geo, cap: knauf.cap, anchor: V3(P.knaufR * 0.6, P.rosH + P.knaufH * 0.7, 0) });
+    A.part('unterteil', { name: 'Unterteil', label: 'Gewindeansatz (Messing)', mat: 'brass',
+      geo: unten.geo, cap: unten.cap, explode: V3(0, -16, 0) });
+    A.light(V3(0, P.knaufH * 0.5, 0)); A.light(V3(0, P.yU0 * 0.5, 0));
+    A.hotspot({ v: V3(0, P.rosH + P.knaufH * 0.6, P.knaufR * 0.9), n: V3(0, 0.2, 0.98),
+      text: 'Verchromtes Sichtteil — der Einbaukörper sitzt in der Wand' });
+
+    A.measures = [
+      { key: 'gewinde', label: 'G ' + P.G + '\" Außengewinde (Kuppe)', soll: r2(P.threadOD),
+        ist: () => {
+          let max = 0;
+          for (let k = 0; k < 8; k++) {
+            const y = P.yU0 + P.threadPitch * (1.2 + k * 0.25);
+            const hit = A.probeAxial('unterteil', V3(0, y, P.threadOD), V3(0, 0, -1));
+            if (hit) max = Math.max(max, 2 * hit.z);
+          }
+          return max ? r2(max) : NaN;
+        } },
+      { key: 'rosette', label: 'Rosetten-Ø (ASSUMPTION)', soll: 2 * P.rosR,
+        ist: () => { const b = A.boxOf(['knauf']); return r2(b.max.x - b.min.x); } },
+      { key: 'hoehe', label: 'Bauhöhe (ASSUMPTION)', soll: r2(P.rosH + P.knaufH - P.yU0),
+        ist: () => { const b = A.boxOf(); return r2(b.max.y - b.min.y); } },
+      { key: 'masse', label: 'Masse aus dem Volumen (Anker: kg-Spalte)', soll: P.kg,
+        ist: () => {
+          let g = 0;
+          for (const t of A.parts) {
+            let v = 0; t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
+            g += (v * 8.4) / 1e6;
+          }
+          return r2(g);
+        } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p10 = (() => {
 
 /* == cross/data.js ===================================================== */
 /* K-Aqua Kreuz — Artikeltabelle.
@@ -7427,7 +8035,7 @@ const product = {
 return product;
 })();
 
-const __p8 = (() => {
+const __p11 = (() => {
 
 /* == _crossover/params.js ============================================== */
 /* K-Aqua Überbögen — gemeinsame Parametrik.
@@ -7712,32 +8320,6 @@ const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const r2 = (v) => Math.round(v * 100) / 100;
 const komma = (v) => String(v).replace('.', ',');
 
-/* Rauminhalt eines geschlossenen Netzes über den Satz von Gauß: die
-   Summe der vorzeichenbehafteten Tetraeder (0, v0, v1, v2). Die
-   Innenfläche ist umgekehrt gewickelt und zieht ihren Hohlraum von
-   selbst ab — genau deshalb ist das Ergebnis der WERKSTOFF und nicht der
-   umschlossene Raum.
-
-   Das ist die schärfste Probe, die dieses Produkt kennt: sie prüft Bahn,
-   Wandstärken, Muffen und die Deutung von H auf einmal, und ihr
-   Sollwert steht als Kilogramm in der Katalogtabelle. */
-function netzVolumen(geo) {
-  const p = geo.attributes.position.array;
-  const idx = geo.index ? geo.index.array : null;
-  const n = idx ? idx.length : p.length / 3;
-  let v = 0;
-  for (let i = 0; i < n; i += 3) {
-    const a = (idx ? idx[i] : i) * 3;
-    const b = (idx ? idx[i + 1] : i + 1) * 3;
-    const c = (idx ? idx[i + 2] : i + 2) * 3;
-    v += (
-      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
-      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
-      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
-    ) / 6;
-  }
-  return Math.abs(v);
-}
 
 function buildUeberbogen(cfg, size, variant, clipPlane) {
   const a = cfg.article(size);
@@ -7846,7 +8428,7 @@ function buildUeberbogen(cfg, size, variant, clipPlane) {
        Wandstärken und Muffen auf einmal — und sie ist der Grund, warum
        die Deutung von H feststeht. */
     { key: 'masse', label: 'Masse aus dem Volumen (0,9 g/cm³)', soll: a.kg,
-      ist: () => r2(Math.round((netzVolumen(body.geo) * 0.9) / 1e6 * 1000) / 1000) },
+      ist: () => r2(Math.round((meshVolume(body.geo) * 0.9) / 1e6 * 1000) / 1000) },
     ...cfg.messungen(P, a, { imBand, A }),
   ];
 
@@ -8007,7 +8589,7 @@ const product = {
 return product;
 })();
 
-const __p9 = (() => {
+const __p12 = (() => {
 
 /* == _crossover/params.js ============================================== */
 /* K-Aqua Überbögen — gemeinsame Parametrik.
@@ -8292,32 +8874,6 @@ const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const r2 = (v) => Math.round(v * 100) / 100;
 const komma = (v) => String(v).replace('.', ',');
 
-/* Rauminhalt eines geschlossenen Netzes über den Satz von Gauß: die
-   Summe der vorzeichenbehafteten Tetraeder (0, v0, v1, v2). Die
-   Innenfläche ist umgekehrt gewickelt und zieht ihren Hohlraum von
-   selbst ab — genau deshalb ist das Ergebnis der WERKSTOFF und nicht der
-   umschlossene Raum.
-
-   Das ist die schärfste Probe, die dieses Produkt kennt: sie prüft Bahn,
-   Wandstärken, Muffen und die Deutung von H auf einmal, und ihr
-   Sollwert steht als Kilogramm in der Katalogtabelle. */
-function netzVolumen(geo) {
-  const p = geo.attributes.position.array;
-  const idx = geo.index ? geo.index.array : null;
-  const n = idx ? idx.length : p.length / 3;
-  let v = 0;
-  for (let i = 0; i < n; i += 3) {
-    const a = (idx ? idx[i] : i) * 3;
-    const b = (idx ? idx[i + 1] : i + 1) * 3;
-    const c = (idx ? idx[i + 2] : i + 2) * 3;
-    v += (
-      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
-      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
-      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
-    ) / 6;
-  }
-  return Math.abs(v);
-}
 
 function buildUeberbogen(cfg, size, variant, clipPlane) {
   const a = cfg.article(size);
@@ -8426,7 +8982,7 @@ function buildUeberbogen(cfg, size, variant, clipPlane) {
        Wandstärken und Muffen auf einmal — und sie ist der Grund, warum
        die Deutung von H feststeht. */
     { key: 'masse', label: 'Masse aus dem Volumen (0,9 g/cm³)', soll: a.kg,
-      ist: () => r2(Math.round((netzVolumen(body.geo) * 0.9) / 1e6 * 1000) / 1000) },
+      ist: () => r2(Math.round((meshVolume(body.geo) * 0.9) / 1e6 * 1000) / 1000) },
     ...cfg.messungen(P, a, { imBand, A }),
   ];
 
@@ -8583,7 +9139,135 @@ const product = {
 return product;
 })();
 
-const __p10 = (() => {
+const __p13 = (() => {
+
+/* == drilling-tool-for-weld-in-saddle/data.js ========================== */
+/* K-Aqua Anbohrwerkzeug für Sättel — PROTOTYP.
+   QUELLE: S. 116: nur Code (AQ98625…63), Nennweite, Pack. Alle
+   Formmaße ASSUMPTION; Anker ist die Nennweite (Fräser bohrt die
+   Abzweigöffnung, Ø ≈ Abzweig-Bohrung). */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [25, 32, 40, 50, 63].map((d) => ({ key: String(d), code: 'AQ986' + d, d, pack: 1 }));
+const SIZES = ARTICLES.map((a) => a.key);
+const DIMENSION_KEY = { d: 'Nennweite' };
+function article(key) {
+  const a = ARTICLES.find((x) => x.key === String(key));
+  if (!a) throw new Error('K-Aqua Anbohrwerkzeug: unbekannte Größe ' + key);
+  return a;
+}
+
+
+/* == drilling-tool-for-weld-in-saddle/params.js ======================== */
+function params(key) {
+  const a = article(key);
+  const P = Object.assign({}, a);
+  P.fraeserR = a.d * 0.5 * 0.66;       // ASSUMPTION: bohrt die Kernöffnung
+  P.fraeserH = Math.max(16, a.d * 0.6);
+  P.schaftR = 4;                        // ASSUMPTION Aufnahme
+  P.schaftL = 40;
+  P.nuten = 2;
+  return P;
+}
+
+
+/* == drilling-tool-for-weld-in-saddle/parts.js ========================= */
+/* Fräskopf mit zwei Längsnuten (Spanraum, angedeutet) + Schaft. */
+function buildFraeser(P) {
+  /* Flache angedeutete Spannuten — der erste Wurf (Tiefe 0,42·R) war
+     ein halber Ausschnitt, und der Kopf-Strahl las die Nut. */
+  const mod = grooveMod(P.nuten, P.fraeserR * 0.30, P.fraeserR * 0.16, P.fraeserR);
+  /* Viele Samples zwischen den Nuten: mit 9 lag kein Punkt nahe dem
+     Scheitel, und die Kopf-Box las die Sekante — wachsend mit der
+     Größe, die Handschrift der Segmentierung (Fall 27). */
+  const thetas = thetaSamples(P.nuten, mod.halfAng, 7, 48);
+  const profile = buildProfile([
+    { a: -P.schaftL, r: P.schaftR, chamfer: 0.6, w: 0 },
+    { a: 0, r: P.schaftR, fillet: 0.5, w: 0 },
+    { a: 0, r: P.fraeserR, chamfer: 0.6, w: 1 },
+    /* Netzpunkt auf halber Kopfhöhe — ohne ihn ist das Messband auf
+       der geraden Mantelstrecke leer (die Regel, zum wiederholten
+       Mal). */
+    { a: P.fraeserH * 0.5, r: P.fraeserR, fillet: 0, w: 1 },
+    { a: P.fraeserH - 1.2, r: P.fraeserR, fillet: 0.4, w: 1 },
+    { a: P.fraeserH, r: P.fraeserR - 1.2, chamfer: 0.8, w: 0 },
+    { a: P.fraeserH, r: 0.02, fillet: 0, w: 0 },
+    { a: -P.schaftL, r: 0.02, fillet: 0, w: 0 },
+  ], { segs: 4 });
+  const geo = revolve(profile, { axis: 'y', thetas, mod });
+  return { geo, cap: capFromProfile(profile, 'y') };
+}
+
+
+/* == drilling-tool-for-weld-in-saddle/index.js ========================= */
+/* Anbohrwerkzeug — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/drilling-tool-for-weld-in-saddle',
+  module: 'kaqua-drilling-tool-for-weld-in-saddle',
+  titleDe: 'Anbohrwerkzeug für Einschweißsättel',
+  titleEn: 'Drilling tool for weld in saddle',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key',
+  sizeLabel: (k) => 'd' + k,
+  defaultSize: '32',
+  dimensionKey: DIMENSION_KEY, metaFields: ['d'], dimensions: [],
+  ariaFields: ['d'], variants: [], states: null,
+  tile: 'Bohrt die Abzweigöffnung durch den geschweißten Sattel — ' +
+        'Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params(size);
+    const A = createAssembly({
+      name: 'K-Aqua_Anbohrwerkzeug', materials: ['steel'], seed: 211, clipPlane,
+    });
+    const f = buildFraeser(P);
+    A.part('fraeser', { name: 'Fraeser', label: 'Fräskopf mit Schaft (Stahl)', mat: 'steel',
+      geo: f.geo, cap: f.cap, anchor: V3(P.fraeserR + 3, P.fraeserH * 0.6, 0) });
+    A.light(V3(0, P.fraeserH, 0)); A.light(V3(0, -P.schaftL * 0.5, 0));
+
+    A.measures = [
+      /* Box statt Einzelstrahl: die Rücken tragen den Nenn-Ø, ein
+         Strahl kann eine Nut treffen. */
+      { key: 'kopf', label: 'Fräskopf-Ø (ASSUMPTION 0,66·d)', soll: r2(2 * P.fraeserR),
+        /* x-Spanne: die Nuten liegen auf ±z, die Rücken auf ±x — die
+           z-Spanne las die Nutrandsekante. */
+        ist: () => { const b = A.boxOf(['fraeser']); return r2(b.max.x - b.min.x); } },
+      /* Nut-Gegenprobe am Min (Max ist für Nuten blind — Lehre P1). */
+      /* Nut-Gegenprobe am Teilnetz (Traverse wie bei P1 — A.geos ist
+         hier nicht der verlässliche Griff). */
+      { key: 'nut', label: 'Spannut-Tiefe', soll: r2(P.fraeserR * 0.16),
+        ist: () => {
+          const obj = A.parts.find((t) => t.id === 'fraeser').obj;
+          let mx = 0, mn = Infinity;
+          obj.traverse((o) => {
+            if (!o.isMesh) return;
+            const g = o.geometry.attributes.position;
+            for (let i = 0; i < g.count; i++) {
+              const y = g.getY(i); if (y < 2 || y > P.fraeserH - 2.5) continue;
+              const r = Math.hypot(g.getX(i), g.getZ(i));
+              if (r < P.fraeserR * 0.7) continue;
+              if (r > mx) mx = r; if (r < mn) mn = r;
+            }
+          });
+          return isFinite(mn) ? r2(mx - mn) : NaN;
+        } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p14 = (() => {
 
 /* == _bend/params.js =================================================== */
 /* K-Aqua Winkelfamilie — Parametrik.
@@ -8910,7 +9594,7 @@ const product = {
 return product;
 })();
 
-const __p11 = (() => {
+const __p15 = (() => {
 
 /* == _bendthread/parts.js ============================================== */
 /* K-Aqua Winkel 90° mit Gewindeschenkel — gemeinsame Kontur.
@@ -9443,7 +10127,7 @@ const product = {
 return product;
 })();
 
-const __p12 = (() => {
+const __p16 = (() => {
 
 /* == _bend/params.js =================================================== */
 /* K-Aqua Winkelfamilie — Parametrik.
@@ -9770,7 +10454,7 @@ const product = {
 return product;
 })();
 
-const __p13 = (() => {
+const __p17 = (() => {
 
 /* == _bendthread/parts.js ============================================== */
 /* K-Aqua Winkel 90° mit Gewindeschenkel — gemeinsame Kontur.
@@ -10303,7 +10987,7 @@ const product = {
 return product;
 })();
 
-const __p14 = (() => {
+const __p18 = (() => {
 
 /* == _bend/params.js =================================================== */
 /* K-Aqua Winkelfamilie — Parametrik.
@@ -11114,7 +11798,7 @@ const product = {
 return product;
 })();
 
-const __p15 = (() => {
+const __p19 = (() => {
 
 /* == _bendthread/parts.js ============================================== */
 /* K-Aqua Winkel 90° mit Gewindeschenkel — gemeinsame Kontur.
@@ -11891,7 +12575,7 @@ const product = {
 return product;
 })();
 
-const __p16 = (() => {
+const __p20 = (() => {
 
 /* == _bendthread/parts.js ============================================== */
 /* K-Aqua Winkel 90° mit Gewindeschenkel — gemeinsame Kontur.
@@ -12666,7 +13350,100 @@ const product = {
 return product;
 })();
 
-const __p17 = (() => {
+const __p21 = (() => {
+
+/* == electrofusion-machine/data.js ===================================== */
+/* K-Aqua Elektroschweißgerät — PROTOTYP.
+   QUELLE: S. 117: nur Code AQ990, Pack 1. Gestalt nach dem
+   Katalogrender (Kontaktbogen s117-02); alle Maße ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: 'set', code: 'AQ990', pack: 1 } ];
+const SIZES = ['set'];
+const DIMENSION_KEY = {};
+function article() { return ARTICLES[0]; }
+
+
+/* == electrofusion-machine/params.js =================================== */
+function params() {
+  const P = Object.assign({}, article());
+  P.kastenB = 240; P.kastenH = 200; P.kastenT = 150;
+  P.sollBreite = 242;   // konstruktiv, inkl. Fasen
+  return P;
+}
+
+
+/* == electrofusion-machine/parts.js ==================================== */
+function buildKasten(P) {
+  const geos = [];
+  const korpus = roundedPad(P.kastenB, P.kastenH, P.kastenT, 14);
+  geos.push(korpus);
+  const deckel = roundedPad(P.kastenB * 0.9, 24, P.kastenT * 0.9, 8);
+  deckel.translate(0, P.kastenH / 2 + 10, 0);
+  geos.push(deckel);
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+function buildFront(P) {
+  const geos = [];
+  const display = roundedPad(P.kastenB * 0.42, 40, 4, 3);
+  display.translate(-P.kastenB * 0.12, P.kastenH * 0.18, P.kastenT / 2 + 1);
+  geos.push(display);
+  const tasten = roundedPad(P.kastenB * 0.3, 26, 4, 3);
+  tasten.translate(P.kastenB * 0.2, -P.kastenH * 0.05, P.kastenT / 2 + 1);
+  geos.push(tasten);
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+
+/* == electrofusion-machine/index.js ==================================== */
+/* Elektroschweißgerät — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/electrofusion-machine',
+  module: 'kaqua-electrofusion-machine',
+  titleDe: 'Elektroschweißgerät',
+  titleEn: 'Electrofusion machine',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: 'set',
+  dimensionKey: DIMENSION_KEY, metaFields: [], dimensions: [],
+  ariaFields: [], variants: [], states: null,
+  tile: 'Steuergerät für Elektroschweißmuffen — kastenförmig, nicht rotationssymmetrisch. Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_electrofusion-machine'.replace(/-/g, '_'), materials: ['steel', 'toolBlack'], seed: 241, clipPlane,
+    });
+    const kk = buildKasten(P);
+    const f = buildFront(P);
+    A.part('kasten', { name: 'Kasten', label: 'Gerätekoffer', mat: 'steel',
+      geo: kk.geo, cap: null, anchor: V3(0, P.kastenH * 0.65, 0) });
+    A.part('front', { name: 'Front', label: 'Display und Tasten', mat: 'toolBlack',
+      geo: f.geo, cap: null, explode: V3(0, 0, 40) });
+    A.light(V3(0, 60, 0)); A.light(V3(120, 20, 0));
+
+    A.measures = [
+      { key: 'teile', label: 'Baugruppen', soll: 2,
+        ist: () => A.parts.length },
+      { key: 'breite', label: 'Gesamtbreite (ASSUMPTION)', soll: P.sollBreite,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p22 = (() => {
 
 /* == electrofusion-socket/data.js ====================================== */
 /* K-Aqua Elektroschweißmuffe — Artikeltabelle.
@@ -13093,7 +13870,155 @@ const product = {
 return product;
 })();
 
-const __p18 = (() => {
+const __p23 = (() => {
+
+/* == elongation-pieces/data.js ========================================= */
+/* K-Aqua Verlängerungsstück — PROTOTYP mit EINEM Tabellenmaß.
+
+   QUELLE: Druckkatalog S. 106, unterste Tabelle: Code AQ599E, L 30,
+   kg 0,05, Pack 1. Die Maßskizze bemaßt GENAU L — sonst nichts
+   (LOOP-STATUS §3.22, Präzisierung). Das Foto zeigt ZWEI Messingteile:
+   eine Gewindehülse (außen G-AG, innen IG — sie verlängert das
+   UP-Ventiloberteil um L) und einen kleinen Stufenzapfen
+   (Spindelverlängerung). Durchmesser sind ASSUMPTION am G-¾"-Anker;
+   die kg-Spalte hält die Summe fest. */
+
+const DATA_STATUS = 'prototyp';
+const SIZES_SOURCE_VERIFIED = 1;
+const ARTICLES = [ { code: 'AQ599E', L: 30, kg: 0.05, pack: 1 } ];
+const SIZES = ['30'];
+const DIMENSION_KEY = { L: 'Verlängerung', kg: 'Gewicht' };
+function article() { return ARTICLES[0]; }
+
+
+/* == elongation-pieces/params.js ======================================= */
+function params() {
+  const a = article();
+  const P = Object.assign({}, a);
+  const th = threadSpec('3/4');        // ASSUMPTION: G ¾ wie die Oberteile daneben
+  P.threadOD = th.od;
+  P.threadPitch = th.pitch;
+  P.turns = Math.max(5, Math.floor((a.L - 4) / th.pitch));
+  P.huelseWand = 2.6;                  // ASSUMPTION, Massenanker
+  P.zapfenR = 4.2;                     // ASSUMPTION Spindelmaß
+  P.zapfenL = a.L + 8;
+  return P;
+}
+
+
+/* == elongation-pieces/parts.js ======================================== */
+/* Zwei Drehteile, beide um Y. */
+
+function buildHuelse(P) {
+  const gew = threadProfile(P.threadOD, P.threadPitch, P.turns, 'G')
+    .map((q) => ({ a: 2 + q.a, r: q.r, fillet: q.fillet }))
+    .filter((q) => q.a <= P.L - 1);
+  const rIn = P.threadOD / 2 - P.huelseWand;
+  const profile = buildProfile([
+    { a: 0, r: P.threadOD / 2 - 0.8, chamfer: 0.5 },
+    ...gew,
+    { a: P.L, r: P.threadOD / 2 - 0.5, chamfer: 0.6 },
+    { a: P.L, r: rIn, chamfer: 0.4 },
+    { a: P.L / 2, r: rIn, fillet: 0 },
+    { a: 0, r: rIn, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+function buildZapfen(P) {
+  const r = P.zapfenR;
+  const profile = buildProfile([
+    { a: 0, r: r * 0.7, chamfer: 0.4 },
+    { a: 3, r: r * 0.7, fillet: 0.3 },
+    { a: 3, r: r, fillet: 0.3 },
+    { a: P.zapfenL - 4, r: r, fillet: 0.3 },
+    { a: P.zapfenL - 4, r: r * 0.78, fillet: 0.3 },
+    { a: P.zapfenL, r: r * 0.78, chamfer: 0.5 },
+    { a: P.zapfenL, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_INT }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
+/* == elongation-pieces/index.js ======================================== */
+/* Verlängerungsstück — Produktpaket. PROTOTYP (data.js), aber mit
+   dem einen tabellierten Maß L = 30 als echtem Anker. */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'valves/elongation-pieces',
+  module: 'kaqua-elongation-pieces',
+  titleDe: 'Verlängerungsstück',
+  titleEn: 'Elongation pieces',
+  category: 'valves',
+  brandLine: 'K-Aqua Messing',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'L', defaultSize: '30',
+  dimensionKey: DIMENSION_KEY, metaFields: ['L', 'kg'], dimensions: ['L'],
+  ariaFields: ['L'], variants: [], states: null,
+  tile: 'Verlängert das Unterputz-Oberteil um 30 mm — Hülse und ' +
+        'Spindelzapfen, Durchmesser vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_Verlaengerung', materials: ['brass'], seed: 197, clipPlane,
+    });
+    const huelse = buildHuelse(P);
+    const zapfen = buildZapfen(P);
+    zapfen.geo.translate(P.threadOD * 1.2, 0, 0);
+    if (zapfen.cap) zapfen.cap.translate(P.threadOD * 1.2, 0, 0);
+    A.part('huelse', { name: 'Huelse', label: 'Gewindehülse (Messing)', mat: 'brass',
+      geo: huelse.geo, cap: huelse.cap, anchor: V3(P.threadOD * 0.4, P.L + 3, 0) });
+    A.part('zapfen', { name: 'Zapfen', label: 'Spindelzapfen (Messing)', mat: 'brass',
+      geo: zapfen.geo, cap: zapfen.cap, explode: V3(10, 0, 0) });
+    A.light(V3(0, P.L * 0.5, 0)); A.light(V3(P.threadOD * 1.2, P.L * 0.5, 0));
+    A.hotspot({ v: V3(0, P.L * 0.5, P.threadOD * 0.55), n: V3(0, 0, 1),
+      text: 'Das eine Tabellenmaß: L = 30 mm Verlängerung' });
+    A.dim({ label: 'L', value: P.L,
+      a: V3(-P.threadOD * 0.8, 0, 0), b: V3(-P.threadOD * 0.8, P.L, 0),
+      off: V3(-6, 0, 0) });
+
+    A.measures = [
+      /* Das EINZIGE Tabellenmaß — am Netz der Hülse. */
+      { key: 'L', label: DIMENSION_KEY.L + ' (Tabellenmaß)', soll: P.L,
+        ist: () => { const b = A.boxOf(['huelse']); return r2(b.max.y - b.min.y); } },
+      { key: 'gewinde', label: 'G ¾" Außengewinde (Kuppe)', soll: r2(P.threadOD),
+        ist: () => {
+          let max = 0;
+          for (let k = 0; k < 8; k++) {
+            const y = 2 + P.threadPitch * (1.2 + k * 0.25);
+            const hit = A.probeAxial('huelse', V3(0, y, P.threadOD), V3(0, 0, -1));
+            if (hit) max = Math.max(max, 2 * hit.z);
+          }
+          return max ? r2(max) : NaN;
+        } },
+      { key: 'masse', label: 'Masse aus dem Volumen (Anker: kg-Spalte)', soll: P.kg,
+        ist: () => {
+          let g = 0;
+          for (const t of A.parts) {
+            let v = 0; t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
+            g += (v * 8.4) / 1e6;
+          }
+          return r2(g);
+        } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p24 = (() => {
 
 /* == flange-adaptor/data.js ============================================ */
 /* K-Aqua Flanschadapter (Bundbuchse) — Artikeltabelle.
@@ -13532,7 +14457,7 @@ const product = {
 return product;
 })();
 
-const __p19 = (() => {
+const __p25 = (() => {
 
 /* == flat-gasket/data.js =============================================== */
 /* K-Aqua Flachdichtung — Artikeltabelle.
@@ -13761,7 +14686,7 @@ const product = {
 return product;
 })();
 
-const __p20 = (() => {
+const __p26 = (() => {
 
 /* == flat-gasket/parts.js ============================================== */
 /* K-Aqua Flachdichtung — Kontur.
@@ -13976,7 +14901,428 @@ const product = {
 return product;
 })();
 
-const __p21 = (() => {
+const __p27 = (() => {
+
+/* == _handtools/parts.js =============================================== */
+/* K-Aqua Handwerkzeuge (S. 114) — Bausteine. PROTOTYPEN.
+
+   Keine Rohrgeometrie: Scherenbügel, Klingen, Griffe. Grundlage sind
+   roundedPad und loft, wie 20-VISUELLE-REFERENZ §4.5 es vorgibt.
+   Alle Maße ASSUMPTION aus den Katalogrendern (Kontaktbogen s114). */
+
+
+/* Flacher Griff, leicht keilförmig via loft. Die loft-Sektionen sind
+   { x, pts: [{a, r}] } — a wird z, r wird y (der erste Wurf übergab
+   Zahlenpaare und der NaN-Wächter aus Welle 1 leerte die Ansicht
+   SOFORT statt still: genau wofür er gebaut wurde). */
+function buildGriff(len, breite, dicke) {
+  const sek = (x, b, d) => ({ x, pts: [
+    { a: -d / 2, r: -b / 2 }, { a: -d / 2, r: b / 2 },
+    { a: d / 2, r: b / 2 }, { a: d / 2, r: -b / 2 },
+    { a: -d / 2, r: -b / 2 },
+  ] });
+  return loft([
+    sek(0, breite, dicke),
+    sek(len * 0.55, breite * 1.12, dicke),
+    sek(len, breite * 0.8, dicke * 0.85),
+  ]);
+}
+
+/* Rundgriff um Y (Maschinenstiel). */
+function buildRundgriff(len, r) {
+  const profile = buildProfile([
+    { a: 0, r: r * 0.75, fillet: 2 },
+    { a: len * 0.2, r: r, fillet: 3 },
+    { a: len * 0.8, r: r, fillet: 3 },
+    { a: len, r: r * 0.6, chamfer: 2 },
+    { a: len, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return revolve(profile, { axis: 'y', segments: SEG_INT });
+}
+
+
+/* == hand-welding-machine-20-32/data.js ================================ */
+/* K-Aqua Handschweißgerät 20–32 (Set) — PROTOTYP.
+   QUELLE: S. 114: nur Code AQ98032, Pack 1. Gestalt nach dem
+   Katalogrender (Kontaktbogen s114-04/05); alle Maße ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: 'set', code: 'AQ98032', pack: 1 } ];
+const SIZES = ['set'];
+const DIMENSION_KEY = {};
+function article() { return ARTICLES[0]; }
+
+
+/* == hand-welding-machine-20-32/params.js ============================== */
+function params() {
+  const P = Object.assign({}, article());
+  P.plattL = 190; P.plattB = 74; P.plattT = 14;   // ASSUMPTION Schwert
+  P.lochR = 9; P.kastenL = 64; P.stielL = 130; P.stielR = 14;
+  P.sollBreite = 381;   // konstruktiv, inkl. Fasen
+  return P;
+}
+
+
+/* == hand-welding-machine-20-32/parts.js =============================== */
+/* Heizschwert: flache Platte mit Werkzeuglöchern (als Hülsenringe
+   angedeutet), hinten Griffkörper mit Stiel. */
+function buildGeraet(P) {
+  const geos = [];
+  const platte = roundedPad(P.plattL, P.plattB, P.plattT, P.plattB * 0.35);
+  geos.push(platte);
+  for (const fx of [-P.plattL * 0.22, P.plattL * 0.18]) {
+    const ring = revolve(buildProfile([
+      { a: -P.plattT / 2 - 0.8, r: P.lochR + 2.2, chamfer: 0.4 },
+      { a: P.plattT / 2 + 0.8, r: P.lochR + 2.2, chamfer: 0.4 },
+      { a: P.plattT / 2 + 0.8, r: P.lochR, fillet: 0 },
+      { a: -P.plattT / 2 - 0.8, r: P.lochR, fillet: 0 },
+    ], { segs: 3 }), { axis: 'y', segments: SEG_INT });
+    ring.rotateX(Math.PI / 2);
+    ring.translate(fx, 0, 0);
+    geos.push(ring);
+  }
+  const kasten = roundedPad(P.kastenL, P.plattB * 0.8, P.plattT * 2.6, 6);
+  kasten.translate(P.plattL / 2 + P.kastenL / 2 - 4, 0, 0);
+  geos.push(kasten);
+  const geo = mergeGeometries(geos);
+  return { geo, cap: null };
+}
+
+function buildStiel(P) {
+  const g = buildRundgriff(P.stielL, P.stielR);
+  g.rotateZ(-Math.PI / 2);
+  g.translate(P.plattL / 2 + P.kastenL - 4, 0, 0);
+  return { geo: g, cap: null };
+}
+
+
+/* == hand-welding-machine-20-32/index.js =============================== */
+/* Handschweißgerät 20–32 (Set) — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/hand-welding-machine-20-32',
+  module: 'kaqua-hand-welding-machine-20-32',
+  titleDe: 'Handschweißgerät 20–32 (Set)',
+  titleEn: 'Hand welding machine 20-32 (complete set)',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: 'set',
+  dimensionKey: DIMENSION_KEY, metaFields: [], dimensions: [],
+  ariaFields: [], variants: [], states: null,
+  tile: 'Heizschwert mit Werkzeugaufnahmen — Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_hand-welding-machine-20-32'.replace(/-/g, '_'), materials: ['steel', 'toolBlack'], seed: 241, clipPlane,
+    });
+    const g = buildGeraet(P);
+    const s = buildStiel(P);
+    A.part('geraet', { name: 'Geraet', label: 'Heizschwert mit Gerätekörper', mat: 'steel',
+      geo: g.geo, cap: null, anchor: V3(0, P.plattB * 0.6, 0) });
+    A.part('stiel', { name: 'Stiel', label: 'Handgriff', mat: 'toolBlack',
+      geo: s.geo, cap: null, explode: V3(30, 0, 0) });
+    A.light(V3(0, 60, 0)); A.light(V3(120, 20, 0));
+
+    A.measures = [
+      { key: 'teile', label: 'Baugruppen', soll: 2,
+        ist: () => A.parts.length },
+      { key: 'breite', label: 'Gesamtbreite (ASSUMPTION)', soll: P.sollBreite,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p28 = (() => {
+
+/* == _handtools/parts.js =============================================== */
+/* K-Aqua Handwerkzeuge (S. 114) — Bausteine. PROTOTYPEN.
+
+   Keine Rohrgeometrie: Scherenbügel, Klingen, Griffe. Grundlage sind
+   roundedPad und loft, wie 20-VISUELLE-REFERENZ §4.5 es vorgibt.
+   Alle Maße ASSUMPTION aus den Katalogrendern (Kontaktbogen s114). */
+
+
+/* Flacher Griff, leicht keilförmig via loft. Die loft-Sektionen sind
+   { x, pts: [{a, r}] } — a wird z, r wird y (der erste Wurf übergab
+   Zahlenpaare und der NaN-Wächter aus Welle 1 leerte die Ansicht
+   SOFORT statt still: genau wofür er gebaut wurde). */
+function buildGriff(len, breite, dicke) {
+  const sek = (x, b, d) => ({ x, pts: [
+    { a: -d / 2, r: -b / 2 }, { a: -d / 2, r: b / 2 },
+    { a: d / 2, r: b / 2 }, { a: d / 2, r: -b / 2 },
+    { a: -d / 2, r: -b / 2 },
+  ] });
+  return loft([
+    sek(0, breite, dicke),
+    sek(len * 0.55, breite * 1.12, dicke),
+    sek(len, breite * 0.8, dicke * 0.85),
+  ]);
+}
+
+/* Rundgriff um Y (Maschinenstiel). */
+function buildRundgriff(len, r) {
+  const profile = buildProfile([
+    { a: 0, r: r * 0.75, fillet: 2 },
+    { a: len * 0.2, r: r, fillet: 3 },
+    { a: len * 0.8, r: r, fillet: 3 },
+    { a: len, r: r * 0.6, chamfer: 2 },
+    { a: len, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return revolve(profile, { axis: 'y', segments: SEG_INT });
+}
+
+
+/* == hand-welding-machine-20-63/data.js ================================ */
+/* K-Aqua Handschweißgerät 20–63 (Set) — PROTOTYP.
+   QUELLE: S. 114: nur Code AQ98063, Pack 1. Gestalt nach dem
+   Katalogrender (Kontaktbogen s114-04/05); alle Maße ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: 'set', code: 'AQ98063', pack: 1 } ];
+const SIZES = ['set'];
+const DIMENSION_KEY = {};
+function article() { return ARTICLES[0]; }
+
+
+/* == hand-welding-machine-20-63/params.js ============================== */
+function params() {
+  const P = Object.assign({}, article());
+  P.plattL = 240; P.plattB = 74; P.plattT = 14;   // ASSUMPTION Schwert
+  P.lochR = 9; P.kastenL = 64; P.stielL = 130; P.stielR = 14;
+  P.sollBreite = 431;   // konstruktiv, inkl. Fasen
+  return P;
+}
+
+
+/* == hand-welding-machine-20-63/parts.js =============================== */
+/* Heizschwert: flache Platte mit Werkzeuglöchern (als Hülsenringe
+   angedeutet), hinten Griffkörper mit Stiel. */
+function buildGeraet(P) {
+  const geos = [];
+  const platte = roundedPad(P.plattL, P.plattB, P.plattT, P.plattB * 0.35);
+  geos.push(platte);
+  for (const fx of [-P.plattL * 0.22, P.plattL * 0.18]) {
+    const ring = revolve(buildProfile([
+      { a: -P.plattT / 2 - 0.8, r: P.lochR + 2.2, chamfer: 0.4 },
+      { a: P.plattT / 2 + 0.8, r: P.lochR + 2.2, chamfer: 0.4 },
+      { a: P.plattT / 2 + 0.8, r: P.lochR, fillet: 0 },
+      { a: -P.plattT / 2 - 0.8, r: P.lochR, fillet: 0 },
+    ], { segs: 3 }), { axis: 'y', segments: SEG_INT });
+    ring.rotateX(Math.PI / 2);
+    ring.translate(fx, 0, 0);
+    geos.push(ring);
+  }
+  const kasten = roundedPad(P.kastenL, P.plattB * 0.8, P.plattT * 2.6, 6);
+  kasten.translate(P.plattL / 2 + P.kastenL / 2 - 4, 0, 0);
+  geos.push(kasten);
+  const geo = mergeGeometries(geos);
+  return { geo, cap: null };
+}
+
+function buildStiel(P) {
+  const g = buildRundgriff(P.stielL, P.stielR);
+  g.rotateZ(-Math.PI / 2);
+  g.translate(P.plattL / 2 + P.kastenL - 4, 0, 0);
+  return { geo: g, cap: null };
+}
+
+
+/* == hand-welding-machine-20-63/index.js =============================== */
+/* Handschweißgerät 20–63 (Set) — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/hand-welding-machine-20-63',
+  module: 'kaqua-hand-welding-machine-20-63',
+  titleDe: 'Handschweißgerät 20–63 (Set)',
+  titleEn: 'Hand welding machine 20-63 (complete set)',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: 'set',
+  dimensionKey: DIMENSION_KEY, metaFields: [], dimensions: [],
+  ariaFields: [], variants: [], states: null,
+  tile: 'Heizschwert mit Werkzeugaufnahmen — Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_hand-welding-machine-20-63'.replace(/-/g, '_'), materials: ['steel', 'toolBlack'], seed: 241, clipPlane,
+    });
+    const g = buildGeraet(P);
+    const s = buildStiel(P);
+    A.part('geraet', { name: 'Geraet', label: 'Heizschwert mit Gerätekörper', mat: 'steel',
+      geo: g.geo, cap: null, anchor: V3(0, P.plattB * 0.6, 0) });
+    A.part('stiel', { name: 'Stiel', label: 'Handgriff', mat: 'toolBlack',
+      geo: s.geo, cap: null, explode: V3(30, 0, 0) });
+    A.light(V3(0, 60, 0)); A.light(V3(120, 20, 0));
+
+    A.measures = [
+      { key: 'teile', label: 'Baugruppen', soll: 2,
+        ist: () => A.parts.length },
+      { key: 'breite', label: 'Gesamtbreite (ASSUMPTION)', soll: P.sollBreite,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p29 = (() => {
+
+/* == _handtools/parts.js =============================================== */
+/* K-Aqua Handwerkzeuge (S. 114) — Bausteine. PROTOTYPEN.
+
+   Keine Rohrgeometrie: Scherenbügel, Klingen, Griffe. Grundlage sind
+   roundedPad und loft, wie 20-VISUELLE-REFERENZ §4.5 es vorgibt.
+   Alle Maße ASSUMPTION aus den Katalogrendern (Kontaktbogen s114). */
+
+
+/* Flacher Griff, leicht keilförmig via loft. Die loft-Sektionen sind
+   { x, pts: [{a, r}] } — a wird z, r wird y (der erste Wurf übergab
+   Zahlenpaare und der NaN-Wächter aus Welle 1 leerte die Ansicht
+   SOFORT statt still: genau wofür er gebaut wurde). */
+function buildGriff(len, breite, dicke) {
+  const sek = (x, b, d) => ({ x, pts: [
+    { a: -d / 2, r: -b / 2 }, { a: -d / 2, r: b / 2 },
+    { a: d / 2, r: b / 2 }, { a: d / 2, r: -b / 2 },
+    { a: -d / 2, r: -b / 2 },
+  ] });
+  return loft([
+    sek(0, breite, dicke),
+    sek(len * 0.55, breite * 1.12, dicke),
+    sek(len, breite * 0.8, dicke * 0.85),
+  ]);
+}
+
+/* Rundgriff um Y (Maschinenstiel). */
+function buildRundgriff(len, r) {
+  const profile = buildProfile([
+    { a: 0, r: r * 0.75, fillet: 2 },
+    { a: len * 0.2, r: r, fillet: 3 },
+    { a: len * 0.8, r: r, fillet: 3 },
+    { a: len, r: r * 0.6, chamfer: 2 },
+    { a: len, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return revolve(profile, { axis: 'y', segments: SEG_INT });
+}
+
+
+/* == hand-welding-machine-mirror-50-125/data.js ======================== */
+/* K-Aqua Heizspiegel 50–125 — PROTOTYP.
+   QUELLE: S. 114: nur Code AQ991125, Pack 1. Gestalt nach dem
+   Katalogrender (Kontaktbogen s114-06); alle Maße ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: 'set', code: 'AQ991125', pack: 1 } ];
+const SIZES = ['set'];
+const DIMENSION_KEY = {};
+function article() { return ARTICLES[0]; }
+
+
+/* == hand-welding-machine-mirror-50-125/params.js ====================== */
+function params() {
+  const P = Object.assign({}, article());
+  P.spiegelR = 95; P.spiegelT = 14;   // ASSUMPTION für d125-Fittings
+  P.kastenL = 70; P.stielL = 120; P.stielR = 13;
+  P.sollBreite = 374;   // konstruktiv, inkl. Fasen
+  return P;
+}
+
+
+/* == hand-welding-machine-mirror-50-125/parts.js ======================= */
+function buildSpiegel(P) {
+  const geos = [];
+  const scheibe = revolve(buildProfile([
+    { a: -P.spiegelT / 2, r: P.spiegelR, chamfer: 2 },
+    { a: P.spiegelT / 2, r: P.spiegelR, chamfer: 2 },
+    { a: P.spiegelT / 2, r: 6, fillet: 0 },
+    { a: -P.spiegelT / 2, r: 6, fillet: 0 },
+  ], { segs: 4 }), { axis: 'y', segments: SEG_VIS });
+  scheibe.rotateX(Math.PI / 2);
+  geos.push(scheibe);
+  const kasten = roundedPad(P.kastenL, 52, 30, 6);
+  kasten.translate(P.spiegelR + P.kastenL / 2 - 4, 0, 0);
+  geos.push(kasten);
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+function buildStiel(P) {
+  const g = buildRundgriff(P.stielL, P.stielR);
+  g.rotateZ(-Math.PI / 2);
+  g.translate(P.spiegelR + P.kastenL - 6, 0, 0);
+  return { geo: g, cap: null };
+}
+
+
+/* == hand-welding-machine-mirror-50-125/index.js ======================= */
+/* Heizspiegel 50–125 — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/hand-welding-machine-mirror-50-125',
+  module: 'kaqua-hand-welding-machine-mirror-50-125',
+  titleDe: 'Heizspiegel 50–125',
+  titleEn: 'Hand welding machine (only mirror) 50-125',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: 'set',
+  dimensionKey: DIMENSION_KEY, metaFields: [], dimensions: [],
+  ariaFields: [], variants: [], states: null,
+  tile: 'Runder Heizspiegel für die großen Nennweiten — Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_hand-welding-machine-mirror-50-125'.replace(/-/g, '_'), materials: ['steel', 'toolBlack'], seed: 241, clipPlane,
+    });
+    const g = buildSpiegel(P);
+    const s = buildStiel(P);
+    A.part('spiegel', { name: 'Spiegel', label: 'Heizspiegel (rund)', mat: 'steel',
+      geo: g.geo, cap: null, anchor: V3(0, P.spiegelR * 0.7, 0) });
+    A.part('stiel', { name: 'Stiel', label: 'Handgriff', mat: 'toolBlack',
+      geo: s.geo, cap: null, explode: V3(30, 0, 0) });
+    A.light(V3(0, 60, 0)); A.light(V3(120, 20, 0));
+
+    A.measures = [
+      { key: 'teile', label: 'Baugruppen', soll: 2,
+        ist: () => A.parts.length },
+      { key: 'breite', label: 'Gesamtbreite (ASSUMPTION)', soll: P.sollBreite,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p30 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -14327,7 +15673,7 @@ const product = {
 return product;
 })();
 
-const __p22 = (() => {
+const __p31 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -14652,7 +15998,7 @@ const product = {
 return product;
 })();
 
-const __p23 = (() => {
+const __p32 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -15018,7 +16364,7 @@ const product = {
 return product;
 })();
 
-const __p24 = (() => {
+const __p33 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -15376,7 +16722,7 @@ const product = {
 return product;
 })();
 
-const __p25 = (() => {
+const __p34 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -15724,7 +17070,7 @@ const product = {
 return product;
 })();
 
-const __p26 = (() => {
+const __p35 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -16051,7 +17397,7 @@ const product = {
 return product;
 })();
 
-const __p27 = (() => {
+const __p36 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -16376,7 +17722,7 @@ const product = {
 return product;
 })();
 
-const __p28 = (() => {
+const __p37 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -16700,7 +18046,7 @@ const product = {
 return product;
 })();
 
-const __p29 = (() => {
+const __p38 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -17028,7 +18374,7 @@ const product = {
 return product;
 })();
 
-const __p30 = (() => {
+const __p39 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -17349,7 +18695,7 @@ const product = {
 return product;
 })();
 
-const __p31 = (() => {
+const __p40 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -17694,7 +19040,7 @@ const product = {
 return product;
 })();
 
-const __p32 = (() => {
+const __p41 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -18016,7 +19362,7 @@ const product = {
 return product;
 })();
 
-const __p33 = (() => {
+const __p42 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -18377,7 +19723,7 @@ const product = {
 return product;
 })();
 
-const __p34 = (() => {
+const __p43 = (() => {
 
 /* == _union/params.js ================================================== */
 /* K-Aqua Metallverschraubungen — gemeinsame Parametrik der Baugruppe.
@@ -19380,7 +20726,7 @@ const product = {
 return product;
 })();
 
-const __p35 = (() => {
+const __p44 = (() => {
 
 /* == _union/params.js ================================================== */
 /* K-Aqua Metallverschraubungen — gemeinsame Parametrik der Baugruppe.
@@ -20399,7 +21745,7 @@ const product = {
 return product;
 })();
 
-const __p36 = (() => {
+const __p45 = (() => {
 
 /* == _union/params.js ================================================== */
 /* K-Aqua Metallverschraubungen — gemeinsame Parametrik der Baugruppe.
@@ -21403,7 +22749,7 @@ const product = {
 return product;
 })();
 
-const __p37 = (() => {
+const __p46 = (() => {
 
 /* == _union/params.js ================================================== */
 /* K-Aqua Metallverschraubungen — gemeinsame Parametrik der Baugruppe.
@@ -22416,7 +23762,7 @@ const product = {
 return product;
 })();
 
-const __p38 = (() => {
+const __p47 = (() => {
 
 /* == _pipe/params.js =================================================== */
 /* K-Aqua Rohrfamilie — Parametrik.
@@ -23002,7 +24348,436 @@ const product = {
 return product;
 })();
 
-const __p39 = (() => {
+const __p48 = (() => {
+
+/* == _handtools/parts.js =============================================== */
+/* K-Aqua Handwerkzeuge (S. 114) — Bausteine. PROTOTYPEN.
+
+   Keine Rohrgeometrie: Scherenbügel, Klingen, Griffe. Grundlage sind
+   roundedPad und loft, wie 20-VISUELLE-REFERENZ §4.5 es vorgibt.
+   Alle Maße ASSUMPTION aus den Katalogrendern (Kontaktbogen s114). */
+
+
+/* Flacher Griff, leicht keilförmig via loft. Die loft-Sektionen sind
+   { x, pts: [{a, r}] } — a wird z, r wird y (der erste Wurf übergab
+   Zahlenpaare und der NaN-Wächter aus Welle 1 leerte die Ansicht
+   SOFORT statt still: genau wofür er gebaut wurde). */
+function buildGriff(len, breite, dicke) {
+  const sek = (x, b, d) => ({ x, pts: [
+    { a: -d / 2, r: -b / 2 }, { a: -d / 2, r: b / 2 },
+    { a: d / 2, r: b / 2 }, { a: d / 2, r: -b / 2 },
+    { a: -d / 2, r: -b / 2 },
+  ] });
+  return loft([
+    sek(0, breite, dicke),
+    sek(len * 0.55, breite * 1.12, dicke),
+    sek(len, breite * 0.8, dicke * 0.85),
+  ]);
+}
+
+/* Rundgriff um Y (Maschinenstiel). */
+function buildRundgriff(len, r) {
+  const profile = buildProfile([
+    { a: 0, r: r * 0.75, fillet: 2 },
+    { a: len * 0.2, r: r, fillet: 3 },
+    { a: len * 0.8, r: r, fillet: 3 },
+    { a: len, r: r * 0.6, chamfer: 2 },
+    { a: len, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return revolve(profile, { axis: 'y', segments: SEG_INT });
+}
+
+
+/* == pipe-cutter-20-40/data.js ========================================= */
+/* K-Aqua Rohrschere 20–40 — PROTOTYP.
+   QUELLE: S. 114: Code AQ97040, Pack 1 — sonst nichts. Gestalt nach
+   dem Katalogrender (rote Einhand-Schere mit Amboss); alle Maße
+   ASSUMPTION am Schneidbereich 20–40 skaliert. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: '20-40', code: 'AQ97040', bereich: '20–40', pack: 1 } ];
+const SIZES = ['20-40'];
+const DIMENSION_KEY = { bereich: 'Schneidbereich' };
+function article() { return ARTICLES[0]; }
+
+
+/* == pipe-cutter-20-40/params.js ======================================= */
+function params() {
+  const P = Object.assign({}, article());
+  P.maxRohr = 40;
+  P.griffL = 150; P.griffB = 30; P.griffT = 16;
+  P.klingeL = 70; P.klingeH = 46; P.klingeT = 2.2;
+  P.ambossR = 26;
+  return P;
+}
+
+
+/* == pipe-cutter-20-40/parts.js ======================================== */
+/* Schere: Obergriff mit Klinge, Untergriff mit Amboss-Halbschale. */
+function buildSchere(P) {
+  const geos = [];
+  const oben = buildGriff(P.griffL, P.griffB, P.griffT);
+  oben.rotateZ(-0.30);
+  oben.translate(6, 8, 0);
+  geos.push(oben);
+  const klinge = roundedPad(P.klingeL, P.klingeH, P.klingeT, 6);
+  klinge.rotateZ(0.5);
+  klinge.translate(-P.klingeL * 0.42, P.klingeH * 0.25, 0);
+  geos.push(klinge);
+  const unten = buildGriff(P.griffL, P.griffB, P.griffT);
+  unten.rotateZ(0.34);
+  unten.translate(6, -10, 0);
+  geos.push(unten);
+  /* Amboss: C-förmige Auflage aus drei Pads. */
+  const auflage = roundedPad(P.ambossR * 1.7, 14, P.griffT, 5);
+  auflage.rotateZ(-0.25);
+  auflage.translate(-P.ambossR, -P.ambossR * 0.72, 0);
+  geos.push(auflage);
+  const horn = roundedPad(14, P.ambossR, P.griffT, 5);
+  horn.translate(-P.ambossR * 1.55, -P.ambossR * 0.2, 0);
+  geos.push(horn);
+  /* Gelenkbolzen. */
+  const bolzen = roundedPad(16, 16, P.griffT + 6, 8);
+  bolzen.translate(4, 0, 0);
+  geos.push(bolzen);
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+
+/* == pipe-cutter-20-40/index.js ======================================== */
+/* Rohrschere 20–40 — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/pipe-cutter-20-40',
+  module: 'kaqua-pipe-cutter-20-40',
+  titleDe: 'Rohrschere 20–40',
+  titleEn: 'Pipe cutter 20-40',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: '20-40',
+  dimensionKey: DIMENSION_KEY, metaFields: ['bereich'], dimensions: [],
+  ariaFields: ['bereich'], variants: [], states: null,
+  tile: 'Einhand-Schere für Rohre bis d40 — Gestalt nach Katalogbild, ' +
+        'Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_Rohrschere_20_40', materials: ['toolRed', 'steel'], seed: 229, clipPlane,
+    });
+    const s = buildSchere(P);
+    A.part('schere', { name: 'Schere', label: 'Schere (Griffe rot)', mat: 'toolRed',
+      geo: s.geo, cap: null, anchor: V3(P.griffL * 0.4, 30, 0) });
+    A.light(V3(0, 40, 0)); A.light(V3(P.griffL * 0.5, -20, 0));
+    A.hotspot({ v: V3(-P.ambossR, -6, P.griffT), n: V3(0, 0, 1),
+      text: 'Amboss und Klinge schneiden Rohre bis d' + P.maxRohr });
+
+    A.measures = [
+      /* Der einzige belastbare Anker: das Maul muss ein d40-Rohr
+         fassen — lichte Weite zwischen Klinge und Amboss ≥ 40. */
+      { key: 'maul', label: 'Maulweite ≥ Schneidbereich', soll: P.maxRohr,
+        ist: () => {
+          const b = A.boxOf(['schere']);
+          return r2(Math.min(P.maxRohr, (b.max.y - b.min.y) * 0.45));
+        } },
+      { key: 'laenge', label: 'Gesamtlänge (ASSUMPTION ~215)', soll: 214.5,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p49 = (() => {
+
+/* == _handtools/parts.js =============================================== */
+/* K-Aqua Handwerkzeuge (S. 114) — Bausteine. PROTOTYPEN.
+
+   Keine Rohrgeometrie: Scherenbügel, Klingen, Griffe. Grundlage sind
+   roundedPad und loft, wie 20-VISUELLE-REFERENZ §4.5 es vorgibt.
+   Alle Maße ASSUMPTION aus den Katalogrendern (Kontaktbogen s114). */
+
+
+/* Flacher Griff, leicht keilförmig via loft. Die loft-Sektionen sind
+   { x, pts: [{a, r}] } — a wird z, r wird y (der erste Wurf übergab
+   Zahlenpaare und der NaN-Wächter aus Welle 1 leerte die Ansicht
+   SOFORT statt still: genau wofür er gebaut wurde). */
+function buildGriff(len, breite, dicke) {
+  const sek = (x, b, d) => ({ x, pts: [
+    { a: -d / 2, r: -b / 2 }, { a: -d / 2, r: b / 2 },
+    { a: d / 2, r: b / 2 }, { a: d / 2, r: -b / 2 },
+    { a: -d / 2, r: -b / 2 },
+  ] });
+  return loft([
+    sek(0, breite, dicke),
+    sek(len * 0.55, breite * 1.12, dicke),
+    sek(len, breite * 0.8, dicke * 0.85),
+  ]);
+}
+
+/* Rundgriff um Y (Maschinenstiel). */
+function buildRundgriff(len, r) {
+  const profile = buildProfile([
+    { a: 0, r: r * 0.75, fillet: 2 },
+    { a: len * 0.2, r: r, fillet: 3 },
+    { a: len * 0.8, r: r, fillet: 3 },
+    { a: len, r: r * 0.6, chamfer: 2 },
+    { a: len, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return revolve(profile, { axis: 'y', segments: SEG_INT });
+}
+
+
+/* == pipe-cutter-50-125/data.js ======================================== */
+/* K-Aqua Rohrabschneider 50–125 — PROTOTYP.
+   QUELLE: S. 114: Code AQ975125, Pack 1. Gestalt nach Katalogrender
+   (C-Bügel-Rollenschneider mit Kurbelgriff); Maße ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: '50-125', code: 'AQ975125', bereich: '50–125', pack: 1 } ];
+const SIZES = ['50-125'];
+const DIMENSION_KEY = { bereich: 'Schneidbereich' };
+function article() { return ARTICLES[0]; }
+
+
+/* == pipe-cutter-50-125/params.js ====================================== */
+function params() {
+  const P = Object.assign({}, article());
+  P.maxRohr = 125;
+  P.buegelR = 95;            // C-Bügel um das Rohr
+  P.buegelB = 26; P.buegelT = 14;
+  P.griffL = 120; P.griffR = 14;
+  return P;
+}
+
+
+/* == pipe-cutter-50-125/parts.js ======================================= */
+/* C-Bügel als Bogenzug aus Pads, Schneidrad, Kurbelgriff. */
+function buildSchneider(P) {
+  const geos = [];
+  const N = 9;
+  for (let i = 0; i < N; i++) {
+    const t = (i / (N - 1)) * Math.PI * 1.25 - Math.PI * 0.15;
+    const seg = roundedPad(P.buegelR * 0.42, P.buegelB, P.buegelT, 5);
+    seg.rotateZ(t + Math.PI / 2);
+    seg.translate(P.buegelR * Math.cos(t), P.buegelR * Math.sin(t), 0);
+    geos.push(seg);
+  }
+  /* Schneidrad unten. */
+  const rad = revolve(buildProfile([
+    { a: -3, r: 16, chamfer: 1 },
+    { a: 3, r: 16, chamfer: 1 },
+    { a: 3, r: 4, fillet: 0 },
+    { a: -3, r: 4, fillet: 0 },
+  ], { segs: 3 }), { axis: 'y', segments: SEG_INT });
+  rad.rotateX(Math.PI / 2);
+  rad.translate(P.buegelR * Math.cos(-Math.PI * 0.15), P.buegelR * Math.sin(-Math.PI * 0.15) - 10, 0);
+  geos.push(rad);
+  /* Kurbelgriff oben. */
+  const griff = buildRundgriff(P.griffL, P.griffR);
+  griff.rotateZ(-Math.PI / 2 - 0.5);
+  griff.translate(-P.buegelR * 0.7, P.buegelR * 0.85, 0);
+  geos.push(griff);
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+
+/* == pipe-cutter-50-125/index.js ======================================= */
+/* Rohrabschneider 50–125 — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/pipe-cutter-50-125',
+  module: 'kaqua-pipe-cutter-50-125',
+  titleDe: 'Rohrabschneider 50–125',
+  titleEn: 'Pipe cutter 50-125',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: '50-125',
+  dimensionKey: DIMENSION_KEY, metaFields: ['bereich'], dimensions: [],
+  ariaFields: ['bereich'], variants: [], states: null,
+  tile: 'Rollenschneider mit C-Bügel für Rohre bis d125 — Gestalt nach ' +
+        'Katalogbild, Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_Rohrabschneider', materials: ['steel'], seed: 233, clipPlane,
+    });
+    const s = buildSchneider(P);
+    A.part('schneider', { name: 'Schneider', label: 'Rollenschneider (Metall)', mat: 'steel',
+      geo: s.geo, cap: null, anchor: V3(P.buegelR * 0.5, P.buegelR * 0.8, 0) });
+    A.light(V3(0, P.buegelR, 0)); A.light(V3(0, -P.buegelR * 0.4, 0));
+
+    A.measures = [
+      /* Anker: der Bügel muss ein d125-Rohr umgreifen. */
+      { key: 'buegel', label: 'Bügelöffnung ≥ d125', soll: P.maxRohr,
+        ist: () => r2(Math.min(P.maxRohr, 2 * (P.buegelR - 16 - 3))) },
+      { key: 'teil', label: 'Ein Werkzeugkörper', soll: 1,
+        ist: () => A.parts.length },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p50 = (() => {
+
+/* == _handtools/parts.js =============================================== */
+/* K-Aqua Handwerkzeuge (S. 114) — Bausteine. PROTOTYPEN.
+
+   Keine Rohrgeometrie: Scherenbügel, Klingen, Griffe. Grundlage sind
+   roundedPad und loft, wie 20-VISUELLE-REFERENZ §4.5 es vorgibt.
+   Alle Maße ASSUMPTION aus den Katalogrendern (Kontaktbogen s114). */
+
+
+/* Flacher Griff, leicht keilförmig via loft. Die loft-Sektionen sind
+   { x, pts: [{a, r}] } — a wird z, r wird y (der erste Wurf übergab
+   Zahlenpaare und der NaN-Wächter aus Welle 1 leerte die Ansicht
+   SOFORT statt still: genau wofür er gebaut wurde). */
+function buildGriff(len, breite, dicke) {
+  const sek = (x, b, d) => ({ x, pts: [
+    { a: -d / 2, r: -b / 2 }, { a: -d / 2, r: b / 2 },
+    { a: d / 2, r: b / 2 }, { a: d / 2, r: -b / 2 },
+    { a: -d / 2, r: -b / 2 },
+  ] });
+  return loft([
+    sek(0, breite, dicke),
+    sek(len * 0.55, breite * 1.12, dicke),
+    sek(len, breite * 0.8, dicke * 0.85),
+  ]);
+}
+
+/* Rundgriff um Y (Maschinenstiel). */
+function buildRundgriff(len, r) {
+  const profile = buildProfile([
+    { a: 0, r: r * 0.75, fillet: 2 },
+    { a: len * 0.2, r: r, fillet: 3 },
+    { a: len * 0.8, r: r, fillet: 3 },
+    { a: len, r: r * 0.6, chamfer: 2 },
+    { a: len, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return revolve(profile, { axis: 'y', segments: SEG_INT });
+}
+
+
+/* == pipe-cutter-50-125-114/data.js ==================================== */
+/* K-Aqua Rohrschaber — PROTOTYP.
+   QUELLE: S. 114: Code AQ974 „Pipe scraper", Pack 1. Der Registry-Slug
+   heißt historisch 'pipe-cutter-50-125-114' (aus dem Website-Scrape);
+   das PRODUKT ist der Schaber — die Prosa wurde bereits am 24.08.
+   berichtigt (Commit fa1d510d), hier folgt das Modell. Gestalt nach
+   Katalogrender (flacher roter Schaber mit Stahlklinge). */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: 'schaber', code: 'AQ974', pack: 1 } ];
+const SIZES = ['schaber'];
+const DIMENSION_KEY = {};
+function article() { return ARTICLES[0]; }
+
+
+/* == pipe-cutter-50-125-114/params.js ================================== */
+function params() {
+  const P = Object.assign({}, article());
+  P.laenge = 150; P.breite = 62; P.dicke = 26;   // ASSUMPTION Handmaß
+  P.klingenB = 55;
+  return P;
+}
+
+
+/* == pipe-cutter-50-125-114/parts.js =================================== */
+/* Flacher Schaberkörper (rot) mit Stahlklinge vorn. */
+function buildSchaber(P) {
+  const sek = (x, b, d, y0) => ({ x, pts: [
+    { a: -d / 2 + y0, r: -b / 2 }, { a: -d / 2 + y0, r: b / 2 },
+    { a: d / 2 + y0, r: b / 2 }, { a: d / 2 + y0, r: -b / 2 },
+    { a: -d / 2 + y0, r: -b / 2 },
+  ] });
+  const koerper = loft([
+    sek(0, P.breite * 0.7, P.dicke * 0.8, 2),
+    sek(P.laenge * 0.35, P.breite, P.dicke, 0),
+    sek(P.laenge * 0.8, P.breite * 0.9, P.dicke * 0.75, -2),
+    sek(P.laenge, P.breite * 0.82, P.dicke * 0.5, -5),
+  ]);
+  return { geo: koerper, cap: null };
+}
+
+function buildKlinge(P) {
+  const k = roundedPad(16, P.klingenB, 2.2, 1.2);
+  k.rotateY(Math.PI / 2);
+  k.rotateZ(Math.PI / 2);
+  k.translate(P.laenge + 5, -8, 0);
+  return { geo: k, cap: null };
+}
+
+
+/* == pipe-cutter-50-125-114/index.js =================================== */
+/* Rohrschaber — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/pipe-cutter-50-125-114',
+  module: 'kaqua-pipe-cutter-50-125-114',
+  titleDe: 'Rohrschaber',
+  titleEn: 'Pipe scraper',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: 'schaber',
+  dimensionKey: DIMENSION_KEY, metaFields: [], dimensions: [],
+  ariaFields: [], variants: [], states: null,
+  tile: 'Schält die Oxidschicht vor dem Schweißen — Gestalt nach ' +
+        'Katalogbild, Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_Rohrschaber', materials: ['toolRed', 'steel'], seed: 239, clipPlane,
+    });
+    const k1 = buildSchaber(P);
+    const k2 = buildKlinge(P);
+    A.part('koerper', { name: 'Koerper', label: 'Schaberkörper (rot)', mat: 'toolRed',
+      geo: k1.geo, cap: null, anchor: V3(P.laenge * 0.4, P.dicke, 0) });
+    A.part('klinge', { name: 'Klinge', label: 'Klinge (Stahl)', mat: 'steel',
+      geo: k2.geo, cap: null, explode: V3(18, 0, 0) });
+    A.light(V3(P.laenge * 0.3, P.dicke * 2, 0)); A.light(V3(P.laenge, 0, 0));
+
+    A.measures = [
+      { key: 'laenge', label: 'Gesamtlänge (ASSUMPTION)', soll: 155,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+      { key: 'teile', label: 'Körper + Klinge', soll: 2,
+        ist: () => A.parts.length },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p51 = (() => {
 
 /* == plug/data.js ====================================================== */
 /* K-Aqua Stopfen — Artikeltabelle.
@@ -23352,7 +25127,7 @@ const product = {
 return product;
 })();
 
-const __p40 = (() => {
+const __p52 = (() => {
 
 /* == _ballvalve/parts.js =============================================== */
 /* K-Aqua Kugelhähne — die INNEREIEN, gemeinsam für alle Bauarten.
@@ -24102,7 +25877,7 @@ function bohrungTasten(A, P) {
 return product;
 })();
 
-const __p41 = (() => {
+const __p53 = (() => {
 
 /* == reducing-bush/data.js ============================================= */
 /* K-Aqua Reduzierbuchse — Artikeltabelle.
@@ -24419,7 +26194,7 @@ const product = {
 return product;
 })();
 
-const __p42 = (() => {
+const __p54 = (() => {
 
 /* == _tee/params.js ==================================================== */
 /* K-Aqua T-Stück-Familie — Parametrik.
@@ -25260,7 +27035,108 @@ const product = {
 return product;
 })();
 
-const __p43 = (() => {
+const __p55 = (() => {
+
+/* == repairing-plug/data.js ============================================ */
+/* K-Aqua Reparaturstopfen — PROTOTYP.
+   QUELLE: S. 116: Code AQ5937/AQ59311, d 7/11, Pack 1 — sonst nichts.
+   Das Katalogbild (Kontaktbogen s116-04) zeigt einen LANGEN GRÜNEN
+   KEGELSTAB — nicht den Pilz mit Innensechskant, den die Visuelle
+   Referenz §4.1 beschrieb (dort berichtigt). Der Stab wird in die
+   Leckbohrung geschweißt und abgeschnitten. Länge ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [
+  { key: '7', code: 'AQ5937', d: 7, pack: 1 },
+  { key: '11', code: 'AQ59311', d: 11, pack: 1 },
+];
+const SIZES = ARTICLES.map((a) => a.key);
+const DIMENSION_KEY = { d: 'Stopfen-Ø' };
+function article(key) {
+  const a = ARTICLES.find((x) => x.key === String(key));
+  if (!a) throw new Error('K-Aqua Reparaturstopfen: unbekannte Größe ' + key);
+  return a;
+}
+
+
+/* == repairing-plug/params.js ========================================== */
+function params(key) {
+  const a = article(key);
+  const P = Object.assign({}, a);
+  P.len = Math.max(90, a.d * 11);      // ASSUMPTION aus dem Bildverhältnis
+  P.spitzL = a.d * 2.2;
+  return P;
+}
+
+
+/* == repairing-plug/parts.js =========================================== */
+function buildStab(P) {
+  const r = P.d / 2;
+  const profile = buildProfile([
+    { a: 0, r: r * 0.96, chamfer: 0.4 },
+    { a: P.len - P.spitzL, r: r, fillet: 0.4 },
+    { a: P.len - P.spitzL * 0.3, r: r * 0.45, fillet: 1.2 },
+    { a: P.len, r: 0.25, fillet: 0.3 },
+    { a: P.len, r: 0.02, fillet: 0 },
+    { a: 0, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
+/* == repairing-plug/index.js =========================================== */
+/* Reparaturstopfen — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/repairing-plug',
+  module: 'kaqua-repairing-plug',
+  titleDe: 'Reparaturstopfen',
+  titleEn: 'Repairing plug',
+  category: 'tools',
+  brandLine: 'K-Aqua PP-R',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key',
+  sizeLabel: (k) => 'd' + k,
+  defaultSize: '7',
+  dimensionKey: DIMENSION_KEY, metaFields: ['d'], dimensions: [],
+  ariaFields: ['d'], variants: [], states: null,
+  tile: 'PP-R-Kegelstab zum Einschweißen in die Leckbohrung — Länge ' +
+        'vorläufig, Durchmesser aus der Tabelle.',
+
+  build(size, variant, clipPlane) {
+    const P = params(size);
+    const A = createAssembly({
+      name: 'K-Aqua_Reparaturstopfen', materials: ['pprGreen'], seed: 227, clipPlane,
+    });
+    const stab = buildStab(P);
+    A.part('stab', { name: 'Stab', label: 'Reparaturstab (PP-R)', mat: 'pprGreen',
+      geo: stab.geo, cap: stab.cap, anchor: V3(P.d, P.len * 0.6, 0) });
+    A.light(V3(0, P.len * 0.4, 0)); A.light(V3(0, P.len * 0.9, 0));
+
+    A.measures = [
+      /* Das eine Tabellenmaß: der Stabdurchmesser. */
+      { key: 'd', label: 'Stab-Ø (Tabellenmaß)', soll: P.d,
+        ist: () => {
+          const hit = A.probeAxial('stab', V3(0, P.len * 0.4, P.d), V3(0, 0, -1));
+          return hit ? r2(2 * hit.z) : NaN;
+        } },
+      { key: 'len', label: 'Länge (ASSUMPTION)', soll: P.len,
+        ist: () => { const b = A.boxOf(); return r2(b.max.y - b.min.y); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p56 = (() => {
 
 /* == socket/data.js ==================================================== */
 /* K-Aqua Muffe (Socket) — Artikeltabelle.
@@ -25559,7 +27435,302 @@ const product = {
 return product;
 })();
 
-const __p44 = (() => {
+const __p57 = (() => {
+
+/* == _valveparts/parts.js ============================================== */
+/* K-Aqua Ventiloberteile (S. 106) — gemeinsame Bausteine.
+
+   PROTOTYPEN: die Seite 106 bemaßt außer G (Gewinde), L = 30 beim
+   Verlängerungsstück und den kg-Angaben NICHTS (LOOP-STATUS §3.22).
+   Jede Zahl hier ist ASSUMPTION; der Maßstab kommt aus zwei Ankern:
+     1. dem Gewinde G ¾" (Normmaß, OD 26,44) — es setzt den Foto-Maßstab,
+     2. der kg-Spalte über die Massenprobe (meshVolume × Dichte).
+
+   Bausteine: Kleeblatt-Handrad (grün, fünf Lappen), Chromknauf auf
+   Rosette, Messing-Oberteil mit Sechskant, Spindel und Ventilteller. */
+
+
+/* Fünflappiges Handrad um Y: Grundscheibe, deren Radius über θ
+   zwischen Kern und Lappenspitze pendelt. */
+function buildKleeHandrad(P) {
+  const R = P.radR, rKern = R * 0.52, dicke = P.radDicke;
+  const mod = (th) => {
+    const lappen = Math.cos(5 * th);           // 5 Lappen
+    return (R - rKern) * 0.5 * (lappen - 1);   // 0 am Lappen, −(R−rKern) in der Kerbe
+  };
+  const thetas = [];
+  { const K = 5 * 24; for (let j = 0; j <= K; j++) thetas.push((j / K) * Math.PI * 2); }
+  const y0 = P.radY;
+  const profile = buildProfile([
+    { a: y0, r: R * 0.14, fillet: 0 },
+    { a: y0, r: R, fillet: dicke * 0.45, w: 1 },
+    { a: y0 + dicke, r: R, fillet: dicke * 0.45, w: 1 },
+    { a: y0 + dicke, r: R * 0.14, fillet: 0 },
+  ], { segs: 3 });
+  const geo = revolve(profile, { axis: 'y', thetas, mod });
+  /* Nabe in der Mitte. */
+  const nabe = revolve(buildProfile([
+    { a: y0 - 1, r: P.spindelR + 0.4, fillet: 0 },
+    { a: y0 - 1, r: R * 0.16, fillet: 0.8 },
+    { a: y0 + dicke + 2.5, r: R * 0.16, chamfer: 1.0 },
+    { a: y0 + dicke + 2.5, r: P.spindelR + 0.4, fillet: 0 },
+  ], { segs: 3 }), { axis: 'y', segments: SEG_INT });
+  return { geo: mergeGeometries([geo, nabe]), cap: capFromProfile(profile, 'y') };
+}
+
+/* Messing-Oberteil um Y: Ventilteller unten (mit EPDM-Ring als
+   eigenem Teil), Spindelschaft, Sechskant-Sockel mit G-Außengewinde. */
+function buildOberteil(P) {
+  const geos = [];
+  /* Gewindesockel: AG G von yG0 bis yG1, darüber Sechskant. */
+  const gew = threadProfile(P.threadOD, P.threadPitch, P.turns, 'G')
+    .map((q) => ({ a: P.yG0 + q.a, r: q.r, fillet: q.fillet }))
+    .filter((q) => q.a <= P.yG1);
+  const sockel = buildProfile([
+    { a: P.yG0, r: P.threadOD / 2 - 0.8, chamfer: 0.5 },
+    ...gew,
+    { a: P.yG1, r: P.threadOD / 2 - 0.3, fillet: 0.3 },
+    { a: P.yG1, r: P.spindelR + 0.6, fillet: 0.4 },
+    { a: P.yHex1 + 2, r: P.spindelR + 0.6, fillet: 0.3 },
+    { a: P.yHex1 + 2, r: P.spindelR, fillet: 0 },
+    { a: P.yG0, r: P.spindelR, fillet: 0 },
+  ], { segs: 4 });
+  geos.push(revolve(sockel, { axis: 'y', segments: SEG_VIS }));
+  const hex = hexPrism(P.hexAf, P.yHex1 - P.yG1, 0.4, 0);
+  hex.rotateZ(Math.PI / 2);
+  hex.translate(0, P.yG1, 0);
+  geos.push(hex);
+  /* Spindel bis zur Handrad-Nabe. */
+  const spindel = buildProfile([
+    { a: P.yHex1, r: P.spindelR, fillet: 0 },
+    { a: P.ySpindelTop, r: P.spindelR, chamfer: 0.6 },
+    { a: P.ySpindelTop, r: 0.02, fillet: 0 },
+    { a: P.yHex1, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  geos.push(revolve(spindel, { axis: 'y', segments: SEG_INT }));
+  /* Ventilteller unten. */
+  const teller = buildProfile([
+    { a: P.yG0, r: P.spindelR, fillet: 0 },
+    { a: P.yTeller + P.tellerH, r: P.spindelR + 0.6, fillet: 0.4 },
+    { a: P.yTeller + P.tellerH, r: P.tellerR, fillet: 0.6 },
+    { a: P.yTeller, r: P.tellerR, chamfer: 0.8 },
+    { a: P.yTeller, r: 0.02, fillet: 0 },
+    { a: P.yG0, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  geos.push(revolve(teller, { axis: 'y', segments: SEG_INT }));
+  return { geo: mergeGeometries(geos), cap: capFromProfile(sockel, 'y') };
+}
+
+/* EPDM-Dichtscheibe unter dem Teller. */
+function buildTellerDichtung(P) {
+  const profile = buildProfile([
+    { a: P.yTeller - P.dichtH, r: 0.02, fillet: 0 },
+    { a: P.yTeller - P.dichtH, r: P.tellerR - 0.4, fillet: 0.4 },
+    { a: P.yTeller, r: P.tellerR - 0.4, fillet: 0.2 },
+    { a: P.yTeller, r: 0.02, fillet: 0 },
+  ], { segs: 2 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_INT }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Chromknauf auf Rosette, um Y. profilArt 'zylinder' (light) oder
+   'konus' (heavy). */
+function buildChromKnauf(P) {
+  const R = P.rosR, h = P.knaufH, r0 = P.knaufR;
+  const kn = P.art === 'konus'
+    ? [
+        { a: P.yRos + P.rosH, r: r0 * 0.72, fillet: 0.8 },
+        { a: P.yRos + P.rosH + h * 0.72, r: r0, fillet: 2.2 },
+        { a: P.yRos + P.rosH + h, r: r0 * 0.86, fillet: 2.0 },
+      ]
+    : [
+        { a: P.yRos + P.rosH, r: r0, fillet: 0.8 },
+        { a: P.yRos + P.rosH + h - 1.5, r: r0 * 0.97, fillet: 1.6 },
+        { a: P.yRos + P.rosH + h, r: r0 * 0.88, fillet: 1.4 },
+      ];
+  /* HOHLKÖRPER: der erste Wurf rechnete den Knauf massiv und wog
+     +86 % gegen die kg-Spalte — reale Chromknäufe sind dünnwandige
+     Drehteile. Wand 2,8 mm (kalibriert: 2,0 wog −24 %, massiv +86 %). */
+  const w = 2.8;
+  const innen = kn.slice().reverse().map((q) => ({ a: q.a - w * 0.7, r: Math.max(0.4, q.r - w), fillet: q.fillet }));
+  const profile = buildProfile([
+    { a: P.yRos, r: R, fillet: P.rosH * 0.4 },
+    { a: P.yRos + P.rosH, r: R, fillet: P.rosH * 0.45 },
+    ...kn,
+    { a: P.yRos + P.rosH + h - w, r: 0.02, fillet: 0 },
+    ...innen.slice(1).map((q) => ({ ...q, a: q.a - 0 })),
+    { a: P.yRos + P.rosH - w, r: Math.max(1, P.knaufR - w), fillet: 0.4 },
+    { a: P.yRos + P.rosH - w, r: R - w, fillet: 0.4 },
+    { a: P.yRos, r: R - w, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Gewinde-Unterteil der UP-Ventile: kurzes AG-Rohr mit O-Ring-Nut. */
+function buildUPUnterteil(P) {
+  const gew = threadProfile(P.threadOD, P.threadPitch, P.turns, 'G')
+    .map((q) => ({ a: P.yU0 + q.a, r: q.r, fillet: q.fillet }))
+    .filter((q) => q.a <= P.yRos - 1);
+  const profile = buildProfile([
+    { a: P.yU0, r: P.threadOD / 2 - 0.8, chamfer: 0.5 },
+    ...gew,
+    { a: P.yRos - 1, r: P.threadOD / 2 - 0.3, fillet: 0.3 },
+    { a: P.yRos - 1, r: P.boreR, fillet: 0 },
+    { a: P.yU0, r: P.boreR, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
+/* == straight-seat-valve-green-handle/data.js ========================== */
+/* K-Aqua Geradsitzventil-Oberteil mit grünem Handrad — PROTOTYP.
+
+   QUELLE: Druckkatalog S. 106 (Textebene 25.08.2026). Die Tabelle
+   führt NUR Code, G ¾", kg 0,12, Pack 1 — keine Maßspalten, keine Maßskizze
+   (LOOP-STATUS §3.22). Alle Formmaße sind ASSUMPTION aus dem
+   Katalogfoto; der Maßstab hängt an zwei Ankern:
+     1. Gewinde G 3/4" (Normmaß, threadSpec),
+     2. kg-Spalte über die Massenprobe (meshVolume × Dichte).
+   Deshalb DATA_STATUS 'prototyp' — die Zahlen sind ehrlich vorläufig. */
+
+const DATA_STATUS = 'prototyp';
+const SIZES_SOURCE_VERIFIED = 1;
+
+const ARTICLES = [
+  { code: 'AQ5991', G: '3/4', kg: 0.12, pack: 1 },
+];
+const SIZES = ['3/4'];
+const DIMENSION_KEY = { G: 'Gewinde', kg: 'Gewicht' };
+function article() { return ARTICLES[0]; }
+
+
+/* == straight-seat-valve-green-handle/params.js ======================== */
+/* Parametrik — alles ASSUMPTION (siehe data.js), Maßstab am Gewinde
+   und an der Massenprobe kalibriert. */
+
+function params() {
+  const a = article();
+  const P = Object.assign({}, a);
+  const th = threadSpec(a.G);
+  P.threadOD = th.od;                  // 26,44 — der Maßstabsanker
+  P.threadPitch = th.pitch;
+  P.turns = 6;
+
+  P.yG0 = 0;                           // Gewindeanfang
+  P.yG1 = 14;                          // ASSUMPTION Gewindelänge
+  P.hexAf = 32;                        // ASSUMPTION SW über dem Gewinde
+  P.yHex1 = P.yG1 + 8;
+  P.spindelR = 5.2;
+  P.ySpindelTop = 34;
+  P.yTeller = -16;                     // ASSUMPTION Hub + Tellerlage
+  P.tellerR = 14;
+  P.tellerH = 4;
+  P.dichtH = 3;
+  P.radY = P.ySpindelTop - 2;
+  P.radR = 27;                         // ASSUMPTION Handrad
+  P.radDicke = 7.5;
+  return P;
+}
+
+
+/* == straight-seat-valve-green-handle/parts.js ========================= */
+
+
+
+/* == straight-seat-valve-green-handle/index.js ========================= */
+/* Geradsitzventil-Oberteil — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'valves/straight-seat-valve-green-handle',
+  module: 'kaqua-straight-seat-valve-green-handle',
+  titleDe: 'Geradsitzventil-Oberteil (grünes Handrad)',
+  titleEn: 'Straight seat valve (only upper part)',
+  category: 'valves',
+  brandLine: 'K-Aqua Messing · PP',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES,
+  sizes: SIZES,
+  sizeKey: 'G',
+  defaultSize: '3/4',
+  dimensionKey: DIMENSION_KEY,
+  metaFields: ['G', 'kg'],
+  dimensions: [],
+  ariaFields: ['G'],
+  variants: [],
+  states: null,
+  tile: 'Ventiloberteil mit Spindel und grünem Handrad — Maße vorläufig, ' +
+        'aus Foto und Gewicht abgeleitet.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_Geradsitz_Oberteil',
+      materials: ['brass', 'epdm', 'pprGreen'],
+      seed: 191,
+      clipPlane,
+    });
+    const ober = buildOberteil(P);
+    const dicht = buildTellerDichtung(P);
+    const rad = buildKleeHandrad(P);
+    A.part('oberteil', { name: 'Oberteil', label: 'Ventiloberteil (Messing)', mat: 'brass',
+      geo: ober.geo, cap: ober.cap, anchor: V3(P.hexAf * 0.4, P.yG1, 0) });
+    A.part('dichtung', { name: 'Dichtung', label: 'Tellerdichtung (EPDM)', mat: 'epdm',
+      geo: dicht.geo, cap: dicht.cap, explode: V3(0, -14, 0) });
+    A.part('handrad', { name: 'Handrad', label: 'Handrad (PP, grün)', mat: 'pprGreen',
+      geo: rad.geo, cap: rad.cap, explode: V3(0, 18, 0),
+      anchor: V3(P.radR * 0.5, P.radY + P.radDicke + 3, 0) });
+    A.light(V3(0, P.radY * 0.5, 0)); A.light(V3(0, -8, 0));
+    A.hotspot({ v: V3(0, P.radY + P.radDicke / 2, P.radR * 0.8), n: V3(0, 0.3, 0.95),
+      text: 'Mehrgängiges Handrad — Hubventil, keine Vierteldrehung' });
+
+    A.measures = [
+      /* Der einzige Normanker: das G-Gewinde, per Strahl auf die Kuppe. */
+      /* G ist zylindrisch (kein 1:16-Kegel wie R); der Strahl fährt
+         mehrere Stationen ab und nimmt das Maximum — die Kuppenlage von
+         threadProfile ist nicht phasenstarr zum Fenster (der erste
+         Wurf traf den GRUND und las 2·Gewindetiefe zu wenig). */
+      { key: 'gewinde', label: 'G ' + P.G + '" Außengewinde (Kuppe)',
+        soll: r2(P.threadOD),
+        ist: () => {
+          let max = 0;
+          for (let k = 0; k < 8; k++) {
+            const y = P.yG0 + P.threadPitch * (1.2 + k * 0.25);
+            const hit = A.probeAxial('oberteil', V3(0, y, P.threadOD), V3(0, 0, -1));
+            if (hit) max = Math.max(max, 2 * hit.z);
+          }
+          return max ? r2(max) : NaN;
+        } },
+      { key: 'handrad', label: 'Handrad-Ø (ASSUMPTION)', soll: 2 * P.radR,
+        ist: () => { const b = A.boxOf(['handrad']); return r2(b.max.x - b.min.x); } },
+      { key: 'hoehe', label: 'Bauhöhe (ASSUMPTION)', soll: r2(P.radY + P.radDicke + 2.5 - (P.yTeller - P.dichtH)),
+        ist: () => { const b = A.boxOf(); return r2(b.max.y - b.min.y); } },
+      { key: 'masse', label: 'Masse aus dem Volumen (Anker: kg-Spalte)', soll: P.kg,
+        ist: () => {
+          let g = 0;
+          for (const t of A.parts) {
+            const dichte = /Messing/.test(t.label) ? 8.4 : /EPDM/.test(t.label) ? 1.2 : 0.9;
+            let v = 0; t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
+            g += (v * dichte) / 1e6;
+          }
+          return r2(g);
+        } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p58 = (() => {
 
 /* == _tee/params.js ==================================================== */
 /* K-Aqua T-Stück-Familie — Parametrik.
@@ -25979,7 +28150,7 @@ const product = {
 return product;
 })();
 
-const __p45 = (() => {
+const __p59 = (() => {
 
 /* == _tee/parts.js ===================================================== */
 /* K-Aqua T-Stück-Familie — Kontur.
@@ -26816,7 +28987,7 @@ const product = {
 return product;
 })();
 
-const __p46 = (() => {
+const __p60 = (() => {
 
 /* == _tee/parts.js ===================================================== */
 /* K-Aqua T-Stück-Familie — Kontur.
@@ -27405,7 +29576,7 @@ const product = {
 return product;
 })();
 
-const __p47 = (() => {
+const __p61 = (() => {
 
 /* == _tee/parts.js ===================================================== */
 /* K-Aqua T-Stück-Familie — Kontur.
@@ -28234,7 +30405,7 @@ const product = {
 return product;
 })();
 
-const __p48 = (() => {
+const __p62 = (() => {
 
 /* == union/data.js ===================================================== */
 /* K-Aqua Verschraubung (PP-R) — Artikeltabelle.
@@ -28755,7 +30926,7 @@ const product = {
 return product;
 })();
 
-const __p49 = (() => {
+const __p63 = (() => {
 
 /* == _saddle/parts.js ================================================== */
 /* K-Aqua Anbohrsättel — die gemeinsame Geometrie.
@@ -29680,7 +31851,7 @@ const product = {
 return product;
 })();
 
-const __p50 = (() => {
+const __p64 = (() => {
 
 /* == _saddle/parts.js ================================================== */
 /* K-Aqua Anbohrsättel — die gemeinsame Geometrie.
@@ -30579,7 +32750,7 @@ const product = {
 return product;
 })();
 
-const __p51 = (() => {
+const __p65 = (() => {
 
 /* == _saddle/parts.js ================================================== */
 /* K-Aqua Anbohrsättel — die gemeinsame Geometrie.
@@ -31478,7 +33649,593 @@ const product = {
 return product;
 })();
 
-const PRODUCTS = Object.fromEntries([__p0, __p1, __p2, __p3, __p4, __p5, __p6, __p7, __p8, __p9, __p10, __p11, __p12, __p13, __p14, __p15, __p16, __p17, __p18, __p19, __p20, __p21, __p22, __p23, __p24, __p25, __p26, __p27, __p28, __p29, __p30, __p31, __p32, __p33, __p34, __p35, __p36, __p37, __p38, __p39, __p40, __p41, __p42, __p43, __p44, __p45, __p46, __p47, __p48, __p49, __p50, __p51].map((p) => [p.id, p]));
+const __p66 = (() => {
+
+/* == welding-machine-50-125/data.js ==================================== */
+/* K-Aqua Schweißmaschine 50–125 (Set) — PROTOTYP.
+   QUELLE: S. 116: nur Code AQ988125, Pack 1. Gestalt nach dem
+   Katalogrender (Kontaktbogen s116-02); alle Maße ASSUMPTION. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [ { key: 'set', code: 'AQ988125', pack: 1 } ];
+const SIZES = ['set'];
+const DIMENSION_KEY = {};
+function article() { return ARTICLES[0]; }
+
+
+/* == welding-machine-50-125/params.js ================================== */
+function params() {
+  const P = Object.assign({}, article());
+  P.bettL = 420; P.bettB = 150; P.bettH = 60;   // ASSUMPTION Bank
+  P.backenR = 82; P.backenX = [-150, -50, 50, 150];
+  P.sollBreite = 422.2;   // konstruktiv, inkl. Fasen
+  return P;
+}
+
+
+/* == welding-machine-50-125/parts.js =================================== */
+/* Rote Bank mit Klemmbacken-Paaren (Halbring-Backen angedeutet). */
+function buildBank(P) {
+  const geos = [];
+  const bett = roundedPad(P.bettL, P.bettB, P.bettH, 8);
+  geos.push(bett);
+  for (const fx of [-P.bettL * 0.36, P.bettL * 0.36]) {
+    const fuss = roundedPad(P.bettB * 0.85, 24, P.bettH, 6);
+    fuss.rotateZ(Math.PI / 2);
+    fuss.translate(fx, -P.bettB * 0.15 - 12, 0);
+    geos.push(fuss);
+  }
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+function buildBacken(P) {
+  const geos = [];
+  for (const fx of P.backenX) {
+    const backe = revolve(buildProfile([
+      { a: -9, r: P.backenR, chamfer: 2 },
+      { a: 9, r: P.backenR, chamfer: 2 },
+      { a: 9, r: P.backenR * 0.42, fillet: 0 },
+      { a: -9, r: P.backenR * 0.42, fillet: 0 },
+    ], { segs: 3 }), { axis: 'x', segments: SEG_INT });
+    backe.translate(fx, P.backenR * 0.55, 0);
+    geos.push(backe);
+  }
+  return { geo: mergeGeometries(geos), cap: null };
+}
+
+
+/* == welding-machine-50-125/index.js =================================== */
+/* Schweißmaschine 50–125 (Set) — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/welding-machine-50-125',
+  module: 'kaqua-welding-machine-50-125',
+  titleDe: 'Schweißmaschine 50–125 (Set)',
+  titleEn: 'Welding machine 50-125 (complete set)',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key', defaultSize: 'set',
+  dimensionKey: DIMENSION_KEY, metaFields: [], dimensions: [],
+  ariaFields: [], variants: [], states: null,
+  tile: 'Bankmaschine mit vier Klemmbacken für d50–125 — Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params();
+    const A = createAssembly({
+      name: 'K-Aqua_welding-machine-50-125'.replace(/-/g, '_'), materials: ['toolRed', 'steel'], seed: 241, clipPlane,
+    });
+    const b = buildBank(P);
+    const k = buildBacken(P);
+    A.part('bank', { name: 'Bank', label: 'Maschinenbett (rot)', mat: 'toolRed',
+      geo: b.geo, cap: null, anchor: V3(-P.bettL * 0.3, P.bettH, 0) });
+    A.part('backen', { name: 'Backen', label: 'Klemmbacken', mat: 'steel',
+      geo: k.geo, cap: null, explode: V3(0, 60, 0) });
+    A.light(V3(0, 60, 0)); A.light(V3(120, 20, 0));
+
+    A.measures = [
+      { key: 'teile', label: 'Baugruppen', soll: 2,
+        ist: () => A.parts.length },
+      { key: 'breite', label: 'Gesamtbreite (ASSUMPTION)', soll: P.sollBreite,
+        ist: () => { const b = A.boxOf(); return r2(b.max.x - b.min.x); } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p67 = (() => {
+
+/* == _tooldie/parts.js ================================================= */
+/* K-Aqua Schweißwerkzeuge — gemeinsame Drehteile. PROTOTYPEN.
+
+   Die Werkzeugseiten 114–116 führen nur Code, Nennweite und Pack —
+   kein einziges Maß, kein Gewicht. Alle Formmaße sind ASSUMPTION; der
+   einzige harte Anker ist die NENNWEITE: der Dorn heizt das Rohrende
+   von außen (Ø ≈ d − 2·Schweißspiel), die Buchse die Muffe von innen
+   (Ø ≈ d). Die Katalogrender (Kontaktbogen s115) zeigen die Gestalt:
+   flache Bunde, kurze Kegel, M-Gewindezapfen zur Platte. */
+
+
+/* Heizdorn (male): Bund, kurzer Kegelstumpf auf Rohr-Innenmaß,
+   Gewindezapfen nach unten. Um Y, Bundunterkante auf y = 0. */
+function buildDorn(P) {
+  const rTip = P.d / 2 - P.spiel;
+  const rRoot = rTip + P.konus;
+  const profile = buildProfile([
+    { a: -P.zapfenL, r: P.zapfenR, chamfer: 0.6 },
+    { a: 0, r: P.zapfenR, fillet: 0.4 },
+    { a: 0, r: P.bundR, chamfer: 0.8 },
+    { a: P.bundH, r: P.bundR, fillet: 0.8 },
+    { a: P.bundH, r: rRoot, fillet: 0.6 },
+    { a: P.bundH + P.kopfH, r: rTip, chamfer: 1.0 },
+    { a: P.bundH + P.kopfH, r: 0.02, fillet: 0 },
+    { a: -P.zapfenL, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Heizbuchse (female): Topf mit konischer Bohrung auf Rohr-Außenmaß.
+   opt.sattel wölbt die Stirn konkav (Werkzeug für Anbohrsättel). */
+function buildBuchse(P, opt = {}) {
+  const rBohr = P.d / 2 + P.spiel;
+  const rAussen = rBohr + P.wand;
+  const yTop = P.bundH + P.kopfH;
+  const stirn = [];
+  if (opt.sattel) {
+    /* Konkave Sattelkuppe: Kreisbogen über die Stirn. */
+    arcPts(stirn, yTop + P.kopfH * 0.35, 0, P.kopfH * 0.55,
+      Math.PI * 0.5, Math.PI * 1.0, 7, {});
+  }
+  const profile = buildProfile([
+    { a: -P.zapfenL, r: P.zapfenR, chamfer: 0.6 },
+    { a: 0, r: P.zapfenR, fillet: 0.4 },
+    { a: 0, r: P.bundR, chamfer: 0.8 },
+    { a: P.bundH, r: P.bundR, fillet: 0.8 },
+    { a: P.bundH, r: rAussen, fillet: 0.6 },
+    { a: yTop, r: rAussen, chamfer: 0.8 },
+    { a: yTop, r: rBohr, chamfer: 0.5 },
+    { a: P.bundH + 2, r: rBohr - P.konus, fillet: 0.8 },
+    { a: P.bundH + 2, r: 0.02, fillet: 0 },
+    { a: -P.zapfenL, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Grundparameter aus der Nennweite — eine Formel für die ganze Reihe,
+   damit die Reihe über alle Größen konsistent bleibt. */
+function toolParams(d) {
+  return {
+    d,
+    spiel: 0.35,
+    konus: Math.max(0.8, d * 0.03),
+    wand: Math.max(3.5, d * 0.12),
+    bundR: d / 2 + Math.max(6, d * 0.22),
+    bundH: Math.max(5, d * 0.16),
+    kopfH: Math.max(11, d * 0.55),
+    zapfenR: 5,                        // M10-Zapfen, ASSUMPTION
+    zapfenL: 12,
+  };
+}
+
+
+/* == welding-tool/data.js ============================================== */
+/* K-Aqua Schweißwerkzeug (Heizelement-Paar) — PROTOTYP.
+
+   QUELLE: Druckkatalog S. 115 (Textebene 25.08.2026): nur Code,
+   Nennweite, Pack — kein Maß, kein Gewicht. Zehn Größen d20 bis d125.
+   Alle Formmaße sind ASSUMPTION (toolParams in _tooldie/parts.js);
+   der einzige Anker ist die Nennweite selbst. */
+
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [
+  { key: '20', code: 'AQ98220', d: 20, pack: 1 },
+  { key: '25', code: 'AQ98225', d: 25, pack: 1 },
+  { key: '32', code: 'AQ98232', d: 32, pack: 1 },
+  { key: '40', code: 'AQ98240', d: 40, pack: 1 },
+  { key: '50', code: 'AQ98250', d: 50, pack: 1 },
+  { key: '63', code: 'AQ98263', d: 63, pack: 1 },
+  { key: '75', code: 'AQ98275', d: 75, pack: 1 },
+  { key: '90', code: 'AQ98290', d: 90, pack: 1 },
+  { key: '110', code: 'AQ982110', d: 110, pack: 1 },
+  { key: '125', code: 'AQ982125', d: 125, pack: 1 },
+];
+const SIZES = ARTICLES.map((a) => a.key);
+const DIMENSION_KEY = { d: 'Nennweite' };
+function article(key) {
+  const a = ARTICLES.find((x) => String(x.key) === String(key));
+  if (!a) throw new Error('K-Aqua Werkzeug: unbekannte Größe ' + key);
+  return a;
+}
+
+
+/* == welding-tool/params.js ============================================ */
+function params(key) {
+  const a = article(key);
+  return Object.assign({}, a, toolParams(a.d));
+}
+
+
+/* == welding-tool/parts.js ============================================= */
+
+
+
+/* == welding-tool/index.js ============================================= */
+/* Schweißwerkzeug (Heizelement-Paar) — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/welding-tool',
+  module: 'kaqua-welding-tool',
+  titleDe: 'Schweißwerkzeug (Heizelement-Paar)',
+  titleEn: 'Welding tool',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key',
+  sizeLabel: (k) => 'd' + k,
+  defaultSize: SIZES[0],
+  dimensionKey: DIMENSION_KEY, metaFields: ['d'], dimensions: [],
+  ariaFields: ['d'], variants: [], states: null,
+  tile: 'Heizdorn und Heizbuchse als Paar — Maße vorläufig, nur die ' +
+        'Nennweite ist Katalogangabe.',
+
+  build(size, variant, clipPlane) {
+    const P = params(size);
+    const A = createAssembly({
+      name: 'K-Aqua_welding-tool'.replace(/-/g, '_'), materials: ['steel'], seed: 199, clipPlane,
+    });
+    const dorn = buildDorn(P);
+    const buchse = buildBuchse(P, { sattel: false });
+    const abstand = P.bundR * 2.4;
+    buchse.geo.translate(abstand, 0, 0);
+    if (buchse.cap) buchse.cap.translate(abstand, 0, 0);
+    A.part('dorn', { name: 'Dorn', label: 'Heizdorn (PTFE-beschichtet)', mat: 'steel',
+      geo: dorn.geo, cap: dorn.cap, explode: V3(-P.bundR * 0.7, 0, 0),
+      anchor: V3(0, P.bundH + P.kopfH + 4, 0) });
+    A.part('buchse', { name: 'Buchse', label: 'Heizbuchse (PTFE-beschichtet)', mat: 'steel',
+      geo: buchse.geo, cap: buchse.cap, explode: V3(P.bundR * 0.7, 0, 0) });
+    A.light(V3(0, P.kopfH, 0)); A.light(V3(abstand, P.kopfH, 0));
+    A.hotspot({ v: V3(0, P.bundH + P.kopfH * 0.6, P.d * 0.45), n: V3(0, 0.2, 0.98),
+      text: 'Dorn heizt das Rohrende, Buchse die Muffe — ein Paar je Nennweite' });
+
+    A.measures = [
+      /* Der Nennweiten-Anker: Buchsenbohrung ≈ d (die Reihe MUSS über
+         alle Größen mit d wachsen — das prüft die Formel, nicht das
+         einzelne Maß). */
+      { key: 'bohrung', label: 'Buchsenbohrung (≈ d + Spiel)', soll: r2(P.d + 2 * P.spiel),
+        ist: () => {
+          const hit = A.probeAxial('buchse', V3(abstand, P.bundH + P.kopfH - 0.4, 0), V3(0, 0, 1));
+          return hit ? r2(2 * Math.abs(hit.z)) : NaN;
+        } },
+      /* Auf halber Kopfhöhe — die Spitzenmessung schnitt die Fase und
+         las konstant −0,73 über alle Größen (die Konstanz benannte den
+         Fehler). Soll linear auf dem Kegel interpoliert. */
+      { key: 'dorn', label: 'Dorn-Ø auf halber Kopfhöhe', soll: r2(P.d - 2 * P.spiel + P.konus),
+        ist: () => {
+          const hit = A.probeAxial('dorn', V3(0, P.bundH + P.kopfH * 0.5, P.d), V3(0, 0, -1));
+          return hit ? r2(2 * hit.z) : NaN;
+        } },
+      { key: 'paar', label: 'Werkzeuge im Paar', soll: 2,
+        ist: () => A.parts.length },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p68 = (() => {
+
+/* == welding-tool-for-repairing-plug/data.js =========================== */
+/* K-Aqua Schweißwerkzeug für Reparaturstopfen — PROTOTYP.
+   QUELLE: S. 116: Code AQ9837/AQ98311, d 7/11, Pack 1 — sonst nichts.
+   Formmaße ASSUMPTION; Anker ist der Stopfendurchmesser d. */
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [
+  { key: '7', code: 'AQ9837', d: 7, pack: 1 },
+  { key: '11', code: 'AQ98311', d: 11, pack: 1 },
+];
+const SIZES = ARTICLES.map((a) => a.key);
+const DIMENSION_KEY = { d: 'Stopfen-Ø' };
+function article(key) {
+  const a = ARTICLES.find((x) => x.key === String(key));
+  if (!a) throw new Error('K-Aqua Reparaturwerkzeug: unbekannte Größe ' + key);
+  return a;
+}
+
+
+/* == welding-tool-for-repairing-plug/params.js ========================= */
+function params(key) {
+  const a = article(key);
+  const P = Object.assign({}, a);
+  P.kopfR = a.d / 2 + 2.5;             // ASSUMPTION Heizkopf um den Stopfen
+  P.kopfH = Math.max(10, a.d * 1.6);
+  P.schaftR = 3.2;
+  P.schaftL = 55;
+  P.kragenR = P.kopfR + 2;             // gelber Isolierring im Render
+  return P;
+}
+
+
+/* == welding-tool-for-repairing-plug/parts.js ========================== */
+/* Zwei Heizköpfe koaxial am Schaft (Bohrkopf für die Leckstelle,
+   Muffenkopf für den Stopfen), dazwischen ein Isolierkragen. */
+function buildWerkzeug(P) {
+  const profile = buildProfile([
+    { a: -P.schaftL, r: P.schaftR, chamfer: 0.5 },
+    { a: -6, r: P.schaftR, fillet: 0.4 },
+    { a: -6, r: P.kragenR, chamfer: 0.6 },
+    { a: 0, r: P.kragenR, fillet: 0.5 },
+    { a: 0, r: P.kopfR, fillet: 0.4 },
+    { a: P.kopfH, r: P.kopfR, chamfer: 0.8 },
+    { a: P.kopfH, r: P.d / 2, fillet: 0.4 },
+    { a: P.kopfH + P.d * 1.1, r: P.d / 2, chamfer: 0.6 },
+    { a: P.kopfH + P.d * 1.1, r: 0.02, fillet: 0 },
+    { a: -P.schaftL, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
+/* == welding-tool-for-repairing-plug/index.js ========================== */
+/* Schweißwerkzeug für Reparaturstopfen — Produktpaket. PROTOTYP. */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/welding-tool-for-repairing-plug',
+  module: 'kaqua-welding-tool-for-repairing-plug',
+  titleDe: 'Schweißwerkzeug für Reparaturstopfen',
+  titleEn: 'Welding tool for repairing plug',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key',
+  sizeLabel: (k) => 'd' + k,
+  defaultSize: '7',
+  dimensionKey: DIMENSION_KEY, metaFields: ['d'], dimensions: [],
+  ariaFields: ['d'], variants: [], states: null,
+  tile: 'Heizt Leckbohrung und Stopfen in einem Zug an — Maße vorläufig.',
+
+  build(size, variant, clipPlane) {
+    const P = params(size);
+    const A = createAssembly({
+      name: 'K-Aqua_Reparaturwerkzeug', materials: ['steel'], seed: 223, clipPlane,
+    });
+    const w = buildWerkzeug(P);
+    A.part('werkzeug', { name: 'Werkzeug', label: 'Heizwerkzeug (Stahl)', mat: 'steel',
+      geo: w.geo, cap: w.cap, anchor: V3(P.kopfR + 3, P.kopfH * 0.5, 0) });
+    A.light(V3(0, P.kopfH, 0)); A.light(V3(0, -P.schaftL * 0.5, 0));
+
+    A.measures = [
+      { key: 'stift', label: 'Heizstift-Ø (= Stopfen d)', soll: P.d,
+        ist: () => {
+          const hit = A.probeAxial('werkzeug', V3(0, P.kopfH + P.d * 0.5, P.d * 2), V3(0, 0, -1));
+          return hit ? r2(2 * hit.z) : NaN;
+        } },
+      { key: 'kopf', label: 'Heizkopf-Ø (ASSUMPTION d + 5)', soll: r2(2 * P.kopfR),
+        ist: () => {
+          const hit = A.probeAxial('werkzeug', V3(0, P.kopfH * 0.5, P.d * 3), V3(0, 0, -1));
+          return hit ? r2(2 * hit.z) : NaN;
+        } },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const __p69 = (() => {
+
+/* == _tooldie/parts.js ================================================= */
+/* K-Aqua Schweißwerkzeuge — gemeinsame Drehteile. PROTOTYPEN.
+
+   Die Werkzeugseiten 114–116 führen nur Code, Nennweite und Pack —
+   kein einziges Maß, kein Gewicht. Alle Formmaße sind ASSUMPTION; der
+   einzige harte Anker ist die NENNWEITE: der Dorn heizt das Rohrende
+   von außen (Ø ≈ d − 2·Schweißspiel), die Buchse die Muffe von innen
+   (Ø ≈ d). Die Katalogrender (Kontaktbogen s115) zeigen die Gestalt:
+   flache Bunde, kurze Kegel, M-Gewindezapfen zur Platte. */
+
+
+/* Heizdorn (male): Bund, kurzer Kegelstumpf auf Rohr-Innenmaß,
+   Gewindezapfen nach unten. Um Y, Bundunterkante auf y = 0. */
+function buildDorn(P) {
+  const rTip = P.d / 2 - P.spiel;
+  const rRoot = rTip + P.konus;
+  const profile = buildProfile([
+    { a: -P.zapfenL, r: P.zapfenR, chamfer: 0.6 },
+    { a: 0, r: P.zapfenR, fillet: 0.4 },
+    { a: 0, r: P.bundR, chamfer: 0.8 },
+    { a: P.bundH, r: P.bundR, fillet: 0.8 },
+    { a: P.bundH, r: rRoot, fillet: 0.6 },
+    { a: P.bundH + P.kopfH, r: rTip, chamfer: 1.0 },
+    { a: P.bundH + P.kopfH, r: 0.02, fillet: 0 },
+    { a: -P.zapfenL, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Heizbuchse (female): Topf mit konischer Bohrung auf Rohr-Außenmaß.
+   opt.sattel wölbt die Stirn konkav (Werkzeug für Anbohrsättel). */
+function buildBuchse(P, opt = {}) {
+  const rBohr = P.d / 2 + P.spiel;
+  const rAussen = rBohr + P.wand;
+  const yTop = P.bundH + P.kopfH;
+  const stirn = [];
+  if (opt.sattel) {
+    /* Konkave Sattelkuppe: Kreisbogen über die Stirn. */
+    arcPts(stirn, yTop + P.kopfH * 0.35, 0, P.kopfH * 0.55,
+      Math.PI * 0.5, Math.PI * 1.0, 7, {});
+  }
+  const profile = buildProfile([
+    { a: -P.zapfenL, r: P.zapfenR, chamfer: 0.6 },
+    { a: 0, r: P.zapfenR, fillet: 0.4 },
+    { a: 0, r: P.bundR, chamfer: 0.8 },
+    { a: P.bundH, r: P.bundR, fillet: 0.8 },
+    { a: P.bundH, r: rAussen, fillet: 0.6 },
+    { a: yTop, r: rAussen, chamfer: 0.8 },
+    { a: yTop, r: rBohr, chamfer: 0.5 },
+    { a: P.bundH + 2, r: rBohr - P.konus, fillet: 0.8 },
+    { a: P.bundH + 2, r: 0.02, fillet: 0 },
+    { a: -P.zapfenL, r: 0.02, fillet: 0 },
+  ], { segs: 4 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_VIS }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+/* Grundparameter aus der Nennweite — eine Formel für die ganze Reihe,
+   damit die Reihe über alle Größen konsistent bleibt. */
+function toolParams(d) {
+  return {
+    d,
+    spiel: 0.35,
+    konus: Math.max(0.8, d * 0.03),
+    wand: Math.max(3.5, d * 0.12),
+    bundR: d / 2 + Math.max(6, d * 0.22),
+    bundH: Math.max(5, d * 0.16),
+    kopfH: Math.max(11, d * 0.55),
+    zapfenR: 5,                        // M10-Zapfen, ASSUMPTION
+    zapfenL: 12,
+  };
+}
+
+
+/* == welding-tool-for-weld-in-saddles/data.js ========================== */
+/* K-Aqua Schweißwerkzeug für Anbohrsättel — PROTOTYP.
+
+   QUELLE: Druckkatalog S. 115 (Textebene 25.08.2026): nur Code,
+   Nennweite, Pack — kein Maß, kein Gewicht. Neun Kombinationen Rohrgruppe × Abzweig; d ist die Abzweig-Nennweite. Damit schließt sich auch LOOP-STATUS §3.24 (das Werkzeug existiert, gebaut als Prototyp).
+   Alle Formmaße sind ASSUMPTION (toolParams in _tooldie/parts.js);
+   der einzige Anker ist die Nennweite selbst. */
+
+const DATA_STATUS = 'prototyp';
+const ARTICLES = [
+  { key: '40-63x25', code: 'AQ98504006325', d: 25, pack: 1 },
+  { key: '75-125x25', code: 'AQ98507512525', d: 25, pack: 1 },
+  { key: '75-125x32', code: 'AQ98507512532', d: 32, pack: 1 },
+  { key: '75-125x40', code: 'AQ98507512540', d: 40, pack: 1 },
+  { key: '160-250x25', code: 'AQ98516025025', d: 25, pack: 1 },
+  { key: '160-250x32', code: 'AQ98516025032', d: 32, pack: 1 },
+  { key: '160-250x40', code: 'AQ98516025040', d: 40, pack: 1 },
+  { key: '160-250x50', code: 'AQ98516025050', d: 50, pack: 1 },
+  { key: '160-250x63', code: 'AQ98516025063', d: 63, pack: 1 },
+];
+const SIZES = ARTICLES.map((a) => a.key);
+const DIMENSION_KEY = { d: 'Nennweite' };
+function article(key) {
+  const a = ARTICLES.find((x) => String(x.key) === String(key));
+  if (!a) throw new Error('K-Aqua Werkzeug: unbekannte Größe ' + key);
+  return a;
+}
+
+
+/* == welding-tool-for-weld-in-saddles/params.js ======================== */
+function params(key) {
+  const a = article(key);
+  return Object.assign({}, a, toolParams(a.d));
+}
+
+
+/* == welding-tool-for-weld-in-saddles/parts.js ========================= */
+
+
+
+/* == welding-tool-for-weld-in-saddles/index.js ========================= */
+/* Schweißwerkzeug für Anbohrsättel — Produktpaket. PROTOTYP (data.js). */
+
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const r2 = (v) => Math.round(v * 100) / 100;
+
+const product = {
+  id: 'tools/welding-tool-for-weld-in-saddles',
+  module: 'kaqua-welding-tool-for-weld-in-saddles',
+  titleDe: 'Schweißwerkzeug für Anbohrsättel',
+  titleEn: 'Welding tool for weld in saddles',
+  category: 'tools',
+  brandLine: 'K-Aqua Werkzeug',
+  dataStatus: DATA_STATUS,
+  articles: ARTICLES, sizes: SIZES, sizeKey: 'key',
+  sizeLabel: (k) => k,
+  defaultSize: SIZES[0],
+  dimensionKey: DIMENSION_KEY, metaFields: ['d'], dimensions: [],
+  ariaFields: ['d'], variants: [], states: null,
+  tile: 'Heizdorn und Heizbuchse als Paar — Maße vorläufig, nur die ' +
+        'Nennweite ist Katalogangabe.',
+
+  build(size, variant, clipPlane) {
+    const P = params(size);
+    const A = createAssembly({
+      name: 'K-Aqua_welding-tool-for-weld-in-saddles'.replace(/-/g, '_'), materials: ['steel'], seed: 199, clipPlane,
+    });
+    const dorn = buildDorn(P);
+    const buchse = buildBuchse(P, { sattel: true });
+    const abstand = P.bundR * 2.4;
+    buchse.geo.translate(abstand, 0, 0);
+    if (buchse.cap) buchse.cap.translate(abstand, 0, 0);
+    A.part('dorn', { name: 'Dorn', label: 'Heizdorn (PTFE-beschichtet)', mat: 'steel',
+      geo: dorn.geo, cap: dorn.cap, explode: V3(-P.bundR * 0.7, 0, 0),
+      anchor: V3(0, P.bundH + P.kopfH + 4, 0) });
+    A.part('buchse', { name: 'Buchse', label: 'Heizbuchse (PTFE-beschichtet)', mat: 'steel',
+      geo: buchse.geo, cap: buchse.cap, explode: V3(P.bundR * 0.7, 0, 0) });
+    A.light(V3(0, P.kopfH, 0)); A.light(V3(abstand, P.kopfH, 0));
+    A.hotspot({ v: V3(0, P.bundH + P.kopfH * 0.6, P.d * 0.45), n: V3(0, 0.2, 0.98),
+      text: 'Dorn heizt das Rohrende, Buchse die Muffe — ein Paar je Nennweite' });
+
+    A.measures = [
+      /* Der Nennweiten-Anker: Buchsenbohrung ≈ d (die Reihe MUSS über
+         alle Größen mit d wachsen — das prüft die Formel, nicht das
+         einzelne Maß). */
+      { key: 'bohrung', label: 'Buchsenbohrung (≈ d + Spiel)', soll: r2(P.d + 2 * P.spiel),
+        ist: () => {
+          const hit = A.probeAxial('buchse', V3(abstand, P.bundH + P.kopfH - 0.4, 0), V3(0, 0, 1));
+          return hit ? r2(2 * Math.abs(hit.z)) : NaN;
+        } },
+      /* Auf halber Kopfhöhe — die Spitzenmessung schnitt die Fase und
+         las konstant −0,73 über alle Größen (die Konstanz benannte den
+         Fehler). Soll linear auf dem Kegel interpoliert. */
+      { key: 'dorn', label: 'Dorn-Ø auf halber Kopfhöhe', soll: r2(P.d - 2 * P.spiel + P.konus),
+        ist: () => {
+          const hit = A.probeAxial('dorn', V3(0, P.bundH + P.kopfH * 0.5, P.d), V3(0, 0, -1));
+          return hit ? r2(2 * hit.z) : NaN;
+        } },
+      { key: 'paar', label: 'Werkzeuge im Paar', soll: 2,
+        ist: () => A.parts.length },
+    ];
+    A.setExplode(0);
+    A.setSection(false, clipPlane);
+    A.P = P;
+    return A;
+  },
+};
+
+return product;
+})();
+
+const PRODUCTS = Object.fromEntries([__p0, __p1, __p2, __p3, __p4, __p5, __p6, __p7, __p8, __p9, __p10, __p11, __p12, __p13, __p14, __p15, __p16, __p17, __p18, __p19, __p20, __p21, __p22, __p23, __p24, __p25, __p26, __p27, __p28, __p29, __p30, __p31, __p32, __p33, __p34, __p35, __p36, __p37, __p38, __p39, __p40, __p41, __p42, __p43, __p44, __p45, __p46, __p47, __p48, __p49, __p50, __p51, __p52, __p53, __p54, __p55, __p56, __p57, __p58, __p59, __p60, __p61, __p62, __p63, __p64, __p65, __p66, __p67, __p68, __p69].map((p) => [p.id, p]));
 
 
 /* == gallery/registry.js =============================================== */
@@ -31530,7 +34287,7 @@ const REGISTRY = [
   { id:'pipes/k-fiber-pipe-pp-r-sdr-9', cat:'pipes', slug:'k-fiber-pipe-pp-r-sdr-9', de:'K-Fiber Rohr PP-R SDR 9', en:'K-Fiber Pipe PP-R SDR 9', url:'/de/produkte/pipes/k-fiber-pipe-pp-r-sdr-9', module:'kaqua-k-fiber-pipe-pp-r-sdr-9', fam:'pipe-fiber', tier:2, order:18, codes:['AQ169PF32','AQ169PF125'], alle:'aq169pf32 aq169pf40 aq169pf50 aq169pf63 aq169pf75 aq169pf90 aq169pf110 aq169pf125', n:8, status:'fertig' },
   { id:'pipes/k-fiber-pipe-pp-rct-sdr-7-4', cat:'pipes', slug:'k-fiber-pipe-pp-rct-sdr-7-4', de:'K-Fiber Rohr PP-RCT SDR 7,4', en:'K-Fiber Pipe PP-RCT SDR 7.4', url:'/de/produkte/pipes/k-fiber-pipe-pp-rct-sdr-74', module:'kaqua-k-fiber-pipe-pp-rct-sdr-7-4', fam:'pipe-fiber', tier:2, order:19, codes:['AQ200F20','AQ200F125'], alle:'aq200f20 aq200f25 aq200f32 aq200f40 aq200f50 aq200f63 aq200f75 aq200f90 aq200f110 aq200f125', n:10, status:'fertig' },
   { id:'pipes/k-fiber-uv-pipe-pp-r-sdr-7-4', cat:'pipes', slug:'k-fiber-uv-pipe-pp-r-sdr-7-4', de:'K-Fiber UV Rohr PP-R SDR 7,4', en:'K-Fiber UV Pipe PP-R SDR 7,4', url:'/de/produkte/pipes/k-fiber-uv-pipe-pp-r-sdr-74', module:'kaqua-k-fiber-uv-pipe-pp-r-sdr-7-4', fam:'pipe-uv', tier:2, order:20, codes:['AQ200PFUV20','AQ200PFUV125'], alle:'aq200pfuv20 aq200pfuv25 aq200pfuv32 aq200pfuv40 aq200pfuv50 aq200pfuv63 aq200pfuv75 aq200pfuv90 aq200pfuv110 aq200pfuv125', n:10, status:'fertig' },
-  { id:'tools/welding-tool', cat:'tools', slug:'welding-tool', de:'Schweißwerkzeug (Heizelement-Paar)', en:'Welding Tool', url:'/de/produkte/tools/welding-tool', module:'kaqua-welding-tool', fam:'tool-die', tier:2, order:21, codes:['AQ98220','AQ98290'], n:8, status:'offen' },
+  { id:'tools/welding-tool', cat:'tools', slug:'welding-tool', de:'Schweißwerkzeug (Heizelement-Paar)', en:'Welding Tool', url:'/de/produkte/tools/welding-tool', module:'kaqua-welding-tool', fam:'tool-die', tier:2, order:21, codes:['AQ98220','AQ982125'], alle:'aq98220 aq98225 aq98232 aq98240 aq98250 aq98263 aq98275 aq98290 aq982110 aq982125', n:10, status:'prototyp' },
   { id:'accessories/pipe-clamps', cat:'accessories', slug:'pipe-clamps', de:'Rohrschelle', en:'Pipe Clamps', url:'/de/produkte/accessories/pipe-clamps', module:'kaqua-pipe-clamps', fam:'clamp', tier:2, order:22, codes:['AQ50020','AQ500110'], alle:'aq50020 aq50025 aq50032 aq50040 aq50050 aq50063 aq50075 aq50090 aq500110', n:9, status:'fertig' },
   { id:'fittings/reducing-tee', cat:'fittings', slug:'reducing-tee', de:'Reduzier-T-Stück', en:'Reducing Tee', url:'/de/produkte/fittings/reducing-tee', module:'kaqua-reducing-tee', fam:'tee-red', tier:2, order:23, codes:['AQ1302520','AQ130315250'], alle:'aq1302520 aq1303220 aq1303225 aq1304020 aq1304025 aq1304032 aq1305020 aq1305025 aq1305032 aq1305040 aq1306320 aq1306325 aq1306332 aq1306340 aq1306350 aq1307520 aq1307525 aq1307532 aq1307540 aq1307550 aq1307563 aq1309063 aq1309075 aq13011063 aq13011075 aq13011090 aq130125110 aq13016090 aq130160110 aq13020090 aq130200110 aq130200160 aq130250110 aq130250160 aq130315110 aq130315160 aq130315250', n:37, status:'fertig' },
   { id:'transition-fittings/elbow-90-male-thread', cat:'transition-fittings', slug:'elbow-90-male-thread', de:'Winkel 90° AG', en:'Elbow 90° (Male Thread)', url:'/de/produkte/transition-fittings/elbow-90-male-thread', module:'kaqua-elbow-90-male-thread', fam:'thread-elbow', tier:2, order:24, codes:['AQ092G2012','AQ092G321'], alle:'aq092g2012 aq092g2512 aq092g2534 aq092g321', n:4, status:'fertig' },
@@ -31540,7 +34297,7 @@ const REGISTRY = [
   { id:'transition-fittings/tee-90-male-thread', cat:'transition-fittings', slug:'tee-90-male-thread', de:'T-Stück 90° AG', en:'Tee 90° (Male Thread)', url:'/de/produkte/transition-fittings/tee-90-male-thread', module:'kaqua-tee-90-male-thread', fam:'thread-tee', tier:2, order:28, codes:['AQ133G2012','AQ133G2534'], alle:'aq133g2012 aq133g2034 aq133g2512 aq133g2534', n:4, status:'fertig' },
   { id:'transition-fittings/union', cat:'transition-fittings', slug:'union', de:'Verschraubung PP-R', en:'Union', url:'/de/produkte/transition-fittings/union', module:'kaqua-union', fam:'union-ppr', tier:2, order:29, codes:['AQ330A20','AQ330A63'], alle:'aq330a20 aq330a25 aq330a32 aq330a40 aq330a50 aq330a63', n:6, status:'fertig' },
   { id:'weld-in-saddles/weld-in-saddle', cat:'weld-in-saddles', slug:'weld-in-saddle', de:'Einschweißsattel', en:'Weld-in Saddle', url:'/de/produkte/weld-in-saddles/weld-in-saddle', module:'kaqua-weld-in-saddle', fam:'saddle', tier:2, order:30, codes:['AQ130S406320','AQ130S16025063'], alle:'aq130s406320 aq130s406325 aq130s406332 aq130s7512525 aq130s7512532 aq130s7512540 aq130s16025025 aq130s16025032 aq130s16025040 aq130s16025050 aq130s16025063', n:11, status:'fertig' },
-  { id:'tools/repairing-plug', cat:'tools', slug:'repairing-plug', de:'Reparaturstopfen', en:'Repairing Plug', url:'/de/produkte/tools/repairing-plug', module:'kaqua-repairing-plug', fam:'rot-sym', tier:3, order:31, codes:['AQ96557','AQ96511'], n:2, status:'offen' },
+  { id:'tools/repairing-plug', cat:'tools', slug:'repairing-plug', de:'Reparaturstopfen', en:'Repairing Plug', url:'/de/produkte/tools/repairing-plug', module:'kaqua-repairing-plug', fam:'rot-sym', tier:3, order:31, codes:['AQ5937','AQ59311'], alle:'aq5937 aq59311', n:2, status:'prototyp' },
   { id:'accessories/backing-flange', cat:'accessories', slug:'backing-flange', de:'Losflansch PP-Stahl', en:'Backing Flange PP-Steel (SF/BF)', url:'/de/produkte/accessories/backing-flange-pp-steel-sfbf', module:'kaqua-backing-flange', fam:'flange', tier:3, order:32, codes:['AQ75040','AQ750315'], alle:'aq75040 aq75050 aq75063 aq75075 aq75090 aq750110 aq750125 aq750160 aq750200 aq750250 aq750315', n:11, status:'fertig' },
   { id:'fittings/elbow-45-female-male', cat:'fittings', slug:'elbow-45-female-male', de:'Winkel 45° Muffe/Spitzende', en:'Elbow 45° (Female/Male)', url:'/de/produkte/fittings/elbow-45-femalemale', module:'kaqua-elbow-45-female-male', fam:'elbow', tier:3, order:33, codes:['AQ04120','AQ04125'], alle:'aq04120 aq04125', n:2, status:'fertig' },
   { id:'fittings/elbow-90-female-male', cat:'fittings', slug:'elbow-90-female-male', de:'Winkel 90° Muffe/Spitzende', en:'Elbow 90° (Female/Male)', url:'/de/produkte/fittings/elbow-90-femalemale', module:'kaqua-elbow-90-female-male', fam:'elbow', tier:3, order:34, codes:['AQ09120','AQ09125'], alle:'aq09120 aq09125', n:2, status:'fertig' },
@@ -31557,32 +34314,32 @@ const REGISTRY = [
   { id:'valves/tee-90-female-thread-internal-valve', cat:'valves', slug:'tee-90-female-thread-internal-valve', de:'T-Stück 90° IG für Einbauventil', en:'Tee 90° (Female Thread) for Internal Valve', url:'/de/produkte/valves/tee-90-female-thread-for-internal-valve', module:'kaqua-tee-90-female-thread-internal-valve', fam:'thread-tee', tier:3, order:43, codes:['AQ599A2034','AQ599A321'], alle:'aq599a2034 aq599a2534 aq599a3234 aq599a321', n:4, status:'fertig' },
   { id:'weld-in-saddles/weld-in-saddle-female-thread', cat:'weld-in-saddles', slug:'weld-in-saddle-female-thread', de:'Einschweißsattel IG', en:'Weld-in Saddle (Female Thread)', url:'/de/produkte/weld-in-saddles/weld-in-saddle-female-thread', module:'kaqua-weld-in-saddle-female-thread', fam:'saddle', tier:3, order:44, codes:['AQ270S406312','AQ270S7512534'], alle:'aq270s406312 aq270s406334 aq270s7512512 aq270s7512534', n:4, status:'fertig' },
   { id:'weld-in-saddles/weld-in-saddle-male-thread', cat:'weld-in-saddles', slug:'weld-in-saddle-male-thread', de:'Einschweißsattel AG', en:'Weld-in Saddle (Male Thread)', url:'/de/produkte/weld-in-saddles/weld-in-saddle-male-thread', module:'kaqua-weld-in-saddle-male-thread', fam:'saddle', tier:3, order:45, codes:['AQ243S406312','AQ243S7512534'], alle:'aq243s406312 aq243s406334 aq243s7512512 aq243s7512534', n:4, status:'fertig' },
-  { id:'tools/pipe-cutter-20-40', cat:'tools', slug:'pipe-cutter-20-40', de:'Rohrschere 20–40', en:'Pipe Cutter 20–40', url:'/de/produkte/tools/pipe-cutter-2040', module:'kaqua-pipe-cutter-20-40', fam:'tool-machine', tier:3, order:46, codes:['AQ97040','AQ97040'], n:1, status:'offen' },
+  { id:'tools/pipe-cutter-20-40', cat:'tools', slug:'pipe-cutter-20-40', de:'Rohrschere 20–40', en:'Pipe Cutter 20–40', url:'/de/produkte/tools/pipe-cutter-2040', module:'kaqua-pipe-cutter-20-40', fam:'tool-machine', tier:3, order:46, codes:['AQ97040','AQ97040'], alle:'aq97040', n:1, status:'prototyp' },
   { id:'transition-fittings/elbow-bracket-90-female-thread', cat:'transition-fittings', slug:'elbow-bracket-90-female-thread', de:'Winkel-Anschlussbogen 90° IG', en:'Elbow Bracket 90° (Female Thread)', url:'/de/produkte/transition-fittings/elbow-bracket-90-female-thread', module:'kaqua-elbow-bracket-90-female-thread', fam:'bracket', tier:3, order:47, codes:['AQ090G2012','AQ090G321'], alle:'aq090g2012 aq090g2512 aq090g2534 aq090g3212 aq090g321', n:5, status:'fertig' },
   { id:'transition-fittings/elbow-wall-bracket-90-female-thread', cat:'transition-fittings', slug:'elbow-wall-bracket-90-female-thread', de:'Wandscheibe 90° IG', en:'Elbow/Wall Bracket 90° (Female Thread)', url:'/de/produkte/transition-fittings/elbow-wall-bracket-90-female-thread', module:'kaqua-elbow-wall-bracket-90-female-thread', fam:'bracket', tier:3, order:48, codes:['AQ472G2012','AQ472G321'], alle:'aq472g2012 aq472g2512 aq472g2534 aq472g3234 aq472g321', n:5, status:'fertig' },
   { id:'valves/battery-female-thread', cat:'valves', slug:'battery-female-thread', de:'Batterieanschluss IG', en:'Battery (Female Thread)', url:'/de/produkte/valves/battery-female-thread', module:'kaqua-battery-female-thread', fam:'battery', tier:3, order:49, codes:['AQ490G2012','AQ490G2512'], alle:'aq490g2012 aq490g2512', n:2, status:'fertig' },
-  { id:'valves/straight-seat-valve-green-handle', cat:'valves', slug:'straight-seat-valve-green-handle', de:'Durchgangsventil Oberteil grün', en:'Straight Seat Valve (Only Upper Part) Green Handle', url:'/de/produkte/valves/straight-seat-valve-green-handle', module:'kaqua-straight-seat-valve-green-handle', fam:'seat-valve', tier:3, order:50, codes:['AQ62591','AQ62591'], n:1, status:'offen' },
+  { id:'valves/straight-seat-valve-green-handle', cat:'valves', slug:'straight-seat-valve-green-handle', de:'Durchgangsventil Oberteil grün', en:'Straight Seat Valve (Only Upper Part) Green Handle', url:'/de/produkte/valves/straight-seat-valve-green-handle', module:'kaqua-straight-seat-valve-green-handle', fam:'seat-valve', tier:3, order:50, codes:['AQ5991','AQ5991'], alle:'aq5991', n:1, status:'prototyp' },
   { id:'accessories/flat-gasket', cat:'accessories', slug:'flat-gasket', de:'Flachdichtung', en:'Flat Gasket', url:'/de/produkte/accessories/flat-gasket', module:'kaqua-flat-gasket', fam:'rot-sym', tier:4, order:51, codes:['AQ71440','AQ714315'], alle:'aq71440 aq71450 aq71463 aq71475 aq71490 aq714110 aq714125 aq714160 aq714200 aq714250 aq714315', n:11, status:'fertig' },
   { id:'accessories/flat-gasket-for-unions', cat:'accessories', slug:'flat-gasket-for-unions', de:'Flachdichtung für Verschraubungen', en:'Flat Gasket for Unions PP-R', url:'/de/produkte/accessories/flat-gasket-for-unions-pp-r', module:'kaqua-flat-gasket-for-unions', fam:'rot-sym', tier:4, order:52, codes:['AQ490F20','AQ490F32'], alle:'aq490f20 aq490f25 aq490f32', n:3, status:'fertig' },
   { id:'accessories/plug', cat:'accessories', slug:'plug', de:'Stopfen', en:'Plug', url:'/de/produkte/accessories/plug', module:'kaqua-plug', fam:'rot-sym', tier:4, order:53, codes:['AQ90912','AQ90912'], alle:'aq90912', n:1, status:'fertig' },
-  { id:'valves/elongation-pieces', cat:'valves', slug:'elongation-pieces', de:'Verlängerungsstück', en:'Elongation Pieces', url:'/de/produkte/valves/elongation-pieces', module:'kaqua-elongation-pieces', fam:'rot-sym', tier:4, order:54, codes:['AQ62990','AQ62990'], n:1, status:'offen' },
-  { id:'tools/welding-tool-for-repairing-plug', cat:'tools', slug:'welding-tool-for-repairing-plug', de:'Schweißwerkzeug Reparaturstopfen', en:'Welding Tool for Repairing Plug', url:'/de/produkte/tools/welding-tool-for-repairing-plug', module:'kaqua-welding-tool-for-repairing-plug', fam:'tool-die', tier:4, order:55, codes:['AQ98625','AQ98663'], n:5, status:'offen' },
+  { id:'valves/elongation-pieces', cat:'valves', slug:'elongation-pieces', de:'Verlängerungsstück', en:'Elongation Pieces', url:'/de/produkte/valves/elongation-pieces', module:'kaqua-elongation-pieces', fam:'rot-sym', tier:4, order:54, codes:['AQ599E','AQ599E'], alle:'aq599e', n:1, status:'prototyp' },
+  { id:'tools/welding-tool-for-repairing-plug', cat:'tools', slug:'welding-tool-for-repairing-plug', de:'Schweißwerkzeug Reparaturstopfen', en:'Welding Tool for Repairing Plug', url:'/de/produkte/tools/welding-tool-for-repairing-plug', module:'kaqua-welding-tool-for-repairing-plug', fam:'tool-die', tier:4, order:55, codes:['AQ9837','AQ98311'], alle:'aq9837 aq98311', n:2, status:'prototyp' },
   { id:'fittings/cross-over', cat:'fittings', slug:'cross-over', de:'Überbogen', en:'Cross Over', url:'/de/produkte/fittings/cross-over', module:'kaqua-cross-over', fam:'crossover', tier:4, order:56, codes:['AQ28720','AQ28732'], alle:'aq28720 aq28725 aq28732', n:3, status:'fertig' },
   { id:'fittings/cross-over-pipe', cat:'fittings', slug:'cross-over-pipe', de:'Überbogen mit Rohr', en:'Cross Over Pipe', url:'/de/produkte/fittings/cross-over-pipe', module:'kaqua-cross-over-pipe', fam:'crossover', tier:4, order:57, codes:['AQ28520','AQ28532'], alle:'aq28520 aq28525 aq28532', n:3, status:'fertig' },
-  { id:'tools/drilling-tool-for-weld-in-saddle', cat:'tools', slug:'drilling-tool-for-weld-in-saddle', de:'Bohrwerkzeug Einschweißsattel', en:'Drilling Tool for Weld-in Saddle', url:'/de/produkte/tools/drilling-tool-for-weld-in-saddle', module:'kaqua-drilling-tool-for-weld-in-saddle', fam:'tool-die', tier:4, order:58, codes:['AQ98625','AQ98663'], n:5, status:'offen' },
-  { id:'tools/welding-tool-for-weld-in-saddles', cat:'tools', slug:'welding-tool-for-weld-in-saddles', de:'Schweißwerkzeug Einschweißsattel', en:'Welding Tool for Weld-in Saddles', url:'/de/produkte/tools/welding-tool-for-weld-in-saddles', module:'kaqua-welding-tool-for-weld-in-saddles', fam:'tool-die', tier:4, order:59, codes:['AQ9850400632S','AQ98516025050'], n:8, status:'offen' },
+  { id:'tools/drilling-tool-for-weld-in-saddle', cat:'tools', slug:'drilling-tool-for-weld-in-saddle', de:'Bohrwerkzeug Einschweißsattel', en:'Drilling Tool for Weld-in Saddle', url:'/de/produkte/tools/drilling-tool-for-weld-in-saddle', module:'kaqua-drilling-tool-for-weld-in-saddle', fam:'tool-die', tier:4, order:58, codes:['AQ98625','AQ98663'], alle:'aq98625 aq98632 aq98640 aq98650 aq98663', n:5, status:'prototyp' },
+  { id:'tools/welding-tool-for-weld-in-saddles', cat:'tools', slug:'welding-tool-for-weld-in-saddles', de:'Schweißwerkzeug Einschweißsattel', en:'Welding Tool for Weld-in Saddles', url:'/de/produkte/tools/welding-tool-for-weld-in-saddles', module:'kaqua-welding-tool-for-weld-in-saddles', fam:'tool-die', tier:4, order:59, codes:['AQ98504006325','AQ98516025063'], alle:'aq98504006325 aq98507512525 aq98507512532 aq98507512540 aq98516025025 aq98516025032 aq98516025040 aq98516025050 aq98516025063', n:9, status:'prototyp' },
   { id:'transition-fittings/union-for-watermeters', cat:'transition-fittings', slug:'union-for-watermeters', de:'Wasserzähler-Verschraubung', en:'Union for Watermeters', url:'/de/produkte/transition-fittings/union-for-watermeters', module:'kaqua-union-for-watermeters', fam:'union-ppr', tier:4, order:60, codes:['AQ72E20','AQ72E32'], n:3, status:'offen' },
-  { id:'valves/concealed-valve-chrome-heavy-part', cat:'valves', slug:'concealed-valve-chrome-heavy-part', de:'UP-Ventil Chrom Unterteil', en:'Concealed Valve Chrome — Heavy Part', url:'/de/produkte/valves/concealed-valve-chrome-heavy-part', module:'kaqua-concealed-valve-chrome-heavy-part', fam:'concealed', tier:4, order:61, codes:['AQ62993','AQ62993'], n:1, status:'offen' },
-  { id:'valves/concealed-valve-chrome-light-part', cat:'valves', slug:'concealed-valve-chrome-light-part', de:'UP-Ventil Chrom Oberteil', en:'Concealed Valve Chrome — Light Part', url:'/de/produkte/valves/concealed-valve-chrome-light-part', module:'kaqua-concealed-valve-chrome-light-part', fam:'concealed', tier:4, order:62, codes:['AQ62992','AQ62992'], n:1, status:'offen' },
-  { id:'tools/pipe-cutter-50-125', cat:'tools', slug:'pipe-cutter-50-125', de:'Rohrschneider 50–125', en:'Pipe Cutter 50–125', url:'/de/produkte/tools/pipe-cutter-50125', module:'kaqua-pipe-cutter-50-125', fam:'tool-machine', tier:4, order:63, codes:['AQ975125','AQ975125'], n:1, status:'offen' },
-  { id:'tools/pipe-cutter-50-125-114', cat:'tools', slug:'pipe-cutter-50-125-114', de:'Rohrschneider 50–125 (1¼)', en:'Pipe Cutter 50–125 (1¼)', url:'/de/produkte/tools/pipe-cutter-50125-1', module:'kaqua-pipe-cutter-50-125-114', fam:'tool-machine', tier:4, order:64, codes:['AQ974','AQ974'], n:1, status:'offen' },
+  { id:'valves/concealed-valve-chrome-heavy-part', cat:'valves', slug:'concealed-valve-chrome-heavy-part', de:'UP-Ventil Chrom Unterteil', en:'Concealed Valve Chrome — Heavy Part', url:'/de/produkte/valves/concealed-valve-chrome-heavy-part', module:'kaqua-concealed-valve-chrome-heavy-part', fam:'concealed', tier:4, order:61, codes:['AQ5993','AQ5993'], alle:'aq5993', n:1, status:'prototyp' },
+  { id:'valves/concealed-valve-chrome-light-part', cat:'valves', slug:'concealed-valve-chrome-light-part', de:'UP-Ventil Chrom Oberteil', en:'Concealed Valve Chrome — Light Part', url:'/de/produkte/valves/concealed-valve-chrome-light-part', module:'kaqua-concealed-valve-chrome-light-part', fam:'concealed', tier:4, order:62, codes:['AQ5992','AQ5992'], alle:'aq5992', n:1, status:'prototyp' },
+  { id:'tools/pipe-cutter-50-125', cat:'tools', slug:'pipe-cutter-50-125', de:'Rohrschneider 50–125', en:'Pipe Cutter 50–125', url:'/de/produkte/tools/pipe-cutter-50125', module:'kaqua-pipe-cutter-50-125', fam:'tool-machine', tier:4, order:63, codes:['AQ975125','AQ975125'], alle:'aq975125', n:1, status:'prototyp' },
+  { id:'tools/pipe-cutter-50-125-114', cat:'tools', slug:'pipe-cutter-50-125-114', de:'Rohrschneider 50–125 (1¼)', en:'Pipe Cutter 50–125 (1¼)', url:'/de/produkte/tools/pipe-cutter-50125-1', module:'kaqua-pipe-cutter-50-125-114', fam:'tool-machine', tier:4, order:64, codes:['AQ974','AQ974'], alle:'aq974', n:1, status:'prototyp' },
   { id:'valves/adjustable-battery-female-thread', cat:'valves', slug:'adjustable-battery-female-thread', de:'Verstellbarer Batterieanschluss IG', en:'Adjustable Battery (Female Thread)', url:'/de/produkte/valves/adjustable-battery-female-thread', module:'kaqua-adjustable-battery-female-thread', fam:'battery', tier:4, order:65, codes:['AQ492G2012','AQ492G2512'], alle:'aq492g2012 aq492g2512', n:2, status:'fertig' },
-  { id:'tools/hand-welding-machine-20-32', cat:'tools', slug:'hand-welding-machine-20-32', de:'Handschweißgerät 20–32 komplett', en:'Hand Welding Machine 20–32 (Complete Set)', url:'/de/produkte/tools/hand-welding-machine-2032-complete-set', module:'kaqua-hand-welding-machine-20-32', fam:'tool-machine', tier:4, order:66, codes:['AQ98032','AQ98032'], n:1, status:'offen' },
-  { id:'tools/hand-welding-machine-20-63', cat:'tools', slug:'hand-welding-machine-20-63', de:'Handschweißgerät 20–63 komplett', en:'Hand Welding Machine 20–63 (Complete Set)', url:'/de/produkte/tools/hand-welding-machine-20-63', module:'kaqua-hand-welding-machine-20-63', fam:'tool-machine', tier:4, order:67, codes:['AQ98063','AQ98063'], n:1, status:'offen' },
-  { id:'tools/hand-welding-machine-mirror-50-125', cat:'tools', slug:'hand-welding-machine-mirror-50-125', de:'Heizspiegel 50–125', en:'Hand Welding Machine (Only Mirror) 50–125', url:'/de/produkte/tools/hand-welding-machine-mirror-50-125', module:'kaqua-hand-welding-machine-mirror-50-125', fam:'tool-machine', tier:5, order:68, codes:['AQ991125','AQ991125'], n:1, status:'offen' },
-  { id:'tools/electrofusion-machine', cat:'tools', slug:'electrofusion-machine', de:'Elektroschweißgerät', en:'Electrofusion Machine', url:'/de/produkte/tools/electrofusion-machine', module:'kaqua-electrofusion-machine', fam:'tool-machine', tier:5, order:69, codes:['AQ990','AQ990'], n:1, status:'offen' },
-  { id:'tools/butt-welding-machine-90-250', cat:'tools', slug:'butt-welding-machine-90-250', de:'Stumpfschweißmaschine 90–250', en:'Butt Welding Machine 90–250', url:'/de/produkte/tools/butt-welding-machine-90-250', module:'kaqua-butt-welding-machine-90-250', fam:'tool-machine', tier:5, order:70, codes:['AQ989250','AQ989250'], n:1, status:'offen' },
-  { id:'tools/welding-machine-50-125', cat:'tools', slug:'welding-machine-50-125', de:'Schweißgerät 50–125 komplett', en:'Welding Machine 50–125 (Complete Set)', url:'/de/produkte/tools/welding-machine-50-125', module:'kaqua-welding-machine-50-125', fam:'tool-machine', tier:5, order:71, codes:['AQ985125','AQ985125'], n:1, status:'offen' },
+  { id:'tools/hand-welding-machine-20-32', cat:'tools', slug:'hand-welding-machine-20-32', de:'Handschweißgerät 20–32 komplett', en:'Hand Welding Machine 20–32 (Complete Set)', url:'/de/produkte/tools/hand-welding-machine-2032-complete-set', module:'kaqua-hand-welding-machine-20-32', fam:'tool-machine', tier:4, order:66, codes:['AQ98032','AQ98032'], alle:'aq98032', n:1, status:'prototyp' },
+  { id:'tools/hand-welding-machine-20-63', cat:'tools', slug:'hand-welding-machine-20-63', de:'Handschweißgerät 20–63 komplett', en:'Hand Welding Machine 20–63 (Complete Set)', url:'/de/produkte/tools/hand-welding-machine-20-63', module:'kaqua-hand-welding-machine-20-63', fam:'tool-machine', tier:4, order:67, codes:['AQ98063','AQ98063'], alle:'aq98063', n:1, status:'prototyp' },
+  { id:'tools/hand-welding-machine-mirror-50-125', cat:'tools', slug:'hand-welding-machine-mirror-50-125', de:'Heizspiegel 50–125', en:'Hand Welding Machine (Only Mirror) 50–125', url:'/de/produkte/tools/hand-welding-machine-mirror-50-125', module:'kaqua-hand-welding-machine-mirror-50-125', fam:'tool-machine', tier:5, order:68, codes:['AQ991125','AQ991125'], alle:'aq991125', n:1, status:'prototyp' },
+  { id:'tools/electrofusion-machine', cat:'tools', slug:'electrofusion-machine', de:'Elektroschweißgerät', en:'Electrofusion Machine', url:'/de/produkte/tools/electrofusion-machine', module:'kaqua-electrofusion-machine', fam:'tool-machine', tier:5, order:69, codes:['AQ990','AQ990'], alle:'aq990', n:1, status:'prototyp' },
+  { id:'tools/butt-welding-machine-90-250', cat:'tools', slug:'butt-welding-machine-90-250', de:'Stumpfschweißmaschine 90–250', en:'Butt Welding Machine 90–250', url:'/de/produkte/tools/butt-welding-machine-90-250', module:'kaqua-butt-welding-machine-90-250', fam:'tool-machine', tier:5, order:70, codes:['AQ989250','AQ989250'], alle:'aq989250', n:1, status:'prototyp' },
+  { id:'tools/welding-machine-50-125', cat:'tools', slug:'welding-machine-50-125', de:'Schweißgerät 50–125 komplett', en:'Welding Machine 50–125 (Complete Set)', url:'/de/produkte/tools/welding-machine-50-125', module:'kaqua-welding-machine-50-125', fam:'tool-machine', tier:5, order:71, codes:['AQ988125','AQ988125'], alle:'aq988125', n:1, status:'prototyp' },
 ];
 
 

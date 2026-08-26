@@ -12,7 +12,7 @@ darunter Sattelschnitt und Brückenbahn als neue Geometrien. **52 von 71.**
 
 | | |
 |---|---|
-| Fertig | **52 von 71** · Selbsttest 50/50, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **70 von 71** (52 fertig · 18 prototyp · 1 blockiert) · Selbsttest 50/50, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -567,6 +567,14 @@ L1 − L = D(½"), die Ring- und Schienenannahmen hat die kg-Spalte
 geschärft, die Verstellung fährt als states-Mechanik. Es verbleiben:
 **18 Prototypen** (14 Werkzeuge, 4 Ventilteile S. 106) und
 **1 blockiert** (AQ332, §3.25).
+
+### 3.31 Spur B abgeschlossen — 70 von 71, der Katalog steht
+
+Die 18 Prototypen sind gebaut (`pruefung/p3-prototypen.md`): vier
+Ventilteile mit G-Gewinde und kg-Spalte als Ankern, vierzehn Werkzeuge
+mit der Nennweite als einzigem Anker. §3.10 (Rohrschneider zeigten die
+Rohrschelle) und §3.24 (fehlendes Sattelwerkzeug) sind damit
+GESCHLOSSEN. Es verbleibt allein §3.25 (AQ332, blockiert).
 
 ## 4 · Eigene Arbeitsschritte, nicht nebenbei
 

@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, SEG_INT, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, revolve, roundedPad, socketOD, threadRing, threadSpec,
+  D2R, SEG_INT, SEG_VIS, branchJoin, buildProfile, capFromProfile, createAssembly, fusionDepth, hexPrism, materials, mergeGeometries, meshVolume, revolve, roundedPad, socketOD, threadRing, threadSpec,
 } from '../kaqua-3d-core.mjs';
 
 /* == adjustable-battery-female-thread/data.js ========================== */
@@ -257,23 +257,6 @@ export function buildBockRing(P, zTop) {
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const r2 = (v) => Math.round(v * 100) / 100;
 
-function netzVolumen(geo) {
-  const p = geo.attributes.position.array;
-  const idx = geo.index ? geo.index.array : null;
-  const n = idx ? idx.length : p.length / 3;
-  let v = 0;
-  for (let i = 0; i < n; i += 3) {
-    const a = (idx ? idx[i] : i) * 3;
-    const b = (idx ? idx[i + 1] : i + 1) * 3;
-    const c = (idx ? idx[i + 2] : i + 2) * 3;
-    v += (
-      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
-      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
-      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
-    ) / 6;
-  }
-  return Math.abs(v);
-}
 
 const product = {
   id: 'valves/adjustable-battery-female-thread',
@@ -447,7 +430,7 @@ const product = {
           for (const t of A.parts) {
             const dichte = /Messing/i.test(t.label || '') ? 8.4 : 0.9;
             let v = 0;
-            t.obj.traverse((o) => { if (o.isMesh) v += netzVolumen(o.geometry); });
+            t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
             g += (v * dichte) / 1e6;
           }
           return r2(g);

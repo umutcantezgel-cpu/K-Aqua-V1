@@ -23,6 +23,7 @@ import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
 import LocalAvailability from '@/components/product/LocalAvailability';
+import { articleCodesForProduct } from '@/lib/bim/product';
 import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
 import { getMessages, setRequestLocale } from 'next-intl/server';
@@ -223,6 +224,11 @@ export default async function ProductDetailPage({
   const codesArray: string[] = Array.isArray(product?.article_codes)
     ? product.article_codes
     : [String(product?.article_codes ?? 'N/A')];
+
+  // Zahl der Nennweiten fuer die Beschriftung des BIM-Downloads. Aus der
+  // BIM-Schicht statt aus `codesArray`, damit dort dieselbe Zahl steht wie im
+  // Paket selbst — bei den beiden Dublettenseiten weichen sie sonst ab.
+  const bimArticleCount = articleCodesForProduct(product.slug).length;
 
   const seoCat = getDynamicSeoCategory(category);
   const seoBlocks = tSeo.has(seoCat) ? tSeo.raw(seoCat) : [];
@@ -550,15 +556,20 @@ export default async function ProductDetailPage({
                   }} />
                 </div>
 
-                <ProductDownloads translations={{
-                  downloads: tProd('labels.downloads'),
-                  range: tProd('labels.range'),
-                  rangeDesc: tProd('labels.rangeDesc'),
-                  cert: tProd('labels.cert'),
-                  certDesc: tProd('labels.certDesc'),
-                  features: tProd('labels.features'),
-                  featuresDesc: tProd('labels.featuresDesc'),
-                }} />
+                <ProductDownloads
+                  productSlug={product.slug}
+                  sizeCount={bimArticleCount}
+                  isTool={product.category === 'tools'}
+                  translations={{
+                    downloads: tProd('labels.downloads'),
+                    range: tProd('labels.range'),
+                    rangeDesc: tProd('labels.rangeDesc'),
+                    cert: tProd('labels.cert'),
+                    certDesc: tProd('labels.certDesc'),
+                    features: tProd('labels.features'),
+                    featuresDesc: tProd('labels.featuresDesc'),
+                  }}
+                />
                 
 
               </Card>
