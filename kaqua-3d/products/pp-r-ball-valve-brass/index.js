@@ -14,7 +14,7 @@ import { createAssembly } from '../../core/index.js';
 import { ARTICLES, DATA_STATUS, DIMENSION_KEY, SIZES } from './data.js';
 import { params } from './params.js';
 import {
-  buildBody, buildLever, buildStemORing, buildBall, buildSeat, buildStem,
+  buildBody, buildLever, buildLeverBolt, buildStemORing, buildBall, buildSeat, buildStem,
 } from './parts.js';
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
@@ -51,7 +51,7 @@ const product = {
     const P = params(size);
     const A = createAssembly({
       name: 'K-Aqua_Kugelhahn_Messing_d' + P.d,
-      materials: ['pprGreen', 'chrome', 'steel', 'ptfe', 'epdm'],
+      materials: ['pprGreen', 'chrome', 'steel', 'ptfe', 'epdm', 'toolRed'],
       seed: 137,
       clipPlane,
     });
@@ -96,9 +96,15 @@ const product = {
     A.part('stem', { name: 'Spindel', label: 'Spindel', mat: 'steel', parent: rotor,
       geo: stem.geo, cap: stem.cap, explode: V3(0, offStem, 0),
       anchor: V3(0.09 * P.A, P.domeTop + 0.03 * P.A, 0) });
-    A.part('hebel', { name: 'Hebel', label: 'Hebel (Stahl)', mat: 'steel', parent: rotor,
+    /* Der Hebel ist im Foto AQ850 leuchtend ROT pulverbeschichtet
+       (abgetastet #df2e1f am Bildschirm; toolRed ist der Albedo dazu),
+       mit sichtbarer Edelstahl-Sechskantschraube auf der Nabe (M8). */
+    A.part('hebel', { name: 'Hebel', label: 'Hebel (Stahl, rot beschichtet)', mat: 'toolRed', parent: rotor,
       geo: lever.geo, cap: lever.cap, explode: V3(0, offLever, 0),
       anchor: V3(P.lever.len * 0.55, P.H + 0.06 * P.A, 0) });
+    const bolt = buildLeverBolt(P);
+    A.part('schraube', { name: 'Hebelschraube', label: 'Hebelschraube (Edelstahl)', mat: 'steel', parent: rotor,
+      geo: bolt.geo, cap: bolt.cap, explode: V3(0, offLever + 0.05 * P.L, 0) });
 
     A.light(V3(-P.xEnd * 0.7, 0, 0));
     A.light(V3(P.xEnd * 0.7, 0, 0));

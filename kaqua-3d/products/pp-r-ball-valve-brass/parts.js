@@ -13,7 +13,7 @@
 import * as THREE from 'three';
 import {
   buildProfile, revolve, loft, arcPts, mergeGeometries, capFromProfile,
-  polygonCap, D2R, SEG_VIS, SEG_INT,
+  polygonCap, hexPrism, D2R, SEG_VIS, SEG_INT,
 } from '../../core/index.js';
 
 /* Der Korpus re-exportiert die Familie, damit index.js wie bei jedem
@@ -178,4 +178,26 @@ export function buildStemORing(P, y, r) {
       polygonCap([[-r - c, y - c], [-r + c, y - c], [-r + c, y + c], [-r - c, y + c]]),
     ]),
   };
+}
+
+
+/* Befestigungsschraube des Hebels — im Foto AQ850 als
+   Edelstahl-Sechskantkopf auf der Nabe deutlich sichtbar. Kopf als
+   flacher Sechskant, Schaft verschwindet in der Spindel. */
+export function buildLeverBolt(P) {
+  const Lv = P.lever;
+  const yBase = Lv.yBend + Lv.thick + 0.6;   // Nabenoberkante
+  const kopfH = Math.max(2.2, 0.035 * P.H);
+  const af = Math.max(5.5, P.stemOD * 0.75);
+  const kopf = hexPrism(af, kopfH, Math.max(0.25, af * 0.03), 0.5);
+  kopf.rotateZ(Math.PI / 2);                 // Achse nach +Y (wie beim Gewinde-T)
+  kopf.translate(0, yBase, 0);
+  const halsProfile = buildProfile([
+    { a: yBase - 1.2, r: 0.02, fillet: 0 },
+    { a: yBase - 1.2, r: af * 0.32, fillet: 0.2 },
+    { a: yBase + 0.2, r: af * 0.32, fillet: 0.2 },
+    { a: yBase + 0.2, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  const hals = revolve(halsProfile, { axis: 'y', segments: SEG_INT });
+  return { geo: mergeGeometries([kopf, hals]), cap: capFromProfile(halsProfile, 'y') };
 }

@@ -57,6 +57,14 @@ export function params(dNom) {
   P.oringCord = 2.4;
   P.oringDepth = 1.8;
 
+  /* ── ZUR GRIFFLÄNGE, nach dem Bildabgleich vom 25.08.2026 ──
+     Der Mangelverdacht M9 („Griff zu lang") hat sich als Fehler des
+     PRÜFERS erwiesen: die Grifflänge ist TABELLIERT (Spalte A), und
+     A/L = 0,73 deckt sich mit dem Foto — verglichen worden war
+     fälschlich gegen die Korpuslänge ohne Überwurfmuttern. Die Länge
+     bleibt A. Aus dem Foto übernommen ist nur die GRÜNE DECKEINLAGE
+     auf dem Griffkopf (zweiter Werkstoff des Griffs). */
+  const gripA = A;
   P.lever = {
     hubBot: 0.41 * H,
     hubTop: 0.85 * H,
@@ -65,13 +73,15 @@ export function params(dNom) {
     armTop: H,
     thRoot: 0.30 * H,
     thTip: 0.15 * H,
-    len: A,
+    len: gripA,
     longFrac: 0.73,
-    xLong: 0.73 * A,
-    xShort: 0.27 * A,
-    wRoot: 0.26 * A,
-    wTip: 0.11 * A,
+    xLong: 0.73 * gripA,
+    xShort: 0.27 * gripA,
+    wRoot: 0.26 * gripA,
+    wTip: 0.11 * gripA,
     ribs: 12,
+    inlayOD: 0.30 * D,          // grüne Einlage auf dem Kopf, aus dem Foto
+    inlayH: 0.9,
   };
   return P;
 }

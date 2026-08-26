@@ -307,3 +307,22 @@ export function buildLever(P) {
     xLong, xShort,
   };
 }
+
+
+/* Grüne Deckeinlage auf dem Griffkopf — im Foto AQ852 der zweite
+   Werkstoff des Griffs. Eine flache Scheibe mit Fase, konzentrisch auf
+   der Kopfkuppe. */
+export function buildLeverInlay(P) {
+  const Lv = P.lever;
+  const yTop = Lv.hubTop;
+  const r = Lv.inlayOD / 2;
+  const pts = [
+    { a: yTop - 0.2, r: 0.02, fillet: 0 },
+    { a: yTop - 0.2, r: r, fillet: 0.3 },
+    { a: yTop + Lv.inlayH, r: r - 0.25, chamfer: 0.35 },
+    { a: yTop + Lv.inlayH, r: 0.02, fillet: 0 },
+  ];
+  const profile = buildProfile(pts, { segs: 3 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_FINE }),
+           cap: capFromProfile(profile, 'y') };
+}

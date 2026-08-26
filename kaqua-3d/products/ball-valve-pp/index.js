@@ -11,7 +11,7 @@ import { ARTICLES, SIZES, DIMENSION_KEY, article } from './data.js';
 import { params } from './params.js';
 import {
   buildKorpus, buildNut, buildTail, buildBall, buildSeat, buildStem,
-  buildLever, buildORing,
+  buildLever, buildLeverInlay, buildORing,
 } from './parts.js';
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
@@ -60,6 +60,7 @@ const product = {
     const seat = buildSeat(P);
     const stem = buildStem(P);
     const lever = buildLever(P);
+    const inlay = buildLeverInlay(P);
     const oring = buildORing(P, tail.oringX, tail.oringR);
 
     /* Explosionsversatz: aus den Teilelängen gerechnet, damit sich bei
@@ -112,9 +113,12 @@ const product = {
     A.part('stem', { name: 'Spindel', label: 'Spindel', mat: 'steel', parent: rotor,
       geo: stem.geo, cap: stem.cap, explode: V3(0, offStem, 0),
       anchor: V3(0.07 * P.L, P.domeTop + 0.03 * P.L, 0) });
-    A.part('lever', { name: 'Hebel', label: 'Hebel', mat: 'anthraciteB', parent: rotor,
+    A.part('lever', { name: 'Knebelgriff', label: 'Knebelgriff', mat: 'anthraciteB', parent: rotor,
       geo: lever.geo, cap: lever.cap, explode: V3(0, offLever, 0),
       anchor: V3(P.lever.xLong * 0.45, P.H + 0.05 * P.L, 0) });
+    /* Grüne Deckeinlage — der zweite Werkstoff des Griffs (Foto AQ852). */
+    A.part('inlay', { name: 'Griffeinlage', label: 'Griffeinlage (PP-R)', mat: 'pprGreen', parent: rotor,
+      geo: inlay.geo, cap: inlay.cap, explode: V3(0, offLever + 0.06 * P.L, 0) });
 
     /* Innenlicht-Positionen (mm) — der Core setzt die Lampen. */
     A.light(V3(-P.xJoint * 0.8, 0, 0));
