@@ -11,7 +11,7 @@
    falscher Steg fliegt sofort auf. */
 
 import * as THREE from 'three';
-import { createAssembly, mergeGeometries } from '../../core/index.js';
+import { createAssembly, mergeGeometries, meshVolume } from '../../core/index.js';
 import { ARTICLES, SIZES, DIMENSION_KEY, DATA_STATUS } from './data.js';
 import { params } from './params.js';
 import { buildWinkelblock, buildBatterieRing, buildSteg } from './parts.js';
@@ -19,23 +19,6 @@ import { buildWinkelblock, buildBatterieRing, buildSteg } from './parts.js';
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const r2 = (v) => Math.round(v * 100) / 100;
 
-function netzVolumen(geo) {
-  const p = geo.attributes.position.array;
-  const idx = geo.index ? geo.index.array : null;
-  const n = idx ? idx.length : p.length / 3;
-  let v = 0;
-  for (let i = 0; i < n; i += 3) {
-    const a = (idx ? idx[i] : i) * 3;
-    const b = (idx ? idx[i + 1] : i + 1) * 3;
-    const c = (idx ? idx[i + 2] : i + 2) * 3;
-    v += (
-      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
-      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
-      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
-    ) / 6;
-  }
-  return Math.abs(v);
-}
 
 const product = {
   id: 'valves/battery-female-thread',
@@ -173,7 +156,7 @@ const product = {
           for (const t of A.parts) {
             const dichte = /Messing/i.test(t.label || '') ? 8.4 : 0.9;
             let v = 0;
-            t.obj.traverse((o) => { if (o.isMesh) v += netzVolumen(o.geometry); });
+            t.obj.traverse((o) => { if (o.isMesh) v += meshVolume(o.geometry); });
             g += (v * dichte) / 1e6;
           }
           return r2(g * 100) / 100;

@@ -3,7 +3,7 @@
    Zwei Produkte, ein Aufbau. Was sie unterscheidet, steckt in cfg. */
 
 import * as THREE from 'three';
-import { createAssembly } from '../../core/index.js';
+import { createAssembly, meshVolume } from '../../core/index.js';
 import { crossoverParams } from './params.js';
 import { buildCrossover } from './parts.js';
 
@@ -11,32 +11,6 @@ const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 const r2 = (v) => Math.round(v * 100) / 100;
 const komma = (v) => String(v).replace('.', ',');
 
-/* Rauminhalt eines geschlossenen Netzes über den Satz von Gauß: die
-   Summe der vorzeichenbehafteten Tetraeder (0, v0, v1, v2). Die
-   Innenfläche ist umgekehrt gewickelt und zieht ihren Hohlraum von
-   selbst ab — genau deshalb ist das Ergebnis der WERKSTOFF und nicht der
-   umschlossene Raum.
-
-   Das ist die schärfste Probe, die dieses Produkt kennt: sie prüft Bahn,
-   Wandstärken, Muffen und die Deutung von H auf einmal, und ihr
-   Sollwert steht als Kilogramm in der Katalogtabelle. */
-function netzVolumen(geo) {
-  const p = geo.attributes.position.array;
-  const idx = geo.index ? geo.index.array : null;
-  const n = idx ? idx.length : p.length / 3;
-  let v = 0;
-  for (let i = 0; i < n; i += 3) {
-    const a = (idx ? idx[i] : i) * 3;
-    const b = (idx ? idx[i + 1] : i + 1) * 3;
-    const c = (idx ? idx[i + 2] : i + 2) * 3;
-    v += (
-      p[a] * (p[b + 1] * p[c + 2] - p[b + 2] * p[c + 1])
-      - p[a + 1] * (p[b] * p[c + 2] - p[b + 2] * p[c])
-      + p[a + 2] * (p[b] * p[c + 1] - p[b + 1] * p[c])
-    ) / 6;
-  }
-  return Math.abs(v);
-}
 
 export function buildUeberbogen(cfg, size, variant, clipPlane) {
   const a = cfg.article(size);
@@ -145,7 +119,7 @@ export function buildUeberbogen(cfg, size, variant, clipPlane) {
        Wandstärken und Muffen auf einmal — und sie ist der Grund, warum
        die Deutung von H feststeht. */
     { key: 'masse', label: 'Masse aus dem Volumen (0,9 g/cm³)', soll: a.kg,
-      ist: () => r2(Math.round((netzVolumen(body.geo) * 0.9) / 1e6 * 1000) / 1000) },
+      ist: () => r2(Math.round((meshVolume(body.geo) * 0.9) / 1e6 * 1000) / 1000) },
     ...cfg.messungen(P, a, { imBand, A }),
   ];
 
