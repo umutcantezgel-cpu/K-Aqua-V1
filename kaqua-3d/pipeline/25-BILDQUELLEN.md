@@ -33,7 +33,14 @@ Fall 31 kennt: Tabellenmaß (Rang 1) > Zeichnung (Rang 2) > Fotoableitung
 2. Ein Bild **darf** eine Gestalt bestimmen, die keine Tabelle bemaßt —
    Sechskant ja/nein, Riffelung, Absatz, Prägung, Farbe.
 3. Ein Render mit bekanntem Artikelcode ist stärker als ein Katalogfoto
-   unbekannter Größe: die Größe ist **gegeben**, nicht erschlossen (Fall 35).
+   unbekannter Größe — ABER: **der Ordnername belegt das PRODUKT, die
+   GRÖSSE nur unverbindlich.** Beleg vom 25.08.2026: der Ordner
+   `AQ28520` (d20) enthält einen Seitenriss in bewiesener Parallellage
+   (Rohrdicke links = rechts aufs Pixel), dessen L/H exakt der
+   d32-Zeile entspricht. Proportionsschlüsse aus Rendern brauchen die
+   Gegenprobe über alle Katalogzeilen; erst wenn genau eine Zeile
+   passt, ist die dargestellte Größe bestimmt (Fall 35 bleibt in
+   Kraft).
 4. Widersprechen sich **zwei Bilder** derselben Familie, gewinnt keines. Der
    Widerspruch wird dokumentiert und dem Menschen vorgelegt.
 5. **Neu:** Widersprechen sich **Katalogtabelle und Website-Tabelle**, gewinnt

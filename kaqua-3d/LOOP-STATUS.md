@@ -533,6 +533,32 @@ mitfängt (dasselbe Muster wie der Halbraum beim Reduzier-T-Stück).
 Gehört ins Mängelregister der Spur A; ob auch die FORM falsch ist,
 entscheidet erst das enge Fenster.
 
+### 3.29 Spur A abgeschlossen — zwölf Mängel, zehn Posten, zwei kassierte Verdachte
+
+Der Bildabgleich aller 50 gebauten Modelle (AUFTRAG.md) ist durch:
+`pruefung/MAENGELREGISTER.md` und `SPUR-A-PLAN.md` tragen jeden Posten
+mit Status. Behoben: Verschraubung (Mutter mittig, dritte Deutung der
+Teilung), Gewindefamilie (D ist die PP-Griffzone, kein
+Sechskant-Eckenmaß — Neudeutung über alle 24 Adapterzeilen; umspritzter
+Messingkern nach der kg-Spalte), Kugelhahn-Griffe (rot + Schraube;
+grüne Einlage), Sattelrippen, Rohrschelle (Einlage raus, Rillen rein),
+E-Muffen-Panels, Überbogen-Endstrecke (0,35·L nach Bildmessung),
+Reduzierbuchsen-Sonde. NICHT behoben mit Grund: die Scheitelwand des
+Überbogen-Fittings (M5) — die Massenprobe verbietet es.
+
+**Von der eigenen Gegenprüfung kassiert:** M4 (IG-Riffelung war da —
+das Sichtungsinstrument war nutenblind) und M9 größtenteils (die
+Grifflänge ist tabelliert, A/L = 0,73 deckt sich mit dem Foto; der
+Prüfer hatte gegen die Korpuslänge verglichen). Beide stehen als
+„verworfen" im Register — Verdachte, die eine Messung kassiert, sind
+der Beleg, dass die Messpflicht trägt.
+
+**Bildquellen-Befund B1:** der ALH-Ordnername belegt das Produkt, die
+GRÖSSE nur unverbindlich (AQ28520 zeigt d32-Proportionen in bewiesener
+Parallellage). `25-BILDQUELLEN.md` §1 Regel 3 ist entsprechend
+eingeschränkt; drei Passagen der Visuellen Referenz (E-Muffen-Kontakte,
+Brass-Muttern, Sattelgestalt) sind gegen die Fotos berichtigt.
+
 ## 4 · Eigene Arbeitsschritte, nicht nebenbei
 
 - ~~ISO-7-1-Gewindetabelle in den Core~~ **erledigt 24.08.2026.** Sie stand

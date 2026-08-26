@@ -151,12 +151,13 @@ davor ein flacher Bund. Die Stirnseite ist **geschlossen und leicht gewölbt**,
 nicht flach. Am Bund zwei bis vier Griffrippen, damit man ihn von Hand
 eindrücken kann.
 
-**Elektroschweißmuffe (`electrofusion-socket`)** — Eine Muffe, aus deren
-Mantelfläche **zwei Kontaktstifte** senkrecht herausstehen: Zylinder von etwa
-4 mm Durchmesser, 10–14 mm hoch, achsparallel nebeneinander. Sie sitzen mittig
-auf der Oberseite. Im Foto sind sie orange oder schwarz — es sind
-Kontakthülsen, kein PP. Innen liegt ein Heizdraht, im Schnitt als feine
-Wendel sichtbar. Die Mantelfläche ist **glatt**, nicht geriffelt.
+**Elektroschweißmuffe (`electrofusion-socket`)** — Eine Muffe mit **zwei
+Kontaktdomen** auf dem Mantel. BERICHTIGT am 25.08.2026 gegen das
+Produktfoto `AQ271`: die Dome sind **grüne PP-Kragen**, die eigentliche
+Kontakthülse liegt darin VERSENKT — nicht orange oder schwarz
+freistehend, wie hier zuvor stand. Der Mantel trägt flache, erhabene
+**Rechteckfelder** (Wickelfeld-Panels) mit schmalen Fugen — nicht
+glatt. Keine Riffelung.
 
 **Reparaturstopfen (`repairing-plug`)** — Kegeliger Zapfen, der in eine
 gebohrte Leckstelle geschweißt wird. Sieht aus wie ein Pilz: konischer Schaft
@@ -203,8 +204,10 @@ Der PP-Körper ist außen geriffelt.
 
 **Metallverschraubung (`metal-union-female-thread`, `-male-thread`, und die
 beiden Messing-Varianten)** — **Dreiteilig**, das ist das Kennzeichen: ein
-PP-R-Zapfenstück, eine PP-R-Überwurfmutter mit Riffelung, und ein
-Messing-Gewindeteil. Die Mutter ist **lösbar** — deshalb hat sie eine
+PP-R-Zapfenstück, eine Überwurfmutter, und ein Messing-Gewindeteil.
+BERICHTIGT 25.08.2026: bei den **Messing-Varianten** (`AQ532`/`AQ537`)
+ist die Mutter selbst **Messing mit Sechskant SW** (Foto), nur bei
+`AQ542`/`AQ547` ist sie PP-R mit Riffelung. Die Mutter ist **lösbar** — deshalb hat sie eine
 deutliche, tiefe Riffelung (12 Riffel typisch, 1,5 mm tief) zum Greifen.
 Zwischen Messingteil und Zapfen liegt eine **Flachdichtung**.
 In der Explosionsansicht müssen alle vier Teile getrennt sichtbar sein.
@@ -228,12 +231,13 @@ wärmeres Gold, sichtbare Drehriefen.
 
 ### 4.3 Abzweige und Sättel
 
-**Anbohrsattel (`weld-in-saddle`, `-female-thread`, `-male-thread`)** — Ein
-**Sattel**, kein Rohrstück: eine gekrümmte Platte, die sich an die Außenseite
-eines Rohres anlegt, mit einem senkrechten Abzweigstutzen. Die Unterseite ist
-**zylindrisch hohl** mit dem Radius des Trägerrohres. Die Platte ist oval,
-etwa 2 · d lang und 1,5 · d breit, Dicke 4–6 mm. Der Übergang Platte → Stutzen
-hat eine große Kehle.
+**Anbohrsattel (`weld-in-saddle`, `-female-thread`, `-male-thread`)** —
+BERICHTIGT am 25.08.2026 gegen die Fotos `AQ130SP`/`AQ130GSP`: ein
+**kompakter Stutzen** mit rundem Teller, dessen Fuß dem Rohrmantel
+folgt (zylindrisch ausgeschnitten) — KEINE ovale Platte von 2·d. Außen
+am Boss **vier Griffrippenpaare**. Oben Muffe, Messing-IG oder
+Messing-AG. `AQ130GSP` ist das Foto der IG-Variante (das `GS` steht
+für Gewinde-Sattel).
 
 **Reduzier-T-Stück (`reducing-tee`, `reducing-tee-large`)** — T-Stück, dessen
 Abzweig eine **kleinere Nennweite** hat als der Durchgang. Zwei Nennweiten,
