@@ -13,31 +13,89 @@ interface ProductDownloadsProps {
     features: string;
     featuresDesc: string;
   };
+  /** Produkt-Slug ohne Kategorie, z. B. `elbow-90`. */
+  productSlug?: string;
+  /** Zahl der Nennweiten dieses Produkts, fuer die Beschriftung. */
+  sizeCount?: number;
+  /** true bei Werkzeugen — sie bekommen kein BIM-Paket. */
+  isTool?: boolean;
 }
 
-export default function ProductDownloads({ translations }: ProductDownloadsProps) {
+/* Beschriftungen der BIM-Zeilen.
+ *
+ * Sie standen hier bis heute als deutscher Text im Code und wurden so in
+ * allen 65 Sprachfassungen ausgeliefert. Ein Nachrichtenschluessel waere die
+ * saubere Loesung; er muesste aber in alle 65 Sprachdateien, und die werden
+ * gerade an anderer Stelle bearbeitet. Bis dahin wenigstens die drei
+ * gepflegten Sprachen statt einer. */
+const BIM_LABELS: Record<'de' | 'en' | 'ar', { pkg: string; pkgDesc: string; data: string; dataDesc: string }> = {
+  de: {
+    pkg: 'BIM-Paket (IFC 4)',
+    pkgDesc: 'Je Nennweite eine IFC-Datei, dazu Artikeltabelle und Revit-Typenkatalog',
+    data: 'Artikeldaten (CSV)',
+    dataDesc: 'Alle Nennweiten mit Maßen, Gewicht und Normen — für Massenermittlung',
+  },
+  en: {
+    pkg: 'BIM package (IFC 4)',
+    pkgDesc: 'One IFC file per size, plus article table and Revit type catalogue',
+    data: 'Article data (CSV)',
+    dataDesc: 'Every size with dimensions, weight and standards — for quantity take-off',
+  },
+  ar: {
+    pkg: 'حزمة BIM (IFC 4)',
+    pkgDesc: 'ملف IFC لكل مقاس، مع جدول الأصناف وكتالوج أنواع Revit',
+    data: 'بيانات الأصناف (CSV)',
+    dataDesc: 'جميع المقاسات مع الأبعاد والوزن والمعايير — لحساب الكميات',
+  },
+};
+
+export default function ProductDownloads({
+  translations,
+  productSlug,
+  sizeCount,
+  isTool = false,
+}: ProductDownloadsProps) {
   const locale = useLocale();
   const certIsGerman = locale === 'de';
+  const lang = locale === 'de' ? 'de' : locale.startsWith('ar') ? 'ar' : 'en';
+  const bim = BIM_LABELS[lang];
+
+  /* Die beiden ersten Zeilen waren Attrappen: „BIM / CAD Modelle (Revit & IFC)"
+   * und „Ausschreibungstexte (GAEB)", beide verlinkt auf eine Marketingseite,
+   * auf der keine einzige Datei lag. Jetzt stehen dort die tatsaechlichen
+   * Downloads fuer genau dieses Produkt.
+   *
+   * Werkzeuge bekommen keine: sie sind keine Bauteile im Sinne von IFC. Ihre
+   * Artikeldaten gibt es weiterhin als Tabelle. */
+  const bimDownloads = productSlug
+    ? [
+        ...(isTool
+          ? []
+          : [
+              {
+                title: bim.pkg,
+                desc: bim.pkgDesc,
+                icon: FileArchive,
+                href: `/api/bim/produkt/${productSlug}`,
+                size: 'ZIP',
+                lang: 'IFC 4',
+                isInternalLink: false,
+              },
+            ]),
+        {
+          title: bim.data,
+          desc: bim.dataDesc,
+          icon: FileText,
+          href: `/api/bim/produkt/${productSlug}?format=csv`,
+          size: 'CSV',
+          lang: sizeCount ? `${sizeCount}×` : 'CSV',
+          isInternalLink: false,
+        },
+      ]
+    : [];
 
   const downloads = [
-    {
-      title: 'BIM / CAD Modelle (Revit & IFC)',
-      desc: '3D-Geometrie mit Dimensionen & SDR für Kollisionsprüfung',
-      icon: FileArchive,
-      href: '/ressourcen/ausschreibungstexte',
-      size: 'RFA / IFC',
-      lang: '3D',
-      isInternalLink: true,
-    },
-    {
-      title: 'Ausschreibungstexte (GAEB)',
-      desc: 'Standardisierte Leistungsverzeichnisse & Spezifikationen',
-      icon: FileText,
-      href: '/ressourcen/ausschreibungstexte',
-      size: 'GAEB / XML',
-      lang: 'DE/EN',
-      isInternalLink: true,
-    },
+    ...bimDownloads,
     {
       title: translations.range,
       desc: translations.rangeDesc,

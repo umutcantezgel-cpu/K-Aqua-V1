@@ -6993,97 +6993,97 @@
     },
     "bim": {
       "title": "BIM-tiedot",
-      "metaDesc": "K Aqua BIM-tiedot: Tinkimätön turvallisuus saksalaisen insinööritaidon ansiosta globaaleihin megaprojekteihin. Pääsy BIM-tietokantaamme.",
+      "metaDesc": "K-Aqua BIM-tiedot: 546 nimikettä IFC 4 -tiedostoina liitäntäpisteineen, materiaaliarvoineen ja luettelolähteineen. Ilman rekisteröitymistä, maksutta suunnittelijoille ja insinööreille.",
       "sticky": {
         "items": [
           {
-            "title": "Maksimaalinen tietosyvyys (LOI 500)",
-            "desc": "BIM-mallimme eivät tarjoa vain erittäin tarkkaa geometrista esitystä (LOD), vaan ennen kaikkea vertaansa vailla olevan tietosyvyyden (LOI). Jokainen putki, jokainen muoto-osa ja jokainen armatuuri sisältää kaikki kriittiset metatiedot: materiaalivaatimukset, paineluokat, lämpölaajenemiskertoimet ja tarkat tuotenumerot automatisoitua tarjouspyyntöä varten."
+            "title": "Jokainen luku luettelosivunsa kanssa",
+            "desc": "Jokaisessa osassa kerrotaan, mistä sen mitat ovat peräisin — valmistajan luettelon 06-2025 sivun tarkkuudella. Kun mallin seinämänpaksuutta verrataan tuotelehteen, löytyy sama luku ja sen lähde. Jos luettelo on jossakin kohdassa ristiriidassa itsensä kanssa, tiedostossa on painettu arvo ja sen vieressä huomautus."
           },
           {
-            "title": "Törmäysvapaa suunnittelu",
-            "desc": "Miljardiprojekteissa törmäystarkastelu (Clash-Detection) ei ole neuvoteltavissa. Natiivit Revit- ja IFC-tiedostomme takaavat saumattoman integraation Navisworksiin tai Solibriin. Tarkat ulkohalkaisijat, mukaan lukien hitsaussauman toleranssit, estävät kalliit yllätykset rakennustyömaalla."
+            "title": "Liitäntäpisteitä, ei möykkyjä",
+            "desc": "Jokainen muoto-osa kantaa putkiliitäntänsä IfcDistributionPort-olioina: sijainti, akselin suunta, nimelliskoko ja liitostapa. Muhvihitsauksessa hitsaussyvyys, lämmitysaika ja jäähtymisaika ovat suoraan liitännässä — arvot valmistajan hitsausohjeesta, eivät yleisestä standardista."
           },
           {
-            "title": "Parametrinen älykkyys",
-            "desc": "K Aqua BIM -perheet ovat täysin parametrisiä. Ne mukautuvat dynaamisesti putkireitteihin, kaltevuuksiin ja mitoituksiin. Integroitu automaattinen reititys valitsee automaattisesti oikeat supistukset ja kulma-asteet tiukkojen DIN EN ISO 15874 -määräysten mukaisesti."
+            "title": "Putket pysyvät putkina",
+            "desc": "Putki tulee IfcSweptDiskSolid-muodossa ulko- ja sisäsäteineen, ei kolmioverkkona. Revitissä tai ArchiCADissä se pysyy siten putkiosuutena, jota voi reitittää ja katkaista. Tiedosto on yhdeksän kilotavun kokoinen muutaman sadan sijaan."
           },
           {
-            "title": "Elinkaari- & kiinteistöjohtaminen",
-            "desc": "Digitaalinen kaksonen ei pääty rakennuksen luovutukseen. BIM-objektimme ovat COBie-yhteensopivia ja tarjoavat kiinteistöhuollolle kaikki tarvittavat huoltovälit, sertifikaatit ja käyttötiedot turvallista yli 50 vuoden elinkaarta varten."
+            "title": "Asennustiedot luettelosta",
+            "desc": "Kannakevälit jokaiselle nimelliskoolle ja seitsemälle lämpötilalle, käyttöluokat standardin DIN EN ISO 15874-1 mukaan sallittuine käyttöpaineineen, pituuden lämpölaajeneminen. K-Fiber-putkilla on tässä oma kertoimensa 0,35·10⁻⁴ K⁻¹ — runsaat neljä kertaa pienempi kuin yksikerrosputkella, ja juuri siitä syystä kuitulujitekerros on olemassa."
           }
         ],
-        "eyebrow": "Työnkulun huippuosaaminen",
-        "title": "Digitaaliset kaksoset täydellisyydessään.",
-        "lead": "Katsaus tietosyvyyteen, joka poistaa eron suunnittelun ja todellisuuden väliltä."
+        "eyebrow": "Mitä tiedostoissa on",
+        "title": "Suunnittelutietoa, jonka voi tarkistaa.",
+        "lead": "Neljä ominaisuutta, joilla on merkitystä, kun mallin ei pidä vain näyttää hyvältä vaan myös kantaa."
       },
       "timeline": {
         "items": [
           {
-            "year": "LOD 100",
-            "title": "Konseptisuunnittelu",
-            "text": "Peruspaikannin tila-analyysiin. Reitityksen alkuvaiheen koordinointi putkikuiluissa ilman häiriöitä kantavien elementtien kanssa."
+            "year": "Vaihe 1",
+            "title": "Konsepti ja reititys",
+            "text": "Koko luettelo taulukkona tai JSON-muodossa: 546 nimikettä nimelliskoon, materiaalin ja painon kanssa. Riittää ensimmäiseen määrälaskentaan ja reittisuunnitteluun, ennen kuin yhtäkään mallia on ladattu."
           },
           {
-            "year": "LOD 200",
-            "title": "Luonnossuunnittelu",
-            "text": "Likimääräiset mitat asennettaville PP-R-putkille järjestelmärajojen ja vaadittujen pystykuilujen määrittelemiseksi."
+            "year": "Vaihe 2",
+            "title": "Toteutussuunnittelu",
+            "text": "IFC 4 nimelliskoittain, millimetreinä. Ulkohalkaisija, seinämänpaksuus ja rakennuspituudet luettelosta, lisäksi kannakevälit ja käyttöluokat verkostolaskentaa varten."
           },
           {
-            "year": "LOD 300",
-            "title": "Tarkka suunnittelu",
-            "text": "Tarkka K Aqua -komponenttien mitoitus ja sijoittelu. Painehäviöiden ja lämpölaajenemissilmukoiden tarkka laskenta."
+            "year": "Vaihe 3",
+            "title": "Tarjouspyyntö ja urakkalaskenta",
+            "text": "Jokainen osa kantaa tuotenumeronsa IFC-tunnisteena ja ominaisuusjoukossa. Mallista saatavaa osaluetteloa voi siten verrata luetteloon ilman välivaiheita."
           },
           {
-            "year": "LOD 400",
-            "title": "Valmistus & Asennus",
-            "text": "Asennusvalmiit tiedot, mukaan lukien tarkat hitsaussaumojen paksuudet, kiinnityspisteet ja K Aquan kiinnikkeiden sijainnit. Miljardiprojekteihin vaadittava todellisuus."
+            "year": "Vaihe 4",
+            "title": "Esivalmistus ja asennus",
+            "text": "Hitsaussyvyys, lämmitysaika ja jäähtymisaika ovat nimelliskoittain liitäntäpisteessä. Esivalmistaja lukee hitsausparametrit samasta mallista, josta hän ottaa pituudet."
           },
           {
-            "year": "Phase 5",
-            "title": "As-Built & Betrieb",
-            "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks."
+            "year": "Vaihe 5",
+            "title": "Toteumamalli ja käyttö",
+            "text": "Tuotenumero pysyy osassa. Kun muoto-osa vaihdetaan kahdenkymmenen vuoden kuluttua, mallista löytyy, mitä on asennettu — myös luettelosivu, jolla se oli."
           }
         ],
-        "title": "Kehitys LOD-luokissa",
-        "desc": "Miten BIM-mallimme kehittyvät konseptista teolliseen todellisuuteen."
+        "title": "Missä tiedot vaikuttavat hankkeessa",
+        "desc": "Ensimmäisestä määrälaskennasta kahdenkymmenen vuoden päästä tarvittavaan varaosaan."
       },
       "hero": {
-        "desc": "Tämä moduuli tarjoaa tinkimätöntä turvallisuutta vaativimpiin projekteihin ympäri maailmaa. Valmistettu tiukimpien teollisuusstandardien mukaisesti kestämään sukupolvien ajan. Lataa digitaalinen kaksonen sinne, missä materiaalivika ei ole vaihtoehto.",
-        "btnPrimary": "BIM Kirjasto (Revit/IFC)",
-        "btnGhost": "Pyydä BIM-konsultointia"
+        "desc": "546 nimikettä IFC 4 -tiedostoina — liitäntäpisteineen, materiaaliarvoineen, asennustietoineen ja luettelosivuineen, jolla kukin tieto on. Yksittäin tai pakettina, ilman rekisteröitymistä.",
+        "btnPrimary": "Lataa IFC-kirjasto",
+        "btnGhost": "Pyydä teknistä neuvontaa"
       },
       "intro": {
-        "title1": "Putkijärjestelmiemme DNA.",
-        "title2": "Nyt pilvessä.",
-        "p1": "Emme ymmärrä BIM:iä vain 3D-piirustuksena. K Aqualle Building Information Modeling tarkoittaa tinkimättömän valmistustarkkuutemme siirtämistä digitaaliseen tilaan. Kun kansainväliset pääurakoitsijat suunnittelevat pilvenpiirtäjiä, konesaleja tai korkean turvallisuustason laboratorioita, he eivät tarvitse arvioituja arvoja, he tarvitsevat fysikaalista todellisuutta datan muodossa.",
-        "p2": "Tietoaineistomme ovat tulosta vuosikymmenten saksalaisesta insinööritaidosta. Insinöörimme ovat validoineet ja kääntäneet natiivisti tietomalleihin jokaisen seinämänpaksuuden, jokaisen virtausdynamiikan ja jokaisen lämpöominaisuuden."
+        "title1": "Putkijärjestelmiemme mitat.",
+        "title2": "Tarkistettavissa luku luvulta.",
+        "p1": "BIM-objekti on yhtä arvokas kuin sen kantamat tiedot. Siksi meillä ei synny tiedostoa piirustuksesta vaan valmistajan luettelosta: samasta lähteestä, josta tämän sivuston tuotesivutkin ottavat lukunsa. Jos arvo poikkeaa, se poikkeaa kaikkialla samalla tavalla — ja se voidaan korjata yhdestä paikasta.",
+        "p2": "Jokainen tiedosto syntyy uudelleen sillä hetkellä, kun se haetaan. Mitään valmiiksi luotua tiedostokantaa ei makaa vanhenemassa, eikä kirjastoa, joka laahaisi luettelon perässä. Se, minkä lataat, vastaa sitä, mitä tuotesivulla lukee — aina."
       },
       "bento": {
         "items": [
           {
-            "title": "Natiivit Revit®-perheet",
-            "desc": "Ei muunnoshäviöitä. Ohjelmoitu suoraan .rfa- ja .rvt-muodossa parhaan suorituskyvyn ja alkuperäisten reititysasetusten takaamiseksi."
+            "title": "IFC 4, avoin ja millimetreinä",
+            "desc": "Luettavissa Revitissä, ArchiCADissä, Allplanissa ja Vectorworksissä, tarkastettavissa Navisworksissä ja Solibrissa. Sama yksikkö kuin luettelossa — ei muunnoksia tuotelehteen verrattaessa."
           },
           {
-            "title": "VDI 3805 -yhteensopivuus",
-            "desc": "Standardoidut tuotetiedot saumattomaan tiedonvaihtoon koko TGA-ketjussa."
+            "title": "Liitäntäpisteet hitsaustietoineen",
+            "desc": "IfcDistributionPort jokaista liitäntää kohti, nimelliskoon ja liitostavan kanssa. Muhvihitsauksessa lisäksi hitsaussyvyys, lämmitysaika ja jäähtymisaika työstöohjeesta."
           },
           {
-            "title": "IFC4-tarkistus",
-            "desc": "Maksimaalinen yhteentoimivuus avoimien BIM-standardien (OpenBIM) kautta. Taatusti luettavissa ArchiCADissä, Allplanissa ja Vectorworksissä."
+            "title": "Revit-tyyppiluettelo",
+            "desc": "Natiivit .rfa-perheet ovat suljettu binäärimuoto, eikä niitä voi luoda ilman Revit-lisenssiä. Toimitamme IFC 4:n, jonka Revit lukee suoraan, sekä tyyppiluettelon kaikkine nimelliskokoineen ja mittoineen."
           },
           {
-            "title": "Tarkat lämpötiedot",
-            "desc": "Integroidut laskentamallit pituussuuntaiselle laajenemiselle, lämmönjohtavuudelle (0,24 W/mK) ja putkikitkan painehäviölle."
+            "title": "Materiaali- ja järjestelmäarvot",
+            "desc": "Tiheys 905 kg/m³, lämmönjohtavuus 0,24 W/(m·K), pituuden lämpölaajeneminen 1,5·10⁻⁴ K⁻¹ — K-Fiberillä 0,35·10⁻⁴ K⁻¹. Lisäksi kannakevälit ja käyttöluokat standardin DIN EN ISO 15874-1 mukaan."
           }
         ]
       },
       "cta": {
-        "title": "Lataa K Aqua BIM-paketti.",
-        "desc": "Täysi pääsy kaikkiin natiiveihin Revit-perheisiin, IFC-tiedostoihin ja VDI 3805 -tietokokonaisuuksiin. Ilmainen suunnittelijoille ja insinööreille.",
+        "title": "Lataa BIM-paketti.",
+        "desc": "Tuotetta kohti yksi arkisto: IFC 4 jokaiselle nimelliskoolle, nimiketaulukko määrälaskentaan, Revit-tyyppiluettelo. Ilman rekisteröitymistä, maksutta suunnittelijoille ja insinööreille.",
         "btnPrimary": "Latauskeskukseen",
-        "btnOutline": "Ota yhteyttä BIM-manageriin"
+        "btnOutline": "Pyydä teknistä neuvontaa"
       }
     },
     "common": {

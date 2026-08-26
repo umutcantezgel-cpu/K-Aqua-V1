@@ -192,15 +192,15 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        // Zeigte auf die Ausschreibungsseite, weil es kein Download-Center
+        // gab. Jetzt fuehrt der Kurzpfad dorthin, wo die Dateien liegen.
         source: '/:locale([a-zA-Z-]{2,7})/downloads',
-        destination: '/:locale/ressourcen/ausschreibungstexte',
+        destination: '/:locale/ressourcen/downloads',
         permanent: true,
       },
-      {
-        source: '/:locale([a-zA-Z-]{2,7})/ressourcen/downloads',
-        destination: '/:locale/ressourcen/ausschreibungstexte',
-        permanent: true,
-      },
+      // `/ressourcen/downloads` wurde bisher auf die Ausschreibungsseite
+      // abgeschoben, weil das Verzeichnis leer war. Die Seite gibt es jetzt;
+      // die Weiterleitung ist damit hinfaellig und entfernt.
       {
         source: '/:locale([a-zA-Z-]{2,7})/produkte/:category/index',
         destination: '/:locale/produkte/:category',
@@ -249,7 +249,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/downloads',
-        destination: '/ressourcen/ausschreibungstexte',
+        destination: '/ressourcen/downloads',
         permanent: true,
       },
       {

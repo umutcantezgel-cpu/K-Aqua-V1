@@ -3157,97 +3157,97 @@
     },
     "bim": {
       "title": "Data BIM",
-      "metaDesc": "Data BIM K Aqua: Keamanan tanpa kompromi melalui Rekayasa Jerman untuk megaproyek global. Akses basis data BIM kami.",
+      "metaDesc": "Data BIM K-Aqua: 546 artikel sebagai file IFC 4 dengan titik sambungan, nilai karakteristik material, dan rujukan katalog. Tanpa registrasi, gratis untuk perencana dan insinyur.",
       "sticky": {
         "items": [
           {
-            "title": "Kedalaman Data Maksimum (LOI 500)",
-            "desc": "Model BIM kami tidak hanya menawarkan representasi geometris berpresisi tinggi (LOD), namun lebih dari itu, kedalaman informasi (LOI) yang tak tertandingi. Setiap pipa, setiap fitting, dan setiap katup mengandung seluruh metadata penting: spesifikasi material, peringkat tekanan, koefisien ekspansi termal, dan nomor bagian pastinya untuk tender otomatis."
+            "title": "Setiap angka beserta halaman katalognya",
+            "desc": "Pada setiap komponen tercantum dari mana ukurannya berasal — tepat sampai nomor halaman dalam katalog pabrikan 06-2025. Siapa pun yang mencocokkan tebal dinding pada model dengan lembar data akan menemukan angka yang sama beserta rujukannya. Bila katalog bertentangan dengan dirinya sendiri di satu tempat, nilai cetaknya yang masuk ke dalam file, dengan catatan di sebelahnya."
           },
           {
-            "title": "Perencanaan Tanpa Bentrokan (Clash-Free)",
-            "desc": "Dalam proyek miliaran dolar, clash detection (deteksi bentrokan) bukanlah hal yang bisa dinegosiasikan. File Revit dan IFC asli kami menjamin integrasi mulus ke dalam Navisworks atau Solibri Anda. Diameter luar yang presisi, termasuk toleransi lapisan las, mencegah kejutan mahal di lokasi konstruksi."
+            "title": "Titik sambungan, bukan gumpalan",
+            "desc": "Setiap fitting membawa sambungan pipanya sebagai IfcDistributionPort: posisi, arah sumbu, diameter nominal, dan jenis sambungan. Pada pengelasan soket, kedalaman masuk, waktu pemanasan, dan waktu pendinginan tercantum langsung di titik sambungan — nilainya dari instruksi pengelasan pabrikan, bukan dari standar umum."
           },
           {
-            "title": "Kecerdasan Parametrik",
-            "desc": "Keluarga BIM K Aqua sepenuhnya parametrik. Mereka beradaptasi secara dinamis pada penjaluran, kemiringan, dan dimensi pipa. Fitur auto-routing terintegrasi secara otomatis memilih pengurang dan sudut lengkung yang benar sesuai standar ketat DIN EN ISO 15874."
+            "title": "Pipa tetap pipa",
+            "desc": "Pipa hadir sebagai IfcSweptDiskSolid dengan radius luar dan radius dalam, bukan sebagai jala segitiga. Di Revit atau ArchiCAD ia tetap menjadi segmen pipa yang bisa dirutekan dan dipotong. Ukuran filenya sembilan kilobyte, bukan beberapa ratus."
           },
           {
-            "title": "Siklus Hidup & Manajemen Fasilitas",
-            "desc": "Kembaran digital (digital twin) tidak berakhir saat bangunan diserahterimakan. Objek BIM kami memenuhi standar COBie dan membekali pihak manajemen fasilitas dengan semua interval pemeliharaan yang diperlukan, sertifikat, dan data operasional yang penting demi memastikan siklus hidup aman selama 50+ tahun."
+            "title": "Data pemasangan dari katalog",
+            "desc": "Jarak penyangga untuk setiap diameter nominal dan tujuh suhu, kelas penggunaan menurut DIN EN ISO 15874-1 beserta tekanan kerja yang diizinkan, dan pemuaian panjang. Pipa K-Fiber di sini membawa koefisiennya sendiri sebesar 0,35·10⁻⁴ K⁻¹ — sekitar empat kali lebih kecil daripada pipa lapis tunggal, dan justru itulah alasan lapisan komposit seratnya."
           }
         ],
-        "eyebrow": "Keunggulan Alur Kerja",
-        "title": "Kembaran Digital yang Sempurna.",
-        "lead": "Sebuah wawasan tentang kedalaman data yang mengeliminasi celah antara perencanaan dan kenyataan."
+        "eyebrow": "Isi file-filenya",
+        "title": "Data perencanaan yang bisa diperiksa ulang.",
+        "lead": "Empat sifat yang menentukan perbedaan ketika sebuah model bukan hanya harus terlihat bagus, melainkan harus bisa diandalkan."
       },
       "timeline": {
         "items": [
           {
             "year": "Fase 1",
-            "title": "Konseptualisasi & Perencanaan MEP",
-            "text": "Integrasi geometri dasar K Aqua dalam rancangan awal. Penentuan kuantitas secara cepat serta pemeriksaan awal clash untuk rute pipa dalam master plan MEP."
+            "title": "Konsep dan jalur pipa",
+            "text": "Katalog lengkap sebagai tabel atau JSON: 546 artikel dengan diameter nominal, material, dan bobot. Cukup untuk perhitungan volume pertama dan perencanaan jalur, sebelum satu model pun dimuat."
           },
           {
             "year": "Fase 2",
-            "title": "Perencanaan Detail Desain",
-            "text": "Transisi ke LOI 400. Spesifikasi detail, laju aliran, serta hasil hitungan drop tekanan akan langsung mengalir ke dalam perhitungan jaringan hidrolik bangunan."
+            "title": "Perencanaan pelaksanaan",
+            "text": "IFC 4 per diameter nominal, dalam milimeter. Diameter luar, tebal dinding, dan panjang pemasangan dari katalog, ditambah jarak penyangga dan kelas penggunaan untuk perhitungan jaringan."
           },
           {
             "year": "Fase 3",
-            "title": "Tender & Pengadaan",
-            "text": "Pembuatan Bill of Materials (BOM) bebas masalah yang dihasilkan otomatis langsung dari model. Masing-masing fitting menyimpan kode artikel K Aqua beserta data VDI 3805."
+            "title": "Tender dan pengadaan",
+            "text": "Setiap komponen membawa nomor artikelnya sebagai tag IFC dan di dalam set propertinya. Daftar material dari model karenanya dapat langsung dicocokkan dengan katalog."
           },
           {
             "year": "Fase 4",
-            "title": "Prafabrikasi & Pemasangan",
-            "text": "Ekspor gambar isometrik guna mendukung prafabrikasi industri. Pembuatan spool drawing dengan akurasi skala milimeter menekan tingkat pengelasan on-site hingga serendah mungkin."
+            "title": "Prafabrikasi dan pemasangan",
+            "text": "Kedalaman masuk, waktu pemanasan, dan waktu pendinginan tercantum per diameter nominal di titik sambungan. Pihak prafabrikasi membaca parameter pengelasan dari model yang sama tempat ia mengambil panjangnya."
           },
           {
             "year": "Fase 5",
-            "title": "As-Built & Operasional",
-            "text": "Penyerahan model As-Built. Sang kembaran digital bertindak sebagai sumber kebenaran (Single Source of Truth) bagi Manajemen Fasilitas di seluruh masa operasional gedung."
+            "title": "Kondisi terbangun dan operasional",
+            "text": "Nomor artikel tetap melekat pada komponen. Siapa pun yang mengganti sebuah fitting dua puluh tahun kemudian menemukan di dalam model apa yang dulu terpasang — lengkap dengan halaman katalog tempat data itu tercantum."
           }
         ],
-        "title": "Siklus Hidup dari Data BIM K Aqua",
-        "desc": "Mulai dari sketsa perdana sampai operasional jangka panjang (dekade). Data yang kami miliki menyokong berjalannya proyek Anda di setiap fase."
+        "title": "Di mana datanya bekerja dalam proyek",
+        "desc": "Dari perhitungan volume pertama sampai suku cadang dua puluh tahun kemudian."
       },
       "hero": {
-        "desc": "Modul ini menghadirkan kepastian yang tidak ada kompromi pada berbagai proyek tersulit sejagat raya. Diciptakan dengan bertumpu pada acuan standar industri paling unggul, demi usia keawetan untuk generasi yang tak terbatas. Lakukan pengunduhan kembaran digitalnya, di titik manapun Anda menempatkan opsi zero toleransi kegagalan material.",
-        "btnPrimary": "Pustaka BIM (Revit/IFC)",
-        "btnGhost": "Minta Konsultasi BIM"
+        "desc": "546 artikel sebagai IFC 4 — dengan titik sambungan, nilai karakteristik material, data pemasangan, dan halaman katalog tempat setiap angka tercantum. Satuan atau sebagai paket, tanpa registrasi.",
+        "btnPrimary": "Unduh pustaka IFC",
+        "btnGhost": "Minta konsultasi teknis"
       },
       "intro": {
-        "title1": "DNA Sistem Perpipaan Kami.",
-        "title2": "Kini Tersedia dalam Cloud.",
-        "p1": "Kita memandang BIM tidak sekadar berupa ilustrasi gambar 3D. Bagi kami, Building Information Modeling mewakili migrasi atas tingkat presisi luar biasa kami dari fase manufaktur langsung masuk menuju alam digital. Bila seorang kontraktor bertaraf dunia tengah memproyeksikan gedung menara tinggi, pangkalan data center, atau semacam lab dengan fitur proteksi ekstra, tentu yang dicari tidak lagi hitungan peraba-rabaan, melainkan wujud fisikal di balik untaian barisan data.",
-        "p2": "Gugusan data (datasets) yang diusung pun tidak lahir kemarin sore melainkan terbentuk dari jejak langkah panjang dari disiplin ilmu permesinan yang berorientasi gaya Jerman. Masing-masing detail di antaranya (misal: tebal tembok), daya fluida statis-dinamis, plus performa temperatur thermalnya tervalidasi sepenuhnya berkat tangan insinyur andal kemudian melekat dengan sangat kental saat bertransformasi membidani bentuk parametrik bawaan (native famili) secara tuntas."
+        "title1": "Ukuran sistem perpipaan kami.",
+        "title2": "Bisa diperiksa angka demi angka.",
+        "p1": "Sebuah objek BIM bernilai sebesar data yang dibawanya. Karena itu file kami tidak lahir dari gambar, melainkan dari katalog pabrikan: sumber yang sama yang dipakai halaman produk situs ini untuk angka-angkanya. Bila sebuah nilai menyimpang, ia menyimpang sama di mana-mana — dan bisa diluruskan di satu tempat saja.",
+        "p2": "Setiap file dibuat baru pada saat diminta. Tidak ada tumpukan file hasil produksi yang bisa menjadi usang, dan tidak ada pustaka yang tertinggal di belakang versi katalog. Yang Anda unduh selalu sesuai dengan yang tertera di halaman produk."
       },
       "bento": {
         "items": [
           {
-            "title": "Keluarga Revit® Asli",
-            "desc": "Sama sekali terhindar dari rugi saat mengkonversi ulang (no loss konversi). Semua di-program langsung lewat bentukan .rfa atau .rvt demi menyuguhkan tenaga optimalisasi sekaligus kemutlakan routing preferences (preferensi jalurnya) sesuai tipe native yang diminta."
+            "title": "IFC 4, terbuka dan dalam milimeter",
+            "desc": "Dapat dibaca di Revit, ArchiCAD, Allplan, dan Vectorworks, dapat diperiksa di Navisworks dan Solibri. Satuan yang sama seperti di katalog — tanpa konversi saat dibandingkan dengan lembar data."
           },
           {
-            "title": "Kesesuaian pada Norma VDI 3805",
-            "desc": "Tersedianya jaminan pemenuhan spesifikasi standard yang diberlakukan atas tiap bentuk tipe produk berujung pada pertukaran data minim ganjalan untuk diterapkan dari ujung ke ujung fase sirkuit perancangan mekanikal/elektrikal (TGA-chain)."
+            "title": "Titik sambungan dengan data pengelasan",
+            "desc": "Satu IfcDistributionPort per sambungan, dengan diameter nominal dan jenis sambungan. Untuk pengelasan soket ditambah kedalaman masuk, waktu pemanasan, dan waktu pendinginan dari petunjuk pemrosesan."
           },
           {
-            "title": "Lolos Audit Format IFC4",
-            "desc": "Penawaran daya gabung dengan format universal terluas akibat penerapan standard terbuka BIM (OpenBIM). Sangat sanggup dan digaransi langsung terbaca baik bila Anda memakai ArchiCAD, piranti Allplan ataupun lini produk besutan Vectorworks."
+            "title": "Katalog tipe Revit",
+            "desc": "Family .rfa asli adalah format biner tertutup dan tidak dapat dibuat tanpa lisensi Revit. Kami menyediakan IFC 4 yang dibaca Revit secara langsung, beserta katalog tipe dengan seluruh diameter nominal dan ukurannya."
           },
           {
-            "title": "Tingkat Presisi Informasi Panas",
-            "desc": "Sudah tertanam model perhitungan kalkulasi siap pakai, khusus ditugaskan merumuskan muai dimensi membujur, lalu hantaran suhu (konduktansi 0,24 W/mK) sampai ke daya tekan hilang dari gerusan friksi (gesek) di dinding pipa (pipe friction)."
+            "title": "Nilai karakteristik material dan sistem",
+            "desc": "Massa jenis 905 kg/m³, konduktivitas termal 0,24 W/(m·K), pemuaian panjang 1,5·10⁻⁴ K⁻¹ — pada K-Fiber 0,35·10⁻⁴ K⁻¹. Ditambah jarak penyangga dan kelas penggunaan menurut DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Unduh Paket Data BIM K Aqua.",
-        "desc": "Opsi kendali buka secara menyeluruh pada semua bagian koleksi jenis family-Revit, ekstensi file IFC, didampingi kumpulan data standard VDI-3805. Sangat disediakan bebas ongkos untuk kalangan engineer berikut kaum kreator spesialis.",
-        "btnPrimary": "Menuju Pusat Unduhan",
-        "btnOutline": "Hubungi Manajer BIM"
+        "title": "Unduh paket BIM-nya.",
+        "desc": "Satu arsip per produk: IFC 4 untuk setiap diameter nominal, tabel artikel untuk perhitungan volume, katalog tipe Revit. Tanpa registrasi, gratis untuk perencana dan insinyur.",
+        "btnPrimary": "Ke Pusat Unduhan",
+        "btnOutline": "Minta konsultasi teknis"
       }
     }
   },

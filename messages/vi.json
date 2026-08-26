@@ -7673,98 +7673,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Daten",
-      "metaDesc": "K Aqua BIM-Daten: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Greifen Sie auf unsere BIM-Datenbank zu.",
+      "title": "Dữ liệu BIM",
+      "metaDesc": "Dữ liệu BIM K-Aqua: 546 mã hàng ở định dạng IFC 4 với điểm đấu nối, đặc tính vật liệu và dẫn chiếu catalogue. Không cần đăng ký, miễn phí cho nhà thiết kế và kỹ sư.",
       "sticky": {
         "items": [
           {
-            "title": "Maximale Datentiefe (LOI 500)",
-            "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting und jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Druckstufen, thermische Ausdehnungskoeffizienten und exakte Artikelnummern für die automatisierte Ausschreibung."
+            "title": "Mỗi con số kèm trang catalogue của nó",
+            "desc": "Mỗi cấu kiện đều ghi rõ kích thước của nó lấy từ đâu — chính xác đến từng trang trong catalogue nhà sản xuất 06-2025. Ai đối chiếu chiều dày thành ống trong mô hình với bảng thông số kỹ thuật sẽ thấy đúng con số đó cùng phần dẫn chứng. Ở chỗ catalogue tự mâu thuẫn với chính mình, giá trị in trên giấy được giữ trong tệp, kèm ghi chú bên cạnh."
           },
           {
-            "title": "Kollisionsfreie Planung",
-            "desc": "In Milliardenprojekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- und IFC-Dateien garantieren eine nahtlose Integration in Ihr Navisworks oder Solibri. Die exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen auf der Baustelle."
+            "title": "Điểm đấu nối, không phải khối đặc vô định hình",
+            "desc": "Mỗi phụ kiện mang các đầu nối ống của nó dưới dạng IfcDistributionPort: vị trí, hướng trục, đường kính danh nghĩa và kiểu liên kết. Với hàn măng sông, chiều sâu hàn, thời gian gia nhiệt và thời gian làm nguội nằm ngay tại đầu nối — là các giá trị lấy từ hướng dẫn hàn của nhà sản xuất, không phải từ một tiêu chuẩn chung."
           },
           {
-            "title": "Parametrische Intelligenz",
-            "desc": "K Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle und Dimensionierungen an. Das integrierte Auto-Routing wählt automatisch die korrekten Reduzierungen und Bogenwinkel gemäß den strengen Vorgaben der DIN EN ISO 15874."
+            "title": "Ống vẫn là ống",
+            "desc": "Ống được xuất ra dưới dạng IfcSweptDiskSolid với bán kính ngoài và bán kính trong, không phải lưới tam giác. Trong Revit hay ArchiCAD, nó vẫn là một đoạn ống có thể đi tuyến và cắt chỉnh. Tệp chỉ nặng chín kilobyte thay vì vài trăm."
           },
           {
-            "title": "Lifecycle & Facility Management",
-            "desc": "Der digitale Zwilling endet nicht mit der Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel und liefern dem Facility Management alle notwendigen Wartungsintervalle, Zertifikate und Betriebsdaten für einen sicheren Lebenszyklus von über 50 Jahren."
+            "title": "Dữ liệu lắp đặt lấy từ catalogue",
+            "desc": "Khoảng cách gối đỡ cho từng đường kính danh nghĩa và bảy mức nhiệt độ, cấp ứng dụng theo DIN EN ISO 15874-1 kèm áp suất làm việc cho phép, giãn nở dài. Ống K-Fiber mang hệ số riêng 0,35·10⁻⁴ K⁻¹ — nhỏ hơn khoảng bốn lần so với ống một lớp, và đó chính là lý do có lớp gia cường sợi."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Digitale Zwillinge in Perfektion.",
-        "lead": "Ein Einblick in die Datentiefe, die den Unterschied zwischen Planung und Realität eliminiert."
+        "eyebrow": "Trong tệp có những gì",
+        "title": "Dữ liệu thiết kế có thể kiểm chứng.",
+        "lead": "Bốn đặc tính tạo nên khác biệt khi một mô hình không chỉ cần đẹp mà còn phải chịu được."
       },
       "timeline": {
         "items": [
           {
-            "year": "Phase 1",
-            "title": "Konzeption & TGA-Planung",
-            "text": "Integration der K Aqua Basis-Geometrien in den frühen Entwurf. Schnelle Massenermittlung und erste Kollisionsprüfung für das Trassenkonzept im TGA-Masterplan."
+            "year": "Giai đoạn 1",
+            "title": "Ý tưởng và đi tuyến ống",
+            "text": "Toàn bộ catalogue dưới dạng bảng hoặc JSON: 546 mã hàng kèm đường kính danh nghĩa, vật liệu và khối lượng. Đủ cho lần bóc tách khối lượng đầu tiên và việc vạch tuyến, trước khi tải bất kỳ mô hình nào."
           },
           {
-            "year": "Phase 2",
-            "title": "Ausführungsplanung",
-            "text": "Umstellung auf LOI 400. Die exakten Spezifikationen, Fließgeschwindigkeiten und Druckverlustberechnungen fließen direkt in die hydraulische Netzberechnung des Gebäudes ein."
+            "year": "Giai đoạn 2",
+            "title": "Thiết kế bản vẽ thi công",
+            "text": "IFC 4 theo từng đường kính danh nghĩa, tính bằng milimét. Đường kính ngoài, chiều dày thành và chiều dài lắp đặt lấy từ catalogue, kèm khoảng cách gối đỡ và cấp ứng dụng cho tính toán mạng lưới."
           },
           {
-            "year": "Phase 3",
-            "title": "Ausschreibung & Vergabe",
-            "text": "Automatisierte Generierung von fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist mit der K Aqua Artikelnummer und VDI 3805 Daten hinterlegt."
+            "year": "Giai đoạn 3",
+            "title": "Mời thầu và trao thầu",
+            "text": "Mỗi cấu kiện mang mã hàng của mình dưới dạng thẻ IFC và trong bộ thuộc tính. Bảng kê vật tư xuất từ mô hình nhờ đó đối chiếu thẳng được với catalogue."
           },
           {
-            "year": "Phase 4",
-            "title": "Vorfertigung & Montage",
-            "text": "Export von isometrischen Zeichnungen für die industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten auf der Baustelle auf ein absolutes Minimum."
+            "year": "Giai đoạn 4",
+            "title": "Chế tạo sẵn và lắp đặt",
+            "text": "Chiều sâu hàn, thời gian gia nhiệt và thời gian làm nguội được ghi theo từng đường kính danh nghĩa ngay tại điểm đấu nối. Xưởng chế tạo đọc thông số hàn từ chính mô hình mà họ lấy chiều dài."
           },
           {
-            "year": "Phase 5",
-            "title": "As-Built & Betrieb",
-            "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks."
+            "year": "Giai đoạn 5",
+            "title": "Hoàn công và vận hành",
+            "text": "Mã hàng vẫn nằm trên cấu kiện. Sau hai mươi năm, người thay một phụ kiện vẫn tìm được trong mô hình thứ đã lắp — kèm trang catalogue đã ghi nó."
           }
         ],
-        "title": "Der Lebenszyklus der K Aqua BIM-Daten",
-        "desc": "Von der ersten Skizze bis zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt in jeder Phase."
+        "title": "Dữ liệu phát huy tác dụng ở đâu trong dự án",
+        "desc": "Từ lần bóc tách khối lượng đầu tiên đến phụ tùng thay thế sau hai mươi năm."
       },
       "hero": {
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Laden Sie den digitalen Zwilling herunter, wo Materialversagen keine Option ist.",
-        "btnPrimary": "BIM Bibliothek (Revit/IFC)",
-        "btnGhost": "BIM Consulting anfragen"
+        "desc": "546 mã hàng ở định dạng IFC 4 — kèm điểm đấu nối, đặc tính vật liệu, dữ liệu lắp đặt và trang catalogue ghi từng thông số. Tải lẻ hoặc trọn gói, không cần đăng ký.",
+        "btnPrimary": "Tải thư viện IFC",
+        "btnGhost": "Yêu cầu tư vấn kỹ thuật"
       },
       "intro": {
-        "title1": "Die DNA unserer Rohrsysteme.",
-        "title2": "Jetzt in der Cloud.",
-        "p1": "Wir verstehen BIM nicht als bloße 3D-Zeichnung. Für K Aqua ist Building Information Modeling der Transfer unserer kompromisslosen Fertigungspräzision in den digitalen Raum. Wenn internationale Generalunternehmer Wolkenkratzer, Rechenzentren oder Hochsicherheitslabore planen, benötigen sie keine geschätzten Werte, sie benötigen physikalische Realität in Form von Daten.",
-        "p2": "Unsere Datensätze sind das Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik und jede thermische Eigenschaft wurde von unseren Ingenieuren validiert und nativ in die Familien übersetzt."
+        "title1": "Kích thước hệ thống ống của chúng tôi.",
+        "title2": "Kiểm chứng được, từng con số một.",
+        "p1": "Một đối tượng BIM chỉ có giá trị bằng đúng dữ liệu mà nó mang. Vì vậy ở chỗ chúng tôi, không tệp nào sinh ra từ một bản vẽ, mà từ catalogue nhà sản xuất: cùng một nguồn mà các trang sản phẩm của website này lấy số liệu. Nếu một giá trị sai lệch, nó sai lệch như nhau ở mọi nơi — và được sửa tại một chỗ duy nhất.",
+        "p2": "Mỗi tệp được tạo mới ngay tại thời điểm tải về. Không có kho tệp dựng sẵn nằm đó để rồi lỗi thời, cũng không có thư viện chạy sau tình trạng catalogue. Thứ bạn tải về đúng bằng thứ ghi trên trang sản phẩm — luôn luôn."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® Familien",
-            "desc": "Keine Konvertierungsverluste. Direkt als .rfa und .rvt programmiert für höchste Performance und native Routing-Präferenzen."
+            "title": "IFC 4, mở và tính bằng milimét",
+            "desc": "Đọc được trong Revit, ArchiCAD, Allplan và Vectorworks, kiểm tra được trong Navisworks và Solibri. Cùng đơn vị với catalogue — không phải quy đổi khi đối chiếu với bảng thông số kỹ thuật."
           },
           {
-            "title": "VDI 3805 Konformität",
-            "desc": "Standardisierte Produktdaten für den reibungslosen Datenaustausch in der gesamten TGA-Kette."
+            "title": "Điểm đấu nối kèm thông số hàn",
+            "desc": "Một IfcDistributionPort cho mỗi đầu nối, kèm đường kính danh nghĩa và kiểu liên kết. Với hàn măng sông còn có chiều sâu hàn, thời gian gia nhiệt và thời gian làm nguội lấy từ hướng dẫn thi công."
           },
           {
-            "title": "IFC4 Prüfung",
-            "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar in ArchiCAD, Allplan und Vectorworks."
+            "title": "Catalogue kiểu cho Revit",
+            "desc": "Họ cấu kiện .rfa gốc là định dạng nhị phân đóng, không thể tạo ra nếu không có giấy phép Revit. Chúng tôi cung cấp IFC 4 mà Revit đọc trực tiếp, cùng catalogue kiểu với đầy đủ đường kính danh nghĩa và kích thước."
           },
           {
-            "title": "Exakte thermische Daten",
-            "desc": "Integrierte Berechnungsmodelle für Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) und Rohrreibungsdruckgefälle."
+            "title": "Đặc tính vật liệu và hệ thống",
+            "desc": "Khối lượng riêng 905 kg/m³, độ dẫn nhiệt 0,24 W/(m·K), giãn nở dài 1,5·10⁻⁴ K⁻¹ — với K-Fiber là 0,35·10⁻⁴ K⁻¹. Kèm theo là khoảng cách gối đỡ và cấp ứng dụng theo DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Laden Sie das K Aqua BIM-Paket herunter.",
-        "desc": "Vollständiger Zugriff auf alle nativen Revit-Familien, IFC-Dateien und VDI 3805 Datensätze. Kostenlos für Planer und Ingenieure.",
-        "btnPrimary": "Zum Download-Center",
-        "btnOutline": "BIM-Manager kontaktieren"
+        "title": "Tải gói BIM về.",
+        "desc": "Mỗi sản phẩm một tệp nén: IFC 4 cho từng đường kính danh nghĩa, bảng mã hàng để bóc tách khối lượng, catalogue kiểu cho Revit. Không cần đăng ký, miễn phí cho nhà thiết kế và kỹ sư.",
+        "btnPrimary": "Đến trung tâm tải về",
+        "btnOutline": "Yêu cầu tư vấn kỹ thuật"
       }
     },
     "common": {

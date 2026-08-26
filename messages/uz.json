@@ -6869,97 +6869,97 @@
     },
     "bim": {
       "title": "BIM-Ma'lumotlari",
-      "metaDesc": "K Aqua BIM ma'lumotlari: Global yirik loyihalar uchun Germaniya muhandisligi orqali murosasiz xavfsizlik. BIM ma'lumotlar bazamizga kiring.",
+      "metaDesc": "K-Aqua BIM ma'lumotlari: 546 artikul IFC 4 formatida — ulanish nuqtalari, material ko'rsatkichlari va katalog havolasi bilan. Ro'yxatdan o'tmasdan, loyihachilar va muhandislar uchun bepul.",
       "sticky": {
         "items": [
           {
-            "title": "Maksimal ma'lumot chuqurligi (LOI 500)",
-            "desc": "Bizning BIM modellarimiz nafaqat yuqori aniqlikdagi geometrik tasvirni (LOD), balki birinchi navbatda mislsiz axborot chuqurligini (LOI) taqdim etadi. Har bir quvur, har bir fitting va har bir klapanda barcha muhim metama'lumotlar mavjud: material spetsifikatsiyalari, bosim ko'rsatkichlari, termal kengayish koeffitsientlari va avtomatlashtirilgan tender uchun aniq maqola raqamlari."
+            "title": "Har bir raqam o'z katalog sahifasi bilan",
+            "desc": "Har bir detalda uning o'lchamlari qayerdan olinganligi ko'rsatilgan — ishlab chiqaruvchi katalogi 06-2025 dagi sahifagacha aniq. Modeldagi devor qalinligini texnik varaq bilan solishtirgan kishi aynan o'sha raqamni va uning hujjatli asosini topadi. Katalog bir joyda o'zi bilan ziddiyatga tushgan bo'lsa, faylda bosma qiymat turadi, yonida esa shu haqda izoh."
           },
           {
-            "title": "To'qnashuvsiz rejalashtirish",
-            "desc": "Milliard dollarlik loyihalarda to'qnashuvlarni aniqlash (Clash-Detection) bahslashib bo'lmaydigan qoidadir. Bizning mahalliy Revit va IFC fayllarimiz Navisworks yoki Solibri ga uzluksiz integratsiyani kafolatlaydi. Payvand chokining tolerantliklarini o'z ichiga olgan aniq tashqi diametrlar qurilish maydonchasida qimmatbaho kutilmagan hodisalarning oldini oladi."
+            "title": "Yaxlit jism emas, ulanish nuqtalari",
+            "desc": "Har bir fitting o'z quvur ulanishlarini IfcDistributionPort sifatida olib yuradi: joylashuvi, o'q yo'nalishi, nominal o'lcham va ulanish turi. Mufta payvandlashda payvand chuqurligi, qizdirish vaqti va sovish vaqti bevosita ulanish nuqtasida turadi — bu qiymatlar umumiy standartdan emas, ishlab chiqaruvchining payvandlash yo'riqnomasidan olingan."
           },
           {
-            "title": "Parametrik intellekt",
-            "desc": "K Aqua BIM oilalari to'liq parametrikdir. Ular quvurlarni yotqizish, qiyaliklar va o'lchamlarga dinamik ravishda moslashadi. O'rnatilgan avtomatik marshrutlash DIN EN ISO 15874 qat'iy xususiyatlariga muvofiq to'g'ri pasayish va egilish burchaklarini avtomatik ravishda tanlaydi."
+            "title": "Quvur quvurligicha qoladi",
+            "desc": "Quvur uchburchakli to'r sifatida emas, tashqi va ichki radiusga ega IfcSweptDiskSolid sifatida keladi. Revit yoki ArchiCAD da u shu tariqa yotqizish va kesish mumkin bo'lgan quvur qismi bo'lib qoladi. Fayl bir necha yuz emas, to'qqiz kilobayt hajmda."
           },
           {
-            "title": "Hayot aylanishi va ob'ektlarni boshqarish (Lifecycle & Facility Management)",
-            "desc": "Raqamli egizak binoni topshirish bilan tugamaydi. Bizning BIM ob'ektlarimiz COBie bilan mos keladi va 50 yildan ortiq xavfsiz hayot aylanishi uchun zarur bo'lgan barcha texnik xizmat ko'rsatish oraliqlari, sertifikatlar va operatsion ma'lumotlar bilan ob'ektlarni boshqarishni ta'minlaydi."
+            "title": "Katalogdan montaj ma'lumotlari",
+            "desc": "Har bir nominal o'lcham va yettita harorat uchun tayanchlar oralig'i, ruxsat etilgan ish bosimi bilan birga DIN EN ISO 15874-1 bo'yicha qo'llash sinflari, chiziqli kengayish. K-Fiber quvurlari bunda o'z koeffitsientini — 0,35·10⁻⁴ K⁻¹ olib yuradi, bu bir qatlamli quvurnikidan to'rt baravardan ko'proq kam va aynan shu tolali kompozit qatlamning sababidir."
           }
         ],
-        "eyebrow": "A'lo ish jarayoni (Workflow Excellence)",
-        "title": "Raqamli egizaklar mukammallikda.",
-        "lead": "Rejalashtirish va haqiqat o'rtasidagi farqni yo'q qiladigan ma'lumotlar chuqurligi haqida tushuncha."
+        "eyebrow": "Fayllarda nima bor",
+        "title": "Tekshirib ko'rish mumkin bo'lgan loyiha ma'lumotlari.",
+        "lead": "Model faqat chiroyli ko'rinishi emas, balki ishlashi ham kerak bo'lganda farq qiladigan to'rtta xususiyat."
       },
       "timeline": {
         "items": [
           {
             "year": "Bosqich 1",
-            "title": "Kontseptsiya va TGA rejalashtirish",
-            "text": "K Aqua asosiy geometriyalarini dastlabki dizaynga integratsiya qilish. TGA bosh rejasidagi marshrut konsepsiyasi uchun ommaviy hajmni tezda aniqlash va dastlabki to'qnashuvlarni tekshirish."
+            "title": "Kontseptsiya va trassa",
+            "text": "Butun katalog jadval yoki JSON ko'rinishida: 546 artikul, nominal o'lcham, material va og'irlik bilan. Birorta ham model yuklanmasdan turib birinchi hajm hisobi va trassalarni rejalashtirish uchun yetarli."
           },
           {
             "year": "Bosqich 2",
-            "title": "Batafsil rejalashtirish",
-            "text": "LOI 400 ga o'tish. Aniq spetsifikatsiyalar, oqim tezligi va bosim yo'qolishi hisob-kitoblari to'g'ridan-to'g'ri binoning gidravlik tarmoq hisob-kitobiga kiritiladi."
+            "title": "Ishchi loyiha",
+            "text": "Har bir nominal o'lcham uchun IFC 4, millimetrda. Katalogdan tashqi diametr, devor qalinligi va o'rnatish uzunliklari, shuningdek tarmoq hisobi uchun tayanchlar oralig'i va qo'llash sinflari."
           },
           {
             "year": "Bosqich 3",
-            "title": "Tender va Pudrat",
-            "text": "To'g'ridan-to'g'ri modeldan xatosiz Materiallar Ro'yxatini (BOM) avtomatlashtirilgan yaratish. Har bir fittingda K Aqua buyum raqami va VDI 3805 ma'lumotlari saqlanadi."
+            "title": "Tender va xarid",
+            "text": "Har bir detal o'z artikul raqamini IFC tegi sifatida va xossalar to'plamida olib yuradi. Modeldan olingan spetsifikatsiyani shu tariqa to'g'ridan-to'g'ri katalog bilan solishtirish mumkin."
           },
           {
             "year": "Bosqich 4",
-            "title": "Oldindan yig'ish va O'rnatish",
-            "text": "Sanoat prefabrikatsiyasi uchun izometrik chizmalarni eksport qilish. Millimetr aniqlikdagi chizmalar qurilish maydonchasida payvandlash ishlarini minimal darajaga tushiradi."
+            "title": "Oldindan tayyorlash va montaj",
+            "text": "Payvand chuqurligi, qizdirish vaqti va sovish vaqti har bir nominal o'lcham uchun ulanish nuqtasida turadi. Tayyorlovchi payvandlash parametrlarini uzunliklarni oladigan o'sha modeldan o'qiydi."
           },
           {
             "year": "Bosqich 5",
-            "title": "As-Built va Foydalanish",
-            "text": "As-Built modelini topshirish. Raqamli egizak binoning butun xizmat muddati davomida Ob'ektni boshqarish uchun yagona haqiqat manbai (Single Source of Truth) bo'lib xizmat qiladi."
+            "title": "Mavjud holat va foydalanish",
+            "text": "Artikul raqami detalda qoladi. Yigirma yildan keyin fittingni almashtirgan kishi modeldan nima o'rnatilganini topadi — u yozilgan katalog sahifasi bilan birga."
           }
         ],
-        "title": "K Aqua BIM ma'lumotlarining hayot aylanishi",
-        "desc": "Dastlabki eskizdan tortib o'nlab yillar davomida ishlashgacha. Bizning ma'lumotlarimiz har bir bosqichda loyihangizga hamroh bo'ladi."
+        "title": "Ma'lumotlar loyihada qayerda ish beradi",
+        "desc": "Birinchi hajm hisobidan yigirma yildan keyingi ehtiyot qismgacha."
       },
       "hero": {
-        "desc": "Ushbu modul butun dunyo bo'ylab eng talabgor loyihalar uchun murosasiz xavfsizlikni ta'minlaydi. Avlodlarga xizmat qilish uchun eng qat'iy sanoat standartlariga muvofiq ishlab chiqarilgan. Materiallar nosozligi variant bo'lmagan joyda raqamli egizakni yuklab oling.",
-        "btnPrimary": "BIM kutubxonasi (Revit/IFC)",
-        "btnGhost": "BIM konsaltingini so'rash"
+        "desc": "546 artikul IFC 4 formatida — ulanish nuqtalari, material ko'rsatkichlari, montaj ma'lumotlari va har bir ma'lumot yozilgan katalog sahifasi bilan. Alohida yoki paket sifatida, ro'yxatdan o'tmasdan.",
+        "btnPrimary": "IFC kutubxonasini yuklab olish",
+        "btnGhost": "Texnik maslahat so'rash"
       },
       "intro": {
-        "title1": "Bizning quvur tizimlarimiz DNKsi.",
-        "title2": "Endi bulutda.",
-        "p1": "Biz BIM ni shunchaki 3D chizma deb bilmaymiz. K Aqua uchun Building Information Modeling bu ishlab chiqarishdagi murosasiz aniqligimizni raqamli makonga o'tkazishdir. Xalqaro bosh pudratchilar osmono'par binolar, ma'lumotlar markazlari yoki yuqori xavfsizlik darajasidagi laboratoriyalarni rejalashtirayotganda, ular taxminiy qiymatlarga emas, balki ma'lumotlar ko'rinishidagi jismoniy haqiqatga muhtoj.",
-        "p2": "Bizning ma'lumotlar to'plamimiz o'n yillik Germaniya muhandisligining natijasidir. Har bir devor qalinligi, har bir oqim dinamikasi va har bir issiqlik xususiyati muhandislarimiz tomonidan tasdiqlangan va tabiiy ravishda ob'ektlarga (oilalarga) kiritilgan."
+        "title1": "Quvur tizimlarimizning o'lchamlari.",
+        "title2": "Raqamma-raqam tekshirib ko'rish mumkin.",
+        "p1": "BIM ob'ekti o'zi olib yurgan ma'lumotlar qanchalik qimmatli bo'lsa, shunchalik qimmatlidir. Shu sababli bizda hech bir fayl chizmadan emas, ishlab chiqaruvchi katalogidan tug'iladi: ushbu saytning mahsulot sahifalari ham raqamlarini o'sha manbadan oladi. Agar biror qiymat farq qilsa, u hamma joyda bir xil farq qiladi — va bitta joyda tuzatiladi.",
+        "p2": "Har bir fayl yuklab olish paytida qaytadan yaratiladi. Eskirib qolishi mumkin bo'lgan tayyor fayllar zaxirasi ham yo'q, katalog holatidan orqada qoladigan kutubxona ham. Siz yuklab olayotgan narsa mahsulot sahifasida yozilganiga mos keladi — har doim."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® oilalari",
-            "desc": "Konversiya yo'qotishlari yo'q. Eng yuqori ishlash va mahalliy marshrutlash afzalliklari uchun to'g'ridan-to'g'ri .rfa va .rvt sifatida dasturlashtirilgan."
+            "title": "IFC 4, ochiq va millimetrda",
+            "desc": "Revit, ArchiCAD, Allplan va Vectorworks da o'qiladi, Navisworks va Solibri da tekshiriladi. Katalogdagi bilan bir xil birlik — texnik varaq bilan solishtirganda qayta hisoblash kerak emas."
           },
           {
-            "title": "VDI 3805 muvofiqligi",
-            "desc": "Butun TGA zanjirida ma'lumotlarning silliq almashinuvi uchun standartlashtirilgan mahsulot ma'lumotlari."
+            "title": "Payvandlash ma'lumotlari bilan ulanish nuqtalari",
+            "desc": "Har bir ulanish uchun bitta IfcDistributionPort, nominal o'lcham va ulanish turi bilan. Mufta payvandlashda bunga ishlov berish yo'riqnomasidan payvand chuqurligi, qizdirish vaqti va sovish vaqti qo'shiladi."
           },
           {
-            "title": "IFC4 sinovi",
-            "desc": "Ochiq BIM standartlari (OpenBIM) orqali maksimal o'zaro ishlash. ArchiCAD, Allplan va Vectorworks da mutlaqo o'qilishiga kafolat."
+            "title": "Revit tiplar katalogi",
+            "desc": "Asl .rfa oilalari yopiq ikkilik format bo'lib, Revit litsenziyasisiz ularni yaratib bo'lmaydi. Biz Revit to'g'ridan-to'g'ri o'qiydigan IFC 4 ni va barcha nominal o'lchamlar hamda o'lchovlar bilan tiplar katalogini yetkazib beramiz."
           },
           {
-            "title": "Aniq issiqlik ma'lumotlari",
-            "desc": "Chiziqli kengayish, issiqlik o'tkazuvchanligi (0,24 Vt/mK) va quvur ishqalanishi bosimining pasayishi uchun integral hisoblash modellari."
+            "title": "Material va tizim ko'rsatkichlari",
+            "desc": "Zichlik 905 kg/m³, issiqlik o'tkazuvchanligi 0,24 W/(m·K), chiziqli kengayish 1,5·10⁻⁴ K⁻¹ — K-Fiber da 0,35·10⁻⁴ K⁻¹. Bunga tayanchlar oralig'i va DIN EN ISO 15874-1 bo'yicha qo'llash sinflari qo'shiladi."
           }
         ]
       },
       "cta": {
-        "title": "K Aqua BIM paketini yuklab oling.",
-        "desc": "Barcha asosiy Revit oilalari, IFC fayllari va VDI 3805 ma'lumotlar to'plamlariga to'liq kirish. Rejalashtiruvchilar va muhandislar uchun bepul.",
+        "title": "BIM paketini yuklab oling.",
+        "desc": "Har bir mahsulot uchun bitta arxiv: har bir nominal o'lcham uchun IFC 4, hajm hisobi uchun artikullar jadvali, Revit tiplar katalogi. Ro'yxatdan o'tmasdan, loyihachilar va muhandislar uchun bepul.",
         "btnPrimary": "Yuklab olish markaziga",
-        "btnOutline": "BIM menejeriga murojaat qiling"
+        "btnOutline": "Texnik maslahat so'rash"
       }
     },
     "common": {

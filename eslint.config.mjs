@@ -23,7 +23,10 @@ const eslintConfig = [
         'warn',
         {
           noStrings: true,
-          allowedStrings: ['·', '—', '/', '+', '×', '•', 'K-Aqua', 'KWT', 'KESSEL', 'PP-R', 'PP-RCT', 'ISO', 'CO₂'],
+          // Dateiformate und Werkzeugnamen sind Eigennamen wie „PP-R" und
+          // „ISO": sie heissen in jeder Sprache gleich und wuerden durch eine
+          // Uebersetzung falsch. Ein CSV bleibt ein CSV.
+          allowedStrings: ['·', '—', '/', '+', '×', '•', 'K-Aqua', 'KWT', 'KESSEL', 'PP-R', 'PP-RCT', 'ISO', 'CO₂', 'IFC 4', 'CSV', 'JSON', 'ZIP', 'PDF', 'Revit', 'IFC 4 · CSV · JSON · Revit', 'JSON ·', 'CSV ·'],
           ignoreProps: true,
         },
       ],

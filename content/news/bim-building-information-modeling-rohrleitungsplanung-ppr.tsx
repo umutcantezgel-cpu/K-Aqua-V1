@@ -49,9 +49,9 @@ export const bimBuildingInformationModeling: NewsPost = {
             Im konventionellen Rohrleitungsbau treten häufig Diskrepanzen zwischen der Planung und der tatsächlichen Ausführung auf. Leitungen kollidieren mit Lüftungskanälen oder Kabeltrassen, was auf der Baustelle zu teuren Verzögerungen, Umplanungen und Materialverschwendung führt. Durch den Einsatz von Building Information Modeling (BIM) werden solche Konflikte durch die sogenannte Clash Detection (Kollisionsprüfung) vollständig eliminiert, lange bevor der erste Spatenstich erfolgt. Gerade die BIM in der PPR Rohrleitungsplanung ermöglicht eine bisher unerreichte Präzision und maximale Effizienz für alle nachfolgenden Installationsschritte.
           </p>
           
-          <h3 className="text-xl font-semibold text-foreground mt-6">Intelligente Revit-Familien und IFC-Daten</h3>
+          <h3 className="text-xl font-semibold text-foreground mt-6">IFC-Daten mit Substanz</h3>
           <p>
-            Die von K Aqua bereitgestellten BIM-Daten (verfügbar als native Revit-Familien und im offenen IFC-Format) sind keine leeren Hüllen. Sie enthalten alle spezifischen Eigenschaften des Polypropylen Random-Copolymers (PP-R). Dazu gehören Druckstufen (SDR), Materialdichte, Außendurchmesser, Wandstärken und vor allem die genauen Einstecktiefen der Fittings.
+            Die von K Aqua bereitgestellten BIM-Daten (offenes IFC-4-Format, einlesbar in Revit, ArchiCAD, Allplan und Vectorworks) sind keine leeren Hüllen. Sie enthalten alle spezifischen Eigenschaften des Polypropylen Random-Copolymers (PP-R). Dazu gehören Druckstufen (SDR), Materialdichte, Außendurchmesser, Wandstärken und vor allem die genauen Einstecktiefen der Fittings.
           </p>
           <p>
             Dies ist für den Schweißprozess essenziell: Beim Heizelement-Muffenschweißen wird das Rohr einige Millimeter in den Fitting geschoben. Eine rein grafische 3D-Software ohne diese Metadaten würde falsche Rohrlängen berechnen. Die intelligenten BIM-Modelle von K Aqua berechnen das automatisierte Routing exakt nach der tatsächlichen Fitting-Geometrie, wodurch der Materialauszug (Bill of Materials - BOM) auf den Millimeter genau stimmt.
@@ -91,7 +91,7 @@ export const bimBuildingInformationModeling: NewsPost = {
             stats={[
               { n: "40", u: "%", l: "Schnellere Planungsphase durch automatisierte Routings und Massenauszüge (BOM)." },
               { n: "100", u: "%", l: "Kollisionsfreiheit vor Baubeginn dank intelligenter Clash Detection der Gewerke." },
-              { n: "100", u: "%", l: "K Aqua Sortiment als native Revit- und IFC-Daten mit vollständigen Metadaten verfügbar." }
+              { n: "546", u: "", l: "Artikel als IFC 4 mit Anschlusspunkten, Werkstoffkennwerten und Katalogbeleg." }
             ]}
           />
         </div>

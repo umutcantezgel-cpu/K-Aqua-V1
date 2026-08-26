@@ -6423,123 +6423,98 @@
     },
     "bim": {
       "title": "Data ya BIM",
-      "metaDesc": "Data ya BIM ya K-Aqua: Rahisisha muundo wako wa usanifu na wanamitindo wetu wa kina wa CAD na faili za Revit kwa mifumo iliyoundwa na Ujerumani.",
+      "metaDesc": "Data ya BIM ya K-Aqua: bidhaa 546 kama faili za IFC 4 zenye pointi za muunganisho, sifa za nyenzo na kumbukumbu ya ukurasa wa katalogi. Bila usajili, bure kwa wapangaji na wahandisi.",
       "sticky": {
         "items": [
           {
-            "title": "Upeo wa Kina wa Data (LOI 500)",
-            "desc": "Miundo yetu ya BIM haitoi tu uwakilishi wa kijiometri wa usahihi wa juu (LOD) lakini juu ya yote ni kina cha habari kisichoweza kulinganishwa (LOI). Kila bomba, kila kiweka sawa, na kila valvu ina metadata zote muhimu: vipimo vya nyenzo, viwango vya shinikizo, vijidudu vya upanuzi wa joto na nambari halisi za vifungu vya utoaji zabuni wa kiotomatiki."
+            "title": "Kila namba na ukurasa wake wa katalogi",
+            "desc": "Katika kila kipengele imeandikwa vipimo vyake vimetoka wapi — hadi ukurasa kamili katika katalogi ya mtengenezaji ya 06-2025. Anayelinganisha unene wa ukuta katika modeli na laha ya data atapata namba ile ile pamoja na chanzo chake. Pale katalogi inapojipinga yenyewe mahali fulani, thamani iliyochapishwa ndiyo inayoingia kwenye faili, na maelezo yakiwa kando yake."
           },
           {
-            "title": "Mipango Isiyogongana",
-            "desc": "Katika miradi ya mabilioni ya dola, kugundua mzozo hakujadiliwi. Faili zetu asili za Revit na IFC zinahakikisha muunganisho kamili kwenye Navisworks au Solibri yako. Vipenyo kamili vya nje ikiwa ni pamoja na uvumilivu wa mshono wa weld huzuia mshangao wa gharama kubwa kwenye tovuti ya ujenzi."
+            "title": "Pointi za muunganisho, si kidonge kigumu",
+            "desc": "Kila kiungio hubeba miunganisho yake ya bomba kama IfcDistributionPort: mahali, mwelekeo wa mhimili, kipenyo cha kawaida na aina ya muunganisho. Kwa ulehemu wa soketi, kina cha kuingiza, muda wa kupasha joto na muda wa kupoa vimeandikwa moja kwa moja kwenye muunganisho — thamani zikitoka katika maelekezo ya ulehemu ya mtengenezaji, si katika kiwango cha jumla."
           },
           {
-            "title": "Akili ya Kigezo",
-            "desc": "Familia za K Aqua BIM ni za parametric kabisa. Zinabadilika kwa nguvu kulingana with upitishaji wa bomba, miinuko na vipimo. Uelekezaji wa kiotomatiki uliojumuishwa huchagua kiotomati vipunguzi sahihi na pembe za kiwiko kulingana na maelezo madhubuti ya DIN EN ISO 15874."
+            "title": "Bomba linabaki bomba",
+            "desc": "Bomba linakuja kama IfcSweptDiskSolid lenye radii ya nje na ya ndani, si kama wavu wa pembetatu. Katika Revit au ArchiCAD linabaki sehemu ya bomba inayoweza kuelekezwa na kupunguzwa. Faili ina ukubwa wa kilobaiti tisa, si mia kadhaa."
           },
           {
-            "title": "Mzunguko wa Maisha na Usimamizi wa Kituo",
-            "desc": "Pacha ya digital haiishii na makabidhiano ya jengo. Vitu vyetu vya BIM vinatangamana na COBie na huvipa Usimamizi wa Kituo vipindi vyote muhimu vya matengenezo, vyeti na data ya uendeshaji kwa mzunguko wa maisha salama wa zaidi ya miaka 50."
+            "title": "Data ya ufungaji kutoka katalogi",
+            "desc": "Nafasi kati ya vishikilio kwa kila kipenyo cha kawaida na halijoto saba, madaraja ya matumizi kwa mujibu wa DIN EN ISO 15874-1 pamoja na shinikizo linaloruhusiwa la uendeshaji, na upanuzi wa urefu. Mabomba ya K-Fiber hapa yana kigezo chao chenyewe cha 0.35·10⁻⁴ K⁻¹ — kidogo mara nne zaidi kuliko bomba la safu moja, na ndio sababu hasa ya safu ya nyuzi mchanganyiko."
           }
         ],
-        "eyebrow": "Ubora wa Mtiririko wa Kazi",
-        "title": "Mapacha wa Dijiti katika Ukamilifu.",
-        "lead": "Ufahamu juu ya kina cha data inayoondoa tofauti kati ya kupanga na ukweli."
+        "eyebrow": "Kilichomo katika faili",
+        "title": "Data ya upangaji inayoweza kuhakikiwa.",
+        "lead": "Sifa nne zinazoleta tofauti pale modeli isipotakiwa kuonekana nzuri tu, bali kufanya kazi kweli."
       },
       "timeline": {
         "items": [
           {
             "year": "Awamu 1",
-            "title": "Dhana & Mipango ya MEP",
-            "text": "Ujumuishaji wa jiometri za msingi za K Aqua katika hatua ya mwanzo ya kubuni. Uondoaji wa kiasi cha haraka na ugunduzi wa mgongano wa awali kwa dhana ya uelekezaji katika mpango mkuu wa MEP."
+            "title": "Dhana na mkondo wa mabomba",
+            "text": "Katalogi nzima kama jedwali au JSON: bidhaa 546 zenye kipenyo cha kawaida, nyenzo na uzito. Inatosha kwa hesabu ya kwanza ya wingi na upangaji wa mkondo, kabla hata modeli moja haijapakiwa."
           },
           {
             "year": "Awamu 2",
-            "title": "Mipango ya Utekelezaji",
-            "text": "Mpito kwa LOI 400. Vipimo kamili, kasi ya mtiririko, na hesabu za upotezaji wa shinikizo hutiririka moja kwa moja kwenye hesabu ya mtandao wa majimaji wa jengo."
+            "title": "Upangaji wa utekelezaji",
+            "text": "IFC 4 kwa kila kipenyo cha kawaida, kwa milimita. Kipenyo cha nje, unene wa ukuta na urefu wa ufungaji kutoka katalogi, pamoja na nafasi kati ya vishikilio na madaraja ya matumizi kwa hesabu ya mtandao."
           },
           {
             "year": "Awamu 3",
-            "title": "Zabuni & Kutoa Tuzo",
-            "text": "Uzalishaji otomatiki wa Miswada ya Nyenzo (BOM) isiyo na hitilafu moja kwa moja kutoka kwa muundo. Kila sehemu inayofaa inahifadhiwa na nambari ya kifungu cha K Aqua na data ya VDI 3805."
+            "title": "Zabuni na utoaji wa kazi",
+            "text": "Kila kipengele hubeba nambari yake ya bidhaa kama lebo ya IFC na katika seti ya sifa. Orodha ya vifaa kutoka kwenye modeli hivyo inaweza kulinganishwa na katalogi bila hatua za kati."
           },
           {
             "year": "Awamu 4",
-            "title": "Utengenezaji & Mkutano",
-            "text": "Usafirishaji wa michoro ya isometriki kwa uundaji wa viwanda. Michoro sahihi ya spool hupunguza kazi ya kulehemu kwenye tovuti ya ujenzi hadi kiwango cha chini kabisa."
+            "title": "Utengenezaji wa awali na ufungaji",
+            "text": "Kina cha kuingiza, muda wa kupasha joto na muda wa kupoa vimeandikwa kwa kila kipenyo cha kawaida kwenye pointi ya muunganisho. Mtengenezaji wa awali husoma vigezo vya ulehemu kutoka modeli ile ile anayochukua urefu."
           },
           {
             "year": "Awamu 5",
-            "title": "Jinsi-Iliyojengwa & Uendeshaji",
-            "text": "Kukabidhi modeli iliyojengwa kwa Msimamizi wa Kituo. Taarifa zote za bidhaa kama vile miongozo ya matengenezo zinapatikana kidijitali katika miundombinu ya jengo inayotegemea IoT."
+            "title": "Hali halisi na uendeshaji",
+            "text": "Nambari ya bidhaa inabaki kwenye kipengele. Atakayebadilisha kiungio baada ya miaka ishirini ataona katika modeli kilichofungwa — pamoja na ukurasa wa katalogi kilipoandikwa."
           }
         ],
-        "title": "Safari ya Data",
-        "desc": "Kuanzia mchoro wa kwanza hadi ukarabati. Miundo yetu ya BIM hufuatana na jengo lako katika mzunguko wake wote wa maisha."
+        "title": "Pale data inapotumika katika mradi",
+        "desc": "Kuanzia hesabu ya kwanza ya wingi hadi kipuri baada ya miaka ishirini."
       },
       "hero": {
-        "eyebrow": "Miundo ya Data ya BIM",
-        "title1": "Usanifu na",
-        "title2": "Hakika Kabisa.",
-        "desc": "Makosa ya kupanga hugharimu mamilioni. Ndio maana K Aqua inatoa zaidi ya jiometri za 3D pekee. Tunatoa mapacha mahiri wa dijitali (LOD 500) kwa ajili ya ushirikiano wa Revit na ArchiCAD usio na mshono, ulio na vipimo kamili vya nyenzo kwa uigaji bora wa jengo.",
-        "btnPrimary": "Zindua Maktaba ya BIM",
-        "btnGhost": "Vigezo vya Mfumo"
+        "desc": "Bidhaa 546 kama IFC 4 — zenye pointi za muunganisho, sifa za nyenzo, data ya ufungaji na ukurasa wa katalogi ulipoandikwa kila kipimo. Moja moja au kama kifurushi, bila usajili.",
+        "btnPrimary": "Pakua maktaba ya IFC",
+        "btnGhost": "Omba ushauri wa kiufundi"
       },
       "intro": {
-        "title1": "Si kielelezo tu cha 3D.",
-        "title2": "Ukweli pepe.",
-        "p1": "Mapacha wetu wa dijitali ni nakala halisi za mifumo yetu ya mabomba inayoonekana, kuboreshwa kwa programu zinazoongoza za BIM. Tunahakikisha usahihi wa mipango isiyobadilika tangu sekunde ya kwanza.",
-        "p2": "Data iliyojumuishwa kwenye miundo huenda mbali zaidi ya vipimo. Zina uzani, miongozo ya ufungaji na vipengele vya nguvu vya mfumo ili kuwezesha uchambuzi wa ufanisi wa nishati wa wakati halisi.",
-        "p3": "Panga na uhandisi wa Ujerumani - sio kwenye karatasi tu, lakini katika nafasi ya tatu."
+        "title1": "Vipimo vya mifumo yetu ya mabomba.",
+        "title2": "Vinavyohakikiwa namba kwa namba.",
+        "p1": "Kitu cha BIM kina thamani sawa na data kinachobeba. Ndio maana faili zetu hazitokani na mchoro, bali na katalogi ya mtengenezaji: chanzo kile kile ambacho kurasa za bidhaa za tovuti hii huchukua namba zake. Thamani ikipotoka, hupotoka vivyo hivyo kila mahali — na inaweza kusahihishwa mahali pamoja tu.",
+        "p2": "Kila faili huundwa upya wakati ule ule inapoombwa. Hakuna rundo la faili zilizotengenezwa tayari zinazoweza kupitwa na wakati, wala maktaba inayobaki nyuma ya toleo la katalogi. Unachopakua kinalingana na kilichoandikwa kwenye ukurasa wa bidhaa — kila wakati."
       },
       "bento": {
-        "eyebrow": "Uwezo wa BIM",
-        "title": "Imeunganishwa kwa asili",
-        "lead": "Faili zetu za BIM zinatoa muunganisho wa programu nyingi bila maelewano na viwango vya tasnia.",
         "items": [
           {
-            "title": "Uchambuzi wa Mgongano",
-            "desc": "Uvumilivu mgumu katika kielelezo huruhusu ukaguzi mahususi wa migongano, ambao huzuia kutofautiana kwa anga katika MEP mapema."
+            "title": "IFC 4, wazi na kwa milimita",
+            "desc": "Inasomeka katika Revit, ArchiCAD, Allplan na Vectorworks, inakaguliwa katika Navisworks na Solibri. Kipimo kile kile kama katika katalogi — hakuna ubadilishaji wakati wa kulinganisha na laha ya data."
           },
           {
-            "title": "Mifumo Iliyojumuishwa",
-            "desc": "Maelezo mahususi ya nyenzo kwa mabomba ya PP-R/PPRCT huwezesha ujumuishaji katika vipengele vikuu vya kimuundo."
+            "title": "Pointi za muunganisho zenye data ya ulehemu",
+            "desc": "IfcDistributionPort moja kwa kila muunganisho, ikiwa na kipenyo cha kawaida na aina ya muunganisho. Kwa ulehemu wa soketi huongezwa kina cha kuingiza, muda wa kupasha joto na muda wa kupoa kutoka maelekezo ya usindikaji."
           },
           {
-            "title": "LOD500 Tayari",
-            "desc": "Utajiri kamili wa taarifa na kuongeza kijiometri huhakikisha utiifu katika miradi ngumu zaidi ya ujenzi."
+            "title": "Katalogi ya aina kwa Revit",
+            "desc": "Familia asili za .rfa ni umbizo la binari lililofungwa na haziwezi kutengenezwa bila leseni ya Revit. Sisi tunatoa IFC 4 ambayo Revit inaisoma moja kwa moja, na katalogi ya aina yenye vipenyo vyote vya kawaida na vipimo vyake."
           },
           {
-            "title": "Data Inayobadilika",
-            "desc": "Inasasishwa mara kwa mara kwa maktaba, kubakiza masahihisho kwa vigezo vya kiufundi unapoenda."
-          },
-          {
-            "title": "Mikataba yenye akili",
-            "desc": "Uunganishaji wa data wa kiotomatiki kwa ufuatiliaji mzuri wa mzunguko wa maisha na uundaji wa orodha ya malighafi katika programu zinazooana."
+            "title": "Sifa za nyenzo na za mfumo",
+            "desc": "Msongamano 905 kg/m³, uendeshaji joto 0.24 W/(m·K), upanuzi wa urefu 1.5·10⁻⁴ K⁻¹ — kwa K-Fiber 0.35·10⁻⁴ K⁻¹. Pamoja na nafasi kati ya vishikilio na madaraja ya matumizi kwa mujibu wa DIN EN ISO 15874-1."
           }
-        ]
-      },
-      "metrics": {
-        "badge": "Thamani katika Mazoezi",
-        "title1": "Faida ya",
-        "title2": "Kuiga.",
-        "p1": "Data yetu ya BIM imetengenezwa kikamilifu ili kuharakisha ufanisi wa ujenzi katika miradi mikubwa huku ikipunguza uvumilivu wa makosa hadi karibu sifuri.",
-        "p2": "Gundua usahihi wa michoro asilia, hifadhidata za ulimwengu, na miingiliano salama unapoingia katika ushirikiano wa timu ya vitendo.",
-        "items": [
-          "100% inaoana na ArchiCAD na Revit",
-          "Aina zaidi ya 5,000 za K Aqua zilizochorwa",
-          "Inasasishwa mara kwa mara kwenye majukwaa ya msimamizi",
-          "Ujumuishaji wa vipengele vya maisha"
         ]
       },
       "cta": {
-        "title": "Pakua Kifurushi cha K Aqua BIM.",
-        "desc": "Ufikiaji kamili wa familia zote asili za Revit, faili za IFC, na hifadhidata za VDI 3805. Bure kwa wapangaji na wahandisi.",
+        "title": "Pakua kifurushi cha BIM.",
+        "desc": "Kumbukumbu moja kwa kila bidhaa: IFC 4 kwa kila kipenyo cha kawaida, jedwali la bidhaa kwa hesabu ya wingi, katalogi ya aina kwa Revit. Bila usajili, bure kwa wapangaji na wahandisi.",
         "btnPrimary": "Kwa Kituo cha Kupakua",
-        "btnOutline": "Wasiliana na Meneja wa BIM"
-      },
-      "metaTitle": "Data ya BIM & Maktaba za CAD | K-Aqua"
+        "btnOutline": "Omba ushauri wa kiufundi"
+      }
     },
     "common": {
       "eyebrow": "RASILIMALI YA K AQUA",

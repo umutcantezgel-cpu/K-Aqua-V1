@@ -7043,98 +7043,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Daten",
-      "metaDesc": "K Aqua BIM-Daten: Kompromisslose Sicherheit durch German Engineering za globale Megaprojekte. Greifen Sie na unsere BIM-Datenbank zu.",
+      "title": "BIM podaci",
+      "metaDesc": "K-Aqua BIM podaci: 546 artikala kao IFC 4 sa priključnim tačkama, karakteristikama materijala i potvrdom iz kataloga. Bez registracije, besplatno za projektante i inženjere.",
       "sticky": {
         "items": [
           {
-            "title": "Maximale Datentiefe (LOI 500)",
-            "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting i jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Klase pritiska, thermische Ausdehnungskoeffizienten i exakte Artikelnummern za   automatisierte Ausschreibung."
+            "title": "Svaka vrednost sa svojom stranicom kataloga",
+            "desc": "U svakom elementu stoji odakle potiču njegove mere — tačno do stranice u katalogu proizvođača 06-2025. Ko debljinu zida iz modela uporedi sa tehničkim listom, naći će istu vrednost i dokaz uz nju. Tamo gde katalog na jednom mestu protivreči sam sebi, u datoteci stoji odštampana vrednost, a pored nje napomena."
           },
           {
-            "title": "Kollisionsfreie Planiranje",
-            "desc": "u Milliardenprojekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- i IFC-Dateien garantieren eine nahtlose Integration u Ihr Navisworks ili Solibri.   exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen na   Baustelle."
+            "title": "Priključne tačke umesto bezoblične mase",
+            "desc": "Svaki fiting nosi svoje priključke za cevi kao IfcDistributionPort: položaj, pravac ose, nazivni prečnik i vrstu spoja. Kod polifuzionog zavarivanja dubina uvarivanja, vreme zagrevanja i vreme hlađenja stoje neposredno uz priključak — vrednosti iz uputstva proizvođača za zavarivanje, a ne iz opšteg standarda."
           },
           {
-            "title": "Parametrische Intelligenz",
-            "desc": "K Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle i Dimensionierungen an.   integrierte Auto-Routing wählt automatisch   korrekten Reduzierungen i Bogenwinkel gemäß   strengen Vorgaben   DIN EN ISO 15874."
+            "title": "Cev ostaje cev",
+            "desc": "Cev dolazi kao IfcSweptDiskSolid sa spoljnim i unutrašnjim poluprečnikom, a ne kao mreža trouglova. U programu Revit ili ArchiCAD zato ostaje segment cevi koji se može voditi i skraćivati. Datoteka je velika devet kilobajta umesto nekoliko stotina."
           },
           {
-            "title": "Lifecycle & Facility Management",
-            "desc": "  digitale Zwilling endet nicht sa   Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel i liefern dem Facility Management alle notwendigen Wartungsintervalle, Sertifikati i Betriebsdaten za einen sicheren Lebenszyklus od über 50 Jahren."
+            "title": "Podaci za ugradnju iz kataloga",
+            "desc": "Razmaci oslonaca za svaki nazivni prečnik i sedam temperatura, klase primene prema DIN EN ISO 15874-1 sa dozvoljenim radnim pritiskom, toplotno izduženje. K-Fiber cevi pritom nose sopstveni koeficijent od 0,35·10⁻⁴ K⁻¹ — oko četiri puta manji nego kod jednoslojne cevi, i upravo to je razlog za sloj kompozita sa vlaknima."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Digitale Zwillinge u Perfektion.",
-        "lead": "Ein Einblick u   Datentiefe,     Unterschied zwischen Planiranje i Realität eliminiert."
+        "eyebrow": "Šta stoji u datotekama",
+        "title": "Projektni podaci koji se mogu proveriti.",
+        "lead": "Četiri svojstva koja prave razliku kada model ne treba samo lepo da izgleda, nego i da izdrži proveru."
       },
       "timeline": {
         "items": [
           {
-            "year": "Phase 1",
-            "title": "Konzeption & TGA-Planiranje",
-            "text": "Integration   K Aqua Basis-Geometrien u   frühen Entwurf. Schnelle Massenermittlung i erste Kollisionsprüfung za   Trassenkonzept im TGA-Masterplan."
+            "year": "Faza 1",
+            "title": "Koncept i vođenje trase",
+            "text": "Ceo katalog kao tabela ili JSON: 546 artikala sa nazivnim prečnikom, materijalom i težinom. Dovoljno za prvi predmer i planiranje trase, pre nego što je učitan i jedan jedini model."
           },
           {
-            "year": "Phase 2",
-            "title": "Ausführungsplanung",
-            "text": "Umstellung na LOI 400.   exakten Specifikacije, Fließgeschwindigkeiten i Druckverlustberechnungen fließen direkt u   hydraulische Netzberechnung des Gebäudes ein."
+            "year": "Faza 2",
+            "title": "Izvođački projekat",
+            "text": "IFC 4 za svaki nazivni prečnik, u milimetrima. Spoljni prečnik, debljina zida i ugradbene dužine iz kataloga, uz razmake oslonaca i klase primene za proračun mreže."
           },
           {
-            "year": "Phase 3",
-            "title": "Ausschreibung & Vergabe",
-            "text": "Automatisierte Generierung od fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist sa   K Aqua Artikelnummer i VDI 3805 Daten hinterlegt."
+            "year": "Faza 3",
+            "title": "Tender i ugovaranje",
+            "text": "Svaki element nosi svoj kataloški broj kao IFC oznaku i u skupu svojstava. Specifikacija materijala iz modela može se tako bez zaobilaznih puteva uporediti sa katalogom."
           },
           {
-            "year": "Phase 4",
-            "title": "Vorfertigung & Montage",
-            "text": "Export od isometrischen Zeichnungen za   industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten na   Baustelle na ein absolutes Minimum."
+            "year": "Faza 4",
+            "title": "Predfabrikacija i montaža",
+            "text": "Dubina uvarivanja, vreme zagrevanja i vreme hlađenja stoje uz priključnu tačku za svaki nazivni prečnik. Radionica za predfabrikaciju čita parametre zavarivanja iz istog modela iz kojeg uzima dužine."
           },
           {
-            "year": "Phase 5",
-            "title": "As-Built & Betrieb",
-            "text": "Übergabe des As-Built-Modells.   digitale Zwilling dient als Single Source of Truth za   Facility Management über   gesamte Vek trajanja des Bauwerks."
+            "year": "Faza 5",
+            "title": "Izvedeno stanje i eksploatacija",
+            "text": "Kataloški broj ostaje uz element. Ko posle dvadeset godina menja fiting, u modelu nalazi šta je ugrađeno — zajedno sa stranicom kataloga na kojoj je to stajalo."
           }
         ],
-        "title": "  Lebenszyklus   K Aqua BIM-Daten",
-        "desc": "od   ersten Skizze do zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt u jeder Phase."
+        "title": "Gde podaci deluju u projektu",
+        "desc": "Od prvog predmera do rezervnog dela posle dvadeset godina."
       },
       "hero": {
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit za   anspruchsvollsten Projekte weltweit. Gefertigt nach   strengsten Industriestandards, um Generationen zu überdauern. Laden Sie   digitalen Zwilling herunter, wo Materialversagen keine Option ist.",
-        "btnPrimary": "BIM Bibliothek (Revit/IFC)",
-        "btnGhost": "BIM Consulting anfragen"
+        "desc": "546 artikala kao IFC 4 — sa priključnim tačkama, karakteristikama materijala, podacima za ugradnju i stranicom kataloga na kojoj stoji svaki podatak. Pojedinačno ili kao paket, bez registracije.",
+        "btnPrimary": "Preuzmi IFC biblioteku",
+        "btnGhost": "Zatraži tehničko savetovanje"
       },
       "intro": {
-        "title1": "  DNA unserer Rohrsysteme.",
-        "title2": "Jetzt u   Cloud.",
-        "p1": "Wir verstehen BIM nicht als bloße 3D-Zeichnung. za K Aqua ist Building Information Modeling   Transfer unserer kompromisslosen Fertigungspräzision u   digitalen Raum. Wenn internationale Generalunternehmer Wolkenkratzer, Rechenzentren ili Hochsicherheitslabore planen, benötigen sie keine geschätzten Werte, sie benötigen physikalische Realität u Form od Daten.",
-        "p2": "Unsere Datensätze sind   Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik i jede thermische Eigenschaft wurde od unseren Ingenieuren validiert i nativ u   Familien übersetzt."
+        "title1": "Mere naših cevnih sistema.",
+        "title2": "Proverljive, broj po broj.",
+        "p1": "BIM objekat vredi onoliko koliko vrede podaci koje nosi. Zato kod nas nijedna datoteka ne nastaje iz crteža, nego iz kataloga proizvođača: iz istog izvora iz kojeg i stranice proizvoda na ovom sajtu uzimaju svoje vrednosti. Ako neka vrednost odstupa, odstupa svuda jednako — i ispravlja se na jednom mestu.",
+        "p2": "Svaka datoteka nastaje iznova u trenutku preuzimanja. Ne postoji unapred napravljen fond datoteka koji bi mogao da zastari, ni biblioteka koja kasni za stanjem kataloga. Ono što preuzmete odgovara onome što piše na stranici proizvoda — uvek."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® Familien",
-            "desc": "Keine Konvertierungsverluste. Direkt als .rfa i .rvt programmiert za höchste Performance i native Routing-Präferenzen."
+            "title": "IFC 4, otvoren format i u milimetrima",
+            "desc": "Može se učitati u Revit, ArchiCAD, Allplan i Vectorworks, a proveriti u programima Navisworks i Solibri. Ista jedinica kao u katalogu — bez preračunavanja pri poređenju sa tehničkim listom."
           },
           {
-            "title": "VDI 3805 Konformität",
-            "desc": "Standardisierte Produktdaten za   reibungslosen Datenaustausch u   gesamten TGA-Kette."
+            "title": "Priključne tačke sa podacima o zavarivanju",
+            "desc": "IfcDistributionPort za svaki priključak, sa nazivnim prečnikom i vrstom spoja. Kod polifuzionog zavarivanja uz to i dubina uvarivanja, vreme zagrevanja i vreme hlađenja iz uputstva za obradu."
           },
           {
-            "title": "IFC4 Prüfung",
-            "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar u ArchiCAD, Allplan i Vectorworks."
+            "title": "Katalog tipova za Revit",
+            "desc": "Izvorne .rfa familije su zatvoren binarni format i bez Revit licence se ne mogu napraviti. Isporučujemo IFC 4, koji Revit učitava direktno, i katalog tipova sa svim nazivnim prečnicima i merama."
           },
           {
-            "title": "Exakte thermische Daten",
-            "desc": "Integrierte Berechnungsmodelle za Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) i Rohrreibungsdruckgefälle."
+            "title": "Karakteristike materijala i sistema",
+            "desc": "Gustina 905 kg/m³, toplotna provodljivost 0,24 W/(m·K), toplotno izduženje 1,5·10⁻⁴ K⁻¹ — kod K-Fiber 0,35·10⁻⁴ K⁻¹. Uz to razmaci oslonaca i klase primene prema DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Laden Sie   K Aqua BIM-Paket herunter.",
-        "desc": "Vollständiger Zugriff na alle nativen Revit-Familien, IFC-Dateien i VDI 3805 Datensätze. Kostenlos za Planer i Ingenieure.",
-        "btnPrimary": "Zum Download-Center",
-        "btnOutline": "BIM-Manager kontaktieren"
+        "title": "Preuzmite BIM paket.",
+        "desc": "Po proizvodu jedna arhiva: IFC 4 za svaki nazivni prečnik, tabela artikala za predmer, katalog tipova za Revit. Bez registracije, besplatno za projektante i inženjere.",
+        "btnPrimary": "Ka centru za preuzimanje",
+        "btnOutline": "Zatraži tehničko savetovanje"
       }
     },
     "common": {

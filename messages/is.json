@@ -6812,98 +6812,98 @@
       }
     },
     "bim": {
-      "title": "BIM-gögn (BIM Data)",
-      "metaDesc": "K-Aqua BIM-gögn: Öryggi án málamiðlana í gegnum þýska verkfræði (German Engineering) fyrir alþjóðleg stórverkefni. Fáðu aðgang að BIM gagnagrunni okkar.",
+      "title": "BIM-gögn",
+      "metaDesc": "K-Aqua BIM-gögn: 546 vörunúmer sem IFC 4 með tengipunktum, efnisgildum og tilvísun í vörulista. Án skráningar, ókeypis fyrir hönnuði og verkfræðinga.",
       "sticky": {
         "items": [
           {
-            "title": "Hámarks gagnadýpt (LOI 500)",
-            "desc": "BIM líkön okkar bjóða ekki aðeins upp á mjög nákvæma rúmfræðilega (geometric) framsetningu (LOD), heldur fyrst og fremst óviðjafnanlega (unsurpassed) upplýsingadýpt (LOI). Sérhvert rör, hvert formstykki og hver loki inniheldur öll mikilvæg (critical) lýsigögn (metadata): efnislýsingar, þrýstiflokka (pressure ratings), hitastækkunarstuðla og nákvæm vörunúmer fyrir sjálfvirka útboðsgerð (automated tendering)."
+            "title": "Hver tala með sinni vörulistasíðu",
+            "desc": "Í hverjum íhlut kemur fram hvaðan mál hans eru fengin — allt niður á síðu í vörulista framleiðanda 06-2025. Sá sem ber veggþykkt í líkaninu saman við gagnablaðið finnur sömu tölu og heimildina fyrir henni. Þar sem vörulistinn stangast á við sjálfan sig á einum stað stendur prentaða gildið í skránni og ábendingin við hliðina."
           },
           {
-            "title": "Árekstralaus (Collision-free) skipulagning",
-            "desc": "Í milljarða (billion-dollar) verkefnum er árekstragreining (clash detection) óviðsemjanleg (non-negotiable). Náttúrulegu (Native) Revit- og IFC-skrárnar okkar tryggja hnökralausa (seamless) samþættingu (integration) í þitt Navisworks eða Solibri. Nákvæmt ytra þvermál (outer diameters) að meðtöldum suðusaumsvikmörkum (welding seam tolerances) kemur í veg fyrir dýr (costly) óvænt atvik (surprises) á byggingarstað."
+            "title": "Tengipunktar í stað kekkja",
+            "desc": "Hvert formstykki ber rörtengingar sínar sem IfcDistributionPort: staðsetningu, ásstefnu, nafnvídd og tengiaðferð. Við múffusuðu standa suðudýpt, hitunartími og kælitími beint við tenginguna — gildin úr suðuleiðbeiningum framleiðandans, ekki úr almennum staðli."
           },
           {
-            "title": "Stærðfræðileg greind (Parametric intelligence)",
-            "desc": "K-Aqua BIM fjölskyldur eru að fullu stærðfræðilegar (parametric). Þær laga sig kviklega (dynamically) að lagnaleiðum (routing), halla og stærðum (sizing). Innbyggða sjálfvirka leiðarvalið (auto-routing) velur sjálfkrafa réttar smækkanir (reducers) og beygjuhorn samkvæmt ströngum (strict) forskriftum DIN EN ISO 15874."
+            "title": "Rör eru áfram rör",
+            "desc": "Rör kemur sem IfcSweptDiskSolid með ytri og innri radíus, ekki sem þríhyrninganet. Í Revit eða ArchiCAD er það því áfram rörhluti sem hægt er að leggja og klippa til. Skráin er níu kílóbæti að stærð í stað nokkur hundruð."
           },
           {
-            "title": "Lífsferill & Umsjón fasteigna (Facility Management)",
-            "desc": "Stafræni tvíburinn (digital twin) endar ekki við afhendingu byggingar. BIM-hlutir (objects) okkar eru COBie-samhæfðir og veita fasteignaumsjóninni (facility management) öll nauðsynleg (necessary) viðhaldstímabil, vottorð og rekstrargögn fyrir öruggan lífsferil í yfir 50 ár."
+            "title": "Lagnagögn úr vörulistanum",
+            "desc": "Festingabil fyrir hverja nafnvídd og sjö hitastig, notkunarflokkar samkvæmt DIN EN ISO 15874-1 með leyfilegum rekstrarþrýstingi, lengdarþensla. K-Fiber-rör bera þar sinn eigin stuðul, 0,35·10⁻⁴ K⁻¹ — rúmlega fjórum sinnum lægri en einlaga rör, og einmitt ástæðan fyrir trefjastyrkta laginu."
           }
         ],
-        "eyebrow": "Vinnuferlis-ágæti (Workflow Excellence)",
-        "title": "Stafrænir tvíburar í fullkomnun (perfection).",
-        "lead": "Innsýn inn í gagnadýptina sem útilokar muninn á áætlun (planning) og raunveruleika (reality)."
+        "eyebrow": "Hvað stendur í skránum",
+        "title": "Hönnunargögn sem hægt er að sannreyna.",
+        "lead": "Fjórir eiginleikar sem skipta máli þegar líkan á ekki bara að líta vel út heldur að halda."
       },
       "timeline": {
         "items": [
           {
             "year": "Áfangi 1",
-            "title": "Hugmyndavinna & TGA skipulagning",
-            "text": "Samþætting á K-Aqua grunn-rúmfræði í byrjunarhönnun. Hröð magngreining (quantity surveying) og fyrsta árekstrarprófun (collision check) fyrir leiðarkerfi (routing concept) í TGA-aðalskipulaginu."
+            "title": "Hugmyndavinna og lagnaleiðir",
+            "text": "Allur vörulistinn sem tafla eða JSON: 546 vörunúmer með nafnvídd, efni og þyngd. Nóg fyrir fyrstu magntöku og lagnaleiðahönnun, áður en eitt einasta líkan er hlaðið inn."
           },
           {
             "year": "Áfangi 2",
-            "title": "Framkvæmdaáætlun (Execution planning)",
-            "text": "Skipt yfir í LOI 400. Nákvæmar forskriftir, flæðihraði og útreikningar á þrýstitapi (pressure loss calculations) renna beint inn í (flow directly into) vökvaaflfræðilegan net-útreikning (hydraulic network calculation) byggingarinnar."
+            "title": "Framkvæmdahönnun",
+            "text": "IFC 4 fyrir hverja nafnvídd, í millimetrum. Ytra þvermál, veggþykkt og byggingarlengdir úr vörulistanum, ásamt festingabilum og notkunarflokkum fyrir kerfisútreikninginn."
           },
           {
             "year": "Áfangi 3",
-            "title": "Útboð & Úthlutun (Tendering & Awarding)",
-            "text": "Sjálfvirk gerð (Automated generation) villufrírra efnisskráa (Bill of Materials - BOM) beint úr líkaninu. Sérhvert formstykki er tengt (linked with) K-Aqua vörunúmeri og VDI 3805 gögnum."
+            "title": "Útboð og verksamningur",
+            "text": "Hver íhlutur ber vörunúmer sitt sem IFC-merki og í eiginleikasettinu. Efnisskrána úr líkaninu má þannig bera beint saman við vörulistann."
           },
           {
             "year": "Áfangi 4",
-            "title": "Forsmíði (Prefabrication) & Samsetning",
-            "text": "Útflutningur (Export) á jafn-víddar (isometric) teikningum fyrir iðnaðarforsmíði. Millimetranákvæmar spólu-teikningar (spool drawings) lágmarka (minimize) suðuvinnu á byggingarstað niður í algjört lágmark."
+            "title": "Forsmíði og samsetning",
+            "text": "Suðudýpt, hitunartími og kælitími standa við tengipunktinn fyrir hverja nafnvídd. Forsmiðurinn les suðustillingarnar úr sama líkani og hann tekur lengdirnar úr."
           },
           {
             "year": "Áfangi 5",
-            "title": "Byggingarlíkan (As-Built) & Rekstur",
-            "text": "Afhending á endanlegu byggingarlíkani (As-Built model). Stafræni tvíburinn (digital twin) þjónar sem Einn Sannleiksgjafi (Single Source of Truth) fyrir fasteignastjórnunina yfir allan líftíma (entire lifespan) byggingarinnar."
+            "title": "Byggingarlíkan og rekstur",
+            "text": "Vörunúmerið helst á íhlutnum. Sá sem skiptir um formstykki eftir tuttugu ár finnur í líkaninu hvað var sett upp — ásamt vörulistasíðunni sem það stóð á."
           }
         ],
-        "title": "Lífsferill K-Aqua BIM-gagna",
-        "desc": "Frá fyrstu (first) skissu (sketch) til áratuga langrar notkunar. Gögn okkar fylgja verkefninu (accompany your project) á hverju stigi (in every phase)."
+        "title": "Hvar gögnin grípa inn í verkefnið",
+        "desc": "Frá fyrstu magntöku til varahlutar eftir tuttugu ár."
       },
       "hero": {
-        "desc": "Þessi eining veitir öryggi án málamiðlana fyrir kröfuhörðustu (most demanding) verkefni um allan heim. Framleitt samkvæmt ströngustu iðnaðarstöðlum (industry standards) til að endast kynslóðum saman. Sæktu (Download) stafræna tvíburann, þar sem efnisbilun (material failure) kemur ekki til greina.",
-        "btnPrimary": "BIM Bókasafn (Revit/IFC)",
-        "btnGhost": "Biðja um BIM-ráðgjöf"
+        "desc": "546 vörunúmer sem IFC 4 — með tengipunktum, efnisgildum, lagnagögnum og vörulistasíðunni sem hver upplýsing stendur á. Stök eða sem pakki, án skráningar.",
+        "btnPrimary": "Sækja IFC-safnið",
+        "btnGhost": "Óska eftir tækniráðgjöf"
       },
       "intro": {
-        "title1": "DNA lagnakerfa okkar.",
-        "title2": "Núna í skýinu (cloud).",
-        "p1": "Við sjáum BIM ekki sem einfalda 3D teikningu. Fyrir K-Aqua er Building Information Modeling flutningur á okkar málamiðlanalausu framleiðslunákvæmni (manufacturing precision) yfir í stafræna (digital) rýmið. Þegar alþjóðlegir aðalverktakar (general contractors) hanna skýjakljúfa, gagnaver (data centers) eða öryggisrannsóknarstofur, þurfa þeir ekki áætluð (estimated) gildi, þeir þurfa líkamlegan veruleika (physical reality) í formi gagna.",
-        "p2": "Gagnasöfn (Datasets) okkar eru árangur áratuga þýskrar verkfræði (German engineering). Sérhver veggþykkt (wall thickness), hvert flæðisdýnamík (flow dynamics) og hver varmaeiginleiki hefur verið sannprófaður (validated) af verkfræðingum okkar (our engineers) og innbyggður náttúrulega (natively) í fjölskyldurnar (families)."
+        "title1": "Mál lagnakerfa okkar.",
+        "title2": "Sannreynanleg tölu fyrir tölu.",
+        "p1": "BIM-hlutur er jafn mikils virði og gögnin sem hann ber. Þess vegna verður engin skrá til hjá okkur úr teikningu, heldur úr vörulista framleiðandans: sömu heimild og vörusíður þessa vefs sækja tölur sínar í. Víki eitt gildi, víkur það alls staðar eins — og hægt er að leiðrétta það á einum stað.",
+        "p2": "Hver skrá verður til að nýju á því augnabliki sem hún er sótt. Ekkert tilbúið skráasafn liggur og úreldist, og ekkert safn sem dregst aftur úr stöðu vörulistans. Það sem þú sækir samsvarar því sem stendur á vörusíðunni — alltaf."
       },
       "bento": {
         "items": [
           {
-            "title": "Innbyggðar (Native) Revit® fjölskyldur",
-            "desc": "Ekkert umbreytingartap (conversion loss). Forritað beint sem .rfa og .rvt fyrir hámarks afköst (highest performance) og innbyggðar leiðarstillingar (routing preferences)."
+            "title": "IFC 4, opið og í millimetrum",
+            "desc": "Lesanlegt í Revit, ArchiCAD, Allplan og Vectorworks, sannprófanlegt í Navisworks og Solibri. Sama eining og í vörulistanum — ekki þarf að umreikna við samanburð við gagnablaðið."
           },
           {
-            "title": "VDI 3805 Samræmi (Conformity)",
-            "desc": "Staðlað vörugögn fyrir hnökralaus (smooth) gagnaskipti (data exchange) í gegnum (throughout) alla TGA keðjuna."
+            "title": "Tengipunktar með suðugögnum",
+            "desc": "IfcDistributionPort fyrir hverja tengingu, með nafnvídd og tengiaðferð. Við múffusuðu að auki suðudýpt, hitunartími og kælitími úr vinnsluleiðbeiningunum."
           },
           {
-            "title": "IFC4 Prófun (Certification)",
-            "desc": "Hámarks samhæfni (interoperability) í gegnum opna BIM staðla (OpenBIM). Tryggt lesanlegt (Guaranteed readable) í ArchiCAD, Allplan og Vectorworks."
+            "title": "Revit-gerðaskrá",
+            "desc": "Eiginlegar .rfa-fjölskyldur eru lokað tvíundarsnið og ekki hægt að búa til án Revit-leyfis. Við afhendum IFC 4, sem Revit les beint inn, og gerðaskrána með öllum nafnvíddum og málum."
           },
           {
-            "title": "Nákvæm varmafræðileg (thermal) gögn",
-            "desc": "Innbyggð (Integrated) útreikningslíkön fyrir lengdarþenslu, hitaleiðni (thermal conductivity - 0.24 W/mK) og röranúning/þrýstingsfall (pipe friction pressure drop)."
+            "title": "Efnis- og kerfisgildi",
+            "desc": "Eðlismassi 905 kg/m³, varmaleiðni 0,24 W/(m·K), lengdarþensla 1,5·10⁻⁴ K⁻¹ — hjá K-Fiber 0,35·10⁻⁴ K⁻¹. Að auki festingabil og notkunarflokkar samkvæmt DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Sæktu K-Aqua BIM-pakkann (BIM package).",
-        "desc": "Fullur aðgangur (Full access) að öllum innbyggðum (native) Revit-fjölskyldum, IFC-skrám og VDI 3805 gagnasettum. Ókeypis (Free) fyrir skipulagsfræðinga (planners) og verkfræðinga (engineers).",
-        "btnPrimary": "Til Niðurhalsmiðstöðvarinnar (Download Center)",
-        "btnOutline": "Hafa samband við BIM-stjórnanda (BIM Manager)"
+        "title": "Sæktu BIM-pakkann.",
+        "desc": "Eitt safn fyrir hverja vöru: IFC 4 fyrir hverja nafnvídd, vörutafla fyrir magntöku, Revit-gerðaskrá. Án skráningar, ókeypis fyrir hönnuði og verkfræðinga.",
+        "btnPrimary": "Í niðurhalsmiðstöðina",
+        "btnOutline": "Óska eftir tækniráðgjöf"
       }
     },
     "support": {

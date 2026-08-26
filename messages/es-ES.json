@@ -7111,98 +7111,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Daten",
-      "metaDesc": "K Aqua BIM-Daten: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",
+      "title": "Datos BIM",
+      "metaDesc": "Datos BIM de K-Aqua: 546 artículos en IFC 4 con puntos de conexión, características del material y referencia al catálogo. Sin registro, gratuitos para proyectistas e ingenieros.",
       "sticky": {
         "items": [
           {
-            "title": "Maximale Datentiefe (LOI 500)",
-            "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting und jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Druckstufen, thermische Ausdehnungskoeffizienten und exakte Artikelnummern für die automatisierte Ausschreibung."
+            "title": "Cada cifra con su página de catálogo",
+            "desc": "Cada componente indica de dónde proceden sus medidas, hasta la página exacta del catálogo del fabricante 06-2025. Quien contraste un espesor de pared del modelo con la ficha técnica encuentra allí la misma cifra y el respaldo que la documenta. Donde el catálogo se contradice a sí mismo, en el archivo consta el valor impreso y, junto a él, la advertencia."
           },
           {
-            "title": "Kollisionsfreie Planung",
-            "desc": "In Milliardenprojekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- und IFC-Dateien garantieren eine nahtlose Integration in Ihr Navisworks oder Solibri. Die exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen auf der Baustelle."
+            "title": "Puntos de conexión en vez de bloques",
+            "desc": "Cada accesorio lleva sus conexiones como IfcDistributionPort: posición, dirección del eje, diámetro nominal y tipo de unión. En la soldadura por manguito, la profundidad de inserción, el tiempo de calentamiento y el tiempo de enfriamiento constan directamente en la conexión: los valores de la instrucción de soldadura del fabricante, no de una norma general."
           },
           {
-            "title": "Parametrische Intelligenz",
-            "desc": "K Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle und Dimensionierungen an. Das integrierte Auto-Routing wählt automatisch die korrekten Reduzierungen und Bogenwinkel gemäß den strengen Vorgaben der DIN EN ISO 15874."
+            "title": "Un tubo sigue siendo un tubo",
+            "desc": "Un tubo llega como IfcSweptDiskSolid, con radio exterior e interior, y no como malla triangular. En Revit o ArchiCAD sigue siendo, por tanto, un tramo de tubería que se puede tender y recortar. El archivo ocupa nueve kilobytes en lugar de varios cientos."
           },
           {
-            "title": "Lifecycle & Facility Management",
-            "desc": "Der digitale Zwilling endet nicht mit der Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel und liefern dem Facility Management alle notwendigen Wartungsintervalle, Zertifikate und Betriebsdaten für einen sicheren Lebenszyklus von über 50 Jahren."
+            "title": "Datos de montaje del catálogo",
+            "desc": "Distancias entre soportes para cada diámetro nominal y siete temperaturas, clases de aplicación según DIN EN ISO 15874-1 con presión de servicio admisible, dilatación longitudinal. Los tubos K-Fiber llevan su propio coeficiente de 0,35·10⁻⁴ K⁻¹: más de cuatro veces menor que el de un tubo monocapa, y precisamente la razón de ser de la capa de fibra compuesta."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Digitale Zwillinge in Perfektion.",
-        "lead": "Ein Einblick in die Datentiefe, die den Unterschied zwischen Planung und Realität eliminiert."
+        "eyebrow": "Lo que contienen los archivos",
+        "title": "Datos de proyecto que se pueden comprobar.",
+        "lead": "Cuatro propiedades que marcan la diferencia cuando un modelo no solo debe quedar bien, sino sostenerse."
       },
       "timeline": {
         "items": [
           {
-            "year": "Phase 1",
-            "title": "Konzeption & TGA-Planung",
-            "text": "Integration der K Aqua Basis-Geometrien in den frühen Entwurf. Schnelle Massenermittlung und erste Kollisionsprüfung für das Trassenkonzept im TGA-Masterplan."
+            "year": "Fase 1",
+            "title": "Concepto y trazado",
+            "text": "El catálogo completo como tabla o JSON: 546 artículos con diámetro nominal, material y peso. Suficiente para la primera medición y para el trazado, antes de haber cargado un solo modelo."
           },
           {
-            "year": "Phase 2",
-            "title": "Ausführungsplanung",
-            "text": "Umstellung auf LOI 400. Die exakten Spezifikationen, Fließgeschwindigkeiten und Druckverlustberechnungen fließen direkt in die hydraulische Netzberechnung des Gebäudes ein."
+            "year": "Fase 2",
+            "title": "Proyecto de ejecución",
+            "text": "Un IFC 4 por diámetro nominal, en milímetros. Diámetro exterior, espesor de pared y longitudes de montaje del catálogo, además de distancias entre soportes y clases de aplicación para el cálculo de la red."
           },
           {
-            "year": "Phase 3",
-            "title": "Ausschreibung & Vergabe",
-            "text": "Automatisierte Generierung von fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist mit der K Aqua Artikelnummer und VDI 3805 Daten hinterlegt."
+            "year": "Fase 3",
+            "title": "Licitación y adjudicación",
+            "text": "Cada componente lleva su número de artículo como etiqueta IFC y en el conjunto de propiedades. La lista de materiales extraída del modelo se contrasta así con el catálogo sin rodeos."
           },
           {
-            "year": "Phase 4",
-            "title": "Vorfertigung & Montage",
-            "text": "Export von isometrischen Zeichnungen für die industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten auf der Baustelle auf ein absolutes Minimum."
+            "year": "Fase 4",
+            "title": "Prefabricación y montaje",
+            "text": "La profundidad de inserción, el tiempo de calentamiento y el tiempo de enfriamiento constan por diámetro nominal en el punto de conexión. Quien prefabrica lee los parámetros de soldadura del mismo modelo del que toma las longitudes."
           },
           {
-            "year": "Phase 5",
-            "title": "As-Built & Betrieb",
-            "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks."
+            "year": "Fase 5",
+            "title": "Obra construida y explotación",
+            "text": "El número de artículo permanece en el componente. Quien sustituya un accesorio dentro de veinte años encontrará en el modelo qué se montó, junto con la página de catálogo en la que figuraba."
           }
         ],
-        "title": "Der Lebenszyklus der K Aqua BIM-Daten",
-        "desc": "Von der ersten Skizze bis zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt in jeder Phase."
+        "title": "Dónde entran los datos en el proyecto",
+        "desc": "De la primera medición al repuesto veinte años después."
       },
       "hero": {
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Laden Sie den digitalen Zwilling herunter, wo Materialversagen keine Option ist.",
-        "btnPrimary": "BIM Bibliothek (Revit/IFC)",
-        "btnGhost": "BIM Consulting anfragen"
+        "desc": "546 artículos en IFC 4: con puntos de conexión, características del material, datos de montaje y la página de catálogo en la que consta cada dato. Por separado o como paquete, sin registro.",
+        "btnPrimary": "Descargar la biblioteca IFC",
+        "btnGhost": "Solicitar asesoramiento técnico"
       },
       "intro": {
-        "title1": "Die DNA unserer Rohrsysteme.",
-        "title2": "Jetzt in der Cloud.",
-        "p1": "Wir verstehen BIM nicht als bloße 3D-Zeichnung. Für K Aqua ist Building Information Modeling der Transfer unserer kompromisslosen Fertigungspräzision in den digitalen Raum. Wenn internationale Generalunternehmer Wolkenkratzer, Rechenzentren oder Hochsicherheitslabore planen, benötigen sie keine geschätzten Werte: sie benötigen physikalische Realität in Form von Daten.",
-        "p2": "Unsere Datensätze sind das Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik und jede thermische Eigenschaft wurde von unseren Ingenieuren validiert und nativ in die Familien übersetzt."
+        "title1": "Las medidas de nuestros sistemas de tuberías.",
+        "title2": "Comprobables cifra a cifra.",
+        "p1": "Un objeto BIM vale lo que valen los datos que lleva consigo. Por eso, entre nosotros ningún archivo nace de un dibujo, sino del catálogo del fabricante: la misma fuente de la que las páginas de producto de esta web toman sus cifras. Si un valor difiere, difiere igual en todas partes, y se corrige en un único sitio.",
+        "p2": "Cada archivo se genera en el momento de la descarga. No queda ningún conjunto de archivos ya generados que pueda quedarse anticuado, ni una biblioteca que vaya por detrás del estado del catálogo. Lo que usted descarga se corresponde con lo que aparece en la página de producto, siempre."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® Familien",
-            "desc": "Keine Konvertierungsverluste. Direkt als .rfa und .rvt programmiert für höchste Performance und native Routing-Präferenzen."
+            "title": "IFC 4, abierto y en milímetros",
+            "desc": "Se lee en Revit, ArchiCAD, Allplan y Vectorworks, y se comprueba en Navisworks y Solibri. La misma unidad que en el catálogo: sin conversión al compararlo con la ficha técnica."
           },
           {
-            "title": "VDI 3805 Konformität",
-            "desc": "Standardisierte Produktdaten für den reibungslosen Datenaustausch in der gesamten TGA-Kette."
+            "title": "Puntos de conexión con datos de soldadura",
+            "desc": "Un IfcDistributionPort por conexión, con diámetro nominal y tipo de unión. En la soldadura por manguito se añaden la profundidad de inserción, el tiempo de calentamiento y el tiempo de enfriamiento de las instrucciones de procesado."
           },
           {
-            "title": "IFC4 Prüfung",
-            "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar in ArchiCAD, Allplan und Vectorworks."
+            "title": "Catálogo de tipos de Revit",
+            "desc": "Las familias nativas .rfa son un formato binario cerrado y no se pueden generar sin licencia de Revit. Entregamos IFC 4, que Revit lee directamente, y el catálogo de tipos con todos los diámetros nominales y medidas."
           },
           {
-            "title": "Exakte thermische Daten",
-            "desc": "Integrierte Berechnungsmodelle für Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) und Rohrreibungsdruckgefälle."
+            "title": "Características del material y del sistema",
+            "desc": "Densidad 905 kg/m³, conductividad térmica 0,24 W/(m·K), dilatación longitudinal 1,5·10⁻⁴ K⁻¹; en K-Fiber, 0,35·10⁻⁴ K⁻¹. A ello se suman las distancias entre soportes y las clases de aplicación según DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Laden Sie das K Aqua BIM-Paket herunter.",
-        "desc": "Vollständiger Zugriff auf alle nativen Revit-Familien, IFC-Dateien und VDI 3805 Datensätze. Kostenlos für Planer und Ingenieure.",
-        "btnPrimary": "Zum Download-Center",
-        "btnOutline": "BIM-Manager kontaktieren"
+        "title": "Descargue el paquete BIM.",
+        "desc": "Un archivo comprimido por producto: IFC 4 para cada diámetro nominal, tabla de artículos para la medición y catálogo de tipos de Revit. Sin registro, gratuito para proyectistas e ingenieros.",
+        "btnPrimary": "Al centro de descargas",
+        "btnOutline": "Solicitar asesoramiento técnico"
       }
     },
     "common": {

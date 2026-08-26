@@ -43,8 +43,11 @@ const PAGES = [
   { id: 'certification', de: 'Zertifikate', href: '/academy' },
   { id: 'faq', de: 'FAQ & Wissen', href: '/academy' },
   { id: 'glossary', de: 'Glossar', href: '/academy' },
-  { id: 'downloads', de: 'Downloads', href: '/ressourcen/ausschreibungstexte' },
-  { id: 'bim_data', de: 'BIM Daten', href: '/ressourcen/ausschreibungstexte' },
+  // „Downloads" und „BIM Daten" fuehrten beide auf die Ausschreibungsseite,
+  // auf der keine einzige Datei liegt. Jetzt auf /ressourcen/bim, wo es
+  // wirklich welche gibt.
+  { id: 'downloads', de: 'Downloads', href: '/ressourcen/bim' },
+  { id: 'bim_data', de: 'BIM Daten', href: '/ressourcen/bim' },
   { id: 'co2', de: 'CO2-Rechner', href: '/co2-rechner' },
   { id: 'specifications', de: 'Ausschreibungstexte', href: '/ressourcen/ausschreibungstexte' },
   { id: 'support', de: 'Technischer Support', href: '/ressourcen/support' },

@@ -5379,97 +5379,97 @@
     },
     "bim": {
       "title": "Data BIM",
-      "metaDesc": "Data BIM K Aqua: Keselamatan tanpa kompromi melalui Kejuruteraan Jerman untuk projek mega global. Akses pangkalan data BIM kami.",
+      "metaDesc": "Data BIM K-Aqua: 546 item sebagai fail IFC 4 dengan titik sambungan, nilai ciri bahan dan rujukan katalog. Tanpa pendaftaran, percuma untuk perancang dan jurutera.",
       "sticky": {
         "items": [
           {
-            "title": "Kedalaman Data Maksimum (LOI 500)",
-            "desc": "Model BIM kami menawarkan bukan sahaja perwakilan geometri berketepatan tinggi (LOD), tetapi lebih-lebih lagi kedalaman maklumat (LOI) yang tiada tandingan. Setiap paip, kelengkapan dan injap mengandungi semua metadata kritikal: spesifikasi bahan, penilaian tekanan, pekali pengembangan terma dan nombor item tepat untuk tender automatik."
+            "title": "Setiap angka bersama halaman katalognya",
+            "desc": "Pada setiap komponen tercatat dari mana ukurannya berasal — tepat sehingga nombor halaman dalam katalog pengeluar 06-2025. Sesiapa yang membandingkan ketebalan dinding dalam model dengan lembaran data akan menemui angka yang sama berserta rujukannya. Apabila katalog bercanggah dengan dirinya sendiri di satu tempat, nilai bercetak itulah yang masuk ke dalam fail, dengan nota di sebelahnya."
           },
           {
-            "title": "Perancangan Bebas Perlanggaran",
-            "desc": "Dalam projek bernilai berbilion dolar, pengesanan pertembungan (clash detection) tidak boleh dirunding. Fail Revit dan IFC asli kami menjamin penyepaduan yang lancar ke dalam Navisworks atau Solibri anda. Diameter luar yang tepat termasuk toleransi kimpalan menghalang kejutan mahal di tapak pembinaan."
+            "title": "Titik sambungan, bukan bongkah",
+            "desc": "Setiap kelengkapan membawa sambungan paipnya sebagai IfcDistributionPort: kedudukan, arah paksi, diameter nominal dan jenis sambungan. Bagi kimpalan soket, kedalaman masuk, masa pemanasan dan masa penyejukan tercatat terus pada sambungan itu — nilainya daripada arahan kimpalan pengeluar, bukan daripada standard umum."
           },
           {
-            "title": "Kecerdasan Parametrik",
-            "desc": "Keluarga BIM K Aqua bercirikan parametrik sepenuhnya. Ia menyesuaikan diri secara dinamik kepada reka letak laluan paip, kecerunan dan saiz. Haluan automatik terbina dalam akan secara automatik memilih pengecil dan sudut selekoh yang betul mengikut spesifikasi ketat DIN EN ISO 15874."
+            "title": "Paip kekal sebagai paip",
+            "desc": "Paip hadir sebagai IfcSweptDiskSolid dengan jejari luar dan jejari dalam, bukan sebagai jejaring segi tiga. Dalam Revit atau ArchiCAD ia kekal sebagai segmen paip yang boleh dihalakan dan dipotong. Failnya sembilan kilobait, bukan beberapa ratus."
           },
           {
-            "title": "Pengurusan Kitaran Hayat & Fasiliti",
-            "desc": "Kembar digital (digital twin) tidak berakhir dengan penyerahan bangunan. Objek BIM kami mematuhi standard COBie dan menyediakan pengurusan fasiliti dengan semua selang penyelenggaraan, sijil dan data operasi yang diperlukan untuk kitaran hayat yang selamat melebihi 50 tahun."
+            "title": "Data pemasangan daripada katalog",
+            "desc": "Jarak penyangga bagi setiap diameter nominal dan tujuh suhu, kelas penggunaan menurut DIN EN ISO 15874-1 berserta tekanan operasi yang dibenarkan, dan pengembangan panjang. Paip K-Fiber di sini membawa pekalinya sendiri sebanyak 0.35·10⁻⁴ K⁻¹ — lebih empat kali lebih kecil daripada paip satu lapisan, dan itulah sebab lapisan komposit gentiannya."
           }
         ],
-        "eyebrow": "Kecemerlangan Aliran Kerja",
-        "title": "Kembar digital dalam kesempurnaan.",
-        "lead": "Satu pandangan pada kedalaman data yang menghapuskan perbezaan antara perancangan dan realiti."
+        "eyebrow": "Apa yang ada dalam fail",
+        "title": "Data perancangan yang boleh disemak semula.",
+        "lead": "Empat sifat yang membezakan apabila sesebuah model bukan sahaja perlu kelihatan kemas, tetapi perlu benar-benar boleh dipakai."
       },
       "timeline": {
         "items": [
           {
             "year": "Fasa 1",
-            "title": "Konsep & Perancangan MEP",
-            "text": "Penyepaduan geometri asas K Aqua dalam reka bentuk awal. Pengambilan kuantiti pantas dan pemeriksaan pertembungan pertama untuk konsep laluan paip dalam pelan induk MEP."
+            "title": "Konsep dan laluan paip",
+            "text": "Katalog penuh sebagai jadual atau JSON: 546 item dengan diameter nominal, bahan dan berat. Cukup untuk pengiraan kuantiti pertama dan perancangan laluan, sebelum satu model pun dimuatkan."
           },
           {
             "year": "Fasa 2",
-            "title": "Perancangan Pelaksanaan",
-            "text": "Peralihan kepada LOI 400. Spesifikasi tepat, halaju aliran dan pengiraan kehilangan tekanan mengalir terus ke dalam pengiraan rangkaian hidraulik bangunan."
+            "title": "Perancangan pelaksanaan",
+            "text": "IFC 4 bagi setiap diameter nominal, dalam milimeter. Diameter luar, ketebalan dinding dan panjang pemasangan daripada katalog, berserta jarak penyangga dan kelas penggunaan untuk pengiraan rangkaian."
           },
           {
             "year": "Fasa 3",
-            "title": "Tender & Penganugerahan",
-            "text": "Penjanaan automatik Senarai Bahan (BOM) bebas ralat terus daripada model. Setiap kelengkapan disokong oleh nombor item K Aqua dan data VDI 3805."
+            "title": "Tender dan penganugerahan",
+            "text": "Setiap komponen membawa nombor itemnya sebagai teg IFC dan dalam set cirinya. Senarai bahan daripada model dengan itu boleh terus dibandingkan dengan katalog."
           },
           {
             "year": "Fasa 4",
-            "title": "Pra-fabrikasi & Pemasangan",
-            "text": "Eksport lukisan isometrik untuk prafabrikasi perindustrian. Lukisan gelendong ketepatan milimeter meminimumkan kerja kimpalan di tapak ke tahap minimum mutlak."
+            "title": "Prafabrikasi dan pemasangan",
+            "text": "Kedalaman masuk, masa pemanasan dan masa penyejukan tercatat bagi setiap diameter nominal pada titik sambungan. Pihak prafabrikasi membaca parameter kimpalan daripada model yang sama tempat dia mengambil ukuran panjang."
           },
           {
             "year": "Fasa 5",
-            "title": "Laporan Bina Siap (As-Built) & Pengendalian",
-            "text": "Penyerahan model bina siap (as-built). Kembar digital ini berfungsi sebagai Satu Sumber Kebenaran untuk pengurusan fasiliti sepanjang hayat perkhidmatan keseluruhan struktur."
+            "title": "Bina siap dan operasi",
+            "text": "Nombor item kekal pada komponen. Sesiapa yang menggantikan sesuatu kelengkapan dua puluh tahun kemudian dapat melihat dalam model apa yang telah dipasang — berserta halaman katalog tempat ia tercatat."
           }
         ],
-        "title": "Kitaran Hayat Data BIM K Aqua",
-        "desc": "Dari lakaran awal hingga berdekad operasi. Data kami mengiringi projek anda di setiap fasa."
+        "title": "Di mana data itu berguna dalam projek",
+        "desc": "Daripada pengiraan kuantiti pertama sehingga alat ganti dua puluh tahun kemudian."
       },
       "hero": {
-        "desc": "Modul ini memberikan keselamatan tanpa kompromi untuk projek yang paling mencabar di seluruh dunia. Dikilangkan mengikut piawaian industri yang paling ketat untuk bertahan turun-temurun. Muat turun kembar digital di mana kegagalan bahan bukan satu pilihan.",
-        "btnPrimary": "Perpustakaan BIM (Revit/IFC)",
-        "btnGhost": "Minta Perundingan BIM"
+        "desc": "546 item sebagai IFC 4 — dengan titik sambungan, nilai ciri bahan, data pemasangan dan halaman katalog tempat setiap angka tercatat. Secara berasingan atau sebagai pakej, tanpa pendaftaran.",
+        "btnPrimary": "Muat turun pustaka IFC",
+        "btnGhost": "Minta perundingan teknikal"
       },
       "intro": {
-        "title1": "DNA sistem perpaipan kami.",
-        "title2": "Kini di Awan.",
-        "p1": "Bagi kami, BIM bukan sekadar lukisan 3D. Bagi K Aqua, Pemodelan Maklumat Bangunan ialah pemindahan ketepatan pembuatan kami yang tiada kompromi ke dalam ruang digital. Apabila kontraktor am antarabangsa merancang bangunan pencakar langit, pusat data atau makmal keselamatan tinggi, mereka tidak memerlukan nilai anggaran, mereka memerlukan realiti fizikal dalam bentuk data.",
-        "p2": "Set data kami adalah hasil daripada kejuruteraan Jerman selama berdekad-dekad. Setiap ketebalan dinding, setiap dinamik bendalir dan setiap harta terma telah disahkan oleh jurutera kami dan diterjemahkan secara asli ke dalam keluarga produk."
+        "title1": "Ukuran sistem perpaipan kami.",
+        "title2": "Boleh disemak angka demi angka.",
+        "p1": "Sesuatu objek BIM bernilai sebanyak data yang dibawanya. Sebab itu fail kami tidak terhasil daripada lukisan, tetapi daripada katalog pengeluar: sumber yang sama yang digunakan oleh halaman produk laman web ini untuk angka-angkanya. Jika sesuatu nilai menyimpang, ia menyimpang serupa di mana-mana — dan boleh dibetulkan di satu tempat sahaja.",
+        "p2": "Setiap fail dijana semula pada saat ia dipanggil. Tiada timbunan fail terjana yang boleh menjadi lapuk, dan tiada pustaka yang tertinggal di belakang versi katalog. Apa yang anda muat turun sentiasa selaras dengan apa yang tertera pada halaman produk."
       },
       "bento": {
         "items": [
           {
-            "title": "Keluarga Revit® Asli",
-            "desc": "Tiada kehilangan penukaran. Diprogramkan terus sebagai .rfa dan .rvt untuk prestasi tertinggi dan keutamaan haluan asli."
+            "title": "IFC 4, terbuka dan dalam milimeter",
+            "desc": "Boleh dibaca dalam Revit, ArchiCAD, Allplan dan Vectorworks, boleh disemak dalam Navisworks dan Solibri. Unit yang sama seperti dalam katalog — tiada penukaran unit semasa membandingkan dengan lembaran data."
           },
           {
-            "title": "Pematuhan VDI 3805",
-            "desc": "Data produk piawai untuk pertukaran data yang lancar ke seluruh rantaian MEP."
+            "title": "Titik sambungan dengan data kimpalan",
+            "desc": "Satu IfcDistributionPort bagi setiap sambungan, dengan diameter nominal dan jenis sambungan. Bagi kimpalan soket ditambah kedalaman masuk, masa pemanasan dan masa penyejukan daripada panduan pemprosesan."
           },
           {
-            "title": "Pemeriksaan IFC4",
-            "desc": "Kebolehoperasian maksimum melalui standard BIM terbuka (OpenBIM). Dijamin boleh dibaca dalam ArchiCAD, Allplan dan Vectorworks."
+            "title": "Katalog jenis Revit",
+            "desc": "Famili .rfa asli ialah format binari tertutup dan tidak boleh dihasilkan tanpa lesen Revit. Kami menyediakan IFC 4 yang dibaca terus oleh Revit, berserta katalog jenis dengan semua diameter nominal dan ukurannya."
           },
           {
-            "title": "Data Terma Tepat",
-            "desc": "Model pengiraan bersepadu untuk pengembangan linear, kekonduksian terma (0.24 W/mK) dan penurunan tekanan geseran paip."
+            "title": "Nilai ciri bahan dan sistem",
+            "desc": "Ketumpatan 905 kg/m³, kekonduksian terma 0.24 W/(m·K), pengembangan panjang 1.5·10⁻⁴ K⁻¹ — bagi K-Fiber 0.35·10⁻⁴ K⁻¹. Berserta jarak penyangga dan kelas penggunaan menurut DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Muat turun Pakej BIM K Aqua.",
-        "desc": "Akses penuh kepada semua keluarga Revit asli, fail IFC dan set data VDI 3805. Percuma untuk perancang dan jurutera.",
-        "btnPrimary": "Pusat Muat Turun",
-        "btnOutline": "Hubungi Pengurus BIM"
+        "title": "Muat turun pakej BIM.",
+        "desc": "Satu arkib bagi setiap produk: IFC 4 untuk setiap diameter nominal, jadual item untuk pengiraan kuantiti, katalog jenis Revit. Tanpa pendaftaran, percuma untuk perancang dan jurutera.",
+        "btnPrimary": "Ke Pusat Muat Turun",
+        "btnOutline": "Minta perundingan teknikal"
       }
     },
     "common": {

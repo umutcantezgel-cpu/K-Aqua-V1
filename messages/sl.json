@@ -7185,97 +7185,97 @@
     },
     "bim": {
       "title": "Podatki BIM",
-      "metaDesc": "Podatki BIM K Aqua: Brezkompromisna varnost zaradi nemškega inženiringa za globalne velike projekte. Dostopajte do naše baze podatkov BIM.",
+      "metaDesc": "Podatki BIM K-Aqua: 546 artiklov v formatu IFC 4 s priključnimi točkami, snovnimi lastnostmi in sklicem na katalog. Brez registracije, brezplačno za načrtovalce in inženirje.",
       "sticky": {
         "items": [
           {
-            "title": "Maksimalna globina podatkov (LOI 500)",
-            "desc": "Naši modeli BIM ne ponujajo le visoko natančne geometrijske predstavitve (LOD), temveč predvsem neprimerljivo globino informacij (LOI). Vsaka cev, vsak fiting in vsak ventil vsebuje vse kritične metapodatke: specifikacije materialov, stopnje tlaka, koeficiente toplotnega raztezanja in natančne številke artiklov za avtomatizirano razpisovanje."
+            "title": "Vsaka številka s svojo katalogno stranjo",
+            "desc": "Pri vsakem elementu je zapisano, od kod izvirajo njegove mere — natančno do strani v proizvajalčevem katalogu 06-2025. Kdor primerja debelino stene iz modela s podatkovnim listom, najde isto številko in dokazilo zanjo. Kjer si katalog na enem mestu sam nasprotuje, je v datoteki natisnjena vrednost, ob njej pa ustrezna opomba."
           },
           {
-            "title": "Načrtovanje brez trkov",
-            "desc": "Pri projektih, vrednih več milijard, odkrivanje trkov ni stvar pogajanj. Naše izvorne datoteke Revit in IFC zagotavljajo brezhibno integracijo v vaš Navisworks ali Solibri. Natančni zunanji premeri, vključno z tolerancami zvarov, preprečujejo draga presenečenja na gradbišču."
+            "title": "Priključne točke namesto brezoblične gmote",
+            "desc": "Vsak fiting nosi svoje cevne priključke kot IfcDistributionPort: lego, smer osi, nazivni premer in vrsto spoja. Pri polifuzijskem varjenju so globina vara, čas segrevanja in čas ohlajanja navedeni neposredno ob priključku — vrednosti iz proizvajalčevega navodila za varjenje, ne iz splošnega standarda."
           },
           {
-            "title": "Parametrična inteligenca",
-            "desc": "Družine K Aqua BIM so popolnoma parametrične. Dinamično se prilagajajo polaganju cevi, naklonom in dimenzioniranju. Integrirano samodejno usmerjanje (Auto-Routing) samodejno izbere pravilne redukcije in kote lokov v skladu s strogimi zahtevami standarda DIN EN ISO 15874."
+            "title": "Cev ostane cev",
+            "desc": "Cev pride kot IfcSweptDiskSolid z zunanjim in notranjim polmerom, ne kot trikotniška mreža. V programu Revit ali ArchiCAD tako ostane cevni odsek, ki ga je mogoče polagati in krajšati. Datoteka meri devet kilobajtov namesto nekaj sto."
           },
           {
-            "title": "Upravljanje življenjskega cikla in objektov",
-            "desc": "Digitalni dvojček se ne konča s predajo objekta. Naši predmeti BIM so združljivi s COBie in omogočajo upravljanju objektov (Facility Management) vse potrebne vzdrževalne intervale, certifikate in podatke o obratovanju za varen življenjski cikel več kot 50 let."
+            "title": "Podatki za polaganje iz kataloga",
+            "desc": "Razmiki med podporami za vsak nazivni premer in sedem temperatur, razredi uporabe po DIN EN ISO 15874-1 z dopustnim obratovalnim tlakom, linearni raztezek. Cevi K-Fiber imajo pri tem svoj lastni koeficient 0,35·10⁻⁴ K⁻¹ — dobre štirikrat manjši kot pri enoslojni cevi, in prav to je razlog za vlakneno kompozitno plast."
           }
         ],
-        "eyebrow": "Odličnost delovnega toka (Workflow Excellence)",
-        "title": "Digitalni dvojčki v popolnosti.",
-        "lead": "Vpogled v globino podatkov, ki odpravlja razliko med načrtovanjem in resničnostjo."
+        "eyebrow": "Kaj je v datotekah",
+        "title": "Načrtovalski podatki, ki jih je mogoče preveriti.",
+        "lead": "Štiri lastnosti, ki odločajo, kadar model ne sme le lepo izgledati, ampak mora tudi zdržati."
       },
       "timeline": {
         "items": [
           {
             "year": "Faza 1",
-            "title": "Zasnova in načrtovanje TGA",
-            "text": "Vključitev osnovnih geometrij K Aqua v začetni osnutek. Hiter izračun količin in prvo preverjanje trkov za zasnovo trase v osnutku TGA."
+            "title": "Zasnova in vodenje tras",
+            "text": "Celoten katalog kot preglednica ali JSON: 546 artiklov z nazivnim premerom, materialom in maso. Dovolj za prvi izračun količin in za načrtovanje tras, še preden je naložen en sam model."
           },
           {
             "year": "Faza 2",
-            "title": "Izvedbeno načrtovanje",
-            "text": "Prehod na LOI 400. Natančne specifikacije, hitrosti pretoka in izračuni padca tlaka so vključeni neposredno v izračun hidravličnega omrežja stavbe."
+            "title": "Izvedbeni načrt",
+            "text": "IFC 4 za vsak nazivni premer, v milimetrih. Zunanji premer, debelina stene in vgradne dolžine iz kataloga, poleg tega razmiki med podporami in razredi uporabe za izračun omrežja."
           },
           {
             "year": "Faza 3",
             "title": "Razpis in oddaja naročila",
-            "text": "Avtomatizirano generiranje kosovnic (BOM) brez napak neposredno iz modela. Vsak fiting je opremljen s številko izdelka K Aqua in podatki VDI 3805."
+            "text": "Vsak element nosi svojo številko artikla kot oznako IFC in v naboru lastnosti. Kosovnico iz modela je tako mogoče brez ovinkov primerjati s katalogom."
           },
           {
             "year": "Faza 4",
             "title": "Predizdelava in montaža",
-            "text": "Izvoz izometričnih risb za industrijsko predizdelavo. Milimetrsko natančne risbe (Spool-Drawings) zmanjšajo varilna dela na gradbišču na absolutni minimum."
+            "text": "Globina vara, čas segrevanja in čas ohlajanja so za vsak nazivni premer navedeni ob priključni točki. Predizdelovalec bere parametre varjenja iz istega modela, iz katerega jemlje dolžine."
           },
           {
             "year": "Faza 5",
-            "title": "Zgrajeno stanje (As-Built) in obratovanje",
-            "text": "Predaja modela »kot zgrajeno«. Digitalni dvojček služi kot edini vir resnice (Single Source of Truth) za upravljanje objektov (Facility Management) skozi celotno življenjsko dobo stavbe."
+            "title": "Zgrajeno stanje in obratovanje",
+            "text": "Številka artikla ostane pri elementu. Kdor po dvajsetih letih zamenja fiting, v modelu najde, kaj je bilo vgrajeno — skupaj s katalogno stranjo, na kateri je to pisalo."
           }
         ],
-        "title": "Življenjski cikel podatkov BIM K Aqua",
-        "desc": "Od prve skice do desetletij delovanja. Naši podatki spremljajo vaš projekt v vsaki fazi."
+        "title": "Kje podatki v projektu zaležejo",
+        "desc": "Od prvega izračuna količin do nadomestnega dela po dvajsetih letih."
       },
       "hero": {
-        "desc": "Ta modul zagotavlja brezkompromisno varnost za najzahtevnejše projekte po vsem svetu. Izdelano v skladu z najstrožjimi industrijskimi standardi, da zdrži za generacije. Prenesite digitalnega dvojčka, ko odpoved materiala ni sprejemljiva.",
-        "btnPrimary": "Knjižnica BIM (Revit/IFC)",
-        "btnGhost": "Zahtevajte svetovanje o BIM"
+        "desc": "546 artiklov v formatu IFC 4 — s priključnimi točkami, snovnimi lastnostmi, podatki za polaganje in katalogno stranjo, na kateri stoji vsak podatek. Posamično ali kot paket, brez registracije.",
+        "btnPrimary": "Prenesite knjižnico IFC",
+        "btnGhost": "Zahtevajte tehnično svetovanje"
       },
       "intro": {
-        "title1": "DNK naših cevnih sistemov.",
-        "title2": "Sedaj v oblaku.",
-        "p1": "BIM za nas ni zgolj 3D risba. Za K Aqua je informacijsko modeliranje zgradb (BIM) prenos naše brezkompromisne proizvodne natančnosti v digitalni prostor. Ko mednarodni glavni izvajalci načrtujejo nebotičnike, podatkovne centre ali laboratorije z visoko stopnjo varnosti, ne potrebujejo ocenjenih vrednosti, temveč fizično realnost v obliki podatkov.",
-        "p2": "Naši zapisi podatkov so rezultat desetletij nemškega inženirstva. Vsako debelino stene, dinamiko pretoka in vsako termično lastnost so preverili naši inženirji in nativno prevedli v družine."
+        "title1": "Mere naših cevnih sistemov.",
+        "title2": "Preverljive številko za številko.",
+        "p1": "Objekt BIM je vreden toliko, kolikor so vredni podatki, ki jih nosi. Zato pri nas nobena datoteka ne nastane iz risbe, temveč iz proizvajalčevega kataloga: iz istega vira, iz katerega jemljejo svoje številke tudi strani izdelkov te spletne strani. Če kakšna vrednost odstopa, odstopa povsod enako — in jo je mogoče popraviti na enem mestu.",
+        "p2": "Vsaka datoteka nastane na novo v trenutku prenosa. Ni nobene ustvarjene zaloge datotek, ki bi lahko zastarala, in nobene knjižnice, ki bi zaostajala za stanjem kataloga. Kar prenesete, ustreza temu, kar piše na strani izdelka — vedno."
       },
       "bento": {
         "items": [
           {
-            "title": "Nativne družine Revit®",
-            "desc": "Brez izgub pri pretvorbi. Programirano neposredno kot .rfa in .rvt za najvišjo zmogljivost in nastavitve nativnega usmerjanja."
+            "title": "IFC 4, odprt in v milimetrih",
+            "desc": "Berljiv v programih Revit, ArchiCAD, Allplan in Vectorworks, preverljiv v Navisworks in Solibri. Ista enota kot v katalogu — brez preračunavanja pri primerjavi s podatkovnim listom."
           },
           {
-            "title": "Skladnost z VDI 3805",
-            "desc": "Standardizirani podatki o izdelkih za nemoteno izmenjavo podatkov v celotni verigi TGA."
+            "title": "Priključne točke s podatki o varjenju",
+            "desc": "IfcDistributionPort za vsak priključek, z nazivnim premerom in vrsto spoja. Pri polifuzijskem varjenju poleg tega globina vara, čas segrevanja in čas ohlajanja iz navodila za obdelavo."
           },
           {
-            "title": "Pregled IFC4",
-            "desc": "Maksimalna interoperabilnost z odprtimi standardi BIM (OpenBIM). Zagotovljena berljivost v ArchiCAD, Allplan in Vectorworks."
+            "title": "Katalog tipov za Revit",
+            "desc": "Nativne družine .rfa so zaprt binarni format in jih brez licence Revit ni mogoče ustvariti. Dobavljamo IFC 4, ki ga Revit prebere neposredno, in katalog tipov z vsemi nazivnimi premeri in merami."
           },
           {
-            "title": "Natančni toplotni podatki",
-            "desc": "Integrirani izračunski modeli za linearni raztezek, toplotno prevodnost (0,24 W/mK) in padce tlaka zaradi trenja v cevi."
+            "title": "Snovne in sistemske lastnosti",
+            "desc": "Gostota 905 kg/m³, toplotna prevodnost 0,24 W/(m·K), linearni raztezek 1,5·10⁻⁴ K⁻¹ — pri K-Fiber 0,35·10⁻⁴ K⁻¹. Poleg tega razmiki med podporami in razredi uporabe po DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Prenesite paket BIM K Aqua.",
-        "desc": "Popoln dostop do vseh nativnih družin Revit, datotek IFC in nizov podatkov VDI 3805. Brezplačno za načrtovalce in inženirje.",
+        "title": "Prenesite paket BIM.",
+        "desc": "Za vsak izdelek en arhiv: IFC 4 za vsak nazivni premer, preglednica artiklov za izračun količin, katalog tipov za Revit. Brez registracije, brezplačno za načrtovalce in inženirje.",
         "btnPrimary": "V center za prenose",
-        "btnOutline": "Kontaktirajte vodjo BIM"
+        "btnOutline": "Zahtevajte tehnično svetovanje"
       }
     },
     "common": {

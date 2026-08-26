@@ -116,9 +116,9 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
             <Reveal key="1">
               <div className="bg-card border border-card-border rounded-2xl p-6 h-full flex flex-col justify-between">
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-foreground">1. Download und Import der Familien</h3>
+                  <h3 className="text-xl font-bold mb-2 text-foreground">1. Download und Import der Bauteile</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    K Aqua stellt Planern hochqualitative Revit Familien (.rfa) zur Verfügung. Diese beinhalten Rohre, Formteile (Muffen, Winkel, Tstücke) und Armaturen mit allen relevanten Abmessungen und Gewichten.
+                    K Aqua stellt Planern IFC-4-Dateien zur Verfügung — Rohre, Formteile (Muffen, Winkel, T-Stücke) und Armaturen mit allen Abmessungen, Gewichten und Anschlusspunkten. Revit liest sie direkt ein; für die Baureihen liegt zusätzlich ein Typenkatalog bei.
                   </p>
                 </div>
               </div>
@@ -156,16 +156,20 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
         <DeepFAQ
           items={[
             {
-              q: "Welcher Level of Detail (LOD) wird von K Aqua bereitgestellt?",
-              a: "Unsere digitalen Zwillinge weisen in der Regel einen Detaillierungsgrad von LOD 300 bis LOD 400 auf. Das bedeutet, dass sie sich sowohl für die exakte Ausführungsplanung als auch für die Vorfertigung (Prefabrication) eignen."
+              q: "Wie detailliert sind die Bauteildaten?",
+              a: "Geometrisch: Außen- und Innendurchmesser, Wandstärke und Baulängen exakt aus dem Herstellerkatalog, dazu die Anschlusspunkte mit Lage und Achsrichtung. Sachlich: Werkstoff, SDR, Druckstufe, Normen, Gewicht, Anwendungsklasse und Halterungsabstand — und zu jeder Angabe die Katalogseite, auf der sie steht. Für die Vorfertigung stehen an jedem Muffenanschluss zusätzlich Einschweißtiefe, Anwärmzeit und Abkühlzeit."
             },
             {
               q: "Unterstützt K Aqua auch OpenBIM (IFC)?",
-              a: "Während native Autodesk Revit Familien (.rfa) den höchsten Funktionsumfang bieten, können Modelle selbstverständlich im standardisierten IFCformat exportiert werden, um mit anderen Softwarelösungen (z.B. ArchiCAD, Navisworks) zu interagieren."
+              a: "OpenBIM ist der Weg, den K Aqua geht: Sämtliche Bauteildaten werden im standardisierten IFC-4-Format ausgeliefert, in Millimetern, mit Anschlusspunkten und vollständigen Merkmalen. Revit, ArchiCAD, Allplan und Vectorworks lesen sie unmittelbar ein, Navisworks und Solibri prüfen sie."
+            },
+            {
+              q: "Gibt es native Revit-Familien (.rfa)?",
+              a: "Nein. Das .rfa-Format ist ein geschlossenes Binärformat und lässt sich ohne Revit-Lizenz nicht erzeugen. K Aqua liefert stattdessen IFC 4, das Revit direkt importiert, sowie Typenkataloge im Textformat, die einer Revit-Familie sämtliche Nennweiten mit ihren Maßen zur Auswahl stellen."
             },
             {
               q: "Sind die BIM Daten kostenpflichtig?",
-              a: "Nein, K Aqua stellt sämtliche BIM Bibliotheken, Revit Familien (.rfa) und technischen Planungsdaten allen registrierten TGA Planern, Ingenieuren und Architekten vollständig kostenfrei zur Verfügung."
+              a: "Nein. Sämtliche BIM-Daten stehen ohne Registrierung und kostenfrei zum Download bereit — einzeln je Artikel oder als Paket je Produkt."
             }
           ]}
         />
@@ -230,14 +234,14 @@ export const bimRohrnetzPlanungPpr: NewsPost = {
         <CTABand>
           <h3 className="text-2xl md:text-3xl font-bold text-inverse-foreground">Digitalisieren Sie Ihre Rohrnetzplanung</h3>
           <p className="text-inverse-foreground/80 leading-relaxed">
-            Beschleunigen Sie Ihren Konstruktionsprozess. Fordern Sie jetzt Zugang zu unseren Revit Familien und BIM Datenpaketen an.
+            546 Artikel als IFC 4, dazu Artikeltabellen und Revit-Typenkataloge. Ohne Registrierung, sofort herunterladbar.
           </p>
           <NavLink
-            href="/kontakt"
+            href="/ressourcen/bim"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors mt-2"
           >
             <MonitorSmartphone className="w-5 h-5" />
-            <span>BIM Daten anfragen</span>
+            <span>Zu den BIM-Daten</span>
           </NavLink>
         </CTABand>
       </Reveal>

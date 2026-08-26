@@ -841,26 +841,30 @@ export const SEARCH_INDEX: SearchEntry[] = [
     specs: ['Vergleich mit 4 Metallwerkstoffen', 'EPD-konforme Datenbasis', 'Direkter PDF-Report'],
   },
   {
+    // Dieser Eintrag versprach bis heute Revit-RFA-Familien mit
+    // MEP-Konnektoren, eine DWG-Bibliothek und GAEB-XML — nichts davon gab
+    // es. Jetzt nennt er, was /ressourcen/bim tatsaechlich ausliefert, und
+    // fuehrt auch dorthin statt auf eine Marketingseite ohne Datei.
     id: 'tool_bim_cad_gaeb',
     category: 'tools',
     title: {
-      de: 'BIM-Daten, Revit-Familien (RFA), IFC & GAEB Ausschreibungstexte',
-      en: 'BIM Data, Revit Families (RFA), IFC & GAEB Specifications',
-      ar: 'بيانات BIM وعائلات Revit (RFA) و IFC ونصوص مواصفات GAEB',
+      de: 'BIM-Daten: IFC 4, Artikeltabellen & Revit-Typenkataloge',
+      en: 'BIM Data: IFC 4, Article Tables & Revit Type Catalogues',
+      ar: 'بيانات BIM: ‏IFC 4 وجداول الأصناف وكتالوجات أنواع Revit',
     },
     description: {
-      de: 'Autodesk Revit RFA Familien mit MEP-Konnektoren, IFC 3D-Geometrien, DWG CAD-Bibliothek und standardisierte GAEB XML Ausschreibungstexte.',
-      en: 'Autodesk Revit RFA families with MEP connectors, IFC 3D geometries, DWG CAD library, and standardized GAEB XML specification texts.',
-      ar: 'عائلات Autodesk Revit RFA مع موصلات MEP ونماذج IFC 3D ونصوص مواصفات GAEB XML القياسية.',
+      de: '546 Artikel als IFC 4 mit Anschlusspunkten, Werkstoffkennwerten und Verlegedaten. Dazu Artikeltabellen für die Massenermittlung und Revit-Typenkataloge. Ohne Registrierung.',
+      en: '546 articles as IFC 4 with ports, material properties and installation data. Plus article tables for quantity take-off and Revit type catalogues. No registration required.',
+      ar: '546 صنفًا بصيغة IFC 4 مع نقاط التوصيل وخصائص المواد وبيانات التركيب، إضافة إلى جداول الأصناف وكتالوجات أنواع Revit. بدون تسجيل.',
     },
     origin: {
       section: { de: 'Ressourcen & Planung', en: 'Resources & Planning', ar: 'الموارد والتخطيط' },
-      path: { de: 'K-Aqua > Ressourcen > Ausschreibungstexte & BIM', en: 'K-Aqua > Resources > Specifications & BIM', ar: 'K-Aqua > الموارد > نصوص المواصفات و BIM' },
+      path: { de: 'K-Aqua > Ressourcen > BIM-Daten', en: 'K-Aqua > Resources > BIM Data', ar: 'K-Aqua > الموارد > بيانات BIM' },
     },
-    keywords: ['bim', 'revit', 'rfa', 'ifc', 'cad', 'gaeb', 'ausschreibung', 'ausschreibungstext', 'leistungsverzeichnis', '3d', 'tga', 'digital twin'],
-    href: '/ressourcen/ausschreibungstexte',
-    badge: { de: 'BIM & GAEB', en: 'BIM & Specs', ar: 'BIM والمواصفات' },
-    specs: ['Revit 2021–2026', 'IFC 4', 'GAEB 90 / 2000 / XML', '3D STEP / DWG'],
+    keywords: ['bim', 'revit', 'ifc', 'ifc4', 'cad', 'typenkatalog', 'type catalogue', 'csv', 'massenermittlung', 'ausschreibung', '3d', 'tga', 'planungsdaten'],
+    href: '/ressourcen/bim',
+    badge: { de: 'BIM & IFC', en: 'BIM & IFC', ar: 'BIM و IFC' },
+    specs: ['IFC 4', '546 Artikel', 'CSV / JSON', 'Revit-Typenkatalog'],
   },
   {
     id: 'tool_support_friction_tables',

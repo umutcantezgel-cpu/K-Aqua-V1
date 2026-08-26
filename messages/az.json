@@ -6805,143 +6805,143 @@
     },
     "bim": {
       "hero": {
-        "eyebrow": "Rəqəmsal (Digital) Əkizlər",
-        "title1": "BIM Modelləri.",
-        "title2": "Toqquşmasız (Clash-free) Planlaşdırma.",
-        "desc": "K Aqua boru sistemlərini birbaşa Revit və ya AutoCAD layihələrinizə inteqrasiya edin. Məlumatla zənginləşdirilmiş (geniş) 3D ailələrimiz (komponentlərimiz) kəsişmədən (toqquşmasız) dizayna, dəqiq kütlə (həcm) hesablamalarına və qüsursuz tikinti icrasına (həyata keçirilməsinə) zəmanət verir.",
-        "cta1": "BIM Modellərini Yükləyin (Endirin)",
-        "cta2": "Ailələri (Families) Gözdən Keçirin (Keçir)",
-        "btnPrimary": "BIM Kitabxanası (Revit/IFC)",
-        "btnGhost": "BIM Məsləhətini (Consulting) Tələb Edin"
+        "eyebrow": "Layihəçilər üçün BIM məlumatları",
+        "title1": "BIM məlumatları.",
+        "title2": "Birbaşa kataloqdan.",
+        "desc": "546 artikul IFC 4 formatında — birləşmə nöqtələri, material göstəriciləri, montaj məlumatları və hər göstəricinin yazıldığı kataloq səhifəsi ilə. Ayrıca və ya paket şəklində, qeydiyyatsız.",
+        "cta1": "IFC kitabxanasını yüklə",
+        "cta2": "Texniki məsləhət istəyin",
+        "btnPrimary": "IFC kitabxanasını yüklə",
+        "btnGhost": "Texniki məsləhət istəyin"
       },
       "manifesto": {
-        "title1": "CAD bitir (başa çatır).",
-        "title2": "BIM başlayır.",
-        "p1": "Gələcəyin arxitekturası 2D xətlərdə deyil, obyekt yönümlü verilənlər bazalarında layihələndirilir. Hər kəsişmənin (toqquşmanın) minlərlə avroya başa gəldiyi (zərər vurduğu) meqalayihələrdə və ya hər santimetrin (dəqiqliyin) vacib olduğu mürəkkəb bina xidmətləri layihələrində məlumatın dəqiqliyi fərq yaradır.",
-        "p2": "Buna görə də, biz BIM komponentlərimizi kütlələrdən (nəhəng kitabxanalardan) alınan sadəcə qrafik (həndəsi) məlumatlar (obyektlər) kimi deyil, ağıllı, parametrik qovşaqlar (düyünlər) kimi başa düşürük (təqdim edirik). Onlar real vaxt rejimində (real-time) material (boru) xüsusiyyətlərini, təzyiq itkisi əmsallarını (göstəricilərini) və məkan tələblərini simulyasiya edir. K Aqua ilə sizin rəqəmsal modeliniz reallıq qədər dəqiqdir."
+        "title1": "Mənbə kataloqdur.",
+        "title2": "Model onun əksidir.",
+        "p1": "Hər ölçü istehsalçı kataloqu 06-2025-dən götürülüb və faylda öz səhifə istinadı ilə birlikdə durur. Modeldəki divar qalınlığını məlumat vərəqi ilə tutuşduran mühəndis eyni rəqəmi və onun sənədli əsasını tapır.",
+        "p2": "Fayllar yükləmə anında kataloq məlumatlarından yaradılır. Köhnəlmiş fayl ehtiyatı yoxdur və kataloqun vəziyyətindən geri qalan kitabxana da yoxdur."
       },
       "bento": {
-        "eyebrow": "Məlumat Zənginliyi",
-        "title": "Ağıllı Komponentlər (Parametrik modellər).",
-        "lead": "Sistem (Boru kəməri) dizaynınızı rəqəmsal əkizlə (digital twin) optimallaşdırmaq üçün hər (bütün) detal modellərimizə inteqrasiya edilmişdir.",
+        "eyebrow": "Fayllarda nə var",
+        "title": "Paketin tərkibi.",
+        "lead": "Hər məhsul üçün bir arxiv: hər nominal ölçü üçün IFC 4, kütlə hesabatı üçün artikul cədvəli və Revit tip kataloqu.",
         "items": [
           {
-            "title": "Native (Orijinal) Revit® Ailələri (Families)",
-            "desc": "Konversiya itkiləri yoxdur (sıfır itki). Ən yüksək performans və yerli (orijinal) marşrutlaşdırma seçimləri üçün birbaşa olaraq .rfa və .rvt kimi proqramlaşdırılıb."
+            "title": "IFC 4, açıq və millimetrlə",
+            "desc": "Revit, ArchiCAD, Allplan və Vectorworks proqramlarında oxunur, Navisworks və Solibri proqramlarında yoxlanır. Kataloqdakı ilə eyni vahid — məlumat vərəqi ilə tutuşdurarkən çevirmə lazım deyil."
           },
           {
-            "title": "VDI 3805 Uyğunluğu",
-            "desc": "Bütün TGA zənciri boyu hamar (problemsiz) məlumat (data) mübadiləsi üçün standartlaşdırılmış məhsul məlumatları."
+            "title": "Qaynaq məlumatları ilə birləşmə nöqtələri",
+            "desc": "Hər birləşmə üçün bir IfcDistributionPort, nominal ölçü və birləşmə növü göstərilməklə. Muftalı qaynaqda əlavə olaraq emal təlimatından qaynaq dərinliyi, qızdırma müddəti və soyuma müddəti."
           },
           {
-            "title": "IFC4 Yoxlanışı (Təsdiqi)",
-            "desc": "Açıq BIM standartları (OpenBIM) vasitəsilə maksimum (tam) qarşılıqlı (interoperativ) fəaliyyət. ArchiCAD, Allplan və Vectorworks-də oxuna biləcəyinə (açılacağına) zəmanət (qəti) verilir."
+            "title": "Revit tip kataloqu",
+            "desc": "Doğma .rfa ailələri qapalı ikili formatdır və Revit lisenziyası olmadan yaradıla bilmir. Biz Revit-in birbaşa oxuduğu IFC 4 formatını və bütün nominal ölçüləri ilə ölçüləri əhatə edən tip kataloqunu təqdim edirik."
           },
           {
-            "title": "Dəqiq Termal Məlumatlar",
-            "desc": "Uzununa genişlənmə (uzanma), istilik keçiriciliyi (0.24 W/mK) və boruların sürtünməsi ilə (nəticəsində) təzyiq itkisi üçün inteqrasiya edilmiş hesablama modelləri (alqoritmləri)."
+            "title": "Material və sistem göstəriciləri",
+            "desc": "Sıxlıq 905 kg/m³, istilikkeçirmə 0,24 W/(m·K), uzununa genişlənmə 1,5·10⁻⁴ K⁻¹ — K-Fiber üçün 0,35·10⁻⁴ K⁻¹. Əlavə olaraq dayaq aralıqları və DIN EN ISO 15874-1 üzrə tətbiq sinifləri."
           }
         ]
       },
       "grid": {
-        "title": "Rəqəmsal Portfelimiz.",
-        "desc": "Geniş BIM məlumat bazamızdan nələr (hansı elementləri) yükləyə bilərsiniz:",
+        "title": "Kitabxanada nə var.",
+        "desc": "546 artikul, kataloq 06-2025-dəki qruplar üzrə:",
         "items": [
           {
-            "title": "PPR-C & PPRCT Boruları",
-            "desc": "SDR 6-dan SDR 11-ə qədər, standart və Faserverbund (şüşə liflə gücləndirilmiş) texnologiyası daxil olmaqla, bütün mövcud rəng (kodlaşdırma) variantlarında (Yaşıl, Boz, Mavi)."
+            "title": "PP-R və PP-RCT boruları",
+            "desc": "SDR 6-dan SDR 11-ə qədər, standart və K-Fiber lifli kompozit icrada, kataloqdakı ölçü sıraları üzrə."
           },
           {
-            "title": "Fitinqlər (Birləşdirici Elementlər)",
-            "desc": "Dirsəklər (45°, 90°), T-birləşmələr (T-pieces), reduksiyalar və tıxacların (end caps) tam dəsti (çeşidi). Qüsursuz quraşdırma (çəkilmə) üçün dəqiqliklə nizamlanıb (kalibrlənib)."
+            "title": "Fitinqlər",
+            "desc": "Dirsəklər (45°, 90°), triniklər, reduksiyalar və tıxaclar. Quraşdırma uzunluqları kataloq 06-2025-dən."
           },
           {
-            "title": "Keçid Fitinqləri (Transition Fittings)",
-            "desc": "Müxtəlif sistem arxitekturalarının qarışığı (birləşməsi) üçün daxili və xarici yivləri (dişləri) olan hibrid komponentlərin modelləşdirilməsi."
+            "title": "Keçid fitinqləri",
+            "desc": "Daxili və xarici yivli detallar, yiv ölçüsü və quraşdırma uzunluğu göstərilməklə."
           },
           {
-            "title": "Klapanlar və Armaturlar",
-            "desc": "Şar valfların (Kugelhähne) və bucaqlı klapanların (Schrägsitzventile) dəqiq ölçülü modelləri, kran (tutacaq) idarəetməsi (fırlanma) üçün kəsişmə bölgələri daxildir."
+            "title": "Kranlar və armaturlar",
+            "desc": "Kürəvi kranlar və maili oturacaqlı ventillər, quraşdırma uzunluqları və birləşmə nöqtələri ilə."
           },
           {
-            "title": "Qaynaq Yəhərləri (Weld-in Saddles)",
-            "desc": "Sonradan ediləcək T-birləşmələrinin hesablanması (layihələndirilməsi) üçün çətin olan kəsişmələr daxildir."
+            "title": "Qaynaq yəhərləri",
+            "desc": "Sonradan açılan çıxışlar üçün detallar, çıxış ölçüsü və qaynaq məlumatları göstərilməklə."
           },
           {
-            "title": "Bərkitmə Sistemi (Fastening)",
-            "desc": "Termal gərginliyi (uzununa genişlənməni) vizuallaşdırmaq (hesablamaq) üçün fiks (sabit) və sürüşmə (hərəkətli) dayaqlara malik boru sıxacları (klemmalar)."
+            "title": "Bərkitmə",
+            "desc": "Sabit və sürüşən dayaqlar üçün boru sıxacları, hər nominal ölçü və yeddi temperatur üçün dayaq aralıqları ilə."
           }
         ]
       },
       "cta": {
-        "title": "Dərhal Layihələndirməyə Başlayın.",
-        "desc": "Autodesk Revit və digər ümumi BIM/CAD sistemləri üçün tam məlumat paketlərinizi yükləyin.",
-        "btn1": "BIM Paketini Yüklə",
-        "btn2": "Plug-in-i (Qoşmanı) Endir (Tezliklə)",
-        "btnPrimary": "Yükləmə (Download) Mərkəzinə Keçid",
-        "btnOutline": "BIM Meneceri ilə Əlaqə"
+        "title": "BIM paketini yükləyin.",
+        "desc": "Hər məhsul üçün bir arxiv: hər nominal ölçü üçün IFC 4, kütlə hesabatı üçün artikul cədvəli, Revit tip kataloqu. Qeydiyyatsız, layihəçilər və mühəndislər üçün pulsuz.",
+        "btn1": "BIM paketini yüklə",
+        "btn2": "Artikul cədvəlini yüklə",
+        "btnPrimary": "Yükləmə mərkəzinə keçid",
+        "btnOutline": "Texniki məsləhət istəyin"
       },
-      "title": "BIM Məlumatları (Modelləri)",
-      "metaDesc": "K Aqua BIM Məlumatları: Qlobal meqalayihələr üçün Alman mühəndisliyi ilə kompromissiz təhlükəsizlik. BIM məlumat bazamıza (kitabxanamıza) daxil olun.",
+      "title": "BIM Məlumatları",
+      "metaDesc": "K-Aqua BIM məlumatları: 546 artikul IFC 4 formatında — birləşmə nöqtələri, material göstəriciləri və kataloq istinadı ilə. Qeydiyyatsız, layihəçilər və mühəndislər üçün pulsuz.",
       "sticky": {
-        "eyebrow": "İş axını Mükəmməlliyi",
-        "title": "Mükəmməllikdə Rəqəmsal Əkizlər.",
-        "lead": "Planlaşdırma və reallıq (icra) arasındakı fərqi (uyğunsuzluğu) aradan qaldıran məlumat dərinliyinə qısa baxış (icmal).",
+        "eyebrow": "Fayllarda nə var",
+        "title": "Yoxlanıla bilən layihə məlumatları.",
+        "lead": "Model yalnız gözəl görünməli deyil, həm də işləməlidirsə, fərq yaradan dörd xüsusiyyət.",
         "items": [
           {
-            "title": "Maksimum Məlumat Dərinliyi (LOI 500)",
-            "desc": "BIM modellərimiz təkcə yüksək dəqiqlikli (LOD) həndəsi təsvir deyil, xüsusən də misilsiz məlumat (LOI) dərinliyi təklif edir (təmin edir). Hər bir boru, fitinq və armatur bütün kritik (vacib) metadataları özündə birləşdirir (daşıyır): Avtomatlaşdırılmış (rəqəmsal) tender (spesifikasiya) üçün material (məhsul) tələbləri, təzyiq dərəcələri, termal genişlənmə əmsalları və dəqiq (həqiqi) məqalə nömrələri."
+            "title": "Hər rəqəm öz kataloq səhifəsi ilə",
+            "desc": "Hər detalda onun ölçülərinin haradan gəldiyi yazılıb — istehsalçı kataloqu 06-2025-dəki səhifəyə qədər dəqiq. Modeldəki divar qalınlığını məlumat vərəqi ilə tutuşduran şəxs eyni rəqəmi və onun sənədli əsasını tapır. Kataloq bir yerdə özü ilə ziddiyyət təşkil edirsə, faylda çap olunmuş dəyər durur, yanında isə bu barədə qeyd."
           },
           {
-            "title": "Toqquşmasız Planlaşdırma",
-            "desc": "Milyard dollarlıq layihələrdə (meqalayihələrdə) Clash-Detection (Toqquşmanın aşkarlanması) mübahisəsizdir (müzakirə olunmazdır). Bizim orijinal Revit və IFC fayllarımız Navisworks və ya Solibri-yə qüsursuz inteqrasiyaya (keçidə) zəmanət verir. Qaynaq tikişi tolerantlıqları da daxil olmaqla dəqiq (real) xarici diametrlər şantiyədə bahalı sürprizlərin qarşısını alır."
+            "title": "Yığın deyil, birləşmə nöqtələri",
+            "desc": "Hər fitinq öz boru birləşmələrini IfcDistributionPort kimi daşıyır: mövqe, ox istiqaməti, nominal ölçü və birləşmə növü. Muftalı qaynaqda qaynaq dərinliyi, qızdırma müddəti və soyuma müddəti birbaşa birləşmə nöqtəsində durur — bu dəyərlər ümumi normadan deyil, istehsalçının qaynaq təlimatından götürülüb."
           },
           {
-            "title": "Parametrik Zəka (İntellekt)",
-            "desc": "K Aqua BIM ailələri (families) tamamilə parametrikdir. Onlar dinamik şəkildə (avtomatik olaraq) boru xətlərinə (marşrutlarına), maililiyə və ölçülərə uyğunlaşır (tənzimlənir). İnteqrasiya edilmiş Auto-Routing (Avto-marşrutlaşdırma) DIN EN ISO 15874 standartının ciddi tələblərinə (şərtlərinə) uyğun olaraq düzgün reduksiyaları və bükülmə bucaqlarını (döngələri) avtomatik (öz-özünə) seçir."
+            "title": "Boru boru olaraq qalır",
+            "desc": "Boru üçbucaq şəbəkəsi kimi deyil, xarici və daxili radiusu olan IfcSweptDiskSolid kimi gəlir. Revit və ya ArchiCAD proqramında o, beləliklə çəkilə və kəsilə bilən boru seqmenti olaraq qalır. Fayl bir neçə yüz deyil, doqquz kilobayt həcmindədir."
           },
           {
-            "title": "Həyat Dövrü (Lifecycle) və Obyektlərin İdarəedilməsi (Facility Management)",
-            "desc": "Rəqəmsal əkiz tikintinin qəbulu (təhvil-təslimi) ilə bitmir (başa çatmır). BIM obyektlərimiz COBie-uyğundur (destəklidir) və 50 ildən çox (davamlı) təhlükəsiz (qüsursuz) xidmət (həyat) dövrü üçün Obyektlərin İdarəedilməsi (Facility Management) komandasına bütün zəruri texniki xidmət (baxım) intervallarını, sertifikatları və istismar məlumatlarını təqdim edir."
+            "title": "Kataloqdan montaj məlumatları",
+            "desc": "Hər nominal ölçü və yeddi temperatur üçün dayaq aralıqları, icazə verilən iş təzyiqi ilə birlikdə DIN EN ISO 15874-1 üzrə tətbiq sinifləri, uzununa genişlənmə. K-Fiber boruları bu zaman öz əmsalını daşıyır — 0,35·10⁻⁴ K⁻¹, təkqatlı borudan dörd dəfədən çox az, və məhz bu, lifli kompozit qatın səbəbidir."
           }
         ]
       },
       "timeline": {
-        "title": "K Aqua BIM Məlumatlarının Həyat Dövrü (Life Cycle)",
-        "desc": "İlk eskizdən (planlamadan) onilliklər boyu istismara qədər. Bizim məlumatlarımız (baza) hər mərhələdə layihənizi müşayiət edir (dəstəkləyir).",
+        "title": "Məlumatlar layihədə harada işə yarayır",
+        "desc": "İlk kütlə hesabatından iyirmi il sonrakı ehtiyat hissəyə qədər.",
         "items": [
           {
             "year": "Mərhələ 1",
-            "title": "Konsepsiya & TGA-Planlaşdırması",
-            "text": "K Aqua baza həndəsələrinin ilkin layihəyə (dizayna) inteqrasiyası. TGA baş planında (Masterplan) marşrut (kəmər) konsepsiyası üçün sürətli (ilkin) kütlə (həcm) hesablaması və ilkin (baz) toqquşma yoxlanışı."
+            "title": "Konsepsiya və trassa",
+            "text": "Bütöv kataloq cədvəl və ya JSON şəklində: 546 artikul, nominal ölçü, material və çəki göstərilməklə. Bir model belə yüklənmədən ilk kütlə hesabatı və trassa planlaması üçün kifayət edir."
           },
           {
             "year": "Mərhələ 2",
-            "title": "İcra (Tətbiq) Planlaşdırması",
-            "text": "LOI 400-ə keçid. Dəqiq (həqiqi) spesifikasiyalar, axın sürətləri və təzyiq itkisi hesablamaları birbaşa (avtomatik) binanın hidravlik şəbəkə hesablamalarına əlavə (daxil) olunur."
+            "title": "İcra layihəsi",
+            "text": "Hər nominal ölçü üçün IFC 4, millimetrlə. Kataloqdan xarici diametr, divar qalınlığı və quraşdırma uzunluqları, əlavə olaraq şəbəkə hesabatı üçün dayaq aralıqları və tətbiq sinifləri."
           },
           {
             "year": "Mərhələ 3",
-            "title": "Tender və Satınalma",
-            "text": "Birbaşa modeldən xətasız (qüsursuz) Material Siyahısının (BOM) avtomatlaşdırılmış şəkildə (dərhal) yaradılması. Hər bir fitinq K Aqua (kataloq) məqalə nömrəsi və VDI 3805 məlumatları ilə təchiz olunub (kodlaşdırılıb)."
+            "title": "Tender və satınalma",
+            "text": "Hər detal öz artikul nömrəsini IFC etiketi kimi və xassələr dəstində daşıyır. Modeldən alınan spesifikasiyanı beləliklə birbaşa kataloqla tutuşdurmaq olar."
           },
           {
             "year": "Mərhələ 4",
-            "title": "Əvvəlcədən İstehsal (Prefabrikasiya) və Quraşdırma (Montaj)",
-            "text": "Sənaye istehsalı (prefabrikasiyası) üçün izometrik çertyojların (planların) ixracı (əldə edilməsi). Millimetr dəqiqliyində Spool çertyojları tikinti sahəsindəki qaynaq işlərini (ehtiyacını) mütləq (minimum) səviyyəyə endirir (azaldır)."
+            "title": "Hazır məmulat və montaj",
+            "text": "Qaynaq dərinliyi, qızdırma müddəti və soyuma müddəti hər nominal ölçü üçün birləşmə nöqtəsində durur. Emalatxana qaynaq parametrlərini uzunluqları götürdüyü həmin modeldən oxuyur."
           },
           {
             "year": "Mərhələ 5",
-            "title": "As-Built (İcra Edilmiş) və İstismar",
-            "text": "As-Built (quraşdırıldığı kimi) modelinin təhvili (təslim edilməsi). Rəqəmsal əkiz binanın bütün istismar (həyat) dövrü (müddəti) ərzində Obyektlərin İdarəedilməsi (Facility Management) üçün Yeganə Həqiqət Mənbəyi (Single Source of Truth) kimi fəaliyyət göstərir (xidmət edir)."
+            "title": "Mövcud vəziyyət və istismar",
+            "text": "Artikul nömrəsi detalın üzərində qalır. İyirmi il sonra fitinqi əvəz edən şəxs modeldə nəyin quraşdırıldığını tapır — həm də onun yazıldığı kataloq səhifəsi ilə birlikdə."
           }
         ]
       },
       "intro": {
-        "title1": "Boru sistemlərimizin DNT-si.",
-        "title2": "İndi Buludda (Cloud).",
-        "p1": "Biz BIM-i sadəcə (adi) 3D çertyoj (rəsm) kimi qəbul (başa) düşmürük. K Aqua üçün Building Information Modeling (Bina Məlumat Modelləşdirməsi), kompromissiz istehsal (istehsalat) dəqiqliyimizin rəqəmsal (digital) məkana ötürülməsidir. Beynəlxalq baş (ümumi) podratçılar göydələnlər, məlumat (data) mərkəzləri və ya yüksək təhlükəsizlik laboratoriyaları planlaşdırdıqda, onların təxmini (qeyri-dəqiq) dəyərlərə deyil, məlumat (data) formatında fiziki reallığa ehtiyacı var.",
-        "p2": "Bizim məlumat (məlumat bazası) paketlərimiz onilliklər boyu (davam edən) Alman mühəndisliyinin nəticəsidir. Hər bir divar qalınlığı, hər bir axın dinamikası və hər bir termal xüsusiyyət (göstərici) mühəndislərimiz tərəfindən (qətiyyətlə) təsdiqlənmiş və yerli (orijinal) ailələrə (families) inteqrasiya edilmişdir (çevrilmişdir)."
+        "title1": "Boru sistemlərimizin ölçüləri.",
+        "title2": "Rəqəm-rəqəm yoxlanıla bilən.",
+        "p1": "BIM obyekti daşıdığı məlumat qədər dəyərlidir. Ona görə də bizdə heç bir fayl çertyojdan deyil, istehsalçı kataloqundan yaranır: bu saytın məhsul səhifələri də rəqəmlərini həmin mənbədən götürür. Bir dəyər fərqlənirsə, hər yerdə eyni cür fərqlənir — və bir yerdə düzəldilə bilər.",
+        "p2": "Hər fayl yükləmə anında yenidən yaradılır. Köhnəlmiş fayl ehtiyatı da yoxdur, kataloqun vəziyyətindən geri qalan kitabxana da. Yüklədiyiniz şey məhsul səhifəsində yazılana uyğun gəlir — həmişə."
       }
     },
     "ausschreibungstexte": {

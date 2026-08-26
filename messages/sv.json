@@ -7150,98 +7150,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Data",
-      "metaDesc": "K Aqua BIM-Data: Kompromisslös säkerhet genom tysk ingenjörskonst för globala megaprojekt. Få tillgång till vår BIM-databas.",
+      "title": "BIM-data",
+      "metaDesc": "K-Aqua BIM-data: 546 artiklar som IFC 4 med anslutningspunkter, materialvärden och kataloghänvisning. Utan registrering, kostnadsfritt för projektörer och ingenjörer.",
       "sticky": {
         "items": [
           {
-            "title": "Maximal Datadjup (LOI 500)",
-            "desc": "Våra BIM-modeller erbjuder inte bara en högprecis geometrisk representation (LOD), utan framför allt ett oöverträffat informationsdjup (LOI). Varje rör, varje rördel och varje ventil innehåller all kritisk metadata: materialspecifikationer, tryckklasser, termiska utvidgningskoefficienter och exakta artikelnummer för automatiserad upphandling."
+            "title": "Varje siffra med sin katalogsida",
+            "desc": "I varje komponent står varifrån dess mått kommer — ner till sidan i tillverkarkatalogen 06-2025. Den som jämför en väggtjocklek i modellen med databladet hittar samma siffra och belägget för den. Där katalogen på ett ställe motsäger sig själv står det tryckta värdet i filen, med anmärkningen bredvid."
           },
           {
-            "title": "Kollisionsfri Planering",
-            "desc": "I miljardprojekt är kollisionskontroll (Clash-Detection) inte förhandlingsbart. Våra nativa Revit- och IFC-filer garanterar sömlös integration i Navisworks eller Solibri. De exakta ytterdiametrarna, inklusive svetsfogstoleranser, förhindrar kostsamma överraskningar på byggarbetsplatsen."
+            "title": "Anslutningspunkter i stället för klumpar",
+            "desc": "Varje rördel bär sina röranslutningar som IfcDistributionPort: läge, axelriktning, nominell diameter och förbindningssätt. Vid muffsvetsning står insvetsningsdjup, uppvärmningstid och avkylningstid direkt vid anslutningen — värdena ur tillverkarens svetsanvisning, inte ur en allmän standard."
           },
           {
-            "title": "Parametrisk Intelligens",
-            "desc": "K Aquas BIM-familjer är helt parametriska. De anpassar sig dynamiskt till rördragning, lutning och dimensionering. Den inbyggda auto-routing-funktionen väljer automatiskt rätt reduceringar och böjvinklar enligt de stränga kraven i DIN EN ISO 15874."
+            "title": "Rör förblir rör",
+            "desc": "Ett rör kommer som IfcSweptDiskSolid med ytter- och innerradie, inte som ett triangelnät. I Revit eller ArchiCAD förblir det därmed ett rörsegment som går att dra och kapa. Filen är nio kilobyte stor i stället för några hundra."
           },
           {
-            "title": "Livscykel & Facility Management",
-            "desc": "Den digitala tvillingen slutar inte vid byggöverlämningen. Våra BIM-objekt är COBie-kompatibla och ger Facility Management alla nödvändiga underhållsintervaller, certifikat och driftdata för en säker livscykel på över 50 år."
+            "title": "Förläggningsdata ur katalogen",
+            "desc": "Upphängningsavstånd för varje nominell diameter och sju temperaturer, användningsklasser enligt DIN EN ISO 15874-1 med tillåtet drifttryck, längdutvidgning. K-Fiber-rör bär därvid sin egen koefficient på 0,35·10⁻⁴ K⁻¹ — drygt fyra gånger mindre än ett enskiktsrör, och just skälet till fiberkompositskiktet."
           }
         ],
-        "eyebrow": "Arbetsflödesexcellens",
-        "title": "Digitala tvillingar i perfektion.",
-        "lead": "En inblick i datadjupet som eliminerar skillnaden mellan planering och verklighet."
+        "eyebrow": "Vad som står i filerna",
+        "title": "Projekteringsdata som går att kontrollera.",
+        "lead": "Fyra egenskaper som gör skillnaden när en modell inte bara ska se bra ut, utan bära."
       },
       "timeline": {
         "items": [
           {
             "year": "Fas 1",
-            "title": "Koncept & TGA-Planering",
-            "text": "Integration av K Aquas grundläggande geometrier i den tidiga designen. Snabb mängdberäkning och initial kollisionskontroll för ruttkonceptet i den övergripande TGA-planen."
+            "title": "Koncept och rördragning",
+            "text": "Hela katalogen som tabell eller JSON: 546 artiklar med nominell diameter, material och vikt. Tillräckligt för den första mängdberäkningen och rutplaneringen, innan en enda modell är laddad."
           },
           {
             "year": "Fas 2",
-            "title": "Detaljplanering",
-            "text": "Uppgradering till LOI 400. De exakta specifikationerna, flödeshastigheterna och tryckfallsberäkningarna flödar direkt in i byggnadens hydrauliska nätverksberäkning."
+            "title": "Detaljprojektering",
+            "text": "IFC 4 per nominell diameter, i millimeter. Ytterdiameter, väggtjocklek och byggmått ur katalogen, dessutom upphängningsavstånd och användningsklasser för nätberäkningen."
           },
           {
             "year": "Fas 3",
-            "title": "Upphandling & Anbud",
-            "text": "Automatiserad generering av felfria stycklistor (BOM) direkt från modellen. Varje del är kopplad till K Aquas artikelnummer och VDI 3805-data."
+            "title": "Upphandling och anbud",
+            "text": "Varje komponent bär sitt artikelnummer som IFC-tagg och i egenskapsuppsättningen. Stycklistan ur modellen går därmed att hålla mot katalogen utan omvägar."
           },
           {
             "year": "Fas 4",
-            "title": "Förtillverkning & Montering",
-            "text": "Export av isometriska ritningar för industriell prefabricering. Millimeterexakta spool-ritningar minimerar svetsarbetet på byggarbetsplatsen till ett absolut minimum."
+            "title": "Förtillverkning och montage",
+            "text": "Insvetsningsdjup, uppvärmningstid och avkylningstid står per nominell diameter vid anslutningspunkten. Förtillverkaren läser svetsparametrarna ur samma modell som han tar längderna ur."
           },
           {
             "year": "Fas 5",
-            "title": "As-Built & Drift",
-            "text": "Överlämning av As-Built-modellen. Den digitala tvillingen fungerar som 'Single Source of Truth' för Facility Management under byggnadens hela livslängd."
+            "title": "Relationshandling och drift",
+            "text": "Artikelnumret sitter kvar på komponenten. Den som efter tjugo år byter en rördel hittar i modellen vad som monterades — inklusive katalogsidan där det stod."
           }
         ],
-        "title": "Livscykeln för K Aquas BIM-Data",
-        "desc": "Från den första skissen till årtionden av drift. Vår data följer ditt projekt i varje fas."
+        "title": "Var data griper in i projektet",
+        "desc": "Från den första mängdberäkningen till reservdelen efter tjugo år."
       },
       "hero": {
-        "desc": "Denna modul ger kompromisslös säkerhet för de mest krävande projekten världen över. Tillverkad enligt strängaste industristandarder för att hålla i generationer. Ladda ner den digitala tvillingen, där materialfel inte är ett alternativ.",
-        "btnPrimary": "BIM Bibliotek (Revit/IFC)",
-        "btnGhost": "Begär BIM Konsultation"
+        "desc": "546 artiklar som IFC 4 — med anslutningspunkter, materialvärden, förläggningsdata och katalogsidan där varje uppgift står. Enskilt eller som paket, utan registrering.",
+        "btnPrimary": "Ladda ner IFC-biblioteket",
+        "btnGhost": "Begär teknisk rådgivning"
       },
       "intro": {
-        "title1": "DNA:t i våra rörsystem.",
-        "title2": "Nu i molnet.",
-        "p1": "Vi ser inte BIM som bara en 3D-ritning. För K Aqua är Building Information Modeling överföringen av vår kompromisslösa tillverkningsprecision in i det digitala rummet. När internationella generalentreprenörer planerar skyskrapor, datacenter eller högsäkerhetslaboratorier behöver de inte uppskattade värden, de behöver fysisk verklighet i form av data.",
-        "p2": "Våra dataset är resultatet av decennier av tysk ingenjörskonst. Varje väggtjocklek, varje flödesdynamik och varje termisk egenskap har validerats av våra ingenjörer och översatts inbyggt i familjerna."
+        "title1": "Måtten på våra rörsystem.",
+        "title2": "Kontrollerbara siffra för siffra.",
+        "p1": "Ett BIM-objekt är värt lika mycket som de data det bär. Därför uppstår ingen fil hos oss ur en ritning, utan ur tillverkarkatalogen: samma källa som produktsidorna på den här webbplatsen hämtar sina siffror ur. Avviker ett värde, avviker det likadant överallt — och går att rätta på ett enda ställe.",
+        "p2": "Varje fil skapas på nytt i det ögonblick den hämtas. Det ligger inget genererat filbestånd och blir gammalt, och inget bibliotek som släpar efter ett katalogläge. Det du laddar ner motsvarar det som står på produktsidan — alltid."
       },
       "bento": {
         "items": [
           {
-            "title": "Nativa Revit® Familjer",
-            "desc": "Inga konverteringsförluster. Direkt programmerade som .rfa och .rvt för högsta prestanda och nativa routing-preferenser."
+            "title": "IFC 4, öppet och i millimeter",
+            "desc": "Läsbart i Revit, ArchiCAD, Allplan och Vectorworks, kontrollerbart i Navisworks och Solibri. Samma enhet som i katalogen — ingen omräkning vid jämförelse med databladet."
           },
           {
-            "title": "VDI 3805 Överensstämmelse",
-            "desc": "Standardiserad produktdata för sömlöst datautbyte genom hela TGA-kedjan."
+            "title": "Anslutningspunkter med svetsdata",
+            "desc": "IfcDistributionPort per anslutning, med nominell diameter och förbindningssätt. Vid muffsvetsning dessutom insvetsningsdjup, uppvärmningstid och avkylningstid ur bearbetningsanvisningen."
           },
           {
-            "title": "IFC4 Certifiering",
-            "desc": "Maximal interoperabilitet genom öppna BIM-standarder (OpenBIM). Garanterat läsbara i ArchiCAD, Allplan och Vectorworks."
+            "title": "Revit-typkatalog",
+            "desc": "Nativa .rfa-familjer är ett slutet binärformat och går inte att skapa utan Revit-licens. Vi levererar IFC 4, som Revit läser in direkt, och typkatalogen med alla nominella diametrar och mått."
           },
           {
-            "title": "Exakta Termiska Data",
-            "desc": "Inbyggda beräkningsmodeller för längdutvidgning, värmeledningsförmåga (0,24 W/mK) och rörfriktionsförluster."
+            "title": "Material- och systemvärden",
+            "desc": "Densitet 905 kg/m³, värmeledningsförmåga 0,24 W/(m·K), längdutvidgning 1,5·10⁻⁴ K⁻¹ — för K-Fiber 0,35·10⁻⁴ K⁻¹. Dessutom upphängningsavstånd och användningsklasser enligt DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Ladda ner K Aquas BIM-paket.",
-        "desc": "Fullständig tillgång till alla nativa Revit-familjer, IFC-filer och VDI 3805-dataset. Kostnadsfritt för planerare och ingenjörer.",
-        "btnPrimary": "Gå till Nedladdningscenter",
-        "btnOutline": "Kontakta BIM-Manager"
+        "title": "Ladda ner BIM-paketet.",
+        "desc": "Ett arkiv per produkt: IFC 4 för varje nominell diameter, artikeltabell för mängdberäkningen, Revit-typkatalog. Utan registrering, kostnadsfritt för projektörer och ingenjörer.",
+        "btnPrimary": "Till nedladdningscentret",
+        "btnOutline": "Begär teknisk rådgivning"
       }
     },
     "common": {

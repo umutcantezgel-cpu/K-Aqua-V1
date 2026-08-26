@@ -7121,98 +7121,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Daten",
-      "metaDesc": "K Aqua BIM-Daten, Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte.",
+      "title": "BIM Verileri",
+      "metaDesc": "K-Aqua BIM verileri: 546 ürün, bağlantı noktaları, malzeme değerleri ve katalog referansıyla IFC 4 dosyaları olarak. Kayıt gerekmez, proje müellifleri ve mühendisler için ücretsiz.",
       "sticky": {
         "items": [
           {
-            "title": "Maximale Datentiefe (LOI 500)",
-            "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting und jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Druckstufen, thermische Ausdehnungskoeffizienten und exakte Artikelnummern für die automatisierte Ausschreibung."
+            "title": "Her değer, kendi katalog sayfasıyla",
+            "desc": "Her yapı elemanında ölçülerinin nereden geldiği yazar — üretici kataloğu 06-2025 içindeki sayfaya kadar. Modeldeki bir et kalınlığını teknik veri sayfasıyla karşılaştıran, aynı değeri ve onun dayanağını bulur. Kataloğun bir yerde kendisiyle çeliştiği durumda dosyada basılı değer yer alır, yanında da buna ilişkin not."
           },
           {
-            "title": "Kollisionsfreie Planung",
-            "desc": "In Milliardenprojekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- und IFC-Dateien garantieren eine nahtlose Integration in Ihr Navisworks oder Solibri. Die exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen auf der Baustelle."
+            "title": "Biçimsiz kütle değil, bağlantı noktaları",
+            "desc": "Her fitting, boru bağlantılarını IfcDistributionPort olarak taşır: konum, eksen yönü, anma çapı ve bağlantı türü. Muf kaynağında kaynak daldırma derinliği, ısıtma süresi ve soğuma süresi doğrudan bağlantının yanında durur — değerler genel bir standarttan değil, üreticinin kaynak talimatından gelir."
           },
           {
-            "title": "Parametrische Intelligenz",
-            "desc": "K Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle und Dimensionierungen an. Das integrierte Auto-Routing wählt automatisch die korrekten Reduzierungen und Bogenwinkel gemäß den strengen Vorgaben der DIN EN ISO 15874."
+            "title": "Boru, boru olarak kalır",
+            "desc": "Boru, üçgen ağı olarak değil, dış ve iç yarıçapıyla IfcSweptDiskSolid olarak gelir. Revit veya ArchiCAD içinde böylece güzergâha döşenebilen ve kırpılabilen bir boru parçası olarak kalır. Dosya, birkaç yüz kilobayt yerine dokuz kilobayttır."
           },
           {
-            "title": "Lifecycle & Facility Management",
-            "desc": "Der digitale Zwilling endet nicht mit der Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel und liefern dem Facility Management alle notwendigen Wartungsintervalle, Zertifikate und Betriebsdaten für einen sicheren Lebenszyklus von über 50 Jahren."
+            "title": "Katalogdan montaj verileri",
+            "desc": "Her anma çapı ve yedi sıcaklık için askı aralıkları, izin verilen işletme basıncıyla birlikte DIN EN ISO 15874-1'e göre uygulama sınıfları, boy uzaması. K-Fiber borular burada kendi katsayısını taşır: 0,35·10⁻⁴ K⁻¹ — tek katmanlı bir borunun yaklaşık dörtte biri kadar ve fiber kompozit katmanın tam da nedeni."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Digitale Zwillinge in Perfektion.",
-        "lead": "Ein Einblick in die Datentiefe, die den Unterschied zwischen Planung und Realität eliminiert."
+        "eyebrow": "Dosyalarda ne var",
+        "title": "Doğrulanabilir planlama verileri.",
+        "lead": "Bir modelin yalnızca güzel görünmesi değil, denetime de dayanması gerektiğinde fark yaratan dört özellik."
       },
       "timeline": {
         "items": [
           {
-            "year": "Phase 1",
-            "title": "Konzeption & TGA-Planung",
-            "text": "Integration der K Aqua Basis-Geometrien in den frühen Entwurf. Schnelle Massenermittlung und erste Kollisionsprüfung für das Trassenkonzept im TGA-Masterplan."
+            "year": "Aşama 1",
+            "title": "Konsept ve güzergâh planlaması",
+            "text": "Tablo veya JSON olarak tüm katalog: anma çapı, malzeme ve ağırlığıyla 546 ürün. Tek bir model bile yüklenmeden önce ilk metraj ve güzergâh planlaması için yeterli."
           },
           {
-            "year": "Phase 2",
-            "title": "Ausführungsplanung",
-            "text": "Umstellung auf LOI 400. Die exakten Spezifikationen, Fließgeschwindigkeiten und Druckverlustberechnungen fließen direkt in die hydraulische Netzberechnung des Gebäudes ein."
+            "year": "Aşama 2",
+            "title": "Uygulama projesi",
+            "text": "Her anma çapı için IFC 4, milimetre cinsinden. Katalogdan dış çap, et kalınlığı ve yapı boyları; ayrıca şebeke hesabı için askı aralıkları ve uygulama sınıfları."
           },
           {
-            "year": "Phase 3",
-            "title": "Ausschreibung & Vergabe",
-            "text": "Automatisierte Generierung von fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist mit der K Aqua Artikelnummer und VDI 3805 Daten hinterlegt."
+            "year": "Aşama 3",
+            "title": "İhale ve sözleşme",
+            "text": "Her yapı elemanı, ürün numarasını IFC etiketi olarak ve özellik kümesinde taşır. Modelden çıkan malzeme listesi böylece dolaysız biçimde katalogla karşılaştırılabilir."
           },
           {
-            "year": "Phase 4",
-            "title": "Vorfertigung & Montage",
-            "text": "Export von isometrischen Zeichnungen für die industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten auf der Baustelle auf ein absolutes Minimum."
+            "year": "Aşama 4",
+            "title": "Ön imalat ve montaj",
+            "text": "Kaynak daldırma derinliği, ısıtma süresi ve soğuma süresi her anma çapı için bağlantı noktasında yazar. Ön imalatçı, kaynak parametrelerini boyları aldığı modelin aynısından okur."
           },
           {
-            "year": "Phase 5",
-            "title": "As-Built & Betrieb",
-            "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks."
+            "year": "Aşama 5",
+            "title": "Mevcut durum ve işletme",
+            "text": "Ürün numarası yapı elemanında kalır. Yirmi yıl sonra bir fittingi değiştiren, modelde neyin monte edildiğini bulur — hangi katalog sayfasında yazdığıyla birlikte."
           }
         ],
-        "title": "Der Lebenszyklus der K Aqua BIM-Daten",
-        "desc": "Von der ersten Skizze bis zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt in jeder Phase."
+        "title": "Verilerin projede nerede işe yaradığı",
+        "desc": "İlk metrajdan yirmi yıl sonraki yedek parçaya kadar."
       },
       "hero": {
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Laden Sie den digitalen Zwilling herunter, wo Materialversagen keine Option ist.",
-        "btnPrimary": "BIM Bibliothek (Revit/IFC)",
-        "btnGhost": "BIM Consulting anfragen"
+        "desc": "546 ürün IFC 4 olarak — bağlantı noktaları, malzeme değerleri, montaj verileri ve her bilginin yazılı olduğu katalog sayfasıyla. Tek tek veya paket halinde, kayıt gerekmeden.",
+        "btnPrimary": "IFC kütüphanesini indir",
+        "btnGhost": "Teknik danışmanlık talep et"
       },
       "intro": {
-        "title1": "Die DNA unserer Rohrsysteme.",
-        "title2": "Jetzt in der Cloud.",
-        "p1": "Wir verstehen BIM nicht als bloße 3D-Zeichnung. Für K Aqua ist Building Information Modeling der Transfer unserer kompromisslosen Fertigungspräzision in den digitalen Raum. Wenn internationale Generalunternehmer Wolkenkratzer, Rechenzentren oder Hochsicherheitslabore planen, benötigen sie keine geschätzten Werte, sie benötigen physikalische Realität in Form von Daten.",
-        "p2": "Unsere Datensätze sind das Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik und jede thermische Eigenschaft wurde von unseren Ingenieuren validiert und nativ in die Familien übersetzt."
+        "title1": "Boru sistemlerimizin ölçüleri.",
+        "title2": "Değer değer doğrulanabilir.",
+        "p1": "Bir BIM nesnesi, taşıdığı veriler kadar değerlidir. Bu yüzden bizde hiçbir dosya bir çizimden değil, üretici kataloğundan doğar: bu sitedeki ürün sayfalarının da sayılarını aldığı kaynağın aynısından. Bir değer sapıyorsa her yerde aynı biçimde sapar — ve tek bir yerde düzeltilir.",
+        "p2": "Her dosya, çağrıldığı anda yeniden oluşturulur. Eskiyebilecek hazır bir dosya stoğu yoktur, katalog durumunun gerisinde kalan bir kütüphane de. İndirdiğiniz şey, ürün sayfasında yazanla örtüşür — her zaman."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® Familien",
-            "desc": "Keine Konvertierungsverluste. Direkt als .rfa und .rvt programmiert für höchste Performance und native Routing-Präferenzen."
+            "title": "IFC 4, açık ve milimetre cinsinden",
+            "desc": "Revit, ArchiCAD, Allplan ve Vectorworks tarafından okunabilir; Navisworks ve Solibri ile denetlenebilir. Katalogdaki birimin aynısı — teknik veri sayfasıyla karşılaştırırken birim dönüşümü yok."
           },
           {
-            "title": "VDI 3805 Konformität",
-            "desc": "Standardisierte Produktdaten für den reibungslosen Datenaustausch in der gesamten TGA-Kette."
+            "title": "Kaynak verileriyle bağlantı noktaları",
+            "desc": "Her bağlantı için anma çapı ve bağlantı türüyle IfcDistributionPort. Muf kaynağında ayrıca işleme talimatından kaynak daldırma derinliği, ısıtma süresi ve soğuma süresi."
           },
           {
-            "title": "IFC4 Prüfung",
-            "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar in ArchiCAD, Allplan und Vectorworks."
+            "title": "Revit tip kataloğu",
+            "desc": "Yerel .rfa aileleri kapalı bir ikili formattır ve Revit lisansı olmadan üretilemez. Biz, Revit'in doğrudan okuduğu IFC 4'ü ve tüm anma çapları ile ölçüleri içeren tip kataloğunu veriyoruz."
           },
           {
-            "title": "Exakte thermische Daten",
-            "desc": "Integrierte Berechnungsmodelle für Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) und Rohrreibungsdruckgefälle."
+            "title": "Malzeme ve sistem değerleri",
+            "desc": "Yoğunluk 905 kg/m³, ısı iletkenliği 0,24 W/(m·K), boy uzaması 1,5·10⁻⁴ K⁻¹ — K-Fiber'de 0,35·10⁻⁴ K⁻¹. Ayrıca askı aralıkları ve DIN EN ISO 15874-1'e göre uygulama sınıfları."
           }
         ]
       },
       "cta": {
-        "title": "Laden Sie das K Aqua BIM-Paket herunter.",
-        "desc": "Vollständiger Zugriff auf alle nativen Revit-Familien, IFC-Dateien und VDI 3805 Datensätze. Kostenlos für Planer und Ingenieure.",
-        "btnPrimary": "Zum Download-Center",
-        "btnOutline": "BIM-Manager kontaktieren"
+        "title": "BIM paketini indirin.",
+        "desc": "Her ürün için bir arşiv: her anma çapı için IFC 4, metraj için ürün tablosu, Revit tip kataloğu. Kayıt gerekmez, proje müellifleri ve mühendisler için ücretsiz.",
+        "btnPrimary": "İndirme merkezine",
+        "btnOutline": "Teknik danışmanlık talep et"
       }
     },
     "common": {

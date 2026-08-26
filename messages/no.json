@@ -5795,98 +5795,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Data",
-      "metaDesc": "K Aqua BIM Data: Kompromissløs sikkerhet gjennom tysk ingeniørkunst for globale megaprosjekter. Få tilgang til vår BIM-database.",
+      "title": "BIM-data",
+      "metaDesc": "K-Aqua BIM-data: 546 artikler som IFC 4 med tilkoblingspunkter, materialdata og katalogbelegg. Uten registrering, gratis for planleggere og ingeniører.",
       "sticky": {
         "items": [
           {
-            "title": "Maksimal datadybde (LOI 500)",
-            "desc": "Våre BIM-modeller tilbyr ikke bare en svært presis geometrisk representasjon (LOD), men fremfor alt en uovertruffen informasjonsdybde (LOI). Hvert rør, armatur og ventil inneholder all kritisk metadata: materialspesifikasjoner, trykkklasser, termiske utvidelseskoeffisienter og nøyaktige varenummer for automatiserte anbud."
+            "title": "Hvert tall med sin katalogside",
+            "desc": "I hver komponent står det hvor målene kommer fra — helt ned til siden i produsentkatalogen 06-2025. Den som holder en veggtykkelse i modellen opp mot databladet, finner det samme tallet og belegget for det. Der katalogen motsier seg selv på ett punkt, står den trykte verdien i filen med merknaden ved siden av."
           },
           {
-            "title": "Kollisjonsfri planlegging",
-            "desc": "I milliardprosjekter er konfliktkontroll ikke omsettelig. Våre native Revit- og IFC-filer garanterer sømløs integrasjon i din Navisworks eller Solibri. De nøyaktige utvendige diametrene, inkludert toleranser for sveisesømmer, forhindrer kostbare overraskelser på byggeplassen."
+            "title": "Tilkoblingspunkter i stedet for klumper",
+            "desc": "Hver rørdel bærer rørtilkoblingene sine som IfcDistributionPort: plassering, akseretning, dimensjon og skjøtemetode. Ved muffesveising står innstikksdybde, oppvarmingstid og avkjølingstid rett ved tilkoblingen — verdiene fra sveiseanvisningen til produsenten, ikke fra en generell norm."
           },
           {
-            "title": "Parametrisk intelligens",
-            "desc": "K Aqua BIM-familier er fullt parametriske. De tilpasser seg dynamisk til ruting, gradienter og dimensjoner. Den integrerte automatiske rutingen velger automatisk de riktige reduksjonene og bøyevinklene i samsvar med de strenge kravene i DIN EN ISO 15874."
+            "title": "Rør forblir rør",
+            "desc": "Et rør kommer som IfcSweptDiskSolid med utvendig og innvendig radius, ikke som et trekantnett. I Revit eller ArchiCAD forblir det dermed et rørsegment som lar seg legge og trimme. Filen er ni kilobyte stor i stedet for flere hundre."
           },
           {
-            "title": "Livssyklus og anleggsadministrasjon",
-            "desc": "Den digitale tvillingen slutter ikke med overleveringen av bygget. Våre BIM-objekter er COBie-kompatible og gir Facility Management alle nødvendige vedlikeholdsintervaller, sertifikater og driftsdata for en sikker livssyklus på over 50 år."
+            "title": "Monteringsdata fra katalogen",
+            "desc": "Opphengsavstander for hver dimensjon og sju temperaturer, bruksklasser etter DIN EN ISO 15874-1 med tillatt driftstrykk, lengdeutvidelse. K-Fiber-rør bærer her sin egen koeffisient på 0,35·10⁻⁴ K⁻¹ — godt fire ganger mindre enn et ettlagsrør, og nettopp grunnen til fiberkomposittsjiktet."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Digitale tvillinger til perfeksjon.",
-        "lead": "Et innblikk i dybden av data som eliminerer gapet mellom planlegging og virkelighet."
+        "eyebrow": "Hva som står i filene",
+        "title": "Prosjekteringsdata som lar seg etterprøve.",
+        "lead": "Fire egenskaper som utgjør forskjellen når en modell ikke bare skal se pen ut, men også skal bære."
       },
       "timeline": {
         "items": [
           {
             "year": "Fase 1",
-            "title": "Konsept & TGA-Planlegging",
-            "text": "Integrasjon av K Aqua grunngeometrier i tidlig design. Rask mengdeberegning og innledende kollisjonskontroll for rutekonseptet i MEP-hovedplanen."
+            "title": "Konsept og traséføring",
+            "text": "Hele katalogen som tabell eller JSON: 546 artikler med dimensjon, materiale og vekt. Nok til den første mengdeberegningen og traséplanleggingen, før en eneste modell er lastet inn."
           },
           {
             "year": "Fase 2",
-            "title": "Utførelsesplanlegging",
-            "text": "Konvertering til LOI 400. De nøyaktige spesifikasjonene, strømningshastighetene og trykktapsberegningene flyter direkte inn i den hydrauliske nettverksberegningen for bygget."
+            "title": "Detaljprosjektering",
+            "text": "IFC 4 per dimensjon, i millimeter. Utvendig diameter, veggtykkelse og byggelengder fra katalogen, i tillegg opphengsavstander og bruksklasser til nettverksberegningen."
           },
           {
             "year": "Fase 3",
-            "title": "Anbud & Tildeling",
-            "text": "Automatisert generering av feilfrie stykklister (BOM) direkte fra modellen. Hvert tilbehør har K Aqua artikkelnummer og VDI 3805 data."
+            "title": "Anbud og tildeling",
+            "text": "Hver komponent bærer artikkelnummeret sitt som IFC-tagg og i egenskapssettet. Stykklisten fra modellen lar seg dermed holde opp mot katalogen uten omvei."
           },
           {
             "year": "Fase 4",
             "title": "Prefabrikasjon og montering",
-            "text": "Eksport av isometriske tegninger for industriell prefabrikasjon. Millimeternøyaktige spool-tegninger minimerer sveisearbeid på byggeplassen til et absolutt minimum."
+            "text": "Innstikksdybde, oppvarmingstid og avkjølingstid står per dimensjon ved tilkoblingspunktet. Prefabrikanten leser sveiseparametrene fra den samme modellen som han henter lengdene fra."
           },
           {
             "year": "Fase 5",
-            "title": "As-Built og drift",
-            "text": "Overlevering av den ferdigbygde (As-Built) modellen. Den digitale tvillingen fungerer som den eneste kilden til sannhet for anleggsadministrasjon over hele bygningens levetid."
+            "title": "As-built og drift",
+            "text": "Artikkelnummeret blir værende på komponenten. Den som om tjue år skal bytte ut en rørdel, finner i modellen hva som ble bygd inn — sammen med katalogsiden det sto på."
           }
         ],
-        "title": "Livssyklusen til K Aqua BIM-data",
-        "desc": "Fra den første skissen til flere tiår med drift. Våre data følger prosjektet ditt i alle faser."
+        "title": "Der dataene griper inn i prosjektet",
+        "desc": "Fra den første mengdeberegningen til reservedelen etter tjue år."
       },
       "hero": {
-        "desc": "Denne modulen leverer kompromissløs sikkerhet for de mest krevende prosjektene over hele verden. Produsert til de strengeste bransjestandardene for å vare i generasjoner. Last ned den digitale tvillingen der maskinvarefeil ikke er et alternativ.",
-        "btnPrimary": "BIM bibliotek (Revit/IFC)",
-        "btnGhost": "Be om BIM-rådgivning"
+        "desc": "546 artikler som IFC 4 — med tilkoblingspunkter, materialdata, monteringsdata og katalogsiden hver enkelt opplysning står på. Enkeltvis eller som pakke, uten registrering.",
+        "btnPrimary": "Last ned IFC-bibliotek",
+        "btnGhost": "Be om teknisk rådgivning"
       },
       "intro": {
-        "title1": "DNAet til rørsystemene våre.",
-        "title2": "Nå i skyen.",
-        "p1": "Vi ser ikke på BIM som en ren 3D-tegning. For K Aqua betyr Building Information Modeling overføring av vår kompromissløse produksjonspresisjon til det digitale rommet. Når internasjonale totalentreprenører planlegger skyskrapere, datasentre eller høysikkerhetslaboratorier, trenger de ikke estimerte verdier, de trenger fysisk virkelighet i form av data.",
-        "p2": "Datasentrene våre er resultatet av tiår med tysk ingeniørkunst. Hver veggtykkelse, hver væskedynamikk og hver termisk egenskap ble validert av våre ingeniører og oversatt naturlig til familiene."
+        "title1": "Målene på rørsystemene våre.",
+        "title2": "Tall for tall til å etterprøve.",
+        "p1": "Et BIM-objekt er verdt like mye som dataene det bærer. Derfor blir ingen fil hos oss til ut fra en tegning, men ut fra produsentkatalogen: den samme kilden som produktsidene på dette nettstedet henter tallene sine fra. Avviker en verdi, avviker den likt overalt — og lar seg rette opp ett sted.",
+        "p2": "Hver fil blir laget på nytt i det øyeblikket den hentes. Det ligger ingen beholdning av genererte filer og blir foreldet, og ikke noe bibliotek som henger etter en katalogutgave. Det du laster ned, svarer til det som står på produktsiden — alltid."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® familier",
-            "desc": "Ingen konverteringstap. Programmert direkte som .rfa og .rvt for topp ytelse og opprinnelige ruting-preferanser."
+            "title": "IFC 4, åpent og i millimeter",
+            "desc": "Kan leses inn i Revit, ArchiCAD, Allplan og Vectorworks, og kontrolleres i Navisworks og Solibri. Samme enhet som i katalogen — ingen omregning ved sammenligning med databladet."
           },
           {
-            "title": "VDI 3805 overholdelse",
-            "desc": "Standardiserte produktdata for jevn datautveksling gjennom hele MEP-kjeden."
+            "title": "Tilkoblingspunkter med sveisedata",
+            "desc": "IfcDistributionPort per tilkobling, med dimensjon og skjøtemetode. Ved muffesveising i tillegg innstikksdybde, oppvarmingstid og avkjølingstid fra bearbeidingsanvisningen."
           },
           {
-            "title": "IFC4 testing",
-            "desc": "Maksimal interoperabilitet gjennom åpne BIM-standarder (OpenBIM). Garantert å være lesbar i ArchiCAD, Allplan og Vectorworks."
+            "title": "Revit-typekatalog",
+            "desc": "Native .rfa-familier er et lukket binærformat og lar seg ikke lage uten Revit-lisens. Vi leverer IFC 4, som Revit leser inn direkte, og typekatalogen med alle dimensjoner og mål."
           },
           {
-            "title": "Nøyaktige termiske data",
-            "desc": "Integrerte beregningsmodeller for lineær ekspansjon, termisk ledningsevne (0,24 W/mK) og rørfriksjonstrykkfall."
+            "title": "Material- og systemdata",
+            "desc": "Tetthet 905 kg/m³, varmeledningsevne 0,24 W/(m·K), lengdeutvidelse 1,5·10⁻⁴ K⁻¹ — ved K-Fiber 0,35·10⁻⁴ K⁻¹. I tillegg opphengsavstander og bruksklasser etter DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Last ned K Aqua BIM-pakken.",
-        "desc": "Full tilgang til alle opprinnelige Revit-familier, IFC-filer og VDI 3805-datasett. Gratis for planleggere og ingeniører.",
+        "title": "Last ned BIM-pakken.",
+        "desc": "Ett arkiv per produkt: IFC 4 for hver dimensjon, artikkeltabell til mengdeberegningen, Revit-typekatalog. Uten registrering, gratis for planleggere og ingeniører.",
         "btnPrimary": "Til Nedlastingssenter",
-        "btnOutline": "Kontakt BIM Manager"
+        "btnOutline": "Be om teknisk rådgivning"
       }
     },
     "common": {

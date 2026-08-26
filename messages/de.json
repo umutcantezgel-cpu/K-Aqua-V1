@@ -7284,97 +7284,97 @@
     },
     "bim": {
       "title": "BIM-Daten",
-      "metaDesc": "K Aqua BIM-Daten: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Greifen Sie auf unsere BIM-Datenbank zu.",
+      "metaDesc": "K-Aqua BIM-Daten: 546 Artikel als IFC 4 mit Anschlusspunkten, Werkstoffkennwerten und Katalogbeleg. Ohne Registrierung, kostenlos für Planer und Ingenieure.",
       "sticky": {
         "items": [
           {
-            "title": "Maximale Datentiefe (LOI 500)",
-            "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting und jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Druckstufen, thermische Ausdehnungskoeffizienten und exakte Artikelnummern für die automatisierte Ausschreibung."
+            "title": "Jede Zahl mit ihrer Katalogseite",
+            "desc": "In jedem Bauteil steht, woher seine Maße stammen — bis auf die Seite im Herstellerkatalog 06-2025 genau. Wer eine Wandstärke im Modell gegen das Datenblatt hält, findet dieselbe Zahl und den Beleg dazu. Wo der Katalog sich an einer Stelle selbst widerspricht, steht der gedruckte Wert in der Datei und der Hinweis daneben."
           },
           {
-            "title": "Kollisionsfreie Planung",
-            "desc": "In Milliardenprojekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- und IFC-Dateien garantieren eine nahtlose Integration in Ihr Navisworks oder Solibri. Die exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen auf der Baustelle."
+            "title": "Anschlusspunkte statt Klumpen",
+            "desc": "Jedes Formstück trägt seine Rohranschlüsse als IfcDistributionPort: Lage, Achsrichtung, Nennweite und Verbindungsart. Bei Muffenschweißung stehen Einschweißtiefe, Anwärmzeit und Abkühlzeit direkt am Anschluss — die Werte aus der Schweißanweisung des Herstellers, nicht aus einer allgemeinen Norm."
           },
           {
-            "title": "Parametrische Intelligenz",
-            "desc": "K Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle und Dimensionierungen an. Das integrierte Auto-Routing wählt automatisch die korrekten Reduzierungen und Bogenwinkel gemäß den strengen Vorgaben der DIN EN ISO 15874."
+            "title": "Rohre bleiben Rohre",
+            "desc": "Ein Rohr kommt als IfcSweptDiskSolid mit Außen- und Innenradius, nicht als Dreiecksnetz. In Revit oder ArchiCAD bleibt es damit ein Rohrsegment, das sich verlegen und trimmen lässt. Die Datei ist neun Kilobyte groß statt einiger hundert."
           },
           {
-            "title": "Lifecycle & Facility Management",
-            "desc": "Der digitale Zwilling endet nicht mit der Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel und liefern dem Facility Management alle notwendigen Wartungsintervalle, Zertifikate und Betriebsdaten für einen sicheren Lebenszyklus von über 50 Jahren."
+            "title": "Verlegedaten aus dem Katalog",
+            "desc": "Halterungsabstände für jede Nennweite und sieben Temperaturen, Anwendungsklassen nach DIN EN ISO 15874-1 mit zulässigem Betriebsdruck, Längenausdehnung. K-Fiber-Rohre tragen dabei ihren eigenen Koeffizienten von 0,35·10⁻⁴ K⁻¹ — gut viermal weniger als ein Monoschichtrohr, und genau der Grund für die Faserverbundlage."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Digitale Zwillinge in Perfektion.",
-        "lead": "Ein Einblick in die Datentiefe, die den Unterschied zwischen Planung und Realität eliminiert."
+        "eyebrow": "Was in den Dateien steht",
+        "title": "Planungsdaten, die man nachprüfen kann.",
+        "lead": "Vier Eigenschaften, die den Unterschied machen, wenn ein Modell nicht nur schön aussehen, sondern tragen soll."
       },
       "timeline": {
         "items": [
           {
             "year": "Phase 1",
-            "title": "Konzeption & TGA-Planung",
-            "text": "Integration der K Aqua Basis-Geometrien in den frühen Entwurf. Schnelle Massenermittlung und erste Kollisionsprüfung für das Trassenkonzept im TGA-Masterplan."
+            "title": "Konzept und Trassenführung",
+            "text": "Der Gesamtkatalog als Tabelle oder JSON: 546 Artikel mit Nennweite, Werkstoff und Gewicht. Genug für die erste Massenermittlung und die Trassenplanung, bevor ein einziges Modell geladen ist."
           },
           {
             "year": "Phase 2",
             "title": "Ausführungsplanung",
-            "text": "Umstellung auf LOI 400. Die exakten Spezifikationen, Fließgeschwindigkeiten und Druckverlustberechnungen fließen direkt in die hydraulische Netzberechnung des Gebäudes ein."
+            "text": "IFC 4 je Nennweite, in Millimetern. Außendurchmesser, Wandstärke und Baulängen aus dem Katalog, dazu Halterungsabstände und Anwendungsklassen für die Netzberechnung."
           },
           {
             "year": "Phase 3",
-            "title": "Ausschreibung & Vergabe",
-            "text": "Automatisierte Generierung von fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist mit der K Aqua Artikelnummer und VDI 3805 Daten hinterlegt."
+            "title": "Ausschreibung und Vergabe",
+            "text": "Jedes Bauteil trägt seine Artikelnummer als IFC-Tag und im Merkmalssatz. Die Stückliste aus dem Modell lässt sich damit ohne Umweg gegen den Katalog halten."
           },
           {
             "year": "Phase 4",
-            "title": "Vorfertigung & Montage",
-            "text": "Export von isometrischen Zeichnungen für die industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten auf der Baustelle auf ein absolutes Minimum."
+            "title": "Vorfertigung und Montage",
+            "text": "Einschweißtiefe, Anwärmzeit und Abkühlzeit stehen je Nennweite am Anschlusspunkt. Der Vorfertiger liest die Schweißparameter aus demselben Modell, aus dem er die Längen nimmt."
           },
           {
             "year": "Phase 5",
-            "title": "As-Built & Betrieb",
-            "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks."
+            "title": "Bestand und Betrieb",
+            "text": "Die Artikelnummer bleibt am Bauteil. Wer nach zwanzig Jahren ein Formstück ersetzt, findet im Modell, was verbaut wurde — samt Katalogseite, auf der es stand."
           }
         ],
-        "title": "Der Lebenszyklus der K Aqua BIM-Daten",
-        "desc": "Von der ersten Skizze bis zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt in jeder Phase."
+        "title": "Wo die Daten im Projekt greifen",
+        "desc": "Von der ersten Massenermittlung bis zum Ersatzteil nach zwanzig Jahren."
       },
       "hero": {
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Laden Sie den digitalen Zwilling herunter, wo Materialversagen keine Option ist.",
-        "btnPrimary": "BIM Bibliothek (Revit/IFC)",
-        "btnGhost": "BIM Consulting anfragen"
+        "desc": "546 Artikel als IFC 4 — mit Anschlusspunkten, Werkstoffkennwerten, Verlegedaten und der Katalogseite, auf der jede Angabe steht. Einzeln oder als Paket, ohne Registrierung.",
+        "btnPrimary": "IFC-Bibliothek herunterladen",
+        "btnGhost": "Technische Beratung anfragen"
       },
       "intro": {
-        "title1": "Die DNA unserer Rohrsysteme.",
-        "title2": "Jetzt in der Cloud.",
-        "p1": "Wir verstehen BIM nicht als bloße 3D-Zeichnung. Für K Aqua ist Building Information Modeling der Transfer unserer kompromisslosen Fertigungspräzision in den digitalen Raum. Wenn internationale Generalunternehmer Wolkenkratzer, Rechenzentren oder Hochsicherheitslabore planen, benötigen sie keine geschätzten Werte, sie benötigen physikalische Realität in Form von Daten.",
-        "p2": "Unsere Datensätze sind das Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik und jede thermische Eigenschaft wurde von unseren Ingenieuren validiert und nativ in die Familien übersetzt."
+        "title1": "Die Maße unserer Rohrsysteme.",
+        "title2": "Zahl für Zahl nachprüfbar.",
+        "p1": "Ein BIM-Objekt ist so viel wert wie die Daten, die es trägt. Deshalb entsteht bei uns keine Datei aus einer Zeichnung, sondern aus dem Herstellerkatalog: dieselbe Quelle, aus der auch die Produktseiten dieser Website ihre Zahlen nehmen. Weicht ein Wert ab, weicht er überall gleich ab — und lässt sich an einer Stelle richtigstellen.",
+        "p2": "Jede Datei entsteht im Augenblick des Abrufs neu. Es liegt kein erzeugter Dateibestand herum, der veralten könnte, und keine Bibliothek, die einem Katalogstand hinterherhinkt. Was Sie herunterladen, entspricht dem, was auf der Produktseite steht — immer."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® Familien",
-            "desc": "Keine Konvertierungsverluste. Direkt als .rfa und .rvt programmiert für höchste Performance und native Routing-Präferenzen."
+            "title": "IFC 4, offen und in Millimetern",
+            "desc": "Einlesbar in Revit, ArchiCAD, Allplan und Vectorworks, prüfbar in Navisworks und Solibri. Dieselbe Einheit wie im Katalog — keine Umrechnung beim Vergleich mit dem Datenblatt."
           },
           {
-            "title": "VDI 3805 Konformität",
-            "desc": "Standardisierte Produktdaten für den reibungslosen Datenaustausch in der gesamten TGA-Kette."
+            "title": "Anschlusspunkte mit Schweißdaten",
+            "desc": "IfcDistributionPort je Anschluss, mit Nennweite und Verbindungsart. Bei Muffenschweißung dazu Einschweißtiefe, Anwärmzeit und Abkühlzeit aus der Verarbeitungsanleitung."
           },
           {
-            "title": "IFC4 Prüfung",
-            "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar in ArchiCAD, Allplan und Vectorworks."
+            "title": "Revit-Typenkatalog",
+            "desc": "Native .rfa-Familien sind ein geschlossenes Binärformat und ohne Revit-Lizenz nicht erzeugbar. Wir liefern IFC 4, das Revit direkt einliest, und den Typenkatalog mit allen Nennweiten und Maßen."
           },
           {
-            "title": "Exakte thermische Daten",
-            "desc": "Integrierte Berechnungsmodelle für Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) und Rohrreibungsdruckgefälle."
+            "title": "Werkstoff- und Systemkennwerte",
+            "desc": "Dichte 905 kg/m³, Wärmeleitfähigkeit 0,24 W/(m·K), Längenausdehnung 1,5·10⁻⁴ K⁻¹ — bei K-Fiber 0,35·10⁻⁴ K⁻¹. Dazu Halterungsabstände und Anwendungsklassen nach DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Laden Sie das K Aqua BIM-Paket herunter.",
-        "desc": "Vollständiger Zugriff auf alle nativen Revit-Familien, IFC-Dateien und VDI 3805 Datensätze. Kostenlos für Planer und Ingenieure.",
+        "title": "Laden Sie das BIM-Paket herunter.",
+        "desc": "Je Produkt ein Archiv: IFC 4 für jede Nennweite, Artikeltabelle für die Massenermittlung, Revit-Typenkatalog. Ohne Registrierung, kostenlos für Planer und Ingenieure.",
         "btnPrimary": "Zum Download-Center",
-        "btnOutline": "BIM-Manager kontaktieren"
+        "btnOutline": "Technische Beratung anfragen"
       }
     },
     "common": {

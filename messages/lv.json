@@ -4202,98 +4202,98 @@
       }
     },
     "bim": {
-      "title": "BIM Dati",
-      "metaDesc": "K Aqua BIM dati: Bezkompromisa drošība, ko nodrošina Vācijas inženierija globāliem megaprojektiem. Piekļūstiet mūsu BIM datu bāzei.",
+      "title": "BIM dati",
+      "metaDesc": "K-Aqua BIM dati: 546 artikuli IFC 4 formātā ar pieslēguma punktiem, materiālu rādītājiem un atsauci uz katalogu. Bez reģistrācijas, bez maksas projektētājiem un inženieriem.",
       "sticky": {
         "items": [
           {
-            "title": "Maksimālais datu dziļums (LOI 500)",
-            "desc": "Mūsu BIM modeļi piedāvā ne tikai augstas precizitātes ģeometrisko attēlojumu (LOD), bet galvenokārt nepārspējamu informācijas dziļumu (LOI). Katra caurule, katrs veidgabals un katrs vārsts satur visus kritiskos metadatus: materiālu specifikācijas, spiediena rādītājus, termiskās izplešanās koeficientus un precīzus artikulu numurus automatizētam iepirkumam."
+            "title": "Katrs skaitlis ar savu kataloga lappusi",
+            "desc": "Katrā elementā ir norādīts, no kurienes nāk tā izmēri — līdz pat lappusei ražotāja katalogā 06-2025. Kas sieniņas biezumu modelī salīdzina ar datu lapu, atrod to pašu skaitli un tā pamatojumu. Tur, kur katalogs vienuviet pats sev runā pretī, failā ir iespiestā vērtība un blakus tai attiecīga piezīme."
           },
           {
-            "title": "Plānošana bez sadursmēm",
-            "desc": "Miljardu vērtos projektos sadursmju atklāšana (Clash-Detection) nav apspriežama. Mūsu vietējie Revit un IFC faili garantē nevainojamu integrāciju Jūsu Navisworks vai Solibri programmatūrā. Precīzi ārējie diametri, ieskaitot metinājuma šuvju pielaides, novērš dārgus pārsteigumus būvlaukumā."
+            "title": "Pieslēguma punkti, nevis viengabala ķermenis",
+            "desc": "Katrs veidgabals nes savus cauruļu pieslēgumus kā IfcDistributionPort: novietojumu, ass virzienu, nominālo izmēru un savienojuma veidu. Uzmavas metināšanas gadījumā iemetināšanas dziļums, sildīšanas laiks un dzesēšanas laiks ir norādīti tieši pie pieslēguma — vērtības no ražotāja metināšanas instrukcijas, nevis no vispārīga standarta."
           },
           {
-            "title": "Parametriskā inteliģence",
-            "desc": "K Aqua BIM saimes (families) ir pilnībā parametriskas. Tās dinamiski pielāgojas cauruļvadu izvietojumam, slīpumam un izmēriem. Integrētā automātiskā maršrutēšana (Auto-Routing) automātiski izvēlas pareizos reduktorus un leņķus atbilstoši stingrām DIN EN ISO 15874 prasībām."
+            "title": "Caurules paliek caurules",
+            "desc": "Caurule nāk kā IfcSweptDiskSolid ar ārējo un iekšējo rādiusu, nevis kā trijstūru tīkls. Revit vai ArchiCAD tā līdz ar to paliek cauruļvada posms, ko var izvietot un apgriezt. Fails ir deviņus kilobaitus liels, nevis dažus simtus."
           },
           {
-            "title": "Ekspluatācijas cikla un Objekta pārvaldība",
-            "desc": "Digitālais dvīnis nebeidzas ar ēkas nodošanu. Mūsu BIM objekti ir saderīgi ar COBie un nodrošina objektu pārvaldībai (Facility Management) visus nepieciešamos apkopes intervālus, sertifikātus un ekspluatācijas datus drošam dzīves ciklam, kas pārsniedz 50 gadus."
+            "title": "Montāžas dati no kataloga",
+            "desc": "Stiprinājumu atstatumi katram nominālajam izmēram un septiņām temperatūrām, lietošanas klases pēc DIN EN ISO 15874-1 ar pieļaujamo darba spiedienu, garuma izplešanās. K-Fiber caurulēm turklāt ir savs koeficients 0,35·10⁻⁴ K⁻¹ — vairāk nekā četras reizes mazāks nekā vienslāņa caurulei, un tieši tas ir šķiedras kompozītslāņa iemesls."
           }
         ],
-        "eyebrow": "Darbplūsmas izcilība",
-        "title": "Digitālie dvīņi pilnībā.",
-        "lead": "Ieskats datu dziļumā, kas novērš atšķirību starp plānošanu un realitāti."
+        "eyebrow": "Kas ir failos",
+        "title": "Projektēšanas dati, ko var pārbaudīt.",
+        "lead": "Četras īpašības, kas izšķir tad, kad modelim jābūt ne tikai skaistam, bet arī noturīgam."
       },
       "timeline": {
         "items": [
           {
-            "year": "1. Fāze",
-            "title": "Koncepcija un TGA Plānošana",
-            "text": "K Aqua bāzes ģeometriju integrācija agrīnā projektēšanā. Ātra apjomu noteikšana un sākotnējā sadursmju pārbaude trases koncepcijai TGA ģenerālplānā."
+            "year": "1. fāze",
+            "title": "Koncepcija un trases risinājums",
+            "text": "Viss katalogs kā tabula vai JSON: 546 artikuli ar nominālo izmēru, materiālu un svaru. Pietiek pirmajai apjomu noteikšanai un trases plānošanai, pirms ir ielādēts kaut viens modelis."
           },
           {
-            "year": "2. Fāze",
-            "title": "Izstrādes plānošana",
-            "text": "Pāreja uz LOI 400. Precīzas specifikācijas, plūsmas ātrumi un spiediena zudumu aprēķini plūst tieši ēkas hidrauliskā tīkla aprēķinos."
+            "year": "2. fāze",
+            "title": "Tehniskais projekts",
+            "text": "IFC 4 katram nominālajam izmēram, milimetros. Ārējais diametrs, sieniņas biezums un būvgarumi no kataloga, kā arī stiprinājumu atstatumi un lietošanas klases tīkla aprēķinam."
           },
           {
-            "year": "3. Fāze",
-            "title": "Iepirkums un Piešķiršana",
-            "text": "Automatizēta bezkļūdu Materiālu sarakstu (BOM) ģenerēšana tieši no modeļa. Katram veidgabalam ir K Aqua artikula numurs un VDI 3805 dati."
+            "year": "3. fāze",
+            "title": "Iepirkums un līguma piešķiršana",
+            "text": "Katrs elements nes savu artikula numuru kā IFC birku un īpašību kopā. Materiālu sarakstu no modeļa tādējādi var tieši salīdzināt ar katalogu."
           },
           {
-            "year": "4. Fāze",
-            "title": "Rūpnīcas izgatavošana un Montāža",
-            "text": "Izometrisko rasējumu eksports rūpnieciskai iepriekšējai ražošanai. Milimetru precīzi spoles (Spool) rasējumi samazina metināšanas darbus būvlaukumā līdz absolūtam minimumam."
+            "year": "4. fāze",
+            "title": "Rūpnieciskā izgatavošana un montāža",
+            "text": "Iemetināšanas dziļums, sildīšanas laiks un dzesēšanas laiks ir norādīti katram nominālajam izmēram pie pieslēguma punkta. Izgatavotājs nolasa metināšanas parametrus no tā paša modeļa, no kura ņem garumus."
           },
           {
-            "year": "5. Fāze",
-            "title": "As-Built un Ekspluatācija",
-            "text": "Faktiski izbūvētā (As-Built) modeļa nodošana. Digitālais dvīnis kalpo kā vienīgais patiesības avots objekta pārvaldībai visā ēkas ekspluatācijas laikā."
+            "year": "5. fāze",
+            "title": "Izpilddokumentācija un ekspluatācija",
+            "text": "Artikula numurs paliek pie elementa. Kas pēc divdesmit gadiem nomaina veidgabalu, modelī atrod, kas bijis iebūvēts — kopā ar kataloga lappusi, kurā tas bija norādīts."
           }
         ],
-        "title": "K Aqua BIM Datu Dzīves cikls",
-        "desc": "No pirmās skices līdz gadu desmitiem ilgai darbībai. Mūsu dati pavada Jūsu projektu katrā posmā."
+        "title": "Kur dati noder projektā",
+        "desc": "No pirmās apjomu noteikšanas līdz rezerves daļai pēc divdesmit gadiem."
       },
       "hero": {
-        "desc": "Šis modulis nodrošina bezkompromisa drošību pasaulē visprasīgākajiem projektiem. Ražots atbilstoši stingrākajiem nozares standartiem, lai kalpotu paaudzēm. Lejupielādējiet digitālo dvīni tur, kur materiālu atteice nav pieļaujama.",
-        "btnPrimary": "BIM Bibliotēka (Revit/IFC)",
-        "btnGhost": "Pieprasīt BIM konsultāciju"
+        "desc": "546 artikuli IFC 4 formātā — ar pieslēguma punktiem, materiālu rādītājiem, montāžas datiem un kataloga lappusi, kurā atrodama katra norāde. Atsevišķi vai kā pakete, bez reģistrācijas.",
+        "btnPrimary": "Lejupielādēt IFC bibliotēku",
+        "btnGhost": "Pieprasīt tehnisku konsultāciju"
       },
       "intro": {
-        "title1": "Mūsu cauruļvadu sistēmu DNS.",
-        "title2": "Tagad mākonī.",
-        "p1": "Mēs nesaprotam BIM vienkārši kā 3D zīmējumu. K Aqua ēkas informācijas modelēšana (BIM) nozīmē mūsu bezkompromisa ražošanas precizitātes pārnešanu digitālajā telpā. Kad starptautiskie ģenerāluzņēmēji plāno debesskrāpjus, datu centrus vai augstas drošības laboratorijas, viņiem nav nepieciešamas aptuvenas vērtības, bet gan fiziska realitāte datu veidā.",
-        "p2": "Mūsu datu kopas ir gadu desmitiem ilgas Vācijas inženierijas rezultāts. Katru sieniņas biezumu, katru plūsmas dinamiku un katru termisko īpašību mūsu inženieri ir apstiprinājuši un lokāli tulkojuši BIM saimēs (families)."
+        "title1": "Mūsu cauruļvadu sistēmu izmēri.",
+        "title2": "Pārbaudāmi skaitlis pēc skaitļa.",
+        "p1": "BIM objekts ir tik daudz vērts, cik vērti ir dati, ko tas nes. Tāpēc pie mums neviens fails nerodas no rasējuma, bet gan no ražotāja kataloga: no tā paša avota, no kura savus skaitļus ņem arī šīs vietnes produktu lapas. Ja kāda vērtība atšķiras, tā atšķiras visur vienādi — un to var izlabot vienā vietā.",
+        "p2": "Katrs fails top no jauna tajā brīdī, kad to lejupielādē. Nav neviena iepriekš ģenerēta failu krājuma, kas varētu novecot, un nevienas bibliotēkas, kas atpaliktu no kataloga stāvokļa. Tas, ko lejupielādējat, atbilst tam, kas rakstīts produkta lapā — vienmēr."
       },
       "bento": {
         "items": [
           {
-            "title": "Vietējās Revit® saimes",
-            "desc": "Nav konvertēšanas zudumu. Tieši ieprogrammētas kā .rfa un .rvt, nodrošinot augstāko veiktspēju un vietējās maršrutēšanas preferences."
+            "title": "IFC 4, atvērts un milimetros",
+            "desc": "Nolasāms Revit, ArchiCAD, Allplan un Vectorworks, pārbaudāms Navisworks un Solibri. Tā pati mērvienība kā katalogā — nekas nav jāpārrēķina, salīdzinot ar datu lapu."
           },
           {
-            "title": "VDI 3805 atbilstība",
-            "desc": "Standartizēti produktu dati netraucētai datu apmaiņai visā TGA (Tehnisko ēku sistēmu) ķēdē."
+            "title": "Pieslēguma punkti ar metināšanas datiem",
+            "desc": "IfcDistributionPort katram pieslēgumam, ar nominālo izmēru un savienojuma veidu. Uzmavas metināšanas gadījumā papildus iemetināšanas dziļums, sildīšanas laiks un dzesēšanas laiks no apstrādes instrukcijas."
           },
           {
-            "title": "IFC4 sertifikācija",
-            "desc": "Maksimāla sadarbspēja, izmantojot atvērtos BIM standartus (OpenBIM). Garantēta lasāmība ArchiCAD, Allplan un Vectorworks programmās."
+            "title": "Revit tipu katalogs",
+            "desc": "Vietējās .rfa saimes ir slēgts binārais formāts, un bez Revit licences tās nav izveidojamas. Mēs piegādājam IFC 4, ko Revit nolasa tieši, un tipu katalogu ar visiem nominālajiem izmēriem un mēriem."
           },
           {
-            "title": "Precīzi termiskie dati",
-            "desc": "Integrēti aprēķinu modeļi lineārai izplešanās, siltumvadītspējai (0.24 W/mK) un cauruļu berzes spiediena zudumam."
+            "title": "Materiāla un sistēmas rādītāji",
+            "desc": "Blīvums 905 kg/m³, siltumvadītspēja 0,24 W/(m·K), garuma izplešanās 1,5·10⁻⁴ K⁻¹ — K-Fiber gadījumā 0,35·10⁻⁴ K⁻¹. Papildus stiprinājumu atstatumi un lietošanas klases pēc DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Lejupielādējiet K Aqua BIM paketi.",
-        "desc": "Pilnīga piekļuve visām vietējām Revit saimēm, IFC failiem un VDI 3805 datu kopām. Bezmaksas plānotājiem un inženieriem.",
+        "title": "Lejupielādējiet BIM paketi.",
+        "desc": "Katram produktam viens arhīvs: IFC 4 katram nominālajam izmēram, artikulu tabula apjomu noteikšanai, Revit tipu katalogs. Bez reģistrācijas, bez maksas projektētājiem un inženieriem.",
         "btnPrimary": "Uz lejupielādes centru",
-        "btnOutline": "Sazināties ar BIM menedžeri"
+        "btnOutline": "Pieprasīt tehnisku konsultāciju"
       }
     },
     "support": {

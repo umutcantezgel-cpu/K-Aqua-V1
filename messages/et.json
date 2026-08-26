@@ -2600,98 +2600,98 @@
       }
     },
     "bim": {
-      "title": "BIM andmed",
-      "metaDesc": "K Aqua BIM andmed: Kompromissitu ohutus läbi Saksa insenerikunsti globaalsetele suurprojektidele. Hankige juurdepääs meie BIM-andmebaasile.",
+      "title": "BIM-andmed",
+      "metaDesc": "K-Aqua BIM-andmed: 546 toodet IFC 4 failidena koos ühenduspunktide, materjalinäitajate ja katalooginumbriga. Registreerimiseta, tasuta projekteerijatele ja inseneridele.",
       "sticky": {
         "items": [
           {
-            "title": "Maksimaalne andmesügavus (LOI 500)",
-            "desc": "Meie BIM-mudelid pakuvad mitte ainult ülitäpset geomeetrilist esitust (LOD), vaid eelkõige ületamatut infosügavust (LOI). Iga toru, iga liitmik ja iga klapp sisaldab kõiki kriitilisi metaandmeid: materjali spetsifikatsioonid, surveklassid, termilise paisumise koefitsiendid ja täpsed tootenumbrit automatiseeritud pakkumiste tegemiseks."
+            "title": "Iga arv koos oma kataloogileheküljega",
+            "desc": "Igas detailis on kirjas, kust selle mõõtmed pärinevad — täpsusega tootja kataloogi 06-2025 leheküljeni. Kes võrdleb mudelis olevat seinapaksust andmelehega, leiab sama arvu ja selle allika. Kui kataloog ühes kohas iseendale vastu räägib, on failis trükitud väärtus ja selle kõrval vastav märkus."
           },
           {
-            "title": "Kokkupõrkevaba planeerimine",
-            "desc": "Miljardiprojektides pole kokkupõrgete tuvastamine läbiräägitav. Meie natiivsed Revit- ja IFC-failid garanteerivad sujuva integreerimise teie Navisworks'i või Solibri'ga. Täpsed välisläbimõõdud, sealhulgas keevisõmbluste tolerantsid, hoiavad ära kulukad üllatused ehitusplatsil."
+            "title": "Ühenduspunktid, mitte kogumid",
+            "desc": "Iga liitmik kannab oma toruühendusi IfcDistributionPort-objektidena: asukoht, telje suund, nimimõõt ja ühendusviis. Muhvkeevituse puhul on keevitussügavus, soojendusaeg ja jahtumisaeg otse ühenduse juures — väärtused tootja keevitusjuhendist, mitte üldisest standardist."
           },
           {
-            "title": "Parameetriline intelligentsus",
-            "desc": "K Aqua BIM perekonnad on täielikult parameetrilised. Need kohanduvad dünaamiliselt torude marsruutimise, kaldete ja mõõtmetega. Integreeritud automaatne marsruutimine valib automaatselt õiged reduktorid ja paindenurgad vastavalt DIN EN ISO 15874 rangetele juhistele."
+            "title": "Torud jäävad torudeks",
+            "desc": "Toru tuleb IfcSweptDiskSolid kujul välis- ja siseraadiusega, mitte kolmnurkvõrguna. Revitis või ArchiCADis jääb see seega torulõiguks, mida saab paigaldada ja lõigata. Fail on üheksa kilobaidi suurune, mitte mõnisada."
           },
           {
-            "title": "Elutsükli ja rajatiste haldus",
-            "desc": "Digitaalne kaksik ei lõpe hoone üleandmisega. Meie BIM-objektid ühilduvad COBiega ning annavad hoonehaldajatele (Facility Management) kõik vajalikud hooldusintervallid, sertifikaadid ja tööandmed, et tagada üle 50-aastane turvaline elutsükkel."
+            "title": "Paigaldusandmed kataloogist",
+            "desc": "Kinnitusvahemikud iga nimimõõdu ja seitsme temperatuuri kohta, kasutusklassid vastavalt standardile DIN EN ISO 15874-1 koos lubatud töörõhuga, pikipaisumine. K-Fiber-torudel on seejuures oma koefitsient 0,35·10⁻⁴ K⁻¹ — enam kui neli korda väiksem kui ühekihilisel torul, ja just see on kiudkomposiitkihi olemasolu põhjus."
           }
         ],
-        "eyebrow": "Töövoo tipptase",
-        "title": "Digitaalsed kaksikud täiuslikkuseni.",
-        "lead": "Sissevaade andmesügavusse, mis kõrvaldab erinevuse planeerimise ja reaalsuse vahel."
+        "eyebrow": "Mis failides sees on",
+        "title": "Projekteerimisandmed, mida saab üle kontrollida.",
+        "lead": "Neli omadust, mis loevad siis, kui mudel ei pea üksnes hea välja nägema, vaid ka kandma."
       },
       "timeline": {
         "items": [
           {
             "year": "1. faas",
-            "title": "Kontseptsioon ja ehitustehniline planeerimine (TGA)",
-            "text": "K Aqua baasgeomeetriate integreerimine varajasse disaini. Kiire koguste arvutamine ja esialgne kokkupõrkekontroll marsruudi kontseptsiooni jaoks TGA üldplaanis."
+            "title": "Kontseptsioon ja trassivalik",
+            "text": "Kogu kataloog tabelina või JSON-failina: 546 toodet koos nimimõõdu, materjali ja kaaluga. Piisab esimeseks mahuarvutuseks ja trassiplaneerimiseks, enne kui ainsatki mudelit on laaditud."
           },
           {
             "year": "2. faas",
-            "title": "Rakendusplaneerimine",
-            "text": "Üleminek tasemele LOI 400. Täpsed spetsifikatsioonid, voolukiirused ja rõhukao arvutused liiguvad otse hoone hüdraulilisse võrguarvutusse."
+            "title": "Tööprojekt",
+            "text": "IFC 4 iga nimimõõdu kohta, millimeetrites. Välisläbimõõt, seinapaksus ja ehituspikkused kataloogist, lisaks kinnitusvahemikud ja kasutusklassid võrguarvutuse jaoks."
           },
           {
             "year": "3. faas",
-            "title": "Pakkumine ja hange",
-            "text": "Veatute materjalide nimekirjade (BOM) automatiseeritud loomine otse mudelist. Igale liitmikule on lisatud K Aqua tootenumber ja VDI 3805 andmed."
+            "title": "Hange ja pakkumine",
+            "text": "Iga detail kannab oma tootenumbrit IFC-sildina ja omaduste komplektis. Mudelist saadud koosseisuloendit saab seega otse kataloogiga kõrvutada."
           },
           {
             "year": "4. faas",
             "title": "Eelvalmistamine ja paigaldus",
-            "text": "Isomeetriliste jooniste eksportimine tööstuslikuks kokkupanekuks. Millimeetritäpsed poolijoonised minimeerivad keevitustööd ehitusplatsil absoluutse miinimumini."
+            "text": "Keevitussügavus, soojendusaeg ja jahtumisaeg on iga nimimõõdu kohta ühenduspunkti juures. Eelvalmistaja loeb keevitusparameetrid samast mudelist, kust ta võtab pikkused."
           },
           {
             "year": "5. faas",
-            "title": "Tegelik (As-Built) olukord ja käitamine",
-            "text": "As-Built mudeli üleandmine. Digitaalne kaksik on rajatiste halduse tõe ainus allikas kogu hoone elutsükli vältel."
+            "title": "Teostusmudel ja käitamine",
+            "text": "Tootenumber jääb detaili külge. Kes kahekümne aasta pärast liitmiku välja vahetab, leiab mudelist, mis sinna paigaldati — koos kataloogileheküljega, kus see kirjas oli."
           }
         ],
-        "title": "K Aqua BIM andmete elutsükkel",
-        "desc": "Alates esimesest visandist kuni aastakümnetepikkuse toimimiseni. Meie andmed saadavad teie projekti igas etapis."
+        "title": "Kus andmed projektis tööle hakkavad",
+        "desc": "Esimesest mahuarvutusest kuni varuosani kahekümne aasta pärast."
       },
       "hero": {
-        "desc": "See moodul pakub kompromissitut turvalisust maailma kõige nõudlikumatele projektidele. Toodetud vastavalt rangeimatele tööstusstandarditele, et kesta põlvkondi. Laadige alla digitaalne kaksik, kus materjali ebaõnnestumine pole valik.",
-        "btnPrimary": "BIM Raamatukogu (Revit/IFC)",
-        "btnGhost": "Küsi BIM konsultatsiooni"
+        "desc": "546 toodet IFC 4 failidena — koos ühenduspunktide, materjalinäitajate, paigaldusandmete ja kataloogileheküljega, kus iga andmeühik kirjas on. Ükshaaval või paketina, registreerimiseta.",
+        "btnPrimary": "Laadige alla IFC-teek",
+        "btnGhost": "Küsige tehnilist nõu"
       },
       "intro": {
-        "title1": "Meie torusüsteemide DNA.",
-        "title2": "Nüüd pilves.",
-        "p1": "Me ei mõista BIM-i lihtsalt kui 3D-joonist. K Aqua jaoks on Building Information Modeling meie kompromissitu tootmistäpsuse ülekandmine digitaalsesse ruumi. Kui rahvusvahelised peatöövõtjad kavandavad pilvelõhkujaid, andmekeskusi või kõrge turvalisusega laboreid, ei vaja nad hinnangulisi väärtusi, vaid nad vajavad andmetena füüsilist reaalsust.",
-        "p2": "Meie andmekogumid on aastakümnete pikkuse Saksa insenerikunsti tulemus. Iga seina paksus, iga vedeliku dünaamika ja iga soojuslik omadus on meie inseneride poolt kinnitatud ja natiivselt perekondadesse tõlgitud."
+        "title1": "Meie torusüsteemide mõõdud.",
+        "title2": "Kontrollitavad arv arvu haaval.",
+        "p1": "BIM-objekt on väärt täpselt niipalju, kui väärt on andmed, mida ta kannab. Seepärast ei sünni meil ükski fail joonisest, vaid tootja kataloogist: samast allikast, kust võtavad oma arvud ka selle veebilehe tootelehed. Kui mõni väärtus erineb, erineb see kõikjal ühtemoodi — ja seda saab parandada ühest kohast.",
+        "p2": "Iga fail sünnib uuesti sel hetkel, kui seda alla laaditakse. Ei ole valmisgenereeritud failihulka, mis võiks vananeda, ega teeki, mis kataloogi seisust maha jääks. See, mille alla laadite, vastab sellele, mis on kirjas tootelehel — alati."
       },
       "bento": {
         "items": [
           {
-            "title": "Natiivsed Revit® perekonnad",
-            "desc": "Konversioonikadusid ei ole. Programmeeritud otse .rfa ja .rvt failidena kõrgeima jõudluse ja algsete marsruutimiseelistuste tagamiseks."
+            "title": "IFC 4, avatud ja millimeetrites",
+            "desc": "Loetav Revitis, ArchiCADis, Allplanis ja Vectorworksis, kontrollitav Navisworksis ja Solibris. Sama ühik nagu kataloogis — andmelehega võrreldes pole vaja midagi ümber arvutada."
           },
           {
-            "title": "VDI 3805 ühilduvus",
-            "desc": "Standardiseeritud tooteandmed sujuvaks andmevahetuseks kogu TGA ahelas."
+            "title": "Ühenduspunktid koos keevitusandmetega",
+            "desc": "IfcDistributionPort iga ühenduse kohta, koos nimimõõdu ja ühendusviisiga. Muhvkeevituse puhul lisaks keevitussügavus, soojendusaeg ja jahtumisaeg töötlemisjuhendist."
           },
           {
-            "title": "IFC4 testimine",
-            "desc": "Maksimaalne koostalitlusvõime läbi avatud BIM standardite (OpenBIM). Garanteeritud loetavus ArchiCADis, Allplanis ja Vectorworks'is."
+            "title": "Reviti tüübikataloog",
+            "desc": "Natiivsed .rfa-perekonnad on suletud binaarvorming ja neid ei saa ilma Reviti litsentsita luua. Meie anname IFC 4, mida Revit loeb otse sisse, ja tüübikataloogi kõigi nimimõõtude ja mõõtmetega."
           },
           {
-            "title": "Täpsed termilised andmed",
-            "desc": "Integreeritud arvutusmudelid pikipaisumise, soojusjuhtivuse (0,24 W/mK) ja torude hõõrderõhu languse jaoks."
+            "title": "Materjali- ja süsteeminäitajad",
+            "desc": "Tihedus 905 kg/m³, soojusjuhtivus 0,24 W/(m·K), pikipaisumine 1,5·10⁻⁴ K⁻¹ — K-Fiberi puhul 0,35·10⁻⁴ K⁻¹. Lisaks kinnitusvahemikud ja kasutusklassid vastavalt standardile DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Laadige alla K Aqua BIM pakett.",
-        "desc": "Täielik juurdepääs kõigile natiivsetele Revit perekondadele, IFC failidele ja VDI 3805 andmekogumitele. Planeerijatele ja inseneridele tasuta.",
-        "btnPrimary": "Mine allalaadimiskeskusesse",
-        "btnOutline": "Võta ühendust BIM-i juhiga"
+        "title": "Laadige alla BIM-pakett.",
+        "desc": "Iga toote kohta üks arhiiv: IFC 4 iga nimimõõdu kohta, tootetabel mahuarvutuseks, Reviti tüübikataloog. Registreerimiseta, tasuta projekteerijatele ja inseneridele.",
+        "btnPrimary": "Allalaadimiskeskusesse",
+        "btnOutline": "Küsige tehnilist nõu"
       }
     },
     "common": {

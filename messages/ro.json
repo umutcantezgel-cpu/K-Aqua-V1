@@ -7387,98 +7387,98 @@
       }
     },
     "bim": {
-      "metaDesc": "Date BIM K Aqua: Securitate fără compromisuri prin Ingineria Germană pentru megaproiecte globale. Accesați baza noastră de date BIM.",
+      "metaDesc": "Date BIM K-Aqua: 546 de articole în format IFC 4, cu puncte de racord, caracteristici ale materialului și trimitere la catalog. Fără înregistrare, gratuit pentru proiectanți și ingineri.",
       "title": "Date BIM",
       "sticky": {
         "items": [
           {
-            "title": "Profunzime maximă a datelor (LOI 500)",
-            "desc": "Modelele noastre BIM nu oferă doar o reprezentare geometrică de înaltă precizie (LOD), ci mai ales o profunzime a informațiilor de neegalat (LOI). Fiecare țeavă, fiecare fiting și fiecare supapă conține toate metadatele critice: specificații ale materialelor, clase de presiune, coeficienți de dilatare termică și numere de articol exacte pentru oferte automate."
+            "title": "Fiecare cifră cu pagina ei din catalog",
+            "desc": "În fiecare componentă este consemnat de unde provin dimensiunile ei — până la pagina exactă din catalogul producătorului 06-2025. Cine compară o grosime de perete din model cu fișa tehnică găsește aceeași cifră și dovada ei. Acolo unde catalogul se contrazice pe sine într-un punct, în fișier se află valoarea tipărită, iar alături observația corespunzătoare."
           },
           {
-            "title": "Planificare fără coliziuni",
-            "desc": "În proiectele de miliarde de dolari, detectarea coliziunilor (Clash Detection) nu este negociabilă. Fișierele noastre native Revit și IFC garantează o integrare perfectă în Navisworks sau Solibri. Diametrele exterioare exacte, inclusiv toleranțele cusăturilor de sudură previn surprizele costisitoare pe șantier."
+            "title": "Puncte de racord, nu un bloc compact",
+            "desc": "Fiecare fiting își poartă racordurile de țeavă ca IfcDistributionPort: poziție, direcția axei, diametrul nominal și tipul îmbinării. La sudura prin polifuziune, adâncimea de sudare, timpul de încălzire și timpul de răcire sunt indicate direct la racord — valorile din instrucțiunea de sudare a producătorului, nu dintr-o normă generală."
           },
           {
-            "title": "Inteligență parametrică",
-            "desc": "Familiile BIM K Aqua sunt complet parametrice. Se adaptează dinamic la traseele conductelor, pante și dimensionări. Ruta automată (Auto-Routing) integrată selectează automat reducțiile și unghiurile de curbură corecte în conformitate cu cerințele stricte ale DIN EN ISO 15874."
+            "title": "Țeava rămâne țeavă",
+            "desc": "O țeavă vine ca IfcSweptDiskSolid, cu rază exterioară și interioară, nu ca o rețea de triunghiuri. În programul Revit sau ArchiCAD rămâne astfel un tronson de țeavă care poate fi trasat și scurtat. Fișierul are nouă kilobytes în loc de câteva sute."
           },
           {
-            "title": "Ciclul de viață & Facility Management",
-            "desc": "Geamănul digital nu se termină odată cu predarea clădirii. Obiectele noastre BIM sunt compatibile cu COBie și furnizează echipei de Facility Management toate intervalele de întreținere necesare, certificatele și datele de operare pentru un ciclu de viață sigur de peste 50 de ani."
+            "title": "Date de montaj din catalog",
+            "desc": "Distanțe între suporturi pentru fiecare diametru nominal și șapte temperaturi, clase de utilizare conform DIN EN ISO 15874-1 cu presiunea de lucru admisă, dilatarea liniară. Țevile K-Fiber au la acest capitol propriul coeficient de 0,35·10⁻⁴ K⁻¹ — de peste patru ori mai mic decât la o țeavă monostrat, și tocmai acesta este motivul stratului compozit cu fibră."
           }
         ],
-        "eyebrow": "Excelență în fluxul de lucru",
-        "title": "Gemeni digitali în perfecțiune.",
-        "lead": "O perspectivă asupra profunzimii datelor care elimină diferența dintre planificare și realitate."
+        "eyebrow": "Ce conțin fișierele",
+        "title": "Date de proiectare care pot fi verificate.",
+        "lead": "Patru însușiri care fac diferența atunci când un model nu trebuie doar să arate bine, ci și să reziste."
       },
       "timeline": {
         "items": [
           {
             "year": "Faza 1",
-            "title": "Concepție & Planificare TGA",
-            "text": "Integrarea geometriilor de bază K Aqua în proiectarea incipientă. Calculul rapid al cantităților și prima verificare a coliziunilor pentru conceptul de traseu în Masterplanul TGA."
+            "title": "Concept și trasare",
+            "text": "Catalogul complet ca tabel sau JSON: 546 de articole cu diametru nominal, material și greutate. Suficient pentru primul calcul de cantități și pentru trasarea conductelor, înainte ca vreun model să fie încărcat."
           },
           {
             "year": "Faza 2",
-            "title": "Planificarea execuției",
-            "text": "Trecerea la LOI 400. Specificațiile exacte, vitezele de curgere și calculele pierderii de presiune curg direct în calculul rețelei hidraulice a clădirii."
+            "title": "Proiectul de execuție",
+            "text": "IFC 4 pentru fiecare diametru nominal, în milimetri. Diametrul exterior, grosimea peretelui și lungimile de montaj din catalog, plus distanțele între suporturi și clasele de utilizare pentru calculul rețelei."
           },
           {
             "year": "Faza 3",
-            "title": "Licitare & Adjudecare",
-            "text": "Generarea automată a Listei de Cantități (BOM - Bill of Materials) fără erori direct din model. Fiecare fiting are asociat numărul de articol K Aqua și datele VDI 3805."
+            "title": "Licitație și atribuire",
+            "text": "Fiecare componentă își poartă numărul de articol ca etichetă IFC și în setul de proprietăți. Lista de materiale extrasă din model poate fi astfel confruntată direct cu catalogul."
           },
           {
             "year": "Faza 4",
-            "title": "Pre-fabricare & Asamblare",
-            "text": "Exportul desenelor isometrice pentru pre-fabricarea industrială. Desenele spool precise la milimetru reduc lucrările de sudură pe șantier la un minim absolut."
+            "title": "Prefabricare și montaj",
+            "text": "Adâncimea de sudare, timpul de încălzire și timpul de răcire sunt indicate pentru fiecare diametru nominal, la punctul de racord. Prefabricatorul citește parametrii de sudare din același model din care ia lungimile."
           },
           {
             "year": "Faza 5",
-            "title": "As-Built & Operare",
-            "text": "Predarea modelului As-Built. Geamănul digital servește ca Singură Sursă a Adevărului (Single Source of Truth) pentru Facility Management pe întreaga durată de viață a clădirii."
+            "title": "As-built și exploatare",
+            "text": "Numărul de articol rămâne pe componentă. Cine înlocuiește un fiting după douăzeci de ani găsește în model ce a fost montat — inclusiv pagina de catalog pe care se afla."
           }
         ],
-        "title": "Ciclul de viață al datelor BIM K Aqua",
-        "desc": "De la prima schiță la decenii de operare. Datele noastre vă însoțesc proiectul în fiecare fază."
+        "title": "Unde intervin datele în proiect",
+        "desc": "De la primul calcul de cantități până la piesa de schimb după douăzeci de ani."
       },
       "hero": {
-        "desc": "Acest modul oferă securitate fără compromisuri pentru cele mai solicitante proiecte din întreaga lume. Fabricat la cele mai stricte standarde din industrie pentru a dura de-a lungul generațiilor. Descărcați geamănul digital unde eșecul materialului nu este o opțiune.",
-        "btnPrimary": "Biblioteca BIM (Revit/IFC)",
-        "btnGhost": "Solicitați Consultanță BIM"
+        "desc": "546 de articole în format IFC 4 — cu puncte de racord, caracteristici ale materialului, date de montaj și pagina de catalog pe care stă fiecare valoare. Individual sau ca pachet, fără înregistrare.",
+        "btnPrimary": "Descărcați biblioteca IFC",
+        "btnGhost": "Solicitați consultanță tehnică"
       },
       "intro": {
-        "title1": "ADN-ul sistemelor noastre de conducte.",
-        "title2": "Acum în Cloud.",
-        "p1": "Nu vedem BIM ca pe un simplu desen 3D. Pentru K Aqua, Building Information Modeling este transferul preciziei noastre de fabricație fără compromisuri în spațiul digital. Când antreprenorii generali internaționali planifică zgârie-nori, centre de date sau laboratoare de înaltă securitate, nu au nevoie de valori estimate, au nevoie de realitate fizică sub formă de date.",
-        "p2": "Seturile noastre de date sunt rezultatul deceniilor de inginerie germană. Fiecare grosime de perete, fiecare dinamică a fluidelor și fiecare proprietate termică a fost validată de inginerii noștri și tradusă nativ în familii."
+        "title1": "Dimensiunile sistemelor noastre de conducte.",
+        "title2": "Verificabile cifră cu cifră.",
+        "p1": "Un obiect BIM valorează cât datele pe care le poartă. De aceea la noi niciun fișier nu ia naștere dintr-un desen, ci din catalogul producătorului: aceeași sursă din care își iau cifrele și paginile de produs ale acestui site. Dacă o valoare diferă, diferă la fel peste tot — și poate fi corectată într-un singur loc.",
+        "p2": "Fiecare fișier ia naștere din nou în momentul descărcării. Nu zace niciun stoc de fișiere generate care s-ar putea învechi și nicio bibliotecă rămasă în urma stării catalogului. Ceea ce descărcați corespunde cu ceea ce scrie pe pagina de produs — întotdeauna."
       },
       "bento": {
         "items": [
           {
-            "title": "Familii Revit® native",
-            "desc": "Fără pierderi de conversie. Programat direct ca .rfa și .rvt pentru performanță maximă și preferințe native de rutare."
+            "title": "IFC 4, deschis și în milimetri",
+            "desc": "Poate fi citit în programele Revit, ArchiCAD, Allplan și Vectorworks, verificat în Navisworks și Solibri. Aceeași unitate ca în catalog — nicio conversie la compararea cu fișa tehnică."
           },
           {
-            "title": "Conformitate VDI 3805",
-            "desc": "Date standardizate despre produse pentru schimbul de date fluid de-a lungul întregului lanț TGA (HVAC/MEP)."
+            "title": "Puncte de racord cu date de sudare",
+            "desc": "Câte un IfcDistributionPort pentru fiecare racord, cu diametrul nominal și tipul îmbinării. La sudura prin polifuziune, în plus adâncimea de sudare, timpul de încălzire și timpul de răcire din instrucțiunile de prelucrare."
           },
           {
-            "title": "Verificare IFC4",
-            "desc": "Interoperabilitate maximă prin standarde BIM deschise (OpenBIM). Garantat pentru a fi citit în ArchiCAD, Allplan și Vectorworks."
+            "title": "Catalog de tipuri pentru Revit",
+            "desc": "Familiile native .rfa sunt un format binar închis și nu pot fi create fără licență Revit. Livrăm IFC 4, pe care Revit îl citește direct, și catalogul de tipuri cu toate diametrele nominale și dimensiunile."
           },
           {
-            "title": "Date termice exacte",
-            "desc": "Modele de calcul integrate pentru dilatare liniară, conductivitate termică (0,24 W/mK) și gradient de presiune prin frecare în țeavă."
+            "title": "Caracteristici de material și de sistem",
+            "desc": "Densitate 905 kg/m³, conductivitate termică 0,24 W/(m·K), dilatare liniară 1,5·10⁻⁴ K⁻¹ — la K-Fiber 0,35·10⁻⁴ K⁻¹. În plus distanțele între suporturi și clasele de utilizare conform DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Descărcați Pachetul BIM K Aqua.",
-        "desc": "Acces complet la toate familiile native Revit, fișierele IFC și seturile de date VDI 3805. Gratuit pentru proiectanți și ingineri.",
+        "title": "Descărcați pachetul BIM.",
+        "desc": "Câte o arhivă pentru fiecare produs: IFC 4 pentru fiecare diametru nominal, tabelul de articole pentru calculul cantităților, catalogul de tipuri pentru Revit. Fără înregistrare, gratuit pentru proiectanți și ingineri.",
         "btnPrimary": "Spre centrul de descărcări",
-        "btnOutline": "Contactați Managerul BIM"
+        "btnOutline": "Solicitați consultanță tehnică"
       }
     },
     "common": {

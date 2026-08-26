@@ -8552,97 +8552,97 @@
     },
     "bim": {
       "title": "BIM duomenys",
-      "metaDesc": "K Aqua BIM duomenys: Bekompromisis saugumas su Vokietijos inžinerija globaliems megaprojektams. Pasiekite mūsų BIM duomenų bazę.",
+      "metaDesc": "K-Aqua BIM duomenys: 546 gaminiai IFC 4 formatu su jungties taškais, medžiagų rodikliais ir nuoroda į katalogą. Be registracijos, nemokamai projektuotojams ir inžinieriams.",
       "sticky": {
         "items": [
           {
-            "title": "Maksimalus duomenų gylis (LOI 500)",
-            "desc": "Mūsų BIM modeliai siūlo ne tik itin tikslų geometrinį vaizdavimą (LOD), bet ir neprilygstamą informacijos gylį (LOI). Kiekvienas vamzdis, fitingas ir vožtuvas turi visus kritinius metaduomenis."
+            "title": "Kiekvienas skaičius su savo katalogo puslapiu",
+            "desc": "Kiekviename elemente nurodyta, iš kur paimti jo matmenys — tiksliai iki puslapio gamintojo kataloge 06-2025. Kas modelio sienelės storį palygina su duomenų lapu, randa tą patį skaičių ir jo pagrindą. Ten, kur katalogas vienoje vietoje prieštarauja pats sau, faile įrašyta atspausdinta vertė, o šalia jos — atitinkama pastaba."
           },
           {
-            "title": "Planavimas be susidūrimų",
-            "desc": "Milijardiniuose projektuose susidūrimų aptikimas nėra derybų klausimas. Mūsų natyvūs Revit ir IFC failai garantuoja sklandžią integraciją. Tikslūs išoriniai matmenys užkerta kelią staigmenoms statybvietėje."
+            "title": "Jungties taškai, o ne vientisas luitas",
+            "desc": "Kiekvienas fasoninis elementas savo vamzdžių jungtis turi kaip IfcDistributionPort: padėtį, ašies kryptį, vardinį skersmenį ir sujungimo būdą. Suvirinant movomis, suvirinimo gylis, įkaitinimo ir aušinimo laikas nurodyti tiesiai prie jungties — vertės iš gamintojo suvirinimo instrukcijos, o ne iš bendro standarto."
           },
           {
-            "title": "Parametrinis intelektas",
-            "desc": "K Aqua BIM šeimos yra visiškai parametrinės. Jos dinamiškai prisitaiko prie maršrutų ir matmenų. Integruotas automatinis maršrutizavimas parenka teisingus kampų sumažinimus pagal DIN EN ISO 15874."
+            "title": "Vamzdžiai lieka vamzdžiais",
+            "desc": "Vamzdis pateikiamas kaip IfcSweptDiskSolid su išoriniu ir vidiniu spinduliu, o ne kaip trikampių tinklas. Todėl Revit ar ArchiCAD programoje jis lieka vamzdyno atkarpa, kurią galima kloti ir trumpinti. Failas yra devynių kilobaitų dydžio, o ne kelių šimtų."
           },
           {
-            "title": "Gyvavimo ciklo ir pastatų ūkio valdymas",
-            "desc": "Skaitmeninis dvynys nesibaigia pastato perdavimu. Mūsų BIM objektai yra suderinami su COBie ir suteikia pastatų valdymui visus reikiamus priežiūros intervalus, sertifikatus ir eksploatacinius duomenis."
+            "title": "Klojimo duomenys iš katalogo",
+            "desc": "Atramų atstumai kiekvienam vardiniam skersmeniui ir septynioms temperatūroms, naudojimo klasės pagal DIN EN ISO 15874-1 su leistinu darbo slėgiu, ilginis plėtimasis. K-Fiber vamzdžiai turi savą koeficientą 0,35·10⁻⁴ K⁻¹ — daugiau nei keturis kartus mažesnį nei vienasluoksnis vamzdis, ir būtent dėl to yra pluošto kompozito sluoksnis."
           }
         ],
-        "eyebrow": "Darbo eigos meistriškumas",
-        "title": "Tobuli skaitmeniniai dvyniai.",
-        "lead": "Žvilgsnis į duomenų gylį, kuris eliminuoja skirtumą tarp planavimo ir realybės."
+        "eyebrow": "Kas įrašyta failuose",
+        "title": "Projektavimo duomenys, kuriuos galima patikrinti.",
+        "lead": "Keturios savybės, kurios lemia tada, kai modelis turi ne tik gerai atrodyti, bet ir laikyti."
       },
       "timeline": {
         "items": [
           {
-            "year": "1 Fazė",
-            "title": "Koncepcija ir planavimas",
-            "text": "K Aqua bazinių geometrijų integracija ankstyvame projekte. Greitas masės nustatymas ir pirmasis susidūrimų patikrinimas."
+            "year": "1 fazė",
+            "title": "Koncepcija ir trasos parinkimas",
+            "text": "Visas katalogas kaip lentelė arba JSON: 546 gaminiai su vardiniu skersmeniu, medžiaga ir svoriu. To pakanka pirmajam kiekių skaičiavimui ir trasų planavimui, dar neįkėlus nė vieno modelio."
           },
           {
-            "year": "2 Fazė",
-            "title": "Vykdymo planavimas",
-            "text": "Perėjimas prie LOI 400. Tikslios specifikacijos, srauto greičiai ir slėgio nuostolių skaičiavimai tiesiogiai įtraukiami į hidraulinio tinklo skaičiavimą."
+            "year": "2 fazė",
+            "title": "Techninis projektas",
+            "text": "IFC 4 kiekvienam vardiniam skersmeniui, milimetrais. Išorinis skersmuo, sienelės storis ir statybiniai ilgiai iš katalogo, be to — atramų atstumai ir naudojimo klasės tinklo skaičiavimui."
           },
           {
-            "year": "3 Fazė",
+            "year": "3 fazė",
             "title": "Konkursas ir sutarčių sudarymas",
-            "text": "Automatizuotas klaidų neturinčių medžiagų sąrašų (BOM) generavimas tiesiai iš modelio."
+            "text": "Kiekvienas elementas turi savo gaminio numerį kaip IFC žymą ir savybių rinkinyje. Todėl medžiagų sąrašą iš modelio galima tiesiogiai palyginti su katalogu."
           },
           {
-            "year": "4 Fazė",
-            "title": "Surenkamieji elementai ir montavimas",
-            "text": "Izometrinių brėžinių eksportas pramoniniam surinkimui. Milimetro tikslumo brėžiniai iki minimumo sumažina suvirinimo darbus statybvietėje."
+            "year": "4 fazė",
+            "title": "Išankstinė gamyba ir montavimas",
+            "text": "Suvirinimo gylis, įkaitinimo ir aušinimo laikas nurodyti prie jungties taško kiekvienam vardiniam skersmeniui. Gamintojas suvirinimo parametrus nuskaito iš to paties modelio, iš kurio ima ilgius."
           },
           {
-            "year": "5 Fazė",
-            "title": "As-Built ir eksploatacija",
-            "text": "As-Built modelio perdavimas. Skaitmeninis dvynys tarnauja kaip vienintelis tiesos šaltinis pastatų valdymui."
+            "year": "5 fazė",
+            "title": "Išpildomoji dokumentacija ir eksploatacija",
+            "text": "Gaminio numeris lieka prie elemento. Kas po dvidešimties metų keis fasoninį elementą, modelyje ras, kas buvo sumontuota — kartu su katalogo puslapiu, kuriame tai buvo nurodyta."
           }
         ],
-        "title": "K Aqua BIM duomenų gyvavimo ciklas",
-        "desc": "Nuo pirmojo eskizo iki dešimtmečių trukmės eksploatacijos. Mūsų duomenys lydi jūsų projektą kiekvienoje fazėje."
+        "title": "Kur duomenys pravers projekte",
+        "desc": "Nuo pirmojo kiekių skaičiavimo iki atsarginės dalies po dvidešimties metų."
       },
       "hero": {
-        "desc": "Šis modulis užtikrina bekompromisį saugumą reikliausiems projektams visame pasaulyje. Pagaminta pagal griežčiausius pramonės standartus, kad tarnautų kartoms. Atsisiųskite skaitmeninį dvynį, kur medžiagos gedimas nėra pasirinkimas.",
-        "btnPrimary": "BIM biblioteka (Revit/IFC)",
-        "btnGhost": "Prašyti BIM konsultacijos"
+        "desc": "546 gaminiai IFC 4 formatu — su jungties taškais, medžiagų rodikliais, klojimo duomenimis ir katalogo puslapiu, kuriame kiekvienas duomuo nurodytas. Po vieną arba visu paketu, be registracijos.",
+        "btnPrimary": "Atsisiųsti IFC biblioteką",
+        "btnGhost": "Prašyti techninės konsultacijos"
       },
       "intro": {
-        "title1": "Mūsų vamzdynų sistemų DNR.",
-        "title2": "Dabar debesyje.",
-        "p1": "Mes nesuprantame BIM kaip paprasto 3D brėžinio. K Aqua pastato informacinis modeliavimas yra mūsų bekompromisio gamybos tikslumo perkėlimas į skaitmeninę erdvę.",
-        "p2": "Mūsų duomenų rinkiniai yra dešimtmečių Vokietijos inžinerijos rezultatas. Kiekvienas sienelės storis, kiekviena srauto dinamika ir kiekviena šiluminė savybė buvo patvirtinta mūsų inžinierių ir natūraliai išversta į šeimas."
+        "title1": "Mūsų vamzdynų sistemų matmenys.",
+        "title2": "Patikrinami skaičius po skaičiaus.",
+        "p1": "BIM objektas vertas tiek, kiek verti jo nešami duomenys. Todėl pas mus nė vienas failas neatsiranda iš brėžinio, o iš gamintojo katalogo: to paties šaltinio, iš kurio savo skaičius ima ir šios svetainės gaminių puslapiai. Jei kuri nors vertė skiriasi, ji visur skiriasi vienodai — ir ją galima ištaisyti vienoje vietoje.",
+        "p2": "Kiekvienas failas sukuriamas iš naujo tą akimirką, kai jo paprašoma. Nėra iš anksto sugeneruoto failų rinkinio, kuris galėtų pasenti, nei bibliotekos, atsiliekančios nuo katalogo būklės. Tai, ką atsisiunčiate, atitinka tai, kas parašyta gaminio puslapyje — visada."
       },
       "bento": {
         "items": [
           {
-            "title": "Natyvios Revit® šeimos",
-            "desc": "Jokių konversijos nuostolių. Užprogramuotos tiesiogiai kaip .rfa ir .rvt didžiausiam našumui."
+            "title": "IFC 4, atviras ir milimetrais",
+            "desc": "Nuskaitomas Revit, ArchiCAD, Allplan ir Vectorworks programose, tikrinamas Navisworks ir Solibri. Tie patys vienetai kaip kataloge — lyginant su duomenų lapu nieko perskaičiuoti nereikia."
           },
           {
-            "title": "VDI 3805 atitiktis",
-            "desc": "Standartizuoti produkto duomenys sklandžiam duomenų apsikeitimui."
+            "title": "Jungties taškai su suvirinimo duomenimis",
+            "desc": "IfcDistributionPort kiekvienai jungčiai, su vardiniu skersmeniu ir sujungimo būdu. Suvirinant movomis, papildomai suvirinimo gylis, įkaitinimo ir aušinimo laikas iš apdirbimo instrukcijos."
           },
           {
-            "title": "IFC4 patikrinimas",
-            "desc": "Maksimalus sąveikumas per atvirus BIM standartus (OpenBIM). Garantuotai nuskaitoma ArchiCAD, Allplan ir Vectorworks programose."
+            "title": "Revit tipų katalogas",
+            "desc": "Natyvios .rfa šeimos yra uždaras dvejetainis formatas, ir be Revit licencijos jų sukurti neįmanoma. Mes pateikiame IFC 4, kurį Revit nuskaito tiesiogiai, ir tipų katalogą su visais vardiniais skersmenimis ir matmenimis."
           },
           {
-            "title": "Tikslūs šiluminiai duomenys",
-            "desc": "Integruoti skaičiavimo modeliai linijiniam plėtimuisi ir šilumos laidumui (0.24 W/mK)."
+            "title": "Medžiagos ir sistemos rodikliai",
+            "desc": "Tankis 905 kg/m³, šilumos laidumas 0,24 W/(m·K), ilginis plėtimasis 1,5·10⁻⁴ K⁻¹ — K-Fiber atveju 0,35·10⁻⁴ K⁻¹. Be to, atramų atstumai ir naudojimo klasės pagal DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Atsisiųskite K Aqua BIM paketą.",
-        "desc": "Visiška prieiga prie visų natyvių Revit šeimų, IFC failų ir VDI 3805 duomenų rinkinių. Nemokamai planuotojams ir inžinieriams.",
+        "title": "Atsisiųskite BIM paketą.",
+        "desc": "Kiekvienam gaminiui po archyvą: IFC 4 kiekvienam vardiniam skersmeniui, gaminių lentelė kiekiams skaičiuoti, Revit tipų katalogas. Be registracijos, nemokamai projektuotojams ir inžinieriams.",
         "btnPrimary": "Į atsisiuntimų centrą",
-        "btnOutline": "Susisiekti su BIM vadovu"
+        "btnOutline": "Prašyti techninės konsultacijos"
       }
     }
   },

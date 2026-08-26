@@ -6535,131 +6535,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Daten",
-      "metaDesc": "K Aqua BIM-Daten: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Greifen Sie auf unsere BIM-Datenbank zu.",
-      "seoText": {
-        "t1": "디지털 파이프 시스템",
-        "p1": "우리는 최신 소프트웨어를 사용한 원활한 플래닝을 위해 BIM 객체를 제공합니다.",
-        "p2": "Revit 및 기타 호환 형식은 정확한 라우팅 및 충돌 감지를 보장합니다."
-      },
+      "title": "BIM 데이터",
+      "metaDesc": "K-Aqua BIM 데이터: 546개 품목을 IFC 4로, 접속점과 재료 특성값, 카탈로그 출처까지. 등록 없이, 설계자와 엔지니어에게 무료입니다.",
       "sticky": {
-        "title": "Digitale Zwillinge in Perfektion.",
-        "subtitle": "프로젝트를 위한 맞춤형 데이터",
-        "opt1": "일반 BIM 문의",
-        "opt2": "Revit 모델",
-        "opt3": "치수 데이터",
-        "opt4": "기술 지원",
-        "mail": "info@k-aqua.de",
-        "tel": "+49 (0)60 85 / 9868-410",
         "items": [
           {
-            "t": "건축 설계",
-            "d": "전체 시스템 라우팅.",
-            "title": "Maximale Datentiefe (LOI 500)",
-            "desc": "Unsere BIM-Modelle bieten nicht nur eine hochpräzise geometrische Darstellung (LOD), sondern vor allem eine unübertroffene Informationstiefe (LOI). Jedes Rohr, jedes Fitting und jede Armatur enthält sämtliche kritischen Metadaten: Materialspezifikationen, Druckstufen, thermische Ausdehnungskoeffizienten und exakte Artikelnummern für die automatisierte Ausschreibung."
+            "title": "모든 수치에 해당 카탈로그 페이지를 함께",
+            "desc": "각 부재에는 치수의 출처가 제조사 카탈로그 06-2025의 페이지 단위까지 적혀 있습니다. 모델의 두께를 데이터시트와 대조하면 같은 수치와 그 근거를 함께 찾게 됩니다. 카탈로그가 한 곳에서 스스로 어긋나는 경우에는 인쇄된 값을 파일에 담고 그 옆에 안내를 붙였습니다."
           },
           {
-            "t": "플랜트",
-            "d": "특수 산업용 모델.",
-            "title": "Kollisionsfreie Planung",
-            "desc": "In Milliardenprojekten ist Clash-Detection nicht verhandelbar. Unsere nativen Revit- und IFC-Dateien garantieren eine nahtlose Integration in Ihr Navisworks oder Solibri. Die exakten Außendurchmesser inklusive Schweißnaht-Toleranzen verhindern kostspielige Überraschungen auf der Baustelle."
+            "title": "덩어리가 아니라 접속점",
+            "desc": "모든 이음관은 배관 접속을 IfcDistributionPort로 갖습니다. 위치, 축 방향, 호칭경, 접합 방식이 들어 있습니다. 소켓 융착에서는 삽입 깊이, 가열 시간, 냉각 시간이 접속부에 바로 표시됩니다. 일반 규격이 아니라 제조사의 융착 시공 지침에서 가져온 값입니다."
           },
           {
-            "t": "TGA",
-            "d": "건축 설비 통합.",
-            "title": "Parametrische Intelligenz",
-            "desc": "K Aqua BIM-Familien sind voll parametrisch. Sie passen sich dynamisch an Leitungsführung, Gefälle und Dimensionierungen an. Das integrierte Auto-Routing wählt automatisch die korrekten Reduzierungen und Bogenwinkel gemäß den strengen Vorgaben der DIN EN ISO 15874."
+            "title": "관은 관으로 남습니다",
+            "desc": "관은 삼각망이 아니라 외반경과 내반경을 가진 IfcSweptDiskSolid로 들어 있습니다. 그래서 Revit이나 ArchiCAD에서도 배관하고 잘라 맞출 수 있는 관 세그먼트로 남습니다. 파일 크기는 수백 킬로바이트가 아니라 9킬로바이트입니다."
           },
           {
-            "t": "기타",
-            "d": "일반 플래닝용.",
-            "title": "Lifecycle & Facility Management",
-            "desc": "Der digitale Zwilling endet nicht mit der Bauübergabe. Unsere BIM-Objekte sind COBie-kompatibel und liefern dem Facility Management alle notwendigen Wartungsintervalle, Zertifikate und Betriebsdaten für einen sicheren Lebenszyklus von über 50 Jahren."
+            "title": "카탈로그에서 가져온 시공 데이터",
+            "desc": "호칭경별·7개 온도별 지지 간격, DIN EN ISO 15874-1에 따른 사용 등급과 허용 운전 압력, 길이 팽창. K-Fiber 관은 여기서 0.35·10⁻⁴ K⁻¹라는 고유 계수를 갖습니다. 단층관보다 네 배 남짓 작으며, 섬유 복합층을 쓰는 이유가 바로 이것입니다."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "lead": "Ein Einblick in die Datentiefe, die den Unterschied zwischen Planung und Realität eliminiert."
+        "eyebrow": "파일에 들어 있는 것",
+        "title": "검증할 수 있는 설계 데이터.",
+        "lead": "모델이 보기만 좋은 것이 아니라 실제로 쓸모 있어야 할 때 차이를 만드는 네 가지 특성."
       },
       "timeline": {
-        "title": "Der Lebenszyklus der K Aqua BIM-Daten",
         "items": [
           {
-            "title": "Konzeption & TGA-Planung",
-            "desc": "프로젝트 요구 사항을 지정하고 당사에 문의하여 적합한 데이터 패키지를 받으십시오.",
-            "year": "Phase 1",
-            "text": "Integration der K Aqua Basis-Geometrien in den frühen Entwurf. Schnelle Massenermittlung und erste Kollisionsprüfung für das Trassenkonzept im TGA-Masterplan."
+            "year": "1단계",
+            "title": "기본 구상과 배관 경로",
+            "text": "전체 카탈로그를 표 또는 JSON으로: 호칭경, 재질, 중량이 담긴 546개 품목. 모델을 하나도 불러오기 전에 첫 물량 산출과 경로 계획을 하기에 충분합니다."
           },
           {
-            "title": "Ausführungsplanung",
-            "desc": "정확한 외부 치수 및 피팅 형상을 사용하여 구성 요소를 소프트웨어에 로드하십시오.",
-            "year": "Phase 2",
-            "text": "Umstellung auf LOI 400. Die exakten Spezifikationen, Fließgeschwindigkeiten und Druckverlustberechnungen fließen direkt in die hydraulische Netzberechnung des Gebäudes ein."
+            "year": "2단계",
+            "title": "실시 설계",
+            "text": "호칭경별 IFC 4, 단위는 밀리미터. 외경, 두께, 조립 길이는 카탈로그에서 가져왔고, 배관망 계산을 위한 지지 간격과 사용 등급이 함께 들어 있습니다."
           },
           {
-            "title": "Ausschreibung & Vergabe",
-            "desc": "건물의 다른 기술 설비(TGA)와 간섭이 없는지 식별하고 수정하십시오.",
-            "year": "Phase 3",
-            "text": "Automatisierte Generierung von fehlerfreien Bill of Materials (BOM) direkt aus dem Modell. Jedes Fitting ist mit der K Aqua Artikelnummer und VDI 3805 Daten hinterlegt."
+            "year": "3단계",
+            "title": "입찰과 발주",
+            "text": "모든 부재는 품번을 IFC 태그와 속성 집합에 담고 있습니다. 모델에서 뽑은 자재 명세를 별도 과정 없이 카탈로그와 대조할 수 있습니다."
           },
           {
-            "title": "Vorfertigung & Montage",
-            "desc": "모델에서 빠르고 정확하게 수량을 추출하여 예산 및 주문을 최적화하십시오.",
-            "year": "Phase 4",
-            "text": "Export von isometrischen Zeichnungen für die industrielle Vorfertigung. Millimetergenaue Spool-Drawings minimieren Schweißarbeiten auf der Baustelle auf ein absolutes Minimum."
+            "year": "4단계",
+            "title": "선조립과 시공",
+            "text": "삽입 깊이, 가열 시간, 냉각 시간이 호칭경별로 접속점에 적혀 있습니다. 선조립 업체는 길이를 읽는 바로 그 모델에서 융착 조건을 읽습니다."
           },
           {
-            "year": "Phase 5",
-            "text": "Übergabe des As-Built-Modells. Der digitale Zwilling dient als Single Source of Truth für das Facility Management über die gesamte Lebensdauer des Bauwerks.",
-            "title": "As-Built & Betrieb"
+            "year": "5단계",
+            "title": "준공과 운영",
+            "text": "품번은 부재에 그대로 남습니다. 20년 뒤 이음관을 교체하는 사람은 무엇이 시공되었는지 모델에서 확인할 수 있습니다. 그것이 실린 카탈로그 페이지까지 함께."
           }
         ],
-        "desc": "Von der ersten Skizze bis zum jahrzehntelangen Betrieb. Unsere Daten begleiten Ihr Projekt in jeder Phase."
+        "title": "데이터가 프로젝트에서 쓰이는 지점",
+        "desc": "첫 물량 산출부터 20년 뒤의 교체 부품까지."
       },
       "hero": {
-        "badge": "BIM 데이터",
-        "title": "정밀한 디지털 플래닝",
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Laden Sie den digitalen Zwilling herunter, wo Materialversagen keine Option ist.",
-        "btnPrimary": "BIM Bibliothek (Revit/IFC)",
-        "btnGhost": "BIM Consulting anfragen"
+        "desc": "546개 품목을 IFC 4로 — 접속점, 재료 특성값, 시공 데이터, 그리고 각 수치가 실린 카탈로그 페이지까지. 낱개로도 묶음으로도, 등록 없이.",
+        "btnPrimary": "IFC 라이브러리 내려받기",
+        "btnGhost": "기술 상담 요청"
       },
       "intro": {
-        "title1": "Die DNA unserer Rohrsysteme.",
-        "title2": "Jetzt in der Cloud.",
-        "p1": "Wir verstehen BIM nicht als bloße 3D-Zeichnung. Für K Aqua ist Building Information Modeling der Transfer unserer kompromisslosen Fertigungspräzision in den digitalen Raum. Wenn internationale Generalunternehmer Wolkenkratzer, Rechenzentren oder Hochsicherheitslabore planen, benötigen sie keine geschätzten Werte, sie benötigen physikalische Realität in Form von Daten.",
-        "p2": "Unsere Datensätze sind das Resultat jahrzehntelanger deutscher Ingenieurskunst. Jede Wandstärke, jede Strömungsdynamik und jede thermische Eigenschaft wurde von unseren Ingenieuren validiert und nativ in die Familien übersetzt.",
-        "eyebrow": "디지털 플래닝",
-        "title": "BIM 및 CAD 라이브러리",
-        "lead": "효율적인 설계를 위해 K-Aqua 파이프 및 피팅의 파라메트릭 3D 모델을 프로젝트에 원활하게 통합하십시오."
+        "title1": "우리 배관 시스템의 치수.",
+        "title2": "숫자 하나하나 검증할 수 있습니다.",
+        "p1": "BIM 객체의 가치는 그것이 담고 있는 데이터만큼입니다. 그래서 우리 파일은 도면이 아니라 제조사 카탈로그에서 만들어집니다. 이 웹사이트의 제품 페이지가 수치를 가져오는 것과 같은 출처입니다. 어떤 값이 어긋나면 어디서나 똑같이 어긋나고, 한 곳에서 바로잡으면 됩니다.",
+        "p2": "모든 파일은 요청되는 순간 새로 만들어집니다. 낡아갈 수 있는 생성 파일 더미도, 카탈로그 판본에 뒤처지는 라이브러리도 없습니다. 내려받는 내용은 제품 페이지에 적힌 것과 언제나 일치합니다."
       },
       "bento": {
-        "title": "BIM의 이점",
         "items": [
           {
-            "title": "Native Revit® Familien",
-            "desc": "Keine Konvertierungsverluste. Direkt als .rfa und .rvt programmiert für höchste Performance und native Routing-Präferenzen."
+            "title": "IFC 4, 개방 형식, 단위는 밀리미터",
+            "desc": "Revit, ArchiCAD, Allplan, Vectorworks에서 읽을 수 있고 Navisworks와 Solibri에서 검토할 수 있습니다. 카탈로그와 같은 단위이므로 데이터시트와 비교할 때 환산이 필요 없습니다."
           },
           {
-            "title": "VDI 3805 Konformität",
-            "desc": "Standardisierte Produktdaten für den reibungslosen Datenaustausch in der gesamten TGA-Kette."
+            "title": "융착 데이터가 담긴 접속점",
+            "desc": "접속마다 IfcDistributionPort가 있고 호칭경과 접합 방식이 들어 있습니다. 소켓 융착에는 시공 지침에서 가져온 삽입 깊이, 가열 시간, 냉각 시간이 더해집니다."
           },
           {
-            "title": "IFC4 Prüfung",
-            "desc": "Maximale Interoperabilität durch offene BIM-Standards (OpenBIM). Garantiert lesbar in ArchiCAD, Allplan und Vectorworks."
+            "title": "Revit 유형 카탈로그",
+            "desc": "네이티브 .rfa 패밀리는 닫힌 이진 형식이어서 Revit 라이선스 없이는 만들 수 없습니다. 대신 Revit이 바로 읽는 IFC 4와 모든 호칭경·치수를 담은 유형 카탈로그를 제공합니다."
           },
           {
-            "title": "Exakte thermische Daten",
-            "desc": "Integrierte Berechnungsmodelle für Längenausdehnung, Wärmeleitfähigkeit (0.24 W/mK) und Rohrreibungsdruckgefälle."
+            "title": "재료 및 시스템 특성값",
+            "desc": "밀도 905 kg/m³, 열전도율 0.24 W/(m·K), 길이 팽창 1.5·10⁻⁴ K⁻¹ — K-Fiber는 0.35·10⁻⁴ K⁻¹. 여기에 지지 간격과 DIN EN ISO 15874-1에 따른 사용 등급이 더해집니다."
           }
-        ],
-        "eyebrow": "데이터 형식",
-        "lead": "당사의 데이터 세트는 모든 주요 플래닝 소프트웨어와 호환됩니다."
+        ]
       },
       "cta": {
-        "btnPrimary": "Zum Download-Center",
-        "btnOutline": "BIM-Manager kontaktieren",
-        "title": "Laden Sie das K Aqua BIM-Paket herunter.",
-        "desc": "Vollständiger Zugriff auf alle nativen Revit-Familien, IFC-Dateien und VDI 3805 Datensätze. Kostenlos für Planer und Ingenieure.",
-        "btn": "BIM 라이브러리 요청"
+        "title": "BIM 패키지를 내려받으세요.",
+        "desc": "제품마다 압축 파일 하나: 호칭경별 IFC 4, 물량 산출용 품목표, Revit 유형 카탈로그. 등록 없이, 설계자와 엔지니어에게 무료입니다.",
+        "btnPrimary": "다운로드 센터로",
+        "btnOutline": "기술 상담 요청"
       }
     },
     "ausschreibungstexte": {

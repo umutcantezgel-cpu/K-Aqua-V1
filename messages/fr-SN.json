@@ -7112,97 +7112,97 @@
     },
     "bim": {
       "title": "Données BIM",
-      "metaDesc": "Données BIM K-Aqua, La sécurité sans compromis grâce au German Engineering pour les mégaprojets mondiaux.",
+      "metaDesc": "Données BIM K-Aqua : 546 articles au format IFC 4 avec points de raccordement, caractéristiques matériaux et référence au catalogue. Sans inscription, gratuit pour les bureaux d'études et les ingénieurs.",
       "sticky": {
         "items": [
           {
-            "title": "Absolutisme dans la Planification",
-            "desc": "La Modélisation des Informations du Bâtiment (BIM) ne tolère pas les approximations. Nos données paramétriques garantissent que la géométrie que vous placez dans votre modèle numérique correspond avec une précision millimétrique à ce que nous livrons sur le chantier."
+            "title": "Chaque valeur avec sa page de catalogue",
+            "desc": "Chaque composant indique d'où viennent ses dimensions — jusqu'à la page exacte du catalogue fabricant 06-2025. Qui compare une épaisseur de paroi du modèle avec la fiche technique y retrouve le même chiffre et son justificatif. Là où le catalogue se contredit lui-même, c'est la valeur imprimée qui figure dans le fichier, accompagnée de la remarque correspondante."
           },
           {
-            "title": "Précision Thermodynamique",
-            "desc": "Nos modèles BIM ne sont pas seulement de la géométrie 3D. Ils sont enrichis de propriétés thermodynamiques réelles, y compris la conductivité thermique, les coefficients de dilatation et les classifications de pression."
+            "title": "Des points de raccordement, pas des blocs",
+            "desc": "Chaque raccord porte ses connexions sous forme d'IfcDistributionPort : position, direction de l'axe, diamètre nominal et type d'assemblage. Pour la soudure par emboîtement, la profondeur d'emboîtement, le temps de chauffe et le temps de refroidissement figurent directement au point de raccordement — les valeurs issues de l'instruction de soudage du fabricant, et non d'une norme générale."
           },
           {
-            "title": "Détection des Collisions Sans Erreur",
-            "desc": "Des jumeaux numériques parfaits de notre gamme complète de tuyaux, de raccords et de vannes vous permettent d'exécuter des détections de collisions impeccables, des mois avant le début des travaux d'installation."
+            "title": "Un tuyau reste un tuyau",
+            "desc": "Un tuyau arrive en IfcSweptDiskSolid, avec rayon extérieur et rayon intérieur, et non en maillage triangulaire. Dans Revit ou ArchiCAD, il reste donc un segment de tuyauterie que l'on peut poser et ajuster. Le fichier pèse neuf kilo-octets au lieu de quelques centaines."
           },
           {
-            "title": "Calcul Automatisé des Quantités",
-            "desc": "Chaque composant K-Aqua dans votre modèle BIM génère des relevés de matériaux dynamiques et ultra-précis. Pas d'erreurs d'estimation. Pas de surplus coûteux."
+            "title": "Données de pose issues du catalogue",
+            "desc": "Écartements des supports pour chaque diamètre nominal et sept températures, classes d'application selon DIN EN ISO 15874-1 avec pression de service admissible, dilatation linéaire. Les tuyaux K-Fiber portent leur propre coefficient de 0,35·10⁻⁴ K⁻¹ — plus de quatre fois inférieur à celui d'un tuyau monocouche, et c'est précisément la raison d'être de la couche composite en fibres."
           }
         ],
-        "eyebrow": "CONCEPTION PARAMÉTRIQUE",
-        "title": "Jumeaux Numériques, Précision Réelle.",
-        "lead": "Nous avons encapsulé la supériorité physique des systèmes K-Aqua dans des données CAO paramétriques de haute fidélité."
+        "eyebrow": "Ce que contiennent les fichiers",
+        "title": "Des données de conception vérifiables.",
+        "lead": "Quatre propriétés qui font la différence lorsqu'un modèle ne doit pas seulement être beau, mais tenir."
       },
       "timeline": {
         "items": [
           {
-            "year": "Niveau de Détail 1",
-            "title": "Géométrie de Base (LOD 100-200)",
-            "text": "Modèles spatiaux simplifiés pour la planification architecturale initiale, les estimations de volume et l'acheminement basique du système d'eau."
+            "year": "Phase 1",
+            "title": "Concept et tracé des réseaux",
+            "text": "Le catalogue complet sous forme de tableau ou de JSON : 546 articles avec diamètre nominal, matériau et poids. De quoi établir le premier métré et planifier les tracés avant même d'avoir chargé un seul modèle."
           },
           {
-            "year": "Niveau de Détail 2",
-            "title": "Système Précis (LOD 300)",
-            "text": "Géométrie, orientation et diamètres nominaux précis, essentiels pour l'analyse des collisions et l'ingénierie préliminaire des fluides."
+            "year": "Phase 2",
+            "title": "Études d'exécution",
+            "text": "Un fichier IFC 4 par diamètre nominal, en millimètres. Diamètre extérieur, épaisseur de paroi et longueurs de construction issus du catalogue, plus les écartements des supports et les classes d'application pour le calcul du réseau."
           },
           {
-            "year": "Niveau de Détail 3",
-            "title": "Documentation de Fabrication (LOD 400)",
-            "text": "Composants entièrement spécifiés incluant l'isolation, les supports et les soudures paramétriques. Prêt pour la préfabrication et l'exécution sur chantier."
+            "year": "Phase 3",
+            "title": "Appel d'offres et attribution",
+            "text": "Chaque composant porte sa référence article comme tag IFC et dans son jeu de propriétés. La nomenclature extraite du modèle se compare ainsi au catalogue sans détour."
           },
           {
-            "year": "Niveau de Détail 4",
-            "title": "Jumeau Numérique As-Built (LOD 500)",
-            "text": "Le modèle final, vérifié sur site, intégrant les performances d'exploitation réelles, les journaux de maintenance et la traçabilité des matériaux pour la gestion des installations (Facility Management)."
+            "year": "Phase 4",
+            "title": "Préfabrication et montage",
+            "text": "Profondeur d'emboîtement, temps de chauffe et temps de refroidissement figurent par diamètre nominal au point de raccordement. Le préfabricateur lit les paramètres de soudage dans le modèle même dont il tire les longueurs."
           },
           {
-            "year": "Niveau de Détail 5",
-            "title": "Gestion du Cycle de Vie",
-            "text": "Intégration transparente avec les systèmes CAFM. Nos données garantissent que votre bâtiment intelligent sait exactement quels matériaux constituent son système de tuyauterie."
+            "year": "Phase 5",
+            "title": "Existant et exploitation",
+            "text": "La référence article reste attachée au composant. Qui remplace un raccord vingt ans plus tard retrouve dans le modèle ce qui a été posé — avec la page de catalogue où il figurait."
           }
         ],
-        "title": "Évolution du Jumeau Numérique",
-        "desc": "De l'esquisse conceptuelle au suivi du cycle de vie. Nos données BIM accompagnent votre projet tout au long de son existence physique."
+        "title": "Où les données interviennent dans le projet",
+        "desc": "Du premier métré à la pièce de rechange vingt ans plus tard."
       },
       "hero": {
-        "desc": "La fondation de la conception d'infrastructures modernes. Accédez à la bibliothèque de données BIM certifiée K-Aqua pour Autodesk Revit, AutoCAD et IFC.",
-        "btnPrimary": "Télécharger la Bibliothèque BIM",
-        "btnGhost": "Demander l'Accès à l'API"
+        "desc": "546 articles au format IFC 4 — avec points de raccordement, caractéristiques matériaux, données de pose et la page de catalogue où figure chaque indication. À l'unité ou en lot, sans inscription.",
+        "btnPrimary": "Télécharger la bibliothèque IFC",
+        "btnGhost": "Demander un conseil technique"
       },
       "intro": {
-        "title1": "LA PLANIFICATION NE PARDONNE",
-        "title2": "AUCUNE ERREUR.",
-        "p1": "Dans l'ingénierie moderne des systèmes MEP, une déviation d'un millimètre dans l'environnement virtuel peut entraîner des centaines de milliers de dollars de coûts de rectification dans la réalité physique.",
-        "p2": "C'est pourquoi nos données BIM sont traitées avec la même obsession que nos produits physiques. Nous fournissons des objets paramétriques qui ne se contentent pas d'imiter l'apparence des composants K-Aqua, mais qui se comportent numériquement comme tels. Propriétés thermiques, tolérances de pression, rayons de courbure : chaque paramètre est verrouillé."
+        "title1": "Les dimensions de nos systèmes de tuyauterie.",
+        "title2": "Vérifiables, valeur par valeur.",
+        "p1": "Un objet BIM ne vaut que ce que valent les données qu'il porte. C'est pourquoi, chez nous, aucun fichier ne naît d'un dessin, mais du catalogue fabricant : la même source dont les pages produit de ce site tirent leurs chiffres. Si une valeur diverge, elle diverge partout de la même façon — et se corrige en un seul endroit.",
+        "p2": "Chaque fichier est généré au moment du téléchargement. Aucun stock de fichiers déjà produits ne traîne qui pourrait vieillir, aucune bibliothèque ne court après l'état du catalogue. Ce que vous téléchargez correspond à ce qui figure sur la page produit — toujours."
       },
       "bento": {
         "items": [
           {
-            "title": "Prêt pour Autodesk Revit",
-            "desc": "Familles natives (.rfa) optimisées pour des performances élevées sans gonfler la taille de votre fichier de projet."
+            "title": "IFC 4, ouvert et en millimètres",
+            "desc": "Lisible dans Revit, ArchiCAD, Allplan et Vectorworks, contrôlable dans Navisworks et Solibri. La même unité que dans le catalogue — aucune conversion lors de la comparaison avec la fiche technique."
           },
           {
-            "title": "Norme Ouverte IFC",
-            "desc": "Ensembles de données Industry Foundation Classes garantissant une interopérabilité complète sur n'importe quelle plateforme CAO architecturale."
+            "title": "Points de raccordement avec données de soudage",
+            "desc": "Un IfcDistributionPort par raccordement, avec diamètre nominal et type d'assemblage. Pour la soudure par emboîtement s'y ajoutent la profondeur d'emboîtement, le temps de chauffe et le temps de refroidissement issus de la notice de mise en œuvre."
           },
           {
-            "title": "Normes COBie",
-            "desc": "Livraison de données entièrement structurées pour une gestion et un transfert efficaces des actifs du bâtiment."
+            "title": "Catalogue de types Revit",
+            "desc": "Les familles natives .rfa sont un format binaire fermé, impossible à générer sans licence Revit. Nous livrons de l'IFC 4, que Revit lit directement, et le catalogue de types avec tous les diamètres nominaux et toutes les dimensions."
           },
           {
-            "title": "Modèles Auto-Routables",
-            "desc": "Intégration d'une logique de routage intelligente. Dessinez simplement la ligne, et notre système remplit automatiquement les raccords appropriés."
+            "title": "Caractéristiques matériaux et système",
+            "desc": "Masse volumique 905 kg/m³, conductivité thermique 0,24 W/(m·K), dilatation linéaire 1,5·10⁻⁴ K⁻¹ — pour K-Fiber 0,35·10⁻⁴ K⁻¹. S'y ajoutent les écartements des supports et les classes d'application selon DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Intégrez K-Aqua dans votre Pipeline.",
-        "desc": "Téléchargez notre pack complet de données BIM et commencez à concevoir avec l'infrastructure polymère la plus avancée au monde.",
-        "btnPrimary": "Obtenir les Données BIM",
-        "btnOutline": "Documentation Technique"
+        "title": "Téléchargez le pack BIM.",
+        "desc": "Une archive par produit : IFC 4 pour chaque diamètre nominal, tableau d'articles pour le métré, catalogue de types Revit. Sans inscription, gratuit pour les bureaux d'études et les ingénieurs.",
+        "btnPrimary": "Vers le centre de téléchargement",
+        "btnOutline": "Demander un conseil technique"
       }
     },
     "common": {

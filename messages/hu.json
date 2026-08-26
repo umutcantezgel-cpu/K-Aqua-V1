@@ -6896,98 +6896,98 @@
       }
     },
     "bim": {
-      "title": "BIM-Adatok",
-      "metaDesc": "K-Aqua BIM-Adatok: Kompromisszummentes biztonság a German Engineering révén globális megaprojektekhez. Férjen hozzá BIM adatbázisunkhoz.",
+      "title": "BIM-adatok",
+      "metaDesc": "K-Aqua BIM-adatok: 546 cikk IFC 4 formátumban, csatlakozási pontokkal, anyagjellemzőkkel és katalógushivatkozással. Regisztráció nélkül, tervezőknek és mérnököknek ingyenes.",
       "sticky": {
         "items": [
           {
-            "title": "Maximális Adatmélység (LOI 500)",
-            "desc": "BIM modelleink nemcsak a rendkívül pontos geometriai megjelenítést (LOD), hanem mindenekelőtt páratlan információmélységet (LOI) biztosítanak. Minden cső, minden idom és minden szerelvény tartalmazza az összes kritikus metaadatot: anyagspecifikációkat, nyomásosztályokat, hőtágulási együtthatókat és a pontos cikkszámokat az automatizált ajánlatkészítéshez."
+            "title": "Minden érték a saját katalógusoldalával",
+            "desc": "Minden elemben benne van, honnan származnak a méretei — a 06-2025 gyártói katalógus oldalára pontosan. Aki a modellben szereplő falvastagságot összeveti az adatlappal, ugyanazt a számot találja, és mellé a hivatkozást is. Ahol a katalógus egy ponton önmagának ellentmond, a nyomtatott érték kerül a fájlba, mellette a megjegyzéssel."
           },
           {
-            "title": "Kollíziómentes Tervezés",
-            "desc": "Milliárdos projekteknél a Clash-Detection (ütközésvizsgálat) nem alku tárgya. Natív Revit- és IFC-fájljaink garantálják a zökkenőmentes integrációt a Navisworks vagy Solibri rendszerekbe. A pontos külső átmérők, beleértve a hegesztési varratok tűréshatárait, megakadályozzák a költséges meglepetéseket az építkezésen."
+            "title": "Csatlakozási pontok, nem formátlan tömbök",
+            "desc": "Minden idom IfcDistributionPort formájában hordozza a csőcsatlakozásait: helyzet, tengelyirány, névleges átmérő és kötésmód. Tokos hegesztésnél a behegesztési mélység, a felfűtési idő és a hűlési idő közvetlenül a csatlakozásnál szerepel — a gyártó hegesztési utasításából származó értékek, nem egy általános szabványból."
           },
           {
-            "title": "Parametrikus Intelligencia",
-            "desc": "A K-Aqua BIM-családok teljesen parametrikusak. Dinamikusan alkalmazkodnak a csővezetéshez, lejtéshez és méretezéshez. Az integrált automatikus útvonaltervezés automatikusan kiválasztja a helyes szűkítéseket és könyökszögeket a DIN EN ISO 15874 szigorú követelményeinek megfelelően."
+            "title": "A cső cső marad",
+            "desc": "A cső IfcSweptDiskSolid formában érkezik, külső és belső sugárral, nem háromszöghálóként. A Revitben vagy az ArchiCAD-ben így csőszakasz marad, amely lefektethető és rövidíthető. A fájl kilenc kilobájt méretű, nem néhány száz."
           },
           {
-            "title": "Életciklus & Létesítménygazdálkodás (FM)",
-            "desc": "A digitális iker nem ér véget az épület átadásával. BIM objektumaink COBie-kompatibilisek, és biztosítják a Létesítménygazdálkodás számára az összes szükséges karbantartási intervallumot, tanúsítványt és működési adatot a több mint 50 éves biztonságos életciklus érdekében."
+            "title": "Szerelési adatok a katalógusból",
+            "desc": "Bilincstávolságok minden névleges átmérőhöz és hét hőmérséklethez, alkalmazási osztályok a DIN EN ISO 15874-1 szerint a megengedett üzemi nyomással, hosszirányú hőtágulás. A K-Fiber csövek ehhez saját, 0,35·10⁻⁴ K⁻¹ értékű együtthatót hordoznak — jó négyszer kisebbet, mint egy egyrétegű cső, és éppen ez az oka a szálerősítésű rétegnek."
           }
         ],
-        "eyebrow": "Munkafolyamat Kiválóság",
-        "title": "Digitális Ikrek Tökéletességben.",
-        "lead": "Bepillantás abba az adatmélységbe, amely megszünteti a különbséget a tervezés és a valóság között."
+        "eyebrow": "Mi van a fájlokban",
+        "title": "Tervezési adatok, amelyek ellenőrizhetők.",
+        "lead": "Négy tulajdonság, amely akkor számít, ha a modellnek nem csupán szépnek kell lennie, hanem hordoznia is kell."
       },
       "timeline": {
         "items": [
           {
-            "year": "1. Fázis",
-            "title": "Koncepció & Épületgépészeti (TGA) Tervezés",
-            "text": "A K-Aqua alapgeometriák integrálása a korai tervezésbe. Gyors mennyiségszámítás és kezdeti ütközésvizsgálat a nyomvonalkoncepcióhoz az Épületgépészeti Masterplanban."
+            "year": "1. fázis",
+            "title": "Koncepció és nyomvonalvezetés",
+            "text": "A teljes katalógus táblázatként vagy JSON-ként: 546 cikk névleges átmérővel, anyaggal és tömeggel. Elég az első mennyiségszámításhoz és a nyomvonaltervezéshez, még mielőtt egyetlen modell is betöltődne."
           },
           {
-            "year": "2. Fázis",
-            "title": "Kiviteli Tervezés",
-            "text": "Átállás LOI 400-ra. A pontos specifikációk, áramlási sebességek és nyomásveszteség-számítások közvetlenül beépülnek az épület hidraulikai hálózatszámításába."
+            "year": "2. fázis",
+            "title": "Kiviteli tervezés",
+            "text": "IFC 4 névleges átmérőnként, milliméterben. Külső átmérő, falvastagság és beépítési hosszak a katalógusból, hozzá bilincstávolságok és alkalmazási osztályok a hálózatszámításhoz."
           },
           {
-            "year": "3. Fázis",
-            "title": "Kiírás & Odaítélés",
-            "text": "Hibamentes Anyagjegyzék (BOM) automatizált generálása közvetlenül a modellből. Minden idom a K-Aqua cikkszámmal és a VDI 3805 adatokkal van ellátva."
+            "year": "3. fázis",
+            "title": "Kiírás és odaítélés",
+            "text": "Minden elem a cikkszámát IFC-címkeként és a tulajdonságkészletében is hordozza. A modellből kinyert anyagjegyzék így kerülőút nélkül vethető össze a katalógussal."
           },
           {
-            "year": "4. Fázis",
-            "title": "Előgyártás & Összeszerelés",
-            "text": "Izometrikus rajzok exportálása ipari előgyártáshoz. A milliméterpontos csőrészlet (spool) rajzok abszolút minimumra csökkentik a helyszíni hegesztési munkákat az építkezésen."
+            "year": "4. fázis",
+            "title": "Előgyártás és szerelés",
+            "text": "A behegesztési mélység, a felfűtési idő és a hűlési idő névleges átmérőnként a csatlakozási pontnál szerepel. Az előgyártó ugyanabból a modellből olvassa ki a hegesztési paramétereket, amelyből a hosszakat veszi."
           },
           {
-            "year": "5. Fázis",
-            "title": "Megvalósulási (As-Built) & Üzemeltetés",
-            "text": "Az As-Built modell átadása. A digitális iker egyetlen igazságforrásként (Single Source of Truth) szolgál a létesítménygazdálkodás számára az épület teljes élettartama alatt."
+            "year": "5. fázis",
+            "title": "Megvalósulás és üzemeltetés",
+            "text": "A cikkszám az elemen marad. Aki húsz év múlva idomot cserél, a modellben megtalálja, mit építettek be — azzal a katalógusoldallal együtt, amelyen szerepelt."
           }
         ],
-        "title": "A K-Aqua BIM-Adatok Életciklusa",
-        "desc": "Az első vázlattól az évtizedes üzemeltetésig. Adataink minden fázisban elkísérik projektjét."
+        "title": "Hol hasznosulnak az adatok a projektben",
+        "desc": "Az első mennyiségszámítástól a húsz év múlva szükséges pótalkatrészig."
       },
       "hero": {
-        "desc": "Ez a modul kompromisszumok nélküli biztonságot nyújt a világ legigényesebb projektjei számára. A legszigorúbb ipari szabványok szerint készült, hogy generációkat túléljen. Töltse le a digitális ikret, ahol az anyaghiba nem opció.",
-        "btnPrimary": "BIM Könyvtár (Revit/IFC)",
-        "btnGhost": "BIM Tanácsadás Kérése"
+        "desc": "546 cikk IFC 4 formátumban — csatlakozási pontokkal, anyagjellemzőkkel, szerelési adatokkal és azzal a katalógusoldallal, amelyen minden adat szerepel. Egyenként vagy csomagban, regisztráció nélkül.",
+        "btnPrimary": "IFC-könyvtár letöltése",
+        "btnGhost": "Műszaki tanácsadás kérése"
       },
       "intro": {
-        "title1": "Csőrendszereink DNS-e.",
-        "title2": "Most már a Felhőben.",
-        "p1": "Számunkra a BIM nem puszta 3D-s rajz. A K-Aqua számára a Building Information Modeling (BIM) a kompromisszummentes gyártási precizitásunk átültetését jelenti a digitális térbe. Amikor a nemzetközi fővállalkozók felhőkarcolókat, adatközpontokat vagy maximális biztonságú laboratóriumokat terveznek, nincs szükségük becsült értékekre; fizikai valóságra van szükségük adatok formájában.",
-        "p2": "Adatkészleteink több évtizedes német mérnöki tudomány (German Engineering) eredményei. Mérnökeink minden falvastagságot, minden áramlásdinamikát és minden termikus tulajdonságot validáltak, és natívan átültettek a Revit-családokba."
+        "title1": "Csőrendszereink méretei.",
+        "title2": "Számról számra ellenőrizhetően.",
+        "p1": "Egy BIM-objektum annyit ér, amennyit a benne hordozott adatok. Ezért nálunk egyetlen fájl sem rajzból születik, hanem a gyártói katalógusból: ugyanabból a forrásból, amelyből e webhely termékoldalai is veszik a számaikat. Ha egy érték eltér, mindenütt ugyanúgy tér el — és egyetlen helyen helyesbíthető.",
+        "p2": "Minden fájl a letöltés pillanatában készül el újra. Nem hever itt előre legyártott fájlállomány, amely elavulhatna, és nincs könyvtár, amely lemaradna a katalógus állapotától. Amit letölt, megfelel annak, ami a termékoldalon áll — mindig."
       },
       "bento": {
         "items": [
           {
-            "title": "Natív Revit® Családok",
-            "desc": "Nincsenek konverziós veszteségek. Közvetlenül .rfa és .rvt formátumban programozva a legnagyobb teljesítmény és a natív útvonaltervezési beállítások érdekében."
+            "title": "IFC 4, nyílt és milliméterben",
+            "desc": "Beolvasható a Revitben, ArchiCAD-ben, Allplanban és Vectorworksben, ellenőrizhető a Navisworksben és a Solibriben. Ugyanaz a mértékegység, mint a katalógusban — nincs átváltás az adatlappal való összevetéskor."
           },
           {
-            "title": "VDI 3805 Megfelelőség",
-            "desc": "Szabványosított termékadatok a zökkenőmentes adatcseréhez a teljes Épületgépészeti (TGA) láncban."
+            "title": "Csatlakozási pontok hegesztési adatokkal",
+            "desc": "IfcDistributionPort csatlakozásonként, névleges átmérővel és kötésmóddal. Tokos hegesztésnél ehhez jön a behegesztési mélység, a felfűtési idő és a hűlési idő a feldolgozási útmutatóból."
           },
           {
-            "title": "IFC4 Vizsgálat",
-            "desc": "Maximális interoperabilitás a nyílt BIM szabványok (OpenBIM) révén. Garantáltan olvasható az ArchiCAD, Allplan és Vectorworks programokban."
+            "title": "Revit típuskatalógus",
+            "desc": "A natív .rfa családok zárt bináris formátumot alkotnak, és Revit-licenc nélkül nem állíthatók elő. IFC 4-et szállítunk, amelyet a Revit közvetlenül beolvas, és a típuskatalógust az összes névleges átmérővel és mérettel."
           },
           {
-            "title": "Pontos Hőtechnikai Adatok",
-            "desc": "Integrált számítási modellek a hőtágulásra, a hővezetőképességre (0,24 W/mK) és a csősúrlódási nyomásveszteségre."
+            "title": "Anyag- és rendszerjellemzők",
+            "desc": "Sűrűség 905 kg/m³, hővezetési tényező 0,24 W/(m·K), hosszirányú hőtágulás 1,5·10⁻⁴ K⁻¹ — K-Fiber esetén 0,35·10⁻⁴ K⁻¹. Ehhez jönnek a bilincstávolságok és az alkalmazási osztályok a DIN EN ISO 15874-1 szerint."
           }
         ]
       },
       "cta": {
-        "title": "Töltse le a K-Aqua BIM-Csomagot.",
-        "desc": "Teljes hozzáférés az összes natív Revit-családhoz, IFC-fájlhoz és VDI 3805 adatkészlethez. Tervezők és mérnökök számára ingyenes.",
-        "btnPrimary": "A Letöltőközponthoz",
-        "btnOutline": "BIM-Menedzser Kapcsolat"
+        "title": "Töltse le a BIM-csomagot.",
+        "desc": "Termékenként egy archívum: IFC 4 minden névleges átmérőhöz, cikktáblázat a mennyiségszámításhoz, Revit típuskatalógus. Regisztráció nélkül, tervezőknek és mérnököknek ingyenes.",
+        "btnPrimary": "A letöltőközponthoz",
+        "btnOutline": "Műszaki tanácsadás kérése"
       }
     },
     "common": {

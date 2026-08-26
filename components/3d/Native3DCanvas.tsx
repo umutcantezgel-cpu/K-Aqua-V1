@@ -409,42 +409,144 @@ export default function Native3DCanvas({
     }
   };
 
-  // Download GLTF/GLB or OBJ CAD file
+  /**
+   * Sucht die Artikelzeile zur angezeigten Groesse.
+   *
+   * Die meisten Produkte schluesseln ueber die Nennweite `d`; 22 der 50
+   * benutzen `sizeKey: 'key'` mit einem zusammengesetzten Schluessel wie
+   * `20x1/2`, weil eine Zeile dort erst durch das Maßpaar eindeutig wird.
+   */
+  const articleForSize = (product: any, size: number | string) => {
+    if (!product?.articles) return null;
+    const field = product.sizeKey || 'd';
+    return (
+      product.articles.find((a: any) => String(a[field]) === String(size)) ?? null
+    );
+  };
+
+  /**
+   * Laedt die Datei im Browser herunter.
+   *
+   * `URL.revokeObjectURL` erst im naechsten Ereignisdurchlauf: Safari bricht
+   * den Download ab, wenn die Adresse noch im selben Durchlauf freigegeben
+   * wird, in dem der Klick ausgeloest wurde.
+   */
+  const triggerDownload = (blob: Blob, fileName: string) => {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = fileName;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 0);
+  };
+
+  /**
+   * Exportiert das angezeigte Bauteil als GLB oder OBJ.
+   *
+   * DREI DINGE WAREN HIER FALSCH und sind es jetzt nicht mehr:
+   *
+   * 1. Exportiert wurde der ANSICHTSZUSTAND — mit aktivem Halbschnitt, wenn
+   *    der Nutzer ihn eingeschaltet hatte. Wer sich ein Bauteil aufgeschnitten
+   *    ansieht und dann exportiert, bekam ein aufgeschnittenes Bauteil in
+   *    seine Planung. Jetzt wird fuer den Export neutral neu gebaut.
+   *
+   * 2. Das OBJ kam in METERN. Der Exportvertrag des 3D-Bestands
+   *    (kaqua-3d/core/export.js) legt fest: GLB in Metern, OBJ in
+   *    Millimetern. Ein OBJ in Metern laedt in jedem CAD-Programm um den
+   *    Faktor 1000 zu klein.
+   *
+   * 3. Es fehlte jede Sachangabe. Weder Artikelnummer noch Einheit standen in
+   *    der Datei — ein Netz ohne Herkunft.
+   */
   const handleExportCAD = (format: 'glb' | 'obj') => {
-    if (!currentGroupRef.current || exporting) return;
+    const product = activeProductModuleRef.current;
+    if (!product || exporting) return;
     setExporting(true);
 
-    const name = `K-Aqua_${productData?.titleEn || 'Product'}_d${selectedSize}`;
+    let holder: THREE.Group | null = null;
+    try {
+      // Neutral neu bauen: kein Schnitt, keine Explosion.
+      const assembly = product.build(selectedSize, null, null);
+      holder = new THREE.Group();
+      holder.name = `k_aqua_${product.id}_d${selectedSize}`;
 
-    if (format === 'glb') {
-      const exporter = new GLTFExporter();
-      exporter.parse(
-        currentGroupRef.current,
-        (gltf) => {
-          const blob = new Blob([gltf as ArrayBuffer], { type: 'model/gltf-binary' });
-          const link = document.createElement('a');
-          link.href = URL.createObjectURL(blob);
-          link.download = `${name}.glb`;
-          link.click();
-          URL.revokeObjectURL(link.href);
-          setExporting(false);
-        },
-        (err) => {
-          console.error('GLTF export error:', err);
-          setExporting(false);
-        },
-        { binary: true }
-      );
-    } else {
+      // Die Deckflaechen des Halbschnitts sind Hilfsgeometrie des Viewers.
+      // Mitexportiert ergaeben sie zusaetzliche Waende mitten im Bauteil.
+      const schnittflaechen: THREE.Object3D[] = [];
+      assembly.root.traverse((o: THREE.Object3D) => {
+        if (/_Schnitt$/.test(o.name || '')) schnittflaechen.push(o);
+      });
+      schnittflaechen.forEach((o) => o.parent?.remove(o));
+
+      holder.add(assembly.root);
+
+      const article = articleForSize(product, selectedSize);
+      const code = article?.code ?? null;
+      const base = `K-Aqua_${product.id?.split('/').pop() || 'Bauteil'}_d${selectedSize}${
+        code ? `_${code}` : ''
+      }`;
+
+      if (format === 'glb') {
+        // GLB in Metern, so wie der Exportvertrag es festlegt.
+        holder.scale.setScalar(0.001);
+        holder.userData = {
+          kaqua: {
+            id: product.id,
+            article: code,
+            size: selectedSize,
+            unit: 'm',
+            title: product.titleDe ?? product.titleEn ?? null,
+            catalogue: 'KA-Katalog_GB_06-2025',
+            source: 'k-aqua.de',
+          },
+        };
+
+        const exporter = new GLTFExporter();
+        exporter.parse(
+          holder,
+          (gltf) => {
+            triggerDownload(
+              new Blob([gltf as ArrayBuffer], { type: 'model/gltf-binary' }),
+              `${base}.glb`,
+            );
+            setExporting(false);
+          },
+          (err) => {
+            console.error('GLTF export error:', err);
+            setExporting(false);
+          },
+          { binary: true },
+        );
+        return;
+      }
+
+      // OBJ in Millimetern — also ohne Skalierung, das Modell rechnet in mm.
       const exporter = new OBJExporter();
-      const result = exporter.parse(currentGroupRef.current);
-      const blob = new Blob([result], { type: 'text/plain' });
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = `${name}.obj`;
-      link.click();
-      URL.revokeObjectURL(link.href);
+      const header = [
+        `# K-Aqua 3D — ${product.titleDe ?? product.titleEn ?? product.id}`,
+        `# Produkt-ID: ${product.id}`,
+        code ? `# Artikel: ${code}   Nennmaß: d${selectedSize}` : `# Nennmaß: d${selectedSize}`,
+        '# Einheit: Millimeter',
+        '# Katalog: KA-Katalog_GB_06-2025',
+        '# Quelle: k-aqua.de',
+        '',
+      ].join('\n');
+      triggerDownload(
+        new Blob([header + exporter.parse(holder)], { type: 'text/plain' }),
+        `${base}.obj`,
+      );
       setExporting(false);
+    } catch (err) {
+      console.error('CAD export error:', err);
+      setExporting(false);
+    } finally {
+      // Die Exportkopie haengt nicht an der Szene und muss selbst
+      // aufgeraeumt werden, sonst bleibt sie bei jedem Export im Speicher.
+      if (holder && format === 'obj') {
+        holder.traverse((child: any) => {
+          if (child.geometry) child.geometry.dispose();
+        });
+      }
     }
   };
 

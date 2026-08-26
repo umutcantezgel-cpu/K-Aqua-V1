@@ -8566,98 +8566,98 @@
       }
     },
     "bim": {
-      "title": "BIM Data",
-      "metaDesc": "K Aqua BIM Data para sa global megaprojects.",
+      "title": "Datos ng BIM",
+      "metaDesc": "Datos ng BIM ng K-Aqua: 546 na artikulo bilang mga file na IFC 4 na may mga connection point, katangian ng materyal at sanggunian sa katalogo. Walang rehistrasyon, libre para sa mga tagaplano at inhinyero.",
       "sticky": {
         "items": [
           {
-            "title": "Maximum na Lalim (LOI 500)",
-            "desc": "Ang aming mga BIM model ay may eksaktong impormasyon."
+            "title": "Bawat bilang kasama ang pahina ng katalogo nito",
+            "desc": "Sa bawat bahagi nakasaad kung saan nanggaling ang mga sukat nito — hanggang sa mismong pahina sa katalogo ng gumawa 06-2025. Ang sinumang ihahambing ang kapal ng dingding sa modelo laban sa data sheet ay makikita ang parehong bilang at ang batayan nito. Kapag nagkakasalungatan ang katalogo sa isang bahagi nito, ang nakalimbag na halaga ang nasa file, na may paliwanag sa tabi."
           },
           {
-            "title": "Pagpaplano na walang banggaan",
-            "desc": "Native na Revit file at IFC format."
+            "title": "Mga connection point, hindi bukol",
+            "desc": "Dala ng bawat fitting ang mga koneksyon nito sa tubo bilang IfcDistributionPort: posisyon, direksyon ng aksis, nominal na diyametro at uri ng koneksyon. Sa socket welding, nakalagay mismo sa koneksyon ang lalim ng pagkakapasok, oras ng pag-init at oras ng paglamig — mga halagang mula sa tagubilin sa paghihinang ng gumawa, hindi mula sa isang pangkalahatang pamantayan."
           },
           {
-            "title": "Parametric Intelligence",
-            "desc": "Ang aming pamilya ay awtomatikong umaangkop."
+            "title": "Ang tubo ay nananatiling tubo",
+            "desc": "Dumarating ang tubo bilang IfcSweptDiskSolid na may panlabas at panloob na radius, hindi bilang triangle mesh. Sa Revit o ArchiCAD nananatili itong segment ng tubo na maaaring iruta at putulin. Siyam na kilobyte ang laki ng file, hindi ilang daan."
           },
           {
-            "title": "Lifecycle at Facility Management",
-            "desc": "Para sa maayos na pagpapatakbo sa loob ng 50 taon."
+            "title": "Datos sa pag-install mula sa katalogo",
+            "desc": "Agwat ng mga suporta para sa bawat nominal na diyametro at pitong temperatura, mga klase ng aplikasyon ayon sa DIN EN ISO 15874-1 kasama ang pinapayagang presyon sa operasyon, at pagpapalawak sa haba. Ang mga tubong K-Fiber ay may sariling koepisyent dito na 0.35·10⁻⁴ K⁻¹ — mahigit apat na beses na mas maliit kaysa sa tubong isang-patong, at iyan mismo ang dahilan ng patong na fiber composite."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Perpektong Digital Twins.",
-        "lead": "Tinatanggal ang pagkakaiba ng pagpaplano at realidad."
+        "eyebrow": "Ang laman ng mga file",
+        "title": "Datos sa pagpaplano na kayang suriin.",
+        "lead": "Apat na katangiang nagdudulot ng pagkakaiba kapag ang isang modelo ay hindi lamang dapat magmukhang maayos kundi dapat talagang magamit."
       },
       "timeline": {
         "items": [
           {
             "year": "Yugto 1",
-            "title": "Konsepto at TGA",
-            "text": "Pag-integrate sa paunang disenyo."
+            "title": "Konsepto at ruta ng linya",
+            "text": "Ang buong katalogo bilang talahanayan o JSON: 546 na artikulo na may nominal na diyametro, materyal at timbang. Sapat na para sa unang pagtaya ng dami at sa pagpaplano ng ruta, bago pa man mai-load ang kahit isang modelo."
           },
           {
             "year": "Yugto 2",
-            "title": "Detalyadong Pagpaplano",
-            "text": "Mga pag-evaluate ng hydraulic network."
+            "title": "Detalyadong pagpaplano",
+            "text": "IFC 4 para sa bawat nominal na diyametro, sa milimetro. Panlabas na diyametro, kapal ng dingding at haba ng pagkakabit mula sa katalogo, kasama ang agwat ng mga suporta at mga klase ng aplikasyon para sa pagkalkula ng network."
           },
           {
             "year": "Yugto 3",
-            "title": "Tender at Pagpaparaya",
-            "text": "Walang error na Bill of Materials."
+            "title": "Tender at paggawad",
+            "text": "Dala ng bawat bahagi ang numero ng artikulo nito bilang IFC tag at sa property set. Ang listahan ng materyales mula sa modelo ay maihahambing agad sa katalogo, walang paligoy."
           },
           {
             "year": "Yugto 4",
-            "title": "Prefabrication at Pagpupulong",
-            "text": "Export ng isometric drawings."
+            "title": "Prefabrication at pag-install",
+            "text": "Ang lalim ng pagkakapasok, oras ng pag-init at oras ng paglamig ay nakasaad sa connection point para sa bawat nominal na diyametro. Binabasa ng prefabricator ang mga parameter ng paghihinang mula sa parehong modelong pinagkukunan niya ng mga haba."
           },
           {
             "year": "Yugto 5",
-            "title": "As-Built at Operasyon",
-            "text": "Pagpasa ng as-built model."
+            "title": "As-built at operasyon",
+            "text": "Nananatili sa bahagi ang numero ng artikulo. Ang sinumang magpapalit ng fitting makalipas ang dalawampung taon ay makikita sa modelo kung ano ang nailagay — kasama ang pahina ng katalogong pinagkunan nito."
           }
         ],
-        "title": "Siklo ng Buhay ng K Aqua BIM",
-        "desc": "Mula unang guhit hanggang sa panghabang-buhay na operasyon."
+        "title": "Kung saan gumagana ang datos sa proyekto",
+        "desc": "Mula sa unang pagtaya ng dami hanggang sa kapalit na piyesa makalipas ang dalawampung taon."
       },
       "hero": {
-        "desc": "Walang katapat na kaligtasan. I-download ang aming mga BIM asset.",
-        "btnPrimary": "BIM Library (Revit/IFC)",
-        "btnGhost": "Humingi ng BIM Consulting"
+        "desc": "546 na artikulo bilang IFC 4 — may mga connection point, katangian ng materyal, datos sa pag-install at ang pahina ng katalogo kung saan nakasulat ang bawat bilang. Isa-isa o bilang pakete, walang rehistrasyon.",
+        "btnPrimary": "I-download ang aklatan ng IFC",
+        "btnGhost": "Humiling ng teknikal na konsultasyon"
       },
       "intro": {
-        "title1": "Ang DNA ng aming tubo.",
-        "title2": "Ngayon nasa Cloud na.",
-        "p1": "Naiintindihan namin na ang BIM ay hindi lang 3D drawing.",
-        "p2": "Bawat detalye ng aming datos ay nasuri ng German engineers."
+        "title1": "Ang mga sukat ng aming sistema ng tubo.",
+        "title2": "Nasusuri bilang bawat bilang.",
+        "p1": "Ang halaga ng isang BIM object ay katumbas ng datos na dala nito. Kaya sa amin ay hindi galing sa guhit ang mga file kundi sa katalogo ng gumawa: ang parehong pinagkukunan ng mga bilang sa mga pahina ng produkto sa website na ito. Kung may halagang lumihis, pareho itong lumilihis kahit saan — at maiwawasto sa iisang lugar.",
+        "p2": "Bawat file ay ginagawang muli sa mismong sandali ng paghingi. Walang natitirang tumpok ng mga nagawang file na maaaring maluma, at walang aklatang nahuhuli sa bersyon ng katalogo. Ang iyong dina-download ay laging katugma ng nakasulat sa pahina ng produkto."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit Families",
-            "desc": "Direktang .rfa at .rvt para sa pinakamahusay na performance."
+            "title": "IFC 4, bukas at sa milimetro",
+            "desc": "Nababasa sa Revit, ArchiCAD, Allplan at Vectorworks, nasusuri sa Navisworks at Solibri. Parehong yunit gaya ng sa katalogo — walang kailangang i-convert kapag inihahambing sa data sheet."
           },
           {
-            "title": "VDI 3805 Compliant",
-            "desc": "Standard na produkto para makipagpalitan ng datos."
+            "title": "Mga connection point na may datos sa paghihinang",
+            "desc": "Isang IfcDistributionPort sa bawat koneksyon, may nominal na diyametro at uri ng koneksyon. Sa socket welding, kasama pa ang lalim ng pagkakapasok, oras ng pag-init at oras ng paglamig mula sa tagubilin sa pagproseso."
           },
           {
-            "title": "IFC4 Certified",
-            "desc": "Mababasa rin sa ArchiCAD at Allplan."
+            "title": "Katalogo ng uri para sa Revit",
+            "desc": "Ang katutubong .rfa na pamilya ay saradong binary format at hindi magagawa nang walang lisensya ng Revit. Ang ibinibigay namin ay IFC 4 na direktang binabasa ng Revit, at ang katalogo ng uri na may lahat ng nominal na diyametro at sukat."
           },
           {
-            "title": "Eksaktong Thermal na Datos",
-            "desc": "Mababasa ang pagpapalawak ng init."
+            "title": "Katangian ng materyal at sistema",
+            "desc": "Densidad 905 kg/m³, thermal conductivity 0.24 W/(m·K), pagpapalawak sa haba 1.5·10⁻⁴ K⁻¹ — sa K-Fiber 0.35·10⁻⁴ K⁻¹. Kasama ang agwat ng mga suporta at mga klase ng aplikasyon ayon sa DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "I-download ang K Aqua BIM Package.",
-        "desc": "Libre para sa mga tagaplano at inhinyero.",
-        "btnPrimary": "Download Center",
-        "btnOutline": "Kontakin ang BIM Manager"
+        "title": "I-download ang pakete ng BIM.",
+        "desc": "Isang archive kada produkto: IFC 4 para sa bawat nominal na diyametro, talahanayan ng mga artikulo para sa pagtaya ng dami, katalogo ng uri para sa Revit. Walang rehistrasyon, libre para sa mga tagaplano at inhinyero.",
+        "btnPrimary": "Sa Download Center",
+        "btnOutline": "Humiling ng teknikal na konsultasyon"
       }
     },
     "common": {

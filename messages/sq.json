@@ -8555,107 +8555,98 @@
       }
     },
     "bim": {
-      "title": "BIM (Modele të Informacionit të Ndërtesës)",
-      "metaDesc": "Të dhëna BIM nga K Aqua: Binjakë dixhitalë me precizion absolut për TGA (Teknologjia e Pajisjeve të Ndërtesës) tuaj globale. Planifikoni megaprojekte pa përplasje/gabime dhe efikasitet maksimal.",
-      "cta": {
-        "title": "Modelimi Dixhital Përfundon Këtu.",
-        "desc": "Të dhënat tona BIM transformojnë planet tuaja në arkitekturë inxhinierike gjermane të pashkatërrueshme, ende pa u hapur kantieri.",
-        "btn": "Shkarko Të Dhënat BIM",
-        "btnPrimary": "Kërkoni Qasje BIM",
-        "btnOutline": "Bisedoni me Ekspertët e BIM"
-      },
-      "hero": {
-        "eyebrow": "Burimet BIM të K Aqua",
-        "title1": "Binjaku Dixhital.",
-        "title2": "Saktësi deri në Milimetër.",
-        "desc": "Në planifikimin e megaprojekteve, asgjë nuk mund t'i lihet rastësisë. Të dhënat tona BIM ofrojnë pasqyrimin e saktë dixhital të sistemeve tona PP-R të inxhinierisë gjermane, duke mundësuar një planifikim pa përplasje dhe një simulim absolutisht të saktë të dinamikës së lëngjeve dhe rrugëve të instalimit.",
-        "btnPrimary": "Hyr në Modelin BIM",
-        "btnGhost": "Shiko Specifikimet"
-      },
-      "intro": {
-        "title": "Pse BIM është i domosdoshëm",
-        "desc": "BIM (Building Information Modeling) nuk është vetëm vizatim 3D; është inxhinieri përmes të dhënave. Modelet e K Aqua sjellin parametra fizikë realë (të dhëna termike, luhatje nën presione të ndryshme, humbje të rrjedhës) direkt në mjedisin e softuerit tuaj.",
-        "p1": "Në të kaluarën, konfrontimet fizike (clashes) midis sistemeve të rënda, ventilimit dhe tubacioneve ngritëse (steigleitung) zbuloheshin vetëm pasi materialet ishin instaluar në kantier, duke shkaktuar shpenzime astronomike riparimi.",
-        "p2": "Me formatet tona të disponueshme lirisht për Revit, AutoCAD dhe IFC, çdo kthesë, çdo tub, dhe çdo reduktim planifikohet në perfeksion. Ne nuk sigurojmë vetëm dimensionet gjeometrike; ne përcjellim inteligjencën e gjithë sistemit brenda modulit BIM.",
-        "title1": "Inxhinieria fillon",
-        "title2": "në Matrix."
-      },
-      "bento": {
-        "eyebrow": "Ekosistemi i BIM",
-        "title": "Çdo gjë që ju duhet.",
-        "lead": "Të dhënat tona nuk kufizohen në modele të thjeshta - ato formojnë një ekosistem të plotë për dizajnin tuaj.",
+      "title": "Të dhëna BIM",
+      "metaDesc": "Të dhëna BIM të K-Aqua: 546 artikuj si IFC 4 me pika lidhjeje, karakteristika materiali dhe referencë kataloge. Pa regjistrim, falas për projektues dhe inxhinierë.",
+      "sticky": {
         "items": [
           {
-            "title": "Bibliotekat Revit",
-            "desc": "Fedarime 100% të familjeve Revit për të gjitha pajisjet K Aqua, me lidhës inteligjentë dhe kufizime hapësinore."
+            "title": "Çdo vlerë me faqen e vet të katalogut",
+            "desc": "Në çdo komponent shënohet se nga vijnë përmasat e tij — deri te faqja e saktë në katalogun e prodhuesit 06-2025. Kush krahason një trashësi muri të modelit me fletën teknike, gjen të njëjtën vlerë dhe dëshminë për të. Aty ku katalogu bie ndesh me vetveten në një pikë, në skedar qëndron vlera e shtypur dhe pranë saj shënimi përkatës."
           },
           {
-            "title": "Formatet IFC",
-            "desc": "Pajtueshmëri ndër-platformash. Ndani modelin pa probleme me nënkontraktorët që përdorin softuerë të ndryshëm."
+            "title": "Pika lidhjeje, jo një trup i pandarë",
+            "desc": "Çdo fiting i mban lidhjet e tij të tubave si IfcDistributionPort: pozicionin, drejtimin e boshtit, diametrin nominal dhe llojin e lidhjes. Te saldimi me mufë, thellësia e saldimit, koha e ngrohjes dhe koha e ftohjes qëndrojnë drejtpërdrejt te lidhja — vlerat nga udhëzimi i saldimit i prodhuesit, jo nga një normë e përgjithshme."
           },
           {
-            "title": "Përditësime në Kohë Reale",
-            "desc": "Katalogu dixhital është i lidhur me bibliotekat e reja (Live Updates). Kur dalin madhësi të reja tubash, modelet tuaja janë të parat që i marrin."
+            "title": "Tubi mbetet tub",
+            "desc": "Një tub vjen si IfcSweptDiskSolid me rreze të jashtme dhe të brendshme, jo si rrjetë trekëndëshash. Në Revit ose ArchiCAD ai mbetet kështu një segment tubi që mund të shtrihet dhe të pritet. Skedari është nëntë kilobajt i madh, jo disa qindra."
           },
           {
-            "title": "Të dhëna Termike dhe Hidraulike",
-            "desc": "Të dhëna të rënda inxhinierike të bashkëngjitura. Përllogarisni rezistencën e sistemit dhe humbjen e nxehtësisë gjatë fazës së modelimit."
+            "title": "Të dhëna shtrimi nga katalogu",
+            "desc": "Distancat e mbajtëseve për çdo diametër nominal dhe shtatë temperatura, klasat e përdorimit sipas DIN EN ISO 15874-1 me presionin e lejuar të punës, zgjatimi termik. Tubat K-Fiber mbajnë këtu koeficientin e tyre prej 0,35·10⁻⁴ K⁻¹ — rreth katër herë më i vogël se te një tub njështresor, dhe pikërisht arsyeja për shtresën e kompozitit me fibra."
           }
-        ]
+        ],
+        "eyebrow": "Çfarë përmbajnë skedarët",
+        "title": "Të dhëna projektimi që mund të verifikohen.",
+        "lead": "Katër veti që bëjnë ndryshimin kur një model nuk duhet vetëm të duket bukur, por edhe t'i qëndrojë provës."
       },
       "timeline": {
-        "title": "Rrjedha e punës BIM e K Aqua",
-        "desc": "Si e bëjmë procesin tuaj të projektimit (dizajnit) të pagabueshëm nga faza e parë e skicës e deri në dorëzim.",
         "items": [
           {
-            "year": "Hapi 1",
-            "title": "Shkarkimi i Modelit",
-            "text": "Siguroni skedarët specifikë për programin nga portali ynë dixhital. Gjithçka është e renditur logjikisht dhe pa gabime (error-free)."
+            "year": "Faza 1",
+            "title": "Koncepti dhe shtrirja e traseve",
+            "text": "I gjithë katalogu si tabelë ose JSON: 546 artikuj me diametër nominal, material dhe peshë. Mjaftueshëm për llogaritjen e parë të sasive dhe planifikimin e traseve, para se të ngarkohet qoftë edhe një model i vetëm."
           },
           {
-            "year": "Hapi 2",
-            "title": "Integrimi i modelit",
-            "text": "Importoni familjet K Aqua drejtpërdrejt në sistemin tuaj dhe filloni drejtimin (routing) e tubave. Lidhësit inteligjentë gjejnë fitingun e duhur në mënyrë automatike."
+            "year": "Faza 2",
+            "title": "Projekti i zbatimit",
+            "text": "IFC 4 për çdo diametër nominal, në milimetra. Diametri i jashtëm, trashësia e murit dhe gjatësitë e ndërtimit nga katalogu, si dhe distancat e mbajtëseve dhe klasat e përdorimit për llogaritjen e rrjetit."
           },
           {
-            "year": "Hapi 3",
-            "title": "Testimi i Përplasjeve (Clash Detection)",
-            "text": "Testoni integrimin me sistemet e tjera HVAC, siç është struktura e betonit, dhe elektrike, për të siguruar 100% liri hapësinore gjatë ndërtimit."
+            "year": "Faza 3",
+            "title": "Tenderi dhe kontraktimi",
+            "text": "Çdo komponent mban numrin e vet të artikullit si etiketë IFC dhe në grupin e vetive. Lista e materialeve nga modeli mund të krahasohet kështu drejtpërdrejt me katalogun."
           },
           {
-            "year": "Hapi 4",
-            "title": "Ekstraktimi (Nxjerrja e të dhënave)",
-            "text": "Gjeneroni lista automatike për materiale, duke garantuar porositjen e përpiktë pa asnjë mbivlerësim ose mungesë materialesh."
+            "year": "Faza 4",
+            "title": "Parafabrikimi dhe montimi",
+            "text": "Thellësia e saldimit, koha e ngrohjes dhe koha e ftohjes qëndrojnë te pika e lidhjes për çdo diametër nominal. Punishtja e parafabrikimit i lexon parametrat e saldimit nga i njëjti model nga i cili merr gjatësitë."
           },
           {
-            "year": "Hapi 5",
-            "title": "Zbatimi në Praktikë",
-            "text": "Modeli juaj i verifikuar hidraulikisht bëhet baza 1:1 e instalimit. Secili komponent K Aqua korrespondon saktësisht me modelin dixhital, pa kompromise apo devijime."
+            "year": "Faza 5",
+            "title": "Gjendja e ndërtuar dhe shfrytëzimi",
+            "text": "Numri i artikullit mbetet te komponenti. Kush zëvendëson një fiting pas njëzet vjetësh, gjen në model se çfarë është instaluar — bashkë me faqen e katalogut ku ai ishte shënuar."
+          }
+        ],
+        "title": "Ku i shërbejnë të dhënat projektit",
+        "desc": "Nga llogaritja e parë e sasive deri te pjesa e këmbimit pas njëzet vjetësh."
+      },
+      "hero": {
+        "desc": "546 artikuj si IFC 4 — me pika lidhjeje, karakteristika materiali, të dhëna shtrimi dhe faqen e katalogut ku qëndron çdo e dhënë. Veç e veç ose si paketë, pa regjistrim.",
+        "btnPrimary": "Shkarko bibliotekën IFC",
+        "btnGhost": "Kërko këshillim teknik"
+      },
+      "intro": {
+        "title1": "Përmasat e sistemeve tona të tubave.",
+        "title2": "Të verifikueshme, shifër për shifër.",
+        "p1": "Një objekt BIM vlen aq sa vlejnë të dhënat që mbart. Prandaj te ne asnjë skedar nuk lind nga një vizatim, por nga katalogu i prodhuesit: i njëjti burim nga i cili edhe faqet e produkteve të kësaj faqeje marrin shifrat e tyre. Nëse një vlerë devijon, ajo devijon njëlloj kudo — dhe korrigjohet në një vend të vetëm.",
+        "p2": "Çdo skedar krijohet sërish në çastin e thirrjes. Nuk ka një fond skedarësh të gatshëm që mund të vjetërohet, as një bibliotekë që mbetet pas gjendjes së katalogut. Ajo që shkarkoni përputhet me atë që shkruhet në faqen e produktit — gjithmonë."
+      },
+      "bento": {
+        "items": [
+          {
+            "title": "IFC 4, i hapur dhe në milimetra",
+            "desc": "I lexueshëm në Revit, ArchiCAD, Allplan dhe Vectorworks, i kontrollueshëm në Navisworks dhe Solibri. E njëjta njësi si në katalog — pa konvertim gjatë krahasimit me fletën teknike."
+          },
+          {
+            "title": "Pika lidhjeje me të dhëna saldimi",
+            "desc": "IfcDistributionPort për çdo lidhje, me diametër nominal dhe lloj lidhjeje. Te saldimi me mufë shtohen edhe thellësia e saldimit, koha e ngrohjes dhe koha e ftohjes nga udhëzuesi i përpunimit."
+          },
+          {
+            "title": "Katalogu i tipave për Revit",
+            "desc": "Familjet origjinale .rfa janë format binar i mbyllur dhe pa licencë Revit nuk mund të krijohen. Ne ofrojmë IFC 4, të cilin Revit e lexon drejtpërdrejt, dhe katalogun e tipave me të gjithë diametrat nominalë dhe përmasat."
+          },
+          {
+            "title": "Karakteristika materiali dhe sistemi",
+            "desc": "Dendësia 905 kg/m³, përcjellshmëria termike 0,24 W/(m·K), zgjatimi termik 1,5·10⁻⁴ K⁻¹ — te K-Fiber 0,35·10⁻⁴ K⁻¹. Krahas kësaj, distancat e mbajtëseve dhe klasat e përdorimit sipas DIN EN ISO 15874-1."
           }
         ]
       },
-      "sticky": {
-        "eyebrow": "Saktësi Gjermane Dixhitale",
-        "title": "Detajet përcaktojnë Realitetin.",
-        "lead": "Çdo pjesë dixhitale K Aqua mban në vete dekada të tëra saktësie inxhinierike. Është aseti juaj më i mirë kundër pasigurive të instalimit në terren.",
-        "items": [
-          {
-            "title": "Shkalla LOD",
-            "desc": "Modelet tona mbulojnë Niveline Zhvillimit (LOD) 100 deri në LOD 400, duke ofruar nga paraqitjet e thjeshta vëllimore (volumetrike) deri te modelet 3D tepër të detajuara, të prodhueshme (fabrikueshme)."
-          },
-          {
-            "title": "Modele të Lehta, Të Dhëna të Rënda",
-            "desc": "Kemi optimizuar gjeometrinë vizuale për të mbajtur softuerin tuaj të shpejtë, duke ruajtur të paprekur madhësinë e bazës së të dhënave hidraulike, fizike dhe meta."
-          },
-          {
-            "title": "Rregullat e Renditjes Automatikisht",
-            "desc": "Kur vizatoni një kthesë në Revit me tuba K Aqua, programi e di saktësisht se cili bërryl K Aqua do të instalohet. Nuk nevojitet zgjedhje manuale e gjatë."
-          },
-          {
-            "title": "Besueshmëri Universale",
-            "desc": "I integruar me plotësim automatik (auto-fill) për pjesët (part-lists), ju shmangni humbjet miliona dollarëshe nga llogaritja e gabuar e sasisë dhe vonesat e transportit gjatë dërgesës në kantier."
-          }
-        ]
+      "cta": {
+        "title": "Shkarkoni paketën BIM.",
+        "desc": "Për çdo produkt një arkiv: IFC 4 për çdo diametër nominal, tabela e artikujve për llogaritjen e sasive, katalogu i tipave për Revit. Pa regjistrim, falas për projektues dhe inxhinierë.",
+        "btnPrimary": "Te qendra e shkarkimeve",
+        "btnOutline": "Kërko këshillim teknik"
       }
     },
     "common": {

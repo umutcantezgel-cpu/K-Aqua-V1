@@ -7107,97 +7107,97 @@
     },
     "bim": {
       "title": "BIM Data",
-      "metaDesc": "K-Aqua BIM Data: Streamline your architectural design with our comprehensive CAD models and Revit files for German-engineered systems.",
+      "metaDesc": "K-Aqua BIM data: 546 articles as IFC 4 with connection points, material properties and catalogue reference. No registration, free for planners and engineers.",
       "sticky": {
         "items": [
           {
-            "title": "Maximum Data Depth (LOI 500)",
-            "desc": "Our BIM models offer not only a high-precision geometric representation (LOD) but above all an unsurpassed depth of information (LOI). Every pipe, every fitting, and every valve contains all critical metadata: material specifications, pressure ratings, thermal expansion coefficients, and exact article numbers for automated tendering."
+            "title": "Every figure with its catalogue page",
+            "desc": "Each component states where its dimensions come from — down to the exact page in the 06-2025 manufacturer catalogue. Anyone checking a wall thickness in the model against the data sheet finds the same figure and the source for it. Where the catalogue contradicts itself in one place, the printed value is in the file and the note sits beside it."
           },
           {
-            "title": "Collision-Free Planning",
-            "desc": "In billion-dollar projects, clash detection is non-negotiable. Our native Revit and IFC files guarantee seamless integration into your Navisworks or Solibri. The exact outer diameters including weld seam tolerances prevent costly surprises on the construction site."
+            "title": "Connection points instead of lumps",
+            "desc": "Every fitting carries its pipe connections as IfcDistributionPort: position, axis direction, nominal size and joint type. For socket fusion, the fusion depth, heating time and cooling time sit directly at the connection — the values from the manufacturer's welding instructions, not from a general standard."
           },
           {
-            "title": "Parametric Intelligence",
-            "desc": "K Aqua BIM families are fully parametric. They dynamically adapt to pipe routing, gradients, and dimensions. The integrated auto-routing automatically selects the correct reducers and elbow angles according to the strict specifications of DIN EN ISO 15874."
+            "title": "Pipes stay pipes",
+            "desc": "A pipe comes as an IfcSweptDiskSolid with an outer and an inner radius, not as a triangle mesh. In Revit or ArchiCAD it therefore remains a pipe segment that can be routed and trimmed. The file is nine kilobytes instead of several hundred."
           },
           {
-            "title": "Lifecycle & Facility Management",
-            "desc": "The digital twin does not end with the building handover. Our BIM objects are COBie-compatible and provide Facility Management with all necessary maintenance intervals, certificates, and operating data for a safe lifecycle of over 50 years."
+            "title": "Installation data from the catalogue",
+            "desc": "Support spacings for every nominal size and seven temperatures, application classes to DIN EN ISO 15874-1 with permissible operating pressure, linear expansion. K-Fiber pipes carry their own coefficient of 0.35·10⁻⁴ K⁻¹ — a good four times lower than a single-layer pipe, and precisely the reason for the fibre composite layer."
           }
         ],
-        "eyebrow": "Workflow Excellence",
-        "title": "Digital Twins in Perfection.",
-        "lead": "An insight into the depth of data that eliminates the difference between planning and reality."
+        "eyebrow": "What is in the files",
+        "title": "Planning data you can check.",
+        "lead": "Four properties that make the difference when a model has to carry a project, not just look good."
       },
       "timeline": {
         "items": [
           {
             "year": "Phase 1",
-            "title": "Conception & MEP Planning",
-            "text": "Integration of K Aqua basic geometries in the early design phase. Rapid quantity takeoff and initial clash detection for the routing concept in the MEP master plan."
+            "title": "Concept and routing",
+            "text": "The complete catalogue as a table or as JSON: 546 articles with nominal size, material and weight. Enough for the first quantity take-off and the routing layout before a single model has been loaded."
           },
           {
             "year": "Phase 2",
-            "title": "Execution Planning",
-            "text": "Transition to LOI 400. The exact specifications, flow velocities, and pressure loss calculations flow directly into the hydraulic network calculation of the building."
+            "title": "Execution planning",
+            "text": "IFC 4 for each nominal size, in millimetres. Outside diameter, wall thickness and laying lengths from the catalogue, plus support spacings and application classes for the network calculation."
           },
           {
             "year": "Phase 3",
-            "title": "Tendering & Awarding",
-            "text": "Automated generation of error-free Bills of Materials (BOM) directly from the model. Every fitting is stored with the K Aqua article number and VDI 3805 data."
+            "title": "Tendering and awarding",
+            "text": "Every component carries its article number as an IFC tag and in the property set. The bill of materials from the model can be checked against the catalogue with no detour."
           },
           {
             "year": "Phase 4",
-            "title": "Prefabrication & Assembly",
-            "text": "Export of isometric drawings for industrial prefabrication. Millimeter-precise spool drawings minimize welding work on the construction site to an absolute minimum."
+            "title": "Prefabrication and installation",
+            "text": "Fusion depth, heating time and cooling time are given per nominal size at the connection point. The prefabricator reads the welding parameters from the same model he takes the lengths from."
           },
           {
             "year": "Phase 5",
-            "title": "As-Built & Operation",
-            "text": "Handover of the as-built model. The digital twin serves as a Single Source of Truth for Facility Management throughout the entire lifecycle of the building."
+            "title": "As-built and operation",
+            "text": "The article number stays with the component. Anyone replacing a fitting twenty years from now finds in the model what was installed — including the catalogue page it appeared on."
           }
         ],
-        "title": "The Lifecycle of K Aqua BIM Data",
-        "desc": "From the first sketch to decades of operation. Our data accompanies your project in every phase."
+        "title": "Where the data takes hold in the project",
+        "desc": "From the first quantity take-off to the spare part twenty years later."
       },
       "hero": {
-        "desc": "This module provides uncompromising safety for the most demanding projects worldwide. Manufactured according to the strictest industrial standards to outlast generations. Download the digital twin where material failure is not an option.",
-        "btnPrimary": "BIM Library (Revit/IFC)",
-        "btnGhost": "Request BIM Consulting"
+        "desc": "546 articles as IFC 4 — with connection points, material properties, installation data and the catalogue page on which every figure appears. Individually or as a package, without registration.",
+        "btnPrimary": "Download IFC library",
+        "btnGhost": "Request technical advice"
       },
       "intro": {
-        "title1": "The DNA of our piping systems.",
-        "title2": "Now in the cloud.",
-        "p1": "We don't see BIM as a mere 3D drawing. For K Aqua, Building Information Modeling is the transfer of our uncompromising manufacturing precision into the digital space. When international general contractors plan skyscrapers, data centres, or high-security labouratories, they do not need estimated values, they need physical reality in the form of data.",
-        "p2": "Our data sets are the result of decades of German engineering. Every wall thickness, every flow dynamic, and every thermal property has been validated by our engineers and translated natively into the families."
+        "title1": "The dimensions of our piping systems.",
+        "title2": "Verifiable figure by figure.",
+        "p1": "A BIM object is worth exactly as much as the data it carries. That is why no file here is built from a drawing, but from the manufacturer catalogue: the same source the product pages of this website take their figures from. If a value deviates, it deviates the same way everywhere — and can be put right in one place.",
+        "p2": "Every file is generated afresh at the moment it is requested. There is no stock of generated files lying around that could go stale, and no library trailing behind a catalogue revision. What you download matches what is on the product page — always."
       },
       "bento": {
         "items": [
           {
-            "title": "Native Revit® Families",
-            "desc": "No conversion losses. Programmed directly as .rfa and .rvt for highest performance and native routing preferences."
+            "title": "IFC 4, open and in millimetres",
+            "desc": "Readable in Revit, ArchiCAD, Allplan and Vectorworks, checkable in Navisworks and Solibri. The same unit as in the catalogue — no conversion when comparing against the data sheet."
           },
           {
-            "title": "VDI 3805 Conformity",
-            "desc": "Standardized product data for smooth data exchange throughout the entire MEP chain."
+            "title": "Connection points with welding data",
+            "desc": "IfcDistributionPort for every connection, with nominal size and joint type. For socket fusion, additionally fusion depth, heating time and cooling time from the processing instructions."
           },
           {
-            "title": "IFC4 Certification",
-            "desc": "Maximum interoperability through open BIM standards (OpenBIM). Guaranteed readable in ArchiCAD, Allplan, and Vectorworks."
+            "title": "Revit type catalogue",
+            "desc": "Native .rfa families are a closed binary format and cannot be produced without a Revit licence. We supply IFC 4, which Revit reads directly, and the type catalogue with all nominal sizes and dimensions."
           },
           {
-            "title": "Exact Thermal Data",
-            "desc": "Integrated calculation models for linear expansion, thermal conductivity (0.24 W/mK), and pipe friction pressure gradient."
+            "title": "Material and system properties",
+            "desc": "Density 905 kg/m³, thermal conductivity 0.24 W/(m·K), linear expansion 1.5·10⁻⁴ K⁻¹ — for K-Fiber 0.35·10⁻⁴ K⁻¹. Plus support spacings and application classes to DIN EN ISO 15874-1."
           }
         ]
       },
       "cta": {
-        "title": "Download the K Aqua BIM Package.",
-        "desc": "Full access to all native Revit families, IFC files, and VDI 3805 data sets. Free for planners and engineers.",
+        "title": "Download the BIM package.",
+        "desc": "One archive per product: IFC 4 for every nominal size, article table for the quantity take-off, Revit type catalogue. No registration, free for planners and engineers.",
         "btnPrimary": "To the Download Centre",
-        "btnOutline": "Contact BIM Manager"
+        "btnOutline": "Request technical advice"
       }
     },
     "common": {
