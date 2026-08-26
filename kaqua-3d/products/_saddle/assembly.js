@@ -53,8 +53,10 @@ export function buildSattel(cfg, size, variant, clipPlane) {
   const outer = [
     { a: yBase, r: P.rTeller, fillet: 0 },
     { a: yTeller, r: P.rTeller, fillet: Math.min(2.0, P.tellerDicke * 0.5) },
-    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5 },
-    { a: P.yTop, r: P.rBoss, chamfer: 1.0 },
+    /* w = 1 auf dem Bossmantel: dort sitzen die Griffrippen (M10). */
+    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5, w: 1 },
+    { a: P.yTop - 1.4, r: P.rBoss, fillet: 0.4, w: 1 },
+    { a: P.yTop, r: P.rBoss, chamfer: 1.0, w: 0 },
   ];
 
   let inner;
@@ -92,7 +94,33 @@ export function buildSattel(cfg, size, variant, clipPlane) {
   inner.push(...bodenPunkte(P.rFuss, P.rTeller, yBase));
 
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  const geo = sattelRevolve(profile, { mainR: P.mainR, segments: SEG_VIS });
+
+  /* ── Griffrippen (M10): vier PAARE schmaler Längsstege am Boss ──
+     Beide Fotos (AQ130SP, AQ130GSP) zeigen sie deutlich; kein
+     Tabellenmaß bemaßt sie. ASSUMPTION Steghöhe 1,2 mm, Stegbreite ~5°,
+     Paarabstand ~12° — aus den Fotos abgelesen. Die Modulation wirkt
+     nur auf den w=1-Punkten des Bossmantels; der Sattelschnitt rechnet
+     mit dem Grundradius. */
+  /* Die Rippenrücken tragen das Tabellenmaß: der Grundzylinder liegt
+     eine Steghöhe darunter (dieselbe Konvention wie die Riffelung der
+     Übergangsmuffen — Nennmaß auf dem Rücken, Fall 6 andersherum). */
+  const ribH = Math.max(1.0, 0.028 * P.rBoss);
+  const stegHalb = 2.5 * Math.PI / 180;
+  const paarVersatz = 6 * Math.PI / 180;
+  const paarRib = (th) => {
+    const viertel = Math.PI / 2;
+    let x = ((th % viertel) + viertel) % viertel;
+    if (x > viertel / 2) x -= viertel;
+    const naeher = Math.min(Math.abs(x - paarVersatz), Math.abs(x + paarVersatz));
+    if (naeher > stegHalb) return -ribH;
+    return -ribH * (1 - Math.cos((naeher / stegHalb) * Math.PI / 2));
+  };
+  const ribThetas = [];
+  {
+    const K = 4 * 36;                    // 9 Schritte je Steg-Paarzone
+    for (let j = 0; j <= K; j++) ribThetas.push((j / K) * Math.PI * 2);
+  }
+  const geo = sattelRevolve(profile, { mainR: P.mainR, thetas: ribThetas, mod: paarRib });
 
   /* Schnittkappe: dieselbe Kontur, aber mit der Unterseite auf der
      Schnittebene θ = 0. Dort ist die Schnittkurve genau y = mainR —

@@ -46,9 +46,9 @@ export function sattelY(mainR, r, theta) {
    Rohrachse, r = Abstand von der Abzweigachse), wie bei revolve. Punkte,
    die unter der Schnittkurve liegen, werden auf sie gehoben. */
 export function sattelRevolve(profile, opt) {
-  const { mainR, segments = SEG_VIS } = opt;
+  const { mainR, segments = SEG_VIS, thetas = null, mod = null } = opt;
   const N = profile.length;
-  const S = segments + 1;
+  const S = thetas ? thetas.length : segments + 1;
   const pos = new Float32Array(N * S * 3);
   const uv = new Float32Array(N * S * 2);
   const wear = new Float32Array(N * S);
@@ -65,16 +65,23 @@ export function sattelRevolve(profile, opt) {
   if (total > 0) for (let i = 0; i < N; i++) vArr[i] /= total;
 
   for (let j = 0; j < S; j++) {
-    const th = (j / segments) * Math.PI * 2;
+    const th = thetas ? thetas[j] : (j / segments) * Math.PI * 2;
+    /* Modulation wie bei revolve im Core: mod(θ) verschiebt den Radius
+       der Punkte mit w > 0 — hier für die Griffrippen des Bosses (M10).
+       Der Sattelschnitt rechnet mit dem UNMODULIERTEN r weiter: die
+       Rippen enden oberhalb des Tellers und erreichen die Schnittkurve
+       nicht. */
+    const m = mod ? mod(th) : 0;
     const c = Math.cos(th), s = Math.sin(th);
     for (let i = 0; i < N; i++) {
       const p = profile[i];
+      const pr = Math.max(0, p.r + m * (p.w || 0));
       const yCut = sattelY(mainR, p.r, th);
       const y = Math.max(p.a, yCut);
       const k = j * N + i;
-      pos[k * 3] = p.r * c;
+      pos[k * 3] = pr * c;
       pos[k * 3 + 1] = y;
-      pos[k * 3 + 2] = p.r * s;
+      pos[k * 3 + 2] = pr * s;
       uv[k * 2] = th / (Math.PI * 2);
       uv[k * 2 + 1] = vArr[i];
       wear[k] = p.wear || 0;

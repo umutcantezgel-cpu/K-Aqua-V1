@@ -23,9 +23,10 @@ export function params(dNom) {
 
   /* ASSUMPTION Gummieinlage 2 mm dick bis d50, 2,5 mm darüber. Im Foto
      als deutlich dunklerer Ring erkennbar, etwa 6 % des Nenndurchmessers. */
-  P.rubber = d <= 50 ? 2 : 2.5;
-  P.rInner = d / 2;                        // liegt am Rohr an
-  P.rShellIn = P.rInner + P.rubber;
+  /* Keine Gummieinlage: das Produktfoto zeigt grüne PP-Innenflächen
+     (M11). Die Schale fasst das Rohr direkt, mit 0,3 mm Spiel. */
+  P.rInner = d / 2;
+  P.rShellIn = P.rInner + 0.3;
 
   /* ASSUMPTION Schalenwand 0,14·d, mindestens 4 mm. Aus dem
      Verhältnis von Außen- zu Innenkontur im Foto. */

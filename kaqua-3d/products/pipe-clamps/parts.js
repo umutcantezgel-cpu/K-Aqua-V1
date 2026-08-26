@@ -16,7 +16,7 @@
 
 import {
   buildProfile, revolve, mergeGeometries, capFromProfile, hexPrism,
-  roundedPad, polygonCap, D2R, SEG_VIS, SEG_INT,
+  roundedPad, polygonCap, ringGrooves, D2R, SEG_VIS, SEG_INT,
 } from '../../core/index.js';
 import * as THREE from 'three';
 
@@ -32,10 +32,17 @@ function arcThetas(aDeg, bDeg, n) {
 function shellHalf(P, rIn, rOut, width, thetas, wear) {
   const x0 = -width / 2, x1 = width / 2;
   const ch = Math.min(0.8, (rOut - rIn) * 0.22);
+  /* Drei flache Längsrillen auf dem Schalenrücken — im Foto AQ500
+     deutlich (M11). Sie laufen in Umfangsrichtung, im Profil sind sie
+     Nuten in der Außenkante. Maße ASSUMPTION aus dem Foto. */
+  const aussen = [{ a: x0, r: rOut, chamfer: ch, w: wear }];
+  const rand = Math.max(1.6, width * 0.14);
+  ringGrooves(aussen, x0 + rand, x1 - rand, rOut, 3,
+    Math.min(0.6, (rOut - rIn) * 0.18), Math.max(1.2, width * 0.10));
+  aussen.push({ a: x1, r: rOut, chamfer: ch, w: wear });
   const profile = buildProfile([
     { a: x0, r: rIn, chamfer: ch, w: wear },
-    { a: x0, r: rOut, chamfer: ch, w: wear },
-    { a: x1, r: rOut, chamfer: ch, w: wear },
+    ...aussen,
     { a: x1, r: rIn, chamfer: ch, w: wear },
   ], { segs: 3 });
   return { geo: revolve(profile, { axis: 'x', thetas }), profile };
