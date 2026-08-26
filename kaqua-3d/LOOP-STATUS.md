@@ -4,7 +4,7 @@ Fortgeschrieben nach **jedem** Produkt. Ein neuer Chat muss hier anknüpfen
 können, ohne die ganze Pipeline zu lesen.
 
 **Letzte Änderung:** 25.08.2026 — Phase 2 läuft, elf Produkte gebaut,
-darunter Sattelschnitt und Brückenbahn als neue Geometrien. **50 von 71.**
+darunter Sattelschnitt und Brückenbahn als neue Geometrien. **52 von 71.**
 
 ---
 
@@ -12,7 +12,7 @@ darunter Sattelschnitt und Brückenbahn als neue Geometrien. **50 von 71.**
 
 | | |
 |---|---|
-| Fertig | **50 von 71** · Selbsttest 50/50, max. 0,20 mm, keine Auffälligkeiten |
+| Fertig | **52 von 71** · Selbsttest 50/50, max. 0,20 mm, keine Auffälligkeiten |
 | Laufendes Produkt | **keines** |
 | Spur A | 1 von 34 nachgeschärft: `elbow-90-male-thread` ✓ |
 | Spur B | 5 von 37 gebaut: 4.5 + 4.6 (Laschen), 3.1 + 3.2 (Muffe/Spitzende), Elektroschweißmuffe ✓ |
@@ -558,6 +558,15 @@ GRÖSSE nur unverbindlich (AQ28520 zeigt d32-Proportionen in bewiesener
 Parallellage). `25-BILDQUELLEN.md` §1 Regel 3 ist entsprechend
 eingeschränkt; drei Passagen der Visuellen Referenz (E-Muffen-Kontakte,
 Brass-Muttern, Sattelgestalt) sind gegen die Fotos berichtigt.
+
+### 3.30 Spur B: die Batterieanschlüsse sind gebaut — 52 von 71
+
+AQ490G und AQ492G (S. 108) sind fertig; Prüfbericht
+`pruefung/p2-batterien.md`. Die Blockdicke kam aus der Gegenprobe
+L1 − L = D(½"), die Ring- und Schienenannahmen hat die kg-Spalte
+geschärft, die Verstellung fährt als states-Mechanik. Es verbleiben:
+**18 Prototypen** (14 Werkzeuge, 4 Ventilteile S. 106) und
+**1 blockiert** (AQ332, §3.25).
 
 ## 4 · Eigene Arbeitsschritte, nicht nebenbei
 

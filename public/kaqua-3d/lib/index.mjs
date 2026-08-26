@@ -15,8 +15,10 @@ export { REGISTRY } from './registry.mjs';
 const LOADERS = {
   'transition-fittings/adaptor-socket-female-thread': () => import('./products/adaptor-socket-female-thread.mjs'),
   'transition-fittings/adaptor-socket-male-thread': () => import('./products/adaptor-socket-male-thread.mjs'),
+  'valves/adjustable-battery-female-thread': () => import('./products/adjustable-battery-female-thread.mjs'),
   'accessories/backing-flange': () => import('./products/backing-flange.mjs'),
   'valves/pp-r-ball-valve-ball-in-pp': () => import('./products/ball-valve-pp.mjs'),
+  'valves/battery-female-thread': () => import('./products/battery-female-thread.mjs'),
   'fittings/cap': () => import('./products/cap.mjs'),
   'fittings/cross': () => import('./products/cross.mjs'),
   'fittings/cross-over': () => import('./products/cross-over.mjs'),

@@ -94,6 +94,10 @@ const FAMILY = {
     '_femalemale/assembly.js'],
 };
 function familyFor(slug) {
+  /* Batterieanschlüsse: der feste nutzt den Winkelblock der Familie;
+     der verstellbare hat eigene Schlitten und braucht nichts daraus. */
+  if (slug === 'battery-female-thread') return ['_battery/parts.js'];
+  if (slug === 'adjustable-battery-female-thread') return [];
   if (/^elbow-90-male-thread$/.test(slug)) return FAMILY.bendthread;
   if (/^elbow-(?:wall-)?bracket-90-female-thread$/.test(slug)) return FAMILY.bracket;
   if (/^elbow-\d+-female-male$/.test(slug)) return FAMILY.femalemale;

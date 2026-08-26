@@ -18,6 +18,14 @@ export const REGISTRY = [
   "category": "transition-fittings"
  },
  {
+  "slug": "adjustable-battery-female-thread",
+  "id": "valves/adjustable-battery-female-thread",
+  "module": "kaqua-adjustable-battery-female-thread",
+  "titleDe": "Verstellbarer Batterieanschluss mit Innengewinde",
+  "titleEn": "Adjustable battery (Female thread)",
+  "category": "valves"
+ },
+ {
   "slug": "backing-flange",
   "id": "accessories/backing-flange",
   "module": "kaqua-backing-flange",
@@ -31,6 +39,14 @@ export const REGISTRY = [
   "module": "kaqua-pp-r-ball-valve-ball-in-pp",
   "titleDe": "Kugelhahn PP-R (Kugel in PP)",
   "titleEn": "PP-R Ball Valve (Ball in PP)",
+  "category": "valves"
+ },
+ {
+  "slug": "battery-female-thread",
+  "id": "valves/battery-female-thread",
+  "module": "kaqua-battery-female-thread",
+  "titleDe": "Batterieanschluss mit Innengewinde",
+  "titleEn": "Battery (Female thread)",
   "category": "valves"
  },
  {

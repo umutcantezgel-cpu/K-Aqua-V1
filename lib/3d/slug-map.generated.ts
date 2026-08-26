@@ -8,8 +8,10 @@
 export const GENERATED_SLUG_MAP: Record<string, string> = {
   "adaptor-socket-female-thread": "transition-fittings/adaptor-socket-female-thread",
   "adaptor-socket-male-thread": "transition-fittings/adaptor-socket-male-thread",
+  "adjustable-battery-female-thread": "valves/adjustable-battery-female-thread",
   "backing-flange": "accessories/backing-flange",
   "ball-valve-pp": "valves/pp-r-ball-valve-ball-in-pp",
+  "battery-female-thread": "valves/battery-female-thread",
   "cap": "fittings/cap",
   "cross": "fittings/cross",
   "cross-over": "fittings/cross-over",
@@ -58,7 +60,7 @@ export const GENERATED_SLUG_MAP: Record<string, string> = {
   "weld-in-saddle-male-thread": "weld-in-saddles/weld-in-saddle-male-thread",
 };
 
-export const GENERATED_COUNT = 50;
+export const GENERATED_COUNT = 52;
 
 /** Produkte im Katalog insgesamt — Quelle: kaqua-3d/produkt-registry.json. */
 export const CATALOG_TOTAL = 71;
