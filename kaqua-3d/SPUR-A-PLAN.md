@@ -15,9 +15,9 @@ schlägt nie ein Tabellenmaß. Dreieckszahlen dürfen sich ändern (die
 | **P4** | M8 (B) | Kugelhahn Messing: Hebel rot (`#df2e1f` abgetastet) + Befestigungsschraube | `products/pp-r-ball-valve-brass/` (toolRed existierte im Core) | 1 | **erledigt 25.08.** |
 | **P5** | M10 (B) | Sättel: vier Griffrippenpaare am Boss nach Fotos | `products/_saddle/parts.js` | 3 | **erledigt 25.08.** |
 | **P6** | M11 (B/C) | Rohrschelle: Gummieinlage entfernen (Foto zeigt grüne Innenflächen; einziger Beleg), Sechskant-Stahlbuchse statt Mutterblock | `products/pipe-clamps/parts.js` | 1 | **erledigt 25.08.** |
-| **P7** | M12 (C) | E-Muffe: flache Wickelfeld-Panels auf dem Mantel | `products/electrofusion-socket/parts.js` | 1 | offen |
-| **P8** | M6, M5 (C) | Überbögen: `tEnde` 0,27→0,35·L nach Bildmessung (Masse unempfindlich). M5 (Scheitel-OD) nur, wenn die Massenprobe es zulässt — sie steht bei d20 auf −7,5 %; sonst dokumentiert lassen | `products/cross-over-pipe/data.js`, `_crossover/params.js` | 2 | offen |
-| **P9** | M1 (Messfehler) | Reduzierbuchse: D-Sonde von der Kehlrundung auf die Kragenmitte | `products/reducing-bush/index.js` | 1 | offen |
+| **P7** | M12 (C) | E-Muffe: flache Wickelfeld-Panels auf dem Mantel | `products/electrofusion-socket/parts.js` | 1 | **erledigt 25.08.** |
+| **P8** | M6, M5 (C) | Überbögen: `tEnde` 0,27→0,35·L nach Bildmessung (Masse unempfindlich). M5 (Scheitel-OD) nur, wenn die Massenprobe es zulässt — sie steht bei d20 auf −7,5 %; sonst dokumentiert lassen | `_crossover/params.js` | 2 | **erledigt 25.08.** (M6 behoben; M5 nicht behoben — die Masse verbietet es, dokumentiert) |
+| **P9** | M1 (Messfehler) | Reduzierbuchse: D-Sonde von der Kehlrundung auf die Kragenmitte | `products/reducing-bush/index.js` | 1 | **erledigt 25.08.** |
 | **P10** | B1/B2, Doku | `25-BILDQUELLEN.md` §1 Regel 3 einschränken; `20-VISUELLE-REFERENZ.md` §4.1 E-Muffen-Kontakte, §4.2 Brass-Muttern, §4.3 Sattelgestalt berichtigen; LOOP-STATUS-Punkte | Doku | — | offen |
 
 **Nicht in den Plan** (Verdacht ohne tragende Messung): Flanschadapter-

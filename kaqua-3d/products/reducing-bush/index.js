@@ -94,9 +94,16 @@ const product = {
           const hit = A.probeAxial('body', V3(-P.xEnd + 1.5, P.OD, 0), V3(0, -1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
+      /* Die Sonde stand 0,6 mm hinter dem Zapfenende und traf dort die
+         KEHLRUNDUNG zum dicken Körper — die Ablesung wuchs mit der
+         Mutter-Nennweite auf bis zu +0,41 mm (M1, am Radiusprofil
+         bewiesen; der Kragenzylinder selbst stimmt). Jetzt zielt sie
+         auf die Mitte der Kragenzone, wo die Rundung sicher zu Ende
+         ist. */
       { key: 'D', label: DIMENSION_KEY.D + ' (Kragen)', soll: P.D,
         ist: () => {
-          const hit = A.probeAxial('body', V3(-P.xEnd + P.spigotLenUsed + 0.6, P.OD, 0), V3(0, -1, 0));
+          const x = -P.xEnd + P.spigotLenUsed + Math.max(1.5, P.collarLen * 0.5);
+          const hit = A.probeAxial('body', V3(x, P.OD, 0), V3(0, -1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
       { key: 'restwand', label: 'Wand des Kragens', soll: P.restwand, ist: () => P.restwand },
