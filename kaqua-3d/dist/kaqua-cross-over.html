@@ -3851,9 +3851,15 @@ function crossoverParams(a, cfg) {
     /* Spitzenden: unten liegt das Rohr selbst an. */
     P.endOD = d;
     P.socket = 0;
-    /* ANNAHME gerade Endstrecke. Nicht bemaßt. Angesetzt 0,27·L, aus der
-       Maßskizze abgeschätzt — der Höcker nimmt dort etwa das mittlere
-       Drittel ein.
+    /* ANNAHME gerade Endstrecke. Nicht bemaßt. Angesetzt 0,35·L —
+       NACHGESCHÄRFT am 25.08.2026 gegen den ALH-Seitenriss (M6): die
+       Parallellage des Renders ist über die Rohrdicke links = rechts
+       BEWIESEN, und der Hügel nimmt dort 30,5 % der Länge ein, also
+       t ≈ (1 − 0,305)/2 ≈ 0,35·L. Der frühere Wert 0,27·L stammte aus
+       der maßstabslosen Skizze. Achtung B1: die Renderproportionen
+       gehören zur d32-Zeile — der HÜGELANTEIL ist aber über die drei
+       Größen nahezu konstant (L wächst kaum, H moderat), deshalb trägt
+       die Übernahme auf alle drei.
 
        VERSUCHT UND VERWORFEN, sie aus der Masse herzuleiten. Die Idee
        war richtig, die Empfindlichkeit reicht nicht: die Bahnlänge
@@ -3867,7 +3873,7 @@ function crossoverParams(a, cfg) {
        Was an der Annahme hängt, ist der Biegeradius. Er wird unten
        mitgeführt; bleibt er über dem Rohrdurchmesser, ist die Annahme
        wenigstens fertigbar. */
-    P.tEnde = 0.27 * a.L;
+    P.tEnde = 0.35 * a.L;
   } else {
     P.endOD = socketOD(d);
     if (!P.endOD) throw new Error('K-Aqua Überbogen d' + d + ': kein Muffen-Außendurchmesser');

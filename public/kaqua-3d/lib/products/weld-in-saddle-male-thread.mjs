@@ -54,9 +54,9 @@ export function sattelY(mainR, r, theta) {
    Rohrachse, r = Abstand von der Abzweigachse), wie bei revolve. Punkte,
    die unter der Schnittkurve liegen, werden auf sie gehoben. */
 export function sattelRevolve(profile, opt) {
-  const { mainR, segments = SEG_VIS } = opt;
+  const { mainR, segments = SEG_VIS, thetas = null, mod = null } = opt;
   const N = profile.length;
-  const S = segments + 1;
+  const S = thetas ? thetas.length : segments + 1;
   const pos = new Float32Array(N * S * 3);
   const uv = new Float32Array(N * S * 2);
   const wear = new Float32Array(N * S);
@@ -73,16 +73,23 @@ export function sattelRevolve(profile, opt) {
   if (total > 0) for (let i = 0; i < N; i++) vArr[i] /= total;
 
   for (let j = 0; j < S; j++) {
-    const th = (j / segments) * Math.PI * 2;
+    const th = thetas ? thetas[j] : (j / segments) * Math.PI * 2;
+    /* Modulation wie bei revolve im Core: mod(θ) verschiebt den Radius
+       der Punkte mit w > 0 — hier für die Griffrippen des Bosses (M10).
+       Der Sattelschnitt rechnet mit dem UNMODULIERTEN r weiter: die
+       Rippen enden oberhalb des Tellers und erreichen die Schnittkurve
+       nicht. */
+    const m = mod ? mod(th) : 0;
     const c = Math.cos(th), s = Math.sin(th);
     for (let i = 0; i < N; i++) {
       const p = profile[i];
+      const pr = Math.max(0, p.r + m * (p.w || 0));
       const yCut = sattelY(mainR, p.r, th);
       const y = Math.max(p.a, yCut);
       const k = j * N + i;
-      pos[k * 3] = p.r * c;
+      pos[k * 3] = pr * c;
       pos[k * 3 + 1] = y;
-      pos[k * 3 + 2] = p.r * s;
+      pos[k * 3 + 2] = pr * s;
       uv[k * 2] = th / (Math.PI * 2);
       uv[k * 2 + 1] = vArr[i];
       wear[k] = p.wear || 0;
@@ -472,8 +479,10 @@ export function buildSattel(cfg, size, variant, clipPlane) {
   const outer = [
     { a: yBase, r: P.rTeller, fillet: 0 },
     { a: yTeller, r: P.rTeller, fillet: Math.min(2.0, P.tellerDicke * 0.5) },
-    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5 },
-    { a: P.yTop, r: P.rBoss, chamfer: 1.0 },
+    /* w = 1 auf dem Bossmantel: dort sitzen die Griffrippen (M10). */
+    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5, w: 1 },
+    { a: P.yTop - 1.4, r: P.rBoss, fillet: 0.4, w: 1 },
+    { a: P.yTop, r: P.rBoss, chamfer: 1.0, w: 0 },
   ];
 
   let inner;
@@ -511,7 +520,33 @@ export function buildSattel(cfg, size, variant, clipPlane) {
   inner.push(...bodenPunkte(P.rFuss, P.rTeller, yBase));
 
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  const geo = sattelRevolve(profile, { mainR: P.mainR, segments: SEG_VIS });
+
+  /* ── Griffrippen (M10): vier PAARE schmaler Längsstege am Boss ──
+     Beide Fotos (AQ130SP, AQ130GSP) zeigen sie deutlich; kein
+     Tabellenmaß bemaßt sie. ASSUMPTION Steghöhe 1,2 mm, Stegbreite ~5°,
+     Paarabstand ~12° — aus den Fotos abgelesen. Die Modulation wirkt
+     nur auf den w=1-Punkten des Bossmantels; der Sattelschnitt rechnet
+     mit dem Grundradius. */
+  /* Die Rippenrücken tragen das Tabellenmaß: der Grundzylinder liegt
+     eine Steghöhe darunter (dieselbe Konvention wie die Riffelung der
+     Übergangsmuffen — Nennmaß auf dem Rücken, Fall 6 andersherum). */
+  const ribH = Math.max(1.0, 0.028 * P.rBoss);
+  const stegHalb = 2.5 * Math.PI / 180;
+  const paarVersatz = 6 * Math.PI / 180;
+  const paarRib = (th) => {
+    const viertel = Math.PI / 2;
+    let x = ((th % viertel) + viertel) % viertel;
+    if (x > viertel / 2) x -= viertel;
+    const naeher = Math.min(Math.abs(x - paarVersatz), Math.abs(x + paarVersatz));
+    if (naeher > stegHalb) return -ribH;
+    return -ribH * (1 - Math.cos((naeher / stegHalb) * Math.PI / 2));
+  };
+  const ribThetas = [];
+  {
+    const K = 4 * 36;                    // 9 Schritte je Steg-Paarzone
+    for (let j = 0; j <= K; j++) ribThetas.push((j / K) * Math.PI * 2);
+  }
+  const geo = sattelRevolve(profile, { mainR: P.mainR, thetas: ribThetas, mod: paarRib });
 
   /* Schnittkappe: dieselbe Kontur, aber mit der Unterseite auf der
      Schnittebene θ = 0. Dort ist die Schnittkurve genau y = mainR —

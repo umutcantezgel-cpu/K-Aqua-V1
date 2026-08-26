@@ -3978,11 +3978,22 @@ function buildBody(P) {
 
   /* Außen: von der Formteilungsebene (a = 0) zur Stirnfläche. 0,09 mm
      Grat auf der Naht, 1° Entformung zur Stirnfläche. */
+  /* Wickelfeld-Panels (M12): das Katalogfoto zeigt vier flache,
+     erhabene Rechteckfelder auf dem Mantel, getrennt durch schmale
+     Fugen. Sie sind Modulation über θ (w = 1 nur auf der Panelzone);
+     Höhe und Fugenbreite ASSUMPTION aus dem Foto. Der Grundmantel
+     bleibt auf D — die Panels stehen 0,35 mm über, wie der
+     Formtrenngrat, und bleiben unterhalb der 0,4-mm-Messtoleranz
+     der D-Box bewusst NICHT: D misst am Grat auf der Naht (a = 0,
+     w = 0), nicht auf den Panels. */
+  const panelEnd = P.xEnd * 0.68;
   const outer = [
-    { a: 0, r: ro + 0.09, fillet: 0.1 },
-    { a: 0.5, r: ro, fillet: 0.35 },
-    { a: P.xEnd - rk, r: ro - DRAFT * (P.xEnd - rk) * 0.5, fillet: rk },
-    { a: P.xEnd, r: ro - DRAFT * P.xEnd * 0.5 - rk * 0.35, chamfer: 0.4 },
+    { a: 0, r: ro + 0.09, fillet: 0.1, w: 0 },
+    { a: 0.5, r: ro, fillet: 0.35, w: 1 },
+    { a: panelEnd, r: ro - DRAFT * panelEnd * 0.35, fillet: 0.5, w: 1 },
+    { a: panelEnd + 1.2, r: ro - DRAFT * panelEnd * 0.5, fillet: 0.4, w: 0 },
+    { a: P.xEnd - rk, r: ro - DRAFT * (P.xEnd - rk) * 0.5, fillet: rk, w: 0 },
+    { a: P.xEnd, r: ro - DRAFT * P.xEnd * 0.5 - rk * 0.35, chamfer: 0.4, w: 0 },
   ];
 
   /* Innen: Anschlag (wenn vorhanden), dann zylindrische Muffenbohrung
@@ -4002,7 +4013,18 @@ function buildBody(P) {
       ];
 
   const profile = buildProfile(mirrorProfile(outer, inner), { segs: 4 });
-  const geos = [revolve(profile, { axis: 'x', segments: SEG_VIS })];
+  const panelH = 0.35, fugeHalb = 5 * Math.PI / 180;
+  const panelMod = (th) => {
+    const viertel = Math.PI / 2;
+    let x = ((th % viertel) + viertel) % viertel;
+    if (x > viertel / 2) x -= viertel;
+    const dFuge = Math.abs(x);
+    if (dFuge >= fugeHalb) return panelH;
+    return panelH * (dFuge / fugeHalb);   // lineare Fugenflanke
+  };
+  const panelThetas = [];
+  { const K = 4 * 30; for (let j = 0; j <= K; j++) panelThetas.push((j / K) * Math.PI * 2); }
+  const geos = [revolve(profile, { axis: 'x', thetas: panelThetas, mod: panelMod, segments: SEG_VIS })];
 
   /* Zwei Kontaktdome auf dem Mantel, +Y. Sie sitzen auf dem Zylinder
      auf; ihre Höhe über ihm ist h − D und kommt damit aus der Tabelle.

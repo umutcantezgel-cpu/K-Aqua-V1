@@ -5230,6 +5230,14 @@ function params(dNom) {
   P.oringCord = 2.4;
   P.oringDepth = 1.8;
 
+  /* ── ZUR GRIFFLÄNGE, nach dem Bildabgleich vom 25.08.2026 ──
+     Der Mangelverdacht M9 („Griff zu lang") hat sich als Fehler des
+     PRÜFERS erwiesen: die Grifflänge ist TABELLIERT (Spalte A), und
+     A/L = 0,73 deckt sich mit dem Foto — verglichen worden war
+     fälschlich gegen die Korpuslänge ohne Überwurfmuttern. Die Länge
+     bleibt A. Aus dem Foto übernommen ist nur die GRÜNE DECKEINLAGE
+     auf dem Griffkopf (zweiter Werkstoff des Griffs). */
+  const gripA = A;
   P.lever = {
     hubBot: 0.41 * H,
     hubTop: 0.85 * H,
@@ -5238,13 +5246,15 @@ function params(dNom) {
     armTop: H,
     thRoot: 0.30 * H,
     thTip: 0.15 * H,
-    len: A,
+    len: gripA,
     longFrac: 0.73,
-    xLong: 0.73 * A,
-    xShort: 0.27 * A,
-    wRoot: 0.26 * A,
-    wTip: 0.11 * A,
+    xLong: 0.73 * gripA,
+    xShort: 0.27 * gripA,
+    wRoot: 0.26 * gripA,
+    wTip: 0.11 * gripA,
     ribs: 12,
+    inlayOD: 0.30 * D,          // grüne Einlage auf dem Kopf, aus dem Foto
+    inlayH: 0.9,
   };
   return P;
 }
@@ -5556,6 +5566,25 @@ function buildLever(P) {
 }
 
 
+/* Grüne Deckeinlage auf dem Griffkopf — im Foto AQ852 der zweite
+   Werkstoff des Griffs. Eine flache Scheibe mit Fase, konzentrisch auf
+   der Kopfkuppe. */
+function buildLeverInlay(P) {
+  const Lv = P.lever;
+  const yTop = Lv.hubTop;
+  const r = Lv.inlayOD / 2;
+  const pts = [
+    { a: yTop - 0.2, r: 0.02, fillet: 0 },
+    { a: yTop - 0.2, r: r, fillet: 0.3 },
+    { a: yTop + Lv.inlayH, r: r - 0.25, chamfer: 0.35 },
+    { a: yTop + Lv.inlayH, r: 0.02, fillet: 0 },
+  ];
+  const profile = buildProfile(pts, { segs: 3 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_FINE }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
 /* == ball-valve-pp/index.js ============================================ */
 /* K-Aqua PP-R Kugelhahn (Ball in PP) — Produktpaket nach PRODUKT-VERTRAG.md.
 
@@ -5611,6 +5640,7 @@ const product = {
     const seat = buildSeat(P);
     const stem = buildStem(P);
     const lever = buildLever(P);
+    const inlay = buildLeverInlay(P);
     const oring = buildORing(P, tail.oringX, tail.oringR);
 
     /* Explosionsversatz: aus den Teilelängen gerechnet, damit sich bei
@@ -5663,9 +5693,12 @@ const product = {
     A.part('stem', { name: 'Spindel', label: 'Spindel', mat: 'steel', parent: rotor,
       geo: stem.geo, cap: stem.cap, explode: V3(0, offStem, 0),
       anchor: V3(0.07 * P.L, P.domeTop + 0.03 * P.L, 0) });
-    A.part('lever', { name: 'Hebel', label: 'Hebel', mat: 'anthraciteB', parent: rotor,
+    A.part('lever', { name: 'Knebelgriff', label: 'Knebelgriff', mat: 'anthraciteB', parent: rotor,
       geo: lever.geo, cap: lever.cap, explode: V3(0, offLever, 0),
       anchor: V3(P.lever.xLong * 0.45, P.H + 0.05 * P.L, 0) });
+    /* Grüne Deckeinlage — der zweite Werkstoff des Griffs (Foto AQ852). */
+    A.part('inlay', { name: 'Griffeinlage', label: 'Griffeinlage (PP-R)', mat: 'pprGreen', parent: rotor,
+      geo: inlay.geo, cap: inlay.cap, explode: V3(0, offLever + 0.06 * P.L, 0) });
 
     /* Innenlicht-Positionen (mm) — der Core setzt die Lampen. */
     A.light(V3(-P.xJoint * 0.8, 0, 0));
@@ -6528,9 +6561,15 @@ function crossoverParams(a, cfg) {
     /* Spitzenden: unten liegt das Rohr selbst an. */
     P.endOD = d;
     P.socket = 0;
-    /* ANNAHME gerade Endstrecke. Nicht bemaßt. Angesetzt 0,27·L, aus der
-       Maßskizze abgeschätzt — der Höcker nimmt dort etwa das mittlere
-       Drittel ein.
+    /* ANNAHME gerade Endstrecke. Nicht bemaßt. Angesetzt 0,35·L —
+       NACHGESCHÄRFT am 25.08.2026 gegen den ALH-Seitenriss (M6): die
+       Parallellage des Renders ist über die Rohrdicke links = rechts
+       BEWIESEN, und der Hügel nimmt dort 30,5 % der Länge ein, also
+       t ≈ (1 − 0,305)/2 ≈ 0,35·L. Der frühere Wert 0,27·L stammte aus
+       der maßstabslosen Skizze. Achtung B1: die Renderproportionen
+       gehören zur d32-Zeile — der HÜGELANTEIL ist aber über die drei
+       Größen nahezu konstant (L wächst kaum, H moderat), deshalb trägt
+       die Übernahme auf alle drei.
 
        VERSUCHT UND VERWORFEN, sie aus der Masse herzuleiten. Die Idee
        war richtig, die Empfindlichkeit reicht nicht: die Bahnlänge
@@ -6544,7 +6583,7 @@ function crossoverParams(a, cfg) {
        Was an der Annahme hängt, ist der Biegeradius. Er wird unten
        mitgeführt; bleibt er über dem Rohrdurchmesser, ist die Annahme
        wenigstens fertigbar. */
-    P.tEnde = 0.27 * a.L;
+    P.tEnde = 0.35 * a.L;
   } else {
     P.endOD = socketOD(d);
     if (!P.endOD) throw new Error('K-Aqua Überbogen d' + d + ': kein Muffen-Außendurchmesser');
@@ -7102,9 +7141,15 @@ function crossoverParams(a, cfg) {
     /* Spitzenden: unten liegt das Rohr selbst an. */
     P.endOD = d;
     P.socket = 0;
-    /* ANNAHME gerade Endstrecke. Nicht bemaßt. Angesetzt 0,27·L, aus der
-       Maßskizze abgeschätzt — der Höcker nimmt dort etwa das mittlere
-       Drittel ein.
+    /* ANNAHME gerade Endstrecke. Nicht bemaßt. Angesetzt 0,35·L —
+       NACHGESCHÄRFT am 25.08.2026 gegen den ALH-Seitenriss (M6): die
+       Parallellage des Renders ist über die Rohrdicke links = rechts
+       BEWIESEN, und der Hügel nimmt dort 30,5 % der Länge ein, also
+       t ≈ (1 − 0,305)/2 ≈ 0,35·L. Der frühere Wert 0,27·L stammte aus
+       der maßstabslosen Skizze. Achtung B1: die Renderproportionen
+       gehören zur d32-Zeile — der HÜGELANTEIL ist aber über die drei
+       Größen nahezu konstant (L wächst kaum, H moderat), deshalb trägt
+       die Übernahme auf alle drei.
 
        VERSUCHT UND VERWORFEN, sie aus der Masse herzuleiten. Die Idee
        war richtig, die Empfindlichkeit reicht nicht: die Bahnlänge
@@ -7118,7 +7163,7 @@ function crossoverParams(a, cfg) {
        Was an der Annahme hängt, ist der Biegeradius. Er wird unten
        mitgeführt; bleibt er über dem Rohrdurchmesser, ist die Annahme
        wenigstens fertigbar. */
-    P.tEnde = 0.27 * a.L;
+    P.tEnde = 0.35 * a.L;
   } else {
     P.endOD = socketOD(d);
     if (!P.endOD) throw new Error('K-Aqua Überbogen d' + d + ': kein Muffen-Außendurchmesser');
@@ -11882,11 +11927,22 @@ function buildBody(P) {
 
   /* Außen: von der Formteilungsebene (a = 0) zur Stirnfläche. 0,09 mm
      Grat auf der Naht, 1° Entformung zur Stirnfläche. */
+  /* Wickelfeld-Panels (M12): das Katalogfoto zeigt vier flache,
+     erhabene Rechteckfelder auf dem Mantel, getrennt durch schmale
+     Fugen. Sie sind Modulation über θ (w = 1 nur auf der Panelzone);
+     Höhe und Fugenbreite ASSUMPTION aus dem Foto. Der Grundmantel
+     bleibt auf D — die Panels stehen 0,35 mm über, wie der
+     Formtrenngrat, und bleiben unterhalb der 0,4-mm-Messtoleranz
+     der D-Box bewusst NICHT: D misst am Grat auf der Naht (a = 0,
+     w = 0), nicht auf den Panels. */
+  const panelEnd = P.xEnd * 0.68;
   const outer = [
-    { a: 0, r: ro + 0.09, fillet: 0.1 },
-    { a: 0.5, r: ro, fillet: 0.35 },
-    { a: P.xEnd - rk, r: ro - DRAFT * (P.xEnd - rk) * 0.5, fillet: rk },
-    { a: P.xEnd, r: ro - DRAFT * P.xEnd * 0.5 - rk * 0.35, chamfer: 0.4 },
+    { a: 0, r: ro + 0.09, fillet: 0.1, w: 0 },
+    { a: 0.5, r: ro, fillet: 0.35, w: 1 },
+    { a: panelEnd, r: ro - DRAFT * panelEnd * 0.35, fillet: 0.5, w: 1 },
+    { a: panelEnd + 1.2, r: ro - DRAFT * panelEnd * 0.5, fillet: 0.4, w: 0 },
+    { a: P.xEnd - rk, r: ro - DRAFT * (P.xEnd - rk) * 0.5, fillet: rk, w: 0 },
+    { a: P.xEnd, r: ro - DRAFT * P.xEnd * 0.5 - rk * 0.35, chamfer: 0.4, w: 0 },
   ];
 
   /* Innen: Anschlag (wenn vorhanden), dann zylindrische Muffenbohrung
@@ -11906,7 +11962,18 @@ function buildBody(P) {
       ];
 
   const profile = buildProfile(mirrorProfile(outer, inner), { segs: 4 });
-  const geos = [revolve(profile, { axis: 'x', segments: SEG_VIS })];
+  const panelH = 0.35, fugeHalb = 5 * Math.PI / 180;
+  const panelMod = (th) => {
+    const viertel = Math.PI / 2;
+    let x = ((th % viertel) + viertel) % viertel;
+    if (x > viertel / 2) x -= viertel;
+    const dFuge = Math.abs(x);
+    if (dFuge >= fugeHalb) return panelH;
+    return panelH * (dFuge / fugeHalb);   // lineare Fugenflanke
+  };
+  const panelThetas = [];
+  { const K = 4 * 30; for (let j = 0; j <= K; j++) panelThetas.push((j / K) * Math.PI * 2); }
+  const geos = [revolve(profile, { axis: 'x', thetas: panelThetas, mod: panelMod, segments: SEG_VIS })];
 
   /* Zwei Kontaktdome auf dem Mantel, +Y. Sie sitzen auf dem Zylinder
      auf; ihre Höhe über ihm ist h − D und kommt damit aus der Tabelle.
@@ -21607,9 +21674,10 @@ function params(dNom) {
 
   /* ASSUMPTION Gummieinlage 2 mm dick bis d50, 2,5 mm darüber. Im Foto
      als deutlich dunklerer Ring erkennbar, etwa 6 % des Nenndurchmessers. */
-  P.rubber = d <= 50 ? 2 : 2.5;
-  P.rInner = d / 2;                        // liegt am Rohr an
-  P.rShellIn = P.rInner + P.rubber;
+  /* Keine Gummieinlage: das Produktfoto zeigt grüne PP-Innenflächen
+     (M11). Die Schale fasst das Rohr direkt, mit 0,3 mm Spiel. */
+  P.rInner = d / 2;
+  P.rShellIn = P.rInner + 0.3;
 
   /* ASSUMPTION Schalenwand 0,14·d, mindestens 4 mm. Aus dem
      Verhältnis von Außen- zu Innenkontur im Foto. */
@@ -21684,10 +21752,17 @@ function arcThetas(aDeg, bDeg, n) {
 function shellHalf(P, rIn, rOut, width, thetas, wear) {
   const x0 = -width / 2, x1 = width / 2;
   const ch = Math.min(0.8, (rOut - rIn) * 0.22);
+  /* Drei flache Längsrillen auf dem Schalenrücken — im Foto AQ500
+     deutlich (M11). Sie laufen in Umfangsrichtung, im Profil sind sie
+     Nuten in der Außenkante. Maße ASSUMPTION aus dem Foto. */
+  const aussen = [{ a: x0, r: rOut, chamfer: ch, w: wear }];
+  const rand = Math.max(1.6, width * 0.14);
+  ringGrooves(aussen, x0 + rand, x1 - rand, rOut, 3,
+    Math.min(0.6, (rOut - rIn) * 0.18), Math.max(1.2, width * 0.10));
+  aussen.push({ a: x1, r: rOut, chamfer: ch, w: wear });
   const profile = buildProfile([
     { a: x0, r: rIn, chamfer: ch, w: wear },
-    { a: x0, r: rOut, chamfer: ch, w: wear },
-    { a: x1, r: rOut, chamfer: ch, w: wear },
+    ...aussen,
     { a: x1, r: rIn, chamfer: ch, w: wear },
   ], { segs: 3 });
   return { geo: revolve(profile, { axis: 'x', thetas }), profile };
@@ -21829,7 +21904,7 @@ const product = {
   titleDe: 'Rohrschelle',
   titleEn: 'Pipe clamps',
   category: 'accessories',
-  brandLine: 'K-Aqua PP · Gummi · Stahl',
+  brandLine: 'K-Aqua PP · Stahl',
   dataStatus: DATA_STATUS,
 
   articles: ARTICLES,
@@ -21844,8 +21919,8 @@ const product = {
   variants: [],
   states: null,
 
-  tile: 'Befestigt das Rohr an Wand oder Decke — Gummieinlage dämmt ' +
-        'Körperschall, Mutterblock nimmt die Gewindestange auf.',
+  tile: 'Befestigt das Rohr an Wand oder Decke — zwei PP-Halbschalen, ' +
+        'Sechskantbuchse für die Gewindestange.',
 
   build(size, variant, clipPlane) {
     const P = params(size);
@@ -21857,7 +21932,6 @@ const product = {
     });
 
     const shells = buildShells(P);
-    const rubber = buildRubber(P);
     const bolts = buildBolts(P);
     const nut = buildNutBlock(P);
 
@@ -21866,12 +21940,10 @@ const product = {
       geo: shells.geo, cap: shells.cap,
       anchor: V3(0, P.rOut + 0.34 * P.D, 0),
     });
-    A.part('rubber', {
-      name: 'Gummieinlage', label: 'Gummieinlage (EPDM)', mat: 'epdm',
-      geo: rubber.geo, cap: rubber.cap,
-      explode: V3(0, 0, -0.55 * P.D),
-      anchor: V3(0, -(P.rInner + 0.16 * P.D), 0),
-    });
+    /* Die Gummieinlage der ersten Fassung ist nach dem Produktfoto
+       entfallen (M11): die Schaleninnenflächen sind dort grünes PP.
+       Die Beschreibung §4.1 sagt „oft ein Gummiband" — dieses Produkt
+       hat keins. */
     A.part('bolts', {
       name: 'Schrauben', label: 'Schrauben M' + P.boltM + ' (Stahl)', mat: 'steel',
       geo: bolts.geo, cap: bolts.cap,
@@ -21888,10 +21960,10 @@ const product = {
     A.light(V3(0, 0, 0));
 
     A.hotspot({
-      v: V3(0, -(P.rInner + P.rubber * 0.5), P.rInner * 0.55),
-      n: V3(0, -0.5, 0.86),
-      text: 'Gummieinlage ' + String(P.rubber).replace('.', ',') +
-        ' mm — dämmt Körperschall und lässt die Längsdehnung zu',
+      v: V3(0, P.rOut, P.rInner * 0.4),
+      n: V3(0, 1, 0.2),
+      text: 'Drei Längsrillen auf dem Schalenrücken — wie im Katalogfoto; ' +
+        'die Schale fasst das Rohr direkt',
     });
     A.hotspot({
       v: V3(0, -(P.rOut + P.nutH * 0.5), 0),
@@ -21919,12 +21991,13 @@ const product = {
          dort stehen Laschen und Mutterblock über. */
       { key: 'D', label: DIMENSION_KEY.D + ' (abgeleitet)', soll: P.D,
         ist: () => { const b = A.boxOf(['shells']); return b.max.z - b.min.z; } },
-      /* Lichte Weite: von der Achse radial nach außen gegen die
-         Gummieinlage. Sie MUSS das Rohr aufnehmen — ist sie kleiner als
-         d, klemmt die Schelle. */
-      { key: 'd', label: 'lichte Weite = Rohr-Ø', soll: P.d,
+      /* Lichte Weite: von der Achse radial gegen die Schaleninnenfläche.
+         Sie MUSS das Rohr aufnehmen — kleiner als d hieße klemmen. Nach
+         dem Ausbau der Gummieinlage zielt der Strahl auf die Schale;
+         Soll ist d plus das Einbauspiel. */
+      { key: 'd', label: 'lichte Weite (Rohr-Ø + Spiel)', soll: Math.round((P.d + 0.6) * 100) / 100,
         ist: () => {
-          const hit = A.probeAxial('rubber', V3(0, 0, 0), V3(0, 0, 1));
+          const hit = A.probeAxial('shells', V3(0, 0, 0), V3(0, 0, 1));
           return hit ? Math.round(2 * hit.z * 100) / 100 : NaN;
         } },
       { key: 'breite', label: 'Bandbreite (abgeleitet)', soll: P.width,
@@ -21970,8 +22043,6 @@ const product = {
           });
           return Number.isFinite(min) ? Math.round(min * 100) / 100 : NaN;
         } },
-      { key: 'gummi', label: 'Gummistärke (abgeleitet)', soll: P.rubber,
-        ist: () => P.rubber },
     ];
 
     A.setExplode(0);
@@ -22857,6 +22928,28 @@ function buildStemORing(P, y, r) {
 }
 
 
+/* Befestigungsschraube des Hebels — im Foto AQ850 als
+   Edelstahl-Sechskantkopf auf der Nabe deutlich sichtbar. Kopf als
+   flacher Sechskant, Schaft verschwindet in der Spindel. */
+function buildLeverBolt(P) {
+  const Lv = P.lever;
+  const yBase = Lv.yBend + Lv.thick + 0.6;   // Nabenoberkante
+  const kopfH = Math.max(2.2, 0.035 * P.H);
+  const af = Math.max(5.5, P.stemOD * 0.75);
+  const kopf = hexPrism(af, kopfH, Math.max(0.25, af * 0.03), 0.5);
+  kopf.rotateZ(Math.PI / 2);                 // Achse nach +Y (wie beim Gewinde-T)
+  kopf.translate(0, yBase, 0);
+  const halsProfile = buildProfile([
+    { a: yBase - 1.2, r: 0.02, fillet: 0 },
+    { a: yBase - 1.2, r: af * 0.32, fillet: 0.2 },
+    { a: yBase + 0.2, r: af * 0.32, fillet: 0.2 },
+    { a: yBase + 0.2, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  const hals = revolve(halsProfile, { axis: 'y', segments: SEG_INT });
+  return { geo: mergeGeometries([kopf, hals]), cap: capFromProfile(halsProfile, 'y') };
+}
+
+
 /* == pp-r-ball-valve-brass/index.js ==================================== */
 /* K-Aqua Kugelhahn PP-R (Kugel Messing verchromt) — Produktpaket.
 
@@ -22904,7 +22997,7 @@ const product = {
     const P = params(size);
     const A = createAssembly({
       name: 'K-Aqua_Kugelhahn_Messing_d' + P.d,
-      materials: ['pprGreen', 'chrome', 'steel', 'ptfe', 'epdm'],
+      materials: ['pprGreen', 'chrome', 'steel', 'ptfe', 'epdm', 'toolRed'],
       seed: 137,
       clipPlane,
     });
@@ -22949,9 +23042,15 @@ const product = {
     A.part('stem', { name: 'Spindel', label: 'Spindel', mat: 'steel', parent: rotor,
       geo: stem.geo, cap: stem.cap, explode: V3(0, offStem, 0),
       anchor: V3(0.09 * P.A, P.domeTop + 0.03 * P.A, 0) });
-    A.part('hebel', { name: 'Hebel', label: 'Hebel (Stahl)', mat: 'steel', parent: rotor,
+    /* Der Hebel ist im Foto AQ850 leuchtend ROT pulverbeschichtet
+       (abgetastet #df2e1f am Bildschirm; toolRed ist der Albedo dazu),
+       mit sichtbarer Edelstahl-Sechskantschraube auf der Nabe (M8). */
+    A.part('hebel', { name: 'Hebel', label: 'Hebel (Stahl, rot beschichtet)', mat: 'toolRed', parent: rotor,
       geo: lever.geo, cap: lever.cap, explode: V3(0, offLever, 0),
       anchor: V3(P.lever.len * 0.55, P.H + 0.06 * P.A, 0) });
+    const bolt = buildLeverBolt(P);
+    A.part('schraube', { name: 'Hebelschraube', label: 'Hebelschraube (Edelstahl)', mat: 'steel', parent: rotor,
+      geo: bolt.geo, cap: bolt.cap, explode: V3(0, offLever + 0.05 * P.L, 0) });
 
     A.light(V3(-P.xEnd * 0.7, 0, 0));
     A.light(V3(P.xEnd * 0.7, 0, 0));
@@ -23348,9 +23447,16 @@ const product = {
           const hit = A.probeAxial('body', V3(-P.xEnd + 1.5, P.OD, 0), V3(0, -1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
+      /* Die Sonde stand 0,6 mm hinter dem Zapfenende und traf dort die
+         KEHLRUNDUNG zum dicken Körper — die Ablesung wuchs mit der
+         Mutter-Nennweite auf bis zu +0,41 mm (M1, am Radiusprofil
+         bewiesen; der Kragenzylinder selbst stimmt). Jetzt zielt sie
+         auf die Mitte der Kragenzone, wo die Rundung sicher zu Ende
+         ist. */
       { key: 'D', label: DIMENSION_KEY.D + ' (Kragen)', soll: P.D,
         ist: () => {
-          const hit = A.probeAxial('body', V3(-P.xEnd + P.spigotLenUsed + 0.6, P.OD, 0), V3(0, -1, 0));
+          const x = -P.xEnd + P.spigotLenUsed + Math.max(1.5, P.collarLen * 0.5);
+          const hit = A.probeAxial('body', V3(x, P.OD, 0), V3(0, -1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
       { key: 'restwand', label: 'Wand des Kragens', soll: P.restwand, ist: () => P.restwand },
@@ -27751,9 +27857,9 @@ function sattelY(mainR, r, theta) {
    Rohrachse, r = Abstand von der Abzweigachse), wie bei revolve. Punkte,
    die unter der Schnittkurve liegen, werden auf sie gehoben. */
 function sattelRevolve(profile, opt) {
-  const { mainR, segments = SEG_VIS } = opt;
+  const { mainR, segments = SEG_VIS, thetas = null, mod = null } = opt;
   const N = profile.length;
-  const S = segments + 1;
+  const S = thetas ? thetas.length : segments + 1;
   const pos = new Float32Array(N * S * 3);
   const uv = new Float32Array(N * S * 2);
   const wear = new Float32Array(N * S);
@@ -27770,16 +27876,23 @@ function sattelRevolve(profile, opt) {
   if (total > 0) for (let i = 0; i < N; i++) vArr[i] /= total;
 
   for (let j = 0; j < S; j++) {
-    const th = (j / segments) * Math.PI * 2;
+    const th = thetas ? thetas[j] : (j / segments) * Math.PI * 2;
+    /* Modulation wie bei revolve im Core: mod(θ) verschiebt den Radius
+       der Punkte mit w > 0 — hier für die Griffrippen des Bosses (M10).
+       Der Sattelschnitt rechnet mit dem UNMODULIERTEN r weiter: die
+       Rippen enden oberhalb des Tellers und erreichen die Schnittkurve
+       nicht. */
+    const m = mod ? mod(th) : 0;
     const c = Math.cos(th), s = Math.sin(th);
     for (let i = 0; i < N; i++) {
       const p = profile[i];
+      const pr = Math.max(0, p.r + m * (p.w || 0));
       const yCut = sattelY(mainR, p.r, th);
       const y = Math.max(p.a, yCut);
       const k = j * N + i;
-      pos[k * 3] = p.r * c;
+      pos[k * 3] = pr * c;
       pos[k * 3 + 1] = y;
-      pos[k * 3 + 2] = p.r * s;
+      pos[k * 3 + 2] = pr * s;
       uv[k * 2] = th / (Math.PI * 2);
       uv[k * 2 + 1] = vArr[i];
       wear[k] = p.wear || 0;
@@ -28169,8 +28282,10 @@ function buildSattel(cfg, size, variant, clipPlane) {
   const outer = [
     { a: yBase, r: P.rTeller, fillet: 0 },
     { a: yTeller, r: P.rTeller, fillet: Math.min(2.0, P.tellerDicke * 0.5) },
-    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5 },
-    { a: P.yTop, r: P.rBoss, chamfer: 1.0 },
+    /* w = 1 auf dem Bossmantel: dort sitzen die Griffrippen (M10). */
+    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5, w: 1 },
+    { a: P.yTop - 1.4, r: P.rBoss, fillet: 0.4, w: 1 },
+    { a: P.yTop, r: P.rBoss, chamfer: 1.0, w: 0 },
   ];
 
   let inner;
@@ -28208,7 +28323,33 @@ function buildSattel(cfg, size, variant, clipPlane) {
   inner.push(...bodenPunkte(P.rFuss, P.rTeller, yBase));
 
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  const geo = sattelRevolve(profile, { mainR: P.mainR, segments: SEG_VIS });
+
+  /* ── Griffrippen (M10): vier PAARE schmaler Längsstege am Boss ──
+     Beide Fotos (AQ130SP, AQ130GSP) zeigen sie deutlich; kein
+     Tabellenmaß bemaßt sie. ASSUMPTION Steghöhe 1,2 mm, Stegbreite ~5°,
+     Paarabstand ~12° — aus den Fotos abgelesen. Die Modulation wirkt
+     nur auf den w=1-Punkten des Bossmantels; der Sattelschnitt rechnet
+     mit dem Grundradius. */
+  /* Die Rippenrücken tragen das Tabellenmaß: der Grundzylinder liegt
+     eine Steghöhe darunter (dieselbe Konvention wie die Riffelung der
+     Übergangsmuffen — Nennmaß auf dem Rücken, Fall 6 andersherum). */
+  const ribH = Math.max(1.0, 0.028 * P.rBoss);
+  const stegHalb = 2.5 * Math.PI / 180;
+  const paarVersatz = 6 * Math.PI / 180;
+  const paarRib = (th) => {
+    const viertel = Math.PI / 2;
+    let x = ((th % viertel) + viertel) % viertel;
+    if (x > viertel / 2) x -= viertel;
+    const naeher = Math.min(Math.abs(x - paarVersatz), Math.abs(x + paarVersatz));
+    if (naeher > stegHalb) return -ribH;
+    return -ribH * (1 - Math.cos((naeher / stegHalb) * Math.PI / 2));
+  };
+  const ribThetas = [];
+  {
+    const K = 4 * 36;                    // 9 Schritte je Steg-Paarzone
+    for (let j = 0; j <= K; j++) ribThetas.push((j / K) * Math.PI * 2);
+  }
+  const geo = sattelRevolve(profile, { mainR: P.mainR, thetas: ribThetas, mod: paarRib });
 
   /* Schnittkappe: dieselbe Kontur, aber mit der Unterseite auf der
      Schnittebene θ = 0. Dort ist die Schnittkurve genau y = mainR —
@@ -28641,9 +28782,9 @@ function sattelY(mainR, r, theta) {
    Rohrachse, r = Abstand von der Abzweigachse), wie bei revolve. Punkte,
    die unter der Schnittkurve liegen, werden auf sie gehoben. */
 function sattelRevolve(profile, opt) {
-  const { mainR, segments = SEG_VIS } = opt;
+  const { mainR, segments = SEG_VIS, thetas = null, mod = null } = opt;
   const N = profile.length;
-  const S = segments + 1;
+  const S = thetas ? thetas.length : segments + 1;
   const pos = new Float32Array(N * S * 3);
   const uv = new Float32Array(N * S * 2);
   const wear = new Float32Array(N * S);
@@ -28660,16 +28801,23 @@ function sattelRevolve(profile, opt) {
   if (total > 0) for (let i = 0; i < N; i++) vArr[i] /= total;
 
   for (let j = 0; j < S; j++) {
-    const th = (j / segments) * Math.PI * 2;
+    const th = thetas ? thetas[j] : (j / segments) * Math.PI * 2;
+    /* Modulation wie bei revolve im Core: mod(θ) verschiebt den Radius
+       der Punkte mit w > 0 — hier für die Griffrippen des Bosses (M10).
+       Der Sattelschnitt rechnet mit dem UNMODULIERTEN r weiter: die
+       Rippen enden oberhalb des Tellers und erreichen die Schnittkurve
+       nicht. */
+    const m = mod ? mod(th) : 0;
     const c = Math.cos(th), s = Math.sin(th);
     for (let i = 0; i < N; i++) {
       const p = profile[i];
+      const pr = Math.max(0, p.r + m * (p.w || 0));
       const yCut = sattelY(mainR, p.r, th);
       const y = Math.max(p.a, yCut);
       const k = j * N + i;
-      pos[k * 3] = p.r * c;
+      pos[k * 3] = pr * c;
       pos[k * 3 + 1] = y;
-      pos[k * 3 + 2] = p.r * s;
+      pos[k * 3 + 2] = pr * s;
       uv[k * 2] = th / (Math.PI * 2);
       uv[k * 2 + 1] = vArr[i];
       wear[k] = p.wear || 0;
@@ -29059,8 +29207,10 @@ function buildSattel(cfg, size, variant, clipPlane) {
   const outer = [
     { a: yBase, r: P.rTeller, fillet: 0 },
     { a: yTeller, r: P.rTeller, fillet: Math.min(2.0, P.tellerDicke * 0.5) },
-    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5 },
-    { a: P.yTop, r: P.rBoss, chamfer: 1.0 },
+    /* w = 1 auf dem Bossmantel: dort sitzen die Griffrippen (M10). */
+    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5, w: 1 },
+    { a: P.yTop - 1.4, r: P.rBoss, fillet: 0.4, w: 1 },
+    { a: P.yTop, r: P.rBoss, chamfer: 1.0, w: 0 },
   ];
 
   let inner;
@@ -29098,7 +29248,33 @@ function buildSattel(cfg, size, variant, clipPlane) {
   inner.push(...bodenPunkte(P.rFuss, P.rTeller, yBase));
 
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  const geo = sattelRevolve(profile, { mainR: P.mainR, segments: SEG_VIS });
+
+  /* ── Griffrippen (M10): vier PAARE schmaler Längsstege am Boss ──
+     Beide Fotos (AQ130SP, AQ130GSP) zeigen sie deutlich; kein
+     Tabellenmaß bemaßt sie. ASSUMPTION Steghöhe 1,2 mm, Stegbreite ~5°,
+     Paarabstand ~12° — aus den Fotos abgelesen. Die Modulation wirkt
+     nur auf den w=1-Punkten des Bossmantels; der Sattelschnitt rechnet
+     mit dem Grundradius. */
+  /* Die Rippenrücken tragen das Tabellenmaß: der Grundzylinder liegt
+     eine Steghöhe darunter (dieselbe Konvention wie die Riffelung der
+     Übergangsmuffen — Nennmaß auf dem Rücken, Fall 6 andersherum). */
+  const ribH = Math.max(1.0, 0.028 * P.rBoss);
+  const stegHalb = 2.5 * Math.PI / 180;
+  const paarVersatz = 6 * Math.PI / 180;
+  const paarRib = (th) => {
+    const viertel = Math.PI / 2;
+    let x = ((th % viertel) + viertel) % viertel;
+    if (x > viertel / 2) x -= viertel;
+    const naeher = Math.min(Math.abs(x - paarVersatz), Math.abs(x + paarVersatz));
+    if (naeher > stegHalb) return -ribH;
+    return -ribH * (1 - Math.cos((naeher / stegHalb) * Math.PI / 2));
+  };
+  const ribThetas = [];
+  {
+    const K = 4 * 36;                    // 9 Schritte je Steg-Paarzone
+    for (let j = 0; j <= K; j++) ribThetas.push((j / K) * Math.PI * 2);
+  }
+  const geo = sattelRevolve(profile, { mainR: P.mainR, thetas: ribThetas, mod: paarRib });
 
   /* Schnittkappe: dieselbe Kontur, aber mit der Unterseite auf der
      Schnittebene θ = 0. Dort ist die Schnittkurve genau y = mainR —
@@ -29505,9 +29681,9 @@ function sattelY(mainR, r, theta) {
    Rohrachse, r = Abstand von der Abzweigachse), wie bei revolve. Punkte,
    die unter der Schnittkurve liegen, werden auf sie gehoben. */
 function sattelRevolve(profile, opt) {
-  const { mainR, segments = SEG_VIS } = opt;
+  const { mainR, segments = SEG_VIS, thetas = null, mod = null } = opt;
   const N = profile.length;
-  const S = segments + 1;
+  const S = thetas ? thetas.length : segments + 1;
   const pos = new Float32Array(N * S * 3);
   const uv = new Float32Array(N * S * 2);
   const wear = new Float32Array(N * S);
@@ -29524,16 +29700,23 @@ function sattelRevolve(profile, opt) {
   if (total > 0) for (let i = 0; i < N; i++) vArr[i] /= total;
 
   for (let j = 0; j < S; j++) {
-    const th = (j / segments) * Math.PI * 2;
+    const th = thetas ? thetas[j] : (j / segments) * Math.PI * 2;
+    /* Modulation wie bei revolve im Core: mod(θ) verschiebt den Radius
+       der Punkte mit w > 0 — hier für die Griffrippen des Bosses (M10).
+       Der Sattelschnitt rechnet mit dem UNMODULIERTEN r weiter: die
+       Rippen enden oberhalb des Tellers und erreichen die Schnittkurve
+       nicht. */
+    const m = mod ? mod(th) : 0;
     const c = Math.cos(th), s = Math.sin(th);
     for (let i = 0; i < N; i++) {
       const p = profile[i];
+      const pr = Math.max(0, p.r + m * (p.w || 0));
       const yCut = sattelY(mainR, p.r, th);
       const y = Math.max(p.a, yCut);
       const k = j * N + i;
-      pos[k * 3] = p.r * c;
+      pos[k * 3] = pr * c;
       pos[k * 3 + 1] = y;
-      pos[k * 3 + 2] = p.r * s;
+      pos[k * 3 + 2] = pr * s;
       uv[k * 2] = th / (Math.PI * 2);
       uv[k * 2 + 1] = vArr[i];
       wear[k] = p.wear || 0;
@@ -29923,8 +30106,10 @@ function buildSattel(cfg, size, variant, clipPlane) {
   const outer = [
     { a: yBase, r: P.rTeller, fillet: 0 },
     { a: yTeller, r: P.rTeller, fillet: Math.min(2.0, P.tellerDicke * 0.5) },
-    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5 },
-    { a: P.yTop, r: P.rBoss, chamfer: 1.0 },
+    /* w = 1 auf dem Bossmantel: dort sitzen die Griffrippen (M10). */
+    { a: yTeller + flanke, r: P.rBoss, fillet: 1.5, w: 1 },
+    { a: P.yTop - 1.4, r: P.rBoss, fillet: 0.4, w: 1 },
+    { a: P.yTop, r: P.rBoss, chamfer: 1.0, w: 0 },
   ];
 
   let inner;
@@ -29962,7 +30147,33 @@ function buildSattel(cfg, size, variant, clipPlane) {
   inner.push(...bodenPunkte(P.rFuss, P.rTeller, yBase));
 
   const profile = buildProfile([...outer, ...inner], { segs: 4 });
-  const geo = sattelRevolve(profile, { mainR: P.mainR, segments: SEG_VIS });
+
+  /* ── Griffrippen (M10): vier PAARE schmaler Längsstege am Boss ──
+     Beide Fotos (AQ130SP, AQ130GSP) zeigen sie deutlich; kein
+     Tabellenmaß bemaßt sie. ASSUMPTION Steghöhe 1,2 mm, Stegbreite ~5°,
+     Paarabstand ~12° — aus den Fotos abgelesen. Die Modulation wirkt
+     nur auf den w=1-Punkten des Bossmantels; der Sattelschnitt rechnet
+     mit dem Grundradius. */
+  /* Die Rippenrücken tragen das Tabellenmaß: der Grundzylinder liegt
+     eine Steghöhe darunter (dieselbe Konvention wie die Riffelung der
+     Übergangsmuffen — Nennmaß auf dem Rücken, Fall 6 andersherum). */
+  const ribH = Math.max(1.0, 0.028 * P.rBoss);
+  const stegHalb = 2.5 * Math.PI / 180;
+  const paarVersatz = 6 * Math.PI / 180;
+  const paarRib = (th) => {
+    const viertel = Math.PI / 2;
+    let x = ((th % viertel) + viertel) % viertel;
+    if (x > viertel / 2) x -= viertel;
+    const naeher = Math.min(Math.abs(x - paarVersatz), Math.abs(x + paarVersatz));
+    if (naeher > stegHalb) return -ribH;
+    return -ribH * (1 - Math.cos((naeher / stegHalb) * Math.PI / 2));
+  };
+  const ribThetas = [];
+  {
+    const K = 4 * 36;                    // 9 Schritte je Steg-Paarzone
+    for (let j = 0; j <= K; j++) ribThetas.push((j / K) * Math.PI * 2);
+  }
+  const geo = sattelRevolve(profile, { mainR: P.mainR, thetas: ribThetas, mod: paarRib });
 
   /* Schnittkappe: dieselbe Kontur, aber mit der Unterseite auf der
      Schnittebene θ = 0. Dort ist die Schnittkurve genau y = mainR —

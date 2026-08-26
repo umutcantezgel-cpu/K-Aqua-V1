@@ -225,6 +225,14 @@ export function params(dNom) {
   P.oringCord = 2.4;
   P.oringDepth = 1.8;
 
+  /* ── ZUR GRIFFLÄNGE, nach dem Bildabgleich vom 25.08.2026 ──
+     Der Mangelverdacht M9 („Griff zu lang") hat sich als Fehler des
+     PRÜFERS erwiesen: die Grifflänge ist TABELLIERT (Spalte A), und
+     A/L = 0,73 deckt sich mit dem Foto — verglichen worden war
+     fälschlich gegen die Korpuslänge ohne Überwurfmuttern. Die Länge
+     bleibt A. Aus dem Foto übernommen ist nur die GRÜNE DECKEINLAGE
+     auf dem Griffkopf (zweiter Werkstoff des Griffs). */
+  const gripA = A;
   P.lever = {
     hubBot: 0.41 * H,
     hubTop: 0.85 * H,
@@ -233,13 +241,15 @@ export function params(dNom) {
     armTop: H,
     thRoot: 0.30 * H,
     thTip: 0.15 * H,
-    len: A,
+    len: gripA,
     longFrac: 0.73,
-    xLong: 0.73 * A,
-    xShort: 0.27 * A,
-    wRoot: 0.26 * A,
-    wTip: 0.11 * A,
+    xLong: 0.73 * gripA,
+    xShort: 0.27 * gripA,
+    wRoot: 0.26 * gripA,
+    wTip: 0.11 * gripA,
     ribs: 12,
+    inlayOD: 0.30 * D,          // grüne Einlage auf dem Kopf, aus dem Foto
+    inlayH: 0.9,
   };
   return P;
 }
@@ -551,6 +561,25 @@ export function buildLever(P) {
 }
 
 
+/* Grüne Deckeinlage auf dem Griffkopf — im Foto AQ852 der zweite
+   Werkstoff des Griffs. Eine flache Scheibe mit Fase, konzentrisch auf
+   der Kopfkuppe. */
+export function buildLeverInlay(P) {
+  const Lv = P.lever;
+  const yTop = Lv.hubTop;
+  const r = Lv.inlayOD / 2;
+  const pts = [
+    { a: yTop - 0.2, r: 0.02, fillet: 0 },
+    { a: yTop - 0.2, r: r, fillet: 0.3 },
+    { a: yTop + Lv.inlayH, r: r - 0.25, chamfer: 0.35 },
+    { a: yTop + Lv.inlayH, r: 0.02, fillet: 0 },
+  ];
+  const profile = buildProfile(pts, { segs: 3 });
+  return { geo: revolve(profile, { axis: 'y', segments: SEG_FINE }),
+           cap: capFromProfile(profile, 'y') };
+}
+
+
 /* == ball-valve-pp/index.js ============================================ */
 /* K-Aqua PP-R Kugelhahn (Ball in PP) — Produktpaket nach PRODUKT-VERTRAG.md.
 
@@ -606,6 +635,7 @@ const product = {
     const seat = buildSeat(P);
     const stem = buildStem(P);
     const lever = buildLever(P);
+    const inlay = buildLeverInlay(P);
     const oring = buildORing(P, tail.oringX, tail.oringR);
 
     /* Explosionsversatz: aus den Teilelängen gerechnet, damit sich bei
@@ -658,9 +688,12 @@ const product = {
     A.part('stem', { name: 'Spindel', label: 'Spindel', mat: 'steel', parent: rotor,
       geo: stem.geo, cap: stem.cap, explode: V3(0, offStem, 0),
       anchor: V3(0.07 * P.L, P.domeTop + 0.03 * P.L, 0) });
-    A.part('lever', { name: 'Hebel', label: 'Hebel', mat: 'anthraciteB', parent: rotor,
+    A.part('lever', { name: 'Knebelgriff', label: 'Knebelgriff', mat: 'anthraciteB', parent: rotor,
       geo: lever.geo, cap: lever.cap, explode: V3(0, offLever, 0),
       anchor: V3(P.lever.xLong * 0.45, P.H + 0.05 * P.L, 0) });
+    /* Grüne Deckeinlage — der zweite Werkstoff des Griffs (Foto AQ852). */
+    A.part('inlay', { name: 'Griffeinlage', label: 'Griffeinlage (PP-R)', mat: 'pprGreen', parent: rotor,
+      geo: inlay.geo, cap: inlay.cap, explode: V3(0, offLever + 0.06 * P.L, 0) });
 
     /* Innenlicht-Positionen (mm) — der Core setzt die Lampen. */
     A.light(V3(-P.xJoint * 0.8, 0, 0));

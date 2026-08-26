@@ -4293,6 +4293,28 @@ function buildStemORing(P, y, r) {
 }
 
 
+/* Befestigungsschraube des Hebels — im Foto AQ850 als
+   Edelstahl-Sechskantkopf auf der Nabe deutlich sichtbar. Kopf als
+   flacher Sechskant, Schaft verschwindet in der Spindel. */
+function buildLeverBolt(P) {
+  const Lv = P.lever;
+  const yBase = Lv.yBend + Lv.thick + 0.6;   // Nabenoberkante
+  const kopfH = Math.max(2.2, 0.035 * P.H);
+  const af = Math.max(5.5, P.stemOD * 0.75);
+  const kopf = hexPrism(af, kopfH, Math.max(0.25, af * 0.03), 0.5);
+  kopf.rotateZ(Math.PI / 2);                 // Achse nach +Y (wie beim Gewinde-T)
+  kopf.translate(0, yBase, 0);
+  const halsProfile = buildProfile([
+    { a: yBase - 1.2, r: 0.02, fillet: 0 },
+    { a: yBase - 1.2, r: af * 0.32, fillet: 0.2 },
+    { a: yBase + 0.2, r: af * 0.32, fillet: 0.2 },
+    { a: yBase + 0.2, r: 0.02, fillet: 0 },
+  ], { segs: 3 });
+  const hals = revolve(halsProfile, { axis: 'y', segments: SEG_INT });
+  return { geo: mergeGeometries([kopf, hals]), cap: capFromProfile(halsProfile, 'y') };
+}
+
+
 /* == pp-r-ball-valve-brass/index.js ==================================== */
 /* K-Aqua Kugelhahn PP-R (Kugel Messing verchromt) — Produktpaket.
 
@@ -4340,7 +4362,7 @@ const product = {
     const P = params(size);
     const A = createAssembly({
       name: 'K-Aqua_Kugelhahn_Messing_d' + P.d,
-      materials: ['pprGreen', 'chrome', 'steel', 'ptfe', 'epdm'],
+      materials: ['pprGreen', 'chrome', 'steel', 'ptfe', 'epdm', 'toolRed'],
       seed: 137,
       clipPlane,
     });
@@ -4385,9 +4407,15 @@ const product = {
     A.part('stem', { name: 'Spindel', label: 'Spindel', mat: 'steel', parent: rotor,
       geo: stem.geo, cap: stem.cap, explode: V3(0, offStem, 0),
       anchor: V3(0.09 * P.A, P.domeTop + 0.03 * P.A, 0) });
-    A.part('hebel', { name: 'Hebel', label: 'Hebel (Stahl)', mat: 'steel', parent: rotor,
+    /* Der Hebel ist im Foto AQ850 leuchtend ROT pulverbeschichtet
+       (abgetastet #df2e1f am Bildschirm; toolRed ist der Albedo dazu),
+       mit sichtbarer Edelstahl-Sechskantschraube auf der Nabe (M8). */
+    A.part('hebel', { name: 'Hebel', label: 'Hebel (Stahl, rot beschichtet)', mat: 'toolRed', parent: rotor,
       geo: lever.geo, cap: lever.cap, explode: V3(0, offLever, 0),
       anchor: V3(P.lever.len * 0.55, P.H + 0.06 * P.A, 0) });
+    const bolt = buildLeverBolt(P);
+    A.part('schraube', { name: 'Hebelschraube', label: 'Hebelschraube (Edelstahl)', mat: 'steel', parent: rotor,
+      geo: bolt.geo, cap: bolt.cap, explode: V3(0, offLever + 0.05 * P.L, 0) });
 
     A.light(V3(-P.xEnd * 0.7, 0, 0));
     A.light(V3(P.xEnd * 0.7, 0, 0));
