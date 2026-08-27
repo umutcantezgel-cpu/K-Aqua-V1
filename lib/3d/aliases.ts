@@ -34,12 +34,16 @@ export const SLUG_ALIASES: Record<string, string> = {
   "k-fiber-uv-pipe-pp-rct-sdr-7-4": "pipes/k-fiber-uv-pipe-pp-rct-sdr-7-4",
   "pp-r-ball-valve-ball-in-pp": "valves/pp-r-ball-valve-ball-in-pp",
   "pp-r-ball-valve-ball-in-brass-chromium-plated": "valves/pp-r-ball-valve-ball-in-pp",
-  "straight-seat-valve-green-handle": "valves/pp-r-ball-valve-ball-in-pp",
-  "concealed-valve-chrome-light-part": "valves/pp-r-ball-valve-ball-in-pp",
-  "concealed-valve-chrome-heavy-part": "valves/pp-r-ball-valve-ball-in-pp",
-  "battery-female-thread": "valves/pp-r-ball-valve-ball-in-pp",
-  "adjustable-battery-female-thread": "valves/pp-r-ball-valve-ball-in-pp",
-  "elongation-pieces": "valves/pp-r-ball-valve-ball-in-pp",
+  /* Sechs weitere Armaturen standen hier bis zum 26.08.2026 ebenfalls auf
+     „pp-r-ball-valve-ball-in-pp": straight-seat-valve-green-handle,
+     concealed-valve-chrome-light-part, concealed-valve-chrome-heavy-part,
+     battery-female-thread, adjustable-battery-female-thread und
+     elongation-pieces. Solange es kein eigenes Modell gab, war das ein
+     Notbehelf; seit dem Bibliotheksstand mit 70 Modellen gibt es für jede
+     dieser sechs ein eigenes. Sechs Produktseiten zeigten bis dahin einen
+     KUGELHAHN — ein Unterputzventil, ein Batterieanschluss und ein
+     Verlängerungsstück sind etwas völlig anderes.
+     Entfernt, damit die erzeugte Zuordnung greift. */
   /* Die Seite heisst „…-for-internal-valve", das Modell heisst
      „…-internal-valve" — ein „for" Unterschied, den die erzeugte Zuordnung
      nicht ueberbrueckt. Vorher zeigte die Seite den Kugelhahn, also ein
@@ -82,9 +86,20 @@ export const SLUG_ALIASES: Record<string, string> = {
   // umgehängt). Fünf Produktseiten zeigten bis dahin ein fremdes Bauteil.
   "flat-gasket-for-unions-pp-r": "accessories/flat-gasket-for-unions",
   "backing-flange-pp-steel-sfbf": "accessories/backing-flange",
-  "pipe-cutter-2040": "accessories/pipe-clamps",
-  "pipe-cutter-50125": "accessories/pipe-clamps",
-  "pipe-cutter-50125-1": "accessories/pipe-clamps",
-  "welding-tool": "accessories/plug",
-  "repairing-plug": "accessories/plug",
+  /* Die drei Schneid- und Schabwerkzeuge zeigten bis zum 26.08.2026 auf
+     „accessories/pipe-clamps" — auf ROHRSCHELLEN. Eigene Modelle gibt es
+     inzwischen; die Seiten-Slugs schreiben die Nennweiten aber ohne
+     Bindestriche („50125"), die Modelle mit („50-125"). Die erzeugte
+     Zuordnung überbrückt das nicht, deshalb bleiben die Einträge stehen und
+     werden umgehängt statt entfernt.
+     „pipe-cutter-50125-1" ist der Rohrschaber AQ974 von Katalogseite 114 —
+     der Modellname trägt die alte, irreführende Bezeichnung weiter, sein
+     Titel in der Registry lautet aber „Rohrschaber". */
+  "pipe-cutter-2040": "tools/pipe-cutter-20-40",
+  "pipe-cutter-50125": "tools/pipe-cutter-50-125",
+  "pipe-cutter-50125-1": "tools/pipe-cutter-50-125-114",
+  /* „welding-tool" und „repairing-plug" standen hier auf
+     „accessories/plug", also auf einem Rohrstopfen. Beide haben seit dem
+     Bibliotheksstand mit 70 Modellen ein eigenes; entfernt, damit die
+     erzeugte Zuordnung greift. */
 };

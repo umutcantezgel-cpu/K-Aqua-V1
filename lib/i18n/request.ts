@@ -43,14 +43,48 @@ export default getRequestConfig(async ({ requestLocale }) => {
     return {};
   };
 
+  // Known filler strings from legacy machine dumps that must not override valid fallback content
+  const KNOWN_PLACEHOLDER_SET = new Set([
+    'x',
+    '.',
+    '-',
+    'የተተረጎመ',
+    'ဘာသာပြန်ဆိုထားသော စာသား',
+    "Batafsil ma'lumot...",
+  ]);
+
+  const stripPlaceholders = (obj: any): any => {
+    if (typeof obj === 'string') {
+      if (KNOWN_PLACEHOLDER_SET.has(obj.trim())) {
+        return undefined;
+      }
+      return obj;
+    }
+    if (Array.isArray(obj)) {
+      return obj.map(stripPlaceholders);
+    }
+    if (obj && typeof obj === 'object') {
+      const out: Record<string, any> = {};
+      for (const [k, v] of Object.entries(obj)) {
+        const cleaned = stripPlaceholders(v);
+        if (cleaned !== undefined) {
+          out[k] = cleaned;
+        }
+      }
+      return out;
+    }
+    return obj;
+  };
+
   // Load reference messages (German as canonical default, English as international fallback)
   const deMessages = loadJson(path.join(process.cwd(), 'messages', 'de.json'));
   const enMessages = loadJson(path.join(process.cwd(), 'messages', 'en.json'));
-  const baseMessages = targetLocale === 'de' 
+  const rawBase = targetLocale === 'de' 
     ? deMessages 
     : targetLocale === 'en' 
     ? enMessages 
     : loadJson(path.join(process.cwd(), 'messages', `${targetLocale}.json`));
+  const baseMessages = targetLocale === 'de' || targetLocale === 'en' ? rawBase : stripPlaceholders(rawBase);
   
   // Deep merge canonical default -> english -> target messages
   let messages = merge({}, deMessages, enMessages, baseMessages);

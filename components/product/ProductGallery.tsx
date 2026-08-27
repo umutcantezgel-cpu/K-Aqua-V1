@@ -92,7 +92,12 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
           {viewMode === '3d' ? (
             <motion.div
               key="3d-viewer"
-              initial={{ opacity: 0 }}
+              /* initial={false}: der Einblend-Startwert opacity 0 blieb in
+                 Umgebungen ohne laufende Animation DAUERHAFT stehen — der
+                 Viewer war dann eine Weißfläche. Gleiche Fehlerklasse wie
+                 der frühere Fix „never leave content permanently
+                 invisible if the reveal never fires". */
+              initial={false}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
@@ -103,7 +108,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                 category={category}
                 initialSize={selectedSize}
                 onSizeChange={(s) => setSelectedSize(s)}
-                heightClass="h-[380px] sm:h-[460px] lg:h-[520px]"
+                heightClass="h-[420px] sm:h-[500px] lg:h-[580px]"
                 showControls={true}
                 showSizeSelector={true}
                 autoRotateDefault={true}
@@ -112,7 +117,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
           ) : (
             <motion.div
               key="studio-view"
-              initial={{ opacity: 0, scale: 0.98 }}
+              initial={false}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
@@ -123,19 +128,19 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                   {/* Leitaufnahme. `sizes` deckelt die ausgelieferte Breite —
                       die Quelldateien sind 900 px, ohne Angabe lieferte Next
                       die volle Viewportbreite aus. */}
-                  <div className="relative w-full h-[380px] sm:h-[460px] lg:h-[520px] rounded-2xl sm:rounded-3xl border border-card-border overflow-hidden bg-background-subtle">
+                  <div className="relative w-full h-[420px] sm:h-[500px] lg:h-[580px] rounded-2xl sm:rounded-3xl border border-card-border overflow-hidden bg-background-subtle">
                     <Image
                       src={photos[activePhoto] ?? photos[0] ?? ''}
                       alt={title || cleanSlug}
                       fill
-                      sizes="(max-width: 1024px) 100vw, 640px"
-                      className="object-contain p-4"
+                      sizes="(max-width: 1024px) 100vw, 900px"
+                      className="object-contain p-6"
                       priority={false}
                     />
                   </div>
 
                   {photos.length > 1 && (
-                    <div className="flex items-center gap-2 flex-wrap">
+                    <div className="flex items-center gap-2 flex-wrap pt-1">
                       {photos.map((src, i) => (
                         <button
                           key={src}
@@ -146,7 +151,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                           className={clsx(
                             'relative w-16 h-16 rounded-xl overflow-hidden border transition-all cursor-pointer bg-background-subtle',
                             i === activePhoto
-                              ? 'border-primary ring-2 ring-primary/30'
+                              ? 'border-primary ring-2 ring-primary/30 shadow-sm'
                               : 'border-card-border hover:border-primary/50'
                           )}
                         >
@@ -155,7 +160,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                             alt=""
                             fill
                             sizes="64px"
-                            className="object-contain p-1"
+                            className="object-contain p-1.5"
                           />
                         </button>
                       ))}
@@ -163,7 +168,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                   )}
                 </div>
               ) : (
-                <div className="w-full h-[380px] sm:h-[460px] lg:h-[520px] rounded-2xl sm:rounded-3xl border border-card-border flex flex-col items-center justify-center bg-gradient-to-br from-card via-background to-primary-soft/20 p-8 text-center">
+                <div className="w-full h-[420px] sm:h-[500px] lg:h-[580px] rounded-2xl sm:rounded-3xl border border-card-border flex flex-col items-center justify-center bg-gradient-to-br from-card via-background to-primary-soft/20 p-8 text-center">
                   <div className="w-20 h-20 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary mb-4 shadow-inner">
                     <Box className="w-10 h-10" />
                   </div>

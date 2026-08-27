@@ -8,7 +8,8 @@ import { Reveal } from '@/components/ui/Reveal';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { ArrowRight } from '@/components/ui/icon';
 import { Link } from '@/lib/i18n/navigation';
-import { Shield, Package, CheckCircle, Activity, ThermometerSun } from 'lucide-react';
+import Image from 'next/image';
+import { Shield, Package, CheckCircle, Activity, ThermometerSun, Box, Sparkles } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { constructMetadata } from "@/lib/seo/metadata";
@@ -19,7 +20,6 @@ import React from 'react';
 
 import ProductGallery from '@/components/product/ProductGallery';
 import ProductFAQ from '@/components/product/ProductFAQ';
-import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
 import LocalAvailability from '@/components/product/LocalAvailability';
@@ -432,16 +432,70 @@ export default async function ProductDetailPage({
               </Reveal>
             </div>
             
-            {/* Right Column: Interactive 3D CAD Preview Card */}
+            {/* Right Column: Engineering Quality Showcase Card */}
             <Reveal delay={0.2} className="w-full">
-              <Native3DCanvas
-                slug={product.slug}
-                category={product.category}
-                heightClass="h-[360px] sm:h-[420px] lg:h-[460px]"
-                showSizeSelector={false}
-                showControls={true}
-                autoRotateDefault={true}
-              />
+              <div className="relative rounded-2xl sm:rounded-3xl border border-card-border bg-gradient-to-b from-card via-card/95 to-background-subtle p-6 sm:p-8 shadow-sm flex flex-col justify-between gap-6 overflow-hidden">
+                <div className="absolute top-0 end-0 w-48 h-48 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
+                
+                {/* Photo or Visual Highlight */}
+                {Array.isArray(product.images) && product.images.length > 0 ? (
+                  <div className="relative w-full h-[220px] sm:h-[260px] rounded-xl sm:rounded-2xl overflow-hidden bg-background-subtle border border-card-border flex items-center justify-center">
+                    <Image
+                      src={product.images[0]}
+                      alt={localizedTitle}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 480px"
+                      className="object-contain p-4"
+                      priority
+                    />
+                  </div>
+                ) : (
+                  <div className="relative w-full h-[180px] sm:h-[220px] rounded-xl sm:rounded-2xl overflow-hidden bg-gradient-to-br from-primary-soft/40 to-background-subtle border border-card-border flex flex-col items-center justify-center p-6 text-center">
+                    <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary mb-3 shadow-sm">
+                      <Box className="w-7 h-7" />
+                    </div>
+                    <span className="text-sm font-heading font-bold text-foreground">
+                      DIN 8077/8078 · ISO 15874
+                    </span>
+                    <span className="text-xs text-muted-foreground mt-0.5">
+                      100% maßhaltiges PP-R / PP-RCT Rohrleitungssystem
+                    </span>
+                  </div>
+                )}
+
+                {/* Key Technical Highlights Grid */}
+                <div className="grid grid-cols-2 gap-3 text-xs">
+                  <div className="flex flex-col p-3 rounded-xl bg-background border border-card-border">
+                    <span className="text-muted-foreground text-[11px] font-medium">Prüfnorm</span>
+                    <span className="font-heading font-bold text-foreground mt-0.5">DIN 8077 / 8078</span>
+                  </div>
+                  <div className="flex flex-col p-3 rounded-xl bg-background border border-card-border">
+                    <span className="text-muted-foreground text-[11px] font-medium">Qualitätssiegel</span>
+                    <span className="font-heading font-bold text-primary mt-0.5">Made in Germany</span>
+                  </div>
+                  {dimensionRange && (
+                    <div className="flex flex-col p-3 rounded-xl bg-background border border-card-border">
+                      <span className="text-muted-foreground text-[11px] font-medium">Nennweiten</span>
+                      <span className="font-heading font-bold text-foreground mt-0.5">{dimensionRange}</span>
+                    </div>
+                  )}
+                  <div className="flex flex-col p-3 rounded-xl bg-background border border-card-border">
+                    <span className="text-muted-foreground text-[11px] font-medium">3D-CAD Studio</span>
+                    <span className="font-heading font-bold text-accent-strong mt-0.5">360° Interaktiv</span>
+                  </div>
+                </div>
+
+                {/* Direct CTA to 3D CAD Hub */}
+                <div className="pt-1">
+                  <a
+                    href="#3d-cad-gallery"
+                    className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-primary text-primary-foreground font-heading font-bold text-xs sm:text-sm shadow-diffuse hover:bg-primary/90 transition-all cursor-pointer"
+                  >
+                    <Box className="w-4 h-4" />
+                    <span>{locale === 'de' ? '3D-CAD-Modell & Maße öffnen ↓' : locale === 'ar' ? 'عرض النموذج ثلاثي الأبعاد والأبعاد ↓' : 'Open 3D CAD Model & Dimensions ↓'}</span>
+                  </a>
+                </div>
+              </div>
             </Reveal>
 
           </div>
@@ -463,7 +517,7 @@ export default async function ProductDetailPage({
                 />
                 
                 {/* Image & 3D CAD Gallery */}
-                <div className="my-8">
+                <div id="3d-cad-gallery" className="my-8 scroll-mt-24">
                   <ProductGallery
                     category={product.category}
                     slug={product.slug}

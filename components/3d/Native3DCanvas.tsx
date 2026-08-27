@@ -98,6 +98,7 @@ export default function Native3DCanvas({
   const animFrameIdRef = useRef<number | null>(null);
   const clipPlaneRef = useRef<THREE.Plane>(new THREE.Plane(new THREE.Vector3(0, 0, -1), 0));
   const activeProductModuleRef = useRef<any>(null);
+  const currentAssemblyRef = useRef<any>(null);
 
   // States
   const [loading, setLoading] = useState(true);
@@ -253,6 +254,12 @@ export default function Native3DCanvas({
       try {
         const clip = sectionActive ? clipPlaneRef.current : null;
         const assembly = product.build(size, null, clip);
+        currentAssemblyRef.current = assembly;
+
+        // Apply Halbschnitt clipping plane and make cut caps visible if section is active
+        if (typeof assembly.setSection === 'function') {
+          assembly.setSection(sectionActive, clipPlaneRef.current);
+        }
 
         // mm to meters scaling
         const holder = new THREE.Group();
@@ -365,7 +372,9 @@ export default function Native3DCanvas({
   const handleToggleSection = () => {
     const next = !isSection;
     setIsSection(next);
-    if (activeProductModuleRef.current) {
+    if (currentAssemblyRef.current && typeof currentAssemblyRef.current.setSection === 'function') {
+      currentAssemblyRef.current.setSection(next, clipPlaneRef.current);
+    } else if (activeProductModuleRef.current) {
       buildCurrentModel(activeProductModuleRef.current, selectedSize, next);
     }
   };
@@ -597,13 +606,13 @@ export default function Native3DCanvas({
       )}
 
       {/* Top Header Badge */}
-      <div className="absolute top-3 start-3 sm:top-4 sm:start-4 pointer-events-none z-10 flex items-center gap-2">
-        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-background/85 backdrop-blur-md border border-card-border text-foreground shadow-sm">
-          <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-          <span className="text-[11px] sm:text-xs font-heading font-bold tracking-wide">
+      <div className="absolute top-2.5 start-2.5 sm:top-4 sm:start-4 pointer-events-none z-10 flex items-center gap-2 max-w-[48%] sm:max-w-none">
+        <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-background/90 backdrop-blur-md border border-card-border text-foreground shadow-sm min-w-0">
+          <span className="w-2 h-2 rounded-full bg-accent animate-pulse shrink-0" />
+          <span className="text-[10px] sm:text-xs font-heading font-bold tracking-wide truncate">
             {productData?.titleDe || '3D CAD Studio'}
           </span>
-          <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-primary-soft text-primary font-bold">
+          <span className="text-[9px] sm:text-[10px] font-mono px-1.5 py-0.5 rounded bg-primary-soft text-primary font-bold shrink-0">
             d{selectedSize}
           </span>
         </div>
@@ -611,7 +620,7 @@ export default function Native3DCanvas({
 
       {/* Top Right Floating Toolbar */}
       {showControls && !loading && (
-        <div className="absolute top-3 end-3 sm:top-4 sm:end-4 z-10 flex items-center gap-1.5 sm:gap-2">
+        <div className="absolute top-2.5 end-2.5 sm:top-4 sm:end-4 z-10 flex items-center gap-1 sm:gap-2">
           {/* Section Cut Toggle */}
           <button
             type="button"
@@ -619,10 +628,10 @@ export default function Native3DCanvas({
             title={isSection ? t('sectionOff') : t('sectionOn')}
             aria-label={t('section')}
             className={clsx(
-              'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
+              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
               isSection
                 ? 'bg-primary text-primary-foreground border-primary shadow-diffuse'
-                : 'bg-background/80 hover:bg-card border-card-border text-foreground'
+                : 'bg-background/85 hover:bg-card border-card-border text-foreground'
             )}
           >
             <Scissors className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -636,10 +645,10 @@ export default function Native3DCanvas({
             title={t('dimensions')}
             aria-label={t('dimensions')}
             className={clsx(
-              'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
+              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
               showDimensions
                 ? 'bg-primary text-primary-foreground border-primary shadow-diffuse'
-                : 'bg-background/80 hover:bg-card border-card-border text-foreground'
+                : 'bg-background/85 hover:bg-card border-card-border text-foreground'
             )}
           >
             <Ruler className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -653,10 +662,10 @@ export default function Native3DCanvas({
             title={isAutoRotate ? t('rotateStop') : t('rotateStart')}
             aria-label={t('rotate')}
             className={clsx(
-              'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
+              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
               isAutoRotate
-                ? 'bg-secondary text-secondary-foreground border-secondary shadow-sm'
-                : 'bg-background/80 hover:bg-card border-card-border text-foreground'
+                ? 'bg-primary/20 text-primary border-primary shadow-sm'
+                : 'bg-background/85 hover:bg-card border-card-border text-foreground'
             )}
           >
             <RotateCw className={clsx('w-3.5 h-3.5 sm:w-4 sm:h-4', isAutoRotate && 'animate-spin-slow')} />
@@ -669,10 +678,10 @@ export default function Native3DCanvas({
             title={t('wireframeToggle')}
             aria-label={t('wireframe')}
             className={clsx(
-              'p-2 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md hidden sm:flex items-center gap-1.5',
+              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md hidden sm:flex items-center gap-1.5',
               isWireframe
                 ? 'bg-card text-primary border-primary'
-                : 'bg-background/80 hover:bg-card border-card-border text-foreground'
+                : 'bg-background/85 hover:bg-card border-card-border text-foreground'
             )}
           >
             <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -684,7 +693,7 @@ export default function Native3DCanvas({
             onClick={handleResetCamera}
             title={t('center')}
             aria-label={t('center')}
-            className="p-2 sm:p-2.5 rounded-xl bg-background/80 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all"
+            className="p-1.5 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
           >
             <RotateCcw className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>
@@ -695,7 +704,7 @@ export default function Native3DCanvas({
               type="button"
               title={t('exportCad')}
               aria-label={t('exportCad')}
-              className="p-2 sm:p-2.5 rounded-xl bg-background/80 hover:bg-card border border-card-border text-foreground text-xs font-bold shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 transition-all"
+              className="p-1.5 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs font-bold shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 transition-all"
             >
               <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary" />
               <span className="hidden lg:inline text-[11px]">CAD</span>
@@ -725,7 +734,7 @@ export default function Native3DCanvas({
             onClick={() => setIsFullscreen(!isFullscreen)}
             title={isFullscreen ? t('fullscreenExit') : t('fullscreen')}
             aria-label={t('fullscreen')}
-            className="p-2 sm:p-2.5 rounded-xl bg-background/80 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all"
+            className="p-1.5 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
           >
             {isFullscreen ? (
               <Minimize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -738,14 +747,14 @@ export default function Native3DCanvas({
 
       {/* Dimensions Overlay Tag Box */}
       {showDimensions && dimensionsList.length > 0 && (
-        <div className="absolute top-14 start-3 sm:top-16 sm:start-4 z-10 p-3 rounded-2xl bg-card/90 backdrop-blur-md border border-card-border shadow-lg max-w-xs animate-reveal">
-          <div className="text-[10px] font-mono uppercase text-primary font-bold mb-1.5 flex items-center gap-1">
+        <div className="absolute top-12 sm:top-16 start-2.5 sm:start-4 z-10 p-2.5 sm:p-3 rounded-xl sm:rounded-2xl bg-card/95 backdrop-blur-md border border-card-border shadow-lg max-w-[calc(100vw-32px)] sm:max-w-xs animate-reveal">
+          <div className="text-[10px] font-mono uppercase text-primary font-bold mb-1 flex items-center gap-1">
             <Ruler className="w-3 h-3" /> CAD-Bemaßung (mm)
           </div>
           <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
             {dimensionsList.map((dim, idx) => (
               <div key={idx} className="flex items-center justify-between font-mono">
-                <span className="text-muted-foreground">{dim.label}:</span>
+                <span className="text-muted-foreground text-[11px]">{dim.label}:</span>
                 <span className="font-bold text-foreground">{dim.value} mm</span>
               </div>
             ))}
@@ -755,20 +764,21 @@ export default function Native3DCanvas({
 
       {/* Bottom Size Switcher Strip (Unified Native Controls) */}
       {showSizeSelector && availableSizes.length > 1 && (
-        <div className="absolute bottom-3 start-3 end-3 sm:bottom-4 sm:start-4 sm:end-4 z-10 flex items-center justify-between gap-2 p-2 rounded-2xl bg-background/85 backdrop-blur-md border border-card-border shadow-sm overflow-x-auto scrollbar-none">
+        <div className="absolute bottom-2 start-2 end-2 sm:bottom-4 sm:start-4 sm:end-4 z-10 flex items-center justify-between gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-xl sm:rounded-2xl bg-background/90 backdrop-blur-md border border-card-border shadow-sm overflow-x-auto scrollbar-none">
           <div className="flex items-center gap-1.5 shrink-0 text-xs font-heading font-bold text-foreground pe-2 border-e border-card-border">
-            <Sparkles className="w-3.5 h-3.5 text-primary" />
-            <span>{t('nominalSize')}</span>
+            <Sparkles className="w-3.5 h-3.5 text-primary shrink-0" />
+            <span className="hidden sm:inline">{t('nominalSize')}</span>
+            <span className="sm:hidden font-mono">DN</span>
           </div>
 
-          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-none py-0.5">
+          <div className="flex items-center gap-1 sm:gap-1.5 overflow-x-auto scrollbar-none py-0.5">
             {availableSizes.map((d) => (
               <button
                 key={d}
                 type="button"
                 onClick={() => handleSelectSize(d)}
                 className={clsx(
-                  'px-3 py-1 rounded-xl text-xs font-mono font-bold transition-all shrink-0 cursor-pointer',
+                  'px-2.5 sm:px-3 py-1 rounded-lg sm:rounded-xl text-xs font-mono font-bold transition-all shrink-0 cursor-pointer',
                   selectedSize === d
                     ? 'bg-primary text-primary-foreground shadow-sm scale-105'
                     : 'bg-card hover:bg-card-border/50 text-foreground border border-card-border'

@@ -28,7 +28,15 @@ import type { Native3DCanvasProps } from './Native3DCanvas';
  * WebGL existiert serverseitig ohnehin nicht — der Viewer hat dort nie etwas
  * gerendert.
  */
-const Native3DCanvasImpl = React.lazy(() => import('./Native3DCanvas'));
+/* Ein fehlgeschlagener Chunk-Load (typisch: die Seite lief noch mit dem
+   alten Deploy, der Chunk-Hash existiert nicht mehr) wird EINMAL nach
+   kurzer Pause erneut versucht, bevor der Fehler die Boundary erreicht —
+   das heilt den Standardfall nach einem Vercel-Redeploy von selbst. */
+const Native3DCanvasImpl = React.lazy(() =>
+  import('./Native3DCanvas').catch(
+    () => new Promise((r) => setTimeout(r, 1200)).then(() => import('./Native3DCanvas'))
+  )
+);
 
 const DEFAULT_HEIGHT = 'h-[440px] sm:h-[520px] lg:h-[600px]';
 
@@ -58,6 +66,43 @@ function ViewerPlaceholder({
   );
 }
 
+/* Eigene Boundary um den Viewer: ohne sie eskalierte ein ChunkLoadError
+   bis zur Routen-Boundary und riss die ganze Produktseite mit. Der
+   Fallback bleibt im Platzhalter-Look und bietet das einzig Sinnvolle
+   an: neu laden. */
+class ViewerBoundary extends React.Component<
+  { heightClass: string; className?: string; children: React.ReactNode },
+  { kaputt: boolean }
+> {
+  override state = { kaputt: false };
+  static getDerivedStateFromError() {
+    return { kaputt: true };
+  }
+  override render() {
+    if (!this.state.kaputt) return this.props.children;
+    return (
+      <div
+        className={clsx(
+          'relative w-full rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-b from-card/90 via-background to-card border border-card-border shadow-lift flex flex-col items-center justify-center gap-3 text-center px-6',
+          this.props.heightClass,
+          this.props.className
+        )}
+      >
+        <p className="text-sm text-muted-foreground">
+          Die 3D-Ansicht konnte nicht geladen werden.
+        </p>
+        <button
+          type="button"
+          onClick={() => window.location.reload()}
+          className="px-4 py-2 rounded-lg text-sm font-semibold bg-primary text-primary-foreground hover:opacity-90 transition-opacity cursor-pointer"
+        >
+          Seite neu laden
+        </button>
+      </div>
+    );
+  }
+}
+
 export default function Native3DCanvasLazy(props: Native3DCanvasProps) {
   const { heightClass = DEFAULT_HEIGHT, className } = props;
   const [mounted, setMounted] = useState(false);
@@ -70,5 +115,11 @@ export default function Native3DCanvasLazy(props: Native3DCanvasProps) {
 
   if (!mounted) return placeholder;
 
-  return <Suspense fallback={placeholder}>{<Native3DCanvasImpl {...props} />}</Suspense>;
+  return (
+    <ViewerBoundary heightClass={heightClass} className={className}>
+      <Suspense fallback={placeholder}>
+        <Native3DCanvasImpl {...props} />
+      </Suspense>
+    </ViewerBoundary>
+  );
 }
