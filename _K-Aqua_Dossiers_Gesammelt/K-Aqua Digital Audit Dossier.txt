@@ -52,12 +52,12 @@ Vertriebs-Kanal
 	Extrem gering (Einkäufer verlässt die Seite für PDF-Reader)
 	Hoch (Interaktiver CO2-Rechner & Dimensionsplaner) 20
 	Sektion 3: Globale Skalierbarkeit: RTL-Support für Arabisch und Programmatic SEO für 27 Metropolen
-K-Aqua ist ein global etablierter Premium-Hersteller mit prestigeträchtigen Referenzen, darunter das BMW-Hauptquartier in Deutschland, das Mahanakhon-Gebäude in Thailand, die Royal Albert Hall in London, die Trocadero-Gärten in Paris und der Suvarnabhumi-Flughafen in Bangkok.21 Ein strategischer Wachstumsschwerpunkt liegt im Nahen Osten, wo K-Aqua über den Exklusivpartner Bin Moosa & Daly LTD. LLC eine herausragende Marktstellung genießt.3
+K-Aqua ist ein Premium-Hersteller mit Einsatzschwerpunkten in Hochhaus-Steigleitungen, Kliniken, Rechenzentren und Kuehlkreislaeufen. [KORREKTUR 31.08.2026: Hier standen fuenf namentlich genannte Grossbauwerke als Referenzen. Fuer keines liegt ein Beleg vor; gegen den Herstellerkatalog geprueft und dort nicht gefunden. Entfernt — nicht wieder einsetzen.] Ein strategischer Wachstumsschwerpunkt liegt im Nahen Osten, wo K-Aqua über den Exklusivpartner Bin Moosa & Daly LTD. LLC eine herausragende Marktstellung genießt.3
 Gegründet im Jahr 1967 durch Michael F. Daly, blickt BMD auf über 50 Jahre MEP-Erfahrung in den VAE zurück und betreibt moderne Showrooms und Servicecenter in Abu Dhabi, Musaffah, Dubai, Sharjah, Al Ain und Madinat Zayed sowie in Muscat (Oman).3 Um diese Zielgruppen adäquat und barrierefrei anzusprechen, ist ein makelloser Right-to-Left (RTL) Support für die arabische Sprache auf allen Unterseiten technisch unverzichtbar.3
 Zur Erschließung globaler B2B-Marktanteile wird ein Programmatic SEO (pSEO) Framework für die 27 wichtigsten Metropolen weltweit implementiert.11 Anstatt manuell hunderte Einzelseiten zu erstellen, generiert ein datenbankgestütztes System (z. B. auf PostgreSQL-Basis) automatisch hochgradig optimierte Landingpages für jede Zielstadt.11
 Um Google-Sanktionen wegen „Duplicate Content“ (doppelter Inhalte) auszuschließen, speist das System dynamisch hochspezifische, lokale Datenpunkte in die Seitenvorlagen ein 11:
 * Lokale Partnerstrukturen: Auf der Dubai- oder Muscat-Landingpage werden direkt die Kontaktdaten der Showrooms von Bin Moosa & Daly (wie der neue Flagship-Showroom in Nad Al Hamar, Dubai oder das Zentrallager in der KIZAD-Industriezone) gelistet.23
-* Regionale Referenzprojekte: Für asiatische Märkte werden das Mahanakhon-Gebäude oder KWT-Referenzen hervorgehoben.21 Im Nahen Osten werden BMD-Erfolge wie die Ritz-Carlton-Villen in Ras Al Khaimah oder die KESSEL-Großabscheider im Deira Mall (Durchflussrate von 262 l/s) ausgespielt.27
+* Regionale Einsatzfelder: Für asiatische Märkte wird das Hochhaus-Segment hervorgehoben. [Projektname entfernt: unbelegt] Im Nahen Osten werden BMD-Erfolge wie die Ritz-Carlton-Villen in Ras Al Khaimah oder die KESSEL-Großabscheider im Deira Mall (Durchflussrate von 262 l/s) ausgespielt.27
 * Spezifische Zertifizierungen: Europäische Seiten heben die TÜV-Zertifizierung DIN CERTCO (Registrierung P1R0524, gültig bis 2028-02-29) für das PP-RCT Glasfaser-Verbundrohr hervor 2, während asiatische Seiten die Zulassungen von SKZ, DVGW, LGA und TVU fokussieren.21
 
 
@@ -71,15 +71,15 @@ Zielmetropole
 	SKZ, DVGW, LGA Zulassungen 21
 	Bangkok (TH)
 	K-Wasser Technology Thailand 21
-	Mahanakhon Building / Suvarnabhumi Airport 21
+	Hochhaus-Steigleitungen / Luftfahrtinfrastruktur [Projektnamen entfernt: unbelegt]
 	Microban SilverShield Antibakteriell 21
 	London (UK)
 	KWT GmbH Export-Division 3
-	Royal Albert Hall (Denkmalschutz-Sanierung) 21
+	Denkmalschutz-Sanierung ohne Heissarbeiten [Projektname entfernt: unbelegt]
 	DIN CERTCO P1R0524 (PP-RCT) 2
 	München (DE)
 	KWT GmbH Direktvertrieb 2
-	BMW Group Headquarters (Premium-Industrie) 21
+	Premium-Industriebau [Projektname entfernt: unbelegt]
 	DIN CERTCO / DVGW Deutschland 2
 	Sektion 4: Prototyp-Analyse: Analyse meines aktuellen Standes und die verbleibende Entwicklung
 Der aktuelle Prototyp, der unter https://k-aqua-v1.vercel.app/de bereitgestellt wurde, wurde in einer Entwicklungszeit von nur einem einzigen Arbeitstag aufgesetzt.28 Er dient als funktionaler Proof of Concept (PoC) zur Validierung der globalen Edge-Infrastruktur. Dieser Stand repräsentiert exakt 1 % des geplanten digitalen Endstadiums.

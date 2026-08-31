@@ -469,7 +469,7 @@ Zielsetzung der Recherche:
 Fuehre eine Deep Research fuer Thailand (Groosraum Bangkok) durch, um alle kostenlosen B2B-Portale, Hotelbau-Lieferantenkataloge und TGA-Register fuer K-Aqua zu identifizieren.
 
 Hintergrund und Nischenfokus:
-K-Aqua verfuegt in Bangkok ueber prestigetraechtige Leuchtturm-Referenzen (Mahanakhon Building, Suvarnabhumi Airport). Die boomende Luxushotellerie an der Sukhumvit Road und am Chao Phraya Fluss benoetigt leise, inkrustationsfreie Trinkwasser- und Poolkuehlungsnetze.
+Bangkok ist gepraegt von Hochhaus-Steigleitungen und Luftfahrtinfrastruktur mit hohen Anforderungen an Dauerbetriebssicherheit. Die boomende Luxushotellerie an der Sukhumvit Road und am Chao Phraya Fluss benoetigt leise, inkrustationsfreie Trinkwasser- und Poolkuehlungsnetze.
 
 Suchoperatoren und Zielplattformen:
 Untersuche Thailand Yellow Pages (yellowpages.co.th), B2BMap Thailand, Thai Trade Directory (DITP), Thai Hotel Association Supplier Directory, The Engineering Institute of Thailand (EIT - eit.or.th), Thai Green Building Institute (TGBI) und Thai Contractors Association.
@@ -729,7 +729,7 @@ Zielsetzung der Recherche:
 Fuehre eine Deep Research fuer den britischen Markt (Grossraum London) durch, um alle kostenlosen Verzeichnisse fuer Denkmalschutz, Heritage-Sanierung und brandschutzsichere Haustechnik fuer K-Aqua zu identifizieren.
 
 Hintergrund und Nischenfokus:
-London besitzt einen gigantischen Bestand an denkmalgeschuetzten Gebaeuden (Referenz: Sanierung der Royal Albert Hall mit K-Aqua). Nach Verschaerfung der Brandschutzgesetze sind offene Schmelz- und Loetflammen im bewohnten Altbau streng reglementiert. Heizelementmuffenschweissen eliminiert Heissarbeiten vollstaendig.
+London besitzt einen gigantischen Bestand an denkmalgeschuetzten Gebaeuden. Nach Verschaerfung der Brandschutzgesetze sind offene Schmelz- und Loetflammen im bewohnten Altbau streng reglementiert. Heizelementmuffenschweissen eliminiert Heissarbeiten vollstaendig.
 
 Suchoperatoren und Zielplattformen:
 Untersuche Historic England Partnernetzwerke, BESA Directory (thebesa.com), CIPHE (Chartered Institute of Plumbing and Heating Engineering), Designing Buildings Wiki, Heritage Building Contractor Directories und Specification Online.

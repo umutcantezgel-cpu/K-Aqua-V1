@@ -317,7 +317,7 @@ Führe eine Deep Research durch, um alle kostenlosen englisch- und arabischsprac
 Prüfe: PRLog Middle East, Zawya Free Press Submission, Middle East Press Release Hubs, AMEinfo (freie Archiv-Einreichungen), MENA Herald, Dubai Forum PR, Saudi Gazette Gast- & PR-Einreichungen.
 
 Erfasse:
-- Veröffentlichungsbedingungen für kostenfreie B2B-Nachrichten (z.B. über K-Aqua Großprojekte wie Suvarnabhumi oder Mahanakhon).
+- Veröffentlichungsbedingungen für kostenfreie B2B-Nachrichten (z.B. über Großprojekte im Hochhaus- und Infrastrukturbau).
 - Link-Typ und Google News Sichtbarkeit.
 - Ampel-Bewertung (🟢/🟡/🔴).
 
@@ -362,9 +362,9 @@ Liefere eine tabellarische Übersicht mit allen Ziel-URLs und Registrierungspfad
 
 ---
 
-### PROMPT 20: Thailand B2B- & TGA-Verzeichnisse (Bangkok / Mahanakhon Referenz-Hebel)
+### PROMPT 20: Thailand B2B- & TGA-Verzeichnisse (Bangkok / Hochhaus-Hebel)
 ```text
-Führe eine tiefgreifende Deep Research für den thailändischen Markt (Bangkok & Industriezentren) durch, um alle kostenlosen B2B-Lieferantenkataloge, Branchenbücher und Ingenieurportale für K-Aqua (Referenzen: Mahanakhon Building, Suvarnabhumi Airport) zu identifizieren.
+Führe eine tiefgreifende Deep Research für den thailändischen Markt (Bangkok & Industriezentren) durch, um alle kostenlosen B2B-Lieferantenkataloge, Branchenbücher und Ingenieurportale für K-Aqua zu identifizieren.
 
 Untersuche: Thailand Yellow Pages (yellowpages.co.th), B2BMap Thailand, Thai Trade Directory (DITP), Department of Industrial Works Directory, The Engineering Institute of Thailand (EIT - eit.or.th), Thai Green Building Institute (TGBI), Thai Construction Industry Association (TCIA), Thailand B2B Sourcing Hubs.
 

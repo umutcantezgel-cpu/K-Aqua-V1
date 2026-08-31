@@ -202,7 +202,7 @@
 ## **CLUSTER 13: Thailand & Ost-Wirtschaftskorridor (EEC, Builk & Thai YP)**
 * **Enthaltene Dossiers:** `B2B-Recherche Thailand K-Aqua.md` (Dossier 21) + `EEC Thailand Industrieverzeichnisse.md` (Dossier 22)
 * **Kennzahlen:** 17 Plattformen gesamt (🟢 7 Grün, 🟡 9 Gelb, 🔴 1 Rot)
-* **Thematischer Fokus:** Eastern Economic Corridor (EEC / Chonburi / Rayong), K-Aqua Referenz *King Power Mahanakhon* (314 m), IEAT Industrieparks, Builk Baubeschaffung.
+* **Thematischer Fokus:** Eastern Economic Corridor (EEC / Chonburi / Rayong), Hochhaus-Steigleitungen ab 300 m Gebäudehöhe, IEAT Industrieparks, Builk Baubeschaffung.
 * **Top-Verzeichnisse & Registrierungslinks:**
   1. **YellowPages Thailand:** `yellowpages.co.th` (🟢 Grün, DR 72) – Thailändisches Standard-Unternehmensregister.
   2. **Fact-Link Thailand:** `fact-link.com` (🟢 Grün, DR 62) – Spezialisiertes B2B-Verzeichnis für den Maschinen- und Anlagenbau in Südostasien.
@@ -277,10 +277,10 @@
 
 ---
 
-## **CLUSTER 19: Vereinigtes Königreich (UK Heritage Royal Albert Hall & UK MEP Building Safety Act)**
+## **CLUSTER 19: Vereinigtes Königreich (UK Heritage & UK MEP Building Safety Act)**
 * **Enthaltene Dossiers:** `UK Heritage Verzeichnis Analyse K-Aqua.md` (Dossier 48) + `UK MEP Verzeichnis Recherche.md` (Dossier 49)
 * **Kennzahlen:** 16 Plattformen gesamt (🟢 5 Grün, 🟡 9 Gelb, 🔴 2 Rot)
-* **Thematischer Fokus:** *Building Safety Act 2022* (HRB-Bauten ab 18 m Höhe), WRAS-Zulassung nach BS 6920, Vermeidung von Heißarbeiten (*Hot Works*) in denkmalgeschützten Gebäuden (Referenz *Royal Albert Hall London*).
+* **Thematischer Fokus:** *Building Safety Act 2022* (HRB-Bauten ab 18 m Höhe), WRAS-Zulassung nach BS 6920, Vermeidung von Heißarbeiten (*Hot Works*) in denkmalgeschützten Gebäuden.
 * **Top-Verzeichnisse & Registrierungslinks:**
   1. **Designing Buildings Wiki UK:** `designingbuildings.co.uk` (🟢 Grün, DR 82) – Die Wissensplattform britischer Architekten und Tragwerksplaner.
   2. **The Construction Index UK:** `theconstructionindex.co.uk/register` (🟢 Grün, DR 75) – Offene Registrierung für 100.000 britische Baufirmen.

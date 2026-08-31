@@ -12,7 +12,7 @@
   ┌─────────────────────────────────────────────────────────────────────────────┐
   │                            DAS ZENTRALE PARADOXON                           │
   ├─────────────────────────────────────────────────────────────────────────────┤
-  │  K-Aqua Produktqualität:    Weltklasse (BMW HQ, Royal Albert Hall, Suvarnabhumi) │
+  │  K-Aqua Produktqualität:    Weltklasse (Hochhaus, Klinik, Infrastruktur)        │
   │  K-Aqua Digitale Autorität: DR 12 (Unsichtbar bei 95% der Online-Ausschreibungen)│
   │  Marktführer Konkurrenz:    DR 48 - 76 (Dominiert Google für 27 Metropolen) │
   │  Unsere Webagentur:         DR 28 (nach nur 3 Monaten online aufgebaut)      │

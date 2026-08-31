@@ -437,7 +437,7 @@ Markdown-Tabelle mit Plattformname, Hauptdomain, Registrierungslink, Linktyp, DR
 Führe eine Deep Research für Thailand (Großraum Bangkok) durch, um alle kostenlosen B2B-Portale, Hotelbau-Lieferantenkataloge und TGA-Register für K-Aqua zu identifizieren.
 
 Hintergrund und Nischenfokus:
-K-Aqua verfügt in Bangkok über prestigeträchtige Leuchtturm-Referenzen (Mahanakhon Building, Suvarnabhumi Airport). Die boomende Luxushotellerie an der Sukhumvit Road und am Chao Phraya Fluss benötigt leise, inkrustationsfreie Trinkwasser- und Poolkühlungsnetze.
+Bangkok ist geprägt von Hochhaus-Steigleitungen und Luftfahrtinfrastruktur mit hohen Anforderungen an Dauerbetriebssicherheit. Die boomende Luxushotellerie an der Sukhumvit Road und am Chao Phraya Fluss benötigt leise, inkrustationsfreie Trinkwasser- und Poolkühlungsnetze.
 
 Suchoperatoren und Zielplattformen:
 Untersuche Thailand Yellow Pages (yellowpages.co.th), B2BMap Thailand, Thai Trade Directory (DITP), Thai Hotel Association Supplier Directory, The Engineering Institute of Thailand (EIT - eit.or.th), Thai Green Building Institute (TGBI) und Thai Contractors Association.
@@ -693,7 +693,7 @@ Tabelle mit Plattform, URL, Eintragungslink, DR-Wert, Linkart und Fokus auf Near
 Führe eine Deep Research für den britischen Markt (Großraum London) durch, um alle kostenlosen Verzeichnisse für Denkmalschutz, Heritage-Sanierung und brandschutzsichere Haustechnik für K-Aqua zu identifizieren.
 
 Hintergrund und Nischenfokus:
-London besitzt einen gigantischen Bestand an denkmalgeschützten Gebäuden (Referenz: Sanierung der Royal Albert Hall mit K-Aqua). Nach Verschärfung der Brandschutzgesetze sind offene Schmelz- und Lötflammen im bewohnten Altbau streng reglementiert. Heizelementmuffenschweißen eliminiert Heißarbeiten vollständig.
+London besitzt einen gigantischen Bestand an denkmalgeschützten Gebäuden. Nach Verschärfung der Brandschutzgesetze sind offene Schmelz- und Lötflammen im bewohnten Altbau streng reglementiert. Heizelementmuffenschweißen eliminiert Heißarbeiten vollständig.
 
 Suchoperatoren und Zielplattformen:
 Untersuche Historic England Partnernetzwerke, BESA Directory (thebesa.com), CIPHE (Chartered Institute of Plumbing and Heating Engineering), Designing Buildings Wiki, Heritage Building Contractor Directories und Specification Online.

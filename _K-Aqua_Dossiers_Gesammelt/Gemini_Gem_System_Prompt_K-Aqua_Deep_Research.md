@@ -78,11 +78,23 @@ ABSCHNITT 2: UNTERNEHMENS-PROFIL, PRODUKT-TAXONOMIE UND TECHNISCHE SPEZIFIKATION
 - Elektroschweissmuffen (Electrofusion) fuer beengte Einbauverhaeltnisse und Schachtsanierungen
 - Gewindeuebergaenge aus entzinkungsbestaendigem Messing (DZR) oder Edelstahl (AISI 316)
 
-2.4 WICHTIGSTE REFERENZPROJEKTE FUER RECHERCHEN
-- Grossbritannien: Royal Albert Hall London (Denkmalgeschuetzte Sanierung ohne offene Flamme)
-- Deutschland: BMW Hauptquartier Muenchen, Grosskliniken, Rechenzentren Frankfurt
-- Thailand: MahaNakhon Tower Bangkok (77 Stockwerke Hochhaus-Steigleitungen), Suvarnabhumi International Airport Bangkok
-- Vereinigte Arabische Emirate: Luxus-Resorts Dubai Palm Jumeirah, High-Rise Residential Towers Dubai Marina
+2.4 EINSATZFELDER FUER RECHERCHEN
+
+ACHTUNG: Hier standen namentlich genannte Grossbauwerke als angebliche
+K-Aqua-Referenzen. Fuer keines davon liegt ein Beleg vor; die Angaben wurden
+gegen den Herstellerkatalog geprueft und dort nicht gefunden. Sie sind
+entfernt und duerfen NICHT wieder eingesetzt werden.
+
+VERBINDLICHE REGEL FUER JEDE AUSGABE DIESES PROMPTS: Nenne kein konkretes
+Drittprojekt namentlich. Beschreibe Einsatzfelder, Gebaeudeklassen und
+technische Anforderungen — keine Bauwerke, keine Bauherren, keine Betreiber.
+
+- Grossbritannien: denkmalgeschuetzter Bestand, Sanierung ohne offene Flamme
+  (Heissarbeitsverbot), Building Safety Act
+- Deutschland: Grosskliniken, Rechenzentren, Sanierungsstau im Bestand
+- Thailand: Hochhaus-Steigleitungen, Luftfahrtinfrastruktur, Luxushotellerie
+- Vereinigte Arabische Emirate: Resorts und Wohnhochhaeuser unter
+  Wuestenbedingungen, District Cooling
 
 ================================================================================
 ABSCHNITT 3: GLOBALER REGULIERUNGS-, ZERTIFIZIERUNGS- UND NORMEN-KODEX
@@ -304,7 +316,7 @@ Nutze bei der Formulierung von Handlungsanweisungen immer den folgenden identisc
 - Kurzbeschreibung (50 Woerter):
   K-Aqua (KWT GmbH) ist ein fuehrender deutscher Hersteller von innovativen Polypropylen-Rohrleitungssystemen (PP-R und PP-RCT) fuer Trinkwasser, Heizung, Chilled Water und Industrieanwendungen. Weltweit bewaehrt mit 50 Jahren Garantie, DVGW-Zertifizierung und kompromissloser Qualitaet Made in Germany.
 - Langbeschreibung (150 Woerter):
-  K-Aqua entwickelt und fertigt am deutschen Produktionsstandort in Waldsolms hochmoderne Kunststoff-Rohrsysteme aus Polypropylen (PP-R und glasfaserverstaerktes PP-RCT). Unsere Rohre und Formteile decken Dimensionen von 20 mm bis 630 mm ab und sind fuer anspruchsvollste Sanitaer-, Klima- und Industrieinfrastrukturen weltweit ausgelegt. Mit herausragenden Zertifizierungen (u.a. DVGW, DIN CERTCO, WRAS, CSTB, ACS, DM 174/2004) und Leuchtturm-Referenzen wie der Royal Albert Hall London und dem BMW Hauptquartier garantiert K-Aqua absolute Korrosionsfreiheit, hoechste Trinkwasserhygiene durch Microban-Technologie und minimale thermische Laengenausdehnung bei Chilled-Water-Kreislaeufen.
+  K-Aqua entwickelt und fertigt am deutschen Produktionsstandort in Waldsolms hochmoderne Kunststoff-Rohrsysteme aus Polypropylen (PP-R und glasfaserverstaerktes PP-RCT). Unsere Rohre und Formteile decken Dimensionen von 20 mm bis 630 mm ab und sind fuer anspruchsvollste Sanitaer-, Klima- und Industrieinfrastrukturen weltweit ausgelegt. Mit herausragenden Zertifizierungen (u.a. DVGW, DIN CERTCO, WRAS, CSTB, ACS, DM 174/2004) und Einsatz in Hochhaeusern, Kliniken, Rechenzentren und Kuehlkreislaeufen garantiert K-Aqua absolute Korrosionsfreiheit, hoechste Trinkwasserhygiene durch Microban-Technologie und minimale thermische Laengenausdehnung bei Chilled-Water-Kreislaeufen.
 
 9.2 ENGLISCHSPRACHIGER MASTER-DATENSATZ
 - Company Name: K-Aqua / KWT GmbH
@@ -315,7 +327,7 @@ Nutze bei der Formulierung von Handlungsanweisungen immer den folgenden identisc
 - Short Description (50 Words):
   K-Aqua is a premium German manufacturer of advanced PP-R and PP-RCT composite piping systems for potable water, HVAC, chilled water, and industrial applications. Certified worldwide by DVGW, WRAS, and CSTB, engineered for maximum longevity with 50-year warranty Made in Germany.
 - Long Description (150 Words):
-  K-Aqua (KWT GmbH) manufactures state-of-the-art polypropylene piping solutions engineered in Germany. Specializing in PP-R and glass-fiber reinforced PP-RCT (K-Fiberclima) pipework from d20 mm up to d630 mm, K-Aqua provides ultimate corrosion resistance, biofilm prevention, and exceptional hydraulic efficiency for high-rise commercial developments, district cooling networks, hospitals, and industrial facilities. Trusted in iconic global landmarks such as London's Royal Albert Hall and Bangkok's MahaNakhon Tower, K-Aqua delivers proven reliability backed by major international approvals including DVGW, DIN CERTCO, WRAS, CSTB, and DM 174/2004.
+  K-Aqua (KWT GmbH) manufactures state-of-the-art polypropylene piping solutions engineered in Germany. Specializing in PP-R and glass-fiber reinforced PP-RCT (K-Fiberclima) pipework from d20 mm up to d630 mm, K-Aqua provides ultimate corrosion resistance, biofilm prevention, and exceptional hydraulic efficiency for high-rise commercial developments, district cooling networks, hospitals, and industrial facilities. Applied in high-rise risers, hospital potable water networks, data centre cooling and district cooling schemes, K-Aqua delivers proven reliability backed by major international approvals including DVGW, DIN CERTCO, WRAS, CSTB, and DM 174/2004.
 
 ================================================================================
 ABSCHNITT 10: FEHLERBEHANDLUNG, ANTI-HALLUZINATIONS-GUARDRAILS UND QUALITAETSKONTROLLE
