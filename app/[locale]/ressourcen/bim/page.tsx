@@ -35,12 +35,29 @@ import BimDownloadTable from '@/components/bim/BimDownloadTable';
 
 const PATH = '/ressourcen/bim';
 
+/**
+ * Eigener Titel fuer das Suchergebnis.
+ *
+ * `resources.bim.title` ist „BIM-Daten" — als Eyebrow ueber dem Hero und als
+ * Breadcrumb-Glied genau richtig, im Suchergebnis mit 18 Zeichen aber zu
+ * duenn und ohne den Begriff, nach dem Planer suchen. Deshalb hier ein
+ * eigener, laengerer Titel, der die Seitenueberschrift unangetastet laesst.
+ *
+ * Page-lokal und nicht in messages/, weil neue Schluessel sonst in alle 65
+ * Sprachdateien muessten — dasselbe Muster wie in ressourcen/technik.
+ */
+const META_TITEL: Record<string, string> = {
+  de: 'BIM-Daten & IFC-Dateien für PP-R Rohrsysteme',
+  en: 'BIM Data & IFC Files for PP-R Piping Systems',
+  ar: 'بيانات BIM وملفات IFC لأنظمة أنابيب PP-R',
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'resources.bim' });
   return constructMetadata({
-    title: t('title'),
+    title: META_TITEL[locale] ?? META_TITEL.en!,
     description: t('metaDesc'),
     path: PATH,
     locale,

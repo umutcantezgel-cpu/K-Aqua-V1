@@ -29,17 +29,20 @@ const PATH = '/ressourcen/technik';
 
 const TITEL: Record<string, { title: string; desc: string; lead: string }> = {
   de: {
-    title: 'Technisches Handbuch',
+    /* „Technisches Handbuch" allein waren 20 Zeichen und kein Suchbegriff.
+       Der Zusatz nennt, wonach hier tatsaechlich gesucht wird, und dient
+       zugleich als H1 der Seite. */
+    title: 'Technisches Handbuch: Werkstoffe & Schweißparameter',
     desc: 'Werkstoffkennwerte, Anwendungsklassen, Halterungsabstände, Wärmeausdehnung, Schweißparameter und Normen des K-Aqua-Rohrleitungssystems — mit Seitenbeleg aus dem Herstellerkatalog.',
     lead: 'Die Systemtabellen des Herstellerkatalogs, auf einer Seite. Dieselben Zahlen stehen als Merkmale in jeder IFC-Datei.',
   },
   en: {
-    title: 'Technical handbook',
+    title: 'Technical Handbook: Materials & Welding Parameters',
     desc: 'Material properties, application classes, support spacing, thermal expansion, welding parameters and standards of the K-Aqua piping system — with page references to the manufacturer catalogue.',
     lead: 'The system tables of the manufacturer catalogue, on one page. The same figures appear as properties in every IFC file.',
   },
   ar: {
-    title: 'الدليل الفني',
+    title: 'الدليل الفني: المواد ومعاملات اللحام',
     desc: 'خصائص المواد وفئات الاستخدام ومسافات التثبيت والتمدد الحراري ومعاملات اللحام والمعايير لنظام أنابيب K-Aqua — مع مراجع الصفحات من كتالوج الشركة المصنّعة.',
     lead: 'جداول النظام من كتالوج الشركة المصنّعة، في صفحة واحدة. القيم نفسها ترد كخصائص في كل ملف IFC.',
   },

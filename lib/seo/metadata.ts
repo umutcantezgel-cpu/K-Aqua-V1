@@ -90,10 +90,16 @@ export function constructMetadata({
   
   const canonicalUrl = overridePath ? `${siteUrl}/${locale}/${overridePath}` : `${siteUrl}/${locale}`;
 
-  // Clean title to prevent double branding like "Title | K-Aqua · K-Aqua"
-  let cleanTitle = title.replace(/\s*?[|·-]\s*?K-Aqua(.*)?$/i, "").trim();
-  // Remove leading K-Aqua if it's there
-  cleanTitle = cleanTitle.replace(/^K-Aqua\s*?[|·-]\s*?/i, "").trim();
+  /* Doppelte Markennennung verhindern („Titel | K-Aqua · K-Aqua").
+     Das Muster erlaubt Bindestrich, Leerzeichen oder gar nichts zwischen „K"
+     und „Aqua": In messages/ steht die Marke in allen drei Schreibweisen.
+     Vorher verlangte es den Bindestrich, und der Titel der Downloadseite
+     („Downloads | K Aqua") rutschte durch — im Suchergebnis stand
+     „Downloads | K Aqua | K-Aqua". */
+  const MARKE = /K[\s-]?Aqua/i;
+  let cleanTitle = title.replace(/\s*?[|·-]\s*?K[\s-]?Aqua(.*)?$/i, "").trim();
+  // Marke am Anfang ebenso entfernen
+  cleanTitle = cleanTitle.replace(/^K[\s-]?Aqua\s*?[|·-]\s*?/i, "").trim();
   
   // SEO optimization: Pad very short titles (Trust Center, Sitemap, Support)
   if (cleanTitle === "Sitemap" || cleanTitle === "خريطة الموقع") {
@@ -109,8 +115,8 @@ export function constructMetadata({
   if (cleanPath === "" || cleanTitle === "K-Aqua" || cleanTitle === "Home") {
      finalTitle = locale === 'de' ? `K-Aqua PP-R & PP-RCT Rohrsysteme` : locale === 'ar' ? `K-Aqua أنظمة أنابيب PP-R و PP-RCT` : `K-Aqua PP-R & PP-RCT Piping Systems`;
   } else {
-      const lowerTitle = finalTitle.toLowerCase();
-      const hasBrand = lowerTitle.includes("k-aqua") || lowerTitle.includes("kaqua");
+      // Dieselbe Toleranz wie oben: „K Aqua" ist die Marke, auch ohne Bindestrich.
+      const hasBrand = MARKE.test(finalTitle);
 
       // 65 statt 58. Google zeigt im Suchergebnis rund 600 px, was für deutschen
       // Fließsatz etwa 60–65 Zeichen entspricht; Seobility beanstandet erst

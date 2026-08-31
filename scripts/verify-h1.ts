@@ -5,6 +5,21 @@ import ts from 'typescript';
 const ROOT_DIR = process.cwd();
 const APP_LOCALE_DIR = path.join(ROOT_DIR, 'app', '[locale]');
 
+/**
+ * Komponenten, die per Vorgabe ein H1 rendern, ohne dass im Quelltext ein
+ * JSX-`h1` steht.
+ *
+ * `prop` nennt die Eigenschaft, mit der sich die Ebene herabstufen laesst.
+ * Steht dort etwas anderes als "h1", zaehlt das Vorkommen nicht.
+ *
+ * Waechst die Liste, ist das ein Hinweis: Eine Ueberschriftenebene, die man
+ * nur durch Lesen der Komponente erfaehrt, ist schwer zu pruefen. Neue
+ * Komponenten sollten `as="h1"` benutzen — das erkennt das Skript von selbst.
+ */
+const HEADING_COMPONENTS: Record<string, { prop: string }> = {
+  ParallaxHero: { prop: 'headingLevel' },
+};
+
 interface PageRouteResult {
   route: string;
   filePath: string;
@@ -101,6 +116,40 @@ function scanFileForH1(
         const lineAndChar = sourceFile.getLineAndCharacterOfPosition(node.getStart(sourceFile));
         const relPath = path.relative(ROOT_DIR, filePath);
         locations.push(`${relPath}:${lineAndChar.line + 1}:${lineAndChar.character + 1} (<${tagName}>)`);
+      } else if (HEADING_COMPONENTS[tagName]) {
+        /* Komponenten, die ihre Ueberschriftenebene ueber eine Variable
+           waehlen. `ParallaxHero` etwa baut
+             const HeadingComponent = headingLevel === "h2" ? motion.h2 : motion.h1
+           und rendert dann <HeadingComponent>. Weder der Tagname noch die
+           rekursive Suche im Bauteil trifft dabei auf ein JSX-`h1` — das
+           Skript meldete deshalb sechs Routen als „NONE FOUND", obwohl im
+           gebauten HTML jede davon genau ein H1 hat. Nachgemessen an
+           .next/server/app: 105 von 105 Seiten, alle mit einem H1.
+
+           Statt das Muster zu erraten, steht hier ausdruecklich, welche
+           Komponente per Vorgabe ein H1 liefert und welche Prop sie
+           herabstuft. */
+        const regel = HEADING_COMPONENTS[tagName]!;
+        let herabgestuft = false;
+        for (const attr of node.attributes.properties) {
+          if (
+            ts.isJsxAttribute(attr) &&
+            attr.name.getText(sourceFile) === regel.prop &&
+            attr.initializer &&
+            ts.isStringLiteral(attr.initializer) &&
+            attr.initializer.text !== 'h1'
+          ) {
+            herabgestuft = true;
+          }
+        }
+        if (!herabgestuft) {
+          count++;
+          const lineAndChar = sourceFile.getLineAndCharacterOfPosition(node.getStart(sourceFile));
+          const relPath = path.relative(ROOT_DIR, filePath);
+          locations.push(
+            `${relPath}:${lineAndChar.line + 1}:${lineAndChar.character + 1} (<${tagName}> rendert h1)`
+          );
+        }
       } else {
         // Component rendered with as="h1" attribute (e.g. <SectionHead as="h1" />)
         for (const attr of node.attributes.properties) {

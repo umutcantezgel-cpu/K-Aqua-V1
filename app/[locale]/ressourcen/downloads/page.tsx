@@ -33,12 +33,30 @@ import DocumentDownloads from '@/components/bim/DocumentDownloads';
 
 const PATH = '/ressourcen/downloads';
 
+/**
+ * Eigener Titel fuer das Suchergebnis.
+ *
+ * `resources.downloads.meta.title` lautete auf Deutsch „Downloads | K Aqua" —
+ * die Marke stand schon im Wert, geschrieben ohne Bindestrich. Genau diese
+ * Schreibweise rutschte durch die Bereinigungsregel in
+ * `lib/seo/metadata.ts`, sodass im Suchergebnis „Downloads | K Aqua | K-Aqua"
+ * stand. Die Regel ist jetzt tolerant, aber der Titel selbst war mit einem
+ * Wort ohnehin zu duenn: „Downloads" sagt nicht, was es zu laden gibt.
+ *
+ * Page-lokal wie in ressourcen/bim und ressourcen/technik.
+ */
+const META_TITEL: Record<string, string> = {
+  de: 'Downloads: Datenblätter, CAD-Daten & Zertifikate',
+  en: 'Downloads: Datasheets, CAD Data & Certificates',
+  ar: 'التنزيلات: صحائف البيانات وملفات CAD والشهادات',
+};
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'resources.downloads' });
   return constructMetadata({
-    title: t('meta.title'),
+    title: META_TITEL[locale] ?? META_TITEL.en!,
     description: t('meta.desc'),
     path: PATH,
     locale,
