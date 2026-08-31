@@ -83,7 +83,13 @@ export function ProductsDeep({ translations }: ProductsDeepProps) {
   const rows = tableForSdr(sdr).map((r) => [r.d, r.s, r.di, formatPN(r.pn, locale), r.water, r.weight]);
 
   return (
-    <div data-nosnippet="true">
+    /* Kein `data-nosnippet` mehr um diesen Baum.
+       Es umschloss ALLE fuenf Tiefenabschnitte: Rohrfamilien, Dimensions- und
+       Werkstofftabellen, Normen und die sieben FAQ-Paare. Das ist genau der
+       Inhalt, mit dem eine Produktuebersicht ranken soll, und er war damit
+       ausdruecklich von der Snippet-Nutzung ausgeschlossen — die FAQ sogar,
+       obwohl sie parallel als FAQPage ausgezeichnet wird. */
+    <div>
       {/* Rohrfamilien */}
       <section className="py-[clamp(64px,9vw,120px)]" data-screen-label="products-pipe-families">
         <div className="mx-auto max-w-[1200px] px-6">

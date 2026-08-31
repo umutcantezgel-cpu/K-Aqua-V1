@@ -8,8 +8,8 @@
 // geändert).
 // ANGEPASST: usePageL('catalogx')/useT() -> useTranslations('catalogx')/useLocale() (next-intl).
 // Strukturierte Werte (cats) über t.raw(), da next-intl t() nur Strings liefert (siehe
-// PROMPT.txt). window.K_REAL_CATALOG -> CATALOG/resolveCatalogHead()
-// aus lib/data/catalog.ts. Icons.ChevronDown -> benannter Import (Vorbedingung:
+// PROMPT.txt). window.K_REAL_CATALOG -> CATALOG aus lib/data/catalog.ts.
+// Icons.ChevronDown -> benannter Import (Vorbedingung:
 // components/ui/icon.tsx muss ChevronDown exportieren, siehe PROMPT.txt (Icon-Segment)).
 // Eigener State (Kategorie/Suche/offene Zeile) -> "use client".
 "use client";

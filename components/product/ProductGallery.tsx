@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { Box, Layers, Sparkles, ExternalLink, Camera } from 'lucide-react';
 import clsx from 'clsx';
 import { Link } from '@/lib/i18n/navigation';
+import { useTranslations } from 'next-intl';
 import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 import { CATALOG_TOTAL } from '@/lib/3d/slug-map.generated';
 
@@ -30,6 +31,13 @@ interface Props {
 }
 
 export default function ProductGallery({ category, slug, title, photos = [] }: Props) {
+  /* Die Beschriftungen dieser Galerie standen fest verdrahtet auf Deutsch —
+     „3D CAD Modell (360°)", „Produktfotos", „Technische Übersicht" — und
+     zwar auf allen 74 Produktseiten in allen Sprachen. Der `viewer3d`-
+     Namensraum wird von dieser Seite ohnehin geladen; die Schlüssel liegen
+     jetzt dort. Andere Sprachen als de/en/ar erben sie über den Merge in
+     lib/i18n/request.ts. */
+  const t = useTranslations('viewer3d');
   const hasPhotos = photos.length > 0;
   const [viewMode, setViewMode] = useState<'3d' | 'studio1'>('3d');
   const [selectedSize, setSelectedSize] = useState<number>(32);
@@ -53,7 +61,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
             )}
           >
             <Box className="w-4 h-4" />
-            <span>3D CAD Modell (360°)</span>
+            <span>{t('tab3d')}</span>
           </button>
           <button
             type="button"
@@ -67,9 +75,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
           >
             {hasPhotos ? <Camera className="w-4 h-4" /> : <Layers className="w-4 h-4" />}
             <span>
-              {hasPhotos
-                ? `Produktfotos (${photos.length})`
-                : 'Technische Übersicht'}
+              {hasPhotos ? t('tabPhotos', { count: photos.length }) : t('tabTechnical')}
             </span>
           </button>
         </div>
@@ -80,7 +86,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
             className="text-xs font-semibold text-primary hover:text-primary-strong flex items-center gap-1 transition-colors"
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Alle {CATALOG_TOTAL} Produkte im 3D Studio</span>
+            <span>{t('allInStudio', { count: CATALOG_TOTAL })}</span>
             <ExternalLink className="w-3 h-3 opacity-60" />
           </Link>
         </div>
@@ -184,7 +190,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-xs font-bold shadow-diffuse hover:bg-primary/90 transition-all cursor-pointer"
                   >
                     <Box className="w-4 h-4" />
-                    <span>Interaktives 3D-Modell öffnen</span>
+                    <span>{t('openInteractive')}</span>
                   </button>
                 </div>
               )}

@@ -10,7 +10,7 @@ import React from "react";
 import clsx from "clsx";
 
 export interface DeepMatrixProps {
-  /** Column headers. Pass already-localized strings (e.g. via resolveCatalogHead). */
+  /** Column headers. Pass already-localized strings. */
   head?: React.ReactNode[];
   rows?: Array<Array<React.ReactNode>>;
   data?: Array<Array<React.ReactNode>>;

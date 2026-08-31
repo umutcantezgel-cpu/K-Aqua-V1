@@ -95,10 +95,13 @@ export const CATALOG_COL_LABELS: Record<CatalogLocale, Record<string, string>> =
   }
 };
 
-export function resolveCatalogHead(head: string[], locale: 'de' | 'en' | 'ar'): string[] {
-  const L = CATALOG_COL_LABELS[locale] || CATALOG_COL_LABELS.en;
-  return head.map((h) => (h[0] === '#' ? (L[h.slice(1)] || h) : h));
-}
+/* `resolveCatalogHead(head, locale)` stand hier und loeste die `#`-Tokens der
+   head-Arrays in lokalisierte Spaltenkoepfe auf. Sie hatte im gesamten Repo
+   keinen einzigen Aufrufer — nur zwei Kommentare erwaehnten sie noch.
+
+   Wer die Spaltenkoepfe lokalisieren will, findet die Zuordnung weiterhin in
+   CATALOG_COL_LABELS darueber; die Artikeltabellen der Produktseiten kommen
+   allerdings aus den Markdown-Dateien, nicht aus diesen head-Arrays. */
 
 export const CATALOG: CatalogCategory[] = [
   {

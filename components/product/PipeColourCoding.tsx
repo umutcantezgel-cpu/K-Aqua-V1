@@ -63,6 +63,16 @@ export default function PipeColourCoding({ locale }: { locale: string }) {
   const l: Lang = locale.startsWith('de') ? 'de' : locale.startsWith('ar') ? 'ar' : 'en';
   const cols = COL[l];
 
+  /* Bewusst nur Rohre.
+     Ein `colour`-Feld tragen 42 Produkte: 13 Rohre, 16 Fittings und 13
+     Uebergangsstuecke. Naheliegend waere, alle zu zeigen — nachgesehen lohnt
+     es nicht: Bei den Fittings steht sechzehnmal schlicht „green". Eine
+     Tabelle mit sechzehn gleichen Zeilen ist Rauschen, keine Auskunft, und
+     die Ueberschrift dieses Abschnitts spricht ausdruecklich von Rohrtypen.
+     Bei den Rohren dagegen kodiert die Farbe die Baureihe — dort traegt sie
+     Information. Die Uebergangsstuecke waeren der einzige lohnende Zusatz
+     („green (PP-R) with brass threaded insert"); das gehoert dann aber auf
+     deren eigene Kategorieseite, nicht hierher. */
   const pipes = getProductsByCategory('pipes')
     .filter((p) => typeof p.colour === 'string' && p.colour.trim().length > 0)
     .sort((a, b) => String(a.title).localeCompare(String(b.title)));
