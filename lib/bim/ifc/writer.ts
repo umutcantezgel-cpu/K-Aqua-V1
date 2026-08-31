@@ -993,7 +993,7 @@ function writeQuantities(
 
   if (shape.kind === 'sweptDisk') {
     quantities.push(
-      b.add('IFCQUANTITYLENGTH', 'Length', 'Stangenlänge laut Katalog', null, real(shape.length), null),
+      b.add('IFCQUANTITYLENGTH', 'Length', 'Lieferlänge laut Katalog', null, real(shape.length), null),
     );
     if (record.massPerMetreKg !== null) {
       quantities.push(

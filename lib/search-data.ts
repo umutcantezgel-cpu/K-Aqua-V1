@@ -31,6 +31,101 @@ export const SEARCH_INDEX: SearchEntry[] = [
   // =========================================================================
   // 1. PIPES & ROHRSYSTEME
   // =========================================================================
+  /* Die vier folgenden Rohre fehlten im Suchindex: er fuehrte neun von
+     dreizehn. Wer nach „K-Pipe SDR 11" oder einer AQ111P-Nummer suchte, fand
+     das meistverkaufte Rohr des Sortiments nicht. */
+  {
+    id: 'prod_pipe_k_pipe_r_sdr11',
+    category: 'products',
+    title: {
+      de: 'K-Pipe PP-R SDR 11 (Standardrohr)',
+      en: 'K-Pipe PP-R SDR 11 (Standard Pipe)',
+      ar: 'أنبوب K-Pipe PP-R SDR 11 (الأنبوب القياسي)',
+    },
+    description: {
+      de: 'Duennwandiges PP-R Druckrohr fuer niedrigere Betriebsdruecke — mehr Durchfluss bei gleichem Aussendurchmesser. Groesster Nennweitenbereich im Sortiment, bis d500.',
+      en: 'Thin-walled PP-R pressure pipe for lower operating pressures — more flow at the same outside diameter. Widest dimension range in the programme, up to d500.',
+      ar: 'أنبوب ضغط PP-R رفيع الجدار لضغوط تشغيل أقل — تدفق أكبر بنفس القطر الخارجي. أوسع نطاق أقطار في البرنامج حتى d500.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > PP-R SDR 11', en: 'K-Aqua > Products > Pipes > PP-R SDR 11', ar: 'K-Aqua > المنتجات > الأنابيب > PP-R SDR 11' },
+    },
+    keywords: ['pp-r', 'sdr 11', 's 5', 'standardrohr', 'k-pipe', 'rohr', 'pipe', 'trinkwasser', 'd500', 'grosse dimension', 'aq111p'],
+    href: '/produkte/pipes/k-pipe-pp-r-sdr-11',
+    badge: { de: 'PP-R SDR 11', en: 'PP-R SDR 11', ar: 'PP-R SDR 11' },
+    specs: ['PP-R', 'SDR 11 / S 5', 'd20 – d500 mm', '1,2 MPa bei 20 °C / 0,6 MPa bei 60 °C', 'Lieferlänge 4 m', 'DIN 8077/8078', 'DIN EN ISO 15874'],
+    articleCodes: ['AQ111P20', 'AQ111P25', 'AQ111P32', 'AQ111P40', 'AQ111P50', 'AQ111P63', 'AQ111P75', 'AQ111P90', 'AQ111P110', 'AQ111P125', 'AQ111P160', 'AQ111P200', 'AQ111P250', 'AQ111P315', 'AQ111P355', 'AQ111P400', 'AQ111P450', 'AQ111P500'],
+  },
+  {
+    id: 'prod_pipe_k_pipe_rct_sdr74',
+    category: 'products',
+    title: {
+      de: 'K-Pipe PP-RCT SDR 7.4 (Vollkunststoff)',
+      en: 'K-Pipe PP-RCT SDR 7.4 (Monolayer)',
+      ar: 'أنبوب K-Pipe PP-RCT SDR 7.4 (بوليمر كامل)',
+    },
+    description: {
+      de: 'Einschichtiges PP-RCT Rohr mit modifizierter Kristallstruktur: hoehere Druckfestigkeit bei hohen Temperaturen als PP-R, ohne Faserverbund. Fuer Warmwasser und Heizung bis d315.',
+      en: 'Single-layer PP-RCT pipe with modified crystalline structure: higher pressure rating at elevated temperatures than PP-R, without a fibre core. For hot water and heating up to d315.',
+      ar: 'أنبوب PP-RCT أحادي الطبقة ببنية بلورية معدلة: مقاومة ضغط أعلى عند الحرارة المرتفعة من PP-R دون قلب ليفي. للمياه الساخنة والتدفئة حتى d315.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > PP-RCT SDR 7.4', en: 'K-Aqua > Products > Pipes > PP-RCT SDR 7.4', ar: 'K-Aqua > المنتجات > الأنابيب > PP-RCT SDR 7.4' },
+    },
+    keywords: ['pp-rct', 'sdr 7.4', 's 3.2', 'vollkunststoff', 'monolayer', 'k-pipe', 'warmwasser', 'heizung', 'rohr', 'pipe', 'aq200'],
+    href: '/produkte/pipes/k-pipe-pp-rct-sdr-74',
+    badge: { de: 'PP-RCT', en: 'PP-RCT', ar: 'PP-RCT' },
+    specs: ['PP-RCT', 'SDR 7.4 / S 3.2', 'd20 – d315 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 70 °C', 'Lieferlänge 4 m', 'DIN 8077/8078', 'DIN EN ISO 15874'],
+    articleCodes: ['AQ20020', 'AQ20025', 'AQ20032', 'AQ20040', 'AQ20050', 'AQ20063', 'AQ20075', 'AQ20090', 'AQ200110', 'AQ200125', 'AQ200160', 'AQ200200', 'AQ200250', 'AQ200315'],
+  },
+  {
+    id: 'prod_pipe_k_fiber_uv_r_sdr74',
+    category: 'products',
+    title: {
+      de: 'K-Fiber UV Pipe PP-R SDR 7.4 (UV-stabilisiert)',
+      en: 'K-Fiber UV Pipe PP-R SDR 7.4 (UV-stabilised)',
+      ar: 'أنبوب K-Fiber UV PP-R SDR 7.4 (مقاوم للأشعة فوق البنفسجية)',
+    },
+    description: {
+      de: 'Faserverbundrohr mit schwarzer UV-Schutzschicht fuer die Verlegung im Freien — ohne zusaetzliche Umhuellung oder Anstrich. Gleiche Wandaufbau-Kennwerte wie das gruene SDR 7.4.',
+      en: 'Fibre composite pipe with a black UV-protective outer layer for outdoor installation — no additional sheathing or coating required. Same wall structure as the green SDR 7.4.',
+      ar: 'أنبوب مركب بالألياف مع طبقة خارجية سوداء واقية من الأشعة فوق البنفسجية للتمديد الخارجي دون غلاف إضافي.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > UV PP-R SDR 7.4', en: 'K-Aqua > Products > Pipes > UV PP-R SDR 7.4', ar: 'K-Aqua > المنتجات > الأنابيب > UV PP-R SDR 7.4' },
+    },
+    keywords: ['uv', 'uv-bestaendig', 'aussenverlegung', 'freileitung', 'pp-r', 'faserverbund', 'sdr 7.4', 'schwarz', 'rohr', 'pipe', 'aq200pfuv'],
+    href: '/produkte/pipes/k-fiber-uv-pipe-pp-r-sdr-74',
+    badge: { de: 'UV-stabilisiert', en: 'UV-stabilised', ar: 'مقاوم للأشعة' },
+    specs: ['PP-R GF + UV-Schicht', 'SDR 7.4 / S 3.2', 'd20 – d160 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 60 °C', 'Lieferlänge 4 m', 'DIN EN ISO 15874'],
+    articleCodes: ['AQ200PFUV20', 'AQ200PFUV25', 'AQ200PFUV32', 'AQ200PFUV40', 'AQ200PFUV50', 'AQ200PFUV63', 'AQ200PFUV75', 'AQ200PFUV90', 'AQ200PFUV110', 'AQ200PFUV125', 'AQ200PFUV160'],
+  },
+  {
+    id: 'prod_pipe_k_fiber_r_sdr6',
+    category: 'products',
+    title: {
+      de: 'K-Fiber Pipe PP-R SDR 6 (hoechste Druckstufe)',
+      en: 'K-Fiber Pipe PP-R SDR 6 (highest pressure class)',
+      ar: 'أنبوب K-Fiber PP-R SDR 6 (أعلى فئة ضغط)',
+    },
+    description: {
+      de: 'Dickwandigstes Faserverbundrohr im Programm (S 2.5). Fuer Steigstraenge und Verteilungen mit hoher Dauerbelastung, wo Wandstaerke vor Durchfluss geht.',
+      en: 'Thickest-walled fibre composite pipe in the programme (S 2.5). For risers and distribution runs under high sustained load, where wall thickness matters more than flow.',
+      ar: 'أنبوب مركب بالألياف بأسمك جدار في البرنامج (S 2.5). للأعمدة الصاعدة والتوزيعات تحت حمل مستمر عالٍ.',
+    },
+    origin: {
+      section: { de: 'Rohrsysteme', en: 'Piping Systems', ar: 'أنظمة الأنابيب' },
+      path: { de: 'K-Aqua > Produkte > Rohre > PP-R SDR 6', en: 'K-Aqua > Products > Pipes > PP-R SDR 6', ar: 'K-Aqua > المنتجات > الأنابيب > PP-R SDR 6' },
+    },
+    keywords: ['pp-r', 'sdr 6', 's 2.5', 'faserverbund', 'k-fiber', 'steigstrang', 'hochdruck', 'dickwandig', 'rohr', 'pipe', 'aq206pf', 'aq258pf'],
+    href: '/produkte/pipes/k-fiber-pipe-pp-r-sdr-6',
+    badge: { de: 'PP-R Faser SDR 6', en: 'PP-R Fibre SDR 6', ar: 'ألياف PP-R SDR 6' },
+    specs: ['PP-R + Glasfaser', 'SDR 6 / S 2.5', 'd20 – d125 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 70 °C', 'Lieferlänge 4 m', 'DIN 8077/8078', 'DIN EN ISO 15874'],
+    articleCodes: ['AQ206PF20', 'AQ206PF25', 'AQ206PF32', 'AQ206PF40', 'AQ206PF50', 'AQ206PF63', 'AQ206PF75', 'AQ206PF90', 'AQ206PF110', 'AQ206PF125'],
+  },
   {
     id: 'prod_pipe_k_fiber_rct_sdr74',
     category: 'products',
@@ -52,7 +147,7 @@ export const SEARCH_INDEX: SearchEntry[] = [
     href: '/produkte/pipes',
     anchorId: 'pipes-rct-74',
     badge: { de: 'PP-RCT Faser', en: 'PP-RCT Fiber', ar: 'ألياف PP-RCT' },
-    specs: ['PP-RCT + Glasfaser', 'SDR 7.4 / S 3.2', 'd20 – d315 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 70 °C', 'Stangenlänge 4 m', 'DIN 8077/8078', 'DIN EN ISO 15874'],
+    specs: ['PP-RCT + Glasfaser', 'SDR 7.4 / S 3.2', 'd20 – d315 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 70 °C', 'Lieferlänge 4 m', 'DIN 8077/8078', 'DIN EN ISO 15874'],
     articleCodes: ['AQ200F20', 'AQ200F25', 'AQ200F32', 'AQ200F40', 'AQ200F50', 'AQ200F63', 'AQ200F75', 'AQ200F90', 'AQ200F110', 'AQ200F125', 'AQ200F160', 'AQ200F200', 'AQ200F250', 'AQ200F315'],
   },
   {
@@ -75,7 +170,7 @@ export const SEARCH_INDEX: SearchEntry[] = [
     keywords: ['clima', 'klima', 'kaltwasser', 'chilled water', 'sdr 11', 'pp-rct', 'durchfluss', 'hvac', 'kühldecke', 'aq160f'],
     href: '/produkte/pipes',
     badge: { de: 'Klima & Kühlung', en: 'HVAC & Chilled', ar: 'تكييف وتبريد' },
-    specs: ['PP-RCT + Faser', 'SDR 11 / S 5', 'd20 – d500 mm', '1,6 MPa bei 20 °C / 0,8 MPa bei 70 °C', 'Stangenlänge 4 m', 'DIN EN ISO 15874'],
+    specs: ['PP-RCT + Faser', 'SDR 11 / S 5', 'd20 – d500 mm', '1,6 MPa bei 20 °C / 0,8 MPa bei 70 °C', 'Lieferlänge 4 m', 'DIN EN ISO 15874'],
     articleCodes: ['AQ160F20', 'AQ160F25', 'AQ160F32', 'AQ160F40', 'AQ160F50', 'AQ160F63', 'AQ160F75', 'AQ160F90', 'AQ160F110', 'AQ160F125', 'AQ160F160', 'AQ160F200', 'AQ160F250', 'AQ160F315', 'AQ160F355', 'AQ160F400', 'AQ160F450', 'AQ160F500'],
   },
   {
@@ -121,7 +216,7 @@ export const SEARCH_INDEX: SearchEntry[] = [
     keywords: ['pp-r', 'faserverbund', 'fiber pipe', 'sdr 7.4', 'glasfaser', 'warmwasser', 'heizung', 'rohr', 'pipe', 'aq207pf', 'aq258pf'],
     href: '/produkte/pipes',
     badge: { de: 'PP-R Faser', en: 'PP-R Fiber', ar: 'ألياف PP-R' },
-    specs: ['PP-R + Glasfaser', 'SDR 7.4 / S 3.2', 'd20 – d315 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 60 °C', 'Stangenlänge 4 m', 'DIN 8077/8078'],
+    specs: ['PP-R + Glasfaser', 'SDR 7.4 / S 3.2', 'd20 – d315 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 60 °C', 'Lieferlänge 4 m', 'DIN 8077/8078'],
     articleCodes: ['AQ207PF20', 'AQ207PF25', 'AQ207PF32', 'AQ207PF40', 'AQ207PF50', 'AQ207PF63', 'AQ207PF75', 'AQ207PF90', 'AQ207PF110', 'AQ207PF125', 'AQ207PF160', 'AQ207PF200', 'AQ207PF250', 'AQ207PF315'],
   },
   {
@@ -213,7 +308,7 @@ export const SEARCH_INDEX: SearchEntry[] = [
     keywords: ['k-pipe', 'sdr 6', 'vollwand', 'trinkwasser', 'sanitär', 'kaltwasser', 'druckfest', 'aq200p', 'aq258p'],
     href: '/produkte/pipes',
     badge: { de: 'Vollwand SDR 6', en: 'Solid Wall SDR 6', ar: 'جدار صلب SDR 6' },
-    specs: ['PP-R', 'SDR 6 / S 2.5', 'd20 – d125 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 70 °C', 'Stangenlänge 4 m', 'DIN 8077/8078'],
+    specs: ['PP-R', 'SDR 6 / S 2.5', 'd20 – d125 mm', '2,0 MPa bei 20 °C / 1,0 MPa bei 70 °C', 'Lieferlänge 4 m', 'DIN 8077/8078'],
     articleCodes: ['AQ200P20', 'AQ200P25', 'AQ200P32', 'AQ200P40', 'AQ200P50', 'AQ200P63', 'AQ200P75', 'AQ200P90', 'AQ200P110', 'AQ200P125'],
   },
   {

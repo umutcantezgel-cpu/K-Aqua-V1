@@ -167,10 +167,12 @@ interface LoadedProduct {
  *
  * Diese Zeilen sind der Katalogtext in der verifizierten Quelldatei — und
  * damit die bessere Quelle als `lib/data/catalog.ts`, das eine abgeleitete
- * Zweitfassung ist und dem ein Produkt fehlt: `k-fiber-pipe-pp-r-sdr-6` steht
- * mit zehn Artikeln in content/products, hat aber keinen Katalogeintrag.
- * Wer sich allein auf catalog.ts stuetzt, liefert diese zehn Artikel ohne
- * Reihe, ohne Druckstufe und ohne Stangenlaenge aus.
+ * Zweitfassung ist.
+ *
+ * NACHTRAG 31.08.2026: Die frueher hier vermerkte Luecke ist geschlossen —
+ * `k-fiber-pipe-pp-r-sdr-6` steht jetzt auch in catalog.ts (13 statt 12
+ * Rohre). Der Vorrang der Markdown-Quelle bleibt trotzdem richtig: sie ist
+ * die verifizierte Fassung, catalog.ts die abgeleitete.
  */
 interface ProductSpec {
   /** S-Reihe, z. B. „S 5". */

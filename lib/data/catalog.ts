@@ -103,7 +103,7 @@ export function resolveCatalogHead(head: string[], locale: 'de' | 'en' | 'ar'): 
 export const CATALOG: CatalogCategory[] = [
   {
     id: "pipes",
-    count: 12,
+    count: 13,
     items: [
       {
         slug: "k-pipe-pp-r-sdr-6",
@@ -275,6 +275,37 @@ export const CATALOG: CatalogCategory[] = [
           [400, "-", 327.40, 36.3, 4, 40.31, 84.14],
           [450, 350, 368.20, 40.9, 4, 49.96, 106.28],
           [500, 400, 409.20, 45.4, 4, 61.49, 131.32]
+        ]
+      },
+      {
+        /* Dieses Rohr fehlte im Web-Katalog, obwohl es als Produktseite und
+           als 3D-Modell existiert — in lib/bim/product.ts:167-173 war die
+           Luecke ausdruecklich vermerkt. Folge: keine Lieferlaenge, kein
+           Sonderlaengen-Hinweis, kein Eintrag in der Kategorieuebersicht.
+           Werte aus content/products/pipes/k-fiber-pipe-pp-r-sdr-6.md
+           (Katalog 06-2025, S. 79). */
+        slug: "k-fiber-pipe-pp-r-sdr-6",
+        title: "K-Fiber Pipe PP-R SDR 6",
+        codes: "AQ206PF20–AQ206PF125",
+        material: "PP-R GF",
+        sdr: 6,
+        series: "S 2.5",
+        pressure: "20°C / 2.0 MPa · 70°C / 1.0 MPa",
+        len: "4 m",
+        /* Sternchen in der Codespalte der Quelle: nur d20 bis d63. */
+        lenNote: "d20–d63 auf Anfrage auch in 5,80 m (Artikelnummer AQ258PF + Dimension).",
+        head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
+        rows: [
+          [20, 12, 13.2, 3.4, 100, 0.18, 0.14],
+          [25, 15, 16.6, 4.2, 100, 0.28, 0.22],
+          [32, 20, 21.2, 5.4, 60, 0.46, 0.35],
+          [40, 25, 26.6, 6.7, 40, 0.68, 0.56],
+          [50, 32, 33.2, 8.3, 20, 1.09, 0.87],
+          [63, 40, 42.0, 10.5, 20, 1.60, 1.39],
+          [75, 50, 50.0, 12.5, 12, 2.50, 1.96],
+          [90, "-", 60.0, 15.0, 8, 3.30, 2.83],
+          [110, 65, 73.2, 18.3, 4, 5.00, 4.21],
+          [125, 80, 83.2, 20.8, 4, 6.50, 5.46]
         ]
       },
       {
