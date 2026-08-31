@@ -11,7 +11,7 @@ import * as THREE from 'three';
 import { createAssembly } from '../../core/index.js';
 import { ARTICLES, SIZES, DIMENSION_KEY, DATA_STATUS, LAYERS, STRIPES, SDR } from './data.js';
 import { params } from './params.js';
-import { buildTube, buildStripe, mitFarbvariante, ROHR_VARIANTEN } from './parts.js';
+import { buildTube, buildStripe, buildPrintBand, druckzeile, mitFarbvariante, ROHR_VARIANTEN } from './parts.js';
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
@@ -44,13 +44,14 @@ const product = {
   build(size, variant, clipPlane) {
     const P = params(size);
     const LAGEN = mitFarbvariante(LAYERS, variant);
-    const matKeys = [...new Set([...LAGEN.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
+    const matKeys = [...new Set([...LAGEN.map((l) => l.key), ...STRIPES.map((s) => s.key), 'pprPrint'])];
     const A = createAssembly({
       name: 'K-Aqua_Rohr_d' + size,
       materials: matKeys,
       seed: 71,
       // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
       emboss: false,
+      printText: druckzeile(product.brandLine, size),
       clipPlane,
     });
 
@@ -80,6 +81,15 @@ const product = {
         explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
         noExplodeEntry: false,
       });
+    });
+
+    /* Aufdruck statt Prägung — Rohre werden extrudiert. */
+    A.part('print', {
+      name: 'Aufdruck',
+      label: 'Kennzeichnung (Aufdruck)',
+      mat: 'pprPrint',
+      geo: buildPrintBand(P).geo,
+      explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
     });
 
     A.light(V3(-P.xEnd * 0.7, 0, 0));

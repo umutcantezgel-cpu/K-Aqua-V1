@@ -21,7 +21,12 @@ export function createAssembly(opt = {}) {
   /* `emboss: false` schaltet die Prägeschrift ab. Rohre nutzen das: sie
      werden extrudiert, nicht spritzgegossen — ihre Kennzeichnung ist am
      realen Produkt aufgedruckt, keine Erhebung. */
-  const M = materials(opt.materials || ['pprGreen'], opt.seed ?? 17, { emboss: opt.emboss });
+  const M = materials(opt.materials || ['pprGreen'], opt.seed ?? 17, {
+    emboss: opt.emboss,
+    /* Der Aufdrucktext kommt vom Produkt — Nennweite und Reihe stehen darauf,
+       und die kennt nur das Produktpaket. */
+    printText: opt.printText,
+  });
   let plane = opt.clipPlane || null;
   const root = new THREE.Group();
   root.name = opt.name || 'kaqua_part';

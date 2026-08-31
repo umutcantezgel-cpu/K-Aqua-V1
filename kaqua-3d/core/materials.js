@@ -119,6 +119,14 @@ export const MAT = {
     clearcoat: 0.18, clearcoatRoughness: 0.55,
     envMapIntensity: 0.8, noise: true, wear: 0.35,
   },
+  /* Aufdruck auf Rohren. Kein Werkstoff, sondern Druckfarbe: matt, ohne
+     Klarlack, mit Alphakanal — sichtbar ist nur, wo Schrift steht. Die
+     Grundfarbe ist weiss und wird von der Textur eingefaerbt; damit bleibt
+     der Aufdruck hell, unabhaengig von der Rohrfarbe. */
+  pprPrint: {
+    color: '#FFFFFF', roughness: 0.62, metalness: 0,
+    clearcoat: 0, envMapIntensity: 0.7, print: true,
+  },
   brass:  { color: '#C9A227', roughness: 0.3,  metalness: 1, envMapIntensity: 1.4 },
   chrome: { color: '#E8EAED', roughness: 0.06, metalness: 1, envMapIntensity: 1.6 },
   steel:  { color: '#9AA0A6', roughness: 0.34, metalness: 0.85, envMapIntensity: 1.2 },
@@ -303,6 +311,78 @@ export function embossTexture(text = PRAEGE_TEXT, opt = {}) {
   return t;
 }
 
+/* ── Aufdruck ──
+
+   Rohre werden EXTRUDIERT, nicht spritzgegossen. Ihre Kennzeichnung ist am
+   realen Produkt deshalb kein Relief, sondern eine aufgedruckte Zeile: eine
+   schmale Spur entlang der Rohrachse mit Hersteller, Werkstoff, Nennweite,
+   Druckstufe. Die Prägung oben ist die richtige Antwort für Formteile und
+   die falsche für Rohre.
+
+   Aufdruck ist Farbe, nicht Höhe — eine Normalmap wie bei der Prägung hilft
+   hier also nicht. Stattdessen eine Albedo-Textur mit Alphakanal auf einem
+   eigenen, sehr schmalen Band. Dass es ein eigenes Bauteil ist, ist der
+   Punkt: Der Aufdruck bleibt hell, egal ob das Rohr grün, blau, curry oder
+   mocca ist. Genau so verhält sich echte Druckfarbe.
+
+   AUSRICHTUNG: `revolve` bildet u = θ/2π ab und v als Bogenlänge entlang des
+   Profils. Beim Band läuft das Profil über die ganze Rohrlänge, θ nur über
+   die schmale Bandbreite. In der Textur ist also v die Längsrichtung und u
+   die Breite — die Schrift muss dafür um 90° gedreht gezeichnet werden. */
+export function printTexture(text, opt = {}) {
+  /* Wie bei der Prägung: ohne brauchbares Canvas keine Textur und KEIN
+     Fehler. Die Modelle werden auch serverseitig gebaut (lib/bim/model3d.ts),
+     und dort darf eine Oberflächenzier niemals das Bauteil kosten. */
+  if (typeof document === 'undefined' || typeof document.createElement !== 'function') return null;
+
+  /* Hochkant: W ist die Bandbreite, H die Rohrlänge. */
+  const W = opt.width ?? 128;
+  const H = opt.height ?? 2048;
+  const c = document.createElement('canvas');
+  c.width = W;
+  c.height = H;
+  const ctx = c.getContext('2d');
+  if (!ctx || typeof ctx.fillText !== 'function') return null;
+
+  ctx.clearRect(0, 0, W, H);
+  ctx.save();
+  /* Ursprung in die Bandmitte, dann um 90° drehen: danach läuft die
+     Schreibrichtung entlang der Rohrachse. */
+  ctx.translate(W / 2, H / 2);
+  ctx.rotate(-Math.PI / 2);
+  ctx.fillStyle = opt.color ?? 'rgba(255,255,255,0.92)';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.font = `600 ${opt.fontPx ?? 44}px Inter, "Helvetica Neue", Arial, sans-serif`;
+  ctx.letterSpacing = '2px';
+
+  /* Die Zeile wiederholt sich über die Länge, so wie eine Druckwalze sie im
+     laufenden Strang immer wieder aufbringt — aber nur so oft, wie sie
+     WIRKLICH hineinpasst.
+
+     Eine feste Zahl von Wiederholungen war der erste Versuch und sichtbar
+     falsch: Bei 2048 px Länge und rund 1300 px Textbreite legten sich drei
+     Durchläufe übereinander und ergaben Buchstabensalat. Die Zahl kommt
+     deshalb aus der gemessenen Breite plus einem Zwischenraum von einer
+     halben Textlänge. Passt nicht einmal ein Durchlauf, steht er einmal
+     mittig — eine abgeschnittene Kennzeichnung ist immer noch lesbarer als
+     zwei ineinander gesetzte. */
+  const breite = ctx.measureText(text).width || H;
+  const abstand = breite * 1.5;
+  const wdh = Math.max(1, Math.floor(H / abstand));
+  for (let i = 0; i < wdh; i++) {
+    const y = -H / 2 + (H / wdh) * (i + 0.5);
+    ctx.fillText(text, y, 0);
+  }
+  ctx.restore();
+
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.ClampToEdgeWrapping;
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 4;
+  return t;
+}
+
 /* Kantenverschleiß: an Fasen und Riffelkanten Roughness absenken
    (Politur durch Handhabung) — Maske kommt als aWear-Attribut aus
    der Geometrie. Meshes ohne das Attribut lesen 0. */
@@ -326,7 +406,7 @@ export function patchWear(mat, amount = 0.42) {
   return mat;
 }
 
-function build(key, recipe, tex, emboss) {
+function build(key, recipe, tex, emboss, print) {
   const p = {
     name: key,
     color: new THREE.Color(recipe.color),
@@ -352,6 +432,16 @@ function build(key, recipe, tex, emboss) {
     p.normalMap = emboss;
     p.normalScale = new THREE.Vector2(0.4, 0.4);
   }
+  /* Aufdruck: Die Textur traegt den Alphakanal, sichtbar ist nur die
+     Schrift. `depthWrite: false` verhindert, dass das dicht ueber dem
+     Rohrmantel liegende Band sich selbst in den Tiefenpuffer schreibt und
+     dabei mit der Mantelflaeche flackert. */
+  if (print) {
+    p.map = print;
+    p.transparent = true;
+    p.alphaTest = 0.06;
+    p.depthWrite = false;
+  }
   const m = new THREE.MeshPhysicalMaterial(p);
   return recipe.wear ? patchWear(m, recipe.wear) : m;
 }
@@ -372,16 +462,23 @@ export function materials(keys, seed = 17, opt = {}) {
   const praegen = opt.emboss !== false && keys.some((k) => MAT[k] && MAT[k].emboss);
   const tE = praegen ? embossTexture(opt.embossText) : null;
 
-  const M = { _all: [], _tex: [tA, tB, tE].filter(Boolean), caps: {} };
+  /* Der Aufdruck braucht seinen Text vom Produkt — Nennweite und Reihe
+     stehen darauf. Ohne `printText` bleibt das Band leer; dann ist es
+     besser, gar keinen Aufdruck zu zeigen als einen erfundenen. */
+  const drucken = keys.some((k) => MAT[k] && MAT[k].print) && !!opt.printText;
+  const tP = drucken ? printTexture(opt.printText) : null;
+
+  const M = { _all: [], _tex: [tA, tB, tE, tP].filter(Boolean), caps: {} };
 
   for (const key of keys) {
     const recipe = MAT[key];
     if (!recipe) throw new Error('K-Aqua: unbekannter Materialschlüssel "' + key + '"');
     const e = recipe.emboss ? tE : null;
-    M[key] = build(key, recipe, recipe.noise ? tA : null, e);
+    const d = recipe.print ? tP : null;
+    M[key] = build(key, recipe, recipe.noise ? tA : null, e, d);
     M._all.push(M[key]);
     if (recipe.noise) {
-      M[key + 'B'] = build(key + 'B', recipe, tB, e);
+      M[key + 'B'] = build(key + 'B', recipe, tB, e, d);
       M._all.push(M[key + 'B']);
     }
   }

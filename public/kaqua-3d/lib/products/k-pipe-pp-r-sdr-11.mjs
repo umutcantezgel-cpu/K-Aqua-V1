@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import {
-  D2R, ISO, buildProfile, createAssembly, materials, revolve, tubeLayers,
+  D2R, ISO, applyFillets, buildProfile, createAssembly, expandChamfers, materials, revolve, tubeLayers,
 } from '../kaqua-3d-core.mjs';
 
 /* == _pipe/params.js =================================================== */
@@ -121,6 +121,55 @@ const VARIANTEN_MATERIAL = {
  * sind — die Variante betrifft die Coextrusion außen, nicht den Wandaufbau.
  * Kennstreifen bleiben ebenfalls unberührt: sie kodieren die Baureihe.
  */
+/**
+ * Aufdruckband entlang der Rohrachse.
+ *
+ * Bauform wie der Kennstreifen, aber flach: Ein Aufdruck traegt nicht auf.
+ * Die 0,04 mm Abstand zur Mantelflaeche sind kein Relief, sondern der
+ * Mindestabstand, damit die beiden Flaechen nicht um denselben Tiefenwert
+ * streiten.
+ *
+ * Bewusst ein eigenes Bauteil und nicht Teil des Rohrkoerpers: So bleibt die
+ * Druckfarbe hell, egal welche Farbvariante das Rohr traegt — genau wie am
+ * echten Produkt. Kostet rund 500 Vertices je Rohr; das Budget in
+ * tests/unit/kaqua3d-geometry.test.ts hat davon reichlich.
+ */
+/**
+ * Die Kennzeichnungszeile, wie sie am realen Rohr steht.
+ *
+ * Sie wird aus `brandLine` des Produkts gebaut — dort steht Werkstoff, Reihe
+ * und SDR bereits in der Katalogschreibweise. Zwei Fassungen desselben Textes
+ * zu pflegen waere die sichere Art, sie auseinanderlaufen zu lassen.
+ *
+ * Die Mittelpunkte werden zu Leerraum: Auf einem Rohr steht kein
+ * typografischer Trenner, sondern schlicht Abstand.
+ */
+export function druckzeile(brandLine, size) {
+  return `${String(brandLine).replace(/\s*·\s*/g, '   ').toUpperCase()}   d${size}   MADE IN GERMANY`;
+}
+
+export function buildPrintBand(P, opt = {}) {
+  const lift = 0.04;
+  const widthDeg = opt.widthDeg ?? 26;
+  const half = (widthDeg / 2) * D2R;
+  const c = (opt.angleDeg ?? 150) * D2R;
+  const n = 12;
+  const thetas = [];
+  for (let i = 0; i <= n; i++) thetas.push(c - half + (2 * half * i) / n);
+
+  /* Offenes Profil: nur die Aussenhaut des Bandes. Ein geschlossenes haette
+     eine Rueckseite, die niemand sieht und die nur Dreiecke kostet. */
+  const profile = buildProfile(
+    [
+      { a: -P.xEnd * 0.94, r: P.rOut + lift, fillet: 0 },
+      { a: P.xEnd * 0.94, r: P.rOut + lift, fillet: 0 },
+    ],
+    { segs: 1, closed: false }
+  );
+
+  return { geo: revolve(profile, { axis: 'x', thetas }), cap: null, profile };
+}
+
 export function mitFarbvariante(layers, variant) {
   const key = VARIANTEN_MATERIAL[variant];
   if (!key || !layers.length || layers[0].key !== 'pprGreen') return layers;
@@ -139,11 +188,34 @@ export function buildStripe(P, stripe) {
   const thetas = [];
   for (let i = 0; i <= n; i++) thetas.push(c - half + (2 * half * i) / n);
 
+  /* ── ZWEI FEHLER, DIE SICH GEGENSEITIG VERSTECKT HABEN ──
+
+     1. Die Modulationsfunktion unten lief ins Leere. `revolve` rechnet
+        `r = p.r + m * (p.w || 0)` (core/geometry.js), und `buildProfile`
+        setzt jedem Punkt `w: 0`, sofern keiner mitgegeben wird. Hier wurde
+        keiner mitgegeben — `mod` war also seit jeher tote Rechnung, und der
+        Streifen stand als hart abgesetztes Baendchen auf dem Rohr statt an
+        den Raendern in den Mantel einzulaufen. Genau das Gegenteil dessen,
+        was der Kommentar oben beschreibt.
+
+        Die beiden AEUSSEREN Punkte bekommen deshalb `w: 1`: nur sie sollen
+        sich radial bewegen. Die inneren bleiben bei `w: 0` und damit stehen.
+        `expandChamfers` und `applyFillets` reichen `w` durch, der Wert
+        ueberlebt die Profilaufbereitung.
+
+     2. Der Rueckweg des geschlossenen Profils lag exakt auf `rOut` — also
+        koplanar mit der Rohrmantelflaeche darunter. Zwei Flaechen auf
+        derselben Ebene ergeben Z-Fighting: je nach Blickwinkel und
+        Tiefenpuffer flackert mal die eine, mal die andere durch. Die
+        Unterseite liegt jetzt knapp UNTER der Mantelflaeche und ist damit
+        sauber verdeckt. */
+  const sink = 0.05;
+
   const profile = buildProfile([
-    { a: -P.xEnd, r: P.rOut, fillet: 0 },
-    { a: -P.xEnd, r: P.rOut + rise, chamfer: 0.2 },
-    { a: P.xEnd, r: P.rOut + rise, chamfer: 0.2 },
-    { a: P.xEnd, r: P.rOut, fillet: 0 },
+    { a: -P.xEnd, r: P.rOut - sink, fillet: 0 },
+    { a: -P.xEnd, r: P.rOut + rise, chamfer: 0.2, w: 1 },
+    { a: P.xEnd, r: P.rOut + rise, chamfer: 0.2, w: 1 },
+    { a: P.xEnd, r: P.rOut - sink, fillet: 0 },
   ], { segs: 2 });
 
   const mod = (th) => {
@@ -271,13 +343,14 @@ const product = {
   build(size, variant, clipPlane) {
     const P = params(size);
     const LAGEN = mitFarbvariante(LAYERS, variant);
-    const matKeys = [...new Set([...LAGEN.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
+    const matKeys = [...new Set([...LAGEN.map((l) => l.key), ...STRIPES.map((s) => s.key), 'pprPrint'])];
     const A = createAssembly({
       name: 'K-Aqua_kaqua-k-pipe-pp-r-sdr-11' + '_d' + size,
       materials: matKeys,
       seed: 84,
       // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
       emboss: false,
+      printText: druckzeile(product.brandLine, size),
       clipPlane,
     });
 
@@ -305,6 +378,17 @@ const product = {
         geo: buildStripe(P, stripe).geo,
         explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
       });
+    });
+
+    /* Aufdruck. Am realen Rohr steht die Kennzeichnung als Druckzeile auf dem
+       Mantel — anders als an den Formteilen, wo sie als Praegung im Polymer
+       sitzt. Der Text kommt aus den Katalogdaten des Rohrs. */
+    A.part('print', {
+      name: 'Aufdruck',
+      label: 'Kennzeichnung (Aufdruck)',
+      mat: 'pprPrint',
+      geo: buildPrintBand(P).geo,
+      explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
     });
 
     A.light(V3(-P.xEnd * 0.7, 0, 0));
