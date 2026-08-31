@@ -46,30 +46,30 @@
     "edgePageIndex": "ページインデックス",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "配管システム",
+      "allProducts": "全製品",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "業種別アプリケーション",
+      "digitalTools": "デジタルツール",
+      "finderDesc": "最適なシステムを構成",
+      "co2Desc": "環境負荷を算出",
+      "academyDesc": "研修と認定証",
+      "trustDesc": "ダウンロードと認証",
+      "serviceDesc": "設計サポート",
+      "partnersDesc": "地域パートナーになる",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "会社概要",
+      "companyDesc": "ミッション・ビジョン・沿革",
+      "careerDesc": "採用情報と企業文化",
+      "newsPress": "ニュース＆プレス",
+      "newsDesc": "最新のプレスリリース",
+      "sitemap": "サイトマップ",
+      "sitemapDesc": "サイト構成の概要",
+      "globalFootprint": "グローバル展開",
+      "globalMarkets": "グローバル市場",
+      "marketsDesc": "認証取得地域",
+      "refProjects": "導入実績",
+      "refDesc": "施工実績のご紹介"
     }
   },
   "groups": {
@@ -295,7 +295,7 @@
     "privacy": "プライバシーポリシー",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
-    "address": "Auweg 3, 35647 Waldsolms, Germany",
+    "address": "Auweg 3, 35647 Waldsolms, ドイツ",
     "copyright": "© 2026 KWT GmbH.",
     "projectCta": "プロジェクトを依頼する",
     "badges": [
@@ -876,25 +876,25 @@
     "nextTitle": "あなたの計画はどれくらい気候に優しいですか？",
     "nextLead": "寸法と長さをCO₂計算ツールに直接渡し、銅、ステンレス鋼、PVCと比較してください。",
     "nextCta": "CO₂計算ツールへ",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "カテゴリー、製品名、品番から全製品ラインアップを検索できます。",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "パイプ",
+    "catFittings": "継手",
+    "catValves": "バルブ",
+    "catTools": "工具",
+    "catTransitionFittings": "変換継手",
+    "catAccessories": "アクセサリー",
+    "catWeldInSaddles": "高品質PP-R溶着サドル",
+    "category": "カテゴリー",
+    "search": "検索",
+    "searchPlaceholder": "品番または製品名...",
+    "foundFam": "件の製品ファミリーが見つかりました",
+    "catalogPdf": "カタログ（PDF）",
+    "colName": "製品名",
+    "colCat": "カテゴリー",
+    "colCodes": "品番",
+    "noResultsText": "検索条件に一致する製品が見つかりませんでした。別のキーワードをお試しいただくか、カテゴリーを変更してください。",
+    "resetFilters": "フィルターをリセット"
   },
   "trustAndCases": {
     "eyebrow": "認証された安全性",
@@ -964,8 +964,8 @@
     "certBtn": "PDFレポートを生成",
     "generating": "生成中...",
     "energyGreen": "グリーンエネルギー",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
+    "energyDe": "DEミックス",
+    "energyEu": "EUミックス",
     "energyGlobal": "グローバルミックス",
     "materials": {
       "kaqua": "K Aqua PPRCT",
@@ -1442,7 +1442,7 @@
     "category": {
       "allProducts": "すべての製品",
       "openInFinder": "Finderで開く",
-      "artNA": "Art. N/A",
+      "artNA": "品番 N/A",
       "viewDetails": "製品の詳細を表示",
       "learnMoreKnowledge": "専門知識ポータルでPP-R配管システムを発見する",
       "learnMoreDesc": "技術文書を深く掘り下げ、当社のPP-Rシステムの設置、持続可能性、およびテストに関する専門的な記事を見つけてください。",
@@ -2031,51 +2031,9 @@
         "lon": 8.5,
         "title": "ヴァルトゾルムス、ドイツ",
         "d": "本社工場＆開発：すべてのK Aquaパイプはここで生産されます。"
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "ドバイ、アラブ首長国連邦",
-        "d": "高層ビルの垂直配管：砂漠環境での温水用PPRCT。"
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "ワルシャワ、ポーランド",
-        "d": "新築住宅街：d20〜d110の完全な飲料水設備。"
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "イスタンブール、トルコ",
-        "d": "ホテル複合施設：繊維強化パイプを使用した循環ライン。"
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "シンガポール",
-        "d": "インフラプロジェクト：バット溶接プロセスによる最大d630までの大口径。"
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "ケープタウン、南アフリカ",
-        "d": "新築病院：衛生的な飲料水配管。"
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "ロンドン、イギリス",
-        "d": "オフィスリノベーション：既存の配管に代わる腐食のない代替品。"
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "プロジェクトを見る"
   },
   "finderx": {
     "helpEyebrow": "読み方",
@@ -2554,8 +2512,7 @@
         "d": "ここでは衛生面で妥協は許されません。滑らかな内面 (0.007 mm) はバイオフィルムとスケールの付着を防ぎ、材料は味や臭いを無臭に保ちます。",
         "pts": [
           "衛生的な中立性",
-          "耐腐食性：孔食なし",
-          "実績：ケープタウンの新しい病院"
+          "耐腐食性：孔食なし"
         ]
       },
       {
@@ -2563,8 +2520,7 @@
         "d": "24時間体制の温水循環：低い熱伝導率により恒久的にエネルギーを節約し、PPRCTは70°Cでの連続運転を維持します。",
         "pts": [
           "熱効率",
-          "循環用PPRCT",
-          "実績：イスタンブールのホテル複合施設"
+          "循環用PPRCT"
         ]
       },
       {
@@ -2581,8 +2537,7 @@
         "d": "ガラス越しや屋外での灌漑用のUV安定化バージョン：軽量で、敷設が速く、硬いシステムよりも霜に強い。",
         "pts": [
           "UV耐性バージョン",
-          "軽量",
-          "参照プログラムの適用分野"
+          "軽量"
         ]
       },
       {
@@ -2590,8 +2545,7 @@
         "d": "最大d630までの大口径の供給ラインとネットワーク：均質で永久に漏れないストランドへのバット溶接。",
         "pts": [
           "最大630 mmの直径",
-          "バット溶接 (Butt Fusion)",
-          "実績：シンガポールのインフラストラクチャ"
+          "バット溶接 (Butt Fusion)"
         ]
       },
       {
@@ -3973,7 +3927,7 @@
         "btnGhost": "専門家に連絡"
       },
       "metaTitle": "PP-R配管システムのテクニカルサポートとサービス",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "エンジニアリングコンサルティング、アプリケーション技術、現場サポート。"
     },
     "downloads": {
       "title": "ダウンロードとデータシート",
@@ -5810,7 +5764,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "製品詳細を表示"
   },
   "solutions": {
     "eyebrow": "ソリューション",
@@ -6187,39 +6141,6 @@
             "unit": "",
             "title": "メンテナンスの手間",
             "desc": "設置し、密封し、永遠に忘れる。"
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "歴史を作る参考文献。",
-        "desc": "ペルシャ湾の人工島からアルプスの最も排他的なスキーリゾートまで。不可能が築かれる場所には、K Aquaがすでに存在しています。"
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "ドバイ",
-            "title": "ザ・パーム・ジュメイラ 超高級リゾート",
-            "text": "800のスイートと4つの巨大なプールランドスケープの設備。極端な塩分濃度と最大50°Cの環境温度が、最大限の熱的および化学的耐性を要求しました。K Aquaは地域冷房の接続を含む冷温水ネットワーク全体を提供しました。"
-          },
-          {
-            "year": "スイス",
-            "title": "アルパイン・リトリート サンモリッツ",
-            "text": "標高2,000メートルの6つ星リゾート。課題：建設フェーズ中の極端な霜の危険性と、遮音に対する最大限の要求。当社のPP-R繊維複合パイプは熱膨張を自信を持って吸収し、静かな動作を保証しました。"
-          },
-          {
-            "year": "シンガポール",
-            "title": "バーティカルフォレストホテル",
-            "text": "65階建ての生態系建築の傑作。何千ものバルコニー植物のための複雑な灌漑システムと飲料水のインフラストラクチャ全体が、K Aquaで実現されました。均一な溶接技術は、微細な漏れから建物を守りました。"
-          },
-          {
-            "year": "モルディブ",
-            "title": "ゼロエミッション・アイランド・リゾート",
-            "text": "サンゴ礁の真上に建てられており、絶対的な環境適合性が要求されました。K Aquaパイプは100%リサイクル可能であり、マイクロプラスチックや重金属を一切放出せず、腐食性の高い塩気のある海の空気にも摩耗することなく耐えます。"
-          },
-          {
-            "year": "未来",
-            "title": "あなたの次のメガプロジェクト",
-            "text": "建築の限界は日々シフトしています。私たちはあなたの最も大胆なビジョンの基盤を築く準備ができています。時代を何十年も先取りしたテクノロジーとともに。"
           }
         ]
       },
@@ -7189,7 +7110,7 @@
     "retry": "もう一度試す",
     "titlePerfect": "溶接マスター",
     "titleGood": "溶接職人",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "研修動画とガイド"
   },
   "geoContent": {
     "frankfurt": {
@@ -7215,7 +7136,7 @@
       "focusHeading": "ベルリンでの代表的なプロジェクト"
     },
     "muenchen": {
-      "regulator": "DVGW / TrinkwV, SWM",
+      "regulator": "DVGW / TrinkwV、SWM",
       "water": "pHマージンの低い柔らかい高山の水: 銅の溶解度が高くなる場所でも、PPは耐性があります。",
       "focus": [
         "高級住宅",
@@ -7259,7 +7180,7 @@
       "focusHeading": "チューリッヒでの代表的なプロジェクト"
     },
     "london": {
-      "regulator": "WRAS: Water Regulations Approval Scheme",
+      "regulator": "WRAS：Water Regulations Approval Scheme",
       "water": "非常に硬い水 (テムズ川流域): PPRCTはスケールの付着や断面の狭窄を防ぎます。",
       "focus": [
         "高層住宅",
@@ -7270,7 +7191,7 @@
       "focusHeading": "ロンドンでの代表的なプロジェクト"
     },
     "paris": {
-      "regulator": "ACS: Attestation de Conformité Sanitaire",
+      "regulator": "ACS：Attestation de Conformité Sanitaire",
       "water": "石灰を含む硬いセーヌ川の水: 滑らかなPP内面は、何十年にもわたって圧力損失を一定に保ちます。",
       "focus": [
         "グラン・パリの住宅地",
@@ -7314,7 +7235,7 @@
       "focusHeading": "プラハでの代表的なプロジェクト"
     },
     "dubai": {
-      "regulator": "DEWA: Dubai Electricity & Water Authority",
+      "regulator": "DEWA：ドバイ電力水道庁",
       "water": "塩化物負荷が高く、環境温度が継続的に30°Cを超える脱塩海水: PPRCTの温度リザーブの中心的なシナリオ。",
       "focus": [
         "超高層タワー",
@@ -7325,7 +7246,7 @@
       "focusHeading": "ドバイでの代表的なプロジェクト"
     },
     "abudhabi": {
-      "regulator": "DoE Abu Dhabi / Estidama",
+      "regulator": "DoEアブダビ / Estidama",
       "water": "後硬化を伴う淡水化水: Estidamaのサステナビリティポイントは、リサイクル可能なパイプ材料を評価します。",
       "focus": [
         "政府および文化施設",
@@ -7336,7 +7257,7 @@
       "focusHeading": "アブダビでの代表的なプロジェクト"
     },
     "doha": {
-      "regulator": "Kahramaa: Qatar General Electricity & Water Corp.",
+      "regulator": "Kahramaa：カタール電力水道公社",
       "water": "99%が淡水化水、夏にはネットワークの温度が最大40°Cに達します: 長期的な耐圧性が主要な選択基準です。",
       "focus": [
         "ルサイルの都市開発",
@@ -7347,7 +7268,7 @@
       "focusHeading": "ドーハでの代表的なプロジェクト"
     },
     "riad": {
-      "regulator": "SASO / Saudi Water Authority",
+      "regulator": "SASO / サウジ水道庁",
       "water": "淡水化（SWCCパイプライン）と化石地下水の混合: 極端な夏の暑さはPPRCTの予備を必要とします。",
       "focus": [
         "ビジョン2030 ギガプロジェクト",
@@ -7369,7 +7290,7 @@
       "focusHeading": "ジッダでの代表的なプロジェクト"
     },
     "neom": {
-      "regulator": "NEOM Authority / SASO",
+      "regulator": "NEOM当局 / SASO",
       "water": "100%再生可能エネルギーによる淡水化を計画。このプロジェクトでは完全にリサイクル可能な材料が求められます：リサイクルコード5を含みます。",
       "focus": [
         "線形都市のインフラ",
@@ -7380,7 +7301,7 @@
       "focusHeading": "NEOM / ザ・ラインでの代表的なプロジェクト"
     },
     "kuwait": {
-      "regulator": "MEW: Ministry of Electricity & Water",
+      "regulator": "MEW：電力水道省",
       "water": "汽水と混合された脱塩された湾岸水: 耐塩化物性のプラスチックシステムが標準的に推奨されます。",
       "focus": [
         "シルクシティ計画",
@@ -7402,7 +7323,7 @@
       "focusHeading": "マスカットでの代表的なプロジェクト"
     },
     "manama": {
-      "regulator": "EWA: Electricity & Water Authority",
+      "regulator": "EWA：電力水道庁",
       "water": "高い夏の温度を持つ完全に淡水化されたネットワーク: PPRCTはPVCが劣化する場所でも圧力予備を維持します。",
       "focus": [
         "バーレーンベイ",
@@ -7413,7 +7334,7 @@
       "focusHeading": "マナマでの代表的なプロジェクト"
     },
     "amman": {
-      "regulator": "WAJ: Water Authority of Jordan / Miyahuna",
+      "regulator": "WAJ：ヨルダン水道庁 / Miyahuna",
       "water": "世界で最も水が不足している国の一つ。漏れのない溶接接続は、積極的な節水方針です（無収水 < 2%）。",
       "focus": [
         "ディシ・パイプラインのサブネットワーク",
@@ -7425,7 +7346,7 @@
       "extendedMarketText": "この地域の都市インフラストラクチャは、配管システムの寿命と信頼性に特別な要求を課します。極端な気候条件と高い水衛生要件を備えたK-AquaのPP-RおよびPPRCTソリューションは、決定的な利点を提供します。従来の金属パイプは腐食やミネラルの堆積に悩まされることが多く、漏れによる大幅な圧力損失や水の浪費につながります。一方、K-Aquaシステムは、その非腐食性の材料特性と均一なポリフュージョン溶接のおかげで、50年以上にわたり完全に漏れがなく、メンテナンスフリーの設置を保証します。さらに、滑らかな内面は最適な水力学的流動特性を可能にし、それによって循環ポンプのエネルギー要件を劇的に低減します。これらの要因により、K-Aquaは都市部の大規模なホテル複合施設、病院、産業用冷却システム、および要求の厳しい住宅建設プロジェクトにおいて最適な選択肢となっています。"
     },
     "kairo": {
-      "regulator": "HCWW: Holding Company for Water & Wastewater",
+      "regulator": "HCWW：上下水道持株会社",
       "water": "季節によって濁りがあるナイル川の水: 滑らかなPP表面が建物の設置における堆積を最小限に抑えます。",
       "focus": [
         "新しい行政首都",
@@ -7449,7 +7370,7 @@
       "extendedMarketText": "この地域の都市インフラストラクチャは、配管システムの寿命と信頼性に特別な要求を課します。極端な気候条件と高い水衛生要件を備えたK-AquaのPP-RおよびPPRCTソリューションは、決定的な利点を提供します。従来の金属パイプは腐食やミネラルの堆積に悩まされることが多く、漏れによる大幅な圧力損失や水の浪費につながります。一方、K-Aquaシステムは、その非腐食性の材料特性と均一なポリフュージョン溶接のおかげで、50年以上にわたり完全に漏れがなく、メンテナンスフリーの設置を保証します。さらに、滑らかな内面は最適な水力学的流動特性を可能にし、それによって循環ポンプのエネルギー要件を劇的に低減します。これらの要因により、K-Aquaは都市部の大規模なホテル複合施設、病院、産業用冷却システム、および要求の厳しい住宅建設プロジェクトにおいて最適な選択肢となっています。"
     },
     "singapur": {
-      "regulator": "PUB: Public Utilities Board",
+      "regulator": "PUB：公共事業庁",
       "water": "NEWaterおよび淡水化水、継続的な熱帯の熱: 長期的な耐圧性への最高の要求。",
       "focus": [
         "公営住宅 (HDB)",
@@ -7461,7 +7382,7 @@
       "extendedMarketText": "この地域の都市インフラストラクチャは、配管システムの寿命と信頼性に特別な要求を課します。極端な気候条件と高い水衛生要件を備えたK-AquaのPP-RおよびPPRCTソリューションは、決定的な利点を提供します。従来の金属パイプは腐食やミネラルの堆積に悩まされることが多く、漏れによる大幅な圧力損失や水の浪費につながります。一方、K-Aquaシステムは、その非腐食性の材料特性と均一なポリフュージョン溶接のおかげで、50年以上にわたり完全に漏れがなく、メンテナンスフリーの設置を保証します。さらに、滑らかな内面は最適な水力学的流動特性を可能にし、それによって循環ポンプのエネルギー要件を劇的に低減します。これらの要因により、K-Aquaは都市部の大規模なホテル複合施設、病院、産業用冷却システム、および要求の厳しい住宅建設プロジェクトにおいて最適な選択肢となっています。"
     },
     "kualalumpur": {
-      "regulator": "SPAN: National Water Services Commission",
+      "regulator": "SPAN：国家水道サービス委員会",
       "water": "熱帯の地表水、高湿度: UVおよび耐老化性システムが標準です。",
       "focus": [
         "TRX 金融街",
@@ -7473,7 +7394,7 @@
       "extendedMarketText": "この地域の都市インフラストラクチャは、配管システムの寿命と信頼性に特別な要求を課します。極端な気候条件と高い水衛生要件を備えたK-AquaのPP-RおよびPPRCTソリューションは、決定的な利点を提供します。従来の金属パイプは腐食やミネラルの堆積に悩まされることが多く、漏れによる大幅な圧力損失や水の浪費につながります。一方、K-Aquaシステムは、その非腐食性の材料特性と均一なポリフュージョン溶接のおかげで、50年以上にわたり完全に漏れがなく、メンテナンスフリーの設置を保証します。さらに、滑らかな内面は最適な水力学的流動特性を可能にし、それによって循環ポンプのエネルギー要件を劇的に低減します。これらの要因により、K-Aquaは都市部の大規模なホテル複合施設、病院、産業用冷却システム、および要求の厳しい住宅建設プロジェクトにおいて最適な選択肢となっています。"
     },
     "mumbai": {
-      "regulator": "BIS: Bureau of Indian Standards",
+      "regulator": "BIS：インド規格局",
       "water": "断続的な運用を伴うモンスーン主導のダム供給: 耐衝撃性のある溶接接続が二重に重要になります。",
       "focus": [
         "高層ビルの再開発",
@@ -7497,7 +7418,7 @@
       "extendedMarketText": "この地域の都市インフラストラクチャは、配管システムの寿命と信頼性に特別な要求を課します。極端な気候条件と高い水衛生要件を備えたK-AquaのPP-RおよびPPRCTソリューションは、決定的な利点を提供します。従来の金属パイプは腐食やミネラルの堆積に悩まされることが多く、漏れによる大幅な圧力損失や水の浪費につながります。一方、K-Aquaシステムは、その非腐食性の材料特性と均一なポリフュージョン溶接のおかげで、50年以上にわたり完全に漏れがなく、メンテナンスフリーの設置を保証します。さらに、滑らかな内面は最適な水力学的流動特性を可能にし、それによって循環ポンプのエネルギー要件を劇的に低減します。これらの要因により、K-Aquaは都市部の大規模なホテル複合施設、病院、産業用冷却システム、および要求の厳しい住宅建設プロジェクトにおいて最適な選択肢となっています。"
     },
     "nairobi": {
-      "regulator": "KEBS: Kenya Bureau of Standards",
+      "regulator": "KEBS：ケニア規格局",
       "water": "急速に成長している大都市のダムと地下水の混合: 堅牢でトレーニングしやすい接続技術が求められています。",
       "focus": [
         "手頃な価格の住宅プログラム",
@@ -7851,53 +7772,6 @@
       "ctaDesc": "次のプロジェクトにおいて、飲料水の衛生と安全性を確保するためのお手伝いをします。",
       "ctaBtn": "コンサルティングを依頼"
     }
-  },
-  "customerReviews": {
-    "eyebrow": "つながる品質",
-    "title": "お客様やパートナーの声",
-    "lead": "建築業者から物流業者、長年の従業員まで、K Aqua KWT GmbH は Waldsolms から届く最高精度の代名詞です。「Made in Germany」の製品とサービスに、人々が日々どのような経験をしているかをお読みください。",
-    "trustBadge": "Google レビュー",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(44件のレビューに基づく)",
-    "tabA": "品質と「Made in Germany」",
-    "tabB": "物流と配送",
-    "tabC": "カスタマーサービスとチーム",
-    "reviews": {
-      "a1": "「ドイツの Waldsolms にある工場で、**Made in Germany** の PPR パイプと継手を専門としています。素晴らしいスタッフです。」",
-      "a1Author": "Giulio C.",
-      "a2": "「PPR コーティングと継手における **ドイツの品質**。非常にフレンドリーなスタッフ。」",
-      "a2Author": "Veronica P.",
-      "a3": "「**近代的な企業**。あらゆるサイズのプラスチックパイプとアクセサリーを製造しています。」",
-      "a3Author": "Ewald S.",
-      "a4": "「**ドイツ製**の PPR パイプと継手、素晴らしい従業員と製品。」",
-      "a4Author": "Kais S.",
-      "a5": "「**高品質な製品**とトップクラスのドイツの工場。」",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "「非常に良い製品、**信頼できる品質**、時間通りの配達。」",
-      "a6Author": "Klaus T.",
-      "b1": "「非常に丁寧な対応、**迅速な荷下ろし**。ここで長い休憩をとらせてもらえました。シャワーとトイレも提供されました。ここではトラック運転手として**大切にされている**と感じます。またここに来たいです。」",
-      "b1Author": "Michael S.",
-      "b2": "「入口の現在の座標は **50.428210, 8.499154** です。約100メートル離れたところに駐車場があります。フレンドリーなスタッフ。」",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "「**迅速な荷下ろし**、フレンドリーで親切なスタッフ。」",
-      "b3Author": "Bogdan M.",
-      "c1": "「**非常に良いサービス**、ドイツでまだ生産されているのが素晴らしい。」",
-      "c1Author": "Daniel",
-      "c2": "「**非常にフレンドリー**で親切なスタッフ。メールは**迅速に返信**されます。」",
-      "c2Author": "Mohamed M.",
-      "c3": "「会長から一般の作業員まで、彼らは**良い人たち**です。」",
-      "c3Author": "Azim",
-      "c4": "「従業員のために多くのことをしている**素晴らしい会社**。」",
-      "c4Author": "Monika v. B.",
-      "c5": "「スタッフは**非常にフレンドリーで親切**です。」",
-      "c5Author": "Piera V.",
-      "c6": "「有能なチームとあらゆるレベルでの**優れたカスタマーサポート**。」",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "当社のサービスをご自身で体験してください。",
-    "ctaText": "当社の PPR 配管システムについてご質問があるか、プロジェクトについてご相談したいですか？Waldsolms の私たちのチームがお手伝いします。",
-    "ctaBtn": "今すぐお問い合わせ",
-    "disclaimer": "レビューの確認に関する注意: ここに表示されているレビューは、当社の Google ビジネスプロフィールからのものです。Googleは次のように述べています: レビューは確認されていません。プライバシー(GDPR)の理由により、著者の名前を省略しています。"
   },
   "seoArticle": {
     "h2_1": "飲料水ネットワーク向けの衛生的に安全な配管技術",
@@ -8393,64 +8267,64 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "メスねじ付き溶接サドル (IG)",
     "weld-in-saddles_weld-in-saddle-male-thread": "オスねじ付き溶接サドル (AG)",
     "weld-in-saddles_weld-in-saddle": "溶接サドル",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "ルーズフランジ PP-スチール（SF/BF）",
+    "fittings_cross-over-with-socket": "PP-R クロスオーバーベンド（ソケット付）",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "ハンド溶着機 d20-d32",
+    "tools_pipe-cutter-50125": "パイプカッター d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "90°チーズ（メネジ）埋込バルブ用"
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "インタラクティブ",
+    "titleGrad": "マップスイート",
+    "tabHq": "本社 Waldsolms",
+    "tabRefs": "気密性マップ",
+    "tabSpec": "スペック検索",
+    "hqTitle": "中央生産・開発センター",
+    "hqAddress": "Waldsolms Brandoberndorf、ヘッセン州、ドイツ。",
+    "registryLabel": "商業登記裁判所：",
+    "phoneLabel": "電話：",
+    "certLabel": "認証：",
+    "directions": "ルート案内を開く",
+    "aboutPlant": "Waldsolms工場について",
+    "sectorFilter": "セクターフィルター：",
+    "specPlaceholder": "地名または都市名を入力…",
+    "profileTitle": "市場・物流プロファイル",
+    "profileHint": "地図をクリックするか都市を検索すると、システム仕様と輸送ルートの自動算出が実行されます。",
+    "marketAssign": "市場区分",
+    "normLabel": "規格：",
+    "airDist": "直線距離（本社から）",
+    "roadDist": "道路距離（推定）",
+    "recommended": "推奨配管システム：",
+    "recUv": "UVプロテクト外層",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "全セクター",
+      "hotel": "ホテル",
+      "wohnen": "住宅建設",
+      "infra": "インフラ",
+      "klinik": "医療施設",
+      "buero": "オフィス"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "製品",
+      "markets-solutions": "市場とソリューション",
+      "academy-resources": "アカデミーとリソース",
+      "company": "会社情報"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "パイプ製品ファインダー",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "成形部品と継手",
+      "valves": "バルブと水栓",
+      "tools": "工具とアクセサリー",
+      "transition": "パイプ用変換継手",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8463,48 +8337,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "配管システムのプロジェクトお問い合わせ",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "サイトマップ（HTML）"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "言語を選択",
+    "subtitle": "65言語 · 地球儀を回して、地域をタップし、確定します。",
+    "searchPlaceholder": "言語またはページを検索…",
+    "pagesSection": "ページとナビゲーション",
+    "noResults": "該当する言語が見つかりません。",
+    "confirm": "確定",
+    "beta": "ベータ",
+    "globalEffect": "ウェブサイト全体に適用されます",
+    "active": "有効"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "どのようなご用件でしょうか？",
+    "step1Desc": "お問い合わせ内容に合った部門をお選びください。",
+    "optSales": "営業・プロジェクト",
+    "optSalesDesc": "価格のお問い合わせ、大型プロジェクト、納期について。",
+    "optTech": "テクニカルサポート",
+    "optTechDesc": "仕様、施工、システム設計について。",
+    "optOther": "一般のお問い合わせ",
+    "optOtherDesc": "マーケティング、採用、その他のご用件。",
+    "step2Title": "お問い合わせ内容の詳細",
+    "step2Desc": "プロジェクトやご質問の内容を簡単にご記入ください。",
+    "messagePlaceholder": "メッセージをご記入ください...",
+    "step3Title": "ご連絡先",
+    "step3Desc": "あと少しです！ご連絡先をお知らせください。",
+    "nameLabel": "氏名",
+    "companyLabel": "会社名 / 団体名",
+    "emailLabel": "メールアドレス",
+    "phoneLabel": "電話番号",
+    "step4Title": "送信が完了しました！",
+    "step4Desc": "お問い合わせありがとうございます。担当のエキスパートより追ってご連絡いたします。",
+    "btnNext": "次へ",
+    "btnBack": "戻る",
+    "btnSubmit": "お問い合わせを送信",
+    "btnSending": "送信中…",
+    "btnHome": "トップページへ戻る",
+    "sendError": "送信に失敗しました。もう一度お試しいただくか、直接お電話ください：+49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4.9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

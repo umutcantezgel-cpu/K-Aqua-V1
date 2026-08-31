@@ -1366,7 +1366,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Skoða vöruupplýsingar"
   },
   "nav": {
     "home": "Heim",
@@ -1404,30 +1404,30 @@
     "edgePageIndex": "Síðuvísir",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Lagnakerfi",
+      "allProducts": "Allar vörur",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Sértækar lausnir fyrir atvinnugreinar",
+      "digitalTools": "Stafræn verkfæri",
+      "finderDesc": "Stilltu saman rétta kerfið",
+      "co2Desc": "Reiknaðu umhverfisáhrifin",
+      "academyDesc": "Námskeið og vottorð",
+      "trustDesc": "Niðurhal og vottanir",
+      "serviceDesc": "Stuðningur við hönnun",
+      "partnersDesc": "Gerstu staðbundinn samstarfsaðili",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Fyrirtækið",
+      "companyDesc": "Hlutverk, framtíðarsýn og saga",
+      "careerDesc": "Laus störf og fyrirtækjamenning",
+      "newsPress": "Fréttir og fjölmiðlar",
+      "newsDesc": "Nýjustu fréttatilkynningar",
+      "sitemap": "Veftré",
+      "sitemapDesc": "Yfirlit yfir uppbyggingu",
+      "globalFootprint": "Alþjóðleg viðvera",
+      "globalMarkets": "Alþjóðlegir markaðir",
+      "marketsDesc": "Vottuð svæði",
+      "refProjects": "Viðmiðunarverkefni",
+      "refDesc": "Vel heppnaðar uppsetningar"
     }
   },
   "groups": {
@@ -2066,7 +2066,7 @@
       ]
     ],
     "btnDe": "Vottorð (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnEn": "Vottorð (EN)",
     "eventsTitle": "Sýningar og viðburðir",
     "eventsText": "Heimsæktu K Aqua á væntanlegum viðburðum. Engar dagsetningar hafa verið tilkynntar eins og er. Kíktu aftur fljótlega.",
     "lead": "Lestu nýjustu fréttir frá K Aqua. "
@@ -2234,25 +2234,25 @@
     "nextTitle": "Hversu loftslagsvæn er áætlanagerð þín?",
     "nextLead": "Settu stærð og lengd beint í CO₂ reiknivélina og berðu saman við kopar, ryðfrítt stál og PVC.",
     "nextCta": "Fara í CO₂ reiknivél",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Leitaðu í öllu vöruúrvali okkar eftir flokki, heiti eða vörunúmeri.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Rör",
+    "catFittings": "Tengistykki",
+    "catValves": "Lokar",
+    "catTools": "Verkfæri",
+    "catTransitionFittings": "Millitengi",
+    "catAccessories": "Fylgihlutir",
+    "catWeldInSaddles": "Hágæða PP-R ísoðinn söðull",
+    "category": "Flokkur",
+    "search": "Leit",
+    "searchPlaceholder": "Vörunúmer eða heiti...",
+    "foundFam": "vörufjölskyldur fundust",
+    "catalogPdf": "Vörulisti sem PDF",
+    "colName": "Vöruheiti",
+    "colCat": "Flokkur",
+    "colCodes": "Vörunúmer",
+    "noResultsText": "Við fundum engar vörur sem samsvara leitarskilyrðum þínum. Vinsamlegast reyndu annað leitarorð eða breyttu flokknum.",
+    "resetFilters": "Endurstilla síur"
   },
   "trustAndCases": {
     "eyebrow": "Vottað öryggi",
@@ -2290,7 +2290,7 @@
     "insulation": "Einangrun",
     "insulationNone": "Engin",
     "insulationBasic": "Grunn",
-    "insulationStandard": "Standard EnEV",
+    "insulationStandard": "Staðall EnEV",
     "insulationPremium": "Premium",
     "installMethod": "Uppsetningaraðferð (A5)",
     "installBuilding": "Uppsetning í byggingu",
@@ -2921,7 +2921,7 @@
     "retry": "Reyna aftur",
     "titlePerfect": "Suðumeistari",
     "titleGood": "Suðusveinn",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Kennslumyndbönd og leiðbeiningar"
   },
   "refs": {
     "eyebrow": "Tilvísanir",
@@ -2937,51 +2937,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Þýskaland",
         "d": "Aðalverksmiðja og þróun: Hér er hvert K Aqua-rör framleitt."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dúbaí, UAE",
-        "d": "Stigleiðslur háhýsa: PPRCT fyrir heitt vatn undir eyðimerkuraðstæðum."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varsjá, Pólland",
-        "d": "Nýbygging íbúðahverfis: Heil neysluvatnsuppsetning d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbúl, Tyrkland",
-        "d": "Hótelbygging: Hringrásarleiðslur með trefjastyrktum rörum."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapúr",
-        "d": "Innviðaverkefni: Stórar stærðir upp í d630 í stúfsuðu."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Höfðaborg, Suður-Afríka",
-        "d": "Nýbygging sjúkrahúss: Hreinleg neysluvatnsdreifing."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, Bretland",
-        "d": "Skrifstofuendurbætur: Tæringarfrí endurnýjun á eldri leiðslum."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Skoða verkefni"
   },
   "buyers": {
     "eyebrow": "Fyrir hönnuði, innkaup & uppsetningarmenn",
@@ -3462,8 +3420,7 @@
         "d": "Hreinlæti er ekki umsemjanlegt: slétt innra byrði (0,007 mm) hamlar myndun örverufilmu og kölkun, efnið helst bragð- og lyktarlaust.",
         "pts": [
           "Hreinlætislegt hlutleysi",
-          "Tæringarfrítt",
-          "Viðmið: Nýtt sjúkrahús í Höfðaborg"
+          "Tæringarfrítt"
         ]
       },
       {
@@ -3471,8 +3428,7 @@
         "d": "Heitavatnshringrás allan sólarhringinn: lítil varmaleiðni sparar orku til frambúðar, PPRCT þolir 70 °C í stöðugri notkun.",
         "pts": [
           "Varmaskilvirkni",
-          "PPRCT fyrir hringrás",
-          "Viðmið: Hótelbygging í Istanbúl"
+          "PPRCT fyrir hringrás"
         ]
       },
       {
@@ -3489,8 +3445,7 @@
         "d": "UV-varðar útfærslur fyrir áveitu undir gleri og utandyra: létt, fljótlegt í uppsetningu, frostþolnara en stíf kerfi.",
         "pts": [
           "UV-varin útfærsla",
-          "Létt",
-          "Notkunarsvið úr verkefnaskrá"
+          "Létt"
         ]
       },
       {
@@ -3498,8 +3453,7 @@
         "d": "Veitulagnir og net í stórum stærðum að d630: stúfsoðið í einsleitar, varanlega þéttar lagnir.",
         "pts": [
           "d að 630 mm",
-          "Stúfsuða (Butt Fusion)",
-          "Viðmið: Innviðir í Singapúr"
+          "Stúfsuða (Butt Fusion)"
         ]
       },
       {
@@ -7032,7 +6986,7 @@
           }
         ]
       },
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Verkfræðiráðgjöf, notkunartækni og aðstoð á staðnum."
     }
   },
   "kontaktBlocks": {
@@ -7325,53 +7279,6 @@
       "done": "Tækniráðgjafi mun hafa samband við þig innan vinnudags."
     }
   },
-  "customerReviews": {
-    "eyebrow": "Gæði sem tengja",
-    "title": "Hvað viðskiptavinir og samstarfsaðilar segja",
-    "lead": "Frá byggingaraðilum og flutningsfyrirtækjum til áralangra starfsmanna: KWT GmbH K-Aqua stendur fyrir hæstu nákvæmni frá Waldsolms. Lestu sjálf(ur) um daglega reynslu fólks af okkar þjónustu og vörum „Made in Germany“.",
-    "trustBadge": "Google Umsagnir",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Byggt á 44 umsögnum)",
-    "tabA": "Gæði & „Made in Germany“",
-    "tabB": "Flutningar & Afhending",
-    "tabC": "Þjónustuver & Teymi",
-    "reviews": {
-      "a1": "„Verksmiðja í Waldsolms, Þýskalandi, sem sérhæfir sig í PPR rörum og formstykkjum **Made in Germany**. Framúrskarandi starfsfólk.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Þýsk gæði** í PPR húðun og búnaði, mjög vinalegt starfsfólk.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Nútímalegt fyrirtæki**. Framleiðir plaströr af öllum stærðum og aukabúnað.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR rör og formstykki úr **þýskri framleiðslu**, frábærir starfsmenn og vörur.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Hágæða vörur** og topp þýsk verksmiðja.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Mjög góðar vörur, **áreiðanleg gæði** og afhending á réttum tíma.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Mjög gott viðmót, **hröð afferming**. Ég mátti taka lengri hvíld mína hérna. Mér var líka boðin sturta og salerni. Hér finnst manni maður **metinn** sem vörubílstjóri. Ég kem mjög gjarnan aftur.“",
-      "b1Author": "Michael S.",
-      "b2": "„Raunveruleg hnit að innganginum eru **50.428210, 8.499154**. Um 100 metrum í burtu er bílastæði. Vinalegt starfsfólk.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Hröð afferming**, vinalegt og hjálpsamt starfsfólk.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Mjög góð þjónusta**, frábært að enn sé verið að framleiða í Þýskalandi.“",
-      "c1Author": "Daniel",
-      "c2": "„**Mjög vinalegt** og hjálpsamt starfsfólk. Tölvupóstum er **svarað tafarlaust**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Frá framkvæmdastjóra til verkamanna: þetta er **gott fólk**.“",
-      "c3Author": "Azim",
-      "c4": "„**Frábært fyrirtæki**, gerir margt fyrir fólkið sitt.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Starfsfólkið er **mjög vinalegt og hjálpsamt**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Hæft teymi og **framúrskarandi þjónusta við viðskiptavini** á öllum stigum.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Sannfærðu sjálfa(n) þig um þjónustuna okkar.",
-    "ctaText": "Ertu með spurningar um PPR rörakerfin okkar eða viltu ræða verkefni við okkur? Teymið okkar frá Waldsolms er tilbúið til að hjálpa.",
-    "ctaBtn": "Hafa samband núna",
-    "disclaimer": "Athugasemd varðandi staðfestingu á umsögnum: Umsagnirnar sem hér eru sýndar koma frá Google fyrirtækjaprófíl okkar. Google tekur fram: Umsagnir eru ekki staðfestar. Við höfum stytt nöfn höfunda af persónuverndarástæðum (GDPR)."
-  },
   "productNames": {
     "accessories_backing-flange": "Lauskragi úr stáli/PP (SF/BF)",
     "accessories_flat-gasket-for-unions": "Flöt þétting fyrir PP-R rörtengi",
@@ -7450,14 +7357,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Innhitaður söðull (Innri gengjur)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Innhitaður söðull (Ytri gengjur)",
     "weld-in-saddles_weld-in-saddle": "Innhitaður söðull",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Lausflans PP-stál (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R yfirfærslubogi með múffu",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Handsuðutæki d20-d32",
+    "tools_pipe-cutter-50125": "Rörskeri d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "T-stykki 90° (innri skrúfgangur) fyrir innfelldan loka"
   },
   "solutions": {
     "eyebrow": "Lausnir (Solutions)",
@@ -7646,23 +7553,23 @@
     },
     "hotels": {
       "hero": {
-        "eyebrow": "HOTELS & RESORTS INFRASTRUKTUR",
-        "title1": "Die Architektur der Stille.",
+        "eyebrow": "INNVIÐIR FYRIR HÓTEL OG DVALARSTAÐI",
+        "title1": "Byggingarlist þagnarinnar.",
         "title2": "Engineered in Germany.",
-        "desc": "Wenn Milliarden in die Entwicklung globaler Luxusresorts investiert werden, darf das Unsichtbare niemals zum Risiko werden. K Aqua liefert kompromisslose Rohrleitungssysteme für die anspruchsvollsten Hotelprojekte der Welt. Gefertigt für die Ewigkeit, konzipiert für absolute Sicherheit.",
-        "cta1": "Projekt evaluieren",
-        "cta2": "Technisches Whitepaper"
+        "desc": "Þegar milljörðum er fjárfest í uppbyggingu lúxusdvalarstaða um allan heim má hið ósýnilega aldrei verða að áhættu. K Aqua afhendir málamiðlunarlaus lagnakerfi fyrir kröfuhörðustu hótelverkefni heims. Framleitt til að endast um alla eilífð, hannað fyrir algjört öryggi.",
+        "cta1": "Meta verkefni",
+        "cta2": "Tæknileg hvítbók"
       },
       "intro": {
-        "title1": "Wahrer Luxus",
-        "title2": "ist unsichtbar.",
-        "titleGrad": "Und unhörbar.",
-        "desc": "Ein Fünf-Sterne-Erlebnis duldet keine Kompromisse. Weder beim Service noch in der Bausubstanz. Unsere hochverdichteten PP-R Polymere eliminieren Fließgeräusche, verhindern thermischen Verlust und garantieren mikrobiologische Reinheit. Willkommen in der Referenzklasse der Fluidtechnik."
+        "title1": "Sannur lúxus",
+        "title2": "er ósýnilegur.",
+        "titleGrad": "Og óheyranlegur.",
+        "desc": "Fimm stjörnu upplifun þolir engar málamiðlanir. Hvorki í þjónustu né í byggingarefni. Háþéttar PP-R fjölliður okkar útrýma rennslishljóðum, koma í veg fyrir varmatap og tryggja örverufræðilegan hreinleika. Velkomin í viðmiðunarflokk vökvatækninnar."
       },
       "bentoSection": {
-        "eyebrow": "Die Anatomie der Perfektion",
-        "title": "Spezifikationen, die den Industriestandard dekonstruieren.",
-        "lead": "Wir haben jedes Element der klassischen Rohrleitung hinterfragt und durch materialwissenschaftliche Meisterleistungen ersetzt."
+        "eyebrow": "Líffærafræði fullkomnunarinnar",
+        "title": "Tækniforskriftir sem endurskilgreina iðnaðarstaðalinn.",
+        "lead": "Við höfum efast um hvern einasta þátt hefðbundinna lagna og skipt honum út fyrir afrek í efnisvísindum."
       },
       "bento": {
         "items": [
@@ -7685,19 +7592,19 @@
         ]
       },
       "textSection": {
-        "title": "Die Ingenieurskunst hinter der Stille",
-        "p1": "In Wolkenkratzern und weitläufigen Resort-Anlagen herrschen extreme physikalische Bedingungen. Wasserdruck, der hunderte Meter in die Höhe gepumpt wird. Temperaturdifferenzen, die traditionelle Materialien an ihre Belastungsgrenzen bringen.",
-        "p2": "Traditionelle Kupfersysteme weisen bei hohen Fließgeschwindigkeiten signifikante Erosionserscheinungen auf. Die Kavitation, verursacht durch Druckschwankungen in Steigleitungen von Hochhaushotels, führt unweigerlich zu Mikrorissen, Lochfraß und letztlich zu katastrophalen Wasserschäden, die ganze Etagen lahmlegen können. Für einen Hotelbetreiber bedeutet dies nicht nur massive Sanierungskosten, sondern einen irreparablen Reputationsverlust.",
-        "p3": "K Aqua geht einen radikal anderen Weg.",
-        "p4": "Unsere Systeme basieren auf Polypropylen Random Copolymerisat (PP-R) der neuesten Generation. Durch einen hochkomplexen Extrusionsprozess in unserem deutschen Stammwerk richten wir die Polymerketten so aus, dass sie eine beispiellose Kombination aus Flexibilität und extremer Druckresistenz aufweisen. Wenn es im System zu Druckschlägen (Water Hammer) kommt, fängt das Material diese kinetische Energie elastisch ab, anstatt sie als akustischen Schock oder mechanischen Riss an die Bausubstanz weiterzugeben.",
-        "h3": "Homogene Schweißverbindungen: Das Ende der Leckage",
-        "p5": "Das schwächste Glied in jedem Rohrleitungssystem ist die Verbindung. Gewinde korrodieren, Dichtungsringe werden porös, Klebeverbindungen ermüden durch thermische Zyklisierung.",
-        "p6": "Wir nutzen das Prinzip der molekularen Fusion. Rohr und Fitting werden thermisch auf exakt 260°C erhitzt und anschließend zusammengefügt. Innerhalb von Sekundenbruchteilen verschmelzen die Polymerketten beider Bauteile zu einer unzertrennlichen, monolithischen Einheit. Das Resultat: Es gibt keine \"Verbindung\" mehr. Rohr und Fitting sind ein einziges, durchgehendes Stück Material. Ohne Dichtung, ohne Schwachstelle, mit einer Ausfallsicherheit von 100%."
+        "title": "Verkfræðilistin á bak við þögnina",
+        "p1": "Í skýjakljúfum og víðfeðmum dvalarstaðakomplexum ríkja öfgakennd eðlisfræðileg skilyrði. Vatnsþrýstingur sem er dælt hundruð metra upp í loft. Hitamunur sem þrýstir hefðbundnum efnum að þolmörkum sínum.",
+        "p2": "Hefðbundin koparkerfi sýna verulega rofmyndun við mikinn rennslishraða. Hollos (kavitasjon) af völdum þrýstingssveiflna í stigleiðslum háhýsahótela leiðir óhjákvæmilega til örsprungna, tæringargata og að lokum til hörmulegra vatnstjóna sem geta lamað heilu hæðirnar. Fyrir hótelrekanda þýðir þetta ekki aðeins gríðarlegan viðgerðarkostnað heldur óbætanlegt orðsporstap.",
+        "p3": "K Aqua fer allt aðra leið.",
+        "p4": "Kerfi okkar byggja á pólýprópýlen random samfjölliðu (PP-R) af nýjustu kynslóð. Með afar flóknu þrýstimótunarferli í þýskri aðalverksmiðju okkar stillum við fjölliðukeðjurnar þannig að þær sýna einstaka samsetningu sveigjanleika og öfgamikils þrýstiþols. Þegar þrýstihögg (water hammer) verða í kerfinu tekur efnið þessa hreyfiorku upp á teygjanlegan hátt í stað þess að miðla henni sem hljóðhöggi eða vélrænni sprungu inn í byggingarefnið.",
+        "h3": "Einsleitar suðutengingar: Endalok lekans",
+        "p5": "Veikasti hlekkurinn í hverju lagnakerfi er tengingin. Skrúfgangar tærast, þéttihringir verða gljúpir, límtengingar þreytast við hitasveiflur.",
+        "p6": "Við nýtum meginregluna um sameindasamruna. Rör og tengistykki eru hituð nákvæmlega upp í 260°C og síðan sett saman. Á sekúndubrotum renna fjölliðukeðjur beggja íhluta saman í óaðskiljanlega, einsteypta heild. Niðurstaðan: Það er engin \"tenging\" lengur. Rör og tengistykki eru eitt samfellt stykki af efni. Án þéttingar, án veikleika, með 100% rekstraröryggi."
       },
       "stickySection": {
-        "eyebrow": "Die 4 Säulen",
-        "title": "Die DNA eines Masterpieces.",
-        "lead": "Wie wir die größten Herausforderungen der modernen Hotel-Infrastruktur durch radikale Ingenieurskunst lösen."
+        "eyebrow": "Stoðirnar 4",
+        "title": "DNA meistaraverks.",
+        "lead": "Hvernig við leysum stærstu áskoranir nútíma hótelinnviða með róttækri verkfræðilist."
       },
       "sticky": {
         "items": [
@@ -7751,43 +7658,10 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referenzen, die Geschichte schreiben.",
-        "desc": "Von künstlichen Inseln im Persischen Golf bis hin zu den exklusivsten Ski-Resorts der Alpen. Wo das Unmögliche gebaut wird, ist K Aqua bereits vor Ort."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Ausstattung von 800 Suiten und 4 riesigen Poollandschaften. Extreme Salinität und Umgebungstemperaturen von bis zu 50°C erforderten maximale thermische und chemische Beständigkeit. K Aqua lieferte das komplette Kalt- und Warmwassernetz inklusive District Cooling Anbindung."
-          },
-          {
-            "year": "Schweiz",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Ein 6-Sterne Resort auf 2.000 Metern Höhe. Die Herausforderung: Extreme Frostgefahr während der Bauphase und maximale Anforderungen an die Schallisolation. Unsere PP-R Faserverbundrohre absorbierten thermische Längenänderungen souverän und garantierten lautlosen Betrieb."
-          },
-          {
-            "year": "Singapur",
-            "title": "Vertical Forest Hotel",
-            "text": "Ein 65-stöckiges Meisterwerk ökologischer Architektur. Das komplexe Bewässerungssystem für tausende Balkonpflanzen sowie die gesamte Trinkwasserinfrastruktur wurden mit K Aqua realisiert. Die homogene Schweißtechnik bewahrte das Gebäude vor mikroskopischen Leckagen."
-          },
-          {
-            "year": "Malediven",
-            "title": "Zero-Emission Island Resort",
-            "text": "Direkt über dem Riff erbaut, war absolute Umweltverträglichkeit gefordert. K Aqua Rohre sind zu 100% recycelbar, geben keinerlei Mikroplastik oder Schwermetalle ab und widerstehen der hochgradig korrosiven salzhaltigen Seeluft ohne jeden Verschleiß."
-          },
-          {
-            "year": "Zukunft",
-            "title": "Ihr nächstes Megaprojekt",
-            "text": "Die Grenzen der Architektur verschieben sich täglich. Wir sind bereit, das Fundament für Ihre kühnsten Visionen zu gießen. Mit Technologie, die ihrer Zeit Jahrzehnte voraus ist."
-          }
-        ]
-      },
       "research": {
-        "eyebrow": "Forschung & Entwicklung",
-        "title": "Die Chemie <br/> der Unzerstörbarkeit.",
-        "desc": "Unsere F&E Abteilung in Deutschland arbeitet unermüdlich an der Perfektionierung der Polymer-Matrix. Durch die Zugabe von proprietären Additiven und speziellen Glasfaser-Compounds extrudieren wir Rohre, die eine extrem geringe Längenausdehnung aufweisen, vergleichbar mit metallischen Rohren, jedoch ohne deren eklatante Nachteile.",
+        "eyebrow": "Rannsóknir og þróun",
+        "title": "Efnafræði <br/> óslítanleikans.",
+        "desc": "Rannsóknar- og þróunardeild okkar í Þýskalandi vinnur sleitulaust að fullkomnun fjölliðugrunnsins. Með því að bæta við sérþróuðum íblöndunarefnum og sérstökum glertrefjablöndum þrýstimótum við rör með afar litla lengdarþenslu, sambærilega við málmrör, en án þeirra augljósu ókosta.",
         "items": [
           "Reduzierte lineare Ausdehnung (Alpha-Wert: 0.035 mm/mK)",
           "Erhöhter Durchflussquerschnitt durch dünnere Wandstärken bei gleicher Druckstufe",
@@ -7796,42 +7670,46 @@
         ]
       },
       "certs": {
-        "eyebrow": "Compliance & Zertifizierungen",
-        "title": "Die härtesten Normen der Welt? Wir übertreffen sie.",
-        "lead": "Internationale Projekte erfordern internationale Zulassungen. K Aqua ist weltweit geprüft, geprüft und freigegeben von den striktesten Regulierungsbehörden."
+        "eyebrow": "Regluvarsla og vottanir",
+        "title": "Ströngustu staðlar heims? Við förum fram úr þeim.",
+        "lead": "Alþjóðleg verkefni krefjast alþjóðlegra samþykkta. K Aqua er prófað um allan heim, sannreynt og samþykkt af ströngustu eftirlitsstofnunum."
       },
       "cta": {
-        "title": "Bauen Sie für die Ewigkeit.",
-        "desc": "Verlassen Sie sich bei Ihrem nächsten Hotel- oder Resort-Projekt nicht auf den Standard. Definieren Sie ihn neu. Kontaktieren Sie unsere leitenden Ingenieure für eine tiefe technische Evaluierung.",
-        "button1": "Projekt evaluieren lassen",
-        "button2": "Direktkontakt Sales"
+        "title": "Byggðu fyrir eilífðina.",
+        "desc": "Treystu ekki á staðlaðar lausnir í næsta hótel- eða dvalarstaðaverkefni þínu. Skilgreindu staðalinn upp á nýtt. Hafðu samband við aðalverkfræðinga okkar fyrir ítarlegt tæknilegt mat.",
+        "button1": "Fá verkefni metið",
+        "button2": "Beint samband við sölu"
+      },
+      "timelineSection": {
+        "title": "Viðmiðunarverkefni sem skrifa söguna.",
+        "desc": "Frá manngerðum eyjum í Persaflóa til glæsilegustu skíðadvalarstaða Alpanna. Þar sem hið ómögulega er byggt er K Aqua þegar á staðnum."
       }
     },
     "hochhaus": {
       "meta": {
-        "title": "Hochhausbau Infrastruktur | K Aqua",
-        "desc": "K Aqua Hochhausbau: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Erfahren Sie mehr über unsere Hochhauslösungen."
+        "title": "Innviðir fyrir háhýsi | K Aqua",
+        "desc": "K Aqua háhýsabyggingar: Málamiðlunarlaust öryggi með þýskri verkfræði fyrir alþjóðleg stórverkefni. Kynntu þér háhýsalausnir okkar."
       },
       "hero": {
-        "eyebrow": "Die vertikale Grenze",
-        "title1": "Hochhausbau.",
+        "eyebrow": "Lóðrétta landamærið",
+        "title1": "Háhýsabyggingar.",
         "title2": "Engineered in Germany.",
-        "desc": "Megaprojekte erfordern mehr als nur Rohre. Sie erfordern ein makelloses, wartungsfreies Kreislaufsystem, das dem extremen hydrostatischen Druck und den tektonischen Schwankungen standhält. K Aqua liefert kompromisslose Sicherheit für die anspruchsvollsten Gebäude der Welt.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technische Spezifikationen"
+        "desc": "Stórverkefni krefjast meira en bara röra. Þau krefjast gallalaus, viðhaldsfrís hringrásarkerfis sem stenst öfgamikinn vatnsstöðuþrýsting og jarðskorpuhreyfingar. K Aqua afhendir málamiðlunarlaust öryggi fyrir kröfuhörðustu byggingar heims.",
+        "cta1": "Senda fyrirspurn um verkefni",
+        "cta2": "Tækniforskriftir"
       },
       "intro": {
-        "eyebrow": "Die Anatomie von Megabauten",
-        "title": "Ein Gebäude ist nur so stark wie seine Adern.",
-        "lead": "In 500 Metern Höhe verzeiht die Physik keine Konstruktionsfehler. Ein Haarriss in einer Steigleitung bedeutet katastrophale Schäden in Millionenhöhe. Deshalb überlassen wir bei K Aqua nichts dem Zufall.",
-        "p1": "Hochhäuser sind vertikale Städte. Sie pulsieren, sie bewegen sich, sie atmen. Mit jedem Stockwerk steigt der hydrostatische Druck exponentiell an. Windlasten verursachen Mikroschwingungen in der gesamten Struktur. Temperaturunterschiede zwischen dem eisigen Fundament und der sonnenüberfluteten Spitze führen zu gewaltigen thermischen Längenausdehnungen.",
-        "p2": "Traditionelle metallische Rohrleitungssysteme stoßen hier an ihre absoluten physikalischen Grenzen. Korrosion, Lochfraß, Inkrustation und Ermüdungsbrüche an den Schweißnähten sind keine Frage des \"Ob\", sondern des \"Wann\". Im Hochhausbau ist ein Leck nicht einfach nur ein technisches Problem. Es ist ein finanzielles Risiko, das ein gesamtes Projekt gefährden kann.",
-        "p3": "K Aqua Hochleistungspolymere (PP-R & PPRCT) verändern die Spielregeln der Hochhaus-Infrastruktur fundamental. Sie korrodieren nicht. Sie verkalken nicht. Und durch unsere homogene thermische Schweißtechnik verschmelzen Rohr und Fitting auf molekularer Ebene zu einer einzigen, unzertrennbaren Einheit. Das Kreislaufsystem wird so stark wie das Material selbst."
+        "eyebrow": "Líffærafræði stórbygginga",
+        "title": "Bygging er aðeins jafn sterk og æðar hennar.",
+        "lead": "Í 500 metra hæð fyrirgefur eðlisfræðin engar hönnunarvillur. Hársprunga í stigleiðslu þýðir hörmulegt tjón upp á milljónir. Þess vegna látum við hjá K Aqua ekkert eftir tilviljun.",
+        "p1": "Háhýsi eru lóðréttar borgir. Þau slá, hreyfast og anda. Með hverri hæð eykst vatnsstöðuþrýstingurinn veldisvaxandi. Vindálag veldur örtitringi um alla bygginguna. Hitamunur milli ískaldra undirstaðna og sólbakaðs toppsins leiðir til gríðarlegrar varmaþenslu.",
+        "p2": "Hefðbundin lagnakerfi úr málmi ná hér algjörum eðlisfræðilegum þolmörkum sínum. Tæring, tæringargöt, útfellingar og þreytubrot í suðusaumum eru ekki spurning um \"hvort\" heldur \"hvenær\". Í háhýsabyggingum er leki ekki bara tæknilegt vandamál. Hann er fjárhagsleg áhætta sem getur stefnt heilu verkefni í hættu.",
+        "p3": "K Aqua afkastafjölliður (PP-R og PPRCT) gjörbreyta leikreglunum í innviðum háhýsa. Þær tærast ekki. Þær kalka ekki. Og með einsleitri hitasuðutækni okkar renna rör og tengistykki saman á sameindastigi í eina, óaðskiljanlega heild. Hringrásarkerfið verður jafn sterkt og efnið sjálft."
       },
       "sticky": {
-        "eyebrow": "Extrembedingungen",
-        "title": "Die Physik der Höhe meistern.",
-        "lead": "Vier fundamentale Herausforderungen im Hochhausbau und wie die deutsche Ingenieurskunst von K Aqua sie überwindet.",
+        "eyebrow": "Öfgaskilyrði",
+        "title": "Að ná tökum á eðlisfræði hæðarinnar.",
+        "lead": "Fjórar grundvallaráskoranir í háhýsabyggingum og hvernig þýsk verkfræðilist K Aqua sigrast á þeim.",
         "items": [
           {
             "title": "Extremer Hydrostatischer Druck",
@@ -7852,9 +7730,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Spezifikationen",
-        "title": "Architektur für die Ewigkeit.",
-        "lead": "Präzisionsgefertigt nach strengsten deutschen Maßstäben für 100% Wartungsfreiheit. Wir definieren den globalen Standard im Segment der Rohrleitungssysteme für Wolkenkratzer.",
+        "eyebrow": "Tækniforskriftir",
+        "title": "Byggingarlist fyrir eilífðina.",
+        "lead": "Nákvæmnisframleitt eftir ströngustu þýskum stöðlum fyrir 100% viðhaldsfrelsi. Við skilgreinum alþjóðlega staðalinn á sviði lagnakerfa fyrir skýjakljúfa.",
         "items": [
           {
             "title": "Die PPRCT Revolution",
@@ -7875,8 +7753,8 @@
         ]
       },
       "timeline": {
-        "title": "Der Projektzyklus",
-        "desc": "Von der ersten Strömungssimulation bis zum jahrzehntelangen, wartungsfreien Betrieb. So begleitet das K Aqua Engineering Team Ihr Megaprojekt von der Idee bis zur Inbetriebnahme.",
+        "title": "Verkefnahringrásin",
+        "desc": "Frá fyrstu rennslishermun til áratuga af viðhaldsfríum rekstri. Svona fylgir verkfræðiteymi K Aqua stórverkefninu þínu frá hugmynd til gangsetningar.",
         "items": [
           {
             "year": "Phase 1",
@@ -7906,13 +7784,13 @@
         ]
       },
       "data": {
-        "eyebrow": "Die Daten",
-        "title": "Faktenbasierte Überlegenheit.",
-        "lead": "Generalunternehmer glauben keinen Marketingversprechen. Sie glauben an Zugfestigkeit, Kriechkurven, Staudruck-Widerstand und FNCT (Full Notch Creep Tests).",
-        "h3_1": "Molekulare Beständigkeit",
-        "p1": "Die Lebensdauer eines Kunststoffrohrs unter Druck und Temperatur wird durch die Zeitstand-Innendruckfestigkeit (Kriechkurven) bestimmt. Die branchenüblichen Standardvorgaben gehen von einer 50-jährigen Betriebsdauer aus. Unsere internen Labortests und thermisch-oxidativen Alterungssimulationen verifizieren eine Belastbarkeit für eine Lebensdauer von über 100 Jahren. Das K Aqua PPRCT Material verzögert das Eintreten von thermisch-oxidativem Abbau signifikant, selbst in Zirkulationsleitungen mit permanent hohen Temperaturen.",
-        "h3_2": "Hydraulische Strömungsdynamik",
-        "p2": "Metallrohre werden im Laufe der Jahre durch Korrosion und Inkrustation rau. Der Rohrreibungsverlust steigt, der Querschnitt verengt sich, der Energieaufwand für die Förderpumpen explodiert. K Aqua Rohre weisen eine absolute Oberflächenrauhigkeit von k = 0,007 mm auf. Diese spiegelglatte Oberfläche bleibt über die gesamte Lebensdauer absolut konstant. Das Resultat: Minimaler Druckverlust, massive Energieeinsparungen beim Pumpenbetrieb und absolute Hygiene, da sich weder Biofilm noch Legionellen anheften können.",
+        "eyebrow": "Gögnin",
+        "title": "Yfirburðir byggðir á staðreyndum.",
+        "lead": "Aðalverktakar trúa ekki markaðsloforðum. Þeir trúa á togstyrk, skriðferla, þrýstiviðnám og FNCT (Full Notch Creep Tests).",
+        "h3_1": "Sameindaþol",
+        "p1": "Endingartími plaströrs undir þrýstingi og hita ræðst af langtíma innri þrýstiþoli (skriðferlum). Hefðbundnar staðalkröfur iðnaðarins gera ráð fyrir 50 ára rekstrartíma. Innri rannsóknarstofuprófanir okkar og varma-oxunar öldrunarhermanir staðfesta þol fyrir endingartíma yfir 100 ár. K Aqua PPRCT efnið seinkar verulega upphafi varma-oxunar niðurbrots, jafnvel í hringrásarleiðslum með varanlega háum hita.",
+        "h3_2": "Vatnsaflfræðileg rennslisfræði",
+        "p2": "Málmrör verða hrjúf með árunum vegna tæringar og útfellinga. Núningstap í rörum eykst, þversniðið þrengist og orkunotkun dælanna rýkur upp úr öllu valdi. K Aqua rör hafa algjöra yfirborðshrýfi upp á k = 0,007 mm. Þetta spegilslétta yfirborð helst algjörlega óbreytt allan endingartímann. Niðurstaðan: Lágmarks þrýstitap, gríðarlegur orkusparnaður í dælurekstri og algjört hreinlæti, þar sem hvorki lífhimna né hermannaveikisbakteríur geta fest sig.",
         "stats": [
           {
             "label": "Dichte (g/cm³)",
@@ -7952,15 +7830,15 @@
         ]
       },
       "cta": {
-        "title": "Bereit, die Skyline der Zukunft zu prägen?",
-        "desc": "Sprechen Sie mit unserem dedizierten Hochhaus-Engineering Team über Strömungsberechnungen, statische Auslegungen und maßgeschneiderte Prefab-Lösungen für Ihr nächstes Megaprojekt.",
-        "button1": "Projekt anfragen",
-        "button2": "Technischen Support kontaktieren"
+        "title": "Tilbúin/n að móta borgarlínu framtíðarinnar?",
+        "desc": "Ræddu við sérhæft háhýsa-verkfræðiteymi okkar um rennslisútreikninga, burðarþolshönnun og sérsniðnar forsmíðaðar lausnir fyrir næsta stórverkefni þitt.",
+        "button1": "Senda fyrirspurn um verkefni",
+        "button2": "Hafa samband við tækniaðstoð"
       }
     },
     "rechenzentrum": {
       "meta": {
-        "title": "Rechenzentren Infrastruktur | K Aqua",
+        "title": "Innviðir fyrir gagnaver | K Aqua",
         "desc": "K Aqua Rechenzentren: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie Lösungen für moderne Gagnaver (Data Centers)."
       },
       "scroll": {
@@ -8011,26 +7889,26 @@
             "text": "Vor der Übergabe erfolgt eine unerbittliche hydraulische Druck- und Belastungsprüfung. Erst wenn das System diese Tests besteht, erteilen wir die Freigabe und übernehmen die volle Systemgarantie."
           }
         ],
-        "title": "Der Engineering-Prozess",
-        "desc": "Von der hydrodynamischen Skizze bis zur finalen Abnahme: Wie wir globale Hyperscale-Infrastrukturen ohne Kompromisse und in Rekordzeit realisieren."
+        "title": "Verkfræðiferlið",
+        "desc": "Frá vatnsaflfræðilegri skissu til lokaúttektar: Hvernig við byggjum alþjóðlega innviði í risaskala án málamiðlana og á mettíma."
       },
       "hero": {
-        "eyebrow": "Hyperscale & Colocation Infrastructure",
-        "title1": "Zero-Downtime Infrastruktur.",
+        "eyebrow": "Hyperscale & Colocation innviðir",
+        "title1": "Innviðir án niðritíma.",
         "title2": "Engineered in Germany.",
-        "desc": "Wenn Kühlsysteme das Herzstück globaler Rechenzentren bilden, ist Materialversagen keine Option. Entdecken Sie die sicherste, effizienteste und skalierbarste PP-R Leitungslösung für geschäftskritische Kälte- und Klimatechnik.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technisches Whitepaper"
+        "desc": "Þegar kælikerfi eru hjartað í alþjóðlegum gagnaverum er efnisbilun ekki valkostur. Kynntu þér öruggustu, hagkvæmustu og skalanlegustu PP-R lagnalausnina fyrir rekstrarlega mikilvæga kæli- og loftræstitækni.",
+        "cta1": "Senda fyrirspurn um verkefni",
+        "cta2": "Tæknileg hvítbók"
       },
       "section1": {
-        "eyebrow": "Mission-Critical Cooling",
-        "title": "Warum klassische Rohre scheitern.",
-        "lead": "Die Anforderungen moderner Hyperscaler und KI-Cluster überschreiten die physikalischen Grenzen traditioneller Metallsysteme."
+        "eyebrow": "Rekstrarlega mikilvæg kæling",
+        "title": "Hvers vegna hefðbundin rör bregðast.",
+        "lead": "Kröfur nútíma risagagnavera og gervigreindarklasa fara fram úr eðlisfræðilegum mörkum hefðbundinna málmkerfa."
       },
       "section2": {
-        "eyebrow": "Die Überlegenheit von PP-R",
-        "title": "Materialwissenschaft für das 21. Jahrhundert.",
-        "lead": "Jedes atomare Detail unseres Systems wurde für absolute Ausfallsicherheit und Dauerhaftigkeit optimiert."
+        "eyebrow": "Yfirburðir PP-R",
+        "title": "Efnisvísindi fyrir 21. öldina.",
+        "lead": "Hvert einasta smáatriði kerfisins okkar var fínstillt fyrir algjört rekstraröryggi og varanleika."
       },
       "bento": {
         "items": [
@@ -8053,32 +7931,32 @@
         ]
       },
       "cta": {
-        "title": "Bereit für kompromisslose Sicherheit?",
-        "desc": "Verbinden Sie sich mit unserem Engineering Team. Wir analysieren Ihr nächstes Rechenzentrums-Megaprojekt und liefern die Infrastruktur der Zukunft.",
-        "button": "Engineering-Gespräch vereinbaren"
+        "title": "Tilbúin/n fyrir málamiðlunarlaust öryggi?",
+        "desc": "Tengstu verkfræðiteymi okkar. Við greinum næsta gagnavers-stórverkefni þitt og afhendum innviði framtíðarinnar.",
+        "button": "Bóka verkfræðifund"
       }
     },
     "vorfertigung": {
       "meta": {
-        "title": "Vorfertigung Infrastruktur | K Aqua",
-        "desc": "K Aqua Vorfertigung: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie unsere Vorfertigungslösungen."
+        "title": "Innviðir forsmíði | K Aqua",
+        "desc": "K Aqua forsmíði: Málamiðlunarlaust öryggi með þýskri verkfræði fyrir alþjóðleg stórverkefni. Kynntu þér forsmíðalausnir okkar."
       },
       "hero": {
         "badge": "German Engineering. Global Impact.",
         "title1": "Forvinnsla (Prefabrication).",
-        "title2": "Neu definiert.",
-        "desc": "Die industrielle Autorität für makellose, vorgefertigte Rohrleitungssysteme. Entwickelt, um Generationen zu überdauern, gefertigt mit der Präzision, die den Weltmarkt anführt. Wo Fehler keine Option sind, beginnt K Aqua.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technische Spezifikationen"
+        "title2": "Endurskilgreind.",
+        "desc": "Iðnaðaryfirvaldið fyrir gallalaus, forsmíðuð lagnakerfi. Þróuð til að endast kynslóðir, framleidd með nákvæmninni sem leiðir heimsmarkaðinn. Þar sem mistök eru ekki valkostur, þar byrjar K Aqua.",
+        "cta1": "Senda fyrirspurn um verkefni",
+        "cta2": "Tækniforskriftir"
       },
       "intro": {
-        "eyebrow": "Die Philosophie der Perfektion",
-        "title": "Warum der Weltmarkt auf K Aqua vertraut.",
+        "eyebrow": "Hugmyndafræði fullkomnunarinnar",
+        "title": "Hvers vegna heimsmarkaðurinn treystir K Aqua.",
         "lead": "Wenn Sie ein Gebäude entwerfen, das den Himmel kratzt, oder ein Krankenhaus, in dem jede Sekunde zählt, können Sie sich nicht auf die Variablen der Baustellenfertigung verlassen. Sie benötigen die klinische Präzision einer industriellen Forvinnsla (Prefabrication).",
-        "p1": "In der modernen Bauindustrie sind Zeit, Qualität und Sicherheit die wertvollsten Ressourcen. Traditionelle Rohrmontage auf der Baustelle birgt unkalkulierbare Risiken: Wetterbedingungen, schwankende handwerkliche Qualität, Platzmangel und unvorhersehbare Verzögerungen. K Aqua eliminiert diese Variablen vollständig.",
-        "p2": "Unsere Vorfertigungslösungen transformieren das unberechenbare Handwerk der Rohrinstallation in einen hochgradig kontrollierten, industriellen Prozess. In unseren deutschen Produktionsstätten herrschen optimale Bedingungen. Temperatur, Luftfeuchtigkeit, Sauberkeit: alles ist exakt auf den Schweißprozess unserer PPR-C (Polypropylen Random Copolymer) Systeme abgestimmt.",
-        "quote": "\"Wir verkaufen keine Rohre. Wir verkaufen die absolute Gewissheit, dass ein System für die nächsten 50 Jahre wartungsfrei funktionieren wird.\"",
-        "p3": "Von komplexen Verteilerstationen über Steigleitungen bis hin zu maßgeschneiderten Sonderlösungen für industrielle Kühlanlagen. Wir fertigen nach Ihren ISO-Zeichnungen oder entwickeln gemeinsam mit Ihrem Engineering Team den optimalen digitalen Zwilling, der dann in physische Realität umgesetzt wird."
+        "p1": "Í nútíma byggingariðnaði eru tími, gæði og öryggi verðmætustu auðlindirnar. Hefðbundin lagnavinna á byggingarstað felur í sér ófyrirsjáanlega áhættu: veðurskilyrði, sveiflukennd handverksgæði, plássleysi og ófyrirséðar tafir. K Aqua útrýmir þessum breytum algjörlega.",
+        "p2": "Forsmíðalausnir okkar umbreyta ófyrirsjáanlegu handverki lagnauppsetningar í mjög vel stýrt, iðnaðarlegt ferli. Í þýskum framleiðslustöðvum okkar ríkja kjöraðstæður. Hitastig, rakastig, hreinlæti: allt er nákvæmlega stillt að suðuferli PPR-C (pólýprópýlen random samfjölliðu) kerfa okkar.",
+        "quote": "\"Við seljum ekki rör. Við seljum algjöra fullvissu um að kerfi muni virka viðhaldsfrítt næstu 50 árin.\"",
+        "p3": "Frá flóknum dreifistöðvum um stigleiðslur til sérsniðinna lausna fyrir kælikerfi í iðnaði. Við framleiðum eftir ISO-teikningum þínum eða þróum í samvinnu við verkfræðiteymi þitt ákjósanlegan stafrænan tvíbura sem er síðan gerður að áþreifanlegum veruleika."
       },
       "sticky": {
         "items": [
@@ -8101,9 +7979,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Technische Überlegenheit",
-        "title": "Die DNA unserer Systeme.",
-        "lead": "geprüft nach DIN EN ISO 15874. Konzipiert für die Ewigkeit. Ein tiefer Einblick in die technischen Spezifikationen, die uns zur Benchmark machen.",
+        "eyebrow": "Tæknilegir yfirburðir",
+        "title": "DNA kerfa okkar.",
+        "lead": "Prófað samkvæmt DIN EN ISO 15874. Hannað fyrir eilífðina. Djúp innsýn í tækniforskriftirnar sem gera okkur að viðmiðinu.",
         "items": [
           {
             "title": "PPR-C (Typ 3) Material",
@@ -8124,11 +8002,11 @@
         ]
       },
       "visual": {
-        "title1": "Die Ästhetik der",
-        "title2": "Stoffschlüssigkeit.",
-        "p1": "Betrachten Sie die Schweißnaht eines K Aqua Vorfertigungsmoduls unter dem Mikroskop. Sie werden keine Naht finden. Sie werden ein einziges, homogenes Stück Material sehen.",
-        "p2": "Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer geprüften Kunststoffschweißer. Jeder Parameter: Temperatur, Aufwärmzeit, Fügedruck und Abkühlzeit, wird pedantisch überwacht.",
-        "p3": "Es ist diese mikroskopische Besessenheit für Details, die unsere makroskopische Garantie von über 50 Jahren störungsfreiem Betrieb ermöglicht.",
+        "title1": "Fagurfræði",
+        "title2": "efnissamrunans.",
+        "p1": "Skoðaðu suðusaum K Aqua forsmíðaeiningar í smásjá. Þú finnur engan saum. Þú sérð eitt samfellt, einsleitt stykki af efni.",
+        "p2": "Þetta ferli krefst ekki aðeins háþróaðs vélbúnaðar heldur einnig þjálfaðs auga og styrkrar handar vottaðra plastsuðumanna okkar. Sérhver breyta: hitastig, upphitunartími, samsetningarþrýstingur og kælitími, er vöktuð af mikilli nákvæmni.",
+        "p3": "Það er þessi smásæja nákvæmni í smáatriðum sem gerir stórsæja ábyrgð okkar á yfir 50 ára truflanalausum rekstri mögulega.",
         "items": [
           "Präzisionsfräsen der Rohrenden",
           "Computergesteuerte Erhitzung (260°C)",
@@ -8136,9 +8014,9 @@
         ]
       },
       "timeline": {
-        "eyebrow": "Prozessarchitektur",
-        "title": "Von der CAD-Zeichnung zur Baustelle.",
-        "lead": "Ein transparenter, rigider Prozess, der Just-in-Time-Lieferungen rund um den Globus garantiert.",
+        "eyebrow": "Ferlishönnun",
+        "title": "Frá CAD-teikningu að byggingarstað.",
+        "lead": "Gagnsætt og strangt ferli sem tryggir just-in-time afhendingar um allan heim.",
         "events": [
           {
             "title": "Phase 1: Engineering & BIM",
@@ -8168,24 +8046,24 @@
         ]
       },
       "manifesto": {
-        "eyebrow": "Das Manifest der Langlebigkeit",
-        "title": "Zugelassen für die anspruchsvollsten Umgebungen des Planeten.",
-        "p1": "K Aqua Vorfertigungen sind nicht für den Durchschnitt gemacht. Sie sind für das Extreme entworfen. Wenn die Außentemperaturen in Dubai auf 50°C steigen oder in skandinavischen Wintern tief unter den Gefrierpunkt fallen, bleibt die Integrität unserer Polypropylen-Strukturen unangetastet.",
-        "p2": "Unsere Trinkwassersysteme erfüllen die strengsten hygienischen Anforderungen weltweit, einschließlich KTW-BWGL und W270. Das Material gibt keinerlei Geruch, Geschmack oder Schadstoffe an das Wasser ab. Es verhindert proaktiv das Wachstum von Legionellen durch seine extrem glatte innere Oberfläche, die keine Nährböden für Biofilme bietet.",
-        "p3": "Gleichzeitig sind unsere industriellen Kühl- und Heizwasserleitungen in der Lage, aggressivsten Chemikalien standzuhalten. Die SDR-Klassifizierungen (Standard Dimension Ratio) unserer Rohre erlauben eine exakte Anpassung an die spezifischen Druck- und Temperaturprofile Ihres Projekts.",
-        "p4": "Wir betrachten Vorfertigung nicht als bloße Dienstleistung, sondern als eine architektonische Verantwortung. Jedes Modul, das auf der Baustelle ankommt, ist sofort einbaufertig (Plug & Play). Es reduziert die Installationszeit um bis zu 70 %, minimiert den Ausschuss auf null und eliminiert die Notwendigkeit für großflächige Materiallagerung auf der Baustelle."
+        "eyebrow": "Stefnuyfirlýsing um endingu",
+        "title": "Samþykkt fyrir kröfuhörðustu umhverfi jarðar.",
+        "p1": "Forsmíðaeiningar K-Aqua eru ekki gerðar fyrir meðaltalið. Þær eru hannaðar fyrir öfgarnar. Þegar útihitinn í Dúbaí fer upp í 50°C eða fellur langt undir frostmark í skandinavískum vetrum helst heilleiki pólýprópýlen-burðarvirkja okkar óskertur.",
+        "p2": "Neysluvatnskerfi okkar uppfylla ströngustu hreinlætiskröfur heims, þar á meðal KTW-BWGL og W270. Efnið gefur hvorki lykt, bragð né skaðleg efni frá sér í vatnið. Það kemur með virkum hætti í veg fyrir vöxt legíónellu vegna afar sléttrar innri yfirborðsáferðar sem býður lífrænum útfellingum engan jarðveg.",
+        "p3": "Um leið standast iðnaðarlagnir okkar fyrir kæli- og hitavatn árásargjörnustu efnasambönd. SDR-flokkun (Standard Dimension Ratio) röra okkar gerir kleift að laga kerfið nákvæmlega að sérstökum þrýstings- og hitastigsskilyrðum verkefnisins þíns.",
+        "p4": "Við lítum ekki á forsmíði sem einfalda þjónustu heldur sem byggingarfræðilega ábyrgð. Hver eining sem berst á byggingarstað er tilbúin til uppsetningar strax (Plug & Play). Hún styttir uppsetningartíma um allt að 70 %, lágmarkar efnissóun niður í núll og útilokar þörfina á umfangsmikilli efnisgeymslu á byggingarstað."
       },
       "cta": {
-        "title": "Bereit für kompromisslose Qualität?",
+        "title": "Tilbúin(n) fyrir gæði án málamiðlana?",
         "desc": "Verlassen Sie sich bei Ihrem nächsten Megaprojekt auf die absolute Verlässlichkeit industrieller deutscher Forvinnsla (Prefabrication). Unser Engineering Team wartet auf Ihre CAD-Modelle.",
-        "button1": "Projekt anfragen",
-        "button2": "Technischen Support kontaktieren"
+        "button1": "Senda verkefnafyrirspurn",
+        "button2": "Hafa samband við tæknilega aðstoð"
       }
     },
     "index": {
       "meta": {
-        "title": "PP-R Materialvorteile und Physikalische Überlegenheit",
-        "desc": "Entdecken Sie unsere Hochleistungspolymersysteme für kritische Infrastrukturen. K-Aqua bietet maßgeschneiderte PP-R Lösungen für industrielle Anwendungen."
+        "title": "Efniskostir PP-R og eðlisfræðilegir yfirburðir",
+        "desc": "Kynntu þér hágæða fjölliðukerfi okkar fyrir mikilvæga innviði. K-Aqua býður sérsniðnar PP-R lausnir fyrir iðnaðarnotkun."
       },
       "sticky": {
         "items": [
@@ -8211,8 +8089,8 @@
           }
         ],
         "header": {
-          "title": "Physikalische Überlegenheit.",
-          "desc": "Die technischen Prinzipien, die K-AQUA Systemen ihre überragende Langlebigkeit und operative Sicherheit verleihen."
+          "title": "Eðlisfræðilegir yfirburðir.",
+          "desc": "Tæknilegu grundvallaratriðin sem veita K-AQUA kerfum framúrskarandi endingu og rekstraröryggi."
         }
       },
       "timeline": {
@@ -8238,25 +8116,25 @@
             "text": "Jahrzehntelanger, wartungsfreier Betrieb. Die inerten Oberflächen verhindern Inkrustation, während die molekulare Dichte absolute Leckagesicherheit bei maximaler Energieeffizienz garantiert."
           }
         ],
-        "title": "PROZESS-ARCHITEKTUR",
-        "desc": "Von der mathematischen Kalkulation bis zur ewigen Betriebssicherheit. Der Lebenszyklus einer K-AQUA Installation verläuft nach strengen ingenieurstechnischen Protokollen."
+        "title": "FERLISARKITEKTÚR",
+        "desc": "Frá stærðfræðilegum útreikningum til varanlegs rekstraröryggis. Líftími K-AQUA lagnakerfis fylgir ströngum verkfræðilegum verklagsreglum."
       },
       "hero": {
-        "eyebrow": "INDUSTRIELLE & BAUTECHNISCHE LÖSUNGEN",
+        "eyebrow": "LAUSNIR FYRIR IÐNAÐ OG BYGGINGARTÆKNI",
         "title1": "SYSTEMARCHITEKTUR",
-        "title2": "FÜR DIE EWIGKEIT.",
-        "desc": "Entdecken Sie die PP-R Materialvorteile und die physikalische Überlegenheit unserer Hochleistungspolymersysteme von K-Aqua. Entwickelt unter extremen Bedingungen, verifiziert durch kompromisslose deutsche Ingenieurskunst. Diese Systemarchitektur ist für die Ewigkeit konzipiert.",
-        "cta": "Kontakt aufnehmen"
+        "title2": "FYRIR EILÍFÐINA.",
+        "desc": "Kynntu þér efniskosti PP-R og eðlisfræðilega yfirburði hágæða fjölliðukerfa frá K-Aqua. Þróuð við öfgakenndar aðstæður og staðfest af óbilgjarnri þýskri verkfræði. Þessi kerfisarkitektúr er hannaður fyrir eilífðina.",
+        "cta": "Hafa samband"
       },
       "intro": {
-        "title": "Jenseits konventioneller Belastungsgrenzen.",
-        "p1": "Wo metallische Rohrsysteme durch Korrosion, Inkrustation und thermische Materialermüdung kapitulieren, beginnt das operative Spektrum von K-AQUA. Unsere Polypropylen Random Copolymer (PPR) Infrastrukturen definieren die physikalischen Grenzen des Fluidtransports neu.",
-        "p2": "Jeder Millimeter unseres Systems ist das Resultat jahrzehntelanger materialwissenschaftlicher Forschung. Wir liefern keine simplen Rohre; wir implementieren makellose, monolithische Lebensadern für Anlagen, die keinen Raum für Ausfälle tolerieren. Von arktischer Kälte bis hin zu siedenden industriellen Prozessen ist K-AQUA die architektonische Antwort auf extreme ingenieurstechnische Herausforderungen."
+        "title": "Handan hefðbundinna álagsmarka.",
+        "p1": "Þar sem málmlagnakerfi gefast upp fyrir tæringu, útfellingum og hitatengdri efnisþreytu hefst starfssvið K-AQUA. Innviðir okkar úr Polypropylene Random Copolymer (PPR) endurskilgreina eðlisfræðileg mörk vökvaflutnings.",
+        "p2": "Hver millimetri kerfisins er afrakstur áratuga rannsókna í efnisvísindum. Við afhendum ekki einföld rör; við setjum upp gallalausar, einsteyptar lífæðar fyrir mannvirki sem þola engar bilanir. Frá heimskautakulda til sjóðandi iðnaðarferla er K-AQUA byggingarfræðilega svarið við öfgakenndum verkfræðilegum áskorunum."
       },
       "bento": {
         "header": {
-          "title": "Anwendungsvektoren.",
-          "desc": "Skalierbare Systemlösungen für spezifische industrielle und bautechnische Sektoren."
+          "title": "Notkunarsvið.",
+          "desc": "Skalanlegar kerfislausnir fyrir tiltekna geira iðnaðar og byggingartækni."
         },
         "items": [
           {
@@ -8283,26 +8161,26 @@
       },
       "stats": {
         "0": {
-          "label": "Jahre garantierte Lebensdauer",
-          "desc": "Unter Standard-Betriebsbedingungen (20°C / 10 bar) übersteigt die Haltbarkeit von K-AQUA PPR-Systemen problemlos ein halbes Jahrhundert ohne signifikante Materialdegradation."
+          "label": "Ára ábyrgur endingartími",
+          "desc": "Við staðlaðar rekstraraðstæður (20°C / 10 bar) fer ending K-AQUA PPR-kerfa auðveldlega fram úr hálfri öld án marktækrar efnishrörnunar."
         },
         "1": {
-          "label": "W/mK Wärmeleitfähigkeit",
-          "desc": "Im Vergleich zu Kupfer (380 W/mK) oder Stahl (50 W/mK) isoliert K-AQUA von Natur aus, was massive Einsparungen bei externer Dämmung und Energieverlusten bedeutet."
+          "label": "W/mK varmaleiðni",
+          "desc": "Í samanburði við kopar (380 W/mK) eða stál (50 W/mK) einangrar K-AQUA frá náttúrunnar hendi, sem þýðir verulegan sparnað í utanáliggjandi einangrun og orkutapi."
         },
         "2": {
-          "label": "Homogene Verbindungen",
-          "desc": "Durch molekulares Schweißen entsteht ein absolut nahtloses System. Das Rohr und der Fitting werden zu einer einzigen, untrennbaren Komponente fusioniert."
+          "label": "Einsleitar samsetningar",
+          "desc": "Með sameindasuðu verður til algjörlega samskeytalaust kerfi. Rör og tengistykki renna saman í eina, óaðskiljanlega einingu."
         },
-        "title": "Ingenieurskunst in Zahlen."
+        "title": "Verkfræði í tölum."
       },
       "cta": {
-        "eyebrow": "PROJEKT-INITIIERUNG",
-        "title1": "BEREIT FÜR DIE",
-        "title2": "NÄCHSTE DIMENSION.",
-        "desc": "Kontaktieren Sie unsere Ingenieure für eine detaillierte technische Evaluation Ihrer Spezifikationen und Herausforderungen.",
-        "button1": "Ingenieursteam kontaktieren",
-        "button2": "Spezifikationen ansehen"
+        "eyebrow": "UPPHAF VERKEFNIS",
+        "title1": "TILBÚIN(N) FYRIR",
+        "title2": "NÆSTU VÍDD.",
+        "desc": "Hafðu samband við verkfræðinga okkar til að fá ítarlegt tæknilegt mat á kröfum þínum og áskorunum.",
+        "button1": "Hafa samband við verkfræðiteymið",
+        "button2": "Skoða tækniforskriftir"
       }
     }
   },
@@ -8463,53 +8341,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Gagnvirk",
+    "titleGrad": "kortasvíta",
+    "tabHq": "Höfuðstöðvar Waldsolms",
+    "tabRefs": "Þéttleikakort",
+    "tabSpec": "Kerfisval",
+    "hqTitle": "Aðalframleiðslu- og þróunarmiðstöð",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, Þýskalandi.",
+    "registryLabel": "Fyrirtækjaskrá:",
+    "phoneLabel": "Sími:",
+    "certLabel": "Vottun:",
+    "directions": "Opna leiðarlýsingu",
+    "aboutPlant": "Um verksmiðjuna í Waldsolms",
+    "sectorFilter": "Geirasía:",
+    "specPlaceholder": "Sláðu inn stað eða borg…",
+    "profileTitle": "Markaðs- og flutningssnið",
+    "profileHint": "Smelltu á kortið eða leitaðu að borg til að ræsa sjálfvirka kerfisforskrift og útreikning flutningsleiða.",
+    "marketAssign": "Markaðsflokkun",
+    "normLabel": "Staðall:",
+    "airDist": "Loftlína (frá höfuðstöðvum)",
+    "roadDist": "Akstursleið (áætluð)",
+    "recommended": "Ráðlagt lagnakerfi:",
+    "recUv": "UV-Protect ytra byrði",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Allir geirar",
+      "hotel": "Hótel",
+      "wohnen": "Íbúðarhúsnæði",
+      "infra": "Innviðir",
+      "klinik": "Sjúkrastofnun",
+      "buero": "Skrifstofa"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Vörur",
+      "markets-solutions": "Markaðir og lausnir",
+      "academy-resources": "Akademía og gagnabanki",
+      "company": "Fyrirtækið"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Vöruleit fyrir rör",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Mótunarhlutar og tengistykki",
+      "valves": "Lokar og ventlar",
+      "tools": "Verkfæri og fylgihlutir",
+      "transition": "Millistykki fyrir rör",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8522,48 +8400,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Verkefnafyrirspurn um lagnakerfi",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Vefkort (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Veldu tungumálið þitt",
+    "subtitle": "65 tungumál · snúðu hnettinum, veldu svæði, staðfestu.",
+    "searchPlaceholder": "Leita að tungumáli eða síðu …",
+    "pagesSection": "Síður og leiðsögn",
+    "noResults": "Ekkert tungumál fannst.",
+    "confirm": "Staðfesta",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Gildir fyrir allan vefinn",
+    "active": "virkt"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Hvernig getum við aðstoðað þig?",
+    "step1Desc": "Veldu viðeigandi svið fyrir erindi þitt.",
+    "optSales": "Sala og verkefni",
+    "optSalesDesc": "Verðfyrirspurnir, stórverkefni og afhendingartímar.",
+    "optTech": "Tæknileg aðstoð",
+    "optTechDesc": "Tækniforskriftir, uppsetning og kerfishönnun.",
+    "optOther": "Almenn fyrirspurn",
+    "optOtherDesc": "Markaðsmál, störf eða annað.",
+    "step2Title": "Nánar um erindi þitt",
+    "step2Desc": "Vinsamlegast lýstu verkefninu eða spurningunni í stuttu máli.",
+    "messagePlaceholder": "Skilaboðin þín til okkar...",
+    "step3Title": "Tengiliðaupplýsingar þínar",
+    "step3Desc": "Næstum búið! Hvernig náum við í þig?",
+    "nameLabel": "Fullt nafn",
+    "companyLabel": "Fyrirtæki / stofnun",
+    "emailLabel": "Netfang",
+    "phoneLabel": "Símanúmer",
+    "step4Title": "Skilaboð send!",
+    "step4Desc": "Kærar þakkir fyrir fyrirspurnina. Einn af sérfræðingum okkar hefur samband við þig innan skamms.",
+    "btnNext": "Áfram",
+    "btnBack": "Til baka",
+    "btnSubmit": "Senda fyrirspurn",
+    "btnSending": "Sendi…",
+    "btnHome": "Aftur á forsíðu",
+    "sendError": "Sending mistókst. Vinsamlegast reyndu aftur eða hringdu beint í okkur: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

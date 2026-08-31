@@ -2,7 +2,7 @@
 // components/kontakt/KontaktBlock.tsx
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
-import { KONTAKT_SLUGS, type KontaktSlug } from "@/content/kontakt-bloecke";
+import { KONTAKT_SLUGS, KONTAKT_INTERESSE, type KontaktSlug } from "@/content/kontakt-bloecke";
 import { resolveKontaktSlug } from "@/lib/utils/resolveKontaktSlug";
 import { KontaktForm } from "./KontaktForm";
 
@@ -98,7 +98,10 @@ export function KontaktBlock({ slug, variant = "block", tone = "", dynamicContex
     head: t(`${key}.head`),
     short: t(`${key}.short`),
     text: resolvedDynamicContext ? `${t(`${key}.text`)} — ${resolvedDynamicContext}` : t(`${key}.text`),
-    interest: t(`${key}.interest`),
+    // NICHT aus den Sprachdateien: dieser Wert wird unveraendert abgesendet
+    // und landet im CRM-Feld. Uebersetzt war er in 49 der 65 Sprachen —
+    // siehe KONTAKT_INTERESSE in content/kontakt-bloecke.ts.
+    interest: KONTAKT_INTERESSE[key],
     done: t(`${key}.done`),
   };
 

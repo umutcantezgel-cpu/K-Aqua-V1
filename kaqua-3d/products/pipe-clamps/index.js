@@ -42,6 +42,8 @@ const product = {
       name: 'K-Aqua_Rohrschelle_d' + size,
       materials: ['pprGreen', 'epdm', 'steel'],
       seed: 151,
+      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
+      emboss: false,
       clipPlane,
     });
 

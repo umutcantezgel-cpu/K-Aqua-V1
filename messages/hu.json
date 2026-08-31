@@ -46,30 +46,30 @@
     "edgePageIndex": "Oldalindex",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Csőrendszerek",
+      "allProducts": "Összes termék",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Iparágspecifikus alkalmazások",
+      "digitalTools": "Digitális eszközök",
+      "finderDesc": "A megfelelő rendszer konfigurálása",
+      "co2Desc": "Környezeti mérleg kiszámítása",
+      "academyDesc": "Képzések és tanúsítványok",
+      "trustDesc": "Letöltések és tanúsítások",
+      "serviceDesc": "Tervezési támogatás",
+      "partnersDesc": "Legyen helyi partnerünk",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "A vállalat",
+      "companyDesc": "Küldetés, vízió és történet",
+      "careerDesc": "Nyitott pozíciók és vállalati kultúra",
+      "newsPress": "Hírek és sajtó",
+      "newsDesc": "Aktuális sajtóközlemények",
+      "sitemap": "Oldaltérkép",
+      "sitemapDesc": "Szerkezeti áttekintés",
+      "globalFootprint": "Globális jelenlét",
+      "globalMarkets": "Globális piacok",
+      "marketsDesc": "Tanúsított régiók",
+      "refProjects": "Referenciaprojektek",
+      "refDesc": "Sikeres telepítések"
     }
   },
   "groups": {
@@ -1551,39 +1551,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referenciák, amelyek történelmet írnak.",
-        "desc": "A Perzsa-öböl mesterséges szigeteitől az Alpok legexkluzívabb síparadicsomaiig. Ahol a lehetetlent építik, a K-Aqua már ott van."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "800 lakosztály és 4 hatalmas medencerendszer felszerelése. Az extrém sótartalom és az akár 50°C-os környezeti hőmérséklet maximális termikus és kémiai ellenállást követelt meg. A K-Aqua a teljes hideg- és melegvíz hálózatot szállította, beleértve a távhűtési (District Cooling) csatlakozást is."
-          },
-          {
-            "year": "Svájc",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Egy 6 csillagos üdülőhely 2000 méteres magasságban. A kihívás: Extrém fagyveszély az építési fázisban és maximális követelmények a hangszigeteléssel szemben. PP-R szálerősítésű csöveink magabiztosan elnyelték a hőtágulást és garantálták a csendes működést."
-          },
-          {
-            "year": "Szingapúr",
-            "title": "Vertical Forest Hotel",
-            "text": "Az ökológiai építészet 65 emeletes mesterműve. A több ezer erkélynövény bonyolult öntözőrendszere, valamint a teljes ivóvíz-infrastruktúra K-Aqua rendszerrel valósult meg. A homogén hegesztési technológia megóvta az épületet a mikroszkopikus szivárgásoktól."
-          },
-          {
-            "year": "Maldív-szigetek",
-            "title": "Zero-Emission Island Resort",
-            "text": "Közvetlenül a zátony fölé építve, abszolút környezetvédelmi megfelelőség volt az elvárás. A K-Aqua csövek 100%-ban újrahasznosíthatók, nem bocsátanak ki mikroműanyagot vagy nehézfémeket, és kopás nélkül ellenállnak az erősen korrozív sós tengeri levegőnek."
-          },
-          {
-            "year": "Jövő",
-            "title": "Az Ön Következő Megaprojektje",
-            "text": "Az építészet határai naponta kitolódnak. Készen állunk arra, hogy lerakjuk az alapokat a legmerészebb vízióihoz. Olyan technológiával, amely évtizedekkel megelőzi korát."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Kutatás és Fejlesztés",
         "title": "A megsemmisíthetetlenség <br/> kémiája.",
@@ -1673,11 +1640,11 @@
         ]
       },
       "visual": {
-        "title1": "Die Ästhetik der",
-        "title2": "Stoffschlüssigkeit.",
-        "p1": "Betrachten Sie die Schweißnaht eines K Aqua Vorfertigungsmoduls unter dem Mikroskop. Sie werden keine Naht finden. Sie werden ein einziges, homogenes Stück Material sehen.",
-        "p2": "Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer geprüften Kunststoffschweißer. Jeder Parameter: Temperatur, Aufwärmzeit, Fügedruck und Abkühlzeit, wird pedantisch überwacht.",
-        "p3": "Es ist diese mikroskopische Besessenheit für Details, die unsere makroskopische Garantie von über 50 Jahren störungsfreiem Betrieb ermöglicht.",
+        "title1": "Az anyagszerkezeti kötés",
+        "title2": "esztétikája.",
+        "p1": "Vizsgálja meg mikroszkóp alatt egy K-Aqua előregyártott modul hegesztési varratát. Nem talál varratot. Egyetlen, homogén anyagdarabot fog látni.",
+        "p2": "Ez a folyamat nemcsak fejlett gépparkot igényel, hanem minősített műanyaghegesztőink gyakorlott szemét és nyugodt kezét is. Minden paramétert – hőmérséklet, felmelegítési idő, illesztési nyomás és lehűlési idő – pedáns pontossággal felügyelünk.",
+        "p3": "Ez a mikroszkopikus részletek iránti megszállottság teszi lehetővé makroszkopikus garanciánkat: több mint 50 év zavartalan üzemet.",
         "items": [
           "Präzisionsfräsen der Rohrenden",
           "Computergesteuerte Erhitzung (260°C)",
@@ -1686,7 +1653,7 @@
       },
       "timeline": {
         "eyebrow": "A Folyamat",
-        "title": "Von der CAD-Zeichnung zur Baustelle.",
+        "title": "A CAD-rajztól az építkezésig.",
         "lead": "Tervezéstől a beépítésig",
         "events": [
           {
@@ -1717,18 +1684,18 @@
         ]
       },
       "manifesto": {
-        "eyebrow": "Das Manifest der Langlebigkeit",
+        "eyebrow": "A tartósság manifesztuma",
         "title": "Nem improvizálunk. Mi tervezünk.",
         "p1": "Egy építkezés kaotikus lehet. A csőrendszernek azonban nem szabad annak lennie.",
         "p2": "Az előregyártás biztosítja, hogy a kritikus infrastruktúra mindig azonos, kompromisszumok nélküli német minőségben készüljön el, függetlenül attól, hogy a világ mely pontján építkezik.",
-        "p3": "Gleichzeitig sind unsere industriellen Kühl- und Heizwasserleitungen in der Lage, aggressivsten Chemikalien standzuhalten. Die SDR-Klassifizierungen (Standard Dimension Ratio) unserer Rohre erlauben eine exakte Anpassung an die spezifischen Druck- und Temperaturprofile Ihres Projekts.",
-        "p4": "Wir betrachten Vorfertigung nicht als bloße Dienstleistung, sondern als eine architektonische Verantwortung. Jedes Modul, das auf der Baustelle ankommt, ist sofort einbaufertig (Plug & Play). Es reduziert die Installationszeit um bis zu 70 %, minimiert den Ausschuss auf null und eliminiert die Notwendigkeit für großflächige Materiallagerung auf der Baustelle."
+        "p3": "Ugyanakkor ipari hűtő- és fűtővíz-vezetékeink a legagresszívebb vegyszereknek is ellenállnak. Csöveink SDR (Standard Dimension Ratio) besorolásai lehetővé teszik a projekt specifikus nyomás- és hőmérsékletprofiljaihoz való pontos igazítást.",
+        "p4": "Az előregyártást nem puszta szolgáltatásnak, hanem építészeti felelősségnek tekintjük. Minden, az építkezésre érkező modul azonnal beépítésre kész (Plug & Play). Akár 70%-kal csökkenti a szerelési időt, nullára minimalizálja a hulladékot, és kiküszöböli a nagy helyigényű helyszíni anyagtárolás szükségességét."
       },
       "cta": {
         "title": "Tervezze meg velünk következő projektjét",
         "desc": "Vegye fel a kapcsolatot mérnökeinkkel az előregyártott megoldásokért.",
-        "button1": "Projekt anfragen",
-        "button2": "Technischen Support kontaktieren"
+        "button1": "Projektajánlat kérése",
+        "button2": "Műszaki támogatás elérése"
       }
     },
     "hochhaus_accident": {
@@ -1939,8 +1906,8 @@
         ]
       },
       "timeline": {
-        "title": "Der Projektzyklus",
-        "desc": "Von der ersten Strömungssimulation bis zum jahrzehntelangen, wartungsfreien Betrieb. So begleitet das K Aqua Engineering Team Ihr Megaprojekt von der Idee bis zur Inbetriebnahme.",
+        "title": "A projektciklus",
+        "desc": "Az első áramlásszimulációtól az évtizedes, karbantartásmentes üzemig. Így kíséri a K-Aqua mérnökcsapata az Ön megaprojektjét az ötlettől az üzembe helyezésig.",
         "items": [
           {
             "year": "Phase 1",
@@ -1970,13 +1937,13 @@
         ]
       },
       "data": {
-        "eyebrow": "Die Daten",
+        "eyebrow": "Az adatok",
         "title": "PP-R SDR 6 a magasépítésben",
-        "lead": "Generalunternehmer glauben keinen Marketingversprechen. Sie glauben an Zugfestigkeit, Kriechkurven, Staudruck-Widerstand und FNCT (Full Notch Creep Tests).",
-        "h3_1": "Molekulare Beständigkeit",
-        "p1": "Die Lebensdauer eines Kunststoffrohrs unter Druck und Temperatur wird durch die Zeitstand-Innendruckfestigkeit (Kriechkurven) bestimmt. Die branchenüblichen Standardvorgaben gehen von einer 50-jährigen Betriebsdauer aus. Unsere internen Labortests und thermisch-oxidativen Alterungssimulationen verifizieren eine Belastbarkeit für eine Lebensdauer von über 100 Jahren. Das K Aqua PPRCT Material verzögert das Eintreten von thermisch-oxidativem Abbau signifikant, selbst in Zirkulationsleitungen mit permanent hohen Temperaturen.",
-        "h3_2": "Hydraulische Strömungsdynamik",
-        "p2": "Metallrohre werden im Laufe der Jahre durch Korrosion und Inkrustation rau. Der Rohrreibungsverlust steigt, der Querschnitt verengt sich, der Energieaufwand für die Förderpumpen explodiert. K Aqua Rohre weisen eine absolute Oberflächenrauhigkeit von k = 0,007 mm auf. Diese spiegelglatte Oberfläche bleibt über die gesamte Lebensdauer absolut konstant. Das Resultat: Minimaler Druckverlust, massive Energieeinsparungen beim Pumpenbetrieb und absolute Hygiene, da sich weder Biofilm noch Legionellen anheften können.",
+        "lead": "A generálkivitelezők nem hisznek a marketingígéreteknek. Szakítószilárdságban, kúszásgörbékben, torlónyomás-állóságban és FNCT-vizsgálatokban (Full Notch Creep Test) hisznek.",
+        "h3_1": "Molekuláris tartósság",
+        "p1": "A műanyag cső nyomás és hőmérséklet alatti élettartamát a tartós belsőnyomás-állóság (kúszásgörbék) határozza meg. Az iparágban szokásos előírások 50 éves üzemidőből indulnak ki. Belső laborvizsgálataink és termooxidatív öregedési szimulációink több mint 100 éves élettartamra igazolják a terhelhetőséget. A K-Aqua PPRCT anyag jelentősen késlelteti a termooxidatív lebomlás megindulását, még a tartósan magas hőmérsékletű cirkulációs vezetékekben is.",
+        "h3_2": "Hidraulikus áramlásdinamika",
+        "p2": "A fémcsövek az évek során a korrózió és a lerakódások miatt érdessé válnak. A csősúrlódási veszteség nő, a keresztmetszet szűkül, a szivattyúk energiaigénye az egekbe szökik. A K-Aqua csövek abszolút felületi érdessége k = 0,007 mm. Ez a tükörsima felület a teljes élettartam alatt tökéletesen állandó marad. Az eredmény: minimális nyomásveszteség, jelentős energiamegtakarítás a szivattyúüzemben és abszolút higiénia, mivel sem biofilm, sem legionella nem tud megtapadni.",
         "stats": [
           {
             "label": "Dichte (g/cm³)",
@@ -2277,25 +2244,25 @@
     "nextTitle": "Mennyire klímabarát az Ön tervezése?",
     "nextLead": "Vigye át a dimenziót és hosszt közvetlenül a CO₂-kalkulátorba, és hasonlítsa össze rézzel, rozsdamentes acéllal és PVC-vel.",
     "nextCta": "Tovább a CO₂-Kalkulátorhoz",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Böngésszen teljes termékkínálatunkban kategória, név vagy cikkszám szerint.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Csövek",
+    "catFittings": "Idomok",
+    "catValves": "Szerelvények",
+    "catTools": "Szerszámok",
+    "catTransitionFittings": "Átmeneti idomok",
+    "catAccessories": "Tartozékok",
+    "catWeldInSaddles": "Kiváló minőségű PP-R behegeszthető nyereg",
+    "category": "Kategória",
+    "search": "Keresés",
+    "searchPlaceholder": "Cikkszám vagy név...",
+    "foundFam": "termékcsalád található",
+    "catalogPdf": "Katalógus PDF formátumban",
+    "colName": "Terméknév",
+    "colCat": "Kategória",
+    "colCodes": "Cikkszámok",
+    "noResultsText": "Nem találtunk a keresési feltételeknek megfelelő terméket. Kérjük, próbálkozzon más kifejezéssel, vagy módosítsa a kategóriát.",
+    "resetFilters": "Szűrők visszaállítása"
   },
   "trustAndCases": {
     "eyebrow": "Esettanulmányok",
@@ -2562,8 +2529,7 @@
         "d": "A higiénia itt nem alku tárgya: A sima belső felület (0,007 mm) gátolja a biofilm és lerakódások képződését, az anyag íz- és szagtalan marad.",
         "pts": [
           "Higiéniai semlegesség",
-          "Korróziómentes: nincs lyukkorrózió",
-          "Referencia: Fokvárosi új kórház"
+          "Korróziómentes: nincs lyukkorrózió"
         ]
       },
       {
@@ -2571,8 +2537,7 @@
         "d": "Melegvíz-keringetés éjjel-nappal: az alacsony hővezető képesség tartósan energiát takarít meg, a PPRCT bírja a 70 °C-os folyamatos üzemet.",
         "pts": [
           "Termikus hatékonyság",
-          "PPRCT cirkulációhoz",
-          "Referencia: Isztambuli szállodakomplexum"
+          "PPRCT cirkulációhoz"
         ]
       },
       {
@@ -2589,8 +2554,7 @@
         "d": "UV-stabilizált változatok üvegházi és szabadtéri öntözéshez: könnyű, gyorsan telepíthető, fagyállóbb, mint a merev rendszerek.",
         "pts": [
           "UV-álló kivitel",
-          "Alacsony súly",
-          "Referenciaprogramból származó terület"
+          "Alacsony súly"
         ]
       },
       {
@@ -2598,8 +2562,7 @@
         "d": "Ellátóvezetékek és hálózatok nagy méretekben d630-ig: tompahegesztéssel homogén, tartósan tömített szakaszokká alakítva.",
         "pts": [
           "d 630 mm-ig",
-          "Tompahegesztés (Butt Fusion)",
-          "Referencia: Szingapúri infrastruktúra"
+          "Tompahegesztés (Butt Fusion)"
         ]
       },
       {
@@ -3749,7 +3712,7 @@
       "extendedMarketText": "Ennek a régiónak a városi infrastruktúrája különleges követelményeket támaszt a csővezeték-rendszerek tartósságával és megbízhatóságával szemben. Az extrém éghajlati viszonyok és a víz higiéniájával szembeni magas követelmények miatt a K-Aqua PP-R és PPRCT megoldásai döntő előnyt jelentenek. A hagyományos fémcsövek gyakran szenvednek korróziótól és ásványi lerakódásoktól, ami jelentős nyomásveszteséghez és a szivárgások miatti vízpazarláshoz vezet. A K-Aqua rendszerek ezzel szemben korróziómentes anyaguknak és a homogén polifúziós hegesztésnek köszönhetően abszolút tömített, karbantartásmentes telepítést garantálnak több mint 50 évre. Ezenkívül a sima belső felület optimális hidraulikus áramlási tulajdonságokat tesz lehetővé, ami drasztikusan csökkenti a keringető szivattyúk energiaigényét. Ezek a tényezők teszik a K-Aqua-t az elsődleges választássá nagy szállodakomplexumok, kórházak, ipari hűtőrendszerek és igényes lakóépítési projektek számára a városi szektorban."
     },
     "maskat": {
-      "regulator": "Nama Water Services (vormals Diam)",
+      "regulator": "Nama Water Services (korábban Diam)",
       "water": "Változó víznyomás, sótartalmú környezet: Robusztus hegesztési varratok (PN20) és UV-védelem elengedhetetlen a tetőtéri telepítéseknél.",
       "focus": [
         "Turisztikai és vendéglátóipari projektek",
@@ -3845,7 +3808,7 @@
       "extendedMarketText": "Ennek a régiónak a városi infrastruktúrája különleges követelményeket támaszt a csővezeték-rendszerek tartósságával és megbízhatóságával szemben. Az extrém éghajlati viszonyok és a víz higiéniájával szembeni magas követelmények miatt a K-Aqua PP-R és PPRCT megoldásai döntő előnyt jelentenek. A hagyományos fémcsövek gyakran szenvednek korróziótól és ásványi lerakódásoktól, ami jelentős nyomásveszteséghez és a szivárgások miatti vízpazarláshoz vezet. A K-Aqua rendszerek ezzel szemben korróziómentes anyaguknak és a homogén polifúziós hegesztésnek köszönhetően abszolút tömített, karbantartásmentes telepítést garantálnak több mint 50 évre. Ezenkívül a sima belső felület optimális hidraulikus áramlási tulajdonságokat tesz lehetővé, ami drasztikusan csökkenti a keringető szivattyúk energiaigényét. Ezek a tényezők teszik a K-Aqua-t az elsődleges választássá nagy szállodakomplexumok, kórházak, ipari hűtőrendszerek és igényes lakóépítési projektek számára a városi szektorban."
     },
     "kapstadt": {
-      "regulator": "SABS / SANS-Normenwerk",
+      "regulator": "SABS / SANS szabványrendszer",
       "water": "Vízhiány a „Day Zero\" után: a szivárgásmentes hegesztett kötések itt a víztakarékossági politika részét képezik.",
       "focus": [
         "Kórház- és szállodaépítés",
@@ -3994,51 +3957,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Németország",
         "d": "Központ és Fejlesztés: itt készül minden K-Aqua cső."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, EAE",
-        "d": "Magasépület felszállóvezetékek: PPRCT forró vízhez sivatagi körülmények között."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varsó, Lengyelország",
-        "d": "Új lakónegyed fejlesztés: komplett ivóvíz-hálózat d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Isztambul, Törökország",
-        "d": "Szállodakomplexum: Keringtető vezetékek szálerősítésű kompozit csövekkel."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Szingapúr",
-        "d": "Infrastruktúra projekt: Nagy átmérők d630-ig tompahegesztéssel."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Fokváros, Dél-Afrika",
-        "d": "Kórházépítés: higiénikus ivóvízelosztás."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, Egyesült Királyság",
-        "d": "Irodafelújítás: meglévő fémcsövek korróziómentes cseréje."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Projekt megtekintése"
   },
   "buyers": {
     "eyebrow": "Tervezők, Beszerzők és Szerelők számára",
@@ -4815,7 +4736,7 @@
     "insulation": "Szigetelés",
     "insulationNone": "Nincs",
     "insulationBasic": "Alap",
-    "insulationStandard": "Standard EnEV",
+    "insulationStandard": "EnEV szabvány",
     "insulationPremium": "Prémium",
     "installMethod": "Fektetési mód (A5)",
     "installBuilding": "Épületgépészet",
@@ -4847,8 +4768,8 @@
     "certBtn": "PDF Jelentés Generálása",
     "generating": "Generálás...",
     "energyGreen": "Zöld Energia",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
+    "energyDe": "DE-mix",
+    "energyEu": "EU-mix",
     "energyGlobal": "Globális-Mix",
     "materials": {
       "kaqua": "K-Aqua PPRCT",
@@ -5337,7 +5258,7 @@
     "retry": "Újra megpróbálom",
     "titlePerfect": "Hegesztőmester",
     "titleGood": "Hegesztő-Legény",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Oktatóvideók és útmutatók"
   },
   "legal": {
     "impressum": {
@@ -5536,8 +5457,8 @@
     }
   },
   "productNames": {
-    "accessories_backing-flange": "Losflansch PP-Stahl (SF/BF)",
-    "accessories_flat-gasket-for-unions": "Flachdichtung für Verschraubungen PP-R",
+    "accessories_backing-flange": "Laza karima PP-acél (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Lapos tömítés hollandi csavarzatokhoz, PP-R",
     "accessories_flat-gasket": "Flachdichtung",
     "accessories_pipe-clamps": "Csőschellen",
     "accessories_plug": "PP-R Csőstopfen",
@@ -5545,14 +5466,14 @@
     "fittings_cross-over-pipe": "PP-R Überspringbogen (Cső)",
     "fittings_cross-over": "PP-R Überspringbogen",
     "fittings_cross": "PP-R Kreuzstück",
-    "fittings_elbow-45-female-male": "PP-R Einschraubwinkel 45° (I/A)",
-    "fittings_elbow-45": "PP-R Standard-Winkel 45°",
-    "fittings_elbow-90-female-male": "PP-R Einschraubwinkel 90° (I/A)",
-    "fittings_elbow-90": "PP-R Standard-Winkel 90°",
+    "fittings_elbow-45-female-male": "PP-R menetes könyök 45° (BM/KM)",
+    "fittings_elbow-45": "PP-R standard könyök 45°",
+    "fittings_elbow-90-female-male": "PP-R menetes könyök 90° (BM/KM)",
+    "fittings_elbow-90": "PP-R standard könyök 90°",
     "fittings_electrofusion-socket": "Heizwendelmuffe",
     "fittings_flange-adaptor": "Bundbuchse",
     "fittings_reducing-bush": "Reduzierstück",
-    "fittings_reducing-tee-large": "PP-R T-Stück reduziert (Groß)",
+    "fittings_reducing-tee-large": "PP-R szűkített T-idom (nagy)",
     "fittings_reducing-tee": "T-Stück reduziert",
     "fittings_socket": "PP-R Karmantyú",
     "fittings_tee": "PP-R T-Stück",
@@ -5562,112 +5483,65 @@
     "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Cső PP-R SDR 9",
     "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Cső PPRCT SDR 7.4",
     "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV-Cső PP-R SDR 7.4",
-    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Mehrschichtiges Verbundrohr mit speziellem UV-Schutzmantel für den Außenbereich (SDR 7.4 PP-R).",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Többrétegű kompozitcső speciális UV-védő köpennyel kültéri használatra (SDR 7.4 PP-R).",
     "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV-Cső PPRCT SDR 7.4",
-    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Hochleistungs-Verbundrohr (PPRCT) mit schwarzer UV-Schutzschicht für anspruchsvolle Außeninstallationen (SDR 7.4).",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Nagy teljesítményű kompozitcső (PPRCT) fekete UV-védő réteggel igényes kültéri szerelésekhez (SDR 7.4).",
     "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Cső PPRCT SDR 11",
     "pipes_k-pipe-pp-r-sdr-11": "K-Pipe Cső PP-R SDR 11",
     "pipes_k-pipe-pp-r-sdr-6": "K-Pipe Cső PP-R SDR 6",
     "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe Cső PPRCT SDR 7.4",
-    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Violett PP-R SDR 11",
-    "tools_butt-welding-machine-90-250": "Stumpfschweißmaschine d90-d250",
-    "tools_drilling-tool-for-weld-in-saddle": "Bohrwerkzeug für Einschweißsättel",
-    "tools_electrofusion-machine": "Heizwendelschweißgerät",
-    "tools_hand-welding-machine-20-32": "Handschweißgerät d20-d32",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe lila PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Tompahegesztő gép d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Fúrószerszám behegeszthető nyergekhez",
+    "tools_electrofusion-machine": "Elektrofúziós hegesztőgép",
+    "tools_hand-welding-machine-20-32": "Kézi hegesztőgép d20-d32",
     "tools_hand-welding-machine-20-32_desc": "Kompaktes Karmantyúnschweißgerät als Komplettset für kleine Dimensionen von d20 bis d32 mm.",
-    "tools_hand-welding-machine-20-63": "Handschweißgerät d20-d63",
+    "tools_hand-welding-machine-20-63": "Kézi hegesztőgép d20-d63",
     "tools_hand-welding-machine-20-63_desc": "Vielseitiges Karmantyúnschweißgerät im Set (Heizplatte, Standfuß, Matrizen) für Csőe von d20 bis d63 mm.",
-    "tools_hand-welding-machine-mirror-50-125": "Handschweißgerät (nur Spiegel) 50–125",
+    "tools_hand-welding-machine-mirror-50-125": "Kézi hegesztőgép (csak tükör) 50–125",
     "tools_pipe-cutter-20-40": "Ratschen-Csőschere d20-d40",
     "tools_pipe-cutter-50-125-114": "Csőabschneider 1 1/4",
     "tools_pipe-cutter-50-125": "Profi-Csőabschneider d50-d125",
     "tools_repairing-plug": "Reparaturstopfen",
-    "tools_welding-machine-50-125": "Schweißmaschine d50-d125",
-    "tools_welding-tool-for-repairing-plug": "Schweißwerkzeug für Reparaturstopfen",
-    "tools_welding-tool-for-weld-in-saddles": "Schweißwerkzeug für Einschweißsättel",
+    "tools_welding-machine-50-125": "Hegesztőgép d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Hegesztőszerszám javítódugókhoz",
+    "tools_welding-tool-for-weld-in-saddles": "Hegesztőszerszám behegeszthető nyergekhez",
     "tools_welding-tool": "Schweißwerkzeug",
     "transition-fittings_adaptor-socket-female-thread": "Übergangsmuffe (IG)",
     "transition-fittings_adaptor-socket-male-thread": "Übergangsmuffe (AG)",
-    "transition-fittings_elbow-90-male-thread": "PP-R Übergangswinkel 90° (AG)",
-    "transition-fittings_elbow-bracket-90-female-thread": "Winkelwandhalter 90° (IG)",
-    "transition-fittings_elbow-bracket-90-female-thread_desc": "Einseitiger Winkelwandhalter zur sicheren Wandmontage von Armaturen (IG).",
-    "transition-fittings_elbow-wall-bracket-90-female-thread": "Doppel-Winkelwandhalter 90° (IG)",
-    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Zweiseitige Wandbefestigung für extrem stabile, fest verschraubte Verbindungen.",
-    "transition-fittings_metal-union-female-thread-brass": "Metall-Verschraubung aus Messing CW617N (IG)",
-    "transition-fittings_metal-union-female-thread": "Verschraubung mit PP-R Mutter (IG)",
-    "transition-fittings_metal-union-male-thread-brass": "Metall-Verschraubung aus Messing CW617N (AG)",
-    "transition-fittings_metal-union-male-thread": "Verschraubung mit PP-R Mutter (AG)",
+    "transition-fittings_elbow-90-male-thread": "PP-R átmeneti könyök 90° (KM)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Fali könyökkonzol 90° (BM)",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "Egyoldalas fali könyökkonzol szerelvények biztonságos falra szereléséhez (BM).",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Dupla fali könyökkonzol 90° (BM)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Kétoldalas fali rögzítés rendkívül stabil, fixen csavarozott kötésekhez.",
+    "transition-fittings_metal-union-female-thread-brass": "Fém hollandi csavarzat CW617N sárgarézből (BM)",
+    "transition-fittings_metal-union-female-thread": "Hollandi csavarzat PP-R anyával (BM)",
+    "transition-fittings_metal-union-male-thread-brass": "Fém hollandi csavarzat CW617N sárgarézből (KM)",
+    "transition-fittings_metal-union-male-thread": "Hollandi csavarzat PP-R anyával (KM)",
     "transition-fittings_tee-90-female-thread": "T-Stück 90° (IG)",
     "transition-fittings_tee-90-male-thread": "T-Stück 90° (AG)",
-    "transition-fittings_union-for-watermeters": "Wasserzähler-Verschraubung",
+    "transition-fittings_union-for-watermeters": "Vízóra-csavarzat",
     "transition-fittings_union": "PP-R Csőverschraubung",
-    "valves_adjustable-battery-female-thread": "Verstellbare Batterie (IG)",
+    "valves_adjustable-battery-female-thread": "Állítható csaptelep-csatlakozó (BM)",
     "valves_battery-female-thread": "Batterie (IG)",
-    "valves_concealed-valve-chrome-heavy-part": "Unterputzventil Chrom: Schweres Oberteil",
-    "valves_concealed-valve-chrome-light-part": "Unterputzventil Chrom: Leichtes Oberteil",
+    "valves_concealed-valve-chrome-heavy-part": "Falba építhető szelep, króm: nehéz felsőrész",
+    "valves_concealed-valve-chrome-light-part": "Falba építhető szelep, króm: könnyű felsőrész",
     "valves_elongation-pieces": "Verlängerungsstücke",
-    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Kugelhahn (PP-Kugel)",
-    "valves_pp-r-ball-valve-brass": "PP-R Kugelhahn (Messingkugel, verchromt)",
-    "valves_straight-seat-valve-green-handle": "Schrägsitzventil (Oberteil)",
-    "valves_tee-90-female-thread-internal-valve": "T-Stück 90° (IG) für UP-Ventil",
-    "weld-in-saddles_weld-in-saddle-female-thread": "Einschweißsattel (IG)",
-    "weld-in-saddles_weld-in-saddle-male-thread": "Einschweißsattel (AG)",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R gömbcsap (PP golyóval)",
+    "valves_pp-r-ball-valve-brass": "PP-R gömbcsap (krómozott sárgaréz golyóval)",
+    "valves_straight-seat-valve-green-handle": "Ferdeülékes szelep (felsőrész)",
+    "valves_tee-90-female-thread-internal-valve": "T-idom 90° (BM) falba építhető szelephez",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Behegeszthető nyereg (BM)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Behegeszthető nyereg (KM)",
     "weld-in-saddles_weld-in-saddle": "Einschweißsattel",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Laza karima PP-acél (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R kerülőív tokkal",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Kézi hegesztőgép d20-d32",
+    "tools_pipe-cutter-50125": "Csővágó d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Qualität, die verbindet (HU)",
-    "title": "Was unsere Kunden und Partner sagen (HU)",
-    "lead": "Von Bauherren über Speditionen bis hin zu langjährigen Mitarbeitern: Die K Aqua KWT GmbH steht für höchste Präzision aus Waldsolms. Lesen Sie selbst, welche Erfahrungen Menschen täglich mit unserem Service und unseren Produkten „Made in Germany“ machen. (HU)",
-    "trustBadge": "Google Rezensionen (HU)",
-    "trustStars": "4,9 / 5 (HU)",
-    "trustBasedOn": "(Basierend auf 44 Bewertungen) (HU)",
-    "tabA": "Qualität & „Made in Germany“ (HU)",
-    "tabB": "Logistik & Anlieferung (HU)",
-    "tabC": "Kundenservice & Team (HU)",
-    "reviews": {
-      "a1": "„Eine Fabrik in Waldsolms, Deutschland, spezialisiert auf PPR-Rohre und -Fittings **Made in Germany**. Hervorragendes Personal.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Deutsche Qualität** bei PPR-Beschichtungen und Armaturen, sehr freundliches Personal.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Modernes Unternehmen**. Produziert Kunststoffrohre aller Größen und Zubehör.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR-Rohre und Formstücke aus **deutscher Fertigung**, hervorragende Mitarbeiter und Produkte.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Hochwertige Produkte** und eine top deutsche Fabrik.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Sehr gute Produkte, **zuverlässige Qualität** und pünktliche Lieferung.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Sehr netter Umgang, **schnelle Entladung**. Ich durfte hier meine große Pause einlegen. Dusche und Toilette wurden mir auch angeboten. Hier fühlt man sich als LKW-Fahrer **wertgeschätzt**. Ich komme sehr gerne wieder hierher.“",
-      "b1Author": "Michael S.",
-      "b2": "„Die aktuellen Koordinaten des Eingangs lauten **50.428210, 8.499154**. Etwa 100 Meter entfernt befindet sich ein Parkplatz. Freundliches Personal.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Schnelles Entladen**, freundliches und hilfsbereites Personal.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Sehr guter Service**, toll, dass noch in Deutschland produziert wird.“",
-      "c1Author": "Daniel",
-      "c2": "„**Sehr freundliches** und hilfsbereites Personal. E-Mails werden **umgehend beantwortet**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Vom Vorsitzenden bis zu den einfachen Arbeitern: es sind **gute Menschen**.“",
-      "c3Author": "Azim",
-      "c4": "„**Tolle Firma**, tut einiges für ihre Leute.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Die Mitarbeiter sind **sehr freundlich und hilfsbereit**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Kompetentes Team und eine **hervorragende Kundenbetreuung** auf allen Ebenen.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Überzeugen Sie sich selbst von unserem Service. (HU)",
-    "ctaText": "Haben Sie Fragen zu unseren PPR-Rohrsystemen oder möchten Sie ein Projekt mit uns besprechen? Unser Team aus Waldsolms ist für Sie da. (HU)",
-    "ctaBtn": "Jetzt Kontakt aufnehmen (HU)",
-    "disclaimer": "Hinweis zur Überprüfung von Bewertungen: Die hier dargestellten Bewertungen stammen aus unserem Google-Unternehmensprofil. Google gibt an: Rezensionen werden nicht überprüft. Wir haben die Namen der Verfasser aus Gründen des Datenschutzes (DSGVO) abgekürzt. (HU)"
+    "valves_tee-90-female-thread-for-internal-valve": "T-idom 90° (BM) falba építhető szelephez"
   },
   "referenzenPage": {
     "hero": {
@@ -5679,49 +5553,49 @@
       "cta2": "Prüfbericht anfordern (HU)"
     },
     "manifesto": {
-      "title": "Doktrin der Präzision",
-      "p1": "In einer Branche, in der Materialermüdung und Korrosion als unvermeidlich gelten, setzt unsere Fertigung einen anderen Maßstab. Wir betrachten jedes Rohr nicht als Bauteil, sondern als Ergebnis angewandter Werkstoffwissenschaft. Jede Charge PP-R Copolymer, jede Schweißnaht und jede Wanddicke durchläuft einen Prüfprozess, der Ausschuss lieber in Kauf nimmt als eine Toleranzüberschreitung. Das ist das fundamentale Gesetz der <span class=\"font-semibold\">K-Aqua Referenzklasse</span>.",
-      "p2": "Unsere Systeme laufen in Umgebungen, in denen ein einziger Leckagepunkt den Betrieb eines ganzen Krankenhauses oder Hochhauses gefährdet. Wir setzen Langzeit-Innendruckprüfungen nach ISO 9080 nicht als Laborformalität ein, sondern als harte Vorgabe für jede freigegebene Dimension: Extrapolation auf 50 Jahre Betriebsdauer bei spezifizierter Temperatur und Druckstufe: dokumentiert, nachvollziehbar, chargenrein zurückverfolgbar.",
-      "p3": "Wir verzichten bewusst auf undurchsichtige Materialmischungen. Unsere Rezeptur ist über die gesamte Fertigungskette hinweg dokumentiert, von der Polymercharge bis zur fertigen Rohrlänge. Wir kalibrieren Extrusionstemperaturen auf das Grad genau, optimieren die Faserverbund-Mittelschicht gegen Längsausdehnung und protokollieren jede Heizwendel-Schweißung mit exakten Prozessparametern. Das Resultat sind Systeme, die bei 70°C Dauerbetrieb und PN20 mühelos im Normbereich bleiben.",
+      "title": "A precizitás doktrínája",
+      "p1": "Egy olyan iparágban, ahol az anyagfáradást és a korróziót elkerülhetetlennek tartják, gyártásunk más mércét állít. Minden csövet nem alkatrésznek, hanem az alkalmazott anyagtudomány eredményének tekintünk. Minden PP-R kopolimer gyártási tétel, minden hegesztési varrat és minden falvastagság olyan ellenőrzési folyamaton megy keresztül, amely inkább vállalja a selejtet, mint a tűréshatár túllépését. Ez a <span class=\"font-semibold\">K-Aqua referenciaosztály</span> alaptörvénye.",
+      "p2": "Rendszereink olyan környezetekben üzemelnek, ahol egyetlen szivárgási pont egy egész kórház vagy toronyház működését veszélyezteti. Az ISO 9080 szerinti tartós belsőnyomás-vizsgálatokat nem laboratóriumi formalitásként, hanem minden kiadott mérethez kötelező követelményként alkalmazzuk: extrapoláció 50 éves üzemidőre a meghatározott hőmérsékleten és nyomásfokozaton – dokumentálva, ellenőrizhetően, gyártási tételig visszakövethetően.",
+      "p3": "Tudatosan lemondunk az átláthatatlan anyagkeverékekről. Receptúránk a teljes gyártási láncon keresztül dokumentált, a polimer gyártási tételtől a kész csőhosszig. Az extrúziós hőmérsékleteket fokra pontosan kalibráljuk, a szálerősítésű középső réteget a hosszirányú tágulás ellen optimalizáljuk, és minden elektrofúziós hegesztést pontos folyamatparaméterekkel jegyzőkönyvezünk. Az eredmény olyan rendszerek, amelyek 70 °C-os folyamatos üzem és PN20 mellett is könnyedén a szabványos tartományban maradnak.",
       "p4": "Qualitätssicherung ist bei uns kein nachgelagerter Prüfschritt, sondern Teil jeder Produktionsstufe. Durch die durchgängige Anwendung von DVGW-, SKZ- und KIWA-Zertifizierung auf allen relevanten Dimensionen entziehen wir Ausfallrisiken proaktiv jede Angriffsfläche. Ein System, das nach DIN 8077/8078 gefertigt und dreifach zertifiziert ist, kann sich niemals als Schwachstelle erweisen."
     },
     "metrics": {
-      "eyebrow": "Technische Kennzahlen",
-      "title1": "Kompromisslose",
-      "title2": "Parameter",
-      "lead": "Unsere Systeme werden nicht beworben, sie werden geprüft. Dies sind die Kernkennzahlen unserer technologischen Doktrin.",
+      "eyebrow": "Műszaki mutatószámok",
+      "title1": "Kompromisszumok nélküli",
+      "title2": "paraméterek",
+      "lead": "Rendszereinket nem reklámozzuk, hanem vizsgáljuk. Ezek technológiai doktrínánk alapmutatói.",
       "items": {
         "pressure": {
-          "title": "Langzeit-Druckprüfung nach ISO 9080",
-          "desc": "Jede freigegebene Dimension durchläuft Innendrucktests bei mehreren Temperaturstufen über tausende Betriebsstunden, extrapoliert auf eine Regressionsgerade für 50 Jahre Lebensdauer.",
-          "placeholder": "Regressionskurve Langzeit-Innendruckprüfung"
+          "title": "Tartós nyomásvizsgálat az ISO 9080 szerint",
+          "desc": "Minden kiadott méret több hőmérsékleti fokozaton, több ezer üzemóra alatt megy át belsőnyomás-vizsgálatokon, 50 éves élettartamra vonatkozó regressziós egyenesre extrapolálva.",
+          "placeholder": "Tartós belsőnyomás-vizsgálat regressziós görbéje"
         },
         "isolation": {
-          "title": "Lückenlose Chargen-Rückverfolgbarkeit",
-          "desc": "Jede Rohrlänge trägt eine Chargennummer, die bis zur Polymer-Anlieferung zurückverfolgt werden kann, für lückenlose Dokumentation bei Bauabnahme und Gewährleistung."
+          "title": "Hiánytalan gyártásitétel-visszakövethetőség",
+          "desc": "Minden csőhossz gyártásitétel-számot visel, amely a polimer beszállításáig visszakövethető – a hiánytalan dokumentációért az építési átvételkor és a jótállás során."
         },
         "tolerance": {
-          "title": "Wanddicken-Toleranz im Mikrometerbereich",
-          "desc": "Kontinuierliche Ultraschall-Wanddickenmessung während der Extrusion hält jede Dimension exakt innerhalb der DIN 8077/8078 Toleranzfelder."
+          "title": "Falvastagság-tűrés mikrométeres tartományban",
+          "desc": "A folyamatos ultrahangos falvastagságmérés az extrúzió során minden méretet pontosan a DIN 8077/8078 tűrésmezőin belül tart."
         },
         "network": {
-          "title": "Globales Vertriebs- und Servicenetz",
-          "desc": "Von Waldsolms aus beliefern wir Projekte in über 35 Ländern und stellen technische Beratung, Schulung und Ersatzteilversorgung sicher, auch nach Bauabnahme.",
-          "placeholder": "Exportkarte K-Aqua Vertriebsnetz"
+          "title": "Globális értékesítési és szervizhálózat",
+          "desc": "Waldsolmsból több mint 35 ország projektjeit látjuk el, és biztosítjuk a műszaki tanácsadást, a képzést és a pótalkatrész-ellátást – az építési átvétel után is.",
+          "placeholder": "K-Aqua értékesítési hálózat exporttérképe"
         },
         "welding": {
-          "title": "Kompromisslose Schweißnahtintegrität",
-          "desc": "Jede Heizelement-Muffenschweißung folgt einem dokumentierten Zeit-Temperatur-Druck-Profil. Stichprobenartige Zugprüfungen und Schliffbilder bestätigen die molekulare Verschmelzung von Rohr und Fitting: ohne Dichtungen, ohne Schwachstellen.",
-          "placeholder": "Schliffbild einer K-Aqua Muffenschweißverbindung"
+          "title": "Kompromisszumok nélküli hegesztésivarrat-integritás",
+          "desc": "Minden fűtőelemes tokos hegesztés dokumentált idő-hőmérséklet-nyomás profilt követ. Szúrópróbaszerű szakítóvizsgálatok és csiszolati képek igazolják a cső és az idom molekuláris összeolvadását: tömítések nélkül, gyenge pontok nélkül.",
+          "placeholder": "K-Aqua tokos hegesztett kötés csiszolati képe"
         }
       }
     },
     "cta": {
-      "title1": "Bereit für Ihr",
-      "title2": "nächstes Projekt",
-      "lead": "Planen Sie ein Hochhaus, eine Industrieanlage oder ein Krankenhausprojekt? Unsere Ingenieure erwarten Ihre Spezifikationen mit belastbaren Prüfdaten statt Marketingversprechen.",
-      "btn1": "Prüfzertifikate anfordern",
-      "btn2": "Spezifikationen senden"
+      "title1": "Készen áll az Ön",
+      "title2": "következő projektjére",
+      "lead": "Toronyházat, ipari létesítményt vagy kórházi projektet tervez? Mérnökeink várják az Ön specifikációit – marketingígéretek helyett megbízható vizsgálati adatokkal.",
+      "btn1": "Vizsgálati tanúsítványok igénylése",
+      "btn2": "Specifikációk küldése"
     },
     "icons": {
       "pressure": "Gauge",
@@ -5829,7 +5703,7 @@
       "head": "Szeretné a teljes rendszert integrálni a projektjébe?",
       "short": "Általános termék kérdés",
       "text": "Készítsünk egy komplett rendszerajánlatot a csövektől a hegesztőszerszámokig? Küldje el a mennyiségkiírást (BoQ), mi pedig elkészítjük a specifikációt.",
-      "interest": "Rohrsysteme",
+      "interest": "Csőrendszerek",
       "done": "Értékesítési csapatunk felveszi Önnel a kapcsolatot a projekt részleteivel."
     },
     "academy": {
@@ -6755,7 +6629,7 @@
         "btnGhost": "Szakértők Kapcsolat"
       },
       "metaTitle": "Technikai Támogatás & Szerviz PP-R Csőrendszerekhez",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Mérnöki tanácsadás, alkalmazástechnika és helyszíni támogatás."
     },
     "downloads": {
       "title": "Letöltések",
@@ -8572,7 +8446,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Termékadatok megtekintése"
   },
   "refsx": {
     "secEyebrow": "Alkalmazási területek világszerte",
@@ -8684,53 +8558,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Interaktív",
+    "titleGrad": "térképcsomag",
+    "tabHq": "Waldsolms központ",
+    "tabRefs": "Tömítettségi térkép",
+    "tabSpec": "Specifikátor",
+    "hqTitle": "Központi gyártás és fejlesztési központ",
+    "hqAddress": "Waldsolms-Brandoberndorf, Hessen, Németország.",
+    "registryLabel": "Cégbíróság:",
+    "phoneLabel": "Telefon:",
+    "certLabel": "Tanúsítás:",
+    "directions": "Útvonaltervező megnyitása",
+    "aboutPlant": "A waldsolmsi gyárról",
+    "sectorFilter": "Szektorszűrő:",
+    "specPlaceholder": "Adjon meg helységet vagy várost…",
+    "profileTitle": "Piaci és logisztikai profil",
+    "profileHint": "Kattintson a térképre, vagy keressen rá egy városra az automatikus rendszerspecifikáció és a szállítási útvonal kiszámításához.",
+    "marketAssign": "Piaci besorolás",
+    "normLabel": "Szabvány:",
+    "airDist": "Légvonalban (központtól)",
+    "roadDist": "Közúton (becsült)",
+    "recommended": "Ajánlott csőrendszer:",
+    "recUv": "UV-Protect külső köpeny",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Minden szektor",
+      "hotel": "Szálloda",
+      "wohnen": "Lakásépítés",
+      "infra": "Infrastruktúra",
+      "klinik": "Klinika",
+      "buero": "Iroda"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Termékek",
+      "markets-solutions": "Piacok és megoldások",
+      "academy-resources": "Akadémia és források",
+      "company": "Vállalat"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Csőtermék-kereső",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Idomok és fittingek",
+      "valves": "Szerelvények és szelepek",
+      "tools": "Szerszámok és tartozékok",
+      "transition": "Csőátmenetek",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8743,48 +8617,82 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Projektajánlat-kérés csőrendszerekre",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Oldaltérkép (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "Válaszd ki a nyelved",
+    "subtitle": "65 nyelv · Forgasd a földgömböt, érintsd meg a régiót, erősítsd meg.",
+    "searchPlaceholder": "Nyelv vagy oldal keresése…",
+    "pagesSection": "Oldalak és navigáció",
+    "noResults": "Nem található ilyen nyelv.",
+    "confirm": "Megerősítés",
+    "beta": "Béta",
+    "globalEffect": "A teljes webhelyre érvényes",
+    "active": "aktív"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Miben segíthetünk?",
+    "step1Desc": "Válassza ki a kérdéséhez illő területet.",
+    "optSales": "Értékesítés és projektek",
+    "optSalesDesc": "Árajánlatkérések, nagyprojektek és szállítási határidők.",
+    "optTech": "Műszaki támogatás",
+    "optTechDesc": "Specifikációk, szerelés és rendszerméretezés.",
+    "optOther": "Általános megkeresés",
+    "optOtherDesc": "Marketing, karrier vagy egyéb témák.",
+    "step2Title": "Megkeresésének részletei",
+    "step2Desc": "Kérjük, írja le röviden projektjét vagy kérdését.",
+    "messagePlaceholder": "Üzenete számunkra...",
+    "step3Title": "Elérhetőségei",
+    "step3Desc": "Már majdnem kész! Hogyan érhetjük el Önt?",
+    "nameLabel": "Teljes név",
+    "companyLabel": "Cég / szervezet",
+    "emailLabel": "E-mail-cím",
+    "phoneLabel": "Telefonszám",
+    "step4Title": "Üzenet elküldve!",
+    "step4Desc": "Köszönjük megkeresését. Szakértőink egyike hamarosan felveszi Önnel a kapcsolatot.",
+    "btnNext": "Tovább",
+    "btnBack": "Vissza",
+    "btnSubmit": "Megkeresés elküldése",
+    "btnSending": "Küldés folyamatban…",
+    "btnHome": "Vissza a kezdőlapra",
+    "sendError": "A küldés nem sikerült. Kérjük, próbálja meg újra, vagy hívjon minket közvetlenül: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "reviews": {
+      "a1": "„Egy gyár a németországi Waldsolmsban, amely **Made in Germany** PPR csövekre és idomokra specializálódott. Kiváló személyzet.”",
+      "a1Author": "Giulio C.",
+      "a2": "„**Német minőség** a PPR termékek és szerelvények terén, nagyon barátságos személyzet.”",
+      "a2Author": "Veronica P.",
+      "a3": "„**Modern vállalat**. Minden méretben gyárt műanyag csöveket és tartozékokat.”",
+      "a3Author": "Ewald S.",
+      "a4": "„PPR csövek és idomok **német gyártásból**, kiváló munkatársak és termékek.”",
+      "a4Author": "Kais S.",
+      "a5": "„**Kiváló minőségű termékek** és egy első osztályú német gyár.”",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6": "„Nagyon jó termékek, **megbízható minőség** és pontos szállítás.”",
+      "a6Author": "Klaus T.",
+      "b1": "„Nagyon kedves bánásmód, **gyors lerakodás**. Itt tarthattam meg a nagy pihenőmet. Zuhanyzót és mosdót is felajánlottak. Itt kamionsofőrként **megbecsültnek** érzi magát az ember. Nagyon szívesen jövök ide újra.”",
+      "b1Author": "Michael S.",
+      "b2": "„A bejárat aktuális koordinátái: **50.428210, 8.499154**. Körülbelül 100 méterre található egy parkoló. Barátságos személyzet.”",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "„**Gyors lerakodás**, barátságos és segítőkész személyzet.”",
+      "b3Author": "Bogdan M.",
+      "c1": "„**Nagyon jó kiszolgálás**, remek, hogy még Németországban gyártanak.”",
+      "c1Author": "Daniel",
+      "c2": "„**Nagyon barátságos** és segítőkész személyzet. Az e-mailekre **azonnal válaszolnak**.”",
+      "c2Author": "Mohamed M.",
+      "c3": "„Az elnöktől az egyszerű munkásokig: **jó emberek**.”",
+      "c3Author": "Azim",
+      "c4": "„**Nagyszerű cég**, sokat tesz az embereiért.”",
+      "c4Author": "Monika v. B.",
+      "c5": "„A munkatársak **nagyon barátságosak és segítőkészek**.”",
+      "c5Author": "Piera V.",
+      "c6": "„Hozzáértő csapat és **kiváló ügyfélszolgálat** minden szinten.”",
+      "c6Author": "Sarah B."
+    }
   }
 }

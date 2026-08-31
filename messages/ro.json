@@ -531,48 +531,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Germania",
         "d": "Fabrica principală și dezvoltare: aici este creată fiecare țeavă K Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, EAU",
-        "d": "Conducte verticale pentru clădiri înalte: PPRCT pentru apă caldă în condiții de deșert."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varșovia, Polonia",
-        "d": "Clădire rezidențială nouă: instalație completă de apă potabilă d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turcia",
-        "d": "Complex hotelier: conducte de circulație cu țevi armate cu fibră."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Proiect de infrastructură: dimensiuni mari până la d630 utilizând sudura cap la cap."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, Africa de Sud",
-        "d": "Construcție nouă spital: distribuție igienică a apei potabile."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Londra, UK",
-        "d": "Renovare birouri: înlocuirea conductelor existente cu soluții fără coroziune."
       }
     ],
     "viewProject": "View project"
@@ -4389,39 +4347,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referințe care scriu istorie.",
-        "desc": "De la insule artificiale din Golful Persic până la cele mai exclusive stațiuni de schi din Alpi. Acolo unde se construiește imposibilul, K Aqua este deja la fața locului."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Dotarea a 800 de suite și a 4 peisaje uriașe de piscine. Salinitatea extremă și temperaturile ambientale de până la 50°C au necesitat o rezistență termică și chimică maximă. K Aqua a furnizat întreaga rețea de apă rece și caldă, inclusiv conexiunea la District Cooling."
-          },
-          {
-            "year": "Elveția",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Un resort de 6 stele la 2.000 de metri altitudine. Provocarea: Pericol extrem de îngheț în timpul fazei de construcție și cerințe maxime de izolare fonică. Țevile noastre compozite PP-R au absorbit cu succes modificările termice de lungime și au garantat o funcționare silențioasă."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "O capodoperă a arhitecturii ecologice cu 65 de etaje. Sistemul complex de irigare pentru mii de plante de balcon, precum și întreaga infrastructură de apă potabilă au fost realizate cu K Aqua. Tehnologia de sudură omogenă a protejat clădirea de scurgeri microscopice."
-          },
-          {
-            "year": "Maldive",
-            "title": "Zero-Emission Island Resort",
-            "text": "Construit direct deasupra recifului, a necesitat o compatibilitate ecologică absolută. Țevile K Aqua sunt 100% reciclabile, nu emit microplastice sau metale grele și rezistă aerului de mare extrem de coroziv, fără niciun pic de uzură."
-          },
-          {
-            "year": "Viitor",
-            "title": "Următorul tău megaproiect",
-            "text": "Limitele arhitecturii se extind zilnic. Suntem pregătiți să turnăm fundația pentru cele mai îndrăznețe viziuni ale tale. Cu o tehnologie care este cu decenii înaintea timpului său."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Cercetare & Dezvoltare",
         "title": "Chimia <br/> indestructibilității.",
@@ -5590,8 +5515,7 @@
         "d": "Igiena nu se negociază aici: suprafața interioară netedă (0,007 mm) inhibă biofilmul și încrustațiile, materialul rămânând neutru la gust și miros.",
         "pts": [
           "Neutralitate igienică",
-          "Fără coroziune: fără ciupituri",
-          "Referință: Spital nou în Cape Town"
+          "Fără coroziune: fără ciupituri"
         ]
       },
       {
@@ -5599,8 +5523,7 @@
         "d": "Circulația apei calde 24/7: conductivitatea termică redusă economisește constant energie, PPRCT rezistă la operare continuă la 70 °C.",
         "pts": [
           "Eficiență termică",
-          "PPRCT pentru circulație",
-          "Referință: Complex hotelier Istanbul"
+          "PPRCT pentru circulație"
         ]
       },
       {
@@ -5617,8 +5540,7 @@
         "d": "Versiuni stabilizate UV pentru irigații în seră sau exterior: ușoare, rapid de instalat, mai rezistente la îngheț decât sistemele rigide.",
         "pts": [
           "Versiune rezistentă la UV",
-          "Greutate redusă",
-          "Domeniu de aplicare din programul de referință"
+          "Greutate redusă"
         ]
       },
       {
@@ -5626,8 +5548,7 @@
         "d": "Conducte de aprovizionare și rețele în dimensiuni mari până la d630: sudate cap la cap în tronsoane omogene, etanșe permanent.",
         "pts": [
           "d până la 630 mm",
-          "Sudură cap la cap (Butt Fusion)",
-          "Referință: Infrastructură Singapore"
+          "Sudură cap la cap (Butt Fusion)"
         ]
       },
       {
@@ -8165,53 +8086,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Calitatea care ne leagă",
-    "title": "Ce spun clienții și partenerii noștri",
-    "lead": "De la companii de construcții la logisticieni și la angajați pe termen lung: K Aqua KWT GmbH înseamnă precizie de vârf din Waldsolms. Citiți experiențele pe care oamenii le au în fiecare zi cu serviciile noastre și cu produsele „Made in Germany”.",
-    "trustBadge": "Recenzii Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Pe baza a 44 de evaluări)",
-    "tabA": "Calitate & „Fabricat în Germania”",
-    "tabB": "Logistică & Livrare",
-    "tabC": "Serviciul Clienți & Echipa",
-    "reviews": {
-      "a1": "„O fabrică în Waldsolms, Germania, specializată în țevi și fitinguri PPR **Made in Germany**. Personal excelent.”",
-      "a1Author": "Giulio C.",
-      "a2": "„**Calitate germană** la acoperiri și fitinguri PPR, personal foarte prietenos.”",
-      "a2Author": "Veronica P.",
-      "a3": "„**Companie modernă**. Produce țevi din plastic de toate dimensiunile și accesorii.”",
-      "a3Author": "Ewald S.",
-      "a4": "„Țevi și fitinguri PPR din **producția germană**, angajați și produse excepționale.”",
-      "a4Author": "Kais S.",
-      "a5": "„**Produse de înaltă calitate** și o fabrică germană de top.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Produse foarte bune, **calitate de încredere** și livrare la timp.”",
-      "a6Author": "Klaus T.",
-      "b1": "„Personal foarte drăguț, **descărcare rapidă**. Am putut să iau pauza mea lungă aici. Mi s-au oferit duș și toaletă. Te simți **apreciat** aici ca șofer de camion. Aș dori mult să revin.”",
-      "b1Author": "Michael S.",
-      "b2": "„Coordonatele actuale pentru intrare sunt **50.428210, 8.499154**. La aproximativ 100 de metri este o parcare. Personal prietenos.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Descărcare rapidă**, personal prietenos și de ajutor.”",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Serviciu foarte bun**, este grozav că producția încă are loc în Germania.”",
-      "c1Author": "Daniel",
-      "c2": "„Personal **foarte prietenos** și săritor. E-mailurile primesc răspuns **imediat**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "„De la președinte până la muncitorii simpli: sunt **oameni buni**.”",
-      "c3Author": "Azim",
-      "c4": "„**Companie grozavă**, fac multe pentru oamenii lor.”",
-      "c4Author": "Monika v. B.",
-      "c5": "„Angajații sunt **foarte prietenoși și de ajutor**.”",
-      "c5Author": "Piera V.",
-      "c6": "„Echipă competentă și **un serviciu excelent pentru clienți** la toate nivelurile.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Convingeți-vă singuri de calitatea serviciilor noastre.",
-    "ctaText": "Aveți întrebări despre sistemele noastre de conducte PPR sau doriți să discutați un proiect? Echipa noastră din Waldsolms este aici pentru dumneavoastră.",
-    "ctaBtn": "Contactați-ne acum",
-    "disclaimer": "Notă cu privire la verificarea recenziilor: Recenziile afișate aici sunt preluate din profilul de afaceri Google. Google declară: Recenziile nu sunt verificate. Am abreviat numele autorilor din motive de protecție a datelor (GDPR)."
   },
   "seoArticle": {
     "title": "Performanță fără compromisuri în tehnologia apei și sistemele de conducte.",

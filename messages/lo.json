@@ -46,30 +46,30 @@
     "edgePageIndex": "ດັດຊະນີໜ້າເວັບ",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "ລະບົບທໍ່",
+      "allProducts": "ຜະລິດຕະພັນທັງໝົດ",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "ການນຳໃຊ້ສະເພາະອຸດສາຫະກຳ",
+      "digitalTools": "ເຄື່ອງມືດິຈິຕອນ",
+      "finderDesc": "ກຳນົດຄ່າລະບົບທີ່ເໝາະສົມ",
+      "co2Desc": "ຄິດໄລ່ຜົນກະທົບຕໍ່ສິ່ງແວດລ້ອມ",
+      "academyDesc": "ການຝຶກອົບຮົມ ແລະ ໃບຢັ້ງຢືນ",
+      "trustDesc": "ດາວໂຫຼດ ແລະ ການຢັ້ງຢືນມາດຕະຖານ",
+      "serviceDesc": "ການສະໜັບສະໜູນດ້ານການວາງແຜນ",
+      "partnersDesc": "ມາເປັນຄູ່ຮ່ວມມືທ້ອງຖິ່ນ",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "ບໍລິສັດ",
+      "companyDesc": "ພາລະກິດ, ວິໄສທັດ ແລະ ປະຫວັດຄວາມເປັນມາ",
+      "careerDesc": "ຕຳແໜ່ງວ່າງ ແລະ ວັດທະນະທຳອົງກອນ",
+      "newsPress": "ຂ່າວສານ ແລະ ສື່ມວນຊົນ",
+      "newsDesc": "ຖະແຫຼງຂ່າວຫຼ້າສຸດ",
+      "sitemap": "ແຜນຜັງເວັບໄຊ",
+      "sitemapDesc": "ພາບລວມໂຄງສ້າງ",
+      "globalFootprint": "ຮອຍພິມທົ່ວໂລກ",
+      "globalMarkets": "ຕະຫຼາດທົ່ວໂລກ",
+      "marketsDesc": "ພາກພື້ນທີ່ໄດ້ຮັບການຢັ້ງຢືນ",
+      "refProjects": "ໂຄງການອ້າງອີງ",
+      "refDesc": "ການຕິດຕັ້ງທີ່ປະສົບຜົນສຳເລັດ"
     }
   },
   "pages": {
@@ -153,7 +153,7 @@
       "eyebrow": "ຄຸນນະພາບທີ່ຜ່ານການທົດສອບ",
       "title1": "ລະບົບການຄຸ້ມຄອງ ",
       "titleHighlight": "GENAU",
-      "title2": " Management System",
+      "title2": " ລະບົບບໍລິຫານຈັດການ",
       "p1": "ເປົ້າໝາຍຂອງລະບົບການຄຸ້ມຄອງ GENAU ແມ່ນການປັບປຸງຢ່າງຕໍ່ເນື່ອງໃນດ້ານອາຊີວະອະນາໄມ, ສິ່ງແວດລ້ອມ ແລະ ຄວາມປອດໄພພາຍໃນບໍລິສັດ.",
       "p2": "ກິດຈະກຳທັງໝົດຂອງບໍລິສັດທີ່ KWT ແມ່ນດຳເນີນໄປດ້ວຍການຄຳນຶງເຖິງການອະນຸລັກຊັບພະຍາກອນ, ຄວາມເຂົ້າກັນໄດ້ກັບສິ່ງແວດລ້ອມ ແລະ ການປະຕິບັດຕາມທຸກພັນທະຢ່າງເຄັ່ງຄັດ. ການຄຸ້ມຄອງ GENAU ທີ່ນຳໃຊ້ຢູ່ຕອບສະໜອງຄວາມຮຽກຮ້ອງຕ້ອງການທີ່ສູງຂອງ ",
       "p3": " ແລະ ",
@@ -1944,7 +1944,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "ເບິ່ງລາຍລະອຽດຜະລິດຕະພັນ"
   },
   "geo": {
     "eyebrow": "ຕະຫຼາດ ແລະ ສະຖານທີ່",
@@ -3177,39 +3177,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "ຜົນງານທີ່ສ້າງປະຫວັດສາດ.",
-        "desc": "ຈາກເກາະທຽມໃນອ່າວເປີເຊຍ ຈົນເຖິງສະກີຣີສອດທີ່ພິເສດທີ່ສຸດໃນເທືອກເຂົາແອລປ໌. ບ່ອນໃດທີ່ສິ່ງທີ່ເປັນໄປບໍ່ໄດ້ຖືກສ້າງຂຶ້ນ, K Aqua ໄດ້ໄປຢູ່ທີ່ນັ້ນແລ້ວ."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "ດູໄບ",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "ຕິດຕັ້ງໃນ 800 ຫ້ອງສະວີດ ແລະ ສະລອຍນ້ຳຂະໜາດໃຫຍ່ 4 ແຫ່ງ. ຄວາມເຄັມທີ່ຮ້າຍແຮງ ແລະ ອຸນຫະພູມສະພາບແວດລ້ອມສູງເຖິງ 50°C ຮຽກຮ້ອງໃຫ້ມີຄວາມທົນທານຕໍ່ຄວາມຮ້ອນ ແລະ ສານເຄມີສູງສຸດ. K Aqua ສະໜອງເຄືອຂ່າຍນ້ຳເຢັນ ແລະ ນ້ຳຮ້ອນຄົບວົງຈອນ ລວມທັງການເຊື່ອມຕໍ່ District Cooling."
-          },
-          {
-            "year": "ສະວິດເຊີແລນ",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "ຣີສອດລະດັບ 6 ດາວ ທີ່ລະດັບຄວາມສູງ 2,000 ແມັດ. ສິ່ງທ້າທາຍ: ຄວາມສ່ຽງຕໍ່ການເກີດນ້ຳກ້ອນຢ່າງຮ້າຍແຮງໃນລະຫວ່າງການກໍ່ສ້າງ ແລະ ຂໍ້ກຳນົດສູງສຸດສຳລັບການແຍກສຽງ. ທໍ່ພາດສະຕິກເສີມໃຍແກ້ວ PP-R ຂອງພວກເຮົາດູດຊັບການປ່ຽນແປງຄວາມຍາວຈາກຄວາມຮ້ອນໄດ້ຢ່າງດີເລີດ ແລະ ຮັບປະກັນການເຮັດວຽກທີ່ງຽບສະຫງົບ."
-          },
-          {
-            "year": "ສິງກະໂປ",
-            "title": "Vertical Forest Hotel",
-            "text": "ຜົນງານຊິ້ນເອກທາງສະຖາປັດຕະຍະກຳເຊີງນິເວດວິທະຍາສູງ 65 ຊັ້ນ. ລະບົບຊົນລະປະທານທີ່ຊັບຊ້ອນສຳລັບພືດພັນເທິງລະບຽງນັບພັນຕົ້ນ ລວມທັງໂຄງລ່າງພື້ນຖານນ້ຳດື່ມທັງໝົດຖືກສ້າງຂຶ້ນດ້ວຍ K Aqua. ເຕັກໂນໂລຍີການເຊື່ອມທີ່ເປັນເນື້ອດຽວກັນ ຊ່ວຍປົກປ້ອງອາຄານຈາກການຮົ່ວໄຫຼໃນລະດັບຈຸລະທັດ."
-          },
-          {
-            "year": "ມາດີຟ (Maldives)",
-            "title": "Zero-Emission Island Resort",
-            "text": "ສ້າງຂຶ້ນເທິງແນວປະກາລັງໂດຍກົງ, ເຊິ່ງຕ້ອງການຄວາມເປັນມິດກັບສິ່ງແວດລ້ອມຢ່າງແທ້ຈິງ. ທໍ່ K Aqua ສາມາດນຳມາໃຊ້ໃໝ່ໄດ້ 100%, ບໍ່ປ່ອຍໄມໂຄຣພາດສະຕິກ ຫຼື ໂລຫະໜັກໃດໆ ແລະ ທົນທານຕໍ່ອາກາດທະເລທີ່ມີຄວາມເຄັມ ແລະ ການກັດກ່ອນສູງ ໂດຍບໍ່ມີການສຶກຫໍຼໃດໆ."
-          },
-          {
-            "year": "ອະນາຄົດ",
-            "title": "ໂຄງການຂະໜາດໃຫຍ່ຕໍ່ໄປຂອງທ່ານ",
-            "text": "ຂອບເຂດຂອງສະຖາປັດຕະຍະກຳກຳລັງປ່ຽນແປງໄປທຸກໆມື້. ພວກເຮົາພ້ອມແລ້ວທີ່ຈະວາງຮາກຖານສຳລັບວິໄສທັດທີ່ກ້າຫານທີ່ສຸດຂອງທ່ານ. ດ້ວຍເຕັກໂນໂລຍີທີ່ລ້ຳໜ້າໄປຫຼາຍທົດສະວັດ."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "ການຄົ້ນຄວ້າ & ການພັດທະນາ",
         "title": "ເຄມີ <br/> ແຫ່ງຄວາມບໍ່ສາມາດທຳລາຍໄດ້.",
@@ -3764,25 +3731,25 @@
     "nextTitle": "ການວາງແຜນຂອງທ່ານເປັນມິດກັບສະພາບອາກາດສໍ່າໃດ?",
     "nextLead": "ສົ່ງຂະໜາດ ແລະ ຄວາມຍາວໂດຍກົງໄປຍັງເຄື່ອງຄິດໄລ່ CO₂ ແລະ ປຽບທຽບກັບທອງແດງ, ເຫຼັກກ້າ ແລະ PVC.",
     "nextCta": "ໄປທີ່ເຄື່ອງຄິດໄລ່ CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "ຄົ້ນຫາຜະລິດຕະພັນທັງໝົດຂອງພວກເຮົາຕາມໝວດໝູ່, ຊື່ ຫຼື ເລກລະຫັດສິນຄ້າ.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "ທໍ່",
+    "catFittings": "ຂໍ້ຕໍ່ທໍ່",
+    "catValves": "ວາວ",
+    "catTools": "ເຄື່ອງມື",
+    "catTransitionFittings": "ຂໍ້ຕໍ່ປ່ຽນຜ່ານ",
+    "catAccessories": "ອຸປະກອນເສີມ",
+    "catWeldInSaddles": "ອານເຊື່ອມ PP-R ຄຸນນະພາບສູງ",
+    "category": "ໝວດໝູ່",
+    "search": "ຄົ້ນຫາ",
+    "searchPlaceholder": "ເລກລະຫັດສິນຄ້າ ຫຼື ຊື່...",
+    "foundFam": "ກຸ່ມສິນຄ້າທີ່ພົບ",
+    "catalogPdf": "ແຄັດຕາລັອກເປັນ PDF",
+    "colName": "ຊື່ຜະລິດຕະພັນ",
+    "colCat": "ໝວດໝູ່",
+    "colCodes": "ເລກລະຫັດສິນຄ້າ",
+    "noResultsText": "ພວກເຮົາບໍ່ພົບຜະລິດຕະພັນທີ່ກົງກັບເງື່ອນໄຂການຄົ້ນຫາຂອງທ່ານ. ກະລຸນາລອງໃຊ້ຄຳອື່ນ ຫຼື ປ່ຽນໝວດໝູ່.",
+    "resetFilters": "ຣີເຊັດຕົວກອງ"
   },
   "trustAndCases": {
     "eyebrow": "ຄວາມປອດໄພທີ່ໄດ້ຮັບການຮັບຮອງ",
@@ -4451,7 +4418,7 @@
     "retry": "ລອງອີກຄັ້ງ",
     "titlePerfect": "ຊ່າງເຊື່ອມຊໍານານງານ",
     "titleGood": "ຊ່າງເຊື່ອມຝຶກຫັດ",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "ວິດີໂອຝຶກອົບຮົມ ແລະ ຄູ່ມືແນະນຳ"
   },
   "refs": {
     "eyebrow": "ໂຄງການອ້າງອີງ",
@@ -4467,51 +4434,9 @@
         "lon": 8.5,
         "title": "Waldsolms, ເຢຍລະມັນ",
         "d": "ໂຮງງານຫຼັກ & ການພັດທະນາ: ນີ້ຄືບ່ອນທີ່ທໍ່ K Aqua ທຸກໆທໍ່ຖືກສ້າງຂຶ້ນ."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, ອາຣັບເອມິເຣດ",
-        "d": "ທໍ່ສົ່ງນໍ້າໃນຕຶກສູງ: PPRCT ສໍາລັບນໍ້າຮ້ອນພາຍໃຕ້ສະພາບແວດລ້ອມທະເລຊາຍ."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warsaw, ໂປແລນ",
-        "d": "ການກໍ່ສ້າງເຂດທີ່ຢູ່ອາໄສໃໝ່: ການຕິດຕັ້ງລະບົບນໍ້າດື່ມຄົບວົງຈອນ d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, ຕວກກີ",
-        "d": "ໂຮງແຮມຄອມເພລັກ: ລະບົບທໍ່ໝູນວຽນດ້ວຍທໍ່ປະສົມເສັ້ນໃຍ."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur, ສິງກະໂປ",
-        "d": "ໂຄງການພື້ນຖານໂຄງລ່າງ: ທໍ່ຂະໜາດໃຫຍ່ເຖິງ d630 ດ້ວຍການເຊື່ອມແບບຕໍ່ຊົນ."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, ອາຟຣິກາໃຕ້",
-        "d": "ການກໍ່ສ້າງໂຮງໝໍໃໝ່: ການແຈກຢາຍນໍ້າດື່ມທີ່ຖືກສຸຂະອະນາໄມ."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, ສະຫະລາຊະອານາຈັກ",
-        "d": "ການສ້ອມແປງຫ້ອງການ: ການປ່ຽນແທນທໍ່ເກົ່າດ້ວຍທໍ່ທີ່ປາສະຈາກການກັດກ່ອນ."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "ເບິ່ງໂຄງການ"
   },
   "buyers": {
     "eyebrow": "ສໍາລັບນັກວາງແຜນ, ຝ່າຍຈັດຊື້ & ຜູ້ດໍາເນີນການ",
@@ -4883,7 +4808,7 @@
   },
   "geoContent": {
     "frankfurt": {
-      "regulator": "DVGW / Trinkwasserverordnung (TrinkwV)",
+      "regulator": "DVGW / ລະບຽບການນ້ຳດື່ມເຢຍລະມັນ (TrinkwV)",
       "water": "ນໍ້າກະດ້າງ (14–20 °dH): PP-R/PPRCT ທີ່ປາສະຈາກການກັດກ່ອນ ຊ່ວຍປ້ອງກັນການເກີດຫີນປູນເທິງພື້ນຜິວໂລຫະທີ່ຫຍາບ.",
       "focus": [
         "ທໍ່ສົ່ງນໍ້າໃນຕຶກສູງ (ເຂດທະນາຄານ)",
@@ -5151,7 +5076,7 @@
       "extendedMarketText": "ໂຄງລ່າງພື້ນຖານໃນຕົວເມືອງໃນພາກພື້ນນີ້ ມີຄວາມຕ້ອງການພິເສດດ້ານອາຍຸການໃຊ້ງານ ແລະ ຄວາມໜ້າເຊື່ອຖືຂອງລະບົບທໍ່. ດ້ວຍສະພາບອາກາດທີ່ຮຸນແຮງ ແລະ ຄວາມຕ້ອງການດ້ານສຸຂະອະນາໄມນໍ້າທີ່ສູງ, ລະບົບ PP-R ແລະ PPRCT ຂອງ K-Aqua ຈຶ່ງເປັນທາງເລືອກທີ່ດີທີ່ສຸດ. ທໍ່ໂລຫະແບບດັ້ງເດີມມັກຈະມີບັນຫາການກັດກ່ອນ ແລະ ການເກີດຫີນປູນ, ເຊິ່ງນໍາໄປສູ່ການສູນເສຍແຮງດັນ ແລະ ການຮົ່ວໄຫຼຂອງນໍ້າ. ກົງກັນຂ້າມ, ລະບົບ K-Aqua ຮັບປະກັນການຕິດຕັ້ງທີ່ແໜ້ນໜາ ແລະ ບໍ່ຈໍາເປັນຕ້ອງບໍາລຸງຮັກສາຕະຫຼອດຫຼາຍກວ່າ 50 ປີ ຍ້ອນວັດສະດຸທີ່ປາສະຈາກການກັດກ່ອນ ແລະ ການເຊື່ອມແບບ Polyfusion ທີ່ເປັນເນື້ອດຽວກັນ. ນອກຈາກນັ້ນ, ພື້ນຜິວພາຍໃນທີ່ລຽບຍັງຊ່ວຍໃຫ້ການໄຫຼວຽນຂອງນໍ້າມີປະສິດທິພາບສູງສຸດ, ຊ່ວຍຫຼຸດຜ່ອນການໃຊ້ພະລັງງານຂອງປໍ້າໄດ້ຢ່າງຫຼວງຫຼາຍ. ປັດໄຈເຫຼົ່ານີ້ເຮັດໃຫ້ K-Aqua ເປັນຕົວເລືອກອັນດັບຕົ້ນໆສໍາລັບໂຮງແຮມຂະໜາດໃຫຍ່, ໂຮງໝໍ, ລະບົບທໍາຄວາມເຢັນໃນອຸດສາຫະກໍາ ແລະ ໂຄງການທີ່ຢູ່ອາໄສລະດັບສູງໃນຕົວເມືອງ."
     },
     "nairobi": {
-      "regulator": "KEBS: Kenya Bureau of Standards",
+      "regulator": "KEBS: ສຳນັກງານມາດຕະຖານເຄນຢາ",
       "water": "ການປະສົມລະຫວ່າງນໍ້າຈາກເຂື່ອນ ແລະ ນໍ້າບາດານໃນມະຫານະຄອນທີ່ເຕີບໂຕໄວ: ຕ້ອງການເຕັກໂນໂລຢີການເຊື່ອມຕໍ່ທີ່ແຂງແກ່ນ ແລະ ຝຶກອົບຮົມງ່າຍ.",
       "focus": [
         "ໂຄງການບ້ານພັກລາຄາຖືກ (Affordable-Housing-Programm)",
@@ -5163,7 +5088,7 @@
       "extendedMarketText": "ໂຄງລ່າງພື້ນຖານໃນຕົວເມືອງໃນພາກພື້ນນີ້ ມີຄວາມຕ້ອງການພິເສດດ້ານອາຍຸການໃຊ້ງານ ແລະ ຄວາມໜ້າເຊື່ອຖືຂອງລະບົບທໍ່. ດ້ວຍສະພາບອາກາດທີ່ຮຸນແຮງ ແລະ ຄວາມຕ້ອງການດ້ານສຸຂະອະນາໄມນໍ້າທີ່ສູງ, ລະບົບ PP-R ແລະ PPRCT ຂອງ K-Aqua ຈຶ່ງເປັນທາງເລືອກທີ່ດີທີ່ສຸດ. ທໍ່ໂລຫະແບບດັ້ງເດີມມັກຈະມີບັນຫາການກັດກ່ອນ ແລະ ການເກີດຫີນປູນ, ເຊິ່ງນໍາໄປສູ່ການສູນເສຍແຮງດັນ ແລະ ການຮົ່ວໄຫຼຂອງນໍ້າ. ກົງກັນຂ້າມ, ລະບົບ K-Aqua ຮັບປະກັນການຕິດຕັ້ງທີ່ແໜ້ນໜາ ແລະ ບໍ່ຈໍາເປັນຕ້ອງບໍາລຸງຮັກສາຕະຫຼອດຫຼາຍກວ່າ 50 ປີ ຍ້ອນວັດສະດຸທີ່ປາສະຈາກການກັດກ່ອນ ແລະ ການເຊື່ອມແບບ Polyfusion ທີ່ເປັນເນື້ອດຽວກັນ. ນອກຈາກນັ້ນ, ພື້ນຜິວພາຍໃນທີ່ລຽບຍັງຊ່ວຍໃຫ້ການໄຫຼວຽນຂອງນໍ້າມີປະສິດທິພາບສູງສຸດ, ຊ່ວຍຫຼຸດຜ່ອນການໃຊ້ພະລັງງານຂອງປໍ້າໄດ້ຢ່າງຫຼວງຫຼາຍ. ປັດໄຈເຫຼົ່ານີ້ເຮັດໃຫ້ K-Aqua ເປັນຕົວເລືອກອັນດັບຕົ້ນໆສໍາລັບໂຮງແຮມຂະໜາດໃຫຍ່, ໂຮງໝໍ, ລະບົບທໍາຄວາມເຢັນໃນອຸດສາຫະກໍາ ແລະ ໂຄງການທີ່ຢູ່ອາໄສລະດັບສູງໃນຕົວເມືອງ."
     },
     "mumbai": {
-      "regulator": "BIS: Bureau of Indian Standards",
+      "regulator": "BIS: ສຳນັກງານມາດຕະຖານອິນເດຍ",
       "water": "ການສະໜອງນໍ້າຈາກເຂື່ອນທີ່ໄດ້ຮັບຜົນກະທົບຈາກລົມມໍລະສຸມພ້ອມກັບການເຮັດວຽກເປັນໄລຍະ: ຂໍ້ຕໍ່ເຊື່ອມທີ່ທົນທານຕໍ່ການກະແທກຂອງນໍ້າມີຄວາມສໍາຄັນເປັນສອງເທົ່າ.",
       "focus": [
         "ໂຄງການປັບປຸງຕຶກສູງ (High-Rise Redevelopment)",
@@ -5187,7 +5112,7 @@
       "extendedMarketText": "ໂຄງລ່າງພື້ນຖານໃນຕົວເມືອງໃນພາກພື້ນນີ້ ມີຄວາມຕ້ອງການພິເສດດ້ານອາຍຸການໃຊ້ງານ ແລະ ຄວາມໜ້າເຊື່ອຖືຂອງລະບົບທໍ່. ດ້ວຍສະພາບອາກາດທີ່ຮຸນແຮງ ແລະ ຄວາມຕ້ອງການດ້ານສຸຂະອະນາໄມນໍ້າທີ່ສູງ, ລະບົບ PP-R ແລະ PPRCT ຂອງ K-Aqua ຈຶ່ງເປັນທາງເລືອກທີ່ດີທີ່ສຸດ. ທໍ່ໂລຫະແບບດັ້ງເດີມມັກຈະມີບັນຫາການກັດກ່ອນ ແລະ ການເກີດຫີນປູນ, ເຊິ່ງນໍາໄປສູ່ການສູນເສຍແຮງດັນ ແລະ ການຮົ່ວໄຫຼຂອງນໍ້າ. ກົງກັນຂ້າມ, ລະບົບ K-Aqua ຮັບປະກັນການຕິດຕັ້ງທີ່ແໜ້ນໜາ ແລະ ບໍ່ຈໍາເປັນຕ້ອງບໍາລຸງຮັກສາຕະຫຼອດຫຼາຍກວ່າ 50 ປີ ຍ້ອນວັດສະດຸທີ່ປາສະຈາກການກັດກ່ອນ ແລະ ການເຊື່ອມແບບ Polyfusion ທີ່ເປັນເນື້ອດຽວກັນ. ນອກຈາກນັ້ນ, ພື້ນຜິວພາຍໃນທີ່ລຽບຍັງຊ່ວຍໃຫ້ການໄຫຼວຽນຂອງນໍ້າມີປະສິດທິພາບສູງສຸດ, ຊ່ວຍຫຼຸດຜ່ອນການໃຊ້ພະລັງງານຂອງປໍ້າໄດ້ຢ່າງຫຼວງຫຼາຍ. ປັດໄຈເຫຼົ່ານີ້ເຮັດໃຫ້ K-Aqua ເປັນຕົວເລືອກອັນດັບຕົ້ນໆສໍາລັບໂຮງແຮມຂະໜາດໃຫຍ່, ໂຮງໝໍ, ລະບົບທໍາຄວາມເຢັນໃນອຸດສາຫະກໍາ ແລະ ໂຄງການທີ່ຢູ່ອາໄສລະດັບສູງໃນຕົວເມືອງ."
     },
     "kualalumpur": {
-      "regulator": "SPAN: National Water Services Commission",
+      "regulator": "SPAN: ຄະນະກຳມາທິການບໍລິການນ້ຳແຫ່ງຊາດ",
       "water": "ນໍ້າໜ້າດິນເຂດຮ້ອນ, ຄວາມຊຸ່ມຊື່ນສະພາບແວດລ້ອມສູງ: ລະບົບທີ່ທົນທານຕໍ່ລັງສີ UV ແລະ ຄວາມແກ່ເປັນມາດຕະຖານ.",
       "focus": [
         "ເຂດການເງິນ TRX",
@@ -6015,8 +5940,7 @@
         "d": "ເລື່ອງສຸຂະອະນາໄມແມ່ນບໍ່ສາມາດຕໍ່ລອງໄດ້: ພື້ນຜິວພາຍໃນທີ່ລຽບ (0.007 ມມ) ຊ່ວຍຢັບຢັ້ງການເກີດໄບໂອຟິມ ແລະ ຫີນປູນ, ວັດສະດຸຮັກສາຄວາມເປັນກາງທາງລົດຊາດ ແລະ ກິ່ນ.",
         "pts": [
           "ເປັນກາງທາງສຸຂະອະນາໄມ",
-          "ປາສະຈາກການກັດກ່ອນ: ບໍ່ເກີດຮູຜຸ",
-          "ໂຄງການອ້າງອີງ: ການກໍ່ສ້າງໂຮງໝໍໃໝ່ໃນ Cape Town"
+          "ປາສະຈາກການກັດກ່ອນ: ບໍ່ເກີດຮູຜຸ"
         ]
       },
       {
@@ -6024,8 +5948,7 @@
         "d": "ການໝູນວຽນນໍ້າຮ້ອນຕະຫຼອດ 24 ຊົ່ວໂມງ: ການນໍາຄວາມຮ້ອນຕໍ່າຊ່ວຍປະຢັດພະລັງງານໄດ້ຢ່າງຍາວນານ, PPRCT ຮອງຮັບການໃຊ້ງານຕໍ່ເນື່ອງທີ່ອຸນຫະພູມ 70 °C.",
         "pts": [
           "ປະສິດທິພາບຄວາມຮ້ອນ",
-          "PPRCT ສໍາລັບການໝູນວຽນນໍ້າ",
-          "ໂຄງການອ້າງອີງ: ໂຮງແຮມຄອມເພລັກ Istanbul"
+          "PPRCT ສໍາລັບການໝູນວຽນນໍ້າ"
         ]
       },
       {
@@ -6042,8 +5965,7 @@
         "d": "ຮຸ່ນທີ່ທົນທານຕໍ່ລັງສີ UV ສໍາລັບການຊົນລະປະທານທັງໃນໂຮງເຮືອນ ແລະ ກາງແຈ້ງ: ນໍ້າໜັກເບົາ, ຕິດຕັ້ງໄວ, ທົນທານຕໍ່ອາກາດໜາວໄດ້ດີກວ່າລະບົບທໍ່ແຂງ.",
         "pts": [
           "ຮຸ່ນທີ່ທົນທານຕໍ່ລັງສີ UV",
-          "ນໍ້າໜັກເບົາ",
-          "ຂົງເຂດການນໍາໃຊ້ຈາກໂຄງການອ້າງອີງ"
+          "ນໍ້າໜັກເບົາ"
         ]
       },
       {
@@ -6051,8 +5973,7 @@
         "d": "ທໍ່ສະໜອງ ແລະ ເຄືອຂ່າຍຂະໜາດໃຫຍ່ຮອດ d630: ເຊື່ອມຕໍ່ຊົນໃຫ້ກາຍເປັນເສັ້ນທໍ່ທີ່ເປັນເນື້ອດຽວກັນ ແລະ ໜາແໜ້ນຖາວອນ.",
         "pts": [
           "d ຮອດ 630 ມມ",
-          "ການເຊື່ອມແບບຕໍ່ຊົນ (Butt Fusion)",
-          "ໂຄງການອ້າງອີງ: ໂຄງລ່າງພື້ນຖານ ສິງກະໂປ"
+          "ການເຊື່ອມແບບຕໍ່ຊົນ (Butt Fusion)"
         ]
       },
       {
@@ -7093,53 +7014,6 @@
       "cta": "Factory"
     }
   },
-  "customerReviews": {
-    "eyebrow": "ຄຸນນະພາບທີ່ເຊື່ອມຕໍ່ເຖິງກັນ",
-    "title": "ສິ່ງທີ່ລູກຄ້າ ແລະ ຄູ່ຮ່ວມງານຂອງພວກເຮົາກ່າວເຖິງ",
-    "lead": "ຕັ້ງແຕ່ຜູ້ຮັບເໝົາກໍ່ສ້າງ, ບໍລິສັດຂົນສົ່ງ ໄປຈົນເຖິງພະນັກງານທີ່ເຮັດວຽກມາຍາວນານ: K Aqua KWT GmbH ເປັນຕົວແທນຂອງຄວາມຊັດເຈນສູງສຸດຈາກ Waldsolms. ອ່ານປະສົບການທີ່ຜູ້ຄົນໄດ້ຮັບຈາກການບໍລິການ ແລະ ຜະລິດຕະພັນ 'Made in Germany' ຂອງພວກເຮົາໃນທຸກໆມື້ ດ້ວຍຕົວທ່ານເອງ.",
-    "trustBadge": "ການຕີລາຄາໃນ Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(ອີງຕາມ 44 ການຕີລາຄາ)",
-    "tabA": "ຄຸນນະພາບ & 'Made in Germany'",
-    "tabB": "ໂລຈິສຕິກ & ການຈັດສົ່ງ",
-    "tabC": "ບໍລິການລູກຄ້າ & ທີມງານ",
-    "reviews": {
-      "a1": "„ໂຮງງານໃນ Waldsolms ປະເທດເຢຍລະມັນ ທີ່ຊ່ຽວຊານດ້ານທໍ່ ແລະ ຂໍ້ຕໍ່ PPR **Made in Germany**. ພະນັກງານຍອດຢ້ຽມ.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**ຄຸນນະພາບເຢຍລະມັນ** ສໍາລັບການເຄືອບ ແລະ ຂໍ້ຕໍ່ PPR, ພະນັກງານເປັນມິດຫຼາຍ.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**ບໍລິສັດທີ່ທັນສະໄໝ**. ຜະລິດທໍ່ພາດສະຕິກທຸກຂະໜາດ ແລະ ອຸປະກອນເສີມ.“",
-      "a3Author": "Ewald S.",
-      "a4": "„ທໍ່ ແລະ ຂໍ້ຕໍ່ PPR ຈາກ **ການຜະລິດຂອງເຢຍລະມັນ**, ພະນັກງານ ແລະ ຜະລິດຕະພັນທີ່ຍອດຢ້ຽມ.“",
-      "a4Author": "Kais S.",
-      "a5": "„**ຜະລິດຕະພັນຄຸນນະພາບສູງ** ແລະ ໂຮງງານຊັ້ນນໍາຂອງເຢຍລະມັນ.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„ຜະລິດຕະພັນດີຫຼາຍ, **ຄຸນນະພາບທີ່ເຊື່ອຖືໄດ້** ແລະ ການຈັດສົ່ງກົງເວລາ.“",
-      "a6Author": "Klaus T.",
-      "b1": "„ການບໍລິການທີ່ດີຫຼາຍ, **ການເອົາເຄື່ອງລົງໄວ**. ຂ້ອຍສາມາດພັກຜ່ອນດົນໄດ້ຢູ່ທີ່ນີ້. ພວກເຂົາຍັງສະເໜີຫ້ອງນໍ້າ ແລະ ບ່ອນອາບນໍ້າໃຫ້ຂ້ອຍ. ຢູ່ທີ່ນີ້, ຄົນຂັບລົດບັນທຸກຮູ້ສຶກ **ມີຄຸນຄ່າ**. ຂ້ອຍຍິນດີທີ່ຈະກັບມາບ່ອນນີ້ອີກແນ່ນອນ.“",
-      "b1Author": "Michael S.",
-      "b2": "„ພິກັດປະຈຸບັນຂອງທາງເຂົ້າແມ່ນ **50.428210, 8.499154**. ມີບ່ອນຈອດລົດຫ່າງອອກໄປປະມານ 100 ແມັດ. ພະນັກງານເປັນມິດ.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**ການເອົາເຄື່ອງລົງໄວ**, ພະນັກງານເປັນມິດ ແລະ ໃຫ້ການຊ່ວຍເຫຼືອ.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**ບໍລິການດີຫຼາຍ**, ດີໃຈຫຼາຍທີ່ຍັງມີການຜະລິດໃນເຢຍລະມັນ.“",
-      "c1Author": "Daniel",
-      "c2": "„ພະນັກງານ **ເປັນມິດຫຼາຍ** ແລະ ໃຫ້ການຊ່ວຍເຫຼືອ. ອີເມວຖືກ **ຕອບກັບທັນທີ**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„ຕັ້ງແຕ່ປະທານບໍລິສັດຈົນເຖິງພະນັກງານທົ່ວໄປ: ພວກເຂົາເປັນ **ຄົນດີ**.“",
-      "c3Author": "Azim",
-      "c4": "„**ບໍລິສັດທີ່ຍອດຢ້ຽມ**, ເຮັດຫຼາຍຢ່າງເພື່ອພະນັກງານຂອງພວກເຂົາ.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„ພະນັກງານ **ເປັນມິດ ແລະ ໃຫ້ການຊ່ວຍເຫຼືອຫຼາຍ**.“",
-      "c5Author": "Piera V.",
-      "c6": "„ທີມງານທີ່ມີຄວາມສາມາດ ແລະ **ການເບິ່ງແຍງລູກຄ້າທີ່ຍອດຢ້ຽມ** ໃນທຸກລະດັບ.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "ເຊື່ອໝັ້ນໃນການບໍລິການຂອງພວກເຮົາດ້ວຍຕົວທ່ານເອງ.",
-    "ctaText": "ທ່ານມີຄໍາຖາມກ່ຽວກັບລະບົບທໍ່ PPR ຂອງພວກເຮົາ ຫຼື ຕ້ອງການປຶກສາໂຄງການກັບພວກເຮົາຫຼືບໍ່? ທີມງານຂອງພວກເຮົາຈາກ Waldsolms ພ້ອມໃຫ້ບໍລິການທ່ານ.",
-    "ctaBtn": "ຕິດຕໍ່ດຽວນີ້",
-    "disclaimer": "ໝາຍເຫດກ່ຽວກັບການກວດສອບການຕີລາຄາ: ການຕີລາຄາທີ່ສະແດງຢູ່ທີ່ນີ້ມາຈາກໂປຣໄຟລ໌ທຸລະກິດ Google ຂອງພວກເຮົາ. Google ລະບຸວ່າ: ບໍ່ມີການກວດສອບການຕີລາຄາ. ພວກເຮົາໄດ້ຫຍໍ້ຊື່ຂອງຜູ້ຂຽນເພື່ອເຫດຜົນດ້ານການປົກປ້ອງຂໍ້ມູນສ່ວນຕົວ (DSGVO)."
-  },
   "notFound": {
     "title": "ບໍ່ພົບໜ້າ",
     "description": "ໜ້າທີ່ຮ້ອງຂໍບໍ່ມີຢູ່ ຫຼື ຖືກຍ້າຍໄປແລ້ວ.",
@@ -7223,14 +7097,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "ຂໍ້ຕໍ່ເຊື່ອມອານມ້າ (ກຽວໃນ)",
     "weld-in-saddles_weld-in-saddle-male-thread": "ຂໍ້ຕໍ່ເຊື່ອມອານມ້າ (ກຽວນອກ)",
     "weld-in-saddles_weld-in-saddle": "ຂໍ້ຕໍ່ເຊື່ອມອານມ້າ",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "ໜ້າແປນຫຼວມ PP-ເຫຼັກກ້າ (SF/BF)",
+    "fittings_cross-over-with-socket": "ຂໍ້ໂຄ້ງຂ້າມທໍ່ PP-R ພ້ອມປອກສວມ",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "ເຄື່ອງເຊື່ອມມື d20-d32",
+    "tools_pipe-cutter-50125": "ເຄື່ອງຕັດທໍ່ d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "ຂໍ້ຕໍ່ສາມທາງ 90° (ກຽວໃນ) ສຳລັບວາວຝັງຝາ"
   },
   "kontaktBlocks": {
     "home": {
@@ -7784,7 +7658,7 @@
       "list1": "ຜ່ານການທົດສອບຕາມ DIN EN ISO 15874",
       "list2": "ອາຍຸການໃຊ້ງານ > 50 ປີ",
       "list3": "ປາສະຈາກການບໍາລຸງຮັກສາ & ທົນທານຕໍ່ການກັດກ່ອນ",
-      "placeholder": "Visual Asset Placeholder",
+      "placeholder": "ບ່ອນສະແດງພາບປະກອບ",
       "ctaTitle": "ພ້ອມສໍາລັບຄຸນນະພາບທີ່ບໍ່ປະນີປະນອມແລ້ວບໍ?",
       "ctaLead": "ໂອ້ລົມກັບທີມງານວິສະວະກອນຂອງພວກເຮົາກ່ຽວກັບໂຄງການຂະໜາດໃຫຍ່ຕໍ່ໄປຂອງທ່ານ."
     },
@@ -8052,7 +7926,7 @@
         "btnGhost": "ຕິດຕໍ່ຜູ້ຊ່ຽວຊານ"
       },
       "metaTitle": "ການສະໜັບສະໜູນທາງເຕັກນິກ & ການບໍລິການສໍາລັບລະບົບທໍ່ PP-R",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "ການໃຫ້ຄຳປຶກສາດ້ານວິສະວະກຳ, ເຕັກໂນໂລຊີການນຳໃຊ້ ແລະ ການສະໜັບສະໜູນຢູ່ໜ້າງານ."
     }
   },
   "markets": {
@@ -8400,53 +8274,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "ຊຸດແຜນທີ່",
+    "titleGrad": "ແບບໂຕ້ຕອບ",
+    "tabHq": "ສຳນັກງານໃຫຍ່ Waldsolms",
+    "tabRefs": "ແຜນທີ່ຄວາມແໜ້ນຮົ່ວ",
+    "tabSpec": "ຕົວກຳນົດສະເປັກ",
+    "hqTitle": "ສູນການຜະລິດ ແລະ ພັດທະນາຫຼັກ",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, ປະເທດເຢຍລະມັນ.",
+    "registryLabel": "ສານທະບຽນການຄ້າ:",
+    "phoneLabel": "ໂທລະສັບ:",
+    "certLabel": "ການຢັ້ງຢືນມາດຕະຖານ:",
+    "directions": "ເປີດຕົວວາງແຜນເສັ້ນທາງ",
+    "aboutPlant": "ກ່ຽວກັບໂຮງງານ Waldsolms",
+    "sectorFilter": "ຕົວກອງຂະແໜງ:",
+    "specPlaceholder": "ປ້ອນສະຖານທີ່ ຫຼື ເມືອງ…",
+    "profileTitle": "ໂປຣໄຟລ໌ຕະຫຼາດ ແລະ ໂລຈິສຕິກ",
+    "profileHint": "ຄລິກໃສ່ແຜນທີ່ ຫຼື ຄົ້ນຫາເມືອງ ເພື່ອເລີ່ມການກຳນົດສະເປັກລະບົບອັດຕະໂນມັດ ແລະ ການຄິດໄລ່ເສັ້ນທາງການສົ່ງມອບ.",
+    "marketAssign": "ການຈັດສັນຕະຫຼາດ",
+    "normLabel": "ມາດຕະຖານ:",
+    "airDist": "ໄລຍະທາງກົງ (HQ)",
+    "roadDist": "ທາງລົດ (ຄາດຄະເນ)",
+    "recommended": "ລະບົບທໍ່ທີ່ແນະນຳ:",
+    "recUv": "ຊັ້ນນອກ UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "ທຸກຂະແໜງ",
+      "hotel": "ໂຮງແຮມ",
+      "wohnen": "ທີ່ຢູ່ອາໄສ",
+      "infra": "ພື້ນຖານໂຄງລ່າງ",
+      "klinik": "ຄລີນິກ",
+      "buero": "ຫ້ອງການ"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "ຜະລິດຕະພັນ",
+      "markets-solutions": "ຕະຫຼາດ ແລະ ວິທີແກ້ໄຂ",
+      "academy-resources": "Academy ແລະ ຊັບພະຍາກອນ",
+      "company": "ບໍລິສັດ"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "ຕົວຄົ້ນຫາຜະລິດຕະພັນສຳລັບທໍ່",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "ຂໍ້ຕໍ່ ແລະ ອຸປະກອນເຊື່ອມຕໍ່",
+      "valves": "ວາວ ແລະ ກັອກນ້ຳ",
+      "tools": "ເຄື່ອງມື ແລະ ອຸປະກອນເສີມ",
+      "transition": "ຂໍ້ຕໍ່ປ່ຽນຜ່ານສຳລັບທໍ່",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8459,48 +8333,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "ການສອບຖາມໂຄງການສຳລັບລະບົບທໍ່",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "ແຜນຜັງເວັບໄຊ (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "ເລືອກພາສາຂອງທ່ານ",
+    "subtitle": "65 ພາສາ · ໝູນໂລກ, ແຕະພາກພື້ນ, ຢືນຢັນ.",
+    "searchPlaceholder": "ຄົ້ນຫາພາສາ ຫຼື ໜ້າເວັບ …",
+    "pagesSection": "ໜ້າເວັບ ແລະ ການນຳທາງ",
+    "noResults": "ບໍ່ພົບພາສາ.",
+    "confirm": "ຢືນຢັນ",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "ນຳໃຊ້ກັບທັງເວັບໄຊ",
+    "active": "ກຳລັງໃຊ້ຢູ່"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "ພວກເຮົາຈະຊ່ວຍທ່ານໄດ້ແນວໃດ?",
+    "step1Desc": "ເລືອກຂະແໜງທີ່ເໝາະສົມສຳລັບຄຳຮ້ອງຂອງທ່ານ.",
+    "optSales": "ຝ່າຍຂາຍ ແລະ ໂຄງການ",
+    "optSalesDesc": "ການສອບຖາມລາຄາ, ໂຄງການຂະໜາດໃຫຍ່ ແລະ ໄລຍະເວລາສົ່ງມອບ.",
+    "optTech": "ການສະໜັບສະໜູນດ້ານເຕັກນິກ",
+    "optTechDesc": "ສະເປັກ, ການຕິດຕັ້ງ ແລະ ການອອກແບບລະບົບ.",
+    "optOther": "ການສອບຖາມທົ່ວໄປ",
+    "optOtherDesc": "ການຕະຫຼາດ, ອາຊີບ ຫຼື ອື່ນໆ.",
+    "step2Title": "ລາຍລະອຽດຄຳຮ້ອງຂອງທ່ານ",
+    "step2Desc": "ກະລຸນາອະທິບາຍໂຄງການ ຫຼື ຄຳຖາມຂອງທ່ານໂດຍຫຍໍ້.",
+    "messagePlaceholder": "ຂໍ້ຄວາມຂອງທ່ານເຖິງພວກເຮົາ...",
+    "step3Title": "ຂໍ້ມູນຕິດຕໍ່ຂອງທ່ານ",
+    "step3Desc": "ເກືອບສຳເລັດແລ້ວ! ພວກເຮົາຈະຕິດຕໍ່ທ່ານໄດ້ແນວໃດ?",
+    "nameLabel": "ຊື່ເຕັມ",
+    "companyLabel": "ບໍລິສັດ / ອົງກອນ",
+    "emailLabel": "ທີ່ຢູ່ອີເມວ",
+    "phoneLabel": "ເບີໂທລະສັບ",
+    "step4Title": "ສົ່ງຂໍ້ຄວາມແລ້ວ!",
+    "step4Desc": "ຂອບໃຈສຳລັບການສອບຖາມຂອງທ່ານ. ຜູ້ຊ່ຽວຊານຂອງພວກເຮົາຈະຕິດຕໍ່ຫາທ່ານໃນໄວໆນີ້.",
+    "btnNext": "ຕໍ່ໄປ",
+    "btnBack": "ກັບຄືນ",
+    "btnSubmit": "ສົ່ງຄຳຮ້ອງ",
+    "btnSending": "ກຳລັງສົ່ງ…",
+    "btnHome": "ກັບຄືນສູ່ໜ້າຫຼັກ",
+    "sendError": "ການສົ່ງລົ້ມເຫຼວ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ ຫຼື ໂທຫາພວກເຮົາໂດຍກົງ: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

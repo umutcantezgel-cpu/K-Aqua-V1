@@ -232,8 +232,13 @@ export function PipeFX({ variant = 'flow', size = 320, progress }: PipeFXProps) 
     
     canvas.width = w * dpr;
     canvas.height = h * dpr;
-    canvas.style.width = w + 'px';
-    canvas.style.height = h + 'px';
+    // `size` ist die Wunschbreite, nicht ein Festmaß: in schmalen Karten
+    // (z.B. vier Spalten in 1200px) muss das Canvas proportional mitschrumpfen,
+    // sonst ragt es über den Kartenrand hinaus.
+    canvas.style.width = '100%';
+    canvas.style.maxWidth = w + 'px';
+    canvas.style.height = 'auto';
+    canvas.style.aspectRatio = `${w} / ${h}`;
     
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
@@ -267,7 +272,7 @@ export function PipeFX({ variant = 'flow', size = 320, progress }: PipeFXProps) 
   }, [variant, size, progress]);
 
   return (
-    <div style={{ display: 'grid', placeItems: 'center' }} data-screen-label={`PipeFX: ${variant}`}>
+    <div style={{ display: 'grid', placeItems: 'center', width: '100%' }} data-screen-label={`PipeFX: ${variant}`}>
       <canvas ref={ref} aria-hidden="true"></canvas>
     </div>
   );

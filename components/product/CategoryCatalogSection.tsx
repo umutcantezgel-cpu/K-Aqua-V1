@@ -300,6 +300,15 @@ export function CategoryCatalogSection({
                           <span className="font-semibold text-foreground">{item.len}</span>
                         </div>
                       )}
+                      {/* Die 4 m sind die Standardlänge, nicht die einzige.
+                          Vier Rohre liefern laut Katalogfußnote auf Anfrage
+                          5,80 m unter eigener Artikelnummer — das stand bisher
+                          nur im Markdown und nirgends im Web-Katalog. */}
+                      {item.lenNote && (
+                        <p className="text-xs text-muted-foreground leading-relaxed pt-0.5">
+                          {item.lenNote}
+                        </p>
+                      )}
                     </div>
 
                     {/* Matrix sample info */}

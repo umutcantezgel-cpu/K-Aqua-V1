@@ -3,7 +3,8 @@
 
 import React from "react";
 import { cn } from "@/lib/utils/cn";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
+import { useRevealSafety } from "@/components/ui/Reveal";
 
 export const StickyScrollReveal = ({
   content,
@@ -23,6 +24,10 @@ export const StickyScrollReveal = ({
   contentClassName?: string;
 }) => {
   const actualContent = content || items || [];
+  const forceVisible = useRevealSafety();
+  // Siehe Reveal.tsx: die CSS-Regel fuer prefers-reduced-motion erreicht die
+  // Inline-Styles von motion nicht, der Startwert muss hier entfallen.
+  const reduced = useReducedMotion();
 
   if (actualContent.length === 0) return null;
 
@@ -31,8 +36,9 @@ export const StickyScrollReveal = ({
       {actualContent.map((item, index) => (
         <motion.div 
           key={index}
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={reduced ? false : { opacity: 0, y: 20 }}
+          animate={forceVisible ? { opacity: 1, y: 0 } : undefined}
+          whileInView={reduced ? undefined : { opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.5, delay: index * 0.1 }}
           className="flex flex-col md:flex-row bg-card border border-card-border rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all group w-full"

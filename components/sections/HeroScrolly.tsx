@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/Button';
 import LiquidMagneticButton from '@/components/ui/LiquidMagneticButton';
 
 import { IconChip } from '@/components/ui/IconChip';
+import { WALDSOLMS } from '@/lib/data/geo';
 
 // Dynamic load of Globe to prevent SSR issues
 const Globe = dynamic(
@@ -132,7 +133,7 @@ export default function HeroScrolly() {
   }, [staticMode, isRtl]);
 
   const testMarkers = [
-    { lat: 50.49, lon: 8.51, title: 'Waldsolms', label: 'Waldsolms' },
+    { lat: WALDSOLMS.lat, lon: WALDSOLMS.lon, title: 'Waldsolms', label: 'Waldsolms' },
     { lat: 25.2, lon: 55.3, title: 'Dubai', label: 'Dubai' },
     { lat: 1.35, lon: 103.8, title: 'Singapore', label: 'Singapore' },
     { lat: 51.5, lon: -0.1, title: 'London', label: 'London' },

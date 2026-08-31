@@ -124,6 +124,7 @@ export default function PipeColourCoding({ locale }: { locale: string }) {
             </tbody>
           </table>
         </div>
+
       </div>
     </section>
   );

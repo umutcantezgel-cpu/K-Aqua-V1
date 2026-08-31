@@ -25,6 +25,7 @@ import {
   SlidersHorizontal,
 } from 'lucide-react';
 import clsx from 'clsx';
+import { PIPE_STOCK_LENGTH_M } from '@/lib/data/catalog';
 
 interface Native3DShowroomProps {
   locale: string;
@@ -65,6 +66,9 @@ export default function Native3DShowroom({ locale }: Native3DShowroomProps) {
   }, [activeCategory, searchQuery]);
 
   // Current active article for dimensions table
+  // Rohre sind Meterware, alle anderen Kategorien sind Stueckware.
+  const istRohr = activeItem?.category === 'pipes';
+
   const activeArticle = useMemo(() => {
     if (!productData || !productData.articles) return null;
     return (
@@ -269,19 +273,69 @@ export default function Native3DShowroom({ locale }: Native3DShowroomProps) {
                       <span className="text-sm font-bold text-foreground">{activeArticle.s} mm</span>
                     </div>
                   )}
-                  {activeArticle?.kg && (
-                    <div className="flex flex-col">
-                      <span className="text-muted-foreground text-[11px]">Gewicht / Stk</span>
-                      <span className="text-sm font-bold text-foreground">{activeArticle.kg} kg</span>
-                    </div>
-                  )}
-                  {activeArticle?.pack && (
-                    <div className="flex flex-col">
-                      <span className="text-muted-foreground text-[11px]">Verpackungseinheit</span>
-                      <span className="text-sm font-bold text-foreground">{activeArticle.pack} Stk.</span>
-                    </div>
+                  {/*
+                    Rohre sind Meterware, alles andere ist Stückware.
+                    Der Block darunter zeigte für JEDES Bauteil „Gewicht / Stk"
+                    und „{pack} Stk." — bei Rohren ist beides falsch: sie führen
+                    kein Stückgewicht (`kg` fehlt, es gibt `kgm` in kg/m), und
+                    `pack` zählt keine Stücke, sondern 4-Meter-Stangen je Bund.
+                    Verkauft und angefragt wird nach Metern.
+                  */}
+                  {istRohr ? (
+                    <>
+                      {activeArticle?.kgm && (
+                        <div className="flex flex-col">
+                          <span className="text-muted-foreground text-[11px]">Gewicht</span>
+                          <span className="text-sm font-bold text-foreground">{activeArticle.kgm} kg/m</span>
+                        </div>
+                      )}
+                      {activeArticle?.lm && (
+                        <div className="flex flex-col">
+                          <span className="text-muted-foreground text-[11px]">Wasserinhalt</span>
+                          <span className="text-sm font-bold text-foreground">{activeArticle.lm} l/m</span>
+                        </div>
+                      )}
+                      <div className="flex flex-col">
+                        <span className="text-muted-foreground text-[11px]">Lieferlänge</span>
+                        <span className="text-sm font-bold text-foreground">
+                          {PIPE_STOCK_LENGTH_M} m
+                        </span>
+                      </div>
+                      {activeArticle?.pack && (
+                        <div className="flex flex-col">
+                          <span className="text-muted-foreground text-[11px]">Bundgröße</span>
+                          <span className="text-sm font-bold text-foreground">
+                            {activeArticle.pack * PIPE_STOCK_LENGTH_M} m
+                          </span>
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <>
+                      {activeArticle?.kg && (
+                        <div className="flex flex-col">
+                          <span className="text-muted-foreground text-[11px]">Gewicht / Stk</span>
+                          <span className="text-sm font-bold text-foreground">{activeArticle.kg} kg</span>
+                        </div>
+                      )}
+                      {activeArticle?.pack && (
+                        <div className="flex flex-col">
+                          <span className="text-muted-foreground text-[11px]">Verpackungseinheit</span>
+                          <span className="text-sm font-bold text-foreground">{activeArticle.pack} Stk.</span>
+                        </div>
+                      )}
+                    </>
                   )}
                 </div>
+                {istRohr && (
+                  <div className="px-4 pb-4 -mt-1">
+                    <p className="text-[11px] text-muted-foreground leading-relaxed">
+                      {isDe
+                        ? 'Standardlänge 4 m je Stange. Andere Längen auf Anfrage.'
+                        : 'Standard length 4 m per bar. Other lengths on request.'}
+                    </p>
+                  </div>
+                )}
               </div>
 
               {/* Action Buttons */}

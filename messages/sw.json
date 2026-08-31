@@ -861,48 +861,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Ujerumani",
         "d": "Kiwanda kikuu & Maendeleo: hapa ndipo kila bomba la K Aqua linatengenezwa."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, UAE",
-        "d": "Mabomba ya kupanda ghorofani: PPRCT kwa maji ya moto chini ya hali ya jangwa."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warsaw, Poland",
-        "d": "Ujenzi wa robo ya makazi: usakinishaji kamili wa maji ya kunywa d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Uturuki",
-        "d": "Jengo la hoteli: mistari ya mzunguko yenye bomba la mchanganyiko wa nyuzi."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Mradi wa miundombinu: vipimo vikubwa hadi d630 kwa mchakato wa kulehemu kwa kitako."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, Afrika Kusini",
-        "d": "Ujenzi mpya wa hospitali: usambazaji wa maji ya kunywa yenye usafi."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, UK",
-        "d": "Ukarabati wa ofisi: ubadilishaji usio na kutu kwa mistari iliyopo."
       }
     ],
     "viewProject": "View project"
@@ -1622,39 +1580,6 @@
             "unit": "",
             "title": "Matengenezo",
             "desc": "Sakinisha, funga na usahau milele."
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "Marejeleo ambayo yanaandika historia.",
-        "desc": "Kutoka visiwa bandia hadi kwenye milima ya Alps. Ambapo yasiyowezekana yanajengwa, K Aqua ipo."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Salinitas uliokithiri na joto zilihitaji upinzani wa juu. K Aqua ilitoa mfumo mzima."
-          },
-          {
-            "year": "Uswizi",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Kivutio cha nyota 6 kwenye urefu wa mita 2,000. Changamoto: Hatari ya baridi."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "Kito cha ghorofa 65 cha usanifu wa kiikolojia. Mfumo tata wa umwagiliaji uliofanywa na K Aqua."
-          },
-          {
-            "year": "Malediven",
-            "title": "Zero-Emission Island Resort",
-            "text": "Ustahimilivu kamili wa mazingira ulihitajika. Mabomba ya K Aqua yanaweza kurejelewa 100%."
-          },
-          {
-            "year": "Siku zijazo",
-            "title": "Mradi wako unaofuata",
-            "text": "Mipaka ya usanifu inabadilika kila siku. Tuko tayari kuweka msingi kwa maono yako."
           }
         ]
       },
@@ -3318,8 +3243,7 @@
         "d": "Usafi hauwezi kujadiliwa: Uso laini huzuia biofilm, nyenzo inabaki bila ladha na harufu.",
         "pts": [
           "Usafi wa kudumu",
-          "Haina kutu",
-          "Rejea: Hospitali Mpya Cape Town"
+          "Haina kutu"
         ]
       },
       {
@@ -3327,8 +3251,7 @@
         "d": "Mzunguko wa maji ya moto kila saa: insulation ya joto huokoa nishati kila wakati.",
         "pts": [
           "Ufanisi wa Joto",
-          "PPRCT kwa mzunguko",
-          "Rejea: Hoteli ya Istanbul"
+          "PPRCT kwa mzunguko"
         ]
       },
       {
@@ -3345,8 +3268,7 @@
         "d": "Matoleo yanayozuia UV kwa umwagiliaji: nyepesi, ya haraka kufunga, sugu dhidi ya theluji.",
         "pts": [
           "Inayozuia UV",
-          "Nyepesi",
-          "Eneo la matumizi kutoka kwa programu"
+          "Nyepesi"
         ]
       },
       {
@@ -3354,8 +3276,7 @@
         "d": "Laini za ugavi na mitandao kwa vipimo vikubwa hadi d630.",
         "pts": [
           "Kipenyo hadi 630 mm",
-          "Kuchomelea kwa Kitako",
-          "Rejea: Miundombinu Singapore"
+          "Kuchomelea kwa Kitako"
         ]
       },
       {
@@ -4902,53 +4823,6 @@
       "manifesto": "Droplet",
       "cta": "Factory"
     }
-  },
-  "customerReviews": {
-    "eyebrow": "Ubora unaounganisha",
-    "title": "Wanachosema wateja na washirika wetu",
-    "lead": "Kutoka kwa wajenzi hadi wasafirishaji wa mizigo hadi wafanyikazi wa muda mrefu: K Aqua KWT GmbH inasimamia usahihi wa hali ya juu kutoka Waldsolms. Jisomee mwenyewe ni uzoefu gani ambao watu wanapitia kila siku na huduma zetu na bidhaa zetu 'Zilizotengenezwa Ujerumani'.",
-    "trustBadge": "Maoni ya Google",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(Kulingana na maoni 44)",
-    "tabA": "Ubora & 'Kimetengenezwa Ujerumani'",
-    "tabB": "Vifaa & Uwasilishaji",
-    "tabC": "Huduma kwa Wateja & Timu",
-    "reviews": {
-      "a1": "“Kiwanda huko Waldsolms, Ujerumani, maalumu kwa mabomba ya PPR na fitingi **Kimetengenezwa Ujerumani**. Wafanyakazi bora.”",
-      "a1Author": "Giulio C.",
-      "a2": "“**Ubora wa Kijerumani** katika mipako na fitingi za PPR, wafanyakazi wenye urafiki sana.”",
-      "a2Author": "Veronica P.",
-      "a3": "“**Kampuni ya kisasa**. Inazalisha mabomba ya plastiki ya ukubwa na vifaa vyote.”",
-      "a3Author": "Ewald S.",
-      "a4": "“Mabomba na fitingi za PPR kutoka **utengenezaji wa Kijerumani**, wafanyakazi na bidhaa bora.”",
-      "a4Author": "Kais S.",
-      "a5": "“**Bidhaa zenye ubora wa hali ya juu** na kiwanda cha juu cha Kijerumani.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "“Bidhaa nzuri sana, **ubora wa kuaminika** na utoaji kwa wakati.”",
-      "a6Author": "Klaus T.",
-      "b1": "“Maingiliano mazuri sana, **upakuaji wa haraka**. Niliruhusiwa kuchukua mapumziko yangu makubwa hapa. Bafu na choo pia vilitolewa kwangu. Hapa unahisi **kuthaminiwa** kama dereva wa lori. Nimefurahi sana kurudi hapa.”",
-      "b1Author": "Michael S.",
-      "b2": "“Kuratibu za sasa za lango la kuingia ni **50.428210, 8.499154**. Umbali wa mita 100 ni eneo la kuegesha magari. Wafanyakazi wenye urafiki.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "“**Upakuaji wa haraka**, wafanyakazi wenye urafiki na wanaosaidia.”",
-      "b3Author": "Bogdan M.",
-      "c1": "“**Huduma nzuri sana**, nzuri kwamba uzalishaji bado unafanyika nchini Ujerumani.”",
-      "c1Author": "Daniel",
-      "c2": "“**Wafanyakazi wenye urafiki sana** na wanaosaidia. Barua pepe **zinajibiwa mara moja**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "“Kutoka kwa mwenyekiti hadi kwa wafanyikazi rahisi, wao ni **watu wazuri**.”",
-      "c3Author": "Azim",
-      "c4": "“**Kampuni kubwa**, inafanya mengi kwa watu wake.”",
-      "c4Author": "Monika v. B.",
-      "c5": "“Wafanyakazi ni **wenye urafiki na wenye kusaidia sana**.”",
-      "c5Author": "Piera V.",
-      "c6": "“Timu yenye uwezo na **huduma bora kwa wateja** katika ngazi zote.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Jithibitishe kuhusu huduma yetu.",
-    "ctaText": "Je, una maswali kuhusu mifumo yetu ya mabomba ya PPR au ungependa kujadili mradi na sisi? Timu yetu kutoka Waldsolms ipo hapa kwa ajili yako.",
-    "ctaBtn": "Wasiliana nasi sasa",
-    "disclaimer": "Kumbuka juu ya mapitio ya makadirio: Ukadiriaji unaotolewa hapa unatokana na wasifu wetu wa biashara wa Google. Google inasema: Maoni hayajathibitishwa. Tumefupisha majina ya waandishi kwa sababu za ulinzi wa data (GDPR)."
   },
   "kontaktForm": {
     "phoneLabel": "Simu",

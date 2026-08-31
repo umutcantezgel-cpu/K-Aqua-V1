@@ -1661,24 +1661,24 @@
     "title2": "Mercados.",
     "lead": "{n} mercados em {c} países, cada um com sua própria página: normas, perfil da água, casos de uso, logística. Segure o mundo e gire-o livremente; a lista o leva diretamente para a cidade escolhida.",
     "all": "Todos",
-    "cityTitle": "Sistemas de tubulação PP-R/PP-RCT em {city}.",
-    "cityLead": "Sistemas de água potável d20–d630, testados de acordo com os requisitos locais",
+    "cityTitle": "Sistemas de tubulação PP-R/PPRCT em {city}.",
+    "cityLead": "Sistemas de água potável d20–d630, testados de acordo com os requisitos locais: ",
     "allMarkets": "Todos os mercados",
     "request": "Solicitar projeto",
-    "finder": "Buscador de produtos",
+    "finder": "Busca de produtos",
     "fromPlant": "km da fábrica de Waldsolms",
-    "regFrame": "Quadro Regulamentar",
+    "regFrame": "Quadro Regulatório",
     "water": "Perfil da água e resposta do material",
     "typical": "Projetos típicos em {city}",
     "onSite": "Processamento local",
-    "onSiteText": "Instruções sobre tecnologia de soldagem e documentação em vídeo para sua equipe, na Academy.",
-    "toAcademy": "Ir para a Academy",
+    "onSiteText": "Instruções sobre tecnologia de soldagem e documentação em vídeo para sua equipe: na Academia.",
+    "toAcademy": "Ir para a Academia",
     "nearbyEyebrow": "Mercados relacionados",
     "nearby": "Nas proximidades.",
-    "prodNote": "Nota de produção: Estas páginas seguem o modelo Programmatic SEO. No Next.js, elas são geradas via ISR do Headless CMS: incluindo hreflang, schema Product/Offer e linkagem interna semântica.",
+    "prodNote": "Nota de produção: Estas páginas seguem o modelo Programmatic SEO.",
     "km": "km",
-    "seoExpansion": "A K Aqua fabrica sistemas de tubulação em PP-R e PPRCT em Waldsolms para as mais altas exigências da engenharia global de edifícios e instalações. Graças à rigorosa Engenharia Alemã e tecnologia de produção de ponta, nossos sistemas garantem décadas de segurança operacional livre de manutenção. Cada produto, de d20 a d630, passa por rigorosos controles de qualidade e atende a padrões internacionais como DVGW, KIWA e SKZ. Nós não apenas fornecemos materiais de primeira classe para água potável, refrigeração e indústria, mas também oferecemos suporte a projetistas e instaladores com suporte técnico abrangente e treinamento local. Confie em um sistema que impressiona com extrema durabilidade, ausência de corrosão e absoluta higiene.",
-    "seoExpansionDynamic": "Saiba mais sobre nossas soluções PP-R e PPRCT em {city}. Cumprimos as normas locais ({regulator}) e oferecemos sistemas ótimos para a qualidade da água ({water}). Nota adicional: {note}.",
+    "seoExpansion": "A K Aqua fabrica sistemas de tubulação em PP-R e PPRCT em Waldsolms para as mais elevadas exigências da engenharia global de edifícios e instalações. Graças à rigorosa Engenharia Alemã e à tecnologia de produção de vanguarda, nossos sistemas garantem décadas de segurança operacional sem manutenção.",
+    "seoExpansionDynamic": "Saiba mais sobre nossas soluções PP-R e PPRCT em {city}. Atendemos às normas locais ({regulator}) e oferecemos sistemas ideais para a qualidade da água ({water}). Nota adicional: {note}.",
     "cityMetaTitle": "Sistemas de Tubulação PP-R em {city}",
     "hubMetaTitle": "Sistemas de Tubulação PP-R para {country}",
     "hubH1": "Soluções de Infraestrutura para {country}",
@@ -1777,26 +1777,7 @@
         "description": "Sendo uma das cidades-estado de alta tecnologia mais densamente povoadas da Ásia, Singapura necessita de tecnologia de construção altamente eficiente e compacta. <strong>Os inovadores sistemas de tubulação da K-Aqua</strong> apoiam as ambiciosas metas de edifícios verdes (Green Building) de Singapura através de perdas de carga drasticamente reduzidas e excelentes propriedades térmicas. Do ar-condicionado de arranha-céus (Chilled Water) ao abastecimento de água potável ultra-pura, estabelecemos padrões na Ásia.",
         "metaDesc": "Tubos PP-R/PP-RCT eficientes para os Green Buildings de Singapura. Sistemas especializados para Chilled Water e abastecimento de água potável ultra-pura."
       }
-    },
-    "all": "Todos",
-    "cityTitle": "Sistemas de tubulação PP-R/PPRCT em {city}.",
-    "cityLead": "Sistemas de água potável d20–d630, testados de acordo com os requisitos locais: ",
-    "allMarkets": "Todos os mercados",
-    "request": "Solicitar projeto",
-    "finder": "Busca de produtos",
-    "fromPlant": "km da fábrica de Waldsolms",
-    "regFrame": "Quadro Regulatório",
-    "water": "Perfil da água e resposta do material",
-    "typical": "Projetos típicos em {city}",
-    "onSite": "Processamento local",
-    "onSiteText": "Instruções sobre tecnologia de soldagem e documentação em vídeo para sua equipe: na Academia.",
-    "toAcademy": "Ir para a Academia",
-    "nearbyEyebrow": "Mercados relacionados",
-    "nearby": "Nas proximidades.",
-    "prodNote": "Nota de produção: Estas páginas seguem o modelo Programmatic SEO.",
-    "km": "km",
-    "seoExpansion": "A K Aqua fabrica sistemas de tubulação em PP-R e PPRCT em Waldsolms para as mais elevadas exigências da engenharia global de edifícios e instalações. Graças à rigorosa Engenharia Alemã e à tecnologia de produção de vanguarda, nossos sistemas garantem décadas de segurança operacional sem manutenção.",
-    "seoExpansionDynamic": "Saiba mais sobre nossas soluções PP-R e PPRCT em {city}. Atendemos às normas locais ({regulator}) e oferecemos sistemas ideais para a qualidade da água ({water}). Nota adicional: {note}."
+    }
   },
   "footer": {
     "tagline": "K-Aqua: líder no abastecimento de água. Sistemas de tubulação PP-R/PP-RCT para água potável, fabricados pela KWT GmbH em Waldsolms, Alemanha.",
@@ -3103,39 +3084,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referenzen, die Geschichte schreiben.",
-        "desc": "Von künstlichen Inseln im Persischen Golf bis hin zu den exklusivsten Ski-Resorts der Alpen. Wo das Unmögliche gebaut wird, ist K Aqua bereits vor Ort."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Ausstattung von 800 Suiten und 4 riesigen Poollandschaften. Extreme Salinität und Umgebungstemperaturen von bis zu 50°C erforderten maximale thermische und chemische Beständigkeit. K Aqua lieferte das komplette Kalt- und Warmwassernetz inklusive District Cooling Anbindung."
-          },
-          {
-            "year": "Schweiz",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Ein 6-Sterne Resort auf 2.000 Metern Höhe. Die Herausforderung: Extreme Frostgefahr während der Bauphase und maximale Anforderungen an die Schallisolation. Unsere PP-R Faserverbundrohre absorbierten thermische Längenänderungen souverän und garantierten lautlosen Betrieb."
-          },
-          {
-            "year": "Singapur",
-            "title": "Vertical Forest Hotel",
-            "text": "Ein 65-stöckiges Meisterwerk ökologischer Architektur. Das komplexe Bewässerungssystem für tausende Balkonpflanzen sowie die gesamte Trinkwasserinfrastruktur wurden mit K Aqua realisiert. Die homogene Schweißtechnik bewahrte das Gebäude vor mikroskopischen Leckagen."
-          },
-          {
-            "year": "Malediven",
-            "title": "Zero-Emission Island Resort",
-            "text": "Direkt über dem Riff erbaut, war absolute Umweltverträglichkeit gefordert. K Aqua Rohre sind zu 100% recycelbar, geben keinerlei Mikroplastik oder Schwermetalle ab und widerstehen der hochgradig korrosiven salzhaltigen Seeluft ohne jeden Verschleiß."
-          },
-          {
-            "year": "Zukunft",
-            "title": "Ihr nächstes Megaprojekt",
-            "text": "Die Grenzen der Architektur verschieben sich täglich. Wir sind bereit, das Fundament für Ihre kühnsten Visionen zu gießen. Mit Technologie, die ihrer Zeit Jahrzehnte voraus ist."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Forschung & Entwicklung",
         "title": "Die Chemie <br/> der Unzerstörbarkeit.",
@@ -3713,8 +3661,6 @@
       "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
       "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen Random Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
     },
-    "eyebrow": "Über uns",
-    "title1": "Erfahrung ist Ihr",
     "eyebrow": "Sobre nós",
     "title1": "A experiência é a sua",
     "titleGrad": "vantagem.",
@@ -4787,48 +4733,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Deutschland",
         "d": "Stammwerk & Entwicklung, hier entsteht jedes K Aqua-Rohr."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, VAE",
-        "d": "Hochhaus-Steigleitungen, PPRCT für Heißwasser unter Wüstenbedingungen."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warschau, Polen",
-        "d": "Wohnquartier-Neubau, komplette Trinkwasserinstallation d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Türkei",
-        "d": "Hotelkomplex, Zirkulationsleitungen mit Faserverbundrohr."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur",
-        "d": "Infrastrukturprojekt, Großdimensionen bis d630 im Stumpfschweißverfahren."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Kapstadt, Südafrika",
-        "d": "Krankenhausneubau, hygienische Trinkwasserverteilung."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, UK",
-        "d": "Bürosanierung, korrosionsfreier Ersatz für Bestandsleitungen."
       }
     ],
     "viewProject": "View project"
@@ -5546,8 +5450,7 @@
         "d": "Hygiene ist hier nicht verhandelbar: Die glatte Innenfläche (0,007 mm) hemmt Biofilm und Inkrustation, der Werkstoff bleibt geschmacks- und geruchsneutral.",
         "pts": [
           "Hygienische Neutralität",
-          "Korrosionsfrei, kein Lochfraß",
-          "Referenz: Krankenhausneubau Kapstadt"
+          "Korrosionsfrei, kein Lochfraß"
         ]
       },
       {
@@ -5555,8 +5458,7 @@
         "d": "Warmwasser-Zirkulation rund um die Uhr: geringe Wärmeleitfähigkeit spart dauerhaft Energie, PPRCT hält 70 °C Dauerbetrieb.",
         "pts": [
           "Thermische Effizienz",
-          "PPRCT für Zirkulation",
-          "Referenz: Hotelkomplex Istanbul"
+          "PPRCT für Zirkulation"
         ]
       },
       {
@@ -5573,8 +5475,7 @@
         "d": "UV-stabilisierte Ausführungen für die Bewässerung unter Glas und im Freien, leicht, schnell verlegt, frostunempfindlicher als starre Systeme.",
         "pts": [
           "UV-beständige Ausführung",
-          "Geringes Gewicht",
-          "Einsatzfeld aus dem Referenzprogramm"
+          "Geringes Gewicht"
         ]
       },
       {
@@ -5582,8 +5483,7 @@
         "d": "Versorgungsleitungen und Netze in Großdimensionen bis d630, stumpfgeschweißt zu homogenen, dauerhaft dichten Strängen.",
         "pts": [
           "d bis 630 mm",
-          "Stumpfschweißen (Butt Fusion)",
-          "Referenz: Infrastruktur Singapur"
+          "Stumpfschweißen (Butt Fusion)"
         ]
       },
       {
@@ -7897,53 +7797,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Qualität, die verbindet",
-    "title": "Was unsere Kunden und Partner sagen",
-    "lead": "Von Bauherren über Speditionen bis hin zu langjährigen Mitarbeitern: Die K Aqua KWT GmbH steht für höchste Präzision aus Waldsolms. Lesen Sie selbst, welche Erfahrungen Menschen täglich mit unserem Service und unseren Produkten „Made in Germany“ machen.",
-    "trustBadge": "Google Rezensionen",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Basierend auf 44 Bewertungen)",
-    "tabA": "Qualität & „Made in Germany“",
-    "tabB": "Logistik & Anlieferung",
-    "tabC": "Kundenservice & Team",
-    "reviews": {
-      "a1": "„Eine Fabrik in Waldsolms, Deutschland, spezialisiert auf PPR-Rohre und -Fittings **Made in Germany**. Hervorragendes Personal.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Deutsche Qualität** bei PPR-Beschichtungen und Armaturen, sehr freundliches Personal.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Modernes Unternehmen**. Produziert Kunststoffrohre aller Größen und Zubehör.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR-Rohre und Formstücke aus **deutscher Fertigung**, hervorragende Mitarbeiter und Produkte.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Hochwertige Produkte** und eine top deutsche Fabrik.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Sehr gute Produkte, **zuverlässige Qualität** und pünktliche Lieferung.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Sehr netter Umgang, **schnelle Entladung**. Ich durfte hier meine große Pause einlegen. Dusche und Toilette wurden mir auch angeboten. Hier fühlt man sich als LKW-Fahrer **wertgeschätzt**. Ich komme sehr gerne wieder hierher.“",
-      "b1Author": "Michael S.",
-      "b2": "„Die aktuellen Koordinaten des Eingangs lauten **50.428210, 8.499154**. Etwa 100 Meter entfernt befindet sich ein Parkplatz. Freundliches Personal.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Schnelles Entladen**, freundliches und hilfsbereites Personal.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Sehr guter Service**, toll, dass noch in Deutschland produziert wird.“",
-      "c1Author": "Daniel",
-      "c2": "„**Sehr freundliches** und hilfsbereites Personal. E-Mails werden **umgehend beantwortet**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Vom Vorsitzenden bis zu den einfachen Arbeitern, es sind **gute Menschen**.“",
-      "c3Author": "Azim",
-      "c4": "„**Tolle Firma**, tut einiges für ihre Leute.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Die Mitarbeiter sind **sehr freundlich und hilfsbereit**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Kompetentes Team und eine **hervorragende Kundenbetreuung** auf allen Ebenen.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Überzeugen Sie sich selbst von unserem Service.",
-    "ctaText": "Haben Sie Fragen zu unseren PPR-Rohrsystemen oder möchten Sie ein Projekt mit uns besprechen? Unser Team aus Waldsolms ist für Sie da.",
-    "ctaBtn": "Jetzt Kontakt aufnehmen",
-    "disclaimer": "Hinweis zur Überprüfung von Bewertungen: Die hier dargestellten Bewertungen stammen aus unserem Google-Unternehmensprofil. Google gibt an: Rezensionen werden nicht überprüft. Wir haben die Namen der Verfasser aus Gründen des Datenschutzes (DSGVO) abgekürzt."
   },
   "seoArticle": {
     "transitionFittings": {

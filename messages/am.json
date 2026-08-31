@@ -1392,7 +1392,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "የምርት ዝርዝሮችን ይመልከቱ"
   },
   "toggle_theme_light": "ወደ ብርሃን ገጽታ ቀይር",
   "toggle_theme_dark": "ወደ ጨለማ ገጽታ ቀይር",
@@ -1432,30 +1432,30 @@
     "edgePageIndex": "የገጽ ማውጫ",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "የቧንቧ ስርዓቶች",
+      "allProducts": "ሁሉም ምርቶች",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "ለኢንዱስትሪ ዘርፍ የተለዩ አፕሊኬሽኖች",
+      "digitalTools": "ዲጂታል መሣሪያዎች",
+      "finderDesc": "ትክክለኛውን ስርዓት ያዋቅሩ",
+      "co2Desc": "የአካባቢ ተጽዕኖን ያስሉ",
+      "academyDesc": "ስልጠናዎች እና የምስክር ወረቀቶች",
+      "trustDesc": "ማውረጃዎች እና ሰርተፊኬቶች",
+      "serviceDesc": "የዕቅድ ድጋፍ",
+      "partnersDesc": "የአካባቢ አጋር ይሁኑ",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "ኩባንያው",
+      "companyDesc": "ተልዕኮ፣ ራዕይ እና ታሪክ",
+      "careerDesc": "ክፍት የሥራ ቦታዎች እና ባህል",
+      "newsPress": "ዜና እና ፕሬስ",
+      "newsDesc": "የቅርብ ጊዜ የፕሬስ መግለጫዎች",
+      "sitemap": "የገጽ ካርታ",
+      "sitemapDesc": "የመዋቅር አጠቃላይ እይታ",
+      "globalFootprint": "ዓለም አቀፍ አሻራ",
+      "globalMarkets": "ዓለም አቀፍ ገበያዎች",
+      "marketsDesc": "የተመሰከረላቸው ክልሎች",
+      "refProjects": "የማጣቀሻ ፕሮጀክቶች",
+      "refDesc": "ስኬታማ ተከላዎች"
     }
   },
   "groups": {
@@ -2975,39 +2975,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "የተተረጎመ",
-        "desc": "የተተረጎመ"
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "የተተረጎመ",
-            "title": "የተተረጎመ",
-            "text": "የተተረጎመ"
-          },
-          {
-            "year": "የተተረጎመ",
-            "title": "የተተረጎመ",
-            "text": "የተተረጎመ"
-          },
-          {
-            "year": "የተተረጎመ",
-            "title": "የተተረጎመ",
-            "text": "የተተረጎመ"
-          },
-          {
-            "year": "የተተረጎመ",
-            "title": "የተተረጎመ",
-            "text": "የተተረጎመ"
-          },
-          {
-            "year": "የተተረጎመ",
-            "title": "የተተረጎመ",
-            "text": "የተተረጎመ"
-          }
-        ]
-      },
       "research": {
         "eyebrow": "የተተረጎመ",
         "title": "የተተረጎመ",
@@ -3947,25 +3914,25 @@
     "nextTitle": "የተተረጎመ",
     "nextLead": "የተተረጎመ",
     "nextCta": "የተተረጎመ",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "ሙሉውን የምርት ስብስባችንን በምድብ፣ በስም ወይም በዕቃ ቁጥር ይፈልጉ።",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "ቧንቧዎች",
+    "catFittings": "መገጣጠሚያዎች",
+    "catValves": "ቫልቮች",
+    "catTools": "መሣሪያዎች",
+    "catTransitionFittings": "የሽግግር መገጣጠሚያዎች",
+    "catAccessories": "ተጨማሪ ዕቃዎች",
+    "catWeldInSaddles": "ከፍተኛ ጥራት ያለው የ PP-R ብየዳ ሳድል",
+    "category": "ምድብ",
+    "search": "ፍለጋ",
+    "searchPlaceholder": "የዕቃ ቁጥር ወይም ስም...",
+    "foundFam": "የዕቃ ቤተሰቦች ተገኝተዋል",
+    "catalogPdf": "ካታሎግ በ PDF",
+    "colName": "የምርት ስም",
+    "colCat": "ምድብ",
+    "colCodes": "የዕቃ ቁጥሮች",
+    "noResultsText": "ከፍለጋ መስፈርትዎ ጋር የሚዛመዱ ምርቶችን ማግኘት አልቻልንም። እባክዎ ሌላ ቃል ይሞክሩ ወይም ምድቡን ይቀይሩ።",
+    "resetFilters": "ማጣሪያዎችን ዳግም ያስጀምሩ"
   },
   "trustAndCases": {
     "eyebrow": "የተተረጎመ",
@@ -4634,7 +4601,7 @@
     "retry": "የተተረጎመ",
     "titlePerfect": "የተተረጎመ",
     "titleGood": "የተተረጎመ",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "የስልጠና ቪዲዮዎች እና መመሪያዎች"
   },
   "refs": {
     "eyebrow": "የተተረጎመ",
@@ -4650,51 +4617,9 @@
         "lon": 8.5,
         "title": "የተተረጎመ",
         "d": "የተተረጎመ"
-      },
-      {
-        "id": "የተተረጎመ",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "የተተረጎመ",
-        "d": "የተተረጎመ"
-      },
-      {
-        "id": "የተተረጎመ",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "የተተረጎመ",
-        "d": "የተተረጎመ"
-      },
-      {
-        "id": "የተተረጎመ",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "የተተረጎመ",
-        "d": "የተተረጎመ"
-      },
-      {
-        "id": "የተተረጎመ",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "የተተረጎመ",
-        "d": "የተተረጎመ"
-      },
-      {
-        "id": "የተተረጎመ",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "የተተረጎመ",
-        "d": "የተተረጎመ"
-      },
-      {
-        "id": "የተተረጎመ",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "የተተረጎመ",
-        "d": "የተተረጎመ"
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "ፕሮጀክቱን ይመልከቱ"
   },
   "buyers": {
     "eyebrow": "የተተረጎመ",
@@ -5409,6 +5334,13 @@
         "d": "የተተረጎመ",
         "pts": [
           "የተተረጎመ",
+          "የተተረጎመ"
+        ]
+      },
+      {
+        "t": "የተተረጎመ",
+        "d": "የተተረጎመ",
+        "pts": [
           "የተተረጎመ",
           "የተተረጎመ"
         ]
@@ -5427,7 +5359,6 @@
         "d": "የተተረጎመ",
         "pts": [
           "የተተረጎመ",
-          "የተተረጎመ",
           "የተተረጎመ"
         ]
       },
@@ -5435,16 +5366,6 @@
         "t": "የተተረጎመ",
         "d": "የተተረጎመ",
         "pts": [
-          "የተተረጎመ",
-          "የተተረጎመ",
-          "የተተረጎመ"
-        ]
-      },
-      {
-        "t": "የተተረጎመ",
-        "d": "የተተረጎመ",
-        "pts": [
-          "የተተረጎመ",
           "የተተረጎመ",
           "የተተረጎመ"
         ]
@@ -6854,7 +6775,7 @@
         "btnGhost": "የተተረጎመ"
       },
       "metaTitle": "የተተረጎመ",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "የምህንድስና ምክር፣ የአፕሊኬሽን ቴክኖሎጂ እና በቦታው ላይ ድጋፍ።"
     },
     "downloads": {
       "title": "የተተረጎመ",
@@ -7752,61 +7673,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "የተተረጎመ",
     "weld-in-saddles_weld-in-saddle-male-thread": "የተተረጎመ",
     "weld-in-saddles_weld-in-saddle": "የተተረጎመ",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "ልቅ ፍላንጅ PP-ብረት (SF/BF)",
+    "fittings_cross-over-with-socket": "የ PP-R መሻገሪያ ቅስት ከሶኬት ጋር",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "የእጅ ብየዳ መሣሪያ d20-d32",
+    "tools_pipe-cutter-50125": "የቧንቧ መቁረጫ d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "የተተረጎመ",
-    "title": "የተተረጎመ",
-    "lead": "የተተረጎመ",
-    "trustBadge": "የተተረጎመ",
-    "trustStars": "የተተረጎመ",
-    "trustBasedOn": "የተተረጎመ",
-    "tabA": "የተተረጎመ",
-    "tabB": "የተተረጎመ",
-    "tabC": "የተተረጎመ",
-    "reviews": {
-      "a1": "የተተረጎመ",
-      "a1Author": "የተተረጎመ",
-      "a2": "የተተረጎመ",
-      "a2Author": "የተተረጎመ",
-      "a3": "የተተረጎመ",
-      "a3Author": "የተተረጎመ",
-      "a4": "የተተረጎመ",
-      "a4Author": "የተተረጎመ",
-      "a5": "የተተረጎመ",
-      "a5Author": "የተተረጎመ",
-      "a6": "የተተረጎመ",
-      "a6Author": "የተተረጎመ",
-      "b1": "የተተረጎመ",
-      "b1Author": "የተተረጎመ",
-      "b2": "የተተረጎመ",
-      "b2Author": "የተተረጎመ",
-      "b3": "የተተረጎመ",
-      "b3Author": "የተተረጎመ",
-      "c1": "የተተረጎመ",
-      "c1Author": "የተተረጎመ",
-      "c2": "የተተረጎመ",
-      "c2Author": "የተተረጎመ",
-      "c3": "የተተረጎመ",
-      "c3Author": "የተተረጎመ",
-      "c4": "የተተረጎመ",
-      "c4Author": "የተተረጎመ",
-      "c5": "የተተረጎመ",
-      "c5Author": "የተተረጎመ",
-      "c6": "የተተረጎመ",
-      "c6Author": "የተተረጎመ"
-    },
-    "ctaTitle": "የተተረጎመ",
-    "ctaText": "የተተረጎመ",
-    "ctaBtn": "የተተረጎመ",
-    "disclaimer": "የተተረጎመ"
+    "valves_tee-90-female-thread-for-internal-valve": "ቲ-ቁራጭ 90° (የውስጥ ክር) ለውስጠ-ግድግዳ ቫልቭ"
   },
   "seoArticle": {
     "transitionFittings": {
@@ -8326,53 +8200,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "በይነተገናኝ",
+    "titleGrad": "የካርታ ስብስብ",
+    "tabHq": "ዋና መሥሪያ ቤት ቫልድዞልምስ",
+    "tabRefs": "የውሃ አለመዝለቅ ካርታ",
+    "tabSpec": "ስፔሲፋየር",
+    "hqTitle": "ማዕከላዊ ምርት እና የልማት ማዕከል",
+    "hqAddress": "ቫልድዞልምስ ብራንዶበርንዶርፍ፣ ሄሰን፣ ጀርመን።",
+    "registryLabel": "የንግድ መዝገብ ፍርድ ቤት፦",
+    "phoneLabel": "ስልክ፦",
+    "certLabel": "ሰርተፊኬት፦",
+    "directions": "የመንገድ አቅጣጫ መክፈቻን ይክፈቱ",
+    "aboutPlant": "ስለ ቫልድዞልምስ ፋብሪካ",
+    "sectorFilter": "የዘርፍ ማጣሪያ፦",
+    "specPlaceholder": "ቦታ ወይም ከተማ ያስገቡ…",
+    "profileTitle": "የገበያ እና ሎጂስቲክስ መገለጫ",
+    "profileHint": "አውቶማቲክ የስርዓት ዝርዝር መግለጫና የአቅርቦት መስመር ስሌት ለማስጀመር ካርታውን ይጫኑ ወይም ከተማ ይፈልጉ።",
+    "marketAssign": "የገበያ ምደባ",
+    "normLabel": "ደረጃ (Norm)፦",
+    "airDist": "የአየር መስመር ርቀት (HQ)",
+    "roadDist": "መንገድ (ግምት)",
+    "recommended": "የሚመከር የቧንቧ ስርዓት፦",
+    "recUv": "UV-Protect የውጭ ሽፋን",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "ሁሉም ዘርፎች",
+      "hotel": "ሆቴል",
+      "wohnen": "የመኖሪያ ግንባታ",
+      "infra": "መሠረተ ልማት",
+      "klinik": "ክሊኒክ",
+      "buero": "ቢሮ"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "ምርቶች",
+      "markets-solutions": "ገበያዎች እና መፍትሔዎች",
+      "academy-resources": "አካዳሚ እና ግብዓቶች",
+      "company": "ኩባንያ"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "የቧንቧ ምርት ፈላጊ",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "መገጣጠሚያዎች እና ማገናኛዎች",
+      "valves": "ቫልቮች እና ቧንቧ መክፈቻዎች",
+      "tools": "መሣሪያዎች እና ተጨማሪ ዕቃዎች",
+      "transition": "የቧንቧ ሽግግሮች",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8385,48 +8259,48 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "የቧንቧ ስርዓቶች የፕሮጀክት ጥያቄ",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "የገጽ ካርታ (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "ቋንቋዎን ይምረጡ",
+    "subtitle": "65 ቋንቋዎች · ግሎቡን ያሽከርክሩ፣ ክልል ይንኩ፣ ያረጋግጡ።",
+    "searchPlaceholder": "ቋንቋ ወይም ገጽ ይፈልጉ …",
+    "pagesSection": "ገጾች እና አሰሳ",
+    "noResults": "ምንም ቋንቋ አልተገኘም።",
+    "confirm": "ያረጋግጡ",
+    "beta": "ቤታ",
+    "globalEffect": "ለመላው ድር ጣቢያ ይሠራል",
+    "active": "ንቁ"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "እንዴት ልንረዳዎ እንችላለን?",
+    "step1Desc": "ለጉዳይዎ ተስማሚውን ክፍል ይምረጡ።",
+    "optSales": "ሽያጭ እና ፕሮጀክቶች",
+    "optSalesDesc": "የዋጋ ጥያቄዎች፣ ትላልቅ ፕሮጀክቶች እና የአቅርቦት ጊዜዎች።",
+    "optTech": "ቴክኒካዊ ድጋፍ",
+    "optTechDesc": "ዝርዝር መግለጫዎች፣ ተከላ እና የስርዓት ንድፍ።",
+    "optOther": "አጠቃላይ ጥያቄ",
+    "optOtherDesc": "ግብይት፣ ሥራ ወይም ሌላ ጉዳይ።",
+    "step2Title": "ስለ ጉዳይዎ ዝርዝሮች",
+    "step2Desc": "እባክዎ ፕሮጀክትዎን ወይም ጥያቄዎን በአጭሩ ይግለጹ።",
+    "messagePlaceholder": "መልእክትዎ ለእኛ...",
+    "step3Title": "የመገናኛ መረጃዎ",
+    "step3Desc": "ሊጠናቀቅ ነው! እንዴት ልናገኝዎ እንችላለን?",
+    "nameLabel": "ሙሉ ስም",
+    "companyLabel": "ኩባንያ / ድርጅት",
+    "emailLabel": "የኢሜይል አድራሻ",
+    "phoneLabel": "ስልክ ቁጥር",
+    "step4Title": "መልእክቱ ተልኳል!",
+    "step4Desc": "ስለ ጥያቄዎ እናመሰግናለን። ከባለሙያዎቻችን አንዱ በቅርቡ ያገኝዎታል።",
+    "btnNext": "ቀጥል",
+    "btnBack": "ተመለስ",
+    "btnSubmit": "ጥያቄ ላክ",
+    "btnSending": "በመላክ ላይ…",
+    "btnHome": "ወደ መነሻ ገጽ ተመለስ",
+    "sendError": "መላክ አልተሳካም። እባክዎ እንደገና ይሞክሩ ወይም በቀጥታ ይደውሉልን፦ +49 (0)60 85 / 9868-410"
   }
 }

@@ -4,6 +4,7 @@ import React, { Suspense, useEffect, useState } from 'react';
 import clsx from 'clsx';
 import { Loader2 } from 'lucide-react';
 import type { Native3DCanvasProps } from './Native3DCanvas';
+import { useRevealSafety } from '@/components/ui/Reveal';
 
 /**
  * Lädt den 3D-Viewer erst, wenn er gebraucht wird.
@@ -23,10 +24,9 @@ import type { Native3DCanvasProps } from './Native3DCanvas';
  * Platzhalter mit fester Höhe würde bei abweichender `heightClass` genau den
  * Layoutsprung erzeugen, den er verhindern soll.
  *
- * Der `mounted`-Riegel hält Server- und Erstclientdarstellung identisch (beide
- * zeigen den Platzhalter) und vermeidet damit eine Hydrations-Abweichung.
- * WebGL existiert serverseitig ohnehin nicht — der Viewer hat dort nie etwas
- * gerendert.
+ * Geladen wird erst, wenn der Platzhalter in die Nähe des Bildschirms kommt.
+ * Bis dahin zeigen Server und Client dieselbe Box — eine Hydrations-Abweichung
+ * kann also nicht entstehen. WebGL existiert serverseitig ohnehin nicht.
  */
 /* Ein fehlgeschlagener Chunk-Load (typisch: die Seite lief noch mit dem
    alten Deploy, der Chunk-Hash existiert nicht mehr) wird EINMAL nach
@@ -105,15 +105,64 @@ class ViewerBoundary extends React.Component<
 
 export default function Native3DCanvasLazy(props: Native3DCanvasProps) {
   const { heightClass = DEFAULT_HEIGHT, className } = props;
-  const [mounted, setMounted] = useState(false);
+  const [sichtbar, setSichtbar] = useState(false);
+  const platzhalterRef = React.useRef<HTMLDivElement | null>(null);
 
+  /**
+   * Der Chunk wird erst geholt, wenn der Viewer in die Naehe des Bildschirms
+   * kommt — nicht schon beim Mounten.
+   *
+   * Vorher setzte hier ein `useEffect` nur `mounted` auf true, und der Import
+   * lief unmittelbar danach los. Das verschob den Chunk um einen Tick, nicht
+   * bis zum Sichtbarwerden: auf jeder Produktseite wurde three.js samt
+   * 3D-Bibliothek geladen, obwohl der Viewer weit unterhalb des ersten
+   * Bildschirms steht. Genau das sollte diese Datei verhindern.
+   *
+   * 400 px Vorlauf, damit das Modell steht, bevor es ins Bild kommt. Der
+   * `mounted`-Riegel steckt mit drin: vor dem ersten Effekt ist `sichtbar`
+   * false, Server- und Erstclientdarstellung bleiben also identisch.
+   */
   useEffect(() => {
-    setMounted(true);
+    const el = platzhalterRef.current;
+    if (!el) return;
+    if (typeof IntersectionObserver === 'undefined') {
+      setSichtbar(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (eintraege) => {
+        if (eintraege.some((e) => e.isIntersecting)) {
+          setSichtbar(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: '400px' }
+    );
+    io.observe(el);
+    return () => io.disconnect();
   }, []);
+
+  /* Sicherheitsnetz, geliehen von den Reveals: `useRevealSafety` prueft einmal
+     je Seitenaufruf mit einem 1x1-Testelement, ob der IntersectionObserver
+     ueberhaupt antwortet. Tut er es nicht, bliebe der Viewer sonst dauerhaft
+     im Ladezustand stehen — dieselbe Fehlerklasse, die den Text auf den
+     Produktseiten unsichtbar gemacht hat. Ein blosser Zeitgeber waere hier
+     falsch: der wuerde auch dann laden, wenn der Beobachter einwandfrei
+     arbeitet und der Nutzer nie bis zum Viewer scrollt. */
+  const beobachterDefekt = useRevealSafety();
+  const laden = sichtbar || beobachterDefekt;
 
   const placeholder = <ViewerPlaceholder heightClass={heightClass} className={className} />;
 
-  if (!mounted) return placeholder;
+  if (!laden) {
+    // Kein `display: contents` fuer den Wrapper: ein Element ohne eigene Box
+    // liefert dem IntersectionObserver kein Rechteck und wuerde nie melden.
+    return (
+      <div ref={platzhalterRef} className="w-full">
+        {placeholder}
+      </div>
+    );
+  }
 
   return (
     <ViewerBoundary heightClass={heightClass} className={className}>

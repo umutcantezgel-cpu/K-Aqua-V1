@@ -1364,7 +1364,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Бүтээгдэхүүний дэлгэрэнгүйг харах"
   },
   "toggle_theme_light": "Гэрэлтэй загвар руу шилжих",
   "toggle_theme_dark": "Харанхуй загвар руу шилжих",
@@ -1404,30 +1404,30 @@
     "edgePageIndex": "Хуудасны индекс",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Хоолойн системүүд",
+      "allProducts": "Бүх бүтээгдэхүүн",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Салбарын онцлогт тохирсон хэрэглээ",
+      "digitalTools": "Дижитал хэрэгслүүд",
+      "finderDesc": "Тохирох системийг тохируулах",
+      "co2Desc": "Байгаль орчны балансыг тооцоолох",
+      "academyDesc": "Сургалт ба гэрчилгээ",
+      "trustDesc": "Татаж авах материал ба гэрчилгээжүүлэлт",
+      "serviceDesc": "Төлөвлөлтийн дэмжлэг",
+      "partnersDesc": "Орон нутгийн түнш болоорой",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Компани",
+      "companyDesc": "Эрхэм зорилго, алсын хараа ба түүх",
+      "careerDesc": "Нээлттэй ажлын байр ба соёл",
+      "newsPress": "Мэдээ ба хэвлэл",
+      "newsDesc": "Сүүлийн үеийн хэвлэлийн мэдээлэл",
+      "sitemap": "Сайтын бүтэц",
+      "sitemapDesc": "Бүтцийн тойм",
+      "globalFootprint": "Дэлхийн хэмжээний үйл ажиллагаа",
+      "globalMarkets": "Дэлхийн зах зээлүүд",
+      "marketsDesc": "Гэрчилгээжсэн бүс нутгууд",
+      "refProjects": "Жишиг төслүүд",
+      "refDesc": "Амжилттай суурилуулалтууд"
     }
   },
   "groups": {
@@ -2068,7 +2068,7 @@
       ]
     ],
     "btnDe": "Гэрчилгээ (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnEn": "Гэрчилгээ (EN)",
     "eventsTitle": "Үзэсгэлэн & Үйл явдал",
     "eventsText": "Ирэх арга хэмжээнүүд дээр K Aqua-д зочлоорой. Одоогоор ямар нэгэн тов зарлагдаагүй байна. Тун удахгүй дахин шалгана уу.",
     "lead": "K Aqua-ийн сүүлийн үеийн мэдээг уншина уу."
@@ -2236,25 +2236,25 @@
     "nextTitle": "Таны төлөвлөлт уур амьсгалд хэр ээлтэй вэ?",
     "nextLead": "Хэмжээ болон уртыг шууд CO₂-тооцоолуур руу шилжүүлж, зэс, зэвэрдэггүй ган болон PVC-тэй харьцуулна уу.",
     "nextCta": "CO₂-тооцоолуур руу очих",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Манай бүтээгдэхүүний бүрэн нэр төрлийг ангилал, нэр эсвэл артикулын дугаараар хайгаарай.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Хоолойнууд",
+    "catFittings": "Холбох хэрэгсэл",
+    "catValves": "Хаалт, арматур",
+    "catTools": "Багаж хэрэгсэл",
+    "catTransitionFittings": "Шилжилтийн фитингүүд",
+    "catAccessories": "Дагалдах хэрэгсэл",
+    "catWeldInSaddles": "Өндөр чанарын PP-R гагнуурын эмээл",
+    "category": "Ангилал",
+    "search": "Хайлт",
+    "searchPlaceholder": "Артикулын дугаар эсвэл нэр...",
+    "foundFam": "бүтээгдэхүүний бүлэг олдлоо",
+    "catalogPdf": "Каталог PDF хэлбэрээр",
+    "colName": "Бүтээгдэхүүний нэр",
+    "colCat": "Ангилал",
+    "colCodes": "Артикулын дугаарууд",
+    "noResultsText": "Таны хайлтын шалгуурт тохирох бүтээгдэхүүн олдсонгүй. Өөр түлхүүр үг ашиглах эсвэл ангиллаа өөрчилж үзнэ үү.",
+    "resetFilters": "Шүүлтүүрийг цэвэрлэх"
   },
   "trustAndCases": {
     "eyebrow": "Баталгаажсан аюулгүй байдал",
@@ -2493,51 +2493,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Герман",
         "d": "Төв үйлдвэр & Хөгжүүлэлт: K Aqua хоолой бүр энд бүтээгддэг."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Дубай, АНЭУ",
-        "d": "Тэнгэр баганадсан барилгын босоо шугамууд: Цөлийн нөхцөлд халуун ус дамжуулах PPRCT."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Варшав, Польш",
-        "d": "Орон сууцны шинэ хороолол: d20–d110 хэмжээтэй ундны усны бүрэн суурилуулалт."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Истанбул, Турк",
-        "d": "Зочид буудлын цогцолбор: Шилэн кабелийн хоолой бүхий эргэлтийн шугамууд."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Сингапур",
-        "d": "Дэд бүтцийн төсөл: d630 хүртэлх том хэмжээсийг тулгаж гагнах аргаар."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Кейптаун, Өмнөд Африк",
-        "d": "Эмнэлгийн шинэ барилга: Эрүүл ахуйн шаардлага хангасан ундны усны хуваарилалт."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Лондон, Их Британи",
-        "d": "Оффисын засвар: Хуучин шугамыг зэврэлтгүй шугамаар солих."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Төслийг үзэх"
   },
   "buyers": {
     "eyebrow": "Төлөвлөгч, Худалдан авагч & Угсрагч нарт зориулсан",
@@ -2965,61 +2923,14 @@
     "transition-fittings_elbow-bracket-90-female-thread_desc": "Арматурыг хананд тогтоох нэг талын өнцөгт бэхэлгээ (IG).",
     "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Маш тогтвортой, эрэг шургаар бэхлэх зориулалттай хоёр талын ханын бэхэлгээ.",
     "transition-fittings_union-for-watermeters": "Усны тоолуурын холболт",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Сул фланц PP-ган (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R тойрч гарах нум муфттай",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Гар гагнуурын аппарат d20-d32",
+    "tools_pipe-cutter-50125": "Хоолой огтлогч d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Холбох чанар",
-    "title": "Манай үйлчлүүлэгч, түншүүд юу гэж хэлдэг вэ",
-    "lead": "Барилга байгууламжийн эздээс эхлээд тээврийн компаниуд, олон жил ажиллаж буй ажилтнууд хүртэл: K Aqua KWT GmbH нь Валдсолмс хотоос хамгийн өндөр нарийвчлалыг санал болгодог. Хүмүүс бидний үйлчилгээ болон “Made in Germany” бүтээгдэхүүнүүдээс өдөр бүр ямар туршлага хуримтлуулж байгааг өөрөө уншаарай.",
-    "trustBadge": "Google-ийн сэтгэгдлүүд",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(44 үнэлгээнд үндэслэсэн)",
-    "tabA": "Чанар ба “Made in Germany”",
-    "tabB": "Ложистик ба Хүргэлт",
-    "tabC": "Харилцагчийн үйлчилгээ ба Баг",
-    "reviews": {
-      "a1": "„ХБНГУ-ын Валдсолмс хотод байрлах, **Made in Germany** PPR хоолой, холбох хэрэгслээр мэргэшсэн үйлдвэр. Маш сайн боловсон хүчин.“",
-      "a1Author": "Giulio C.",
-      "a2": "„PPR бүрээс болон арматурын **Герман чанар**, маш найрсаг ажилтнууд.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Орчин үеийн компани**. Бүх хэмжээний хуванцар хоолой, дагалдах хэрэгслийг үйлдвэрлэдэг.“",
-      "a3Author": "Ewald S.",
-      "a4": "„**Германд үйлдвэрлэсэн** PPR хоолой, холбох хэрэгслүүд, маш сайн ажилтнууд, бүтээгдэхүүн.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Өндөр чанартай бүтээгдэхүүнүүд** болон шилдэг Герман үйлдвэр.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Маш сайн бүтээгдэхүүн, **найдвартай чанар** мөн цагтаа хүргэдэг.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Маш сайхан харилцаа, **хурдан буулгах**. Би энд удаан завсарлага авч чадсан. Шүршүүр, бие засах газар ч бас санал болгосон. Энд та ачааны машины жолооч байсан ч **үнэлэгдэж** байгаагаа мэдрэх болно. Би энд дахин баяртайгаар ирэх болно.“",
-      "b1Author": "Michael S.",
-      "b2": "„Орцын одоогийн координат нь **50.428210, 8.499154**. Ойролцоогоор 100 метрийн зайд зогсоол байдаг. Найрсаг ажилтнууд.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Хурдан буулгах**, найрсаг бөгөөд тустай ажилтнууд.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Маш сайн үйлчилгээ**, Германд үйлдвэрлэж байгаад баяртай байна.“",
-      "c1Author": "Daniel",
-      "c2": "„**Маш найрсаг** бас тусархаг ажилтнууд. И-мэйлд **тэр даруй хариулдаг**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Даргаас эхлээд жирийн ажилчид хүртэл бүгд **сайн хүмүүс**.“",
-      "c3Author": "Azim",
-      "c4": "„**Гайхалтай компани**, ажилтнууддаа их зүйл хийдэг.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Ажилчид нь **маш найрсаг, тусархаг**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Чадварлаг баг, бүх түвшинд **харилцагчийн маш сайн үйлчилгээтэй**.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Манай үйлчилгээнд өөрийн биеэр итгээрэй.",
-    "ctaText": "Танд манай PPR хоолойн системтэй холбоотой асуулт байна уу, эсвэл төслөө бидэнтэй хэлэлцмээр байна уу? Валдсолмс дахь манай баг танд үйлчлэхэд бэлэн байна.",
-    "ctaBtn": "Одоо холбогдох",
-    "disclaimer": "Сэтгэгдлийг шалгахтай холбоотой анхааруулга: Энд харуулсан үнэлгээ нь манай Google бизнесийн профайлаас авсан болно. Google-ийн мэдэгдсэнээр: Сэтгэгдлүүдийг шалгаагүй. Мэдээллийн нууцлал (DSGVO)-ын үүднээс бид зохиогчдын нэрийг товчилсон болно."
+    "valves_tee-90-female-thread-for-internal-valve": "T-хэлбэрийн холбоос 90° (дотор эрээстэй) далд хавхлагад зориулсан"
   },
   "seoExpansion": {
     "t1": "Өндөр хүчин чадалтай хоолойн систем ба Шингэний удирдлага",
@@ -3896,7 +3807,7 @@
     "retry": "Дахин оролдох",
     "titlePerfect": "Гагнуурын мастер",
     "titleGood": "Гагнуурчин",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Сургалтын видео ба заавар"
   },
   "products": {
     "narrative": {
@@ -5036,39 +4947,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Түүх бүтээж буй жишиг төслүүд.",
-        "desc": "K-Aqua нь дэлхийн өнцөг булан бүрт байдаг."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Дубай",
-            "title": "Тансаг зэрэглэлийн амралтын газар",
-            "text": "800 өрөө ба усан сан. Хэт халалт, өндөр даралтыг тэсвэрлэх."
-          },
-          {
-            "year": "Швейцар",
-            "title": "Альпийн амралтын газар",
-            "text": "2000 метрийн өндөрт байрлах 6 одтой амралтын газар. Хүйтний тэсвэр, дуу чимээ тусгаарлалт."
-          },
-          {
-            "year": "Сингапур",
-            "title": "Босоо ойн зочид буудал",
-            "text": "65 давхар эко барилга. Нэвчилтгүй усалгааны систем."
-          },
-          {
-            "year": "Мальдив",
-            "title": "Тэг ялгаруулалттай амралтын газар",
-            "text": "Бүрэн дахин боловсруулах боломжтой, давстай агаарт зэврэхгүй."
-          },
-          {
-            "year": "Ирээдүй",
-            "title": "Таны дараагийн төсөл",
-            "text": "Бид таны хамгийн зоримог алсын харааг бүтээхэд бэлэн байна."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Судалгаа ба Хөгжүүлэлт",
         "title": "Устгагдашгүй хими.",
@@ -5841,8 +5719,7 @@
         "d": "Энд эрүүл ахуйд буулт хийж болохгүй: Гөлгөр дотоод гадаргуу (0.007 мм) нь био хальс болон царцдас үүсэхийг саатуулдаг, материал нь амтгүй, үнэргүй байдаг.",
         "pts": [
           "Эрүүл ахуйн төвийг сахисан байдал",
-          "Зэврэлтгүй: нүх сүврэлт үүсэхгүй",
-          "Лавлах: Кейптаун дахь шинэ эмнэлэг"
+          "Зэврэлтгүй: нүх сүврэлт үүсэхгүй"
         ]
       },
       {
@@ -5850,8 +5727,7 @@
         "d": "Өдрийн турш халуун усны эргэлт: бага дулаан дамжуулалт нь эрчим хүчийг тасралтгүй хэмнэдэг, PPRCT нь 70 °C тасралтгүй ажиллагааг хадгалдаг.",
         "pts": [
           "Дулааны үр ашиг",
-          "Эргэлтэд зориулсан PPRCT",
-          "Лавлах: Истанбул дахь зочид буудлын цогцолбор"
+          "Эргэлтэд зориулсан PPRCT"
         ]
       },
       {
@@ -5868,8 +5744,7 @@
         "d": "Шилэн доорх болон гадаа усалгаа хийхэд зориулсан хэт ягаан туяанд тогтворжсон загварууд: хөнгөн, хурдан суурилуулагддаг, хатуу системээс илүү хүйтэнд тэсвэртэй.",
         "pts": [
           "Хэт ягаан туяанд тэсвэртэй загвар",
-          "Хөнгөн жинтэй",
-          "Лавлах хөтөлбөрөөс хэрэглээний талбар"
+          "Хөнгөн жинтэй"
         ]
       },
       {
@@ -5877,8 +5752,7 @@
         "d": "d630 хүртэлх том хэмжээст нийлүүлэлтийн шугам ба сүлжээ: нэг төрлийн, байнга нягт байхын тулд тулгаж гагнагдсан.",
         "pts": [
           "d 630 мм хүртэл",
-          "Тулгаж гагнах (Butt Fusion)",
-          "Лавлах: Сингапурын дэд бүтэц"
+          "Тулгаж гагнах (Butt Fusion)"
         ]
       },
       {
@@ -7090,7 +6964,7 @@
         "btnGhost": "Мэргэжилтэнтэй холбогдох"
       },
       "metaTitle": "PP-R хоолойн системийн техникийн дэмжлэг ба үйлчилгээ",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Инженерийн зөвлөгөө, хэрэглээний технологи, обьект дээрх дэмжлэг."
     },
     "downloads": {
       "title": "Татаж авах",
@@ -8167,7 +8041,7 @@
     "phonePlaceholder": "160 1234567",
     "phoneError": "Утасны дугаараа оруулна уу",
     "emailLabel": "И-мэйл",
-    "emailPlaceholder": "einkauf@firma.com",
+    "emailPlaceholder": "hudaldan.avalt@kompani.com",
     "emailError": "Хүчинтэй и-мэйл хаяг оруулна уу",
     "chipsLabel": "Танд юу хэрэгтэй вэ",
     "send": "Хүсэлт илгээх",
@@ -8344,53 +8218,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Интерактив",
+    "titleGrad": "газрын зургийн багц",
+    "tabHq": "Төв оффис Вальдзольмс",
+    "tabRefs": "Битүүмжлэлийн газрын зураг",
+    "tabSpec": "Тодорхойлогч",
+    "hqTitle": "Төв үйлдвэрлэл ба хөгжүүлэлтийн төв",
+    "hqAddress": "Вальдзольмс Брандоберндорф, Хессен, Герман.",
+    "registryLabel": "Бүртгэлийн шүүх:",
+    "phoneLabel": "Утас:",
+    "certLabel": "Гэрчилгээжүүлэлт:",
+    "directions": "Маршрут төлөвлөгч нээх",
+    "aboutPlant": "Вальдзольмсын үйлдвэрийн тухай",
+    "sectorFilter": "Салбарын шүүлтүүр:",
+    "specPlaceholder": "Байршил эсвэл хот оруулах…",
+    "profileTitle": "Зах зээл ба логистикийн профайл",
+    "profileHint": "Системийн автомат тодорхойлолт болон нийлүүлэлтийн чиглэлийн тооцооллыг эхлүүлэхийн тулд газрын зураг дээр дарах эсвэл хот хайна уу.",
+    "marketAssign": "Зах зээлийн хуваарилалт",
+    "normLabel": "Стандарт:",
+    "airDist": "Шулуун зай (төв оффис)",
+    "roadDist": "Замын зай (тооцоолсон)",
+    "recommended": "Санал болгож буй хоолойн систем:",
+    "recUv": "UV-Protect гадна бүрхүүл",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Бүх салбар",
+      "hotel": "Зочид буудал",
+      "wohnen": "Орон сууц",
+      "infra": "Дэд бүтэц",
+      "klinik": "Эмнэлэг",
+      "buero": "Оффис"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Бүтээгдэхүүн",
+      "markets-solutions": "Зах зээл ба шийдлүүд",
+      "academy-resources": "Академи ба нөөц материал",
+      "company": "Компани"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Хоолойн бүтээгдэхүүн хайгч",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Холбох хэрэгсэл ба фитингүүд",
+      "valves": "Арматур ба хавхлагууд",
+      "tools": "Багаж ба дагалдах хэрэгсэл",
+      "transition": "Хоолойн шилжилтийн холболтууд",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8403,48 +8277,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Хоолойн системийн төслийн хүсэлт",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Сайтын бүтэц (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "Хэлээ сонгоно уу",
+    "subtitle": "65 хэл · Бөмбөрцгийг эргүүлж, бүс нутгаа сонгоод баталгаажуулна уу.",
+    "searchPlaceholder": "Хэл эсвэл хуудас хайх …",
+    "pagesSection": "Хуудас ба навигаци",
+    "noResults": "Хэл олдсонгүй.",
+    "confirm": "Баталгаажуулах",
+    "beta": "Бета",
+    "globalEffect": "Вэбсайт даяар үйлчилнэ",
+    "active": "идэвхтэй"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Бид танд хэрхэн туслах вэ?",
+    "step1Desc": "Асуудалдаа тохирох чиглэлийг сонгоно уу.",
+    "optSales": "Борлуулалт ба төслүүд",
+    "optSalesDesc": "Үнийн санал, томоохон төслүүд ба нийлүүлэлтийн хугацаа.",
+    "optTech": "Техникийн дэмжлэг",
+    "optTechDesc": "Техникийн үзүүлэлт, суурилуулалт ба системийн тооцоолол.",
+    "optOther": "Ерөнхий хүсэлт",
+    "optOtherDesc": "Маркетинг, ажлын байр эсвэл бусад.",
+    "step2Title": "Таны хүсэлтийн дэлгэрэнгүй",
+    "step2Desc": "Төсөл эсвэл асуултаа товч тайлбарлана уу.",
+    "messagePlaceholder": "Бидэнд илгээх зурвас...",
+    "step3Title": "Таны холбоо барих мэдээлэл",
+    "step3Desc": "Бараг дууслаа! Бид тантай хэрхэн холбогдох вэ?",
+    "nameLabel": "Бүтэн нэр",
+    "companyLabel": "Компани / Байгууллага",
+    "emailLabel": "Имэйл хаяг",
+    "phoneLabel": "Утасны дугаар",
+    "step4Title": "Зурвас илгээгдлээ!",
+    "step4Desc": "Хүсэлт илгээсэнд баярлалаа. Манай мэргэжилтэн тантай удахгүй холбогдох болно.",
+    "btnNext": "Үргэлжлүүлэх",
+    "btnBack": "Буцах",
+    "btnSubmit": "Хүсэлт илгээх",
+    "btnSending": "Илгээж байна…",
+    "btnHome": "Нүүр хуудас руу буцах",
+    "sendError": "Илгээж чадсангүй. Дахин оролдох эсвэл бидэн рүү шууд залгана уу: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4.9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

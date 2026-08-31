@@ -192,6 +192,15 @@
   transition: gap var(--dur-fast, 150ms) var(--ease, ease);
 }
 .ka-speccard-link:hover { gap: 10px; color: var(--primary-hover, #4A2374); }
+/* Die Karte war eine starre Zeile ohne jeden Umbruchpunkt: 28 px Innenabstand
+   je Seite plus 84 px Ring plus 24 px Abstand liessen bei 360 px Viewport rund
+   84 px fuer den Text, bei 320 px noch 44 px. Und weil html und body auf
+   overflow-x: clip stehen, wurde der Ueberlauf abgeschnitten statt scrollbar —
+   der Text war schlicht weg. Unter 640 px steht der Ring deshalb ueber dem
+   Text statt daneben. */
+@media (max-width: 640px) {
+  .ka-speccard { flex-direction: column; gap: 16px; padding: 20px; }
+}
 
 /* ── 03 · quick-info ── */
 .ka-quickinfo {

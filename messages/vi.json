@@ -2918,39 +2918,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Những công trình tham khảo làm nên lịch sử.",
-        "desc": "Từ những hòn đảo nhân tạo ở Vịnh Ba Tư đến những khu nghỉ mát trượt tuyết độc quyền nhất ở dãy Alps. Nơi những điều không thể được xây dựng, K Aqua đã có mặt."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Trang bị cho 800 phòng suite và 4 khu hồ bơi khổng lồ. Độ mặn cực cao và nhiệt độ môi trường lên tới 50°C đòi hỏi khả năng chịu nhiệt và hóa chất tối đa. K Aqua đã cung cấp toàn bộ mạng lưới nước lạnh và nước nóng bao gồm cả kết nối Làm mát khu vực (District Cooling)."
-          },
-          {
-            "year": "Thụy Sĩ",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Một khu nghỉ dưỡng 6 sao ở độ cao 2.000 mét. Thách thức: Nguy cơ đóng băng cực cao trong giai đoạn thi công và yêu cầu khắt khe nhất về cách âm. Các ống composite sợi PP-R của chúng tôi đã hấp thụ những thay đổi về chiều dài do nhiệt một cách tự tin và đảm bảo hoạt động tĩnh lặng."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "Một kiệt tác kiến trúc sinh thái cao 65 tầng. Hệ thống tưới tiêu phức tạp cho hàng ngàn chậu cây ban công cũng như toàn bộ cơ sở hạ tầng nước uống đã được hiện thực hóa với K Aqua. Công nghệ hàn đồng nhất đã cứu tòa nhà khỏi những rò rỉ vi mô."
-          },
-          {
-            "year": "Maldives",
-            "title": "Zero-Emission Island Resort",
-            "text": "Được xây dựng ngay trên rạn san hô, yêu cầu tương thích tuyệt đối với môi trường là bắt buộc. Ống K Aqua có thể tái chế 100%, không thải ra hạt vi nhựa hay kim loại nặng và chịu được không khí biển mặn có tính ăn mòn cao mà không hề bị hao mòn."
-          },
-          {
-            "year": "Tương lai",
-            "title": "Siêu dự án tiếp theo của bạn",
-            "text": "Ranh giới của kiến trúc đang thay đổi từng ngày. Chúng tôi sẵn sàng đổ nền móng cho những tầm nhìn táo bạo nhất của bạn. Với công nghệ đi trước thời đại hàng thập kỷ."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Nghiên cứu & Phát triển",
         "title": "Hóa học <br/> của sự Không thể phá hủy.",
@@ -3835,48 +3802,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Đức",
         "d": "Nhà máy chính & Phát triển: mọi ống K Aqua đều được tạo ra ở đây."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, UAE",
-        "d": "Đường ống đứng nhà cao tầng: PPRCT cho nước nóng dưới điều kiện sa mạc."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warsaw, Ba Lan",
-        "d": "Khu dân cư mới xây: Lắp đặt hệ thống nước uống hoàn chỉnh d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Thổ Nhĩ Kỳ",
-        "d": "Khu phức hợp khách sạn: Đường ống tuần hoàn với ống composite sợi."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Dự án cơ sở hạ tầng: Kích thước lớn đến d630 sử dụng hàn nối đầu."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, Nam Phi",
-        "d": "Xây dựng bệnh viện mới: Phân phối nước uống vệ sinh."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, Anh",
-        "d": "Cải tạo văn phòng: Thay thế không ăn mòn cho đường ống hiện có."
       }
     ],
     "viewProject": "View project"
@@ -5632,8 +5557,7 @@
         "d": "Vệ sinh là không thể thỏa hiệp ở đây: Bề mặt bên trong nhẵn (0,007 mm) ức chế màng sinh học và đóng cặn, vật liệu vẫn không mùi và không vị.",
         "pts": [
           "Vệ sinh trung tính",
-          "Không bị ăn mòn: không bị rỗ",
-          "Dự án tham khảo: Xây dựng bệnh viện mới ở Cape Town"
+          "Không bị ăn mòn: không bị rỗ"
         ]
       },
       {
@@ -5641,8 +5565,7 @@
         "d": "Tuần hoàn nước nóng 24/7: độ dẫn nhiệt thấp giúp tiết kiệm năng lượng lâu dài, PPRCT duy trì hoạt động liên tục ở 70°C.",
         "pts": [
           "Hiệu suất nhiệt",
-          "PPRCT cho hệ thống tuần hoàn",
-          "Dự án tham khảo: Khu phức hợp khách sạn Istanbul"
+          "PPRCT cho hệ thống tuần hoàn"
         ]
       },
       {
@@ -5659,8 +5582,7 @@
         "d": "Phiên bản ổn định UV để tưới tiêu dưới kính và ngoài trời: nhẹ, lắp đặt nhanh chóng, ít nhạy cảm với sương giá hơn so với các hệ thống cứng.",
         "pts": [
           "Phiên bản chống tia UV",
-          "Trọng lượng nhẹ",
-          "Lĩnh vực ứng dụng từ chương trình tham khảo"
+          "Trọng lượng nhẹ"
         ]
       },
       {
@@ -5668,8 +5590,7 @@
         "d": "Đường dây cấp nước và mạng lưới ở các kích thước lớn lên đến d630: hàn đối đầu thành các chuỗi đồng nhất, kín vĩnh viễn.",
         "pts": [
           "Đường kính lên đến 630 mm",
-          "Hàn đối đầu",
-          "Dự án tham khảo: Cơ sở hạ tầng Singapore"
+          "Hàn đối đầu"
         ]
       },
       {
@@ -6406,53 +6327,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Chất lượng kết nối",
-    "title": "Khách hàng và Đối tác nói gì về chúng tôi",
-    "lead": "Từ các nhà thầu xây dựng đến các công ty hậu cần và những nhân viên lâu năm: K Aqua KWT GmbH đại diện cho độ chính xác cao nhất từ Waldsolms. Hãy tự mình đọc xem mọi người trải nghiệm dịch vụ và sản phẩm 'Sản xuất tại Đức' của chúng tôi hàng ngày như thế nào.",
-    "trustBadge": "Đánh giá trên Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Dựa trên 44 đánh giá)",
-    "tabA": "Chất lượng & 'Sản xuất tại Đức'",
-    "tabB": "Logistics & Giao hàng",
-    "tabC": "Dịch vụ Khách hàng & Đội ngũ",
-    "reviews": {
-      "a1": "“Một nhà máy ở Waldsolms, Đức, chuyên về ống và phụ kiện PPR **Sản xuất tại Đức**. Nhân viên xuất sắc.”",
-      "a1Author": "Giulio C.",
-      "a2": "“**Chất lượng Đức** trong các lớp phủ PPR và các phụ kiện, nhân viên rất thân thiện.”",
-      "a2Author": "Veronica P.",
-      "a3": "“**Công ty hiện đại**. Sản xuất ống nhựa đủ mọi kích cỡ và phụ kiện.”",
-      "a3Author": "Ewald S.",
-      "a4": "“Ống và phụ kiện PPR từ **sản xuất của Đức**, nhân viên và sản phẩm tuyệt vời.”",
-      "a4Author": "Kais S.",
-      "a5": "“**Sản phẩm chất lượng cao** và một nhà máy Đức hàng đầu.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "“Sản phẩm rất tốt, **chất lượng đáng tin cậy** và giao hàng đúng hẹn.”",
-      "a6Author": "Klaus T.",
-      "b1": "“Tương tác rất tốt, **bốc dỡ nhanh chóng**. Tôi đã được phép nghỉ ngơi dài ở đây. Họ cũng cung cấp vòi hoa sen và nhà vệ sinh cho tôi. Là một tài xế xe tải, bạn cảm thấy được **trân trọng**. Tôi rất muốn quay lại đây.”",
-      "b1Author": "Michael S.",
-      "b2": "“Tọa độ hiện tại của lối vào là **50.428210, 8.499154**. Có một bãi đậu xe cách đó khoảng 100 mét. Nhân viên thân thiện.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "“**Dỡ hàng nhanh chóng**, nhân viên thân thiện và hữu ích.”",
-      "b3Author": "Bogdan M.",
-      "c1": "“**Dịch vụ rất tốt**, thật tuyệt khi sản phẩm vẫn được sản xuất ở Đức.”",
-      "c1Author": "Daniel",
-      "c2": "“Nhân viên **Rất thân thiện** và hữu ích. Các email được **trả lời ngay lập tức**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "“Từ chủ tịch đến những người công nhân bình thường: họ là những **người tốt**.”",
-      "c3Author": "Azim",
-      "c4": "“**Công ty tuyệt vời**, làm nhiều điều cho nhân viên của họ.”",
-      "c4Author": "Monika v. B.",
-      "c5": "“Nhân viên **rất thân thiện và nhiệt tình giúp đỡ**.”",
-      "c5Author": "Piera V.",
-      "c6": "“Đội ngũ chuyên nghiệp và **hỗ trợ khách hàng tuyệt vời** ở mọi cấp độ.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Hãy tự mình trải nghiệm dịch vụ của chúng tôi.",
-    "ctaText": "Bạn có câu hỏi về hệ thống đường ống PPR của chúng tôi hoặc muốn thảo luận về một dự án với chúng tôi? Đội ngũ của chúng tôi từ Waldsolms luôn sẵn sàng hỗ trợ bạn.",
-    "ctaBtn": "Liên hệ ngay",
-    "disclaimer": "Lưu ý về việc xác minh đánh giá: Các đánh giá được hiển thị ở đây đến từ Hồ sơ Doanh nghiệp trên Google của chúng tôi. Google tuyên bố: Đánh giá không được xác minh. Chúng tôi đã viết tắt tên của tác giả vì lý do bảo mật dữ liệu (GDPR)."
   },
   "kontaktBlocks": {
     "home": {

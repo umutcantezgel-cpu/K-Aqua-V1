@@ -1364,7 +1364,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Näytä tuotetiedot"
   },
   "toggle_theme_light": "Vaihda vaaleaan teemaan",
   "toggle_theme_dark": "Vaihda tummaan teemaan",
@@ -1410,30 +1410,30 @@
     "tools": "Työkalut",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Putkijärjestelmät",
+      "allProducts": "Kaikki tuotteet",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Toimialakohtaiset sovellukset",
+      "digitalTools": "Digitaaliset työkalut",
+      "finderDesc": "Konfiguroi oikea järjestelmä",
+      "co2Desc": "Laske ympäristövaikutus",
+      "academyDesc": "Koulutukset ja sertifikaatit",
+      "trustDesc": "Lataukset ja sertifioinnit",
+      "serviceDesc": "Suunnittelutuki",
+      "partnersDesc": "Ryhdy paikalliseksi kumppaniksi",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Yritys",
+      "companyDesc": "Missio, visio ja historia",
+      "careerDesc": "Avoimet työpaikat ja kulttuuri",
+      "newsPress": "Uutiset ja lehdistö",
+      "newsDesc": "Uusimmat lehdistötiedotteet",
+      "sitemap": "Sivukartta",
+      "sitemapDesc": "Rakennekatsaus",
+      "globalFootprint": "Globaali jalanjälki",
+      "globalMarkets": "Globaalit markkinat",
+      "marketsDesc": "Sertifioidut alueet",
+      "refProjects": "Referenssiprojektit",
+      "refDesc": "Onnistuneet asennukset"
     }
   },
   "groups": {
@@ -2957,39 +2957,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referenssit, jotka tekevät historiaa.",
-        "desc": "Persianlahden keinotekoisista saarista Alppien hienoimpiin hiihtokeskuksiin. Siellä missä rakennetaan mahdotonta, K Aqua on jo paikalla."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "800 sviitin ja 4 valtavan allasalueen varustaminen. Äärimmäinen suolapitoisuus ja jopa 50°C:n ympäristön lämpötilat edellyttivät maksimaalista lämmön- ja kemiallista kestävyyttä. K Aqua toimitti koko kylmä- ja lämminvesiverkoston, mukaan lukien kaukojäähdytysyhteyden."
-          },
-          {
-            "year": "Sveitsi",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "6 tähden lomakeskus 2 000 metrin korkeudessa. Haaste: äärimmäinen jäätymisvaara rakennusvaiheessa ja maksimaaliset vaatimukset äänieristykselle. PP-R-kuitukomposiittiputkemme imivät termiset pituudenmuutokset luotettavasti ja takasivat äänettömän toiminnan."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "65-kerroksinen ekologisen arkkitehtuurin mestariteos. Monimutkainen kastelujärjestelmä tuhansille parvekekasveille sekä koko juomavesiinfrastruktuuri toteutettiin K Aqualla. Homogeeninen hitsaustekniikka suojasi rakennusta mikroskooppisilta vuodoilta."
-          },
-          {
-            "year": "Malediivit",
-            "title": "Zero-Emission Island Resort",
-            "text": "Rakennettu suoraan riutalle, edellytti ehdotonta ympäristöystävällisyyttä. K Aqua -putket ovat 100 % kierrätettäviä, eivät vapauta mikromuovia tai raskasmetalleja ja kestävät erittäin syövyttävää suolaista meri-ilmaa kulumatta."
-          },
-          {
-            "year": "Tulevaisuus",
-            "title": "Seuraava megaprojektisi",
-            "text": "Arkkitehtuurin rajat siirtyvät päivittäin. Olemme valmiita valamaan perustan rohkeimmille visioillesi. Teknologialla, joka on vuosikymmeniä aikaansa edellä."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Tutkimus ja kehitys",
         "title": "Tuhoutumattomuuden <br/> kemia.",
@@ -3468,7 +3435,7 @@
         "desc": "Hydrodynaamisesta luonnoksesta lopulliseen hyväksyntään: Kuinka toteutamme globaaleja hyperscale-infrastruktuureja ilman kompromisseja ja ennätysajassa."
       },
       "hero": {
-        "eyebrow": "Hyperscale & Colocation Infrastructure",
+        "eyebrow": "Hyperscale- ja colocation-infrastruktuuri",
         "title1": "Zero-Downtime Infrastruktuuri.",
         "title2": "Engineered in Germany.",
         "desc": "Kun jäähdytysjärjestelmät ovat globaalien datakeskusten sydän, materiaaliviat eivät ole vaihtoehto. Tutustu turvallisimpaan, tehokkaimpaan ja skaalautuvimpaan PP-R-putkiratkaisuun liiketoimintakriittiseen kylmä- ja ilmastointitekniikkaan.",
@@ -3476,7 +3443,7 @@
         "cta2": "Tekninen Whitepaper"
       },
       "section1": {
-        "eyebrow": "Mission-Critical Cooling",
+        "eyebrow": "Kriittisen tärkeä jäähdytys",
         "title": "Miksi perinteiset putket epäonnistuvat.",
         "lead": "Modernien hyperscalereiden ja tekoälyklustereiden vaatimukset ylittävät perinteisten metallijärjestelmien fysikaaliset rajat."
       },
@@ -3608,7 +3575,7 @@
     },
     "hero": {
       "eyebrow": "K-Aqua-doktriini",
-      "title1": "German Engineering.",
+      "title1": "Saksalaista insinööritaitoa.",
       "title2": "Ilman kompromisseja.",
       "desc": "Emme tee kompromisseja. Määritämme globaalin standardin PP-R-putkijärjestelmille. Tervetuloa saksalaisen insinööritaidon ytimeen."
     },
@@ -3929,25 +3896,25 @@
     "nextTitle": "Kuinka ilmastoystävällinen on suunnitelmasi?",
     "nextLead": "Syötä mitat ja pituus suoraan CO₂-laskuriin ja vertaa kupariin, ruostumattomaan teräkseen ja PVC:hen.",
     "nextCta": "CO₂-laskuriin",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Selaa koko tuotevalikoimaamme kategorian, nimen tai tuotenumeron mukaan.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Putket",
+    "catFittings": "Muotokappaleet",
+    "catValves": "Venttiilit",
+    "catTools": "Työkalut",
+    "catTransitionFittings": "Siirtymäliittimet",
+    "catAccessories": "Tarvikkeet",
+    "catWeldInSaddles": "Korkealaatuinen PP-R-hitsaussatula",
+    "category": "Kategoria",
+    "search": "Haku",
+    "searchPlaceholder": "Tuotenumero tai nimi...",
+    "foundFam": "tuoteperhettä löytyi",
+    "catalogPdf": "Luettelo PDF-muodossa",
+    "colName": "Tuotenimi",
+    "colCat": "Kategoria",
+    "colCodes": "Tuotenumerot",
+    "noResultsText": "Emme löytäneet hakuehtojasi vastaavia tuotteita. Kokeile toista hakusanaa tai vaihda kategoriaa.",
+    "resetFilters": "Tyhjennä suodattimet"
   },
   "trustAndCases": {
     "eyebrow": "Sertifioitu turvallisuus",
@@ -4046,7 +4013,7 @@
       "a13": "Tuotanto (A1-A3)",
       "a4": "Kuljetus (A4)",
       "b": "Käyttö/Terminen (B)",
-      "c": "End-of-Life (C)"
+      "c": "Elinkaaren loppu (C)"
     },
     "auditor": "Auditoijan näkymä:",
     "auditorBody": "EPD-todisteet, ISO-sertifikaatit ja GAEB-tekstit pakettina,",
@@ -4616,7 +4583,7 @@
     "retry": "Yritä uudelleen",
     "titlePerfect": "Hitsausmestari",
     "titleGood": "Hitsauskisälli",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Koulutusvideot ja ohjeet"
   },
   "refs": {
     "eyebrow": "Referenssit",
@@ -4632,51 +4599,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Saksa",
         "d": "Päätehdas & kehitys: täällä syntyy jokainen K Aqua -putki."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, YAE",
-        "d": "Pilvenpiirtäjien nousuputket: PPRCT kuumalle vedelle aavikko-olosuhteissa."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varsova, Puola",
-        "d": "Uudisrakennuskortteli: täydellinen juomavesiasennus d20-d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turkki",
-        "d": "Hotellikompleksi: kiertojohdot kuitukomposiittiputkella."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Infrastruktuuriprojekti: suuret koot d630 asti puskuhitsauksella."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Kapkaupunki, Etelä-Afrikka",
-        "d": "Sairaalan uudisrakennus: hygieeninen juomaveden jakelu."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Lontoo, UK",
-        "d": "Toimistosaneeraus: korroosiovapaa korvaaja olemassa oleville putkille."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Katso projekti"
   },
   "buyers": {
     "eyebrow": "Suunnittelijoille, hankintaan ja asentajille",
@@ -5406,8 +5331,7 @@
         "d": "Hygienia ei ole täällä neuvoteltavissa: Sileä sisäpinta (0,007 mm) ehkäisee biokalvoa ja karstoittumista, materiaali pysyy mauttomana ja hajuttomana.",
         "pts": [
           "Hygieeninen neutraalius",
-          "Korroosiovapaa: ei pistesyöpymistä",
-          "Referenssi: Kapkaupungin uusi sairaala"
+          "Korroosiovapaa: ei pistesyöpymistä"
         ]
       },
       {
@@ -5415,8 +5339,7 @@
         "d": "Lämminvesikierto ympäri vuorokauden: alhainen lämmönjohtavuus säästää energiaa jatkuvasti, PPRCT kestää 70 °C jatkuvan käytön.",
         "pts": [
           "Terminen tehokkuus",
-          "PPRCT kiertoon",
-          "Referenssi: Hotellikompleksi Istanbul"
+          "PPRCT kiertoon"
         ]
       },
       {
@@ -5433,8 +5356,7 @@
         "d": "UV-stabiloidut versiot lasinalaiseen ja ulkokasteluun: kevyt, nopeasti asennettava, pakkasenkestävämpi kuin jäykät järjestelmät.",
         "pts": [
           "UV-kestävä malli",
-          "Alhainen paino",
-          "Referenssikohde ohjelmasta"
+          "Alhainen paino"
         ]
       },
       {
@@ -5442,8 +5364,7 @@
         "d": "Jakelulinjat ja verkot suurissa mitoissa d630 asti: puskuhitsattu homogeenisiksi, kestävästi tiiviiksi linjoiksi.",
         "pts": [
           "d jopa 630 mm",
-          "Puskuhitsaus (Butt Fusion)",
-          "Referenssi: Infrastruktuuri Singapore"
+          "Puskuhitsaus (Butt Fusion)"
         ]
       },
       {
@@ -6787,24 +6708,24 @@
         "desc": "Kuvitetut vasteajat tason 3 poikkeamille K Aquan keskusverkossa."
       },
       "hero": {
-        "eyebrow": "Technischer Support",
-        "title1": "Support, der",
-        "title2": "mitdenkt.",
-        "desc": "Von der Rohrauslegung bis zur Bauabnahme: Unser technischer Support begleitet Planer und Installateure durch jede Phase eines PP-R-Projekts, mit direktem Draht zu den Ingenieuren, die das System entwickelt haben. Support, der mitdenkt, von der Planung bis zur Inbetriebnahme.",
-        "btnPrimary": "Projektanfrage stellen",
-        "btnGhost": "Leistungen ansehen"
+        "eyebrow": "Tekninen tuki",
+        "title1": "Tuki, joka",
+        "title2": "ajattelee mukana.",
+        "desc": "Putkimitoituksesta lopputarkastukseen: tekninen tukemme kulkee suunnittelijoiden ja asentajien rinnalla PP-R-projektin jokaisessa vaiheessa – suoralla yhteydellä insinööreihin, jotka ovat kehittäneet järjestelmän. Tuki, joka ajattelee mukana, suunnittelusta käyttöönottoon.",
+        "btnPrimary": "Lähetä projektikysely",
+        "btnGhost": "Katso palvelut"
       },
       "intro": {
-        "title1": "Support ist kein Callcenter.",
-        "title2": "Es ist ein Ingenieursteam.",
-        "p1": "Wir betrachten technischen Support nicht als nachgelagerten Service, sondern als festen Bestandteil jedes Projekts. Wenn auf der Baustelle eine Schweißnaht unklar ist oder eine Druckprüfung nicht wie erwartet ausfällt, zählt jede Stunde.",
-        "p2": "Unsere Ingenieure kennen jede Charge, jede Norm und jede Verarbeitungsvorschrift unserer Systeme aus erster Hand. Sie prüfen Isometrien, rechnen Druckverluste nach und stehen bei der Inbetriebnahme direkt am Rohr.",
-        "p3": "Das ist der Anspruch deutscher Ingenieurskunst, angewendet auf reale Baustellen, nicht auf Server-Racks."
+        "title1": "Tuki ei ole puhelinpalvelukeskus.",
+        "title2": "Se on insinööritiimi.",
+        "p1": "Emme pidä teknistä tukea jälkikäteispalveluna, vaan kiinteänä osana jokaista projektia. Kun työmaalla hitsaussauma on epäselvä tai painekoe ei suju odotetusti, jokainen tunti on tärkeä.",
+        "p2": "Insinöörimme tuntevat järjestelmiemme jokaisen valmistuserän, jokaisen standardin ja jokaisen asennusohjeen omakohtaisesti. He tarkastavat isometrit, laskevat painehäviöt uudelleen ja ovat käyttöönotossa paikan päällä putken vieressä.",
+        "p3": "Tämä on saksalaisen insinööritaidon vaatimustaso – sovellettuna todellisiin työmaihin, ei palvelinräkkeihin."
       },
       "bento": {
-        "eyebrow": "Leistungen im Überblick",
-        "title": "Support entlang des gesamten Projekts",
-        "lead": "Von der ersten Planung bis zur laufenden Wartung: unser Team begleitet Ihr PP-R-System durch jede Phase.",
+        "eyebrow": "Palvelut yhdellä silmäyksellä",
+        "title": "Tukea koko projektin ajan",
+        "lead": "Ensimmäisestä suunnittelusta jatkuvaan huoltoon: tiimimme kulkee PP-R-järjestelmäsi rinnalla jokaisessa vaiheessa.",
         "items": [
           {
             "title": "Hydraulische Auslegung & Isometrien",
@@ -6829,11 +6750,11 @@
         ]
       },
       "metrics": {
-        "badge": "Verlässlichkeit in Zahlen",
-        "title1": "Geprüfte",
-        "title2": "Zuverlässigkeit.",
-        "p1": "Wir arbeiten nach den Prinzipien deutscher Ingenieurskunst: Was wir liefern, muss halten, unter allen Baustellenbedingungen.",
-        "p2": "Jedes K-Aqua-System ist nach DVGW, SKZ und KIWA zertifiziert. Jede Charge ist rückverfolgbar, jede Schweißnaht dokumentierbar.",
+        "badge": "Luotettavuus lukuina",
+        "title1": "Testattua",
+        "title2": "luotettavuutta.",
+        "p1": "Työskentelemme saksalaisen insinööritaidon periaatteiden mukaisesti: toimittamamme on kestettävä kaikissa työmaaolosuhteissa.",
+        "p2": "Jokainen K-Aqua-järjestelmä on sertifioitu DVGW:n, SKZ:n ja KIWA:n mukaan. Jokainen valmistuserä on jäljitettävissä, jokainen hitsaussauma dokumentoitavissa.",
         "items": [
           "Antwort auf technische Anfragen innerhalb eines Arbeitstages",
           "Über 50 Jahre dokumentierte Systemlebensdauer bei sachgerechter Installation",
@@ -6844,14 +6765,14 @@
       "cta": {
         "title1": "KÄYNNISTÄ",
         "title2": "TUKIPROTOKOLLA.",
-        "title3": "Projekt?",
+        "title3": "projekti?",
         "desc": "Suorat kommunikaatiolinjamme on varattu kriittisille integraatioille ja skaalaushaasteille. Oletko valmis ottamaan insinöörimme mukaan?",
-        "btnPrimary": "Anfrage starten",
-        "btnGhost": "Experten kontaktieren",
+        "btnPrimary": "Aloita kysely",
+        "btnGhost": "Ota yhteyttä asiantuntijoihin",
         "btn": "Aloita yhteydenotto"
       },
-      "metaTitle": "Technischer Support & Service für PP-R Rohrsysteme",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "metaTitle": "Tekninen tuki ja palvelut PP-R-putkijärjestelmille",
+      "sub": "Insinöörikonsultointi, sovellustekniikka ja tuki paikan päällä."
     },
     "downloads": {
       "title": "Lataukset",
@@ -6900,9 +6821,9 @@
         ]
       },
       "sticky": {
-        "eyebrow": "Tiefe Einblicke",
-        "title": "Die DNA des German Engineering.",
-        "lead": "Ein Datenblatt von K Aqua ist mehr als Zahlenkolonnen. Es ist das Versprechen, dass jedes verbaute Teil exakt das leistet, was Ingenieure kalkuliert haben.",
+        "eyebrow": "Syvällisiä näkemyksiä",
+        "title": "Saksalaisen insinööritaidon DNA.",
+        "lead": "K Aquan tekninen tietolomake on enemmän kuin numerosarakkeita. Se on lupaus siitä, että jokainen asennettu osa suoriutuu täsmälleen niin kuin insinöörit ovat laskeneet.",
         "items": [
           {
             "title": "Die Anatomie unserer Spezifikationen",
@@ -6923,9 +6844,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Die Datenbasis",
-        "title": "Spezifikationen ohne Kompromisse.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten. Hier finden Sie die technischen Parameter, die unsere Marktführerschaft definieren.",
+        "eyebrow": "Tietopohja",
+        "title": "Spesifikaatiot ilman kompromisseja.",
+        "lead": "Kun kansainväliset pääurakoitsijat suunnittelevat miljardiluokan projekteja, he eivät luota lupauksiin vaan koviin faktoihin. Täältä löydät tekniset parametrit, jotka määrittävät markkinajohtajuutemme.",
         "items": [
           {
             "title": "Technische Datenblätter",
@@ -6946,17 +6867,17 @@
         ]
       },
       "methodology": {
-        "subtitle": "Die K Aqua Methodik",
-        "title": "Warum unsere Daten unantastbar sind.",
-        "p1": "In der Bauindustrie werden Fehler oft erst Jahre nach der Fertigstellung sichtbar. Wenn ein Rohrleitungssystem in den Wänden eines 50-stöckigen Wolkenkratzers versagt, liegen die Schadenssummen in den Millionen.",
-        "p2": "Genau deshalb unterziehen wir unsere Systeme extremen Alterungstests. Wir simulieren 50 Jahre Dauerbelastung in unseren Hochdruck-Laboren. Die Resultate fließen direkt in unsere technischen Dokumente ein.",
+        "subtitle": "K Aquan metodiikka",
+        "title": "Miksi tietomme ovat kiistattomia.",
+        "p1": "Rakennusalalla virheet tulevat usein näkyviin vasta vuosia valmistumisen jälkeen. Jos putkijärjestelmä pettää 50-kerroksisen pilvenpiirtäjän seinissä, vahingot nousevat miljooniin.",
+        "p2": "Juuri siksi altistamme järjestelmämme äärimmäisille vanhenemistesteille. Simuloimme 50 vuoden jatkuvaa kuormitusta korkeapainelaboratorioissamme. Tulokset siirtyvät suoraan teknisiin dokumentteihimme.",
         "card1": {
           "title": "99.9%",
-          "desc": "Maßhaltigkeit in der Extrusion, dokumentiert in jeder Charge."
+          "desc": "Mittatarkkuus ekstruusiossa, dokumentoituna jokaisessa valmistuserässä."
         },
         "card2": {
-          "title": "0 Fehler",
-          "desc": "Toleranz bei unseren internationalen Prüfzertifikaten."
+          "title": "0 virhettä",
+          "desc": "Toleranssi kansainvälisissä testisertifikaateissamme."
         }
       },
       "files": {
@@ -7109,8 +7030,8 @@
     },
     "ausschreibungstexte": {
       "meta": {
-        "title": "Offizielle Ausschreibungstexte für PP-R Rohrsysteme",
-        "desc": "Laden Sie detaillierte K-Aqua Ausschreibungstexte herunter. Wir bieten kompromisslose Sicherheit durch German Engineering für Ihre globalen Megaprojekte."
+        "title": "Viralliset tarjouspyyntötekstit PP-R-putkijärjestelmille",
+        "desc": "Lataa yksityiskohtaiset K-Aqua-tarjouspyyntötekstit. Tarjoamme kompromissitonta turvallisuutta saksalaisella insinööritaidolla globaaleihin megaprojekteihisi."
       },
       "timeline": {
         "items": [
@@ -7135,8 +7056,8 @@
             "text": "Das Resultat einer makellosen Spezifikation ist ein über Jahrzehnte fehlerfreies System. Maximale Resilienz gegen Korrosion, Inkrustation und chemische Degradation. Generationenübergreifende Sicherheit, engineered in Germany."
           }
         ],
-        "title": "Von der Ausschreibung zur Ewigkeit.",
-        "desc": "Ein Ausschreibungstext von K Aqua ist kein bloßes Dokument. Er ist der Quellcode für die gebaute Realität. Er definiert, schützt und diktiert den gesamten Lebenszyklus eines Gebäudes, von der ersten Skizze bis zur jahrzehntelangen Nutzung."
+        "title": "Tarjouspyynnöstä ikuisuuteen.",
+        "desc": "K Aquan tarjouspyyntöteksti ei ole pelkkä dokumentti. Se on rakennetun todellisuuden lähdekoodi. Se määrittelee, suojaa ja ohjaa rakennuksen koko elinkaarta ensimmäisestä luonnoksesta vuosikymmenten käyttöön."
       },
       "hero": {
         "eyebrow": "K Aqua Resource Center",
@@ -7147,15 +7068,15 @@
         "cta2": "Konsultointi asiantuntijoilta"
       },
       "manifesto": {
-        "title1": "Das Ende der Ambiguität.",
-        "title2": "Der Beginn absoluter Kontrolle.",
-        "p1": "In der Hochbauarchitektur und im industriellen Anlagenbau sind vage Formulierungen das größte existenzielle Risiko. Ein einzelnes, unpräzises Wort in der Leistungsbeschreibung kann den Unterschied zwischen einem jahrzehntelang wartungsfreien System und einem katastrophalen Wasserschaden in einem 50-stöckigen Hochhaus bedeuten.",
-        "p2": "Deshalb schreiben wir Ausschreibungstexte nicht einfach, wir <span class=\"text-foreground font-medium font-semibold\">engineeren</span> sie. Wie jedes einzelne K Aqua-Rohrstück werden auch unsere digitalen Datenpakete in Deutschland entwickelt, unter Extrembedingungen geprüft und geprüft. Sie übersetzen physikalische Überlegenheit in juristische und wirtschaftliche Unanfechtbarkeit."
+        "title1": "Monitulkintaisuuden loppu.",
+        "title2": "Ehdottoman hallinnan alku.",
+        "p1": "Korkeassa rakentamisessa ja teollisessa laitosrakentamisessa epämääräiset muotoilut ovat suurin eksistentiaalinen riski. Yksi ainoa epätarkka sana suoritekuvauksessa voi merkitä eroa vuosikymmeniä huoltovapaan järjestelmän ja katastrofaalisen vesivahingon välillä 50-kerroksisessa tornitalossa.",
+        "p2": "Siksi emme vain kirjoita tarjouspyyntötekstejä – me <span class=\"text-foreground font-medium font-semibold\">suunnittelemme</span> ne insinöörityönä. Kuten jokainen yksittäinen K Aqua -putkiosa, myös digitaaliset datapakettimme kehitetään Saksassa sekä testataan ja koestetaan äärimmäisissä olosuhteissa. Ne kääntävät fyysisen ylivertaisuuden juridiseksi ja taloudelliseksi kiistattomuudeksi."
       },
       "bento": {
-        "eyebrow": "Architektur der Daten",
-        "title": "Spezifikationen, die schützen.",
-        "lead": "Entwickelt für TGA-Fachplaner, Architekten und visionäre Ingenieure, die bei der Planung von Milliardenprojekten keine Fehler tolerieren können.",
+        "eyebrow": "Datan arkkitehtuuri",
+        "title": "Spesifikaatiot, jotka suojaavat.",
+        "lead": "Kehitetty talotekniikan suunnittelijoille, arkkitehdeille ja visionäärisille insinööreille, jotka eivät voi sallia virheitä miljardiluokan projektien suunnittelussa.",
         "items": [
           {
             "title": "VOB/C & DIN 18381 konform",
@@ -7413,7 +7334,7 @@
       "heroSubtitle": "German Engineering.",
       "heroDesc": "Tinkimätön turvallisuus kylmävesiverkostoille ja ilmastointijärjestelmille. Kun globaalit megaprojektit eivät salli seisokkeja, K Aqua on ainoa vaihtoehto. Suunniteltu kestämään sukupolvia.",
       "heroBtnPrimary": "Määritä projekti",
-      "heroBtnSecondary": "Technical Whitepaper",
+      "heroBtnSecondary": "Tekninen whitepaper",
       "section1Eyebrow": "Haaste",
       "section1Title": "Modernien ilmastointijärjestelmien akilleenkantapää.",
       "section1Lead": "Perinteiset teräskierteistä ja kuparipuristusliittimistä koostuvat jäähdytysjärjestelmät kaatuvat vääjäämättä termodynamiikan ja kemian lakeihin. K Aqua tarjoaa tien ulos korroosion ja vuotojen kierteestä.",
@@ -7809,61 +7730,14 @@
     "fittings_electrofusion-socket": "Sähköhitsausmuhvi",
     "fittings_reducing-bush": "Supistusnippa",
     "fittings_reducing-tee-large": "Supistava T-kappale (suuri)",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Irtolaippa PP-teräs (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R-ohituskaari muhvilla",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Käsihitsauslaite d20–d32",
+    "tools_pipe-cutter-50125": "Putkileikkuri d50–d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Laatua, joka yhdistää",
-    "title": "Mitä asiakkaamme ja kumppanimme sanovat",
-    "lead": "Rakennuttajista ja kuljetusyrityksistä aina pitkäaikaisiin työntekijöihin: K Aqua KWT GmbH edustaa korkeinta tarkkuutta Waldsolmsista käsin. Lue itse, millaisia kokemuksia ihmisillä on päivittäin \"Made in Germany\" -palvelustamme ja -tuotteistamme.",
-    "trustBadge": "Google-arvostelut",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Perustuu 44 arvosteluun)",
-    "tabA": "Laatu & \"Made in Germany\"",
-    "tabB": "Logistiikka & Toimitus",
-    "tabC": "Asiakaspalvelu & Tiimi",
-    "reviews": {
-      "a1": "\"Tehdas Waldsolmsissa, Saksassa, erikoistunut PPR-putkiin ja -liittimiin **Made in Germany**. Erinomainen henkilökunta.\"",
-      "a1Author": "Giulio C.",
-      "a2": "\"**Saksalaista laatua** PPR-pinnoitteissa ja armatuureissa, erittäin ystävällinen henkilökunta.\"",
-      "a2Author": "Veronica P.",
-      "a3": "\"**Moderni yritys**. Valmistaa kaikenkokoisia muoviputkia ja tarvikkeita.\"",
-      "a3Author": "Ewald S.",
-      "a4": "\"**Saksassa valmistetut** PPR-putki ja muoto-osat, erinomaiset työntekijät ja tuotteet.\"",
-      "a4Author": "Kais S.",
-      "a5": "\"**Korkealaatuiset tuotteet** ja huipputason saksalainen tehdas.\"",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "\"Erittäin hyvät tuotteet, **luotettava laatu** ja täsmällinen toimitus.\"",
-      "a6Author": "Klaus T.",
-      "b1": "\"Erittäin mukava kohtelu, **nopea purku**. Sain pitää täällä ison tauon. Minulle tarjottiin myös suihkua ja wc:tä. Täällä tuntee itsensä rekkakuskina **arvostetuksi**. Tulen mielelläni uudestaan.\"",
-      "b1Author": "Michael S.",
-      "b2": "\"Sisäänkäynnin tarkat koordinaatit ovat **50.428210, 8.499154**. Noin 100 metrin päässä on pysäköintialue. Ystävällinen henkilökunta.\"",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "\"**Nopea purku**, ystävällinen ja auttavainen henkilökunta.\"",
-      "b3Author": "Bogdan M.",
-      "c1": "\"**Erittäin hyvä palvelu**, hienoa että valmistetaan edelleen Saksassa.\"",
-      "c1Author": "Daniel",
-      "c2": "\"**Erittäin ystävällinen** ja avulias henkilökunta. Sähköposteihin **vastataan välittömästi**.\"",
-      "c2Author": "Mohamed M.",
-      "c3": "\"Puheenjohtajasta aina tavallisiin työntekijöihin: he ovat **hyviä ihmisiä**.\"",
-      "c3Author": "Azim",
-      "c4": "\"**Hieno yritys**, tekee paljon ihmistensä eteen.\"",
-      "c4Author": "Monika v. B.",
-      "c5": "\"Työntekijät ovat **erittäin ystävällisiä ja auttavaisia**.\"",
-      "c5Author": "Piera V.",
-      "c6": "\"Pätevä tiimi ja **erinomainen asiakaspalvelu** kaikilla tasoilla.\"",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Vakuutu itse palvelustamme.",
-    "ctaText": "Onko sinulla kysyttävää PPR-putkijärjestelmistämme tai haluatko keskustella projektista kanssamme? Tiimimme Waldsolmsissa on sinua varten.",
-    "ctaBtn": "Ota yhteyttä heti",
-    "disclaimer": "Huomautus arvostelujen tarkistamisesta: Tässä näkyvät arvostelut ovat peräisin Google-yritysprofiilistamme. Google ilmoittaa: Arvosteluja ei vahvisteta. Olemme lyhentäneet kirjoittajien nimet tietosuojasyistä (GDPR)."
+    "valves_tee-90-female-thread-for-internal-valve": "T-kappale 90° (SK) piiloasennusventtiilille"
   },
   "seoArticle": {
     "transitionFittings": {
@@ -8385,53 +8259,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Interaktiivinen",
+    "titleGrad": "karttakokonaisuus",
+    "tabHq": "Päätoimipaikka Waldsolms",
+    "tabRefs": "Tiiviyskartta",
+    "tabSpec": "Spesifioija",
+    "hqTitle": "Keskitetty tuotanto- ja kehityskeskus",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, Saksa.",
+    "registryLabel": "Rekisterituomioistuin:",
+    "phoneLabel": "Puhelin:",
+    "certLabel": "Sertifiointi:",
+    "directions": "Avaa reittiopas",
+    "aboutPlant": "Tietoa Waldsolmsin tehtaasta",
+    "sectorFilter": "Sektorisuodatin:",
+    "specPlaceholder": "Syötä paikkakunta tai kaupunki…",
+    "profileTitle": "Markkina- ja logistiikkaprofiili",
+    "profileHint": "Napsauta karttaa tai hae kaupunki käynnistääksesi automaattisen järjestelmäspesifikaation ja toimitusreitin laskennan.",
+    "marketAssign": "Markkinaluokitus",
+    "normLabel": "Standardi:",
+    "airDist": "Linnuntietä (HQ)",
+    "roadDist": "Maanteitse (arvio)",
+    "recommended": "Suositeltu putkijärjestelmä:",
+    "recUv": "UV-Protect-ulkovaippa",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Kaikki sektorit",
+      "hotel": "Hotelli",
+      "wohnen": "Asuinrakentaminen",
+      "infra": "Infrastruktuuri",
+      "klinik": "Klinikka",
+      "buero": "Toimisto"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Tuotteet",
+      "markets-solutions": "Markkinat ja ratkaisut",
+      "academy-resources": "Academy ja resurssit",
+      "company": "Yritys"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Putkien tuotehaku",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Muotokappaleet ja liittimet",
+      "valves": "Venttiilit ja hanat",
+      "tools": "Työkalut ja tarvikkeet",
+      "transition": "Putkien siirtymäliittimet",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8444,48 +8318,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Projektikysely putkijärjestelmistä",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Sivukartta (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Valitse kielesi",
+    "subtitle": "65 kieltä · pyöritä palloa, napauta aluetta, vahvista.",
+    "searchPlaceholder": "Hae kieltä tai sivua …",
+    "pagesSection": "Sivut ja navigointi",
+    "noResults": "Kieltä ei löytynyt.",
+    "confirm": "Vahvista",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Koskee koko verkkosivustoa",
+    "active": "aktiivinen"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Miten voimme auttaa?",
+    "step1Desc": "Valitse asiaasi sopiva osa-alue.",
+    "optSales": "Myynti ja projektit",
+    "optSalesDesc": "Hintakyselyt, suurprojektit ja toimitusajat.",
+    "optTech": "Tekninen tuki",
+    "optTechDesc": "Spesifikaatiot, asennus ja järjestelmämitoitus.",
+    "optOther": "Yleinen kysely",
+    "optOtherDesc": "Markkinointi, ura tai muut asiat.",
+    "step2Title": "Asiasi tiedot",
+    "step2Desc": "Kuvaile lyhyesti projektisi tai kysymyksesi.",
+    "messagePlaceholder": "Viestisi meille...",
+    "step3Title": "Yhteystietosi",
+    "step3Desc": "Melkein valmista! Miten voimme tavoittaa teidät?",
+    "nameLabel": "Koko nimi",
+    "companyLabel": "Yritys / organisaatio",
+    "emailLabel": "Sähköpostiosoite",
+    "phoneLabel": "Puhelinnumero",
+    "step4Title": "Viesti lähetetty!",
+    "step4Desc": "Kiitos yhteydenotostanne. Asiantuntijamme ottaa teihin yhteyttä pian.",
+    "btnNext": "Seuraava",
+    "btnBack": "Takaisin",
+    "btnSubmit": "Lähetä yhteydenotto",
+    "btnSending": "Lähetetään…",
+    "btnHome": "Takaisin etusivulle",
+    "sendError": "Lähetys epäonnistui. Yrittäkää uudelleen tai soittakaa meille suoraan: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

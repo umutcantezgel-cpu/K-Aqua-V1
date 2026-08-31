@@ -92,6 +92,41 @@ export function pipeParams(article, opt) {
    Mantelfläche ein, sie sitzt nicht als Leiste darauf. */
 
 
+/* ── Farbvarianten der Rohrserien ──
+
+   Die Serien sind neben dem Standardgrün auch in Blau, Curry und Mocca
+   lieferbar (Marketing/Produktbilder/, RAL-Nummer im Ordnernamen). Der
+   Produktvertrag sieht dafür `variants` und den zweiten Parameter von
+   `build(size, variant, clipPlane)` vor — beides war bisher bei allen 71
+   Produkten leer.
+
+   Warum die Umfärbung über den Materialschlüssel läuft und nicht über die
+   Materialregistry: Bei den Faserrohren tragen Außen- UND Innenlage denselben
+   Schlüssel `pprGreen`, `createAssembly` dedupliziert per Set und legt für
+   beide EINE Materialinstanz an. Wer die Instanz umfärbt, färbt zwangsläufig
+   auch die Innenlage mit. Nur ein eigener Schlüssel je Lage trennt das. */
+export const ROHR_VARIANTEN = ['gruen', 'blau', 'curry', 'mocca'];
+
+const VARIANTEN_MATERIAL = {
+  gruen: 'pprGreen',
+  blau: 'pprBlue',
+  curry: 'pprCurry',
+  mocca: 'pprMocca',
+};
+
+/**
+ * Gibt die Lagenliste mit eingefärbter AUSSENLAGE zurück.
+ *
+ * Nur Lage 0 wechselt die Farbe. Innenlagen und der Faserkern bleiben, was sie
+ * sind — die Variante betrifft die Coextrusion außen, nicht den Wandaufbau.
+ * Kennstreifen bleiben ebenfalls unberührt: sie kodieren die Baureihe.
+ */
+export function mitFarbvariante(layers, variant) {
+  const key = VARIANTEN_MATERIAL[variant];
+  if (!key || !layers.length || layers[0].key !== 'pprGreen') return layers;
+  return layers.map((l, i) => (i === 0 ? Object.assign({}, l, { key }) : l));
+}
+
 export function buildTube(P, layers) {
   return tubeLayers(P.d, P.wall, layers, { length: P.len, x0: -P.xEnd });
 }
@@ -242,6 +277,8 @@ const product = {
       name: 'K-Aqua_kaqua-k-fiber-uv-pipe-pp-r-sdr-7-4' + '_d' + size,
       materials: matKeys,
       seed: 201,
+      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
+      emboss: false,
       clipPlane,
     });
 

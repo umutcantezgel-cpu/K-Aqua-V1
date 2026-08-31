@@ -2,6 +2,17 @@ export type CatalogCategoryId =
   | 'pipes' | 'fittings' | 'transition-fittings' | 'valves'
   | 'weld-in-saddles' | 'accessories' | 'tools';
 
+/**
+ * Lieferlänge einer Rohrstange laut Herstellerkatalog 06-2025 („length 4 meter"
+ * in der Kopfzeile jeder Rohrtabelle).
+ *
+ * Rohre sind Meterware. Die Spalte `#pack` der Rohre zählt deshalb keine
+ * Stücke, sondern 4-Meter-Stangen je Bund: aus `pack: 100` bei d20 werden
+ * 400 lieferbare Meter. Wo eine Menge angezeigt wird, wird mit dieser
+ * Konstante gerechnet statt mit einer im Code verstreuten 4.
+ */
+export const PIPE_STOCK_LENGTH_M = 4;
+
 export interface CatalogItem {
   slug: string;
   title: string;
@@ -11,6 +22,14 @@ export interface CatalogItem {
   series?: string;
   pressure?: string;
   len?: string;
+  /**
+   * Zusatz zur Lieferlänge, z. B. der Hinweis auf Sonderlängen.
+   *
+   * Bewusst ein eigenes Feld und nicht in `len` hineingeschrieben:
+   * `lib/bim/product.ts` liest `len` als Zahl, um `stockLengthM` zu füllen.
+   * Ein Fließtext darin würde den BIM-Export kippen.
+   */
+  lenNote?: string;
   head: string[];
   rows: (string | number)[][];
   note?: string;
@@ -95,6 +114,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 2.5",
         pressure: "20°C / 2.0 MPa · 70°C / 1.0 MPa",
         len: "4 m",
+        lenNote: "d20–d63 auf Anfrage auch in 5,80 m (Artikelnummer AQ258P + Dimension).",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
           [20, 12, 13.2, 3.4, 100, 0.18, 0.14],
@@ -118,6 +138,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 3.2",
         pressure: "20°C / 2.0 MPa · 70°C / 1.0 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
           [20, 15, 14.4, 2.8, 100, 0.16, 0.16],
@@ -145,6 +166,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 5",
         pressure: "20°C / 1.2 MPa · 60°C / 0.6 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
           [20, 15, 16.2, 1.9, 100, 0.11, 0.21],
@@ -176,6 +198,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 5",
         pressure: "20°C / 1.2 MPa · 60°C / 0.6 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         note: "Violett eingefärbt, z. B. für Betriebswasser-/Bewässerungssysteme zur eindeutigen Kennzeichnung.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
@@ -201,6 +224,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 3.2",
         pressure: "20°C / 2.0 MPa · 70°C / 1.0 MPa",
         len: "4 m",
+        lenNote: "Alle Dimensionen auf Anfrage auch in 5,80 m (Artikelnummer AQ258F + Dimension).",
         note: "Faserverstärkte Mittelschicht reduziert die Wärmeausdehnung um rund 50 %.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
@@ -229,6 +253,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 5",
         pressure: "20°C / 1.6 MPa · 70°C / 0.8 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         note: "Optimiert für Klima-/HLK-Anwendungen (Kühl- und Heizwasser). d 20 und d 25 in SDR 7,4 / S 3,2.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
@@ -261,6 +286,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 3.2",
         pressure: "20°C / 2.0 MPa · 60°C / 1.0 MPa",
         len: "4 m",
+        lenNote: "Alle Dimensionen auf Anfrage auch in 5,80 m (Artikelnummer AQ258PF + Dimension).",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
           [20, 15, 14.4, 2.8, 100, 0.16, 0.16],
@@ -288,6 +314,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 4",
         pressure: "20°C / 1.6 MPa · 60°C / 0.8 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
           [32, 25, 24.80, 3.6, 60, 0.33, 0.48],
@@ -314,6 +341,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 5",
         pressure: "20°C / 1.2 MPa · 60°C / 0.6 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         note: "d 20 und d 25 werden in SDR 7,4 / S 3,2 gefertigt.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
@@ -346,6 +374,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 8",
         pressure: "20°C / 0.8 MPa · 60°C / 0.4 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         note: "Großdimensioniertes Faserrohr für Industrie und Gebäudeversorgung.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
@@ -373,6 +402,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 3.2",
         pressure: "20°C / 2.0 MPa · 60°C / 1.0 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         note: "UV-stabilisierte Außenschicht für Anwendungen im Freien.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [
@@ -398,6 +428,7 @@ export const CATALOG: CatalogCategory[] = [
         series: "S 3.2",
         pressure: "20°C / 2.0 MPa · 70°C / 1.0 MPa",
         len: "4 m",
+        lenNote: "Andere Längen auf Anfrage.",
         note: "UV-stabilisiert für Freileitungen und Dachinstallationen.",
         head: ["d (mm)", "DN", "di (mm)", "s (mm)", "#pack", "#weightM", "#waterCap"],
         rows: [

@@ -35,7 +35,7 @@ export default function CatalogReferences({ locale }: { locale: string }) {
   const l = referenceLocale(locale);
 
   return (
-    <section className="py-24 bg-background-subtle border-b border-card-border">
+    <section id="projekte" className="scroll-mt-24 py-24 bg-background-subtle border-b border-card-border">
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="mb-12 flex flex-col gap-3">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black tracking-tight text-foreground uppercase">
@@ -76,7 +76,7 @@ export default function CatalogReferences({ locale }: { locale: string }) {
           ))}
         </div>
 
-        <p className="mt-8 text-tiny font-mono text-muted-foreground">
+        <p className="mt-8 text-sm font-mono text-muted-foreground">
           {CATALOG_REFERENCES_SOURCE}
         </p>
       </div>

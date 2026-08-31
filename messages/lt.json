@@ -1364,7 +1364,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Rodyti produkto informaciją"
   },
   "toggle_theme_light": "Perjungti į šviesiąją temą",
   "toggle_theme_dark": "Perjungti į tamsiąją temą",
@@ -1404,30 +1404,30 @@
     "edgePageIndex": "Puslapių indeksas",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Vamzdynų sistemos",
+      "allProducts": "Visi produktai",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Pramonės šakoms pritaikyti sprendimai",
+      "digitalTools": "Skaitmeniniai įrankiai",
+      "finderDesc": "Sukonfigūruokite tinkamą sistemą",
+      "co2Desc": "Apskaičiuokite poveikį aplinkai",
+      "academyDesc": "Mokymai ir sertifikatai",
+      "trustDesc": "Atsisiuntimai ir sertifikavimai",
+      "serviceDesc": "Projektavimo pagalba",
+      "partnersDesc": "Tapkite vietiniu partneriu",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Įmonė",
+      "companyDesc": "Misija, vizija ir istorija",
+      "careerDesc": "Laisvos darbo vietos ir kultūra",
+      "newsPress": "Naujienos ir spauda",
+      "newsDesc": "Naujausi pranešimai spaudai",
+      "sitemap": "Svetainės žemėlapis",
+      "sitemapDesc": "Struktūros apžvalga",
+      "globalFootprint": "Pasaulinis pėdsakas",
+      "globalMarkets": "Pasaulinės rinkos",
+      "marketsDesc": "Sertifikuoti regionai",
+      "refProjects": "Referenciniai projektai",
+      "refDesc": "Sėkmingi įrengimai"
     }
   },
   "groups": {
@@ -2988,35 +2988,6 @@
           }
         ]
       },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubajus",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "800 apartamentų ir 4 didžiulių baseinų zonų įrengimas. Ekstremalus druskingumas ir iki 50°C aplinkos temperatūra reikalavo maksimalaus šiluminio ir cheminio atsparumo. K Aqua pristatė visą šalto ir karšto vandens tinklą, įskaitant District Cooling prijungimą."
-          },
-          {
-            "year": "Šveicarija",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "6 žvaigždučių kurortas 2000 metrų aukštyje. Iššūkis: Ekstremalus šalčio pavojus statybos metu ir maksimalūs garso izoliacijos reikalavimai. Mūsų PP-R stiklo pluošto vamzdžiai puikiai absorbavo šiluminį ilgėjimą ir užtikrino tylų veikimą."
-          },
-          {
-            "year": "Singapūras",
-            "title": "Vertical Forest Hotel",
-            "text": "65 aukštų ekologinės architektūros šedevras. Sudėtinga drėkinimo sistema tūkstančiams balkonų augalų, taip pat visa geriamojo vandens infrastruktūra buvo įgyvendinta su K Aqua. Homogeninė suvirinimo technologija apsaugojo pastatą nuo mikroskopinių nuotėkių."
-          },
-          {
-            "year": "Maldyvai",
-            "title": "Zero-Emission Island Resort",
-            "text": "Pastatytas tiesiai virš rifo, reikalavo absoliutaus ekologinio suderinamumo. K Aqua vamzdžiai yra 100% perdirbami, neišskiria mikroplastiko ar sunkiųjų metalų ir be jokio nusidėvėjimo atlaiko itin korozinį sūrų jūros orą."
-          },
-          {
-            "year": "Ateitis",
-            "title": "Jūsų kitas megaprojektas",
-            "text": "Architektūros ribos plečiasi kasdien. Mes esame pasirengę pakloti pamatus pačioms drąsiausioms jūsų vizijoms. Su technologija, kuri lenkia laiką dešimtmečiais."
-          }
-        ]
-      },
       "hero": {
         "eyebrow": "Premium segmentas",
         "title1": "Viešbučiai.",
@@ -3098,10 +3069,6 @@
             "desc": "Sumontuoti, užsandarinti ir pamiršti amžiams."
           }
         ]
-      },
-      "timelineSection": {
-        "title": "Referencijos, kurios kuria istoriją.",
-        "desc": "Nuo dirbtinių salų Persijos įlankoje iki išskirtiniausių slidinėjimo kurortų Alpėse. Kur statoma tai, kas neįmanoma, K Aqua jau yra ten."
       },
       "research": {
         "eyebrow": "Moksliniai tyrimai ir plėtra",
@@ -3420,7 +3387,7 @@
         "title": "Duomenų centrų infrastruktūra | K Aqua"
       },
       "section1": {
-        "eyebrow": "Mission-Critical Cooling",
+        "eyebrow": "Ypatingos svarbos aušinimas",
         "lead": "Šiuolaikinių Hyperscaler ir KI klasterių reikalavimai viršija tradicinių metalinių sistemų fizines ribas.",
         "title": "Kodėl tradiciniai vamzdžiai sugenda."
       },
@@ -3856,7 +3823,7 @@
   },
   "imprint": {
     "eyebrow": "Teisinė informacija",
-    "title": "Impressum",
+    "title": "Rekvizitai",
     "rows": [
       [
         "Įmonė",
@@ -3919,25 +3886,25 @@
     "nextTitle": "Kaip tai draugiška klimatui?",
     "nextLead": "Perduokite matmenis tiesiogiai į CO₂ skaičiuoklę ir palyginkite su variu, nerūdijančiu plienu ir PVC.",
     "nextCta": "Į CO₂ skaičiuoklę",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Ieškokite visame mūsų produktų asortimente pagal kategoriją, pavadinimą arba artikulo numerį.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Vamzdžiai",
+    "catFittings": "Jungiamosios detalės",
+    "catValves": "Armatūra",
+    "catTools": "Įrankiai",
+    "catTransitionFittings": "Pereinamosios jungtys",
+    "catAccessories": "Priedai",
+    "catWeldInSaddles": "Aukštos kokybės PP-R privirinamas balnas",
+    "category": "Kategorija",
+    "search": "Paieška",
+    "searchPlaceholder": "Artikulo numeris arba pavadinimas...",
+    "foundFam": "rasta gaminių šeimų",
+    "catalogPdf": "Katalogas PDF formatu",
+    "colName": "Produkto pavadinimas",
+    "colCat": "Kategorija",
+    "colCodes": "Artikulų numeriai",
+    "noResultsText": "Neradome produktų, atitinkančių Jūsų paieškos kriterijus. Pabandykite kitą paieškos žodį arba pakeiskite kategoriją.",
+    "resetFilters": "Atstatyti filtrus"
   },
   "trustAndCases": {
     "eyebrow": "Pasitikėjimas",
@@ -4221,51 +4188,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Vokietija",
         "d": "Pagrindinė gamykla ir plėtra: čia sukuriamas kiekvienas K-Aqua vamzdis."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubajus, JAE",
-        "d": "Aukštybinių pastatų magistraliniai vamzdžiai: PP-RCT karštam vandeniui dykumos sąlygomis."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varšuva, Lenkija",
-        "d": "Naujas gyvenamasis rajonas: visa geriamojo vandens instaliacija d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Stambulas, Turkija",
-        "d": "Viešbučių kompleksas: cirkuliaciniai vamzdžiai su daugiasluoksniu kompozitiniu vamzdžiu."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapūras",
-        "d": "Infrastruktūros projektas: dideli matmenys iki d630 sandūrų suvirinimo būdu."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Keiptaunas, PAR",
-        "d": "Naujos ligoninės statyba: higieniškas geriamojo vandens paskirstymas."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Londonas, JK",
-        "d": "Biurų renovacija: atsparus korozijai pakaitalas esamiems vamzdynams."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Peržiūrėti projektą"
   },
   "buyers": {
     "eyebrow": "Planuotojams, pirkimams ir montuotojams",
@@ -5698,53 +5623,6 @@
       "cta": "Factory"
     }
   },
-  "customerReviews": {
-    "eyebrow": "Kokybė, kuri jungia",
-    "title": "Ką sako mūsų klientai ir partneriai",
-    "lead": "Nuo statytojų ir logistikos įmonių iki ilgalaikių darbuotojų: K-Aqua KWT GmbH atstovauja aukščiausią tikslumą iš Valdsolms. Paskaitykite, kokios patirties žmonės kasdien turi su mūsų aptarnavimu ir produktais „Pagaminta Vokietijoje“.",
-    "trustBadge": "Google Atsiliepimai",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Remiantis 44 atsiliepimais)",
-    "tabA": "Kokybė ir „Pagaminta Vokietijoje“",
-    "tabB": "Logistika ir pristatymas",
-    "tabC": "Klientų aptarnavimas ir komanda",
-    "reviews": {
-      "a1": "„Gamykla Valdsolmse, Vokietijoje, besispecializuojanti PPR vamzdžiuose ir jungiamosiose detalėse **Pagaminta Vokietijoje**. Puikus personalas.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Vokiška kokybė** PPR dangoms ir jungiamosioms detalėms, labai draugiškas personalas.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Moderni įmonė**. Gamina visų dydžių plastikinius vamzdžius ir priedus.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR vamzdžiai ir jungiamosios detalės iš **Vokietijos gamybos**, puikūs darbuotojai ir produktai.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Aukštos kokybės produktai** ir puiki Vokietijos gamykla.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Labai geri produktai, **patikima kokybė** ir pristatymas laiku.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Labai malonus bendravimas, **greitas iškrovimas**. Galėjau čia pasidaryti savo ilgąją pertrauką. Man taip pat buvo pasiūlytas dušas ir tualetas. Kaip sunkvežimio vairuotojas čia jautiesi **vertinamas**. Su malonumu čia grįšiu.“",
-      "b1Author": "Michael S.",
-      "b2": "„Dabartinės įvažiavimo koordinatės yra **50.428210, 8.499154**. Maždaug už 100 metrų yra automobilių stovėjimo aikštelė. Draugiškas personalas.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Greitas iškrovimas**, draugiškas ir paslaugus personalas.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Labai geras aptarnavimas**, puiku, kad vis dar gaminama Vokietijoje.“",
-      "c1Author": "Daniel",
-      "c2": "„**Labai draugiškas** ir paslaugus personalas. Į el. laiškus atsakoma **nedelsiant**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Nuo pirmininko iki paprastų darbininkų: jie yra **geri žmonės**.“",
-      "c3Author": "Azim",
-      "c4": "„**Puiki įmonė**, daug daro dėl savo žmonių.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Darbuotojai yra **labai draugiški ir paslaugūs**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Kompetentinga komanda ir **puikus klientų aptarnavimas** visais lygiais.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Įsitikinkite patys mūsų paslaugomis.",
-    "ctaText": "Turite klausimų apie mūsų PPR vamzdynų sistemas ar norėtumėte aptarti projektą su mumis? Mūsų komanda Valdsolmse yra jums pasiekiama.",
-    "ctaBtn": "Susisiekite dabar",
-    "disclaimer": "Pastaba dėl atsiliepimų tikrinimo: Čia pateikti atsiliepimai yra iš mūsų Google verslo profilio. Google nurodo: Atsiliepimai nėra tikrinami. Dėl duomenų apsaugos (BDAR) mes sutrumpinome autorių vardus."
-  },
   "wissen": {
     "meta": {
       "title": "Žinios ir inžineriniai duomenys | K-Aqua",
@@ -5902,14 +5780,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Suvirinamas balnas (Vid. sriegis)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Suvirinamas balnas (Išor. sriegis)",
     "weld-in-saddles_weld-in-saddle": "Suvirinamas balnas",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Laisvasis flanšas PP-plienas (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R apėjimo lankas su mova",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Rankinis suvirinimo aparatas d20–d32",
+    "tools_pipe-cutter-50125": "Vamzdžių pjaustytuvas d50–d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "Trišakis 90° (vidinis sriegis) potinkiniam ventiliui"
   },
   "application": {
     "tabs": {
@@ -6274,8 +6152,7 @@
         "d": "Higiena čia nediskutuojama: lygus vidinis paviršius (0,007 mm) slopina bioplėvelę ir inkrustaciją, medžiaga išlieka be skonio ir kvapo.",
         "pts": [
           "Higieninis neutralumas",
-          "Atsparumas korozijai: jokio taškinio korozijos",
-          "Referencija: naujos ligoninės statyba Keiptaune"
+          "Atsparumas korozijai: jokio taškinio korozijos"
         ]
       },
       {
@@ -6283,8 +6160,7 @@
         "d": "Karšto vandens cirkuliacija visą parą: mažas šilumos laidumas nuolat taupo energiją, PPRCT palaiko 70 °C nuolatinį veikimą.",
         "pts": [
           "Šiluminis efektyvumas",
-          "PPRCT cirkuliacijai",
-          "Referencija: viešbučių kompleksas Stambule"
+          "PPRCT cirkuliacijai"
         ]
       },
       {
@@ -6301,8 +6177,7 @@
         "d": "UV stabilizuotos versijos laistymui po stiklu ir lauke: lengvi, greitai montuojami, atsparesni šalčiui nei kietos sistemos.",
         "pts": [
           "UV atspari versija",
-          "Mažas svoris",
-          "Taikymo sritis iš referencijų programos"
+          "Mažas svoris"
         ]
       },
       {
@@ -6310,8 +6185,7 @@
         "d": "Tiekimo linijos ir tinklai dideliais matmenimis iki d630: sandūrinis suvirinimas į homogeniškus, ilgalaikius sandarius ruožus.",
         "pts": [
           "d iki 630 mm",
-          "Sandūrinis suvirinimas",
-          "Referencija: infrastruktūra Singapūre"
+          "Sandūrinis suvirinimas"
         ]
       },
       {
@@ -8093,7 +7967,7 @@
     "titleGood": "Suvirinimo pameistrys",
     "titleGrad": "jungia.",
     "titlePerfect": "Suvirinimo meistras",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Mokymo vaizdo įrašai ir instrukcijos"
   },
   "resources": {
     "support": {
@@ -8222,7 +8096,7 @@
         "btnGhost": "Susisiekti su ekspertais"
       },
       "metaTitle": "Techninis palaikymas ir aptarnavimas PP-R vamzdynų sistemoms",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Inžinerinės konsultacijos, taikymo technika ir pagalba objekte."
     },
     "common": {
       "eyebrow": "K Aqua RESURSAI",
@@ -8648,53 +8522,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Interaktyvus",
+    "titleGrad": "žemėlapių rinkinys",
+    "tabHq": "Būstinė Waldsolms",
+    "tabRefs": "Sandarumo žemėlapis",
+    "tabSpec": "Specifikatorius",
+    "hqTitle": "Centrinė gamyba ir plėtros centras",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesenas, Vokietija.",
+    "registryLabel": "Registro teismas:",
+    "phoneLabel": "Telefonas:",
+    "certLabel": "Sertifikavimas:",
+    "directions": "Atidaryti maršruto planavimą",
+    "aboutPlant": "Apie Waldsolms gamyklą",
+    "sectorFilter": "Sektorių filtras:",
+    "specPlaceholder": "Įveskite vietovę arba miestą…",
+    "profileTitle": "Rinkos ir logistikos profilis",
+    "profileHint": "Spustelėkite žemėlapį arba ieškokite miesto, kad būtų automatiškai sudaryta sistemos specifikacija ir apskaičiuota tiekimo ašis.",
+    "marketAssign": "Rinkos priskyrimas",
+    "normLabel": "Standartas:",
+    "airDist": "Tiesia linija (HQ)",
+    "roadDist": "Keliais (apytiksliai)",
+    "recommended": "Rekomenduojama vamzdynų sistema:",
+    "recUv": "UV-Protect išorinis sluoksnis",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Visi sektoriai",
+      "hotel": "Viešbučiai",
+      "wohnen": "Gyvenamoji statyba",
+      "infra": "Infrastruktūra",
+      "klinik": "Klinikos",
+      "buero": "Biurai"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Produktai",
+      "markets-solutions": "Rinkos ir sprendimai",
+      "academy-resources": "Akademija ir ištekliai",
+      "company": "Įmonė"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Vamzdžių produktų paieška",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Jungiamosios detalės ir fitingai",
+      "valves": "Armatūra ir ventiliai",
+      "tools": "Įrankiai ir priedai",
+      "transition": "Vamzdžių pereinamosios jungtys",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8707,48 +8581,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Vamzdynų sistemų projekto užklausa",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Svetainės žemėlapis (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Pasirinkite savo kalbą",
+    "subtitle": "65 kalbos · pasukite gaublį, palieskite regioną, patvirtinkite.",
+    "searchPlaceholder": "Ieškoti kalbos arba puslapio …",
+    "pagesSection": "Puslapiai ir navigacija",
+    "noResults": "Kalba nerasta.",
+    "confirm": "Patvirtinti",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Galioja visai svetainei",
+    "active": "aktyvi"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Kaip galime Jums padėti?",
+    "step1Desc": "Pasirinkite Jūsų užklausai tinkamą sritį.",
+    "optSales": "Pardavimai ir projektai",
+    "optSalesDesc": "Kainų užklausos, stambūs projektai ir pristatymo terminai.",
+    "optTech": "Techninė pagalba",
+    "optTechDesc": "Specifikacijos, montavimas ir sistemų projektavimas.",
+    "optOther": "Bendra užklausa",
+    "optOtherDesc": "Rinkodara, karjera ar kiti klausimai.",
+    "step2Title": "Jūsų užklausos detalės",
+    "step2Desc": "Trumpai aprašykite savo projektą arba klausimą.",
+    "messagePlaceholder": "Jūsų žinutė mums...",
+    "step3Title": "Jūsų kontaktiniai duomenys",
+    "step3Desc": "Beveik baigta! Kaip galime su Jumis susisiekti?",
+    "nameLabel": "Vardas ir pavardė",
+    "companyLabel": "Įmonė / organizacija",
+    "emailLabel": "El. pašto adresas",
+    "phoneLabel": "Telefono numeris",
+    "step4Title": "Žinutė išsiųsta!",
+    "step4Desc": "Dėkojame už Jūsų užklausą. Vienas iš mūsų ekspertų netrukus su Jumis susisieks.",
+    "btnNext": "Toliau",
+    "btnBack": "Atgal",
+    "btnSubmit": "Siųsti užklausą",
+    "btnSending": "Siunčiama…",
+    "btnHome": "Grįžti į pradžios puslapį",
+    "sendError": "Išsiųsti nepavyko. Bandykite dar kartą arba skambinkite mums tiesiogiai: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

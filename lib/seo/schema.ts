@@ -1,4 +1,5 @@
 import { getBaseUrl } from "@/lib/env";
+import { STANDORT } from '@/lib/data/standort';
 
 export interface GraphNode {
   "@type": string | string[];
@@ -47,12 +48,17 @@ export function getRootKnowledgeGraph(locale: string = "de"): KnowledgeGraph {
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+49 6085 9868-410",
+      telephone: STANDORT.telefonAnzeige,
       contactType: "customer service",
       email: "info@k-aqua.de",
       areaServed: "Worldwide",
       availableLanguage: ["German", "English", "Arabic"],
     },
+    /* Die Spitze der Ortspyramide. Jede Markt-, Länder- und Stadtseite
+       hängt über `containedInPlace` letztlich hier — und `#organization`
+       liegt im Layout, also auf jeder Seite. Damit läuft jede der Pyramiden
+       oben auf denselben Punkt zu, statt als eigene Insel zu enden. */
+    areaServed: { "@id": `${siteUrl}/#place-world` },
     founder: {
       "@type": "Person",
       "@id": `${siteUrl}/#founder`,
@@ -100,7 +106,7 @@ export function getRootKnowledgeGraph(locale: string = "de"): KnowledgeGraph {
     url: siteUrl,
     parentOrganization: { "@id": `${siteUrl}/#organization` },
     image: `${siteUrl}/images/logo.png`,
-    telephone: "+49 6085 9868-410",
+    telephone: STANDORT.telefonAnzeige,
     email: "info@k-aqua.de",
     priceRange: "$$$$",
     address: {
@@ -113,8 +119,8 @@ export function getRootKnowledgeGraph(locale: string = "de"): KnowledgeGraph {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 50.418,
-      longitude: 8.473,
+      latitude: STANDORT.geo.lat,
+      longitude: STANDORT.geo.lon,
     },
     openingHoursSpecification: [
       {
@@ -126,9 +132,28 @@ export function getRootKnowledgeGraph(locale: string = "de"): KnowledgeGraph {
     ],
   };
 
+  /* Welt- und Regionsstufe einmal global. Sie liegen bewusst hier und nicht
+     nur auf den Marktseiten: So kennt jede Seite die oberen zwei Stufen der
+     Pyramide, und die Marktseiten hängen ihre Länder und Städte nur noch
+     darunter. Ein Ort ist damit domainweit EIN Knoten, nicht 28 Kopien. */
+  const worldNode: GraphNode = {
+    "@type": "Place",
+    "@id": `${siteUrl}/#place-world`,
+    name: "Weltweite Liefermärkte",
+    description:
+      "Alle Märkte, die KWT GmbH mit K-Aqua PP-R und PP-RCT Rohrleitungssystemen ab Werk Waldsolms beliefert.",
+  };
+
+  const regionNodes: GraphNode[] = Object.entries(REGION_NAMES).map(([id, name]) => ({
+    "@type": "AdministrativeArea",
+    "@id": `${siteUrl}/#place-region-${id}`,
+    name,
+    containedInPlace: { "@id": `${siteUrl}/#place-world` },
+  }));
+
   return {
     "@context": "https://schema.org",
-    "@graph": [organizationNode, websiteNode, localBusinessNode],
+    "@graph": [organizationNode, websiteNode, localBusinessNode, worldNode, ...regionNodes],
   };
 }
 
@@ -361,6 +386,12 @@ export function getProductGraphNode({
       // entspricht.
       availability: "https://schema.org/InStock",
       seller: { "@id": `${domain}/#organization` },
+      /* Das Angebot gilt weltweit — und zwar für denselben Ortsknoten, an dem
+         auch die Marktpyramide hängt. Damit steht die Produktseite nicht mehr
+         beziehungslos neben den 28 Marktseiten: Wer über „PP-R Rohr Dubai"
+         sucht, findet eine Kette Produkt → Angebot → #place-world ←
+         #place-region-nahost ← #place-country-uae ← #place-city-dubai. */
+      areaServed: { "@id": `${domain}/#place-world` },
       priceSpecification: {
         "@type": "PriceSpecification",
         priceCurrency: "EUR",
@@ -524,10 +555,135 @@ export function getFaqGraphNode(
   return node;
 }
 
+/* ────────────────────────────────────────────────────────────────────────
+   GESTAFFELTE ORTSHIERARCHIE — die Pyramide unter dem lokalen SEO
+   ────────────────────────────────────────────────────────────────────────
+
+   Bisher stand auf jeder der 28 Stadtseiten ein eigener, isolierter
+   `LocalBusiness`-Knoten mit dem Text „K-Aqua Niederlassung … für Dubai".
+   Das hatte zwei Probleme, und das erste ist das schwerere:
+
+   1. Es behauptete eine Niederlassung, die es nicht gibt. K-Aqua beliefert
+      und betreut diese Märkte von Waldsolms aus. `LocalBusiness` ist der
+      Typ für einen Betrieb MIT Adresse vor Ort — für einen Markt, den man
+      bedient, ist es `Service` mit `areaServed`.
+
+   2. Die 28 Knoten standen nebeneinander, ohne Beziehung. Für eine
+      Suchmaschine waren das 28 unverbundene Inseln.
+
+   Stattdessen jetzt eine echte Staffelung mit dauerhaften `@id`s:
+
+       #place-city-dubai   (City)
+              ↓ containedInPlace
+       #place-country-uae  (Country)
+              ↓ containedInPlace
+       #place-region-nahost (AdministrativeArea „Naher Osten & Golfstaaten")
+              ↓ containedInPlace
+       #place-world        (Place)
+              ↑ areaServed
+       #organization       (Startseite)
+
+   Entscheidend sind die dauerhaften `@id`s auf der Domainwurzel statt
+   seitenlokaler Knoten: Die Stadtseite Dubai, die Länderseite VAE und die
+   Marktübersicht verweisen damit auf DENSELBEN Dubai-Knoten, nicht auf drei
+   gleichnamige Kopien. Erst dadurch entsteht ein Graph statt einer Liste —
+   und jede dieser Pyramiden endet oben bei `#organization`.
+
+   Märkte der Region `global` (Chile, Japan, Singapur, Indien, Südafrika,
+   Kenia) hängen direkt unter `#place-world`: eine Verwaltungsregion
+   „international" gibt es nicht, und einen Knoten zu erfinden, den es
+   geografisch nicht gibt, wäre derselbe Fehler wie die Niederlassung. */
+
+/** Anzeigename der vier Regionsstufen. `global` bekommt bewusst keinen. */
+const REGION_NAMES: Record<string, string> = {
+  dach: "DACH-Region",
+  europa: "Europa",
+  nahost: "Naher Osten & Golfstaaten",
+};
+
+/** Kanonische `@id` einer Ortsstufe. Domainweit stabil, nicht seitenlokal. */
+export function getPlaceId(
+  kind: "world" | "region" | "country" | "city",
+  slug?: string
+): string {
+  const domain = getBaseUrl().replace(/\/+$/, "");
+  return kind === "world"
+    ? `${domain}/#place-world`
+    : `${domain}/#place-${kind}-${slug}`;
+}
+
 /**
- * Builds a LocalBusiness graph node for city/market landing pages.
+ * Erzeugt die Ortskette von der Stadt bis zur Welt.
+ *
+ * Wird `city`/`citySlug` weggelassen, beginnt die Kette beim Land — so
+ * benutzt sie die Länderseite, ohne eine Stadt zu erfinden.
+ *
+ * Die Knoten sind bewusst wiederholbar: Erscheint derselbe Ort auf mehreren
+ * Seiten, beschreibt jede Seite ihn identisch unter derselben `@id`. Das ist
+ * in JSON-LD kein Duplikat, sondern die Zusammenführung eines Knotens.
  */
-export function getLocalMarketGraphNode({
+export function getPlaceChainGraphNodes({
+  region,
+  hubSlug,
+  country,
+  citySlug,
+  city,
+  lat,
+  lon,
+}: {
+  region: string;
+  hubSlug: string;
+  country: string;
+  citySlug?: string;
+  city?: string;
+  lat?: number;
+  lon?: number;
+}): GraphNode[] {
+  const regionName = REGION_NAMES[region];
+  const nodes: GraphNode[] = [];
+
+  /* Welt- und Regionsstufe werden hier NICHT wiederholt: `getRootKnowledgeGraph`
+     liefert sie im Layout, also auf jeder Seite. Die Kette hängt sich per @id
+     daran — genau dafür sind die @ids domainweit stabil. Sie hier ein zweites
+     Mal auszugeben, wäre für den Graphen folgenlos (Knoten mit gleicher @id
+     verschmelzen), aber jede Seite trüge zwei überflüssige Knoten. */
+  nodes.push({
+    "@type": "Country",
+    "@id": getPlaceId("country", hubSlug),
+    name: country,
+    containedInPlace: {
+      "@id": regionName ? getPlaceId("region", region) : getPlaceId("world"),
+    },
+  });
+
+  if (citySlug && city) {
+    const cityNode: GraphNode = {
+      "@type": "City",
+      "@id": getPlaceId("city", citySlug),
+      name: city,
+      containedInPlace: { "@id": getPlaceId("country", hubSlug) },
+    };
+    /* Koordinaten liegen je Markt in lib/data/geo.ts vor und fehlten in der
+       Auszeichnung bisher vollständig — ohne sie bleibt ein Ortsknoten für
+       eine Suchmaschine nur ein Name. */
+    if (typeof lat === "number" && typeof lon === "number") {
+      cityNode.geo = { "@type": "GeoCoordinates", latitude: lat, longitude: lon };
+    }
+    nodes.push(cityNode);
+  }
+
+  return nodes;
+}
+
+/**
+ * Leistung für einen Markt — KEIN `LocalBusiness`.
+ *
+ * Der Unterschied ist inhaltlich, nicht kosmetisch: `provider` ist die
+ * Organisation in Waldsolms, `areaServed` der Ort. Damit steht in den Daten,
+ * was zutrifft — geliefert und betreut wird ab Werk, eine Niederlassung vor
+ * Ort gibt es nicht.
+ */
+export function getMarketServiceGraphNode({
   locale,
   hubSlug,
   citySlug,
@@ -548,23 +704,75 @@ export function getLocalMarketGraphNode({
   const marketUrl = `${domain}/${locale}/maerkte/${hubSlug}/${citySlug}`;
 
   return {
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    "@id": `${marketUrl}#local-business`,
-    name: `K-Aqua ${city} - PP-R & PP-RCT Rohrleitungssysteme`,
-    description: `K-Aqua Niederlassung und Projektunterstützung für ${city}, ${country}. Konform mit ${regulator}.${waterDescription ? ` ${waterDescription}` : ""}`,
+    "@type": "Service",
+    "@id": `${marketUrl}#service`,
+    name: `PP-R & PP-RCT Rohrleitungssysteme für ${city}`,
+    serviceType: "Lieferung und technische Projektbegleitung für Rohrleitungssysteme",
+    description:
+      `Lieferung, Auslegung und technische Projektbegleitung für PP-R und PP-RCT ` +
+      `Rohrleitungssysteme in ${city}, ${country} — ab Werk Waldsolms. ` +
+      `Ausgelegt nach ${regulator}.${waterDescription ? ` ${waterDescription}` : ""}`,
     url: marketUrl,
-    parentOrganization: { "@id": `${domain}/#organization` },
-    areaServed: {
-      "@type": "City",
-      name: city,
-      containedInPlace: {
-        "@type": "Country",
-        name: country,
-      },
+    provider: { "@id": `${domain}/#organization` },
+    areaServed: { "@id": getPlaceId("city", citySlug) },
+    availableChannel: {
+      "@type": "ServiceChannel",
+      serviceUrl: `${domain}/${locale}/projektanfrage`,
+      servicePhone: STANDORT.telefonAnzeige,
     },
-    telephone: "+49 6085 9868-410",
-    email: "info@k-aqua.de",
-    priceRange: "$$$$",
   };
+}
+
+/**
+ * Leistung für einen Ländermarkt — die mittlere Stufe der Pyramide.
+ *
+ * Ohne sie steht zwischen Stadtseite und Startseite nichts: Die Länderseite
+ * bündelt ihre Städte und reicht sie nach oben an die Organisation weiter.
+ */
+export function getHubServiceGraphNode({
+  locale,
+  hubSlug,
+  country,
+  region,
+  description,
+  citySlugs = [],
+}: {
+  locale: string;
+  hubSlug: string;
+  country: string;
+  region: string;
+  description?: string;
+  citySlugs?: string[];
+}): GraphNode {
+  const domain = getBaseUrl().replace(/\/+$/, "");
+  const hubUrl = `${domain}/${locale}/maerkte/${hubSlug}`;
+  const regionName = REGION_NAMES[region];
+
+  const node: GraphNode = {
+    "@type": "Service",
+    "@id": `${hubUrl}#service`,
+    name: `PP-R & PP-RCT Rohrleitungssysteme für ${country}`,
+    serviceType: "Lieferung und technische Projektbegleitung für Rohrleitungssysteme",
+    description:
+      description ??
+      `Lieferung und technische Projektbegleitung für PP-R und PP-RCT Rohrleitungssysteme in ${country} — ab Werk Waldsolms.`,
+    url: hubUrl,
+    provider: { "@id": `${domain}/#organization` },
+    areaServed: { "@id": getPlaceId("country", hubSlug) },
+  };
+
+  /* Die Städte des Landes als Teilbereiche. Damit liest eine Suchmaschine die
+     Stufe unter dieser Seite, ohne sie erst crawlen zu müssen. */
+  if (citySlugs.length > 0) {
+    node.serviceArea = citySlugs.map((s) => ({ "@id": getPlaceId("city", s) }));
+  }
+  if (regionName) {
+    node.areaServed = [
+      { "@id": getPlaceId("country", hubSlug) },
+      { "@id": getPlaceId("region", region) },
+    ];
+  }
+
+  return node;
 }
 

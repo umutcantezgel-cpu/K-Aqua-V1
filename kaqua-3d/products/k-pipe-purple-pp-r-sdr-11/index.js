@@ -41,6 +41,8 @@ const product = {
       name: 'K-Aqua_kaqua-k-pipe-purple-pp-r-sdr-11' + '_d' + size,
       materials: matKeys,
       seed: 97,
+      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
+      emboss: false,
       clipPlane,
     });
 

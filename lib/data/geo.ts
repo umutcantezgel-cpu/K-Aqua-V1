@@ -1,3 +1,4 @@
+import { STANDORT } from './standort';
 export type RegionId = "dach" | "europa" | "nahost" | "global";
 
 export interface Region {
@@ -31,7 +32,11 @@ export interface GeoMarket {
   note: string;            // Logistik-/Lieferhinweis ab Waldsolms
 }
 
-export const WALDSOLMS = { lat: 50.37, lon: 8.51 } as const;
+/* Werkskoordinaten aus lib/data/standort.ts — dort steht die einzige Fassung.
+   Hier stand 50.37/8.51, im SEO-Schema 50.418/8.473, im Kartenbaustein
+   50.487/8.485 und in zwei Globus-Bausteinen 50.49/8.51. Vier Werte fuer ein
+   Werk; fuer die lokale Auffindbarkeit ist genau das schaedlich. */
+export const WALDSOLMS = { lat: STANDORT.geo.lat, lon: STANDORT.geo.lon } as const;
 
 export const REGIONS: Region[] = [
   { id: "dach", labelKey: "dach" },

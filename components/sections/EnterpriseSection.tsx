@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { Layers, Shield, Ruler, Check } from 'lucide-react';
 import { Globe } from '@/components/globe/Globe';
+import { WALDSOLMS } from '@/lib/data/geo';
 
 function useJitterE(base: number, amp: number) {
   const [v, setV] = useState(base);
@@ -118,7 +119,7 @@ export function EnterpriseNetwork() {
   const t = useTranslations('enterprise.network');
   const chips = t.raw('chips') as [string, string][];
   const markers = [
-    { lat: 50.49, lon: 8.51, label: 'Waldsolms HQ', title: 'hq' },
+    { lat: WALDSOLMS.lat, lon: WALDSOLMS.lon, label: 'Waldsolms HQ', title: 'hq' },
     { lat: 25.2, lon: 55.3, label: 'Dubai', title: 'dubai' },
     { lat: 1.35, lon: 103.8, label: 'Singapore', title: 'singapore' },
     { lat: 51.5, lon: -0.1, label: 'London', title: 'london' },

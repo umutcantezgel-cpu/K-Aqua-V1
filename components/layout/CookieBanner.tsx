@@ -160,7 +160,10 @@ export function CookieBanner() {
           className="fixed inset-0 z-[1000] flex items-end sm:items-center justify-center p-0 sm:p-6"
         >
           <motion.div
-            initial={{ opacity: 0 }}
+            /* initial={false}: mit opacity-0-Start blieb der Dialog bei
+               gedrosselten Frames halbtransparent stehen — Seitentext
+               lief durch das Panel (Fehlerklasse „reveal never fires"). */
+            initial={false}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="absolute inset-0 bg-foreground/25 backdrop-blur-sm"
@@ -174,7 +177,7 @@ export function CookieBanner() {
             aria-modal="true"
             aria-labelledby={titleId}
             aria-describedby={descId}
-            initial={{ opacity: 0, y: 24 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 24 }}
             transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}

@@ -25,6 +25,9 @@ export function LanguagePageClient() {
 
   return (
     <div className="w-full h-[calc(100dvh-72px)] bg-background overflow-hidden overscroll-none relative">
+      {/* Die Seite ist ein Vollbild-Globus ohne sichtbare Überschrift; die H1
+          existiert für Screenreader und Suchmaschinen. */}
+      <h1 className="sr-only">Sprache wählen | Choose language</h1>
       <LanguageGlobeHub dark={isDark} />
     </div>
   );

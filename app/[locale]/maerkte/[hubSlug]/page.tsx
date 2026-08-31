@@ -7,7 +7,14 @@ import { GEO_HUBS, GEO_MARKETS, HUB_APPROVAL } from "@/lib/data/geo";
 import { routing } from "@/lib/i18n/routing";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { constructMetadata } from "@/lib/seo/metadata";
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
+import {
+  wrapGraph,
+  getWebPageGraphNode,
+  getBreadcrumbGraphNode,
+  getHubServiceGraphNode,
+  getPlaceChainGraphNodes,
+  getPlaceId,
+} from "@/lib/seo/schema";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import { Link } from "@/lib/i18n/navigation";
@@ -87,6 +94,11 @@ export default async function GeoHubPage({ params }: Props) {
     ? tGeo(`hubs.${hub.slug}.metaDesc`, { country: hubName, hub: hubName })
     : hub.description;
 
+  /* Mittlere Stufe der Ortspyramide. Bisher sprang der Graph hier direkt von
+     der Länderseite auf `#organization` — die Ebene Land und die darunter
+     liegenden Städte kamen darin gar nicht vor. Jetzt hängt das Land an
+     seiner Region, die Region an der Welt, und die Städte des Landes stehen
+     als `serviceArea` unter der Leistung. */
   const jsonLd = wrapGraph([
     getWebPageGraphNode({
       locale,
@@ -95,7 +107,20 @@ export default async function GeoHubPage({ params }: Props) {
       name: pageTitle,
       description: pageDesc,
       breadcrumbId: `${siteUrl}/${locale}/maerkte/${hub.slug}#breadcrumb`,
-      mainEntityId: `${siteUrl}/#organization`,
+      mainEntityId: `${siteUrl}/${locale}/maerkte/${hub.slug}#service`,
+    }),
+    ...getPlaceChainGraphNodes({
+      region: hub.region,
+      hubSlug: hub.slug,
+      country: hubName,
+    }),
+    getHubServiceGraphNode({
+      locale,
+      hubSlug: hub.slug,
+      country: hubName,
+      region: hub.region,
+      description: pageDesc,
+      citySlugs: hubMarkets.map((m) => m.slug),
     }),
     {
       "@type": "ItemList",
@@ -106,6 +131,7 @@ export default async function GeoHubPage({ params }: Props) {
         position: idx + 1,
         url: `${siteUrl}/${locale}/maerkte/${hub.slug}/${market.slug}`,
         name: `${market.city}, ${hubName}`,
+        item: { "@id": getPlaceId("city", market.slug) },
       })),
     },
     getBreadcrumbGraphNode(locale, [

@@ -46,30 +46,30 @@
     "edgePageIndex": "পৃষ্ঠা সূচি",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "পাইপ সিস্টেম",
+      "allProducts": "সব পণ্য",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "শিল্পভিত্তিক নির্দিষ্ট অ্যাপ্লিকেশন",
+      "digitalTools": "ডিজিটাল টুলস",
+      "finderDesc": "সঠিক সিস্টেম কনফিগার করুন",
+      "co2Desc": "পরিবেশগত প্রভাব হিসাব করুন",
+      "academyDesc": "প্রশিক্ষণ ও সার্টিফিকেট",
+      "trustDesc": "ডাউনলোড ও সার্টিফিকেশন",
+      "serviceDesc": "পরিকল্পনা সহায়তা",
+      "partnersDesc": "স্থানীয় পার্টনার হোন",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "প্রতিষ্ঠান",
+      "companyDesc": "মিশন, ভিশন ও ইতিহাস",
+      "careerDesc": "খোলা পদ ও কর্মসংস্কৃতি",
+      "newsPress": "সংবাদ ও প্রেস",
+      "newsDesc": "সাম্প্রতিক প্রেস বিজ্ঞপ্তি",
+      "sitemap": "সাইটম্যাপ",
+      "sitemapDesc": "কাঠামোগত সারসংক্ষেপ",
+      "globalFootprint": "বৈশ্বিক উপস্থিতি",
+      "globalMarkets": "বৈশ্বিক বাজার",
+      "marketsDesc": "সার্টিফায়েড অঞ্চলসমূহ",
+      "refProjects": "রেফারেন্স প্রকল্প",
+      "refDesc": "সফল ইনস্টলেশনসমূহ"
     }
   },
   "groups": {
@@ -237,7 +237,7 @@
     "privacy": "প্রাইভেসি",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
-    "address": "Auweg 3, 35647 Waldsolms, Germany",
+    "address": "Auweg 3, 35647 Waldsolms, জার্মানি",
     "copyright": "© 2026 KWT GmbH.",
     "projectCta": "প্রজেক্টের জন্য অনুরোধ করুন",
     "badges": [
@@ -344,7 +344,7 @@
       ]
     ],
     "btnDe": "সার্টিফিকেট (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnEn": "সার্টিফিকেট (EN)",
     "eventsTitle": "মেলা ও ইভেন্টস",
     "eventsText": "আসন্ন ইভেন্টগুলোতে K Aqua-তে আসুন। বর্তমানে কোনো ইভেন্ট ঘোষণা করা হয়নি। শীঘ্রই আবার চেক করুন।",
     "lead": "K Aqua এর সর্বশেষ খবর পড়ুন।"
@@ -406,51 +406,9 @@
         "lon": 8.5,
         "title": "Waldsolms, জার্মানি",
         "d": "মূল প্ল্যান্ট ও উন্নয়ন: এখানেই প্রতিটি K Aqua পাইপ তৈরি হয়।"
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "দুবাই, সংযুক্ত আরব আমিরাত",
-        "d": "উচ্চ-উত্থান রাইজার: মরুভূমির পরিস্থিতিতে গরম জলের জন্য PPRCT।"
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "ওয়ারশ, পোল্যান্ড",
-        "d": "নতুন আবাসিক এলাকা: সম্পূর্ণ পানীয় জল ইনস্টলেশন d20-d110।"
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "ইস্তাম্বুল, তুরস্ক",
-        "d": "হোটেল কমপ্লেক্স: ফাইবার কম্পোজিট পাইপের সাথে সার্কুলেশন লাইন।"
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "সিঙ্গাপুর",
-        "d": "অবকাঠামো প্রজেক্ট: বাট ওয়েল্ডিং প্রক্রিয়ায় d630 পর্যন্ত বড় মাত্রা।"
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "কেপ টাউন, দক্ষিণ আফ্রিকা",
-        "d": "নতুন হাসপাতাল: স্বাস্থ্যকর পানীয় জল বিতরণ।"
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "লন্ডন, যুক্তরাজ্য",
-        "d": "অফিস সংস্কার: বিদ্যমান লাইনের জন্য জং-মুক্ত প্রতিস্থাপন।"
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "প্রকল্প দেখুন"
   },
   "buyers": {
     "eyebrow": "পরিকল্পনাকারী, ক্রয় এবং প্রসেসরদের জন্য",
@@ -1050,25 +1008,25 @@
     "nextTitle": "আপনার পরিকল্পনা কতটা জলবায়ু-বান্ধব?",
     "nextLead": "মাত্রা এবং দৈর্ঘ্য সরাসরি CO₂ ক্যালকুলেটরে স্থানান্তর করুন এবং তামা, স্টেইনলেস স্টিল এবং PVC এর সাথে তুলনা করুন।",
     "nextCta": "CO₂ ক্যালকুলেটরে যান",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "ক্যাটাগরি, নাম বা আর্টিকেল নম্বর দিয়ে আমাদের সম্পূর্ণ পণ্যসম্ভার খুঁজুন।",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "পাইপ",
+    "catFittings": "ফিটিংস",
+    "catValves": "ভালভ",
+    "catTools": "যন্ত্রপাতি",
+    "catTransitionFittings": "ট্রানজিশন ফিটিংস",
+    "catAccessories": "আনুষঙ্গিক সামগ্রী",
+    "catWeldInSaddles": "উচ্চমানের PP-R ওয়েল্ড-ইন স্যাডল",
+    "category": "ক্যাটাগরি",
+    "search": "অনুসন্ধান",
+    "searchPlaceholder": "আর্টিকেল নম্বর বা নাম...",
+    "foundFam": "টি পণ্য পরিবার পাওয়া গেছে",
+    "catalogPdf": "PDF আকারে ক্যাটালগ",
+    "colName": "পণ্যের নাম",
+    "colCat": "ক্যাটাগরি",
+    "colCodes": "আর্টিকেল নম্বর",
+    "noResultsText": "আপনার অনুসন্ধানের সাথে মিলে এমন কোনো পণ্য আমরা খুঁজে পাইনি। অনুগ্রহ করে অন্য কোনো শব্দ দিয়ে চেষ্টা করুন বা ক্যাটাগরি পরিবর্তন করুন।",
+    "resetFilters": "ফিল্টার রিসেট করুন"
   },
   "trustAndCases": {
     "eyebrow": "প্রত্যয়িত নিরাপত্তা",
@@ -1969,53 +1927,6 @@
     "cookieAccept": "সবগুলি গ্রহণ করুন",
     "cookieDecline": "শুধুমাত্র অপরিহার্যগুলি গ্রহণ করুন"
   },
-  "customerReviews": {
-    "eyebrow": "গুণমান, যা সংযোগ স্থাপন করে",
-    "title": "আমাদের গ্রাহক এবং অংশীদাররা যা বলেন",
-    "lead": "বিল্ডার থেকে শুরু করে লজিস্টিক কোম্পানি এবং দীর্ঘদিনের কর্মীদের কাছ থেকে: K Aqua KWT GmbH মানেই ওয়াল্ডসোলমস থেকে আসা সর্বোচ্চ নির্ভুলতা। পড়ুন কীভাবে মানুষেরা প্রতিদিন আমাদের পরিষেবা এবং 'মেড ইন জার্মানি' পণ্যগুলির সাথে অভিজ্ঞতা অর্জন করছে।",
-    "trustBadge": "গুগল রিভিউ",
-    "trustStars": "৪.৯ / ৫",
-    "trustBasedOn": "(৪৪ টি পর্যালোচনার ভিত্তিতে)",
-    "tabA": "গুণমান এবং 'মেড ইন জার্মানি'",
-    "tabB": "লজিস্টিকস এবং ডেলিভারি",
-    "tabC": "কাস্টমার সার্ভিস এবং টিম",
-    "reviews": {
-      "a1": "\"জার্মানির ওয়াল্ডসোলমসের একটি কারখানা, যা **মেড ইন জার্মানি** পিপিআর পাইপ এবং ফিটিংসে বিশেষায়িত। অসামান্য কর্মী।\"",
-      "a1Author": "গিউলিও সি.",
-      "a2": "\"পিপিআর আবরণ এবং ফিটিংসে **জার্মান কোয়ালিটি**, অত্যন্ত বন্ধুত্বপূর্ণ কর্মী।\"",
-      "a2Author": "ভেরোনিকা পি.",
-      "a3": "\"**আধুনিক কোম্পানি**। সব সাইজের প্লাস্টিক পাইপ এবং আনুষাঙ্গিক উৎপাদন করে।\"",
-      "a3Author": "ইওয়াল্ড এস.",
-      "a4": "\"**জার্মান তৈরি** পিপিআর পাইপ এবং ফিটিংস, চমৎকার কর্মী এবং পণ্য।\"",
-      "a4Author": "কায়েস এস.",
-      "a5": "\"**উচ্চমানের পণ্য** এবং একটি শীর্ষস্থানীয় জার্মান কারখানা।\"",
-      "a5Author": "আবদু৪৫৬০ ডি. / আল বি. / ভিটো নাদির এইচ.",
-      "a6": "\"খুব ভালো পণ্য, **নির্ভরযোগ্য গুণমান** এবং সময়মতো ডেলিভারি।\"",
-      "a6Author": "ক্লাউস টি.",
-      "b1": "\"খুব ভালো আচরণ, **দ্রুত আনলোডিং**। আমি এখানে আমার বড় বিরতি নিতে পেরেছিলাম। আমাকে ঝরনা এবং টয়লেট ব্যবহারেরও প্রস্তাব দেওয়া হয়েছিল। একজন ট্রাক চালক হিসেবে এখানে নিজেকে **মূল্যবান** মনে হয়। আমি আবার এখানে আসতে খুব পছন্দ করব।\"",
-      "b1Author": "মাইকেল এস.",
-      "b2": "\"প্রবেশপথের বর্তমান স্থানাঙ্ক হল **50.428210, 8.499154**। প্রায় ১০০ মিটার দূরে একটি পার্কিং লট আছে। বন্ধুত্বপূর্ণ কর্মী।\"",
-      "b2Author": "ওলেগ এম. / হাসান এস.",
-      "b3": "\"**দ্রুত আনলোডিং**, বন্ধুত্বপূর্ণ এবং সহায়ক কর্মী।\"",
-      "b3Author": "বোগদান এম.",
-      "c1": "\"**খুব ভালো সার্ভিস**, দারুণ যে এখনও জার্মানিতে উৎপাদিত হয়।\"",
-      "c1Author": "ড্যানিয়েল",
-      "c2": "\"**খুবই বন্ধুত্বপূর্ণ** এবং সহায়ক কর্মী। ইমেলের উত্তর **তাত্ক্ষণিকভাবে দেওয়া হয়**।\"",
-      "c2Author": "মোহাম্মদ এম.",
-      "c3": "\"চেয়ারম্যান থেকে শুরু করে সাধারণ কর্মী পর্যন্ত: সবাই **ভালো মানুষ**।\"",
-      "c3Author": "আজিম",
-      "c4": "\"**দারুণ কোম্পানি**, তারা তাদের কর্মীদের জন্য অনেক কিছু করে।\"",
-      "c4Author": "মনিকা ভি. বি.",
-      "c5": "\"কর্মীরা **অত্যন্ত বন্ধুত্বপূর্ণ এবং সহায়ক**।\"",
-      "c5Author": "পিয়েরা ভি.",
-      "c6": "\"দক্ষ দল এবং সমস্ত স্তরে **অসামান্য কাস্টমার সাপোর্ট**।\"",
-      "c6Author": "সারাহ বি."
-    },
-    "ctaTitle": "আমাদের পরিষেবা সম্পর্কে নিজেই নিশ্চিত হোন।",
-    "ctaText": "আমাদের পিপিআর পাইপ সিস্টেম সম্পর্কে আপনার কি কোনো প্রশ্ন আছে বা আপনি কি আমাদের সাথে কোনো প্রকল্প নিয়ে আলোচনা করতে চান? ওয়াল্ডসোলমস থেকে আমাদের দল আপনার জন্য এখানে আছে।",
-    "ctaBtn": "এখনই যোগাযোগ করুন",
-    "disclaimer": "পর্যালোচনা যাচাইকরণ সম্পর্কে দ্রষ্টব্য: এখানে দেখানো পর্যালোচনাগুলি আমাদের গুগল ব্যবসায়িক প্রোফাইল থেকে নেওয়া হয়েছে। গুগল বলে: পর্যালোচনাগুলি যাচাই করা হয় না। ডেটা সুরক্ষার কারণে (DSGVO) আমরা লেখকদের নাম সংক্ষিপ্ত করেছি।"
-  },
   "productNames": {
     "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "কে-ফাইবার পাইপ PPRCT SDR 7.4",
     "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "কে-ফাইবার ইউভি-পাইপ PP-R SDR 7.4",
@@ -2094,14 +2005,14 @@
     "pipes_k-fiber-pipe-pp-r-sdr-17": "কে-ফাইবার পাইপ PP-R SDR 17",
     "pipes_k-fiber-pipe-pp-r-sdr-7-4": "কে-ফাইবার পাইপ PP-R SDR 7.4",
     "pipes_k-fiber-pipe-pp-r-sdr-9": "কে-ফাইবার পাইপ PP-R SDR 9",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "ব্যাকিং ফ্ল্যাঞ্জ PP-স্টিল (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R ক্রস-ওভার বেন্ড উইথ সকেট",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "হ্যান্ড ওয়েল্ডিং মেশিন d20-d32",
+    "tools_pipe-cutter-50125": "পাইপ কাটার d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "টি 90° (ফিমেল থ্রেড) কনসিল্ড ভালভের জন্য"
   },
   "kontaktForm": {
     "phoneLabel": "টেলিফোন",
@@ -2847,7 +2758,7 @@
         "btnGhost": "বিশেষজ্ঞদের সাথে যোগাযোগ করুন"
       },
       "metaTitle": "PP-R পাইপিং সিস্টেমের জন্য টেকনিক্যাল সাপোর্ট এবং পরিষেবা",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "ইঞ্জিনিয়ারিং পরামর্শ, অ্যাপ্লিকেশন প্রযুক্তি এবং সাইটে সরাসরি সহায়তা।"
     },
     "bim": {
       "title": "BIM ডেটা",
@@ -5740,7 +5651,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "পণ্যের বিস্তারিত দেখুন"
   },
   "productsx": {
     "navOverview": "সিস্টেমের সংক্ষিপ্ত বিবরণ",
@@ -6044,8 +5955,7 @@
         "d": "এখানে স্বাস্থ্যবিধি নিয়ে আপস করা যায় না: মসৃণ অভ্যন্তরীণ পৃষ্ঠ (0.007 মিমি) বায়োফিল্ম এবং ইনক্রাস্টেশনকে বাধা দেয়, উপাদানটি স্বাদহীন এবং গন্ধহীন থাকে।",
         "pts": [
           "স্বাস্থ্যকর নিরপেক্ষতা",
-          "জারা-মুক্ত: কোনো পিটিং নেই",
-          "রেফারেন্স: নতুন হাসপাতাল কেপটাউন"
+          "জারা-মুক্ত: কোনো পিটিং নেই"
         ]
       },
       {
@@ -6053,8 +5963,7 @@
         "d": "চব্বিশ ঘন্টা গরম জলের সঞ্চালন: কম তাপ পরিবাহিতা স্থায়ীভাবে শক্তি সঞ্চয় করে, PPRCT 70 °C একটানা অপারেশন সহ্য করে।",
         "pts": [
           "তাপীয় দক্ষতা",
-          "সঞ্চালনের জন্য PPRCT",
-          "রেফারেন্স: হোটেল কমপ্লেক্স ইস্তাম্বুল"
+          "সঞ্চালনের জন্য PPRCT"
         ]
       },
       {
@@ -6071,8 +5980,7 @@
         "d": "কাঁচের নীচে এবং বাইরে সেচের জন্য UV-স্থিতিশীল সংস্করণ: হালকা, দ্রুত ইনস্টল করা যায়, অনমনীয় সিস্টেমগুলোর চেয়ে ফ্রস্টের প্রতি কম সংবেদনশীল।",
         "pts": [
           "UV-প্রতিরোধী সংস্করণ",
-          "কম ওজন",
-          "রেফারেন্স প্রোগ্রাম থেকে আবেদনের ক্ষেত্র"
+          "কম ওজন"
         ]
       },
       {
@@ -6080,8 +5988,7 @@
         "d": "সরবরাহ লাইন এবং d630 পর্যন্ত বৃহৎ মাত্রার নেটওয়ার্ক: সমজাতীয়, স্থায়ীভাবে টাইট স্ট্র্যান্ডগুলোতে বাট ওয়েল্ডিং করা।",
         "pts": [
           "d 630 মিমি পর্যন্ত",
-          "বাট ওয়েল্ডিং (Butt Fusion)",
-          "রেফারেন্স: পরিকাঠামো সিঙ্গাপুর"
+          "বাট ওয়েল্ডিং (Butt Fusion)"
         ]
       },
       {
@@ -6611,39 +6518,6 @@
             "unit": "",
             "title": "রক্ষণাবেক্ষণ প্রচেষ্টা",
             "desc": "ইনস্টল করুন, সিল করুন এবং চিরতরে ভুলে যান।"
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "ইতিহাস সৃষ্টিকারী রেফারেন্সগুলো।",
-        "desc": "পারস্য উপসাগরের কৃত্রিম দ্বীপ থেকে শুরু করে আল্পসের সবচেয়ে এক্সক্লুসিভ স্কি রিসর্ট পর্যন্ত। যেখানে অসম্ভব নির্মাণ করা হয়, সেখানে কে-অ্যাকোয়া ইতিমধ্যেই উপস্থিত।"
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "দুবাই",
-            "title": "দ্য পাম জুমেইরাহ আল্ট্রা-লাক্সারি রিসর্ট",
-            "text": "800 স্যুট এবং 4টি বিশাল পুল এলাকা সজ্জিত করা। চরম লবণাক্ততা এবং 50°C পর্যন্ত পরিবেষ্টিত তাপমাত্রায় সর্বাধিক তাপীয় এবং রাসায়নিক প্রতিরোধের প্রয়োজন ছিল। কে-অ্যাকোয়া ডিস্ট্রিক্ট কুলিং সংযোগ সহ সম্পূর্ণ ঠান্ডা এবং গরম জলের নেটওয়ার্ক সরবরাহ করেছে।"
-          },
-          {
-            "year": "সুইজারল্যান্ড",
-            "title": "অ্যালপাইন রিট্রিট সেন্ট মরিজ",
-            "text": "২,০০০ মিটার উচ্চতায় একটি ৬-স্টার রিসর্ট। চ্যালেঞ্জ: নির্মাণ পর্যায়ে চরম হিমের ঝুঁকি এবং শাব্দিক বিচ্ছিন্নতার জন্য সর্বাধিক প্রয়োজনীয়তা। আমাদের PP-R ফাইবার কম্পোজিট পাইপগুলো দারুণভাবে তাপীয় প্রসারণ শোষণ করে এবং নীরব ক্রিয়াকলাপের গ্যারান্টি দেয়।"
-          },
-          {
-            "year": "সিঙ্গাপুর",
-            "title": "ভার্টিক্যাল ফরেস্ট হোটেল",
-            "text": "পরিবেশগত স্থাপত্যের একটি ৬৫ তলা মাস্টারপিস। হাজার হাজার বারান্দার উদ্ভিদের জন্য জটিল সেচ ব্যবস্থা, সেইসাথে সম্পূর্ণ পানীয় জলের পরিকাঠামো, কে-অ্যাকোয়া দিয়ে বাস্তবায়িত হয়েছিল। সমজাতীয় ওয়েল্ডিং প্রযুক্তি ভবনটিকে মাইক্রোস্কোপিক ফুটো থেকে রক্ষা করেছে।"
-          },
-          {
-            "year": "মালদ্বীপ",
-            "title": "জিরো-এমিশন আইল্যান্ড রিসর্ট",
-            "text": "সরাসরি রিফের উপর নির্মিত, পরম পরিবেশগত সামঞ্জস্যের প্রয়োজন ছিল। কে-অ্যাকোয়া পাইপগুলো 100% পুনর্ব্যবহারযোগ্য, কোনো মাইক্রোপ্লাস্টিক বা ভারী ধাতু নির্গত করে না এবং ক্ষয় ছাড়াই অত্যন্ত ক্ষয়কারী লবণাক্ত সমুদ্রের বায়ু সহ্য করে।"
-          },
-          {
-            "year": "ভবিষ্যত",
-            "title": "আপনার পরবর্তী মেগা প্রকল্প",
-            "text": "স্থাপত্যের সীমানা প্রতিদিন বদলাচ্ছে। আমরা আপনার সবচেয়ে সাহসী দৃষ্টিভঙ্গির ভিত্তি স্থাপন করতে প্রস্তুত। এমন প্রযুক্তির সাহায্যে যা সময়ের চেয়ে কয়েক দশক এগিয়ে।"
           }
         ]
       },
@@ -7702,7 +7576,7 @@
     "retry": "আবার চেষ্টা করুন",
     "titlePerfect": "ওয়েল্ডিং মাস্টার",
     "titleGood": "ওয়েল্ডিং-জার্নিম্যান",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "প্রশিক্ষণ ভিডিও ও নির্দেশিকা"
   },
   "partnerx": {
     "ecoEyebrow": "K-Aqua ইকোসিস্টেম",
@@ -8507,53 +8381,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "ইন্টারঅ্যাকটিভ",
+    "titleGrad": "ম্যাপ স্যুট",
+    "tabHq": "প্রধান কার্যালয় Waldsolms",
+    "tabRefs": "লিকেজ-প্রুফ ম্যাপ",
+    "tabSpec": "স্পেসিফায়ার",
+    "hqTitle": "কেন্দ্রীয় উৎপাদন ও উন্নয়ন কেন্দ্র",
+    "hqAddress": "Waldsolms Brandoberndorf, হেসেন, জার্মানি।",
+    "registryLabel": "নিবন্ধন আদালত:",
+    "phoneLabel": "টেলিফোন:",
+    "certLabel": "সার্টিফিকেশন:",
+    "directions": "রুট প্ল্যানার খুলুন",
+    "aboutPlant": "Waldsolms কারখানা সম্পর্কে",
+    "sectorFilter": "সেক্টর ফিল্টার:",
+    "specPlaceholder": "স্থান বা শহরের নাম লিখুন…",
+    "profileTitle": "বাজার ও লজিস্টিকস প্রোফাইল",
+    "profileHint": "স্বয়ংক্রিয় সিস্টেম স্পেসিফিকেশন ও সরবরাহ-রুট হিসাব চালু করতে ম্যাপে ক্লিক করুন বা একটি শহর খুঁজুন।",
+    "marketAssign": "বাজার নির্ধারণ",
+    "normLabel": "মানদণ্ড:",
+    "airDist": "সরলরেখার দূরত্ব (HQ)",
+    "roadDist": "সড়কপথে (আনুমানিক)",
+    "recommended": "প্রস্তাবিত পাইপ সিস্টেম:",
+    "recUv": "UV-Protect বাইরের আবরণ",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "সব সেক্টর",
+      "hotel": "হোটেল",
+      "wohnen": "আবাসন নির্মাণ",
+      "infra": "অবকাঠামো",
+      "klinik": "ক্লিনিক",
+      "buero": "অফিস"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "পণ্যসমূহ",
+      "markets-solutions": "বাজার ও সমাধান",
+      "academy-resources": "একাডেমি ও রিসোর্স",
+      "company": "প্রতিষ্ঠান"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "পাইপের জন্য প্রোডাক্ট ফাইন্ডার",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "ফর্ম পার্টস ও ফিটিংস",
+      "valves": "ভালভ ও ট্যাপ",
+      "tools": "যন্ত্রপাতি ও আনুষঙ্গিক সামগ্রী",
+      "transition": "পাইপের ট্রানজিশন",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8566,48 +8440,48 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "পাইপ সিস্টেমের জন্য প্রকল্প অনুরোধ",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "সাইটম্যাপ (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "আপনার ভাষা বেছে নিন",
+    "subtitle": "৬৫টি ভাষা · গ্লোব ঘোরান, অঞ্চলে ট্যাপ করুন, নিশ্চিত করুন।",
+    "searchPlaceholder": "ভাষা বা পৃষ্ঠা খুঁজুন…",
+    "pagesSection": "পৃষ্ঠা ও নেভিগেশন",
+    "noResults": "কোনো ভাষা পাওয়া যায়নি।",
+    "confirm": "নিশ্চিত করুন",
+    "beta": "বেটা",
+    "globalEffect": "সম্পূর্ণ ওয়েবসাইটের জন্য প্রযোজ্য",
+    "active": "সক্রিয়"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "আমরা কীভাবে আপনাকে সাহায্য করতে পারি?",
+    "step1Desc": "আপনার প্রয়োজন অনুযায়ী উপযুক্ত বিভাগটি নির্বাচন করুন।",
+    "optSales": "বিক্রয় ও প্রকল্প",
+    "optSalesDesc": "মূল্য সংক্রান্ত জিজ্ঞাসা, বড় প্রকল্প ও ডেলিভারির সময়।",
+    "optTech": "টেকনিক্যাল সাপোর্ট",
+    "optTechDesc": "স্পেসিফিকেশন, ইনস্টলেশন ও সিস্টেম ডিজাইন।",
+    "optOther": "সাধারণ জিজ্ঞাসা",
+    "optOtherDesc": "মার্কেটিং, ক্যারিয়ার বা অন্যান্য বিষয়।",
+    "step2Title": "আপনার জিজ্ঞাসার বিস্তারিত",
+    "step2Desc": "অনুগ্রহ করে আপনার প্রকল্প বা প্রশ্নটি সংক্ষেপে বর্ণনা করুন।",
+    "messagePlaceholder": "আমাদের কাছে আপনার বার্তা...",
+    "step3Title": "আপনার যোগাযোগের তথ্য",
+    "step3Desc": "প্রায় শেষ! আমরা কীভাবে আপনার সাথে যোগাযোগ করব?",
+    "nameLabel": "সম্পূর্ণ নাম",
+    "companyLabel": "কোম্পানি / প্রতিষ্ঠান",
+    "emailLabel": "ইমেইল ঠিকানা",
+    "phoneLabel": "ফোন নম্বর",
+    "step4Title": "বার্তা পাঠানো হয়েছে!",
+    "step4Desc": "আপনার জিজ্ঞাসার জন্য ধন্যবাদ। আমাদের একজন বিশেষজ্ঞ শীঘ্রই আপনার সাথে যোগাযোগ করবেন।",
+    "btnNext": "পরবর্তী",
+    "btnBack": "পেছনে",
+    "btnSubmit": "জিজ্ঞাসা পাঠান",
+    "btnSending": "পাঠানো হচ্ছে…",
+    "btnHome": "হোমপেজে ফিরে যান",
+    "sendError": "পাঠানো ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন বা সরাসরি আমাদের কল করুন: +49 (0)60 85 / 9868-410"
   }
 }

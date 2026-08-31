@@ -49,6 +49,25 @@ function disposeMaterial(material: any): void {
   material.dispose();
 }
 
+/**
+ * Beschriftung und Farbfleck der Rohrvarianten.
+ *
+ * Die Hex-Werte MÜSSEN mit den Rezepten in `kaqua-3d/core/materials.js`
+ * übereinstimmen — sonst zeigt der Wähler eine andere Farbe als das Modell
+ * daneben, und das fällt sofort auf.
+ *
+ * Grün trägt bewusst keine RAL-Nummer im Namen: RAL 6024 ist die Norm des
+ * Granulats, der hier gezeigte Wert ist aus den Herstelleraufnahmen gemessen
+ * und beschreibt das fertige Bauteil. Die drei Sonderfarben folgen dagegen
+ * direkt der RAL-Angabe aus dem Marketing-Archiv.
+ */
+const VARIANT_LABEL: Record<string, { name: string; hex: string }> = {
+  gruen: { name: 'Grün (Standard)', hex: '#32A175' },
+  blau: { name: 'Blau (RAL 5005)', hex: '#005387' },
+  curry: { name: 'Curry (RAL 1002)', hex: '#C6A664' },
+  mocca: { name: 'Mocca (RAL 7032)', hex: '#B9B9A8' },
+};
+
 export interface Native3DCanvasProps {
   productId?: string; // e.g. "fittings/socket", "pipes/k-pipe-pp-r-sdr-6", "valves/pp-r-ball-valve-ball-in-pp"
   slug?: string;
@@ -106,8 +125,16 @@ export default function Native3DCanvas({
   const [productData, setProductData] = useState<any>(null);
   const [selectedSize, setSelectedSize] = useState<number>(initialSize || 32);
   const [availableSizes, setAvailableSizes] = useState<number[]>([]);
+  /* Farbvariante. Der Produktvertrag sieht sie seit jeher als zweiten
+     Parameter von build(size, variant, clipPlane) vor; hier stand bisher
+     hart `null`, und kein Produkt fuellte `variants`. Beides ist jetzt
+     angeschlossen — die Rohrserien sind neben Gruen auch in Blau, Curry und
+     Mocca lieferbar. */
+  const [selectedVariant, setSelectedVariant] = useState<string | null>(null);
+  const [availableVariants, setAvailableVariants] = useState<string[]>([]);
   const [isAutoRotate, setIsAutoRotate] = useState(autoRotateDefault);
   const [isSection, setIsSection] = useState(false);
+  const [exportOpen, setExportOpen] = useState(false);
   const [isWireframe, setIsWireframe] = useState(false);
   const [showDimensions, setShowDimensions] = useState(false);
   const [dimensionsList, setDimensionsList] = useState<Array<{ label: string; value: number }>>([]);
@@ -186,15 +213,54 @@ export default function Native3DCanvas({
     (grid.material as THREE.Material).transparent = true;
     scene.add(grid);
 
-    // Animation Loop
-    let isRunning = true;
+    /* Renderschleife — laeuft nur, wenn der Viewer wirklich zu sehen ist.
+       Vorher lief sie ab dem Mounten dauerhaft weiter: auch wenn der Viewer
+       laengst aus dem Bild gescrollt war und auch, wenn der Tab im Hintergrund
+       lag. Auf einer Produktseite steht er unterhalb des ersten Bildschirms —
+       er hat also in der Regel gerechnet, ohne dass jemand hinsah. Das kostet
+       auf Notebooks spuerbar Akku und auf schwachen Geraeten die Bildrate der
+       ganzen Seite. */
+    let isRunning = false;
+    let imBild = false;
+    let tabSichtbar = document.visibilityState !== 'hidden';
+
     const animate = () => {
       if (!isRunning) return;
       controls.update();
       renderer.render(scene, camera);
       animFrameIdRef.current = requestAnimationFrame(animate);
     };
-    animate();
+
+    const laufZustandPruefen = () => {
+      const sollLaufen = imBild && tabSichtbar;
+      if (sollLaufen === isRunning) return;
+      isRunning = sollLaufen;
+      if (sollLaufen) {
+        animate();
+      } else if (animFrameIdRef.current) {
+        cancelAnimationFrame(animFrameIdRef.current);
+        animFrameIdRef.current = null;
+      }
+    };
+
+    /* Ein einzelnes Standbild, damit der Viewer auch im pausierten Zustand
+       etwas zeigt statt einer leeren Flaeche. */
+    renderer.render(scene, camera);
+
+    const sichtbarkeit = new IntersectionObserver(
+      (eintraege) => {
+        imBild = eintraege.some((e) => e.isIntersecting);
+        laufZustandPruefen();
+      },
+      { rootMargin: '200px' }
+    );
+    sichtbarkeit.observe(container);
+
+    const aufTabWechsel = () => {
+      tabSichtbar = document.visibilityState !== 'hidden';
+      laufZustandPruefen();
+    };
+    document.addEventListener('visibilitychange', aufTabWechsel);
 
     // Resize Observer
     const resizeObserver = new ResizeObserver((entries) => {
@@ -212,6 +278,8 @@ export default function Native3DCanvas({
     return () => {
       isRunning = false;
       if (animFrameIdRef.current) cancelAnimationFrame(animFrameIdRef.current);
+      sichtbarkeit.disconnect();
+      document.removeEventListener('visibilitychange', aufTabWechsel);
       resizeObserver.disconnect();
       controls.dispose();
       // `scene.clear()` trennt die Kinder nur vom Baum — Geometrien, Materialien
@@ -226,13 +294,25 @@ export default function Native3DCanvas({
         }
       });
       scene.clear();
+      /* Nur `dispose()`, KEIN `forceContextLoss()`.
+         Naheliegend waere es, den WebGL-Kontext hier aktiv herzugeben — ihre
+         Zahl ist begrenzt. Hier ist es falsch: der Renderer haengt am
+         <canvas>, das React ueber Effektlaeufe hinweg WIEDERVERWENDET.
+         `forceContextLoss()` toetet den Kontext dieses Elements dauerhaft;
+         der naechste Effektlauf (in der Entwicklung schon durch StrictMode,
+         in Produktion beim Wechsel von `autoRotateDefault`) baut dann einen
+         Renderer auf einem toten Kontext und stirbt an
+         `capabilities.precision === null`. Getestet: die Produktseite zeigte
+         danach nur noch „Die 3D-Ansicht konnte nicht geladen werden."
+         `dispose()` gibt die GPU-Ressourcen ohnehin frei; der Kontext wird
+         mit dem Canvas eingesammelt. */
       renderer.dispose();
     };
   }, [autoRotateDefault]);
 
   // Load Product Geometry from Library
   const buildCurrentModel = useCallback(
-    (product: any, size: number, sectionActive: boolean) => {
+    (product: any, size: number, sectionActive: boolean, variant: string | null = null) => {
       const scene = sceneRef.current;
       const camera = cameraRef.current;
       const controls = controlsRef.current;
@@ -253,7 +333,7 @@ export default function Native3DCanvas({
 
       try {
         const clip = sectionActive ? clipPlaneRef.current : null;
-        const assembly = product.build(size, null, clip);
+        const assembly = product.build(size, variant, clip);
         currentAssemblyRef.current = assembly;
 
         // Apply Halbschnitt clipping plane and make cut caps visible if section is active
@@ -330,6 +410,13 @@ export default function Native3DCanvas({
         const sizes = product.sizes || [20, 25, 32, 40, 50, 63];
         setAvailableSizes(sizes);
 
+        /* Der Wähler erscheint nur, wenn das Produkt Varianten deklariert —
+           genau das Verhalten, das der Produktvertrag für `states` beschreibt
+           („Fehlt states, verschwindet der Auf/Zu-Knopf von selbst"). */
+        const varianten: string[] = Array.isArray(product.variants) ? product.variants : [];
+        setAvailableVariants(varianten);
+        setSelectedVariant(varianten[0] ?? null);
+
         const initialD = sizes.includes(selectedSize) ? selectedSize : product.defaultSize || sizes[0];
         setSelectedSize(initialD);
 
@@ -364,7 +451,15 @@ export default function Native3DCanvas({
     setSelectedSize(d);
     if (onSizeChange) onSizeChange(d);
     if (activeProductModuleRef.current) {
-      buildCurrentModel(activeProductModuleRef.current, d, isSection);
+      buildCurrentModel(activeProductModuleRef.current, d, isSection, selectedVariant);
+    }
+  };
+
+  // Handle Colour Variant Switch
+  const handleSelectVariant = (v: string) => {
+    setSelectedVariant(v);
+    if (activeProductModuleRef.current) {
+      buildCurrentModel(activeProductModuleRef.current, selectedSize, isSection, v);
     }
   };
 
@@ -475,7 +570,7 @@ export default function Native3DCanvas({
     let holder: THREE.Group | null = null;
     try {
       // Neutral neu bauen: kein Schnitt, keine Explosion.
-      const assembly = product.build(selectedSize, null, null);
+      const assembly = product.build(selectedSize, selectedVariant, null);
       holder = new THREE.Group();
       holder.name = `k_aqua_${product.id}_d${selectedSize}`;
 
@@ -618,9 +713,19 @@ export default function Native3DCanvas({
         </div>
       </div>
 
-      {/* Top Right Floating Toolbar */}
+      {/* Werkzeugleiste: auf Mobil als scrollbare Zeile ÜBER der
+          Größenleiste — sieben Buttons in einer nicht umbrechenden
+          Reihe oben rechts kollidierten dort mit dem Titel-Badge und
+          sahen zerquetscht aus. Desktop bleibt oben rechts. */}
       {showControls && !loading && (
-        <div className="absolute top-2.5 end-2.5 sm:top-4 sm:end-4 z-10 flex items-center gap-1 sm:gap-2">
+        <div
+          className={clsx(
+            'absolute z-10 flex items-center gap-1.5 sm:gap-2',
+            'start-2 end-2 overflow-x-auto scrollbar-none py-1 px-0.5',
+            showSizeSelector && availableSizes.length > 1 ? 'bottom-[3.55rem]' : 'bottom-2',
+            'sm:top-4 sm:end-4 sm:bottom-auto sm:start-auto sm:overflow-visible sm:justify-end sm:py-0 sm:px-0'
+          )}
+        >
           {/* Section Cut Toggle */}
           <button
             type="button"
@@ -628,7 +733,7 @@ export default function Native3DCanvas({
             title={isSection ? t('sectionOff') : t('sectionOn')}
             aria-label={t('section')}
             className={clsx(
-              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
+              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
               isSection
                 ? 'bg-primary text-primary-foreground border-primary shadow-diffuse'
                 : 'bg-background/85 hover:bg-card border-card-border text-foreground'
@@ -645,7 +750,7 @@ export default function Native3DCanvas({
             title={t('dimensions')}
             aria-label={t('dimensions')}
             className={clsx(
-              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
+              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
               showDimensions
                 ? 'bg-primary text-primary-foreground border-primary shadow-diffuse'
                 : 'bg-background/85 hover:bg-card border-card-border text-foreground'
@@ -662,7 +767,7 @@ export default function Native3DCanvas({
             title={isAutoRotate ? t('rotateStop') : t('rotateStart')}
             aria-label={t('rotate')}
             className={clsx(
-              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
+              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
               isAutoRotate
                 ? 'bg-primary/20 text-primary border-primary shadow-sm'
                 : 'bg-background/85 hover:bg-card border-card-border text-foreground'
@@ -678,7 +783,7 @@ export default function Native3DCanvas({
             title={t('wireframeToggle')}
             aria-label={t('wireframe')}
             className={clsx(
-              'p-1.5 sm:p-2.5 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md hidden sm:flex items-center gap-1.5',
+              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
               isWireframe
                 ? 'bg-card text-primary border-primary'
                 : 'bg-background/85 hover:bg-card border-card-border text-foreground'
@@ -693,34 +798,42 @@ export default function Native3DCanvas({
             onClick={handleResetCamera}
             title={t('center')}
             aria-label={t('center')}
-            className="p-1.5 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
+            className="p-2 sm:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
           >
             <RotateCcw className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>
 
-          {/* CAD Export Dropdown */}
-          <div className="relative group">
+          {/* CAD Export Dropdown — Klick statt group-hover: Hover
+              existiert auf Touch-Geräten nicht, und der Katalog wird im
+              Vertrieb vom Tablet gezeigt. */}
+          <div className="relative">
             <button
               type="button"
+              onClick={() => setExportOpen((v) => !v)}
+              aria-expanded={exportOpen}
               title={t('exportCad')}
               aria-label={t('exportCad')}
-              className="p-1.5 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs font-bold shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 transition-all"
+              className="p-2 sm:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs font-bold shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 transition-all"
             >
               <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary" />
               <span className="hidden lg:inline text-[11px]">CAD</span>
               <ChevronDown className="w-3 h-3 opacity-60" />
             </button>
-            <div className="absolute end-0 top-full mt-1.5 w-36 bg-card border border-card-border rounded-xl shadow-xl p-1.5 hidden group-hover:flex flex-col gap-1 z-30">
+            <div className={clsx(
+              'absolute end-0 w-36 bg-card border border-card-border rounded-xl shadow-xl p-1.5 flex-col gap-1 z-30',
+              'bottom-full mb-1.5 sm:bottom-auto sm:mb-0 sm:top-full sm:mt-1.5',
+              exportOpen ? 'flex' : 'hidden'
+            )}>
               <button
                 type="button"
-                onClick={() => handleExportCAD('glb')}
+                onClick={() => { setExportOpen(false); handleExportCAD('glb'); }}
                 className="w-full text-start px-2.5 py-1.5 rounded-lg hover:bg-primary-soft hover:text-primary text-xs font-semibold text-foreground transition-colors cursor-pointer"
               >
                 GLTF / GLB (.glb)
               </button>
               <button
                 type="button"
-                onClick={() => handleExportCAD('obj')}
+                onClick={() => { setExportOpen(false); handleExportCAD('obj'); }}
                 className="w-full text-start px-2.5 py-1.5 rounded-lg hover:bg-primary-soft hover:text-primary text-xs font-semibold text-foreground transition-colors cursor-pointer"
               >
                 Wavefront (.obj)
@@ -734,7 +847,7 @@ export default function Native3DCanvas({
             onClick={() => setIsFullscreen(!isFullscreen)}
             title={isFullscreen ? t('fullscreenExit') : t('fullscreen')}
             aria-label={t('fullscreen')}
-            className="p-1.5 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
+            className="p-2 sm:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
           >
             {isFullscreen ? (
               <Minimize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
@@ -789,9 +902,41 @@ export default function Native3DCanvas({
             ))}
           </div>
 
-          <div className="hidden sm:flex items-center gap-1.5 text-[10px] font-mono text-muted-foreground shrink-0 ps-2 border-s border-card-border">
-            <span>360° Touch / Maus</span>
-          </div>
+          {/*
+            Farbwähler. Steht im Platz des früheren Bedienhinweises: Die
+            Rohrserien sind neben dem Standardgrün auch in Blau, Curry und
+            Mocca lieferbar (RAL 5005 / 1002 / 7032), und das war bisher
+            ausschließlich als vier Bildkacheln auf der Rohrübersicht zu
+            sehen — im 3D-Modell gar nicht.
+
+            Erscheint nur bei Produkten, die Varianten deklarieren; für
+            Formteile, Ventile und Werkzeuge ändert sich nichts.
+          */}
+          {availableVariants.length > 1 ? (
+            <div className="flex items-center gap-1.5 shrink-0 ps-2 border-s border-card-border">
+              {availableVariants.map((v) => (
+                <button
+                  key={v}
+                  type="button"
+                  onClick={() => handleSelectVariant(v)}
+                  title={VARIANT_LABEL[v]?.name ?? v}
+                  aria-label={VARIANT_LABEL[v]?.name ?? v}
+                  aria-pressed={selectedVariant === v}
+                  className={clsx(
+                    'w-6 h-6 rounded-full border-2 transition-all shrink-0 cursor-pointer',
+                    selectedVariant === v
+                      ? 'border-primary scale-110 shadow-sm'
+                      : 'border-card-border hover:border-muted-foreground'
+                  )}
+                  style={{ background: VARIANT_LABEL[v]?.hex ?? '#888' }}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="hidden sm:flex items-center gap-1.5 text-[10px] font-mono text-muted-foreground shrink-0 ps-2 border-s border-card-border">
+              <span>360° Touch / Maus</span>
+            </div>
+          )}
         </div>
       )}
     </div>

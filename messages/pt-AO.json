@@ -3800,39 +3800,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referências Que Fazem História.",
-        "desc": "De ilhas artificiais no Golfo Pérsico aos resorts de esqui mais exclusivos dos Alpes. Onde quer que se construa o impossível, a K-Aqua está presente."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "O Resort Ultra-Luxuoso The Palm Jumeirah",
-            "text": "Equipamento de 800 suites e 4 gigantescas áreas de piscina. A salinidade extrema e as temperaturas ambientes de até 50°C exigiam máxima resistência térmica e química. A K-Aqua forneceu a rede completa de água quente e fria, incluindo a ligação ao arrefecimento urbano."
-          },
-          {
-            "year": "Suíça",
-            "title": "Retiro Alpino St. Moritz",
-            "text": "Um resort de 6 estrelas a 2.000 metros de altitude. O desafio: Risco extremo de gelo durante a construção e requisitos máximos de isolamento acústico. Os nossos tubos de compósito de fibra em PP-R absorveram sem esforço as alterações térmicas de comprimento e garantiram uma operação silenciosa."
-          },
-          {
-            "year": "Singapura",
-            "title": "Hotel Floresta Vertical",
-            "text": "Uma obra-prima da arquitectura ecológica com 65 andares. O complexo sistema de irrigação para milhares de plantas de varanda, bem como toda a infraestrutura de água potável, foram realizados com K-Aqua. A soldadura homogénea protegeu o edifício de fugas microscópicas."
-          },
-          {
-            "year": "Maldivas",
-            "title": "Island Resort de Emissões Zero",
-            "text": "Construído directamente sobre o recife, exigia-se compatibilidade ambiental absoluta. Os tubos K-Aqua são 100% recicláveis, não libertam microplásticos ou metais pesados e suportam o ar marítimo altamente corrosivo sem qualquer desgaste."
-          },
-          {
-            "year": "Futuro",
-            "title": "O Seu Próximo Megaprojecto",
-            "text": "As fronteiras da arquitectura mudam diariamente. Estamos prontos para lançar as bases para as suas visões mais arrojadas. Com tecnologia décadas à frente do seu tempo."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Pesquisa e Desenvolvimento",
         "title": "A Química <br/> da Indestrutibilidade.",
@@ -4863,48 +4830,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Alemanha",
         "d": "Fábrica-Mãe & I&D: aqui começa a jornada de cada tubo K Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, EAU",
-        "d": "Condutas para arranha-céus: O recurso ao material PPRCT sob brutais tempestades abrasadoras nos abastecimentos aquecidos no cenário inóspito árido das areias vizinhas deste emirato."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varsóvia, Polônia",
-        "d": "Prédios para urbanização domiciliar e novos condomínios habitacionais: Condutas gerais ao caudal puríssimo das distribuições domésticas de dimensões contidas nas fasquias do perfil SDR-d20-ao d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istambul, Turquia",
-        "d": "As condutas de retro-distribuição numa majestosa cadeia complexa de hotelaria turca: escoamento com suporte termo estabilizado pela canalização nos veios de compósito fibroso."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapura",
-        "d": "Arteriais públicas massivas sob infra-estrutura monumental: as grandes passagens a grandes calibres nas extensões tubulares d630 via união topo a topo impenetrável."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cidade do Cabo, África do Sul",
-        "d": "Pavilhões em moderníssimo centro hospitalar novo na via da medicina de precisão, escoando impoluta hidratação imaculada."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Londres, RU",
-        "d": "Restruturação arquitectónica integral na renovação no âmago dos escritórios no frenesim metropolitano citadino: extirpadas raízes arcaicas, cede as posições aos colossais blocos de não degradação anticorrosiva."
       }
     ],
     "viewProject": "View project"
@@ -5623,8 +5548,7 @@
         "d": "A higiene não é negociável aqui: a superfície interna lisa (0,007 mm) inibe o biofilme e a incrustação; o material permanece sem sabor e sem odor.",
         "pts": [
           "Neutralidade Higiénica",
-          "Isento de corrosão, sem picadas",
-          "Referência: Novo Edifício Hospitalar na Cidade do Cabo"
+          "Isento de corrosão, sem picadas"
         ]
       },
       {
@@ -5632,8 +5556,7 @@
         "d": "Circulação de água quente 24/7: a baixa condutividade térmica poupa energia permanentemente, o PPRCT suporta funcionamento contínuo a 70 °C.",
         "pts": [
           "Eficiência Térmica",
-          "PPRCT para circulação",
-          "Referência: Complexo Hoteleiro em Istambul"
+          "PPRCT para circulação"
         ]
       },
       {
@@ -5650,8 +5573,7 @@
         "d": "Versões estabilizadas aos raios UV para irrigação em estufas e no exterior, leves, de instalação rápida, menos sensíveis ao gelo do que os sistemas rígidos.",
         "pts": [
           "Execução resistente aos raios UV",
-          "Baixo peso",
-          "Área de aplicação do programa de referências"
+          "Baixo peso"
         ]
       },
       {
@@ -5659,8 +5581,7 @@
         "d": "Linhas de abastecimento e redes de grandes dimensões até d630, soldadas topo a topo em linhas homogéneas e permanentemente estanques.",
         "pts": [
           "d até 630 mm",
-          "Soldadura Topo a Topo (Butt Fusion)",
-          "Referência: Infraestrutura em Singapura"
+          "Soldadura Topo a Topo (Butt Fusion)"
         ]
       },
       {
@@ -6952,53 +6873,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Qualidade que conecta",
-    "title": "O que os nossos clientes e parceiros dizem",
-    "lead": "Desde construtores a transitários, passando por funcionários de longa data: A K Aqua KWT GmbH é sinónimo da mais alta precisão de Waldsolms. Leia por si mesmo as experiências que as pessoas têm todos os dias com o nosso serviço e os nossos produtos 'Made in Germany'.",
-    "trustBadge": "Avaliações no Google",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(Baseado em 44 avaliações)",
-    "tabA": "Qualidade e 'Made in Germany'",
-    "tabB": "Logística e Entrega",
-    "tabC": "Apoio ao Cliente e Equipa",
-    "reviews": {
-      "a1": "“Uma fábrica em Waldsolms, Alemanha, especializada em tubos e acessórios PPR **Made in Germany**. Pessoal excelente.”",
-      "a1Author": "Giulio C.",
-      "a2": "“**Qualidade alemã** em revestimentos e acessórios PPR, pessoal muito simpático.”",
-      "a2Author": "Veronica P.",
-      "a3": "“**Empresa moderna**. Produz tubos de plástico de todos os tamanhos e acessórios.”",
-      "a3Author": "Ewald S.",
-      "a4": "“Tubos e acessórios PPR de **fabrico alemão**, excelentes funcionários e produtos.”",
-      "a4Author": "Kais S.",
-      "a5": "“**Produtos de alta qualidade** e uma excelente fábrica alemã.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "“Produtos muito bons, **qualidade fiável** e entrega pontual.”",
-      "a6Author": "Klaus T.",
-      "b1": "“Interacção muito agradável, **descarregamento rápido**. Foi-me permitido fazer a minha grande pausa aqui. Ofereceram-me também chuveiro e WC. Aqui sente-se **valorizado** como motorista de pesados. Terei muito gosto em voltar.”",
-      "b1Author": "Michael S.",
-      "b2": "“As coordenadas actuais da entrada são **50.428210, 8.499154**. A cerca de 100 metros há um parque de estacionamento. Pessoal simpático.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "“**Descarregamento rápido**, pessoal simpático e prestável.”",
-      "b3Author": "Bogdan M.",
-      "c1": "“**Serviço muito bom**, óptimo que a produção ainda seja feita na Alemanha.”",
-      "c1Author": "Daniel",
-      "c2": "“Pessoal **muito simpático** e prestável. Os emails são **respondidos prontamente**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "“Desde o presidente aos trabalhadores simples, são **boas pessoas**.”",
-      "c3Author": "Azim",
-      "c4": "“**Óptima empresa**, faz muito pelos seus funcionários.”",
-      "c4Author": "Monika v. B.",
-      "c5": "“Os funcionários são **muito simpáticos e prestáveis**.”",
-      "c5Author": "Piera V.",
-      "c6": "“Equipa competente e **excelente atendimento ao cliente** a todos os níveis.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Convença-se do nosso serviço.",
-    "ctaText": "Tem questões sobre os nossos sistemas de tubos PPR ou gostaria de discutir um projecto connosco? A nossa equipa de Waldsolms está cá para si.",
-    "ctaBtn": "Contacte-nos agora",
-    "disclaimer": "Nota sobre a verificação de avaliações: As avaliações aqui apresentadas provêm do nosso perfil de empresa no Google. O Google afirma: As avaliações não são verificadas. Abreviámos os nomes dos autores por razões de protecção de dados (RGPD)."
   },
   "wissen": {
     "meta": {

@@ -11,7 +11,8 @@ import { constructMetadata } from "@/lib/seo/metadata";
 import {
   wrapGraph,
   getWebPageGraphNode,
-  getLocalMarketGraphNode,
+  getMarketServiceGraphNode,
+  getPlaceChainGraphNodes,
   getFaqGraphNode,
   getBreadcrumbGraphNode,
 } from "@/lib/seo/schema";
@@ -206,6 +207,10 @@ export default async function GeoCityPage({ params }: Props) {
     });
   }
 
+  /* Der Graph dieser Seite ist eine Stufe der Ortspyramide:
+     Stadt → Land → Region → Welt → #organization. Die Ortsknoten tragen
+     domainweit stabile @ids, damit Länderseite und Marktübersicht auf
+     denselben Stadtknoten zeigen statt auf eine gleichnamige Kopie. */
   const jsonLd = wrapGraph([
     getWebPageGraphNode({
       locale,
@@ -214,9 +219,18 @@ export default async function GeoCityPage({ params }: Props) {
       name: baseTitle,
       description: `${cityName}: ${localizedData.water} ${localizedData.regulator}.`,
       breadcrumbId: `${cityPageUrl}#breadcrumb`,
-      mainEntityId: `${cityPageUrl}#local-business`,
+      mainEntityId: `${cityPageUrl}#service`,
     }),
-    getLocalMarketGraphNode({
+    ...getPlaceChainGraphNodes({
+      region: market.region,
+      hubSlug: market.hubSlug,
+      country: hubName,
+      citySlug: market.slug,
+      city: cityName,
+      lat: market.lat,
+      lon: market.lon,
+    }),
+    getMarketServiceGraphNode({
       locale,
       hubSlug: market.hubSlug,
       citySlug: market.slug,

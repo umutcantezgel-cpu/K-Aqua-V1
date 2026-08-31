@@ -740,39 +740,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Tarixga kiritilgan ma'lumotnomalar.",
-        "desc": "Fors ko'rfazidagi sun'iy orollardan Alp tog'larining eng eksklyuziv chang'i kurortlarigacha. Imkonsiz narsalar quriladigan joyda, K Aqua allaqachon u yerda."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubay",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "800 ta xona va 4 ta ulkan basseyn landshaftini jihozlash. Ekstremal sho'rlanish va 50°C gacha bo'lgan atrof-muhit harorati maksimal termal va kimyoviy qarshilikni talab qildi. K Aqua markazlashtirilgan sovutish aloqasini o'z ichiga olgan to'liq sovuq va issiq suv tarmog'ini yetkazib berdi."
-          },
-          {
-            "year": "Shveysariya",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "2000 metr balandlikdagi 6 yulduzli kurort. Qiyinchilik: Qurilish bosqichida haddan tashqari sovuq xavfi va ovoz izolatsiyasiga maksimal talablar. Bizning PP-R tolali kompozit quvurlarimiz issiqlik uzunligi o'zgarishini ishonch bilan yutdi va shovqinsiz ishlashni kafolatladi."
-          },
-          {
-            "year": "Singapur",
-            "title": "Vertical Forest Hotel",
-            "text": "65 qavatli ekologik arxitektura asari. Minglab balkon o'simliklarini sug'orishning murakkab tizimi hamda barcha ichimlik suvi infratuzilmasi K Aqua yordamida amalga oshirildi. Bir jinsli payvandlash texnologiyasi binoni mikroskopik oqishlardan saqlab qoldi."
-          },
-          {
-            "year": "Maldiv orollari",
-            "title": "Zero-Emission Island Resort",
-            "text": "To'g'ridan-to'g'ri rif ustida qurilgan ushbu kurortda mutlaq ekologik moslik talab qilingan. K Aqua quvurlari 100% qayta ishlanishi mumkin, hech qanday mikroplastik yoki og'ir metallarni chiqarmaydi va korroziyali sho'r dengiz havosiga hech qanday eskirishsiz bardosh beradi."
-          },
-          {
-            "year": "Kelajak",
-            "title": "Sizning keyingi mega loyihangiz",
-            "text": "Arxitektura chegaralari har kuni siljib bormoqda. Biz sizning eng dadil g'oyalaringiz uchun poydevor qo'yishga tayyormiz. O'z davridan o'nlab yillar oldinda bo'lgan texnologiya bilan."
-          }
-        ]
-      },
       "bentoSection": {
         "eyebrow": "Mukammallik anatomiyasi",
         "title": "Sanoat standartlarini buzadigan xususiyatlar.",
@@ -4131,8 +4098,7 @@
         "d": "Gigiyena bu yerda muzokara qilinmaydi: Silliq ichki yuza (0,007 mm) biofilm va inkrustatsiyani inhibe qiladi, material ta'msiz va hidsiz bo'lib qoladi.",
         "pts": [
           "Gigiyenik neytrallik",
-          "Korroziyasiz: chuqurchalar yo'q",
-          "Malumot: Keyptaun kasalxonasi qurilishi"
+          "Korroziyasiz: chuqurchalar yo'q"
         ]
       },
       {
@@ -4140,8 +4106,7 @@
         "d": "Kechayu kunduz issiq suv aylanishi: past issiqlik o'tkazuvchanligi doimiy ravishda energiyani tejaydi, PPRCT 70°C uzluksiz ishlashiga bardosh beradi.",
         "pts": [
           "Termal samaradorlik",
-          "Sirkulyatsiya uchun PPRCT",
-          "Malumot: Istanbul mehmonxona majmuasi"
+          "Sirkulyatsiya uchun PPRCT"
         ]
       },
       {
@@ -4158,8 +4123,7 @@
         "d": "Shisha ostida va ochiq havoda sug'orish uchun UV nurlaridan himoyalangan versiyalar: engil, tez o'rnatiladi, qattiq tizimlarga qaraganda sovuqqa chidamli.",
         "pts": [
           "UV nurlariga chidamli versiya",
-          "Yengil vazn",
-          "Referans dasturidan qo'llanish sohasi"
+          "Yengil vazn"
         ]
       },
       {
@@ -4167,8 +4131,7 @@
         "d": "d630 gacha bo'lgan katta o'lchamdagi ta'minot quvurlari va tarmoqlari: bir xil, doimiy germetik tarmoqlarga payvandlangan.",
         "pts": [
           "d 630 mm gacha",
-          "Mufali payvandlash (Butt Fusion)",
-          "Malumot: Singapur infratuzilmasi"
+          "Mufali payvandlash (Butt Fusion)"
         ]
       },
       {
@@ -5010,48 +4973,6 @@
         "lon": 8.5,
         "title": "Valdsolms, Germaniya",
         "d": "Asosiy zavod va rivojlantirish: bu yerda har bir K Aqua quvuri ishlab chiqariladi."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubay, BAA",
-        "d": "Osmono'par binolar ko'targichlari: cho'l sharoitida issiq suv uchun PPRCT."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varshava, Polsha",
-        "d": "Yangi turar-joy hududi: d20-d110 to'liq ichimlik suvi o'rnatilishi."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turkiya",
-        "d": "Mehmonxona majmuasi: tolali kompozit quvurlar bilan sirkulyatsiya tarmoqlari."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur",
-        "d": "Infratuzilma loyihasi: d630 gacha bo'lgan katta o'lchamlar tugma payvandlash orqali."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Keyptaun, Janubiy Afrika",
-        "d": "Yangi shifoxona binosi: ichimlik suvini gigienik taqsimlash."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, Buyuk Britaniya",
-        "d": "Ofisni ta'mirlash: mavjud quvurlarni korroziyasiz muqobilga almashtirish."
       }
     ],
     "viewProject": "View project"
@@ -7684,53 +7605,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Sifat birlashtiradi",
-    "title": "Mijozlarimiz va hamkorlarimiz nima deyishadi",
-    "lead": "Qurilish kompaniyalaridan tortib logistika bo'yicha hamkorlarga va uzoq yillik xodimlarga qadar: K Aqua KWT GmbH Waldsolmsdan eng yuqori aniqlikni anglatadi. \"Germaniyada ishlab chiqarilgan\" mahsulotlarimiz va xizmatimiz bilan odamlar har kuni qanday tajribaga ega ekanligini o'zingiz o'qing.",
-    "trustBadge": "Google Sharhlari",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(44 ta sharh asosida)",
-    "tabA": "Sifat & „Made in Germany“",
-    "tabB": "Logistika & Yetkazib berish",
-    "tabC": "Mijozlarga xizmat & Jamoa",
-    "reviews": {
-      "a1": "„Germaniyaning Waldsolms shahridagi **Germaniyada ishlab chiqarilgan** PPR quvurlari va fittinglariga ixtisoslashgan zavod. Ajoyib xodimlar.“",
-      "a1Author": "Giulio C.",
-      "a2": "„PPR qoplamalari va fittinglarida **Nemis sifati**, juda samimiy xodimlar.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Zamonaviy kompaniya**. Barcha o'lchamdagi plastik quvurlar va aksessuarlarni ishlab chiqaradi.“",
-      "a3Author": "Ewald S.",
-      "a4": "„**Nemis ishlab chiqarishiga mansub** PPR quvurlari va fittinglari, ajoyib xodimlar va mahsulotlar.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Yuqori sifatli mahsulotlar** va ajoyib nemis zavodi.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Juda yaxshi mahsulotlar, **ishonchli sifat** va o'z vaqtida yetkazib berish.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Juda xushmuomala munosabat, **tez tushirish (tovarni)**. Bu yerda katta tanaffusimni o'tkazishimga ruxsat berishdi. Menga dush va hojatxona ham taklif qilishdi. Bu yerda yuk mashinasi haydovchisi sifatida **o'zingizni qadrlanganingizni** his qilasiz. Men bu yerga yana bajonidil kelaman.“",
-      "b1Author": "Michael S.",
-      "b2": "„Kirishning joriy koordinatalari: **50.428210, 8.499154**. Taxminan 100 metr uzoqlikda avtoturargoh bor. Do'stona xodimlar.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Tez tushirish**, do'stona va yordamga tayyor xodimlar.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Juda yaxshi xizmat**, ularning hali ham Germaniyada ishlab chiqarilayotgani ajoyib.“",
-      "c1Author": "Daniel",
-      "c2": "„**Juda samimiy** va yordamga tayyor xodimlar. E-pochta xabarlariga **zudlik bilan javob beriladi**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Raxbariyatdan tortib oddiy ishchilargacha: ular **yaxshi odamlar**.“",
-      "c3Author": "Azim",
-      "c4": "„**Ajoyib kompaniya**, o'z odamlari uchun ko'p ishlar qiladi.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Xodimlar **juda samimiy va yordamga tayyor**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Barcha darajalarda malakali jamoa va **ajoyib mijozlarni qo'llab-quvvatlash**.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Bizning xizmatimizga o'zingiz ishonch hosil qiling.",
-    "ctaText": "PPR quvurlari tizimlarimiz bo'yicha savollaringiz bormi yoki biz bilan loyihani muhokama qilmoqchimisiz? Waldsolmsdagi jamoamiz siz uchun shu yerda.",
-    "ctaBtn": "Hozir bog'lanish",
-    "disclaimer": "Sharhlarni tekshirish haqida eslatma: Bu yerda ko'rsatilgan sharhlar bizning Google biznes profilimizdan olingan. Google shunday deydi: Sharhlar tekshirilmaydi. Ma'lumotlarni himoya qilish sabablariga (DSGVO) ko'ra mualliflar ismini qisqartirdik."
   },
   "seoArticle": {
     "eyebrow": "Sanoat bilimi",

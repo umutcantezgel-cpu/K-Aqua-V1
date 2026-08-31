@@ -384,9 +384,16 @@ export default async function ProduktePage({ params }: Props) {
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 pb-8 md:pb-0">
             {range.map((r, i) => {
+              // Kein <Card> mehr um die Spec-Karte: `.ka-speccard` bringt
+              // Rahmen, Radius, Schatten, Innenabstand und Hover-Anhebung
+              // bereits selbst mit — Card tat exakt dasselbe noch einmal.
+              // Auf schmalen Viewports summierten sich dadurch 28 px + 24 px
+              // Innenabstand je Seite, und neben dem 84 px breiten Ring blieben
+              // bei 360 px Breite noch rund 84 px für den Text übrig. Weil
+              // html und body auf `overflow-x: clip` stehen, wurde der Überlauf
+              // nicht scrollbar, sondern abgeschnitten.
               return (
-                <Card key={i} className="flex flex-col p-8 w-full hover:shadow-diffuse transition-shadow">
-                  <div className="ka-speccard h-full w-full">
+                <div key={i} className="ka-speccard h-full w-full">
                     <svg className="ka-speccard-ring" width="84" height="84" viewBox="0 0 84 84" aria-hidden="true">
                       <circle cx="42" cy="42" r="38" fill="none" stroke="var(--primary, #5B2D8C)" strokeWidth="7"></circle>
                       <circle cx="42" cy="42" r="28" fill="none" stroke="var(--accent, #3AA6C0)" strokeWidth="4"></circle>
@@ -400,8 +407,7 @@ export default async function ProduktePage({ params }: Props) {
                         <span>{"SDR 7,4"}</span><span>{"PN 20"}</span><span>{"d20–d630"}</span>
                       </div>
                     </div>
-                  </div>
-                </Card>
+                </div>
               );
             })}
           </div>

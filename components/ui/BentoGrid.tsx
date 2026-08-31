@@ -1,8 +1,9 @@
 'use client';
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 import { cn } from '@/lib/utils/cn';
+import { useRevealSafety } from '@/components/ui/Reveal';
 
 export const BentoGrid = ({
   className,
@@ -23,15 +24,7 @@ export const BentoGrid = ({
   );
 };
 
-export const BentoGridItem = ({
-  className,
-  title,
-  description,
-  header,
-  icon,
-  colSpan = 1,
-  rowSpan = 1,
-}: {
+export const BentoGridItem = (props: {
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
@@ -40,10 +33,16 @@ export const BentoGridItem = ({
   colSpan?: number;
   rowSpan?: number;
 }) => {
+  const { className, title, description, header, icon } = props;
+  const forceVisible = useRevealSafety();
+  // Bei reduzierter Bewegung steht der Inhalt sofort — ohne Startwert
+  // `opacity: 0` und ohne Beobachter, der ihn wieder hochholen muesste.
+  const reduced = useReducedMotion();
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={reduced ? false : { opacity: 0, y: 30 }}
+      animate={forceVisible ? { opacity: 1, y: 0 } : undefined}
+      whileInView={reduced ? undefined : { opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={cn(

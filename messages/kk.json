@@ -11,34 +11,34 @@
   "toggle_theme_light": "Жарық дизайнға ауысу",
   "toggle_theme_dark": "Қараңғы дизайнға ауысу",
   "nav": {
-    "home": "Start",
-    "products": "Produkte",
-    "finder": "Produktfinder",
-    "co2": "CO₂-Rechner",
-    "markets": "Märkte",
+    "home": "Басты бет",
+    "products": "Өнімдер",
+    "finder": "Өнім іздеуші",
+    "co2": "CO₂ калькуляторы",
+    "markets": "Нарықтар",
     "trust": "Trust Center",
-    "contact": "Kontakt",
-    "quote": "Angebot anfragen",
-    "menu": "Menü",
-    "lang": "Sprache",
-    "skipToContent": "Zum Inhalt springen",
-    "menuPlaceholder": "Platzhalter (Mega-Menü)",
-    "academy": "Academy",
-    "service": "Service",
-    "about": "Unternehmen",
-    "solutions": "Lösungen",
-    "partners": "Partnerschaft",
-    "references": "Referenzen",
-    "career": "Karriere",
-    "news": "News",
-    "knowledge_trust": "Wissen & Vertrauen",
-    "mapAria": "Kartennavigation öffnen",
-    "sitemapAria": "Seitenübersicht",
-    "pipes": "Rohre",
-    "fittings": "Fittings",
-    "valves": "Ventile",
-    "accessories": "Zubehör",
-    "tools": "Werkzeuge",
+    "contact": "Байланыс",
+    "quote": "Ұсыныс сұрату",
+    "menu": "Мәзір",
+    "lang": "Тіл",
+    "skipToContent": "Мазмұнға өту",
+    "menuPlaceholder": "Толтырғыш (мега-мәзір)",
+    "academy": "Академия",
+    "service": "Сервис",
+    "about": "Компания",
+    "solutions": "Шешімдер",
+    "partners": "Серіктестік",
+    "references": "Референциялар",
+    "career": "Мансап",
+    "news": "Жаңалықтар",
+    "knowledge_trust": "Білім және сенім",
+    "mapAria": "Карта навигациясын ашу",
+    "sitemapAria": "Сайт картасы",
+    "pipes": "Құбырлар",
+    "fittings": "Фитингтер",
+    "valves": "Вентильдер",
+    "accessories": "Керек-жарақтар",
+    "tools": "Құралдар",
     "edgeArticles": "Элементтер",
     "edgeLiveFilter": "Жылдам іздеу / Тікелей сүзгі",
     "edgeComparisons": "Қолданбалар",
@@ -46,30 +46,30 @@
     "edgePageIndex": "Ресурс орталығы",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Құбыр жүйелері",
+      "allProducts": "Барлық өнімдер",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Салаға арналған арнайы қолданбалар",
+      "digitalTools": "Цифрлық құралдар",
+      "finderDesc": "Дұрыс жүйені конфигурациялау",
+      "co2Desc": "Экологиялық балансты есептеу",
+      "academyDesc": "Оқыту курстары мен сертификаттар",
+      "trustDesc": "Жүктеп алулар мен сертификаттаулар",
+      "serviceDesc": "Жобалауды қолдау",
+      "partnersDesc": "Жергілікті серіктес болыңыз",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Компания туралы",
+      "companyDesc": "Миссия, көзқарас және тарих",
+      "careerDesc": "Ашық бос орындар мен мәдениет",
+      "newsPress": "Жаңалықтар және баспасөз",
+      "newsDesc": "Соңғы баспасөз хабарламалары",
+      "sitemap": "Сайт картасы",
+      "sitemapDesc": "Құрылымдық шолу",
+      "globalFootprint": "Жаһандық қатысу",
+      "globalMarkets": "Жаһандық нарықтар",
+      "marketsDesc": "Сертификатталған аймақтар",
+      "refProjects": "Референциялық жобалар",
+      "refDesc": "Сәтті орнатулар"
     }
   },
   "groups": {
@@ -125,18 +125,18 @@
       }
     },
     "rfq": {
-      "title": "Projektanfrage",
-      "desc": "Fordern Sie direkt ein Angebot für <span class=\"font-semibold\">{title}</span> an.",
-      "button": "Zur Anfrage"
+      "title": "Жоба бойынша сұраныс",
+      "desc": "<span class=\"font-semibold\">{title}</span> үшін тікелей ұсыныс сұратыңыз.",
+      "button": "Сұранысқа өту"
     },
     "similar": {
-      "title": "Weitere aus {category}"
+      "title": "{category} санатынан тағы"
     },
     "items": {
       "k-pipe-pp-r-sdr-6": {
-        "seo_p1": "Das K Pipe PPR SDR 6 ist ein hochleistungsfähiges Rohr aus unserer umfassenden Rohrsystemkategorie. Es wurde entwickelt, um anspruchsvolle Flüssigkeitstransporte sicher und effizient zu bewältigen.",
-        "seo_p2": "Dieses Rohr besteht aus langlebigem PPR Material und ist mit der Einstufung SDR 6 (Baureihe S 2.5) für einen hohen Betriebsdruck von bis zu 2.0 MPa bei 20°C ausgelegt. Die Standardlänge von 4 Metern ermöglicht eine schnelle Installation.",
-        "seo_p3": "Dank der hervorragenden chemischen und thermischen Beständigkeit eignet sich das SDR 6 Rohr ideal für industrielle Anwendungen und die Trinkwasserversorgung. Die glatte Innenfläche minimiert Druckverluste und verhindert Ablagerungen.",
+        "seo_p1": "K Pipe PPR SDR 6 — біздің кең ауқымды құбыр жүйелері санатындағы жоғары өнімді құбыр. Ол күрделі сұйықтық тасымалдау міндеттерін қауіпсіз әрі тиімді шешу үшін әзірленген.",
+        "seo_p2": "Бұл құбыр берік PPR материалынан жасалған және SDR 6 (S 2.5 сериясы) жіктелімімен 20°C кезінде 2.0 MPa дейінгі жоғары жұмыс қысымына есептелген. 4 метрлік стандартты ұзындық жылдам монтаждауға мүмкіндік береді.",
+        "seo_p3": "Тамаша химиялық және термиялық төзімділігінің арқасында SDR 6 құбыры өнеркәсіптік қолданбалар мен ауызсу сумен қамту үшін өте қолайлы. Тегіс ішкі беті қысым жоғалуын азайтып, шөгінділердің пайда болуына жол бермейді.",
         "faq": [
           {
             "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
@@ -153,9 +153,9 @@
         ]
       },
       "k-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das K Pipe PPRCT SDR 7.4 repräsentiert die nächste Generation der Kunststoffrohrsysteme. Es vereint verbesserte Materialeigenschaften mit einer optimierten Wandstärke für maximale Durchflussmengen.",
-        "seo_p2": "Gefertigt aus hochkristallinem PPRCT, bietet dieses Rohr bei SDR 7.4 (S 3.2) einen beeindruckenden Nenndruck von 2.0 MPa bei 20°C. Die reduzierte Wandstärke spart Gewicht, ohne Kompromisse bei der Stabilität einzugehen.",
-        "seo_p3": "Typische Einsatzgebiete umfassen komplexe Heizungs-, Klima- und Sanitäranlagen. Durch das PPRCT Material profitieren Installateure von einer höheren Langzeitfestigkeit auch bei höheren Temperaturen.",
+        "seo_p1": "K Pipe PPRCT SDR 7.4 — пластик құбыр жүйелерінің келесі буыны. Ол жақсартылған материал қасиеттерін максималды өткізу қабілеті үшін оңтайландырылған қабырға қалыңдығымен біріктіреді.",
+        "seo_p2": "Жоғары кристалды PPRCT материалынан жасалған бұл құбыр SDR 7.4 (S 3.2) кезінде 20°C температурада 2.0 MPa әсерлі номиналды қысымды қамтамасыз етеді. Азайтылған қабырға қалыңдығы тұрақтылыққа нұқсан келтірмей салмақты үнемдейді.",
+        "seo_p3": "Әдеттегі қолдану салаларына күрделі жылыту, кондиционерлеу және сантехникалық жүйелер кіреді. PPRCT материалының арқасында монтаждаушылар жоғары температурада да ұзақ мерзімді беріктіктің артықшылығын пайдаланады.",
         "faq": [
           {
             "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
@@ -172,9 +172,9 @@
         ]
       },
       "k-pipe-pp-r-sdr-11": {
-        "seo_p1": "Das K-Pipe PP-R SDR 11 ist die Standardlösung für eine Vielzahl von Sanitär- und Heizungsanwendungen. Es zeichnet sich durch seine Zuverlässigkeit und einfache Handhabung aus.",
-        "seo_p2": "Mit einer SDR 11 Klassifizierung (Baureihe S 5) ist dieses PP-R Rohr für einen Betriebsdruck von 1.2 MPa bei 20°C zertifiziert. Die 4-Meter-Stangen lassen sich flexibel und passgenau verschweißen.",
-        "seo_p3": "Es wird häufig in Kaltwasserverteilungen und als vielseitige Leitung in der Haustechnik eingesetzt. Die homogene Schweißverbindung garantiert eine lebenslange Dichtigkeit ohne mechanische Schwachstellen.",
+        "seo_p1": "K-Pipe PP-R SDR 11 — сантехникалық және жылыту қолданбаларының кең спектрі үшін стандартты шешім. Ол сенімділігімен және пайдалану қарапайымдылығымен ерекшеленеді.",
+        "seo_p2": "SDR 11 жіктелімімен (S 5 сериясы) бұл PP-R құбыры 20°C кезінде 1.2 MPa жұмыс қысымына сертификатталған. 4 метрлік құбырларды икемді әрі дәл дәнекерлеуге болады.",
+        "seo_p3": "Ол суық су тарату жүйелерінде және ғимарат инженериясында әмбебап құбыр ретінде жиі қолданылады. Біртекті дәнекерленген қосылыс механикалық осал жерлерсіз өмір бойы герметикалылықты кепілдейді.",
         "faq": [
           {
             "q": "Ist das Rohr für Kalt- und Warmwasser geeignet?",
@@ -191,9 +191,9 @@
         ]
       },
       "k-pipe-purple-pp-r-sdr-11": {
-        "seo_p1": "Das violett eingefärbte K-Pipe Purple PP-R SDR 11 dient der eindeutigen Kennzeichnung spezifischer Leitungssysteme. Es verhindert Verwechslungen bei der Installation von getrennten Wasserkreisläufen.",
-        "seo_p2": "Die violette Signalfarbe kennzeichnet in der Regel Betriebswasser, Regenwasser oder Bewässerungsanlagen. Technisch entspricht es dem Standard-PP-R mit SDR 11 (1.2 MPa bei 20°C) und bietet dieselbe hohe Qualität.",
-        "seo_p3": "Durch den Einsatz dieses speziellen Rohrs wird die Anlagensicherheit erhöht und die normgerechte Trennung von Trink- und Brauchwasser visuell sichergestellt. Perfekt für nachhaltige Wassermanagement-Systeme.",
+        "seo_p1": "Күлгін түсті K-Pipe Purple PP-R SDR 11 нақты құбыр жүйелерін бір мағыналы белгілеуге арналған. Ол бөлек су контурларын орнату кезінде шатастыруды болдырмайды.",
+        "seo_p2": "Күлгін сигналдық түс әдетте техникалық суды, жаңбыр суын немесе суару жүйелерін белгілейді. Техникалық жағынан ол SDR 11 стандартты PP-R құбырына сәйкес келеді (20°C кезінде 1.2 MPa) және дәл сондай жоғары сапаны ұсынады.",
+        "seo_p3": "Бұл арнайы құбырды қолдану жүйе қауіпсіздігін арттырып, ауызсу мен техникалық судың нормаға сай бөлінуін көзбен қамтамасыз етеді. Тұрақты су менеджменті жүйелері үшін тамаша таңдау.",
         "faq": [
           {
             "q": "Wofür steht die violette Farbe?",
@@ -210,9 +210,9 @@
         ]
       },
       "k-fiber-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das K-Fiber Pipe PPRCT SDR 7.4 ist ein hochmodernes, faserverstärktes Verbundrohr. Die integrierte Faserschicht reduziert die Längenausdehnung erheblich.",
-        "seo_p2": "Die innovative PPRCT-Basis wird durch eine Faser-Mittelschicht ergänzt. Mit SDR 7.4 (S 3.2) hält das Rohr Drücken von bis zu 2.0 MPa bei 20°C stand, bei gleichzeitig bis zu 50 % geringerer thermischer Ausdehnung.",
-        "seo_p3": "Dies macht das Rohr zur perfekten Wahl für Steigleitungen und lange Trassen in der Gebäudetechnik, bei denen weniger Befestigungspunkte erforderlich sind, was Installationszeit und Materialkosten spart.",
+        "seo_p1": "K-Fiber Pipe PPRCT SDR 7.4 — заманауи, талшықпен армирленген композиттік құбыр. Кірістірілген талшық қабаты сызықтық ұзаруды айтарлықтай азайтады.",
+        "seo_p2": "Инновациялық PPRCT негізі талшықты орта қабатпен толықтырылған. SDR 7.4 (S 3.2) кезінде құбыр 20°C температурада 2.0 MPa дейінгі қысымға төтеп береді, сонымен бірге термиялық ұзару 50 %-ға дейін төмен.",
+        "seo_p3": "Бұл құбырды ғимарат инженериясындағы тік құбырлар мен ұзын трассалар үшін тамаша таңдау етеді: бекіту нүктелері азырақ қажет, бұл монтаждау уақыты мен материал шығындарын үнемдейді.",
         "faq": [
           {
             "q": "Wie stark reduziert die Faser die thermische Längenausdehnung?",
@@ -229,9 +229,9 @@
         ]
       },
       "k-fiberclima-pipe-pp-rct-sdr-11": {
-        "seo_p1": "Spezialisiert auf Kühl- und Heizwasseranwendungen bietet das K-Fiberclima Pipe PPRCT SDR 11 optimale Performance für Klimasysteme. Es ist auf thermische Effizienz und Stabilität ausgelegt.",
-        "seo_p2": "Das faserverstärkte PPRCT Material (SDR 11, S 5) gewährleistet einen sicheren Betrieb bei 1.6 MPa (20°C) und 0.8 MPa (70°C). Die dünneren Wände erlauben einen extrem hohen Volumenstrom.",
-        "seo_p3": "Besonders in großen HLK-Anlagen (Heizung, Lüftung, Klima) spielt dieses Rohr seine Stärken aus. Es verhindert Korrosion im Kühlkreislauf und sorgt für einen wartungsfreien, energieeffizienten Betrieb.",
+        "seo_p1": "Салқындату және жылыту суы қолданбаларына мамандандырылған K-Fiberclima Pipe PPRCT SDR 11 климаттық жүйелер үшін оңтайлы өнімділікті ұсынады. Ол термиялық тиімділік пен тұрақтылыққа арналған.",
+        "seo_p2": "Талшықпен армирленген PPRCT материалы (SDR 11, S 5) 1.6 MPa (20°C) және 0.8 MPa (70°C) кезінде қауіпсіз жұмысты қамтамасыз етеді. Жұқа қабырғалар өте жоғары өткізу қабілетіне мүмкіндік береді.",
+        "seo_p3": "Бұл құбыр әсіресе ірі ЖЖК жүйелерінде (жылыту, желдету, кондиционерлеу) өз артықшылықтарын көрсетеді. Ол салқындату контурындағы коррозияны болдырмайды және техникалық қызмет көрсетуді қажет етпейтін, энергия үнемдейтін жұмысты қамтамасыз етеді.",
         "faq": [
           {
             "q": "Was macht das Rohr ideal für Klimakaltwasser?",
@@ -248,9 +248,9 @@
         ]
       },
       "k-fiber-pipe-pp-r-sdr-74": {
-        "seo_p1": "Das klassische K-Fiber Pipe PP-R SDR 7.4 ist die bewährte Lösung, wenn Faserverstärkung und extreme Druckfestigkeit gefordert sind. Es minimiert thermische Dehnungen effektiv.",
-        "seo_p2": "Durch die Kombination von PP-R und Fasertechnologie erreicht dieses Rohr (SDR 7.4, S 3.2) einen Spitzenbetriebsdruck von 2.5 MPa bei 20°C. Es bietet maximale Stabilität für anspruchsvolle Netze.",
-        "seo_p3": "Ob im industriellen Anlagenbau oder bei komplexen Warmwasser-Zirkulationssystemen, dieses Rohr sorgt für eine starre, deformationsfreie Verlegung und höchste Betriebssicherheit über Jahrzehnte.",
+        "seo_p1": "Классикалық K-Fiber Pipe PP-R SDR 7.4 — талшықпен армирлеу мен төтенше қысымға төзімділік талап етілген кездегі сыналған шешім. Ол термиялық ұзаруды тиімді азайтады.",
+        "seo_p2": "PP-R мен талшық технологиясын біріктіру арқылы бұл құбыр (SDR 7.4, S 3.2) 20°C кезінде 2.5 MPa ең жоғары жұмыс қысымына жетеді. Ол талапшыл желілер үшін максималды тұрақтылықты ұсынады.",
+        "seo_p3": "Өнеркәсіптік қондырғылар құрылысында болсын, күрделі ыстық су айналым жүйелерінде болсын, бұл құбыр қатаң, деформациясыз төсеуді және ондаған жылдар бойы ең жоғары пайдалану сенімділігін қамтамасыз етеді.",
         "faq": [
           {
             "q": "Ist SDR 7.4 für hohe Temperaturen zugelassen?",
@@ -267,9 +267,9 @@
         ]
       },
       "k-fiber-pipe-pp-r-sdr-9": {
-        "seo_p1": "Das K-Fiber Pipe PP-R SDR 9 schließt die Lücke zwischen Standard- und Hochdruck-Faserrohren. Es bietet eine exzellente Balance aus Durchflusskapazität und Druckbeständigkeit.",
-        "seo_p2": "Mit der Baureihe S 4 (SDR 9) ist das PP-R-Faserrohr für Drücke von bis zu 2.0 MPa bei 20°C zugelassen. Die Wandstärken sind für mittlere bis hohe Belastungen optimiert.",
-        "seo_p3": "Dieses Rohr wird oft in gewerblichen und industriellen Projekten eingesetzt, wo herkömmliche Rohre an ihre Grenzen stoßen, aber die extremen Reserven von SDR 7.4 noch nicht benötigt werden.",
+        "seo_p1": "K-Fiber Pipe PP-R SDR 9 стандартты және жоғары қысымды талшықты құбырлар арасындағы алшақтықты жабады. Ол өткізу қабілеті мен қысымға төзімділіктің тамаша тепе-теңдігін ұсынады.",
+        "seo_p2": "S 4 сериясымен (SDR 9) бұл PP-R талшықты құбыры 20°C кезінде 2.0 MPa дейінгі қысымға рұқсат етілген. Қабырға қалыңдықтары орташадан жоғарыға дейінгі жүктемелерге оңтайландырылған.",
+        "seo_p3": "Бұл құбыр кәдімгі құбырлар өз шегіне жеткен, бірақ SDR 7.4 төтенше резервтері әлі қажет емес коммерциялық және өнеркәсіптік жобаларда жиі қолданылады.",
         "faq": [
           {
             "q": "Warum SDR 9 anstelle von SDR 7.4 wählen?",
@@ -1464,7 +1464,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Өнім сипаттамаларын көру"
   },
   "solutions": {
     "krankenhaus": {
@@ -1701,39 +1701,6 @@
             "unit": " ",
             "title": "Қызмет көрсетуді қажет етуі",
             "desc": "Орнатыңыз, тығыздаңыз және мәңгіге ұмытыңыз."
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "Тарихты жасайтын референциялар.",
-        "desc": "Парсы шығанағындағы жасанды аралдардан бастап Альпідегі ең эксклюзивті шаңғы курорттарына дейін. Мүмкін емес нәрсе салынған жерде K Aqua қазірдің өзінде бар."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Дубай",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "800 люкс бөлмесі мен 4 үлкен бассейн ландшафтын жабдықтау. Аса жоғары тұздылық пен 50°C-қа дейінгі қоршаған орта температурасы максималды термиялық және химиялық төзімділікті талап етті. K Aqua орталықтандырылған салқындату қосылымын қоса алғанда, толық суық және ыстық су желісін жеткізді."
-          },
-          {
-            "year": "Швейцария",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "2000 метр биіктіктегі 6 жұлдызды курорт. Қиындық: Құрылыс кезеңіндегі аяздың төтенше қаупі және дыбыс оқшаулауына қойылатын максималды талаптар. Біздің PP-R шыны талшықты құбырлар термиялық ұзындық өзгерістерін сенімді түрде жұтып, дыбыссыз жұмысқа кепілдік берді."
-          },
-          {
-            "year": "Сингапур",
-            "title": "Vertical Forest Hotel",
-            "text": "Экологиялық архитектураның 65 қабатты шедеврі. Мыңдаған балкон өсімдіктеріне арналған күрделі суару жүйесі, сондай-ақ барлық ауыз су инфрақұрылымы K Aqua арқылы жүзеге асырылды. Біртекті дәнекерлеу технологиясы ғимаратты микроскопиялық ағып кетуден сақтап қалды."
-          },
-          {
-            "year": "Мальдив аралдары",
-            "title": "Zero-Emission Island Resort",
-            "text": "Тікелей рифтің үстіне салынғандықтан, абсолютті экологиялық тазалық талап етілді. K Aqua құбырлары 100% қайта өңделеді, ешқандай микропластик немесе ауыр металдар шығармайды және жоғары коррозиялық тұзды теңіз ауасына ешқандай тозусыз төтеп береді."
-          },
-          {
-            "year": "Болашақ",
-            "title": "Сіздің келесі мегажобаңыз",
-            "text": "Сәулет шекаралары күн сайын кеңейіп келеді. Біз сіздің ең батыл көзқарастарыңызға негіз қалауға дайынбыз. Өз уақытынан ондаған жылдар озып кеткен технологиямен."
           }
         ]
       },
@@ -2289,7 +2256,7 @@
         "desc": "Гидродинамикалық эскизден соңғы қабылдауға дейін: Біз жаһандық Hyperscale-инфрақұрылымдарын ешбір ымырасыз және рекордтық уақытта қалай жүзеге асырамыз."
       },
       "hero": {
-        "eyebrow": "Hyperscale & Colocation Infrastructure",
+        "eyebrow": "Hyperscale & Colocation инфрақұрылымы",
         "title1": "Тоқтаусыз инфрақұрылым.",
         "title2": "Германияда жасалған.",
         "desc": "Салқындату жүйелері жаһандық деректер орталықтарының жүрегі болған кезде, материалдың істен шығуы опция емес. Сыни тоңазытқыш және климаттық техникаға арналған ең қауіпсіз, тиімді және масштабталатын PP-R құбыр шешімін ашыңыз.",
@@ -2393,26 +2360,26 @@
     "seo": {
       "title": "K Aqua туралы | Құбыр жүйелеріндегі дәлдік, үстемдік және инновация",
       "description": "K Aqua-мен танысыңыз. 30 жылдан астам уақыт бойы біз мәңгілікке арналған құбыр жүйелерін жасап келеміз. Дәлдік, тұрақтылық және GENAU басқаруы.",
-      "impressum1": "Die K Aqua PP-R und PPRCT Rohrsysteme werden von der KWT GmbH in Waldsolms, Deutschland, mit höchster Präzision hergestellt. Unser Impressum bietet unseren Kunden und Geschäftspartnern vollständige Transparenz über unsere Unternehmensstruktur, die gesetzlichen Vertreter und alle relevanten Handelsregisterdaten. Wir legen größten Wert auf eine offene Kommunikation und die Einhaltung sämtlicher rechtlicher Vorgaben im nationalen sowie internationalen Geschäftsverkehr. Die auf unseren Seiten zur Verfügung gestellten Informationen werden kontinuierlich geprüft und aktualisiert, um Ihnen stets korrekte technische und kaufmännische Daten unserer Kunststoffrohrsysteme zur Verfügung zu stellen.",
-      "impressum2": "Als weltweit agierender Hersteller von Premium-Kunststoffrohrlösungen für Trinkwasser, Heizungs- und Kühlungsanlagen sowie hochkomplexe Industrieanwendungen verpflichten wir uns zur strikten Einhaltung aller gesetzlichen und regulatorischen Standards. Dies schließt den Datenschutz, faire Wettbewerbsbedingungen und internationale Handelsrichtlinien mit ein. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen und Software-Tools zur hydraulischen Berechnung kann jedoch nicht übernommen werden. Inhalt und Struktur der K Aqua Webseiten sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen, technischen Datenblättern oder Installationsrichtlinien bedarf der vorherigen Zustimmung.",
-      "kontakt1": "Haben Sie technische Fragen zu unseren PP-R/PPRCT-Rohren oder benötigen Sie Unterstützung bei einem internationalen Projekt? Das K Aqua Kontakt-Team in Waldsolms steht Ihnen gerne zur Verfügung.",
-      "kontakt2": "Ob isometrische Berechnungen, Schweißerschulungen vor Ort oder kaufmännische Anfragen: unsere Ingenieure und Vertriebsmitarbeiter antworten prompt, um den Erfolg Ihres Projekts sicherzustellen.",
-      "projektanfrage1": "Planen Sie ein wegweisendes Bauvorhaben? Senden Sie uns Ihre Projektanfrage für K Aqua PP-R und PPRCT Rohrsysteme. Unsere technische Abteilung in Waldsolms ist auf die Auslegung und Dimensionierung von Großinstallationen spezialisiert. Dazu gehören anspruchsvolle Hochhäuser, hygienisch sensible Krankenhäuser, weitreichende Fernkältenetze und komplexe industrielle Kühl- und Heizsysteme. Dank unserer jahrzehntelangen Erfahrung im Polymer-Engineering verstehen wir die spezifischen hydraulischen und thermischen Anforderungen, die an die Infrastruktur moderner Bauwerke gestellt werden. Mit K Aqua wählen Sie nicht nur ein Produkt, sondern eine ganzheitliche Systemlösung.",
-      "projektanfrage2": "Sobald Sie uns Ihre detaillierten Projektspezifikationen, P&ID-Pläne oder Isometrien mitteilen, beginnen unsere Fachingenieure mit einer tiefgehenden Analyse. Wir unterstützen Sie bei komplexen Druckverlustberechnungen, der Ermittlung von thermischen Längenausdehnungen und der exakten Positionierung von Fest- und Loslagern. Zudem erstellen wir präzise Materialauszüge (Bill of Materials) und konzipieren maßgeschneiderte Übergangsfittings für die Anbindung an metallische Großkomponenten. Unser Ziel ist es, Ihnen ein hydraulisch perfekt ausbalanciertes Rohrnetz zu entwerfen, das den Energieverbrauch Ihrer Pumpen minimiert und eine wartungsfreie Lebensdauer von über 50 Jahren garantiert.",
-      "projektanfrage3": "Diskretion und Zuverlässigkeit stehen bei uns an erster Stelle. Jede Projektanfrage wird streng vertraulich behandelt und ausschließlich von unserem qualifizierten deutschen Ingenieurteam bearbeitet. Wir koordinieren darüber hinaus die weltweite Logistik und gewährleisten, dass unsere High End-Rohre und Formteile termingerecht und unbeschadet auf Ihrer Baustelle eintreffen. Zusätzlich bieten wir Vor Ort-Schweißerschulungen durch unsere zertifizierten Instruktoren an, um sicherzustellen, dass die Installation exakt nach den Vorgaben des German Engineerings ausgeführt wird. Mit K Aqua sichern Sie maximale Effizienz, absolute Leckagefreiheit und die Langlebigkeit Ihres gesamten Rohrleitungssystems.",
-      "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
-      "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen Random Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
+      "impressum1": "K Aqua PP-R және PPRCT құбыр жүйелерін KWT GmbH Германияның Вальдзольмс қаласында жоғары дәлдікпен өндіреді. Біздің заңды деректеріміз клиенттеріміз бен іскери серіктестерімізге компания құрылымы, заңды өкілдер және барлық тиісті сауда тізілімі деректері туралы толық ашықтықты ұсынады. Біз ұлттық және халықаралық іскерлік қатынастарда ашық қарым-қатынасқа және барлық заңнамалық талаптардың сақталуына үлкен мән береміз. Сайттарымызда ұсынылған ақпарат сізге пластик құбыр жүйелеріміздің әрқашан дұрыс техникалық және коммерциялық деректерін беру үшін үздіксіз тексеріліп, жаңартылып отырады.",
+      "impressum2": "Ауызсу, жылыту және салқындату жүйелеріне, сондай-ақ өте күрделі өнеркәсіптік қолданбаларға арналған премиум пластик құбыр шешімдерінің жаһандық өндірушісі ретінде біз барлық заңнамалық және реттеуші стандарттарды қатаң сақтауға міндеттенеміз. Бұған деректерді қорғау, әділ бәсекелестік жағдайлары және халықаралық сауда нұсқаулықтары кіреді. Алайда ұсынылған ақпарат пен гидравликалық есептеуге арналған бағдарламалық құралдардың өзектілігі, дұрыстығы және толықтығы үшін жауапкершілік немесе кепілдік қабылданбайды. K Aqua веб-сайттарының мазмұны мен құрылымы авторлық құқықпен қорғалған. Ақпаратты, техникалық деректер парақтарын немесе орнату нұсқаулықтарын көбейту алдын ала келісімді қажет етеді.",
+      "kontakt1": "PP-R/PPRCT құбырларымыз туралы техникалық сұрақтарыңыз бар ма, әлде халықаралық жоба бойынша қолдау қажет пе? Вальдзольмстағы K Aqua байланыс тобы сізге көмектесуге дайын.",
+      "kontakt2": "Изометриялық есептеулер, орнында дәнекерлеушілерді оқыту немесе коммерциялық сұраныстар болсын — біздің инженерлер мен сату мамандары жобаңыздың табысын қамтамасыз ету үшін жедел жауап береді.",
+      "projektanfrage1": "Жаңашыл құрылыс жобасын жоспарлап отырсыз ба? Бізге K Aqua PP-R және PPRCT құбыр жүйелері бойынша жоба сұранысыңызды жіберіңіз. Вальдзольмстағы техникалық бөліміміз ірі қондырғыларды жобалау мен өлшемдеуге мамандандырылған. Бұған талапшыл биік ғимараттар, гигиеналық тұрғыдан сезімтал ауруханалар, ауқымды орталықтандырылған салқындату желілері және күрделі өнеркәсіптік салқындату мен жылыту жүйелері кіреді. Полимерлік инженериядағы ондаған жылдық тәжірибеміздің арқасында біз заманауи ғимараттар инфрақұрылымына қойылатын нақты гидравликалық және термиялық талаптарды түсінеміз. K Aqua-мен сіз тек өнімді ғана емес, тұтас жүйелік шешімді таңдайсыз.",
+      "projektanfrage2": "Егжей-тегжейлі жоба спецификацияларыңызды, P&ID жоспарларыңызды немесе изометрияларыңызды бізге ұсынған бойда, білікті инженерлеріміз терең талдауға кіріседі. Біз күрделі қысым жоғалуын есептеуде, термиялық сызықтық ұзаруларды анықтауда және қозғалмайтын және жылжымалы тіректерді дәл орналастыруда сізге қолдау көрсетеміз. Сонымен қатар біз нақты материал тізімдемелерін (Bill of Materials) жасаймыз және ірі металл компоненттерге қосуға арналған жеке өтпелі фитингтерді жобалаймыз. Біздің мақсатымыз — сорғыларыңыздың энергия тұтынуын азайтатын және 50 жылдан астам техникалық қызмет көрсетуді қажет етпейтін қызмет мерзімін кепілдейтін гидравликалық тұрғыдан мінсіз теңгерілген құбыр желісін сіз үшін жобалау.",
+      "projektanfrage3": "Құпиялылық пен сенімділік біз үшін бірінші орында. Әрбір жоба сұранысы қатаң құпия түрде қаралады және тек біздің білікті неміс инженерлік тобымыз өңдейді. Сонымен қатар біз жаһандық логистиканы үйлестіріп, жоғары сапалы құбырларымыз бен фасондық бөлшектеріміздің құрылыс алаңыңызға уақытында және зақымсыз жетуін қамтамасыз етеміз. Қосымша, орнатудың German Engineering талаптарына дәл сәйкес орындалуын қамтамасыз ету үшін сертификатталған нұсқаушыларымыздың орнында дәнекерлеушілерді оқытуын ұсынамыз. K Aqua-мен сіз максималды тиімділікті, ағып кетудің мүлдем болмауын және бүкіл құбыр жүйеңіздің ұзақ мерзімділігін қамтамасыз етесіз.",
+      "news1": "K Aqua-ның соңғы жаңалықтарымен хабардар болыңыз. Біз жаңа PP-R/PPRCT өнім әзірлемелері, халықаралық көрмелерге қатысу және жаһандық ірі жобалар туралы жаңартуларды үнемі жариялап отырамыз.",
+      "news2": "Жаңалықтар бөлімі сонымен қатар муфталық дәнекерлеудегі техникалық инновациялар, полипропилен рандом-сополимер бойынша материалтану жетістіктері және Вальдзольмстағы зауытымыздағы тұрақтылық бастамалары туралы хабарлайды."
     },
-    "eyebrow": "Über uns",
-    "title1": "Erfahrung ist Ihr",
-    "titleGrad": "Vorteil.",
-    "lead": "Neue Strategien, gewachsenes Wissen: Als Hersteller von K-Aqua verbindet die KWT GmbH jahrzehntelange Fertigungserfahrung mit einem klaren Blick nach vorn.",
-    "h2": "K Aqua: führend in der Wasserversorgung",
-    "p1": "Das Geschäftsfeld der KWT GmbH ist die Fertigung von Rohren und Formteilen für die Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich das Unternehmen in der Wertschöpfungskette Bau als Baustofflieferant und Hersteller.",
+    "eyebrow": "Біз туралы",
+    "title1": "Тәжірибе — сіздің",
+    "titleGrad": "артықшылығыңыз.",
+    "lead": "Жаңа стратегиялар, қалыптасқан білім: K-Aqua өндірушісі ретінде KWT GmbH ондаған жылдық өндірістік тәжірибені болашаққа айқын көзқараспен біріктіреді.",
+    "h2": "K Aqua: сумен қамтуда көшбасшы",
+    "p1": "KWT GmbH қызмет саласы — сумен қамтуға арналған құбырлар мен фасондық бөлшектерді әртүрлі пластиктерден өндіру. Осылайша компания құрылыс құн тізбегінде құрылыс материалдарын жеткізуші және өндіруші ретінде орнығады.",
     "p2": "Филипп Никель мен Марчелло Галлионың кәсіпкерлік басшылығымен K-Aqua әлемдік нарықтар үшін ең жоғары сапа стандарттарына, технологиялық инновацияларға және тұрақты полимер өндірісіне назар аударады.",
-    "polEyebrow": "Unternehmenspolitik",
-    "polTitle": "Nutzen entsteht im Zusammenspiel.",
-    "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen und kein Unternehmensnutzen ohne Nutzen für Umwelt und Mitwelt.",
+    "polEyebrow": "Компания саясаты",
+    "polTitle": "Пайда өзара әрекеттестікте туады.",
+    "polLead": "Қызметкер пайдасынсыз клиент пайдасы жоқ, компания пайдасынсыз қызметкер пайдасы жоқ, ал қоршаған орта мен қоғам пайдасынсыз компания пайдасы жоқ.",
     "cards": [
       {
         "t": "Menschen im Mittelpunkt",
@@ -2427,17 +2394,17 @@
         "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung von Ressourcenschonung, Umweltverträglichkeit und strikter Einhaltung aller Verpflichtungen."
       }
     ],
-    "genauEyebrow": "GENAU-Managementsystem",
-    "genauTitle": "Genau hinschauen. Genau verbessern.",
-    "genauLead": "Das GENAU-Managementsystem ist in das House of KWT integriert und damit ein zentrales Element unserer Philosophie.",
+    "genauEyebrow": "GENAU басқару жүйесі",
+    "genauTitle": "Мұқият қарау. Дәл жетілдіру.",
+    "genauLead": "GENAU басқару жүйесі House of KWT құрамына енгізілген және сол арқылы философиямыздың орталық элементі болып табылады.",
     "points": [
       "Kontinuierliche Verbesserung von Arbeits-, Umwelt- und Gesundheitsschutz",
       "Optimierung der Energieeffizienz",
       "Prävention, laufende Gefahrenermittlung und Risikobewertung",
       "Jeder Mitarbeitende ist verpflichtet, Gefahren zu melden und aktiv mitzuwirken"
     ],
-    "certTitle": "geprüft nach Norm",
-    "certText": "Das gelebte GENAU-Management erfüllt die Anforderungen der DIN EN ISO 14001 und 50001, seit Oktober 2025 ergänzt um ISO 9001:2015.",
+    "certTitle": "стандартқа сай тексерілген",
+    "certText": "Іс жүзінде қолданылатын GENAU менеджменті DIN EN ISO 14001 және 50001 талаптарын орындайды, 2025 жылдың қазанынан бастап ISO 9001:2015 стандартымен толықтырылған.",
     "meta": {
       "est": "Құрылды",
       "estVal": "1990",
@@ -2445,15 +2412,15 @@
       "hqVal": "Германия",
       "reach": "Ғаламдық қамту",
       "reachVal": "60+ елдер",
-      "title": "Über KWT GmbH: Experten für Rohrherstellung",
-      "desc": "Die KWT GmbH in Waldsolms vereint deutsche Ingenieurskunst mit modernster Fertigung. Dreifach ISO-zertifiziert produzieren wir K-Aqua PP-R Rohrsysteme."
+      "title": "KWT GmbH туралы: құбыр өндірісінің сарапшылары",
+      "desc": "Вальдзольмстағы KWT GmbH неміс инженерлік өнерін заманауи өндіріспен біріктіреді. Үш ISO сертификатымен біз K-Aqua PP-R құбыр жүйелерін өндіреміз."
     },
     "material": {
-      "eyebrow": "Materialwissenschaft",
-      "title1": "Polypropylen Random Copolymerisat.",
-      "title2": "Entfesselt.",
-      "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Material, das wir auf molekularer Ebene beherrschen.",
-      "p2": "Durch die strategische Anordnung von Ethylen-Monomeren in der Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit, selbst bei Minustemperaturen. Unsere Granulate stammen ausschließlich von der globalen Elite der Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) und Melt Flow Rate (MFR) Tests. Was unsere Spezifikationen um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+      "eyebrow": "Материалтану",
+      "title1": "Полипропилен рандом-сополимері.",
+      "title2": "Босатылған қуат.",
+      "p1": "PP-R Тип 3 — жай ғана пластик емес. Бұл біз молекулалық деңгейде меңгерген аса күрделі термопластикалық материал.",
+      "p2": "Пропилен тізбегінде этилен мономерлерін стратегиялық орналастыру арқылы біз тіпті минус температураларда да теңдессіз соққыға төзімділікке қол жеткіземіз. Гранулаттарымыз тек шикізат өндірушілерінің жаһандық элитасынан алынады. Әрбір партияны Differential Scanning Calorimetry (DSC) және Melt Flow Rate (MFR) сынақтарымен талдаймыз. Спецификацияларымыздан мыңнан бір бөлікке болса да ауытқығанның бәрі аяусыз шеттетіледі.",
       "items": [
         {
           "title": "Extreme Molmasse",
@@ -2479,9 +2446,9 @@
       "eyebrow": "Біздің миссиямыз",
       "title": "Абсолютті сенімділік. \n Ешқандай ымырасыз.",
       "lead": "Су - біздің ең құнды ресурсымыз. Оны қауіпсіз, гигиеналық және тиімді тасымалдау - біздің міндетіміз. Біздің PP-R және PPRCT жүйелері 50 жылдан астам уақыт бойы техникалық қызмет көрсетпестен, әр тамшының таза болып қалуын қамтамасыз етеді.",
-      "title1": "WIR LEITEN NICHT NUR WASSER.",
-      "title2": "WIR KONTROLLIEREN ES.",
-      "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme, die für die Ewigkeit gebaut sind. Kein Raum für Fehler. Kein Platz für Mittelmaß. Nur reine, unerbittliche Präzision, die sich in jedem einzelnen Fitting manifestiert."
+      "title1": "БІЗ СУДЫ ЖАЙ ТАСЫМАЛДАМАЙМЫЗ.",
+      "title2": "БІЗ ОНЫ БАҚЫЛАЙМЫЗ.",
+      "desc": "30 жылдан астам уақыт бойы біз мәңгілікке арналған құбыр жүйелерін өндіріп келеміз. Қателікке орын жоқ. Орташалыққа орын жоқ. Тек әрбір фитингте көрініс табатын таза, ымырасыз дәлдік қана."
     },
     "timeline": {
       "title": "Даму тарихы.",
@@ -2614,8 +2581,8 @@
         "Энергия менеджменті жүйесі"
       ]
     ],
-    "btnDe": "Zertifikat (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnDe": "Сертификат (DE)",
+    "btnEn": "Сертификат (EN)",
     "eventsTitle": "Жәрмеңкелер мен оқиғалар",
     "eventsText": "Алдағы іс-шараларда K Aqua-ға барыңыз. Қазіргі уақытта жарияланған күндер жоқ. Жақында қайта тексеріңіз.",
     "lead": "K Aqua соңғы жаңалықтарын оқыңыз."
@@ -2783,25 +2750,25 @@
     "nextTitle": "Сіздің жоспарлауыңыз климатқа қаншалықты қолайлы?",
     "nextLead": "Өлшемі мен ұзындығын тікелей CO₂ калькуляторына беріңіз және мыс, тот баспайтын болат және ПВХ-мен салыстырыңыз.",
     "nextCta": "CO₂ калькуляторына өту",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Толық өнім ассортиментімізді санат, атау немесе артикул нөмірі бойынша іздеңіз.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Құбырлар",
+    "catFittings": "Фасондық бөлшектер",
+    "catValves": "Арматура",
+    "catTools": "Құралдар",
+    "catTransitionFittings": "Өтпелі фитингтер",
+    "catAccessories": "Керек-жарақтар",
+    "catWeldInSaddles": "Жоғары сапалы PP-R дәнекерленетін ершіктер",
+    "category": "Санат",
+    "search": "Іздеу",
+    "searchPlaceholder": "Артикул нөмірі немесе атауы...",
+    "foundFam": "өнім тобы табылды",
+    "catalogPdf": "Каталог PDF форматында",
+    "colName": "Өнім атауы",
+    "colCat": "Санат",
+    "colCodes": "Артикул нөмірлері",
+    "noResultsText": "Іздеу шарттарыңызға сәйкес өнімдер табылмады. Басқа сөзбен іздеп көріңіз немесе санатты өзгертіңіз.",
+    "resetFilters": "Сүзгілерді қалпына келтіру"
   },
   "trustAndCases": {
     "eyebrow": "Сертификатталған қауіпсіздік",
@@ -2821,7 +2788,7 @@
   },
   "co2": {
     "guideText": "<h2>Тұрақтылық және LCA (Өмірлік циклді бағалау)</h2><p>Дұрыс құбыр жүйесін таңдау ғимараттың немесе өндірістік нысанның CO2 ізіне айтарлықтай әсер етеді. K-Aqua CO2 калькуляторы EN 15804 стандарттарына сәйкес өмірлік циклдің толық талдауына (LCA) мүмкіндік береді. Бұл талдау бүкіл өмірлік циклді қамтиды: шикізатты өндіруден және өнімді өндіруден (А1-А3 кезеңдері), тасымалдау мен орнату (А4-А5 кезеңдері) арқылы пайдалану кезеңіне (В фазасы) және қызмет ету мерзімінің соңына дейін (C фазасы).</p><p>Дәстүрлі мыс немесе болат металл құбырлармен салыстырғанда, K-Aqua-ның PP-R және PPRCT құбырлары өмірлік циклдің айтарлықтай қолайлы бағалауына ие. Пластмассаны экструзиялау кезінде энергияның аз жұмсалуы және әлдеқайда төмен салмақ өндіріс пен тасымалдау кезіндегі СО2 шығарындыларын айтарлықтай азайтады. Сонымен қатар, айнадай тегіс ішкі бет (тек 0,007 мм кедір-бұдырлық) ағынға өте төмен қарсылықты қамтамасыз етеді. Дарси-Вайсбах теңдеуіне сәйкес, бұл айналым сорғылары сұйықтықты жүйе арқылы айдау үшін айтарлықтай аз энергия (электр) пайдалануы керек дегенді білдіреді.</p><p>Әсіресе пайдалану кезеңінде (В кезеңі), ол көбінесе құбыр жүйелері үшін 50 жылға немесе одан да көп уақытқа созылады, бұл энергия үнемдеу үлкен CO2 және шығындарды үнемдеуге (Меншіктің жалпы құны, TCO) қосылады. Полипропилен сонымен қатар пайдалану мерзімінің соңында (С фазасы) экологиялық артықшылықтарды ұсынады, өйткені ол 100% қайта өңделеді және айналмалы экономика (Модуль D) рухында қайта пайдалануға болады. K-Aqua жобаңыздың экологиялық және экономикалық үнемдеу әлеуетін дәл және мөлдір есептеу үшін осы калькуляторды пайдаланыңыз.</p>",
-    "eyebrow": "Premium Engineering Tool",
+    "eyebrow": "Премиум инженерлік құрал",
     "title1": "LCA және TCO симуляторы",
     "titleGrad": "Pro",
     "lead": "Құбыр жүйеңіздің бүкіл өмірлік цикліндегі нақты экологиялық және экономикалық әсерлерін есептеңіз. Нақты физикалық ағын модельдерімен (Дарси-Вайсбах) және EN-ге сәйкес LCA фазаларымен.",
@@ -2871,9 +2838,9 @@
     "certBtn": "PDF есебін жасау",
     "generating": "Жасалуда...",
     "energyGreen": "Жасыл энергия",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
-    "energyGlobal": "Global-Mix",
+    "energyDe": "DE-микс",
+    "energyEu": "EU-микс",
+    "energyGlobal": "Жаһандық микс",
     "materials": {
       "kaqua": "K Aqua PPRCT",
       "pvc": "PVC-U",
@@ -3684,7 +3651,7 @@
     ],
     "seoArticle": {
       "pipes": {
-        "areas": "Trinkwasserinstallation, Heizungsbau, Klimatechnik, Industrielle Anlagen, Schiffbau",
+        "areas": "Ауызсу орнатылымы, жылыту жүйелерін салу, климаттық техника, өнеркәсіптік қондырғылар, кеме жасау",
         "advTitle": "Überlegene Rohrleitungstechnik für jedes Projekt",
         "advList": [
           "Keine Korrosion: 100% resistent gegen Lochfraß und Rost.",
@@ -3693,10 +3660,10 @@
           "Geräuschreduktion: Hervorragende Schalldämmung gegen Fließgeräusche.",
           "Hygienisch: Erfüllt strengste internationale Trinkwassernormen (DVGW, KIWA)."
         ],
-        "seoText": "Unsere Hochleistungsrohre werden in Waldsolms nach höchsten Qualitätsstandards gefertigt. Die Materialkombination PP-R und PPRCT sorgt für außergewöhnliche Temperatur- und Druckbeständigkeit. Egal ob in der Haustechnik, im industriellen Anlagenbau oder bei komplexen Kühlsystemen, dieses Rohrsystem liefert maximale Sicherheit und Effizienz. Die einfache und sichere Schweißtechnik garantiert absolut leckagefreie Verbindungen.",
-        "guideTitle": "Umfassender Ratgeber: Planung und Installation von K Aqua PP-R & PPRCT Rohrsystemen",
+        "seoText": "Біздің жоғары өнімді құбырларымыз Вальдзольмста ең жоғары сапа стандарттары бойынша өндіріледі. PP-R және PPRCT материал комбинациясы ерекше температура мен қысымға төзімділікті қамтамасыз етеді. Ғимарат инженериясында, өнеркәсіптік қондырғылар құрылысында немесе күрделі салқындату жүйелерінде болсын, бұл құбыр жүйесі максималды қауіпсіздік пен тиімділік береді. Қарапайым әрі сенімді дәнекерлеу технологиясы мүлдем ақаусыз, герметикалық қосылыстарды кепілдейді.",
+        "guideTitle": "Толық нұсқаулық: K Aqua PP-R және PPRCT құбыр жүйелерін жоспарлау және орнату",
         "guideText": "<h2>Umfassender Ratgeber: Planung, Werkstoffkunde und Installation von K Aqua PP-R & PPRCT Rohrsystemen</h2><p>Die Auswahl des richtigen Rohrwerkstoffs ist das entscheidende Fundament für die Langlebigkeit, Betriebssicherheit und Energieeffizienz moderner Gebäude- und Industrieinfrastrukturen. Unsere in Deutschland (Waldsolms) gefertigten <span class=\"font-semibold\">PP-R und PPRCT Rohrsysteme</span> bieten dank ihrer exzellenten thermischen, chemischen und mechanischen Eigenschaften die zukunftssichere Alternative zu herkömmlichen Metallrohren aus Kupfer, Stahl oder Messing.</p><p>Egal ob in der Haustechnik für Trinkwasser- und Heizungsnetze, im industriellen Anlagenbau, in Kühlsystemen oder im Schiffbau, K Aqua Rohre stehen für kompromisslose deutsche Ingenieurskunst und gewährleisten über Jahrzehnte hinweg einen absolut leckagefreien und wartungsfreien Betrieb.</p><h2>Werkstoffinnovation: PP-R und PPRCT im direkten Vergleich</h2><p>Während Standard-Polypropylen Random Copolymer (PP-R) bereits hervorragende Eigenschaften hinsichtlich Korrosionsbeständigkeit und Hygiene aufweist, setzt das weiterentwickelte PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) neue Maßstäbe in der Rohrleitungstechnik. Durch eine gezielte Modifikation der Kristallstruktur im Polymerisationsprozess bietet PPRCT eine deutlich höhere Druckfestigkeit bei erhöhten Betriebstemperaturen bis zu 95°C.</p><p>Dieser werkstofftechnische Vorteil ermöglicht es, Rohre mit wesentlich geringerer Wandstärke (höhere SDR-Klassen) bei gleichem Nenndruck herzustellen. Die Ergebnisse für den Anwender sind herausragend:</p><ul><li><span class=\"font-semibold\">Erhöhter Hydraulikdurchfluss:</span> Ein größerer Innendurchmesser steigert das Durchflussvolumen um bis zu 17 % im Vergleich zu Standard-PP-R Rohren.</li><li><span class=\"font-semibold\">Reduziertes Rohrgewicht:</span> Die Einsparung von Material vereinfacht den Transport und das Handling auf der Baustelle erheblich.</li><li><span class=\"font-semibold\">Höhere Druckreserven:</span> Maximale Sicherheitsreserven selbst bei Spitzenbelastungen im kontinuierlichen Heißwassereinsatz.</li></ul><h2>Faserverbundtechnologie (K-Fiber) für minimale Längenausdehnung</h2><p>Ein zentraler Aspekt bei der Planung von Warmwasser- und Heizungsleitungen ist die thermische Längenausdehnung von Kunststoffrohren. K Aqua begegnet dieser Herausforderung mit der innovativen K-Fiber Faserverbundtechnologie. Die dreischichtig aufgebauten K-Fiber Rohre verfügen über eine mittlere Polypropylenschicht, die mit hochfesten Glasfasern verstärkt ist.</p><p>Diese mechanische Stabilisierung reduziert den linearen Wärmeausdehnungskoeffizienten auf exakt 0,035 mm/(m·K), was einer Reduktion der thermischen Längenausdehnung um rund 75 % im Vergleich zu nicht armierten Vollkunststoffrohren entspricht. Für Fachplaner und Installateure bedeutet dies:</p><ul><li><span class=\"font-semibold\">Weniger Dehnungsausgleicher:</span> Signifikante Einsparung von Biegeschenkeln und Ausgleichsbögen im Leitungsverlauf.</li><li><span class=\"font-semibold\">Größere Befestigungsabstände:</span> Einsparung von Rohrleitungsschellen und Festpunkten bei der Trassenführung.</li><li><span class=\"font-semibold\">Formstabile Verlegung:</span> Kein Durchhängen der Rohre in offenen Trassen oder Steigleitungen.</li></ul><h2>Homogene Polyfusions-Schweißung: Leckagesicherheit für 50+ Jahre</h2><p>Das Herzstück des K Aqua Rohrsystems ist die unlösbare, stoffschlüssige Verbindungstechnik durch thermische Polyfusion. Beim Schweißvorgang werden das Rohrende und die Muffe des Formteils mittels eines elektronisch geregelten Schweißgeräts auf exakt 260°C erwärmt. Dabei schmelzen die Polymerketten beider Komponenten an den Fügeflächen an.</p><p>Beim Zusammenfügen verschränken sich die geschmolzenen Makromoleküle auf molekularer Ebene vollständig ineinander. Nach dem Erkalten entsteht eine homogene, monolithische Materialstruktur ohne Nahtstellen, Klebstoffe oder elastische Dichtungen. Da keine Gummi-O-Ringe oder mechanischen Pressverbindungen verwendet werden, gehören Alterungsschäden, Verharzungen oder Sprödigkeit von Dichtungen der Vergangenheit an. Die Schweißverbindung hält denselben Drücken stand wie das Rohr selbst.</p><h2>Hydraulik, Hygiene und Umweltverträglichkeit</h2><p>Trinkwassersicherheit und Energieeffizienz stehen bei K Aqua an erster Stelle. Die spiegelglatte Innenoberfläche unserer PP-R und PPRCT Rohre weist eine extrem geringe Rauhigkeit von nur k = 0,007 mm auf. Dies verhindert effektiv die Anhaftung von Kalkablagerungen (Inkrustation) und unterbindet die Bildung von Nährböden für Biofilme und Legionellen.</p><p>Zudem ist der Werkstoff Polypropylen physiologisch vollkommen unbedenklich, geschmacks- und geruchsneutral sowie frei von Schwermetallen und Weichmachern. K Aqua Rohrsysteme sind weltweit nach strengsten Prüfnormen zertifiziert (u. a. DVGW, KIWA, WRAS). Auch ökologisch überzeugt das System: Das Polymer ist zu 100 % recycelbar und weist im Vergleich zu Metallrohren eine hervorragende Ökobilanz im Herstellungsprozess auf.</p><h2>Wichtige Verlege- und Planungshinweise</h2><p>Um eine einwandfreie Funktion über die garantierte Lebensdauer von 50 Jahren sicherzustellen, sind bei der Verlegung folgende Punkte zu beachten:</p><ul><li><span class=\"font-semibold\">Druckprüfung:</span> Nach Abschluss der Montage muss das Rohrnetz einer Druckprüfung gemäß DIN 1988 / DIN EN 806 unterzogen werden.</li><li><span class=\"font-semibold\">Wärmedämmung:</span> Rohre für Warmwasser und Heizung sind gemäß den geltenden Energieeinsparverordnungen (z. B. GEG) fachgerecht zu dämmen, um Wärmeverluste zu minimieren.</li><li><span class=\"font-semibold\">UV-Schutz:</span> Bei Freiverlegung im Außenbereich sind UV-geschützte Rohre zu verwenden oder geeignete Abdeckungen vorzusehen.</li></ul>",
-        "seoTitle": "PP-R & PPRCT Rohrsysteme Übersicht",
+        "seoTitle": "PP-R және PPRCT құбыр жүйелеріне шолу",
         "faq": [
           {
             "q": "Was unterscheidet PPRCT von herkömmlichem PP-R bei Rohrleitungssystemen?",
@@ -3721,7 +3688,7 @@
         ]
       },
       "fittings": {
-        "areas": "Trinkwassernetz, Sanitärinstallation, Industrielle Verteilung, Heizungsbau",
+        "areas": "Ауызсу желісі, сантехникалық орнатылым, өнеркәсіптік тарату, жылыту жүйелерін салу",
         "advTitle": "Sichere und homogene Verbindungen",
         "advList": [
           "Homogene Verschweißung: Rohr und Fitting verschmelzen zu einer untrennbaren Einheit.",
@@ -3730,13 +3697,13 @@
           "Voller Durchfluss: Keine Querschnittsverengung, wodurch der Systemdruck erhalten bleibt.",
           "Chemische Beständigkeit: Resistent gegen eine Vielzahl aggressiver Medien."
         ],
-        "seoText": "Formteile von K Aqua sind das Bindeglied für zuverlässige Rohrnetze. Gefertigt in Deutschland, bieten diese Fittings höchste Präzision und Maßhaltigkeit. Die Verschweißungstechnik (Muffenschweißen) dauert nur wenige Sekunden und kühlt zu einer Verbindung ab, die genauso stark ist wie das Rohr selbst. Dadurch eliminieren Sie das Risiko von Mikroleckagen, wie sie oft bei Press- oder Stecksystemen nach Jahren auftreten können.",
-        "guideTitle": "Technischer Leitfaden: Sichere Verbindungen mit K Aqua Formteilen",
+        "seoText": "K Aqua фасондық бөлшектері — сенімді құбыр желілерінің байланыстырушы буыны. Германияда өндірілген бұл фитингтер ең жоғары дәлдік пен өлшем тұрақтылығын ұсынады. Дәнекерлеу технологиясы (муфталық дәнекерлеу) бірнеше секундқа ғана созылады және суығаннан кейін құбырдың өзіндей берік қосылыс түзеді. Осылайша, пресс немесе кіріктірме жүйелерде жылдар өте жиі пайда болатын микроағып кету қаупін жоясыз.",
+        "guideTitle": "Техникалық нұсқаулық: K Aqua фасондық бөлшектерімен сенімді қосылыстар",
         "guideText": "<p>Fittings sind das Herzstück jedes komplexen Rohrnetzwerks. Mit den hochwertigen <span class=\"font-semibold\">K Aqua PP-R Formteilen</span> realisieren Sie Installationen, die höchsten Drücken und Temperaturen standhalten.</p><p>Die Vorteile der homogenen Verschweißung sind unbestritten:</p><ul><li><span class=\"font-semibold\">Stoffschlüssige Verbindung:</span> Bei der Erwärmung verschmelzen Fitting und Rohr zu einem einzigen Werkstück. Dies schließt Schwachstellen wie alternde O-Ringe oder mechanische Verpressungen konsequent aus.</li><li><span class=\"font-semibold\">Strömungsoptimierung:</span> Unsere Fittings sind so konzipiert, dass der Querschnitt an den Verbindungsstellen erhalten bleibt. Das minimiert Turbulenzen und reduziert den Energieverbrauch von Umwälzpumpen.</li><li><span class=\"font-semibold\">Höchste Materialqualität:</span> Durch die Verwendung von erstklassigem Polypropylen Random Copolymerisat wird eine herausragende chemische und thermische Beständigkeit erzielt, die weit über den normativen Vorgaben liegt.</li></ul><p>Bei der Verarbeitung ist auf saubere, gratfreie Schnitte sowie auf die exakte Einhaltung der Erwärmungs- und Abkühlzeiten zu achten. So gewährleisten Sie die vom Hersteller zugesicherte, wartungsfreie Betriebszeit von über 50 Jahren in allen Installationsbereichen.</p>",
-        "seoTitle": "Kunststoff-Fittings & Formteile"
+        "seoTitle": "Пластик фитингтер және фасондық бөлшектер"
       },
       "valves": {
-        "areas": "Strangabsperrung, Anlagensteuerung, Verteilerschränke, Industrie",
+        "areas": "Тармақтарды жабу, қондырғыларды басқару, тарату шкафтары, өнеркәсіп",
         "advTitle": "Präzise Steuerung und langlebige Funktion",
         "advList": [
           "Wartungsfrei: Die Mechanik ist auf jahrzehntelange reibungslose Funktion ausgelegt.",
@@ -3745,14 +3712,14 @@
           "Hochwertige Materialien: Ventilsitze und Kugeln aus korrosionsfesten Legierungen.",
           "Sichere Absperrung: 100% dicht selbst unter extremen Druck- und Temperaturwechseln."
         ],
-        "seoText": "Absperrarmaturen und Ventile von K Aqua kombinieren die bewährte PP-R Schweißtechnik mit hochwertigen mechanischen Komponenten. Sie ermöglichen eine präzise Steuerung von Fluiden und eine sichere Isolation von Netzabschnitten für Wartungsarbeiten. Jede Armatur wird vor der Auslieferung strengen Druckprüfungen unterzogen, um höchste Betriebssicherheit in kritischen Anwendungen zu gewährleisten.",
-        "guideTitle": "Expertenratgeber: Anlagensteuerung mit K Aqua Ventilen und Armaturen",
+        "seoText": "K Aqua жапқыш арматурасы мен вентильдері сыналған PP-R дәнекерлеу технологиясын жоғары сапалы механикалық компоненттермен біріктіреді. Олар сұйықтықтарды дәл басқаруға және техникалық қызмет көрсету жұмыстары үшін желі бөліктерін сенімді оқшаулауға мүмкіндік береді. Критикалық қолданбаларда ең жоғары пайдалану қауіпсіздігін қамтамасыз ету үшін әрбір арматура жеткізілмес бұрын қатаң қысым сынақтарынан өтеді.",
+        "guideTitle": "Сарапшы нұсқаулығы: K Aqua вентильдері мен арматурасымен қондырғыларды басқару",
         "guideText": "<p>Die präzise Steuerung und Isolation von Stoffströmen ist in modernen Wasser- und Heizungsnetzen unerlässlich. <span class=\"font-semibold\">K Aqua Absperrarmaturen und Ventile</span> kombinieren die Langlebigkeit von Polypropylen mit der Präzision metallischer Dicht- und Stellmechanismen.</p><p>Was Sie bei der Integration von PP-R Ventilen wissen müssen:</p><ul><li><span class=\"font-semibold\">Totraumfreie Konstruktion:</span> Zur Vermeidung von Stagnationswasser und Verkeimung (z. B. Legionellen) sind unsere Armaturen strömungsoptimiert und hygienegerecht konstruiert, was sie ideal für sensible Trinkwasserinstallationen macht.</li><li><span class=\"font-semibold\">Druck- und Temperaturstabilität:</span> Die massiven Ventilkörper und die hochwertigen Messing- oder PP-Kugeln gewährleisten eine 100%ige Abdichtung, selbst bei extremen Druckschlägen und hohen Vorlauftemperaturen.</li><li><span class=\"font-semibold\">Wartungsfreundlichkeit:</span> Auch nach vielen Jahren im Dauereinsatz lassen sich K Aqua Kugelhähne und Schrägsitzventile dank teflonbeschichteter Dichtelemente leichtgängig und präzise bedienen.</li></ul><p>Für eine maximale Anlagenverfügbarkeit empfehlen wir, die Armaturen bereits in der Planungsphase strategisch zu positionieren, um Wartungsarbeiten und Spülvorgänge ohne weitreichende Netzunterbrechungen durchführen zu können.</p>",
-        "seoTitle": "Absperrventile & Kugelhähne"
+        "seoTitle": "Жапқыш вентильдер мен шарлы крандар"
       },
       "weldInSaddles": {
-        "areas": "Nachträgliche Abzweige, Rohrnetzerweiterung, Verteilungsaufbau",
-        "advTitle": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität",
+        "areas": "Кейіннен қосылатын тармақтар, құбыр желісін кеңейту, тарату құрылымы",
+        "advTitle": "Максималды икемділік үшін дәнекерленетін ершіктер (Weld-in Saddles)",
         "advList": [
           "Nachträgliche Installation: Erweiterung bestehender PP-R Rohrnetze ohne Trennen des Hauptrohres.",
           "Zeitsparend: Bohren, Aufheizen, Einschweißen, fertig in wenigen Minuten.",
@@ -3760,13 +3727,13 @@
           "Voller Durchfluss: Keine Querschnittsverengung im Hauptstrang.",
           "Vielseitig: Erhältlich mit oder ohne metallischen Gewindeübergang (IG/AG)."
         ],
-        "seoText": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität sind die perfekte Lösung für nachträgliche Abzweige in bestehenden Leitungsnetzen. Anstatt das Hauptrohr mühsam zu trennen und T-Stücke einzusetzen, wird das Rohr lediglich angebohrt und der Sattel homogen aufgeschweißt. Diese Technik spart enorme Montagezeiten und Materialkosten bei industriellen Verteilersystemen.",
-        "guideTitle": "Installationsleitfaden: Flexibilität durch Einschweißsättel (Weld-in Saddles)",
+        "seoText": "Максималды икемділікке арналған дәнекерленетін ершіктер (Weld-in Saddles) — қолданыстағы құбыр желілеріндегі кейінгі тармақтар үшін тамаша шешім. Негізгі құбырды әуре болып кесіп, Т-тәрізді бөлшектер орнатудың орнына, құбыр тек бұрғыланып, ершік біртекті түрде дәнекерленеді. Бұл технология өнеркәсіптік тарату жүйелерінде монтаждау уақыты мен материал шығындарын айтарлықтай үнемдейді.",
+        "guideTitle": "Орнату нұсқаулығы: дәнекерленетін ершіктер (Weld-in Saddles) арқылы икемділік",
         "guideText": "<p>Die Modifikation oder Erweiterung bestehender industrieller und gewerblicher Rohrnetze ist oft mit hohem Aufwand verbunden. Hier bieten <span class=\"font-semibold\">K Aqua Einschweißsättel</span> eine effiziente und äußerst sichere Lösung, um nachträgliche Abzweige ohne Leitungsunterbrechung zu schaffen.</p><p>Die wesentlichen technischen Vorteile im Überblick:</p><ul><li><span class=\"font-semibold\">Minimale Installationszeit:</span> Anstatt das Hauptrohr zu trennen und konventionelle T-Stücke einzubauen, wird das Rohr lediglich passgenau angebohrt und der Sattel aufgeschweißt. Das senkt die Montagekosten drastisch.</li><li><span class=\"font-semibold\">Erhalt der Systemintegrität:</span> Durch die Polyfusion verbindet sich der Einschweißsattel untrennbar mit der Rohrwandung, wodurch das System seine ursprüngliche Druck- und Temperaturbeständigkeit (bis PN 25) beibehält.</li><li><span class=\"font-semibold\">Flexible Anschlussmöglichkeiten:</span> Erhältlich als reiner Kunststoffabzweig oder mit integriertem Metallgewinde (IG/AG), ermöglichen Sättel den direkten Anschluss von Sensoren, Manometern oder Abzweigleitungen auf engstem Raum.</li></ul><p>Um eine einwandfreie Schweißung zu gewährleisten, ist die Verwendung der speziellen K Aqua Anbohr- und Schweißwerkzeuge zwingend erforderlich, da sie die exakte Frästiefe und Erwärmungsfläche für eine makellose Verbindung garantieren.</p>",
-        "seoTitle": "Einschweißsättel für Rohrleitungen"
+        "seoTitle": "Құбырларға арналған дәнекерленетін ершіктер"
       },
       "accessories": {
-        "areas": "Rohrbefestigung, Dichtung, Flanschverbindung, Reparatur",
+        "areas": "Құбырды бекіту, тығыздау, фланецтік қосылыс, жөндеу",
         "advTitle": "Accessories (Zubehör) für eine normgerechte Installation",
         "advList": [
           "Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K Aqua Rohrsystem abgestimmt.",
@@ -3775,8 +3742,8 @@
           "Schnelle Reparatur: Reparaturstopfen für versehentlich angebohrte Rohre.",
           "UV-Beständigkeit: Ausgewählte Zubehörteile sind speziell für die Außenaufstellung stabilisiert."
         ],
-        "seoText": "Das richtige Accessories-Sortiment (Zubehör) ist entscheidend für die Langlebigkeit eines Rohrnetzes. K Aqua bietet eine umfassende Zubehör-Matrix: von der thermodynamischen Befestigungsschelle zur Aufnahme von Längenausdehnungen bis hin zur EPDM-Flachdichtung für Flanschverbindungen. Nur mit dem perfekt abgestimmten K Aqua Zubehör gewährleisten Sie die Einhaltung aller GEG- und DIN 18381-Vorgaben.",
-        "guideTitle": "Fachratgeber: K Aqua Zubehör für normgerechte Installationen",
+        "seoText": "Дұрыс керек-жарақтар ассортименті құбыр желісінің ұзақ мерзімділігі үшін шешуші рөл атқарады. K Aqua кешенді керек-жарақтар матрицасын ұсынады: сызықтық ұзаруларды қабылдайтын термодинамикалық бекіту қамыттарынан бастап фланецтік қосылыстарға арналған EPDM жалпақ тығыздағыштарға дейін. Тек мінсіз үйлестірілген K Aqua керек-жарақтарымен ғана барлық GEG және DIN 18381 талаптарының сақталуын қамтамасыз етесіз.",
+        "guideTitle": "Кәсіби нұсқаулық: стандартқа сай орнатылымдарға арналған K Aqua керек-жарақтары",
         "guideText": "<p>Ein hochwertiges Rohrsystem erfordert ebenso hochwertiges Zubehör. Das K Aqua Sortiment umfasst alle essenziellen Komponenten, um Langlebigkeit, Sicherheit und die Einhaltung aller bauphysikalischen Normen zu gewährleisten.</p><p>Die wichtigsten Aspekte zur richtigen Verwendung unseres Zubehörs:</p><ul><li><span class=\"font-semibold\">Kompensation der Längenausdehnung:</span> Bei Temperaturwechseln dehnen sich Kunststoffrohre aus. Der gezielte Einsatz unserer thermodynamischen Rohrschellen als Fest- und Loslager nimmt diese Bewegungen sicher auf und schützt das System vor schädlichen Eigenspannungen. Dies ist besonders bei industriellen Anlagen und Steigleitungen von entscheidender Bedeutung, wo unkontrollierte Ausdehnungen zu strukturellen Schäden führen könnten.</li><li><span class=\"font-semibold\">Dichte Flanschverbindungen:</span> Für Übergänge auf große Armaturen, Pumpen oder Tanks bieten unsere Losflansche und die exakt abgestimmten EPDM-Flachdichtungen absolute Sicherheit bei hohen Anpressdrücken und dauerhaften Vibrationen. Sie garantieren eine nahtlose, flüssigkeitsdichte Verbindung und verhindern so potenziell desaströse Leckagen in kritischen Infrastrukturen.</li><li><span class=\"font-semibold\">Reparaturlösungen:</span> Mit unserem innovativen Reparaturstopfen lassen sich versehentlich angebohrte Rohre (z. B. auf Baustellen) in Minuten homogen verschweißen, sodass das Rohr seine volle mechanische Belastbarkeit zurückerhält. Ein kompletter Austausch des Leitungsabschnitts entfällt somit.</li></ul><p>Zusätzlich zur Kompensation und Dichtigkeit spielen <span class=\"font-semibold\">Isolierung und Brandschutz</span> eine zentrale Rolle bei der fachgerechten Installation. Das Zubehörsortiment von K Aqua ist darauf ausgelegt, thermische Verluste zu minimieren und höchste Sicherheitsstandards zu erfüllen. Unsere Spezialdichtungen und Befestigungselemente sind so konstruiert, dass sie Schallübertragungen effektiv dämpfen und Körperschallausbreitung im Mauerwerk verhindern.</p><p>Durch die ausschließliche Verwendung von Original K Aqua Zubehörteilen sichern Sie sich die volle Systemgewährleistung und vermeiden kostenintensive Mängel durch inkompatible Drittanbieter-Produkte. Investieren Sie in kompromisslose Qualität, um den störungsfreien Betrieb Ihres Leitungssystems für Jahrzehnte zu garantieren.</p> Accessories (Zubehör) für eine normgerechte Installation.",
         "faq": [
           {
@@ -3792,10 +3759,10 @@
             "a": "Ja, unser Sortiment umfasst hochbelastbare Losflansche mit Stahlkern, EPDM-Spezialdichtungen und verstärkte Rohrschellen, die extremen industriellen Belastungen problemlos standhalten."
           }
         ],
-        "seoTitle": "Zubehör für die Rohrinstallation"
+        "seoTitle": "Құбыр орнатуға арналған керек-жарақтар"
       },
       "tools": {
-        "areas": "Vorfertigung, Baustellenmontage, Reparatur, Spezialanwendungen",
+        "areas": "Алдын ала дайындау, құрылыс алаңында монтаждау, жөндеу, арнайы қолданбалар",
         "advTitle": "Höchste Präzision für die perfekte Verbindung",
         "advList": [
           "Exakte Temperaturkontrolle: Mikroprozessorgesteuerte Heizelemente halten exakt 260°C.",
@@ -3804,14 +3771,14 @@
           "Digitale Dokumentation: Stumpf- und Elektroschweißmaschinen mit Protokollfunktion.",
           "Lange Lebensdauer: Robuste Mechanik für den rauen Baustellenalltag."
         ],
-        "seoText": "Das K Aqua Werkzeugsortiment bildet die unverzichtbare Grundlage für die fachgerechte Verarbeitung unserer Rohrleitungssysteme. Von der präzisen Rohrschere bis zur automatisierten CNC-Stumpfschweißmaschine bieten wir für jede Dimension das optimale Equipment. Nur mit kalibrierten Originalwerkzeugen lassen sich die vom DVS geforderten Fügeparameter exakt einhalten, um die Lebensdauer von über 50 Jahren zu garantieren.",
-        "guideTitle": "Praxisleitfaden: Profi-Werkzeuge für die K Aqua Rohrmontage",
+        "seoText": "K Aqua құралдар ассортименті құбыр жүйелерімізді кәсіби өңдеудің таптырмас негізін құрайды. Дәл құбыр қайшысынан бастап автоматтандырылған CNC түйістіре дәнекерлеу машинасына дейін біз әрбір өлшемге оңтайлы жабдықты ұсынамыз. Тек калибрленген түпнұсқа құралдармен ғана DVS талап ететін біріктіру параметрлерін дәл сақтап, 50 жылдан астам қызмет мерзімін кепілдеуге болады.",
+        "guideTitle": "Тәжірибелік нұсқаулық: K Aqua құбыр монтажына арналған кәсіби құралдар",
         "guideText": "<p>Die Qualität einer Kunststoffrohr-Installation steht und fällt mit der Präzision der verwendeten Werkzeuge. <span class=\"font-semibold\">K Aqua Schweiß- und Schneidwerkzeuge</span> sind speziell auf die thermoplastischen Eigenschaften von PP-R und PPRCT abgestimmt, um fehlerfreie Ergebnisse zu erzielen.</p><p>Warum professionelles Equipment unverzichtbar ist:</p><ul><li><span class=\"font-semibold\">Makellose Vorbereitung:</span> Ein absolut rechtwinkliger und gratfreier Schnitt ist die Grundvoraussetzung für eine dichte Schweißnaht. Unsere Rohrschneider und Kaltkreissägen verhindern Materialstauchungen und Mikrorisse.</li><li><span class=\"font-semibold\">Thermodynamische Präzision:</span> Die mikroprozessorgesteuerten Muffenschweißgeräte halten die ideale Fügetemperatur von 260°C auch bei widrigen Wetterbedingungen konstant, was eine Degradation des Polymers zuverlässig verhindert.</li><li><span class=\"font-semibold\">Automatisierte Sicherheit:</span> Bei großen Nennweiten eliminieren unsere computergesteuerten Stumpfschweiß- und Elektroschweißmaschinen menschliche Fehler, indem sie Druck, Zeit und Temperatur vollautomatisch regeln und für die Bauabnahme digital dokumentieren.</li></ul><p>Eine regelmäßige Wartung und Reinigung der teflonbeschichteten Heizdorne ist essenziell, um eine homogene Schmelze und dauerhaft belastbare, leckagefreie Leitungsnetze zu gewährleisten.</p>",
-        "seoTitle": "Schweißwerkzeuge & Rohrabschneider"
+        "seoTitle": "Дәнекерлеу құралдары мен құбыр кескіштер"
       },
       "fallback": {
-        "areas": "Universelle Installationstechnik, Baustellenbedarf, Systemergänzung",
-        "advTitle": "Perfekte Systemergänzung",
+        "areas": "Әмбебап орнату техникасы, құрылыс алаңы қажеттіліктері, жүйені толықтыру",
+        "advTitle": "Мінсіз жүйелік толықтыру",
         "advList": [
           "geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.",
           "Systemkompatibilität: Perfekt auf das K Aqua Rohrsystem abgestimmt.",
@@ -3819,7 +3786,7 @@
           "Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.",
           "Wirtschaftlichkeit: Hervorragendes Preis-Leistungs-Verhältnis."
         ],
-        "seoText": "Als Systemanbieter liefert K Aqua nicht nur Rohre und Fittings, sondern auch das gesamte benötigte Werkzeug und Zubehör. Vom hochpräzisen Schweißgerät bis zum zuverlässigen Rohrabschneider: unsere Werkzeuge garantieren eine normgerechte Verarbeitung und maximale Installationssicherheit. Setzen Sie auf Originalzubehör, um die Gewährleistung Ihres K Aqua Gesamtsystems zu erhalten."
+        "seoText": "Жүйелік жеткізуші ретінде K Aqua тек құбырлар мен фитингтерді ғана емес, барлық қажетті құралдар мен керек-жарақтарды да жеткізеді. Жоғары дәлдіктегі дәнекерлеу аппаратынан бастап сенімді құбыр кескішке дейін: біздің құралдарымыз стандартқа сай өңдеуді және максималды орнату қауіпсіздігін кепілдейді. K Aqua толық жүйеңіздің кепілдігін сақтау үшін түпнұсқа керек-жарақтарды қолданыңыз."
       }
     },
     "labels": {
@@ -3856,20 +3823,20 @@
     "calcCo2": "CO2 ізін есептеу",
     "backToFinder": "Өнім іздеуге оралу",
     "enterpriseCore": "Enterprise Core",
-    "highPerformance": "High-Performance Pipe Systems",
-    "highPerformanceDesc": "For industrial applications, drinking water supply, and climate control under extreme conditions.",
-    "sysPressure": "System Pressure",
-    "tempMax": "Max Temperature",
-    "material": "Material",
-    "norm": "Standard",
-    "certification": "Certification",
-    "lifespan": "Lifespan",
-    "fiberTech": "Fiber-Composite Technology",
-    "fiberTechDesc": "3-layer structure for minimized linear expansion and maximum stability at high temperatures.",
-    "compliance": "Compliance & Standards",
-    "dimensions": "Dimensions",
-    "globalNetwork": "Global Network",
-    "globalNetworkDesc": "K Aqua systems are in use in over 40 countries worldwide.",
+    "highPerformance": "Жоғары өнімді құбыр жүйелері",
+    "highPerformanceDesc": "Өнеркәсіптік қолданбалар, ауызсумен қамту және экстремалды жағдайлардағы климаттық техника үшін.",
+    "sysPressure": "Жүйе қысымы",
+    "tempMax": "Максималды температура",
+    "material": "Материал",
+    "norm": "Стандарт",
+    "certification": "Сертификаттау",
+    "lifespan": "Қызмет мерзімі",
+    "fiberTech": "Талшықты-композиттік технология",
+    "fiberTechDesc": "Сызықтық ұзаруды азайтуға және жоғары температурада максималды тұрақтылыққа арналған 3 қабатты құрылым.",
+    "compliance": "Сәйкестік және стандарттар",
+    "dimensions": "Өлшемдер",
+    "globalNetwork": "Жаһандық желі",
+    "globalNetworkDesc": "K Aqua жүйелері әлемнің 40-тан астам елінде қолданылады.",
     "whyChoose": "{product} неге дұрыс таңдау болып табылады",
     "category": {
       "allProducts": "Барлық өнімдер",
@@ -4003,9 +3970,9 @@
         "secondary": "Сарапшыға хабарласу"
       },
       "hero": {
-        "eyebrow": "Ventile & Armaturen",
-        "title": "PP-R Armaturen & Ventile für präzise Regelung",
-        "lead": "Absperren, regeln, sichern: K Aqua Armaturen aus PP-R verbinden korrosionsfreie Hydraulik mit deutscher Fertigungspräzision für Trinkwasser, HLK und Industrie. Für präzise Regelung in Trinkwasser- und Heizungsnetzen."
+        "eyebrow": "Вентильдер мен арматура",
+        "title": "Дәл реттеуге арналған PP-R арматурасы мен вентильдері",
+        "lead": "Жабу, реттеу, қорғау: PP-R материалынан жасалған K Aqua арматурасы коррозиясыз гидравликаны неміс өндірістік дәлдігімен біріктіреді — ауызсу, ЖЖК және өнеркәсіп үшін. Ауызсу және жылыту желілерінде дәл реттеу үшін."
       }
     },
     "pipes": {
@@ -4107,21 +4074,21 @@
         "desc": "Құбыр жүйелеріне арналған жоғары дәлдіктегі PP-R фитингтері мен пішінді бөлшектері. Қауіпсіз, тұрақты тығыз және ағынға оңтайландырылған."
       },
       "hero": {
-        "eyebrow": "Formteile & Fittings",
-        "title": "PP-R Fittings & Formteile für dauerhaft dichte Verbindungen",
-        "lead": "Vom Winkel bis zur Reduzierung: K Aqua PP-R Fittings verschmelzen beim Schweißen molekular mit dem Rohr. Ein homogenes System ohne Dichtungen und ohne Schwachstellen. Für dauerhaft dichte Verbindungen in jedem Rohrnetz."
+        "eyebrow": "Фасондық бөлшектер мен фитингтер",
+        "title": "Ұзақ мерзімді герметикалық қосылыстарға арналған PP-R фитингтері мен фасондық бөлшектері",
+        "lead": "Бұрыштан редукцияға дейін: K Aqua PP-R фитингтері дәнекерлеу кезінде құбырмен молекулалық деңгейде бірігеді. Тығыздағыштарсыз және осал жерлерсіз біртекті жүйе. Кез келген құбыр желісінде ұзақ мерзімді герметикалық қосылыстар үшін."
       },
       "intro": {
-        "eyebrow": "Die Industrielle Autorität",
-        "title": "Sicherheit ist kein Zufall. Sie ist berechenbar.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten. Wir setzen den Standard, dem der Rest der Welt folgt.",
-        "text1": "Seit Jahrzehnten bündeln wir in unserem Stammwerk im Herzen Deutschlands handwerklichen Stolz mit modernster, hochautomatisierter Fertigungstechnologie. Jeder Winkel, jede Muffe, jedes T-Stück trägt die unverkennbare DNA deutscher Ingenieurskunst. Im Einsatz in den härtesten Wüsten, extremsten Klimazonen und anspruchsvollsten Industrieanlagen der Welt beweist sich unser Material jeden Tag aufs Neue.",
-        "text2": "Die Verschmelzung von Makromolekülen in unserem PP-R System schafft ein Rohrleitungsnetzwerk ohne Schwachstellen. Es gibt keine Dichtungsringe, die korrodieren können, keine Klebestellen, die durch Chemikalien angegriffen werden. Das Rohr und das Fitting werden thermisch zu einem einzigen, untrennbaren Werkstück verschmolzen. Dies ist die absolute Definition von Sicherheit."
+        "eyebrow": "Өнеркәсіптік бедел",
+        "title": "Қауіпсіздік кездейсоқтық емес. Ол есептеледі.",
+        "lead": "Халықаралық бас мердігерлер миллиардтық жобаларды жоспарлағанда, олар уәделерге емес, нақты фактілерге сенеді. Біз әлемнің қалған бөлігі ұстанатын стандартты орнатамыз.",
+        "text1": "Ондаған жылдар бойы біз Германияның жүрегіндегі бас зауытымызда қолөнер мақтанышын заманауи, жоғары автоматтандырылған өндіріс технологиясымен біріктіріп келеміз. Әрбір бұрыш, әрбір муфта, әрбір Т-тәрізді бөлшек неміс инженерлік өнерінің айқын ДНҚ-сын алып жүреді. Әлемнің ең қатал шөлдерінде, ең экстремалды климаттық аймақтарында және ең талапшыл өнеркәсіптік қондырғыларында біздің материал күн сайын өзін қайта дәлелдейді.",
+        "text2": "Біздің PP-R жүйесіндегі макромолекулалардың бірігуі осал жерлері жоқ құбыр желісін жасайды. Коррозияға ұшырауы мүмкін тығыздағыш сақиналар жоқ, химиялық заттардан зақымдалатын желімделген жерлер жоқ. Құбыр мен фитинг термиялық жолмен бір, ажырамас бұйымға біріктіріледі. Бұл — қауіпсіздіктің абсолютті анықтамасы."
       },
       "sticky": {
-        "eyebrow": "Architektur der Perfektion",
-        "title": "Die Anatomie der Zuverlässigkeit.",
-        "lead": "Ein tiefer Einblick in die physikalischen und chemischen Eigenschaften, die unsere Formteile zum weltweiten Benchmark machen.",
+        "eyebrow": "Мінсіздік архитектурасы",
+        "title": "Сенімділік анатомиясы.",
+        "lead": "Фасондық бөлшектерімізді әлемдік эталонға айналдыратын физикалық және химиялық қасиеттерге терең үңілу.",
         "items": [
           {
             "title": "Das molekulare Gefüge",
@@ -4142,9 +4109,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Leistungsdaten",
-        "title": "Spezifikationen jenseits des Standards.",
-        "lead": "Während die Industrie Normen als Ziel betrachtet, sehen wir sie lediglich als absolutes Minimum.",
+        "eyebrow": "Өнімділік деректері",
+        "title": "Стандарттан жоғары спецификациялар.",
+        "lead": "Индустрия стандарттарды мақсат деп санаса, біз оларды тек абсолютті минимум деп қараймыз.",
         "items": [
           {
             "title": "DIN EN ISO 15874",
@@ -4165,8 +4132,8 @@
         ]
       },
       "timeline": {
-        "title": "Der Genesis-Prozess",
-        "desc": "Von der molekularen Rohmasse zum unzerstörbaren Bauteil. Ein Blick in unsere hochgradig automatisierte Fertigungsmatrix.",
+        "title": "Генезис процесі",
+        "desc": "Молекулалық шикізаттан бұзылмайтын бөлшекке дейін. Біздің жоғары автоматтандырылған өндіріс матрицамызға көзқарас.",
         "items": [
           {
             "year": "Schritt 01",
@@ -4196,15 +4163,15 @@
         ]
       },
       "depth": {
-        "title": "Lebensdauer > 50 Jahre. Garantiert.",
-        "text": "Die Zeit ist der ultimative Stresstest für jedes Material. Unsere Fittings sind darauf ausgelegt, die Lebensdauer des Gebäudes selbst zu übertreffen. Durch die Zugabe von speziellen Antioxidantien und thermischen Stabilisatoren in unsere PP-R Matrix wird die thermisch-oxidative Alterung massiv verzögert. Selbst bei kontinuierlichen Vorlauftemperaturen von 70°C und Druckbelastungen von 10 Bar garantieren wir eine Standzeit von über einem halben Jahrhundert. Das ist kein Marketing. Das ist angewandte Polymerphysik.",
-        "badge": "100% Wartungsfrei"
+        "title": "Қызмет мерзімі > 50 жыл. Кепілдендірілген.",
+        "text": "Уақыт — кез келген материал үшін ең үлкен стресс-сынақ. Біздің фитингтер ғимараттың өз қызмет мерзімінен де асып түсуге арналған. PP-R матрицамызға арнайы антиоксиданттар мен термиялық тұрақтандырғыштарды қосу арқылы термиялық-тотығу қартаюы айтарлықтай баяулайды. Тіпті 70°C үздіксіз беру температурасы мен 10 бар қысым жүктемесінде де жарты ғасырдан астам қызмет мерзімін кепілдейміз. Бұл маркетинг емес. Бұл — қолданбалы полимер физикасы.",
+        "badge": "100% техникалық қызмет көрсетусіз"
       },
       "cta": {
-        "title": "Bereit für kompromisslose Qualität?",
-        "desc": "Verbinden Sie sich mit unserem Engineering Team. Wir liefern nicht nur Produkte, wir liefern die Sicherheit für Ihr nächstes Megaprojekt.",
-        "primary": "Projektanfrage starten",
-        "secondary": "Gesamtes Sortiment ansehen"
+        "title": "Ымырасыз сапаға дайынсыз ба?",
+        "desc": "Инженерлік тобымызбен байланысыңыз. Біз тек өнім ғана емес, келесі мегажобаңыз үшін қауіпсіздікті де жеткіземіз.",
+        "primary": "Жоба сұранысын бастау",
+        "secondary": "Толық ассортиментті көру"
       }
     },
     "transitionFittings": {
@@ -4379,7 +4346,7 @@
     "certNo": "Сертификат №",
     "valid": "Жарамды",
     "download": "Жүктеу",
-    "genauEyebrow": "GENAU-Framework",
+    "genauEyebrow": "GENAU жүйесі",
     "genauTitle": "Бес әріп. Бір жүйе.",
     "genauLead": "GENAU басқару жүйесі KWT үйінде орнатылған. Бес тіректі басып өтіңіз.",
     "genau": [
@@ -4466,9 +4433,9 @@
     ]
   },
   "academy": {
-    "eyebrow": "K-Aqua Academy",
-    "title1": "Wissen, das",
-    "titleGrad": "verbindet.",
+    "eyebrow": "K-Aqua академиясы",
+    "title1": "Байланыстыратын",
+    "titleGrad": "білім.",
     "lead": "Vier PP-R Schweißtechniken im Video und ein Quiz, das Sie zum Schweißmeister macht. Wissen, das in der K-Aqua Academy verbindet. Optimiert für die Baustelle: große Ziele, hohe Kontraste.",
     "videos": [
       {
@@ -4488,11 +4455,11 @@
         "s": "Großdimensionen bis d630"
       }
     ],
-    "quizEyebrow": "Schweißmeister-Quiz",
-    "quizTitle": "Fünf Fragen. Ein Abzeichen.",
-    "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
-    "start": "Quiz starten",
-    "qLabel": "Frage",
+    "quizEyebrow": "Дәнекерлеу шебері квизі",
+    "quizTitle": "Бес сұрақ. Бір белгі.",
+    "intro": "PP-R/PPRCT бойынша монтаждау біліміңізді тексеріңіз. Қатесіз өткен жағдайда — «Дәнекерлеу шебері» атағы.",
+    "start": "Тестті бастау",
+    "qLabel": "Сұрақ",
     "quiz": [
       {
         "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
@@ -4535,36 +4502,36 @@
         ]
       }
     ],
-    "resPerfect": "Perfekt! Titel „Schweißmeister\" verdient!",
-    "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. Für den Meister: alle fünf richtig.",
-    "resLow": "Die Videos oben helfen. Danach klappt der Meister.",
-    "retry": "Nochmal versuchen",
-    "titlePerfect": "Schweißmeister",
-    "titleGood": "Schweiß-Geselle",
+    "resPerfect": "Тамаша! «Дәнекерлеу шебері» атағын алдыңыз!",
+    "resGood": "Жақсы нәтиже! «Дәнекерлеуші-маман» атағы сізде. Шебер атағы үшін бес сұрақтың бәріне дұрыс жауап беру керек.",
+    "resLow": "Жоғарыдағы бейнематериалдар көмектеседі. Содан кейін шебер атағы да қол жетеді.",
+    "retry": "Қайта көру",
+    "titlePerfect": "Дәнекерлеу шебері",
+    "titleGood": "Дәнекерлеуші-маман",
     "schulungen": {
       "meta": {
-        "title": "Schulungen | K Aqua",
-        "desc": "K Aqua Schulungen: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Nehmen Sie an unseren Expertenschulungen teil."
+        "title": "Оқыту курстары | K Aqua",
+        "desc": "K Aqua оқыту курстары: жаһандық мегажобалар үшін German Engineering арқылы мүлтіксіз қауіпсіздік. Біздің сарапшылар өткізетін оқуларға қатысыңыз."
       },
       "hero": {
         "eyebrow": "GERMAN ENGINEERING ACADEMY",
-        "title1": "Prüfung der",
-        "title2": "Industriellen Elite.",
-        "desc": "Das K Aqua Schulungsprogramm ist keine gewöhnliche Weiterbildung. Es ist die Initiation in die kompromisslose Welt des deutschen Rohrleitungsbaus. Für Ingenieure und Techniker, die Megaprojekte verantworten, in denen Materialversagen keine Option, sondern eine absolute Katastrophe darstellt. Wir lehren in Mikrometern, wir denken in Jahrzehnten.",
-        "cta1": "Akademie-Bewerbung starten",
-        "cta2": "Curriculum einsehen"
+        "title1": "Индустриялық элитаны",
+        "title2": "сынау.",
+        "desc": "K Aqua оқыту бағдарламасы — қарапайым біліктілікті арттыру курсы емес. Бұл — неміс құбыр құрылысының мүлтіксіз әлеміне бастайтын жол. Материалдың істен шығуы жай ғана қателік емес, нағыз апат болып саналатын мегажобаларға жауап беретін инженерлер мен техник мамандарға арналған. Біз микрометрмен оқытамыз, онжылдықтармен ойлаймыз.",
+        "cta1": "Академияға өтінім беру",
+        "cta2": "Оқу бағдарламасын қарау"
       },
       "manifesto": {
-        "title1": "Präzision",
-        "title2": "ist <span className=\"text-primary\">kein</span>",
-        "title3": "Zufall.",
-        "p1": "Sie ist das Resultat unerbittlicher Methodik und eiskalter, industrieller Disziplin. Wenn Tausende Kubikmeter Wasser unter enormem Druck durch die Lebensadern eines 100-stöckigen Hochhauses gepumpt werden, gibt es keinen Spielraum für Näherungswerte oder Interpretationen.",
-        "p2": "Das K Aqua Schulungsprogramm wurde entwickelt, um die Lücke zwischen theoretischem Wissen und fehlerfreier, maschineller Perfektion zu schließen. Wer in unserer Akademie trainiert wird, agiert nicht mehr als bloßer Handwerker. Er wird zum ausführenden Organ eines perfekten, deterministischen Systems."
+        "title1": "Дәлдік",
+        "title2": "<span className=\"text-primary\">кездейсоқтық</span>",
+        "title3": "емес.",
+        "p1": "Ол — қатаң әдістеме мен темірдей индустриялық тәртіптің нәтижесі. Мыңдаған текше метр су орасан қысыммен 100 қабатты зәулім ғимараттың тіршілік тамырлары арқылы айдалғанда, жуық шамалар мен еркін түсіндірмелерге орын жоқ.",
+        "p2": "K Aqua оқыту бағдарламасы теориялық білім мен қатесіз, машиналық мінсіздік арасындағы алшақтықты жою үшін әзірленген. Біздің академияда дайындықтан өткен маман бұдан былай жай ғана қолөнерші емес. Ол мінсіз, детерминистік жүйенің атқарушы буынына айналады."
       },
       "bento": {
-        "eyebrow": "DIE SÄULEN DER AUTORITÄT",
-        "title": "Wissen als absolute Waffe.",
-        "lead": "Unsere technischen Schulungsmodule sind nicht dafür konzipiert, es Ihnen leicht zu machen. Sie sind dafür konzipiert, Fehler gnadenlos auszumerzen.",
+        "eyebrow": "БЕДЕЛДІҢ ТІРЕКТЕРІ",
+        "title": "Білім — абсолютті қару.",
+        "lead": "Біздің техникалық оқу модульдері сізге жеңілдік жасау үшін емес, қателерді аяусыз жою үшін жасалған.",
         "items": [
           {
             "title": "Homogene Materialverschmelzung",
@@ -4585,13 +4552,13 @@
         ]
       },
       "typography": {
-        "t1": "NULL-FEHLER",
-        "t2": "TOLERANZ."
+        "t1": "НӨЛДІК ҚАТЕ",
+        "t2": "ТАЛАБЫ."
       },
       "curriculum": {
-        "eyebrow": "DAS CURRICULUM",
-        "title": "Akademische Kompromisslosigkeit.",
-        "lead": "Vier Module. Eine Doktrin. Jedes Segment unseres Curriculums ist darauf ausgerichtet, Schwächen in der Ausführung zu identifizieren und systemisch zu vernichten."
+        "eyebrow": "ОҚУ БАҒДАРЛАМАСЫ",
+        "title": "Академиялық ымырасыздық.",
+        "lead": "Төрт модуль. Бір доктрина. Оқу бағдарламамыздың әр бөлімі орындаудағы әлсіз тұстарды анықтап, оларды жүйелі түрде жоюға бағытталған."
       },
       "sticky": {
         "items": [
@@ -4614,8 +4581,8 @@
         ]
       },
       "timeline": {
-        "title": "Der Zertifizierungs-Pfad.",
-        "desc": "Die Transformation vom Installateur zum geprüften K Aqua Master-Engineer folgt einem strikten, unerbittlichen Rhythmus. Nur wer diesen Pfad bis zum Ende geht, erhält die Autorisation für unsere Hochleistungs-Systeme.",
+        "title": "Сертификаттау жолы.",
+        "desc": "Монтаждаушыдан сертификатталған K Aqua Master-Engineer деңгейіне дейінгі жол қатаң, бұлжымас ырғақпен жүреді. Жоғары өнімді жүйелерімізбен жұмыс істеуге рұқсатты тек осы жолды соңына дейін өткендер ғана алады.",
         "items": [
           {
             "year": "PHASE 01",
@@ -4645,9 +4612,9 @@
         ]
       },
       "spec": {
-        "eyebrow": "GLOBALER STANDARD",
-        "title": "Die globale Benchmark für Sicherheit.",
-        "desc": "Unsere Prüfung ist nicht nur ein Stück Papier. Sie ist ein in Titan gegossenes Versprechen an Bauherren und Investoren weltweit. Wo das K Aqua Zertifikat vorliegt, wurde die Installation nach den strengsten deutschen Ingenieurs-Standards durchgeführt.",
+        "eyebrow": "ЖАҺАНДЫҚ СТАНДАРТ",
+        "title": "Қауіпсіздіктің жаһандық эталоны.",
+        "desc": "Біздің емтихан — жай қағаз емес. Ол — бүкіл әлемдегі тапсырыс берушілер мен инвесторларға берілген титаннан құйылған уәде. K Aqua сертификаты бар жерде монтаж ең қатаң неміс инженерлік стандарттарына сай орындалған.",
         "items": [
           {
             "title": "Internationale Gültigkeit",
@@ -4664,10 +4631,10 @@
         ]
       },
       "cta": {
-        "title1": "Bereit für die",
-        "title2": "absolute Kontrolle?",
-        "desc": "Unterwerfen Sie sich dem Maßstab deutscher Ingenieurskunst. Senden Sie uns Ihr Profil oder fordern Sie die Spezifikationen für firmeninterne Audits an.",
-        "button": "Bewerbung initiieren"
+        "title1": "Абсолютті бақылауға",
+        "title2": "дайынсыз ба?",
+        "desc": "Неміс инженерлік өнерінің өлшеміне сай болуға ұмтылыңыз. Бізге кәсіби профиліңізді жіберіңіз немесе компанияішілік аудиттердің спецификацияларын сұратыңыз.",
+        "button": "Өтінім беру"
       },
       "modules": {
         "eyebrow": "Оқу жоспары",
@@ -4699,26 +4666,26 @@
     },
     "zertifizierung": {
       "meta": {
-        "title": "Zertifikate & Normen | K Aqua",
-        "desc": "DVGW, SKZ, ISO und mehr. Entdecken Sie die kompromisslose Sicherheit und German Engineering-Qualität der K Aqua Rohrleitungssysteme."
+        "title": "Сертификаттар мен нормалар | K Aqua",
+        "desc": "DVGW, SKZ, ISO және басқалары. K Aqua құбыр жүйелерінің мүлтіксіз қауіпсіздігі мен German Engineering сапасымен танысыңыз."
       },
       "hero": {
         "eyebrow": "German Engineering Standards",
-        "title1": "Zertifikate.",
+        "title1": "Сертификаттар.",
         "title2": "Engineered in Germany.",
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Weil Materialversagen niemals eine Option ist.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technisches Handbuch"
+        "desc": "Бұл модуль әлемдегі ең талапшыл жобаларға мүлтіксіз қауіпсіздік ұсынады. Ұрпақтар бойы қызмет ету үшін ең қатаң индустриялық стандарттарға сай өндірілген. Өйткені материалдың істен шығуына ешқашан жол берілмейді.",
+        "cta1": "Жоба бойынша сұрау салу",
+        "cta2": "Техникалық нұсқаулық"
       },
       "manifesto": {
-        "title1": "Ein Zertifikat ist nur Papier.",
-        "title2": "Der Prozess dahinter ist aus Stahl.",
-        "p1": "Viele Hersteller sehen Normen als das ultimative Ziel. Wir sehen sie als die absolute Untergrenze. Unsere internen Toleranzen sind um ein Vielfaches strenger als das, was DVGW, ISO oder SKZ verlangen. Wenn ein K Aqua Rohr unser Werk verlässt, wurde es auf Molekularebene analysiert, mit extremen Drücken gefoltert und thermisch ans absolute Limit getrieben."
+        "title1": "Сертификат — бар болғаны қағаз.",
+        "title2": "Оның артындағы процесс — болаттан.",
+        "p1": "Көптеген өндірушілер нормаларды түпкі мақсат деп санайды. Біз оларды абсолютті төменгі шек деп білеміз. Ішкі рұқсаттамаларымыз DVGW, ISO немесе SKZ талап ететін деңгейден бірнеше есе қатаң. K Aqua құбыры зауытымыздан шыққанға дейін ол молекулалық деңгейде талданып, экстремалды қысыммен сыналып, термиялық жағынан абсолютті шекке дейін жеткізіледі."
       },
       "bento": {
-        "eyebrow": "Die Säulen der Sicherheit",
-        "title": "Die DNA eines perfekten Rohrsystems.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
+        "eyebrow": "Қауіпсіздіктің тіректері",
+        "title": "Мінсіз құбыр жүйесінің ДНҚ-сы.",
+        "lead": "Халықаралық бас мердігерлер миллиардтаған жобаларды жоспарлағанда маркетингтік уәделерге сенбейді. Олар нақты, физикалық тұрғыда өлшенетін фактілерді талап етеді.",
         "items": [
           {
             "title": "Extreme Druckbeständigkeit",
@@ -4743,9 +4710,9 @@
         ]
       },
       "certifications": {
-        "eyebrow": "Die Instanzen",
-        "title": "Die härtesten Prüfer der Welt.",
-        "lead": "Nur wer die kritischsten externen Audits besteht, darf das Label 'German Engineering' tragen. Hier sind die Institutionen, die unsere Qualität validieren.",
+        "eyebrow": "Бақылау органдары",
+        "title": "Әлемдегі ең қатал сарапшылар.",
+        "lead": "'German Engineering' белгісін тек ең қатаң сыртқы аудиттерден өткендер ғана иеленеді. Сапамызды растайтын мекемелер осында.",
         "items": [
           {
             "title": "DVGW: Die höchste Instanz",
@@ -4771,9 +4738,9 @@
       },
       "lab": {
         "eyebrow": "Inside the Lab",
-        "title1": "Die Anatomie",
-        "title2": "der Perfektion.",
-        "desc": "Bevor ein K Aqua System das Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, in der wir Materialien Bedingungen aussetzen, die sie in der Realität niemals erleben werden.",
+        "title1": "Мінсіздіктің",
+        "title2": "анатомиясы.",
+        "desc": "K Aqua жүйесі зауыттан шығар алдында біздің ішкі сынақ орталығынан өтуі тиіс. Бұл — материалдарды шынайы өмірде ешқашан кездеспейтін жағдайларға ұшырататын жоғары жарақтандырылған кешен.",
         "items": [
           {
             "title": "MFR (Melt Flow Rate)",
@@ -4790,8 +4757,8 @@
         ]
       },
       "timeline": {
-        "title": "Jahrzehnte der Innovation.",
-        "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind das Resultat jahrzehntelanger Ingenieurskunst und kontinuierlicher Prozessoptimierung.",
+        "title": "Инновацияның онжылдықтары.",
+        "desc": "Біздің сапа стандарттарымыз бір түнде пайда болған жоқ. Олар — ондаған жылғы инженерлік өнер мен процестерді үздіксіз жетілдірудің нәтижесі.",
         "items": [
           {
             "year": "1990",
@@ -4821,34 +4788,34 @@
         ]
       },
       "cta": {
-        "title": "Qualität, der Sie blind vertrauen können.",
-        "desc": "Laden Sie sich unsere offiziellen Zertifikate herunter oder sprechen Sie direkt mit unserem Engineering Team über die Spezifikationen Ihres nächsten Megaprojekts.",
-        "button1": "Zertifikate herunterladen",
-        "button2": "Technischen Support kontaktieren"
+        "title": "Көзсіз сене алатын сапа.",
+        "desc": "Ресми сертификаттарымызды жүктеп алыңыз немесе келесі мегажобаңыздың спецификациялары туралы инженерлік командамызбен тікелей сөйлесіңіз.",
+        "button1": "Сертификаттарды жүктеп алу",
+        "button2": "Техникалық қолдау қызметіне хабарласу"
       }
     },
     "glossar": {
       "meta": {
-        "title": "Technisches Glossar | K Aqua",
-        "desc": "K Aqua Glossar: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie Fachbegriffe der PP-R Rohrtechnik."
+        "title": "Техникалық глоссарий | K Aqua",
+        "desc": "K Aqua глоссарийі: жаһандық мегажобалар үшін German Engineering арқылы мүлтіксіз қауіпсіздік. PP-R құбыр технологиясының кәсіби терминдерімен танысыңыз."
       },
       "hero": {
-        "eyebrow": "Technisches Glossar",
-        "title1": "Terminologie der",
-        "title2": "Absoluten Sicherheit.",
-        "desc": "Willkommen im lexikalischen Kern der Rohrleitungstechnik. Hier decodieren wir die Prinzipien des German Engineering. Kein Marketing. Nur physikalische Fakten, Materialwissenschaft und industrielle Autorität.",
-        "cta1": "Engineering kontaktieren",
-        "cta2": "Glossar erkunden"
+        "eyebrow": "Техникалық глоссарий",
+        "title1": "Абсолютті қауіпсіздіктің",
+        "title2": "терминологиясы.",
+        "desc": "Құбыр технологиясының лексикалық өзегіне қош келдіңіз. Мұнда біз German Engineering қағидаттарын ашып көрсетеміз. Маркетинг жоқ. Тек физикалық фактілер, материалтану және индустриялық бедел.",
+        "cta1": "Инженерлік бөлімге хабарласу",
+        "cta2": "Глоссарийді шолу"
       },
       "manifesto": {
-        "eyebrow": "Die Doktrin",
-        "title": "Die Architektur der Unfehlbarkeit.",
-        "lead": "Ein Rohrleitungssystem ist das kardiovaskuläre System eines jeden Megaprojekts. Ein Ausfall bedeutet den infrastrukturellen Herzinfarkt. Deshalb sprechen wir nicht von Rohren, sondern von lebenswichtigen Industrie-Arterien. Jeder Begriff in diesem Glossar repräsentiert einen Pfeiler unserer Null Fehler-Philosophie."
+        "eyebrow": "Доктрина",
+        "title": "Мінсіздік архитектурасы.",
+        "lead": "Құбыр жүйесі — кез келген мегажобаның жүрек-қантамыр жүйесі. Оның істен шығуы инфрақұрылымдық инфарктпен тең. Сондықтан біз жай құбырлар туралы емес, өмірлік маңызы бар индустриялық артериялар туралы айтамыз. Бұл глоссарийдегі әр термин біздің нөлдік қате философиямыздың бір тірегін білдіреді."
       },
       "scroll": {
-        "eyebrow": "Kinematik & Materialwissenschaft",
-        "title": "Der K Aqua Prozess.",
-        "lead": "Von der molekularen Granulat-Ebene bis zur finalen Druckprüfung. Verstehen Sie die physikalischen Prinzipien, die unsere Systeme unzerstörbar machen.",
+        "eyebrow": "Кинематика және материалтану",
+        "title": "K Aqua процесі.",
+        "lead": "Молекулалық гранулят деңгейінен соңғы қысым сынағына дейін. Жүйелерімізді бұзылмайтын ететін физикалық қағидаттарды түсініңіз.",
         "items": [
           {
             "title": "Extrusionsdynamik unter Hochdruck",
@@ -4869,9 +4836,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Nomenklatur",
-        "title": "Technische Parameter.",
-        "lead": "Die wichtigsten Vokabeln der industriellen Rohrleitungstechnik, destilliert auf ihre Essenz.",
+        "eyebrow": "Номенклатура",
+        "title": "Техникалық параметрлер.",
+        "lead": "Индустриялық құбыр технологиясының ең маңызды терминдері, нағыз мәніне дейін сүзгіден өткізілген.",
         "items": [
           {
             "title": "PP-R (Polypropylen Random Copolymer)",
@@ -4897,8 +4864,8 @@
         ]
       },
       "timeline": {
-        "title": "Regulatorische Härte.",
-        "desc": "Normen sind für uns keine Vorschriften, sondern der Ausgangspunkt unserer Ingenieurskunst. Eine Chronologie der Zertifizierungen und Standards, die unsere Systeme nicht nur erfüllen, sondern dominieren.",
+        "title": "Регуляторлық қатаңдық.",
+        "desc": "Нормалар біз үшін ереже емес, инженерлік өнеріміздің бастау нүктесі. Жүйелеріміз тек орындап қана қоймай, үстемдік ететін сертификаттар мен стандарттардың хронологиясы.",
         "items": [
           {
             "year": "DIN 8077/8078",
@@ -4923,20 +4890,20 @@
         ]
       },
       "conclusion": {
-        "title": "Zersetzungsresistenz im Extremfall.",
-        "p1": "In industriellen Applikationen entscheidet nicht der Normalbetrieb über die Qualität eines Rohrleitungssystems, sondern die Stabilität in den Grenzbereichen. Chemische Korrosion, Kavitation durch Druckschläge und thermische Schocks sind die natürlichen Feinde herkömmlicher Installationen.",
-        "p2": "Die <span class=\"font-semibold\">K Aqua Matrix</span> isoliert das fluide Medium durch eine inerte Sperrschicht von der Umgebung. Es findet kein Ionenaustausch statt. Metallische Systeme degradieren von dem Moment an, in dem Wasser durch sie fließt. Sie opfern sich selbst, um zu funktionieren. Unser PP-R System bleibt auch nach Jahrzehnten im Inneren makellos.",
-        "p3": "Der Begriff der <span class=\"font-semibold\">Spannungsrissbeständigkeit</span> (Environmental Stress Cracking Resistance, ESCR) ist in der Polymerchemie von zentraler Bedeutung. Wir modifizieren das Molekulargewicht unseres Copolymers so, dass es Belastungsspitzen abfedert, anstatt unter ihnen zu brechen. Das Resultat ist ein System, das Erschütterungen, Vibrationen und Setzungen des Baukörpers absorbiert.",
-        "p4": "Wer die Terminologie der Rohrleitungstechnik verstanden hat, versteht auch, warum Kompromisse hier den Ruin bedeuten können. German Engineering ist kein leeres Versprechen, sondern die Summe präziser, physikalischer Parameter, die wir in jedem einzelnen Zentimeter unserer Produktion manifestieren."
+        "title": "Экстремалды жағдайдағы ыдырауға төзімділік.",
+        "p1": "Индустриялық қолданыста құбыр жүйесінің сапасын қалыпты жұмыс режимі емес, шекті жағдайлардағы тұрақтылық анықтайды. Химиялық коррозия, гидравликалық соққылардан туындайтын кавитация және термиялық шоктар — дәстүрлі жүйелердің табиғи жаулары.",
+        "p2": "<span class=\"font-semibold\">K Aqua Matrix</span> сұйық ортаны инертті тосқауыл қабаты арқылы қоршаған ортадан оқшаулайды. Иондар алмасуы болмайды. Металл жүйелер су ағып өткен сәттен бастап тозады. Олар жұмыс істеу үшін өздерін құрбан етеді. Ал біздің PP-R жүйеміз ондаған жылдардан кейін де іші мінсіз күйде қалады.",
+        "p3": "<span class=\"font-semibold\">Кернеулік жарылуға төзімділік</span> (Environmental Stress Cracking Resistance, ESCR) ұғымы полимер химиясында орталық маңызға ие. Біз сополимеріміздің молекулалық салмағын жүктеме шыңдарын сынбай, амортизациялайтындай етіп модификациялаймыз. Нәтижесінде ғимараттың сілкіністерін, дірілін және шөгуін сіңіретін жүйе аламыз.",
+        "p4": "Құбыр технологиясының терминологиясын түсінген адам мұнда ымыраға барудың неге апатпен аяқталуы мүмкін екенін де түсінеді. German Engineering — бос уәде емес, өндірісіміздің әрбір сантиметрінде көрініс табатын дәл физикалық параметрлердің жиынтығы."
       },
       "cta": {
-        "title1": "Die Theorie beendet.",
-        "title2": "Die Praxis beginnt.",
-        "desc": "Konfrontieren Sie unsere Ingenieure mit Ihren härtesten technischen Anforderungen. Wir liefern die Systemarchitektur.",
-        "button": "Engineering Briefing starten"
+        "title1": "Теория аяқталды.",
+        "title2": "Практика басталады.",
+        "desc": "Инженерлерімізге ең күрделі техникалық талаптарыңызды қойыңыз. Біз жүйе архитектурасын ұсынамыз.",
+        "button": "Инженерлік брифингті бастау"
       }
     },
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Оқыту бейнелері мен нұсқаулықтар"
   },
   "refs": {
     "eyebrow": "Жобалар",
@@ -4952,51 +4919,9 @@
         "lon": 8.5,
         "title": "Вальдсольмс, Германия",
         "d": "Негізгі зауыт және даму: әрбір K Aqua құбыры осында жасалады."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Дубай, БАӘ",
-        "d": "Көп қабатты ғимараттардағы тік құбырлар: шөлді жағдайларда ыстық суға арналған PPRCT."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Варшава, Польша",
-        "d": "Жаңа тұрғын аудан: d20–d110 ауыз су қондырғысы толығымен."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Ыстамбұл, Түркия",
-        "d": "Қонақ үй кешені: талшықты композитті құбыры бар циркуляциялық желілер."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Сингапур",
-        "d": "Инфрақұрылым жобасы: түйіспелі дәнекерлеу әдісімен d630-ға дейінгі үлкен өлшемдер."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Кейптаун, Оңтүстік Африка",
-        "d": "Жаңа аурухана ғимараты: гигиеналық ауыз суды тарату."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Лондон, Ұлыбритания",
-        "d": "Кеңсені жөндеу: қолданыстағы құбырларды коррозиясыз ауыстыру."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Жобаны қарау"
   },
   "buyers": {
     "eyebrow": "Жоспарлаушылар, сатып алушылар және орнатушылар үшін",
@@ -5398,7 +5323,7 @@
       ],
       "note": "Ағып кету қаупінсіз сенімді инфрақұрылым.",
       "focusHeading": "Аммандағы типтік жобалар",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "extendedMarketText": "Бұл өңірдің қалалық инфрақұрылымы құбыр жүйелерінің ұзақ мерзімділігі мен сенімділігіне ерекше талаптар қояды. Экстремалды климаттық жағдайлар мен су гигиенасына қойылатын жоғары талаптар аясында K-Aqua ұсынатын PP-R және PPRCT шешімдері шешуші артықшылық береді. Дәстүрлі металл құбырлар жиі коррозияға және минералды шөгінділерге ұшырайды, бұл айтарлықтай қысым шығынына және ағып кету салдарынан судың ысырап болуына әкеледі. Ал K-Aqua жүйелері коррозияға ұшырамайтын материалы мен біртекті полифузиялық дәнекерлеуі арқасында 50 жылдан астам уақытқа мүлдем герметикалық, техникалық қызмет көрсетуді қажет етпейтін монтажға кепілдік береді. Сонымен қатар, тегіс ішкі беті оңтайлы гидравликалық ағын сипаттамаларын қамтамасыз етіп, айналым сорғыларының энергия тұтынуын күрт төмендетеді. Осы факторлар K-Aqua жүйелерін ірі қонақүй кешендері, ауруханалар, өнеркәсіптік салқындату қондырғылары және қалалық сектордағы талапшыл тұрғын үй жобалары үшін таңдаулы шешімге айналдырады."
     },
     "istanbul": {
       "regulator": "TSE",
@@ -5633,8 +5558,8 @@
         "d": "Ресурстарды үнемдеу, қалдықтарды болдырмау және энергияны тұтынуды азайту."
       }
     ],
-    "mileEyebrow": "Meilensteine",
-    "mileTitle": "Der Weg bis hierher.",
+    "mileEyebrow": "Маңызды белестер",
+    "mileTitle": "Осы кезге дейінгі жолымыз.",
     "miles": [
       {
         "y": "Jahrzehnte",
@@ -6362,7 +6287,7 @@
   },
   "legal": {
     "impressum": {
-      "title": "Impressum",
+      "title": "Заңды мәліметтер (Impressum)",
       "sections": [
         {
           "id": "section-contact",
@@ -6397,7 +6322,7 @@
       ]
     },
     "datenschutz": {
-      "title": "Datenschutzerklärung",
+      "title": "Дербес деректерді қорғау саясаты",
       "sections": [
         {
           "id": "sec-1",
@@ -6441,8 +6366,8 @@
         }
       ]
     },
-    "toc": "Inhalt",
-    "eyebrow": "Rechtliches"
+    "toc": "Мазмұны",
+    "eyebrow": "Құқықтық ақпарат"
   },
   "newsx": {
     "moreEyebrow": "Өндіріс және білім туралы",
@@ -7091,8 +7016,7 @@
         "d": "Мұнда гигиена басты орында: тегіс ішкі бет (0,007 мм) биоүлбір мен қақ түзілуіне жол бермейді, материал дәмсіз және иіссіз болып қалады.",
         "pts": [
           "Гигиеналық бейтараптық",
-          "Коррозиясыз: нүктелік коррозия жоқ",
-          "Мысал: Кейптаундағы жаңа аурухана құрылысы"
+          "Коррозиясыз: нүктелік коррозия жоқ"
         ]
       },
       {
@@ -7100,8 +7024,7 @@
         "d": "Тәулік бойы ыстық су циркуляциясы: төмен жылу өткізгіштік ұзақ мерзімді энергияны үнемдейді, PPRCT 70 °C үздіксіз жұмыс істеуге шыдайды.",
         "pts": [
           "Жылулық тиімділік",
-          "Циркуляцияға арналған PPRCT",
-          "Мысал: Стамбулдағы қонақ үй кешені"
+          "Циркуляцияға арналған PPRCT"
         ]
       },
       {
@@ -7118,8 +7041,7 @@
         "d": "Жабық және ашық аумақтарда суаруға арналған ультракүлгін сәулелерге төзімді нұсқалар: жеңіл, тез орнатылады, қатты жүйелерге қарағанда аязға төзімдірек.",
         "pts": [
           "Ультракүлгін сәулелерге төзімді нұсқа",
-          "Салмағы жеңіл",
-          "Анықтамалық бағдарламадан қолдану аясы"
+          "Салмағы жеңіл"
         ]
       },
       {
@@ -7127,8 +7049,7 @@
         "d": "d630-ға дейінгі ірі өлшемдердегі жеткізу құбырлары мен желілер: біртекті, тұрақты тығыз магистральдар үшін түйіспелі дәнекерленген.",
         "pts": [
           "d 630 мм-ге дейін",
-          "Түйіспелі дәнекерлеу (Butt Fusion)",
-          "Мысал: Сингапур инфрақұрылымы"
+          "Түйіспелі дәнекерлеу (Butt Fusion)"
         ]
       },
       {
@@ -7494,7 +7415,7 @@
         "btnGhost": "Сарапшылармен байланысу"
       },
       "metaTitle": "PP-R құбыр жүйелеріне арналған техникалық қолдау және қызмет көрсету",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Инженерлік кеңес беру, қолдану технологиясы және объектідегі қолдау."
     },
     "downloads": {
       "title": "Жүктеулер",
@@ -8239,91 +8160,91 @@
     }
   },
   "productNames": {
-    "accessories_backing-flange": "Losflansch PP-Stahl (SF/BF)",
-    "accessories_flat-gasket-for-unions": "Flachdichtung für Verschraubungen PP-R",
+    "accessories_backing-flange": "Бос фланец PP-болат (SF/BF)",
+    "accessories_flat-gasket-for-unions": "PP-R бұрандалы қосылыстарға арналған жалпақ тығыздағыш",
     "accessories_flat-gasket": "Flachdichtung",
     "accessories_pipe-clamps": "Rohrschellen",
     "accessories_plug": "PP-R Rohrstopfen",
     "fittings_cap": "PP-R Endkappe",
-    "fittings_cross-over-pipe": "PP-R Überspringbogen (Rohr)",
+    "fittings_cross-over-pipe": "PP-R айналма иін (құбыр)",
     "fittings_cross-over": "PP-R Überspringbogen",
     "fittings_cross": "PP-R Kreuzstück",
-    "fittings_elbow-45-female-male": "PP-R Einschraubwinkel 45° (I/A)",
-    "fittings_elbow-45": "PP-R Standard-Winkel 45°",
-    "fittings_elbow-90-female-male": "PP-R Einschraubwinkel 90° (I/A)",
-    "fittings_elbow-90": "PP-R Standard-Winkel 90°",
+    "fittings_elbow-45-female-male": "PP-R бұрыш 45° (ішкі/сыртқы)",
+    "fittings_elbow-45": "PP-R стандартты бұрыш 45°",
+    "fittings_elbow-90-female-male": "PP-R бұрыш 90° (ішкі/сыртқы)",
+    "fittings_elbow-90": "PP-R стандартты бұрыш 90°",
     "fittings_electrofusion-socket": "Heizwendelmuffe",
     "fittings_flange-adaptor": "Bundbuchse",
     "fittings_reducing-bush": "Reduzierstück",
-    "fittings_reducing-tee-large": "PP-R T-Stück reduziert (Groß)",
+    "fittings_reducing-tee-large": "PP-R өтпелі үштік (үлкен)",
     "fittings_reducing-tee": "T-Stück reduziert",
     "fittings_socket": "PP-R Muffe",
     "fittings_tee": "PP-R T-Stück",
-    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber Rohr PP-R SDR 11",
-    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber Rohr PP-R SDR 17",
-    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber Rohr PP-R SDR 7.4",
-    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber Rohr PP-R SDR 9",
-    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber Rohr PPRCT SDR 7.4",
-    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV-Rohr PP-R SDR 7.4",
-    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Mehrschichtiges Verbundrohr mit speziellem UV-Schutzmantel für den Außenbereich (SDR 7.4 PP-R).",
-    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV-Rohr PPRCT SDR 7.4",
-    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Hochleistungs-Verbundrohr (PPRCT) mit schwarzer UV-Schutzschicht für anspruchsvolle Außeninstallationen (SDR 7.4).",
-    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima Rohr PPRCT SDR 11",
-    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe Rohr PP-R SDR 11",
-    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe Rohr PP-R SDR 6",
-    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe Rohr PPRCT SDR 7.4",
-    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe Violett PP-R SDR 11",
-    "tools_butt-welding-machine-90-250": "Stumpfschweißmaschine d90-d250",
-    "tools_drilling-tool-for-weld-in-saddle": "Bohrwerkzeug für Einschweißsättel",
-    "tools_electrofusion-machine": "Heizwendelschweißgerät",
-    "tools_hand-welding-machine-20-32": "Handschweißgerät d20-d32",
-    "tools_hand-welding-machine-20-32_desc": "Kompaktes Muffenschweißgerät als Komplettset für kleine Dimensionen von d20 bis d32 mm.",
-    "tools_hand-welding-machine-20-63": "Handschweißgerät d20-d63",
-    "tools_hand-welding-machine-20-63_desc": "Vielseitiges Muffenschweißgerät im Set (Heizplatte, Standfuß, Matrizen) für Rohre von d20 bis d63 mm.",
-    "tools_hand-welding-machine-mirror-50-125": "Handschweißgerät (nur Spiegel) 50–125",
-    "tools_pipe-cutter-20-40": "Ratschen-Rohrschere d20-d40",
-    "tools_pipe-cutter-50-125-114": "Rohrabschneider 1 1/4",
-    "tools_pipe-cutter-50-125": "Profi-Rohrabschneider d50-d125",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "K-Fiber құбыры PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "K-Fiber құбыры PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "K-Fiber құбыры PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "K-Fiber құбыры PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "K-Fiber құбыры PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "K-Fiber UV құбыры PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Сыртта қолдануға арналған арнайы УК-қорғаныс қабаты бар көпқабатты композиттік құбыр (SDR 7.4 PP-R).",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "K-Fiber UV құбыры PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Күрделі сыртқы монтаждарға арналған, қара УК-қорғаныс қабаты бар жоғары өнімді композиттік құбыр (PPRCT, SDR 7.4).",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "K-Fiberclima құбыры PPRCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "K-Pipe құбыры PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "K-Pipe құбыры PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "K-Pipe құбыры PPRCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "K-Pipe күлгін құбыры PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Түйістіре дәнекерлеу машинасы d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Дәнекерленетін ерлерге арналған бұрғылау құралы",
+    "tools_electrofusion-machine": "Электрофузиялық дәнекерлеу аппараты",
+    "tools_hand-welding-machine-20-32": "Қол дәнекерлеу аппараты d20-d32",
+    "tools_hand-welding-machine-20-32_desc": "d20-d32 мм шағын диаметрлерге арналған толық жинақталған ықшам муфталық дәнекерлеу аппараты.",
+    "tools_hand-welding-machine-20-63": "Қол дәнекерлеу аппараты d20-d63",
+    "tools_hand-welding-machine-20-63_desc": "d20-d63 мм құбырларға арналған әмбебап муфталық дәнекерлеу аппараты, жинақта (қыздыру плитасы, тұғыр, саптамалар).",
+    "tools_hand-welding-machine-mirror-50-125": "Қол дәнекерлеу аппараты (тек айна) 50–125",
+    "tools_pipe-cutter-20-40": "Храповикті құбыр қайшысы d20-d40",
+    "tools_pipe-cutter-50-125-114": "Құбыр кескіш 1 1/4",
+    "tools_pipe-cutter-50-125": "Кәсіби құбыр кескіш d50-d125",
     "tools_repairing-plug": "Reparaturstopfen",
-    "tools_welding-machine-50-125": "Schweißmaschine d50-d125",
-    "tools_welding-tool-for-repairing-plug": "Schweißwerkzeug für Reparaturstopfen",
-    "tools_welding-tool-for-weld-in-saddles": "Schweißwerkzeug für Einschweißsättel",
+    "tools_welding-machine-50-125": "Дәнекерлеу машинасы d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Жөндеу тығындарына арналған дәнекерлеу құралы",
+    "tools_welding-tool-for-weld-in-saddles": "Дәнекерленетін ерлерге арналған дәнекерлеу құралы",
     "tools_welding-tool": "Schweißwerkzeug",
     "transition-fittings_adaptor-socket-female-thread": "Übergangsmuffe (IG)",
     "transition-fittings_adaptor-socket-male-thread": "Übergangsmuffe (AG)",
-    "transition-fittings_elbow-90-male-thread": "PP-R Übergangswinkel 90° (AG)",
-    "transition-fittings_elbow-bracket-90-female-thread": "Winkelwandhalter 90° (IG)",
-    "transition-fittings_elbow-bracket-90-female-thread_desc": "Einseitiger Winkelwandhalter zur sicheren Wandmontage von Armaturen (IG).",
-    "transition-fittings_elbow-wall-bracket-90-female-thread": "Doppel-Winkelwandhalter 90° (IG)",
-    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Zweiseitige Wandbefestigung für extrem stabile, fest verschraubte Verbindungen.",
-    "transition-fittings_metal-union-female-thread-brass": "Metall-Verschraubung aus Messing CW617N (IG)",
-    "transition-fittings_metal-union-female-thread": "Verschraubung mit PP-R Mutter (IG)",
-    "transition-fittings_metal-union-male-thread-brass": "Metall-Verschraubung aus Messing CW617N (AG)",
-    "transition-fittings_metal-union-male-thread": "Verschraubung mit PP-R Mutter (AG)",
+    "transition-fittings_elbow-90-male-thread": "PP-R өтпелі бұрыш 90° (сыртқы бұранда)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Қабырғалық бұрыштық бекіткіш 90° (ішкі бұранда)",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "Арматураны қабырғаға сенімді бекітуге арналған бір жақты бұрыштық бекіткіш (ішкі бұранда).",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Қос бұрыштық қабырғалық бекіткіш 90° (ішкі бұранда)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Аса берік, бұрандамен мықтап бекітілетін қосылыстарға арналған екі жақты қабырғалық бекіткіш.",
+    "transition-fittings_metal-union-female-thread-brass": "CW617N жезден жасалған металл бұрандалы қосылыс (ішкі бұранда)",
+    "transition-fittings_metal-union-female-thread": "PP-R сомынды бұрандалы қосылыс (ішкі бұранда)",
+    "transition-fittings_metal-union-male-thread-brass": "CW617N жезден жасалған металл бұрандалы қосылыс (сыртқы бұранда)",
+    "transition-fittings_metal-union-male-thread": "PP-R сомынды бұрандалы қосылыс (сыртқы бұранда)",
     "transition-fittings_tee-90-female-thread": "T-Stück 90° (IG)",
     "transition-fittings_tee-90-male-thread": "T-Stück 90° (AG)",
-    "transition-fittings_union-for-watermeters": "Wasserzähler-Verschraubung",
-    "transition-fittings_union": "PP-R Rohrverschraubung",
-    "valves_adjustable-battery-female-thread": "Verstellbare Batterie (IG)",
+    "transition-fittings_union-for-watermeters": "Су есептегішіне арналған бұрандалы қосылыс",
+    "transition-fittings_union": "PP-R құбырлық бұрандалы қосылыс",
+    "valves_adjustable-battery-female-thread": "Реттелетін батарея (ішкі бұранда)",
     "valves_battery-female-thread": "Batterie (IG)",
-    "valves_concealed-valve-chrome-heavy-part": "Unterputzventil Chrom: Schweres Oberteil",
-    "valves_concealed-valve-chrome-light-part": "Unterputzventil Chrom: Leichtes Oberteil",
+    "valves_concealed-valve-chrome-heavy-part": "Жасырын монтаждалатын хромды вентиль: ауыр үстіңгі бөлік",
+    "valves_concealed-valve-chrome-light-part": "Жасырын монтаждалатын хромды вентиль: жеңіл үстіңгі бөлік",
     "valves_elongation-pieces": "Verlängerungsstücke",
-    "valves_pp-r-ball-valve-ball-in-pp": "PP-R Kugelhahn (PP-Kugel)",
-    "valves_pp-r-ball-valve-brass": "PP-R Kugelhahn (Messingkugel, verchromt)",
-    "valves_straight-seat-valve-green-handle": "Schrägsitzventil (Oberteil)",
-    "valves_tee-90-female-thread-internal-valve": "T-Stück 90° (IG) für UP-Ventil",
-    "weld-in-saddles_weld-in-saddle-female-thread": "Einschweißsattel (IG)",
-    "weld-in-saddles_weld-in-saddle-male-thread": "Einschweißsattel (AG)",
+    "valves_pp-r-ball-valve-ball-in-pp": "PP-R шарлы кран (PP шары)",
+    "valves_pp-r-ball-valve-brass": "PP-R шарлы кран (хромдалған жез шар)",
+    "valves_straight-seat-valve-green-handle": "Қиғаш отырғызылған вентиль (үстіңгі бөлік)",
+    "valves_tee-90-female-thread-internal-valve": "Жасырын вентильге арналған үштік 90° (ішкі бұранда)",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Дәнекерленетін ер (ішкі бұранда)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Дәнекерленетін ер (сыртқы бұранда)",
     "weld-in-saddles_weld-in-saddle": "Einschweißsattel",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Бос фланец PP-болат (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R муфталы айналма иін",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Қол дәнекерлеу аппараты d20-d32",
+    "tools_pipe-cutter-50125": "Құбыр кескіш d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "Жасырын вентильге арналған үштік 90° (ішкі бұранда)"
   },
   "navigation": {
     "cookieTitle": "Cookie файлдарын басқару",
@@ -8335,9 +8256,9 @@
     "title": "Сіздің таңдауыңыз, сіздің құпиялылығыңыз",
     "description": "Веб-сайтымыздағы тәжірибеңізді жақсарту үшін біз cookie файлдарын және ұқсас технологияларды қолданамыз. Кейбіреулері сайттың жұмыс істеуі үшін қажет, ал басқалары мазмұнды бейімдеуге және пайдалануды талдауға көмектеседі. Қажет емес cookie файлдарын қабылдайсыз ба?",
     "customize": "Реттеу",
-    "declineAll": "Nur Essenzielle",
+    "declineAll": "Тек қажеттілері",
     "acceptAll": "Барлығын қабылдау",
-    "acceptSelected": "Auswahl speichern",
+    "acceptSelected": "Таңдауды сақтау",
     "essentialTitle": "Қажетті Cookie файлдары (Әрқашан белсенді)",
     "essentialDesc": "Бұл технологиялар веб-сайттың негізгі функциялары үшін өте маңызды, мысалы, қауіпсіздік, желіні басқару, сеанс басқару және осы cookie терезесіндегі сіздің параметрлеріңізді сақтау.",
     "analyticsTitle": "Статистика және талдау",
@@ -8530,92 +8451,6 @@
       "desc": "Сіз спецификациялардың соңына жеттіңіз. Теорияны өнеркәсіптік шындыққа айналдыруға дайынсыз ба?",
       "btn": "Байланысты бастау"
     }
-  },
-  "customerReviews": {
-    "eyebrow": "Сарапшылардың пікірлері",
-    "title": "Инженерлер K Aqua туралы не дейді.",
-    "lead": "Жалаң уәделер емес. Неміс сапасы мен сенімділігі туралы бүкіл әлемдегі бас мердігерлердің, жоспарлаушылардың және монтаждаушылардың нақты пікірлерін оқыңыз.",
-    "items": [
-      {
-        "author": "Майкл Р.",
-        "role": "Бас инженер, Таяу Шығыс",
-        "title": "Зәулім ғимараттар үшін абсолютті сенімділік",
-        "text": "Дубайдағы мегажобамыз үшін бізге экстремалды қысым мен температураға төтеп бере алатын құбыр жүйесі қажет болды. K Aqua PPRCT құбырлары (SDR 6) біздің күткенімізден асып түсті. Сапасы мінсіз және орнату өте тез өтті. German Engineering мұнда жай ғана маркетингтік термин емес.",
-        "rating": 5
-      },
-      {
-        "author": "Сара Л.",
-        "role": "Жоба менеджері, Еуропа",
-        "title": "Ауруханалар үшін ең жақсы шешім",
-        "text": "Ауруханаларда гигиена ең маңызды нәрсе. K Aqua компаниясының DVGW сертификатталған жүйелері бізге қажетті қауіпсіздікті қамтамасыз етеді. Тегіс ішкі беті биофильмнің пайда болуына жол бермейді және фитингтер дәл сәйкес келеді. Техникалық қолдау көрсету де жоғары деңгейде.",
-        "rating": 5
-      },
-      {
-        "author": "Ахмед К.",
-        "role": "Монтаждаушы, Солтүстік Африка",
-        "title": "Орнату оңай, өте төзімді",
-        "text": "Мен K Aqua өнімдерімен 5 жылдан астам жұмыс істеп келемін. Дәнекерлеу процесі өте қарапайым және қатесіз. Біз орнатқан жүйелердің ешқайсысында ешқашан ағып кету болған емес. Бұл маған және менің клиенттеріме жан тыныштығын береді.",
-        "rating": 5
-      },
-      {
-        "author": "Елена М.",
-        "role": "Сәулетші, Азия",
-        "title": "Тамаша техникалық деректер мен BIM",
-        "text": "Жоспарлаушы ретінде маған сенімді деректер қажет. K Aqua толық BIM үлгілерін және гидравликалық есептеулерді ұсынады. Олардың техникалық тобы әрқашан сұрақтарға жауап беруге дайын. Бұл біздің жобаларымыздың тиімділігін айтарлықтай арттырды.",
-        "rating": 5
-      }
-    ],
-    "addReviewTitle": "Пікір қалдыру",
-    "addReviewDesc": "K Aqua өнімдерімен жұмыс істеу тәжірибеңізбен бөлісіңіз.",
-    "formName": "Аты-жөніңіз",
-    "formRole": "Лауазымыңыз / Салаңыз",
-    "formTitle": "Пікір тақырыбы",
-    "formText": "Сіздің пікіріңіз",
-    "formSubmit": "Пікірді жіберу",
-    "formSuccess": "Пікіріңіз үшін рақмет!",
-    "formError": "Қате пайда болды. Пікіріңізді кейінірек жіберіп көріңіз.",
-    "trustBadge": "Google Rezensionen",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Basierend auf 44 Bewertungen)",
-    "tabA": "Qualität & „Made in Germany“",
-    "tabB": "Logistik & Anlieferung",
-    "tabC": "Kundenservice & Team",
-    "reviews": {
-      "a1": "„Eine Fabrik in Waldsolms, Deutschland, spezialisiert auf PPR-Rohre und -Fittings **Made in Germany**. Hervorragendes Personal.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Deutsche Qualität** bei PPR-Beschichtungen und Armaturen, sehr freundliches Personal.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Modernes Unternehmen**. Produziert Kunststoffrohre aller Größen und Zubehör.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR-Rohre und Formstücke aus **deutscher Fertigung**, hervorragende Mitarbeiter und Produkte.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Hochwertige Produkte** und eine top deutsche Fabrik.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Sehr gute Produkte, **zuverlässige Qualität** und pünktliche Lieferung.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Sehr netter Umgang, **schnelle Entladung**. Ich durfte hier meine große Pause einlegen. Dusche und Toilette wurden mir auch angeboten. Hier fühlt man sich als LKW-Fahrer **wertgeschätzt**. Ich komme sehr gerne wieder hierher.“",
-      "b1Author": "Michael S.",
-      "b2": "„Die aktuellen Koordinaten des Eingangs lauten **50.428210, 8.499154**. Etwa 100 Meter entfernt befindet sich ein Parkplatz. Freundliches Personal.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Schnelles Entladen**, freundliches und hilfsbereites Personal.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Sehr guter Service**, toll, dass noch in Deutschland produziert wird.“",
-      "c1Author": "Daniel",
-      "c2": "„**Sehr freundliches** und hilfsbereites Personal. E-Mails werden **umgehend beantwortet**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Vom Vorsitzenden bis zu den einfachen Arbeitern: es sind **gute Menschen**.“",
-      "c3Author": "Azim",
-      "c4": "„**Tolle Firma**, tut einiges für ihre Leute.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Die Mitarbeiter sind **sehr freundlich und hilfsbereit**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Kompetentes Team und eine **hervorragende Kundenbetreuung** auf allen Ebenen.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Überzeugen Sie sich selbst von unserem Service.",
-    "ctaText": "Haben Sie Fragen zu unseren PPR-Rohrsystemen oder möchten Sie ein Projekt mit uns besprechen? Unser Team aus Waldsolms ist für Sie da.",
-    "ctaBtn": "Jetzt Kontakt aufnehmen",
-    "disclaimer": "Hinweis zur Überprüfung von Bewertungen: Die hier dargestellten Bewertungen stammen aus unserem Google-Unternehmensprofil. Google gibt an: Rezensionen werden nicht überprüft. Wir haben die Namen der Verfasser aus Gründen des Datenschutzes (DSGVO) abgekürzt."
   },
   "seoArticle": {
     "transitionFittings": {
@@ -9635,53 +9470,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Интерактивті",
+    "titleGrad": "Карталар жиынтығы",
+    "tabHq": "Вальдзольмс бас кеңсесі",
+    "tabRefs": "Герметикалық картасы",
+    "tabSpec": "Спецификатор",
+    "hqTitle": "Орталық өндіріс және әзірлеу орталығы",
+    "hqAddress": "Вальдзольмс Брандоберндорф, Гессен, Германия.",
+    "registryLabel": "Тіркеу соты:",
+    "phoneLabel": "Телефон:",
+    "certLabel": "Сертификаттау:",
+    "directions": "Бағыт жоспарлағышын ашу",
+    "aboutPlant": "Вальдзольмс зауыты туралы",
+    "sectorFilter": "Сектор бойынша сүзгі:",
+    "specPlaceholder": "Елді мекенді немесе қаланы енгізіңіз…",
+    "profileTitle": "Нарық және логистика профилі",
+    "profileHint": "Жүйенің автоматты спецификациясын және жеткізу бағыттарын есептеуді іске қосу үшін картаны басыңыз немесе қаланы іздеңіз.",
+    "marketAssign": "Нарықтық тағайындау",
+    "normLabel": "Стандарт:",
+    "airDist": "Тікелей қашықтық (бас кеңсе)",
+    "roadDist": "Жол бойынша (болжамды)",
+    "recommended": "Ұсынылатын құбыр жүйесі:",
+    "recUv": "UV-Protect сыртқы қабаты",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Барлық секторлар",
+      "hotel": "Қонақүй",
+      "wohnen": "Тұрғын үй құрылысы",
+      "infra": "Инфрақұрылым",
+      "klinik": "Клиника",
+      "buero": "Кеңсе"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Өнімдер",
+      "markets-solutions": "Нарықтар және шешімдер",
+      "academy-resources": "Академия және ресурстар",
+      "company": "Компания"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Құбырларға арналған өнім іздегіш",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Фасондық бөлшектер және фитингтер",
+      "valves": "Арматура және вентильдер",
+      "tools": "Құралдар және керек-жарақтар",
+      "transition": "Құбырларға арналған өтпелер",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -9694,48 +9529,92 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Құбыр жүйелері бойынша жоба сұранысы",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Сайт картасы (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "Тіліңізді таңдаңыз",
+    "subtitle": "65 тіл · глобусты айналдырыңыз, аймақты түртіңіз, растаңыз.",
+    "searchPlaceholder": "Тілді немесе бетті іздеу…",
+    "pagesSection": "Беттер және навигация",
+    "noResults": "Тіл табылмады.",
+    "confirm": "Растау",
+    "beta": "Бета",
+    "globalEffect": "Бүкіл веб-сайтқа қолданылады",
+    "active": "белсенді"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Сізге қалай көмектесе аламыз?",
+    "step1Desc": "Сұрағыңызға сәйкес бөлімді таңдаңыз.",
+    "optSales": "Сату және жобалар",
+    "optSalesDesc": "Баға сұраныстары, ірі жобалар және жеткізу мерзімдері.",
+    "optTech": "Техникалық қолдау",
+    "optTechDesc": "Спецификациялар, монтаждау және жүйені жобалау.",
+    "optOther": "Жалпы сұраныс",
+    "optOtherDesc": "Маркетинг, мансап немесе басқа тақырыптар.",
+    "step2Title": "Сұранысыңыз туралы мәліметтер",
+    "step2Desc": "Жобаңызды немесе сұрағыңызды қысқаша сипаттаңыз.",
+    "messagePlaceholder": "Бізге хабарламаңыз...",
+    "step3Title": "Байланыс деректеріңіз",
+    "step3Desc": "Аз ғана қалды! Сізбен қалай байланыса аламыз?",
+    "nameLabel": "Толық аты-жөні",
+    "companyLabel": "Компания / Ұйым",
+    "emailLabel": "E-Mail мекенжайы",
+    "phoneLabel": "Телефон нөмірі",
+    "step4Title": "Хабарлама жіберілді!",
+    "step4Desc": "Сұранысыңыз үшін рахмет. Біздің сарапшыларымыздың бірі жақын арада сізбен байланысады.",
+    "btnNext": "Әрі қарай",
+    "btnBack": "Артқа",
+    "btnSubmit": "Сұранысты жіберу",
+    "btnSending": "Жіберілуде…",
+    "btnHome": "Басты бетке оралу",
+    "sendError": "Жіберу сәтсіз аяқталды. Қайталап көріңіз немесе бізге тікелей қоңырау шалыңыз: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustBadge": "Google пікірлері",
+    "trustStars": "4,9 / 5",
+    "trustBasedOn": "(44 пікір негізінде)",
+    "tabA": "Сапа және «Made in Germany»",
+    "tabB": "Логистика және жеткізу",
+    "tabC": "Клиенттерге қызмет көрсету және команда",
+    "reviews": {
+      "a1": "«Германияның Вальдзольмс қаласындағы **Made in Germany** сапалы PPR құбырлары мен фитингтеріне маманданған зауыт. Тамаша қызметкерлер.»",
+      "a1Author": "Giulio C.",
+      "a2": "«PPR қаптамалары мен арматурасындағы **неміс сапасы**, өте жылы шырайлы қызметкерлер.»",
+      "a2Author": "Veronica P.",
+      "a3": "«**Заманауи кәсіпорын**. Барлық өлшемдегі пластик құбырлар мен керек-жарақтар шығарады.»",
+      "a3Author": "Ewald S.",
+      "a4": "«**Германияда өндірілген** PPR құбырлары мен фасондық бөлшектер, тамаша қызметкерлер мен өнімдер.»",
+      "a4Author": "Kais S.",
+      "a5": "«**Жоғары сапалы өнімдер** және үздік неміс зауыты.»",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6": "«Өте жақсы өнімдер, **сенімді сапа** және уақтылы жеткізу.»",
+      "a6Author": "Klaus T.",
+      "b1": "«Өте жақсы қарым-қатынас, **жүкті жылдам түсіру**. Осында үлкен үзілісімді өткізуге рұқсат берілді. Душ пен дәретхана да ұсынылды. Мұнда жүк көлігінің жүргізушісі ретінде өзіңді **бағаланғандай** сезінесің. Осында қайта оралуға әрқашан қуаныштымын.»",
+      "b1Author": "Michael S.",
+      "b2": "«Кіреберістің қазіргі координаттары: **50.428210, 8.499154**. Шамамен 100 метр жерде тұрақ бар. Жылы шырайлы қызметкерлер.»",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3": "«**Жүкті жылдам түсіру**, жылы шырайлы әрі көмекке дайын қызметкерлер.»",
+      "b3Author": "Bogdan M.",
+      "c1": "«**Өте жақсы сервис**, өндірістің әлі де Германияда жүргізілетіні керемет.»",
+      "c1Author": "Daniel",
+      "c2": "«**Өте жылы шырайлы** және көмекке дайын қызметкерлер. Электрондық хаттарға **дереу жауап беріледі**.»",
+      "c2Author": "Mohamed M.",
+      "c3": "«Төрағадан бастап қарапайым жұмысшыларға дейін: бәрі **жақсы адамдар**.»",
+      "c3Author": "Azim",
+      "c4": "«**Керемет компания**, өз адамдары үшін көп нәрсе жасайды.»",
+      "c4Author": "Monika v. B.",
+      "c5": "«Қызметкерлері **өте жылы шырайлы әрі көмекке дайын**.»",
+      "c5Author": "Piera V.",
+      "c6": "«Білікті команда және барлық деңгейде **тамаша клиенттік қолдау**.»",
+      "c6Author": "Sarah B."
+    },
+    "ctaTitle": "Біздің сервистің сапасына өзіңіз көз жеткізіңіз.",
+    "ctaText": "PPR құбыр жүйелеріміз туралы сұрақтарыңыз бар ма немесе бізбен жобаны талқылағыңыз келе ме? Вальдзольмстегі командамыз сізге қызмет көрсетуге дайын.",
+    "ctaBtn": "Қазір хабарласу",
+    "disclaimer": "Пікірлерді тексеру туралы ескертпе: мұнда келтірілген пікірлер біздің Google компания профилінен алынды. Google былай дейді: пікірлер тексерілмейді. Дербес деректерді қорғау мақсатында (GDPR) авторлардың есімдерін қысқартып бердік."
   }
 }

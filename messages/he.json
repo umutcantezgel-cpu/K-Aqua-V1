@@ -46,30 +46,30 @@
     "edgePageIndex": "אינדקס עמודים",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "מערכות צנרת",
+      "allProducts": "כל המוצרים",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "יישומים ייעודיים לתעשייה",
+      "digitalTools": "כלים דיגיטליים",
+      "finderDesc": "קביעת תצורה של המערכת המתאימה",
+      "co2Desc": "חישוב המאזן הסביבתי",
+      "academyDesc": "הדרכות ותעודות",
+      "trustDesc": "הורדות ואישורי תקן",
+      "serviceDesc": "תמיכה בתכנון",
+      "partnersDesc": "הפכו לשותף מקומי",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "החברה",
+      "companyDesc": "ייעוד, חזון והיסטוריה",
+      "careerDesc": "משרות פתוחות ותרבות ארגונית",
+      "newsPress": "חדשות ועיתונות",
+      "newsDesc": "הודעות לעיתונות עדכניות",
+      "sitemap": "מפת האתר",
+      "sitemapDesc": "סקירת מבנה האתר",
+      "globalFootprint": "פריסה גלובלית",
+      "globalMarkets": "שווקים גלובליים",
+      "marketsDesc": "אזורים מאושרים",
+      "refProjects": "פרויקטים לדוגמה",
+      "refDesc": "התקנות מוצלחות"
     }
   },
   "groups": {
@@ -1665,39 +1665,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "רפרנסים שעושים היסטוריה.",
-        "desc": "מאיים מלאכותיים במפרץ הפרסי ועד לאתרי הסקי האקסקלוסיביים ביותר באלפים. איפה שבונים את הבלתי אפשרי, K-Aqua כבר שם."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "דובאי",
-            "title": "אתר הנופש האולטרה-יוקרתי The Palm Jumeirah",
-            "text": "אבזור של 800 סוויטות ו-4 מתחמי בריכות ענקיים. רמת המליחות הקיצונית וטמפרטורות סביבה של עד 50°C דרשו עמידות תרמית וכימית מקסימלית. K-Aqua סיפקה את כל רשת המים הקרים והחמים, כולל חיבור למערכת הקירור המרחבית (District Cooling)."
-          },
-          {
-            "year": "שוויץ",
-            "title": "אתר הנופש האלפיני סנט מוריץ (St. Moritz)",
-            "text": "אתר נופש ברמת 6 כוכבים בגובה 2,000 מטר. האתגר: סכנת כפור קיצונית במהלך שלב הבנייה ודרישות מקסימליות לבידוד אקוסטי. הצינורות מחוזקי-הסיבים שלנו מ-PP-R ספגו שינויי אורך תרמיים בקלילות והבטיחו פעולה שקטה לחלוטין."
-          },
-          {
-            "year": "סינגפור",
-            "title": "Vertical Forest Hotel",
-            "text": "יצירת מופת ארכיטקטונית אקולוגית בת 65 קומות. מערכת ההשקיה המורכבת עבור אלפי צמחי מרפסת, כמו גם כל תשתיות מי השתייה, יושמו באמצעות K-Aqua. טכנולוגיית הריתוך ההומוגנית הגנה על המבנה מפני דליפות מיקרוסקופיות."
-          },
-          {
-            "year": "האיים המלדיביים",
-            "title": "Zero-Emission Island Resort",
-            "text": "אתר נופש הבנוי ישירות מעל השונית, ולכן נדרשה ידידותיות אקולוגית מוחלטת (תאימות סביבתית). צינורות K-Aqua ניתנים למיחזור ב-100%, אינם פולטים כלל מיקרו-פלסטיק או מתכות כבדות ועומדים באוויר הים המלוח והקורוזיבי ללא כל שחיקה."
-          },
-          {
-            "year": "העתיד",
-            "title": "המגה-פרויקט הבא שלך",
-            "text": "גבולות האדריכלות נפרצים ומתרחבים מדי יום. אנו מוכנים ליצוק את היסודות לחזונות הנועזים ביותר שלכם. עם טכנולוגיה שמקדימה את זמנה בעשרות שנים."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "מחקר ופיתוח",
         "title": "הכימיה <br/> של הבלתי-שביר.",
@@ -2696,25 +2663,25 @@
     "nextTitle": "עד כמה התכנון שלך ידידותי לאקלים?",
     "nextLead": "העבר מימד ואורך ישירות למחשבון ה-CO₂ והשווה מול נחושת, נירוסטה ו-PVC.",
     "nextCta": "למחשבון CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "חפשו במגוון המוצרים המלא שלנו לפי קטגוריה, שם או מק\"ט.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "צינורות",
+    "catFittings": "אביזרי חיבור",
+    "catValves": "ברזים ושסתומים",
+    "catTools": "כלי עבודה",
+    "catTransitionFittings": "מחברי מעבר",
+    "catAccessories": "אביזרים נלווים",
+    "catWeldInSaddles": "אוכף ריתוך PP-R איכותי",
+    "category": "קטגוריה",
+    "search": "חיפוש",
+    "searchPlaceholder": "מק\"ט או שם...",
+    "foundFam": "משפחות מוצרים נמצאו",
+    "catalogPdf": "קטלוג כקובץ PDF",
+    "colName": "שם המוצר",
+    "colCat": "קטגוריה",
+    "colCodes": "מק\"טים",
+    "noResultsText": "לא מצאנו מוצרים התואמים את קריטריוני החיפוש שלכם. נסו מונח אחר או שנו את הקטגוריה.",
+    "resetFilters": "איפוס מסננים"
   },
   "trustAndCases": {
     "eyebrow": "בטיחות מאושרת",
@@ -3383,7 +3350,7 @@
     "retry": "נסה שוב",
     "titlePerfect": "אמן-ריתוך (Schweißmeister)",
     "titleGood": "עוזר-ריתוך (Schweiß-Geselle)",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "סרטוני הדרכה ומדריכים"
   },
   "refs": {
     "eyebrow": "הפניות",
@@ -3399,51 +3366,9 @@
         "lon": 8.5,
         "title": "ולדסולמס, גרמניה",
         "d": "מטה ופיתוח: כאן נוצר כל צינור K-Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "דובאי, איחוד האמירויות",
-        "d": "קווים אנכיים לגורדי שחקים: PPRCT למים חמים בתנאי מדבר."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "ורשה, פולין",
-        "d": "בניית רובע מגורים חדש: מערכת מי שתייה מלאה d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "איסטנבול, טורקיה",
-        "d": "מתחם מלונאות: קווי סחרור עם צינורות מחוזקים בסיבים."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "סינגפור",
-        "d": "פרויקט תשתית: מידות גדולות עד d630 באמצעות ריתוך קצה."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "קייפטאון, דרום אפריקה",
-        "d": "בניית בית חולים חדש: חלוקת מי שתייה היגיינית."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "לונדון, בריטניה",
-        "d": "שיפוץ משרדים: חלופה עמידה בפני קורוזיה לצנרת קיימת."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "צפייה בפרויקט"
   },
   "buyers": {
     "eyebrow": "למתכננים, רכש ומתקינים",
@@ -3835,8 +3760,7 @@
         "d": "היגיינה אינה נתונה כאן למשא ומתן: המשטח הפנימי החלק (0.007 מ\"מ) מעכב ביופילם והצטברות אבנית, והחומר נשאר חסר טעם וריח.",
         "pts": [
           "ניטרליות היגיינית",
-          "ללא קורוזיה: אין סיכון לנקבים",
-          "הפניה: בניית בית החולים החדש בקייפטאון"
+          "ללא קורוזיה: אין סיכון לנקבים"
         ]
       },
       {
@@ -3844,8 +3768,7 @@
         "d": "סחרור מים חמים מסביב לשעון: מוליכות תרמית נמוכה חוסכת אנרגיה לאורך זמן, PPRCT עומד בפעולה רציפה של 70°C.",
         "pts": [
           "יעילות תרמית",
-          "PPRCT לסחרור",
-          "הפניה: מתחם המלון באיסטנבול"
+          "PPRCT לסחרור"
         ]
       },
       {
@@ -3862,8 +3785,7 @@
         "d": "גרסאות מיוצבות-UV להשקיה תחת זכוכית ובחוץ: קל משקל, התקנה מהירה, ועמיד יותר בפני כפור מאשר מערכות קשיחות.",
         "pts": [
           "גרסה עמידה לקרני UV",
-          "משקל נמוך",
-          "תחום יישום מתוכנית ההפניות"
+          "משקל נמוך"
         ]
       },
       {
@@ -3871,8 +3793,7 @@
         "d": "קווי אספקה ורשתות במידות גדולות עד d630: מרותכים פנים-אל-פנים ליצירת קווים אחידים ואטומים לאורך זמן.",
         "pts": [
           "קוטר d עד 630 מ\"מ",
-          "ריתוך פנים (Butt Fusion)",
-          "הפניה: תשתית סינגפור"
+          "ריתוך פנים (Butt Fusion)"
         ]
       },
       {
@@ -5481,61 +5402,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "אוכף ריתוך (פנים)",
     "weld-in-saddles_weld-in-saddle-male-thread": "אוכף ריתוך (חוץ)",
     "weld-in-saddles_weld-in-saddle": "אוכף ריתוך",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "אוגן חופשי PP-פלדה (SF/BF)",
+    "fittings_cross-over-with-socket": "קשת מעקף PP-R עם מופה",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "מכשיר ריתוך ידני d20-d32",
+    "tools_pipe-cutter-50125": "חותך צינורות d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "איכות שמחברת",
-    "title": "מה הלקוחות והשותפים שלנו אומרים",
-    "lead": "מיזמים ועד חברות שילוח ועובדים ותיקים: K-Aqua KWT GmbH מייצגת את הדיוק הגבוה ביותר מולדסולמס. קראו בעצמכם אילו חוויות יש לאנשים מדי יום עם השירות והמוצרים שלנו \"Made in Germany\".",
-    "trustBadge": "ביקורות גוגל",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(מבוסס על 44 ביקורות)",
-    "tabA": "איכות & „Made in Germany“",
-    "tabB": "לוגיסטיקה ומשלוחים",
-    "tabC": "שירות לקוחות וצוות",
-    "reviews": {
-      "a1": "\"מפעל בולדסולמס, גרמניה, המתמחה בצנרת ואביזרי PPR **Made in Germany**. צוות מצוין.\"",
-      "a1Author": "Giulio C.",
-      "a2": "\"**איכות גרמנית** בציפויי ואביזרי PPR, צוות מאוד ידידותי.\"",
-      "a2Author": "Veronica P.",
-      "a3": "\"**חברה מודרנית**. מייצרת צינורות פלסטיק בכל המידות ואביזרים.\"",
-      "a3Author": "Ewald S.",
-      "a4": "\"צנרת ואביזרי PPR **מייצור גרמני**, עובדים ומוצרים מצוינים.\"",
-      "a4Author": "Kais S.",
-      "a5": "\"**מוצרים באיכות גבוהה** ומפעל גרמני מהשורה הראשונה.\"",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "\"מוצרים טובים מאוד, **איכות אמינה** ואספקה בזמן.\"",
-      "a6Author": "Klaus T.",
-      "b1": "\"יחס מאוד נחמד, **פריקה מהירה**. יכולתי לקחת כאן את ההפסקה הארוכה שלי. הציעו לי גם מקלחת ושירותים. אתה מרגיש **מוערך** כאן כנהג משאית. אני אשמח מאוד לחזור לכאן.\"",
-      "b1Author": "Michael S.",
-      "b2": "\"הקואורדינטות הנוכחיות של הכניסה הן **50.428210, 8.499154**. במרחק של כ-100 מטר יש חניה. צוות ידידותי.\"",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "\"**פריקה מהירה**, צוות ידידותי ועוזר.\"",
-      "b3Author": "Bogdan M.",
-      "c1": "\"**שירות טוב מאוד**, נהדר שעדיין מייצרים בגרמניה.\"",
-      "c1Author": "Daniel",
-      "c2": "\"צוות **מאוד ידידותי** ועוזר. עונים לאימיילים **באופן מיידי**.\"",
-      "c2Author": "Mohamed M.",
-      "c3": "\"מהיו\"ר ועד לפועלים הפשוטים: הם **אנשים טובים**.\"",
-      "c3Author": "Azim",
-      "c4": "\"**חברה נהדרת**, עושה הרבה עבור האנשים שלה.\"",
-      "c4Author": "Monika v. B.",
-      "c5": "\"העובדים **מאוד ידידותיים ועוזרים**.\"",
-      "c5Author": "Piera V.",
-      "c6": "\"צוות מקצועי ו**תמיכת לקוחות מצוינת** בכל הרמות.\"",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "השתכנע בעצמך מהשירות שלנו.",
-    "ctaText": "יש לך שאלות לגבי מערכות צנרת ה-PPR שלנו או שתרצה לדון איתנו על פרויקט? הצוות שלנו מולדסולמס עומד לרשותך.",
-    "ctaBtn": "צור קשר עכשיו",
-    "disclaimer": "הערה לגבי אימות ביקורות: הביקורות המוצגות כאן לקוחות מפרופיל העסק שלנו בגוגל. גוגל מצהירה: ביקורות אינן מאומתות. קיצרנו את שמות הכותבים מטעמי הגנת נתונים (GDPR)."
+    "valves_tee-90-female-thread-for-internal-valve": "מחבר T ‏90° (הברגה פנימית) לשסתום סמוי"
   },
   "seoArticle": {
     "valves": {
@@ -6991,7 +6865,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "הצגת פרטי המוצר"
   },
   "resources": {
     "common": {
@@ -7144,7 +7018,7 @@
         "btnGhost": "צור קשר עם מומחים"
       },
       "metaTitle": "תמיכה טכנית ושירות עבור מערכות צנרת PP-R",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "ייעוץ הנדסי, טכנולוגיית יישום ותמיכה באתר הפרויקט."
     },
     "downloads": {
       "title": "הורדות (Downloads)",
@@ -8483,53 +8357,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "חבילת מפות",
+    "titleGrad": "אינטראקטיבית",
+    "tabHq": "המטה בוואלדסולמס",
+    "tabRefs": "מפת אטימות",
+    "tabSpec": "מגדיר מפרט",
+    "hqTitle": "מרכז ייצור ופיתוח ראשי",
+    "hqAddress": "ואלדסולמס ברנדוברנדורף, הסן, גרמניה.",
+    "registryLabel": "רשם החברות:",
+    "phoneLabel": "טלפון:",
+    "certLabel": "הסמכה:",
+    "directions": "פתיחת מתכנן מסלול",
+    "aboutPlant": "על המפעל בוואלדסולמס",
+    "sectorFilter": "סינון לפי סקטור:",
+    "specPlaceholder": "הזינו מיקום או עיר…",
+    "profileTitle": "פרופיל שוק ולוגיסטיקה",
+    "profileHint": "לחצו על המפה או חפשו עיר כדי להפעיל את מפרט המערכת האוטומטי ואת חישוב צירי האספקה.",
+    "marketAssign": "שיוך שוק",
+    "normLabel": "תקן:",
+    "airDist": "קו אווירי (מהמטה)",
+    "roadDist": "כביש (הערכה)",
+    "recommended": "מערכת הצנרת המומלצת:",
+    "recUv": "מעטפת חיצונית UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "כל הסקטורים",
+      "hotel": "מלונאות",
+      "wohnen": "בנייה למגורים",
+      "infra": "תשתיות",
+      "klinik": "מרכזים רפואיים",
+      "buero": "משרדים"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "מוצרים",
+      "markets-solutions": "שווקים ופתרונות",
+      "academy-resources": "אקדמיה ומשאבים",
+      "company": "החברה"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "מאתר מוצרים לצינורות",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "אביזרי חיבור ומחברים",
+      "valves": "ברזים ושסתומים",
+      "tools": "כלי עבודה ואביזרים",
+      "transition": "מחברי מעבר לצינורות",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8542,48 +8416,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "בקשת הצעה לפרויקט מערכות צנרת",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "מפת אתר (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "בחרו את השפה שלכם",
+    "subtitle": "65 שפות · סובבו את הגלובוס, הקישו על אזור ואשרו.",
+    "searchPlaceholder": "חיפוש שפה או עמוד…",
+    "pagesSection": "עמודים וניווט",
+    "noResults": "לא נמצאה שפה.",
+    "confirm": "אישור",
+    "beta": "בטא",
+    "globalEffect": "חל על האתר כולו",
+    "active": "פעיל"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "כיצד נוכל לעזור לכם?",
+    "step1Desc": "בחרו את התחום המתאים לפנייתכם.",
+    "optSales": "מכירות ופרויקטים",
+    "optSalesDesc": "בקשות מחיר, פרויקטים גדולים וזמני אספקה.",
+    "optTech": "תמיכה טכנית",
+    "optTechDesc": "מפרטים, התקנה ותכנון מערכות.",
+    "optOther": "פנייה כללית",
+    "optOtherDesc": "שיווק, קריירה או נושאים אחרים.",
+    "step2Title": "פרטי הפנייה",
+    "step2Desc": "אנא תארו בקצרה את הפרויקט או השאלה שלכם.",
+    "messagePlaceholder": "ההודעה שלכם אלינו...",
+    "step3Title": "פרטי הקשר שלכם",
+    "step3Desc": "כמעט סיימנו! כיצד נוכל ליצור אתכם קשר?",
+    "nameLabel": "שם מלא",
+    "companyLabel": "חברה / ארגון",
+    "emailLabel": "כתובת דוא\"ל",
+    "phoneLabel": "מספר טלפון",
+    "step4Title": "ההודעה נשלחה!",
+    "step4Desc": "תודה על פנייתכם. אחד המומחים שלנו ייצור אתכם קשר בהקדם.",
+    "btnNext": "המשך",
+    "btnBack": "חזרה",
+    "btnSubmit": "שליחת הפנייה",
+    "btnSending": "שולח…",
+    "btnHome": "חזרה לעמוד הבית",
+    "sendError": "השליחה נכשלה. נסו שוב או התקשרו אלינו ישירות: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4.9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

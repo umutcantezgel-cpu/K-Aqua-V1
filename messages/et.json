@@ -46,30 +46,30 @@
     "edgePageIndex": "Lehekülje register",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Torusüsteemid",
+      "allProducts": "Kõik tooted",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Tööstusharupõhised rakendused",
+      "digitalTools": "Digitaalsed tööriistad",
+      "finderDesc": "Konfigureerige õige süsteem",
+      "co2Desc": "Arvutage keskkonnajalajälg",
+      "academyDesc": "Koolitused ja sertifikaadid",
+      "trustDesc": "Allalaadimised ja sertifitseeringud",
+      "serviceDesc": "Projekteerimistugi",
+      "partnersDesc": "Saage kohalikuks partneriks",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Ettevõte",
+      "companyDesc": "Missioon, visioon ja ajalugu",
+      "careerDesc": "Vabad töökohad ja kultuur",
+      "newsPress": "Uudised ja press",
+      "newsDesc": "Värskeimad pressiteated",
+      "sitemap": "Saidikaart",
+      "sitemapDesc": "Struktuuri ülevaade",
+      "globalFootprint": "Globaalne jalajälg",
+      "globalMarkets": "Globaalsed turud",
+      "marketsDesc": "Sertifitseeritud piirkonnad",
+      "refProjects": "Referentsprojektid",
+      "refDesc": "Edukad paigaldused"
     }
   },
   "groups": {
@@ -878,25 +878,25 @@
     "nextTitle": "Kui kliimasõbralik on sinu planeerimine?",
     "nextLead": "Sisesta mõõtmed ja pikkus otse CO₂ kalkulaatorisse ning võrdle vase, roostevaba terase ja PVC-ga.",
     "nextCta": "Mine CO₂ kalkulaatorisse",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Otsige meie kogu tootevalikust kategooria, nime või artiklinumbri järgi.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Torud",
+    "catFittings": "Liitmikud",
+    "catValves": "Armatuur",
+    "catTools": "Tööriistad",
+    "catTransitionFittings": "Üleminekuliitmikud",
+    "catAccessories": "Tarvikud",
+    "catWeldInSaddles": "Kvaliteetne PP-R sisse keevitatav sadulliitmik",
+    "category": "Kategooria",
+    "search": "Otsing",
+    "searchPlaceholder": "Artiklinumber või nimi...",
+    "foundFam": "tooteperekonda leitud",
+    "catalogPdf": "Kataloog PDF-ina",
+    "colName": "Toote nimi",
+    "colCat": "Kategooria",
+    "colCodes": "Artiklinumbrid",
+    "noResultsText": "Me ei leidnud teie otsingukriteeriumidele vastavaid tooteid. Palun proovige teist otsingusõna või muutke kategooriat.",
+    "resetFilters": "Lähtesta filtrid"
   },
   "trustAndCases": {
     "eyebrow": "Sertifitseeritud Ohutus",
@@ -966,8 +966,8 @@
     "certBtn": "Genereeri PDF-aruanne",
     "generating": "Genereerin...",
     "energyGreen": "Roheline energia",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
+    "energyDe": "DE-mix",
+    "energyEu": "EU-mix",
     "energyGlobal": "Globaalne Mix",
     "materials": {
       "kaqua": "K Aqua PPRCT",
@@ -1565,7 +1565,7 @@
     "retry": "Proovi uuesti",
     "titlePerfect": "Keevitusmeister",
     "titleGood": "Keevitusõpipoiss",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Koolitusvideod ja juhendid"
   },
   "refs": {
     "eyebrow": "Referentsid",
@@ -1581,51 +1581,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Saksamaa",
         "d": "Põhitehas ja arendus: siin luuakse iga K Aqua toru."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, AÜE",
-        "d": "Kõrghoonete püstikud: PPRCT sooja vee jaoks kõrbetingimustes."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varssavi, Poola",
-        "d": "Uus elamukvartal: täielik joogiveesüsteem d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Türgi",
-        "d": "Hotellikompleks: tsirkulatsioonitorustikud kiudkomposiittorudega."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur",
-        "d": "Infrastruktuuriprojekt: suured mõõtmed kuni d630 põkk-keevitusega."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Kaplinn, Lõuna-Aafrika Vabariik",
-        "d": "Uus haigla: hügieeniline joogivee jaotusvõrk."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, Suurbritannia",
-        "d": "Büroode renoveerimine: korrosioonivaba asendus olemasolevatele torustikele."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Vaata projekti"
   },
   "buyers": {
     "eyebrow": "Planeerijatele, Ostjatele ja Paigaldajatele",
@@ -2459,7 +2417,7 @@
         "btnGhost": "Võta ekspertidega ühendust"
       },
       "metaTitle": "PP-R torusüsteemide tehniline tugi ja teenindus",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Insenertehniline nõustamine, rakendustehnika ja kohapealne tugi."
     },
     "downloads": {
       "title": "Allalaadimised",
@@ -2559,7 +2517,7 @@
         "p1": "Ehitustööstuses saavad vead sageli nähtavaks alles aastaid pärast valmimist. Kui torustikusüsteem ebaõnnestub 50-korruselise pilvelõhkuja seintes, ulatub kahjusumma miljonitesse.",
         "p2": "Just seetõttu teostame oma süsteemidele ekstreemseid vananemisteste. Simuleerime oma kõrgsurvelaborites 50-aastast pidevat koormust. Tulemused voolavad otse meie tehnilistesse dokumentidesse.",
         "card1": {
-          "title": "99.9%",
+          "title": "99,9%",
           "desc": "Mõõtmete täpsus ekstrusioonil, mis on dokumenteeritud igas partiis."
         },
         "card2": {
@@ -2898,7 +2856,7 @@
       "section4P2": "K Aqua testib oma tööstuslikke põllumajandustorusid tööstsenaariumide jaoks, mis ületavad kaugelt tegelikkust. Simuleerime ekstreemseid hüdraulilisi lööke, söövitavaid keemilisi kokteile ja pidevat seismilist mikrovibratsiooni enne, kui ükski toru meie Saksamaa tehasest lahkub.",
       "section4Stat1Val": "50+",
       "section4Stat1Lbl": "Aastat eluiga",
-      "section4Stat2Val": "0.0%",
+      "section4Stat2Val": "0,0%",
       "section4Stat2Lbl": "Lekke tolerants",
       "timelineTitle": "Projekti teostus",
       "timelineDesc": "Alates esimesest hüdrodünaamilisest analüüsist kuni lõpliku sulatamiseni kohapeal. Hoolikalt kavandatud protsess maksimaalse skaleeritavuse saavutamiseks.",
@@ -3042,7 +3000,7 @@
       "section3P2": "Simuleerime ekstreemseid hüdraulilisi lööke, kiirendatud termilist vananemist ajagraafikus, purunemisrõhu teste rõhul üle 100 baari ja kestvusteste 95°C juures tuhandete tundide jooksul. Ainult see, mis selle põrgu vigastamata üle elab, teenib pealkirja <span class=\"text-foreground font-semibold\">Saksa insenerikunst (German Engineering)</span>.",
       "stat1Value": "> 50",
       "stat1Label": "Aastat eluiga",
-      "stat2Value": "0.0 %",
+      "stat2Value": "0,0 %",
       "stat2Label": "Korrosioonirisk",
       "stat3Value": "100 %",
       "stat3Label": "Taaskasutatav",
@@ -3364,7 +3322,7 @@
     ],
     "seoArticle": {
       "pipes": {
-        "areas": "Trinkwasserinstallation, Heizungsbau, Klimatechnik, Industrielle Anlagen, Schiffbau",
+        "areas": "Joogiveepaigaldis, küttesüsteemid, kliimatehnika, tööstusrajatised, laevaehitus",
         "advTitle": "Überlegene Rohrleitungstechnik für jedes Projekt",
         "advList": [
           "Keine Korrosion: 100% resistent gegen Lochfraß und Rost.",
@@ -3373,10 +3331,10 @@
           "Geräuschreduktion: Hervorragende Schalldämmung gegen Fließgeräusche.",
           "Hygienisch: Erfüllt strengste internationale Trinkwassernormen (DVGW, KIWA)."
         ],
-        "seoText": "Unsere Hochleistungsrohre werden in Waldsolms nach höchsten Qualitätsstandards gefertigt. Die Materialkombination PP-R und PPRCT sorgt für außergewöhnliche Temperatur- und Druckbeständigkeit. Egal ob in der Haustechnik, im industriellen Anlagenbau oder bei komplexen Kühlsystemen, dieses Rohrsystem liefert maximale Sicherheit und Effizienz. Die einfache und sichere Schweißtechnik garantiert absolut leckagefreie Verbindungen.",
-        "guideTitle": "Umfassender Ratgeber: Planung und Installation von K Aqua PP-R & PPRCT Rohrsystemen",
+        "seoText": "Meie kõrgtehnoloogilised torud valmistatakse Waldsolmsis kõrgeimate kvaliteedistandardite järgi. Materjalikombinatsioon PP-R ja PPRCT tagab erakordse temperatuuri- ja survekindluse. Olgu tegu hoonetehnika, tööstusliku seadmeehituse või keerukate jahutussüsteemidega – see torusüsteem pakub maksimaalset ohutust ja tõhusust. Lihtne ja töökindel keevitustehnika garanteerib täiesti lekkevabad ühendused.",
+        "guideTitle": "Põhjalik juhend: K Aqua PP-R ja PPRCT torusüsteemide projekteerimine ja paigaldus",
         "guideText": "<h2>Umfassender Ratgeber: Planung, Werkstoffkunde und Installation von K Aqua PP-R & PPRCT Rohrsystemen</h2><p>Die Auswahl des richtigen Rohrwerkstoffs ist das entscheidende Fundament für die Langlebigkeit, Betriebssicherheit und Energieeffizienz moderner Gebäude- und Industrieinfrastrukturen. Unsere in Deutschland (Waldsolms) gefertigten <span class=\"font-semibold\">PP-R und PPRCT Rohrsysteme</span> bieten dank ihrer exzellenten thermischen, chemischen und mechanischen Eigenschaften die zukunftssichere Alternative zu herkömmlichen Metallrohren aus Kupfer, Stahl oder Messing.</p><p>Egal ob in der Haustechnik für Trinkwasser- und Heizungsnetze, im industriellen Anlagenbau, in Kühlsystemen oder im Schiffbau, K Aqua Rohre stehen für kompromisslose deutsche Ingenieurskunst und gewährleisten über Jahrzehnte hinweg einen absolut leckagefreien und wartungsfreien Betrieb.</p><h2>Werkstoffinnovation: PP-R und PPRCT im direkten Vergleich</h2><p>Während Standard-Polypropylen Random Copolymer (PP-R) bereits hervorragende Eigenschaften hinsichtlich Korrosionsbeständigkeit und Hygiene aufweist, setzt das weiterentwickelte PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) neue Maßstäbe in der Rohrleitungstechnik. Durch eine gezielte Modifikation der Kristallstruktur im Polymerisationsprozess bietet PPRCT eine deutlich höhere Druckfestigkeit bei erhöhten Betriebstemperaturen bis zu 95°C.</p><p>Dieser werkstofftechnische Vorteil ermöglicht es, Rohre mit wesentlich geringerer Wandstärke (höhere SDR-Klassen) bei gleichem Nenndruck herzustellen. Die Ergebnisse für den Anwender sind herausragend:</p><ul><li><span class=\"font-semibold\">Erhöhter Hydraulikdurchfluss:</span> Ein größerer Innendurchmesser steigert das Durchflussvolumen um bis zu 17 % im Vergleich zu Standard-PP-R Rohren.</li><li><span class=\"font-semibold\">Reduziertes Rohrgewicht:</span> Die Einsparung von Material vereinfacht den Transport und das Handling auf der Baustelle erheblich.</li><li><span class=\"font-semibold\">Höhere Druckreserven:</span> Maximale Sicherheitsreserven selbst bei Spitzenbelastungen im kontinuierlichen Heißwassereinsatz.</li></ul><h2>Faserverbundtechnologie (K-Fiber) für minimale Längenausdehnung</h2><p>Ein zentraler Aspekt bei der Planung von Warmwasser- und Heizungsleitungen ist die thermische Längenausdehnung von Kunststoffrohren. K Aqua begegnet dieser Herausforderung mit der innovativen K-Fiber Faserverbundtechnologie. Die dreischichtig aufgebauten K-Fiber Rohre verfügen über eine mittlere Polypropylenschicht, die mit hochfesten Glasfasern verstärkt ist.</p><p>Diese mechanische Stabilisierung reduziert den linearen Wärmeausdehnungskoeffizienten auf exakt 0,035 mm/(m·K), was einer Reduktion der thermischen Längenausdehnung um rund 75 % im Vergleich zu nicht armierten Vollkunststoffrohren entspricht. Für Fachplaner und Installateure bedeutet dies:</p><ul><li><span class=\"font-semibold\">Weniger Dehnungsausgleicher:</span> Signifikante Einsparung von Biegeschenkeln und Ausgleichsbögen im Leitungsverlauf.</li><li><span class=\"font-semibold\">Größere Befestigungsabstände:</span> Einsparung von Rohrleitungsschellen und Festpunkten bei der Trassenführung.</li><li><span class=\"font-semibold\">Formstabile Verlegung:</span> Kein Durchhängen der Rohre in offenen Trassen oder Steigleitungen.</li></ul><h2>Homogene Polyfusions-Schweißung: Leckagesicherheit für 50+ Jahre</h2><p>Das Herzstück des K Aqua Rohrsystems ist die unlösbare, stoffschlüssige Verbindungstechnik durch thermische Polyfusion. Beim Schweißvorgang werden das Rohrende und die Muffe des Formteils mittels eines elektronisch geregelten Schweißgeräts auf exakt 260°C erwärmt. Dabei schmelzen die Polymerketten beider Komponenten an den Fügeflächen an.</p><p>Beim Zusammenfügen verschränken sich die geschmolzenen Makromoleküle auf molekularer Ebene vollständig ineinander. Nach dem Erkalten entsteht eine homogene, monolithische Materialstruktur ohne Nahtstellen, Klebstoffe oder elastische Dichtungen. Da keine Gummi-O-Ringe oder mechanischen Pressverbindungen verwendet werden, gehören Alterungsschäden, Verharzungen oder Sprödigkeit von Dichtungen der Vergangenheit an. Die Schweißverbindung hält denselben Drücken stand wie das Rohr selbst.</p><h2>Hydraulik, Hygiene und Umweltverträglichkeit</h2><p>Trinkwassersicherheit und Energieeffizienz stehen bei K Aqua an erster Stelle. Die spiegelglatte Innenoberfläche unserer PP-R und PPRCT Rohre weist eine extrem geringe Rauhigkeit von nur k = 0,007 mm auf. Dies verhindert effektiv die Anhaftung von Kalkablagerungen (Inkrustation) und unterbindet die Bildung von Nährböden für Biofilme und Legionellen.</p><p>Zudem ist der Werkstoff Polypropylen physiologisch vollkommen unbedenklich, geschmacks- und geruchsneutral sowie frei von Schwermetallen und Weichmachern. K Aqua Rohrsysteme sind weltweit nach strengsten Prüfnormen zertifiziert (u. a. DVGW, KIWA, WRAS). Auch ökologisch überzeugt das System: Das Polymer ist zu 100 % recycelbar und weist im Vergleich zu Metallrohren eine hervorragende Ökobilanz im Herstellungsprozess auf.</p><h2>Wichtige Verlege- und Planungshinweise</h2><p>Um eine einwandfreie Funktion über die garantierte Lebensdauer von 50 Jahren sicherzustellen, sind bei der Verlegung folgende Punkte zu beachten:</p><ul><li><span class=\"font-semibold\">Druckprüfung:</span> Nach Abschluss der Montage muss das Rohrnetz einer Druckprüfung gemäß DIN 1988 / DIN EN 806 unterzogen werden.</li><li><span class=\"font-semibold\">Wärmedämmung:</span> Rohre für Warmwasser und Heizung sind gemäß den geltenden Energieeinsparverordnungen (z. B. GEG) fachgerecht zu dämmen, um Wärmeverluste zu minimieren.</li><li><span class=\"font-semibold\">UV-Schutz:</span> Bei Freiverlegung im Außenbereich sind UV-geschützte Rohre zu verwenden oder geeignete Abdeckungen vorzusehen.</li></ul>",
-        "seoTitle": "PP-R & PPRCT Rohrsysteme Übersicht",
+        "seoTitle": "PP-R ja PPRCT torusüsteemide ülevaade",
         "faq": [
           {
             "q": "Was unterscheidet PPRCT von herkömmlichem PP-R bei Rohrleitungssystemen?",
@@ -3401,7 +3359,7 @@
         ]
       },
       "fittings": {
-        "areas": "Trinkwassernetz, Sanitärinstallation, Industrielle Verteilung, Heizungsbau",
+        "areas": "Joogiveevõrk, sanitaarpaigaldis, tööstuslik jaotus, küttesüsteemide ehitus",
         "advTitle": "Sichere und homogene Verbindungen",
         "advList": [
           "Homogene Verschweißung: Rohr und Fitting verschmelzen zu einer untrennbaren Einheit.",
@@ -3410,13 +3368,13 @@
           "Voller Durchfluss: Keine Querschnittsverengung, wodurch der Systemdruck erhalten bleibt.",
           "Chemische Beständigkeit: Resistent gegen eine Vielzahl aggressiver Medien."
         ],
-        "seoText": "Formteile von K Aqua sind das Bindeglied für zuverlässige Rohrnetze. Gefertigt in Deutschland, bieten diese Fittings höchste Präzision und Maßhaltigkeit. Die Verschweißungstechnik (Muffenschweißen) dauert nur wenige Sekunden und kühlt zu einer Verbindung ab, die genauso stark ist wie das Rohr selbst. Dadurch eliminieren Sie das Risiko von Mikroleckagen, wie sie oft bei Press- oder Stecksystemen nach Jahren auftreten können.",
-        "guideTitle": "Technischer Leitfaden: Sichere Verbindungen mit K Aqua Formteilen",
+        "seoText": "K Aqua liitmikud on töökindlate torustike ühenduslüli. Saksamaal valmistatud liitmikud pakuvad suurimat täpsust ja mõõtmete püsivust. Keevitustehnika (muhvkeevitus) võtab vaid mõne sekundi ja jahtub ühenduseks, mis on sama tugev kui toru ise. Nii välistate mikrolekete riski, mis press- või pistiksüsteemide puhul võib aastate jooksul sageli tekkida.",
+        "guideTitle": "Tehniline juhend: kindlad ühendused K Aqua liitmikega",
         "guideText": "<p>Fittings sind das Herzstück jedes komplexen Rohrnetzwerks. Mit den hochwertigen <span class=\"font-semibold\">K Aqua PP-R Formteilen</span> realisieren Sie Installationen, die höchsten Drücken und Temperaturen standhalten.</p><p>Die Vorteile der homogenen Verschweißung sind unbestritten:</p><ul><li><span class=\"font-semibold\">Stoffschlüssige Verbindung:</span> Bei der Erwärmung verschmelzen Fitting und Rohr zu einem einzigen Werkstück. Dies schließt Schwachstellen wie alternde O-Ringe oder mechanische Verpressungen konsequent aus.</li><li><span class=\"font-semibold\">Strömungsoptimierung:</span> Unsere Fittings sind so konzipiert, dass der Querschnitt an den Verbindungsstellen erhalten bleibt. Das minimiert Turbulenzen und reduziert den Energieverbrauch von Umwälzpumpen.</li><li><span class=\"font-semibold\">Höchste Materialqualität:</span> Durch die Verwendung von erstklassigem Polypropylen Random Copolymerisat wird eine herausragende chemische und thermische Beständigkeit erzielt, die weit über den normativen Vorgaben liegt.</li></ul><p>Bei der Verarbeitung ist auf saubere, gratfreie Schnitte sowie auf die exakte Einhaltung der Erwärmungs- und Abkühlzeiten zu achten. So gewährleisten Sie die vom Hersteller zugesicherte, wartungsfreie Betriebszeit von über 50 Jahren in allen Installationsbereichen.</p>",
-        "seoTitle": "Kunststoff-Fittings & Formteile"
+        "seoTitle": "Plastliitmikud ja vormidetailid"
       },
       "valves": {
-        "areas": "Strangabsperrung, Anlagensteuerung, Verteilerschränke, Industrie",
+        "areas": "Püstikute sulgemine, seadmete juhtimine, jaotuskapid, tööstus",
         "advTitle": "Präzise Steuerung und langlebige Funktion",
         "advList": [
           "Wartungsfrei: Die Mechanik ist auf jahrzehntelange reibungslose Funktion ausgelegt.",
@@ -3425,14 +3383,14 @@
           "Hochwertige Materialien: Ventilsitze und Kugeln aus korrosionsfesten Legierungen.",
           "Sichere Absperrung: 100% dicht selbst unter extremen Druck- und Temperaturwechseln."
         ],
-        "seoText": "Absperrarmaturen und Ventile von K Aqua kombinieren die bewährte PP-R Schweißtechnik mit hochwertigen mechanischen Komponenten. Sie ermöglichen eine präzise Steuerung von Fluiden und eine sichere Isolation von Netzabschnitten für Wartungsarbeiten. Jede Armatur wird vor der Auslieferung strengen Druckprüfungen unterzogen, um höchste Betriebssicherheit in kritischen Anwendungen zu gewährleisten.",
-        "guideTitle": "Expertenratgeber: Anlagensteuerung mit K Aqua Ventilen und Armaturen",
+        "seoText": "K Aqua sulgearmatuur ja ventiilid ühendavad end tõestanud PP-R keevitustehnika kvaliteetsete mehaaniliste komponentidega. Need võimaldavad vedelike täpset juhtimist ja võrgulõikude ohutut isoleerimist hooldustööde ajaks. Iga armatuur läbib enne tarnimist ranged survekatsed, et tagada kriitilistes rakendustes maksimaalne töökindlus.",
+        "guideTitle": "Ekspertjuhend: seadmete juhtimine K Aqua ventiilide ja armatuuriga",
         "guideText": "<p>Die präzise Steuerung und Isolation von Stoffströmen ist in modernen Wasser- und Heizungsnetzen unerlässlich. <span class=\"font-semibold\">K Aqua Absperrarmaturen und Ventile</span> kombinieren die Langlebigkeit von Polypropylen mit der Präzision metallischer Dicht- und Stellmechanismen.</p><p>Was Sie bei der Integration von PP-R Ventilen wissen müssen:</p><ul><li><span class=\"font-semibold\">Totraumfreie Konstruktion:</span> Zur Vermeidung von Stagnationswasser und Verkeimung (z. B. Legionellen) sind unsere Armaturen strömungsoptimiert und hygienegerecht konstruiert, was sie ideal für sensible Trinkwasserinstallationen macht.</li><li><span class=\"font-semibold\">Druck- und Temperaturstabilität:</span> Die massiven Ventilkörper und die hochwertigen Messing- oder PP-Kugeln gewährleisten eine 100%ige Abdichtung, selbst bei extremen Druckschlägen und hohen Vorlauftemperaturen.</li><li><span class=\"font-semibold\">Wartungsfreundlichkeit:</span> Auch nach vielen Jahren im Dauereinsatz lassen sich K Aqua Kugelhähne und Schrägsitzventile dank teflonbeschichteter Dichtelemente leichtgängig und präzise bedienen.</li></ul><p>Für eine maximale Anlagenverfügbarkeit empfehlen wir, die Armaturen bereits in der Planungsphase strategisch zu positionieren, um Wartungsarbeiten und Spülvorgänge ohne weitreichende Netzunterbrechungen durchführen zu können.</p>",
-        "seoTitle": "Absperrventile & Kugelhähne"
+        "seoTitle": "Sulgeventiilid ja kuulkraanid"
       },
       "weldInSaddles": {
-        "areas": "Nachträgliche Abzweige, Rohrnetzerweiterung, Verteilungsaufbau",
-        "advTitle": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität",
+        "areas": "Hilisemad harutorud, torustiku laiendamine, jaotussüsteemi ehitus",
+        "advTitle": "Sisse keevitatavad sadulliitmikud maksimaalse paindlikkuse tagamiseks",
         "advList": [
           "Nachträgliche Installation: Erweiterung bestehender PP-R Rohrnetze ohne Trennen des Hauptrohres.",
           "Zeitsparend: Bohren, Aufheizen, Einschweißen, fertig in wenigen Minuten.",
@@ -3440,13 +3398,13 @@
           "Voller Durchfluss: Keine Querschnittsverengung im Hauptstrang.",
           "Vielseitig: Erhältlich mit oder ohne metallischen Gewindeübergang (IG/AG)."
         ],
-        "seoText": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität sind die perfekte Lösung für nachträgliche Abzweige in bestehenden Leitungsnetzen. Anstatt das Hauptrohr mühsam zu trennen und T-Stücke einzusetzen, wird das Rohr lediglich angebohrt und der Sattel homogen aufgeschweißt. Diese Technik spart enorme Montagezeiten und Materialkosten bei industriellen Verteilersystemen.",
-        "guideTitle": "Installationsleitfaden: Flexibilität durch Einschweißsättel (Weld-in Saddles)",
+        "seoText": "Sisse keevitatavad sadulliitmikud on ideaalne lahendus hilisemate harutorude tegemiseks olemasolevates torustikes. Selle asemel, et peatoru vaevaliselt läbi lõigata ja T-detaile paigaldada, puuritakse toru lihtsalt läbi ja sadul keevitatakse homogeenselt peale. See tehnika säästab tööstuslike jaotussüsteemide puhul märkimisväärselt paigaldusaega ja materjalikulusid.",
+        "guideTitle": "Paigaldusjuhend: paindlikkus sisse keevitatavate sadulliitmikega",
         "guideText": "<p>Die Modifikation oder Erweiterung bestehender industrieller und gewerblicher Rohrnetze ist oft mit hohem Aufwand verbunden. Hier bieten <span class=\"font-semibold\">K Aqua Einschweißsättel</span> eine effiziente und äußerst sichere Lösung, um nachträgliche Abzweige ohne Leitungsunterbrechung zu schaffen.</p><p>Die wesentlichen technischen Vorteile im Überblick:</p><ul><li><span class=\"font-semibold\">Minimale Installationszeit:</span> Anstatt das Hauptrohr zu trennen und konventionelle T-Stücke einzubauen, wird das Rohr lediglich passgenau angebohrt und der Sattel aufgeschweißt. Das senkt die Montagekosten drastisch.</li><li><span class=\"font-semibold\">Erhalt der Systemintegrität:</span> Durch die Polyfusion verbindet sich der Einschweißsattel untrennbar mit der Rohrwandung, wodurch das System seine ursprüngliche Druck- und Temperaturbeständigkeit (bis PN 25) beibehält.</li><li><span class=\"font-semibold\">Flexible Anschlussmöglichkeiten:</span> Erhältlich als reiner Kunststoffabzweig oder mit integriertem Metallgewinde (IG/AG), ermöglichen Sättel den direkten Anschluss von Sensoren, Manometern oder Abzweigleitungen auf engstem Raum.</li></ul><p>Um eine einwandfreie Schweißung zu gewährleisten, ist die Verwendung der speziellen K Aqua Anbohr- und Schweißwerkzeuge zwingend erforderlich, da sie die exakte Frästiefe und Erwärmungsfläche für eine makellose Verbindung garantieren.</p>",
-        "seoTitle": "Einschweißsättel für Rohrleitungen"
+        "seoTitle": "Sisse keevitatavad sadulliitmikud torustikele"
       },
       "accessories": {
-        "areas": "Rohrbefestigung, Dichtung, Flanschverbindung, Reparatur",
+        "areas": "Torukinnitus, tihendamine, äärikühendus, remont",
         "advTitle": "Accessories (Zubehör) für eine normgerechte Installation",
         "advList": [
           "Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K Aqua Rohrsystem abgestimmt.",
@@ -3455,8 +3413,8 @@
           "Schnelle Reparatur: Reparaturstopfen für versehentlich angebohrte Rohre.",
           "UV-Beständigkeit: Ausgewählte Zubehörteile sind speziell für die Außenaufstellung stabilisiert."
         ],
-        "seoText": "Das richtige Accessories-Sortiment (Zubehör) ist entscheidend für die Langlebigkeit eines Rohrnetzes. K Aqua bietet eine umfassende Zubehör-Matrix: von der thermodynamischen Befestigungsschelle zur Aufnahme von Längenausdehnungen bis hin zur EPDM-Flachdichtung für Flanschverbindungen. Nur mit dem perfekt abgestimmten K Aqua Zubehör gewährleisten Sie die Einhaltung aller GEG- und DIN 18381-Vorgaben.",
-        "guideTitle": "Fachratgeber: K Aqua Zubehör für normgerechte Installationen",
+        "seoText": "Õige tarvikute valik on torustiku pika eluea seisukohalt otsustava tähtsusega. K Aqua pakub põhjalikku tarvikute maatriksit: alates termodünaamilistest kinnitusklambritest pikkuspaisumise vastuvõtmiseks kuni EPDM-lametihenditeni äärikühenduste jaoks. Ainult ideaalselt sobitatud K Aqua tarvikutega tagate kõigi GEG ja DIN 18381 nõuete täitmise.",
+        "guideTitle": "Erialane juhend: K Aqua tarvikud normidele vastavateks paigaldisteks",
         "guideText": "<p>Ein hochwertiges Rohrsystem erfordert ebenso hochwertiges Zubehör. Das K Aqua Sortiment umfasst alle essenziellen Komponenten, um Langlebigkeit, Sicherheit und die Einhaltung aller bauphysikalischen Normen zu gewährleisten.</p><p>Die wichtigsten Aspekte zur richtigen Verwendung unseres Zubehörs:</p><ul><li><span class=\"font-semibold\">Kompensation der Längenausdehnung:</span> Bei Temperaturwechseln dehnen sich Kunststoffrohre aus. Der gezielte Einsatz unserer thermodynamischen Rohrschellen als Fest- und Loslager nimmt diese Bewegungen sicher auf und schützt das System vor schädlichen Eigenspannungen. Dies ist besonders bei industriellen Anlagen und Steigleitungen von entscheidender Bedeutung, wo unkontrollierte Ausdehnungen zu strukturellen Schäden führen könnten.</li><li><span class=\"font-semibold\">Dichte Flanschverbindungen:</span> Für Übergänge auf große Armaturen, Pumpen oder Tanks bieten unsere Losflansche und die exakt abgestimmten EPDM-Flachdichtungen absolute Sicherheit bei hohen Anpressdrücken und dauerhaften Vibrationen. Sie garantieren eine nahtlose, flüssigkeitsdichte Verbindung und verhindern so potenziell desaströse Leckagen in kritischen Infrastrukturen.</li><li><span class=\"font-semibold\">Reparaturlösungen:</span> Mit unserem innovativen Reparaturstopfen lassen sich versehentlich angebohrte Rohre (z. B. auf Baustellen) in Minuten homogen verschweißen, sodass das Rohr seine volle mechanische Belastbarkeit zurückerhält. Ein kompletter Austausch des Leitungsabschnitts entfällt somit.</li></ul><p>Zusätzlich zur Kompensation und Dichtigkeit spielen <span class=\"font-semibold\">Isolierung und Brandschutz</span> eine zentrale Rolle bei der fachgerechten Installation. Das Zubehörsortiment von K Aqua ist darauf ausgelegt, thermische Verluste zu minimieren und höchste Sicherheitsstandards zu erfüllen. Unsere Spezialdichtungen und Befestigungselemente sind so konstruiert, dass sie Schallübertragungen effektiv dämpfen und Körperschallausbreitung im Mauerwerk verhindern.</p><p>Durch die ausschließliche Verwendung von Original K Aqua Zubehörteilen sichern Sie sich die volle Systemgewährleistung und vermeiden kostenintensive Mängel durch inkompatible Drittanbieter-Produkte. Investieren Sie in kompromisslose Qualität, um den störungsfreien Betrieb Ihres Leitungssystems für Jahrzehnte zu garantieren.</p> Accessories (Zubehör) für eine normgerechte Installation.",
         "faq": [
           {
@@ -3472,10 +3430,10 @@
             "a": "Ja, unser Sortiment umfasst hochbelastbare Losflansche mit Stahlkern, EPDM-Spezialdichtungen und verstärkte Rohrschellen, die extremen industriellen Belastungen problemlos standhalten."
           }
         ],
-        "seoTitle": "Zubehör für die Rohrinstallation"
+        "seoTitle": "Tarvikud torupaigalduseks"
       },
       "tools": {
-        "areas": "Vorfertigung, Baustellenmontage, Reparatur, Spezialanwendungen",
+        "areas": "Eelvalmistus, paigaldus ehitusplatsil, remont, erirakendused",
         "advTitle": "Höchste Präzision für die perfekte Verbindung",
         "advList": [
           "Exakte Temperaturkontrolle: Mikroprozessorgesteuerte Heizelemente halten exakt 260°C.",
@@ -3484,14 +3442,14 @@
           "Digitale Dokumentation: Stumpf- und Elektroschweißmaschinen mit Protokollfunktion.",
           "Lange Lebensdauer: Robuste Mechanik für den rauen Baustellenalltag."
         ],
-        "seoText": "Das K Aqua Werkzeugsortiment bildet die unverzichtbare Grundlage für die fachgerechte Verarbeitung unserer Rohrleitungssysteme. Von der präzisen Rohrschere bis zur automatisierten CNC-Stumpfschweißmaschine bieten wir für jede Dimension das optimale Equipment. Nur mit kalibrierten Originalwerkzeugen lassen sich die vom DVS geforderten Fügeparameter exakt einhalten, um die Lebensdauer von über 50 Jahren zu garantieren.",
-        "guideTitle": "Praxisleitfaden: Profi-Werkzeuge für die K Aqua Rohrmontage",
+        "seoText": "K Aqua tööriistavalik on meie torusüsteemide asjatundliku töötlemise asendamatu alus. Alates täpsest torukäärist kuni automatiseeritud CNC-põkk-keevitusmasinani pakume igale mõõtmele optimaalset varustust. Ainult kalibreeritud originaaltööriistadega saab DVS-i nõutud liitmisparameetreid täpselt järgida, et garanteerida üle 50-aastane kasutusiga.",
+        "guideTitle": "Praktiline juhend: professionaalsed tööriistad K Aqua torude paigalduseks",
         "guideText": "<p>Die Qualität einer Kunststoffrohr-Installation steht und fällt mit der Präzision der verwendeten Werkzeuge. <span class=\"font-semibold\">K Aqua Schweiß- und Schneidwerkzeuge</span> sind speziell auf die thermoplastischen Eigenschaften von PP-R und PPRCT abgestimmt, um fehlerfreie Ergebnisse zu erzielen.</p><p>Warum professionelles Equipment unverzichtbar ist:</p><ul><li><span class=\"font-semibold\">Makellose Vorbereitung:</span> Ein absolut rechtwinkliger und gratfreier Schnitt ist die Grundvoraussetzung für eine dichte Schweißnaht. Unsere Rohrschneider und Kaltkreissägen verhindern Materialstauchungen und Mikrorisse.</li><li><span class=\"font-semibold\">Thermodynamische Präzision:</span> Die mikroprozessorgesteuerten Muffenschweißgeräte halten die ideale Fügetemperatur von 260°C auch bei widrigen Wetterbedingungen konstant, was eine Degradation des Polymers zuverlässig verhindert.</li><li><span class=\"font-semibold\">Automatisierte Sicherheit:</span> Bei großen Nennweiten eliminieren unsere computergesteuerten Stumpfschweiß- und Elektroschweißmaschinen menschliche Fehler, indem sie Druck, Zeit und Temperatur vollautomatisch regeln und für die Bauabnahme digital dokumentieren.</li></ul><p>Eine regelmäßige Wartung und Reinigung der teflonbeschichteten Heizdorne ist essenziell, um eine homogene Schmelze und dauerhaft belastbare, leckagefreie Leitungsnetze zu gewährleisten.</p>",
-        "seoTitle": "Schweißwerkzeuge & Rohrabschneider"
+        "seoTitle": "Keevitustööriistad ja torulõikurid"
       },
       "fallback": {
-        "areas": "Universelle Installationstechnik, Baustellenbedarf, Systemergänzung",
-        "advTitle": "Perfekte Systemergänzung",
+        "areas": "Universaalne paigaldustehnika, ehitusplatsi vajadused, süsteemi täiendus",
+        "advTitle": "Täiuslik süsteemitäiendus",
         "advList": [
           "geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.",
           "Systemkompatibilität: Perfekt auf das K Aqua Rohrsystem abgestimmt.",
@@ -3499,36 +3457,36 @@
           "Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.",
           "Wirtschaftlichkeit: Hervorragendes Preis-Leistungs-Verhältnis."
         ],
-        "seoText": "Als Systemanbieter liefert K Aqua nicht nur Rohre und Fittings, sondern auch das gesamte benötigte Werkzeug und Zubehör. Vom hochpräzisen Schweißgerät bis zum zuverlässigen Rohrabschneider: unsere Werkzeuge garantieren eine normgerechte Verarbeitung und maximale Installationssicherheit. Setzen Sie auf Originalzubehör, um die Gewährleistung Ihres K Aqua Gesamtsystems zu erhalten."
+        "seoText": "Süsteemipakkujana tarnib K Aqua mitte ainult torusid ja liitmikke, vaid ka kõik vajalikud tööriistad ja tarvikud. Alates ülitäpsest keevitusseadmest kuni töökindla torulõikurini: meie tööriistad garanteerivad normidele vastava töötlemise ja maksimaalse paigalduskindluse. Kasutage originaaltarvikuid, et säilitada kogu K Aqua süsteemi garantii."
       },
       "title": "PP-R ja PPRCT torud",
       "p1": "Ülevaade torustikusüsteemidest",
       "p2": "Kvaliteetsed lahendused joogiveele."
     },
     "labels": {
-      "applicationAreas": "Einsatzgebiete",
-      "advantages": "Ihre Vorteile im Überblick",
-      "technicalDescription": "Technisches Profil & SEO",
-      "noResults": "Keine Produkte gefunden",
-      "searchPlaceholder": "Suchen nach Titel oder Artikelnummer...",
-      "faqTitle": "Häufig gestellte Fragen (FAQ)",
-      "faqFallbackQ1": "Was sind die Hauptvorteile?",
-      "faqFallbackA1": "Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser.",
-      "faqFallbackQ2": "Ist das Material umweltfreundlich?",
-      "faqFallbackA2": "Ja, PPRCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren.",
-      "faqFallbackQ3": "Wie erfolgt die Installation?",
-      "faqFallbackA3": "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen.",
-      "downloads": "Downloads & Dokumente",
-      "tds": "Technisches Datenblatt",
-      "tdsDesc": "Spezifikationen & Maße (PDF)",
-      "cert": "Zertifikate & Normen",
+      "applicationAreas": "Kasutusvaldkonnad",
+      "advantages": "Teie eelised ülevaatlikult",
+      "technicalDescription": "Tehniline profiil ja SEO",
+      "noResults": "Tooteid ei leitud",
+      "searchPlaceholder": "Otsi pealkirja või artiklinumbri järgi...",
+      "faqTitle": "Korduma kippuvad küsimused (KKK)",
+      "faqFallbackQ1": "Millised on peamised eelised?",
+      "faqFallbackA1": "Süsteem pakub erakordset vastupidavust, korrosioonikindlust ja suurepäraseid hügieenilisi omadusi joogivee jaoks.",
+      "faqFallbackQ2": "Kas materjal on keskkonnasõbralik?",
+      "faqFallbackA2": "Jah, PPRCT on 100% ringlussevõetav ja selle CO2-jalajälg on metalltorudega võrreldes väga väike.",
+      "faqFallbackQ3": "Kuidas paigaldus toimub?",
+      "faqFallbackA3": "Paigaldus toimub ohutult ja lekkevabalt polüfusioonkeevituse teel.",
+      "downloads": "Allalaadimised ja dokumendid",
+      "tds": "Tehniline andmeleht",
+      "tdsDesc": "Spetsifikatsioonid ja mõõtmed (PDF)",
+      "cert": "Sertifikaadid ja standardid",
       "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
-      "install": "Installations-Guide",
-      "installDesc": "Anleitung zum Schweißen (PDF)",
-      "range": "Produktprogramm",
-      "rangeDesc": "Komplettes Produktprogramm mit Maßen (PDF)",
-      "features": "Produkteigenschaften",
-      "featuresDesc": "Materialeigenschaften & Systemvorteile (PDF)",
+      "install": "Paigaldusjuhend",
+      "installDesc": "Keevitusjuhend (PDF)",
+      "range": "Tootevalik",
+      "rangeDesc": "Täielik tootevalik koos mõõtmetega (PDF)",
+      "features": "Toote omadused",
+      "featuresDesc": "Materjali omadused ja süsteemi eelised (PDF)",
       "articleNumbers": "Artiklid",
       "category": "Kategooria",
       "certification": "Sertifikaadid",
@@ -4051,9 +4009,9 @@
       "desc": "Täielik torustikusüsteem kuumale ja külmale joogiveele: alates torust kuni liitmiku ja keevitustehnoloogiani. Neli ehitusplokki, üks süsteem."
     },
     "sticky": {
-      "eyebrow": "DAS PRODUKTSPEKTRUM",
-      "title": "KOMPROMISSLOSE INGENIEURSKUNST.",
-      "lead": "Jede Komponente ist Teil eines geschlossenen, perfekten Systems. Von der Einspeisung bis zum Endpunkt kontrollieren wir den Fluss von Wasser, Chemikalien und Gasen mit unerbittlicher Zuverlässigkeit.",
+      "eyebrow": "TOOTESPEKTER",
+      "title": "KOMPROMISSITU INSENERIKUNST.",
+      "lead": "Iga komponent on osa suletud, täiuslikust süsteemist. Sisendist lõpp-punktini juhime vee, kemikaalide ja gaaside voolu vankumatu töökindlusega.",
       "items": [
         {
           "title": "Kestvus",
@@ -4504,39 +4462,6 @@
             "unit": "",
             "title": "Hooldusvajadus",
             "desc": "Paigalda, sulge ja unusta igaveseks."
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "Referentsid, mis teevad ajalugu.",
-        "desc": "Alates tehissaartest Pärsia lahes kuni eksklusiivseimate suusakuurortideni Alpides. Kus iganes ehitatakse võimatut, on K-Aqua juba kohal."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "800 sviidi ja 4 tohutu basseinimaastiku varustamine. Äärmine soolsus ja ümbritsev temperatuur kuni 50°C nõudsid maksimaalset termilist ja keemilist vastupidavust. K-Aqua tarnis kogu külma ja kuuma vee võrgu, sealhulgas kaugjahutuse ühenduse."
-          },
-          {
-            "year": "Šveits",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "6-tärni kuurort 2000 meetri kõrgusel. Väljakutse: äärmine külmaoht ehituse ajal ja maksimaalsed nõuded heliisolatsioonile. Meie PP-R kiudkomposiittorud neelasid termilise pikkuse muutused suurepäraselt ja tagasid hääletu töö."
-          },
-          {
-            "year": "Singapur",
-            "title": "Vertical Forest Hotel",
-            "text": "65-korruseline ökoloogilise arhitektuuri meistriteos. Keeruline niisutussüsteem tuhandetele rõdutaimedele, samuti kogu joogivee infrastruktuur realiseeriti K-Aqua abil. Homogeenne keevitustehnoloogia kaitses hoonet mikroskoopiliste lekete eest."
-          },
-          {
-            "year": "Maldiivid",
-            "title": "Zero-Emission Island Resort",
-            "text": "Otse rifi peale ehitatuna nõuti absoluutset keskkonnasõbralikkust. K-Aqua torud on 100% taaskasutatavad, ei eralda mikroplaste ega raskmetalle ning peavad vastu väga korrodeerivale soolasele mereõhule ilma igasuguse kulumiseta."
-          },
-          {
-            "year": "Tulevik",
-            "title": "Teie järgmine megaprojekt",
-            "text": "Arhitektuuri piirid nihkuvad iga päevaga. Oleme valmis valama vundamendi teie julgeimatele visioonidele. Tehnoloogiaga, mis on oma ajast aastakümneid ees."
           }
         ]
       },
@@ -6369,7 +6294,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Vaata toote üksikasju"
   },
   "productsx": {
     "pipesEyebrow": "Torud",
@@ -6630,8 +6555,7 @@
         "d": "Hügieen ei ole siin läbiräägitav: sile sisepind (0,007 mm) pärsib biokilet ja inkrustatsiooni, materjal jääb maitse- ja lõhnaneutraalseks.",
         "pts": [
           "Hügieeniline neutraalsus",
-          "Korrosioonivaba: pole punktkorrosiooni",
-          "Viide: Uus haigla Kaplinnas"
+          "Korrosioonivaba: pole punktkorrosiooni"
         ]
       },
       {
@@ -6639,8 +6563,7 @@
         "d": "Kuuma vee tsirkulatsioon ööpäevaringselt: madal soojusjuhtivus säästab püsivalt energiat, PPRCT talub 70 °C pidevat tööd.",
         "pts": [
           "Termiline tõhusus",
-          "PPRCT tsirkulatsiooniks",
-          "Viide: Hotellikompleks Istanbulis"
+          "PPRCT tsirkulatsiooniks"
         ]
       },
       {
@@ -6657,8 +6580,7 @@
         "d": "UV-stabiliseeritud versioonid niisutamiseks klaasi all ja välitingimustes: kerged, kiiresti paigaldatavad, külmakindlamad kui jäigad süsteemid.",
         "pts": [
           "UV-kindel disain",
-          "Väike kaal",
-          "Kasutusvaldkond viiteprogrammist"
+          "Väike kaal"
         ]
       },
       {
@@ -6666,8 +6588,7 @@
         "d": "Toitetrassid ja võrgud suurte mõõtmetega kuni d630: põkk-keevitatud homogeenseteks, püsivalt tihedateks harudeks.",
         "pts": [
           "d kuni 630 mm",
-          "Põkk-keevitus (Butt Fusion)",
-          "Viide: Infrastruktuur Singapuris"
+          "Põkk-keevitus (Butt Fusion)"
         ]
       },
       {
@@ -7617,53 +7538,6 @@
       ]
     }
   },
-  "customerReviews": {
-    "eyebrow": "Kvaliteet, mis ühendab",
-    "title": "Mida ütlevad meie kliendid ja partnerid",
-    "lead": "Alates ehitajatest kuni ekspedeerijate ja kauaaegsete töötajateni: K Aqua KWT GmbH seisab Waldsolmsi kõrgeima täpsuse eest. Lugege ise, millised kogemused on inimestel igapäevaselt meie teeninduse ja toodetega „Made in Germany”.",
-    "trustBadge": "Google arvustused",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Põhineb 44 arvustusel)",
-    "tabA": "Kvaliteet ja „Made in Germany”",
-    "tabB": "Logistika ja kohaletoimetamine",
-    "tabC": "Klienditeenindus ja meeskond",
-    "reviews": {
-      "a1": "„Saksamaal Waldsolmsis asuv tehas, mis on spetsialiseerunud PPR-torudele ja liitmikele **Made in Germany**. Suurepärane personal.”",
-      "a1Author": "Giulio C.",
-      "a2": "„**Saksa kvaliteet** PPR kattekihtide ja liitmike osas, väga sõbralik personal.”",
-      "a2Author": "Veronica P.",
-      "a3": "„**Moodne ettevõte**. Toodab igas suuruses plasttorusid ja tarvikuid.”",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR-torud ja liitmikud **Saksa tootmisest**, suurepärased töötajad ja tooted.”",
-      "a4Author": "Kais S.",
-      "a5": "„**Kõrgekvaliteedilised tooted** ja tipptasemel Saksa tehas.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Väga head tooted, **usaldusväärne kvaliteet** ja õigeaegne tarne.”",
-      "a6Author": "Klaus T.",
-      "b1": "„Väga tore suhtlemine, **kiire mahalaadimine**. Sain siin teha oma suure pausi. Pakuti ka dušši ja tualetti. Veoautojuhina tunnete end siin **väärtustatuna**. Tulen siia väga hea meelega tagasi.”",
-      "b1Author": "Michael S.",
-      "b2": "„Sissepääsu praegused koordinaadid on **50.428210, 8.499154**. Parkla on umbes 100 meetri kaugusel. Sõbralik personal.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Kiire mahalaadimine**, sõbralik ja abivalmis personal.”",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Väga hea teenindus**, tore, et toodetakse ikka Saksamaal.”",
-      "c1Author": "Daniel",
-      "c2": "„**Väga sõbralik** ja abivalmis personal. E-kirjadele vastatakse **koheselt**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "„Juhatajast lihtsate töölisteni: nad on **head inimesed**.”",
-      "c3Author": "Azim",
-      "c4": "„**Suurepärane ettevõte**, teeb oma inimeste heaks palju.”",
-      "c4Author": "Monika v. B.",
-      "c5": "„Töötajad on **väga sõbralikud ja abivalmid**.”",
-      "c5Author": "Piera V.",
-      "c6": "„Pädev meeskond ja **suurepärane klienditugi** kõigil tasanditel.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Veenduge ise meie teeninduses.",
-    "ctaText": "Kas teil on küsimusi meie PPR torustikusüsteemide kohta või soovite meiega projekti arutada? Meie meeskond Waldsolmsist on teie jaoks olemas.",
-    "ctaBtn": "Võtke kohe ühendust",
-    "disclaimer": "Märkus arvustuste kontrollimise kohta: Siin näidatud arvustused pärinevad meie Google'i ettevõtte profiililt. Google nendib: arvustusi ei kontrollita. Oleme andmekaitse (GDPR) kaalutlustel autorite nimesid lühendanud."
-  },
   "referenzenPage": {
     "hero": {
       "eyebrow": "Tööstuslikud referentsprojektid",
@@ -8351,64 +8225,64 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Keevitatav sadul sisekeermega",
     "weld-in-saddles_weld-in-saddle-male-thread": "Keevitatav sadul väliskeermega",
     "weld-in-saddles_weld-in-saddle": "Keevitatav sadul",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Vabaäärik PP-teras (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R möödaviigukaar muhviga",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Käsikeevitusseade d20-d32",
+    "tools_pipe-cutter-50125": "Torulõikur d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "T-detail 90° (sisekeere) süvistatavale ventiilile"
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
+    "title1": "Interaktiivne",
+    "titleGrad": "kaardikomplekt",
+    "tabHq": "Peakontor Waldsolms",
+    "tabRefs": "Tiheduskaart",
+    "tabSpec": "Spetsifikaator",
+    "hqTitle": "Kesksed tootmis- ja arenduskeskus",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, Saksamaa.",
+    "registryLabel": "Äriregister:",
+    "phoneLabel": "Telefon:",
+    "certLabel": "Sertifitseering:",
+    "directions": "Ava marsruudiplaneerija",
+    "aboutPlant": "Waldsolmsi tehasest",
+    "sectorFilter": "Sektorifilter:",
+    "specPlaceholder": "Sisestage asukoht või linn…",
+    "profileTitle": "Turu- ja logistikaprofiil",
+    "profileHint": "Klõpsake kaardil või otsige linna, et käivitada automaatne süsteemispetsifikatsioon ja tarnetelgede arvutus.",
+    "marketAssign": "Turumääratlus",
     "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "airDist": "Linnulennult (HQ)",
+    "roadDist": "Maanteed mööda (hinnanguline)",
+    "recommended": "Soovitatav torusüsteem:",
+    "recUv": "UV-Protect väliskiht",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Kõik sektorid",
+      "hotel": "Hotell",
+      "wohnen": "Elamuehitus",
+      "infra": "Taristu",
+      "klinik": "Kliinik",
+      "buero": "Büroo"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Tooted",
+      "markets-solutions": "Turud ja lahendused",
+      "academy-resources": "Academy ja ressursid",
+      "company": "Ettevõte"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Torude tooteotsing",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Vormidetailid ja liitmikud",
+      "valves": "Armatuur ja ventiilid",
+      "tools": "Tööriistad ja tarvikud",
+      "transition": "Torude üleminekud",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8421,48 +8295,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Torusüsteemide projektipäring",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Saidikaart (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Vali oma keel",
+    "subtitle": "65 keelt · keeruta gloobust, puuduta piirkonda, kinnita.",
+    "searchPlaceholder": "Otsi keelt või lehte …",
+    "pagesSection": "Lehed ja navigeerimine",
+    "noResults": "Keelt ei leitud.",
+    "confirm": "Kinnita",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Kehtib kogu veebisaidile",
+    "active": "aktiivne"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Kuidas saame teid aidata?",
+    "step1Desc": "Valige oma päringu jaoks sobiv valdkond.",
+    "optSales": "Müük ja projektid",
+    "optSalesDesc": "Hinnapäringud, suurprojektid ja tarneajad.",
+    "optTech": "Tehniline tugi",
+    "optTechDesc": "Spetsifikatsioonid, paigaldus ja süsteemi dimensioneerimine.",
+    "optOther": "Üldine päring",
+    "optOtherDesc": "Turundus, karjäär või muu.",
+    "step2Title": "Teie päringu üksikasjad",
+    "step2Desc": "Palun kirjeldage lühidalt oma projekti või küsimust.",
+    "messagePlaceholder": "Teie sõnum meile...",
+    "step3Title": "Teie kontaktandmed",
+    "step3Desc": "Peaaegu valmis! Kuidas saame teiega ühendust võtta?",
+    "nameLabel": "Täisnimi",
+    "companyLabel": "Ettevõte / organisatsioon",
+    "emailLabel": "E-posti aadress",
+    "phoneLabel": "Telefoninumber",
+    "step4Title": "Sõnum saadetud!",
+    "step4Desc": "Täname teid päringu eest. Üks meie ekspertidest võtab teiega peagi ühendust.",
+    "btnNext": "Edasi",
+    "btnBack": "Tagasi",
+    "btnSubmit": "Saada päring",
+    "btnSending": "Saadetakse…",
+    "btnHome": "Tagasi avalehele",
+    "sendError": "Saatmine ebaõnnestus. Palun proovige uuesti või helistage meile otse: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

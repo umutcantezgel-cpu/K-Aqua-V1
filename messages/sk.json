@@ -1557,37 +1557,6 @@
           }
         ]
       },
-      "timeline": {
-        "items": [
-          {
-            "year": "Krok 1",
-            "title": "Simulácia špičkového zaťaženia",
-            "text": "Modelujeme súčasné scenáre odberu ráno a večer pre bezstratové dimenzovanie rozdeľovačov teplej a studenej vody."
-          },
-          {
-            "year": "Krok 2",
-            "title": "Optimalizácia teploty (cirkulácie)",
-            "text": "Návrh efektívnych cirkulačných potrubí, aby horúca voda dorazila na najvyššie poschodia bez čakania."
-          },
-          {
-            "year": "Krok 3",
-            "title": "Úspora priestoru v stúpačkách",
-            "text": "Kompaktné inštalácie z PP-R umožňujú užšie inštalačné šachty, čo otvára cenný priestor, ktorý je možné priamo premeniť na prenajímateľnú obytnú (úžitkovú) plochu."
-          },
-          {
-            "year": "Krok 4",
-            "title": "Skúšky tlaku a prevzatie (systému)",
-            "text": "Striktné overovanie celej inštalácie pomocou vodného tlaku pre udelenie K-Aqua garancie (záruky na systém)."
-          },
-          {
-            "year": "Budúcnosť",
-            "title": "Váš ďalší megaprojekt",
-            "text": "Hranice architektúry sa posúvajú každým dňom. Sme pripravení položiť základy pre vaše najodvážnejšie vízie. S technológiou, ktorá predbieha svoju dobu o desaťročia."
-          }
-        ],
-        "title": "Pohostinnosť (Hospitality) sa stretáva so strojárstvom",
-        "desc": "Od prvej kvapky po wellnes sprchu snov: Systémový návrh bez kompromisov."
-      },
       "hero": {
         "eyebrow": "Luxusné pohostinstvo (Hospitality)",
         "title1": "Päť hviezdičiek pre vodu.",
@@ -1709,10 +1678,6 @@
             "desc": "Nízka tepelná vodivosť"
           }
         ]
-      },
-      "timelineSection": {
-        "title": "Referencie, ktoré píšu históriu.",
-        "desc": "Od umelých ostrovov v Perzskom zálive až po najexkluzívnejšie lyžiarske strediská v Alpách. Tam, kde sa stavia nemožné, K Aqua je už na mieste."
       },
       "research": {
         "eyebrow": "Výskum a vývoj (R&D)",
@@ -3351,48 +3316,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Nemecko",
         "d": "Hlavný závod a vývoj: tu vzniká každá rúra K Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubaj, SAE",
-        "d": "Stúpacie potrubia vo výškových budovách: PPRCT pre horúcu vodu v púštnych podmienkach."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varšava, Poľsko",
-        "d": "Nová rezidenčná štvrť: kompletná inštalácia pitnej vody d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turecko",
-        "d": "Hotelový komplex: cirkulačné potrubia s kompozitnými rúrami (Faser)."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur",
-        "d": "Infraštruktúrny projekt: veľké rozmery do d630 zvárané natupo."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Kapské Mesto, Južná Afrika",
-        "d": "Nová nemocnica: hygienická distribúcia pitnej vody."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Londýn, UK",
-        "d": "Renovácia kancelárií: nekorodujúca náhrada za existujúce potrubia."
       }
     ],
     "viewProject": "View project"
@@ -5795,8 +5718,7 @@
         "d": "Hygiena je tu nezjednávateľná: hladký vnútorný povrch (0,007 mm) bráni tvorbe biofilmu a inkrustácii, materiál zostáva chuťovo a pachovo neutrálny.",
         "pts": [
           "Hygienická neutralita",
-          "Bez korózie: žiadna bodová korózia",
-          "Referencia: Novostavba nemocnice Kapské Mesto"
+          "Bez korózie: žiadna bodová korózia"
         ]
       },
       {
@@ -5804,8 +5726,7 @@
         "d": "Cirkulácia teplej vody nepretržite: nízka tepelná vodivosť trvalo šetrí energiu, PPRCT vydrží nepretržitú prevádzku pri 70 °C.",
         "pts": [
           "Tepelná efektivita",
-          "PPRCT pre cirkuláciu",
-          "Referencia: Hotelový komplex Istanbul"
+          "PPRCT pre cirkuláciu"
         ]
       },
       {
@@ -5822,8 +5743,7 @@
         "d": "UV stabilizované verzie pre zavlažovanie pod sklom aj vonku: ľahké, rýchlo sa inštalujú, menej citlivé na mráz ako tuhé systémy.",
         "pts": [
           "UV odolné prevedenie",
-          "Nízka hmotnosť",
-          "Oblasť použitia z referenčného programu"
+          "Nízka hmotnosť"
         ]
       },
       {
@@ -5831,8 +5751,7 @@
         "d": "Zásobovacie potrubia a siete vo veľkých rozmeroch až do d630: zvarené natupo do homogénnych, trvalo tesných vetiev.",
         "pts": [
           "d až do 630 mm",
-          "Zváranie natupo (Butt Fusion)",
-          "Referencia: Infraštruktúra Singapur"
+          "Zváranie natupo (Butt Fusion)"
         ]
       },
       {
@@ -7085,53 +7004,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Kvalita, ktorá spája",
-    "title": "Čo hovoria naši zákazníci a partneri",
-    "lead": "Od stavebníkov cez špedície až po dlhoročných zamestnancov: Spoločnosť K Aqua KWT GmbH predstavuje najvyššiu presnosť z Waldsolmsu. Prečítajte si, aké skúsenosti majú ľudia s našimi službami a produktami „Made in Germany“ každý deň.",
-    "trustBadge": "Google Recenzie",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Na základe 44 recenzií)",
-    "tabA": "Kvalita & „Made in Germany“",
-    "tabB": "Logistika & Dodanie",
-    "tabC": "Zákaznícky servis & Tím",
-    "reviews": {
-      "a1": "„Továreň vo Waldsolmse v Nemecku, špecializujúca sa na PPR rúry a tvarovky **Made in Germany**. Vynikajúci personál.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Nemecká kvalita** pre PPR rozvody a armatúry, veľmi priateľský personál.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Moderná spoločnosť**. Vyrába plastové rúry všetkých veľkostí a príslušenstvo.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR rúry a tvarovky z **nemeckej výroby**, vynikajúci zamestnanci a produkty.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Vysoko kvalitné produkty** a špičková nemecká továreň.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Veľmi dobré produkty, **spoľahlivá kvalita** a včasné dodanie.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Veľmi milé jednanie, **rýchle vyloženie**. Mohol som si tu urobiť veľkú prestávku. Ponúkli mi aj sprchu a toaletu. Ako vodič kamiónu sa tu cítite **ocenený**. Veľmi rád sa sem vrátim.“",
-      "b1Author": "Michael S.",
-      "b2": "„Aktuálne súradnice vstupu sú **50.428210, 8.499154**. Asi 100 metrov odtiaľ sa nachádza parkovisko. Priateľský personál.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Rýchle vyloženie**, priateľský a nápomocný personál.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Veľmi dobrý servis**, je skvelé, že sa to stále vyrába v Nemecku.“",
-      "c1Author": "Daniel",
-      "c2": "„**Veľmi priateľský** a nápomocný personál. E-maily sú **zodpovedané okamžite**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Od predsedu až po bežných zamestnancov: sú to **dobrí ľudia**.“",
-      "c3Author": "Azim",
-      "c4": "„**Skvelá firma**, robí veľa pre svojich ľudí.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Zamestnanci sú **veľmi priateľskí a nápomocní**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Kompetentný tím a **vynikajúca podpora zákazníkov** na všetkých úrovniach.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Presvedčte sa o našich službách sami.",
-    "ctaText": "Máte otázky týkajúce sa našich potrubných systémov PPR alebo s nami chcete prediskutovať nejaký projekt? Náš tím z Waldsolmsu je tu pre vás.",
-    "ctaBtn": "Kontaktujte nás teraz",
-    "disclaimer": "Poznámka k overovaniu recenzií: Recenzie uvedené tu pochádzajú z nášho firemného profilu Google. Spoločnosť Google uvádza: Recenzie nie sú overené. Mená autorov sme z dôvodu ochrany osobných údajov (GDPR) skrátili."
   },
   "kontaktBlocks": {
     "home": {

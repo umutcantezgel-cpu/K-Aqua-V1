@@ -1,9 +1,15 @@
 import React from "react";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import MarketsHub from "@/components/sections/MarketsHub";
-import { GEO_MARKETS } from "@/lib/data/geo";
+import { GEO_MARKETS, GEO_HUBS } from "@/lib/data/geo";
 import { constructMetadata } from "@/lib/seo/metadata";
-import { wrapGraph, getWebPageGraphNode, getBreadcrumbGraphNode } from "@/lib/seo/schema";
+import {
+  wrapGraph,
+  getWebPageGraphNode,
+  getBreadcrumbGraphNode,
+  getPlaceChainGraphNodes,
+  getPlaceId,
+} from "@/lib/seo/schema";
 import { getBaseUrl } from "@/lib/env";
 import JsonLd from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
@@ -87,6 +93,18 @@ export default async function MaerktePage({ params }: Props) {
       breadcrumbId: `${siteUrl}/${locale}/maerkte#breadcrumb`,
       mainEntityId: `${siteUrl}/#organization`,
     }),
+    /* Die Länderstufe aller 24 Hubs. Diese Seite ist die Wurzel der
+       Marktpyramide: Von hier hängen die Länder an ihren Regionen, und die
+       Regionen liegen bereits im Root-Graph an `#place-world`. Ohne diese
+       Knoten wären Länderseite und Stadtseite die einzigen Stellen, an
+       denen die Staffelung überhaupt auftaucht. */
+    ...GEO_HUBS.flatMap((hub) =>
+      getPlaceChainGraphNodes({
+        region: hub.region,
+        hubSlug: hub.slug,
+        country: hub.name,
+      }).filter((n) => String(n["@id"]).includes("#place-country-"))
+    ),
     {
       "@type": "ItemList",
       "@id": `${siteUrl}/${locale}/maerkte#itemlist`,
@@ -96,6 +114,9 @@ export default async function MaerktePage({ params }: Props) {
         position: idx + 1,
         url: `${siteUrl}/${locale}/maerkte/${market.hubSlug}/${market.slug}`,
         name: `${cityNames[market.slug] || market.city}, ${market.country}`,
+        /* Verweis statt Wiederholung: derselbe Stadtknoten wie auf der
+           Stadtseite selbst. */
+        item: { "@id": getPlaceId("city", market.slug) },
       })),
     },
     getBreadcrumbGraphNode(locale, [

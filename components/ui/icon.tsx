@@ -52,7 +52,6 @@ import {
   Settings as LucideSettings,
   Link as LucideLink,
   Droplets as LucideDroplets,
-  ShieldAlert as LucideShieldAlert2, // Keep the old one if needed, but I'll replace the existing one block instead.
   AlertOctagon as LucideAlertOctagon,
   AlertTriangle as LucideAlertTriangle,
   ArrowRightLeft as LucideArrowRightLeft,

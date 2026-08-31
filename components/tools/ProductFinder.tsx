@@ -48,12 +48,20 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
   const [inspectingProduct, setInspectingProduct] = useState<ProductMeta | null>(null);
 
   useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  useEffect(() => {
     setLocalSearchQuery(searchQuery);
   }, [searchQuery]);
+
+  // Handle Escape key to close 3D modal
+  useEffect(() => {
+    if (!inspectingProduct) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setInspectingProduct(null);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [inspectingProduct]);
 
   const updateParams = (newParams: { category?: string; q?: string }) => {
     const params = new URLSearchParams(searchParams.toString());

@@ -11,7 +11,7 @@ import * as THREE from 'three';
 import { createAssembly } from '../../core/index.js';
 import { ARTICLES, SIZES, DIMENSION_KEY, DATA_STATUS, LAYERS, STRIPES, SDR } from './data.js';
 import { params } from './params.js';
-import { buildTube, buildStripe } from './parts.js';
+import { buildTube, buildStripe, mitFarbvariante, ROHR_VARIANTEN } from './parts.js';
 
 const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
 
@@ -33,7 +33,9 @@ const product = {
   dimensions: ['d', 'di'],
   ariaFields: ['d', 'di', 's'],
 
-  variants: [],
+  /* Serienfarben laut Herstellerarchiv — der Viewer blendet die Auswahl
+     von selbst ein, sobald diese Liste nicht leer ist. */
+  variants: ROHR_VARIANTEN,
   states: null,
 
   tile: 'Druckrohr für Trinkwasser, 20 °C bei 2,0 MPa — die Basis des ' +
@@ -41,26 +43,29 @@ const product = {
 
   build(size, variant, clipPlane) {
     const P = params(size);
-    const matKeys = [...new Set([...LAYERS.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
+    const LAGEN = mitFarbvariante(LAYERS, variant);
+    const matKeys = [...new Set([...LAGEN.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
     const A = createAssembly({
       name: 'K-Aqua_Rohr_d' + size,
       materials: matKeys,
       seed: 71,
+      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
+      emboss: false,
       clipPlane,
     });
 
-    const layers = buildTube(P, LAYERS);
+    const layers = buildTube(P, LAGEN);
     layers.forEach((layer, i) => {
       A.part('layer' + i, {
         name: 'Rohrwand_' + layer.label,
-        label: LAYERS.length > 1
+        label: LAGEN.length > 1
           ? layer.label + ' (' + layer.thickness.toFixed(1).replace('.', ',') + ' mm)'
           : 'Rohrwand PP-R (' + P.wall.toFixed(1).replace('.', ',') + ' mm)',
         mat: layer.key,
         geo: layer.geo,
         cap: layer.cap,
         // Lagen fahren radial auseinander — so liest sich der Wandaufbau
-        explode: V3(0, (LAYERS.length - i) * P.d * 0.55, 0),
+        explode: V3(0, (LAGEN.length - i) * P.d * 0.55, 0),
         anchor: i === 0 ? V3(0, P.rOut + 0.16 * P.len, 0) : V3(0, P.rOut + 0.10 * P.len, 0),
       });
     });
@@ -72,7 +77,7 @@ const product = {
         label: 'Kennstreifen (Coextrusion)',
         mat: stripe.key,
         geo: s.geo,
-        explode: V3(0, (LAYERS.length + 1) * P.d * 0.55, 0),
+        explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
         noExplodeEntry: false,
       });
     });
@@ -108,7 +113,7 @@ const product = {
          und liefert nur seinen eigenen Radius zurück. */
       { key: 'di', label: DIMENSION_KEY.di, soll: P.di,
         ist: () => {
-          const inner = 'layer' + (LAYERS.length - 1);
+          const inner = 'layer' + (LAGEN.length - 1);
           const hit = A.probeAxial(inner, V3(0, 0, 0), V3(0, 1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },

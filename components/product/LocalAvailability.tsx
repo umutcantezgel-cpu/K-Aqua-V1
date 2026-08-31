@@ -41,7 +41,11 @@ export default function LocalAvailability({ locale, translations }: LocalAvailab
   }
 
   return (
-    <div className="flex flex-col gap-4" data-nosnippet="true">
+    /* Kein data-nosnippet mehr: Das war der einzige lokale Baustein auf 74
+       Produktseiten — Ueberschrift, Einordnung und die internen Links auf die
+       Stadtseiten — und er war damit ausdruecklich von der Snippet-Nutzung
+       ausgeschlossen. Genau dieser Block soll lokal ranken. */
+    <div className="flex flex-col gap-4">
       <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3 mt-4 flex items-center gap-2">
         <MapPin className="w-5 h-5 text-primary" />
         {translations.localAvailability}

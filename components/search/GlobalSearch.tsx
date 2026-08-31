@@ -131,14 +131,21 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
     <div className="w-full flex flex-col gap-8">
       {/* Search Input Bar */}
       <div role="search" className="relative w-full">
-        <div className="relative flex items-center bg-card border-2 border-card-border focus-within:border-primary rounded-2xl shadow-lift overflow-hidden transition-all duration-200">
-          <div className="ps-5 pe-3 text-muted-foreground flex items-center justify-center">
-            <Search className="w-6 h-6 text-primary" />
+        <div className="relative flex items-center bg-card border-2 border-card-border focus-within:border-primary focus-within:ring-2 focus-within:ring-primary/20 rounded-2xl shadow-lift overflow-hidden transition-all duration-200">
+          <div className="ps-4 sm:ps-5 pe-2 sm:pe-3 text-muted-foreground flex items-center justify-center">
+            <Search className="w-5 sm:w-6 h-5 sm:h-6 text-primary shrink-0" />
           </div>
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            aria-label={
+              locale === 'de'
+                ? 'Suchbegriff eingeben'
+                : locale === 'ar'
+                ? 'أدخل مصطلح البحث'
+                : 'Enter search term'
+            }
             placeholder={
               locale === 'de'
                 ? 'Suche nach Begriffen, Artikeln, Normen, SDR, BIM, Schweißen...'
@@ -146,31 +153,31 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
                 ? 'ابحث عن المصطلحات، المقالات، المعايير، SDR، نماذج BIM...'
                 : 'Search terms, articles, standards, SDR, BIM, welding...'
             }
-            className="w-full py-4 pe-12 text-base md:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
+            className="w-full py-3.5 sm:py-4 pe-10 sm:pe-12 text-sm sm:text-base md:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
             autoFocus
           />
           {query && (
             <button
               onClick={() => setQuery('')}
-              className="absolute end-4 p-2 rounded-full hover:bg-background-subtle text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-              aria-label="Clear search"
+              className="absolute end-3 sm:end-4 p-1.5 sm:p-2 rounded-full hover:bg-background-subtle text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              aria-label={locale === 'de' ? 'Suche löschen' : 'Clear search'}
             >
-              <X className="w-5 h-5" />
+              <X className="w-4 sm:w-5 h-4 sm:h-5" />
             </button>
           )}
         </div>
 
         {/* Popular Tags */}
-        <div className="flex flex-wrap items-center gap-2 mt-4 text-xs">
-          <span className="text-muted-foreground font-medium flex items-center gap-1">
-            <Sparkles className="w-3.5 h-3.5 text-primary" />
+        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mt-3 sm:mt-4 text-xs">
+          <span className="text-muted-foreground font-medium flex items-center gap-1 text-[11px] sm:text-xs">
+            <Sparkles className="w-3.5 h-3.5 text-primary shrink-0" />
             {locale === 'de' ? 'Häufig gesucht:' : locale === 'ar' ? 'الأكثر بحثاً:' : 'Popular searches:'}
           </span>
           {POPULAR_TAGS.map((tag) => (
             <button
               key={tag}
               onClick={() => setQuery(tag)}
-              className="px-2.5 py-1 rounded-full bg-background-subtle hover:bg-primary-soft hover:text-primary text-muted-foreground font-medium transition-colors border border-card-border cursor-pointer active:scale-95"
+              className="px-2.5 py-1 rounded-full bg-background-subtle hover:bg-primary-soft hover:text-primary text-muted-foreground font-medium transition-colors border border-card-border cursor-pointer active:scale-95 text-[11px] sm:text-xs"
             >
               {tag}
             </button>
@@ -179,7 +186,7 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
       </div>
 
       {/* Category Tabs */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none border-b border-card-border">
+      <div role="tablist" aria-label={locale === 'de' ? 'Kategoriefilter' : 'Category filters'} className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-2 scrollbar-none border-b border-card-border">
         {CATEGORY_TABS.map((tab) => {
           const isActive = activeCategory === tab.id;
           const label = tab.label[locale] || tab.label['de'];
@@ -187,8 +194,10 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
           return (
             <button
               key={tab.id}
+              role="tab"
+              aria-selected={isActive}
               onClick={() => setActiveCategory(tab.id)}
-              className={`px-4 py-2 rounded-xl text-sm font-heading font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer flex items-center gap-2 ${
+              className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs sm:text-sm font-heading font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer flex items-center gap-1.5 sm:gap-2 ${
                 isActive
                   ? 'bg-primary text-primary-foreground shadow-sm'
                   : 'bg-card text-muted-foreground hover:text-foreground hover:bg-background-subtle border border-card-border'
@@ -196,7 +205,7 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
             >
               <span>{label}</span>
               <span
-                className={`text-xs px-1.5 py-0.5 rounded-full font-mono font-bold ${
+                className={`text-[10px] sm:text-xs px-1.5 py-0.5 rounded-full font-mono font-bold ${
                   isActive ? 'bg-primary-foreground/20 text-primary-foreground' : 'bg-background-subtle text-muted-foreground'
                 }`}
               >
@@ -251,7 +260,7 @@ export default function GlobalSearch({ initialQuery = '' }: Props) {
                 >
                   <Link
                     href={res.deepHref}
-                    className="group flex flex-col justify-between h-full p-6 rounded-2xl bg-card border border-card-border hover:border-primary hover:shadow-lift transition-all duration-200 relative overflow-hidden"
+                    className="group flex flex-col justify-between h-full p-4 sm:p-6 rounded-2xl bg-card border border-card-border hover:border-primary hover:shadow-lift transition-all duration-200 relative overflow-hidden focus-visible:ring-2 focus-visible:ring-primary outline-none"
                   >
                     <div>
                       {/* Origin Breadcrumb & Category Badge */}

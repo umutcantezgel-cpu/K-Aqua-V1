@@ -5,26 +5,40 @@ import { useTranslations, useLocale } from 'next-intl';
 import { MapPin, Globe, Compass, Shield, ChevronRight, Search, Download, Check, Layers, ExternalLink } from 'lucide-react';
 import { ButtonPrimary } from '@/components/ui/ButtonPrimary';
 import { Button } from '@/components/ui/Button';
+import { ZEIGE_UNBELEGTE_REFERENZEN } from '@/lib/flags';
+import { STANDORT, STANDORT_ADRESSE, STANDORT_KARTEN_URL } from '@/lib/data/standort';
 
 // Google Maps API Key
 const GOOGLE_MAPS_API_KEY = 'AIzaSyDGmJeJsMRAh3Z9PZWNJRTomvM3URcm5B8';
 
 // HQ & Data Definitions
+/* Adresse, Telefon und Koordinaten kommen aus lib/data/standort.ts — dort
+   stehen sie mit Fundstelle im Herstellerkatalog. Hier stand vorher eine
+   eigene Kopie mit der Nummer 9869-0, die es nicht gibt, und mit einer
+   vierten Variante der Werkskoordinaten. */
 const HQ_SITE = {
-  position: { lat: 50.487, lng: 8.485 },
-  address: ['KWT GmbH', 'Auweg 3', '35647 Waldsolms Brandoberndorf'],
-  phone: '+49 6085 9869-0',
-  registry: { court: 'Amtsgericht Wetzlar', number: 'HRB 5421' },
-  dirUrl: 'https://maps.google.com/?q=50.487,8.485'
+  position: { lat: STANDORT.geo.lat, lng: STANDORT.geo.lon },
+  address: [...STANDORT_ADRESSE],
+  phone: STANDORT.telefonAnzeige,
+  registry: { court: STANDORT.handelsregister.gericht, number: STANDORT.handelsregister.nummer },
+  dirUrl: STANDORT_KARTEN_URL
 };
 
+/* Hier standen sechs Staedte mit Baujahr, Druckstufe, Dimensionsbereich,
+   Schweissverfahren und `dvgw: true` — je Projekt. Fuer keine dieser Angaben
+   gibt es im freigegebenen Material einen Beleg; sie waren frei erfunden und
+   liefen unter dem Reiter „Dichtheitskarte", also mit dem Anschein einer
+   Pruefung. Geblieben sind Ort und Sektor, damit die Karte weiter Maerkte
+   zeigen kann — sobald der Auftraggeber sie freigibt.
+
+   Die Karte haengt an ZEIGE_UNBELEGTE_REFERENZEN und ist bis dahin aus. */
 const REFERENCE_SITES = [
-  { id: 'dubai', sector: 'hotel', sys: 'PP-RCT / K-Aqua SDR 7.4', dims: 'd20 – d355 mm', pn: 'PN 20 / PN 25', weld: 'muffen_stumpf', dvgw: true, hot: 48, year: 2014, position: { lat: 25.197, lng: 55.274 } },
-  { id: 'warschau', sector: 'wohnen', sys: 'K-Aqua SDR 11 / Fibre-Composite', dims: 'd20 – d160 mm', pn: 'PN 16', weld: 'muffen', dvgw: true, hot: 0, year: 2017, position: { lat: 52.229, lng: 21.012 } },
-  { id: 'istanbul', sector: 'infra', sys: 'PP-R High-Temp / K-Aqua UV-Protect', dims: 'd32 – d250 mm', pn: 'PN 20', weld: 'stumpf_heizwendel', dvgw: true, hot: 42, year: 2016, position: { lat: 41.008, lng: 28.978 } },
-  { id: 'singapur', sector: 'klinik', sys: 'PP-RCT Clean-Hygiene / K-Aqua', dims: 'd20 – d200 mm', pn: 'PN 20', weld: 'muffen_stumpf', dvgw: true, hot: 38, year: 2019, position: { lat: 1.352, lng: 103.82 } },
-  { id: 'kapstadt', sector: 'buero', sys: 'K-Aqua SDR 7.4 Standard', dims: 'd20 – d110 mm', pn: 'PN 20', weld: 'muffen', dvgw: true, hot: 0, year: 2018, position: { lat: -33.924, lng: 18.424 } },
-  { id: 'london', sector: 'wohnen', sys: 'K-Aqua SDR 11 Riser System', dims: 'd32 – d160 mm', pn: 'PN 16', weld: 'muffen', dvgw: true, hot: 0, year: 2021, position: { lat: 51.507, lng: -0.127 } }
+  { id: 'dubai', sector: 'hotel', position: { lat: 25.197, lng: 55.274 } },
+  { id: 'warschau', sector: 'wohnen', position: { lat: 52.229, lng: 21.012 } },
+  { id: 'istanbul', sector: 'infra', position: { lat: 41.008, lng: 28.978 } },
+  { id: 'singapur', sector: 'klinik', position: { lat: 1.352, lng: 103.82 } },
+  { id: 'kapstadt', sector: 'buero', position: { lat: -33.924, lng: 18.424 } },
+  { id: 'london', sector: 'wohnen', position: { lat: 51.507, lng: -0.127 } }
 ];
 
 const MARKET_PROFILES = [
@@ -349,6 +363,7 @@ export function KAquaMapsSuite() {
             >
               <MapPin className="w-4 h-4 shrink-0" /> {t('tabHq')}
             </button>
+            {ZEIGE_UNBELEGTE_REFERENZEN && (
             <button
               onClick={() => setActiveTab('refs')}
               className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 shrink-0 ${
@@ -359,6 +374,7 @@ export function KAquaMapsSuite() {
             >
               <Globe className="w-4 h-4 shrink-0" /> {t('tabRefs')}
             </button>
+            )}
             <button
               onClick={() => setActiveTab('spec')}
               className={`px-4 py-2.5 rounded-xl font-heading font-semibold text-sm transition-all duration-fast flex items-center gap-2 shrink-0 ${
@@ -416,7 +432,7 @@ export function KAquaMapsSuite() {
         )}
 
         {/* Tab 2: Referenzen Dichtheitskarte */}
-        {activeTab === 'refs' && (
+        {ZEIGE_UNBELEGTE_REFERENZEN && activeTab === 'refs' && (
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-2 overflow-x-auto pb-4 no-scrollbar whitespace-nowrap">
               <span className="text-xs font-bold uppercase text-muted-foreground me-2 shrink-0">{t('sectorFilter')}</span>

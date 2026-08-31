@@ -204,7 +204,7 @@ export default function SearchModal({ isOpen, onClose }: Props) {
   return (
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-start justify-center pt-12 sm:pt-20 px-4 sm:px-6 select-none">
+        <div className="fixed inset-0 z-50 flex items-start justify-center pt-4 sm:pt-16 md:pt-20 px-3 sm:px-6 select-none">
         {/* Backdrop */}
         <motion.div
           initial={{ opacity: 0 }}
@@ -223,14 +223,20 @@ export default function SearchModal({ isOpen, onClose }: Props) {
           role="dialog"
           aria-modal="true"
           aria-label={locale === 'de' ? 'Globale Suche' : locale === 'ar' ? 'البحث الشامل' : 'Global Search'}
-          className="relative w-full max-w-2xl bg-card border-2 border-card-border rounded-3xl shadow-lift overflow-hidden flex flex-col max-h-[85vh] z-10"
+          className="relative w-full max-w-2xl bg-card border-2 border-card-border rounded-3xl shadow-lift overflow-hidden flex flex-col max-h-[90vh] sm:max-h-[85vh] z-10"
         >
           {/* Header Search Input */}
-          <div role="search" className="relative flex items-center px-4 py-3.5 border-b border-card-border">
+          <div role="search" className="relative flex items-center px-3.5 sm:px-4 py-3 sm:py-3.5 border-b border-card-border">
             <Search className="w-5 h-5 text-primary shrink-0 ms-1" />
             <input
               ref={inputRef}
               type="text"
+              role="combobox"
+              aria-autocomplete="list"
+              aria-expanded={results.length > 0}
+              aria-controls="search-results-list"
+              aria-activedescendant={results.length > 0 ? `search-option-${selectedIndex}` : undefined}
+              aria-label={locale === 'de' ? 'Suche eingeben' : locale === 'ar' ? 'أدخل مصطلح البحث' : 'Enter search query'}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={
@@ -240,33 +246,36 @@ export default function SearchModal({ isOpen, onClose }: Props) {
                   ? 'ابحث عن الأنابيب، العزل الصوتي، نماذج BIM، المعايير...'
                   : 'Search pipes, SDR, acoustics, BIM, DVGW...'
               }
-              className="w-full ps-3 pe-10 py-1.5 text-base sm:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
+              className="w-full ps-3 pe-8 sm:pe-10 py-1.5 text-sm sm:text-base md:text-lg bg-transparent text-foreground placeholder:text-muted-foreground focus:outline-none"
             />
             {query ? (
               <button
                 onClick={() => setQuery('')}
                 className="p-1.5 rounded-full hover:bg-background-subtle text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-                title="Löschen"
+                title={locale === 'de' ? 'Löschen' : 'Clear'}
+                aria-label={locale === 'de' ? 'Suchbegriff löschen' : 'Clear search'}
               >
                 <X className="w-4 h-4" />
               </button>
             ) : (
-              <div className="flex items-center gap-1 text-[11px] font-mono text-muted-foreground bg-background-subtle border border-card-border px-2 py-0.5 rounded-md">
+              <div className="flex items-center gap-1 text-[10px] sm:text-[11px] font-mono text-muted-foreground bg-background-subtle border border-card-border px-1.5 sm:px-2 py-0.5 rounded-md">
                 <span>ESC</span>
               </div>
             )}
           </div>
 
           {/* Category Filter Chips */}
-          <div className="flex items-center gap-1.5 px-4 py-2.5 overflow-x-auto scrollbar-none border-b border-card-border/60 bg-background-subtle/50">
+          <div role="tablist" aria-label={locale === 'de' ? 'Kategorien' : 'Categories'} className="flex items-center gap-1.5 px-3 sm:px-4 py-2 sm:py-2.5 overflow-x-auto scrollbar-none border-b border-card-border/60 bg-background-subtle/50">
             {CATEGORY_TABS.map((tab) => {
               const isActive = activeCategory === tab.id;
               const label = tab.label[locale] || tab.label['de'];
               return (
                 <button
                   key={tab.id}
+                  role="tab"
+                  aria-selected={isActive}
                   onClick={() => setActiveCategory(tab.id)}
-                  className={`px-3 py-1 rounded-xl text-xs font-heading font-semibold whitespace-nowrap transition-all duration-150 cursor-pointer ${
+                  className={`px-2.5 sm:px-3 py-1 rounded-xl text-xs font-heading font-semibold whitespace-nowrap transition-all duration-150 cursor-pointer ${
                     isActive
                       ? 'bg-primary text-primary-foreground shadow-sm'
                       : 'text-muted-foreground hover:text-foreground hover:bg-card border border-transparent'
@@ -280,7 +289,7 @@ export default function SearchModal({ isOpen, onClose }: Props) {
 
           {/* Suggestions & Recent Searches (when query is empty) */}
           {!query && (
-            <div className="p-4 flex flex-col gap-4 border-b border-card-border/40 bg-card">
+            <div className="p-3.5 sm:p-4 flex flex-col gap-3.5 sm:gap-4 border-b border-card-border/40 bg-card overflow-y-auto max-h-[40vh]">
               {recentSearches.length > 0 && (
                 <div>
                   <span className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground flex items-center gap-1.5 mb-2">
@@ -322,7 +331,13 @@ export default function SearchModal({ isOpen, onClose }: Props) {
           )}
 
           {/* Results List */}
-          <div ref={listRef} className="flex-1 overflow-y-auto p-2 divide-y divide-card-border/30">
+          <div
+            ref={listRef}
+            id="search-results-list"
+            role="listbox"
+            aria-label={locale === 'de' ? 'Suchergebnisse' : 'Search results'}
+            className="flex-1 overflow-y-auto p-1.5 sm:p-2 divide-y divide-card-border/30"
+          >
             {results.length > 0 ? (
               results.map((res, index) => {
                 const item = res.entry;
@@ -334,9 +349,12 @@ export default function SearchModal({ isOpen, onClose }: Props) {
                 return (
                   <div
                     key={item.id}
+                    id={`search-option-${index}`}
+                    role="option"
+                    aria-selected={isSelected}
                     onClick={() => handleSelectResult(res)}
                     onMouseEnter={() => setSelectedIndex(index)}
-                    className={`group flex items-start gap-3.5 p-3.5 rounded-2xl transition-all cursor-pointer ${
+                    className={`group flex items-start gap-2.5 sm:gap-3.5 p-2.5 sm:p-3.5 rounded-2xl transition-all cursor-pointer ${
                       isSelected
                         ? 'bg-primary-soft/80 border border-primary/40 shadow-sm'
                         : 'hover:bg-background-subtle border border-transparent'
@@ -352,12 +370,12 @@ export default function SearchModal({ isOpen, onClose }: Props) {
 
                     <div className="flex-1 min-w-0">
                       {/* Breadcrumb / Origin & Badge */}
-                      <div className="flex items-center gap-2 mb-1 flex-wrap">
-                        <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-card border border-card-border text-muted-foreground">
+                      <div className="flex items-center gap-1.5 sm:gap-2 mb-1 flex-wrap">
+                        <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider px-1.5 sm:px-2 py-0.5 rounded-md bg-card border border-card-border text-muted-foreground">
                           {badge}
                         </span>
                         {originPath && (
-                          <span className="text-[11px] text-muted-foreground/80 truncate font-mono">
+                          <span className="text-[10px] sm:text-[11px] text-muted-foreground/80 truncate font-mono">
                             {originPath}
                           </span>
                         )}
@@ -379,11 +397,11 @@ export default function SearchModal({ isOpen, onClose }: Props) {
 
                       {/* Specs Tags */}
                       {item.specs && item.specs.length > 0 && (
-                        <div className="flex flex-wrap items-center gap-1.5 mt-2">
+                        <div className="flex flex-wrap items-center gap-1 sm:gap-1.5 mt-1.5 sm:mt-2">
                           {item.specs.slice(0, 3).map((spec, sIdx) => (
                             <span
                               key={sIdx}
-                              className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-background-subtle text-foreground/70 border border-card-border/60"
+                              className="text-[9px] sm:text-[10px] font-mono px-1.5 py-0.5 rounded bg-background-subtle text-foreground/70 border border-card-border/60"
                             >
                               {spec}
                             </span>
@@ -428,7 +446,7 @@ export default function SearchModal({ isOpen, onClose }: Props) {
           </div>
 
           {/* Footer Bar */}
-          <div className="px-4 py-3 bg-background-subtle/80 border-t border-card-border flex items-center justify-between text-xs text-muted-foreground">
+          <div className="px-3 sm:px-4 py-2.5 sm:py-3 bg-background-subtle/80 border-t border-card-border flex items-center justify-between text-xs text-muted-foreground flex-wrap gap-2">
             <div className="hidden sm:flex items-center gap-3">
               <span className="flex items-center gap-1">
                 <kbd className="px-1.5 py-0.5 bg-card border border-card-border rounded text-[10px] font-mono">↑↓</kbd>
@@ -442,10 +460,10 @@ export default function SearchModal({ isOpen, onClose }: Props) {
 
             <button
               onClick={handleOpenFullSearch}
-              className="text-primary font-heading font-semibold hover:underline flex items-center gap-1 ml-auto cursor-pointer"
+              className="text-primary font-heading font-semibold hover:underline flex items-center gap-1 ml-auto text-[11px] sm:text-xs cursor-pointer"
             >
               <span>{locale === 'de' ? 'Vollständiges Suchzentrum öffnen' : 'Open Full Search Hub'}</span>
-              <CornerDownLeft className="w-3.5 h-3.5" />
+              <CornerDownLeft className="w-3.5 h-3.5 shrink-0" />
             </button>
           </div>
         </motion.div>

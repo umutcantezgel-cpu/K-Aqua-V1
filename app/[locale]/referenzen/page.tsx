@@ -23,6 +23,7 @@ import { ParallaxHero } from "@/components/ui/ParallaxHero";
 import HoverPreviewList from "@/components/signature/HoverPreviewList";
 import KAquaMapsSuite from "@/components/sections/maps/KAquaMapsSuite";
 import CatalogReferences from "@/components/signature/CatalogReferences";
+import { ZEIGE_BELEGTE_REFERENZEN, ZEIGE_UNBELEGTE_REFERENZEN } from "@/lib/flags";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -166,15 +167,22 @@ export default async function ReferenzenPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Belegte Referenzen aus dem Herstellerkatalog (S. 7) — mit Fundstelle. */}
-      <CatalogReferences locale={locale} />
+      {/* Belegte Referenzen aus dem Herstellerkatalog (S. 7) — mit Fundstelle.
+          Traegt jetzt den Anker #projekte: Der Hero-Button zeigte dorthin, und
+          ohne die Kachelliste darunter waere er ins Leere gelaufen. */}
+      {ZEIGE_BELEGTE_REFERENZEN && <CatalogReferences locale={locale} />}
 
-      {/* Signature: Hover Preview List (real reference projects) */}
-      <section id="projekte" className="py-32 bg-background border-b border-card-border scroll-mt-24">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <HoverPreviewList />
-        </div>
-      </section>
+      {/* Staedtekacheln aus refs.projects.
+          Fuer keines dieser Projekte liegt ein Beleg vor — der Hinweis, der sie
+          als Beispiele auswies, wurde nie gerendert, weil die Komponente, die
+          ihn ausgab, nirgends eingebunden war. Bis zur Freigabe abgeschaltet. */}
+      {ZEIGE_UNBELEGTE_REFERENZEN && (
+        <section id="projekte-unbelegt" className="py-32 bg-background border-b border-card-border scroll-mt-24">
+          <div className="max-w-[1400px] mx-auto px-6">
+            <HoverPreviewList />
+          </div>
+        </section>
+      )}
 
       {/* Interactive Google Maps Suite */}
       <div id="karten" className="scroll-mt-24">

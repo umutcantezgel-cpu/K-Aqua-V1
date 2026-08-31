@@ -3107,39 +3107,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referenser som skriver historia.",
-        "desc": "Från konstgjorda öar i Persiska viken till de mest exklusiva skidorterna i Alperna. Där det omöjliga byggs, är K Aqua redan på plats."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Utrustning av 800 sviter och 4 enorma poollandskap. Extrem salthalt och omgivningstemperaturer på upp till 50°C krävde maximal termisk och kemisk beständighet. K Aqua levererade hela kall- och varmvattennätverket inklusive anslutning för fjärrkyla."
-          },
-          {
-            "year": "Schweiz",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "En 6-stjärnig resort på 2 000 meters höjd. Utmaningen: Extrem frostrisk under byggfasen och maximala krav på ljudisolering. Våra PP-R-kompositrör absorberade termiska längdförändringar utan problem och garanterade ljudlös drift."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "Ett 65-våningars mästerverk av ekologisk arkitektur. Det komplexa bevattningssystemet för tusentals balkongväxter samt hela dricksvatteninfrastrukturen realiserades med K Aqua. Den homogena svetstekniken skyddade byggnaden från mikroskopiska läckor."
-          },
-          {
-            "year": "Maldiverna",
-            "title": "Zero-Emission Island Resort",
-            "text": "Byggt direkt över revet, krävdes absolut miljövänlighet. K Aqua-rör är 100% återvinningsbara, avger ingen mikroplast eller tungmetaller och står emot den extremt korrosiva, salta havsluften utan något slitage."
-          },
-          {
-            "year": "Framtiden",
-            "title": "Ditt Nästa Megaprojekt",
-            "text": "Arkitekturens gränser flyttas fram varje dag. Vi är redo att gjuta grunden för dina djärvaste visioner. Med teknik som ligger årtionden före sin tid."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Forskning & Utveckling",
         "title": "Kemin för <br/> Oförstörbarhet.",
@@ -4740,48 +4707,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Tyskland",
         "d": "Huvudfabrik & Utveckling: Här skapas varje K Aqua-rör."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, Förenade Arabemiraten",
-        "d": "Stigrör för höghus: PPRCT för hetvatten under ökenförhållanden."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warszawa, Polen",
-        "d": "Nybyggnation av bostadsområde: komplett dricksvatteninstallation d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turkiet",
-        "d": "Hotellkomplex: Cirkulationsledningar med fiberkompositrör."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Infrastrukturprojekt: Stora dimensioner upp till d630 med stumsvetsning."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Kapstaden, Sydafrika",
-        "d": "Nybyggnation av sjukhus: hygienisk dricksvattendistribution."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, Storbritannien",
-        "d": "Kontorsrenovering: korrosionsfritt alternativ till befintliga rör."
       }
     ],
     "viewProject": "View project"
@@ -5499,8 +5424,7 @@
         "d": "Hygien är inte förhandlingsbart här: Den släta insidan (0,007 mm) hämmar biofilm och kalkavlagringar, materialet förblir smak- och luktfritt.",
         "pts": [
           "Hygienisk neutralitet",
-          "Korrosionsfri: ingen gropfrätning",
-          "Referens: Nytt sjukhus i Kapstaden"
+          "Korrosionsfri: ingen gropfrätning"
         ]
       },
       {
@@ -5508,8 +5432,7 @@
         "d": "Varmvattencirkulation dygnet runt: låg värmeledningsförmåga sparar energi permanent, PPRCT klarar 70°C kontinuerlig drift.",
         "pts": [
           "Termisk effektivitet",
-          "PPRCT för cirkulation",
-          "Referens: Hotellkomplex i Istanbul"
+          "PPRCT för cirkulation"
         ]
       },
       {
@@ -5526,8 +5449,7 @@
         "d": "UV-stabiliserade versioner för bevattning under glas och utomhus: lätta, snabbinstallerade, mer frosttåliga än stela system.",
         "pts": [
           "UV-beständigt utförande",
-          "Låg vikt",
-          "Användningsområde från referensprogrammet"
+          "Låg vikt"
         ]
       },
       {
@@ -5535,8 +5457,7 @@
         "d": "Försörjningsledningar och nät i stora dimensioner upp till d630: stumsvetsade till homogena, permanent täta ledningar.",
         "pts": [
           "d upp till 630 mm",
-          "Stumsvetsning (Butt Fusion)",
-          "Referens: Infrastruktur i Singapore"
+          "Stumsvetsning (Butt Fusion)"
         ]
       },
       {
@@ -8330,53 +8251,6 @@
         ]
       ]
     }
-  },
-  "customerReviews": {
-    "eyebrow": "Kvalitet som förenar",
-    "title": "Vad våra kunder och partners säger",
-    "lead": "Från byggherrar till speditionsfirmor och långvariga medarbetare: K Aqua KWT GmbH står för högsta precision från Waldsolms. Läs själv vilka erfarenheter människor dagligen har med vår service och våra produkter \"Made in Germany\".",
-    "trustBadge": "Google Recensioner",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Baserat på 44 recensioner)",
-    "tabA": "Kvalitet & \"Made in Germany\"",
-    "tabB": "Logistik & Leverans",
-    "tabC": "Kundservice & Team",
-    "reviews": {
-      "a1": "\"En fabrik i Waldsolms, Tyskland, specialiserad på PPR-rör och rördelar **Made in Germany**. Utmärkt personal.\"",
-      "a1Author": "Giulio C.",
-      "a2": "\"**Tysk kvalitet** på PPR-beläggningar och armaturer, mycket vänlig personal.\"",
-      "a2Author": "Veronica P.",
-      "a3": "\"**Modernt företag**. Producerar plaströr i alla storlekar och tillbehör.\"",
-      "a3Author": "Ewald S.",
-      "a4": "\"PPR-rör och formdelar från **tysk produktion**, utmärkta anställda och produkter.\"",
-      "a4Author": "Kais S.",
-      "a5": "\"**Högkvalitativa produkter** och en toppen tysk fabrik.\"",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "\"Mycket bra produkter, **pålitlig kvalitet** och punktlig leverans.\"",
-      "a6Author": "Klaus T.",
-      "b1": "\"Mycket trevligt bemötande, **snabb lossning**. Jag fick ta min långa rast här. Dusch och toalett erbjöds också. Här känner man sig **uppskattad** som lastbilschaufför. Jag kommer gärna tillbaka hit.\"",
-      "b1Author": "Michael S.",
-      "b2": "\"De aktuella koordinaterna för ingången är **50.428210, 8.499154**. Ungefär 100 meter bort finns en parkering. Vänlig personal.\"",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "\"**Snabb lossning**, vänlig och hjälpsam personal.\"",
-      "b3Author": "Bogdan M.",
-      "c1": "\"**Mycket bra service**, fantastiskt att det fortfarande produceras i Tyskland.\"",
-      "c1Author": "Daniel",
-      "c2": "\"**Mycket vänlig** och hjälpsam personal. E-postmeddelanden besvaras **omgående**.\"",
-      "c2Author": "Mohamed M.",
-      "c3": "\"Från ordföranden till de vanliga arbetarna: de är **goda människor**.\"",
-      "c3Author": "Azim",
-      "c4": "\"**Toppenföretag**, gör mycket för sina anställda.\"",
-      "c4Author": "Monika v. B.",
-      "c5": "\"De anställda är **mycket vänliga och hjälpsamma**.\"",
-      "c5Author": "Piera V.",
-      "c6": "\"Kompetent team och **enastående kundservice** på alla nivåer.\"",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Övertyga dig själv om vår service.",
-    "ctaText": "Har du frågor om våra PPR-rörsystem eller vill du diskutera ett projekt med oss? Vårt team från Waldsolms finns här för dig.",
-    "ctaBtn": "Kontakta oss nu",
-    "disclaimer": "Information om granskning av recensioner: De recensioner som visas här kommer från vår Google-företagsprofil. Google anger: Recensioner granskas inte. Vi har förkortat författarnas namn av dataskyddsskäl (GDPR)."
   },
   "co2x": {
     "methEyebrow": "Metodik",

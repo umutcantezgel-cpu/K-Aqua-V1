@@ -6,7 +6,9 @@ import { LanguagePageClient } from './LanguagePageClient';
 
 import { constructMetadata } from '@/lib/seo/metadata';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> | { locale: string } }): Promise<Metadata> {
+// Wie in app/[locale]/dev/layout.tsx: `params` ist in Next 15 immer ein
+// Promise; die Union ist ein Rest der Umstellung von Next 14.
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   return constructMetadata({
     title: 'Sprache wählen | Choose Language',

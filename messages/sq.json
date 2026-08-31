@@ -2988,39 +2988,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Realizimi i Projektit Hotelier",
-        "desc": "Nga faza e projektimit te shpërndarja e saktë, deri në inaugurimin pa probleme."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Faza 01",
-            "title": "Hidraulika & Dimensionimi",
-            "text": "Pajisje e 800 suitave dhe 4 peizazheve gjigante të pishinave. Kripësia ekstreme dhe temperaturat e ambientit deri në 50°C kërkonin rezistencë maksimale termike dhe kimike. K Aqua furnizoi të gjithë rrjetin e ujit të ftohtë dhe të ngrohtë përfshirë lidhjen me Ftohjen Qendrore."
-          },
-          {
-            "year": "Faza 02",
-            "title": "Kompensimi i Zgjerimit Termik",
-            "text": "Një resort me 6 yje në lartësinë 2,000 metra. Sfida: Rrezik ekstrem ngrice gjatë fazës së ndërtimit dhe kërkesa maksimale për izolim zanor. Tubat tanë PP-R me fije të përbëra përthithën në mënyrë sovrane ndryshimet e gjatësisë termike dhe garantuan operim të heshtur."
-          },
-          {
-            "year": "Faza 03",
-            "title": "Dorëzim sipas Afateve",
-            "text": "Një kryevepër e arkitekturës ekologjike me 65 kate. Sistemi kompleks i ujitjes për mijëra bimë ballkoni, si dhe e gjithë infrastruktura e ujit të pijshëm u realizuan me K Aqua. Teknologjia e saldimit homogjen e mbrojti ndërtesën nga rrjedhjet mikroskopike."
-          },
-          {
-            "year": "Faza 04",
-            "title": "Inspektim dhe Miratim",
-            "text": "I ndërtuar direkt mbi shkëmb nënujor (reef), kërkohej përputhshmëri absolute mjedisore. Tubat K Aqua janë 100% të riciklueshëm, nuk lëshojnë asnjë mikroplastikë ose metale të rënda dhe i rezistojnë ajrit të detit shumë korroziv e të kripur pa asnjë lloj konsumimi."
-          },
-          {
-            "year": "E ardhmja",
-            "title": "Megaprojekti juaj i radhës",
-            "text": "Kufijtë e arkitekturës zgjerohen çdo ditë. Ne jemi gati të hedhim themelet për vizionet tuaja më të guximshme. Me teknologji që është dekada para kohës së saj."
-          }
-        ]
-      },
       "bentoSection": {
         "title": "Optimizimi i shpenzimeve operative",
         "desc": "Sistemi K Aqua rrit jetëgjatësinë e investimit tuaj, duke reduktuar shpenzimet.",
@@ -5067,48 +5034,6 @@
           "Nga d20 deri në d630 mm (Saldim Ballor).",
           "Qasje EPD Type III për standardet ndërkombëtare si LEED."
         ]
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, Emiratet e Bashkuara",
-        "d": "Linjat e ngritjes (Risers) të kullave të larta: PPRCT për ujin e nxehtë në kushtet e shkretëtirës."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varshavë, Poloni",
-        "d": "Lagje banimi e re: Instalimi komplet i ujit të pijshëm d20-d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Stamboll, Turqi",
-        "d": "Kompleks hotelesh: Linja qarkullimi me tub fibër-kompozit."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapor",
-        "d": "Projekte infrastrukturore: Dimensione të mëdha deri në d630 përmes saldimit ballor."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Kepi i Shpresës së Mirë, Afrikë e Jugut",
-        "d": "Ndërtim spitali i ri: Shpërndarje higjienike e ujit të pijshëm."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Londër, Britani e Madhe",
-        "d": "Rinovim zyrash: Zëvendësim i linjave ekzistuese, pa korrozion."
       }
     ],
     "viewProject": "View project"
@@ -5874,8 +5799,7 @@
         "d": "Higjiena nuk është e negociueshme këtu: Sipërfaqja e brendshme e lëmuar (0.007 mm) pengon biofilmat dhe gëlqerimin, materiali mbetet neutral në shije dhe pa erë.",
         "pts": [
           "Neutralitet higjienik",
-          "Pa korrozion: asnjë vrimë",
-          "Referencë: Ndërtim spitali i ri në Kejptaun"
+          "Pa korrozion: asnjë vrimë"
         ]
       },
       {
@@ -5883,8 +5807,7 @@
         "d": "Qarkullim i ujit të nxehtë gjatë gjithë kohës: Përçueshmëria e ulët termike kursen energji përgjithmonë, PPRCT përballon funksionim të vazhdueshëm në 70 °C.",
         "pts": [
           "Efikasitet termik",
-          "PPRCT për qarkullim",
-          "Referencë: Kompleksi i hoteleve në Stamboll"
+          "PPRCT për qarkullim"
         ]
       },
       {
@@ -5901,8 +5824,7 @@
         "d": "Versione të stabilizuara ndaj rrezeve UV për vaditje nën xham dhe jashtë: të lehta, instalohen shpejt, më rezistente ndaj ngricave se sistemet e ngurta.",
         "pts": [
           "Version rezistent ndaj rrezeve UV",
-          "Peshë e lehtë",
-          "Fusha aplikimi nga programi referencë"
+          "Peshë e lehtë"
         ]
       },
       {
@@ -5910,8 +5832,7 @@
         "d": "Linja furnizimi dhe rrjete në dimensione të mëdha deri në d630: të salduara ballë për ballë (but-fusion) në linja homogjene dhe të pandashme.",
         "pts": [
           "d deri në 630 mm",
-          "Saldim ballor (Butt Fusion)",
-          "Referencë: Infrastruktura e Singaporit"
+          "Saldim ballor (Butt Fusion)"
         ]
       },
       {
@@ -7357,53 +7278,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Cilësi që lidh",
-    "title": "Çfarë thonë klientët dhe partnerët tanë",
-    "lead": "Nga ndërtuesit tek kompanitë e transportit e deri te punonjësit afatgjatë: K Aqua KWT GmbH qëndron për saktësinë më të lartë nga Waldsolms. Lexoni vetë se çfarë përvojash bëjnë njerëzit çdo ditë me shërbimin dhe produktet tona \"Made in Germany\".",
-    "trustBadge": "Komentet në Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Bazuar në 44 vlerësime)",
-    "tabA": "Cilësia & \"Made in Germany\"",
-    "tabB": "Logjistika & Dorëzimi",
-    "tabC": "Shërbimi i klientit & Ekipi",
-    "reviews": {
-      "a1": "\"Një fabrikë në Waldsolms, Gjermani, e specializuar në tuba dhe fitingje PPR **Made in Germany**. Staf i shkëlqyer.\"",
-      "a1Author": "Giulio C.",
-      "a2": "\"**Cilësi gjermane** në pajisjet dhe fitingjet PPR, staf shumë miqësor.\"",
-      "a2Author": "Veronica P.",
-      "a3": "\"**Kompani moderne**. Prodhon tuba plastikë të të gjitha madhësive dhe aksesorë.\"",
-      "a3Author": "Ewald S.",
-      "a4": "\"Tuba dhe fitingje PPR nga **prodhimi gjerman**, punonjës dhe produkte të shkëlqyera.\"",
-      "a4Author": "Kais S.",
-      "a5": "\"**Produkte të cilësisë së lartë** dhe një fabrikë gjermane e nivelit të lartë.\"",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "\"Produkte shumë të mira, **cilësi e besueshme** dhe dorëzim i përpiktë.\"",
-      "a6Author": "Klaus T.",
-      "b1": "\"Trajtim shumë i mirë, **shkarkim i shpejtë**. Unë munda të bëj pushimin tim të madh këtu. Më ofruan gjithashtu dush dhe tualet. Si shofer kamioni, ju ndiheni **të vlerësuar** këtu. Do të kthehem me kënaqësi.\"",
-      "b1Author": "Michael S.",
-      "b2": "\"Koordinatat aktuale të hyrjes janë **50.428210, 8.499154**. Rreth 100 metra larg ka një parkim. Staf miqësor.\"",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "\"**Shkarkim i shpejtë**, staf miqësor dhe i dobishëm.\"",
-      "b3Author": "Bogdan M.",
-      "c1": "\"**Shërbim shumë i mirë**, është mirë që ende prodhohet në Gjermani.\"",
-      "c1Author": "Daniel",
-      "c2": "\"Staf **shumë miqësor** dhe i dobishëm. Emailet **përgjigjen menjëherë**.\"",
-      "c2Author": "Mohamed M.",
-      "c3": "\"Nga kryetari deri te punëtorët e thjeshtë: ata janë **njerëz të mirë**.\"",
-      "c3Author": "Azim",
-      "c4": "\"**Kompani e shkëlqyer**, bën shumë për njerëzit e saj.\"",
-      "c4Author": "Monika v. B.",
-      "c5": "\"Punonjësit janë **shumë miqësorë dhe ndihmues**.\"",
-      "c5Author": "Piera V.",
-      "c6": "\"Ekip kompetent dhe **shërbim i shkëlqyer ndaj klientit** në të gjitha nivelet.\"",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Binduni vetë për shërbimin tonë.",
-    "ctaText": "Keni pyetje në lidhje me sistemet tona të tubave PPR apo dëshironi të diskutoni një projekt me ne? Ekipi ynë nga Waldsolms është aty për ju.",
-    "ctaBtn": "Na kontaktoni tani",
-    "disclaimer": "Shënim për verifikimin e rishikimeve: Rishikimet e paraqitura këtu janë nga profili i kompanisë sonë në Google. Google thekson: Rishikimet nuk verifikohen. Ne i kemi shkurtuar emrat e autorëve për arsye të mbrojtjes së të dhënave (GDPR)."
   },
   "seoArticle": {
     "transitionFittings": {

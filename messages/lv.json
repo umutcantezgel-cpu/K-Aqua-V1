@@ -1428,39 +1428,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Atsauces, kas raksta vēsturi.",
-        "desc": "No mākslīgajām salām Persijas līcī līdz ekskluzīvākajiem Alpu slēpošanas kūrortiem. Tur, kur top neiespējamais, K Aqua jau ir uz vietas."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubaija",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "800 luksusa apartamentu un 4 milzīgu peldbaseinu ainavu iekārtošana. Ārkārtējais sāļums un apkārtējās vides temperatūra līdz 50°C prasīja maksimālu termisko un ķīmisko izturību. K Aqua nodrošināja pilnu aukstā un karstā ūdens tīklu, ieskaitot District Cooling savienojumu."
-          },
-          {
-            "year": "Šveice",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "6 zvaigžņu kūrorts 2000 metru augstumā. Izaicinājums: ārkārtējs sala risks būvniecības posmā un maksimālās prasības skaņas izolācijai. Mūsu PP-R šķiedru kompozītmateriālu caurules bez piepūles absorbēja termiskās garuma izmaiņas un garantēja klusu darbību."
-          },
-          {
-            "year": "Singapūra",
-            "title": "Vertical Forest Hotel",
-            "text": "65 stāvu ekoloģiskās arhitektūras šedevrs. Sarežģītā apūdeņošanas sistēma tūkstošiem balkona augu, kā arī visa dzeramā ūdens infrastruktūra tika realizēta ar K Aqua. Homogēnā metināšanas tehnoloģija izglāba ēku no mikroskopiskām noplūdēm."
-          },
-          {
-            "year": "Maldīvu salas",
-            "title": "Zero-Emission Island Resort",
-            "text": "Uzcelta tieši virs rifa, bija nepieciešama absolūta vides saderība. K Aqua caurules ir 100% otrreiz pārstrādājamas, neizdala mikroplastmasu vai smagos metālus, un tās iztur ļoti korozīvo sāļo jūras gaisu bez jebkāda nolietojuma."
-          },
-          {
-            "year": "Nākotne",
-            "title": "Jūsu nākamais megaprojekts",
-            "text": "Arhitektūras robežas katru dienu mainās. Mēs esam gatavi ieliet pamatus Jūsu drosmīgākajām vīzijām. Ar tehnoloģijām, kas apsteidz laiku par gadu desmitiem."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Pētniecība un Attīstība (P&A)",
         "title": "Neiznīcināmības <br/> ķīmija.",
@@ -3230,7 +3197,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Skatīt produkta informāciju"
   },
   "toggle_theme_light": "Pārslēgties uz gaišo dizainu",
   "toggle_theme_dark": "Pārslēgties uz tumšo dizainu",
@@ -3270,30 +3237,30 @@
     "edgePageIndex": "Lapu indekss",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Cauruļvadu sistēmas",
+      "allProducts": "Visi produkti",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Nozarei specifiski pielietojumi",
+      "digitalTools": "Digitālie rīki",
+      "finderDesc": "Konfigurējiet piemērotāko sistēmu",
+      "co2Desc": "Aprēķiniet vides bilanci",
+      "academyDesc": "Apmācības un sertifikāti",
+      "trustDesc": "Lejupielādes un sertifikācijas",
+      "serviceDesc": "Projektēšanas atbalsts",
+      "partnersDesc": "Kļūstiet par vietējo partneri",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Uzņēmums",
+      "companyDesc": "Misija, vīzija un vēsture",
+      "careerDesc": "Vakances un kultūra",
+      "newsPress": "Jaunumi un prese",
+      "newsDesc": "Aktuālie preses paziņojumi",
+      "sitemap": "Vietnes karte",
+      "sitemapDesc": "Struktūras pārskats",
+      "globalFootprint": "Globālā klātbūtne",
+      "globalMarkets": "Globālie tirgi",
+      "marketsDesc": "Sertificētie reģioni",
+      "refProjects": "Atsauces projekti",
+      "refDesc": "Veiksmīgas instalācijas"
     }
   },
   "groups": {
@@ -4422,7 +4389,7 @@
         "btnGhost": "Sazināties ar ekspertiem"
       },
       "metaTitle": "Tehniskais atbalsts un serviss PP-R cauruļu sistēmām",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Inženiertehniskās konsultācijas, lietojuma tehnoloģija un atbalsts objektā."
     }
   },
   "academy": {
@@ -4869,7 +4836,7 @@
         "button": "Sākt inženierijas (Engineering) sanāksmi"
       }
     },
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Apmācību video un instrukcijas"
   },
   "service": {
     "eyebrow": "Serviss",
@@ -4978,7 +4945,7 @@
     },
     "material": {
       "eyebrow": "Materiālzinātne",
-      "title1": "Polypropylen Random Copolymerisat.",
+      "title1": "Polipropilēna nejaušais kopolimērs.",
       "title2": "Atraisīts.",
       "p1": "PP-R tips 3 nav tikai plastmasa. Tas ir ļoti sarežģīts termoplastisks materiāls, kuru mēs pārvaldām molekulārā līmenī.",
       "p2": "Pateicoties etilēna monomēru stratēģiskajam izvietojumam propilēna ķēdē, mēs panākam nepārspējamu triecienizturību pat mīnus temperatūrās. Mūsu granulas nāk tikai no pasaules izejvielu ražotāju elites. Mēs analizējam katru partiju, izmantojot dinamisko skenēšanas kalorimetriju (DSC) un kausējuma plūsmas ātruma (MFR) testus. Tas, kas neatbilst mūsu specifikācijām kaut par promili, tiek nesaudzīgi likvidēts.",
@@ -5279,25 +5246,25 @@
     "nextTitle": "Cik klimatam draudzīga ir jūsu plānošana?",
     "nextLead": "Pārnesiet izmērus un garumu tieši uz CO₂ kalkulatoru un salīdziniet ar varu, nerūsējošo tēraudu un PVC.",
     "nextCta": "Uz CO₂ kalkulatoru",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Pārmeklējiet visu mūsu produktu klāstu pēc kategorijas, nosaukuma vai artikula numura.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Caurules",
+    "catFittings": "Veidgabali",
+    "catValves": "Armatūra",
+    "catTools": "Instrumenti",
+    "catTransitionFittings": "Pārejas savienojumi",
+    "catAccessories": "Piederumi",
+    "catWeldInSaddles": "Augstas kvalitātes PP-R iemetināmie segli",
+    "category": "Kategorija",
+    "search": "Meklēšana",
+    "searchPlaceholder": "Artikula numurs vai nosaukums...",
+    "foundFam": "atrastas produktu saimes",
+    "catalogPdf": "Katalogs PDF formātā",
+    "colName": "Produkta nosaukums",
+    "colCat": "Kategorija",
+    "colCodes": "Artikulu numuri",
+    "noResultsText": "Mēs nevarējām atrast produktus, kas atbilst jūsu meklēšanas kritērijiem. Lūdzu, izmēģiniet citu meklēšanas vārdu vai mainiet kategoriju.",
+    "resetFilters": "Atiestatīt filtrus"
   },
   "trustAndCases": {
     "eyebrow": "Sertificēta drošība",
@@ -5367,8 +5334,8 @@
     "certBtn": "Ģenerēt PDF ziņojumu",
     "generating": "Ģenerē...",
     "energyGreen": "Zaļā enerģija",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
+    "energyDe": "DE mikss",
+    "energyEu": "EU mikss",
     "energyGlobal": "Globālais mikss",
     "materials": {
       "kaqua": "K Aqua PPRCT",
@@ -5536,51 +5503,9 @@
         "lon": 8.5,
         "title": "Valdsolmsa, Vācija",
         "d": "Galvenā rūpnīca un attīstība: šeit top katra K Aqua caurule."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubaija, AAE",
-        "d": "Daudzstāvu stāvvadi: PPRCT karstam ūdenim tuksneša apstākļos."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varšava, Polija",
-        "d": "Dzīvojamo ēku celtniecība: pilnīga dzeramā ūdens instalācija d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Stambula, Turcija",
-        "d": "Viesnīcu komplekss: cirkulācijas caurules ar stikla šķiedras kompozīta cauruli."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapūra",
-        "d": "Infrastruktūras projekts: lieli izmēri līdz d630, izmantojot sadurmetināšanas procesu."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Keiptauna, Dienvidāfrika",
-        "d": "Jaunas slimnīcas ēkas: higiēniska dzeramā ūdens sadale."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Londona, Lielbritānija",
-        "d": "Biroju atjaunošana: pret koroziju izturīga esošo cauruļu nomaiņa."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Skatīt projektu"
   },
   "buyers": {
     "eyebrow": "Projektētājiem, iepirkumiem un pārstrādātājiem",
@@ -5981,8 +5906,7 @@
         "d": "Higiēna šeit nav apspriežama: gludā iekšējā virsma (0,007 mm) kavē bioplēves un inkrustācijas veidošanos, materiāls ir bez garšas un smaržas.",
         "pts": [
           "Higiēniskā neitralitāte",
-          "Bez korozijas: nav punktveida korozijas (pitting)",
-          "Atsauce: Jaunbūve slimnīcai Keiptaunā"
+          "Bez korozijas: nav punktveida korozijas (pitting)"
         ]
       },
       {
@@ -5990,8 +5914,7 @@
         "d": "Karstā ūdens cirkulācija visu diennakti: zemā siltumvadītspēja ilgstoši ietaupa enerģiju, PPRCT iztur 70 °C nepārtrauktā darbībā.",
         "pts": [
           "Termiskā efektivitāte",
-          "PPRCT cirkulācijai",
-          "Atsauce: Viesnīcu komplekss Stambulā"
+          "PPRCT cirkulācijai"
         ]
       },
       {
@@ -6008,8 +5931,7 @@
         "d": "UV-stabilizēti modeļi apūdeņošanai zem stikla un ārpus telpām: viegli, ātri uzstādāmi, sala izturīgāki nekā stingras sistēmas.",
         "pts": [
           "UV starojuma izturīgs modelis",
-          "Neliels svars",
-          "Lietojums no atsauču programmas"
+          "Neliels svars"
         ]
       },
       {
@@ -6017,8 +5939,7 @@
         "d": "Apgādes līnijas un tīkli lielos izmēros līdz d630: sadurmetināti viendabīgās, pastāvīgi hermētiskās virknēs.",
         "pts": [
           "d līdz 630 mm",
-          "Sadurmetināšana (Butt Fusion)",
-          "Atsauce: Infrastruktūra Singapūrā"
+          "Sadurmetināšana (Butt Fusion)"
         ]
       },
       {
@@ -7213,7 +7134,7 @@
         "Auditi un ekskursijas pēc iepriekšēja pieraksta caur pārdošanas nodaļu"
       ]
     ],
-    "mapLabel": "Anfahrtskarte Waldsolms, Kartenausschnitt ablegen",
+    "mapLabel": "Piebraukšanas karte Waldsolms, saglabāt kartes izgriezumu",
     "faqEyebrow": "Pirms rakstāt",
     "faqTitle": "Četri visbiežāk uzdotie jautājumi.",
     "faq": [
@@ -7785,61 +7706,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Metināmi segli (Iekšējā vītne)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Metināmi segli (Ārējā vītne)",
     "weld-in-saddles_weld-in-saddle": "Metināmi segli",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Brīvatloks PP-tērauds (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R apvedlīkums ar uzmavu",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Rokas metināšanas iekārta d20–d32",
+    "tools_pipe-cutter-50125": "Cauruļu griezējs d50–d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Kvalitāte, kas savieno",
-    "title": "Ko saka mūsu klienti un partneri",
-    "lead": "No pasūtītājiem līdz kravu pārvadājumu uzņēmumiem un ilggadējiem darbiniekiem: K Aqua KWT GmbH nozīmē augstāko precizitāti no Waldsolms. Lasi pats, kādu pieredzi cilvēki gūst katru dienu ar mūsu servisu un \"Made in Germany\" produktiem.",
-    "trustBadge": "Google Atsauksmes",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Pamatojoties uz 44 atsauksmēm)",
-    "tabA": "Kvalitāte un \"Made in Germany\"",
-    "tabB": "Loģistika un Piegāde",
-    "tabC": "Klientu serviss un Komanda",
-    "reviews": {
-      "a1": "\"Rūpnīca Vācijā, Waldsolms, specializējusies PP-R cauruļu un veidgabalu ražošanā **Made in Germany**. Lielisks personāls.\"",
-      "a1Author": "Giulio C.",
-      "a2": "\"**Vācijas kvalitāte** PP-R pārklājumos un armatūrā, ļoti draudzīgs personāls.\"",
-      "a2Author": "Veronica P.",
-      "a3": "\"**Mūsdienīgs uzņēmums**. Ražo visu izmēru plastmasas caurules un piederumus.\"",
-      "a3Author": "Ewald S.",
-      "a4": "\"PP-R caurules un veidgabali no **Vācijas ražošanas**, izcili darbinieki un produkti.\"",
-      "a4Author": "Kais S.",
-      "a5": "\"**Augstas kvalitātes produkti** un lieliska Vācijas rūpnīca.\"",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "\"Ļoti labi produkti, **uzticama kvalitāte** un precīza piegāde laikā.\"",
-      "a6Author": "Klaus T.",
-      "b1": "\"Ļoti patīkama saskarsme, **ātra izkraušana**. Es varēju šeit paņemt lielu pārtraukumu. Man tika piedāvāta arī duša un tualete. Šeit jūs kā kravas automašīnas vadītājs jūtaties **novērtēts**. Es ar prieku atgriezīšos vēlreiz.\"",
-      "b1Author": "Michael S.",
-      "b2": "\"Pašreizējās ieejas koordinātas ir **50.428210, 8.499154**. Aptuveni 100 metru attālumā atrodas stāvvieta. Draudzīgs personāls.\"",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "\"**Ātra izkraušana**, draudzīgs un izpalīdzīgs personāls.\"",
-      "b3Author": "Bogdan M.",
-      "c1": "\"**Ļoti labs serviss**, lieliski, ka ražošana joprojām notiek Vācijā.\"",
-      "c1Author": "Daniel",
-      "c2": "\"**Ļoti draudzīgs** un izpalīdzīgs personāls. Uz e-pastiem tiek **atbildēts nekavējoties**.\"",
-      "c2Author": "Mohamed M.",
-      "c3": "\"No vadītāja līdz parastiem strādniekiem: viņi ir **labi cilvēki**.\"",
-      "c3Author": "Azim",
-      "c4": "\"**Lielisks uzņēmums**, daudz dara savu cilvēku labā.\"",
-      "c4Author": "Monika v. B.",
-      "c5": "\"Darbinieki ir **ļoti draudzīgi un izpalīdzīgi**.\"",
-      "c5Author": "Piera V.",
-      "c6": "\"Kompetenta komanda un **izcila klientu apkalpošana** visos līmeņos.\"",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Pārliecinieties paši par mūsu servisu.",
-    "ctaText": "Vai jums ir jautājumi par mūsu PP-R cauruļu sistēmām, vai vēlaties ar mums apspriest projektu? Mūsu komanda no Waldsolms ir jūsu rīcībā.",
-    "ctaBtn": "Sazināties tagad",
-    "disclaimer": "Piezīme par atsauksmju pārbaudi: Šeit parādītās atsauksmes ir ņemtas no mūsu uzņēmuma Google profila. Google norāda: Atsauksmes netiek pārbaudītas. Datu aizsardzības (VDAR) apsvērumu dēļ mēs esam saīsinājuši autoru vārdus."
+    "valves_tee-90-female-thread-for-internal-valve": "Trejgabals 90° (iekšējā vītne) zemapmetuma ventilim"
   },
   "seoArticle": {
     "transitionFittings": {
@@ -8349,53 +8223,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Interaktīvā",
+    "titleGrad": "karšu komplekts",
+    "tabHq": "Galvenā mītne Waldsolms",
+    "tabRefs": "Hermētiskuma karte",
+    "tabSpec": "Specifikators",
+    "hqTitle": "Centrālā ražotne un izstrādes centrs",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesene, Vācija.",
+    "registryLabel": "Komercreģistrs:",
+    "phoneLabel": "Tālrunis:",
+    "certLabel": "Sertifikācija:",
+    "directions": "Atvērt maršruta plānotāju",
+    "aboutPlant": "Par Waldsolms rūpnīcu",
+    "sectorFilter": "Sektoru filtrs:",
+    "specPlaceholder": "Ievadiet vietu vai pilsētu…",
+    "profileTitle": "Tirgus un loģistikas profils",
+    "profileHint": "Noklikšķiniet uz kartes vai meklējiet pilsētu, lai aktivizētu automātisko sistēmas specifikāciju un piegādes maršruta aprēķinu.",
+    "marketAssign": "Tirgus piesaiste",
+    "normLabel": "Standarts:",
+    "airDist": "Taisnā līnijā (HQ)",
+    "roadDist": "Pa autoceļu (aptuveni)",
+    "recommended": "Ieteicamā cauruļvadu sistēma:",
+    "recUv": "UV-Protect ārējais apvalks",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Visi sektori",
+      "hotel": "Viesnīcas",
+      "wohnen": "Dzīvojamā apbūve",
+      "infra": "Infrastruktūra",
+      "klinik": "Klīnikas",
+      "buero": "Biroji"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Produkti",
+      "markets-solutions": "Tirgi un risinājumi",
+      "academy-resources": "Akadēmija un resursi",
+      "company": "Uzņēmums"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Cauruļu produktu meklētājs",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Veidgabali un fitingi",
+      "valves": "Armatūra un ventiļi",
+      "tools": "Instrumenti un piederumi",
+      "transition": "Cauruļu pārejas",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8408,48 +8282,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Projekta pieprasījums cauruļvadu sistēmām",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Vietnes karte (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Izvēlieties savu valodu",
+    "subtitle": "65 valodas · pagrieziet globusu, pieskarieties reģionam, apstipriniet.",
+    "searchPlaceholder": "Meklēt valodu vai lapu …",
+    "pagesSection": "Lapas un navigācija",
+    "noResults": "Valoda nav atrasta.",
+    "confirm": "Apstiprināt",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Attiecas uz visu vietni",
+    "active": "aktīva"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Kā mēs varam jums palīdzēt?",
+    "step1Desc": "Izvēlieties jūsu jautājumam atbilstošo jomu.",
+    "optSales": "Pārdošana un projekti",
+    "optSalesDesc": "Cenu pieprasījumi, lielie projekti un piegādes termiņi.",
+    "optTech": "Tehniskais atbalsts",
+    "optTechDesc": "Specifikācijas, montāža un sistēmas projektēšana.",
+    "optOther": "Vispārīgs pieprasījums",
+    "optOtherDesc": "Mārketings, karjera vai cits jautājums.",
+    "step2Title": "Sīkāka informācija par jūsu jautājumu",
+    "step2Desc": "Lūdzu, īsi aprakstiet savu projektu vai jautājumu.",
+    "messagePlaceholder": "Jūsu ziņojums mums...",
+    "step3Title": "Jūsu kontaktinformācija",
+    "step3Desc": "Gandrīz gatavs! Kā mēs varam ar jums sazināties?",
+    "nameLabel": "Pilns vārds, uzvārds",
+    "companyLabel": "Uzņēmums / organizācija",
+    "emailLabel": "E-pasta adrese",
+    "phoneLabel": "Tālruņa numurs",
+    "step4Title": "Ziņojums nosūtīts!",
+    "step4Desc": "Paldies par jūsu pieprasījumu. Kāds no mūsu ekspertiem drīzumā ar jums sazināsies.",
+    "btnNext": "Tālāk",
+    "btnBack": "Atpakaļ",
+    "btnSubmit": "Nosūtīt pieprasījumu",
+    "btnSending": "Notiek sūtīšana…",
+    "btnHome": "Atpakaļ uz sākumlapu",
+    "sendError": "Nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz vai zvaniet mums tieši: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

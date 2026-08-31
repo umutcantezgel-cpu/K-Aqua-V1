@@ -3038,39 +3038,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Reference, ki pišejo zgodovino.",
-        "desc": "Od umetnih otokov v Perzijskem zalivu do najekskluzivnejših smučišč v Alpah. Kjer se gradi nemogoče, je K Aqua že tam."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubaj",
-            "title": "Izjemno luksuzno letovišče The Palm Jumeirah",
-            "text": "Opremljenost z 800 apartmaji in 4 ogromnimi bazeni. Ekstremna slanost in temperature okolja do 50 °C so zahtevale maksimalno toplotno in kemično odpornost. Podjetje K Aqua je dobavilo celotno omrežje hladne in tople vode, vključno s priključkom za daljinsko hlajenje."
-          },
-          {
-            "year": "Švica",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Letovišče s 6 zvezdicami na nadmorski višini 2000 metrov. Izziv: Ekstremna nevarnost zmrzali v fazi gradnje in maksimalne zahteve po zvočni izolaciji. Naše kompozitne cevi iz PP-R vlaken so suvereno absorbirale spremembe toplotne dolžine in zagotavljale tiho delovanje."
-          },
-          {
-            "year": "Singapur",
-            "title": "Vertical Forest Hotel",
-            "text": "65-nadstropna mojstrovina ekološke arhitekture. Kompleksen namakalni sistem za tisoče balkonskih rastlin ter celotna infrastruktura pitne vode so bili realizirani s K Aqua. Homogena tehnologija varjenja je stavbo zaščitila pred mikroskopskimi puščanji."
-          },
-          {
-            "year": "Maldivi",
-            "title": "Otoško letovišče z ničelnimi emisijami",
-            "text": "Zgrajeno neposredno na grebenu je zahtevalo absolutno okoljsko združljivost. Cevi K Aqua je mogoče 100-odstotno reciklirati, ne sproščajo mikroplastike ali težkih kovin in brez vsakršne obrabe prenesejo močno koroziven morski zrak s soljo."
-          },
-          {
-            "year": "Prihodnost",
-            "title": "Vaš naslednji mega projekt",
-            "text": "Meje arhitekture se premikajo iz dneva v dan. Pripravljeni smo postaviti temelje za vaše najbolj drzne vizije. S tehnologijo, ki je desetletja pred svojim časom."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Raziskave & razvoj",
         "title": "Kemija <br/> neuničljivosti.",
@@ -4443,48 +4410,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Nemčija",
         "d": "Matična tovarna in razvoj: tukaj se ustvari vsaka cev K Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubaj, ZAE",
-        "d": "Dvižni vodi v visokih zgradbah: PPRCT za toplo vodo v puščavskih razmerah."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varšava, Poljska",
-        "d": "Nova stanovanjska četrt: celotna instalacija pitne vode d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turčija",
-        "d": "Hotelski kompleks: cirkulacijske napeljave s kompozitnimi cevmi iz vlaken."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur",
-        "d": "Infrastrukturni projekt: velike dimenzije do d630 s čelnim varjenjem."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, Južna Afrika",
-        "d": "Nova bolnišnična zgradba: higienska distribucija pitne vode."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, ZK",
-        "d": "Prenova pisarn: zamenjava obstoječih cevi brez korozije."
       }
     ],
     "viewProject": "View project"
@@ -5593,8 +5518,7 @@
         "d": "Higiena tukaj ni stvar pogajanj: gladka notranja površina (0,007 mm) zavira biofilm in inkrustacijo, material ostaja brez vonja in okusa.",
         "pts": [
           "Higienska nevtralnost",
-          "Brez korozije: ni luknjičaste korozije",
-          "Referenca: novogradnja bolnišnice Cape Town"
+          "Brez korozije: ni luknjičaste korozije"
         ]
       },
       {
@@ -5602,8 +5526,7 @@
         "d": "Cirkulacija tople vode 24 ur na dan: nizka toplotna prevodnost trajno varčuje z energijo, PPRCT vzdrži neprekinjeno delovanje pri 70 °C.",
         "pts": [
           "Toplotna učinkovitost",
-          "PPRCT za cirkulacijo",
-          "Referenca: hotelski kompleks Istanbul"
+          "PPRCT za cirkulacijo"
         ]
       },
       {
@@ -5620,8 +5543,7 @@
         "d": "UV-stabilizirane izvedbe za namakanje pod steklom in na prostem: lahke, hitro vgrajene, manj občutljive na zmrzal kot togi sistemi.",
         "pts": [
           "UV-odporna izvedba",
-          "Majhna teža",
-          "Področje uporabe iz referenčnega programa"
+          "Majhna teža"
         ]
       },
       {
@@ -5629,8 +5551,7 @@
         "d": "Oskrbovalni vodi in omrežja v velikih dimenzijah do d630: čelno varjene v homogene, trajno tesne vode.",
         "pts": [
           "d do 630 mm",
-          "Čelno varjenje (Butt Fusion)",
-          "Referenca: infrastruktura Singapur"
+          "Čelno varjenje (Butt Fusion)"
         ]
       },
       {
@@ -7972,53 +7893,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Kakovost, ki povezuje",
-    "title": "Kaj pravijo naši kupci in partnerji",
-    "lead": "Od gradbenikov do špediterjev in dolgoletnih zaposlenih: podjetje K Aqua KWT GmbH se zavzema za najvišjo natančnost iz Waldsolmsa. Preberite, kakšne izkušnje imajo ljudje vsakodnevno z našimi storitvami in izdelki »Made in Germany«.",
-    "trustBadge": "Google ocene",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Na podlagi 44 ocen)",
-    "tabA": "Kakovost in »Made in Germany«",
-    "tabB": "Logistika in dostava",
-    "tabC": "Služba za stranke in ekipa",
-    "reviews": {
-      "a1": "„Tovarna v Waldsolmsu, Nemčija, specializirana za cevi in fitinge PPR **Made in Germany**. Izjemno osebje.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Nemška kakovost** pri PPR premazih in armaturah, zelo prijazno osebje.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Sodobno podjetje**. Proizvaja plastične cevi vseh velikosti in dodatke.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR cevi in fitingi **nemške izdelave**, odlični zaposleni in izdelki.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Visokokakovostni izdelki** in vrhunska nemška tovarna.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Zelo dobri izdelki, **zanesljiva kakovost** in točna dostava.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Zelo prijazno ravnanje, **hitro razkladanje**. Tu sem imel možnost za dolg odmor. Ponudili so mi tudi prho in stranišče. Kot voznik tovornjaka se tukaj počutiš **cenjeno**. Zelo rad se bom vrnil.“",
-      "b1Author": "Michael S.",
-      "b2": "„Trenutne koordinate vhoda so **50.428210, 8.499154**. Približno 100 metrov stran se nahaja parkirišče. Prijazno osebje.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Hitro razkladanje**, prijazno in ustrežljivo osebje.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Zelo dobra storitev**, odlično, da se še vedno proizvaja v Nemčiji.“",
-      "c1Author": "Daniel",
-      "c2": "„**Zelo prijazno** in ustrežljivo osebje. E-poštna sporočila so **odgovorjena takoj**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Od predsednika do preprostih delavcev: to so **dobri ljudje**.“",
-      "c3Author": "Azim",
-      "c4": "„**Odlično podjetje**, naredi veliko za svoje ljudi.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„Zaposleni so **zelo prijazni in ustrežljivi**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Strokovna ekipa in **odlična podpora strankam** na vseh ravneh.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Prepričajte se o naši storitvi.",
-    "ctaText": "Imate vprašanja o naših cevovodnih sistemih PPR ali želite z nami razpravljati o projektu? Naša ekipa iz Waldsolmsa je tu za vas.",
-    "ctaBtn": "Kontaktirajte nas zdaj",
-    "disclaimer": "Opomba o preverjanju ocen: Tukaj prikazane ocene izvirajo iz našega profila podjetja na Googlu. Google navaja: Ocene niso preverjene. Zaradi varstva podatkov (GDPR) smo imena avtorjev skrajšali."
   },
   "seoArticle": {
     "transitionFittings": {

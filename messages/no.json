@@ -660,8 +660,8 @@
         "Energistyringssystem"
       ]
     ],
-    "btnDe": "Zertifikat (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnDe": "Sertifikat (DE)",
+    "btnEn": "Sertifikat (EN)",
     "eventsTitle": "Messer og arrangementer",
     "eventsText": "Besøk K Aqua på kommende arrangementer. Ingen datoer er for øyeblikket annonsert. Sjekk tilbake snart.",
     "lead": "Les det siste fra K Aqua. "
@@ -829,25 +829,25 @@
     "nextTitle": "Hvor klimavennlig er planleggingen din?",
     "nextLead": "Overfør dimensjon og lengde direkte til CO₂-kalkulatoren og sammenlign mot kobber, rustfritt stål og PVC.",
     "nextCta": "Gå til CO₂-kalkulator",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Søk i hele produktsortimentet vårt etter kategori, navn eller artikkelnummer.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Rør",
+    "catFittings": "Rørdeler",
+    "catValves": "Ventiler",
+    "catTools": "Verktøy",
+    "catTransitionFittings": "Overgangsfittings",
+    "catAccessories": "Tilbehør",
+    "catWeldInSaddles": "Høykvalitets PP-R innsveisesadel",
+    "category": "Kategori",
+    "search": "Søk",
+    "searchPlaceholder": "Artikkelnummer eller navn ...",
+    "foundFam": "artikkelfamilier funnet",
+    "catalogPdf": "Katalog som PDF",
+    "colName": "Produktnavn",
+    "colCat": "Kategori",
+    "colCodes": "Artikkelnumre",
+    "noResultsText": "Vi fant ingen produkter som samsvarer med søkekriteriene dine. Prøv et annet søkeord eller endre kategori.",
+    "resetFilters": "Nullstill filtre"
   },
   "trustAndCases": {
     "eyebrow": "Sertifisert sikkerhet",
@@ -1086,51 +1086,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Tyskland",
         "d": "Hovedanlegg og utvikling: det er her hvert K Aqua-rør lages."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, De forente arabiske emirater",
-        "d": "Høyhusstigerør: PPRCT for varmtvann under ørkenforhold."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warszawa, Polen",
-        "d": "Nytt boligkvartal: komplett drikkevannsinstallasjon d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Tyrkia",
-        "d": "Hotellkompleks: Sirkulasjonsledninger med fiberkomposittrør."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Infrastrukturprosjekt: Store dimensjoner opp til d630 ved bruk av stuksveising."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, Sør-Afrika",
-        "d": "Nytt sykehus: hygienisk drikkevannsdistribusjon."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, Storbritannia",
-        "d": "Kontorrenovering: korrosjonsfri utskifting for eksisterende rør."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Se prosjekt"
   },
   "buyers": {
     "eyebrow": "For planleggere, innkjøp og installatører",
@@ -2839,39 +2797,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Referanser som skriver historie.",
-        "desc": "Fra kunstige øyer i Persiabukta til de mest eksklusive skianleggene i Alpene. Der det umulige bygges, er K Aqua allerede på plass."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Utstyring av 800 suiter og 4 enorme bassenglandskap. Ekstrem saltholdighet og omgivelsestemperaturer på opptil 50 °C krevde maksimal termisk og kjemisk motstand. K Aqua leverte hele kaldt- og varmtvannsnettet, inkludert tilkobling til fjernkjøling."
-          },
-          {
-            "year": "Sveits",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Et 6-stjerners feriested 2000 meter over havet. Utfordringen: Ekstrem fare for frost under byggefasen og maksimale krav til lydisolering. Våre PP-R fiberkomposittrør absorberte termiske lengdeendringer uanstrengt og garanterte lydløs drift."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "Et 65-etasjers mesterverk av økologisk arkitektur. Det komplekse vanningssystemet for tusenvis av balkongplanter samt hele drikkevannsinfrastrukturen ble realisert med K Aqua. Den homogene sveiseteknologien beskyttet bygningen mot mikroskopiske lekkasjer."
-          },
-          {
-            "year": "Maldivene",
-            "title": "Zero-Emission Island Resort",
-            "text": "Bygget direkte over revet, var absolutt miljøvennlighet påkrevd. K Aqua-rør er 100 % resirkulerbare, frigjør ikke noe mikroplast eller tungmetaller og tåler den svært korrosive saltholdige sjøluften uten slitasje."
-          },
-          {
-            "year": "Fremtid",
-            "title": "Ditt neste megaprosjekt",
-            "text": "Arkitekturens grenser flytter seg daglig. Vi er klare til å legge grunnlaget for dine dristigste visjoner. Med teknologi som er tiår foran sin tid."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Forskning og utvikling",
         "title": "Kjemien <br/> for uforgjengelighet.",
@@ -3318,30 +3243,30 @@
     "edgePageIndex": "Sideindeks",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Rørsystemer",
+      "allProducts": "Alle produkter",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Bransjespesifikke applikasjoner",
+      "digitalTools": "Digitale verktøy",
+      "finderDesc": "Konfigurer riktig system",
+      "co2Desc": "Beregn miljøavtrykket",
+      "academyDesc": "Kurs og sertifikater",
+      "trustDesc": "Nedlastinger og sertifiseringer",
+      "serviceDesc": "Prosjekteringsstøtte",
+      "partnersDesc": "Bli lokal partner",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Selskapet",
+      "companyDesc": "Misjon, visjon og historie",
+      "careerDesc": "Ledige stillinger og kultur",
+      "newsPress": "Nyheter og presse",
+      "newsDesc": "Aktuelle pressemeldinger",
+      "sitemap": "Nettstedskart",
+      "sitemapDesc": "Strukturoversikt",
+      "globalFootprint": "Globalt fotavtrykk",
+      "globalMarkets": "Globale markeder",
+      "marketsDesc": "Sertifiserte regioner",
+      "refProjects": "Referanseprosjekter",
+      "refDesc": "Vellykkede installasjoner"
     }
   },
   "groups": {
@@ -3367,8 +3292,7 @@
         "d": "Hygiene er ikke oppe til diskusjon her: Den glatte indre overflaten (0,007 mm) hemmer biofilm og inkrustasjon, materialet forblir smaks- og luktfritt.",
         "pts": [
           "Hygienisk nøytralitet",
-          "Korrosjonsfri: ingen gropkorrosjon",
-          "Referanse: Sykehus nybygg Cape Town"
+          "Korrosjonsfri: ingen gropkorrosjon"
         ]
       },
       {
@@ -3376,8 +3300,7 @@
         "d": "Varmtvannssirkulasjon døgnet rundt: lav varmeledningsevne sparer permanent energi, PPRCT tåler 70 °C kontinuerlig drift.",
         "pts": [
           "Termisk effektivitet",
-          "PPRCT for sirkulasjon",
-          "Referanse: Hotellkompleks Istanbul"
+          "PPRCT for sirkulasjon"
         ]
       },
       {
@@ -3394,8 +3317,7 @@
         "d": "UV-stabiliserte versjoner for vanning under glass og utendørs: lett, raskt installert, mindre følsom for frost enn stive systemer.",
         "pts": [
           "UV-bestandig versjon",
-          "Lav vekt",
-          "Bruksområde fra referanseprogrammet"
+          "Lav vekt"
         ]
       },
       {
@@ -3403,8 +3325,7 @@
         "d": "Forsyningsledninger og nettverk i store dimensjoner opp til d630: stumpsveiset til homogene, permanent tette strenger.",
         "pts": [
           "d opp til 630 mm",
-          "Stumpsveising (Butt Fusion)",
-          "Referanse: Infrastruktur Singapore"
+          "Stumpsveising (Butt Fusion)"
         ]
       },
       {
@@ -4902,61 +4823,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Påsveisingssal (Innvendig gjenge)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Påsveisingssal (Utvendig gjenge)",
     "weld-in-saddles_weld-in-saddle": "Påsveisingssal",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Løsflens PP-stål (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R krysningsbøy med muffe",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Håndsveiseapparat d20-d32",
+    "tools_pipe-cutter-50125": "Rørkutter d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Kvalitet som forbinder",
-    "title": "Hva våre kunder og partnere sier",
-    "lead": "Fra utbyggere til speditører til langvarige ansatte: K Aqua KWT GmbH står for høyeste presisjon fra Waldsolms. Les selv hvilke erfaringer folk gjør daglig med vår service og våre produkter \"Made in Germany\".",
-    "trustBadge": "Google Anmeldelser",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Basert på 44 anmeldelser)",
-    "tabA": "Kvalitet og \"Made in Germany\"",
-    "tabB": "Logistikk og levering",
-    "tabC": "Kundeservice og team",
-    "reviews": {
-      "a1": "„En fabrikk i Waldsolms, Tyskland, som spesialiserer seg på PPR-rør og -fittings **Made in Germany**. Utmerket personale.“",
-      "a1Author": "Giulio C.",
-      "a2": "„**Tysk kvalitet** på PPR-belegg og armaturer, svært vennlig personale.“",
-      "a2Author": "Veronica P.",
-      "a3": "„**Moderne selskap**. Produserer plastrør i alle størrelser og tilbehør.“",
-      "a3Author": "Ewald S.",
-      "a4": "„PPR-rør og -fittings fra **tysk produksjon**, utmerkede ansatte og produkter.“",
-      "a4Author": "Kais S.",
-      "a5": "„**Høykvalitets produkter** og en topp tysk fabrikk.“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„Veldig gode produkter, **pålitelig kvalitet** og punktlig levering.“",
-      "a6Author": "Klaus T.",
-      "b1": "„Veldig hyggelig å ha med å gjøre, **rask lossing**. Jeg fikk lov til å ta den lange pausen min her. Dusj og toalett ble også tilbudt meg. Her føler du deg **verdsatt** som lastebilsjåfør. Jeg kommer gjerne tilbake hit.“",
-      "b1Author": "Michael S.",
-      "b2": "„De nåværende koordinatene for inngangen er **50.428210, 8.499154**. Det er en parkeringsplass omtrent 100 meter unna. Vennlig personale.“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**Rask lossing**, vennlig og hjelpsomt personale.“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**Veldig god service**, flott at det fortsatt produseres i Tyskland.“",
-      "c1Author": "Daniel",
-      "c2": "„**Veldig vennlig** og hjelpsomt personale. E-poster besvares **umiddelbart**.“",
-      "c2Author": "Mohamed M.",
-      "c3": "„Fra formannen til de vanlige arbeiderne: de er **gode mennesker**.“",
-      "c3Author": "Azim",
-      "c4": "„**Flott selskap**, gjør mye for folket sitt.“",
-      "c4Author": "Monika v. B.",
-      "c5": "„De ansatte er **veldig vennlige og hjelpsomme**.“",
-      "c5Author": "Piera V.",
-      "c6": "„Kompetent team og en **fremragende kundeservice** på alle nivåer.“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Overbevis deg selv om servicen vår.",
-    "ctaText": "Har du spørsmål om PPR-rørsystemene våre, eller vil du diskutere et prosjekt med oss? Teamet vårt i Waldsolms er der for deg.",
-    "ctaBtn": "Ta kontakt nå",
-    "disclaimer": "Merknad om vurdering av anmeldelser: Anmeldelsene som vises her kommer fra vår bedriftsprofil på Google. Google oppgir: Anmeldelser blir ikke verifisert. Vi har forkortet navnene til forfatterne av personvernhensyn (GDPR)."
+    "valves_tee-90-female-thread-for-internal-valve": "T-rør 90° (innvendige gjenger) for innbyggingsventil"
   },
   "seoArticle": {
     "fittings": {
@@ -5322,7 +5196,7 @@
       "heroSubtitle": "German Engineering.",
       "heroDesc": "Kompromissløs sikkerhet for kjølevannsnettverk og klimasystemer. Når globale megaprosjekter ikke tåler nedetid, er K Aqua det eneste alternativet. Bygget for generasjoner.",
       "heroBtnPrimary": "Spesifiser prosjekt",
-      "heroBtnSecondary": "Technical Whitepaper",
+      "heroBtnSecondary": "Teknisk whitepaper",
       "section1Eyebrow": "Utfordringen",
       "section1Title": "Akilleshælen til moderne klimasystemer.",
       "section1Lead": "Konvensjonelle kjølesystemer laget av stålgjenger og pressfittings av kobber mislykkes uunngåelig på grunn av termodynamikkens og kjemiens lover. K Aqua tilbyr veien ut av syklusen av korrosjon og lekkasje.",
@@ -5654,7 +5528,7 @@
         "btnGhost": "Kontakt eksperter"
       },
       "metaTitle": "Teknisk støtte og service for PP-R rørsystemer",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Ingeniørrådgivning, applikasjonsteknikk og støtte på byggeplassen."
     },
     "downloads": {
       "title": "Nedlastinger",
@@ -5906,7 +5780,7 @@
       "list1": "Sertifisert i henhold til DIN EN ISO 15874",
       "list2": "Levetid > 50 år",
       "list3": "Vedlikeholdsfri og korrosjonsbestandig",
-      "placeholder": "Visual Asset Placeholder",
+      "placeholder": "Plassholder for visuelt innhold",
       "ctaTitle": "Klar for kompromissløs kvalitet?",
       "ctaLead": "Snakk med vårt ingeniørteam om ditt neste megaprosjekt."
     },
@@ -6496,7 +6370,7 @@
     "retry": "Prøv igjen",
     "titlePerfect": "Sveisemester",
     "titleGood": "Sveisesvenn",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Opplæringsvideoer og veiledninger"
   },
   "kontaktBlocks": {
     "home": {
@@ -7142,7 +7016,7 @@
         "desc": "PPR- og PPRCT-rør: Standard, glassfiberforsterket og UV-stabilisert, 12 serier."
       },
       "fittings": {
-        "label": "Fittings",
+        "label": "Rørdeler",
         "desc": "Muffesveis og elektrosveisefittings, d20–d125, 13 artikkelfamilier."
       },
       "transitionFittings": {
@@ -8506,57 +8380,57 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Vis produktdetaljer"
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
+    "title1": "Interaktiv",
+    "titleGrad": "kartsuite",
+    "tabHq": "Hovedkontor Waldsolms",
+    "tabRefs": "Tetthetskart",
+    "tabSpec": "Spesifikator",
+    "hqTitle": "Sentral produksjon og utviklingssenter",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, Tyskland.",
+    "registryLabel": "Foretaksregister:",
+    "phoneLabel": "Telefon:",
+    "certLabel": "Sertifisering:",
+    "directions": "Åpne ruteplanlegger",
+    "aboutPlant": "Om fabrikken i Waldsolms",
+    "sectorFilter": "Sektorfilter:",
+    "specPlaceholder": "Skriv inn sted eller by …",
+    "profileTitle": "Markeds- og logistikkprofil",
+    "profileHint": "Klikk på kartet eller søk etter en by for å utløse automatisk systemspesifikasjon og beregning av leveranseakser.",
+    "marketAssign": "Markedstilordning",
     "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "airDist": "Luftlinje (HQ)",
+    "roadDist": "Vei (estimert)",
+    "recommended": "Anbefalt rørsystem:",
+    "recUv": "UV-Protect yttermantel",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Alle sektorer",
+      "hotel": "Hotell",
+      "wohnen": "Boligbygg",
+      "infra": "Infrastruktur",
+      "klinik": "Klinikk",
+      "buero": "Kontor"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Produkter",
+      "markets-solutions": "Markeder og løsninger",
+      "academy-resources": "Academy og ressurser",
+      "company": "Selskapet"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Produktfinner for rør",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Rørdeler og fittings",
+      "valves": "Armaturer og ventiler",
+      "tools": "Verktøy og tilbehør",
+      "transition": "Overganger for rør",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8569,19 +8443,19 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Prosjektforespørsel for rørsystemer",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Nettstedskart (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Velg språket ditt",
+    "subtitle": "65 språk · snurr globusen, trykk på en region, bekreft.",
+    "searchPlaceholder": "Søk etter språk eller side …",
+    "pagesSection": "Sider og navigasjon",
+    "noResults": "Ingen språk funnet.",
+    "confirm": "Bekreft",
     "beta": "Beta",
     "globalEffect": "Applies to the entire website",
     "active": "active"
@@ -8612,5 +8486,25 @@
     "btnSending": "Sending…",
     "btnHome": "Return to Homepage",
     "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

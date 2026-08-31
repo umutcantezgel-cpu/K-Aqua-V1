@@ -13,16 +13,18 @@ test.describe("Geo Helpers Unit Tests", () => {
     test("should compute correct distance from Waldsolms to Frankfurt", () => {
       // Frankfurt coordinates: lat: 50.11, lon: 8.68
       const frankfurt = { lat: 50.11, lon: 8.68 };
-      // Waldsolms coordinates: lat: 50.37, lon: 8.51
-      // Spherical distance is approx 31.33 km, rounded should be 31 km
-      expect(haversineKm(WALDSOLMS, frankfurt)).toBe(31);
+      // Waldsolms: Koordinaten jetzt aus lib/data/standort.ts (50.418 / 8.473).
+      // Das ist der Wert, der als LocalBusiness-Geodatum veroeffentlicht war;
+      // die drei abweichenden Kopien im Code ziehen jetzt darauf.
+      // Spherical distance is approx 37.28 km, rounded should be 37 km
+      expect(haversineKm(WALDSOLMS, frankfurt)).toBe(37);
     });
 
     test("should compute correct distance from Waldsolms to London", () => {
       // London coordinates: lat: 51.51, lon: -0.13
       const london = { lat: 51.51, lon: -0.13 };
-      // Spherical distance is approx 617.7 km, rounded should be 618 km
-      expect(haversineKm(WALDSOLMS, london)).toBe(618);
+      // Spherical distance is approx 614.21 km, rounded should be 614 km
+      expect(haversineKm(WALDSOLMS, london)).toBe(614);
     });
 
     test("should be symmetric (commutative)", () => {

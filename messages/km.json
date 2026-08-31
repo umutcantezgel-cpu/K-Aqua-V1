@@ -46,30 +46,30 @@
     "edgePageIndex": "សេចក្តីទំព័រ",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "ប្រព័ន្ធបំពង់",
+      "allProducts": "ផលិតផលទាំងអស់",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "កម្មវិធីប្រើប្រាស់តាមវិស័យឧស្សាហកម្ម",
+      "digitalTools": "ឧបករណ៍ឌីជីថល",
+      "finderDesc": "កំណត់រចនាសម្ព័ន្ធប្រព័ន្ធដែលត្រឹមត្រូវ",
+      "co2Desc": "គណនាតុល្យភាពបរិស្ថាន",
+      "academyDesc": "វគ្គបណ្តុះបណ្តាល និងវិញ្ញាបនបត្រ",
+      "trustDesc": "ឯកសារទាញយក និងវិញ្ញាបនកម្ម",
+      "serviceDesc": "ការគាំទ្រផ្នែករៀបចំគម្រោង",
+      "partnersDesc": "ក្លាយជាដៃគូក្នុងតំបន់",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "ក្រុមហ៊ុន",
+      "companyDesc": "បេសកកម្ម ចក្ខុវិស័យ និងប្រវត្តិ",
+      "careerDesc": "មុខតំណែងទំនេរ និងវប្បធម៌ការងារ",
+      "newsPress": "ព័ត៌មាន និងសារព័ត៌មាន",
+      "newsDesc": "សេចក្តីប្រកាសព័ត៌មានថ្មីៗ",
+      "sitemap": "ផែនទីគេហទំព័រ",
+      "sitemapDesc": "ទិដ្ឋភាពរចនាសម្ព័ន្ធ",
+      "globalFootprint": "វត្តមានសកល",
+      "globalMarkets": "ទីផ្សារសកល",
+      "marketsDesc": "តំបន់ដែលទទួលបានវិញ្ញាបនកម្ម",
+      "refProjects": "គម្រោងយោង",
+      "refDesc": "ការដំឡើងដែលទទួលបានជោគជ័យ"
     }
   },
   "groups": {
@@ -161,7 +161,7 @@
       "eyebrow": "គុណភាពដែលបានបញ្ជាក់",
       "title1": "ប្រព័ន្ធគ្រប់គ្រង ",
       "titleHighlight": "GENAU",
-      "title2": " Management System",
+      "title2": " ប្រព័ន្ធគ្រប់គ្រង",
       "p1": "គោលបំណងនៃប្រព័ន្ធគ្រប់គ្រង GENAU គឺការកែលម្អជាបន្តបន្ទាប់នូវសុវត្ថិភាពការងារ បរិស្ថាន និងការការពារសុខភាពនៅក្នុងក្រុមហ៊ុន។",
       "p2": "សកម្មភាពក្រុមហ៊ុនទាំងអស់នៅ KWT ត្រូវបានអនុវត្តដោយគិតគូរពីការអភិរក្សធនធាន ភាពឆបគ្នានៃបរិស្ថាន និងការអនុលោមតាមយ៉ាងតឹងរ៉ឹងចំពោះកាតព្វកិច្ចទាំងអស់។ ការអនុវត្តប្រព័ន្ធគ្រប់គ្រង GENAU បំពេញតាមតម្រូវការខ្ពស់នៃ ",
       "p3": " និង ",
@@ -527,9 +527,9 @@
     "certBtn": "បង្កើតរបាយការណ៍ PDF",
     "generating": "កំពុងបង្កើត...",
     "energyGreen": "ថាមពលបៃតង",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
-    "energyGlobal": "Global-Mix",
+    "energyDe": "ល្បាយថាមពល DE",
+    "energyEu": "ល្បាយថាមពល EU",
+    "energyGlobal": "ល្បាយថាមពលសកល",
     "materials": {
       "kaqua": "K Aqua PPRCT",
       "pvc": "PVC-U",
@@ -696,51 +696,9 @@
         "lon": 8.5,
         "title": "Waldsolms ប្រទេសអាល្លឺម៉ង់",
         "d": "រោងចក្រមេ និងការអភិវឌ្ឍន៍៖ រាល់បំពង់ K Aqua ត្រូវបានផលិតនៅទីនេះ។"
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "ឌូបៃ អេមីរ៉ាតអារ៉ាប់រួម",
-        "d": "បំពង់អគារខ្ពស់៖ PPRCT សម្រាប់ទឹកក្តៅក្រោមលក្ខខណ្ឌវាលខ្សាច់។"
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "វ៉ារស្សាវ៉ា ប្រទេសប៉ូឡូញ",
-        "d": "តំបន់លំនៅដ្ឋានថ្មី៖ ការដំឡើងទឹកស្អាតពេញលេញ d20–d110។"
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "អ៊ីស្តង់ប៊ុល ប្រទេសតួកគី",
-        "d": "សណ្ឋាគារស្មុគស្មាញ៖ បណ្តាញបំពង់ចរាចរទឹកជាមួយបំពង់សរសៃអំបោះ។"
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "សិង្ហបុរី",
-        "d": "គម្រោងហេដ្ឋារចនាសម្ព័ន្ធ៖ វិមាត្រធំរហូតដល់ d630 ក្នុងដំណើរការផ្សារគែម។"
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "ទីក្រុងខេបថោន អាហ្វ្រិកខាងត្បូង",
-        "d": "មន្ទីរពេទ្យថ្មី៖ ការចែកចាយទឹកស្អាតប្រកបដោយអនាម័យ។"
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "ទីក្រុងឡុងដ៍ ចក្រភពអង់គ្លេស",
-        "d": "ការជួសជុលការិយាល័យ៖ ជំនួសបំពង់ចាស់ៗដោយសម្ភារៈគ្មានការច្រេះ។"
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "មើលគម្រោង"
   },
   "buyers": {
     "eyebrow": "សម្រាប់អ្នករៀបចំផែនការ អ្នកទិញ និងអ្នកដំឡើង",
@@ -1116,25 +1074,25 @@
     "nextTitle": "តើការរៀបចំផែនការរបស់អ្នកមានភាពស្និទ្ធស្នាលនឹងអាកាសធាតុកម្រិតណា?",
     "nextLead": "បញ្ជូនវិមាត្រ និងប្រវែងដោយផ្ទាល់ទៅម៉ាស៊ីនគណនា CO₂ ហើយប្រៀបធៀបជាមួយទង់ដែង ដែកអ៊ីណុក និង PVC។",
     "nextCta": "ទៅកាន់ម៉ាស៊ីនគណនា CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "ស្វែងរកក្នុងជួរផលិតផលពេញលេញរបស់យើងតាមប្រភេទ ឈ្មោះ ឬលេខកូដទំនិញ។",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "បំពង់",
+    "catFittings": "គ្រឿងតភ្ជាប់",
+    "catValves": "វ៉ាល់",
+    "catTools": "ឧបករណ៍",
+    "catTransitionFittings": "គ្រឿងតភ្ជាប់អន្តរកាល",
+    "catAccessories": "គ្រឿងបន្លាស់",
+    "catWeldInSaddles": "កែបផ្សារភ្ជាប់ PP-R គុណភាពខ្ពស់",
+    "category": "ប្រភេទ",
+    "search": "ស្វែងរក",
+    "searchPlaceholder": "លេខកូដទំនិញ ឬឈ្មោះ...",
+    "foundFam": "គ្រួសារផលិតផលដែលបានរកឃើញ",
+    "catalogPdf": "កាតាឡុកជា PDF",
+    "colName": "ឈ្មោះផលិតផល",
+    "colCat": "ប្រភេទ",
+    "colCodes": "លេខកូដទំនិញ",
+    "noResultsText": "យើងរកមិនឃើញផលិតផលដែលត្រូវនឹងលក្ខខណ្ឌស្វែងរករបស់អ្នកទេ។ សូមសាកល្បងពាក្យផ្សេង ឬប្តូរប្រភេទ។",
+    "resetFilters": "កំណត់តម្រងឡើងវិញ"
   },
   "notFound": {
     "title": "រកមិនឃើញទំព័រ",
@@ -1599,14 +1557,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "តំណរផ្សារអែប (IG)",
     "weld-in-saddles_weld-in-saddle-male-thread": "តំណរផ្សារអែប (AG)",
     "weld-in-saddles_weld-in-saddle": "តំណរផ្សារអែប",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "ផ្លង់ស៍រង PP-ដែក (SF/BF)",
+    "fittings_cross-over-with-socket": "កែងរំលងបំពង់ PP-R ជាមួយស៊ុប",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "ម៉ាស៊ីនផ្សារដៃ d20-d32",
+    "tools_pipe-cutter-50125": "កាំបិតកាត់បំពង់ d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "តេ 90° (ខ្សែស្រីខាងក្នុង) សម្រាប់វ៉ាល់ក្នុងជញ្ជាំង"
   },
   "catalogx": {
     "items": {
@@ -2992,7 +2950,7 @@
     "similar": {
       "title": "បន្ថែមពី {category}"
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "បង្ហាញព័ត៌មានលម្អិតផលិតផល"
   },
   "productsx": {
     "pipesEyebrow": "បំពង់",
@@ -3243,8 +3201,7 @@
         "d": "អនាម័យគឺមិនអាចចរចាបាននៅទីនេះ៖ ផ្ទៃខាងក្នុងរលោង (0.007 ម.ម) ទប់ស្កាត់ជីវហ្វីល និងការកកកុញ សម្ភារៈនៅតែគ្មានរសជាតិ និងគ្មានក្លិន។",
         "pts": [
           "អព្យាក្រឹតភាពអនាម័យ",
-          "គ្មានការច្រេះ៖ គ្មានការរលួយ",
-          "ឯកសារយោង៖ អគារមន្ទីរពេទ្យថ្មីនៅ Cape Town"
+          "គ្មានការច្រេះ៖ គ្មានការរលួយ"
         ]
       },
       {
@@ -3252,8 +3209,7 @@
         "d": "ចរាចរទឹកក្តៅ 24 ម៉ោងជារៀងរាល់ថ្ងៃ៖ ចរន្តកំដៅទាបសន្សំថាមពលជាអចិន្ត្រៃយ៍, PPRCT រក្សាបាននូវប្រតិបត្តិការបន្ត 70 °C ។",
         "pts": [
           "ប្រសិទ្ធភាពកម្ដៅ",
-          "PPRCT សម្រាប់ចរាចរ",
-          "ឯកសារយោង៖ បរិវេណសណ្ឋាគារ Istanbul"
+          "PPRCT សម្រាប់ចរាចរ"
         ]
       },
       {
@@ -3270,8 +3226,7 @@
         "d": "កំណែការពារកាំរស្មីយូវីសម្រាប់ប្រព័ន្ធធារាសាស្រ្តក្រោម កញ្ចក់ និងខាងក្រៅ៖ ស្រាល រហ័សក្នុងការដំឡើង ធន់នឹងការកកជាងប្រព័ន្ធរឹង។",
         "pts": [
           "កំណែធន់នឹងកាំរស្មីយូវី",
-          "ទម្ងន់ស្រាល",
-          "វិស័យពីកម្មវិធីឯកសារយោង"
+          "ទម្ងន់ស្រាល"
         ]
       },
       {
@@ -3279,8 +3234,7 @@
         "d": "ខ្សែផ្គត់ផ្គង់ និងបណ្តាញក្នុងទំហំធំរហូតដល់ d630៖ ផ្សារទល់មុខទៅជាខ្សែតឹងណែន ឯកសណ្ឋាន និងប្រើប្រាស់បានយូរ។",
         "pts": [
           "d រហូតដល់ 630 mm",
-          "ការផ្សារទល់មុខ (Butt Fusion)",
-          "ឯកសារយោង៖ ហេដ្ឋារចនាសម្ព័ន្ធសិង្ហបុរី"
+          "ការផ្សារទល់មុខ (Butt Fusion)"
         ]
       },
       {
@@ -3401,53 +3355,6 @@
         "d": "លេខកូដកែច្នៃទី 5៖ អាចបំបែកបានដោយសុទ្ធ ជាមួយនឹងតម្រូវការខ្ពស់សម្រាប់ PP កែច្នៃឡើងវិញ។ 100% នៃសំណល់កាត់ និងកាកសំណល់ផលិតកម្មត្រូវបានកែច្នៃឡើងវិញ។"
       }
     ]
-  },
-  "customerReviews": {
-    "eyebrow": "គុណភាពដែលភ្ជាប់",
-    "title": "អ្វីដែលអតិថិជន និងដៃគូរបស់យើងនិយាយ",
-    "lead": "តាំងពីក្រុមហ៊ុនសំណង់ ក្រុមហ៊ុនដឹកជញ្ជូន រហូតដល់បុគ្គលិកយូរអង្វែង៖ K Aqua KWT GmbH តំណាងឱ្យភាពជាក់លាក់ខ្ពស់បំផុតពី Waldsolms។",
-    "trustBadge": "ការពិនិត្យ Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(ផ្អែកលើការវាយតម្លៃ 44)",
-    "tabA": "គុណភាព & „Made in Germany“",
-    "tabB": "ភស្តុភារ & ការដឹកជញ្ជូន",
-    "tabC": "សេវាកម្មអតិថិជន & ក្រុមការងារ",
-    "reviews": {
-      "a1": "„រោងចក្រមួយនៅ Waldsolms ប្រទេសអាល្លឺម៉ង់ ដែលមានឯកទេសលើបំពង់ PPR និងសមាសភាគ **Made in Germany**។ បុគ្គលិកឆ្នើម។“",
-      "a1Author": "Giulio C.",
-      "a2": "„**គុណភាពអាល្លឺម៉ង់** នៅក្នុងការเคลือบ PPR និងវ៉ាល់ បុគ្គលិករួសរាយរាក់ទាក់។“",
-      "a2Author": "Veronica P.",
-      "a3": "„**ក្រុមហ៊ុនទំនើប**។ ផលិតបំពង់ផ្លាស្ទិចគ្រប់ទំហំ និងគ្រឿងបន្លាស់។“",
-      "a3Author": "Ewald S.",
-      "a4": "„បំពង់ PPR និងសមាសភាគពី **ផលិតកម្មអាល្លឺម៉ង់** បុគ្គលិក និងផលិតផលឆ្នើម។“",
-      "a4Author": "Kais S.",
-      "a5": "„**ផលិតផលគុណភាពខ្ពស់** និងរោងចក្រអាល្លឺម៉ង់កំពូល។“",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "„ផលិតផលល្អណាស់ **គុណភាពគួរឱ្យទុកចិត្ត** និងការដឹកជញ្ជូនទាន់ពេលវេលា។“",
-      "a6Author": "Klaus T.",
-      "b1": "„**ការចុះទំនិញលឿន**។ ការប្រាស្រ័យទាក់ទងល្អ។“",
-      "b1Author": "Michael S.",
-      "b2": "„ទីតាំងគឺ **50.428210, 8.499154**។ បុគ្គលិករួសរាយរាក់ទាក់។“",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "„**ការចុះទំនិញលឿន** បុគ្គលិករួសរាយ និងយកចិត្តទុកដាក់។“",
-      "b3Author": "Bogdan M.",
-      "c1": "„**សេវាកម្មល្អណាស់** អស្ចារ្យដែលនៅតែផលិតនៅអាល្លឺម៉ង់។“",
-      "c1Author": "Daniel",
-      "c2": "„បុគ្គលិក **រួសរាយរាក់ទាក់ខ្លាំង**។ អ៊ីមែលត្រូវបាន **ឆ្លើយតបភ្លាមៗ**។“",
-      "c2Author": "Mohamed M.",
-      "c3": "„ចាប់ពីប្រធានក្រុមហ៊ុនរហូតដល់កម្មករធម្មតា៖ ពួកគេជា **មនុស្សល្អ**។“",
-      "c3Author": "Azim",
-      "c4": "„**ក្រុមហ៊ុនអស្ចារ្យ** ធ្វើរឿងល្អៗច្រើនសម្រាប់បុគ្គលិករបស់ពួកគេ។“",
-      "c4Author": "Monika v. B.",
-      "c5": "„បុគ្គលិកគឺ **រួសរាយរាក់ទាក់និងយកចិត្តទុកដាក់ខ្លាំង**។“",
-      "c5Author": "Piera V.",
-      "c6": "„ក្រុមការងារមានសមត្ថភាព និង **សេវាកម្មអតិថិជនឆ្នើម** គ្រប់កម្រិត។“",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "បញ្ជាក់សេវាកម្មរបស់យើងដោយខ្លួនអ្នកផ្ទាល់។",
-    "ctaText": "មានសំណួរអំពីប្រព័ន្ធបំពង់ PPR របស់យើងទេ? ក្រុមការងាររបស់យើងនៅ Waldsolms នៅទីនេះដើម្បីជួយ។",
-    "ctaBtn": "ទាក់ទងឥឡូវនេះ",
-    "disclaimer": "ចំណាំស្តីពីការវាយតម្លៃ៖ ការវាយតម្លៃទាំងនេះបានមកពីទម្រង់អាជីវកម្ម Google របស់យើង។ យើងបានអក្សរកាត់ឈ្មោះអ្នកនិពន្ធសម្រាប់ហេតុផលឯកជនភាព (GDPR)។"
   },
   "kontaktBlocks": {
     "home": {
@@ -5046,37 +4953,6 @@
           }
         ]
       },
-      "timeline": {
-        "title": "ដំណើរការ",
-        "desc": "ការរៀបចំ",
-        "items": [
-          {
-            "year": "1",
-            "title": "ការរចនា",
-            "text": "រចនាឡើងយ៉ាងល្អ។"
-          },
-          {
-            "year": "x",
-            "title": "x",
-            "text": "x"
-          },
-          {
-            "year": "x",
-            "title": "x",
-            "text": "x"
-          },
-          {
-            "year": "x",
-            "title": "x",
-            "text": "x"
-          },
-          {
-            "year": "x",
-            "title": "x",
-            "text": "x"
-          }
-        ]
-      },
       "scroll": {
         "items": [
           {
@@ -5173,10 +5049,6 @@
             "desc": "x"
           }
         ]
-      },
-      "timelineSection": {
-        "title": "x",
-        "desc": "x"
       },
       "research": {
         "eyebrow": "x",
@@ -6220,7 +6092,7 @@
     "titleGood": "អ្នកចេះដឹង",
     "eyebrow": "x",
     "lead": "x",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "វីដេអូបណ្តុះបណ្តាល និងការណែនាំ"
   },
   "geoContent": {
     "dach": {
@@ -8160,7 +8032,7 @@
         "btnGhost": "x"
       },
       "metaTitle": "x",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "ការប្រឹក្សាវិស្វកម្ម បច្ចេកវិទ្យាអនុវត្ត និងការគាំទ្រនៅការដ្ឋាន។"
     },
     "downloads": {
       "title": "x",
@@ -8975,53 +8847,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "អន្តរកម្ម",
+    "titleGrad": "ឈុតផែនទី",
+    "tabHq": "ទីស្នាក់ការកណ្តាល Waldsolms",
+    "tabRefs": "ផែនទីភាពជិត",
+    "tabSpec": "ឧបករណ៍កំណត់លក្ខណៈ",
+    "hqTitle": "មជ្ឈមណ្ឌលផលិតកម្ម និងអភិវឌ្ឍន៍កណ្តាល",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, អាល្លឺម៉ង់។",
+    "registryLabel": "តុលាការចុះបញ្ជីពាណិជ្ជកម្ម៖",
+    "phoneLabel": "ទូរស័ព្ទ៖",
+    "certLabel": "វិញ្ញាបនកម្ម៖",
+    "directions": "បើកកម្មវិធីរៀបចំផ្លូវ",
+    "aboutPlant": "អំពីរោងចក្រ Waldsolms",
+    "sectorFilter": "តម្រងតាមវិស័យ៖",
+    "specPlaceholder": "បញ្ចូលទីតាំង ឬទីក្រុង…",
+    "profileTitle": "ប្រវត្តិរូបទីផ្សារ និងភស្តុភារ",
+    "profileHint": "ចុចលើផែនទី ឬស្វែងរកទីក្រុងណាមួយ ដើម្បីចាប់ផ្តើមការកំណត់លក្ខណៈប្រព័ន្ធដោយស្វ័យប្រវត្តិ និងការគណនាអ័ក្សដឹកជញ្ជូន។",
+    "marketAssign": "ការចាត់តាំងទីផ្សារ",
+    "normLabel": "ស្តង់ដារ៖",
+    "airDist": "ចម្ងាយត្រង់ (HQ)",
+    "roadDist": "ផ្លូវគោក (ប៉ាន់ស្មាន)",
+    "recommended": "ប្រព័ន្ធបំពង់ដែលបានណែនាំ៖",
+    "recUv": "ស្រទាប់ខាងក្រៅ UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "គ្រប់វិស័យ",
+      "hotel": "សណ្ឋាគារ",
+      "wohnen": "លំនៅឋាន",
+      "infra": "ហេដ្ឋារចនាសម្ព័ន្ធ",
+      "klinik": "គ្លីនិក",
+      "buero": "ការិយាល័យ"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "ផលិតផល",
+      "markets-solutions": "ទីផ្សារ និងដំណោះស្រាយ",
+      "academy-resources": "Academy និងធនធាន",
+      "company": "ក្រុមហ៊ុន"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "ឧបករណ៍ស្វែងរកផលិតផលបំពង់",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "គ្រឿងតភ្ជាប់ និងសមាសធាតុ",
+      "valves": "វ៉ាល់ និងក្បាលរ៉ូប៊ីណេ",
+      "tools": "ឧបករណ៍ និងគ្រឿងបន្លាស់",
+      "transition": "គ្រឿងអន្តរកាលសម្រាប់បំពង់",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -9034,48 +8906,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "សំណើគម្រោងសម្រាប់ប្រព័ន្ធបំពង់",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "ផែនទីគេហទំព័រ (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "ជ្រើសរើសភាសារបស់អ្នក",
+    "subtitle": "65 ភាសា · បង្វិលផែនដី ចុចលើតំបន់ រួចបញ្ជាក់។",
+    "searchPlaceholder": "ស្វែងរកភាសា ឬទំព័រ…",
+    "pagesSection": "ទំព័រ និងការរុករក",
+    "noResults": "រកមិនឃើញភាសាទេ។",
+    "confirm": "បញ្ជាក់",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "អនុវត្តចំពោះគេហទំព័រទាំងមូល",
+    "active": "កំពុងប្រើ"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "តើយើងអាចជួយអ្នកយ៉ាងដូចម្តេច?",
+    "step1Desc": "ជ្រើសរើសផ្នែកដែលសមស្របសម្រាប់សំណើរបស់អ្នក។",
+    "optSales": "ផ្នែកលក់ និងគម្រោង",
+    "optSalesDesc": "សំណើតម្លៃ គម្រោងធំៗ និងរយៈពេលដឹកជញ្ជូន។",
+    "optTech": "ជំនួយបច្ចេកទេស",
+    "optTechDesc": "លក្ខណៈបច្ចេកទេស ការដំឡើង និងការរចនាប្រព័ន្ធ។",
+    "optOther": "សំណើទូទៅ",
+    "optOtherDesc": "ទីផ្សារ អាជីព ឬប្រធានបទផ្សេងៗ។",
+    "step2Title": "ព័ត៌មានលម្អិតអំពីសំណើរបស់អ្នក",
+    "step2Desc": "សូមពិពណ៌នាដោយសង្ខេបអំពីគម្រោង ឬសំណួររបស់អ្នក។",
+    "messagePlaceholder": "សាររបស់អ្នកមកកាន់យើង...",
+    "step3Title": "ព័ត៌មានទំនាក់ទំនងរបស់អ្នក",
+    "step3Desc": "ជិតរួចរាល់ហើយ! តើយើងអាចទាក់ទងអ្នកតាមរបៀបណា?",
+    "nameLabel": "ឈ្មោះពេញ",
+    "companyLabel": "ក្រុមហ៊ុន / អង្គភាព",
+    "emailLabel": "អាសយដ្ឋានអ៊ីមែល",
+    "phoneLabel": "លេខទូរស័ព្ទ",
+    "step4Title": "សារត្រូវបានផ្ញើ!",
+    "step4Desc": "សូមអរគុណចំពោះសំណើរបស់អ្នក។ អ្នកជំនាញរបស់យើងម្នាក់នឹងទាក់ទងអ្នកក្នុងពេលឆាប់ៗនេះ។",
+    "btnNext": "បន្ទាប់",
+    "btnBack": "ថយក្រោយ",
+    "btnSubmit": "ផ្ញើសំណើ",
+    "btnSending": "កំពុងផ្ញើ…",
+    "btnHome": "ត្រឡប់ទៅទំព័រដើម",
+    "sendError": "ការផ្ញើបានបរាជ័យ។ សូមព្យាយាមម្តងទៀត ឬទូរស័ព្ទមកយើងដោយផ្ទាល់៖ +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

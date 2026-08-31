@@ -11,6 +11,22 @@ class FakeCtx {
   createImageData(w: number, h: number) {
     return { data: new Uint8ClampedArray(w * h * 4), width: w, height: h };
   }
+  /**
+   * Rueckgabe eines leeren Bildes statt eines Fehlers.
+   *
+   * `embossTexture()` in kaqua-3d/core/materials.js rastert den Schriftzug
+   * „Made in Germany" mit fillText und liest ihn hier wieder aus, um daraus
+   * ein Hoehenfeld zu machen. Ohne diese Methode bricht der Bau JEDES
+   * Spritzgussteils ab.
+   *
+   * Im Test bleibt die Praegung wirkungslos: `fillText` ist eine leere
+   * Funktion, das gelesene Bild also schwarz, und die abgeleitete Normalmap
+   * flach. Das ist beabsichtigt — geprueft wird hier Geometrie, nicht Optik.
+   * Die Praegung selbst wird im Browser begutachtet.
+   */
+  getImageData(_x: number, _y: number, w: number, h: number) {
+    return { data: new Uint8ClampedArray(w * h * 4), width: w, height: h };
+  }
   putImageData() {}
   fillRect() {}
   clearRect() {}
@@ -36,6 +52,9 @@ class FakeCtx {
   set lineWidth(_v: unknown) {}
   set font(_v: unknown) {}
   set globalAlpha(_v: unknown) {}
+  set textAlign(_v: unknown) {}
+  set textBaseline(_v: unknown) {}
+  set letterSpacing(_v: unknown) {}
 }
 
 class FakeCanvas {

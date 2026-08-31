@@ -46,30 +46,30 @@
     "edgePageIndex": "Ευρετήριο σελίδας",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Συστήματα σωληνώσεων",
+      "allProducts": "Όλα τα προϊόντα",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Εφαρμογές ανά κλάδο",
+      "digitalTools": "Ψηφιακά εργαλεία",
+      "finderDesc": "Διαμορφώστε το κατάλληλο σύστημα",
+      "co2Desc": "Υπολογισμός περιβαλλοντικού αποτυπώματος",
+      "academyDesc": "Εκπαιδεύσεις & πιστοποιητικά",
+      "trustDesc": "Λήψεις & πιστοποιήσεις",
+      "serviceDesc": "Υποστήριξη μελέτης",
+      "partnersDesc": "Γίνετε τοπικός συνεργάτης",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Η εταιρεία",
+      "companyDesc": "Αποστολή, όραμα & ιστορία",
+      "careerDesc": "Ανοιχτές θέσεις & κουλτούρα",
+      "newsPress": "Νέα & Τύπος",
+      "newsDesc": "Πρόσφατα δελτία Τύπου",
+      "sitemap": "Χάρτης ιστότοπου",
+      "sitemapDesc": "Επισκόπηση δομής",
+      "globalFootprint": "Παγκόσμιο αποτύπωμα",
+      "globalMarkets": "Παγκόσμιες αγορές",
+      "marketsDesc": "Πιστοποιημένες περιοχές",
+      "refProjects": "Έργα αναφοράς",
+      "refDesc": "Επιτυχημένες εγκαταστάσεις"
     }
   },
   "groups": {
@@ -233,7 +233,7 @@
     "colContact": "Επικοινωνία",
     "directions": "Οδηγίες & Τοποθεσία",
     "rights": "Με την επιφύλαξη παντός δικαιώματος.",
-    "imprint": "Impressum",
+    "imprint": "Στοιχεία έκδοσης",
     "privacy": "Πολιτική Απορρήτου",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
@@ -360,7 +360,7 @@
   },
   "imprint": {
     "eyebrow": "Νομικά",
-    "title": "Impressum",
+    "title": "Στοιχεία έκδοσης",
     "rows": [
       [
         "Εταιρεία",
@@ -423,25 +423,25 @@
     "nextTitle": "Πόσο φιλικός προς το κλίμα είναι ο σχεδιασμός σας;",
     "nextLead": "Μεταφέρετε τη διάσταση και το μήκος απευθείας στον Υπολογιστή CO₂ και συγκρίνετε με χαλκό, ανοξείδωτο χάλυβα και PVC.",
     "nextCta": "Προς τον Υπολογιστή CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Αναζητήστε στην πλήρη γκάμα προϊόντων μας ανά κατηγορία, όνομα ή κωδικό είδους.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Σωλήνες",
+    "catFittings": "Εξαρτήματα",
+    "catValves": "Βάνες & βαλβίδες",
+    "catTools": "Εργαλεία",
+    "catTransitionFittings": "Εξαρτήματα μετάβασης",
+    "catAccessories": "Παρελκόμενα",
+    "catWeldInSaddles": "Σέλα ηλεκτροσυγκόλλησης PP-R υψηλής ποιότητας",
+    "category": "Κατηγορία",
+    "search": "Αναζήτηση",
+    "searchPlaceholder": "Κωδικός είδους ή όνομα...",
+    "foundFam": "οικογένειες προϊόντων βρέθηκαν",
+    "catalogPdf": "Κατάλογος σε PDF",
+    "colName": "Όνομα προϊόντος",
+    "colCat": "Κατηγορία",
+    "colCodes": "Κωδικοί ειδών",
+    "noResultsText": "Δεν βρέθηκαν προϊόντα που να αντιστοιχούν στα κριτήρια αναζήτησής σας. Δοκιμάστε έναν διαφορετικό όρο ή αλλάξτε κατηγορία.",
+    "resetFilters": "Επαναφορά φίλτρων"
   },
   "trustAndCases": {
     "eyebrow": "Πιστοποιημένη Ασφάλεια",
@@ -473,51 +473,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Γερμανία",
         "d": "Κεντρικό εργοστάσιο & ανάπτυξη: εδώ δημιουργείται κάθε σωλήνας K Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Ντουμπάι, ΗΑΕ",
-        "d": "Σωληνώσεις πολυώροφων κτιρίων: PPRCT για ζεστό νερό σε συνθήκες ερήμου."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Βαρσοβία, Πολωνία",
-        "d": "Νέα οικιστική περιοχή: πλήρης εγκατάσταση πόσιμου νερού d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Κωνσταντινούπολη, Τουρκία",
-        "d": "Ξενοδοχειακό συγκρότημα: γραμμές κυκλοφορίας με ενισχυμένους σωλήνες."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Σιγκαπούρη",
-        "d": "Έργο υποδομής: Μεγάλες διαστάσεις έως d630 με μετωπική συγκόλληση."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Κέιπ Τάουν, Νότια Αφρική",
-        "d": "Κατασκευή νέου νοσοκομείου: υγιεινή διανομή πόσιμου νερού."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Λονδίνο, ΗΒ",
-        "d": "Ανακαίνιση γραφείων: αντικατάσταση παλαιών σωληνώσεων χωρίς διάβρωση."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Προβολή έργου"
   },
   "buyers": {
     "eyebrow": "Για Μελετητές, Αγοραστές & Εγκαταστάτες",
@@ -1318,7 +1276,7 @@
     "insulation": "Μόνωση",
     "insulationNone": "Καμία",
     "insulationBasic": "Βασική",
-    "insulationStandard": "Standard EnEV",
+    "insulationStandard": "Πρότυπο EnEV",
     "insulationPremium": "Premium",
     "installMethod": "Μέθοδος εγκατάστασης (A5)",
     "installBuilding": "Εγκατάσταση κτιρίου",
@@ -2243,7 +2201,7 @@
       "form": {
         "firstName": "Όνομα",
         "lastName": "Επώνυμο",
-        "email": "E-Mail",
+        "email": "E-mail",
         "phone": "Τηλέφωνο",
         "startDate": "Νωρίτερη δυνατή ημερομηνία έναρξης",
         "uploadTitle": "Μεταφόρτωση PDF",
@@ -2436,61 +2394,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Σέλα Συγκόλλησης Θηλυκή",
     "weld-in-saddles_weld-in-saddle-male-thread": "Σέλα Συγκόλλησης Αρσενική",
     "weld-in-saddles_weld-in-saddle": "Σέλα Συγκόλλησης",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Ελεύθερη φλάντζα PP-χάλυβα (SF/BF)",
+    "fittings_cross-over-with-socket": "Καμπύλη παράκαμψης PP-R με μούφα",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Συσκευή συγκόλλησης χειρός d20-d32",
+    "tools_pipe-cutter-50125": "Σωληνοκόφτης d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Ποιότητα που ενώνει",
-    "title": "Τι λένε οι πελάτες και οι συνεργάτες μας",
-    "lead": "Από κατασκευαστές και εταιρείες μεταφορών μέχρι μακροχρόνιους υπαλλήλους: Η K Aqua KWT GmbH αντιπροσωπεύει την ύψιστη ακρίβεια από το Waldsolms. Διαβάστε μόνοι σας τις εμπειρίες των ανθρώπων με την εξυπηρέτηση και τα προϊόντα μας «Made in Germany».",
-    "trustBadge": "Κριτικές Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Βάσει 44 κριτικών)",
-    "tabA": "Ποιότητα & „Made in Germany“",
-    "tabB": "Logistics & Παράδοση",
-    "tabC": "Εξυπηρέτηση Πελατών & Ομάδα",
-    "reviews": {
-      "a1": "«Ένα εργοστάσιο στο Waldsolms, Γερμανία, που ειδικεύεται σε σωλήνες και εξαρτήματα PPR **Made in Germany**. Εξαιρετικό προσωπικό.»",
-      "a1Author": "Giulio C.",
-      "a2": "«**Γερμανική ποιότητα** σε επιστρώσεις και εξαρτήματα PPR, πολύ φιλικό προσωπικό.»",
-      "a2Author": "Veronica P.",
-      "a3": "«**Σύγχρονη εταιρεία**. Παράγει πλαστικούς σωλήνες όλων των μεγεθών και αξεσουάρ.»",
-      "a3Author": "Ewald S.",
-      "a4": "«Σωλήνες και εξαρτήματα PPR **γερμανικής κατασκευής**, εξαιρετικοί υπάλληλοι και προϊόντα.»",
-      "a4Author": "Kais S.",
-      "a5": "«**Προϊόντα υψηλής ποιότητας** και ένα κορυφαίο γερμανικό εργοστάσιο.»",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "«Πολύ καλά προϊόντα, **αξιόπιστη ποιότητα** και έγκαιρη παράδοση.»",
-      "a6Author": "Klaus T.",
-      "b1": "«Πολύ ευγενική προσέγγιση, **γρήγορη εκφόρτωση**. Μου επέτρεψαν να κάνω το μεγάλο μου διάλειμμα εδώ. Μου πρόσφεραν επίσης ντους και τουαλέτα. Ως οδηγός φορτηγού αισθάνεσαι **εκτιμημένος** εδώ. Θα επιστρέψω με χαρά.»",
-      "b1Author": "Michael S.",
-      "b2": "«Οι τρέχουσες συντεταγμένες της εισόδου είναι **50.428210, 8.499154**. Περίπου 100 μέτρα μακριά υπάρχει χώρος στάθμευσης. Φιλικό προσωπικό.»",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "«**Γρήγορη εκφόρτωση**, φιλικό και εξυπηρετικό προσωπικό.»",
-      "b3Author": "Bogdan M.",
-      "c1": "«**Πολύ καλή εξυπηρέτηση**, υπέροχο που εξακολουθούν να παράγονται στη Γερμανία.»",
-      "c1Author": "Daniel",
-      "c2": "«**Πολύ φιλικό** και εξυπηρετικό προσωπικό. Τα email απαντώνται **άμεσα**.»",
-      "c2Author": "Mohamed M.",
-      "c3": "«Από τον πρόεδρο μέχρι τους απλούς εργάτες: είναι **καλοί άνθρωποι**.»",
-      "c3Author": "Azim",
-      "c4": "«**Σπουδαία εταιρεία**, κάνει πολλά για τους ανθρώπους της.»",
-      "c4Author": "Monika v. B.",
-      "c5": "«Το προσωπικό είναι **πολύ φιλικό και εξυπηρετικό**.»",
-      "c5Author": "Piera V.",
-      "c6": "«Ικανή ομάδα και **εξαιρετική υποστήριξη πελατών** σε όλα τα επίπεδα.»",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Πειστείτε μόνοι σας για τις υπηρεσίες μας.",
-    "ctaText": "Έχετε ερωτήσεις σχετικά με τα συστήματα σωληνώσεων PPR ή θέλετε να συζητήσουμε ένα έργο; Η ομάδα μας από το Waldsolms είναι εδώ για εσάς.",
-    "ctaBtn": "Επικοινωνήστε Τώρα",
-    "disclaimer": "Σημείωση για την επαλήθευση των κριτικών: Οι κριτικές που εμφανίζονται εδώ προέρχονται από το Εταιρικό μας Προφίλ Google. Η Google δηλώνει: Οι κριτικές δεν επαληθεύονται. Έχουμε συντομεύσει τα ονόματα των συντακτών για λόγους προστασίας δεδομένων (GDPR)."
+    "valves_tee-90-female-thread-for-internal-valve": "Ταυ 90° (εσωτερικό σπείρωμα) για χωνευτή βαλβίδα"
   },
   "seoExpansion": {
     "t1": "Συστήματα Σωληνώσεων Υψηλής Απόδοσης & Διαχείριση Ρευστών",
@@ -3716,7 +3627,7 @@
     ],
     "fName": "Όνομα",
     "fCompany": "Εταιρεία",
-    "fEmail": "E-Mail",
+    "fEmail": "E-mail",
     "fPhone": "Τηλέφωνο",
     "fMsg": "Μήνυμα (προαιρετικό)",
     "privacy": "Υποβάλλοντας, ανοίγετε ένα προσυμπληρωμένο email προς το info@k-aqua.de. Κανένα δεδομένο δεν αποθηκεύεται σε αυτόν τον ιστότοπο.",
@@ -4330,8 +4241,7 @@
         "d": "Η υγιεινή δεν είναι διαπραγματεύσιμη εδώ: Η λεία εσωτερική επιφάνεια (0,007 mm) αναστέλλει το βιοφίλμ και τις επικαθίσεις, ενώ το υλικό παραμένει άγευστο και άοσμο.",
         "pts": [
           "Υγιεινή ουδετερότητα",
-          "Χωρίς διάβρωση",
-          "Αναφορά: Νέο Νοσοκομείο Κέιπ Τάουν"
+          "Χωρίς διάβρωση"
         ]
       },
       {
@@ -4339,8 +4249,7 @@
         "d": "Κυκλοφορία ζεστού νερού όλο το 24ωρο: η χαμηλή θερμική αγωγιμότητα εξοικονομεί μόνιμα ενέργεια, ο σωλήνας PPRCT αντέχει 70 °C σε συνεχή λειτουργία.",
         "pts": [
           "Θερμική απόδοση",
-          "PPRCT για κυκλοφορία",
-          "Αναφορά: Ξενοδοχειακό συγκρότημα Κωνσταντινούπολης"
+          "PPRCT για κυκλοφορία"
         ]
       },
       {
@@ -4357,8 +4266,7 @@
         "d": "Παραλλαγές σταθεροποιημένες στην υπεριώδη ακτινοβολία (UV) για άρδευση (εξωτερική ή θερμοκηπίου): ελαφριές, γρήγορη εγκατάσταση, λιγότερο ευαίσθητες στον παγετό από τα άκαμπτα συστήματα.",
         "pts": [
           "Έκδοση ανθεκτική στην UV",
-          "Χαμηλό βάρος",
-          "Πεδίο εφαρμογής από το πρόγραμμα αναφορών"
+          "Χαμηλό βάρος"
         ]
       },
       {
@@ -4366,8 +4274,7 @@
         "d": "Γραμμές τροφοδοσίας και δίκτυα σε μεγάλες διαστάσεις έως d630: μετωπική συγκόλληση για ομοιογενείς, μόνιμα στεγανές γραμμές.",
         "pts": [
           "d έως 630 mm",
-          "Μετωπική συγκόλληση (Butt Fusion)",
-          "Αναφορά: Υποδομές Σιγκαπούρης"
+          "Μετωπική συγκόλληση (Butt Fusion)"
         ]
       },
       {
@@ -4832,39 +4739,6 @@
             "unit": " ",
             "title": "Προσπάθεια Συντήρησης",
             "desc": "Εγκαταστήστε, σφραγίστε και ξεχάστε το για πάντα."
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "Αναφορές που γράφουν ιστορία.",
-        "desc": "Από τεχνητά νησιά στον Περσικό Κόλπο μέχρι τα πιο αποκλειστικά χιονοδρομικά κέντρα των Άλπεων. Όπου χτίζεται το αδύνατο, η K Aqua είναι ήδη εκεί."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Ντουμπάι",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Εξοπλισμός 800 σουιτών και 4 τεράστιων τοπίων πισίνας. Η ακραία αλατότητα και οι θερμοκρασίες περιβάλλοντος έως και 50°C απαιτούσαν μέγιστη θερμική και χημική αντοχή. Η K Aqua παρέδωσε ολόκληρο το δίκτυο κρύου και ζεστού νερού, συμπεριλαμβανομένης της σύνδεσης District Cooling."
-          },
-          {
-            "year": "Ελβετία",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Ένα θέρετρο 6 αστέρων σε υψόμετρο 2.000 μέτρων. Η πρόκληση: Ακραίος κίνδυνος παγετού κατά τη φάση της κατασκευής και μέγιστες απαιτήσεις για ηχομόνωση. Οι σύνθετοι σωλήνες ινών PP-R απορρόφησαν τις θερμικές γραμμικές διαστολές με σιγουριά και εγγυήθηκαν αθόρυβη λειτουργία."
-          },
-          {
-            "year": "Σιγκαπούρη",
-            "title": "Vertical Forest Hotel",
-            "text": "Ένα 65όροφο αριστούργημα οικολογικής αρχιτεκτονικής. Το πολύπλοκο σύστημα άρδευσης για χιλιάδες φυτά μπαλκονιών, καθώς και ολόκληρη η υποδομή πόσιμου νερού υλοποιήθηκαν με την K Aqua. Η τεχνολογία ομοιογενούς συγκόλλησης προστάτεψε το κτίριο από μικροσκοπικές διαρροές."
-          },
-          {
-            "year": "Μαλδίβες",
-            "title": "Zero-Emission Island Resort",
-            "text": "Χτισμένο ακριβώς πάνω από τον ύφαλο, απαιτούνταν απόλυτη περιβαλλοντική συμβατότητα. Οι σωλήνες K Aqua είναι 100% ανακυκλώσιμοι, δεν εκπέμπουν μικροπλαστικά ή βαρέα μέταλλα και αντέχουν τον εξαιρετικά διαβρωτικό αλμυρό αέρα της θάλασσας χωρίς καμία φθορά."
-          },
-          {
-            "year": "Μέλλον",
-            "title": "Το επόμενο σας Megaproject",
-            "text": "Τα όρια της αρχιτεκτονικής μετατοπίζονται καθημερινά. Είμαστε έτοιμοι να ρίξουμε τα θεμέλια για τα πιο τολμηρά σας οράματα. Με τεχνολογία δεκαετίες μπροστά από την εποχή της."
           }
         ]
       },
@@ -5842,7 +5716,7 @@
         "button": "Έναρξη Ενημέρωσης Μηχανικών"
       }
     },
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Εκπαιδευτικά βίντεο και οδηγίες"
   },
   "resources": {
     "support": {
@@ -5979,7 +5853,7 @@
         "btnGhost": "Βρείτε Συνεργάτη"
       },
       "metaTitle": "Τεχνική Υποστήριξη | K-Aqua",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Τεχνικές συμβουλές μηχανικών, τεχνολογία εφαρμογών και επιτόπια υποστήριξη."
     },
     "downloads": {
       "title": "Κέντρο Λήψεων (Downloads)",
@@ -7737,7 +7611,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Προβολή λεπτομερειών προϊόντος"
   },
   "products": {
     "narrative": {
@@ -8579,53 +8453,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Διαδραστική",
+    "titleGrad": "Σουίτα χαρτών",
+    "tabHq": "Έδρα Waldsolms",
+    "tabRefs": "Χάρτης στεγανότητας",
+    "tabSpec": "Προδιαγραφέας",
+    "hqTitle": "Κεντρική παραγωγή & κέντρο ανάπτυξης",
+    "hqAddress": "Waldsolms Brandoberndorf, Έσση, Γερμανία.",
+    "registryLabel": "Εμπορικό μητρώο:",
+    "phoneLabel": "Τηλέφωνο:",
+    "certLabel": "Πιστοποίηση:",
+    "directions": "Άνοιγμα οδηγιών διαδρομής",
+    "aboutPlant": "Σχετικά με το εργοστάσιο Waldsolms",
+    "sectorFilter": "Φίλτρο τομέα:",
+    "specPlaceholder": "Εισαγάγετε τοποθεσία ή πόλη…",
+    "profileTitle": "Προφίλ αγοράς & εφοδιαστικής",
+    "profileHint": "Κάντε κλικ στον χάρτη ή αναζητήστε μια πόλη για να ενεργοποιήσετε την αυτόματη προδιαγραφή συστήματος και τον υπολογισμό αξόνων παράδοσης.",
+    "marketAssign": "Αντιστοίχιση αγοράς",
+    "normLabel": "Πρότυπο:",
+    "airDist": "Ευθεία απόσταση (HQ)",
+    "roadDist": "Οδικώς (εκτίμηση)",
+    "recommended": "Προτεινόμενο σύστημα σωληνώσεων:",
+    "recUv": "Εξωτερικός μανδύας UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Όλοι οι τομείς",
+      "hotel": "Ξενοδοχείο",
+      "wohnen": "Κατοικίες",
+      "infra": "Υποδομές",
+      "klinik": "Κλινική",
+      "buero": "Γραφεία"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Προϊόντα",
+      "markets-solutions": "Αγορές & Λύσεις",
+      "academy-resources": "Academy & Πόροι",
+      "company": "Εταιρεία"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Εύρεση προϊόντων για σωλήνες",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Εξαρτήματα & συνδέσεις",
+      "valves": "Βάνες & βαλβίδες",
+      "tools": "Εργαλεία & παρελκόμενα",
+      "transition": "Μεταβάσεις σωλήνων",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8638,48 +8512,48 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Αίτημα έργου για συστήματα σωληνώσεων",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Χάρτης ιστότοπου (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Επίλεξε τη γλώσσα σου",
+    "subtitle": "65 γλώσσες · Περιστρέψτε την υδρόγειο, πατήστε μια περιοχή, επιβεβαιώστε.",
+    "searchPlaceholder": "Αναζήτηση γλώσσας ή σελίδας …",
+    "pagesSection": "Σελίδες & Πλοήγηση",
+    "noResults": "Δεν βρέθηκε γλώσσα.",
+    "confirm": "Επιβεβαίωση",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Ισχύει για ολόκληρο τον ιστότοπο",
+    "active": "ενεργή"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Πώς μπορούμε να σας βοηθήσουμε;",
+    "step1Desc": "Επιλέξτε τον κατάλληλο τομέα για το αίτημά σας.",
+    "optSales": "Πωλήσεις & Έργα",
+    "optSalesDesc": "Αιτήματα τιμών, μεγάλα έργα και χρόνοι παράδοσης.",
+    "optTech": "Τεχνική υποστήριξη",
+    "optTechDesc": "Προδιαγραφές, εγκατάσταση και διαστασιολόγηση συστήματος.",
+    "optOther": "Γενικό αίτημα",
+    "optOtherDesc": "Marketing, καριέρα ή άλλα θέματα.",
+    "step2Title": "Λεπτομέρειες του αιτήματός σας",
+    "step2Desc": "Περιγράψτε σύντομα το έργο ή την ερώτησή σας.",
+    "messagePlaceholder": "Το μήνυμά σας προς εμάς...",
+    "step3Title": "Τα στοιχεία επικοινωνίας σας",
+    "step3Desc": "Σχεδόν τελειώσαμε! Πώς μπορούμε να επικοινωνήσουμε μαζί σας;",
+    "nameLabel": "Ονοματεπώνυμο",
+    "companyLabel": "Εταιρεία / Οργανισμός",
+    "emailLabel": "Διεύθυνση e-mail",
+    "phoneLabel": "Αριθμός τηλεφώνου",
+    "step4Title": "Το μήνυμα εστάλη!",
+    "step4Desc": "Σας ευχαριστούμε για το αίτημά σας. Ένας από τους ειδικούς μας θα επικοινωνήσει μαζί σας σύντομα.",
+    "btnNext": "Επόμενο",
+    "btnBack": "Πίσω",
+    "btnSubmit": "Αποστολή αιτήματος",
+    "btnSending": "Αποστολή σε εξέλιξη…",
+    "btnHome": "Επιστροφή στην αρχική σελίδα",
+    "sendError": "Η αποστολή απέτυχε. Δοκιμάστε ξανά ή καλέστε μας απευθείας: +49 (0)60 85 / 9868-410"
   }
 }

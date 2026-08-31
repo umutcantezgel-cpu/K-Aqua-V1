@@ -46,30 +46,30 @@
     "edgePageIndex": "გვერდის ინდექსი",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "მილსადენი სისტემები",
+      "allProducts": "ყველა პროდუქტი",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "დარგობრივი გამოყენებები",
+      "digitalTools": "ციფრული ინსტრუმენტები",
+      "finderDesc": "სწორი სისტემის კონფიგურაცია",
+      "co2Desc": "გარემოსდაცვითი ბალანსის გამოთვლა",
+      "academyDesc": "ტრენინგები და სერტიფიკატები",
+      "trustDesc": "ჩამოტვირთვები და სერტიფიცირებები",
+      "serviceDesc": "დაგეგმვის მხარდაჭერა",
+      "partnersDesc": "გახდით ლოკალური პარტნიორი",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "კომპანია",
+      "companyDesc": "მისია, ხედვა და ისტორია",
+      "careerDesc": "ვაკანსიები და კულტურა",
+      "newsPress": "სიახლეები და პრესა",
+      "newsDesc": "უახლესი პრესრელიზები",
+      "sitemap": "საიტის რუკა",
+      "sitemapDesc": "სტრუქტურის მიმოხილვა",
+      "globalFootprint": "გლობალური კვალი",
+      "globalMarkets": "გლობალური ბაზრები",
+      "marketsDesc": "სერტიფიცირებული რეგიონები",
+      "refProjects": "საორიენტაციო პროექტები",
+      "refDesc": "წარმატებული ინსტალაციები"
     }
   },
   "groups": {
@@ -242,7 +242,7 @@
       ]
     ],
     "btnDe": "სერტიფიკატი (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnEn": "სერტიფიკატი (EN)",
     "eventsTitle": "გამოფენები და ღონისძიებები",
     "eventsText": "ეწვიეთ K Aqua-ს მომავალ ღონისძიებებზე. ამჟამად არ არის დაგეგმილი თარიღები. გთხოვთ, დაბრუნდეთ მოგვიანებით.",
     "lead": "წაიკითხეთ უახლესი სიახლეები K Aqua-ს შესახებ."
@@ -404,51 +404,9 @@
         "lon": 8.5,
         "title": "ვალდსოლმსი, გერმანია",
         "d": "მთავარი ქარხანა და განვითარება: აქ იქმნება თითოეული K Aqua-ს მილი."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "დუბაი, არაბთა გაერთიანებული საამიროები",
-        "d": "მაღალსართულიანი შენობების ამწე მილები: PPRCT ცხელი წყლისთვის უდაბნოს პირობებში."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "ვარშავა, პოლონეთი",
-        "d": "ახალი საცხოვრებელი კვარტალი: სრული სასმელი წყლის ინსტალაცია d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "სტამბოლი, თურქეთი",
-        "d": "სასტუმრო კომპლექსი: ცირკულაციის მილები ბოჭკოვანი კომპოზიტური მილებით."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "სინგაპური",
-        "d": "ინფრასტრუქტურული პროექტი: დიდი ზომები d630-მდე პირაპირა შედუღების პროცესით."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "კეიპტაუნი, სამხრეთ აფრიკა",
-        "d": "ახალი საავადმყოფოს შენობა: ჰიგიენური სასმელი წყლის განაწილება."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "ლონდონი, დიდი ბრიტანეთი",
-        "d": "ოფისის რემონტი: კოროზიისგან თავისუფალი ალტერნატივა არსებული მილებისთვის."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "პროექტის ნახვა"
   },
   "buyers": {
     "eyebrow": "დამგეგმავებისთვის, შემსყიდველებისთვის და გადამმუშავებლებისთვის",
@@ -750,25 +708,25 @@
     "nextTitle": "რამდენად კლიმატზე მეგობრულია თქვენი გეგმა?",
     "nextLead": "გადაიტანეთ ზომა და სიგრძე პირდაპირ CO₂ კალკულატორში და შეადარეთ სპილენძს, უჟანგავ ფოლადს და PVC-ს.",
     "nextCta": "CO₂ კალკულატორისკენ",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "მოძებნეთ ჩვენი სრული პროდუქციის ასორტიმენტი კატეგორიის, დასახელების ან არტიკულის ნომრის მიხედვით.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "მილები",
+    "catFittings": "ფასონური ნაწილები",
+    "catValves": "არმატურა",
+    "catTools": "ინსტრუმენტები",
+    "catTransitionFittings": "გარდამავალი ფიტინგები",
+    "catAccessories": "აქსესუარები",
+    "catWeldInSaddles": "მაღალხარისხიანი PP-R შესადუღებელი უნაგირები",
+    "category": "კატეგორია",
+    "search": "ძიება",
+    "searchPlaceholder": "არტიკულის ნომერი ან დასახელება...",
+    "foundFam": "პროდუქტის ოჯახი მოიძებნა",
+    "catalogPdf": "კატალოგი PDF ფორმატში",
+    "colName": "პროდუქტის დასახელება",
+    "colCat": "კატეგორია",
+    "colCodes": "არტიკულის ნომრები",
+    "noResultsText": "ვერ მოიძებნა პროდუქტები, რომლებიც შეესაბამება თქვენს საძიებო კრიტერიუმებს. გთხოვთ, სცადოთ სხვა ტერმინი ან შეცვალოთ კატეგორია.",
+    "resetFilters": "ფილტრების გადატვირთვა"
   },
   "trustAndCases": {
     "eyebrow": "სერტიფიცირებული უსაფრთხოება",
@@ -896,7 +854,7 @@
     ]
   },
   "co2": {
-    "eyebrow": "Premium Engineering Tool",
+    "eyebrow": "პრემიუმ საინჟინრო ინსტრუმენტი",
     "title1": "LCA და TCO სიმულატორი",
     "titleGrad": "Pro",
     "lead": "გამოთვალეთ თქვენი მილების სისტემის რეალური ეკოლოგიური და ეკონომიკური გავლენა მისი მთელი სასიცოცხლო ციკლის განმავლობაში. ნაკადის რეალური ფიზიკური მოდელებით (Darcy-Weisbach) და EN-შესაბამისი LCA ფაზებით.",
@@ -958,9 +916,9 @@
     "certBtn": "PDF ანგარიშის გენერირება",
     "generating": "გენერირდება...",
     "energyGreen": "მწვანე ენერგია",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
-    "energyGlobal": "Global-Mix",
+    "energyDe": "DE-მიქსი",
+    "energyEu": "EU-მიქსი",
+    "energyGlobal": "გლობალური მიქსი",
     "materials": {
       "kaqua": "K Aqua PPRCT",
       "pvc": "PVC-U",
@@ -986,7 +944,7 @@
       "a13": "წარმოება (A1-A3)",
       "a4": "ტრანსპორტი (A4)",
       "b": "ოპერაცია/თერმული (B)",
-      "c": "End-of-Life (C)"
+      "c": "სასიცოცხლო ციკლის დასასრული (C)"
     },
     "auditor": "აუდიტორის კაბინა:",
     "auditorBody": "EPD მტკიცებულებები, ISO სერტიფიკატები და GAEB ტექსტები, როგორც პაკეტი,",
@@ -1001,7 +959,7 @@
     "phaseProduction": "წარმოება",
     "phaseTransport": "ტრანსპორტი",
     "phaseOperation": "ოპერაცია",
-    "phaseEol": "End of Life"
+    "phaseEol": "სასიცოცხლო ციკლის დასასრული"
   },
   "rfq": {
     "eyebrow": "პროექტის მოთხოვნა",
@@ -1418,8 +1376,7 @@
         "d": "ჰიგიენა აქ არ განიხილება: გლუვი შიდა ზედაპირი (0.007 მმ) აფერხებს ბიოფილმს და ინკრუსტაციას, მასალა რჩება გემოსა და სუნის ნეიტრალური.",
         "pts": [
           "ჰიგიენური ნეიტრალიტეტი",
-          "კოროზიისგან თავისუფალი: არ არის წერტილოვანი კოროზია",
-          "რეფერენცია: ახალი საავადმყოფო კეიპტაუნში"
+          "კოროზიისგან თავისუფალი: არ არის წერტილოვანი კოროზია"
         ]
       },
       {
@@ -1427,8 +1384,7 @@
         "d": "ცხელი წყლის მიმოქცევა 24/7: დაბალი თბოგამტარობა სამუდამოდ ზოგავს ენერგიას, PPRCT უძლებს 70 °C უწყვეტ მუშაობას.",
         "pts": [
           "თერმული ეფექტურობა",
-          "PPRCT ცირკულაციისთვის",
-          "რეფერენცია: სასტუმრო კომპლექსი სტამბულში"
+          "PPRCT ცირკულაციისთვის"
         ]
       },
       {
@@ -1445,8 +1401,7 @@
         "d": "ულტრაიისფერი გამოსხივებისადმი მდგრადი ვერსიები ირიგაციისთვის მინის ქვეშ და გარეთ: მსუბუქი, სწრაფად დასაყენებელი, ყინვისადმი უფრო მდგრადი ვიდრე ხისტი სისტემები.",
         "pts": [
           "ულტრაიისფერი გამოსხივებისადმი მდგრადი დიზაინი",
-          "მსუბუქი წონა",
-          "განაცხადის სფერო სარეფერენციო პროგრამიდან"
+          "მსუბუქი წონა"
         ]
       },
       {
@@ -1454,8 +1409,7 @@
         "d": "მიწოდების ხაზები და ქსელები დიდი ზომებით d630-მდე: კონდახით შედუღებული ერთგვაროვან, მუდმივად მჭიდრო ჯაჭვებად.",
         "pts": [
           "d 630 მმ-მდე",
-          "კონდახით შედუღება (Butt Fusion)",
-          "რეფერენცია: ინფრასტრუქტურა სინგაპურში"
+          "კონდახით შედუღება (Butt Fusion)"
         ]
       },
       {
@@ -3909,7 +3863,7 @@
     "similar": {
       "title": "სხვა {category}-დან"
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "პროდუქტის დეტალების ნახვა"
   },
   "kontaktForm": {
     "phoneLabel": "ტელეფონი",
@@ -3945,7 +3899,7 @@
     "heroLead": "სამრეწველო გამოყენებისთვის, სასმელი წყლის მიწოდებისთვის და კლიმატის ტექნიკისთვის ექსტრემალურ პირობებში.",
     "telemetry": {
       "pressureLabel": "სისტემის წნევა",
-      "liveSuffix": "MPa live",
+      "liveSuffix": "MPa ლაივ",
       "tempLabel": "მაქს. ტემპერატურა",
       "tempNote": "PN20 · უწყვეტი მუშაობა",
       "meta": [
@@ -4213,59 +4167,59 @@
     ]
   },
   "products": {
-    "uniqueProductContext": "Das Produkt {title} ist ein wesentlicher Bestandteil des K Aqua {category}-Sortiments. Es wurde für maximale Langlebigkeit sowie nahtlose Integration entwickelt und erfüllt die höchsten internationalen Standards für moderne Rohrleitungs- und Sanitäranwendungen. Sie können dieses spezifische Produkt anhand der Artikelnummer(n) identifizieren und bestellen: {codes}. Für weitere Dokumentationen oder Unterstützung wenden Sie sich bitte an unser technisches Team.",
-    "heroDesc": "Entdecken Sie die Spezifikationen, Dimensionen und Einsatzbereiche. Für detaillierte Informationen laden Sie das Technische Datenblatt herunter.",
-    "articleNumbers": "Artikelnummern",
-    "technicalSpecs": "Technische Spezifikationen",
-    "eyebrow": "Produkte",
-    "videoGuide": "K Aqua Video-Anleitung",
-    "localAvailability": "Lokale Verfügbarkeit",
-    "localDesc": "Finde lokale Händler, spezifische Zulassungen und Normen für deine Region.",
-    "allMarkets": "Alle 50+ Märkte ansehen",
-    "title1": "PP-R/PPRCT Rohre & Formteile für",
-    "titleGrad": "Trinkwasser.",
-    "lead": "Ein vollständiges Rohrleitungssystem für heißes und kaltes Trinkwasser: vom Rohr über das Formteil bis zur Schweißtechnik. Vier Bausteine, ein System.",
-    "ctaCatalog": "Produktkatalog (PDF)",
-    "ctaVideos": "Installationsvideos",
-    "sysEyebrow": "Das System",
-    "sysTitle": "K-Aqua PP-R Rohre & Fittings: Vier Bausteine, ein System.",
-    "techEyebrow": "Technische Daten",
-    "techTitle": "Dimensionen & Druckstufen",
-    "techLead": "Je nach Rohrtyp ab 20 mm bis 630 mm, Formteile bis 315 mm.",
-    "ctaFeatures": "Produkteigenschaften (PDF)",
-    "specAndDim": "Spezifikationen & Dimensionen",
-    "certsAndNorms": "Zertifikate & Normen",
-    "approved": "geprüft",
-    "monitoring": "überwacht",
-    "certified": "geprüft",
-    "quickLinks": "Schnellzugriff",
-    "calcCo2": "CO2-Fußabdruck berechnen",
-    "backToFinder": "Zurück zum Produktfinder",
+    "uniqueProductContext": "პროდუქტი {title} K Aqua-ს {category} ასორტიმენტის არსებითი შემადგენელი ნაწილია. ის შექმნილია მაქსიმალური ხანგამძლეობისა და უწყვეტი ინტეგრაციისთვის და აკმაყოფილებს უმაღლეს საერთაშორისო სტანდარტებს თანამედროვე მილსადენი და სანტექნიკური სისტემებისთვის. ამ კონკრეტული პროდუქტის იდენტიფიცირება და შეკვეთა შესაძლებელია არტიკულის ნომრ(ებ)ით: {codes}. დამატებითი დოკუმენტაციისა და მხარდაჭერისთვის მიმართეთ ჩვენს ტექნიკურ გუნდს.",
+    "heroDesc": "გაეცანით სპეციფიკაციებს, ზომებსა და გამოყენების სფეროებს. დეტალური ინფორმაციისთვის ჩამოტვირთეთ ტექნიკური მონაცემთა ფურცელი.",
+    "articleNumbers": "არტიკულის ნომრები",
+    "technicalSpecs": "ტექნიკური სპეციფიკაციები",
+    "eyebrow": "პროდუქტები",
+    "videoGuide": "K Aqua ვიდეო-ინსტრუქცია",
+    "localAvailability": "ლოკალური ხელმისაწვდომობა",
+    "localDesc": "იპოვეთ ლოკალური დილერები, სპეციფიკური ნებართვები და სტანდარტები თქვენი რეგიონისთვის.",
+    "allMarkets": "იხილეთ ყველა 50+ ბაზარი",
+    "title1": "PP-R/PPRCT მილები და ფასონური ნაწილები",
+    "titleGrad": "სასმელი წყლისთვის.",
+    "lead": "სრული მილსადენი სისტემა ცხელი და ცივი სასმელი წყლისთვის: მილიდან ფასონურ ნაწილამდე და შედუღების ტექნოლოგიამდე. ოთხი ელემენტი, ერთი სისტემა.",
+    "ctaCatalog": "პროდუქტების კატალოგი (PDF)",
+    "ctaVideos": "სამონტაჟო ვიდეოები",
+    "sysEyebrow": "სისტემა",
+    "sysTitle": "K-Aqua PP-R მილები და ფიტინგები: ოთხი ელემენტი, ერთი სისტემა.",
+    "techEyebrow": "ტექნიკური მონაცემები",
+    "techTitle": "ზომები და წნევის კლასები",
+    "techLead": "მილის ტიპის მიხედვით 20 მმ-დან 630 მმ-მდე, ფასონური ნაწილები 315 მმ-მდე.",
+    "ctaFeatures": "პროდუქტის თვისებები (PDF)",
+    "specAndDim": "სპეციფიკაციები და ზომები",
+    "certsAndNorms": "სერტიფიკატები და სტანდარტები",
+    "approved": "შემოწმებული",
+    "monitoring": "მონიტორინგის ქვეშ",
+    "certified": "სერტიფიცირებული",
+    "quickLinks": "სწრაფი წვდომა",
+    "calcCo2": "CO2-კვალის გამოთვლა",
+    "backToFinder": "პროდუქტების ძიებაზე დაბრუნება",
     "enterpriseCore": "Enterprise Core",
-    "highPerformance": "High-Performance Pipe Systems",
-    "highPerformanceDesc": "For industrial applications, drinking water supply, and climate control under extreme conditions.",
-    "sysPressure": "System Pressure",
-    "tempMax": "Max Temperature",
-    "material": "Material",
-    "norm": "Standard",
-    "certification": "Certification",
-    "lifespan": "Lifespan",
-    "fiberTech": "Fiber-Composite Technology",
-    "fiberTechDesc": "3-layer structure for minimized linear expansion and maximum stability at high temperatures.",
-    "compliance": "Compliance & Standards",
-    "dimensions": "Dimensions",
-    "globalNetwork": "Global Network",
-    "globalNetworkDesc": "K Aqua systems are in use in over 40 countries worldwide.",
-    "whyChoose": "Why {product} is the right choice",
-    "sysLead": "Das Fundament unseres Katalogs: vier Bausteine eines integrierten Systems. Rohre, Fittings, Armaturen und Werkzeuge bilden ein System aus PP-R und PP-RCT.",
+    "highPerformance": "მაღალი წარმადობის მილსადენი სისტემები",
+    "highPerformanceDesc": "სამრეწველო გამოყენებისთვის, სასმელი წყლის მიწოდებისა და კლიმატკონტროლისთვის ექსტრემალურ პირობებში.",
+    "sysPressure": "სისტემური წნევა",
+    "tempMax": "მაქსიმალური ტემპერატურა",
+    "material": "მასალა",
+    "norm": "სტანდარტი",
+    "certification": "სერტიფიცირება",
+    "lifespan": "ექსპლუატაციის ვადა",
+    "fiberTech": "ბოჭკოვან-კომპოზიტური ტექნოლოგია",
+    "fiberTechDesc": "3-შრიანი სტრუქტურა მინიმალური ხაზოვანი გაფართოებისა და მაქსიმალური სტაბილურობისთვის მაღალ ტემპერატურაზე.",
+    "compliance": "შესაბამისობა და სტანდარტები",
+    "dimensions": "ზომები",
+    "globalNetwork": "გლობალური ქსელი",
+    "globalNetworkDesc": "K Aqua-ს სისტემები გამოიყენება მსოფლიოს 40-ზე მეტ ქვეყანაში.",
+    "whyChoose": "რატომ არის {product} სწორი არჩევანი",
+    "sysLead": "ჩვენი კატალოგის საფუძველი: ინტეგრირებული სისტემის ოთხი ელემენტი. მილები, ფიტინგები, არმატურა და ინსტრუმენტები ქმნიან ერთ სისტემას PP-R და PP-RCT მასალებისგან.",
     "narrative": {
-      "sizeRange": "Diese Komponente wird in einem umfangreichen Nennweitenbereich von kompakten {minSize} mm bis zu beachtlichen {maxSize} mm gefertigt, was maximale Vielseitigkeit in unterschiedlichsten Installationsszenarien gewährleistet.",
-      "sizeSpecific": "Diese Komponente ist präzise für eine spezifische Nennweite von {minSize} mm ausgelegt und bietet zielgerichtete Leistung für spezialisierte Rohrleitungsarchitekturen.",
-      "weights": "Die Materialeffizienz ist über das gesamte Sortiment hinweg optimiert, wobei die Stückgewichte je nach gewählter Dimension von {minWeight} kg bis zu {maxWeight} kg skalieren.",
-      "packaging": "Die Logistik wird durch standardisierte Verpackungseinheiten optimiert, die für den sicheren weltweiten Transport und ein effizientes Handling auf der Baustelle konzipiert sind.",
-      "rowCount": "Unser technisches Portfolio bietet diese Konfiguration in {count} hochspezialisierten Dimensionsvarianten, die präzise skaliert sind, um den hydraulischen und mechanischen Anforderungen moderner Flüssigkeitstransportsysteme gerecht zu werden.",
+      "sizeRange": "ეს კომპონენტი მზადდება ნომინალური ზომების ფართო დიაპაზონში — კომპაქტური {minSize} მმ-დან შთამბეჭდავ {maxSize} მმ-მდე, რაც უზრუნველყოფს მაქსიმალურ მრავალფეროვნებას სხვადასხვა სამონტაჟო სცენარში.",
+      "sizeSpecific": "ეს კომპონენტი ზუსტად არის გათვლილი {minSize} მმ სპეციფიკურ ნომინალურ ზომაზე და უზრუნველყოფს მიზნობრივ წარმადობას სპეციალიზებული მილსადენი არქიტექტურებისთვის.",
+      "weights": "მასალის ეფექტიანობა ოპტიმიზებულია მთელ ასორტიმენტში, ერთეულის წონა არჩეული ზომის მიხედვით მერყეობს {minWeight} კგ-დან {maxWeight} კგ-მდე.",
+      "packaging": "ლოგისტიკა ოპტიმიზებულია სტანდარტიზებული შესაფუთი ერთეულებით, რომლებიც შექმნილია უსაფრთხო გლობალური ტრანსპორტირებისა და სამშენებლო მოედანზე ეფექტიანი დამუშავებისთვის.",
+      "rowCount": "ჩვენი ტექნიკური პორტფელი ამ კონფიგურაციას გთავაზობთ {count} მაღალსპეციალიზებულ ზომით ვარიანტში, რომლებიც ზუსტად არის დაკალიბრებული თანამედროვე სითხის სატრანსპორტო სისტემების ჰიდრავლიკური და მექანიკური მოთხოვნების დასაკმაყოფილებლად.",
       "intro": "Das Produkt {title} bildet einen Eckpfeiler der Hochleistungs-Fluidmanagement-Lösungen von K Aqua. Offiziell unter den Artikelnummern {codes} katalogisiert, durchläuft jede Variante vor der Auslieferung strenge Qualitätssicherungsprotokolle in unseren deutschen Produktionsstätten.",
-      "outro": "Durch den Einsatz fortschrittlicher Polymerverarbeitungstechniken garantiert die geometrische Präzision von {title} optimale Strömungseigenschaften, minimiert Druckverluste und eliminiert das Risiko von Kalkablagerungen oder Korrosion über die gesamte Betriebslebensdauer vollständig. Diese kompromisslose Hingabe zur Materialwissenschaft stellt sicher, dass jede Verbindung auch unter extremen thermischen und Druckschwankungen absolute Integrität bewahrt. Ob in Wohnhochhäusern, kritischen Gesundheitseinrichtungen oder anspruchsvollen industriellen Verarbeitungsanlagen eingesetzt, liefert dieses Produkt eine wartungsfreie Zuverlässigkeit, auf die Ingenieure und Installateure blind vertrauen können."
+      "outro": "მოწინავე პოლიმერული დამუშავების ტექნიკის გამოყენებით, {title}-ის გეომეტრიული სიზუსტე უზრუნველყოფს ოპტიმალურ ჰიდრავლიკურ მახასიათებლებს, ამცირებს წნევის დანაკარგებს და მთელი საექსპლუატაციო პერიოდის განმავლობაში სრულად გამორიცხავს კირქვის ნადებისა და კოროზიის რისკს. მასალათმცოდნეობისადმი ეს უკომპრომისო ერთგულება უზრუნველყოფს, რომ ყოველი შეერთება ინარჩუნებს აბსოლუტურ მთლიანობას ექსტრემალური თერმული და წნევის ცვალებადობის პირობებშიც კი. მრავალსართულიან საცხოვრებელ შენობებში, კრიტიკულ სამედიცინო დაწესებულებებში თუ მომთხოვნ სამრეწველო გადამამუშავებელ საწარმოებში — ეს პროდუქტი უზრუნველყოფს მოვლისგან თავისუფალ საიმედოობას, რომელსაც ინჟინრები და მემონტაჟეები უპირობოდ ენდობიან."
     },
     "tableRows": [
       [
@@ -4295,13 +4249,13 @@
       ]
     ],
     "category": {
-      "allProducts": "Alle Produkte",
-      "openInFinder": "Im Finder öffnen",
-      "artNA": "Art. N/A",
-      "viewDetails": "Produktdetails anzeigen",
-      "learnMoreKnowledge": "PP-R Rohrsysteme im Fachwissen-Portal entdecken",
-      "learnMoreDesc": "Tauchen Sie tiefer in die technische Dokumentation ein und entdecken Sie Fachartikel zur Installation, Nachhaltigkeit und Prüfung unserer PP-R Systeme.",
-      "toKnowledgeBase": "Fachartikel in der K-Aqua Academy entdecken"
+      "allProducts": "ყველა პროდუქტი",
+      "openInFinder": "პროდუქტების ძიებაში გახსნა",
+      "artNA": "არტ. N/A",
+      "viewDetails": "პროდუქტის დეტალების ნახვა",
+      "learnMoreKnowledge": "აღმოაჩინეთ PP-R მილსადენი სისტემები ცოდნის პორტალში",
+      "learnMoreDesc": "ჩაუღრმავდით ტექნიკურ დოკუმენტაციას და აღმოაჩინეთ სპეციალიზებული სტატიები ჩვენი PP-R სისტემების მონტაჟის, მდგრადობისა და შემოწმების შესახებ.",
+      "toKnowledgeBase": "აღმოაჩინეთ სპეციალიზებული სტატიები K-Aqua Academy-ში"
     },
     "range": [
       {
@@ -4328,7 +4282,7 @@
     ],
     "seoArticle": {
       "pipes": {
-        "areas": "Trinkwasserinstallation, Heizungsbau, Klimatechnik, Industrielle Anlagen, Schiffbau",
+        "areas": "სასმელი წყლის ინსტალაცია, გათბობის სისტემები, კლიმატური ტექნიკა, სამრეწველო დანადგარები, გემთმშენებლობა",
         "advTitle": "Überlegene Rohrleitungstechnik für jedes Projekt",
         "advList": [
           "Keine Korrosion: 100% resistent gegen Lochfraß und Rost.",
@@ -4337,10 +4291,10 @@
           "Geräuschreduktion: Hervorragende Schalldämmung gegen Fließgeräusche.",
           "Hygienisch: Erfüllt strengste internationale Trinkwassernormen (DVGW, KIWA)."
         ],
-        "seoText": "Unsere Hochleistungsrohre werden in Waldsolms nach höchsten Qualitätsstandards gefertigt. Die Materialkombination PP-R und PPRCT sorgt für außergewöhnliche Temperatur- und Druckbeständigkeit. Egal ob in der Haustechnik, im industriellen Anlagenbau oder bei komplexen Kühlsystemen, dieses Rohrsystem liefert maximale Sicherheit und Effizienz. Die einfache und sichere Schweißtechnik garantiert absolut leckagefreie Verbindungen.",
-        "guideTitle": "Umfassender Ratgeber: Planung und Installation von K Aqua PP-R & PPRCT Rohrsystemen",
+        "seoText": "ჩვენი მაღალი წარმადობის მილები მზადდება ვალდზოლმსში, უმაღლესი ხარისხის სტანდარტების დაცვით. PP-R და PPRCT მასალების კომბინაცია უზრუნველყოფს გამორჩეულ ტემპერატურულ და წნევის მედეგობას. იქნება ეს შენობის საინჟინრო სისტემები, სამრეწველო დანადგარების მშენებლობა თუ რთული გაგრილების სისტემები — ეს მილსადენი სისტემა უზრუნველყოფს მაქსიმალურ უსაფრთხოებასა და ეფექტიანობას. მარტივი და საიმედო შედუღების ტექნოლოგია გარანტიას იძლევა აბსოლუტურად ჰერმეტულ შეერთებებზე.",
+        "guideTitle": "სრული სახელმძღვანელო: K Aqua PP-R და PPRCT მილსადენი სისტემების დაგეგმვა და მონტაჟი",
         "guideText": "<h2>Umfassender Ratgeber: Planung, Werkstoffkunde und Installation von K Aqua PP-R & PPRCT Rohrsystemen</h2><p>Die Auswahl des richtigen Rohrwerkstoffs ist das entscheidende Fundament für die Langlebigkeit, Betriebssicherheit und Energieeffizienz moderner Gebäude- und Industrieinfrastrukturen. Unsere in Deutschland (Waldsolms) gefertigten <span class=\"font-semibold\">PP-R und PPRCT Rohrsysteme</span> bieten dank ihrer exzellenten thermischen, chemischen und mechanischen Eigenschaften die zukunftssichere Alternative zu herkömmlichen Metallrohren aus Kupfer, Stahl oder Messing.</p><p>Egal ob in der Haustechnik für Trinkwasser- und Heizungsnetze, im industriellen Anlagenbau, in Kühlsystemen oder im Schiffbau, K Aqua Rohre stehen für kompromisslose deutsche Ingenieurskunst und gewährleisten über Jahrzehnte hinweg einen absolut leckagefreien und wartungsfreien Betrieb.</p><h2>Werkstoffinnovation: PP-R und PPRCT im direkten Vergleich</h2><p>Während Standard-Polypropylen Random Copolymer (PP-R) bereits hervorragende Eigenschaften hinsichtlich Korrosionsbeständigkeit und Hygiene aufweist, setzt das weiterentwickelte PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) neue Maßstäbe in der Rohrleitungstechnik. Durch eine gezielte Modifikation der Kristallstruktur im Polymerisationsprozess bietet PPRCT eine deutlich höhere Druckfestigkeit bei erhöhten Betriebstemperaturen bis zu 95°C.</p><p>Dieser werkstofftechnische Vorteil ermöglicht es, Rohre mit wesentlich geringerer Wandstärke (höhere SDR-Klassen) bei gleichem Nenndruck herzustellen. Die Ergebnisse für den Anwender sind herausragend:</p><ul><li><span class=\"font-semibold\">Erhöhter Hydraulikdurchfluss:</span> Ein größerer Innendurchmesser steigert das Durchflussvolumen um bis zu 17 % im Vergleich zu Standard-PP-R Rohren.</li><li><span class=\"font-semibold\">Reduziertes Rohrgewicht:</span> Die Einsparung von Material vereinfacht den Transport und das Handling auf der Baustelle erheblich.</li><li><span class=\"font-semibold\">Höhere Druckreserven:</span> Maximale Sicherheitsreserven selbst bei Spitzenbelastungen im kontinuierlichen Heißwassereinsatz.</li></ul><h2>Faserverbundtechnologie (K-Fiber) für minimale Längenausdehnung</h2><p>Ein zentraler Aspekt bei der Planung von Warmwasser- und Heizungsleitungen ist die thermische Längenausdehnung von Kunststoffrohren. K Aqua begegnet dieser Herausforderung mit der innovativen K-Fiber Faserverbundtechnologie. Die dreischichtig aufgebauten K-Fiber Rohre verfügen über eine mittlere Polypropylenschicht, die mit hochfesten Glasfasern verstärkt ist.</p><p>Diese mechanische Stabilisierung reduziert den linearen Wärmeausdehnungskoeffizienten auf exakt 0,035 mm/(m·K), was einer Reduktion der thermischen Längenausdehnung um rund 75 % im Vergleich zu nicht armierten Vollkunststoffrohren entspricht. Für Fachplaner und Installateure bedeutet dies:</p><ul><li><span class=\"font-semibold\">Weniger Dehnungsausgleicher:</span> Signifikante Einsparung von Biegeschenkeln und Ausgleichsbögen im Leitungsverlauf.</li><li><span class=\"font-semibold\">Größere Befestigungsabstände:</span> Einsparung von Rohrleitungsschellen und Festpunkten bei der Trassenführung.</li><li><span class=\"font-semibold\">Formstabile Verlegung:</span> Kein Durchhängen der Rohre in offenen Trassen oder Steigleitungen.</li></ul><h2>Homogene Polyfusions-Schweißung: Leckagesicherheit für 50+ Jahre</h2><p>Das Herzstück des K Aqua Rohrsystems ist die unlösbare, stoffschlüssige Verbindungstechnik durch thermische Polyfusion. Beim Schweißvorgang werden das Rohrende und die Muffe des Formteils mittels eines elektronisch geregelten Schweißgeräts auf exakt 260°C erwärmt. Dabei schmelzen die Polymerketten beider Komponenten an den Fügeflächen an.</p><p>Beim Zusammenfügen verschränken sich die geschmolzenen Makromoleküle auf molekularer Ebene vollständig ineinander. Nach dem Erkalten entsteht eine homogene, monolithische Materialstruktur ohne Nahtstellen, Klebstoffe oder elastische Dichtungen. Da keine Gummi-O-Ringe oder mechanischen Pressverbindungen verwendet werden, gehören Alterungsschäden, Verharzungen oder Sprödigkeit von Dichtungen der Vergangenheit an. Die Schweißverbindung hält denselben Drücken stand wie das Rohr selbst.</p><h2>Hydraulik, Hygiene und Umweltverträglichkeit</h2><p>Trinkwassersicherheit und Energieeffizienz stehen bei K Aqua an erster Stelle. Die spiegelglatte Innenoberfläche unserer PP-R und PPRCT Rohre weist eine extrem geringe Rauhigkeit von nur k = 0,007 mm auf. Dies verhindert effektiv die Anhaftung von Kalkablagerungen (Inkrustation) und unterbindet die Bildung von Nährböden für Biofilme und Legionellen.</p><p>Zudem ist der Werkstoff Polypropylen physiologisch vollkommen unbedenklich, geschmacks- und geruchsneutral sowie frei von Schwermetallen und Weichmachern. K Aqua Rohrsysteme sind weltweit nach strengsten Prüfnormen zertifiziert (u. a. DVGW, KIWA, WRAS). Auch ökologisch überzeugt das System: Das Polymer ist zu 100 % recycelbar und weist im Vergleich zu Metallrohren eine hervorragende Ökobilanz im Herstellungsprozess auf.</p><h2>Wichtige Verlege- und Planungshinweise</h2><p>Um eine einwandfreie Funktion über die garantierte Lebensdauer von 50 Jahren sicherzustellen, sind bei der Verlegung folgende Punkte zu beachten:</p><ul><li><span class=\"font-semibold\">Druckprüfung:</span> Nach Abschluss der Montage muss das Rohrnetz einer Druckprüfung gemäß DIN 1988 / DIN EN 806 unterzogen werden.</li><li><span class=\"font-semibold\">Wärmedämmung:</span> Rohre für Warmwasser und Heizung sind gemäß den geltenden Energieeinsparverordnungen (z. B. GEG) fachgerecht zu dämmen, um Wärmeverluste zu minimieren.</li><li><span class=\"font-semibold\">UV-Schutz:</span> Bei Freiverlegung im Außenbereich sind UV-geschützte Rohre zu verwenden oder geeignete Abdeckungen vorzusehen.</li></ul>",
-        "seoTitle": "PP-R & PPRCT Rohrsysteme Übersicht",
+        "seoTitle": "PP-R და PPRCT მილსადენი სისტემების მიმოხილვა",
         "faq": [
           {
             "q": "Was unterscheidet PPRCT von herkömmlichem PP-R bei Rohrleitungssystemen?",
@@ -4365,7 +4319,7 @@
         ]
       },
       "fittings": {
-        "areas": "Trinkwassernetz, Sanitärinstallation, Industrielle Verteilung, Heizungsbau",
+        "areas": "სასმელი წყლის ქსელი, სანტექნიკური ინსტალაცია, სამრეწველო განაწილება, გათბობის სისტემები",
         "advTitle": "Sichere und homogene Verbindungen",
         "advList": [
           "Homogene Verschweißung: Rohr und Fitting verschmelzen zu einer untrennbaren Einheit.",
@@ -4374,13 +4328,13 @@
           "Voller Durchfluss: Keine Querschnittsverengung, wodurch der Systemdruck erhalten bleibt.",
           "Chemische Beständigkeit: Resistent gegen eine Vielzahl aggressiver Medien."
         ],
-        "seoText": "Formteile von K Aqua sind das Bindeglied für zuverlässige Rohrnetze. Gefertigt in Deutschland, bieten diese Fittings höchste Präzision und Maßhaltigkeit. Die Verschweißungstechnik (Muffenschweißen) dauert nur wenige Sekunden und kühlt zu einer Verbindung ab, die genauso stark ist wie das Rohr selbst. Dadurch eliminieren Sie das Risiko von Mikroleckagen, wie sie oft bei Press- oder Stecksystemen nach Jahren auftreten können.",
-        "guideTitle": "Technischer Leitfaden: Sichere Verbindungen mit K Aqua Formteilen",
+        "seoText": "K Aqua-ს ფასონური ნაწილები საიმედო მილსადენი ქსელების დამაკავშირებელი რგოლია. გერმანიაში წარმოებული ეს ფიტინგები გამოირჩევა უმაღლესი სიზუსტითა და ზომითი სტაბილურობით. შედუღების ტექნოლოგია (მუფტური შედუღება) მხოლოდ რამდენიმე წამს გრძელდება და გაცივების შემდეგ იქმნება შეერთება, რომელიც ისეთივე მტკიცეა, როგორც თავად მილი. ამით გამოირიცხება მიკროგაჟონვების რისკი, რაც ხშირად ახასიათებს საწნეხ ან ჩასართავ სისტემებს წლების შემდეგ.",
+        "guideTitle": "ტექნიკური სახელმძღვანელო: საიმედო შეერთებები K Aqua-ს ფასონური ნაწილებით",
         "guideText": "<p>Fittings sind das Herzstück jedes komplexen Rohrnetzwerks. Mit den hochwertigen <span class=\"font-semibold\">K Aqua PP-R Formteilen</span> realisieren Sie Installationen, die höchsten Drücken und Temperaturen standhalten.</p><p>Die Vorteile der homogenen Verschweißung sind unbestritten:</p><ul><li><span class=\"font-semibold\">Stoffschlüssige Verbindung:</span> Bei der Erwärmung verschmelzen Fitting und Rohr zu einem einzigen Werkstück. Dies schließt Schwachstellen wie alternde O-Ringe oder mechanische Verpressungen konsequent aus.</li><li><span class=\"font-semibold\">Strömungsoptimierung:</span> Unsere Fittings sind so konzipiert, dass der Querschnitt an den Verbindungsstellen erhalten bleibt. Das minimiert Turbulenzen und reduziert den Energieverbrauch von Umwälzpumpen.</li><li><span class=\"font-semibold\">Höchste Materialqualität:</span> Durch die Verwendung von erstklassigem Polypropylen Random Copolymerisat wird eine herausragende chemische und thermische Beständigkeit erzielt, die weit über den normativen Vorgaben liegt.</li></ul><p>Bei der Verarbeitung ist auf saubere, gratfreie Schnitte sowie auf die exakte Einhaltung der Erwärmungs- und Abkühlzeiten zu achten. So gewährleisten Sie die vom Hersteller zugesicherte, wartungsfreie Betriebszeit von über 50 Jahren in allen Installationsbereichen.</p>",
-        "seoTitle": "Kunststoff-Fittings & Formteile"
+        "seoTitle": "პლასტმასის ფიტინგები და ფასონური ნაწილები"
       },
       "valves": {
-        "areas": "Strangabsperrung, Anlagensteuerung, Verteilerschränke, Industrie",
+        "areas": "შტოს გადაკეტვა, დანადგარების მართვა, გამანაწილებელი კარადები, მრეწველობა",
         "advTitle": "Präzise Steuerung und langlebige Funktion",
         "advList": [
           "Wartungsfrei: Die Mechanik ist auf jahrzehntelange reibungslose Funktion ausgelegt.",
@@ -4389,14 +4343,14 @@
           "Hochwertige Materialien: Ventilsitze und Kugeln aus korrosionsfesten Legierungen.",
           "Sichere Absperrung: 100% dicht selbst unter extremen Druck- und Temperaturwechseln."
         ],
-        "seoText": "Absperrarmaturen und Ventile von K Aqua kombinieren die bewährte PP-R Schweißtechnik mit hochwertigen mechanischen Komponenten. Sie ermöglichen eine präzise Steuerung von Fluiden und eine sichere Isolation von Netzabschnitten für Wartungsarbeiten. Jede Armatur wird vor der Auslieferung strengen Druckprüfungen unterzogen, um höchste Betriebssicherheit in kritischen Anwendungen zu gewährleisten.",
-        "guideTitle": "Expertenratgeber: Anlagensteuerung mit K Aqua Ventilen und Armaturen",
+        "seoText": "K Aqua-ს ჩამკეტი არმატურა და ვენტილები აერთიანებს აპრობირებულ PP-R შედუღების ტექნოლოგიას მაღალხარისხიან მექანიკურ კომპონენტებთან. ისინი უზრუნველყოფენ სითხეების ზუსტ მართვასა და ქსელის მონაკვეთების უსაფრთხო იზოლაციას სარემონტო სამუშაოებისთვის. ყოველი არმატურა მიწოდებამდე გადის მკაცრ წნევის შემოწმებას, რათა უზრუნველყოფილი იყოს უმაღლესი საექსპლუატაციო უსაფრთხოება კრიტიკულ გამოყენებებში.",
+        "guideTitle": "ექსპერტული სახელმძღვანელო: დანადგარების მართვა K Aqua-ს ვენტილებითა და არმატურით",
         "guideText": "<p>Die präzise Steuerung und Isolation von Stoffströmen ist in modernen Wasser- und Heizungsnetzen unerlässlich. <span class=\"font-semibold\">K Aqua Absperrarmaturen und Ventile</span> kombinieren die Langlebigkeit von Polypropylen mit der Präzision metallischer Dicht- und Stellmechanismen.</p><p>Was Sie bei der Integration von PP-R Ventilen wissen müssen:</p><ul><li><span class=\"font-semibold\">Totraumfreie Konstruktion:</span> Zur Vermeidung von Stagnationswasser und Verkeimung (z. B. Legionellen) sind unsere Armaturen strömungsoptimiert und hygienegerecht konstruiert, was sie ideal für sensible Trinkwasserinstallationen macht.</li><li><span class=\"font-semibold\">Druck- und Temperaturstabilität:</span> Die massiven Ventilkörper und die hochwertigen Messing- oder PP-Kugeln gewährleisten eine 100%ige Abdichtung, selbst bei extremen Druckschlägen und hohen Vorlauftemperaturen.</li><li><span class=\"font-semibold\">Wartungsfreundlichkeit:</span> Auch nach vielen Jahren im Dauereinsatz lassen sich K Aqua Kugelhähne und Schrägsitzventile dank teflonbeschichteter Dichtelemente leichtgängig und präzise bedienen.</li></ul><p>Für eine maximale Anlagenverfügbarkeit empfehlen wir, die Armaturen bereits in der Planungsphase strategisch zu positionieren, um Wartungsarbeiten und Spülvorgänge ohne weitreichende Netzunterbrechungen durchführen zu können.</p>",
-        "seoTitle": "Absperrventile & Kugelhähne"
+        "seoTitle": "ჩამკეტი ვენტილები და ბურთულიანი ონკანები"
       },
       "weldInSaddles": {
-        "areas": "Nachträgliche Abzweige, Rohrnetzerweiterung, Verteilungsaufbau",
-        "advTitle": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität",
+        "areas": "შემდგომი განშტოებები, მილსადენი ქსელის გაფართოება, გამანაწილებელი სისტემის მოწყობა",
+        "advTitle": "შესადუღებელი უნაგირები (Weld-in Saddles) მაქსიმალური მოქნილობისთვის",
         "advList": [
           "Nachträgliche Installation: Erweiterung bestehender PP-R Rohrnetze ohne Trennen des Hauptrohres.",
           "Zeitsparend: Bohren, Aufheizen, Einschweißen, fertig in wenigen Minuten.",
@@ -4404,13 +4358,13 @@
           "Voller Durchfluss: Keine Querschnittsverengung im Hauptstrang.",
           "Vielseitig: Erhältlich mit oder ohne metallischen Gewindeübergang (IG/AG)."
         ],
-        "seoText": "Weld-in Saddles (Einschweißsättel) für maximale Flexibilität sind die perfekte Lösung für nachträgliche Abzweige in bestehenden Leitungsnetzen. Anstatt das Hauptrohr mühsam zu trennen und T-Stücke einzusetzen, wird das Rohr lediglich angebohrt und der Sattel homogen aufgeschweißt. Diese Technik spart enorme Montagezeiten und Materialkosten bei industriellen Verteilersystemen.",
-        "guideTitle": "Installationsleitfaden: Flexibilität durch Einschweißsättel (Weld-in Saddles)",
+        "seoText": "შესადუღებელი უნაგირები მაქსიმალური მოქნილობისთვის იდეალური გადაწყვეტაა შემდგომი განშტოებებისთვის არსებულ მილსადენ ქსელებში. ნაცვლად იმისა, რომ მთავარი მილი შრომატევადად გაიჭრას და T-ელემენტები ჩაისვას, მილი უბრალოდ იბურღება და უნაგირი ჰომოგენურად ედუღება ზედ. ეს ტექნიკა მნიშვნელოვნად ზოგავს მონტაჟის დროსა და მასალის ხარჯებს სამრეწველო გამანაწილებელ სისტემებში.",
+        "guideTitle": "სამონტაჟო სახელმძღვანელო: მოქნილობა შესადუღებელი უნაგირებით (Weld-in Saddles)",
         "guideText": "<p>Die Modifikation oder Erweiterung bestehender industrieller und gewerblicher Rohrnetze ist oft mit hohem Aufwand verbunden. Hier bieten <span class=\"font-semibold\">K Aqua Einschweißsättel</span> eine effiziente und äußerst sichere Lösung, um nachträgliche Abzweige ohne Leitungsunterbrechung zu schaffen.</p><p>Die wesentlichen technischen Vorteile im Überblick:</p><ul><li><span class=\"font-semibold\">Minimale Installationszeit:</span> Anstatt das Hauptrohr zu trennen und konventionelle T-Stücke einzubauen, wird das Rohr lediglich passgenau angebohrt und der Sattel aufgeschweißt. Das senkt die Montagekosten drastisch.</li><li><span class=\"font-semibold\">Erhalt der Systemintegrität:</span> Durch die Polyfusion verbindet sich der Einschweißsattel untrennbar mit der Rohrwandung, wodurch das System seine ursprüngliche Druck- und Temperaturbeständigkeit (bis PN 25) beibehält.</li><li><span class=\"font-semibold\">Flexible Anschlussmöglichkeiten:</span> Erhältlich als reiner Kunststoffabzweig oder mit integriertem Metallgewinde (IG/AG), ermöglichen Sättel den direkten Anschluss von Sensoren, Manometern oder Abzweigleitungen auf engstem Raum.</li></ul><p>Um eine einwandfreie Schweißung zu gewährleisten, ist die Verwendung der speziellen K Aqua Anbohr- und Schweißwerkzeuge zwingend erforderlich, da sie die exakte Frästiefe und Erwärmungsfläche für eine makellose Verbindung garantieren.</p>",
-        "seoTitle": "Einschweißsättel für Rohrleitungen"
+        "seoTitle": "შესადუღებელი უნაგირები მილსადენებისთვის"
       },
       "accessories": {
-        "areas": "Rohrbefestigung, Dichtung, Flanschverbindung, Reparatur",
+        "areas": "მილის დამაგრება, ჰერმეტიზაცია, ფლანცური შეერთება, რემონტი",
         "advTitle": "Accessories (Zubehör) für eine normgerechte Installation",
         "advList": [
           "Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K Aqua Rohrsystem abgestimmt.",
@@ -4419,8 +4373,8 @@
           "Schnelle Reparatur: Reparaturstopfen für versehentlich angebohrte Rohre.",
           "UV-Beständigkeit: Ausgewählte Zubehörteile sind speziell für die Außenaufstellung stabilisiert."
         ],
-        "seoText": "Das richtige Accessories-Sortiment (Zubehör) ist entscheidend für die Langlebigkeit eines Rohrnetzes. K Aqua bietet eine umfassende Zubehör-Matrix: von der thermodynamischen Befestigungsschelle zur Aufnahme von Längenausdehnungen bis hin zur EPDM-Flachdichtung für Flanschverbindungen. Nur mit dem perfekt abgestimmten K Aqua Zubehör gewährleisten Sie die Einhaltung aller GEG- und DIN 18381-Vorgaben.",
-        "guideTitle": "Fachratgeber: K Aqua Zubehör für normgerechte Installationen",
+        "seoText": "აქსესუარების სწორი ასორტიმენტი გადამწყვეტია მილსადენი ქსელის ხანგამძლეობისთვის. K Aqua გთავაზობთ აქსესუარების ყოვლისმომცველ მატრიცას: თერმოდინამიკური სამაგრი ხამუთებიდან, რომლებიც ითვისებენ სიგრძით გაფართოებას, EPDM ბრტყელ შუასადებებამდე ფლანცური შეერთებებისთვის. მხოლოდ იდეალურად შეთანხმებული K Aqua-ს აქსესუარებით უზრუნველყოფთ GEG და DIN 18381 მოთხოვნების სრულ დაცვას.",
+        "guideTitle": "პროფესიული სახელმძღვანელო: K Aqua-ს აქსესუარები სტანდარტების შესაბამისი ინსტალაციებისთვის",
         "guideText": "<p>Ein hochwertiges Rohrsystem erfordert ebenso hochwertiges Zubehör. Das K Aqua Sortiment umfasst alle essenziellen Komponenten, um Langlebigkeit, Sicherheit und die Einhaltung aller bauphysikalischen Normen zu gewährleisten.</p><p>Die wichtigsten Aspekte zur richtigen Verwendung unseres Zubehörs:</p><ul><li><span class=\"font-semibold\">Kompensation der Längenausdehnung:</span> Bei Temperaturwechseln dehnen sich Kunststoffrohre aus. Der gezielte Einsatz unserer thermodynamischen Rohrschellen als Fest- und Loslager nimmt diese Bewegungen sicher auf und schützt das System vor schädlichen Eigenspannungen. Dies ist besonders bei industriellen Anlagen und Steigleitungen von entscheidender Bedeutung, wo unkontrollierte Ausdehnungen zu strukturellen Schäden führen könnten.</li><li><span class=\"font-semibold\">Dichte Flanschverbindungen:</span> Für Übergänge auf große Armaturen, Pumpen oder Tanks bieten unsere Losflansche und die exakt abgestimmten EPDM-Flachdichtungen absolute Sicherheit bei hohen Anpressdrücken und dauerhaften Vibrationen. Sie garantieren eine nahtlose, flüssigkeitsdichte Verbindung und verhindern so potenziell desaströse Leckagen in kritischen Infrastrukturen.</li><li><span class=\"font-semibold\">Reparaturlösungen:</span> Mit unserem innovativen Reparaturstopfen lassen sich versehentlich angebohrte Rohre (z. B. auf Baustellen) in Minuten homogen verschweißen, sodass das Rohr seine volle mechanische Belastbarkeit zurückerhält. Ein kompletter Austausch des Leitungsabschnitts entfällt somit.</li></ul><p>Zusätzlich zur Kompensation und Dichtigkeit spielen <span class=\"font-semibold\">Isolierung und Brandschutz</span> eine zentrale Rolle bei der fachgerechten Installation. Das Zubehörsortiment von K Aqua ist darauf ausgelegt, thermische Verluste zu minimieren und höchste Sicherheitsstandards zu erfüllen. Unsere Spezialdichtungen und Befestigungselemente sind so konstruiert, dass sie Schallübertragungen effektiv dämpfen und Körperschallausbreitung im Mauerwerk verhindern.</p><p>Durch die ausschließliche Verwendung von Original K Aqua Zubehörteilen sichern Sie sich die volle Systemgewährleistung und vermeiden kostenintensive Mängel durch inkompatible Drittanbieter-Produkte. Investieren Sie in kompromisslose Qualität, um den störungsfreien Betrieb Ihres Leitungssystems für Jahrzehnte zu garantieren.</p> Accessories (Zubehör) für eine normgerechte Installation.",
         "faq": [
           {
@@ -4436,10 +4390,10 @@
             "a": "Ja, unser Sortiment umfasst hochbelastbare Losflansche mit Stahlkern, EPDM-Spezialdichtungen und verstärkte Rohrschellen, die extremen industriellen Belastungen problemlos standhalten."
           }
         ],
-        "seoTitle": "Zubehör für die Rohrinstallation"
+        "seoTitle": "აქსესუარები მილების მონტაჟისთვის"
       },
       "tools": {
-        "areas": "Vorfertigung, Baustellenmontage, Reparatur, Spezialanwendungen",
+        "areas": "წინასწარი აწყობა, სამშენებლო მოედანზე მონტაჟი, რემონტი, სპეციალური გამოყენებები",
         "advTitle": "Höchste Präzision für die perfekte Verbindung",
         "advList": [
           "Exakte Temperaturkontrolle: Mikroprozessorgesteuerte Heizelemente halten exakt 260°C.",
@@ -4448,14 +4402,14 @@
           "Digitale Dokumentation: Stumpf- und Elektroschweißmaschinen mit Protokollfunktion.",
           "Lange Lebensdauer: Robuste Mechanik für den rauen Baustellenalltag."
         ],
-        "seoText": "Das K Aqua Werkzeugsortiment bildet die unverzichtbare Grundlage für die fachgerechte Verarbeitung unserer Rohrleitungssysteme. Von der präzisen Rohrschere bis zur automatisierten CNC-Stumpfschweißmaschine bieten wir für jede Dimension das optimale Equipment. Nur mit kalibrierten Originalwerkzeugen lassen sich die vom DVS geforderten Fügeparameter exakt einhalten, um die Lebensdauer von über 50 Jahren zu garantieren.",
-        "guideTitle": "Praxisleitfaden: Profi-Werkzeuge für die K Aqua Rohrmontage",
+        "seoText": "K Aqua-ს ინსტრუმენტების ასორტიმენტი ჩვენი მილსადენი სისტემების პროფესიული დამუშავების შეუცვლელი საფუძველია. ზუსტი მილის მაკრატლიდან ავტომატიზებულ CNC ტორსული შედუღების მანქანამდე — ყოველი ზომისთვის გთავაზობთ ოპტიმალურ აღჭურვილობას. მხოლოდ დაკალიბრებული ორიგინალი ინსტრუმენტებით არის შესაძლებელი DVS-ის მიერ მოთხოვნილი შეერთების პარამეტრების ზუსტი დაცვა, რაც 50 წელზე მეტი ექსპლუატაციის ვადის გარანტიას იძლევა.",
+        "guideTitle": "პრაქტიკული სახელმძღვანელო: პროფესიული ინსტრუმენტები K Aqua-ს მილების მონტაჟისთვის",
         "guideText": "<p>Die Qualität einer Kunststoffrohr-Installation steht und fällt mit der Präzision der verwendeten Werkzeuge. <span class=\"font-semibold\">K Aqua Schweiß- und Schneidwerkzeuge</span> sind speziell auf die thermoplastischen Eigenschaften von PP-R und PPRCT abgestimmt, um fehlerfreie Ergebnisse zu erzielen.</p><p>Warum professionelles Equipment unverzichtbar ist:</p><ul><li><span class=\"font-semibold\">Makellose Vorbereitung:</span> Ein absolut rechtwinkliger und gratfreier Schnitt ist die Grundvoraussetzung für eine dichte Schweißnaht. Unsere Rohrschneider und Kaltkreissägen verhindern Materialstauchungen und Mikrorisse.</li><li><span class=\"font-semibold\">Thermodynamische Präzision:</span> Die mikroprozessorgesteuerten Muffenschweißgeräte halten die ideale Fügetemperatur von 260°C auch bei widrigen Wetterbedingungen konstant, was eine Degradation des Polymers zuverlässig verhindert.</li><li><span class=\"font-semibold\">Automatisierte Sicherheit:</span> Bei großen Nennweiten eliminieren unsere computergesteuerten Stumpfschweiß- und Elektroschweißmaschinen menschliche Fehler, indem sie Druck, Zeit und Temperatur vollautomatisch regeln und für die Bauabnahme digital dokumentieren.</li></ul><p>Eine regelmäßige Wartung und Reinigung der teflonbeschichteten Heizdorne ist essenziell, um eine homogene Schmelze und dauerhaft belastbare, leckagefreie Leitungsnetze zu gewährleisten.</p>",
-        "seoTitle": "Schweißwerkzeuge & Rohrabschneider"
+        "seoTitle": "შედუღების ინსტრუმენტები და მილის საჭრელები"
       },
       "fallback": {
-        "areas": "Universelle Installationstechnik, Baustellenbedarf, Systemergänzung",
-        "advTitle": "Perfekte Systemergänzung",
+        "areas": "უნივერსალური სამონტაჟო ტექნიკა, სამშენებლო მოედნის საჭიროებები, სისტემის შევსება",
+        "advTitle": "სისტემის იდეალური შევსება",
         "advList": [
           "geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.",
           "Systemkompatibilität: Perfekt auf das K Aqua Rohrsystem abgestimmt.",
@@ -4463,158 +4417,158 @@
           "Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.",
           "Wirtschaftlichkeit: Hervorragendes Preis-Leistungs-Verhältnis."
         ],
-        "seoText": "Als Systemanbieter liefert K Aqua nicht nur Rohre und Fittings, sondern auch das gesamte benötigte Werkzeug und Zubehör. Vom hochpräzisen Schweißgerät bis zum zuverlässigen Rohrabschneider: unsere Werkzeuge garantieren eine normgerechte Verarbeitung und maximale Installationssicherheit. Setzen Sie auf Originalzubehör, um die Gewährleistung Ihres K Aqua Gesamtsystems zu erhalten."
+        "seoText": "როგორც სისტემური მიმწოდებელი, K Aqua გთავაზობთ არა მხოლოდ მილებსა და ფიტინგებს, არამედ ყველა საჭირო ინსტრუმენტსა და აქსესუარს. მაღალი სიზუსტის შედუღების აპარატიდან საიმედო მილის საჭრელამდე: ჩვენი ინსტრუმენტები უზრუნველყოფენ სტანდარტების შესაბამის დამუშავებასა და მაქსიმალურ სამონტაჟო უსაფრთხოებას. აირჩიეთ ორიგინალი აქსესუარები, რათა შეინარჩუნოთ თქვენი K Aqua-ს მთლიანი სისტემის გარანტია."
       }
     },
     "labels": {
-      "applicationAreas": "Einsatzgebiete",
-      "advantages": "Ihre Vorteile im Überblick",
-      "technicalDescription": "Technisches Profil & SEO",
-      "noResults": "Keine Produkte gefunden",
-      "searchPlaceholder": "Suchen nach Titel oder Artikelnummer...",
-      "faqTitle": "Häufig gestellte Fragen (FAQ)",
-      "faqFallbackQ1": "Was sind die Hauptvorteile?",
-      "faqFallbackA1": "Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser.",
-      "faqFallbackQ2": "Ist das Material umweltfreundlich?",
-      "faqFallbackA2": "Ja, PPRCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren.",
-      "faqFallbackQ3": "Wie erfolgt die Installation?",
-      "faqFallbackA3": "Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen.",
-      "downloads": "Downloads & Dokumente",
-      "tds": "Technisches Datenblatt",
-      "tdsDesc": "Spezifikationen & Maße (PDF)",
-      "cert": "Zertifikate & Normen",
+      "applicationAreas": "გამოყენების სფეროები",
+      "advantages": "თქვენი უპირატესობები ერთ ხედში",
+      "technicalDescription": "ტექნიკური პროფილი და SEO",
+      "noResults": "პროდუქტები ვერ მოიძებნა",
+      "searchPlaceholder": "ძიება დასახელებით ან არტიკულის ნომრით...",
+      "faqTitle": "ხშირად დასმული კითხვები (FAQ)",
+      "faqFallbackQ1": "რა არის მთავარი უპირატესობები?",
+      "faqFallbackA1": "სისტემა უზრუნველყოფს განსაკუთრებულ ხანგამძლეობას, კოროზიისადმი მედეგობასა და შესანიშნავ ჰიგიენურ თვისებებს სასმელი წყლისთვის.",
+      "faqFallbackQ2": "არის თუ არა მასალა ეკოლოგიურად სუფთა?",
+      "faqFallbackA2": "დიახ, PPRCT 100%-ით გადამუშავებადია და აქვს ძალიან დაბალი CO2-კვალი ლითონის მილებთან შედარებით.",
+      "faqFallbackQ3": "როგორ ხდება მონტაჟი?",
+      "faqFallbackA3": "მონტაჟი ხორციელდება უსაფრთხოდ და გაჟონვის გარეშე, პოლიფუზიური შედუღების მეშვეობით.",
+      "downloads": "ჩამოტვირთვები და დოკუმენტები",
+      "tds": "ტექნიკური მონაცემთა ფურცელი",
+      "tdsDesc": "სპეციფიკაციები და ზომები (PDF)",
+      "cert": "სერტიფიკატები და სტანდარტები",
       "certDesc": "ISO 9001 · 14001 · 50001 (PDF)",
-      "install": "Installations-Guide",
-      "installDesc": "Anleitung zum Schweißen (PDF)",
-      "range": "Produktprogramm",
-      "rangeDesc": "Komplettes Produktprogramm mit Maßen (PDF)",
-      "features": "Produkteigenschaften",
-      "featuresDesc": "Materialeigenschaften & Systemvorteile (PDF)"
+      "install": "სამონტაჟო სახელმძღვანელო",
+      "installDesc": "შედუღების ინსტრუქცია (PDF)",
+      "range": "პროდუქციის პროგრამა",
+      "rangeDesc": "პროდუქციის სრული პროგრამა ზომებით (PDF)",
+      "features": "პროდუქტის თვისებები",
+      "featuresDesc": "მასალის თვისებები და სისტემური უპირატესობები (PDF)"
     },
     "tools": {
-      "metaTitle": "PP-R Werkzeuge & Zubehör für Rohrsysteme",
-      "metaDesc": "Entdecken Sie professionelle K-Aqua Werkzeuge und Zubehörteile. Für sichere, effiziente und langlebige Installationen von PP-R und PP-RCT Rohrleitungssystemen.",
+      "metaTitle": "PP-R ინსტრუმენტები და აქსესუარები მილსადენი სისტემებისთვის",
+      "metaDesc": "აღმოაჩინეთ K-Aqua-ს პროფესიული ინსტრუმენტები და აქსესუარები. PP-R და PP-RCT მილსადენი სისტემების უსაფრთხო, ეფექტიანი და ხანგამძლივი მონტაჟისთვის.",
       "heroEyebrow": "German Engineering",
-      "heroTitle": "Werkzeuge & Zubehör.",
-      "heroSubtitle": "Absolute Präzision.",
-      "heroDesc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Wo Materialversagen keine Option ist.",
-      "heroBtnPrimary": "Projekt anfragen",
-      "heroBtnSecondary": "Technische Daten",
-      "bentoEyebrow": "Das K Aqua Ökosystem",
-      "bentoTitle": "Werkzeuge für globale Megaprojekte.",
-      "bentoLead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten und hochpräzises Equipment.",
-      "bento1Title": "Heizelemente-Muffenschweißgeräte",
-      "bento1Desc": "Für Dimensionen 20 mm bis 125 mm. Kompakte, robuste Bauweise für den harten Baustelleneinsatz.",
-      "bento2Title": "Rohrschneider & Scheren",
-      "bento2Desc": "Ergonomische Designs für ermüdungsfreies Arbeiten und perfekte 90°-Schnitte.",
-      "bento3Title": "Stumpfschweißmaschinen",
-      "bento3Desc": "Für Nennweiten bis zu 250 mm. CNC-gesteuert für absolute Wiederholgenauigkeit.",
-      "bento4Title": "Reparatursets & Zubehör",
-      "bento4Desc": "Bohrerköpfe, Reparatursättel und Lochsägen für nachträgliche Abzweige.",
-      "scrollEyebrow": "Tiefe Technologie",
-      "scrollTitle": "Kein Raum für Fehlertoleranzen.",
-      "scrollLead": "Entdecken Sie die technologischen Details, die unser Werkzeug zur ersten Wahl für geprüfte Installateure machen.",
-      "scroll1Title": "Perfekte Thermodynamik. Bei jeder Schweißung.",
-      "scroll1Desc": "Unsere Heizelemente-Muffenschweißgeräte sind mit hochpräzisen, teflonbeschichteten Heizdornen und Heizbuchsen ausgestattet. Die mikroprozessorgesteuerte Temperaturregelung garantiert eine konstante Schweißtemperatur von 260°C, selbst bei extremen Außentemperaturen auf globalen Baustellen. So entsteht eine untrennbare, homogene Verbindung auf molekularer Ebene.",
-      "scroll2Title": "CNC-gesteuerte Stumpfschweißung.",
-      "scroll2Desc": "Für große Nennweiten (bis zu 250 mm und mehr) setzen wir auf CNC-gesteuerte Stumpfschweißmaschinen. Automatische Druck- und Zeitberechnung eliminieren menschliche Fehlerquellen. Jeder Schweißzyklus wird digital protokolliert, um eine lückenlose Rückverfolgbarkeit für die Bauabnahme sicherzustellen. German Engineering auf höchstem Niveau.",
-      "scroll3Title": "Präzisions-Rohrschäler. Auf den Millimeter genau.",
-      "scroll3Desc": "Die Vorbereitung ist 80% der Schweißung. Unsere mechanischen und elektrischen Rohrschäler entfernen die Oxidschicht von K Aqua Rohren mit absolut gleichmäßiger Schnitttiefe. Dies verhindert Mikrorisse und stellt eine perfekte Fusionsebene her. Ein Werkzeug, das Generationen überdauert.",
-      "scroll4Title": "Kaltkreissägen für exakte Schnitte.",
-      "scroll4Desc": "Rohrscheren können das Material verformen. Unsere industriellen Kaltkreissägen garantieren perfekt rechtwinklige, gratfreie Schnitte. Das Resultat: Keine spannungsinduzierten Risse, kein Druckverlust, absolute Planparallelität vor dem Schweißvorgang.",
-      "timelineTitle": "Der K Aqua Schweißprozess",
-      "timelineDesc": "Vom Schnitt bis zur molekularen Fusion. Ein standardisierter Prozess, der zu 100% dichten und wartungsfreien Rohrsystemen führt.",
-      "timeline1Year": "Phase 1: Materialvorbereitung",
-      "timeline1Title": "Der perfekte Schnitt.",
-      "timeline1Text": "Ein gratfreier, 90-Grad-Schnitt ist das Fundament jeder dauerhaften Verbindung. Unsere Präzisionsschneider und Kaltkreissägen garantieren eine absolut plane Oberfläche ohne mikrostrukturelle Verformungen des Polypropylens.",
-      "timeline2Year": "Phase 2: Kalibrierung & Schälen",
-      "timeline2Title": "Entfernung der Oxidschicht.",
-      "timeline2Text": "Vor dem Schweißen wird das Rohr exakt kalibriert und die äußere Oxidschicht mit unseren speziellen Schäler-Werkzeugen auf den Millimeter genau abgetragen. Das ermöglicht eine 100% reine Oberfläche für den Fusionsprozess.",
-      "timeline3Year": "Phase 3: Thermische Fusion",
-      "timeline3Title": "Molekulare Verschmelzung.",
-      "timeline3Text": "Rohr und Fitting werden simultan auf der teflonbeschichteten Heizmatrix auf exakt 260°C erwärmt. Der mikroprozessorgesteuerte Thermostat der K Aqua Schweißgeräte hält die Temperatur konstant, unabhängig von Wind oder Wetter.",
-      "timeline4Year": "Phase 4: Die Verbindung",
-      "timeline4Title": "Lebenslange Sicherheit.",
-      "timeline4Text": "Innerhalb der vorgegebenen Umstellzeit werden die erhitzten Bauteile ohne Verdrehen ineinandergefügt. Nach der Auskühlphase entsteht ein neues, absolut homogenes Werkstück. Wartungsfrei für über 50 Jahre.",
-      "specsTitle": "Industrielle Autorität. <br/> Bis ins Detail.",
-      "specsP1": "Seit Jahrzehnten bündeln wir in unserem Stammwerk im Herzen Deutschlands handwerklichen Stolz mit modernster, hochautomatisierter Fertigungstechnologie.",
-      "specsP2": "Im Einsatz in den härtesten Wüsten und extremsten Klimazonen der Welt beweist sich unser Material jeden Tag aufs Neue. Wir setzen den Standard, dem der Rest der Welt folgt.",
-      "specsList1": "ISO 9001 geprüft",
-      "specsList2": "Teflon PTFE Beschichtung der Güteklasse A",
-      "specsList3": "Digitale Temperaturkalibrierung",
-      "ctaTitle": "Bereit für kompromisslose Qualität?",
-      "ctaDesc": "Sprechen Sie mit unserem Engineering Team über Ihr nächstes Megaprojekt und fordern Sie Muster unserer Werkzeuge an.",
-      "ctaBtn": "Projektanfrage starten",
+      "heroTitle": "ინსტრუმენტები და აქსესუარები.",
+      "heroSubtitle": "აბსოლუტური სიზუსტე.",
+      "heroDesc": "ეს მოდული უზრუნველყოფს უკომპრომისო უსაფრთხოებას მსოფლიოს ყველაზე მომთხოვნი პროექტებისთვის. დამზადებულია უმკაცრესი ინდუსტრიული სტანდარტების მიხედვით, თაობების გასაძლებად. იქ, სადაც მასალის მწყობრიდან გამოსვლა დაუშვებელია.",
+      "heroBtnPrimary": "პროექტის მოთხოვნა",
+      "heroBtnSecondary": "ტექნიკური მონაცემები",
+      "bentoEyebrow": "K Aqua-ს ეკოსისტემა",
+      "bentoTitle": "ინსტრუმენტები გლობალური მეგაპროექტებისთვის.",
+      "bentoLead": "როდესაც საერთაშორისო გენერალური კონტრაქტორები მილიარდიან პროექტებს გეგმავენ, ისინი ეყრდნობიან არა დაპირებებს, არამედ მყარ ფაქტებსა და მაღალი სიზუსტის აღჭურვილობას.",
+      "bento1Title": "გამახურებელი ელემენტიანი მუფტური შედუღების აპარატები",
+      "bento1Desc": "20 მმ-დან 125 მმ-მდე ზომებისთვის. კომპაქტური, მყარი კონსტრუქცია მძიმე სამშენებლო პირობებისთვის.",
+      "bento2Title": "მილის საჭრელები და მაკრატლები",
+      "bento2Desc": "ერგონომიული დიზაინი დაუღლელი მუშაობისა და იდეალური 90°-იანი ჭრილებისთვის.",
+      "bento3Title": "ტორსული შედუღების მანქანები",
+      "bento3Desc": "ნომინალური ზომებისთვის 250 მმ-მდე. CNC-მართვადი აბსოლუტური განმეორებადობისთვის.",
+      "bento4Title": "სარემონტო კომპლექტები და აქსესუარები",
+      "bento4Desc": "საბურღი თავები, სარემონტო უნაგირები და ხვრელსაჭრელი ხერხები შემდგომი განშტოებებისთვის.",
+      "scrollEyebrow": "სიღრმისეული ტექნოლოგია",
+      "scrollTitle": "ცდომილებისთვის ადგილი არ არის.",
+      "scrollLead": "გაეცანით ტექნოლოგიურ დეტალებს, რომლებიც ჩვენს ინსტრუმენტებს სერტიფიცირებული მემონტაჟეების პირველ არჩევანად აქცევს.",
+      "scroll1Title": "იდეალური თერმოდინამიკა. ყოველ შედუღებაზე.",
+      "scroll1Desc": "ჩვენი გამახურებელი ელემენტიანი მუფტური შედუღების აპარატები აღჭურვილია მაღალი სიზუსტის, ტეფლონით დაფარული გამახურებელი დორნებითა და ბუდეებით. მიკროპროცესორული ტემპერატურის რეგულირება უზრუნველყოფს შედუღების მუდმივ 260°C ტემპერატურას, ექსტრემალური გარე ტემპერატურის პირობებშიც კი, გლობალურ სამშენებლო მოედნებზე. ასე იქმნება განუყოფელი, ჰომოგენური შეერთება მოლეკულურ დონეზე.",
+      "scroll2Title": "CNC-მართვადი ტორსული შედუღება.",
+      "scroll2Desc": "დიდი ნომინალური ზომებისთვის (250 მმ-მდე და მეტი) ვიყენებთ CNC-მართვად ტორსული შედუღების მანქანებს. წნევისა და დროის ავტომატური გამოთვლა გამორიცხავს ადამიანურ შეცდომებს. ყოველი შედუღების ციკლი ციფრულად ფიქსირდება, რაც უზრუნველყოფს სრულ მიკვლევადობას სამშენებლო მიღება-ჩაბარებისთვის. German Engineering უმაღლეს დონეზე.",
+      "scroll3Title": "პრეციზიული მილის სახოკები. მილიმეტრული სიზუსტით.",
+      "scroll3Desc": "მომზადება შედუღების 80%-ია. ჩვენი მექანიკური და ელექტრული მილის სახოკები K Aqua-ს მილებიდან ოქსიდის ფენას აბსოლუტურად თანაბარი ჭრის სიღრმით აშორებენ. ეს ხელს უშლის მიკრობზარებს და ქმნის იდეალურ ფუზიის ზედაპირს. ინსტრუმენტი, რომელიც თაობებს უძლებს.",
+      "scroll4Title": "ცივი ჭრის დისკური ხერხები ზუსტი ჭრილებისთვის.",
+      "scroll4Desc": "მილის მაკრატლებმა შესაძლოა მასალა დაადეფორმირონ. ჩვენი სამრეწველო ცივი ჭრის დისკური ხერხები უზრუნველყოფენ იდეალურად მართკუთხა, ბურბუშელას გარეშე ჭრილებს. შედეგი: არანაირი ძაბვით გამოწვეული ბზარი, არანაირი წნევის დანაკარგი, აბსოლუტური სიბრტყითი პარალელურობა შედუღების პროცესამდე.",
+      "timelineTitle": "K Aqua-ს შედუღების პროცესი",
+      "timelineDesc": "ჭრილიდან მოლეკულურ ფუზიამდე. სტანდარტიზებული პროცესი, რომელიც 100%-ით ჰერმეტულ და მოვლისგან თავისუფალ მილსადენ სისტემებს ქმნის.",
+      "timeline1Year": "ფაზა 1: მასალის მომზადება",
+      "timeline1Title": "იდეალური ჭრილი.",
+      "timeline1Text": "ბურბუშელას გარეშე, 90-გრადუსიანი ჭრილი ყოველი ხანგამძლივი შეერთების საფუძველია. ჩვენი პრეციზიული საჭრელები და ცივი ჭრის დისკური ხერხები უზრუნველყოფენ აბსოლუტურად ბრტყელ ზედაპირს პოლიპროპილენის მიკროსტრუქტურული დეფორმაციების გარეშე.",
+      "timeline2Year": "ფაზა 2: კალიბრაცია და ხოკვა",
+      "timeline2Title": "ოქსიდის ფენის მოცილება.",
+      "timeline2Text": "შედუღებამდე მილი ზუსტად კალიბრდება და გარე ოქსიდის ფენა ჩვენი სპეციალური სახოკი ინსტრუმენტებით მილიმეტრული სიზუსტით სცილდება. ეს უზრუნველყოფს 100%-ით სუფთა ზედაპირს ფუზიის პროცესისთვის.",
+      "timeline3Year": "ფაზა 3: თერმული ფუზია",
+      "timeline3Title": "მოლეკულური შერწყმა.",
+      "timeline3Text": "მილი და ფიტინგი ერთდროულად ხურდება ტეფლონით დაფარულ გამახურებელ მატრიცაზე ზუსტად 260°C-მდე. K Aqua-ს შედუღების აპარატების მიკროპროცესორული თერმოსტატი ტემპერატურას მუდმივად ინარჩუნებს, ქარისა და ამინდის მიუხედავად.",
+      "timeline4Year": "ფაზა 4: შეერთება",
+      "timeline4Title": "უსაფრთხოება მთელი სიცოცხლისთვის.",
+      "timeline4Text": "განსაზღვრული გადართვის დროის ფარგლებში გახურებული კომპონენტები მოტრიალების გარეშე ერთმანეთში ჯდება. გაცივების ფაზის შემდეგ იქმნება ახალი, აბსოლუტურად ჰომოგენური ნაკეთობა. მოვლისგან თავისუფალი 50 წელზე მეტი ხნის განმავლობაში.",
+      "specsTitle": "ინდუსტრიული ავტორიტეტი. <br/> უმცირეს დეტალამდე.",
+      "specsP1": "ათწლეულების განმავლობაში ჩვენს მთავარ ქარხანაში, გერმანიის გულში, ხელოსნურ სიამაყეს უახლეს, მაღალავტომატიზებულ საწარმოო ტექნოლოგიასთან ვაერთიანებთ.",
+      "specsP2": "მსოფლიოს ყველაზე მკაცრ უდაბნოებსა და უკიდურეს კლიმატურ ზონებში გამოყენებისას ჩვენი მასალა ყოველდღიურად ხელახლა ამტკიცებს თავის ღირსებას. ჩვენ ვადგენთ სტანდარტს, რომელსაც დანარჩენი მსოფლიო მიჰყვება.",
+      "specsList1": "ISO 9001 სერტიფიცირებული",
+      "specsList2": "A კლასის ტეფლონის PTFE საფარი",
+      "specsList3": "ტემპერატურის ციფრული კალიბრაცია",
+      "ctaTitle": "მზად ხართ უკომპრომისო ხარისხისთვის?",
+      "ctaDesc": "ესაუბრეთ ჩვენს საინჟინრო გუნდს თქვენი მომდევნო მეგაპროექტის შესახებ და მოითხოვეთ ჩვენი ხელსაწყოების ნიმუშები.",
+      "ctaBtn": "პროექტის მოთხოვნის დაწყება",
       "hero": {
-        "eyebrow": "Werkzeuge & Zubehör",
-        "title": "Schweißwerkzeuge für die PP-R Installation",
-        "lead": "Muffenschweißgeräte, Heizwendel-Technik und Kalibrierwerkzeug: Mit K Aqua Originalwerkzeugen entstehen normgerechte, dauerhaft dichte Schweißverbindungen auf jeder Baustelle. Professionelle Werkzeuge für die PP-R Installation."
+        "eyebrow": "ხელსაწყოები და აქსესუარები",
+        "title": "შესადუღებელი ხელსაწყოები PP-R მონტაჟისთვის",
+        "lead": "მუფტური შედუღების აპარატები, ელექტროფუზიური ტექნოლოგია და საკალიბრაციო ხელსაწყოები: K Aqua ორიგინალური ხელსაწყოებით ყველა სამშენებლო ობიექტზე იქმნება სტანდარტების შესაბამისი, მუდმივად ჰერმეტული შედუღებული შეერთებები. პროფესიონალური ხელსაწყოები PP-R მონტაჟისთვის."
       }
     },
     "valves": {
-      "metaTitle": "PP-R Armaturen & Ventile für Rohrsysteme",
-      "metaDesc": "Entdecken Sie hochwertige Armaturen und Ventile von K-Aqua. Maximale Sicherheit und Langlebigkeit durch German Engineering für anspruchsvolle Rohrnetze.",
-      "heroEyebrow": "Die Armaturen-Klasse",
-      "heroTitle": "Absolute Kontrolle.",
-      "heroSubtitle": "Unter höchstem Druck.",
-      "heroDesc": "Willkommen in der obersten Liga der Strömungstechnik. K Aqua Ventile und Armaturen sind nicht einfach nur Komponenten. Sie sind das unbestechliche Herzstück globaler Infrastruktur. Gefertigt für die Ewigkeit.",
-      "heroBtnPrimary": "Technologie anfragen",
-      "heroBtnSecondary": "Die Architektur entdecken",
-      "manifestoTitle": "Wenn das Material nachgibt, bricht das System. <br/><span class=\"text-primary\">Wir geben nicht nach.</span>",
-      "manifestoP1": "In der industriellen Strömungstechnik ist ein Ventil niemals nur ein Schalter für Flüssigkeiten. Es ist der kritische Knotenpunkt, an dem kinetische Energie, extremer Druck, thermische Ausdehnung und chemische Aggressivität aufeinandertreffen.",
-      "manifestoP2": "Hier trennt sich banale Massenware von echter Ingenieurskunst. Unsere Armaturen sind massiv überdimensioniert, paranoid genau gefertigt und für Szenarien gebaut, die andere Hersteller als \"unmöglich\" bezeichnen würden. Das verstehen wir unter <span class=\"text-foreground font-bold\">German Engineering</span>.",
-      "scrollEyebrow": "Die Genese der Perfektion",
-      "scrollTitle": "Vom Rohstoff bis zur unzerstörbaren Armatur.",
-      "scrollLead": "Begleiten Sie den Entstehungsprozess eines K Aqua Ventils. Ein kompromissloser Weg durch Hitze, Druck und mikroskopische Präzision.",
-      "scroll1Title": "Makelloses Rohmaterial",
-      "scroll1Desc": "Unsere Ventile und Armaturen beginnen ihre Existenz als reines, industriell geprüftes Hochleistungs-Material. Durch strenge spektralanalytische Untersuchungen garantieren wir bereits vor dem ersten Fräskopf-Einsatz, dass absolut keine mikrostrukturellen Schwachstellen vorhanden sind. Dies ist die unverhandelbare Grundlage für die spätere absolute Korrosionsbeständigkeit und mechanische Integrität im jahrelangen Dauereinsatz.",
-      "scroll2Title": "Hochpräzise CNC-Bearbeitung",
-      "scroll2Desc": "Jedes einzelne Bauteil wird in unserem Werk auf hochmodernen 5-Achs-CNC-Bearbeitungszentren mit einer absurden Toleranz von unter einem tausendstel Millimeter aus dem Vollen gefertigt. Diese kompromisslose Präzision sorgt dafür, dass Dichtflächen perfekt aufeinanderliegen. Sie eliminiert Leckagerisiken vollständig und garantiert einen absolut reibungslosen, seidenweichen und verschleißfreien Betrieb, auch noch nach Jahrzehnten.",
-      "scroll3Title": "Kavitationsfreie Strömung",
-      "scroll3Desc": "Ein Ventil ist nur so gut wie sein inneres Strömungsprofil. Mithilfe fortschrittlichster numerischer Strömungsmechanik (CFD) haben wir die internen Konturen so gestaltet, dass Turbulenzen und Kavitation praktisch ausgeschlossen sind. Das bedeutet weniger Druckverlust im Gesamtsystem und absolute Geräuschminimierung selbst bei höchsten Fließgeschwindigkeiten.",
-      "scroll4Title": "100% Endprüfung. Keine Ausnahmen.",
-      "scroll4Desc": "Stichproben reichen nicht aus, wenn Milliarden-Infrastrukturen auf dem Spiel stehen. Bevor eine Armatur das K Aqua Werk verlässt, wird sie einem vollautomatisierten, robotischen Prüfzyklus unterzogen, der die realen Belastungen um ein Vielfaches übersteigt. Hydraulische Hochdrucktests, Helium-Vakuum-Lecktests und thermische Schockprüfungen garantieren unsere legendäre Null Fehler-Quote.",
-      "showcaseEyebrow": "Anatomie der Zuverlässigkeit",
-      "showcaseTitle": "Keine Schwachstellen. <br/> Keine toten Winkel.",
-      "showcaseP1": "Die innere Architektur unserer Armaturen ist konsequent auf <span class=\"font-semibold\">Totraumfreiheit</span> getrimmt. Stagnationszonen, in denen sich Bakterien wie Legionellen vermehren könnten, sind geometrisch eliminiert.",
-      "showcaseP2": "Das Wasser schießt in einer perfekt geführten laminaren Strömung durch den Ventilkörper. Die massiven Dichtsitze sind selbstreinigend und schließen selbst nach dem millionsten Zyklus hermetisch ab.",
-      "showcaseList1": "geprüfte Trinkwasserhygiene nach höchsten Standards",
-      "showcaseList2": "Hermetische Abdichtung bei maximalem Betriebsdruck",
-      "showcaseList3": "Wartungsfreie Spindelabdichtungen mit Doppel-O-Ring",
-      "bentoEyebrow": "Spezifikationen",
-      "bentoTitle": "Die nackten Zahlen der Überlegenheit.",
-      "bentoLead": "Wenn Marketing-Phrasen enden, sprechen die Daten. Entdecken Sie die technischen Parameter, die unsere Ventile zur ultimativen Wahl für Megaprojekte machen.",
-      "bento1Title": "PN25 Dauerdruckbelastung",
-      "bento1Desc": "Entwickelt für dauerhafte Hochdruckanwendungen jenseits der Norm. Die Wandstärken und Gewindekonstruktionen sind so massiv ausgelegt, dass sie selbst bei extremen Druckspitzen und Wasserschlägen nicht im Geringsten nachgeben. Ein monolithischer Block der Sicherheit.",
-      "bento2Title": "Thermische Souveränität",
-      "bento2Desc": "Von eisiger Kälte bis hin zu kochenden Vorlauftemperaturen. Das High End-Material behält seine volle Elastizität, versprödet nicht und widersteht thermischer Ausdehnung extrem effektiv.",
-      "bento3Title": "Chemische Resistenz",
-      "bento3Desc": "Korrosion ist ein Konzept aus der Vergangenheit. Unsere Armaturen sind immun gegen aggressive Bodenbeschaffenheiten, harte Wässer und chlorhaltige Desinfektionsmaßnahmen. Kein Rosten, kein Lochfraß.",
-      "bento4Title": "Industrielle Ergonomie & Haptik",
-      "bento4Desc": "Design trifft auf rohe Funktionalität. Die massiven Handräder, massereichen Hebel und präzise gearbeiteten Spindeln bieten selbst mit schweren Schutzhandschuhen ein sofortiges, taktiles und absolut präzises Feedback beim Schließen und Öffnen.",
-      "timelineEyebrow": "Der Weg der Härte.",
-      "timelineLead": "Ein Zeitstrahl der kompromisslosen Qualitätssicherung. Wie eine Idee zu einer industriellen Legende wird.",
-      "timeline1Year": "Phase 01",
-      "timeline1Title": "Molekulare Selektion",
-      "timeline1Text": "Auswahl von spezifisch für K Aqua formulierten metallischen Legierungen und Hochleistungs-Polymeren. Wir setzen auf absolute Kriechfestigkeit und maximale molekulare Stabilität.",
-      "timeline2Year": "Phase 02",
-      "timeline2Title": "CFD Strömungsoptimierung",
-      "timeline2Text": "Mithilfe von Supercomputern werden die inneren Strömungskanäle in Tausenden Iterationen berechnet, um den Fließwiderstand gegen Null zu minimieren.",
-      "timeline3Year": "Phase 03",
-      "timeline3Title": "Klimakammer-Stresstest",
-      "timeline3Text": "Prototypen durchlaufen monatelange Dauerbelastungstests in unseren Klimakammern bei bis zu 120°C, 25 Bar Druck und extremen chemischen Lösungen.",
-      "timeline4Year": "Phase 04",
-      "timeline4Title": "Robotische Serienfertigung",
-      "timeline4Text": "Die Überführung in unsere hochautomatisierte Industrie 4.0 Fertigungslinie. Wir erreichen maximale Reproduzierbarkeit bei minimalsten Toleranzen ohne menschliche Fehlerquelle.",
-      "timeline5Year": "Phase 05",
-      "timeline5Title": "Globaler Einsatz",
-      "timeline5Text": "Bereitstellung auf den kritischsten Baustellen der Welt, von Wüsten-Megaprojekten bis zu Offshore-Anlagen. Begleitet von unserem Field-Engineering Team.",
-      "finalTitle": "Bauen Sie für Generationen. <br/>Nicht für das nächste Wartungsintervall.",
-      "finalDesc": "In einer Welt, die zunehmend auf schnelle Obsoleszenz und billige Austauschprodukte setzt, stehen wir als stählerner Gegenpol. Eine K Aqua Armatur wird eingebaut und dann vergessen. Weil sie einfach funktioniert. Jahrzehnt für Jahrzehnt. Vertrauen Sie auf echte industrielle Autorität.",
-      "ctaTitle": "Bereit für absolute Kontrolle?",
-      "ctaDesc": "Sprechen Sie mit unseren Chef-Ingenieuren über die Spezifikationen Ihres nächsten Megaprojekts. Wir liefern die Lösungen für Probleme, die andere noch nicht einmal verstanden haben.",
-      "ctaBtnPrimary": "Technisches Consulting anfordern",
-      "ctaBtnSecondary": "Spezifikationen als PDF",
+      "metaTitle": "PP-R არმატურა და ვენტილები მილსადენი სისტემებისთვის",
+      "metaDesc": "აღმოაჩინეთ K-Aqua-ს მაღალხარისხიანი არმატურა და ვენტილები. მაქსიმალური უსაფრთხოება და ხანგამძლეობა German Engineering-ის წყალობით მომთხოვნი მილსადენი ქსელებისთვის.",
+      "heroEyebrow": "არმატურის უმაღლესი კლასი",
+      "heroTitle": "აბსოლუტური კონტროლი.",
+      "heroSubtitle": "უმაღლესი წნევის პირობებში.",
+      "heroDesc": "კეთილი იყოს თქვენი მობრძანება ჰიდრავლიკური ინჟინერიის უმაღლეს ლიგაში. K Aqua-ს ვენტილები და არმატურა უბრალო კომპონენტები არ არის. ისინი გლობალური ინფრასტრუქტურის ურყევი გულია. დამზადებული მარადისობისთვის.",
+      "heroBtnPrimary": "ტექნოლოგიის მოთხოვნა",
+      "heroBtnSecondary": "აღმოაჩინეთ არქიტექტურა",
+      "manifestoTitle": "როცა მასალა თმობს, სისტემა ინგრევა. <br/><span class=\"text-primary\">ჩვენ არ ვთმობთ.</span>",
+      "manifestoP1": "ინდუსტრიულ ჰიდრავლიკურ ინჟინერიაში ვენტილი არასოდეს არის მხოლოდ სითხეების ჩამრთველი. ის კრიტიკული კვანძია, სადაც ერთმანეთს ხვდება კინეტიკური ენერგია, უკიდურესი წნევა, თერმული გაფართოება და ქიმიური აგრესიულობა.",
+      "manifestoP2": "სწორედ აქ განსხვავდება ბანალური მასობრივი პროდუქცია ნამდვილი საინჟინრო ხელოვნებისგან. ჩვენი არმატურა მასიურად გაზრდილი მარაგითაა გათვლილი, პარანოიდული სიზუსტითაა დამზადებული და შექმნილია სცენარებისთვის, რომლებსაც სხვა მწარმოებლები „შეუძლებელს\" უწოდებდნენ. ეს არის ის, რასაც ჩვენ <span class=\"text-foreground font-bold\">German Engineering</span>-ს ვუწოდებთ.",
+      "scrollEyebrow": "სრულყოფილების გენეზისი",
+      "scrollTitle": "ნედლეულიდან ურღვევ არმატურამდე.",
+      "scrollLead": "თვალი მიადევნეთ K Aqua ვენტილის შექმნის პროცესს. უკომპრომისო გზა სიცხის, წნევისა და მიკროსკოპული სიზუსტის გავლით.",
+      "scroll1Title": "უნაკლო ნედლეული",
+      "scroll1Desc": "ჩვენი ვენტილები და არმატურა თავიანთ არსებობას იწყებენ სუფთა, ინდუსტრიულად შემოწმებული მაღალეფექტური მასალის სახით. მკაცრი სპექტრალურ-ანალიზური კვლევებით ჯერ კიდევ საფრეზო თავაკის პირველ გამოყენებამდე ვიძლევით გარანტიას, რომ აბსოლუტურად არავითარი მიკროსტრუქტურული სისუსტე არ არსებობს. ეს არის შემდგომი აბსოლუტური კოროზიამედეგობისა და მექანიკური მთლიანობის ურყევი საფუძველი მრავალწლიანი უწყვეტი ექსპლუატაციისას.",
+      "scroll2Title": "მაღალპრეციზიული CNC დამუშავება",
+      "scroll2Desc": "თითოეული დეტალი ჩვენს ქარხანაში ულტრათანამედროვე 5-ღერძიან CNC დამამუშავებელ ცენტრებზე მთლიანი მასალისგან მზადდება, მილიმეტრის მეათასედზე ნაკლები წარმოუდგენელი დაშვებით. ეს უკომპრომისო სიზუსტე უზრუნველყოფს, რომ შემამჭიდროებელი ზედაპირები იდეალურად ერგებიან ერთმანეთს. ის სრულად გამორიცხავს გაჟონვის რისკებს და უზრუნველყოფს აბსოლუტურად გლუვ, აბრეშუმივით რბილ და უცვეთ მუშაობას, ათწლეულების შემდეგაც კი.",
+      "scroll3Title": "უკავიტაციო ნაკადი",
+      "scroll3Desc": "ვენტილი მხოლოდ იმდენად კარგია, რამდენადაც მისი შიდა ნაკადის პროფილი. ყველაზე მოწინავე გამოთვლითი ჰიდროდინამიკის (CFD) დახმარებით შიდა კონტურები ისე დავაპროექტეთ, რომ ტურბულენტობა და კავიტაცია პრაქტიკულად გამორიცხულია. ეს ნიშნავს ნაკლებ წნევის დანაკარგს მთლიან სისტემაში და ხმაურის აბსოლუტურ მინიმიზაციას ნაკადის უმაღლესი სიჩქარეების დროსაც კი.",
+      "scroll4Title": "100% საბოლოო კონტროლი. გამონაკლისების გარეშე.",
+      "scroll4Desc": "შერჩევითი კონტროლი საკმარისი არ არის, როცა მილიარდიანი ინფრასტრუქტურაა სასწორზე. სანამ არმატურა K Aqua-ს ქარხანას დატოვებს, ის გადის სრულად ავტომატიზებულ, რობოტიზებულ საკონტროლო ციკლს, რომელიც რეალურ დატვირთვებს მრავალჯერ აღემატება. ჰიდრავლიკური მაღალი წნევის ტესტები, ჰელიუმ-ვაკუუმური ჰერმეტულობის ტესტები და თერმული შოკის გამოცდები უზრუნველყოფენ ჩვენს ლეგენდარულ ნულოვან წუნის მაჩვენებელს.",
+      "showcaseEyebrow": "საიმედოობის ანატომია",
+      "showcaseTitle": "სუსტი წერტილების გარეშე. <br/> ბრმა ზონების გარეშე.",
+      "showcaseP1": "ჩვენი არმატურის შიდა არქიტექტურა თანმიმდევრულად არის მორგებული <span class=\"font-semibold\">მკვდარი ზონების სრულ არარსებობაზე</span>. სტაგნაციის ზონები, სადაც ბაქტერიები, მაგალითად ლეგიონელები, შეიძლება გამრავლდნენ, გეომეტრიულად აღმოფხვრილია.",
+      "showcaseP2": "წყალი ვენტილის კორპუსში იდეალურად მართული ლამინარული ნაკადით მიედინება. მასიური შემამჭიდროებელი ბუდეები თვითგამწმენდია და ჰერმეტულად იკეტება მემილიონე ციკლის შემდეგაც კი.",
+      "showcaseList1": "შემოწმებული სასმელი წყლის ჰიგიენა უმაღლესი სტანდარტების შესაბამისად",
+      "showcaseList2": "ჰერმეტული შემჭიდროება მაქსიმალურ სამუშაო წნევაზე",
+      "showcaseList3": "მოვლისგან თავისუფალი შპინდელის შემჭიდროებები ორმაგი O-რგოლით",
+      "bentoEyebrow": "სპეციფიკაციები",
+      "bentoTitle": "უპირატესობის შიშველი ციფრები.",
+      "bentoLead": "სადაც მარკეტინგული ფრაზები მთავრდება, მონაცემები ალაპარაკდება. აღმოაჩინეთ ტექნიკური პარამეტრები, რომლებიც ჩვენს ვენტილებს მეგაპროექტების საბოლოო არჩევანად აქცევს.",
+      "bento1Title": "PN25 ხანგრძლივი წნევის დატვირთვა",
+      "bento1Desc": "შემუშავებულია ნორმის მიღმა არსებული მუდმივი მაღალი წნევის გამოყენებისთვის. კედლის სისქეები და ხრახნული კონსტრუქციები იმდენად მასიურადაა გათვლილი, რომ უკიდურესი წნევის პიკებისა და ჰიდრავლიკური დარტყმების დროსაც კი ოდნავადაც არ თმობენ. უსაფრთხოების მონოლითური ბლოკი.",
+      "bento2Title": "თერმული სუვერენულობა",
+      "bento2Desc": "ყინულოვანი სიცივიდან მდუღარე მიწოდების ტემპერატურებამდე. High-End მასალა ინარჩუნებს სრულ ელასტიურობას, არ ხდება მყიფე და უკიდურესად ეფექტურად უძლებს თერმულ გაფართოებას.",
+      "bento3Title": "ქიმიური მდგრადობა",
+      "bento3Desc": "კოროზია წარსულის კონცეფციაა. ჩვენი არმატურა იმუნურია აგრესიული ნიადაგის პირობების, ხისტი წყლისა და ქლორის შემცველი სადეზინფექციო ღონისძიებების მიმართ. არავითარი ჟანგი, არავითარი წერტილოვანი კოროზია.",
+      "bento4Title": "ინდუსტრიული ერგონომიკა და ტაქტილურობა",
+      "bento4Desc": "დიზაინი ხვდება უშუალო ფუნქციონალურობას. მასიური ხელის ბორბლები, მძიმეწონიანი ბერკეტები და ზუსტად დამუშავებული შპინდელები მძიმე დამცავი ხელთათმანებითაც კი უზრუნველყოფენ მყისიერ, ტაქტილურ და აბსოლუტურად ზუსტ უკუკავშირს დახურვისა და გაღების დროს.",
+      "timelineEyebrow": "სიმტკიცის გზა.",
+      "timelineLead": "უკომპრომისო ხარისხის უზრუნველყოფის ქრონოლოგია. როგორ იქცევა იდეა ინდუსტრიულ ლეგენდად.",
+      "timeline1Year": "ფაზა 01",
+      "timeline1Title": "მოლეკულური სელექცია",
+      "timeline1Text": "სპეციალურად K Aqua-სთვის შემუშავებული ლითონის შენადნობებისა და მაღალეფექტური პოლიმერების შერჩევა. ჩვენ ვეყრდნობით ცოცვადობის აბსოლუტურ მედეგობას და მაქსიმალურ მოლეკულურ სტაბილურობას.",
+      "timeline2Year": "ფაზა 02",
+      "timeline2Title": "CFD ნაკადის ოპტიმიზაცია",
+      "timeline2Text": "სუპერკომპიუტერების დახმარებით შიდა ნაკადის არხები ათასობით იტერაციაში გამოითვლება, რათა დინების წინაღობა ნულამდე შემცირდეს.",
+      "timeline3Year": "ფაზა 03",
+      "timeline3Title": "სტრეს-ტესტი კლიმატურ კამერაში",
+      "timeline3Text": "პროტოტიპები ჩვენს კლიმატურ კამერებში მრავალთვიან ხანგრძლივი დატვირთვის ტესტებს გადიან 120°C-მდე ტემპერატურაზე, 25 ბარ წნევასა და უკიდურეს ქიმიურ ხსნარებში.",
+      "timeline4Year": "ფაზა 04",
+      "timeline4Title": "რობოტიზებული სერიული წარმოება",
+      "timeline4Text": "გადასვლა ჩვენს მაღალავტომატიზებულ Industrie 4.0 საწარმოო ხაზზე. ვაღწევთ მაქსიმალურ განმეორებადობას მინიმალური დაშვებებით, ადამიანური შეცდომის წყაროს გარეშე.",
+      "timeline5Year": "ფაზა 05",
+      "timeline5Title": "გლობალური გამოყენება",
+      "timeline5Text": "მიწოდება მსოფლიოს ყველაზე კრიტიკულ სამშენებლო ობიექტებზე, უდაბნოს მეგაპროექტებიდან ოფშორულ დანადგარებამდე. ჩვენი Field-Engineering გუნდის თანხლებით.",
+      "finalTitle": "ააშენეთ თაობებისთვის. <br/>და არა მომდევნო ტექმომსახურების ინტერვალისთვის.",
+      "finalDesc": "სამყაროში, რომელიც სულ უფრო მეტად ეყრდნობა სწრაფ მოძველებას და იაფფასიან შესაცვლელ პროდუქტებს, ჩვენ ფოლადისებურ საპირწონედ ვდგავართ. K Aqua-ს არმატურა მონტაჟდება და შემდეგ ავიწყდებათ. იმიტომ, რომ ის უბრალოდ მუშაობს. ათწლეულიდან ათწლეულამდე. ენდეთ ნამდვილ ინდუსტრიულ ავტორიტეტს.",
+      "ctaTitle": "მზად ხართ აბსოლუტური კონტროლისთვის?",
+      "ctaDesc": "ესაუბრეთ ჩვენს მთავარ ინჟინრებს თქვენი მომდევნო მეგაპროექტის სპეციფიკაციების შესახებ. ჩვენ გთავაზობთ გადაწყვეტებს პრობლემებისთვის, რომლებიც სხვებს ჯერ არც კი გაუაზრებიათ.",
+      "ctaBtnPrimary": "ტექნიკური კონსულტაციის მოთხოვნა",
+      "ctaBtnSecondary": "სპეციფიკაციები PDF ფორმატში",
       "hero": {
         "eyebrow": "K Aqua სარქველები",
         "title": "აბსოლუტური კონტროლი.",
@@ -4636,11 +4590,11 @@
         "lead": "სადაც მილები ხვდება, ჩვენი ფიტინგები უზრუნველყოფენ 100% გაჟონვისგან დაცულ, ჰომოგენურ შედუღებას."
       },
       "intro": {
-        "eyebrow": "Die Industrielle Autorität",
-        "title": "Sicherheit ist kein Zufall. Sie ist berechenbar.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten. Wir setzen den Standard, dem der Rest der Welt folgt.",
-        "text1": "Seit Jahrzehnten bündeln wir in unserem Stammwerk im Herzen Deutschlands handwerklichen Stolz mit modernster, hochautomatisierter Fertigungstechnologie. Jeder Winkel, jede Muffe, jedes T-Stück trägt die unverkennbare DNA deutscher Ingenieurskunst. Im Einsatz in den härtesten Wüsten, extremsten Klimazonen und anspruchsvollsten Industrieanlagen der Welt beweist sich unser Material jeden Tag aufs Neue.",
-        "text2": "Die Verschmelzung von Makromolekülen in unserem PP-R System schafft ein Rohrleitungsnetzwerk ohne Schwachstellen. Es gibt keine Dichtungsringe, die korrodieren können, keine Klebestellen, die durch Chemikalien angegriffen werden. Das Rohr und das Fitting werden thermisch zu einem einzigen, untrennbaren Werkstück verschmolzen. Dies ist die absolute Definition von Sicherheit."
+        "eyebrow": "ინდუსტრიული ავტორიტეტი",
+        "title": "უსაფრთხოება შემთხვევითობა არ არის. ის გამოთვლადია.",
+        "lead": "როცა საერთაშორისო გენერალური კონტრაქტორები მილიარდიან პროექტებს გეგმავენ, ისინი დაპირებებს კი არა, მყარ ფაქტებს ენდობიან. ჩვენ ვადგენთ სტანდარტს, რომელსაც დანარჩენი მსოფლიო მიჰყვება.",
+        "text1": "ათწლეულების განმავლობაში ჩვენს მთავარ ქარხანაში, გერმანიის გულში, ვაერთიანებთ ხელოსნურ სიამაყეს უახლეს, მაღალავტომატიზებულ საწარმოო ტექნოლოგიასთან. ყოველი მუხლი, ყოველი მუფტა, ყოველი T-ელემენტი გერმანული საინჟინრო ხელოვნების უტყუარ დნმ-ს ატარებს. მსოფლიოს ყველაზე მკაცრ უდაბნოებში, უკიდურეს კლიმატურ ზონებსა და ყველაზე მომთხოვნ ინდუსტრიულ ობიექტებზე ჩვენი მასალა ყოველდღიურად ხელახლა ამტკიცებს თავის ღირსებას.",
+        "text2": "ჩვენს PP-R სისტემაში მაკრომოლეკულების შერწყმა ქმნის მილსადენ ქსელს სუსტი წერტილების გარეშე. აქ არ არის შემამჭიდროებელი რგოლები, რომლებიც შეიძლება დაკოროზირდეს, არც წებოვანი შეერთებები, რომლებსაც ქიმიკატები აზიანებს. მილი და ფიტინგი თერმულად ერწყმის ერთმანეთს ერთიან, განუყოფელ ნაკეთობად. ეს არის უსაფრთხოების აბსოლუტური განმარტება."
       },
       "sticky": {
         "eyebrow": "ინჟინერია",
@@ -4666,9 +4620,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Leistungsdaten",
-        "title": "Spezifikationen jenseits des Standards.",
-        "lead": "Während die Industrie Normen als Ziel betrachtet, sehen wir sie lediglich als absolutes Minimum.",
+        "eyebrow": "საექსპლუატაციო მონაცემები",
+        "title": "სპეციფიკაციები სტანდარტის მიღმა.",
+        "lead": "სანამ ინდუსტრია ნორმებს მიზნად განიხილავს, ჩვენ მათ მხოლოდ აბსოლუტურ მინიმუმად აღვიქვამთ.",
         "items": [
           {
             "title": "DIN EN ISO 15874",
@@ -4689,8 +4643,8 @@
         ]
       },
       "timeline": {
-        "title": "Der Genesis-Prozess",
-        "desc": "Von der molekularen Rohmasse zum unzerstörbaren Bauteil. Ein Blick in unsere hochgradig automatisierte Fertigungsmatrix.",
+        "title": "გენეზისის პროცესი",
+        "desc": "მოლეკულური ნედლი მასიდან ურღვევ დეტალამდე. შეხედეთ ჩვენს მაღალავტომატიზებულ საწარმოო მატრიცას.",
         "items": [
           {
             "year": "Schritt 01",
@@ -4720,15 +4674,15 @@
         ]
       },
       "depth": {
-        "title": "Lebensdauer > 50 Jahre. Garantiert.",
-        "text": "Die Zeit ist der ultimative Stresstest für jedes Material. Unsere Fittings sind darauf ausgelegt, die Lebensdauer des Gebäudes selbst zu übertreffen. Durch die Zugabe von speziellen Antioxidantien und thermischen Stabilisatoren in unsere PP-R Matrix wird die thermisch-oxidative Alterung massiv verzögert. Selbst bei kontinuierlichen Vorlauftemperaturen von 70°C und Druckbelastungen von 10 Bar garantieren wir eine Standzeit von über einem halben Jahrhundert. Das ist kein Marketing. Das ist angewandte Polymerphysik.",
-        "badge": "100% Wartungsfrei"
+        "title": "ექსპლუატაციის ვადა > 50 წელი. გარანტირებულად.",
+        "text": "დრო ნებისმიერი მასალის საბოლოო სტრეს-ტესტია. ჩვენი ფიტინგები ისეა შექმნილი, რომ თავად შენობის სიცოცხლის ხანგრძლივობას გადააჭარბონ. ჩვენს PP-R მატრიცაში სპეციალური ანტიოქსიდანტებისა და თერმული სტაბილიზატორების დამატებით თერმო-ოქსიდაციური დაძველება მასიურად ფერხდება. 70°C-ის უწყვეტი მიწოდების ტემპერატურისა და 10 ბარის წნევის დატვირთვის პირობებშიც კი ვიძლევით ნახევარ საუკუნეზე მეტი ექსპლუატაციის ვადის გარანტიას. ეს მარკეტინგი არ არის. ეს გამოყენებითი პოლიმერული ფიზიკაა.",
+        "badge": "100% მოვლისგან თავისუფალი"
       },
       "cta": {
         "title": "იხილეთ ყველა ფიტინგი",
         "desc": "ფართო ასორტიმენტი ყველა ინსტალაციისთვის.",
         "primary": "პროდუქტების ნახვა",
-        "secondary": "Gesamtes Sortiment ansehen"
+        "secondary": "მთელი ასორტიმენტის ნახვა"
       }
     },
     "pipes": {
@@ -4765,8 +4719,8 @@
         ]
       },
       "timeline": {
-        "title": "Null Fehlertoleranz",
-        "desc": "Jeder Zentimeter unserer Rohre wird im Extrusionsprozess überwacht. Vom Granulat bis zum fertigen Produkt: Qualität Made in Germany.",
+        "title": "ნულოვანი წუნის დაშვება",
+        "desc": "ჩვენი მილების ყოველი სანტიმეტრი ექსტრუზიის პროცესში კონტროლდება. გრანულატიდან მზა პროდუქტამდე: ხარისხი Made in Germany.",
         "items": [
           {
             "year": "Stufe 01",
@@ -4796,9 +4750,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Spezifikationen",
-        "title": "Eine Dimension für jede Anforderung.",
-        "lead": "Skalierbar von d20 Hausanschlüssen bis zu d500 industriellen Steigleitungen. Unser System wächst mit den Dimensionen Ihres Projekts.",
+        "eyebrow": "სპეციფიკაციები",
+        "title": "ერთი განზომილება ყველა მოთხოვნისთვის.",
+        "lead": "მასშტაბირებადი d20 საშინაო შეერთებებიდან d500 ინდუსტრიულ ვერტიკალურ მაგისტრალებამდე. ჩვენი სისტემა თქვენი პროექტის მასშტაბებთან ერთად იზრდება.",
         "items": [
           {
             "title": "Dimensionen von d20 bis d500",
@@ -4835,14 +4789,14 @@
         "lead": "შეაერთეთ PP-R სისტემები ლითონის კომპონენტებთან გალვანური კოროზიის გარეშე, DZR თითბერის გამოყენებით."
       },
       "intro": {
-        "eyebrow": "Die Herausforderung",
-        "title": "Wo Welten kollidieren.",
-        "lead": "Der Übergang von starren metallischen Rohrleitungssystemen zu modernen thermoplastischen Netzwerken ist der Achillesnerv jeder Gebäude- und Industrieinstallation. Hier wirken maximale thermische und mechanische Scherkräfte."
+        "eyebrow": "გამოწვევა",
+        "title": "სადაც სამყაროები ეჯახებიან.",
+        "lead": "გადასვლა ხისტი ლითონის მილსადენი სისტემებიდან თანამედროვე თერმოპლასტიკურ ქსელებზე ყოველი შენობისა და ინდუსტრიული ინსტალაციის აქილევსის ქუსლია. სწორედ აქ მოქმედებს მაქსიმალური თერმული და მექანიკური ძვრის ძალები."
       },
       "sticky": {
         "eyebrow": "Deep Tech",
-        "title": "Anatomie der Unzerstörbarkeit.",
-        "lead": "Wir betrachten einen Übergangsfitting nicht als Zubehörteil, sondern als hochkomplexes mechanisches Instrument. Jeder Millimeter Wandstärke, jeder Gewindegang ist das Resultat unzähliger Finite-Elemente-Analysen (FEA).",
+        "title": "ურღვევობის ანატომია.",
+        "lead": "გარდამავალ ფიტინგს ჩვენ არა აქსესუარად, არამედ უაღრესად რთულ მექანიკურ ინსტრუმენტად განვიხილავთ. კედლის სისქის ყოველი მილიმეტრი, ყოველი ხრახნის ხვია უამრავი სასრული ელემენტების ანალიზის (FEA) შედეგია.",
         "items": [
           {
             "title": "Die Symbiose von Metall und Polymer",
@@ -4863,9 +4817,9 @@
         ]
       },
       "bento": {
-        "eyebrow": "Spezifikationen",
-        "title": "Architektur der Leistung.",
-        "lead": "Wenn Sie Megaprojekte mit zehntausenden Verbindungen planen, ist statistische Ausfallsicherheit der wichtigste ROI. K Aqua liefert Ihnen die physikalische Garantie dafür.",
+        "eyebrow": "სპეციფიკაციები",
+        "title": "ეფექტურობის არქიტექტურა.",
+        "lead": "როცა ათიათასობით შეერთების მქონე მეგაპროექტებს გეგმავთ, სტატისტიკური უმტყუნებობა ყველაზე მნიშვნელოვანი ROI-ია. K Aqua ამის ფიზიკურ გარანტიას გაძლევთ.",
         "items": [
           {
             "title": "DZR Brass Core",
@@ -4886,8 +4840,8 @@
         ]
       },
       "timeline": {
-        "title": "Der Fertigungszyklus",
-        "desc": "Ein Blick in unsere Manufaktur. Der Weg vom Rohmaterial zum geprüften Hybrid-Fitting ist ein Orchester aus Hitze, Druck und gnadenloser Präzision.",
+        "title": "წარმოების ციკლი",
+        "desc": "შეხედეთ ჩვენს მანუფაქტურას. გზა ნედლეულიდან შემოწმებულ ჰიბრიდულ ფიტინგამდე სიცხის, წნევისა და დაუნდობელი სიზუსტის ორკესტრია.",
         "items": [
           {
             "year": "Phase 1",
@@ -4917,9 +4871,9 @@
         ]
       },
       "stats": {
-        "eyebrow": "Zertifizierungen & Parameter",
-        "title": "Harte Fakten.",
-        "lead": "Wir testen nicht nur nach Norm. Wir definieren sie. Unsere internen Prüfprotokolle überschreiten die Anforderungen von DVGW, SKZ und ISO um bis zu 300%.",
+        "eyebrow": "სერტიფიკატები და პარამეტრები",
+        "title": "მყარი ფაქტები.",
+        "lead": "ჩვენ არა მხოლოდ ნორმის მიხედვით ვამოწმებთ. ჩვენ მას განვსაზღვრავთ. ჩვენი შიდა საკონტროლო პროტოკოლები DVGW-ის, SKZ-ისა და ISO-ს მოთხოვნებს 300%-მდე აღემატება.",
         "items": [
           {
             "label": "Betriebsdruck (PN)",
@@ -4965,9 +4919,9 @@
       },
       "cta": {
         "title": "დაუკავშირდით ყველაფერს",
-        "desc": "Verlassen Sie sich auf bewährte deutsche Ingenieurskunst. Kontaktieren Sie uns für technische Datenblätter, BIM-Modelle oder eine individuelle Projektberatung.",
+        "desc": "ენდეთ გამოცდილ გერმანულ საინჟინრო ხელოვნებას. დაგვიკავშირდით ტექნიკური მონაცემთა ფურცლების, BIM მოდელების ან ინდივიდუალური საპროექტო კონსულტაციისთვის.",
         "primary": "ტექნიკური დეტალები",
-        "secondary": "CAD & Spezifikationen"
+        "secondary": "CAD და სპეციფიკაციები"
       }
     },
     "hero": {
@@ -4977,9 +4931,9 @@
       "desc": "აღმოაჩინეთ K-Aqua-ს პრემიუმ PP-R მილების სისტემების სრული ასორტიმენტი. შექმნილია მაქსიმალური წნევის, ტემპერატურისა და ჰიგიენური მოთხოვნებისთვის მსოფლიოს ყველაზე მომთხოვნ პროექტებში."
     },
     "sticky": {
-      "eyebrow": "DAS PRODUKTSPEKTRUM",
-      "title": "KOMPROMISSLOSE INGENIEURSKUNST.",
-      "lead": "Jede Komponente ist Teil eines geschlossenen, perfekten Systems. Von der Einspeisung bis zum Endpunkt kontrollieren wir den Fluss von Wasser, Chemikalien und Gasen mit unerbittlicher Zuverlässigkeit.",
+      "eyebrow": "პროდუქციის სპექტრი",
+      "title": "უკომპრომისო საინჟინრო ხელოვნება.",
+      "lead": "თითოეული კომპონენტი დახურული, სრულყოფილი სისტემის ნაწილია. მიწოდების წერტილიდან საბოლოო წერტილამდე ჩვენ დაუნდობელი საიმედოობით ვაკონტროლებთ წყლის, ქიმიკატებისა და გაზების ნაკადს.",
       "items": [
         {
           "title": "PPR-ROHRSYSTEME: UNZERSTÖRBARE ADERN",
@@ -5000,9 +4954,9 @@
       ]
     },
     "bento": {
-      "eyebrow": "LEISTUNGSDATEN",
-      "title": "TECHNOLOGISCHE ÜBERLEGENHEIT. DATENGESTÜTZT.",
-      "lead": "K Aqua Systeme sind nicht nur Rohre. Sie sind Hochleistungs-Netzwerke für Flüssigkeiten. Entwickelt nach den striktesten deutschen Industrienormen.",
+      "eyebrow": "საექსპლუატაციო მონაცემები",
+      "title": "ტექნოლოგიური უპირატესობა. მონაცემებზე დაფუძნებული.",
+      "lead": "K Aqua-ს სისტემები მხოლოდ მილები არ არის. ისინი სითხეების მაღალეფექტური ქსელებია. შემუშავებული უმკაცრესი გერმანული ინდუსტრიული ნორმების მიხედვით.",
       "items": [
         {
           "title": "Thermische Fusion",
@@ -5023,8 +4977,8 @@
       ]
     },
     "timeline": {
-      "title": "DER INSTALLATIONSPROZESS. NEU DEFINIERT.",
-      "desc": "Schneller. Sicherer. Sauberer. Unser System reduziert die Installationszeit drastisch, während es Fehlerquellen auf ein Minimum reduziert. Eine Chronologie der Effizienz.",
+      "title": "მონტაჟის პროცესი. ახლებურად განსაზღვრული.",
+      "desc": "უფრო სწრაფად. უფრო უსაფრთხოდ. უფრო სუფთად. ჩვენი სისტემა მკვეთრად ამცირებს მონტაჟის დროს და შეცდომების წყაროებს მინიმუმამდე დაჰყავს. ეფექტიანობის ქრონოლოგია.",
       "items": [
         {
           "year": "PHASE 01",
@@ -5061,20 +5015,20 @@
         "desc": "აბსოლუტური ჰიგიენა და უსაფრთხოება კლინიკებისა და ჯანდაცვის დაწესებულებებისთვის. K Aqua PP-R სისტემები."
       },
       "hero": {
-        "eyebrow": "Mission-Critical Infrastructure",
-        "title1": "Krankenhäuser.",
-        "title2": "Null Fehlertoleranz.",
-        "desc": "In der medizinischen Maximalversorgung entscheidet die Infrastruktur über Leben und Tod. K Aqua liefert das hydrologische Nervensystem für die fortschrittlichsten Klinik-Megaprojekte der Welt. Gefertigt in Deutschland. Gebaut für die Ewigkeit.",
-        "cta1": "Engineering Consulting",
-        "cta2": "BIM Daten herunterladen"
+        "eyebrow": "Mission-Critical ინფრასტრუქტურა",
+        "title1": "საავადმყოფოები.",
+        "title2": "ნულოვანი შეცდომის დაშვება.",
+        "desc": "მაღალი დონის სამედიცინო მომსახურებაში ინფრასტრუქტურა სიცოცხლესა და სიკვდილს შორის წყვეტს. K Aqua აწვდის ჰიდროლოგიურ ნერვულ სისტემას მსოფლიოს ყველაზე მოწინავე კლინიკური მეგაპროექტებისთვის. დამზადებული გერმანიაში. აშენებული მარადისობისთვის.",
+        "cta1": "საინჟინრო კონსულტაცია",
+        "cta2": "BIM მონაცემების ჩამოტვირთვა"
       },
       "intro": {
-        "title": "Wo ein Tropfen Wasser <br className=\"hidden md:block\"/> das System kollabieren lässt.",
+        "title": "სადაც წყლის ერთი წვეთი <br className=\"hidden md:block\"/> სისტემას ანგრევს.",
         "lead": "სამედიცინო დაწესებულებები მოითხოვენ უმაღლეს სტანდარტებს.",
         "p1": "იმუნოდეფიციტის მქონე პაციენტებისთვის წყლის უმცირესმა დაბინძურებამაც კი შეიძლება სერიოზული შედეგები გამოიწვიოს.",
         "p2": "ჩვენი PP-R მილები ხელს უშლის ბიოფილმის წარმოქმნას მათი ულტრა-გლუვი შიდა ზედაპირის (0.007 მმ) გამო.",
         "p3": "ისინი სრულად უძლებენ საავადმყოფოებში აუცილებელ თერმულ და ქიმიურ დეზინფექციის პროცედურებს.",
-        "desc": "Generalunternehmer stehen bei Klinikprojekten vor einem unlösbaren Paradox: Enormer Zeitdruck bei der Errichtung trifft auf die strengsten hygienischen Vorgaben der Menschheitsgeschichte. Ein einziger Totraum im Rohrnetz, ein mikroskopischer Riss, eine korrodierende Verbindung: und Millioneninvestitionen sind gefährdet. Wir lösen dieses Paradox durch reine, kompromisslose deutsche Ingenieurskunst."
+        "desc": "კლინიკური პროექტების დროს გენერალური კონტრაქტორები გადაუჭრელი პარადოქსის წინაშე დგანან: მშენებლობის უზარმაზარი დროითი წნეხი ხვდება კაცობრიობის ისტორიაში ყველაზე მკაცრ ჰიგიენურ მოთხოვნებს. ერთი მკვდარი ზონა მილსადენ ქსელში, ერთი მიკროსკოპული ბზარი, ერთი კოროზირებადი შეერთება: და მილიონობით ინვესტიცია საფრთხის ქვეშაა. ჩვენ ამ პარადოქსს წმინდა, უკომპრომისო გერმანული საინჟინრო ხელოვნებით ვხსნით."
       },
       "features": {
         "items": [
@@ -5246,12 +5200,12 @@
         "desc": "ჩუმი, ჰიგიენური და საიმედო მილების სისტემები პრემიუმ სასტუმროებისთვის."
       },
       "hero": {
-        "eyebrow": "HOTELS & RESORTS INFRASTRUKTUR",
-        "title1": "Die Architektur der Stille.",
+        "eyebrow": "სასტუმროებისა და კურორტების ინფრასტრუქტურა",
+        "title1": "სიჩუმის არქიტექტურა.",
         "title2": "Engineered in Germany.",
-        "desc": "Wenn Milliarden in die Entwicklung globaler Luxusresorts investiert werden, darf das Unsichtbare niemals zum Risiko werden. K Aqua liefert kompromisslose Rohrleitungssysteme für die anspruchsvollsten Hotelprojekte der Welt. Gefertigt für die Ewigkeit, konzipiert für absolute Sicherheit.",
-        "cta1": "Projekt evaluieren",
-        "cta2": "Technisches Whitepaper"
+        "desc": "როცა მილიარდები იდება გლობალური ლუქს-კურორტების განვითარებაში, უხილავი არასოდეს უნდა იქცეს რისკად. K Aqua აწვდის უკომპრომისო მილსადენ სისტემებს მსოფლიოს ყველაზე მომთხოვნი სასტუმრო პროექტებისთვის. დამზადებული მარადისობისთვის, შექმნილი აბსოლუტური უსაფრთხოებისთვის.",
+        "cta1": "პროექტის შეფასება",
+        "cta2": "ტექნიკური Whitepaper"
       },
       "intro": {
         "title": "სტუმართმოყვარეობის სტანდარტი.",
@@ -5379,39 +5333,6 @@
             "unit": "დღე",
             "title": "მხარდაჭერა",
             "desc": "სწრაფი."
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "პროცესი",
-        "desc": "როგორ ვმუშაობთ."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Ausstattung von 800 Suiten und 4 riesigen Poollandschaften. Extreme Salinität und Umgebungstemperaturen von bis zu 50°C erforderten maximale thermische und chemische Beständigkeit. K Aqua lieferte das komplette Kalt- und Warmwassernetz inklusive District Cooling Anbindung."
-          },
-          {
-            "year": "Schweiz",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Ein 6-Sterne Resort auf 2.000 Metern Höhe. Die Herausforderung: Extreme Frostgefahr während der Bauphase und maximale Anforderungen an die Schallisolation. Unsere PP-R Faserverbundrohre absorbierten thermische Längenänderungen souverän und garantierten lautlosen Betrieb."
-          },
-          {
-            "year": "Singapur",
-            "title": "Vertical Forest Hotel",
-            "text": "Ein 65-stöckiges Meisterwerk ökologischer Architektur. Das komplexe Bewässerungssystem für tausende Balkonpflanzen sowie die gesamte Trinkwasserinfrastruktur wurden mit K Aqua realisiert. Die homogene Schweißtechnik bewahrte das Gebäude vor mikroskopischen Leckagen."
-          },
-          {
-            "year": "Malediven",
-            "title": "Zero-Emission Island Resort",
-            "text": "Direkt über dem Riff erbaut, war absolute Umweltverträglichkeit gefordert. K Aqua Rohre sind zu 100% recycelbar, geben keinerlei Mikroplastik oder Schwermetalle ab und widerstehen der hochgradig korrosiven salzhaltigen Seeluft ohne jeden Verschleiß."
-          },
-          {
-            "year": "Zukunft",
-            "title": "Ihr nächstes Megaprojekt",
-            "text": "Die Grenzen der Architektur verschieben sich täglich. Wir sind bereit, das Fundament für Ihre kühnsten Visionen zu gießen. Mit Technologie, die ihrer Zeit Jahrzehnte voraus ist."
           }
         ]
       },
@@ -5615,16 +5536,16 @@
       "metaDesc": "შეამცირეთ მშენებლობის დრო K Aqua-ს წინასწარ აწყობილი PP-R მილების მოდულებით. სიზუსტე ქარხნიდან პირდაპირ თქვენს სამშენებლო მოედანზე.",
       "hero": {
         "badge": "German Engineering. Global Impact.",
-        "title1": "Vorfertigung.",
-        "title2": "Neu definiert.",
+        "title1": "წინასწარი აწყობა.",
+        "title2": "ახლებურად განსაზღვრული.",
         "p1": "რთული ინსტალაციები სამშენებლო მოედანზე დროსა და ფულს მოითხოვს. ჩვენი წინასწარი აწყობის (Prefabrication) სერვისით, ჩვენ გთავაზობთ მზა, შემოწმებულ მილების მოდულებს.",
         "p2": "თქვენ იღებთ 100% ზუსტ კოლექტორებს და ამწე მილებს, რომლებიც პირდაპირ მზადაა დასამონტაჟებლად.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technische Spezifikationen",
-        "desc": "Die industrielle Autorität für makellose, vorgefertigte Rohrleitungssysteme. Entwickelt, um Generationen zu überdauern, gefertigt mit der Präzision, die den Weltmarkt anführt. Wo Fehler keine Option sind, beginnt K Aqua."
+        "cta1": "პროექტის მოთხოვნა",
+        "cta2": "ტექნიკური სპეციფიკაციები",
+        "desc": "ინდუსტრიული ავტორიტეტი უნაკლო, წინასწარ აწყობილი მილსადენი სისტემებისთვის. შემუშავებული, რომ თაობებს გაუძლოს, დამზადებული სიზუსტით, რომელიც მსოფლიო ბაზარს ლიდერობს. სადაც შეცდომა დაუშვებელია, იქ K Aqua იწყება."
       },
       "timeline": {
-        "title": "Von der CAD-Zeichnung zur Baustelle.",
+        "title": "CAD ნახაზიდან სამშენებლო ობიექტამდე.",
         "events": [
           {
             "title": "Phase 1: Engineering & BIM",
@@ -5656,18 +5577,18 @@
         "lead": "როგორ მუშაობს."
       },
       "manifesto": {
-        "eyebrow": "Das Manifest der Langlebigkeit",
-        "title": "Zugelassen für die anspruchsvollsten Umgebungen des Planeten.",
-        "p1": "K Aqua Vorfertigungen sind nicht für den Durchschnitt gemacht. Sie sind für das Extreme entworfen. Wenn die Außentemperaturen in Dubai auf 50°C steigen oder in skandinavischen Wintern tief unter den Gefrierpunkt fallen, bleibt die Integrität unserer Polypropylen-Strukturen unangetastet.",
-        "p2": "Unsere Trinkwassersysteme erfüllen die strengsten hygienischen Anforderungen weltweit, einschließlich KTW-BWGL und W270. Das Material gibt keinerlei Geruch, Geschmack oder Schadstoffe an das Wasser ab. Es verhindert proaktiv das Wachstum von Legionellen durch seine extrem glatte innere Oberfläche, die keine Nährböden für Biofilme bietet.",
-        "p3": "Gleichzeitig sind unsere industriellen Kühl- und Heizwasserleitungen in der Lage, aggressivsten Chemikalien standzuhalten. Die SDR-Klassifizierungen (Standard Dimension Ratio) unserer Rohre erlauben eine exakte Anpassung an die spezifischen Druck- und Temperaturprofile Ihres Projekts.",
-        "p4": "Wir betrachten Vorfertigung nicht als bloße Dienstleistung, sondern als eine architektonische Verantwortung. Jedes Modul, das auf der Baustelle ankommt, ist sofort einbaufertig (Plug & Play). Es reduziert die Installationszeit um bis zu 70 %, minimiert den Ausschuss auf null und eliminiert die Notwendigkeit für großflächige Materiallagerung auf der Baustelle."
+        "eyebrow": "ხანგამძლეობის მანიფესტი",
+        "title": "დაშვებული პლანეტის ყველაზე მომთხოვნი გარემოებისთვის.",
+        "p1": "K Aqua-ს წინასწარი აწყობის მოდულები საშუალო მაჩვენებლისთვის არ არის შექმნილი. ისინი ექსტრემალურისთვისაა დაპროექტებული. როცა დუბაიში გარემოს ტემპერატურა 50°C-მდე ადის ან სკანდინავიურ ზამთარში ყინვის წერტილს დიდად სცდება, ჩვენი პოლიპროპილენის სტრუქტურების მთლიანობა ხელუხლებელი რჩება.",
+        "p2": "ჩვენი სასმელი წყლის სისტემები აკმაყოფილებს მსოფლიოში ყველაზე მკაცრ ჰიგიენურ მოთხოვნებს, მათ შორის KTW-BWGL-სა და W270-ს. მასალა წყალს არავითარ სუნს, გემოსა თუ მავნე ნივთიერებას არ გადასცემს. ის პროაქტიულად აფერხებს ლეგიონელების ზრდას თავისი უკიდურესად გლუვი შიდა ზედაპირით, რომელიც ბიოფილმებს საკვებ ნიადაგს არ უტოვებს.",
+        "p3": "ამავდროულად, ჩვენი ინდუსტრიული გამაგრილებელი და გამათბობელი წყლის მილსადენები ყველაზე აგრესიულ ქიმიკატებსაც უძლებენ. ჩვენი მილების SDR (Standard Dimension Ratio) კლასიფიკაციები იძლევა ზუსტ მორგებას თქვენი პროექტის სპეციფიკურ წნევისა და ტემპერატურის პროფილებზე.",
+        "p4": "წინასწარ აწყობას ჩვენ არა უბრალო მომსახურებად, არამედ არქიტექტურულ პასუხისმგებლობად განვიხილავთ. თითოეული მოდული, რომელიც სამშენებლო ობიექტზე ჩამოდის, მაშინვე მონტაჟისთვის მზადაა (Plug & Play). ის მონტაჟის დროს 70%-მდე ამცირებს, ნარჩენებს ნულამდე დაჰყავს და აღმოფხვრის ობიექტზე მასალის ფართომასშტაბიანი შენახვის საჭიროებას."
       },
       "cta": {
-        "title": "Bereit für kompromisslose Qualität?",
-        "desc": "Verlassen Sie sich bei Ihrem nächsten Megaprojekt auf die absolute Verlässlichkeit industrieller deutscher Vorfertigung. Unser Engineering Team wartet auf Ihre CAD-Modelle.",
-        "button1": "Projekt anfragen",
-        "button2": "Technischen Support kontaktieren"
+        "title": "მზად ხართ უკომპრომისო ხარისხისთვის?",
+        "desc": "თქვენს მომდევნო მეგაპროექტში ენდეთ ინდუსტრიული გერმანული წინასწარი აწყობის აბსოლუტურ საიმედოობას. ჩვენი საინჟინრო გუნდი თქვენს CAD მოდელებს ელოდება.",
+        "button1": "პროექტის მოთხოვნა",
+        "button2": "ტექნიკურ მხარდაჭერასთან დაკავშირება"
       },
       "meta": {
         "title": "წინასწარი აწყობა",
@@ -6282,7 +6203,7 @@
         "desc": "DVGW, SKZ, ISO და სხვა. აღმოაჩინეთ K Aqua მილსადენების სისტემების უკომპრომისო უსაფრთხოება და გერმანული ინჟინერიის ხარისხი."
       },
       "hero": {
-        "eyebrow": "German Engineering Standards",
+        "eyebrow": "German Engineering სტანდარტები",
         "title1": "სერტიფიკატები.",
         "title2": "Engineered in Germany.",
         "desc": "ეს მოდული უზრუნველყოფს უკომპრომისო უსაფრთხოებას ყველაზე მოთხოვნადი პროექტებისთვის მთელ მსოფლიოში. დამზადებულია უმაღლესი ინდუსტრიული სტანდარტებით, რათა გაუძლოს თაობებს. რადგან მასალის უკმარისობა არასოდეს არის ვარიანტი.",
@@ -6590,7 +6511,7 @@
     "retry": "სცადეთ ხელახლა",
     "titlePerfect": "შედუღების ოსტატი",
     "titleGood": "შედუღების შეგირდი",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "სასწავლო ვიდეოები და ინსტრუქციები"
   },
   "legal": {
     "impressum": {
@@ -6845,7 +6766,7 @@
       "title2": "ცოდნის ბაზა",
       "desc": "უკომპრომისო სიზუსტე. მონაცემებზე ორიენტირებული ანალიზები. ადგილი არ არის შეცდომის ტოლერანტობისთვის. ჩაეფლეთ K Aqua სისტემის არქიტექტურის სუფთა, დამოწმებულ ინჟინერიაში.",
       "status": "სისტემის სტატუსი: ონლაინ",
-      "clearance": "Clearance Level 4"
+      "clearance": "დაშვების დონე 4"
     },
     "deep": {
       "badge": "ძირითადი სპეციფიკაციები",
@@ -6945,61 +6866,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "შესადუღებელი უნაგირი (შიდა ხრახნი)",
     "weld-in-saddles_weld-in-saddle-male-thread": "შესადუღებელი უნაგირი (გარე ხრახნი)",
     "weld-in-saddles_weld-in-saddle": "შესადუღებელი უნაგირი",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "თავისუფალი ფლანეცი PP-ფოლადი (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R გადამხტომი მუხლი მუფტით",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "ხელის შესადუღებელი აპარატი d20-d32",
+    "tools_pipe-cutter-50125": "მილის საჭრელი d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "ხარისხი, რომელიც აკავშირებს",
-    "title": "რას ამბობენ ჩვენი კლიენტები და პარტნიორები",
-    "lead": "მშენებლებიდან ლოგისტიკურ კომპანიებამდე და გრძელვადიან თანამშრომლებამდე: K Aqua KWT GmbH წარმოადგენს უმაღლეს სიზუსტეს ვალდსოლმსიდან. წაიკითხეთ, თუ რა გამოცდილებას იღებენ ადამიანები ყოველდღიურად ჩვენი მომსახურებით და პროდუქტებით „დამზადებულია გერმანიაში“.",
-    "trustBadge": "Google მიმოხილვები",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(დაფუძნებულია 44 შეფასებაზე)",
-    "tabA": "ხარისხი & „დამზადებულია გერმანიაში“",
-    "tabB": "ლოგისტიკა & მიწოდება",
-    "tabC": "მომხმარებელთა სერვისი & გუნდი",
-    "reviews": {
-      "a1": "„ქარხანა ვალდსოლმსში, გერმანია, სპეციალიზირებულია PPR მილებსა და ფიტინგებზე **დამზადებულია გერმანიაში**. შესანიშნავი პერსონალი.“",
-      "a1Author": "ჯულიო C.",
-      "a2": "„**გერმანული ხარისხი** PPR საფარებში და ფიტინგებში, ძალიან მეგობრული პერსონალი.“",
-      "a2Author": "ვერონიკა P.",
-      "a3": "„**თანამედროვე კომპანია**. აწარმოებს ყველა ზომის პლასტმასის მილებს და აქსესუარებს.“",
-      "a3Author": "ევალდ S.",
-      "a4": "„PPR მილები და ფიტინგები **გერმანული წარმოების**, შესანიშნავი თანამშრომლები და პროდუქტები.“",
-      "a4Author": "კაის S.",
-      "a5": "„**მაღალი ხარისხის პროდუქტები** და საუკეთესო გერმანული ქარხანა.“",
-      "a5Author": "აბდუ4560 D. / ალ B. / ვიტო ნადირ H.",
-      "a6": "„ძალიან კარგი პროდუქცია, **საიმედო ხარისხი** და დროული მიწოდება.“",
-      "a6Author": "კლაუს T.",
-      "b1": "„ძალიან სასიამოვნო ურთიერთობა, **სწრაფი გადმოტვირთვა**. მომეცა საშუალება დიდი შესვენება გამეკეთებინა აქ. საშხაპე და ტუალეტიც შემომთავაზეს. აქ თავს, როგორც სატვირთოს მძღოლი, **დაფასებულად** გრძნობ. სიამოვნებით დავბრუნდები აქ.“",
-      "b1Author": "მაიკლ S.",
-      "b2": "„შესასვლელის ამჟამინდელი კოორდინატებია **50.428210, 8.499154**. დაახლოებით 100 მეტრში არის ავტოსადგომი. მეგობრული პერსონალი.“",
-      "b2Author": "ოლეგ M. / ჰასან S.",
-      "b3": "„**სწრაფი გადმოტვირთვა**, მეგობრული და დამხმარე პერსონალი.“",
-      "b3Author": "ბოგდან M.",
-      "c1": "„**ძალიან კარგი სერვისი**, შესანიშნავია, რომ ჯერ კიდევ იწარმოება გერმანიაში.“",
-      "c1Author": "დანიელ",
-      "c2": "„**ძალიან მეგობრული** და დამხმარე პერსონალი. ელფოსტას **მყისიერად პასუხობენ**.“",
-      "c2Author": "მუჰამედ M.",
-      "c3": "„თავმჯდომარიდან დაწყებული უბრალო მუშებით დამთავრებული: ისინი არიან **კარგი ხალხი**.“",
-      "c3Author": "აზიმ",
-      "c4": "„**შესანიშნავი კომპანია**, ბევრს აკეთებს თავისი ხალხისთვის.“",
-      "c4Author": "მონიკა v. B.",
-      "c5": "„თანამშრომლები არიან **ძალიან მეგობრული და დამხმარე**.“",
-      "c5Author": "პიერა V.",
-      "c6": "„კომპეტენტური გუნდი და **შესანიშნავი მომხმარებელთა მხარდაჭერა** ყველა დონეზე.“",
-      "c6Author": "სარა B."
-    },
-    "ctaTitle": "თავად დარწმუნდით ჩვენს სერვისში.",
-    "ctaText": "გაქვთ კითხვები ჩვენს PPR მილების სისტემებზე, ან გსურთ ჩვენთან პროექტის განხილვა? ჩვენი გუნდი ვალდსოლმსიდან თქვენს განკარგულებაშია.",
-    "ctaBtn": "დაგვიკავშირდით ახლავე",
-    "disclaimer": "შენიშვნა მიმოხილვების შემოწმების შესახებ: აქ წარმოდგენილი მიმოხილვები მოდის ჩვენი Google ბიზნეს პროფილიდან. Google აცხადებს: მიმოხილვები არ მოწმდება. ავტორების სახელები შევამოკლეთ მონაცემთა დაცვის მიზეზების გამო (GDPR)."
+    "valves_tee-90-female-thread-for-internal-valve": "T-ელემენტი 90° (შიდა ხრახნი) ჩაშენებული ვენტილისთვის"
   },
   "seoArticle": {
     "pipes": {
@@ -8268,7 +8142,7 @@
         "btnGhost": "დაუკავშირდით ექსპერტებს"
       },
       "metaTitle": "ტექნიკური მხარდაჭერა და მომსახურება PP-R მილების სისტემებისთვის",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "საინჟინრო კონსულტაცია, გამოყენებითი ტექნიკა და მხარდაჭერა ადგილზე."
     },
     "ausschreibungstexte": {
       "title": "სატენდერო ტექსტები",
@@ -8657,53 +8531,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "ინტერაქტიული",
+    "titleGrad": "რუკების პაკეტი",
+    "tabHq": "სათავო ოფისი ვალდზოლმსი",
+    "tabRefs": "ჰერმეტულობის რუკა",
+    "tabSpec": "სპეციფიკატორი",
+    "hqTitle": "ცენტრალური წარმოება და განვითარების ცენტრი",
+    "hqAddress": "ვალდზოლმს-ბრანდობერნდორფი, ჰესენი, გერმანია.",
+    "registryLabel": "სარეგისტრაციო სასამართლო:",
+    "phoneLabel": "ტელეფონი:",
+    "certLabel": "სერტიფიცირება:",
+    "directions": "მარშრუტის დამგეგმავის გახსნა",
+    "aboutPlant": "ვალდზოლმსის ქარხნის შესახებ",
+    "sectorFilter": "სექტორის ფილტრი:",
+    "specPlaceholder": "შეიყვანეთ ადგილი ან ქალაქი…",
+    "profileTitle": "ბაზრისა და ლოგისტიკის პროფილი",
+    "profileHint": "დააწკაპუნეთ რუკაზე ან მოძებნეთ ქალაქი, რომ სისტემის ავტომატური სპეციფიკაცია და მიწოდების მარშრუტების გამოთვლა გაეშვას.",
+    "marketAssign": "ბაზრის მიკუთვნება",
+    "normLabel": "ნორმა:",
+    "airDist": "პირდაპირი მანძილი (HQ)",
+    "roadDist": "გზა (სავარაუდო)",
+    "recommended": "რეკომენდებული მილსადენი სისტემა:",
+    "recUv": "UV-Protect გარე გარსი",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "ყველა სექტორი",
+      "hotel": "სასტუმრო",
+      "wohnen": "საცხოვრებელი მშენებლობა",
+      "infra": "ინფრასტრუქტურა",
+      "klinik": "კლინიკა",
+      "buero": "ოფისი"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "პროდუქცია",
+      "markets-solutions": "ბაზრები და გადაწყვეტები",
+      "academy-resources": "Academy და რესურსები",
+      "company": "კომპანია"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "მილების პროდუქტების მძებნელი",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "ფასონური ნაწილები და ფიტინგები",
+      "valves": "არმატურა და ვენტილები",
+      "tools": "ხელსაწყოები და აქსესუარები",
+      "transition": "გადასასვლელები მილებისთვის",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8716,48 +8590,51 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "პროექტის მოთხოვნა მილსადენი სისტემებისთვის",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "საიტის რუკა (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "აირჩიე შენი ენა",
+    "subtitle": "65 ენა · დაატრიალე გლობუსი, შეეხე რეგიონს, დაადასტურე.",
+    "searchPlaceholder": "მოძებნე ენა ან გვერდი …",
+    "pagesSection": "გვერდები და ნავიგაცია",
+    "noResults": "ენა ვერ მოიძებნა.",
+    "confirm": "დადასტურება",
+    "beta": "ბეტა",
+    "globalEffect": "ვრცელდება მთელ ვებგვერდზე",
+    "active": "აქტიური"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "როგორ შეგვიძლია დაგეხმაროთ?",
+    "step1Desc": "აირჩიეთ თქვენი საკითხის შესაბამისი განყოფილება.",
+    "optSales": "გაყიდვები და პროექტები",
+    "optSalesDesc": "ფასის მოთხოვნები, მსხვილი პროექტები და მიწოდების ვადები.",
+    "optTech": "ტექნიკური მხარდაჭერა",
+    "optTechDesc": "სპეციფიკაციები, მონტაჟი და სისტემის დაპროექტება.",
+    "optOther": "ზოგადი მოთხოვნა",
+    "optOtherDesc": "მარკეტინგი, კარიერა ან სხვა.",
+    "step2Title": "დეტალები თქვენი მოთხოვნის შესახებ",
+    "step2Desc": "გთხოვთ, მოკლედ აღწეროთ თქვენი პროექტი ან შეკითხვა.",
+    "messagePlaceholder": "თქვენი შეტყობინება ჩვენთვის...",
+    "step3Title": "თქვენი საკონტაქტო მონაცემები",
+    "step3Desc": "თითქმის დასრულდა! როგორ დაგიკავშირდეთ?",
+    "nameLabel": "სრული სახელი",
+    "companyLabel": "კომპანია / ორგანიზაცია",
+    "emailLabel": "ელფოსტის მისამართი",
+    "phoneLabel": "ტელეფონის ნომერი",
+    "step4Title": "შეტყობინება გაიგზავნა!",
+    "step4Desc": "გმადლობთ თქვენი მოთხოვნისთვის. ჩვენი ერთ-ერთი ექსპერტი მალე დაგიკავშირდებათ.",
+    "btnNext": "შემდეგი",
+    "btnBack": "უკან",
+    "btnSubmit": "მოთხოვნის გაგზავნა",
+    "btnSending": "იგზავნება…",
+    "btnHome": "მთავარ გვერდზე დაბრუნება",
+    "sendError": "გაგზავნა ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა ან დაგვირეკოთ პირდაპირ: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5"
   }
 }

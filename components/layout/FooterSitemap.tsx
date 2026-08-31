@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ChevronDown } from 'lucide-react';
+import { useRevealSafety } from '@/components/ui/Reveal';
 
 // Beschriftungen kommen aus messages/<locale>.json unter footerSitemap.*.
 // labelId und die Gruppen-id sind die Message-Keys.
@@ -144,12 +145,14 @@ function FooterAccordionGroup({ group }: { group: typeof sitemapGroups[0] }) {
 }
 
 export default function FooterSitemap() {
+  const forceVisible = useRevealSafety();
   return (
     <div className="w-full relative z-10 text-inverse-foreground" data-nosnippet="true">
       <div className="w-full">
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 lg:gap-y-12"
           initial="hidden"
+          animate={forceVisible ? 'visible' : undefined}
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
           variants={{

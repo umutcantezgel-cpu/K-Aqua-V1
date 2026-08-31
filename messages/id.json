@@ -46,30 +46,30 @@
     "edgePageIndex": "Indeks halaman",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Sistem Perpipaan",
+      "allProducts": "Semua Produk",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Aplikasi spesifik industri",
+      "digitalTools": "Alat Digital",
+      "finderDesc": "Konfigurasikan sistem yang tepat",
+      "co2Desc": "Hitung jejak lingkungan",
+      "academyDesc": "Pelatihan & sertifikat",
+      "trustDesc": "Unduhan & sertifikasi",
+      "serviceDesc": "Dukungan perencanaan",
+      "partnersDesc": "Jadilah mitra lokal",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Perusahaan",
+      "companyDesc": "Misi, visi & sejarah",
+      "careerDesc": "Lowongan kerja & budaya",
+      "newsPress": "Berita & Pers",
+      "newsDesc": "Siaran pers terbaru",
+      "sitemap": "Peta Situs",
+      "sitemapDesc": "Ikhtisar struktur",
+      "globalFootprint": "Jejak Global",
+      "globalMarkets": "Pasar Global",
+      "marketsDesc": "Wilayah tersertifikasi",
+      "refProjects": "Proyek Referensi",
+      "refDesc": "Instalasi yang sukses"
     }
   },
   "groups": {
@@ -476,7 +476,7 @@
     "type": "Jenis Produk",
     "types": {
       "mono": "PP-R Monolayer",
-      "fiber": "PPRCT Fiber Composite (GF)",
+      "fiber": "Komposit Serat PPRCT (GF)",
       "fitting": "Fiting"
     },
     "sdr": "Tingkat Tekanan (SDR)",
@@ -499,25 +499,25 @@
     "nextTitle": "Seberapa ramah iklim perencanaan Anda?",
     "nextLead": "Kirimkan dimensi dan panjang langsung ke kalkulator CO₂ dan bandingkan dengan tembaga, baja tahan karat, dan PVC.",
     "nextCta": "Ke Kalkulator CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Telusuri rangkaian produk lengkap kami berdasarkan kategori, nama, atau nomor artikel.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Pipa",
+    "catFittings": "Fitting",
+    "catValves": "Katup",
+    "catTools": "Perkakas",
+    "catTransitionFittings": "Fitting Transisi",
+    "catAccessories": "Aksesori",
+    "catWeldInSaddles": "Sadel Las PP-R Berkualitas Tinggi",
+    "category": "Kategori",
+    "search": "Pencarian",
+    "searchPlaceholder": "Nomor artikel atau nama...",
+    "foundFam": "keluarga produk ditemukan",
+    "catalogPdf": "Katalog dalam bentuk PDF",
+    "colName": "Nama produk",
+    "colCat": "Kategori",
+    "colCodes": "Nomor artikel",
+    "noResultsText": "Kami tidak menemukan produk yang sesuai dengan kriteria pencarian Anda. Silakan coba kata kunci lain atau ubah kategori.",
+    "resetFilters": "Atur ulang filter"
   },
   "trustAndCases": {
     "eyebrow": "Keamanan Bersertifikat",
@@ -969,8 +969,7 @@
         "d": "Kebersihan tidak dapat dinegosiasikan di sini: Permukaan bagian dalam yang halus (0.007 mm) menghambat biofilm dan inkrustasi, bahan tetap tidak berasa dan tidak berbau.",
         "pts": [
           "Netralitas Higienis",
-          "Bebas korosi: tidak ada korosi sumuran",
-          "Referensi: Rumah sakit baru Cape Town"
+          "Bebas korosi: tidak ada korosi sumuran"
         ]
       },
       {
@@ -978,8 +977,7 @@
         "d": "Sirkulasi air panas 24 jam sehari: konduktivitas termal yang rendah menghemat energi secara permanen, PPRCT menahan operasi kontinu 70 °C.",
         "pts": [
           "Efisiensi termal",
-          "PPRCT untuk sirkulasi",
-          "Referensi: Kompleks hotel Istanbul"
+          "PPRCT untuk sirkulasi"
         ]
       },
       {
@@ -996,8 +994,7 @@
         "d": "Versi yang distabilkan UV untuk irigasi di bawah kaca dan di luar ruangan: ringan, mudah dipasang, lebih tahan beku daripada sistem kaku.",
         "pts": [
           "Desain tahan UV",
-          "Berat yang ringan",
-          "Area aplikasi dari program referensi"
+          "Berat yang ringan"
         ]
       },
       {
@@ -1005,8 +1002,7 @@
         "d": "Jalur suplai dan jaringan dalam dimensi besar hingga d630: dilas butt menjadi string seragam dan rapat permanen.",
         "pts": [
           "d hingga 630 mm",
-          "Pengelasan Butt",
-          "Referensi: Infrastruktur Singapura"
+          "Pengelasan Butt"
         ]
       },
       {
@@ -2082,7 +2078,7 @@
     ],
     "fName": "Nama",
     "fCompany": "Perusahaan",
-    "fEmail": "Email",
+    "fEmail": "E-mail",
     "fPhone": "Telepon",
     "fMsg": "Pesan (opsional)",
     "privacy": "Dengan mengirimkan, Anda membuka email yang sudah diisi ke info@k-aqua.de. Tidak ada data yang disimpan di halaman ini.",
@@ -2308,7 +2304,7 @@
     "heroLead": "Untuk aplikasi industri, pasokan air minum, dan teknologi AC.",
     "telemetry": {
       "pressureLabel": "Tekanan Sistem",
-      "liveSuffix": "MPa live",
+      "liveSuffix": "MPa langsung",
       "tempLabel": "Suhu maks.",
       "tempNote": "PN20 · Operasi Berkelanjutan",
       "meta": [
@@ -2872,7 +2868,7 @@
         "btnGhost": "Hubungi Ahli"
       },
       "metaTitle": "Dukungan Teknis & Layanan untuk Sistem Pipa PP-R",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Konsultasi rekayasa, teknologi aplikasi, dan dukungan di lokasi."
     },
     "downloads": {
       "title": "Unduhan",
@@ -2972,7 +2968,7 @@
         "p1": "Dalam industri konstruksi, kesalahan sering kali baru terlihat bertahun-tahun setelah penyelesaian. Jika sistem perpipaan rusak di dalam dinding gedung pencakar langit 50 lantai, kerugiannya mencapai jutaan.",
         "p2": "Justru karena itulah kami menundukkan sistem kami pada uji penuaan ekstrem. Kami mensimulasikan 50 tahun beban terus-menerus di laboratorium bertekanan tinggi kami. Hasilnya mengalir langsung ke dokumen teknis kami.",
         "card1": {
-          "title": "99.9%",
+          "title": "99,9%",
           "desc": "Akurasi dimensi dalam ekstrusi, terdokumentasi di setiap batch."
         },
         "card2": {
@@ -3762,61 +3758,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Pelana Las (Ulir Dalam)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Pelana Las (Ulir Luar)",
     "weld-in-saddles_weld-in-saddle": "Pelana Las",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Flensa Lepas PP-Baja (SF/BF)",
+    "fittings_cross-over-with-socket": "Lengkung Silang PP-R dengan Soket",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Mesin Las Tangan d20-d32",
+    "tools_pipe-cutter-50125": "Pemotong Pipa d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Kualitas yang menghubungkan",
-    "title": "Apa kata pelanggan dan mitra kami",
-    "lead": "Kualitas buatan Waldsolms, Jerman. Baca sendiri pengalaman mereka.",
-    "trustBadge": "Ulasan Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Berdasarkan 44 ulasan)",
-    "tabA": "Kualitas & \"Buatan Jerman\"",
-    "tabB": "Logistik & Pengiriman",
-    "tabC": "Layanan Pelanggan & Tim",
-    "reviews": {
-      "a1": "“Pabrik di Waldsolms, mengkhususkan diri pada **Buatan Jerman**.”",
-      "a1Author": "Giulio C.",
-      "a2": "“**Kualitas Jerman**, staf yang sangat ramah.”",
-      "a2Author": "Veronica P.",
-      "a3": "“**Perusahaan modern**. Memproduksi pipa plastik semua ukuran.”",
-      "a3Author": "Ewald S.",
-      "a4": "“Pipa dan perlengkapan PPR dari **pabrikan Jerman**.”",
-      "a4Author": "Kais S.",
-      "a5": "“**Produk berkualitas tinggi**.”",
-      "a5Author": "Abdoo4560 D.",
-      "a6": "“Produk yang sangat baik, **kualitas andal** dan pengiriman tepat waktu.”",
-      "a6Author": "Klaus T.",
-      "b1": "“Penanganan yang sangat baik, **pembongkaran cepat**.”",
-      "b1Author": "Michael S.",
-      "b2": "“Staf yang ramah.”",
-      "b2Author": "Oleg M.",
-      "b3": "“**Pembongkaran cepat**.”",
-      "b3Author": "Bogdan M.",
-      "c1": "“**Layanan yang sangat baik**.”",
-      "c1Author": "Daniel",
-      "c2": "“Staf **sangat ramah**. Email **segera dibalas**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "“Orang-orang baik.”",
-      "c3Author": "Azim",
-      "c4": "“**Perusahaan hebat**.”",
-      "c4Author": "Monika v. B.",
-      "c5": "“Karyawan **sangat ramah**.”",
-      "c5Author": "Piera V.",
-      "c6": "“Tim yang kompeten.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Yakinkan diri Anda.",
-    "ctaText": "Ada pertanyaan? Tim kami siap membantu.",
-    "ctaBtn": "Hubungi Sekarang",
-    "disclaimer": "Catatan: Ulasan dari Profil Bisnis Google kami."
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Ulir Dalam) untuk Katup Tanam"
   },
   "kontaktBlocks": {
     "home": {
@@ -5659,7 +5608,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Lihat detail produk"
   },
   "products": {
     "narrative": {
@@ -6924,39 +6873,6 @@
             "unit": "",
             "title": "Upaya Pemeliharaan",
             "desc": "Pasang, segel, dan lupakan selamanya."
-          }
-        ]
-      },
-      "timelineSection": {
-        "title": "Referensi yang membuat sejarah.",
-        "desc": "Dari pulau buatan di Teluk Persia hingga resor ski paling eksklusif di Pegunungan Alpen. Di mana hal yang tidak mungkin dibangun, K-Aqua sudah ada di sana."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "Resor Ultra-Mewah The Palm Jumeirah",
-            "text": "Melengkapi 800 kamar kelas atas dan 4 area kolam renang yang luas. Salinitas ekstrem dan suhu sekitar hingga 50°C menuntut ketahanan termal dan kimia maksimum. K-Aqua memasok seluruh jaringan air dingin dan panas termasuk koneksi Pendingin Distrik."
-          },
-          {
-            "year": "Swiss",
-            "title": "Retret Alpine St. Moritz",
-            "text": "Resor bintang 6 di ketinggian 2.000 meter. Tantangannya: Risiko embun beku ekstrem selama fase konstruksi dan persyaratan maksimum untuk isolasi suara. Pipa komposit serat PP-R kami menyerap perubahan panjang termal dengan mudah dan menjamin operasi yang sunyi."
-          },
-          {
-            "year": "Singapura",
-            "title": "Hotel Hutan Vertikal",
-            "text": "Karya arsitektur ekologi 65 lantai. Sistem irigasi kompleks untuk ribuan tanaman balkon serta seluruh infrastruktur air minum direalisasikan dengan K-Aqua. Teknologi pengelasan homogen melindungi bangunan dari kebocoran mikroskopis."
-          },
-          {
-            "year": "Maladewa",
-            "title": "Resor Pulau Nol-Emisi",
-            "text": "Dibangun tepat di atas terumbu karang, kompatibilitas lingkungan mutlak diperlukan. Pipa K-Aqua 100% dapat didaur ulang, tidak melepaskan mikroplastik atau logam berat apa pun, dan menahan udara laut asin yang sangat korosif tanpa keausan."
-          },
-          {
-            "year": "Masa Depan",
-            "title": "Megaproyek Anda berikutnya",
-            "text": "Batas arsitektur bergeser setiap hari. Kami siap untuk menuangkan fondasi untuk visi Anda yang paling berani. Dengan teknologi yang puluhan tahun lebih maju dari zamannya."
           }
         ]
       },
@@ -8238,7 +8154,7 @@
     "retry": "Ulangi",
     "titlePerfect": "Sertifikat Diberikan",
     "titleGood": "Selamat Lulus",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Video pelatihan dan panduan"
   },
   "refs": {
     "eyebrow": "Referensi",
@@ -8254,55 +8170,13 @@
         "lon": 8.5,
         "title": "Waldsolms, Jerman",
         "d": "Pabrik utama & pengembangan: tempat setiap pipa K Aqua dibuat."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, UEA",
-        "d": "Pipa tegak gedung pencakar langit: PPRCT untuk air panas dalam kondisi gurun."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warsawa, Polandia",
-        "d": "Pembangunan kawasan permukiman baru: instalasi air minum lengkap d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turki",
-        "d": "Kompleks hotel: Pipa sirkulasi dengan pipa komposit serat."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapura",
-        "d": "Proyek infrastruktur: Dimensi besar hingga d630 menggunakan pengelasan butt (butt fusion)."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, Afrika Selatan",
-        "d": "Pembangunan rumah sakit baru: distribusi air minum yang higienis."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, UK",
-        "d": "Renovasi kantor: penggantian bebas korosi untuk jaringan perpipaan lama."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Lihat proyek"
   },
   "geoContent": {
     "frankfurt": {
-      "regulator": "DVGW / Trinkwasserverordnung (TrinkwV)",
+      "regulator": "DVGW / Peraturan Air Minum Jerman (TrinkwV)",
       "water": "Air Keras (14-20 °dH): PP-R/PPRCT bebas korosi mencegah inkrustasi kapur pada permukaan logam kasar.",
       "focus": [
         "Pipa Tegak Gedung Pencakar Langit (Distrik Bank)",
@@ -8640,53 +8514,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Interaktif",
+    "titleGrad": "Suite Peta",
+    "tabHq": "Kantor Pusat Waldsolms",
+    "tabRefs": "Peta Kekedapan",
+    "tabSpec": "Spesifikator",
+    "hqTitle": "Pusat Produksi & Pengembangan Utama",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, Jerman.",
+    "registryLabel": "Register perdagangan:",
+    "phoneLabel": "Telepon:",
+    "certLabel": "Sertifikasi:",
+    "directions": "Buka perencana rute",
+    "aboutPlant": "Tentang pabrik Waldsolms",
+    "sectorFilter": "Filter sektor:",
+    "specPlaceholder": "Masukkan lokasi atau kota…",
+    "profileTitle": "Profil Pasar & Logistik",
+    "profileHint": "Klik peta atau cari sebuah kota untuk memicu spesifikasi sistem otomatis dan perhitungan jalur pasokan.",
+    "marketAssign": "Penetapan pasar",
+    "normLabel": "Standar:",
+    "airDist": "Jarak udara (HQ)",
+    "roadDist": "Jalan darat (perkiraan)",
+    "recommended": "Sistem perpipaan yang direkomendasikan:",
+    "recUv": "Lapisan luar UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
+      "all": "Semua sektor",
       "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "wohnen": "Perumahan",
+      "infra": "Infrastruktur",
+      "klinik": "Klinik",
+      "buero": "Perkantoran"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Produk",
+      "markets-solutions": "Pasar & Solusi",
+      "academy-resources": "Academy & Sumber Daya",
+      "company": "Perusahaan"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Pencari Produk untuk Pipa",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Fitting & Sambungan",
+      "valves": "Katup & Kran",
+      "tools": "Perkakas & Aksesori",
+      "transition": "Transisi untuk Pipa",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8699,48 +8573,66 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Permintaan Proyek untuk Sistem Perpipaan",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Peta Situs (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Pilih bahasa Anda",
+    "subtitle": "65 bahasa · putar globe, ketuk wilayah, konfirmasi.",
+    "searchPlaceholder": "Cari bahasa atau halaman …",
+    "pagesSection": "Halaman & Navigasi",
+    "noResults": "Bahasa tidak ditemukan.",
+    "confirm": "Konfirmasi",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Berlaku untuk seluruh situs web",
+    "active": "aktif"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Bagaimana kami dapat membantu Anda?",
+    "step1Desc": "Pilih bidang yang sesuai dengan kebutuhan Anda.",
+    "optSales": "Penjualan & Proyek",
+    "optSalesDesc": "Permintaan harga, proyek besar, dan waktu pengiriman.",
+    "optTech": "Dukungan Teknis",
+    "optTechDesc": "Spesifikasi, instalasi, dan perancangan sistem.",
+    "optOther": "Pertanyaan Umum",
+    "optOtherDesc": "Pemasaran, karier, atau lainnya.",
+    "step2Title": "Detail permintaan Anda",
+    "step2Desc": "Mohon jelaskan secara singkat proyek atau pertanyaan Anda.",
+    "messagePlaceholder": "Pesan Anda kepada kami...",
+    "step3Title": "Data kontak Anda",
+    "step3Desc": "Hampir selesai! Bagaimana kami dapat menghubungi Anda?",
+    "nameLabel": "Nama Lengkap",
+    "companyLabel": "Perusahaan / Organisasi",
+    "emailLabel": "Alamat E-mail",
+    "phoneLabel": "Nomor Telepon",
+    "step4Title": "Pesan terkirim!",
+    "step4Desc": "Terima kasih atas permintaan Anda. Salah satu pakar kami akan segera menghubungi Anda.",
+    "btnNext": "Lanjut",
+    "btnBack": "Kembali",
+    "btnSubmit": "Kirim Permintaan",
+    "btnSending": "Sedang mengirim…",
+    "btnHome": "Kembali ke Beranda",
+    "sendError": "Pengiriman gagal. Silakan coba lagi atau hubungi kami langsung: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4,9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

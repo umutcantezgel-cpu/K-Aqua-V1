@@ -53,7 +53,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "Batafsil ma'lumot...",
   ]);
 
-  const stripPlaceholders = (obj: any): any => {
+  const stripPlaceholders = (obj: unknown): unknown => {
     if (typeof obj === 'string') {
       if (KNOWN_PLACEHOLDER_SET.has(obj.trim())) {
         return undefined;
@@ -64,7 +64,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       return obj.map(stripPlaceholders);
     }
     if (obj && typeof obj === 'object') {
-      const out: Record<string, any> = {};
+      const out: Record<string, unknown> = {};
       for (const [k, v] of Object.entries(obj)) {
         const cleaned = stripPlaceholders(v);
         if (cleaned !== undefined) {

@@ -11,7 +11,7 @@
   "toggle_theme_light": "Lumipat sa Light Mode",
   "toggle_theme_dark": "Lumipat sa Dark Mode",
   "nav": {
-    "home": "Home",
+    "home": "Simula",
     "products": "Mga Produkto",
     "finder": "Product Finder",
     "co2": "CO₂ Calculator",
@@ -46,30 +46,30 @@
     "edgePageIndex": "Indeks ng pahina",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Mga Sistema ng Tubo",
+      "allProducts": "Lahat ng Produkto",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Mga aplikasyong tiyak sa industriya",
+      "digitalTools": "Mga Digital na Tool",
+      "finderDesc": "I-configure ang tamang sistema",
+      "co2Desc": "Kalkulahin ang environmental footprint",
+      "academyDesc": "Mga pagsasanay at sertipiko",
+      "trustDesc": "Mga download at sertipikasyon",
+      "serviceDesc": "Suporta sa pagpaplano",
+      "partnersDesc": "Maging lokal na partner",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
+      "company": "Ang Kumpanya",
+      "companyDesc": "Misyon, bisyon at kasaysayan",
+      "careerDesc": "Mga bakanteng posisyon at kultura",
+      "newsPress": "Balita at Press",
+      "newsDesc": "Pinakabagong press release",
       "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "sitemapDesc": "Pangkalahatang-ideya ng istruktura",
+      "globalFootprint": "Pandaigdigang Footprint",
+      "globalMarkets": "Pandaigdigang Merkado",
+      "marketsDesc": "Mga sertipikadong rehiyon",
+      "refProjects": "Mga Reference Project",
+      "refDesc": "Mga matagumpay na instalasyon"
     }
   },
   "groups": {
@@ -391,8 +391,8 @@
     "enterpriseCore": "Enterprise Core",
     "highPerformance": "High-Performance Pipe Systems",
     "highPerformanceDesc": "Para sa mga industriyal na aplikasyon, supply ng inuming tubig, at pagkontrol sa klima sa ilalim ng matitinding kondisyon.",
-    "sysPressure": "System Pressure",
-    "tempMax": "Max Temperature",
+    "sysPressure": "Presyon ng Sistema",
+    "tempMax": "Maximum na Temperatura",
     "material": "Materyal",
     "norm": "Pamantayan",
     "certification": "Sertipikasyon",
@@ -436,7 +436,7 @@
       "heroSubtitle": "Ganap na Katumpakan.",
       "heroDesc": "Nag-aalok ang module na ito ng walang kompromisong kaligtasan para sa pinakamapanghamong mga proyekto sa buong mundo. Ginawa ayon sa pinakamahigpit na pamantayan sa industriya upang tumagal sa maraming henerasyon. Sa mga lugar kung saan ang materyal na bumibigay ay hindi opsyon.",
       "heroBtnPrimary": "Magtanong ng Proyekto",
-      "heroBtnSecondary": "Technical Data",
+      "heroBtnSecondary": "Teknikal na Datos",
       "bentoEyebrow": "Ang Ekosistema ng K Aqua",
       "bentoTitle": "Mga Tool para sa mga Pandaigdigang Megaproject.",
       "bentoLead": "Kapag nagpaplano ang mga international general contractor ng mga proyektong bilyong-pisong halaga, hindi sila nagtitiwala sa mga pangako, kundi sa mga batayang impormasyon at kagamitang may mataas na katumpakan.",
@@ -527,7 +527,7 @@
         ]
       },
       "fittings": {
-        "areas": "Drinking water network, Sanitary installation, Industrial distribution, Heating construction",
+        "areas": "Network ng inuming tubig, Instalasyong pansanitasyon, Pang-industriyang distribusyon, Konstruksyon ng heating",
         "advTitle": "Ligtas at homogenous na mga koneksyon",
         "advList": [
           "Homogenous na pag-weld: Ang pipe at fitting ay nag-iisa para maging hindi mapaghihiwalay na piraso.",
@@ -678,10 +678,10 @@
       "timeline2Title": "CFD Flow Optimization",
       "timeline2Text": "Sa tulong ng mga supercomputer, ang mga panloob na flow channel ay kinakalkula sa libu-libong mga pag-ulit upang mabawasan ang flow resistance nang halos maging zero.",
       "timeline3Year": "Phase 03",
-      "timeline3Title": "Climate Chamber Stress Test",
+      "timeline3Title": "Stress Test sa Climate Chamber",
       "timeline3Text": "Sumasailalim ang mga prototype sa mga buwan ng endurance testing sa aming climate chambers sa hanggang 120°C, 25 Bar na presyon, at matinding chemical solutions.",
       "timeline4Year": "Phase 04",
-      "timeline4Title": "Robotic Series Production",
+      "timeline4Title": "Robotic na Serye ng Produksyon",
       "timeline4Text": "Paglipat sa aming napaka-awtomatikong Industry 4.0 production line. Nakakamit namin ang pinakamataas na repeatability na may minimum tolerance nang walang human error.",
       "timeline5Year": "Phase 05",
       "timeline5Title": "Pandaigdigang Deployment",
@@ -693,7 +693,7 @@
       "ctaBtnPrimary": "Humingi ng Technical Consulting",
       "ctaBtnSecondary": "Espesipikasyon bilang PDF",
       "hero": {
-        "eyebrow": "Valves & Armatures",
+        "eyebrow": "Mga Balbula at Fitting",
         "title": "PP-R Armatures & Valves para sa tiyak na pagkontrol",
         "lead": "I-shut off, kontrolin, at i-secure: Pinagsasama ng K Aqua PP-R armatures ang corrosion-free hydraulics sa German manufacturing precision para sa inuming tubig, HVAC, at industriya. Para sa tiyak na kontrol ng inuming tubig at heating networks."
       }
@@ -795,7 +795,7 @@
       "depth": {
         "title": "Tagal ng Buhay > 50 Taon. Garantisado.",
         "text": "Panahon ang ultimate stress test para sa anumang materyal. Ang aming mga fitting ay idinisenyo upang daigin pa ang mismong gusali. Sa pagdaragdag ng mga espesyal na antioxidant at thermal stabilizer sa aming PP-R matrix, ang thermo-oxidative aging ay lubhang napapatagal. Kahit na sa patuloy na pag-flow temperatures na 70°C at pressure loads na 10 Bar, gumagarantiya kami ng buhay na mahigit kalahating siglo. Hindi ito marketing. Ito ay applied polymer physics.",
-        "badge": "100% Maintenance Free"
+        "badge": "100% Maintenance-Free"
       },
       "cta": {
         "title": "Handa na para sa walang kompromisong kalidad?",
@@ -815,7 +815,7 @@
         "lead": "Ang mga K Aqua PP-R pipe at PPRCT multilayer pipe para sa inuming tubig, heating at industriya: Mono- at fiber composite na mga bersyon sa lahat ng mga pressure class, ginawa sa Germany ayon sa DIN 8077/8078. Available mula d20 hanggang d630 para sa tuluy-tuloy at selyadong mga koneksyon."
       },
       "sticky": {
-        "eyebrow": "Material Science",
+        "eyebrow": "Agham ng Materyales",
         "title": "Polymer Engineering sa Perpeksyon.",
         "lead": "Ang molecular structure ng aming mga PP-R at PPRCT pipe ay in-optimize para sa matinding thermomechanical stress. Isang obra maestra ng German engineering.",
         "items": [
@@ -903,7 +903,7 @@
         "desc": "K Aqua transitions: Hybrid connectivity ng ganap na top class. Kapag ang high-strength na metal ay sumalubong sa makabagong plastic. German Engineering."
       },
       "hero": {
-        "eyebrow": "System Transitions",
+        "eyebrow": "Mga Transisyon ng Sistema",
         "title": "Transition Fittings: Ligtas mula metal hanggang PP-R",
         "lead": "Nagtatagpo ang brass at polymer: Ang K Aqua transition fittings ay nagdudugtong sa mga umiiral na metal lines nang permanente, mahigpit, at walang corrosion kasama ng PP-R system, nasubok nang higit pa sa pamantayan."
       },
@@ -991,7 +991,7 @@
       },
       "stats": {
         "eyebrow": "Mga Sertipikasyon at Parameter",
-        "title": "Hard Facts.",
+        "title": "Matitibay na Katotohanan.",
         "lead": "Hindi lamang kami nagte-test sang-ayon sa mga pamantayan. Kami mismo ang nagtatakda nito. Nalalampasan ng aming mga internal test protocol ang hinihingi ng DVGW, SKZ, at ISO ng hanggang 300%.",
         "items": [
           {
@@ -1404,7 +1404,7 @@
       ]
     ],
     "btnDe": "Sertipiko (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnEn": "Sertipiko (EN)",
     "eventsTitle": "Mga Trade Fair at Kaganapan",
     "eventsText": "Bisitahin ang K Aqua sa mga paparating na kaganapan. Kasalukuyang walang inihayag na mga petsa. Mangyaring bumalik muli sa lalong madaling panahon.",
     "lead": "Magbasa ng mga update mula sa K Aqua. "
@@ -1610,25 +1610,25 @@
     "nextTitle": "Gaano kakalikasan ang iyong pagpaplano?",
     "nextLead": "Ipasa ang dimensyon at haba nang direkta sa CO₂ calculator at ihambing sa tanso, stainless steel, at PVC.",
     "nextCta": "Sa CO₂ Calculator",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Hanapin sa aming kumpletong hanay ng produkto ayon sa kategorya, pangalan o article number.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Mga Tubo",
+    "catFittings": "Mga Fitting",
+    "catValves": "Mga Balbula",
+    "catTools": "Mga Kagamitan",
+    "catTransitionFittings": "Mga Transition Fitting",
+    "catAccessories": "Mga Aksesorya",
+    "catWeldInSaddles": "Mataas na kalidad na PP-R Weld-In Saddle",
+    "category": "Kategorya",
+    "search": "Paghahanap",
+    "searchPlaceholder": "Article number o pangalan...",
+    "foundFam": "product family ang natagpuan",
+    "catalogPdf": "Katalogo bilang PDF",
+    "colName": "Pangalan ng produkto",
+    "colCat": "Kategorya",
+    "colCodes": "Mga article number",
+    "noResultsText": "Walang natagpuang produkto na tumutugma sa iyong paghahanap. Pakisubukan ang ibang termino o palitan ang kategorya.",
+    "resetFilters": "I-reset ang mga filter"
   },
   "trustAndCases": {
     "eyebrow": "Sertipikadong Kaligtasan",
@@ -1663,7 +1663,7 @@
     "velocityDesc": "Malaking epekto sa pressure loss at power ng pump (B).",
     "fluidTemp": "Temperatura ng fluid",
     "ambientTemp": "Temperatura sa paligid",
-    "insulation": "Insulation",
+    "insulation": "Insulasyon",
     "insulationNone": "Wala",
     "insulationBasic": "Basehan",
     "insulationStandard": "Standard EnEV",
@@ -1698,9 +1698,9 @@
     "certBtn": "Bumuo ng Ulat sa PDF",
     "generating": "Binubuo...",
     "energyGreen": "Berdeng Enerhiya",
-    "energyDe": "DE-Mix",
-    "energyEu": "EU-Mix",
-    "energyGlobal": "Global-Mix",
+    "energyDe": "DE Mix",
+    "energyEu": "EU Mix",
+    "energyGlobal": "Global Mix",
     "materials": {
       "kaqua": "K Aqua PPRCT",
       "pvc": "PVC-U",
@@ -1711,7 +1711,7 @@
       "castiron": "Cast iron"
     },
     "project": "Ang iyong proyekto",
-    "advanced": "Advanced LCA Parameters",
+    "advanced": "Advanced na LCA Parameters",
     "tempMode": "Temperatura ng pagpapatakbo",
     "tempCold": "Malamig na tubig (10°C)",
     "tempHot": "Mainit na tubig (60°C)",
@@ -1734,9 +1734,9 @@
     "trustLink": "Trust Center",
     "downloadPdf": "I-download ang PDF Report",
     "lcaLogistics": "LCA at Logistics Parameters",
-    "energyMix": "Production Energy Mix",
-    "transportMode": "Transport Mode",
-    "transportTruck": "Truck",
+    "energyMix": "Energy Mix ng Produksyon",
+    "transportMode": "Paraan ng Transportasyon",
+    "transportTruck": "Trak",
     "transportShip": "Barko",
     "transportAir": "Air Freight",
     "phaseProduction": "Produksyon",
@@ -1755,7 +1755,7 @@
     "privacy": "Patakaran sa Privacy",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
-    "address": "Auweg 3, 35647 Waldsolms, Germany",
+    "address": "Auweg 3, 35647 Waldsolms, Alemanya",
     "copyright": "© 2026 KWT GmbH.",
     "projectCta": "Humingi ng Proyekto",
     "badges": [
@@ -2095,7 +2095,7 @@
       },
       "typography": {
         "t1": "ZERO-ERROR",
-        "t2": "TOLERANCE."
+        "t2": "TOLERANSYA."
       },
       "curriculum": {
         "eyebrow": "ANG KURIKULUM",
@@ -2221,7 +2221,7 @@
         ]
       },
       "bento": {
-        "eyebrow": "Nomenclature",
+        "eyebrow": "Nomenklatura",
         "title": "Mga Teknikal na Parameter.",
         "lead": "Ang pinakamahalagang bokabularyo ng industrial piping technology, na idinistil sa esensya nito.",
         "items": [
@@ -2363,7 +2363,7 @@
     "retry": "Subukang Muli",
     "titlePerfect": "Master Welder",
     "titleGood": "Journeyman Welder",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Mga video ng pagsasanay at gabay"
   },
   "solutions": {
     "eyebrow": "Mga Pang-industriya at Arkitektural na Solusyon",
@@ -2449,7 +2449,7 @@
             "text": "Mga dekada ng maintenance-free na operasyon. Pinipigilan ng inert surfaces ang incrustation, habang ginagarantiya ng molecular density ang ganap na pagka-leak-proof nang may pinakamataas na energy efficiency."
           }
         ],
-        "title": "PROCESS ARCHITECTURE",
+        "title": "ARKITEKTURA NG PROSESO",
         "desc": "Mula sa mathematical calculation hanggang sa walang-hanggang kaligtasan sa pagpapatakbo. Ang lifecycle ng K-AQUA installation ay sumusunod sa mahigpit na mga protocol ng engineering."
       },
       "hero": {
@@ -2508,7 +2508,7 @@
         "title": "Sining ng Inhenyeriya sa mga Numero."
       },
       "cta": {
-        "eyebrow": "PROJECT INITIATION",
+        "eyebrow": "PAGSISIMULA NG PROYEKTO",
         "title1": "HANDA NA PARA SA",
         "title2": "SUSUNOD NA DIMENSYON.",
         "desc": "Makipag-ugnayan sa aming mga inhinyero para sa isang detalyadong teknikal na pagsusuri ng iyong mga detalye at hamon.",
@@ -2584,7 +2584,7 @@
         "lead": "Hindi namin nakikita ang ospital bilang isang gusali, kundi isang biyolohikal na organismo. Ang K Aqua system ay ang hindi masisira nitong vascular system. Ang bawat milimetro ng aming mga tubo ay naka-calibrate para sa ganap na pagiging maaasahan."
       },
       "bentoSection": {
-        "eyebrow": "ROI & Lifecycle",
+        "eyebrow": "ROI at Lifecycle",
         "title": "Pang-ekonomiyang Kahusayan sa Pamamagitan ng Perpeksyon.",
         "lead": "Ang kalidad ay hindi isang salik sa gastos, kundi ang tanging daan tungo sa kakayahang kumita sa building automation. Pinaliit ng K Aqua ang Total Cost of Ownership sa isang hindi pa nagagawang antas habang ginagarantiya ang maximum na kaligtasan ng pasyente."
       },
@@ -2780,39 +2780,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Mga sangguniang gumagawa ng kasaysayan.",
-        "desc": "Mula sa mga artipisyal na isla sa Persian Gulf hanggang sa mga pinaka-eksklusibong ski resort sa Alps. Kung saan itinatayo ang imposible, nandoon na ang K Aqua."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Nilagyan ng 800 suites at 4 na malalaking pool landscape. Ang matinding alat at mga temperatura sa kapaligiran na aabot sa 50°C ay nangangailangan ng pinakamataas na thermal at chemical resistance. Ibinigay ng K Aqua ang kumpletong hot at cold water network kabilang ang koneksyon sa District Cooling."
-          },
-          {
-            "year": "Switzerland",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "Isang 6-star resort sa taas na 2,000 metro. Ang hamon: Matinding panganib sa hamog na yelo sa panahon ng konstruksiyon at pinakamataas na kinakailangan para sa sound insulation. Kumpiyansang nasipsip ng aming mga PP-R fiber composite pipe ang pagbabago sa thermal expansion at garantisadong tahimik ang pagpapatakbo."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "Isang 65-palapag na obra maestra ng ecological architecture. Ang kumplikadong irrigation system para sa libu-libong halaman sa balkonahe pati na rin ang buong imprastraktura ng inuming tubig ay isinakatuparan kasama ng K Aqua. Ang homogenous welding technology ay nagligtas sa gusali mula sa maliliit na pagtagas."
-          },
-          {
-            "year": "Maldives",
-            "title": "Zero-Emission Island Resort",
-            "text": "Itinayo nang direkta sa itaas ng reef, kinailangan ang ganap na environmental compatibility. Ang mga K Aqua pipe ay 100% recyclable, hindi naglalabas ng anumang microplastics o mabibigat na metal at nilalabanan ang sobrang maalat na hangin sa dagat nang walang anumang pagkasira."
-          },
-          {
-            "year": "Hinaharap",
-            "title": "Ang iyong susunod na megaproject",
-            "text": "Araw-araw nagbabago ang mga limitasyon ng arkitektura. Handa kaming ibuhos ang pundasyon para sa iyong mga pinakamatapang na bisyon. Sa pamamagitan ng teknolohiyang dekada ang advance sa panahon nito."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Pananaliksik at Pag-unlad (R&D)",
         "title": "Ang kimika <br/> ng hindi pagkasira.",
@@ -2914,7 +2881,7 @@
         ]
       },
       "timeline": {
-        "eyebrow": "Process Architecture",
+        "eyebrow": "Arkitektura ng Proseso",
         "title": "Mula CAD Drawing hanggang Construction Site.",
         "lead": "Isang transparent, at mahigpit na proseso na gumagarantiya ng mga just-in-time na paghahatid sa buong mundo.",
         "events": [
@@ -3062,7 +3029,7 @@
         "eyebrow": "Ang Data",
         "title": "Pangingibabaw Batay sa Katotohanan.",
         "lead": "Ang mga general contractor ay hindi naniniwala sa mga pangako sa marketing. Naniniwala sila sa tensile strength, creep curves, backpressure resistance, at FNCT (Full Notch Creep Tests).",
-        "h3_1": "Molecular Durability",
+        "h3_1": "Molekular na Tibay",
         "p1": "Ang haba ng buhay ng isang plastic pipe sa ilalim ng presyon at temperatura ay tinutukoy ng creep rupture strength nito (mga creep curve). Ipinapalagay ng pamantayan sa industriya na ang buhay ng pagpapatakbo ay 50 taon. Ang aming mga internal na pagsubok sa laboratoryo at thermal-oxidative aging simulations ay nagpapatunay ng tibay para sa lifespan na higit sa 100 taon. Malaking idina-delay ng K Aqua PPRCT material ang pagsisimula ng thermal-oxidative degradation, kahit sa mga circulation lines na may tuluy-tuloy na mataas na temperatura.",
         "h3_2": "Hydraulic Flow Dynamics",
         "p2": "Ang mga metal pipe ay nagiging magaspang sa paglipas ng mga taon dahil sa korosyon at incrustation. Tumataas ang pipe friction loss, kumikitid ang cross-section, at tumataas nang husto ang konsumo ng enerhiya ng mga feed pump. Ipinagmamalaki ng K Aqua pipes ang ganap na surface roughness na k = 0.007 mm. Ang parang salamin na ibabaw na ito ay nananatiling ganap na pare-pareho sa buong buhay nito. Ang resulta: Minimal na pressure loss, napakalaking pagtitipid sa enerhiya sa panahon ng pagpapatakbo ng bomba at ganap na kalinisan, dahil walang biofilm o legionella na maaaring kumapit.",
@@ -3169,7 +3136,7 @@
       },
       "hero": {
         "eyebrow": "Hyperscale at Colocation Infrastructure",
-        "title1": "Zero-Downtime Infrastructure.",
+        "title1": "Zero-Downtime na Imprastruktura.",
         "title2": "Inhinyero sa Alemanya.",
         "desc": "Kapag ang mga cooling system ang bumubuo sa puso ng mga pandaigdigang data center, ang pagkasira ng materyal ay hindi isang opsyon. Tuklasin ang pinakaligtas, pinakamahusay, at pinakanasasakupan na PP-R piping solution para sa kritikal na refrigeration at air conditioning technology.",
         "cta1": "Hilingin ang Proyekto",
@@ -3236,11 +3203,11 @@
         "desc": "Mga tubong PPR at PPRCT: Standard, fiber-reinforced at UV-stabilized, 12 serye."
       },
       "fittings": {
-        "label": "Fittings",
+        "label": "Mga Fitting",
         "desc": "Socket fusion at electrofusion fittings, d20–d125, 13 pamilya ng produkto."
       },
       "transitionFittings": {
-        "label": "Transition Fittings",
+        "label": "Mga Transition Fitting",
         "desc": "Transisyon sa thread at tanso, para sa mga kasalukuyang koneksyon at balbula, 13 pamilya."
       },
       "valves": {
@@ -3248,7 +3215,7 @@
         "desc": "Ball valves, concealed valves, distribution manifolds, 9 pamilya ng produkto."
       },
       "weldInSaddles": {
-        "label": "Weld-in Saddles",
+        "label": "Mataas na kalidad na PP-R Weld-In Saddle",
         "desc": "Mga sanga nang walang pipe cutting, mayroon at walang thread, 3 pamilya."
       },
       "accessories": {
@@ -4600,7 +4567,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Tingnan ang mga detalye ng produkto"
   },
   "trust": {
     "eyebrow": "Trust Center",
@@ -4725,51 +4692,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Germany",
         "d": "Pangunahing planta at pag-unlad: dito ginagawa ang bawat K Aqua pipe."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, UAE",
-        "d": "High-rise risers: PPRCT para sa mainit na tubig sa ilalim ng mga kondisyon ng disyerto."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warsaw, Poland",
-        "d": "Bagong residential area: kumpletong pag-install ng inuming tubig d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turkey",
-        "d": "Hotel complex: Circulation lines na may fiber composite pipes."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Proyekto sa imprastraktura: Malaking dimensyon hanggang d630 gamit ang butt welding method."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, South Africa",
-        "d": "Bagong paggawa ng ospital: Malinis na pamamahagi ng inuming tubig."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, UK",
-        "d": "Renovation ng opisina: Walang-korosyon na kapalit para sa kasalukuyang mga linya."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Tingnan ang proyekto"
   },
   "quote": "Paghiling ng Proyekto",
   "buyers": {
@@ -4874,7 +4799,7 @@
     ],
     "fName": "Pangalan",
     "fCompany": "Kumpanya",
-    "fEmail": "E-Mail",
+    "fEmail": "Email",
     "fPhone": "Telepono",
     "fMsg": "Mensahe (Opsyonal)",
     "privacy": "Sa pagpapadala, magbubukas ka ng pre-filled na email patungo sa info@k-aqua.de. Walang data na ise-save sa pahinang ito.",
@@ -5456,7 +5381,7 @@
         ]
       }
     ],
-    "dimEyebrow": "Dimension Tables",
+    "dimEyebrow": "Mga Talahanayan ng Dimensyon",
     "dimTitle": "Lahat ng dimension at kapal ng pader.",
     "dimLead": "Piliin ang pressure rating. Ipinapakita ng talahanayan ang mga dimensyon, presyon, dami ng tubig, at bigat.",
     "dimTabAria": "Piliin ang pressure rating",
@@ -5683,7 +5608,7 @@
         }
       ]
     },
-    "segEyebrow": "Einsatzfelder",
+    "segEyebrow": "Mga Larangan ng Aplikasyon",
     "segTitle": "Subok kung saan mahalaga ang tubig.",
     "segLead": "Ang K-Aqua ay ginagamit sa buong mundo mula sa mga ospital hanggang sa mga greenhouse.",
     "segments": [
@@ -5692,8 +5617,7 @@
         "d": "Ang kalinisan ay hindi napagkakasunduan: Pinipigilan ang biofilm, walang amoy at lasa ang materyal.",
         "pts": [
           "Hygienic neutrality",
-          "Corrosion-free",
-          "Reference: Hospital Cape Town"
+          "Corrosion-free"
         ]
       },
       {
@@ -5701,8 +5625,7 @@
         "d": "Mainit na tubig sa buong orasan: nagtitipid ng enerhiya, hanggang 70°C na tuloy-tuloy.",
         "pts": [
           "Thermal efficiency",
-          "PPRCT para sa sirkulasyon",
-          "Reference: Hotel Istanbul"
+          "PPRCT para sa sirkulasyon"
         ]
       },
       {
@@ -5719,8 +5642,7 @@
         "d": "UV-stabilized para sa irrigation sa labas: magaan at madaling i-install.",
         "pts": [
           "UV-resistant",
-          "Magaan",
-          "Agriculture reference"
+          "Magaan"
         ]
       },
       {
@@ -5728,8 +5650,7 @@
         "d": "Mga supply line hanggang d630: butt-welded para sa matibay at walang-tagas na tubo.",
         "pts": [
           "d hanggang 630 mm",
-          "Butt fusion",
-          "Reference: Singapore"
+          "Butt fusion"
         ]
       },
       {
@@ -6256,7 +6177,7 @@
         "Laging markahan ang insertion depth, huwag tantyahin"
       ]
     ],
-    "glossEyebrow": "Glossary",
+    "glossEyebrow": "Glosaryo",
     "glossTitle": "Ang mga terminolohiya sa piping technology.",
     "gloss": [
       [
@@ -6300,7 +6221,7 @@
         "Standard ng Germany para sa pag-weld ng polypropylene: batayan ng mga guidelines dito."
       ]
     ],
-    "paramEyebrow": "Welding Parameters",
+    "paramEyebrow": "Mga Parameter ng Welding",
     "paramTitle": "Standard na Parameter (DVS 2207-11)",
     "paramLead": "Temperatura ng heating tool: 260°C (± 10°C).",
     "paramHead": [
@@ -6651,7 +6572,7 @@
         "d": "Patuloy na pagpapabuti."
       }
     ],
-    "mileEyebrow": "Milestones",
+    "mileEyebrow": "Mga Milestone",
     "mileTitle": "Ang Aming Paglalakbay",
     "miles": [
       {
@@ -7778,14 +7699,14 @@
         }
       ],
       "steps": {
-        "step1": "Personal Data",
+        "step1": "Personal na Datos",
         "step2": "Resume at Dokumento",
         "step3": "Pagsusuri"
       },
       "form": {
         "firstName": "Pangalan",
         "lastName": "Apelyido",
-        "email": "E-Mail",
+        "email": "Email",
         "phone": "Telepono",
         "startDate": "Pinakamaagang petsa ng pagsisimula",
         "uploadTitle": "Mag-upload ng PDF",
@@ -7814,9 +7735,9 @@
   "menu": {
     "pipes": "Mga Tubo",
     "fittings": "Mga Fitting",
-    "transition": "Transition Fittings",
+    "transition": "Mga Transition Fitting",
     "valves": "Balbula at Hinihinto",
-    "tools": "Welding Tools"
+    "tools": "Mga Kagamitan sa Welding"
   },
   "kontaktBlocks": {
     "home": {
@@ -7948,7 +7869,7 @@
       "done": "Sinusuri ng aming service team ang availability ng superbisor."
     },
     "maerkte_trinkwasser": {
-      "kicker": "Zero Leakage Networks",
+      "kicker": "Mga Network na Walang Tagas",
       "head": "Bawat porsyento ng nawawalang tubig ay may katumbas na halaga.",
       "short": "Pagkalkula ng loss sa iyong network",
       "text": "Ilarawan ang sukat ng network at climate zone. Kalkulahin namin kung gaano karaming tubig at budget ang isasalba ng K Aqua.",
@@ -8124,14 +8045,14 @@
     "doneTitleSlim": "Salamat, natanggap na ito.",
     "direct": "Nagmamadali? Direktang tawag",
     "promise": "Sagot sa loob ng isang business day",
-    "ccAria": "Country Code",
+    "ccAria": "Country code",
     "closeAria": "Isara",
     "fabAria": "Kontak",
     "interests": {
       "rohrsysteme": "Pipe Systems",
-      "trinkwassernetze": "Drinking Water Networks",
+      "trinkwassernetze": "Mga Network ng Inuming Tubig",
       "bim": "BIM Data",
-      "ersatzteile": "Spare Parts",
+      "ersatzteile": "Mga Spare Part",
       "beratung": "Pagkonsulta"
     }
   },
@@ -8141,10 +8062,10 @@
     "heroTitleEm": "Pipe Systems",
     "heroLead": "Para sa mga pang-industriyang aplikasyon, suplay ng inuming tubig, at air conditioning sa ilalim ng matitinding kondisyon.",
     "telemetry": {
-      "pressureLabel": "System Pressure",
+      "pressureLabel": "Presyon ng Sistema",
       "liveSuffix": "MPa live",
       "tempLabel": "Max. Temperature",
-      "tempNote": "PN20 · Continuous operation",
+      "tempNote": "PN20 · Tuloy-tuloy na operasyon",
       "meta": [
         [
           "Materyal",
@@ -8167,7 +8088,7 @@
     "layers": {
       "title": "Teknolohiya ng Fiber-Composite",
       "desc": "3-layer na estruktura para maiwasan ang linear expansion at magbigay ng maximum stability sa matataas na temperatura.",
-      "ariaGroup": "Material Layers",
+      "ariaGroup": "Mga Layer ng Materyal",
       "items": [
         {
           "t": "PPRCT",
@@ -8425,7 +8346,7 @@
         "btnGhost": "Kontakin ang mga Eksperto"
       },
       "metaTitle": "Teknikal na Suporta at Serbisyo",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Engineering consulting, teknolohiya ng aplikasyon, at suporta sa mismong lugar."
     },
     "downloads": {
       "title": "Mga Download",
@@ -8879,7 +8800,7 @@
       "title1": "Ang Teknikal na",
       "title2": "Database ng Kaalaman",
       "desc": "Katumpakang walang kompromiso. Data-driven na pagsusuri. Walang puwang para magkamali. Tuklasin ang purong inhinyerya ng K Aqua.",
-      "status": "System Status: Online",
+      "status": "Katayuan ng Sistema: Online",
       "clearance": "Clearance Level 4"
     },
     "deep": {
@@ -8896,7 +8817,7 @@
       "read": "Magbasa"
     },
     "cta": {
-      "title1": "SYSTEM INTEGRITY",
+      "title1": "INTEGRIDAD NG SISTEMA",
       "title2": "NAKUMPIRMA.",
       "desc": "Narating mo na ang dulo ng mga specification. Handa na bang gawing realidad ang teorya?",
       "btn": "Simulan ang Kontak"
@@ -8917,7 +8838,7 @@
     "fittings_elbow-90-female-male": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90": "PP-R Standard Elbow 90°",
     "fittings_electrofusion-socket": "Electrofusion Socket",
-    "fittings_flange-adaptor": "Flange Adaptor",
+    "fittings_flange-adaptor": "PP-R Flange Adaptor para sa mga koneksyong flange",
     "fittings_reducing-bush": "Reducing Bush",
     "fittings_reducing-tee-large": "PP-R Reducing Tee (Large)",
     "fittings_reducing-tee": "PP-R Reducing Tee",
@@ -8948,13 +8869,13 @@
     "tools_pipe-cutter-20-40": "Ratchet Pipe Cutter d20-d40",
     "tools_pipe-cutter-50-125-114": "Pipe Cutter 1 1/4",
     "tools_pipe-cutter-50-125": "Pro Pipe Cutter d50-d125",
-    "tools_repairing-plug": "Repairing Plug",
+    "tools_repairing-plug": "Praktikal na PP-R Repairing Plug",
     "tools_welding-machine-50-125": "Welding Machine d50-d125",
     "tools_welding-tool-for-repairing-plug": "Welding Tool para sa Repair Plug",
     "tools_welding-tool-for-weld-in-saddles": "Welding Tool para sa Weld-in Saddles",
     "tools_welding-tool": "Welding Tool",
-    "transition-fittings_adaptor-socket-female-thread": "Adaptor Socket (Female Thread)",
-    "transition-fittings_adaptor-socket-male-thread": "Adaptor Socket (Male Thread)",
+    "transition-fittings_adaptor-socket-female-thread": "PP-R Adaptor Socket na may Panloob na Thread (Female)",
+    "transition-fittings_adaptor-socket-male-thread": "PP-R Adaptor Socket na may Panlabas na Thread (Male)",
     "transition-fittings_elbow-90-male-thread": "PP-R Transition Elbow 90° (Male Thread)",
     "transition-fittings_elbow-bracket-90-female-thread": "Elbow Wall Bracket 90° (Female Thread)",
     "transition-fittings_elbow-bracket-90-female-thread_desc": "One-sided elbow wall bracket para sa ligtas na pag-mount (Female).",
@@ -8965,76 +8886,29 @@
     "transition-fittings_metal-union-male-thread-brass": "Metal Union (Brass CW617N, Male)",
     "transition-fittings_metal-union-male-thread": "Union na may PP-R Nut (Male Thread)",
     "transition-fittings_tee-90-female-thread": "Tee 90° (Female Thread)",
-    "transition-fittings_tee-90-male-thread": "Tee 90° (Male Thread)",
+    "transition-fittings_tee-90-male-thread": "PP-R Tee 90° na may Panlabas na Thread (Male)",
     "transition-fittings_union-for-watermeters": "Water Meter Union",
     "transition-fittings_union": "PP-R Pipe Union",
     "valves_adjustable-battery-female-thread": "Adjustable Battery (Female Thread)",
     "valves_battery-female-thread": "Battery (Female Thread)",
     "valves_concealed-valve-chrome-heavy-part": "Concealed Valve Chrome: Heavy Part",
     "valves_concealed-valve-chrome-light-part": "Concealed Valve Chrome: Light Part",
-    "valves_elongation-pieces": "Elongation Pieces",
+    "valves_elongation-pieces": "Angkop na PP-R Elongation Pieces",
     "valves_pp-r-ball-valve-ball-in-pp": "PP-R Ball Valve (PP Ball)",
     "valves_pp-r-ball-valve-brass": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_straight-seat-valve-green-handle": "Straight-Seat Valve (Top Part)",
     "valves_tee-90-female-thread-internal-valve": "Tee 90° (Female) para sa Concealed Valve",
     "weld-in-saddles_weld-in-saddle-female-thread": "Weld-in Saddle (Female Thread)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Weld-in Saddle (Male Thread)",
-    "weld-in-saddles_weld-in-saddle": "Weld-in Saddle",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "weld-in-saddles_weld-in-saddle": "Mataas na Kalidad na PP-R Weld-in Saddle",
+    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R Cross-over na may Socket",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine d20-d32",
+    "tools_pipe-cutter-50125": "Pipe Cutter d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Kalidad na nag-uugnay",
-    "title": "Ano ang sinasabi ng aming mga customer at partner",
-    "lead": "Mula sa mga builder hanggang sa mga kumpanya ng transportasyon at mga empleyado: Ang K Aqua KWT GmbH ay kumakatawan sa pinakamataas na katumpakan mula sa Waldsolms. Basahin kung ano ang naranasan nila araw-araw sa aming serbisyo at produktong 'Made in Germany'.",
-    "trustBadge": "Mga Review sa Google",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(Batay sa 44 na review)",
-    "tabA": "Kalidad at 'Made in Germany'",
-    "tabB": "Logistik at Paghahatid",
-    "tabC": "Serbisyo sa Customer at Koponan",
-    "reviews": {
-      "a1": "“Isang pabrika sa Waldsolms, Germany, dalubhasa sa PPR pipes at fittings na **Made in Germany**. Mahusay na tauhan.”",
-      "a1Author": "Giulio C.",
-      "a2": "“**Kalidad na German** sa PPR coatings at fittings, napakabait na staff.”",
-      "a2Author": "Veronica P.",
-      "a3": "“**Makabagong kumpanya**. Gumagawa ng mga plastic pipe sa lahat ng laki at aksesorya.”",
-      "a3Author": "Ewald S.",
-      "a4": "“PPR pipes at fittings mula sa **produksyon sa Germany**, mahusay na empleyado at produkto.”",
-      "a4Author": "Kais S.",
-      "a5": "“**Mataas na kalidad na produkto** at napakagandang pabrika sa Germany.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "“Napakagandang mga produkto, **maaasahang kalidad** at on-time na paghahatid.”",
-      "a6Author": "Klaus T.",
-      "b1": "“Napakabait makitungo, **mabilis na pag-unload**. Pinayagan akong magpahinga dito. Inalok din ako ng shower at toilet. Pinapahalagahan ka rito bilang truck driver. **Pinapahalagahan**. Masaya akong babalik.”",
-      "b1Author": "Michael S.",
-      "b2": "“Ang kasalukuyang coordinates para sa pasukan ay **50.428210, 8.499154**. May parking lot na mga 100 metro ang layo. Friendly na staff.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "“**Mabilis na pag-unload**, friendly at matulungin na staff.”",
-      "b3Author": "Bogdan M.",
-      "c1": "“**Napakagandang serbisyo**, astig na ginagawa pa rin ito sa Germany.”",
-      "c1Author": "Daniel",
-      "c2": "“**Napakabait** at matulungin na staff. Sinasagot agad ang mga e-mail.”",
-      "c2Author": "Mohamed M.",
-      "c3": "“Mula sa chairman hanggang sa ordinaryong manggagawa: sila ay **mabubuting tao**.”",
-      "c3Author": "Azim",
-      "c4": "“**Kahanga-hangang kumpanya**, marami silang ginagawa para sa kanilang mga tao.”",
-      "c4Author": "Monika v. B.",
-      "c5": "“Ang mga empleyado ay **napakabait at matulungin**.”",
-      "c5Author": "Piera V.",
-      "c6": "“Kompetenteng team at **napakahusay na customer care** sa lahat ng antas.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Suriin mo mismo ang aming serbisyo.",
-    "ctaText": "Mayroon ka bang mga katanungan tungkol sa aming PPR pipe systems o gusto mong pag-usapan ang isang proyekto? Nandito ang aming team sa Waldsolms para sa iyo.",
-    "ctaBtn": "Makipag-ugnayan ngayon",
-    "disclaimer": "Tandaan tungkol sa pag-verify ng mga review: Ang mga review na ipinapakita rito ay nagmula sa aming Google Business Profile. Sinasabi ng Google: Hindi vine-verify ang mga review. Pinaikli namin ang mga pangalan ng may-akda para sa proteksyon ng data (GDPR)."
+    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) para sa Internal Valve"
   },
   "geoContent": {
     "importerTitle": "Exclusive na Importer sa {country}",
@@ -9403,53 +9277,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
+    "title1": "Interactive na",
     "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
+    "tabHq": "Punong-Tanggapan sa Waldsolms",
+    "tabRefs": "Mapa ng Katibayan sa Tagas",
     "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "hqTitle": "Sentral na Produksyon at Sentro ng Pagpapaunlad",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Alemanya.",
+    "registryLabel": "Rehistro ng korte:",
+    "phoneLabel": "Telepono:",
+    "certLabel": "Sertipikasyon:",
+    "directions": "Buksan ang route planner",
+    "aboutPlant": "Tungkol sa planta ng Waldsolms",
+    "sectorFilter": "Filter ng sektor:",
+    "specPlaceholder": "Maglagay ng lokasyon o lungsod…",
+    "profileTitle": "Profile ng Merkado at Lohistika",
+    "profileHint": "I-click ang mapa o maghanap ng lungsod upang simulan ang awtomatikong system specification at pagkalkula ng ruta ng suplay.",
+    "marketAssign": "Pagtatalaga ng merkado",
+    "normLabel": "Pamantayan:",
+    "airDist": "Tuwid na linya (HQ)",
+    "roadDist": "Kalsada (tinatayang)",
+    "recommended": "Inirerekomendang sistema ng tubo:",
+    "recUv": "UV-Protect na panlabas na balot",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
+      "all": "Lahat ng sektor",
       "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "wohnen": "Pabahay",
+      "infra": "Imprastraktura",
+      "klinik": "Klinika",
+      "buero": "Opisina"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Mga Produkto",
+      "markets-solutions": "Mga Merkado at Solusyon",
+      "academy-resources": "Academy at Mga Mapagkukunan",
+      "company": "Kumpanya"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Product Finder para sa mga Tubo",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Mga Fitting at Konektor",
+      "valves": "Mga Balbula at Gripo",
+      "tools": "Mga Kagamitan at Aksesorya",
+      "transition": "Mga Transisyon para sa Tubo",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -9462,48 +9336,68 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Pagtatanong sa Proyekto para sa mga Sistema ng Tubo",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
       "sitemap": "Sitemap (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Piliin ang iyong wika",
+    "subtitle": "65 wika · Paikutin ang globo, i-tap ang rehiyon, kumpirmahin.",
+    "searchPlaceholder": "Maghanap ng wika o pahina…",
+    "pagesSection": "Mga Pahina at Nabigasyon",
+    "noResults": "Walang nahanap na wika.",
+    "confirm": "Kumpirmahin",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Nalalapat sa buong website",
+    "active": "aktibo"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
+    "step1Title": "Paano namin kayo matutulungan?",
+    "step1Desc": "Piliin ang angkop na departamento para sa inyong katanungan.",
+    "optSales": "Benta at Mga Proyekto",
+    "optSalesDesc": "Mga pagtatanong sa presyo, malalaking proyekto, at oras ng paghahatid.",
+    "optTech": "Teknikal na Suporta",
+    "optTechDesc": "Mga espesipikasyon, instalasyon, at disenyo ng sistema.",
+    "optOther": "Pangkalahatang Katanungan",
+    "optOtherDesc": "Marketing, karera, o iba pang paksa.",
+    "step2Title": "Mga Detalye ng Inyong Katanungan",
+    "step2Desc": "Pakilarawan nang maikli ang inyong proyekto o tanong.",
+    "messagePlaceholder": "Ang inyong mensahe sa amin...",
+    "step3Title": "Inyong Impormasyon sa Pakikipag-ugnayan",
+    "step3Desc": "Malapit na! Paano namin kayo maaabot?",
+    "nameLabel": "Buong Pangalan",
+    "companyLabel": "Kumpanya / Organisasyon",
     "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "phoneLabel": "Numero ng Telepono",
+    "step4Title": "Naipadala na ang mensahe!",
+    "step4Desc": "Maraming salamat sa inyong katanungan. Makikipag-ugnayan sa inyo ang isa sa aming mga eksperto sa lalong madaling panahon.",
+    "btnNext": "Susunod",
+    "btnBack": "Bumalik",
+    "btnSubmit": "Ipadala ang Katanungan",
+    "btnSending": "Ipinapadala…",
+    "btnHome": "Bumalik sa Homepage",
+    "sendError": "Nabigo ang pagpapadala. Pakisubukang muli o tawagan kami nang direkta: +49 (0)60 85 / 9868-410"
+  },
+  "customerReviews": {
+    "trustStars": "4.9 / 5",
+    "reviews": {
+      "a1Author": "Giulio C.",
+      "a2Author": "Veronica P.",
+      "a3Author": "Ewald S.",
+      "a4Author": "Kais S.",
+      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
+      "a6Author": "Klaus T.",
+      "b1Author": "Michael S.",
+      "b2Author": "Oleg M. / Hasan S.",
+      "b3Author": "Bogdan M.",
+      "c1Author": "Daniel",
+      "c2Author": "Mohamed M.",
+      "c3Author": "Azim",
+      "c4Author": "Monika v. B.",
+      "c5Author": "Piera V.",
+      "c6Author": "Sarah B."
+    }
   }
 }

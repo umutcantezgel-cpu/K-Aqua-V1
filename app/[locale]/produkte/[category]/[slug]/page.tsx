@@ -19,6 +19,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import React from 'react';
 
 import ProductGallery from '@/components/product/ProductGallery';
+import PipeColourVariants from '@/components/product/PipeColourVariants';
 import ProductFAQ from '@/components/product/ProductFAQ';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
@@ -508,15 +509,31 @@ export default async function ProductDetailPage({
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-[0.75fr_0.25fr] gap-16 items-start">
             
-            {/* Main Content Area (Table) */}
-            <Reveal className="w-full overflow-hidden">
-              <div className="flex flex-col gap-8">
-                <SectionHead 
-                  eyebrow={tProd('technicalSpecs')} 
-                  title={tProd('specAndDim')} 
+            {/*
+              Main Content Area (Table)
+
+              Bis hierher lag EIN <Reveal> um diese ganze Spalte — Überschrift,
+              3D-Galerie, Artikeltabelle und SEO-Text zusammen. Das war der
+              höchste Block der Seite, und genau das wurde ihm zum Verhängnis:
+              der Schwellwert des Reveals maß den sichtbaren Anteil an der
+              Elementhöhe, und ab einer bestimmten Höhe ist der nie zu
+              erreichen. Der komplette technische Teil blieb dann unsichtbar.
+
+              Jetzt bekommt jeder Abschnitt seinen eigenen Reveal, und die
+              beiden Fließtextblöcke bekommen gar keinen: ein Text, der
+              indexiert werden soll, gehört nicht hinter eine
+              Sichtbarkeitsanimation.
+            */}
+            <div className="w-full overflow-hidden flex flex-col gap-8">
+              <Reveal>
+                <SectionHead
+                  eyebrow={tProd('technicalSpecs')}
+                  title={tProd('specAndDim')}
                 />
-                
-                {/* Image & 3D CAD Gallery */}
+              </Reveal>
+
+              {/* Image & 3D CAD Gallery */}
+              <Reveal delay={0.06}>
                 <div id="3d-cad-gallery" className="my-8 scroll-mt-24">
                   <ProductGallery
                     category={product.category}
@@ -525,7 +542,8 @@ export default async function ProductDetailPage({
                     photos={Array.isArray(product.images) ? (product.images as string[]) : []}
                   />
                 </div>
-                
+              </Reveal>
+
 
                 
                 {/* 
@@ -568,9 +586,21 @@ export default async function ProductDetailPage({
                   </div>
                 )}
                 
+                {/* Sonderfarben — nur bei Rohren.
+                    Bis hierher standen die Farbaufnahmen ausschliesslich auf der
+                    Kategorieuebersicht, also nicht dort, wo eine Serie ausgewaehlt
+                    wird. */}
+                {product.category === 'pipes' && (
+                  <PipeColourVariants
+                    locale={locale}
+                    articleCodes={
+                      Array.isArray(product.article_codes) ? (product.article_codes as string[]) : []
+                    }
+                  />
+                )}
+
                 {/* generic extendedProductText removed to prevent duplicate content */}
-              </div>
-            </Reveal>
+            </div>
 
             {/* Sidebar / Quick Links */}
             <Reveal delay={0.12} className="sticky top-24">

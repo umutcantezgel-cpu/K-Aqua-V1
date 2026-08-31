@@ -1364,7 +1364,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "نمایش جزئیات محصول"
   },
   "home": {
     "chip": "تأیید شده از اکتبر ۲۰۲۵",
@@ -1470,7 +1470,7 @@
     "privacy": "حریم خصوصی",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
-    "address": "Auweg 3, 35647 Waldsolms, Germany",
+    "address": "Auweg 3, 35647 Waldsolms، آلمان",
     "copyright": "© 2026 KWT GmbH.",
     "projectCta": "درخواست پروژه",
     "badges": [
@@ -1672,30 +1672,30 @@
     "edgePageIndex": "فهرست صفحات",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "سیستم‌های لوله‌کشی",
+      "allProducts": "همه محصولات",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "کاربردهای تخصصی صنایع",
+      "digitalTools": "ابزارهای دیجیتال",
+      "finderDesc": "پیکربندی سیستم مناسب",
+      "co2Desc": "محاسبه ترازنامه زیست‌محیطی",
+      "academyDesc": "آموزش‌ها و گواهینامه‌ها",
+      "trustDesc": "دانلودها و گواهینامه‌های صادرشده",
+      "serviceDesc": "پشتیبانی در طراحی و برنامه‌ریزی",
+      "partnersDesc": "شریک محلی ما شوید",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "شرکت",
+      "companyDesc": "مأموریت، چشم‌انداز و تاریخچه",
+      "careerDesc": "فرصت‌های شغلی و فرهنگ سازمانی",
+      "newsPress": "اخبار و مطبوعات",
+      "newsDesc": "آخرین بیانیه‌های مطبوعاتی",
+      "sitemap": "نقشه سایت",
+      "sitemapDesc": "نمای کلی ساختار",
+      "globalFootprint": "حضور جهانی",
+      "globalMarkets": "بازارهای جهانی",
+      "marketsDesc": "مناطق دارای گواهینامه",
+      "refProjects": "پروژه‌های مرجع",
+      "refDesc": "نصب‌های موفق"
     }
   },
   "groups": {
@@ -2004,25 +2004,25 @@
     "nextTitle": "برنامه‌ریزی شما چقدر سازگار با آب و هوا است؟",
     "nextLead": "ابعاد و طول را مستقیماً به محاسبه‌گر CO₂ منتقل کنید و با مس، فولاد ضد زنگ و PVC مقایسه کنید.",
     "nextCta": "به محاسبه‌گر CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "کل سبد محصولات ما را بر اساس دسته‌بندی، نام یا شماره کالا جستجو کنید.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "لوله‌ها",
+    "catFittings": "اتصالات",
+    "catValves": "شیرآلات",
+    "catTools": "ابزارها",
+    "catTransitionFittings": "اتصالات تبدیلی",
+    "catAccessories": "لوازم جانبی",
+    "catWeldInSaddles": "زین جوشی PP-R با کیفیت بالا",
+    "category": "دسته‌بندی",
+    "search": "جستجو",
+    "searchPlaceholder": "شماره کالا یا نام...",
+    "foundFam": "خانواده کالا یافت شد",
+    "catalogPdf": "کاتالوگ به صورت PDF",
+    "colName": "نام محصول",
+    "colCat": "دسته‌بندی",
+    "colCodes": "شماره‌های کالا",
+    "noResultsText": "محصولی مطابق با معیارهای جستجوی شما یافت نشد. لطفاً عبارت دیگری را امتحان کنید یا دسته‌بندی را تغییر دهید.",
+    "resetFilters": "بازنشانی فیلترها"
   },
   "trustAndCases": {
     "eyebrow": "ایمنی تأیید شده",
@@ -2542,51 +2542,9 @@
         "lon": 8.5,
         "title": "والدزلمس، آلمان",
         "d": "کارخانه اصلی و توسعه: اینجاست که هر لوله کی-آکوا ساخته می‌شود."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "دبی، امارات متحده عربی",
-        "d": "لوله‌های رایزر در ساختمان‌های بلند: PPRCT برای آب گرم در شرایط بیابانی."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "ورشو، لهستان",
-        "d": "ساختمان جدید مسکونی: تأسیسات کامل آب آشامیدنی d20-d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "استانبول، ترکیه",
-        "d": "مجتمع هتل: خطوط گردش آب با لوله کامپوزیت الیافی."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "سنگاپور",
-        "d": "پروژه زیربنایی: ابعاد بزرگ تا d630 با استفاده از روش جوشکاری لب‌به‌لب."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "کیپ تاون، آفریقای جنوبی",
-        "d": "ساختمان جدید بیمارستان: توزیع بهداشتی آب آشامیدنی."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "لندن، بریتانیا",
-        "d": "نوسازی اداری: جایگزینی بدون خوردگی برای خطوط موجود."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "مشاهده پروژه"
   },
   "buyers": {
     "eyebrow": "برای برنامه‌ریزان، خریداران و پردازشگران",
@@ -2821,53 +2779,6 @@
     },
     "toc": "فهرست مطالب",
     "eyebrow": "حقوقی"
-  },
-  "customerReviews": {
-    "eyebrow": "کیفیتی که متصل می‌کند",
-    "title": "مشتریان و شرکای ما چه می‌گویند",
-    "lead": "از سازندگان و شرکت‌های حمل و نقل گرفته تا کارمندان با سابقه طولانی: K Aqua KWT GmbH مخفف بالاترین دقت از والدزلمس است. خودتان بخوانید که افراد هر روز با خدمات و محصولات ما \"ساخت آلمان\" چه تجربیاتی دارند.",
-    "trustBadge": "نظرات گوگل",
-    "trustStars": "۴.۹ / ۵",
-    "trustBasedOn": "(بر اساس ۴۴ نظر)",
-    "tabA": "کیفیت و \"ساخت آلمان\"",
-    "tabB": "لجستیک و تحویل",
-    "tabC": "خدمات مشتریان و تیم",
-    "reviews": {
-      "a1": "\"یک کارخانه در والدزلمس، آلمان، متخصص در لوله‌ها و اتصالات PPR **ساخت آلمان**. پرسنل عالی.\"",
-      "a1Author": "جولیو سی.",
-      "a2": "\"**کیفیت آلمانی** در پوشش‌ها و اتصالات PPR، پرسنل بسیار صمیمی.\"",
-      "a2Author": "ورونیکا پی.",
-      "a3": "\"**شرکت مدرن**. لوله‌های پلاستیکی در همه اندازه‌ها و لوازم جانبی تولید می‌کند.\"",
-      "a3Author": "اوالد اس.",
-      "a4": "\"لوله‌ها و اتصالات PPR از **تولید آلمان**، کارمندان و محصولات عالی.\"",
-      "a4Author": "کایس اس.",
-      "a5": "\"**محصولات با کیفیت بالا** و یک کارخانه برتر آلمانی.\"",
-      "a5Author": "عبدو4560 دی. / ال بی. / ویتو نادر اچ.",
-      "a6": "\"محصولات بسیار خوب، **کیفیت قابل اعتماد** و تحویل به موقع.\"",
-      "a6Author": "کلاوس تی.",
-      "b1": "\"برخورد بسیار خوب، **تخلیه سریع**. من اجازه داشتم استراحت طولانی خود را در اینجا انجام دهم. همچنین به من پیشنهاد دوش و توالت دادند. در اینجا شما به عنوان یک راننده کامیون احساس **ارزش** می‌کنید. من دوست دارم دوباره به اینجا بیایم.\"",
-      "b1Author": "میشائیل اس.",
-      "b2": "\"مختصات فعلی ورودی **50.428210, 8.499154** است. در حدود ۱۰۰ متری یک پارکینگ وجود دارد. پرسنل خوش‌برخورد.\"",
-      "b2Author": "اولگ ام. / حسن اس.",
-      "b3": "\"**تخلیه سریع**، پرسنل صمیمی و مفید.\"",
-      "b3Author": "بوگدان ام.",
-      "c1": "\"**خدمات بسیار خوب**، عالی است که هنوز در آلمان تولید می‌شود.\"",
-      "c1Author": "دنیل",
-      "c2": "\"پرسنل **بسیار خوش‌برخورد** و مفید. به ایمیل‌ها **فورا پاسخ داده می‌شود**.\"",
-      "c2Author": "محمد ام.",
-      "c3": "\"از رئیس هیئت مدیره گرفته تا کارگران ساده: آنها **مردمان خوبی** هستند.\"",
-      "c3Author": "عظیم",
-      "c4": "\"**شرکت عالی**، کارهای زیادی برای افراد خود انجام می‌دهد.\"",
-      "c4Author": "مونیکا فون بی.",
-      "c5": "\"کارمندان **بسیار خوش‌برخورد و مفید** هستند.\"",
-      "c5Author": "پیرا وی.",
-      "c6": "\"تیم متخصص و **پشتیبانی مشتریان برجسته** در تمامی سطوح.\"",
-      "c6Author": "سارا بی."
-    },
-    "ctaTitle": "خودتان را از خدمات ما متقاعد کنید.",
-    "ctaText": "آیا سؤالاتی در مورد سیستم‌های لوله‌کشی PPR ما دارید یا می‌خواهید در مورد پروژه‌ای با ما صحبت کنید؟ تیم ما از والدزلمس در خدمت شماست.",
-    "ctaBtn": "اکنون تماس بگیرید",
-    "disclaimer": "توجه در مورد بررسی نظرات: نظرات ارائه شده در اینجا از نمایه کسب و کار گوگل ما گرفته شده است. گوگل بیان می‌کند: نظرات تأیید نمی‌شوند. ما به دلایل حفاظت از داده‌ها (GDPR) نام نویسندگان را مخفف کرده‌ایم."
   },
   "enterprise": {
     "eyebrow": "هسته سازمانی",
@@ -3873,7 +3784,7 @@
     "retry": "دوباره امتحان کنید",
     "titlePerfect": "استاد جوشکاری",
     "titleGood": "کمک‌جوشکار",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "ویدیوهای آموزشی و راهنماها"
   },
   "productsx": {
     "pipesEyebrow": "برنامه لوله‌ها",
@@ -4124,8 +4035,7 @@
         "d": "بهداشت در اینجا قابل مذاکره نیست: سطح داخلی صاف (0.007 میلی‌متر) مانع از تشکیل بیوفیلم و رسوب می‌شود، مواد از نظر طعم و بو خنثی باقی می‌مانند.",
         "pts": [
           "خنثی بودن بهداشتی",
-          "بدون خوردگی: بدون حفره‌دار شدن",
-          "مرجع: ساخت بیمارستان جدید در کیپ‌تاون"
+          "بدون خوردگی: بدون حفره‌دار شدن"
         ]
       },
       {
@@ -4133,8 +4043,7 @@
         "d": "گردش آب گرم به صورت شبانه‌روزی: هدایت حرارتی کم باعث صرفه‌جویی پایدار در انرژی می‌شود، PPRCT کارکرد مداوم 70 درجه سانتیگراد را حفظ می‌کند.",
         "pts": [
           "بهره‌وری حرارتی",
-          "PPRCT برای گردش آب",
-          "مرجع: مجتمع هتلی استانبول"
+          "PPRCT برای گردش آب"
         ]
       },
       {
@@ -4151,8 +4060,7 @@
         "d": "نسخه‌های تثبیت شده در برابر اشعه ماوراء بنفش برای آبیاری زیر شیشه و فضای باز: سبک، با قابلیت نصب سریع، و مقاوم‌تر در برابر یخ‌زدگی نسبت به سیستم‌های سخت و صلب.",
         "pts": [
           "نسخه مقاوم در برابر اشعه ماوراء بنفش",
-          "وزن سبک",
-          "حوزه کاربرد از برنامه مرجع"
+          "وزن سبک"
         ]
       },
       {
@@ -4160,8 +4068,7 @@
         "d": "خطوط تأمین و شبکه‌ها در ابعاد بزرگ تا d630: جوشکاری لب‌به‌لب به رشته‌های همگن و دائماً مهر و موم شده.",
         "pts": [
           "d تا 630 میلی‌متر",
-          "جوشکاری لب‌به‌لب (Butt Fusion)",
-          "مرجع: زیرساخت سنگاپور"
+          "جوشکاری لب‌به‌لب (Butt Fusion)"
         ]
       },
       {
@@ -6790,37 +6697,6 @@
           }
         ]
       },
-      "timeline": {
-        "title": "توسعه هتل",
-        "desc": "چگونه کی-آکوا به شرکای هتلداری برای اجرای سریع و موفق پروژه‌ها کمک می‌کند.",
-        "items": [
-          {
-            "year": "فاز 1",
-            "title": "بهینه‌سازی طراحی",
-            "text": "بازبینی طراحی‌های شبکه‌های لوله برای کاهش مواد، اطمینان از فشار و سرعت صحیح در پیک‌های مصرف (به عنوان مثال 8 صبح)."
-          },
-          {
-            "year": "فاز 2",
-            "title": "تأمین کارآمد",
-            "text": "تأمین مواد به موقع با طیف گسترده‌ای از ابعاد از 20 میلی‌متر برای شاخه‌های حمام تا 250 میلی‌متر برای خطوط لوله متصل به اتاق پمپ مرکزی."
-          },
-          {
-            "year": "فاز 3",
-            "title": "سرعت نصب",
-            "text": "استفاده از اتصالات سبک وزن، فناوری جوشکاری همگن، و مجموعه‌های پیش‌ساخته برای به حداقل رساندن کارهای داخلی در اتاق‌ها."
-          },
-          {
-            "year": "فاز 4",
-            "title": "راه‌اندازی و تحویل",
-            "text": "آزمایش فشار، شستشو، ضدعفونی حرارتی، و مستندسازی برای تأیید و تضمین سیستم برای اپراتور هتل."
-          },
-          {
-            "year": "فاز 5",
-            "title": "ارائه خدمات بدون نقص",
-            "text": "هتل افتتاح می‌شود و برای دهه‌ها بدون مشکل زیرساخت کار می‌کند."
-          }
-        ]
-      },
       "bentoSection": {
         "eyebrow": "آناتومی کمال",
         "title": "مشخصاتی که استانداردهای صنعت را از نو تعریف می‌کنند.",
@@ -6890,10 +6766,6 @@
         "h3": "اتصالات جوشکاری همگن: پایان نشتی",
         "p5": "ضعیف‌ترین حلقه در هر سیستم لوله‌کشی، اتصال است. رزوه‌ها خورده می‌شوند، حلقه‌های آب‌بندی متخلخل می‌شوند و اتصالات چسبیده از طریق چرخه حرارتی دچار خستگی می‌شوند.",
         "p6": "ما از اصل همجوشی مولکولی استفاده می‌کنیم. لوله و فیتینگ از نظر حرارتی دقیقاً تا 260 درجه سانتیگراد گرم شده و سپس به هم متصل می‌شوند. در کسری از ثانیه، زنجیره‌های پلیمری هر دو جزء ذوب می‌شوند و یک واحد یکپارچه و غیرقابل تفکیک را تشکیل می‌دهند. نتیجه: دیگر \"اتصالی\" وجود ندارد. لوله و فیتینگ یک تکه مواد واحد و پیوسته هستند. بدون آب‌بندی، بدون نقطه ضعف، با قابلیت اطمینان 100٪."
-      },
-      "timelineSection": {
-        "title": "مراجعی که تاریخ می‌سازند.",
-        "desc": "از جزایر مصنوعی در خلیج فارس تا منحصر به فردترین پیست‌های اسکی در کوه‌های آلپ. هر جا که غیرممکن ساخته می‌شود، کی-آکوا از قبل آنجاست."
       }
     },
     "rechenzentrum": {
@@ -8177,7 +8049,7 @@
       "metaTitle": "پشتیبانی فنی و خدمات برای سیستم‌های لوله‌کشی PP-R",
       "title": "پشتیبانی فنی",
       "metaDesc": "از پشتیبانی فنی کی-آکوا بهره‌مند شوید. ما مگاپروژه‌های شما را با مهندسی آلمانی، طراحی هیدرولیک و پشتیبانی جوشکاری در محل همراهی می‌کنیم.",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "مشاوره مهندسی، فناوری کاربرد و پشتیبانی در محل پروژه."
     }
   },
   "wissen": {
@@ -8424,14 +8296,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "زین جوشی (مادگی)",
     "weld-in-saddles_weld-in-saddle-male-thread": "زین جوشی (نری)",
     "weld-in-saddles_weld-in-saddle": "زین جوشی",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "فلنج آزاد PP-فولاد (SF/BF)",
+    "fittings_cross-over-with-socket": "خم عبوری PP-R با مادگی",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "دستگاه جوش دستی d20-d32",
+    "tools_pipe-cutter-50125": "لوله‌بر d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "سه‌راهی 90 درجه (رزوه داخلی) برای شیر توکار"
   },
   "kontaktBlocks": {
     "home": {
@@ -8733,53 +8605,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "مجموعه",
+    "titleGrad": "نقشه‌های تعاملی",
+    "tabHq": "دفتر مرکزی Waldsolms",
+    "tabRefs": "نقشه آب‌بندی",
+    "tabSpec": "مشخص‌کننده سیستم",
+    "hqTitle": "تولید مرکزی و مرکز توسعه",
+    "hqAddress": "Waldsolms Brandoberndorf، هسن، آلمان.",
+    "registryLabel": "دادگاه ثبت شرکت‌ها:",
+    "phoneLabel": "تلفن:",
+    "certLabel": "گواهینامه:",
+    "directions": "باز کردن مسیریاب",
+    "aboutPlant": "درباره کارخانه Waldsolms",
+    "sectorFilter": "فیلتر بخش:",
+    "specPlaceholder": "مکان یا شهر را وارد کنید…",
+    "profileTitle": "پروفایل بازار و لجستیک",
+    "profileHint": "روی نقشه کلیک کنید یا شهری را جستجو کنید تا مشخصات خودکار سیستم و محاسبه مسیر تأمین آغاز شود.",
+    "marketAssign": "تخصیص بازار",
+    "normLabel": "استاندارد:",
+    "airDist": "فاصله هوایی (دفتر مرکزی)",
+    "roadDist": "مسیر جاده‌ای (تخمینی)",
+    "recommended": "سیستم لوله‌کشی پیشنهادی:",
+    "recUv": "لایه بیرونی UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "همه بخش‌ها",
+      "hotel": "هتل",
+      "wohnen": "ساختمان مسکونی",
+      "infra": "زیرساخت",
+      "klinik": "کلینیک",
+      "buero": "اداری"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "محصولات",
+      "markets-solutions": "بازارها و راهکارها",
+      "academy-resources": "آکادمی و منابع",
+      "company": "شرکت"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "محصول‌یاب لوله‌ها",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "قطعات قالبی و اتصالات",
+      "valves": "شیرآلات و شیرها",
+      "tools": "ابزارها و لوازم جانبی",
+      "transition": "اتصالات تبدیلی لوله",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8792,48 +8664,48 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "استعلام پروژه برای سیستم‌های لوله‌کشی",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "نقشه سایت (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
-    "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "title": "زبان خود را انتخاب کنید",
+    "subtitle": "65 زبان · کره را بچرخانید، منطقه را لمس کنید، تأیید کنید.",
+    "searchPlaceholder": "جستجوی زبان یا صفحه…",
+    "pagesSection": "صفحات و ناوبری",
+    "noResults": "هیچ زبانی یافت نشد.",
+    "confirm": "تأیید",
+    "beta": "بتا",
+    "globalEffect": "برای کل وب‌سایت اعمال می‌شود",
+    "active": "فعال"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "چگونه می‌توانیم به شما کمک کنیم؟",
+    "step1Desc": "بخش مناسب برای درخواست خود را انتخاب کنید.",
+    "optSales": "فروش و پروژه‌ها",
+    "optSalesDesc": "استعلام قیمت، پروژه‌های بزرگ و زمان تحویل.",
+    "optTech": "پشتیبانی فنی",
+    "optTechDesc": "مشخصات فنی، نصب و طراحی سیستم.",
+    "optOther": "درخواست عمومی",
+    "optOtherDesc": "بازاریابی، فرصت‌های شغلی یا سایر موارد.",
+    "step2Title": "جزئیات درخواست شما",
+    "step2Desc": "لطفاً پروژه یا سؤال خود را به‌طور مختصر شرح دهید.",
+    "messagePlaceholder": "پیام شما به ما...",
+    "step3Title": "اطلاعات تماس شما",
+    "step3Desc": "تقریباً تمام شد! چگونه می‌توانیم با شما تماس بگیریم؟",
+    "nameLabel": "نام و نام خانوادگی",
+    "companyLabel": "شرکت / سازمان",
+    "emailLabel": "آدرس ایمیل",
+    "phoneLabel": "شماره تلفن",
+    "step4Title": "پیام ارسال شد!",
+    "step4Desc": "از درخواست شما سپاسگزاریم. یکی از کارشناسان ما به‌زودی با شما تماس خواهد گرفت.",
+    "btnNext": "ادامه",
+    "btnBack": "بازگشت",
+    "btnSubmit": "ارسال درخواست",
+    "btnSending": "در حال ارسال…",
+    "btnHome": "بازگشت به صفحه اصلی",
+    "sendError": "ارسال ناموفق بود. لطفاً دوباره تلاش کنید یا مستقیماً با ما تماس بگیرید: +49 (0)60 85 / 9868-410"
   }
 }

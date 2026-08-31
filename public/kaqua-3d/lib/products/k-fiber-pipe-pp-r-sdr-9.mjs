@@ -92,6 +92,41 @@ export function pipeParams(article, opt) {
    Mantelfläche ein, sie sitzt nicht als Leiste darauf. */
 
 
+/* ── Farbvarianten der Rohrserien ──
+
+   Die Serien sind neben dem Standardgrün auch in Blau, Curry und Mocca
+   lieferbar (Marketing/Produktbilder/, RAL-Nummer im Ordnernamen). Der
+   Produktvertrag sieht dafür `variants` und den zweiten Parameter von
+   `build(size, variant, clipPlane)` vor — beides war bisher bei allen 71
+   Produkten leer.
+
+   Warum die Umfärbung über den Materialschlüssel läuft und nicht über die
+   Materialregistry: Bei den Faserrohren tragen Außen- UND Innenlage denselben
+   Schlüssel `pprGreen`, `createAssembly` dedupliziert per Set und legt für
+   beide EINE Materialinstanz an. Wer die Instanz umfärbt, färbt zwangsläufig
+   auch die Innenlage mit. Nur ein eigener Schlüssel je Lage trennt das. */
+export const ROHR_VARIANTEN = ['gruen', 'blau', 'curry', 'mocca'];
+
+const VARIANTEN_MATERIAL = {
+  gruen: 'pprGreen',
+  blau: 'pprBlue',
+  curry: 'pprCurry',
+  mocca: 'pprMocca',
+};
+
+/**
+ * Gibt die Lagenliste mit eingefärbter AUSSENLAGE zurück.
+ *
+ * Nur Lage 0 wechselt die Farbe. Innenlagen und der Faserkern bleiben, was sie
+ * sind — die Variante betrifft die Coextrusion außen, nicht den Wandaufbau.
+ * Kennstreifen bleiben ebenfalls unberührt: sie kodieren die Baureihe.
+ */
+export function mitFarbvariante(layers, variant) {
+  const key = VARIANTEN_MATERIAL[variant];
+  if (!key || !layers.length || layers[0].key !== 'pprGreen') return layers;
+  return layers.map((l, i) => (i === 0 ? Object.assign({}, l, { key }) : l));
+}
+
 export function buildTube(P, layers) {
   return tubeLayers(P.d, P.wall, layers, { length: P.len, x0: -P.xEnd });
 }
@@ -253,33 +288,38 @@ const product = {
   dimensions: ['d', 'di'],
   ariaFields: ['d', 'di', 's'],
 
-  variants: [],
+  /* Serienfarben laut Herstellerarchiv — der Viewer blendet die Auswahl
+     von selbst ein, sobald diese Liste nicht leer ist. */
+  variants: ROHR_VARIANTEN,
   states: null,
 
   tile: 'Mittlere Druckstufe der Faserrohre — beginnt erst bei d32.',
 
   build(size, variant, clipPlane) {
     const P = params(size);
-    const matKeys = [...new Set([...LAYERS.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
+    const LAGEN = mitFarbvariante(LAYERS, variant);
+    const matKeys = [...new Set([...LAGEN.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
     const A = createAssembly({
       name: 'K-Aqua_kaqua-k-fiber-pipe-pp-r-sdr-9' + '_d' + size,
       materials: matKeys,
       seed: 149,
+      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
+      emboss: false,
       clipPlane,
     });
 
-    const layers = buildTube(P, LAYERS);
+    const layers = buildTube(P, LAGEN);
     layers.forEach((layer, i) => {
       A.part('layer' + i, {
         name: 'Rohrwand_' + layer.label,
-        label: LAYERS.length > 1
+        label: LAGEN.length > 1
           ? layer.label + ' (' + layer.thickness.toFixed(1).replace('.', ',') + ' mm)'
           : 'Rohrwand (' + P.wall.toFixed(1).replace('.', ',') + ' mm)',
         mat: layer.key,
         geo: layer.geo,
         cap: layer.cap,
         // Lagen fahren radial auseinander — so liest sich der Wandaufbau
-        explode: V3(0, (LAYERS.length - i) * P.d * 0.55, 0),
+        explode: V3(0, (LAGEN.length - i) * P.d * 0.55, 0),
         anchor: i === 0 ? V3(0, P.rOut + 0.16 * P.len, 0) : V3(0, P.rOut + 0.10 * P.len, 0),
       });
     });
@@ -290,7 +330,7 @@ const product = {
         label: 'Kennstreifen (Coextrusion)',
         mat: stripe.key,
         geo: buildStripe(P, stripe).geo,
-        explode: V3(0, (LAYERS.length + 1) * P.d * 0.55, 0),
+        explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
       });
     });
 
@@ -300,8 +340,8 @@ const product = {
     A.hotspot({
       v: V3(-P.xEnd + P.d * 0.28, P.rOut * 0.42, P.rOut * 0.88),
       n: V3(0, 0.42, 0.9),
-      text: LAYERS.length > 1
-        ? 'Schnittkante: ' + LAYERS.length + ' Lagen, Wandstärke ' +
+      text: LAGEN.length > 1
+        ? 'Schnittkante: ' + LAGEN.length + ' Lagen, Wandstärke ' +
           String(P.wall).replace('.', ',') + ' mm'
         : 'Schnittkante: Wandstärke ' + String(P.wall).replace('.', ',') +
           ' mm, Innendurchmesser ' + String(P.di).replace('.', ',') + ' mm',
@@ -328,7 +368,7 @@ const product = {
          gibt nur seinen eigenen Startradius zurück. */
       { key: 'di', label: DIMENSION_KEY.di, soll: P.di,
         ist: () => {
-          const hit = A.probeAxial('layer' + (LAYERS.length - 1), V3(0, 0, 0), V3(0, 1, 0));
+          const hit = A.probeAxial('layer' + (LAGEN.length - 1), V3(0, 0, 0), V3(0, 1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
       /* Die modellierte Wand ist die Differenz der beiden Tabellenenden,

@@ -97,7 +97,7 @@ export default function Header() {
           <FluidLink
             href="/"
             className="inline-flex items-center min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg transition-transform active:scale-[0.97] shrink-0"
-            aria-label="K Aqua Homepage"
+            aria-label={t('mega.homeSr') || "K Aqua Homepage"}
           >
             <span className="sr-only">{t('mega.homeSr')}</span>
             <Logo height={44} />
@@ -110,23 +110,24 @@ export default function Header() {
             <div className="relative group focus-within:z-50">
               <FluidLink
                 href="/produkte"
+                aria-haspopup="true"
                 className="px-2 lg:px-3 2xl:px-4 py-1.5 lg:py-2 text-[13px] lg:text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle group-focus-within:text-foreground group-focus-within:bg-background-subtle whitespace-nowrap"
               >
                 {t('products')}
                 <ChevronDown className="w-3.5 h-3.5 lg:w-4 lg:h-4 opacity-50 group-hover:opacity-100 group-focus-within:opacity-100 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" />
               </FluidLink>
-              <div className="absolute top-[calc(100%+4px)] left-0 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:pointer-events-auto group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+              <div className="absolute top-[calc(100%+4px)] start-0 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:pointer-events-auto group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:start-0 before:w-full before:h-6 before:content-['']">
                 <div className="flex-1 flex flex-col gap-1 border-e border-card-border pe-4">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.pipeSystems')}</span>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/produkte" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
-                      {t('mega.allProducts')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 rtl-flip transition-all" />
+                      {t('mega.allProducts')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 ltr:-translate-x-2 rtl:translate-x-2 group-hover/item:translate-x-0 rtl-flip transition-all" />
                     </FluidLink>
                     <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.allProductsDesc')}</span>
                   </div>
                   <div className="group/item relative px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">
                     <FluidLink href="/loesungen" className="text-sm font-semibold text-foreground group-hover/item:text-primary transition-colors flex items-center justify-between before:absolute before:inset-0">
-                      {t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 rtl-flip transition-all" />
+                      {t('solutions')} <ArrowRight className="w-4 h-4 opacity-0 group-hover/item:opacity-100 ltr:-translate-x-2 rtl:translate-x-2 group-hover/item:translate-x-0 rtl-flip transition-all" />
                     </FluidLink>
                     <span className="text-xs text-muted-foreground mt-0.5 pointer-events-none">{t('mega.solutionsDesc')}</span>
                   </div>
@@ -181,11 +182,11 @@ export default function Header() {
 
             {/* Group 3: Unternehmen */}
             <div className="relative group">
-              <FluidLink href="/unternehmen" className="px-2 lg:px-3 2xl:px-4 py-1.5 lg:py-2 text-[13px] lg:text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle whitespace-nowrap">
+              <FluidLink href="/unternehmen" className="px-2 lg:px-3 2xl:px-4 py-1.5 lg:py-2 text-[13px] lg:text-[14px] 2xl:text-[15px] font-heading font-medium rounded-full transition-all duration-200 text-muted-foreground hover:bg-background-subtle hover:text-foreground inline-flex items-center gap-1 group-hover:text-foreground group-hover:bg-background-subtle group-focus-within:text-foreground group-focus-within:bg-background-subtle whitespace-nowrap">
                 {t('about')}
-                <ChevronDown className="w-3.5 h-3.5 lg:w-4 lg:h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:rotate-180" />
+                <ChevronDown className="w-3.5 h-3.5 lg:w-4 lg:h-4 opacity-50 group-hover:opacity-100 group-focus-within:opacity-100 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" />
               </FluidLink>
-              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
+              <div className="absolute top-[calc(100%+4px)] left-1/2 -translate-x-1/2 w-[480px] opacity-0 translate-y-2 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:pointer-events-auto group-focus-within:opacity-100 group-focus-within:translate-y-0 transition-all duration-300 bg-card/95 backdrop-blur-xl border border-card-border rounded-2xl shadow-lift p-4 flex gap-4 z-50 before:absolute before:-top-6 before:left-0 before:w-full before:h-6 before:content-['']">
                 <div className="flex-1 flex flex-col gap-1 border-r border-card-border pr-4">
                   <span className="text-xs font-bold tracking-widest text-primary uppercase mb-2 px-2">{t('mega.aboutGroup')}</span>
                   <FluidLink href="/unternehmen" className="group/item px-3 py-2.5 rounded-xl hover:bg-primary-soft transition-colors flex flex-col">

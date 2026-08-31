@@ -3084,39 +3084,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "References That Make History.",
-        "desc": "From artificial islands in the Persian Gulf to the most exclusive ski resorts in the Alps. Wherever the impossible is built, K-Aqua is on site."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Dubai",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Equipping 800 suites and 4 giant pool landscapes. Extreme salinity and ambient temperatures up to 50°C demanded maximum thermal and chemical resistance. K-Aqua supplied the complete cold and hot water network including district cooling connection."
-          },
-          {
-            "year": "Switzerland",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "A 6-star resort at 2,000 metres altitude. The challenge: Extreme frost risk during construction and maximum requirements for sound insulation. Our PP-R fiber composite pipes effortlessly absorbed thermal length changes and guaranteed silent operation."
-          },
-          {
-            "year": "Singapore",
-            "title": "Vertical Forest Hotel",
-            "text": "A 65-story masterpiece of ecological architecture. The complex irrigation system for thousands of balcony plants as well as the entire drinking water infrastructure were realized with K-Aqua. Homogeneous welding protected the building from microscopic leaks."
-          },
-          {
-            "year": "Maldives",
-            "title": "Zero-Emission Island Resort",
-            "text": "Built directly over the reef, absolute environmental compatibility was required. K-Aqua pipes are 100% recyclable, release no microplastics or heavy metals, and withstand highly corrosive salty sea air without any wear."
-          },
-          {
-            "year": "Future",
-            "title": "Your Next Megaproject",
-            "text": "The boundaries of architecture shift daily. We are ready to pour the foundation for your boldest visions. With technology decades ahead of its time."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Research & Development",
         "title": "The Chemistry <br/> of Indestructibility.",
@@ -4766,48 +4733,6 @@
         "lon": 8.5,
         "title": "Waldsolms, Germany",
         "d": "Headquarters & Development, where every K Aqua pipe is created."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubai, UAE",
-        "d": "High-rise risers, PPRCT for hot water under desert conditions."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Warsaw, Poland",
-        "d": "New residential district, complete drinking water installation d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Istanbul, Turkey",
-        "d": "Hotel complex, circulation lines with fiber composite pipe."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapore",
-        "d": "Infrastructure project, large dimensions up to d630 using butt welding."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Cape Town, South Africa",
-        "d": "New hospital building, hygienic drinking water distribution."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "London, UK",
-        "d": "Office renovation, corrosion-free replacement for existing pipelines."
       }
     ],
     "viewProject": "View project"
@@ -5520,8 +5445,7 @@
         "d": "Hygiene is non-negotiable here: The smooth inner surface (0.007 mm) inhibits biofilm and encrustation; the material remains tasteless and odorless.",
         "pts": [
           "Hygienic Neutrality",
-          "Corrosion-free, no pitting",
-          "Reference: Cape Town New Hospital Building"
+          "Corrosion-free, no pitting"
         ]
       },
       {
@@ -5529,8 +5453,7 @@
         "d": "24/7 hot water circulation: low thermal conductivity permanently saves energy, PPRCT withstands 70 °C continuous operation.",
         "pts": [
           "Thermal Efficiency",
-          "PPRCT for circulation",
-          "Reference: Istanbul Hotel Complex"
+          "PPRCT for circulation"
         ]
       },
       {
@@ -5547,8 +5470,7 @@
         "d": "UV-stabilized versions for irrigation under glass and outdoors, lightweight, quickly installed, less sensitive to frost than rigid systems.",
         "pts": [
           "UV-resistant execution",
-          "Low weight",
-          "Application area from the reference program"
+          "Low weight"
         ]
       },
       {
@@ -5556,8 +5478,7 @@
         "d": "Supply lines and networks in large dimensions up to d630, butt-welded into homogeneous, permanently tight lines.",
         "pts": [
           "d up to 630 mm",
-          "Butt Fusion",
-          "Reference: Singapore Infrastructure"
+          "Butt Fusion"
         ]
       },
       {
@@ -7871,53 +7792,6 @@
     "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
     "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Quality that connects",
-    "title": "What our customers and partners say",
-    "lead": "From builders to freight forwarders to long-standing employees: K Aqua KWT GmbH stands for the highest precision from Waldsolms. Read for yourself what experiences people have every day with our service and our products 'Made in Germany'.",
-    "trustBadge": "Google Reviews",
-    "trustStars": "4.9 / 5",
-    "trustBasedOn": "(Based on 44 reviews)",
-    "tabA": "Quality & 'Made in Germany'",
-    "tabB": "Logistics & Delivery",
-    "tabC": "Customer Service & Team",
-    "reviews": {
-      "a1": "“A factory in Waldsolms, Germany, specializing in PPR pipes and fittings **Made in Germany**. Excellent staff.”",
-      "a1Author": "Giulio C.",
-      "a2": "“**German quality** in PPR coatings and fittings, very friendly staff.”",
-      "a2Author": "Veronica P.",
-      "a3": "“**Modern company**. Produces plastic pipes of all sizes and accessories.”",
-      "a3Author": "Ewald S.",
-      "a4": "“PPR pipes and fittings from **German manufacturing**, excellent employees and products.”",
-      "a4Author": "Kais S.",
-      "a5": "“**High-quality products** and a top German factory.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "“Very good products, **reliable quality** and punctual delivery.”",
-      "a6Author": "Klaus T.",
-      "b1": "“Very nice interaction, **fast unloading**. I was allowed to take my big break here. Shower and toilet were also offered to me. Here you feel **valued** as a truck driver. I am very happy to come back here.”",
-      "b1Author": "Michael S.",
-      "b2": "“The current coordinates of the entrance are **50.428210, 8.499154**. About 100 metres away is a parking lot. Friendly staff.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "“**Fast unloading**, friendly and helpful staff.”",
-      "b3Author": "Bogdan M.",
-      "c1": "“**Very good service**, great that production still takes place in Germany.”",
-      "c1Author": "Daniel",
-      "c2": "“**Very friendly** and helpful staff. Emails are **answered promptly**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "“From the chairman to the simple workers, they are **good people**.”",
-      "c3Author": "Azim",
-      "c4": "“**Great company**, does a lot for its people.”",
-      "c4Author": "Monika v. B.",
-      "c5": "“The employees are **very friendly and helpful**.”",
-      "c5Author": "Piera V.",
-      "c6": "“Competent team and **excellent customer care** at all levels.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Convince yourself of our service.",
-    "ctaText": "Do you have questions about our PPR pipe systems or would you like to discuss a project with us? Our team from Waldsolms is here for you.",
-    "ctaBtn": "Contact us now",
-    "disclaimer": "Note on the review of ratings: The ratings presented here are from our Google business profile. Google states: Reviews are not verified. We have abbreviated the names of the authors for data protection reasons (GDPR)."
   },
   "notFound": {
     "title": "Page not found",

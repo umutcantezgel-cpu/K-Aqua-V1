@@ -1364,7 +1364,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Вижте детайли за продукта"
   },
   "toggle_theme_light": "Превключване към светла тема",
   "toggle_theme_dark": "Превключване към тъмна тема",
@@ -1404,30 +1404,30 @@
     "edgePageIndex": "Индекс на страницата",
     "mega": {
       "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
+      "pipeSystems": "Тръбопроводни системи",
+      "allProducts": "Всички продукти",
       "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
+      "solutionsDesc": "Специфични за отрасъла приложения",
+      "digitalTools": "Дигитални инструменти",
+      "finderDesc": "Конфигурирайте правилната система",
+      "co2Desc": "Изчислете екологичния баланс",
+      "academyDesc": "Обучения и сертификати",
+      "trustDesc": "Файлове за изтегляне и сертификати",
+      "serviceDesc": "Подкрепа при проектиране",
+      "partnersDesc": "Станете локален партньор",
       "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "company": "Компанията",
+      "companyDesc": "Мисия, визия и история",
+      "careerDesc": "Свободни позиции и култура",
+      "newsPress": "Новини и преса",
+      "newsDesc": "Актуални прессъобщения",
+      "sitemap": "Карта на сайта",
+      "sitemapDesc": "Структурен преглед",
+      "globalFootprint": "Глобално присъствие",
+      "globalMarkets": "Глобални пазари",
+      "marketsDesc": "Сертифицирани региони",
+      "refProjects": "Референтни проекти",
+      "refDesc": "Успешни инсталации"
     }
   },
   "groups": {
@@ -3078,39 +3078,6 @@
           }
         ]
       },
-      "timelineSection": {
-        "title": "Референции, които пишат история.",
-        "desc": "От изкуствени острови в Персийския залив до най-ексклузивните ски курорти в Алпите. Където се строи невъзможното, K Aqua вече е там."
-      },
-      "timeline": {
-        "items": [
-          {
-            "year": "Дубай",
-            "title": "The Palm Jumeirah Ultra-Luxury Resort",
-            "text": "Оборудване на 800 апартамента и 4 огромни басейна. Екстремната соленост и околните температури до 50°C изискваха максимална термична и химическа устойчивост. K Aqua достави цялата мрежа за студена и топла вода, включително връзката за централно охлаждане."
-          },
-          {
-            "year": "Швейцария",
-            "title": "Alpine Retreat St. Moritz",
-            "text": "6-звезден курорт на 2000 метра надморска височина. Предизвикателството: Изключителен риск от замръзване по време на строителната фаза и максимални изисквания за звукоизолация. Нашите композитни тръби от PP-R фибростъкло суверенно абсорбираха термичните промени в дължината и гарантираха безшумна работа."
-          },
-          {
-            "year": "Сингапур",
-            "title": "Vertical Forest Hotel",
-            "text": "65-етажен шедьовър на екологичната архитектура. Сложната напоителна система за хиляди балконски растения и цялата инфраструктура за питейна вода бяха реализирани с K Aqua. Хомогенната заваръчна технология спаси сградата от микроскопични течове."
-          },
-          {
-            "year": "Малдиви",
-            "title": "Zero-Emission Island Resort",
-            "text": "Построен директно върху рифа, изискваше абсолютна екологична съвместимост. Тръбите K Aqua са 100% рециклируеми, не отделят микропластмаса или тежки метали и издържат на силно корозивния солен морски въздух без никакво износване."
-          },
-          {
-            "year": "Бъдеще",
-            "title": "Вашият следващ мегапроект",
-            "text": "Границите на архитектурата се изместват всеки ден. Ние сме готови да излеем основите за най-смелите ви визии. С технология, която е десетилетия пред времето си."
-          }
-        ]
-      },
       "research": {
         "eyebrow": "Научноизследователска и развойна дейност",
         "title": "Химията <br/> на неразрушимостта.",
@@ -3911,7 +3878,7 @@
       ]
     ],
     "btnDe": "Сертификат (DE)",
-    "btnEn": "Certificate (EN)",
+    "btnEn": "Сертификат (EN)",
     "eventsTitle": "Изложения и събития",
     "eventsText": "Посетете K Aqua на предстоящи събития. В момента няма обявени дати. Проверявайте редовно за актуализации.",
     "lead": "Прочетете последните новини от K Aqua. "
@@ -4089,25 +4056,25 @@
     "nextTitle": "Колко съобразено с климата е вашето планиране?",
     "nextLead": "Прехвърлете размерите и дължината директно в CO₂ калкулатора и сравнете с мед, неръждаема стомана и PVC.",
     "nextCta": "Към CO₂ калкулатора",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Разгледайте пълната ни продуктова гама по категория, име или артикулен номер.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Тръби",
+    "catFittings": "Фасонни части",
+    "catValves": "Арматура",
+    "catTools": "Инструменти",
+    "catTransitionFittings": "Преходни фитинги",
+    "catAccessories": "Аксесоари",
+    "catWeldInSaddles": "Висококачествено PP-R заваръчно седло",
+    "category": "Категория",
+    "search": "Търсене",
+    "searchPlaceholder": "Артикулен номер или име...",
+    "foundFam": "намерени продуктови фамилии",
+    "catalogPdf": "Каталог като PDF",
+    "colName": "Име на продукта",
+    "colCat": "Категория",
+    "colCodes": "Артикулни номера",
+    "noResultsText": "Не открихме продукти, отговарящи на критериите Ви за търсене. Моля, опитайте с друг термин или сменете категорията.",
+    "resetFilters": "Нулиране на филтрите"
   },
   "trustAndCases": {
     "eyebrow": "Сертифицирана сигурност",
@@ -4776,7 +4743,7 @@
     "retry": "Опитайте отново",
     "titlePerfect": "Майстор-заварчик",
     "titleGood": "Калфа-заварчик",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Обучителни видеа и ръководства"
   },
   "refs": {
     "eyebrow": "Референции",
@@ -4792,51 +4759,9 @@
         "lon": 8.5,
         "title": "Валдсолмс, Германия",
         "d": "Основен завод и разработка: тук се създава всяка тръба K Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Дубай, ОАЕ",
-        "d": "Вертикални щрангове за небостъргачи: PPRCT за гореща вода в пустинни условия."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Варшава, Полша",
-        "d": "Ново жилищно строителство: цялостна инсталация за питейна вода d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Истанбул, Турция",
-        "d": "Хотелски комплекс: циркулационни тръби с композитна тръба от фибростъкло."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Сингапур",
-        "d": "Инфраструктурен проект: големи диаметри до d630 с метод на челно заваряване."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Кейптаун, Южна Африка",
-        "d": "Нова болница: хигиенно разпределение на питейната вода."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Лондон, Великобритания",
-        "d": "Обновяване на офиси: устойчива на корозия подмяна на съществуващи тръби."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Вижте проекта"
   },
   "buyers": {
     "eyebrow": "За проектанти, купувачи и инсталатори",
@@ -5936,53 +5861,6 @@
     "toc": "Съдържание",
     "eyebrow": "Правни"
   },
-  "customerReviews": {
-    "title": "Какво казват нашите клиенти",
-    "lead": "От разработчици до дългогодишни партньори: K Aqua означава най-висока прецизност. Прочетете какви преживявания имат хората с нашите продукти.",
-    "eyebrow": "Гласът на индустрията",
-    "trustBadge": "Сертифицирани отзиви",
-    "trustStars": "4.9/5",
-    "trustBasedOn": "Въз основа на над 500 B2B отзива.",
-    "tabA": "Планиране и инженеринг",
-    "tabB": "Монтаж и изпълнение",
-    "tabC": "Експлоатация и поддръжка",
-    "reviews": {
-      "a1": "PP-R системите на K Aqua значително опростиха нашите проекти за ОВК. Техническата поддръжка от Валдсолмс е ненадмината.",
-      "a1Author": "Инж. Петър Иванов, Главен проектант",
-      "a2": "Спестяването на CO2, което постигаме с K Aqua PPRCT тръбите, ни помага да изпълним целите си за устойчивост.",
-      "a2Author": "Мария Георгиева, Мениджър устойчивост",
-      "a3": "Инструментът за оразмеряване е изключително точен. Досега не сме имали проблеми с налягането в нашите инсталации.",
-      "a3Author": "Георги Димитров, ОВК инженер",
-      "a4": "Използваме K Aqua за всички наши хотелски проекти поради изключителната им шумоизолация.",
-      "a4Author": "Елена Петрова, Архитект",
-      "a5": "Заваръчните седла са гениални. Спестяват ни дни работа при преоборудване.",
-      "a5Author": "Тодор Стоянов, Ръководител обект",
-      "a6": "Устойчивостта на корозия на PP-R тръбите ги прави идеален избор за нашите химически заводи.",
-      "a6Author": "Иван Колев, Индустриален инженер",
-      "b1": "Инсталацията на PPRCT е много по-лесна от работата със стоманени тръби. По-малко тегло и по-бързо заваряване.",
-      "b1Author": "Стефан Николов, Главен инсталатор",
-      "b2": "Квалификационните курсове на K Aqua Academy бяха изключително полезни за нашия екип.",
-      "b2Author": "Димитър Василев, Управител на ВиК фирма",
-      "b3": "Доставките винаги са навреме. Логистиката от Германия работи безупречно.",
-      "b3Author": "Николай Христов, Мениджър доставки",
-      "c1": "След 10 години експлоатация, тръбите K Aqua изглеждат като нови. Нулева поддръжка.",
-      "c1Author": "Борис Михайлов, Фасилити мениджър",
-      "c2": "Нямаме проблеми с калцификация или намаляване на дебита, дори при твърда вода.",
-      "c2Author": "Ангел Петров, Технически директор",
-      "c3": "Инвестицията в K Aqua се изплати многократно чрез намалените разходи за енергия и поддръжка.",
-      "c3Author": "Светлин Тодоров, Финансов директор",
-      "c4": "Системата е изключително надеждна. Нямаме регистрирани течове или аварии.",
-      "c4Author": "Румен Илиев, Инженер поддръжка",
-      "c5": "Отлична топлоизолация. Загубите на енергия в нашата мрежа за гореща вода са сведени до минимум.",
-      "c5Author": "Красимир Йорданов, Енергиен мениджър",
-      "c6": "Препоръчвам K Aqua за всички критични приложения. Германското качество си личи.",
-      "c6Author": "Васил Георгиев, Главен механик"
-    },
-    "ctaTitle": "Готови ли сте за следващия си проект?",
-    "ctaText": "Свържете се с нас, за да обсъдим как K Aqua може да подобри вашата инфраструктура.",
-    "ctaBtn": "Свържете се с екипа",
-    "disclaimer": "Всички отзиви са от проверени клиенти."
-  },
   "kontaktForm": {
     "title": "Свържете се с нас",
     "firstName": "Име",
@@ -6259,14 +6137,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Седло за заваряване (вътрешна резба)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Седло за заваряване (външна резба)",
     "weld-in-saddles_weld-in-saddle": "Седло за заваряване",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Свободен фланец PP-стомана (SF/BF)",
+    "fittings_cross-over-with-socket": "PP-R обходна дъга с муфа",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Ръчен заваръчен апарат d20-d32",
+    "tools_pipe-cutter-50125": "Тръборез d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
+    "valves_tee-90-female-thread-for-internal-valve": "Тройник 90° (вътрешна резба) за вграден вентил"
   },
   "wissen": {
     "meta": {
@@ -6685,8 +6563,7 @@
         "d": "Хигиената тук не подлежи на преговори: гладката вътрешна повърхност (0,007 мм) инхибира биофилма и инкрустацията, материалът остава без вкус и мирис.",
         "pts": [
           "Хигиенна неутралност",
-          "Без корозия: без питинг",
-          "Референция: Нова болница в Кейптаун"
+          "Без корозия: без питинг"
         ]
       },
       {
@@ -6694,8 +6571,7 @@
         "d": "Циркулация на топла вода денонощно: ниската топлопроводимост спестява енергия постоянно, PPRCT издържа на 70 °C при продължителна работа.",
         "pts": [
           "Топлинна ефективност",
-          "PPRCT за циркулация",
-          "Референция: Хотелски комплекс Истанбул"
+          "PPRCT за циркулация"
         ]
       },
       {
@@ -6712,8 +6588,7 @@
         "d": "UV-стабилизирани версии за напояване под стъкло и на открито: леки, бързо монтирани, по-малко чувствителни към замръзване от твърдите системи.",
         "pts": [
           "UV-устойчива версия",
-          "Ниско тегло",
-          "Област на приложение от референтната програма"
+          "Ниско тегло"
         ]
       },
       {
@@ -6721,8 +6596,7 @@
         "d": "Захранващи линии и мрежи в големи размери до d630: челно заварени в хомогенни, трайно уплътнени линии.",
         "pts": [
           "d до 630 мм",
-          "Челно заваряване (Butt Fusion)",
-          "Референция: Инфраструктура Сингапур"
+          "Челно заваряване (Butt Fusion)"
         ]
       },
       {
@@ -8243,7 +8117,7 @@
         "btnGhost": "Свържете се с експерти"
       },
       "metaTitle": "Техническа поддръжка и сервиз за PP-R тръбопроводни системи",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Инженерни консултации, приложна техника и поддръжка на място."
     },
     "downloads": {
       "title": "Изтегляния",
@@ -8643,53 +8517,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Интерактивна",
+    "titleGrad": "картографска платформа",
+    "tabHq": "Централа Waldsolms",
+    "tabRefs": "Карта на херметичността",
+    "tabSpec": "Спецификатор",
+    "hqTitle": "Централно производство и развоен център",
+    "hqAddress": "Waldsolms Brandoberndorf, Хесен, Германия.",
+    "registryLabel": "Търговски регистър:",
+    "phoneLabel": "Телефон:",
+    "certLabel": "Сертификация:",
+    "directions": "Отворете маршрутен планер",
+    "aboutPlant": "За завода във Waldsolms",
+    "sectorFilter": "Филтър по сектор:",
+    "specPlaceholder": "Въведете населено място или град…",
+    "profileTitle": "Пазарен и логистичен профил",
+    "profileHint": "Кликнете върху картата или потърсете град, за да стартирате автоматичната системна спецификация и изчислението на логистичните оси.",
+    "marketAssign": "Пазарно позициониране",
+    "normLabel": "Стандарт:",
+    "airDist": "Въздушна линия (HQ)",
+    "roadDist": "Път (приблизително)",
+    "recommended": "Препоръчана тръбопроводна система:",
+    "recUv": "Външен слой UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Всички сектори",
+      "hotel": "Хотел",
+      "wohnen": "Жилищно строителство",
+      "infra": "Инфраструктура",
+      "klinik": "Клиника",
+      "buero": "Офис"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Продукти",
+      "markets-solutions": "Пазари и решения",
+      "academy-resources": "Академия и ресурси",
+      "company": "Компания"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Продуктов търсач за тръби",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Фасонни части и фитинги",
+      "valves": "Арматура и вентили",
+      "tools": "Инструменти и аксесоари",
+      "transition": "Преходи за тръби",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8702,48 +8576,48 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Запитване за проект с тръбопроводни системи",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Карта на сайта (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Изберете своя език",
+    "subtitle": "65 езика · завъртете глобуса, докоснете регион, потвърдете.",
+    "searchPlaceholder": "Търсене на език или страница …",
+    "pagesSection": "Страници и навигация",
+    "noResults": "Няма намерен език.",
+    "confirm": "Потвърдете",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Важи за целия уебсайт",
+    "active": "активен"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Как можем да Ви помогнем?",
+    "step1Desc": "Изберете подходящия отдел за Вашето запитване.",
+    "optSales": "Продажби и проекти",
+    "optSalesDesc": "Ценови запитвания, големи проекти и срокове за доставка.",
+    "optTech": "Техническа поддръжка",
+    "optTechDesc": "Спецификации, монтаж и оразмеряване на системата.",
+    "optOther": "Общо запитване",
+    "optOtherDesc": "Маркетинг, кариера или друго.",
+    "step2Title": "Детайли за Вашето запитване",
+    "step2Desc": "Моля, опишете накратко Вашия проект или въпрос.",
+    "messagePlaceholder": "Вашето съобщение до нас...",
+    "step3Title": "Вашите данни за контакт",
+    "step3Desc": "Почти готово! Как можем да се свържем с Вас?",
+    "nameLabel": "Пълно име",
+    "companyLabel": "Фирма / организация",
+    "emailLabel": "Имейл адрес",
+    "phoneLabel": "Телефонен номер",
+    "step4Title": "Съобщението е изпратено!",
+    "step4Desc": "Благодарим Ви за запитването. Един от нашите експерти ще се свърже с Вас скоро.",
+    "btnNext": "Напред",
+    "btnBack": "Назад",
+    "btnSubmit": "Изпратете запитване",
+    "btnSending": "Изпраща се…",
+    "btnHome": "Обратно към началната страница",
+    "sendError": "Изпращането е неуспешно. Моля, опитайте отново или ни се обадете директно: +49 (0)60 85 / 9868-410"
   }
 }

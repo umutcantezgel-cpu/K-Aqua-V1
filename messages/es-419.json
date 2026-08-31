@@ -768,7 +768,7 @@
     "supportText": "Hablemos de su proyecto. Nuestro equipo de soporte lo ayuda con preguntas técnicas sobre planificación, materiales y procesamiento."
   },
   "imprint": {
-    "eyebrow": "Legal",
+    "eyebrow": "Información legal",
     "title": "Aviso Legal",
     "rows": [
       [
@@ -1016,25 +1016,25 @@
     "nextTitle": "¿Qué tan respetuosa con el clima es su planificación?",
     "nextLead": "Transfiera la dimensión y longitud directamente a la calculadora de CO₂ y compare contra cobre, acero inoxidable y PVC.",
     "nextCta": "Ir a la calculadora de CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
+    "searchLead": "Explore nuestra gama completa de productos por categoría, nombre o número de artículo.",
     "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "catPipes": "Tubos",
+    "catFittings": "Accesorios moldeados",
+    "catValves": "Válvulas",
+    "catTools": "Herramientas",
+    "catTransitionFittings": "Accesorios de transición",
+    "catAccessories": "Accesorios",
+    "catWeldInSaddles": "Silleta de soldadura PP-R de alta calidad",
+    "category": "Categoría",
+    "search": "Búsqueda",
+    "searchPlaceholder": "Número de artículo o nombre...",
+    "foundFam": "familias de artículos encontradas",
+    "catalogPdf": "Catálogo en PDF",
+    "colName": "Nombre del producto",
+    "colCat": "Categoría",
+    "colCodes": "Números de artículo",
+    "noResultsText": "No encontramos productos que coincidan con sus criterios de búsqueda. Intente con otro término o cambie la categoría.",
+    "resetFilters": "Restablecer filtros"
   },
   "co2": {
     "guideText": "<h2>Sostenibilidad y LCA (Análisis de Ciclo de Vida)</h2><p>La elección del sistema de tuberías adecuado tiene un impacto significativo en la huella de carbono de un edificio o instalación industrial. La calculadora de CO2 de K-Aqua permite un Análisis de Ciclo de Vida (LCA) completo según los estándares de la norma EN 15804. Este análisis cubre todo el ciclo de vida: desde la extracción de materias primas y la fabricación del producto (fases A1-A3) hasta el transporte e instalación (fases A4-A5), pasando por la fase de uso (fase B) y el fin de vida (fase C).</p><p>En comparación con las tuberías de metal convencionales como el cobre o el acero, las tuberías PP-R y PPRCT de K-Aqua tienen un balance ecológico mucho más favorable. El menor requerimiento de energía durante la extrusión del plástico, así como el peso significativamente menor, reducen considerablemente las emisiones de CO2 durante la producción y el transporte. Además, la superficie interior súper lisa (rugosidad de solo 0,007 mm) asegura una resistencia al flujo extremadamente baja. Según la ecuación de Darcy-Weisbach, esto significa que las bombas de circulación tienen que usar mucha menos energía (electricidad) para mover el fluido a través del sistema.</p><p>Especialmente en la fase de uso (fase B), que a menudo dura 50 años o más para los sistemas de tuberías, este ahorro de energía suma ahorros masivos de CO2 y costos (Costo Total de Propiedad, TCO). También al final de su vida útil (fase C), el polipropileno ofrece ventajas ecológicas, ya que es 100% reciclable y puede reutilizarse en el sentido de la economía circular (Módulo D). Utilice esta calculadora para cuantificar el potencial de ahorro ecológico y económico de su proyecto K-Aqua de manera precisa y transparente.</p>",
@@ -1261,51 +1261,9 @@
         "lon": 8.5,
         "title": "Waldsolms, Alemania",
         "d": "Planta principal y desarrollo: aquí se fabrica cada tubería K-Aqua."
-      },
-      {
-        "id": "dubai",
-        "lat": 25.2,
-        "lon": 55.3,
-        "title": "Dubái, EAU",
-        "d": "Tuberías ascendentes en rascacielos: PPRCT para agua caliente bajo condiciones desérticas."
-      },
-      {
-        "id": "warsaw",
-        "lat": 52.2,
-        "lon": 21,
-        "title": "Varsovia, Polonia",
-        "d": "Nueva construcción de distrito residencial: instalación completa de agua potable d20–d110."
-      },
-      {
-        "id": "istanbul",
-        "lat": 41,
-        "lon": 28.9,
-        "title": "Estambul, Turquía",
-        "d": "Complejo hotelero: tuberías de circulación con material compuesto de fibra."
-      },
-      {
-        "id": "singapore",
-        "lat": 1.35,
-        "lon": 103.8,
-        "title": "Singapur",
-        "d": "Proyecto de infraestructura: grandes dimensiones hasta d630 con soldadura a tope."
-      },
-      {
-        "id": "cape_town",
-        "lat": -33.9,
-        "lon": 18.4,
-        "title": "Ciudad del Cabo, Sudáfrica",
-        "d": "Nueva construcción de hospital: distribución higiénica de agua potable."
-      },
-      {
-        "id": "london",
-        "lat": 51.5,
-        "lon": -0.1,
-        "title": "Londres, Reino Unido",
-        "d": "Renovación de oficinas: reemplazo libre de corrosión de las tuberías existentes."
       }
     ],
-    "viewProject": "View project"
+    "viewProject": "Ver proyecto"
   },
   "buyers": {
     "eyebrow": "Para Planificadores, Compradores e Instaladores",
@@ -1446,7 +1404,7 @@
       ]
     },
     "toc": "Contenido",
-    "eyebrow": "Legal"
+    "eyebrow": "Información legal"
   },
   "navigation": {
     "cookieTitle": "Utilizamos cookies",
@@ -2044,8 +2002,7 @@
         "d": "La higiene no es negociable aquí: La superficie interior lisa (0.007 mm) inhibe el biofilm y las incrustaciones, el material permanece neutro en sabor y olor.",
         "pts": [
           "Neutralidad higiénica",
-          "Sin corrosión: sin picaduras",
-          "Referencia: Nuevo hospital en Ciudad del Cabo"
+          "Sin corrosión: sin picaduras"
         ]
       },
       {
@@ -2053,8 +2010,7 @@
         "d": "Circulación de agua caliente 24/7: baja conductividad térmica ahorra energía a largo plazo, el PPRCT puede soportar un funcionamiento continuo a 70 °C.",
         "pts": [
           "Eficiencia térmica",
-          "PPRCT para circulación",
-          "Referencia: Complejo hotelero en Estambul"
+          "PPRCT para circulación"
         ]
       },
       {
@@ -2071,8 +2027,7 @@
         "d": "Versiones estabilizadas contra rayos UV para riego en exteriores y bajo vidrio: ligeras, de rápida instalación, menos sensibles a las heladas que los sistemas rígidos.",
         "pts": [
           "Versión resistente a UV",
-          "Peso ligero",
-          "Área de aplicación del programa de referencia"
+          "Peso ligero"
         ]
       },
       {
@@ -2080,8 +2035,7 @@
         "d": "Líneas de suministro y redes en grandes dimensiones hasta d630: soldadas a tope en tramos homogéneos, permanentemente herméticos.",
         "pts": [
           "d hasta 630 mm",
-          "Soldadura a tope (Butt Fusion)",
-          "Referencia: Infraestructura de Singapur"
+          "Soldadura a tope (Butt Fusion)"
         ]
       },
       {
@@ -3147,7 +3101,7 @@
       "focusHeading": "Proyectos típicos en Dubái"
     },
     "frankfurt": {
-      "regulator": "DVGW / Trinkwasserverordnung (TrinkwV)",
+      "regulator": "DVGW / Reglamento alemán de agua potable (TrinkwV)",
       "water": "Agua dura (14–20 °dH): el PP-R/PPRCT libre de corrosión previene las incrustaciones de cal en superficies metálicas rugosas.",
       "focus": [
         "Elevadores de rascacielos (Distrito Financiero)",
@@ -3374,7 +3328,7 @@
       "focusHeading": "Proyectos típicos en Varsovia"
     },
     "wien": {
-      "regulator": "ÖVGW / Trinkwasserverordnung (AT)",
+      "regulator": "ÖVGW / Reglamento de agua potable (AT)",
       "water": "Agua de manantial de montaña de excelente calidad: preservación del valor a través de materiales de tubería absolutamente inertes.",
       "focus": [
         "Renovación de viviendas municipales (Gemeindebau)",
@@ -3981,61 +3935,14 @@
     "weld-in-saddles_weld-in-saddle-female-thread": "Injerto de soldadura (RH)",
     "weld-in-saddles_weld-in-saddle-male-thread": "Injerto de soldadura (RM)",
     "weld-in-saddles_weld-in-saddle": "Injerto de soldadura",
-    "accessories_backing-flange-pp-steel-sfbf": "Backing Flange PP-Steel, sf/bf",
-    "fittings_cross-over-with-socket": "Cross-over with Socket",
+    "accessories_backing-flange-pp-steel-sfbf": "Brida loca PP-acero (SF/BF)",
+    "fittings_cross-over-with-socket": "Curva de cruce PP-R con casquillo",
     "fittings_elbow-90-femalemale": "PP-R Elbow 90° (Female/Male)",
     "fittings_elbow-90-large-sizes": "PP-R Elbow 90° (Large Sizes)",
-    "tools_hand-welding-machine-2032-complete-set": "Hand Welding Machine 20-32 (Complete Set)",
-    "tools_pipe-cutter-50125": "Pipe Cutter 50-125",
+    "tools_hand-welding-machine-2032-complete-set": "Termofusora manual d20-d32",
+    "tools_pipe-cutter-50125": "Cortatubos d50-d125",
     "valves_pp-r-ball-valve-ball-in-brass-chromium-plated": "PP-R Ball Valve (Brass Ball, Chromed)",
-    "valves_tee-90-female-thread-for-internal-valve": "Tee 90° (Female Thread) for Internal Valve"
-  },
-  "customerReviews": {
-    "eyebrow": "Calidad que conecta",
-    "title": "Lo que dicen nuestros clientes y socios",
-    "lead": "Desde constructores y empresas de transporte hasta empleados de muchos años: K Aqua KWT GmbH es sinónimo de la máxima precisión de Waldsolms. Lea usted mismo las experiencias que la gente tiene todos los días con nuestro servicio y nuestros productos 'Made in Germany'.",
-    "trustBadge": "Reseñas de Google",
-    "trustStars": "4,9 / 5",
-    "trustBasedOn": "(Basado en 44 reseñas)",
-    "tabA": "Calidad y 'Made in Germany'",
-    "tabB": "Logística y entrega",
-    "tabC": "Servicio al cliente y equipo",
-    "reviews": {
-      "a1": "“Una fábrica en Waldsolms, Alemania, especializada en tubos y accesorios de PPR **Made in Germany**. Personal excepcional.”",
-      "a1Author": "Giulio C.",
-      "a2": "“**Calidad alemana** en revestimientos y accesorios de PPR, personal muy amable.”",
-      "a2Author": "Veronica P.",
-      "a3": "“**Empresa moderna**. Produce tubos de plástico de todos los tamaños y accesorios.”",
-      "a3Author": "Ewald S.",
-      "a4": "“Tubos y accesorios de PPR de **fabricación alemana**, excelentes empleados y productos.”",
-      "a4Author": "Kais S.",
-      "a5": "“**Productos de alta calidad** y una fábrica alemana de primer nivel.”",
-      "a5Author": "Abdoo4560 D. / Al B. / Vito Nadir H.",
-      "a6": "“Muy buenos productos, **calidad confiable** y entrega puntual.”",
-      "a6Author": "Klaus T.",
-      "b1": "“Trato muy amable, **descarga rápida**. Se me permitió tomar mi largo descanso aquí. También me ofrecieron ducha y baño. Aquí uno se siente **valorado** como conductor de camión. Volveré aquí con mucho gusto.”",
-      "b1Author": "Michael S.",
-      "b2": "“Las coordenadas actuales de la entrada son **50.428210, 8.499154**. Hay un estacionamiento a unos 100 metros de distancia. Personal amable.”",
-      "b2Author": "Oleg M. / Hasan S.",
-      "b3": "“**Descarga rápida**, personal amable y servicial.”",
-      "b3Author": "Bogdan M.",
-      "c1": "“**Muy buen servicio**, es genial que todavía se produzca en Alemania.”",
-      "c1Author": "Daniel",
-      "c2": "“Personal **muy amable** y servicial. Los correos electrónicos se **responden de inmediato**.”",
-      "c2Author": "Mohamed M.",
-      "c3": "“Desde el presidente hasta los trabajadores comunes: son **buenas personas**.”",
-      "c3Author": "Azim",
-      "c4": "“**Gran empresa**, hace mucho por su gente.”",
-      "c4Author": "Monika v. B.",
-      "c5": "“Los empleados son **muy amables y serviciales**.”",
-      "c5Author": "Piera V.",
-      "c6": "“Equipo competente y una **excelente atención al cliente** en todos los niveles.”",
-      "c6Author": "Sarah B."
-    },
-    "ctaTitle": "Convénzase usted mismo de nuestro servicio.",
-    "ctaText": "¿Tiene alguna pregunta sobre nuestros sistemas de tuberías de PPR o le gustaría discutir un proyecto con nosotros? Nuestro equipo en Waldsolms está a su disposición.",
-    "ctaBtn": "Contáctenos ahora",
-    "disclaimer": "Nota sobre la verificación de reseñas: Las reseñas que se muestran aquí provienen de nuestro perfil de empresa de Google. Google declara: Las reseñas no se verifican. Hemos abreviado los nombres de los autores por razones de protección de datos (RGPD)."
+    "valves_tee-90-female-thread-for-internal-valve": "Te 90° (rosca hembra) para válvula empotrada"
   },
   "referenzenPage": {
     "hero": {
@@ -5698,7 +5605,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Ver detalles del producto"
   },
   "ANCHOR": "ANCHOR",
   "products": {
@@ -7018,35 +6925,6 @@
           }
         ]
       },
-      "timeline": {
-        "items": [
-          {
-            "year": "Fase 01",
-            "title": "Análisis y Sincronización",
-            "text": "Sincronizamos la planificación hidráulica con los plazos de construcción acelerados de la hotelería moderna."
-          },
-          {
-            "year": "Fase 02",
-            "title": "Dimensionamiento Óptimo",
-            "text": "Los ingenieros alemanes optimizan las redes de tuberías para garantizar un suministro homogéneo a todas las plantas, incluso en picos de demanda."
-          },
-          {
-            "year": "Fase 03",
-            "title": "Instalación Rápida",
-            "text": "El montaje de nuestro sistema PP-R reduce drásticamente las horas de mano de obra y los costos gracias a herramientas rápidas y ligeras."
-          },
-          {
-            "year": "Fase 04",
-            "title": "Prueba Integral",
-            "text": "Cada sistema se somete a estrictas pruebas de presión para garantizar un inicio de operaciones impecable."
-          },
-          {
-            "year": "Fase 05",
-            "title": "Lujo Sin Interrupciones",
-            "text": "El sistema proporciona años de suministro seguro, inaudible y confiable sin mantenimiento."
-          }
-        ]
-      },
       "hero": {
         "eyebrow": "Infraestructura Hotelera",
         "title1": "Hoteles.",
@@ -7132,10 +7010,6 @@
             "desc": "Instale, selle y olvídese para siempre."
           }
         ]
-      },
-      "timelineSection": {
-        "title": "EL CRONOGRAMA DEL RESORT",
-        "desc": "Cómo K-Aqua acelera los cronogramas de construcción de hoteles manteniendo estándares de calidad estrictos."
       },
       "research": {
         "title": "Soluciones Respaldadas por la Ciencia",
@@ -8092,7 +7966,7 @@
     "retry": "Intentarlo de nuevo",
     "titlePerfect": "Maestro Soldador",
     "titleGood": "Oficial Soldador",
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "Videos de capacitación e instructivos"
   },
   "resources": {
     "support": {
@@ -8221,7 +8095,7 @@
         "btnGhost": "Contactar a los Expertos"
       },
       "metaTitle": "Soporte Técnico y Servicio para Sistemas de Tuberías PP-R",
-      "sub": "Engineering consulting, application technology, and on-site support."
+      "sub": "Asesoría de ingeniería, técnica de aplicación y soporte en obra."
     },
     "downloads": {
       "title": "Descargas",
@@ -8915,53 +8789,53 @@
   },
   "mapsSuite": {
     "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
+    "title1": "Suite de",
+    "titleGrad": "Mapas Interactivos",
+    "tabHq": "Sede central Waldsolms",
+    "tabRefs": "Mapa de estanqueidad",
+    "tabSpec": "Especificador",
+    "hqTitle": "Producción central y centro de desarrollo",
+    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Alemania.",
+    "registryLabel": "Registro mercantil:",
+    "phoneLabel": "Teléfono:",
+    "certLabel": "Certificación:",
+    "directions": "Abrir planificador de rutas",
+    "aboutPlant": "Sobre la planta de Waldsolms",
+    "sectorFilter": "Filtro por sector:",
+    "specPlaceholder": "Ingrese una localidad o ciudad…",
+    "profileTitle": "Perfil de mercado y logística",
+    "profileHint": "Haga clic en el mapa o busque una ciudad para activar la especificación automática del sistema y el cálculo de las rutas de suministro.",
+    "marketAssign": "Asignación de mercado",
+    "normLabel": "Norma:",
+    "airDist": "Distancia en línea recta (HQ)",
+    "roadDist": "Por carretera (estimado)",
+    "recommended": "Sistema de tuberías recomendado:",
+    "recUv": "Capa exterior UV-Protect",
     "bimCta": "Request BIM & specification package",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Todos los sectores",
+      "hotel": "Hotelería",
+      "wohnen": "Vivienda",
+      "infra": "Infraestructura",
+      "klinik": "Clínicas",
+      "buero": "Oficinas"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Productos",
+      "markets-solutions": "Mercados y soluciones",
+      "academy-resources": "Academy y recursos",
+      "company": "Empresa"
     },
     "links": {
       "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
+      "finder": "Buscador de productos para tubos",
       "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
+      "fittings": "Accesorios moldeados y fittings",
+      "valves": "Válvulas y griferías",
+      "tools": "Herramientas y accesorios",
+      "transition": "Transiciones para tubos",
       "all_markets": "All K-Aqua Markets",
       "all_solutions": "All K-Aqua Solutions",
       "overview": "K-Aqua Academy Overview",
@@ -8974,48 +8848,48 @@
       "news": "K-Aqua News & Press",
       "contact": "Contact K-Aqua",
       "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
+      "rfq": "Solicitud de proyecto para sistemas de tuberías",
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "sitemap": "Mapa del sitio (HTML)"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Elige tu idioma",
+    "subtitle": "65 idiomas · gira el globo, toca una región, confirma.",
+    "searchPlaceholder": "Buscar idioma o página…",
+    "pagesSection": "Páginas y navegación",
+    "noResults": "No se encontró ningún idioma.",
+    "confirm": "Confirmar",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Se aplica a todo el sitio web",
+    "active": "activo"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "¿Cómo podemos ayudarle?",
+    "step1Desc": "Seleccione el área adecuada para su consulta.",
+    "optSales": "Ventas y proyectos",
+    "optSalesDesc": "Cotizaciones, grandes proyectos y plazos de entrega.",
+    "optTech": "Soporte técnico",
+    "optTechDesc": "Especificaciones, instalación y dimensionamiento del sistema.",
+    "optOther": "Consulta general",
+    "optOtherDesc": "Marketing, carrera profesional u otros temas.",
+    "step2Title": "Detalles de su consulta",
+    "step2Desc": "Describa brevemente su proyecto o su pregunta.",
+    "messagePlaceholder": "Su mensaje para nosotros...",
+    "step3Title": "Sus datos de contacto",
+    "step3Desc": "¡Ya casi está! ¿Cómo podemos contactarle?",
+    "nameLabel": "Nombre completo",
+    "companyLabel": "Empresa / Organización",
+    "emailLabel": "Dirección de correo electrónico",
+    "phoneLabel": "Número de teléfono",
+    "step4Title": "¡Mensaje enviado!",
+    "step4Desc": "Muchas gracias por su consulta. Uno de nuestros expertos se pondrá en contacto con usted en breve.",
+    "btnNext": "Continuar",
+    "btnBack": "Atrás",
+    "btnSubmit": "Enviar consulta",
+    "btnSending": "Enviando…",
+    "btnHome": "Volver a la página de inicio",
+    "sendError": "El envío falló. Inténtelo de nuevo o llámenos directamente: +49 (0)60 85 / 9868-410"
   }
 }

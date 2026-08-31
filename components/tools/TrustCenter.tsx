@@ -424,5 +424,3 @@ export function TrustCenter({ data }: TrustCenterProps) {
     </div>
   );
 }
-
-const DOT = "•";
