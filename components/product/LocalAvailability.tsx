@@ -14,31 +14,44 @@ interface LocalAvailabilityProps {
   };
 }
 
+/**
+ * Regionsvorrang je Sprache.
+ *
+ * Vorher standen hier vier Zweige mit fest verdrahteten Marktindizes
+ * (`GEO_MARKETS[12]`, `[23]`) und einem Kommentar „Randomish selection". Diese
+ * Indizes zeigen auf Positionen im Datensatz, nicht auf gemeinte Staedte —
+ * wird in lib/data/geo.ts ein Markt eingefuegt, zeigen sie stillschweigend
+ * woandershin. Und `en` bekam London/Dubai/Singapur unabhaengig davon, ob es
+ * diese Maerkte noch gibt.
+ *
+ * Jetzt wird nach REGION ausgewaehlt und nur der Vorrang je Sprache
+ * festgelegt. Fehlt eine Region, greift die naechste — es bleibt also immer
+ * eine sinnvolle Auswahl, ohne Indexarithmetik.
+ */
+const REGIONSVORRANG: Record<string, readonly string[]> = {
+  de: ['dach', 'europa', 'global'],
+  ar: ['nahost', 'global', 'europa'],
+  en: ['europa', 'global', 'nahost'],
+};
+
+const VORRANG_STANDARD = ['global', 'europa', 'nahost', 'dach'] as const;
+
 export default function LocalAvailability({ locale, translations }: LocalAvailabilityProps) {
-  // Simple heuristic: 
-  // If locale is 'de', show top DACH markets.
-  // If locale is 'ar', show top NAHOST markets.
-  // Otherwise, show some global mix.
-  let markets = GEO_MARKETS.slice(0, 3);
-  
-  if (locale === 'de') {
-    markets = GEO_MARKETS.filter(m => m.region === 'dach').slice(0, 3);
-  } else if (locale === 'ar') {
-    markets = GEO_MARKETS.filter(m => m.region === 'nahost').slice(0, 3);
-  } else if (locale === 'en') {
-    markets = [
-      (GEO_MARKETS.find(m => m.slug === 'london') || GEO_MARKETS[6]) as NonNullable<typeof GEO_MARKETS[0]>,
-      (GEO_MARKETS.find(m => m.slug === 'dubai') || GEO_MARKETS[12]) as NonNullable<typeof GEO_MARKETS[0]>,
-      (GEO_MARKETS.find(m => m.slug === 'singapur') || GEO_MARKETS[23]) as NonNullable<typeof GEO_MARKETS[0]>
-    ];
-  } else {
-    // Randomish selection for other languages
-    markets = [
-      GEO_MARKETS[0] as NonNullable<typeof GEO_MARKETS[0]>, 
-      GEO_MARKETS[12] as NonNullable<typeof GEO_MARKETS[0]>, 
-      GEO_MARKETS[23] as NonNullable<typeof GEO_MARKETS[0]>
-    ];
+  /* Drei Maerkte, nach Regionsvorrang der Sprache aufgefuellt. Die Reihenfolge
+     innerhalb einer Region ist die des Datensatzes — dort stehen die
+     wichtigsten Maerkte vorn. */
+  const vorrang = REGIONSVORRANG[locale] ?? VORRANG_STANDARD;
+  const markets: typeof GEO_MARKETS = [];
+  for (const region of vorrang) {
+    for (const m of GEO_MARKETS) {
+      if (markets.length >= 3) break;
+      if (m.region === region && !markets.includes(m)) markets.push(m);
+    }
+    if (markets.length >= 3) break;
   }
+  /* Sollte der Datensatz einmal weniger hergeben, lieber weniger Kacheln als
+     eine leere Liste — der Block verschwindet dann von selbst. */
+  if (markets.length === 0) return null;
 
   return (
     /* Kein data-nosnippet mehr: Das war der einzige lokale Baustein auf 74

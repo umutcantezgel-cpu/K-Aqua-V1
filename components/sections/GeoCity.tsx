@@ -25,6 +25,56 @@ import {
 import { GeoMarket, WALDSOLMS, haversineKm } from "@/lib/data/geo";
 import type { GlobeRef, GlobeMarker } from "@/components/globe/Globe";
 
+/**
+ * Produktgruppen fuer die Rueckverlinkung am Seitenende.
+ *
+ * Bewusst hier und nicht in messages/: Es sind vier Kategorienamen in drei
+ * Sprachen. Neue Schluessel muessten sonst in 65 Sprachdateien — dasselbe
+ * Muster wie in PipeColourCoding und CatalogReferences, dort mit derselben
+ * Begruendung.
+ *
+ * Die Nennweiten stammen aus lib/data/catalog.ts und sind die Spanne ueber
+ * alle Artikel der jeweiligen Kategorie.
+ */
+type Sprache = "de" | "en" | "ar";
+
+const PRODUKTGRUPPEN: {
+  href: string;
+  titel: Record<Sprache, string>;
+  zusatz: Record<Sprache, string>;
+}[] = [
+  {
+    href: "/produkte/pipes",
+    titel: { de: "PP-R & PP-RCT Rohre", en: "PP-R & PP-RCT Pipes", ar: "أنابيب PP-R و PP-RCT" },
+    zusatz: { de: "d20–d630 mm", en: "d20–d630 mm", ar: "d20–d630 مم" },
+  },
+  {
+    href: "/produkte/fittings",
+    titel: { de: "Formteile & Fittings", en: "Fittings", ar: "الوصلات والتجهيزات" },
+    zusatz: { de: "Muffen, Winkel, T-Stücke", en: "Sockets, elbows, tees", ar: "جلب، أكواع، تفريعات" },
+  },
+  {
+    href: "/produkte/valves",
+    titel: { de: "Ventile & Absperrorgane", en: "Valves", ar: "الصمامات" },
+    zusatz: { de: "Kugelhähne, Schrägsitz", en: "Ball and seat valves", ar: "محابس كروية ومائلة" },
+  },
+  {
+    href: "/produkte/tools",
+    titel: { de: "Werkzeuge & Schweißtechnik", en: "Tools & Welding", ar: "الأدوات واللحام" },
+    zusatz: { de: "DVS 2207 konform", en: "DVS 2207 compliant", ar: "مطابق لـ DVS 2207" },
+  },
+];
+
+const PRODUKT_UEBERSCHRIFT: Record<Sprache, string> = {
+  de: "K-Aqua Produktprogramm für",
+  en: "K-Aqua product range for",
+  ar: "برنامج منتجات K-Aqua لـ",
+};
+
+function sprache(locale: string): Sprache {
+  return locale.startsWith("de") ? "de" : locale.startsWith("ar") ? "ar" : "en";
+}
+
 // Load Globe dynamically with ssr: false to prevent server-side canvas rendering errors
 const Globe = dynamic(
   () => import("@/components/globe/Globe").then((mod) => mod.Globe),
@@ -346,6 +396,43 @@ export default function GeoCity({
               <p className="mb-4">{localizedData.extendedMarketText}</p>
             )}
             <MarketSeoBlock locale={locale} locationName={market.city} isCity={true} />
+          </div>
+        </div>
+      </section>
+
+      {/*
+        Rueckverlinkung auf die Produktkategorien.
+
+        Die Produktseiten verlinken ueber LocalAvailability laengst auf die
+        Staedteseiten — die Gegenrichtung fehlte. Von hier fuehrte nur ein
+        Verweis auf den Produktfinder, und der traegt den generischen
+        Ankertext „Finder". Damit endete die Ortspyramide aus dem
+        Wissensgraphen im HTML in einer Sackgasse.
+
+        Die Ankertexte nennen Bauteil UND Ort — „PP-R Rohre d20–d630 fuer
+        Dubai" statt „mehr erfahren". Das ist der Text, den eine Suchmaschine
+        als Beschreibung des Ziels liest.
+      */}
+      <section className="py-16 bg-background-subtle border-t border-card-border">
+        <div className="max-w-[1200px] mx-auto px-6">
+          <h2 className="font-heading font-bold text-foreground text-xl mb-6">
+            {`${PRODUKT_UEBERSCHRIFT[sprache(locale)]} ${market.city}`}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {PRODUKTGRUPPEN.map((g) => (
+              <Link
+                key={g.href}
+                href={g.href}
+                className="group flex flex-col gap-1 rounded-xl border border-card-border bg-card p-5 hover:border-primary hover:bg-primary-soft/20 transition-colors"
+              >
+                <span className="font-heading font-semibold text-foreground group-hover:text-primary transition-colors">
+                  {g.titel[sprache(locale)]}
+                </span>
+                <span className="text-sm text-muted-foreground">
+                  {`${g.zusatz[sprache(locale)]} · ${market.city}`}
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
