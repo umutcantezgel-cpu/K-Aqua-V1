@@ -8,8 +8,24 @@ import { Button } from '@/components/ui/Button';
 import { ZEIGE_UNBELEGTE_REFERENZEN } from '@/lib/flags';
 import { STANDORT, STANDORT_ADRESSE, STANDORT_KARTEN_URL } from '@/lib/data/standort';
 
-// Google Maps API Key
-const GOOGLE_MAPS_API_KEY = 'AIzaSyDGmJeJsMRAh3Z9PZWNJRTomvM3URcm5B8';
+/**
+ * Google-Maps-Schlüssel.
+ *
+ * Stand vorher im Klartext hier im Quelltext. Jetzt aus der Umgebung.
+ *
+ * WAS DAS BRINGT — und was nicht: `NEXT_PUBLIC_*` landet weiterhin im
+ * ausgelieferten Bundle. Das ist bei Browser-Schlüsseln für Google Maps
+ * unvermeidbar; der Browser muss ihn kennen. Gewonnen ist zweierlei: Der
+ * Schlüssel wandert nicht mehr durch den Git-Verlauf jeder künftigen
+ * Änderung an dieser Datei, und Entwicklung, Vorschau und Produktion können
+ * verschiedene Schlüssel benutzen.
+ *
+ * DER EIGENTLICHE SCHUTZ liegt nicht hier, sondern im Google-Cloud-Konto:
+ * eine HTTP-Referrer-Beschränkung auf die eigene Domain. Ohne die ist ein
+ * öffentlicher Schlüssel von jeder fremden Seite aus verwendbar — auf
+ * Rechnung des Kontoinhabers. Siehe .env.example.
+ */
+const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY ?? '';
 
 // HQ & Data Definitions
 /* Adresse, Telefon und Koordinaten kommen aus lib/data/standort.ts — dort
@@ -84,6 +100,14 @@ export function KAquaMapsSuite() {
       setScriptLoaded(true);
       return;
     }
+
+    /* Ohne Schlüssel gar nicht erst laden.
+       Google antwortet auf einen leeren key mit einem Fehlerdialog mitten in
+       der Seite („This page can't load Google Maps correctly") plus einer
+       grauen Flaeche. Ein Baustein, der stillschweigend nichts zeigt, ist
+       besser als einer, der eine fremde Fehlermeldung einblendet — und die
+       Seite bleibt ohne Schluessel benutzbar. */
+    if (!GOOGLE_MAPS_API_KEY) return;
 
     const scriptId = 'google-maps-js-api';
     if (!document.getElementById(scriptId)) {
