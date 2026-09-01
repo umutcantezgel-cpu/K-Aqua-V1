@@ -62,6 +62,13 @@ jobs:
       - name: 3D registry in sync
         run: pnpm 3d:check
 
+      # Dasselbe für den Suchindex. Er führte 36 von 73 Produkten, weil er
+      # neben dem Katalog von Hand gepflegt wurde. Wird ein Produkt ergänzt,
+      # ohne den Index neu zu erzeugen, fällt es hier auf statt erst dann,
+      # wenn ein Kunde das Produkt nicht findet.
+      - name: Search index in sync
+        run: pnpm search:check
+
       - name: Unit tests
         run: pnpm test
 

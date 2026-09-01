@@ -18,6 +18,8 @@
     "3d:sync": "node scripts/sync-3d-registry.mjs",
     "3d:check": "node scripts/sync-3d-registry.mjs --check",
     "3d:coverage": "node scripts/check-3d-coverage.mjs",
+    "search:sync": "node scripts/sync-search-index.mjs",
+    "search:check": "node scripts/sync-search-index.mjs --check",
     "3d:seiten": "node scripts/check-3d-seiten.mjs",
     "3d:gestalt": "node scripts/messe-gestalt.mjs",
     "verify:h1": "tsx scripts/verify-h1.ts",

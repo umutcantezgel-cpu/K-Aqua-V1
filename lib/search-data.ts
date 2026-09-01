@@ -1,6 +1,8 @@
 // lib/search-data.ts
 // Zentraler, allumfassender Such- und Wissensindex für die gesamte K-Aqua Plattform
 
+import { GENERATED_PRODUCT_ENTRIES } from './search-products.generated';
+
 export type SearchCategory =
   | 'products'        // Rohre, Fittings, Ventile, Übergänge, Werkzeuge, Einschweißsättel, Zubehör
   | 'knowledge'       // 50 Fachartikel, Whitepaper, DIN/ISO, Schallschutz, Brandschutz, Hygiene, TCO
@@ -27,7 +29,14 @@ export interface SearchEntry {
   contentSnippet?: Record<string, string>;
 }
 
-export const SEARCH_INDEX: SearchEntry[] = [
+/**
+ * Die von Hand gepflegten Einträge.
+ *
+ * Hier stehen Beschreibungen, Schlagwörter und Fundstellen in drei Sprachen,
+ * die sich aus der Produkt-Frontmatter nicht ableiten lassen. Diese Einträge
+ * haben Vorrang vor den erzeugten (siehe `SEARCH_INDEX` unten).
+ */
+const GEPFLEGTE_EINTRAEGE: SearchEntry[] = [
   // =========================================================================
   // 1. PIPES & ROHRSYSTEME
   // =========================================================================
@@ -1551,4 +1560,96 @@ export const SEARCH_INDEX: SearchEntry[] = [
     badge: { de: 'Kontakt', en: 'Contact', ar: 'اتصال' },
     specs: ['Reaktionszeit < 24 Stunden', 'Persönliche Ingenieursberatung'],
   },
+];
+
+/**
+ * Der ausgelieferte Suchindex: gepflegte Eintraege plus alles, was im Katalog
+ * steht und dort noch fehlt.
+ *
+ * VORHER fuehrte dieser Index 36 Produkte -- bei 73 Produktdateien. Die Haelfte
+ * des Sortiments war ueber die Suche nicht auffindbar, darunter alle 14
+ * Werkzeuge und alle drei Einschweisssaettel. Und weil er neben dem Katalog
+ * gepflegt wurde, lief er bei jedem neuen Produkt weiter auseinander.
+ *
+ * Zusammengefuehrt wird ueber `href`: Gibt es zu einer Adresse einen
+ * gepflegten Eintrag, gewinnt er. Alles Uebrige kommt aus der erzeugten
+ * Datei, die `npm run search:sync` aus content/products erstellt und die
+ * `npm run search:check` in der CI bewacht.
+ *
+ * Ein neues Produkt erscheint damit von selbst in der Suche.
+ */
+/**
+ * Zusammenführung über die ARTIKELNUMMER, nicht über die Adresse.
+ *
+ * Die Adresse taugt nicht als Schlüssel, und das hat einen unangenehmen
+ * Grund: 32 der 36 gepflegten Produkteinträge zeigen auf die
+ * KATEGORIESEITE statt auf die Produktseite — „PP-R Winkel 90°" führte auf
+ * `/produkte/fittings`, nicht auf `/produkte/fittings/elbow-90`. Wer das
+ * Produkt suchte, landete auf einer Liste und musste es dort noch einmal
+ * suchen.
+ *
+ * Die Artikelnummer ist dagegen eindeutig: Jeder gepflegte Eintrag trägt
+ * `articleCodes` aus dem Katalog, und jeder erzeugte auch. Über sie findet
+ * jeder gepflegte Eintrag seine Produktseite.
+ */
+function ersteArtikelnummer(e: SearchEntry): string | null {
+  return e.articleCodes?.[0]?.toUpperCase() ?? null;
+}
+
+const ERZEUGT_NACH_ARTIKEL = new Map<string, SearchEntry>();
+for (const e of GENERATED_PRODUCT_ENTRIES) {
+  const nr = ersteArtikelnummer(e);
+  if (nr && !ERZEUGT_NACH_ARTIKEL.has(nr)) ERZEUGT_NACH_ARTIKEL.set(nr, e);
+}
+
+/** Eine Adresse ohne Produktteil, also `/produkte/<kategorie>`. */
+function istKategorieAdresse(href: string): boolean {
+  return /^\/produkte\/[^/]+$/.test(href);
+}
+
+/**
+ * Gepflegte Einträge, deren Adresse auf die Produktseite korrigiert ist.
+ *
+ * Der Inhalt bleibt unangetastet — Beschreibung, Schlagwörter und
+ * Fundstellen in drei Sprachen sind von Hand geschrieben und besser als
+ * alles Ableitbare. Nur das Ziel wird richtiggestellt, und nur dann, wenn es
+ * bisher eine reine Kategorieseite war und die Artikelnummer eine
+ * Produktseite ausweist.
+ */
+const GEPFLEGTE_MIT_ZIEL: SearchEntry[] = GEPFLEGTE_EINTRAEGE.map((e) => {
+  if (!istKategorieAdresse(e.href)) return e;
+  const nr = ersteArtikelnummer(e);
+  const zwilling = nr ? ERZEUGT_NACH_ARTIKEL.get(nr) : undefined;
+  return zwilling ? { ...e, href: zwilling.href } : e;
+});
+
+/**
+ * Adressen, die ein gepflegter Eintrag bereits bedient.
+ *
+ * Bewusst die KORRIGIERTEN Adressen und nicht noch einmal die Artikelnummern:
+ * Manche gepflegten Einträge bündeln mehrere Katalogartikel (der Eintrag
+ * „Schweißmaschinen 50–125, Stumpfschweißen 90–250, Elektroschweißgerät"
+ * führt die Nummern gleich mehrerer Werkzeuge). Über Nummern zu unterdrücken
+ * könnte deshalb ein eigenständiges Produkt mit verschlucken. Über die
+ * Adresse ist es exakt: Ein erzeugter Eintrag entfällt nur, wenn wirklich
+ * schon jemand auf dieselbe Seite zeigt.
+ */
+const BEDIENTE_ADRESSEN = new Set(GEPFLEGTE_MIT_ZIEL.map((e) => e.href));
+
+/**
+ * Der ausgelieferte Suchindex: gepflegte Einträge plus alles, was im Katalog
+ * steht und dort noch fehlte.
+ *
+ * VORHER führte dieser Index 36 Produkte — bei 73 Produktdateien. Die Hälfte
+ * des Sortiments war über die Suche nicht auffindbar, darunter alle 14
+ * Werkzeuge und alle drei Einschweißsättel. Und weil er neben dem Katalog
+ * gepflegt wurde, lief er bei jedem neuen Produkt weiter auseinander.
+ *
+ * Die erzeugte Datei erstellt `npm run search:sync` aus `content/products`;
+ * `npm run search:check` bewacht sie in der CI. Ein neues Produkt erscheint
+ * damit von selbst in der Suche.
+ */
+export const SEARCH_INDEX: SearchEntry[] = [
+  ...GEPFLEGTE_MIT_ZIEL,
+  ...GENERATED_PRODUCT_ENTRIES.filter((e) => !BEDIENTE_ADRESSEN.has(e.href)),
 ];

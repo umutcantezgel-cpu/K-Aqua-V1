@@ -1,13 +1,14 @@
 // tests/search-engine.test.ts
 // Automatische Test-Suite für K-Aqua Search-Engine, Ranking, Snippets & Normalisierung
 
-import { SEARCH_INDEX } from '../lib/search-data';
+import { describe, it, expect } from 'vitest';
+import { SEARCH_INDEX } from '@/lib/search-data';
 import {
   searchKAqua,
   normalizeSearchText,
   generateSearchSnippet,
   buildDeepLink,
-} from '../lib/search-engine';
+} from '@/lib/search-engine';
 
 interface TestStats {
   passed: number;
@@ -211,8 +212,23 @@ console.log('\n====================================================');
 console.log(`📊 TEST RESULTS: ${stats.passed} Passed, ${stats.failed} Failed (Total: ${stats.total})`);
 console.log('====================================================');
 
-if (stats.failed > 0) {
-  process.exit(1);
-} else {
-  console.log('🎉 ALL SEARCH ENGINE TESTS PASSED SUCCESSFULLY!\n');
-}
+/* Anschluss an Vitest.
+ *
+ * Diese Datei lag als `tests/search-engine.test.ts` im Baum und lief NIE:
+ * `vitest.config.ts` sammelt nur `tests/unit/**`, Playwright nur `*.spec.ts`.
+ * 21 Prüfungen der Suchmaschine — Umlautbehandlung, Artikelnummern-Treffer,
+ * Snippet-Erzeugung, arabische Suche — waren damit unbenutzt.
+ *
+ * Der Inhalt bleibt, wie er war: ein Skript, das beim Laden durchläuft und in
+ * `stats` mitschreibt. Nur die Auswertung ist neu, denn Vitest zählt keine
+ * Prüfung, die nicht in einem `it` steckt, und meldete die Datei sonst als
+ * „No test suite found".
+ *
+ * Das frühere `process.exit(1)` am Ende musste weichen — es hätte den
+ * Vitest-Arbeitsprozess mitgerissen statt nur diesen Test rot zu färben. */
+describe('Suchmaschine (Skript-Prüfungen)', () => {
+  it(`besteht alle ${stats.total} Prüfungen`, () => {
+    expect(stats.failed, `${stats.failed} von ${stats.total} Prüfungen fehlgeschlagen`).toBe(0);
+    expect(stats.total).toBeGreaterThan(0);
+  });
+});
