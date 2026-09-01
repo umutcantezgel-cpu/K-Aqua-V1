@@ -4,12 +4,41 @@ import createNextIntlPlugin from 'next-intl/plugin';
 // Points next-intl at the request-scoped config (see lib/i18n/request.ts - Agent 05).
 const withNextIntl = createNextIntlPlugin('./lib/i18n/request.ts');
 
+/* Content-Security-Policy.
+ *
+ * GOOGLE MAPS WAR HIER BLOCKIERT.
+ * components/sections/maps/KAquaMapsSuite.tsx laedt sein Skript von
+ * maps.googleapis.com. Das stand in `script-src` nicht drin, `img-src` liess
+ * nur 'self' zu, und ein `connect-src` fehlte ganz — womit `default-src 'self'`
+ * griff und jeden Kachel- und Places-Abruf unterband.
+ *
+ * Die Karte auf /referenzen waere damit AUCH MIT gueltigem Schluessel leer
+ * geblieben, und zwar still: `script.onload` feuert nie, alle Karteneffekte
+ * steigen aus, es gibt nur eine Meldung in der Browserkonsole. Wer den
+ * Schluessel beschafft und dann nichts sieht, haelt ihn fuer defekt.
+ *
+ * Geprueft und NICHT noetig: Schriften laufen ueber `next/font` und werden
+ * zur Bauzeit selbst gehostet (app/fonts.ts); YouTube ist nur ein Link im
+ * JSON-LD ohne Einbettung. `unpkg`/`jsdelivr` bedienen die eigenstaendigen
+ * 3D-HTML-Dateien unter public/kaqua-3d/ und bleiben deshalb stehen.
+ *
+ * WER SPAETER REICHWEITENMESSUNG NACHRUESTET, muss hier mit: ohne Eintrag in
+ * `script-src` UND `connect-src` sendet kein Analytics-Dienst etwas.
+ */
+const GOOGLE_MAPS_HOSTS = {
+  script: 'https://maps.googleapis.com',
+  connect: 'https://maps.googleapis.com https://maps.gstatic.com',
+  img: 'https://maps.googleapis.com https://maps.gstatic.com https://*.googleapis.com https://*.gstatic.com https://*.google.com',
+  font: 'https://fonts.gstatic.com',
+} as const;
+
 const cspHeader = `
   default-src 'self';
-  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net;
-  style-src 'self' 'unsafe-inline';
-  img-src 'self' blob: data:;
-  font-src 'self' data:;
+  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://cdn.jsdelivr.net ${GOOGLE_MAPS_HOSTS.script};
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  img-src 'self' blob: data: ${GOOGLE_MAPS_HOSTS.img};
+  font-src 'self' data: ${GOOGLE_MAPS_HOSTS.font};
+  connect-src 'self' ${GOOGLE_MAPS_HOSTS.connect};
   object-src 'none';
   base-uri 'self';
   form-action 'self';
