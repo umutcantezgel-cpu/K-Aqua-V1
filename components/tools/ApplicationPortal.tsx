@@ -4,6 +4,7 @@
 
 import React, { useState, useRef } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/lib/i18n/navigation";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
@@ -20,6 +21,26 @@ export default function ApplicationPortal() {
   const [currentStep, setCurrentStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+
+  /* Fehleranzeige statt nativer Browser-Dialoge.
+   *
+   * Diese Datei war die EINZIGE Stelle der Website, die `alert()` benutzt hat
+   * — vier Mal. Zwei davon mit fest verdrahtetem Englisch, in allen 65
+   * Sprachen: "Please fill in required fields (*)" und "Please upload a file
+   * or build your CV". Ein Dialog des Betriebssystems mitten in einer
+   * durchgestalteten Bewerbungsstrecke, auf Englisch, ist eine Bruchstelle,
+   * die der Bewerber der Firma zuschreibt.
+   *
+   * Die Meldung steht jetzt dort, wo sie hingehoert: neben dem Knopf, den man
+   * gerade gedrueckt hat. */
+  const [fehler, setFehler] = useState<string | null>(null);
+
+  /* Muss mit MAX_FILE_SIZE in app/api/apply/route.ts uebereinstimmen.
+     Vercel weist Anfragen ueber 4,5 MB ab, BEVOR der Handler laeuft — der
+     Server koennte diese Meldung dann gar nicht mehr liefern. Deshalb faengt
+     der Client sie vorher ab. */
+  const MAX_DATEI = 4 * 1024 * 1024;
+  const ERLAUBTE_ENDUNGEN = ['pdf', 'doc', 'docx'];
 
   // Form State
   const [formData, setFormData] = useState({
@@ -44,10 +65,29 @@ export default function ApplicationPortal() {
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files[0]) {
-      setFile(e.target.files[0]);
-      setUseBuilder(false);
+    const gewaehlt = e.target.files?.[0];
+    if (!gewaehlt) return;
+
+    /* Groesse und Format schon hier pruefen, mit eigener Meldung je Fall.
+       Das `accept`-Attribut am Feld ist nur ein Vorschlag im Dateidialog — wer
+       „alle Dateien" waehlt, kommt daran vorbei. Der Server prueft ohnehin
+       noch einmal; hier geht es darum, dem Bewerber sofort zu sagen, WAS
+       nicht stimmt, statt ihn den Upload durchlaufen zu lassen. */
+    const endung = gewaehlt.name.toLowerCase().split('.').pop() ?? '';
+    if (!ERLAUBTE_ENDUNGEN.includes(endung)) {
+      setFehler(formText.fileWrongType ?? formText.error ?? '');
+      e.target.value = '';
+      return;
     }
+    if (gewaehlt.size > MAX_DATEI) {
+      setFehler(formText.fileTooLarge ?? formText.error ?? '');
+      e.target.value = '';
+      return;
+    }
+
+    setFehler(null);
+    setFile(gewaehlt);
+    setUseBuilder(false);
   };
 
   const submitApplication = async () => {
@@ -78,11 +118,14 @@ export default function ApplicationPortal() {
       if (res.ok) {
         setIsSuccess(true);
       } else {
-        alert(formText.error);
+        /* Frueher meldete die Route auch dann 200 { success: true }, wenn nur
+           ein console.log gelaufen war. Seit dem Mail-Umbau kommt bei einem
+           gescheiterten Versand ein 502 — und der Bewerber erfaehrt es. */
+        setFehler(formText.error ?? '');
       }
     } catch (error) {
       console.error(error);
-      alert(formText.error);
+      setFehler(formText.error ?? '');
     } finally {
       setIsSubmitting(false);
     }
@@ -172,6 +215,17 @@ export default function ApplicationPortal() {
 
       <Reveal delay={0.1}>
         <Card className="p-6 sm:p-8">
+          {/* Fehlermeldung fuer alle drei Schritte — dort, wo der Bewerber
+              gerade steht, statt in einem Systemdialog. */}
+          {fehler && (
+            <div
+              role="alert"
+              className="mb-6 rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-3 text-sm font-semibold text-red-600 dark:text-red-400"
+            >
+              {fehler}
+            </div>
+          )}
+
           {/* STEP 1: Personal Data */}
           {currentStep === 1 && (
             <div className="flex flex-col gap-6">
@@ -203,8 +257,12 @@ export default function ApplicationPortal() {
               <div className="flex justify-end mt-4">
                 <Button 
                   onClick={() => {
-                    if (formData.firstName && formData.lastName && formData.email) setCurrentStep(2);
-                    else alert("Please fill in required fields (*)");
+                    if (formData.firstName && formData.lastName && formData.email) {
+                      setFehler(null);
+                      setCurrentStep(2);
+                    } else {
+                      setFehler(formText.requiredFields ?? '');
+                    }
                   }}
                 >
                   {formText.next} <ChevronRight className="w-4 h-4 ms-2" />
@@ -225,7 +283,7 @@ export default function ApplicationPortal() {
                     <input type="file" className="hidden" ref={fileInputRef} onChange={handleFileChange} accept=".pdf,.doc,.docx" />
                     <UploadCloud className="w-12 h-12 text-muted-foreground mb-4" />
                     <h3 className="font-heading font-bold text-foreground text-lg mb-2">{file ? file.name : formText.uploadTitle}</h3>
-                    <p className="text-small text-muted-foreground max-w-sm">{file ? 'Click to replace file' : formText.uploadDesc}</p>
+                    <p className="text-small text-muted-foreground max-w-sm">{file ? formText.replaceFile : formText.uploadDesc}</p>
                   </div>
                   
                   <div className="relative flex py-5 items-center">
@@ -295,8 +353,12 @@ export default function ApplicationPortal() {
                 <Button variant="secondary" onClick={() => setCurrentStep(1)}>{formText.back}</Button>
                 <Button 
                   onClick={() => {
-                    if (file || useBuilder) setCurrentStep(3);
-                    else alert("Please upload a file or build your CV");
+                    if (file || useBuilder) {
+                      setFehler(null);
+                      setCurrentStep(3);
+                    } else {
+                      setFehler(formText.needCv ?? '');
+                    }
                   }}
                 >
                   {formText.next} <ChevronRight className="w-4 h-4 ms-2" />
@@ -309,23 +371,33 @@ export default function ApplicationPortal() {
           {currentStep === 3 && (
             <div className="flex flex-col gap-6">
               <div className="bg-background-subtle rounded-xl p-6 border border-card-border">
-                <h3 className="font-heading font-bold text-foreground mb-4">Review Application</h3>
+                <h3 className="font-heading font-bold text-foreground mb-4">{formText.reviewTitle}</h3>
                 <div className="grid grid-cols-2 gap-y-4 text-small">
-                  <span className="text-muted-foreground">Name</span>
+                  <span className="text-muted-foreground">{formText.nameLabel}</span>
                   <span className="font-bold text-foreground">{formData.firstName} {formData.lastName}</span>
-                  
-                  <span className="text-muted-foreground">Email</span>
+
+                  <span className="text-muted-foreground">{formText.email}</span>
                   <span className="font-bold text-foreground">{formData.email}</span>
-                  
-                  <span className="text-muted-foreground">Phone</span>
+
+                  <span className="text-muted-foreground">{formText.phone}</span>
                   <span className="font-bold text-foreground">{formData.phone || '-'}</span>
-                  
-                  <span className="text-muted-foreground">CV Attached</span>
+
+                  <span className="text-muted-foreground">{formText.cvAttached}</span>
                   <span className="font-bold text-foreground text-primary flex items-center">
-                    <CheckCircle2 className="w-4 h-4 me-1" /> {file ? file.name : "Generated via Builder"}
+                    <CheckCircle2 className="w-4 h-4 me-1" /> {file ? file.name : formText.cvFromBuilder}
                   </span>
                 </div>
               </div>
+
+              {/* Datenschutzhinweis — diese Komponente hatte gar keinen, obwohl
+                  sie Name, Kontaktdaten und einen Lebenslauf entgegennimmt. */}
+              <p className="text-xs text-muted-foreground">
+                {formText.privacy}{' '}
+                <Link href="/datenschutz" className="underline font-medium hover:text-primary transition-colors">
+                  {formText.privacyLink}
+                </Link>
+                .
+              </p>
 
               <div className="flex justify-between mt-4">
                 <Button variant="secondary" onClick={() => setCurrentStep(2)} disabled={isSubmitting}>{formText.back}</Button>

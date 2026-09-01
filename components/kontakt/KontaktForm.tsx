@@ -190,6 +190,12 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
           {hpField}
           <div className="w-full lg:w-auto lg:shrink-0 pt-1 lg:pt-0">{sendBtn()}</div>
           {errorBanner}
+          {/* Der Datenschutzhinweis fehlte AUSGERECHNET in diesem Layout.
+              `stack` und `full` zeigen ihn seit jeher; `row` nicht — und `row`
+              steckt hinter den Varianten band, hero, inline und row, also auch
+              unter dem Formular auf der Startseite. `basis-full` schiebt ihn in
+              der Zeilenanordnung auf eine eigene Zeile. */}
+          <div className="w-full lg:basis-full">{legal}</div>
         </form>
       );
     }
