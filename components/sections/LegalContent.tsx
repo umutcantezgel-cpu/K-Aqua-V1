@@ -6,7 +6,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Reveal } from '@/components/ui/Reveal';
 import * as Icons from 'lucide-react';
 import { clsx } from 'clsx';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 
 interface Section {
   id?: string;

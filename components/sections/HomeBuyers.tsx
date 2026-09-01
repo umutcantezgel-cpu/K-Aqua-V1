@@ -8,7 +8,7 @@ import { Chip } from '@/components/ui/Chip';
 import { SectionHead } from '@/components/ui/SectionHead';
 import { CheckCircle2, PenTool, Briefcase, Wrench, ChevronDown } from 'lucide-react';
 import { ArrowRight } from '@/components/ui/icon';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 
 export default function HomeBuyers() {
   const t = useTranslations('buyers');

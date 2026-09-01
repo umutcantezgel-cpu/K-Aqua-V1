@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { KontaktBlock } from "./KontaktBlock";
 import { type KontaktSlug } from "@/content/kontakt-bloecke";
 import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import { MessageCircle, X } from "lucide-react";
 
 export function KontaktFab() {

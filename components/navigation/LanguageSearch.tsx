@@ -7,7 +7,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { Search, X, Map } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { LANGUAGES, LANGUAGE_GROUPS } from '@/lib/i18n/languages';

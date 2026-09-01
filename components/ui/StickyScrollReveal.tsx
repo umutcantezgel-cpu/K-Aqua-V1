@@ -3,7 +3,7 @@
 
 import React from "react";
 import { cn } from "@/lib/utils/cn";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion } from "motion/react";
 import { useRevealSafety } from "@/components/ui/Reveal";
 
 export const StickyScrollReveal = ({

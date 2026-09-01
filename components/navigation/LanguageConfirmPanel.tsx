@@ -9,7 +9,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion, useReducedMotion } from 'motion/react';
 import { X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import type { KAquaLanguage } from '@/lib/i18n/languages';

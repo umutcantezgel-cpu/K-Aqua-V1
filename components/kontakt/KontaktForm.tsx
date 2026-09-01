@@ -3,7 +3,7 @@
 import { useId, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/i18n/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import { Mail, Phone, ArrowRight } from "lucide-react";
 import { submitLead } from "@/app/actions/lead";
 import { INTERESSEN, DIREKTWAHL_DISPLAY, DIREKTWAHL_TEL } from "@/content/kontakt-bloecke";

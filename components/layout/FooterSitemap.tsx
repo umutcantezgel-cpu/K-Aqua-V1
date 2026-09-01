@@ -2,7 +2,7 @@
 
 import { Link } from '@/lib/i18n/navigation';
 import { FluidLink } from '@/components/ui/FluidTransition';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ChevronDown } from 'lucide-react';

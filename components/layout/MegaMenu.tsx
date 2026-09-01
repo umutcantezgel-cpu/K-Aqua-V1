@@ -2,7 +2,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { motion, useReducedMotion } from 'motion/react';
+import { motion, useReducedMotion, type Variants } from 'motion/react';
 import { Link, usePathname } from '@/lib/i18n/navigation';
 import { FluidLink } from '@/components/ui/FluidTransition';
 import { useTranslations, useLocale } from 'next-intl';
@@ -213,7 +213,10 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
   };
 
   // Animation variants
-  const containerVariants = {
+  /* Als `Variants` typisiert, nicht frei abgeleitet.
+     `motion` ab Version 12 verlangt fuer `type` das Literal 'spring'; ohne
+     Zieltyp leitet TypeScript hier `string` ab und beanstandet die Zuweisung. */
+  const containerVariants: Variants = {
     hidden: {},
     visible: {
       transition: {
@@ -223,7 +226,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
     },
   };
 
-  const sectionVariants = {
+  const sectionVariants: Variants = {
     hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 25 },
     visible: {
       opacity: 1,
@@ -237,7 +240,7 @@ export default function MegaMenu({ onClose }: MegaMenuProps) {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 15, scale: 0.98 },
     visible: {
       opacity: 1,

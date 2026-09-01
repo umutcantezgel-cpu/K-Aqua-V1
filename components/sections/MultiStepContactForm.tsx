@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "motion/react";
 import { Check, ChevronRight, ChevronLeft, Send, Phone, Wrench, MessageSquare, Building2, User, Mail } from "lucide-react";
 import { submitLead } from "@/app/actions/lead";
 

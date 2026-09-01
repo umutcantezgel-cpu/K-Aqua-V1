@@ -10,7 +10,7 @@
 import React, { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Cookie, ShieldCheck, Sparkles, BarChart3, ChevronDown, X } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'motion/react';
 import clsx from 'clsx';
 import { Link } from '@/lib/i18n/navigation';
 import {

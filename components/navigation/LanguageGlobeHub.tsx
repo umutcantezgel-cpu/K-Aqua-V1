@@ -14,7 +14,7 @@
 import {
   useCallback, useEffect, useMemo, useRef, useState,
 } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'motion/react';
 import { Search } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/lib/i18n/navigation';

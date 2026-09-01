@@ -8,6 +8,16 @@ interface TemplateProps {
   children: ReactNode;
 }
 
+/* Beschleunigungskurven als Vierertupel, nicht als Array.
+ *
+ * `motion` ab Version 12 typisiert `ease` als kubische Bezier-Kurve, also als
+ * Tupel aus genau vier Zahlen. Ein Literal wie `[0.76, 0, 0.24, 1]` leitet
+ * TypeScript dagegen als `number[]` ab, und das passt nicht mehr. Die Werte
+ * hier auszuschreiben behebt das und beseitigt zugleich eine Dopplung: Die
+ * Wisch-Kurve stand in dieser Datei zweimal. */
+const EASE_OUT_SOFT: [number, number, number, number] = [0.16, 1, 0.3, 1];
+const EASE_WIPE: [number, number, number, number] = [0.76, 0, 0.24, 1];
+
 export default function Template({ children }: TemplateProps) {
   const shouldReduceMotion = useReducedMotion();
   const [isTransitioning, setIsTransitioning] = useState(true);
@@ -32,7 +42,7 @@ export default function Template({ children }: TemplateProps) {
       y: 0,
       transition: {
         duration: 0.42,
-        ease: [0.16, 1, 0.3, 1], // ease-out-soft
+        ease: EASE_OUT_SOFT,
       },
     },
   };
@@ -54,7 +64,7 @@ export default function Template({ children }: TemplateProps) {
       borderBottomRightRadius: ['0px', '0px', '40% 8%'],
       transition: {
         duration: 0.82,
-        ease: [0.76, 0, 0.24, 1], // --ease-wipe
+        ease: EASE_WIPE,
         times: [0, 0.5, 1],
       },
     },
@@ -71,7 +81,7 @@ export default function Template({ children }: TemplateProps) {
       opacity: [0, 1, 1, 0],
       transition: {
         duration: 0.82,
-        ease: [0.76, 0, 0.24, 1], // --ease-wipe
+        ease: EASE_WIPE,
         times: [0, 0.42, 0.58, 1],
       },
     },
