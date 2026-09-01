@@ -1,22 +1,77 @@
 import { NextResponse } from "next/server";
+import { sendMail } from "@/lib/mail/send";
+import { resolveEmpfaenger } from "@/lib/mail/config";
+import { esc, bereinigeDateiname } from "@/lib/mail/html";
+import type { MailAttachment } from "@/lib/mail/types";
 
-function esc(str: unknown): string {
-  if (typeof str !== "string") return "";
-  return str.replace(/[&<>'"]/g, (tag) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    "'": "&#39;",
-    '"': "&quot;",
-  }[tag] || tag));
+/**
+ * Nimmt Bewerbungen aus dem Bewerberportal entgegen.
+ *
+ * Diese Route konnte bis hierher NUR SMTP — `RESEND_API_KEY` kannte sie gar
+ * nicht. Wer also Resend einrichtete, hatte funktionierende Kontaktformulare
+ * und weiterhin tote Bewerbungen. Jetzt laeuft beides ueber `lib/mail`, und
+ * ein Schluessel deckt beide Wege ab.
+ */
+
+/**
+ * Erlaubte Dateiarten, geschluesselt nach Endung.
+ *
+ * WARUM NICHT `cv.type`: `File.type` stammt aus dem Browser und ist vom
+ * Absender frei waehlbar — der leere String eingeschlossen. Die alte Pruefung
+ * lautete `if (cv.type && !ALLOWED_MIME_TYPES.has(cv.type))`, sprang also bei
+ * leerem Typ vollstaendig ueber die Pruefung hinweg. Wer den MIME-Teil seiner
+ * Anfrage leer laesst, konnte damit eine BELIEBIGE Datei an ein Postfach
+ * schicken, das Anhaenge von Fremden erwartet und oeffnet.
+ *
+ * Die Endung ist ebenfalls nicht vertrauenswuerdig — aber sie stammt aus einer
+ * geschlossenen Liste, und der `contentType` wird daraus abgeleitet statt
+ * uebernommen. Der Anhang traegt damit nie einen Typ, den der Absender
+ * bestimmt hat.
+ */
+const ERLAUBTE_ENDUNGEN: Record<string, string> = {
+  pdf: "application/pdf",
+  doc: "application/msword",
+  docx: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+};
+
+/**
+ * 4 MB, nicht 5.
+ *
+ * Vercel weist Anfragen ueber 4,5 MB ab, BEVOR dieser Handler laeuft. Bei 5 MB
+ * starb ein Upload zwischen 4,5 und 5 MB also mit einem nackten 413, und der
+ * Bewerber sah nur eine allgemeine Fehlermeldung. Mit 4 MB liegt die Grenze
+ * innerhalb dessen, was wir selbst beantworten koennen.
+ */
+const MAX_FILE_SIZE = 4 * 1024 * 1024;
+
+/** Deckel gegen aufgeblaehte Lebenslauf-Baukasten-Daten. */
+const MAX_EINTRAEGE = 30;
+
+function endungVon(name: string): string {
+  const teile = name.toLowerCase().split(".");
+  return teile.length > 1 ? (teile[teile.length - 1] ?? "") : "";
 }
 
-const ALLOWED_MIME_TYPES = new Set([
-  "application/pdf",
-  "application/msword",
-  "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-]);
-const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5 MB
+interface BaukastenEintrag {
+  role?: unknown;
+  company?: unknown;
+  degree?: unknown;
+  school?: unknown;
+  from?: unknown;
+  to?: unknown;
+}
+
+function baukastenListe(roh: unknown, art: "beruf" | "ausbildung"): string {
+  if (!Array.isArray(roh)) return "";
+  return roh
+    .slice(0, MAX_EINTRAEGE)
+    .map((e: BaukastenEintrag) =>
+      art === "beruf"
+        ? `<li><strong>${esc(e.role)}</strong> bei ${esc(e.company)} (${esc(e.from)} - ${esc(e.to)})</li>`
+        : `<li><strong>${esc(e.degree)}</strong> an ${esc(e.school)} (${esc(e.from)} - ${esc(e.to)})</li>`
+    )
+    .join("");
+}
 
 export async function POST(req: Request) {
   try {
@@ -29,12 +84,12 @@ export async function POST(req: Request) {
     const startDate = (formData.get("startDate") as string)?.trim();
 
     if (!jobId || !firstName || !lastName || !email) {
-      return NextResponse.json({ success: false, error: "Missing required fields" }, { status: 400 });
+      return NextResponse.json({ success: false, error: "missing-fields" }, { status: 400 });
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      return NextResponse.json({ success: false, error: "Invalid email format" }, { status: 400 });
+      return NextResponse.json({ success: false, error: "invalid-email" }, { status: 400 });
     }
 
     const cv = formData.get("cv") as File | null;
@@ -42,42 +97,44 @@ export async function POST(req: Request) {
     const educationRaw = formData.get("education") as string | null;
     const skills = formData.get("skills") as string | null;
 
-    const attachments: { filename: string; content: Buffer; contentType: string }[] = [];
+    const attachments: MailAttachment[] = [];
     let builderHtml = "";
 
     if (cv && typeof cv.size === "number" && cv.size > 0) {
       if (cv.size > MAX_FILE_SIZE) {
-        return NextResponse.json({ success: false, error: "File exceeds 5MB limit" }, { status: 400 });
+        return NextResponse.json({ success: false, error: "file-too-large" }, { status: 400 });
       }
-      if (cv.type && !ALLOWED_MIME_TYPES.has(cv.type)) {
-        return NextResponse.json({ success: false, error: "Invalid file format. Allowed: PDF, DOC, DOCX" }, { status: 400 });
+      const endung = endungVon(cv.name);
+      const contentType = ERLAUBTE_ENDUNGEN[endung];
+      if (!contentType) {
+        return NextResponse.json({ success: false, error: "invalid-file-type" }, { status: 400 });
       }
-      const buffer = Buffer.from(await cv.arrayBuffer());
+      const roh = Buffer.from(await cv.arrayBuffer());
       attachments.push({
-        filename: esc(cv.name) || "Lebenslauf.pdf",
-        content: buffer,
-        contentType: cv.type || "application/pdf",
+        // `bereinigeDateiname` statt `esc`: HTML-Maskierung im MIME-Header war
+        // schlicht falsch (aus "Lebenslauf & CV.pdf" wurde "&amp;"), und sie
+        // entfernte kein CR/LF — siehe lib/mail/html.ts.
+        filename: bereinigeDateiname(cv.name),
+        // Base64 und NICHT Buffer — der Grund steht in lib/mail/types.ts.
+        contentBase64: roh.toString("base64"),
+        contentType,
       });
     } else if (experienceRaw && educationRaw) {
       try {
-        const experience = JSON.parse(experienceRaw);
-        const education = JSON.parse(educationRaw);
-        
+        const experience: unknown = JSON.parse(experienceRaw);
+        const education: unknown = JSON.parse(educationRaw);
+
         builderHtml = `
           <h3>Generierter Lebenslauf</h3>
           <h4>Berufserfahrung</h4>
-          <ul>
-            ${Array.isArray(experience) ? experience.map((e: { role: string; company: string; from: string; to: string }) => `<li><strong>${esc(e.role)}</strong> bei ${esc(e.company)} (${esc(e.from)} - ${esc(e.to)})</li>`).join("") : ""}
-          </ul>
+          <ul>${baukastenListe(experience, "beruf")}</ul>
           <h4>Ausbildung</h4>
-          <ul>
-            ${Array.isArray(education) ? education.map((e: { degree: string; school: string; from: string; to: string }) => `<li><strong>${esc(e.degree)}</strong> an ${esc(e.school)} (${esc(e.from)} - ${esc(e.to)})</li>`).join("") : ""}
-          </ul>
+          <ul>${baukastenListe(education, "ausbildung")}</ul>
           <h4>Fähigkeiten</h4>
-          <p>${esc(skills) || 'Keine angegeben'}</p>
+          <p>${esc(skills) || "Keine angegeben"}</p>
         `;
       } catch (err) {
-        console.warn("Could not parse builder experience/education JSON:", err);
+        console.warn("Lebenslauf-Baukasten: JSON nicht lesbar:", err);
       }
     }
 
@@ -85,47 +142,34 @@ export async function POST(req: Request) {
       <h2>Neue Bewerbung eingegangen</h2>
       <p><strong>Job-ID:</strong> ${esc(jobId)}</p>
       <p><strong>Name:</strong> ${esc(firstName)} ${esc(lastName)}</p>
-      <p><strong>E-Mail:</strong> ${esc(email)}</p>
+      <p><strong>E-Mail:</strong> <a href="mailto:${esc(email)}">${esc(email)}</a></p>
       <p><strong>Telefon:</strong> ${esc(phone) || "Nicht angegeben"}</p>
       <p><strong>Frühestmögliches Eintrittsdatum:</strong> ${esc(startDate) || "Nicht angegeben"}</p>
       <hr />
       ${builderHtml}
     `;
 
-    // Try to send via SMTP if configured
-    if (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS) {
-      const nodemailer = (await import("nodemailer")).default;
-      const transporter = nodemailer.createTransport({
-        host: process.env.SMTP_HOST,
-        port: parseInt(process.env.SMTP_PORT || "587"),
-        secure: process.env.SMTP_SECURE === "true",
-        auth: {
-          user: process.env.SMTP_USER,
-          pass: process.env.SMTP_PASS,
-        },
-      });
+    const ergebnis = await sendMail({
+      to: resolveEmpfaenger("jobs"),
+      // Fehlte bisher vollstaendig: Die Personalabteilung konnte auf eine
+      // Bewerbung nicht einfach antworten.
+      replyTo: email,
+      subject: `Neue Bewerbung: ${firstName} ${lastName} (${jobId})`,
+      html: htmlBody,
+      ...(attachments.length ? { attachments } : {}),
+    });
 
-      await transporter.sendMail({
-        from: process.env.SMTP_FROM || `"K-Aqua Bewerberportal" <noreply@k-aqua.de>`,
-        to: "jobs@k-aqua.de",
-        subject: `Neue Bewerbung: ${firstName} ${lastName} (${jobId})`,
-        html: htmlBody,
-        attachments,
-      });
-    } else {
-      // Mock for development
-      console.log("=== EMAIL MOCK (No SMTP credentials found) ===");
-      console.log(`To: jobs@k-aqua.de`);
-      console.log(`Subject: Neue Bewerbung: ${firstName} ${lastName} (${jobId})`);
-      console.log(`Attachments: ${attachments.length}`);
-      console.log("HTML Body:");
-      console.log(htmlBody);
-      console.log("==============================================");
+    if (!ergebnis.ok) {
+      /* Frueher stand hier `return NextResponse.json({ success: true })` —
+         auch dann, wenn nur ein console.log gelaufen war. Ein Bewerber lud
+         seinen Lebenslauf hoch, las „gesendet", und niemand erfuhr davon. */
+      console.error("Bewerbung konnte nicht zugestellt werden:", ergebnis.detail);
+      return NextResponse.json({ success: false, error: "send-failed" }, { status: 502 });
     }
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Application submission failed:", error);
-    return NextResponse.json({ success: false, error: "Internal Server Error" }, { status: 500 });
+    console.error("Bewerbung fehlgeschlagen:", error);
+    return NextResponse.json({ success: false, error: "server-error" }, { status: 500 });
   }
 }

@@ -21,8 +21,27 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
   const [state, setState] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [sel, setSel] = useState(interest);
   const [errs, setErrs] = useState<{ p?: boolean; m?: boolean }>({});
-  const started = useRef(Date.now());
   const uid = useId();
+
+  /* Die Uhr für den Tempo-Spamschutz.
+     Zwei Änderungen gegenüber der bisherigen Fassung, beide mit Grund:
+
+     1. `performance.now()` statt `Date.now()`. Der Server verglich bisher
+        einen CLIENT-Zeitstempel mit seiner EIGENEN Uhr — zwei Uhren. Ging die
+        des Besuchers vor, griff die Prüfung nie; ging sie nach, traf sie
+        Menschen. Jetzt schickt der Client die verstrichene DAUER, gemessen mit
+        einer monotonen Uhr, die von Zeitzonen und Zeitumstellung unberührt
+        bleibt.
+
+     2. Der Nullpunkt liegt bei der ersten Eingabe, nicht beim Einhängen.
+        Bei Klappe und Dialog entsteht dieses Formular erst beim Öffnen — die
+        Uhr lief also mit der Einblendanimation los, und wer den Passwortspeicher
+        beide Felder füllen ließ, war unter der Schwelle und verlor seine
+        Anfrage. */
+  const start = useRef<number | null>(null);
+  const merkeStart = () => {
+    if (start.current === null) start.current = performance.now();
+  };
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -32,7 +51,12 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     const m = !!e.currentTarget.elements.namedItem("email") && !/.+@.+\..+/.test(String(fd.get("email") || ""));
     setErrs({ p, m });
     if (p || m) return;
-    fd.set("interest", sel); fd.set("page", slug); fd.set("startedAt", String(started.current));
+    fd.set("interest", sel);
+    fd.set("page", slug);
+    fd.set(
+      "elapsed",
+      start.current === null ? "" : String(Math.round(performance.now() - start.current))
+    );
     setState("loading");
     const res = await submitLead(fd);
     setState(res.ok ? "success" : "error");
@@ -160,7 +184,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
   const renderForm = () => {
     if (layout === "row") {
       return (
-        <form className="kqk-form flex flex-col lg:flex-row gap-4 lg:gap-3 items-stretch lg:items-end w-full" onSubmit={onSubmit} noValidate>
+        <form className="kqk-form flex flex-col lg:flex-row gap-4 lg:gap-3 items-stretch lg:items-end w-full" onSubmit={onSubmit} onFocusCapture={merkeStart} onInputCapture={merkeStart} noValidate>
           <div className="flex-1 min-w-0">{phoneField}</div>
           <div className="flex-1 min-w-0">{emailField}</div>
           {hpField}
@@ -171,7 +195,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     }
     if (layout === "stack") {
       return (
-        <form className="kqk-form flex flex-col gap-4 w-full" onSubmit={onSubmit} noValidate>
+        <form className="kqk-form flex flex-col gap-4 w-full" onSubmit={onSubmit} onFocusCapture={merkeStart} onInputCapture={merkeStart} noValidate>
           {phoneField}
           {emailField}
           {chipsField(3)}
@@ -184,7 +208,7 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     }
     // Full layout
     return (
-      <form className="kqk-form flex flex-col gap-5 w-full" onSubmit={onSubmit} noValidate>
+      <form className="kqk-form flex flex-col gap-5 w-full" onSubmit={onSubmit} onFocusCapture={merkeStart} onInputCapture={merkeStart} noValidate>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 w-full">
           {phoneField}
           {emailField}

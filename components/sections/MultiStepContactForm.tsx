@@ -26,7 +26,21 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
   const [step, setStep] = useState(1);
   const [sending, setSending] = useState(false);
   const [sendError, setSendError] = useState(false);
-  const started = useRef(Date.now());
+
+  /* Dauer statt Zeitstempel, gemessen mit einer monotonen Uhr und ab der
+     ersten echten Eingabe — dieselbe Begründung wie in KontaktForm.tsx. */
+  const start = useRef<number | null>(null);
+  const merkeStart = () => {
+    if (start.current === null) start.current = performance.now();
+  };
+
+  /* Die Honigfalle fehlte hier vollständig.
+     Der kleine Kontaktblock im Layout trägt sie seit jeher, dieses Formular —
+     das HAUPTformular auf /kontakt — nicht. Der Spamschutz griff also an
+     genau einem der beiden Eingänge. Weil dieses Formular seine FormData von
+     Hand baut, braucht es ein echtes verstecktes Feld mit Ref. */
+  const honigtopf = useRef<HTMLInputElement | null>(null);
+
   const [formData, setFormData] = useState({
     inquiryType: "",
     message: "",
@@ -37,6 +51,7 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
   });
 
   const updateForm = (key: keyof typeof formData, value: string) => {
+    merkeStart();
     setFormData(prev => ({ ...prev, [key]: value }));
   };
 
@@ -62,7 +77,11 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
     fd.set("message", formData.message);
     fd.set("interest", INTEREST_BY_INQUIRY[formData.inquiryType] ?? "Beratung");
     fd.set("page", "kontakt");
-    fd.set("startedAt", String(started.current));
+    fd.set("firma2", honigtopf.current?.value ?? "");
+    fd.set(
+      "elapsed",
+      start.current === null ? "" : String(Math.round(performance.now() - start.current))
+    );
 
     const res = await submitLead(fd);
     setSending(false);
@@ -281,6 +300,19 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
             </motion.div>
           )}
         </AnimatePresence>
+
+        {/* Honigfalle: für Menschen unsichtbar, für einfache Bots verlockend.
+            `hidden` statt eines Versatzes außerhalb des Bildes, damit
+            Bildschirmleser sie gar nicht erst ansteuern. */}
+        <input
+          ref={honigtopf}
+          className="hidden"
+          type="text"
+          name="firma2"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+        />
 
         {sendError && step === 3 && (
           <div
