@@ -112,15 +112,61 @@ function useRevealWatchdog(
 
   React.useEffect(() => {
     if (alreadyVisible || rescued) return;
-    const id = window.setTimeout(() => {
+    /* Die Prüfung lief bis hierher genau einmal, 1500 ms nach dem
+       Einhängen. Damit schützte das Netz nur, was beim Laden ohnehin schon
+       im Bild stand — auf einer Produktseite ist das die Überschrift, und
+       der gesamte technische Teil darunter fiel heraus. Genau der Teil war
+       auf dem Surface unsichtbar geblieben.
+
+       Jetzt prüft es auch beim Scrollen und bei Größenänderungen. Es bleibt
+       dabei ein NETZ und wird nicht zum Auslöser: gemessen wird erst nach
+       einer Frist, und gerettet wird nur, wenn das Element dann immer noch
+       durchsichtig ist. Hat `whileInView` normal ausgelöst, steht die
+       Deckkraft nach 1200 ms längst auf 1 und hier passiert nichts. */
+    let frist = 0;
+    let geplant = false;
+
+    const messen = () => {
       const el = ref.current;
       if (!el) return;
       const r = el.getBoundingClientRect();
       // Oberkante bereits im Bild und Unterkante noch nicht vorbei: das Element
       // ist sichtbar und hätte längst eingeblendet sein müssen.
-      if (r.top < window.innerHeight && r.bottom > 0) setRescued(true);
-    }, 1500);
-    return () => window.clearTimeout(id);
+      if (r.top >= window.innerHeight || r.bottom <= 0) return;
+      if (parseFloat(window.getComputedStyle(el).opacity) > 0.9) return;
+      setRescued(true);
+    };
+
+    const fristSetzen = () => {
+      if (frist) return;
+      frist = window.setTimeout(() => {
+        frist = 0;
+        messen();
+      }, 1200);
+    };
+
+    // Auf einen rAF gebündelt, damit ein Scroll nicht je Ereignis misst.
+    const anstossen = () => {
+      if (geplant) return;
+      geplant = true;
+      window.requestAnimationFrame(() => {
+        geplant = false;
+        const el = ref.current;
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (r.top < window.innerHeight && r.bottom > 0) fristSetzen();
+      });
+    };
+
+    const id = window.setTimeout(messen, 1500);
+    window.addEventListener("scroll", anstossen, { passive: true });
+    window.addEventListener("resize", anstossen, { passive: true });
+    return () => {
+      window.clearTimeout(id);
+      if (frist) window.clearTimeout(frist);
+      window.removeEventListener("scroll", anstossen);
+      window.removeEventListener("resize", anstossen);
+    };
   }, [ref, alreadyVisible, rescued]);
 
   return rescued;

@@ -129,6 +129,29 @@ export default function Native3DCanvas({
    * Genau das war zu sehen. Ein Ref ueberlebt den Aufraeumschritt. */
   const grafikAusgefallenRef = useRef(false);
 
+  /* Vollbild: erst die Browser-Schnittstelle, dann der Rueckfall.
+   *
+   * WARUM NICHT NUR `fixed inset-0`. Genau das war es vorher, und ein
+   * nachgebautes Vollbild aus `position: fixed` steht und faellt mit den
+   * Vorfahren: sobald einer davon `transform`, `filter` oder
+   * `will-change: transform` traegt, spannt er einen eigenen Bezugsrahmen
+   * auf, und `fixed` bezieht sich nicht mehr auf das Sichtfenster. Dieser
+   * Viewer sitzt auf den Produktseiten in einem <Reveal>, dessen
+   * Motion-Wrapper bis zum Ende seiner Einblendung `translateY(22px)`
+   * traegt — in diesem Fenster ist das Vollbild nachweislich verschoben.
+   * Danach setzt Motion den Transform auf `none` zurueck, die Lage ist also
+   * nicht dauerhaft falsch, aber sie haengt an fremdem Verhalten.
+   *
+   * Die Browser-Schnittstelle legt das Element stattdessen in die oberste
+   * Ebene. Die ignoriert Bezugsrahmen vollstaendig, verschiebt das Element
+   * aber NICHT im DOM — die Leinwand behaelt ihren WebGL-Kontext, und
+   * nichts wird neu aufgebaut. Ausserdem kuemmert sich der Browser um
+   * Escape und um einen deckenden Hintergrund.
+   *
+   * `istEchtesVollbild` unterscheidet beide Wege: nur der Rueckfall braucht
+   * die eigenen Vollbildklassen. */
+  const [istEchtesVollbild, setIstEchtesVollbild] = useState(false);
+
   /* Der Wiederaufbau nach einer Kontextrueckkehr, immer auf dem neuesten Stand.
    *
    * Der Aufbaueffekt laeuft einmal; sein Zuhoerer fuer `webglcontextrestored`
@@ -488,6 +511,112 @@ export default function Native3DCanvas({
     };
   }, [buildCurrentModel, selectedSize, isSection]);
 
+  /* Vollbild an- und ausschalten. */
+  const vollbildUmschalten = useCallback(async () => {
+    const el = containerRef.current;
+    if (!el) return;
+
+    // Bereits im echten Vollbild? Dann beenden.
+    const d = document as Document & { webkitExitFullscreen?: () => Promise<void> };
+    const aktuell = document.fullscreenElement ?? null;
+    if (aktuell) {
+      try {
+        await (document.exitFullscreen?.() ?? d.webkitExitFullscreen?.());
+      } catch {
+        /* Der Zustandswaechter raeumt nach. */
+      }
+      return;
+    }
+
+    if (isFullscreen) {
+      // Rueckfall-Vollbild beenden.
+      setIsFullscreen(false);
+      return;
+    }
+
+    type MitWebkit = HTMLDivElement & { webkitRequestFullscreen?: () => Promise<void> };
+    const mit = el as MitWebkit;
+    try {
+      await (el.requestFullscreen?.({ navigationUI: 'hide' }) ?? mit.webkitRequestFullscreen?.());
+      // `fullscreenchange` setzt den Zustand — nicht hier, sonst laufen
+      // Zustand und Wirklichkeit auseinander, wenn der Nutzer mit Escape
+      // aussteigt.
+    } catch {
+      /* iOS Safari kennt Element.requestFullscreen nicht, und manche
+         Browser lehnen die Anfrage ab. Dann der Rueckfall — er bedeckt
+         wegen des Vorfahren-Transforms nicht zwingend das ganze
+         Sichtfenster, ist aber deckend und sperrt das Scrollen. */
+      setIsFullscreen(true);
+    }
+  }, [isFullscreen]);
+
+  /* Der Browser fuehrt beim Vollbild Buch, nicht wir.
+     Escape, die F-Taste und der Systemknopf loesen alle `fullscreenchange`
+     aus; ohne diesen Waechter zeigte der Knopf danach den falschen Zustand. */
+  useEffect(() => {
+    /* Nur den Zustand fuehren. Die Leinwand stellt der ResizeObserver
+       weiter unten um — er beobachtet denselben Container und feuert beim
+       Vollbildwechsel von selbst. */
+    const beiWechsel = () => {
+      setIstEchtesVollbild(document.fullscreenElement === containerRef.current);
+    };
+    document.addEventListener('fullscreenchange', beiWechsel);
+    document.addEventListener('webkitfullscreenchange', beiWechsel);
+    return () => {
+      document.removeEventListener('fullscreenchange', beiWechsel);
+      document.removeEventListener('webkitfullscreenchange', beiWechsel);
+    };
+  }, []);
+
+  /* Rueckfall-Vollbild: Seite dahinter sperren und Escape annehmen.
+     Beim echten Vollbild macht der Browser beides selbst. */
+  useEffect(() => {
+    if (!isFullscreen) return;
+    /* Ohne diese Sperre scrollt die Seite hinter dem Vollbild weiter. Da
+       das Rueckfall-Vollbild an einem transformierten Vorfahren haengt,
+       scrollt es mit — die Werkzeugleiste wandert dabei durchs Sichtfeld
+       und ist wieder weg, bevor man den Export-Knopf trifft. */
+    const vorher = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const beiTaste = (e: KeyboardEvent) => {
+      // Erst das offene Menue schliessen, dann das Vollbild verlassen.
+      if (e.key === 'Escape' && !exportOpen) setIsFullscreen(false);
+    };
+    document.addEventListener('keydown', beiTaste);
+    return () => {
+      document.body.style.overflow = vorher;
+      document.removeEventListener('keydown', beiTaste);
+    };
+  }, [isFullscreen, exportOpen]);
+
+  /* Das Exportmenue schliesst auf Escape und auf einen Klick daneben.
+     Ohne das blieb es offen stehen und verdeckte die Ansicht. */
+  const exportMenueRef = useRef<HTMLDivElement | null>(null);
+  const exportKnopfRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    if (!exportOpen) return;
+    const beiTaste = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setExportOpen(false);
+    };
+    const beiKlick = (e: PointerEvent) => {
+      const ziel = e.target;
+      if (!(ziel instanceof Node)) return;
+      // Knopf und Menue sind seit dem Umbau keine Verwandten mehr; beide
+      // muessen einzeln gefragt werden, sonst schliesst der eigene Klick
+      // auf den Knopf das Menue sofort wieder.
+      if (exportMenueRef.current?.contains(ziel)) return;
+      if (exportKnopfRef.current?.contains(ziel)) return;
+      setExportOpen(false);
+    };
+    document.addEventListener('keydown', beiTaste);
+    // `pointerdown` deckt Maus und Touch in einem Durchgang ab.
+    document.addEventListener('pointerdown', beiKlick);
+    return () => {
+      document.removeEventListener('keydown', beiTaste);
+      document.removeEventListener('pointerdown', beiKlick);
+    };
+  }, [exportOpen]);
+
   // Fetch and Mount Product Module
   useEffect(() => {
     let cancelled = false;
@@ -777,7 +906,20 @@ export default function Native3DCanvas({
         'relative w-full rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-b from-card/90 via-background to-card border border-card-border shadow-lift select-none flex flex-col',
         heightClass,
         className,
-        isFullscreen && '!fixed !inset-0 !z-[9999] !h-screen !w-screen !rounded-none !border-0'
+        /* Vollbild, egal auf welchem Weg: deckender Grund statt des
+           Verlaufs. `from-card/90` liess die Seite oben zu zehn Prozent
+           durchscheinen — genau der unprofessionelle Eindruck, um den es
+           hier geht. `bg-none` nimmt das Verlaufsbild weg, `bg-background`
+           setzt eine volle Farbe darunter. */
+        (isFullscreen || istEchtesVollbild) &&
+          '!bg-none !bg-background !rounded-none !border-0',
+        /* Echtes Vollbild: der Browser gibt dem Element bereits die volle
+           Flaeche. Nur die feste Hoehe aus `heightClass` muss weichen. */
+        istEchtesVollbild && '!h-full !w-full',
+        /* Rueckfall ohne Browser-Vollbild. `100dvh` statt `h-screen`, damit
+           die Werkzeugleiste nicht unter der Adressleiste mobiler Browser
+           verschwindet. */
+        isFullscreen && '!fixed !inset-0 !z-[9999] !h-[100dvh] !w-screen'
       )}
     >
       {/* 3D WebGL Canvas */}
@@ -919,10 +1061,13 @@ export default function Native3DCanvas({
             <RotateCcw className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>
 
-          {/* CAD Export Dropdown — Klick statt group-hover: Hover
-              existiert auf Touch-Geräten nicht, und der Katalog wird im
-              Vertrieb vom Tablet gezeigt. */}
-          <div className="relative">
+          {/* CAD Export — Klick statt group-hover: Hover existiert auf
+              Touch-Geräten nicht, und der Katalog wird im Vertrieb vom
+              Tablet gezeigt.
+
+              Nur der Knopf steht hier. Das Menü liegt bewusst AUSSERHALB
+              dieser Leiste, siehe die Begründung an seiner Stelle. */}
+          <div className="shrink-0" ref={exportKnopfRef}>
             <button
               type="button"
               onClick={() => setExportOpen((v) => !v)}
@@ -935,41 +1080,76 @@ export default function Native3DCanvas({
               <span className="hidden lg:inline text-[11px]">CAD</span>
               <ChevronDown className="w-3 h-3 opacity-60" />
             </button>
-            <div className={clsx(
-              'absolute end-0 w-36 bg-card border border-card-border rounded-xl shadow-xl p-1.5 flex-col gap-1 z-30',
-              'bottom-full mb-1.5 sm:bottom-auto sm:mb-0 sm:top-full sm:mt-1.5',
-              exportOpen ? 'flex' : 'hidden'
-            )}>
-              <button
-                type="button"
-                onClick={() => { setExportOpen(false); handleExportCAD('glb'); }}
-                className="w-full text-start px-2.5 py-1.5 rounded-lg hover:bg-primary-soft hover:text-primary text-xs font-semibold text-foreground transition-colors cursor-pointer"
-              >
-                GLTF / GLB (.glb)
-              </button>
-              <button
-                type="button"
-                onClick={() => { setExportOpen(false); handleExportCAD('obj'); }}
-                className="w-full text-start px-2.5 py-1.5 rounded-lg hover:bg-primary-soft hover:text-primary text-xs font-semibold text-foreground transition-colors cursor-pointer"
-              >
-                Wavefront (.obj)
-              </button>
-            </div>
           </div>
 
           {/* Fullscreen Expand Button */}
           <button
             type="button"
-            onClick={() => setIsFullscreen(!isFullscreen)}
-            title={isFullscreen ? t('fullscreenExit') : t('fullscreen')}
+            onClick={() => void vollbildUmschalten()}
+            title={isFullscreen || istEchtesVollbild ? t('fullscreenExit') : t('fullscreen')}
             aria-label={t('fullscreen')}
+            aria-pressed={isFullscreen || istEchtesVollbild}
             className="p-2 sm:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
           >
-            {isFullscreen ? (
+            {isFullscreen || istEchtesVollbild ? (
               <Minimize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             ) : (
               <Maximize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             )}
+          </button>
+        </div>
+      )}
+
+      {/* Das CAD-Exportmenü.
+       *
+       * WARUM ES NICHT BEIM KNOPF STEHT. Genau dort stand es, und auf
+       * Touch-Geräten war der Export dadurch nicht bedienbar: die
+       * Werkzeugleiste oben trägt unter 640 px `overflow-x-auto`, damit
+       * ihre sieben Knöpfe auf schmalen Geräten waagerecht scrollen
+       * können. Sobald aber EINE Achse auf `auto` steht, macht die
+       * CSS-Spezifikation aus dem `visible` der anderen Achse ebenfalls
+       * `auto` — die Leiste beschneidet also auch SENKRECHT, und sie ist
+       * nur rund 40 px hoch. Das Menü klappte mit `bottom-full` nach oben
+       * heraus, lag damit vollständig ausserhalb dieser 40 px und wurde
+       * abgeschnitten. Zu sehen war nur ein Streifen, der beim Scrollen
+       * der Leiste kurz auftauchte und wieder verschwand.
+       *
+       * Ab 640 px hebt `sm:overflow-visible` die Beschneidung auf; deshalb
+       * fiel es am Desktop nie auf, wohl aber auf dem Handy und auf einem
+       * Surface, das ab Werk auf 200 % skaliert und damit unter 640 px
+       * CSS-Breite landet.
+       *
+       * Als Geschwister der Leiste — im Viewer, aber ausserhalb des
+       * scrollenden Kastens — kann nichts es mehr beschneiden. Die
+       * Ausrichtung folgt derselben Ecke wie die Leiste. */}
+      {showControls && !loading && exportOpen && (
+        <div
+          ref={exportMenueRef}
+          className={clsx(
+            'absolute z-30 w-44 end-2 sm:end-4 flex flex-col gap-1',
+            'bg-card border border-card-border rounded-xl shadow-xl p-1.5',
+            // Mobil sitzt die Leiste unten; das Menü klappt darüber auf und
+            // rückt mit, wenn die Größenleiste die Leiste nach oben schiebt.
+            showSizeSelector && availableSizes.length > 1
+              ? 'bottom-[6.5rem]'
+              : 'bottom-[3.45rem]',
+            // Ab 640 px sitzt die Leiste oben rechts; das Menü klappt darunter.
+            'sm:bottom-auto sm:top-[3.6rem]'
+          )}
+        >
+          <button
+            type="button"
+            onClick={() => { setExportOpen(false); handleExportCAD('glb'); }}
+            className="w-full text-start px-2.5 py-1.5 rounded-lg hover:bg-primary-soft hover:text-primary text-xs font-semibold text-foreground transition-colors cursor-pointer"
+          >
+            GLTF / GLB (.glb)
+          </button>
+          <button
+            type="button"
+            onClick={() => { setExportOpen(false); handleExportCAD('obj'); }}
+            className="w-full text-start px-2.5 py-1.5 rounded-lg hover:bg-primary-soft hover:text-primary text-xs font-semibold text-foreground transition-colors cursor-pointer"
+          >
+            Wavefront (.obj)
           </button>
         </div>
       )}
