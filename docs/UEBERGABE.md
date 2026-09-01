@@ -213,18 +213,43 @@ Kein Mangel, sondern Entscheidungen — damit dich nichts überrascht:
 
 ### Technisch, benannt
 
-- **three.js wird zweimal geladen** (~400 kB): gebündelt aus `node_modules`
-  und über die Importmap. Kostet Ladezeit und lässt zwei THREE-Instanzen
-  nebeneinander laufen. Kein Fehler, aber technische Schuld.
-- **Zwei Animationsbibliotheken** (`framer-motion` ^12 und `motion` ^11) sind
-  installiert und beide in Benutzung.
-- **Die Suche kennt 36 von 73 Produkten.** `lib/search-data.ts` ist ein
-  handgepflegter Index; er läuft bei jedem neuen Produkt weiter auseinander.
-  Außerdem tragen die Einträge nur de/en/ar — andere Sprachen bekommen
-  deutsche Treffertitel.
-- **Der CO₂-Rechner ist einsprachig deutsch**, in allen 65 Sprachen.
-  `eslint.config.mjs` nimmt genau diese Pfade von der i18n-Prüfung aus,
-  deshalb ist es nie aufgefallen.
+**three.js wird zweimal ausgeliefert.** Gemessen an einer Produktseite:
+894 kB in webpack-Chunks (aus `node_modules`, für Renderer, OrbitControls
+und die Exporter) **plus** 733 kB Vendor-Kopie
+(`public/kaqua-3d/vendor/three.module.js` + `three.core.min.js`, geladen über
+die Importmap in `app/[locale]/layout.tsx`, weil die 3D-Bibliothek
+`import * as THREE from 'three'` macht). Zusammen rund **1,6 MB**.
+
+Beide Kopien sind r185, die Versionen passen also. Die eigentliche Schuld ist
+nicht die Bandbreite, sondern dass **zwei THREE-Instanzen nebeneinander
+laufen**: Geometrie aus der einen, Renderer aus der anderen. Jede
+`instanceof`-Prüfung dazwischen ist ein latenter Fehler, der bisher nur
+deshalb nicht auffällt, weil die Bibliothek Enten-Typisierung benutzt.
+
+Das ist bewusst nicht behoben. Der Umbau ist kein Importtausch:
+`three/examples/jsm` löst webpack zur Bauzeit auf, nicht die Importmap. Er
+bräuchte `webpackIgnore`, Vendor-Kopien der drei Zusatzmodule und eine
+Neuordnung der Initialisierung in `Native3DCanvas.tsx` (über 1.000 Zeilen).
+Der Viewer hängt an 74 Produktseiten, `/3d` und zwei Ressourcen-Seiten, und
+er wird ohnehin erst geladen, wenn er in die Nähe des Bildschirms kommt — die
+1,6 MB blockieren also nichts, sie kosten Bandbreite. Vor einer Übergabe war
+mir das Risiko-Nutzen-Verhältnis zu schlecht.
+
+**Die Sucheinträge tragen nur de/en/ar.** `lib/search-engine.ts` fällt hart
+auf Deutsch zurück — ein französischer Besucher bekommt deutsche
+Treffertitel. Das ist ein Übersetzungsthema, kein Codethema.
+
+**Der CO₂-Rechner ist einsprachig deutsch**, in allen 65 Sprachen.
+`eslint.config.mjs:52-53` nimmt genau diese Pfade von der i18n-Prüfung aus,
+deshalb ist es nie aufgefallen.
+
+Der naheliegende Weg — die 92 vorhandenen Schlüssel unter `co2.*` verdrahten —
+funktioniert **nicht**: Sie sind in der deutschen Sprachdatei teilweise
+englisch (`tempCold: "Cold water (10°C)"`, `recycle: "Enable End-of-Life
+recycling credit"`, `compareTitle: "Life-Cycle Assessment (LCA)"`). Sie
+anzuschließen würde die deutsche Seite teilweise englisch machen — schlechter
+als heute. Sauber wird das erst, wenn der `co2`-Namensraum in `messages/`
+überarbeitet ist.
 
 ### Im Repository
 
