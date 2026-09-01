@@ -121,10 +121,20 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
 
-  // Qualitäts-Gates: scharf. Ein Build bricht ab, sobald TypeScript einen
-  // Fehler meldet oder ESLint einen Error wirft (Warnings bleiben erlaubt).
-  // Nicht auf `true` zurückstellen — das war der Grund, warum kaputter Code
-  // monatelang unbemerkt deployt werden konnte.
+  /* Qualitäts-Gates.
+   *
+   * TypeScript bricht den Bau ab (siehe `typescript` unten) — ESLint NICHT.
+   * Der Kommentar an dieser Stelle behauptete jahrelang das Gegenteil ("Ein
+   * Build bricht ab, sobald … ESLint einen Error wirft"), während direkt
+   * darunter `ignoreDuringBuilds: true` stand. Ein Kommentar, der lügt, ist
+   * schlimmer als keiner: Er lädt dazu ein, sich auf einen Riegel zu
+   * verlassen, den es nicht gibt.
+   *
+   * Der Wert bleibt bewusst `true`. ESLint läuft als eigener Schritt in
+   * `.github/workflows/ci.yml` und blockiert dort die Zusammenführung — das
+   * ist der richtige Ort dafür. Es im Bau ein zweites Mal zu erzwingen würde
+   * nur den Vercel-Bau verlangsamen und bei einer Regeländerung den Deploy
+   * eines unveränderten Standes brechen. */
   eslint: {
     ignoreDuringBuilds: true,
   },

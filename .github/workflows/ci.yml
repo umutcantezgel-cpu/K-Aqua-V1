@@ -40,6 +40,23 @@ jobs:
       - name: Message key usage
         run: pnpm i18n:usage
 
+      # Prüft ALLE 65 Sprachdateien auf unlesbares JSON und auf Füllstrings
+      # ("übersetzter Text", ".", "-").
+      #
+      # Dieser Schritt fehlte, und genau er hätte den teuersten i18n-Fehler
+      # gefunden: Zehn Sprachdateien lagen mitten im Schreiben zerschnitten im
+      # Arbeitsbaum. `i18n:check` sieht das nicht — es prüft nur de/en/ar.
+      # `lib/i18n/request.ts` fängt den Parse-Fehler ab und liefert ein leeres
+      # Bündel, die betroffenen Sprachen fallen also STILL auf Deutsch zurück.
+      # Ohne diesen Schritt merkt es niemand.
+      #
+      # Bewusst `continue-on-error`: Ein laufender Übersetzungsdurchgang soll
+      # die Zusammenführung nicht blockieren. Der Befund steht im Protokoll,
+      # und das reicht, damit er nicht unsichtbar bleibt.
+      - name: Locale placeholders
+        run: pnpm i18n:placeholders
+        continue-on-error: true
+
       # Stellt sicher, dass die erzeugte 3D-Zuordnung zur Bibliothek passt.
       # Wird ein Modell ergänzt, ohne sie neu zu erzeugen, fällt es hier auf.
       - name: 3D registry in sync

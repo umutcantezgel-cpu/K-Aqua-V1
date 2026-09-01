@@ -17,7 +17,12 @@
     "i18n:placeholders": "node scripts/check-locale-placeholders.mjs",
     "3d:sync": "node scripts/sync-3d-registry.mjs",
     "3d:check": "node scripts/sync-3d-registry.mjs --check",
-    "3d:coverage": "node scripts/check-3d-coverage.mjs"
+    "3d:coverage": "node scripts/check-3d-coverage.mjs",
+    "3d:seiten": "node scripts/check-3d-seiten.mjs",
+    "3d:gestalt": "node scripts/messe-gestalt.mjs",
+    "verify:h1": "tsx scripts/verify-h1.ts",
+    "verify:meta": "tsx scripts/verify-meta.ts",
+    "mail:selftest": "tsx scripts/mail-selftest.ts"
   },
   "dependencies": {
     "@react-three/fiber": "^9.6.1",
@@ -62,6 +67,7 @@
     "eslint-config-next": "^15.5.19",
     "postcss": "^8.5.0",
     "tailwindcss": "^4.0.0",
+    "tsx": "^4.23.13",
     "typescript": "^5.7.0",
     "vitest": "^3.0.0"
   },
