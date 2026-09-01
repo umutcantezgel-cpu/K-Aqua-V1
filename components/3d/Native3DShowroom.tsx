@@ -164,7 +164,7 @@ export default function Native3DShowroom({ locale }: Native3DShowroomProps) {
               <Native3DCanvas
                 key={activeItem.id}
                 productId={activeItem.id}
-                heightClass="h-[420px] sm:h-[500px] lg:h-[580px]"
+                heightClass="h-[min(70dvh,560px)] sm:h-[min(85dvh,520px)] lg:h-[min(85dvh,600px)]"
                 onProductChange={(p) => setProductData(p)}
                 onSizeChange={(s) => setSelectedSize(s)}
                 showControls={true}

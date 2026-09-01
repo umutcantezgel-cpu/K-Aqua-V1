@@ -191,12 +191,16 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
                 icon={<Layers className="w-8 h-8 text-primary" />}
                 colSpan={3}
                 className="bg-background/50 backdrop-blur-sm"
+                /* Höhe außen und innen gemeinsam: 256 px waren auf jedem
+                   Gerät gleich klein. Der Viewer bringt jetzt einen eigenen
+                   Vollbild-Knopf mit, auch ohne `showControls` — wer das
+                   Bauteil genauer ansehen will, kommt hier heraus. */
                 header={
-                  <div className="h-64 w-full bg-card rounded-t-2xl overflow-hidden border-b border-card-border relative">
+                  <div className="h-72 sm:h-80 lg:h-96 w-full bg-card rounded-t-2xl overflow-hidden border-b border-card-border relative">
                     <NextIntlClientProvider messages={viewer3dMessages}>
                       <Native3DCanvas
                         slug="socket"
-                        heightClass="h-64"
+                        heightClass="h-72 sm:h-80 lg:h-96"
                         showControls={false}
                         showSizeSelector={false}
                         autoRotateDefault={true}

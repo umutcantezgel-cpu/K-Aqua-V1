@@ -38,7 +38,10 @@ const Native3DCanvasImpl = React.lazy(() =>
   )
 );
 
-const DEFAULT_HEIGHT = 'h-[440px] sm:h-[520px] lg:h-[600px]';
+/* MUSS mit `heightClass` in Native3DCanvas.tsx uebereinstimmen — weicht der
+   Platzhalter ab, entsteht beim Austausch genau der Sprung, den diese Datei
+   verhindern soll. */
+const DEFAULT_HEIGHT = 'h-[min(70dvh,560px)] sm:h-[min(85dvh,520px)] lg:h-[min(85dvh,600px)]';
 
 /**
  * Übernimmt Rahmen, Radius und Höhe des echten Viewers, damit der Austausch

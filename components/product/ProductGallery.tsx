@@ -11,6 +11,19 @@ import { useTranslations } from 'next-intl';
 import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
 import { CATALOG_TOTAL } from '@/lib/3d/slug-map.generated';
 
+/* Die Höhe der Galerie — 3D-Ansicht, Fotoansicht und Platzhalter.
+ *
+ * Alle drei MÜSSEN denselben Wert tragen, sonst springt das Layout beim
+ * Reiterwechsel. Sie standen bisher dreimal ausgeschrieben nebeneinander,
+ * genau die Anordnung, in der so etwas auseinanderläuft.
+ *
+ * `dvh` statt fester Pixel: 420 px waren auf einem Telefon gut die Hälfte des
+ * Bildes und wuchsen nur zum Desktop hin — dorthin, wo ohnehin Platz ist.
+ * `dvh` misst den Bildbereich ohne die ein- und ausfahrende Adressleiste, der
+ * Deckel hält die Ansicht im Querformat im Rahmen.
+ */
+const ANSICHT_HOEHE = 'h-[min(70dvh,560px)] sm:h-[min(85dvh,520px)] lg:h-[min(85dvh,600px)]';
+
 interface Props {
   category: string;
   slug?: string;
@@ -114,7 +127,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                 category={category}
                 initialSize={selectedSize}
                 onSizeChange={(s) => setSelectedSize(s)}
-                heightClass="h-[420px] sm:h-[500px] lg:h-[580px]"
+                heightClass={ANSICHT_HOEHE}
                 showControls={true}
                 showSizeSelector={true}
                 autoRotateDefault={true}
@@ -134,7 +147,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                   {/* Leitaufnahme. `sizes` deckelt die ausgelieferte Breite —
                       die Quelldateien sind 900 px, ohne Angabe lieferte Next
                       die volle Viewportbreite aus. */}
-                  <div className="relative w-full h-[420px] sm:h-[500px] lg:h-[580px] rounded-2xl sm:rounded-3xl border border-card-border overflow-hidden bg-background-subtle">
+                  <div className={`relative w-full ${ANSICHT_HOEHE} rounded-2xl sm:rounded-3xl border border-card-border overflow-hidden bg-background-subtle`}>
                     <Image
                       src={photos[activePhoto] ?? photos[0] ?? ''}
                       alt={title || cleanSlug}
@@ -174,7 +187,7 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                   )}
                 </div>
               ) : (
-                <div className="w-full h-[420px] sm:h-[500px] lg:h-[580px] rounded-2xl sm:rounded-3xl border border-card-border flex flex-col items-center justify-center bg-gradient-to-br from-card via-background to-primary-soft/20 p-8 text-center">
+                <div className={`w-full ${ANSICHT_HOEHE} rounded-2xl sm:rounded-3xl border border-card-border flex flex-col items-center justify-center bg-gradient-to-br from-card via-background to-primary-soft/20 p-8 text-center`}>
                   <div className="w-20 h-20 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary mb-4 shadow-inner">
                     <Box className="w-10 h-10" />
                   </div>

@@ -141,7 +141,13 @@ export default function Native3DCanvas({
   onSizeChange,
   onProductChange,
   className,
-  heightClass = 'h-[440px] sm:h-[520px] lg:h-[600px]',
+  /* Auf Mobil an der Bildschirmhoehe statt an einer festen Pixelzahl. 440 px
+     waren auf einem Telefon gut die Haelfte des Bildes und wuchsen nur zum
+     Desktop hin — ausgerechnet dort, wo ohnehin Platz ist. `dvh` statt `vh`,
+     damit die ein- und ausfahrende Adressleiste mobiler Browser die Ansicht
+     nicht springen laesst. Der Deckel haelt sie im Querformat im Rahmen.
+     MUSS mit `DEFAULT_HEIGHT` in Native3DCanvasLazy.tsx uebereinstimmen. */
+  heightClass = 'h-[min(70dvh,560px)] sm:h-[min(85dvh,520px)] lg:h-[min(85dvh,600px)]',
   showControls = true,
   showSizeSelector = true,
   autoRotateDefault = true,
@@ -1155,7 +1161,9 @@ export default function Native3DCanvas({
             'absolute z-10 flex items-center gap-1.5 sm:gap-2',
             'start-2 end-2 overflow-x-auto scrollbar-none py-1 px-0.5',
             showSizeSelector && availableSizes.length > 1 ? 'bottom-[3.55rem]' : 'bottom-2',
-            'sm:top-4 sm:end-4 sm:bottom-auto sm:start-auto sm:overflow-visible sm:justify-end sm:py-0 sm:px-0'
+            // `sm:end-16` statt `sm:end-4`: ab 640 px sitzt der Vollbild-Knopf
+            // in derselben Ecke. Er misst 38 px, plus 16 px Abstand.
+            'sm:top-4 sm:end-16 sm:bottom-auto sm:start-auto sm:overflow-visible sm:justify-end sm:py-0 sm:px-0'
           )}
         >
           {/* Section Cut Toggle */}
@@ -1272,22 +1280,38 @@ export default function Native3DCanvas({
             </button>
           </div>
 
-          {/* Fullscreen Expand Button */}
-          <button
-            type="button"
-            onClick={() => void vollbildUmschalten()}
-            title={isFullscreen || istEchtesVollbild ? t('fullscreenExit') : t('fullscreen')}
-            aria-label={t('fullscreen')}
-            aria-pressed={isFullscreen || istEchtesVollbild}
-            className="p-2 sm:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
-          >
-            {isFullscreen || istEchtesVollbild ? (
-              <Minimize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            ) : (
-              <Maximize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            )}
-          </button>
         </div>
+      )}
+
+      {/* Der Vollbild-Knopf, bewusst AUSSERHALB der Werkzeugleiste.
+       *
+       * In der Leiste war er der siebte und letzte von sieben Knoepfen, und
+       * die Leiste traegt auf schmalen Geraeten `overflow-x-auto`: um zu
+       * vergroessern, musste man sie erst seitwaerts scrollen — auf einem
+       * Telefon fand ihn schlicht niemand. Jetzt hat er eine feste eigene
+       * Ecke und ist auf jedem Geraet sofort da.
+       *
+       * Die Bedingung haengt an `!loading && !error`, NICHT an
+       * `showControls`. Damit bekommen auch die beiden Marketingkacheln im
+       * BIM-Portal und bei den Ausschreibungstexten erstmals einen Weg zur
+       * Vergroesserung — die stecken sonst auf JEDEM Geraet bei ihrer festen
+       * Kachelhoehe fest. Ein einzelner kleiner Knopf ist dort ein weit
+       * geringerer Eingriff als die ganze Leiste. */}
+      {!loading && !error && effectiveId && (
+        <button
+          type="button"
+          onClick={() => void vollbildUmschalten()}
+          title={isFullscreen || istEchtesVollbild ? t('fullscreenExit') : t('fullscreen')}
+          aria-label={t('fullscreen')}
+          aria-pressed={isFullscreen || istEchtesVollbild}
+          className="absolute z-20 top-2.5 end-2.5 sm:top-4 sm:end-4 p-2 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
+        >
+          {isFullscreen || istEchtesVollbild ? (
+            <Minimize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          ) : (
+            <Maximize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          )}
+        </button>
       )}
 
       {/* Das CAD-Exportmenü.
@@ -1316,7 +1340,8 @@ export default function Native3DCanvas({
         <div
           ref={exportMenueRef}
           className={clsx(
-            'absolute z-30 w-44 end-2 sm:end-4 flex flex-col gap-1',
+            // Folgt derselben Kante wie die Leiste, an der sein Knopf haengt.
+            'absolute z-30 w-44 end-2 sm:end-16 flex flex-col gap-1',
             'bg-card border border-card-border rounded-xl shadow-xl p-1.5',
             // Mobil sitzt die Leiste unten; das Menü klappt darüber auf und
             // rückt mit, wenn die Größenleiste die Leiste nach oben schiebt.

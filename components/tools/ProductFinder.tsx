@@ -349,7 +349,7 @@ export default function ProductFinder({ initialProducts = [] }: { initialProduct
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
-              className="relative w-full max-w-5xl h-[80vh] bg-card border-2 border-card-border rounded-3xl shadow-2xl overflow-hidden flex flex-col"
+              className="relative w-full max-w-5xl h-[85dvh] bg-card border-2 border-card-border rounded-3xl shadow-2xl overflow-hidden flex flex-col"
             >
               <div className="p-4 px-6 border-b border-card-border flex items-center justify-between bg-card/80 backdrop-blur-md">
                 <div className="flex items-center gap-3">
