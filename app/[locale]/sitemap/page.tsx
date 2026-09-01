@@ -125,6 +125,30 @@ export default async function SitemapPage({ params }: Props) {
               <li><Link href="/impressum" className="hover:text-primary transition-colors">Impressum</Link></li>
               <li><Link href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</Link></li>
             </ul>
+
+            {/* Diese Liste fehlte vollstaendig.
+                Die HTML-Sitemap fuehrte zwoelf Links und liess damit genau die
+                Seiten aus, die ein Planer sucht: das Download-Center, das
+                BIM-Portal, das Technikhandbuch, die Ausschreibungstexte, den
+                Produktfinder, das 3D-Studio und den CO2-Rechner. Eine Sitemap,
+                die die Haelfte des Angebots verschweigt, ist keine. */}
+            <h2 className="text-2xl font-bold mt-10 mb-6 font-heading text-primary">
+              {t('mega.digitalTools')}
+            </h2>
+            <ul className="flex flex-col gap-3">
+              <li><Link href="/produkte/finder" className="hover:text-primary transition-colors">{t('finder')}</Link></li>
+              <li><Link href="/3d" className="hover:text-primary transition-colors">{t('mega.cadStudio')}</Link></li>
+              <li><Link href="/co2-rechner" className="hover:text-primary transition-colors">{t('co2')}</Link></li>
+              <li><Link href="/ressourcen/downloads" className="hover:text-primary transition-colors">{t('mega.downloads')}</Link></li>
+              <li><Link href="/ressourcen/bim" className="hover:text-primary transition-colors">{t('mega.bim')}</Link></li>
+              <li><Link href="/ressourcen/technik" className="hover:text-primary transition-colors">{t('mega.technik')}</Link></li>
+              <li><Link href="/ressourcen/ausschreibungstexte" className="hover:text-primary transition-colors">{t('mega.specs')}</Link></li>
+              <li><Link href="/ressourcen/support" className="hover:text-primary transition-colors">{t('mega.supportRes')}</Link></li>
+              <li><Link href="/trust-center" className="hover:text-primary transition-colors">{t('trust')}</Link></li>
+              <li><Link href="/service" className="hover:text-primary transition-colors">{t('service')}</Link></li>
+              <li><Link href="/partnerschaft" className="hover:text-primary transition-colors">{t('partners')}</Link></li>
+              <li><Link href="/projektanfrage" className="hover:text-primary transition-colors">{t('quote')}</Link></li>
+            </ul>
           </div>
 
           {/* Products */}

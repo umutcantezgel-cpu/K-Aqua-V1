@@ -135,7 +135,10 @@
       "partners": "K-Aqua Partner Network",
       "trust": "K-Aqua Trust Center",
       "sitemap": "Sitemap (HTML)",
-      "cookieSettings": "Privacy settings"
+      "cookieSettings": "Privacy settings",
+      "downloads": "Download Centre",
+      "bim": "BIM Data & IFC",
+      "technik": "Technical Handbook"
     }
   },
   "catalogx": {
@@ -1530,7 +1533,17 @@
       "contactDesc": "Speak with our engineers",
       "quoteDesc": "Request a tailored project proposal",
       "imprintDesc": "Legal details and provider identification",
-      "privacyDesc": "Personal data protection policy"
+      "privacyDesc": "Personal data protection policy",
+      "downloads": "Download Centre",
+      "downloadsDesc": "Catalogues, data sheets and certificates as PDF",
+      "bim": "BIM Data",
+      "bimDesc": "IFC 4, Revit type catalogue, CSV and JSON",
+      "technik": "Technical Handbook",
+      "technikDesc": "Sizing, installation and welding parameters",
+      "specs": "Specification Texts",
+      "specsDesc": "Ready-made tender texts to copy across",
+      "supportRes": "Technical Support",
+      "supportResDesc": "Advice on planning, material and processing"
     },
     "home": "Home",
     "products": "Products",

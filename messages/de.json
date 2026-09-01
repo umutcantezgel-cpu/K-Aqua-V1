@@ -135,7 +135,10 @@
       "partners": "K-Aqua Partnernetzwerk",
       "trust": "K-Aqua Trust Center",
       "sitemap": "Sitemap (HTML)",
-      "cookieSettings": "Datenschutz-Einstellungen"
+      "cookieSettings": "Datenschutz-Einstellungen",
+      "downloads": "Download-Center",
+      "bim": "BIM-Daten & IFC",
+      "technik": "Technisches Handbuch"
     }
   },
   "catalogx": {
@@ -1530,7 +1533,17 @@
       "contactDesc": "Sprechen Sie mit unserem Fachteam",
       "quoteDesc": "Unverbindliches Projektangebot anfragen",
       "imprintDesc": "Rechtliche Unternehmensinformationen",
-      "privacyDesc": "Richtlinien zur Datenverarbeitung"
+      "privacyDesc": "Richtlinien zur Datenverarbeitung",
+      "downloads": "Download-Center",
+      "downloadsDesc": "Kataloge, Datenblätter und Zertifikate als PDF",
+      "bim": "BIM-Daten",
+      "bimDesc": "IFC 4, Revit-Typenkatalog, CSV und JSON",
+      "technik": "Technisches Handbuch",
+      "technikDesc": "Auslegung, Verlegung und Schweißparameter",
+      "specs": "Ausschreibungstexte",
+      "specsDesc": "Fertige Leistungsverzeichnisse zum Übernehmen",
+      "supportRes": "Technischer Support",
+      "supportResDesc": "Beratung zu Planung, Material und Verarbeitung"
     },
     "home": "Start",
     "products": "Produkte",

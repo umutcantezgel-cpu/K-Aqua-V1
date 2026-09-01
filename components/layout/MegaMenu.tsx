@@ -24,7 +24,10 @@ import {
   Newspaper,
   Phone,
   LucideIcon,
-  MessageSquare
+  MessageSquare,
+  Download,
+  Layers,
+  BookOpen
 } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 
@@ -50,6 +53,11 @@ const ICON_MAP: Record<string, LucideIcon> = {
   career: Users,
   news: Newspaper,
   contact: Phone,
+  downloads: Download,
+  bim: Layers,
+  technik: BookOpen,
+  specs: FileText,
+  supportRes: MessageSquare,
 };
 
 const MEGA_LAYOUT = [
@@ -76,6 +84,17 @@ const MEGA_LAYOUT = [
       { id: 'trust', href: '/trust-center', titleKey: 'trust', descKey: 'mega.trustDesc' },
       { id: 'service', href: '/service', titleKey: 'service', descKey: 'mega.serviceDesc' },
       { id: 'partner', href: '/partnerschaft', titleKey: 'partners', descKey: 'mega.partnersDesc' },
+      /* Die fuenf /ressourcen-Seiten standen in diesem Menue mit KEINEM
+         Eintrag — auch nicht Download-Center und BIM-Portal, die beiden
+         inhaltlich staerksten Seiten der Website. Erreichbar waren sie nur
+         ueber die XML-Sitemap, die Suche und vereinzelte Querlinks; der Footer
+         fuehrte zwei von fuenf. Diese Gruppe heisst „Wissen & Ressourcen" —
+         hierher gehoeren sie. */
+      { id: 'downloads', href: '/ressourcen/downloads', titleKey: 'mega.downloads', descKey: 'mega.downloadsDesc' },
+      { id: 'bim', href: '/ressourcen/bim', titleKey: 'mega.bim', descKey: 'mega.bimDesc' },
+      { id: 'technik', href: '/ressourcen/technik', titleKey: 'mega.technik', descKey: 'mega.technikDesc' },
+      { id: 'specs', href: '/ressourcen/ausschreibungstexte', titleKey: 'mega.specs', descKey: 'mega.specsDesc' },
+      { id: 'supportRes', href: '/ressourcen/support', titleKey: 'mega.supportRes', descKey: 'mega.supportResDesc' },
     ],
   },
   {

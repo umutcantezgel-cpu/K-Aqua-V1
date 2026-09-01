@@ -35,6 +35,12 @@ const sitemapGroups = [
     links: [
       { href: '/academy', labelId: 'overview' },
       { href: '/co2-rechner', labelId: 'co2_calc' },
+      // Download-Center, BIM-Portal und Technikhandbuch standen weder hier noch
+      // im Hauptmenue — drei von fuenf /ressourcen-Seiten waren ueber die
+      // Navigation nicht erreichbar.
+      { href: '/ressourcen/downloads', labelId: 'downloads' },
+      { href: '/ressourcen/bim', labelId: 'bim' },
+      { href: '/ressourcen/technik', labelId: 'technik' },
       { href: '/ressourcen/ausschreibungstexte', labelId: 'specifications' },
       { href: '/referenzen', labelId: 'references' },
       { href: '/ressourcen/support', labelId: 'support' },
