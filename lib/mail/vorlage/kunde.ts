@@ -114,7 +114,7 @@ export function baueKundenbestaetigung(
 
   const zeilenHtml = [
     kopfbalken(k, {
-      logoUrl: `${basis}/mail/logo-weiss.png`,
+      logoUrl: `${basis}/mail/logo-dunkel.png`,
       unterzeile: t.gemeinsam.kopfEingang,
     }),
 

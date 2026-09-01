@@ -87,17 +87,53 @@ export function vorschautext(text: string): string {
  * steht.
  */
 export function kopfbalken(k: Satzkontext, opt: { logoUrl: string; unterzeile: string }): string {
+  /* ZWEI ZEILEN, nicht eine — und das ist eine Korrektur aus der Vorschau.
+   *
+   * Zuerst stand das Logo direkt auf dem Markenbalken. Dafuer braeuchte es
+   * eine weisse Fassung, und die laesst sich aus dieser Vorlage nicht sauber
+   * gewinnen: Die Bildmarke ist ein Quadrat in Schriftgrau mit einem
+   * violetten K darauf. Faerbt man beides weiss, verschwindet das K im
+   * Quadrat; laesst man das K violett, verschwindet es auf dem violetten
+   * Grund. Ein echter Knockout muesste das K als Loch stanzen, und dafuer
+   * fehlt der Vektorquelle die Trennung — Quadrat und Wortmarke teilen sich
+   * dieselbe Farbe.
+   *
+   * Statt die Marke zu vereinfachen, bekommt sie ihre eigene Flaeche: weisses
+   * Feld mit dem Logo in Originalfarben, darunter der Markenbalken mit der
+   * Bezugszeile. Das ist zugleich robuster — auf Weiss ist das Logo in jedem
+   * Programm und in jedem Dunkelmodus lesbar. */
   return `
 <tr>
-  <td align="center" bgcolor="${FARBE.marke}" style="background-color:${FARBE.marke};background-image:linear-gradient(135deg,${FARBE.marke} 0%,#0081A5 100%);padding:${ABSTAND.lg}px ${BREITE.innenrand}px;">
+  <td align="center" bgcolor="${FARBE.karte}" style="background-color:${FARBE.karte};padding:${ABSTAND.lg}px ${BREITE.innenrand}px ${ABSTAND.md}px;">
     <!-- Der alt-Text ist absichtlich kurz.
-         Er ist das, was die Mehrheit der Empfaenger im Kopf SIEHT, weil
-         Outlook und viele Firmenclients Bilder blockieren. "K-Aqua – KWT
-         GmbH" brach dort auf zwei Zeilen um und zog ein Platzhaltersymbol
-         hinter sich her; der Markenname allein steht sauber auf der Flaeche. -->
-    <img src="${esc(opt.logoUrl)}" width="180" height="56" alt="K-Aqua"
-         style="display:block;border:0;outline:none;text-decoration:none;width:180px;height:56px;color:${FARBE.aufMarke};font-family:${familie(k)};font-size:${SCHRIFT.lead}px;font-weight:700;" />
-    <p style="margin:${ABSTAND.sm}px 0 0;font-family:${familie(k)};font-size:${SCHRIFT.zweit}px;line-height:${ZEILE.eng};color:#E9DCF5;letter-spacing:0.08em;text-transform:uppercase;">${esc(opt.unterzeile)}</p>
+         Er ist das, was ein Teil der Empfaenger hier SIEHT, weil Outlook und
+         viele Firmenclients Bilder blockieren. "K-Aqua – KWT GmbH" brach
+         dort auf zwei Zeilen um; der Markenname allein steht sauber. -->
+    <img src="${esc(opt.logoUrl)}" width="180" height="57" alt="K-Aqua"
+         style="display:block;border:0;outline:none;text-decoration:none;width:180px;height:57px;color:${FARBE.marke};font-family:${familie(k)};font-size:${SCHRIFT.h2}px;font-weight:700;" />
+  </td>
+</tr>
+<tr>
+  <td align="center" bgcolor="${FARBE.marke}" style="background-color:${FARBE.marke};background-image:linear-gradient(135deg,${FARBE.marke} 0%,#0081A5 100%);padding:${ABSTAND.sm}px ${BREITE.innenrand}px;">
+    <p style="margin:0;font-family:${familie(k)};font-size:${SCHRIFT.zweit}px;line-height:${ZEILE.eng};color:${FARBE.aufMarke};letter-spacing:0.1em;text-transform:uppercase;font-weight:600;">${esc(opt.unterzeile)}</p>
+  </td>
+</tr>`;
+}
+
+/**
+ * Kopfbalken ohne Bild — für die internen Mails.
+ *
+ * Sie gehen an den eigenen Vertrieb und die eigene Personalabteilung. Ein
+ * Logo, das dort erst nach einem Klick auf „Bilder laden" erscheint, hilft
+ * niemandem; der Titel sagt in derselben Zeile mehr. Und ein `<img>` mit
+ * leerem `src`, nur damit der Baustein wiederverwendbar bleibt, fordert in
+ * manchen Programmen einen Abruf der Seite selbst an.
+ */
+export function kopfbalkenText(k: Satzkontext, titel: string): string {
+  return `
+<tr>
+  <td align="center" bgcolor="${FARBE.marke}" style="background-color:${FARBE.marke};padding:${ABSTAND.md}px ${BREITE.innenrand}px;">
+    <p style="margin:0;font-family:${familie(k)};font-size:${SCHRIFT.lead}px;line-height:${ZEILE.eng};font-weight:700;color:${FARBE.aufMarke};">${esc(titel)}</p>
   </td>
 </tr>`;
 }

@@ -136,6 +136,106 @@ describe('Zustellung', () => {
   });
 });
 
+describe('Eingangsbestaetigung an den Bewerber', () => {
+  it('geht an den Bewerber, mit der Personaladresse als Antwortadresse', async () => {
+    await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+
+    const [intern, quittung] = sendMailMock.mock.calls.map((c) => c[0]);
+    expect(intern?.to).toEqual(['jobs@k-aqua.de']);
+    expect(quittung?.to).toEqual(['erika@beispiel.de']);
+    expect(quittung?.replyTo).toBe('jobs@k-aqua.de');
+  });
+
+  /* Der Lebenslauf geht an die Personalabteilung, nicht zurueck an den
+     Absender -- der hat ihn ja. */
+  it('haengt der Bestaetigung den Lebenslauf NICHT wieder an', async () => {
+    await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+    const quittung = sendMailMock.mock.calls[1]?.[0];
+    expect(quittung?.attachments).toBeUndefined();
+  });
+
+  /* Wer eine Bewerbung abschickt, hat genau eine Sorge: ob die Datei
+     wirklich angekommen ist. "Unterlagen erhalten" beantwortet das nicht. */
+  it('nennt Dateiname und Groesse des hochgeladenen Lebenslaufs', async () => {
+    await POST(anfrage({}, datei('Lebenslauf_Mustermann.pdf', 'application/pdf', 348_000)));
+    const html = sendMailMock.mock.calls[1]?.[0]?.html ?? '';
+    expect(html).toContain('Lebenslauf_Mustermann.pdf');
+    expect(html).toContain('340 kB');
+  });
+
+  it('nennt den Baukasten, wenn keine Datei kam', async () => {
+    await POST(
+      anfrage({
+        experience: JSON.stringify([{ role: 'Monteur', company: 'A', from: '1', to: '2' }]),
+        education: JSON.stringify([{ degree: 'D', school: 'S', from: '1', to: '2' }]),
+      })
+    );
+    expect(sendMailMock.mock.calls[1]?.[0]?.html).toContain('Baukasten');
+  });
+
+  /* Das Bewerberportal duzt durchgaengig, und diese Mail kommt Sekunden nach
+     dem Klick auf "Absenden". Ein Wechsel ins Sie wuerde befremden. */
+  it('duzt den Bewerber', async () => {
+    await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+    const html = sendMailMock.mock.calls[1]?.[0]?.html ?? '';
+    expect(html).toContain('Hallo Erika');
+    expect(html).toContain('deine Bewerbung');
+  });
+
+  /* Fuer Bewerbungen macht die Website nirgends eine Zusage zur Antwortzeit.
+     Eine hier erfundene Frist waere nicht abgestimmt. */
+  it('nennt keine erfundene Antwortfrist', async () => {
+    await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+    const html = sendMailMock.mock.calls[1]?.[0]?.html ?? '';
+    expect(html).not.toContain('24 Stunden');
+    expect(html).not.toContain('Arbeitstag');
+  });
+
+  it('schreibt in der Sprache, in der das Portal gelesen wurde', async () => {
+    await POST(anfrage({ locale: 'en' }, datei('cv.pdf', 'application/pdf')));
+    expect(sendMailMock.mock.calls[1]?.[0]?.html).toContain('lang="en"');
+  });
+
+  it('traegt die Pflichtangaben nach § 35a GmbHG', async () => {
+    await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+    const html = sendMailMock.mock.calls[1]?.[0]?.html ?? '';
+    for (const p of ['KWT GmbH', 'HRB 6732', 'Philipp Nickel', 'Marcello Gallio']) {
+      expect(html, p).toContain(p);
+    }
+  });
+
+  /* Die Bewerbung ist wichtiger als die Quittung. */
+  it('meldet Erfolg, auch wenn nur die Bestaetigung scheitert', async () => {
+    sendMailMock
+      .mockResolvedValueOnce({ ok: true, channel: 'resend', id: 'e_intern' })
+      .mockResolvedValueOnce({
+        ok: false, channel: 'resend', reason: 'recipient', detail: 'Adresse existiert nicht',
+      });
+
+    const a = await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+    expect(a.status).toBe(200);
+  });
+
+  it('ueberlebt es, wenn der Bestaetigungsversand wirft', async () => {
+    sendMailMock
+      .mockResolvedValueOnce({ ok: true, channel: 'resend', id: 'e_intern' })
+      .mockRejectedValueOnce(new Error('unerwartet'));
+
+    const a = await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+    expect(a.status).toBe(200);
+  });
+
+  it('schickt keine Bestaetigung, wenn schon die Bewerbung nicht ankam', async () => {
+    sendMailMock.mockResolvedValue({
+      ok: false, channel: 'none', reason: 'not-configured', detail: 'nichts konfiguriert',
+    });
+    await POST(anfrage({}, datei('cv.pdf', 'application/pdf')));
+    // Nur der eine gescheiterte Versuch — keine Quittung fuer etwas, das
+    // nicht angekommen ist.
+    expect(sendMailMock).toHaveBeenCalledTimes(1);
+  });
+});
+
 describe('Lebenslauf-Baukasten', () => {
   it('nimmt Berufserfahrung und Ausbildung ohne Datei an', async () => {
     const a = await POST(

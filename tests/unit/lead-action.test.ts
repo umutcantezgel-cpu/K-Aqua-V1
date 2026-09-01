@@ -137,7 +137,9 @@ describe('submitLead — Spamschutz markiert statt zu verwerfen', () => {
     expect(sendMailMock).toHaveBeenCalledTimes(2);
     const n = sendMailMock.mock.calls[0]?.[0];
     expect(n?.subject).toContain('[PRUEFEN]');
-    expect(n?.html).toContain('Auffaelligkeit');
+    // Der Hinweistext steht jetzt in lib/mail/texte/de.ts und ist korrekt
+    // deutsch gesetzt — der alte Rumpf schrieb "Auffaelligkeit" in ASCII.
+    expect(n?.html).toContain('Auffälligkeit');
     expect(n?.html).toContain('300 ms');
   });
 

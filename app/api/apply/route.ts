@@ -3,6 +3,9 @@ import { sendMail } from "@/lib/mail/send";
 import { resolveEmpfaenger } from "@/lib/mail/config";
 import { esc, bereinigeDateiname } from "@/lib/mail/html";
 import type { MailAttachment } from "@/lib/mail/types";
+import { spracheDerAnfrage } from "@/lib/mail/sprache";
+import { baueBewerbungsbestaetigung } from "@/lib/mail/vorlage/bewerber";
+import { getBaseUrl } from "@/lib/env";
 
 /**
  * Nimmt Bewerbungen aus dem Bewerberportal entgegen.
@@ -97,8 +100,20 @@ export async function POST(req: Request) {
     const educationRaw = formData.get("education") as string | null;
     const skills = formData.get("skills") as string | null;
 
+    /* Die Sprache fuer die Bestaetigung.
+       Hier gibt es KEINEN referer-Rueckfall wie beim Lead: `/api` ist in
+       middleware.ts vom next-intl-Matcher ausgenommen, es kommen also gar
+       keine Sprachhinweise an. Das Feld aus dem Formular ist die einzige
+       Quelle — sonst Deutsch. */
+    const sprache = spracheDerAnfrage(formData.get("locale"), null);
+
     const attachments: MailAttachment[] = [];
     let builderHtml = "";
+    /* Fuer die Bestaetigung: Was der Bewerber geschickt hat, wird ihm genannt.
+       Wer eine Bewerbung abschickt, hat genau eine Sorge -- ob die Datei
+       wirklich angekommen ist. */
+    let cvDateiname: string | undefined;
+    let cvGroesse: number | undefined;
 
     if (cv && typeof cv.size === "number" && cv.size > 0) {
       if (cv.size > MAX_FILE_SIZE) {
@@ -119,6 +134,8 @@ export async function POST(req: Request) {
         contentBase64: roh.toString("base64"),
         contentType,
       });
+      cvDateiname = bereinigeDateiname(cv.name);
+      cvGroesse = cv.size;
     } else if (experienceRaw && educationRaw) {
       try {
         const experience: unknown = JSON.parse(experienceRaw);
@@ -165,6 +182,50 @@ export async function POST(req: Request) {
          seinen Lebenslauf hoch, las „gesendet", und niemand erfuhr davon. */
       console.error("Bewerbung konnte nicht zugestellt werden:", ergebnis.detail);
       return NextResponse.json({ success: false, error: "send-failed" }, { status: 502 });
+    }
+
+    /* Die Eingangsbestaetigung an den Bewerber.
+     *
+     * Erst NACH der Zustellung an die Personalabteilung und in einem eigenen
+     * try/catch: Die Bewerbung ist wichtiger als die Quittung. Scheitert die
+     * Bestaetigung, hat der Bewerber trotzdem eine erfolgreich zugestellte
+     * Bewerbung — ihm dafuer einen Fehler zu zeigen waere schlicht falsch.
+     *
+     * OHNE ANHANG: Der Lebenslauf geht an die Personalabteilung, nicht zurueck
+     * an den Absender. Er hat ihn ja.
+     */
+    try {
+      const bestaetigung = baueBewerbungsbestaetigung(
+        {
+          jobId,
+          firstName,
+          lastName,
+          email,
+          ...(phone ? { phone } : {}),
+          ...(startDate ? { startDate } : {}),
+          ...(cvDateiname ? { cvDateiname } : {}),
+          ...(typeof cvGroesse === "number" ? { cvGroesse } : {}),
+        },
+        sprache,
+        getBaseUrl()
+      );
+      const quittung = await sendMail({
+        to: [email],
+        replyTo: resolveEmpfaenger("jobs")[0] ?? "jobs@k-aqua.de",
+        subject: bestaetigung.subject,
+        html: bestaetigung.html,
+        text: bestaetigung.text,
+      });
+      if (!quittung.ok) {
+        console.error(
+          `Eingangsbestaetigung an den Bewerber nicht zugestellt (die Bewerbung selbst ist angekommen): ${quittung.detail}`
+        );
+      }
+    } catch (fehler) {
+      console.error(
+        "Eingangsbestaetigung an den Bewerber fehlgeschlagen (die Bewerbung selbst ist angekommen)",
+        fehler
+      );
     }
 
     return NextResponse.json({ success: true });

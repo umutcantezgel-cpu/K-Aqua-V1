@@ -2,7 +2,7 @@
 import { headers } from "next/headers";
 import { sendMail } from "@/lib/mail/send";
 import { resolveEmpfaenger } from "@/lib/mail/config";
-import { leadBetreff, leadRumpf, type LeadDaten } from "@/lib/mail/lead-message";
+import { leadBetreff, leadRumpf, leadKlartext, type LeadDaten } from "@/lib/mail/lead-message";
 import { bewerteLead, leseDauer } from "@/lib/mail/spam";
 import { spracheDerAnfrage } from "@/lib/mail/sprache";
 import { baueKundenbestaetigung } from "@/lib/mail/vorlage/kunde";
@@ -110,6 +110,7 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
     replyTo: email,
     subject: leadBetreff(daten, urteil),
     html: leadRumpf(daten, urteil),
+    text: leadKlartext(daten, urteil),
   });
 
   /* Die Eingangsbestaetigung an den Kunden.
