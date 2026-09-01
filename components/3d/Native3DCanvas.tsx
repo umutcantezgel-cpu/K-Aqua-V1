@@ -117,6 +117,27 @@ export default function Native3DCanvas({
   const animFrameIdRef = useRef<number | null>(null);
   const clipPlaneRef = useRef<THREE.Plane>(new THREE.Plane(new THREE.Vector3(0, 0, -1), 0));
   const activeProductModuleRef = useRef<any>(null);
+
+  /* Merkt, dass die Grafikausgabe selbst ausgefallen ist.
+   *
+   * Warum ein Ref und nicht der `error`-Zustand allein: der Ladeeffekt weiter
+   * unten beginnt jeden Lauf mit `setError(null)` — er raeumt die Anzeige auf,
+   * bevor er ein Modul holt. Ein im Aufbaueffekt gesetzter Fehler waere damit
+   * sofort wieder weg, und weil das Modul selbst problemlos laedt (dafuer
+   * braucht es kein WebGL), endete alles bei `error: null, loading: false`:
+   * kein Modell, keine Ladeanzeige, keine Meldung — ein stummer leerer Kasten.
+   * Genau das war zu sehen. Ein Ref ueberlebt den Aufraeumschritt. */
+  const grafikAusgefallenRef = useRef(false);
+
+  /* Der Wiederaufbau nach einer Kontextrueckkehr, immer auf dem neuesten Stand.
+   *
+   * Der Aufbaueffekt laeuft einmal; sein Zuhoerer fuer `webglcontextrestored`
+   * lebt danach weiter. Griffe er direkt auf `selectedSize` und `isSection`
+   * zu, haette er die Werte vom Zeitpunkt des Effektlaufs eingeschlossen —
+   * nach einem Groessenwechsel wuerde also die ALTE Nennweite wieder
+   * aufgebaut. Der Verweis wird bei jeder Aenderung nachgezogen; der Zuhoerer
+   * ruft nur ihn. */
+  const neuAufbauenRef = useRef<() => void>(() => {});
   const currentAssemblyRef = useRef<any>(null);
 
   // States
@@ -162,13 +183,52 @@ export default function Native3DCanvas({
     camera.position.set(0.2, 0.18, 0.28);
     cameraRef.current = camera;
 
-    // 3. Renderer with ACES Filmic Tone Mapping and Local Clipping
-    const renderer = new THREE.WebGLRenderer({
-      canvas,
-      antialias: true,
-      alpha: true,
-      powerPreference: 'high-performance',
-    });
+    /* 3. Renderer.
+     *
+     * WARUM HIER GEPRUEFT WIRD. three.js verlangt seit r163 WebGL 2; die
+     * Unterstuetzung fuer WebGL 1 ist entfernt. Fehlt sie auf dem Geraet,
+     * wirft `new THREE.WebGLRenderer(...)` — und zwar mitten in diesem
+     * Effekt. Ohne Absicherung bricht er an dieser Stelle ab: es entstehen
+     * keine Steuerung, keine Animationsschleife und kein Modell-Ladevorgang.
+     * `loading` bliebe damit fuer immer `true` und `error` leer, und der
+     * Besucher saehe dauerhaft einen leeren Kasten mit Ladeanzeige — ohne
+     * jeden Hinweis, woran es liegt.
+     *
+     * Genau so trat es auf: auf dem Notebook lief die Ansicht, auf einem
+     * Surface und auf Mobilgeraeten nicht. Solche Geraete melden haeufig gar
+     * kein WebGL 2 — bei abgeschalteter Hardwarebeschleunigung, unter
+     * strengen Datenschutzeinstellungen, im Energiesparmodus oder schlicht,
+     * weil zu viele WebGL-Kontexte offen sind.
+     *
+     * Jetzt wird geprueft und gefangen. Faellt es aus, greift die schon
+     * vorhandene Fehleranzeige weiter unten: sie nennt das Modell als nicht
+     * verfuegbar und verweist auf die Maßtabelle, die ohnehin auf der Seite
+     * steht. Das ist die ehrliche Auskunft statt einer ewigen Ladeanzeige.
+     */
+    const kannWebGl2 = (() => {
+      try {
+        return !!document.createElement('canvas').getContext('webgl2');
+      } catch {
+        return false;
+      }
+    })();
+
+    let renderer: THREE.WebGLRenderer;
+    try {
+      if (!kannWebGl2) throw new Error('WebGL 2 nicht verfügbar');
+      renderer = new THREE.WebGLRenderer({
+        canvas,
+        antialias: true,
+        alpha: true,
+        powerPreference: 'high-performance',
+      });
+      grafikAusgefallenRef.current = false;
+    } catch {
+      grafikAusgefallenRef.current = true;
+      setError('WebGL 2');
+      setLoading(false);
+      return;
+    }
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.setSize(width, height);
     renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -247,6 +307,39 @@ export default function Native3DCanvas({
        etwas zeigt statt einer leeren Flaeche. */
     renderer.render(scene, camera);
 
+    /* Verlust des Grafikkontexts abfangen.
+     *
+     * Der zweite Weg, auf dem die Ansicht auf Mobilgeraeten verschwindet.
+     * Der Browser zieht einer Seite den WebGL-Kontext weg, wenn der Speicher
+     * knapp wird oder zu viele Kontexte offen sind — auf Telefonen und
+     * Tablets deutlich frueher als auf einem Notebook. Die schwersten
+     * Modelle hier haben bis zu 190 000 Dreiecke.
+     *
+     * Ohne Behandlung passiert dann nichts Sichtbares: die Leinwand bleibt
+     * beim letzten Bild stehen oder wird weiss, die Animationsschleife laeuft
+     * ins Leere weiter. `preventDefault()` ist Vorschrift, sonst versucht der
+     * Browser keine Wiederherstellung. Bekommt er den Kontext zurueck, wird
+     * das Modell neu gebaut; bleibt er weg, erscheint die Fehleranzeige. */
+    const aufKontextVerlust = (e: Event) => {
+      e.preventDefault();
+      isRunning = false;
+      if (animFrameIdRef.current) {
+        cancelAnimationFrame(animFrameIdRef.current);
+        animFrameIdRef.current = null;
+      }
+      grafikAusgefallenRef.current = true;
+      setError('WebGL');
+      setLoading(false);
+    };
+    const aufKontextRueckkehr = () => {
+      grafikAusgefallenRef.current = false;
+      setError(null);
+      neuAufbauenRef.current();
+      laufZustandPruefen();
+    };
+    canvas.addEventListener('webglcontextlost', aufKontextVerlust, false);
+    canvas.addEventListener('webglcontextrestored', aufKontextRueckkehr, false);
+
     const sichtbarkeit = new IntersectionObserver(
       (eintraege) => {
         imBild = eintraege.some((e) => e.isIntersecting);
@@ -280,6 +373,8 @@ export default function Native3DCanvas({
       if (animFrameIdRef.current) cancelAnimationFrame(animFrameIdRef.current);
       sichtbarkeit.disconnect();
       document.removeEventListener('visibilitychange', aufTabWechsel);
+      canvas.removeEventListener('webglcontextlost', aufKontextVerlust);
+      canvas.removeEventListener('webglcontextrestored', aufKontextRueckkehr);
       resizeObserver.disconnect();
       controls.dispose();
       // `scene.clear()` trennt die Kinder nur vom Baum — Geometrien, Materialien
@@ -383,9 +478,30 @@ export default function Native3DCanvas({
     []
   );
 
+  /* Haelt den Wiederaufbau-Verweis auf dem Stand der aktuellen Anzeige.
+     Siehe die Begruendung bei `neuAufbauenRef` weiter oben. */
+  useEffect(() => {
+    neuAufbauenRef.current = () => {
+      if (activeProductModuleRef.current) {
+        buildCurrentModel(activeProductModuleRef.current, selectedSize, isSection);
+      }
+    };
+  }, [buildCurrentModel, selectedSize, isSection]);
+
   // Fetch and Mount Product Module
   useEffect(() => {
     let cancelled = false;
+
+    /* Ist die Grafikausgabe ausgefallen, gibt es nichts zu laden: das Modul
+       wuerde zwar kommen, aber es waere nichts da, was es zeichnen koennte.
+       Die Meldung bleibt stehen, statt vom Aufraeumschritt darunter geloescht
+       zu werden. */
+    if (grafikAusgefallenRef.current) {
+      setError('WebGL 2');
+      setLoading(false);
+      return;
+    }
+
     setLoading(true);
     setError(null);
 
