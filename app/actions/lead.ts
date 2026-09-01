@@ -4,6 +4,9 @@ import { sendMail } from "@/lib/mail/send";
 import { resolveEmpfaenger } from "@/lib/mail/config";
 import { leadBetreff, leadRumpf, type LeadDaten } from "@/lib/mail/lead-message";
 import { bewerteLead, leseDauer } from "@/lib/mail/spam";
+import { spracheDerAnfrage } from "@/lib/mail/sprache";
+import { baueKundenbestaetigung } from "@/lib/mail/vorlage/kunde";
+import { getBaseUrl } from "@/lib/env";
 
 export interface LeadResult { ok: boolean; error?: string }
 
@@ -61,6 +64,14 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
 
   const phone = cc ? `${cc} ${phoneRaw}` : phoneRaw;
   const h = await headers();
+
+  /* Die Sprache fuer die Bestaetigung an den Kunden.
+     Bevorzugt das Feld aus dem Formular; aeltere, im Browser
+     zwischengespeicherte Seiten senden es noch nicht, dann traegt der
+     `referer` die Sprache — jede Seitenadresse hat ein Sprachpraefix.
+     Ausdruecklich NICHT `accept-language`: Das ist die Browsersprache und
+     wegen `localeDetection: false` gerade nicht die gelesene Seitensprache. */
+  const sprache = spracheDerAnfrage(formData.get("locale"), h.get("referer"));
   const daten: LeadDaten = {
     phone,
     email,
@@ -100,6 +111,46 @@ export async function submitLead(formData: FormData): Promise<LeadResult> {
     subject: leadBetreff(daten, urteil),
     html: leadRumpf(daten, urteil),
   });
+
+  /* Die Eingangsbestaetigung an den Kunden.
+   *
+   * ERST NACH der internen Mail und mit eigenem try/catch: Die Anfrage ist
+   * wichtiger als die Quittung. Scheitert die Bestaetigung -- weil die
+   * angegebene Adresse gar nicht existiert, weil der Anbieter zickt --, darf
+   * das die Zustellung an den Vertrieb unter keinen Umstaenden mitreissen.
+   * Der Kunde bekaeme sonst eine Fehlermeldung, obwohl seine Anfrage laengst
+   * angekommen ist.
+   *
+   * Sie geht auch bei Spam-Verdacht raus: Das Urteil "verdaechtig" bedeutet
+   * ausdruecklich "zustellen und markieren", nicht "abweisen" -- und ein
+   * faelschlich Verdaechtigter soll seine Bestaetigung bekommen.
+   *
+   * `replyTo` auf die Vertriebsadresse: Absender ist noreply@, und eine
+   * Antwort des Kunden darauf liefe ins Leere.
+   */
+  {
+    try {
+      const bestaetigung = baueKundenbestaetigung(
+        { phone, email, interest, page, ...(name && { name }), ...(company && { company }), ...(message && { message }) },
+        sprache,
+        getBaseUrl()
+      );
+      const quittung = await sendMail({
+        to: [email],
+        replyTo: resolveEmpfaenger("leads")[0] ?? "info@k-aqua.de",
+        subject: bestaetigung.subject,
+        html: bestaetigung.html,
+        text: bestaetigung.text,
+      });
+      if (!quittung.ok) {
+        console.error(
+          `Eingangsbestaetigung an den Kunden nicht zugestellt (die Anfrage selbst ist angekommen): ${quittung.detail}`
+        );
+      }
+    } catch (fehler) {
+      console.error("Eingangsbestaetigung fehlgeschlagen (die Anfrage selbst ist angekommen)", fehler);
+    }
+  }
 
   if (ergebnis.ok || webhookOk) return { ok: true };
 

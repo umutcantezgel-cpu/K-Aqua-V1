@@ -130,7 +130,11 @@ describe('submitLead — Spamschutz markiert statt zu verwerfen', () => {
     const r = await submitLead(formular({ elapsed: '300' }));
 
     expect(r).toEqual({ ok: true });
-    expect(sendMailMock).toHaveBeenCalledTimes(1);
+    /* Zwei Mails: die interne an den Vertrieb UND die Eingangsbestaetigung
+       an den Kunden. Auch bei Verdacht -- "verdaechtig" heisst ausdruecklich
+       zustellen und markieren, und ein faelschlich Verdaechtigter soll seine
+       Quittung bekommen. */
+    expect(sendMailMock).toHaveBeenCalledTimes(2);
     const n = sendMailMock.mock.calls[0]?.[0];
     expect(n?.subject).toContain('[PRUEFEN]');
     expect(n?.html).toContain('Auffaelligkeit');
@@ -142,6 +146,69 @@ describe('submitLead — Spamschutz markiert statt zu verwerfen', () => {
     const r = await submitLead(formular({ elapsed: '' }));
     expect(r).toEqual({ ok: true });
     expect(sendMailMock.mock.calls[0]?.[0]?.subject).not.toContain('[PRUEFEN]');
+  });
+});
+
+describe('submitLead — die Eingangsbestaetigung an den Kunden', () => {
+  it('geht an den Kunden, mit der Vertriebsadresse als Antwortadresse', async () => {
+    await submitLead(formular());
+
+    const [intern, quittung] = sendMailMock.mock.calls.map((c) => c[0]);
+    // Reihenfolge zaehlt: erst der Vertrieb, dann die Quittung.
+    expect(intern?.to).toEqual(['info@k-aqua.de']);
+    expect(quittung?.to).toEqual(['kunde@beispiel.de']);
+    /* Absender ist noreply@ -- ohne diese Antwortadresse liefe die Antwort
+       des Kunden ins Leere. */
+    expect(quittung?.replyTo).toBe('info@k-aqua.de');
+  });
+
+  it('bringt eine Klartextfassung mit', async () => {
+    await submitLead(formular());
+    const quittung = sendMailMock.mock.calls[1]?.[0];
+    expect(typeof quittung?.text).toBe('string');
+    expect((quittung?.text ?? '').length).toBeGreaterThan(200);
+  });
+
+  it('schreibt sie in der Sprache, in der die Seite gelesen wurde', async () => {
+    await submitLead(formular({ locale: 'ar' }));
+    const quittung = sendMailMock.mock.calls[1]?.[0];
+    expect(quittung?.html).toContain('dir="rtl"');
+    expect(quittung?.html).toContain('lang="ar"');
+  });
+
+  it('nimmt den referer, wenn das Formular die Sprache nicht mitsendet', async () => {
+    // Aeltere, im Browser zwischengespeicherte Seiten kennen das Feld nicht.
+    // Der gemockte referer in dieser Datei zeigt auf /de/kontakt.
+    await submitLead(formular());
+    expect(sendMailMock.mock.calls[1]?.[0]?.html).toContain('lang="de"');
+  });
+
+  /* DER WICHTIGSTE FALL.
+     Die Anfrage ist wichtiger als die Quittung: Scheitert die Bestaetigung --
+     weil die angegebene Adresse gar nicht existiert, weil der Anbieter zickt
+     --, darf das die Zustellung an den Vertrieb nicht mitreissen. Der Kunde
+     bekaeme sonst eine Fehlermeldung, obwohl seine Anfrage angekommen ist. */
+  it('meldet dem Nutzer Erfolg, auch wenn nur die Quittung scheitert', async () => {
+    sendMailMock
+      .mockResolvedValueOnce({ ok: true, channel: 'resend', id: 'e_intern' })
+      .mockResolvedValueOnce({
+        ok: false, channel: 'resend', reason: 'recipient', detail: 'Adresse existiert nicht',
+      });
+
+    expect(await submitLead(formular())).toEqual({ ok: true });
+  });
+
+  it('ueberlebt es, wenn der Bestaetigungsversand wirft', async () => {
+    sendMailMock
+      .mockResolvedValueOnce({ ok: true, channel: 'resend', id: 'e_intern' })
+      .mockRejectedValueOnce(new Error('unerwartet'));
+
+    expect(await submitLead(formular())).toEqual({ ok: true });
+  });
+
+  it('schickt einem Bot keine Bestaetigung', async () => {
+    await submitLead(formular({ firma2: 'ACME GmbH' }));
+    expect(sendMailMock).not.toHaveBeenCalled();
   });
 });
 
@@ -165,7 +232,8 @@ describe('submitLead — der CRM-Webhook als zweiter Zustellweg', () => {
     vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('down')));
 
     expect(await submitLead(formular())).toEqual({ ok: true });
-    expect(sendMailMock).toHaveBeenCalledTimes(1);
+    // Interne Mail plus Eingangsbestaetigung.
+    expect(sendMailMock).toHaveBeenCalledTimes(2);
     vi.unstubAllGlobals();
   });
 });
