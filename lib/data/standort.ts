@@ -38,7 +38,23 @@ export const STANDORT = {
   support: 'support@k-aqua.de',
   web: 'https://www.k-aqua.de',
 
-  handelsregister: { gericht: 'Amtsgericht Wetzlar', nummer: 'HRB 5421' },
+  /**
+   * Handelsregister.
+   *
+   * Hier stand `HRB 5421`, und das war falsch. Der Quellenvermerk oben nennt
+   * den Herstellerkatalog — der enthält aber ueberhaupt keine Registernummer;
+   * sein Text ist auslesbar („Auweg 3", „9868-410" stehen darin), „HRB" und
+   * „Wetzlar" kommen nirgends vor. Die Zahl war also unbelegt.
+   *
+   * Richtig ist `HRB 6732`, mit drei uebereinstimmenden Belegen: dem Impressum
+   * dieser Website (`messages/{de,en,ar}.json`, `legal.impressum`) und zwei
+   * unabhaengigen Registerauskuenften, die zusaetzlich Anschrift und beide
+   * Geschaeftsfuehrer bestaetigen.
+   *
+   * Das ist keine Formalie: § 35a GmbHG verlangt die Registernummer auf jedem
+   * Geschaeftsbrief, und dazu zaehlt jede geschaeftliche E-Mail.
+   */
+  handelsregister: { gericht: 'Amtsgericht Wetzlar', nummer: 'HRB 6732' },
 
   /**
    * Werkskoordinaten. Vom Auftraggeber bestätigt: der Wert der bestehenden
