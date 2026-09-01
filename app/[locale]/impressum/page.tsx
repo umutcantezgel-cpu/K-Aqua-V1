@@ -39,8 +39,33 @@ export default async function ImpressumPage({ params }: Props) {
   const tNav = await getTranslations({ locale, namespace: "nav" });
 
   const title = t("title");
-  const sections = t.raw("sections") as { title: string; icon: string; content: string }[];
+  const alleAbschnitte = t.raw("sections") as { title: string; icon: string; content: string }[];
   const tLegal = await getTranslations({ locale, namespace: "legal" });
+
+  /* Unausgefuellte Redaktionsplatzhalter erscheinen nicht oeffentlich.
+   *
+   * `legal.impressum.sections.4.content` trug in allen drei Kernsprachen einen
+   * Platzhalter fuer den nach § 18 Abs. 2 MStV zu benennenden Verantwortlichen
+   * ("[NAME EINTRAGEN — freizugeben]" / "[ENTER NAME — pending approval]").
+   * Er wurde mitgerendert und stand damit sichtbar auf einer Rechtsseite.
+   *
+   * Welche natuerliche Person diese Verantwortung traegt, ist eine
+   * Haftungsfrage und wird vom Auftraggeber entschieden — sie laesst sich hier
+   * nicht ersatzweise setzen. Bis dahin ist es besser, den Abschnitt
+   * zurueckzuhalten als einen offenen Platzhalter zu zeigen: Rechtlich ist
+   * beides eine Luecke, oeffentlich sichtbar ist nur eine davon.
+   *
+   * Sobald der Name in den Sprachdateien steht, erscheint der Abschnitt von
+   * selbst — hier ist nichts weiter zu tun. */
+  const sections = alleAbschnitte.filter((abschnitt) => {
+    const offen = /\[[^\]]*\]/.test(abschnitt.content);
+    if (offen && process.env.NODE_ENV !== "production") {
+      console.warn(
+        `[impressum] Abschnitt "${abschnitt.title}" (${locale}) enthaelt noch einen Platzhalter und wird nicht angezeigt.`
+      );
+    }
+    return !offen;
+  });
 
   const siteUrl = getBaseUrl().replace(/\/+$/, "");
   const jsonLd = wrapGraph([
