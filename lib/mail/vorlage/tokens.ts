@@ -94,7 +94,23 @@ export const BREITE = {
  * Android skaliert Text unter 14 px eigenmächtig hoch, was Layouts zerreißt.
  */
 export const SCHRIFT = {
-  klein: 12,
+  /**
+   * Kleinste Größe — Vertrauenszeile, Hinweise.
+   *
+   * 13 px und nicht 12: Der Word-Renderer rechnet px in pt um, und 12 px sind
+   * 9 pt. Das ist an der Grenze des Lesbaren, und die Empfänger sind
+   * Einkäufer und Planer im Industriebau, im Schnitt jenseits der 45.
+   */
+  klein: 13,
+  /**
+   * Die Pflichtangaben im Fuß.
+   *
+   * Ausdrücklich GRÖSSER als der übrige Kleintext. Das Impressum einer Mail
+   * kleinzusetzen ist eine verbreitete Unsitte: Es ist der Teil, den man im
+   * Zweifel wirklich lesen muss, und WCAG kennt keine Ausnahme für
+   * Rechtstexte. 14 px sind exakt 10,5 pt.
+   */
+  fuss: 14,
   zweit: 14,
   text: 16,
   lead: 19,

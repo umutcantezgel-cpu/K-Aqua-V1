@@ -24,7 +24,8 @@
     "3d:gestalt": "node scripts/messe-gestalt.mjs",
     "verify:h1": "tsx scripts/verify-h1.ts",
     "verify:meta": "tsx scripts/verify-meta.ts",
-    "mail:selftest": "tsx scripts/mail-selftest.ts"
+    "mail:selftest": "tsx scripts/mail-selftest.ts",
+    "mail:preview": "tsx scripts/mail-preview.ts"
   },
   "dependencies": {
     "@react-three/fiber": "^9.6.1",

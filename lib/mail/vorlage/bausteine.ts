@@ -60,7 +60,12 @@ function textstil(k: Satzkontext, groesse: number = SCHRIFT.text, farbe: string 
  * Posteingang zusätzlich den Anfang des sichtbaren Textes anhängt.
  */
 export function vorschautext(text: string): string {
-  const fueller = '&#847;&zwnj;&nbsp;&#8199;&#65279;'.repeat(30);
+  /* Nur zehn Wiederholungen, nicht dreissig.
+     Die Kette schiebt den sichtbaren Text aus der Vorschauzeile — dafuer
+     reicht das. Lange Ketten aus Nullbreiten-Zeichen sind bei Spamfiltern
+     selbst ein Merkmal (Zeichenverschleierung), man kauft sich also mit
+     Uebereifer genau das Problem ein, das man vermeiden will. */
+  const fueller = '&#847;&zwnj;&nbsp;&#8199;&#65279;'.repeat(10);
   return (
     `<div style="display:none;font-size:1px;color:${FARBE.grund};line-height:1px;` +
     `max-height:0;max-width:0;opacity:0;overflow:hidden;">${esc(text)}${fueller}</div>`
@@ -85,7 +90,12 @@ export function kopfbalken(k: Satzkontext, opt: { logoUrl: string; unterzeile: s
   return `
 <tr>
   <td align="center" bgcolor="${FARBE.marke}" style="background-color:${FARBE.marke};background-image:linear-gradient(135deg,${FARBE.marke} 0%,#0081A5 100%);padding:${ABSTAND.lg}px ${BREITE.innenrand}px;">
-    <img src="${esc(opt.logoUrl)}" width="180" height="56" alt="K-Aqua &ndash; KWT GmbH"
+    <!-- Der alt-Text ist absichtlich kurz.
+         Er ist das, was die Mehrheit der Empfaenger im Kopf SIEHT, weil
+         Outlook und viele Firmenclients Bilder blockieren. "K-Aqua – KWT
+         GmbH" brach dort auf zwei Zeilen um und zog ein Platzhaltersymbol
+         hinter sich her; der Markenname allein steht sauber auf der Flaeche. -->
+    <img src="${esc(opt.logoUrl)}" width="180" height="56" alt="K-Aqua"
          style="display:block;border:0;outline:none;text-decoration:none;width:180px;height:56px;color:${FARBE.aufMarke};font-family:${familie(k)};font-size:${SCHRIFT.lead}px;font-weight:700;" />
     <p style="margin:${ABSTAND.sm}px 0 0;font-family:${familie(k)};font-size:${SCHRIFT.zweit}px;line-height:${ZEILE.eng};color:#E9DCF5;letter-spacing:0.08em;text-transform:uppercase;">${esc(opt.unterzeile)}</p>
   </td>
@@ -129,6 +139,15 @@ export interface Datenzeile {
   readonly label: string;
   /** Bereits maskierter HTML-Inhalt, z. B. ein `mailto:`-Verweis. */
   readonly wertHtml: string;
+  /**
+   * Normalgewicht statt halbfett.
+   *
+   * Kurze Werte — ein Name, eine Nummer — vertragen die Auszeichnung und
+   * gewinnen dadurch an Halt. Ein mehrzeiliger Fliesstext im selben Gewicht
+   * wirkt dagegen wie ein Schreiblaut: In der Vorschau stand die ganze
+   * Kundennachricht halbfett und erschlug alles darum.
+   */
+  readonly leicht?: boolean;
 }
 
 /**
@@ -150,7 +169,7 @@ export function datentabelle(k: Satzkontext, zeilen: readonly Datenzeile[]): str
       (z, i) => `
       <tr>
         <td width="${BREITE.spalteLabel}" style="width:${BREITE.spalteLabel}px;padding:${i === 0 ? 0 : ABSTAND.sm}px 0 0;vertical-align:top;font-family:${familie(k)};font-size:${SCHRIFT.zweit}px;line-height:${ZEILE.normal};color:${FARBE.textZweit};text-align:${anfang(k)};">${esc(z.label)}</td>
-        <td width="${BREITE.spalteWert}" style="width:${BREITE.spalteWert}px;padding:${i === 0 ? 0 : ABSTAND.sm}px 0 0;vertical-align:top;font-family:${familie(k)};font-size:${SCHRIFT.text}px;line-height:${ZEILE.normal};color:${FARBE.text};font-weight:600;text-align:${anfang(k)};">${z.wertHtml}</td>
+        <td width="${BREITE.spalteWert}" style="width:${BREITE.spalteWert}px;padding:${i === 0 ? 0 : ABSTAND.sm}px 0 0;vertical-align:top;font-family:${familie(k)};font-size:${SCHRIFT.text}px;line-height:${ZEILE.normal};color:${FARBE.text};font-weight:${z.leicht ? 400 : 600};text-align:${anfang(k)};">${z.wertHtml}</td>
       </tr>`
     )
     .join('');
@@ -179,18 +198,30 @@ export function datentabelle(k: Satzkontext, zeilen: readonly Datenzeile[]): str
  * erwarten.
  */
 export function knopf(k: Satzkontext, opt: { text: string; href: string }): string {
+  /* Die Polsterung liegt auf `border`, NICHT auf `padding`.
+   *
+   * Das sieht wie ein Kunstgriff aus und ist einer, aber ein noetiger: Der
+   * Word-Renderer in Outlook Desktop ignoriert `padding` an Inline-Elementen,
+   * setzt `border` aber um. Mit Polsterung waere die Flaeche dort zwar richtig
+   * gefaerbt, klickbar aber nur die rund 20 px hohe Textzeile in der Mitte —
+   * der Knopf saehe aus wie ein Knopf und waere keiner.
+   *
+   * `mso-padding-alt:0` verhindert, dass Outlook zusaetzlich eigene Polsterung
+   * erfindet. Die Randfarbe ist dieselbe wie die Flaeche, deshalb sieht man
+   * den Rand nicht. */
+  const rand = `14px solid ${FARBE.marke}`;
   return `
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
   <tr>
-    <td align="center" bgcolor="${FARBE.marke}" style="background-color:${FARBE.marke};border-radius:${RADIUS.knopf}px;">
-      <a href="${esc(opt.href)}" style="display:inline-block;padding:14px 28px;font-family:${familie(k)};font-size:${SCHRIFT.text}px;line-height:1;font-weight:700;color:${FARBE.aufMarke};text-decoration:none;border-radius:${RADIUS.knopf}px;">${esc(opt.text)}</a>
+    <td align="center" bgcolor="${FARBE.marke}" style="background-color:${FARBE.marke};border-radius:${RADIUS.knopf}px;mso-padding-alt:0;">
+      <a href="${esc(opt.href)}" style="display:inline-block;border-top:${rand};border-bottom:${rand};border-left:28px solid ${FARBE.marke};border-right:28px solid ${FARBE.marke};background-color:${FARBE.marke};font-family:${familie(k)};font-size:${SCHRIFT.text}px;line-height:1;font-weight:700;color:${FARBE.aufMarke};text-decoration:none;border-radius:${RADIUS.knopf}px;mso-padding-alt:0;">${esc(opt.text)}</a>
     </td>
   </tr>
 </table>`;
 }
 
 /** Waagerechte Trennlinie. `<hr>` wird von Outlook eigenwillig gerendert. */
-export function trenner(abstand = ABSTAND.lg): string {
+export function trenner(abstand: number = ABSTAND.lg): string {
   return `<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;border-collapse:collapse;">
   <tr><td style="padding:${abstand}px 0 0;"><div style="height:1px;line-height:1px;font-size:0;background-color:${FARBE.rahmen};">&nbsp;</div></td></tr>
 </table>`;
@@ -272,7 +303,7 @@ export interface Fusszeilen {
  * Abmeldelink würde sie fälschlich als solches kennzeichnen.
  */
 export function fussbereich(k: Satzkontext, z: Fusszeilen): string {
-  const zeile = (inhalt: string, farbe: string = '#B9B2C4', groesse: number = SCHRIFT.klein) =>
+  const zeile = (inhalt: string, farbe: string = '#C4BDCE', groesse: number = SCHRIFT.fuss) =>
     `<p style="margin:0 0 ${ABSTAND.xs}px;font-family:${familie(k)};font-size:${groesse}px;line-height:${ZEILE.normal};color:${farbe};text-align:${anfang(k)};">${inhalt}</p>`;
 
   return `
