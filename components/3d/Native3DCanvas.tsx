@@ -68,6 +68,49 @@ const VARIANT_LABEL: Record<string, { name: string; hex: string }> = {
   mocca: { name: 'Mocca (RAL 7032)', hex: '#B9B9A8' },
 };
 
+/* Die Linienfarbe der Bemassung.
+ *
+ * `buildDimLines` faerbt ohne Angabe in Slate-900 — auf dunklem Grund
+ * unsichtbar. Gelesen wird direkt aus dem DOM statt ueber `useTheme`, weil
+ * `buildCurrentModel` ein `useCallback([])` ist: ein Hook-Wert waere dort
+ * eingefroren. `next-themes` schreibt das Attribut auf <html>. */
+function massFarbe(): number {
+  if (typeof document === 'undefined') return 0x0f172a;
+  return document.documentElement.getAttribute('data-theme') === 'dark' ? 0xe2e8f0 : 0x0f172a;
+}
+
+/* Tiefgestellte Ziffern auf ASCII zurueckfuehren.
+ *
+ * `elbow-90-male-thread` beschriftet sein Mass mit „z₁", sein DIMENSION_KEY
+ * fuehrt aber „z1". Ohne diese Normalisierung liefe genau dort das
+ * Nachschlagen ins Leere und der Klartextname fehlte. */
+const TIEFZAHL: Record<string, string> = {
+  '₀': '0', '₁': '1', '₂': '2', '₃': '3', '₄': '4',
+  '₅': '5', '₆': '6', '₇': '7', '₈': '8', '₉': '9',
+};
+
+/** Der sprechende Name zu einem Masskuerzel, aus `product.dimensionKey`. */
+function massName(product: any, label: string): string | null {
+  const schluessel = product?.dimensionKey;
+  if (!schluessel || typeof label !== 'string') return null;
+
+  const ascii = [...label].map((c) => TIEFZAHL[c] ?? c).join('');
+  const direkt = schluessel[label] ?? schluessel[ascii];
+  if (direkt) return direkt;
+
+  /* Manche Bauteile leiten ihr Symbol aus dem Klartext ab statt umgekehrt:
+     `elbow-90` beschriftet mit `DIMENSION_KEY.leg.split(' ')[1]`, aus
+     „Schenkelmaß L" wird also das Label „L", das als Schluessel nirgends
+     steht. Diese Suche kehrt genau das um — sie vergleicht das Label mit dem
+     letzten Wort der Klartextnamen. */
+  for (const wert of Object.values(schluessel)) {
+    if (typeof wert !== 'string') continue;
+    const letztes = wert.trim().split(/\s+/).pop();
+    if (letztes === label || letztes === ascii) return wert;
+  }
+  return null;
+}
+
 export interface Native3DCanvasProps {
   productId?: string; // e.g. "fittings/socket", "pipes/k-pipe-pp-r-sdr-6", "valves/pp-r-ball-valve-ball-in-pp"
   slug?: string;
@@ -117,6 +160,38 @@ export default function Native3DCanvas({
   const animFrameIdRef = useRef<number | null>(null);
   const clipPlaneRef = useRef<THREE.Plane>(new THREE.Plane(new THREE.Vector3(0, 0, -1), 0));
   const activeProductModuleRef = useRef<any>(null);
+
+  /* Bemassung.
+   *
+   * `dimBauerRef` haelt `buildDimLines` aus dem GELADENEN Produktmodul, nicht
+   * aus einem eigenen Import. Das ist keine Bequemlichkeit, sondern Pflicht:
+   * diese Datei bindet `three` gebuendelt aus node_modules ein, die
+   * Produktmodule loesen ihr `'three'` zur Laufzeit ueber die Import-Map in
+   * app/[locale]/layout.tsx nach /kaqua-3d/vendor/three.module.js auf. Das
+   * sind zwei getrennte Bibliotheksinstanzen. Ein statischer Import von
+   * `buildDimLines` zoege eine dritte Kopie ins Bundle und liesse die
+   * `Vector3`-Objekte aus den Massangaben auf fremde Geometrieklassen
+   * treffen.
+   *
+   * `showDimensionsRef` spiegelt den Zustand, weil `buildCurrentModel` ein
+   * `useCallback([])` ist und den Zustand sonst nicht sehen kann — die Linien
+   * waeren nach jedem Groessenwechsel wieder aus, obwohl der Knopf aktiv
+   * aussieht. */
+  const dimLinesRef = useRef<{
+    group: THREE.Group;
+    entries: Array<{ label: string; value: number; unit: string }>;
+    materials: THREE.Material[];
+  } | null>(null);
+  const dimBauerRef = useRef<((specs: unknown[], opt?: unknown) => any) | null>(null);
+  const showDimensionsRef = useRef(false);
+
+  /* Der Kameraabstand aus der ERSTEN Rahmung.
+   *
+   * `handleResetCamera` hat die Huellbox bisher neu vermessen. Sobald die
+   * Massgruppe im Baum haengt, misst es sie mit — `Box3.expandByObject`
+   * prueft `visible` nicht (three.core.js) —, und „Zuruecksetzen" landete auf
+   * einem anderen Ausschnitt als die Erstansicht. */
+  const rahmenAbstandRef = useRef(0.12);
 
   /* Merkt, dass die Grafikausgabe selbst ausgefallen ist.
    *
@@ -181,9 +256,40 @@ export default function Native3DCanvas({
   const [exportOpen, setExportOpen] = useState(false);
   const [isWireframe, setIsWireframe] = useState(false);
   const [showDimensions, setShowDimensions] = useState(false);
-  const [dimensionsList, setDimensionsList] = useState<Array<{ label: string; value: number }>>([]);
+  const [dimensionsList, setDimensionsList] = useState<
+    Array<{ label: string; name: string | null; value: number | string; unit: string }>
+  >([]);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [exporting, setExporting] = useState(false);
+
+  /* Die Masslinien folgen dem Knopf. Der Ref laeuft mit, damit ein spaeterer
+     Modellaufbau den Zustand kennt (siehe `showDimensionsRef`). */
+  useEffect(() => {
+    showDimensionsRef.current = showDimensions;
+    const linien = dimLinesRef.current;
+    if (linien) linien.group.visible = showDimensions;
+  }, [showDimensions]);
+
+  /* Beim Wechsel zwischen hell und dunkel die Linienfarbe nachziehen.
+     Beobachtet wird das Attribut, das `next-themes` auf <html> schreibt —
+     ohne Abhaengigkeit vom Theme-Kontext, damit die Ansicht auch ausserhalb
+     des Providers (Tests, Einzeleinbindung) nicht bricht. */
+  useEffect(() => {
+    const nachziehen = () => {
+      const linien = dimLinesRef.current;
+      if (!linien) return;
+      const farbe = massFarbe();
+      linien.materials.forEach((m: any) => {
+        if (m.color) m.color.setHex(farbe);
+      });
+    };
+    const beobachter = new MutationObserver(nachziehen);
+    beobachter.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    });
+    return () => beobachter.disconnect();
+  }, []);
 
   // Effective product ID to load
   const effectiveId = productId || resolve3DProductId(slug || category);
@@ -431,6 +537,11 @@ export default function Native3DCanvas({
   // Load Product Geometry from Library
   const buildCurrentModel = useCallback(
     (product: any, size: number, sectionActive: boolean, variant: string | null = null) => {
+      /* Ganz vorn, VOR dem Waechter: sonst bliebe beim frueh abgebrochenen
+         Lauf die Massliste des vorigen Modells stehen und behauptete Werte,
+         die zum angezeigten Bauteil nicht gehoeren. */
+      setDimensionsList((vorher) => (vorher.length ? [] : vorher));
+
       const scene = sceneRef.current;
       const camera = cameraRef.current;
       const controls = controlsRef.current;
@@ -447,6 +558,9 @@ export default function Native3DCanvas({
           }
         });
         currentGroupRef.current = null;
+        // Die Massgruppe haengt unter `assembly.root` und wurde vom traverse
+        // oben mit freigegeben; hier nur noch die Spur loeschen.
+        dimLinesRef.current = null;
       }
 
       try {
@@ -477,25 +591,72 @@ export default function Native3DCanvas({
         // Auto-frame camera based on bounding radius
         const maxDim = Math.max(sizeVec.x, sizeVec.y, sizeVec.z);
         const distance = Math.max(0.12, maxDim * 2.8);
+        rahmenAbstandRef.current = distance;
         if (camera && controls) {
           camera.position.set(distance * 0.7, distance * 0.55, distance * 0.85);
           controls.target.set(0, 0, 0);
-          controls.minDistance = maxDim * 0.5;
+          // 0.35 statt 0.5: rund 30 % mehr Zoom nach innen. Die untere
+          // Schranke haelt Abstand zur Near-Plane 0.01, sonst schneidet die
+          // Kamera ins Bauteil.
+          controls.minDistance = Math.max(0.02, maxDim * 0.35);
           controls.maxDistance = maxDim * 8.0;
           controls.update();
         }
 
-        // Extract dimension lines
-        if (assembly.dims && Array.isArray(assembly.dims)) {
+        /* Bemassung — ERST HIER, nach der Kamerarahmung.
+         *
+         * `Box3.expandByObject` prueft `visible` nicht. Haenge ich die
+         * Massgruppe frueher ein, bestimmt sie Mittelpunkt, Zustellung und
+         * Zoomgrenzen JEDES Modells mit — auch bei abgeschalteter Bemassung.
+         *
+         * Bisher stand hier nur eine Textliste: `label` und `value` wurden
+         * uebernommen, die Punkte `a`/`b`/`off` weggeworfen. Genau die
+         * braucht `buildDimLines`, um echte Masslinien zu zeichnen. Der Knopf
+         * hiess „Bemassung" und zeichnete keine. */
+        const massAngaben: any[] = Array.isArray(assembly.dims) ? assembly.dims : [];
+        if (massAngaben.length) {
+          let eintraege: any[] = massAngaben;
+          const bauer = dimBauerRef.current;
+          if (bauer) {
+            try {
+              const linien = bauer(massAngaben, {
+                // `maxDim` steht in Metern (holder.scale 0.001), buildDimLines
+                // rechnet in Millimetern und leitet daraus die Pfeilgroesse ab.
+                scale: Math.max(20, maxDim * 1000),
+                color: massFarbe(),
+              });
+              // Der Renderer laeuft mit ACES-Tonwertabbildung und Belichtung
+              // 1.15. Die faerbt auch Linien- und Basismaterial um: die dunkle
+              // Linie laese sich ausgewaschen, die helle grau.
+              linien.materials.forEach((m: any) => {
+                m.toneMapped = false;
+              });
+              linien.group.visible = showDimensionsRef.current;
+              // An `assembly.root`, NICHT an die Szene: nur unter dem
+              // Modellhalter wird die Gruppe beim naechsten Aufbau
+              // mitfreigegeben, sonst leckt sie bei jedem Groessenwechsel.
+              assembly.root.add(linien.group);
+              dimLinesRef.current = linien;
+              eintraege = linien.entries;
+            } catch (err) {
+              // Eine fehlerhafte Massangabe darf nie das ganze Modell kosten.
+              console.error('[3D] Masslinien konnten nicht gebaut werden:', err);
+              dimLinesRef.current = null;
+            }
+          }
           setDimensionsList(
-            assembly.dims.map((d: any) => ({
-              label: d.label,
-              value: typeof d.value === 'number' ? Math.round(d.value * 10) / 10 : d.value,
+            eintraege.map((e: any) => ({
+              label: e.label,
+              name: massName(product, e.label),
+              value: typeof e.value === 'number' ? Math.round(e.value * 10) / 10 : e.value,
+              unit: e.unit ?? 'mm',
             }))
           );
         }
       } catch (err: any) {
         console.error('Error building 3D model:', err);
+        setDimensionsList([]);
+        dimLinesRef.current = null;
       }
     },
     []
@@ -646,6 +807,11 @@ export default function Native3DCanvas({
         const mod = await import(/* webpackIgnore: true */ `${basePath}/lib/index.mjs`);
         if (cancelled) return;
 
+        /* Der Masslinien-Bauer kommt aus GENAU diesem Modul — es reicht
+           `kaqua-3d-core.mjs` per `export *` durch. Damit stammen Linien und
+           Massangaben aus derselben three.js-Instanz. Siehe `dimBauerRef`. */
+        dimBauerRef.current = typeof mod.buildDimLines === 'function' ? mod.buildDimLines : null;
+
         const product = await mod.loadProduct(effectiveId);
         if (cancelled) return;
 
@@ -724,14 +890,16 @@ export default function Native3DCanvas({
     const next = !isWireframe;
     setIsWireframe(next);
     if (currentGroupRef.current) {
+      /* Die Massgruppe haengt mit unter dem Modellhalter, und die
+         Pfeilspitzen sind Meshes — `MeshBasicMaterial` nimmt `wireframe`
+         an. Ohne diesen Waechter wuerden aus den Masspfeilen Drahtkegel. */
+      const massMaterialien = new Set<unknown>(dimLinesRef.current?.materials ?? []);
       currentGroupRef.current.traverse((child: any) => {
-        if (child.material) {
-          if (Array.isArray(child.material)) {
-            child.material.forEach((m: any) => (m.wireframe = next));
-          } else {
-            child.material.wireframe = next;
-          }
-        }
+        if (!child.material) return;
+        const liste = Array.isArray(child.material) ? child.material : [child.material];
+        liste.forEach((m: any) => {
+          if (!massMaterialien.has(m)) m.wireframe = next;
+        });
       });
     }
   };
@@ -748,10 +916,12 @@ export default function Native3DCanvas({
   // Reset Camera View
   const handleResetCamera = () => {
     if (cameraRef.current && controlsRef.current && currentGroupRef.current) {
-      const box = new THREE.Box3().setFromObject(currentGroupRef.current);
-      const sizeVec = box.getSize(new THREE.Vector3());
-      const maxDim = Math.max(sizeVec.x, sizeVec.y, sizeVec.z);
-      const distance = Math.max(0.12, maxDim * 2.8);
+      /* Der Abstand aus der Erstrahmung statt einer neuen Messung. Die
+         Huellbox enthaelt inzwischen die Masslinien, und `expandByObject`
+         prueft `visible` nicht — neu gemessen laege „Zuruecksetzen" auf einem
+         anderen Ausschnitt als die Erstansicht, je nachdem ob die Bemassung
+         irgendwann einmal an war. */
+      const distance = rahmenAbstandRef.current;
       cameraRef.current.position.set(distance * 0.7, distance * 0.55, distance * 0.85);
       controlsRef.current.target.set(0, 0, 0);
       controlsRef.current.update();
@@ -899,6 +1069,10 @@ export default function Native3DCanvas({
     }
   };
 
+  /* Hat dieses Bauteil ueberhaupt Massangaben? 22 der 70 Module deklarieren
+     keine — dort bleibt der Bemassungsknopf blass statt tot. */
+  const hatBemassung = dimensionsList.length > 0;
+
   return (
     <div
       ref={containerRef}
@@ -998,24 +1172,40 @@ export default function Native3DCanvas({
             )}
           >
             <Scissors className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="hidden md:inline text-[11px]">Halbschnitt</span>
+            <span className="hidden md:inline text-[11px]">{t('section')}</span>
           </button>
 
-          {/* Dimension Lines Toggle */}
+          {/* Dimension Lines Toggle
+
+              22 der 70 Bauteile deklarieren keine Massangaben. Dort faerbte
+              sich der Knopf bisher aktiv und zeigte nichts — ohne jede
+              Rueckmeldung. Jetzt ist er blass und sagt im Titel, warum.
+
+              Bewusst `aria-disabled` statt `disabled`: ein wirklich
+              deaktivierter Knopf feuert keine Mausereignisse, dann erschiene
+              der erklaerende Titel nie. Und bewusst nicht ausgeblendet — das
+              aenderte die Breite der Werkzeugleiste und liesse sie im
+              3D-Studio bei jedem Produktwechsel springen. */}
           <button
             type="button"
-            onClick={() => setShowDimensions(!showDimensions)}
-            title={t('dimensions')}
-            aria-label={t('dimensions')}
+            onClick={() => {
+              if (hatBemassung) setShowDimensions((v) => !v);
+            }}
+            title={hatBemassung ? t('dimensions') : t('dimensionsNone')}
+            aria-label={hatBemassung ? t('dimensions') : t('dimensionsNone')}
+            aria-disabled={!hatBemassung}
+            aria-pressed={showDimensions}
             className={clsx(
-              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
-              showDimensions
-                ? 'bg-primary text-primary-foreground border-primary shadow-diffuse'
-                : 'bg-background/85 hover:bg-card border-card-border text-foreground'
+              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
+              !hatBemassung
+                ? 'bg-background/85 border-card-border text-foreground opacity-40 cursor-not-allowed'
+                : showDimensions
+                  ? 'bg-primary text-primary-foreground border-primary shadow-diffuse cursor-pointer'
+                  : 'bg-background/85 hover:bg-card border-card-border text-foreground cursor-pointer'
             )}
           >
             <Ruler className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="hidden md:inline text-[11px]">Bemaßung</span>
+            <span className="hidden md:inline text-[11px]">{t('dimensionsShort')}</span>
           </button>
 
           {/* Auto-Rotate Turntable Toggle */}
@@ -1154,17 +1344,26 @@ export default function Native3DCanvas({
         </div>
       )}
 
-      {/* Dimensions Overlay Tag Box */}
+      {/* Werte zur Bemaßung.
+          Einspaltig statt zweispaltig: die Klartextnamen aus `dimensionKey`
+          — etwa „Achse bis Gewindespitze z₁" — brachen in zwei Spalten
+          unlesbar um. Die Maßlinien selbst stehen jetzt im Modell; dieser
+          Kasten liest die Werte dazu ab. */}
       {showDimensions && dimensionsList.length > 0 && (
-        <div className="absolute top-12 sm:top-16 start-2.5 sm:start-4 z-10 p-2.5 sm:p-3 rounded-xl sm:rounded-2xl bg-card/95 backdrop-blur-md border border-card-border shadow-lg max-w-[calc(100vw-32px)] sm:max-w-xs animate-reveal">
-          <div className="text-[10px] font-mono uppercase text-primary font-bold mb-1 flex items-center gap-1">
-            <Ruler className="w-3 h-3" /> CAD-Bemaßung (mm)
+        <div className="absolute top-12 sm:top-16 start-2.5 sm:start-4 z-10 p-2.5 sm:p-3 rounded-xl sm:rounded-2xl bg-card/95 backdrop-blur-md border border-card-border shadow-lg max-w-[calc(100vw-32px)] sm:max-w-[19rem] animate-reveal">
+          <div className="text-[10px] font-mono uppercase text-primary font-bold mb-1.5 flex items-center gap-1">
+            <Ruler className="w-3 h-3" /> {t('dimensions')}
           </div>
-          <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+          <div className="flex flex-col gap-y-1 text-xs">
             {dimensionsList.map((dim, idx) => (
-              <div key={idx} className="flex items-center justify-between font-mono">
-                <span className="text-muted-foreground text-[11px]">{dim.label}:</span>
-                <span className="font-bold text-foreground">{dim.value} mm</span>
+              <div key={idx} className="flex items-baseline justify-between gap-3">
+                <span className="text-muted-foreground text-[11px] min-w-0">
+                  <span className="font-mono text-foreground">{dim.label}</span>
+                  {dim.name ? ` · ${dim.name}` : null}
+                </span>
+                <span className="font-mono font-bold text-foreground shrink-0 tabular-nums">
+                  {dim.value} {dim.unit}
+                </span>
               </div>
             ))}
           </div>
