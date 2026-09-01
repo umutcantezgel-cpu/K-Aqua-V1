@@ -50,7 +50,11 @@ const COL: Record<Lang, { type: string; colour: string; source: string }> = {
  */
 function stripeSwatch(colour: string): { base: string; stripe: string | null } | null {
   const c = colour.toLowerCase();
-  const base = c.includes('purple') ? '#7A3FA0' : c.includes('black') ? '#1B1B1B' : '#2E9E4F';
+  /* Das Grün ist dasselbe wie im 3D-Modell (lib/3d/variants.ts, dort aus 14
+     Herstelleraufnahmen gemessen). Es stand hier mit #2E9E4F etwas anders —
+     zwei Grüntöne für dieselbe Sache. Violett und Schwarz bleiben, wie sie
+     sind: die kennzeichnen Rohrtypen, nicht die vier Lieferfarben. */
+  const base = c.includes('purple') ? '#7A3FA0' : c.includes('black') ? '#1B1B1B' : '#32A175';
   if (c.includes('blue stripe')) return { base, stripe: '#1E77D3' };
   if (c.includes('red stripe')) return { base, stripe: '#D33A2E' };
   if (c.includes('grey stripe') || c.includes('gray stripe')) return { base, stripe: '#8A8F94' };
