@@ -3,7 +3,7 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/lib/i18n/navigation";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -13,6 +13,12 @@ import { UploadCloud, CheckCircle2, Briefcase, GraduationCap, ChevronRight, Arro
 
 export default function ApplicationPortal() {
   const t = useTranslations("application");
+  /* Fuer die Sprache der Eingangsbestaetigung an den Bewerber.
+     Hier besonders wichtig: `/api` ist in middleware.ts vom next-intl-Matcher
+     ausgenommen, in der Route kommen also gar keine Sprachhinweise an — auch
+     kein `referer`, auf den sich der Lead-Weg noch stuetzen kann. Ohne dieses
+     Feld waere die Sprache dort schlicht nicht ermittelbar. */
+  const locale = useLocale();
   const jobs = t.raw("portal.jobs") as Array<{ id: string; title: string; type: string; desc: string }>;
   const stepsText = t.raw("portal.steps") as { step1: string; step2: string; step3: string };
   const formText = t.raw("portal.form") as Record<string, string>;
@@ -100,6 +106,7 @@ export default function ApplicationPortal() {
     submitData.append("email", formData.email);
     submitData.append("phone", formData.phone);
     submitData.append("startDate", formData.startDate);
+    submitData.append("locale", locale);
 
     if (file) {
       submitData.append("cv", file);

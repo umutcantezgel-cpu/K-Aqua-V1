@@ -77,6 +77,13 @@ export function MultiStepContactForm({ locale }: MultiStepContactFormProps) {
     fd.set("message", formData.message);
     fd.set("interest", INTEREST_BY_INQUIRY[formData.inquiryType] ?? "Beratung");
     fd.set("page", "kontakt");
+    /* Die gelesene Sprache mitsenden.
+       Ohne sie kann der Server nur den `referer`-Header auswerten, und die
+       Bestaetigungsmail an den Kunden waere im Zweifel deutsch — auch fuer
+       jemanden, der die Seite auf Arabisch gelesen hat. Die Locale liegt hier
+       schon als Prop vor und wurde bisher nur fuer die Schreibrichtung
+       benutzt. */
+    fd.set("locale", locale);
     fd.set("firma2", honigtopf.current?.value ?? "");
     fd.set(
       "elapsed",

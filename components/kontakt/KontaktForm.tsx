@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/lib/i18n/navigation";
 import { motion, AnimatePresence } from "motion/react";
 import { Mail, Phone, ArrowRight } from "lucide-react";
@@ -18,6 +18,8 @@ interface Props {
 
 export function KontaktForm({ slug, interest, done, layout = "full", slimDone = false }: Props) {
   const t = useTranslations("kontaktForm");
+  /* Fuer die Sprache der Bestaetigungsmail — siehe fd.set("locale", …) unten. */
+  const locale = useLocale();
   const [state, setState] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [sel, setSel] = useState(interest);
   const [errs, setErrs] = useState<{ p?: boolean; m?: boolean }>({});
@@ -53,6 +55,10 @@ export function KontaktForm({ slug, interest, done, layout = "full", slimDone = 
     if (p || m) return;
     fd.set("interest", sel);
     fd.set("page", slug);
+    /* Die gelesene Sprache mitsenden, damit die Eingangsbestaetigung in
+       derselben Sprache ankommt wie die Seite, auf der abgeschickt wurde.
+       Der Server kann sonst nur den `referer` auswerten. */
+    fd.set("locale", locale);
     fd.set(
       "elapsed",
       start.current === null ? "" : String(Math.round(performance.now() - start.current))

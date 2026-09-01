@@ -57,6 +57,7 @@ async function sendeUeberResend(
       ...(nachricht.replyTo ? { replyTo: nachricht.replyTo } : {}),
       subject: nachricht.subject,
       html: nachricht.html,
+      ...(nachricht.text ? { text: nachricht.text } : {}),
       ...(nachricht.attachments?.length ? { attachments: anhaengeFuerResend(nachricht) } : {}),
     });
     if (error) {
@@ -90,6 +91,7 @@ async function sendeUeberSmtp(
       ...(nachricht.replyTo ? { replyTo: nachricht.replyTo } : {}),
       subject: nachricht.subject,
       html: nachricht.html,
+      ...(nachricht.text ? { text: nachricht.text } : {}),
       ...(nachricht.attachments?.length ? { attachments: anhaengeFuerSmtp(nachricht) } : {}),
     });
     return { ok: true, channel: 'smtp', ...(info?.messageId ? { id: info.messageId } : {}) };

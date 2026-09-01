@@ -34,6 +34,19 @@ export interface MailMessage {
   readonly to: readonly string[];
   readonly subject: string;
   readonly html: string;
+  /**
+   * Klartextfassung derselben Nachricht.
+   *
+   * Eine Mail, die NUR aus HTML besteht, ist aus drei Gruenden schlechter:
+   * Spamfilter werten das reine Fehlen eines Textteils als Merkmal, manche
+   * Firmenclients und Vorschauzeilen zeigen ausschliesslich den Textteil, und
+   * Vorlesegeraete kommen damit besser zurecht als mit einem
+   * Tabellenlayout.
+   *
+   * Beide Versender koennen das: Resend nimmt `text` neben `html`, nodemailer
+   * ebenso — es entsteht dann eine `multipart/alternative`-Nachricht.
+   */
+  readonly text?: string;
   readonly replyTo?: string;
   readonly attachments?: readonly MailAttachment[];
 }
