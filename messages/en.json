@@ -8544,6 +8544,13 @@
     "dimensions": "CAD dimensions",
     "dimensionsShort": "Dimensions",
     "dimensionsNone": "No dimension lines are available for this part",
+    "variants": {
+      "label": "Colour",
+      "gruen": "Green (standard)",
+      "blau": "Blue (RAL 5005)",
+      "curry": "Curry yellow (RAL 1002)",
+      "mocca": "Mocha grey (RAL 7032)"
+    },
     "rotate": "360° rotation",
     "rotateStart": "Start 360° rotation",
     "rotateStop": "Stop rotation",

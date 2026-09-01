@@ -8543,6 +8543,13 @@
     "dimensions": "CAD-Bemaßung",
     "dimensionsShort": "Bemaßung",
     "dimensionsNone": "Für dieses Bauteil sind keine Maßlinien hinterlegt",
+    "variants": {
+      "label": "Farbe",
+      "gruen": "Grün (Standard)",
+      "blau": "Blau (RAL 5005)",
+      "curry": "Curry (RAL 1002)",
+      "mocca": "Mocca (RAL 7032)"
+    },
     "rotate": "360° Rotation",
     "rotateStart": "360° Drehen starten",
     "rotateStop": "Rotation stoppen",

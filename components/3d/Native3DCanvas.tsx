@@ -23,6 +23,7 @@ import {
 import clsx from 'clsx';
 import { useTranslations } from 'next-intl';
 import { resolve3DProductId } from '@/lib/3d/resolve';
+import { VARIANT_HEX, istVariante } from '@/lib/3d/variants';
 
 /**
  * Gibt ein Material samt seiner Texturen frei.
@@ -49,24 +50,9 @@ function disposeMaterial(material: any): void {
   material.dispose();
 }
 
-/**
- * Beschriftung und Farbfleck der Rohrvarianten.
- *
- * Die Hex-Werte MÜSSEN mit den Rezepten in `kaqua-3d/core/materials.js`
- * übereinstimmen — sonst zeigt der Wähler eine andere Farbe als das Modell
- * daneben, und das fällt sofort auf.
- *
- * Grün trägt bewusst keine RAL-Nummer im Namen: RAL 6024 ist die Norm des
- * Granulats, der hier gezeigte Wert ist aus den Herstelleraufnahmen gemessen
- * und beschreibt das fertige Bauteil. Die drei Sonderfarben folgen dagegen
- * direkt der RAL-Angabe aus dem Marketing-Archiv.
- */
-const VARIANT_LABEL: Record<string, { name: string; hex: string }> = {
-  gruen: { name: 'Grün (Standard)', hex: '#32A175' },
-  blau: { name: 'Blau (RAL 5005)', hex: '#005387' },
-  curry: { name: 'Curry (RAL 1002)', hex: '#C6A664' },
-  mocca: { name: 'Mocca (RAL 7032)', hex: '#B9B9A8' },
-};
+/* Die Farbflecke der vier Lieferfarben liegen in lib/3d/variants.ts — siehe
+   den Import oben. Ihre Namen kommen aus den Sprachdateien; hart deutsch im
+   Markup standen sie auch für arabische Besucher auf Deutsch da. */
 
 /* Die Linienfarbe der Bemassung.
  *
@@ -673,10 +659,18 @@ export default function Native3DCanvas({
   useEffect(() => {
     neuAufbauenRef.current = () => {
       if (activeProductModuleRef.current) {
-        buildCurrentModel(activeProductModuleRef.current, selectedSize, isSection);
+        // Mit Farbvariante: ohne sie kam das Rohr nach einem
+        // WebGL-Kontextverlust in Gruen zurueck, obwohl der Waehler weiter
+        // Blau, Curry oder Mocca anzeigte.
+        buildCurrentModel(
+          activeProductModuleRef.current,
+          selectedSize,
+          isSection,
+          selectedVariant
+        );
       }
     };
-  }, [buildCurrentModel, selectedSize, isSection]);
+  }, [buildCurrentModel, selectedSize, isSection, selectedVariant]);
 
   /* Vollbild an- und ausschalten. */
   const vollbildUmschalten = useCallback(async () => {
@@ -831,8 +825,9 @@ export default function Native3DCanvas({
            genau das Verhalten, das der Produktvertrag für `states` beschreibt
            („Fehlt states, verschwindet der Auf/Zu-Knopf von selbst"). */
         const varianten: string[] = Array.isArray(product.variants) ? product.variants : [];
+        const startVariante = varianten[0] ?? null;
         setAvailableVariants(varianten);
-        setSelectedVariant(varianten[0] ?? null);
+        setSelectedVariant(startVariante);
 
         const initialD = sizes.includes(selectedSize) ? selectedSize : product.defaultSize || sizes[0];
         setSelectedSize(initialD);
@@ -840,7 +835,10 @@ export default function Native3DCanvas({
         if (onProductChange) onProductChange(product);
         if (onSizeChange) onSizeChange(initialD);
 
-        buildCurrentModel(product, initialD, isSection);
+        // Mit `startVariante` statt `null`: optisch dasselbe (die erste
+        // Variante IST Grün), aber der gebaute Zustand und der angezeigte
+        // Wähler stimmen von der ersten Zeichnung an überein.
+        buildCurrentModel(product, initialD, isSection, startVariante);
         setLoading(false);
       } catch (err: any) {
         if (!cancelled) {
@@ -887,7 +885,9 @@ export default function Native3DCanvas({
     if (currentAssemblyRef.current && typeof currentAssemblyRef.current.setSection === 'function') {
       currentAssemblyRef.current.setSection(next, clipPlaneRef.current);
     } else if (activeProductModuleRef.current) {
-      buildCurrentModel(activeProductModuleRef.current, selectedSize, next);
+      // Auch hier die Farbvariante mitgeben: dieser Rueckfallweg baut das
+      // Modell komplett neu, und ohne sie sprang der Halbschnitt auf Gruen.
+      buildCurrentModel(activeProductModuleRef.current, selectedSize, next, selectedVariant);
     }
   };
 
@@ -1079,6 +1079,39 @@ export default function Native3DCanvas({
      keine — dort bleibt der Bemassungsknopf blass statt tot. */
   const hatBemassung = dimensionsList.length > 0;
 
+  /* Der untere Streifen traegt zwei Dinge, die bisher aneinander hingen: die
+     Nennweiten und die Farbwahl. Der Farbwaehler stand INNERHALB der Bedingung
+     fuer die Groessen — ein Rohr mit nur einer Nennweite haette damit auch
+     seine vier Lieferfarben verloren.
+     `showControls` ist der vorhandene Schalter fuer „bedienbare Ansicht"; die
+     Farben folgen ihm, nicht der Zahl der Nennweiten. */
+  const zeigeGroessen = showSizeSelector && availableSizes.length > 1;
+  const zeigeFarben = showControls && availableVariants.length > 1;
+  const zeigeStreifen = zeigeGroessen || zeigeFarben;
+
+  /* Der Name der Lieferfarbe, uebersetzt.
+     Bewusst ein switch mit vier ausgeschriebenen Schluesseln statt eines
+     zusammengesetzten: der Torwaechter scripts/check-message-usage.mjs liest
+     Schluessel per Regex aus dem Quelltext. Ein zur Laufzeit
+     zusammengesetzter Name laese dort als abgeschnittenes Praefix, und
+     `npm run i18n:usage` meldete einen Schluessel, den es nirgends gibt.
+     (Dieser Kommentar meidet die Aufrufschreibweise aus demselben Grund —
+     die Regel greift auch in Kommentaren.) */
+  const variantenName = (v: string): string => {
+    switch (v) {
+      case 'gruen':
+        return t('variants.gruen');
+      case 'blau':
+        return t('variants.blau');
+      case 'curry':
+        return t('variants.curry');
+      case 'mocca':
+        return t('variants.mocca');
+      default:
+        return v;
+    }
+  };
+
   return (
     <div
       ref={containerRef}
@@ -1160,7 +1193,10 @@ export default function Native3DCanvas({
           className={clsx(
             'absolute z-10 flex items-center gap-1.5 sm:gap-2',
             'start-2 end-2 overflow-x-auto scrollbar-none py-1 px-0.5',
-            showSizeSelector && availableSizes.length > 1 ? 'bottom-[3.55rem]' : 'bottom-2',
+            // `zeigeStreifen`, nicht mehr die Groessenbedingung allein: der
+            // Streifen erscheint jetzt auch, wenn es nur Farben gibt. Bliebe
+            // es bei der alten Bedingung, legte sich die Leiste darueber.
+            zeigeStreifen ? 'bottom-[3.55rem]' : 'bottom-2',
             // `sm:end-16` statt `sm:end-4`: ab 640 px sitzt der Vollbild-Knopf
             // in derselben Ecke. Er misst 38 px, plus 16 px Abstand.
             'sm:top-4 sm:end-16 sm:bottom-auto sm:start-auto sm:overflow-visible sm:justify-end sm:py-0 sm:px-0'
@@ -1344,10 +1380,9 @@ export default function Native3DCanvas({
             'absolute z-30 w-44 end-2 sm:end-16 flex flex-col gap-1',
             'bg-card border border-card-border rounded-xl shadow-xl p-1.5',
             // Mobil sitzt die Leiste unten; das Menü klappt darüber auf und
-            // rückt mit, wenn die Größenleiste die Leiste nach oben schiebt.
-            showSizeSelector && availableSizes.length > 1
-              ? 'bottom-[6.5rem]'
-              : 'bottom-[3.45rem]',
+            // rückt mit, wenn der untere Streifen die Leiste nach oben
+            // schiebt — auch dann, wenn dieser nur die Farben trägt.
+            zeigeStreifen ? 'bottom-[6.5rem]' : 'bottom-[3.45rem]',
             // Ab 640 px sitzt die Leiste oben rechts; das Menü klappt darunter.
             'sm:bottom-auto sm:top-[3.6rem]'
           )}
@@ -1395,52 +1430,77 @@ export default function Native3DCanvas({
         </div>
       )}
 
-      {/* Bottom Size Switcher Strip (Unified Native Controls) */}
-      {showSizeSelector && availableSizes.length > 1 && (
-        <div className="absolute bottom-2 start-2 end-2 sm:bottom-4 sm:start-4 sm:end-4 z-10 flex items-center justify-between gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-xl sm:rounded-2xl bg-background/90 backdrop-blur-md border border-card-border shadow-sm overflow-x-auto scrollbar-none">
-          <div className="flex items-center gap-1.5 shrink-0 text-xs font-heading font-bold text-foreground pe-2 border-e border-card-border">
-            <Sparkles className="w-3.5 h-3.5 text-primary shrink-0" />
-            <span className="hidden sm:inline">{t('nominalSize')}</span>
-            <span className="sm:hidden font-mono">DN</span>
-          </div>
+      {/* Der untere Streifen: Nennweiten und Lieferfarben.
+       *
+       * Der Kasten selbst scrollt NICHT mehr waagerecht. Er hatte
+       * `overflow-x-auto`, und sein mittleres Kind — die Nennweitenliste —
+       * ebenfalls, aber ohne `min-w-0`. Ein Flex-Element mit `overflow-x-auto`
+       * behaelt `min-width: auto` und schrumpft nicht unter seine
+       * Inhaltsbreite: bei vierzehn Nennweiten schob die Liste die Farbknoepfe
+       * auf dem Telefon aus dem Bild, und man musste den Streifen erst
+       * seitwaerts scrollen, um die Farben ueberhaupt zu sehen.
+       *
+       * Jetzt scrollt nur noch die Nennweitenliste in sich (`min-w-0 flex-1`),
+       * Beschriftung und Farben stehen fest. Der Kasten darf dafuer KEIN
+       * `overflow-hidden` bekommen — sonst beschneidet er den vergroesserten
+       * ausgewaehlten Farbknopf. */}
+      {zeigeStreifen && (
+        <div className="absolute bottom-2 start-2 end-2 sm:bottom-4 sm:start-4 sm:end-4 z-10 flex items-center justify-between gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-xl sm:rounded-2xl bg-background/90 backdrop-blur-md border border-card-border shadow-sm">
+          {zeigeGroessen && (
+            <>
+              <div className="flex items-center gap-1.5 shrink-0 text-xs font-heading font-bold text-foreground pe-2 border-e border-card-border">
+                <Sparkles className="w-3.5 h-3.5 text-primary shrink-0" />
+                <span className="hidden sm:inline">{t('nominalSize')}</span>
+                <span className="sm:hidden font-mono">DN</span>
+              </div>
 
-          <div className="flex items-center gap-1 sm:gap-1.5 overflow-x-auto scrollbar-none py-0.5">
-            {availableSizes.map((d) => (
-              <button
-                key={d}
-                type="button"
-                onClick={() => handleSelectSize(d)}
-                className={clsx(
-                  'px-2.5 sm:px-3 py-1 rounded-lg sm:rounded-xl text-xs font-mono font-bold transition-all shrink-0 cursor-pointer',
-                  selectedSize === d
-                    ? 'bg-primary text-primary-foreground shadow-sm scale-105'
-                    : 'bg-card hover:bg-card-border/50 text-foreground border border-card-border'
-                )}
-              >
-                d{d}
-              </button>
-            ))}
-          </div>
+              <div className="flex items-center gap-1 sm:gap-1.5 min-w-0 flex-1 overflow-x-auto scrollbar-none py-0.5">
+                {availableSizes.map((d) => (
+                  <button
+                    key={d}
+                    type="button"
+                    onClick={() => handleSelectSize(d)}
+                    className={clsx(
+                      'px-2.5 sm:px-3 py-1 rounded-lg sm:rounded-xl text-xs font-mono font-bold transition-all shrink-0 cursor-pointer',
+                      selectedSize === d
+                        ? 'bg-primary text-primary-foreground shadow-sm scale-105'
+                        : 'bg-card hover:bg-card-border/50 text-foreground border border-card-border'
+                    )}
+                  >
+                    d{d}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
 
           {/*
-            Farbwähler. Steht im Platz des früheren Bedienhinweises: Die
-            Rohrserien sind neben dem Standardgrün auch in Blau, Curry und
-            Mocca lieferbar (RAL 5005 / 1002 / 7032), und das war bisher
-            ausschließlich als vier Bildkacheln auf der Rohrübersicht zu
-            sehen — im 3D-Modell gar nicht.
+            Farbwähler. Die Rohrserien sind neben dem Standardgrün auch in
+            Blau, Curry und Mocca lieferbar (RAL 5005 / 1002 / 7032), und das
+            war lange ausschließlich als vier Bildkacheln auf der
+            Rohrübersicht zu sehen — im 3D-Modell gar nicht.
 
             Erscheint nur bei Produkten, die Varianten deklarieren; für
-            Formteile, Ventile und Werkzeuge ändert sich nichts.
+            Formteile, Ventile und Werkzeuge gibt es die Farben laut Katalog
+            nicht, dort ändert sich nichts.
           */}
-          {availableVariants.length > 1 ? (
-            <div className="flex items-center gap-1.5 shrink-0 ps-2 border-s border-card-border">
+          {zeigeFarben ? (
+            <div
+              role="group"
+              aria-label={t('variants.label')}
+              className={clsx(
+                'flex items-center gap-1.5 shrink-0',
+                // Der Trenner nur, wenn links davon wirklich etwas steht.
+                zeigeGroessen && 'ps-2 border-s border-card-border'
+              )}
+            >
               {availableVariants.map((v) => (
                 <button
                   key={v}
                   type="button"
                   onClick={() => handleSelectVariant(v)}
-                  title={VARIANT_LABEL[v]?.name ?? v}
-                  aria-label={VARIANT_LABEL[v]?.name ?? v}
+                  title={variantenName(v)}
+                  aria-label={variantenName(v)}
                   aria-pressed={selectedVariant === v}
                   className={clsx(
                     'w-6 h-6 rounded-full border-2 transition-all shrink-0 cursor-pointer',
@@ -1448,7 +1508,7 @@ export default function Native3DCanvas({
                       ? 'border-primary scale-110 shadow-sm'
                       : 'border-card-border hover:border-muted-foreground'
                   )}
-                  style={{ background: VARIANT_LABEL[v]?.hex ?? '#888' }}
+                  style={{ background: istVariante(v) ? VARIANT_HEX[v] : '#888' }}
                 />
               ))}
             </div>

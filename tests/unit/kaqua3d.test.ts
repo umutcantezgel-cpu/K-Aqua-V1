@@ -55,7 +55,11 @@ describe('K-Aqua 3D-Bibliothek', () => {
     }
 
     expect(fehler, `Modelle mit Problemen:\n  ${fehler.join('\n  ')}`).toEqual([]);
-  });
+    // Eigene Frist: dieser Test baut alle 70 Bauteile und lag mit rund fünf
+    // Sekunden haarscharf an der Vorgabe — er schlug je nach Auslastung der
+    // Maschine mal an, mal nicht. Er prüft, DASS jedes Modell baut, nicht wie
+    // schnell; eine knappe Frist misst hier nur die Maschine.
+  }, 30_000);
 
   it('jeder Registry-Eintrag hat die Felder, die Website und Katalog brauchen', () => {
     const unvollstaendig = registry.filter(

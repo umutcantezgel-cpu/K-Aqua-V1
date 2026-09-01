@@ -8572,6 +8572,13 @@
     "dimensions": "أبعاد CAD",
     "dimensionsShort": "الأبعاد",
     "dimensionsNone": "لا تتوفر خطوط أبعاد لهذا الجزء",
+    "variants": {
+      "label": "اللون",
+      "gruen": "أخضر (قياسي)",
+      "blau": "أزرق (RAL 5005)",
+      "curry": "كاري (RAL 1002)",
+      "mocca": "موكا (RAL 7032)"
+    },
     "rotate": "دوران 360°",
     "rotateStart": "بدء الدوران 360°",
     "rotateStop": "إيقاف الدوران",
