@@ -21,10 +21,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   });
 }
 
+/**
+ * Entwicklerseiten gibt es in Produktion nicht.
+ *
+ * `notFound` wurde in dieser Datei seit jeher IMPORTIERT und nie aufgerufen —
+ * der Riegel war offensichtlich geplant und ist nie eingebaut worden. Damit
+ * waren /dev/ui, /dev/tokens, /dev/globe und /dev/3d-test oeffentlich
+ * erreichbar. `app/robots.ts` und `noIndex` halten nur Suchmaschinen ab, nicht
+ * jemanden, der die Adresse kennt; /dev/ui zeigt den kompletten
+ * Komponentenkatalog samt unfertiger Platzhalter.
+ *
+ * In der Entwicklung bleiben die Seiten selbstverstaendlich erreichbar — dafuer
+ * sind sie da.
+ */
 export default function DevLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  if (process.env.NODE_ENV === 'production') notFound();
   return <>{children}</>;
 }
