@@ -2197,7 +2197,22 @@
       "range": "Gamme de produits",
       "rangeDesc": "Complete product range with dimensions (PDF)",
       "features": "Caractéristiques du produit",
-      "featuresDesc": "Material properties & system benefits (PDF)"
+      "featuresDesc": "Material properties & system benefits (PDF)",
+      "articleTable": {
+        "caption": "Tableau des articles {product} — références, désignations et dimensions",
+        "code": "Réf.",
+        "name": "Désignation",
+        "footnotes": "Notes",
+        "columns": {
+          "pack": "Cond.",
+          "weight": "Poids",
+          "waterCapacity": "Volume d'eau",
+          "dimensionG": "Dimension G",
+          "nutThread": "Filetage écrou",
+          "system": "Système",
+          "lAdjustable": "L réglable"
+        }
+      }
     },
     "specAndDim": "Spécifications & Dimensions",
     "certsAndNorms": "Certificats & Normes",

@@ -2304,7 +2304,22 @@
       "range": "Product Range",
       "rangeDesc": "Complete Product Range with Dimensions (PDF)",
       "features": "Product Features",
-      "featuresDesc": "Material Properties & System Advantages (PDF)"
+      "featuresDesc": "Material Properties & System Advantages (PDF)",
+      "articleTable": {
+        "caption": "Article table {product} — article numbers, designations and dimensions",
+        "code": "Code",
+        "name": "Designation",
+        "footnotes": "Footnotes",
+        "columns": {
+          "pack": "Pack.",
+          "weight": "Weight",
+          "waterCapacity": "Water capacity",
+          "dimensionG": "Dimension G",
+          "nutThread": "Nut thread",
+          "system": "System",
+          "lAdjustable": "L adjustable"
+        }
+      }
     },
     "specAndDim": "Specifications & Dimensions",
     "certsAndNorms": "Certificates & Standards",

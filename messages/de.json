@@ -2304,7 +2304,22 @@
       "range": "Produktprogramm",
       "rangeDesc": "Komplettes Produktprogramm mit Maßen (PDF)",
       "features": "Produkteigenschaften",
-      "featuresDesc": "Materialeigenschaften & Systemvorteile (PDF)"
+      "featuresDesc": "Materialeigenschaften & Systemvorteile (PDF)",
+      "articleTable": {
+        "caption": "Artikeltabelle {product} — Artikelnummern, Bezeichnungen und Maße",
+        "code": "Artikelnr.",
+        "name": "Bezeichnung",
+        "footnotes": "Fußnoten",
+        "columns": {
+          "pack": "VE",
+          "weight": "Gewicht",
+          "waterCapacity": "Wasserinhalt",
+          "dimensionG": "Maß G",
+          "nutThread": "Mutterngewinde",
+          "system": "System",
+          "lAdjustable": "L verstellbar"
+        }
+      }
     },
     "specAndDim": "Spezifikationen & Dimensionen",
     "certsAndNorms": "Zertifikate & Normen",
