@@ -51,6 +51,22 @@ export interface ArticleRow {
   /** Werte je Spaltenschluessel. Null, wo der Katalog einen Gedankenstrich fuehrt. */
   values: Record<string, number | string | null>;
   /**
+   * Die Zelle, wie sie in der Markdown steht — ohne Fettauszeichnung und
+   * Maskierung, aber mit deutschem Dezimalkomma und allen Nachkommastellen.
+   *
+   * `values` traegt die gerechnete Zahl und ist fuer BIM, Rechnungen und
+   * Vergleiche richtig. Fuer die ANZEIGE ist sie es nicht: `parseCell` macht
+   * aus `0,02` die Zahl `0.02` und aus `2,70` die Zahl `2.7`. Wer daraus
+   * rendert, zeigt auf der deutschen Seite einen englischen Dezimalpunkt und
+   * verliert die nachlaufende Null. `Intl.NumberFormat` rettet das nicht —
+   * die Zahl der gedruckten Nachkommastellen steht in der Zahl nicht mehr
+   * drin.
+   *
+   * Deshalb hier zusaetzlich der Rohwert. Rein ergaenzend; `values` bleibt
+   * unveraendert, und alles Bestehende liest weiter dort.
+   */
+  rawValues: Record<string, string>;
+  /**
    * Fussnotenzeichen an einzelnen Werten, je Spaltenschluessel.
    *
    * Beim K-Fiber-Rohr SDR 11 traegt `s min.` in d20 und d25 einen Verweis auf
@@ -217,15 +233,20 @@ export function parseArticleTable(markdown: string): ArticleTable | null {
 
     const values: Record<string, number | string | null> = {};
     const valueMarkers: Record<string, string> = {};
+    const rawValues: Record<string, string> = {};
     columns.forEach((col, idx) => {
       const cell = cells[idx + 1] ?? '';
       values[col.key] = parseCell(cell);
       const { text, marker } = splitCellMarker(cell);
+      /* Der Rohwert ist der Zellentext OHNE Fussnotenzeichen — das Zeichen
+         steht daneben in `valueMarkers` und wird bei der Anzeige eigens
+         gesetzt. Stuende es hier mit drin, erschiene es doppelt. */
+      rawValues[col.key] = text;
       if (marker && text && !EMPTY_MARKERS.has(text)) {
         valueMarkers[col.key] = marker;
       }
     });
-    rows.push({ code, section, footnoteMarker, values, valueMarkers });
+    rows.push({ code, section, footnoteMarker, values, rawValues, valueMarkers });
   }
 
   // Fussnoten unmittelbar unterhalb der Tabelle einsammeln. Sie tragen die

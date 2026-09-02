@@ -330,3 +330,52 @@ describe('Sonderbestellung 5,80 m', () => {
     expect(row.values['Water capacity']).toBe(0.14);
   });
 });
+
+describe('Rohwerte für die Anzeige', () => {
+  const elbow45 = PRODUCTS.find((p) => p.slug === 'elbow-45')!;
+  const sdr6 = PRODUCTS.find((p) => p.slug === 'k-pipe-pp-r-sdr-6')!;
+
+  it('bewahrt das deutsche Dezimalkomma', () => {
+    const row = findArticleRow(elbow45.table!, 'AQ04520')!;
+    expect(row.values['kg']).toBe(0.02);
+    expect(row.rawValues['kg']).toBe('0,02');
+  });
+
+  /* Der Fall, der den Rohwert ueberhaupt noetig macht: Als Zahl ist 0,10
+     gleich 0.1 — die gedruckte Nachkommastelle ist futsch, und keine
+     Formatierung kann sie zurueckholen, weil sie in der Zahl nicht mehr
+     drinsteht. */
+  it('bewahrt die nachlaufende Null', () => {
+    const row = findArticleRow(elbow45.table!, 'AQ04550')!;
+    expect(row.values['kg']).toBe(0.1);
+    expect(row.rawValues['kg']).toBe('0,10');
+  });
+
+  it('laesst Nicht-Zahlen unangetastet', () => {
+    const row = findArticleRow(elbow45.table!, 'AQ04520')!;
+    // Ganze Zahlen bleiben, wie sie gedruckt sind.
+    expect(row.rawValues['d']).toBe('20');
+    expect(row.rawValues['Pack.']).toBe('300');
+  });
+
+  /* Das Fussnotenzeichen steht in `valueMarkers` und wird bei der Anzeige
+     eigens gesetzt — stuende es auch im Rohwert, erschiene es doppelt. */
+  it('haelt das Fussnotenzeichen aus dem Rohwert heraus', () => {
+    const row = findArticleRow(sdr6.table!, 'AQ200P20')!;
+    expect(row.footnoteMarker).toBe('*');
+    expect(row.rawValues['D']).toBe('20');
+    expect(row.rawValues['D']).not.toContain('*');
+  });
+
+  it('fuehrt fuer jede Spalte jeder Zeile einen Rohwert', () => {
+    for (const p of PRODUCTS) {
+      if (!p.table) continue;
+      const spalten = p.table.columns.map((c) => c.key);
+      for (const row of p.table.rows) {
+        for (const s of spalten) {
+          expect(typeof row.rawValues[s], `${p.slug} ${row.code} ${s}`).toBe('string');
+        }
+      }
+    }
+  });
+});
