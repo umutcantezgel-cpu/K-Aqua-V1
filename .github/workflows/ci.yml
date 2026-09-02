@@ -69,6 +69,17 @@ jobs:
       - name: Search index in sync
         run: pnpm search:check
 
+      # Dasselbe für die Artikelnamen des Herstellers. Der Prüflauf liest ZWEI
+      # Quellen — die Herstellerliste und die Artikeltabellen der Produkte —
+      # und schlägt deshalb auch an, wenn jemand eine Artikelnummer in einer
+      # Markdown ändert, nicht nur bei einer neuen Lieferung.
+      #
+      # Im Kopf der erzeugten Datei steht der Befund der Erzeugung. Eine
+      # Lieferung mit einer neuen Auffälligkeit erzeugt damit einen Diff und
+      # bricht hier, bis jemand hingesehen hat.
+      - name: Article names in sync
+        run: pnpm names:check
+
       - name: Unit tests
         run: pnpm test
 
