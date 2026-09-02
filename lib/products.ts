@@ -5,8 +5,33 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import remarkGfm from 'remark-gfm';
 import { unstable_cache } from 'next/cache';
+import { parseArticleTable, type ArticleTable } from './bim/article-table';
 
 const contentDir = path.join(process.cwd(), 'content', 'products');
+
+/**
+ * Ein Stück Produktinhalt.
+ *
+ * Bis hierher lieferte `getProductBySlug` den ganzen Markdown als EINEN
+ * HTML-String, den die Produktseite per `dangerouslySetInnerHTML` einsetzte.
+ * Damit war die Artikeltabelle unerreichbar: Sie stand in jeder der 65
+ * Sprachen englisch da, samt Spaltenköpfen, und eine Spalte einzusetzen hätte
+ * geheißen, im fertigen HTML nach Positionen zu suchen.
+ *
+ * Jetzt wird die Tabelle VOR dem Umwandeln herausgeschnitten und mit
+ * `parseArticleTable()` gelesen — demselben Leser, den die BIM-Ausgabe seit
+ * jeher benutzt und der gegen alle 73 Produktdateien getestet ist. Der Rest
+ * bleibt HTML.
+ */
+export type ProductContentSegment =
+  | { readonly kind: 'html'; readonly html: string }
+  | { readonly kind: 'articleTable'; readonly heading: string; readonly table: ArticleTable };
+
+/**
+ * Die Überschrift, unter der jede Produktdatei ihre Artikeltabelle führt.
+ * In allen 73 Dateien wortgleich — geprüft, nicht angenommen.
+ */
+const ARTIKELTABELLE_UEBERSCHRIFT = '## Article Table';
 
 export interface ProductData {
   slug: string;
@@ -171,6 +196,21 @@ export function getProductsByCategory(category: string): ProductData[] {
   return getAllProducts().filter(p => p.category === normCat);
 }
 
+/**
+ * Der ungecachte Weg.
+ *
+ * Exportiert für Tests und Werkzeuge: `getProductBySlug` unten steckt in
+ * `unstable_cache`, und das wirft ausserhalb eines Next-Anfragekontexts
+ * („Invariant: incrementalCache missing"). Anwendungscode nimmt weiterhin die
+ * gecachte Fassung.
+ */
+export async function getProductBySlugUncached(
+  category: string,
+  slug: string
+): Promise<ProductData | null> {
+  return getProductBySlugRaw(category, slug);
+}
+
 async function getProductBySlugRaw(category: string, slug: string): Promise<ProductData | null> {
   const normCat = normalizeCategory(category);
   const normSlug = normalizeSlug(slug);
@@ -222,10 +262,19 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
   const processedSeoDe = await processMd(seoTextDe);
   const processedSeoEn = await processMd(seoTextEn);
   const processedSeoAr = await processMd(seoTextAr);
-    
+
+  /* Den Inhalt in Abschnitte zerlegen: alles vor der Artikeltabelle, die
+     Tabelle selbst, alles danach.
+     Findet sich keine Tabelle oder lässt sie sich nicht lesen, bleibt es bei
+     einem einzigen HTML-Abschnitt — die Seite sieht dann aus wie bisher. Der
+     Rückfall ist bewusst still: Eine Produktseite darf an einer fehlenden
+     Tabelle nicht scheitern. */
+  const contentSegments = await baueSegmente(rawContent, processMd);
+
   return {
     ...product,
     content: processedContent,
+    contentSegments,
     seoTextDe: processedSeoDe,
     seoTextEn: processedSeoEn,
     seoTextAr: processedSeoAr,
@@ -235,13 +284,69 @@ async function getProductBySlugRaw(category: string, slug: string): Promise<Prod
   };
 }
 
+/**
+ * Zerlegt den Markdown in HTML-Abschnitte und die Artikeltabelle.
+ *
+ * Geschnitten wird an `## Article Table` bis zur nächsten `##`-Überschrift
+ * oder zum Dateiende. Die Überschrift selbst wandert in den Tabellenabschnitt,
+ * damit die Komponente sie übersetzt setzen kann — im HTML-Teil würde sie
+ * sonst ein zweites Mal erscheinen.
+ */
+async function baueSegmente(
+  rawContent: string,
+  processMd: (md: string) => Promise<string>
+): Promise<ProductContentSegment[]> {
+  const start = rawContent.indexOf(ARTIKELTABELLE_UEBERSCHRIFT);
+  if (start === -1) {
+    const html = await processMd(rawContent);
+    return html ? [{ kind: 'html', html }] : [];
+  }
+
+  const nachUeberschrift = start + ARTIKELTABELLE_UEBERSCHRIFT.length;
+  const naechste = rawContent.indexOf('\n## ', nachUeberschrift);
+  const ende = naechste === -1 ? rawContent.length : naechste;
+
+  const davor = rawContent.slice(0, start).trim();
+  const abschnitt = rawContent.slice(start, ende);
+  const danach = rawContent.slice(ende).trim();
+
+  const tabelle = parseArticleTable(abschnitt);
+  if (!tabelle || tabelle.rows.length === 0) {
+    // Kein lesbares Tabellenwerk — dann eben wie bisher als HTML.
+    const html = await processMd(rawContent);
+    return html ? [{ kind: 'html', html }] : [];
+  }
+
+  const segmente: ProductContentSegment[] = [];
+  if (davor) {
+    const html = await processMd(davor);
+    if (html) segmente.push({ kind: 'html', html });
+  }
+  segmente.push({
+    kind: 'articleTable',
+    heading: ARTIKELTABELLE_UEBERSCHRIFT.replace(/^##\s*/, ''),
+    table: tabelle,
+  });
+  if (danach) {
+    const html = await processMd(danach);
+    if (html) segmente.push({ kind: 'html', html });
+  }
+  return segmente;
+}
+
 export const getProductBySlug = unstable_cache(
   async (category: string, slug: string) => getProductBySlugRaw(category, slug),
   // v3: Die Artikeldaten sind gegen den Herstellerkatalog 06-2025 korrigiert
   // worden — Artikelnummern, Maßtabellen, Wandstärken. Ohne neuen Schlüssel
   // überleben die alten Objekte im Cache den Deploy, und die Seiten zeigten
   // weiter die falschen Werte.
-  ['product-by-slug-v3'],
+  //
+  // v4: Das zurückgegebene Objekt trägt jetzt `contentSegments`. Ein
+  // zwischengespeichertes v3-Objekt hat das Feld nicht — die Produktseite
+  // fiele dann auf den HTML-Rückfall und zeigte die Tabelle wieder englisch
+  // und ohne Bezeichnungsspalte, ohne dass irgendetwas bricht. Genau die
+  // Sorte stiller Rückschritt, gegen die der Schlüssel da ist.
+  ['product-by-slug-v4'],
   { tags: ['product-data'] }
 );
 

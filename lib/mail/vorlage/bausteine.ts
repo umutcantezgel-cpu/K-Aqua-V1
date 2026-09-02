@@ -31,11 +31,6 @@ function anfang(k: Satzkontext): string {
   return k.dir === 'rtl' ? 'right' : 'left';
 }
 
-/** Textausrichtung am Zeilenende. */
-function ende(k: Satzkontext): string {
-  return k.dir === 'rtl' ? 'left' : 'right';
-}
-
 function familie(k: Satzkontext): string {
   return k.sprache === 'ar' ? FAMILIE_AR : FAMILIE;
 }
