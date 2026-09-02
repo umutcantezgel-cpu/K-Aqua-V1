@@ -35,6 +35,29 @@ dass jede Korrekturzeile in der Quelle existiert **und** tatsächlich einen
 Prüfer verletzt. Eine Korrektur, die der Hersteller inzwischen behoben hat,
 bricht damit den Bau und wird gelöscht statt zu verrotten.
 
+## `korrekturen.tsv`
+
+Sechs Spalten: `artikelnummer`, `de`, `en`, `fr`, `grund`, `gemeldet`. Ein
+leeres Sprachfeld heißt „unverändert übernehmen"; nur die gefüllten ersetzen.
+`grund` und `gemeldet` liest der Generator nicht — sie stehen für den nächsten
+Menschen da, der die Zeile in die Hand nimmt.
+
+**Stand heute: fünf Zeilen**, alle derselbe Fehler — der französischen Zelle
+ist ein fremdes `d20 mm` vorangestellt. Die Korrektur ist nicht geraten: Für
+`AQ045P125` sagen Deutsch, Englisch, die Artikelnummer und die `d`-Spalte der
+Website übereinstimmend d125, und die Nachbarzeilen (`CU045P63` →
+„Coude 45° d63 mm curry", `MO045P32` → „Coude 45° d32 mm Mocca") führen
+denselben Satz ohne den Einschub.
+
+Automatisch repariert wird trotzdem nichts. Eine Regel „bei zwei Maßangaben
+die erste streichen" wäre eine Vermutung darüber, welche falsch ist — bei
+`Coude 45° d20 mm d125 mm` sieht die Antwort offensichtlich aus, und genau
+deshalb ist sie gefährlich.
+
+**Diese fünf Zeilen gehören dem Hersteller gemeldet.** Behebt er sie, bricht
+der nächste `names:sync` mit „Die Herstellerliste ist an … inzwischen sauber",
+und die Korrektur wird gelöscht statt still weiterzuwirken.
+
 ## Bekannte Fehler in dieser Lieferung
 
 Gemessen, nicht geschätzt:

@@ -140,6 +140,25 @@ function einzelmass(s: string): number | null {
 
 // ── Erzeugen ───────────────────────────────────────────────────────────────
 
+/**
+ * Verletzt diese Zeile — ungeachtet jeder Korrektur — einen der Pruefer?
+ *
+ * Braucht die Verfallspruefung der Korrekturen: Eine Korrektur zu einer
+ * inzwischen sauberen Zeile ist tot und muss auffallen.
+ */
+function verletztEinenPruefer(z: Herstellerzeile): boolean {
+  for (const [sprache, wert] of [
+    ['de', z.de],
+    ['en', z.en],
+    ['fr', z.fr],
+  ] as const) {
+    if (!wert) continue;
+    if (!hatBuchstaben(wert)) return true;
+    if (sprache !== 'de' && massTokens(wert) > massTokens(z.de)) return true;
+  }
+  return false;
+}
+
 interface Ergebnis {
   readonly namen: Record<string, { de: string; en: string; fr?: string; source: string }>;
   readonly aliasse: Record<string, string>;
@@ -176,6 +195,7 @@ function erzeuge(): Ergebnis {
   // Korrekturen vorbereiten und pruefen
   const korrekturNach = new Map(korrekturen.map((k) => [k.nummer, k]));
   const korrekturBenutzt = new Set<string>();
+  const korrekturHinfaellig: string[] = [];
 
   let gegengeprueft = 0;
   let widersprueche = 0;
@@ -210,7 +230,16 @@ function erzeuge(): Ergebnis {
       }
       brauchbar[sprache] = wert;
     }
-    if (korrektur) korrekturBenutzt.add(zeile.nummer);
+    /* Eine Korrektur ist erst dann gerechtfertigt, wenn die ROHZEILE
+       tatsaechlich einen Pruefer verletzt. Faende der Generator an der
+       unkorrigierten Zeile nichts mehr auszusetzen, haette der Hersteller den
+       Fehler in einer neuen Lieferung behoben — und die Korrektur wuerde ab
+       da still einen Text festhalten, den niemand mehr geprueft hat. Der
+       Befund unten wirft dann, und die Zeile gehoert geloescht. */
+    if (korrektur) {
+      if (verletztEinenPruefer(zeile)) korrekturBenutzt.add(zeile.nummer);
+      else korrekturHinfaellig.push(zeile.nummer);
+    }
 
     const istFarbe = !zeile.nummer.startsWith('AQ');
     const zielnummer = istFarbe ? grundnummer(zeile.nummer) : zeile.nummer;
@@ -274,7 +303,14 @@ function erzeuge(): Ergebnis {
     }
   }
 
-  // Eine Korrektur, die nichts korrigiert, ist verrottet.
+  // Eine Korrektur, die nichts korrigiert, ist verrottet — in beiden
+  // Spielarten. Beides bricht die Erzeugung und damit die CI.
+  if (korrekturHinfaellig.length > 0) {
+    throw new Error(
+      `Die Herstellerliste ist an ${korrekturHinfaellig.join(', ')} inzwischen sauber. ` +
+        `Diese Korrekturzeilen in content/artikelnamen/korrekturen.tsv sind hinfaellig und gehoeren geloescht.`
+    );
+  }
   for (const k of korrekturen) {
     if (!korrekturBenutzt.has(k.nummer)) {
       throw new Error(
@@ -282,6 +318,9 @@ function erzeuge(): Ergebnis {
           `Entweder ist die Nummer falsch geschrieben, oder der Hersteller hat sie entfernt.`
       );
     }
+  }
+  if (korrekturen.length > 0) {
+    diagnose.push(`Korrigierte Herstellerzeilen: ${korrekturen.length} (content/artikelnamen/korrekturen.tsv).`);
   }
 
   diagnose.push(`Zuordnung gegen die d-Spalte geprueft: ${gegengeprueft}, Widersprueche: ${widersprueche}.`);

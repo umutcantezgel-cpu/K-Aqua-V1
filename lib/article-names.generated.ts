@@ -6,15 +6,11 @@
 // einer neuen Auffälligkeit die CI bricht, bis jemand hingesehen hat:
 //
 //   Mehrdeutige Normalformen im Bestand: 21 Gruppen, 42 Nummern. Diese bekommen NIE einen Namen.
+//   Korrigierte Herstellerzeilen: 5 (content/artikelnamen/korrekturen.tsv).
 //   Zuordnung gegen die d-Spalte geprueft: 242, Widersprueche: 0.
 //   Waisen (keine Website-Nummer): 99.
-//   Verworfene Zellen und Zeilen: 6
-//     - AQ045P125 fr: mehr Massangaben als im Deutschen ("Coude 45° d20 mm d125 mm")
+//   Verworfene Zellen und Zeilen: 1
 //     - BH045P20: unbekanntes Kuerzel BH, kein Alias
-//     - CU045P75 fr: mehr Massangaben als im Deutschen ("Coude 45° d20 mm d75 mm curry")
-//     - MO045P40 fr: mehr Massangaben als im Deutschen ("Coude 45° d20 mm d40 mm Mocca")
-//     - MO045P50 fr: mehr Massangaben als im Deutschen ("Coude 45° d20 mm d50 mm Mocca")
-//     - MO045P63 fr: mehr Massangaben als im Deutschen ("Coude 45° d20 mm d63 mm Mocca")
 //   Website-Nummern ohne Namen: 284 von 580 (accessories 38, fittings 4, pipes 175, tools 35, transition-fittings 13, valves 19)
 
 export type ArticleNameLocale = 'de' | 'en' | 'fr';
@@ -39,7 +35,7 @@ export const ARTICLE_NAMES: Readonly<Record<string, ArticleNameRecord>> = {
   "AQ04120": {"de":"Winkel 45° I/A d20 mm","en":"Elbow 45° m/f d20 mm","fr":"Coude 45° (femelle/mâle) d20 mm","source":"AQ041P20"},
   "AQ04125": {"de":"Winkel 45° I/A d25 mm","en":"Elbow 45° m/f d25 mm","fr":"Coude 45° (femelle/mâle) d25 mm","source":"AQ041P25"},
   "AQ045110": {"de":"Winkel 45° d110 mm","en":"Elbow 45° d110 mm","fr":"Coude 45° d110 mm","source":"AQ045P110"},
-  "AQ045125": {"de":"Winkel 45° d125 mm","en":"Elbow 45° d125 mm","source":"AQ045P125"},
+  "AQ045125": {"de":"Winkel 45° d125 mm","en":"Elbow 45° d125 mm","fr":"Coude 45° d125 mm","source":"AQ045P125"},
   "AQ045160": {"de":"Winkel 45° (SDR 11) d160 mm","en":"Elbow 45° d160 mm (SDR 11)","fr":"Coude 45° d160 mm (SDR 11)","source":"AQ045P160"},
   "AQ04520": {"de":"Winkel 45° d20 mm","en":"Elbow 45° d20 mm","fr":"Coude 45° d20 mm","source":"AQ045P20"},
   "AQ045200": {"de":"Winkel 45° (SDR 11) d200 mm","en":"Elbow 45° d200 mm (SDR 11)","fr":"Coude 45° d200 mm (SDR 11)","source":"AQ045P200"},

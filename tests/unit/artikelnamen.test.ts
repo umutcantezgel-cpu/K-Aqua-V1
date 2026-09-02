@@ -157,12 +157,19 @@ describe('Textqualität', () => {
     }
   });
 
-  /* Genau ein Eintrag ohne Franzoesisch: AQ045125, dessen franzoesische Zelle
-     eine FREMDE Massangabe trug ("Coude 45° d20 mm d125 mm") und deshalb
-     verworfen wurde. */
-  it('hat genau einen Eintrag ohne Franzoesisch', () => {
+  /* Kein Eintrag ohne Franzoesisch.
+   *
+   * Es war einer: AQ045125, dessen franzoesische Zelle eine FREMDE Massangabe
+   * trug ("Coude 45° d20 mm d125 mm") und deshalb verworfen wurde. Die Zelle
+   * ist inzwischen in content/artikelnamen/korrekturen.tsv richtiggestellt —
+   * nicht in der Quelle, denn dort brächte die naechste Lieferung den Fehler
+   * still zurueck.
+   *
+   * Die leere Liste ist kein Selbstzweck: Sie faellt auf, sobald eine neue
+   * Lieferung eine franzoesische Zelle beschaedigt. */
+  it('hat keinen Eintrag ohne Franzoesisch', () => {
     const ohne = Object.entries(ARTICLE_NAMES).filter(([, r]) => !r.fr).map(([c]) => c);
-    expect(ohne).toEqual(['AQ045125']);
+    expect(ohne).toEqual([]);
   });
 
   it('enthaelt keinen Namen ohne Buchstaben', () => {
@@ -225,8 +232,20 @@ describe('Sprachkette', () => {
     }
   });
 
-  it('faellt auf Englisch, wo Franzoesisch fehlt', () => {
-    expect(articleName('AQ045125', 'fr')).toBe(ARTICLE_NAMES['AQ045125']?.en);
+  /* Der Rueckfall auf Englisch, wo Franzoesisch fehlt.
+   *
+   * Heute greift er an keiner einzigen Nummer — seit der Korrektur von
+   * AQ045125 traegt jeder Eintrag Franzoesisch. Ein Test an einem einzelnen
+   * Beispiel waere damit ins Leere gelaufen und haette geloescht werden
+   * muessen. Geprueft wird deshalb die REGEL ueber den ganzen Bestand: Sie
+   * gilt auch dann noch, wenn morgen wieder eine Zelle fehlt, und sie faengt
+   * den Tag, an dem jemand die `record.fr`-Bedingung in `ausRecord` entfernt
+   * — dann kaeme dort `undefined` heraus statt des englischen Namens. */
+  it('gibt fuer Franzoesisch immer fr, sonst en — ueber den ganzen Bestand', () => {
+    for (const [code, r] of Object.entries(ARTICLE_NAMES)) {
+      expect(articleName(code, 'fr'), code).toBe(r.fr ?? r.en);
+      expect(articleName(code, 'fr-SN'), code).toBe(r.fr ?? r.en);
+    }
   });
 
   it('gibt null fuer eine unbekannte Nummer', () => {
