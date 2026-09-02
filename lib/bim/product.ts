@@ -23,6 +23,7 @@ import {
   type ArticleTable,
 } from '@/lib/bim/article-table';
 import { resolveMaterialId, type BimMaterialId } from '@/lib/bim/tables/material';
+import { articleName } from '@/lib/article-names';
 import { EXPANSION_COEFFICIENT_PER_K } from '@/lib/bim/tables/expansion';
 import {
   selectSupportTable,
@@ -65,6 +66,19 @@ export interface BimRecord {
   productSlug: string;
   category: CatalogCategoryId;
   title: string;
+  /**
+   * Der offizielle Artikelname des Herstellers zu genau DIESER Nummer, in der
+   * angeforderten Sprache — „Winkel 45° d20 mm" statt „PP-R Standard Elbow 45°".
+   *
+   * `title` ist der Name des PRODUKTS und auf allen Nennweiten derselbe. Wer
+   * heute ein IFC importiert, sieht auf allen Bauteilen einer Familie
+   * denselben Text und muss die Nennweite aus den Maßen zurueckrechnen.
+   *
+   * Null, wo die Herstellerliste die Nummer nicht fuehrt — das trifft 284 von
+   * 546 Nummern, darunter alle 175 Rohre. Der Fehlerfall ist ein fehlender
+   * Name, nie ein falscher.
+   */
+  articleName: string | null;
 
   /* --- Maße, so weit der Katalog sie fuehrt. Null heisst: nicht angegeben. */
   /** Aussendurchmesser d in mm. Bei Rohren traegt die Spalte den Kopf `D`. */
@@ -474,6 +488,11 @@ export function getBimRecord(code: string): BimRecord | null {
     productSlug: slug,
     category: product.category,
     title: product.title,
+    /* Englisch, nicht Deutsch. Ein IFC-Modell wandert durch die
+       Planungskette, und der Empfaenger sitzt nicht zwangslaeufig im selben
+       Sprachraum; die Ausgabe traegt sonst ueberall Englisch. Wer eine
+       andere Sprache braucht, bekommt sie ueber `articleNamesFor`. */
+    articleName: articleName(code, 'en'),
 
     outerDiameterMm,
     innerDiameterMm,

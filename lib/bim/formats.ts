@@ -32,6 +32,8 @@ import {
 export interface BimJsonArticle {
   articleNumber: string;
   product: string;
+  /** Offizielle Bezeichnung des Herstellers zu genau dieser Nummer, englisch. */
+  articleName: string | null;
   productSlug: string;
   category: string;
   manufacturer: string;
@@ -73,6 +75,10 @@ export function toJsonArticle(record: BimRecord): BimJsonArticle {
   return {
     articleNumber: record.articleCode,
     product: record.title,
+    /* Der Name des ARTIKELS, nicht des Produkts. `product` ist auf allen
+       Nennweiten einer Familie derselbe Text. Null, wo die Herstellerliste
+       die Nummer nicht fuehrt. */
+    articleName: record.articleName,
     productSlug: record.productSlug,
     category: record.category,
     manufacturer: 'K-Aqua KWT GmbH',
@@ -155,6 +161,7 @@ export function toJsonDocument(records: BimRecord[], generated: Date): BimJsonDo
 const CSV_COLUMNS: { header: string; get: (r: BimRecord) => string | number | null }[] = [
   { header: 'Artikelnummer', get: (r) => r.articleCode },
   { header: 'Produkt', get: (r) => r.title },
+  { header: 'Artikelbezeichnung', get: (r) => r.articleName },
   { header: 'Kategorie', get: (r) => r.category },
   { header: 'Werkstoff', get: (r) => r.material },
   { header: 'Farbe', get: (r) => r.colour },

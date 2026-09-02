@@ -453,7 +453,13 @@ export function writeIfc(options: IfcWriteOptions): IfcWriteResult {
     entity,
     guid('element'),
     ownerHistory,
-    `${record.title} ${record.articleCode}`,
+    /* Der Bauteilname im Modellbaum. Bisher stand hier der PRODUKTname, und
+       der ist auf allen Nennweiten einer Familie derselbe: Ein Planer sah in
+       der Baumansicht 14-mal „PP-R Standard Elbow 45°" und musste die
+       Nennweite aus den Massen zurueckrechnen. Wo der Hersteller einen
+       Artikelnamen fuehrt, steht jetzt der. Wo nicht — 284 von 546 Nummern,
+       darunter alle Rohre — bleibt es beim Produktnamen. */
+    `${record.articleName ?? record.title} ${record.articleCode}`,
     `${record.title}. Nennweite ${record.outerDiameterMm ?? '—'} mm. ${record.source}.`,
     null,
     elementPlacement,
@@ -866,6 +872,16 @@ function writePropertySets(
     property(b, 'Katalogausgabe', label(record.catalogEdition)),
     property(b, 'Katalogfundstelle', label(record.source), 'Seitenbeleg im Herstellerkatalog'),
   ];
+  if (record.articleName !== null) {
+    article.push(
+      property(
+        b,
+        'Artikelbezeichnung',
+        label(record.articleName),
+        'Offizielle Bezeichnung des Herstellers zu genau dieser Artikelnummer',
+      ),
+    );
+  }
   if (record.sdr !== null) article.push(property(b, 'SDR', realMeasure(record.sdr)));
   if (record.series !== null) article.push(property(b, 'Reihe', label(record.series)));
   if (record.colour !== null) article.push(property(b, 'Farbkennzeichnung', label(record.colour)));

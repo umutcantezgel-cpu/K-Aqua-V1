@@ -13,6 +13,7 @@
 import type { NextRequest } from 'next/server';
 import { buildIfcForArticle, type GeometryLevel } from '@/lib/bim/export';
 import { getBimRecord } from '@/lib/bim/product';
+import { resolveArticleCode } from '@/lib/article-names';
 import { toJsonArticle, toCsv, bimFileName } from '@/lib/bim/formats';
 import {
   fileResponse,
@@ -35,8 +36,36 @@ export async function GET(
   const { code: rawCode } = await params;
   const code = decodeURIComponent(rawCode).trim().toUpperCase();
 
+  const url = new URL(request.url);
+
   const record = getBimRecord(code);
   if (!record) {
+    /* Zweiter Versuch mit der Herstellerschreibweise. Der Druckkatalog fuehrt
+       die Nummern mit dem Werkstoffbuchstaben (`AQ045P110`), die Website ohne
+       (`AQ045110`); dazu kommen die Farbvarianten (`CU045P110`). Wer aus dem
+       Katalog abtippt oder eine Variante bestellt hat, bekam bisher 404.
+       
+       308 und nicht 200: Der exakte Vergleich in `getBimRecord` bleibt, wie er
+       ist — aufgeweicht wuerde er `AQ200P20` (PP-R, SDR 6) und `AQ20020`
+       (PP-RCT, SDR 7,4) zusammenlegen. Und es bleibt EINE Adresse je Artikel,
+       statt dass dieselbe IFC-Datei unter vier Nummern erreichbar waere.
+       
+       `resolveArticleCode` gibt nur zurueck, was eindeutig ist. Eine Nummer,
+       deren Normalform im Bestand mehrdeutig ist, bleibt hier ohne Antwort und
+       faellt weiter in den 404 — der Fehlerfall ist eine fehlende Datei, nie
+       eine falsche. */
+    const kanonisch = resolveArticleCode(code);
+    if (kanonisch && kanonisch !== code && getBimRecord(kanonisch)) {
+      const ziel = new URL(url);
+      ziel.pathname = ziel.pathname.replace(
+        /[^/]+$/,
+        encodeURIComponent(kanonisch),
+      );
+      // 308 statt 301: erhaelt Methode und Rumpf und ist als dauerhaft
+      // gekennzeichnet — die Zuordnung aendert sich nicht mehr.
+      return Response.redirect(ziel, 308);
+    }
+
     return errorResponse(
       404,
       `Die Artikelnummer ${code} steht nicht im Katalog.`,
@@ -44,7 +73,6 @@ export async function GET(
     );
   }
 
-  const url = new URL(request.url);
   const format = parseFormat(url.searchParams.get('format'), ['ifc', 'json', 'csv'], 'ifc');
   if (!format) {
     return errorResponse(
