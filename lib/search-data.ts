@@ -1649,7 +1649,41 @@ const BEDIENTE_ADRESSEN = new Set(GEPFLEGTE_MIT_ZIEL.map((e) => e.href));
  * `npm run search:check` bewacht sie in der CI. Ein neues Produkt erscheint
  * damit von selbst in der Suche.
  */
+const ERZEUGT_NACH_ADRESSE = new Map(GENERATED_PRODUCT_ENTRIES.map((e) => [e.href, e]));
+
+/**
+ * Ergänzt einen gepflegten Eintrag um die erzeugten Artikelnummern und
+ * Artikelnamen — und lässt alles andere in Ruhe.
+ *
+ * Ohne diesen Schritt bliebe die halbe Arbeit wirkungslos: Wo ein gepflegter
+ * Eintrag dieselbe Adresse bedient, entfällt der erzeugte ganz. Das trifft
+ * ausgerechnet die 36 gepflegten Produkte — darunter ALLE Rohre. Sie bekämen
+ * die Herstellerschreibweisen und die Farbvarianten also nie zu sehen, und
+ * `AQ045P110` aus dem Druckkatalog liefe ins Leere.
+ *
+ * Die 36 Einträge stattdessen von Hand nachzuziehen wäre der Fehler: Genau
+ * diese Doppelpflege hat den Index schon einmal auf 36 von 73 Produkten
+ * auseinanderlaufen lassen.
+ *
+ * Angefasst werden ausschliesslich `articleCodes` und `keywords`. Titel,
+ * Beschreibung und Fundstelle des gepflegten Eintrags bleiben unberührt — sie
+ * tragen dreisprachige Texte, die aus der Frontmatter nicht abzuleiten sind.
+ */
+function mitErzeugtenNummern(gepflegt: SearchEntry): SearchEntry {
+  const erzeugt = ERZEUGT_NACH_ADRESSE.get(gepflegt.href);
+  if (!erzeugt) return gepflegt;
+
+  const nummern = [...new Set([...(gepflegt.articleCodes ?? []), ...(erzeugt.articleCodes ?? [])])];
+  const schlagwoerter = [...new Set([...(gepflegt.keywords ?? []), ...(erzeugt.keywords ?? [])])];
+
+  return {
+    ...gepflegt,
+    ...(nummern.length ? { articleCodes: nummern } : {}),
+    ...(schlagwoerter.length ? { keywords: schlagwoerter } : {}),
+  };
+}
+
 export const SEARCH_INDEX: SearchEntry[] = [
-  ...GEPFLEGTE_MIT_ZIEL,
+  ...GEPFLEGTE_MIT_ZIEL.map(mitErzeugtenNummern),
   ...GENERATED_PRODUCT_ENTRIES.filter((e) => !BEDIENTE_ADRESSEN.has(e.href)),
 ];

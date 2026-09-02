@@ -62,13 +62,6 @@ jobs:
       - name: 3D registry in sync
         run: pnpm 3d:check
 
-      # Dasselbe für den Suchindex. Er führte 36 von 73 Produkten, weil er
-      # neben dem Katalog von Hand gepflegt wurde. Wird ein Produkt ergänzt,
-      # ohne den Index neu zu erzeugen, fällt es hier auf statt erst dann,
-      # wenn ein Kunde das Produkt nicht findet.
-      - name: Search index in sync
-        run: pnpm search:check
-
       # Dasselbe für die Artikelnamen des Herstellers. Der Prüflauf liest ZWEI
       # Quellen — die Herstellerliste und die Artikeltabellen der Produkte —
       # und schlägt deshalb auch an, wenn jemand eine Artikelnummer in einer
@@ -77,8 +70,18 @@ jobs:
       # Im Kopf der erzeugten Datei steht der Befund der Erzeugung. Eine
       # Lieferung mit einer neuen Auffälligkeit erzeugt damit einen Diff und
       # bricht hier, bis jemand hingesehen hat.
+      #
+      # Steht VOR dem Suchindex: der liest die Artikelnamen mit, und aus einer
+      # veralteten Namensdatei erzeugte er einen veralteten Index.
       - name: Article names in sync
         run: pnpm names:check
+
+      # Dasselbe für den Suchindex. Er führte 36 von 73 Produkten, weil er
+      # neben dem Katalog von Hand gepflegt wurde. Wird ein Produkt ergänzt,
+      # ohne den Index neu zu erzeugen, fällt es hier auf statt erst dann,
+      # wenn ein Kunde das Produkt nicht findet.
+      - name: Search index in sync
+        run: pnpm search:check
 
       - name: Unit tests
         run: pnpm test

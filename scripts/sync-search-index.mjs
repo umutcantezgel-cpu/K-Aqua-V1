@@ -27,6 +27,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
+// Laeuft unter tsx (siehe package.json), damit die erzeugte TS-Datei direkt
+// importierbar ist. Die Alternative — die Aliasse hier ein zweites Mal aus der
+// TSV abzuleiten — hiesse, die Normalform und die Mehrdeutigkeitspruefung zu
+// verdoppeln. Genau das darf es kein zweites Mal geben.
+import { ARTICLE_NAMES, ARTICLE_CODE_ALIASES } from '../lib/article-names.generated.ts';
 
 const ROOT = process.cwd();
 const CONTENT = path.join(ROOT, 'content', 'products');
@@ -42,6 +47,45 @@ const KATEGORIE = {
   'weld-in-saddles': { de: 'Einschweißsättel', en: 'Weld-in Saddles', ar: 'سروج اللحام' },
   accessories: { de: 'Zubehör', en: 'Accessories', ar: 'الملحقات' },
 };
+
+/**
+ * Umgekehrte Aliasliste: Website-Nummer -> alle Schreibweisen, unter denen der
+ * Hersteller oder eine Farbvariante sie fuehrt.
+ *
+ * `AQ045110` -> `AQ045P110` (Herstellerschreibweise mit Werkstoffbuchstaben),
+ * `CU045P110`, `BL045P110`, `MO045P110` (Farbvarianten).
+ *
+ * Nummern, deren Normalform im Bestand mehrdeutig ist, stehen hier NICHT drin
+ * — `sync-article-names.ts` weigert sich, sie aufzuloesen. `AQ200P20` (PP-R,
+ * SDR 6) und `AQ20020` (PP-RCT, SDR 7,4) sind zwei verschiedene Rohre auf zwei
+ * verschiedenen Seiten; sie ueber eine Toleranz zu verschmelzen hiesse, einem
+ * Einkaeufer das falsche Rohr zu zeigen.
+ */
+const SCHREIBWEISEN = new Map();
+for (const [schreibweise, ziel] of Object.entries(ARTICLE_CODE_ALIASES)) {
+  if (!SCHREIBWEISEN.has(ziel)) SCHREIBWEISEN.set(ziel, []);
+  SCHREIBWEISEN.get(ziel).push(schreibweise);
+}
+
+/**
+ * Der Stamm eines Artikelnamens — der Name ohne die Nennweite.
+ *
+ * Aus „Winkel 45° d20 mm", „Winkel 45° d25 mm", ... wird einmal „winkel 45°".
+ * Die volle Liste waere 886 Schlagwoerter fuer 34 Produkte, fast alle
+ * Beinahe-Dubletten; die Staemme sind 296. Die Nennweite geht dabei nicht
+ * verloren: Sie steht im Titel, in den Spezifikationen und in jeder einzelnen
+ * Artikelnummer.
+ *
+ * Was der Stamm BEHAELT, ist alles Unterscheidende, das keine Nennweite ist —
+ * `Abpresszapfen 1/2` behaelt das Zollgewinde, `Kappe (SDR 11)` die Reihe.
+ */
+function stamm(name) {
+  return name
+    .replace(/\s*d\s*\d+[\d\/x.,-]*\s*mm.*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+}
 
 function produktdateien() {
   const treffer = [];
@@ -93,6 +137,29 @@ for (const { kategorie, pfad } of produktdateien()) {
   const titelAr = String(data.titleAR ?? titelEn);
 
   const codes = Array.isArray(data.article_codes) ? data.article_codes.map(String) : [];
+
+  // Die Herstellerschreibweisen und die Farbvarianten zu den Nummern dieses
+  // Produkts. Ein Treffer auf einer Artikelnummer wiegt 250 Punkte und ist
+  // damit die staerkste Achse der Suchmaschine (lib/search-engine.ts) — wer
+  // `AQ045P110` aus dem Druckkatalog abtippt, landet ohne eine Zeile Engine
+  // auf dem richtigen Produkt.
+  const weitereNummern = [
+    ...new Set(codes.flatMap((c) => SCHREIBWEISEN.get(c.toUpperCase()) ?? [])),
+  ].filter((n) => !codes.includes(n));
+
+  // Die Artikelnamen des Herstellers, je Sprache und ohne Nennweite.
+  // „T-Stück" ist, was ein Einkaeufer tippt — nicht „PP-R Reducing Tee".
+  const artikelnamen = [
+    ...new Set(
+      codes
+        .map((c) => ARTICLE_NAMES[c.toUpperCase()])
+        .filter(Boolean)
+        .flatMap((n) => [n.de, n.en, n.fr].filter(Boolean))
+        .map(stamm)
+        .filter((n) => n.length > 2)
+    ),
+  ].sort();
+
   const beschreibung = ersteBeschreibung(content);
   const groessen = nennweiten(content);
 
@@ -106,6 +173,7 @@ for (const { kategorie, pfad } of produktdateien()) {
         ...titelEn.toLowerCase().split(/[^a-z0-9]+/),
         kategorie,
         kat.de.toLowerCase(),
+        ...artikelnamen,
       ].filter((w) => w.length > 2)
     ),
   ];
@@ -133,12 +201,15 @@ for (const { kategorie, pfad } of produktdateien()) {
     href,
     badge: kat,
     ...(spezifikationen.length ? { specs: spezifikationen } : {}),
-    ...(codes.length ? { articleCodes: codes } : {}),
+    ...(codes.length || weitereNummern.length
+      ? { articleCodes: [...codes, ...weitereNummern] }
+      : {}),
   });
 }
 
 const datei = `// ERZEUGT — nicht von Hand ändern.
 // Quelle: content/products/**/*.md (Frontmatter und erster Absatz)
+//         lib/article-names.generated.ts (Herstellerschreibweisen und -namen)
 // Neu erzeugen mit: npm run search:sync
 //
 // Diese Datei schließt die Lücke im Suchindex: lib/search-data.ts pflegt 36
