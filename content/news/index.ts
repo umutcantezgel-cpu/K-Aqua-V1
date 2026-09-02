@@ -64,10 +64,28 @@ export interface NewsPost {
   tags?: string[];
 }
 
+/**
+ * Löst einen mehrsprachigen News-Wert auf.
+ *
+ * RÜCKFALL: Zielsprache → Englisch → Deutsch.
+ *
+ * Bis hierher stand hier `[locale] || content.de` — ohne Englisch dazwischen.
+ * `LocalizedContent` führt nur `de`, `en` und `ar`, also traf der Rückfall
+ * jede der übrigen 62 Sprachen: Ein französischer Besucher las auf jeder
+ * News-Seite deutschen Text.
+ *
+ * Das war die einzige Stelle im Projekt, die der Regel widersprach. Überall
+ * sonst gilt sie längst — `lib/i18n/request.ts:90` merged
+ * `de → en → Zielsprache`, und weil `en.json` eine vollständige Obermenge von
+ * `de.json` ist, zeigt ein fehlender Schlüssel dort Englisch.
+ *
+ * Für `de`, `en` und `ar` ändert sich nichts.
+ */
 export function resolveLocalized(content: LocalizedContent | undefined, locale: string): string {
   if (!content) return '';
   if (typeof content === 'string') return content;
-  return (content as Record<string, string>)[locale] || content.de || '';
+  const werte = content as Record<string, string>;
+  return werte[locale] || content.en || content.de || '';
 }
 
 // Zentrale Registry fuer alle News (derzeit 4 von 50 geplanten)
