@@ -54,6 +54,20 @@ export interface ProductData {
   source?: string;
   [key: string]: unknown;
   content: string;
+  /**
+   * Derselbe Inhalt, aber aufgetrennt: die Artikeltabelle als gelesene
+   * Datenstruktur, alles uebrige weiter als HTML.
+   *
+   * Muss ausdruecklich hier stehen. Die Schnittstelle traegt eine
+   * Indexsignatur `[key: string]: unknown`, und ohne eigene Deklaration
+   * kaeme das Feld beim Leser als `unknown` an — `product.contentSegments`
+   * liesse sich dann nicht abbilden.
+   *
+   * Optional, weil `getAllProducts()` die Segmente nicht baut: die Uebersicht
+   * braucht nur Titel und Kurztext, und alle 73 Tabellen zu lesen waere dort
+   * Arbeit fuer nichts.
+   */
+  contentSegments?: ProductContentSegment[];
   seoTextDe?: string;
   seoTextEn?: string;
   seoTextAr?: string;

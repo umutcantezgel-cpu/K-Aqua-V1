@@ -24,6 +24,8 @@ import ProductFAQ from '@/components/product/ProductFAQ';
 
 import ProductDownloads from '@/components/product/ProductDownloads';
 import LocalAvailability from '@/components/product/LocalAvailability';
+import { ArticleTable } from '@/components/product/ArticleTable';
+import type { ProductContentSegment } from '@/lib/products';
 import { articleCodesForProduct } from '@/lib/bim/product';
 import { NextIntlClientProvider } from 'next-intl';
 import pick from 'lodash/pick';
@@ -285,11 +287,19 @@ export default async function ProductDetailPage({
   const contentHeadings = (tProd.has('labels.contentHeadings')
     ? tProd.raw('labels.contentHeadings')
     : {}) as Record<string, string>;
-  const localizedProductContent = Object.entries(contentHeadings).reduce(
-    (html, [english, translated]) =>
-      english === translated ? html : html.split(`<h2>${english}</h2>`).join(`<h2>${translated}</h2>`),
-    product.content.replace(/<h1/g, '<h2').replace(/<[/]h1>/g, '</h2>')
-  );
+  const uebersetzeUeberschriften = (html: string) =>
+    Object.entries(contentHeadings).reduce(
+      (h, [english, translated]) =>
+        english === translated ? h : h.split(`<h2>${english}</h2>`).join(`<h2>${translated}</h2>`),
+      html.replace(/<h1/g, '<h2').replace(/<[/]h1>/g, '</h2>')
+    );
+
+  /* Die Artikeltabelle kommt seit `product-by-slug-v4` als Datenstruktur und
+     nicht mehr als HTML-Blob. Fehlt `contentSegments` — etwa weil ein alter
+     Cacheeintrag ueberlebt hat —, bleibt es beim bisherigen einen HTML-Stueck. */
+  const segmente: ProductContentSegment[] = product.contentSegments ?? [
+    { kind: 'html', html: product.content },
+  ];
 
   const faqTitle = tProd.has('labels.faqTitle')
     ? tProd('labels.faqTitle')
@@ -550,24 +560,40 @@ export default async function ProductDetailPage({
                   Custom Markdown Table Styling 
                   We override standard prose to ensure tables are beautiful, scrollable, and perfectly legible.
                 */}
-                <div 
-                  className="
-                    prose dark:prose-invert max-w-none w-full
-                    prose-headings:font-heading prose-headings:font-bold prose-headings:text-foreground prose-headings:mb-6
-                    prose-h1:text-h2 prose-h2:text-h3 prose-h3:text-h4
-                    prose-p:text-body prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
-                    prose-a:text-primary hover:prose-a:text-primary-strong
-                    prose-strong:text-foreground prose-strong:font-semibold
-                    prose-ul:text-muted-foreground prose-li:marker:text-primary
-                    /* Table Overrides */
-                    prose-table:w-full prose-table:text-sm prose-table:text-start prose-table:border-collapse prose-table:my-8
-                    prose-th:bg-card prose-th:p-4 prose-th:font-heading prose-th:font-bold prose-th:text-foreground prose-th:border-b-2 prose-th:border-primary prose-th:whitespace-nowrap
-                    prose-td:p-4 prose-td:border-b prose-td:border-card-border prose-td:text-muted-foreground prose-td:whitespace-nowrap
-                    prose-tr:transition-colors hover:prose-tr:bg-primary-soft/30
-                    overflow-x-auto rounded-xl border border-card-border bg-card shadow-sm p-4 sm:p-8
-                  "
-                  dangerouslySetInnerHTML={{ __html: localizedProductContent }}
-                />
+                <div className="overflow-x-auto rounded-xl border border-card-border bg-card shadow-sm p-4 sm:p-8">
+                  {segmente.map((segment, i) =>
+                    segment.kind === 'articleTable' ? (
+                      <ArticleTable
+                        key={`tabelle-${i}`}
+                        table={segment.table}
+                        heading={contentHeadings[segment.heading] ?? segment.heading}
+                        locale={locale}
+                        productName={product.title}
+                        slug={slug}
+                      />
+                    ) : (
+                      <div
+                        key={`html-${i}`}
+                        className="
+                          prose dark:prose-invert max-w-none w-full
+                          prose-headings:font-heading prose-headings:font-bold prose-headings:text-foreground prose-headings:mb-6
+                          prose-h1:text-h2 prose-h2:text-h3 prose-h3:text-h4
+                          prose-p:text-body prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
+                          prose-a:text-primary hover:prose-a:text-primary-strong
+                          prose-strong:text-foreground prose-strong:font-semibold
+                          prose-ul:text-muted-foreground prose-li:marker:text-primary
+                          /* Table Overrides — gelten noch fuer die uebrigen Tabellen
+                             der Produkt-Markdowns: Available Sizes, Specifications. */
+                          prose-table:w-full prose-table:text-sm prose-table:text-start prose-table:border-collapse prose-table:my-8
+                          prose-th:bg-card prose-th:p-4 prose-th:font-heading prose-th:font-bold prose-th:text-foreground prose-th:border-b-2 prose-th:border-primary prose-th:whitespace-nowrap
+                          prose-td:p-4 prose-td:border-b prose-td:border-card-border prose-td:text-muted-foreground prose-td:whitespace-nowrap
+                          prose-tr:transition-colors hover:prose-tr:bg-primary-soft/30
+                        "
+                        dangerouslySetInnerHTML={{ __html: uebersetzeUeberschriften(segment.html) }}
+                      />
+                    )
+                  )}
+                </div>
 
                 {/* 4. Individual SEO Technical Specs */}
                 {seoTextHtml && (
