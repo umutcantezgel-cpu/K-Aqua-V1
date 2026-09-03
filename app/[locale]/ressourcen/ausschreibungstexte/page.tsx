@@ -16,6 +16,7 @@ import { BentoGrid, BentoGridItem } from '@/components/ui/BentoGrid';
 import { HorizontalTimeline } from '@/components/ui/HorizontalTimeline';
 import { PremiumAssetPlaceholder } from '@/components/ui/PremiumAssetPlaceholder';
 import Native3DCanvas from '@/components/3d/Native3DCanvasLazy';
+import LvDownloads from '@/components/bim/LvDownloads';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -102,7 +103,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         description={t('hero.desc')}
       >
         <div className="flex flex-wrap gap-4 mt-12 justify-center lg:justify-start">
-          <Button variant="primary" size="lg" href="/ressourcen/support">
+          <Button variant="primary" size="lg" href="#lv-texte">
             {t('hero.cta1')}
           </Button>
           <Button variant="ghost" size="lg" href="/projektanfrage">
@@ -126,8 +127,24 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-      {/* 3) Sticky Scroll Reveal Deep Dive */}
-      <section className="bg-card">
+      {/* 3) Die Ausschreibungstexte selbst — der Zweck dieser Seite.
+       *
+       * Bis hierher stand hier ausschließlich Prosa ÜBER Ausschreibungstexte:
+       * kein Kurztext, kein Langtext, keine Ordnungszahl, keine
+       * Mengeneinheit. Die beiden Hauptknöpfe zeigten auf /ressourcen/support,
+       * wo ebenfalls keine Datei liegt. Jetzt steht hier eine echte Position
+       * zum Lesen, und die Downloads liefern wirklich eine Datei. */}
+      <section
+        id="lv-texte"
+        className="py-32 md:py-40 bg-card border-b border-card-border scroll-mt-24"
+      >
+        <div className="mx-auto max-w-[1200px] px-6">
+          <LvDownloads locale={locale} />
+        </div>
+      </section>
+
+      {/* 4) Sticky Scroll Reveal Deep Dive */}
+      <section className="bg-background">
         <StickyScrollReveal content={deepDiveContent} />
       </section>
 
@@ -254,7 +271,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
               {t('cta.desc')}
             </p>
             <div className="flex flex-wrap gap-4 mt-2">
-              <Button variant="inverse" size="lg" href="/ressourcen/support">
+              <Button variant="inverse" size="lg" href="#lv-texte">
                 {t('cta.btn1')}
               </Button>
               <Button variant="secondary" size="lg" href="/projektanfrage" className="text-inverse-foreground border-inverse-foreground/20 hover:bg-inverse-foreground hover:text-foreground">
