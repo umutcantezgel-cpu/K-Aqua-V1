@@ -187,6 +187,14 @@ export default async function ProduktePage({ params }: Props) {
                 badge: 'Systemzubehör',
                 accent: 'bg-primary/10 text-primary border-primary/20',
               },
+              {
+                id: 'prefabrication',
+                title: 'Vorfertigung & Sonderbauteile',
+                desc: 'Maßgeschneiderte modulare Rohrverteiler und vorgefertigte Baugruppen für minimale Bauzeit.',
+                href: '/projektanfrage',
+                badge: '100% Werksgeprüft',
+                accent: 'bg-accent/10 text-accent border-accent/20',
+              },
             ]
           },
           en: {
@@ -249,6 +257,14 @@ export default async function ProduktePage({ params }: Props) {
                 href: '/produkte/accessories',
                 badge: 'System Accessories',
                 accent: 'bg-primary/10 text-primary border-primary/20',
+              },
+              {
+                id: 'prefabrication',
+                title: 'Prefabrication & Manifolds',
+                desc: 'Custom engineered modular pipe manifolds and pre-assembled units for minimal installation time.',
+                href: '/projektanfrage',
+                badge: '100% Factory Tested',
+                accent: 'bg-accent/10 text-accent border-accent/20',
               },
             ]
           },
@@ -313,6 +329,14 @@ export default async function ProduktePage({ params }: Props) {
                 badge: 'إكسسوارات النظام',
                 accent: 'bg-primary/10 text-primary border-primary/20',
               },
+              {
+                id: 'prefabrication',
+                title: 'التصنيع المسبق والمجمعات المخصصة',
+                desc: 'مجمعات أنابيب معيارية مصممة خصيصاً ووحدات جاهزة للتركيب لتقليل وقت البناء إلى أدنى حد.',
+                href: '/projektanfrage',
+                badge: 'مفحوصة مصنعياً 100%',
+                accent: 'bg-accent/10 text-accent border-accent/20',
+              },
             ]
           }
         };
@@ -334,7 +358,7 @@ export default async function ProduktePage({ params }: Props) {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {currentDir.categories.map((cat) => (
                   <Link
                     key={cat.id}

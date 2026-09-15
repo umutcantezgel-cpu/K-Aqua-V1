@@ -42,9 +42,11 @@ export const PPR_GREEN_RAL6024 = '#008351';
 /* ── Registry ──
    noise  Roughness-Map aus prozeduralem Rauschen (Spritzguss)
    wear   Absenkung der Roughness an Fasen (aWear-Attribut), 0 = aus
-   emboss Prägeschrift „Made in Germany" als Normalmap. Nur auf den
-          PP-Körpern: Kennstreifen, Faserkern, Messing, Chrom und Dichtungen
-          tragen am realen Bauteil keine.
+   emboss Dieser Werkstoff WÜRDE die Prägeschrift tragen, wenn ein Produkt
+          sie anfordert (`createAssembly({ emboss: true })`). Sie ist seit dem
+          05.09.2026 stillgelegt — Begründung am Kopf von embossTexture().
+          Die Marke sitzt nur auf den PP-Körpern: Kennstreifen, Faserkern,
+          Messing, Chrom und Dichtungen tragen am realen Bauteil keine.
    sheenFrom  Glanzfarbe wird aus der Grundfarbe gegen Weiß gemischt */
 export const MAT = {
   pprGreen: {
@@ -192,12 +194,42 @@ export function noiseTexture(seed, size = 512) {
   return t;
 }
 
-/* ── Prägeschrift ──
+/* ── Prägeschrift — STILLGELEGT am 05.09.2026 ──
 
+   Der Generator steht hier vollständig, wird aber nicht mehr von selbst
+   aufgerufen: `materials()` verlangt dafür ausdrücklich `emboss: true`, und
+   kein Produkt tut das. Was folgt, ist erst die Begründung der Stilllegung,
+   dann die des ursprünglichen Entwurfs — beides gehört zusammen, sonst
+   schaltet in einem halben Jahr jemand die Marke wieder an.
+
+   ── WARUM SIE STILLLIEGT ──
+   Nicht die Textur war falsch, sondern ihre ABBILDUNG. Der Schriftzug belegt
+   in der 1024 × 512-Textur u ∈ [0,26 … 0,85] und v ∈ [0,455 … 0,545].
+   `revolve()` bildet aber u = θ/2π ab und v als Bogenlänge des PROFILS. Die
+   Zeile wird dadurch über 212° Umfang gezogen und auf 9 % der Profillänge
+   gestaucht: an der Muffe d32 rund 80 mm breit bei 9 mm Höhe. Lesbar ist da
+   nichts — sichtbar blieben Querstreifen, die wie ein Renderfehler wirkten,
+   auf 37 der 70 Produkte.
+
+   Nachjustieren hilft nicht. Schriftgröße und Position verschieben das
+   Verhältnis, lösen es aber nicht: u und v haben am Rotationskörper völlig
+   verschiedene Maßstäbe, und die Verzerrung wächst zusätzlich mit jedem
+   Profilpunkt, den ein Bauteil mehr hat als das nächste. Wer die Prägung
+   zurückholen will, braucht deshalb ZWINGEND eines von beidem:
+
+     · eine eigene UV-Insel für die Schriftfläche, oder
+     · ein eigenes flaches Decal-Mesh, wie es der Aufdruck der Rohre
+       (printTexture, weiter unten) bereits vormacht.
+
+   Das Muster dahinter steht als Fall 49 im Fehlerkatalog: isotrope Texturen
+   — Rauschen, Verschleiß — dürfen auf generischen UVs reiten, weil ihnen
+   Verzerrung nichts ausmacht. Alles, was FORM trägt (Schrift, Logos,
+   Symbole), braucht seine eigene Abbildung.
+
+   ── WARUM DER ENTWURF SONST RICHTIG WAR ──
    Ein Spritzgussteil trägt seine Herkunft als Erhebung im Polymer, nicht als
    Aufdruck: gleiche Farbe, gleiche Oberfläche, nur Licht und Schatten machen
-   sie lesbar. Genau das leistet eine Normalmap — und nur sie kommt hier
-   infrage:
+   sie lesbar. Genau das leistet eine Normalmap — und nur sie kam infrage:
 
    · Echte Buchstabengeometrie scheidet aus. tests/unit/kaqua3d-geometry.test.ts
      deckelt bei 400 000 Vertices je Produkt und 4 000 000 über die Bibliothek;
@@ -208,13 +240,7 @@ export function noiseTexture(seed, size = 512) {
      und den Kantenverschleiß aller Bauteile abschalten.
 
    Bleibt der reguläre normalMap-Slot. Kostet keine Dreiecke und keinen Patch.
-
-   PLATZIERUNG: revolve() bildet den Winkel als u = θ/2π ab (geometry.js).
-   Bei Hauptachse X ist y = r·cos θ, θ = 180° also exakt unten — dort bekäme
-   die Prägung im Web-Viewer aber nie Licht (Native3DCanvas hat kein Licht von
-   unten, anders als die Standalone-Bühne). Deshalb u ≈ 0,555, das sind rund
-   200°: an der unteren Flanke, wo sie beim Drehen Streiflicht bekommt und
-   lesbar wird, ohne herauszustechen.
+   Diese Überlegung gilt weiter; sie scheitert allein an der Abbildung.
 
    ACHTUNG bei Änderungen: Die erzeugte Textur muss in M._tex landen, sonst
    gibt disposeMaterials() sie nie frei und sie leckt bei jedem Modellwechsel. */
@@ -456,10 +482,14 @@ export function materials(keys, seed = 17, opt = {}) {
   const need = keys.some((k) => MAT[k] && MAT[k].noise);
   const tA = need ? noiseTexture(seed) : null;
   const tB = need ? noiseTexture(seed * 247 + 12) /* 17 -> 4211, wie bisher */ : null;
-  /* Die Prägung sitzt auf den PP-Körpern, nicht auf Messing, Chrom oder
-     Dichtungen — dort gibt es sie am realen Bauteil auch nicht. `emboss`
-     kann per Option abgeschaltet werden (Prüfläufe, Exporte). */
-  const praegen = opt.emboss !== false && keys.some((k) => MAT[k] && MAT[k].emboss);
+  /* Die Prägung ist STILLGELEGT: `emboss: true` muss ausdrücklich verlangt
+     werden. Warum, steht am Kopf von embossTexture() — kurz: über die
+     Revolve-UVs ist lesbare Schrift nicht zu haben, und unlesbar sah sie auf
+     37 von 70 Produkten wie ein Renderfehler aus.
+
+     Vorher stand hier `opt.emboss !== false`, die Prägung war also der
+     Normalfall und musste einzeln abgewählt werden. */
+  const praegen = opt.emboss === true && keys.some((k) => MAT[k] && MAT[k].emboss);
   const tE = praegen ? embossTexture(opt.embossText) : null;
 
   /* Der Aufdruck braucht seinen Text vom Produkt — Nennweite und Reihe

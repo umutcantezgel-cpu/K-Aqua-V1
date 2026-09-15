@@ -368,8 +368,6 @@ const product = {
       name: 'K-Aqua_Rohr_d' + size,
       materials: matKeys,
       seed: 71,
-      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
-      emboss: false,
       printText: druckzeile(product.brandLine, size),
       clipPlane,
     });

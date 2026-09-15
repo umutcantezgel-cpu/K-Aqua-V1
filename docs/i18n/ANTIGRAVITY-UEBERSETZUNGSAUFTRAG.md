@@ -1,12 +1,55 @@
-# Übersetzungsauftrag K-Aqua — 20 parallele Agenten, je Agent eine Sprache
+# Übersetzungsauftrag K-Aqua — ein Bearbeiter, Handarbeit, ohne Unterbrechung
 
-**Ziel:** In `messages/<locale>.json` stehen 32.457 Werte, die noch deutsch
-oder englisch sind oder ganz fehlen. Sie sollen in 59 Sprachen übersetzt
-werden. Wenn `node scripts/i18n-worklist.mjs --alle` am Ende `0 offene
-Einträge` meldet, ist der Auftrag erledigt.
+## 0. Die wichtigste Regel zuerst
 
-Dieses Dokument ist die vollständige Arbeitsanweisung. Es setzt keinerlei
-Vorwissen über das Projekt voraus.
+### Keine Unteragenten
+
+**Du arbeitest selbst. Du startest keine Agenten, keine Unteraufgaben, keinen
+Fan-out, keine parallelen Bearbeiter — nicht einen.**
+
+Der Grund ist gemessen, nicht theoretisch: Jeder gestartete Agent liest sich
+erst in Projekt, Auftrag und Befund ein, bevor er den ersten Satz übersetzt.
+Bei zwanzig Agenten wird dieses Einlesen zwanzigmal bezahlt, das Kontingent ist
+aufgebraucht, und übersetzt ist am Ende fast nichts. Ein Bearbeiter, der
+durchgehend an derselben Sache bleibt, hat das Projekt einmal im Kopf und
+arbeitet danach nur noch.
+
+Zweiter Grund: Am 2026-09-01 hat ein paralleler Lauf **elf Sprachdateien
+zerstört** — abgeschnittene Zeichenketten mitten im Wort, ineinander
+geschriebene Zeilen, ungültige UTF-8-Bytes. Zwei Bearbeiter an einer Datei,
+oder ein Bearbeiter mit einem stückweise schreibenden Werkzeug, erzeugen genau
+das. Eine Datei, ein Bearbeiter, eine Änderung nach der anderen.
+
+### Keine Skripte
+
+**Es wird kein einziges Skript ausgeführt und kein einziges geschrieben.**
+
+Das gilt ohne Ausnahme für:
+
+* die Skripte, die im Repo unter `scripts/` liegen — auch `scripts/i18n-*.mjs`,
+  auch wenn sie nach genau diesem Zweck aussehen. Sie sind für diesen Auftrag
+  gesperrt.
+* selbst geschriebene Helfer, egal in welcher Sprache — Node, Python, Bash,
+  `sed`, `awk`, `jq`, `perl -i`, Editor-Makros, Suchen-und-Ersetzen über
+  mehrere Zeilen oder Dateien.
+* jede Form von Massenoperation auf einer Datei.
+
+Jeder Wert wird **einzeln gelesen, einzeln übersetzt und einzeln von Hand an
+seine Stelle geschrieben**. Der Grund ist nicht Umständlichkeit: Ein
+Suchen-und-Ersetzen, das 500 Werte gleichzeitig anfasst, macht seinen Fehler
+auch 500-mal, und in einer 5000-Zeilen-JSON-Datei fällt das erst auf der
+fertigen Seite auf. Ein Wert, den jemand gelesen hat, ist ein Wert, für den
+jemand geradesteht.
+
+Erlaubt ist: Dateien lesen, in Dateien an einer bestimmten Stelle schreiben,
+und die Suche im Editor, um eine Stelle zu **finden**.
+
+### Nicht aufhören
+
+Arbeite durch. Halte nicht an, um Zwischenstände zu berichten, um Rückfragen zu
+stellen oder um eine Bestätigung abzuwarten. Ist ein Namensraum fertig, fängst
+du ohne Pause den nächsten an; ist eine Sprache fertig, ohne Pause die nächste
+aus der Warteschlange in Abschnitt 6. Berichtet wird am Ende, nicht zwischendrin.
 
 ---
 
@@ -15,113 +58,85 @@ Vorwissen über das Projekt voraus.
 K-Aqua (Hersteller: KWT GmbH) verkauft PP-R- und PP-RCT-Rohrleitungssysteme —
 Rohre, Fittings, Armaturen, Schweißwerkzeuge — an Fachbetriebe aus Sanitär,
 Heizung und Tiefbau. Die Website ist mehrsprachig; die Texte liegen als JSON
-unter `messages/`.
+unter `messages/`, eine Datei je Sprache.
 
 `lib/i18n/request.ts` mischt die Sprachdateien in der Reihenfolge
-**de → en → Zielsprache**. Daraus folgt das Entscheidende für diese Arbeit:
+**de → en → Zielsprache**. Daraus folgt das Entscheidende:
 
 > Ein Wert, der in `messages/tr.json` zeichengleich so dasteht wie im
 > Deutschen oder Englischen, ist **kein fertiger Eintrag**. Er ist genau das,
 > was der Fallback ohnehin geliefert hätte — ein deutscher Satz auf einer
-> türkischen Seite. Ein fehlender Schlüssel ist derselbe Befund.
+> türkischen Seite.
 
-Beides steht deshalb auf der Arbeitsliste.
+Drei Befunde gelten deshalb gleichermaßen als unübersetzt:
 
----
-
-## 2. Die beiden Werkzeuge
-
-Alles läuft über zwei Skripte im Repo. **Schreibe niemals direkt in eine
-`messages/*.json`** — das Einspiel-Skript prüft Dinge, die von Hand
-zuverlässig übersehen werden.
-
-### Arbeitsliste holen
-
-```bash
-node scripts/i18n-worklist.mjs <locale> --out /tmp/kaqua-i18n/<locale>-runde.json --limit 200
-```
-
-Schreibt eine Datei:
-
-```json
-{
-  "locale": "tr",
-  "gesamt": 2385,
-  "geliefert": 200,
-  "eintraege": [
-    { "key": "academy.qLabel", "art": "gleich", "quelle": "Frage", "en": "Question" },
-    { "key": "nav.bimTitle",   "art": "fehlt",  "quelle": "BIM-Daten", "en": "BIM data" }
-  ]
-}
-```
-
-* `quelle` ist der **deutsche Originaltext und maßgeblich**.
-* `en` ist die englische Fassung — nutze sie als Verständnishilfe, wenn das
-  Deutsche mehrdeutig ist.
-* `art` ist nur Information: `gleich` = steht noch deutsch/englisch da,
-  `fehlt` = Schlüssel fehlt ganz. Beide werden gleich behandelt.
-
-Die Liste wird bei **jedem** Aufruf frisch aus den Dateien errechnet. Was
-bereits eingespielt ist, taucht nicht mehr auf. Ein Abbruch mitten im Lauf
-kann darum nichts kaputt machen.
-
-### Übersetzung einspielen
-
-Schreibe eine Datei in **exakt** diesem Format:
-
-```json
-{
-  "locale": "tr",
-  "uebersetzungen": {
-    "academy.qLabel": "Soru",
-    "nav.bimTitle": "BIM verileri"
-  }
-}
-```
-
-Dann:
-
-```bash
-node scripts/i18n-apply.mjs /tmp/kaqua-i18n/<locale>-fertig.json
-```
-
-Das Skript weist ab und meldet einzeln:
-
-| Abweisung | Bedeutung |
+| Befund | Was man sieht |
 |---|---|
-| `steht nicht auf der Arbeitsliste` | Schlüssel erfunden oder verschrieben |
-| `Platzhalter weichen ab` | `{count}`, `{name}`, `<b>` fehlt oder wurde mitübersetzt |
-| `leer` | leerer String |
-| `unverändert gegenüber de/en` | nichts übersetzt — siehe Abschnitt 4 |
+| Schlüssel fehlt ganz | Die Seite zeigt englischen Fallback-Text |
+| Wert steht wörtlich deutsch oder englisch da | dito, nur fest eingetragen |
+| Wert ist ein Füllstring | `am.json` hat 3954 Werte „የተተረጎመ" (= „übersetzt"), `km.json` 2534-mal „x" |
 
-Exitcode `0` = alles sauber, `3` = teilweise (Bericht lesen und im nächsten
-Durchgang korrigieren), `2` = Eingabedatei unbrauchbar.
+Insgesamt sind es **76.154 Werte in 59 Sprachen**.
 
 ---
 
-## 3. Die Schleife
+## 2. Deine Arbeitsgrundlage: drei Dateien
 
-Jeder Agent arbeitet seine Sprachen **nacheinander** ab, jede Sprache in
-Runden zu 200 Einträgen:
+Du brauchst keine Werkzeuge, sondern drei Dateien:
+
+**1. Dein Befund:** `docs/i18n/befunde/<locale>.md`
+
+Darin steht — vorab ermittelt, du musst nichts selbst vergleichen — jeder
+offene Wert deiner Sprache, gruppiert nach Namensraum:
 
 ```
-für jede zugeteilte Sprache L:
-    wiederhole:
-        1. node scripts/i18n-worklist.mjs L --out /tmp/kaqua-i18n/L-runde.json --limit 200
-           → meldet das Skript Exitcode 0 (also "0 offene Einträge"):
-             Sprache L ist fertig, weiter mit der nächsten Sprache.
-        2. Lies die Datei. Übersetze JEDEN Eintrag der Liste.
-        3. Schreibe /tmp/kaqua-i18n/L-fertig.json im Format aus Abschnitt 2.
-        4. node scripts/i18n-apply.mjs /tmp/kaqua-i18n/L-fertig.json
-        5. Lies den Bericht. Abgewiesene Einträge im nächsten Durchgang
-           richtig machen — nicht unverändert erneut schicken.
+## academy (217)
+
+- `academy.qLabel` Frage
+- `academy.hero.title` [fehlt] Wissen, das auf der Baustelle trägt
+- `catalogx.items.socket.faq.0.q` [füllstring] Wofür ist die Muffe geeignet?
 ```
 
-Die Schleife endet für eine Sprache **nur** dann, wenn Schritt 1 null offene
-Einträge meldet. Nicht nach einer festen Rundenzahl, nicht „ungefähr fertig".
+Hinter dem Schlüssel steht der **deutsche Originaltext**. `[fehlt]` heißt: der
+Schlüssel muss neu angelegt werden. `[füllstring]` heißt: da steht ein
+Platzhalter, der ersetzt wird. Ohne Marke: der deutsche oder englische Satz
+steht wörtlich in der Datei.
 
-Läuft eine Runde ins Leere (0 übernommen, alles abgewiesen), liegt es an der
-Rückgabe, nicht am Skript — Bericht lesen, Format prüfen, Platzhalter prüfen.
+**2. Die Quelle:** `messages/de.json` — nur lesen, nie ändern. Hier siehst du
+den Originaltext im Zusammenhang und die genaue Struktur.
+
+**3. Deine Zieldatei:** `messages/<locale>.json` — die einzige Datei, die du
+schreibst.
+
+Bei Zweifeln an einer Formulierung darfst du zusätzlich `messages/en.json`
+lesen (auch nur lesen). Sie hilft, wenn das Deutsche mehrdeutig ist.
+
+---
+
+## 3. Das Verfahren
+
+Arbeite **Namensraum für Namensraum**, in der Reihenfolge deines Befunds.
+Ein Namensraum ist die oberste Ebene eines Schlüssels — `academy`, `catalogx`,
+`nav`. Namensräume sind unterschiedlich groß; `catalogx` ist in vielen Sprachen
+der größte.
+
+Für jeden Namensraum:
+
+1. Lies den Abschnitt im Befund vollständig, bevor du etwas schreibst. Ein
+   Namensraum gehört inhaltlich zusammen: dieselben Fachbegriffe müssen darin
+   überall gleich übersetzt sein.
+2. Öffne `messages/de.json` an dieser Stelle und lies den Zusammenhang —
+   gehört der Text zu einer Überschrift, einem Knopf, einem FAQ?
+3. Öffne `messages/<locale>.json` an derselben Stelle.
+4. Gehe die Einträge der Reihe nach durch. Für jeden: übersetzen, an seine
+   Stelle schreiben, weiter zum nächsten.
+5. Ist der Namensraum fertig, trage im Befund hinter der Überschrift
+   ` — ERLEDIGT` ein. Das ist dein Fortschrittsvermerk; nur so weißt du nach
+   einer Unterbrechung, wo du standest. Lösche keine Zeilen aus dem Befund.
+
+Arbeite in Abschnitten von etwa 50 bis 100 Einträgen und lies danach die
+geänderte Stelle noch einmal (Abschnitt 5). Große Sprünge ohne Gegenlesen sind
+genau der Weg, auf dem eine kaputte Klammer 2000 Zeilen weiter unten landet.
 
 ---
 
@@ -129,7 +144,9 @@ Rückgabe, nicht am Skript — Bericht lesen, Format prüfen, Platzhalter prüfe
 
 **Ton.** Professionelles B2B-Deutsch der SHK-Branche, in die Zielsprache
 übertragen. Adressat ist ein Fachbetrieb, kein Endverbraucher. Sachlich,
-knapp, kein Marketing-Überschwang, den das Original nicht hat.
+knapp, kein Marketing-Überschwang, den das Original nicht hat. Innerhalb einer
+Sprache ein einheitliches Vokabular: „Fitting", „Muffe", „Nennweite" sollen
+nicht auf drei Seiten drei verschiedene Wörter bekommen.
 
 **Unverändert bleiben:**
 
@@ -143,28 +160,22 @@ knapp, kein Marketing-Überschwang, den das Original nicht hat.
 **Platzhalter zeichengenau erhalten.** `{count}`, `{name}`, `{date}`,
 `{count, plural, one {…} other {…}}`, `<b>…</b>`. Der Text drumherum wird
 übersetzt, die geschweiften Klammern und ihr Inhalt nicht. Bei Plural-Formen
-die Regeln der Zielsprache anwenden, aber die ICU-Syntax beibehalten.
+die Regeln der Zielsprache anwenden, die ICU-Syntax aber beibehalten. Fehlt
+ein Platzhalter in der Übersetzung, wirft die Seite zur Laufzeit einen Fehler
+— und zwar auf der Unterseite, die niemand vorher aufruft.
 
-**Leerzeichen am Rand.** Manche Werte beginnen oder enden bewusst mit einem
-Leerzeichen, weil zwei Schlüssel zu einer Überschrift zusammengesetzt werden
-(`"GENAU"` + `" Management System"`). Du musst dich darum **nicht** kümmern —
-das Einspiel-Skript übernimmt die Randleerzeichen der Quelle automatisch.
+**Leerzeichen am Rand sind Inhalt.** Manche Werte beginnen oder enden bewusst
+mit einem Leerzeichen, weil zwei Schlüssel zu einer Überschrift zusammengesetzt
+werden: `"GENAU"` + `" Management System"`. Übernimmst du das führende
+Leerzeichen nicht, steht auf der Seite „GENAUSystème". Schau bei jedem Wert
+auf das Zeichen direkt hinter dem öffnenden und vor dem schließenden
+Anführungszeichen im Deutschen und mache es genauso.
 
 **Wenn die Übersetzung wirklich identisch ist.** In manchen Sprachen ist das
-richtige Wort dasselbe wie im Englischen („Question" → französisch
-„Question"). Solche Einträge weist das Skript zunächst ab, weil eine
-unveränderte Rückgabe sonst in der nächsten Runde wieder auf der Liste stünde
-und die Schleife nie endete. Ist der Wert **tatsächlich** korrekt und
-identisch, schreibe ihn einmalig fest:
-
-```bash
-node scripts/i18n-apply.mjs /tmp/kaqua-i18n/fr-fertig.json --identisch academy.qLabel --identisch nav.cad
-```
-
-Das legt `messages/.i18n-identisch/<locale>.json` an. Diese Dateien gehören
-zum Ergebnis und dürfen nicht gelöscht werden. **Nutze das sparsam** — es ist
-für echte Gleichheit gedacht, nicht als Weg, unübersetzte Einträge
-loszuwerden. Im Zweifel übersetzen.
+richtige Wort dasselbe wie im Englischen — „Question" heißt auf Französisch
+„Question". Dann schreibst du es genauso hin und vermerkst den Schlüssel in
+deinem Abschlussbericht unter „bewusst identisch". Nutze das sparsam und nur,
+wenn es wirklich stimmt; im Zweifel übersetzen.
 
 **Rechts-nach-links-Sprachen** (ar, fa, he, ur): normaler Text, keine
 Steuerzeichen, keine manuelle Richtungsmarkierung. Das Layout macht die
@@ -172,87 +183,170 @@ Website.
 
 ---
 
-## 5. Zuteilung der 20 Agenten
+## 5. JSON von Hand ändern — worauf zu achten ist
 
-Nach Arbeitsmenge ausbalanciert, damit alle etwa gleichzeitig fertig werden.
-Die Zahl in Klammern ist der Stand bei Auftragserteilung.
+Ohne Skript prüft nichts deine Datei außer dir. Diese fünf Punkte sind die
+Fehler, die dabei tatsächlich passieren.
 
-| Agent | Sprachen (offene Einträge) | Summe |
-|---|---|---|
-| 1 | pl (2399) | 2399 |
-| 2 | tr (2385) | 2385 |
-| 3 | ru (2380) | 2380 |
-| 4 | pt-PT (2357) | 2357 |
-| 5 | pt-BR (2220) | 2220 |
-| 6 | sr (1401) | 1401 |
-| 7 | uk (1200), es-419 (194) | 1394 |
-| 8 | vi (689), fi (312), bn (285) | 1286 |
-| 9 | uz (612), kk (313), ja (288), ar (23) | 1236 |
-| 10 | si (593), is (315), my (291), it (262) | 1461 |
-| 11 | ko (581), lv (317), lt (292), am (265) | 1455 |
-| 12 | sv (530), hy (319), bg (292), es-ES (269) | 1410 |
-| 13 | ur (466), et (323), el (305), mk (280) | 1374 |
-| 14 | sl (452), nl (328), hu (309), pt-AO (285) | 1374 |
-| 15 | fil (446), ro (346), id (303), fa (278) | 1373 |
-| 16 | sk (439), hr (382), hi (296), km (276) | 1393 |
-| 17 | th (425), cs (394), ka (297), he (277) | 1393 |
-| 18 | sq (423), da (398), lo (296), fr (272) | 1389 |
-| 19 | sw (420), no (401), ms (294), fr-SN (277) | 1392 |
-| 20 | zh-Hans (405), zh-Hant (404), az (298), mn (278) | 1385 |
+**Arrays bleiben Arrays.** Zahlen im Schlüssel sind Array-Indizes:
+`catalogx.items.socket.faq.0.q` ist die Frage des **ersten** FAQ-Eintrags.
+45 % des gesamten Bestands liegt in solchen Arrays, vor allem die
+Produkt-FAQs. In der Datei sieht das so aus:
+
+```json
+"faq": [
+  { "q": "…", "a": "…" },
+  { "q": "…", "a": "…" }
+]
+```
+
+Wird daraus versehentlich `"faq": { "0": {...} }`, bleibt die Datei gültiges
+JSON — aber die Seite läuft mit `.map()` darüber, findet nichts, und die
+gesamte FAQ-Sektion verschwindet, ohne dass irgendwo ein Fehler erscheint.
+Eckige Klammern bleiben eckig.
+
+**Einen fehlenden Schlüssel legst du an der Stelle an, an der er im Deutschen
+steht** — gleiche Verschachtelung, gleiche Nachbarn, gleicher Behältertyp.
+Nicht ans Ende der Datei hängen.
+
+**Kommadisziplin.** Nach jedem Eintrag ein Komma, nach dem letzten in einem
+Block keins. Das ist der häufigste Weg, eine Sprachdatei unbrauchbar zu machen.
+
+**Anführungszeichen im Text escapen:** `\"`. Ein Backslash im Text: `\\`.
+Zeilenumbrüche im Text: `\n` — kein echter Umbruch innerhalb eines Strings.
+
+**Nichts umformatieren.** Reihenfolge der Schlüssel, Einrückung und Struktur
+bleiben, wie sie sind. Du änderst Werte, nichts sonst. Wer eine Datei
+„aufräumt", erzeugt einen Unterschied über tausende Zeilen, in dem die echte
+Änderung nicht mehr zu finden ist.
+
+**Nach jedem Abschnitt gegenlesen:** die geänderte Stelle noch einmal von oben
+nach unten. Klammern paarig? Kommas richtig? Platzhalter noch da?
+
+---
+
+## 6. Die Warteschlange
+
+Du arbeitest die Sprachen **in dieser Reihenfolge** ab, eine nach der anderen,
+und beginnst die nächste erst, wenn die vorige vollständig fertig ist.
+
+Die Reihenfolge ist nicht zufällig: Sie geht von der Sprache mit dem
+geringsten Restaufwand zur größten. Reißt der Lauf irgendwann ab, sind dann
+möglichst viele Sprachen **ganz** fertig statt aller Sprachen halb — eine
+halb übersetzte Sprache nützt keinem Besucher, eine fertige sofort.
+
+| # | Sprache | offene Einträge | kumuliert |
+|---|---|---|---|
+| 1 | `ar` | 114 | 114 |
+| 2 | `es-419` | 351 | 465 |
+| 3 | `bn` | 409 | 874 |
+| 4 | `fa` | 409 | 1283 |
+| 5 | `he` | 410 | 1693 |
+| 6 | `mn` | 410 | 2103 |
+| 7 | `bg` | 426 | 2529 |
+| 8 | `lt` | 438 | 2967 |
+| 9 | `az` | 441 | 3408 |
+| 10 | `hy` | 442 | 3850 |
+| 11 | `pt-AO` | 446 | 4296 |
+| 12 | `ja` | 449 | 4745 |
+| 13 | `mk` | 453 | 5198 |
+| 14 | `lv` | 475 | 5673 |
+| 15 | `fr` | 502 | 6175 |
+| 16 | `fr-SN` | 504 | 6679 |
+| 17 | `ro` | 517 | 7196 |
+| 18 | `ms` | 529 | 7725 |
+| 19 | `hu` | 540 | 8265 |
+| 20 | `hi` | 551 | 8816 |
+| 21 | `zh-Hans` | 552 | 9368 |
+| 22 | `zh-Hant` | 554 | 9922 |
+| 23 | `th` | 561 | 10483 |
+| 24 | `sw` | 575 | 11058 |
+| 25 | `sk` | 580 | 11638 |
+| 26 | `no` | 581 | 12219 |
+| 27 | `sq` | 581 | 12800 |
+| 28 | `fi` | 582 | 13382 |
+| 29 | `el` | 595 | 13977 |
+| 30 | `sl` | 601 | 14578 |
+| 31 | `da` | 617 | 15195 |
+| 32 | `is` | 645 | 15840 |
+| 33 | `ur` | 704 | 16544 |
+| 34 | `ka` | 724 | 17268 |
+| 35 | `kk` | 733 | 18001 |
+| 36 | `sv` | 745 | 18746 |
+| 37 | `lo` | 1054 | 19800 |
+| 38 | `si` | 1054 | 20854 |
+| 39 | `id` | 1090 | 21944 |
+| 40 | `et` | 1146 | 23090 |
+| 41 | `vi` | 1156 | 24246 |
+| 42 | `uz` | 1459 | 25705 |
+| 43 | `hr` | 1537 | 27242 |
+| 44 | `fil` | 1836 | 29078 |
+| 45 | `cs` | 1904 | 30982 |
+| 46 | `it` | 2142 | 33124 |
+| 47 | `es-ES` | 2193 | 35317 |
+| 48 | `nl` | 2201 | 37518 |
+| 49 | `uk` | 2306 | 39824 |
+| 50 | `ko` | 2453 | 42277 |
+| 51 | `sr` | 2547 | 44824 |
+| 52 | `my` | 2798 | 47622 |
+| 53 | `km` | 2905 | 50527 |
+| 54 | `pt-BR` | 4087 | 54614 |
+| 55 | `am` | 4244 | 58858 |
+| 56 | `pt-PT` | 4286 | 63144 |
+| 57 | `tr` | 4318 | 67462 |
+| 58 | `ru` | 4321 | 71783 |
+| 59 | `pl` | 4371 | 76154 |
+
+Gibt es Märkte, die für den nächsten Termin zählen, zieh sie vor — sag es
+vorher, dann wird die Reihenfolge geändert. Ohne solche Ansage gilt die
+Tabelle.
 
 Regionalvarianten sind eigenständig und werden **nicht** voneinander kopiert:
 `pt-PT` ist europäisches Portugiesisch, `pt-BR` brasilianisches, `pt-AO`
 angolanisches; `es-ES` gegen `es-419` (Lateinamerika); `fr` gegen `fr-SN`
-(Senegal). Übersetze jede Variante eigenständig in ihrer regionalen Norm.
+(Senegal). Jede Variante wird eigenständig in ihrer regionalen Norm übersetzt.
 
 ---
 
-## 6. Leitplanken
+## 7. Leitplanken
 
-* **Alle Agenten arbeiten in derselben Arbeitskopie des Repos.** Das ist
-  gewollt und konfliktfrei: jeder Agent schreibt ausschließlich die Datei
-  seiner eigenen Sprache.
-* **Niemals anfassen:** `messages/de.json`, `messages/en.json`,
-  `messages/en-*.json` — das sind die Quellen der Merge-Kette. Ebenso wenig
-  die Sprachdatei eines anderen Agenten.
+* **Keine Unteragenten, kein Fan-out, keine parallelen Bearbeiter.** Siehe
+  Abschnitt 0. Du arbeitest selbst, durchgehend, an einer Sprache zur Zeit.
+* **Kein Skript ausführen, kein Skript schreiben.** Ebenfalls Abschnitt 0.
+  Diese beiden Regeln sind die, deren Verletzung den Auftrag ungültig macht.
+* **Immer nur eine Datei gleichzeitig offen und in Bearbeitung.** Nie zwei
+  Sprachdateien nebenher. Genau daran sind am 2026-09-01 elf Dateien
+  zerbrochen.
+* **Niemals ändern:** `messages/de.json`, `messages/en.json`,
+  `messages/en-*.json` — das sind die Quellen der Merge-Kette. Und nichts
+  außerhalb von `messages/`, außer dem eigenen Fortschrittsvermerk im eigenen
+  Befund.
 * **Keine Git-Befehle.** Kein `commit`, kein `push`, kein `checkout`, kein
-  `stash`. Das Zusammenführen macht der Auftraggeber.
-* **Kein `npm run build`, kein `npm run dev`.** In dieser Arbeitskopie läuft
-  bereits ein Entwicklungsserver; ein zweiter Build zerstört den
-  `.next`-Ordner (ist in diesem Projekt schon zweimal passiert).
-* **Keine Änderung an `scripts/i18n-*.mjs`.** Wenn ein Skript falsch
-  erscheint, melden statt umschreiben.
-* **Keine Struktur- oder Reihenfolgeänderung** in den JSON-Dateien. Das
-  Einspiel-Skript kümmert sich darum.
+  `stash`, kein `restore`. Das Zusammenführen macht der Auftraggeber.
+* **Kein `npm run build`, kein `npm run dev`, kein Installieren von Paketen.**
+  In dieser Arbeitskopie läuft bereits ein Entwicklungsserver; ein zweiter
+  Build zerstört den `.next`-Ordner. Das ist in diesem Projekt schon zweimal
+  passiert.
 
 ---
 
-## 7. Fertig und Abschlussbericht
+## 8. Fertig und Abschlussbericht
 
-Eine Sprache ist fertig, wenn
+Eine Sprache ist fertig, wenn **jeder Namensraum in ihrem Befund als ERLEDIGT
+markiert ist** und du jeden Eintrag darin tatsächlich angefasst hast. Dann
+beginnst du ohne Pause die nächste Sprache aus der Warteschlange.
 
-```bash
-node scripts/i18n-worklist.mjs <locale>
-```
+Die Endabnahme über alle 59 Sprachen macht der Auftraggeber; du führst sie
+nicht selbst durch und rufst dafür nichts auf.
 
-`0 offene Einträge` meldet. Der Gesamtauftrag ist fertig, wenn
+**Am Ende des gesamten Laufs meldest du, je bearbeiteter Sprache:**
 
-```bash
-node scripts/i18n-worklist.mjs --alle
-```
+* Zahl der übersetzten Einträge und die Liste der erledigten Namensräume
+* Schlüssel, die du **bewusst identisch** gelassen hast, mit Begründung
+* Fachbegriffe, für die du dich auf eine bestimmte Übersetzung festgelegt
+  hast (damit später niemand daran vorbeiübersetzt)
+* alles, was du nicht auflösen konntest — mit Schlüssel und Grund
 
-für alle 59 Sprachen `0` zeigt.
-
-Danach zur Kontrolle laufen lassen — beide müssen ohne Beanstandung
-durchlaufen:
-
-```bash
-node scripts/check-locale-placeholders.mjs
-node scripts/check-locale-parity.mjs
-```
-
-**Jeder Agent meldet am Ende:** seine Sprachen, je Sprache die Zahl der
-übersetzten Einträge, die Zahl der als identisch festgeschriebenen Einträge
-mit Begründung, und alles, was er nicht auflösen konnte — mit Schlüssel und
-Grund. Lieber ein offener Punkt im Bericht als eine geratene Übersetzung in
-einem Fachbegriff.
+Lieber ein offener Punkt im Bericht als eine geratene Übersetzung in einem
+Fachbegriff. Ein gemeldeter Zweifel kostet eine Rückfrage; eine falsche
+Übersetzung einer Nennweite kostet eine Reklamation.

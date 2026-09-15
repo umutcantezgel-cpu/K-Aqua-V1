@@ -812,6 +812,233 @@ Regelsätze aller Bauwege nebeneinanderlegen. Und: jede Anleihe QUER durch den
 Katalog (nicht `_familie/`) gehört benannt — es gibt genau eine.
 
 ---
+### Fall 43 · Ein Maßsatz ohne Lagemaß lässt Teile im Raum schweben
+
+**Was passierte:** Die Rohrschelle meldete über alle neun Größen **0,00 mm**
+auf fünf Prüfungen — und stand dabei sichtbar falsch da: beide Schrauben am
+selben Stoß, keine davon in einer Lasche, der Gewindestutzen 11,8 mm unter der
+Schale in der Luft, die Laschen 6,4 mm tief im Rohrkanal.
+
+Die fünf Prüfungen maßen `D`, `d`, Bandbreite, Schraubensymmetrie und den
+Bohrungsradius. Vier davon sind **Größenmaße**: sie fragen, wie groß ein Teil
+ist, nie, wo es liegt. Ein Teil darf danach an beliebiger Stelle im Raum
+stehen. Die fünfte, `sym`, verglich `|min.z|` gegen `max.z` der
+Schraubengruppe — und zwei Schrauben, die vom selben Stoß nach entgegengesetzten
+Seiten ins Leere zeigen, erfüllen das ebenso gut wie zwei richtig sitzende.
+
+**Die allgemeine Form:** Ein Maßsatz aus lauter Größenmaßen prüft ein Teil
+gegen sich selbst. Er kann nicht ausschließen, dass die Baugruppe
+auseinanderfällt. Fall 13 („welchen Fehler kann diese Messung nicht finden?")
+in seiner härtesten Ausprägung — hier konnte KEINE der fünf Messungen den
+Fehler finden, und das über 34 Bauläufe hinweg.
+
+**Prüfung:** Jede Baugruppe aus mehr als einem Teil braucht mindestens ein Maß
+je Fügestelle, das eine BEZIEHUNG misst statt einer Ausdehnung:
+
+  · Überdeckung zweier Teile entlang der Fügeachse (fasst die Schraube?)
+  · Abstand einer Teiloberkante von der Fläche, auf der sie sitzen soll
+    (sitzt der Stutzen auf, oder schwebt er?)
+  · engste Stelle eines Durchgangs über ALLE Punkte (ragt etwas hinein?)
+  · Besetzung: hat jede Fügestelle ihr Teil, oder ist eine leer?
+
+Und: eine Symmetrieprüfung über Box-Ränder ist keine Lageprüfung. Sie ist
+gegen genau den Fall blind, bei dem beide Teile auf derselben Seite sitzen und
+sich die Ränder trotzdem aufheben — vgl. Fall 24, dort half die
+Vertexverteilung. Hier hilft der Schwerpunkt je Vorzeichen.
+
+---
+
+### Fall 44 · Eine nicht mittige Kontur spiegelt sich nicht durch ein Vorzeichen
+
+**Was passierte:** Die vier Laschen der Rohrschelle sollten paarweise
+spiegelbildlich zur Teilungsebene liegen. Gebaut wurden sie mit
+`roundedPad(...)` und `translate(0, …, side * off)` für `side ∈ {1, −1}`.
+Ergebnis: die eine Seite lag bei z 3,11…7,11, die andere bei z −3,11…**+0,89**
+und ragte über die Teilungsebene in die Gegenschale.
+
+Der Grund: `roundedPad` liefert seine Dicke als Strecke von 0 bis h, nicht von
+−h/2 bis +h/2. Ein Vorzeichenwechsel im `translate` verschiebt eine solche
+Kontur nur — er spiegelt sie nicht. Nur eine zum Ursprung symmetrische Kontur
+wird durch ±off tatsächlich gespiegelt.
+
+**Die allgemeine Form:** `translate(±a)` ist eine Spiegelung nur für Konturen,
+die um 0 zentriert sind. Für jede andere ist es zwei verschiedene
+Verschiebungen. Dieselbe Familie wie Fall 23 (Bevel-Kompensation): eine
+Core-Funktion hat eine Konvention, und die Aufrufstelle rechnet mit einer
+anderen.
+
+**Prüfung:** Wer eine Core-Kontur spiegeln will, zentriert sie zuerst — am
+besten in einer eigenen Hilfsfunktion, damit die Zentrierung nicht an jeder
+Aufrufstelle wiederholt (und vergessen) werden kann. Und ein Maß dazu: die
+äußeren Grenzen der gespiegelten Teile müssen sich zu 0 aufheben.
+
+---
+
+### Fall 45 · Ein Loch im Uhrzeigersinn kehrt sich um, wenn die Außenkontur es auch ist
+
+**Was passierte:** Die Vierkantmutter der Rohrschelle maß **1173 mm³** statt
+713 — mehr, als ihre eigene Außenkontur (152,3 mm² × 5,8 mm) überhaupt
+zulässt. Die Differenz war exakt das Volumen der Bohrung: sie wurde ADDIERT
+statt abgezogen. Sichtbar war es als auf links gedrehte Lochwand.
+
+Der Grund steht in `ExtrudeGeometry`:
+
+    const reverse = !ShapeUtils.isClockWise(vertices);
+    if (reverse) { vertices.reverse();
+      … Löcher, die im Uhrzeigersinn laufen, umdrehen … }
+
+Die Löcher werden **nur dann** ausgerichtet, wenn die Außenkontur umgedreht
+wird — also nur bei einer Außenkontur GEGEN den Uhrzeigersinn. Läuft sie
+bereits im Uhrzeigersinn, bleiben die Löcher unangetastet und behalten
+dieselbe Richtung wie die Außenkontur.
+
+Die Vorlage war `roundedPad` im Core: dessen Kontur läuft im Uhrzeigersinn —
+und hat nie ein Loch, weshalb es dort nie auffällt. Der Sechskant des
+Gewindestutzens lief von Anfang an gegengleich und war nie betroffen.
+
+**Die allgemeine Form:** Zwei Konturen mit gleicher Umlaufrichtung sind für
+den Triangulator nicht Außen und Innen, sondern zweimal Außen. Der Fehler ist
+still: die Fläche stimmt, die Ansicht wirkt nur „irgendwie falsch", und erst
+eine Volumenprobe benennt ihn.
+
+**Prüfung:** Bei jedem `THREE.Shape` mit `holes`: Außenkontur GEGEN den
+Uhrzeigersinn anlegen. Gegenprobe ist eine Zeile — `meshVolume` gegen
+Grundfläche × Höhe minus Loch. Weicht es um genau das Lochvolumen ab, ist es
+dieser Fall.
+
+---
+### Fall 46 · Ein Teilwinkel-Revolve steht an den Enden offen
+
+**Was passierte:** Die Halbschalen der Rohrschelle sind Teilrotationskörper
+(`revolve` mit einer `thetas`-Liste über 173°). `revolve` verbindet
+aufeinanderfolgende Winkel zu Vierecken — die ERSTE und LETZTE Winkelstellung
+bleiben unverbunden. Jeder Bogen hatte 136 offene Randkanten, die Baugruppe
+272. Sichtbar als Blick ins Schaleninnere neben den Stegen; im OBJ- und
+GLB-Export als Hülle statt als Körper.
+
+**Warum keine Prüfung es fand:** Die Stirnebenen eines Revolves um die
+X-Achse gehen durch die Achse — und damit durch den Ursprung. Für eine
+Fläche in einer Ebene durch den Ursprung ist das Spatprodukt jedes Dreiecks
+null: sie trägt zum Volumenintegral **exakt 0** bei. Die Massenprobe stimmte
+deshalb weiter, auf zwei Stellen genau, während der Körper offen war. Auch
+alle zehn Lage- und Größenmaße blieben grün: keines fragt nach Topologie.
+
+**Die allgemeine Form:** Volumen- und Maßprüfungen sagen nichts über
+Dichtheit. Ein Loch, das in einer Ebene durch den Bezugspunkt liegt, ist für
+das Volumenintegral unsichtbar.
+
+**Prüfung:** Jeder Teilwinkel-Revolve braucht seine zwei Stirnflächen
+(`capFromProfile(profile, axis, sign)` liefert eine einzelne) und ein Maß,
+das die Randkanten zählt — Kanten, die nur ein Dreieck benutzt. Gegenprobe
+nicht vergessen: ein künstlich eingebrachtes Loch muss die Zahl heben, sonst
+prüft die Zählung nichts (Fall 25).
+
+Volle Umläufe sind nicht betroffen: `thetaSamples` schließt mit
+`out[0] + 2π`, und die zehn anderen `thetas`-Nutzer des Katalogs übergeben
+solche vollen Listen.
+
+---
+
+### Fall 47 · `curveSegments` gilt für jede Kurve der Shape, nicht nur für die gemeinte
+
+**Was passierte:** Die Flachteile der Rohrschelle entstanden aus
+`THREE.Shape` mit `curveSegments: 20` — gedacht für die Schraubenbohrung. Die
+Zahl gilt aber für JEDE Kurve der Kontur, also auch für die vier gerundeten
+Ecken jeder Platte. An einem 10 mm breiten Blech kostete jede Ecke so viel
+wie eine Bohrung, die niemand sieht.
+
+Gemessen an einer Lasche: **2364** Dreiecke mit Bogenecken gegen **252** mit
+Fasenecken bei gleichem Bild. Über zehn Flachteile trug das Produkt so
+37 984 Dreiecke — mehr als jedes andere Zubehörteil des Katalogs.
+
+**Zwei Geschwister desselben Musters**, im selben Lauf gefunden:
+
+  1. **Fillets auf einer glatten Kurve.** Die Stützstellen der Rückenwölbung
+     bekamen `fillet: 0.25`, obwohl sie längst auf einer glatten Kurve
+     liegen. `applyFillets` macht aus jedem solchen Punkt vier — 51 Punkte
+     für nichts, bei 47 Winkelschritten rund 4 800 Dreiecke je Schale.
+     Fillets gehören an Knicke, nicht an Kurvenpunkte.
+  2. **Sichtbare Auflösung für unsichtbare Teile.** Das Gewinde am
+     Schraubenüberstand lief mit `SEG_INT` und zwei Fillet-Segmenten: allein
+     dafür 13 900 Dreiecke, mehr als der gesamte Rest des Teils. Ein
+     Ø8-mm-Zylinder trägt 20 Segmente.
+
+Zusammen: **22 340 statt 37 984 Dreiecke bei mehr Detail.**
+
+**Prüfung:** Vor dem Zählen der Maße einmal `triangleCount()` gegen ein
+vergleichbares Produkt halten. Ist ein Teil das teuerste seiner Klasse, ohne
+das komplexeste zu sein, sitzt die Ursache fast immer in einer
+Auflösungszahl, die für die falsche Kurve gedacht war.
+
+---
+
+### Fall 48 · Eine Prüfung, deren Ergebnis von der eigenen Rundung abhängt
+
+**Was passierte:** Die erste Fassung der Randkantenzählung baute ihren
+Punktschlüssel aus `toFixed(3)`. Sie meldete bei d50 24 offene Kanten und bei
+den anderen acht Größen null. Nachgerechnet: Stirnfläche und Bogenrand kamen
+beide auf z = −25,2515…, aber über verschiedene Rechenwege — die letzten Bits
+lagen verschieden, und genau dort verlief eine Rundungsgrenze. Die Geometrie
+war dicht, die Prüfung log.
+
+Verlockend war, das als Rauschen abzutun und eine Toleranz einzuführen. Aber
+ein fester Raster hat diese Grenze immer, nur an anderer Stelle: bei der
+nächsten Größe wäre derselbe Fehler an anderer Koordinate aufgetreten.
+
+**Die allgemeine Form:** Punkte über gerundete Koordinaten zu vergleichen
+heißt, das Ergebnis von der Lage der Rasterlinien abhängig zu machen. Für
+Gleichheit gibt es keinen richtigen Raster.
+
+**Prüfung:** Punkte über den ABSTAND verschweißen, nicht über die Rundung —
+Raster plus Nachbarschaftssuche über die 26 angrenzenden Zellen. Die
+Toleranz gehört so gewählt, dass sie mehrere Zehnerpotenzen unter dem
+kleinsten echten Merkmal und mehrere über dem Gleitkommarauschen liegt; bei
+der Rohrschelle 0,1 µm gegen eine Nutwand von 0,35 mm.
+
+---
+### Fall 49 · Eine Zierschicht erbt die UVs der Geometrie, ohne dass jemand sie nachrechnet
+
+**Was passierte:** Die Prägeschrift „MADE IN GERMANY" lag als Normalmap auf
+allen sechs PP-Körperwerkstoffen und traf damit 37 der 70 Produkte. Lesbar war
+sie auf keinem. Der Schriftzug belegt in der 1024 × 512-Textur
+u ∈ [0,26 … 0,85] und v ∈ [0,455 … 0,545]. `revolve()` bildet aber
+**u = θ/2π** ab und **v als Bogenlänge des Profils**. An der Muffe d32 heisst
+das: die Zeile wird über 212° Umfang gezogen — rund 80 mm — und auf 9 % der
+Profillänge gestaucht, also 9 mm. Übrig blieben Querstreifen, die wie ein
+Renderfehler wirkten.
+
+Die Textur selbst war tadellos: Höhenfeld, Weichzeichnung, Sobel-Normalmap,
+ClampToEdge, NoColorSpace — alles richtig. Geprüft wurde nur, ob sie ENTSTEHT,
+nie, welche Strecke am Bauteil ein UV-Schritt bedeutet.
+
+**Warum Nachjustieren nicht hilft:** Schriftgröße und Position verschieben das
+Verhältnis, lösen es aber nicht. u und v haben am Rotationskörper völlig
+verschiedene Maßstäbe, und die Verzerrung ändert sich zusätzlich mit jedem
+Profilpunkt, den ein Bauteil mehr hat als das nächste. Eine Zahl, die an der
+Muffe passt, passt am Winkel schon nicht mehr.
+
+**Die allgemeine Form:** Texturen zerfallen in zwei Klassen.
+
+  · **Isotrope** Schichten — Rauschen, Verschleiß, Grundriffelung — dürfen auf
+    generischen UVs reiten. Verzerrung macht ihnen nichts aus, sie haben keine
+    Vorzugsrichtung und kein Seitenverhältnis.
+  · Alles, was **FORM** trägt — Schrift, Logos, Symbole, Piktogramme — braucht
+    eine eigene UV-Insel oder ein eigenes Mesh. Es hat ein Seitenverhältnis,
+    und das überlebt eine fremde Parametrisierung nicht.
+
+Der Aufdruck der Rohre macht es im selben Modul richtig vor: eigenes flaches
+Band längs der Achse, eigener Werkstoff, Schrift um 90° gedreht gezeichnet,
+weil am Band v die Längsrichtung ist. Dieselbe Datei, zwei Wege, ein
+funktionierender.
+
+**Prüfung:** Bevor eine formtragende Textur an einen Materialslot kommt, einmal
+ausrechnen, welche Strecke am Bauteil ein UV-Schritt bedeutet — bei `revolve`
+also Umfang für u und Profilbogenlänge für v. Passt das Seitenverhältnis der
+Textur nicht dazu, braucht sie ihre eigene Abbildung. Und: eine Prüfung, die
+nur feststellt, dass eine Textur entsteht, sagt nichts darüber, wie sie liegt.
+
+---
+
 
 ## Die Prüfliste in Kurzform
 
@@ -846,3 +1073,16 @@ Nach jedem Maßtest:
 - [ ] Neue Flächenfunktion: Strahl von außen trifft die Außenhaut, nicht die Bohrung? → Fall 39
 - [ ] Produkt fertig? Dann committen, nicht erst am Wellenende → Fall 41
 - [ ] `familyFor()` geändert? Dann in ALLEN Bauwegen → Fall 42
+- [ ] Baugruppe mit mehr als einem Teil: misst mindestens EIN Maß je Fügestelle eine Beziehung statt einer Ausdehnung? → Fall 43
+- [ ] Hat jede Fügestelle ihr Teil, oder sitzen zwei auf derselben? → Fall 43
+- [ ] Ragt etwas in einen Durchgang? Engste Stelle über ALLE Punkte, nicht ein Strahl → Fall 43
+- [ ] Core-Kontur gespiegelt? Vorher zentriert — `translate(±a)` spiegelt nur um 0 → Fall 44
+- [ ] `THREE.Shape` mit `holes`: Außenkontur gegen den Uhrzeigersinn? Volumenprobe → Fall 45
+- [ ] Teilwinkel-Revolve gebaut? Dann Stirnflächen setzen und Randkanten zählen → Fall 46
+- [ ] Randkantenzählung mit Gegenprobe belegt (künstliches Loch muss sie heben)? → Fall 46
+- [ ] Teuerstes Teil seiner Klasse, ohne das komplexeste zu sein? Auflösungszahlen prüfen → Fall 47
+- [ ] Fillets nur an Knicken, nicht auf Kurvenstützstellen? → Fall 47
+- [ ] Punkte über Abstand verschweißt statt über gerundete Koordinaten? → Fall 48
+- [ ] Fällt eine Prüfung nur bei EINER Größe aus? Erst die Prüfung verdächtigen → Fall 48
+- [ ] Formtragende Textur (Schrift, Logo, Symbol) angehängt? Dann eigene UV-Insel oder eigenes Mesh → Fall 49
+- [ ] Ausgerechnet, welche Strecke am Bauteil ein UV-Schritt bedeutet? → Fall 49

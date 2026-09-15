@@ -1897,6 +1897,10 @@
       {
         "t": "Made in Germany",
         "s": "Produktion in Waldsolms"
+      },
+      {
+        "t": "DAkkS-akkreditiert",
+        "s": "Zertifiziertes Prüflabor"
       }
     ],
     "attribution": {
@@ -3919,6 +3923,14 @@
         {
           "title": "Ressourcen-Effizienz",
           "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
+        },
+        {
+          "title": "Thermische Stabilität",
+          "desc": "Ausgelegt für extreme Temperaturspannen von -20 °C bis +95 °C. Minimaler Längenausdehnungskoeffizient durch modernste Faserverbund-Technologie."
+        },
+        {
+          "title": "Molekulare Homogenität",
+          "desc": "Permanente Schweißverbindungen verschmelzen Rohr und Fitting zu einer unlösbaren Einheit ohne Dichtungen – 100 % leckagesicher über 50 Jahre."
         }
       ]
     },
@@ -6663,6 +6675,11 @@
         "n": "50",
         "u": "Jahre",
         "l": "Auslegungshorizont nach den Zeitstandkurven der DIN 8077/8078"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "Recyclingfähig: Reines Polypropylen ohne giftige Additive für maximale Kreislaufwirtschaft"
       }
     ],
     "badges": [
@@ -8507,6 +8524,11 @@
           "title": "Kompromisslose Schweißnahtintegrität",
           "desc": "Jede Heizelement-Muffenschweißung folgt einem dokumentierten Zeit-Temperatur-Druck-Profil. Stichprobenartige Zugprüfungen und Schliffbilder bestätigen die molekulare Verschmelzung von Rohr und Fitting: ohne Dichtungen, ohne Schwachstellen.",
           "placeholder": "Schliffbild einer K-Aqua Muffenschweißverbindung"
+        },
+        "longevity": {
+          "title": "50+ Jahre Lebensdauer & Zeitstandfestigkeit",
+          "desc": "Ausgelegt für jahrzehntelangen Dauerbetrieb unter hoher thermischer und mechanischer Belastung gemäß DIN EN ISO 15874 Zeitstandkurven.",
+          "placeholder": "Prüfprotokoll Zeitstand-Innendruckprüfung"
         }
       }
     },
@@ -8523,6 +8545,7 @@
       "tolerance": "Ruler",
       "network": "Globe2",
       "welding": "Flame",
+      "longevity": "Clock",
       "manifesto": "Droplet",
       "cta": "Factory"
     }

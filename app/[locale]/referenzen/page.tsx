@@ -17,6 +17,7 @@ import {
   Ruler,
   Globe2,
   Flame,
+  Clock,
 } from "lucide-react";
 
 import { ParallaxHero } from "@/components/ui/ParallaxHero";
@@ -66,7 +67,7 @@ export default async function ReferenzenPage({ params }: Props) {
       { name: tNav("references") || (locale === "de" ? "Referenzen" : locale === "ar" ? "المشاريع" : "References"), path: "/referenzen" },
     ]),
   ]);
-  const metricKeys = ["pressure", "isolation", "tolerance", "network", "welding"] as const;
+  const metricKeys = ["pressure", "isolation", "tolerance", "network", "welding", "longevity"] as const;
   const messages = await getMessages();
 
   return (
@@ -146,6 +147,7 @@ export default async function ReferenzenPage({ params }: Props) {
                 tolerance: <Ruler className="w-6 h-6 text-primary" />,
                 network: <Globe2 className="w-6 h-6 text-primary" />,
                 welding: <Flame className="w-6 h-6 text-primary" />,
+                longevity: <Clock className="w-6 h-6 text-primary" />,
               };
               return (
                 <div key={key} className="bg-card border border-card-border rounded-2xl p-8 flex flex-col justify-between hover:border-primary/40 transition-colors">

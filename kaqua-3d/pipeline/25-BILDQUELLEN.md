@@ -14,6 +14,31 @@ nicht mehr.
 
 ---
 
+## 0 · Nachtrag 02.09.2026 — eine Quelle lag unbenutzt im Repository
+
+`public/images/produkte/pipe-clamps/studio.jpg` (900 × 900 px) ist dieselbe
+Herstelleraufnahme wie `Marketing/Produktbilder/grün (RAL 6024)/AQ500 grauer
+Hintergrund.png`, nur in brauchbarer Auflösung. Bis dahin hatte sie keine
+Sichtung angefasst; die gesamte Modellarbeit an der Rohrschelle lief gegen
+die kleinere Kopie.
+
+Was die Auflösung entschied — drei Angaben, die am kleinen Bild nicht zu
+erkennen waren und im Modell wie im Mängelregister falsch standen:
+
+  · der Rücken ist **ballig**, nicht zylindrisch
+  · er trägt **zwei** Nuten, nicht drei
+  · die schwarze Mutter ist ein **Sechskant**, kein Vierkant
+
+Mängel M20–M25.
+
+**Regel daraus:** vor der Sichtung eines Produkts nach ALLEN Kopien seines
+Bildes suchen, auch außerhalb von `Marketing/`. `public/images/produkte/`
+führt zu mehreren Produkten Studioaufnahmen. Der Rang bleibt 3
+(Herstellerfoto); welche Kopie gilt, entscheidet die Auflösung.
+
+Anders als `Marketing/` ist `public/images/` **versioniert** — diese Kopien
+überleben also einen Rechnerwechsel, die unter `Marketing/` nicht.
+
 ## 1 · Die Rangfolge
 
 Fall 31 kennt: Tabellenmaß (Rang 1) > Zeichnung (Rang 2) > Fotoableitung

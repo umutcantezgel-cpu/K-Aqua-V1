@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import { ShieldCheck, Award, Leaf, Droplet, CheckCircle } from 'lucide-react';
+import { ShieldCheck, Award, Leaf, Droplet, CheckCircle, FileCheck } from 'lucide-react';
 
 const icons = [
   <Award key="award" className="w-5 h-5" />,
@@ -8,6 +8,7 @@ const icons = [
   <Leaf key="leaf" className="w-5 h-5" />,
   <ShieldCheck key="shield" className="w-5 h-5" />,
   <CheckCircle key="check" className="w-5 h-5" />,
+  <FileCheck key="dakks" className="w-5 h-5" />,
 ];
 
 export default function FooterTrustBadges() {
@@ -16,7 +17,7 @@ export default function FooterTrustBadges() {
 
   return (
     <div className="w-full py-10 border-y border-white/10">
-      <div className="flex flex-wrap justify-center lg:justify-between items-center gap-8 md:gap-12">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8 items-center justify-items-start sm:justify-items-center">
         {badges.map((badge, index) => (
           <div
             key={index}

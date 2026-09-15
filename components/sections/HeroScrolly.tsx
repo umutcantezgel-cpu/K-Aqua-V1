@@ -279,7 +279,7 @@ export default function HeroScrolly() {
           showReducedDesktop ? 'block' : 'block lg:hidden'
         } py-12 bg-background relative z-10`}
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-8 px-6 k-orbit-static-override" data-nosnippet="true">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-8 px-6 k-orbit-static-override" data-nosnippet="true">
           {staticCardEls}
         </div>
       </section>

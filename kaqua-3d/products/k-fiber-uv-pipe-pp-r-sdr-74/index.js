@@ -41,8 +41,6 @@ const product = {
       name: 'K-Aqua_kaqua-k-fiber-uv-pipe-pp-r-sdr-7-4' + '_d' + size,
       materials: matKeys,
       seed: 201,
-      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
-      emboss: false,
       printText: druckzeile(product.brandLine, size),
       clipPlane,
     });

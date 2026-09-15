@@ -1,0 +1,2031 @@
+# Befund nl — 1816 offene Einträge
+
+Jede Zeile ist ein Wert, der in `messages/nl.json` noch fehlt,
+noch deutsch/englisch dasteht oder mit einem Füllstring belegt ist.
+Hinter dem Schlüssel steht der **deutsche Originaltext** — er ist maßgeblich.
+
+`[fehlt]` = Schlüssel fehlt ganz · `[füllstring]` = Wert ist ein Platzhalter
+ohne Marke = Wert steht wörtlich deutsch oder englisch da.
+
+## Übersicht
+
+* `about` — 2
+* `aboutx` — 1
+* `academy` — 16
+* `academyx` — 1
+* `application` — 11
+* `career` — 27
+* `careerx` — 21
+* `catalogNotes` — 2
+* `catalogx` — 352
+* `co2` — 14
+* `co2x` — 7
+* `contact` — 1
+* `contactx` — 20
+* `cookieConsent` — 43
+* `enterprise` — 19
+* `finder` — 8
+* `finderx` — 11
+* `footer` — 2
+* `footerSitemap` — 21
+* `geo` — 27
+* `geoContent` — 106
+* `home` — 1
+* `homedeep` — 6
+* `homex` — 5
+* `imprint` — 1
+* `kontaktBlocks` — 37
+* `kontaktForm` — 2
+* `legal` — 20
+* `mapsSuite` — 4
+* `markets` — 10
+* `nav` — 20
+* `news` — 5
+* `newsx` — 19
+* `partner` — 7
+* `partnerx` — 16
+* `productNames` — 14
+* `products` — 226
+* `productsx` — 93
+* `refsx` — 5
+* `regions` — 2
+* `resources` — 115
+* `rfq` — 32
+* `service` — 16
+* `servicex` — 34
+* `solutions` — 214
+* `solutionsx` — 81
+* `trust` — 17
+* `trustAndCases` — 2
+* `trustx` — 32
+* `viewer3d` — 46
+* `wissen` — 22
+
+## about (2)
+
+- `about.genauManagement.title2`  Management System
+- `about.hero.title1`  German Engineering.
+
+## aboutx (1)
+
+- `aboutx.houseEyebrow`  House of KWT
+
+## academy (16)
+
+- `academy.eyebrow`  K-Aqua Academy
+- `academy.glossar.bento.items.4.label`  50+ YRS
+- `academy.glossar.timeline.items.2.title`  Standard Dimension Ratios
+- `academy.quiz.1.o.0`  Standard Dimension Ratio (d/s)
+- `academy.quiz.1.o.1`  Static Density Rating
+- `academy.quiz.3.o.0`  Code 3
+- `academy.quiz.3.o.1`  Code 5
+- `academy.quiz.3.o.2`  Code 7
+- `academy.schulungen.hero.eyebrow`  GERMAN ENGINEERING ACADEMY
+- `academy.start`  Quiz starten
+- `academy.zertifizierung.hero.eyebrow`  German Engineering Standards
+- `academy.zertifizierung.hero.title2`  Engineered in Germany.
+- `academy.zertifizierung.lab.eyebrow`  Inside the Lab
+- `academy.zertifizierung.lab.items.0.title`  MFR (Melt Flow Rate)
+- `academy.zertifizierung.lab.items.1.title`  OIT (Oxidation Induction Time)
+- `academy.zertifizierung.timeline.items.4.title`  Next-Gen Quality Analytics
+
+## academyx (1)
+
+- `academyx.paramHead.0`  d (mm)
+
+## application (11)
+
+- `application.portal.form.cvAttached` [fehlt] Lebenslauf
+- `application.portal.form.cvFromBuilder` [fehlt] Über den Baukasten erstellt
+- `application.portal.form.fileTooLarge` [fehlt] Die Datei ist zu groß. Möglich sind bis zu 4 MB.
+- `application.portal.form.fileWrongType` [fehlt] Dieses Dateiformat geht nicht. Möglich sind PDF, DOC und DOCX.
+- `application.portal.form.nameLabel` [fehlt] Name
+- `application.portal.form.needCv` [fehlt] Bitte lade einen Lebenslauf hoch oder fülle den Lebenslauf-Baukasten aus.
+- `application.portal.form.privacy` [fehlt] Deine Angaben nutzen wir ausschließlich für diese Bewerbung. Näheres in unserer
+- `application.portal.form.privacyLink` [fehlt] Datenschutzerklärung
+- `application.portal.form.replaceFile` [fehlt] Klicken zum Ersetzen
+- `application.portal.form.requiredFields` [fehlt] Bitte fülle die mit * gekennzeichneten Felder aus.
+- `application.portal.form.reviewTitle` [fehlt] Bewerbung prüfen
+
+## career (27)
+
+- `career.benefits.internet.0`  Internetpauschale
+- `career.benefits.internet.1`  Zuschuss zur privaten Internetnutzung.
+- `career.benefits.jobrad.0`  JobRad-Leasing
+- `career.benefits.kita.0`  Kita-Zuschuss
+- `career.benefits.kita.1`  Steuerfreier Zuschuss zur Kinderbetreuung.
+- `career.benefits.lunch.0`  Essenszuschuss
+- `career.benefits.lunch.1`  Digitale Essensmarken für Mittagessen & Supermarkt.
+- `career.benefits.sachbezug.0`  Sachbezugskarte
+- `career.benefits.vwl.0`  Vermögenswirksame Leistungen
+- `career.benefits.vwl.1`  Monatlicher Sparbeitrag vom Arbeitgeber.
+- `career.cmEyebrow`  Culture Matcher
+- `career.cmQ.0.o.0`  Klare Abläufe, eingespieltes Team
+- `career.cmQ.0.o.1`  Jeden Tag etwas Neues ausprobieren
+- `career.cmQ.0.q`  Wie arbeiten Sie am liebsten?
+- `career.cmQ.1.o.0`  Sofort hinschauen, Ursache finden
+- `career.cmQ.1.o.1`  Erstmal weiterlaufen lassen
+- `career.cmQ.1.q`  Großserie läuft. Eine Maschine meldet eine Abweichung.
+- `career.cmQ.2.o.0`  Ein Produkt, das 50 Jahre hält
+- `career.cmQ.2.o.1`  Schnelle, sichtbare Ergebnisse
+- `career.cmQ.2.q`  Was motiviert Sie mehr?
+- `career.cmQ.3.o.0`  Planbar und okay
+- `career.cmQ.3.o.1`  Eher schwierig
+- `career.cmQ.3.q`  Schichtarbeit ist für Sie …
+- `career.cmQ.4.o.0`  Ich will verstehen, wie Dinge funktionieren
+- `career.cmQ.4.o.1`  Hauptsache es läuft
+- `career.cmQ.4.q`  Ihr Verhältnis zu Technik?
+- `career.cmStart`  Test starten
+
+## careerx (21)
+
+- `careerx.areas.0.p`  Technikverständnis, Sorgfalt, Bereitschaft zur Schichtarbeit
+- `careerx.areas.0.t`  Produktion & Fertigung
+- `careerx.areas.1.d`  Extruder, Werkzeuge und Peripherie am Laufen halten: Wartung, Störungsanalyse und kontinuierliche Verbesserung nach GENAU.
+- `careerx.areas.1.p`  Ausbildung in Mechatronik, Elektrik oder Metall: Ursachen finden statt Symptome flicken
+- `careerx.areas.1.t`  Technik & Instandhaltung
+- `careerx.areas.2.p`  Technische Beratungskompetenz, Sprachen sind ein Plus
+- `careerx.areas.2.t`  Vertrieb & Anwendungstechnik
+- `careerx.areas.3.d`  Auftragsabwicklung, Einkauf und Organisation: die Prozesse, die Qualität mit Kosten und Terminen vereinbar halten.
+- `careerx.areas.3.p`  Strukturierte Arbeitsweise, Freude an klaren Abläufen
+- `careerx.areas.3.t`  Verwaltung & Kaufmännisches
+- `careerx.proc.0.d`  Per E-Mail an Andrea Nickel: mit CV-Generator oder Direktbewerbung von dieser Seite. Kein Anschreiben-Roman nötig.
+- `careerx.proc.0.t`  Bewerbung senden
+- `careerx.proc.1.t`  Gespräch führen
+- `careerx.proc.2.t`  Werk kennenlernen
+- `careerx.why.0.d`  Eine starke Position, die kontinuierlich ausgebaut wird: Ihre Arbeit trägt sichtbar zum Erfolg bei.
+- `careerx.why.0.t`  Wachsende Marktposition
+- `careerx.why.1.t`  Sicherheit als System
+- `careerx.why.2.d`  Rohre, die auf 50 Jahre Betrieb ausgelegt sind und weltweit in Krankenhäusern und Hotels arbeiten: Ergebnisse, die bleiben.
+- `careerx.why.2.t`  Produkt mit Substanz
+- `careerx.why.3.d`  Steuerfreie Extras von der Sachbezugskarte bis zum JobRad: rechnen Sie oben nach, was Ihr Paket bringt.
+- `careerx.why.3.t`  Benefits, die netto ankommen
+
+## catalogNotes (2)
+
+- `catalogNotes.metal-union-female-thread-yellow-brass`  Messing CW617N.
+- `catalogNotes.metal-union-male-thread-yellow-brass`  Messing CW617N.
+
+## catalogx (352)
+
+- `catalogx.items.adaptor-socket-female-thread.faq.0.a`  Die integrierte Platte mit Bohrungen ermöglicht die starre, mechanische Fixierung des Winkels direkt an der Wand oder einem Montageelement.
+- `catalogx.items.adaptor-socket-female-thread.faq.0.q`  Wozu dient die Montageplatte?
+- `catalogx.items.adaptor-socket-female-thread.faq.1.a`  Nein, die metallischen Einsätze bestehen aus hochwertigem, entzinkungsfreiem Messing und sind somit hochgradig korrosionsbeständig.
+- `catalogx.items.adaptor-socket-female-thread.faq.1.q`  Ist das Metallgewinde korrosionsanfällig?
+- `catalogx.items.adaptor-socket-female-thread.faq.2.a`  Wir empfehlen die Verwendung von Teflonband (PTFE-Band). Bei Hanf darf nur sehr sparsam und mit nicht-quellender Paste gearbeitet werden, um den Messingeinsatz nicht zu sprengen.
+- `catalogx.items.adaptor-socket-female-thread.faq.2.q`  Darf ich das Gewinde mit Hanf abdichten?
+- `catalogx.items.adaptor-socket-male-thread.faq.0.a`  Ja, das Innengewinde ist ein massiver, hochwertiger Messingeinsatz, der fest und verdrehsicher in das PP-R Material eingespritzt ist.
+- `catalogx.items.adaptor-socket-male-thread.faq.0.q`  Ist das Innengewinde durchgängig aus Messing?
+- `catalogx.items.adaptor-socket-male-thread.faq.1.a`  Ja, das metallische Gewinde ermöglicht jederzeit die sichere Demontage angeschlossener Apparaturen wie Pumpen oder Filter.
+- `catalogx.items.adaptor-socket-male-thread.faq.1.q`  Kann die Verbindung bei Bedarf gelöst werden?
+- `catalogx.items.adaptor-socket-male-thread.faq.2.a`  Das Gewinde sollte mit handelsüblichem Werkzeug und Gefühl angezogen werden, um Spannungsrisse im angrenzenden Kunststoff zu vermeiden.
+- `catalogx.items.adaptor-socket-male-thread.faq.2.q`  Wie hoch ist das maximale Anzugsdrehmoment?
+- `catalogx.items.adjustable-battery-female-thread.faq.0.a`  Durch die gleitende Schiene lassen sich die Wandscheiben stufenlos auf das exakt benötigte Stichmaß der Mischarmatur einstellen.
+- `catalogx.items.adjustable-battery-female-thread.faq.0.q`  Wie flexibel ist die Abstandsverstellung?
+- `catalogx.items.adjustable-battery-female-thread.faq.1.a`  Nachdem das korrekte Maß eingestellt wurde, werden die Wandscheiben fest arretiert. Ein Verrutschen während des Fliesenlegens ist somit ausgeschlossen.
+- `catalogx.items.adjustable-battery-female-thread.faq.1.q`  Besteht bei der verstellbaren Version die Gefahr von Verschiebungen?
+- `catalogx.items.adjustable-battery-female-thread.faq.2.a`  Ja, wie bei allen Armaturenanschlüssen sollte die Montageplatte vor dem endgültigen Fixieren sorgfältig mit einer Wasserwaage horizontiert werden.
+- `catalogx.items.adjustable-battery-female-thread.faq.2.q`  Ist eine Wasserwaage zur Ausrichtung nötig?
+- `catalogx.items.backing-flange-pp-steel-sfbf.faq.0.a`  Die Kunststoffummantelung schützt den hochfesten Stahl dauerhaft vor Korrosion, was besonders in feuchten Kellern oder aggressiven Industrieumgebungen entscheidend ist.
+- `catalogx.items.backing-flange-pp-steel-sfbf.faq.0.q`  Warum wird der Stahlkern mit Polypropylen ummantelt?
+- `catalogx.items.backing-flange-pp-steel-sfbf.faq.1.a`  Ja, das Bohrbild unserer Losflansche ist exakt auf die europäische DIN EN 1092-1 Norm abgestimmt und passt auf alle handelsüblichen Gegenflansche.
+- `catalogx.items.backing-flange-pp-steel-sfbf.faq.1.q`  Entspricht das Lochbild den gängigen Normen?
+- `catalogx.items.backing-flange-pp-steel-sfbf.faq.2.a`  Wir empfehlen dringend das kreuzweise Anziehen mit einem kalibrierten Drehmomentschlüssel, um eine gleichmäßige Verpressung der Dichtung zu gewährleisten.
+- `catalogx.items.backing-flange-pp-steel-sfbf.faq.2.q`  Müssen die Schrauben mit einem Drehmomentschlüssel angezogen werden?
+- `catalogx.items.battery-female-thread.faq.0.a`  Sie ist auf das internationale Standard-Stichmaß von 150 mm fixiert, passend für 99% aller handelsüblichen Aufputz-Mischarmaturen.
+- `catalogx.items.battery-female-thread.faq.0.q`  Welches Stichmaß weist die Armaturenbatterie auf?
+- `catalogx.items.battery-female-thread.faq.1.a`  Nein, die integrierte Kunststoffbrücke sorgt für starre, exakte Abstände. Für abweichende Maße empfehlen wir Einzelwandscheiben.
+- `catalogx.items.battery-female-thread.faq.1.q`  Kann die Batterie gebogen werden?
+- `catalogx.items.battery-female-thread.faq.2.a`  Sie verfügt über mehrere vorgebohrte Montageösen, um sie mit Schrauben sicher an Ziegel-, Beton- oder Trockenbauwänden zu fixieren.
+- `catalogx.items.battery-female-thread.faq.2.q`  Wie wird die Batterie befestigt?
+- `catalogx.items.butt-welding-machine-90250.faq.0.a`  Beim Stumpfschweißen werden die Rohrenden plan gefräst und direkt ohne zusätzlichen Fitting (Muffe) auf Stoß miteinander verschmolzen.
+- `catalogx.items.butt-welding-machine-90250.faq.0.q`  Was ist der Unterschied zwischen Muffen- und Stumpfschweißen?
+- `catalogx.items.butt-welding-machine-90250.faq.1.a`  Ja, die integrierte CNC-Steuerung protokolliert Temperatur, Druck und Zeit für jede einzelne Schweißnaht zur späteren Auswertung.
+- `catalogx.items.butt-welding-machine-90250.faq.1.q`  Werden die Schweißdaten für die Qualitätskontrolle gespeichert?
+- `catalogx.items.butt-welding-machine-90250.faq.2.a`  Der Hobel fräst beide Rohrenden vor dem Schweißen absolut parallel und oxidationsfrei, was für eine dauerhafte molekulare Verbindung zwingend erforderlich ist.
+- `catalogx.items.butt-welding-machine-90250.faq.2.q`  Warum ist ein Hobel integriert?
+- `catalogx.items.cap.faq.0.a`  Ja, nach ordnungsgemäßer Verschweißung und Abkühlung hält die Endkappe dem vollen Prüfdruck des Systems (bis zu 30 Bar) problemlos stand.
+- `catalogx.items.cap.faq.0.q`  Kann die Endkappe für eine Druckprüfung genutzt werden?
+- `catalogx.items.cap.faq.1.a`  Für temporäre Absperrungen empfehlen wir Stopfen mit Gewinde; die Endkappe wird homogen verschweißt und ist somit für den permanenten Verschluss gedacht.
+- `catalogx.items.cap.faq.1.q`  Wie verschließe ich temporäre Leitungen?
+- `catalogx.items.cap.faq.2.a`  Durch die thermische Verschmelzung gibt es keine unterschiedlichen Ausdehnungskoeffizienten, wodurch sie von 0°C bis 95°C absolut leckagefrei bleibt.
+- `catalogx.items.cap.faq.2.q`  Ist die Endkappe bei allen Temperaturen dicht?
+- `catalogx.items.concealed-valve-chrome-heavy-part.faq.0.a`  Die verlängerte Spindelkonstruktion überbrückt problemlos tiefe Wandaufbauten, wie dicke Marmorplatten oder Trockenbau-Doppelbeplankungen.
+- `catalogx.items.concealed-valve-chrome-heavy-part.faq.0.q`  Was unterscheidet das 'Long' Modell vom Standard-Unterputzventil?
+- `catalogx.items.concealed-valve-chrome-heavy-part.faq.1.a`  Ja, zur einfachen Unterscheidung von Heiß- und Kaltwassersträngen liegen unseren Garnituren austauschbare Farbmarkierungen (Rot/Blau) bei.
+- `catalogx.items.concealed-valve-chrome-heavy-part.faq.1.q`  Verfügt der Griff über eine Farbmarkierung?
+- `catalogx.items.concealed-valve-chrome-heavy-part.faq.2.a`  Wir verwenden hochhitzebeständige EPDM-Profildichtungen im Innenoberteil, die extrem resistent gegen chemische Reiniger und thermische Desinfektion sind.
+- `catalogx.items.concealed-valve-chrome-heavy-part.faq.2.q`  Wie wird der Ventilsitz abgedichtet?
+- `catalogx.items.concealed-valve-chrome-light-part.faq.0.a`  Ja, dieses Set beinhaltet das PP-R Ventilunterteil sowie die komplette, hochglanzverchromte Sichtgarnitur inklusive Rosette.
+- `catalogx.items.concealed-valve-chrome-light-part.faq.0.q`  Ist der Chromgriff im Lieferumfang enthalten?
+- `catalogx.items.concealed-valve-chrome-light-part.faq.1.a`  Selbstverständlich. Der Grundkörper wird unter Putz geschweißt, die Rosette und der Griff werden erst nach Fertigstellung der Wand aufgesteckt.
+- `catalogx.items.concealed-valve-chrome-light-part.faq.1.q`  Kann die Rosette nach dem Fliesen montiert werden?
+- `catalogx.items.concealed-valve-chrome-light-part.faq.2.a`  Der Drehgriff besteht aus einer robusten Zinkdruckguss-Legierung (Zamak) mit einer langlebigen, pflegeleichten Chrombeschichtung.
+- `catalogx.items.concealed-valve-chrome-light-part.faq.2.q`  Aus welchem Material besteht der Griff?
+- `catalogx.items.cross-over-pipe.faq.0.a`  Das Crossing Tee ermöglicht das kreuzungsfreie Überspringen einer Leitung und integriert gleichzeitig einen Abzweig.
+- `catalogx.items.cross-over-pipe.faq.0.q`  Was unterscheidet das Crossing Tee vom Kreuzstück?
+- `catalogx.items.cross-over-pipe.faq.1.a`  Es wird analog zu Standard-Fittings mittels Heizelementmuffenschweißen in das Leitungsnetz eingebunden.
+- `catalogx.items.cross-over-pipe.faq.1.q`  Wie wird dieses Bauteil verschweißt?
+- `catalogx.items.cross-over-pipe.faq.2.a`  Trotz der kompakten Geometrie ist das Innere strömungsoptimiert, sodass keine signifikanten Querschnittsverengungen entstehen.
+- `catalogx.items.cross-over-pipe.faq.2.q`  Wird der Durchfluss durch die Konstruktion gehemmt?
+- `catalogx.items.cross-over.faq.0.a`  Die Biegung ist exakt so dimensioniert, dass ein kreuzendes K Aqua Rohr gleicher oder kleinerer Dimension berührungsfrei übersprungen wird.
+- `catalogx.items.cross-over.faq.0.q`  Wie groß ist der Bogen des Schwanenhalses?
+- `catalogx.items.cross-over.faq.1.a`  Der Schwanenhals (Überbogen) verfügt typischerweise über ungeschweißte Rohrenden und wird beidseitig mit Standard-Muffen in das System integriert.
+- `catalogx.items.cross-over.faq.1.q`  Werden für die Installation spezielle Muffen benötigt?
+- `catalogx.items.cross-over.faq.2.a`  Nein! Manuelles Biegen mit Heißluftgebläsen zerstört die molekulare Struktur des Rohres und führt zum sofortigen Erlöschen der Gewährleistung.
+- `catalogx.items.cross-over.faq.2.q`  Darf ich ein gerades PP-R Rohr selbst mit Hitze zum Überbogen formen?
+- `catalogx.items.cross.faq.0.a`  Da vier Ströme aufeinandertreffen können, ist der Zeta-Wert höher als bei geraden Rohren, das großzügige Innendesign hält den Verlust jedoch minimal.
+- `catalogx.items.cross.faq.0.q`  Verursacht das Kreuzstück hohe Druckverluste?
+- `catalogx.items.cross.faq.1.a`  Besonders in Vorwandinstallationen oder Fußbodenheizungsverteilern, wo extrem flach und symmetrisch gebaut werden muss.
+- `catalogx.items.cross.faq.1.q`  In welchen Situationen ist ein Kreuz zwingend?
+- `catalogx.items.cross.faq.2.q`  Sind die Abzweige immer gleich groß?
+- `catalogx.items.drilling-tool-for-weld-in-saddle.faq.0.a`  Standardbohrer reißen den Kunststoff ein und erzeugen unkontrollierte Späne. Unser Spezialbohrer fräst das Loch und fängt den Span sauber ab.
+- `catalogx.items.drilling-tool-for-weld-in-saddle.faq.0.q`  Warum kann ich keinen normalen Holz- oder Metallbohrer verwenden?
+- `catalogx.items.drilling-tool-for-weld-in-saddle.faq.1.a`  Ja, der Bohrer verfügt über einen genormten Sechskantschaft, der in jedes handelsübliche Bohrfutter passt.
+- `catalogx.items.drilling-tool-for-weld-in-saddle.faq.1.q`  Passt der Bohrer in einen handelsüblichen Akkuschrauber?
+- `catalogx.items.drilling-tool-for-weld-in-saddle.faq.2.a`  Nein, der Fräskopf des Bohrers ist so konstruiert, dass er die Lochkante automatisch für die nachfolgende Schweißung vorbereitet und glättet.
+- `catalogx.items.drilling-tool-for-weld-in-saddle.faq.2.q`  Muss das Loch entgratet werden?
+- `catalogx.items.elbow-45-femalemale.faq.0.a`  Ja, kombiniert mit einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden.
+- `catalogx.items.elbow-45-femalemale.faq.0.q`  Eignet sich der 45-Grad I/A Winkel für parallele Versprünge?
+- `catalogx.items.elbow-45-femalemale.faq.1.a`  Die homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle.
+- `catalogx.items.elbow-45-femalemale.faq.1.q`  Ist die Druckbeständigkeit der Innen-/Außen-Verbindung genauso hoch?
+- `catalogx.items.elbow-45-femalemale.faq.2.a`  Er wird typischerweise für die gängigen Dimensionen in der Etagenverteilung in 20 mm und 25 mm produziert.
+- `catalogx.items.elbow-45-femalemale.faq.2.q`  Für welche Dimensionen ist dieser Winkel verfügbar?
+- `catalogx.items.elbow-45.faq.0.a`  Ein 45-Grad-Winkel reduziert den Druckverlust und den Strömungswiderstand (Zeta-Wert) im System deutlich und beugt Geräuschentwicklung vor.
+- `catalogx.items.elbow-45.faq.0.q`  Wann sollte ich einen 45-Grad- anstelle eines 90-Grad-Winkels verwenden?
+- `catalogx.items.elbow-45.faq.1.a`  Ja, die Innenradien unserer 45-Grad-Winkel sind extrem glatt und hydraulisch optimiert, um Kavitation zu verhindern.
+- `catalogx.items.elbow-45.faq.1.q`  Sind K Aqua Winkel strömungsoptimiert?
+- `catalogx.items.elbow-45.faq.2.a`  Ja, diese Praxis wird oft bei großen Dimensionen angewendet, um weite Bögen zu kreieren und den Pumpenwiderstand zu senken.
+- `catalogx.items.elbow-45.faq.2.q`  Können zwei 45-Grad-Winkel zu einem 90-Grad-Bogen kombiniert werden?
+- `catalogx.items.elbow-90-femalemale.faq.0.a`  Es bedeutet Innen/Außen (Male/Female). Eine Seite wird als Muffe geschweißt, die andere Seite kann direkt in einen anderen Fitting eingeschweißt werden.
+- `catalogx.items.elbow-90-femalemale.faq.0.q`  Was bedeutet I/A (M/F) bei diesem Winkel?
+- `catalogx.items.elbow-90-femalemale.faq.1.a`  Sie spart Platz und vermeidet ein zusätzliches Rohrstück zwischen zwei Fittings, was bei engen Platzverhältnissen entscheidend ist.
+- `catalogx.items.elbow-90-femalemale.faq.1.q`  Welchen Vorteil bietet die I/A-Konstruktion?
+- `catalogx.items.elbow-90-femalemale.faq.2.a`  Der Prozess bleibt gleich, es werden lediglich Matrize und Patrize am Schweißspiegel gleichzeitig für Rohr und Fitting genutzt.
+- `catalogx.items.elbow-90-femalemale.faq.2.q`  Ändert sich dadurch der Schweißvorgang?
+- `catalogx.items.elbow-90-male-thread.faq.0.a`  Ja, er vereint einen Richtungswechsel um 90 Grad mit einem Gewindeübergang, was Platz, Material und eine Schweißnaht spart.
+- `catalogx.items.elbow-90-male-thread.faq.0.q`  Kombiniert dieser Fitting zwei Arbeitsschritte?
+- `catalogx.items.elbow-90-male-thread.faq.1.a`  Ja, K Aqua Außengewinde sind oft werkseitig leicht angeraut, damit das Dichtband (Teflon) beim Einschrauben nicht abrutscht.
+- `catalogx.items.elbow-90-male-thread.faq.1.q`  Ist das Außengewinde geraut?
+- `catalogx.items.elbow-90-male-thread.faq.2.a`  Es besteht aus entzinkungsbeständigem Spezialmessing, das für höchste hygienische Ansprüche im Trinkwasserbereich zugelassen ist.
+- `catalogx.items.elbow-90-male-thread.faq.2.q`  Aus welchem Material besteht das Außengewinde?
+- `catalogx.items.elbow-90.faq.0.a`  Dank der Wandstärkenreserven und der extrem glatten Innenflächen des PP-R Materials ist Verschleiß durch Abrasion praktisch ausgeschlossen.
+- `catalogx.items.elbow-90.faq.0.q`  Erhöht ein 90-Grad-Winkel den Verschleiß durch Strömungsdruck?
+- `catalogx.items.elbow-90.faq.1.a`  Ja, unsere Formteile weisen oft Produktionsmarkierungen auf, die bei der exakten axialen Ausrichtung auf der Baustelle helfen.
+- `catalogx.items.elbow-90.faq.1.q`  Gibt es Richtungsmarkierungen auf den K Aqua Winkeln?
+- `catalogx.items.elbow-90.faq.2.a`  Ja, er ist ideal, um Stränge aus Schächten auf die jeweilige Etage abzuwinkeln.
+- `catalogx.items.elbow-90.faq.2.q`  Kann der 90-Grad-Winkel für Steigleitungen genutzt werden?
+- `catalogx.items.elbow-bracket-90-female-thread.faq.0.a`  Ja, in Kombination mit unseren speziellen K Aqua Montageplatten lässt sie sich hervorragend in Gipskarton- oder Holzständerwänden fixieren.
+- `catalogx.items.elbow-bracket-90-female-thread.faq.0.q`  Kann die Wandscheibe auch im Trockenbau verwendet werden?
+- `catalogx.items.elbow-bracket-90-female-thread.faq.1.a`  Für optimale Schalldämmung bieten wir optionale Gummi-Schallschutzkappen an, die die Wandscheibe vom Baukörper entkoppeln.
+- `catalogx.items.elbow-bracket-90-female-thread.faq.1.q`  Gibt es einen Schallschutz für dieses Bauteil?
+- `catalogx.items.elbow-bracket-90-female-thread.faq.2.a`  Wir verwenden ausschließlich bleifreies oder entzinkungsbeständiges (DZR) Spezialmessing, konform mit den strengsten Trinkwasservorgaben.
+- `catalogx.items.elbow-bracket-90-female-thread.faq.2.q`  Aus welchem Material besteht das Innengewinde?
+- `catalogx.items.elbowwall-bracket-90-female-thread.faq.0.q`  Wann wird eine Wandscheibe mit Außengewinde anstelle eines Innengewindes verwendet?
+- `catalogx.items.elbowwall-bracket-90-female-thread.faq.1.a`  Ja, durch die drei integrierten Schraubösen wird die Hebelkraft großflächig abgeleitet, sodass die Wandbefestigung extrem stabil ist.
+- `catalogx.items.elbowwall-bracket-90-female-thread.faq.1.q`  Ist die Montageplatte bei starkem Zug stabil genug?
+- `catalogx.items.elbowwall-bracket-90-female-thread.faq.2.a`  Sollte die Wandscheibe zu tief in der Wand sitzen, können problemlos handelsübliche Hahnverlängerungen aus Messing aufgeschraubt werden.
+- `catalogx.items.elbowwall-bracket-90-female-thread.faq.2.q`  Können Verlängerungen aufgeschraubt werden?
+- `catalogx.items.electrofusion-machine.faq.0.q`  Wie liest die Maschine die Schweißparameter?
+- `catalogx.items.electrofusion-machine.faq.1.a`  Ja, ein Umgebungssensor misst die Temperatur und passt die Schweißdauer automatisch an (im Winter länger, im Sommer kürzer).
+- `catalogx.items.electrofusion-machine.faq.1.q`  Gleicht die Maschine Temperaturschwankungen auf der Baustelle aus?
+- `catalogx.items.electrofusion-machine.faq.2.a`  Zwingend! Die Oxidschicht auf dem PP-R Rohr muss im Schweißbereich mit einem speziellen Schälgerät mechanisch entfernt werden.
+- `catalogx.items.electrofusion-machine.faq.2.q`  Muss das Rohr vor der Elektroschweißung geschält werden?
+- `catalogx.items.electrofusion-socket.faq.0.a`  Ja, das Entfernen der Oxidschicht mittels eines speziellen Rohrschälers ist zwingend erforderlich für eine einwandfreie Verschmelzung.
+- `catalogx.items.electrofusion-socket.faq.0.q`  Muss das Rohr vor dem Elektroschweißen geschält werden?
+- `catalogx.items.electrofusion-socket.faq.1.a`  Es müssen K Aqua oder universelle Elektroschweißgeräte verwendet werden, die den Barcode auf der Muffe auslesen können.
+- `catalogx.items.electrofusion-socket.faq.1.q`  Welche Schweißgeräte können verwendet werden?
+- `catalogx.items.electrofusion-socket.faq.2.a`  Besonders bei eingeschränkter Bewegungsfreiheit (z. B. im Schacht), wo das Gerät für die Muffenschweißung keinen Platz findet.
+- `catalogx.items.electrofusion-socket.faq.2.q`  Wann ist Elektroschweißen besser als Heizelementmuffenschweißen?
+- `catalogx.items.elongation-pieces.faq.0.a`  Wenn der Putz oder die Fliesen dicker ausfallen als geplant und die Spindel des Unterputzventils nicht mehr weit genug aus der Wand ragt.
+- `catalogx.items.elongation-pieces.faq.0.q`  Wann benötige ich eine Ventil-Verlängerung?
+- `catalogx.items.elongation-pieces.faq.1.a`  Technisch ist das möglich, aus Stabilitätsgründen empfehlen wir jedoch, stattdessen sofort ein langes Oberteil ('Long') zu verwenden.
+- `catalogx.items.elongation-pieces.faq.1.q`  Können mehrere Verlängerungen kombiniert werden?
+- `catalogx.items.elongation-pieces.faq.2.a`  Ja, die Gewinde unserer Verlängerungen passen exakt auf die Standard-Oberteile der K Aqua Unterputzventile.
+- `catalogx.items.elongation-pieces.faq.2.q`  Ist das Verlängerungsgewinde genormt?
+- `catalogx.items.flange-adaptor.faq.0.a`  Er ist kompatibel mit handelsüblichen DIN/EN-Flanschen (z. B. PN10, PN16) und erfordert den passenden K Aqua Losflansch.
+- `catalogx.items.flange-adaptor.faq.0.q`  Welche Flanschnormen unterstützt der K Aqua Bundkragen?
+- `catalogx.items.flange-adaptor.faq.1.a`  Ja, zwischen dem PP-R Bundkragen und der Gegenflanke muss zwingend eine passende EPDM-Flachdichtung eingelegt werden.
+- `catalogx.items.flange-adaptor.faq.1.q`  Benötige ich eine zusätzliche Dichtung?
+- `catalogx.items.flange-adaptor.faq.2.a`  Er wird wie ein herkömmlicher Fitting durch Heizelementmuffenschweißen direkt auf das Rohr oder in eine Muffe geschweißt.
+- `catalogx.items.flange-adaptor.faq.2.q`  Wie wird der Bundkragen mit dem Rohr verbunden?
+- `catalogx.items.flat-gasket-for-unions-pp-r.faq.0.a`  Um die Dichtung nicht zu zerstören, sollte die Überwurfmutter handfest und anschließend mit Werkzeug nur leicht (ca. 1/4 Drehung) nachgezogen werden.
+- `catalogx.items.flat-gasket-for-unions-pp-r.faq.0.q`  Wie stark darf die Verschraubung angezogen werden?
+- `catalogx.items.flat-gasket-for-unions-pp-r.faq.1.a`  Für extreme Temperaturanforderungen oder spezielle industrielle Medien können wir auf Anfrage auch Dichtungen aus FKM (Viton) oder PTFE anbieten.
+- `catalogx.items.flat-gasket-for-unions-pp-r.faq.1.q`  Gibt es diese Dichtungen auch in anderen Materialien?
+- `catalogx.items.flat-gasket-for-unions-pp-r.faq.2.a`  Sie ist maßgeschneidert für die Nut- und Federkonstruktion der K Aqua Verschraubungen, kann aber auch bei maßgleichen Fremdverschraubungen verwendet werden.
+- `catalogx.items.flat-gasket-for-unions-pp-r.faq.2.q`  Passt diese Dichtung auf Fremdfabrikate?
+- `catalogx.items.flat-gasket.faq.0.a`  Standardmäßig bestehen unsere Flanschdichtungen aus hochdruckfestem EPDM, das für Trinkwasser und Heizungswasser hervorragend geeignet ist.
+- `catalogx.items.flat-gasket.faq.0.q`  Aus welchem Material besteht die Flachdichtung?
+- `catalogx.items.flat-gasket.faq.1.a`  Nein, nach dem Lösen einer Flanschverbindung muss aus Sicherheitsgründen zwingend eine neue Flachdichtung eingesetzt werden.
+- `catalogx.items.flat-gasket.faq.1.q`  Darf die Dichtung wiederverwendet werden?
+- `catalogx.items.flat-gasket.faq.2.a`  EPDM bietet eine gute Beständigkeit gegen viele wässrige Lösungen. Für spezielle industrielle Chemikalien prüfen Sie bitte vorab unsere Beständigkeitslisten.
+- `catalogx.items.flat-gasket.faq.2.q`  Ist die Dichtung beständig gegen Chemikalien?
+- `catalogx.items.hand-welding-machine-2032-complete-set.faq.0.a`  Nur ein präzises Thermostat garantiert die DVS-konforme Dauertemperatur von exakt 260°C, die für eine sichere PP-R Verschmelzung zwingend nötig ist.
+- `catalogx.items.hand-welding-machine-2032-complete-set.faq.0.q`  Warum ist ein elektronisches Thermostat so wichtig?
+- `catalogx.items.hand-welding-machine-2032-complete-set.faq.1.a`  Dank des starken 800-Watt-Heizelements erreicht das Gerät die Betriebstemperatur in der Regel in unter 10 Minuten.
+- `catalogx.items.hand-welding-machine-2032-complete-set.faq.1.q`  Wie lange dauert die Aufheizphase?
+- `catalogx.items.hand-welding-machine-2032-complete-set.faq.2.a`  Das Set umfasst das Heizgerät, den Standfuß, Teflondorne für 20, 25 und 32 mm, Inbusschlüssel und Montageschrauben im Stahlkoffer.
+- `catalogx.items.hand-welding-machine-2032-complete-set.faq.2.q`  Welche Werkzeuge sind im Koffer enthalten?
+- `catalogx.items.hand-welding-machine-2063-complete-set.faq.0.a`  Ja, der breite Heizschwert-Kopf erlaubt die simultane Montage von bis zu drei Heizdorn-Paaren für ein unterbrechungsfreies Arbeiten.
+- `catalogx.items.hand-welding-machine-2063-complete-set.faq.0.q`  Können mehrere Schweißwerkzeuge gleichzeitig montiert werden?
+- `catalogx.items.hand-welding-machine-2063-complete-set.faq.1.a`  Eine gut sichtbare Kontrollleuchte signalisiert dem Anwender, sobald die Betriebstemperatur von 260°C erreicht und stabilisiert ist.
+- `catalogx.items.hand-welding-machine-2063-complete-set.faq.1.q`  Gibt das Gerät ein Signal bei Erreichen der Temperatur?
+- `catalogx.items.hand-welding-machine-2063-complete-set.faq.2.a`  Absolut. Das langlebige Heizelement und die hitzebeständige Verkabelung sind speziell für den industriellen Schichtbetrieb ausgelegt.
+- `catalogx.items.hand-welding-machine-2063-complete-set.faq.2.q`  Ist das Gerät für den Dauerbetrieb auf Großbaustellen geeignet?
+- `catalogx.items.hand-welding-machine-mirror-50125.faq.0.a`  Große Durchmesser (ab 50 mm) haben eine enorme Masse. Der flache Spiegel bietet eine extrem große Kontaktfläche, um die Hitze schnell und gleichmäßig in den Kunststoff einzubringen.
+- `catalogx.items.hand-welding-machine-mirror-50125.faq.0.q`  Warum benötigt man für große Rohre einen Flachspiegel?
+- `catalogx.items.hand-welding-machine-mirror-50125.faq.1.a`  Trotz der hohen Leistung ist das Gerät ergonomisch ausbalanciert, erfordert bei Rohren ab 90 mm jedoch meist zwei Installateure zum exakten Fügen.
+- `catalogx.items.hand-welding-machine-mirror-50125.faq.1.q`  Wie schwer ist das Gerät?
+- `catalogx.items.hand-welding-machine-mirror-50125.faq.2.a`  Ja, sie sollten nach jedem Einsatz im noch warmen Zustand mit einem fusselfreien Papiertuch oder einem speziellen Holzspatel vorsichtig gereinigt werden.
+- `catalogx.items.hand-welding-machine-mirror-50125.faq.2.q`  Müssen die teflonbeschichteten Flächen gereinigt werden?
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.0.a`  Ja, aufgrund der reduzierten Wanddicke verkürzen sich die Aufwärmzeiten am Heizelement, was den Arbeitsprozess beschleunigt.
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.0.q`  Sind die Schweißzeiten bei SDR 11 Rohren kürzer?
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.1.a`  Es ist auf maximale Drücke von 16 Bar bei 20°C und 8 Bar bei 60°C ausgelegt.
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.1.q`  Was sind die Einsatzgrenzen für dieses SDR 11 Rohr?
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.2.a`  Ja, der hervorragende Isolationswert minimiert den Energieverlust in Kühlnetzen signifikant.
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-11.faq.2.q`  Profitieren Kühlsysteme von diesem Rohr?
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq.0.q`  Ist SDR 17 für hohe Netzdruckstufen geeignet?
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq.1.a`  Großrohre (90 mm bis 630 mm) werden vorzugsweise durch Heizelement-Stumpfschweißen oder mit Elektroschweißmuffen verbunden.
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq.1.q`  Wie erfolgt die Verbindung von solch großen Dimensionen?
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq.2.a`  Das PP-R Rohr rostet nicht, wiegt einen Bruchteil von Stahlrohren und bewahrt dauerhaft einen perfekten Durchflussquerschnitt.
+- `catalogx.items.k-fiber-pipe-pp-r-sdr-17.faq.2.q`  Was ist der Hauptvorteil gegenüber Stahlrohren?
+- `catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.0.a`  Eine spezielle, co-extrudierte schwarze Außenschicht absorbiert und blockiert schädliche UV-Strahlung, bevor sie das PP-R Material angreift.
+- `catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.0.q`  Wie wird der UV-Schutz bei diesem Rohr erreicht?
+- `catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.1.a`  Nein, da es sich um eine homogene Kunststoffschicht handelt, wird sie beim Muffenschweißen einfach mit dem Fitting verschmolzen.
+- `catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.1.q`  Muss die UV-Schicht vor dem Schweißen entfernt werden?
+- `catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.2.a`  Die UV-Schutzschicht verhindert die Polymer-Degradation, sodass die volle Lebensdauer von 50 Jahren auch bei direkter Sonneneinstrahlung gewährleistet ist.
+- `catalogx.items.k-fiber-uv-pipe-pp-r-sdr-74.faq.2.q`  Ist die Lebensdauer im Freien eingeschränkt?
+- `catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.0.a`  Ja, durch das hochkristalline PPRCT Material kann eine dünnere Wandstärke verwendet werden, während die UV-Schicht extremen Außenschutz bietet.
+- `catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.0.q`  Kombiniert dieses Rohr UV-Schutz mit höherer Durchflussleistung?
+- `catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.1.a`  Die Formteile werden in der Regel durch Isolierung, Farbanstrich oder UV-Schutzbänder geschützt, während die langen Rohrtrassen werksseitig geschützt sind.
+- `catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.1.q`  Sind UV-beständige K Aqua Formteile verfügbar?
+- `catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.2.a`  Es ist die optimale Wahl, da es sowohl der prallen Sonne als auch den chemischen Zusätzen im Kühlwasser dauerhaft standhält.
+- `catalogx.items.k-fiber-uv-pipe-pp-rct-sdr-74.faq.2.q`  Eignet sich dieses Rohr für Kühltürme?
+- `catalogx.items.metal-union-female-thread-yellow-brass.faq.0.q`  Wo wird das T-Stück mit Außengewinde typischerweise eingesetzt?
+- `catalogx.items.metal-union-female-thread-yellow-brass.faq.1.a`  Nein, da bei Außengewinden die Expansionskraft des Dichtmittels (Teflon) auf den massiven Messingkörper und nicht auf den Kunststoff wirkt.
+- `catalogx.items.metal-union-female-thread-yellow-brass.faq.1.q`  Gibt es bei Außengewinden Rissgefahr im Kunststoff?
+- `catalogx.items.metal-union-female-thread-yellow-brass.faq.2.a`  Selbstverständlich. Wie alle K Aqua Übergangsfittings ist es für Dauertemperaturen bis 70°C und kurzzeitige Spitzen von 95°C zugelassen.
+- `catalogx.items.metal-union-female-thread-yellow-brass.faq.2.q`  Kann ich es in Warmwassersystemen nutzen?
+- `catalogx.items.metal-union-female-thread.faq.0.a`  Oft als Geräteanschlussverschraubung bei Wasserzählern oder Wärmetauschern, die ein Innengewinde am Gehäuse aufweisen.
+- `catalogx.items.metal-union-female-thread.faq.0.q`  Wo wird diese Außengewinde-Verschraubung benötigt?
+- `catalogx.items.metal-union-female-thread.faq.1.a`  Ja, die lose Überwurfmutter fängt die Torsionskräfte beim Anziehen auf, sodass keine Drehspannung in das verschweißte Rohrnetz übertragen wird.
+- `catalogx.items.metal-union-female-thread.faq.1.q`  Bleibt das PP-R beim Festziehen spannungsfrei?
+- `catalogx.items.metal-union-female-thread.faq.2.a`  Wir verarbeiten exklusiv hochreines DZR-Messing, welches alle Normen der europäischen Trinkwasserverordnung (UBA-Liste) erfüllt.
+- `catalogx.items.metal-union-female-thread.faq.2.q`  Ist das Messingmaterial trinkwasserzertifiziert?
+- `catalogx.items.metal-union-male-thread-yellow-brass.faq.0.a`  Ja, das Innengewinde im Abzweig ist die Standardlösung zur direkten Einschraubung von Entleerungs- oder KFE-Hähnen am tiefsten Punkt.
+- `catalogx.items.metal-union-male-thread-yellow-brass.faq.0.q`  Eignet sich dieses T-Stück für den Anschluss von Entleerungsventilen?
+- `catalogx.items.metal-union-male-thread-yellow-brass.faq.1.a`  Durch eine spezielle Rändelung am Messingeinsatz wird dieser unlösbar vom PP-R umschlossen, was Verdrehen beim Gewindeschneiden verhindert.
+- `catalogx.items.metal-union-male-thread-yellow-brass.faq.1.q`  Ist der Messingeinsatz fest verankert?
+- `catalogx.items.metal-union-male-thread-yellow-brass.faq.2.a`  Nein, der Hauptstrang des T-Stücks (der Durchgang) ist vollquerschnittig und strömungsoptimiert.
+- `catalogx.items.metal-union-male-thread-yellow-brass.faq.2.q`  Reduziert das Gewinde den Durchfluss im Hauptstrang?
+- `catalogx.items.metal-union-male-thread.faq.0.a`  Die Verschraubung ist trennbar. Das bedeutet, das verbundene Bauteil kann später ohne Auftrennen des PP-R Rohres einfach demontiert werden.
+- `catalogx.items.metal-union-male-thread.faq.0.q`  Was ist der Vorteil einer Verschraubung (Union) gegenüber einer Übergangsmuffe?
+- `catalogx.items.metal-union-male-thread.faq.1.a`  Ja, K Aqua Verschraubungen werden standardmäßig mit einer hochwertigen EPDM-Flachdichtung (für Wasser) geliefert.
+- `catalogx.items.metal-union-male-thread.faq.1.q`  Ist die Dichtung in der Verschraubung enthalten?
+- `catalogx.items.metal-union-male-thread.faq.2.a`  Sie sollte mit einem passenden Maulschlüssel handfest plus eine Vierteldrehung angezogen werden, um die Dichtung nicht zu quetschen.
+- `catalogx.items.metal-union-male-thread.faq.2.q`  Darf die Überwurfmutter mit schwerem Werkzeug angezogen werden?
+- `catalogx.items.pipe-clamps.faq.0.a`  Die EPDM-Einlage dient der Schallentkopplung gemäß DIN 4109 und verhindert die Übertragung von Fließgeräuschen auf das Mauerwerk.
+- `catalogx.items.pipe-clamps.faq.0.q`  Wozu dient die Gummieinlage in der Schelle?
+- `catalogx.items.pipe-clamps.faq.1.a`  Je nach Anzugsmoment der Schrauben kann die Schelle sowohl als fixierender Festpunkt als auch als gleitender Losspunkt für die thermische Längenausdehnung genutzt werden.
+- `catalogx.items.pipe-clamps.faq.1.q`  Sollte die Schelle als Festpunkt oder Losspunkt montiert werden?
+- `catalogx.items.pipe-clamps.faq.2.a`  Unsere Standard-Rohrschellen verfügen über eine aufgeschweißte Kombimutter (M8/M10), die eine flexible Befestigung an gängigen Stockschrauben oder Gewindestangen ermöglicht.
+- `catalogx.items.pipe-clamps.faq.2.q`  Welchen Gewindeanschluss haben die Rohrschellen?
+- `catalogx.items.pipe-cutter-2040.faq.0.a`  Ein rechtwinkliger und gratfreier Schnitt ohne Quetschungen ist absolut zwingend, um eine perfekte, hohlraumfreie Schweißverbindung zu gewährleisten.
+- `catalogx.items.pipe-cutter-2040.faq.0.q`  Warum ist ein spezieller Rohrschneider so wichtig?
+- `catalogx.items.pipe-cutter-2040.faq.1.a`  Ja, bei Verschleiß oder Beschädigung lässt sich die hochfeste Stahlklinge problemlos durch ein Original-Ersatzteil austauschen.
+- `catalogx.items.pipe-cutter-2040.faq.1.q`  Kann die Klinge ausgetauscht werden?
+- `catalogx.items.pipe-cutter-2040.faq.2.a`  Die Kraftübersetzung funktioniert immer, jedoch sollte das PP-R Rohr bei Frosttemperaturen nicht geschnitten werden, da es splittern könnte.
+- `catalogx.items.pipe-cutter-2040.faq.2.q`  Funktioniert die Schere auch bei kalten Temperaturen?
+- `catalogx.items.pipe-cutter-50125.faq.0.a`  Das Werkzeug wird um das Rohr gespannt, das Schneidrad wird langsam zugestellt und der Schneider wird in gleichmäßigen Drehbewegungen um das Rohr geführt.
+- `catalogx.items.pipe-cutter-50125.faq.0.q`  Wie funktioniert das Schneiden von derart dicken Rohren?
+- `catalogx.items.pipe-cutter-50125.faq.1.a`  Ja, das speziell gehärtete Schneidrad durchtrennt auch unsere glasfaserverstärkten PPRCT Rohre mühelos und extrem präzise.
+- `catalogx.items.pipe-cutter-50125.faq.1.q`  Schneidet dieses Werkzeug auch Faserverbundrohre?
+- `catalogx.items.pipe-cutter-50125.faq.2.a`  Das Muffenschweißen erfordert kein Anfasen. Der absolut gerade Schnitt dieses Werkzeugs ist die perfekte Vorbereitung für den Schweißprozess.
+- `catalogx.items.pipe-cutter-50125.faq.2.q`  Ersetzt der Rollenschneider das Anfasen?
+- `catalogx.items.plug.faq.0.a`  Ja, er ist so konstruiert, dass er dem vollen Prüfdruck (oftmals mehr als 15 bar) bei der Druckprobe des Leitungsnetzes standhält.
+- `catalogx.items.plug.faq.0.q`  Hält der Stopfen dem Wasserdruck während der Bauphase stand?
+- `catalogx.items.plug.faq.1.a`  Unsere Stopfen verfügen meist über einen integrierten O-Ring, sodass kein zusätzliches Dichtband wie Teflon oder Hanf benötigt wird.
+- `catalogx.items.plug.faq.1.q`  Muss der Stopfen zusätzlich mit Teflon abgedichtet werden?
+- `catalogx.items.plug.faq.2.a`  Er ist primär als Baustopfen konzipiert. Für dauerhafte Blindverschlüsse empfehlen wir entsprechende Messing-Blindstopfen.
+- `catalogx.items.plug.faq.2.q`  Kann der Stopfen dauerhaft in der Wand verbleiben?
+- `catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.0.a`  Ja, die verchromte Messingkugel kann mit geringeren Wandstärken gefertigt werden, was einen vollen, widerstandsfreien Durchgang ermöglicht.
+- `catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.0.q`  Bietet die Messingkugel Vorteile beim Durchfluss?
+- `catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.1.a`  Selbstverständlich, wir verwenden ausschließlich hochreines, zertifiziertes DZR-Messing, das keine Schwermetalle an das Trinkwasser abgibt.
+- `catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.1.q`  Ist die Messingkugel trinkwassergeeignet?
+- `catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.2.a`  Ja, in Kombination mit Übergangsmuffen oder Flanschen lässt es sich problemlos als Absperrventil in Mischinstallationen einsetzen.
+- `catalogx.items.pp-r-ball-valve-ball-in-brass-chromium-plated.faq.2.q`  Kann das Ventil in bestehende Metallrohrnetze integriert werden?
+- `catalogx.items.pp-r-ball-valve-ball-in-pp.faq.0.a`  Sie verhindert Korrosion und Ionenabgabe an das Medium, was für Reinstwasser oder aggressive Chemikalien zwingend erforderlich ist.
+- `catalogx.items.pp-r-ball-valve-ball-in-pp.faq.0.q`  Was ist der Vorteil einer Kunststoffkugel im Ventil?
+- `catalogx.items.pp-r-ball-valve-ball-in-pp.faq.1.a`  Ja, der spezielle thermoplastische Kunststoff der Kugel und die Teflon-Dichtungen (PTFE) garantieren auch bei hohen Temperaturen volle Funktion.
+- `catalogx.items.pp-r-ball-valve-ball-in-pp.faq.1.q`  Ist das Ventil auch für Heißwasser geeignet?
+- `catalogx.items.pp-r-ball-valve-ball-in-pp.faq.2.a`  Die K Aqua PP-R Kugelhähne sind durch ihre Konstruktion absolut wartungsfrei und auf jahrzehntelangen, reibungslosen Betrieb ausgelegt.
+- `catalogx.items.pp-r-ball-valve-ball-in-pp.faq.2.q`  Wie wird das Ventil gewartet?
+- `catalogx.items.reducing-bush.faq.0.q`  Kann ich mehrere Dimensionen auf einmal überspringen?
+- `catalogx.items.reducing-bush.faq.1.a`  Die Reduzierung ist in der Regel als Innen/Außen (I/A) Fitting konzipiert: Die große Seite passt in eine Muffe, die kleine Seite nimmt das Rohr auf.
+- `catalogx.items.reducing-bush.faq.1.q`  Wird die Reduziermuffe in oder auf das Rohr geschweißt?
+- `catalogx.items.reducing-bush.faq.2.a`  Nein, die Wandstärken der K Aqua Reduktionen sind so dimensioniert, dass sie dem Nenndruck des Gesamtsystems (bis PN 25) entsprechen.
+- `catalogx.items.reducing-bush.faq.2.q`  Hat die Verjüngung Einfluss auf den Betriebsdruck?
+- `catalogx.items.reducing-tee-large-sizes.faq.0.a`  Für die exakte Fräsung des Loches ist ein spezieller K Aqua Anbohrer erforderlich, sowie ein Sattelschweißwerkzeug zur Erwärmung.
+- `catalogx.items.reducing-tee-large-sizes.faq.0.q`  Welches Spezialwerkzeug wird für die Montage benötigt?
+- `catalogx.items.reducing-tee-large-sizes.faq.1.a`  Nein, das Leitungssystem muss zwingend entleert und drucklos sein, bevor die Anbohrung und Schweißung erfolgt.
+- `catalogx.items.reducing-tee-large-sizes.faq.1.q`  Kann ein Sattel auf einem unter Druck stehenden Rohr montiert werden?
+- `catalogx.items.reducing-tee-large-sizes.faq.2.a`  Ja, durch die tiefe Polyfusionsverschmelzung an der Rohrwandung erreicht der Sattelabzweig dieselbe Druckstufe wie das Basisrohr.
+- `catalogx.items.reducing-tee-large-sizes.faq.2.q`  Ist die Sattelverbindung so stark wie ein T-Stück?
+- `catalogx.items.reducing-tee.faq.0.a`  Ein reduziertes T-Stück spart eine zusätzliche Schweißnaht und verringert den Bauraum, was es effizienter und sicherer macht.
+- `catalogx.items.reducing-tee.faq.0.q`  Wann nutze ich ein reduziertes T-Stück anstelle eines Standard-T-Stücks mit Reduktion?
+- `catalogx.items.reducing-tee.faq.1.a`  Meistens ja, da typischerweise von der Hauptleitung kleinere Abzweige zu den Verbrauchern geführt werden.
+- `catalogx.items.reducing-tee.faq.1.q`  Ist der Abzweig immer die reduzierte Seite?
+- `catalogx.items.reducing-tee.faq.2.a`  Nein, die Innenradien sind hydraulisch optimiert, um Turbulenzen und Kavitationsgeräusche bei Querschnittsänderungen zu minimieren.
+- `catalogx.items.reducing-tee.faq.2.q`  Können diese T-Stücke strömungstechnische Geräusche verursachen?
+- `catalogx.items.repairing-plug.faq.0.a`  Er besteht zu 100% aus hochwertigem Polypropylen Random Copolymer (PP-R) Typ 3, genau wie unsere K Aqua Rohrsysteme.
+- `catalogx.items.repairing-plug.faq.0.q`  Aus welchem Material besteht der Reparaturstopfen?
+- `catalogx.items.repairing-plug.faq.1.a`  Ja, nachdem die Schweißstelle vollständig abgekühlt ist, wird das überstehende Ende des Stopfens bündig mit der Rohrwandung abgeschnitten.
+- `catalogx.items.repairing-plug.faq.1.q`  Muss der Stopfen nach dem Einschweißen abgeschnitten werden?
+- `catalogx.items.repairing-plug.faq.2.a`  Nein, das Wasser muss am betroffenen Strang vollständig abgestellt und das Rohr im Bereich des Bohrlochs trockengelegt sein.
+- `catalogx.items.repairing-plug.faq.2.q`  Kann ich den Stopfen bei gefülltem Rohrnetz verwenden?
+- `catalogx.items.socket.faq.0.a`  Die Einstecktiefe ist in unseren technischen Richtlinien exakt definiert und sollte zur Vermeidung von Querschnittsverengungen auf dem Rohr markiert werden.
+- `catalogx.items.socket.faq.0.q`  Wie tief muss das Rohr in die Muffe eingeführt werden?
+- `catalogx.items.socket.faq.1.a`  Ja, unsere Standard-Muffen sind für alle K Aqua PP-R, PPRCT und Faserrohre uneingeschränkt kompatibel.
+- `catalogx.items.socket.faq.1.q`  Können Muffen auch für Faserrohre verwendet werden?
+- `catalogx.items.socket.faq.2.a`  Nein, da durch die Polyfusion eine stoffschlüssige, molekulare Verbindung entsteht, die so stark wie das Rohr selbst ist.
+- `catalogx.items.socket.faq.2.q`  Besteht die Gefahr von Mikroleckagen an der Naht?
+- `catalogx.items.straight-seat-valve-upper-part-green-handle.faq.0.a`  Ja, es ist das komplette mechanische Innenleben (Oberteil) des Unterputzventils, ideal für Wartungszwecke oder den modularen Aufbau.
+- `catalogx.items.straight-seat-valve-upper-part-green-handle.faq.0.q`  Handelt es sich bei diesem Bauteil um ein Ersatzteil?
+- `catalogx.items.straight-seat-valve-upper-part-green-handle.faq.1.q`  Muss bei einem Tropfen das ganze Ventil getauscht werden?
+- `catalogx.items.straight-seat-valve-upper-part-green-handle.faq.2.a`  Das Spindelgewinde ist werkseitig mit einer lebensmittelechten Dauerschmierung versehen, eine nachträgliche Wartung ist nicht erforderlich.
+- `catalogx.items.straight-seat-valve-upper-part-green-handle.faq.2.q`  Wie oft muss das Oberteil gefettet werden?
+- `catalogx.items.tee-90-female-thread-for-internal-valve.faq.0.a`  Es ermöglicht die Strangabsperrung einzelner Nasszellen (z. B. Bad oder Küche) direkt vor Ort, ohne in den Keller gehen zu müssen.
+- `catalogx.items.tee-90-female-thread-for-internal-valve.faq.0.q`  Welche Funktion erfüllt das Unterputzventil?
+- `catalogx.items.tee-90-female-thread-for-internal-valve.faq.1.a`  Die Einbautiefe ist variabel. Sollte das Ventil durch dicken Fliesenaufbau zu tief sitzen, bieten wir entsprechende Spindelverlängerungen an.
+- `catalogx.items.tee-90-female-thread-for-internal-valve.faq.1.q`  Wie tief darf das Ventil in der Wand sitzen?
+- `catalogx.items.tee-90-female-thread-for-internal-valve.faq.2.a`  Ja, das gesamte mechanical Innenoberteil (Spindel, Dichtung) kann bei Bedarf herausgeschraubt und ausgetauscht werden, ohne die Wand zu öffnen.
+- `catalogx.items.tee-90-female-thread-for-internal-valve.faq.2.q`  Ist die Spindel austauschbar?
+- `catalogx.items.tee.faq.0.a`  Nein, das Innendesign unserer T-Stücke ist auf vollen Durchgang ausgelegt, um den Volumenstrom nicht zu drosseln.
+- `catalogx.items.tee.faq.0.q`  Verringert das T-Stück den Leitungsquerschnitt?
+- `catalogx.items.tee.faq.1.a`  Durch das extrem glatte PP-R Material (Rauigkeitswert 0,007 mm) haben Kalk und Biofilme auch in den Abzweigen keine Chance sich festzusetzen.
+- `catalogx.items.tee.faq.1.q`  Ist ein T-Stück anfälliger für Ablagerungen?
+- `catalogx.items.tee.faq.2.a`  Ja, die Anwärm-, Umstell- und Abkühlzeiten sind abhängig von der Dimension und strikt nach den DVS-Richtlinien einzuhalten.
+- `catalogx.items.tee.faq.2.q`  Werden bei großen T-Stücken andere Schweißzeiten benötigt?
+- `catalogx.items.union-for-watermeters.faq.0.a`  Sie verfügt typischerweise über eine Plombiermöglichkeit und spezielle Gewindedimensionen, die exakt auf genormte Wasserzähler abgestimmt sind.
+- `catalogx.items.union-for-watermeters.faq.0.q`  Was zeichnet eine Wasserzählerverschraubung aus?
+- `catalogx.items.union-for-watermeters.faq.1.a`  Die mitgelieferten Spezialdichtungen sind je nach Ausführung für Kaltwasserzähler oder auch für Heißwasser (Wärmemengenzähler) spezifiziert.
+- `catalogx.items.union-for-watermeters.faq.1.q`  Sind die Dichtungen für Heißwasser ausgelegt?
+- `catalogx.items.union-for-watermeters.faq.2.a`  Bei größeren und schwereren Zählern (Hausanschluss) empfehlen wir eine separate Abstützung des Zählers, um das Rohrnetz nicht mechanisch zu belasten.
+- `catalogx.items.union-for-watermeters.faq.2.q`  Kann das PP-R Rohr das Gewicht des Wasserzählers tragen?
+- `catalogx.items.union.faq.0.a`  Ein PP-R Flansch wird genutzt, wenn das Fördermedium stark korrosiv ist und jeglicher Kontakt mit Metall vermieden werden muss (Vollkunststoffsystem).
+- `catalogx.items.union.faq.0.q`  Wann wähle ich einen PP-R Flansch anstelle eines metallischen Losflansches?
+- `catalogx.items.union.faq.1.a`  Da Kunststoff flexibler als Stahl ist, sind die maximalen Nenndrücke bei Kunststoffflanschen in den größeren Dimensionen leicht reduziert.
+- `catalogx.items.union.faq.1.q`  Gibt es Druckeinschränkungen bei Voll-Kunststoffflanschen?
+- `catalogx.items.union.faq.2.a`  Ja, es wird dringend empfohlen, großflächige Unterlegscheiben zu nutzen, um die Spannkraft der Schraube gleichmäßig auf den Kunststoff zu verteilen.
+- `catalogx.items.union.faq.2.q`  Werden spezielle Unterlegscheiben für die Schrauben benötigt?
+- `catalogx.items.weld-in-saddle-female-thread.faq.0.a`  Er ermöglicht die direkte Installation eines Metall-Innengewindes an einer bestehenden Rohrleitung, was extrem zeit- und platzsparend ist.
+- `catalogx.items.weld-in-saddle-female-thread.faq.0.q`  Worin besteht der Hauptvorteil dieses Einschweißsattels?
+- `catalogx.items.weld-in-saddle-female-thread.faq.1.a`  Ja, der Sattel ist die ideale Schnittstelle, um Temperatursensoren oder kleine Manometer dauerhaft und druckdicht in Heizungsnetze zu integrieren.
+- `catalogx.items.weld-in-saddle-female-thread.faq.1.q`  Können hier Thermometer eingeschraubt werden?
+- `catalogx.items.weld-in-saddle-female-thread.faq.2.a`  Absolut. Der Messingeinsatz ist tief in die PP-R-Struktur eingespritzt und durch eine spezielle Rändelung mechanisch unlösbar verankert.
+- `catalogx.items.weld-in-saddle-female-thread.faq.2.q`  Ist das Messinggewinde vor Ausreißen geschützt?
+- `catalogx.items.weld-in-saddle-male-thread.faq.0.a`  Es ist optimal für den direkten Anschluss von Armaturen mit Innengewinde oder für Verbindungen, die mit einer Überwurfmutter gesichert werden.
+- `catalogx.items.weld-in-saddle-male-thread.faq.0.q`  Für welche Verbindungen eignet sich das Außengewinde am Sattel?
+- `catalogx.items.weld-in-saddle-male-thread.faq.1.a`  Der Einschweißsattel ist für Hauptrohre von 40 mm bis 125 mm verfügbar, wobei das Außengewinde typischerweise 1/2" oder 3/4" beträgt.
+- `catalogx.items.weld-in-saddle-male-thread.faq.1.q`  Gibt es diesen Sattel für alle Rohrdimensionen?
+- `catalogx.items.weld-in-saddle-male-thread.faq.2.a`  Durch das Verschmelzen von Sattel und Rohr entsteht eine stoffschlüssige, homogene Verbindung, die auf molekularer Ebene 100% dicht ist.
+- `catalogx.items.weld-in-saddle-male-thread.faq.2.q`  Wie wird die Dichtigkeit nach der Anbohrung sichergestellt?
+- `catalogx.items.weld-in-saddle.faq.0.a`  Dieser Einschweißsattel verfügt über einen reinen PP-R Abzweig, in den direkt ein Rohr oder ein weiterer Fitting (Muffe) eingeschweißt werden kann.
+- `catalogx.items.weld-in-saddle.faq.0.q`  Was ist der Unterschied zum Sattel mit Metallgewinde?
+- `catalogx.items.weld-in-saddle.faq.1.a`  Nein, der Sattel kann bei fachgerechter Anbohrung auf alle K Aqua Druckstufen (SDR 6 bis SDR 17) sicher aufgeschweißt werden.
+- `catalogx.items.weld-in-saddle.faq.1.q`  Muss die Rohrwand des Hauptrohres eine Mindeststärke haben?
+- `catalogx.items.weld-in-saddle.faq.2.a`  Ein erfahrener Installateur benötigt für das Anbohren, das Erwärmen mit dem speziellen Sattelwerkzeug und das Fügen maximal 3-5 Minuten.
+- `catalogx.items.weld-in-saddle.faq.2.q`  Wie lange dauert der Anbohr- und Schweißvorgang?
+- `catalogx.items.welding-machine-50125-complete-set.faq.0.a`  Die Hebelmechanik ermöglicht ein exakt lineares, verkantungsfreies Einschieben der großen Rohre, was per Hand extrem kraftaufwendig wäre.
+- `catalogx.items.welding-machine-50125-complete-set.faq.0.q`  Welchen Vorteil bietet die stationäre Maschine gegenüber dem Handgerät?
+- `catalogx.items.welding-machine-50125-complete-set.faq.1.a`  Technisch ja, die Maschine ist jedoch speziell für die hohen Fügekräfte der Dimensionen 50 mm bis 125 mm konzipiert.
+- `catalogx.items.welding-machine-50125-complete-set.faq.1.q`  Können damit auch kleine Rohre geschweißt werden?
+- `catalogx.items.welding-machine-50125-complete-set.faq.2.a`  Universal-Spannbacken mit verschiedenen Einsätzen greifen das Rohr schonend aber absolut fest, um eine kraftvolle, axiale Bewegung zu garantieren.
+- `catalogx.items.welding-machine-50125-complete-set.faq.2.q`  Wie wird das Rohr fixiert?
+- `catalogx.items.welding-tool-for-repairing-plug.faq.0.a`  Das konische Werkzeug schmilzt das Bohrloch auf. Danach wird der ebenfalls erwärmte PP-R Reparaturstopfen in das Loch gedrückt und verschmilzt dauerhaft.
+- `catalogx.items.welding-tool-for-repairing-plug.faq.0.q`  Wie genau funktioniert der Reparaturstift?
+- `catalogx.items.welding-tool-for-repairing-plug.faq.1.a`  Ja, es handelt sich nicht um eine bloße Verklebung, sondern um eine molekulare Verschweißung, die denselben Druck aushält wie das unbeschädigte Rohr.
+- `catalogx.items.welding-tool-for-repairing-plug.faq.1.q`  Ist die reparierte Stelle wirklich sicher?
+- `catalogx.items.welding-tool-for-repairing-plug.faq.2.a`  Das Werkzeug ist ideal für typische Bohrunfälle (Dübellöcher) im Bereich von 7 mm bis 11 mm.
+- `catalogx.items.welding-tool-for-repairing-plug.faq.2.q`  Welche Bohrdurchmesser können repariert werden?
+- `catalogx.items.welding-tool-for-weld-in-saddles.faq.0.a`  Die konkave (gewölbte) Seite erwärmt das runde Außenrohr, während die konvexe Seite exakt den sattelförmigen Abzweig auf Schmelztemperatur bringt.
+- `catalogx.items.welding-tool-for-weld-in-saddles.faq.0.q`  Warum hat das Werkzeug eine konkave und eine konvexe Seite?
+- `catalogx.items.welding-tool-for-weld-in-saddles.faq.1.q`  Passt ein Werkzeug für alle Rohre?
+- `catalogx.items.welding-tool-for-weld-in-saddles.faq.2.a`  Es wird wie ein normaler Heizdorn mit einer Inbusschraube direkt auf das Heizschwert des K Aqua Handschweißgeräts geschraubt.
+- `catalogx.items.welding-tool-for-weld-in-saddles.faq.2.q`  Wie wird das Werkzeug auf dem Schweißgerät montiert?
+- `catalogx.items.welding-tool.faq.0.a`  Sobald die Teflonbeschichtung zerkratzt ist oder sich PP-R-Reste festbrennen, muss das Werkzeug zwingend getauscht werden, um fehlerhafte Schweißnähte zu vermeiden.
+- `catalogx.items.welding-tool.faq.0.q`  Wann muss ein Schweißwerkzeug ausgetauscht werden?
+- `catalogx.items.welding-tool.faq.1.a`  Ein Messer zerstört sofort die mikrofeine PTFE-Antihaftbeschichtung. Nutzen Sie ausschließlich weiche Tücher auf dem noch heißen Werkzeug.
+- `catalogx.items.welding-tool.faq.1.q`  Warum darf ich Kunststoffreste nicht mit dem Messer abkratzen?
+- `catalogx.items.welding-tool.faq.2.a`  Die Befestigungsbohrung entspricht dem Industriestandard, sodass unsere Werkzeuge auf fast alle professionellen Muffenschweißgeräte passen.
+- `catalogx.items.welding-tool.faq.2.q`  Passt das K Aqua Schweißwerkzeug auch auf Fremdgeräte?
+
+## co2 (14)
+
+- `co2.costOperation`  Energie (NPV)
+- `co2.eyebrow`  Premium Engineering Tool
+- `co2.insulationBasic`  Basis
+- `co2.insulationPremium`  Premium
+- `co2.materials.kaqua`  K Aqua PPRCT
+- `co2.moduleD`  Modul D:
+- `co2.phaseC`  C (EoL)
+- `co2.phases.a4`  Transport (A4)
+- `co2.phaseTransport`  Transport
+- `co2.savedBody1`  Equals the CO₂ absorption of
+- `co2.savedLabel`  CO₂e Savings vs. best alternative
+- `co2.tabLogistics`  LCA
+- `co2.titleGrad`  Pro
+- `co2.trustLink`  Trust Center
+
+## co2x (7)
+
+- `co2x.certEyebrow`  Green Building
+- `co2x.meth.0.t`  Massenmodell aus der SDR-Geometrie
+- `co2x.meth.1.d`  Die Emissionsfaktoren je Werkstoff sind Demonstrationswerte für den Systemvergleich. Verbindliche Faktoren liefern ecoinvent bzw. produktspezifische Typ-III-EPDs nach EN 15804.
+- `co2x.meth.1.t`  Materialfaktoren
+- `co2x.meth.2.t`  Anschauliche Äquivalente
+- `co2x.meth.3.d`  Für Audit und Prüfung zählt das Dokument: EPD-Datenblätter und Scope-3-Daten gibt es im Trust Center bzw. auf Anfrage.
+- `co2x.meth.3.t`  Belegbarer Pfad
+
+## contact (1)
+
+- `contact.eyebrow`  Kontakt
+
+## contactx (20)
+
+- `contactx.facts.0.0`  Reaktionszeit
+- `contactx.facts.0.1`  Antwort innerhalb eines Werktags: Projektanfragen mit persönlicher Rückmeldung des Vertriebs
+- `contactx.facts.1.0`  Standort
+- `contactx.facts.2.0`  Telefon / Fax
+- `contactx.facts.2.1`  +49 (0)60 85 / 9868-410 · Fax -420
+- `contactx.facts.3.0`  Sprachen
+- `contactx.facts.3.1`  Deutsch und Englisch, Website zusätzlich auf Arabisch
+- `contactx.facts.4.0`  Werksbesuch
+- `contactx.facts.4.1`  Audits und Besichtigungen nach Terminvereinbarung über den Vertrieb
+- `contactx.faq.0.q`  Was gehört in eine gute Projektanfrage?
+- `contactx.faq.1.a`  Innerhalb eines Werktags: Projektanfragen beantwortet der Vertrieb persönlich, technische Fragen das Support Team.
+- `contactx.faq.1.q`  Wie schnell bekomme ich eine Antwort?
+- `contactx.faq.2.q`  Kann ich das Werk besichtigen oder auditieren?
+- `contactx.faq.3.a`  ISO-Zertifikate (DE/EN) unter Service & Downloads, das komplette Audit-Paket inklusive GAEB-Texten im Trust Center: als Self Service, ohne Wartezeit.
+- `contactx.faq.3.q`  Wo finde ich Zertifikate und Ausschreibungstexte?
+- `contactx.routes.0.d`  Angebote, Lieferzeiten, Konditionen, Projektberatung von d20 bis d630.
+- `contactx.routes.0.t`  Vertrieb & Projekte
+- `contactx.routes.1.d`  Material- und Verarbeitungsfragen, Zertifikate, Reklamationen.
+- `contactx.routes.1.t`  Qualität & technischer Support
+- `contactx.routes.2.t`  Karriere & Bewerbung
+
+## cookieConsent (43)
+
+- `cookieConsent.a11y.closeLabel` [fehlt] Einstellungen schließen
+- `cookieConsent.a11y.dialogLabel` [fehlt] Datenschutz-Einstellungen
+- `cookieConsent.a11y.switchOff` [fehlt] ausgeschaltet
+- `cookieConsent.a11y.switchOn` [fehlt] eingeschaltet
+- `cookieConsent.btnAcceptAll` [fehlt] Alles zulassen
+- `cookieConsent.btnBack` [fehlt] Zurück
+- `cookieConsent.btnClose` [fehlt] Schließen
+- `cookieConsent.btnCustomize` [fehlt] Einzeln entscheiden
+- `cookieConsent.btnNecessaryOnly` [fehlt] Nur Erforderliches
+- `cookieConsent.btnSaveSelection` [fehlt] Auswahl speichern
+- `cookieConsent.categories.analytics.desc` [fehlt] Anonyme Auswertung, welche Seiten aufgerufen werden.
+- `cookieConsent.categories.analytics.emptyNote` [fehlt] Derzeit ist kein solcher Dienst eingebunden. Sollte sich das ändern, wird er erst nach Deiner Zustimmung geladen.
+- `cookieConsent.categories.analytics.title` [fehlt] Reichweitenmessung
+- `cookieConsent.categories.comfort.desc` [fehlt] Merkt sich Deine Eingaben im CO₂-Rechner, Deine zuletzt gesuchten Begriffe und die Wahl zwischen hellem und dunklem Erscheinungsbild. Lehnst Du ab, funktioniert alles weiter — es wird nur nichts behalten.
+- `cookieConsent.categories.comfort.title` [fehlt] Komfort
+- `cookieConsent.categories.necessary.desc` [fehlt] Hält Deine Datenschutz-Entscheidung und die gewählte Sprache fest. Ohne diese Speicherung müsstest Du bei jedem Seitenaufruf erneut entscheiden. Nicht abwählbar.
+- `cookieConsent.categories.necessary.title` [fehlt] Technisch erforderlich
+- `cookieConsent.entries.co2.purpose` [fehlt] Deine Szenarien und Projektlisten
+- `cookieConsent.entries.co2.retention` [fehlt] Bis zum Löschen im Browser
+- `cookieConsent.entries.consent.purpose` [fehlt] Hält fest, wofür Du Dich entschieden hast
+- `cookieConsent.entries.consent.retention` [fehlt] Bis zum Widerruf
+- `cookieConsent.entries.search.purpose` [fehlt] Deine letzten Suchbegriffe
+- `cookieConsent.entries.search.retention` [fehlt] Bis zum Löschen im Browser
+- `cookieConsent.entries.theme.purpose` [fehlt] Hell oder dunkel
+- `cookieConsent.entries.theme.retention` [fehlt] Bis zum Löschen im Browser
+- `cookieConsent.imprintLink` [fehlt] Impressum
+- `cookieConsent.intro` [fehlt] Diese Website setzt keine Cookies und bindet keine Dienste Dritter ein. Gespeichert wird ausschließlich lokal in Deinem Browser — nichts davon verlässt Dein Gerät.
+- `cookieConsent.inventory.colCategory` [fehlt] Kategorie
+- `cookieConsent.inventory.colName` [fehlt] Eintrag
+- `cookieConsent.inventory.colPurpose` [fehlt] Zweck
+- `cookieConsent.inventory.colRetention` [fehlt] Speicherdauer
+- `cookieConsent.inventory.heading` [fehlt] Was genau gespeichert wird
+- `cookieConsent.inventory.note` [fehlt] Alle Einträge liegen im lokalen Speicher Deines Browsers (localStorage). Es werden keine Cookies gesetzt und keine Daten an Dritte oder in Drittländer übermittelt.
+- `cookieConsent.inventory.toggle` [fehlt] Gespeicherte Einträge anzeigen
+- `cookieConsent.noCookiesNote` [fehlt] Keine Cookies · keine Werbe-Tracker · keine Datenweitergabe beim Besuch
+- `cookieConsent.privacyLink` [fehlt] Datenschutzerklärung
+- `cookieConsent.record.decidedOn` [fehlt] Entschieden am {date}
+- `cookieConsent.record.notDecided` [fehlt] Noch keine Entscheidung getroffen
+- `cookieConsent.record.policyVersion` [fehlt] Fassung {version}
+- `cookieConsent.withdraw.button` [fehlt] Alles widerrufen
+- `cookieConsent.withdraw.desc` [fehlt] Du kannst Deine Entscheidung jederzeit ändern — der Widerruf ist genauso einfach wie die Zustimmung.
+- `cookieConsent.withdraw.done` [fehlt] Deine Entscheidung wurde zurückgesetzt.
+- `cookieConsent.withdraw.title` [fehlt] Entscheidung ändern
+
+## enterprise (19)
+
+- `enterprise.comply.items.0.1`  Trinkwasser-Zulassung
+- `enterprise.comply.items.1.1`  Güteüberwachung
+- `enterprise.comply.items.2.1`  Systemzertifizierung
+- `enterprise.comply.items.3.1`  Rohrmaße & Toleranzen
+- `enterprise.eyebrow`  Enterprise Core
+- `enterprise.layers.items.0.d`  Außenschicht
+- `enterprise.layers.items.1.d`  Mittelschicht
+- `enterprise.layers.items.1.t`  Faserverbund
+- `enterprise.layers.items.2.d`  Innenschicht
+- `enterprise.network.chips.0.1`  Länder
+- `enterprise.network.chips.1.1`  Kontinente
+- `enterprise.network.chips.2.1`  Zertifiziert
+- `enterprise.telemetry.liveSuffix`  MPa live
+- `enterprise.telemetry.meta.0.0`  Material
+- `enterprise.telemetry.meta.0.1`  K Aqua PP-R (Typ 3)
+- `enterprise.telemetry.meta.1.0`  Norm
+- `enterprise.telemetry.meta.2.0`  Zertifizierung
+- `enterprise.telemetry.meta.3.0`  Lebensdauer
+- `enterprise.telemetry.meta.3.1`  > 50 Jahre
+
+## finder (8)
+
+- `finder.catAll`  Alle
+- `finder.tableHead.0`  Typ
+- `finder.tableHead.1`  d (mm)
+- `finder.tableHead.3`  Wand (mm)
+- `finder.tableHead.4`  di (mm)
+- `finder.tableHead.5`  Nenndruck
+- `finder.types.mono`  PP-R Monolayer
+- `finder.upTo`  bis
+
+## finderx (11)
+
+- `finderx.flow.0.t`  Filtern & suchen
+- `finderx.flow.1.t`  Prüfen & exportieren
+- `finderx.flow.2.d`  Aus dem Detailfenster direkt in die Projektanfrage: Dimensionen und Mengen klären wir gemeinsam.
+- `finderx.flow.2.t`  Anfrage übergeben
+- `finderx.help.0.1`  Außendurchmesser in Millimetern: die Kenngröße jeder Dimension von d20 bis d630.
+- `finderx.help.1.1`  Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und höheren Nenndruck.
+- `finderx.help.2.0`  Wand (s)
+- `finderx.help.2.1`  Wandstärke in Millimetern: ergibt sich aus d und SDR: s = d/SDR.
+- `finderx.help.3.1`  Innendurchmesser = d − 2s. Maßgeblich für Durchfluss und Druckverlust.
+- `finderx.help.4.0`  Nenndruck (PN)
+- `finderx.help.4.1`  Zulässiger Dauerbetriebsdruck in bar bei 20 °C über den Auslegungshorizont: SDR 6 = PN 20 bis SDR 17 = PN 6.
+
+## footer (2)
+
+- `footer.badges.4.t`  Made in Germany
+- `footer.colContact`  Kontakt
+
+## footerSitemap (21)
+
+- `footerSitemap.links.about_us`  Über K-Aqua
+- `footerSitemap.links.all_markets`  Alle K-Aqua Märkte
+- `footerSitemap.links.all_products`  Alle K-Aqua Produkte
+- `footerSitemap.links.all_solutions`  Alle K-Aqua Lösungen
+- `footerSitemap.links.bim` [fehlt] BIM-Daten & IFC
+- `footerSitemap.links.career`  Karriere bei K-Aqua
+- `footerSitemap.links.co2_calc`  CO₂-Rechner für PP-R
+- `footerSitemap.links.contact`  K-Aqua kontaktieren
+- `footerSitemap.links.cookieSettings` [fehlt] Datenschutz-Einstellungen
+- `footerSitemap.links.downloads` [fehlt] Download-Center
+- `footerSitemap.links.news`  K-Aqua News & Presse
+- `footerSitemap.links.overview`  K-Aqua Academy Übersicht
+- `footerSitemap.links.partners`  K-Aqua Partnernetzwerk
+- `footerSitemap.links.pipes`  Rohre & Rohrsysteme (PP-R)
+- `footerSitemap.links.references`  K-Aqua Referenzen weltweit
+- `footerSitemap.links.service`  K-Aqua Service & Wartung
+- `footerSitemap.links.sitemap`  Sitemap (HTML)
+- `footerSitemap.links.specifications`  K-Aqua Ausschreibungstexte
+- `footerSitemap.links.support`  Technischer Support für K-Aqua
+- `footerSitemap.links.technik` [fehlt] Technisches Handbuch
+- `footerSitemap.links.trust`  K-Aqua Trust Center
+
+## geo (27)
+
+- `geo.all`  Alle
+- `geo.cityMetaTitleShort` [fehlt] PP-R Rohrsysteme {city} — {regulator}
+- `geo.cityNames.abudhabi`  Abu Dhabi
+- `geo.cityNames.amman`  Amman
+- `geo.cityNames.doha`  Doha
+- `geo.cityNames.dubai`  Dubai
+- `geo.cityNames.frankfurt`  Frankfurt am Main
+- `geo.cityNames.hamburg`  Hamburg
+- `geo.cityNames.kualalumpur`  Kuala Lumpur
+- `geo.cityNames.manama`  Manama
+- `geo.cityNames.maskat`  Maskat
+- `geo.cityNames.muenchen`  München
+- `geo.cityNames.mumbai`  Mumbai
+- `geo.cityNames.nairobi`  Nairobi
+- `geo.cityNames.neom`  NEOM / The Line
+- `geo.cityNames.singapur`  Singapur
+- `geo.cityNames.warschau`  Warschau
+- `geo.cityNames.zuerich`  Zürich
+- `geo.hubMetaTitleShort` [fehlt] PP-R Rohrsysteme {country} — {approval}
+- `geo.hubNames.indien`  Indien
+- `geo.hubNames.japan`  Japan
+- `geo.hubNames.katar`  Katar
+- `geo.hubNames.kenia`  Kenia
+- `geo.hubNames.oman`  Oman
+- `geo.hubNames.polen`  Polen
+- `geo.hubNames.singapur`  Singapur
+- `geo.hubNames.uaeShort`  VAE
+
+## geoContent (106)
+
+- `geoContent.abudhabi.focus.0`  Regierungs- & Kulturbauten
+- `geoContent.abudhabi.focus.1`  Saadiyat-Resorts
+- `geoContent.abudhabi.focus.2`  Industriezonen KIZAD
+- `geoContent.abudhabi.regulator`  DoE Abu Dhabi / Estidama
+- `geoContent.amman.extendedMarketText` [füllstring] Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor.
+- `geoContent.amman.focus.0`  Disi-Pipeline-Subnetze
+- `geoContent.amman.focus.1`  Krankenhaus- & Universitätsbau
+- `geoContent.amman.focus.2`  Flüchtlingsstadt-Infrastruktur
+- `geoContent.amman.regulator`  WAJ: Water Authority of Jordan / Miyahuna
+- `geoContent.berlin.focus.0`  Wohnquartier-Neubau
+- `geoContent.berlin.focus.1`  Schul- & Verwaltungsbau
+- `geoContent.berlin.focus.2`  Bestandssanierung Altbau
+- `geoContent.doha.focus.0`  Lusail-Stadtentwicklung
+- `geoContent.doha.focus.1`  Stadien-Nachnutzung
+- `geoContent.doha.focus.2`  Hospitality
+- `geoContent.doha.regulator`  Kahramaa: Qatar General Electricity & Water Corp.
+- `geoContent.dschidda.focus.0`  Jeddah Central Project
+- `geoContent.dschidda.focus.1`  Hafen- & Logistikbauten
+- `geoContent.dschidda.focus.2`  Pilger-Hospitality (Makkah-Korridor)
+- `geoContent.dubai.focus.0`  Super-High-Rise-Türme
+- `geoContent.dubai.focus.1`  Hotel-Resorts
+- `geoContent.dubai.focus.2`  District Cooling Make-up
+- `geoContent.dubai.regulator`  DEWA: Dubai Electricity & Water Authority
+- `geoContent.frankfurt.focus.0`  Hochhaus-Steigleitungen (Bankenviertel)
+- `geoContent.frankfurt.focus.1`  Hotel- & Bürosanierung
+- `geoContent.frankfurt.focus.2`  Rechenzentrums-Kühlwasser
+- `geoContent.hamburg.focus.0`  HafenCity-Neubau
+- `geoContent.hamburg.focus.1`  Hotellerie
+- `geoContent.hamburg.focus.2`  Maritime Versorgungstechnik
+- `geoContent.istanbul.extendedMarketText` [füllstring] Aufgrund der hohen seismischen Aktivität in Istanbul und dem anhaltenden Bauboom für Bosporus-übergreifende Infrastrukturprojekte sind erdbebensichere, duktile Rohrleitungssysteme unverzichtbar. K-Aqua PP-R-Polyfusionsschweißverbindungen widerstehen seismischen Erschütterungen deutlich besser als herkömmliche Metallrohre. Zudem erfüllen unsere Systeme die strengen TSE-Zertifizierungsanforderungen, was sie zur idealen Wahl für die anspruchsvollen Bauvorhaben in der gesamten Türkei macht.
+- `geoContent.istanbul.focus.0`  Hotelkomplexe
+- `geoContent.istanbul.focus.1`  Hochhaus-Wohnbau
+- `geoContent.istanbul.focus.2`  Krankenhaus-Neubauten
+- `geoContent.kairo.extendedMarketText` [füllstring] Ägyptens rasante Urbanisierung und Großprojekte wie die New Administrative Capital stellen enorme Anforderungen an eine moderne Wasserinfrastruktur für über 100 Millionen Einwohner. Angesichts der klimatischen Herausforderungen Nordafrikas mit extremer Hitze und Sandstürmen sowie den spezifischen Bedingungen im Nildelta sind äußerst widerstandsfähige Materialien gefragt. Die korrosionsbeständigen PP-R und PPRCT-Systeme von K-Aqua garantieren auch unter diesen harten Umweltbedingungen eine leckagefreie und langlebige Wasserversorgung, was sie zur idealen Wahl für Kairos gigantische Bauvorhaben macht.
+- `geoContent.kairo.focus.0`  New Administrative Capital
+- `geoContent.kairo.focus.1`  Wohnstädte (NUCA)
+- `geoContent.kairo.focus.2`  Hotel-Korridor Rotes Meer
+- `geoContent.kairo.regulator`  HCWW: Holding Company for Water & Wastewater
+- `geoContent.kapstadt.extendedMarketText` [füllstring] Im Schatten der 'Day Zero' Wasserkrise ist der Schutz vor Wasserverlusten in Kapstadt nicht nur eine technische, sondern eine existenzielle Notwendigkeit. Die absolut leckagefreie Polyfusionsschweißung der K-Aqua Systeme unterstützt direkt die strenge Wassersparpolitik der Region und erfüllt höchste SABS/SANS-Normen. Ob beim Ausbau der Township-Infrastruktur oder für anspruchsvolles Prozesswasser in den Weingütern des Western Cape – unsere PP-R und PPRCT Lösungen verhindern durch ihre korrosionsfreie Beschaffenheit teure Leckagen. Dies macht sie zur sichersten Wahl für eine nachhaltige Wasserversorgung unter extremen Bedingungen.
+- `geoContent.kapstadt.focus.0`  Krankenhaus- & Hotelbau
+- `geoContent.kapstadt.focus.1`  Township-Infrastruktur
+- `geoContent.kapstadt.focus.2`  Weingut-Prozesswasser
+- `geoContent.kualalumpur.extendedMarketText` [füllstring] In Kuala Lumpur prägen extreme Feuchtigkeit und das Monsunklima die Anforderungen an die Gebäudeausrüstung, wie etwa im TRX-Finanzdistrikt oder bei Mixed-Use-Türmen. K-Aquas UV- und feuchtigkeitsbeständige PP-R Systeme erfüllen die strengen Regularien der SPAN-Wasserbehörde zuverlässig. Selbst im expansiven Industriekorridor Johor gewährleisten unsere homogenen Polyfusionsschweißungen jahrzehntelange Dichtheit, was bei den hohen tropischen Temperaturen einen entscheidenden Vorteil für hygienisches Trinkwasser bietet.
+- `geoContent.kualalumpur.focus.0`  TRX-Finanzdistrikt
+- `geoContent.kualalumpur.focus.1`  Mixed-Use-Türme
+- `geoContent.kualalumpur.focus.2`  Industriekorridor Johor
+- `geoContent.kualalumpur.regulator`  SPAN: National Water Services Commission
+- `geoContent.kuwait.focus.0`  Silk-City-Planung
+- `geoContent.kuwait.focus.1`  Wohnstädte (PAHW)
+- `geoContent.kuwait.focus.2`  Öl- & Gas-Begleitinfrastruktur
+- `geoContent.kuwait.regulator`  MEW: Ministry of Electricity & Water
+- `geoContent.london.focus.0`  High-Rise Residential
+- `geoContent.london.focus.1`  Heritage-Sanierung
+- `geoContent.london.focus.2`  Distriktweite Heißwassernetze
+- `geoContent.london.regulator`  WRAS: Water Regulations Approval Scheme
+- `geoContent.mailand.focus.0`  Hochhaus-Cluster Porta Nuova
+- `geoContent.mailand.focus.1`  Mode- & Retail-Flagships
+- `geoContent.mailand.focus.2`  Industrie Norditalien
+- `geoContent.manama.focus.0`  Bahrain Bay
+- `geoContent.manama.focus.1`  Bankenviertel-Sanierung
+- `geoContent.manama.focus.2`  Inselerschließungen
+- `geoContent.manama.regulator`  EWA: Electricity & Water Authority
+- `geoContent.maskat.focus.0`  Hafenstadt Duqm
+- `geoContent.maskat.focus.1`  Hotel- & Tourismusprojekte
+- `geoContent.maskat.focus.2`  Moschee- & Kulturbauten
+- `geoContent.muenchen.focus.0`  Premium-Wohnbau
+- `geoContent.muenchen.focus.1`  Klinik- & Laborbau
+- `geoContent.muenchen.focus.2`  Brauerei- & Prozesswasser
+- `geoContent.mumbai.extendedMarketText` [füllstring] Mumbais Monsun-geprägte Wasserversorgung leidet häufig unter intermittierendem Druck, was das Risiko von Druckstößen (Water Hammer) im Leitungssystem extrem erhöht. Bei der Modernisierung von Hochhäusern und im Rahmen des Smart-Cities-Programms setzen Planer daher auf K-Aquas druckstoßfeste Schweißverbindungen gemäß BIS-Standards. Auch der wachsende Pharma- und Krankenhaussektor der Metropole profitiert von unseren hochreinen und absolut dichten PP-R Lösungen, die selbst bei extremen Schwankungen im Wassernetz sicher arbeiten.
+- `geoContent.mumbai.focus.0`  High-Rise Redevelopment
+- `geoContent.mumbai.focus.1`  Krankenhaus- & Pharmabau
+- `geoContent.mumbai.focus.2`  Smart-Cities-Programm
+- `geoContent.mumbai.regulator`  BIS: Bureau of Indian Standards
+- `geoContent.nairobi.extendedMarketText` [füllstring] Angesichts des rasanten Bevölkerungswachstums in Ostafrika erfordern Großprojekte wie das kenianische Affordable-Housing-Programm und die Smart City Tatu City schnelle, skalierbare und langlebige Lösungen. K-Aqua bietet hierfür nicht nur nach KEBS-Standards zertifizierte, robuste Rohrleitungssysteme, sondern setzt auch auf gezieltes Capacity Building. Unsere einfach zu erlernende Schweißtechnik ermöglicht es, lokale Arbeitskräfte direkt vor Ort effizient zu schulen. So sichern wir den zügigen und zuverlässigen Ausbau der städtischen Wasserinfrastruktur in Kenias dynamischer Metropole.
+- `geoContent.nairobi.focus.0`  Affordable-Housing-Programm
+- `geoContent.nairobi.focus.1`  Tatu City
+- `geoContent.nairobi.focus.2`  Kranken- & Bildungsbauten
+- `geoContent.nairobi.regulator`  KEBS: Kenya Bureau of Standards
+- `geoContent.neom.focus.0`  Linearstadt-Infrastruktur
+- `geoContent.neom.focus.1`  Oxagon-Industriehafen
+- `geoContent.neom.focus.2`  Trojena-Bergresorts
+- `geoContent.neom.regulator`  NEOM Authority / SASO
+- `geoContent.paris.focus.0`  Grand-Paris-Wohnquartiere
+- `geoContent.paris.focus.1`  Hotel- & Denkmalsanierung
+- `geoContent.paris.focus.2`  Olympia-Nachnutzung
+- `geoContent.paris.regulator`  ACS: Attestation de Conformité Sanitaire
+- `geoContent.prag.focus.0`  Altbau-Strangsanierung
+- `geoContent.prag.focus.1`  Hotellerie
+- `geoContent.prag.focus.2`  Automotive-Zulieferindustrie
+- `geoContent.riad.focus.0`  Vision-2030-Giga-Projekte
+- `geoContent.riad.focus.1`  King Salman Park
+- `geoContent.riad.focus.2`  Wohnstadt-Erweiterungen
+- `geoContent.singapur.extendedMarketText` [füllstring] Singapurs tropisches Dauerklima und das NEWater-Recyclingsystem erfordern höchste Standards an die Wasserhygiene. Unsere druckbeständigen K-Aqua PP-RCT-Systeme erfüllen die strengen Vorgaben der PUB-Wasserbehörde mühelos. Sie sind die perfekte Lösung für den Ultra-Hochhausbau in der Marina Bay sowie für die Reinstwasseranforderungen der Halbleiterindustrie, da sie auch unter extremen Bedingungen absolute Zuverlässigkeit garantieren.
+- `geoContent.singapur.focus.0`  Public Housing (HDB)
+- `geoContent.singapur.focus.1`  Marina-Hochhäuser
+- `geoContent.singapur.focus.2`  Halbleiter-Reinstwasser-Vorstufen
+- `geoContent.singapur.regulator`  PUB: Public Utilities Board
+- `geoContent.warschau.focus.0`  Wohnquartier-Neubau
+- `geoContent.warschau.focus.1`  Logistik- & Industriehallen
+- `geoContent.warschau.focus.2`  Modernisierung Plattenbau
+- `geoContent.wien.focus.0`  Gemeindebau-Sanierung
+- `geoContent.wien.focus.1`  Hotel- & Gewerbeprojekte
+- `geoContent.wien.focus.2`  Fernwärme-Subverteilung
+- `geoContent.zuerich.focus.0`  Hochpreis-Wohnbau
+- `geoContent.zuerich.focus.1`  Banken- & Bürosanierung
+- `geoContent.zuerich.focus.2`  Spitalbau
+
+## home (1)
+
+- `home.bandBtn2`  Downloads & Service
+
+## homedeep (6)
+
+- `homedeep.badges.3`  GENAU-System
+- `homedeep.plant.0.l`  Rohrproduktion je Extrusionsanlage: Kapazität für Großprojekte
+- `homedeep.plant.0.u`  m/Tag
+- `homedeep.plant.1.l`  Innenrauheit der Rohroberfläche: minimaler Druckverlust, kaum Biofilm
+- `homedeep.plant.2.l`  Auslegungshorizont nach den Zeitstandkurven der DIN 8077/8078
+- `homedeep.plant.2.u`  Jahre
+
+## homex (5)
+
+- `homex.grTitle1`  Internationale
+- `homex.marquee.4`  100 % Recycling
+- `homex.marquee.5`  100 % Made in Germany
+- `homex.tools.2.t`  Academy + Quiz
+- `homex.tools.4.t`  Trust Center
+
+## imprint (1)
+
+- `imprint.rows.5.1`  +49 (0)60 85 / 9868-410 · Fax -420
+
+## kontaktBlocks (37)
+
+- `kontaktBlocks.academy.interest`  Beratung
+- `kontaktBlocks.ausschreibungstexte.interest`  BIM Daten
+- `kontaktBlocks.co2_rechner.interest`  Beratung
+- `kontaktBlocks.datenschutz.interest`  Beratung
+- `kontaktBlocks.fallback.interest`  Beratung
+- `kontaktBlocks.fallback.kicker`  Kontakt
+- `kontaktBlocks.finder.interest`  Beratung
+- `kontaktBlocks.home.interest`  Rohrsysteme
+- `kontaktBlocks.impressum.interest`  Beratung
+- `kontaktBlocks.karriere.interest`  Beratung
+- `kontaktBlocks.katalog.interest`  Beratung
+- `kontaktBlocks.kontakt.interest`  Beratung
+- `kontaktBlocks.loesungen_hochhaus.interest`  BIM Daten
+- `kontaktBlocks.loesungen_hotel.interest`  Beratung
+- `kontaktBlocks.loesungen_krankenhaus.interest`  Trinkwassernetze
+- `kontaktBlocks.loesungen.interest`  Beratung
+- `kontaktBlocks.maerkte_industrie.interest`  Beratung
+- `kontaktBlocks.maerkte_klima.interest`  Rohrsysteme
+- `kontaktBlocks.maerkte_landwirtschaft.interest`  Trinkwassernetze
+- `kontaktBlocks.maerkte_schiffbau.interest`  Beratung
+- `kontaktBlocks.maerkte_trinkwasser.interest`  Trinkwassernetze
+- `kontaktBlocks.maerkte.interest`  Beratung
+- `kontaktBlocks.news.interest`  Beratung
+- `kontaktBlocks.partnerschaft.interest`  Beratung
+- `kontaktBlocks.produkte_armaturen.interest`  Ersatzteile
+- `kontaktBlocks.produkte_fittings.interest`  Ersatzteile
+- `kontaktBlocks.produkte_rohre.interest`  Rohrsysteme
+- `kontaktBlocks.produkte_uebergaenge.interest`  Rohrsysteme
+- `kontaktBlocks.produkte_werkzeuge.interest`  Beratung
+- `kontaktBlocks.produkte_zubehoer.interest`  Ersatzteile
+- `kontaktBlocks.produkte.interest`  Rohrsysteme
+- `kontaktBlocks.projektanfrage.interest`  Rohrsysteme
+- `kontaktBlocks.referenzen.interest`  BIM Daten
+- `kontaktBlocks.service.interest`  Beratung
+- `kontaktBlocks.support.interest`  Beratung
+- `kontaktBlocks.trust_center.interest`  BIM Daten
+- `kontaktBlocks.unternehmen.interest`  Beratung
+
+## kontaktForm (2)
+
+- `kontaktForm.emailLabel`  E-Mail
+- `kontaktForm.fabAria`  Kontakt
+
+## legal (20)
+
+- `legal.datenschutz.sections.0.title`  1. Datenschutz auf einen Blick
+- `legal.datenschutz.sections.1.content`  Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:  KWT GmbH Auweg 3 35647 Waldsolms-Brandoberndorf Telefon: +49 (0)60 85 / 9868-410 E-Mail: info@k-aqua.de  Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+- `legal.datenschutz.sections.1.title`  2. Verantwortliche Stelle
+- `legal.datenschutz.sections.2.content`  Wir haben für unser Unternehmen einen Datenschutzbeauftragten bestellt:  SILA Consulting GmbH Herr Roland Nießing Landwehr 103-105 46325 Borken Telefon: +49 2861 80847 700 E-Mail: info@sila-consulting.de
+- `legal.datenschutz.sections.2.title`  3. Datenschutzbeauftragter
+- `legal.datenschutz.sections.3.content`  Diese Website wird bei Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA, gehostet. Beim Aufruf der Website verarbeitet der Hosting-Anbieter automatisch technische Zugriffsdaten in sogenannten Server-Logfiles: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und -version sowie Betriebssystem.  Diese Daten dienen ausschließlich der sicheren, stabilen Auslieferung der Website und der Fehleranalyse; eine Zusammenführung mit anderen Datenquellen findet nicht statt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren Bereitstellung unseres Online-Angebots). Mit Vercel besteht ein Vertrag zur Auftragsverarbeitung; die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework.
+- `legal.datenschutz.sections.3.title`  4. Hosting und Server-Logfiles
+- `legal.datenschutz.sections.4.title`  5. Kontakt- und Anfrageformulare
+- `legal.datenschutz.sections.6.title`  7. Ihre Rechte
+- `legal.datenschutz.sections.7.title`  8. SSL- bzw. TLS-Verschlüsselung
+- `legal.impressum.sections.0.content`  KWT GmbH Auweg 3 35647 Waldsolms-Brandoberndorf  Tel. +49 (0)60 85 / 9868-410 Fax +49 (0)60 85 / 9868-420 info@k-aqua.de · www.k-aqua.de
+- `legal.impressum.sections.1.title`  Geschäftsführung
+- `legal.impressum.sections.2.content`  Wetzlar HRB 6732  Sitz der Gesellschaft: Waldsolms
+- `legal.impressum.sections.2.title`  Registergericht & Sitz
+- `legal.impressum.sections.3.content`  Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE 296238486
+- `legal.impressum.sections.3.title`  Umsatzsteuer-ID
+- `legal.impressum.sections.6.content` [fehlt] K Aqua PP-R und PPRCT Rohrsysteme sind hochtechnologische Produkte für den Transport von Trinkwasser, Heizungswasser und industriellen Fluiden. Die Informationen auf dieser Website wurden mit größtmöglicher Sorgfalt zusammengestellt. Dennoch übernehmen wir keine Gewähr für die absolute Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten technischen Daten und Spezifikationen. Technische Änderungen im Zuge der Weiterentwicklung bleiben jederzeit vorbehalten.  Haftung für Links Unsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.  Urheberrecht Die durch die Seitenbetreiber erstellten Inhalte, technischen Zeichnungen, 3D-Modelle und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+- `legal.impressum.sections.6.title` [fehlt] Rechtliche Hinweise & Disclaimer
+- `legal.impressum.sections.7.content` [fehlt] Wie kann ich den technischen Support kontaktieren? Sie erreichen unseren technischen Support für Fragen zu PP-R Rohrleitungen, Schweißparametern oder Sonderanfertigungen über die oben genannte E-Mail-Adresse oder telefonisch während unserer Geschäftszeiten.  Wo finde ich detaillierte Zertifikate und Zulassungen? Alle DVGW-, KIWA- und SKZ-Zertifikate für unsere Rohrsysteme stehen im Bereich „Ressourcen“ oder direkt auf den jeweiligen Produktdetailseiten zum Download bereit.  Welche Gewährleistung bietet K Aqua? K Aqua bietet eine umfassende Systemgewährleistung für alle PP-R und PPRCT Rohre und Formteile, sofern diese fachgerecht mit Original-K Aqua-Werkzeugen installiert und verschweißt wurden. Detaillierte Gewährleistungsbedingungen senden wir Ihnen auf Anfrage gerne zu.
+- `legal.impressum.sections.7.title` [fehlt] Häufig gestellte Fragen (Impressum & Service)
+
+## mapsSuite (4)
+
+- `mapsSuite.bimCta`  BIM- & Spezifikationspaket anfordern
+- `mapsSuite.geoHub`  K-Aqua Geografischer Hub & Telemetrie
+- `mapsSuite.normLabel`  Norm:
+- `mapsSuite.sectors.hotel`  Hotel
+
+## markets (10)
+
+- `markets.industrie.heroSubtitle`  Engineered in Germany.
+- `markets.klimaanlagen.card4Title`  Garantie
+- `markets.klimaanlagen.heroBtnSecondary`  Technical Whitepaper
+- `markets.klimaanlagen.heroSubtitle`  German Engineering.
+- `markets.klimaanlagen.section2Eyebrow`  Core Technology
+- `markets.landwirtschaft.heroSubtitle`  Engineered in Germany.
+- `markets.landwirtschaft.section2Eyebrow`  Technologie
+- `markets.schiffbau.heroBadge`  K Aqua MARITIME
+- `markets.schiffbau.heroSubtitle`  Engineered in Germany.
+- `markets.trinkwasser.stat2Unit`  bar
+
+## nav (20)
+
+- `nav.academy`  Academy
+- `nav.contact`  Kontakt
+- `nav.home`  Start
+- `nav.mega.bim` [fehlt] BIM-Daten
+- `nav.mega.bimDesc` [fehlt] IFC 4, Revit-Typenkatalog, CSV und JSON
+- `nav.mega.cadStudio`  3D CAD Studio
+- `nav.mega.downloads` [fehlt] Download-Center
+- `nav.mega.downloadsDesc` [fehlt] Kataloge, Datenblätter und Zertifikate als PDF
+- `nav.mega.homeSr`  K-Aqua Startseite
+- `nav.mega.sitemap`  Sitemap
+- `nav.mega.specs` [fehlt] Ausschreibungstexte
+- `nav.mega.specsDesc` [fehlt] Fertige Leistungsverzeichnisse zum Übernehmen
+- `nav.mega.supportRes` [fehlt] Technischer Support
+- `nav.mega.supportResDesc` [fehlt] Beratung zu Planung, Material und Verarbeitung
+- `nav.mega.technik` [fehlt] Technisches Handbuch
+- `nav.mega.technikDesc` [fehlt] Auslegung, Verlegung und Schweißparameter
+- `nav.menu`  Menü
+- `nav.partner` [fehlt] Partnerschaft
+- `nav.service`  Service
+- `nav.trust`  Trust Center
+
+## news (5)
+
+- `news.date`  Oktober 2025
+- `news.iso.0.1`  Qualitätsmanagementsystem
+- `news.iso.1.1`  Umweltmanagementsystem
+- `news.iso.2.1`  Energiemanagementsystem
+- `news.titleGrad`  K Aqua.
+
+## newsx (19)
+
+- `newsx.posts.0.body.0`  Seit Oktober 2025 ist das Managementsystem der KWT GmbH dreifach geprüft: ISO 9001:2015 für Qualität, ISO 14001:2015 für Umwelt und ISO 50001:2018 für Energie. Die Zertifikate stammen von einer DAkkS-akkreditierten Zertifizierungsgesellschaft und gelten bis Oktober 2028.
+- `newsx.posts.0.body.2`  Beide Zertifikatsversionen (DE/EN) stehen zum Download bereit; das vollständige Audit-Paket schnüren Sie im Trust Center.
+- `newsx.posts.0.date`  Oktober 2025
+- `newsx.posts.0.t`  Dreifach geprüft: ISO 9001, 14001 und 50001
+- `newsx.posts.0.tag`  Unternehmen
+- `newsx.posts.0.teaser`  Das ISO-Managementsystem der KWT GmbH umfasst jetzt Qualität, Umwelt und Energie: DAkkS-akkreditiert.
+- `newsx.posts.1.body.0`  Bei bis zu 14.000 Metern Rohr pro Tag und Anlage ist Rückverfolgbarkeit keine Kür: Jedes Rohr wird im laufenden Extrusionsprozess fortlaufend gekennzeichnet: mit den Angaben, die Planer und Prüfer auf der Baustelle brauchen.
+- `newsx.posts.1.t`  Fortlaufend gekennzeichnet: Rückverfolgbarkeit ab Extruder
+- `newsx.posts.1.tag`  Produktion
+- `newsx.posts.1.teaser`  Jedes K Aqua-Rohr trägt eine kontinuierliche Kennzeichnung direkt aus dem Extrusionsprozess.
+- `newsx.posts.2.date`  Wissen
+- `newsx.posts.2.t`  Warum eigentlich PP-R?
+- `newsx.posts.2.tag`  Material
+- `newsx.posts.2.teaser`  Vom Abfackelgas zum Trinkwasserrohr: die kurze Materialgeschichte des Polypropylens.
+- `newsx.posts.3.body.0`  Kaum ein Projekt startet auf der grünen Wiese: Bestandsleitungen aus Kupfer oder verzinktem Stahl müssen angebunden werden. Dafür gibt es Übergangsstücke mit eingebettetem Messing-Innen- oder Außengewinde: die Gewindeseite verbindet den Metallbestand, die PP-Seite wird stoffschlüssig verschweißt.
+- `newsx.posts.3.date`  Wissen
+- `newsx.posts.3.t`  Messing trifft Polypropylen: Übergänge in den Bestand
+- `newsx.posts.3.tag`  Material
+- `newsx.posts.3.teaser`  Sanierung heißt fast immer Systemwechsel: Übergangsstücke mit Messing-Gewinde machen ihn sauber.
+
+## partner (7)
+
+- `partner.cards.0.d`  Immun gegen elektrochemische Korrosion: kein Lochfraß, keine Rohrbrüche wie bei Kupfer oder verzinktem Stahl.
+- `partner.cards.0.t`  Absolute Korrosionsfreiheit
+- `partner.cards.1.d`  Minimaler Wärmeverlust in der Warmwasserzirkulation: direkte Energieeinsparung über Jahrzehnte.
+- `partner.cards.1.t`  Thermische Effizienz
+- `partner.cards.2.d`  Geschmacks- und geruchsneutral; die extrem glatte Innenoberfläche verhindert Biofilm und Inkrustation.
+- `partner.cards.2.t`  Hygienische Neutralität
+- `partner.rings.2.l`  Service
+
+## partnerx (16)
+
+- `partnerx.eco.2.t`  K-Aqua Academy
+- `partnerx.road.0.d`  Vier Schweißverfahren als Videodokumentation plus Quiz: heute verfügbar, baustellenoptimiert.
+- `partnerx.road.0.s`  Heute
+- `partnerx.road.0.t`  Academy & Videos
+- `partnerx.road.1.s`  Heute
+- `partnerx.road.1.t`  Schweißtechnik-Support
+- `partnerx.road.2.s`  Im Ausbau
+- `partnerx.road.2.t`  Digitale Planungswerkzeuge
+- `partnerx.road.3.d`  Die Perspektive: Rohrnetze parametrisch konfigurieren und direkt in Stückliste und Anfrage überführen.
+- `partnerx.road.3.s`  Perspektive
+- `partnerx.road.3.t`  Parametrischer Rohrnetz-Konfigurator
+- `partnerx.spec.0.d`  Fertige Texte für Ihr Leistungsverzeichnis: Teil des RFP-Pakets im Trust Center.
+- `partnerx.spec.0.t`  GAEB-Ausschreibungstexte
+- `partnerx.spec.1.t`  BIM- & CAD-Daten
+- `partnerx.spec.2.d`  Produktkatalog und Eigenschaften als PDF, Muster und Projektberatung direkt vom Werk.
+- `partnerx.spec.2.t`  Datenblätter & Muster
+
+## productNames (14)
+
+- `productNames.accessories_flat-gasket-for-unions-pp-r` [fehlt] PP-R Flachdichtung für Verschraubungen
+- `productNames.fittings_elbow-45-femalemale` [fehlt] PP-R Winkel 45° IG/AG
+- `productNames.fittings_elbow-90-femalemale`  PP-R Winkel 90° IG/AG
+- `productNames.fittings_elbow-90-large-sizes`  PP-R Standard Winkel 90° (Groß)
+- `productNames.fittings_reducing-tee-large-sizes` [fehlt] PP-R T-Stück reduziert, große Dimensionen
+- `productNames.fittings_stub-end` [fehlt] PP-R Vorschweißbund (Stub End) für Flanschverbindungen
+- `productNames.pipes_k-fiber-pipe-pp-r-sdr-74` [fehlt] K-Fiber Rohr PP-R SDR 7.4
+- `productNames.pipes_k-fiber-pipe-pp-rct-sdr-74` [fehlt] K-Fiber Rohr PP-RCT SDR 7.4
+- `productNames.pipes_k-fiber-uv-pipe-pp-r-sdr-74` [fehlt] K-Fiber UV Rohr PP-R SDR 7.4
+- `productNames.pipes_k-fiber-uv-pipe-pp-rct-sdr-74` [fehlt] K-Fiber UV Rohr PP-RCT SDR 7.4
+- `productNames.pipes_k-pipe-pp-rct-sdr-74` [fehlt] K-Pipe Rohr PP-RCT SDR 7.4
+- `productNames.tools_pipe-cutter-2040` [fehlt] Ratschen-Rohrabschneider d20-d40
+- `productNames.tools_pipe-cutter-50125-1` [fehlt] Rohrschaber
+- `productNames.valves_pp-r-ball-valve-ball-in-brass-chromium-plated`  PP-R Kugelhahn (Messing/Chrom)
+
+## products (226)
+
+- `products.bento.items.0.desc`  Homogene Schweißnähte. Das Material wird eins. Kein Kleber, keine Dichtungsringe, die versagen können. 100%ige Sicherheit gegen Leckagen auf molekularer Basis.
+- `products.bento.items.0.title`  Thermische Fusion
+- `products.bento.items.1.desc`  Absolut resistent gegen Lochfraß, Rost und elektrochemische Korrosion. Das transportierte Medium bleibt in seinem reinsten Zustand.
+- `products.bento.items.1.title`  Korrosionsimmunität
+- `products.bento.items.2.desc`  Glattwandtechnologie (Rauhigkeit 0,007 mm) mit minimalem Reibungskoeffizienten verhindert Ablagerungen und minimiert den Druckverlust massiv.
+- `products.bento.items.2.title`  Strömungsoptimierung
+- `products.bento.items.3.desc`  Konstruiert für maximale Beanspruchung in Hochhäusern, Industrieanlagen und kritischer Infrastruktur. Ausgelegt für einen störungsfreien Betrieb über 50 Jahre.
+- `products.bento.items.3.title`  Druckresistenz PN25+
+- `products.category.artNA`  Art. N/A
+- `products.enterpriseCore`  Enterprise Core
+- `products.fittings.bento.items.0.desc`  Vollständige Konformität und Prüfung für Kunststoffrohrleitungssysteme für die Warm- und Kaltwasserinstallation.
+- `products.fittings.bento.items.1.desc`  Ausgelegt für permanente Hochdruck-Beanspruchung selbst bei kritischen Temperaturen.
+- `products.fittings.bento.items.2.desc`  Herausragende Beständigkeit gegen aggressive Medien. pH-Wert-unabhängig (pH 1 bis 14) für industriellen Einsatz.
+- `products.fittings.bento.items.2.title`  Chemische Inertheit
+- `products.fittings.bento.items.3.desc`  Die inhärente Elastizität des PP-R Materials absorbiert Körperschall und reduziert Fließgeräusche auf ein absolutes Minimum, ideal für Luxus-Hotellerie und Krankenhäuser.
+- `products.fittings.bento.items.3.title`  Akustische Dämpfung
+- `products.fittings.sticky.items.0.desc`  Unsere Fittings basieren auf einem hochgradig vernetzten PP-R Polypropylen Random Copolymerisat. Durch kontrollierte Temperatur-Druck-Profile während der Extrusion erreichen wir eine isotrope Kristallstruktur. Das Ergebnis: Eine nie dagewesene Widerstandsfähigkeit gegenüber Spannungsrissen und extremen Temperaturschwankungen.
+- `products.fittings.sticky.items.0.title`  Das molekulare Gefüge
+- `products.fittings.sticky.items.1.title`  Thermoplastische Präzision
+- `products.fittings.sticky.items.2.title`  Null Fehlertoleranz
+- `products.fittings.sticky.items.3.desc`  Die strömungsoptimierte Innengeometrie unserer Fittings verhindert effektiv Druckabfälle und Kavitation, selbst bei extremen Fließgeschwindigkeiten in industriellen Steigleitungen. Dies minimiert Geräuschemissionen und schützt die Anlage vor abrasiver Abnutzung von innen.
+- `products.fittings.sticky.items.3.title`  Kavitationswiderstand
+- `products.fittings.timeline.items.0.text`  Ausschließlich hochreines, vorsynthetisiertes Polypropylen-Granulat aus europäischen Premium-Raffinerien passiert unsere Eingangskontrolle.
+- `products.fittings.timeline.items.0.title`  Granulat-Selektion
+- `products.fittings.timeline.items.0.year`  Schritt 01
+- `products.fittings.timeline.items.1.text`  Vor dem Spritzguss wird das Granulat thermisch stabilisiert, um Restfeuchte zu eliminieren und eine homogene Schmelze zu garantieren.
+- `products.fittings.timeline.items.1.title`  Thermische Konditionierung
+- `products.fittings.timeline.items.1.year`  Schritt 02
+- `products.fittings.timeline.items.2.text`  In vollautomatisierten, robotergestützten Spritzgusszellen formen wir das Material unter enormem Druck zu makellosen Fittings.
+- `products.fittings.timeline.items.2.title`  Hochdruck-Spritzguss
+- `products.fittings.timeline.items.2.year`  Schritt 03
+- `products.fittings.timeline.items.3.text`  Ein computergesteuertes Abkühlprofil verhindert innere Spannungen im Material und sorgt für perfekte Maßhaltigkeit.
+- `products.fittings.timeline.items.3.title`  Kühlungs-Matrix
+- `products.fittings.timeline.items.3.year`  Schritt 04
+- `products.fittings.timeline.items.4.text`  Jedes Los erhält sein digitales Zertifikat. Bereit für den Versand an die anspruchsvollsten Baustellen der Welt.
+- `products.fittings.timeline.items.4.title`  Prüfung & Logistik
+- `products.fittings.timeline.items.4.year`  Schritt 05
+- `products.labels.contentHeadings.Article Table` [fehlt] Artikeltabelle
+- `products.labels.contentHeadings.Available Main Pipe Ranges` [fehlt] Verfügbare Hauptrohr-Dimensionen
+- `products.labels.contentHeadings.Available Sizes` [fehlt] Verfügbare Dimensionen
+- `products.labels.contentHeadings.Material` [fehlt] Werkstoff
+- `products.labels.contentHeadings.Note` [fehlt] Hinweis
+- `products.labels.contentHeadings.Pipe Type Guide` [fehlt] Rohrtypen im Überblick
+- `products.labels.contentHeadings.Product Overview` [fehlt] Produktübersicht
+- `products.labels.contentHeadings.Specifications` [fehlt] Technische Daten
+- `products.labels.contentHeadings.Structural and Weld Integrity` [fehlt] Struktur- und Schweißfestigkeit
+- `products.narrative.introNoDimension` [fehlt] {title} aus deutscher Fertigung. Artikelnummern {codes}. Maßtabelle, Datenblatt und 3D-Modell direkt bei K-Aqua.
+- `products.pipes.bento.items.0.title`  Dimensionen von d20 bis d500
+- `products.pipes.bento.items.1.desc`  Maßgeschneiderte Druckstufen (PN10 bis PN25) durch verschiedene Standard Dimension Ratios. Optimieren Sie Materialeinsatz und Durchfluss.
+- `products.pipes.bento.items.2.desc`  Entspricht den strengsten europäischen Normen (UBA, DVGW). Absolut lebensmittelecht, geschmacks- und geruchsneutral. Optionale antibakterielle Innenbeschichtung.
+- `products.pipes.bento.items.2.title`  Trinkwasserhygiene
+- `products.pipes.bento.items.3.title`  UV-Beständige Außenrohre
+- `products.pipes.sticky.items.0.desc`  Unsere PPRCT (Polypropylene Random Copolymere with modified Crystallinity and Temperature resistance) Rohre der neuesten Generation verfügen über eine integrierte Glasfasercompound-Schicht. Dies reduziert die thermische Längenausdehnung um bis zu 75% gegenüber Standard-PP-R Rohren, während die Druckbelastbarkeit bei hohen Temperaturen drastisch erhöht wird. Dünnere Wandstärken bei gesteigerter Durchflusskapazität sind das Resultat.
+- `products.pipes.sticky.items.0.title`  PPRCT Multilayer-Architektur
+- `products.pipes.sticky.items.1.desc`  Im Gegensatz zu Pressfittings oder Klebeverbindungen nutzen wir das Polyfusions-Schweißverfahren. Rohr und Fitting verschmelzen bei 260°C zu einer einzigen, untrennbaren molekularen Einheit. Das System kommt völlig ohne O-Ringe oder mechanische Dichtungen aus. Die Verbindungstelle ist physikalisch stärker als das Rohr selbst: eine 100% leckagefreie Lebensdauer ist garantiert.
+- `products.pipes.sticky.items.1.title`  Homogenes Schweißen
+- `products.pipes.sticky.items.2.desc`  Metallische Systeme kapitulieren vor aggressiven Wasserqualitäten, niedrigem pH-Wert oder hohem Chloridgehalt. K Aqua Polymerrohre sind vollständig inert. Lochfraß, Spaltkorrosion, galvanische Korrosion oder Inkrustationen sind physikalisch ausgeschlossen. Der Rohrreibungsverlust (Rauhigkeitswert k=0.007 mm) bleibt auch nach 50 Jahren Betrieb auf dem Niveau des ersten Tages, was die Pumpenenergie massiv senkt.
+- `products.pipes.sticky.items.2.title`  Absolute Korrosionsfreiheit
+- `products.pipes.sticky.items.3.desc`  Dank der geringen Wärmeleitfähigkeit von PP-R (0.24 W/mK) gegenüber Stahl (50 W/mK) oder Kupfer (380 W/mK) wird die Kondenswasserbildung bei Kühlanlagen stark verzögert und Wärmeverluste bei Heizsystemen minimiert. Zudem absorbieren unsere dickwandigen Polymerrohre Strömungsgeräusche und Wasserschläge (Water Hammers) effizient, was den akustischen Komfort in Hochhäusern und Hotels perfektioniert.
+- `products.pipes.sticky.items.3.title`  Thermische und Akustische Isolation
+- `products.pipes.timeline.items.0.text`  Wir verarbeiten ausschließlich hochreine PP-R und PPRCT Granulate der weltweit führenden Polymer-Hersteller. Jede Charge durchläuft im hauseigenen Labor einen MFR-Test (Melt Flow Rate) sowie eine oxidative Induktionszeit-Messung (OIT) vor Freigabe für die Extrusion.
+- `products.pipes.timeline.items.0.title`  Premium Rohmaterial
+- `products.pipes.timeline.items.0.year`  Stufe 01
+- `products.pipes.timeline.items.1.text`  Unsere hochmodernen Extrusionsanlagen fertigen 3-Schicht-Faserverbundrohre mit Mikrometer-Präzision. Ultraschall-Wandstärkenmessung in Echtzeit über 360° stellt sicher, dass selbst bei SDR 6 Rohren die minimal zulässigen Toleranzen unterschritten werden.
+- `products.pipes.timeline.items.1.title`  Präzisions-Extrusion
+- `products.pipes.timeline.items.1.year`  Stufe 02
+- `products.pipes.timeline.items.2.text`  Unmittelbar nach der Extrusion werden die Rohre in speziell temperierten Wasserbädern stufenweise heruntergekühlt. Dieser schonende Abkühlprozess verhindert innere Eigenspannungen im Material und sorgt für höchste Maßhaltigkeit über alle Dimensionen.
+- `products.pipes.timeline.items.2.title`  Thermisches Konditionieren
+- `products.pipes.timeline.items.2.year`  Stufe 03
+- `products.pipes.timeline.items.3.text`  Jedes Rohr erhält einen unauslöschlichen Laser-Aufdruck mit exakter Chargen- und Produktionszeit-Angabe. Selbst nach Jahrzehnten in der Wand lässt sich die Herkunft jedes K Aqua Rohres lückenlos bis zur Granulatcharge zurückverfolgen.
+- `products.pipes.timeline.items.3.title`  100% Traceability
+- `products.pipes.timeline.items.3.year`  Stufe 04
+- `products.pipes.timeline.items.4.text`  Hydraulischer Berstdruck-Test bei 95°C über 1000 Stunden. Zugversuche, Kerbschlagzähigkeit und toxikologische Unbedenklichkeitsprüfung. Nur wenn das Produkt alle Normen (DIN 8077/8078, EN ISO 15874) übertrifft, verlässt es unser Werkstatt.
+- `products.pipes.timeline.items.4.title`  Prüfung & Freigabe
+- `products.pipes.timeline.items.4.year`  Stufe 05
+- `products.range.0.d`  Monolayer- und glasfaserverstärkte Multilayer-Rohre in SDR 6, 7,4, 9, 11 und 17. Dimensionen von 20 mm bis 630 mm.
+- `products.range.0.t`  Rohre: Mono & Multilayer
+- `products.range.1.d`  Fittings von 20 mm bis 315 mm, ergänzt um Ventile, Verschraubungen und Übergangsstücke.
+- `products.range.1.t`  Formteile & Armaturen
+- `products.range.2.d`  Schneidwerkzeuge, Schweißgeräte und Schweißmaschinen für Muffen-, Stumpf- und Elektroschweißverfahren.
+- `products.range.2.t`  Schweißtechnik & Werkzeug
+- `products.range.3.t`  Heiß- & Kaltwasser
+- `products.seoArticle.accessories.advList.0`  Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K Aqua Rohrsystem abgestimmt.
+- `products.seoArticle.accessories.advList.1`  Thermodynamische Befestigung: Rohrschellen mit Gummieinlage für Fest- und Loslager.
+- `products.seoArticle.accessories.advList.2`  Hochwertige Flanschverbindungen: Losflansche und EPDM-Dichtungen für den Übergang auf Metall.
+- `products.seoArticle.accessories.advList.3`  Schnelle Reparatur: Reparaturstopfen für versehentlich angebohrte Rohre.
+- `products.seoArticle.accessories.advList.4`  UV-Beständigkeit: Ausgewählte Zubehörteile sind speziell für die Außenaufstellung stabilisiert.
+- `products.seoArticle.accessories.faq.0.a`  Ja, unsere Accessories wie Rohrschellen und Flachdichtungen sind für den Einsatz in Kaltwasser-, Warmwasser- und Heizungssystemen konzipiert und weisen eine hervorragende thermische Stabilität auf.
+- `products.seoArticle.accessories.faq.0.q`  Sind die Zubehörteile für Kalt- und Warmwasser geeignet?
+- `products.seoArticle.accessories.faq.1.a`  Um die volle K Aqua Systemgewährleistung in Anspruch zu nehmen, ist es zwingend erforderlich, Original-Zubehörteile zu verwenden. Fremdkomponenten können zu Dichtigkeitsproblemen oder mechanischen Ausfällen führen.
+- `products.seoArticle.accessories.faq.1.q`  Kann ich Zubehör von Drittanbietern verwenden?
+- `products.seoArticle.accessories.faq.2.a`  Ja, unser Sortiment umfasst hochbelastbare Losflansche mit Stahlkern, EPDM-Spezialdichtungen und verstärkte Rohrschellen, die extremen industriellen Belastungen problemlos standhalten.
+- `products.seoArticle.accessories.faq.2.q`  Gibt es spezielles Zubehör für den industriellen Einsatz?
+- `products.seoArticle.fallback.advList.0`  geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.
+- `products.seoArticle.fallback.advList.1`  Systemkompatibilität: Perfekt auf das K Aqua Rohrsystem abgestimmt.
+- `products.seoArticle.fallback.advList.2`  Langlebigkeit: Robuste Materialien für den rauen Baustellenalltag.
+- `products.seoArticle.fallback.advList.3`  Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.
+- `products.seoArticle.fallback.advList.4`  Wirtschaftlichkeit: Hervorragendes Preis-Leistungs-Verhältnis.
+- `products.seoArticle.fittings.advList.0`  Homogene Verschweißung: Rohr und Fitting verschmelzen zu einer untrennbaren Einheit.
+- `products.seoArticle.fittings.advList.1`  Keine Dichtungen nötig: Die dauerhafte Verbindung benötigt keine fehleranfälligen O-Ringe.
+- `products.seoArticle.fittings.advList.2`  Einfache Montage: Schnelle und sichere Verarbeitung auf der Baustelle.
+- `products.seoArticle.fittings.advList.3`  Voller Durchfluss: Keine Querschnittsverengung, wodurch der Systemdruck erhalten bleibt.
+- `products.seoArticle.fittings.advList.4`  Chemische Beständigkeit: Resistent gegen eine Vielzahl aggressiver Medien.
+- `products.seoArticle.pipes.advList.0`  Keine Korrosion: 100% resistent gegen Lochfraß und Rost.
+- `products.seoArticle.pipes.advList.1`  Geringer Druckverlust: Die extrem glatte Innenfläche minimiert Reibung und spart Pumpenenergie.
+- `products.seoArticle.pipes.advList.2`  Lange Lebensdauer: Garantiert über 50 Jahre wartungsfrei im Dauereinsatz.
+- `products.seoArticle.pipes.advList.3`  Geräuschreduktion: Hervorragende Schalldämmung gegen Fließgeräusche.
+- `products.seoArticle.pipes.advList.4`  Hygienisch: Erfüllt strengste internationale Trinkwassernormen (DVGW, KIWA).
+- `products.seoArticle.pipes.faq.0.a`  PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) besitzt eine speziell modifizierte Kristallstruktur, die eine höhere Druckbeständigkeit bei erhöhten Betriebstemperaturen ermöglicht. Dadurch können dünnwandigere Rohre bei gleichem Nenndruck eingesetzt werden, was den Innendurchmesser und die hydraulische Durchflusskapazität um bis zu 17 % erhöht.
+- `products.seoArticle.pipes.faq.0.q`  Was unterscheidet PPRCT von herkömmlichem PP-R bei Rohrleitungssystemen?
+- `products.seoArticle.pipes.faq.1.a`  Unsere K-Fiber Rohre besitzen eine integrierte Mittelschicht aus glasfaserverstärktem Polypropylen. Diese Schicht stabilisiert das Rohr mechanisch und senkt den Ausdehnungskoeffizienten auf ca. 0,035 mm/(m·K). Dies entspricht einer Reduktion der thermischen Längenausdehnung um 75 % gegenüber Standard-Kunststoffrohren.
+- `products.seoArticle.pipes.faq.1.q`  Wie reduziert die K-Fiber Faserverbundtechnologie die thermische Längenausdehnung?
+- `products.seoArticle.pipes.faq.2.a`  Ja, K Aqua Rohrsysteme erfüllen die strengsten Prüf- und Hygieneanforderungen internationaler Zertifizierungsstellen wie DVGW, KIWA und WRAS. Der Werkstoff ist vollkommen unbedenklich, geschmacks- und geruchsneutral und verhindert wirksam Kalk- sowie Biofilmbildung.
+- `products.seoArticle.pipes.faq.2.q`  Sind K Aqua PP-R Rohrsysteme für Trinkwasser zertifiziert?
+- `products.seoArticle.pipes.faq.3.a`  Die Verbindung erfolgt durch thermische Polyfusion bei 260°C. Rohr und Fitting verschmelzen dabei auf molekularer Ebene zu einer homogenen, unlösbaren Einheit. Da keine fehleranfälligen Gummidichtungen oder Pressfittings verwendet werden, bleibt die Schweißnaht über 50 Jahre lang vollkommen dicht.
+- `products.seoArticle.pipes.faq.3.q`  Wie wird eine absolut leckagefreie Schweißverbindung hergestellt?
+- `products.seoArticle.pipes.faq.4.a`  K Aqua bietet Rohrsysteme in den Druckstufen SDR 6, SDR 7.4, SDR 9 und SDR 11 (PN10 bis PN25) sowie in Außendurchmessern von 20 mm bis 250 mm an. Damit lassen sich sowohl feingliedrige Etagenverteilungen als auch massive Haupt- und Steigleitungen realisieren.
+- `products.seoArticle.pipes.faq.4.q`  Welche Druckstufen und Dimensionen sind für K Aqua Rohre verfügbar?
+- `products.seoArticle.tools.advList.0`  Exakte Temperaturkontrolle: Mikroprozessorgesteuerte Heizelemente halten exakt 260°C.
+- `products.seoArticle.tools.advList.1`  Antihaft-Beschichtung: Teflon-PTFE für eine rückstandsfreie Schmelze.
+- `products.seoArticle.tools.advList.2`  Ergonomisches Design: Reduziert die physische Belastung des Installateurs.
+- `products.seoArticle.tools.advList.3`  Digitale Dokumentation: Stumpf- und Elektroschweißmaschinen mit Protokollfunktion.
+- `products.seoArticle.tools.advList.4`  Lange Lebensdauer: Robuste Mechanik für den rauen Baustellenalltag.
+- `products.seoArticle.transitionFittings.advList.0` [fehlt] Tief verankerte Metalleinsätze mit höchster Ausreißfestigkeit
+- `products.seoArticle.transitionFittings.advList.1` [fehlt] UBA-konforme Trinkwasserhygiene
+- `products.seoArticle.transitionFittings.advList.2` [fehlt] Messing- und Edelstahlvarianten für jede Umgebung
+- `products.seoArticle.transitionFittings.advList.3` [fehlt] Dauerhaft dichte Verbindung zu Bestandsinstallationen
+- `products.seoArticle.transitionFittings.advTitle` [fehlt] PP-R Übergangsformteile: Die sichere Schnittstelle zu Metall
+- `products.seoArticle.transitionFittings.seoText` [fehlt] Hochbelastbare Übergangsmuffen, Wandwinkel und Verschraubungen mit tief verankerten Messing- oder Edelstahleinsätzen verbinden das PP-R System dauerhaft dicht mit Armaturen, Pumpen und Bestandsleitungen aus Metall.
+- `products.seoArticle.transitionFittings.seoTitle` [fehlt] PP-R Übergangsformteile: Metall-Kunststoff-Verbindungen
+- `products.seoArticle.valves.advList.0`  Wartungsfrei: Die Mechanik ist auf jahrzehntelange reibungslose Funktion ausgelegt.
+- `products.seoArticle.valves.advList.1`  Voller Durchgang: Kugelhähne mit vollem Querschnitt minimieren Druckverluste.
+- `products.seoArticle.valves.advList.2`  Einfache Integration: Direkt in das PP-R System einschweißbar.
+- `products.seoArticle.valves.advList.3`  Hochwertige Materialien: Ventilsitze und Kugeln aus korrosionsfesten Legierungen.
+- `products.seoArticle.valves.advList.4`  Sichere Absperrung: 100% dicht selbst unter extremen Druck- und Temperaturwechseln.
+- `products.seoArticle.weldInSaddles.advList.0`  Nachträgliche Installation: Erweiterung bestehender PP-R Rohrnetze ohne Trennen des Hauptrohres.
+- `products.seoArticle.weldInSaddles.advList.2`  Druckresistent: Die Sattelschweißung erreicht dieselbe Druckstufe wie das Basisrohr.
+- `products.seoArticle.weldInSaddles.advList.3`  Voller Durchfluss: Keine Querschnittsverengung im Hauptstrang.
+- `products.seoArticle.weldInSaddles.advList.4`  Vielseitig: Erhältlich mit oder ohne metallischen Gewindeübergang (IG/AG).
+- `products.sticky.items.0.desc`  Das K Aqua PPR-System (Polypropylen Random Copolymer) ist das Rückgrat moderner Flüssigkeitstransporte. Thermisch verschmolzen zu einer homogenen Einheit, widersteht es extremen Drücken, chemischen Angriffen und thermischen Belastungen. Ein System, das nicht leckt, nicht korrodiert und Jahrzehnte überdauert.
+- `products.sticky.items.0.title`  PPR-ROHRSYSTEME: UNZERSTÖRBARE ADERN
+- `products.sticky.items.1.desc`  Jeder K Aqua Fitting ist ein Meisterwerk der Strömungsmechanik. Reduzierte Kavitation, optimierte Wandstärken und exakte Toleranzen im Mikrometerbereich garantieren minimale Druckverluste und maximale Systemsicherheit. Wir überlassen den Fluss nicht dem Zufall.
+- `products.sticky.items.1.title`  FITTINGS: GEOMETRISCHE PERFEKTION
+- `products.sticky.items.2.desc`  Industrielle Absperr- und Regeltechnik, die unter den härtesten Bedingungen weltweit operiert. Unsere Kugelhähne, Schrägsitzventile und Rückflussverhinderer sind auf zehntausende Zyklen ohne Leistungsabfall getestet. Maximale Dichtigkeit bei maximaler Belastung.
+- `products.sticky.items.2.title`  VENTILE & ARMATUREN: ABSOLUTE KONTROLLE
+- `products.sticky.items.3.desc`  Aluminium trifft auf Hochleistungspolymer. Die K Aqua Mehrschichtverbundrohre kombinieren die mechanische Stabilität von Metall mit der Flexibilität und chemischen Resistenz von Kunststoff. 100% sauerstoffdicht. Minimale Längenausdehnung. Die ultimative Lösung für komplexe HLK-Systeme.
+- `products.sticky.items.3.title`  VERBUNDROHRE: DIE SYNERGIE DER MATERIALIEN
+- `products.tableHead.0`  Komponente
+- `products.tableHead.1`  Dimension
+- `products.tableHead.2`  Druckstufen
+- `products.tableRows.0.0`  Monolayer-Rohre
+- `products.tableRows.1.0`  Multilayer-Rohre (GF-verstärkt)
+- `products.tableRows.2.0`  Formteile
+- `products.tableRows.2.2`  systemkompatibel
+- `products.tableRows.3.0`  Ventile & Verschraubungen
+- `products.tableRows.3.1`  systemabhängig
+- `products.tableRows.4.0`  Schweißtechnik & Werkzeuge
+- `products.tableRows.4.1`  alle Dimensionen
+- `products.timeline.items.0.text`  Exakte hydraulische Berechnung und Auslegung der Rohrdurchmesser. Vermeidung von Überdimensionierung durch überlegene Fließeigenschaften.
+- `products.timeline.items.0.title`  PLANUNG & DIMENSIONIERUNG
+- `products.timeline.items.0.year`  PHASE 01
+- `products.timeline.items.1.text`  Kaltes und spanloses Trennen der Rohre. Absolut saubere Schnittkanten garantieren eine perfekte Schweißvorbereitung ohne Kontaminationsrisiko.
+- `products.timeline.items.1.title`  ZUSCHNITT & VORBEREITUNG
+- `products.timeline.items.1.year`  PHASE 02
+- `products.timeline.items.2.text`  Das Werkzeug erhitzt Rohr und Fitting exakt auf 260°C. In Sekunden entsteht eine molekulare Verbindung, die unlösbar ist.
+- `products.timeline.items.2.title`  HEIZELEMENT-MUFFENSCHWEISSEN
+- `products.timeline.items.2.year`  PHASE 03
+- `products.timeline.items.3.text`  Das System wird unter extremen Prüfdruck gesetzt. Keine Toleranz für Leckagen. K Aqua liefert 100%ige Sicherheit ab dem ersten Tropfen.
+- `products.timeline.items.3.title`  DRUCKPRÜFUNG & ABNAHME
+- `products.timeline.items.3.year`  PHASE 04
+- `products.timeline.items.4.text`  Wartungsfrei. Geräuscharm. Das System arbeitet im Hintergrund der modernsten Gebäude der Welt mit unerbittlicher Zuverlässigkeit.
+- `products.timeline.items.4.title`  BETRIEB FÜR JAHRZEHNTE
+- `products.timeline.items.4.year`  PHASE 05
+- `products.tools.heroEyebrow`  German Engineering
+- `products.transitionFittings.bento.items.0.desc`  Entzinkungsbeständiges Messing der Güteklasse CW617N (nach DIN EN 12164) eliminiert das Risiko von selektiver Korrosion in aggressiven Wasserqualitäten.
+- `products.transitionFittings.bento.items.0.title`  DZR Brass Core
+- `products.transitionFittings.bento.items.1.desc`  Polygonale Hinterschneidungen formen einen geometrischen Lock, der extreme Anzugsmomente aufnimmt, ohne den Kunststoffmantel zu belasten.
+- `products.transitionFittings.bento.items.1.title`  Anti-Rotation Design
+- `products.transitionFittings.bento.items.2.desc`  Konische und zylindrische ISO 7/1 bzw. ISO 228 Gewinde, maschinell mit einer Toleranz von ±0.01mm geschnitten für perfekte Dichtigkeit.
+- `products.transitionFittings.bento.items.2.title`  Tiefgezogenes Gewinde
+- `products.transitionFittings.bento.items.3.desc`  Die hochkristalline Struktur unseres Polypropylen Random Copolymers bietet überragende Langzeit-Zeitstandfestigkeit bei hohen Temperaturen.
+- `products.transitionFittings.bento.items.3.title`  PPRCT Matrix
+- `products.transitionFittings.stats.items.0.label`  Betriebsdruck (PN)
+- `products.transitionFittings.stats.items.0.sub`  Bei 20°C Wasser
+- `products.transitionFittings.stats.items.0.value`  Bis zu 25 bar
+- `products.transitionFittings.stats.items.1.label`  Temperaturspektrum
+- `products.transitionFittings.stats.items.1.sub`  Spitzenbelastung bis 110°C
+- `products.transitionFittings.stats.items.1.value`  -20°C bis +95°C
+- `products.transitionFittings.stats.items.2.label`  Gewindenormen
+- `products.transitionFittings.stats.items.2.sub`  Innengewinde & Außengewinde
+- `products.transitionFittings.stats.items.3.label`  Lebenszyklus
+- `products.transitionFittings.stats.items.3.sub`  Unter industriellen Bedingungen
+- `products.transitionFittings.stats.items.3.value`  > 50 Jahre
+- `products.transitionFittings.stats.items.4.label`  Messinglegierung
+- `products.transitionFittings.stats.items.4.sub`  DZR / Entzinkungsfrei
+- `products.transitionFittings.stats.items.5.label`  Kunststoff
+- `products.transitionFittings.stats.items.5.sub`  Trinkwasserzertifiziert
+- `products.transitionFittings.stats.items.5.value`  PPRCT / PP-R
+- `products.transitionFittings.stats.items.6.label`  Trinkwasserkonformität
+- `products.transitionFittings.stats.items.6.sub`  100% Bleifrei-Optionen
+- `products.transitionFittings.stats.items.6.value`  UBA, DVGW
+- `products.transitionFittings.stats.items.7.label`  Qualitätssicherung
+- `products.transitionFittings.stats.items.7.sub`  100% Chargen-Tracking
+- `products.transitionFittings.sticky.eyebrow`  Deep Tech
+- `products.transitionFittings.sticky.items.0.desc`  Unsere Übergangsfittings vereinen die unerbittliche mechanische Festigkeit von entzinkungsbeständigem CW617N-Messing mit der chemischen Inertheit von PPRCT. Diese Materialfusion entsteht nicht durch einfaches Verpressen, sondern durch einen thermomechanischen Spritzgussprozess, der eine untrennbare molekulare Verzahnung erzielt.
+- `products.transitionFittings.sticky.items.0.title`  Die Symbiose von Metall und Polymer
+- `products.transitionFittings.sticky.items.1.desc`  Ein kritisches Versagenskriterium bei Standardfittings ist die Drehmomentüberlastung bei der Installation. K Aqua Übergänge integrieren ein patentiertes hexagonales Verankerungsprofil im Kunststoffmantel. Das Resultat: Über 300 Nm garantierte Torsionsresistenz ohne Delamination der Grenzschicht.
+- `products.transitionFittings.sticky.items.1.title`  Extremes Torsions- und Drehmoment
+- `products.transitionFittings.sticky.items.2.title`  Thermische Ausdehnungskoeffizienten im Gleichgewicht
+- `products.transitionFittings.sticky.items.3.desc`  Jedes einzelne Hybrid-Bauteil durchläuft einen vollautomatisierten Helium-Leckagetest und eine optische 3D-Vermessung. Wenn der Grenzwert von 10^-5 mbar·l/s auch nur ansatzweise tangiert wird, schließt unsere Anlage das Teil rigoros aus. German Engineering duldet keine Kompromisse.
+- `products.transitionFittings.sticky.items.3.title`  Null-Toleranz Qualitätskontrolle
+- `products.transitionFittings.timeline.items.0.text`  Das Messing wird bei 750°C in hochpräzise Matrizen gepresst, gefolgt von einer CNC-gesteuerten Zerspanung im Mikrometerbereich zur Erzeugung des Dichtprofils.
+- `products.transitionFittings.timeline.items.0.title`  Rohteilbearbeitung (CW617N)
+- `products.transitionFittings.timeline.items.0.year`  Phase 1
+- `products.transitionFittings.timeline.items.1.text`  Um galvanische Korrosion zu eliminieren, durchlaufen die Gewindeeinsätze einen mehrstufigen Passivierungsprozess in elektrolytischen Ultraschallbädern.
+- `products.transitionFittings.timeline.items.1.title`  Oberflächenpassivierung
+- `products.transitionFittings.timeline.items.1.year`  Phase 2
+- `products.transitionFittings.timeline.items.2.text`  In Hochdruck-Spritzgussmaschinen (2.000 bar) umschließt das schmelzflüssige PPRCT das Messing. Der Kunststoff füllt jede Hinterschneidung komplett aus.
+- `products.transitionFittings.timeline.items.2.title`  Umspritzen (Injection Molding)
+- `products.transitionFittings.timeline.items.2.year`  Phase 3
+- `products.transitionFittings.timeline.items.3.text`  Ein programmierter, stufenweiser Temperaturabbau verhindert Eigenspannungen im Kunststoffgitter und sichert die konzentrische Formtreue des Fittings.
+- `products.transitionFittings.timeline.items.3.title`  Kontrollierte Abkühlung
+- `products.transitionFittings.timeline.items.3.year`  Phase 4
+- `products.transitionFittings.timeline.items.4.text`  Stichprobenartige Bersttests bis zu 120 bar sowie Dauerschwingversuche simulieren 50 Jahre aggressivste industrielle Dauerbelastung.
+- `products.transitionFittings.timeline.items.4.title`  Druck- & Torsionsprüfung
+- `products.transitionFittings.timeline.items.4.year`  Phase 5
+
+## productsx (93)
+
+- `productsx.anchors.0.c`  2,0 MPa Dauerbetrieb bei 20 °C: Kaltwasser über den 50-Jahre-Auslegungshorizont.
+- `productsx.anchors.1.c`  1,0 MPa Dauerbetrieb bei 70 °C: Warmwasser und Zirkulation ohne Reserveverlust.
+- `productsx.anchors.1.t`  K-Pipe PPRCT · SDR 7,4
+- `productsx.dimHead.0`  d (mm)
+- `productsx.dimHead.1`  Wand s (mm)
+- `productsx.dimHead.2`  di (mm)
+- `productsx.dimHead.3`  Nenndruck
+- `productsx.dimHead.4`  Wasserinhalt (l/m)
+- `productsx.dimHead.5`  Gewicht (kg/m)
+- `productsx.faq.0.q`  Für welche Medien ist das System ausgelegt?
+- `productsx.faq.1.q`  Wofür stehen die fünf SDR-Klassen?
+- `productsx.faq.2.q`  Wann Monolayer, wann K-Fiber?
+- `productsx.faq.3.a`  Stoffschlüssig durch Schweißen: Muffenschweißen von Hand (bis d63) oder mit Maschine, Elektroschweißen über Heizwendelfittings und Stumpfschweißen für Großdimensionen bis d630. Die passenden Geräte und Werkzeuge gehören zum Programm; alle vier Verfahren zeigt die Academy im Video.
+- `productsx.faq.3.q`  Wie werden die Rohre verbunden?
+- `productsx.faq.4.a`  Das System ist für Trinkwasser entwickelt; Polypropylen ist geschmacks- und geruchsneutral. Die Konformitätsnachweise für den Trinkwasserkontakt (DVGW/KTW) stellen wir im Trust Center als Teil des RFP-Dokumentenpakets bereit.
+- `productsx.faq.4.q`  Ist das System trinkwasserkonform?
+- `productsx.faq.5.q`  Welche Lebensdauer liegt der Auslegung zugrunde?
+- `productsx.faq.6.q`  Wo bekomme ich verbindliche Artikeldaten?
+- `productsx.fitGroups.0.items.0`  Winkel 90° und 45°
+- `productsx.fitGroups.0.items.1`  T-Stücke, auch reduziert
+- `productsx.fitGroups.0.items.2`  Muffen und Überschiebmuffen
+- `productsx.fitGroups.0.items.3`  Reduzierungen
+- `productsx.fitGroups.0.items.4`  Endkappen
+- `productsx.fitGroups.0.t`  Formteile d20–d315
+- `productsx.fitGroups.1.items.0`  Übergangsstücke mit Messing-Innengewinde
+- `productsx.fitGroups.1.items.1`  Übergangsstücke mit Messing-Außengewinde
+- `productsx.fitGroups.1.items.2`  Verschraubungen (lösbar)
+- `productsx.fitGroups.1.items.3`  Anschluss an Bestandsleitungen aus Metall
+- `productsx.fitGroups.1.t`  Übergänge & Verschraubungen
+- `productsx.fitGroups.2.items.0`  Ventile
+- `productsx.fitGroups.2.items.1`  Kugelhähne
+- `productsx.fitGroups.2.items.2`  Absperrungen für Steig- und Verteilleitungen
+- `productsx.fitGroups.2.t`  Armaturen
+- `productsx.fitGroups.3.items.0`  Handschweißgeräte (bis d63)
+- `productsx.fitGroups.3.items.1`  Muffenschweißmaschinen
+- `productsx.fitGroups.3.items.2`  Elektroschweißgeräte
+- `productsx.fitGroups.3.items.3`  Stumpfschweißmaschinen für Großdimensionen
+- `productsx.fitGroups.3.items.4`  Rohrschneider und Schneidwerkzeuge
+- `productsx.fitGroups.3.t`  Schweißtechnik & Werkzeug
+- `productsx.matHead.0`  Eigenschaft
+- `productsx.matHead.1`  Wert
+- `productsx.matHead.2`  Bedeutung für Ihr Projekt
+- `productsx.matRows.0.0`  Dichte
+- `productsx.matRows.0.1`  0,905 g/cm³
+- `productsx.matRows.0.2`  Rund ein Zehntel von Kupfer: leichter Transport, einfache Montage ohne Hebezeug bei kleinen und mittleren Dimensionen.
+- `productsx.matRows.1.0`  Innenrauheit
+- `productsx.matRows.1.2`  Extrem glatte Oberfläche: minimaler Druckverlust, kaum Inkrustation und Biofilm-Bildung.
+- `productsx.matRows.2.0`  Wärmeleitfähigkeit
+- `productsx.matRows.2.2`  Geringe Wärmeverluste in der Warmwasser-Zirkulation: dauerhafte Energieeinsparung gegenüber Metall.
+- `productsx.matRows.3.0`  Längenausdehnung (Monolayer)
+- `productsx.matRows.3.1`  ≈ 0,15 mm/(m·K)
+- `productsx.matRows.3.2`  Wird konstruktiv über Dehnungsschenkel und Fixpunkte aufgenommen.
+- `productsx.matRows.4.0`  Längenausdehnung (K-Fiber, GF)
+- `productsx.matRows.4.1`  ≈ 0,04 mm/(m·K)
+- `productsx.matRows.4.2`  Rund ein Viertel des Monolayer-Werts: größere Schellenabstände, ruhigeres Leitungsbild.
+- `productsx.matRows.5.0`  Medientemperatur
+- `productsx.matRows.5.1`  kalt bis 70 °C Dauerbetrieb
+- `productsx.matRows.5.2`  Trinkwasser heiß und kalt; Auslegungsanker: PPRCT SDR 7,4 bei 70 °C · 10 bar.
+- `productsx.matRows.6.0`  Chemische Beständigkeit
+- `productsx.matRows.6.1`  Lösungsmittel, Laugen, Säuren
+- `productsx.matRows.6.2`  Als technischer Kunststoff ungewöhnlich beständig: korrosionsfrei ohne Lochfraß-Risiko.
+- `productsx.matRows.7.0`  Recycling
+- `productsx.matRows.7.1`  Code 5 (PP)
+- `productsx.matRows.7.2`  Sortenrein trennbar; 100 % der Produktionsabfälle gehen zurück in den Wertstoffkreislauf.
+- `productsx.normHead.0`  Norm
+- `productsx.normHead.1`  Titel
+- `productsx.normHead.2`  Bedeutung
+- `productsx.norms.0.1`  Rohre aus Polypropylen: Maße
+- `productsx.norms.0.2`  Definiert Durchmesser- und Wandstärkenreihen (SDR) für PP-Rohre.
+- `productsx.norms.1.1`  Rohre aus Polypropylen: Anforderungen
+- `productsx.norms.1.2`  Allgemeine Güteanforderungen und Prüfungen für PP-R/PPRCT-Rohre.
+- `productsx.norms.2.1`  Kunststoffrohrleitungssysteme
+- `productsx.norms.2.2`  Systemnorm für Warm- und Kaltwasserinstallationen aus Polypropylen.
+- `productsx.norms.3.1`  Schweißen von PP
+- `productsx.norms.3.2`  Richtwerte für Muffen-, Elektro- und Stumpfschweißen: Basis der Academy-Inhalte.
+- `productsx.norms.4.1`  Trinkwasserkontakt
+- `productsx.norms.4.2`  Konformitätsnachweise für den Kontakt mit Trinkwasser: im Trust Center anforderbar.
+- `productsx.norms.5.1`  EPD (Typ III)
+- `productsx.norms.5.2`  Umweltproduktdeklarationen als Datenbasis für LEED, BREEAM und DGNB.
+- `productsx.norms.6.1`  Managementsysteme
+- `productsx.norms.6.2`  Qualität, Umwelt und Energie: dreifach geprüft seit Oktober 2025, DAkkS-akkreditiert.
+- `productsx.norms.7.1`  Integriertes Managementsystem
+- `productsx.norms.7.2`  Das hauseigene System im House of KWT verbindet Arbeitsschutz, Umwelt und Energie im Alltag.
+- `productsx.pipes.0.d`  Der bewährte Standard für Trinkwasser heiß und kalt. Einschichtiger Aufbau, volle SDR-Bandbreite in den gängigen Dimensionen: wirtschaftlich für Wohn- und Objektbau.
+- `productsx.pipes.0.t`  K-Pipe PP-R Monolayer
+- `productsx.pipes.1.t`  K-Pipe PPRCT
+- `productsx.pipes.1.tags.0`  70 °C · 10 bar
+- `productsx.pipes.1.tags.1`  Warmwasser
+- `productsx.pipes.2.t`  K-Fiber Pipe (GF-Multilayer)
+- `productsx.pipes.2.tags.0`  GF-Kern
+- `productsx.pipes.3.t`  UV-stabilisierte Ausführung
+- `productsx.pipes.3.tags.0`  Außenbereich
+- `productsx.pipes.3.tags.1`  Agrar
+
+## refsx (5)
+
+- `refsx.sectors.0.t`  Krankenhäuser
+- `refsx.sectors.1.d`  Warmwasser-Zirkulation im Dauerbetrieb, thermisch effizient: wie im Hotelkomplex Istanbul mit Faserverbundrohr.
+- `refsx.sectors.1.t`  Hotels
+- `refsx.sectors.2.t`  Industriegebäude
+- `refsx.sectors.3.t`  Gewächshäuser & Infrastruktur
+
+## regions (2)
+
+- `regions.dach`  DACH
+- `regions.europa`  Europa
+
+## resources (115)
+
+- `resources.ausschreibungstexte.bento.items.0.desc`  Jede einzelne Position entspricht exakt den aktuellsten Vergabe- und Vertragsordnungen für Bauleistungen. Sie sind juristisch absolut auf der sicheren Seite und minimieren das Haftungsrisiko drastisch.
+- `resources.ausschreibungstexte.bento.items.0.title`  VOB/C & DIN 18381 konform
+- `resources.ausschreibungstexte.bento.items.1.desc`  XML, d81, d83. Perfekte Import-Kompatibilität für ORCA, RIB iTWO, Nevaris und alle gängigen AVA-Systeme. Keine Syntaxfehler, keine Workarounds.
+- `resources.ausschreibungstexte.bento.items.1.title`  Native GAEB Formate
+- `resources.ausschreibungstexte.bento.items.2.desc`  Für öffentliche Vergabeverfahren bieten wir rechtssichere, absolut produktneutrale Beschreibungen, die den Premium-Standard festsetzen, ohne Vergaberichtlinien zu verletzen.
+- `resources.ausschreibungstexte.bento.items.2.title`  Herstellerneutrale Varianten
+- `resources.ausschreibungstexte.bento.items.3.desc`  Vom komplexen Formteil über die Absperrarmatur bis zur thermodynamischen Befestigungsschelle: Die lückenlose Erfassung des gesamten Ökosystems verhindert teure Nachträge.
+- `resources.ausschreibungstexte.bento.items.3.title`  Detaillierte Zubehör-Matrix
+- `resources.ausschreibungstexte.bento.items.4.desc`  Verknüpfen Sie unsere Ausschreibungstexte nahtlos mit unseren hochdetaillierten Revit-Modellen für eine durchgängige, clash-freie 5D-Planung in Echtzeit.
+- `resources.ausschreibungstexte.bento.items.4.title`  BIM-Ready Integration
+- `resources.ausschreibungstexte.deep.items.0.desc`  In der Planung internationaler Megaprojekte ist Ambiguität der Feind. Ein einzelnes fehlendes Wort in der Leistungsbeschreibung kann den Unterschied zwischen einem jahrzehntelang wartungsfreien System und einem desaströsen Millionen-Schaden bedeuten. Unsere Ausschreibungstexte sind millimetergenau nach VOB/C und DIN 18381 normiert. Jede Leistungsbeschreibung ist so kalibriert, dass technische Schlupflöcher, Auslegungsspielräume und juristische Grauzonen restlos eliminiert werden. So garantieren wir, dass die Qualität, die Sie auf dem Papier spezifizieren, exakt die Qualität ist, die auf der Baustelle verbaut wird.
+- `resources.ausschreibungstexte.deep.items.0.title`  Absolute Rechtssicherheit (VOB/C)
+- `resources.ausschreibungstexte.deep.items.1.title`  100% GAEB- & ÖNORM-Kompatibilität
+- `resources.ausschreibungstexte.deep.items.2.desc`  Wasserinfrastruktur ist das Nervensystem eines Gebäudes. Unsere Leistungspositionen definieren eindeutig und unmissverständlich die überlegene Molekularstruktur unseres Polypropylens Random Copolymer (PPR-C Typ 3). Sie fixieren entscheidende Parameter wie Zeitstandfestigkeit, Kriechverhalten und thermische Längenausdehnung. Nur durch diese kompromisslose Detailtiefe schützen Sie Ihr Projekt wirksam vor minderwertigen Derivaten und gefährlichen Plagiaten, die bei Spitzendrücken von 20 Bar oder bei Temperaturschwankungen unweigerlich kapitulieren würden.
+- `resources.ausschreibungstexte.deep.items.2.title`  Die Materialspezifikation: PPR-C (Typ 3)
+- `resources.ausschreibungstexte.deep.items.3.desc`  Premium-Architektur erfordert Premium-Physik. Eine professionelle Ausschreibung erfasst nicht nur das nackte Rohrleitungssystem, sondern das gesamte physikalische Ökosystem. Unsere Texte enthalten detaillierte Vorgaben zu Wärmeverlustkoeffizienten nach dem Gebäudeenergiegesetz (GEG) / EnEV sowie zu strengen Schalldämmmaßen (DIN 4109). Das stellt sicher, dass Ihre Anlage nicht nur mechanisch extrem belastbar ist, sondern auch thermodynamisch hochgradig effizient und akustisch im absoluten Premium-Segment (Flüster-Standard) operiert.
+- `resources.ausschreibungstexte.deep.items.3.title`  Thermodynamische und akustische Präzision
+- `resources.ausschreibungstexte.deep.items.4.desc`  Die Zukunft des Bauens ist zirkulär und CO2-optimiert. Ausschreibungen müssen heute grüne Standards nachweisen. K Aqua Texte integrieren vollständige EPDs (Environmental Product Declarations) und Lebenszyklusanalysen. Wir definieren den genauen ökologischen Fußabdruck, Rezyklierbarkeit und Energieeffizienz in der Extrusion. Perfekt geeignet für Gebäude, die nach DGNB, LEED, BREEAM oder WELL geprüft werden sollen. Spezifizieren Sie grüne Performance, nicht nur grüne Versprechen.
+- `resources.ausschreibungstexte.deep.items.4.title`  Nachhaltigkeits-Metriken (ESG & LEED)
+- `resources.ausschreibungstexte.grid.items.0.title`  Rohrsysteme SDR 6 / SDR 7.4
+- `resources.ausschreibungstexte.grid.items.1.desc`  Vollautomatische Schweißdokumentation und 100% homogene, unlösbare und leckagesichere Verbindungen.
+- `resources.ausschreibungstexte.grid.items.1.title`  Elektroschweißmuffen
+- `resources.ausschreibungstexte.grid.items.2.desc`  Entzinkungsfreies Premium-Messing (DZR), dauerhaft und unzertrennlich eingegossen in die PP-R Matrix.
+- `resources.ausschreibungstexte.grid.items.2.title`  Übergangsverschraubungen
+- `resources.ausschreibungstexte.grid.items.3.desc`  Wartungsfreie Kugel- und Schrägsitzventile, strömungsoptimiert und Totraum-minimiert zur Legionellenprävention.
+- `resources.ausschreibungstexte.grid.items.3.title`  Absperrarmaturen
+- `resources.ausschreibungstexte.grid.items.4.desc`  Modulare, hochkapazitive Verteiler für komplexe Steigstränge und Etagenanbindungen in Großprojekten.
+- `resources.ausschreibungstexte.grid.items.4.title`  Verteilersysteme
+- `resources.ausschreibungstexte.grid.items.5.desc`  Integrierte Vorgaben zur strikten Vermeidung von Wärmeverlusten und Kondensatbildung (Taupunktunterschreitung).
+- `resources.ausschreibungstexte.grid.items.5.title`  Dämmung nach GEG
+- `resources.ausschreibungstexte.grid.items.6.desc`  R90/R120 konforme, hochreaktive Schottungssysteme für sichere Wand- und Deckendurchführungen.
+- `resources.ausschreibungstexte.grid.items.6.title`  Brandschutz-Manschetten
+- `resources.ausschreibungstexte.grid.items.7.desc`  Präzise Fest- und Loslager-Spezifikationen zur kontrollierten Aufnahme von thermischer Längendehnung.
+- `resources.ausschreibungstexte.grid.items.7.title`  System-Befestigungen
+- `resources.ausschreibungstexte.hero.eyebrow`  K Aqua Resource Center
+- `resources.ausschreibungstexte.hero.title2`  Engineered in Germany.
+- `resources.ausschreibungstexte.timeline.items.0.text`  Der Prozess beginnt in der TGA-Planung. Exakte Definition von Nennweiten, Druckstufen (PN) und SDR-Klassen für Heiß- und Kaltwasser. Wir lassen keine Grauzonen. Jedes Formteil, jede Schelle, jede Muffe wird mathematisch exakt erfasst.
+- `resources.ausschreibungstexte.timeline.items.0.title`  Die Definition von Perfektion.
+- `resources.ausschreibungstexte.timeline.items.0.year`  Phase 1: Parametrierung
+- `resources.ausschreibungstexte.timeline.items.1.text`  Durch die granulare, kristallklare Struktur unserer Texte werden Angebote echter vergleichbar. Dumping-Preise durch minderwertige Materialien oder versteckte Auslassungen fallen sofort auf. Die Spreu trennt sich vom Weizen.
+- `resources.ausschreibungstexte.timeline.items.1.title`  Submission ohne Kompromisse.
+- `resources.ausschreibungstexte.timeline.items.1.year`  Phase 2: Vergabe
+- `resources.ausschreibungstexte.timeline.items.2.text`  Die Ausschreibungstexte dienen als bindendes, juristisches Gesetzbuch für die Bauleitung und die Installateure. Jede Schweißnaht, jede Fixierung muss den spezifizierten DVS-Richtlinien entsprechen. Abweichungen werden unmöglich gemacht.
+- `resources.ausschreibungstexte.timeline.items.2.title`  Ein Blueprint für die Baustelle.
+- `resources.ausschreibungstexte.timeline.items.2.year`  Phase 3: Ausführung
+- `resources.ausschreibungstexte.timeline.items.3.text`  Das Resultat einer makellosen Spezifikation ist ein über Jahrzehnte fehlerfreies System. Maximale Resilienz gegen Korrosion, Inkrustation und chemische Degradation. Generationenübergreifende Sicherheit, engineered in Germany.
+- `resources.ausschreibungstexte.timeline.items.3.title`  50+ Jahre absolute Wartungsfreiheit.
+- `resources.ausschreibungstexte.timeline.items.3.year`  Phase 4: Lebenszyklus
+- `resources.common.eyebrow`  K Aqua RESOURCE
+- `resources.common.placeholder`  Visual Asset Placeholder
+- `resources.common.subtitle`  Engineered in Germany.
+- `resources.common.valEyebrow`  German Engineering
+- `resources.downloads.bento.items.0.desc`  Mikrometergenaue Maßangaben, Druckverlusttabellen und thermische Ausdehnungskoeffizienten. Die Bibel für jeden Planer.
+- `resources.downloads.bento.items.0.title`  Technische Datenblätter
+- `resources.downloads.bento.items.1.desc`  Der schriftliche Beweis unserer Null Fehlertoleranz. Dokumentierte Sicherheit nach ISO, DVGW, SKZ und mehr.
+- `resources.downloads.bento.items.1.title`  Zertifikate & Normen
+- `resources.downloads.bento.items.2.desc`  Hochpräzise digitale Zwillinge unserer Rohrleitungssysteme für die nahtlose Integration in Revit und ArchiCAD.
+- `resources.downloads.bento.items.2.title`  BIM & CAD Modelle
+- `resources.downloads.bento.items.3.desc`  Das gesamte K Aqua Portfolio auf über 500 Seiten. Vom 20mm Rohr bis zur 500mm Industriearmatur, vollständig dokumentiert.
+- `resources.downloads.bento.items.3.title`  Produktkataloge 2026
+- `resources.downloads.files.items.0.title`  Hauptkatalog 2026
+- `resources.downloads.files.items.1.title`  Technische Vorgaben PPRCT
+- `resources.downloads.files.items.2.title`  Druckverlust-Tabellen
+- `resources.downloads.files.items.3.title`  BIM/Revit Bibliothek
+- `resources.downloads.hero.title1`  Downloads.
+- `resources.downloads.hero.title2`  Engineered in Germany.
+- `resources.downloads.meta.title`  Downloads | K Aqua
+- `resources.downloads.sticky.items.0.desc`  Ein K Aqua Datenblatt ist kein bloßes Papier. Es ist das destillierte Resultat aus Tausenden Stunden harter Belastungstests. Wir dokumentieren Toleranzen im Mikrometerbereich, weil bei Megaprojekten ein Millimeter Abweichung katastrophale Folgen haben kann.
+- `resources.downloads.sticky.items.0.title`  Die Anatomie unserer Spezifikationen
+- `resources.downloads.sticky.items.1.desc`  Unsere Downloads liefern tiefgehende molekulare Analysen. Sie erfahren exakt, warum die kristalline Struktur unseres PPRCT Werkstoffs bei 90°C Dauerbelastung über 50 Jahre stabil bleibt. Daten, die Statikern und Ingenieuren absolute Sicherheit geben.
+- `resources.downloads.sticky.items.1.title`  Materialwissenschaft: PPRCT in Zahlen
+- `resources.downloads.sticky.items.2.desc`  Fließgeschwindigkeiten, Druckverlusttabellen, Kavitationsgrenzen. Unsere Dokumente bieten Strömungsmechanik auf akademischem Niveau, aufbereitet für die sofortige Anwendung in der Praxis. Geplant für Hochhäuser, in denen Wasser gegen extreme Schwerkraft transportiert werden muss.
+- `resources.downloads.sticky.items.2.title`  Hydraulische Präzision
+- `resources.downloads.sticky.items.3.desc`  SKZ, DVGW, WRAS, KIWA: unsere Download-Sektion ist ein Tresor globaler Gütesiegel. Jedes Zertifikat ist der schriftliche Beweis unserer kompromisslosen Null Fehler-Politik.
+- `resources.downloads.sticky.items.3.title`  geprüft. Weltweit.
+- `resources.downloads.timeline.items.0.text`  Als Pionier in der Kunststoffrohr-Extrusion definierten wir die ersten Standards für PP-R Rohrleitungssysteme in Deutschland. Unsere Spezifikationen wurden zur Blaupause der Industrie.
+- `resources.downloads.timeline.items.0.title`  Die erste technische Dokumentation
+- `resources.downloads.timeline.items.1.text`  Mit der internationalen Expansion wurden unsere technischen Datenblätter an weltweite Normen angepasst, immer mit der Prämisse: Der deutsche Standard ist die absolute Baseline, keine Ausnahme.
+- `resources.downloads.timeline.items.1.title`  ISO-Prüfung & Globale Normen
+- `resources.downloads.timeline.items.2.text`  Einführung hochpräziser Building Information Modeling (BIM) Daten. Milliardenprojekte werden nun virtuell mit K Aqua Systemen geplant, bevor in der Realität der erste Spatenstich erfolgt.
+- `resources.downloads.timeline.items.2.title`  BIM & Digitale Zwillinge
+- `resources.downloads.timeline.items.3.text`  Unsere heutigen Kataloge und technischen Blätter sind dynamische Datenmodelle, die Echtzeit-Leistungsparameter aus globalen Installationen integrieren. German Engineering im digitalen Zeitalter.
+- `resources.downloads.timeline.items.3.title`  Echtzeit-Daten & Predictive Analytics
+- `resources.downloads.title`  Downloads
+- `resources.support.bento.items.0.desc`  Wir prüfen Ihre Planungsunterlagen, rechnen Druckverluste und Dimensionierung nach und liefern eine belastbare Materialliste vor Baubeginn.
+- `resources.support.bento.items.0.title`  Hydraulische Auslegung & Isometrien
+- `resources.support.bento.items.1.desc`  Unsere Techniker begleiten die Muffen- und Heizwendel-Schweißung vor Ort, kontrollieren Prozessparameter und schulen Ihr Montageteam auf Wunsch direkt auf der Baustelle.
+- `resources.support.bento.items.1.title`  Schweißtechnische Betreuung
+- `resources.support.bento.items.2.desc`  Wir unterstützen bei Durchführung und Dokumentation der Druckprüfung nach DIN 1988 und stellen die für die Bauabnahme benötigten Prüfprotokolle bereit.
+- `resources.support.bento.items.2.title`  Druckprüfung & Abnahme
+- `resources.support.bento.items.3.title`  Ersatzteil- & Zubehörservice
+- `resources.support.bento.items.4.title`  Ferndiagnose & Vor-Ort-Einsatz
+- `resources.support.cta.title3`  Projekt?
+- `resources.support.metrics.items.0`  Antwort auf technische Anfragen innerhalb eines Arbeitstages
+- `resources.support.metrics.items.1`  Über 50 Jahre dokumentierte Systemlebensdauer bei sachgerechter Installation
+- `resources.support.metrics.items.2`  Direkter Draht zum technischen Vertrieb ohne Warteschleife
+- `resources.support.metrics.items.3`  Schulungen und Zertifizierungen über die K-Aqua Academy
+- `resources.support.sticky.items.0.desc`  Unsere Algorithmen analysieren kontinuierlich Anomalien in der Infrastruktur. Bevor ein kritischer Zustand erreicht wird, interveniert unser Level-3-Team. Null Toleranz für Latenz. Null Toleranz für Ausfälle. Wir agieren, bevor der Fehler entsteht.
+- `resources.support.sticky.items.0.title`  Prädiktive Systemüberwachung
+- `resources.support.sticky.items.1.desc`  Ein SLA ist für uns keine Richtlinie, sondern ein physikalisches Gesetz. Bei kritischen Vorfällen garantieren wir Initialreaktionen im Millisekundenbereich und sofortige Eskalation an dedizierte Senior-Ingenieure. Keine Warteschleifen, nur unmittelbare Exekution.
+- `resources.support.sticky.items.1.title`  Militärische Reaktionszeiten
+- `resources.support.sticky.items.2.desc`  Ihre Systeme werden nach den striktesten Normen der deutschen Ingenieurskunst auf den Prüfstand gestellt. Skalierbarkeit, Redundanz, und Ausfallsicherheit werden durch schonungslose Stresstests verifiziert. Schwachstellen werden eliminiert, nicht verwaltet.
+- `resources.support.sticky.items.2.title`  Architektur-Audits
+- `resources.support.sticky.items.3.desc`  Vergessen Sie konventionellen Support. Bei komplexen Systemintegrationen kommunizieren Sie direkt mit unseren Kernentwicklern. Kein First-Level-Filter, sondern rohe, ungefilterte technische Expertise für sofortige Problemlösung auf Quellcode-Ebene.
+- `resources.support.sticky.items.3.title`  Direkter Entwickler-Zugang
+- `resources.support.timeline.items.0.text`  Automatisierte Systeme detektieren Mikro-Abweichungen im Datenstrom lange vor einem sichtbaren Ausfall.
+- `resources.support.timeline.items.0.title`  Anomalie-Erkennung
+- `resources.support.timeline.items.1.text`  KI-gestützte Log-Analyse isoliert den Fehlervektor. Zuweisung an das exakt passende Spezialisten-Cluster.
+- `resources.support.timeline.items.1.title`  Diagnostische Triage
+- `resources.support.timeline.items.2.text`  Einspielen von Hotfixes oder automatisches Rerouting des Traffics auf redundante High-Availability-Knoten.
+- `resources.support.timeline.items.2.title`  Intervention
+- `resources.support.timeline.items.3.text`  Forensische Untersuchung des Vorfalls. Modifikation der Kernarchitektur zur permanenten Prävention.
+- `resources.support.timeline.items.3.title`  Root-Cause-Analyse
+- `resources.support.timeline.items.4.text`  Detaillierter technischer Bericht mit kryptographischer Signatur für absolute Transparenz und Audit-Sicherheit.
+- `resources.support.timeline.items.4.title`  Post-Mortem-Protokoll
+
+## rfq (32)
+
+- `rfq.faqs.0.a`  Nein, die Nutzung dieses Tools und die anschließende Angebotserstellung durch unser Vertriebsteam sind für Sie völlig kostenlos und unverbindlich.
+- `rfq.faqs.0.q`  Ist die Projektanfrage kostenpflichtig?
+- `rfq.faqs.1.a`  Ihre Anfrage wird direkt an unseren Vertriebsinnendienst geleitet. Ein persönlicher Ansprechpartner wird sich innerhalb von 24 Stunden mit Ihnen in Verbindung setzen, um offene Fragen zu klären oder Ihnen direkt ein maßgeschneidertes Angebot zu unterbreiten.
+- `rfq.faqs.1.q`  Was passiert nach dem Absenden der Anfrage?
+- `rfq.faqs.2.a`  K Aqua richtet sich primär an Großhändler, Planer und Fachinstallateure im B2B-Bereich. Privatkunden leiten wir gerne an unsere regionalen Fachpartner weiter.
+- `rfq.faqs.2.q`  Kann ich auch als Privatperson anfragen?
+- `rfq.faqs.3.a`  Ihre Eingaben werden nicht auf dem Server gespeichert, sondern direkt in Ihr E-Mail-Programm übertragen, von wo aus Sie die Anfrage sicher an uns senden. Wir behandeln Ihre Daten streng vertraulich nach den geltenden DSGVO-Richtlinien.
+- `rfq.faqs.3.q`  Wie sicher sind meine Daten?
+- `rfq.promise.0`  Antwort < 24 h
+- `rfq.promise.1`  Unverbindlich
+- `rfq.promise.2`  Direkt vom Hersteller
+- `rfq.regions.0`  Deutschland
+- `rfq.regions.1`  DACH
+- `rfq.regions.2`  Europa
+- `rfq.regions.3`  Naher & Mittlerer Osten
+- `rfq.regions.4`  Weltweit
+- `rfq.steps.0`  Projektart
+- `rfq.steps.1`  Bedarf
+- `rfq.steps.2`  Termin & Region
+- `rfq.steps.3`  Kontakt
+- `rfq.timelines.0`  Sofort / laufend
+- `rfq.timelines.1`  In 1–3 Monaten
+- `rfq.timelines.2`  In 3–6 Monaten
+- `rfq.timelines.3`  Planungsphase
+- `rfq.types.0.d`  Trinkwasserinstallation in Wohn- oder Gewerbebau.
+- `rfq.types.0.t`  Neubau / Hochbau
+- `rfq.types.1.d`  Versorgungsleitungen, Großdimensionen, Netze.
+- `rfq.types.1.t`  Infrastruktur / Tiefbau
+- `rfq.types.2.d`  Ersatz von Bestandsleitungen aus Metall oder PVC.
+- `rfq.types.2.t`  Sanierung / Austausch
+- `rfq.types.3.d`  Distribution, Lager oder Projektgeschäft.
+- `rfq.types.3.t`  Handel / Wiederverkauf
+
+## service (16)
+
+- `service.dlEyebrow`  Downloads
+- `service.downloads.0.s`  Vollständiger Katalog mit Dimensionen & Artikeln
+- `service.downloads.0.t`  K Aqua Produktprogramm
+- `service.downloads.1.s`  Technische Eigenschaften & Materialdaten
+- `service.downloads.1.t`  K Aqua Produkteigenschaften
+- `service.downloads.2.s`  Prüfverfahren & Qualitätsstandards
+- `service.downloads.2.t`  K Aqua Qualitätssicherung
+- `service.eyebrow`  Service
+- `service.videos.0.s`  PP-R/PPRCT Rohr & Formteil
+- `service.videos.0.t`  Muffenschweißen mit Handschweißgerät
+- `service.videos.1.s`  PP-R Socket Welding
+- `service.videos.1.t`  Muffenschweißen mit Schweißmaschine
+- `service.videos.2.s`  PP-R/PPRCT Rohr & Formteil
+- `service.videos.2.t`  Elektroschweißen (Electrofusion)
+- `service.videos.3.s`  PP-R/PPRCT Großdimensionen
+- `service.videos.3.t`  Stumpfschweißen (Butt Fusion)
+
+## servicex (34)
+
+- `servicex.faq.0.q`  Welche Unterlagen brauche ich für die Planung?
+- `servicex.faq.1.q`  Wo finde ich die Schweißparameter?
+- `servicex.faq.2.a`  ISO-Zertifikate laden Sie hier direkt herunter (DE/EN). GENAU-Politik, EPD, GAEB und QS-Handbuch schnüren Sie im Trust Center als RFP-Paket: per Klick angefordert statt tagelang gewartet.
+- `servicex.faq.2.q`  Wie erhalte ich Zertifikate und Audit Dokumente?
+- `servicex.faq.3.q`  An wen richte ich technische Rückfragen?
+- `servicex.faq.4.q`  Wie komme ich am schnellsten zum Angebot?
+- `servicex.faq.5.q`  In welchen Sprachen gibt es die Unterlagen?
+- `servicex.faqEyebrow`  Service-FAQ
+- `servicex.libHead.0`  Dokument
+- `servicex.libHead.1`  Inhalt
+- `servicex.libHead.2`  Sprache
+- `servicex.libHead.3`  Zugriff
+- `servicex.libOpen`  Download
+- `servicex.libRows.0.s`  Vollständiger Katalog: Dimensionen, Artikel, Systemübersicht
+- `servicex.libRows.0.t`  K Aqua Produktprogramm
+- `servicex.libRows.1.s`  Technische Eigenschaften und Materialdaten
+- `servicex.libRows.1.t`  K Aqua Produkteigenschaften
+- `servicex.libRows.2.s`  Prüfverfahren und Qualitätsstandards
+- `servicex.libRows.2.t`  K Aqua Qualitätssicherung
+- `servicex.libRows.3.t`  ISO-Zertifikate (Deutsch)
+- `servicex.libRows.5.s`  Managementsystem, Prävention, Gefährdungsermittlung
+- `servicex.libRows.5.t`  GENAU-Politik & Risikobewertung
+- `servicex.libRows.6.s`  Ökobilanzdaten für LEED, BREEAM, DGNB
+- `servicex.libRows.6.t`  EPD-Datenblätter (Typ III, EN 15804)
+- `servicex.libRows.7.s`  Fertige Texte für Leistungsverzeichnisse
+- `servicex.libRows.7.t`  GAEB-Ausschreibungstexte
+- `servicex.libRows.8.s`  QS-Prozesse für Lieferantenaudits
+- `servicex.libRows.8.t`  Qualitätssicherungs-Handbuch
+- `servicex.sup.0.t`  Vertrieb & Projekte
+- `servicex.sup.1.d`  Material-, Planungs- und Verarbeitungsfragen, Zertifikatsprüfung, Reklamationen nach QS-Handbuch.
+- `servicex.sup.1.t`  Qualität & technischer Support
+- `servicex.sup.2.c`  Zur Academy
+- `servicex.sup.2.d`  Vier Schweißverfahren als Video plus Parametertabellen: Einweisung für Ihre Kolonne nach Absprache.
+- `servicex.sup.2.t`  Verarbeitung & Academy
+
+## solutions (214)
+
+- `solutions.benefits.0.t`  Umweltfreundlich
+- `solutions.benefits.1.t`  Recycelbar
+- `solutions.benefits.2.t`  Überlegen
+- `solutions.benefits.3.d`  PP-Produkte halten deutlich länger als vergleichbare Materialien: pflegeleicht, verschleißfest und beständig gegen Alterung und Temperaturextreme.
+- `solutions.benefits.3.t`  Langlebig
+- `solutions.hochhaus.bento.items.0.title`  Die PPRCT Revolution
+- `solutions.hochhaus.bento.items.1.desc`  geprüfte Sicherheit durch unabhängige deutsche Prüfinstitute wie SKZ und DVGW. Höchste Trinkwassergüte, keine Auswaschungen.
+- `solutions.hochhaus.bento.items.2.desc`  Unempfindlich gegen pH-Wert-Schwankungen, aggressive Wasserqualitäten, Chlorierung und elektrochemische Korrosion (Lochfraß).
+- `solutions.hochhaus.bento.items.2.title`  Absolute Korrosionsresistenz
+- `solutions.hochhaus.bento.items.3.desc`  Zeit ist das teuerste Gut auf der Baustelle. Wir liefern millimetergenau vorgefertigte Verteiler-Arrays, Zählerbalken und Steigleitungskomponenten direkt 'Just-in-Time'. Reduziert die Installationszeit um bis zu 60% und eliminiert Fehlerquellen auf der Baustelle.
+- `solutions.hochhaus.bento.items.3.title`  Vollständige Vorfertigung (Prefabrication)
+- `solutions.hochhaus.data.stats.0.label`  Dichte (g/cm³)
+- `solutions.hochhaus.data.stats.1.label`  Schmelzindex (g/10min)
+- `solutions.hochhaus.data.stats.2.label`  Zug-E-Modul (MPa)
+- `solutions.hochhaus.data.stats.2.val`  800 / 900 (RCT)
+- `solutions.hochhaus.data.stats.3.label`  Wärmeleitfähigkeit (W/mK)
+- `solutions.hochhaus.data.stats.4.label`  Längenausdehnungskoeffizient (mm/mK)
+- `solutions.hochhaus.data.stats.4.val`  0.15 (Standard) / 0.035 (Faser)
+- `solutions.hochhaus.data.stats.5.label`  Oberflächenrauigkeit k (mm)
+- `solutions.hochhaus.data.stats.5.standard`  Prüfstand
+- `solutions.hochhaus.data.stats.6.label`  Chemische Beständigkeit
+- `solutions.hochhaus.data.stats.6.val`  Ph-Wert 1 bis 14
+- `solutions.hochhaus.hero.title2`  Engineered in Germany.
+- `solutions.hochhaus.sticky.items.0.desc`  Mit jedem Meter Höhe wächst die Wassersäule. In Megatalls entstehen Drücke jenseits von 30 bar. K Aqua PPRCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) Rohre bieten eine bis zu 50% höhere Druckfestigkeit bei hohen Temperaturen im Vergleich zu Standard-PP-R. Sie fungieren als unverwüstliches Rückgrat der Wasserversorgung, selbst in Zonen maximaler statischer Belastung.
+- `solutions.hochhaus.sticky.items.0.title`  Extremer Hydrostatischer Druck
+- `solutions.hochhaus.sticky.items.1.desc`  Das Pumpen von heißem Wasser durch ein 300 Meter langes Rohr erzeugt immense Längenausdehnungen und Scherkräfte. Unsere Faserverbundtechnologie reduziert die thermische Ausdehnung um bis zu 75%. Das bedeutet weniger Befestigungspunkte, keine Dehnungsschleifen und ultimative strukturelle Integrität, verpackt in einem leichten, leicht zu montierenden System.
+- `solutions.hochhaus.sticky.items.1.title`  Thermische Längenausdehnung & Spannungskontrolle
+- `solutions.hochhaus.sticky.items.2.desc`  Wo O-Ringe oder Pressfittings aus Elastomeren verbaut sind, entstehen unweigerlich Leckagen durch Alterung. K Aqua eliminiert Dichtungen komplett. Durch das thermische Heizelementmuffenschweißen verschmelzen Rohr und Fitting bei exakt 260°C. Die resultierende Verbindung ist mechanisch genauso stark wie das Rohr selbst. Null Leckagen. Garantiert auf Lebenszeit.
+- `solutions.hochhaus.sticky.items.2.title`  Molekulare Homogenität (Leckagefreiheit)
+- `solutions.hochhaus.sticky.items.3.desc`  In Luxus-Penthouses und High End Offices ist Stille das ultimative Gut. Fließgeräusche und Druckschläge müssen eliminiert werden. Die hohe Materialdichte und die schallabsorbierenden Eigenschaften unserer PP-R Polymere dämpfen Körperschall und Fließgeräusche massiv und übertreffen die strengen Anforderungen der DIN 4109 und VDI 4100 bei Weitem.
+- `solutions.hochhaus.sticky.items.3.title`  Akkustische Entkopplung (Schallschutz)
+- `solutions.hochhaus.timeline.items.0.text`  Unsere Ingenieure unterstützen bei der Auslegung der Steigleitungen, der Berechnung der Druckzonen und stellen vollständige BIM-Daten (Revit) zur Kollisionsprüfung und TGA-Planung bereit.
+- `solutions.hochhaus.timeline.items.0.title`  Engineering & BIM
+- `solutions.hochhaus.timeline.items.0.year`  Phase 1
+- `solutions.hochhaus.timeline.items.1.text`  In unseren hochmodernen Anlagen in Deutschland werden Rohre und Fittings unter ständiger Ultraschall-Wanddickenkontrolle und strengster Laborüberwachung gefertigt. Jede Charge ist 100% nachverfolgbar.
+- `solutions.hochhaus.timeline.items.1.title`  Präzisionsextrusion
+- `solutions.hochhaus.timeline.items.1.year`  Phase 2
+- `solutions.hochhaus.timeline.items.2.title`  Just-in-Time Logistik
+- `solutions.hochhaus.timeline.items.2.year`  Phase 3
+- `solutions.hochhaus.timeline.items.3.text`  Lokale Installateure werden von unseren Technikern vor Ort geschult. Die thermischen Schweißverbindungen werden in Sekundenschnelle gesetzt und sind sofort nach dem Auskühlen voll druckbelastbar.
+- `solutions.hochhaus.timeline.items.3.title`  Homogene Verschmelzung
+- `solutions.hochhaus.timeline.items.3.year`  Phase 4
+- `solutions.hochhaus.timeline.items.4.text`  Nach der finalen Druckprüfung verschwinden unsere Systeme im Schacht oder Beton. Für die nächsten 50+ Jahre werden Sie nie wieder an sie denken müssen. Ein unsichtbares, perfektes Netzwerk.
+- `solutions.hochhaus.timeline.items.4.title`  Wartungsfreier Betrieb
+- `solutions.hochhaus.timeline.items.4.year`  Jahrzehnte
+- `solutions.hotels.bento.items.0.desc`  Schallschutz ist im High End-Hotelsegment das ultimative Qualitätsmerkmal. Unsere proprietäre dreischichtige Polymerstruktur absorbiert Körperschall und Fließgeräusche unmittelbar an der Quelle. Kein Flüstern des Wassers dringt in die Suiten Ihrer Gäste. geprüft nach DIN 4109.
+- `solutions.hotels.bento.items.0.title`  Akustische Isolation der Referenzklasse
+- `solutions.hotels.bento.items.1.desc`  Minimaler Wärmeverlust bei maximaler Effizienz. Die molekulare Dichte von K Aqua PP-R isoliert nativ und reduziert den Bedarf an sekundärer Dämmung drastisch. Das Resultat: Massive Einsparungen bei den OPEX.
+- `solutions.hotels.bento.items.1.title`  Thermische Resilienz
+- `solutions.hotels.bento.items.2.desc`  Aggressives Wasser, chlorierte Pools oder extreme Salinität in Küstenresorts? Wo Metalle kapitulieren, behält K Aqua seine strukturelle Integrität. Ein halbes Jahrhundert lang.
+- `solutions.hotels.bento.items.2.title`  100% Korrosionsfreiheit
+- `solutions.hotels.bento.items.3.desc`  Legionellen und Biofilme entstehen durch mikroskopische Unebenheiten. Die Innenoberfläche von K Aqua Rohren ist auf molekularer Ebene derart glatt, dass sich Bakterien schlichtweg nicht anheften können. Klinische Reinheit für die Trinkwasserversorgung Ihres Resorts.
+- `solutions.hotels.bento.items.3.title`  Mikrobiologische Festung
+- `solutions.hotels.hero.title2`  Engineered in Germany.
+- `solutions.hotels.perf.items.0.desc`  Absolute Resistenz gegen Biofilme und Inkrustation.
+- `solutions.hotels.perf.items.0.title`  Oberflächenrauheit
+- `solutions.hotels.perf.items.1.desc`  Schweißverbindungen, die auf molekularer Ebene verschmelzen.
+- `solutions.hotels.perf.items.1.title`  Homogene Fusion
+- `solutions.hotels.perf.items.2.desc`  Geprüft und geprüft nach den strengsten ISO-Normen.
+- `solutions.hotels.perf.items.2.title`  Jahre Lebensdauer
+- `solutions.hotels.perf.items.3.desc`  Installieren, versiegeln und für immer vergessen.
+- `solutions.hotels.perf.items.3.title`  Wartungsaufwand
+- `solutions.hotels.research.items.0`  Reduzierte lineare Ausdehnung (Alpha-Wert: 0.035 mm/mK)
+- `solutions.hotels.research.items.1`  Erhöhter Durchflussquerschnitt durch dünnere Wandstärken bei gleicher Druckstufe
+- `solutions.hotels.research.items.2`  Vollkommene Resistenz gegen Chlorverbindungen im Hotel-Poolbereich
+- `solutions.hotels.research.items.3`  Toxikologisch völlig unbedenklich, lebensmittelecht geprüft
+- `solutions.hotels.sticky.items.0.p1`  In ausgedehnten Hotelnetzwerken kann stagnierendes Wasser in temporär ungenutzten Suiten zur tödlichen Falle werden. Legionellen proliferieren in Biofilmen, die sich an rauen Rohrwänden bilden.
+- `solutions.hotels.sticky.items.0.p2`  Die mikroskopische Oberflächenrauheit von K Aqua PP-R liegt bei 0.007 mm. Es gibt keine Poren, keine Nischen, keine Ankerpunkte. In Kombination mit thermischer Desinfektion bieten wir das sterilste Umfeld, das physikalisch möglich ist.
+- `solutions.hotels.sticky.items.0.title`  1. Legionellen-Prävention auf Molekularebene
+- `solutions.hotels.sticky.items.1.p1`  Jedes Dezibel zählt. In Luxusresorts darf der Toilettenspülvorgang oder das Duschen in der Nachbarsuite nicht wahrnehmbar sein.
+- `solutions.hotels.sticky.items.1.p2`  Durch die hohe Dichte unseres Verbundmaterials (K Aqua Faserverbund) und den hohen inneren Dämpfungsfaktor reduzieren wir den Körperschall um bis zu 80% gegenüber metallischen Systemen. Ein Unterschied, den Ihre Gäste nicht hören werden.
+- `solutions.hotels.sticky.items.1.title`  2. Absolute Schallabsorption
+- `solutions.hotels.sticky.items.2.p1`  Hotels mit 80, 100 oder 120 Stockwerken stellen extreme Anforderungen an die Steigleitungen. Der hydrostatische Druck im unteren Bereich des Gebäudes ist enorm.
+- `solutions.hotels.sticky.items.2.p2`  K Aqua bietet spezielle Druckstufen (SDR 6 / PN 20) in Kombination mit Faserverstärkung, die auch bei Temperaturen von 70°C eine Lebensdauer von über 50 Jahren unter Dauerlast garantieren. Wir bezwingen die Schwerkraft.
+- `solutions.hotels.sticky.items.2.title`  3. Hochdruck-Resilienz in Skyscrapern
+- `solutions.hotels.sticky.items.3.p1`  In Wüstenregionen wie Dubai oder Riad ist Kälte das teuerste Gut. District Cooling Systeme transportieren gekühltes Wasser über weite Strecken zum Resort.
+- `solutions.hotels.sticky.items.3.p2`  Die exzellenten Isolationswerte von PP-R verhindern Kondensatbildung und minimieren den Kühlverlust massiv. Keine durchgerosteten Chiller-Pipes mehr, keine tropfenden Decken. Nur reine, unverfälschte Effizienz.
+- `solutions.hotels.sticky.items.3.title`  4. Thermal Management & District Cooling
+- `solutions.index.bento.items.0.desc`  Absolute Lebensmittelechtheit und toxikologische Unbedenklichkeit. Verhinderung von Legionellenbildung durch opakes, lichtundurchlässiges Materialdesign.
+- `solutions.index.bento.items.0.title`  Trinkwasserhygiene & Sanitär
+- `solutions.index.bento.items.1.desc`  Hocheffiziente thermische Isolation durch geringe Wärmeleitfähigkeit. Kondensatminimierung bei Kühlwasserleitungen.
+- `solutions.index.bento.items.1.title`  HVAC & Klimatechnik
+- `solutions.index.bento.items.2.desc`  Leckagefreie Übertragung bei extremen Arbeitsdrücken. Keine Kontamination der Druckluft durch Rost oder abplatzende Partikel.
+- `solutions.index.bento.items.2.title`  Druckluftnetzwerke
+- `solutions.index.bento.items.3.desc`  Resistent gegen saline Umgebungen und massive Vibrationen. Erhebliche Gewichtsreduktion im Vergleich zu Stahlinstallationen.
+- `solutions.index.bento.items.3.title`  Schiffbau & Offshore
+- `solutions.index.bento.items.4.desc`  Kompromisslose Performance beim Transport aggressiver Chemikalien, abrasiver Schlämme oder hochreiner Prozessflüssigkeiten. Das K-AQUA System garantiert eine ununterbrochene, sichere Produktion.
+- `solutions.index.bento.items.4.title`  Industrieller Fluidtransport
+- `solutions.index.timeline.items.0.text`  Evaluation der thermodynamischen und fluiddynamischen Anforderungen. Präzise Berechnung von Druckstufen, thermischer Längenausdehnung und hydraulischen Widerständen durch unsere Ingenieure.
+- `solutions.index.timeline.items.0.title`  Strukturelle Analyse
+- `solutions.index.timeline.items.0.year`  Phase 01
+- `solutions.index.timeline.items.1.text`  Selektion des optimalen PPR-Copolymers. Abstimmung der Wandstärken und Dimensionen (20mm bis 160mm) auf die spezifischen Belastungsprofile der industriellen Anwendung.
+- `solutions.index.timeline.items.1.title`  Materialspezifikation
+- `solutions.index.timeline.items.1.year`  Phase 02
+- `solutions.index.timeline.items.2.text`  Polyfusionsschweißung unter streng kontrollierten thermischen Parametern. Erschaffung eines monolithischen Netzwerks ohne Dichtungen oder mechanische Schwachstellen.
+- `solutions.index.timeline.items.2.title`  Systemische Synthese
+- `solutions.index.timeline.items.2.year`  Phase 03
+- `solutions.index.timeline.items.3.text`  Jahrzehntelanger, wartungsfreier Betrieb. Die inerten Oberflächen verhindern Inkrustation, während die molekulare Dichte absolute Leckagesicherheit bei maximaler Energieeffizienz garantiert.
+- `solutions.index.timeline.items.3.title`  Betriebsexzellenz
+- `solutions.index.timeline.items.3.year`  Phase 04
+- `solutions.krankenhaus.bento.items.0.desc`  Im Gegensatz zu metallischen Rohren ist K Aqua vollständig immun gegen elektrochemische Korrosion, Lochfraß und kalkhaltiges Wasser. Keine Inkrustation, kein Druckverlust über 50 Jahre Dauerbetrieb.
+- `solutions.krankenhaus.bento.items.0.title`  100% Korrosionsresistenz
+- `solutions.krankenhaus.bento.items.1.badge`  -40% Time
+- `solutions.krankenhaus.bento.items.1.desc`  Das geringe Eigengewicht und die homogene Schweißtechnik reduzieren die Installationszeit um bis zu 40%. Weniger Manntage, geringeres Risiko auf der Baustelle.
+- `solutions.krankenhaus.bento.items.1.title`  Blitzschnelle Installation
+- `solutions.krankenhaus.bento.items.2.badge`  Seismic Grade
+- `solutions.krankenhaus.bento.items.2.desc`  Die modulare molekulare Struktur des Materials erlaubt es, seismische Schocks und Gebäudesetzungen zu absorbieren, ohne zu brechen. Essenziell für Krankenhäuser in Risikogebieten.
+- `solutions.krankenhaus.bento.items.2.title`  Erdbebensichere Flexibilität
+- `solutions.krankenhaus.bento.items.3.desc`  Erfüllt und übertrifft die weltweit strengsten Normen (DIN, DVGW, SKZ, WRAS) für den Transport von Reinstwasser und hochsensiblen klinischen Medien.
+- `solutions.krankenhaus.bento.items.3.title`  geprüfte Trinkwassergüte
+- `solutions.krankenhaus.specs.mech.items.0.label`  Dichte
+- `solutions.krankenhaus.specs.mech.items.0.value`  0.895 g/cm³
+- `solutions.krankenhaus.specs.mech.items.1.label`  Zugfestigkeit
+- `solutions.krankenhaus.specs.mech.items.1.value`  23 MPa
+- `solutions.krankenhaus.specs.mech.items.2.label`  Bruchdehnung
+- `solutions.krankenhaus.specs.mech.items.3.label`  Elastizitätsmodul
+- `solutions.krankenhaus.specs.mech.items.3.value`  800 MPa
+- `solutions.krankenhaus.specs.therm.items.0.label`  Dauerbetriebstemperatur
+- `solutions.krankenhaus.specs.therm.items.1.label`  Maximale Störfalltemperatur
+- `solutions.krankenhaus.specs.therm.items.1.value`  95°C (100h)
+- `solutions.krankenhaus.specs.therm.items.2.label`  Wärmeleitfähigkeit
+- `solutions.krankenhaus.specs.therm.items.2.value`  0.24 W/mK
+- `solutions.krankenhaus.specs.therm.items.3.label`  Linearer Ausdehnungskoeffizient
+- `solutions.krankenhaus.specs.therm.items.3.value`  0.15 mm/mK
+- `solutions.krankenhaus.sticky.items.0.desc`  In der kritischen Krankenhausinfrastruktur ist Wasserhygiene keine Option, sondern eine Überlebensfrage. Unsere K Aqua Rohrsysteme nutzen extrem glatte, porenfreie Innenoberflächen, die die Bildung von Biofilmen und die Proliferation von Legionellen physikalisch unterbinden. German Engineering bedeutet hier: Prävention durch perfekte Materialwissenschaft, nicht durch chemische Nachbehandlung.
+- `solutions.krankenhaus.sticky.items.0.title`  Legionellenprävention auf molekularer Ebene
+- `solutions.krankenhaus.sticky.items.1.desc`  Klinische Standards erfordern regelmäßige thermische Desinfektionen bei Temperaturen über 70°C. Während herkömmliche Systeme hierbei rasch altern, ist das K Aqua PPR-System für extreme thermische Belastungen über Jahrzehnte hinweg ausgelegt. Keine Mikrorisse, keine Versprödung, keine Kompromisse.
+- `solutions.krankenhaus.sticky.items.1.title`  Thermische Desinfektion ohne Materialermüdung
+- `solutions.krankenhaus.sticky.items.2.desc`  Unsere patentierte Heizelement-Muffenschweißung verschmilzt Rohr und Fitting zu einer homogenen, vollkommen nahtlosen Einheit. Es entstehen keinerlei Toträume, in denen sich Stagnationswasser sammeln könnte. Das Ergebnis ist ein Leitungssystem aus einem Guss: die absolute physikalische Barriere gegen Kontamination.
+- `solutions.krankenhaus.sticky.items.2.title`  Absolut sterile Verbindungen
+- `solutions.krankenhaus.sticky.items.3.desc`  Lärm ist ein massiver Stressfaktor für Patienten und medizinisches Personal. Das K Aqua System besitzt inhärente schallabsorbierende Eigenschaften. Fließgeräusche und Druckstöße werden vom Material selbst geschluckt, was eine flüsterleise Wasserversorgung selbst bei Hochdruckanwendungen garantiert: essenziell für Operationssäle und Intensivstationen.
+- `solutions.krankenhaus.sticky.items.3.title`  Akustische Isolation für Intensivstationen
+- `solutions.krankenhaus.timeline.items.0.text`  Präzise Berechnung der Leitungsquerschnitte zur Vermeidung von Stagnationszonen. Jeder Millimeter Druckverlust wird in der Planungsphase durch unsere deutschen Ingenieure am digitalen Zwilling simuliert und eliminiert.
+- `solutions.krankenhaus.timeline.items.0.title`  Systemdimensionierung & Hydraulik
+- `solutions.krankenhaus.timeline.items.0.year`  Phase 01
+- `solutions.krankenhaus.timeline.items.1.text`  Auswahl der spezifischen K Aqua Polymerblends, optimiert für klinische Anforderungen. Unsere Rohstoffe durchlaufen 42 Qualitätssicherungsschritte, bevor sie überhaupt den Extruder erreichen.
+- `solutions.krankenhaus.timeline.items.1.title`  Materialspezifikation
+- `solutions.krankenhaus.timeline.items.1.year`  Phase 02
+- `solutions.krankenhaus.timeline.items.2.text`  Vorkonfektionierung von komplexen Verteilern in kontrollierten Umgebungen. Minimierung der Schweißnähte auf der Baustelle garantiert eine bis zu 40% schnellere, fehlerfreie Installation unter Reinraumbedingungen.
+- `solutions.krankenhaus.timeline.items.2.title`  Vorfertigung & Reinraum-Handling
+- `solutions.krankenhaus.timeline.items.2.year`  Phase 03
+- `solutions.krankenhaus.timeline.items.3.text`  Vollständige hydrostatische Druckprüfung und thermische Initialdesinfektion. Die Übergabe an den Generalunternehmer erfolgt mit einer lückenlosen, digitalen Dokumentation jeder einzelnen Schweißnaht.
+- `solutions.krankenhaus.timeline.items.3.title`  Inbetriebnahme & Prüfung
+- `solutions.krankenhaus.timeline.items.3.year`  Phase 04
+- `solutions.krankenhaus.timeline.items.4.title`  50 Jahre Wartungsfreiheit
+- `solutions.krankenhaus.timeline.items.4.year`  Phase 05
+- `solutions.rechenzentrum.bento.items.0.desc`  Geschlossene Kühlkreisläufe benötigen Konditionierungsmittel. K Aqua verhält sich absolut inert gegenüber aggressiven Additiven und verhindert Algen- sowie Biofilmbildung vollständig. Keine chemische Zersetzung, keine Partikel im Kühlwasser.
+- `solutions.rechenzentrum.bento.items.0.title`  Chemische Neutralität & Reinheit
+- `solutions.rechenzentrum.bento.items.1.desc`  Ausgelegt für konstante Höchstlasten unter extremen PN10 / PN20 Druckbedingungen in vertikalen Hochhaus-Rechenzentren.
+- `solutions.rechenzentrum.bento.items.1.title`  Druckresilienz im Hochhaus
+- `solutions.rechenzentrum.bento.items.2.desc`  Wir schweißen komplexe Verteilerblöcke in unserem Stammwerk in Deutschland vor. Plug-and-Play Lieferung für drastisch verkürzte Bauzeiten.
+- `solutions.rechenzentrum.bento.items.2.title`  Deutsche Vorfertigung
+- `solutions.rechenzentrum.bento.items.3.desc`  Im Gegensatz zu starren Metallsystemen verfügt unser PP-R-System über eine definierte intrinsische Elastizität. Schockwellen und massive Vibrationen durch Notstromaggregate oder starke seismische Aktivitäten werden absorbiert statt zerstörerische Brüche zu verursachen.
+- `solutions.rechenzentrum.bento.items.3.title`  Erdbebensicher (Seismic Resistance)
+- `solutions.rechenzentrum.hero.eyebrow`  Hyperscale & Colocation Infrastructure
+- `solutions.rechenzentrum.hero.title2`  Engineered in Germany.
+- `solutions.rechenzentrum.scroll.items.0.title`  Die thermische Herausforderung von KI und HPC
+- `solutions.rechenzentrum.scroll.items.1.desc`  Metallische Rohrleitungssysteme unterliegen im Dauerbetrieb Lochfraß, Rost und chemischer Zersetzung. Ein Mikroriss in einem Rechenzentrum kann Millionenschäden durch Serverausfälle verursachen. K Aqua eliminiert dieses Risiko durch zu 100 % korrosionsfreies Polypropylen Random Copolymer (PP-R).
+- `solutions.rechenzentrum.scroll.items.1.title`  Korrosion ist der Feind der Verfügbarkeit
+- `solutions.rechenzentrum.scroll.items.2.desc`  Wo herkömmliche Rohre auf fehleranfällige Dichtungen oder Schraubverbindungen setzen, verschmelzen K Aqua Systeme auf molekularer Ebene. Das Resultat: Ein vollkommen homogenes, absolut leckagefreies Pipelinenetzwerk. Zero-Tolerance für Undichtigkeiten.
+- `solutions.rechenzentrum.scroll.items.2.title`  Ultraschall-verschweißte Molekularverbindungen
+- `solutions.rechenzentrum.scroll.items.3.desc`  Ein niedriger PUE-Wert (Power Usage Effectiveness) ist der Heilige Gral der Data-Center-Betreiber. K Aqua Rohre verfügen über exzellente thermodynamische Eigenschaften. Geringere Rohrreibungsverluste und optimale Wärmeisolation minimieren Energieverluste bei der Kühlwasserzirkulation massiv.
+- `solutions.rechenzentrum.scroll.items.3.title`  Nachhaltigkeit & PUE-Optimierung
+- `solutions.rechenzentrum.section1.eyebrow`  Mission-Critical Cooling
+- `solutions.rechenzentrum.timeline.items.0.text`  Unsere Ingenieure analysieren die Kühlungsanforderungen des Rechenzentrums. Wir berechnen Volumenströme, eliminieren Flaschenhälse und dimensionieren das Rohrnetz auf maximale hydrodynamische Effizienz.
+- `solutions.rechenzentrum.timeline.items.0.title`  Strömungssimulation & Design
+- `solutions.rechenzentrum.timeline.items.0.year`  Phase 1
+- `solutions.rechenzentrum.timeline.items.1.text`  Im Stammwerk in Deutschland werden komplexe Verteiler-Spools nach Maß vorgefertigt. Zentimetergenau, vollautomatisiert und unter Laborbedingungen qualitätsgesichert.
+- `solutions.rechenzentrum.timeline.items.1.title`  Präzisions-Vorfertigung
+- `solutions.rechenzentrum.timeline.items.1.year`  Phase 2
+- `solutions.rechenzentrum.timeline.items.2.text`  Megaprojekte verzeihen keine Lieferverzögerungen. Wir koordinieren die weltweite Logistik direkt auf das Baufeld, synchronisiert mit dem strengen Takt der Generalunternehmer.
+- `solutions.rechenzentrum.timeline.items.2.title`  Just-In-Time Logistik
+- `solutions.rechenzentrum.timeline.items.2.year`  Phase 3
+- `solutions.rechenzentrum.timeline.items.3.text`  Lokale Installationsteams werden durch K Aqua Master-Schweißer geprüft. Die molekulare Verschweißung auf der Baustelle garantiert eine 100 % leckagefreie, homogene Leitungsstruktur ohne Schwachstellen.
+- `solutions.rechenzentrum.timeline.items.3.title`  Homogene Verschweißung
+- `solutions.rechenzentrum.timeline.items.3.year`  Phase 4
+- `solutions.rechenzentrum.timeline.items.4.text`  Vor der Übergabe erfolgt eine unerbittliche hydraulische Druck- und Belastungsprüfung. Erst wenn das System diese Tests besteht, erteilen wir die Freigabe und übernehmen die volle Systemgarantie.
+- `solutions.rechenzentrum.timeline.items.4.title`  Druckprüfung & Prüfung
+- `solutions.rechenzentrum.timeline.items.4.year`  Phase 5
+- `solutions.title1`  Ein
+- `solutions.title2`  Produkt.
+- `solutions.vorfertigung.bento.items.0.desc`  Unser Ausgangsmaterial bietet eine beispiellose thermische und chemische Beständigkeit. Es widersteht extremen Temperaturen und aggressiven Medien ohne Degradation.
+- `solutions.vorfertigung.bento.items.0.title`  PPR-C (Typ 3) Material
+- `solutions.vorfertigung.bento.items.1.desc`  Während metallische Systeme ab dem ersten Tag der Installation langsam degradieren, bleibt unser Polymer-System völlig immun gegen Korrosion, Lochfraß und Inkrustation.
+- `solutions.vorfertigung.bento.items.1.title`  Absolute Korrosionsfreiheit
+- `solutions.vorfertigung.bento.items.2.title`  Akustische Dämmung
+- `solutions.vorfertigung.bento.items.3.desc`  Eine Innenraumrauheit von nur 0,007 mm garantiert minimale Reibung, verhindert Ablagerungen und reduziert den Energiebedarf der Pumpensysteme drastisch.
+- `solutions.vorfertigung.bento.items.3.title`  Geringer Druckverlust
+- `solutions.vorfertigung.hero.badge`  German Engineering. Global Impact.
+- `solutions.vorfertigung.sticky.items.0.title`  Milliardenprojekte verzeihen keine Fehler.
+- `solutions.vorfertigung.sticky.items.1.desc`  Jedes Rohrleitungssystem, jeder Verteiler und jedes Sondermodul wird als digitaler Zwilling in unseren hochmodernen BIM-Umgebungen (Building Information Modeling) auf den Millimeter genau geplant. Erst wenn die simulation perfekte Strömungsdynamik und absolute Belastbarkeit unter Extrembedingungen bestätigt, beginnt die Fertigung.
+- `solutions.vorfertigung.sticky.items.1.title`  Digitale Präzision trifft deutsche Ingenieurskunst.
+- `solutions.vorfertigung.sticky.items.2.desc`  Im Gegensatz zu mechanischen Verbindungen oder geklebten Systemen nutzen wir fortschrittlichste thermische Polyfusionsschweißverfahren. Rohr und Fitting verschmelzen zu einer einzigen, unzertrennbaren Einheit. Das Resultat ist eine stoffschlüssige Verbindung, die stärker ist als das eigentliche Rohr selbst.
+- `solutions.vorfertigung.sticky.items.2.title`  Homogene Verschmelzung auf molekularer Ebene.
+- `solutions.vorfertigung.sticky.items.3.desc`  Bevor ein vorgefertigtes K Aqua Modul unser Werk verlässt, durchläuft es ein drakonisches Testprogramm. Von hydrostatischen Druckprüfungen weit über den industriellen Standard hinaus, über Ultraschall-Schweißnahtkontrollen, bis hin zur optischen 3D-Vermessung. Deutsche Null Fehlertoleranz in Reinform.
+- `solutions.vorfertigung.sticky.items.3.title`  100% Prüfprotokoll. Keine Ausnahmen.
+- `solutions.vorfertigung.timeline.events.0.date`  Woche 1-2
+- `solutions.vorfertigung.timeline.events.0.desc`  Nahtlose Integration in die architektonischen Modelle. Kollisionsprüfung und Strömungssimulation.
+- `solutions.vorfertigung.timeline.events.0.title`  Phase 1: Engineering & BIM
+- `solutions.vorfertigung.timeline.events.1.date`  Woche 3
+- `solutions.vorfertigung.timeline.events.1.desc`  Millimetergenauer Zuschnitt der PPR-C Materialien durch lasergestützte CNC-Anlagen.
+- `solutions.vorfertigung.timeline.events.1.title`  Phase 2: CNC-Zuschnitt
+- `solutions.vorfertigung.timeline.events.2.date`  Woche 4-5
+- `solutions.vorfertigung.timeline.events.2.desc`  Robotergestützte und handwerkliche Meisterschweißungen unter streng kontrollierten klimatischen Bedingungen im Werkstattumfeld.
+- `solutions.vorfertigung.timeline.events.2.title`  Phase 3: Polyfusion
+- `solutions.vorfertigung.timeline.events.3.date`  Woche 6
+- `solutions.vorfertigung.timeline.events.3.desc`  Belastungstests unter Extremdruck. Jede Verbindung wird protokolliert und geprüft.
+- `solutions.vorfertigung.timeline.events.3.title`  Phase 4: QA & Druckprüfung
+- `solutions.vorfertigung.timeline.events.4.date`  Woche 7+
+- `solutions.vorfertigung.timeline.events.4.desc`  Sichere Verpackung und weltweiter Versand mit Just-in-Time Lieferung auf die Baustelle.
+- `solutions.vorfertigung.timeline.events.4.title`  Phase 5: Global Logistics
+- `solutions.vorfertigung.visual.items.0`  Präzisionsfräsen der Rohrenden
+- `solutions.vorfertigung.visual.items.1`  Computergesteuerte Erhitzung (260°C)
+- `solutions.vorfertigung.visual.items.2`  Exakte Fügung unter Hochdruck
+
+## solutionsx (81)
+
+- `solutionsx.cmpHead.0`  Kriterium
+- `solutionsx.cmpHead.1`  K Aqua PP-R/PPRCT
+- `solutionsx.cmpHead.2`  Kupfer
+- `solutionsx.cmpHead.3`  Edelstahl
+- `solutionsx.cmpRows.0.0`  Korrosion
+- `solutionsx.cmpRows.0.1`  korrosionsfrei: immun gegen elektrochemische Korrosion
+- `solutionsx.cmpRows.0.2`  Lochfraß möglich
+- `solutionsx.cmpRows.0.3`  beständig (güteabhängig)
+- `solutionsx.cmpRows.0.4`  korrosionsfrei
+- `solutionsx.cmpRows.1.0`  Inkrustation & Biofilm
+- `solutionsx.cmpRows.1.1`  sehr gering: Innenrauheit 0,007 mm
+- `solutionsx.cmpRows.1.2`  möglich
+- `solutionsx.cmpRows.1.3`  gering
+- `solutionsx.cmpRows.1.4`  gering
+- `solutionsx.cmpRows.2.0`  Wärmeleitfähigkeit
+- `solutionsx.cmpRows.3.0`  Dichte / Gewicht
+- `solutionsx.cmpRows.3.1`  0,905 g/cm³
+- `solutionsx.cmpRows.3.2`  8,9 g/cm³
+- `solutionsx.cmpRows.3.3`  7,9 g/cm³
+- `solutionsx.cmpRows.3.4`  1,55 g/cm³
+- `solutionsx.cmpRows.4.0`  Verbindungstechnik
+- `solutionsx.cmpRows.4.1`  stoffschlüssig geschweißt: homogener Strang
+- `solutionsx.cmpRows.4.2`  gelötet / gepresst
+- `solutionsx.cmpRows.4.3`  gepresst / geschweißt
+- `solutionsx.cmpRows.4.4`  geklebt
+- `solutionsx.cmpRows.5.0`  Geschmack & Geruch
+- `solutionsx.cmpRows.5.1`  neutral
+- `solutionsx.cmpRows.5.2`  Metallabgabe möglich
+- `solutionsx.cmpRows.5.3`  neutral
+- `solutionsx.cmpRows.5.4`  neutral
+- `solutionsx.cmpRows.6.0`  CO₂ (Errichtung)
+- `solutionsx.cmpRows.6.2`  hoch
+- `solutionsx.cmpRows.6.3`  hoch
+- `solutionsx.cmpRows.6.4`  mittel
+- `solutionsx.cmpRows.7.0`  Recycling
+- `solutionsx.cmpRows.7.1`  Code 5, sortenrein: 100 % Produktionsabfälle im Kreislauf
+- `solutionsx.cmpRows.7.2`  Schrottkreislauf
+- `solutionsx.cmpRows.7.3`  Schrottkreislauf
+- `solutionsx.cmpRows.7.4`  eingeschränkt
+- `solutionsx.life.0.t`  Rohstoff mit Geschichte
+- `solutionsx.life.1.d`  Die Produktion in Waldsolms kühlt im geschlossenen Wasserkreislauf und schützt damit Flüsse, Bäche und Seen; die Energieeffizienz steuert ISO 50001.
+- `solutionsx.life.1.t`  Fertigung im Kreislauf
+- `solutionsx.life.2.d`  Ausgelegt nach den Zeitstandkurven der DIN 8077/8078 auf 50 Jahre Betriebsdauer: pflegeleicht, verschleißfest, alterungsbeständig.
+- `solutionsx.life.2.t`  50 Jahre im Betrieb
+- `solutionsx.life.3.d`  Recycling Code 5: sortenrein trennbar bei hoher Nachfrage nach PP-Rezyklat. 100 % der Schnittreste und Produktionsabfälle werden recycelt.
+- `solutionsx.life.3.t`  Zurück in den Kreislauf
+- `solutionsx.segments.0.d`  Hygiene ist hier nicht verhandelbar: Die glatte Innenfläche (0,007 mm) hemmt Biofilm und Inkrustation, der Werkstoff bleibt geschmacks- und geruchsneutral.
+- `solutionsx.segments.0.pts.0`  Hygienische Neutralität
+- `solutionsx.segments.0.pts.1`  Korrosionsfrei: kein Lochfraß
+- `solutionsx.segments.0.t`  Krankenhäuser & Gesundheitsbau
+- `solutionsx.segments.1.d`  Warmwasser-Zirkulation rund um die Uhr: geringe Wärmeleitfähigkeit spart dauerhaft Energie, PPRCT hält 70 °C Dauerbetrieb.
+- `solutionsx.segments.1.pts.0`  Thermische Effizienz
+- `solutionsx.segments.1.pts.1`  PPRCT für Zirkulation
+- `solutionsx.segments.1.t`  Hotels & Wohnhochbau
+- `solutionsx.segments.2.pts.0`  Chemische Beständigkeit
+- `solutionsx.segments.2.pts.1`  Lange Wartungsintervalle
+- `solutionsx.segments.2.pts.2`  Prozess- und Brauchwasser
+- `solutionsx.segments.2.t`  Industrie & Gewerbebau
+- `solutionsx.segments.3.d`  UV-stabilisierte Ausführungen für die Bewässerung unter Glas und im Freien: leicht, schnell verlegt, frostunempfindlicher als starre Systeme.
+- `solutionsx.segments.3.pts.0`  UV-beständige Ausführung
+- `solutionsx.segments.3.pts.1`  Geringes Gewicht
+- `solutionsx.segments.3.t`  Gewächshäuser & Agrar
+- `solutionsx.segments.4.d`  Versorgungsleitungen und Netze in Großdimensionen bis d630: stumpfgeschweißt zu homogenen, dauerhaft dichten Strängen.
+- `solutionsx.segments.4.pts.0`  d bis 630 mm
+- `solutionsx.segments.4.pts.1`  Stumpfschweißen (Butt Fusion)
+- `solutionsx.segments.4.t`  Kommunale Infrastruktur
+- `solutionsx.segments.5.d`  Ersatz korrodierter Metall- oder PVC-Bestandsleitungen: Übergangsstücke mit Messing-Gewinde binden den Bestand sauber an das neue System an.
+- `solutionsx.segments.5.pts.0`  Übergänge auf Metall-Gewinde
+- `solutionsx.segments.5.pts.1`  Abschnittsweise Sanierung
+- `solutionsx.segments.5.pts.2`  Korrosionsproblem dauerhaft gelöst
+- `solutionsx.segments.5.t`  Sanierung & Austausch
+- `solutionsx.segments.6.d`  Resistent gegen saline Umgebungen und massive Vibrationen. Erhebliche Gewichtsreduktion im Vergleich zu Stahlinstallationen.
+- `solutionsx.segments.6.pts.0`  Salzwasserbeständig
+- `solutionsx.segments.6.pts.1`  Vibrationsresistent
+- `solutionsx.segments.6.pts.2`  Gewichtseinsparung
+- `solutionsx.segments.6.t`  Schiffbau & Offshore
+- `solutionsx.segments.7.d`  Leckagefreie Übertragung bei extremen Arbeitsdrücken. Keine Kontamination der Druckluft durch Rost oder abplatzende Partikel.
+- `solutionsx.segments.7.pts.0`  Extreme Arbeitsdrücke
+- `solutionsx.segments.7.pts.1`  Leckagefrei verschweißt
+- `solutionsx.segments.7.pts.2`  Keine Rostpartikel
+- `solutionsx.segments.7.t`  Druckluftnetzwerke
+
+## trust (17)
+
+- `trust.certs.0.1`  Qualitätsmanagement
+- `trust.certs.1.1`  Umweltmanagement
+- `trust.certs.2.1`  Energiemanagement
+- `trust.docs.3`  GENAU-Politik & Risikobewertung
+- `trust.docs.4`  Trinkwasser-Konformität (DVGW/KTW)
+- `trust.docs.5`  EPD-Datenblätter (Typ III, EN 15804)
+- `trust.docs.6`  GAEB-Ausschreibungstexte
+- `trust.docs.7`  Qualitätssicherungs-Handbuch
+- `trust.eyebrow`  Trust Center
+- `trust.genau.0.0`  Gesundheit
+- `trust.genau.1.0`  Energie
+- `trust.genau.2.0`  Nachhaltigkeit
+- `trust.genau.2.1`  100 % der Schnittreste und Produktionsabfälle gehen zurück in den Wertstoffkreislauf.
+- `trust.genau.3.0`  Arbeitssicherheit
+- `trust.genau.4.0`  Umwelt
+- `trust.genau.4.1`  Umweltmanagement nach ISO 14001: Ressourcenschonung ist Teil des Qualitätsverständnisses.
+- `trust.rfpEyebrow`  Self Service
+
+## trustAndCases (2)
+
+- `trustAndCases.iso50001`  Energiemanagement
+- `trustAndCases.madeInGermany`  Made in Germany
+
+## trustx (32)
+
+- `trustx.audit.0.d`  Stellen Sie oben Ihr RFP-Paket zusammen: Zertifikate, GENAU-Politik, EPD, GAEB und QS-Handbuch, als ZIP angefordert.
+- `trustx.audit.0.t`  Dokumentenpaket schnüren
+- `trustx.audit.1.t`  Rückfragen klären
+- `trustx.audit.2.d`  Auditieren Sie Fertigung, Prüflabor und GENAU-Praxis vor Ort in Waldsolms: Termin nach Vereinbarung.
+- `trustx.audit.2.t`  Werksaudit vereinbaren
+- `trustx.audit.3.t`  Freigabe & Requalifizierung
+- `trustx.faq.0.q`  Wie lange sind die ISO-Zertifikate gültig?
+- `trustx.faq.1.q`  Was bedeutet „DAkkS-akkreditiert"?
+- `trustx.faq.2.q`  Wie verifiziere ich ein Zertifikat?
+- `trustx.faq.3.q`  Gibt es Scope-3- und EPD-Rohdaten?
+- `trustx.faq.4.a`  Ja, GAEB-Texte gehören zum RFP-Dokumentenpaket. Damit wandert das K Aqua-System ohne Reibung in Ihre AVA-Software und die Leistungsverzeichnisse.
+- `trustx.faq.4.q`  Liefern Sie GAEB-Ausschreibungstexte?
+- `trustx.faq.5.q`  Was ist eine EPD nach EN 15804?
+- `trustx.faqEyebrow`  Compliance-FAQ
+- `trustx.inst.0.d`  Die ISO-Zertifikate 9001, 14001 und 50001 stammen von einer durch die Deutsche Akkreditierungsstelle (DAkkS) akkreditierten Zertifizierungsgesellschaft: Gültigkeit 10/2025 bis 10/2028.
+- `trustx.inst.0.t`  DAkkS-akkreditierte Prüfung
+- `trustx.inst.1.d`  Die Qualitätssicherung der Rohrsysteme wird durch das renommierte Kunststoff-Prüfinstitut begleitet: unabhängige Prüfungen statt Eigenlob.
+- `trustx.inst.1.t`  SKZ: Süddeutsches Kunststoff-Zentrum
+- `trustx.inst.2.d`  Konformitätsnachweise für den Kontakt mit Trinkwasser gehören zum RFP-Dokumentenpaket und werden auf Anfrage bereitgestellt.
+- `trustx.stakeHead.0`  Rolle
+- `trustx.stakeHead.1`  Worauf es ankommt
+- `trustx.stakeHead.2`  Relevante Nachweise
+- `trustx.stakeRows.0.0`  Ingenieur / Fachplaner
+- `trustx.stakeRows.0.1`  Druckstufen und Dimensionen (d20–d630), Toxizitätsfreiheit, Schweißbarkeit, Langlebigkeit der Charge
+- `trustx.stakeRows.1.0`  Einkauf / Procurement
+- `trustx.stakeRows.1.1`  Lieferfähigkeit, Risikominimierung, harte RFP-Kriterien, Total Cost of Ownership
+- `trustx.stakeRows.2.0`  Nachhaltigkeit / Compliance
+- `trustx.stakeRows.2.1`  CO₂-Bilanz, Scope-1/2/3-Emissionen, Green Procurement, Energieeffizienz der Fertigung
+- `trustx.stats.0.l`  der B2B-Käufer recherchieren anonym, bevor sie den Vertrieb kontaktieren
+- `trustx.stats.1.l`  Stakeholder bilden das typische Buying Center eines Projekts
+- `trustx.stats.2.l`  Touchpoints kann eine B2B-Kaufentscheidung umfassen
+- `trustx.stats.3.l`  der B2B-Kunden kaufen bevorzugt bei nachweislich nachhaltigen Lieferanten
+
+## viewer3d (46)
+
+- `viewer3d.accurate` [fehlt] 100% maßhaltig
+- `viewer3d.allInStudio` [fehlt] Alle {count} Produkte im 3D Studio
+- `viewer3d.center` [fehlt] Kamera zentrieren
+- `viewer3d.dimensions` [fehlt] CAD-Bemaßung
+- `viewer3d.dimensionsNone` [fehlt] Für dieses Bauteil sind keine Maßlinien hinterlegt
+- `viewer3d.dimensionsShort` [fehlt] Bemaßung
+- `viewer3d.errorHint` [fehlt] Die technische Maßtabelle nach DIN/ISO finden Sie unterhalb.
+- `viewer3d.errorModule` [fehlt] Modul: {id}
+- `viewer3d.errorTitle` [fehlt] 3D-Modell nicht verfügbar
+- `viewer3d.exportCad` [fehlt] CAD-Daten exportieren
+- `viewer3d.exportShort` [fehlt] CAD-Export
+- `viewer3d.fullscreen` [fehlt] Vollbild
+- `viewer3d.fullscreenExit` [fehlt] Vollbild beenden
+- `viewer3d.hint` [fehlt] 360° drehbar · Zoom per Mausrad / Touch · Halbschnitt per Toolbar
+- `viewer3d.hintTouch` [fehlt] 360° Touch / Maus
+- `viewer3d.loadIn3d` [fehlt] In 3D laden
+- `viewer3d.loading` [fehlt] 3D-Modell wird geladen
+- `viewer3d.madeInGermany` [fehlt] Made in Germany
+- `viewer3d.nominal` [fehlt] Nennmaß (d)
+- `viewer3d.nominalSize` [fehlt] Nennweite:
+- `viewer3d.noModelHint` [fehlt] Die technische Maßtabelle nach DIN/ISO finden Sie unterhalb.
+- `viewer3d.noModelTitle` [fehlt] Für dieses Produkt gibt es noch kein 3D-Modell
+- `viewer3d.openInteractive` [fehlt] Interaktives 3D-Modell öffnen
+- `viewer3d.outerDiameter` [fehlt] Außendurchmesser (D)
+- `viewer3d.packUnit` [fehlt] Verpackungseinheit
+- `viewer3d.rotate` [fehlt] 360° Rotation
+- `viewer3d.rotateStart` [fehlt] 360° Drehen starten
+- `viewer3d.rotateStop` [fehlt] Rotation stoppen
+- `viewer3d.section` [fehlt] Halbschnitt
+- `viewer3d.sectionOff` [fehlt] Vollansicht
+- `viewer3d.sectionOn` [fehlt] Halbschnitt (Querschnitt)
+- `viewer3d.socketStop` [fehlt] Muffenanschlag (z)
+- `viewer3d.tab3d` [fehlt] 3D CAD Modell (360°)
+- `viewer3d.tabPhotos` [fehlt] Produktfotos ({count})
+- `viewer3d.tabTechnical` [fehlt] Technische Übersicht
+- `viewer3d.toProductPage` [fehlt] Zur Produktseite
+- `viewer3d.totalLength` [fehlt] Gesamtlänge (l)
+- `viewer3d.variants.blau` [fehlt] Blau (RAL 5005)
+- `viewer3d.variants.curry` [fehlt] Curry (RAL 1002)
+- `viewer3d.variants.gruen` [fehlt] Grün (Standard)
+- `viewer3d.variants.label` [fehlt] Farbe
+- `viewer3d.variants.mocca` [fehlt] Mocca (RAL 7032)
+- `viewer3d.wallThickness` [fehlt] Wandstärke (s)
+- `viewer3d.weightPer` [fehlt] Gewicht / Stk
+- `viewer3d.wireframe` [fehlt] Drahtgitter
+- `viewer3d.wireframeToggle` [fehlt] Drahtgitter / Solid
+
+## wissen (22)
+
+- `wissen.hero.clearance`  Clearance Level 4
+- `wissen.hero.eyebrow`  System Intelligence
+- `wissen.hero.status`  System Status: Online
+- `wissen.scroll.items.0.desc`  Die strukturelle Integrität unserer Polypropylen Random Copolymerisate mit modifizierter Kristallinität (PPRCT) definiert die Grenzen der thermischen Belastbarkeit neu. Unter extremen Druck- und Temperaturzyklen bietet unsere hexagonale Gitterstruktur eine mikroskopische Spannungsverteilung, die Materialermüdung faktisch eliminiert. Ein Paradigmenwechsel in der Fluidmechanik.
+- `wissen.scroll.items.0.title`  PPRCT Matrix-Architektur
+- `wissen.scroll.items.1.title`  Thermodynamische Isolation
+- `wissen.scroll.items.2.desc`  In der Trinkwasserinfrastruktur gibt es keinen Kompromiss. Unsere Systeme sind nicht nur DVGW-geprüft, sie übertreffen die Anforderungen der Trinkwasserverordnung (TrinkwV) um Größenordnungen. Die ultra-glatte Innenoberfläche (Rauheitswert k=0,007 mm) verhindert mikrobielle Adhäsion und Biofilmbildung. Reinheit auf molekularer Ebene.
+- `wissen.scroll.items.2.title`  geprüfte Sterilität
+- `wissen.scroll.items.3.desc`  Jedes Rohrleitungssystem durchläuft unsere automatisierte Ultraschall- und Röntgendiagnostik. Wir analysieren Schweißnähte auf der Submillimeter-Ebene. Anomalien, Lunker oder Einschlüsse werden durch KI-gestützte Fehlererkennung identifiziert, bevor das Produkt die Fertigungsstraße verlässt. 100% Traceability. Null Toleranz für Defekte.
+- `wissen.scroll.items.3.title`  Zerstörungsfreie Prüfung (NDT)
+- `wissen.timeline.items.0.text`  Der Prozess beginnt auf atomarer Ebene. Katalytische Polymerisation unter extremen Druckbedingungen formt das Basis-PPRCT-Granulat. Spezifische Nukleierungsmittel induzieren die Bildung der widerstandsfähigen Beta-Kristallstruktur.
+- `wissen.timeline.items.0.title`  Molekulare Synthese
+- `wissen.timeline.items.0.year`  PHASE I
+- `wissen.timeline.items.1.text`  Das Granulat wird bei 240°C aufgeschmolzen und durch kalibrierte Werkzeuge gepresst. Die simultane Extrusion mehrerer Funktionsschichten (Glasfaser-Compound, Deckschicht) erfolgt mit mikrometergenauer Laserkontrolle.
+- `wissen.timeline.items.1.title`  Präzisions-Koextrusion
+- `wissen.timeline.items.1.year`  PHASE II
+- `wissen.timeline.items.2.text`  Ein komplexes Kühlprotokoll fixiert die makromolekulare Orientierung. Der kontrollierte Temperaturgradient verhindert Eigenspannungen und garantiert die absolute Dimensionsstabilität der Rohrgeometrie.
+- `wissen.timeline.items.2.title`  Thermische Stabilisierung
+- `wissen.timeline.items.2.year`  PHASE III
+- `wissen.timeline.items.3.text`  Hydraulische Berstdrucktests, Zeitstand-Innendruckversuche bei 95°C und zerstörungsfreie Materialanalysen. Nur Systeme, die das Belastungslimit der Norm um 300% übertreffen, erhalten die finale Freigabe.
+- `wissen.timeline.items.3.title`  Hyper-Auditierung
+- `wissen.timeline.items.3.year`  PHASE IV

@@ -137,6 +137,7 @@ export const TEXTE_DE: Mailtexte = {
 export const TEXTE_INTERN: InterneTexte = {
   anfrageTitel: 'Neue Anfrage über k-aqua.de',
   anfrageEilig: 'Direkt zurückrufen',
+  technikAnfrageTitel: 'Technische Spezifikation & Rohrsysteme (RFQ)',
   bewerbungTitel: 'Neue Bewerbung eingegangen',
 
   labelAnliegen: 'Anliegen',
@@ -148,6 +149,8 @@ export const TEXTE_INTERN: InterneTexte = {
   labelStelle: 'Stelle',
   labelEintritt: 'Frühester Eintritt',
   labelUnterlagen: 'Unterlagen',
+  labelRohrStandard: 'Liefermaß-Standard',
+  wertRohrStandard: '4,00 m Stangenlänge (Sondermaße auf Anfrage)',
 
   herkunftTitel: 'Herkunft',
   labelQuellseite: 'Quellseite',

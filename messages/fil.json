@@ -1372,7 +1372,7 @@
       "eyebrow": "nasubok na kalidad",
       "title1": "Ang ",
       "titleHighlight": "GENAU",
-      "title2": " Management System",
+      "title2": " Sistema ng Pamamahala",
       "p1": "Ang layunin ng GENAU Management System ay ang patuloy na pagpapabuti ng kaligtasan sa trabaho, kapaligiran at kalusugan sa kumpanya.",
       "p2": "Ang lahat ng aktibidad ng kumpanya sa KWT ay isinasagawa nang isinasaalang-alang ang konserbasyon ng mga yaman, pagiging tugma sa kapaligiran, at mahigpit na pagsunod sa lahat ng obligasyon. Ang pinapraktis na pamamahala ng GENAU ay nakakatugon sa mahigpit na pangangailangan ng ",
       "p3": " at ",
@@ -1448,7 +1448,7 @@
         "Digital meal vouchers para sa tanghalian at supermarket."
       ],
       "internet": [
-        "Internet Allowance",
+        "Allowance sa Internet",
         "Tulong para sa pribadong paggamit ng internet."
       ],
       "jobrad": [
@@ -1460,7 +1460,7 @@
         "Tax-free na tulong para sa pag-aalaga ng bata."
       ],
       "vwl": [
-        "Capital-forming Benefits",
+        "Benepisyo sa Pagbuo ng Yaman (VWL)",
         "Buwanang kontribusyon sa ipon mula sa employer."
       ]
     },
@@ -1944,19 +1944,19 @@
         "lead": "Kapag nagpaplano ang mga internasyonal na general contractor ng mga bilyong-dolyar na proyekto, hindi sila nagtitiwala sa mga pangako ng marketing. Humihingi sila ng tiyak at pisikal na nasusukat na mga katotohanan.",
         "items": [
           {
-            "title": "Extreme Pressure Resistance",
+            "title": "Matinding Paglaban sa Presyon",
             "desc": "Sinubukan para sa patuloy na pag-load hanggang PN20/PN25. Ang aming mga burst pressure test ay nagpapatunay ng mga reserbang higit pa sa pamantayan. Ang pagkasira ng tubo ay naging bahagi na ng nakaraan."
           },
           {
-            "title": "Thermal Sovereignty",
+            "title": "Katatagan sa Temperatura (Thermal Sovereignty)",
             "desc": "Patuloy na lumalaban mula -20°C hanggang +95°C. Walang pagkahapo ng materyal, walang istruktural na paghina, kahit sa ilalim ng matinding thermal shocks."
           },
           {
-            "title": "Absolute Hygiene",
+            "title": "Ganap na Kalinisan",
             "desc": "Walang korosyon. Walang incrustation. Ligtas sa pagkain, hindi nakakalason at lumalaban sa paglaki ng legionella."
           },
           {
-            "title": "Fire Protection (B1/B2)",
+            "title": "Proteksyon sa Sunog (B1/B2)",
             "desc": "Inuri ayon sa DIN 4102. Flame retardant at minimal ang pag-usok para sa pinakamataas na kaligtasan sa mga kritikal na imprastraktura ng gusali."
           },
           {
@@ -2038,7 +2038,7 @@
           },
           {
             "year": "2024",
-            "title": "Next-Gen Quality Analytics",
+            "title": "Makabagong Pagsusuri ng Kalidad (Next-Gen Quality Analytics)",
             "text": "Pagpapakilala ng highly automated na OIT (Oxidation Induction Time) at MFR (Melt Flow Rate) na mga pagsubok sa sarili naming precision laboratory. Pagsusuri sa error na suportado ng AI sa panahon ng extrusion para sa 100% zero error rate."
           }
         ]
@@ -2080,7 +2080,7 @@
             "desc": "Higit pa sa pandikit o hindi matatag na mekanikal na seal. Sinasanay namin ang eksaktong pagkakalibrate ng temperatura, presyon, at oras upang pag-isahin ang mga tubo at fitting sa isang hindi mapaghihiwalay na istruktura sa antas ng molekula."
           },
           {
-            "title": "Destructive Analytics",
+            "title": "Destruktibong Pagsusuri (Destructive Analytics)",
             "desc": "Upang maunawaan ang mga limitasyon, kailangan mong lampasan ang mga ito. Mga praktikal na module sa aming mga high-pressure test bench na may bursting pressure na higit pa sa 100 bar. Sinusuri namin ang pagkabigo upang ibukod ito sa kasanayan."
           },
           {
@@ -2109,7 +2109,7 @@
             "desc": "Ang matematika ng tubig. Hinahati namin ang mga kumplikadong epekto ng cavitation at water hammer sa mga nakakalkulang variable. Matututuhan mo kung paano hindi lamang patibayin kundi sistematikong alisin ang mga hydro-dynamic shock symptom. Para sa mga pipe network na gumagana sa buo at tahimik na perpeksyon."
           },
           {
-            "title": "Module Beta: Parametric Pipeline Design",
+            "title": "Modyul Beta: Parametric na Disenyo ng Pipeline",
             "desc": "Ang pagdidisenyo ng mga pipe system bilang isang algorithmic na disiplina. Kasama sa pagsasanay ang paggamit ng mga makabagong CAD/BIM tool para sa pagsusuri ng salungatan at pag-optimize ng paggamit ng materyal. Walang pagtatantya. Puro at eksaktong kalkulasyon lamang."
           },
           {
@@ -2138,12 +2138,12 @@
           },
           {
             "year": "PHASE 03",
-            "title": "Fusion Doctrine",
+            "title": "Doktrina ng Pag-fuse (Fusion Doctrine)",
             "text": "Ang perpektong welding protocol. Mekanikal na pagsasanay sa thermodynamic na paggalaw tungo sa isang hindi nagkakamali at awtomatikong pagkilos ng kalamnan. Ang bawat hakbang ay na-calibrate."
           },
           {
             "year": "PHASE 04",
-            "title": "System Architecture",
+            "title": "Arkitektura ng Sistema",
             "text": "Pag-scale mula sa isang simpleng tubo hanggang sa imprastraktura ng isang skyscraper. Ipinapatupad namin ang mga pressure loss table, flow velocity at flow divider nang may bakal na lohika."
           },
           {
@@ -2163,7 +2163,7 @@
             "text": "Kinikilala ng mga nangungunang awtoridad sa gusali at pangangasiwa sa buong mundo."
           },
           {
-            "title": "Audit Transparency",
+            "title": "Transparansya sa Pag-audit",
             "text": "Walang-puwang at digital na dokumentasyon ng bawat proseso ng welding."
           },
           {
@@ -2200,18 +2200,18 @@
       "scroll": {
         "eyebrow": "Kinematics at Material Science",
         "title": "Ang Proseso ng K Aqua.",
-        "lead": "Mula sa molecular granule level hanggang sa pinal na pressure test. Intindihin ang mga pisikal na prinsipyo na nagpapagawa sa aming mga sistema na hindi masisira.",
+        "lead": "Mula sa molekular na butil hanggang sa huling pagsusuri ng presyon. Unawain ang mga pisikal na prinsipyo na nagpapaging matibay sa aming mga sistema.",
         "items": [
           {
-            "title": "High-Pressure Extrusion Dynamics",
+            "title": "Dinamika ng Extrusion sa Mataas na Presyon",
             "desc": "Ang thermoplastic deformation sa aming mga pasilidad ay sumasailalim sa tumpak na pagkontrol sa temperatura na may katumpakang 0.1 °C. Ginagarantiya ng crystalline na perpeksyong ito ang isang walang-kapintasan at homogenous na molecular structure, na ganap na nag-aalis ng microscopic stress cracking kahit sa ilalim ng matinding pagbabago-bago ng presyon at temperatura. Kapag umalis ang materyal sa aming extruder, hindi na lang ito simpleng plastik. Isa na itong pang-industriyang monolith."
           },
           {
-            "title": "Hydrostatic Stress Tests",
+            "title": "Mga Pagsusuri sa Hydrostatic Stress",
             "desc": "Sa aming mga test lab, ang bawat tubo ay sumasailalim sa hydrostatic simulation na malayong humihigit sa mga totoong kondisyon. Nag-a-apply kami ng mga internal pressure na higit pa sa anumang normative na kinakailangan (hanggang 100 bar, depende sa SDR class). Tinitiyak nito ang integridad ng mga weld seam at molecular elasticity ng materyal na PP-R sa loob ng tinatayang habang-buhay na higit sa 50 taon sa mga kritikal na imprastraktura."
           },
           {
-            "title": "Polyfusion Welding Technology",
+            "title": "Teknolohiya ng Polyfusion Welding",
             "desc": "Ang mga joints ang nagiging kahinaan sa mga karaniwang system. Iniaalis ng K Aqua ang panganib na ito sa pamamagitan ng polyfusion. Sa molecular level, ang tubo at fitting ay natutunaw upang maging isang hindi mapaghihiwalay at tuluy-tuloy na yunit. Walang mga thread na kinakalawang, walang mga seal na nasisira. Ang resulta ay isang piping system na umaasal na parang inihulma mula sa isang piraso."
           },
           {
@@ -2230,7 +2230,7 @@
             "desc": "Ang molecular na basehan. Isang highly crystalline na thermoplastic polymer na nag-aalok ng pambihirang panlaban sa matataas na temperatura at presyon. Ito ang DNA ng aming tibay."
           },
           {
-            "title": "Linear Thermal Expansion",
+            "title": "Linyar na Thermal Expansion",
             "desc": "Ang pagbabago sa haba ng materyal dahil sa mga pagbabago sa temperatura. Ang aming fiber-reinforced pipes ay nagbabawas ng halagang ito sa ganap na pinakamababa (α = 0.035 mm/mK), na lubos na nagpapataas sa istruktural na katatagan sa mga shaft."
           },
           {
@@ -2238,7 +2238,7 @@
             "desc": "Ang kakayahan ng system na makayanan ang tuluy-tuloy na internal pressure sa mga partikular na temperatura sa loob ng mga dekada nang hindi nade-deform o nasisira. Ang mga tubo ng K Aqua ay naka-calibrate sa loob ng higit 50 taon."
           },
           {
-            "title": "Pressure Loss Coefficient",
+            "title": "Koepisyente ng Pagbaba ng Presyon (Pressure Loss Coefficient)",
             "desc": "Isang mathematical value na naglalarawan sa pagkawala ng enerhiya ng daloy dahil sa friction sa panloob na pader ng tubo. Sa pamamagitan ng nano-smooth surfaces, ang halagang ito ay nababawasan sa K Aqua systems."
           },
           {
@@ -2254,12 +2254,12 @@
         "items": [
           {
             "year": "DIN 8077/8078",
-            "title": "Normative Basis",
+            "title": "Normatibong Batayan",
             "text": "Ang pundasyon ng German piping standards. Hindi namin nakikita ang mga pamantayang ito bilang isang layunin, kundi bilang isang ganap na minimum. Ang aming panloob na tolerance ay hanggang 30% na mas mahigpit kaysa sa kinakailangan ng DIN."
           },
           {
             "year": "ISO 15874",
-            "title": "Global Testing",
+            "title": "Pandaigdigang Pagsubok",
             "text": "Ang pandaigdigang selyo ng kalidad para sa mga plastic piping system para sa pag-install ng mainit at malamig na tubig. Patunay ng walang-kompromisong pandaigdigang aplikasyon ng aming mga sistema."
           },
           {
@@ -6226,20 +6226,20 @@
     "paramLead": "Temperatura ng heating tool: 260°C (± 10°C).",
     "paramHead": [
       "d (mm)",
-      "Welding depth (mm)",
-      "Heating time (sec)",
-      "Changeover time max (sec)",
-      "Cooling time (min)"
+      "Lalim ng Pag-weld (mm)",
+      "Oras ng Pag-init (s)",
+      "Maks. Pag-reposition (s)",
+      "Oras ng Pagpapalamig (min)"
     ],
     "paramNote": "Batay sa ambient temp na 20°C. Kapag mababa sa 5°C, pahabain ang heating time ng 50%.",
     "stepEyebrow": "Step-by-step",
     "stepTitle": "Paano Mag-weld",
     "stepLead": "Sundan ang mga hakbang na ito para sa tamang proseso.",
     "procTabs": [
-      "Socket (Mano-mano)",
-      "Socket (Makina)",
-      "Electrofusion",
-      "Butt Welding"
+      "Muffe (Mano-mano)",
+      "Muffe (Makina)",
+      "Elektroschweißen",
+      "Stumpfschweißen"
     ],
     "procs": [
       {
@@ -6535,7 +6535,7 @@
     "prodLead": "Ginagamit namin ang makabagong teknolohiya.",
     "prod": [
       {
-        "t": "Extrusion",
+        "t": "Ekstrusyon",
         "d": "Gumagawa kami ng PP-R pipes gamit ang high-tech extruders."
       },
       {
@@ -7663,38 +7663,38 @@
       "jobs": [
         {
           "id": "prod",
-          "title": "Production Worker (m/f/d)",
-          "type": "Full-time / Shift",
+          "title": "Manggagawa sa Produksyon (m/w/d)",
+          "type": "Buong-oras / Shifting",
           "desc": "Suportahan kami sa modernong paggawa ng tubo at fitting."
         },
         {
           "id": "machine",
-          "title": "Machine and Plant Operator (m/f/d)",
-          "type": "Full-time",
+          "title": "Operator ng Makina at Planta (m/w/d)",
+          "type": "Buong-oras",
           "desc": "Pagpapatakbo at pag-monitor ng aming high-tech na extrusion lines."
         },
         {
           "id": "logistics",
-          "title": "Warehouse Logistics Specialist (m/f/d)",
-          "type": "Full-time",
+          "title": "Espesyalista sa Logistics ng Bodega (m/w/d)",
+          "type": "Buong-oras",
           "desc": "Responsibilidad para sa pagpasok at paglabas ng mga kalakal at imbentaryo."
         },
         {
           "id": "sales",
-          "title": "Technical Field Sales (m/f/d)",
-          "type": "Full-time",
+          "title": "Teknikal na Sales sa Labas (m/w/d)",
+          "type": "Buong-oras",
           "desc": "Suporta para sa mga pangunahing customer at tagaplano ng proyekto sa ibang bansa."
         },
         {
           "id": "pm",
-          "title": "Product Manager (m/f/d)",
-          "type": "Full-time",
+          "title": "Tagapamahala ng Produkto (m/w/d)",
+          "type": "Buong-oras",
           "desc": "Hubugin ang kinabukasan ng aming PP-R piping systems."
         },
         {
           "id": "init",
-          "title": "Unsolicited Application",
-          "type": "Full-time / Part-time",
+          "title": "Kusang-loob na Aplikasyon (Initiative Application)",
+          "type": "Buong-oras / Bahaging-oras",
           "desc": "Walang angkop na posisyon? Magpadala na lang ng aplikasyon!"
         }
       ],
@@ -7706,7 +7706,7 @@
       "form": {
         "firstName": "Pangalan",
         "lastName": "Apelyido",
-        "email": "Email",
+        "email": "E-mail",
         "phone": "Telepono",
         "startDate": "Pinakamaagang petsa ng pagsisimula",
         "uploadTitle": "Mag-upload ng PDF",

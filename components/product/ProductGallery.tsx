@@ -43,6 +43,33 @@ interface Props {
   photos?: string[];
 }
 
+function MadeInGermanyBadge({ className = '' }: { className?: string }) {
+  return (
+    <div
+      className={clsx(
+        'inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-card/90 backdrop-blur-md border border-card-border/80 shadow-sm text-foreground select-none pointer-events-none z-20',
+        className
+      )}
+      title="Made in Germany · Deutsche Fertigungsqualität"
+    >
+      <span className="flex items-center h-2.5 w-3.5 overflow-hidden rounded-[2px] shadow-[0_0_1px_rgba(0,0,0,0.4)] shrink-0" aria-hidden="true">
+        <span className="h-full w-1/3 bg-black" />
+        <span className="h-full w-1/3 bg-[#DD0000]" />
+        <span className="h-full w-1/3 bg-[#FFCE00]" />
+      </span>
+      <div className="flex items-center gap-1.5 leading-none">
+        <span className="font-heading font-extrabold text-[11px] tracking-wider uppercase text-foreground">
+          Made in Germany
+        </span>
+        <span className="hidden sm:inline-block w-1 h-1 rounded-full bg-primary/40" />
+        <span className="hidden sm:inline-block font-mono text-[10px] text-muted-foreground">
+          DIN EN ISO 15874
+        </span>
+      </div>
+    </div>
+  );
+}
+
 export default function ProductGallery({ category, slug, title, photos = [] }: Props) {
   /* Die Beschriftungen dieser Galerie standen fest verdrahtet auf Deutsch —
      „3D CAD Modell (360°)", „Produktfotos", „Technische Übersicht" — und
@@ -120,8 +147,11 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
-              className="w-full"
+              className="w-full relative"
             >
+              <div className="absolute top-3.5 start-3.5 z-20">
+                <MadeInGermanyBadge />
+              </div>
               <Native3DCanvas
                 slug={cleanSlug}
                 category={category}
@@ -148,6 +178,9 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                       die Quelldateien sind 900 px, ohne Angabe lieferte Next
                       die volle Viewportbreite aus. */}
                   <div className={`relative w-full ${ANSICHT_HOEHE} rounded-2xl sm:rounded-3xl border border-card-border overflow-hidden bg-background-subtle`}>
+                    <div className="absolute top-3.5 start-3.5 z-20">
+                      <MadeInGermanyBadge />
+                    </div>
                     <Image
                       src={photos[activePhoto] ?? photos[0] ?? ''}
                       alt={title || cleanSlug}
@@ -187,7 +220,10 @@ export default function ProductGallery({ category, slug, title, photos = [] }: P
                   )}
                 </div>
               ) : (
-                <div className={`w-full ${ANSICHT_HOEHE} rounded-2xl sm:rounded-3xl border border-card-border flex flex-col items-center justify-center bg-gradient-to-br from-card via-background to-primary-soft/20 p-8 text-center`}>
+                <div className={`relative w-full ${ANSICHT_HOEHE} rounded-2xl sm:rounded-3xl border border-card-border flex flex-col items-center justify-center bg-gradient-to-br from-card via-background to-primary-soft/20 p-8 text-center overflow-hidden`}>
+                  <div className="absolute top-3.5 start-3.5 z-20">
+                    <MadeInGermanyBadge />
+                  </div>
                   <div className="w-20 h-20 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary mb-4 shadow-inner">
                     <Box className="w-10 h-10" />
                   </div>

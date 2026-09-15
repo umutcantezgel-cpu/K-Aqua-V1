@@ -352,8 +352,6 @@ const product = {
       name: 'K-Aqua_kaqua-k-fiber-pipe-pp-r-sdr-17' + '_d' + size,
       materials: matKeys,
       seed: 175,
-      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
-      emboss: false,
       printText: druckzeile(product.brandLine, size),
       clipPlane,
     });

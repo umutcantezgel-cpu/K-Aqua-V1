@@ -1,4 +1,66 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "Lillat värvi, nt tehnilise vee / kastmissüsteemide selgeks märgistamiseks.",
+    "k-fiber-pipe-pp-rct-sdr-74": "Kiudtugevdatud vahekiht vähendab soojuspaisumist umbes 50%.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "Optimeeritud kliima-/HVAC-rakendustele (jahutus- ja küttevesi).",
+    "k-fiber-pipe-pp-r-sdr-17": "Suuremõõtmeline kiudtoru tööstusele ja hoonete varustusele.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "UV-stabiliseeritud väliskiht välitingimustes kasutamiseks.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "UV-stabiliseeritud õhuliinide ja katusepaigaldiste jaoks.",
+    "electrofusion-socket": "Elektrikeevismuhv: ühendamine elektriküttega ilma keevitusseadmeta.",
+    "flange-adaptor": "Üleminek äärikühendusele armatuuride, pumpade ja veearvestite jaoks.",
+    "reducing-tee-large-sizes": "Peatorustikele 63–75 mm.",
+    "cross-over": "Ristub teise toruga ilma ühenduseta.",
+    "elbow-bracket-90-female-thread": "Kinnitusäärikuga seinapaigalduseks.",
+    "elbowwall-bracket-90-female-thread": "Mõlemapoolne seinakinnitus.",
+    "metal-union-male-thread-yellow-brass": "Messing CW617N.",
+    "metal-union-female-thread-yellow-brass": "Messing CW617N.",
+    "tee-90-female-thread": "Lahtivõetav hooldustöödeks ilma toru lahti lõikamata.",
+    "union-for-watermeters": "Lihtsustab veearvestite paigaldamist ja eemaldamist.",
+    "pp-r-ball-valve-ball-in-pp": "Täisavaga, PP-kuul, keevismuhvid mõlemal küljel.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "Kroomitud messingkuul suure koormuse jaoks.",
+    "tee-90-female-thread-for-internal-valve": "Kinnitus-T-detail süvistatavatele ventiilidele.",
+    "concealed-valve-chrome-light-part": "Nähtav kate + spindel, kroomitud viimistlus.",
+    "concealed-valve-chrome-heavy-part": "Süvistatav ventiilikorpus, monteeritud kinnitus-T-detaili sisse.",
+    "straight-seat-valve-upper-part-green-handle": "Käepidemega ülaosa otsevoolu-/sirgventiilidele.",
+    "elongation-pieces": "Pikendus erinevate seinapaksuste jaoks.",
+    "battery-female-thread": "Jaotusmoodul põrandaküttele / mitme ringiga jaotusele.",
+    "adjustable-battery-female-thread": "Reguleeritav teljevahe väljaviikude vahel.",
+    "weld-in-saddle": "Keermeta: PP-R haru, keevitatakse otse peatorule.",
+    "pipe-clamps": "Kummist vahetükiga, toru hoidmiseks ja kinnitamiseks.",
+    "backing-flange-pp-steel-sfbf": "Terastugevdusega vabapöörav äärik äärikuadapterile.",
+    "flat-gasket": "EPDM-lametihend äärikühendustele.",
+    "flat-gasket-for-unions-pp-r": "EPDM-tihend keermesliidetele.",
+    "plug": "Keermestatud kork lahtiste otste sulgemiseks. Muud suurused nõudmisel.",
+    "pipe-cutter-2040": "Narremehhanismiga torulõikur puhasteks täisnurkseteks lõigeteks.",
+    "pipe-cutter-50125": "Tugev torulõikur suurte mõõtmete jaoks.",
+    "pipe-cutter-50125-1": "Koorib torupinna enne keevitamist.",
+    "hand-welding-machine-2032-complete-set": "Kompaktne muhvkeevitusseade.",
+    "hand-welding-machine-2063-complete-set": "Täielik komplekt kütteplaadi, aluse ja tööriistadega.",
+    "hand-welding-machine-mirror-50125": "Varuküttepeegel 50–125 mm seadmele.",
+    "welding-tool": "Üksikud küttedüüsi/muhvi tööriistapaarid iga mõõtme jaoks.",
+    "welding-machine-50125-complete-set": "Professionaalne muhvkeevitusseade suurte mõõtmete jaoks.",
+    "butt-welding-machine-90250": "Põkk-keevitusseade suurte mõõtmete jaoks.",
+    "electrofusion-machine": "Juhtseade elektrikeevisliitmikele vöötkoodiskanneriga.",
+    "welding-tool-for-weld-in-saddles": "Eritööriist sadelliitmike peale keevitamiseks.",
+    "drilling-tool-for-weld-in-saddle": "Koonuspuur harukoha avamiseks pärast sadelkeevitust.",
+    "welding-tool-for-repairing-plug": "Küttetööriistad remonditropi süsteemile.",
+    "repairing-plug": "Avariiremonditropp lekete sulgemiseks ilma tühjendamiseta."
+  },
+  "geoExtra": {
+    "cityBadge": "(Linn)",
+    "regionBadge": "(Piirkond)",
+    "marketFallbackLead": "Kvaliteetsed PP-R torusüsteemid linnale {city}.",
+    "openMarketPage": "Ava turuleht: {city}"
+  },
+  "sitemapPage": {
+    "company": "Ettevõte ja Navigatsioon",
+    "products": "Tooted ja Kategooriad",
+    "news": "Uudised ja Press",
+    "markets": "Turud ja Regioonid"
+  },
+  "catalogExtra": {
+    "viewDetails": "Toote üksikasjad"
+  },
   "aboutDeep": {
     "eyebrow": "Süvitsi",
     "title": "K-Aqua Teadmised",
@@ -21,6 +83,9 @@
     "quote": "Küsi pakkumist",
     "menu": "Menüü",
     "lang": "Keel",
+    "searchShortcut": "Otsi (Cmd+K)",
+    "imprint": "Impressum",
+    "privacy": "Andmekaitse",
     "skipToContent": "Mine sisule",
     "menuPlaceholder": "Kohatäide (Megamenüü)",
     "academy": "Akadeemia",
@@ -28,6 +93,7 @@
     "about": "Ettevõte",
     "solutions": "Lahendused",
     "partners": "Partnerlus",
+    "partner": "Partnerlus",
     "references": "Viited",
     "career": "Karjäär",
     "news": "Uudised",
@@ -45,19 +111,21 @@
     "edgeMarkets": "{count} turgu",
     "edgePageIndex": "Lehekülje register",
     "mega": {
-      "homeSr": "K-Aqua Homepage",
+      "homeSr": "K-Aqua avaleht",
       "pipeSystems": "Torusüsteemid",
       "allProducts": "Kõik tooted",
-      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
+      "allProductsDesc": "Kõigi K-Aqua PP-R lahenduste ülevaade",
       "solutionsDesc": "Tööstusharupõhised rakendused",
       "digitalTools": "Digitaalsed tööriistad",
+      "cadStudio": "3D CAD Studio",
+      "cadModels": "70 interaktiivset mudelit",
       "finderDesc": "Konfigureerige õige süsteem",
       "co2Desc": "Arvutage keskkonnajalajälg",
       "academyDesc": "Koolitused ja sertifikaadid",
       "trustDesc": "Allalaadimised ja sertifitseeringud",
       "serviceDesc": "Projekteerimistugi",
       "partnersDesc": "Saage kohalikuks partneriks",
-      "aboutGroup": "About K-Aqua",
+      "aboutGroup": "K-Aqua kohta",
       "company": "Ettevõte",
       "companyDesc": "Missioon, visioon ja ajalugu",
       "careerDesc": "Vabad töökohad ja kultuur",
@@ -69,7 +137,21 @@
       "globalMarkets": "Globaalsed turud",
       "marketsDesc": "Sertifitseeritud piirkonnad",
       "refProjects": "Referentsprojektid",
-      "refDesc": "Edukad paigaldused"
+      "refDesc": "Edukad paigaldused",
+      "contactDesc": "Rääkige meie ekspertidega",
+      "quoteDesc": "Küsi mittesiduvat projektipakkumist",
+      "imprintDesc": "Ettevõtte juriidiline teave",
+      "privacyDesc": "Andmetöötluse suunised",
+      "downloads": "Allalaadimiskeskus",
+      "downloadsDesc": "Kataloogid, andmelehed ja sertifikaadid PDF-ina",
+      "bim": "BIM-andmed",
+      "bimDesc": "IFC 4, Revit-tüübikataloog, CSV ja JSON",
+      "technik": "Tehniline käsiraamat",
+      "technikDesc": "Projekteerimine, paigaldus ja keevitusparameetrid",
+      "specs": "Hanke spetsifikatsioonid",
+      "specsDesc": "Valmis tööde kirjeldused ülevõtmiseks",
+      "supportRes": "Tehniline tugi",
+      "supportResDesc": "Nõustamine planeerimise, materjalide ja paigalduse osas"
     }
   },
   "groups": {
@@ -227,6 +309,72 @@
     "bandBtn2": "Allalaadimised ja Teenused"
   },
   "geo": {
+    "hubNames": {
+      "uaeShort": "AÜE",
+      "deutschland": "Saksamaa",
+      "oesterreich": "Austria",
+      "schweiz": "Šveits",
+      "uae": "Araabia Ühendemiraadid",
+      "ksa": "Saudi Araabia",
+      "katar": "Katar",
+      "chile": "Tšiili",
+      "japan": "Jaapan",
+      "uk": "Ühendkuningriik",
+      "frankreich": "Prantsusmaa",
+      "italien": "Itaalia",
+      "polen": "Poola",
+      "tschechien": "Tšehhi",
+      "kuwait": "Kuveit",
+      "oman": "Omaan",
+      "bahrain": "Bahrein",
+      "jordanien": "Jordaania",
+      "aegypten": "Egiptus",
+      "tuerkei": "Türgi",
+      "singapur": "Singapur",
+      "malaysia": "Malaisia",
+      "indien": "India",
+      "suedafrika": "Lõuna-Aafrika",
+      "kenia": "Keenia"
+    },
+    "cityNames": {
+      "muenchen": "München",
+      "zuerich": "Zürich",
+      "wien": "Viin",
+      "kairo": "Kairo",
+      "dschidda": "Jiddah",
+      "riad": "Riad",
+      "mailand": "Milano",
+      "warschau": "Varssavi",
+      "prag": "Praha",
+      "kapstadt": "Kaplinn",
+      "maskat": "Maskat",
+      "kualalumpur": "Kuala Lumpur",
+      "singapur": "Singapur",
+      "frankfurt": "Frankfurt Maini ääres",
+      "berlin": "Berliin",
+      "hamburg": "Hamburg",
+      "london": "London",
+      "paris": "Pariis",
+      "dubai": "Dubai",
+      "abudhabi": "Abu Dhabi",
+      "doha": "Doha",
+      "neom": "NEOM / The Line",
+      "kuwait": "Kuwaiti linn",
+      "manama": "Manama",
+      "amman": "Amman",
+      "istanbul": "Istanbul",
+      "mumbai": "Mumbai",
+      "nairobi": "Nairobi"
+    },
+    "crisis": {
+      "infrastructure-decay": "vananevad olemasolevad võrgud",
+      "water-scarcity": "veepuudus",
+      "earthquake": "maavärinakindlus",
+      "tsunami": "tsunamikindlus",
+      "el-nino": "El Niño ilmastikuäärmused",
+      "none": "standardvarustus"
+    },
+    "hubInfraLine": "K-Aqua infrastruktuur sihtkohale {hub}, kavandatud stsenaariumile {scenario}.",
     "eyebrow": "Turud ja Asukohad",
     "title1": "Maailm täis",
     "title2": "Turge.",
@@ -251,7 +399,9 @@
     "seoExpansion": "K Aqua toodab Waldsolmsis PP-R ja PPRCT torusüsteeme kõige nõudlikumatele ülemaailmsetele ehitus- ja süsteemitehnoloogia rakendustele. Tänu kompromissitule Saksa insenerikunstile ja kaasaegsele tootmistehnoloogiale tagavad meie süsteemid aastakümnetepikkuse hooldusvaba ja usaldusväärse töö. Iga toode, d20 kuni d630, läbib ranged kvaliteedikontrollid ja vastab rahvusvahelistele standarditele nagu DVGW, KIWA ja SKZ. Pakume mitte ainult esmaklassilisi materjale joogivee, jahutuse ja tööstuse jaoks, vaid toetame ka planeerijaid ja paigaldajaid laiaulatusliku tehnilise toe ja kohapealse koolitusega. Usaldage süsteemi, mis on äärmiselt vastupidav, korrosioonivaba ja absoluutselt hügieeniline.",
     "seoExpansionDynamic": "Loe lähemalt meie PP-R ja PPRCT lahendustest linnas {city}. Täidame kohalikke standardeid ({regulator}) ja pakume optimaalseid süsteeme vee kvaliteedi tagamiseks ({water}). Lisateave: {note}.",
     "cityMetaTitle": "PP-R Torusüsteemid linnas {city}",
+    "cityMetaTitleShort": "PP-R torusüsteemid {city} — {regulator}",
     "hubMetaTitle": "PP-R Torusüsteemid riigile {country}",
+    "hubMetaTitleShort": "PP-R torusüsteemid {country} — {approval}",
     "hubH1": "Infrastruktuurilahendused riigile {country}",
     "hubLead": "K-Aqua pakub sertifitseeritud PP-R ja PP-RCT infrastruktuurilahendusi riigile {country}. Meie torusüsteemid vastavad kõrgeimatele rahvusvahelistele standarditele ja on optimeeritud spetsiifiliste väljakutsete jaoks riigis {country}.",
     "hubContextTitle": "Piirkondlik kontekst: {context}",
@@ -1957,7 +2107,7 @@
       ],
       "note": "Arengupankade rahastatud projektid: K Aqua pakub hankega ühilduvat dokumentatsiooni.",
       "focusHeading": "Tüüpilised projektid Ammanis",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "Selle piirkonna linnaline taristu seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja rangete veehügieeninõuete juures pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis toob kaasa märkimisväärse rõhukao ja veekao lekete tõttu. K-Aqua süsteemid tagavad tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele absoluutselt tiheda ja hooldusvaba paigalduse enam kui 50 aastaks. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, mis vähendab drastiliselt tsirkulatsioonipumpade energiatarvet. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaplaneeringute jaoks."
     },
     "kairo": {
       "regulator": "HCWW: Holding Company for Water & Wastewater",
@@ -1969,7 +2119,7 @@
       ],
       "note": "EOS registreerimine kohalike partnerite kaudu; Vahemere laevatransport Hamburgist 10-14 päeva.",
       "focusHeading": "Tüüpilised projektid Kairos",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "Egiptuse kiire linnastumine ja sellised suurprojektid nagu uus halduspealinn (New Administrative Capital) esitavad tohutuid nõudmisi kaasaegsele veetaristule enam kui 100 miljonile elanikule. Arvestades Põhja-Aafrika klimaatilisi väljakutseid äärmusliku kuumuse ja liivatormidega ning Niiluse delta eripäraseid tingimusi, on vaja äärmiselt vastupidavaid materjale. K-Aqua korrosioonikindlad PP-R ja PPRCT süsteemid tagavad lekkevaba ja kestva veevarustuse ka neis karmides keskkonnatingimustes, olles ideaalne valik Kairo hiiglaslike ehitusprojektide jaoks."
     },
     "istanbul": {
       "regulator": "İSKİ / TSE-testimine",
@@ -1981,7 +2131,7 @@
       ],
       "note": "Paindlikud tarneahelad maismaad mööda (5-7 päeva) või meritsi.",
       "focusHeading": "Tüüpilised projektid Istanbulis",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "Istanbuli kõrge seismilise aktiivsuse ja Bosporust ületavate taristuprojektide jätkuva ehitusbuumi tõttu on maavärinakindlad ja elastsed torusüsteemid asendamatud. K-Aqua PP-R polüfusioonkeevisliited peavad seismilistele tõugetele vastu oluliselt paremini kui traditsioonilised metalltorud. Lisaks vastavad meie süsteemid rangetele TSE sertifitseerimisnõuetele, mis teeb neist ideaalse valiku nõudlike ehitusprojektide jaoks kogu Türgis."
     },
     "singapur": {
       "regulator": "PUB: Public Utilities Board",
@@ -1993,7 +2143,7 @@
       ],
       "note": "Laevatransport Hamburgist; täielikud PUB esitusdokumendid saadaval.",
       "focusHeading": "Tüüpilised projektid Singapuris",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "Singapuri püsivalt troopiline kliima ja NEWater taaskasutussüsteem nõuavad veehügieenilt kõrgeimaid standardeid. Meie survekindlad K-Aqua PP-RCT süsteemid vastavad hõlpsalt PUB veeameti rangetele nõuetele. Need on ideaalne lahendus Marina Bay ülikõrghoonete ehitusele ning pooljuhtide tööstuse ülipuhta vee vajadustele, tagades absoluutse töökindluse ka äärmuslikes tingimustes."
     },
     "kualalumpur": {
       "regulator": "SPAN: National Water Services Commission",
@@ -2005,7 +2155,7 @@
       ],
       "note": "SPAN nimekiri läbi jaotuspartnerite; ASEAN-i keskus piirkonnale.",
       "focusHeading": "Tüüpilised projektid Kuala Lumpuris",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "Kuala Lumpuris kujundavad hoonevarustuse nõudeid äärmuslik niiskus ja mussoonkliima, näiteks TRX finantspiirkonnas või segakasutusega kõrghoonetes. K-Aqua UV- ja niiskuskindlad PP-R süsteemid täidavad usaldusväärselt SPAN veeameti rangeid eeskirju. Isegi Johori laienevas tööstuskoridoris tagavad meie homogeensed polüfusioonkeevisühendused aastakümneteks tiheduse, pakkudes kõrgetel troopilistel temperatuuridel otsustavat eelist hügieenilise joogivee tagamisel."
     },
     "mumbai": {
       "regulator": "BIS: Bureau of Indian Standards",
@@ -2017,7 +2167,7 @@
       ],
       "note": "BIS vastavus projektipõhiselt; tehniline koolitus kaugtööna + kohapeal.",
       "focusHeading": "Tüüpilised projektid Mumbais",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "Mumbai mussoonidest mõjutatud veevarustus kannatab sageli vahelduva rõhu all, mis suurendab äärmuslikult hüdrauliliste löökide (veehaamri) ohtu torustikus. Kõrghoonete moderniseerimisel ja nutikate linnade programmi raames loodavad projekteerijad seetõttu K-Aqua löögikindlatele keevisühendustele vastavalt BIS standarditele. Ka suurlinna kasvav farmaatsia- ja haiglasektor lõikab kasu meie ülipuhastest ja absoluutselt tihedatest PP-R lahendustest, mis töötavad turvaliselt ka veevõrgu suurte kõikumiste korral."
     },
     "kapstadt": {
       "regulator": "SABS / SANS standardid",
@@ -2029,7 +2179,7 @@
       ],
       "note": "Projektimüük koos kohaliku partnerivõrgustikuga; keevitusmeeskondade koolitus sisaldub hinnas.",
       "focusHeading": "Tüüpilised projektid Kaplinnas",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "„Day Zero“ veekriisi varjus ei ole veekadude vältimine Kaplinnas pelgalt tehniline, vaid eksistentsiaalne vajadus. K-Aqua süsteemide absoluutselt lekkevaba polüfusioonkeevitus toetab otseselt piirkonna ranget veesäästupoliitikat ja vastab kõrgeimatele SABS/SANS standarditele. Olgu asunduste taristu laiendamisel või Western Cape'i veinimõisate nõudliku protsessivee jaoks – meie PP-R ja PPRCT lahendused hoiavad tänu korrosioonivabale materjalile ära kulukad lekked. See teeb neist kõige kindlama valiku jätkusuutliku veevarustuse tagamiseks äärmuslikes tingimustes."
     },
     "nairobi": {
       "regulator": "KEBS: Kenya Bureau of Standards",
@@ -2041,7 +2191,7 @@
       ],
       "note": "Ida-Aafrika keskus: tarne Mombasa kaudu; keevituskoolitus võimekuse tõstmiseks.",
       "focusHeading": "Tüüpilised projektid Nairobis",
-      "extendedMarketText": "Linnade infrastruktuur selles piirkonnas seab torustikusüsteemide pikaealisusele ja töökindlusele erinõuded. Äärmuslikes kliimatingimustes ja kõrgete veehügieeni nõuete korral pakuvad K-Aqua PP-R ja PPRCT lahendused otsustavat eelist. Traditsioonilised metalltorud kannatavad sageli korrosiooni ja mineraalide ladestumise all, mis põhjustab lekete tõttu märkimisväärset rõhukadu ja veeraiskamist. K-Aqua süsteemid aga garanteerivad täiesti tiheda ja hooldusvaba paigalduse enam kui 50 aastaks tänu oma korrosioonivabale materjalile ja homogeensele polüfusioonkeevitusele. Lisaks võimaldab sile sisepind optimaalseid hüdraulilisi vooluomadusi, vähendades drastiliselt tsirkulatsioonipumpade energiavajadust. Need tegurid muudavad K-Aqua eelistatud valikuks suurte hotellikomplekside, haiglate, tööstuslike jahutussüsteemide ja nõudlike linnaelamuprojektide jaoks."
+      "extendedMarketText": "Arvestades Ida-Aafrika kiiret rahvastikukasvu, nõuavad sellised suurprojektid nagu Keenia taskukohase eluaseme programm ja Tatu City nutikas linn kiireid, skaleeritavaid ja pikaealisi lahendusi. K-Aqua pakub selleks mitte ainult KEBS-standardite järgi sertifitseeritud robustseid torusüsteeme, vaid panustab ka sihipärasesse kohalikku väljaõppesse. Meie hõlpsasti omandatav keevitustehnoloogia võimaldab kohalikke spetsialiste otse objektil tõhusalt koolitada, tagades linna veetaristu kiire ja usaldusväärse väljaehitamise Keenia dünaamilises metropolis."
     }
   },
   "notFound": {
@@ -2171,20 +2321,91 @@
     "cookieDecline": "Keeldu (ainult hädavajalikud)"
   },
   "cookieConsent": {
-    "title": "Privaatsusseaded ja küpsised",
+    "privacyLink": "Privaatsuspoliitika",
+    "imprintLink": "Impressum",
+    "title": "Andmekaitse seaded",
     "description": "Kasutame küpsiseid ja sarnaseid tehnoloogiaid (nagu pikslid ja kohalik salvestusruum), et pakkuda teile meie platvormil parimat võimalikku kogemust. Mõned neist on hädavajalikud, samas kui teised aitavad meil seda veebisaiti parandada. Teil on igal ajal täielik kontroll.",
     "customize": "Kohanda seadeid",
     "declineAll": "Ainult hädavajalikud",
     "acceptAll": "Nõustu kõigiga",
     "acceptSelected": "Salvesta valik",
-    "essentialTitle": "Hädavajalik (Tehniliselt vajalik)",
-    "essentialDesc": "Need küpsised on veebisaidi sujuvaks toimimiseks (nt navigeerimine, turvalisus, teie privaatsuseelistuste salvestamine) hädavajalikud. Ilma nende tehnoloogiateta ei saa K Aqua korralikult toimida. Need ei salvesta isikut tuvastavat teavet.",
-    "analyticsTitle": "Statistika ja Analüütika",
-    "analyticsDesc": "Need küpsised aitavad meil mõista meie külastajate käitumist. Kogume pseudonüümseid andmeid selle kohta, kuidas kasutajad K Aquaga suhtlevad (nt enimkülastatud lehed, külastuse kestus, veateated). See võimaldab meil vigu parandada ja platvormi pidevalt täiustada.",
-    "marketingTitle": "Turundus ja Isikupärastamine",
+    "essentialTitle": "Hädavajalik (tehniliselt vajalik)",
+    "essentialDesc": "Need tehnoloogiad on veebisaidi sujuvaks toimimiseks (nt navigeerimine, turvalisus, teie privaatsuseelistuste salvestamine) hädavajalikud. Ilma nendeta ei saa K Aqua korralikult toimida. Need ei salvesta isikut tuvastavat teavet.",
+    "analyticsTitle": "Statistika ja analüüs",
+    "analyticsDesc": "Need aitavad meil mõista meie külastajate käitumist. Kogume pseudonüümseid andmeid selle kohta, kuidas kasutajad K Aquaga suhtlevad (nt enimkülastatud lehed, külastuse kestus, veateated). See võimaldab meil vigu parandada ja platvormi pidevalt täiustada.",
+    "marketingTitle": "Turundus ja isikupärastamine",
     "marketingDesc": "Kasutame neid tehnoloogiaid teile asjakohasema sisu ja reklaamide näitamiseks (sealhulgas välistel platvormidel). Kui lülitate selle välja, näete endiselt reklaame, kuid need on teie huvidele vähem kohandatud.",
-    "vendorListTitle": "Vaata üksikasjalikku küpsiste loendit",
-    "backToSimple": "Tagasi ülevaate juurde"
+    "intro": "See veebisait ei kasuta küpsiseid ega kaasa kolmandate osapoolte teenuseid. Andmed salvestatakse eranditult lokaalselt teie brauseris — midagi sellest ei lahku teie seadmest.",
+    "noCookiesNote": "Küpsiseid pole · reklaamijälitajaid pole · andmeid külastamisel edasi ei anta",
+    "btnAcceptAll": "Luba kõik",
+    "btnNecessaryOnly": "Ainult vajalik",
+    "btnCustomize": "Otsusta eraldi",
+    "btnSaveSelection": "Salvesta valik",
+    "btnBack": "Tagasi",
+    "btnClose": "Sulge",
+    "categories": {
+      "necessary": {
+        "title": "Tehniliselt vajalik",
+        "desc": "Salvestab teie andmekaitseotsuse ja valitud keele. Ilma selle salvestamiseta peaksite igal lehe avamisel uuesti otsustama. Pole võimalik välja lülitada."
+      },
+      "comfort": {
+        "title": "Mugavus",
+        "desc": "Jätab meelde teie sisestused CO₂-kalkulaatoris, teie viimati otsitud terminid ning heleda ja tumeda režiimi valiku. Kui keeldute, töötab kõik edasi — midagi lihtsalt ei salvestata."
+      },
+      "analytics": {
+        "title": "Kasutusstatistika",
+        "desc": "Anonüümne analüüs, milliseid lehti külastatakse.",
+        "emptyNote": "Praegu sellist teenust integreeritud ei ole. Kui see peaks muutuma, laaditakse see alles pärast teie nõusolekut."
+      }
+    },
+    "inventory": {
+      "toggle": "Kuva salvestatud kirjed",
+      "heading": "Mida täpselt salvestatakse",
+      "colName": "Kirje",
+      "colPurpose": "Eesmärk",
+      "colCategory": "Kategooria",
+      "colRetention": "Säilitamisaeg",
+      "note": "Kõik kirjed asuvad teie brauseri kohalikus mälus (localStorage). Küpsiseid ei paigaldata ja andmeid kolmandatele osapooltele ega kolmandatesse riikidesse ei edastata."
+    },
+    "entries": {
+      "consent": {
+        "name": "Andmekaitseotsus",
+        "purpose": "Salvestab, millise valiku olete teinud",
+        "retention": "Kuni tühistamiseni"
+      },
+      "theme": {
+        "name": "Välimus",
+        "purpose": "Hele või tume",
+        "retention": "Kuni brauseris kustutamiseni"
+      },
+      "co2": {
+        "name": "CO₂-kalkulaator",
+        "purpose": "Teie stsenaariumid ja projektinimekirjad",
+        "retention": "Kuni brauseris kustutamiseni"
+      },
+      "search": {
+        "name": "Viimati otsitud",
+        "purpose": "Teie viimased otsingusõnad",
+        "retention": "Kuni brauseris kustutamiseni"
+      }
+    },
+    "record": {
+      "decidedOn": "Otsustatud {date}",
+      "policyVersion": "Versioon {version}",
+      "notDecided": "Otsust pole veel tehtud"
+    },
+    "withdraw": {
+      "title": "Muuda otsust",
+      "desc": "Saate oma otsust igal ajal muuta — tagasivõtmine on sama lihtne kui nõustumine.",
+      "button": "Võta kõik tagasi",
+      "done": "Teie otsus on lähtestatud."
+    },
+    "a11y": {
+      "dialogLabel": "Andmekaitse seaded",
+      "closeLabel": "Sulge seaded",
+      "switchOn": "sisse lülitatud",
+      "switchOff": "välja lülitatud"
+    }
   },
   "seo": {
     "extendedProductText": {
@@ -8276,28 +8497,29 @@
       "company": "Ettevõte"
     },
     "links": {
-      "all_products": "All K-Aqua Products",
+      "all_products": "Kõik K-Aqua tooted",
       "finder": "Torude tooteotsing",
-      "pipes": "Pipes & Piping Systems (PP-R)",
+      "pipes": "Torud ja torusüsteemid (PP-R)",
       "fittings": "Vormidetailid ja liitmikud",
       "valves": "Armatuur ja ventiilid",
       "tools": "Tööriistad ja tarvikud",
       "transition": "Torude üleminekud",
-      "all_markets": "All K-Aqua Markets",
-      "all_solutions": "All K-Aqua Solutions",
-      "overview": "K-Aqua Academy Overview",
-      "co2_calc": "CO₂ Calculator for PP-R",
-      "specifications": "K-Aqua Tender Texts",
-      "references": "K-Aqua References Worldwide",
-      "support": "Technical Support for K-Aqua",
-      "about_us": "About K-Aqua",
-      "career": "Careers at K-Aqua",
-      "news": "K-Aqua News & Press",
-      "contact": "Contact K-Aqua",
-      "service": "K-Aqua Service & Maintenance",
+      "all_markets": "Kõik K-Aqua turud",
+      "all_solutions": "Kõik K-Aqua lahendused",
+      "overview": "K-Aqua Academy ülevaade",
+      "co2_calc": "PP-R CO₂-kalkulaator",
+      "specifications": "K-Aqua hanke spetsifikatsioonid",
+      "references": "K-Aqua referentsid üle maailma",
+      "support": "K-Aqua tehniline tugi",
+      "about_us": "K-Aqua kohta",
+      "career": "Karjäär K-Aquas",
+      "news": "K-Aqua uudised ja press",
+      "contact": "Võtke ühendust K-Aquaga",
+      "service": "K-Aqua hooldus ja teenindus",
       "rfq": "Torusüsteemide projektipäring",
-      "partners": "K-Aqua Partner Network",
+      "partners": "K-Aqua partnerivõrgustik",
       "trust": "K-Aqua Trust Center",
+      "cookieSettings": "Andmekaitse seaded",
       "sitemap": "Saidikaart (HTML)"
     }
   },
@@ -8358,5 +8580,55 @@
       "c5Author": "Piera V.",
       "c6Author": "Sarah B."
     }
+  },
+  "viewer3d": {
+    "section": "Poollõige",
+    "sectionOn": "Poollõige (ristlõige)",
+    "sectionOff": "Täisvaade",
+    "dimensions": "CAD-mõõtmed",
+    "dimensionsShort": "Mõõtmed",
+    "dimensionsNone": "Sellele komponendile pole mõõtmejooni lisatud",
+    "variants": {
+      "label": "Värv",
+      "gruen": "Roheline (standard)",
+      "blau": "Sinine (RAL 5005)",
+      "curry": "Karri (RAL 1002)",
+      "mocca": "Moka (RAL 7032)"
+    },
+    "rotate": "360° pööramine",
+    "rotateStart": "Käivita 360° pööramine",
+    "rotateStop": "Peata pööramine",
+    "wireframe": "Traatraam",
+    "wireframeToggle": "Traatraam / Tahke",
+    "center": "Tsentreeri kaamera",
+    "exportCad": "Ekspordi CAD-andmed",
+    "exportShort": "CAD-eksport",
+    "fullscreen": "Täisekraan",
+    "fullscreenExit": "Välju täisekraanilt",
+    "nominalSize": "Nimimõõt:",
+    "loading": "3D-mudeli laadimine",
+    "errorTitle": "3D-mudel pole saadaval",
+    "errorHint": "DIN/ISO järgse tehniliste mõõtmete tabeli leiate altpoolt.",
+    "errorModule": "Moodul: {id}",
+    "hint": "360° pööratav · Suum hiireratta / puute abil · Poollõige tööriistaribalt",
+    "hintTouch": "360° puude / hiir",
+    "accurate": "100% mõõdutäpne",
+    "madeInGermany": "Valmistatud Saksamaal",
+    "loadIn3d": "Laadi 3D-s",
+    "tab3d": "3D CAD-mudel (360°)",
+    "tabPhotos": "Tootefotod ({count})",
+    "tabTechnical": "Tehniline ülevaade",
+    "allInStudio": "Kõik {count} toodet 3D Studios",
+    "openInteractive": "Ava interaktiivne 3D-mudel",
+    "outerDiameter": "Välisläbimõõt (D)",
+    "nominal": "Nimimõõt (d)",
+    "wallThickness": "Seinapaksus (s)",
+    "totalLength": "Kogupikkus (l)",
+    "socketStop": "Muhvisügavus (z)",
+    "weightPer": "Kaal / tk",
+    "packUnit": "Pakendiühik",
+    "toProductPage": "Tootelehele",
+    "noModelTitle": "Selle toote kohta pole veel 3D-mudelit",
+    "noModelHint": "DIN/ISO järgse tehniliste mõõtmete tabeli leiate altpoolt."
   }
 }

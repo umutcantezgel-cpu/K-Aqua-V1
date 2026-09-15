@@ -218,6 +218,17 @@ describe('diagnoseMailFehler — Klartext ohne echten Schluessel', () => {
     expect(diagnoseMailFehler({ code: 'EAUTH' }, 'smtp').reason).toBe('auth');
   });
 
+  it('erkennt Microsoft 365 Exchange SMTP AUTH Sperre (5.7.139)', () => {
+    const d = diagnoseMailFehler(
+      { message: '535 5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant' },
+      'smtp'
+    );
+    expect(d.reason).toBe('auth');
+    expect(d.detail).toContain('Microsoft 365 SMTP AUTH');
+    expect(d.detail).toContain('5.7.139');
+    expect(d.detail).toContain('MFA');
+  });
+
   it('erkennt einen unerreichbaren Mailserver und nennt die Portfalle', () => {
     const d = diagnoseMailFehler({ code: 'ECONNREFUSED' }, 'smtp');
     expect(d.reason).toBe('network');

@@ -64,6 +64,19 @@ export function diagnoseMailFehler(fehler: unknown, kanal: MailChannel): Diagnos
     };
   }
 
+  // --- Microsoft 365 / Exchange Spezifika --------------------------------
+  if (
+    m.includes('smtpclientauthentication') ||
+    m.includes('5.7.139') ||
+    (m.includes('authentication unsuccessful') && m.includes('office365'))
+  ) {
+    return {
+      reason: 'auth',
+      detail:
+        'Microsoft 365 SMTP AUTH ist fuer dieses Postfach oder den Mandanten gesperrt (5.7.139). Im Microsoft 365 Admin Center unter "Aktive Benutzer > E-Mail > E-Mail-Apps" das Haekchen "Authentifiziertes SMTP" aktivieren und sicherstellen, dass fuer dieses technische Dienstkonto kein MFA-Zwang greift.',
+    };
+  }
+
   // --- Zugangsdaten ------------------------------------------------------
   if (
     m.includes('eauth') ||

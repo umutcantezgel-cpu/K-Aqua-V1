@@ -1,4 +1,54 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "Ljubičasto obojeno, npr. za pogonsku vodu / sustave navodnjavanja radi jasnog označavanja.",
+    "k-fiber-pipe-pp-rct-sdr-74": "Vlaknima ojačani srednji sloj smanjuje toplinsko istezanje za oko 50 %.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "Optimizirano za KGH primjene (rashladna i ogrjevna voda).",
+    "k-fiber-pipe-pp-r-sdr-17": "Cijev s vlaknima velikih dimenzija za industriju i opskrbu zgrada.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "UV-stabilizirani vanjski sloj za vanjsku primjenu.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "UV-stabilizirano za nadzemne vodove i krovne instalacije.",
+    "electrofusion-socket": "Elektrofuzijska spojnica: spajanje električnim zagrijavanjem bez grijača.",
+    "flange-adaptor": "Prijelaz na prirubnički spoj, za armature, crpke, vodomjere.",
+    "reducing-tee-large-sizes": "Za glavne vodove 63–75 mm.",
+    "cross-over": "Križa drugi cjevovod bez spoja.",
+    "elbow-bracket-90-female-thread": "S montažnom prirubnicom za zidno pričvršćivanje.",
+    "elbowwall-bracket-90-female-thread": "Dvostrano zidno pričvršćivanje.",
+    "metal-union-male-thread-yellow-brass": "Mjed CW617N.",
+    "metal-union-female-thread-yellow-brass": "Mjed CW617N.",
+    "tee-90-female-thread": "Rastavljivo za radove održavanja bez rezanja cijevi.",
+    "union-for-watermeters": "Olakšava ugradnju i demontažu vodomjera.",
+    "pp-r-ball-valve-ball-in-pp": "Puni protok, PP kugla, zavarene spojnice s obje strane.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "Kromirana mjedena kugla za velika opterećenja.",
+    "tee-90-female-thread-for-internal-valve": "Prihvatni T-komad za podžbukne ventile.",
+    "concealed-valve-chrome-light-part": "Vidljiva maska + vreteno, kromirana izvedba.",
+    "concealed-valve-chrome-heavy-part": "Podžbukno tijelo ventila, montirano u prihvatni T-komad.",
+    "straight-seat-valve-upper-part-green-handle": "Gornji dio s ručkom za ravne ventile.",
+    "elongation-pieces": "Produžetak za različite debljine zidova.",
+    "battery-female-thread": "Razdjelna baterija za podno grijanje / višestruku distribuciju.",
+    "adjustable-battery-female-thread": "Podesivi razmak osi između izlaza.",
+    "weld-in-saddle": "Bez navoja: PP-R odvojak, zavaruje se izravno na glavni vod.",
+    "pipe-clamps": "S gumenim uloškom, za držanje i pričvršćivanje cijevi.",
+    "backing-flange-pp-steel-sfbf": "Čelikom ojačana protuprirubnica za prirubnički adapter.",
+    "flat-gasket": "EPDM ravna brtva za prirubničke spojeve.",
+    "flat-gasket-for-unions-pp-r": "EPDM brtva za holendere.",
+    "plug": "Navojni čep za zatvaranje otvorenih krajeva. Ostale veličine na upit.",
+    "pipe-cutter-2040": "Rezač cijevi s čegrtaljkom za čiste, pravokutne rezove.",
+    "pipe-cutter-50125": "Robusni rezač cijevi za velike dimenzije.",
+    "pipe-cutter-50125-1": "Ljušti površinu cijevi prije zavarivanja.",
+    "hand-welding-machine-2032-complete-set": "Kompaktni uređaj za zavarivanje spojnica.",
+    "hand-welding-machine-2063-complete-set": "Kompletan set s grijaćom pločom, stalkom i alatima.",
+    "hand-welding-machine-mirror-50125": "Zamjensko grijaće zrcalo za uređaj od 50–125 mm.",
+    "welding-tool": "Pojedinačni parovi alata trn/čahura za grijanje po dimenziji.",
+    "welding-machine-50125-complete-set": "Profesionalni uređaj za zavarivanje spojnica velikih dimenzija.",
+    "butt-welding-machine-90250": "Stroj za sučeono zavarivanje velikih dimenzija.",
+    "electrofusion-machine": "Upravljački uređaj za elektrofuzijske fitinge, s barkod skenerom.",
+    "welding-tool-for-weld-in-saddles": "Specijalni alat za navarivanje sedlastih priključaka.",
+    "drilling-tool-for-weld-in-saddle": "Krunsko svrdlo za otvaranje mjesta odvajanja nakon sedlastog zavarivanja.",
+    "welding-tool-for-repairing-plug": "Grijaći alati za sustav čepova za popravak.",
+    "repairing-plug": "Čep za popravak u nuždi za brtvljenje curenja bez pražnjenja."
+  },
+  "catalogExtra": {
+    "viewDetails": "Detalji o proizvodu"
+  },
   "aboutDeep": {
     "eyebrow": "Dubinski Uvid",
     "title": "K-Aqua Stručnost",
@@ -674,9 +724,9 @@
     },
     "genauManagement": {
       "eyebrow": "provjerena kvaliteta",
-      "title1": "Sustav upravljanja ",
+      "title1": "",
       "titleHighlight": "GENAU",
-      "title2": "",
+      "title2": " sustav upravljanja",
       "p1": "Cilj je stalno unaprjeđivanje sigurnosti na radu, zdravlja i okoliša.",
       "p2": "Ispunjava najviše standarde ",
       "p3": " i ",
@@ -806,6 +856,9 @@
     "eyebrow": "Kontakt",
     "title1": "Razgovarajmo o vašem ",
     "titleGrad": "projektu.",
+    "seoH1": "Kontaktirajte K-Aquu: Stupite u kontakt s našim stručnjacima za PP-R",
+    "formEyebrow": "Interaktivno",
+    "formTitle": "Projektni upit i podrška",
     "locTitle": "Lokacija Njemačka",
     "salesTitle": "Prodaja",
     "supportTitle": "Kvaliteta i tehnička podrška",
@@ -3504,7 +3557,7 @@
         "Socket Fusion (Zavarivanje spojnice): Cijev i fiting se plastificiraju i spajaju pomoću grijaće čahure i trna."
       ],
       [
-        "Elektroschweißen",
+        "Elektrofuzijsko zavarivanje",
         "Electrofusion (Elektrofuzijsko zavarivanje): Ugrađene grijaće zavojnice u fitingu stvaraju toplinu za zavarivanje prema unaprijed postavljenim parametrima."
       ],
       [
@@ -3759,40 +3812,40 @@
         "t": "Kontinuirano praćenje: Sljedivost iz procesa ekstruzije",
         "teaser": "Svaka K Aqua cijev nosi jedinstvenu, kontinuiranu oznaku preuzetu ravno iz postupka ekstruzije.",
         "body": [
-          "Uz do 14.000 metara cijevi po stroju dnevno, osigurati pouzdanost od ruba tvornice do narudžbe neophodan je zadatak: svaka se cijev u procesu kontinuirano označava informacijama koje planeri i inspektori trebaju na gradilištu.",
-          "Ta oznaka povezuje svaki fizički proizvod na njegovu specifičnu seriju, osiguravajući besprijekornu sljedivost sve do laboratorija - ključni dio našeg QA Priručnika koje vaši revizori mogu pregledati putem našeg Centra za povjerenje (Trust Center)."
+          "Uz do 14.000 metara cijevi po stroju dnevno, sljedivost nije proizvoljan izbor: svaka se cijev u tekućem procesu ekstruzije kontinuirano označava informacijama koje projektanti i ispitivači trebaju na gradilištu.",
+          "Oznaka povezuje fizički proizvod s njegovom serijom i ispitnim protokolima osiguranja kvalitete. Ono što piše na cijevi može se pratiti sve do ispitnog laboratorija — sastavni dio priručnika kvalitete koji revizori mogu zatražiti u Centru povjerenja."
         ]
       },
       {
         "date": "Znanje",
         "tag": "Materijal",
-        "t": "Zašto baš PP-R?",
-        "teaser": "Od sporednog plina do cijevi za pitku vodu: kratka priča o polipropilenu.",
+        "t": "Zašto zapravo PP-R?",
+        "teaser": "Od plina s baklje do cijevi za pitku vodu: kratka povijest materijala polipropilena.",
         "body": [
-          "Polipropilen se razvija od plina koji je u prošlosti samo bezvezno izgarao. Korištenje tog plina za stvaranje izdržljivog, tehničkog i sintetskog rješenja pomaže smanjiti zagađenje zraka. Polipropilen je poznat po iznimnoj fleksibilnosti s odličnom otpornošću na kiseline i koroziju.",
-          "Unutarnja glatkoća svake cijevi smanjuje trenje pritiska dok sprječava formaciju minerala i biofilma. Osim toga, s toplinskom provodljivošću od 0,24 W/(m·K), topla voda održava se na visokim razinama temperature unutar instalacije.",
-          "PPRCT proširuje sve granice performansi polipropilena. Struktura omogućuje rad na 70 °C s podesnim pritiskom od 10 bara pri SDR 7,4 za trajne primjene tople vode bez gubitaka materijala."
+          "Polipropilen nastaje iz plinova koji su se ranije beskorisno spaljivali na bakljama. Materijalna upotreba smanjuje onečišćenje zraka na samom izvoru. Kao tehnička plastika, PP je neobično otporan na otapala, lužine i kiseline te u injekcijskom prešanju tvori složene geometrije.",
+          "Kod cijevi je najvažnija unutarnja površina: s hrapavošću od 0,007 mm gubitak tlaka ostaje minimalan, a biofilm i inkrustacije jedva nalaze uporište. Tome se pridodaje toplinska vodljivost od 0,24 W/(m·K): topla voda ostaje topla, bez rada izolacije protiv same sebe.",
+          "PP-RCT još jednom pomiče granice: modificirana kristalna struktura donosi više rezervi temperature i tlaka. SDR 7.4 drži 70 °C pri 10 bara u trajnom radu."
         ]
       },
       {
         "date": "Znanje",
         "tag": "Materijal",
-        "t": "Mesing sreće polipropilen: Prijelazi u postojeće instalacije",
-        "teaser": "Obnavljanje obično podrazumijeva promjenu cijelog sustava, ali pomoću ovih nastavka to nije nužno.",
+        "t": "Mjed susreće polipropilen: Prijelazi u postojeće instalacije",
+        "teaser": "Sanacija gotovo uvijek znači promjenu sustava: prijelazni komadi s mjedenim navojem čine je čistom.",
         "body": [
-          "Malo koji projekt počinje s praznog lista; postojeći cjevovodi iz drugih elemenata kao što su željezo ili čelik u većini slučajeva zahtijevaju siguran prijelazni element na PP materijale. Naši ugrađeni prijelazi osiguravaju precizno prianjanje za sigurnost u radu s vodom, rješavajući hrđu unutar jedinstvenog toka.",
-          "Obnova nikad nije bila jednostavnija. Odvojene zone mogu prelaziti i osigurati stabilnost protiv korozije. Odspojni ventili, armatura bez obzira na stare spojeve rješavaju se na pouzdan i jednostavan način."
+          "Malo koji projekt započinje od nule: postojeći cjevovodi od bakra ili pocinčanog čelika moraju se spojiti. Za to postoje prijelazni komadi s ugrađenim mjedenim unutarnjim ili vanjskim navojem: navojna strana spaja se s metalnim dijelom, a PP strana homogeno se zavaruje.",
+          "Tako se može sanirati po dionicama: korodirani vodovi se zamjenjuju, funkcionalni ostaju, a problem korozije ne prelazi u novi sustav. Holenderi po potrebi ponovno omogućuju rastavljanje spoja, primjerice kod armatura i vodomjera."
         ]
       }
     ],
-    "ishTitle": "Zbirno mjesto industrije",
-    "ishText": "HVAC industrija se redovito okuplja na vodećim svjetskim sajmovima kao što su Big 5 u Dubaiju i Rijadu, i ISH u Frankfurtu. Predstojeći datumi za K-Aqua bit će objavljeni ovdje."
+    "ishTitle": "Mjesto susreta struke",
+    "ishText": "KGH struka redovito se sastaje na velikim vodećim sajmovima poput ISH u Frankfurtu i Big 5 u Dubaiju i Rijadu. Čim budu utvrđeni sljedeći K-Aqua termini, pojavit će se ovdje."
   },
   "catalogx": {
     "eyebrow": "Kompletni katalog proizvoda",
     "faqTitle": "Često postavljana pitanja",
     "title": "Svih 79 obitelji artikala, sa stvarnim brojevima artikala.",
-    "lead": "Cijevi, Fazonski komadi, Übergangsfittings, Armature, Einschweißsattel, Pribor und Alati, jede Zeile stammt aus dem verbindlichen K Aqua Katalog. Kategorie wählen, Artikel aufklappen, Artikelnummer prüfen.",
+    "lead": "Cijevi, fazonski komadi, prijelazni fitinzi, armature, sedlasti priključci, pribor i alati — svaki redak potječe iz službenog K-Aqua kataloga. Odaberite kategoriju, otvorite artikl, provjerite broj artikla.",
     "searchPlaceholder": "Pretražite broj artikla ili naziv proizvoda, npr. „AQ200P20\" ili „Elbow\"",
     "noResults": "Nema rezultata. Prilagodite pretragu ili odaberite drugu kategoriju.",
     "codesLabel": "Brojevi artikala",
@@ -3805,7 +3858,7 @@
     "cats": {
       "pipes": {
         "label": "Cijevi",
-        "desc": "PPR und PPRCT Cijevi: Standard, faserverstärkt und UV-stabilisiert, 12 Baureihen."
+        "desc": "PP-R i PP-RCT cijevi: standardne, ojačane vlaknima i UV-stabilizirane, 12 serija."
       },
       "fittings": {
         "label": "Fazonski komadi",
@@ -3813,14 +3866,14 @@
       },
       "transitionFittings": {
         "label": "Prijelazni fitinzi",
-        "desc": "Übergänge auf Gewinde und Messing, für Bestandsanschlüsse und Armature, 13 Familien."
+        "desc": "Prijelazi na navoj i mjed, za postojeće priključke i armature, 13 obitelji."
       },
       "valves": {
         "label": "Armature",
         "desc": "Kuglaste slavine, podžbukni ventili, razdjelne baterije, 9 obitelji artikala."
       },
       "weldInSaddles": {
-        "label": "Einschweißsattel",
+        "label": "Sedlasti priključci",
         "desc": "Odvojci bez rezanja cijevi, s navojem i bez njega, 3 obitelji."
       },
       "accessories": {
@@ -3834,7 +3887,7 @@
     },
     "rfq": {
       "title": "Projektni upit",
-      "desc": "Fordern Sie direkt ein Angebot für <strong>{title}</strong> an.",
+      "desc": "Zatražite izravno ponudu za <strong>{title}</strong>.",
       "button": "Na upit"
     },
     "similar": {
@@ -3847,16 +3900,16 @@
         "seo_p3": "Zahvaljujući izvrsnoj kemijskoj i toplinskoj otpornosti, cijev SDR 6 idealna je za industrijske primjene i opskrbu pitkom vodom. Glatka unutarnja površina minimizira gubitke tlaka i sprječava naslage.",
         "faq": [
           {
-            "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
-            "a": "Es ist für Dauerbetriebstemperaturen bis zu 70°C ausgelegt und bietet bei 20°C eine Druckfestigkeit von 20 Bar."
+            "q": "Za koje je radne temperature prikladan SDR 6?",
+            "a": "Dizajnirana je za trajne radne temperature do 70°C i nudi tlačnu otpornost od 20 bara pri 20°C."
           },
           {
-            "q": "Welche Vorteile bietet die hohe Wandstärke?",
-            "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilität bei stark beanspruchten Anlagen."
+            "q": "Koje prednosti pruža velika debljina stijenke?",
+            "a": "Serija SDR 6 (S 2.5) nudi maksimalnu tlačnu otpornost i mehaničku stabilnost u visokoopterećenim sustavima."
           },
           {
-            "q": "Kann ich dieses Rohr für Kaltwasser nutzen?",
-            "a": "Ja, es eignet sich exzellent für Kaltwassersysteme, da die glatte Oberfläche Inkrustationen und Bakterienwachstum effektiv verhindert."
+            "q": "Mogu li koristiti ovu cijev za hladnu vodu?",
+            "a": "Da, izvrsno je prikladna za sustave hladne vode jer glatka površina učinkovito sprječava inkrustacije i rast bakterija."
           }
         ]
       },
@@ -3866,16 +3919,16 @@
         "seo_p3": "Tipična područja primjene obuhvaćaju složene sustave grijanja, klimatizacije i sanitarne instalacije. Zahvaljujući PPRCT materijalu, instalateri profitiraju od veće dugotrajne čvrstoće i pri višim temperaturama.",
         "faq": [
           {
-            "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
-            "a": "PPRCT steht für eine verbesserte kristalline Struktur, die höhere Drücke bei höheren Temperaturen erlaubt, sodass dünnere Wandstärken möglich sind."
+            "q": "Što znači PP-RCT u usporedbi s PP-R-om?",
+            "a": "PP-RCT označava poboljšanu kristalnu strukturu koja omogućuje više tlakove pri višim temperaturama, pa su moguće tanje stijenke."
           },
           {
-            "q": "Ist die Durchflussmenge bei SDR 7.4 höher?",
-            "a": "Ja, durch die reduzierten Wandstärken des PPRCT wird bei gleichem Außendurchmesser eine bis zu 17 % höhere Durchflusskapazität erreicht."
+            "q": "Je li protok veći kod SDR 7.4?",
+            "a": "Da, zahvaljujući smanjenoj debljini stijenke PP-RCT-a postiže se do 17 % veći kapacitet protoka pri istom vanjskom promjeru."
           },
           {
-            "q": "Eignet sich SDR 7.4 für Heizsysteme?",
-            "a": "Absolut, das Material ist thermisch extrem widerstandsfähig und daher ideal für Vorlaufleitungen in modernen Heizanlagen."
+            "q": "Je li SDR 7.4 prikladan za sustave grijanja?",
+            "a": "Apsolutno, materijal je iznimno toplinski otporan i stoga idealan za polazne vodove u modernim sustavima grijanja."
           }
         ]
       },
@@ -3885,16 +3938,16 @@
         "seo_p3": "Često se koristi u razvodu hladne vode i kao svestrani vod u kućnim instalacijama. Homogeni zavareni spoj jamči doživotnu nepropusnost bez mehaničkih slabih točaka.",
         "faq": [
           {
-            "q": "Ist das Rohr für Kalt- und Warmwasser geeignet?",
-            "a": "Das SDR 11 Rohr ist hauptsächlich für Kaltwasser (20°C bei 12 Bar) und den Niederdruck-Warmwasserbereich (60°C bei 6 Bar) konzipiert."
+            "q": "Je li cijev prikladna za hladnu i toplu vodu?",
+            "a": "Cijev SDR 11 primarno je dizajnirana za hladnu vodu (20°C pri 12 bara) i niskotlačno područje tople vode (60°C pri 6 bara)."
           },
           {
-            "q": "Wie wird das PP-R SDR 11 Rohr verlegt?",
-            "a": "Die Verlegung erfolgt über das Heizelement-Muffenschweißverfahren, wodurch absolut homogene, leckagefreie Verbindungen entstehen."
+            "q": "Kako se polaže PP-R SDR 11 cijev?",
+            "a": "Polaganje se izvodi postupkom polifuzijskog zavarivanja spojnica, čime nastaju apsolutno homogeni spojevi bez propuštanja."
           },
           {
-            "q": "Gibt es Gewichtsabweichungen gegenüber anderen SDR-Klassen?",
-            "a": "Ja, durch die geringere Wanddicke ist das Rohr deutlich leichter und flexibler in der Handhabung auf der Baustelle."
+            "q": "Postoje li razlike u težini u odnosu na druge SDR klase?",
+            "a": "Da, zbog manje debljine stijenke cijev je znatno lakša i fleksibilnija za rukovanje na gradilištu."
           }
         ]
       },
@@ -3904,16 +3957,16 @@
         "seo_p3": "Upotrebom ove posebne cijevi povećava se sigurnost sustava i vizualno osigurava normirano odvajanje pitke i tehničke vode. Savršeno za održive sustave upravljanja vodom.",
         "faq": [
           {
-            "q": "Wofür steht die violette Farbe?",
-            "a": "Sie dient der optischen Unterscheidung von Leitungssystemen für Betriebswasser, Grauwasser oder Regenwassernutzung gemäß internationalen Vorgaben."
+            "q": "Što označava ljubičasta boja?",
+            "a": "Služi za vizualno razlikovanje cjevovodnih sustava za pogonsku vodu, sivu vodu ili korištenje kišnice u skladu s međunarodnim propisima."
           },
           {
-            "q": "Kann das Rohr mit normalen PP-R Fittings verschweißt werden?",
-            "a": "Ja, das violette Rohr ist kompatibel mit allen K Aqua Standard-Fittings und wird mit den gleichen Parametern verschweißt."
+            "q": "Može li se cijev zavarivati sa standardnim PP-R fitinzima?",
+            "a": "Da, ljubičasta cijev je kompatibilna sa svim K-Aqua standardnim fitinzima i zavaruje se s istim parametrima."
           },
           {
-            "q": "Beeinflusst die Farbe die Qualität des Materials?",
-            "a": "Nein, die physikalischen und chemischen Eigenschaften sind identisch mit dem regulären PP-R SDR 11 Rohr."
+            "q": "Utječe li boja na kvalitetu materijala?",
+            "a": "Ne, fizikalna i kemijska svojstva identična su standardnoj PP-R SDR 11 cijevi."
           }
         ]
       },
@@ -3923,15 +3976,15 @@
         "seo_p3": "To čini cijev savršenim izborom za vertikale i duge trase u instalacijskoj tehnici zgrada, gdje je potrebno manje točaka pričvršćenja, što štedi vrijeme instalacije i troškove materijala.",
         "faq": [
           {
-            "q": "Wie stark reduziert die Faser die thermische Längenausdehnung?",
-            "a": "Die integrierte Glasfaserschicht verringert die lineare Ausdehnung im Vergleich zu massiven PP-R Cijevin um bis zu 75 %."
+            "q": "Koliko vlakna smanjuju toplinsko uzdužno istezanje?",
+            "a": "Integrirani sloj staklenih vlakana smanjuje linearno istezanje u usporedbi s punim PP-R cijevima za do 75 %."
           },
           {
-            "q": "Muss das Faserrohr vor dem Schweißen geschält werden?",
-            "a": "Nein, im Gegensatz zu Stabi-Cijevin mit Aluminiumschicht kann unser Faserrohr direkt und ohne Vorbehandlung verschweißt werden."
+            "q": "Mora li se cijev s vlaknima ljuštiti prije zavarivanja?",
+            "a": "Ne, za razliku od Stabi cijevi s aluminijskim slojem, naša cijev s vlaknima može se zavarivati izravno i bez prethodne obrade."
           },
           {
-            "q": "Ist das Rohr für zentrale Steigleitungen geeignet?",
+            "q": "Je li cijev prikladna za središnje vertikale?",
             "a": "Ja, durch die extrem hohe Eigensteifigkeit und Druckbeständigkeit ist es die optimale Wahl für große Steigstränge."
           }
         ]
@@ -3942,16 +3995,16 @@
         "seo_p3": "Ova cijev svoje snage posebno pokazuje u velikim HVAC sustavima (grijanje, ventilacija, klimatizacija). Sprječava koroziju u rashladnom krugu i osigurava rad bez održavanja te energetsku učinkovitost.",
         "faq": [
           {
-            "q": "Was macht das Rohr ideal für Klimakaltwasser?",
-            "a": "Die geringe Wärmeleitfähigkeit von PPRCT verhindert die Kondenswasserbildung deutlich besser als bei metallischen Cijevin."
+            "q": "Što ovu cijev čini idealnom za rashladnu vodu klimatizacije?",
+            "a": "Niska toplinska vodljivost PP-RCT-a sprječava stvaranje kondenzata znatno bolje nego kod metalnih cijevi."
           },
           {
-            "q": "Wie verhält es sich bei der Zirkulation von Frostschutzmitteln?",
-            "a": "Es ist äußerst beständig gegen gängige Glykole und Frostschutzmittel, wodurch Leckagen durch Materialermüdung verhindert werden."
+            "q": "Kako se ponaša pri cirkulaciji sredstava protiv smrzavanja?",
+            "a": "Iznimno je otporna na uobičajene glikole i antifrize, čime se sprječavaju curenja uzrokovana zamorom materijala."
           },
           {
-            "q": "Können die Cijevi für große Volumenströme genutzt werden?",
-            "a": "Durch die dünnere Wandung (SDR 11) bei maximaler Stabilität ermöglicht es extrem große Volumenströme in Industrienetzen."
+            "q": "Mogu li se cijevi koristiti za velike volumne protoke?",
+            "a": "Zahvaljujući tanjoj stijenci (SDR 11) uz maksimalnu stabilnost, omogućuje iznimno velike volumne protoke u industrijskim mrežama."
           }
         ]
       },
@@ -3961,35 +4014,35 @@
         "seo_p3": "Bilo u industrijskoj gradnji postrojenja ili u složenim cirkulacijskim sustavima tople vode, ova cijev osigurava krutu ugradnju bez deformacija i najvišu pogonsku sigurnost tijekom desetljeća.",
         "faq": [
           {
-            "q": "Ist SDR 7.4 für hohe Temperaturen zugelassen?",
-            "a": "Ja, es toleriert Temperaturen bis 70°C bei einem Nenndruck von 1.0 MPa (10 Bar) und kurzzeitige Spitzen von 95°C."
+            "q": "Je li SDR 7.4 odobren za visoke temperature?",
+            "a": "Da, podnosi temperature do 70°C pri nazivnom tlaku od 1,0 MPa (10 bara) i kratkotrajne vršne vrijednosti od 95°C."
           },
           {
-            "q": "Wie viele Befestigungsschellen sind bei langen Strecken nötig?",
-            "a": "Dank der Faserverstärkung können die Befestigungsabstände im Vergleich zu Standardrohren drastisch vergrößert werden."
+            "q": "Koliko je pričvrsnih obujmica potrebno na dugim dionicama?",
+            "a": "Zahvaljujući ojačanju vlaknima, razmaci pričvršćivanja mogu se znatno povećati u usporedbi sa standardnim cijevima."
           },
           {
-            "q": "Gibt es Korrosionsrisiken bei wechselnden Wasserqualitäten?",
-            "a": "Nein, das PP-R Material ist 100 % korrosionsfrei und unabhängig vom pH-Wert des transportierten Mediums."
+            "q": "Postoje li rizici od korozije kod promjenjive kvalitete vode?",
+            "a": "Ne, PP-R materijal je 100 % otporan na koroziju i neovisan o pH vrijednosti transportiranog medija."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-9": {
         "seo_p1": "K-Fiber Pipe PP-R SDR 9 premošćuje jaz između standardnih i visokotlačnih cijevi s vlaknima. Nudi izvrsnu ravnotežu protočnog kapaciteta i tlačne otpornosti.",
         "seo_p2": "Sa serijom S 4 (SDR 9) PP-R cijev s vlaknima odobrena je za tlakove do 2.0 MPa pri 20°C. Debljine stijenki optimirane su za srednja do visoka opterećenja.",
-        "seo_p3": "Dieses Rohr wird oft in gewerblichen und industriellen Projekten eingesetzt, wo herkömmliche Cijevi an ihre Grenzen stoßen, aber die extremen Reserven von SDR 7.4 noch nicht benötigt werden.",
+        "seo_p3": "Ova se cijev često koristi u komercijalnim i industrijskim projektima gdje konvencionalne cijevi dosežu svoje granice, ali ekstremne rezerve SDR 7.4 još nisu potrebne.",
         "faq": [
           {
-            "q": "Warum SDR 9 anstelle von SDR 7.4 wählen?",
-            "a": "SDR 9 bietet einen exzellenten Kompromiss aus höherer Durchflusskapazität (dünnere Wand) und immer noch extremer Druckbeständigkeit."
+            "q": "Zašto odabrati SDR 9 umjesto SDR 7.4?",
+            "a": "SDR 9 nudi izvrstan kompromis većeg protočnog kapaciteta (tanja stijenka) i još uvijek iznimne tlačne otpornosti."
           },
           {
-            "q": "Kann es mit Standard-PP-R Fazonski komadin verschweißt werden?",
-            "a": "Absolut, das Faserrohr SDR 9 ist voll kompatibel mit unseren K Aqua SDR 6 und SDR 7.4 PP-R Fittings."
+            "q": "Može li se zavarivati sa standardnim PP-R fitinzima?",
+            "a": "Apsolutno, cijev s vlaknima SDR 9 potpuno je kompatibilna s našim K-Aqua SDR 6 i SDR 7.4 PP-R fitinzima."
           },
           {
-            "q": "Ist es für die Trinkwasserversorgung zugelassen?",
-            "a": "Ja, es erfüllt alle hygienischen Standards für heißes und kaltes Trinkwasser weltweit."
+            "q": "Je li odobrena za opskrbu pitkom vodom?",
+            "a": "Da, ispunjava sve higijenske standarde za toplu i hladnu pitku vodu diljem svijeta."
           }
         ]
       },
@@ -3999,35 +4052,73 @@
         "seo_p3": "Izvrsno je prikladan za rashladnu vodu u klimatizaciji i velike razvodne vodove. Ugradnja teče vrlo brzo zahvaljujući maloj težini i smanjenim razmacima učvršćenja.",
         "faq": [
           {
-            "q": "Sind die Schweißzeiten bei SDR 11 Cijevin kürzer?",
-            "a": "Ja, aufgrund der reduzierten Wanddicke verkürzen sich die Aufwärmzeiten am Heizelement, was den Arbeitsprozess beschleunigt."
+            "q": "Jesu li vremena zavarivanja kraća kod cijevi SDR 11?",
+            "a": "Da, zbog smanjene debljine stijenke skraćuju se vremena zagrijavanja na grijaćem elementu, što ubrzava radni proces."
           },
           {
-            "q": "Was sind die Einsatzgrenzen für dieses SDR 11 Rohr?",
-            "a": "Es ist auf maximale Drücke von 16 Bar bei 20°C und 8 Bar bei 60°C ausgelegt."
+            "q": "Koje su granice primjene za ovu SDR 11 cijev?",
+            "a": "Dizajnirana je za maksimalne tlakove od 16 bara pri 20°C i 8 bara pri 60°C."
           },
           {
-            "q": "Profitieren Kühlsysteme von diesem Rohr?",
-            "a": "Ja, der hervorragende Isolationswert minimiert den Energieverlust in Kühlnetzen signifikant."
+            "q": "Profitiraju li rashladni sustavi od ove cijevi?",
+            "a": "Da, izvanredna izolacijska vrijednost znatno minimizira gubitak energije u rashladnim mrežama."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-17": {
         "seo_p1": "Velikodimenzionirana cijev K-Fiber Pipe PP-R SDR 17 razvijena je posebno za velika industrijska postrojenja i glavne opskrbne vodove. Nudi masivne protočne presjeke.",
-        "seo_p2": "Mit Durchmessern von bis zu 630 mm und der Baureihe S 8 (SDR 17) bewältigt dieses Rohr 0.8 MPa bei 20°C. Die Faserverstärkung sorgt selbst bei diesen großen Dimensionen für hohe Dimensionsstabilität.",
+        "seo_p2": "S promjerima do 630 mm i serijom S 8 (SDR 17), ova cijev podnosi 0,8 MPa pri 20°C. Ojačanje vlaknima osigurava visoku dimenzijsku stabilnost čak i pri ovim velikim dimenzijama.",
         "seo_p3": "Idealna za mreže daljinskog hlađenja, komunalnu vodoopskrbu ili kao glavni vertikalni vod u visokim zgradama. Ona je alternativa bez korozije teškim metalnim cijevima velikih promjera.",
         "faq": [
           {
-            "q": "Ist SDR 17 für hohe Netzdruckstufen geeignet?",
-            "a": "SDR 17 (PN 10) ist speziell für Niederdrucknetze mit enormen Volumenströmen konzipiert, z. B. bei Fernkältenetzen."
+            "q": "Je li SDR 17 prikladan za visoke stupnjeve tlaka u mreži?",
+            "a": "SDR 17 (PN 10) posebno je dizajniran za niskotlačne mreže s golemim volumnim protocima, npr. kod mreža daljinskog hlađenja."
           },
           {
-            "q": "Wie erfolgt die Verbindung von solch großen Dimensionen?",
-            "a": "Großrohre (90 mm bis 630 mm) werden vorzugsweise durch Heizelement-Stumpfschweißen oder mit Elektroschweißmuffen verbunden."
+            "q": "Kako se izvodi spajanje tako velikih dimenzija?",
+            "a": "Cijevi velikog promjera (90 mm do 630 mm) spajaju se prvenstveno sučeonim zavarivanjem grijaćim elementom ili elektrofuzijskim spojnicama."
           },
           {
-            "q": "Was ist der Hauptvorteil gegenüber Stahlrohren?",
-            "a": "Das PP-R Rohr rostet nicht, wiegt einen Bruchteil von Stahlrohren und bewahrt dauerhaft einen perfekten Durchflussquerschnitt."
+            "q": "Koja je glavna prednost u odnosu na čelične cijevi?",
+            "a": "PP-R cijev ne hrđa, teži samo dio težine čeličnih cijevi i trajno zadržava savršen protočni presjek."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-r-sdr-74": {
+        "seo_p1": "Cijev K-Fiber UV Pipe PP-R SDR 7.4 rješava problem UV degradacije pri nezaštićenoj vanjskoj montaži. Raspolaže posebnim vanjskim slojem otpornim na vremenske uvjete.",
+        "seo_p2": "Uz toplinski stabilizirajući srednji sloj s vlaknima i PP-R osnovu (SDR 7.4, 2.0 MPa), UV plašt trajno štiti cijev od izravnog sunčevog zračenja i vremenskih utjecaja.",
+        "seo_p3": "Zahvaljujući tome savršeno je prikladna za krovne instalacije, postrojenja na otvorenom ili cjevovode na mostovima. Dodatne izolacije ili premazi za UV zaštitu mogu u potpunosti izostati.",
+        "faq": [
+          {
+            "q": "Kako se postiže UV zaštita kod ove cijevi?",
+            "a": "Poseban, koekstrudirani crni vanjski sloj apsorbira i blokira štetno UV zračenje prije nego što može napasti PP-R materijal."
+          },
+          {
+            "q": "Mora li se UV sloj ukloniti prije zavarivanja?",
+            "a": "Ne, budući da se radi o homogenom plastičnom sloju, pri polifuzijskom zavarivanju spojnica on se jednostavno stapa s fitingom."
+          },
+          {
+            "q": "Je li vijek trajanja na otvorenom ograničen?",
+            "a": "UV zaštitni sloj sprječava degradaciju polimera, tako da je puni vijek trajanja od 50 godina zajamčen i pri izravnom sunčevom zračenju."
+          }
+        ]
+      },
+      "k-fiber-uv-pipe-pp-rct-sdr-74": {
+        "seo_p1": "Premium cijev K-Fiber UV Pipe PPRCT SDR 7.4 objedinjuje sva vrhunska svojstva: materijal visokih performansi, ojačanje vlaknima i integriranu UV zaštitu u jednom jedinom proizvodu.",
+        "seo_p2": "Zasnovana na PPRCT materijalu za najvišu temperaturnu otpornost (do 70°C pri 1.0 MPa) i opremljena UV otpornim plaštem, ova cijev SDR 7.4 ultimativni je svestrani proizvod za ekstremne uvjete.",
+        "seo_p3": "Bilo da je riječ o solarnim priključnim vodovima, rashladnim tornjevima na industrijskim zgradama ili zahtjevnim vanjskim instalacijama u vrućim klimatskim zonama, ova cijev jamči maksimalan vijek trajanja bez zamora materijala.",
+        "faq": [
+          {
+            "q": "Kombinira li ova cijev UV zaštitu s većim protokom?",
+            "a": "Da, zahvaljujući visokokristalnom PP-RCT materijalu može se koristiti tanja stijenka, dok UV sloj pruža iznimnu vanjsku zaštitu."
+          },
+          {
+            "q": "Jesu li dostupni UV-otporni K-Aqua fazonski komadi?",
+            "a": "Fazonski komadi se obično štite izolacijom, premazom ili UV zaštitnim trakama, dok su duge cijevne trase tvornički zaštićene."
+          },
+          {
+            "q": "Je li ova cijev prikladna za rashladne tornjeve?",
+            "a": "Optimalan je izbor jer trajno podnosi i jako sunce i kemijske dodatke u rashladnoj vodi."
           }
         ]
       },
@@ -4071,20 +4162,20 @@
       },
       "cap": {
         "seo_p1": "Završna kapa (Cap) nezaobilazan je fazonski komad unutar naše kategorije fitinga, osmišljen za trajno i sigurno zatvaranje krajeva cjevovoda.",
-        "seo_p2": "Gefertigt aus hochwertigem PP-R-Material, entspricht die Kappe den gängigen SDR-Klassen der Cijevi und bietet höchste Druckbeständigkeit sowie Maßgenauigkeit für eine homogene Verschweißung.",
+        "seo_p2": "Izrađena od visokokvalitetnog PP-R materijala, kapa odgovara uobičajenim SDR klasama cijevi i nudi najvišu tlačnu otpornost te dimenzijsku točnost za homogeno zavarivanje.",
         "seo_p3": "Optimalno je prikladna za konačno ili privremeno stavljanje cijevnih ogranaka izvan pogona u mrežama pitke vode i grijanja, uz zajamčeno apsolutno nepropusno brtvljenje bez potrebe za održavanjem.",
         "faq": [
           {
-            "q": "Kann die Endkappe für eine Druckprüfung genutzt werden?",
-            "a": "Ja, nach ordnungsgemäßer Verschweißung und Abkühlung hält die Endkappe dem vollen Prüfdruck des Systems (bis zu 30 Bar) problemlos stand."
+            "q": "Može li se završna kapa koristiti za tlačno ispitivanje?",
+            "a": "Da, nakon pravilnog zavarivanja i hlađenja, završna kapa bez problema podnosi puni ispitni tlak sustava (do 30 bara)."
           },
           {
-            "q": "Wie verschließe ich temporäre Leitungen?",
-            "a": "Für temporäre Absperrungen empfehlen wir Stopfen mit Gewinde; die Endkappe wird homogen verschweißt und ist somit für den permanenten Verschluss gedacht."
+            "q": "Kako zatvoriti privremene vodove?",
+            "a": "Za privremena zatvaranja preporučujemo čepove s navojem; završna kapa se homogeno zavaruje i stoga je namijenjena trajnom zatvaranju."
           },
           {
-            "q": "Ist die Endkappe bei allen Temperaturen dicht?",
-            "a": "Durch die thermische Verschmelzung gibt es keine unterschiedlichen Ausdehnungskoeffizienten, wodurch sie von 0°C bis 95°C absolut leckagefrei bleibt."
+            "q": "Je li završna kapa nepropusna na svim temperaturama?",
+            "a": "Zbog termičkog stapanja nema različitih koeficijenata istezanja, čime ostaje apsolutno bez propuštanja od 0°C do 95°C."
           }
         ]
       },
@@ -4094,16 +4185,16 @@
         "seo_p3": "Bilo u privatnim sanitarnim instalacijama ili u industrijskoj izgradnji postrojenja, spojnica osigurava neometan protok bez suženja presjeka i sprječava dugoročne gubitke tlaka.",
         "faq": [
           {
-            "q": "Wie tief muss das Rohr in die Muffe eingeführt werden?",
-            "a": "Die Einstecktiefe ist in unseren technischen Richtlinien exakt definiert und sollte zur Vermeidung von Querschnittsverengungen auf dem Rohr markiert werden."
+            "q": "Koliko duboko cijev mora ući u spojnicu?",
+            "a": "Dubina umetanja točno je definirana u našim tehničkim smjernicama i treba je označiti na cijevi kako bi se izbjegla suženja presjeka."
           },
           {
-            "q": "Können Muffen auch für Faserrohre verwendet werden?",
-            "a": "Ja, unsere Standard-Muffen sind für alle K Aqua PP-R, PPRCT und Faserrohre uneingeschränkt kompatibel."
+            "q": "Mogu li se spojnice koristiti i za cijevi s vlaknima?",
+            "a": "Da, naše standardne spojnice potpuno su kompatibilne sa svim K-Aqua PP-R, PP-RCT i cijevima s vlaknima."
           },
           {
-            "q": "Besteht die Gefahr von Mikroleckagen an der Naht?",
-            "a": "Nein, da durch die Polyfusion eine stoffschlüssige, molekulare Verbindung entsteht, die so stark wie das Rohr selbst ist."
+            "q": "Postoji li opasnost od mikrocurenja na spoju?",
+            "a": "Ne, jer polifuzijom nastaje materijalno homogen, molekularni spoj koji je jednako čvrst kao i sama cijev."
           }
         ]
       },
@@ -4113,16 +4204,16 @@
         "seo_p3": "Osobito kod složenih trasa cjevovoda u uskim oknima ili pri zaobilaženju prepreka, ovo koljeno od 45 stupnjeva učinkovito smanjuje otpore strujanja.",
         "faq": [
           {
-            "q": "Wann sollte ich einen 45-Grad- anstelle eines 90-Grad-Winkels verwenden?",
-            "a": "Ein 45-Grad-Winkel reduziert den Druckverlust und den Strömungswiderstand (Zeta-Wert) im System deutlich und beugt Geräuschentwicklung vor."
+            "q": "Kada bih trebao koristiti koljeno od 45° umjesto 90°?",
+            "a": "Koljeno od 45 stupnjeva znatno smanjuje pad tlaka i otpor strujanja (zeta-vrijednost) u sustavu te sprječava nastanak buke."
           },
           {
-            "q": "Sind K Aqua Winkel strömungsoptimiert?",
-            "a": "Ja, die Innenradien unserer 45-Grad-Winkel sind extrem glatt und hydraulisch optimiert, um Kavitation zu verhindern."
+            "q": "Jesu li K-Aqua koljena hidraulički optimirana?",
+            "a": "Da, unutarnji radijusi naših 45-stupanjskih koljena iznimno su glatki i hidraulički optimirani kako bi se spriječila kavitacija."
           },
           {
-            "q": "Können zwei 45-Grad-Winkel zu einem 90-Grad-Bogen kombiniert werden?",
-            "a": "Ja, diese Praxis wird oft bei großen Dimensionen angewendet, um weite Bögen zu kreieren und den Pumpenwiderstand zu senken."
+            "q": "Mogu li se dva koljena od 45° kombinirati u luk od 90°?",
+            "a": "Da, ta se praksa često primjenjuje kod velikih dimenzija radi stvaranja širokih lukova i smanjenja otpora crpke."
           }
         ]
       },
@@ -4132,16 +4223,16 @@
         "seo_p3": "U kompaktnim razdjelničkim instalacijama ili pri izvedbi uskih predzidnih sustava ovaj element štedi dragocjeno vrijeme montaže i smanjuje broj zavarenih spojeva.",
         "faq": [
           {
-            "q": "Eignet sich der 45-Grad I/A Winkel für parallele Versprünge?",
-            "a": "Ja, kombiniert mit einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
+            "q": "Je li 45° U/V koljeno prikladno za paralelne pomake?",
+            "a": "Da, u kombinaciji sa standardnim koljenom od 45 stupnjeva mogu se izvesti iznimno kompaktni etažni pomaci."
           },
           {
-            "q": "Ist die Druckbeständigkeit der Innen-/Außen-Verbindung genauso hoch?",
-            "a": "Die homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle."
+            "q": "Je li tlačna otpornost unutarnjeg/vanjskog spoja jednako visoka?",
+            "a": "Homogeno polifuzijsko zavarivanje i ovdje jamči 100-postotnu tlačnu čvrstoću (PN 25) na spojnom mjestu."
           },
           {
-            "q": "Für welche Dimensionen ist dieser Winkel verfügbar?",
-            "a": "Er wird typischerweise für die gängigen Dimensionen in der Etagenverteilung in 20 mm und 25 mm produziert."
+            "q": "Za koje je dimenzije dostupno ovo koljeno?",
+            "a": "Tipično se proizvodi za uobičajene dimenzije u etažnom razvodu od 20 mm i 25 mm."
           }
         ]
       },
@@ -4151,35 +4242,35 @@
         "seo_p3": "Savršeno za kutne instalacije i prodore kroz zidove u cjelokupnoj tehnici zgrada, jamči nepropustan i siguran zavoj od 90 stupnjeva bez rubova koji ometaju strujanje.",
         "faq": [
           {
-            "q": "Erhöht ein 90-Grad-Winkel den Verschleiß durch Strömungsdruck?",
-            "a": "Dank der Wandstärkenreserven und der extrem glatten Innenflächen des PP-R Materials ist Verschleiß durch Abrasion praktisch ausgeschlossen."
+            "q": "Povećava li koljeno od 90° trošenje uslijed tlaka strujanja?",
+            "a": "Zahvaljujući rezervama debljine stijenke i iznimno glatkim unutarnjim površinama PP-R materijala, trošenje abrazijom praktički je isključeno."
           },
           {
-            "q": "Gibt es Richtungsmarkierungen auf den K Aqua Winkeln?",
-            "a": "Ja, unsere Fazonski komadi weisen oft Produktionsmarkierungen auf, die bei der exakten axialen Ausrichtung auf der Baustelle helfen."
+            "q": "Postoje li oznake smjera na K-Aqua koljenima?",
+            "a": "Da, naši fazonski komadi često imaju proizvodne oznake koje pomažu pri točnom aksijalnom poravnanju na gradilištu."
           },
           {
-            "q": "Kann der 90-Grad-Winkel für Steigleitungen genutzt werden?",
-            "a": "Ja, er ist ideal, um Stränge aus Schächten auf die jeweilige Etage abzuwinkeln."
+            "q": "Može li se koljeno od 90° koristiti za vertikale?",
+            "a": "Da, idealno je za skretanje vodova iz okana na pojedinu etažu."
           }
         ]
       },
       "elbow-90-femalemale": {
         "seo_p1": "Koljeno 90° s unutarnjim/vanjskim zavarnim krajem (Elbow 90° Female/Male) rješenje je za ultrakompaktne kutne spojeve izravno na druge komponente.",
         "seo_p2": "Ovaj pametni PP-R fiting kombinira uobičajeni naglavni kraj s umetnim krajem kako bi se zavarivanja fiting-na-fiting izvela besprijekorno.",
-        "seo_p3": "Insbesondere bei der Montage von Armature oder Heizkreisverteilern reduziert dieses Design den Platzbedarf erheblich und minimiert den Material- sowie Arbeitsaufwand.",
+        "seo_p3": "Osobito pri montaži armatura ili razdjelnika krugova grijanja, ovaj dizajn znatno smanjuje potrebu za prostorom te minimizira utrošak materijala i rada.",
         "faq": [
           {
-            "q": "Was bedeutet I/A (M/F) bei diesem Winkel?",
-            "a": "Es bedeutet Innen/Außen (Male/Female). Eine Seite wird als Muffe geschweißt, die andere Seite kann direkt in einen anderen Fitting eingeschweißt werden."
+            "q": "Što znači U/V (M/F) kod ovog koljena?",
+            "a": "To znači unutarnji/vanjski (Male/Female). Jedna strana se zavaruje kao spojnica, a druga strana se može izravno uvariti u drugi fiting."
           },
           {
-            "q": "Welchen Vorteil bietet die I/A-Konstruktion?",
-            "a": "Sie spart Platz und vermeidet ein zusätzliches Rohrstück zwischen zwei Fittings, was bei engen Platzverhältnissen entscheidend ist."
+            "q": "Koju prednost pruža U/V konstrukcija?",
+            "a": "Štedi prostor i izbjegava dodatni komad cijevi između dva fitinga, što je presudno u skučenim uvjetima."
           },
           {
-            "q": "Ändert sich dadurch der Schweißvorgang?",
-            "a": "Der Prozess bleibt gleich, es werden lediglich Matrize und Patrize am Schweißspiegel gleichzeitig für Rohr und Fitting genutzt."
+            "q": "Mijenja li se time postupak zavarivanja?",
+            "a": "Postupak ostaje isti, samo se na grijaćoj ploči istodobno koriste matrica i trn za cijev i fiting."
           }
         ]
       },
@@ -4189,35 +4280,35 @@
         "seo_p3": "Idealna za popravke u oknima, naknadna proširenja ili iznimno teško dostupna područja, nudi 100-postotno siguran spoj s mogućnošću protokoliranja.",
         "faq": [
           {
-            "q": "Muss das Rohr vor dem Elektroschweißen geschält werden?",
-            "a": "Ja, das Entfernen der Oxidschicht mittels eines speziellen Rohrschälers ist zwingend erforderlich für eine einwandfreie Verschmelzung."
+            "q": "Mora li se cijev ljuštiti prije elektrofuzijskog zavarivanja?",
+            "a": "Da, uklanjanje oksidnog sloja posebnim ljuštilom za cijevi nužno je za besprijekorno stapanje."
           },
           {
-            "q": "Welche Schweißgeräte können verwendet werden?",
-            "a": "Es müssen K Aqua oder universelle Elektroschweißgeräte verwendet werden, die den Barcode auf der Muffe auslesen können."
+            "q": "Koji se uređaji za zavarivanje mogu koristiti?",
+            "a": "Moraju se koristiti K-Aqua ili univerzalni uređaji za elektrofuzijsko zavarivanje koji mogu očitati barkod na spojnici."
           },
           {
-            "q": "Wann ist Elektroschweißen besser als Heizelementmuffenschweißen?",
-            "a": "Besonders bei eingeschränkter Bewegungsfreiheit (z. B. im Schacht), wo das Gerät für die Muffenschweißung keinen Platz findet."
+            "q": "Kada je elektrofuzijsko zavarivanje bolje od polifuzijskog zavarivanja spojnica?",
+            "a": "Posebno kod ograničene slobode kretanja (npr. u oknu), gdje uređaj za zavarivanje spojnica nema dovoljno mjesta."
           }
         ]
       },
       "flange-adaptor": {
-        "seo_p1": "Der Bundkragen (Flange Adaptor) fungiert als wesentliches Verbindungselement, um Kunststoffrohre sicher und lösbar an metallische Flansche oder Armature anzubinden.",
+        "seo_p1": "Prirubnički tuljak (Flange Adaptor) funkcionira kao bitan spojni element za sigurno i rastavljivo spajanje plastičnih cijevi na metalne prirubnice ili armature.",
         "seo_p2": "PP-R element oblikovan je tako da nudi savršeno nalijeganje slobodnih prirubnica i ravnomjerno prenosi visoki pritisni tlak na brtvu.",
         "seo_p3": "Nezamjenjiv u industrijskoj izgradnji cjevovoda i kod velikih razdjelnih postrojenja, prirubnički tuljak omogućuje siguran prijelaz na crpke, velike ventile i čelične sustave.",
         "faq": [
           {
-            "q": "Welche Flanschnormen unterstützt der K Aqua Bundkragen?",
-            "a": "Er ist kompatibel mit handelsüblichen DIN/EN-Flanschen (z. B. PN10, PN16) und erfordert den passenden K Aqua Losflansch."
+            "q": "Koje prirubničke norme podržava K-Aqua prirubnički tuljak?",
+            "a": "Kompatibilan je sa standardnim DIN/EN prirubnicama (npr. PN10, PN16) i zahtijeva odgovarajuću K-Aqua slobodnu prirubnicu."
           },
           {
-            "q": "Benötige ich eine zusätzliche Dichtung?",
-            "a": "Ja, zwischen dem PP-R Bundkragen und der Gegenflanke muss zwingend eine passende EPDM-Flachdichtung eingelegt werden."
+            "q": "Trebam li dodatnu brtvu?",
+            "a": "Da, između PP-R prirubničkog tuljka i protuprirubnice obvezno se mora postaviti odgovarajuća EPDM ravna brtva."
           },
           {
-            "q": "Wie wird der Bundkragen mit dem Rohr verbunden?",
-            "a": "Er wird wie ein herkömmlicher Fitting durch Heizelementmuffenschweißen direkt auf das Rohr oder in eine Muffe geschweißt."
+            "q": "Kako se prirubnički tuljak spaja s cijevi?",
+            "a": "Kao i konvencionalni fiting, zavaruje se polifuzijskim postupkom izravno na cijev ili u spojnicu."
           }
         ]
       },
@@ -4227,16 +4318,16 @@
         "seo_p3": "Često se koristi za sužavanje glavnih vodova u manje opskrbne ogranke, čime se snižavaju troškovi materijala i precizno uravnotežuje tlak u mreži.",
         "faq": [
           {
-            "q": "Kann ich mehrere Dimensionen auf einmal überspringen?",
-            "a": "Ja, wir bieten Reduktionen an, die mehrstufige Querschnittsverengungen in einem Bauteil realisieren, z. B. von 63 mm auf 32 mm."
+            "q": "Mogu li preskočiti više dimenzija odjednom?",
+            "a": "Da, nudimo redukcije koje ostvaruju višestupanjska suženja presjeka u jednom elementu, npr. sa 63 mm na 32 mm."
           },
           {
-            "q": "Wird die Reduziermuffe in oder auf das Rohr geschweißt?",
-            "a": "Die Reduzierung ist in der Regel als Innen/Außen (I/A) Fitting konzipiert: Die große Seite passt in eine Muffe, die kleine Seite nimmt das Rohr auf."
+            "q": "Zavaruje li se redukcijska spojnica u ili na cijev?",
+            "a": "Redukcija je u pravilu koncipirana kao unutarnji/vanjski (U/V) fiting: veća strana ulazi u spojnicu, a manja strana prihvaća cijev."
           },
           {
-            "q": "Hat die Verjüngung Einfluss auf den Betriebsdruck?",
-            "a": "Nein, die Wandstärken der K Aqua Reduktionen sind so dimensioniert, dass sie dem Nenndruck des Gesamtsystems (bis PN 25) entsprechen."
+            "q": "Utječe li suženje na radni tlak?",
+            "a": "Ne, debljine stijenki K-Aqua redukcija dimenzionirane su tako da odgovaraju nazivnom tlaku cijelog sustava (do PN 25)."
           }
         ]
       },
@@ -4246,16 +4337,16 @@
         "seo_p3": "U etažnom razvodu pitke i ogrjevne vode redukcijski T-komad osigurava učinkovitu izvedbu bez dodatnih redukcija, što znatno ubrzava instalaciju.",
         "faq": [
           {
-            "q": "Wann nutze ich ein reduziertes T-Stück anstelle eines Standard-T-Stücks mit Reduktion?",
-            "a": "Ein reduziertes T-Stück spart eine zusätzliche Schweißnaht und verringert den Bauraum, was es effizienter und sicherer macht."
+            "q": "Kada koristiti reducirani T-komad umjesto standardnog T-komada s redukcijom?",
+            "a": "Reducirani T-komad štedi jedan dodatni zavareni spoj i smanjuje ugradbeni prostor, što ga čini učinkovitijim i sigurnijim."
           },
           {
-            "q": "Ist der Abzweig immer die reduzierte Seite?",
-            "a": "Meistens ja, da typischerweise von der Hauptleitung kleinere Abzweige zu den Verbrauchern geführt werden."
+            "q": "Je li odvojak uvijek reducirana strana?",
+            "a": "Uglavnom da, jer se s glavnog voda u pravilu vode manji odvojci prema trošilima."
           },
           {
-            "q": "Können diese T-Stücke strömungstechnische Geräusche verursachen?",
-            "a": "Nein, die Innenradien sind hydraulisch optimiert, um Turbulenzen und Kavitationsgeräusche bei Querschnittsänderungen zu minimieren."
+            "q": "Mogu li ovi T-komadi uzrokovati šumove strujanja?",
+            "a": "Ne, unutarnji radijusi hidraulički su optimirani kako bi se minimizirale turbulencije i zvukovi kavitacije pri promjenama presjeka."
           }
         ]
       },
@@ -4265,16 +4356,16 @@
         "seo_p3": "Često korišten u mrežama daljinskog hlađenja i glavnim vertikalnim vodovima, ovaj fiting jamči apsolutnu stabilnost i trajnu nepropusnost pri najvišim opterećenjima.",
         "faq": [
           {
-            "q": "Welches Spezialwerkzeug wird für die Montage benötigt?",
-            "a": "Für die exakte Fräsung des Loches ist ein spezieller K Aqua Anbohrer erforderlich, sowie ein Sattelschweißwerkzeug zur Erwärmung."
+            "q": "Koji je specijalni alat potreban za montažu?",
+            "a": "Za precizno glodanje rupe potrebno je posebno K-Aqua svrdlo, kao i alat za sedlasto zavarivanje radi zagrijavanja."
           },
           {
-            "q": "Kann ein Sattel auf einem unter Druck stehenden Rohr montiert werden?",
-            "a": "Nein, das Leitungssystem muss zwingend entleert und drucklos sein, bevor die Anbohrung und Schweißung erfolgt."
+            "q": "Može li se sedlo montirati na cijev pod tlakom?",
+            "a": "Ne, cjevovodni sustav obvezno mora biti ispražnjen i bez tlaka prije bušenja i zavarivanja."
           },
           {
-            "q": "Ist die Sattelverbindung so stark wie ein T-Stück?",
-            "a": "Ja, durch die tiefe Polyfusionsverschmelzung an der Rohrwandung erreicht der Sattelabzweig dieselbe Druckstufe wie das Basisrohr."
+            "q": "Je li sedlasti spoj jednako čvrst kao T-komad?",
+            "a": "Da, dubokim polifuzijskim stapanjem na stijenci cijevi sedlasti odvojak postiže isti tlačni stupanj kao i osnovna cijev."
           }
         ]
       },
@@ -4284,16 +4375,16 @@
         "seo_p3": "On je srce svakog prstenastog i rednog voda u sanitarnim instalacijama i jamči pouzdanu distribuciju medija s malim gubitkom tlaka.",
         "faq": [
           {
-            "q": "Verringert das T-Stück den Leitungsquerschnitt?",
-            "a": "Nein, das Innendesign unserer T-Stücke ist auf vollen Durchgang ausgelegt, um den Volumenstrom nicht zu drosseln."
+            "q": "Smanjuje li T-komad presjek cjevovoda?",
+            "a": "Ne, unutarnji dizajn naših T-komada projektiran je za puni protok kako se volumni protok ne bi prigušivao."
           },
           {
-            "q": "Ist ein T-Stück anfälliger für Ablagerungen?",
-            "a": "Durch das extrem glatte PP-R Material (Rauigkeitswert 0,007 mm) haben Kalk und Biofilme auch in den Abzweigen keine Chance sich festzusetzen."
+            "q": "Je li T-komad podložniji taloženju?",
+            "a": "Zahvaljujući iznimno glatkom PP-R materijalu (vrijednost hrapavosti 0,007 mm), kamenac i biofilmovi nemaju šanse zadržati se ni u odvojcima."
           },
           {
-            "q": "Werden bei großen T-Stücken andere Schweißzeiten benötigt?",
-            "a": "Ja, die Anwärm-, Umstell- und Abkühlzeiten sind abhängig von der Dimension und strikt nach den DVS-Richtlinien einzuhalten."
+            "q": "Jesu li kod velikih T-komada potrebna druga vremena zavarivanja?",
+            "a": "Da, vremena zagrijavanja, prebacivanja i hlađenja ovise o dimenziji i moraju se strogo poštovati prema DVS smjernicama."
           }
         ]
       },
@@ -4303,16 +4394,16 @@
         "seo_p3": "Savršen za složene razdjelne ormare i središnja križanja u kućnim instalacijama, zamjenjuje više T-komada te tako štedi dragocjen ugradbeni prostor i vrijeme instalacije.",
         "faq": [
           {
-            "q": "Verursacht das Kreuzstück hohe Druckverluste?",
-            "a": "Da vier Ströme aufeinandertreffen können, ist der Zeta-Wert höher als bei geraden Cijevin, das großzügige Innendesign hält den Verlust jedoch minimal."
+            "q": "Uzrokuje li križni komad velike gubitke tlaka?",
+            "a": "Budući da se četiri toka mogu susresti, zeta-vrijednost je viša nego kod ravnih cijevi, no velikodušan unutarnji dizajn gubitke održava minimalnima."
           },
           {
-            "q": "In welchen Situationen ist ein Kreuz zwingend?",
-            "a": "Besonders in Vorwandinstallationen oder Fußbodenheizungsverteilern, wo extrem flach und symmetrisch gebaut werden muss."
+            "q": "U kojim je situacijama križni komad nužan?",
+            "a": "Posebno u predzidnim instalacijama ili razdjelnicima podnog grijanja gdje se mora graditi iznimno plitko i simetrično."
           },
           {
-            "q": "Sind die Abzweige immer gleich groß?",
-            "a": "Bei unserem Standard-Kreuzstück sind alle vier Anschlüsse gleich dimensioniert (z. B. 4x 25mm)."
+            "q": "Jesu li odvojci uvijek jednake veličine?",
+            "a": "Kod našeg standardnog križnog komada sva četiri priključka jednako su dimenzionirana (npr. 4x 25 mm)."
           }
         ]
       },
@@ -4322,16 +4413,16 @@
         "seo_p3": "Sprječava kolizije kod zidnih instalacija i podnog grijanja te jamči neometan protok uz vizualno savršeno, ravno polaganje vodova.",
         "faq": [
           {
-            "q": "Wie groß ist der Bogen des Schwanenhalses?",
-            "a": "Die Biegung ist exakt so dimensioniert, dass ein kreuzendes K Aqua Rohr gleicher oder kleinerer Dimension berührungsfrei übersprungen wird."
+            "q": "Koliki je luk premosnog komada?",
+            "a": "Zakrivljenost je točno dimenzionirana tako da se križna K-Aqua cijev iste ili manje dimenzije premošćuje bez dodira."
           },
           {
-            "q": "Werden für die Installation spezielle Muffen benötigt?",
-            "a": "Der Schwanenhals (Überbogen) verfügt typischerweise über ungeschweißte Cijevinden und wird beidseitig mit Standard-Muffen in das System integriert."
+            "q": "Jesu li za instalaciju potrebne posebne spojnice?",
+            "a": "Premosni komad (prelazni luk) obično ima nezavarene krajeve cijevi i obostrano se integrira u sustav standardnim spojnicama."
           },
           {
-            "q": "Darf ich ein gerades PP-R Rohr selbst mit Hitze zum Überbogen formen?",
-            "a": "Nein! Manuelles Biegen mit Heißluftgebläsen zerstört die molekulare Struktur des Cijevis und führt zum sofortigen Erlöschen der Gewährleistung."
+            "q": "Smijem li ravnu PP-R cijev samostalno toplinom oblikovati u premosni luk?",
+            "a": "Ne! Ručno savijanje puhalima vrućeg zraka uništava molekularnu strukturu cijevi i dovodi do trenutnog gubitka jamstva."
           }
         ]
       },
@@ -4341,35 +4432,35 @@
         "seo_p3": "Instalateri koriste ovaj element kod zahtjevnih križanja u velikim razdjelnim sustavima kako bi polaganje fleksibilno prilagodili uvjetima na gradilištu.",
         "faq": [
           {
-            "q": "Was unterscheidet das Crossing Tee vom Kreuzstück?",
-            "a": "Das Crossing Tee ermöglicht das kreuzungsfreie Überspringen einer Leitung und integriert gleichzeitig einen Abzweig."
+            "q": "Što razlikuje premosnu cijev od križnog komada?",
+            "a": "Premosna cijev omogućuje premošćivanje voda bez križanja i istodobno integrira odvojak."
           },
           {
-            "q": "Wie wird dieses Bauteil verschweißt?",
-            "a": "Es wird analog zu Standard-Fittings mittels Heizelementmuffenschweißen in das Leitungsnetz eingebunden."
+            "q": "Kako se ovaj element zavaruje?",
+            "a": "Spaja se u cjevovodnu mrežu analogno standardnim fitinzima postupkom polifuzijskog zavarivanja spojnica."
           },
           {
-            "q": "Wird der Durchfluss durch die Konstruktion gehemmt?",
-            "a": "Trotz der kompakten Geometrie ist das Innere strömungsoptimiert, sodass keine signifikanten Querschnittsverengungen entstehen."
+            "q": "Je li protok ometen ovom konstrukcijom?",
+            "a": "Unatoč kompaktnoj geometriji, unutrašnjost je strujno optimirana tako da ne nastaju značajna suženja presjeka."
           }
         ]
       },
       "adaptor-socket-female-thread": {
         "seo_p1": "Prijelazna spojnica s unutarnjim navojem (Adaptor Socket Female Thread) čini bitno sučelje između zavarenog PP-R cijevnog sustava i metalnih navojnih komponenti.",
         "seo_p2": "Objedinjuje robusno PP-R tijelo spojnice s visokokvalitetnim metalnim umetkom (unutarnji navoj). Time se osigurava izvrsna tlačna otpornost u standardnim stupnjevima SDR.",
-        "seo_p3": "Dieses Formteil ist unverzichtbar beim Anschluss von Armature, Manometern und speziellen Ventilen in der Gebäudeinstallation, um dauerhaft tropffreie Übergänge zu garantieren.",
+        "seo_p3": "Ovaj fazonski komad neophodan je pri spajanju armatura, manometara i posebnih ventila u instalacijama zgrada kako bi se zajamčili trajno besprijekorni prijelazi bez kapanja.",
         "faq": [
           {
-            "q": "Wozu dient die Montageplatte?",
-            "a": "Die integrierte Platte mit Bohrungen ermöglicht die starre, mechanische Fixierung des Winkels direkt an der Wand oder einem Montageelement."
+            "q": "Čemu služi montažna ploča?",
+            "a": "Integrirana ploča s provrtima omogućuje kruto, mehaničko fiksiranje koljena izravno na zid ili montažni element."
           },
           {
-            "q": "Ist das Metallgewinde korrosionsanfällig?",
-            "a": "Nein, die metallischen Einsätze bestehen aus hochwertigem, entzinkungsfreiem Messing und sind somit hochgradig korrosionsbeständig."
+            "q": "Je li metalni navoj sklon koroziji?",
+            "a": "Ne, metalni umeci sastoje se od visokokvalitetne mjedi otporne na decinkaciju i stoga su iznimno otporni na koroziju."
           },
           {
-            "q": "Darf ich das Gewinde mit Hanf abdichten?",
-            "a": "Wir empfehlen die Verwendung von Teflonband (PTFE-Band). Bei Hanf darf nur sehr sparsam und mit nicht-quellender Paste gearbeitet werden, um den Messingeinsatz nicht zu sprengen."
+            "q": "Smijem li brtviti navoj kudjeljom?",
+            "a": "Preporučujemo upotrebu teflonske trake (PTFE traka). Kod kudjelje se smije raditi samo vrlo štedljivo i s nebubrivom pastom kako se mjedeni umetak ne bi oštetio."
           }
         ]
       },
@@ -4379,16 +4470,16 @@
         "seo_p3": "Često se koristi za spajanje kotlova, toplinskih crpki ili filtara, osiguravajući trajnu i normiranu navojnu vezu.",
         "faq": [
           {
-            "q": "Ist das Innengewinde durchgängig aus Messing?",
-            "a": "Ja, das Innengewinde ist ein massiver, hochwertiger Messingeinsatz, der fest und verdrehsicher in das PP-R Material eingespritzt ist."
+            "q": "Je li unutarnji navoj u cijelosti od mjedi?",
+            "a": "Da, unutarnji navoj je masivni, visokokvalitetni mjedeni umetak koji je čvrsto i osigurano od zakretanja ubrizgan u PP-R materijal."
           },
           {
-            "q": "Kann die Verbindung bei Bedarf gelöst werden?",
-            "a": "Ja, das metallische Gewinde ermöglicht jederzeit die sichere Demontage angeschlossener Apparaturen wie Pumpen oder Filter."
+            "q": "Može li se spoj po potrebi rastaviti?",
+            "a": "Da, metalni navoj u svakom trenutku omogućuje sigurnu demontažu priključenih uređaja poput crpki ili filtara."
           },
           {
-            "q": "Wie hoch ist das maximale Anzugsdrehmoment?",
-            "a": "Das Gewinde sollte mit handelsüblichem Werkzeug und Gefühl angezogen werden, um Spannungsrisse im angrenzenden Kunststoff zu vermeiden."
+            "q": "Koliki je maksimalni zatezni moment?",
+            "a": "Navoj treba zatezati standardnim alatom i s osjećajem kako bi se izbjegle pukotine od naprezanja u susjednoj plastici."
           }
         ]
       },
@@ -4398,16 +4489,16 @@
         "seo_p3": "Idealno za skučene montažne situacije na strojevima ili razdjelnicima, gdje se izravni priključak od 90 stupnjeva mora izvesti bez dodatnih kombinacija fitinga.",
         "faq": [
           {
-            "q": "Kombiniert dieser Fitting zwei Arbeitsschritte?",
+            "q": "Kombinira li ovaj fiting dva radna koraka?",
             "a": "Ja, er vereint einen Richtungswechsel um 90 Grad mit einem Gewindeübergang, was Platz, Material und eine Schweißnaht spart."
           },
           {
-            "q": "Ist das Außengewinde geraut?",
-            "a": "Ja, K Aqua Außengewinde sind oft werkseitig leicht angeraut, damit das Dichtband (Teflon) beim Einschrauben nicht abrutscht."
+            "q": "Je li vanjski navoj nahrapavljen?",
+            "a": "Da, K-Aqua vanjski navoji tvornički su blago nahrapavljeni kako brtvena traka (teflon) ne bi klizila pri uvrtanju."
           },
           {
-            "q": "Aus welchem Material besteht das Außengewinde?",
-            "a": "Es besteht aus entzinkungsbeständigem Spezialmessing, das für höchste hygienische Ansprüche im Trinkwasserbereich zugelassen ist."
+            "q": "Od kojeg je materijala izrađen vanjski navoj?",
+            "a": "Sastoji se od specijalne mjedi otporne na decinkaciju koja je odobrena za najviše higijenske zahtjeve u području pitke vode."
           }
         ]
       },
@@ -4417,35 +4508,35 @@
         "seo_p3": "Sveobuhvatno se koristi pri instalaciji tuševa, kada ili sudopera kako bi se slavine montirale precizno i osigurano od zakretanja.",
         "faq": [
           {
-            "q": "Kann die Wandscheibe auch im Trockenbau verwendet werden?",
-            "a": "Ja, in Kombination mit unseren speziellen K Aqua Montageplatten lässt sie sich hervorragend in Gipskarton- oder Holzständerwänden fixieren."
+            "q": "Može li se zidno koljeno koristiti i u suhoj gradnji?",
+            "a": "Da, u kombinaciji s našim posebnim K-Aqua montažnim pločama izvrsno se fiksira u gipskartonskim ili drvenim pregradnim zidovima."
           },
           {
-            "q": "Gibt es einen Schallschutz für dieses Bauteil?",
-            "a": "Für optimale Schalldämmung bieten wir optionale Gummi-Schallschutzkappen an, die die Wandscheibe vom Baukörper entkoppeln."
+            "q": "Postoji li zvučna izolacija za ovu komponentu?",
+            "a": "Za optimalnu zvučnu izolaciju nudimo opcionalne gumene kapice koje odvajaju zidno koljeno od građevinske konstrukcije."
           },
           {
-            "q": "Aus welchem Material besteht das Innengewinde?",
-            "a": "Wir verwenden ausschließlich bleifreies oder entzinkungsbeständiges (DZR) Spezialmessing, konform mit den strengsten Trinkwasservorgaben."
+            "q": "Od kojeg je materijala izrađen unutarnji navoj?",
+            "a": "Koristimo isključivo bezolovnu ili na decinkaciju otpornu (DZR) specijalnu mjed u skladu s najstrožim propisima o pitkoj vodi."
           }
         ]
       },
       "elbowwall-bracket-90-female-thread": {
         "seo_p1": "Produženo zidno koljeno 90° (Elbow Wall Bracket 90° Female Thread) većim razmakom pruža dodatnu fleksibilnost za dublje podžbukne instalacije.",
-        "seo_p2": "S produženim PP-R vratom i visokočvrstim mjedenim unutarnjim navojem, ovaj je element predviđen za instalacije koje moraju premostiti debele slojeve žbuke ili pločica.",
-        "seo_p3": "Sanitärinstallateure nutzen dieses Element, wenn Armatureanschlüsse in Trockenbauwänden tief versenkt werden, um die volle Druckstabilität zu erhalten.",
+        "seo_p2": "S produženim PP-R vratom i visokočvrstim mjedenim unutarnjim navojem, ovaj je element predviđen za instalacije koje moraju premostiti debeli sloj žbuke ili pločica.",
+        "seo_p3": "Vodoinstalateri koriste ovaj element kada se priključci armatura u zidovima suhe gradnje duboko ugrađuju, kako bi se zadržala puna tlačna stabilnost.",
         "faq": [
           {
-            "q": "Wann wird eine Wandscheibe mit Außengewinde anstelle eines Innengewindes verwendet?",
-            "a": "Sie wird typischerweise benötigt, wenn flexible Panzerschläuche (z. B. von Waschtischarmaturen) mit Überwurfmutter direkt angeschlossen werden sollen."
+            "q": "Kada se koristi zidno koljeno s vanjskim navojem umjesto unutarnjeg?",
+            "a": "Tipično je potrebno kada se fleksibilne cijevi (npr. armatura za umivaonik) sa slijepom maticom spajaju izravno."
           },
           {
-            "q": "Ist die Montageplatte bei starkem Zug stabil genug?",
-            "a": "Ja, durch die drei integrierten Schraubösen wird die Hebelkraft großflächig abgeleitet, sodass die Wandbefestigung extrem stabil ist."
+            "q": "Je li montažna ploča dovoljno stabilna pri jakom povlačenju?",
+            "a": "Da, kroz tri integrirane ušice za vijke sila poluge se raspoređuje na veliku površinu, pa je pričvršćenje na zid iznimno stabilno."
           },
           {
-            "q": "Können Verlängerungen aufgeschraubt werden?",
-            "a": "Sollte die Wandscheibe zu tief in der Wand sitzen, können problemlos handelsübliche Hahnverlängerungen aus Messing aufgeschraubt werden."
+            "q": "Mogu li se navrnuti produžeci?",
+            "a": "Ako zidno koljeno stoji preduboko u zidu, bez problema se mogu navrnuti standardni mjedeni produžeci za slavine."
           }
         ]
       },
@@ -4455,16 +4546,16 @@
         "seo_p3": "Koristi se ponajprije u instalacijama pitke vode za priključivanje vodomjera ili crpki koje se radi održavanja moraju brzo demontirati.",
         "faq": [
           {
-            "q": "Eignet sich dieses T-Stück für den Anschluss von Entleerungsventilen?",
-            "a": "Ja, das Innengewinde im Abzweig ist die Standardlösung zur direkten Einschraubung von Entleerungs- oder KFE-Hähnen am tiefsten Punkt."
+            "q": "Je li ovaj T-komad prikladan za spajanje ispusnih ventila?",
+            "a": "Da, unutarnji navoj u odvojku standardno je rješenje za izravno uvrtanje ispusnih slavina na najnižoj točki."
           },
           {
-            "q": "Ist der Messingeinsatz fest verankert?",
-            "a": "Durch eine spezielle Rändelung am Messingeinsatz wird dieser unlösbar vom PP-R umschlossen, was Verdrehen beim Gewindeschneiden verhindert."
+            "q": "Je li mjedeni umetak čvrsto usidren?",
+            "a": "Posebnim narezivanjem na mjedenom umetku on je nerastavljivo obuhvaćen PP-R-om, što sprječava zakretanje pri narezivanju navoja."
           },
           {
-            "q": "Reduziert das Gewinde den Durchfluss im Hauptstrang?",
-            "a": "Nein, der Hauptstrang des T-Stücks (der Durchgang) ist vollquerschnittig und strömungsoptimiert."
+            "q": "Smanjuje li navoj protok u glavnom vodu?",
+            "a": "Ne, prolazni vod T-komada ima puni presjek i strujno je optimiran."
           }
         ]
       },
@@ -4474,16 +4565,16 @@
         "seo_p3": "Često se koristi za uključivanje elemenata za održavanje, filtara ili ventila u cijevnu mrežu koji se redovito čiste ili zamjenjuju.",
         "faq": [
           {
-            "q": "Wo wird das T-Stück mit Außengewinde typischerweise eingesetzt?",
-            "a": "Es ist ideal, um Apparaturen mit Innengewinde oder Überwurfmuttern (z. B. Schmutzfänger oder kleine Umwälzpumpen) direkt abzweigen zu lassen."
+            "q": "Gdje se tipično koristi T-komad s vanjskim navojem?",
+            "a": "Idealan je za izravno odvajanje uređaja s unutarnjim navojem ili slijepim maticama (npr. hvatača nečistoća ili malih optočnih crpki)."
           },
           {
-            "q": "Gibt es bei Außengewinden Rissgefahr im Kunststoff?",
-            "a": "Nein, da bei Außengewinden die Expansionskraft des Dichtmittels (Teflon) auf den massiven Messingkörper und nicht auf den Kunststoff wirkt."
+            "q": "Postoji li kod vanjskih navoja opasnost od pucanja plastike?",
+            "a": "Ne, jer kod vanjskih navoja sila širenja brtvenog sredstva (teflona) djeluje na masivno mjedeno tijelo, a ne na plastiku."
           },
           {
-            "q": "Kann ich es in Warmwassersystemen nutzen?",
-            "a": "Selbstverständlich. Wie alle K Aqua Übergangsfittings ist es für Dauertemperaturen bis 70°C und kurzzeitige Spitzen von 95°C zugelassen."
+            "q": "Mogu li ga koristiti u sustavima tople vode?",
+            "a": "Naravno. Kao i svi K-Aqua prijelazni fitinzi, odobren je za trajne temperature do 70°C i kratkotrajne vršne vrijednosti od 95°C."
           }
         ]
       },
@@ -4493,16 +4584,16 @@
         "seo_p3": "Osobito omiljen u vidljivim predzidnim instalacijama ili u izvedbi grijanja, jamči uredne prijelaze na metalne radijatore ili razdjelnike.",
         "faq": [
           {
-            "q": "Was ist der Vorteil einer Verschraubung (Union) gegenüber einer Übergangsmuffe?",
-            "a": "Die Verschraubung ist trennbar. Das bedeutet, das verbundene Bauteil kann später ohne Auftrennen des PP-R Cijevis einfach demontiert werden."
+            "q": "Koja je prednost holendera u odnosu na prijelaznu spojnicu?",
+            "a": "Holender je rastavljiv. To znači da se spojena komponenta kasnije može lako demontirati bez rezanja PP-R cijevi."
           },
           {
-            "q": "Ist die Dichtung in der Verschraubung enthalten?",
-            "a": "Ja, K Aqua Verschraubungen werden standardmäßig mit einer hochwertigen EPDM-Flachdichtung (für Wasser) geliefert."
+            "q": "Je li brtva uključena u holender?",
+            "a": "Da, K-Aqua holenderi standardno se isporučuju s visokokvalitetnom EPDM ravnom brtvom (za vodu)."
           },
           {
-            "q": "Darf die Überwurfmutter mit schwerem Werkzeug angezogen werden?",
-            "a": "Sie sollte mit einem passenden Maulschlüssel handfest plus eine Vierteldrehung angezogen werden, um die Dichtung nicht zu quetschen."
+            "q": "Smije li se slijepa matica zatezati teškim alatom?",
+            "a": "Treba je zategnuti odgovarajućim viličastim ključem rukom plus četvrtinu okreta kako se brtva ne bi zgnječila."
           }
         ]
       },
@@ -4512,16 +4603,16 @@
         "seo_p3": "Ovaj je fazonski komad prvi izbor pri povezivanju izmjenjivača topline ili crpnih grupa u kotlovnici, gdje je zaštita od korozije važna.",
         "faq": [
           {
-            "q": "Wo wird diese Außengewinde-Verschraubung benötigt?",
-            "a": "Oft als Geräteanschlussverschraubung bei Wasserzählern oder Wärmetauschern, die ein Innengewinde am Gehäuse aufweisen."
+            "q": "Gdje je potreban ovaj holender s vanjskim navojem?",
+            "a": "Često kao priključni holender za uređaje kod vodomjera ili izmjenjivača topline koji imaju unutarnji navoj na kućištu."
           },
           {
-            "q": "Bleibt das PP-R beim Festziehen spannungsfrei?",
-            "a": "Ja, die lose Überwurfmutter fängt die Torsionskräfte beim Anziehen auf, sodass keine Drehspannung in das verschweißte Rohrnetz übertragen wird."
+            "q": "Ostaje li PP-R bez naprezanja pri zatezanju?",
+            "a": "Da, slobodna slijepa matica preuzima torzijske sile pri zatezanju, pa se torzijsko naprezanje ne prenosi u zavarenu cijevnu mrežu."
           },
           {
-            "q": "Ist das Messingmaterial trinkwasserzertifiziert?",
-            "a": "Wir verarbeiten exklusiv hochreines DZR-Messing, welches alle Normen der europäischen Trinkwasserverordnung (UBA-Liste) erfüllt."
+            "q": "Je li mjedeni materijal certificiran za pitku vodu?",
+            "a": "Obrađujemo isključivo visokorafiniranu DZR mjed koja ispunjava sve norme europske direktive o pitkoj vodi (UBA popis)."
           }
         ]
       },
@@ -4541,16 +4632,16 @@
         "seo_p3": "Nezamjenjiv je za potpuno beskorozivne sustave, poput onih u kemijskoj industriji ili kod agresivnih medija, gdje se kontakt s metalom mora strogo izbjegavati.",
         "faq": [
           {
-            "q": "Wann wähle ich einen PP-R Flansch anstelle eines metallischen Losflansches?",
-            "a": "Ein PP-R Flansch wird genutzt, wenn das Fördermedium stark korrosiv ist und jeglicher Kontakt mit Metall vermieden werden muss (Vollkunststoffsystem)."
+            "q": "Kada odabrati PP-R prirubnicu umjesto metalne slobodne prirubnice?",
+            "a": "PP-R prirubnica se koristi kada je transportirani medij jako korozivan i mora se izbjeći svaki kontakt s metalom (potpuno plastični sustav)."
           },
           {
-            "q": "Gibt es Druckeinschränkungen bei Voll-Kunststoffflanschen?",
-            "a": "Da Kunststoff flexibler als Stahl ist, sind die maximalen Nenndrücke bei Kunststoffflanschen in den größeren Dimensionen leicht reduziert."
+            "q": "Postoje li tlačna ograničenja kod potpuno plastičnih prirubnica?",
+            "a": "Budući da je plastika fleksibilnija od čelika, maksimalni nazivni tlakovi kod plastičnih prirubnica u većim dimenzijama blago su smanjeni."
           },
           {
-            "q": "Werden spezielle Unterlegscheiben für die Schrauben benötigt?",
-            "a": "Ja, es wird dringend empfohlen, großflächige Unterlegscheiben zu nutzen, um die Spannkraft der Schraube gleichmäßig auf den Kunststoff zu verteilen."
+            "q": "Jesu li potrebne posebne podloške za vijke?",
+            "a": "Da, toplo se preporučuje korištenje širokih podloški kako bi se sila stezanja vijka ravnomjerno rasporedila po plastici."
           }
         ]
       },
@@ -4560,16 +4651,16 @@
         "seo_p3": "Omogućuje brzu i sigurnu zamjenu mjernih jedinica bez trošenja alata te sprječava propuštanja zahvaljujući precizno prilagođenoj plosnatoj brtvi.",
         "faq": [
           {
-            "q": "Was zeichnet eine Wasserzählerverschraubung aus?",
-            "a": "Sie verfügt typischerweise über eine Plombiermöglichkeit und spezielle Gewindedimensionen, die exakt auf genormte Wasserzähler abgestimmt sind."
+            "q": "Što odlikuje holender za vodomjere?",
+            "a": "Tipično posjeduje mogućnost plombiranja i posebne dimenzije navoja koje su točno usklađene s normiranim vodomjerima."
           },
           {
-            "q": "Sind die Dichtungen für Heißwasser ausgelegt?",
-            "a": "Die mitgelieferten Spezialdichtungen sind je nach Ausführung für Kaltwasserzähler oder auch für Heißwasser (Wärmemengenzähler) spezifiziert."
+            "q": "Jesu li brtve predviđene za toplu vodu?",
+            "a": "Isporučene posebne brtve, ovisno o izvedbi, specificirane su za vodomjere hladne vode ili za toplu vodu (mjerila utroška toplinske energije)."
           },
           {
-            "q": "Kann das PP-R Rohr das Gewicht des Wasserzählers tragen?",
-            "a": "Bei größeren und schwereren Zählern (Hausanschluss) empfehlen wir eine separate Abstützung des Zählers, um das Rohrnetz nicht mechanisch zu belasten."
+            "q": "Može li PP-R cijev nositi težinu vodomjera?",
+            "a": "Kod većih i težih vodomjera (kućni priključak) preporučujemo zasebno podupiranje vodomjera kako se cijevna mreža ne bi mehanički opteretila."
           }
         ]
       },
@@ -4579,16 +4670,16 @@
         "seo_p3": "Često se koristi u kemijskim industrijskim postrojenjima ili kod demineralizirane vode, jer sustavno isključuje svaki kontakt metala s transportiranim medijem.",
         "faq": [
           {
-            "q": "Was ist der Vorteil einer Kunststoffkugel im Ventil?",
-            "a": "Sie verhindert Korrosion und Ionenabgabe an das Medium, was für Reinstwasser oder aggressive Chemikalien zwingend erforderlich ist."
+            "q": "Koja je prednost plastične kugle u ventilu?",
+            "a": "Sprječava koroziju i otpuštanje iona u medij, što je nužno za ultračistu vodu ili agresivne kemikalije."
           },
           {
-            "q": "Ist das Ventil auch für Heißwasser geeignet?",
-            "a": "Ja, der spezielle thermoplastische Kunststoff der Kugel und die Teflon-Dichtungen (PTFE) garantieren auch bei hohen Temperaturen volle Funktion."
+            "q": "Je li ventil prikladan i za toplu vodu?",
+            "a": "Da, posebna termoplastika kugle i teflonske brtve (PTFE) jamče punu funkcionalnost i pri visokim temperaturama."
           },
           {
-            "q": "Wie wird das Ventil gewartet?",
-            "a": "Die K Aqua PP-R Kugelhähne sind durch ihre Konstruktion absolut wartungsfrei und auf jahrzehntelangen, reibungslosen Betrieb ausgelegt."
+            "q": "Kako se ventil održava?",
+            "a": "K-Aqua PP-R kuglasti ventili svojom su konstrukcijom potpuno bez održavanja i dizajnirani za desetljeća besprijekornog rada."
           }
         ]
       },
@@ -4598,54 +4689,54 @@
         "seo_p3": "Ovo je standardna armatura za glavno zatvaranje u mrežama pitke vode i grijanja, koju odlikuje apsolutna pouzdanost i dug vijek trajanja bez održavanja.",
         "faq": [
           {
-            "q": "Bietet die Messingkugel Vorteile beim Durchfluss?",
-            "a": "Ja, die verchromte Messingkugel kann mit geringeren Wandstärken gefertigt werden, was einen vollen, widerstandsfreien Durchgang ermöglicht."
+            "q": "Pruža li mjedena kugla prednosti pri protoku?",
+            "a": "Da, kromirana mjedena kugla može se izraditi s manjim debljinama stijenki, što omogućuje puni prolaz bez otpora."
           },
           {
-            "q": "Ist die Messingkugel trinkwassergeeignet?",
-            "a": "Selbstverständlich, wir verwenden ausschließlich hochreines, zertifiziertes DZR-Messing, das keine Schwermetalle an das Trinkwasser abgibt."
+            "q": "Je li mjedena kugla prikladna za pitku vodu?",
+            "a": "Naravno, koristimo isključivo visokorafiniranu, certificiranu DZR mjed koja ne otpušta teške metale u pitku vodu."
           },
           {
-            "q": "Kann das Ventil in bestehende Metallrohrnetze integriert werden?",
-            "a": "Ja, in Kombination mit Übergangsmuffen oder Flanschen lässt es sich problemlos als Absperrventil in Mischinstallationen einsetzen."
+            "q": "Može li se ventil integrirati u postojeće metalne cjevovode?",
+            "a": "Da, u kombinaciji s prijelaznim spojnicama ili prirubnicama bez problema se može koristiti kao zaporni ventil u mješovitim instalacijama."
           }
         ]
       },
       "tee-90-female-thread-for-internal-valve": {
-        "seo_p1": "Das 90°-T-Stück für Unterputzventile (Tee 90° Female Thread for Internal Valve) bildet die Basis für eine unsichtbare und platzsparende Armatureinstallation in der Wand.",
+        "seo_p1": "T-komad 90° za podžbukne ventile (Tee 90° Female Thread for Internal Valve) tvori osnovu za nevidljivu i prostorno štedljivu ugradnju armatura u zid.",
         "seo_p2": "Sastoji se od PP-R protočnog tijela s posebno duboko izvedenim mjedenim unutarnjim navojem u ogranku, koji omogućuje prihvat gornjih dijelova ventila.",
         "seo_p3": "Sanitarni profesionalci koriste ovaj element u predzidnim instalacijama za tuševe i kade kako bi zaporne ventile estetski i sigurno integrirali iza pločica.",
         "faq": [
           {
-            "q": "Welche Funktion erfüllt das Unterputzventil?",
-            "a": "Es ermöglicht die Strangabsperrung einzelner Nasszellen (z. B. Bad oder Küche) direkt vor Ort, ohne in den Keller gehen zu müssen."
+            "q": "Koju funkciju ispunjava podžbukni ventil?",
+            "a": "Omogućuje zatvaranje vodova pojedinih sanitarnih prostorija (npr. kupaonica ili kuhinja) izravno na licu mjesta, bez odlaska u podrum."
           },
           {
-            "q": "Wie tief darf das Ventil in der Wand sitzen?",
-            "a": "Die Einbautiefe ist variabel. Sollte das Ventil durch dicken Fliesenaufbau zu tief sitzen, bieten wir entsprechende Spindelverlängerungen an."
+            "q": "Koliko duboko ventil smije stajati u zidu?",
+            "a": "Ugradbena dubina je varijabilna. Ako ventil zbog debelog sloja pločica stoji preduboko, nudimo odgovarajuće produžetke vretena."
           },
           {
-            "q": "Ist die Spindel austauschbar?",
-            "a": "Ja, das gesamte mechanical Innenoberteil (Spindel, Dichtung) kann bei Bedarf herausgeschraubt und ausgetauscht werden, ohne die Wand zu öffnen."
+            "q": "Je li vreteno zamjenjivo?",
+            "a": "Da, cijeli mehanički unutarnji dio (vreteno, brtva) po potrebi se može odvrnuti i zamijeniti bez otvaranja zida."
           }
         ]
       },
       "concealed-valve-chrome-light-part": {
         "seo_p1": "Gornji dio podžbuknog ventila u laganoj kromiranoj izvedbi (Concealed Valve Chrome Light Part) nudi elegantnu vidljivu komponentu za zaporne elemente integrirane u zid.",
-        "seo_p2": "Das Set umfasst einen Griff und eine Rosette aus verchromtem ABS-Kunststoff, passend für die standardisierten Messing-Spindeln unserer Unterputz-Armaturekörper.",
+        "seo_p2": "Set obuhvaća ručku i rozetu od kromirane ABS plastike, prilagođene standardiziranim mjedenim vretenima naših podžbuknih tijela armatura.",
         "seo_p3": "Služi za udobno i vizualno privlačno zatvaranje vode izravno u kupaonici, idealno za moderne i troškovno osjetljive projekte.",
         "faq": [
           {
-            "q": "Ist der Chromgriff im Lieferumfang enthalten?",
-            "a": "Ja, dieses Set beinhaltet das PP-R Ventilunterteil sowie die komplette, hochglanzverchromte Sichtgarnitur inklusive Rosette."
+            "q": "Je li kromirana ručka uključena u opseg isporuke?",
+            "a": "Da, ovaj set uključuje donji dio PP-R ventila kao i kompletnu visokosjajno kromiranu vidljivu garnituru uključujući rozetu."
           },
           {
-            "q": "Kann die Rosette nach dem Fliesen montiert werden?",
-            "a": "Selbstverständlich. Der Grundkörper wird unter Putz geschweißt, die Rosette und der Griff werden erst nach Fertigstellung der Wand aufgesteckt."
+            "q": "Može li se rozeta montirati nakon postavljanja pločica?",
+            "a": "Naravno. Osnovno tijelo se zavaruje pod žbuku, a rozeta i ručka nataknu se tek nakon dovršetka zida."
           },
           {
-            "q": "Aus welchem Material besteht der Griff?",
-            "a": "Der Drehgriff besteht aus einer robusten Zinkdruckguss-Legierung (Zamak) mit einer langlebigen, pflegeleichten Chrombeschichtung."
+            "q": "Od kojeg je materijala izrađena ručka?",
+            "a": "Okretna ručka sastoji se od robusne legure cinčanog tlačnog lijeva (Zamak) s dugotrajnim kromiranim slojem koji se lako održava."
           }
         ]
       },
@@ -4655,16 +4746,16 @@
         "seo_p3": "Ova izvedba odolijeva intenzivnom korištenju u hotelima ili javnim sanitarnim prostorima i desetljećima zadržava besprijekoran sjaj.",
         "faq": [
           {
-            "q": "Was unterscheidet das 'Long' Modell vom Standard-Unterputzventil?",
-            "a": "Die verlängerte Spindelkonstruktion überbrückt problemlos tiefe Wandaufbauten, wie dicke Marmorplatten oder Trockenbau-Doppelbeplankungen."
+            "q": "Po čemu se 'Long' model razlikuje od standardnog podžbuknog ventila?",
+            "a": "Produžena konstrukcija vretena bez problema premošćuje duboke zidne slojeve, poput debelih mramornih ploča ili dvostrukih gipskartonskih obloga."
           },
           {
-            "q": "Verfügt der Griff über eine Farbmarkierung?",
-            "a": "Ja, zur einfachen Unterscheidung von Heiß- und Kaltwassersträngen liegen unseren Garnituren austauschbare Farbmarkierungen (Rot/Blau) bei."
+            "q": "Ima li ručka oznaku u boji?",
+            "a": "Da, radi lakšeg razlikovanja vodova tople i hladne vode našim su garniturama priložene zamjenjive oznake u boji (crvena/plava)."
           },
           {
-            "q": "Wie wird der Ventilsitz abgedichtet?",
-            "a": "Wir verwenden hochhitzebeständige EPDM-Profildichtungen im Innenoberteil, die extrem resistent gegen chemische Reiniger und thermische Desinfektion sind."
+            "q": "Kako je zabrtvljeno sjedište ventila?",
+            "a": "U gornjem unutarnjem dijelu koristimo visokotemperaturno otporne EPDM profilne brtve koje su iznimno otporne na kemijska sredstva za čišćenje i termičku dezinfekciju."
           }
         ]
       },
@@ -4674,26 +4765,26 @@
         "seo_p3": "Uvijen u odgovarajuće donje dijelove PP-R ventila, služi za sigurno zatvaranje ogranaka u kotlovnicama i glavnim razvodima tehnike zgrada.",
         "faq": [
           {
-            "q": "Handelt es sich bei diesem Bauteil um ein Ersatzteil?",
-            "a": "Ja, es ist das komplette mechanische Innenleben (Oberteil) des Unterputzventils, ideal für Wartungszwecke oder den modularen Aufbau."
+            "q": "Radi li se kod ove komponente o rezervnom dijelu?",
+            "a": "Da, to je kompletna mehanička unutrašnjost (gornji dio) podžbuknog ventila, idealna za potrebe održavanja ili modularnu ugradnju."
           },
           {
-            "q": "Muss bei einem Tropfen das ganze Ventil getauscht werden?",
-            "a": "Nein, es genügt, das Wasser abzustellen und dieses Messing-Oberteil auszutauschen. Der PP-R Grundkörper bleibt in der Wand."
+            "q": "Mora li se kod kapanja zamijeniti cijeli ventil?",
+            "a": "Ne, dovoljno je zatvoriti vodu i zamijeniti ovaj mjedeni gornji dio. PP-R osnovno tijelo ostaje u zidu."
           },
           {
-            "q": "Wie oft muss das Oberteil gefettet werden?",
-            "a": "Das Spindelgewinde ist werkseitig mit einer lebensmittelechten Dauerschmierung versehen, eine nachträgliche Wartung ist nicht erforderlich."
+            "q": "Koliko često treba podmazivati gornji dio?",
+            "a": "Navoj vretena tvornički je opskrbljen trajnim podmazivanjem sigurnim za namirnice, naknadno održavanje nije potrebno."
           }
         ]
       },
       "elongation-pieces": {
-        "seo_p1": "Die Verlängerungsstücke (Elongation Pieces) sind unverzichtbare Problemlöser, wenn Armatureanschlüsse zu tief im Mauerwerk verborgen sind.",
+        "seo_p1": "Produžni komadi (Elongation Pieces) nezaobilazni su rješavači problema kada su priključci armatura skriveni preduboko u zidu.",
         "seo_p2": "Ove masivne mjedene komponente produžuju navoj podžbuknih ventila prema van s milimetarskom preciznošću, bez smanjenja protočnog presjeka ili narušavanja tlačne otpornosti.",
         "seo_p3": "One spašavaju instalacije kod naknadno povećanih zidnih obloga ili debelih slojeva pločica te osiguravaju besprijekornu montažu vidljivih upravljačkih elemenata.",
         "faq": [
           {
-            "q": "Wann benötige ich eine Ventil-Verlängerung?",
+            "q": "Kada trebam produžetak ventila?",
             "a": "Wenn der Putz oder die Fliesen dicker ausfallen als geplant und die Spindel des Unterputzventils nicht mehr weit genug aus der Wand ragt."
           },
           {
@@ -4750,16 +4841,16 @@
         "seo_p3": "U industrijskim mrežama i vertikalnim vodovima ovaj element štedi golemo vrijeme montaže, jer se glavni vodovi za proširenja ne moraju u potpunosti demontirati.",
         "faq": [
           {
-            "q": "Was ist der Unterschied zum Sattel mit Metallgewinde?",
-            "a": "Dieser Einschweißsattel verfügt über einen reinen PP-R Abzweig, in den direkt ein Rohr oder ein weiterer Fitting (Muffe) eingeschweißt werden kann."
+            "q": "Koja je razlika u odnosu na sedlo s metalnim navojem?",
+            "a": "Ovaj uvarni sedlasti priključak posjeduje čisti PP-R odvojak u koji se izravno može zavariti cijev ili dodatni fiting (spojnica)."
           },
           {
-            "q": "Muss die Rohrwand des Hauptrohres eine Mindeststärke haben?",
-            "a": "Nein, der Sattel kann bei fachgerechter Anbohrung auf alle K Aqua Druckstufen (SDR 6 bis SDR 17) sicher aufgeschweißt werden."
+            "q": "Mora li stijenka glavne cijevi imati minimalnu debljinu?",
+            "a": "Ne, sedlasti priključak se pri stručnom bušenju može sigurno navariti na sve K-Aqua tlačne razrede (SDR 6 do SDR 17)."
           },
           {
-            "q": "Wie lange dauert der Anbohr- und Schweißvorgang?",
-            "a": "Ein erfahrener Installateur benötigt für das Anbohren, das Erwärmen mit dem speziellen Sattelwerkzeug und das Fügen maximal 3-5 Minuten."
+            "q": "Koliko traje postupak bušenja i zavarivanja?",
+            "a": "Iskusnom instalateru za bušenje, zagrijavanje posebnim sedlastim alatom i spajanje potrebno je najviše 3 do 5 minuta."
           }
         ]
       },
@@ -4769,16 +4860,16 @@
         "seo_p3": "Idealno za naknadnu instalaciju ispusnih ventila, odzračnika ili mjernih osjetnika izravno u postojeće glavne vodove, bez zahtjevnog razdvajanja cijevne mreže.",
         "faq": [
           {
-            "q": "Worin besteht der Hauptvorteil dieses Einschweißsattels?",
-            "a": "Er ermöglicht die direkte Installation eines Metall-Innengewindes an einer bestehenden Rohrleitung, was extrem zeit- und platzsparend ist."
+            "q": "Koja je glavna prednost ovog uvarnog sedla?",
+            "a": "Omogućuje izravnu instalaciju metalnog unutarnjeg navoja na postojeći cjevovod, što iznimno štedi vrijeme i prostor."
           },
           {
-            "q": "Können hier Thermometer eingeschraubt werden?",
-            "a": "Ja, der Sattel ist die ideale Schnittstelle, um Temperatursensoren oder kleine Manometer dauerhaft und druckdicht in Heizungsnetze zu integrieren."
+            "q": "Mogu li se ovdje uvrnuti termometri?",
+            "a": "Da, sedlo je idealno sučelje za trajnu i tlačnonepropusnu integraciju temperaturnih senzora ili malih manometara u mreže grijanja."
           },
           {
-            "q": "Ist das Messinggewinde vor Ausreißen geschützt?",
-            "a": "Absolut. Der Messingeinsatz ist tief in die PP-R-Struktur eingespritzt und durch eine spezielle Rändelung mechanisch unlösbar verankert."
+            "q": "Je li mjedeni navoj zaštićen od izvlačenja?",
+            "a": "Apsolutno. Mjedeni umetak duboko je ubrizgan u PP-R strukturu i mehanički nerastavljivo usidren posebnim nazubljenjem."
           }
         ]
       },
@@ -4788,54 +4879,54 @@
         "seo_p3": "Ova se komponenta često koristi u izgradnji razdjelnika za montažu zapornih ventila ili odvoda crpki na iznimno kompaktan i hidraulički povoljan način.",
         "faq": [
           {
-            "q": "Für welche Verbindungen eignet sich das Außengewinde am Sattel?",
-            "a": "Es ist optimal für den direkten Anschluss von Armature mit Innengewinde oder für Verbindungen, die mit einer Überwurfmutter gesichert werden."
+            "q": "Za koje je spojeve prikladan vanjski navoj na sedlu?",
+            "a": "Optimalan je za izravan priključak armatura s unutarnjim navojem ili za spojeve koji se osiguravaju slijepom maticom."
           },
           {
-            "q": "Gibt es diesen Sattel für alle Rohrdimensionen?",
-            "a": "Der Einschweißsattel ist für Hauptrohre von 40 mm bis 125 mm verfügbar, wobei das Außengewinde typischerweise 1/2\" oder 3/4\" beträgt."
+            "q": "Postoji li ovo sedlo za sve dimenzije cijevi?",
+            "a": "Uvarno sedlo dostupno je za glavne cijevi od 40 mm do 125 mm, pri čemu vanjski navoj obično iznosi 1/2\" ili 3/4\"."
           },
           {
-            "q": "Wie wird die Dichtigkeit nach der Anbohrung sichergestellt?",
-            "a": "Durch das Verschmelzen von Sattel und Rohr entsteht eine stoffschlüssige, homogene Verbindung, die auf molekularer Ebene 100% dicht ist."
+            "q": "Kako se osigurava nepropusnost nakon bušenja?",
+            "a": "Taljenjem sedla i cijevi nastaje homogeni spoj materijala koji je na molekularnoj razini 100 % nepropustan."
           }
         ]
       },
       "pipe-clamps": {
         "seo_p1": "Cijevne obujmice (Pipe Clamps) čine mehanički temelj za normirano i dugotrajno pričvršćivanje PP-R cijevnih sustava.",
-        "seo_p2": "Ausgestattet mit schallentkoppelnden Gummieinlagen und stabilen Stahlscharnieren, nehmen diese Schellen die thermische Längenausdehnung des Cijevis sicher auf.",
+        "seo_p2": "Opremljene gumenim ulošcima za zvučnu izolaciju i stabilnim čeličnim zglobovima, ove obujmice sigurno kompenziraju toplinsko linearno istezanje cijevi.",
         "seo_p3": "One su obvezne za fiksiranje cijevnih dionica na zidove ili stropove uz istodobno učinkovito izoliranje zvukova iz cijevi od konstrukcije zgrade.",
         "faq": [
           {
-            "q": "Wozu dient die Gummieinlage in der Schelle?",
-            "a": "Die EPDM-Einlage dient der Schallentkopplung gemäß DIN 4109 und verhindert die Übertragung von Fließgeräuschen auf das Mauerwerk."
+            "q": "Čemu služi gumeni uložak u obujmici?",
+            "a": "EPDM uložak služi za zvučnu izolaciju prema normi DIN 4109 i sprječava prijenos šumova strujanja na zidove."
           },
           {
-            "q": "Sollte die Schelle als Festpunkt oder Losspunkt montiert werden?",
-            "a": "Je nach Anzugsmoment der Schrauben kann die Schelle sowohl als fixierender Festpunkt als auch als gleitender Losspunkt für die thermische Längenausdehnung genutzt werden."
+            "q": "Treba li obujmicu montirati kao fiksnu ili kliznu točku?",
+            "a": "Ovisno o momentu pritezanja vijaka, obujmica se može koristiti i kao fiksna točka i kao klizna točka za toplinsko linearno istezanje."
           },
           {
-            "q": "Welchen Gewindeanschluss haben die Rohrschellen?",
-            "a": "Unsere Standard-Rohrschellen verfügen über eine aufgeschweißte Kombimutter (M8/M10), die eine flexible Befestigung an gängigen Stockschrauben oder Gewindestangen ermöglicht."
+            "q": "Koji navojni priključak imaju cijevne obujmice?",
+            "a": "Naše standardne cijevne obujmice imaju zavarenu kombiniranu maticu (M8/M10) koja omogućuje fleksibilno pričvršćivanje na standardne vijke za drvo ili navojne šipke."
           }
         ]
       },
       "backing-flange-pp-steel-sfbf": {
         "seo_p1": "Slobodna prirubnica PP/čelik (Backing Flange PP/Steel SFBF) osigurava visokoopteretiv i dimenzijski stabilan prirubnički spoj kod velikih promjera cijevi.",
         "seo_p2": "Čelična jezgra, u cijelosti obložena robusnim polipropilenom (PP), potpuno sprječava koroziju i onemogućuje savijanje pod visokim pritisnim tlakom.",
-        "seo_p3": "Dieses Priborteil ist entscheidend für den Übergang auf Großpumpen oder Stahlbehälter in industriellen Anlagen, wo extreme Zugkräfte sicher abgeleitet werden müssen.",
+        "seo_p3": "Ovaj dio pribora presudan je za prijelaz na velike crpke ili čelične spremnike u industrijskim postrojenjima, gdje se ekstremne vlačne sile moraju sigurno prenijeti.",
         "faq": [
           {
-            "q": "Warum wird der Stahlkern mit Polypropylen ummantelt?",
-            "a": "Die Kunststoffummantelung schützt den hochfesten Stahl dauerhaft vor Korrosion, was besonders in feuchten Kellern oder aggressiven Industrieumgebungen entscheidend ist."
+            "q": "Zašto je čelična jezgra obložena polipropilenom?",
+            "a": "Plastični omotač trajno štiti visokovrijedni čelik od korozije, što je osobito presudno u vlažnim podrumima ili agresivnim industrijskim okruženjima."
           },
           {
-            "q": "Entspricht das Lochbild den gängigen Normen?",
-            "a": "Ja, das Bohrbild unserer Losflansche ist exakt auf die europäische DIN EN 1092-1 Norm abgestimmt und passt auf alle handelsüblichen Gegenflansche."
+            "q": "Odgovara li raspored rupa uobičajenim normama?",
+            "a": "Da, raspored rupa naših slobodnih prirubnica točno je usklađen s europskom normom DIN EN 1092-1 i odgovara svim standardnim protuprirubnicama."
           },
           {
-            "q": "Müssen die Schrauben mit einem Drehmomentschlüssel angezogen werden?",
-            "a": "Wir empfehlen dringend das kreuzweise Anziehen mit einem kalibrierten Drehmomentschlüssel, um eine gleichmäßige Verpressung der Dichtung zu gewährleisten."
+            "q": "Moraju li se vijci zatezati momentnim ključem?",
+            "a": "Izričito preporučujemo unakrsno zatezanje kalibriranim momentnim ključem kako bi se osiguralo ravnomjerno stiskanje brtve."
           }
         ]
       },
@@ -4845,16 +4936,16 @@
         "seo_p3": "Izravnava mikroskopske neravnine i kod prirubničkih prijelaza u industriji ili tehnici grijanja osigurava 100-postotno nepropustan i dugotrajan spoj.",
         "faq": [
           {
-            "q": "Aus welchem Material besteht die Flachdichtung?",
-            "a": "Standardmäßig bestehen unsere Flanschdichtungen aus hochdruckfestem EPDM, das für Trinkwasser und Heizungswasser hervorragend geeignet ist."
+            "q": "Od kojeg je materijala izrađena plosnata brtva?",
+            "a": "Standardno se naše prirubničke brtve sastoje od EPDM-a visoke tlačne čvrstoće, koji je iznimno prikladan za pitku vodu i vodu za grijanje."
           },
           {
-            "q": "Darf die Dichtung wiederverwendet werden?",
-            "a": "Nein, nach dem Lösen einer Flanschverbindung muss aus Sicherheitsgründen zwingend eine neue Flachdichtung eingesetzt werden."
+            "q": "Smije li se brtva ponovno upotrijebiti?",
+            "a": "Ne, nakon rastavljanja prirubničkog spoja iz sigurnosnih razloga obvezno se mora postaviti nova plosnata brtva."
           },
           {
-            "q": "Ist die Dichtung beständig gegen Chemikalien?",
-            "a": "EPDM bietet eine gute Beständigkeit gegen viele wässrige Lösungen. Für spezielle industrielle Chemikalien prüfen Sie bitte vorab unsere Beständigkeitslisten."
+            "q": "Je li brtva otporna na kemikalije?",
+            "a": "EPDM pruža dobru otpornost na mnoge vodene otopine. Za posebne industrijske kemikalije unaprijed provjerite naše tablice kemijske otpornosti."
           }
         ]
       },
@@ -4864,16 +4955,16 @@
         "seo_p3": "Redovita zamjena ove brtve nakon radova održavanja na ventilima ili crpkama jamči trajnu nepropusnost vijčanog spoja.",
         "faq": [
           {
-            "q": "Wie stark darf die Verschraubung angezogen werden?",
-            "a": "Um die Dichtung nicht zu zerstören, sollte die Überwurfmutter handfest und anschließend mit Werkzeug nur leicht (ca. 1/4 Drehung) nachgezogen werden."
+            "q": "Koliko snažno se holenderski spoj smije zategnuti?",
+            "a": "Kako se brtva ne bi oštetila, slijepa matica treba se zategnuti ručno te potom alatom samo lagano (otprilike 1/4 okreta)."
           },
           {
-            "q": "Gibt es diese Dichtungen auch in anderen Materialien?",
-            "a": "Für extreme Temperaturanforderungen oder spezielle industrielle Medien können wir auf Anfrage auch Dichtungen aus FKM (Viton) oder PTFE anbieten."
+            "q": "Postoje li ove brtve i od drugih materijala?",
+            "a": "Za ekstremne temperaturne zahtjeve ili posebne industrijske medije na upit možemo ponuditi i brtve od FKM-a (Viton) ili PTFE-a."
           },
           {
-            "q": "Passt diese Dichtung auf Fremdfabrikate?",
-            "a": "Sie ist maßgeschneidert für die Nut- und Federkonstruktion der K Aqua Verschraubungen, kann aber auch bei maßgleichen Fremdverschraubungen verwendet werden."
+            "q": "Odgovara li ova brtva proizvodima drugih proizvođača?",
+            "a": "Prilagođena je sustavu utora i pera K-Aqua holendera, ali se može koristiti i kod dimenzijski jednakih holendera drugih proizvođača."
           }
         ]
       },
@@ -4883,35 +4974,35 @@
         "seo_p3": "Štiti cijevni sustav od onečišćenja tijekom faze gradnje i pouzdano zatvara zidna koljena do konačne montaže izljevnih armatura.",
         "faq": [
           {
-            "q": "Hält der Stopfen dem Wasserdruck während der Bauphase stand?",
-            "a": "Ja, er ist so konstruiert, dass er dem vollen Prüfdruck (oftmals mehr als 15 bar) bei der Druckprobe des Leitungsnetzes standhält."
+            "q": "Podnosi li čep tlak vode tijekom faze gradnje?",
+            "a": "Da, konstruiran je tako da bez problema podnosi puni ispitni tlak (često više od 15 bara) tijekom tlačne probe cijevne mreže."
           },
           {
-            "q": "Muss der Stopfen zusätzlich mit Teflon abgedichtet werden?",
-            "a": "Unsere Stopfen verfügen meist über einen integrierten O-Ring, sodass kein zusätzliches Dichtband wie Teflon oder Hanf benötigt wird."
+            "q": "Mora li se čep dodatno brtviti teflonom?",
+            "a": "Naši čepovi uglavnom imaju integrirani O-prsten, pa dodatna brtvena traka poput teflona ili kudjelje nije potrebna."
           },
           {
-            "q": "Kann der Stopfen dauerhaft in der Wand verbleiben?",
-            "a": "Er ist primär als Baustopfen konzipiert. Für dauerhafte Blindverschlüsse empfehlen wir entsprechende Messing-Blindstopfen."
+            "q": "Može li čep trajno ostati u zidu?",
+            "a": "Prvenstveno je koncipiran kao građevinski čep. Za trajna slijepa zatvaranja preporučujemo odgovarajuće mjedene slijepe čepove."
           }
         ]
       },
       "pipe-cutter-2040": {
         "seo_p1": "Rezač cijevi d20-d40 (Pipe Cutter 20-40) nezaobilazan je precizni alat za čiste poprečne rezove kod malih do srednjih dimenzija cijevi.",
-        "seo_p2": "Ausgestattet mit einer titanbeschichteten Klinge und einer mechanischen Hebelübersetzung, garantiert die Schere einen absolut rechtwinkligen Schnitt durch PP-R Cijevi ohne Materialverformung.",
+        "seo_p2": "Opremljene oštricom s titanijskim premazom i mehaničkim prijenosom poluge, ove škare jamče apsolutno pravokutan rez kroz PP-R cijevi bez deformacije materijala.",
         "seo_p3": "Čist rez bez srha osnovni je preduvjet za normiran i dugotrajan zavareni spoj. Ovaj je alat stalni pratitelj svakog instalatera.",
         "faq": [
           {
-            "q": "Warum ist ein spezieller Rohrschneider so wichtig?",
-            "a": "Ein rechtwinkliger und gratfreier Schnitt ohne Quetschungen ist absolut zwingend, um eine perfekte, hohlraumfreie Schweißverbindung zu gewährleisten."
+            "q": "Zašto je poseban rezač cijevi toliko važan?",
+            "a": "Pravokutan rez bez srha i bez gnječenja apsolutno je nužan kako bi se osigurao savršen zavareni spoj bez šupljina."
           },
           {
-            "q": "Kann die Klinge ausgetauscht werden?",
-            "a": "Ja, bei Verschleiß oder Beschädigung lässt sich die hochfeste Stahlklinge problemlos durch ein Original-Ersatzteil austauschen."
+            "q": "Može li se oštrica zamijeniti?",
+            "a": "Da, u slučaju istrošenosti ili oštećenja, visokovrijedna čelična oštrica može se jednostavno zamijeniti originalnim rezervnim dijelom."
           },
           {
-            "q": "Funktioniert die Schere auch bei kalten Temperaturen?",
-            "a": "Die Kraftübersetzung funktioniert immer, jedoch sollte das PP-R Rohr bei Frosttemperaturen nicht geschnitten werden, da es splittern könnte."
+            "q": "Rade li škare i pri niskim temperaturama?",
+            "a": "Prijenos sile uvijek funkcionira, no PP-R cijev se na temperaturama smrzavanja ne bi smjela rezati jer bi mogla puknuti."
           }
         ]
       },
@@ -4921,16 +5012,16 @@
         "seo_p3": "Idealan za pripremu glavnih razvodnih vodova u industrijskoj gradnji, ovaj rezač sprječava pukotine uzrokovane naprezanjem koje bi mogle nastati kod jednostavnih rezova pilom.",
         "faq": [
           {
-            "q": "Wie funktioniert das Schneiden von derart dicken Cijevin?",
-            "a": "Das Werkzeug wird um das Rohr gespannt, das Schneidrad wird langsam zugestellt und der Schneider wird in gleichmäßigen Drehbewegungen um das Rohr geführt."
+            "q": "Kako funkcionira rezanje tako debelih cijevi?",
+            "a": "Alat se stegne oko cijevi, rezni kotačić se polako primiče i rezač se ravnomjernim rotacijskim pokretima vodi oko cijevi."
           },
           {
-            "q": "Schneidet dieses Werkzeug auch Faserverbundrohre?",
-            "a": "Ja, das speziell gehärtete Schneidrad durchtrennt auch unsere glasfaserverstärkten PPRCT Cijevi mühelos und extrem präzise."
+            "q": "Reže li ovaj alat i kompozitne cijevi ojačane vlaknima?",
+            "a": "Da, posebno kaljeni rezni kotačić bez napora i iznimno precizno reže i naše PP-RCT cijevi ojačane staklenim vlaknima."
           },
           {
-            "q": "Ersetzt der Rollenschneider das Anfasen?",
-            "a": "Das Muffenschweißen erfordert kein Anfasen. Der absolut gerade Schnitt dieses Werkzeugs ist die perfekte Vorbereitung für den Schweißprozess."
+            "q": "Zamjenjuje li valjkasti rezač obaranje bridova?",
+            "a": "Polifuzijsko zavarivanje spojnica ne zahtijeva obaranje bridova. Apsolutno ravan rez ovog alata savršena je priprema za postupak zavarivanja."
           }
         ]
       },
@@ -4940,16 +5031,16 @@
         "seo_p3": "Koncipiran za brzu i normiranu predzidnu i etažnu instalaciju, uređaj u svakom trenutku održava potrebnu temperaturu zavarivanja od 260°C apsolutno konstantnom.",
         "faq": [
           {
-            "q": "Warum ist ein elektronisches Thermostat so wichtig?",
-            "a": "Nur ein präzises Thermostat garantiert die DVS-konforme Dauertemperatur von exakt 260°C, die für eine sichere PP-R Verschmelzung zwingend nötig ist."
+            "q": "Zašto je elektronički termostat toliko važan?",
+            "a": "Samo precizan termostat jamči trajnu temperaturu od točno 260°C u skladu s DVS smjernicama, koja je nužna za sigurno stapanje PP-R materijala."
           },
           {
-            "q": "Wie lange dauert die Aufheizphase?",
-            "a": "Dank des starken 800-Watt-Heizelements erreicht das Gerät die Betriebstemperatur in der Regel in unter 10 Minuten."
+            "q": "Koliko traje faza zagrijavanja?",
+            "a": "Zahvaljujući snažnom grijaćem elementu od 800 W, uređaj u pravilu postiže radnu temperaturu za manje od 10 minuta."
           },
           {
-            "q": "Welche Alati sind im Koffer enthalten?",
-            "a": "Das Set umfasst das Heizgerät, den Standfuß, Teflondorne für 20, 25 und 32 mm, Inbusschlüssel und Montageschrauben im Stahlkoffer."
+            "q": "Koji su alati uključeni u kovčeg?",
+            "a": "Set uključuje uređaj za grijanje, postolje, teflonske trnove za 20, 25 i 32 mm, imbus ključ i montažne vijke u čeličnom kovčegu."
           }
         ]
       },
@@ -4959,35 +5050,35 @@
         "seo_p3": "Robusni kompletni set koncipiran je za surovu svakodnevicu gradilišta i isporučuje beskompromisno preciznu temperaturu zavarivanja čak i u nepovoljnim vremenskim uvjetima.",
         "faq": [
           {
-            "q": "Können mehrere Schweißwerkzeuge gleichzeitig montiert werden?",
-            "a": "Ja, der breite Heizschwert-Kopf erlaubt die simultane Montage von bis zu drei Heizdorn-Paaren für ein unterbrechungsfreies Arbeiten."
+            "q": "Može li se istovremeno montirati više alata za zavarivanje?",
+            "a": "Da, široka glava grijaćeg mača omogućuje istodobnu montažu do tri para grijaćih trnova za nesmetan rad."
           },
           {
-            "q": "Gibt das Gerät ein Signal bei Erreichen der Temperatur?",
-            "a": "Eine gut sichtbare Kontrollleuchte signalisiert dem Anwender, sobald die Betriebstemperatur von 260°C erreicht und stabilisiert ist."
+            "q": "Daje li uređaj signal pri postizanju temperature?",
+            "a": "Jasno vidljiva kontrolna lampica signalizira korisniku čim se postigne i stabilizira radna temperatura od 260°C."
           },
           {
-            "q": "Ist das Gerät für den Dauerbetrieb auf Großbaustellen geeignet?",
-            "a": "Absolut. Das langlebige Heizelement und die hitzebeständige Verkabelung sind speziell für den industriellen Schichtbetrieb ausgelegt."
+            "q": "Je li uređaj prikladan za neprekidan rad na velikim gradilištima?",
+            "a": "Apsolutno. Dugotrajni grijaći element i ožičenje otporno na toplinu posebno su projektirani za industrijski rad u smjenama."
           }
         ]
       },
       "hand-welding-machine-mirror-50125": {
         "seo_p1": "Ručni uređaj za zavarivanje sa zrcalom d50-d125 (Hand Welding Machine Mirror 50-125) razvijen je posebno za velika polifuzijska zavarivanja.",
-        "seo_p2": "Ein extrem flacher, großflächiger Heizspiegel garantiert die gleichmäßige Erwärmung massiver Fittings und Cijevi. Die Leistung von über 1200 Watt sichert schnelle Aufheizphasen.",
+        "seo_p2": "Iznimno plosnato, velikopovršinsko grijaće zrcalo jamči ravnomjerno zagrijavanje masivnih fitinga i cijevi. Snaga veća od 1200 W osigurava brze faze zagrijavanja.",
         "seo_p3": "Obvezan za ručnu obradu velikih opskrbnih vodova u industriji, gdje bi padovi temperature tijekom postupka zavarivanja bili katastrofalni.",
         "faq": [
           {
-            "q": "Warum benötigt man für große Cijevi einen Flachspiegel?",
-            "a": "Große Durchmesser (ab 50 mm) haben eine enorme Masse. Der flache Spiegel bietet eine extrem große Kontaktfläche, um die Hitze schnell und gleichmäßig in den Kunststoff einzubringen."
+            "q": "Zašto je za velike cijevi potrebno plosnato zrcalo?",
+            "a": "Veliki promjeri (od 50 mm) imaju golemu masu. Plosnato zrcalo nudi iznimno veliku kontaktnu površinu za brz i ravnomjeran prijenos topline u plastiku."
           },
           {
-            "q": "Wie schwer ist das Gerät?",
-            "a": "Trotz der hohen Leistung ist das Gerät ergonomisch ausbalanciert, erfordert bei Cijevin ab 90 mm jedoch meist zwei Installateure zum exakten Fügen."
+            "q": "Koliko je težak uređaj?",
+            "a": "Unatoč velikoj snazi uređaj je ergonomski uravnotežen, no kod cijevi od 90 mm naviše obično su potrebna dva instalatera za precizno spajanje."
           },
           {
-            "q": "Müssen die teflonbeschichteten Flächen gereinigt werden?",
-            "a": "Ja, sie sollten nach jedem Einsatz im noch warmen Zustand mit einem fusselfreien Papiertuch oder einem speziellen Holzspatel vorsichtig gereinigt werden."
+            "q": "Moraju li se teflonom obložene površine čistiti?",
+            "a": "Da, nakon svake upotrebe treba ih pažljivo očistiti dok su još tople papirnatim ručnikom koji ne ostavlja dlačice ili posebnom drvenom lopaticom."
           }
         ]
       },
@@ -4997,16 +5088,16 @@
         "seo_p3": "Samo se neoštećenim i visokokvalitetnim alatima za zavarivanje može postići homogenost spoja koju zahtijeva DVS za vijek trajanja od 50 godina.",
         "faq": [
           {
-            "q": "Wann muss ein Schweißwerkzeug ausgetauscht werden?",
-            "a": "Sobald die Teflonbeschichtung zerkratzt ist oder sich PP-R-Reste festbrennen, muss das Werkzeug zwingend getauscht werden, um fehlerhafte Schweißnähte zu vermeiden."
+            "q": "Kada se alat za zavarivanje mora zamijeniti?",
+            "a": "Čim se teflonski sloj izgrebe ili se ostaci PP-R-a zapeku, alat se obvezno mora zamijeniti kako bi se izbjegli neispravni zavari."
           },
           {
-            "q": "Warum darf ich Kunststoffreste nicht mit dem Messer abkratzen?",
-            "a": "Ein Messer zerstört sofort die mikrofeine PTFE-Antihaftbeschichtung. Nutzen Sie ausschließlich weiche Tücher auf dem noch heißen Werkzeug."
+            "q": "Zašto ne smijem strugati ostatke plastike nožem?",
+            "a": "Nož odmah uništava mikrofini PTFE neprianjajući sloj. Koristite isključivo meke krpe na još vrućem alatu."
           },
           {
-            "q": "Passt das K Aqua Schweißwerkzeug auch auf Fremdgeräte?",
-            "a": "Die Befestigungsbohrung entspricht dem Industriestandard, sodass unsere Alati auf fast alle professionellen Muffenschweißgeräte passen."
+            "q": "Odgovara li K-Aqua alat za zavarivanje i na uređaje drugih proizvođača?",
+            "a": "Montažni provrt odgovara industrijskom standardu, tako da naši alati odgovaraju gotovo svim profesionalnim uređajima za zavarivanje spojnica."
           }
         ]
       },
@@ -5016,16 +5107,16 @@
         "seo_p3": "U radioničkoj izradi razdjelnika ili složenih industrijskih sklopova ovaj stroj eliminira ljudske pogreške i maksimizira brzinu obrade.",
         "faq": [
           {
-            "q": "Welchen Vorteil bietet die stationäre Maschine gegenüber dem Handgerät?",
-            "a": "Die Hebelmechanik ermöglicht ein exakt lineares, verkantungsfreies Einschieben der großen Cijevi, was per Hand extrem kraftaufwendig wäre."
+            "q": "Koju prednost pruža stacionarni stroj u odnosu na ručni uređaj?",
+            "a": "Mehanizam poluge omogućuje točno linearno umetanje velikih cijevi bez zakošenja, što bi ručno zahtijevalo iznimno velik fizički napor."
           },
           {
-            "q": "Können damit auch kleine Cijevi geschweißt werden?",
-            "a": "Technisch ja, die Maschine ist jedoch speziell für die hohen Fügekräfte der Dimensionen 50 mm bis 125 mm konzipiert."
+            "q": "Mogu li se njime zavarivati i male cijevi?",
+            "a": "Tehnički da, no stroj je posebno koncipiran za visoke sile spajanja dimenzija od 50 mm do 125 mm."
           },
           {
-            "q": "Wie wird das Rohr fixiert?",
-            "a": "Universal-Spannbacken mit verschiedenen Einsätzen greifen das Rohr schonend aber absolut fest, um eine kraftvolle, axiale Bewegung zu garantieren."
+            "q": "Kako se cijev fiksira?",
+            "a": "Univerzalne stezne čeljusti s različitim umecima prihvaćaju cijev nježno, ali apsolutno čvrsto, kako bi se zajamčio snažan, aksijalni pomak."
           }
         ]
       },
@@ -5035,16 +5126,16 @@
         "seo_p3": "Za komunalne glavne vodovodne cijevi ili industrijske mreže rashladne vode od 90 mm naviše, ovaj je uređaj nezamjenjiv za izvođenje certificiranih sučeonih zavara spremnih za primopredaju.",
         "faq": [
           {
-            "q": "Was ist der Unterschied zwischen Muffen- und Stumpfschweißen?",
-            "a": "Beim Stumpfschweißen werden die Cijevinden plan gefräst und direkt ohne zusätzlichen Fitting (Muffe) auf Stoß miteinander verschmolzen."
+            "q": "Koja je razlika između zavarivanja spojnica i sučeonog zavarivanja?",
+            "a": "Kod sučeonog zavarivanja krajevi cijevi se ravno glodaju i izravno sučeono stapaju bez dodatnog fitinga (spojnice)."
           },
           {
-            "q": "Werden die Schweißdaten für die Qualitätskontrolle gespeichert?",
-            "a": "Ja, die integrierte CNC-Steuerung protokolliert Temperatur, Druck und Zeit für jede einzelne Schweißnaht zur späteren Auswertung."
+            "q": "Pohranjuju li se podaci o zavarivanju radi kontrole kvalitete?",
+            "a": "Da, integrirano CNC upravljanje bilježi temperaturu, tlak i vrijeme za svaki pojedinačni zavareni šav radi kasnije analize."
           },
           {
-            "q": "Warum ist ein Hobel integriert?",
-            "a": "Der Hobel fräst beide Cijevinden vor dem Schweißen absolut parallel und oxidationsfrei, was für eine dauerhafte molekulare Verbindung zwingend erforderlich ist."
+            "q": "Zašto je integrirana blanjalica?",
+            "a": "Blanjalica prije zavarivanja gloda oba kraja cijevi apsolutno paralelno i bez oksidacije, što je nužno za trajan molekularni spoj."
           }
         ]
       },
@@ -5054,35 +5145,35 @@
         "seo_p3": "Neophodan za popravke u iznimno uskim oknima, naknadna priključivanja ili podzemna polaganja, gdje je klasično polifuzijsko zavarivanje nemoguće zbog nedostatka prostora.",
         "faq": [
           {
-            "q": "Wie liest die Maschine die Schweißparameter?",
-            "a": "Jede Heizwendelmuffe verfügt über einen Barcode, den der Anwender mit dem angeschlossenen Scanner einliest. Die Maschine stellt sich vollautomatisch ein."
+            "q": "Kako uređaj očitava parametre zavarivanja?",
+            "a": "Svaka elektrofuzijska spojnica ima crtični kod koji korisnik očitava priloženim skenerom. Uređaj se podešava potpuno automatski."
           },
           {
-            "q": "Gleicht die Maschine Temperaturschwankungen auf der Baustelle aus?",
-            "a": "Ja, ein Umgebungssensor misst die Temperatur und passt die Schweißdauer automatisch an (im Winter länger, im Sommer kürzer)."
+            "q": "Kompenzira li uređaj temperaturna kolebanja na gradilištu?",
+            "a": "Da, senzor okoline mjeri temperaturu i automatski prilagođava trajanje zavarivanja (zimi dulje, ljeti kraće)."
           },
           {
-            "q": "Muss das Rohr vor der Elektroschweißung geschält werden?",
-            "a": "Zwingend! Die Oxidschicht auf dem PP-R Rohr muss im Schweißbereich mit einem speziellen Schälgerät mechanisch entfernt werden."
+            "q": "Mora li se cijev oguliti prije elektrofuzijskog zavarivanja?",
+            "a": "Obvezno! Oksidni sloj na PP-R cijevi u području zavarivanja mora se mehanički ukloniti posebnim strugačem."
           }
         ]
       },
       "welding-tool-for-weld-in-saddles": {
-        "seo_p1": "Das Sattel-Schweißwerkzeug (Welding Tool for Weld-in Saddles) ist speziell für die Montage von Einschweißsätteln an bestehende PP-R Cijevi konstruiert.",
+        "seo_p1": "Alat za zavarivanje sedlastih priključaka (Welding Tool for Weld-in Saddles) posebno je konstruiran za montažu uvarnih sedala na postojeće PP-R cijevi.",
         "seo_p2": "Sastoji se od konkavno oblikovanog grijaćeg trna za stijenku cijevi i konveksne grijaće čahure za sedlo, oba s visokokvalitetnim teflonskim slojem.",
         "seo_p3": "Zagrijava točno potrebnu površinu na osnovnoj cijevi kako bi se sedlo homogeno i nerastavljivo stopilo s cijevnim sustavom.",
         "faq": [
           {
-            "q": "Warum hat das Werkzeug eine konkave und eine konvexe Seite?",
-            "a": "Die konkave (gewölbte) Seite erwärmt das runde Außenrohr, während die konvexe Seite exakt den sattelförmigen Abzweig auf Schmelztemperatur bringt."
+            "q": "Zašto alat ima konkavnu i konveksnu stranu?",
+            "a": "Konkavna (udubljena) strana zagrijava okruglu vanjsku cijev, dok konveksna strana dovodi točno sedlasti odvojak na temperaturu taljenja."
           },
           {
-            "q": "Passt ein Werkzeug für alle Cijevi?",
-            "a": "Nein, Sie benötigen für jede Hauptrohr-Abzweig-Kombination (z. B. 63 mm auf 20 mm) ein exakt passendes Sattel-Schweißwerkzeug."
+            "q": "Odgovara li jedan alat za sve cijevi?",
+            "a": "Ne, za svaku kombinaciju glavne cijevi i ogranka (npr. 63 mm na 20 mm) potreban vam je točno odgovarajući alat za zavarivanje sedla."
           },
           {
-            "q": "Wie wird das Werkzeug auf dem Schweißgerät montiert?",
-            "a": "Es wird wie ein normaler Heizdorn mit einer Inbusschraube direkt auf das Heizschwert des K Aqua Handschweißgeräts geschraubt."
+            "q": "Kako se alat montira na uređaj za zavarivanje?",
+            "a": "Pričvršćuje se poput uobičajenog grijaćeg trna imbus vijkom izravno na grijaći mač K-Aqua ručnog uređaja za zavarivanje."
           }
         ]
       },
@@ -5092,35 +5183,35 @@
         "seo_p3": "Iznimno oštra i čista izbušena rupa presudna je kako pri kasnijem uvarivanju sedla plastična strugotina ne bi dospjela u cijevnu mrežu.",
         "faq": [
           {
-            "q": "Warum kann ich keinen normalen Holz- oder Metallbohrer verwenden?",
-            "a": "Standardbohrer reißen den Kunststoff ein und erzeugen unkontrollierte Späne. Unser Spezialbohrer fräst das Loch und fängt den Span sauber ab."
+            "q": "Zašto ne mogu koristiti obično svrdlo za drvo ili metal?",
+            "a": "Standardna svrdla trgaju plastiku i stvaraju nekontroliranu strugotinu. Naše specijalno svrdlo gloda rupu i uredno prihvaća strugotinu."
           },
           {
-            "q": "Passt der Bohrer in einen handelsüblichen Akkuschrauber?",
-            "a": "Ja, der Bohrer verfügt über einen genormten Sechskantschaft, der in jedes handelsübliche Bohrfutter passt."
+            "q": "Odgovara li svrdlo u standardni akumulatorski odvijač?",
+            "a": "Da, svrdlo ima normirani šesterokutni prihvat koji odgovara u svaku standardnu steznu glavu bušilice."
           },
           {
-            "q": "Muss das Loch entgratet werden?",
-            "a": "Nein, der Fräskopf des Bohrers ist so konstruiert, dass er die Lochkante automatisch für die nachfolgende Schweißung vorbereitet und glättet."
+            "q": "Mora li se s rupe ukloniti srh?",
+            "a": "Ne, rezna glava svrdla konstruirana je tako da automatski priprema i zaglađuje rub rupe za naknadno zavarivanje."
           }
         ]
       },
       "welding-tool-for-repairing-plug": {
         "seo_p1": "Alat za zavarivanje popravnih čepova (Welding Tool for Repairing Plug) visokospecijalizirani je nastavak za sanaciju probušenih vodova.",
         "seo_p2": "Ovaj konusni grijaći trn ciljano zagrijava unutrašnjost oštećene izbušene rupe i istodobno odgovarajući PP-R popravni čep na temperaturu taljenja.",
-        "seo_p3": "Er ist die Rettung auf jeder Baustelle, um versehentlich angebohrte Cijevi (z. B. bei der Wandmontage) schnell und nachweislich dicht wieder zu verschließen.",
+        "seo_p3": "On je spas na svakom gradilištu za brzo i dokazano nepropusno ponovno zatvaranje slučajno probušenih cijevi (npr. pri zidnoj montaži).",
         "faq": [
           {
-            "q": "Wie genau funktioniert der Reparaturstift?",
-            "a": "Das konische Werkzeug schmilzt das Bohrloch auf. Danach wird der ebenfalls erwärmte PP-R Reparaturstopfen in das Loch gedrückt und verschmilzt dauerhaft."
+            "q": "Kako točno funkcionira popravni zatik?",
+            "a": "Konusni alat rastapa izbušenu rupu. Zatim se također zagrijani PP-R popravni čep utiskuje u rupu i trajno stapa."
           },
           {
-            "q": "Ist die reparierte Stelle wirklich sicher?",
-            "a": "Ja, es handelt sich nicht um eine bloße Verklebung, sondern um eine molekulare Verschweißung, die denselben Druck aushält wie das unbeschädigte Rohr."
+            "q": "Je li popravljeno mjesto doista sigurno?",
+            "a": "Da, ne radi se o pukom lijepljenju, već o molekularnom zavarivanju koje podnosi isti tlak kao neoštećena cijev."
           },
           {
-            "q": "Welche Bohrdurchmesser können repariert werden?",
-            "a": "Das Werkzeug ist ideal für typische Bohrunfälle (Dübellöcher) im Bereich von 7 mm bis 11 mm."
+            "q": "Koji se promjeri rupa mogu popraviti?",
+            "a": "Alat je idealan za tipične nezgode pri bušenju (rupe za tiple) u rasponu od 7 mm do 11 mm."
           }
         ]
       },
@@ -5130,16 +5221,16 @@
         "seo_p3": "Umjesto velikog otvaranja zidova radi zamjene dionica cijevi, rupa se jednostavno zavari. Popravljeno mjesto nakon toga je jednako tlačno otporno kao originalna cijev.",
         "faq": [
           {
-            "q": "Aus welchem Material besteht der Reparaturstopfen?",
-            "a": "Er besteht zu 100% aus hochwertigem Polypropylen Random Copolymer (PP-R) Typ 3, genau wie unsere K Aqua Rohrsysteme."
+            "q": "Od kojeg je materijala izrađen popravni čep?",
+            "a": "Sastoji se od 100 % visokokvalitetnog polipropilen random kopolimera (PP-R) tipa 3, točno kao naši K-Aqua cijevni sustavi."
           },
           {
-            "q": "Muss der Stopfen nach dem Einschweißen abgeschnitten werden?",
-            "a": "Ja, nachdem die Schweißstelle vollständig abgekühlt ist, wird das überstehende Ende des Stopfens bündig mit der Rohrwandung abgeschnitten."
+            "q": "Mora li se čep nakon uvarivanja odrezati?",
+            "a": "Da, nakon što se mjesto zavara u potpunosti ohladi, izbočeni kraj čepa reže se u ravnini sa stijenkom cijevi."
           },
           {
-            "q": "Kann ich den Stopfen bei gefülltem Rohrnetz verwenden?",
-            "a": "Nein, das Wasser muss am betroffenen Strang vollständig abgestellt und das Rohr im Bereich des Bohrlochs trockengelegt sein."
+            "q": "Mogu li koristiti čep na napunjenoj cijevnoj mreži?",
+            "a": "Ne, voda na zahvaćenoj dionici mora se potpuno zatvoriti, a cijev u području izbušene rupe mora biti suha."
           }
         ]
       }
@@ -5510,20 +5601,91 @@
     "cookieDecline": "Samo neophodno"
   },
   "cookieConsent": {
-    "title": "Postavke privatnosti i kolačići",
+    "privacyLink": "Izjava o zaštiti podataka",
+    "imprintLink": "Impresum",
+    "title": "Postavke zaštite podataka",
     "description": "Koristimo kolačiće i slične tehnologije (poput piksela i lokalne pohrane) kako bismo vam pružili najbolje moguće iskustvo na našoj platformi. Neki su neophodni, dok nam drugi pomažu u poboljšanju ove web stranice. Uvijek imate potpunu kontrolu.",
     "customize": "Prilagodi postavke",
-    "declineAll": "Samo esencijalni",
+    "declineAll": "Samo nužno",
     "acceptAll": "Prihvati sve",
     "acceptSelected": "Spremi odabir",
-    "essentialTitle": "Esencijalni (Tehnički neophodni)",
-    "essentialDesc": "Ovi su kolačići apsolutno neophodni za nesmetan rad web stranice (npr. navigacija, sigurnost, pohrana vaših preferencija o privatnosti). Bez ovih tehnologija sustav K Aqua ne može ispravno raditi. Oni ne pohranjuju osobne podatke.",
+    "essentialTitle": "Nužno (tehnički potrebno)",
+    "essentialDesc": "Ovi su kolačići nužni za nesmetan rad web-stranice (npr. navigacija, sigurnost, pohrana vaših postavki privatnosti). Bez ovih tehnologija K-Aqua ne može ispravno raditi. Ne pohranjuju podatke koji omogućuju osobnu identifikaciju.",
     "analyticsTitle": "Statistika i analiza",
-    "analyticsDesc": "Ovi nam kolačići pomažu razumjeti ponašanje naših posjetitelja. Prikupljamo pseudonimizirane podatke o tome kako korisnici komuniciraju sa sustavom K Aqua (npr. najposjećenije stranice, vrijeme zadržavanja na stranici, poruke o pogrešci). Time možemo ispravljati greške i kontinuirano poboljšavati platformu.",
+    "analyticsDesc": "Ovi kolačići pomažu nam razumjeti ponašanje naših posjetitelja. Prikupljamo pseudonimizirane podatke o interakciji korisnika s K-Aquom (npr. najposjećenije stranice, vrijeme zadržavanja, poruke o pogreškama). To nam omogućuje otklanjanje pogrešaka i kontinuirano poboljšavanje platforme.",
     "marketingTitle": "Marketing i personalizacija",
-    "marketingDesc": "Koristimo ove tehnologije za prikaz relevantnijeg sadržaja i reklama (također na vanjskim platformama). Ako ovo deaktivirate, i dalje ćete vidjeti oglase, ali će oni biti manje prilagođeni vašim interesima.",
-    "vendorListTitle": "Prikaži detaljan popis kolačića",
-    "backToSimple": "Povratak na pregled"
+    "marketingDesc": "Koristimo ove tehnologije za prikaz relevantnijeg sadržaja i oglasa (također na vanjskim platformama). Ako ih deaktivirate, i dalje ćete vidjeti oglase, ali će oni biti manje prilagođeni vašim interesima.",
+    "intro": "Ova web-stranica ne postavlja kolačiće i ne integrira usluge trećih strana. Pohrana se vrši isključivo lokalno u vašem pregledniku — ništa od toga ne napušta vaš uređaj.",
+    "noCookiesNote": "Bez kolačića · bez oglašivačkih pratitelja · bez prijenosa podataka pri posjetu",
+    "btnAcceptAll": "Dopusti sve",
+    "btnNecessaryOnly": "Samo nužno",
+    "btnCustomize": "Pojedinačni odabir",
+    "btnSaveSelection": "Spremi odabir",
+    "btnBack": "Natrag",
+    "btnClose": "Zatvori",
+    "categories": {
+      "necessary": {
+        "title": "Tehnički nužno",
+        "desc": "Bilježi vašu odluku o zaštiti podataka i odabrani jezik. Bez ove pohrane morali biste ponovno odlučivati pri svakom učitavanju stranice. Nije moguće onemogućiti."
+      },
+      "comfort": {
+        "title": "Udobnost",
+        "desc": "Pamti vaše unose u CO₂ kalkulatoru, vaše posljednje pretraživane pojmove i odabir između svijetlog i tamnog izgleda. Ako odbijete, sve i dalje funkcionira — samo se ništa ne zadržava."
+      },
+      "analytics": {
+        "title": "Mjerenje dosega",
+        "desc": "Anonimna analiza posjećenih stranica.",
+        "emptyNote": "Trenutačno nije integrirana takva usluga. Ako se to promijeni, učitat će se tek nakon vašeg pristanka."
+      }
+    },
+    "inventory": {
+      "toggle": "Prikaži spremljene unose",
+      "heading": "Što se točno pohranjuje",
+      "colName": "Unos",
+      "colPurpose": "Svrha",
+      "colCategory": "Kategorija",
+      "colRetention": "Trajanje pohrane",
+      "note": "Svi se unosi nalaze u lokalnoj pohrani vašeg preglednika (localStorage). Ne postavljaju se kolačići i podaci se ne prenose trećim stranama niti u treće zemlje."
+    },
+    "entries": {
+      "consent": {
+        "name": "Odluka o zaštiti podataka",
+        "purpose": "Bilježi što ste odabrali",
+        "retention": "Do opoziva"
+      },
+      "theme": {
+        "name": "Izgled",
+        "purpose": "Svijetlo ili tamno",
+        "retention": "Do brisanja u pregledniku"
+      },
+      "co2": {
+        "name": "CO₂ kalkulator",
+        "purpose": "Vaši scenariji i popisi projekata",
+        "retention": "Do brisanja u pregledniku"
+      },
+      "search": {
+        "name": "Zadnje traženo",
+        "purpose": "Vaši posljednji pojmovi za pretraživanje",
+        "retention": "Do brisanja u pregledniku"
+      }
+    },
+    "record": {
+      "decidedOn": "Odlučeno dana {date}",
+      "policyVersion": "Verzija {version}",
+      "notDecided": "Još nije donesena odluka"
+    },
+    "withdraw": {
+      "title": "Promijeni odluku",
+      "desc": "Svoju odluku možete promijeniti u bilo kojem trenutku — opoziv je jednako jednostavan kao i pristanak.",
+      "button": "Opozovi sve",
+      "done": "Vaša je odluka poništena."
+    },
+    "a11y": {
+      "dialogLabel": "Postavke zaštite podataka",
+      "closeLabel": "Zatvori postavke",
+      "switchOn": "uključeno",
+      "switchOff": "isključeno"
+    }
   },
   "seo": {
     "extendedProductText": {

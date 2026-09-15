@@ -20,7 +20,8 @@
  */
 
 import fs from 'node:fs';
-import { offeneEintraege, zielLocales } from './i18n-lib.mjs';
+import path from 'node:path';
+import { offeneEintraege, zielLocales, MSG_DIR } from './i18n-lib.mjs';
 
 const argv = process.argv.slice(2);
 const flagWert = (name) => {
@@ -39,16 +40,17 @@ if (argv.includes('--alle')) {
       offen: e.length,
       fehlt: e.filter((x) => x.art === 'fehlt').length,
       gleich: e.filter((x) => x.art === 'gleich').length,
+      platzhalter: e.filter((x) => x.art === 'platzhalter').length,
     });
   }
   zeilen.sort((a, b) => b.offen - a.offen);
   if (argv.includes('--json')) {
     console.log(JSON.stringify({ summe, sprachen: zeilen }, null, 2));
   } else {
-    console.log('Sprache    offen   davon fehlend   davon gleich wie de/en');
+    console.log('Sprache    offen    fehlend   gleich de/en   Füllstring');
     for (const z of zeilen) {
       console.log(
-        `${z.locale.padEnd(9)} ${String(z.offen).padStart(6)}   ${String(z.fehlt).padStart(13)}   ${String(z.gleich).padStart(22)}`
+        `${z.locale.padEnd(9)} ${String(z.offen).padStart(6)} ${String(z.fehlt).padStart(10)} ${String(z.gleich).padStart(14)} ${String(z.platzhalter).padStart(12)}`
       );
     }
     console.log(`\n${zeilen.length} Sprachen, ${summe} offene Einträge gesamt.`);
@@ -79,6 +81,13 @@ if (limit > 0) eintraege = eintraege.slice(0, limit);
 
 const out = flagWert('--out');
 if (out) {
+  // Riegel: Die Übersetzung ist Handarbeit. Kein Skript dieses Repos darf eine
+  // Datei unter `messages/` anfassen — auch nicht versehentlich über ein
+  // falsch gesetztes --out.
+  if (path.resolve(out).startsWith(MSG_DIR + path.sep)) {
+    console.error(`--out darf nicht nach messages/ zeigen: ${out}`);
+    process.exit(2);
+  }
   fs.writeFileSync(
     out,
     JSON.stringify({ locale, gesamt, geliefert: eintraege.length, eintraege }, null, 2),
@@ -89,6 +98,7 @@ if (out) {
   console.log(`${locale}: ${gesamt} offene Einträge`);
   console.log(`  fehlend: ${eintraege.filter((e) => e.art === 'fehlt').length}`);
   console.log(`  gleich wie de/en: ${eintraege.filter((e) => e.art === 'gleich').length}`);
+  console.log(`  Füllstring: ${eintraege.filter((e) => e.art === 'platzhalter').length}`);
 }
 
 process.exit(gesamt === 0 ? 0 : 1);

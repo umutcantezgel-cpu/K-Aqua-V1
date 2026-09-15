@@ -5,12 +5,16 @@ export const outfit = localFont({
   src: '../fonts/outfit-variable-latin.woff2',
   variable: '--font-outfit',
   display: 'swap',
+  fallback: ['Segoe UI', 'Arial', 'sans-serif'],
+  adjustFontFallback: 'Arial',
 });
 
 export const inter = localFont({
   src: '../fonts/inter-variable-latin.woff2',
   variable: '--font-inter',
   display: 'swap',
+  fallback: ['Segoe UI', 'Arial', 'sans-serif'],
+  adjustFontFallback: 'Arial',
 });
 
 // `preload: false` ist hier Absicht.

@@ -355,8 +355,6 @@ const product = {
       name: 'K-Aqua_kaqua-k-fiberclima-pipe-pp-rct-sdr-11' + '_d' + size,
       materials: matKeys,
       seed: 136,
-      // Rohre werden extrudiert: Kennzeichnung als Aufdruck, nicht als Prägung.
-      emboss: false,
       printText: druckzeile(product.brandLine, size),
       clipPlane,
     });

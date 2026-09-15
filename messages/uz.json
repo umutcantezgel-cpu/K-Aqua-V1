@@ -1,4 +1,66 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "Binafsha rangli bo'yalgan, masalan, texnik suv/sug'orish tizimlarini aniq belgilash uchun.",
+    "k-fiber-pipe-pp-rct-sdr-74": "Tola bilan mustahkamlangan o'rta qatlam issiqlik kengayishini taxminan 50% ga kamaytiradi.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "Iqlim/HVAC ilovalari uchun optimallashtirilgan (sovutish va isitish suvi).",
+    "k-fiber-pipe-pp-r-sdr-17": "Sanoat va binolarni ta'minlash uchun katta o'lchamli tola quvuri.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "Ochiq havoda foydalanish uchun UV-barqarorlashtirilgan tashqi qatlam.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "Ochiq liniyalar va tom o'rnatishlari uchun UV-barqarorlashtirilgan.",
+    "electrofusion-socket": "Elektro payvandlash muftasi: payvandlash dazmolisiz elektr isitish orqali birikish.",
+    "flange-adaptor": "Flanesli ulanishga o'tish, armaturalar, nasoslar, suv hisoblagichlar uchun.",
+    "reducing-tee-large-sizes": "63–75 mm asosiy liniyalar uchun.",
+    "cross-over": "Ikkinchi liniyani ulanmasdan kesib o'tadi.",
+    "elbow-bracket-90-female-thread": "Devorga mahkamlash uchun montaj gardishi bilan.",
+    "elbowwall-bracket-90-female-thread": "Ikki tomonlama devorga mahkamlash.",
+    "metal-union-male-thread-yellow-brass": "Latun CW617N.",
+    "metal-union-female-thread-yellow-brass": "Latun CW617N.",
+    "tee-90-female-thread": "Quvurni ajratmasdan texnik xizmat ko'rsatish uchun yechiladigan.",
+    "union-for-watermeters": "Suv hisoblagichlarini o'rnatish va demontaj qilishni osonlashtiradi.",
+    "pp-r-ball-valve-ball-in-pp": "To'liq o'tuvchi, PP shari, ikki tomondan payvandlash muftalari.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "Yuqori yuklamalar uchun xromlangan latun shar.",
+    "tee-90-female-thread-for-internal-valve": "Yashirin klapanlar uchun o'rnatish troynigi.",
+    "concealed-valve-chrome-light-part": "Ko'rinadigan qoplama + shtok, xromlangan versiya.",
+    "concealed-valve-chrome-heavy-part": "Yashirin klapan korpusi, o'rnatish troynigiga montaj qilinadi.",
+    "straight-seat-valve-upper-part-green-handle": "O'tish/to'g'ri o'rindiqli klapanlar uchun tutqichli yuqori qism.",
+    "elongation-pieces": "Har xil devor qalinliklari uchun uzaytirgich.",
+    "battery-female-thread": "Pol isitish/ko'p konturli taqsimlash uchun taqsimlash batareyasi.",
+    "adjustable-battery-female-thread": "Chiqishlar orasidagi sozlanishi o'q masofasi.",
+    "weld-in-saddle": "Rezbasiz: PP-R tarmog'i, to'g'ridan-to'g'ri asosiy quvurga payvandlanadi.",
+    "pipe-clamps": "Rezina qistirmali, quvurlarni ushlab turish va mahkamlash uchun.",
+    "backing-flange-pp-steel-sfbf": "Flanes adapteri uchun po'lat bilan mustahkamlangan qarshi flanes.",
+    "flat-gasket": "Flanesli ulanishlar uchun EPDM yassi qistirma.",
+    "flat-gasket-for-unions-pp-r": "Rezbali birikmalar uchun EPDM qistirma.",
+    "plug": "Ochiq uchlarini yopish uchun rezbali tiqin. Boshqa o'lchamlar so'rov bo'yicha.",
+    "pipe-cutter-2040": "Toza, to'g'ri burchakli kesishlar uchun tishli mexanizmli quvur kesgich.",
+    "pipe-cutter-50125": "Katta o'lchamlar uchun mustahkam quvur kesgich.",
+    "pipe-cutter-50125-1": "Payvandlashdan oldin quvur yuzasini qiradi.",
+    "hand-welding-machine-2032-complete-set": "Ixcham rozetkali payvandlash apparati.",
+    "hand-welding-machine-2063-complete-set": "Isitish plitasi, taglik va asboblar bilan to'liq to'plam.",
+    "hand-welding-machine-mirror-50125": "50–125 mm apparati uchun zaxira isitish oynasi.",
+    "welding-tool": "Har bir o'lcham uchun alohida isitish dorn/mufta asboblari juftligi.",
+    "welding-machine-50125-complete-set": "Katta o'lchamlar uchun professional rozetkali payvandlash apparati.",
+    "butt-welding-machine-90250": "Katta o'lchamlar uchun tugma payvandlash apparati.",
+    "electrofusion-machine": "Shtrix-kod skanerli elektro payvandlash fitinglari uchun boshqaruv bloki.",
+    "welding-tool-for-weld-in-saddles": "Payvandlanadigan egarlarni payvandlash uchun maxsus asbob.",
+    "drilling-tool-for-weld-in-saddle": "Egarni payvandlagandan so'ng tarmoq joyini ochish uchun o'zakli burg'i.",
+    "welding-tool-for-repairing-plug": "Ta'mirlash tiqinlari tizimi uchun isitish asboblari.",
+    "repairing-plug": "Tizimni bo'shatmasdan sizib chiqishlarni bartaraf etish uchun favqulodda ta'mirlash tiqini."
+  },
+  "geoExtra": {
+    "cityBadge": "(Shahar)",
+    "regionBadge": "(Mintaqa)",
+    "marketFallbackLead": "{city} uchun yuqori sifatli PP-R quvur tizimlari.",
+    "openMarketPage": "{city} bozor sahifasini ochish"
+  },
+  "sitemapPage": {
+    "company": "Kompaniya va navigatsiya",
+    "products": "Mahsulotlar va toifalar",
+    "news": "Yangiliklar va matbuot",
+    "markets": "Bozorlar va mintaqalar"
+  },
+  "catalogExtra": {
+    "viewDetails": "Mahsulot tafsilotlari"
+  },
   "aboutDeep": {
     "eyebrow": "Chuqur tahlil",
     "title": "K-Aqua ekspertizasi",
@@ -158,17 +220,17 @@
       ]
     },
     "genauManagement": {
-      "eyebrow": "geprüfte Qualität",
+      "eyebrow": "Tekshirilgan sifat",
       "title1": "Ushbu ",
       "titleHighlight": "GENAU",
-      "title2": " Management System",
-      "p1": "Batafsil ma'lumot...",
-      "p2": "Batafsil ma'lumot...",
-      "p3": " und ",
-      "list1Title": "Ökologische Verantwortung",
-      "list1Desc": "Batafsil ma'lumot...",
-      "list2Title": "Energieeffizienz",
-      "list2Desc": "Batafsil ma'lumot..."
+      "title2": " boshqaruv tizimi",
+      "p1": "GENAU boshqaruv tizimining maqsadi korxonada mehnatni muhofaza qilish, atrof-muhit va salomatlikni muhofaza qilishni doimiy ravishda yaxshilashdan iborat.",
+      "p2": "KWT kompaniyasining barcha faoliyati resurslarni tejash, ekologik xavfsizlik va barcha majburiyatlarga qat'iy rioya qilishni hisobga olgan holda amalga oshiriladi. Amaldagi GENAU boshqaruvi quyidagi talablarning yuqori standartlariga javob beradi: ",
+      "p3": " va ",
+      "list1Title": "Ekologik mas'uliyat",
+      "list1Desc": "Atrof-muhitni muhofaza qilish — KWT GmbH kompaniyasining barcha xodimlari rioya qiladigan sifat tushunchamizning ajralmas qismidir.",
+      "list2Title": "Energiya samaradorligi",
+      "list2Desc": "Xatarlarni aniq belgilash va energiya samaradorligini optimallashtirish bo'yicha chora-tadbirlarni amalga oshirish."
     },
     "pipes": [
       "Quvurlar va tizimlar",
@@ -1694,7 +1756,10 @@
     "locTitle": "Germaniya manzili",
     "salesTitle": "Sotish",
     "supportTitle": "Sifat va texnik yordam",
-    "supportText": "Loyihaingiz haqida gaplashamiz. Bizning yordam guruhimiz rejalashtirish, materiallar va ishlov berish bilan bog'liq texnik savollarda yordam beradi."
+    "supportText": "Loyihaingiz haqida gaplashamiz. Bizning yordam guruhimiz rejalashtirish, materiallar va ishlov berish bilan bog'liq texnik savollarda yordam beradi.",
+    "formEyebrow": "Interaktiv",
+    "formTitle": "Loyiha so'rovi va texnik yordam",
+    "seoH1": "K-Aqua bilan aloqa: PP-R bo'yicha mutaxassislarimiz bilan bog'laning"
   },
   "imprint": {
     "eyebrow": "Huquqiy",
@@ -3235,7 +3300,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Mahsulot tafsilotlarini ko'rish"
   },
   "products": {
     "uniqueProductContext": "{title} mahsuloti K Aqua {category} qatorining muhim qismidir. U maksimal ishonchlilik va mukammal integratsiya uchun yaratilgan bo'lib, zamonaviy quvur va santexnika tizimlari uchun eng yuqori xalqaro standartlarga javob beradi. Ushbu mahsulotni quyidagi artikul raqami(lari) orqali aniqlashingiz va buyurtma qilishingiz mumkin: {codes}. Qo'shimcha hujjatlar yoki yordam uchun texnik jamoamiz bilan bog'laning.",
@@ -4591,373 +4656,373 @@
     "titleGood": "Payvandchi yordamchisi",
     "schulungen": {
       "meta": {
-        "title": "Schulungen | K Aqua",
-        "desc": "Batafsil ma'lumot..."
+        "title": "O'quv kurslari | K Aqua",
+        "desc": "K Aqua o'quv kurslari: Global megloyihalar uchun nemis muhandisligi asosidagi murosasiz xavfsizlik. Bizning ekspertlar treninglarimizda qatnashing."
       },
       "hero": {
-        "eyebrow": "Batafsil ma'lumot...",
-        "title1": "Prüfung der",
-        "title2": "Industriellen Elite.",
-        "desc": "Batafsil ma'lumot...",
-        "cta1": "Batafsil ma'lumot...",
-        "cta2": "Curriculum einsehen"
+        "eyebrow": "GERMAN ENGINEERING ACADEMY",
+        "title1": "Sanoat elitasining",
+        "title2": "sinovi.",
+        "desc": "K Aqua o'quv dasturi oddiy malaka oshirish kursi emas. Bu nemis quvur qurilishining murosasiz dunyosiga kirishdir. Materialning ishdan chiqishi variant emas, balki mutlaq falokat bo'lgan megloyihalarga mas'ul muhandislar va texniklar uchun. Biz mikrometrlarda o'rgatamiz, o'n yilliklar miqyosida fikrlaymiz.",
+        "cta1": "Akademiyaga ariza topshirish",
+        "cta2": "O'quv rejasini ko'rish"
       },
       "manifesto": {
-        "title1": "Präzision",
-        "title2": "Batafsil ma'lumot...",
-        "title3": "Zufall.",
-        "p1": "Batafsil ma'lumot...",
-        "p2": "Batafsil ma'lumot..."
+        "title1": "Aniqlik",
+        "title2": "tasodif <span className=\"text-primary\">emas</span>",
+        "title3": ".",
+        "p1": "Bu qat'iy metodologiya va sovuqqon sanoat intizomining natijasidir. 100 qavatli osmono'par binoning hayotiy arteriyalari orqali ulkan bosim ostida minglab kub metr suv haydalganda, taxminiy qiymatlar yoki erkin talqinlar uchun joy yo'q.",
+        "p2": "K Aqua o'quv dasturi nazariy bilimlar va nuqsonsiz, mashinaviy mukammallik o'rtasidagi tafovutni bartaraf etish uchun ishlab chiqilgan. Bizning akademiyamizda tahsil olgan mutaxassis endi oddiy usta emas. U mukammal, deterministik tizimning ijrochi a'zosiga aylanadi."
       },
       "bento": {
-        "eyebrow": "DIE SÄULEN DER AUTORITÄT",
-        "title": "Batafsil ma'lumot...",
-        "lead": "Batafsil ma'lumot...",
+        "eyebrow": "NUFUZNING ASOSIY USTUNLARI",
+        "title": "Mutlaq qurol sifatida bilim.",
+        "lead": "Bizning texnik o'quv modullarimiz ishingizni osonlashtirish uchun mo'ljallanmagan. Ular xatolarni shafqatsizlarcha yo'q qilish uchun yaratilgan.",
         "items": [
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Bir hil material qorishmasi",
+            "desc": "Yelimlash yoki beqaror mexanik zichlagichlardan ustun. Biz quvurlar va fitinglarni molekulyar darajada ajralmas, monolit strukturaga eritib birlashtirish uchun harorat, bosim va vaqtni aniq kalibrlashni o'rgatamiz."
           },
           {
-            "title": "Destruktive Analytik",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Buzuvchi tahlil",
+            "desc": "Chegaralarni tushunish uchun ularni kesib o'tish kerak. 100 bardan ancha yuqori portlash bosimiga ega yuqori bosimli sinov stendlarimizdagi amaliy modullar. Biz nosozlikni amaliyotda bartaraf etish uchun tahlil qilamiz."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Chiziqli termal kengayish",
+            "desc": "Aniq hisoblangan kengayish burchaklari va mahkamlash nuqtalari tizimlari orqali yirik loyihalarda harorat o'zgarishlarini samarali kompensatsiya qilish."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Agressiv muhit va pH-barqarorlik",
+            "desc": "Yuqori konsentratsiyali sanoat kimyoviy moddalariga chidamlilikning chuqur tahlili. Akademiya doimiy kimyoviy yuk va keskin pH o'zgarishlari ostida material charchashi bo'yicha chuqur bilimlarni beradi."
           }
         ]
       },
       "typography": {
-        "t1": "NULL-FEHLER",
-        "t2": "TOLERANZ."
+        "t1": "NOL XATOLIK",
+        "t2": "BAG'RIKENGLIGI."
       },
       "curriculum": {
-        "eyebrow": "DAS CURRICULUM",
-        "title": "Batafsil ma'lumot...",
-        "lead": "Batafsil ma'lumot..."
+        "eyebrow": "O'QUV DASTURI",
+        "title": "Akademik murosasizlik.",
+        "lead": "To'rtta modul. Yagona doktrina. O'quv dasturimizning har bir segmenti ijrodagi zaifliklarni aniqlash va ularni tizimli ravishda yo'q qilishga qaratilgan."
       },
       "sticky": {
         "items": [
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Alfa moduli: Gidromexanika va kinetika",
+            "desc": "Suv matematikasi. Biz murakkab kavitatsiya effektlari va gidravlik zarba ssenariylarini hisoblab chiqiladigan o'zgaruvchilarga ajratamiz. Siz gidrodinamik zarba belgilarini nafaqat yumshatishni, balki tizimli ravishda yo'q qilishni o'rganasiz. Butunlay jimjit va mukammal ishlaydigan quvur tarmoqlari uchun."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Beta moduli: Parametrik quvur dizayni",
+            "desc": "Quvur tizimlarini loyihalash algoritmli fan sifatida. Trening to'qnashuvlarni tekshirish va materialdan foydalanishni optimallashtirish uchun eng zamonaviy SAPR/BIM vositalaridan foydalanishni o'z ichiga oladi. Hech qanday taxminsiz. Sof, aniq hisob-kitob."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Gamma moduli: Gigiyena arxitekturasi va mikrobiologiya",
+            "desc": "Struktura darajasida legionellaning oldini olish. Turg'un liniyalardan qanday qochish, dimlanish zonalarini yo'q qilish va murakkab halqasimon tarmoqlarda suv harorati qatlamlarini nazorat qilish. Tozalikni tizim belgilaydi, biz hech narsani tasodifga qoldirmaymiz."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Delta moduli: Yakuniy K Aqua auditi",
+            "desc": "Imtihon huquq emas, imtiyozdir. Imtihon simulyatsiya qilingan ekstremal sharoitlarda (masalan, seysmik faollik, tashqi harorat 50°C) avtonom suv ta'minoti tizimini loyihalash va nazariy himoya qilishni talab qiladi. Faqat mutlaq xatosizlikni isbotlaganlargina K Aqua sertifikatiga ega bo'ladilar."
           }
         ]
       },
       "timeline": {
-        "title": "Der Zertifizierungs-Pfad.",
-        "desc": "Batafsil ma'lumot...",
+        "title": "Sertifikatlash yo'li.",
+        "desc": "Montajchidan sinovdan o'tgan K Aqua Master-muhandisiga aylanish qat'iy, murosasiz ritmga asoslanadi. Faqat ushbu yo'lni oxirigacha bosib o'tganlargina bizning yuqori unumdor tizimlarimiz uchun ruxsat oladilar.",
         "items": [
           {
-            "year": "PHASE 01",
-            "title": "Batafsil ma'lumot...",
-            "text": "Batafsil ma'lumot..."
+            "year": "01-BOSQICH",
+            "title": "Materiallar fizikasi va tanishuv",
+            "text": "Jismoniy chegaralarni anglash. PP-R/PPRCT materiallarining molekulyar spetsifikatsiyalariga chuqur kirish. Bu yerda sanoat qat'iyatining poydevori qo'yiladi."
           },
           {
-            "year": "PHASE 02",
-            "title": "Batafsil ma'lumot...",
-            "text": "Batafsil ma'lumot..."
+            "year": "02-BOSQICH",
+            "title": "Laboratoriya va yuklama sinovlari",
+            "text": "Amaliy sinov. Sinov stendida portlash chegarasini boshdan kechirish va mikroskopik yoriqlar paydo bo'lishini o'rganish. Faqat zaiflikni bilgan odamgina mutlaq mustahkamlikni loyihalashtira oladi."
           },
           {
-            "year": "PHASE 03",
-            "title": "Fusions-Doktrin",
-            "text": "Batafsil ma'lumot..."
+            "year": "03-BOSQICH",
+            "title": "Payvandlash doktrinasi",
+            "text": "Mukammal payvandlash protokoli. Termodinamik harakatlar ketma-ketligini xatosiz, mushak xotirasi avtomatizmiga yetguncha mexanik mashq qilish. Har bir harakat kalibrlangan."
           },
           {
-            "year": "PHASE 04",
-            "title": "System-Architektur",
-            "text": "Batafsil ma'lumot..."
+            "year": "04-BOSQICH",
+            "title": "Tizim arxitekturasi",
+            "text": "Oddiy quvur segmentidan osmono'par bino infratuzilmasigacha masshtablash. Biz bosim yo'qotish jadvallarini, oqim tezligini va oqim ajratgichlarini qat'iy mantiq bilan hisoblaymiz."
           },
           {
-            "year": "PHASE 05",
-            "title": "Die Meisterprüfung",
-            "text": "Batafsil ma'lumot..."
+            "year": "05-BOSQICH",
+            "title": "Usta imtihoni",
+            "text": "Germaniyalik bosh muhandislarning qat'iy nazorati ostida 48 soatlik audit. Noto'g'ri hisob-kitoblarga toqat qilinmaydi. Bitta xato darhol chetlashtirishni anglatadi."
           }
         ]
       },
       "spec": {
-        "eyebrow": "GLOBALER STANDARD",
-        "title": "Batafsil ma'lumot...",
-        "desc": "Batafsil ma'lumot...",
+        "eyebrow": "GLOBAL STANDART",
+        "title": "Xavfsizlik bo'yicha global mezon.",
+        "desc": "Bizning imtihonimiz shunchaki qog'oz parchasi emas. Bu butun dunyodagi quruvchilar va investorlar uchun titanga muhrlangan va'dadir. K Aqua sertifikati mavjud bo'lgan joyda o'rnatish eng qat'iy nemis muhandislik standartlariga muvofiq amalga oshirilgan.",
         "items": [
           {
-            "title": "Internationale Gültigkeit",
-            "text": "Batafsil ma'lumot..."
+            "title": "Xalqaro amal qilish muddati",
+            "text": "Dunyodagi yetakchi qurilish va nazorat organlari tomonidan tan olingan."
           },
           {
-            "title": "Audit-Transparenz",
-            "text": "Batafsil ma'lumot..."
+            "title": "Audit shaffofligi",
+            "text": "Har bir payvandlash jarayonining uzluksiz raqamli hujjatlashtirilishi."
           },
           {
-            "title": "Lebenslange Autorität",
-            "text": "Batafsil ma'lumot..."
+            "title": "Umrbod nufuz",
+            "text": "Bir marta qo'lga kiritilgach, muhandisni elita toifasining bir qismi sifatida ajratib turadi."
           }
         ]
       },
       "cta": {
-        "title1": "Bereit für die",
-        "title2": "absolute Kontrolle?",
-        "desc": "Batafsil ma'lumot...",
-        "button": "Bewerbung initiieren"
+        "title1": "Mutlaq nazoratga",
+        "title2": "tayyormisiz?",
+        "desc": "O'zingizni nemis muhandislik mahorati standartiga bo'ysundiring. Bizga profilingizni yuboring yoki kompaniya ichidagi auditlar uchun spetsifikatsiyalarni so'rang.",
+        "button": "Arizani boshlash"
       }
     },
     "zertifizierung": {
       "meta": {
-        "title": "Batafsil ma'lumot...",
-        "desc": "Batafsil ma'lumot..."
+        "title": "Sertifikatlar va standartlar | K Aqua",
+        "desc": "DVGW, SKZ, ISO va boshqalar. K Aqua quvur tizimlarining murosasiz xavfsizligi va nemis muhandislik sifatini kashf eting."
       },
       "hero": {
-        "eyebrow": "Batafsil ma'lumot...",
-        "title1": "Zertifikate.",
-        "title2": "Engineered in Germany.",
-        "desc": "Batafsil ma'lumot...",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technisches Handbuch"
+        "eyebrow": "German Engineering Standartlari",
+        "title1": "Sertifikatlar.",
+        "title2": "Germaniyada ishlab chiqilgan.",
+        "desc": "Ushbu modul butun dunyo bo'ylab eng talabchan loyihalar uchun murosasiz xavfsizlikni ta'minlaydi. Avlodlar davomida xizmat qilishi uchun eng qat'iy sanoat standartlari asosida ishlab chiqarilgan. Chunki materialning ishdan chiqishi hech qachon variant emas.",
+        "cta1": "Loyiha bo'yicha so'rov",
+        "cta2": "Texnik qo'llanma"
       },
       "manifesto": {
-        "title1": "Batafsil ma'lumot...",
-        "title2": "Batafsil ma'lumot...",
-        "p1": "Batafsil ma'lumot..."
+        "title1": "Sertifikat shunchaki qog'oz.",
+        "title2": "Uning ortidagi jarayon esa po'latdandir.",
+        "p1": "Ko'pgina ishlab chiqaruvchilar standartlarni yakuniy maqsad deb bilishadi. Biz ularni mutlaq minimal chegara deb bilamiz. Bizning ichki bardoshlik chegaralarimiz DVGW, ISO yoki SKZ talab qilganidan bir necha barobar qat'iyroqdir. K Aqua quvuri zavodimizni tark etganda, u molekulyar darajada tahlil qilingan, ekstremal bosimlar bilan sinovdan o'tkazilgan va termal jihatdan mutlaq chegaraga yetkazilgan bo'ladi."
       },
       "bento": {
-        "eyebrow": "Die Säulen der Sicherheit",
-        "title": "Batafsil ma'lumot...",
-        "lead": "Batafsil ma'lumot...",
+        "eyebrow": "Xavfsizlik ustunlari",
+        "title": "Mukammal quvur tizimining DNKsi.",
+        "lead": "Xalqaro bosh pudratchilar milliard dollarlik loyihalarni rejalashtirishda marketing va'dalariga ishonishmaydi. Ular aniq, fizik jihatdan o'lchanadigan faktlarni talab qiladilar.",
         "items": [
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Ekstremal bosimga chidamlilik",
+            "desc": "PN20/PN25 gacha bo'lgan doimiy yuklamalar uchun sinovdan o'tgan. Bizning portlash bosimi sinovlarimiz standartlardan ancha yuqori bo'lgan zaxiralarni isbotlaydi. Quvurlarning yorilishi o'tmishda qoldi."
           },
           {
-            "title": "Thermische Souveränität",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Termal ustunlik",
+            "desc": "-20°C dan +95°C gacha doimiy chidamli. Ekstremal termal zarbalarda ham material charchashi va strukturaviy zaiflashuv kuzatilmaydi."
           },
           {
-            "title": "Absolute Hygiene",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Mutlaq gigiyena",
+            "desc": "Korroziyasiz. Qatlam yig'ilmaydi. Oziq-ovqat uchun xavfsiz, toksikologik jihatdan zararsiz va legionella bakteriyalari ko'payishiga chidamli."
           },
           {
-            "title": "Brandschutz (B1/B2)",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Yong'indan himoya (B1/B2)",
+            "desc": "DIN 4102 bo'yicha tasniflangan. Muhim bino infratuzilmasida maksimal xavfsizlik uchun qiyin yonuvchan va minimal tutun hosil qiladi."
           },
           {
-            "title": "Lebenszyklus-Garantie",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Xizmat muddati kafolati",
+            "desc": "Eng qat'iy ISO standartiga muvofiq belgilangan 50 yillik xizmat muddati. Arxitektura haqiqatida esa butun avlodlardan ko'proq xizmat qilish uchun qurilgan."
           }
         ]
       },
       "certifications": {
-        "eyebrow": "Die Instanzen",
-        "title": "Batafsil ma'lumot...",
-        "lead": "Batafsil ma'lumot...",
+        "eyebrow": "Tashkilotlar",
+        "title": "Dunyodagi eng qat'iy nazoratchilar.",
+        "lead": "Faqat eng muhim tashqi auditlardan o'tganlargina 'German Engineering' yorlig'ini taqish huquqiga ega. Bu yerda sifatimizni tasdiqlovchi institutlar keltirilgan.",
         "items": [
           {
-            "title": "DVGW: Die höchste Instanz",
-            "p1": "Batafsil ma'lumot...",
-            "p2": "Batafsil ma'lumot..."
+            "title": "DVGW: Eng oliy organ",
+            "p1": "Germaniya gaz va suv xo'jaligi assotsiatsiyasi (DVGW) ichimlik suvi gigiyenasi va materiallar chidamliligi bo'yicha dunyodagi eng qat'iy standartni belgilaydi.",
+            "p2": "Bizning DVGW sinovimiz K Aqua quvur tizimlari ekstremal sharoitlarda zaharli moddalarni chiqarmasligini va mikrobiologik o'sishga yordam bermasligini kafolatlaydi. Har bir partiya 95°C da uzoq muddatli gidrostatik sinovlardan (ichki bosim ostida chidamlilik sinovi) o'tadi."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "p1": "Batafsil ma'lumot...",
-            "p2": "Batafsil ma'lumot..."
+            "title": "SKZ: Mustaqil nazorat",
+            "p1": "Janubiy Germaniya Plastmassa Markazi (SKZ) bizning xolis auditorimiz sifatida ishlaydi. Tashqi mustaqil nazorat ichki laboratoriyalarimiz belgilagan standartlarni tasdiqlaydi.",
+            "p2": "DSC tahlili (Dinamik skanerlovchi kalorimetriya) orqali tirqishli zarbaga chidamlilik, cho'zilish mustahkamligi va termal harakat tekshiriladi. SKZ belgisi DIN EN ISO 15874 standartidan ancha yuqori bo'lgan mexanik mukammallikning isbotidir."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "p1": "Batafsil ma'lumot...",
-            "p2": "Batafsil ma'lumot..."
+            "title": "KTW-BWGL: Mutlaq soflik",
+            "p1": "Ichimlik suvi bilan aloqa qiladigan plastmassalar va boshqa organik materiallarni baholash asosi (Germaniya Atrof-muhit bo'yicha federal agentligi).",
+            "p2": "Biz faqat zararli qo'shimchalar yoki og'ir metallarsiz yuqori toza polipropilendan (PP-R / PPRCT) foydalanamiz. Natijami? To'g'ridan-to'g'ri jo'mrakdan buloq suvi sifati. Hech qanday hid va ta'm o'zgarishi yo'q."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "p1": "Batafsil ma'lumot...",
-            "p2": "Batafsil ma'lumot..."
+            "title": "ISO 9001 & 14001: Tizimli mukammallik",
+            "p1": "Sifat tasodif emas, balki to'liq takrorlanadigan jarayondir. Bizning ISO 9001 sertifikatimiz xomashyoni qabul qilishdan tortib to butun dunyo bo'ylab yetkazib berishgacha bo'lgan benuqson sifat menejmentini tasdiqlaydi.",
+            "p2": "ISO 14001 orqali biz yuqori sanoat unumdorligi va ekologik mas'uliyat yonma-yon borishini isbotlaymiz. Minimal energiya sarfi, resurslardan samarali foydalanish va PP mahsulotlarimizning 100% qayta ishlanishi."
           }
         ]
       },
       "lab": {
-        "eyebrow": "Inside the Lab",
-        "title1": "Die Anatomie",
-        "title2": "der Perfektion.",
-        "desc": "Batafsil ma'lumot...",
+        "eyebrow": "Laboratoriya ichida",
+        "title1": "Mukammallik",
+        "title2": "anatomiyasi.",
+        "desc": "K Aqua tizimi zavoddan chiqishidan oldin, u bizning ichki sinov markazimizdan o'tishi kerak. Bu materiallarni real hayotda hech qachon duch kelmaydigan sharoitlarga duchor qiladigan yuqori texnologiyali majmuadir.",
         "items": [
           {
             "title": "MFR (Melt Flow Rate)",
-            "desc": "Batafsil ma'lumot..."
+            "desc": "Ekstruziya paytida va keyinchalik qurilish maydonchasida payvandlashda aniq qovushqoqlikni ta'minlash uchun suyuqlik oqimi tezligini nazorat qilish."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "OIT (Oxidation Induction Time)",
+            "desc": "Eskirishga chidamlilikni aniqlash uchun termal tahlil. Bizning stabilizatorlarimiz plastmassani o'n yillar davomida degradatsiyadan himoya qilishining isboti."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Uzoq muddatli ichki bosim sinovi",
+            "desc": "Quvur namunalari maxsus suv vannalarida 95°C haroratda va ekstremal bosim ostida minglab soat davomida saqlanadi. Hech qanday yoriq va sinishsiz."
           }
         ]
       },
       "timeline": {
-        "title": "Batafsil ma'lumot...",
-        "desc": "Batafsil ma'lumot...",
+        "title": "Innovatsiyalarning o'n yilliklari.",
+        "desc": "Bizning sifat standartlarimiz bir kechada paydo bo'lmagan. Ular ko'p yillik muhandislik mahorati va jarayonlarni doimiy optimallashtirish natijasidir.",
         "items": [
           {
             "year": "1990",
-            "title": "Batafsil ma'lumot...",
-            "text": "Batafsil ma'lumot..."
+            "title": "Standartning tug'ilishi",
+            "text": "Plastmassa quvurlarni ekstruziya qilish kashshoflari sifatida biz o'sha paytdagi sanoat talablaridan ancha yuqori bo'lgan ichki sinov tartiblarini erta joriy qildik. Murosasiz sifat madaniyatining poydevori."
           },
           {
             "year": "1995",
-            "title": "ISO 9001 Integration",
-            "text": "Batafsil ma'lumot..."
+            "title": "ISO 9001 integratsiyasi",
+            "text": "Sifat menejmenti tizimlarimizni ISO 9001 bo'yicha to'liq tekshirish. Har bir harakat, har bir xomashyo partiyasi, har bir mashina sozlamasi endi tizimli ravishda hujjatlashtiriladi va to'liq kuzatib boriladi."
           },
           {
             "year": "2005",
-            "title": "DVGW & SKZ Prüfung",
-            "text": "Batafsil ma'lumot..."
+            "title": "DVGW & SKZ sinovi",
+            "text": "DVGW va SKZ tomonidan tasdiqlangan ishlab chiqaruvchilarning eksklyuziv doirasiga qabul qilinish. Ichimlik suvi ta'minotida eng og'ir sharoitlarda mutlaq gigiyena, ekstremal bosimga chidamlilik va tengsiz uzoq umr ko'rishning rasmiy muhri."
           },
           {
             "year": "2015",
-            "title": "Batafsil ma'lumot...",
-            "text": "Batafsil ma'lumot..."
+            "title": "Global standartlar (WRAS, KTW)",
+            "text": "Xalqaro bozorlar uchun sertifikatlarni kengaytirish. Qat'iy KTW yo'riqnomasi (UBA) va Britaniyaning WRAS talablariga muvofiqlik. K Aqua xalqaro megloyihalar uchun global standartga aylanadi."
           },
           {
             "year": "2024",
-            "title": "Batafsil ma'lumot...",
-            "text": "Batafsil ma'lumot..."
+            "title": "Keyingi avlod sifat tahlili",
+            "text": "O'zimizning aniq laboratoriyamizda yuqori avtomatlashtirilgan OIT (Oxidation Induction Time) va MFR (Melt Flow Rate) testlarini joriy etish. 100% nol nuqson darajasi uchun ekstruziya paytida sun'iy intellekt asosidagi nosozliklar tahlili."
           }
         ]
       },
       "cta": {
-        "title": "Batafsil ma'lumot...",
-        "desc": "Batafsil ma'lumot...",
-        "button1": "Zertifikate herunterladen",
-        "button2": "Batafsil ma'lumot..."
+        "title": "Ko'r-ko'rona ishonishingiz mumkin bo'lgan sifat.",
+        "desc": "Bizning rasmiy sertifikatlarimizni yuklab oling yoki keyingi megloyihangiz spetsifikatsiyalari bo'yicha to'g'ridan-to'g'ri muhandislik guruhimiz bilan bog'laning.",
+        "button1": "Sertifikatlarni yuklab olish",
+        "button2": "Texnik yordam bilan bog'lanish"
       }
     },
     "glossar": {
       "meta": {
-        "title": "Batafsil ma'lumot...",
-        "desc": "Batafsil ma'lumot..."
+        "title": "Texnik lug'at | K Aqua",
+        "desc": "K Aqua lug'ati: Global megloyihalar uchun German Engineering orqali murosasiz xavfsizlik. PP-R quvur texnologiyasi atamalarini kashf eting."
       },
       "hero": {
-        "eyebrow": "Technisches Glossar",
-        "title1": "Terminologie der",
-        "title2": "Absoluten Sicherheit.",
-        "desc": "Batafsil ma'lumot...",
-        "cta1": "Engineering kontaktieren",
-        "cta2": "Glossar erkunden"
+        "eyebrow": "Texnik lug'at",
+        "title1": "Mutlaq xavfsizlik",
+        "title2": "atamalari.",
+        "desc": "Quvur texnologiyasining leksik markaziga xush kelibsiz. Bu yerda biz German Engineering tamoyillarini ochib beramiz. Hech qanday marketingsiz. Faqat fizik faktlar, materialshunoslik va sanoat nufuzi.",
+        "cta1": "Muhandislar bilan bog'lanish",
+        "cta2": "Lug'atni o'rganish"
       },
       "manifesto": {
-        "eyebrow": "Die Doktrin",
-        "title": "Batafsil ma'lumot...",
-        "lead": "Batafsil ma'lumot..."
+        "eyebrow": "Doktrina",
+        "title": "Xatosizlik arxitekturasi.",
+        "lead": "Quvur tizimi har qanday megloyiha uchun yurak-qon tomir tizimidir. Ishdan chiqish infratuzilma infarktini anglatadi. Shuning uchun biz oddiy quvurlar haqida emas, balki hayotiy muhim sanoat arteriyalari haqida gapiramiz. Ushbu lug'atdagi har bir atama bizning nol nuqson falsafamizning asosiy ustunini ifodalaydi."
       },
       "scroll": {
-        "eyebrow": "Batafsil ma'lumot...",
-        "title": "Der K Aqua Prozess.",
-        "lead": "Batafsil ma'lumot...",
+        "eyebrow": "Kinematika va materialshunoslik",
+        "title": "K Aqua jarayoni.",
+        "lead": "Granulalarning molekulyar darajasidan yakuniy bosim sinovigacha. Tizimlarimizni yengilmas qiladigan fizik printsiplarni tushuning.",
         "items": [
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Yuqori bosim ostida ekstruziya dinamikasi",
+            "desc": "Zavodlarimizda termoplastik deformatsiya 0,1 °C gacha aniqlikdagi harorat nazorati ostida amalga oshiriladi. Ushbu kristall mukammallik ekstremal bosim va harorat tebranishlarida ham mikroskopik yoriqlar (Stress Cracking) paydo bo'lishini mutlaqo istisno qiluvchi benuqson, bir jinsli molekulyar strukturani kafolatlaydi. Material ekstruderimizdan chiqqach, u endi oddiy plastmassa emas. Bu sanoat monolitidir."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Gidrostatik yuklama sinovlari",
+            "desc": "Sinov laboratoriyalarimizda har bir quvur real sharoitlardan bir necha baravar yuqori bo'lgan gidrostatik simulyatsiyaga duchor qilinadi. Biz har qanday me'yoriy talabdan yuqori bo'lgan ichki bosimlarni qo'llaymiz (SDR toifasiga qarab 100 bargacha). Bu payvandlangan choklarning mustahkamligini va muhim infratuzilmalarda 50 yildan ortiq prognoz qilingan xizmat muddati davomida PP-R materialining molekulyar elastikligini ta'minlaydi."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Polifuzion payvandlash texnikasi",
+            "desc": "Ulanishlar an'anaviy tizimlarda eng zaif nuqtadir. K Aqua ushbu xavfni polifuziya orqali bartaraf etadi. Molekulyar darajada quvur va fiting ajralmas, yaxlit bir butunga aylanadi. Korroziyaga uchraydigan rezbalar, ishdan chiqishi mumkin bo'lgan qistirmalar yo'q. Natijada xuddi bitta bo'lakdan quyilgandek ishlaydigan quvur tizimi hosil bo'ladi."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Kavitatsiyaga chidamlilik va gidromexanika",
+            "desc": "O'ta silliq ichki devor (g'adir-budurlik < 0,007 mm) tufayli K Aqua quvurlari oqim qarshiligini nolga yaqinlashtiradi. Bu biofilmlar paydo bo'lishining oldini oladi va yuqori tezlikdagi oqimlarda mikro-kavitatsiya effektlarini yo'q qiladi. Tizimdagi bosim yo'qotishlari keskin kamayadi, bu esa sanoat miqyosida ulangan nasos tizimlarining energiya samaradorligini maksimal darajada oshiradi."
           }
         ]
       },
       "bento": {
-        "eyebrow": "Nomenklatur",
-        "title": "Technische Parameter.",
-        "lead": "Batafsil ma'lumot...",
+        "eyebrow": "Nomenklatura",
+        "title": "Texnik parametrlar.",
+        "lead": "Sanoat quvurlari texnologiyasining eng muhim tushunchalari o'z mohiyatiga ko'ra jamlangan.",
         "items": [
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "PP-R (Polipropilen Random Kopolimer)",
+            "desc": "Molekulyar asos. Yuqori harorat va bosimlarga favqulodda chidamlilikni ta'minlaydigan yuqori kristall termoplastik polimer. Bu bizning uzoq umr ko'rishimizning DNKsidir."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Chiziqli termal kengayish",
+            "desc": "Harorat o'zgarganda material uzunligining o'zgarishi. Bizning tola bilan mustahkamlangan (Faser) quvurlarimiz bu qiymatni mutlaq minimal darajaga (α = 0,035 mm/mK) tushiradi, bu esa shaxtalardagi strukturaviy barqarorlikni sezilarli darajada oshiradi."
           },
           {
-            "title": "Zeitstandfestigkeit",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Uzoq muddatli mustahkamlik",
+            "desc": "Tizimning deformatsiyasiz yoki yorilishsiz ma'lum haroratlarda o'nlab yillar davomida doimiy ichki bosimga bardosh berish qobiliyati. K Aqua quvurlari 50+ yilga kalibrlangan."
           },
           {
-            "title": "Druckverlust-Koeffizient",
-            "desc": "Batafsil ma'lumot..."
+            "title": "Bosim yo'qotish koeffitsiyenti",
+            "desc": "Quvurning ichki devoriga ishqalanish natijasida oqim energiyasining yo'qolishini ifodalovchi matematik qiymat. Nano-silliq yuzalar tufayli bu qiymat K Aqua tizimlarida minimal darajaga keltiriladi."
           },
           {
-            "title": "Batafsil ma'lumot...",
-            "desc": "Batafsil ma'lumot...",
+            "title": "SDR (Standard Dimension Ratio)",
+            "desc": "Tashqi diametr (d) va devor qalinligi (s) o'rtasidagi nisbat. SDR 6 quvuri SDR 11 quvuriga qaraganda ancha yuqori bosimlarga bardosh beradi. To'g'ri tanlov tizim dizayni uchun juda muhimdir.",
             "label": "50+ YRS"
           }
         ]
       },
       "timeline": {
-        "title": "Regulatorische Härte.",
-        "desc": "Batafsil ma'lumot...",
+        "title": "Regulyativ qat'iyat.",
+        "desc": "Standartlar biz uchun oddiy qoidalar emas, balki muhandislik san'atimizning boshlang'ich nuqtasidir. Tizimlarimiz nafaqat javob beradigan, balki yetakchilik qiladigan sertifikatlar va standartlar xronologiyasi.",
         "items": [
           {
             "year": "DIN 8077/8078",
-            "title": "Normative Basis",
-            "text": "Batafsil ma'lumot..."
+            "title": "Me'yoriy asos",
+            "text": "Germaniya quvur standartlarining asosi. Biz ushbu standartlarni maqsad sifatida emas, balki mutlaq minimal talab deb bilamiz. Ichki bardoshlik chegaralarimiz DIN talablaridan 30% gacha qat'iyroqdir."
           },
           {
             "year": "ISO 15874",
-            "title": "Globale Prüfung",
-            "text": "Batafsil ma'lumot..."
+            "title": "Global sinov",
+            "text": "Issiq va sovuq suv ta'minoti uchun plastmassa quvur tizimlarining xalqaro sifat belgisi. Tizimlarimizning butun dunyo bo'ylab murosasiz qo'llanilishining isboti."
           },
           {
             "year": "SDR 6 - SDR 11",
-            "title": "Standard Dimension Ratios",
-            "text": "Batafsil ma'lumot..."
+            "title": "Standart o'lcham nisbatlari",
+            "text": "Tashqi diametrning devor qalinligiga aniq nisbati. Muhandislarimiz optimal oqim miqdorida maksimal bosimga chidamlilikni kafolatlash uchun har bir partiyani kalibrlaydilar."
           },
           {
             "year": "SKZ & DVGW",
-            "title": "Hygiene & Materialprüfung",
-            "text": "Batafsil ma'lumot..."
+            "title": "Gigiyena va materiallar sinovi",
+            "text": "Oziq-ovqat va ichimlik suvi uchun mutlaq yaroqlilikni tasdiqlovchi sertifikatlar. Og'ir metallar yo'q, yuvilib ketish yo'q. Eng yuqori gigiyenik talablar uchun toza, ifloslanmagan suyuqlik dinamikasi."
           }
         ]
       },
       "conclusion": {
-        "title": "Batafsil ma'lumot...",
-        "p1": "Batafsil ma'lumot...",
-        "p2": "Batafsil ma'lumot...",
-        "p3": "Batafsil ma'lumot...",
-        "p4": "Batafsil ma'lumot..."
+        "title": "Ekstremal sharoitda yemirilishga chidamlilik.",
+        "p1": "Sanoat dasturlarida quvur tizimining sifatini oddiy ishlash emas, balki chegara sohalaridagi barqarorlik belgilaydi. Kimyoviy korroziya, bosim zarbalari tufayli kavitatsiya va termal zarbalar an'anaviy montajlarning tabiiy dushmanlaridir.",
+        "p2": "Die <span class=\"font-semibold\">K Aqua Matrix</span> suyuq muhitni inert to'siq qatlami orqali atrofdan ajratib turadi. Hech qanday ion almashinuvi sodir bo'lmaydi. Metall tizimlar ular orqali suv oqib o'tgan paytdan boshlab yemiriladi. Ular ishlash uchun o'zlarini qurbon qiladilar. Bizning PP-R tizimimiz esa o'n yilliklardan keyin ham ichkaridan benuqson bo'lib qoladi.",
+        "p3": "Polimerlar kimyosida <span class=\"font-semibold\">kuchlanish yoriqlariga chidamlilik</span> (Environmental Stress Cracking Resistance, ESCR) tushunchasi markaziy ahamiyatga ega. Biz kopolimerimizning molekulyar og'irligini shunday o'zgartiramizki, u yuklama cho'qqilarida sinish o'rniga ularni yumshatadi. Natijada tebranishlar, titrashlar va bino cho'kishini o'ziga yutadigan tizim paydo bo'ladi.",
+        "p4": "Quvur texnologiyasi terminologiyasini tushungan kishi nima uchun bu yerda murosaga kelish falokatga olib kelishi mumkinligini ham tushunadi. German Engineering shunchaki quruq va'da emas, balki biz ishlab chiqarishimizning har bir santimetrida namoyon etadigan aniq, fizik parametrlarning yig'indisidir."
       },
       "cta": {
-        "title1": "Die Theorie beendet.",
-        "title2": "Die Praxis beginnt.",
-        "desc": "Batafsil ma'lumot...",
-        "button": "Batafsil ma'lumot..."
+        "title1": "Nazariya tugadi.",
+        "title2": "Amaliyot boshlanadi.",
+        "desc": "Muhandislarimizga eng qiyin texnik talablaringizni taqdim eting. Biz tizim arxitekturasini yetkazib beramiz.",
+        "button": "Muhandislik brifingini boshlash"
       }
     },
-    "videosHeading": "Training videos and guides"
+    "videosHeading": "O'quv videolari va qo'llanmalar"
   },
   "refs": {
     "eyebrow": "Loyihalar",
@@ -5750,15 +5815,15 @@
         "Shisha tolali ko'p qatlamli tuzilish: issiqlik kengayishini chorak qismgacha kamaytiradi."
       ],
       [
-        "Muffenschweißen",
+        "Rozetkali payvandlash",
         "Rozetkali payvandlash (Socket Fusion): Quvur va fitting isitish vtulkasi va mili orqali plastiklanadi va bir-biriga kiritiladi."
       ],
       [
-        "Elektroschweißen",
+        "Elektro payvandlash",
         "Elektro payvandlash (Electrofusion): Fittingga o'rnatilgan isitish spirallari parametr orqali boshqariladigan payvandlash issiqligini hosil qiladi."
       ],
       [
-        "Stumpfschweißen",
+        "Tugma payvandlash",
         "Tugma payvandlash (Butt Fusion): Yassi parallel quvur uchlari isitish elementida isitiladi va bosim ostida birlashtiriladi, standart d630 gacha."
       ],
       [
@@ -6402,7 +6467,9 @@
     "cookieDecline": "Faqat zarurlarini qabul qilish"
   },
   "cookieConsent": {
-    "title": "Maxfiylik sozlamalari va Cookie fayllari",
+    "privacyLink": "Maxfiylik siyosati",
+    "imprintLink": "Imprint (Nashr haqida)",
+    "title": "Maxfiylik sozlamalari",
     "description": "Platformamizda sizga eng yaxshi tajribani taqdim etish uchun biz cookie fayllari va shunga o'xshash texnologiyalardan (piksel va mahalliy xotira kabi) foydalanamiz. Ulardan ba'zilari majburiy, boshqalari esa ushbu veb-saytni yaxshilashimizga yordam beradi. Siz istalgan vaqtda to'liq nazoratga egasiz.",
     "customize": "Sozlamalarni moslashtirish",
     "declineAll": "Faqat zarurlari",
@@ -6414,8 +6481,77 @@
     "analyticsDesc": "Ushbu cookie fayllari tashrif buyuruvchilarimizning xatti-harakatlarini tushunishga yordam beradi. Biz foydalanuvchilar K Aqua bilan qanday munosabatda bo'lishlari (masalan, eng ko'p tashrif buyurilgan sahifalar, o'tkazilgan vaqt, xato xabarlari) haqida taxallusli ma'lumotlarni to'playmiz. Bu bizga xatolarni tuzatish va platformani doimiy ravishda yaxshilash imkonini beradi.",
     "marketingTitle": "Marketing va Moslashtirish",
     "marketingDesc": "Biz ushbu texnologiyalardan sizga yanada tegishli tarkib va reklamalarni (shuningdek, tashqi platformalarda ham) ko'rsatish uchun foydalanamiz. Agar siz buni o'chirib qo'ysangiz, reklamalarni ko'rishda davom etasiz, ammo ular qiziqishlaringizga unchalik mos kelmaydi.",
-    "vendorListTitle": "Batafsil Cookie ro'yxatini ko'rish",
-    "backToSimple": "Umumiy ko'rinishga qaytish"
+    "intro": "Ushbu veb-sayt cookie fayllarini o'rnatmaydi va uchinchi tomon xizmatlarini kiritmaydi. Ma'lumotlar faqatgina brauzeringizda lokal saqlanadi — ularning hech biri qurilmangizdan tashqariga chiqmaydi.",
+    "noCookiesNote": "Cookie-fayllarsiz · Reklama trekerlarisiz · Tashrif paytida ma'lumot uzatilmaydi",
+    "btnAcceptAll": "Barchasiga ruxsat berish",
+    "btnNecessaryOnly": "Faqat zaruriylar",
+    "btnCustomize": "Alohida tanlash",
+    "btnSaveSelection": "Tanlovni saqlash",
+    "btnBack": "Orqaga",
+    "btnClose": "Yopish",
+    "categories": {
+      "necessary": {
+        "title": "Texnik jihatdan zarur",
+        "desc": "Maxfiylik bo'yicha qaroringizni va tanlangan tilni saqlab qoladi. Bu saqlash bo'lmasa, har bir sahifaga kirganingizda qaytadan tanlashingiz kerak bo'lardi. O'chirib bo'lmaydi."
+      },
+      "comfort": {
+        "title": "Qulaylik",
+        "desc": "CO₂ kalkulyatoridagi kiritmalaringizni, so'nggi qidiruv so'zlaringizni hamda yorug' yoki qorong'i ko'rinish tanlovingizni eslab qoladi. Rad etsangiz ham, hamma narsa ishlashda davom etadi — faqat hech narsa saqlanmaydi."
+      },
+      "analytics": {
+        "title": "Qamrovni o'lchash",
+        "desc": "Qaysi sahifalarga kirilganligi haqida anonim tahlil.",
+        "emptyNote": "Hozirda bunday xizmat ulanmagan. Agar bu o'zgarsa, u faqat sizning roziligingizdan keyin yuklanadi."
+      }
+    },
+    "inventory": {
+      "toggle": "Saqlangan yozuvlarni ko'rsatish",
+      "heading": "Aynan nimalar saqlanadi",
+      "colName": "Yozuv",
+      "colPurpose": "Maqsad",
+      "colCategory": "Toifa",
+      "colRetention": "Saqlash muddati",
+      "note": "Barcha yozuvlar brauzeringizning lokal xotirasida (localStorage) joylashadi. Cookie fayllari o'rnatilmaydi va uchinchi shaxslarga yoki boshqa mamlakatlarga hech qanday ma'lumot uzatilmaydi."
+    },
+    "entries": {
+      "consent": {
+        "name": "Maxfiylik qarori",
+        "purpose": "Nimani tanlaganingizni saqlab qoladi",
+        "retention": "Bekor qilingunga qadar"
+      },
+      "theme": {
+        "name": "Ko'rinish mavzusi",
+        "purpose": "Yorug' yoki qorong'i",
+        "retention": "Brauzer xotirasi tozalanguncha"
+      },
+      "co2": {
+        "name": "CO₂ kalkulyatori",
+        "purpose": "Sizning stsenariylaringiz va loyihalar ro'yxati",
+        "retention": "Brauzer xotirasi tozalanguncha"
+      },
+      "search": {
+        "name": "So'nggi qidiruvlar",
+        "purpose": "Oxirgi qidiruv so'zlaringiz",
+        "retention": "Brauzer xotirasi tozalanguncha"
+      }
+    },
+    "record": {
+      "decidedOn": "{date} da qaror qabul qilindi",
+      "policyVersion": "{version}-versiya",
+      "notDecided": "Hali hech qanday qaror qabul qilinmagan"
+    },
+    "withdraw": {
+      "title": "Qarorni o'zgartirish",
+      "desc": "Qaroringizni istalgan vaqtda o'zgartirishingiz mumkin — bekor qilish ham rozilik berish kabi oson.",
+      "button": "Barchasini bekor qilish",
+      "done": "Qaroringiz qayta o'rnatildi."
+    },
+    "a11y": {
+      "dialogLabel": "Maxfiylik sozlamalari",
+      "closeLabel": "Sozlamalarni yopish",
+      "switchOn": "yoqilgan",
+      "switchOff": "o'chirilgan"
+    }
   },
   "seo": {
     "extendedProductText": {
@@ -8014,88 +8150,88 @@
     "ctaTitle": "Sizning Mega loyihangiz",
     "ctaDesc": "Biz muhandislik va logistikada sizni qo'llab-quvvatlashga tayyormiz.",
     "ctaBtn": "Muhandislik guruhiga murojaat qilish",
-    "eyebrow": "Enterprise Core",
-    "heroTitleEm": "Rohrsysteme",
+    "eyebrow": "Enterprise yadrosi",
+    "heroTitleEm": "Quvur tizimlari",
     "telemetry": {
-      "pressureLabel": "Systemdruck",
-      "liveSuffix": "MPa live",
-      "tempLabel": "Temperatur max.",
-      "tempNote": "PN20 · Dauerbetrieb",
+      "pressureLabel": "Tizim bosimi",
+      "liveSuffix": "MPa jonli",
+      "tempLabel": "Maks. harorat",
+      "tempNote": "PN20 · Doimiy ishlash",
       "meta": [
         [
           "Material",
-          "K Aqua PP-R (Typ 3)"
+          "K Aqua PP-R (3-tur)"
         ],
         [
-          "Norm",
+          "Standart",
           "DIN 8077/8078"
         ],
         [
-          "Zertifizierung",
+          "Sertifikat",
           "DVGW, SKZ, KIWA"
         ],
         [
-          "Lebensdauer",
-          "> 50 Jahre"
+          "Xizmat muddati",
+          "> 50 yil"
         ]
       ]
     },
     "layers": {
-      "title": "Faserverbund-Technologie",
-      "desc": "Batafsil ma'lumot...",
-      "ariaGroup": "Materialschichten",
+      "title": "Tolali kompozit texnologiyasi",
+      "desc": "Yuqori haroratlarda chiziqli kengayishni minimallashtirish va maksimal barqarorlik uchun 3 qatlamli tuzilish.",
+      "ariaGroup": "Material qatlamlari",
       "items": [
         {
           "t": "PPRCT",
-          "d": "Außenschicht"
+          "d": "Tashqi qatlam"
         },
         {
-          "t": "Faserverbund",
-          "d": "Mittelschicht"
+          "t": "Tolali kompozit",
+          "d": "O'rta qatlam"
         },
         {
           "t": "PPRCT",
-          "d": "Innenschicht"
+          "d": "Ichki qatlam"
         }
       ]
     },
     "comply": {
-      "title": "Compliance & Normen",
+      "title": "Muvofiqlik va standartlar",
       "items": [
         [
           "DVGW",
-          "Trinkwasser-Zulassung"
+          "Ichimlik suvi ruxsatnomasi"
         ],
         [
           "SKZ",
-          "Güteüberwachung"
+          "Sifat nazorati"
         ],
         [
           "KIWA",
-          "Systemzertifizierung"
+          "Tizim sertifikati"
         ],
         [
           "DIN 8077/8078",
-          "Rohrmaße & Toleranzen"
+          "Quvur o'lchamlari va tolerantliklar"
         ]
       ]
     },
-    "rangeTitle": "Dimensionen",
+    "rangeTitle": "O'lchamlar",
     "network": {
-      "title": "Globales Netzwerk",
-      "lead": "Batafsil ma'lumot...",
+      "title": "Global tarmoq",
+      "lead": "K Aqua tizimlari butun dunyo bo'ylab 35 dan ortiq mamlakatda ishlatiladi. Valdsolmsdan butun dunyoga.",
       "chips": [
         [
           "35+",
-          "Länder"
+          "Mamlakatlar"
         ],
         [
           "3",
-          "Kontinente"
+          "Qit'alar"
         ],
         [
           "ISO",
-          "Zertifiziert"
+          "Sertifikatlangan"
         ]
       ]
     }

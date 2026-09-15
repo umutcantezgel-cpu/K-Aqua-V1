@@ -1237,7 +1237,17 @@ function revolve(profile, opt = {}) {
 
 /* Schnittfläche (Halbschnitt bei z = 0) eines Rotationskörpers:
    die Profilkontur selbst, einmal bei +r und einmal bei -r. */
-function capFromProfile(profile, axis = 'x') {
+/* Schnittflaeche eines Rotationskoerpers aus seinem Profil.
+
+   `sign` waehlt EINE Seite: +1 nur die Flaeche bei +r, -1 nur die bei -r.
+   Ohne Angabe kommen beide, wie bisher — jeder bestehende Aufrufer bleibt
+   dadurch unberuehrt.
+
+   Wozu die einzelne Seite: ein Teilwinkel-Revolve (revolve mit `thetas`
+   ueber weniger als 360°) hat zwei STIRNFLAECHEN, und die liegen nicht in
+   derselben Ebene. Jede braucht ihre eigene Kopie, um die eigene
+   Achsdrehung. Mit beiden Vorzeichen zusammen ginge das nicht. */
+function capFromProfile(profile, axis = 'x', sign) {
   const mk = (sign) => {
     const shape = new THREE.Shape();
     profile.forEach((p, i) => {
@@ -1249,7 +1259,7 @@ function capFromProfile(profile, axis = 'x') {
     shape.closePath();
     return new THREE.ShapeGeometry(shape, 1);
   };
-  return mergeGeometries([mk(1), mk(-1)]);
+  return sign === undefined ? mergeGeometries([mk(1), mk(-1)]) : mergeGeometries([mk(sign)]);
 }
 
 function polygonCap(pts) {
@@ -2281,33 +2291,87 @@ function boltCircle(count, r, dCircle, startDeg = 0) {
 
 /* Eine einzige Konstante für das PP-R-Grün, damit eine CI-Korrektur
    eine Ein-Zeilen-Änderung bleibt.
-   ASSUMPTION: #17A46B ist der auf Albedo hochgerechnete Wert der
-   Fotomessung (#00906D…#03997B im Mittelton). Marken-Token (#3AAA35)
-   und Website-Hero (#5BB182) widersprechen sich; Foto ist die
-   verlässlichste Quelle. Gegen das Originalbauteil zu verifizieren. */
-const PPR_GREEN = '#17A46B';
+
+   HERLEITUNG (31.08.2026). Der Wert stammt aus einer Messung über 14
+   Herstelleraufnahmen unter Marketing/Produktbilder/ — rund 207 000
+   Bildpunkte, die eindeutig zum Bauteil gehören (Hintergrund, Schatten
+   und entsättigte Ränder ausgeschlossen):
+
+     Schattenviertel  #1D593C
+     Mittelton        #2D7E59      häufigste Töne #207050 / #207858
+     Glanzviertel     #45A075
+
+   Der Mittelton, um den Verlust durch Beleuchtung und ACES-Tonemapping
+   (Faktor ~0,72) auf Albedo hochgerechnet, ergibt #32A175 — und genau das
+   steht hier.
+
+   Warum nicht der vorherige Wert #17A46B: gleiche Helligkeit, aber
+   Sättigung 0,86 statt der gemessenen 0,62. Das war der Grund für den
+   grellen, unnatürlichen Eindruck. Warum nicht RAL 6024 (#008351): das ist
+   die Normfarbe des Granulats und im Rendering deutlich zu dunkel — die
+   Aufnahmen des Herstellers zeigen das fertige Bauteil heller.
+
+   Maßgeblich ist also das Bauteil, wie der Hersteller es selbst abbildet. */
+const PPR_GREEN = '#32A175';
+/** Normfarbe des Granulats laut Marketing/Produktbilder/grün (RAL 6024). */
+const PPR_GREEN_RAL6024 = '#008351';
 
 /* ── Registry ──
    noise  Roughness-Map aus prozeduralem Rauschen (Spritzguss)
    wear   Absenkung der Roughness an Fasen (aWear-Attribut), 0 = aus
+   emboss Dieser Werkstoff WÜRDE die Prägeschrift tragen, wenn ein Produkt
+          sie anfordert (`createAssembly({ emboss: true })`). Sie ist seit dem
+          05.09.2026 stillgelegt — Begründung am Kopf von embossTexture().
+          Die Marke sitzt nur auf den PP-Körpern: Kennstreifen, Faserkern,
+          Messing, Chrom und Dichtungen tragen am realen Bauteil keine.
    sheenFrom  Glanzfarbe wird aus der Grundfarbe gegen Weiß gemischt */
 const MAT = {
   pprGreen: {
     color: PPR_GREEN, roughness: 0.44, metalness: 0,
     clearcoat: 0.25, clearcoatRoughness: 0.5,
     sheen: 0.15, sheenFrom: 0.25, sheenRoughness: 0.8,
-    envMapIntensity: 0.9, noise: true, wear: 0.42,
+    envMapIntensity: 0.9, emboss: true, noise: true, wear: 0.42,
   },
   pprPurple: {
     color: '#8E5BA6', roughness: 0.44, metalness: 0,
     clearcoat: 0.25, clearcoatRoughness: 0.5,
     sheen: 0.15, sheenFrom: 0.25, sheenRoughness: 0.8,
-    envMapIntensity: 0.9, noise: true, wear: 0.42,
+    envMapIntensity: 0.9, emboss: true, noise: true, wear: 0.42,
   },
   pprUvBlack: {
     color: '#1A1A1A', roughness: 0.52, metalness: 0,
     clearcoat: 0.18, clearcoatRoughness: 0.55,
-    envMapIntensity: 0.8, noise: true, wear: 0.4,
+    envMapIntensity: 0.8, emboss: true, noise: true, wear: 0.4,
+  },
+  /* ── Sonderfarben der Rohrserien ──
+     Die Rohrserien sind neben dem Standardgrün auch in Blau, Curry und Mocca
+     lieferbar — etwa zur Kennzeichnung getrennter Leitungssysteme.
+
+     Quelle der Farbwerte sind die Ordnernamen des Herstellerarchivs:
+     Marketing/Produktbilder/{blau (RAL 5005), curry (RAL 1002),
+     Mocca (RAL 7032)}. Maßgeblich ist die RAL-Nummer, nicht der Fotopixel:
+     die dort abgelegten Marketing-Renderings sind aufgehellt und gesättigt
+     (gemessen ~#2E43A0 / ~#C68B2D / ~#B5A99A) und geben die Norm nicht wieder.
+
+     Rezeptaufbau identisch zu pprGreen — es ist derselbe Werkstoff in einer
+     anderen Einfärbung, nicht ein anderes Material. */
+  pprBlue: {
+    color: '#005387', roughness: 0.44, metalness: 0,
+    clearcoat: 0.25, clearcoatRoughness: 0.5,
+    sheen: 0.15, sheenFrom: 0.25, sheenRoughness: 0.8,
+    envMapIntensity: 0.9, emboss: true, noise: true, wear: 0.42,
+  },
+  pprCurry: {
+    color: '#C6A664', roughness: 0.44, metalness: 0,
+    clearcoat: 0.25, clearcoatRoughness: 0.5,
+    sheen: 0.15, sheenFrom: 0.25, sheenRoughness: 0.8,
+    envMapIntensity: 0.9, emboss: true, noise: true, wear: 0.42,
+  },
+  pprMocca: {
+    color: '#B9B9A8', roughness: 0.44, metalness: 0,
+    clearcoat: 0.25, clearcoatRoughness: 0.5,
+    sheen: 0.15, sheenFrom: 0.25, sheenRoughness: 0.8,
+    envMapIntensity: 0.9, emboss: true, noise: true, wear: 0.42,
   },
   /* Faserverbund-Kern. Nur im Schnitt und an der Rohrstirn sichtbar —
      dort trägt er das ganze Argument, das 2D nicht leisten kann. */
@@ -2333,6 +2397,14 @@ const MAT = {
     color: '#8A9099', roughness: 0.45, metalness: 0,
     clearcoat: 0.18, clearcoatRoughness: 0.55,
     envMapIntensity: 0.8, noise: true, wear: 0.35,
+  },
+  /* Aufdruck auf Rohren. Kein Werkstoff, sondern Druckfarbe: matt, ohne
+     Klarlack, mit Alphakanal — sichtbar ist nur, wo Schrift steht. Die
+     Grundfarbe ist weiss und wird von der Textur eingefaerbt; damit bleibt
+     der Aufdruck hell, unabhaengig von der Rohrfarbe. */
+  pprPrint: {
+    color: '#FFFFFF', roughness: 0.62, metalness: 0,
+    clearcoat: 0, envMapIntensity: 0.7, print: true,
   },
   brass:  { color: '#C9A227', roughness: 0.3,  metalness: 1, envMapIntensity: 1.4 },
   chrome: { color: '#E8EAED', roughness: 0.06, metalness: 1, envMapIntensity: 1.6 },
@@ -2399,6 +2471,221 @@ function noiseTexture(seed, size = 512) {
   return t;
 }
 
+/* ── Prägeschrift — STILLGELEGT am 05.09.2026 ──
+
+   Der Generator steht hier vollständig, wird aber nicht mehr von selbst
+   aufgerufen: `materials()` verlangt dafür ausdrücklich `emboss: true`, und
+   kein Produkt tut das. Was folgt, ist erst die Begründung der Stilllegung,
+   dann die des ursprünglichen Entwurfs — beides gehört zusammen, sonst
+   schaltet in einem halben Jahr jemand die Marke wieder an.
+
+   ── WARUM SIE STILLLIEGT ──
+   Nicht die Textur war falsch, sondern ihre ABBILDUNG. Der Schriftzug belegt
+   in der 1024 × 512-Textur u ∈ [0,26 … 0,85] und v ∈ [0,455 … 0,545].
+   `revolve()` bildet aber u = θ/2π ab und v als Bogenlänge des PROFILS. Die
+   Zeile wird dadurch über 212° Umfang gezogen und auf 9 % der Profillänge
+   gestaucht: an der Muffe d32 rund 80 mm breit bei 9 mm Höhe. Lesbar ist da
+   nichts — sichtbar blieben Querstreifen, die wie ein Renderfehler wirkten,
+   auf 37 der 70 Produkte.
+
+   Nachjustieren hilft nicht. Schriftgröße und Position verschieben das
+   Verhältnis, lösen es aber nicht: u und v haben am Rotationskörper völlig
+   verschiedene Maßstäbe, und die Verzerrung wächst zusätzlich mit jedem
+   Profilpunkt, den ein Bauteil mehr hat als das nächste. Wer die Prägung
+   zurückholen will, braucht deshalb ZWINGEND eines von beidem:
+
+     · eine eigene UV-Insel für die Schriftfläche, oder
+     · ein eigenes flaches Decal-Mesh, wie es der Aufdruck der Rohre
+       (printTexture, weiter unten) bereits vormacht.
+
+   Das Muster dahinter steht als Fall 49 im Fehlerkatalog: isotrope Texturen
+   — Rauschen, Verschleiß — dürfen auf generischen UVs reiten, weil ihnen
+   Verzerrung nichts ausmacht. Alles, was FORM trägt (Schrift, Logos,
+   Symbole), braucht seine eigene Abbildung.
+
+   ── WARUM DER ENTWURF SONST RICHTIG WAR ──
+   Ein Spritzgussteil trägt seine Herkunft als Erhebung im Polymer, nicht als
+   Aufdruck: gleiche Farbe, gleiche Oberfläche, nur Licht und Schatten machen
+   sie lesbar. Genau das leistet eine Normalmap — und nur sie kam infrage:
+
+   · Echte Buchstabengeometrie scheidet aus. tests/unit/kaqua3d-geometry.test.ts
+     deckelt bei 400 000 Vertices je Produkt und 4 000 000 über die Bibliothek;
+     gemessen liegen wir bei 3,64 Mio. Ein lesbarer Schriftzug als Geometrie
+     sprengt das Budget.
+   · Ein eigener Shaderpatch scheidet ebenfalls aus: patchWear() belegt
+     mat.onBeforeCompile bereits, ein zweiter würde ihn ersatzlos überschreiben
+     und den Kantenverschleiß aller Bauteile abschalten.
+
+   Bleibt der reguläre normalMap-Slot. Kostet keine Dreiecke und keinen Patch.
+   Diese Überlegung gilt weiter; sie scheitert allein an der Abbildung.
+
+   ACHTUNG bei Änderungen: Die erzeugte Textur muss in M._tex landen, sonst
+   gibt disposeMaterials() sie nie frei und sie leckt bei jedem Modellwechsel. */
+const PRAEGE_TEXT = 'MADE IN GERMANY';
+
+function embossTexture(text = PRAEGE_TEXT, opt = {}) {
+  const W = opt.width ?? 1024;
+  const H = opt.height ?? 512;
+  /* Mittelpunkt der Schrift in UV. 0,555 ≙ θ ≈ 200° (untere Flanke). */
+  const cu = opt.u ?? 0.555;
+  const cv = opt.v ?? 0.5;
+  const hoehe = opt.strength ?? 1.0;
+
+  /* Ohne brauchbares Canvas KEINE Prägung — und vor allem kein Fehler.
+     Die Modelle werden nicht nur im Browser gebaut: `lib/bim/model3d.ts`
+     erzeugt sie serverseitig für den IFC- und CAD-Export, und dort gibt es
+     weder ein Canvas noch getImageData. Ein Fehler an dieser Stelle nähme
+     dem Export die komplette Geometrie — die Prägung ist Oberfläche, sie
+     darf niemals das Bauteil kosten. */
+  if (typeof document === 'undefined' || typeof document.createElement !== 'function') return null;
+  const c = document.createElement('canvas');
+  c.width = W;
+  c.height = H;
+  const ctx = c.getContext('2d');
+  if (!ctx || typeof ctx.getImageData !== 'function' || typeof ctx.fillText !== 'function') return null;
+
+  /* Schritt 1: Höhenfeld. Weiß auf Schwarz, mittig auf (cu, cv). */
+  ctx.fillStyle = '#000';
+  ctx.fillRect(0, 0, W, H);
+  ctx.fillStyle = '#fff';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  /* Inter liegt als Schrift der Seite ohnehin vor; die Kette dahinter fängt
+     den Fall ab, dass sie beim Bau der Textur noch nicht geladen ist. */
+  ctx.font = `700 ${opt.fontPx ?? 46}px Inter, "Helvetica Neue", Arial, sans-serif`;
+  ctx.letterSpacing = '6px';
+  ctx.fillText(text, cu * W, cv * H);
+
+  const hf = ctx.getImageData(0, 0, W, H).data;
+
+  /* Schritt 2: Weichzeichnen. Ein Spritzgussteil hat keine scharfen Kanten —
+     ohne diesen Schritt bekämen die Buchstaben eine Klippe statt einer
+     Flanke, und genau die Flanke ist es, die das Licht bricht. */
+  const h = new Float32Array(W * H);
+  for (let i = 0; i < W * H; i++) h[i] = hf[i * 4] / 255;
+  const R = opt.blur ?? 3;
+  const tmp = new Float32Array(W * H);
+  const kernel = 2 * R + 1;
+  for (let y = 0; y < H; y++) {
+    for (let x = 0; x < W; x++) {
+      let s = 0;
+      for (let k = -R; k <= R; k++) s += h[y * W + Math.min(W - 1, Math.max(0, x + k))];
+      tmp[y * W + x] = s / kernel;
+    }
+  }
+  for (let x = 0; x < W; x++) {
+    for (let y = 0; y < H; y++) {
+      let s = 0;
+      for (let k = -R; k <= R; k++) s += tmp[Math.min(H - 1, Math.max(0, y + k)) * W + x];
+      h[y * W + x] = s / kernel;
+    }
+  }
+
+  /* Schritt 3: Höhenfeld → Normalmap (Sobel). */
+  const img = ctx.createImageData(W, H);
+  const at = (x, y) => h[Math.min(H - 1, Math.max(0, y)) * W + Math.min(W - 1, Math.max(0, x))];
+  for (let y = 0; y < H; y++) {
+    for (let x = 0; x < W; x++) {
+      const dx =
+        (at(x + 1, y - 1) + 2 * at(x + 1, y) + at(x + 1, y + 1)) -
+        (at(x - 1, y - 1) + 2 * at(x - 1, y) + at(x - 1, y + 1));
+      const dy =
+        (at(x - 1, y + 1) + 2 * at(x, y + 1) + at(x + 1, y + 1)) -
+        (at(x - 1, y - 1) + 2 * at(x, y - 1) + at(x + 1, y - 1));
+      let nx = -dx * hoehe, ny = -dy * hoehe, nz = 1;
+      const len = Math.sqrt(nx * nx + ny * ny + nz * nz) || 1;
+      nx /= len; ny /= len; nz /= len;
+      const o = (y * W + x) * 4;
+      img.data[o] = Math.round((nx * 0.5 + 0.5) * 255);
+      img.data[o + 1] = Math.round((ny * 0.5 + 0.5) * 255);
+      img.data[o + 2] = Math.round((nz * 0.5 + 0.5) * 255);
+      img.data[o + 3] = 255;
+    }
+  }
+  ctx.putImageData(img, 0, 0);
+
+  const t = new THREE.CanvasTexture(c);
+  /* Kein RepeatWrapping wie bei der Rauschtextur: der Schriftzug soll genau
+     einmal an genau dieser Stelle stehen. */
+  t.wrapS = t.wrapT = THREE.ClampToEdgeWrapping;
+  /* Eine Normalmap ist keine Farbe und darf nicht sRGB-dekodiert werden. */
+  t.colorSpace = THREE.NoColorSpace;
+  t.anisotropy = 4;
+  return t;
+}
+
+/* ── Aufdruck ──
+
+   Rohre werden EXTRUDIERT, nicht spritzgegossen. Ihre Kennzeichnung ist am
+   realen Produkt deshalb kein Relief, sondern eine aufgedruckte Zeile: eine
+   schmale Spur entlang der Rohrachse mit Hersteller, Werkstoff, Nennweite,
+   Druckstufe. Die Prägung oben ist die richtige Antwort für Formteile und
+   die falsche für Rohre.
+
+   Aufdruck ist Farbe, nicht Höhe — eine Normalmap wie bei der Prägung hilft
+   hier also nicht. Stattdessen eine Albedo-Textur mit Alphakanal auf einem
+   eigenen, sehr schmalen Band. Dass es ein eigenes Bauteil ist, ist der
+   Punkt: Der Aufdruck bleibt hell, egal ob das Rohr grün, blau, curry oder
+   mocca ist. Genau so verhält sich echte Druckfarbe.
+
+   AUSRICHTUNG: `revolve` bildet u = θ/2π ab und v als Bogenlänge entlang des
+   Profils. Beim Band läuft das Profil über die ganze Rohrlänge, θ nur über
+   die schmale Bandbreite. In der Textur ist also v die Längsrichtung und u
+   die Breite — die Schrift muss dafür um 90° gedreht gezeichnet werden. */
+function printTexture(text, opt = {}) {
+  /* Wie bei der Prägung: ohne brauchbares Canvas keine Textur und KEIN
+     Fehler. Die Modelle werden auch serverseitig gebaut (lib/bim/model3d.ts),
+     und dort darf eine Oberflächenzier niemals das Bauteil kosten. */
+  if (typeof document === 'undefined' || typeof document.createElement !== 'function') return null;
+
+  /* Hochkant: W ist die Bandbreite, H die Rohrlänge. */
+  const W = opt.width ?? 128;
+  const H = opt.height ?? 2048;
+  const c = document.createElement('canvas');
+  c.width = W;
+  c.height = H;
+  const ctx = c.getContext('2d');
+  if (!ctx || typeof ctx.fillText !== 'function') return null;
+
+  ctx.clearRect(0, 0, W, H);
+  ctx.save();
+  /* Ursprung in die Bandmitte, dann um 90° drehen: danach läuft die
+     Schreibrichtung entlang der Rohrachse. */
+  ctx.translate(W / 2, H / 2);
+  ctx.rotate(-Math.PI / 2);
+  ctx.fillStyle = opt.color ?? 'rgba(255,255,255,0.92)';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.font = `600 ${opt.fontPx ?? 44}px Inter, "Helvetica Neue", Arial, sans-serif`;
+  ctx.letterSpacing = '2px';
+
+  /* Die Zeile wiederholt sich über die Länge, so wie eine Druckwalze sie im
+     laufenden Strang immer wieder aufbringt — aber nur so oft, wie sie
+     WIRKLICH hineinpasst.
+
+     Eine feste Zahl von Wiederholungen war der erste Versuch und sichtbar
+     falsch: Bei 2048 px Länge und rund 1300 px Textbreite legten sich drei
+     Durchläufe übereinander und ergaben Buchstabensalat. Die Zahl kommt
+     deshalb aus der gemessenen Breite plus einem Zwischenraum von einer
+     halben Textlänge. Passt nicht einmal ein Durchlauf, steht er einmal
+     mittig — eine abgeschnittene Kennzeichnung ist immer noch lesbarer als
+     zwei ineinander gesetzte. */
+  const breite = ctx.measureText(text).width || H;
+  const abstand = breite * 1.5;
+  const wdh = Math.max(1, Math.floor(H / abstand));
+  for (let i = 0; i < wdh; i++) {
+    const y = -H / 2 + (H / wdh) * (i + 0.5);
+    ctx.fillText(text, y, 0);
+  }
+  ctx.restore();
+
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.ClampToEdgeWrapping;
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 4;
+  return t;
+}
+
 /* Kantenverschleiß: an Fasen und Riffelkanten Roughness absenken
    (Politur durch Handhabung) — Maske kommt als aWear-Attribut aus
    der Geometrie. Meshes ohne das Attribut lesen 0. */
@@ -2422,7 +2709,7 @@ function patchWear(mat, amount = 0.42) {
   return mat;
 }
 
-function build(key, recipe, tex) {
+function build(key, recipe, tex, emboss, print) {
   const p = {
     name: key,
     color: new THREE.Color(recipe.color),
@@ -2442,6 +2729,22 @@ function build(key, recipe, tex) {
     if (recipe.sheenRoughness !== undefined) p.sheenRoughness = recipe.sheenRoughness;
   }
   if (tex) p.roughnessMap = tex;
+  /* Prägeschrift. Niedrige normalScale: sie soll das Licht brechen, nicht
+     plastisch aufspringen — „nicht herausstechend" ist die Vorgabe. */
+  if (emboss) {
+    p.normalMap = emboss;
+    p.normalScale = new THREE.Vector2(0.4, 0.4);
+  }
+  /* Aufdruck: Die Textur traegt den Alphakanal, sichtbar ist nur die
+     Schrift. `depthWrite: false` verhindert, dass das dicht ueber dem
+     Rohrmantel liegende Band sich selbst in den Tiefenpuffer schreibt und
+     dabei mit der Mantelflaeche flackert. */
+  if (print) {
+    p.map = print;
+    p.transparent = true;
+    p.alphaTest = 0.06;
+    p.depthWrite = false;
+  }
   const m = new THREE.MeshPhysicalMaterial(p);
   return recipe.wear ? patchWear(m, recipe.wear) : m;
 }
@@ -2452,19 +2755,37 @@ function build(key, recipe, tex) {
    caps sind die Schnittflächen: dieselbe Farbe abgedunkelt, matt,
    DoubleSide — die Schnittfläche muss massiv wirken, nicht wie eine
    Lücke im Bauteil. */
-function materials(keys, seed = 17) {
+function materials(keys, seed = 17, opt = {}) {
   const need = keys.some((k) => MAT[k] && MAT[k].noise);
   const tA = need ? noiseTexture(seed) : null;
   const tB = need ? noiseTexture(seed * 247 + 12) /* 17 -> 4211, wie bisher */ : null;
-  const M = { _all: [], _tex: [tA, tB].filter(Boolean), caps: {} };
+  /* Die Prägung ist STILLGELEGT: `emboss: true` muss ausdrücklich verlangt
+     werden. Warum, steht am Kopf von embossTexture() — kurz: über die
+     Revolve-UVs ist lesbare Schrift nicht zu haben, und unlesbar sah sie auf
+     37 von 70 Produkten wie ein Renderfehler aus.
+
+     Vorher stand hier `opt.emboss !== false`, die Prägung war also der
+     Normalfall und musste einzeln abgewählt werden. */
+  const praegen = opt.emboss === true && keys.some((k) => MAT[k] && MAT[k].emboss);
+  const tE = praegen ? embossTexture(opt.embossText) : null;
+
+  /* Der Aufdruck braucht seinen Text vom Produkt — Nennweite und Reihe
+     stehen darauf. Ohne `printText` bleibt das Band leer; dann ist es
+     besser, gar keinen Aufdruck zu zeigen als einen erfundenen. */
+  const drucken = keys.some((k) => MAT[k] && MAT[k].print) && !!opt.printText;
+  const tP = drucken ? printTexture(opt.printText) : null;
+
+  const M = { _all: [], _tex: [tA, tB, tE, tP].filter(Boolean), caps: {} };
 
   for (const key of keys) {
     const recipe = MAT[key];
     if (!recipe) throw new Error('K-Aqua: unbekannter Materialschlüssel "' + key + '"');
-    M[key] = build(key, recipe, recipe.noise ? tA : null);
+    const e = recipe.emboss ? tE : null;
+    const d = recipe.print ? tP : null;
+    M[key] = build(key, recipe, recipe.noise ? tA : null, e, d);
     M._all.push(M[key]);
     if (recipe.noise) {
-      M[key + 'B'] = build(key + 'B', recipe, tB);
+      M[key + 'B'] = build(key + 'B', recipe, tB, e, d);
       M._all.push(M[key + 'B']);
     }
   }
@@ -2511,7 +2832,15 @@ function disposeMaterials(M) {
 const CAP_Z = 0.16; // mm — Schnittfläche minimal vor der Clipping-Ebene
 
 function createAssembly(opt = {}) {
-  const M = materials(opt.materials || ['pprGreen'], opt.seed ?? 17);
+  /* `emboss: false` schaltet die Prägeschrift ab. Rohre nutzen das: sie
+     werden extrudiert, nicht spritzgegossen — ihre Kennzeichnung ist am
+     realen Produkt aufgedruckt, keine Erhebung. */
+  const M = materials(opt.materials || ['pprGreen'], opt.seed ?? 17, {
+    emboss: opt.emboss,
+    /* Der Aufdrucktext kommt vom Produkt — Nennweite und Reihe stehen darauf,
+       und die kennt nur das Produktpaket. */
+    printText: opt.printText,
+  });
   let plane = opt.clipPlane || null;
   const root = new THREE.Group();
   root.name = opt.name || 'kaqua_part';
@@ -3883,6 +4212,90 @@ function pipeParams(article, opt) {
    Mantelfläche ein, sie sitzt nicht als Leiste darauf. */
 
 
+/* ── Farbvarianten der Rohrserien ──
+
+   Die Serien sind neben dem Standardgrün auch in Blau, Curry und Mocca
+   lieferbar (Marketing/Produktbilder/, RAL-Nummer im Ordnernamen). Der
+   Produktvertrag sieht dafür `variants` und den zweiten Parameter von
+   `build(size, variant, clipPlane)` vor — beides war bisher bei allen 71
+   Produkten leer.
+
+   Warum die Umfärbung über den Materialschlüssel läuft und nicht über die
+   Materialregistry: Bei den Faserrohren tragen Außen- UND Innenlage denselben
+   Schlüssel `pprGreen`, `createAssembly` dedupliziert per Set und legt für
+   beide EINE Materialinstanz an. Wer die Instanz umfärbt, färbt zwangsläufig
+   auch die Innenlage mit. Nur ein eigener Schlüssel je Lage trennt das. */
+const ROHR_VARIANTEN = ['gruen', 'blau', 'curry', 'mocca'];
+
+const VARIANTEN_MATERIAL = {
+  gruen: 'pprGreen',
+  blau: 'pprBlue',
+  curry: 'pprCurry',
+  mocca: 'pprMocca',
+};
+
+/**
+ * Gibt die Lagenliste mit eingefärbter AUSSENLAGE zurück.
+ *
+ * Nur Lage 0 wechselt die Farbe. Innenlagen und der Faserkern bleiben, was sie
+ * sind — die Variante betrifft die Coextrusion außen, nicht den Wandaufbau.
+ * Kennstreifen bleiben ebenfalls unberührt: sie kodieren die Baureihe.
+ */
+/**
+ * Aufdruckband entlang der Rohrachse.
+ *
+ * Bauform wie der Kennstreifen, aber flach: Ein Aufdruck traegt nicht auf.
+ * Die 0,04 mm Abstand zur Mantelflaeche sind kein Relief, sondern der
+ * Mindestabstand, damit die beiden Flaechen nicht um denselben Tiefenwert
+ * streiten.
+ *
+ * Bewusst ein eigenes Bauteil und nicht Teil des Rohrkoerpers: So bleibt die
+ * Druckfarbe hell, egal welche Farbvariante das Rohr traegt — genau wie am
+ * echten Produkt. Kostet rund 500 Vertices je Rohr; das Budget in
+ * tests/unit/kaqua3d-geometry.test.ts hat davon reichlich.
+ */
+/**
+ * Die Kennzeichnungszeile, wie sie am realen Rohr steht.
+ *
+ * Sie wird aus `brandLine` des Produkts gebaut — dort steht Werkstoff, Reihe
+ * und SDR bereits in der Katalogschreibweise. Zwei Fassungen desselben Textes
+ * zu pflegen waere die sichere Art, sie auseinanderlaufen zu lassen.
+ *
+ * Die Mittelpunkte werden zu Leerraum: Auf einem Rohr steht kein
+ * typografischer Trenner, sondern schlicht Abstand.
+ */
+function druckzeile(brandLine, size) {
+  return `${String(brandLine).replace(/\s*·\s*/g, '   ').toUpperCase()}   d${size}   MADE IN GERMANY`;
+}
+
+function buildPrintBand(P, opt = {}) {
+  const lift = 0.04;
+  const widthDeg = opt.widthDeg ?? 26;
+  const half = (widthDeg / 2) * D2R;
+  const c = (opt.angleDeg ?? 150) * D2R;
+  const n = 12;
+  const thetas = [];
+  for (let i = 0; i <= n; i++) thetas.push(c - half + (2 * half * i) / n);
+
+  /* Offenes Profil: nur die Aussenhaut des Bandes. Ein geschlossenes haette
+     eine Rueckseite, die niemand sieht und die nur Dreiecke kostet. */
+  const profile = buildProfile(
+    [
+      { a: -P.xEnd * 0.94, r: P.rOut + lift, fillet: 0 },
+      { a: P.xEnd * 0.94, r: P.rOut + lift, fillet: 0 },
+    ],
+    { segs: 1, closed: false }
+  );
+
+  return { geo: revolve(profile, { axis: 'x', thetas }), cap: null, profile };
+}
+
+function mitFarbvariante(layers, variant) {
+  const key = VARIANTEN_MATERIAL[variant];
+  if (!key || !layers.length || layers[0].key !== 'pprGreen') return layers;
+  return layers.map((l, i) => (i === 0 ? Object.assign({}, l, { key }) : l));
+}
+
 function buildTube(P, layers) {
   return tubeLayers(P.d, P.wall, layers, { length: P.len, x0: -P.xEnd });
 }
@@ -3895,11 +4308,34 @@ function buildStripe(P, stripe) {
   const thetas = [];
   for (let i = 0; i <= n; i++) thetas.push(c - half + (2 * half * i) / n);
 
+  /* ── ZWEI FEHLER, DIE SICH GEGENSEITIG VERSTECKT HABEN ──
+
+     1. Die Modulationsfunktion unten lief ins Leere. `revolve` rechnet
+        `r = p.r + m * (p.w || 0)` (core/geometry.js), und `buildProfile`
+        setzt jedem Punkt `w: 0`, sofern keiner mitgegeben wird. Hier wurde
+        keiner mitgegeben — `mod` war also seit jeher tote Rechnung, und der
+        Streifen stand als hart abgesetztes Baendchen auf dem Rohr statt an
+        den Raendern in den Mantel einzulaufen. Genau das Gegenteil dessen,
+        was der Kommentar oben beschreibt.
+
+        Die beiden AEUSSEREN Punkte bekommen deshalb `w: 1`: nur sie sollen
+        sich radial bewegen. Die inneren bleiben bei `w: 0` und damit stehen.
+        `expandChamfers` und `applyFillets` reichen `w` durch, der Wert
+        ueberlebt die Profilaufbereitung.
+
+     2. Der Rueckweg des geschlossenen Profils lag exakt auf `rOut` — also
+        koplanar mit der Rohrmantelflaeche darunter. Zwei Flaechen auf
+        derselben Ebene ergeben Z-Fighting: je nach Blickwinkel und
+        Tiefenpuffer flackert mal die eine, mal die andere durch. Die
+        Unterseite liegt jetzt knapp UNTER der Mantelflaeche und ist damit
+        sauber verdeckt. */
+  const sink = 0.05;
+
   const profile = buildProfile([
-    { a: -P.xEnd, r: P.rOut, fillet: 0 },
-    { a: -P.xEnd, r: P.rOut + rise, chamfer: 0.2 },
-    { a: P.xEnd, r: P.rOut + rise, chamfer: 0.2 },
-    { a: P.xEnd, r: P.rOut, fillet: 0 },
+    { a: -P.xEnd, r: P.rOut - sink, fillet: 0 },
+    { a: -P.xEnd, r: P.rOut + rise, chamfer: 0.2, w: 1 },
+    { a: P.xEnd, r: P.rOut + rise, chamfer: 0.2, w: 1 },
+    { a: P.xEnd, r: P.rOut - sink, fillet: 0 },
   ], { segs: 2 });
 
   const mod = (th) => {
@@ -4047,33 +4483,37 @@ const product = {
   dimensions: ['d', 'di'],
   ariaFields: ['d', 'di', 's'],
 
-  variants: [],
+  /* Serienfarben laut Herstellerarchiv — der Viewer blendet die Auswahl
+     von selbst ein, sobald diese Liste nicht leer ist. */
+  variants: ROHR_VARIANTEN,
   states: null,
 
   tile: 'Dünnwandiges Faserrohr für Verteilleitungen mit niedrigerem Betriebsdruck.',
 
   build(size, variant, clipPlane) {
     const P = params(size);
-    const matKeys = [...new Set([...LAYERS.map((l) => l.key), ...STRIPES.map((s) => s.key)])];
+    const LAGEN = mitFarbvariante(LAYERS, variant);
+    const matKeys = [...new Set([...LAGEN.map((l) => l.key), ...STRIPES.map((s) => s.key), 'pprPrint'])];
     const A = createAssembly({
       name: 'K-Aqua_kaqua-k-fiber-pipe-pp-r-sdr-11' + '_d' + size,
       materials: matKeys,
       seed: 162,
+      printText: druckzeile(product.brandLine, size),
       clipPlane,
     });
 
-    const layers = buildTube(P, LAYERS);
+    const layers = buildTube(P, LAGEN);
     layers.forEach((layer, i) => {
       A.part('layer' + i, {
         name: 'Rohrwand_' + layer.label,
-        label: LAYERS.length > 1
+        label: LAGEN.length > 1
           ? layer.label + ' (' + layer.thickness.toFixed(1).replace('.', ',') + ' mm)'
           : 'Rohrwand (' + P.wall.toFixed(1).replace('.', ',') + ' mm)',
         mat: layer.key,
         geo: layer.geo,
         cap: layer.cap,
         // Lagen fahren radial auseinander — so liest sich der Wandaufbau
-        explode: V3(0, (LAYERS.length - i) * P.d * 0.55, 0),
+        explode: V3(0, (LAGEN.length - i) * P.d * 0.55, 0),
         anchor: i === 0 ? V3(0, P.rOut + 0.16 * P.len, 0) : V3(0, P.rOut + 0.10 * P.len, 0),
       });
     });
@@ -4084,8 +4524,17 @@ const product = {
         label: 'Kennstreifen (Coextrusion)',
         mat: stripe.key,
         geo: buildStripe(P, stripe).geo,
-        explode: V3(0, (LAYERS.length + 1) * P.d * 0.55, 0),
+        explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
       });
+    });
+
+    /* Aufdruck statt Prägung — Rohre werden extrudiert. */
+    A.part('print', {
+      name: 'Aufdruck',
+      label: 'Kennzeichnung (Aufdruck)',
+      mat: 'pprPrint',
+      geo: buildPrintBand(P).geo,
+      explode: V3(0, (LAGEN.length + 1) * P.d * 0.55, 0),
     });
 
     A.light(V3(-P.xEnd * 0.7, 0, 0));
@@ -4094,8 +4543,8 @@ const product = {
     A.hotspot({
       v: V3(-P.xEnd + P.d * 0.28, P.rOut * 0.42, P.rOut * 0.88),
       n: V3(0, 0.42, 0.9),
-      text: LAYERS.length > 1
-        ? 'Schnittkante: ' + LAYERS.length + ' Lagen, Wandstärke ' +
+      text: LAGEN.length > 1
+        ? 'Schnittkante: ' + LAGEN.length + ' Lagen, Wandstärke ' +
           String(P.wall).replace('.', ',') + ' mm'
         : 'Schnittkante: Wandstärke ' + String(P.wall).replace('.', ',') +
           ' mm, Innendurchmesser ' + String(P.di).replace('.', ',') + ' mm',
@@ -4122,7 +4571,7 @@ const product = {
          gibt nur seinen eigenen Startradius zurück. */
       { key: 'di', label: DIMENSION_KEY.di, soll: P.di,
         ist: () => {
-          const hit = A.probeAxial('layer' + (LAYERS.length - 1), V3(0, 0, 0), V3(0, 1, 0));
+          const hit = A.probeAxial('layer' + (LAGEN.length - 1), V3(0, 0, 0), V3(0, 1, 0));
           return hit ? Math.round(2 * hit.y * 100) / 100 : NaN;
         } },
       /* Die modellierte Wand ist die Differenz der beiden Tabellenenden,

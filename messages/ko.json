@@ -1,4 +1,51 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "명확한 식별을 위해 보라색으로 착색됨 (예: 중수도/관개 시스템용).",
+    "k-fiber-pipe-pp-rct-sdr-74": "유리섬유 강화 중간층이 열팽창을 약 50 % 감소시킵니다.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "냉난방/HVAC 용도(냉수 및 온수)에 최적화됨.",
+    "k-fiber-pipe-pp-r-sdr-17": "산업 및 건물 공급용 대구경 섬유 복합 파이프.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "실외 사용을 위한 UV 안정화 외부 레이어.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "가공선 및 옥상 설치용 UV 안정화.",
+    "electrofusion-socket": "전기융착 소켓: 열 융착기 없이 전기 발열체 가열을 통한 결합.",
+    "flange-adaptor": "플랜지 연결 전환용(밸브, 펌프, 수도계량기용).",
+    "reducing-tee-large-sizes": "63–75 mm 주 배관용.",
+    "cross-over": "연결 없이 교차하는 두 번째 배관 우회.",
+    "elbow-bracket-90-female-thread": "벽면 고정용 마운팅 플랜지 포함.",
+    "elbowwall-bracket-90-female-thread": "양면 벽면 고정.",
+    "metal-union-male-thread-yellow-brass": "황동 CW617N.",
+    "metal-union-female-thread-yellow-brass": "황동 CW617N.",
+    "tee-90-female-thread": "배관 절단 없이 유지보수 작업을 위해 분해 가능.",
+    "union-for-watermeters": "수도계량기의 설치 및 분리를 용이하게 함.",
+    "pp-r-ball-valve-ball-in-pp": "풀 보어, PP 볼, 양측 용접 소켓.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "고부하용 크롬 도금 황동 볼.",
+    "tee-90-female-thread-for-internal-valve": "매립형 밸브용 수용 티.",
+    "concealed-valve-chrome-light-part": "노출형 플레이트 + 스핀들, 크롬 마감.",
+    "concealed-valve-chrome-heavy-part": "매립형 밸브 본체, 수용 티에 장착.",
+    "straight-seat-valve-upper-part-green-handle": "글로브 밸브/직동 밸브용 핸들 포함 상부 파트.",
+    "elongation-pieces": "다양한 벽 두께를 위한 연장 피스.",
+    "battery-female-thread": "바닥 난방/다회로 분배용 분배기 배터리.",
+    "adjustable-battery-female-thread": "분기구 간 축간 거리 조절 가능.",
+    "weld-in-saddle": "나사산 없음: 주 배관에 직접 용접되는 PP-R 웰드인 새들 분기.",
+    "pipe-clamps": "파이프 지지 및 고정용 고무 인서트 포함 클램프.",
+    "backing-flange-pp-steel-sfbf": "플랜지 어댑터용 강철 보강 백킹 플랜지.",
+    "flat-gasket": "플랜지 연결용 EPDM 평면 개스킷.",
+    "flat-gasket-for-unions-pp-r": "유니온용 EPDM 개스킷.",
+    "plug": "개구부 마감용 나사형 플러그. 기타 규격 문의 요망.",
+    "pipe-cutter-2040": "깨끗하고 직각인 절단을 위한 래칫 파이프 커터.",
+    "pipe-cutter-50125": "대구경용 견고한 파이프 커터.",
+    "pipe-cutter-50125-1": "용접 전 파이프 표면을 박피합니다.",
+    "hand-welding-machine-2032-complete-set": "소형 소켓 융착기.",
+    "hand-welding-machine-2063-complete-set": "가열판, 스탠드 및 공구가 포함된 풀 세트.",
+    "hand-welding-machine-mirror-50125": "50–125 mm 기기용 교체용 가열 미러.",
+    "welding-tool": "치수별 개별 가열 맨드릴/소켓 공구 세트.",
+    "welding-machine-50125-complete-set": "대구경용 전문가용 소켓 융착기 세트.",
+    "butt-welding-machine-90250": "대구경용 맞대기 융착기.",
+    "electrofusion-machine": "바코드 스캐너가 포함된 전기융착 피팅용 제어기.",
+    "welding-tool-for-weld-in-saddles": "웰드인 새들 융착용 특수 공구.",
+    "drilling-tool-for-weld-in-saddle": "새들 융착 후 분기 지점 천공을 위한 코어 드릴 공구.",
+    "welding-tool-for-repairing-plug": "보수 플러그 시스템용 가열 공구.",
+    "repairing-plug": "배수 없이 누수를 밀폐하기 위한 비상 보수 플러그."
+  },
   "aboutDeep": {
     "eyebrow": "심층 분석",
     "title": "K-Aqua 심층 분석",
@@ -7,6 +54,9 @@
     "item2": "재료 과학: 폴리프로필렌 랜덤 공중합체 (PP-R)",
     "item3": "K-Aqua 시스템 유연성",
     "item4": "탈아연 내성 DZR 황동"
+  },
+  "catalogExtra": {
+    "viewDetails": "제품 상세 정보"
   },
   "toggle_theme_light": "라이트 테마로 전환",
   "toggle_theme_dark": "다크 테마로 전환",
@@ -527,16 +577,16 @@
     "polLead": "직원의 이익 없이 고객의 이익 없고, 회사의 이익 없이 직원의 이익 없으며, 환경과 사회의 이익 없이 회사의 이익도 없습니다.",
     "cards": [
       {
-        "t": "Menschen im Mittelpunkt",
-        "d": "Alle Mitarbeitenden sind in den kontinuierlichen Verbesserungsprozess eingebunden. Qualität bleibt dabei stets mit Kosten und Terminen vereinbar."
+        "t": "인간 중심",
+        "d": "모든 임직원이 지속적인 개선 프로세스에 참여합니다. 품질은 언제나 비용 및 일정과 조화를 이룹니다."
       },
       {
-        "t": "Verlässlichkeit",
-        "d": "Wünsche von Kunden und allen Interessierten werden unter Einhaltung gesetzlicher und sozialer Standards erkannt, ernst genommen und umgesetzt."
+        "t": "신뢰성",
+        "d": "고객 및 모든 이해관계자의 요구를 법적·사회적 기준을 준수하며 파악하고, 진지하게 받아들여 실천합니다."
       },
       {
-        "t": "Ökologische Verantwortung",
-        "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung von Ressourcenschonung, Umweltverträglichkeit und strikter Einhaltung aller Verpflichtungen."
+        "t": "생태적 책임",
+        "d": "모든 기업 활동은 자원 보존, 환경 적합성 및 모든 의무 사항의 엄격한 준수 하에 수행됩니다."
       }
     ],
     "genauEyebrow": "GENAU 경영 시스템",
@@ -573,12 +623,12 @@
       "p2": "프로필렌 사슬 내 에틸렌 단량체의 전략적 배열을 통해 영하의 온도에서도 타의 추종을 불허하는 내충격성을 실현합니다. 저희 원료 펠릿은 오직 세계 최정상급 원료 생산업체에서만 공급받습니다. 모든 배치를 시차주사열량계(DSC)와 용융 흐름 지수(MFR) 시험으로 분석하며, 사양을 천분의 일이라도 벗어나는 것은 가차 없이 배제합니다.",
       "items": [
         {
-          "title": "Extreme Molmasse",
-          "desc": "Garantiert maximale Zeitstandfestigkeit und absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
+          "title": "극대 분자량",
+          "desc": "극심한 압력 하에서도 최대 크리프 파단 강도와 응력 균열 부식에 대한 절대적인 저항성을 보장합니다."
         },
         {
-          "title": "Kristalline Optimierung",
-          "desc": "Die perfekte thermodynamische Balance. Höchste Flexibilität für radikale Verlegebedingungen bei simultaner axialer Steifigkeit."
+          "title": "결정 최적화",
+          "desc": "완벽한 열역학적 균형. 동시적 축방향 강성을 유지하면서 극한의 배관 설치 조건에도 유연하게 대처합니다."
         }
       ]
     },
@@ -588,23 +638,23 @@
       "items": [
         {
           "year": "1990",
-          "title": "Der Ursprung der Toleranzlosigkeit",
-          "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie. Die Gründung von K Aqua basierte auf einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen mit einer Präzision, die den Markt schockierte."
+          "title": "무관용의 기원",
+          "text": "다른 이들이 타협할 때, 우리는 한계선을 그었습니다. K-Aqua의 설립은 단 하나의 확고한 원칙인 '완벽한 배관 시스템'에 기반을 두었습니다. 당사의 초기 압출기는 시장을 놀라게 한 정밀도로 가동되었습니다."
         },
         {
           "year": "2005",
-          "title": "Die Polypropylen-Revolution",
-          "text": "Wir weigerten uns, den Status quo zu akzeptieren. Mit der Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph der Polymerchemie."
+          "title": "폴리프로필렌 혁신",
+          "text": "우리는 현주소에 안주하기를 거부했습니다. 독자적인 PP-R 배합 기술을 도입하여 열 안정성의 새로운 기준을 정립했습니다. 경쟁 제품들이 압력으로 붕괴하는 동안에도 당사 시스템은 온전함을 유지했습니다. 폴리머 화학의 승리였습니다."
         },
         {
           "year": "2015",
-          "title": "Die architektonische Symbiose",
-          "text": "Von den Skylines in Dubai bis zu den Industrieanlagen im Ruhrgebiet: K Aqua wurde zum Synonym für unzerstörbare Infrastruktur. Unsere PPRCT Faserverbundrohre revolutionierten den Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+          "title": "건축적 공존",
+          "text": "두바이의 스카이라인부터 루르 지방의 산업 플랜트까지: K-Aqua는 파괴되지 않는 인프라의 대명사가 되었습니다. 당사의 PPRCT 섬유 복합 파이프는 고층 건축을 혁신했습니다. 더 적은 팽창, 더 많은 유량, 절대적인 우위를 실현했습니다."
         },
         {
           "year": "2026",
-          "title": "Die Molekulare Diktatur",
-          "text": "Heute kontrollieren wir jeden Aspekt der Produktion. Von der Auswahl der Rohgranulate bis zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime. Das Ergebnis? Eine garantierte Lebensdauer, die Generationen überdauert."
+          "title": "분자적 엄격성",
+          "text": "오늘날 우리는 생산의 모든 측면을 통제합니다. 원료 펠릿 선별부터 최종 검사까지 당사 시스템은 철저한 품질 체계의 통제를 받습니다. 그 결과, 세대를 뛰어넘는 보장된 수명을 제공합니다."
         }
       ]
     },
@@ -614,20 +664,20 @@
       "lead": "마법에 가까운 기술. 우리는 기존 배관 시스템의 한계를 극복하는 데 그치지 않고, 그것을 완전히 분쇄했습니다.",
       "items": [
         {
-          "title": "Absolutismus in der Qualität",
-          "desc": "Jeder Millimeter unserer PP-R und PPRCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Lebensdauer sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion in Polymerform."
+          "title": "품질의 절대주의",
+          "desc": "PP-R 및 PPRCT 시스템의 모든 밀리미터는 가장 가혹한 부하 테스트를 거칩니다. 50년의 수명은 단순한 약속이 아닌 수학적 확신입니다. 우리는 단 하나의 오차도 허용하지 않습니다. 공장을 출하되는 제품은 폴리머 형태의 완벽함 그 자체입니다."
         },
         {
-          "title": "Thermische Unverwundbarkeit",
-          "desc": "Unsere Faserverbundrohre (K Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C oder kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung, die den physikalischen Gesetzen zu trotzen scheint."
+          "title": "열적 내구성",
+          "desc": "당사의 섬유 복합 파이프(K-Aqua Faser)는 열 선팽창을 거의 완벽하게 상쇄합니다. 혹한의 -20°C부터 끓는점인 +95°C까지 당사 시스템은 완벽한 형태 안정성을 유지합니다. 물리 법칙을 뛰어넘는 엔지니어링의 정수입니다."
         },
         {
-          "title": "Chemische Resistenz",
-          "desc": "Korrosion existiert in unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation und biologische Zersetzung. Während Metalle im Boden rosten und verfallen, bleibt K Aqua unangetastet: stoisch, monolithisch, unverwüstlich."
+          "title": "내화학성",
+          "desc": "부식이란 우리의 사전에 없습니다. 당사의 폴리머는 가장 공격적인 매체, 관석 형성(스케일), 생물학적 분해에 면역되어 있습니다. 금속 배관이 땅속에서 녹슬고 부식되는 동안에도 K-Aqua는 완벽한 일체형 구조로 굳건히 유지됩니다."
         },
         {
-          "title": "Molekulare Fusion",
-          "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen, die ermüden können. Keine mechanischen Schwachstellen. Eine monolithische Struktur, die ewig hält."
+          "title": "분자 융합",
+          "desc": "균질 융착 공정을 통해 파이프와 피팅이 분자 수준에서 융합되어 분리 불가능한 일체가 됩니다. 노후화될 가스켓이나 패킹이 없으며, 기계적 취약점도 없습니다. 영구적으로 지속되는 일체형 구조입니다."
         }
       ]
     },
@@ -637,20 +687,20 @@
       "lead": "우리는 단순히 파이프를 만들지 않습니다. 현대 문명의 동맥을 창조합니다. K-Aqua는 전 세계 산업 및 건축 메가프로젝트의 근간입니다.",
       "items": [
         {
-          "title": "Brachiale Extrusion",
-          "desc": "Hochleistungsanlagen, die unter brutalem Druck arbeiten. Das Resultat ist eine unübertroffene Wandstärkenkonsistenz bis in den Mikrometerbereich."
+          "title": "강력한 압출 공정",
+          "desc": "고압 하에서 가동되는 고성능 설비. 그 결과 마이크로미터 단위에 이르는 탁월하고 일관된 벽 두께를 실현합니다."
         },
         {
-          "title": "geprüfte Überlegenheit",
-          "desc": "ISO 9001, 14001, 50001. Wir übertreffen die Normen nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
+          "title": "검증된 우수성",
+          "desc": "ISO 9001, 14001, 50001. 우리는 표준을 준수하는 것을 넘어 표준을 제시합니다. 국제 인증 획득은 당사의 기본 규범입니다."
         },
         {
-          "title": "Hygiene-Diktat",
-          "desc": "Lebensmittelecht, toxikologisch unbedenklich und absolut keimresistent. Trinkwasser bleibt in K Aqua Systemen unangetastet rein. Keine Ausnahme."
+          "title": "엄격한 위생 원칙",
+          "desc": "식품 접촉 안전성, 독성학적 무해성 및 완벽한 항균성. K-Aqua 시스템 내 음용수는 타협 없이 순수함을 유지합니다."
         },
         {
-          "title": "Ressourcen-Effizienz",
-          "desc": "Vollständig recyclebar. Minimale CO2-Bilanz bei der Herstellung. Weil wahre technologische Macht immer auch Verantwortung für die Zukunft bedeutet."
+          "title": "자원 효율성",
+          "desc": "완벽한 재활용성. 생산 시 최소한의 탄소 발자국. 진정한 기술력은 미래에 대한 책임감과 함께해야 하기 때문입니다."
         }
       ]
     },
@@ -660,22 +710,22 @@
       "desc": "기술만으로는 충분하지 않습니다. 진정한 위대함은 기업이 환경, 직원, 파트너와 어떻게 관계 맺는지에서 드러납니다.",
       "items": [
         {
-          "title": "Kunden-Obsession",
-          "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Lösungen sind präzise, skalierbar und absolut kompromisslos in ihrer Ausführung."
+          "title": "고객 중심주의",
+          "desc": "우리는 시장에 서비스를 제공할 뿐만 아니라 철저한 고객 중심 사고로 시장을 선도합니다. 고객의 요구사항은 당사의 지침입니다. 당사의 솔루션은 정밀하고 확장 가능하며 완벽한 실행력을 보장합니다."
         },
         {
-          "title": "Strategische Allianzen",
-          "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen mit den besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+          "title": "전략적 제휴",
+          "desc": "단순한 공급업체를 찾지 않고 세계 최고의 원자재 생산기업들과 전략적 제휴를 맺습니다. 공동 연구, 공유된 품질 기준, 공동의 시장 선도를 추구합니다."
         },
         {
-          "title": "Ökologischer Imperativ",
-          "desc": "Nachhaltigkeit ist bei K Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist der ultimative Umweltschutz. Unsere Systeme minimieren den energetischen Fußabdruck von der Produktion bis zum Recycling."
+          "title": "생태학적 당위성",
+          "desc": "K-Aqua에서 지속 가능성은 마케팅 구호가 아닌 물리적 필수 요소입니다. 오랜 내구성이야말로 궁극의 환경 보호입니다. 당사 시스템은 생산부터 재활용까지 에너지 발자국을 최소화합니다."
         }
       ]
     },
     "genauManagement": {
       "eyebrow": "검증된 품질",
-      "title1": "Das ",
+      "title1": "",
       "titleHighlight": "GENAU",
       "title2": " 경영 시스템",
       "p1": "GENAU 경영 시스템의 목표는 기업 내 산업 안전, 환경 및 건강 보호의 지속적인 개선입니다.",
@@ -695,22 +745,22 @@
       {
         "n": "14.000",
         "u": "m",
-        "l": "Rohr pro Tag und Extrusionsanlage: Kapazität für Großprojekte"
+        "l": "압출 라인당 1일 파이프 생산량: 대형 프로젝트를 위한 공급 능력"
       },
       {
         "n": "20–630",
         "u": "mm",
-        "l": "Dimensionsbereich der Rohrfertigung, Formteile bis 315 mm"
+        "l": "파이프 생산 규격 범위, 피팅 최대 315 mm"
       },
       {
         "n": "100",
         "u": "%",
-        "l": "der Schnittreste und Produktionsabfälle gehen zurück in den Kreislauf"
+        "l": "절단 잔여물 및 생산 스크랩의 재활용 순환 비율"
       },
       {
         "n": "3",
         "u": "× ISO",
-        "l": "Qualität, Umwelt, Energie: DAkkS-akkreditiert seit Oktober 2025"
+        "l": "품질, 환경, 에너지: 2025년 10월부터 DAkkS 공인 인증"
       }
     ],
     "prodEyebrow": "생산",
@@ -718,20 +768,20 @@
     "prodLead": "원료 그래뉼에서 마킹된 파이프까지 — 제품은 이렇게 탄생합니다.",
     "prod": [
       {
-        "t": "Extrusion",
-        "d": "Monolayer- und glasfaserverstärkte Multilayer-Rohre entstehen auf Extrusionsanlagen mit bis zu 14.000 Metern Tagesleistung je Anlage."
+        "t": "압출 공정",
+        "d": "단층 및 유리섬유 보강 다층 파이프는 설비당 일일 최대 14,000미터의 생산 능력을 갖춘 압출 라인에서 제조됩니다."
       },
       {
-        "t": "Spritzguss",
-        "d": "Formteile von d20 bis d315 werden im Spritzguss gefertigt: komplexe Geometrien bei hoher Stückzahl und konstanter Qualität."
+        "t": "사출 성형",
+        "d": "d20부터 d315까지의 피팅은 사출 성형으로 생산됩니다: 대량 생산 시에도 정밀한 형상과 균일한 품질을 보장합니다."
       },
       {
-        "t": "Geschlossener Kühlkreislauf",
-        "d": "Das Prozesswasser der Fertigung zirkuliert im geschlossenen Kreislauf: Gewässerschutz als Systementscheidung, überwacht nach ISO 14001."
+        "t": "폐쇄형 냉각 순환",
+        "d": "제조 공정수는 폐쇄 회로로 순환합니다: ISO 14001에 따라 관리되는 시스템 차원의 수자원 보호 조치입니다."
       },
       {
-        "t": "Kennzeichnung & Prüfung",
-        "d": "Jedes Rohr wird im Extrusionsprozess fortlaufend gekennzeichnet und nach QS-Handbuch geprüft: Rückverfolgbarkeit je Charge."
+        "t": "마킹 및 검사",
+        "d": "모든 파이프는 압출 공정 중 연속 마킹되며 품질보증 매뉴얼에 따라 검사됩니다: 배치별 추적성 보장."
       }
     ],
     "houseEyebrow": "House of KWT",
@@ -739,20 +789,20 @@
     "houseLead": "KWT GmbH의 기업 정책은 가치를 순환 구조로 이해합니다. 어느 하나도 나머지 셋 없이는 존재하지 않습니다.",
     "house": [
       {
-        "t": "Kundennutzen",
-        "d": "Wünsche von Kunden und Interessierten werden erkannt, ernst genommen und umgesetzt, unter Einhaltung gesetzlicher und sozialer Standards."
+        "t": "고객 이익",
+        "d": "고객 및 이해관계자의 요구사항을 법적·사회적 기준을 준수하며 파악하고, 진지하게 받아들여 실천합니다."
       },
       {
-        "t": "Mitarbeiternutzen",
-        "d": "Alle Mitarbeitenden sind in den kontinuierlichen Verbesserungsprozess eingebunden. Kein Kundennutzen ohne Mitarbeiternutzen."
+        "t": "직원 이익",
+        "d": "모든 임직원이 지속적인 개선 프로세스에 참여합니다. 직원의 이익 없이 고객의 이익은 없습니다."
       },
       {
-        "t": "Unternehmensnutzen",
-        "d": "Qualität bleibt stets mit Kosten und Terminen vereinbar, so trägt der Erfolg von heute die Investitionen von morgen."
+        "t": "기업 이익",
+        "d": "품질은 언제나 비용 및 일정과 조화를 이루어, 오늘의 성공이 내일의 투자를 이끕니다."
       },
       {
-        "t": "Umwelt & Mitwelt",
-        "d": "Ressourcenschonung und Umweltverträglichkeit sind Teil des Qualitätsverständnisses, verankert im GENAU-System."
+        "t": "환경 및 사회",
+        "d": "자원 보존과 환경 적합성은 GENAU 시스템에 확립된 품질에 대한 기본 이해의 일부입니다."
       }
     ],
     "mileEyebrow": "마일스톤",
@@ -860,35 +910,35 @@
     "qLabel": "질문",
     "cmQ": [
       {
-        "q": "Wie arbeiten Sie am liebsten?",
+        "q": "어떤 업무 방식을 가장 선호하십니까?",
         "o": [
           "명확한 프로세스, 잘 훈련된 팀",
           "매일 새로운 것을 시도"
         ]
       },
       {
-        "q": "Großserie läuft. Eine Maschine meldet eine Abweichung.",
+        "q": "대량 양산 중 기계가 편차를 알립니다.",
         "o": [
           "즉시 살펴보고 원인을 찾습니다",
           "일단 계속 가동되게 둡니다"
         ]
       },
       {
-        "q": "Was motiviert Sie mehr?",
+        "q": "무엇이 더 큰 동기부여가 됩니까?",
         "o": [
           "50년 동안 지속되는 제품",
           "빠르고 눈에 띄는 결과"
         ]
       },
       {
-        "q": "Schichtarbeit ist für Sie …",
+        "q": "교대근무에 대해 어떻게 생각하십니까?",
         "o": [
           "계획할 수 있고 괜찮습니다",
           "조금 어렵습니다"
         ]
       },
       {
-        "q": "Ihr Verhältnis zu Technik?",
+        "q": "기술에 대한 관심도는 어떠십니까?",
         "o": [
           "작동 방식을 이해하고 싶습니다",
           "작동만 하면 됩니다"
@@ -3036,21 +3086,21 @@
     "lead": "K Aqua에서는 각 역할이 다음 의사결정에 필요한 정보를 정확히 찾을 수 있습니다. PDF를 뒤질 필요도, 회신 전화를 기다릴 필요도 없습니다.",
     "personas": [
       {
-        "t": "Planer & Fachingenieure",
-        "d": "Normkonforme technische Daten, SDR-Tabellen und CO₂-Nachweise für die Ausschreibung, direkt verwertbar.",
-        "cta": "Zu den technischen Daten",
+        "t": "설계자 & 전문 엔지니어",
+        "d": "입찰에 바로 활용할 수 있는 표준 준수 기술 데이터, SDR 표 및 CO₂ 인증 증빙.",
+        "cta": "기술 데이터 보기",
         "goto": "products"
       },
       {
-        "t": "Einkauf & Beschaffung",
-        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms und ein Ansprechpartner statt Zwischenhandel.",
-        "cta": "Projektanfrage starten",
+        "t": "구매 & 조달 담당자",
+        "d": "공장 직접 배송, 발트졸름스발 예측 가능한 물류, 중간 유통 없는 단일 전담 연락창구.",
+        "cta": "프로젝트 문의 시작",
         "goto": "rfq"
       },
       {
-        "t": "Installateure & Verarbeiter",
-        "d": "Vier Schweißverfahren als Video, Werkzeugübersicht und klare Verarbeitungsgrenzen, Sicherheit auf der Baustelle.",
-        "cta": "Zur Academy",
+        "t": "배관 시공자 & 기술자",
+        "d": "영상으로 보는 4가지 융착 공법, 공구 개요 및 명확한 시공 한계값으로 현장 안전 확보.",
+        "cta": "아카데미 바로가기",
         "goto": "academy"
       }
     ],
@@ -3058,20 +3108,20 @@
     "whyTitle": "견적 산출에 실질적으로 반영되는 여섯 가지 이유.",
     "why": [
       {
-        "t": "Druckfest & heißwasserfest",
-        "d": "PPRCT mit modifizierter Kristallstruktur: mehr Temperatur- und Druckreserve über Jahrzehnte."
+        "t": "고압 및 고온수 내구성",
+        "d": "변형된 결정 구조를 가진 PPRCT: 수십 년에 걸친 추가적인 온도 및 압력 안전 예비력."
       },
       {
-        "t": "Korrosionsfrei",
-        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie bei metallischen Leitungen."
+        "t": "부식 없음",
+        "d": "녹 발생 없음, 스케일 축적 없음, 금속 배관과 같은 점부식 위험 전무."
       },
       {
-        "t": "Recycelbar & CO₂-arm",
-        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer oder Stahl: belegbar im CO₂-Rechner."
+        "t": "재활용 가능 & 저탄소 배출",
+        "d": "재활용 코드 5, 구리나 강철 대비 현저히 작은 탄소 발자국: CO₂ 계산기에서 확인 가능."
       },
       {
-        "t": "Ein Ansprechpartner",
-        "d": "Rohr, Formteil, Armatur und Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
+        "t": "단일 전담 연락창구",
+        "d": "중간 유통 없이 제조사가 직접 파이프, 피팅, 밸브 및 융착 기술을 원스톱으로 공급."
       }
     ],
     "promise": [
@@ -3229,16 +3279,16 @@
         "seo_p3": "우수한 화학적·열적 내성 덕분에 SDR 6 파이프는 산업 응용 분야와 음용수 공급에 이상적입니다. 매끄러운 내면은 압력 손실을 최소화하고 침전물 형성을 방지합니다.",
         "faq": [
           {
-            "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
-            "a": "Es ist für Dauerbetriebstemperaturen bis zu 70°C ausgelegt und bietet bei 20°C eine Druckfestigkeit von 20 Bar."
+            "q": "SDR 6은 어떤 작동 온도에 적합합니까?",
+            "a": "최대 70°C의 연속 작동 온도로 설계되었으며, 20°C에서 20 bar의 내압 성능을 제공합니다."
           },
           {
-            "q": "Welche Vorteile bietet die hohe Wandstärke?",
-            "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilität bei stark beanspruchten Anlagen."
+            "q": "두꺼운 관벽의 장점은 무엇입니까?",
+            "a": "SDR 6 (S 2.5) 시리즈는 고부하 설비에서 최대 내압 성능과 기계적 안정성을 제공합니다."
           },
           {
-            "q": "Kann ich dieses Rohr für Kaltwasser nutzen?",
-            "a": "Ja, es eignet sich exzellent für Kaltwassersysteme, da die glatte Oberfläche Inkrustationen und Bakterienwachstum effektiv verhindert."
+            "q": "이 파이프를 냉수용으로 사용할 수 있습니까?",
+            "a": "네, 매끄러운 표면이 스케일 고착과 박테리아 증식을 효과적으로 방지하므로 냉수 시스템에 매우 적합합니다."
           }
         ]
       },
@@ -3248,16 +3298,16 @@
         "seo_p3": "대표적인 적용 분야는 복잡한 난방, 공조 및 위생 설비입니다. PPRCT 소재 덕분에 시공자는 고온 조건에서도 더 높은 장기 강도의 이점을 누릴 수 있습니다.",
         "faq": [
           {
-            "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
-            "a": "PPRCT steht für eine verbesserte kristalline Struktur, die höhere Drücke bei höheren Temperaturen erlaubt, sodass dünnere Wandstärken möglich sind."
+            "q": "PP-R 대비 PP-RCT는 무엇을 의미합니까?",
+            "a": "PP-RCT는 개선된 결정 구조를 의미하며, 더 높은 온도에서 더 높은 압력을 견딜 수 있어 관벽 두께를 줄일 수 있습니다."
           },
           {
-            "q": "Ist die Durchflussmenge bei SDR 7.4 höher?",
-            "a": "Ja, durch die reduzierten Wandstärken des PPRCT wird bei gleichem Außendurchmesser eine bis zu 17 % höhere Durchflusskapazität erreicht."
+            "q": "SDR 7.4에서 유량이 더 높습니까?",
+            "a": "네, PP-RCT의 감소된 관벽 두께 덕분에 동일한 외경에서 최대 17% 더 높은 유량 용량을 달성합니다."
           },
           {
-            "q": "Eignet sich SDR 7.4 für Heizsysteme?",
-            "a": "Absolut, das Material ist thermisch extrem widerstandsfähig und daher ideal für Vorlaufleitungen in modernen Heizanlagen."
+            "q": "SDR 7.4는 난방 시스템에 적합합니까?",
+            "a": "물론입니다. 이 소재는 열적 저항성이 매우 뛰어나 현대식 난방 설비의 공급 배관에 이상적입니다."
           }
         ]
       },
@@ -3267,16 +3317,16 @@
         "seo_p3": "냉수 분배 배관과 건물 설비의 범용 배관으로 널리 사용됩니다. 균질한 융착 접합부는 기계적 취약점 없이 평생 기밀성을 보장합니다.",
         "faq": [
           {
-            "q": "Ist das Rohr für Kalt- und Warmwasser geeignet?",
-            "a": "Das SDR 11 Rohr ist hauptsächlich für Kaltwasser (20°C bei 12 Bar) und den Niederdruck-Warmwasserbereich (60°C bei 6 Bar) konzipiert."
+            "q": "이 파이프는 냉수와 온수에 모두 적합합니까?",
+            "a": "SDR 11 파이프는 주로 냉수(20°C에서 12 bar) 및 저압 온수 영역(60°C에서 6 bar)용으로 설계되었습니다."
           },
           {
-            "q": "Wie wird das PP-R SDR 11 Rohr verlegt?",
-            "a": "Die Verlegung erfolgt über das Heizelement-Muffenschweißverfahren, wodurch absolut homogene, leckagefreie Verbindungen entstehen."
+            "q": "PP-R SDR 11 파이프는 어떻게 시공됩니까?",
+            "a": "가열판 소켓 융착 공법을 통해 시공되며, 완전히 균질하고 누수 없는 결합부가 형성됩니다."
           },
           {
-            "q": "Gibt es Gewichtsabweichungen gegenüber anderen SDR-Klassen?",
-            "a": "Ja, durch die geringere Wanddicke ist das Rohr deutlich leichter und flexibler in der Handhabung auf der Baustelle."
+            "q": "다른 SDR 등급 대비 중량 차이가 있습니까?",
+            "a": "네, 얇아진 관벽 두께 덕분에 파이프가 훨씬 가벼워 현장에서 취급하기가 더욱 용이합니다."
           }
         ]
       },
@@ -3286,16 +3336,16 @@
         "seo_p3": "이 특수 파이프를 사용하면 설비 안전성이 향상되고 음용수와 공업용수의 규격 적합 분리가 시각적으로 보장됩니다. 지속 가능한 물 관리 시스템에 최적입니다.",
         "faq": [
           {
-            "q": "Wofür steht die violette Farbe?",
-            "a": "Sie dient der optischen Unterscheidung von Leitungssystemen für Betriebswasser, Grauwasser oder Regenwassernutzung gemäß internationalen Vorgaben."
+            "q": "보라색 색상은 무엇을 나타냅니까?",
+            "a": "국제 규격에 따라 중수도, 생활용수 또는 우수 이용 배관 시스템을 시각적으로 구분하는 역할을 합니다."
           },
           {
-            "q": "Kann das Rohr mit normalen PP-R Fittings verschweißt werden?",
-            "a": "Ja, das violette Rohr ist kompatibel mit allen K Aqua Standard-Fittings und wird mit den gleichen Parametern verschweißt."
+            "q": "일반 PP-R 피팅과 융착할 수 있습니까?",
+            "a": "네, 보라색 파이프는 모든 K-Aqua 표준 피팅과 호환되며 동일한 매개변수로 융착됩니다."
           },
           {
-            "q": "Beeinflusst die Farbe die Qualität des Materials?",
-            "a": "Nein, die physikalischen und chemischen Eigenschaften sind identisch mit dem regulären PP-R SDR 11 Rohr."
+            "q": "색상이 재료의 품질에 영향을 미칩니까?",
+            "a": "아니요, 물리적 및 화학적 특성은 일반 PP-R SDR 11 파이프와 완전히 동일합니다."
           }
         ]
       },
@@ -3305,16 +3355,16 @@
         "seo_p3": "따라서 이 파이프는 건물 설비의 입상관과 장거리 배관 구간에 최적의 선택입니다. 고정 지지점이 줄어들어 시공 시간과 자재 비용을 절감할 수 있습니다.",
         "faq": [
           {
-            "q": "Wie stark reduziert die Faser die thermische Längenausdehnung?",
-            "a": "Die integrierte Glasfaserschicht verringert die lineare Ausdehnung im Vergleich zu massiven PP-R Rohren um bis zu 75 %."
+            "q": "섬유층이 열팽창을 얼마나 줄여줍니까?",
+            "a": "내장된 유리섬유 층은 단일벽 PP-R 파이프 대비 선형 열팽창을 최대 75%까지 줄여줍니다."
           },
           {
-            "q": "Muss das Faserrohr vor dem Schweißen geschält werden?",
-            "a": "Nein, im Gegensatz zu Stabi-Rohren mit Aluminiumschicht kann unser Faserrohr direkt und ohne Vorbehandlung verschweißt werden."
+            "q": "섬유 복합 파이프는 융착 전에 표면을 벗겨내야(탈피) 합니까?",
+            "a": "아니요, 알루미늄 층이 있는 스태비 파이프와 달리 당사의 섬유 파이프는 전처리 없이 직접 융착할 수 있습니다."
           },
           {
-            "q": "Ist das Rohr für zentrale Steigleitungen geeignet?",
-            "a": "Ja, durch die extrem hohe Eigensteifigkeit und Druckbeständigkeit ist es die optimale Wahl für große Steigstränge."
+            "q": "이 파이프는 중앙 입상관에 적합합니까?",
+            "a": "네, 매우 높은 고유 강성과 내압 성능 덕분에 대형 입상관 배관에 최적의 선택입니다."
           }
         ]
       },
@@ -3324,16 +3374,16 @@
         "seo_p3": "특히 대형 HVAC 설비(난방, 환기, 공조)에서 이 파이프의 강점이 발휘됩니다. 냉각 순환계의 부식을 방지하고 유지보수가 필요 없는 에너지 효율적인 운전을 보장합니다.",
         "faq": [
           {
-            "q": "Was macht das Rohr ideal für Klimakaltwasser?",
-            "a": "Die geringe Wärmeleitfähigkeit von PPRCT verhindert die Kondenswasserbildung deutlich besser als bei metallischen Rohren."
+            "q": "이 파이프가 냉방용 냉수 배관에 이상적인 이유는 무엇입니까?",
+            "a": "PP-RCT의 낮은 열전도율은 금속관에 비해 결로 발생을 현저히 더 효과적으로 방지합니다."
           },
           {
-            "q": "Wie verhält es sich bei der Zirkulation von Frostschutzmitteln?",
-            "a": "Es ist äußerst beständig gegen gängige Glykole und Frostschutzmittel, wodurch Leckagen durch Materialermüdung verhindert werden."
+            "q": "부동액 순환 시에는 어떠합니까?",
+            "a": "일반적인 글리콜 및 부동액에 대해 내성이 매우 뛰어나 재료 피로로 인한 누수를 방지합니다."
           },
           {
-            "q": "Können die Rohre für große Volumenströme genutzt werden?",
-            "a": "Durch die dünnere Wandung (SDR 11) bei maximaler Stabilität ermöglicht es extrem große Volumenströme in Industrienetzen."
+            "q": "대유량용으로 파이프를 사용할 수 있습니까?",
+            "a": "최대 안정성을 유지하면서 얇은 관벽(SDR 11)을 적용하여 산업용 배관망에서 매우 큰 유량을 가능하게 합니다."
           }
         ]
       },
@@ -3343,16 +3393,16 @@
         "seo_p3": "산업 플랜트 건설이든 복잡한 온수 순환 시스템이든, 이 파이프는 변형 없는 견고한 시공과 수십 년에 걸친 최고 수준의 운전 안전성을 보장합니다.",
         "faq": [
           {
-            "q": "Ist SDR 7.4 für hohe Temperaturen zugelassen?",
-            "a": "Ja, es toleriert Temperaturen bis 70°C bei einem Nenndruck von 1.0 MPa (10 Bar) und kurzzeitige Spitzen von 95°C."
+            "q": "SDR 7.4는 고온용으로 승인되었습니까?",
+            "a": "네, 공칭 압력 1.0 MPa(10 bar)에서 최대 70°C의 온도와 단시간 최대 95°C의 피크 온도를 견딥니다."
           },
           {
-            "q": "Wie viele Befestigungsschellen sind bei langen Strecken nötig?",
-            "a": "Dank der Faserverstärkung können die Befestigungsabstände im Vergleich zu Standardrohren drastisch vergrößert werden."
+            "q": "장거리 구간에는 고정 클램프가 몇 개나 필요합니까?",
+            "a": "섬유 강화 덕분에 표준 파이프에 비해 고정 간격을 크게 늘릴 수 있습니다."
           },
           {
-            "q": "Gibt es Korrosionsrisiken bei wechselnden Wasserqualitäten?",
-            "a": "Nein, das PP-R Material ist 100 % korrosionsfrei und unabhängig vom pH-Wert des transportierten Mediums."
+            "q": "수질 변화 시 부식 위험이 있습니까?",
+            "a": "아니요, PP-R 소재는 100% 비부식성이며 이송되는 매체의 pH 값에 영향을 받지 않습니다."
           }
         ]
       },
@@ -3362,16 +3412,16 @@
         "seo_p3": "이 파이프는 일반 파이프가 한계에 도달하지만 SDR 7.4의 극한 여유 성능까지는 필요하지 않은 상업 및 산업 프로젝트에 자주 사용됩니다.",
         "faq": [
           {
-            "q": "Warum SDR 9 anstelle von SDR 7.4 wählen?",
-            "a": "SDR 9 bietet einen exzellenten Kompromiss aus höherer Durchflusskapazität (dünnere Wand) und immer noch extremer Druckbeständigkeit."
+            "q": "SDR 7.4 대신 SDR 9를 선택하는 이유는 무엇입니까?",
+            "a": "SDR 9는 더 높은 유량 용량(더 얇은 관벽)과 여전히 뛰어난 내압 성능 사이의 탁월한 절충안을 제공합니다."
           },
           {
-            "q": "Kann es mit Standard-PP-R Formteilen verschweißt werden?",
-            "a": "Absolut, das Faserrohr SDR 9 ist voll kompatibel mit unseren K Aqua SDR 6 und SDR 7.4 PP-R Fittings."
+            "q": "표준 PP-R 피팅과 융착할 수 있습니까?",
+            "a": "물론입니다. 섬유 파이프 SDR 9는 당사의 K-Aqua SDR 6 및 SDR 7.4 PP-R 피팅과 완벽히 호환됩니다."
           },
           {
-            "q": "Ist es für die Trinkwasserversorgung zugelassen?",
-            "a": "Ja, es erfüllt alle hygienischen Standards für heißes und kaltes Trinkwasser weltweit."
+            "q": "음용수 공급용으로 승인되었습니까?",
+            "a": "네, 전 세계 온수 및 냉수 음용수에 대한 모든 위생 기준을 충족합니다."
           }
         ]
       },
@@ -3381,16 +3431,16 @@
         "seo_p3": "공조용 냉수 배관과 대형 분배 배관에 매우 적합합니다. 가벼운 무게와 줄어든 고정 간격 덕분에 시공이 매우 신속하게 진행됩니다.",
         "faq": [
           {
-            "q": "Sind die Schweißzeiten bei SDR 11 Rohren kürzer?",
-            "a": "Ja, aufgrund der reduzierten Wanddicke verkürzen sich die Aufwärmzeiten am Heizelement, was den Arbeitsprozess beschleunigt."
+            "q": "SDR 11 파이프는 융착 시간이 더 짧습니까?",
+            "a": "네, 줄어든 관벽 두께 덕분에 가열판 예열 시간이 단축되어 작업 속도가 빨라집니다."
           },
           {
-            "q": "Was sind die Einsatzgrenzen für dieses SDR 11 Rohr?",
-            "a": "Es ist auf maximale Drücke von 16 Bar bei 20°C und 8 Bar bei 60°C ausgelegt."
+            "q": "이 SDR 11 파이프의 사용 한계는 어떻게 됩니까?",
+            "a": "20°C에서 최대 16 bar, 60°C에서 최대 8 bar의 압력에 맞게 설계되었습니다."
           },
           {
-            "q": "Profitieren Kühlsysteme von diesem Rohr?",
-            "a": "Ja, der hervorragende Isolationswert minimiert den Energieverlust in Kühlnetzen signifikant."
+            "q": "냉각 시스템에서 이 파이프의 이점은 무엇입니까?",
+            "a": "네, 뛰어난 단열 성능 덕분에 냉각 배관망의 에너지 손실을 크게 줄여줍니다."
           }
         ]
       },
@@ -3400,16 +3450,16 @@
         "seo_p3": "지역 냉방망, 상수도 공급 또는 고층 건물의 주 입상관에 이상적입니다. 무거운 금속 대구경 파이프를 대체하는 부식 없는 대안입니다.",
         "faq": [
           {
-            "q": "Ist SDR 17 für hohe Netzdruckstufen geeignet?",
-            "a": "SDR 17 (PN 10) ist speziell für Niederdrucknetze mit enormen Volumenströmen konzipiert, z. B. bei Fernkältenetzen."
+            "q": "SDR 17은 고압 배관망 등급에 적합합니까?",
+            "a": "SDR 17 (PN 10)은 지역 냉방망과 같이 막대한 유량이 요구되는 저압 배관망용으로 특별히 설계되었습니다."
           },
           {
-            "q": "Wie erfolgt die Verbindung von solch großen Dimensionen?",
-            "a": "Großrohre (90 mm bis 630 mm) werden vorzugsweise durch Heizelement-Stumpfschweißen oder mit Elektroschweißmuffen verbunden."
+            "q": "이처럼 큰 규격은 어떻게 연결합니까?",
+            "a": "대구경 파이프(90 mm ~ 630 mm)는 가열판 맞대기 융착(Stumpfschweißen) 또는 전기융착 소켓(Elektroschweißmuffen)으로 접합하는 것이 권장됩니다."
           },
           {
-            "q": "Was ist der Hauptvorteil gegenüber Stahlrohren?",
-            "a": "Das PP-R Rohr rostet nicht, wiegt einen Bruchteil von Stahlrohren und bewahrt dauerhaft einen perfekten Durchflussquerschnitt."
+            "q": "강관 대비 주요 장점은 무엇입니까?",
+            "a": "PP-R 파이프는 녹슬지 않고 강관 무게의 일부분에 불과하며 영구적으로 완벽한 유로 단면을 유지합니다."
           }
         ]
       },
@@ -3419,16 +3469,16 @@
         "seo_p3": "따라서 옥상 설비, 옥외 플랜트 또는 교량 배관에 완벽하게 적합합니다. UV 보호를 위한 추가 단열재나 도장이 전혀 필요하지 않습니다.",
         "faq": [
           {
-            "q": "Wie wird der UV-Schutz bei diesem Rohr erreicht?",
-            "a": "Eine spezielle, co-extrudierte schwarze Außenschicht absorbiert und blockiert schädliche UV-Strahlung, bevor sie das PP-R Material angreift."
+            "q": "이 파이프의 UV 차단은 어떻게 구현됩니까?",
+            "a": "특수 공압출된 검은색 외부 층이 유해한 자외선을 흡수 및 차단하여 PP-R 소재의 열화를 방지합니다."
           },
           {
-            "q": "Muss die UV-Schicht vor dem Schweißen entfernt werden?",
-            "a": "Nein, da es sich um eine homogene Kunststoffschicht handelt, wird sie beim Muffenschweißen einfach mit dem Fitting verschmolzen."
+            "q": "융착 전에 UV 층을 제거해야 합니까?",
+            "a": "아니요, 균질한 플라스틱 층이므로 소켓 융착 시 피팅과 함께 문제없이 융합됩니다."
           },
           {
-            "q": "Ist die Lebensdauer im Freien eingeschränkt?",
-            "a": "Die UV-Schutzschicht verhindert die Polymer-Degradation, sodass die volle Lebensdauer von 50 Jahren auch bei direkter Sonneneinstrahlung gewährleistet ist."
+            "q": "실외 설치 시 수명이 단축됩니까?",
+            "a": "자외선 차단 층이 폴리머 열화를 방지하므로 직사광선 아래에서도 50년의 전체 수명이 보장됩니다."
           }
         ]
       },
@@ -3438,16 +3488,16 @@
         "seo_p3": "태양열 연결 배관, 산업 건물 옥상의 냉각탑, 고온 기후의 까다로운 옥외 설비 등 어디서든 이 파이프는 재료 피로 없이 최대 수명을 보장합니다.",
         "faq": [
           {
-            "q": "Kombiniert dieses Rohr UV-Schutz mit höherer Durchflussleistung?",
-            "a": "Ja, durch das hochkristalline PPRCT Material kann eine dünnere Wandstärke verwendet werden, während die UV-Schicht extremen Außenschutz bietet."
+            "q": "이 파이프는 자외선 차단과 향상된 유량 성능을 결합합니까?",
+            "a": "네, 고결정성 PP-RCT 소재 덕분에 더 얇은 관벽을 적용할 수 있으며, UV 층이 강력한 외부 보호를 제공합니다."
           },
           {
-            "q": "Sind UV-beständige K Aqua Formteile verfügbar?",
-            "a": "Die Formteile werden in der Regel durch Isolierung, Farbanstrich oder UV-Schutzbänder geschützt, während die langen Rohrtrassen werksseitig geschützt sind."
+            "q": "UV 내성 K-Aqua 피팅을 구매할 수 있습니까?",
+            "a": "피팅류는 일반적으로 단열재, 페인트 도장 또는 UV 보호 테이프로 보호되며, 긴 배관 구간은 공장 출하 시 이미 보호 처리되어 있습니다."
           },
           {
-            "q": "Eignet sich dieses Rohr für Kühltürme?",
-            "a": "Es ist die optimale Wahl, da es sowohl der prallen Sonne als auch den chemischen Zusätzen im Kühlwasser dauerhaft standhält."
+            "q": "이 파이프는 냉각탑에 적합합니까?",
+            "a": "뜨거운 태양광뿐만 아니라 냉각수 내 화학 첨가제에도 영구적으로 견디므로 최적의 선택입니다."
           }
         ]
       },
@@ -3457,16 +3507,16 @@
         "seo_p3": "음용수 및 난방 배관망에서 배관 구간의 영구적 또는 임시 폐쇄에 최적이며, 완전한 무누수·무보수 밀봉을 보장합니다.",
         "faq": [
           {
-            "q": "Kann die Endkappe für eine Druckprüfung genutzt werden?",
-            "a": "Ja, nach ordnungsgemäßer Verschweißung und Abkühlung hält die Endkappe dem vollen Prüfdruck des Systems (bis zu 30 Bar) problemlos stand."
+            "q": "엔드 캡을 압력 테스트용으로 사용할 수 있습니까?",
+            "a": "네, 올바르게 융착하고 냉각한 후 엔드 캡은 시스템의 최대 시험 압력(최대 30 bar)을 문제없이 견딥니다."
           },
           {
-            "q": "Wie verschließe ich temporäre Leitungen?",
-            "a": "Für temporäre Absperrungen empfehlen wir Stopfen mit Gewinde; die Endkappe wird homogen verschweißt und ist somit für den permanenten Verschluss gedacht."
+            "q": "임시 배관은 어떻게 마감합니까?",
+            "a": "임시 차단에는 나사형 플러그를 권장하며, 엔드 캡은 균질하게 융착되므로 영구적인 폐쇄를 위해 사용됩니다."
           },
           {
-            "q": "Ist die Endkappe bei allen Temperaturen dicht?",
-            "a": "Durch die thermische Verschmelzung gibt es keine unterschiedlichen Ausdehnungskoeffizienten, wodurch sie von 0°C bis 95°C absolut leckagefrei bleibt."
+            "q": "엔드 캡은 모든 온도에서 기밀이 유지됩니까?",
+            "a": "열융착으로 인해 팽창 계수의 차이가 없어 0°C부터 95°C까지 완전한 무누수 상태를 유지합니다."
           }
         ]
       },
@@ -3476,16 +3526,16 @@
         "seo_p3": "주거용 위생 설비든 산업 플랜트 건설이든, 소켓은 단면 축소 없는 매끄러운 유동을 보장하고 장기적인 압력 손실을 방지합니다.",
         "faq": [
           {
-            "q": "Wie tief muss das Rohr in die Muffe eingeführt werden?",
-            "a": "Die Einstecktiefe ist in unseren technischen Richtlinien exakt definiert und sollte zur Vermeidung von Querschnittsverengungen auf dem Rohr markiert werden."
+            "q": "파이프를 소켓 안으로 얼마나 깊이 삽입해야 합니까?",
+            "a": "삽입 깊이는 당사 기술 지침에 정확히 정의되어 있으며, 단면 축소를 방지하기 위해 파이프에 미리 표시해야 합니다."
           },
           {
-            "q": "Können Muffen auch für Faserrohre verwendet werden?",
-            "a": "Ja, unsere Standard-Muffen sind für alle K Aqua PP-R, PPRCT und Faserrohre uneingeschränkt kompatibel."
+            "q": "소켓을 섬유 복합 파이프에도 사용할 수 있습니까?",
+            "a": "네, 당사의 표준 소켓은 모든 K-Aqua PP-R, PP-RCT 및 섬유 파이프와 제한 없이 호환됩니다."
           },
           {
-            "q": "Besteht die Gefahr von Mikroleckagen an der Naht?",
-            "a": "Nein, da durch die Polyfusion eine stoffschlüssige, molekulare Verbindung entsteht, die so stark wie das Rohr selbst ist."
+            "q": "접합부에서 미세 누수가 발생할 위험이 있습니까?",
+            "a": "아니요, 열융착을 통해 파이프 자체만큼 견고한 분자 수준의 균질한 재료 결합이 형성되기 때문입니다."
           }
         ]
       },
@@ -3495,16 +3545,16 @@
         "seo_p3": "특히 좁은 샤프트 내의 복잡한 배관 경로나 장애물 우회 시, 이 45도 엘보는 유동 저항을 효과적으로 줄여 줍니다.",
         "faq": [
           {
-            "q": "Wann sollte ich einen 45-Grad- anstelle eines 90-Grad-Winkels verwenden?",
-            "a": "Ein 45-Grad-Winkel reduziert den Druckverlust und den Strömungswiderstand (Zeta-Wert) im System deutlich und beugt Geräuschentwicklung vor."
+            "q": "90° 엘보 대신 45° 엘보를 사용해야 하는 경우는 언제입니까?",
+            "a": "45° 엘보는 시스템의 압력 손실과 유동 저항(제타 값)을 크게 줄여 소음 발생을 예방합니다."
           },
           {
-            "q": "Sind K Aqua Winkel strömungsoptimiert?",
-            "a": "Ja, die Innenradien unserer 45-Grad-Winkel sind extrem glatt und hydraulisch optimiert, um Kavitation zu verhindern."
+            "q": "K-Aqua 엘보는 유동 최적화가 되어 있습니까?",
+            "a": "네, 45° 엘보의 내부 곡률은 매우 매끄럽고 수리학적으로 최적화되어 캐비테이션을 방지합니다."
           },
           {
-            "q": "Können zwei 45-Grad-Winkel zu einem 90-Grad-Bogen kombiniert werden?",
-            "a": "Ja, diese Praxis wird oft bei großen Dimensionen angewendet, um weite Bögen zu kreieren und den Pumpenwiderstand zu senken."
+            "q": "두 개의 45° 엘보를 조합하여 90° 곡관으로 만들 수 있습니까?",
+            "a": "네, 펌프 저항을 낮추고 완만한 곡률을 만들기 위해 대구경 배관에서 자주 적용되는 방법입니다."
           }
         ]
       },
@@ -3514,16 +3564,16 @@
         "seo_p3": "콤팩트한 매니폴드 설치나 좁은 벽면 선행 배관 시스템 시공 시, 이 부품은 소중한 조립 시간을 절약하고 융착 개소를 줄여 줍니다.",
         "faq": [
           {
-            "q": "Eignet sich der 45-Grad I/A Winkel für parallele Versprünge?",
-            "a": "Ja, kombiniert mit einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
+            "q": "45° 암/수 엘보는 평행 단차 배관에 적합합니까?",
+            "a": "네, 표준 45° 엘보와 결합하면 매우 콤팩트한 층간 단차 배관을 구성할 수 있습니다."
           },
           {
-            "q": "Ist die Druckbeständigkeit der Innen-/Außen-Verbindung genauso hoch?",
-            "a": "Die homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle."
+            "q": "암/수 결합부의 내압 성능도 동일하게 높습니까?",
+            "a": "균질한 열융착 접합을 통해 연결 부위에서도 100% 내압 강도(PN 25)가 보장됩니다."
           },
           {
-            "q": "Für welche Dimensionen ist dieser Winkel verfügbar?",
-            "a": "Er wird für die gängigen Dimensionen in der Etagenverteilung in 20 mm und 25 mm produziert."
+            "q": "이 엘보는 어떤 규격으로 제공됩니까?",
+            "a": "층별 분배 배관에서 가장 많이 사용되는 20 mm 및 25 mm 규격으로 생산됩니다."
           }
         ]
       },
@@ -3533,16 +3583,16 @@
         "seo_p3": "건물 설비 전반의 코너 배관과 벽 관통부에 완벽하며, 유동을 방해하는 모서리 없이 기밀하고 안전한 90도 굽힘을 보장합니다.",
         "faq": [
           {
-            "q": "Erhöht ein 90-Grad-Winkel den Verschleiß durch Strömungsdruck?",
-            "a": "Dank der Wandstärkenreserven und der extrem glatten Innenflächen des PP-R Materials ist Verschleiß durch Abrasion praktisch ausgeschlossen."
+            "q": "90° 엘보는 유동 압력으로 인한 마모를 증가시킵니까?",
+            "a": "PP-R 소재의 넉넉한 관벽 두께 여유와 극도로 매끄러운 내면 덕분에 마모로 인한 손상은 사실상 발생하지 않습니다."
           },
           {
-            "q": "Gibt es Richtungsmarkierungen auf den K Aqua Winkeln?",
-            "a": "Ja, unsere Formteile weisen oft Produktionsmarkierungen auf, die bei der exakten axialen Ausrichtung auf der Baustelle helfen."
+            "q": "K-Aqua 엘보에 방향 표시가 있습니까?",
+            "a": "네, 피팅류에는 현장에서 정확한 축 방향 정렬을 돕는 생산 표시선이 적용되어 있습니다."
           },
           {
-            "q": "Kann der 90-Grad-Winkel für Steigleitungen genutzt werden?",
-            "a": "Ja, er ist ideal, um Stränge aus Schächten auf die jeweilige Etage abzuwinkeln."
+            "q": "90° 엘보를 입상관 분기용으로 사용할 수 있습니까?",
+            "a": "네, 샤프트에서 각 층으로 배관 분기를 꺾을 때 매우 이상적입니다."
           }
         ]
       },
@@ -4533,24 +4583,24 @@
     "areaTitle": "K Aqua에서 일하는 곳.",
     "areas": [
       {
-        "t": "Produktion & Fertigung",
-        "d": "Extrusionsanlagen mit bis zu 14.000 Metern Tagesleistung rüsten, fahren und überwachen, dazu Spritzguss für Formteile von d20 bis d315.",
-        "p": "Technikverständnis, Sorgfalt, Bereitschaft zur Schichtarbeit"
+        "t": "생산 & 제조",
+        "d": "일일 최대 14,000미터 생산 능력의 압출 라인 세팅, 가동 및 모니터링, d20~d315 피팅 사출 성형.",
+        "p": "기술 이해도, 꼼꼼함, 교대근무 가능자"
       },
       {
-        "t": "Technik & Instandhaltung",
-        "d": "Extruder, Werkzeuge und Peripherie am Laufen halten: Wartung, Störungsanalyse und kontinuierliche Verbesserung nach GENAU.",
-        "p": "Ausbildung in Mechatronik, Elektrik oder Metall: Ursachen finden statt Symptome flicken"
+        "t": "기술 & 유지보수",
+        "d": "압출기, 금형 공구 및 주변 장치 가동 유지: GENAU에 따른 유지보수, 고장 분석 및 지속적 개선.",
+        "p": "메카트로닉스, 전기 또는 금속 분야 직업교육: 증상 땜질 대신 근본 원인 해결"
       },
       {
-        "t": "Vertrieb & Anwendungstechnik",
-        "d": "Projekte von Frankfurt bis in den Nahen Osten begleiten: Beratung zu Dimensionen, SDR-Klassen und Schweißtechnik, direkt vom Hersteller.",
-        "p": "Technische Beratungskompetenz, Sprachen sind ein Plus"
+        "t": "영업 & 기술지원",
+        "d": "프랑크푸르트에서 중동까지의 프로젝트 지원: 치수, SDR 등급 및 융착 기술에 대한 제조사 직접 기술 컨설팅.",
+        "p": "기술 영업 컨설팅 역량, 외국어 가능자 우대"
       },
       {
-        "t": "Verwaltung & Kaufmännisches",
-        "d": "Auftragsabwicklung, Einkauf und Organisation: die Prozesse, die Qualität mit Kosten und Terminen vereinbar halten.",
-        "p": "Strukturierte Arbeitsweise, Freude an klaren Abläufen"
+        "t": "경영 지원 & 사무",
+        "d": "주문 처리, 구매 및 조직 관리: 품질을 비용 및 납기와 조화롭게 유지하는 프로세스.",
+        "p": "체계적인 업무 방식, 명확한 프로세스 선호"
       }
     ],
     "areaNote": "찾으시는 직무가 없으신가요? 회사가 성장하고 있는 만큼 자유 지원을 진심으로 환영합니다.",
@@ -4558,36 +4608,36 @@
     "whyTitle": "이곳에서 일해야 할 네 가지 이유.",
     "why": [
       {
-        "t": "Wachsende Marktposition",
-        "d": "Eine starke Position, die kontinuierlich ausgebaut wird: Ihre Arbeit trägt sichtbar zum Erfolg bei."
+        "t": "성장하는 시장 입지",
+        "d": "지속적으로 확장되는 강력한 시장 입지: 귀하의 노력이 눈에 보이는 성과로 이어집니다."
       },
       {
-        "t": "Sicherheit als System",
-        "d": "GENAU macht Arbeitsschutz zur täglichen Praxis: Gefahren melden ist Pflicht und wird ernst genommen, von jedem, für jeden."
+        "t": "시스템화된 안전",
+        "d": "GENAU는 산업 안전을 일상적 실천으로 만듭니다: 위험 보고는 필수이자 모두를 위해 철저히 다뤄집니다."
       },
       {
-        "t": "Produkt mit Substanz",
-        "d": "Rohre, die auf 50 Jahre Betrieb ausgelegt sind und weltweit in Krankenhäusern und Hotels arbeiten: Ergebnisse, die bleiben."
+        "t": "본질을 갖춘 제품",
+        "d": "50년 수명으로 설계되어 전 세계 병원과 호텔에서 작동하는 파이프: 영속적인 결과물."
       },
       {
-        "t": "Benefits, die netto ankommen",
-        "d": "Steuerfreie Extras von der Sachbezugskarte bis zum JobRad: rechnen Sie oben nach, was Ihr Paket bringt."
+        "t": "실수령액에 반영되는 복리후생",
+        "d": "비과세 바우처 카드부터 JobRad 자전거 리스까지: 귀하의 패키지 혜택을 직접 계산해 보세요."
       }
     ],
     "procEyebrow": "채용 절차",
     "procTitle": "계약까지 세 단계.",
     "proc": [
       {
-        "t": "Bewerbung senden",
-        "d": "Per E-Mail an Andrea Nickel: mit CV-Generator oder Direktbewerbung von dieser Seite. Kein Anschreiben-Roman nötig."
+        "t": "지원서 제출",
+        "d": "Andrea Nickel 앞으로 이메일 제출: 이력서 생성기를 이용하거나 본 사이트에서 바로 지원하세요. 긴 자기소개서는 필요 없습니다."
       },
       {
-        "t": "Gespräch führen",
-        "d": "Wir melden uns zeitnah und klären den Alltag ehrlich, gern auch telefonisch unter +49 (0)60 85 / 9868-410."
+        "t": "면담 진행",
+        "d": "빠른 시일 내에 연락하여 실제 업무에 대해 솔직히 대화합니다. 전화(+49 (0)60 85 / 9868-410) 문의도 환영합니다."
       },
       {
-        "t": "Werk kennenlernen",
-        "d": "Sie sehen Fertigung und Team in Waldsolms, bevor Sie entscheiden. Dann folgt das Vertragsangebot."
+        "t": "공장 견학 및 만남",
+        "d": "결정하기 전에 발트졸름스의 생산 현장과 팀을 직접 둘러봅니다. 이후 근로계약 제안이 이어집니다."
       }
     ],
     "procContact": "Ansprechpartnerin: Andrea Nickel · andrea.nickel@k-aqua.de",
@@ -5056,102 +5106,102 @@
     ],
     "procs": [
       {
-        "t": "Muffenschweißen von Hand: bis d63",
+        "t": "수동 소켓 융착: 최대 d63",
         "steps": [
           {
-            "t": "Schneiden & entgraten",
-            "d": "Rohr rechtwinklig ablängen, sauber entgraten und anfasen. Rohrschneider aus dem K Aqua-Werkzeugprogramm verwenden."
+            "t": "절단 & 디버링",
+            "d": "파이프를 직각으로 절단하고 깔끔하게 디버링 및 모따기합니다. K-Aqua 공구 제품군의 파이프 커터를 사용하십시오."
           },
           {
-            "t": "Schweißtiefe anzeichnen",
-            "d": "Einstecktiefe nach Tabelle (z. B. 14 mm bei d20) am Rohr markieren: sie definiert die Fügezone."
+            "t": "융착 깊이 표시",
+            "d": "표에 따라 파이프에 삽입 깊이(예: d20의 경우 14mm)를 표시합니다. 이는 접합 구간을 정의합니다."
           },
           {
-            "t": "Gleichzeitig anwärmen",
-            "d": "Rohr in die Heizbuchse, Fitting auf den Heizdorn. Gleichzeitig aufschieben und die Anwärmzeit exakt halten."
+            "t": "동시 가열",
+            "d": "파이프를 가열 소켓에, 피팅을 가열 맨드릴에 끼웁니다. 동시에 밀어 넣고 가열 시간을 정확히 준수하십시오."
           },
           {
-            "t": "Zügig fügen, ohne Drehen",
-            "d": "Innerhalb der Umstellzeit axial fügen. Niemals verdrehen: Drehen zerstört das plastifizierte Gefüge."
+            "t": "비틀림 없이 신속 접합",
+            "d": "전환 시간 내에 축 방향으로 접합합니다. 절대 비틀지 마십시오. 비틀면 가소화된 분자 구조가 손상됩니다."
           },
           {
-            "t": "Fixieren & abkühlen",
-            "d": "Verbindung einige Sekunden fixieren, dann die Abkühlzeit abwarten, bevor mechanische Last aufgebracht wird."
+            "t": "고정 & 냉각",
+            "d": "몇 초 동안 접합부를 고정한 후, 기계적 하중을 가하기 전에 냉각 시간을 기다립니다."
           }
         ]
       },
       {
-        "t": "Muffenschweißen mit Maschine: mittlere Dimensionen",
+        "t": "기계식 소켓 융착: 중간 구경",
         "steps": [
           {
-            "t": "Vorbereiten wie beim Handschweißen",
-            "d": "Ablängen, entgraten, Schweißtiefe markieren. Die Grundregeln bleiben identisch."
+            "t": "수동 융착과 동일한 준비",
+            "d": "절단, 디버링, 융착 깊이 표시. 기본 규칙은 동일합니다."
           },
           {
-            "t": "Rohr & Fitting einspannen",
-            "d": "Die Maschine hält beide Fügepartner koaxial. Versatz und Kippfehler sind mechanisch ausgeschlossen."
+            "t": "파이프 & 피팅 클램핑",
+            "d": "기계가 두 접합 대상을 동일 축선상으로 유지합니다. 어긋남이나 기울어짐 오류가 기계적으로 방지됩니다."
           },
           {
-            "t": "Anwärmen mit Heizelement",
-            "d": "Heizbuchse und -dorn nach DVS-Richtwerten; die Maschine hält Position und Zeit reproduzierbar."
+            "t": "가열 엘리먼트로 가열",
+            "d": "DVS 기준값에 따른 가열 소켓 및 맨드릴. 기계가 위치와 시간을 재현 가능하게 유지합니다."
           },
           {
-            "t": "Maschinell fügen",
-            "d": "Der Vorschub fügt axial und gleichmäßig, besonders bei d75 bis d125 der Schlüssel zu konstanter Qualität."
+            "t": "기계식 접합",
+            "d": "이송 장치가 축 방향으로 균일하게 접합하며, 특히 d75~d125에서 일관된 품질을 보장하는 핵심입니다."
           },
           {
-            "t": "Abkühlen unter Fixierung",
-            "d": "Erst nach Ablauf der Abkühlzeit ausspannen und weiterverarbeiten."
+            "t": "고정 상태에서 냉각",
+            "d": "냉각 시간이 완료된 후에만 클램프를 풀고 후속 작업을 진행하십시오."
           }
         ]
       },
       {
-        "t": "Elektroschweißen (Electrofusion): Heizwendelfittings",
+        "t": "전기융착(Electrofusion): 열선 피팅",
         "steps": [
           {
-            "t": "Oberfläche schälen",
-            "d": "Die Rohroberfläche in der Fügezone schälen und reinigen. Oxidhaut und Verschmutzung verhindern die Verschweißung."
+            "t": "표면 필링",
+            "d": "접합 구간의 파이프 표면을 필링하고 청소합니다. 산화막과 오염물은 완벽한 융착을 방해합니다."
           },
           {
-            "t": "Einstecktiefe markieren",
-            "d": "Tiefe am Rohr anzeichnen, Rohr bis zum Anschlag in das Fitting schieben."
+            "t": "삽입 깊이 표시",
+            "d": "파이프에 깊이를 표시하고 파이프를 피팅의 스토퍼까지 밀어 넣습니다."
           },
           {
-            "t": "Spannungsfrei fixieren",
-            "d": "Halteklemmen verwenden: das Fitting darf während des Schweißens nicht unter Biegespannung stehen."
+            "t": "응력 없이 고정",
+            "d": "고정 클램프를 사용하십시오. 융착 중 피팅에 굽힘 응력이 가해져서는 안 됩니다."
           },
           {
-            "t": "Schweißprozess starten",
-            "d": "Das Gerät bestromt die eingebetteten Heizwendeln im Fitting. Parameter kommen vom Fitting, nicht aus dem Gefühl."
+            "t": "융착 공정 시작",
+            "d": "융착기가 피팅의 내장 열선에 전류를 공급합니다. 파라미터는 감이 아닌 피팅의 바코드/규격에서 가져옵니다."
           },
           {
-            "t": "Abkühlzeit einhalten",
-            "d": "Erst nach der angegebenen Abkühlzeit bewegen oder belasten. Kontrollindikatoren am Fitting prüfen."
+            "t": "냉각 시간 준수",
+            "d": "지정된 냉각 시간이 지난 후에만 움직이거나 하중을 가하십시오. 피팅의 융착 표시 핀(인디케이터)을 확인합니다."
           }
         ]
       },
       {
-        "t": "Stumpfschweißen (Butt Fusion): Großdimensionen bis d630",
+        "t": "맞대기 융착(Butt Fusion): 최대 d630 대구경",
         "steps": [
           {
-            "t": "Enden planhobeln",
-            "d": "Beide Rohrenden in der Maschine planhobeln, bis durchgehende Späne entstehen: Planparallelität ist Pflicht."
+            "t": "단면 평면 절삭",
+            "d": "연속적인 칩이 생성될 때까지 기계에서 양쪽 파이프 단면을 평면 절삭합니다. 평면 평행성은 필수입니다."
           },
           {
-            "t": "Ausrichten & Versatz prüfen",
-            "d": "Versatz maximal 10 % der Wanddicke. Bei d630 zählt jeder Millimeter."
+            "t": "정렬 & 어긋남 점검",
+            "d": "어긋남은 벽 두께의 최대 10% 이하여야 합니다. d630에서는 모든 밀리미터가 중요합니다."
           },
           {
-            "t": "Anwärmen am Heizelement",
-            "d": "Angleichen unter Druck bis zur Wulstbildung, dann drucklos durchwärmen. Zeiten nach DVS 2207-11."
+            "t": "가열 엘리먼트에서 가열",
+            "d": "비드가 형성될 때까지 압력을 가해 밀착시킨 후, 압력 없이 충분히 가열합니다. DVS 2207-11에 따른 시간 준수."
           },
           {
-            "t": "Umstellen & fügen",
-            "d": "Heizelement zügig entnehmen und die Enden unter definiertem Fügedruck zusammenfahren."
+            "t": "가열판 제거 & 접합",
+            "d": "가열 엘리먼트를 신속히 분리하고 규정된 접합 압력으로 파이프 단면을 결합합니다."
           },
           {
-            "t": "Abkühlen unter Fügedruck",
-            "d": "Der Fügedruck bleibt bis zum Ende der Abkühlzeit, dann entsteht der homogene, dauerhaft dichte Strang."
+            "t": "접합 압력 하에서 냉각",
+            "d": "냉각 시간이 끝날 때까지 접합 압력을 유지하면 균질하고 영구적으로 기밀한 배관 라인이 완성됩니다."
           }
         ]
       }
@@ -5165,34 +5215,34 @@
     ],
     "errRows": [
       [
-        "Zu langes Anwärmen",
-        "Wulst wächst nach innen, Querschnitt verengt sich",
-        "Anwärmzeit nach Tabelle stoppen, nicht nach Gefühl"
+        "과도한 가열 시간",
+        "비드가 내부로 자라나 단면이 좁아짐",
+        "감이 아닌 표에 따라 가열 시간을 스톱워치로 측정"
       ],
       [
-        "Verdrehen beim Fügen",
-        "Plastifiziertes Gefüge wird zerstört, Verbindung undicht",
-        "Nur axial fügen, Markierung als Kontrolle nutzen"
+        "접합 시 비틀림",
+        "가소화된 조직이 파괴되어 연결부 누수 발생",
+        "축 방향으로만 접합하고 표시선을 확인용으로 활용"
       ],
       [
-        "Fehlendes Entgraten/Anfasen",
-        "Material schiebt sich auf, Fügezone wird ungleichmäßig",
-        "Jeden Schnitt entgraten: Werkzeug gehört zum System"
+        "디버링/모따기 누락",
+        "재료가 밀려 올라가 접합 영역이 불균일해짐",
+        "모든 절단면 디버링: 전용 공구는 시스템의 필수 요소"
       ],
       [
-        "Verschmutztes Heizelement",
-        "Anhaftungen verbrennen und lagern sich in der Naht ein",
-        "Heizflächen vor jeder Schweißung mit fusselfreiem Tuch reinigen"
+        "오염된 히팅 엘리먼트",
+        "이물질이 타서 용접 비드 내부에 침착됨",
+        "매 용접 전 가열면을 보풀 없는 천으로 청소"
       ],
       [
-        "Zu frühe Belastung",
-        "Naht verformt sich vor dem Erstarren",
-        "Abkühlzeiten einhalten: bei d110 sind das 8 Minuten"
+        "너무 이른 하중 부하",
+        "응고되기 전에 융착선이 변형됨",
+        "냉각 시간 준수: d110의 경우 8분 소요"
       ],
       [
-        "Falsche Schweißtiefe",
-        "Zu kurz: kleine Fügefläche · zu tief: Querschnittsverengung",
-        "Einstecktiefe immer anzeichnen, nie schätzen"
+        "잘못된 융착 깊이",
+        "너무 얕음: 작은 접합면 · 너무 깊음: 단면 수축",
+        "삽입 깊이는 어림짐작하지 말고 항상 파이프에 표시"
       ]
     ],
     "glossEyebrow": "용어집",
@@ -5200,43 +5250,43 @@
     "gloss": [
       [
         "SDR",
-        "Standard Dimension Ratio = Außendurchmesser geteilt durch Wandstärke (d/s). Kleiner SDR = dickere Wand = höherer Nenndruck."
+        "표준 치수 비율 (Standard Dimension Ratio) = 외경을 벽 두께로 나눈 값(d/s). SDR 값이 작을수록 = 벽이 더 두꺼움 = 공칭 압력이 더 높음."
       ],
       [
         "PN",
-        "Nenndruck in bar bei 20 °C über den Auslegungshorizont: SDR 6 entspricht PN 20, SDR 17 entspricht PN 6."
+        "설계 기준 20 °C에서의 공칭 압력(bar): SDR 6은 PN 20에 해당, SDR 17은 PN 6에 해당."
       ],
       [
         "d / di / s",
-        "Außendurchmesser / Innendurchmesser / Wandstärke in Millimetern. di = d − 2s."
+        "외경 / 내경 / 벽 두께(밀리미터 단위). di = d − 2s."
       ],
       [
         "PP-R",
-        "Polypropylen Random Copolymer: der bewährte Standardwerkstoff für Trinkwasserinstallationen."
+        "폴리프로필렌 랜덤 공중합체: 음용수 설비를 위한 검증된 표준 소재."
       ],
       [
         "PPRCT",
-        "PP-R mit modifizierter Kristallstruktur („Crystallinity Temperature\"): mehr Temperatur- und Druckreserve bei gleicher Wand."
+        "수정된 결정 구조(Crystallinity Temperature)를 가진 PP-R: 동일한 벽 두께에서 더 높은 온도 및 압력 여유 제공."
       ],
       [
         "K-Fiber / GF",
-        "Glasfaserverstärkter Multilayer-Aufbau: reduziert die Wärmeausdehnung auf rund ein Viertel."
+        "유리섬유 강화 다층 구조: 열팽창을 약 4분의 1로 감소."
       ],
       [
-        "Muffenschweißen",
-        "Socket Fusion: Rohr und Fitting werden über Heizbuchse und -dorn plastifiziert und ineinandergefügt."
+        "소켓 융착",
+        "Socket Fusion: 파이프와 피팅을 가열 소켓과 맨드릴을 통해 가소화한 후 서로 결합."
       ],
       [
-        "Elektroschweißen",
-        "Electrofusion: eingebettete Heizwendeln im Fitting erzeugen die Schweißwärme, parametergesteuert."
+        "전기융착",
+        "Electrofusion: 피팅에 내장된 열선이 파라미터 제어로 용접 열을 생성."
       ],
       [
-        "Stumpfschweißen",
-        "Butt Fusion: planparallele Rohrenden werden am Heizelement erwärmt und unter Druck gefügt, Standard bis d630."
+        "맞대기 융착",
+        "Butt Fusion: 평면 평행한 파이프 끝단을 가열 엘리먼트에서 가열한 후 압력을 가해 접합, 최대 d630까지의 표준."
       ],
       [
         "DVS 2207-11",
-        "Das Regelwerk für das Schweißen von Polypropylen: Quelle der Richtwerte auf dieser Seite."
+        "폴리프로필렌 용접을 위한 기술 규정: 본 페이지의 기준값 출처."
       ]
     ]
   },
@@ -6065,39 +6115,39 @@
       "jobs": [
         {
           "id": "prod",
-          "title": "Produktionsmitarbeiter (m/w/d)",
-          "type": "Vollzeit / Schicht",
-          "desc": "Unterstütze uns in der modernen Rohr- und Fitting-Produktion."
+          "title": "생산직 사원 (m/w/d)",
+          "type": "풀타임 / 교대근무",
+          "desc": "현대적인 파이프 및 피팅 생산 현장에서 함께 근무합니다."
         },
         {
           "id": "machine",
-          "title": "Maschinen- und Anlagenführer (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Bedienung und Überwachung unserer Hightech-Extrusionsanlagen."
+          "title": "기계 및 설비 조작원 (m/w/d)",
+          "type": "풀타임",
+          "desc": "당사의 첨단 압출 설비 조작 및 모니터링."
         },
         {
           "id": "logistics",
-          "title": "Fachkraft für Lagerlogistik (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Verantwortung für Warenein- und -ausgang sowie Bestandskontrolle."
+          "title": "물류창고 전문가 (m/w/d)",
+          "type": "풀타임",
+          "desc": "입출고 관리 및 재고 통제 책임."
         },
         {
           "id": "sales",
-          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Betreuung von Großkunden und Projektplanern im internationalen Raum."
+          "title": "기술 영업 필드 엔지니어 (m/w/d)",
+          "type": "풀타임",
+          "desc": "국제 주요 고객 및 프로젝트 설계자 관리/지원."
         },
         {
           "id": "pm",
-          "title": "Produktmanager (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Gestalte die Zukunft unserer PP-R Rohrleitungssysteme."
+          "title": "제품 관리자 (m/w/d)",
+          "type": "풀타임",
+          "desc": "PP-R 배관 시스템의 미래를 함께 설계합니다."
         },
         {
           "id": "init",
-          "title": "Initiativbewerbung",
-          "type": "Vollzeit / Teilzeit",
-          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+          "title": "자유 지원 (상시 채용)",
+          "type": "풀타임 / 파트타임",
+          "desc": "적합한 채용 공고가 없으신가요? 자유롭게 지원해 주세요!"
         }
       ],
       "steps": {
@@ -6121,8 +6171,8 @@
         "role": "직위",
         "school": "학교 / 대학",
         "degree": "학위",
-        "from": "Von",
-        "to": "Bis",
+        "from": "시작일",
+        "to": "종료일",
         "skills": "보유 기술 (쉼표로 구분)",
         "next": "다음",
         "back": "뒤로",
@@ -8012,7 +8062,7 @@
     "eyebrow": "K-Aqua Academy",
     "title1": "연결하는",
     "titleGrad": "지식.",
-    "lead": "Vier PP-R Schweißtechniken im Video und ein Quiz, das Sie zum Schweißmeister macht. Wissen, das in der K-Aqua Academy verbindet. Optimiert für die Baustelle: große Ziele, hohe Kontraste.",
+    "lead": "비디오로 배우는 네 가지 PP-R 용접 기술과 귀하를 용접 전문가로 만들어 줄 퀴즈. K-Aqua 아카데미에서 연결되는 지식입니다. 건설 현장에 최적화: 큼직한 버튼, 높은 시인성 대비.",
     "quizEyebrow": "용접 마스터 퀴즈",
     "quizTitle": "다섯 문제. 하나의 배지.",
     "intro": "PP-R/PPRCT 시공 지식을 테스트해 보십시오. 전부 정답이면 \"용접 마스터\" 칭호를 획득합니다.",
@@ -8020,7 +8070,7 @@
     "qLabel": "문제",
     "quiz": [
       {
-        "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
+        "q": "대구경(예: d630)에 표준으로 사용되는 용접 방식은 무엇입니까?",
         "o": [
           "수동 소켓 퓨전",
           "버트 퓨전 (Butt Fusion)",
@@ -8028,7 +8078,7 @@
         ]
       },
       {
-        "q": "Wofür steht SDR bei Rohrsystemen?",
+        "q": "배관 시스템에서 SDR은 무엇을 의미합니까?",
         "o": [
           "표준 치수 비율 (Standard Dimension Ratio, d/s)",
           "정적 밀도 등급 (Static Density Rating)",
@@ -8036,7 +8086,7 @@
         ]
       },
       {
-        "q": "Was unterscheidet PPRCT von klassischem PP-R?",
+        "q": "PPRCT는 기존 PP-R과 어떻게 다릅니까?",
         "o": [
           "더 낮은 가격",
           "결정 구조 변형 → 더 높은 온도 및 압력 저항",
@@ -8044,7 +8094,7 @@
         ]
       },
       {
-        "q": "Welchen Recycling Code trägt Polypropylen?",
+        "q": "폴리프로필렌의 재활용 코드는 몇 번입니까?",
         "o": [
           "코드 3",
           "코드 5",
@@ -8052,7 +8102,7 @@
         ]
       },
       {
-        "q": "Beim Elektroschweißen (Electrofusion) kommt die Wärme …",
+        "q": "전기융착(Electrofusion) 시 열은 어디서 발생합니까?",
         "o": [
           "가열 요소 거울",
           "피팅에 내장된 열선",
@@ -8068,20 +8118,20 @@
     "titleGood": "용접 기능사",
     "videos": [
       {
-        "t": "Muffenschweißen von Hand",
-        "s": "bis d63: Handschweißgerät"
+        "t": "수동 소켓 융착",
+        "s": "최대 d63: 수동 용접기"
       },
       {
-        "t": "Muffenschweißen mit Maschine",
-        "s": "mittlere Dimensionen"
+        "t": "기계식 소켓 융착",
+        "s": "중간 구경"
       },
       {
-        "t": "Elektroschweißen",
-        "s": "Heizwendelfittings"
+        "t": "전기융착",
+        "s": "전기융착 피팅"
       },
       {
-        "t": "Stumpfschweißen",
-        "s": "Großdimensionen bis d630"
+        "t": "맞대기 융착(버트 퓨전)",
+        "s": "최대 d630 대구경"
       }
     ],
     "zertifizierung": {
@@ -8106,19 +8156,19 @@
         "title": "세계에서 가장 엄격한 심사기관들.",
         "items": [
           {
-            "title": "DVGW: Die höchste Instanz",
-            "p1": "Der Deutsche Verein des Gas- und Wasserfaches (DVGW) setzt den weltweit strengsten Standard für Trinkwasserhygiene und Materialbeständigkeit.",
-            "p2": "Unsere DVGW-Prüfung garantiert, dass K Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) bei 95°C."
+            "title": "DVGW: 최고 권위 기관",
+            "p1": "독일가스수도협회(DVGW)는 음용수 위생 및 재료 내구성에 대해 전 세계에서 가장 엄격한 표준을 설정합니다.",
+            "p2": "당사의 DVGW 인증은 K-Aqua 배관 시스템이 극한 조건에서도 유독 물질을 방출하지 않고 미생물 증식을 유발하지 않음을 보장합니다. 모든 배치는 95°C에서 장기 정수압 시험(크리프 내압 시험)을 거칩니다."
           },
           {
-            "title": "SKZ: Unabhängige Überwachung",
-            "p1": "Das Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert das ab, was unsere internen Labore bereits vorgeben.",
-            "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit und das thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry). Das SKZ-Zeichen ist der Beweis für mechanische Perfektion, weit über die DIN EN ISO 15874 hinaus."
+            "title": "SKZ: 독립적 품질 감독",
+            "p1": "남부독일 플라스틱 센터(SKZ)는 당사의 엄격한 외부 감사 기관 역할을 수행합니다. 외부 감시를 통해 자체 실험실에서 설정한 기준을 철저히 검증합니다.",
+            "p2": "노치 충격 강도, 인장 강도, 시차주사열량계(DSC) 분석을 통한 열적 거동을 시험합니다. SKZ 마크는 DIN EN ISO 15874를 훨씬 뛰어넘는 기계적 완벽함의 증거입니다."
           },
           {
-            "title": "KTW-BWGL: Absolute Reinheit",
-            "p1": "Die Bewertungsgrundlage für Kunststoffe und andere organische Materialien im Kontakt mit Trinkwasser (Umweltbundesamt).",
-            "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PPRCT) ohne schädliche Additive oder Schwermetalle. Das Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
+            "title": "KTW-BWGL: 절대적인 순도",
+            "p1": "음용수와 접촉하는 플라스틱 및 기타 유기 물질에 대한 독일 연방환경청(UBA)의 평가 기준입니다.",
+            "p2": "유해 첨가제나 중금속이 전혀 없는 고순도 폴리프로필렌(PP-R / PPRCT)만을 독점 사용합니다. 그 결과는? 수도꼭지에서 바로 나오는 샘물 수준의 청정 수질입니다. 냄새나 맛의 변질이 전혀 없습니다."
           },
           {
             "title": "기타 인증",
@@ -8133,16 +8183,16 @@
         "title": "자체 실험실",
         "items": [
           {
-            "title": "MFR (Melt Flow Rate)",
-            "desc": "Kontrolle der Schmelzflussrate zur Gewährleistung exakter Viskosität während der Extrusion und beim späteren Schweißen auf der Baustelle."
+            "title": "MFR (용융 흐름 지수)",
+            "desc": "압출 중 및 향후 현장 용접 시 정확한 점도를 보장하기 위한 용융 유속 관리."
           },
           {
-            "title": "OIT (Oxidation Induction Time)",
-            "desc": "Thermische Analyse zur Bestimmung der Alterungsbeständigkeit. Der Beweis, dass unsere Stabilisatoren den Kunststoff über Jahrzehnte vor Degradation schützen."
+            "title": "OIT (산화 유도 시간)",
+            "desc": "노화 저항성을 측정하기 위한 열분석. 안정제가 수십 년 동안 플라스틱의 분해를 방지함을 입증합니다."
           },
           {
-            "title": "Zeitstand-Innendruckversuch",
-            "desc": "Rohrproben werden in speziellen Wasserbädern bei 95°C unter extremem Druck gelagert, für tausende von Stunden. Ohne Riss. Ohne Bruch."
+            "title": "크리프 내압 시험",
+            "desc": "파이프 시편을 95°C의 특수 수조에서 극도의 압력 하에 수천 시간 동안 보관합니다. 균열이나 파단이 발생하지 않아야 합니다."
           }
         ],
         "eyebrow": "Inside the Lab",
@@ -8154,34 +8204,34 @@
         "title": "수십 년의 혁신.",
         "items": [
           {
-            "title": "Die Geburtsstunde der Norm",
+            "title": "표준의 태동",
             "desc": "입고된 원자재의 순도 및 품질을 테스트합니다.",
             "year": "1990",
-            "text": "Als Pioniere der Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren, die weit über die damaligen Industrieanforderungen hinausgingen. Der Grundstein für eine kompromisslose Qualitätskultur."
+            "text": "플라스틱 파이프 압출의 개척자로서 당사는 당시 업계 요구사항을 훨씬 뛰어넘는 내부 시험 절차를 조기에 도입했습니다. 타협 없는 품질 문화의 초석입니다."
           },
           {
-            "title": "ISO 9001 Integration",
+            "title": "ISO 9001 통합",
             "desc": "두께 및 외경을 실시간 레이저로 측정합니다.",
             "year": "1995",
-            "text": "Die vollständige Prüfung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert und vollkommen rückverfolgbar gemacht."
+            "text": "ISO 9001에 따른 품질 경영 시스템의 완전한 구축. 모든 작업 공정, 원자재 배치, 기계 설정이 체계적으로 문서화되고 완벽히 추적 가능해집니다."
           },
           {
-            "title": "DVGW & SKZ Prüfung",
+            "title": "DVGW & SKZ 인증 시험",
             "desc": "각 배치에서 무작위 샘플을 추출하여 극한 조건에서 테스트합니다.",
             "year": "2005",
-            "text": "Die Aufnahme in den exklusiven Kreis der DVGW- und SKZ-geprüften Hersteller. Das offizielle Siegel für absolute Hygiene, extreme Druckfestigkeit und unübertroffene Langlebigkeit bei härtesten Bedingungen im Trinkwassereinsatz."
+            "text": "DVGW 및 SKZ 공인 제조사의 독점적 그룹에 편입. 음용수 사용 분야의 가장 가혹한 조건에서 절대적 위생성, 극도의 내압성, 탁월한 내구성을 인정받은 공식 인증입니다."
           },
           {
-            "title": "Globale Normen (WRAS, KTW)",
+            "title": "글로벌 규격 (WRAS, KTW)",
             "desc": "출하 전 모든 제품의 규격과 외관을 확인합니다.",
             "year": "2015",
-            "text": "Expansion der Zertifizierungen für internationale Märkte. Erfüllung der strikten KTW-Leitlinie (UBA) und der britischen WRAS-Vorgaben. K Aqua wird zum globalen Standard für internationale Megaprojekte."
+            "text": "국제 시장을 위한 인증 확대. 엄격한 독일 KTW 지침(UBA)과 영국 WRAS 요건 충족. K-Aqua는 국제 메가 프로젝트의 글로벌 표준으로 자리매김합니다."
           },
           {
-            "title": "Next-Gen Quality Analytics",
+            "title": "차세대 품질 분석",
             "desc": "모든 배치 데이터는 추적 가능성을 위해 저장됩니다.",
             "year": "2024",
-            "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) und MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während der Extrusion für eine 100%ige Null Fehler-Quote."
+            "text": "자체 정밀 실험실에 완전 자동화된 OIT 및 MFR 시험 도입. 100% 무결점 비율을 위한 압출 공정 중 AI 기반 오류 분석."
           }
         ],
         "desc": "우리의 품질 표준은 하루아침에 만들어지지 않았습니다. 수십 년에 걸친 엔지니어링 기술과 지속적인 공정 최적화의 결과입니다."
@@ -8215,24 +8265,24 @@
         "lead": "국제적인 종합건설사가 수십억 규모의 프로젝트를 계획할 때, 그들은 마케팅 약속을 믿지 않습니다. 그들은 물리적으로 측정 가능한 확실한 사실을 요구합니다.",
         "items": [
           {
-            "title": "Extreme Druckbeständigkeit",
-            "desc": "geprüft für Dauerbelastungen bis PN20/PN25. Unsere Berstdrucktests beweisen Reserven, die weit jenseits der Normen liegen. Rohrbrüche gehören der Vergangenheit an."
+            "title": "극도의 내압성",
+            "desc": "최대 PN20/PN25의 지속 하중에 대해 검증되었습니다. 당사의 파열 압력 시험은 규격을 훨씬 뛰어넘는 안전 예비력을 입증합니다. 파이프 파손은 과거의 일입니다."
           },
           {
-            "title": "Thermische Souveränität",
-            "desc": "Dauerhaft beständig von -20°C bis +95°C. Kein Materialermüden, keine strukturelle Schwächung, auch bei extremen thermischen Schocks."
+            "title": "열적 안정성",
+            "desc": "-20°C부터 +95°C까지 영구적으로 내구성을 유지합니다. 극심한 열 충격에도 재료 피로나 구조적 약화가 발생하지 않습니다."
           },
           {
-            "title": "Absolute Hygiene",
-            "desc": "Keine Korrosion. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich und resistent gegen Legionellen-Wachstum."
+            "title": "완벽한 위생",
+            "desc": "부식이 없습니다. 스케일 축적이 없습니다. 식품 접촉 안전성, 독성학적 무해성 및 레지오넬라균 증식에 대한 저항성을 갖췄습니다."
           },
           {
-            "title": "Brandschutz (B1/B2)",
-            "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar und minimale Rauchentwicklung für höchste Sicherheit in kritischen Gebäudeinfrastrukturen."
+            "title": "화재 안전성 (B1/B2)",
+            "desc": "DIN 4102에 따른 등급 분류. 중요한 건물 인프라의 최고 안전성을 위한 난연성 및 최소한의 연기 발생."
           },
           {
-            "title": "Lebenszyklus-Garantie",
-            "desc": "Eine definierte Lebensdauer von 50 Jahren nach strengster ISO-Norm. In der architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
+            "title": "수명 주기 보증",
+            "desc": "가장 엄격한 ISO 규격에 따라 규정된 50년의 수명. 실제 건축 환경에서는 세대를 뛰어넘도록 설계되었습니다."
           }
         ]
       },
@@ -8265,20 +8315,20 @@
         "title": "K Aqua 프로세스.",
         "items": [
           {
-            "title": "Extrusionsdynamik unter Hochdruck",
-            "desc": "Die thermoplastische Verformung in unseren Werken unterliegt einer präzisen Temperaturkontrolle auf 0,1 °C genau. Diese kristalline Perfektion garantiert eine makellose, homogene Molekularstruktur, die mikroskopische Rissbildung (Stress Cracking) auch unter extremen Druck- und Temperaturschwankungen absolut ausschließt. Wenn das Material unseren Extruder verlässt, ist es kein einfacher Kunststoff mehr. Es ist ein industrielles Monolith."
+            "title": "고압 하의 압출 역학",
+            "desc": "당사 공장의 열가소성 성형은 0.1°C 단위의 정밀한 온도 제어 하에 이루어집니다. 이러한 결정학적 완벽함은 극단적인 압력 및 온도 변동 하에서도 미세 균열(응력 균열)을 완벽히 방지하는 무결점의 균질한 분자 구조를 보장합니다. 원료가 당사의 압출기를 통과할 때, 그것은 단순한 플라스틱이 아닙니다. 산업용 일체형 구조물입니다."
           },
           {
-            "title": "Hydrostatische Belastungstests",
-            "desc": "In unseren Prüflaboren wird jedes Rohr einer hydrostatischen Simulation ausgesetzt, die reale Bedingungen um ein Vielfaches übersteigt. Wir applizieren Innendrücke, die jenseits jeder normativen Forderung liegen (bis zu 100 bar, abhängig von der SDR-Klasse). Dies sichert die Integrität der Schweißnähte und die molekular Elastizität des PP-R Materials über eine prognostizierte Lebensdauer von mehr als 50 Jahren in kritischen Infrastrukturen."
+            "title": "정수압 하중 시험",
+            "desc": "당사 시험실에서 모든 파이프는 실제 사용 환경을 몇 배나 초과하는 정수압 시뮬레이션을 거칩니다. 규격 요구치를 훨씬 상회하는 내압을 가합니다(SDR 등급에 따라 최대 100 bar). 이는 주요 인프라에서 50년 이상의 기대 수명 동안 용접부의 무결성과 PP-R 재료의 분자 탄성을 보장합니다."
           },
           {
-            "title": "Polyfusions-Schweißtechnik",
-            "desc": "Verbindungen sind in herkömmlichen Systemen die Schwachstelle. K Aqua eliminiert dieses Risiko durch Polyfusion. Auf molekularer Ebene verschmelzen Rohr und Fitting zu einer unlösbaren, durchgehenden Einheit. Es gibt keine Gewinde, die korrodieren, keine Dichtungen, die versagen können. Das Resultat ist ein Rohrleitungssystem, das sich verhält, als wäre es aus einem einzigen Stück gegossen."
+            "title": "폴리퓨전 용접 기술",
+            "desc": "일반적인 배관 시스템에서 이음부는 취약 부위입니다. K-Aqua는 폴리퓨전(열융착)을 통해 이러한 위험을 완전히 제거합니다. 분자 수준에서 파이프와 피팅이 융합되어 분리 불가능한 일체가 됩니다. 부식될 나사산이나 파손될 가스켓이 없습니다. 그 결과 단일 부재로 주조된 것처럼 작동하는 배관 시스템이 완성됩니다."
           },
           {
-            "title": "Kavitationsresistenz & Strömungsmechanik",
-            "desc": "Durch eine ultraglatte Innenwand (Rauigkeit < 0,007 mm) minimieren K Aqua Rohre den Strömungswiderstand gegen Null. Dies verhindert die Bildung von Biofilmen und eliminiert mikro-kavitative Effekte bei Hochgeschwindigkeitsströmungen. Druckverluste im System werden drastisch reduziert, was die Energieeffizienz der angeschlossenen Pumpensysteme im industriellen Maßstab maximiert."
+            "title": "캐비테이션 저항성 및 유체역학",
+            "desc": "극도로 매끄러운 내벽(조도 < 0.007 mm) 덕분에 K-Aqua 파이프는 유동 저항을 거의 제로 수준으로 최소화합니다. 이는 바이오필름 형성을 방지하고 고속 유속에서의 미세 캐비테이션 효과를 제거합니다. 시스템 내 압력 손실이 대폭 줄어들어 산업 규모에서 연결된 펌프 시스템의 에너지 효율을 극대화합니다."
           }
         ],
         "eyebrow": "키네마틱스 & 재료 과학",
@@ -8288,24 +8338,24 @@
         "title": "기술 파라미터.",
         "items": [
           {
-            "title": "PP-R (Polypropylen Random Copolymer)",
-            "desc": "Die molekulare Basis. Ein hochkristallines thermoplastisches Polymer, das außergewöhnliche Widerstandsfähigkeit gegen hohe Temperaturen und Drücke bietet. Es ist die DNA unserer Langlebigkeit."
+            "title": "PP-R (폴리프로필렌 랜덤 공중합체)",
+            "desc": "분자 기반. 고온 및 고압에 대해 탁월한 저항성을 제공하는 고결정성 열가소성 폴리머입니다. 오랜 내구성을 가능하게 하는 당사의 핵심 DNA입니다."
           },
           {
-            "title": "Lineare thermische Ausdehnung",
-            "desc": "Die Längenänderung des Materials bei Temperaturwechsel. Unsere faserverstärkten (Faser) Rohre reduzieren diesen Wert auf ein absolutes Minimum (α = 0,035 mm/mK), was die strukturelle Stabilität in Schächten enorm erhöht."
+            "title": "열 선팽창",
+            "desc": "온도 변화에 따른 재료의 길이 변화율입니다. 섬유 복합(Faser) 파이프는 이 수치를 극소치(α = 0.035 mm/mK)로 줄여 샤프트 및 입상관 내 구조적 안정성을 대폭 향상시킵니다."
           },
           {
-            "title": "Zeitstandfestigkeit",
-            "desc": "Die Fähigkeit des Systems, über Jahrzehnte hinweg einem konstanten Innendruck bei spezifischen Temperaturen standzuhalten, ohne zu deformieren oder zu bersten. K Aqua Rohre werden auf 50+ Jahre kalibriert."
+            "title": "크리프 파단 강도",
+            "desc": "특정 온도에서 수십 년 동안 지속적인 내부 압력을 받아도 변형되거나 파열되지 않고 견디는 시스템의 능력입니다. K-Aqua 파이프는 50년 이상으로 설계됩니다."
           },
           {
-            "title": "Druckverlust-Koeffizient",
-            "desc": "Ein mathematischer Wert, der den Energieverlust der Strömung durch Reibung an der Rohrinnenwand beschreibt. Durch nanoglatte Oberflächen wird dieser Wert in K Aqua Systemen marginalisiert."
+            "title": "압력 손실 계수",
+            "desc": "파이프 내벽 마찰로 인한 유체 에너지 손실을 나타내는 수치입니다. 나노 수준의 매끄러운 표면으로 K-Aqua 시스템에서는 이 손실이 극소화됩니다."
           },
           {
-            "title": "SDR (Standard Dimension Ratio)",
-            "desc": "Das Verhältnis zwischen dem Außendurchmesser (d) und der Wandstärke (s). Ein SDR 6 Rohr hält massiv höheren Drücken stand als ein SDR 11 Rohr. Die korrekte Wahl ist entscheidend für das System-Design.",
+            "title": "SDR (표준 치수 비율)",
+            "desc": "외경(d)과 벽 두께(s)의 비율입니다. SDR 6 파이프는 SDR 11 파이프보다 훨씬 더 높은 압력을 견딥니다. 정확한 선택이 시스템 설계의 핵심입니다.",
             "label": "50+ YRS"
           }
         ],
@@ -8316,28 +8366,28 @@
         "title": "규제적 엄격함.",
         "items": [
           {
-            "title": "Normative Basis",
+            "title": "표준적 기반",
             "desc": "직각으로 매끄럽게 파이프를 자르는 과정.",
             "year": "DIN 8077/8078",
-            "text": "Die Grundlage der deutschen Rohrleitungsnormen. Wir betrachten diese Standards nicht als Ziel, sondern als absolutes Minimum. Unsere internen Toleranzen sind bis zu 30 % strenger als von der DIN gefordert."
+            "text": "독일 배관 규격의 토대. 우리는 이 표준을 목표가 아닌 절대적 최소 기준으로 여깁니다. 당사의 내부 공차는 DIN 요구치보다 최대 30% 더 엄격합니다."
           },
           {
-            "title": "Globale Prüfung",
+            "title": "글로벌 검증",
             "desc": "다층 파이프의 외피를 벗기거나 끝을 다듬는 과정.",
             "year": "ISO 15874",
-            "text": "Das internationale Gütesiegel für Kunststoffrohrleitungssysteme für die Warm- und Kaltwasserinstallation. Ein Beweis für die kompromisslose globale Anwendbarkeit unserer Systeme."
+            "text": "온수 및 냉수 설비용 플라스틱 배관 시스템에 대한 국제 품질 인증. 당사 시스템의 타협 없는 글로벌 적용성을 증명합니다."
           },
           {
-            "title": "Standard Dimension Ratios",
+            "title": "표준 치수 비율",
             "desc": "정확히 260°C에서 부품을 녹이는 과정.",
             "year": "SDR 6 - SDR 11",
-            "text": "Ein präzises Verhältnis von Außendurchmesser zu Wandstärke. Unsere Ingenieure kalibrieren jede Charge, um maximale Druckresistenz bei optimaler Durchflussmenge zu garantieren."
+            "text": "외경 대 벽 두께의 정밀한 비율. 당사 엔지니어들은 최적의 유량에서 최대의 내압성을 보장하도록 모든 배치를 조율합니다."
           },
           {
-            "title": "Hygiene & Materialprüfung",
+            "title": "위생 및 재료 시험",
             "desc": "두 부품을 비틀지 않고 똑바로 밀어 넣는 과정.",
             "year": "SKZ & DVGW",
-            "text": "Zertifikate, die die absolute Lebensmittel- und Trinkwasserechtheit bescheinigen. Keine Schwermetalle, keine Auswaschungen. Pure, unkontaminierte Fluiddynamik für höchste hygienische Ansprüche."
+            "text": "완벽한 식품 및 음용수 안전성을 증명하는 인증서. 중금속 무검출, 용출 물질 제로. 최고 수준의 위생 요구를 충족하는 순수한 유체역학입니다."
           }
         ],
         "desc": "규격은 우리에게 규정이 아니라 엔지니어링 기술의 출발점입니다. 우리 시스템이 단순히 충족하는 것을 넘어 압도하는 인증과 표준의 연대기입니다."
@@ -8429,20 +8479,20 @@
         "lead": "우리의 기술 교육 모듈은 수강생을 편하게 하기 위해 설계되지 않았습니다. 오류를 가차 없이 근절하기 위해 설계되었습니다.",
         "items": [
           {
-            "title": "Homogene Materialverschmelzung",
-            "desc": "Jenseits von Verklebungen oder instabilen mechanischen Dichtungen. Wir trainieren die exakte Kalibrierung von Temperatur, Druck und Zeit, um Rohre und Fittings auf molekularer Ebene zu einer untrennbaren, monolithischen Struktur zu verschmelzen."
+            "title": "균질 재료 융합",
+            "desc": "접착제나 불안정한 기계식 가스켓을 넘어서는 기술. 온도, 압력 및 시간의 정밀한 조절을 훈련하여 파이프와 피팅을 분자 수준에서 분리 불가능한 일체형 구조로 융합합니다."
           },
           {
-            "title": "Destruktive Analytik",
-            "desc": "Um die Grenzen zu verstehen, muss man sie überschreiten. Praxis-Module in unseren Hochdruck-Prüfständen mit Berstdrücken weit jenseits der 100 Bar. Wir analysieren das Versagen, um es in der Praxis auszuschließen."
+            "title": "파괴적 분석",
+            "desc": "한계를 이해하려면 한계를 넘어서야 합니다. 100 bar를 훨씬 초과하는 파열 압력을 가하는 고압 시험대에서의 실습 모듈. 실제 환경에서 결함을 배제하기 위해 파손 과정을 분석합니다."
           },
           {
-            "title": "Thermische Längenausdehnung",
-            "desc": "Eiskalte Kompensation von Temperaturschwankungen in Großprojekten durch präzise berechnete Dehnungsbögen und Festpunkt-Systeme."
+            "title": "열 선팽창",
+            "desc": "정밀하게 계산된 팽창 루프 및 고정점 시스템을 통해 대형 프로젝트의 온도 변화를 완벽하게 보상합니다."
           },
           {
-            "title": "Aggressive Medien & pH-Stabilität",
-            "desc": "Tiefen-Analyse der Widerstandsfähigkeit gegen hochkonzentrierte industrielle Chemikalien. Die Akademie vermittelt tiefgehende Kenntnisse zur Materialermüdung unter chemischer Dauerbelastung und radikalen pH-Verschiebungen."
+            "title": "공격적 유체 및 pH 안정성",
+            "desc": "고농도 산업용 화학물질에 대한 내구성 심층 분석. 아카데미는 지속적인 화학적 부하와 급격한 pH 변화 하에서의 재료 피로에 대한 심층 지식을 전달합니다."
           }
         ]
       },
@@ -8465,24 +8515,24 @@
           {
             "t": "초급 과정",
             "d": "PP-R 기본 이론.",
-            "title": "Modul Alpha: Strömungsmechanik & Kinetik",
-            "desc": "Die Mathematik des Wassers. Wir zerlegen komplexe Kavitationseffekte und Druckschlag-Szenarien in berechenbare Variablen. Sie lernen, hydrodynamische Schocksymptome nicht nur zu dämpfen, sondern systemisch zu eliminieren. Für Rohrnetze, die in völliger, geräuschloser Perfektion operieren."
+            "title": "모듈 알파: 유체역학 및 동역학",
+            "desc": "물의 수학. 복잡한 캐비테이션 효과와 수격 현상 시나리오를 계산 가능한 변수로 분석합니다. 유체역학적 충격 증상을 완화하는 데 그치지 않고 시스템적으로 완전히 제거하는 방법을 배웁니다. 완벽하고 무소음으로 작동하는 배관망을 구현합니다."
           },
           {
             "t": "중급 과정",
             "d": "다양한 융착 실습.",
-            "title": "Modul Beta: Parametrisches Leitungsdesign",
-            "desc": "Der Entwurf von Rohrleitungssystemen als algorithmische Disziplin. Die Schulung beinhaltet den Einsatz modernster CAD/BIM-Tools zur Kollisionsprüfung und zur Optimierung der Materialausnutzung. Keine Schätzung. Reine, eiskalte Berechnung."
+            "title": "모듈 베타: 파라메트릭 배관 설계",
+            "desc": "알고리즘적 규율로서의 배관 시스템 설계. 최신 CAD/BIM 도구를 활용한 간섭 체크 및 자재 활용 최적화 교육을 포함합니다. 추측은 없습니다. 오직 순수하고 정밀한 계산뿐입니다."
           },
           {
             "t": "고급 과정",
             "d": "대구경 용접 및 복잡한 시공.",
-            "title": "Modul Gamma: Hygiene-Architektur & Mikrobiologie",
-            "desc": "Legionellenprävention auf strukturellem Level. Wie man Totleitungen vermeidet, Stagnationszonen auslöscht und Wassertemperatur-Schichtungen in komplexen Ringleitungs-Systemen kontrolliert. Das System diktiert die Reinheit, wir überlassen nichts dem Zufall."
+            "title": "모듈 감마: 위생 아키텍처 및 미생물학",
+            "desc": "구조적 차원에서의 레지오넬라 예방. 사수 구간 방지, 정체 구역 제거, 복잡한 루프 배관 시스템에서의 수온 성층화 제어 방법을 다룹니다. 시스템이 청결도를 좌우하며, 어떤 것도 우연에 맡기지 않습니다."
           },
           {
-            "title": "Modul Delta: Das finale K Aqua Audit",
-            "desc": "Prüfung ist kein Recht, sie ist ein Privileg. Die Prüfung verlangt die Konstruktion und theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z. B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt das K Aqua Zertifikat."
+            "title": "모듈 델타: 최종 K-Aqua 감사",
+            "desc": "시험은 권리가 아닌 특권입니다. 모의 극한 조건(예: 지진 활동, 50°C 외부 온도) 하에서 독립적인 급수 시스템의 구축 및 이론적 방어가 요구됩니다. 절대적인 무결점을 입증한 자만이 K-Aqua 인증서를 취득합니다."
           }
         ]
       },
@@ -8492,28 +8542,28 @@
         "items": [
           {
             "year": "PHASE 01",
-            "text": "Das Begreifen der physikalischen Limits. Eine tiefgreifende Einführung in die molekularen PP-R/PPRCT Werkstoff-Spezifikationen. Hier wird das Fundament der industriellen Härte gegossen.",
-            "title": "Materialphysik & Onboarding"
+            "text": "물리적 한계의 이해. 분자 수준의 PP-R/PPRCT 재료 사양에 대한 심층 입문. 산업적 견고함의 토대를 마련합니다.",
+            "title": "재료 물리학 및 오리엔테이션"
           },
           {
             "year": "PHASE 02",
-            "text": "Hands-on Zerstörung. Das Erleben der Berstgrenze im Prüfstand und das Studium mikroskopischer Rissbildungen. Nur wer die Schwäche kennt, kann die absolute Stärke konstruieren.",
-            "title": "Laboratorium & Belastungstests"
+            "text": "직접 체험하는 파괴 시험. 시험대에서의 파열 한계 체험 및 미세 균열 형성 연구. 취약점을 아는 자만이 절대적인 강도를 설계할 수 있습니다.",
+            "title": "실험실 및 하중 시험"
           },
           {
             "year": "PHASE 03",
-            "text": "Das perfekte Schweißprotokoll. Mechanisches Training der thermodynamischen Bewegungsabläufe bis zum unfehlbaren, muskulären Automatismus. Jeder Handgriff ist kalibriert.",
-            "title": "Fusions-Doktrin"
+            "text": "완벽한 용접 프로토콜. 오류 없는 기계적 자동화에 도달할 때까지 열역학적 동작 순서를 기계적으로 훈련합니다. 모든 동작이 정밀하게 조정됩니다.",
+            "title": "융합 원칙"
           },
           {
             "year": "PHASE 04",
-            "text": "Skalierung vom einfachen Rohrsegment zur Infrastruktur eines Wolkenkratzers. Wir exekutieren Druckverlusttabellen, Fließgeschwindigkeiten und Strömungsteiler mit eiserner Logik.",
-            "title": "System-Architektur"
+            "text": "단순 파이프 구간에서 초고층 빌딩의 인프라로의 확장. 압력 손실표, 유속, 분기 유동을 철저한 논리로 적용합니다.",
+            "title": "시스템 아키텍처"
           },
           {
-            "title": "Die Meisterprüfung",
+            "title": "마스터 자격 시험",
             "year": "PHASE 05",
-            "text": "Ein 48-stündiges Audit unter der gnadenlosen Aufsicht der deutschen Chef-Ingenieure. Keine Toleranz für Fehlkalkulationen. Ein Fehler bedeutet den sofortigen Ausschluss."
+            "text": "독일 수석 엔지니어들의 엄격한 감독 하에 진행되는 48시간의 감사. 계산 착오는 일절 허용되지 않습니다. 단 한 번의 실수는 즉시 불합격을 의미합니다."
           }
         ]
       },

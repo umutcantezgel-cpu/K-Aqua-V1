@@ -81,16 +81,45 @@ function kontaktkopf(anfrage: InterneAnfrage): string {
 </table>`;
 }
 
+function istTechnikAnfrage(anfrage: InterneAnfrage): boolean {
+  const anliegen = (anfrage.interest || '').toLowerCase();
+  const seite = (anfrage.page || '').toLowerCase();
+  const pfad = (anfrage.pfad || '').toLowerCase();
+  return (
+    anliegen.includes('rohr') ||
+    anliegen.includes('technik') ||
+    anliegen.includes('spezifikation') ||
+    seite.includes('pipe') ||
+    seite.includes('produkt') ||
+    seite.includes('projekt') ||
+    seite.includes('rfq') ||
+    seite.includes('ausschreibung') ||
+    seite.includes('bim') ||
+    pfad.includes('/produkte') ||
+    pfad.includes('/projektanfrage')
+  );
+}
+
 export function baueInterneAnfrage(
   anfrage: InterneAnfrage,
   auffaelligkeit: string | null
 ): InterneMail {
   const t = interneTexte();
+  const istTechnik = istTechnikAnfrage(anfrage);
+  const titel = istTechnik ? t.technikAnfrageTitel : t.anfrageTitel;
+  const kategorieBadge = istTechnik
+    ? 'TECHNISCHE SPEZIFIKATION & ANWENDUNGSTECHNIK'
+    : 'ALLGEMEINE UNTERNEHMENSANFRAGE';
 
   /* Wer und was — knapp, ohne die Kontaktdaten zu wiederholen. */
-  const wer: Datenzeile[] = [{ label: t.labelAnliegen, wertHtml: esc(anfrage.interest || '—') }];
+  const wer: Datenzeile[] = [
+    { label: t.labelAnliegen, wertHtml: esc(anfrage.interest || (istTechnik ? 'Rohrsysteme / Spezifikation' : 'Allgemeine Anfrage')) }
+  ];
   if (anfrage.name) wer.push({ label: t.labelName, wertHtml: esc(anfrage.name) });
   if (anfrage.company) wer.push({ label: t.labelFirma, wertHtml: esc(anfrage.company) });
+  if (istTechnik) {
+    wer.push({ label: t.labelRohrStandard, wertHtml: esc(t.wertRohrStandard) });
+  }
 
   const herkunft: Datenzeile[] = [
     { label: t.labelQuellseite, wertHtml: esc(anfrage.page), leicht: true },
@@ -101,18 +130,30 @@ export function baueInterneAnfrage(
     herkunft.push({ label: t.labelPfad, wertHtml: esc(anfrage.pfad), leicht: true });
   }
 
-  const zeilen = [
-    kopfbalkenText(K, t.anfrageTitel),
+  const badgeHtml = `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 ${ABSTAND.sm}px;">
+  <tr>
+    <td style="padding:4px 10px;background-color:${istTechnik ? '#EBF5FB' : '#F4ECF7'};border:1px solid ${istTechnik ? '#2980B9' : '#8E44AD'};border-radius:4px;font-family:${FAMILIE};font-size:11px;font-weight:700;letter-spacing:0.08em;color:${istTechnik ? '#1B4F72' : '#512E5F'};text-transform:uppercase;">
+      ${esc(kategorieBadge)}
+    </td>
+  </tr>
+</table>`;
 
-    // Auffaelligkeit zuerst, wenn es eine gibt — sonst uebersieht man sie.
+  const zeilen = [
+    kopfbalkenText(K, titel),
+
+    // Auffälligkeit zuerst, wenn es eine gibt — sonst übersieht man sie.
     auffaelligkeit
       ? abschnitt(hinweiskasten(K, fuelle(t.warnhinweis, { grund: auffaelligkeit })), {
           oben: ABSTAND.lg,
         })
       : '',
 
+    // Kontext-Kategorie-Badge
+    abschnitt(badgeHtml, { oben: auffaelligkeit ? ABSTAND.sm : ABSTAND.md }),
+
     // DAS WICHTIGSTE ZUERST: Rufnummer und Adresse.
-    abschnitt(kontaktkopf(anfrage), { oben: auffaelligkeit ? ABSTAND.md : ABSTAND.lg }),
+    abschnitt(kontaktkopf(anfrage), { oben: ABSTAND.sm }),
 
     abschnitt(`${trenner(0)}<div style="height:${ABSTAND.md}px;font-size:0;line-height:0;">&nbsp;</div>${datentabelle(K, wer)}`, {
       oben: ABSTAND.md,
@@ -145,24 +186,30 @@ export function baueInterneAnfrage(
   return {
     html: baueDokument({
       sprache: 'de',
-      titel: t.anfrageTitel,
+      titel: titel,
       // Die Vorschauzeile im Posteingang zeigt sofort, worum es geht und von wem.
-      vorschau: `${anfrage.interest || 'Kontakt'} · ${anfrage.company || anfrage.name || anfrage.email} · ${anfrage.phone}`,
+      vorschau: `${istTechnik ? '[TECHNIK-RFQ]' : '[KONTAKT]'} ${anfrage.interest || 'Anfrage'} · ${anfrage.company || anfrage.name || anfrage.email} · ${anfrage.phone}`,
       zeilen,
     }),
-    text: baueInternenText(anfrage, auffaelligkeit),
+    text: baueInternenText(anfrage, auffaelligkeit, istTechnik),
   };
 }
 
-function baueInternenText(anfrage: InterneAnfrage, auffaelligkeit: string | null): string {
+function baueInternenText(
+  anfrage: InterneAnfrage,
+  auffaelligkeit: string | null,
+  istTechnik = false
+): string {
   const t = interneTexte();
   const z: string[] = [];
   if (auffaelligkeit) z.push(`!! ${fuelle(t.warnhinweis, { grund: auffaelligkeit })}`, '');
-  z.push(t.anfrageTitel.toUpperCase(), '');
+  z.push((istTechnik ? t.technikAnfrageTitel : t.anfrageTitel).toUpperCase(), '');
+  z.push(`KATEGORIE: ${istTechnik ? 'TECHNISCHE SPEZIFIKATION & ANWENDUNGSTECHNIK' : 'ALLGEMEINE UNTERNEHMENSANFRAGE'}`);
   z.push(`${t.labelTelefon}: ${anfrage.phone}`);
   z.push(`${t.labelEmail}: ${anfrage.email}`);
   z.push('');
   z.push(`${t.labelAnliegen}: ${anfrage.interest || '—'}`);
+  if (istTechnik) z.push(`${t.labelRohrStandard}: ${t.wertRohrStandard}`);
   if (anfrage.name) z.push(`${t.labelName}: ${anfrage.name}`);
   if (anfrage.company) z.push(`${t.labelFirma}: ${anfrage.company}`);
   if (anfrage.message) z.push('', `${t.labelNachricht}:`, anfrage.message);
@@ -172,6 +219,135 @@ function baueInternenText(anfrage: InterneAnfrage, auffaelligkeit: string | null
   z.push(`${t.labelZeit}: ${anfrage.zeit}`);
   if (anfrage.pfad) z.push(`${t.labelPfad}: ${anfrage.pfad}`);
   return z.join('\n');
+}
+
+export interface InterneBewerbung {
+  readonly jobId: string;
+  readonly firstName: string;
+  readonly lastName: string;
+  readonly email: string;
+  readonly phone?: string;
+  readonly startDate?: string;
+  readonly cvDateiname?: string;
+  readonly cvGroesse?: number;
+  readonly builderHtml?: string;
+}
+
+function lesbareGroesse(bytes: number): string {
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} kB`;
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+}
+
+/**
+ * Interne Benachrichtigung an die Personalabteilung bei eingehender Bewerbung.
+ */
+export function baueInterneBewerbung(d: InterneBewerbung): InterneMail {
+  const t = interneTexte();
+  const titel = t.bewerbungTitel;
+
+  const daten: Datenzeile[] = [
+    { label: t.labelStelle, wertHtml: `<strong>${esc(d.jobId)}</strong>` },
+    { label: t.labelName, wertHtml: esc(`${d.firstName} ${d.lastName}`) },
+    { label: t.labelEintritt, wertHtml: esc(d.startDate || 'Nicht angegeben') },
+  ];
+
+  if (d.cvDateiname) {
+    const groesse = typeof d.cvGroesse === 'number' ? ` (${lesbareGroesse(d.cvGroesse)})` : '';
+    daten.push({
+      label: t.labelUnterlagen,
+      wertHtml: `📎 <strong>${esc(d.cvDateiname)}</strong>${groesse}`,
+    });
+  } else if (d.builderHtml) {
+    daten.push({
+      label: t.labelUnterlagen,
+      wertHtml: 'Generierter Lebenslauf aus Bewerber-Portal (siehe unten)',
+    });
+  } else {
+    daten.push({
+      label: t.labelUnterlagen,
+      wertHtml: 'Keine Unterlagen angehängt',
+    });
+  }
+
+  const sauberTel = d.phone ? d.phone.replace(/[^0-9+]/g, '') : '';
+  const kontaktBlock = `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;border-collapse:collapse;">
+  ${
+    d.phone
+      ? `<tr>
+    <td style="padding:0 0 ${ABSTAND.sm}px;">
+      <p style="margin:0 0 2px;font-family:${FAMILIE};font-size:${SCHRIFT.klein}px;line-height:1.2;letter-spacing:0.1em;text-transform:uppercase;color:${FARBE.textZweit};">${esc(t.labelTelefon)}</p>
+      <a href="tel:${esc(sauberTel)}" style="font-family:${FAMILIE};font-size:24px;line-height:1.2;font-weight:700;color:${FARBE.marke};text-decoration:none;">${esc(d.phone)}</a>
+    </td>
+  </tr>`
+      : ''
+  }
+  <tr>
+    <td style="padding:0;">
+      <p style="margin:0 0 2px;font-family:${FAMILIE};font-size:${SCHRIFT.klein}px;line-height:1.2;letter-spacing:0.1em;text-transform:uppercase;color:${FARBE.textZweit};">${esc(t.labelEmail)}</p>
+      <a href="mailto:${esc(d.email)}" style="font-family:${FAMILIE};font-size:${SCHRIFT.lead}px;line-height:1.3;font-weight:600;color:${FARBE.marke};text-decoration:none;word-break:break-all;">${esc(d.email)}</a>
+    </td>
+  </tr>
+</table>`;
+
+  const badgeHtml = `
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 ${ABSTAND.sm}px;">
+  <tr>
+    <td style="padding:4px 10px;background-color:#E8F8F5;border:1px solid #1ABC9C;border-radius:4px;font-family:${FAMILIE};font-size:11px;font-weight:700;letter-spacing:0.08em;color:#0E6251;text-transform:uppercase;">
+      KARRIEREPORTAL &amp; INITIATIVBEWERBUNG
+    </td>
+  </tr>
+</table>`;
+
+  const zeilen = [
+    kopfbalkenText(K, titel),
+    abschnitt(badgeHtml, { oben: ABSTAND.md }),
+    abschnitt(kontaktBlock, { oben: ABSTAND.sm }),
+    abschnitt(`${trenner(0)}<div style="height:${ABSTAND.md}px;font-size:0;line-height:0;">&nbsp;</div>${datentabelle(K, daten)}`, {
+      oben: ABSTAND.md,
+    }),
+    d.builderHtml
+      ? abschnitt(
+          `${auszeichnung(K, 'Bewerberprofil & Angaben')}
+           <div style="padding:${ABSTAND.md}px;background-color:${FARBE.grund};border:1px solid ${FARBE.rahmen};border-radius:8px;font-family:${FAMILIE};font-size:${SCHRIFT.text}px;color:${FARBE.text};">
+             ${d.builderHtml}
+           </div>`,
+          { oben: ABSTAND.lg }
+        )
+      : '',
+    abschnitt(
+      `${trenner(0)}
+       <p style="margin:${ABSTAND.md}px 0 0;font-family:${FAMILIE};font-size:${SCHRIFT.klein}px;line-height:${ZEILE.normal};color:${FARBE.textSchwach};">
+         K-Aqua Personalmanagement · Waldsolms, Deutschland · Bewerbungseingang automatisiert erfasst.
+       </p>`,
+      { oben: ABSTAND.lg, unten: ABSTAND.lg }
+    ),
+  ].join('');
+
+  const klartext = [
+    titel.toUpperCase(),
+    'KATEGORIE: KARRIEREPORTAL & INITIATIVBEWERBUNG',
+    '',
+    `${t.labelStelle}: ${d.jobId}`,
+    `${t.labelName}: ${d.firstName} ${d.lastName}`,
+    `${t.labelEmail}: ${d.email}`,
+    d.phone ? `${t.labelTelefon}: ${d.phone}` : '',
+    `${t.labelEintritt}: ${d.startDate || 'Nicht angegeben'}`,
+    d.cvDateiname ? `${t.labelUnterlagen}: ${d.cvDateiname}` : '',
+  ]
+    .filter(Boolean)
+    .join('\n');
+
+  return {
+    html: baueDokument({
+      sprache: 'de',
+      titel,
+      vorschau: `Bewerbung: ${d.firstName} ${d.lastName} (${d.jobId}) · ${d.email}`,
+      zeilen,
+    }),
+    text: klartext,
+  };
 }
 
 /** Der Kopfbalken der internen Mails kommt ohne Logo aus — sie gehen ins Haus. */

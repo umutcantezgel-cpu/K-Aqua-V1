@@ -1897,6 +1897,10 @@
       {
         "t": "Made in Germany",
         "s": "Production in Waldsolms"
+      },
+      {
+        "t": "DAkkS-accredited",
+        "s": "Certified Test Lab"
       }
     ],
     "attribution": {
@@ -3919,6 +3923,14 @@
         {
           "title": "Resource efficiency",
           "desc": "Fully recyclable. Minimal CO2 footprint during manufacturing. Because true technological power always means responsibility for the future."
+        },
+        {
+          "title": "Thermal stability",
+          "desc": "Engineered for extreme temperature ranges from -20 °C to +95 °C. Minimal linear thermal expansion thanks to advanced fiber composite technology."
+        },
+        {
+          "title": "Molecular homogeneity",
+          "desc": "Permanent fusion welds melt pipe and fitting into an inseparable monolithic unit with zero seals – 100% leak-proof over 50 years."
         }
       ]
     },
@@ -6663,6 +6675,11 @@
         "n": "50",
         "u": "Years",
         "l": "Design horizon according to the creep rupture curves of DIN 8077/8078"
+      },
+      {
+        "n": "100",
+        "u": "%",
+        "l": "Recyclable: Pure polypropylene without toxic additives for optimal circular economy"
       }
     ],
     "badges": [
@@ -8508,6 +8525,11 @@
           "title": "Uncompromising Weld Seam Integrity",
           "desc": "Every heating element socket weld follows a documented time-temperature-pressure profile. Random tensile tests and micrographs confirm the molecular fusion of pipe and fitting, without seals, without weak points.",
           "placeholder": "Micrograph of a K-Aqua socket weld joint"
+        },
+        "longevity": {
+          "title": "50+ Years Service Life & Creep Rupture Strength",
+          "desc": "Engineered for decades of continuous operation under high thermal and mechanical stress according to DIN EN ISO 15874 creep rupture curves.",
+          "placeholder": "Creep rupture internal pressure test log"
         }
       }
     },
@@ -8524,6 +8546,7 @@
       "tolerance": "Ruler",
       "network": "Globe2",
       "welding": "Flame",
+      "longevity": "Clock",
       "manifesto": "Droplet",
       "cta": "Factory"
     }

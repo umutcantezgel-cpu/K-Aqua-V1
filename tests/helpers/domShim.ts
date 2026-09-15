@@ -14,15 +14,20 @@ class FakeCtx {
   /**
    * Rueckgabe eines leeren Bildes statt eines Fehlers.
    *
-   * `embossTexture()` in kaqua-3d/core/materials.js rastert den Schriftzug
-   * „Made in Germany" mit fillText und liest ihn hier wieder aus, um daraus
-   * ein Hoehenfeld zu machen. Ohne diese Methode bricht der Bau JEDES
-   * Spritzgussteils ab.
+   * `printTexture()` in kaqua-3d/core/materials.js zeichnet die
+   * Kennzeichnungszeile der Rohre und liest sie wieder aus; `embossTexture()`
+   * tut dasselbe fuer die Praegeschrift. Ohne diese Methode bricht der Bau
+   * jedes Rohrs ab.
    *
-   * Im Test bleibt die Praegung wirkungslos: `fillText` ist eine leere
-   * Funktion, das gelesene Bild also schwarz, und die abgeleitete Normalmap
-   * flach. Das ist beabsichtigt — geprueft wird hier Geometrie, nicht Optik.
-   * Die Praegung selbst wird im Browser begutachtet.
+   * Die Praegung ist seit dem 05.09.2026 stillgelegt (Mangel M31, Fall 49):
+   * ueber die Revolve-UVs war sie nicht lesbar zu bekommen. `materials()`
+   * baut sie nur noch auf ausdrueckliche Anforderung, und
+   * tests/unit/kaqua3d-oberflaeche.test.ts prueft beides — dass sie im
+   * Normalfall aus ist und dass der Generator weiter funktioniert.
+   *
+   * Im Test bleibt der Inhalt wirkungslos: `fillText` ist eine leere
+   * Funktion, das gelesene Bild also schwarz. Das ist beabsichtigt —
+   * geprueft wird hier Geometrie, nicht Optik.
    */
   getImageData(_x: number, _y: number, w: number, h: number) {
     return { data: new Uint8ClampedArray(w * h * 4), width: w, height: h };

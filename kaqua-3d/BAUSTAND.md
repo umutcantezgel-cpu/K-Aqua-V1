@@ -14,6 +14,183 @@ Reduzierbuchse · Armaturen: Kugelhahn
 Selbsttest 20/20 · größte Abweichung 0,18 mm · 454 320 Dreiecke
 ```
 
+## 5. September 2026 — Prägeschrift stillgelegt, und der Katalog steht wieder auf einem Stand
+
+Mängel M31, Fehlerkatalog Fall 49.
+
+**Der Befund kam von aussen:** über den Modellen liege ein Wasserzeichen
+„MADE IN GERMANY", das katastrophal aussehe. Es stimmte, und die Ursache war
+nicht die Textur, sondern ihre **Abbildung**.
+
+`embossTexture()` rastert den Schriftzug in eine 1024 × 512-Normalmap,
+zentriert auf (0,555 | 0,5), rund 600 × 46 px. In UV sind das
+u ∈ [0,26 … 0,85] und v ∈ [0,455 … 0,545]. `revolve()` bildet aber u = θ/2π ab
+und v als Bogenlänge des Profils. An der Muffe d32 wird die Zeile dadurch über
+**212° Umfang** gezogen — rund 80 mm — und auf **9 % der Profillänge**
+gestaucht, also 9 mm. Lesbar ist da nichts; sichtbar blieben Querstreifen, die
+wie ein Renderfehler wirken. Am gebauten Modell gezählt: 37 der 70 Produkte
+trugen sie aktiv, 14 hatten sie einzeln abgeschaltet, 19 haben gar keinen
+PP-Körper.
+
+Die Textur selbst war tadellos gebaut — Höhenfeld, Weichzeichnung,
+Sobel-Normalmap, ClampToEdge, NoColorSpace. Geprüft wurde nur, ob sie
+ENTSTEHT, nie, welche Strecke am Bauteil ein UV-Schritt bedeutet. Als
+**Fall 49** aufgenommen, mit der Zweiteilung, die daraus folgt: isotrope
+Schichten (Rauschen, Verschleiß) dürfen auf generischen UVs reiten; alles, was
+FORM trägt, braucht eine eigene UV-Insel oder ein eigenes Mesh. Der Aufdruck
+der Rohre macht es in derselben Datei richtig vor.
+
+**Stillgelegt, nicht gelöscht.** Aus `opt.emboss !== false` wurde
+`opt.emboss === true`: der Generator steht vollständig im Core, ruft sich aber
+nicht mehr selbst auf. Der Kopfkommentar trägt jetzt die Bedingung für eine
+Wiederbelebung, damit niemand die Marke blind wieder anschaltet. Die 14
+`emboss: false`-Zeilen in den Produktpaketen sind entfallen — nach der
+Umstellung waren sie wirkungslos und behaupteten das Gegenteil des Normalfalls.
+
+Neue Prüfdatei `tests/unit/kaqua3d-oberflaeche.test.ts` mit vier Zusicherungen.
+Die wichtigste ist der Wächter: kein Produkt trägt im Normalfall eine
+`normalMap`. Die zweite deckt die stillgelegte Strecke ab — das war der Preis
+dafür, sie zu behalten, und ohne Prüfung verrottet sie. Die dritte hält fest,
+dass der Rohr-Aufdruck davon unberührt bleibt: eigenes Band, eigener Werkstoff,
+und am realen PP-R-Rohr steht so eine Zeile tatsächlich.
+
+**Nebenwirkung, erwünscht:** weil der Core in jede Einzelseite gebündelt ist,
+brauchte die Änderung einen Vollbau. Damit ist der seit dem 26.08. offene
+Rückstand abgeräumt — 69 Seiten standen noch auf dem alten PP-Grün `#17A46B`,
+während Galerie und Rohrschellenseite bereits `#32A175` trugen. 86 Dateien
+ausgeliefert, danach steht der ganze Katalog auf einem Stand.
+
+461 Tests grün, Netz und Maße unverändert (3 658 426 Vertices).
+
+---
+
+## 2. September 2026 — Rohrschelle begutachtet: die Quelle lag im Repository
+
+Prüfbericht: `pruefung/rohrschelle-instandsetzung.md`, Abschnitt 8. Mängel
+M20–M30, Fehlerkatalog Fälle 46–48.
+
+**Der Auslöser war kein Fehler, sondern eine Datei.**
+`public/images/produkte/pipe-clamps/studio.jpg` ist dieselbe
+Herstelleraufnahme wie das Marketing-PNG, nur mit 900 × 900 px statt einer
+Briefmarke — und keine Sichtung hatte sie je angefasst. Drei Angaben, die
+seit dem 25.08. im Modell, in `data.js` und im Mängelregister standen, sind
+an ihr widerlegt: der Rücken ist **ballig**, nicht zylindrisch; er trägt
+**zwei** Nuten, nicht drei; die schwarze Mutter ist ein **Sechskant**, kein
+Vierkant. `25-BILDQUELLEN.md` trägt die Regel jetzt vorn: vor der Sichtung
+nach ALLEN Kopien eines Bildes suchen, auch außerhalb von `Marketing/`.
+
+Dazu kam aus derselben Aufnahme: Laschen mit rundem Paddelende, ein sichtbar
+heraustretender Gewindeüberstand, Fasen an Bohrungskante und Schalenstirn —
+und der Nachweis, dass das Foto **d75–d90** zeigt, nicht d32. Die Begründung
+des Faktors `zScrew` in `params.js` war gegen die falsche Größe gerechnet
+(Fall 35).
+
+**Der Körper war offen.** `revolve` verbindet aufeinanderfolgende Winkel zu
+Vierecken und schließt einen Teilbogen nicht: 136 Randkanten je Schale, 272
+in der Baugruppe. Neben den Stegen sah man in die Schale hinein, und der
+OBJ/GLB-Export lieferte eine Hülle statt eines Körpers.
+
+Bemerkenswert ist, warum es keine der zehn Prüfungen fand. Die Stirnebenen
+gehen durch die Rohrachse, also durch den Ursprung — für eine Fläche in einer
+Ebene durch den Ursprung ist das Spatprodukt jedes Dreiecks null. Sie trägt
+zum Volumenintegral **exakt 0** bei. Die Massenprobe stimmte weiter, auf zwei
+Stellen genau, während der Körper offen war. **Fall 46**; das neue Maß
+`dicht` zählt jetzt Randkanten, mit Gegenprobe.
+
+**Das Netz war doppelt so teuer wie nötig.** `curveSegments: 20` gilt für
+JEDE Kurve einer Shape, also auch für vier unsichtbare Eckenrundungen je
+Blech: eine Lasche kostete 2364 Dreiecke gegen 252 mit Fasenecken. Dazu
+Fillets auf den Stützstellen einer bereits glatten Kurve und ein Gewinde in
+Sichtteil-Auflösung. Zusammen **22 340 statt 37 984 Dreiecke — bei mehr
+Detail.** Das Teil war vorher das teuerste Zubehörteil des Katalogs; es liegt
+jetzt zwischen `cap` und `socket`. **Fall 47.**
+
+**Und eine Prüfung, die log.** Die erste Randkantenzählung baute ihren
+Schlüssel aus `toFixed(3)` und meldete ausgerechnet bei d50 24 offene Kanten,
+bei allen anderen null. Ursache: Stirnfläche und Bogenrand kamen über
+verschiedene Rechenwege auf denselben Wert, dessen letzte Bits verschieden
+lagen — und genau dort verlief eine Rundungsgrenze. Verlockend war die
+Toleranz; richtig war, über den ABSTAND zu verschweißen. Ein fester Raster
+hätte den Fehler nur zur nächsten Größe verschoben. **Fall 48.**
+
+Die Schelle hat jetzt **sieben** Teile: die beiden Halbschalen sind getrennt
+und fahren in der Explosionsansicht auseinander — die Bewegung, die das
+Produkt ausmacht und die eine gemeinsame Gruppe nicht zeigen konnte.
+
+Alle elf Maße 0,00 mm über alle neun Größen, Masse nach dem Nachfit maximal
+14 %, Selbsttest 70/70 ohne Auffälligkeit. Der Katalog wiegt 2 024 718 statt
+2 040 150 Dreiecke.
+
+**Offen, nicht behoben:** `exportOBJ` in `core/export.js` nimmt die
+unsichtbaren Schnittflächen mit — die Materialliste filtert `!o.visible`, der
+Aufruf `OBJExporter().parse(root)` nicht. Betrifft alle 70 Produkte;
+gemessen an der Schelle 11 012 Dreiecke und 0 offene Kanten ohne die Caps
+gegen 11 118 und 110 mit ihnen. Der GLB-Weg ist sauber (`onlyVisible: true`).
+M30, eigener Arbeitsschritt.
+
+---
+
+## 1. September 2026 — Rohrschelle instand gesetzt, und ein Loch im Maßsatz
+
+Prüfbericht: `pruefung/rohrschelle-instandsetzung.md`. Mängel M13–M19,
+Fehlerkatalog Fälle 43–45.
+
+**Der Ausgangspunkt war ein Widerspruch:** das Modell war im Viewer
+sichtbar kaputt — Schrauben schwebten neben der Schelle, der
+Gewindestutzen hing 11,8 mm darunter in der Luft, der Halbschnitt löschte
+eine ganze Halbschale — und der Maßsatz meldete über alle neun Größen
+**0,00 mm**.
+
+**Der Grund ist die interessante Hälfte.** Vier der fünf Prüfungen waren
+Größenmaße: sie fragen, wie groß ein Teil ist, nie, wo es liegt. Die
+fünfte verglich Box-Ränder auf Symmetrie — und zwei Schrauben, die vom
+SELBEN Stoß nach entgegengesetzten Seiten ins Leere zeigen, erfüllen das
+ebenso gut wie zwei richtig sitzende. Ein Maßsatz aus lauter Größenmaßen
+prüft ein Teil gegen sich selbst; er kann nicht ausschließen, dass die
+Baugruppe auseinanderfällt. Als **Fall 43** aufgenommen, mit vier
+Bauformen für Lagemaße.
+
+Dazu kam ein Instrumentenfehler derselben Art wie Fall 16: die Sonde für
+die lichte Weite schoss nach +Z, wo keine Lasche steht. Sie meldete
+32,60 — richtig gemessen, an der falschen Stelle, während die Laschen
+6,4 mm tief im Rohrkanal standen. Das neue `freie-bohrung` nimmt den
+kleinsten Abstand ALLER Schalenpunkte von der Achse; ein Strahl kann
+diese Frage nicht beantworten.
+
+**Die Stoßachse ist um 90° gedreht.** Zwei Fehler hatten dieselbe Wurzel:
+die Teilungsebene lag auf ±Y, also genau dort, wo der Gewindestutzen
+sitzt UND genau in der Ebene z = 0, die der Viewer schneidet. Mit
+`off ∈ {90, 270}` liegen die Stöße bei ±Z, der Stutzen steht auf dem
+geschlossenen Rücken, und der Halbschnitt schneidet beide Schalen durch
+die Wand statt entlang der Fuge. Schnittflächen gibt es jetzt auch —
+vorher gaben alle Teile `cap: null`.
+
+**Die Waage hat wieder die Gestalt korrigiert.** `shellWall = 0,14·d` und
+`width = 0,68·d` wachsen beide linear mit d, die Masse also mit d³; die
+kg-Spalte wächst über das 5,5-fache des Durchmessers nur auf das
+Vierfache. Ergebnis war +107 % bei d110. Beide Gesetze sind jetzt affin
+und über alle neun Zeilen gefittet (max. 13 %). Der metallische Anteil
+trägt bei d20 66 von 71 g — deshalb darf der Kunststoff nur flach
+wachsen.
+
+**Und ein Core-naher Fund:** die Vierkantmutter maß 1173 statt 713 mm³ —
+mehr, als ihre eigene Außenkontur zulässt. `ExtrudeGeometry` richtet
+Löcher nur aus, wenn es die Außenkontur umdreht, also nur bei einer
+Kontur GEGEN den Uhrzeigersinn. Die Vorlage `roundedPad` läuft im
+Uhrzeigersinn — und hat nie ein Loch, weshalb es dort nie auffiel.
+**Fall 45**, gefunden von der Massenprobe, nicht vom Auge.
+
+Die Gestalt folgt jetzt dem Herstellerfoto AQ500: zwei gleiche
+Halbschalen, zwei gleichwertige Stöße mit Stahllaschen,
+Linsenkopf-Kreuzschlitzschrauben mit U-Scheibe und schwarzen
+Vierkantmuttern, Sechskantstutzen auf dem Rücken. Damit ist der offene
+Rest von M11 abgearbeitet — der Eintrag stand seit dem 25.08. auf
+„behoben", obwohl nur Gummieinlage und Rillen erledigt waren.
+
+Selbsttest 70/70 ohne Auffälligkeit, alle neun Größen 0,00 mm.
+
+---
+
 ## 17. August 2026 — Kreuz, Reduzierbuchse, zwei Nennweiten
 
 **#39 Kreuz** — nur d25 und d32, die kleinste Tabelle des Katalogs. Zwei

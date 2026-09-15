@@ -71,575 +71,575 @@
     "item4": "Latão DZR: Resistente à Deszincificação"
   },
   "catalogx": {
-    "eyebrow": "Vollständiger Produktkatalog",
-    "faqTitle": "Häufig gestellte Fragen",
-    "title": "Alle 79 Artikelfamilien, mit echten Artikelnummern.",
-    "lead": "Rohre, Formteile, Übergangsfittings, Armaturen, Einschweißsattel, Zubehör und Werkzeuge, jede Zeile stammt aus dem verbindlichen K Aqua Katalog. Kategorie wählen, Artikel aufklappen, Artikelnummer prüfen.",
-    "searchPlaceholder": "Artikelnummer oder Produktname suchen, z. B. „AQ200P20\" oder „Elbow\"",
-    "noResults": "Keine Treffer, Suche anpassen oder andere Kategorie wählen.",
-    "codesLabel": "Artikelnummern",
-    "sizesLabel": "Größen",
+    "eyebrow": "Catálogo completo de produtos",
+    "faqTitle": "Perguntas frequentes",
+    "title": "Todas as 79 famílias de produtos, com códigos de referência reais.",
+    "lead": "Tubos, conexões, conexões de transição, válvulas, selas de derivação, acessórios e ferramentas — cada linha é originária do catálogo oficial da K-Aqua. Selecione uma categoria, abra o item e verifique o código de referência.",
+    "searchPlaceholder": "Buscar código do artigo ou nome do produto, ex.: \"AQ200P20\" ou \"Elbow\"",
+    "noResults": "Nenhum resultado encontrado. Ajuste a busca ou selecione outra categoria.",
+    "codesLabel": "Códigos de referência",
+    "sizesLabel": "Dimensões",
     "materialLabel": "Material",
     "sdrLabel": "SDR",
-    "seriesLabel": "Baureihe",
-    "pressureLabel": "Betriebsdruck",
-    "lenLabel": "Stablänge",
+    "seriesLabel": "Série",
+    "pressureLabel": "Pressão de trabalho",
+    "lenLabel": "Comprimento da barra",
     "cats": {
       "pipes": {
-        "label": "Rohre",
-        "desc": "PPR und PPRCT Rohre, Standard, faserverstärkt und UV-stabilisiert, 12 Baureihen."
+        "label": "Tubos",
+        "desc": "Tubos PP-R e PP-RCT, standard, reforçados com fibra e estabilizados contra UV, 12 séries."
       },
       "fittings": {
-        "label": "Formteile",
-        "desc": "Muffenschweiß und Elektroschweißformteile, d20–d125, 13 Artikelfamilien."
+        "label": "Conexões",
+        "desc": "Conexões para termofusão e eletrofusão, d20–d125, 13 famílias de produtos."
       },
       "transitionFittings": {
-        "label": "Übergangsfittings",
-        "desc": "Übergänge auf Gewinde und Messing, für Bestandsanschlüsse und Armaturen, 13 Familien."
+        "label": "Conexões de transição",
+        "desc": "Transições para rosca e latão, para conexões existentes e registros, 13 famílias."
       },
       "valves": {
-        "label": "Armaturen",
-        "desc": "Kugelhähne, Unterputzventile, Verteilerbatterien, 9 Artikelfamilien."
+        "label": "Válvulas",
+        "desc": "Válvulas de esfera, registros de embutir, distribuidores, 9 famílias de produtos."
       },
       "weldInSaddles": {
-        "label": "Einschweißsattel",
-        "desc": "Abzweige ohne Rohrtrennung, mit und ohne Gewinde, 3 Familien."
+        "label": "Selas de derivação",
+        "desc": "Derivações sem corte da tubulação principal, com e sem rosca, 3 famílias."
       },
       "accessories": {
-        "label": "Zubehör",
-        "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen, 5 Artikelfamilien."
+        "label": "Acessórios",
+        "desc": "Abraçadeiras, flanges soltas, juntas de vedação, bujões, 5 famílias de produtos."
       },
       "tools": {
-        "label": "Werkzeuge",
-        "desc": "Rohrschneider, Schweißgeräte und -werkzeuge für alle vier Fügeverfahren, 14 Familien."
+        "label": "Ferramentas",
+        "desc": "Cortadores de tubo, equipamentos e ferramentas de soldagem para os 4 métodos de união, 14 famílias."
       }
     },
     "rfq": {
-      "title": "Projektanfrage",
-      "desc": "Fordern Sie direkt ein Angebot für <strong>{title}</strong> an.",
-      "button": "Zur Anfrage"
+      "title": "Solicitação de projeto",
+      "desc": "Solicite diretamente uma cotação para <strong>{title}</strong>.",
+      "button": "Ir para a solicitação"
     },
     "similar": {
-      "title": "Weitere aus {category}"
+      "title": "Outros produtos em {category}"
     },
     "items": {
       "k-pipe-pp-r-sdr-6": {
-        "seo_p1": "Das K Pipe PPR SDR 6 ist ein hochleistungsfähiges Rohr aus unserer umfassenden Rohrsystemkategorie. Es wurde entwickelt, um anspruchsvolle Flüssigkeitstransporte sicher und effizient zu bewältigen.",
-        "seo_p2": "Dieses Rohr besteht aus langlebigem PPR Material und ist mit der Einstufung SDR 6 (Baureihe S 2.5) für einen hohen Betriebsdruck von bis zu 2.0 MPa bei 20°C ausgelegt. Die Standardlänge von 4 Metern ermöglicht eine schnelle Installation.",
-        "seo_p3": "Dank der hervorragenden chemischen und thermischen Beständigkeit eignet sich das SDR 6 Rohr ideal für industrielle Anwendungen und die Trinkwasserversorgung. Die glatte Innenfläche minimiert Druckverluste und verhindert Ablagerungen.",
+        "seo_p1": "O K-Pipe PP-R SDR 6 é um tubo de alto desempenho da nossa ampla categoria de sistemas de tubulação. Foi desenvolvido para conduzir fluidos em condições exigentes com total segurança e eficiência.",
+        "seo_p2": "Fabricado em PP-R durável, este tubo possui classificação SDR 6 (Série S 2.5) projetada para uma pressão de trabalho elevada de até 2,0 MPa a 20 °C. O comprimento padrão em barras de 4 metros proporciona uma instalação ágil.",
+        "seo_p3": "Devido à excelente resistência química e térmica, o tubo SDR 6 é ideal para aplicações industriais e abastecimento de água potável. Sua superfície interna espelhada minimiza perdas de carga e previne incrustações.",
         "faq": [
           {
-            "q": "Für welche Betriebstemperaturen ist SDR 6 geeignet?",
-            "a": "Es ist für Dauerbetriebstemperaturen bis zu 70°C ausgelegt und bietet bei 20°C eine Druckfestigkeit von 20 Bar."
+            "q": "Para quais temperaturas de operação o SDR 6 é indicado?",
+            "a": "É projetado para temperaturas contínuas de operação de até 70 °C, suportando uma pressão de até 20 bar a 20 °C."
           },
           {
-            "q": "Welche Vorteile bietet die hohe Wandstärke?",
-            "a": "Die Baureihe SDR 6 (S 2.5) bietet maximale Druckresistenz und mechanische Stabilität bei stark beanspruchten Anlagen."
+            "q": "Quais são as vantagens da maior espessura de parede?",
+            "a": "A série SDR 6 (S 2.5) oferece máxima resistência à pressão e robustez mecânica para instalações sob severas solicitações."
           },
           {
-            "q": "Kann ich dieses Rohr für Kaltwasser nutzen?",
-            "a": "Ja, es eignet sich exzellent für Kaltwassersysteme, da die glatte Oberfläche Inkrustationen und Bakterienwachstum effektiv verhindert."
+            "q": "Posso utilizar este tubo para água fria?",
+            "a": "Sim, é excelente para sistemas de água fria, pois sua superfície lisa impede eficazmente a formação de incrustações e o desenvolvimento bacteriano."
           }
         ]
       },
       "k-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das K Pipe PPRCT SDR 7.4 repräsentiert die nächste Generation der Kunststoffrohrsysteme. Es vereint verbesserte Materialeigenschaften mit einer optimierten Wandstärke für maximale Durchflussmengen.",
-        "seo_p2": "Gefertigt aus hochkristallinem PPRCT, bietet dieses Rohr bei SDR 7.4 (S 3.2) einen beeindruckenden Nenndruck von 2.0 MPa bei 20°C. Die reduzierte Wandstärke spart Gewicht, ohne Kompromisse bei der Stabilität einzugehen.",
-        "seo_p3": "Typische Einsatzgebiete umfassen komplexe Heizungs-, Klima- und Sanitäranlagen. Durch das PPRCT Material profitieren Installateure von einer höheren Langzeitfestigkeit auch bei höheren Temperaturen.",
+        "seo_p1": "O K-Pipe PP-RCT SDR 7.4 representa a nova geração em sistemas de tubulação plástica. Combina propriedades aprimoradas de matéria-prima com espessura de parede otimizada para máxima vazão.",
+        "seo_p2": "Produzido em PP-RCT de alta cristalinidade, este tubo em SDR 7.4 (S 3.2) oferece uma impressionante pressão nominal de 2,0 MPa a 20 °C. A espessura de parede reduzida economiza peso sem comprometer a estabilidade.",
+        "seo_p3": "As aplicações típicas abrangem instalações complexas de aquecimento, climatização e sanitárias. Com o material PP-RCT, os instaladores contam com maior resistência sob pressão contínua, mesmo em temperaturas elevadas.",
         "faq": [
           {
-            "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
-            "a": "PPRCT steht für eine verbesserte kristalline Struktur, die höhere Drücke bei höheren Temperaturen erlaubt, sodass dünnere Wandstärken möglich sind."
+            "q": "O que significa PP-RCT em comparação ao PP-R?",
+            "a": "PP-RCT indica uma estrutura cristalina aprimorada, que suporta maiores pressões em temperaturas mais altas, possibilitando paredes mais finas."
           },
           {
-            "q": "Ist die Durchflussmenge bei SDR 7.4 höher?",
-            "a": "Ja, durch die reduzierten Wandstärken des PPRCT wird bei gleichem Außendurchmesser eine bis zu 17 % höhere Durchflusskapazität erreicht."
+            "q": "A vazão é maior no tubo SDR 7.4?",
+            "a": "Sim, devido à espessura de parede reduzida do PP-RCT, alcança-se uma capacidade de vazão até 17% superior com o mesmo diâmetro externo."
           },
           {
-            "q": "Eignet sich SDR 7.4 für Heizsysteme?",
-            "a": "Absolut, das Material ist thermisch extrem widerstandsfähig und daher ideal für Vorlaufleitungen in modernen Heizanlagen."
+            "q": "O SDR 7.4 é indicado para sistemas de aquecimento?",
+            "a": "Sem dúvida. O material é extremamente resistente termicamente, sendo ideal para linhas de distribuição em sistemas modernos de aquecimento."
           }
         ]
       },
       "k-pipe-pp-r-sdr-11": {
-        "seo_p1": "Das K-Pipe PP-R SDR 11 ist die Standardlösung für eine Vielzahl von Sanitär- und Heizungsanwendungen. Es zeichnet sich durch seine Zuverlässigkeit und einfache Handhabung aus.",
-        "seo_p2": "Mit einer SDR 11 Klassifizierung (Baureihe S 5) ist dieses PP-R Rohr für einen Betriebsdruck von 1.2 MPa bei 20°C zertifiziert. Die 4-Meter-Stangen lassen sich flexibel und passgenau verschweißen.",
-        "seo_p3": "Es wird häufig in Kaltwasserverteilungen und als vielseitige Leitung in der Haustechnik eingesetzt. Die homogene Schweißverbindung garantiert eine lebenslange Dichtigkeit ohne mechanische Schwachstellen.",
+        "seo_p1": "O K-Pipe PP-R SDR 11 é a solução padrão para diversas aplicações sanitárias e prediais. Destaca-se pela alta confiabilidade e facilidade de manuseio.",
+        "seo_p2": "Com classificação SDR 11 (Série S 5), este tubo PP-R é certificado para uma pressão de trabalho de 1,2 MPa a 20 °C. As barras de 4 metros permitem soldagens flexíveis e com perfeito ajuste.",
+        "seo_p3": "É amplamente utilizado em redes de distribuição de água fria e como tubulação versátil em instalações prediais. A união por termofusão garante estanqueidade permanente sem pontos de fraqueza mecânica.",
         "faq": [
           {
-            "q": "Ist das Rohr für Kalt- und Warmwasser geeignet?",
-            "a": "Das SDR 11 Rohr ist hauptsächlich für Kaltwasser (20°C bei 12 Bar) und den Niederdruck-Warmwasserbereich (60°C bei 6 Bar) konzipiert."
+            "q": "O tubo é indicado para água fria e quente?",
+            "a": "O tubo SDR 11 é projetado principalmente para água fria (20 °C a 12 bar) e para circuitos de água quente de baixa pressão (60 °C a 6 bar)."
           },
           {
-            "q": "Wie wird das PP-R SDR 11 Rohr verlegt?",
-            "a": "Die Verlegung erfolgt über das Heizelement-Muffenschweißverfahren, wodurch absolut homogene, leckagefreie Verbindungen entstehen."
+            "q": "Como é feita a instalação do tubo PP-R SDR 11?",
+            "a": "A instalação é realizada por meio de termofusão com placa térmica, criando juntas homogêneas e 100% livres de vazamentos."
           },
           {
-            "q": "Gibt es Gewichtsabweichungen gegenüber anderen SDR-Klassen?",
-            "a": "Ja, durch die geringere Wanddicke ist das Rohr deutlich leichter und flexibler in der Handhabung auf der Baustelle."
+            "q": "Há diferença de peso em relação a outras classes SDR?",
+            "a": "Sim, por ter menor espessura de parede, o tubo é consideravelmente mais leve e fácil de manusear no canteiro de obras."
           }
         ]
       },
       "k-pipe-purple-pp-r-sdr-11": {
-        "seo_p1": "Das violett eingefärbte K-Pipe Purple PP-R SDR 11 dient der eindeutigen Kennzeichnung spezifischer Leitungssysteme. Es verhindert Verwechslungen bei der Installation von getrennten Wasserkreisläufen.",
-        "seo_p2": "Die violette Signalfarbe kennzeichnet in der Regel Betriebswasser, Regenwasser oder Bewässerungsanlagen. Technisch entspricht es dem Standard-PP-R mit SDR 11 (1.2 MPa bei 20°C) und bietet dieselbe hohe Qualität.",
-        "seo_p3": "Durch den Einsatz dieses speziellen Rohrs wird die Anlagensicherheit erhöht und die normgerechte Trennung von Trink- und Brauchwasser visuell sichergestellt. Perfekt für nachhaltige Wassermanagement-Systeme.",
+        "seo_p1": "O tubo K-Pipe Purple PP-R SDR 11 na cor violeta destina-se à identificação inequívoca de sistemas específicos de tubulação, evitando confusões na instalação de redes segregadas.",
+        "seo_p2": "A cor violeta de sinalização é tipicamente utilizada para água de reúso, água pluvial ou redes de irrigação. Tecnicamente corresponde ao PP-R standard SDR 11 (1,2 MPa a 20 °C), mantendo a mesma alta qualidade.",
+        "seo_p3": "O uso deste tubo especial aumenta a segurança operacional da instalação e assegura visualmente a separação normativa entre água potável e água não potável. Ideal para sistemas sustentáveis de gestão hídrica.",
         "faq": [
           {
-            "q": "Wofür steht die violette Farbe?",
-            "a": "Sie dient der optischen Unterscheidung von Leitungssystemen für Betriebswasser, Grauwasser oder Regenwassernutzung gemäß internationalen Vorgaben."
+            "q": "O que representa a cor violeta?",
+            "a": "Ela serve para a diferenciação visual de redes de água de processo, águas cinzas ou aproveitamento de água de chuva, conforme diretrizes internacionais."
           },
           {
-            "q": "Kann das Rohr mit normalen PP-R Fittings verschweißt werden?",
-            "a": "Ja, das violette Rohr ist kompatibel mit allen K Aqua Standard-Fittings und wird mit den gleichen Parametern verschweißt."
+            "q": "O tubo pode ser soldado com conexões normais de PP-R?",
+            "a": "Sim, o tubo violeta é totalmente compatível com todas as conexões standard K-Aqua e é soldado com os mesmos parâmetros."
           },
           {
-            "q": "Beeinflusst die Farbe die Qualität des Materials?",
-            "a": "Nein, die physikalischen und chemischen Eigenschaften sind identisch mit dem regulären PP-R SDR 11 Rohr."
+            "q": "A coloração altera a qualidade do material?",
+            "a": "Não, as propriedades físicas e químicas são idênticas às do tubo PP-R SDR 11 convencional."
           }
         ]
       },
       "k-fiber-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das K-Fiber Pipe PPRCT SDR 7.4 ist ein hochmodernes, faserverstärktes Verbundrohr. Die integrierte Faserschicht reduziert die Längenausdehnung erheblich.",
-        "seo_p2": "Die innovative PPRCT-Basis wird durch eine Faser-Mittelschicht ergänzt. Mit SDR 7.4 (S 3.2) hält das Rohr Drücken von bis zu 2.0 MPa bei 20°C stand, bei gleichzeitig bis zu 50 % geringerer thermischer Ausdehnung.",
-        "seo_p3": "Dies macht das Rohr zur perfekten Wahl für Steigleitungen und lange Trassen in der Gebäudetechnik, bei denen weniger Befestigungspunkte erforderlich sind, was Installationszeit und Materialkosten spart.",
+        "seo_p1": "O K-Fiber Pipe PP-RCT SDR 7.4 é um tubo composto reforçado com fibra de última geração. A camada intermediária de fibra reduz drasticamente a dilatação linear.",
+        "seo_p2": "A base inovadora de PP-RCT é complementada por uma camada central de fibra de vidro. Com SDR 7.4 (S 3.2), o tubo suporta pressões de até 2,0 MPa a 20 °C, com uma dilatação térmica até 50% menor.",
+        "seo_p3": "Isso torna o tubo a escolha ideal para colunas montantes (prumadas) e longos trechos horizontais em instalações prediais, exigindo menos pontos de fixação e reduzindo tempo e custos de montagem.",
         "faq": [
           {
-            "q": "Wie stark reduziert die Faser die thermische Längenausdehnung?",
-            "a": "Die integrierte Glasfaserschicht verringert die lineare Ausdehnung im Vergleich zu massiven PP-R Rohren um bis zu 75 %."
+            "q": "Quanto a fibra reduz a dilatação térmica linear?",
+            "a": "A camada integrada de fibra de vidro reduz a dilatação linear em até 75% em comparação com tubos maciços de PP-R."
           },
           {
-            "q": "Muss das Faserrohr vor dem Schweißen geschält werden?",
-            "a": "Nein, im Gegensatz zu Stabi-Rohren mit Aluminiumschicht kann unser Faserrohr direkt und ohne Vorbehandlung verschweißt werden."
+            "q": "O tubo de fibra precisa ser raspado antes da soldagem?",
+            "a": "Não. Ao contrário dos tubos com camada de alumínio (Stabi), nosso tubo de fibra pode ser soldado diretamente por termofusão sem necessidade de raspagem."
           },
           {
-            "q": "Ist das Rohr für zentrale Steigleitungen geeignet?",
-            "a": "Ja, durch die extrem hohe Eigensteifigkeit und Druckbeständigkeit ist es die optimale Wahl für große Steigstränge."
+            "q": "O tubo é indicado para prumadas centrais?",
+            "a": "Sim, devido à sua altíssima rigidez estrutural e resistência à pressão, é a escolha ideal para grandes colunas montantes."
           }
         ]
       },
       "k-fiberclima-pipe-pp-rct-sdr-11": {
-        "seo_p1": "Spezialisiert auf Kühl- und Heizwasseranwendungen bietet das K-Fiberclima Pipe PPRCT SDR 11 optimale Performance für Klimasysteme. Es ist auf thermische Effizienz und Stabilität ausgelegt.",
-        "seo_p2": "Das faserverstärkte PPRCT Material (SDR 11, S 5) gewährleistet einen sicheren Betrieb bei 1.6 MPa (20°C) und 0.8 MPa (70°C). Die dünneren Wände erlauben einen extrem hohen Volumenstrom.",
-        "seo_p3": "Besonders in großen HLK-Anlagen (Heizung, Lüftung, Klima) spielt dieses Rohr seine Stärken aus. Es verhindert Korrosion im Kühlkreislauf und sorgt für einen wartungsfreien, energieeffizienten Betrieb.",
+        "seo_p1": "Especializado em sistemas de água gelada e aquecimento, o K-Fiberclima Pipe PP-RCT SDR 11 oferece desempenho ideal para sistemas de climatização (AVAC). É projetado para máxima eficiência térmica e estabilidade dimensional.",
+        "seo_p2": "O material PP-RCT reforçado com fibra (SDR 11, S 5) garante operação segura a 1,6 MPa (20 °C) e 0,8 MPa (70 °C). As paredes mais delgadas permitem uma vazão volumétrica extremamente elevada.",
+        "seo_p3": "Em grandes instalações de AVAC (aquecimento, ventilação e ar-condicionado), este tubo demonstra toda a sua superioridade. Previne a corrosão no circuito hidráulico e assegura operação energeticamente eficiente e livre de manutenção.",
         "faq": [
           {
-            "q": "Was macht das Rohr ideal für Klimakaltwasser?",
-            "a": "Die geringe Wärmeleitfähigkeit von PPRCT verhindert die Kondenswasserbildung deutlich besser als bei metallischen Rohren."
+            "q": "Por que este tubo é ideal para água gelada de climatização?",
+            "a": "A baixa condutividade térmica do PP-RCT reduz expressivamente a formação de condensação em comparação com tubulações metálicas."
           },
           {
-            "q": "Wie verhält es sich bei der Zirkulation von Frostschutzmitteln?",
-            "a": "Es ist äußerst beständig gegen gängige Glykole und Frostschutzmittel, wodurch Leckagen durch Materialermüdung verhindert werden."
+            "q": "Como ele se comporta na circulação de fluidos anticongelantes?",
+            "a": "Apresenta excelente resistência química a soluções de glicol e aditivos anticongelantes comuns, evitando vazamentos decorrentes de degradação do material."
           },
           {
-            "q": "Können die Rohre für große Volumenströme genutzt werden?",
-            "a": "Durch die dünnere Wandung (SDR 11) bei maximaler Stabilität ermöglicht es extrem große Volumenströme in Industrienetzen."
+            "q": "Os tubos podem ser utilizados para grandes vazões volumétricas?",
+            "a": "Sim, graças à espessura de parede reduzida (SDR 11) com máxima estabilidade mecânica, permite vazões volumétricas elevadas em redes industriais e comerciais."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-74": {
-        "seo_p1": "Das klassische K-Fiber Pipe PP-R SDR 7.4 ist die bewährte Lösung, wenn Faserverstärkung und extreme Druckfestigkeit gefordert sind. Es minimiert thermische Dehnungen effektiv.",
-        "seo_p2": "Durch die Kombination von PP-R und Fasertechnologie erreicht dieses Rohr (SDR 7.4, S 3.2) einen Spitzenbetriebsdruck von 2.5 MPa bei 20°C. Es bietet maximale Stabilität für anspruchsvolle Netze.",
-        "seo_p3": "Ob im industriellen Anlagenbau oder bei komplexen Warmwasser-Zirkulationssystemen, dieses Rohr sorgt für eine starre, deformationsfreie Verlegung und höchste Betriebssicherheit über Jahrzehnte.",
+        "seo_p1": "O clássico K-Fiber Pipe PP-R SDR 7.4 é a solução consagrada para projetos que exigem reforço de fibra e alta resistência à pressão, minimizando eficazmente a dilatação térmica.",
+        "seo_p2": "Combinando PP-R e tecnologia de fibra de vidro, este tubo (SDR 7.4, S 3.2) atinge uma pressão de trabalho de ponta de 2,5 MPa a 20 °C, oferecendo máxima estabilidade para redes exigentes.",
+        "seo_p3": "Seja em instalações industriais ou em redes complexas de circulação de água quente, este tubo assegura uma instalação rígida, sem deformações e com a mais alta confiabilidade por décadas.",
         "faq": [
           {
-            "q": "Ist SDR 7.4 für hohe Temperaturen zugelassen?",
-            "a": "Ja, es toleriert Temperaturen bis 70°C bei einem Nenndruck von 1.0 MPa (10 Bar) und kurzzeitige Spitzen von 95°C."
+            "q": "O SDR 7.4 é aprovado para altas temperaturas?",
+            "a": "Sim, suporta temperaturas contínuas de até 70 °C com pressão nominal de 1,0 MPa (10 bar) e picos de curta duração de até 95 °C."
           },
           {
-            "q": "Wie viele Befestigungsschellen sind bei langen Strecken nötig?",
-            "a": "Dank der Faserverstärkung können die Befestigungsabstände im Vergleich zu Standardrohren drastisch vergrößert werden."
+            "q": "Quantas abraçadeiras de fixação são necessárias em longos trechos?",
+            "a": "Graças ao reforço de fibra de vidro, o espaçamento entre suportes pode ser significativamente ampliado em comparação com tubos comuns."
           },
           {
-            "q": "Gibt es Korrosionsrisiken bei wechselnden Wasserqualitäten?",
-            "a": "Nein, das PP-R Material ist 100 % korrosionsfrei und unabhängig vom pH-Wert des transportierten Mediums."
+            "q": "Há risco de corrosão com variações na qualidade da água?",
+            "a": "Não, o material PP-R é 100% imune à corrosão, independentemente do pH do fluido transportado."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-9": {
-        "seo_p1": "Das K-Fiber Pipe PP-R SDR 9 schließt die Lücke zwischen Standard- und Hochdruck-Faserrohren. Es bietet eine exzellente Balance aus Durchflusskapazität und Druckbeständigkeit.",
-        "seo_p2": "Mit der Baureihe S 4 (SDR 9) ist das PP-R-Faserrohr für Drücke von bis zu 2.0 MPa bei 20°C zugelassen. Die Wandstärken sind für mittlere bis hohe Belastungen optimiert.",
-        "seo_p3": "Dieses Rohr wird oft in gewerblichen und industriellen Projekten eingesetzt, wo herkömmliche Rohre an ihre Grenzen stoßen, aber die extremen Reserven von SDR 7.4 noch nicht benötigt werden.",
+        "seo_p1": "O K-Fiber Pipe PP-R SDR 9 preenche a lacuna entre tubos de fibra standard e de alta pressão, proporcionando excelente equilíbrio entre capacidade de vazão e resistência hidrostática.",
+        "seo_p2": "Com a série S 4 (SDR 9), este tubo de fibra em PP-R é homologado para pressões de até 2,0 MPa a 20 °C, com espessuras de parede otimizadas para solicitações intermediárias a elevadas.",
+        "seo_p3": "É frequentemente especificado em empreendimentos comerciais e industriais onde tubulações convencionais atingem seus limites operacionais, mas sem a necessidade das reservas extremas do SDR 7.4.",
         "faq": [
           {
-            "q": "Warum SDR 9 anstelle von SDR 7.4 wählen?",
-            "a": "SDR 9 bietet einen exzellenten Kompromiss aus höherer Durchflusskapazität (dünnere Wand) und immer noch extremer Druckbeständigkeit."
+            "q": "Por que escolher SDR 9 em vez de SDR 7.4?",
+            "a": "O SDR 9 oferece um compromisso vantajoso entre maior capacidade de vazão (parede mais fina) e elevada resistência à pressão."
           },
           {
-            "q": "Kann es mit Standard-PP-R Formteilen verschweißt werden?",
-            "a": "Absolut, das Faserrohr SDR 9 ist voll kompatibel mit unseren K Aqua SDR 6 und SDR 7.4 PP-R Fittings."
+            "q": "Pode ser soldado com conexões normais de PP-R?",
+            "a": "Sim, o tubo de fibra SDR 9 é totalmente compatível com as conexões PP-R K-Aqua SDR 6 e SDR 7.4."
           },
           {
-            "q": "Ist es für die Trinkwasserversorgung zugelassen?",
-            "a": "Ja, es erfüllt alle hygienischen Standards für heißes und kaltes Trinkwasser weltweit."
+            "q": "É certificado para distribuição de água potável?",
+            "a": "Sim, cumpre integralmente todas as normas higiênicas internacionais para água potável fria e quente."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-11": {
-        "seo_p1": "Für gewichtsoptimierte und dennoch formstabile Verlegungen ist das K-Fiber Pipe PP-R SDR 11 konzipiert. Es verbindet die Vorteile der Fasertechnologie mit einem leichten Profil.",
-        "seo_p2": "Das PP-R Material mit Fasereinlage in der SDR 11 Klassifizierung erlaubt Drücke bis 1.6 MPa bei 20°C. Es bietet einen optimalen inneren Querschnitt für große Wassermengen.",
-        "seo_p3": "Es eignet sich hervorragend für Klimakaltwasser und große Verteilerleitungen. Die Installation verläuft dank des geringen Gewichts und der reduzierten Befestigungsabstände sehr zügig.",
+        "seo_p1": "Desenvolvido para traçados que exigem baixo peso e estabilidade dimensional, o K-Fiber Pipe PP-R SDR 11 une as vantagens da fibra a um perfil leve e funcional.",
+        "seo_p2": "O PP-R com camada de fibra na classe SDR 11 suporta pressões de até 1,6 MPa a 20 °C, oferecendo excelente área de passagem útil para grandes volumes de água.",
+        "seo_p3": "É excelente para redes de água gelada em climatização e coletores de distribuição principal. A instalação é rápida graças ao peso reduzido e ao menor número de suportes.",
         "faq": [
           {
-            "q": "Sind die Schweißzeiten bei SDR 11 Rohren kürzer?",
-            "a": "Ja, aufgrund der reduzierten Wanddicke verkürzen sich die Aufwärmzeiten am Heizelement, was den Arbeitsprozess beschleunigt."
+            "q": "Os tempos de soldagem são menores nos tubos SDR 11?",
+            "a": "Sim, devido à menor espessura de parede, os tempos de aquecimento na placa térmica diminuem, agilizando o processo de instalação."
           },
           {
-            "q": "Was sind die Einsatzgrenzen für dieses SDR 11 Rohr?",
-            "a": "Es ist auf maximale Drücke von 16 Bar bei 20°C und 8 Bar bei 60°C ausgelegt."
+            "q": "Quais são os limites de operação para este tubo SDR 11?",
+            "a": "É dimensionado para pressões máximas de 16 bar a 20 °C e 8 bar a 60 °C."
           },
           {
-            "q": "Profitieren Kühlsysteme von diesem Rohr?",
-            "a": "Ja, der hervorragende Isolationswert minimiert den Energieverlust in Kühlnetzen signifikant."
+            "q": "Os sistemas de refrigeração se beneficiam deste tubo?",
+            "a": "Sim, o excelente isolamento térmico natural do polímero minimiza expressivamente as perdas de energia térmica na rede."
           }
         ]
       },
       "k-fiber-pipe-pp-r-sdr-17": {
-        "seo_p1": "Das großdimensionierte K-Fiber Pipe PP-R SDR 17 ist speziell für industrielle Großanlagen und Hauptversorgungsstränge entwickelt worden. Es bietet massive Durchflussquerschnitte.",
-        "seo_p2": "Mit Durchmessern von bis zu 630 mm und der Baureihe S 8 (SDR 17) bewältigt dieses Rohr 0,8 MPa bei 20°C bzw. 0,4 MPa bei 60°C. Die Faserverstärkung sorgt selbst bei diesen großen Dimensionen für hohe Dimensionsstabilität.",
-        "seo_p3": "Ideal für Fernkältenetze, kommunale Wasserversorgung oder als Hauptsteigleitung in Hochhäusern. Es ist die korrosionsfreie Alternative zu schweren metallischen Großrohren.",
+        "seo_p1": "O tubo de grande diâmetro K-Fiber Pipe PP-R SDR 17 foi desenvolvido especialmente para instalações industriais de grande porte e adutoras principais, oferecendo ampla seção de escoamento.",
+        "seo_p2": "Com diâmetros de até 630 mm e série S 8 (SDR 17), opera a 0,8 MPa a 20 °C e 0,4 MPa a 60 °C. O reforço de fibra garante alta estabilidade dimensional mesmo em diâmetros gigantes.",
+        "seo_p3": "Ideal para redes de água gelada distrital (District Cooling), saneamento e adutoras principais em edifícios altos. Representa a alternativa imune à corrosão frente a pesadas tubulações de aço.",
         "faq": [
           {
-            "q": "Ist SDR 17 für hohe Netzdruckstufen geeignet?",
-            "a": "SDR 17 (PN 10) ist speziell für Niederdrucknetze mit enormen Volumenströmen konzipiert, z. B. bei Fernkältenetzen."
+            "q": "O SDR 17 é indicado para redes de alta pressão?",
+            "a": "O SDR 17 (PN 10) foi desenvolvido especificamente para redes de baixa pressão com vazões volumétricas volumosas, como em redes de District Cooling."
           },
           {
-            "q": "Wie erfolgt die Verbindung von solch großen Dimensionen?",
-            "a": "Großrohre (90 mm bis 630 mm) werden vorzugsweise durch Heizelement-Stumpfschweißen oder mit Elektroschweißmuffen verbunden."
+            "q": "Como é feita a junção em diâmetros tão grandes?",
+            "a": "Tubos de grandes diâmetros (90 mm a 630 mm) são unidos preferencialmente por solda de topo (Butt Fusion) ou por eletrofusão."
           },
           {
-            "q": "Was ist der Hauptvorteil gegenüber Stahlrohren?",
-            "a": "Das PP-R Rohr rostet nicht, wiegt einen Bruchteil von Stahlrohren und bewahrt dauerhaft einen perfekten Durchflussquerschnitt."
+            "q": "Qual a principal vantagem em relação a tubos de aço?",
+            "a": "O tubo PP-R não sofre corrosão, pesa uma fração do aço e mantém a seção útil de fluxo 100% inalterada ao longo de toda a vida útil."
           }
         ]
       },
       "k-fiber-uv-pipe-pp-r-sdr-74": {
-        "seo_p1": "Das K-Fiber UV Pipe PP-R SDR 7.4 löst das Problem der UV-Degradation bei ungeschützter Außenverlegung. Es verfügt über eine spezielle, wetterfeste Außenschicht.",
-        "seo_p2": "Neben der thermisch stabilisierenden Faser-Mittelschicht und der PP-R-Basis (SDR 7.4, 2.0 MPa) schützt der UV-Mantel das Rohr dauerhaft vor direkter Sonneneinstrahlung und Witterungseinflüssen.",
-        "seo_p3": "Dadurch ist es perfekt für Dachinstallationen, Freiluftanlagen oder Brückenleitungen geeignet. Zusätzliche Isolierungen oder Anstriche zum UV-Schutz können komplett entfallen.",
+        "seo_p1": "O K-Fiber UV Pipe PP-R SDR 7.4 soluciona a degradação por radiação solar em instalações externas desprotegidas, graças à sua camada externa resistente a intempéries.",
+        "seo_p2": "Além da camada intermediária de fibra estabilizadora e da base de PP-R (SDR 7.4, 2,0 MPa), a capa de proteção UV preserva o tubo permanentemente contra radiação solar direta e intempéries.",
+        "seo_p3": "Perfeito para coberturas, instalações aparentes ao ar livre e travessias em pontes. Dispensa totalmente o uso de isolamentos adicionais ou pinturas de proteção contra raios solares.",
         "faq": [
           {
-            "q": "Wie wird der UV-Schutz bei diesem Rohr erreicht?",
-            "a": "Eine spezielle, co-extrudierte schwarze Außenschicht absorbiert und blockiert schädliche UV-Strahlung, bevor sie das PP-R Material angreift."
+            "q": "Como é obtida a proteção UV neste tubo?",
+            "a": "Uma camada externa preta coextrudada absorve e bloqueia a radiação UV nociva antes que ela atinja o núcleo estrutural de PP-R."
           },
           {
-            "q": "Muss die UV-Schicht vor dem Schweißen entfernt werden?",
-            "a": "Nein, da es sich um eine homogene Kunststoffschicht handelt, wird sie beim Muffenschweißen einfach mit dem Fitting verschmolzen."
+            "q": "A camada UV precisa ser removida antes da soldagem?",
+            "a": "Não, por ser uma camada polimérica homogênea, ela é fundida diretamente junto com a conexão durante a termofusão."
           },
           {
-            "q": "Ist die Lebensdauer im Freien eingeschränkt?",
-            "a": "Die UV-Schutzschicht verhindert die Polymer-Degradation, sodass die volle Lebensdauer von 50 Jahren auch bei direkter Sonneneinstrahlung gewährleistet ist."
+            "q": "A vida útil ao ar livre é reduzida?",
+            "a": "A camada protetora contra UV previne a fotodegradação do polímero, assegurando a vida útil projetada de 50 anos mesmo sob incidência solar direta."
           }
         ]
       },
       "k-fiber-uv-pipe-pp-rct-sdr-74": {
-        "seo_p1": "Das Premiumrohr K-Fiber UV Pipe PPRCT SDR 7.4 vereint alle Top-Eigenschaften: Hochleistungsmaterial, Faserverstärkung und integrierten UV-Schutz in einem einzigen Produkt.",
-        "seo_p2": "Basierend auf PPRCT für höchste Temperaturbeständigkeit (bis zu 70°C bei 1.0 MPa) und ausgestattet mit einer UV-resistenten Schale, ist dieses SDR 7.4 Rohr das ultimative Allround-Talent für extreme Bedingungen.",
-        "seo_p3": "Ob solare Anbindeleitungen, Kühltürme auf Industriegebäuden oder anspruchsvolle Außeninstallationen in heißen Klimazonen, dieses Rohr garantiert maximale Lebensdauer ohne Materialermüdung.",
+        "seo_p1": "O tubo premium K-Fiber UV Pipe PP-RCT SDR 7.4 reúne todas as tecnologias de ponta: matéria-prima de alta performance, reforço de fibra e proteção UV integrada em um único produto.",
+        "seo_p2": "Baseado em PP-RCT para resistência térmica superior (até 70 °C a 1,0 MPa) e dotado de capa resistente a raios UV, este tubo SDR 7.4 é a solução definitiva para condições operacionais extremas.",
+        "seo_p3": "Indicado para linhas de coletores solares, torres de resfriamento em coberturas e instalações externas em climas quentes, garantindo máxima durabilidade sem fadiga do material.",
         "faq": [
           {
-            "q": "Kombiniert dieses Rohr UV-Schutz mit höherer Durchflussleistung?",
-            "a": "Ja, durch das hochkristalline PPRCT Material kann eine dünnere Wandstärke verwendet werden, während die UV-Schicht extremen Außenschutz bietet."
+            "q": "Este tubo combina proteção UV com maior capacidade de vazão?",
+            "a": "Sim, o PP-RCT de alta cristalinidade possibilita paredes mais delgadas, enquanto a camada UV fornece proteção externa integral."
           },
           {
-            "q": "Sind UV-beständige K Aqua Formteile verfügbar?",
-            "a": "Die Formteile werden in der Regel durch Isolierung, Farbanstrich oder UV-Schutzbänder geschützt, während die langen Rohrtrassen werksseitig geschützt sind."
+            "q": "Existem conexões K-Aqua resistentes a UV?",
+            "a": "As conexões geralmente são protegidas por isolamento térmico, pintura ou fitas de proteção UV, enquanto as barras de tubos já saem protegidas de fábrica."
           },
           {
-            "q": "Eignet sich dieses Rohr für Kühltürme?",
-            "a": "Es ist die optimale Wahl, da es sowohl der prallen Sonne als auch den chemischen Zusätzen im Kühlwasser dauerhaft standhält."
+            "q": "Este tubo é adequado para torres de resfriamento?",
+            "a": "É a opção perfeita, pois resiste continuamente tanto à forte radiação solar direta quanto aos aditivos químicos da água de resfriamento."
           }
         ]
       },
       "cap": {
-        "seo_p1": "Die Endkappe (Cap) ist ein unverzichtbares Formteil innerhalb unserer Fittings-Kategorie, das für den dauerhaften und sicheren Abschluss von Leitungsenden konzipiert wurde.",
-        "seo_p2": "Gefertigt aus hochwertigem PP-R-Material, entspricht die Kappe den gängigen SDR-Klassen der Rohre und bietet höchste Druckbeständigkeit sowie Maßgenauigkeit für eine homogene Verschweißung.",
-        "seo_p3": "Sie eignet sich optimal für die endgültige oder vorübergehende Stilllegung von Rohrsträngen in Trinkwasser- und Heizungsnetzen, wobei eine absolut leckagefreie und wartungsfreie Abdichtung garantiert wird.",
+        "seo_p1": "O tampão (Cap) é uma conexão indispensável da nossa linha de conexões, projetada para o fechamento permanente e seguro de extremidades de tubulação.",
+        "seo_p2": "Fabricado em PP-R de alta qualidade, o tampão atende às classes SDR padrão dos tubos e oferece máxima resistência à pressão e precisão dimensional para termofusão homogênea.",
+        "seo_p3": "É ideal para a desativação definitiva ou temporária de ramais em redes de água potável e aquecimento, assegurando vedação estanque sem necessidade de manutenção.",
         "faq": [
           {
-            "q": "Kann die Endkappe für eine Druckprüfung genutzt werden?",
-            "a": "Ja, nach ordnungsgemäßer Verschweißung und Abkühlung hält die Endkappe dem vollen Prüfdruck des Systems (bis zu 30 Bar) problemlos stand."
+            "q": "O tampão pode ser utilizado para testes de estanqueidade e pressão?",
+            "a": "Sim, após a termofusão correta e o resfriamento completo, o tampão suporta com segurança a pressão de teste integral do sistema (até 30 bar)."
           },
           {
-            "q": "Wie verschließe ich temporäre Leitungen?",
-            "a": "Für temporäre Absperrungen empfehlen wir Stopfen mit Gewinde; die Endkappe wird homogen verschweißt und ist somit für den permanenten Verschluss gedacht."
+            "q": "Como fechar tubulações provisórias?",
+            "a": "Para bloqueios temporários, recomendamos bujões roscados; o tampão de solda é fundido de forma homogênea, sendo destinado ao fechamento definitivo."
           },
           {
-            "q": "Ist die Endkappe bei allen Temperaturen dicht?",
-            "a": "Durch die thermische Verschmelzung gibt es keine unterschiedlichen Ausdehnungskoeffizienten, wodurch sie von 0°C bis 95°C absolut leckagefrei bleibt."
+            "q": "O tampão permanece estanque em todas as faixas de temperatura?",
+            "a": "Sim, graças à fusão térmica molecular não existem coeficientes de dilatação distintos, mantendo a junta 100% estanque de 0 °C a 95 °C."
           }
         ]
       },
       "socket": {
-        "seo_p1": "Die Muffe (Socket) ist das grundlegende Verbindungselement unserer Fittings, entwickelt für die einfache und zuverlässige Verlängerung von geraden Rohrstrecken.",
-        "seo_p2": "Aus robustem PP-R gefertigt, stellt dieses Formteil durch Muffenschweißung eine stoffschlüssige und extrem druckfeste Verbindung her, die perfekt auf unsere SDR-Rohrserien abgestimmt ist.",
-        "seo_p3": "Ob im privaten Sanitärbereich oder im industriellen Anlagenbau, die Muffe sorgt für einen nahtlosen Durchfluss ohne Querschnittsverengung und verhindert langfristige Druckverluste.",
+        "seo_p1": "A luva (Socket) é o elemento fundamental de união da nossa linha de conexões, desenvolvida para o prolongamento simples e confiável de trechos retos de tubulação.",
+        "seo_p2": "Fabricada em PP-R robusto, esta conexão cria por termofusão uma união por fusão molecular extremamente resistente à pressão, perfeitamente compatível com as séries de tubos SDR.",
+        "seo_p3": "Seja em instalações prediais ou industriais, a luva garante fluxo contínuo sem estrangulamento da seção útil, prevenindo perdas de carga ao longo do tempo.",
         "faq": [
           {
-            "q": "Wie tief muss das Rohr in die Muffe eingeführt werden?",
-            "a": "Die Einstecktiefe ist in unseren technischen Richtlinien exakt definiert und sollte zur Vermeidung von Querschnittsverengungen auf dem Rohr markiert werden."
+            "q": "Qual a profundidade de inserção do tubo na luva?",
+            "a": "A profundidade de inserção é rigorosamente definida em nossas diretrizes técnicas e deve ser marcada no tubo para evitar estrangulamento da seção."
           },
           {
-            "q": "Können Muffen auch für Faserrohre verwendet werden?",
-            "a": "Ja, unsere Standard-Muffen sind für alle K Aqua PP-R, PPRCT und Faserrohre uneingeschränkt kompatibel."
+            "q": "As luvas podem ser usadas em tubos de fibra?",
+            "a": "Sim, nossas luvas padrão são totalmente compatíveis com todos os tubos PP-R, PP-RCT e reforçados com fibra K-Aqua."
           },
           {
-            "q": "Besteht die Gefahr von Mikroleckagen an der Naht?",
-            "a": "Nein, da durch die Polyfusion eine stoffschlüssige, molekulare Verbindung entsteht, die so stark wie das Rohr selbst ist."
+            "q": "Há risco de microvazamentos na junta soldada?",
+            "a": "Não, pois a termofusão cria uma união molecular homogênea, com a mesma resistência mecânica do próprio tubo."
           }
         ]
       },
       "elbow-45": {
-        "seo_p1": "Der 45°-Winkel (Elbow 45°) ermöglicht schonende Richtungsänderungen im Leitungsverlauf und gehört zu unseren am häufigsten verwendeten Fittings.",
-        "seo_p2": "Dank präzisem Spritzguss aus langlebigem PP-R garantiert der Winkel eine perfekte Kompatibilität mit allen K Aqua Rohrsystemen und hält höchsten Systemdrücken stand.",
-        "seo_p3": "Besonders bei komplexen Leitungsführungen in engen Schächten oder bei der Umgehung von Hindernissen reduziert dieser 45-Grad-Winkel Strömungswiderstände effektiv.",
+        "seo_p1": "O joelho 45° (Elbow 45°) permite mudanças suaves de direção no traçado da tubulação, sendo uma das conexões mais utilizadas na nossa linha.",
+        "seo_p2": "Injetado com precisão em PP-R durável, o joelho garante compatibilidade perfeita com todos os sistemas de tubulação K-Aqua e suporta as mais altas pressões de trabalho.",
+        "seo_p3": "Especialmente em traçados complexos em shafts estreitos ou no contorno de vigas e pilares, este joelho de 45 graus reduz expressivamente a perda de carga e turbulências.",
         "faq": [
           {
-            "q": "Wann sollte ich einen 45-Grad- anstelle eines 90-Grad-Winkels verwenden?",
-            "a": "Ein 45-Grad-Winkel reduziert den Druckverlust und den Strömungswiderstand (Zeta-Wert) im System deutlich und beugt Geräuschentwicklung vor."
+            "q": "Quando devo utilizar um joelho 45° em vez de um joelho 90°?",
+            "a": "O joelho de 45 graus reduz significativamente a perda de carga e a resistência ao fluxo (coeficiente Zeta), além de prevenir ruídos hidráulicos."
           },
           {
-            "q": "Sind K Aqua Winkel strömungsoptimiert?",
-            "a": "Ja, die Innenradien unserer 45-Grad-Winkel sind extrem glatt und hydraulisch optimiert, um Kavitation zu verhindern."
+            "q": "Os joelhos K-Aqua possuem geometria interna com otimização de fluxo?",
+            "a": "Sim, os raios internos dos nossos joelhos de 45 graus são extremamente lisos e hidraulicamente otimizados para evitar fenômenos de cavitação."
           },
           {
-            "q": "Können zwei 45-Grad-Winkel zu einem 90-Grad-Bogen kombiniert werden?",
-            "a": "Ja, diese Praxis wird oft bei großen Dimensionen angewendet, um weite Bögen zu kreieren und den Pumpenwiderstand zu senken."
+            "q": "Dois joelhos 45° podem ser combinados para formar uma curva de 90°?",
+            "a": "Sim, essa prática é muito recomendada em grandes diâmetros para criar curvas longas e reduzir a resistência nas bombas."
           }
         ]
       },
       "elbow-45-femalemale": {
-        "seo_p1": "Der 45°-Winkel mit Innen-/Außenschweißende (Elbow 45° Female/Male) bietet maximale Flexibilität bei beengten Platzverhältnissen und direkten Anschlusskombinationen.",
-        "seo_p2": "Das PP-R Formteil verfügt über ein Muffenende und ein Spitzende, was eine direkte Verschweißung mit anderen Fittings ohne ein zusätzliches Rohrstück ermöglicht.",
-        "seo_p3": "In der kompakten Verteilerinstallation oder beim Bau von engen Vorwandsystemen spart dieses Bauteil wertvolle Montagezeit und reduziert die Anzahl der Schweißstellen.",
+        "seo_p1": "O joelho 45° macho/fêmea (Elbow 45° Female/Male) oferece máxima flexibilidade em espaços confinados e conexões diretas entre peças.",
+        "seo_p2": "A conexão em PP-R possui uma extremidade bolsa (fêmea) e uma extremidade ponta (macho), permitindo a soldagem direta em outras conexões sem necessidade de niple de tubo intermediário.",
+        "seo_p3": "Na montagem de barriletes compactos ou instalações em drywall, este componente economiza tempo de montagem e reduz a quantidade de soldas.",
         "faq": [
           {
-            "q": "Eignet sich der 45-Grad I/A Winkel für parallele Versprünge?",
-            "a": "Ja, kombiniert mit einem Standard-45-Grad-Winkel können so extrem kompakte Etagenversprünge realisiert werden."
+            "q": "O joelho 45° macho/fêmea é adequado para desvios paralelos?",
+            "a": "Sim, combinado com um joelho 45° fêmea convencional, permite realizar desvios de prumada e degraus extremamente compactos."
           },
           {
-            "q": "Ist die Druckbeständigkeit der Innen-/Außen-Verbindung genauso hoch?",
-            "a": "Die homogene Polyfusionsschweißung gewährleistet auch hier eine 100-prozentige Druckfestigkeit (PN 25) an der Verbindungsstelle."
+            "q": "A resistência à pressão da união macho/fêmea é a mesma?",
+            "a": "A termofusão homogênea garante 100% de resistência à pressão (PN 25) no ponto de união."
           },
           {
-            "q": "Für welche Dimensionen ist dieser Winkel verfügbar?",
-            "a": "Er wird typischerweise für die gängigen Dimensionen in der Etagenverteilung in 20 mm und 25 mm produziert."
+            "q": "Em quais diâmetros este joelho está disponível?",
+            "a": "É produzido tipicamente nas bitolas mais comuns para distribuição em pavimentos, como 20 mm e 25 mm."
           }
         ]
       },
       "elbow-90": {
-        "seo_p1": "Der 90°-Winkel (Elbow 90°) ist der Standard-Richtungswechsler in unserem Fittings-Sortiment, ausgelegt für präzise, rechtwinklige Abzweigungen.",
-        "seo_p2": "Dieses formstabile PP-R Bauteil ist so konstruiert, dass es die mechanischen und thermischen Belastungen des Systems problemlos aufnimmt und mit allen SDR-Stufen kompatibel ist.",
-        "seo_p3": "Perfekt für Eckverlegungen und Wanddurchführungen in der gesamten Gebäudetechnik, er garantiert einen dichten und sicheren 90-Grad-Knick ohne strömungsstörende Kanten.",
+        "seo_p1": "O joelho 90° (Elbow 90°) é o componente padrão para desvios de direção em nossa linha de conexões, projetado para derivações ortogonais precisas.",
+        "seo_p2": "Fabricado em PP-R de alta estabilidade dimensional, suporta com facilidade as solicitações mecânicas e térmicas da rede, sendo compatível com todas as classes SDR.",
+        "seo_p3": "Perfeito para cantos de parede e passagens de laje em instalações prediais e industriais, garantindo uma curvatura estanque e segura sem cantos vivos que prejudiquem o fluxo.",
         "faq": [
           {
-            "q": "Erhöht ein 90-Grad-Winkel den Verschleiß durch Strömungsdruck?",
-            "a": "Dank der Wandstärkenreserven und der extrem glatten Innenflächen des PP-R Materials ist Verschleiß durch Abrasion praktisch ausgeschlossen."
+            "q": "O joelho 90° aumenta o desgaste por pressão de fluxo?",
+            "a": "Graças às reservas de espessura de parede e à superfície interna espelhada do PP-R, o desgaste por abrasão é praticamente inexistente."
           },
           {
-            "q": "Gibt es Richtungsmarkierungen auf den K Aqua Winkeln?",
-            "a": "Ja, unsere Formteile weisen oft Produktionsmarkierungen auf, die bei der exakten axialen Ausrichtung auf der Baustelle helfen."
+            "q": "Existem marcações de alinhamento nos joelhos K-Aqua?",
+            "a": "Sim, nossas conexões apresentam linhas-guia moldadas que auxiliam no alinhamento axial exato durante a instalação na obra."
           },
           {
-            "q": "Kann der 90-Grad-Winkel für Steigleitungen genutzt werden?",
-            "a": "Ja, er ist ideal, um Stränge aus Schächten auf die jeweilige Etage abzuwinkeln."
+            "q": "O joelho 90° pode ser utilizado em prumadas?",
+            "a": "Sim, é ideal para derivar colunas montantes em shafts para os respectivos pavimentos."
           }
         ]
       },
       "elbow-90-femalemale": {
-        "seo_p1": "Der 90°-Winkel mit Innen-/Außenschweißende (Elbow 90° Female/Male) ist die Lösung für ultrakompakte Eckverbindungen direkt an anderen Bauteilen.",
-        "seo_p2": "Dieses intelligente PP-R Fitting kombiniert ein reguläres Muffenende mit einem Einsteckende, um Formteil-an-Formteil-Schweißungen nahtlos umzusetzen.",
-        "seo_p3": "Insbesondere bei der Montage von Armaturen oder Heizkreisverteilern reduziert dieses Design den Platzbedarf erheblich und minimiert den Material- sowie Arbeitsaufwand.",
+        "seo_p1": "O joelho 90° macho/fêmea (Elbow 90° Female/Male) é a solução para uniões em ângulo reto ultracompactas diretamente em outros componentes.",
+        "seo_p2": "Esta inteligente conexão de PP-R combina uma bolsa padrão com uma ponta macho, viabilizando soldagens conexão-com-conexão sem tubos intermediários.",
+        "seo_p3": "Especialmente na instalação de registros ou coletores de aquecimento, este design reduz consideravelmente o espaço ocupado e diminui o tempo de mão de obra.",
         "faq": [
           {
-            "q": "Was bedeutet I/A (M/F) bei diesem Winkel?",
-            "a": "Es bedeutet Innen/Außen (Male/Female). Eine Seite wird als Muffe geschweißt, die andere Seite kann direkt in einen anderen Fitting eingeschweißt werden."
+            "q": "O que significa M/F (macho/fêmea) neste joelho?",
+            "a": "Significa que um lado é bolsa de encaixe (fêmea) e o outro lado é ponta (macho) que encaixa diretamente em outra conexão por termofusão."
           },
           {
-            "q": "Welchen Vorteil bietet die I/A-Konstruktion?",
-            "a": "Sie spart Platz und vermeidet ein zusätzliches Rohrstück zwischen zwei Fittings, was bei engen Platzverhältnissen entscheidend ist."
+            "q": "Qual a principal vantagem da geometria macho/fêmea?",
+            "a": "Economiza espaço e elimina o pedaço de tubo intermediário entre duas conexões, crucial em nichos apertados."
           },
           {
-            "q": "Ändert sich dadurch der Schweißvorgang?",
-            "a": "Der Prozess bleibt gleich, es werden lediglich Matrize und Patrize am Schweißspiegel gleichzeitig für Rohr und Fitting genutzt."
+            "q": "O procedimento de soldagem muda?",
+            "a": "O procedimento é idêntico: utilizam-se a matriz macho e a matriz fêmea da placa térmica simultaneamente para tubo e conexão."
           }
         ]
       },
       "electrofusion-socket": {
-        "seo_p1": "Die Heizwendelschweißmuffe (Electrofusion Socket) ist die Premiumlösung für Verbindungen, bei denen konventionelles Muffenschweißen aus Platzgründen nicht möglich ist.",
-        "seo_p2": "Ausgestattet mit integrierten Heizdrähten aus einer speziellen Legierung, verschmilzt dieses PP-R Fitting automatisch und computergesteuert mit dem Basisrohr.",
-        "seo_p3": "Ideal für Reparaturarbeiten in Schächten, nachträgliche Erweiterungen oder extrem schwer zugängliche Bereiche, sie bietet eine 100-prozentig sichere und protokollierbare Verbindung.",
+        "seo_p1": "A luva de eletrofusão (Electrofusion Socket) é a solução premium para conexões onde a termofusão convencional manual é inviável por restrições de espaço.",
+        "seo_p2": "Equipada com resistências elétricas integradas em liga especial, esta conexão de PP-R funde-se automaticamente ao tubo sob controle computadorizado.",
+        "seo_p3": "Ideal para reparos em shafts estreitos, ampliações posteriores ou locais de difícil acesso, oferece uma união 100% segura com registro de dados de soldagem.",
         "faq": [
           {
-            "q": "Muss das Rohr vor dem Elektroschweißen geschält werden?",
-            "a": "Ja, das Entfernen der Oxidschicht mittels eines speziellen Rohrschälers ist zwingend erforderlich für eine einwandfreie Verschmelzung."
+            "q": "O tubo precisa ser raspado antes da eletrofusão?",
+            "a": "Sim, a remoção da camada superficial de óxido com um raspador apropriado é obrigatória para garantir a fusão molecular perfeita."
           },
           {
-            "q": "Welche Schweißgeräte können verwendet werden?",
-            "a": "Es müssen K Aqua oder universelle Elektroschweißgeräte verwendet werden, die den Barcode auf der Muffe auslesen können."
+            "q": "Quais máquinas de eletrofusão podem ser utilizadas?",
+            "a": "Devem ser utilizados equipamentos de eletrofusão K-Aqua ou universais capazes de ler o código de barras da conexão."
           },
           {
-            "q": "Wann ist Elektroschweißen besser als Heizelementmuffenschweißen?",
-            "a": "Besonders bei eingeschränkter Bewegungsfreiheit (z. B. im Schacht), wo das Gerät für die Muffenschweißung keinen Platz findet."
+            "q": "Quando a eletrofusão é superior à termofusão convencional?",
+            "a": "Especialmente em situações de espaço restrito (ex.: dentro de caixas e shafts), onde a máquina de termofusão manual não tem espaço para manobra."
           }
         ]
       },
       "flange-adaptor": {
-        "seo_p1": "Der Bundkragen (Flange Adaptor) fungiert als wesentliches Verbindungselement, um Kunststoffrohre sicher und lösbar an metallische Flansche oder Armaturen anzubinden.",
-        "seo_p2": "Das PP-R Bauteil ist so geformt, dass es einen perfekten Sitz für Losflansche bietet und den hohen Anpressdruck gleichmäßig auf die Dichtung überträgt.",
-        "seo_p3": "Unverzichtbar im industriellen Rohrleitungsbau und bei großen Verteileranlagen, ermöglicht der Bundkragen den sicheren Übergang auf Pumpen, Großventile und Stahlsysteme.",
+        "seo_p1": "O colarinho para flange (Flange Adaptor) atua como conexão essencial para unir tubulações plásticas de forma segura e desmontável a flanges metálicas ou válvulas.",
+        "seo_p2": "O componente de PP-R possui sede usinada para encaixe perfeito de flanges soltas, transmitindo o torque dos parafusos de modo uniforme sobre a junta de vedação.",
+        "seo_p3": "Indispensável em tubulações industriais e barriletes de grande porte, permite transições seguras para bombas centrífugas, válvulas borboleta e redes de aço.",
         "faq": [
           {
-            "q": "Welche Flanschnormen unterstützt der K Aqua Bundkragen?",
-            "a": "Er ist kompatibel mit handelsüblichen DIN/EN-Flanschen (z. B. PN10, PN16) und erfordert den passenden K Aqua Losflansch."
+            "q": "Quais normas de flanges são suportadas pelo colarinho K-Aqua?",
+            "a": "É compatível com flanges padronizadas DIN/EN (ex.: PN 10, PN 16), utilizando a flange solta K-Aqua correspondente."
           },
           {
-            "q": "Benötige ich eine zusätzliche Dichtung?",
-            "a": "Ja, zwischen dem PP-R Bundkragen und der Gegenflanke muss zwingend eine passende EPDM-Flachdichtung eingelegt werden."
+            "q": "É necessária uma junta de vedação adicional?",
+            "a": "Sim, entre o colarinho de PP-R e a contraflange é indispensável instalar uma junta plana de EPDM adequada."
           },
           {
-            "q": "Wie wird der Bundkragen mit dem Rohr verbunden?",
-            "a": "Er wird wie ein herkömmlicher Fitting durch Heizelementmuffenschweißen direkt auf das Rohr oder in eine Muffe geschweißt."
+            "q": "Como o colarinho é unido ao tubo?",
+            "a": "É soldado diretamente no tubo ou em uma conexão por meio de termofusão com placa térmica, como uma conexão convencional."
           }
         ]
       },
       "reducing-bush": {
-        "seo_p1": "Die Reduziermuffe (Reducing Bush) ermöglicht den stufenlosen Übergang zwischen unterschiedlichen Rohrdimensionen innerhalb unserer Fittings-Familie.",
-        "seo_p2": "Hergestellt aus hochfestem PP-R, ist dieses Reduzierstück so konstruiert, dass der Strömungsverlauf optimiert und Kavitation an der Querschnittsveränderung vermieden wird.",
-        "seo_p3": "Sie wird häufig eingesetzt, um Hauptleitungen in kleinere Versorgungsstränge zu verjüngen, wodurch Materialkosten gesenkt und der Netzdruck präzise ausbalanciert wird.",
+        "seo_p1": "A bucha de redução (Reducing Bush) possibilita a transição contínua entre diferentes diâmetros de tubos dentro da nossa família de conexões.",
+        "seo_p2": "Fabricada em PP-R de alta resistência mecânica, esta bucha de redução é projetada para otimizar o padrão de escoamento e evitar cavitação na mudança de seção.",
+        "seo_p3": "É amplamente utilizada para reduzir tubulações principais em ramais de menor diâmetro, reduzindo custos de material e equilibrando a pressão da rede com precisão.",
         "faq": [
           {
-            "q": "Kann ich mehrere Dimensionen auf einmal überspringen?",
-            "a": "Ja, wir bieten Reduktionen an, die mehrstufige Querschnittsverengungen in einem Bauteil realisieren, z.B. von 63 mm auf 32 mm."
+            "q": "Posso reduzir vários diâmetros de uma só vez?",
+            "a": "Sim, disponibilizamos reduções com saltos múltiplos de diâmetro em uma única peça, por exemplo de 63 mm para 32 mm."
           },
           {
-            "q": "Wird die Reduziermuffe in oder auf das Rohr geschweißt?",
-            "a": "Die Reduzierung ist in der Regel als Innen/Außen (I/A) Fitting konzipiert: Die große Seite passt in eine Muffe, die kleine Seite nimmt das Rohr auf."
+            "q": "A bucha de redução é soldada dentro ou fora do tubo?",
+            "a": "A bucha é concebida como conexão ponta/bolsa (macho/fêmea): o diâmetro maior encaixa em uma conexão e o diâmetro menor recebe o tubo."
           },
           {
-            "q": "Hat die Verjüngung Einfluss auf den Betriebsdruck?",
-            "a": "Nein, die Wandstärken der K Aqua Reduktionen sind so dimensioniert, dass sie dem Nenndruck des Gesamtsystems (bis PN 25) entsprechen."
+            "q": "A redução de diâmetro afeta a pressão de trabalho?",
+            "a": "Não, as espessuras de parede das reduções K-Aqua são dimensionadas para suportar a pressão nominal de todo o sistema (até PN 25)."
           }
         ]
       },
       "reducing-tee": {
-        "seo_p1": "Das reduzierte T-Stück (Reducing Tee) vereint eine 90-Grad-Abzweigung mit einer gleichzeitigen Querschnittsverjüngung im Abzweig.",
-        "seo_p2": "Dieses multifunktionale PP-R Fitting bietet durch sein monolithisches Design höchste Stabilität und Druckfestigkeit, passend für alle Standard-SDR-Anwendungen.",
-        "seo_p3": "In der Etagenverteilung von Trink- und Heizungswasser sorgt das reduzierte T-Stück für einen effizienten Aufbau ohne zusätzliche Reduzierstücke, was die Installation deutlich beschleunigt.",
+        "seo_p1": "O tê de redução (Reducing Tee) combina uma derivação a 90 graus com a redução simultânea do diâmetro na saída lateral.",
+        "seo_p2": "Esta conexão multifuncional de PP-R oferece máxima rigidez estrutural e resistência à pressão através de seu design monobloco injetado, adequada para todas as aplicações SDR padrão.",
+        "seo_p3": "Na distribuição de água potável e climatização em pavimentos, o tê de redução proporciona montagem eficiente sem conexões adicionais de redução, acelerando consideravelmente a instalação.",
         "faq": [
           {
-            "q": "Wann nutze ich ein reduziertes T-Stück anstelle eines Standard-T-Stücks mit Reduktion?",
-            "a": "Ein reduziertes T-Stück spart eine zusätzliche Schweißnaht und verringert den Bauraum, was es effizienter und sicherer macht."
+            "q": "Quando devo utilizar um tê de redução em vez de um tê padrão com bucha de redução?",
+            "a": "O tê de redução elimina uma solda intermediária e economiza espaço físico, tornando a instalação mais rápida, compacta e segura."
           },
           {
-            "q": "Ist der Abzweig immer die reduzierte Seite?",
-            "a": "Meistens ja, da typischerweise von der Hauptleitung kleinere Abzweige zu den Verbrauchern geführt werden."
+            "q": "A saída lateral é sempre o lado reduzido?",
+            "a": "Geralmente sim, pois a aplicação típica envolve derivar ramais de menor diâmetro a partir da tubulação principal."
           },
           {
-            "q": "Können diese T-Stücke strömungstechnische Geräusche verursachen?",
-            "a": "Nein, die Innenradien sind hydraulisch optimiert, um Turbulenzen und Kavitationsgeräusche bei Querschnittsänderungen zu minimieren."
+            "q": "Esses tês podem gerar ruídos hidráulicos?",
+            "a": "Não, os raios internos são hidraulicamente otimizados para minimizar turbulências e ruídos de cavitação nas transições de seção."
           }
         ]
       },
       "reducing-tee-large-sizes": {
-        "seo_p1": "Das reduzierte T-Stück für Großdimensionen (Reducing Tee Large Sizes) ist speziell für industrielle Hauptleitungen mit großen Querschnitten konzipiert.",
-        "seo_p2": "Dieses massiv ausgelegte PP-R Bauteil hält extremen Volumenströmen und Systemdrücken stand und ermöglicht einen sicheren, verjüngten Abzweig aus großen Versorgungssträngen.",
-        "seo_p3": "Häufig verwendet in Fernkältenetzen und Hauptsteigleitungen, garantiert dieses Fitting absolute Stabilität und dauerhafte Dichtigkeit bei höchsten Belastungen.",
+        "seo_p1": "O tê de redução para grandes diâmetros (Reducing Tee Large Sizes) foi projetado especificamente para redes principais e instalações industriais de grande porte.",
+        "seo_p2": "Este robusto componente de PP-R suporta vazões volumétricas e pressões de rede elevadas, possibilitando derivações reduzidas seguras a partir de tubulações mestras.",
+        "seo_p3": "Frequente em redes de District Cooling e prumadas principais de edifícios altos, garante estabilidade mecânica absoluta e estanqueidade permanente sob condições severas.",
         "faq": [
           {
-            "q": "Welches Spezialwerkzeug wird für die Montage benötigt?",
-            "a": "Für die exakte Fräsung des Loches ist ein spezieller K Aqua Anbohrer erforderlich, sowie ein Sattelschweißwerkzeug zur Erwärmung."
+            "q": "Quais ferramentas especiais são necessárias para a montagem?",
+            "a": "Para a furação exata utiliza-se uma broca especial K-Aqua e uma ferramenta de soldagem para selas térmicas."
           },
           {
-            "q": "Kann ein Sattel auf einem unter Druck stehenden Rohr montiert werden?",
-            "a": "Nein, das Leitungssystem muss zwingend entleert und drucklos sein, bevor die Anbohrung und Schweißung erfolgt."
+            "q": "A derivação por sela pode ser montada com a tubulação pressurizada?",
+            "a": "Não, o sistema de tubulação deve estar despressurizado e drenado antes da furação e termofusão."
           },
           {
-            "q": "Ist die Sattelverbindung so stark wie ein T-Stück?",
-            "a": "Ja, durch die tiefe Polyfusionsverschmelzung an der Rohrwandung erreicht der Sattelabzweig dieselbe Druckstufe wie das Basisrohr."
+            "q": "A derivação por sela é tão resistente quanto um tê?",
+            "a": "Sim, a fusão molecular profunda na parede do tubo confere à derivação a mesma classe de pressão do tubo base."
           }
         ]
       },
       "tee": {
-        "seo_p1": "Das gleichschenklige T-Stück (Tee) ist das klassische Abzweig-Fitting für eine symmetrische Strömungsteilung in PP-R Netzwerken.",
-        "seo_p2": "Gefertigt aus robustem Polypropylen (PP-R), bietet es drei gleich dimensionierte Muffenenden, die den Nenndruck des Rohrsystems vollumfänglich unterstützen.",
-        "seo_p3": "Es ist das Herzstück jeder Ring- und Reihenleitung in Sanitärinstallationen und gewährleistet eine zuverlässige, druckverlustarme Verteilung des Mediums.",
+        "seo_p1": "O tê 90° igual (Tee) é a conexão clássica de derivação para divisão simétrica de fluxo em redes de PP-R.",
+        "seo_p2": "Injetado em PP-R robusto, possui três saídas de igual diâmetro que suportam integralmente a pressão nominal projetada para o sistema de tubulação.",
+        "seo_p3": "É a peça central de redes em anel e ramais em instalações hidráulicas prediais e industriais, assegurando distribuição confiável e de baixa perda de carga.",
         "faq": [
           {
-            "q": "Verringert das T-Stück den Leitungsquerschnitt?",
-            "a": "Nein, das Innendesign unserer T-Stücke ist auf vollen Durchgang ausgelegt, um den Volumenstrom nicht zu drosseln."
+            "q": "O tê reduz a seção útil da tubulação?",
+            "a": "Não, o design interno dos nossos tês possui passagem plena para não restringir a vazão volumétrica do sistema."
           },
           {
-            "q": "Ist ein T-Stück anfälliger für Ablagerungen?",
-            "a": "Durch das extrem glatte PP-R Material (Rauigkeitswert 0,007 mm) haben Kalk und Biofilme auch in den Abzweigen keine Chance sich festzusetzen."
+            "q": "O tê é suscetível a incrustações?",
+            "a": "Devido à superfície extremamente lisa do PP-R (rugosidade de 0,007 mm), calcário e biofilmes não conseguem se aderir nas derivações."
           },
           {
-            "q": "Werden bei großen T-Stücken andere Schweißzeiten benötigt?",
-            "a": "Ja, die Anwärm-, Umstell- und Abkühlzeiten sind abhängig von der Dimension und strikt nach den DVS-Richtlinien einzuhalten."
+            "q": "Tês de grandes dimensões exigem tempos de solda diferenciados?",
+            "a": "Sim, os tempos de aquecimento, transição e resfriamento variam conforme o diâmetro e devem seguir rigorosamente as normas DVS."
           }
         ]
       },
       "cross": {
-        "seo_p1": "Das Kreuzstück (Cross) ermöglicht die Verteilung eines Hauptstroms in drei unterschiedliche Richtungen innerhalb einer kompakten Installationsebene.",
-        "seo_p2": "Dieses vierfache PP-R Fitting ist strömungstechnisch optimiert, um Turbulenzen zu minimieren, und fügt sich nahtlos in unsere hochdruckfesten SDR-Serien ein.",
-        "seo_p3": "Perfekt für komplexe Verteilerschränke und zentrale Kreuzungspunkte in der Haustechnik, es ersetzt mehrere T-Stücke und spart so wertvollen Bauraum und Installationszeit.",
+        "seo_p1": "A cruzeta (Cross) permite a distribuição de um fluxo principal em três direções distintas dentro de um único plano compacto de instalação.",
+        "seo_p2": "Esta conexão quádrupla de PP-R é hidraulicamente otimizada para minimizar turbulências, integrando-se perfeitamente às nossas linhas de tubos de alta pressão SDR.",
+        "seo_p3": "Ideal para barriletes compactos, caixas de distribuição e cruzamentos centrais, substitui múltiplos tês e economiza espaço e tempo de montagem.",
         "faq": [
           {
-            "q": "Verursacht das Kreuzstück hohe Druckverluste?",
-            "a": "Da vier Ströme aufeinandertreffen können, ist der Zeta-Wert höher als bei geraden Rohren, das großzügige Innendesign hält den Verlust jedoch minimal."
+            "q": "A cruzeta provoca perda de carga elevada?",
+            "a": "Por reunir quatro fluxos, o coeficiente Zeta é ligeiramente superior ao de tubos retos, mas o design interno amplo mantém as perdas no nível mínimo."
           },
           {
-            "q": "In welchen Situationen ist ein Kreuz zwingend?",
-            "a": "Besonders in Vorwandinstallationen oder Fußbodenheizungsverteilern, wo extrem flach und symmetrisch gebaut werden muss."
+            "q": "Em quais situações a cruzeta é indispensável?",
+            "a": "Principalmente em instalações embutidas em drywall e coletores de piso aquecido, onde o traçado precisa ser plano e simétrico."
           },
           {
-            "q": "Sind die Abzweige immer gleich groß?",
-            "a": "Bei unserem Standard-Kreuzstück sind alle vier Anschlüsse gleich dimensioniert (z.B. 4x 25mm)."
+            "q": "Todas as saídas possuem o mesmo diâmetro?",
+            "a": "Na nossa cruzeta padrão, todas as quatro extremidades possuem dimensões idênticas (ex.: 4x 25 mm)."
           }
         ]
       },
       "cross-over": {
-        "seo_p1": "Das Überspringstück (Cross-over) ist eine clevere Lösung für Kreuzungen von Kalt- und Warmwasserleitungen auf engstem Raum.",
-        "seo_p2": "Das geschwungene PP-R Formteil verfügt über integrierte Muffenenden und eine elegante Brückenform, die die Leitungsführung auf einer Ebene ohne Höhenversatz ermöglicht.",
-        "seo_p3": "Es verhindert Kollisionen bei Wandinstallationen und Fußbodenheizungen und garantiert einen reibungslosen Durchfluss bei optisch perfekter, flacher Leitungsverlegung.",
+        "seo_p1": "A curva de transposição (Cross-over) é uma solução inteligente para o cruzamento de redes de água quente e fria em espaços exíguos.",
+        "seo_p2": "A peça curva de PP-R possui bolsas integradas e geometria de ponte que viabiliza o cruzamento de tubulações no mesmo plano sem desnível na parede.",
+        "seo_p3": "Evita interferências em instalações embutidas e sistemas de piso radiante, garantindo fluxo desimpedido e acabamento limpo e nivelado.",
         "faq": [
           {
-            "q": "Wie groß ist der Bogen des Schwanenhalses?",
-            "a": "Die Biegung ist exakt so dimensioniert, dass ein kreuzendes K Aqua Rohr gleicher oder kleinerer Dimension berührungsfrei übersprungen wird."
+            "q": "Qual a altura do arco da curva de transposição?",
+            "a": "A curvatura é dimensionada para cruzar sem contato sobre um tubo K-Aqua de diâmetro igual ou inferior."
           },
           {
-            "q": "Werden für die Installation spezielle Muffen benötigt?",
-            "a": "Der Schwanenhals (Überbogen) verfügt typischerweise über ungeschweißte Rohrenden und wird beidseitig mit Standard-Muffen in das System integriert."
+            "q": "São necessárias conexões especiais para a instalação?",
+            "a": "O modelo com pontas lisas é soldado utilizando luvas normais em ambas as extremidades para integração ao sistema."
           },
           {
-            "q": "Darf ich ein gerades PP-R Rohr selbst mit Hitze zum Überbogen formen?",
-            "a": "Nein! Manuelles Biegen mit Heißluftgebläsen zerstört die molekulare Struktur des Rohres und führt zum sofortigen Erlöschen der Gewährleistung."
+            "q": "Posso dobrar um tubo PP-R reto a quente para fazer a transposição?",
+            "a": "Não! O aquecimento manual com soprador térmico degrada a estrutura molecular do polímero e anula imediatamente a garantia de fábrica."
           }
         ]
       },
       "cross-over-pipe": {
-        "seo_p1": "Das Überspringrohr (Cross-over Pipe) ist die verlängerte Version des Überspringstücks, ideal für Leitungsbrücken ohne direkte Muffenanbindung an den Enden.",
-        "seo_p2": "Hergestellt aus hochwertigem PP-R, bietet dieses Brückenbauteil reine Einsteckenden, die maximale Flexibilität beim Positionieren der Schweißmuffen erlauben.",
-        "seo_p3": "Installateure nutzen dieses Bauteil bei schwierigen Kreuzungen in großen Verteilersystemen, um die Verlegung flexibel an die Gegebenheiten der Baustelle anzupassen.",
+        "seo_p1": "O tubo de transposição (Cross-over Pipe) é a versão estendida da curva de transposição, ideal para travessias sem conexões soldadas diretamente nas extremidades da curva.",
+        "seo_p2": "Fabricado em PP-R de alta qualidade, possui extremidades ponta que proporcionam máxima flexibilidade no posicionamento das luvas de união.",
+        "seo_p3": "Instaladores utilizam este componente em cruzamentos complexos de grandes barriletes, adaptando o traçado com precisão às condições da obra.",
         "faq": [
           {
-            "q": "Was unterscheidet das Crossing Tee vom Kreuzstück?",
-            "a": "Das Crossing Tee ermöglicht das kreuzungsfreie Überspringen einer Leitung und integriert gleichzeitig einen Abzweig."
+            "q": "O que difere o tubo de transposição da cruzeta?",
+            "a": "O tubo de transposição permite o cruzamento físico de duas linhas independentes sem mistura de fluidos e sem derivação."
           },
           {
-            "q": "Wie wird dieses Bauteil verschweißt?",
-            "a": "Es wird analog zu Standard-Fittings mittels Heizelementmuffenschweißen in das Leitungsnetz eingebunden."
+            "q": "Como este componente é soldado?",
+            "a": "É soldado nas tubulações por termofusão com placa térmica, utilizando luvas padrão de PP-R."
           },
           {
-            "q": "Wird der Durchfluss durch die Konstruktion gehemmt?",
-            "a": "Trotz der kompakten Geometrie ist das Innere strömungsoptimiert, sodass keine signifikanten Querschnittsverengungen entstehen."
+            "q": "A geometria da peça restringe o fluxo?",
+            "a": "Apesar da curvatura compacta, o interior é hidraulicamente suave, não causando restrições significativas na seção de escoamento."
           }
         ]
       },
       "adaptor-socket-female-thread": {
-        "seo_p1": "Die Übergangsmuffe mit Innengewinde (Adaptor Socket Female Thread) bildet eine essenzielle Schnittstelle zwischen dem verschweißten PP-R Rohrsystem und metallischen Gewindekomponenten.",
-        "seo_p2": "Sie vereint einen robusten PP-R-Muffenkörper mit einem hochwertigen Metalleinsatz (Innengewinde). Dies sichert eine hervorragende Druckbeständigkeit bei den Standard-SDR-Stufen.",
-        "seo_p3": "Dieses Formteil ist unverzichtbar beim Anschluss von Armaturen, Manometern und speziellen Ventilen in der Gebäudeinstallation, um dauerhaft tropffreie Übergänge zu garantieren.",
+        "seo_p1": "A luva de transição com rosca fêmea (Adaptor Socket Female Thread) é a interface essencial entre o sistema soldado em PP-R e conexões roscadas metálicas.",
+        "seo_p2": "Combina um corpo robusto de PP-R com um inserto metálico de latão com rosca interna, garantindo resistência à pressão compatível com as classes SDR.",
+        "seo_p3": "Indispensável na ligação de registros, manômetros e válvulas especiais em instalações prediais, proporcionando transições seguras e permanentemente estanques.",
         "faq": [
           {
             "q": "Wozu dient die Montageplatte?",
@@ -3651,15 +3651,15 @@
   },
   "about": {
     "seo": {
-      "impressum1": "Die K Aqua PP-R und PPRCT Rohrsysteme werden von der KWT GmbH in Waldsolms, Deutschland, mit höchster Präzision hergestellt. Unser Impressum bietet unseren Kunden und Geschäftspartnern vollständige Transparenz über unsere Unternehmensstruktur, die gesetzlichen Vertreter und alle relevanten Handelsregisterdaten. Wir legen größten Wert auf eine offene Kommunikation und die Einhaltung sämtlicher rechtlicher Vorgaben im nationalen sowie internationalen Geschäftsverkehr. Die auf unseren Seiten zur Verfügung gestellten Informationen werden kontinuierlich geprüft und aktualisiert, um Ihnen stets korrekte technische und kaufmännische Daten unserer Kunststoffrohrsysteme zur Verfügung zu stellen.",
-      "impressum2": "Als weltweit agierender Hersteller von Premium-Kunststoffrohrlösungen für Trinkwasser, Heizungs- und Kühlungsanlagen sowie hochkomplexe Industrieanwendungen verpflichten wir uns zur strikten Einhaltung aller gesetzlichen und regulatorischen Standards. Dies schließt den Datenschutz, faire Wettbewerbsbedingungen und internationale Handelsrichtlinien mit ein. Eine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen und Software-Tools zur hydraulischen Berechnung kann jedoch nicht übernommen werden. Inhalt und Struktur der K Aqua Webseiten sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen, technischen Datenblättern oder Installationsrichtlinien bedarf der vorherigen Zustimmung.",
-      "kontakt1": "Haben Sie technische Fragen zu unseren PP-R/PPRCT-Rohren oder benötigen Sie Unterstützung bei einem internationalen Projekt? Das K Aqua Kontakt-Team in Waldsolms steht Ihnen gerne zur Verfügung.",
-      "kontakt2": "Ob isometrische Berechnungen, Schweißerschulungen vor Ort oder kaufmännische Anfragen, unsere Ingenieure und Vertriebsmitarbeiter antworten prompt, um den Erfolg Ihres Projekts sicherzustellen.",
-      "projektanfrage1": "Planen Sie ein wegweisendes Bauvorhaben? Senden Sie uns Ihre Projektanfrage für K Aqua PP-R und PPRCT Rohrsysteme. Unsere technische Abteilung in Waldsolms ist auf die Auslegung und Dimensionierung von Großinstallationen spezialisiert. Dazu gehören anspruchsvolle Hochhäuser, hygienisch sensible Krankenhäuser, weitreichende Fernkältenetze und komplexe industrielle Kühl- und Heizsysteme. Dank unserer jahrzehntelangen Erfahrung im Polymer-Engineering verstehen wir die spezifischen hydraulischen und thermischen Anforderungen, die an die Infrastruktur moderner Bauwerke gestellt werden. Mit K Aqua wählen Sie nicht nur ein Produkt, sondern eine ganzheitliche Systemlösung.",
-      "projektanfrage2": "Sobald Sie uns Ihre detaillierten Projektspezifikationen, P&ID-Pläne oder Isometrien mitteilen, beginnen unsere Fachingenieure mit einer tiefgehenden Analyse. Wir unterstützen Sie bei komplexen Druckverlustberechnungen, der Ermittlung von thermischen Längenausdehnungen und der exakten Positionierung von Fest- und Loslagern. Zudem erstellen wir präzise Materialauszüge (Bill of Materials) und konzipieren maßgeschneiderte Übergangsfittings für die Anbindung an metallische Großkomponenten. Unser Ziel ist es, Ihnen ein hydraulisch perfekt ausbalanciertes Rohrnetz zu entwerfen, das den Energieverbrauch Ihrer Pumpen minimiert und eine wartungsfreie Lebensdauer von über 50 Jahren garantiert.",
-      "projektanfrage3": "Diskretion und Zuverlässigkeit stehen bei uns an erster Stelle. Jede Projektanfrage wird streng vertraulich behandelt und ausschließlich von unserem qualifizierten deutschen Ingenieurteam bearbeitet. Wir koordinieren darüber hinaus die weltweite Logistik und gewährleisten, dass unsere High End-Rohre und Formteile termingerecht und unbeschadet auf Ihrer Baustelle eintreffen. Zusätzlich bieten wir Vor Ort-Schweißerschulungen durch unsere zertifizierten Instruktoren an, um sicherzustellen, dass die Installation exakt nach den Vorgaben des German Engineerings ausgeführt wird. Mit K Aqua sichern Sie maximale Effizienz, absolute Leckagefreiheit und die Langlebigkeit Ihres gesamten Rohrleitungssystems.",
-      "news1": "Bleiben Sie auf dem neuesten Stand mit aktuellen News von K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten und globalen Großprojekten.",
-      "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte bei Polypropylen Random Copolymer und Nachhaltigkeitsinitiativen in unserem Werk in Waldsolms."
+      "impressum1": "Os sistemas de tubulação PP-R e PP-RCT da K-Aqua são fabricados com a mais alta precisão pela KWT GmbH em Waldsolms, Alemanha. Nosso aviso legal oferece aos nossos clientes e parceiros comerciais total transparência sobre nossa estrutura corporativa, os representantes legais e todos os dados relevantes do registro comercial. Valorizamos a comunicação aberta e o cumprimento de todas as diretrizes legais nas transações comerciais nacionais e internacionais. As informações disponibilizadas em nossas páginas são continuamente verificadas e atualizadas para fornecer a você dados técnicos e comerciais sempre corretos sobre nossos sistemas de tubos plásticos.",
+      "impressum2": "Como fabricante global de soluções premium em tubulações plásticas para água potável, sistemas de aquecimento e resfriamento, bem como aplicações industriais de alta complexidade, comprometemo-nos com o cumprimento rigoroso de todas as normas legais e regulatórias. Isso inclui proteção de dados, condições de concorrência justa e diretrizes de comércio internacional. No entanto, não assumimos responsabilidade ou garantia quanto à atualidade, exatidão e integridade das informações e ferramentas de software disponibilizadas para cálculos hidráulicos. O conteúdo e a estrutura das páginas da web da K-Aqua são protegidos por direitos autorais. A reprodução de informações, folhas de dados técnicos ou diretrizes de instalação requer autorização prévia.",
+      "kontakt1": "Tem dúvidas técnicas sobre nossos tubos PP-R/PP-RCT ou precisa de suporte em um projeto internacional? A equipe de contato da K-Aqua em Waldsolms está à sua inteira disposição.",
+      "kontakt2": "Seja para cálculos isométricos, treinamentos de soldagem no local ou consultas comerciais, nossos engenheiros e representantes de vendas respondem prontamente para garantir o sucesso do seu projeto.",
+      "projektanfrage1": "Está planejando um projeto de construção inovador? Envie-nos a sua consulta de projeto para os sistemas de tubos PP-R e PP-RCT da K-Aqua. Nosso departamento técnico em Waldsolms é especializado no dimensionamento de grandes instalações. Isso inclui edifícios altos de grande porte, hospitais com exigências higiênicas rigorosas, extensas redes de refrigeração distrital e complexos sistemas industriais de aquecimento e resfriamento. Graças às nossas décadas de experiência em engenharia de polímeros, compreendemos os requisitos hidráulicos e térmicos específicos impostos à infraestrutura de edifícios modernos. Com a K-Aqua, você escolhe não apenas um produto, mas uma solução de sistema completa.",
+      "projektanfrage2": "Assim que você nos enviar suas especificações detalhadas de projeto, diagramas P&ID ou isométricos, nossos engenheiros especializados iniciarão uma análise aprofundada. Oferecemos suporte em cálculos complexos de perda de carga, determinação de dilatação térmica linear e posicionamento exato de pontos fixos e suportes deslizantes. Além disso, criamos listas de materiais precisas (Bill of Materials) e projetamos conexões de transição sob medida para a conexão com grandes componentes metálicos. Nosso objetivo é projetar para você uma rede de tubulações perfeitamente balanceada hidraulicamente, minimizando o consumo de energia de suas bombas e garantindo uma vida útil livre de manutenção por mais de 50 anos.",
+      "projektanfrage3": "Discrição e confiabilidade são nossas principais prioridades. Cada consulta de projeto é tratada com estrita confidencialidade e processada exclusivamente por nossa qualificada equipe de engenharia alemã. Além disso, coordenamos a logística global e garantimos que nossos tubos e conexões de ponta cheguem pontualmente e intactos ao seu canteiro de obras. Também oferecemos treinamentos de soldagem no local com nossos instrutores certificados, garantindo que a instalação seja realizada exatamente de acordo com os padrões da engenharia alemã. Com a K-Aqua, você garante máxima eficiência, estanqueidade absoluta e a longevidade de todo o seu sistema de tubulação.",
+      "news1": "Mantenha-se atualizado com as últimas notícias da K-Aqua. Publicamos regularmente atualizações sobre novos desenvolvimentos de produtos PP-R/PP-RCT, presenças em feiras internacionais e grandes projetos globais.",
+      "news2": "Nossa seção de notícias também informa você sobre inovações técnicas em soldagem por termofusão, avanços na ciência dos materiais com Copolímero Random de Polipropileno e iniciativas de sustentabilidade em nossa fábrica em Waldsolms."
     },
     "eyebrow": "Sobre nós",
     "title1": "A experiência é a sua",
@@ -3701,15 +3701,15 @@
       "desc": "O epicentro da engenharia alemã."
     },
     "hero": {
-      "eyebrow": "Die K Aqua Doktrin",
+      "eyebrow": "A Doutrina K-Aqua",
       "title1": "German Engineering.",
-      "title2": "Kompromisslos.",
-      "desc": "Wir machen keine Kompromisse. Wir definieren den globalen Standard für PP-R Rohrleitungssysteme. Willkommen im Epizentrum deutscher Ingenieurskunst."
+      "title2": "Sem concessões.",
+      "desc": "Não fazemos concessões. Definimos o padrão global para sistemas de tubulação PP-R. Bem-vindo ao epicentro da engenharia alemã."
     },
     "intro": {
-      "title1": "WIR LEITEN NICHT NUR WASSER.",
-      "title2": "WIR KONTROLLIEREN ES.",
-      "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme, die für die Ewigkeit gebaut sind. Kein Raum für Fehler. Kein Platz für Mittelmaß. Nur reine, unerbittliche Präzision, die sich in jedem einzelnen Fitting manifestiert."
+      "title1": "NÃO APENAS CONDUZIMOS ÁGUA.",
+      "title2": "NÓS A CONTROLAMOS.",
+      "desc": "Há mais de 30 anos fabricamos sistemas de tubulação feitos para durar para sempre. Nenhum espaço para erros. Nenhum lugar para a mediocridade. Apenas pura e implacável precisão, manifestada em cada conexão individual."
     },
     "material": {
       "eyebrow": "Ciência dos Materiais",
@@ -3861,93 +3861,93 @@
     "lead": "Lesen Sie Aktuelles von K Aqua. "
   },
   "career": {
-    "eyebrow": "Karriere",
-    "title1": "Mehr als",
-    "titleGrad": "Gehalt.",
-    "lead": "Rechnen Sie aus, was steuerfreie Benefits netto bringen, und testen Sie in 60 Sekunden, ob K Aqua zu Ihnen passt.",
-    "benEyebrow": "Netto-Lohn-Optimierung",
-    "benTitle": "Der Benefits-Rechner.",
-    "benLead": "Steuerfreie und pauschalversteuerte Extras wirken oft stärker als eine Bruttoerhöhung. Stellen Sie Ihr Paket zusammen:",
+    "eyebrow": "Carreira",
+    "title1": "Carreira na K-Aqua: Mais do que",
+    "titleGrad": "apenas salário.",
+    "lead": "Calcule o impacto dos benefícios no salário líquido e descubra em 60 segundos se a K-Aqua combina com você.",
+    "benEyebrow": "Otimização salarial",
+    "benTitle": "A calculadora de benefícios.",
+    "benLead": "Benefícios isentos de impostos e subsídios diretos muitas vezes impactam mais do que um aumento bruto. Monte seu pacote:",
     "benefits": {
       "sachbezug": [
-        "Sachbezugskarte",
-        "Steuerfreier Sachbezug, monatlich aufs Kartenkonto."
+        "Cartão de benefícios",
+        "Auxílio mensal isento creditado diretamente no cartão."
       ],
       "lunch": [
-        "Essenszuschuss",
-        "Digitale Essensmarken für Mittagessen & Supermarkt."
+        "Vale-refeição / alimentação",
+        "Créditos digitais para almoço e supermercado."
       ],
       "internet": [
-        "Internetpauschale",
-        "Zuschuss zur privaten Internetnutzung."
+        "Auxílio internet",
+        "Subsídio para a conexão de internet privada."
       ],
       "jobrad": [
-        "JobRad-Leasing",
-        "Wunschrad per Gehaltsumwandlung, Ersparnis vs. Privatkauf."
+        "Bicicleta corporativa (JobRad)",
+        "Bicicleta de sua escolha com desconto em folha e economia fiscal."
       ],
       "kita": [
-        "Kita-Zuschuss",
-        "Steuerfreier Zuschuss zur Kinderbetreuung."
+        "Auxílio-creche",
+        "Subsídio isento para despesas com educação infantil."
       ],
       "vwl": [
-        "Vermögenswirksame Leistungen",
-        "Monatlicher Sparbeitrag vom Arbeitgeber."
+        "Poupança corporativa (VWL)",
+        "Contribuição mensal de poupança paga pelo empregador."
       ]
     },
-    "resultLabel": "Netto mehr pro Monat",
-    "resultNote1": "Das entspricht grob einer",
-    "resultNote2": "Bruttoerhöhung von ~{n} €",
-    "resultNote3": "ohne Abzüge.",
-    "resultNote4": "(Richtwert, abhängig von Steuerklasse.)",
-    "apply": "Jetzt bewerben",
-    "call": "Oder anrufen: +49 (0)60 85 / 9868-410",
+    "resultLabel": "Mais líquido por mês",
+    "resultNote1": "Isso equivale aproximadamente a um",
+    "resultNote2": "aumento bruto de ~{n} €",
+    "resultNote3": "sem deduções.",
+    "resultNote4": "(Valor de referência, variando conforme a faixa de tributação.)",
+    "apply": "Candidatar-se agora",
+    "call": "Ou ligue: +49 (0)60 85 / 9868-410",
     "cmEyebrow": "Culture Matcher",
-    "cmTitle": "Passt K Aqua zu Ihnen?",
-    "cmIntro": "Fünf ehrliche Fragen zu Arbeitsweise und Alltag in der Fertigung. Kein Persönlichkeitstest, ein Realitätscheck.",
-    "cmStart": "Test starten",
-    "qLabel": "Frage",
+    "cmTitle": "A K-Aqua é ideal para você?",
+    "cmIntro": "Cinco perguntas sinceras sobre o método de trabalho e o dia a dia na fábrica. Não é um teste de personalidade, é um teste de realidade.",
+    "cmStart": "Iniciar teste",
+    "qLabel": "Pergunta",
     "cmQ": [
       {
-        "q": "Wie arbeiten Sie am liebsten?",
+        "q": "Como você prefere trabalhar?",
         "o": [
-          "Klare Abläufe, eingespieltes Team",
-          "Jeden Tag etwas Neues ausprobieren"
+          "Processos claros, equipe entrosada",
+          "Experimentar algo novo a cada dia"
         ]
       },
       {
-        "q": "Großserie läuft. Eine Maschine meldet eine Abweichung.",
+        "q": "Grande série em produção. Uma máquina aponta uma divergência.",
         "o": [
-          "Sofort hinschauen, Ursache finden",
-          "Erstmal weiterlaufen lassen"
+          "Verificar imediatamente, identificar a causa raiz",
+          "Deixar rodar por enquanto"
         ]
       },
       {
-        "q": "Was motiviert Sie mehr?",
+        "q": "O que mais motiva você?",
         "o": [
-          "Ein Produkt, das 50 Jahre hält",
-          "Schnelle, sichtbare Ergebnisse"
+          "Um produto que dura mais de 50 anos",
+          "Resultados rápidos e imediatos"
         ]
       },
       {
-        "q": "Schichtarbeit ist für Sie …",
+        "q": "Trabalho em turnos para você é…",
         "o": [
-          "Planbar und okay",
-          "Eher schwierig"
+          "Previsível e totalmente viável",
+          "Bastante difícil"
         ]
       },
       {
-        "q": "Ihr Verhältnis zu Technik?",
+        "q": "Qual a sua relação com a técnica?",
         "o": [
-          "Ich will verstehen, wie Dinge funktionieren",
-          "Hauptsache es läuft"
+          "Quero entender a fundo como tudo funciona",
+          "O importante é estar funcionando"
         ]
       }
     ],
-    "resHigh": "Starkes Match, Präzision, Verlässlichkeit und Technikverständnis: genau unser Profil.",
-    "resMid": "Gutes Match mit Gesprächsbedarf, am besten direkt anrufen und den Alltag klären.",
-    "resLow": "Ehrliches Ergebnis: Fertigungsalltag bei K Aqua ist vermutlich nicht Ihr Umfeld, Vertrieb oder Verwaltung könnten besser passen.",
-    "sendApp": "Bewerbung senden",
-    "again": "Nochmal"
+    "resHigh": "Excelente compatibilidade! Precisão, confiabilidade e afinidade técnica: exatamente o nosso perfil.",
+    "resMid": "Boa compatibilidade com pontos a esclarecer. O melhor é nos ligar e conhecer o dia a dia.",
+    "resLow": "Resultado sincero: a rotina de fabricação na K-Aqua provavelmente não é o seu ambiente ideal. Vendas ou administração podem combinar melhor.",
+    "sendApp": "Enviar candidatura",
+    "again": "Tentar novamente"
   },
   "contact": {
     "eyebrow": "Contato",
@@ -4276,448 +4276,448 @@
   "academy": {
     "schulungen": {
       "meta": {
-        "title": "Schulungen | K Aqua",
-        "desc": "K Aqua Schulungen, Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte."
+        "title": "Treinamentos | K-Aqua",
+        "desc": "Treinamentos K-Aqua: Segurança absoluta através do German Engineering para megaprojetos globais."
       },
       "hero": {
         "eyebrow": "GERMAN ENGINEERING ACADEMY",
-        "title1": "Prüfung der",
-        "title2": "Industriellen Elite.",
-        "desc": "Das K Aqua Schulungsprogramm ist keine gewöhnliche Weiterbildung. Es ist die Initiation in die kompromisslose Welt des deutschen Rohrleitungsbaus. Für Ingenieure und Techniker, die Megaprojekte verantworten, in denen Materialversagen keine Option, sondern eine absolute Katastrophe darstellt. Wir lehren in Mikrometern, wir denken in Jahrzehnten.",
-        "cta1": "Akademie-Bewerbung starten",
-        "cta2": "Curriculum einsehen"
+        "title1": "Qualificação da",
+        "title2": "Elite Industrial.",
+        "desc": "O programa de treinamento K-Aqua não é uma qualificação comum. É a iniciação no universo rigoroso da construção de tubulações alemã. Para engenheiros e técnicos responsáveis por megaprojetos onde a falha do material não é uma opção, mas uma catástrofe absoluta. Ensinamos em micrômetros, pensamos em décadas.",
+        "cta1": "Iniciar inscrição na academia",
+        "cta2": "Ver matriz curricular"
       },
       "manifesto": {
-        "title1": "Präzision",
-        "title2": "ist <span className=\"text-primary\">kein</span>",
-        "title3": "Zufall.",
-        "p1": "Sie ist das Resultat unerbittlicher Methodik und eiskalter, industrieller Disziplin. Wenn Tausende Kubikmeter Wasser unter enormem Druck durch die Lebensadern eines 100-stöckigen Hochhauses gepumpt werden, gibt es keinen Spielraum für Näherungswerte oder Interpretationen.",
-        "p2": "Das K Aqua Schulungsprogramm wurde entwickelt, um die Lücke zwischen theoretischem Wissen und fehlerfreier, maschineller Perfektion zu schließen. Wer in unserer Akademie trainiert wird, agiert nicht mehr als bloßer Handwerker, er wird zum ausführenden Organ eines perfekten, deterministischen Systems."
+        "title1": "Precisão",
+        "title2": "não é <span className=\"text-primary\">mero</span>",
+        "title3": "acaso.",
+        "p1": "Ela é o resultado de uma metodologia implacável e de uma rigorosa disciplina industrial. Quando milhares de metros cúbicos de água são bombeados sob enorme pressão através das artérias de um arranha-céu de 100 andares, não há espaço para aproximações ou interpretações.",
+        "p2": "O programa de treinamento K-Aqua foi desenvolvido para eliminar a lacuna entre o conhecimento teórico e a perfeição mecânica sem falhas. Quem é treinado em nossa academia não atua mais como um simples instalador, mas torna-se o órgão executor de um sistema perfeito e determinístico."
       },
       "bento": {
-        "eyebrow": "DIE SÄULEN DER AUTORITÄT",
-        "title": "Wissen als absolute Waffe.",
-        "lead": "Unsere technischen Schulungsmodule sind nicht dafür konzipiert, es Ihnen leicht zu machen. Sie sind dafür konzipiert, Fehler gnadenlos auszumerzen.",
+        "eyebrow": "OS PILARES DA AUTORIDADE",
+        "title": "O conhecimento como arma absoluta.",
+        "lead": "Nossos módulos de treinamento técnico não foram concebidos para facilitar as coisas. Eles foram projetados para erradicar falhas impiedosamente.",
         "items": [
           {
-            "title": "Homogene Materialverschmelzung",
-            "desc": "Jenseits von Verklebungen oder instabilen mechanischen Dichtungen. Wir trainieren die exakte Kalibrierung von Temperatur, Druck und Zeit, um Rohre und Fittings auf molekularer Ebene zu einer untrennbaren, monolithischen Struktur zu verschmelzen."
+            "title": "Fusão Homogênea de Materiais",
+            "desc": "Muito além de colagens ou vedações mecânicas instáveis. Treinamos a calibração exata de temperatura, pressão e tempo para fundir tubos e conexões a nível molecular em uma estrutura monolítica inseparável."
           },
           {
-            "title": "Destruktive Analytik",
-            "desc": "Um die Grenzen zu verstehen, muss man sie überschreiten. Praxis-Module in unseren Hochdruck-Prüfständen mit Berstdrücken weit jenseits der 100 Bar. Wir analysieren das Versagen, um es in der Praxis auszuschließen."
+            "title": "Análise Destrutiva",
+            "desc": "Para entender os limites, é preciso superá-los. Módulos práticos em nossas bancadas de testes de alta pressão com pressões de ruptura muito além de 100 bar. Analisamos a falha para eliminá-la na prática."
           },
           {
-            "title": "Thermische Längenausdehnung",
-            "desc": "Eiskalte Kompensation von Temperaturschwankungen in Großprojekten durch präzise berechnete Dehnungsbögen und Festpunkt-Systeme."
+            "title": "Dilatação Térmica Linear",
+            "desc": "Compensação rigorosa de variações térmicas em grandes projetos através de curvas de expansão precisamente calculadas e sistemas de pontos fixos."
           },
           {
-            "title": "Aggressive Medien & pH-Stabilität",
-            "desc": "Tiefen-Analyse der Widerstandsfähigkeit gegen hochkonzentrierte industrielle Chemikalien. Die Akademie vermittelt tiefgehende Kenntnisse zur Materialermüdung unter chemischer Dauerbelastung und radikalen pH-Verschiebungen."
+            "title": "Fluidos Agressivos e Estabilidade de pH",
+            "desc": "Análise aprofundada da resistência contra produtos químicos industriais altamente concentrados. A academia transmite conhecimento avançado sobre fadiga do material sob carga química contínua e variações radicais de pH."
           }
         ]
       },
       "typography": {
-        "t1": "NULL-FEHLER",
-        "t2": "TOLERANZ."
+        "t1": "TOLERÂNCIA",
+        "t2": "ZERO ERRO."
       },
       "curriculum": {
-        "eyebrow": "DAS CURRICULUM",
-        "title": "Akademische Kompromisslosigkeit.",
-        "lead": "Vier Module. Eine Doktrin. Jedes Segment unseres Curriculums ist darauf ausgerichtet, Schwächen in der Ausführung zu identifizieren und systemisch zu vernichten."
+        "eyebrow": "A MATRIZ CURRICULAR",
+        "title": "Rigor acadêmico intransigente.",
+        "lead": "Quatro módulos. Uma doutrina. Cada segmento da nossa matriz curricular foi concebido para identificar e eliminar sistemicamente fraquezas na execução."
       },
       "sticky": {
         "items": [
           {
-            "title": "Modul Alpha: Strömungsmechanik & Kinetik",
-            "desc": "Die Mathematik des Wassers. Wir zerlegen komplexe Kavitationseffekte und Druckschlag-Szenarien in berechenbare Variablen. Sie lernen, hydrodynamische Schocksymptome nicht nur zu dämpfen, sondern systemisch zu eliminieren. Für Rohrnetze, die in völliger, geräuschloser Perfektion operieren."
+            "title": "Módulo Alfa: Mecânica dos Fluidos e Cinética",
+            "desc": "A matemática da água. Decompomos efeitos complexos de cavitação e cenários de golpe de aríete em variáveis calculáveis. Você aprende não apenas a amortecer sintomas de choques hidrodinâmicos, mas a eliminá-los sistemicamente. Para redes de tubulação que operam em perfeita e silenciosa precisão."
           },
           {
-            "title": "Modul Beta: Parametrisches Leitungsdesign",
-            "desc": "Der Entwurf von Rohrleitungssystemen als algorithmische Disziplin. Die Schulung beinhaltet den Einsatz modernster CAD/BIM-Tools zur Kollisionsprüfung und zur Optimierung der Materialausnutzung. Keine Schätzung. Reine, eiskalte Berechnung."
+            "title": "Módulo Beta: Projeto Paramétrico de Tubulações",
+            "desc": "O dimensionamento de sistemas de tubulação como disciplina algorítmica. O treinamento inclui o uso de ferramentas avançadas de CAD/BIM para verificação de interferências e otimização do aproveitamento de materiais. Sem estimativas. Puro e rigoroso cálculo."
           },
           {
-            "title": "Modul Gamma: Hygiene-Architektur & Mikrobiologie",
-            "desc": "Legionellenprävention auf strukturellem Level. Wie man Totleitungen vermeidet, Stagnationszonen auslöscht und Wassertemperatur-Schichtungen in komplexen Ringleitungs-Systemen kontrolliert. Das System diktiert die Reinheit, wir überlassen nichts dem Zufall."
+            "title": "Módulo Gama: Arquitetura Sanitária e Microbiologia",
+            "desc": "Prevenção contra Legionella a nível estrutural. Como evitar trechos mortos, eliminar zonas de estagnação e controlar estratificações térmicas da água em sistemas complexos de recirculação em anel. O sistema dita a pureza; não deixamos nada ao acaso."
           },
           {
-            "title": "Modul Delta: Das finale K Aqua Audit",
-            "desc": "Prüfung ist kein Recht, sie ist ein Privileg. Die Prüfung verlangt die Konstruktion und theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z.B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt das K Aqua Zertifikat."
+            "title": "Módulo Delta: A Auditoria Final K-Aqua",
+            "desc": "A aprovação não é um direito, é um privilégio. A avaliação exige o projeto e a defesa teórica de um sistema autônomo de abastecimento de água sob condições extremas simuladas (p. ex., atividade sísmica, temperatura externa de 50 °C). Somente quem comprova absoluta ausência de falhas recebe o certificado K-Aqua."
           }
         ]
       },
       "timeline": {
-        "title": "Der Zertifizierungs-Pfad.",
-        "desc": "Die Transformation vom Installateur zum geprüften K Aqua Master-Engineer folgt einem strikten, unerbittlichen Rhythmus. Nur wer diesen Pfad bis zum Ende geht, erhält die Autorisation für unsere Hochleistungs-Systeme.",
+        "title": "A Trilha de Certificação.",
+        "desc": "A transformação de instalador em Master Engineer certificado K-Aqua segue um ritmo rigoroso e implacável. Somente quem percorre esta trilha até o fim recebe a autorização para os nossos sistemas de alto desempenho.",
         "items": [
           {
-            "year": "PHASE 01",
-            "title": "Materialphysik & Onboarding",
-            "text": "Das Begreifen der physikalischen Limits. Eine tiefgreifende Einführung in die molekularen PP-R/PPRCT Werkstoff-Spezifikationen. Hier wird das Fundament der industriellen Härte gegossen."
+            "year": "FASE 01",
+            "title": "Física dos Materiais e Integração",
+            "text": "A compreensão dos limites físicos. Uma introdução aprofundada às especificações moleculares dos materiais PP-R/PP-RCT. Aqui é lançada a base da robustez industrial."
           },
           {
-            "year": "PHASE 02",
-            "title": "Laboratorium & Belastungstests",
-            "text": "Hands-on Zerstörung. Das Erleben der Berstgrenze im Prüfstand und das Studium mikroskopischer Rissbildungen. Nur wer die Schwäche kennt, kann die absolute Stärke konstruieren."
+            "year": "FASE 02",
+            "title": "Laboratório e Testes de Carga",
+            "text": "Destruição prática. Vivenciar o limite de ruptura na bancada de testes e estudar a formação microscópica de fissuras. Somente conhecendo a fraqueza é possível construir a força absoluta."
           },
           {
-            "year": "PHASE 03",
-            "title": "Fusions-Doktrin",
-            "text": "Das perfekte Schweißprotokoll. Mechanisches Training der thermodynamischen Bewegungsabläufe bis zum unfehlbaren, muskulären Automatismus. Jeder Handgriff ist kalibriert."
+            "year": "FASE 03",
+            "title": "Doutrina da Fusão",
+            "text": "O protocolo perfeito de soldagem. Treinamento mecânico das sequências termodinâmicas até o automatismo muscular infalível. Cada movimento é calibrado."
           },
           {
-            "year": "PHASE 04",
-            "title": "System-Architektur",
-            "text": "Skalierung vom einfachen Rohrsegment zur Infrastruktur eines Wolkenkratzers. Wir exekutieren Druckverlusttabellen, Fließgeschwindigkeiten und Strömungsteiler mit eiserner Logik."
+            "year": "FASE 04",
+            "title": "Arquitetura de Sistemas",
+            "text": "Escalabilidade: do simples segmento de tubo à infraestrutura de um arranha-céu. Executamos tabelas de perda de carga, velocidades de escoamento e divisores de fluxo com lógica de ferro."
           },
           {
-            "year": "PHASE 05",
-            "title": "Die Meisterprüfung",
-            "text": "Ein 48-stündiges Audit unter der gnadenlosen Aufsicht der deutschen Chef-Ingenieure. Keine Toleranz für Fehlkalkulationen. Ein Fehler bedeutet den sofortigen Ausschluss."
+            "year": "FASE 05",
+            "title": "O Exame de Mestre",
+            "text": "Uma auditoria de 48 horas sob a supervisão implacável dos engenheiros-chefes alemães. Tolerância zero para erros de cálculo. Uma falha significa reprovação imediata."
           }
         ]
       },
       "spec": {
-        "eyebrow": "GLOBALER STANDARD",
-        "title": "Die globale Benchmark für Sicherheit.",
-        "desc": "Unsere Prüfung ist nicht nur ein Stück Papier. Sie ist ein in Titan gegossenes Versprechen an Bauherren und Investoren weltweit. Wo das K Aqua Zertifikat vorliegt, wurde die Installation nach den strengsten deutschen Ingenieurs-Standards durchgeführt.",
+        "eyebrow": "PADRÃO GLOBAL",
+        "title": "A referência global de segurança.",
+        "desc": "Nossa certificação não é apenas um pedaço de papel. É uma promessa forjada em titânio para construtores e investidores em todo o mundo. Onde o certificado K-Aqua está presente, a instalação foi executada segundo os mais rigorosos padrões da engenharia alemã.",
         "items": [
           {
-            "title": "Internationale Gültigkeit",
-            "text": "Anerkannt von den weltweit führenden Bau- und Aufsichtsbehörden."
+            "title": "Validade Internacional",
+            "text": "Reconhecido pelas principais autoridades mundiais de construção civil e fiscalização."
           },
           {
-            "title": "Audit-Transparenz",
-            "text": "Lückenlose, digitale Dokumentation jedes Schweißvorgangs."
+            "title": "Transparência de Auditoria",
+            "text": "Documentação digital e sem lacunas de cada processo de soldagem."
           },
           {
-            "title": "Lebenslange Autorität",
-            "text": "Einmal erworben, zeichnet es den Engineer als Teil einer elitären Kaste aus."
+            "title": "Autoridade Vitalícia",
+            "text": "Uma vez obtido, distingue o engenheiro como parte de uma elite técnica."
           }
         ]
       },
       "cta": {
-        "title1": "Bereit für die",
-        "title2": "absolute Kontrolle?",
-        "desc": "Unterwerfen Sie sich dem Maßstab deutscher Ingenieurskunst. Senden Sie uns Ihr Profil oder fordern Sie die Spezifikationen für firmeninterne Audits an.",
-        "button": "Bewerbung initiieren"
+        "title1": "Pronto para o",
+        "title2": "controle absoluto?",
+        "desc": "Submeta-se ao padrão da engenharia alemã. Envie-nos seu perfil ou solicite as especificações para auditorias internas em sua empresa.",
+        "button": "Iniciar inscrição"
       }
     },
     "zertifizierung": {
       "meta": {
-        "title": "Zertifikate & Normen | K Aqua",
-        "desc": "DVGW, SKZ, ISO und mehr. Entdecken Sie die kompromisslose Sicherheit und German Engineering-Qualität der K Aqua Rohrleitungssysteme."
+        "title": "Certificados e Normas | K-Aqua",
+        "desc": "DVGW, SKZ, ISO e mais. Descubra a segurança sem concessões e a qualidade German Engineering dos sistemas de tubulação K-Aqua."
       },
       "hero": {
         "eyebrow": "German Engineering Standards",
-        "title1": "Zertifikate.",
+        "title1": "Certificados.",
         "title2": "Engineered in Germany.",
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Weil Materialversagen niemals eine Option ist.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technisches Handbuch"
+        "desc": "Este módulo oferece segurança absoluta para os projetos mais exigentes do mundo. Fabricado segundo os mais rigorosos padrões industriais para durar gerações. Porque a falha de material nunca é uma opção.",
+        "cta1": "Solicitar projeto",
+        "cta2": "Manual técnico"
       },
       "manifesto": {
-        "title1": "Ein Zertifikat ist nur Papier.",
-        "title2": "Der Prozess dahinter ist aus Stahl.",
-        "p1": "Viele Hersteller sehen Normen als das ultimative Ziel. Wir sehen sie als die absolute Untergrenze. Unsere internen Toleranzen sind um ein Vielfaches strenger als das, was DVGW, ISO oder SKZ verlangen. Wenn ein K Aqua Rohr unser Werk verlässt, wurde es auf Molekularebene analysiert, mit extremen Drücken gefoltert und thermisch ans absolute Limit getrieben."
+        "title1": "Um certificado é apenas papel.",
+        "title2": "O processo por trás dele é de aço.",
+        "p1": "Muitos fabricantes veem as normas como a meta máxima. Nós as vemos como o piso mínimo absoluto. Nossas tolerâncias internas são muito mais rigorosas do que as exigidas pela DVGW, ISO ou SKZ. Quando um tubo K-Aqua sai de nossa fábrica, ele foi analisado em nível molecular, testado sob pressões extremas e submetido aos limites térmicos absolutos."
       },
       "bento": {
-        "eyebrow": "Die Säulen der Sicherheit",
-        "title": "Die DNA eines perfekten Rohrsystems.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
+        "eyebrow": "Os Pilares da Segurança",
+        "title": "O DNA de um sistema de tubulação perfeito.",
+        "lead": "Quando empreiteiras internacionais planejam projetos bilionários, elas não confiam em promessas de marketing. Elas exigem fatos concretos e fisicamente mensuráveis.",
         "items": [
           {
-            "title": "Extreme Druckbeständigkeit",
-            "desc": "geprüft für Dauerbelastungen bis PN20/PN25. Unsere Berstdrucktests beweisen Reserven, die weit jenseits der Normen liegen. Rohrbrüche gehören der Vergangenheit an."
+            "title": "Extrema Resistência à Pressão",
+            "desc": "Testado para cargas contínuas até PN20/PN25. Nossos testes de pressão de ruptura comprovam reservas muito além das exigidas por norma. Rompimentos de tubulação são coisa do passado."
           },
           {
-            "title": "Thermische Souveränität",
-            "desc": "Dauerhaft beständig von -20°C bis +95°C. Kein Materialermüden, keine strukturelle Schwächung, auch bei extremen thermischen Schocks."
+            "title": "Soberania Térmica",
+            "desc": "Resistência contínua de -20 °C a +95 °C. Sem fadiga de material, sem enfraquecimento estrutural, mesmo sob choques térmicos severos."
           },
           {
-            "title": "Absolute Hygiene",
-            "desc": "Keine Korrosion. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich und resistent gegen Legionellen-Wachstum."
+            "title": "Higiene Absoluta",
+            "desc": "Sem corrosão. Sem incrustações. Atóxico, seguro para contato com alimentos e resistente ao desenvolvimento de Legionella."
           },
           {
-            "title": "Brandschutz (B1/B2)",
-            "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar und minimale Rauchentwicklung für höchste Sicherheit in kritischen Gebäudeinfrastrukturen."
+            "title": "Proteção Contra Incêndio (B1/B2)",
+            "desc": "Classificado conforme DIN 4102. Baixa inflamabilidade e mínima emissão de fumaça para máxima segurança em infraestruturas prediais críticas."
           },
           {
-            "title": "Lebenszyklus-Garantie",
-            "desc": "Eine definierte Lebensdauer von 50 Jahren nach strengster ISO-Norm. In der architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
+            "title": "Garantia de Ciclo de Vida",
+            "desc": "Vida útil projetada de 50 anos segundo a mais rigorosa norma ISO. Na realidade arquitetônica, porém, construído para durar gerações inteiras."
           }
         ]
       },
       "certifications": {
-        "eyebrow": "Die Instanzen",
-        "title": "Die härtesten Prüfer der Welt.",
-        "lead": "Nur wer die kritischsten externen Audits besteht, darf das Label 'German Engineering' tragen. Hier sind die Institutionen, die unsere Qualität validieren.",
+        "eyebrow": "As Entidades Certificadoras",
+        "title": "Os auditores mais rigorosos do mundo.",
+        "lead": "Somente quem é aprovado nas auditorias externas mais críticas pode ostentar o selo 'German Engineering'. Aqui estão as instituições que validam nossa qualidade.",
         "items": [
           {
-            "title": "DVGW, Die höchste Instanz",
-            "p1": "Der Deutsche Verein des Gas- und Wasserfaches (DVGW) setzt den weltweit strengsten Standard für Trinkwasserhygiene und Materialbeständigkeit.",
-            "p2": "Unsere DVGW-Prüfung garantiert, dass K Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) bei 95°C."
+            "title": "DVGW, A autoridade máxima",
+            "p1": "A Associação Alemã de Gás e Água (DVGW) estabelece o padrão mais rigoroso do mundo para higiene de água potável e resistência de materiais.",
+            "p2": "Nossa certificação DVGW garante que os sistemas de tubulação K-Aqua não liberem substâncias tóxicas nem favoreçam o crescimento microbiológico sob condições extremas. Cada lote passa por testes hidrostáticos de longa duração (ensaio de pressão hidrostática interna) a 95 °C."
           },
           {
-            "title": "SKZ, Unabhängige Überwachung",
-            "p1": "Das Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert das ab, was unsere internen Labore bereits vorgeben.",
-            "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit und das thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry). Das SKZ-Zeichen ist der Beweis für mechanische Perfektion, weit über die DIN EN ISO 15874 hinaus."
+            "title": "SKZ, Monitoramento independente",
+            "p1": "O Centro de Plásticos do Sul da Alemanha (SKZ) atua como nosso auditor independente. A fiscalização de terceiros assegura o que nossos laboratórios internos já determinam.",
+            "p2": "São testadas resistência ao impacto com entalhe, resistência à tração e comportamento térmico através de análise DSC (Calorimetria Exploratória Diferencial). A marca SKZ é a prova da perfeição mecânica, indo muito além da DIN EN ISO 15874."
           },
           {
-            "title": "KTW-BWGL, Absolute Reinheit",
-            "p1": "Die Bewertungsgrundlage für Kunststoffe und andere organische Materialien im Kontakt mit Trinkwasser (Umweltbundesamt).",
-            "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PPRCT) ohne schädliche Additive oder Schwermetalle. Das Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
+            "title": "KTW-BWGL, Pureza absoluta",
+            "p1": "Base de avaliação para plásticos e outros materiais orgânicos em contato com água potável (Agência Federal Alemã do Meio Ambiente - UBA).",
+            "p2": "Utilizamos exclusivamente polipropileno de alta pureza (PP-R / PP-RCT) sem aditivos nocivos ou metais pesados. O resultado? Água com qualidade de nascente diretamente da torneira. Sem odores, sem alteração de sabor."
           },
           {
-            "title": "ISO 9001 & 14001, Systematische Exzellenz",
-            "p1": "Qualität ist kein Zufall, sondern ein absolut reproduzierbarer Prozess. Unsere ISO 9001 Prüfung belegt ein lückenloses Qualitätsmanagement von der Rohstoffannahme bis zur weltweiten Warenauslieferung.",
-            "p2": "Mit ISO 14001 beweisen wir, dass industrielle Höchstleistung und ökologische Verantwortung Hand in Hand gehen. Minimierter Energieverbrauch, effiziente Ressourcennutzung und die 100%ige Recyclingfähigkeit unserer PP-Produkte."
+            "title": "ISO 9001 e 14001, Excelência sistemática",
+            "p1": "Qualidade não é acaso, mas um processo absolutamente reproduzível. Nossa certificação ISO 9001 atesta uma gestão da qualidade contínua, desde o recebimento da matéria-prima até a entrega global de mercadorias.",
+            "p2": "Com a ISO 14001, comprovamos que o alto desempenho industrial e a responsabilidade ecológica caminham juntos: consumo mínimo de energia, uso eficiente de recursos e 100% de reciclabilidade de nossos produtos em PP."
           }
         ]
       },
       "lab": {
-        "eyebrow": "Inside the Lab",
-        "title1": "Die Anatomie",
-        "title2": "der Perfektion.",
-        "desc": "Bevor ein K Aqua System das Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, in der wir Materialien Bedingungen aussetzen, die sie in der Realität niemals erleben werden.",
+        "eyebrow": "Dentro do Laboratório",
+        "title1": "A Anatomia",
+        "title2": "da Perfeição.",
+        "desc": "Antes que um sistema K-Aqua saia da fábrica, ele deve passar por nosso centro de testes interno: uma instalação de ponta na qual submetemos os materiais a condições que jamais enfrentarão na realidade.",
         "items": [
           {
-            "title": "MFR (Melt Flow Rate)",
-            "desc": "Kontrolle der Schmelzflussrate zur Gewährleistung exakter Viskosität während der Extrusion und beim späteren Schweißen auf der Baustelle."
+            "title": "MFR (Índice de Fluidez)",
+            "desc": "Controle da taxa de fluidez para assegurar viscosidade exata durante a extrusão e na posterior soldagem na obra."
           },
           {
-            "title": "OIT (Oxidation Induction Time)",
-            "desc": "Thermische Analyse zur Bestimmung der Alterungsbeständigkeit. Der Beweis, dass unsere Stabilisatoren den Kunststoff über Jahrzehnte vor Degradation schützen."
+            "title": "OIT (Tempo de Indução Oxidativa)",
+            "desc": "Análise térmica para determinar a resistência ao envelhecimento. A prova de que nossos estabilizantes protegem o polímero contra degradação por décadas."
           },
           {
-            "title": "Zeitstand-Innendruckversuch",
-            "desc": "Rohrproben werden in speziellen Wasserbädern bei 95°C unter extremem Druck gelagert, für tausende von Stunden. Ohne Riss. Ohne Bruch."
+            "title": "Ensaio de Pressão Hidrostática Interna de Longa Duração",
+            "desc": "Amostras de tubos são imersas em banhos-maria especiais a 95 °C sob pressão extrema, por milhares de horas. Sem trincas. Sem rompimentos."
           }
         ]
       },
       "timeline": {
-        "title": "Jahrzehnte der Innovation.",
-        "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind das Resultat jahrzehntelanger Ingenieurskunst und kontinuierlicher Prozessoptimierung.",
+        "title": "Décadas de Inovação.",
+        "desc": "Nossos padrões de qualidade não surgiram da noite para o dia. São o resultado de décadas de engenharia e otimização contínua de processos.",
         "items": [
           {
             "year": "1990",
-            "title": "Die Geburtsstunde der Norm",
-            "text": "Als Pioniere der Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren, die weit über die damaligen Industrieanforderungen hinausgingen. Der Grundstein für eine kompromisslose Qualitätskultur."
+            "title": "O Surgimento da Norma",
+            "text": "Como pioneiros na extrusão de tubos plásticos, implementamos precocemente procedimentos de teste internos que iam muito além das exigências industriais da época: o marco fundador de uma cultura de qualidade sem concessões."
           },
           {
             "year": "1995",
-            "title": "ISO 9001 Integration",
-            "text": "Die vollständige Prüfung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert und vollkommen rückverfolgbar gemacht."
+            "title": "Integração ISO 9001",
+            "text": "A certificação completa de nossos sistemas de gestão da qualidade segundo a ISO 9001. Cada operação, cada lote de matéria-prima e cada ajuste de máquina passa a ser sistematicamente documentado e totalmente rastreável."
           },
           {
             "year": "2005",
-            "title": "DVGW & SKZ Prüfung",
-            "text": "Die Aufnahme in den exklusiven Kreis der DVGW- und SKZ-geprüften Hersteller. Das offizielle Siegel für absolute Hygiene, extreme Druckfestigkeit und unübertroffene Langlebigkeit bei härtesten Bedingungen im Trinkwassereinsatz."
+            "title": "Aprovação DVGW e SKZ",
+            "text": "Ingresso no seleto círculo de fabricantes certificados pela DVGW e SKZ: o selo oficial de higiene absoluta, extrema resistência à pressão e durabilidade incomparável nas mais severas condições de uso com água potável."
           },
           {
             "year": "2015",
-            "title": "Globale Normen (WRAS, KTW)",
-            "text": "Expansion der Zertifizierungen für internationale Märkte. Erfüllung der strikten KTW-Leitlinie (UBA) und der britischen WRAS-Vorgaben. K Aqua wird zum globalen Standard für internationale Megaprojekte."
+            "title": "Normas Globais (WRAS, KTW)",
+            "text": "Expansão das certificações para mercados internacionais. Atendimento às rigorosas diretrizes KTW (UBA) e exigências britânicas WRAS. A K-Aqua consolida-se como referência para megaprojetos mundiais."
           },
           {
             "year": "2024",
-            "title": "Next-Gen Quality Analytics",
-            "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) und MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während der Extrusion für eine 100%ige Null Fehler-Quote."
+            "title": "Análise de Qualidade de Nova Geração",
+            "text": "Introdução de testes automatizados de OIT e MFR em nosso próprio laboratório de precisão. Análise de falhas com inteligência artificial durante a extrusão para uma meta de 100% de defeito zero."
           }
         ]
       },
       "cta": {
-        "title": "Qualität, der Sie blind vertrauen können.",
-        "desc": "Laden Sie sich unsere offiziellen Zertifikate herunter oder sprechen Sie direkt mit unserem Engineering Team über die Spezifikationen Ihres nächsten Megaprojekts.",
-        "button1": "Zertifikate herunterladen",
-        "button2": "Technischen Support kontaktieren"
+        "title": "Qualidade em que você pode confiar de olhos fechados.",
+        "desc": "Baixe nossos certificados oficiais ou converse diretamente com nossa equipe de engenharia sobre as especificações do seu próximo megaprojeto.",
+        "button1": "Baixar certificados",
+        "button2": "Contatar suporte técnico"
       }
     },
     "glossar": {
       "meta": {
-        "title": "Technisches Glossar | K Aqua",
-        "desc": "K Aqua Glossar, Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte."
+        "title": "Glossário Técnico | K-Aqua",
+        "desc": "Glossário K-Aqua: Segurança absoluta através do German Engineering para megaprojetos globais."
       },
       "hero": {
-        "eyebrow": "Technisches Glossar",
-        "title1": "Terminologie der",
-        "title2": "Absoluten Sicherheit.",
-        "desc": "Willkommen im lexikalischen Kern der Rohrleitungstechnik. Hier decodieren wir die Prinzipien des German Engineering. Kein Marketing. Nur physikalische Fakten, Materialwissenschaft und industrielle Autorität.",
-        "cta1": "Engineering kontaktieren",
-        "cta2": "Glossar erkunden"
+        "eyebrow": "Glossário Técnico",
+        "title1": "Terminologia da",
+        "title2": "Segurança Absoluta.",
+        "desc": "Bem-vindo ao núcleo terminológico da engenharia de tubulações. Aqui decodificamos os princípios do German Engineering. Sem marketing: apenas fatos físicos, ciência dos materiais e autoridade industrial.",
+        "cta1": "Contatar Engenharia",
+        "cta2": "Explorar glossário"
       },
       "manifesto": {
-        "eyebrow": "Die Doktrin",
-        "title": "Die Architektur der Unfehlbarkeit.",
-        "lead": "Ein Rohrleitungssystem ist das kardiovaskuläre System eines jeden Megaprojekts. Ein Ausfall bedeutet den infrastrukturellen Herzinfarkt. Deshalb sprechen wir nicht von Rohren, sondern von lebenswichtigen Industrie-Arterien. Jeder Begriff in diesem Glossar repräsentiert einen Pfeiler unserer Null Fehler-Philosophie."
+        "eyebrow": "A Doutrina",
+        "title": "A arquitetura da infalibilidade.",
+        "lead": "Um sistema de tubulação é o sistema cardiovascular de qualquer grande empreendimento. Uma falha representa o infarto da infraestrutura. É por isso que não falamos apenas de tubos, mas de artérias industriais vitais. Cada termo neste glossário representa um pilar da nossa filosofia de zero defeito."
       },
       "scroll": {
-        "eyebrow": "Kinematik & Materialwissenschaft",
-        "title": "Der K Aqua Prozess.",
-        "lead": "Von der molekularen Granulat-Ebene bis zur finalen Druckprüfung. Verstehen Sie die physikalischen Prinzipien, die unsere Systeme unzerstörbar machen.",
+        "eyebrow": "Cinemática e Ciência dos Materiais",
+        "title": "O Processo K-Aqua.",
+        "lead": "Do nível molecular do grânulo até o teste final de pressão. Compreenda os princípios físicos que tornam nossos sistemas indestrutíveis.",
         "items": [
           {
-            "title": "Extrusionsdynamik unter Hochdruck",
-            "desc": "Die thermoplastische Verformung in unseren Werken unterliegt einer präzisen Temperaturkontrolle auf 0,1 °C genau. Diese kristalline Perfektion garantiert eine makellose, homogene Molekularstruktur, die mikroskopische Rissbildung (Stress Cracking) auch unter extremen Druck- und Temperaturschwankungen absolut ausschließt. Wenn das Material unseren Extruder verlässt, ist es kein einfacher Kunststoff mehr, es ist ein industrielles Monolith."
+            "title": "Dinâmica de Extrusão sob Alta Pressão",
+            "desc": "A deformação termoplástica em nossas fábricas é submetida a um controle de temperatura com precisão de 0,1 °C. Essa perfeição cristalina garante uma estrutura molecular homogênea e impecável, que exclui totalmente a formação de microfissuras (Stress Cracking), mesmo sob extremas variações de pressão e temperatura. Quando o material deixa nossa extrusora, não é mais um simples plástico: é um monólito industrial."
           },
           {
-            "title": "Hydrostatische Belastungstests",
-            "desc": "In unseren Prüflaboren wird jedes Rohr einer hydrostatischen Simulation ausgesetzt, die reale Bedingungen um ein Vielfaches übersteigt. Wir applizieren Innendrücke, die jenseits jeder normativen Forderung liegen (bis zu 100 bar, abhängig von der SDR-Klasse). Dies sichert die Integrität der Schweißnähte und die molekular Elastizität des PP-R Materials über eine prognostizierte Lebensdauer von mehr als 50 Jahren in kritischen Infrastrukturen."
+            "title": "Testes de Carga Hidrostática",
+            "desc": "Em nossos laboratórios de teste, cada tubo é exposto a uma simulação hidrostática que supera em muitas vezes as condições reais. Aplicamos pressões internas que vão muito além de qualquer exigência normativa (até 100 bar, dependendo da classe SDR). Isso assegura a integridade das soldas e a elasticidade molecular do material PP-R por uma vida útil projetada superior a 50 anos em infraestruturas críticas."
           },
           {
-            "title": "Polyfusions-Schweißtechnik",
-            "desc": "Verbindungen sind in herkömmlichen Systemen die Schwachstelle. K Aqua eliminiert dieses Risiko durch Polyfusion. Auf molekularer Ebene verschmelzen Rohr und Fitting zu einer unlösbaren, durchgehenden Einheit. Es gibt keine Gewinde, die korrodieren, keine Dichtungen, die versagen können. Das Resultat ist ein Rohrleitungssystem, das sich verhält, als wäre es aus einem einzigen Stück gegossen."
+            "title": "Técnica de Soldagem por Termofusão",
+            "desc": "Em sistemas convencionais, as conexões são os pontos fracos. A K-Aqua elimina esse risco por meio da termofusão. Em nível molecular, tubo e conexão fundem-se em uma unidade contínua e inseparável. Não há roscas para sofrer corrosão, nem vedações que possam falhar. O resultado é um sistema de tubulações que se comporta como se tivesse sido moldado em uma única peça."
           },
           {
-            "title": "Kavitationsresistenz & Strömungsmechanik",
-            "desc": "Durch eine ultraglatte Innenwand (Rauigkeit < 0,007 mm) minimieren K Aqua Rohre den Strömungswiderstand gegen Null. Dies verhindert die Bildung von Biofilmen und eliminiert mikro-kavitative Effekte bei Hochgeschwindigkeitsströmungen. Druckverluste im System werden drastisch reduziert, was die Energieeffizienz der angeschlossenen Pumpensysteme im industriellen Maßstab maximiert."
+            "title": "Resistência à Cavitação e Mecânica dos Fluidos",
+            "desc": "Graças a uma parede interna ultralisa (rugosidade < 0,007 mm), os tubos K-Aqua reduzem a resistência ao escoamento quase a zero. Isso evita a formação de biofilmes e elimina efeitos microcavitacionais em fluxos de alta velocidade. As perdas de carga no sistema são reduzidas drasticamente, maximizando a eficiência energética dos sistemas de bombeamento conectados em escala industrial."
           }
         ]
       },
       "bento": {
-        "eyebrow": "Nomenklatur",
-        "title": "Technische Parameter.",
-        "lead": "Die wichtigsten Vokabeln der industriellen Rohrleitungstechnik, destilliert auf ihre Essenz.",
+        "eyebrow": "Nomenclatura",
+        "title": "Parâmetros Técnicos.",
+        "lead": "Os termos mais importantes da engenharia industrial de tubulações, sintetizados em sua essência.",
         "items": [
           {
-            "title": "PP-R (Polypropylen Random Copolymer)",
-            "desc": "Die molekulare Basis. Ein hochkristallines thermoplastisches Polymer, das außergewöhnliche Widerstandsfähigkeit gegen hohe Temperaturen und Drücke bietet. Es ist die DNA unserer Langlebigkeit."
+            "title": "PP-R (Copolímero Random de Polipropileno)",
+            "desc": "A base molecular. Um polímero termoplástico altamente cristalino que oferece resistência excepcional a altas temperaturas e pressões. É o DNA da nossa longevidade."
           },
           {
-            "title": "Lineare thermische Ausdehnung",
-            "desc": "Die Längenänderung des Materials bei Temperaturwechsel. Unsere faserverstärkten (Faser) Rohre reduzieren diesen Wert auf ein absolutes Minimum (α = 0,035 mm/mK), was die strukturelle Stabilität in Schächten enorm erhöht."
+            "title": "Dilatação Térmica Linear",
+            "desc": "A variação de comprimento do material com a mudança de temperatura. Nossos tubos reforçados com fibra reduzem esse valor ao mínimo absoluto (α = 0,035 mm/mK), aumentando enormemente a estabilidade estrutural em shafts e galerias técnicas."
           },
           {
-            "title": "Zeitstandfestigkeit",
-            "desc": "Die Fähigkeit des Systems, über Jahrzehnte hinweg einem konstanten Innendruck bei spezifischen Temperaturen standzuhalten, ohne zu deformieren oder zu bersten. K Aqua Rohre werden auf 50+ Jahre kalibriert."
+            "title": "Resistência Hidrostática de Longa Duração",
+            "desc": "A capacidade do sistema de suportar uma pressão interna constante a temperaturas específicas por décadas sem deformar ou romper. Os tubos K-Aqua são calibrados para mais de 50 anos."
           },
           {
-            "title": "Druckverlust-Koeffizient",
-            "desc": "Ein mathematischer Wert, der den Energieverlust der Strömung durch Reibung an der Rohrinnenwand beschreibt. Durch nanoglatte Oberflächen wird dieser Wert in K Aqua Systemen marginalisiert."
+            "title": "Coeficiente de Perda de Carga",
+            "desc": "Um valor matemático que descreve a perda de energia do escoamento devido ao atrito na parede interna do tubo. Graças a superfícies nanolisas, esse valor é marginalizado nos sistemas K-Aqua."
           },
           {
             "title": "SDR (Standard Dimension Ratio)",
-            "desc": "Das Verhältnis zwischen dem Außendurchmesser (d) und der Wandstärke (s). Ein SDR 6 Rohr hält massiv höheren Drücken stand als ein SDR 11 Rohr. Die korrekte Wahl ist entscheidend für das System-Design.",
-            "label": "50+ YRS"
+            "desc": "A relação entre o diâmetro externo (d) e a espessura da parede (s). Um tubo SDR 6 suporta pressões consideravelmente mais elevadas do que um tubo SDR 11. A seleção correta é crucial para o dimensionamento do sistema.",
+            "label": "50+ ANOS"
           }
         ]
       },
       "timeline": {
-        "title": "Regulatorische Härte.",
-        "desc": "Normen sind für uns keine Vorschriften, sondern der Ausgangspunkt unserer Ingenieurskunst. Eine Chronologie der Zertifizierungen und Standards, die unsere Systeme nicht nur erfüllen, sondern dominieren.",
+        "title": "Rigor Regulatório.",
+        "desc": "Para nós, as normas não são regras impostas, mas o ponto de partida da nossa engenharia. Uma cronologia das certificações e padrões que nossos sistemas não apenas cumprem, mas dominam.",
         "items": [
           {
             "year": "DIN 8077/8078",
-            "title": "Normative Basis",
-            "text": "Die Grundlage der deutschen Rohrleitungsnormen. Wir betrachten diese Standards nicht als Ziel, sondern als absolutes Minimum. Unsere internen Toleranzen sind bis zu 30 % strenger als von der DIN gefordert."
+            "title": "Base Normativa",
+            "text": "O alicerce das normas alemãs de tubulações. Consideramos esses padrões não como um objetivo, mas como o mínimo absoluto. Nossas tolerâncias internas são até 30% mais rigorosas do que o exigido pela DIN."
           },
           {
             "year": "ISO 15874",
-            "title": "Globale Prüfung",
-            "text": "Das internationale Gütesiegel für Kunststoffrohrleitungssysteme für die Warm- und Kaltwasserinstallation. Ein Beweis für die kompromisslose globale Anwendbarkeit unserer Systeme."
+            "title": "Validação Global",
+            "text": "O selo internacional de excelência para sistemas de tubulação plástica destinados a instalações de água quente e fria. A prova da aplicabilidade global e sem concessões dos nossos sistemas."
           },
           {
             "year": "SDR 6 - SDR 11",
-            "title": "Standard Dimension Ratios",
-            "text": "Ein präzises Verhältnis von Außendurchmesser zu Wandstärke. Unsere Ingenieure kalibrieren jede Charge, um maximale Druckresistenz bei optimaler Durchflussmenge zu garantieren."
+            "title": "Relações Dimensionais Padronizadas (SDR)",
+            "text": "Uma relação precisa entre diâmetro externo e espessura de parede. Nossos engenheiros calibram cada lote para garantir máxima resistência à pressão com vazão ideal."
           },
           {
             "year": "SKZ & DVGW",
-            "title": "Hygiene & Materialprüfung",
-            "text": "Zertifikate, die die absolute Lebensmittel- und Trinkwasserechtheit bescheinigen. Keine Schwermetalle, keine Auswaschungen. Pure, unkontaminierte Fluiddynamik für höchste hygienische Ansprüche."
+            "title": "Higiene e Ensaio de Materiais",
+            "text": "Certificados que atestam total conformidade toxicológica e adequação para água potável e alimentos. Sem metais pesados, sem lixiviação. Fluídica pura e não contaminada para as mais altas exigências higiênicas."
           }
         ]
       },
       "conclusion": {
-        "title": "Zersetzungsresistenz im Extremfall.",
-        "p1": "In industriellen Applikationen entscheidet nicht der Normalbetrieb über die Qualität eines Rohrleitungssystems, sondern die Stabilität in den Grenzbereichen. Chemische Korrosion, Kavitation durch Druckschläge und thermische Schocks sind die natürlichen Feinde herkömmlicher Installationen.",
-        "p2": "Die <strong>K Aqua Matrix</strong> isoliert das fluide Medium durch eine inerte Sperrschicht von der Umgebung. Es findet kein Ionenaustausch statt. Metallische Systeme degradieren von dem Moment an, in dem Wasser durch sie fließt. Sie opfern sich selbst, um zu funktionieren. Unser PP-R System bleibt auch nach Jahrzehnten im Inneren makellos.",
-        "p3": "Der Begriff der <strong>Spannungsrissbeständigkeit</strong> (Environmental Stress Cracking Resistance, ESCR) ist in der Polymerchemie von zentraler Bedeutung. Wir modifizieren das Molekulargewicht unseres Copolymers so, dass es Belastungsspitzen abfedert, anstatt unter ihnen zu brechen. Das Resultat ist ein System, das Erschütterungen, Vibrationen und Setzungen des Baukörpers absorbiert.",
-        "p4": "Wer die Terminologie der Rohrleitungstechnik verstanden hat, versteht auch, warum Kompromisse hier den Ruin bedeuten können. German Engineering ist kein leeres Versprechen, sondern die Summe präziser, physikalischer Parameter, die wir in jedem einzelnen Zentimeter unserer Produktion manifestieren."
+        "title": "Resistência à Degradação em Condições Extremas.",
+        "p1": "Em aplicações industriais, não é a operação normal que define a qualidade de um sistema de tubulação, mas sim a sua estabilidade nas faixas operacionais limites. Corrosão química, cavitação por golpes de aríete e choques térmicos são os inimigos naturais das instalações convencionais.",
+        "p2": "A <strong>Matriz K-Aqua</strong> isola o fluido do ambiente através de uma camada de barreira inerte. Não ocorre troca iônica. Sistemas metálicos começam a degradar no momento em que a água flui através deles: eles se sacrificam para funcionar. Nosso sistema PP-R permanece impecável internamente, mesmo após décadas.",
+        "p3": "O conceito de <strong>resistência à fissuração sob tensão ambiental</strong> (Environmental Stress Cracking Resistance, ESCR) tem importância central na química de polímeros. Modificamos o peso molecular do nosso copolímero para amortecer picos de tensão em vez de romper sob eles. O resultado é um sistema que absorve impactos, vibrações e acomodações estruturais da edificação.",
+        "p4": "Quem compreende a terminologia da engenharia de tubulações compreende também por que concessões neste setor podem significar a ruína. German Engineering não é uma promessa vazia, mas a soma de parâmetros físicos precisos que materializamos em cada centímetro da nossa produção."
       },
       "cta": {
-        "title1": "Die Theorie beendet.",
-        "title2": "Die Praxis beginnt.",
-        "desc": "Konfrontieren Sie unsere Ingenieure mit Ihren härtesten technischen Anforderungen. Wir liefern die Systemarchitektur.",
-        "button": "Engineering Briefing starten"
+        "title1": "A teoria terminou.",
+        "title2": "A prática começa.",
+        "desc": "Apresente aos nossos engenheiros seus requisitos técnicos mais desafiadores. Nós fornecemos a arquitetura do sistema.",
+        "button": "Iniciar briefing de engenharia"
       }
     },
-    "eyebrow": "K Aqua Academy",
-    "title1": "Wissen, das",
-    "titleGrad": "verbindet.",
-    "lead": "Vier Schweißverfahren im Video, und ein Quiz, das Sie zum Schweißmeister macht. Wissen, das verbindet. Optimiert für die Baustelle: große Ziele, hohe Kontraste.",
+    "eyebrow": "K-Aqua Academy",
+    "title1": "Conhecimento que",
+    "titleGrad": "conecta.",
+    "lead": "Quatro métodos de soldagem em vídeo e um quiz para torná-lo um mestre da solda. Conhecimento que conecta. Otimizado para o canteiro de obras: alvos grandes e alto contraste.",
     "videos": [
       {
-        "t": "Muffenschweißen von Hand",
-        "s": "bis d63, Handschweißgerät"
+        "t": "Soldagem por termofusão manual",
+        "s": "até d63, termofusor manual"
       },
       {
-        "t": "Muffenschweißen mit Maschine",
-        "s": "mittlere Dimensionen"
+        "t": "Soldagem por termofusão mecânica",
+        "s": "diâmetros médios"
       },
       {
-        "t": "Elektroschweißen",
-        "s": "Heizwendelfittings"
+        "t": "Eletrofusão",
+        "s": "conexões com resistência elétrica incorporada"
       },
       {
-        "t": "Stumpfschweißen",
-        "s": "Großdimensionen bis d630"
+        "t": "Solda de topo",
+        "s": "grandes diâmetros até d630"
       }
     ],
-    "quizEyebrow": "Schweißmeister-Quiz",
-    "quizTitle": "Fünf Fragen. Ein Abzeichen.",
-    "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
-    "start": "Quiz starten",
-    "qLabel": "Frage",
+    "quizEyebrow": "Quiz do Mestre da Solda",
+    "quizTitle": "Cinco perguntas. Um distintivo.",
+    "intro": "Teste seus conhecimentos de instalação em PP-R/PP-RCT. Sem erros = título de \"Mestre da Solda\".",
+    "start": "Iniciar quiz",
+    "qLabel": "Pergunta",
     "quiz": [
       {
-        "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
+        "q": "Qual método de soldagem é o padrão para grandes diâmetros (p. ex., d630)?",
         "o": [
-          "Muffenschweißen von Hand",
-          "Stumpfschweißen (Butt Fusion)",
-          "Kleben"
+          "Soldagem por termofusão manual",
+          "Solda de topo (Butt Fusion)",
+          "Colagem"
         ]
       },
       {
-        "q": "Wofür steht SDR bei Rohrsystemen?",
+        "q": "O que significa SDR em sistemas de tubulação?",
         "o": [
           "Standard Dimension Ratio (d/s)",
           "Static Density Rating",
-          "Sicherheits-Druck-Reserve"
+          "Reserva de Pressão de Segurança"
         ]
       },
       {
-        "q": "Was unterscheidet PPRCT von klassischem PP-R?",
+        "q": "O que diferencia o PP-RCT do PP-R clássico?",
         "o": [
-          "Niedrigerer Preis",
-          "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
-          "Metallische Verstärkung"
+          "Preço mais baixo",
+          "Estrutura cristalina modificada → maior tolerância a temperatura e pressão",
+          "Reforço metálico"
         ]
       },
       {
-        "q": "Welchen Recycling Code trägt Polypropylen?",
+        "q": "Qual é o código de reciclagem do polipropileno?",
         "o": [
-          "Code 3",
-          "Code 5",
-          "Code 7"
+          "Código 3",
+          "Código 5",
+          "Código 7"
         ]
       },
       {
-        "q": "Beim Elektroschweißen (Electrofusion) kommt die Wärme …",
+        "q": "Na eletrofusão (Electrofusion), o calor provém de …",
         "o": [
-          "aus einem Heizelement-Spiegel",
-          "aus eingebetteten Heizwendeln im Fitting",
-          "aus Heißluft"
+          "um espelho térmico de aquecimento",
+          "resistências elétricas incorporadas na conexão",
+          "ar quente"
         ]
       }
     ],
-    "resPerfect": "Perfekt, Titel „Schweißmeister\" verdient!",
-    "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. Für den Meister: alle fünf richtig.",
-    "resLow": "Die Videos oben helfen, danach klappt der Meister.",
-    "retry": "Nochmal versuchen",
-    "titlePerfect": "Schweißmeister",
-    "titleGood": "Schweiß-Geselle",
-    "videosHeading": "Training videos and guides"
+    "resPerfect": "Perfeito! Você conquistou o título de \"Mestre da Solda\"!",
+    "resGood": "Muito bom! Título de \"Oficial de Solda\" garantido. Para ser mestre: acerte todas as cinco.",
+    "resLow": "Os vídeos acima podem ajudar; depois disso você conseguirá o título de mestre.",
+    "retry": "Tentar novamente",
+    "titlePerfect": "Mestre da Solda",
+    "titleGood": "Oficial de Solda",
+    "videosHeading": "Vídeos de treinamento e tutoriais"
   },
   "refs": {
     "eyebrow": "Referenzen",
@@ -4738,56 +4738,56 @@
     "viewProject": "View project"
   },
   "buyers": {
-    "eyebrow": "Für Planer, Einkauf & Verarbeiter",
-    "title1": "Sie planen, kalkulieren oder verlegen.",
-    "titleGrad": "Wir liefern die Grundlage.",
-    "lead": "Jede Rolle findet bei K Aqua genau die Information, die sie für die nächste Entscheidung braucht, ohne PDF-Wälzen, ohne Rückruf-Warteschleife.",
+    "eyebrow": "Para projetistas, compras e instaladores",
+    "title1": "Você planeja, calcula ou instala.",
+    "titleGrad": "Nós fornecemos a base.",
+    "lead": "Cada profissional encontra na K-Aqua exatamente as informações necessárias para sua próxima decisão — sem ler pilhas de PDFs, sem espera por retorno telefônico.",
     "personas": [
       {
-        "t": "Planer & Fachingenieure",
-        "d": "Normkonforme technische Daten, SDR-Tabellen und CO₂-Nachweise für die Ausschreibung, direkt verwertbar.",
-        "cta": "Zu den technischen Daten",
+        "t": "Projetistas e Engenheiros",
+        "d": "Dados técnicos em conformidade com as normas, tabelas SDR e laudos de CO₂ para especificações de projeto, diretamente aplicáveis.",
+        "cta": "Ver dados técnicos",
         "goto": "products"
       },
       {
-        "t": "Einkauf & Beschaffung",
-        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms und ein Ansprechpartner statt Zwischenhandel.",
-        "cta": "Projektanfrage starten",
+        "t": "Compras e Suprimentos",
+        "d": "Fornecimento direto de fábrica, logística previsível a partir de Waldsolms e um contato dedicado em vez de intermediários.",
+        "cta": "Iniciar solicitação de projeto",
         "goto": "rfq"
       },
       {
-        "t": "Installateure & Verarbeiter",
-        "d": "Vier Schweißverfahren als Video, Werkzeugübersicht und klare Verarbeitungsgrenzen, Sicherheit auf der Baustelle.",
-        "cta": "Zur Academy",
+        "t": "Instaladores e Aplicadores",
+        "d": "Vídeos dos quatro processos de soldagem, visão geral de ferramentas e limites claros de aplicação — total segurança na obra.",
+        "cta": "Acessar a Academy",
         "goto": "academy"
       }
     ],
-    "whyEyebrow": "Warum K Aqua",
-    "whyTitle": "Sechs Gründe, die in der Kalkulation ankommen.",
+    "whyEyebrow": "Por que a K-Aqua",
+    "whyTitle": "Motivos que fazem a diferença no seu orçamento.",
     "why": [
       {
-        "t": "Druckfest & heißwasserfest",
-        "d": "PPRCT mit modifizierter Kristallstruktur, mehr Temperatur- und Druckreserve über Jahrzehnte."
+        "t": "Resistente à pressão e água quente",
+        "d": "PP-RCT com estrutura cristalina modificada: maior reserva de pressão e temperatura por décadas."
       },
       {
-        "t": "Korrosionsfrei",
-        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie bei metallischen Leitungen."
+        "t": "Livre de corrosão",
+        "d": "Sem ferrugem, sem incrustações e sem risco de corrosão por pite como em tubulações metálicas."
       },
       {
-        "t": "Recycelbar & CO₂-arm",
-        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer oder Stahl, belegbar im CO₂-Rechner."
+        "t": "Reciclável e de baixo CO₂",
+        "d": "Código de reciclagem 5, pegada de carbono significativamente menor que cobre ou aço — comprovada na calculadora de CO₂."
       },
       {
-        "t": "Ein Ansprechpartner",
-        "d": "Rohr, Formteil, Armatur und Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
+        "t": "Um único interlocutor",
+        "d": "Tubos, conexões, válvulas e tecnologia de soldagem de uma única fonte — diretamente do fabricante, sem intermediários."
       }
     ],
     "promise": [
-      "Werksdirekt",
-      "Antwort < 24 h",
-      "Unverbindlich"
+      "Direto da fábrica",
+      "Resposta em < 24 h",
+      "Sem compromisso"
     ],
-    "ctaAll": "Projektanfrage in 2 Minuten"
+    "ctaAll": "Solicitação de projeto em 2 minutos"
   },
   "rfq": {
     "eyebrow": "Projektanfrage",
@@ -5804,209 +5804,209 @@
     ]
   },
   "academyx": {
-    "paramEyebrow": "Schweißparameter",
-    "paramTitle": "Muffenschweißen: die Richtwerte.",
-    "paramLead": "Anwärm-, Umstell- und Abkühlzeiten für das Muffenschweißen nach DVS 2207-11 (Heizelement 250–270 °C), die Grundlage, die in den Videos praktisch gezeigt wird.",
+    "paramEyebrow": "Parâmetros de soldagem",
+    "paramTitle": "Termofusão: os valores de referência.",
+    "paramLead": "Tempos de aquecimento, transição e resfriamento para soldagem por termofusão conforme DVS 2207-11 (temperatura da placa térmica de 250–270 °C) — a base demonstrada na prática nos vídeos.",
     "paramHead": [
       "d (mm)",
-      "Schweißtiefe (mm)",
-      "Anwärmen (s)",
-      "Umstellen max. (s)",
-      "Abkühlen (min)"
+      "Profundidade de inserção (mm)",
+      "Aquecimento (s)",
+      "Transição máx. (s)",
+      "Resfriamento (min)"
     ],
-    "paramNote": "Richtwerte nach DVS 2207-11 für PP bei 250–270 °C Heizelementtemperatur. Verbindlich sind die Angaben des Schweißgeräte-Herstellers und die Verarbeitungsanleitung, im Zweifel gilt: Video ansehen, Parameter am Gerät prüfen.",
-    "stepEyebrow": "Verfahren Schritt für Schritt",
-    "stepTitle": "Vier Verfahren, ein Qualitätsanspruch.",
-    "stepLead": "Jedes Verfahren hat seinen Dimensionsbereich, und fünf Schritte, die über die Qualität der Verbindung entscheiden.",
+    "paramNote": "Valores de referência segundo a norma DVS 2207-11 para PP com temperatura da placa térmica de 250–270 °C. Prevalecem as especificações do fabricante do equipamento de solda e o manual de instalação. Em caso de dúvida: assista ao vídeo e verifique os parâmetros no equipamento.",
+    "stepEyebrow": "Processos passo a passo",
+    "stepTitle": "Quatro processos, um único padrão de qualidade.",
+    "stepLead": "Cada processo possui sua faixa de diâmetros e cinco etapas decisivas para a qualidade e estanqueidade da união.",
     "procTabs": [
-      "Muffe (Hand)",
-      "Muffe (Maschine)",
-      "Elektroschweißen",
-      "Stumpfschweißen"
+      "Termofusão (manual)",
+      "Termofusão (máquina)",
+      "Eletrofusão",
+      "Solda de topo"
     ],
     "procs": [
       {
-        "t": "Muffenschweißen von Hand, bis d63",
+        "t": "Termofusão manual: até d63",
         "steps": [
           {
-            "t": "Schneiden & entgraten",
-            "d": "Rohr rechtwinklig ablängen, sauber entgraten und anfasen, Rohrschneider aus dem K Aqua-Werkzeugprogramm verwenden."
+            "t": "Cortar e chanfrar",
+            "d": "Cortar o tubo em ângulo reto, rebarbar e chanfrar perfeitamente. Utilize cortadores de tubo da linha de ferramentas K-Aqua."
           },
           {
-            "t": "Schweißtiefe anzeichnen",
-            "d": "Einstecktiefe nach Tabelle (z. B. 14 mm bei d20) am Rohr markieren, sie definiert die Fügezone."
+            "t": "Marcar a profundidade de inserção",
+            "d": "Marcar a profundidade de inserção no tubo conforme a tabela (ex.: 14 mm para d20): ela delimita a zona de fusão."
           },
           {
-            "t": "Gleichzeitig anwärmen",
-            "d": "Rohr in die Heizbuchse, Fitting auf den Heizdorn, gleichzeitig aufschieben und die Anwärmzeit exakt halten."
+            "t": "Aquecer simultaneamente",
+            "d": "Inserir o tubo na matriz fêmea e a conexão na matriz macho. Encaixar simultaneamente e respeitar rigorosamente o tempo de aquecimento."
           },
           {
-            "t": "Zügig fügen, ohne Drehen",
-            "d": "Innerhalb der Umstellzeit axial fügen. Niemals verdrehen: Drehen zerstört das plastifizierte Gefüge."
+            "t": "Unir rapidamente, sem girar",
+            "d": "Unir axialmente dentro do tempo de transição. Nunca girar as peças: a torção destrói a estrutura plastificada do polímero."
           },
           {
-            "t": "Fixieren & abkühlen",
-            "d": "Verbindung einige Sekunden fixieren, dann die Abkühlzeit abwarten, bevor mechanische Last aufgebracht wird."
+            "t": "Fixar e resfriar",
+            "d": "Fixar a junta por alguns segundos e aguardar o tempo total de resfriamento antes de submeter a tubulação a esforços mecânicos."
           }
         ]
       },
       {
-        "t": "Muffenschweißen mit Maschine, mittlere Dimensionen",
+        "t": "Termofusão com máquina: diâmetros intermediários",
         "steps": [
           {
-            "t": "Vorbereiten wie beim Handschweißen",
-            "d": "Ablängen, entgraten, Schweißtiefe markieren, die Grundregeln bleiben identisch."
+            "t": "Preparação igual à solda manual",
+            "d": "Cortar, chanfrar e marcar a profundidade de solda. Os princípios fundamentais continuam os mesmos."
           },
           {
-            "t": "Rohr & Fitting einspannen",
-            "d": "Die Maschine hält beide Fügepartner koaxial, Versatz und Kippfehler sind mechanisch ausgeschlossen."
+            "t": "Fixar tubo e conexão",
+            "d": "A máquina mantém ambos os elementos em alinhamento coaxial perfeito. Desvios e desvios angulares são mecanicamente eliminados."
           },
           {
-            "t": "Anwärmen mit Heizelement",
-            "d": "Heizbuchse und -dorn nach DVS-Richtwerten; die Maschine hält Position und Zeit reproduzierbar."
+            "t": "Aquecer com a placa térmica",
+            "d": "Matrizes macho e fêmea de acordo com as diretrizes DVS; a máquina garante a reprodutibilidade exata de posição e tempo."
           },
           {
-            "t": "Maschinell fügen",
-            "d": "Der Vorschub fügt axial und gleichmäßig, besonders bei d75 bis d125 der Schlüssel zu konstanter Qualität."
+            "t": "Unir mecanicamente",
+            "d": "O avanço mecânico realiza a junção de forma axial e uniforme — essencial para manter a qualidade constante, especialmente de d75 a d125."
           },
           {
-            "t": "Abkühlen unter Fixierung",
-            "d": "Erst nach Ablauf der Abkühlzeit ausspannen und weiterverarbeiten."
+            "t": "Resfriar sob fixação",
+            "d": "Desprender da máquina e manusear apenas após o término completo do tempo de resfriamento."
           }
         ]
       },
       {
-        "t": "Elektroschweißen (Electrofusion), Heizwendelfittings",
+        "t": "Eletrofusão (Electrofusion): conexões com resistência embutida",
         "steps": [
           {
-            "t": "Oberfläche schälen",
-            "d": "Die Rohroberfläche in der Fügezone schälen und reinigen, Oxidhaut und Verschmutzung verhindern die Verschweißung."
+            "t": "Raspar a superfície",
+            "d": "Raspar e limpar a superfície do tubo na zona de soldagem. A camada de óxido e sujidades impedem a fusão homogênea."
           },
           {
-            "t": "Einstecktiefe markieren",
-            "d": "Tiefe am Rohr anzeichnen, Rohr bis zum Anschlag in das Fitting schieben."
+            "t": "Marcar a profundidade de inserção",
+            "d": "Marcar a profundidade no tubo e inserir o tubo até o batente interno da conexão eletrossoldável."
           },
           {
-            "t": "Spannungsfrei fixieren",
-            "d": "Halteklemmen verwenden, das Fitting darf während des Schweißens nicht unter Biegespannung stehen."
+            "t": "Fixar sem tensão",
+            "d": "Utilizar alinhadores e abraçadeiras: a conexão não pode estar sob tensão de flexão durante a soldagem."
           },
           {
-            "t": "Schweißprozess starten",
-            "d": "Das Gerät bestromt die eingebetteten Heizwendeln im Fitting, Parameter kommen vom Fitting, nicht aus dem Gefühl."
+            "t": "Iniciar o ciclo de solda",
+            "d": "O equipamento aplica a corrente elétrica nas espiras de aquecimento embutidas. Os parâmetros são lidos diretamente da conexão, sem improvisos."
           },
           {
-            "t": "Abkühlzeit einhalten",
-            "d": "Erst nach der angegebenen Abkühlzeit bewegen oder belasten, Kontrollindikatoren am Fitting prüfen."
+            "t": "Respeitar o tempo de resfriamento",
+            "d": "Movimentar ou pressurizar somente após o término do tempo de resfriamento indicado. Verificar os pinos indicadores de solda na conexão."
           }
         ]
       },
       {
-        "t": "Stumpfschweißen (Butt Fusion), Großdimensionen bis d630",
+        "t": "Solda de topo (Butt Fusion): grandes diâmetros até d630",
         "steps": [
           {
-            "t": "Enden planhobeln",
-            "d": "Beide Rohrenden in der Maschine planhobeln, bis durchgehende Späne entstehen, Planparallelität ist Pflicht."
+            "t": "Aplainar os topos",
+            "d": "Facear ambas as extremidades dos tubos na máquina até obter aparas contínuas: o paralelismo planar é mandatório."
           },
           {
-            "t": "Ausrichten & Versatz prüfen",
-            "d": "Versatz maximal 10 % der Wanddicke, bei d630 zählt jeder Millimeter."
+            "t": "Alinhar e checar desvio",
+            "d": "Desalinhamento máximo de 10 % da espessura da parede. Em diâmetros como d630, cada milímetro é crítico."
           },
           {
-            "t": "Anwärmen am Heizelement",
-            "d": "Angleichen unter Druck bis zur Wulstbildung, dann drucklos durchwärmen, Zeiten nach DVS 2207-11."
+            "t": "Aquecer no espelho térmico",
+            "d": "Pressurizar até a formação do cordão de solda, depois manter o aquecimento sem pressão. Tempos conforme a norma DVS 2207-11."
           },
           {
-            "t": "Umstellen & fügen",
-            "d": "Heizelement zügig entnehmen und die Enden unter definiertem Fügedruck zusammenfahren."
+            "t": "Transição e junção",
+            "d": "Remover a placa térmica rapidamente e aproximar os topos sob a pressão de soldagem pré-determinada."
           },
           {
-            "t": "Abkühlen unter Fügedruck",
-            "d": "Der Fügedruck bleibt bis zum Ende der Abkühlzeit, dann entsteht der homogene, dauerhaft dichte Strang."
+            "t": "Resfriar sob pressão de solda",
+            "d": "A pressão de soldagem é mantida durante todo o resfriamento, gerando uma tubulação homogênea e permanentemente estanque."
           }
         ]
       }
     ],
-    "errEyebrow": "Fehlerkunde",
-    "errTitle": "Die sechs teuersten Fehler, und ihre Prävention.",
+    "errEyebrow": "Guia de falhas",
+    "errTitle": "Os seis erros mais caros e sua prevenção.",
     "errHead": [
-      "Fehler",
-      "Folge",
-      "Prävention"
+      "Erro",
+      "Consequência",
+      "Prevenção"
     ],
     "errRows": [
       [
-        "Zu langes Anwärmen",
-        "Wulst wächst nach innen, Querschnitt verengt sich",
-        "Anwärmzeit nach Tabelle stoppen, nicht nach Gefühl"
+        "Aquecimento excessivo",
+        "Formação excessiva de cordão interno, redução da seção útil de passagem",
+        "Cronometrar o tempo de aquecimento pela tabela, nunca por estimativa visual"
       ],
       [
-        "Verdrehen beim Fügen",
-        "Plastifiziertes Gefüge wird zerstört, Verbindung undicht",
-        "Nur axial fügen, Markierung als Kontrolle nutzen"
+        "Girar durante a junção",
+        "Destruição da estrutura plastificada, vazamento na união",
+        "Unir exclusivamente no sentido axial, utilizando a marcação de controle"
       ],
       [
-        "Fehlendes Entgraten/Anfasen",
-        "Material schiebt sich auf, Fügezone wird ungleichmäßig",
-        "Jeden Schnitt entgraten, Werkzeug gehört zum System"
+        "Falta de chanfro/rebarbação",
+        "O material se acumula na inserção, tornando a zona de solda irregular",
+        "Rebarbar e chanfrar todos os cortes: a ferramenta correta faz parte do sistema"
       ],
       [
-        "Verschmutztes Heizelement",
-        "Anhaftungen verbrennen und lagern sich in der Naht ein",
-        "Heizflächen vor jeder Schweißung mit fusselfreiem Tuch reinigen"
+        "Placa térmica suja",
+        "Resíduos queimados se incorporam e contaminam o cordão de solda",
+        "Limpar as superfícies térmicas com pano limpo e sem fiapos antes de cada solda"
       ],
       [
-        "Zu frühe Belastung",
-        "Naht verformt sich vor dem Erstarren",
-        "Abkühlzeiten einhalten, bei d110 sind das 8 Minuten"
+        "Carga mecânica prematura",
+        "Deformação da solda antes da solidificação completa",
+        "Respeitar os tempos de resfriamento: para d110 são 8 minutos"
       ],
       [
-        "Falsche Schweißtiefe",
-        "Zu kurz: kleine Fügefläche · zu tief: Querschnittsverengung",
-        "Einstecktiefe immer anzeichnen, nie schätzen"
+        "Profundidade de solda incorreta",
+        "Muito curta: área de fusão insuficiente · Muito profunda: estrangulamento da seção",
+        "Sempre marcar a profundidade de inserção no tubo, nunca trabalhar por estimativa"
       ]
     ],
-    "glossEyebrow": "Glossar",
-    "glossTitle": "Die Begriffe der Rohrleitungstechnik.",
+    "glossEyebrow": "Glossário",
+    "glossTitle": "Os termos da engenharia de tubulações.",
     "gloss": [
       [
         "SDR",
-        "Standard Dimension Ratio = Außendurchmesser geteilt durch Wandstärke (d/s). Kleiner SDR = dickere Wand = höherer Nenndruck."
+        "Standard Dimension Ratio = Diâmetro externo dividido pela espessura de parede (d/s). Menor SDR = parede mais espessa = maior pressão nominal."
       ],
       [
         "PN",
-        "Nenndruck in bar bei 20 °C über den Auslegungshorizont, SDR 6 entspricht PN 20, SDR 17 entspricht PN 6."
+        "Pressão nominal em bar a 20 °C ao longo da vida útil projetada: SDR 6 corresponde a PN 20, SDR 17 corresponde a PN 6."
       ],
       [
         "d / di / s",
-        "Außendurchmesser / Innendurchmesser / Wandstärke in Millimetern, di = d − 2s."
+        "Diâmetro externo / Diâmetro interno / Espessura de parede em milímetros. di = d − 2s."
       ],
       [
         "PP-R",
-        "Polypropylen Random Copolymer, der bewährte Standardwerkstoff für Trinkwasserinstallationen."
+        "Copolímero Random de Polipropileno: o material padrão consagrado para instalações de água potável."
       ],
       [
         "PPRCT",
-        "PP-R mit modifizierter Kristallstruktur („Crystallinity Temperature\"), mehr Temperatur- und Druckreserve bei gleicher Wand."
+        "PP-R com estrutura cristalina modificada (\"Crystallinity Temperature\"): maior margem de temperatura e pressão com a mesma espessura de parede."
       ],
       [
         "K-Fiber / GF",
-        "Glasfaserverstärkter Multilayer-Aufbau, reduziert die Wärmeausdehnung auf rund ein Viertel."
+        "Estrutura multicamada reforçada com fibra de vidro: reduz a dilatação térmica a cerca de um quarto."
       ],
       [
         "Muffenschweißen",
-        "Socket Fusion: Rohr und Fitting werden über Heizbuchse und -dorn plastifiziert und ineinandergefügt."
+        "Termofusão (Socket Fusion): tubo e conexão são plastificados por matrizes fêmea e macho e encaixados entre si."
       ],
       [
         "Elektroschweißen",
-        "Electrofusion: eingebettete Heizwendeln im Fitting erzeugen die Schweißwärme, parametergesteuert."
+        "Eletrofusão (Electrofusion): espiras de aquecimento embutidas na conexão geram o calor de soldagem com controle de parâmetros."
       ],
       [
         "Stumpfschweißen",
-        "Butt Fusion: planparallele Rohrenden werden am Heizelement erwärmt und unter Druck gefügt, Standard bis d630."
+        "Solda de topo (Butt Fusion): topos paralelos dos tubos são aquecidos no espelho térmico e unidos sob pressão, padrão até d630."
       ],
       [
         "DVS 2207-11",
-        "Das Regelwerk für das Schweißen von Polypropylen, Quelle der Richtwerte auf dieser Seite."
+        "Conjunto de normas técnicas para a soldagem de polipropileno: fonte dos valores de referência desta página."
       ]
     ]
   },
@@ -6131,80 +6131,80 @@
     ]
   },
   "aboutx": {
-    "numEyebrow": "Zahlen aus dem Werk",
-    "numTitle": "Waldsolms in Kennzahlen.",
-    "numLead": "Mittelhessen, Auweg 3, hier entwickelt und fertigt die KWT GmbH das komplette K Aqua-Programm.",
+    "numEyebrow": "Números da Fábrica",
+    "numTitle": "Waldsolms em Números.",
+    "numLead": "Mittelhessen, Auweg 3, é aqui que a KWT GmbH desenvolve e fabrica toda a linha K-Aqua.",
     "nums": [
       {
         "n": "14.000",
         "u": "m",
-        "l": "Rohr pro Tag und Extrusionsanlage, Kapazität für Großprojekte"
+        "l": "de tubos por dia e linha de extrusão, capacidade para grandes projetos"
       },
       {
         "n": "20–630",
         "u": "mm",
-        "l": "Dimensionsbereich der Rohrfertigung, Formteile bis 315 mm"
+        "l": "Gama dimensional de fabricação de tubos, conexões até 315 mm"
       },
       {
         "n": "100",
         "u": "%",
-        "l": "der Schnittreste und Produktionsabfälle gehen zurück in den Kreislauf"
+        "l": "das sobras de corte e resíduos de produção retornam ao ciclo produtivo"
       },
       {
         "n": "3",
         "u": "× ISO",
-        "l": "Qualität, Umwelt, Energie, DAkkS-akkreditiert seit Oktober 2025"
+        "l": "Qualidade, Meio Ambiente, Energia, credenciamento DAkkS desde outubro de 2025"
       }
     ],
-    "prodEyebrow": "Fertigung",
-    "prodTitle": "Vier Stationen, ein Qualitätsversprechen.",
-    "prodLead": "Vom Granulat bis zum gekennzeichneten Rohr, so entsteht das Produkt.",
+    "prodEyebrow": "Fabricação",
+    "prodTitle": "Quatro etapas, uma promessa de qualidade.",
+    "prodLead": "Do grânulo ao tubo identificado, assim nasce o produto.",
     "prod": [
       {
-        "t": "Extrusion",
-        "d": "Monolayer- und glasfaserverstärkte Multilayer-Rohre entstehen auf Extrusionsanlagen mit bis zu 14.000 Metern Tagesleistung je Anlage."
+        "t": "Extrusão",
+        "d": "Tubos monocamada e multicamada reforçados com fibra de vidro são produzidos em linhas de extrusão com capacidade de até 14.000 metros por dia por linha."
       },
       {
-        "t": "Spritzguss",
-        "d": "Formteile von d20 bis d315 werden im Spritzguss gefertigt, komplexe Geometrien bei hoher Stückzahl und konstanter Qualität."
+        "t": "Injeção",
+        "d": "Conexões de d20 a d315 são fabricadas por moldagem por injeção, geometrias complexas em grandes volumes e com qualidade constante."
       },
       {
-        "t": "Geschlossener Kühlkreislauf",
-        "d": "Das Prozesswasser der Fertigung zirkuliert im geschlossenen Kreislauf, Gewässerschutz als Systementscheidung, überwacht nach ISO 14001."
+        "t": "Circuito Fechado de Refrigeração",
+        "d": "A água do processo de fabricação circula em circuito fechado, proteção aos recursos hídricos como decisão de sistema, monitorada conforme a ISO 14001."
       },
       {
-        "t": "Kennzeichnung & Prüfung",
-        "d": "Jedes Rohr wird im Extrusionsprozess fortlaufend gekennzeichnet und nach QS-Handbuch geprüft, Rückverfolgbarkeit je Charge."
+        "t": "Identificação e Inspeção",
+        "d": "Cada tubo é continuamente marcado durante a extrusão e inspecionado segundo o manual de garantia da qualidade, rastreabilidade por lote."
       }
     ],
     "houseEyebrow": "House of KWT",
-    "houseTitle": "Vier Nutzen, ein Haus.",
-    "houseLead": "Die Unternehmenspolitik der KWT GmbH denkt Nutzen als Kreislauf, keiner existiert ohne die anderen drei.",
+    "houseTitle": "Quatro valores de utilidade, uma só casa.",
+    "houseLead": "A política corporativa da KWT GmbH concebe a utilidade como um ciclo: nenhum existe sem os outros três.",
     "house": [
       {
-        "t": "Kundennutzen",
-        "d": "Wünsche von Kunden und Interessierten werden erkannt, ernst genommen und umgesetzt, unter Einhaltung gesetzlicher und sozialer Standards."
+        "t": "Benefício para o Cliente",
+        "d": "As necessidades dos clientes e partes interessadas são identificadas, valorizadas e atendidas, em estrita conformidade com as normas legais e sociais."
       },
       {
-        "t": "Mitarbeiternutzen",
-        "d": "Alle Mitarbeitenden sind in den kontinuierlichen Verbesserungsprozess eingebunden, kein Kundennutzen ohne Mitarbeiternutzen."
+        "t": "Benefício para os Colaboradores",
+        "d": "Todos os colaboradores participam do processo de melhoria contínua; não há benefício para o cliente sem benefício para os colaboradores."
       },
       {
-        "t": "Unternehmensnutzen",
-        "d": "Qualität bleibt stets mit Kosten und Terminen vereinbar, so trägt der Erfolg von heute die Investitionen von morgen."
+        "t": "Benefício para a Empresa",
+        "d": "A qualidade permanece sempre compatível com custos e prazos; assim, o sucesso de hoje sustenta os investimentos de amanhã."
       },
       {
-        "t": "Umwelt & Mitwelt",
-        "d": "Ressourcenschonung und Umweltverträglichkeit sind Teil des Qualitätsverständnisses, verankert im GENAU-System."
+        "t": "Meio Ambiente e Sociedade",
+        "d": "A conservação de recursos e a sustentabilidade ambiental são parte integrante da nossa compreensão de qualidade, ancoradas no sistema GENAU."
       }
     ],
-    "mileEyebrow": "Meilensteine",
-    "mileTitle": "Der Weg bis hierher.",
+    "mileEyebrow": "Marcos Históricos",
+    "mileTitle": "A trajetória até aqui.",
     "miles": [
       {
-        "y": "Jahrzehnte",
-        "t": "Fertigungserfahrung",
-        "d": "Kunststoffverarbeitung für die Wasserversorgung, Erfahrung, die in jede Charge einfließt."
+        "y": "Décadas",
+        "t": "Experiência de Fabricação",
+        "d": "Processamento de plásticos para o abastecimento de água: experiência que flui em cada lote."
       },
       {
         "y": "Futuro",
@@ -6213,18 +6213,18 @@
       },
       {
         "y": "GENAU",
-        "t": "Managementsystem im House of KWT",
-        "d": "Arbeitsschutz, Umwelt und Energie als tägliche Praxis jedes Mitarbeitenden, nicht als Audit-Übung."
+        "t": "Sistema de Gestão no House of KWT",
+        "d": "Saúde ocupacional, meio ambiente e energia como prática diária de cada colaborador, e não como mera formalidade de auditoria."
       },
       {
         "y": "10/2025",
-        "t": "Dreifach ISO-geprüft",
-        "d": "ISO 9001, 14001 und 50001 in einem Schritt, DAkkS-akkreditiert, gültig bis 10/2028."
+        "t": "Tripla Certificação ISO",
+        "d": "ISO 9001, 14001 e 50001 em uma única etapa, credenciadas pelo DAkkS, válidas até 10/2028."
       },
       {
         "y": "2026",
-        "t": "Digitale Plattform",
-        "d": "Produktfinder, CO₂-Rechner, Trust Center und Academy machen die Website zum Werkzeugkasten."
+        "t": "Plataforma Digital",
+        "d": "Localizador de produtos, calculadora de CO₂, Trust Center e Academy transformam o site em uma verdadeira caixa de ferramentas."
       }
     ]
   },
@@ -6351,69 +6351,69 @@
     ]
   },
   "careerx": {
-    "areaEyebrow": "Arbeitsbereiche",
-    "areaTitle": "Wo Sie bei K Aqua arbeiten.",
-    "areaLead": "Kreativität und Erfahrung sind die Basis unserer marktführenden Lösungen, vier Bereiche tragen sie, quer durch das Werk Waldsolms.",
+    "areaEyebrow": "Áreas de atuação",
+    "areaTitle": "Onde você pode atuar na K-Aqua.",
+    "areaLead": "Criatividade e experiência são os pilares das nossas soluções líderes de mercado: quatro setores sustentam nosso sucesso na fábrica de Waldsolms.",
     "areas": [
       {
-        "t": "Produktion & Fertigung",
-        "d": "Extrusionsanlagen mit bis zu 14.000 Metern Tagesleistung rüsten, fahren und überwachen, dazu Spritzguss für Formteile von d20 bis d315.",
-        "p": "Technikverständnis, Sorgfalt, Bereitschaft zur Schichtarbeit"
+        "t": "Produção e Fabricação",
+        "d": "Preparar, operar e monitorar linhas de extrusão com capacidade de até 14.000 metros por dia, além de injeção de conexões de d20 a d315.",
+        "p": "Compreensão técnica, atenção aos detalhes, disponibilidade para trabalho em turnos"
       },
       {
-        "t": "Technik & Instandhaltung",
-        "d": "Extruder, Werkzeuge und Peripherie am Laufen halten: Wartung, Störungsanalyse und kontinuierliche Verbesserung nach GENAU.",
-        "p": "Ausbildung in Mechatronik, Elektrik oder Metall, Ursachen finden statt Symptome flicken"
+        "t": "Engenharia e Manutenção",
+        "d": "Manter extrusoras, moldes e periféricos em pleno funcionamento: manutenção, análise de falhas e melhoria contínua segundo o sistema GENAU.",
+        "p": "Formação técnica em mecatrônica, elétrica ou mecânica: foco em eliminar causas raízes"
       },
       {
-        "t": "Vertrieb & Anwendungstechnik",
-        "d": "Projekte von Frankfurt bis in den Nahen Osten begleiten: Beratung zu Dimensionen, SDR-Klassen und Schweißtechnik, direkt vom Hersteller.",
-        "p": "Technische Beratungskompetenz, Sprachen sind ein Plus"
+        "t": "Vendas e Aplicação Técnica",
+        "d": "Acompanhar projetos de Frankfurt ao Oriente Médio: consultoria técnica em diâmetros, classes SDR e soldagem diretamente pelo fabricante.",
+        "p": "Competência em consultoria técnica, facilidade com idiomas é um diferencial"
       },
       {
-        "t": "Verwaltung & Kaufmännisches",
-        "d": "Auftragsabwicklung, Einkauf und Organisation, die Prozesse, die Qualität mit Kosten und Terminen vereinbar halten.",
-        "p": "Strukturierte Arbeitsweise, Freude an klaren Abläufen"
+        "t": "Administração e Comercial",
+        "d": "Processamento de pedidos, compras e organização: os processos que conciliam qualidade com prazos e custos.",
+        "p": "Método estruturado de trabalho, facilidade com processos bem definidos"
       }
     ],
-    "areaNote": "Ihr Profil ist nicht dabei? Initiativbewerbungen sind ausdrücklich willkommen, das Unternehmen wächst.",
-    "whyEyebrow": "Warum K Aqua",
-    "whyTitle": "Vier Gründe, hier zu arbeiten.",
+    "areaNote": "Seu perfil não está listado? Candidaturas espontâneas são muito bem-vindas, a nossa empresa está em expansão.",
+    "whyEyebrow": "Por que a K-Aqua",
+    "whyTitle": "Quatro motivos para trabalhar conosco.",
     "why": [
       {
-        "t": "Wachsende Marktposition",
-        "d": "Eine starke Position, die kontinuierlich ausgebaut wird, Ihre Arbeit trägt sichtbar zum Erfolg bei."
+        "t": "Posição de mercado em expansão",
+        "d": "Uma posição sólida e em constante crescimento: seu trabalho contribui de forma visível para o nosso sucesso."
       },
       {
-        "t": "Sicherheit als System",
-        "d": "GENAU macht Arbeitsschutz zur täglichen Praxis: Gefahren melden ist Pflicht und wird ernst genommen, von jedem, für jeden."
+        "t": "Segurança como sistema",
+        "d": "O GENAU transforma a segurança no trabalho em prática diária: relatar riscos é um dever levado a sério por todos."
       },
       {
-        "t": "Produkt mit Substanz",
-        "d": "Rohre, die auf 50 Jahre Betrieb ausgelegt sind und weltweit in Krankenhäusern und Hotels arbeiten, Ergebnisse, die bleiben."
+        "t": "Produto de alta qualidade e solidez",
+        "d": "Tubos projetados para mais de 50 anos de operação presentes em hospitais e hotéis em todo o mundo: resultados que permanecem."
       },
       {
-        "t": "Benefits, die netto ankommen",
-        "d": "Steuerfreie Extras von der Sachbezugskarte bis zum JobRad, rechnen Sie oben nach, was Ihr Paket bringt."
+        "t": "Benefícios que chegam ao seu bolso",
+        "d": "Vantagens e subsídios isentos de tributação: calcule acima o valor real do seu pacote de benefícios."
       }
     ],
-    "procEyebrow": "Bewerbungsprozess",
-    "procTitle": "Drei Schritte bis zum Vertrag.",
+    "procEyebrow": "Processo de candidatura",
+    "procTitle": "Três etapas até o contrato.",
     "proc": [
       {
-        "t": "Bewerbung senden",
-        "d": "Per E-Mail an Andrea Nickel, mit CV-Generator oder Direktbewerbung von dieser Seite. Kein Anschreiben-Roman nötig."
+        "t": "Enviar candidatura",
+        "d": "Por e-mail para Andrea Nickel: utilizando o criador de currículo ou candidatura direta nesta página. Não é necessária carta de apresentação longa."
       },
       {
-        "t": "Gespräch führen",
-        "d": "Wir melden uns zeitnah und klären den Alltag ehrlich, gern auch telefonisch unter +49 (0)60 85 / 9868-410."
+        "t": "Entrevista inicial",
+        "d": "Entraremos em contato prontamente para conversar sobre a rotina de trabalho, inclusive pelo telefone +49 (0)60 85 / 9868-410."
       },
       {
-        "t": "Werk kennenlernen",
-        "d": "Sie sehen Fertigung und Team in Waldsolms, bevor Sie entscheiden, dann folgt das Vertragsangebot."
+        "t": "Conhecer a fábrica",
+        "d": "Você conhece as instalações de produção e a equipe em Waldsolms antes de tomar uma decisão. Em seguida, apresentamos a proposta de contrato."
       }
     ],
-    "procContact": "Ansprechpartnerin: Andrea Nickel · andrea.nickel@k-aqua.de"
+    "procContact": "Contato para candidaturas: Equipe de RH K-Aqua · jobs@k-aqua.de"
   },
   "refsx": {
     "secEyebrow": "Einsatzfelder weltweit",
@@ -6676,83 +6676,83 @@
   },
   "application": {
     "tabs": {
-      "quick": "Schnellkontakt & Kultur",
-      "detailed": "Jobportal & Bewerbung"
+      "quick": "Contato rápido e cultura",
+      "detailed": "Portal de vagas e candidatura"
     },
     "portal": {
-      "eyebrow": "Offene Stellen",
-      "title": "Werde Teil unseres",
-      "titleGrad": "Teams",
-      "lead": "Entdecke spannende Karrieremöglichkeiten bei K Aqua und bewirb dich in wenigen Minuten.",
+      "eyebrow": "Vagas abertas",
+      "title": "Faça parte da nossa",
+      "titleGrad": "equipe",
+      "lead": "Descubra oportunidades profissionais empolgantes na K-Aqua e candidate-se em poucos minutos.",
       "jobs": [
         {
           "id": "prod",
-          "title": "Produktionsmitarbeiter (m/w/d)",
-          "type": "Vollzeit / Schicht",
-          "desc": "Unterstütze uns in der modernen Rohr- und Fitting-Produktion."
+          "title": "Operador de Produção (m/f/d)",
+          "type": "Tempo integral / Turnos",
+          "desc": "Faça parte da nossa produção moderna de tubos e conexões."
         },
         {
           "id": "machine",
-          "title": "Maschinen- und Anlagenführer (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Bedienung und Überwachung unserer Hightech-Extrusionsanlagen."
+          "title": "Operador de Máquinas e Instalações (m/f/d)",
+          "type": "Tempo integral",
+          "desc": "Operação e monitoramento de nossas linhas de extrusão de alta tecnologia."
         },
         {
           "id": "logistics",
-          "title": "Fachkraft für Lagerlogistik (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Verantwortung für Warenein- und -ausgang sowie Bestandskontrolle."
+          "title": "Especialista em Logística e Armazenagem (m/f/d)",
+          "type": "Tempo integral",
+          "desc": "Responsável pelo recebimento, expedição e controle de estoque."
         },
         {
           "id": "sales",
-          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Betreuung von Großkunden und Projektplanern im internationalen Raum."
+          "title": "Vendas Técnicas Externas (m/f/d)",
+          "type": "Tempo integral",
+          "desc": "Atendimento a grandes clientes e projetistas no mercado internacional."
         },
         {
           "id": "pm",
-          "title": "Produktmanager (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Gestalte die Zukunft unserer PP-R Rohrleitungssysteme."
+          "title": "Gerente de Produto (m/f/d)",
+          "type": "Tempo integral",
+          "desc": "Ajude a moldar o futuro dos nossos sistemas de tubulação PP-R."
         },
         {
           "id": "init",
-          "title": "Initiativbewerbung",
-          "type": "Vollzeit / Teilzeit",
-          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+          "title": "Candidatura Espontânea",
+          "type": "Tempo integral / Meio período",
+          "desc": "Não encontrou a vaga ideal? Envie uma candidatura espontânea!"
         }
       ],
       "steps": {
-        "step1": "Persönliche Daten",
-        "step2": "Lebenslauf & Unterlagen",
-        "step3": "Überprüfung"
+        "step1": "Dados pessoais",
+        "step2": "Currículo e documentos",
+        "step3": "Revisão"
       },
       "form": {
-        "firstName": "Vorname",
-        "lastName": "Nachname",
-        "email": "E-Mail",
-        "phone": "Telefon",
-        "startDate": "Frühestmögliches Eintrittsdatum",
-        "uploadTitle": "PDF hochladen",
-        "uploadDesc": "Ziehe deinen Lebenslauf hierhin oder klicke zum Auswählen (max. 5MB)",
-        "builderTitle": "Oder: CV online erstellen",
-        "builderDesc": "Hast du kein PDF zur Hand? Fülle einfach deinen Werdegang hier aus.",
-        "workExp": "Berufserfahrung hinzufügen",
-        "education": "Ausbildung hinzufügen",
-        "company": "Unternehmen",
-        "role": "Position",
-        "school": "Schule / Uni",
-        "degree": "Abschluss",
-        "from": "Von",
-        "to": "Bis",
-        "skills": "Fähigkeiten (Kommagetrennt)",
-        "next": "Weiter",
-        "back": "Zurück",
-        "submit": "Bewerbung absenden",
-        "submitting": "Wird gesendet...",
-        "success": "Vielen Dank für deine Bewerbung!",
-        "successSub": "Wir haben deine Unterlagen erhalten und melden uns in Kürze bei dir.",
-        "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+        "firstName": "Nome",
+        "lastName": "Sobrenome",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "startDate": "Data de início mais breve possível",
+        "uploadTitle": "Enviar currículo em PDF",
+        "uploadDesc": "Arraste seu currículo para cá ou clique para selecionar (máx. 5 MB)",
+        "builderTitle": "Ou: criar currículo online",
+        "builderDesc": "Não tem um PDF em mãos? Preencha seu histórico profissional aqui.",
+        "workExp": "Adicionar experiência profissional",
+        "education": "Adicionar formação acadêmica",
+        "company": "Empresa",
+        "role": "Cargo",
+        "school": "Instituição de ensino / Universidade",
+        "degree": "Grau de formação / Diploma",
+        "from": "De",
+        "to": "Até",
+        "skills": "Habilidades (separadas por vírgula)",
+        "next": "Avançar",
+        "back": "Voltar",
+        "submit": "Enviar candidatura",
+        "submitting": "Enviando...",
+        "success": "Muito obrigado pela sua candidatura!",
+        "successSub": "Recebemos seus documentos e entraremos em contato em breve.",
+        "error": "Ocorreu um erro. Por favor, tente novamente mais tarde."
       }
     }
   },

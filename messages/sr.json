@@ -1,4 +1,66 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "Obojena u ljubičasto, npr. za tehničku vodu / sisteme za navodnjavanje radi jasnog označavanja.",
+    "k-fiber-pipe-pp-rct-sdr-74": "Srednji sloj ojačan vlaknima smanjuje toplotno izduženje za oko 50%.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "Optimizovano za klimatizaciju / KGH primene (rashladna i grejna voda).",
+    "k-fiber-pipe-pp-r-sdr-17": "Cev sa vlaknima velikih dimenzija za industriju i snabdevanje zgrada.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "UV stabilizovan spoljašnji sloj za primenu na otvorenom.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "UV stabilizovano za nadzemne vodove i krovne instalacije.",
+    "electrofusion-socket": "Elektrofuziona spojnica: spajanje električnim grejanjem bez mašine za varenje (pegle).",
+    "flange-adaptor": "Prelaz na prirubnički spoj, za armature, pumpe, vodomere.",
+    "reducing-tee-large-sizes": "Za glavne vodove 63–75 mm.",
+    "cross-over": "Ukršta se sa drugom cevi bez međusobnog povezivanja.",
+    "elbow-bracket-90-female-thread": "Sa montažnom prirubnicom za pričvršćivanje na zid.",
+    "elbowwall-bracket-90-female-thread": "Dvostrano pričvršćivanje na zid.",
+    "metal-union-male-thread-yellow-brass": "Mesing CW617N.",
+    "metal-union-female-thread-yellow-brass": "Mesing CW617N.",
+    "tee-90-female-thread": "Rastavljivo radi održavanja bez sečenja cevi.",
+    "union-for-watermeters": "Olakšava ugradnju i demontažu vodomera.",
+    "pp-r-ball-valve-ball-in-pp": "Puni protok, PP kugla, zavarene spojnice sa obe strane.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "Hromirana mesingana kugla za visoka opterećenja.",
+    "tee-90-female-thread-for-internal-valve": "Prihvatni T-komad za uzidne ventile.",
+    "concealed-valve-chrome-light-part": "Vidljiva maska + vreteno, hromirana izvedba.",
+    "concealed-valve-chrome-heavy-part": "Telo uzidnog ventila, montirano u prihvatni T-komad.",
+    "straight-seat-valve-upper-part-green-handle": "Gornji deo sa ručkom za ravne ventile.",
+    "elongation-pieces": "Produžetak za različite debljine zidova.",
+    "battery-female-thread": "Razdelnik za podno grejanje / višekružno razvođenje.",
+    "adjustable-battery-female-thread": "Podesivo međuosno rastojanje između odvoda.",
+    "weld-in-saddle": "Bez navoja: PP-R odvojak, zavaren direktno na glavni vod.",
+    "pipe-clamps": "Sa gumenim uloškom, za držanje i pričvršćivanje cevi.",
+    "backing-flange-pp-steel-sfbf": "Čelikom ojačana kontra-prirubnica za prirubnički adapter.",
+    "flat-gasket": "EPDM ravna zaptivka za prirubničke spojeve.",
+    "flat-gasket-for-unions-pp-r": "EPDM zaptivka za navojne spojeve (holendere).",
+    "plug": "Navojni čep za zatvaranje otvorenih krajeva. Ostale veličine na upit.",
+    "pipe-cutter-2040": "Rezač cevi sa čegrtaljkom za čiste rezove pod pravim uglom.",
+    "pipe-cutter-50125": "Robustan rezač cevi za velike dimenzije.",
+    "pipe-cutter-50125-1": "Skida površinski sloj cevi pre zavarivanja.",
+    "hand-welding-machine-2032-complete-set": "Kompaktni uređaj za zavarivanje spojnica.",
+    "hand-welding-machine-2063-complete-set": "Kompletan set sa grejnom pločom, postoljem i alatom.",
+    "hand-welding-machine-mirror-50125": "Rezervno grejno ogledalo za uređaj 50–125 mm.",
+    "welding-tool": "Pojedinačni parovi grejnih trnova i spojnica za svaku dimenziju.",
+    "welding-machine-50125-complete-set": "Profesionalni aparat za zavarivanje spojnica za velike dimenzije.",
+    "butt-welding-machine-90250": "Mašina za čeono zavarivanje velikih dimenzija.",
+    "electrofusion-machine": "Kontrolna jedinica za elektrofuziono zavarivanje, sa barkod skenerom.",
+    "welding-tool-for-weld-in-saddles": "Specijalni alat za zavarivanje sedlastih priključaka.",
+    "drilling-tool-for-weld-in-saddle": "Krunska burgija za otvaranje mesta grananja nakon sedlastog zavarivanja.",
+    "welding-tool-for-repairing-plug": "Grejni alat za sistem čepova za popravku.",
+    "repairing-plug": "Čep za hitne popravke za zaptivanje curenja bez pražnjenja sistema."
+  },
+  "geoExtra": {
+    "cityBadge": "(Grad)",
+    "regionBadge": "(Region)",
+    "marketFallbackLead": "Visokokvalitetni PP-R cevni sistemi za {city}.",
+    "openMarketPage": "Otvori stranicu tržišta {city}"
+  },
+  "sitemapPage": {
+    "company": "Kompanija i navigacija",
+    "products": "Proizvodi i kategorije",
+    "news": "Vesti i mediji",
+    "markets": "Tržišta i regioni"
+  },
+  "catalogExtra": {
+    "viewDetails": "Detalji o proizvodu"
+  },
   "aboutDeep": {
     "eyebrow": "Dubinski Uvid",
     "title": "K-Aqua Znanje",
@@ -460,56 +522,57 @@
     "grCta": "Otkrijte globalne projekte"
   },
   "catalogx": {
-    "eyebrow": "Vollständiger Produktkatalog",
-    "faqTitle": "Häufig gestellte Fragen",
-    "title": "Alle 79 Artikelfamilien, sa echten Artikelnummern.",
-    "lead": "Cevi, Fitinzi, Übergangsfittings, Armature, Einschweißsattel, Pribor i Alati, jede Zeile stammt aus dem verbindlichen K Aqua Katalog. Kategorie wählen, Artikel aufklappen, Artikelnummer prüfen.",
-    "searchPlaceholder": "Artikelnummer ili Produktname suchen, z. B. „AQ200P20\" ili „Elbow\"",
-    "noResults": "Keine Treffer. Pretraga anpassen ili andere Kategorie wählen.",
-    "codesLabel": "Artikelnummern",
-    "sizesLabel": "Größen",
+    "eyebrow": "Kompletan katalog proizvoda",
+    "faqTitle": "Često postavljana pitanja",
+    "title": "Svih 79 porodica artikala, sa originalnim brojevima artikala.",
+    "lead": "Cevi, fitinzi, prelazni fitinzi, armature, sedlasti priključci, pribor i alati – svaka stavka potiče iz zvaničnog K-Aqua kataloga. Izaberite kategoriju, otvorite artikal, proverite broj artikla.",
+    "searchPlaceholder": "Pretražite broj artikla ili naziv proizvoda, npr. „AQ200P20\" ili „Elbow\"",
+    "noResults": "Nema rezultata. Prilagodite pretragu ili izaberite drugu kategoriju.",
+    "codesLabel": "Brojevi artikala",
+    "sizesLabel": "Dimenzije",
     "materialLabel": "Materijal",
     "sdrLabel": "SDR",
-    "seriesLabel": "Baureihe",
-    "pressureLabel": "Betriebsdruck",
-    "lenLabel": "Stablänge",
+    "seriesLabel": "Serija",
+    "pressureLabel": "Radni pritisak",
+    "lenLabel": "Dužina šipke",
+    "viewDetails": "Prikaži detalje o proizvodu",
     "cats": {
       "pipes": {
         "label": "Cevi",
-        "desc": "PPR i PPRCT Cevi: Standard, faserverstärkt i UV-stabilisiert, 12 Baureihen."
+        "desc": "PP-R i PP-RCT cevi: standardne, ojačane vlaknima i UV stabilizovane, 12 serija."
       },
       "fittings": {
         "label": "Fitinzi",
-        "desc": "Muffenschweiß i ElektroschweißFitinzi, d20–d125, 13 Artikelfamilien."
+        "desc": "Fitinzi za zavarivanje spojnica i elektrofuziju, d20–d125, 13 porodica artikala."
       },
       "transitionFittings": {
-        "label": "Übergangsfittings",
-        "desc": "Übergänge na Gewinde i Messing, za Bestandsanschlüsse i Armature, 13 Familien."
+        "label": "Prelazni fitinzi",
+        "desc": "Prelazi na navoj i mesing, za postojeće priključke i armature, 13 porodica."
       },
       "valves": {
         "label": "Armature",
-        "desc": "Kugelhähne, Unterputzventile, Verteilerbatterien, 9 Artikelfamilien."
+        "desc": "Kuglaste slavine, uzidni ventili, razdelnici, 9 porodica artikala."
       },
       "weldInSaddles": {
-        "label": "Einschweißsattel",
-        "desc": "Abzweige ohne Rohrtrennung, sa i ohne Gewinde, 3 Familien."
+        "label": "Sedlasti priključci",
+        "desc": "Odvojci bez sečenja cevi, sa i bez navoja, 3 porodice."
       },
       "accessories": {
         "label": "Pribor",
-        "desc": "Rohrschellen, Gegenflansche, Dichtungen, Stopfen: 5 Artikelfamilien."
+        "desc": "Obujmice za cevi, kontra-prirubnice, zaptivke, čepovi: 5 porodica artikala."
       },
       "tools": {
         "label": "Alati",
-        "desc": "Rohrschneider, Schweißgeräte i -Alati za alle vier Fügeverfahren, 14 Familien."
+        "desc": "Rezači cevi, aparati za zavarivanje i alati za sva četiri postupka spajanja, 14 porodica."
       }
     },
     "rfq": {
-      "title": "Projektanfrage",
-      "desc": "Fordern Sie direkt ein Angebot za <strong>{title}</strong> an.",
-      "button": "Zur Anfrage"
+      "title": "Upit za projekat",
+      "desc": "Zatražite ponudu direktno za <strong>{title}</strong>.",
+      "button": "Pošalji upit"
     },
     "similar": {
-      "title": "Weitere aus {category}"
+      "title": "Ostalo iz kategorije {category}"
     },
     "items": {
       "k-pipe-pp-r-sdr-6": {
@@ -537,8 +600,8 @@
         "seo_p3": "Typische Einsatzgebiete umfassen komplexe Heizungs-, Klima- i Sanitäranlagen. Durch   PPRCT Materijal profitieren Installateure od einer höheren Langzeitfestigkeit auch kod höheren Temperaturen.",
         "faq": [
           {
-            "q": "Was bedeutet PPRCT im Vergleich zu PPR?",
-            "a": "PPRCT steht za eine verbesserte kristalline Struktur,   höhere Drücke kod höheren Temperaturen erlaubt, sodass dünnere Wandstärken möglich sind."
+            "q": "Šta znači PP-RCT u poređenju sa PP-R?",
+            "a": "PP-RCT označava poboljšanu kristalnu strukturu koja omogućava veće pritiske na višim temperaturama, tako da su moguće manje debljine zidova."
           },
           {
             "q": "Ist   Durchflussmenge kod SDR 7.4 höher?",
@@ -564,8 +627,8 @@
             "a": "  Verlegung erfolgt über   Heizelement-Muffenschweißverfahren, wodurch absolut homogene, leckagefreie Verbindungen entstehen."
           },
           {
-            "q": "Gibt es Gewichtsabweichungen gegenüber anderen SDR-Klassen?",
-            "a": "Ja, durch   geringere Wanddicke ist   Rohr deutlich leichter i flexibler u   Handhabung na   Baustelle."
+            "q": "Ima li odstupanja u težini u odnosu na druge SDR klase?",
+            "a": "Da, zbog manje debljine zida cev je znatno lakša i fleksibilnija za rukovanje na gradilištu."
           }
         ]
       },
@@ -750,8 +813,8 @@
             "a": "Ja, nach ordnungsgemäßer Verschweißung i Abkühlung hält   Endkappe dem vollen Prüfdruck des Systems (do zu 30 Bar) problemlos stand."
           },
           {
-            "q": "Wie verschließe ich temporäre Leitungen?",
-            "a": "za temporäre Absperrungen empfehlen wir Stopfen sa Gewinde;   Endkappe wird homogen verschweißt i ist somit za   permanenten Verschluss gedacht."
+            "q": "Kako da zatvorim privremene vodove?",
+            "a": "Za privremena zatvaranja preporučujemo čepove sa navojem; kapa se homogeno zavaruje i time je predviđena za trajno zatvaranje."
           },
           {
             "q": "Ist   Endkappe kod allen Temperaturen dicht?",
@@ -784,16 +847,16 @@
         "seo_p3": "Besonders kod komplexen Leitungsführungen u engen Schächten ili kod   Umgehung od Hindernissen reduziert dieser 45-Grad-Winkel Strömungswiderstände effektiv.",
         "faq": [
           {
-            "q": "Wann sollte ich einen 45-Grad- anstelle eines 90-Grad-Winkels verwenden?",
-            "a": "Ein 45-Grad-Winkel reduziert   Druckverlust i   Strömungswiderstand (Zeta-Wert) im System deutlich i beugt Geräuschentwicklung vor."
+            "q": "Kada treba koristiti koleno od 45° umesto 90°?",
+            "a": "Koleno od 45° značajno smanjuje pad pritiska i hidraulički otpor (zeta vrednost) u sistemu i sprečava stvaranje šuma."
           },
           {
-            "q": "Sind K Aqua Winkel strömungsoptimiert?",
-            "a": "Ja,   Innenradien unserer 45-Grad-Winkel sind extrem glatt i hydraulisch optimiert, um Kavitation zu verhindern."
+            "q": "Da li su K-Aqua kolena hidraulički optimizovana za protok?",
+            "a": "Da, unutrašnji radijusi naših kolena od 45° su izuzetno glatki i hidraulički optimizovani radi sprečavanja kavitacije."
           },
           {
-            "q": "Können zwei 45-Grad-Winkel zu einem 90-Grad-Bogen kombiniert werden?",
-            "a": "Ja, diese Praxis wird oft kod großen Dimenzije angewendet, um weite Bögen zu kreieren i   Pumpenwiderstand zu senken."
+            "q": "Mogu li se dva kolena od 45° kombinovati u luk od 90°?",
+            "a": "Da, ova praksa se često primenjuje kod velikih dimenzija radi kreiranja širokih lukova i smanjenja otpora pumpe."
           }
         ]
       },
@@ -864,11 +927,11 @@
             "a": "Ja,   Entfernen   Oxidschicht mittels eines speziellen Rohrschälers ist zwingend erforderlich za eine einwandfreie Verschmelzung."
           },
           {
-            "q": "Welche Schweißgeräte können verwendet werden?",
+            "q": "Koji aparati za zavarivanje se mogu koristiti?",
             "a": "Es müssen K Aqua ili universelle Elektroschweißgeräte verwendet werden,     Barcode na   Muffe auslesen können."
           },
           {
-            "q": "Wann ist Elektroschweißen besser als Heizelementmuffenschweißen?",
+            "q": "Kada je elektrofuziono zavarivanje bolje od zavarivanja grejnim elementom?",
             "a": "Besonders kod eingeschränkter Bewegungsfreiheit (z. B. im Schacht), wo   Gerät za   Muffenschweißung keinen Platz findet."
           }
         ]
@@ -883,7 +946,7 @@
             "a": "Er ist kompatibel sa handelsüblichen DIN/EN-Flanschen (z. B. PN10, PN16) i erfordert   passenden K Aqua Losflansch."
           },
           {
-            "q": "Benötige ich eine zusätzliche Dichtung?",
+            "q": "Da li mi je potrebna dodatna zaptivka?",
             "a": "Ja, zwischen dem PP-R Bundkragen i   Gegenflanke muss zwingend eine passende EPDM-Flachdichtung eingelegt werden."
           },
           {
@@ -925,7 +988,7 @@
             "a": "Meistens ja, da typischerweise od   Hauptleitung kleinere Abzweige zu   Verbrauchern geführt werden."
           },
           {
-            "q": "Können diese T-Stücke strömungstechnische Geräusche verursachen?",
+            "q": "Mogu li ovi T-komadi stvarati hidraulički šum?",
             "a": "Nein,   Innenradien sind hydraulisch optimiert, um Turbulenzen i Kavitationsgeräusche kod Querschnittsänderungen zu minimieren."
           }
         ]
@@ -1016,7 +1079,7 @@
             "a": "  Crossing Tee ermöglicht   kreuzungsfreie Überspringen einer Leitung i integriert gleichzeitig einen Abzweig."
           },
           {
-            "q": "Wie wird dieses Bauteil verschweißt?",
+            "q": "Kako se zavaruje ovaj element?",
             "a": "Es wird analog zu Standard-Fitinzi mittels Heizelementmuffenschweißen u   Leitungsnetz eingebunden."
           },
           {
@@ -1069,7 +1132,7 @@
         "seo_p3": "Ideal za enge Montagesituationen an Maschinen ili Verteilern, kod denen ein unmittelbarer 90-Grad-Anschluss ohne weitere Fitting-Kombinationen realisiert werden muss.",
         "faq": [
           {
-            "q": "Kombiniert dieser Fitting zwei Arbeitsschritte?",
+            "q": "Da li ovaj fiting kombinuje dva radna koraka?",
             "a": "Ja, er vereint einen Richtungswechsel um 90 Grad sa einem Gewindeübergang, was Platz, Materijal i eine Schweißnaht spart."
           },
           {
@@ -1115,7 +1178,7 @@
             "a": "Ja, durch   drei integrierten Schraubösen wird   Hebelkraft großflächig abgeleitet, sodass   Wandbefestigung extrem stabil ist."
           },
           {
-            "q": "Können Verlängerungen aufgeschraubt werden?",
+            "q": "Mogu li se navrnuti produžeci?",
             "a": "Sollte   Wandscheibe zu tief u   Wand sitzen, können problemlos handelsübliche Hahnverlängerungen aus Messing aufgeschraubt werden."
           }
         ]
@@ -1131,7 +1194,7 @@
           },
           {
             "q": "Ist   Messingeinsatz fest verankert?",
-            "a": "Durch eine spezielle Rändelung am Messingeinsatz wird dieser unlösbar vom PP-R umschlossen, was Verdrehen beim Gewindeschneiden verhindert."
+            "a": "Zahvaljujući posebnom nazubljenju na mesinganom umetku, PP-R ga neraskidivo obuhvata, što sprečava uvrtanje prilikom narezivanja i zatezanja navoja."
           },
           {
             "q": "Reduziert   Gewinde   Durchfluss im Hauptstrang?",
@@ -1183,7 +1246,7 @@
         "seo_p3": "Dieses Formteil ist   bevorzugte Wahl kod   Anbindung od Wärmetauschern ili Pumpengruppen im Heizungskeller, kod denen Korrosionsschutz wichtig ist.",
         "faq": [
           {
-            "q": "Wo wird diese Außengewinde-Verschraubung benötigt?",
+            "q": "Gde je potreban ovaj holender sa unutrašnjim navojem?",
             "a": "Oft als Geräteanschlussverschraubung kod Wasserzählern ili Wärmetauschern,   ein Innengewinde am Gehäuse aufweisen."
           },
           {
@@ -1212,7 +1275,7 @@
         "seo_p3": "Sie ist unverzichtbar za vollkommen korrosionsfreie Systeme, wie u   chemischen Industrie ili kod aggressiven Medien, wo Metallkontakt strikt vermieden werden muss.",
         "faq": [
           {
-            "q": "Wann wähle ich einen PP-R Flansch anstelle eines metallischen Losflansches?",
+            "q": "Kada biram PP-R prirubnicu umesto metalne slobodne prirubnice?",
             "a": "Ein PP-R Flansch wird genutzt, wenn   Fördermedium stark korrosiv ist i jeglicher Kontakt sa Metall vermieden werden muss (Vollkunststoffsystem)."
           },
           {
@@ -1231,7 +1294,7 @@
         "seo_p3": "Sie erlaubt einen schnellen i sicheren Wechsel   Zähleinheiten ohne Werkzeugverschleiß i verhindert Leckagen durch eine passgenaue Flachdichtung.",
         "faq": [
           {
-            "q": "Was zeichnet eine Wasserzählerverschraubung aus?",
+            "q": "Po čemu se odlikuje holender za vodomere?",
             "a": "Sie verfügt typischerweise über eine Plombiermöglichkeit i spezielle Gewindedimensionen,   exakt na genormte Wasserzähler abgestimmt sind."
           },
           {
@@ -1364,11 +1427,11 @@
         "seo_p3": "Sie retten Installationen kod nachträglich erhöhten Wandaufbauten ili dicken Fliesenbelägen i stellen   problemlose Montage   sichtbaren Bedienelemente sicher.",
         "faq": [
           {
-            "q": "Wann benötige ich eine Ventil-Verlängerung?",
+            "q": "Kada mi je potreban produžetak za ventil?",
             "a": "Wenn   Putz ili   Fliesen dicker ausfallen als geplant i   Spindel des Unterputzventils nicht mehr weit genug aus   Wand ragt."
           },
           {
-            "q": "Können mehrere Verlängerungen kombiniert werden?",
+            "q": "Mogu li se kombinovati višestruki produžeci?",
             "a": "Technisch ist   möglich, aus Stabilitätsgründen empfehlen wir jedoch, stattdessen sofort ein langes Oberteil ('Long') zu verwenden."
           },
           {
@@ -1410,7 +1473,7 @@
             "a": "Nachdem   korrekte Maß eingestellt wurde, werden   Wandscheiben fest arretiert. Ein Verrutschen während des Fliesenlegens ist somit ausgeschlossen."
           },
           {
-            "q": "Ist eine Wasserwaage zur Ausrichtung nötig?",
+            "q": "Da li je potrebna libela za poravnanje?",
             "a": "Ja, wie kod allen Armaturenanschlüssen sollte   Montageplatte vor dem endgültigen Fixieren sorgfältig sa einer Wasserwaage horizontiert werden."
           }
         ]
@@ -1444,7 +1507,7 @@
             "a": "Er ermöglicht   direkte Instalacija eines Metall-Innengewindes an einer bestehenden Rohrleitung, was extrem zeit- i platzsparend ist."
           },
           {
-            "q": "Können hier Thermometer eingeschraubt werden?",
+            "q": "Mogu li se ovde uvrnuti termometri?",
             "a": "Ja,   Sattel ist   ideale Schnittstelle, um Temperatursensoren ili kleine Manometer dauerhaft i druckdicht u Heizungsnetze zu integrieren."
           },
           {
@@ -1521,7 +1584,7 @@
           },
           {
             "q": "Darf   Dichtung wiederverwendet werden?",
-            "a": "Nein, nach dem Lösen einer Flanschverbindung muss aus Sicherheitsgründen zwingend eine neue Flachdichtung eingesetzt werden."
+            "a": "Ne, nakon rastavljanja prirubničkog spoja iz bezbednosnih razloga obavezno se mora postaviti nova ravna zaptivka."
           },
           {
             "q": "Ist   Dichtung beständig gegen Chemikalien?",
@@ -1573,7 +1636,7 @@
         "seo_p3": "Ein sauberer, gratfreier Schnitt ist   Grundvoraussetzung za eine normgerechte i langlebige Schweißverbindung. Dieses Werkzeug ist   ständige Begleiter jedes Installateurs.",
         "faq": [
           {
-            "q": "Warum ist ein spezieller Rohrschneider so wichtig?",
+            "q": "Zašto je toliko važan specijalni rezač cevi?",
             "a": "Ein rechtwinkliger i gratfreier Schnitt ohne Quetschungen ist absolut zwingend, um eine perfekte, hohlraumfreie Schweißverbindung zu gewährleisten."
           },
           {
@@ -1596,7 +1659,7 @@
             "a": "  Werkzeug wird um   Rohr gespannt,   Schneidrad wird langsam zugestellt i   Schneider wird u gleichmäßigen Drehbewegungen um   Rohr geführt."
           },
           {
-            "q": "Schneidet dieses Werkzeug auch Faserverbundrohre?",
+            "q": "Da li ovaj alat seče i kompozitne cevi sa vlaknima?",
             "a": "Ja,   speziell gehärtete Schneidrad durchtrennt auch unsere glasfaserverstärkten PPRCT Cevi mühelos i extrem präzise."
           },
           {
@@ -1611,7 +1674,7 @@
         "seo_p3": "Konzipiert za   schnelle i normgerechte Vorwand- i Etageninstallation, hält   Gerät   erforderliche Schweißtemperatur od 260°C jederzeit absolut konstant.",
         "faq": [
           {
-            "q": "Warum ist ein elektronisches Thermostat so wichtig?",
+            "q": "Zašto je elektronski termostat toliko važan?",
             "a": "Nur ein präzises Thermostat garantiert   DVS-konforme Dauertemperatur od exakt 260°C,   za eine sichere PP-R Verschmelzung zwingend nötig ist."
           },
           {
@@ -1668,7 +1731,7 @@
         "seo_p3": "Nur sa unbeschädigten i hochwertigen Schweißwerkzeugen lässt sich   vom DVS geforderte Homogenität   Verbindung za eine 50-jährige Vek trajanja erzielen.",
         "faq": [
           {
-            "q": "Wann muss ein Schweißwerkzeug ausgetauscht werden?",
+            "q": "Kada je potrebno zameniti alat za zavarivanje?",
             "a": "Sobald   Teflonbeschichtung zerkratzt ist ili sich PP-R-Reste festbrennen, muss   Werkzeug zwingend getauscht werden, um fehlerhafte Schweißnähte zu vermeiden."
           },
           {
@@ -1714,7 +1777,7 @@
             "a": "Ja,   integrierte CNC-Steuerung protokolliert Temperatur, Druck i Zeit za jede einzelne Schweißnaht zur späteren Auswertung."
           },
           {
-            "q": "Warum ist ein Hobel integriert?",
+            "q": "Zašto je integrisano rende?",
             "a": "  Hobel fräst beide Rohrenden vor dem Schweißen absolut parallel i oxidationsfrei, was za eine dauerhafte molekulare Verbindung zwingend erforderlich ist."
           }
         ]
@@ -3590,186 +3653,186 @@
   },
   "about": {
     "seo": {
-      "impressum1": "  K Aqua PP-R i PPRCT Rohrsysteme werden od   KWT GmbH u Waldsolms, Deutschland, sa höchster Präzision hergestellt. Unser Impresum bietet unseren Kunden i Geschäftspartnern vollständige Transparenz über unsere Unternehmensstruktur,   gesetzlichen Vertreter i alle relevanten Handelsregisterdaten. Wir legen größten Wert na eine offene Kommunikation i   Einhaltung sämtlicher rechtlicher Vorgaben im nationalen sowie internationalen Geschäftsverkehr.   na unseren Seiten zur Verfügung gestellten Informationen werden kontinuierlich geprüft i aktualisiert, um Ihnen stets korrekte technische i kaufmännische Daten unserer Kunststoffrohrsysteme zur Verfügung zu stellen.",
-      "impressum2": "Als weltweit agierender Hersteller od Premium-Kunststoffrohrlösungen za Pijaća voda, Heizungs- i Kühlungsanlagen sowie hochkomplexe Industrieanwendungen verpflichten wir uns zur strikten Einhaltung aller gesetzlichen i regulatorischen Standards. Dies schließt   Zaštita podataka, faire Wettbewerbsbedingungen i internationale Handelsrichtlinien sa ein. Eine Haftung ili Garantie za   Aktualität, Richtigkeit i Vollständigkeit   zur Verfügung gestellten Informationen i Software-Tools zur hydraulischen Berechnung kann jedoch nicht übernommen werden. Inhalt i Struktur   K Aqua Webseiten sind urheberrechtlich geschützt.   Vervielfältigung od Informationen, technischen Datenblättern ili Installationsrichtlinien bedarf   vorherigen Zustimmung.",
-      "kontakt1": "Haben Sie technische Fragen zu unseren PP-R/PPRCT-Rohren ili benötigen Sie Unterstützung kod einem internationalen Projekt?   K Aqua Kontakt-Team u Waldsolms steht Ihnen gerne zur Verfügung.",
-      "kontakt2": "Ob isometrische Berechnungen, Schweißerschulungen vor Ort ili kaufmännische Anfragen: unsere Ingenieure i Vertriebsmitarbeiter antworten prompt, um   Erfolg Ihres Projekts sicherzustellen.",
-      "projektanfrage1": "Planen Sie ein wegweisendes Bauvorhaben? Senden Sie uns Ihre Projektanfrage za K Aqua PP-R i PPRCT Rohrsysteme. Unsere technische Abteilung u Waldsolms ist na   Auslegung i Dimensionierung od Großinstallationen spezialisiert. Dazu gehören anspruchsvolle Hochhäuser, Higijenski sensible Krankenhäuser, weitreichende Fernkältenetze i komplexe industrielle Kühl- i Heizsysteme. Dank unserer jahrzehntelangen Erfahrung im Polymer-Engineering verstehen wir   spezifischen hydraulischen i thermischen Anforderungen,   an   Infrastruktur moderner Bauwerke gestellt werden. sa K Aqua wählen Sie nicht nur ein Produkt, sondern eine ganzheitliche Systemlösung.",
-      "projektanfrage2": "Sobald Sie uns Ihre detaillierten Projektspezifikationen, P&ID-Pläne ili Isometrien mitteilen, beginnen unsere Fachingenieure sa einer tiefgehenden Analyse. Wir unterstützen Sie kod komplexen Druckverlustberechnungen,   Ermittlung od thermischen Längenausdehnungen i   exakten Positionierung od Fest- i Loslagern. Zudem erstellen wir präzise Materialauszüge (Bill of Materials) i konzipieren maßgeschneiderte Übergangsfittings za   Anbindung an metallische Großkomponenten. Unser Ziel ist es, Ihnen ein hydraulisch perfekt ausbalanciertes Rohrnetz zu entwerfen,     Energieverbrauch Ihrer Pumpen minimiert i eine wartungsfreie Vek trajanja od über 50 Jahren garantiert.",
-      "projektanfrage3": "Diskretion i Zuverlässigkeit stehen kod uns an erster Stelle. Jede Projektanfrage wird streng vertraulich behandelt i ausschließlich od unserem qualifizierten deutschen Ingenieurteam bearbeitet. Wir koordinieren darüber hinaus   weltweite Logistik i gewährleisten, dass unsere High End-Cevi i Fitinzi termingerecht i unbeschadet na Ihrer Baustelle eintreffen. Zusätzlich bieten wir Vor Ort-Schweißerschulungen durch unsere zertifizierten Instruktoren an, um sicherzustellen, dass   Instalacija exakt nach   Vorgaben des German Engineerings ausgeführt wird. sa K Aqua sichern Sie maximale Effizienz, absolute Leckagefreiheit i   Langlebigkeit Ihres gesamten Rohrleitungssystems.",
-      "news1": "Bleiben Sie na dem neuesten Stand sa aktuellen News od K Aqua. Wir veröffentlichen regelmäßig Updates zu neuen PP-R/PPRCT Produktentwicklungen, internationalen Messeauftritten i globalen Großprojekten.",
-      "news2": "Unsere News-Sektion informiert Sie zudem über technische Innovationen beim Muffenschweißen, materialwissenschaftliche Fortschritte kod Polypropylen Random Copolymer i Nachhaltigkeitsinitiativen u unserem Werk u Waldsolms."
+      "impressum1": "K-Aqua PP-R i PP-RCT cevni sistemi proizvode se od strane kompanije KWT GmbH u Waldsolms-u, Nemačka, sa najvećom preciznošću. Naš impresum pruža našim kupcima i poslovnim partnerima potpunu transparentnost o strukturi naše kompanije, zakonskim zastupnicima i svim relevantnim podacima iz privrednog registra. Pridajemo najveći značaj otvorenoj komunikaciji i poštovanju svih pravnih zahteva u nacionalnom i međunarodnom poslovanju. Informacije dostupne na našim stranicama se kontinuirano proveravaju i ažuriraju kako bi vam uvek bili na raspolaganju tačni tehnički i komercijalni podaci o našim sistemima plastičnih cevi.",
+      "impressum2": "Kao globalni proizvođač vrhunskih rešenja za plastične cevi za pijaću vodu, sisteme grejanja i hlađenja, kao i visokokompleksne industrijske primene, obavezujemo se na striktno poštovanje svih zakonskih i regulatornih standarda. Ovo uključuje zaštitu podataka, fer uslove konkurencije i međunarodne trgovinske smernice. Međutim, ne može se preuzeti odgovornost ili garancija za ažurnost, tačnost i potpunost pruženih informacija i softverskih alata za hidraulički proračun. Sadržaj i struktura K-Aqua veb stranica zaštićeni su autorskim pravom. Umnožavanje informacija, tehničkih listova ili uputstava za instalaciju zahteva prethodnu saglasnost.",
+      "kontakt1": "Imate li tehničkih pitanja o našim PP-R/PP-RCT cevima ili vam je potrebna podrška na međunarodnom projektu? K-Aqua kontakt tim u Waldsolms-u vam rado stoji na raspolaganju.",
+      "kontakt2": "Bilo da se radi o izometrijskim proračunima, obuci zavarivača na terenu ili komercijalnim upitima: naši inženjeri i prodajni tim odgovaraju brzo kako bi osigurali uspeh vašeg projekta.",
+      "projektanfrage1": "Planirate značajan građevinski projekat? Pošaljite nam svoj upit za projekat za K-Aqua PP-R i PP-RCT cevne sisteme. Naše tehničko odeljenje u Waldsolms-u je specijalizovano za projektovanje i dimenzionisanje velikih instalacija. To uključuje zahtevne visoke zgrade, higijenski osetljive bolnice, opsežne mreže daljinskog hlađenja i kompleksne industrijske sisteme grejanja i hlađenja. Zahvaljujući našem višedecenijskom iskustvu u inženjeringu polimera, razumemo specifične hidrauličke i termičke zahteve koji se postavljaju pred infrastrukturu savremenih građevina. Sa K-Aqua ne birate samo proizvod, već celovito sistemsko rešenje.",
+      "projektanfrage2": "Čim nam dostavite vaše detaljne specifikacije projekta, P&ID šeme ili izometrije, naši stručni inženjeri počinju sa dubinskom analizom. Pružamo vam podršku pri kompleksnim proračunima pada pritiska, određivanju termičkog linearnog izduženja i tačnom pozicioniranju fiksnih i kliznih tačaka oslonca. Pored toga, izrađujemo precizne specifikacije materijala (Bill of Materials) i koncipiramo prilagođene prelazne fitinge za povezivanje sa velikim metalnim komponentama. Naš cilj je da vam projektujemo hidraulički savršeno izbalansiranu cevnu mrežu koja minimizira potrošnju energije vaših pumpi i garantuje vek trajanja bez održavanja duži od 50 godina.",
+      "projektanfrage3": "Diskrecija i pouzdanost su nam na prvom mestu. Svaki projektni upit se tretira strogo poverljivo i obrađuje ga isključivo naš kvalifikovani tim nemačkih inženjera. Pored toga, koordiniramo globalnu logistiku i obezbeđujemo da naše vrhunske cevi i fitinzi stignu na vaše gradilište na vreme i neoštećeni. Takođe nudimo obuku zavarivača na licu mesta od strane naših sertifikovanih instruktora kako bismo osigurali da se instalacija izvede tačno prema smernicama nemačkog inženjeringa. Sa K-Aqua osiguravate maksimalnu efikasnost, apsolutno odsustvo curenja i dugovečnost celokupnog cevovodnog sistema.",
+      "news1": "Budite u toku sa najnovijim vestima iz K-Aqua. Redovno objavljujemo novosti o novim PP-R/PP-RCT proizvodima, međunarodnim sajmovima i globalnim velikim projektima.",
+      "news2": "Naš odeljak sa vestima takođe vas informiše o tehničkim inovacijama u polifuzionom zavarivanju mufova, napretku nauke o materijalima kod polipropilen random kopolimera i inicijativama za održivost u našoj fabrici u Waldsolms-u."
     },
     "eyebrow": "O nama",
-    "title1": "Erfahrung ist Ihr",
-    "titleGrad": "Vorteil.",
-    "lead": "Neue Strategien, gewachsenes Wissen:   KWT GmbH verbindet jahrzehntelange Fertigungserfahrung sa einem klaren Blick nach vorn.",
-    "h2": "K Aqua: führend u   Wasserversorgung",
-    "p1": "  Geschäftsfeld   KWT GmbH ist   Fertigung od Rohren i Formteilen za   Wasserversorgung aus verschiedenen Kunststoffen. Damit positioniert sich   Kompanija u   Wertschöpfungskette Bau als Baustofflieferant i Hersteller.",
+    "title1": "Iskustvo je vaša",
+    "titleGrad": "prednost.",
+    "lead": "Nove strategije, akumulirano znanje: Kao proizvođač K-Aqua sistema, KWT GmbH spaja decenije proizvodnog iskustva sa jasnim pogledom u budućnost.",
+    "h2": "K-Aqua: lider u vodosnabdevanju",
+    "p1": "Poslovna delatnost kompanije KWT GmbH je proizvodnja cevi i fitinga za vodosnabdevanje od različitih plastičnih materijala. Time se kompanija pozicionira u lancu dodate vrednosti u građevinarstvu kao dobavljač građevinskih materijala i proizvođač.",
     "p2": "Pod preduzetničkim vođstvom Philipp Nickel-a i Marcello Gallio-a, K-Aqua se fokusira na najviše standarde kvaliteta, tehnološke inovacije i održivu proizvodnju polimera za svetska tržišta.",
-    "polEyebrow": "Unternehmenspolitik",
-    "polTitle": "Nutzen entsteht im Zusammenspiel.",
-    "polLead": "Kein Kundennutzen ohne Mitarbeiternutzen, kein Mitarbeiternutzen ohne Unternehmensnutzen i kein Unternehmensnutzen ohne Nutzen za Umwelt i Mitwelt.",
+    "polEyebrow": "Politika kompanije",
+    "polTitle": "Korist nastaje u međusobnom delovanju.",
+    "polLead": "Nema koristi za kupca bez koristi za zaposlene, nema koristi za zaposlene bez koristi za kompaniju i nema koristi za kompaniju bez koristi za životnu sredinu i društvo.",
     "cards": [
       {
-        "t": "Menschen im Mittelpunkt",
-        "d": "Alle Mitarbeitenden sind u   kontinuierlichen Verbesserungsprozess eingebunden. Qualität bleibt dabei stets sa Kosten i Terminen vereinbar."
+        "t": "Ljudi u središtu pažnje",
+        "d": "Svi zaposleni su uključeni u proces kontinuiranog poboljšanja. Kvalitet pritom uvek ostaje usklađen sa troškovima i rokovima."
       },
       {
-        "t": "Verlässlichkeit",
-        "d": "Wünsche od Kunden i allen Interessierten werden unter Einhaltung gesetzlicher i sozialer Standards erkannt, ernst genommen i umgesetzt."
+        "t": "Pouzdanost",
+        "d": "Želje kupaca i svih zainteresovanih strana se prepoznaju, ozbiljno shvataju i realizuju uz poštovanje zakonskih i društvenih standarda."
       },
       {
-        "t": "Ökologische Verantwortung",
-        "d": "Alle Unternehmensaktivitäten erfolgen unter Beachtung od Ressourcenschonung, Umweltverträglichkeit i strikter Einhaltung aller Verpflichtungen."
+        "t": "Ekološka odgovornost",
+        "d": "Sve aktivnosti kompanije se sprovode uz očuvanje resursa, ekološku prihvatljivost i striktno poštovanje svih obaveza."
       }
     ],
-    "genauEyebrow": "GENAU-Managementsystem",
-    "genauTitle": "Genau hinschauen. Genau verbessern.",
-    "genauLead": "  GENAU-Managementsystem ist u   House of KWT integriert i damit ein zentrales Element unserer Philosophie.",
+    "genauEyebrow": "GENAU sistem upravljanja",
+    "genauTitle": "Pažljivo posmatrajte. Precizno unapređujte.",
+    "genauLead": "GENAU sistem upravljanja je integrisan u House of KWT i time predstavlja centralni element naše filozofije.",
     "points": [
-      "Kontinuierliche Verbesserung od Arbeits-, Umwelt- i Gesundheitsschutz",
-      "Optimierung   Energieeffizienz",
-      "Prävention, laufende Gefahrenermittlung i Risikobewertung",
-      "Jeder Mitarbeitende ist verpflichtet, Gefahren zu melden i aktiv mitzuwirken"
+      "Kontinuirano poboljšanje zaštite na radu, zaštite životne sredine i zdravlja",
+      "Optimizacija energetske efikasnosti",
+      "Prevencija, tekuće prepoznavanje opasnosti i procena rizika",
+      "Svaki zaposleni je dužan da prijavi opasnosti i aktivno učestvuje"
     ],
-    "certTitle": "geprüft nach Norm",
-    "certText": "  gelebte GENAU-Management erfüllt   Anforderungen   DIN EN ISO 14001 i 50001, seit Oktober 2025 ergänzt um ISO 9001:2015.",
+    "certTitle": "Testirano prema standardima",
+    "certText": "Praktikovani GENAU menadžment ispunjava zahteve DIN EN ISO 14001 i 50001, od oktobra 2025. dopunjene standardom ISO 9001:2015.",
     "meta": {
-      "title": "Über KWT GmbH: Experten za Rohrherstellung",
-      "desc": "  KWT GmbH u Waldsolms vereint deutsche Ingenieurskunst sa modernster Fertigung. Dreifach ISO-zertifiziert produzieren wir K-Aqua PP-R Rohrsysteme."
+      "title": "O kompaniji KWT GmbH: Stručnjaci za proizvodnju cevi",
+      "desc": "KWT GmbH u Waldsolms-u spaja nemačko inženjersko umeće sa najsavremenijom proizvodnjom. Trostruko ISO sertifikovani, proizvodimo K-Aqua PP-R cevne sisteme."
     },
     "hero": {
-      "eyebrow": "  K Aqua Doktrin",
-      "title1": "German Engineering.",
-      "title2": "Kompromisslos.",
-      "desc": "Wir machen keine Kompromisse. Wir definieren   globalen Standard za PP-R Rohrleitungssysteme. Willkommen im Epizentrum deutscher Ingenieurskunst."
+      "eyebrow": "K-Aqua doktrina",
+      "title1": "Nemački inženjering.",
+      "title2": "Beskompromisno.",
+      "desc": "Ne pravimo kompromise. Definišemo globalni standard za PP-R cevovodne sisteme. Dobrodošli u epicentar nemačkog inženjerskog umeća."
     },
     "intro": {
-      "title1": "WIR LEITEN NICHT NUR WASSER.",
-      "title2": "WIR KONTROLLIEREN ES.",
-      "desc": "Seit über 30 Jahren fertigen wir Rohrleitungssysteme,   za   Ewigkeit gebaut sind. Kein Raum za Fehler. Kein Platz za Mittelmaß. Nur reine, unerbittliche Präzision,   sich u jedem einzelnen Fitting manifestiert."
+      "title1": "MI NE SAMO DA VODIMO VODU.",
+      "title2": "MI JE KONTROLIŠEMO.",
+      "desc": "Više od 30 godina proizvodimo cevovodne sisteme građene da traju večno. Nema mesta za greške. Nema mesta za osrednjost. Samo čista, beskompromisna preciznost koja se manifestuje u svakom pojedinačnom fitingu."
     },
     "material": {
-      "eyebrow": "Materialwissenschaft",
-      "title1": "Polypropylen Random Copolymerisat.",
-      "title2": "Entfesselt.",
-      "p1": "PP-R Typ 3 ist nicht einfach ein Kunststoff. Es ist ein hochkomplexes, thermoplastisches Materijal,   wir na molekularer Ebene beherrschen.",
-      "p2": "Durch   strategische Anordnung od Ethylen-Monomeren u   Propylen-Kette erreichen wir eine unerreichte Schlagzähigkeit, selbst kod Minustemperaturen. Unsere Granulate stammen ausschließlich od   globalen Elite   Rohstoffproduzenten. Wir analysieren jede Charge mittels Differential Scanning Calorimetry (DSC) i Melt Flow Rate (MFR) Tests. Was unsere Specifikacije um auch nur ein Promille verfehlt, wird erbarmungslos eliminiert.",
+      "eyebrow": "Nauka o materijalima",
+      "title1": "Polipropilen Random Kopolimer.",
+      "title2": "Oslobođen.",
+      "p1": "PP-R Tip 3 nije prosto plastika. To je visokokompleksan, termoplastični materijal kojim vladamo na molekularnom nivou.",
+      "p2": "Strateškim rasporedom monomera etilena u propilenskom lancu postižemo nenadmašnu udarnu žilavost, čak i na temperaturama ispod nule. Naši granulati potiču isključivo od globalne elite proizvođača sirovina. Svaku seriju analiziramo diferencijalnom skenirajućom kalorimetrijom (DSC) i testovima brzine tečenja rastopa (MFR). Sve što odstupi od naših specifikacija čak i za promil, biva nemilosrdno eliminisano.",
       "items": [
         {
-          "title": "Extreme Molmasse",
-          "desc": "Garantiert maximale Zeitstandfestigkeit i absoluten Widerstand gegen Spannungsrisskorrosion unter extremen Drücken."
+          "title": "Ekstremna molekularna masa",
+          "desc": "Garantuje maksimalnu dugotrajnu čvrstoću i apsolutnu otpornost na naponsko pucanje pod ekstremnim pritiscima."
         },
         {
-          "title": "Kristalline Optimierung",
-          "desc": "  perfekte thermodynamische Balance. Höchste Flexibilität za radikale Verlegebedingungen kod simultaner axialer Steifigkeit."
+          "title": "Kristalna optimizacija",
+          "desc": "Savršena termodinamička ravnoteža. Maksimalna fleksibilnost za radikalne uslove polaganja uz istovremenu aksijalnu krutost."
         }
       ]
     },
     "timeline": {
-      "title": "  Evolution   Perfektion",
-      "desc": "Ein unaufhaltsamer Aufstieg zur globalen Marktmacht. Jede Dekade ein Meilenstein technologischer Überlegenheit.",
+      "title": "Evolucija savršenstva",
+      "desc": "Nezaustavljiv uspon do globalne tržišne snage. Svaka decenija je prekretnica tehnološke superiornosti.",
       "items": [
         {
           "year": "1990",
-          "title": "  Ursprung   Toleranzlosigkeit",
-          "text": "Wo andere Kompromisse machten, zogen wir eine rote Linie.   Gründung od K Aqua basierte na einem einzigen, unerschütterlichen Prinzip: Makellose Rohrleitungssysteme. Unsere ersten Extruder liefen sa einer Präzision,     Markt schockierte."
+          "title": "Poreklo nulte tolerancije",
+          "text": "Gde su drugi pravili kompromise, mi smo povukli crvenu liniju. Osnivanje K-Aqua zasnovano je na jednom, nepokolebljivom principu: besprekorni cevovodni sistemi. Naši prvi ekstruderi radili su sa preciznošću koja je šokirala tržište."
         },
         {
           "year": "2005",
-          "title": "  Polypropylen-Revolution",
-          "text": "Wir weigerten uns,   Status quo zu akzeptieren. sa   Einführung unserer proprietären PP-R Mischung definierten wir thermische Stabilität neu. Während Konkurrenzprodukte unter Druck kollabierten, blieben unsere Systeme stoisch intakt. Ein Triumph   Polymerchemie."
+          "title": "Revolucija polipropilena",
+          "text": "Odbili smo da prihvatimo status kvo. Uvođenjem naše zaštićene PP-R mešavine redefinisali smo termičku stabilnost. Dok su konkurentski proizvodi kolabirali pod pritiskom, naši sistemi su ostali stoički netaknuti. Trijumf hemije polimera."
         },
         {
           "year": "2015",
-          "title": "  architektonische Symbiose",
-          "text": "od   Skylines u Dubai do zu   Industrieanlagen im Ruhrgebiet: K Aqua wurde zum Synonym za unzerstörbare Infrastruktur. Unsere PPRCT Faserverbundrohre revolutionierten   Hochbau. Weniger Ausdehnung, mehr Durchfluss, absolute Dominanz."
+          "title": "Arhitektonska simbioza",
+          "text": "Od nebodera u Dubaiju do industrijskih postrojenja u Rurskoj oblasti: K-Aqua je postao sinonim za neuništivu infrastrukturu. Naše PPRCT cevi ojačane vlaknima donele su revoluciju u visokogradnji. Manje širenja, veći protok, apsolutna dominacija."
         },
         {
           "year": "2026",
-          "title": "  Molekulare Diktatur",
-          "text": "Heute kontrollieren wir jeden Aspekt   Produktion. od   Auswahl   Rohgranulate do zur Endinspektion unterliegen unsere Systeme einem diktatorischen Qualitätsregime.   Ergebnis? Eine garantierte Vek trajanja,   Generationen überdauert."
+          "title": "Molekularna kontrola",
+          "text": "Danas kontrolišemo svaki aspekt proizvodnje. Od izbora sirovog granulata do završne inspekcije, naši sistemi podležu strogom režimu kvaliteta. Rezultat? Garantovani vek trajanja koji nadživljava generacije."
         }
       ]
     },
     "sticky": {
-      "eyebrow": "  PHYSIK BEZWUNGEN",
-      "title": "  Vier Säulen   Macht.",
-      "lead": "Technologie,   an Magie grenzt. Wir haben   Limitierungen herkömmlicher Rohrsysteme nicht nur überwunden, wir haben sie pulverisiert.",
+      "eyebrow": "FIZIKA SAVLADANA",
+      "title": "Četiri stuba snage.",
+      "lead": "Tehnologija koja se graniči sa magijom. Nismo samo prevazišli ograničenja konvencionalnih cevnih sistema — mi smo ih eliminisali.",
       "items": [
         {
-          "title": "Absolutismus u   Qualität",
-          "desc": "Jeder Millimeter unserer PP-R i PPRCT Systeme durchläuft brutalste Belastungstests. 50 Jahre Vek trajanja sind kein Versprechen, sondern eine mathematische Gewissheit. Wir tolerieren null Abweichungen. Was unsere Hallen verlässt, ist Perfektion u Polymerform."
+          "title": "Apsolutni kvalitet",
+          "desc": "Svaki milimetar naših PP-R i PP-RCT sistema prolazi kroz najrigoroznija ispitivanja opterećenja. 50 godina veka trajanja nije obećanje, već matematička izvesnost. Tolerancija na odstupanja je nula. Ono što izlazi iz naših pogona jeste savršenstvo u formi polimera."
         },
         {
-          "title": "Thermische Unverwundbarkeit",
-          "desc": "Unsere Faserverbundrohre (K Aqua Faser) neutralisieren thermische Längenausdehnung beinahe vollständig. Ob eiskalte -20°C ili kochende +95°C, unsere Systeme bleiben absolut formstabil. Eine ingenieurstechnische Meisterleistung,     physikalischen Gesetzen zu trotzen scheint."
+          "title": "Termička neranjivost",
+          "desc": "Naše kompozitne cevi sa vlaknima (K-Aqua Faser) gotovo u potpunosti neutrališu termičko linearno izduženje. Bilo na ledenih -20°C ili ključalih +95°C, naši sistemi ostaju apsolutno dimenzionalno stabilni. Inženjersko remek-delo koje kao da prkosi zakonima fizike."
         },
         {
-          "title": "Chemische Resistenz",
-          "desc": "Korrosion existiert u unserem Vokabular nicht. Unsere Polymere sind immun gegen aggressivste Medien, Inkrustation i biologische Zersetzung. Während Metalle im Boden rosten i verfallen, bleibt K Aqua unangetastet: stoisch, monolithisch, unverwüstlich."
+          "title": "Hemijska otpornost",
+          "desc": "Korozija ne postoji u našem rečniku. Naši polimeri su imuni na najagresivnije medije, inkrustaciju i biološku razgradnju. Dok metali u zemlji rđaju i propadaju, K-Aqua ostaje netaknut: postojan, monolitan, neuništiv."
         },
         {
-          "title": "Molekulare Fusion",
-          "desc": "Durch unser homogenes Schweißverfahren verschmelzen Rohr i Fitting na molekularer Ebene zu einer untrennbaren Einheit. Keine Dichtungen,   ermü  können. Keine mechanischen Schwachstellen. Eine monolithische Struktur,   ewig hält."
+          "title": "Molekularna fuzija",
+          "desc": "Kroz naš homogeni postupak zavarivanja, cev i fiting se stapaju na molekularnom nivou u neraskidivu celinu. Nema zaptivki koje mogu popustiti. Nema mehaničkih slabih tačaka. Monolitna struktura koja traje večno."
         }
       ]
     },
     "bento": {
-      "eyebrow": "INDUSTRIELLE DOMINANZ",
-      "title": "Infrastruktur na Steroiden.",
-      "lead": "Wir fertigen nicht einfach Cevi. Wir erschaffen   Arterien   modernen Zivilisation. K Aqua ist   Rückgrat industrieller i architektonischer Megaprojekte weltweit.",
+      "eyebrow": "INDUSTRIJSKA DOMINACIJA",
+      "title": "Infrastruktura vrhunskih performansi.",
+      "lead": "Mi ne proizvodimo samo cevi. Mi stvaramo arterije moderne civilizacije. K-Aqua je okosnica industrijskih i arhitektonskih megaprojekata širom sveta.",
       "items": [
         {
-          "title": "Brachiale Extrusion",
-          "desc": "Hochleistungsanlagen,   unter brutalem Druck arbeiten.   Resultat ist eine unübertroffene Wandstärkenkonsistenz do u   Mikrometerbereich."
+          "title": "Moćna ekstruzija",
+          "desc": "Postrojenja visokih performansi koja rade pod ekstremnim pritiskom. Rezultat je nenadmašna ujednačenost debljine zida do u mikrometre."
         },
         {
-          "title": "geprüfte Überlegenheit",
-          "desc": "ISO 9001, 14001, 50001. Wir übertreffen   Standardi nicht nur, wir diktieren sie. Internationale Akkreditierung als absoluter Standard."
+          "title": "Dokazana superiornost",
+          "desc": "ISO 9001, 14001, 50001. Mi ne samo da ispunjavamo standarde, mi ih diktiramo. Međunarodna akreditacija kao apsolutni standard."
         },
         {
-          "title": "Hygiene-Diktat",
-          "desc": "Lebensmittelecht, toxikologisch unbedenklich i absolut keimresistent. Pijaća voda bleibt u K Aqua Systemen unangetastet rein. Keine Ausnahme."
+          "title": "Higijenski standard",
+          "desc": "Bezbedno za hranu, toksikološki bezopasno i apsolutno otporno na klice. Pijaća voda u K-Aqua sistemima ostaje netaknuto čista. Bez izuzetka."
         },
         {
-          "title": "Ressourcen-Effizienz",
-          "desc": "Vollständig recyclebar. Minimale CO2-Bilanz kod   Herstellung. Weil wahre technologische Macht immer auch Verantwortung za   Zukunft bedeutet."
+          "title": "Efikasnost resursa",
+          "desc": "Može se u potpunosti reciklirati. Minimalni ugljenični otisak tokom proizvodnje. Jer istinska tehnološka snaga uvek znači i odgovornost za budućnost."
         }
       ]
     },
     "values": {
-      "eyebrow": "Unternehmenspolitik",
-      "title": "  Fundament unseres Handelns.",
-      "desc": "Technologie allein reicht nicht. Wahre Größe manifestiert sich u   Art i Weise, wie ein Kompanija sa seiner Umwelt, seinen Mitarbeitern i seinen Partnern agiert.",
+      "eyebrow": "Politika kompanije",
+      "title": "Temelj našeg delovanja.",
+      "desc": "Tehnologija sama po sebi nije dovoljna. Prava veličina se manifestuje u načinu na koji kompanija komunicira sa svojim okruženjem, svojim zaposlenima i svojim partnerima.",
       "items": [
         {
-          "title": "Kunden-Obsession",
-          "desc": "Wir bedienen nicht einfach Märkte, wir dominieren sie durch radikale Kundenfokussierung. Ihre Anforderungen sind unser Befehl. Unsere Rešenja sind präzise, skalierbar i absolut kompromisslos u ihrer Ausführung."
+          "title": "Fokusiranost na kupca",
+          "desc": "Mi ne samo da opslužujemo tržišta, mi njima dominiramo kroz radikalno fokusiranje na kupca. Vaši zahtevi su naša komanda. Naša rešenja su precizna, skalabilna i apsolutno beskompromisna u svojoj izvedbi."
         },
         {
-          "title": "Strategische Allianzen",
-          "desc": "Wir suchen keine Lieferanten, wir formen strategische Allianzen sa   besten Rohstoffproduzenten des Planeten. Gemeinsame Forschung, gemeinsame Qualitätsstandards, gemeinsame Dominanz."
+          "title": "Strateška savezništva",
+          "desc": "Mi ne tražimo dobavljače, mi gradimo strateška savezništva sa najboljim proizvođačima sirovina na planeti. Zajedničko istraživanje, zajednički standardi kvaliteta, zajednička dominacija."
         },
         {
-          "title": "Ökologischer Imperativ",
-          "desc": "Nachhaltigkeit ist kod K Aqua kein Marketing-Slogan, sondern ein physikalischer Imperativ. Langlebigkeit ist   ultimative Umweltschutz. Unsere Systeme minimieren   energetischen Fußabdruck od   Produktion do zum Recycling."
+          "title": "Ekološki imperativ",
+          "desc": "Održivost u K-Aqua nije marketinški slogan, već fizički imperativ. Dugovečnost je krajnji oblik zaštite životne sredine. Naši sistemi minimiziraju energetski otisak od proizvodnje do reciklaže."
         }
       ]
     },
     "genauManagement": {
-      "eyebrow": "geprüfte Qualität",
-      "title1": "  ",
+      "eyebrow": "Provereni kvalitet",
+      "title1": " ",
       "titleHighlight": "GENAU",
-      "title2": " Management System",
-      "p1": "  Ziel des GENAU Management-Systems ist   kontinuierliche Verbesserung des Arbeits-, Umwelt- i Gesundheitsschutzes im Kompanija.",
-      "p2": "Sämtliche Unternehmensaktivitäten kod KWT erfolgen unter Berücksichtigung od Ressourcenschonung, Umweltverträglichkeit i   strikten Einhaltung aller Verpflichtungen.   praktizierte GENAU-Management erfüllt dabei   hohen Anforderungen   ",
+      "title2": " sistem upravljanja",
+      "p1": "Cilj GENAU sistema upravljanja jeste kontinuirano unapređenje zaštite na radu, zaštite životne sredine i zdravlja u kompaniji.",
+      "p2": "Sve aktivnosti kompanije KWT odvijaju se uz vođenje računa o očuvanju resursa, ekološkoj prihvatljivosti i striktnom poštovanju svih obaveza. Praktikovani GENAU menadžment pritom ispunjava visoke zahteve ",
       "p3": " i ",
-      "list1Title": "Ökologische Verantwortung",
-      "list1Desc": "Umweltschutz ist Teil unseres Qualitätsverständnisses, dem sich alle Mitarbeiter   KWT GmbH verpflichten.",
-      "list2Title": "Energieeffizienz",
-      "list2Desc": "Gezielte Identifikation od Risiken i Umsetzung od Maßnahmen zur Optimierung   Energieeffizienz."
+      "list1Title": "Ekološka odgovornost",
+      "list1Desc": "Zaštita životne sredine je deo našeg poimanja kvaliteta, na koji se obavezuju svi zaposleni u kompaniji KWT GmbH.",
+      "list2Title": "Energetska efikasnost",
+      "list2Desc": "Ciljano prepoznavanje rizika i sprovođenje mera za optimizaciju energetske efikasnosti."
     }
   },
   "news": {
@@ -3801,92 +3864,92 @@
   },
   "career": {
     "eyebrow": "Karijera",
-    "title1": "Mehr als",
-    "titleGrad": "Gehalt.",
-    "lead": "Rechnen Sie aus, was steuerfreie Benefits netto bringen, i testen Sie u 60 Sekunden, ob K Aqua zu Ihnen passt.",
-    "benEyebrow": "Netto-Lohn-Optimierung",
-    "benTitle": "  Benefits-Rechner.",
-    "benLead": "Steuerfreie i pauschalversteuerte Extras wirken oft stärker als eine Bruttoerhöhung. Stellen Sie Ihr Paket zusammen:",
+    "title1": "Karijera u K-Aqua: Više od",
+    "titleGrad": "same plate.",
+    "lead": "Izračunajte koliko neoporezive pogodnosti donose neto i proverite za 60 sekundi da li K-Aqua odgovara vama.",
+    "benEyebrow": "Optimizacija neto zarade",
+    "benTitle": "Kalkulator beneficija.",
+    "benLead": "Neoporezivi i paušalno oporezovani dodaci često imaju veći efekat od povećanja bruto plate. Sastavite svoj paket:",
     "benefits": {
       "sachbezug": [
-        "Sachbezugskarte",
-        "Steuerfreier Sachbezug, monatlich aufs Kartenkonto."
+        "Kartica sa robnim naknadama",
+        "Neoporeziva naknada u robi, mesečno na račun kartice."
       ],
       "lunch": [
-        "Essenszuschuss",
-        "Digitale Essensmarken za Mittagessen & Supermarkt."
+        "Naknada za ishranu",
+        "Digitalni bonovi za ručak i supermarket."
       ],
       "internet": [
-        "Internetpauschale",
-        "Zuschuss zur privaten Internetnutzung."
+        "Paušal za internet",
+        "Dodatak za privatno korišćenje interneta."
       ],
       "jobrad": [
-        "JobRad-Leasing",
-        "Wunschrad per Gehaltsumwandlung, Ersparnis vs. Privatkauf."
+        "Lizing službenih bicikala (JobRad)",
+        "Željeni bicikl kroz konverziju plate, ušteda u odnosu na privatnu kupovinu."
       ],
       "kita": [
-        "Kita-Zuschuss",
-        "Steuerfreier Zuschuss zur Kinderbetreuung."
+        "Dodatak za vrtić",
+        "Neoporezivi dodatak za brigu o deci."
       ],
       "vwl": [
-        "Vermögenswirksame Leistungen",
-        "Monatlicher Sparbeitrag vom Arbeitgeber."
+        "Doprinosi za formiranje imovine (VWL)",
+        "Mesečni štedni doprinos poslodavca."
       ]
     },
-    "resultLabel": "Netto mehr pro Monat",
-    "resultNote1": "  entspricht grob einer",
-    "resultNote2": "Bruttoerhöhung od ~{n} €",
-    "resultNote3": "ohne Abzüge.",
-    "resultNote4": "(Richtwert, abhängig od Steuerklasse.)",
-    "apply": "Jetzt bewerben",
-    "call": "ili anrufen: +49 (0)60 85 / 9868-410",
+    "resultLabel": "Neto više mesečno",
+    "resultNote1": "To otprilike odgovara",
+    "resultNote2": "bruto povećanju od ~{n} €",
+    "resultNote3": "bez odbitaka.",
+    "resultNote4": "(Orijentaciona vrednost, zavisi od poreske klase.)",
+    "apply": "Prijavite se sada",
+    "call": "Ili pozovite: +49 (0)60 85 / 9868-410",
     "cmEyebrow": "Culture Matcher",
-    "cmTitle": "Passt K Aqua zu Ihnen?",
-    "cmIntro": "Fünf ehrliche Fragen zu Arbeitsweise i Alltag u   Fertigung. Kein Persönlichkeitstest, ein Realitätscheck.",
-    "cmStart": "Test starten",
-    "qLabel": "Frage",
+    "cmTitle": "Da li vam K-Aqua odgovara?",
+    "cmIntro": "Pet iskrenih pitanja o načinu rada i svakodnevici u proizvodnji. Nije test ličnosti, već provera realnosti.",
+    "cmStart": "Pokreni test",
+    "qLabel": "Pitanje",
     "cmQ": [
       {
-        "q": "Wie arbeiten Sie am liebsten?",
+        "q": "Kako najradije radite?",
         "o": [
-          "Klare Abläufe, eingespieltes Team",
-          "Jeden Tag etwas Neues ausprobieren"
+          "Jasne procedure, uigran tim",
+          "Isprobavanje nečeg novog svakog dana"
         ]
       },
       {
-        "q": "Großserie läuft. Eine Maschine meldet eine Abweichung.",
+        "q": "Velika serija je u toku. Mašina prijavljuje odstupanje.",
         "o": [
-          "Sofort hinschauen, Ursache finden",
-          "Erstmal weiterlaufen lassen"
+          "Odmah proveriti, pronaći uzrok",
+          "Prvo pustiti da radi dalje"
         ]
       },
       {
-        "q": "Was motiviert Sie mehr?",
+        "q": "Šta vas više motiviše?",
         "o": [
-          "Ein Produkt,   50 Jahre hält",
-          "Schnelle, sichtbare Ergebnisse"
+          "Proizvod koji traje 50 godina",
+          "Brzi, vidljivi rezultati"
         ]
       },
       {
-        "q": "Schichtarbeit ist za Sie …",
+        "q": "Rad u smenama je za vas …",
         "o": [
-          "Planbar i okay",
-          "Eher schwierig"
+          "Predvidiv i u redu",
+          "Prilično težak"
         ]
       },
       {
-        "q": "Ihr Verhältnis zu Technik?",
+        "q": "Vaš odnos prema tehnici?",
         "o": [
-          "Ich will verstehen, wie Dinge funktionieren",
-          "Hauptsache es läuft"
+          "Želim da razumem kako stvari funkcionišu",
+          "Glavno je da radi"
         ]
       }
     ],
-    "resHigh": "Starkes Match. Präzision, Verlässlichkeit i Technikverständnis: genau unser Profil.",
-    "resMid": "Gutes Match sa Gesprächsbedarf. Am besten direkt anrufen i   Alltag klären.",
-    "resLow": "Ehrliches Ergebnis: Fertigungsalltag kod K Aqua ist vermutlich nicht Ihr Umfeld. Vertrieb ili Verwaltung könnten besser passen.",
-    "sendApp": "Bewerbung senden",
-    "again": "Nochmal"
+    "resHigh": "Odlično poklapanje. Preciznost, pouzdanost i razumevanje tehnike: tačno naš profil.",
+    "resMid": "Dobro poklapanje uz potrebu za razgovorom. Najbolje je da nas direktno pozovete i razjasnite svakodnevicu.",
+    "resLow": "Iskren rezultat: Svakodnevica u proizvodnji K-Aqua verovatno nije vaše okruženje. Prodaja ili administracija bi mogle bolje odgovarati.",
+    "sendApp": "Pošalji prijavu",
+    "again": "Ponovo"
   },
   "contact": {
     "eyebrow": "Kontakt",
@@ -4206,450 +4269,450 @@
     ]
   },
   "academy": {
+    "videosHeading": "Video zapisi obuke i uputstva",
     "schulungen": {
       "meta": {
-        "title": "Schulungen | K Aqua",
-        "desc": "K Aqua Schulungen: Kompromisslose Sicherheit durch German Engineering za globale Megaprojekte. Nehmen Sie an unseren Expertenschulungen teil."
+        "title": "Obuke | K-Aqua",
+        "desc": "K-Aqua obuke: Beskompromisna sigurnost kroz nemački inženjering za globalne megaprojekte. Učestvujte u našim stručnim obukama."
       },
       "hero": {
-        "eyebrow": "GERMAN ENGINEERING Akademija",
-        "title1": "Prüfung  ",
-        "title2": "Industriellen Elite.",
-        "desc": "  K Aqua Schulungsprogramm ist keine gewöhnliche Weiterbildung. Es ist   Initiation u   kompromisslose Welt des deutschen Rohrleitungsbaus. za Ingenieure i Techniker,   Megaprojekte verantworten, u denen Materialversagen keine Option, sondern eine absolute Katastrophe darstellt. Wir lehren u Mikrometern, wir denken u Jahrzehnten.",
-        "cta1": "Akademie-Bewerbung starten",
-        "cta2": "Curriculum einsehen"
+        "eyebrow": "GERMAN ENGINEERING AKADEMIJA",
+        "title1": "Ispit ",
+        "title2": "industrijske elite.",
+        "desc": "K-Aqua program obuke nije obično usavršavanje. To je inicijacija u beskompromisni svet nemačke izgradnje cevovoda. Za inženjere i tehničare koji odgovaraju za megaprojekte u kojima otkazivanje materijala nije opcija, već apsolutna katastrofa. Mi učimo u mikrometrima, razmišljamo u decenijama.",
+        "cta1": "Pokreni prijavu za Akademiju",
+        "cta2": "Pogledaj nastavni plan"
       },
       "manifesto": {
-        "title1": "Präzision",
-        "title2": "ist <span className=\"text-primary\">kein</span>",
-        "title3": "Zufall.",
-        "p1": "Sie ist   Resultat unerbittlicher Methodik i eiskalter, industrieller Disziplin. Wenn Tausende Kubikmeter Wasser unter enormem Druck durch   Lebensadern eines 100-stöckigen Hochhauses gepumpt werden, gibt es keinen Spielraum za Näherungswerte ili Interpretationen.",
-        "p2": "  K Aqua Schulungsprogramm wurde entwickelt, um   Lücke zwischen theoretischem Wissen i fehlerfreier, maschineller Perfektion zu schließen. Wer u unserer Akademie trainiert wird, agiert nicht mehr als bloßer Handwerker. Er wird zum ausführenden Organ eines perfekten, deterministischen Systems."
+        "title1": "Preciznost",
+        "title2": "nije <span className=\"text-primary\">stvar</span>",
+        "title3": "slučajnosti.",
+        "p1": "Ona je rezultat nemilosrdne metodologije i stroge, industrijske discipline. Kada se hiljade kubnih metara vode pod ogromnim pritiskom pumpaju kroz žile kucavice solitera od 100 spratova, nema prostora za približne vrednosti ili improvizacije.",
+        "p2": "K-Aqua program obuke razvijen je kako bi premostio jaz između teorijskog znanja i besprekornog, mašinskog savršenstva. Onaj ko se obuči u našoj akademiji više ne deluje kao običan zanatlija. On postaje izvršni organ savršenog, determinističkog sistema."
       },
       "bento": {
-        "eyebrow": "  SÄULEN   AUTORITÄT",
-        "title": "Wissen als absolute Waffe.",
-        "lead": "Unsere technischen Schulungsmodule sind nicht dafür konzipiert, es Ihnen leicht zu machen. Sie sind dafür konzipiert, Fehler gnadenlos auszumerzen.",
+        "eyebrow": "STUBOVI AUTORITETA",
+        "title": "Znanje kao apsolutno oružje.",
+        "lead": "Naši moduli tehničke obuke nisu dizajnirani da vam olakšaju rad. Dizajnirani su da nemilosrdno iskorene greške.",
         "items": [
           {
-            "title": "Homogene Materialverschmelzung",
-            "desc": "Jenseits od Verklebungen ili instabilen mechanischen Dichtungen. Wir trainieren   exakte Kalibrierung od Temperatur, Druck i Zeit, um Cevi i Fitinzi na molekularer Ebene zu einer untrennbaren, monolithischen Struktur zu verschmelzen."
+            "title": "Homogeno stapanje materijala",
+            "desc": "Izvan lepljenja ili nestabilnih mehaničkih zaptivki. Treniramo tačnu kalibraciju temperature, pritiska i vremena kako bi se cevi i fitinzi stopili na molekularnom nivou u neraskidivu, monolitnu strukturu."
           },
           {
-            "title": "Destruktive Analytik",
-            "desc": "Um   Grenzen zu verstehen, muss man sie überschreiten. Praxis-Module u unseren Hochdruck-Prüfständen sa Berstdrücken weit jenseits   100 Bar. Wir analysieren   Versagen, um es u   Praxis auszuschließen."
+            "title": "Destruktivna analitika",
+            "desc": "Da bi se razumele granice, one se moraju preći. Praktični moduli na našim ispitnim stolovima pod visokim pritiskom sa pritiscima pucanja znatno iznad 100 bara. Analiziramo otkazivanje kako bismo ga u praksi isključili."
           },
           {
-            "title": "Thermische Längenausdehnung",
-            "desc": "Eiskalte Kompensation od Temperaturschwankungen u Großprojekten durch präzise berechnete Dehnungsbögen i Festpunkt-Systeme."
+            "title": "Termičko linearno izduženje",
+            "desc": "Hladnokrvna kompenzacija temperaturnih fluktuacija u velikim projektima pomoću precizno proračunatih dilatacionih lukova i sistema fiksnih tačaka."
           },
           {
-            "title": "Aggressive Medien & pH-Stabilität",
-            "desc": "Tiefen-Analyse   Widerstandsfähigkeit gegen hochkonzentrierte industrielle Chemikalien.   Akademie vermittelt tiefgehende Kenntnisse zur Materialermüdung unter chemischer Dauerbelastung i radikalen pH-Verschiebungen."
+            "title": "Agresivni mediji i pH stabilnost",
+            "desc": "Dubinska analiza otpornosti na visoko koncentrovane industrijske hemikalije. Akademija pruža temeljno znanje o zamoru materijala pod dugotrajnim hemijskim opterećenjem i radikalnim promenama pH vrednosti."
           }
         ]
       },
       "typography": {
-        "t1": "NULL-FEHLER",
-        "t2": "TOLERANZ."
+        "t1": "NULTA TOLERANCIJA",
+        "t2": "NA GREŠKE."
       },
       "curriculum": {
-        "eyebrow": "  CURRICULUM",
-        "title": "Akademische Kompromisslosigkeit.",
-        "lead": "Vier Module. Eine Doktrin. Jedes Segment unseres Curriculums ist darauf ausgerichtet, Schwächen u   Ausführung zu identifizieren i systemisch zu vernichten."
+        "eyebrow": "NASTAVNI PLAN",
+        "title": "Akademska beskompromisnost.",
+        "lead": "Četiri modula. Jedna doktrina. Svaki segment našeg nastavnog plana usmeren je na identifikovanje i sistemsko eliminisanje slabosti u izvođenju."
       },
       "sticky": {
         "items": [
           {
-            "title": "Modul Alpha: Strömungsmechanik & Kinetik",
-            "desc": "  Mathematik des Wassers. Wir zerlegen komplexe Kavitationseffekte i Druckschlag-Szenarien u berechenbare Variablen. Sie lernen, hydrodynamische Schocksymptome nicht nur zu dämpfen, sondern systemisch zu eliminieren. za Rohrnetze,   u völliger, geräuschloser Perfektion operieren."
+            "title": "Modul Alfa: Mehanika fluida i kinetika",
+            "desc": "Matematika vode. Rastavljamo složene efekte kavitacije i scenarije hidrauličkog udara na proračunljive varijable. Učite ne samo da ublažite hidrodinamičke udare, već da ih sistemski eliminišete. Za cevne mreže koje funkcionišu u potpunom, bešumnom savršenstvu."
           },
           {
-            "title": "Modul Beta: Parametrisches Leitungsdesign",
-            "desc": "  Entwurf od Rohrleitungssystemen als algorithmische Disziplin.   Schulung beinhaltet   Einsatz modernster CAD/BIM-Tools zur Kollisionsprüfung i zur Optimierung   Materialausnutzung. Keine Schätzung. Reine, eiskalte Berechnung."
+            "title": "Modul Beta: Parametarski dizajn cevovoda",
+            "desc": "Projektovanje cevovodnih sistema kao algoritamska disciplina. Obuka uključuje primenu najsavremenijih CAD/BIM alata za proveru kolizija i optimizaciju iskorišćenja materijala. Bez nagađanja. Čist, egzaktan proračun."
           },
           {
-            "title": "Modul Gamma: Hygiene-Architektur & Mikrobiologie",
-            "desc": "Legionellenprävention na strukturellem Level. Wie man Totleitungen vermeidet, Stagnationszonen auslöscht i Wassertemperatur-Schichtungen u komplexen Ringleitungs-Systemen kontrolliert.   System diktiert   Reinheit, wir überlassen nichts dem Zufall."
+            "title": "Modul Gama: Higijenska arhitektura i mikrobiologija",
+            "desc": "Prevencija legionele na strukturnom nivou. Kako izbeći slepe vodove, eliminisati zone stagnacije i kontrolisati temperaturno raslojavanje vode u složenim prstenastim sistemima. Sistem diktira čistoću, ništa ne prepuštamo slučaju."
           },
           {
-            "title": "Modul Delta:   finale K Aqua Audit",
-            "desc": "Prüfung ist kein Recht, sie ist ein Privileg.   Prüfung verlangt   Konstruktion i theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z. B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt   K Aqua Zertifikat."
+            "title": "Modul Delta: Završni K-Aqua audit",
+            "desc": "Ispit nije pravo, on je privilegija. Ispit zahteva konstrukciju i teorijsku odbranu autonomnog sistema vodosnabdevanja pod simuliranim ekstremnim uslovima (npr. seizmička aktivnost, 50°C spoljna temperatura). Samo onaj ko dokaže apsolutno odsustvo grešaka nosi K-Aqua sertifikat."
           }
         ]
       },
       "timeline": {
-        "title": "  Zertifizierungs-Pfad.",
-        "desc": "  Transformation vom Installateur zum geprüften K Aqua Master-Engineer folgt einem strikten, unerbittlichen Rhythmus. Nur wer diesen Pfad do zum Ende geht, erhält   Autorisation za unsere Hochleistungs-Systeme.",
+        "title": "Put sertifikacije.",
+        "desc": "Transformacija od instalatera do sertifikovanog K-Aqua Master-Inženjera prati strog, neumoljiv ritam. Samo oni koji prođu ovaj put do kraja dobijaju autorizaciju za naše sisteme visokih performansi.",
         "items": [
           {
-            "year": "PHASE 01",
-            "title": "Materialphysik & Onboarding",
-            "text": "  Begreifen   physikalischen Limits. Eine tiefgreifende Einführung u   molekularen PP-R/PPRCT Werkstoff-Specifikacije. Hier wird   Fundament   industriellen Härte gegossen."
+            "year": "FAZA 01",
+            "title": "Fizika materijala i onboarding",
+            "text": "Razumevanje fizičkih granica. Dubinski uvod u molekularne specifikacije PP-R/PP-RCT materijala. Ovde se postavlja temelj industrijske čvrstoće."
           },
           {
-            "year": "PHASE 02",
-            "title": "Laboratorium & Belastungstests",
-            "text": "Hands-on Zerstörung.   Erleben   Berstgrenze im Prüfstand i   Studium mikroskopischer Rissbildungen. Nur wer   Schwäche kennt, kann   absolute Stärke konstruieren."
+            "year": "FAZA 02",
+            "title": "Laboratorija i ispitivanja opterećenja",
+            "text": "Praktična destrukcija. Doživljaj granice pucanja na ispitnom stolu i proučavanje mikroskopskih pukotina. Samo onaj ko poznaje slabost može konstruisati apsolutnu snagu."
           },
           {
-            "year": "PHASE 03",
-            "title": "Fusions-Doktrin",
-            "text": "  perfekte Schweißprotokoll. Mechanisches Training   thermodynamischen Bewegungsabläufe do zum unfehlbaren, muskulären Automatismus. Jeder Handgriff ist kalibriert."
+            "year": "FAZA 03",
+            "title": "Doktrina fuzije",
+            "text": "Savršen protokol zavarivanja. Mehanički trening termodinamičkih pokreta do nepogrešivog, mišićnog automatizma. Svaki pokret je kalibrisan."
           },
           {
-            "year": "PHASE 04",
-            "title": "System-Architektur",
-            "text": "Skalierung vom einfachen Rohrsegment zur Infrastruktur eines Wolkenkratzers. Wir exekutieren Druckverlusttabellen, Fließgeschwindigkeiten i Strömungsteiler sa eiserner Logik."
+            "year": "FAZA 04",
+            "title": "Arhitektura sistema",
+            "text": "Skaliranje od jednostavnog segmenta cevi do infrastrukture nebodera. Primenjujemo tabele pada pritiska, brzine protoka i razdelnike protoka sa gvozdenom logikom."
           },
           {
-            "year": "PHASE 05",
-            "title": "  Meisterprüfung",
-            "text": "Ein 48-stündiges Audit unter   gnadenlosen Aufsicht   deutschen Chef-Ingenieure. Keine Toleranz za Fehlkalkulationen. Ein Fehler bedeutet   sofortigen Ausschluss."
+            "year": "FAZA 05",
+            "title": "Majstorski ispit",
+            "text": "48-časovni audit pod strogim nadzorom nemačkih glavnih inženjera. Nulta tolerancija za pogrešne proračune. Jedna greška znači momentalnu diskvalifikaciju."
           }
         ]
       },
       "spec": {
-        "eyebrow": "GLOBALER STANDARD",
-        "title": "  globale Benchmark za Sicherheit.",
-        "desc": "Unsere Prüfung ist nicht nur ein Stück Papier. Sie ist ein u Titan gegossenes Versprechen an Bauherren i Investoren weltweit. Wo   K Aqua Zertifikat vorliegt, wurde   Instalacija nach   strengsten deutschen Ingenieurs-Standards durchgeführt.",
+        "eyebrow": "GLOBALNI STANDARD",
+        "title": "Globalni reper za bezbednost.",
+        "desc": "Naš ispit nije samo komad papira. To je u titanijumu izliveno obećanje investitorima i graditeljima širom sveta. Tamo gde postoji K-Aqua sertifikat, instalacija je izvedena po najstrožim nemačkim inženjerskim standardima.",
         "items": [
           {
-            "title": "Internationale Gültigkeit",
-            "text": "Anerkannt od   weltweit führenden Bau- i Aufsichtsbehörden."
+            "title": "Međunarodna validnost",
+            "text": "Priznato od strane vodećih svetskih građevinskih i inspekcijskih organa."
           },
           {
-            "title": "Audit-Transparenz",
-            "text": "Lückenlose, digitale Dokumentation jedes Schweißvorgangs."
+            "title": "Transparentnost audita",
+            "text": "Besprekorna, digitalna dokumentacija svakog procesa zavarivanja."
           },
           {
-            "title": "Lebenslange Autorität",
-            "text": "Einmal erworben, zeichnet es   Engineer als Teil einer elitären Kaste aus."
+            "title": "Doživotni autoritet",
+            "text": "Jednom stečen, izdvaja inženjera kao člana elitne kaste stručnjaka."
           }
         ]
       },
       "cta": {
-        "title1": "Bereit za  ",
-        "title2": "absolute Kontrolle?",
-        "desc": "Unterwerfen Sie sich dem Maßstab deutscher Ingenieurskunst. Senden Sie uns Ihr Profil ili fordern Sie   Specifikacije za firmeninterne Audits an.",
-        "button": "Bewerbung initiieren"
+        "title1": "Spremni za ",
+        "title2": "potpunu kontrolu?",
+        "desc": "Prihvatite merila nemačkog inženjerskog umeća. Pošaljite nam svoj profil ili zatražite specifikacije za interne audite u vašoj kompaniji.",
+        "button": "Pokreni prijavu"
       }
     },
     "zertifizierung": {
       "meta": {
-        "title": "Sertifikati & Standardi | K Aqua",
-        "desc": "DVGW, SKZ, ISO i mehr. Entdecken Sie   kompromisslose Sicherheit i German Engineering-Qualität   K Aqua Rohrleitungssysteme."
+        "title": "Sertifikati i standardi | K-Aqua",
+        "desc": "DVGW, SKZ, ISO i više. Otkrijte beskompromisnu sigurnost i kvalitet nemačkog inženjeringa K-Aqua cevovodnih sistema."
       },
       "hero": {
-        "eyebrow": "German Engineering Standards",
+        "eyebrow": "German Engineering standardi",
         "title1": "Sertifikati.",
-        "title2": "Engineered u Germany.",
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit za   anspruchsvollsten Projekte weltweit. Gefertigt nach   strengsten Industriestandards, um Generationen zu überdauern. Weil Materialversagen niemals eine Option ist.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technisches Handbuch"
+        "title2": "Projektovano u Nemačkoj.",
+        "desc": "Ovaj modul pruža beskompromisnu sigurnost za najzahtevnije projekte širom sveta. Proizvedeno prema najstrožim industrijskim standardima, kako bi trajalo generacijama. Jer otkazivanje materijala nikada nije opcija.",
+        "cta1": "Zatražite ponudu za projekat",
+        "cta2": "Tehnički priručnik"
       },
       "manifesto": {
-        "title1": "Ein Zertifikat ist nur Papier.",
-        "title2": "  Prozess dahinter ist aus Stahl.",
-        "p1": "Viele Hersteller sehen Standardi als   ultimative Ziel. Wir sehen sie als   absolute Untergrenze. Unsere internen Toleranzen sind um ein Vielfaches strenger als  , was DVGW, ISO ili SKZ verlangen. Wenn ein K Aqua Rohr unser Werk verlässt, wurde es na Molekularebene analysiert, sa extremen Drücken gefoltert i thermisch ans absolute Limit getrieben."
+        "title1": "Sertifikat je samo papir.",
+        "title2": "Proces iza njega je od čelika.",
+        "p1": "Mnogi proizvođači vide standarde kao krajnji cilj. Mi ih vidimo kao apsolutni minimum. Naše interne tolerancije su višestruko strože od onoga što zahtevaju DVGW, ISO ili SKZ. Kada K-Aqua cev napusti našu fabriku, ona je analizirana na molekularnom nivou, testirana ekstremnim pritiscima i dovedena do apsolutnog termičkog limita."
       },
       "bento": {
-        "eyebrow": "  Säulen   Sicherheit",
-        "title": "  DNA eines perfekten Rohrsystems.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht na Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
+        "eyebrow": "Stubovi sigurnosti",
+        "title": "DNK savršenog cevnog sistema.",
+        "lead": "Kada međunarodni glavni izvođači planiraju projekte vredne milijarde, oni se ne oslanjaju na marketinška obećanja. Oni zahtevaju egzaktne, fizički merljive činjenice.",
         "items": [
           {
-            "title": "Extreme Druckbeständigkeit",
-            "desc": "geprüft za Dauerbelastungen do PN20/PN25. Unsere Berstdrucktests beweisen Reserven,   weit jenseits   Standardi liegen. Rohrbrüche gehören   Vergangenheit an."
+            "title": "Ekstremna otpornost na pritisak",
+            "desc": "Ispitano za trajna opterećenja do PN20/PN25. Naši testovi pritiska pucanja dokazuju rezerve koje leže daleko iznad standarda. Pucanje cevi pripada prošlosti."
           },
           {
-            "title": "Thermische Souveränität",
-            "desc": "Dauerhaft beständig od -20°C do +95°C. Kein Materialermü , keine strukturelle Schwächung, auch kod extremen thermischen Schocks."
+            "title": "Termička suverenost",
+            "desc": "Trajno otporno od -20°C do +95°C. Bez zamora materijala, bez strukturalnog slabljenja, čak i pri ekstremnim termičkim šokovima."
           },
           {
-            "title": "Absolute Hygiene",
-            "desc": "Bez korozije. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich i resistent gegen Legionellen-Wachstum."
+            "title": "Apsolutna higijena",
+            "desc": "Bez korozije. Bez inkrustacije. Bezbedno za hranu, toksikološki bezopasno i otporno na rast legionele."
           },
           {
-            "title": "Brandschutz (B1/B2)",
-            "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar i minimale Rauchentwicklung za höchste Sicherheit u kritischen Gebäudeinfrastrukturen."
+            "title": "Zaštita od požara (B1/B2)",
+            "desc": "Klasifikovano prema DIN 4102. Teško zapaljivo i minimalan razvoj dima za maksimalnu bezbednost u kritičnim infrastrukturama zgrada."
           },
           {
-            "title": "Lebenszyklus-Garantie",
-            "desc": "Eine definierte Vek trajanja od 50 Jahren nach strengster ISO-Norm. u   architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
+            "title": "Garancija životnog ciklusa",
+            "desc": "Definisani vek trajanja od 50 godina prema najstrožim ISO normama. U arhitektonskoj stvarnosti, međutim, izgrađeno da traje generacijama."
           }
         ]
       },
       "certifications": {
-        "eyebrow": "  Instanzen",
-        "title": "  härtesten Prüfer   Welt.",
-        "lead": "Nur wer   kritischsten externen Audits besteht, darf   Label 'German Engineering' tragen. Hier sind   Institutionen,   unsere Qualität validieren.",
+        "eyebrow": "Institucije",
+        "title": "Najstroži ocenjivači na svetu.",
+        "lead": "Samo oni koji prođu najkritičnije spoljne audite smeju da nose oznaku 'German Engineering'. Evo institucija koje potvrđuju naš kvalitet.",
         "items": [
           {
-            "title": "DVGW:   höchste Instanz",
-            "p1": "  Deutsche Verein des Gas- i Wasserfaches (DVGW) setzt   weltweit strengsten Standard za Trinkwasserhygiene i Materialbeständigkeit.",
-            "p2": "Unsere DVGW-Prüfung garantiert, dass K Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) kod 95°C."
+            "title": "DVGW: Najviša instanca",
+            "p1": "Nemačko udruženje za gas i vodu (DVGW) postavlja najstroži globalni standard za higijenu pijaće vode i postojanost materijala.",
+            "p2": "Naša DVGW ispitivanja garantuju da K-Aqua cevni sistemi u ekstremnim uslovima niti ispuštaju toksične materije niti podstiču mikrobiološki rast. Svaka serija prolazi kroz dugotrajna hidrostatička ispitivanja (ispitivanje unutrašnjim pritiskom na puzanje) na 95°C."
           },
           {
-            "title": "SKZ: Unabhängige Überwachung",
-            "p1": "  Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert   ab, was unsere internen Labore bereits vorgeben.",
-            "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit i   thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry).   SKZ-Zeichen ist   Beweis za mechanische Perfektion, weit über   DIN EN ISO 15874 hinaus."
+            "title": "SKZ: Nezavisni nadzor",
+            "p1": "Južnonemački centar za plastiku (SKZ) deluje kao naš nepotkupljivi auditor. Spoljni nadzor osigurava ono što naše interne laboratorije već propisuju.",
+            "p2": "Ispituju se udarna žilavost po Šarpiju, zatezna čvrstoća i termičko ponašanje pomoću DSC analize (Dynamic Scanning Calorimetry). SKZ znak je dokaz mehaničkog savršenstva, daleko iznad DIN EN ISO 15874."
           },
           {
-            "title": "KTW-BWGL: Absolute Reinheit",
-            "p1": "  Bewertungsgrundlage za Kunststoffe i andere organische Materialien im Kontakt sa Pijaća voda (Umweltbundesamt).",
-            "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PPRCT) ohne schädliche Additive ili Schwermetalle.   Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
+            "title": "KTW-BWGL: Apsolutna čistoća",
+            "p1": "Osnova za procenu plastike i drugih organskih materijala u kontaktu sa pijaćom vodom (Nemačka savezna agencija za životnu sredinu - UBA).",
+            "p2": "Koristimo isključivo polipropilen visoke čistoće (PP-R / PP-RCT) bez štetnih aditiva ili teških metala. Rezultat? Kvalitet izvorske vode direktno iz slavine. Bez uticaja na miris i ukus."
           },
           {
-            "title": "ISO 9001 & 14001: Systematische Exzellenz",
-            "p1": "Qualität ist kein Zufall, sondern ein absolut reproduzierbarer Prozess. Unsere ISO 9001 Prüfung belegt ein lückenloses Qualitätsmanagement od   Rohstoffannahme do zur weltweiten Warenauslieferung.",
-            "p2": "sa ISO 14001 beweisen wir, dass industrielle Höchstleistung i ökologische Verantwortung Hand u Hand gehen. Minimierter Energieverbrauch, effiziente Ressourcennutzung i   100%ige Recyclingfähigkeit unserer PP-Proizvodi."
+            "title": "ISO 9001 & 14001: Sistematska izvrsnost",
+            "p1": "Kvalitet nije slučajan, već apsolutno ponovljiv proces. Naša ISO 9001 sertifikacija dokazuje besprekoran menadžment kvaliteta od prijema sirovina do globalne isporuke robe.",
+            "p2": "Sa ISO 14001 dokazujemo da industrijski vrhunski rezultati i ekološka odgovornost idu ruku pod ruku. Minimizirana potrošnja energije, efikasno korišćenje resursa i mogućnost 100% reciklaže naših PP proizvoda."
           }
         ]
       },
       "lab": {
-        "eyebrow": "Inside the Lab",
-        "title1": "  Anatomie",
-        "title2": "  Perfektion.",
-        "desc": "Bevor ein K Aqua System   Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, u   wir Materialien Bedingungen aussetzen,   sie u   Realität niemals erleben werden.",
+        "eyebrow": "Unutar laboratorije",
+        "title1": "Anatomija",
+        "title2": "savršenstva.",
+        "desc": "Pre nego što K-Aqua sistem napusti fabriku, mora proći kroz naš interni centar za testiranje. Vrhunski opremljeno postrojenje u kom materijale izlažemo uslovima kakve u stvarnosti nikada neće doživeti.",
         "items": [
           {
             "title": "MFR (Melt Flow Rate)",
-            "desc": "Kontrolle   Schmelzflussrate zur Gewährleistung exakter Viskosität während   Extrusion i beim späteren Schweißen na   Baustelle."
+            "desc": "Kontrola brzine tečenja rastopa radi obezbeđivanja tačnog viskoziteta tokom ekstruzije i kasnijeg zavarivanja na gradilištu."
           },
           {
             "title": "OIT (Oxidation Induction Time)",
-            "desc": "Thermische Analyse zur Bestimmung   Alterungsbeständigkeit.   Beweis, dass unsere Stabilisatoren   Kunststoff über Jahrzehnte vor Degradation schützen."
+            "desc": "Termička analiza za određivanje otpornosti na starenje. Dokaz da naši stabilizatori štite plastiku od degradacije decenijama."
           },
           {
-            "title": "Zeitstand-Innendruckversuch",
-            "desc": "Rohrproben werden u speziellen Wasserbädern kod 95°C unter extremem Druck gelagert, za tausende od Stunden. Ohne Riss. Ohne Bruch."
+            "title": "Ispitivanje unutrašnjim pritiskom na puzanje",
+            "desc": "Uzorci cevi se skladište u specijalnim vodenim kupatilima na 95°C pod ekstremnim pritiskom hiljadama sati. Bez pukotina. Bez loma."
           }
         ]
       },
       "timeline": {
-        "title": "Jahrzehnte   Innovation.",
-        "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind   Resultat jahrzehntelanger Ingenieurskunst i kontinuierlicher Prozessoptimierung.",
+        "title": "Decenije inovacija.",
+        "desc": "Naši standardi kvaliteta nisu nastali preko noći. Oni su rezultat višedecenijskog inženjerskog umeća i kontinuirane optimizacije procesa.",
         "items": [
           {
             "year": "1990",
-            "title": "  Geburtsstunde   Norm",
-            "text": "Als Pioniere   Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren,   weit über   damaligen Industrieanforderungen hinausgingen.   Grundstein za eine kompromisslose Qualitätskultur."
+            "title": "Rađanje standarda",
+            "text": "Kao pioniri u ekstruziji plastičnih cevi, rano smo implementirali interne procedure ispitivanja koje su daleko prevazilazile tadašnje zahteve industrije. Kamen temeljac za beskompromisnu kulturu kvaliteta."
           },
           {
             "year": "1995",
-            "title": "ISO 9001 Integration",
-            "text": "  vollständige Prüfung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert i vollkommen rückverfolgbar gemacht."
+            "title": "ISO 9001 Integracija",
+            "text": "Potpuna provera naših sistema upravljanja kvalitetom prema ISO 9001. Svaki radni korak, svaka serija sirovina, svako podešavanje mašine od tada se sistematski dokumentuje i čini potpuno sledljivim."
           },
           {
             "year": "2005",
-            "title": "DVGW & SKZ Prüfung",
-            "text": "  Aufnahme u   exklusiven Kreis   DVGW- i SKZ-geprüften Hersteller.   offizielle Siegel za absolute Hygiene, extreme Druckfestigkeit i unübertroffene Langlebigkeit kod härtesten Bedingungen im Trinkwassereinsatz."
+            "title": "DVGW i SKZ ispitivanja",
+            "text": "Ulazak u ekskluzivni krug DVGW i SKZ sertifikovanih proizvođača. Zvanični pečat za apsolutnu higijenu, ekstremnu otpornost na pritisak i nenadmašnu dugovečnost u najtežim uslovima primene u pijaćoj vodi."
           },
           {
             "year": "2015",
-            "title": "Globale Standardi (WRAS, KTW)",
-            "text": "Expansion   Zertifizierungen za internationale Märkte. Erfüllung   strikten KTW-Leitlinie (UBA) i   britischen WRAS-Vorgaben. K Aqua wird zum globalen Standard za internationale Megaprojekte."
+            "title": "Globalni standardi (WRAS, KTW)",
+            "text": "Širenje sertifikacija za međunarodna tržišta. Ispunjenje strogih KTW smernica (UBA) i britanskih WRAS zahteva. K-Aqua postaje globalni standard za međunarodne megaprojekte."
           },
           {
             "year": "2024",
-            "title": "Next-Gen Quality Analytics",
-            "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) i MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während   Extrusion za eine 100%ige Null Fehler-Quote."
+            "title": "Analitika kvaliteta nove generacije",
+            "text": "Uvođenje visoko automatizovanih OIT (Oxidation Induction Time) i MFR (Melt Flow Rate) testova u sopstvenoj laboratoriji preciznosti. Analiza grešaka podržana veštačkom inteligencijom tokom ekstruzije za stopu od 100% bez greške."
           }
         ]
       },
       "cta": {
-        "title": "Qualität,   Sie blind vertrauen können.",
-        "desc": "Laden Sie sich unsere offiziellen Sertifikati herunter ili sprechen Sie direkt sa unserem Engineering Team über   Specifikacije Ihres nächsten Megaprojekts.",
-        "button1": "Sertifikati herunterladen",
-        "button2": "Technischen Support kontaktieren"
+        "title": "Kvalitet u koji možete slepo verovati.",
+        "desc": "Preuzmite naše zvanične sertifikate ili razgovarajte direktno sa našim inženjerskim timom o specifikacijama vašeg sledećeg megaprojekta.",
+        "button1": "Preuzmi sertifikate",
+        "button2": "Kontaktirajte tehničku podršku"
       }
     },
     "glossar": {
       "meta": {
-        "title": "Technisches Glossar | K Aqua",
-        "desc": "K Aqua Glossar: Kompromisslose Sicherheit durch German Engineering za globale Megaprojekte. Entdecken Sie Fachbegriffe   PP-R Rohrtechnik."
+        "title": "Tehnički rečnik | K-Aqua",
+        "desc": "K-Aqua rečnik: Beskompromisna sigurnost kroz nemački inženjering za globalne megaprojekte. Otkrijte stručne termine tehnike PP-R cevi."
       },
       "hero": {
-        "eyebrow": "Technisches Glossar",
-        "title1": "Terminologie  ",
-        "title2": "Absoluten Sicherheit.",
-        "desc": "Willkommen im lexikalischen Kern   Tehnologija cevovoda. Hier decodieren wir   Prinzipien des German Engineering. Kein Marketing. Nur physikalische Fakten, Materialwissenschaft i industrielle Autorität.",
-        "cta1": "Engineering kontaktieren",
-        "cta2": "Glossar erkunden"
+        "eyebrow": "Tehnički rečnik",
+        "title1": "Terminologija ",
+        "title2": "apsolutne sigurnosti.",
+        "desc": "Dobrodošli u leksičko jezgro cevovodne tehnike. Ovde dekodiramo principe nemačkog inženjeringa. Bez marketinga. Samo fizičke činjenice, nauka o materijalima i industrijski autoritet.",
+        "cta1": "Kontaktirajte inženjering",
+        "cta2": "Istražite rečnik"
       },
       "manifesto": {
-        "eyebrow": "  Doktrin",
-        "title": "  Architektur   Unfehlbarkeit.",
-        "lead": "Ein Rohrleitungssystem ist   kardiovaskuläre System eines jeden Megaprojekts. Ein Ausfall bedeutet   infrastrukturellen Herzinfarkt. Deshalb sprechen wir nicht od Rohren, sondern od lebenswichtigen Industrie-Arterien. Jeder Begriff u diesem Glossar repräsentiert einen Pfeiler unserer Null Fehler-Philosophie."
+        "eyebrow": "Doktrina",
+        "title": "Arhitektura nepogrešivosti.",
+        "lead": "Cevovodni sistem je kardiovaskularni sistem svakog megaprojekta. Otkazivanje znači infrastrukturni infarkt. Zato ne govorimo o cevima, već o vitalnim industrijskim arterijama. Svaki pojam u ovom rečniku predstavlja stub naše filozofije nulte greške."
       },
       "scroll": {
-        "eyebrow": "Kinematik & Materialwissenschaft",
-        "title": "  K Aqua Prozess.",
-        "lead": "od   molekularen Granulat-Ebene do zur finalen Druckprüfung. Verstehen Sie   physikalischen Prinzipien,   unsere Systeme unzerstörbar machen.",
+        "eyebrow": "Kinematika i nauka o materijalima",
+        "title": "K-Aqua proces.",
+        "lead": "Od nivoa molekularnog granulata do završnog ispitivanja pod pritiskom. Upoznajte fizičke principe koji naše sisteme čine neuništivim.",
         "items": [
           {
-            "title": "Extrusionsdynamik unter Hochdruck",
-            "desc": "  thermoplastische Verformung u unseren Werken unterliegt einer präzisen Temperaturkontrolle na 0,1 °C genau. Diese kristalline Perfektion garantiert eine makellose, homogene Molekularstruktur,   mikroskopische Rissbildung (Stress Cracking) auch unter extremen Druck- i Temperaturschwankungen absolut ausschließt. Wenn   Materijal unseren Extruder verlässt, ist es kein einfacher Kunststoff mehr. Es ist ein industrielles Monolith."
+            "title": "Dinamika ekstruzije pod visokim pritiskom",
+            "desc": "Termoplastično oblikovanje u našim fabrikama podleže preciznoj kontroli temperature tačnoj do 0,1 °C. Ovo kristalno savršenstvo garantuje besprekornu, homogenu molekularnu strukturu koja apsolutno isključuje nastanak mikroskopskih pukotina (Stress Cracking) čak i pod ekstremnim oscilacijama pritiska i temperature. Kada materijal napusti naš ekstruder, on više nije obična plastika. To je industrijski monolit."
           },
           {
-            "title": "Hydrostatische Belastungstests",
-            "desc": "u unseren Prüflaboren wird jedes Rohr einer hydrostatischen Simulation ausgesetzt,   reale Bedingungen um ein Vielfaches übersteigt. Wir applizieren Innendrücke,   jenseits jeder normativen Forderung liegen (do zu 100 bar, abhängig od   SDR-Klasse). Dies sichert   Integrität   Schweißnähte i   molekular Elastizität des PP-R Materials über eine prognostizierte Vek trajanja od mehr als 50 Jahren u kritischen Infrastrukturen."
+            "title": "Hidrostatička ispitivanja opterećenja",
+            "desc": "U našim ispitnim laboratorijama svaka cev se izlaže hidrostatičkoj simulaciji koja višestruko prevazilazi realne uslove. Primenjujemo unutrašnje pritiske koji leže daleko iznad svih normativnih zahteva (do 100 bara, u zavisnosti od SDR klase). Ovo obezbeđuje integritet zavarenih spojeva i molekularnu elastičnost PP-R materijala tokom predviđenog veka trajanja dužeg od 50 godina u kritičnim infrastrukturama."
           },
           {
-            "title": "Polyfusions-Schweißtechnik",
-            "desc": "Verbindungen sind u herkömmlichen Systemen   Schwachstelle. K Aqua eliminiert dieses Risiko durch Polyfusion. na molekularer Ebene verschmelzen Rohr i Fitting zu einer unlösbaren, durchgehenden Einheit. Es gibt keine Gewinde,   korrodieren, keine Dichtungen,   versagen können.   Resultat ist ein Rohrleitungssystem,   sich verhält, als wäre es aus einem einzigen Stück gegossen."
+            "title": "Tehnika polifuzionog zavarivanja",
+            "desc": "Spojevi su slaba tačka konvencionalnih sistema. K-Aqua eliminiše ovaj rizik polifuzijom. Na molekularnom nivou cev i fiting se stapaju u neraskidivu, neprekidnu celinu. Nema navoja koji mogu korodirati, nema zaptivki koje mogu popustiti. Rezultat je cevovodni sistem koji se ponaša kao da je izliven iz jednog komada."
           },
           {
-            "title": "Kavitationsresistenz & Strömungsmechanik",
-            "desc": "Durch eine ultraglatte Innenwand (Rauigkeit < 0,007 mm) minimieren K Aqua Cevi   Strömungswiderstand gegen Null. Dies verhindert   Bildung od Biofilmen i eliminiert mikro-kavitative Effekte kod Hochgeschwindigkeitsströmungen. Druckverluste im System werden drastisch reduziert, was   Energieeffizienz   angeschlossenen Pumpensysteme im industriellen Maßstab maximiert."
+            "title": "Otpornost na kavitaciju i mehanika fluida",
+            "desc": "Zahvaljujući izuzetno glatkom unutrašnjem zidu (hrapavost < 0,007 mm), K-Aqua cevi svode hidraulički otpor na minimum blizu nule. Ovo sprečava stvaranje biofilma i eliminiše mikrokavitacione efekte pri velikim brzinama strujanja. Padovi pritiska u sistemu se drastično smanjuju, što maksimizira energetsku efikasnost povezanih pumpnih sistema u industrijskim razmerama."
           }
         ]
       },
       "bento": {
-        "eyebrow": "Nomenklatur",
-        "title": "Technische Parameter.",
-        "lead": "  wichtigsten Vokabeln   industriellen Tehnologija cevovoda, destilliert na ihre Essenz.",
+        "eyebrow": "Nomenklatura",
+        "title": "Tehnički parametri.",
+        "lead": "Najvažniji pojmovi industrijske cevovodne tehnike, svedeni na svoju suštinu.",
         "items": [
           {
             "title": "PP-R (Polypropylen Random Copolymer)",
-            "desc": "  molekulare Basis. Ein hochkristallines thermoplastisches Polymer,   außergewöhnliche Widerstandsfähigkeit gegen hohe Temperaturen i Drücke bietet. Es ist   DNA unserer Langlebigkeit."
+            "desc": "Molekularna osnova. Visokokristalni termoplastični polimer koji pruža izuzetnu otpornost na visoke temperature i pritiske. To je DNK naše dugovečnosti."
           },
           {
-            "title": "Lineare thermische Ausdehnung",
-            "desc": "  Längenänderung des Materials kod Temperaturwechsel. Unsere faserverstärkten (Faser) Cevi reduzieren diesen Wert na ein absolutes Minimum (α = 0,035 mm/mK), was   strukturelle Stabilität u Schächten enorm erhöht."
+            "title": "Linearno termičko izduženje",
+            "desc": "Promena dužine materijala pri promeni temperature. Naše cevi ojačane vlaknima (Faser) smanjuju ovu vrednost na apsolutni minimum (α = 0,035 mm/mK), što enormno povećava strukturnu stabilnost u oknima."
           },
           {
-            "title": "Zeitstandfestigkeit",
-            "desc": "  Fähigkeit des Systems, über Jahrzehnte hinweg einem konstanten Innendruck kod spezifischen Temperaturen standzuhalten, ohne zu deformieren ili zu bersten. K Aqua Cevi werden na 50+ Jahre kalibriert."
+            "title": "Vremenska čvrstoća (puzanje)",
+            "desc": "Sposobnost sistema da decenijama izdrži konstantan unutrašnji pritisak na specifičnim temperaturama, bez deformisanja ili pucanja. K-Aqua cevi se kalibrišu na više od 50 godina."
           },
           {
-            "title": "Druckverlust-Koeffizient",
-            "desc": "Ein mathematischer Wert,     Energieverlust   Strömung durch Reibung an   Rohrinnenwand beschreibt. Durch nanoglatte Oberflächen wird dieser Wert u K Aqua Systemen marginalisiert."
+            "title": "Koeficijent pada pritiska",
+            "desc": "Matematička vrednost koja opisuje gubitak energije strujanja usled trenja o unutrašnji zid cevi. Zahvaljujući nano-glatkim površinama, ova vrednost se u K-Aqua sistemima marginalizuje."
           },
           {
             "title": "SDR (Standard Dimension Ratio)",
-            "desc": "  Verhältnis zwischen dem Außendurchmesser (d) i   Wandstärke (s). Ein SDR 6 Rohr hält massiv höheren Drücken stand als ein SDR 11 Rohr.   korrekte Wahl ist entscheidend za   System-Design.",
-            "label": "50+ YRS"
+            "desc": "Odnos spoljašnjeg prečnika (d) i debljine zida (s). SDR 6 cev podnosi znatno veće pritiske nego SDR 11 cev. Pravilan izbor je ključan za projektovanje sistema.",
+            "label": "50+ GODINA"
           }
         ]
       },
       "timeline": {
-        "title": "Regulatorische Härte.",
-        "desc": "Standardi sind za uns keine Vorschriften, sondern   Ausgangspunkt unserer Ingenieurskunst. Eine Chronologie   Zertifizierungen i Standards,   unsere Systeme nicht nur erfüllen, sondern dominieren.",
+        "title": "Regulatorna strogost.",
+        "desc": "Standardi za nas nisu ograničenja, već polazna tačka našeg inženjerskog umeća. Hronologija sertifikacija i standarda koje naši sistemi ne samo da ispunjavaju, već njima dominiraju.",
         "items": [
           {
             "year": "DIN 8077/8078",
-            "title": "Normative Basis",
-            "text": "  Grundlage   deutschen Rohrleitungsnormen. Wir betrachten diese Standards nicht als Ziel, sondern als absolutes Minimum. Unsere internen Toleranzen sind do zu 30 % strenger als od   DIN gefordert."
+            "title": "Normativna osnova",
+            "text": "Osnova nemačkih standarda za cevovode. Mi ove standarde ne posmatramo kao cilj, već kao apsolutni minimum. Naše interne tolerancije su do 30% strože od onoga što zahteva DIN."
           },
           {
             "year": "ISO 15874",
-            "title": "Globale Prüfung",
-            "text": "  internationale Gütesiegel za Kunststoffrohrleitungssysteme za   Warm- i Kaltwasserinstallation. Ein Beweis za   kompromisslose globale Anwendbarkeit unserer Systeme."
+            "title": "Globalna ispitivanja",
+            "text": "Međunarodni pečat kvaliteta za sisteme plastičnih cevi za instalacije tople i hladne vode. Dokaz beskompromisne globalne primenljivosti naših sistema."
           },
           {
             "year": "SDR 6 - SDR 11",
             "title": "Standard Dimension Ratios",
-            "text": "Ein präzises Verhältnis od Außendurchmesser zu Wandstärke. Unsere Ingenieure kalibrieren jede Charge, um maximale Druckresistenz kod optimaler Durchflussmenge zu garantieren."
+            "text": "Precizan odnos spoljašnjeg prečnika i debljine zida. Naši inženjeri kalibrišu svaku seriju kako bi garantovali maksimalnu otpornost na pritisak uz optimalan protok."
           },
           {
             "year": "SKZ & DVGW",
-            "title": "Hygiene & Materialprüfung",
-            "text": "Sertifikati,     absolute Lebensmittel- i Trinkwasserechtheit bescheinigen. Keine Schwermetalle, keine Auswaschungen. Pure, unkontaminierte Fluiddynamik za höchste hygienische Ansprüche."
+            "title": "Higijena i ispitivanje materijala",
+            "text": "Sertifikati koji potvrđuju apsolutnu bezbednost za hranu i pijaću vodu. Bez teških metala, bez ispiranja. Čista, nekontaminirana dinamika fluida za najviše higijenske zahteve."
           }
         ]
       },
       "conclusion": {
-        "title": "Zersetzungsresistenz im Extremfall.",
-        "p1": "u industriellen Applikationen entscheidet nicht   Normalbetrieb über   Qualität eines Rohrleitungssystems, sondern   Stabilität u   Grenzbereichen. Chemische Korrosion, Kavitation durch Druckschläge i thermische Schocks sind   natürlichen Feinde herkömmlicher Installationen.",
-        "p2": "  <strong>K Aqua Matrix</strong> isoliert   fluide Medium durch eine inerte Sperrschicht od   Umgebung. Es findet kein Ionenaustausch statt. Metallische Systeme degradieren od dem Moment an, u dem Wasser durch sie fließt. Sie opfern sich selbst, um zu funktionieren. Unser PP-R System bleibt auch nach Jahrzehnten im Inneren makellos.",
-        "p3": "  Begriff   <strong>Spannungsrissbeständigkeit</strong> (Environmental Stress Cracking Resistance, ESCR) ist u   Polymerchemie od zentraler Bedeutung. Wir modifizieren   Molekulargewicht unseres Copolymers so, dass es Belastungsspitzen abfedert, anstatt unter ihnen zu brechen.   Resultat ist ein System,   Erschütterungen, Vibrationen i Setzungen des Baukörpers absorbiert.",
-        "p4": "Wer   Terminologie   Tehnologija cevovoda verstanden hat, versteht auch, warum Kompromisse hier   Ruin bedeuten können. German Engineering ist kein leeres Versprechen, sondern   Summe präziser, physikalischer Parameter,   wir u jedem einzelnen Zentimeter unserer Produktion manifestieren."
+        "title": "Otpornost na razgradnju u ekstremnim slučajevima.",
+        "p1": "U industrijskim primenama kvalitet cevovodnog sistema ne određuje normalan rad, već stabilnost u graničnim područjima. Hemijska korozija, kavitacija usled hidrauličkih udara i termički šokovi prirodni su neprijatelji konvencionalnih instalacija.",
+        "p2": "<strong>K-Aqua Matrix</strong> izoluje fluidni medijum od okoline pomoću inertnog barijernog sloja. Nema razmene jona. Metalni sistemi počinju da degradiraju od trenutka kada voda poteče kroz njih. Oni žrtvuju sebe da bi funkcionisali. Naš PP-R sistem ostaje besprekoran iznutra čak i nakon decenija.",
+        "p3": "Pojam <strong>otpornosti na pucanje pod naponom u životnoj sredini</strong> (Environmental Stress Cracking Resistance, ESCR) ima centralni značaj u hemiji polimera. Modifikujemo molekularnu težinu našeg kopolimera tako da amortizuje vršna opterećenja umesto da puca pod njima. Rezultat je sistem koji apsorbuje potrese, vibracije i sleganje građevinskih objekata.",
+        "p4": "Ko je razumeo terminologiju cevovodne tehnike, razume i zašto kompromisi ovde mogu značiti propast. Nemački inženjering nije prazno obećanje, već zbir preciznih, fizičkih parametara koje manifestujemo u svakom pojedinačnom centimetru naše proizvodnje."
       },
       "cta": {
-        "title1": "  Theorie beendet.",
-        "title2": "  Praxis beginnt.",
-        "desc": "Konfrontieren Sie unsere Ingenieure sa Ihren härtesten technischen Anforderungen. Wir liefern   Systemarchitektur.",
-        "button": "Engineering Briefing starten"
+        "title1": "Teorija je završena.",
+        "title2": "Praksa počinje.",
+        "desc": "Suočite naše inženjere sa vašim najtežim tehničkim zahtevima. Mi isporučujemo arhitekturu sistema.",
+        "button": "Pokreni inženjerski brifing"
       }
     },
-    "eyebrow": "K Aqua Akademija",
-    "title1": "Wissen,  ",
-    "titleGrad": "verbindet.",
-    "lead": "Vier Schweißverfahren im Video i ein Quiz,   Sie zum Schweißmeister macht. Wissen,   verbindet. Optimiert za   Baustelle: große Ziele, hohe Kontraste.",
+    "eyebrow": "K-Aqua Akademija",
+    "title1": "Znanje koje",
+    "titleGrad": "povezuje.",
+    "lead": "Dobrodošli u K-Aqua Akademiju: tehnike zavarivanja PP-R cevi i stručno znanje. Četiri tehnike zavarivanja u video vodičima i kviz koji vas čini majstorom zavarivanja. Znanje koje povezuje u K-Aqua Akademiji. Optimizovano za gradilište: krupni elementi, visoki kontrasti.",
     "videos": [
       {
-        "t": "Muffenschweißen od Hand",
-        "s": "do d63: Handschweißgerät"
+        "t": "Ručno polifuziono zavarivanje mufa",
+        "s": "do d63: ručni aparat za zavarivanje"
       },
       {
-        "t": "Muffenschweißen sa Maschine",
-        "s": "mittlere Dimenzije"
+        "t": "Mašinsko polifuziono zavarivanje mufa",
+        "s": "srednje dimenzije"
       },
       {
-        "t": "Elektroschweißen",
-        "s": "Heizwendelfittings"
+        "t": "Elektrofuziono zavarivanje",
+        "s": "fitinzi sa ugrađenim grejačem"
       },
       {
-        "t": "Stumpfschweißen",
-        "s": "GroßDimenzije do d630"
+        "t": "Čeono zavarivanje",
+        "s": "velike dimenzije do d630"
       }
     ],
-    "quizEyebrow": "Schweißmeister-Quiz",
-    "quizTitle": "Fünf Fragen. Ein Abzeichen.",
-    "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
-    "start": "Quiz starten",
-    "qLabel": "Frage",
+    "quizEyebrow": "Kviz majstora zavarivanja",
+    "quizTitle": "Pet pitanja. Jedna značka.",
+    "intro": "Testirajte svoje znanje o obradi PP-R/PP-RCT materijala. Bez greške = titula „Majstor zavarivanja\".",
+    "start": "Pokreni kviz",
+    "qLabel": "Pitanje",
     "quiz": [
       {
-        "q": "Welches Schweißverfahren ist za GroßDimenzije (z. B. d630) Standard?",
+        "q": "Koji postupak zavarivanja je standardan za velike dimenzije (npr. d630)?",
         "o": [
-          "Muffenschweißen od Hand",
-          "Stumpfschweißen (Butt Fusion)",
-          "Kleben"
+          "Ručno zavarivanje mufa",
+          "Čeono zavarivanje (Butt Fusion)",
+          "Lepljenje"
         ]
       },
       {
-        "q": "Wofür steht SDR kod Rohrsystemen?",
+        "q": "Šta znači SDR kod cevnih sistema?",
         "o": [
           "Standard Dimension Ratio (d/s)",
           "Static Density Rating",
-          "Sicherheits-Druck-Reserve"
+          "Rezerva sigurnosnog pritiska"
         ]
       },
       {
-        "q": "Was unterscheidet PPRCT od klassischem PP-R?",
+        "q": "Po čemu se PP-RCT razlikuje od klasičnog PP-R?",
         "o": [
-          "Niedrigerer Preis",
-          "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
-          "Metallische Verstärkung"
+          "Niža cena",
+          "Modifikovana kristalna struktura → veća rezerva temperature i pritiska",
+          "Metalno ojačanje"
         ]
       },
       {
-        "q": "Welchen Recycling Code trägt Polypropylen?",
+        "q": "Koji kod za reciklažu nosi polipropilen?",
         "o": [
-          "Code 3",
-          "Code 5",
-          "Code 7"
+          "Kod 3",
+          "Kod 5",
+          "Kod 7"
         ]
       },
       {
-        "q": "Beim Elektroschweißen (Electrofusion) kommt   Wärme …",
+        "q": "Kod elektrofuzionog zavarivanja (Electrofusion) toplota dolazi …",
         "o": [
-          "aus einem Heizelement-Spiegel",
-          "aus eingebetteten Heizwendeln im Fitting",
-          "aus Heißluft"
+          "iz grejnog ogledala",
+          "iz ugrađenih grejnih spirala u fitingu",
+          "iz vrućeg vazduha"
         ]
       }
     ],
-    "resPerfect": "Perfekt! Titel „Schweißmeister\" verdient!",
-    "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. za   Meister: alle fünf richtig.",
-    "resLow": "  Videos oben helfen. Danach klappt   Meister.",
-    "retry": "Nochmal versuchen",
-    "titlePerfect": "Schweißmeister",
-    "titleGood": "Schweiß-Geselle",
-    "videosHeading": "Training videos and guides"
+    "resPerfect": "Savršeno! Zaslužili ste titulu „Majstor zavarivanja\"!",
+    "resGood": "Solidno! Titula „Kalfa zavarivanja\" je osigurana. Za majstora: svih pet tačnih.",
+    "resLow": "Video snimci iznad pomažu. Nakon toga majstor je na dohvat ruke.",
+    "retry": "Pokušaj ponovo",
+    "titlePerfect": "Majstor zavarivanja",
+    "titleGood": "Kalfa zavarivanja"
   },
   "refs": {
     "eyebrow": "Reference",
@@ -4670,56 +4733,56 @@
     "viewProject": "View project"
   },
   "buyers": {
-    "eyebrow": "za Planer, Einkauf & Verarbeiter",
-    "title1": "Sie planen, kalkulieren ili verlegen.",
-    "titleGrad": "Wir liefern   Grundlage.",
-    "lead": "Jede Rolle findet kod K Aqua genau   Information,   sie za   nächste Entscheidung braucht, ohne PDF-Wälzen, ohne Rückruf-Warteschleife.",
+    "eyebrow": "Za projektante, nabavku i izvođače",
+    "title1": "Vi planirate, kalkulišete ili montirate.",
+    "titleGrad": "Mi isporučujemo osnovu.",
+    "lead": "Svaka uloga u K-Aqua pronalazi tačno one informacije koje su joj potrebne za sledeću odluku, bez prelistavanja PDF-ova, bez čekanja na telefonski poziv.",
     "personas": [
       {
-        "t": "Planer & Fachingenieure",
-        "d": "Normkonforme Tehnički podaci, SDR-Tabellen i CO₂-Nachweise za   Ausschreibung, direkt verwertbar.",
-        "cta": "Zu   technischen Daten",
+        "t": "Projektanti i stručni inženjeri",
+        "d": "Tehnički podaci usklađeni sa standardima, SDR tabele i CO₂ dokazi za tendersku dokumentaciju, odmah upotrebljivi.",
+        "cta": "Ka tehničkim podacima",
         "goto": "products"
       },
       {
-        "t": "Einkauf & Beschaffung",
-        "d": "Werksdirekte Lieferung, planbare Logistik ab Waldsolms i ein Ansprechpartner statt Zwischenhandel.",
-        "cta": "Projektanfrage starten",
+        "t": "Kupovina i nabavka",
+        "d": "Direktna fabrička isporuka, predvidiva logistika iz Waldsolms-a i jedan kontakt umesto posrednika.",
+        "cta": "Započni projektni upit",
         "goto": "rfq"
       },
       {
-        "t": "Installateure & Verarbeiter",
-        "d": "Vier Schweißverfahren als Video, WerkzeugPregled i klare Verarbeitungsgrenzen, Sicherheit na   Baustelle.",
-        "cta": "Zur Akademija",
-        "goto": "Akademija"
+        "t": "Instalateri i izvođači",
+        "d": "Četiri postupka zavarivanja u video formatu, pregled alata i jasne granice obrade, sigurnost na gradilištu.",
+        "cta": "Ka Akademiji",
+        "goto": "academy"
       }
     ],
-    "whyEyebrow": "Warum K Aqua",
-    "whyTitle": "Sechs Gründe,   u   Kalkulation ankommen.",
+    "whyEyebrow": "Zašto K-Aqua",
+    "whyTitle": "Šest razloga koji se isplate u kalkulaciji.",
     "why": [
       {
-        "t": "Druckfest & heißwasserfest",
-        "d": "PPRCT sa modifizierter Kristallstruktur: mehr Temperatur- i Druckreserve über Jahrzehnte."
+        "t": "Otporno na pritisak i vrelu vodu",
+        "d": "PP-RCT sa modifikovanom kristalnom strukturom: veća rezerva temperature i pritiska tokom decenija."
       },
       {
-        "t": "Korrosionsfrei",
-        "d": "Kein Rost, keine Inkrustation, keine Lochfraß-Risiken wie kod metallischen Leitungen."
+        "t": "Bez korozije",
+        "d": "Bez rđe, bez inkrustacije, bez rizika od tačkaste korozije kao kod metalnih cevi."
       },
       {
-        "t": "Recycelbar & CO₂-arm",
-        "d": "Recycling Code 5, deutlich kleinerer Fußabdruck als Kupfer ili Stahl: belegbar im CO₂-Rechner."
+        "t": "Može se reciklirati i niskoemisiono (CO₂)",
+        "d": "Kod reciklaže 5, znatno manji otisak od bakra ili čelika: dokazivo u CO₂ kalkulatoru."
       },
       {
-        "t": "Ein Ansprechpartner",
-        "d": "Rohr, Formteil, Armatur i Schweißtechnik aus einer Hand, vom Hersteller, nicht vom Zwischenhandel."
+        "t": "Jedna kontakt osoba",
+        "d": "Cevi, fitinzi, armature i tehnika zavarivanja iz jednog izvora, direktno od proizvođača, a ne od posrednika."
       }
     ],
     "promise": [
-      "Werksdirekt",
-      "Antwort < 24 h",
-      "Unverbindlich"
+      "Direktno iz fabrike",
+      "Odgovor < 24 h",
+      "Neobavezujuće"
     ],
-    "ctaAll": "Projektanfrage u 2 Minuten"
+    "ctaAll": "Projektni upit za 2 minuta"
   },
   "rfq": {
     "eyebrow": "Projektanfrage",
@@ -5736,209 +5799,209 @@
     ]
   },
   "academyx": {
-    "paramEyebrow": "Schweißparameter",
-    "paramTitle": "Muffenschweißen:   Richtwerte.",
-    "paramLead": "Anwärm-, Umstell- i Abkühlzeiten za   Muffenschweißen nach DVS 2207-11 (Heizelement 250–270 °C),   Grundlage,   u   Videos praktisch gezeigt wird.",
+    "paramEyebrow": "Parametri zavarivanja",
+    "paramTitle": "Polifuziono zavarivanje mufa: referentne vrednosti.",
+    "paramLead": "Vremena zagrevanja, prebacivanja i hlađenja za zavarivanje mufova prema DVS 2207-11 (grejni element 250–270 °C), osnova koja je praktično prikazana u video zapisima.",
     "paramHead": [
       "d (mm)",
-      "Schweißtiefe (mm)",
-      "Anwärmen (s)",
-      "Umstellen max. (s)",
-      "Abkühlen (min)"
+      "Dubina zavarivanja (mm)",
+      "Zagrevanje (s)",
+      "Prebacivanje maks. (s)",
+      "Hlađenje (min)"
     ],
-    "paramNote": "Richtwerte nach DVS 2207-11 za PP kod 250–270 °C Heizelementtemperatur. Verbindlich sind   Angaben des Schweißgeräte-Herstellers i   Verarbeitungsanleitung. Im Zweifel gilt: Video ansehen, Parameter am Gerät prüfen.",
-    "stepEyebrow": "Verfahren Schritt za Schritt",
-    "stepTitle": "Vier Verfahren, ein Qualitätsanspruch.",
-    "stepLead": "Jedes Verfahren hat seinen Dimensionsbereich i fünf Schritte,   über   Qualität   Verbindung entscheiden.",
+    "paramNote": "Referentne vrednosti prema DVS 2207-11 za PP na 250–270 °C temperaturi grejnog elementa. Obavezujući su podaci proizvođača aparata za zavarivanje i uputstvo za obradu. U slučaju nedoumice: pogledajte video, proverite parametre na aparatu.",
+    "stepEyebrow": "Postupak korak po korak",
+    "stepTitle": "Četiri postupka, jedan zahtev za kvalitetom.",
+    "stepLead": "Svaki postupak ima svoj raspon dimenzija i pet koraka koji odlučuju o kvalitetu spoja.",
     "procTabs": [
-      "Muffe (Hand)",
-      "Muffe (Maschine)",
-      "Elektroschweißen",
-      "Stumpfschweißen"
+      "Muf (ručno)",
+      "Muf (mašinski)",
+      "Elektrofuziono zavarivanje",
+      "Čeono zavarivanje"
     ],
     "procs": [
       {
-        "t": "Muffenschweißen od Hand: do d63",
+        "t": "Ručno polifuziono zavarivanje mufa: do d63",
         "steps": [
           {
-            "t": "Schneiden & entgraten",
-            "d": "Rohr rechtwinklig ablängen, sauber entgraten i anfasen. Rohrschneider aus dem K Aqua-Werkzeugprogramm verwenden."
+            "t": "Sečenje i skidanje srha",
+            "d": "Isecite cev pod pravim uglom, čisto skinite srh i oborite ivice. Koristite sekač za cevi iz K-Aqua programa alata."
           },
           {
-            "t": "Schweißtiefe anzeichnen",
-            "d": "Einstecktiefe nach Tabelle (z. B. 14 mm kod d20) am Rohr markieren: sie definiert   Fügezone."
+            "t": "Obeležavanje dubine zavarivanja",
+            "d": "Označite dubinu umetanja na cevi prema tabeli (npr. 14 mm za d20): ona definiše zonu spajanja."
           },
           {
-            "t": "Gleichzeitig anwärmen",
-            "d": "Rohr u   Heizbuchse, Fitting na   Heizdorn. Gleichzeitig aufschieben i   Anwärmzeit exakt halten."
+            "t": "Istovremeno zagrevanje",
+            "d": "Cev u grejnu čauru, fiting na grejni trn. Navucite istovremeno i tačno se pridržavajte vremena zagrevanja."
           },
           {
-            "t": "Zügig fügen, ohne Drehen",
-            "d": "Innerhalb   Umstellzeit axial fügen. Niemals verdrehen: Drehen zerstört   plastifizierte Gefüge."
+            "t": "Brzo spajanje, bez uvrtanja",
+            "d": "Spojite aksijalno unutar vremena prebacivanja. Nikada ne uvrćite: uvrtanje uništava plastifikovanu strukturu."
           },
           {
-            "t": "Fixieren & abkühlen",
-            "d": "Verbindung einige Sekunden fixieren, dann   Abkühlzeit abwarten, bevor mechanische Last aufgebracht wird."
+            "t": "Fiksiranje i hlađenje",
+            "d": "Fiksirajte spoj nekoliko sekundi, a zatim sačekajte vreme hlađenja pre nego što se primeni mehaničko opterećenje."
           }
         ]
       },
       {
-        "t": "Muffenschweißen sa Maschine: mittlere Dimenzije",
+        "t": "Mašinsko polifuziono zavarivanje mufa: srednje dimenzije",
         "steps": [
           {
-            "t": "Vorbereiten wie beim Handschweißen",
-            "d": "Ablängen, entgraten, Schweißtiefe markieren.   Grundregeln bleiben identisch."
+            "t": "Priprema kao kod ručnog zavarivanja",
+            "d": "Sečenje, skidanje srha, označavanje dubine zavarivanja. Osnovna pravila ostaju identična."
           },
           {
-            "t": "Rohr & Fitting einspannen",
-            "d": "  Maschine hält beide Fügepartner koaxial. Versatz i Kippfehler sind mechanisch ausgeschlossen."
+            "t": "Stezanje cevi i fitinga",
+            "d": "Mašina drži oba elementa koaksijalno. Odstupanja i greške nagiba su mehanički isključeni."
           },
           {
-            "t": "Anwärmen sa Heizelement",
-            "d": "Heizbuchse i -dorn nach DVS-Richtwerten;   Maschine hält Position i Zeit reproduzierbar."
+            "t": "Zagrevanje grejnim elementom",
+            "d": "Grejna čaura i trn prema DVS smernicama; mašina pouzdano ponavlja položaj i vreme."
           },
           {
-            "t": "Maschinell fügen",
-            "d": "  Vorschub fügt axial i gleichmäßig, besonders kod d75 do d125   Schlüssel zu konstanter Qualität."
+            "t": "Mašinsko spajanje",
+            "d": "Mehanizam za pomeranje spaja aksijalno i ravnomerno, što je posebno kod d75 do d125 ključ za konstantan kvalitet."
           },
           {
-            "t": "Abkühlen unter Fixierung",
-            "d": "Erst nach Ablauf   Abkühlzeit ausspannen i weiterverarbeiten."
+            "t": "Hlađenje pod fiksacijom",
+            "d": "Otpustite i nastavite sa obradom tek nakon isteka vremena hlađenja."
           }
         ]
       },
       {
-        "t": "Elektroschweißen (Electrofusion): Heizwendelfittings",
+        "t": "Elektrofuziono zavarivanje (Electrofusion): fitinzi sa ugrađenim grejačem",
         "steps": [
           {
-            "t": "Oberfläche schälen",
-            "d": "  Rohroberfläche u   Fügezone schälen i reinigen. Oxidhaut i Verschmutzung verhindern   Verschweißung."
+            "t": "Struganje površine",
+            "d": "Ostružite i očistite površinu cevi u zoni spajanja. Oksidni sloj i prljavština sprečavaju kvalitetno zavarivanje."
           },
           {
-            "t": "Einstecktiefe markieren",
-            "d": "Tiefe am Rohr anzeichnen, Rohr do zum Anschlag u   Fitting schieben."
+            "t": "Označavanje dubine umetanja",
+            "d": "Označite dubinu na cevi, gurnite cev u fiting do graničnika."
           },
           {
-            "t": "Spannungsfrei fixieren",
-            "d": "Halteklemmen verwenden:   Fitting darf während des Schweißens nicht unter Biegespannung stehen."
+            "t": "Fiksiranje bez naprezanja",
+            "d": "Koristite stezaljke za fiksiranje: fiting tokom zavarivanja ne sme biti pod naponom savijanja."
           },
           {
-            "t": "Schweißprozess starten",
-            "d": "  Gerät bestromt   eingebetteten Heizwendeln im Fitting. Parameter kommen vom Fitting, nicht aus dem Gefühl."
+            "t": "Pokretanje procesa zavarivanja",
+            "d": "Aparat napaja ugrađene grejne spirale u fitingu. Parametri dolaze sa fitinga, a ne po osećaju."
           },
           {
-            "t": "Abkühlzeit einhalten",
-            "d": "Erst nach   angegebenen Abkühlzeit bewegen ili belasten. Kontrollindikatoren am Fitting prüfen."
+            "t": "Poštovanje vremena hlađenja",
+            "d": "Pomerajte ili opterećujte tek nakon navedenog vremena hlađenja. Proverite kontrolne indikatore na fitingu."
           }
         ]
       },
       {
-        "t": "Stumpfschweißen (Butt Fusion): GroßDimenzije do d630",
+        "t": "Čeono zavarivanje (Butt Fusion): velike dimenzije do d630",
         "steps": [
           {
-            "t": "Enden planhobeln",
-            "d": "Beide Rohrenden u   Maschine planhobeln, do durchgehende Späne entstehen: Planparallelität ist Pflicht."
+            "t": "Ravno rendisanje krajeva",
+            "d": "Ostružite ravno oba kraja cevi u mašini dok ne nastanu neprekidni opiljci: planparalelnost je obavezna."
           },
           {
-            "t": "Ausrichten & Versatz prüfen",
-            "d": "Versatz maximal 10 %   Wanddicke. kod d630 zählt jeder Millimeter."
+            "t": "Poravnanje i provera odstupanja",
+            "d": "Odstupanje maksimalno 10% debljine zida. Kod d630 svaki milimetar se računa."
           },
           {
-            "t": "Anwärmen am Heizelement",
-            "d": "Angleichen unter Druck do zur Wulstbildung, dann drucklos durchwärmen. Zeiten nach DVS 2207-11."
+            "t": "Zagrevanje na grejnom elementu",
+            "d": "Izjednačavanje pod pritiskom do formiranja venca, zatim progrevanje bez pritiska. Vremena prema DVS 2207-11."
           },
           {
-            "t": "Umstellen & fügen",
-            "d": "Heizelement zügig entnehmen i   Enden unter definiertem Fügedruck zusammenfahren."
+            "t": "Prebacivanje i spajanje",
+            "d": "Brzo uklonite grejni element i spojite krajeve pod definisanim pritiskom spajanja."
           },
           {
-            "t": "Abkühlen unter Fügedruck",
-            "d": "  Fügedruck bleibt do zum Ende   Abkühlzeit, dann entsteht   homogene, dauerhaft dichte Strang."
+            "t": "Hlađenje pod pritiskom spajanja",
+            "d": "Pritisak spajanja ostaje do kraja vremena hlađenja, nakon čega nastaje homogen, trajno zaptiven cevovod."
           }
         ]
       }
     ],
-    "errEyebrow": "Fehlerkunde",
-    "errTitle": "  sechs teuersten Fehler i ihre Prävention.",
+    "errEyebrow": "Nauka o greškama",
+    "errTitle": "Šest najskupljih grešaka i njihova prevencija.",
     "errHead": [
-      "Fehler",
-      "Folge",
-      "Prävention"
+      "Greška",
+      "Posledica",
+      "Prevencija"
     ],
     "errRows": [
       [
-        "Zu langes Anwärmen",
-        "Wulst wächst nach innen, Querschnitt verengt sich",
-        "Anwärmzeit nach Tabelle stoppen, nicht nach Gefühl"
+        "Predugo zagrevanje",
+        "Venac raste ka unutra, poprečni presek se sužava",
+        "Merite vreme zagrevanja prema tabeli, a ne po osećaju"
       ],
       [
-        "Verdrehen beim Fügen",
-        "Plastifiziertes Gefüge wird zerstört, Verbindung undicht",
-        "Nur axial fügen, Markierung als Kontrolle nutzen"
+        "Uvrtanje prilikom spajanja",
+        "Plastifikovana struktura se uništava, spoj propušta",
+        "Spajajte samo aksijalno, koristite oznaku za kontrolu"
       ],
       [
-        "Fehlendes Entgraten/Anfasen",
-        "Materijal schiebt sich na, Fügezone wird ungleichmäßig",
-        "Jeden Schnitt entgraten: Werkzeug gehört zum System"
+        "Izostanak skidanja srha/obaranja ivica",
+        "Materijal se nagomilava, zona spajanja postaje neravnomerna",
+        "Skinite srh sa svakog reza: alat pripada sistemu"
       ],
       [
-        "Verschmutztes Heizelement",
-        "Anhaftungen verbrennen i lagern sich u   Naht ein",
-        "Heizflächen vor jeder Schweißung sa fusselfreiem Tuch reinigen"
+        "Zaprljan grejni element",
+        "Naslage sagorevaju i talože se u varu",
+        "Očistite grejne površine krpom koja ne ostavlja dlačice pre svakog zavarivanja"
       ],
       [
-        "Zu frühe Belastung",
-        "Naht verformt sich vor dem Erstarren",
-        "Abkühlzeiten einhalten: kod d110 sind   8 Minuten"
+        "Prerano opterećenje",
+        "Var se deformiše pre očvršćavanja",
+        "Poštujte vreme hlađenja: kod d110 to je 8 minuta"
       ],
       [
-        "Falsche Schweißtiefe",
-        "Zu kurz: kleine Fügefläche · zu tief: Querschnittsverengung",
-        "Einstecktiefe immer anzeichnen, nie schätzen"
+        "Pogrešna dubina zavarivanja",
+        "Prekratko: mala površina spajanja · preduboko: suženje poprečnog preseka",
+        "Uvek obeležite dubinu umetanja, nikada ne procenjujte odoka"
       ]
     ],
-    "glossEyebrow": "Glossar",
-    "glossTitle": "  Begriffe   Tehnologija cevovoda.",
+    "glossEyebrow": "Rečnik",
+    "glossTitle": "Pojmovi cevovodne tehnike.",
     "gloss": [
       [
         "SDR",
-        "Standard Dimension Ratio = Außendurchmesser geteilt durch Wandstärke (d/s). Kleiner SDR = dickere Wand = höherer Nenndruck."
+        "Standard Dimension Ratio = spoljašnji prečnik podeljen sa debljinom zida (d/s). Manji SDR = deblji zid = veći nominalni pritisak."
       ],
       [
         "PN",
-        "Nenndruck u bar kod 20 °C über   Auslegungshorizont: SDR 6 entspricht PN 20, SDR 17 entspricht PN 6."
+        "Nominalni pritisak u barima na 20 °C tokom projektovanog veka trajanja: SDR 6 odgovara PN 20, SDR 17 odgovara PN 6."
       ],
       [
         "d / di / s",
-        "Außendurchmesser / Innendurchmesser / Wandstärke u Millimetern. di = d − 2s."
+        "Spoljašnji prečnik / unutrašnji prečnik / debljina zida u milimetrima. di = d − 2s."
       ],
       [
         "PP-R",
-        "Polypropylen Random Copolymer:   bewährte Standardwerkstoff za Trinkwasserinstallationen."
+        "Polipropilen random kopolimer: provereni standardni materijal za instalacije pijaće vode."
       ],
       [
         "PPRCT",
-        "PP-R sa modifizierter Kristallstruktur („Crystallinity Temperature\"): mehr Temperatur- i Druckreserve kod gleicher Wand."
+        "PP-R sa modifikovanom kristalnom strukturom („Crystallinity Temperature\"): veća rezerva temperature i pritiska pri istoj debljini zida."
       ],
       [
         "K-Fiber / GF",
-        "Glasfaserverstärkter Multilayer-Aufbau: reduziert   Wärmeausdehnung na rund ein Viertel."
+        "Višeslojna struktura ojačana staklenim vlaknima: smanjuje toplotno širenje na oko jednu četvrtinu."
       ],
       [
         "Muffenschweißen",
-        "Socket Fusion: Rohr i Fitting werden über Heizbuchse i -dorn plastifiziert i ineinandergefügt."
+        "Socket Fusion (polifuziono zavarivanje mufa): cev i fiting se plastifikuju preko grejne čaure i trna i spajaju jedno u drugo."
       ],
       [
         "Elektroschweißen",
-        "Electrofusion: eingebettete Heizwendeln im Fitting erzeugen   Schweißwärme, parametergesteuert."
+        "Electrofusion (elektrofuziono zavarivanje): ugrađene grejne spirale u fitingu generišu toplotu zavarivanja, kontrolisano parametrima."
       ],
       [
         "Stumpfschweißen",
-        "Butt Fusion: planparallele Rohrenden werden am Heizelement erwärmt i unter Druck gefügt, Standard do d630."
+        "Butt Fusion (čeono zavarivanje): planparalelni krajevi cevi se zagrevaju na grejnom elementu i spajaju pod pritiskom, standard do d630."
       ],
       [
         "DVS 2207-11",
-        "  Regelwerk za   Schweißen od Polypropylen: Quelle   Richtwerte na dieser Seite."
+        "Pravilnik za zavarivanje polipropilena: izvor referentnih vrednosti na ovoj stranici."
       ]
     ]
   },
@@ -6063,100 +6126,100 @@
     ]
   },
   "aboutx": {
-    "numEyebrow": "Zahlen aus dem Werk",
-    "numTitle": "Waldsolms u Kennzahlen.",
-    "numLead": "Mittelhessen, Auweg 3: hier entwickelt i fertigt   KWT GmbH   komplette K Aqua-Programm.",
+    "numEyebrow": "Brojke iz fabrike",
+    "numTitle": "Waldsolms u ključnim brojkama.",
+    "numLead": "Centralni Hesen, Auweg 3: ovde KWT GmbH razvija i proizvodi kompletan K-Aqua asortiman.",
     "nums": [
       {
         "n": "14.000",
         "u": "m",
-        "l": "Rohr pro Tag i Extrusionsanlage: Kapazität za Großprojekte"
+        "l": "Cevi dnevno po ekstruzionoj liniji: kapacitet za velike projekte"
       },
       {
         "n": "20–630",
         "u": "mm",
-        "l": "Dimensionsbereich   Rohrfertigung, Fitinzi do 315 mm"
+        "l": "Raspon dimenzija proizvodnje cevi, fitinzi do 315 mm"
       },
       {
         "n": "100",
         "u": "%",
-        "l": "  Schnittreste i Produktionsabfälle gehen zurück u   Kreislauf"
+        "l": "otpadaka od sečenja i proizvodnog otpada vraća se u kružni proces"
       },
       {
         "n": "3",
         "u": "× ISO",
-        "l": "Qualität, Umwelt, Energie: DAkkS-akkreditiert seit Oktober 2025"
+        "l": "Kvalitet, životna sredina, energija: akreditovano od strane DAkkS od oktobra 2025."
       }
     ],
-    "prodEyebrow": "Fertigung",
-    "prodTitle": "Vier Stationen, ein Qualitätsversprechen.",
-    "prodLead": "Vom Granulat do zum gekennzeichneten Rohr: so entsteht   Produkt.",
+    "prodEyebrow": "Proizvodnja",
+    "prodTitle": "Četiri stanice, jedno obećanje kvaliteta.",
+    "prodLead": "Od granulata do obeležene cevi: ovako nastaje proizvod.",
     "prod": [
       {
-        "t": "Extrusion",
-        "d": "Monolayer- i glasfaserverstärkte Multilayer-Cevi entstehen na Extrusionsanlagen sa do zu 14.000 Metern Tagesleistung je Anlage."
+        "t": "Ekstruzija",
+        "d": "Jednoslojne i višeslojne cevi ojačane staklenim vlaknima proizvode se na ekstruzionim linijama sa dnevnim kapacitetom do 14.000 metara po liniji."
       },
       {
-        "t": "Spritzguss",
-        "d": "Fitinzi od d20 do d315 werden im Spritzguss gefertigt: komplexe Geometrien kod hoher Stückzahl i konstanter Qualität."
+        "t": "Brizganje",
+        "d": "Fitinzi od d20 do d315 proizvode se brizganjem: složene geometrije pri velikom broju komada i konstantnom kvalitetu."
       },
       {
-        "t": "Geschlossener Kühlkreislauf",
-        "d": "  Prozesswasser   Fertigung zirkuliert im geschlossenen Kreislauf: Gewässerschutz als Systementscheidung, überwacht nach ISO 14001."
+        "t": "Zatvoreni rashladni krug",
+        "d": "Procesna voda u proizvodnji cirkuliše u zatvorenom krugu: zaštita voda kao sistemska odluka, nadgledana prema ISO 14001."
       },
       {
-        "t": "Kennzeichnung & Prüfung",
-        "d": "Jedes Rohr wird im Extrusionsprozess fortlaufend gekennzeichnet i nach QS-Handbuch geprüft: Rückverfolgbarkeit je Charge."
+        "t": "Obeležavanje i kontrola",
+        "d": "Svaka cev se kontinuirano obeležava tokom procesa ekstruzije i proverava prema priručniku za osiguranje kvaliteta: sledljivost po svakoj seriji."
       }
     ],
     "houseEyebrow": "House of KWT",
-    "houseTitle": "Vier Nutzen, ein Haus.",
-    "houseLead": "  Unternehmenspolitik   KWT GmbH denkt Nutzen als Kreislauf: keiner existiert ohne   anderen drei.",
+    "houseTitle": "Četiri koristi, jedna kuća.",
+    "houseLead": "Politika kompanije KWT GmbH posmatra korist kao kružni tok: nijedna ne postoji bez ostale tri.",
     "house": [
       {
-        "t": "Kundennutzen",
-        "d": "Wünsche od Kunden i Interessierten werden erkannt, ernst genommen i umgesetzt, unter Einhaltung gesetzlicher i sozialer Standards."
+        "t": "Korist za kupca",
+        "d": "Želje kupaca i zainteresovanih strana se prepoznaju, ozbiljno shvataju i realizuju, uz poštovanje zakonskih i društvenih standarda."
       },
       {
-        "t": "Mitarbeiternutzen",
-        "d": "Alle Mitarbeitenden sind u   kontinuierlichen Verbesserungsprozess eingebunden. Kein Kundennutzen ohne Mitarbeiternutzen."
+        "t": "Korist za zaposlene",
+        "d": "Svi zaposleni su uključeni u proces kontinuiranog poboljšanja. Nema koristi za kupca bez koristi za zaposlene."
       },
       {
-        "t": "Unternehmensnutzen",
-        "d": "Qualität bleibt stets sa Kosten i Terminen vereinbar, so trägt   Erfolg od heute   Investitionen od morgen."
+        "t": "Korist za kompaniju",
+        "d": "Kvalitet uvek ostaje usklađen sa troškovima i rokovima, tako da današnji uspeh nosi sutrašnje investicije."
       },
       {
-        "t": "Umwelt & Mitwelt",
-        "d": "Ressourcenschonung i Umweltverträglichkeit sind Teil des Qualitätsverständnisses, verankert im GENAU-System."
+        "t": "Životna sredina i društvo",
+        "d": "Očuvanje resursa i ekološka prihvatljivost su deo poimanja kvaliteta, usidreni u GENAU sistemu."
       }
     ],
-    "mileEyebrow": "Meilensteine",
-    "mileTitle": "  Weg do hierher.",
+    "mileEyebrow": "Prekretnice",
+    "mileTitle": "Put do ovde.",
     "miles": [
       {
-        "y": "Jahrzehnte",
-        "t": "Fertigungserfahrung",
-        "d": "Kunststoffverarbeitung za   Wasserversorgung: Erfahrung,   u jede Charge einfließt."
+        "y": "Decenije",
+        "t": "Proizvodno iskustvo",
+        "d": "Prerada plastike za vodosnabdevanje: iskustvo koje se uliva u svaku seriju."
       },
       {
         "y": "Budućnost",
-        "t": "Reorganizacija pod vođstvom vlasnika",
-        "d": "Philipp Nickel i Marcello Gallio vode K-Aqua, šireći međunarodno poslovanje kao nezavisni nemački proizvođač."
+        "t": "Novi početak pod vođstvom vlasnika",
+        "d": "Philipp Nickel i Marcello Gallio preuzimaju K-Aqua i unapređuju međunarodnu orijentaciju kao nezavisni nemački proizvođač."
       },
       {
         "y": "GENAU",
-        "t": "Managementsystem im House of KWT",
-        "d": "Arbeitsschutz, Umwelt i Energie als tägliche Praxis jedes Mitarbeitenden, nicht als Audit-Übung."
+        "t": "Sistem upravljanja u House of KWT",
+        "d": "Zaštita na radu, životna sredina i energija kao svakodnevna praksa svakog zaposlenog, a ne kao vežba za audit."
       },
       {
         "y": "10/2025",
-        "t": "Dreifach ISO-geprüft",
-        "d": "ISO 9001, 14001 i 50001 u einem Schritt: DAkkS-akkreditiert, gültig do 10/2028."
+        "t": "Trostruko ISO sertifikovano",
+        "d": "ISO 9001, 14001 i 50001 u jednom koraku: akreditovano od strane DAkkS, važi do 10/2028."
       },
       {
         "y": "2026",
-        "t": "Digitale Plattform",
-        "d": "Pretraga proizvoda, CO₂-Rechner, Trust Center i Akademija machen   Website zum Werkzeugkasten."
+        "t": "Digitalna platforma",
+        "d": "Pretraga proizvoda, CO₂ kalkulator, Trust Center i Akademija pretvaraju veb-sajt u kutiju sa alatima."
       }
     ]
   },
@@ -6283,69 +6346,69 @@
     ]
   },
   "careerx": {
-    "areaEyebrow": "Arbeitsbereiche",
-    "areaTitle": "Wo Sie kod K Aqua arbeiten.",
-    "areaLead": "Kreativität i Erfahrung sind   Basis unserer marktführenden Rešenja: vier Bereiche tragen sie, quer durch   Werk Waldsolms.",
+    "areaEyebrow": "Oblasti rada",
+    "areaTitle": "Gde ćete raditi u K-Aqua.",
+    "areaLead": "Kreativnost i iskustvo su osnova naših vodećih rešenja na tržištu: četiri oblasti ih nose, širom fabrike u Waldsolmsu.",
     "areas": [
       {
-        "t": "Produktion & Fertigung",
-        "d": "Extrusionsanlagen sa do zu 14.000 Metern Tagesleistung rüsten, fahren i überwachen, dazu Spritzguss za Fitinzi od d20 do d315.",
-        "p": "Technikverständnis, Sorgfalt, Bereitschaft zur Schichtarbeit"
+        "t": "Proizvodnja i prerada",
+        "d": "Priprema, vođenje i nadzor ekstruzionih linija sa dnevnim kapacitetom do 14.000 metara, uz brizganje fitinga od d20 do d315.",
+        "p": "Razumevanje tehnike, savesnost, spremnost za rad u smenama"
       },
       {
-        "t": "Technik & Instandhaltung",
-        "d": "Extruder, Alati i Peripherie am Laufen halten: Wartung, Störungsanalyse i kontinuierliche Verbesserung nach GENAU.",
-        "p": "Ausbildung u Mechatronik, Elektrik ili Metall: Ursachen finden statt Symptome flicken"
+        "t": "Tehnika i održavanje",
+        "d": "Održavanje ekstrudera, alata i periferne opreme u radu: servisiranje, analiza kvarova i kontinuirano unapređenje prema GENAU sistemu.",
+        "p": "Obrazovanje iz mehatronike, elektrike ili obrade metala: pronalaženje uzroka umesto krpljenja simptoma"
       },
       {
-        "t": "Vertrieb & Anwendungstechnik",
-        "d": "Projekte od Frankfurt do u   Nahen Osten begleiten: Beratung zu Dimenzije, SDR-Klassen i Schweißtechnik, direkt vom Hersteller.",
-        "p": "Technische Beratungskompetenz, Sprachen sind ein Plus"
+        "t": "Prodaja i tehnička primena",
+        "d": "Praćenje projekata od Frankfurta do Bliskog istoka: savetovanje o dimenzijama, SDR klasama i tehnici zavarivanja, direktno od proizvođača.",
+        "p": "Kompetencije tehničkog savetovanja, strani jezici su prednost"
       },
       {
-        "t": "Verwaltung & Kaufmännisches",
-        "d": "Auftragsabwicklung, Einkauf i Organisation:   Prozesse,   Qualität sa Kosten i Terminen vereinbar halten.",
-        "p": "Strukturierte Arbeitsweise, Freude an klaren Abläufen"
+        "t": "Administracija i komercijalni poslovi",
+        "d": "Obrada porudžbina, nabavka i organizacija: procesi koji usklađuju kvalitet sa troškovima i rokovima.",
+        "p": "Strukturisan način rada, uživanje u jasnim radnim tokovima"
       }
     ],
-    "areaNote": "Ihr Profil ist nicht dabei? Initiativbewerbungen sind ausdrücklich willkommen,   Kompanija wächst.",
-    "whyEyebrow": "Warum K Aqua",
-    "whyTitle": "Vier Gründe, hier zu arbeiten.",
+    "areaNote": "Vaš profil nije na listi? Samoinicijativne prijave su izričito dobrodošle, kompanija raste.",
+    "whyEyebrow": "Zašto K-Aqua",
+    "whyTitle": "Četiri razloga za rad kod nas.",
     "why": [
       {
-        "t": "Wachsende Marktposition",
-        "d": "Eine starke Position,   kontinuierlich ausgebaut wird: Ihre Arbeit trägt sichtbar zum Erfolg kod."
+        "t": "Rastuća pozicija na tržištu",
+        "d": "Snažna pozicija koja se kontinuirano širi: vaš rad vidljivo doprinosi uspehu."
       },
       {
-        "t": "Sicherheit als System",
-        "d": "GENAU macht Arbeitsschutz zur täglichen Praxis: Gefahren melden ist Pflicht i wird ernst genommen, od jedem, za jeden."
+        "t": "Bezbednost kao sistem",
+        "d": "GENAU pretvara zaštitu na radu u svakodnevnu praksu: prijavljivanje opasnosti je obaveza i shvata se ozbiljno, od strane svakoga, za svakoga."
       },
       {
-        "t": "Produkt sa Substanz",
-        "d": "Cevi,   na 50 Jahre Betrieb ausgelegt sind i weltweit u Krankenhäusern i Hotels arbeiten: Ergebnisse,   bleiben."
+        "t": "Proizvod sa suštinom",
+        "d": "Cevi projektovane za 50 godina rada koje funkcionišu u bolnicama i hotelima širom sveta: rezultati koji traju."
       },
       {
-        "t": "Benefits,   netto ankommen",
-        "d": "Steuerfreie Extras od   Sachbezugskarte do zum JobRad: rechnen Sie oben nach, was Ihr Paket bringt."
+        "t": "Pogodnosti koje stižu u neto iznosu",
+        "d": "Neoporezivi dodaci od kartice za robne naknade do JobRad lizinga: izračunajte iznad šta donosi vaš paket."
       }
     ],
-    "procEyebrow": "Bewerbungsprozess",
-    "procTitle": "Drei Schritte do zum Vertrag.",
+    "procEyebrow": "Proces prijave",
+    "procTitle": "Tri koraka do ugovora.",
     "proc": [
       {
-        "t": "Bewerbung senden",
-        "d": "Per E-Mail an Andrea Nickel: sa CV-Generator ili Direktbewerbung od dieser Seite. Kein Anschreiben-Roman nötig."
+        "t": "Pošaljite prijavu",
+        "d": "Putem e-pošte za Andrea Nickel: uz pomoć CV generatora ili direktne prijave sa ove stranice. Nije potrebno opširno propratno pismo."
       },
       {
-        "t": "Gespräch führen",
-        "d": "Wir melden uns zeitnah i klären   Alltag ehrlich, gern auch telefonisch unter +49 (0)60 85 / 9868-410."
+        "t": "Obavite razgovor",
+        "d": "Javićemo se u najkraćem roku i iskreno proći kroz svakodnevicu, rado i telefonom na +49 (0)60 85 / 9868-410."
       },
       {
-        "t": "Werk kennenlernen",
-        "d": "Sie sehen Fertigung i Team u Waldsolms, bevor Sie entscheiden. Dann folgt   Vertragsangebot."
+        "t": "Upoznajte fabriku",
+        "d": "Vidite proizvodnju i tim u Waldsolmsu pre nego što donesete odluku. Nakon toga sledi ponuda ugovora."
       }
     ],
-    "procContact": "Ansprechpartnerin: Andrea Nickel · andrea.nickel@k-aqua.de"
+    "procContact": "Prijave i pitanja: K-Aqua HR tim · jobs@k-aqua.de"
   },
   "refsx": {
     "secEyebrow": "Einsatzfelder weltweit",
@@ -6608,83 +6671,83 @@
   },
   "application": {
     "tabs": {
-      "quick": "Schnellkontakt & Kultur",
-      "detailed": "Jobportal & Bewerbung"
+      "quick": "Brzi kontakt i kultura",
+      "detailed": "Portal za poslove i prijava"
     },
     "portal": {
-      "eyebrow": "Offene Stellen",
-      "title": "Werde Teil unseres",
-      "titleGrad": "Teams",
-      "lead": "Entdecke spannende Karrieremöglichkeiten kod K Aqua i bewirb dich u wenigen Minuten.",
+      "eyebrow": "Otvorene pozicije",
+      "title": "Postanite deo našeg",
+      "titleGrad": "tima",
+      "lead": "Otkrijte uzbudljive mogućnosti za karijeru u K-Aqua i prijavite se za nekoliko minuta.",
       "jobs": [
         {
           "id": "prod",
-          "title": "Produktionsmitarbeiter (m/w/d)",
-          "type": "Vollzeit / Schicht",
-          "desc": "Unterstütze uns u   modernen Rohr- i Fitting-Produktion."
+          "title": "Radnik u proizvodnji (m/ž/d)",
+          "type": "Puno radno vreme / Smenski rad",
+          "desc": "Podržite nas u modernoj proizvodnji cevi i fitinga."
         },
         {
           "id": "machine",
-          "title": "Maschinen- i Anlagenführer (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Bedienung i Überwachung unserer Hightech-Extrusionsanlagen."
+          "title": "Rukovalac mašinama i postrojenjima (m/ž/d)",
+          "type": "Puno radno vreme",
+          "desc": "Upravljanje i nadzor nad našim visokotehnološkim ekstruzionim linijama."
         },
         {
           "id": "logistics",
-          "title": "Fachkraft za Lagerlogistik (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Verantwortung za Warenein- i -ausgang sowie Bestandskontrolle."
+          "title": "Stručnjak za skladišnu logistiku (m/ž/d)",
+          "type": "Puno radno vreme",
+          "desc": "Odgovornost za prijem i otpremu robe, kao i kontrolu zaliha."
         },
         {
           "id": "sales",
-          "title": "Technischer Vertrieb im Außendienst (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Betreuung od Großkunden i Projektplanern im internationalen Raum."
+          "title": "Tehnička prodaja na terenu (m/ž/d)",
+          "type": "Puno radno vreme",
+          "desc": "Podrška ključnim kupcima i projektantima na međunarodnom nivou."
         },
         {
           "id": "pm",
-          "title": "Produktmanager (m/w/d)",
-          "type": "Vollzeit",
-          "desc": "Gestalte   Zukunft unserer PP-R Rohrleitungssysteme."
+          "title": "Menadžer proizvoda (m/ž/d)",
+          "type": "Puno radno vreme",
+          "desc": "Kreirajte budućnost naših PP-R cevovodnih sistema."
         },
         {
           "id": "init",
-          "title": "Initiativbewerbung",
-          "type": "Vollzeit / Teilzeit",
-          "desc": "Keine passende Stelle dabei? Bewirb dich einfach initiativ!"
+          "title": "Otvorena prijava",
+          "type": "Puno radno vreme / Nepuno radno vreme",
+          "desc": "Nema odgovarajuće pozicije? Pošaljite nam otvorenu prijavu!"
         }
       ],
       "steps": {
-        "step1": "Persönliche Daten",
-        "step2": "Lebenslauf & Unterlagen",
-        "step3": "Überprüfung"
+        "step1": "Lični podaci",
+        "step2": "Biografija i dokumenti",
+        "step3": "Provera"
       },
       "form": {
-        "firstName": "Vorname",
-        "lastName": "Nachname",
-        "email": "E-Mail",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "email": "E-pošta",
         "phone": "Telefon",
-        "startDate": "Frühestmögliches Eintrittsdatum",
-        "uploadTitle": "PDF hochladen",
-        "uploadDesc": "Ziehe deinen Lebenslauf hierhin ili klicke zum Auswählen (max. 5MB)",
-        "builderTitle": "ili: CV online erstellen",
-        "builderDesc": "Hast du kein PDF zur Hand? Fülle einfach deinen Werdegang hier aus.",
-        "workExp": "Berufserfahrung hinzufügen",
-        "education": "Ausbildung hinzufügen",
+        "startDate": "Najraniji mogući datum početka",
+        "uploadTitle": "Otpremi PDF",
+        "uploadDesc": "Prevucite svoju biografiju ovde ili kliknite za izbor (maks. 5MB)",
+        "builderTitle": "Ili: kreirajte CV online",
+        "builderDesc": "Nemate PDF pri ruci? Jednostavno popunite svoj radni put ovde.",
+        "workExp": "Dodaj radno iskustvo",
+        "education": "Dodaj obrazovanje",
         "company": "Kompanija",
-        "role": "Position",
-        "school": "Schule / Uni",
-        "degree": "Abschluss",
-        "from": "od",
-        "to": "do",
-        "skills": "Fähigkeiten (Kommagetrennt)",
-        "next": "Weiter",
-        "back": "Zurück",
-        "submit": "Bewerbung absenden",
-        "submitting": "Wird gesendet...",
-        "success": "Vielen Dank za deine Bewerbung!",
-        "successSub": "Wir haben deine Unterlagen erhalten i melden uns u Kürze kod dir.",
-        "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später erneut."
+        "role": "Pozicija",
+        "school": "Škola / Fakultet",
+        "degree": "Diploma / Zvanje",
+        "from": "Od",
+        "to": "Do",
+        "skills": "Veštine (odvojene zarezom)",
+        "next": "Dalje",
+        "back": "Nazad",
+        "submit": "Pošalji prijavu",
+        "submitting": "Šalje se...",
+        "success": "Hvala vam na prijavi!",
+        "successSub": "Primili smo vaše dokumente i javićemo vam se uskoro.",
+        "error": "Došlo je do greške. Molimo pokušajte ponovo kasnije."
       }
     }
   },

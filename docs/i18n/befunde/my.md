@@ -1,0 +1,2299 @@
+# Befund my — 2124 offene Einträge
+
+Jede Zeile ist ein Wert, der in `messages/my.json` noch fehlt,
+noch deutsch/englisch dasteht oder mit einem Füllstring belegt ist.
+Hinter dem Schlüssel steht der **deutsche Originaltext** — er ist maßgeblich.
+
+`[fehlt]` = Schlüssel fehlt ganz · `[füllstring]` = Wert ist ein Platzhalter
+ohne Marke = Wert steht wörtlich deutsch oder englisch da.
+
+## Übersicht
+
+* `about` — 1
+* `aboutx` — 1
+* `academy` — 6
+* `academyx` — 1
+* `application` — 11
+* `co2` — 4
+* `contactx` — 2
+* `enterprise` — 28
+* `finder` — 1
+* `finderx` — 17
+* `footerSitemap` — 21
+* `geo` — 62
+* `geoContent` — 197
+* `homedeep` — 10
+* `homex` — 2
+* `kontaktBlocks` — 12
+* `kontaktForm` — 17
+* `languagePage` — 1
+* `legal` — 35
+* `mapsSuite` — 2
+* `markets` — 314
+* `menu` — 5
+* `nav` — 24
+* `navigation` — 4
+* `newsx` — 31
+* `productNames` — 25
+* `products` — 458
+* `productsx` — 120
+* `referenzenPage` — 30
+* `refsx` — 11
+* `resources` — 216
+* `rfq` — 1
+* `seo` — 8
+* `seoExpansion` — 2
+* `service` — 2
+* `servicex` — 1
+* `solutions` — 296
+* `solutionsx` — 94
+* `trust` — 4
+* `trustAndCases` — 1
+* `viewer3d` — 46
+
+## about (1)
+
+- `about.material.title1`  Polypropylen Random Copolymerisat.
+
+## aboutx (1)
+
+- `aboutx.houseEyebrow`  House of KWT
+
+## academy (6)
+
+- `academy.glossar.bento.items.4.label`  50+ YRS
+- `academy.schulungen.timeline.items.0.year`  PHASE 01
+- `academy.schulungen.timeline.items.1.year`  PHASE 02
+- `academy.schulungen.timeline.items.2.year`  PHASE 03
+- `academy.schulungen.timeline.items.3.year`  PHASE 04
+- `academy.schulungen.timeline.items.4.year`  PHASE 05
+
+## academyx (1)
+
+- `academyx.paramHead.0`  d (mm)
+
+## application (11)
+
+- `application.portal.form.cvAttached` [fehlt] Lebenslauf
+- `application.portal.form.cvFromBuilder` [fehlt] Über den Baukasten erstellt
+- `application.portal.form.fileTooLarge` [fehlt] Die Datei ist zu groß. Möglich sind bis zu 4 MB.
+- `application.portal.form.fileWrongType` [fehlt] Dieses Dateiformat geht nicht. Möglich sind PDF, DOC und DOCX.
+- `application.portal.form.nameLabel` [fehlt] Name
+- `application.portal.form.needCv` [fehlt] Bitte lade einen Lebenslauf hoch oder fülle den Lebenslauf-Baukasten aus.
+- `application.portal.form.privacy` [fehlt] Deine Angaben nutzen wir ausschließlich für diese Bewerbung. Näheres in unserer
+- `application.portal.form.privacyLink` [fehlt] Datenschutzerklärung
+- `application.portal.form.replaceFile` [fehlt] Klicken zum Ersetzen
+- `application.portal.form.requiredFields` [fehlt] Bitte fülle die mit * gekennzeichneten Felder aus.
+- `application.portal.form.reviewTitle` [fehlt] Bewerbung prüfen
+
+## co2 (4)
+
+- `co2.materials.kaqua`  K Aqua PPRCT
+- `co2.phaseC`  C (EoL)
+- `co2.tabLogistics`  LCA
+- `co2.titleGrad`  Pro
+
+## contactx (2)
+
+- `contactx.facts.1.1`  KWT GmbH · Auweg 3 · 35647 Waldsolms-Brandoberndorf, Mittelhessen
+- `contactx.facts.2.1`  +49 (0)60 85 / 9868-410 · Fax -420
+
+## enterprise (28)
+
+- `enterprise.comply.items.0.1` [füllstring] Trinkwasser-Zulassung
+- `enterprise.comply.items.1.1` [füllstring] Güteüberwachung
+- `enterprise.comply.items.2.1` [füllstring] Systemzertifizierung
+- `enterprise.comply.items.3.1` [füllstring] Rohrmaße & Toleranzen
+- `enterprise.comply.title` [füllstring] Compliance & Normen
+- `enterprise.heroLead` [füllstring] Für industrielle Anwendungen, Trinkwasserversorgung und Klimatechnik unter extremen Bedingungen.
+- `enterprise.layers.ariaGroup` [füllstring] Materialschichten
+- `enterprise.layers.desc` [füllstring] 3-Schicht-Aufbau für minimierte Längsausdehnung und maximale Stabilität bei hohen Temperaturen.
+- `enterprise.layers.items.0.d` [füllstring] Außenschicht
+- `enterprise.layers.items.1.d` [füllstring] Mittelschicht
+- `enterprise.layers.items.1.t` [füllstring] Faserverbund
+- `enterprise.layers.items.2.d` [füllstring] Innenschicht
+- `enterprise.layers.title` [füllstring] Faserverbund-Technologie
+- `enterprise.network.chips.0.1` [füllstring] Länder
+- `enterprise.network.chips.1.1` [füllstring] Kontinente
+- `enterprise.network.chips.2.1` [füllstring] Zertifiziert
+- `enterprise.network.lead` [füllstring] K Aqua Systeme sind weltweit in über 35 Ländern im Einsatz. Von Waldsolms in die Welt.
+- `enterprise.network.title` [füllstring] Globales Netzwerk
+- `enterprise.rangeTitle` [füllstring] Dimensionen
+- `enterprise.telemetry.liveSuffix` [füllstring] MPa live
+- `enterprise.telemetry.meta.0.0` [füllstring] Material
+- `enterprise.telemetry.meta.0.1` [füllstring] K Aqua PP-R (Typ 3)
+- `enterprise.telemetry.meta.1.0` [füllstring] Norm
+- `enterprise.telemetry.meta.2.0` [füllstring] Zertifizierung
+- `enterprise.telemetry.meta.3.0` [füllstring] Lebensdauer
+- `enterprise.telemetry.meta.3.1` [füllstring] > 50 Jahre
+- `enterprise.telemetry.pressureLabel` [füllstring] Systemdruck
+- `enterprise.telemetry.tempLabel` [füllstring] Temperatur max.
+
+## finder (1)
+
+- `finder.catAll`  Alle
+
+## finderx (17)
+
+- `finderx.flow.0.d` [füllstring] Typ, SDR und maximale Dimension eingrenzen oder direkt „d110" in die Suche tippen.
+- `finderx.flow.0.t` [füllstring] Filtern & suchen
+- `finderx.flow.1.d` [füllstring] Zeile anklicken für Wandstärke, di und Nenndruck im Detail. Die Trefferliste wandert per CSV in Ihre Kalkulation.
+- `finderx.flow.1.t` [füllstring] Prüfen & exportieren
+- `finderx.flow.2.d` [füllstring] Aus dem Detailfenster direkt in die Projektanfrage: Dimensionen und Mengen klären wir gemeinsam.
+- `finderx.flow.2.t` [füllstring] Anfrage übergeben
+- `finderx.flowTitle` [füllstring] Vom Filter zum Angebot
+- `finderx.help.0.1` [füllstring] Außendurchmesser in Millimetern: die Kenngröße jeder Dimension von d20 bis d630.
+- `finderx.help.1.1` [füllstring] Standard Dimension Ratio = d/s. Kleiner SDR bedeutet dickere Wand und höheren Nenndruck.
+- `finderx.help.2.0` [füllstring] Wand (s)
+- `finderx.help.2.1` [füllstring] Wandstärke in Millimetern: ergibt sich aus d und SDR: s = d/SDR.
+- `finderx.help.3.1` [füllstring] Innendurchmesser = d − 2s. Maßgeblich für Durchfluss und Druckverlust.
+- `finderx.help.4.0` [füllstring] Nenndruck (PN)
+- `finderx.help.4.1` [füllstring] Zulässiger Dauerbetriebsdruck in bar bei 20 °C über den Auslegungshorizont: SDR 6 = PN 20 bis SDR 17 = PN 6.
+- `finderx.helpEyebrow` [füllstring] Lesehilfe
+- `finderx.helpLead` [füllstring] Fünf Begriffe genügen, um jede Zeile des Sortiments zu verstehen.
+- `finderx.helpTitle` [füllstring] So lesen Sie die Tabelle.
+
+## footerSitemap (21)
+
+- `footerSitemap.links.about_us`  Über K-Aqua
+- `footerSitemap.links.all_markets`  Alle K-Aqua Märkte
+- `footerSitemap.links.all_products`  Alle K-Aqua Produkte
+- `footerSitemap.links.all_solutions`  Alle K-Aqua Lösungen
+- `footerSitemap.links.bim` [fehlt] BIM-Daten & IFC
+- `footerSitemap.links.career`  Karriere bei K-Aqua
+- `footerSitemap.links.co2_calc`  CO₂-Rechner für PP-R
+- `footerSitemap.links.contact`  K-Aqua kontaktieren
+- `footerSitemap.links.cookieSettings` [fehlt] Datenschutz-Einstellungen
+- `footerSitemap.links.downloads` [fehlt] Download-Center
+- `footerSitemap.links.news`  K-Aqua News & Presse
+- `footerSitemap.links.overview`  K-Aqua Academy Übersicht
+- `footerSitemap.links.partners`  K-Aqua Partnernetzwerk
+- `footerSitemap.links.pipes`  Rohre & Rohrsysteme (PP-R)
+- `footerSitemap.links.references`  K-Aqua Referenzen weltweit
+- `footerSitemap.links.service`  K-Aqua Service & Wartung
+- `footerSitemap.links.sitemap`  Sitemap (HTML)
+- `footerSitemap.links.specifications`  K-Aqua Ausschreibungstexte
+- `footerSitemap.links.support`  Technischer Support für K-Aqua
+- `footerSitemap.links.technik` [fehlt] Technisches Handbuch
+- `footerSitemap.links.trust`  K-Aqua Trust Center
+
+## geo (62)
+
+- `geo.cityMetaTitleShort` [fehlt] PP-R Rohrsysteme {city} — {regulator}
+- `geo.cityNames.abudhabi` [fehlt] Abu Dhabi
+- `geo.cityNames.amman` [fehlt] Amman
+- `geo.cityNames.berlin` [fehlt] Berlin
+- `geo.cityNames.doha` [fehlt] Doha
+- `geo.cityNames.dschidda` [fehlt] Dschidda
+- `geo.cityNames.dubai` [fehlt] Dubai
+- `geo.cityNames.frankfurt` [fehlt] Frankfurt am Main
+- `geo.cityNames.hamburg` [fehlt] Hamburg
+- `geo.cityNames.istanbul` [fehlt] Istanbul
+- `geo.cityNames.kairo` [fehlt] Kairo
+- `geo.cityNames.kapstadt` [fehlt] Kapstadt
+- `geo.cityNames.kualalumpur` [fehlt] Kuala Lumpur
+- `geo.cityNames.kuwait` [fehlt] Kuwait-Stadt
+- `geo.cityNames.london` [fehlt] London
+- `geo.cityNames.mailand` [fehlt] Mailand
+- `geo.cityNames.manama` [fehlt] Manama
+- `geo.cityNames.maskat` [fehlt] Maskat
+- `geo.cityNames.muenchen` [fehlt] München
+- `geo.cityNames.mumbai` [fehlt] Mumbai
+- `geo.cityNames.nairobi` [fehlt] Nairobi
+- `geo.cityNames.neom` [fehlt] NEOM / The Line
+- `geo.cityNames.paris` [fehlt] Paris
+- `geo.cityNames.prag` [fehlt] Prag
+- `geo.cityNames.riad` [fehlt] Riad
+- `geo.cityNames.singapur` [fehlt] Singapur
+- `geo.cityNames.warschau` [fehlt] Warschau
+- `geo.cityNames.wien` [fehlt] Wien
+- `geo.cityNames.zuerich` [fehlt] Zürich
+- `geo.crisis.earthquake` [fehlt] Erdbebensicherheit
+- `geo.crisis.el-nino` [fehlt] El-Niño-Wetterextreme
+- `geo.crisis.infrastructure-decay` [fehlt] alternde Bestandsnetze
+- `geo.crisis.none` [fehlt] Standardversorgung
+- `geo.crisis.tsunami` [fehlt] Tsunami-Resilienz
+- `geo.crisis.water-scarcity` [fehlt] Wasserknappheit
+- `geo.hubInfraLine` [fehlt] K-Aqua Infrastruktur für {hub}, ausgelegt auf {scenario}.
+- `geo.hubMetaTitleShort` [fehlt] PP-R Rohrsysteme {country} — {approval}
+- `geo.hubNames.aegypten` [fehlt] Ägypten
+- `geo.hubNames.bahrain` [fehlt] Bahrain
+- `geo.hubNames.chile` [fehlt] Chile
+- `geo.hubNames.deutschland` [fehlt] Deutschland
+- `geo.hubNames.frankreich` [fehlt] Frankreich
+- `geo.hubNames.indien` [fehlt] Indien
+- `geo.hubNames.italien` [fehlt] Italien
+- `geo.hubNames.japan` [fehlt] Japan
+- `geo.hubNames.jordanien` [fehlt] Jordanien
+- `geo.hubNames.katar` [fehlt] Katar
+- `geo.hubNames.kenia` [fehlt] Kenia
+- `geo.hubNames.ksa` [fehlt] Saudi-Arabien
+- `geo.hubNames.kuwait` [fehlt] Kuwait
+- `geo.hubNames.malaysia` [fehlt] Malaysia
+- `geo.hubNames.oesterreich` [fehlt] Österreich
+- `geo.hubNames.oman` [fehlt] Oman
+- `geo.hubNames.polen` [fehlt] Polen
+- `geo.hubNames.schweiz` [fehlt] Schweiz
+- `geo.hubNames.singapur` [fehlt] Singapur
+- `geo.hubNames.suedafrika` [fehlt] Südafrika
+- `geo.hubNames.tschechien` [fehlt] Tschechien
+- `geo.hubNames.tuerkei` [fehlt] Türkei
+- `geo.hubNames.uae` [fehlt] Vereinigte Arabische Emirate
+- `geo.hubNames.uaeShort` [fehlt] VAE
+- `geo.hubNames.uk` [fehlt] Vereinigtes Königreich
+
+## geoContent (197)
+
+- `geoContent.abudhabi.focus.0` [füllstring] Regierungs- & Kulturbauten
+- `geoContent.abudhabi.focus.1` [füllstring] Saadiyat-Resorts
+- `geoContent.abudhabi.focus.2` [füllstring] Industriezonen KIZAD
+- `geoContent.abudhabi.focusHeading` [füllstring] Typische Projekte in Abu Dhabi
+- `geoContent.abudhabi.note` [füllstring] Pearl-Rating-Dokumentation (Materialtransparenz) liegt dem Angebot bei.
+- `geoContent.abudhabi.regulator` [füllstring] DoE Abu Dhabi / Estidama
+- `geoContent.abudhabi.water` [füllstring] Entsalzungswasser mit Nachhärtung: Estidama-Nachhaltigkeitspunkte honorieren recycelbare Rohrwerkstoffe.
+- `geoContent.amman.extendedMarketText` [füllstring] Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor.
+- `geoContent.amman.focus.0` [füllstring] Disi-Pipeline-Subnetze
+- `geoContent.amman.focus.1` [füllstring] Krankenhaus- & Universitätsbau
+- `geoContent.amman.focus.2` [füllstring] Flüchtlingsstadt-Infrastruktur
+- `geoContent.amman.focusHeading` [füllstring] Typische Projekte in Amman
+- `geoContent.amman.note` [füllstring] Entwicklungsbank-finanzierte Projekte: K Aqua liefert Tender-konforme Dokumentation.
+- `geoContent.amman.regulator` [füllstring] WAJ: Water Authority of Jordan / Miyahuna
+- `geoContent.amman.water` [füllstring] Eines der wasserärmsten Länder der Welt. Leckagefreie Schweißverbindungen sind aktive Wassersparpolitik (Non-Revenue Water < 2 %).
+- `geoContent.berlin.focus.0` [füllstring] Wohnquartier-Neubau
+- `geoContent.berlin.focus.1` [füllstring] Schul- & Verwaltungsbau
+- `geoContent.berlin.focus.2` [füllstring] Bestandssanierung Altbau
+- `geoContent.berlin.focusHeading` [füllstring] Typische Projekte in Berlin
+- `geoContent.berlin.note` [füllstring] Großprojekte in der Hauptstadtregion werden über Speditionspartner in 24 h beliefert.
+- `geoContent.berlin.water` [füllstring] Mittelhartes Wasser aus Uferfiltrat: hygienische Neutralität des PP verhindert Biofilmbildung in weitläufigen Netzen.
+- `geoContent.doha.focus.0` [füllstring] Lusail-Stadtentwicklung
+- `geoContent.doha.focus.1` [füllstring] Stadien-Nachnutzung
+- `geoContent.doha.focus.2` [füllstring] Hospitality
+- `geoContent.doha.focusHeading` [füllstring] Typische Projekte in Doha
+- `geoContent.doha.note` [füllstring] QCS-konforme Einreichunterlagen und Drittprüfberichte verfügbar.
+- `geoContent.doha.regulator` [füllstring] Kahramaa: Qatar General Electricity & Water Corp.
+- `geoContent.doha.water` [füllstring] Zu 99 % entsalztes Wasser, Netztemperaturen bis 40 °C im Sommer: Langzeit-Druckstandfestigkeit ist das zentrale Auswahlkriterium.
+- `geoContent.dschidda.focus.0` [füllstring] Jeddah Central Project
+- `geoContent.dschidda.focus.1` [füllstring] Hafen- & Logistikbauten
+- `geoContent.dschidda.focus.2` [füllstring] Pilger-Hospitality (Makkah-Korridor)
+- `geoContent.dschidda.focusHeading` [füllstring] Typische Projekte in Dschidda
+- `geoContent.dschidda.note` [füllstring] Seefracht direkt nach Jeddah Islamic Port; arabischsprachige Datenblätter in Arbeit.
+- `geoContent.dschidda.water` [füllstring] Rotmeer-Entsalzung mit hoher Salzfracht im Umfeld: absolute Korrosionsfreiheit ist hier ein KO-Kriterium gegen Metall.
+- `geoContent.dubai.focus.0` [füllstring] Super-High-Rise-Türme
+- `geoContent.dubai.focus.1` [füllstring] Hotel-Resorts
+- `geoContent.dubai.focus.2` [füllstring] District Cooling Make-up
+- `geoContent.dubai.focusHeading` [füllstring] Typische Projekte in Dubai
+- `geoContent.dubai.note` [füllstring] Seefracht-FCL ab Hamburg; Stumpfschweiß-Supervision auf der Baustelle buchbar.
+- `geoContent.dubai.regulator` [füllstring] DEWA: Dubai Electricity & Water Authority
+- `geoContent.dubai.water` [füllstring] Entsalztes Meerwasser mit hoher Chloridfracht und Dauertemperaturen >30 °C: das Kernszenario für PPRCT-Temperaturreserven.
+- `geoContent.frankfurt.focus.0` [füllstring] Hochhaus-Steigleitungen (Bankenviertel)
+- `geoContent.frankfurt.focus.1` [füllstring] Hotel- & Bürosanierung
+- `geoContent.frankfurt.focus.2` [füllstring] Rechenzentrums-Kühlwasser
+- `geoContent.frankfurt.focusHeading` [füllstring] Typische Projekte in Frankfurt am Main
+- `geoContent.frankfurt.note` [füllstring] Im Rhein-Main-Gebiet liefert K Aqua ab Werk Waldsolms, oft am selben Tag.
+- `geoContent.frankfurt.water` [füllstring] Hartes Wasser (14–20 °dH): korrosionsfreies PP-R/PPRCT verhindert Kalk-Inkrustation an rauen Metalloberflächen.
+- `geoContent.hamburg.focus.0` [füllstring] HafenCity-Neubau
+- `geoContent.hamburg.focus.1` [füllstring] Hotellerie
+- `geoContent.hamburg.focus.2` [füllstring] Maritime Versorgungstechnik
+- `geoContent.hamburg.focusHeading` [füllstring] Typische Projekte in Hamburg
+- `geoContent.hamburg.note` [füllstring] Norddeutschland ab Lager; Großdimensionen d250+ projektbezogen direkt ab Extrusion.
+- `geoContent.hamburg.water` [füllstring] Weiches bis mittelhartes Grundwasser: geschmacksneutrale PP-Systeme erhalten die hohe Rohwasserqualität.
+- `geoContent.istanbul.extendedMarketText` [füllstring] Aufgrund der hohen seismischen Aktivität in Istanbul und dem anhaltenden Bauboom für Bosporus-übergreifende Infrastrukturprojekte sind erdbebensichere, duktile Rohrleitungssysteme unverzichtbar. K-Aqua PP-R-Polyfusionsschweißverbindungen widerstehen seismischen Erschütterungen deutlich besser als herkömmliche Metallrohre. Zudem erfüllen unsere Systeme die strengen TSE-Zertifizierungsanforderungen, was sie zur idealen Wahl für die anspruchsvollen Bauvorhaben in der gesamten Türkei macht.
+- `geoContent.istanbul.focus.0` [füllstring] Hotelkomplexe
+- `geoContent.istanbul.focus.1` [füllstring] Hochhaus-Wohnbau
+- `geoContent.istanbul.focus.2` [füllstring] Krankenhaus-Neubauten
+- `geoContent.istanbul.focusHeading` [füllstring] Typische Projekte in Istanbul
+- `geoContent.istanbul.note` [füllstring] Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.
+- `geoContent.istanbul.regulator` [füllstring] İSKİ / TSE-Prüfung
+- `geoContent.istanbul.water` [füllstring] Talsperrenwasser mit saisonalen Schwankungen: erdbebensicheres, duktiles Rohrverhalten ist Planungskriterium.
+- `geoContent.kairo.extendedMarketText` [füllstring] Ägyptens rasante Urbanisierung und Großprojekte wie die New Administrative Capital stellen enorme Anforderungen an eine moderne Wasserinfrastruktur für über 100 Millionen Einwohner. Angesichts der klimatischen Herausforderungen Nordafrikas mit extremer Hitze und Sandstürmen sowie den spezifischen Bedingungen im Nildelta sind äußerst widerstandsfähige Materialien gefragt. Die korrosionsbeständigen PP-R und PPRCT-Systeme von K-Aqua garantieren auch unter diesen harten Umweltbedingungen eine leckagefreie und langlebige Wasserversorgung, was sie zur idealen Wahl für Kairos gigantische Bauvorhaben macht.
+- `geoContent.kairo.focus.0` [füllstring] New Administrative Capital
+- `geoContent.kairo.focus.1` [füllstring] Wohnstädte (NUCA)
+- `geoContent.kairo.focus.2` [füllstring] Hotel-Korridor Rotes Meer
+- `geoContent.kairo.focusHeading` [füllstring] Typische Projekte in Kairo
+- `geoContent.kairo.note` [füllstring] EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.
+- `geoContent.kairo.regulator` [füllstring] HCWW: Holding Company for Water & Wastewater
+- `geoContent.kairo.water` [füllstring] Nilwasser mit saisonaler Trübung: glatte PP-Oberflächen minimieren Ablagerung in der Hausinstallation.
+- `geoContent.kapstadt.extendedMarketText` [füllstring] Im Schatten der 'Day Zero' Wasserkrise ist der Schutz vor Wasserverlusten in Kapstadt nicht nur eine technische, sondern eine existenzielle Notwendigkeit. Die absolut leckagefreie Polyfusionsschweißung der K-Aqua Systeme unterstützt direkt die strenge Wassersparpolitik der Region und erfüllt höchste SABS/SANS-Normen. Ob beim Ausbau der Township-Infrastruktur oder für anspruchsvolles Prozesswasser in den Weingütern des Western Cape – unsere PP-R und PPRCT Lösungen verhindern durch ihre korrosionsfreie Beschaffenheit teure Leckagen. Dies macht sie zur sichersten Wahl für eine nachhaltige Wasserversorgung unter extremen Bedingungen.
+- `geoContent.kapstadt.focus.0` [füllstring] Krankenhaus- & Hotelbau
+- `geoContent.kapstadt.focus.1` [füllstring] Township-Infrastruktur
+- `geoContent.kapstadt.focus.2` [füllstring] Weingut-Prozesswasser
+- `geoContent.kapstadt.focusHeading` [füllstring] Typische Projekte in Kapstadt
+- `geoContent.kapstadt.note` [füllstring] Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.
+- `geoContent.kapstadt.regulator` [füllstring] SABS / SANS-Normenwerk
+- `geoContent.kapstadt.water` [füllstring] Wasserknappheit nach „Day Zero": leckagefreie Schweißverbindungen sind hier Wassersparpolitik.
+- `geoContent.kualalumpur.extendedMarketText` [füllstring] In Kuala Lumpur prägen extreme Feuchtigkeit und das Monsunklima die Anforderungen an die Gebäudeausrüstung, wie etwa im TRX-Finanzdistrikt oder bei Mixed-Use-Türmen. K-Aquas UV- und feuchtigkeitsbeständige PP-R Systeme erfüllen die strengen Regularien der SPAN-Wasserbehörde zuverlässig. Selbst im expansiven Industriekorridor Johor gewährleisten unsere homogenen Polyfusionsschweißungen jahrzehntelange Dichtheit, was bei den hohen tropischen Temperaturen einen entscheidenden Vorteil für hygienisches Trinkwasser bietet.
+- `geoContent.kualalumpur.focus.0` [füllstring] TRX-Finanzdistrikt
+- `geoContent.kualalumpur.focus.1` [füllstring] Mixed-Use-Türme
+- `geoContent.kualalumpur.focus.2` [füllstring] Industriekorridor Johor
+- `geoContent.kualalumpur.focusHeading` [füllstring] Typische Projekte in Kuala Lumpur
+- `geoContent.kualalumpur.note` [füllstring] SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.
+- `geoContent.kualalumpur.regulator` [füllstring] SPAN: National Water Services Commission
+- `geoContent.kualalumpur.water` [füllstring] Tropisches Oberflächenwasser, hohe Umgebungsfeuchte: UV- und alterungsbeständige Systeme sind Standard.
+- `geoContent.kuwait.focus.0` [füllstring] Silk-City-Planung
+- `geoContent.kuwait.focus.1` [füllstring] Wohnstädte (PAHW)
+- `geoContent.kuwait.focus.2` [füllstring] Öl- & Gas-Begleitinfrastruktur
+- `geoContent.kuwait.focusHeading` [füllstring] Typische Projekte in Kuwait-Stadt
+- `geoContent.kuwait.note` [füllstring] MEW-Präqualifikation über lokale Partner; Lieferung via Shuwaikh Port.
+- `geoContent.kuwait.regulator` [füllstring] MEW: Ministry of Electricity & Water
+- `geoContent.kuwait.water` [füllstring] Entsalztes Golfwasser, gemischt mit Brackwasser: chloridresistente Kunststoffsysteme sind Standardempfehlung.
+- `geoContent.london.focus.0` [füllstring] High-Rise Residential
+- `geoContent.london.focus.1` [füllstring] Heritage-Sanierung
+- `geoContent.london.focus.2` [füllstring] Distriktweite Heißwassernetze
+- `geoContent.london.focusHeading` [füllstring] Typische Projekte in London
+- `geoContent.london.note` [füllstring] WRAS-konforme Dokumentation und englischsprachige Datenblätter verfügbar.
+- `geoContent.london.regulator` [füllstring] WRAS: Water Regulations Approval Scheme
+- `geoContent.london.water` [füllstring] Sehr hartes Wasser (Themse-Becken): PPRCT bleibt frei von Kesselstein-Anhaftung und Querschnittsverengung.
+- `geoContent.mailand.focus.0` [füllstring] Hochhaus-Cluster Porta Nuova
+- `geoContent.mailand.focus.1` [füllstring] Mode- & Retail-Flagships
+- `geoContent.mailand.focus.2` [füllstring] Industrie Norditalien
+- `geoContent.mailand.focusHeading` [füllstring] Typische Projekte in Mailand
+- `geoContent.mailand.note` [füllstring] Alpen-Transit-Logistik 48–72 h; italienische Unterlagen verfügbar.
+- `geoContent.mailand.regulator` [füllstring] DM 174/2004 (Trinkwasserkontakt, IT)
+- `geoContent.mailand.water` [füllstring] Grundwasser aus der Po-Ebene mit hoher Härte: inkrustationsfreie Systeme senken Wartungskosten spürbar.
+- `geoContent.manama.focus.0` [füllstring] Bahrain Bay
+- `geoContent.manama.focus.1` [füllstring] Bankenviertel-Sanierung
+- `geoContent.manama.focus.2` [füllstring] Inselerschließungen
+- `geoContent.manama.focusHeading` [füllstring] Typische Projekte in Manama
+- `geoContent.manama.note` [füllstring] Kompakter Markt mit kurzen Wegen: Komplettpakete inkl. Schweißtechnik-Verleih.
+- `geoContent.manama.regulator` [füllstring] EWA: Electricity & Water Authority
+- `geoContent.manama.water` [füllstring] Vollständig entsalztes Netz mit hohen Sommertemperaturen: PPRCT hält die Druckreserve, wo PVC altert.
+- `geoContent.maskat.focus.0` [füllstring] Hafenstadt Duqm
+- `geoContent.maskat.focus.1` [füllstring] Hotel- & Tourismusprojekte
+- `geoContent.maskat.focus.2` [füllstring] Moschee- & Kulturbauten
+- `geoContent.maskat.focusHeading` [füllstring] Typische Projekte in Maskat
+- `geoContent.maskat.note` [füllstring] GCC-Logistikkorridor via Jebel Ali; technische Abnahme nach Nama-Protokoll.
+- `geoContent.maskat.regulator` [füllstring] Nama Water Services (vormals Diam)
+- `geoContent.maskat.water` [füllstring] Entsalzung plus Aflaj-Tradition: Oman honoriert langlebige, wartungsarme Systeme in öffentlichen Ausschreibungen.
+- `geoContent.muenchen.focus.0` [füllstring] Premium-Wohnbau
+- `geoContent.muenchen.focus.1` [füllstring] Klinik- & Laborbau
+- `geoContent.muenchen.focus.2` [füllstring] Brauerei- & Prozesswasser
+- `geoContent.muenchen.focusHeading` [füllstring] Typische Projekte in München
+- `geoContent.muenchen.note` [füllstring] Süddeutschland-Logistik über Nachtsprung; Schweißtechnik-Schulung vor Ort buchbar.
+- `geoContent.muenchen.water` [füllstring] Weiches Alpenwasser mit niedrigem pH-Spielraum: PP ist beständig, wo Kupfer auf erhöhte Löslichkeit trifft.
+- `geoContent.mumbai.extendedMarketText` [füllstring] Mumbais Monsun-geprägte Wasserversorgung leidet häufig unter intermittierendem Druck, was das Risiko von Druckstößen (Water Hammer) im Leitungssystem extrem erhöht. Bei der Modernisierung von Hochhäusern und im Rahmen des Smart-Cities-Programms setzen Planer daher auf K-Aquas druckstoßfeste Schweißverbindungen gemäß BIS-Standards. Auch der wachsende Pharma- und Krankenhaussektor der Metropole profitiert von unseren hochreinen und absolut dichten PP-R Lösungen, die selbst bei extremen Schwankungen im Wassernetz sicher arbeiten.
+- `geoContent.mumbai.focus.0` [füllstring] High-Rise Redevelopment
+- `geoContent.mumbai.focus.1` [füllstring] Krankenhaus- & Pharmabau
+- `geoContent.mumbai.focus.2` [füllstring] Smart-Cities-Programm
+- `geoContent.mumbai.focusHeading` [füllstring] Typische Projekte in Mumbai
+- `geoContent.mumbai.note` [füllstring] BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.
+- `geoContent.mumbai.regulator` [füllstring] BIS: Bureau of Indian Standards
+- `geoContent.mumbai.water` [füllstring] Monsun-geprägte Talsperrenversorgung mit Intervallbetrieb: druckstoßfeste Schweißverbindungen zählen doppelt.
+- `geoContent.nairobi.extendedMarketText` [füllstring] Angesichts des rasanten Bevölkerungswachstums in Ostafrika erfordern Großprojekte wie das kenianische Affordable-Housing-Programm und die Smart City Tatu City schnelle, skalierbare und langlebige Lösungen. K-Aqua bietet hierfür nicht nur nach KEBS-Standards zertifizierte, robuste Rohrleitungssysteme, sondern setzt auch auf gezieltes Capacity Building. Unsere einfach zu erlernende Schweißtechnik ermöglicht es, lokale Arbeitskräfte direkt vor Ort effizient zu schulen. So sichern wir den zügigen und zuverlässigen Ausbau der städtischen Wasserinfrastruktur in Kenias dynamischer Metropole.
+- `geoContent.nairobi.focus.0` [füllstring] Affordable-Housing-Programm
+- `geoContent.nairobi.focus.1` [füllstring] Tatu City
+- `geoContent.nairobi.focus.2` [füllstring] Kranken- & Bildungsbauten
+- `geoContent.nairobi.focusHeading` [füllstring] Typische Projekte in Nairobi
+- `geoContent.nairobi.note` [füllstring] Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.
+- `geoContent.nairobi.regulator` [füllstring] KEBS: Kenya Bureau of Standards
+- `geoContent.nairobi.water` [füllstring] Talsperren- und Grundwasser-Mix in schnell wachsender Metropole: robuste, einfach schulbare Verbindungstechnik gefragt.
+- `geoContent.neom.focus.0` [füllstring] Linearstadt-Infrastruktur
+- `geoContent.neom.focus.1` [füllstring] Oxagon-Industriehafen
+- `geoContent.neom.focus.2` [füllstring] Trojena-Bergresorts
+- `geoContent.neom.focusHeading` [füllstring] Typische Projekte in NEOM / The Line
+- `geoContent.neom.note` [füllstring] Frühe Planungsphase: K Aqua unterstützt mit EPD-Daten und parametrischen Rohrnetz-Modellen.
+- `geoContent.neom.regulator` [füllstring] NEOM Authority / SASO
+- `geoContent.neom.water` [füllstring] 100 % erneuerbar betriebene Entsalzung geplant. Das Projekt fordert vollständig kreislauffähige Materialien: Recycling Code 5 inklusive.
+- `geoContent.paris.focus.0` [füllstring] Grand-Paris-Wohnquartiere
+- `geoContent.paris.focus.1` [füllstring] Hotel- & Denkmalsanierung
+- `geoContent.paris.focus.2` [füllstring] Olympia-Nachnutzung
+- `geoContent.paris.focusHeading` [füllstring] Typische Projekte in Paris
+- `geoContent.paris.note` [füllstring] ACS-Konformitätsnachweise und französische Verlegerichtlinien im Lieferumfang.
+- `geoContent.paris.regulator` [füllstring] ACS: Attestation de Conformité Sanitaire
+- `geoContent.paris.water` [füllstring] Hartes Seine-Wasser mit Kalkfracht: glatte PP-Innenflächen halten Druckverluste über Jahrzehnte konstant.
+- `geoContent.prag.focus.0` [füllstring] Altbau-Strangsanierung
+- `geoContent.prag.focus.1` [füllstring] Hotellerie
+- `geoContent.prag.focus.2` [füllstring] Automotive-Zulieferindustrie
+- `geoContent.prag.focusHeading` [füllstring] Typische Projekte in Prag
+- `geoContent.prag.note` [füllstring] Nachbarmarkt ab Werk: Lieferung in 24 h, technische Hotline auf Deutsch und Englisch.
+- `geoContent.prag.regulator` [füllstring] SZÚ-Hygienezulassung (CZ)
+- `geoContent.prag.water` [füllstring] Moldau-Talsperrenwasser: stabile Qualität, starker Sanierungsmarkt im Gründerzeitbestand.
+- `geoContent.riad.focus.0` [füllstring] Vision-2030-Giga-Projekte
+- `geoContent.riad.focus.1` [füllstring] King Salman Park
+- `geoContent.riad.focus.2` [füllstring] Wohnstadt-Erweiterungen
+- `geoContent.riad.focusHeading` [füllstring] Typische Projekte in Riad
+- `geoContent.riad.note` [füllstring] SASO-Prüfung und SABER-Registrierung werden projektbezogen bereitgestellt.
+- `geoContent.riad.water` [füllstring] Mix aus Entsalzung (SWCC-Pipelines) und fossilem Grundwasser: extreme Sommerhitze verlangt PP-R Rohrsysteme und PPRCT-Reserven.
+- `geoContent.singapur.extendedMarketText` [füllstring] Singapurs tropisches Dauerklima und das NEWater-Recyclingsystem erfordern höchste Standards an die Wasserhygiene. Unsere druckbeständigen K-Aqua PP-RCT-Systeme erfüllen die strengen Vorgaben der PUB-Wasserbehörde mühelos. Sie sind die perfekte Lösung für den Ultra-Hochhausbau in der Marina Bay sowie für die Reinstwasseranforderungen der Halbleiterindustrie, da sie auch unter extremen Bedingungen absolute Zuverlässigkeit garantieren.
+- `geoContent.singapur.focus.0` [füllstring] Public Housing (HDB)
+- `geoContent.singapur.focus.1` [füllstring] Marina-Hochhäuser
+- `geoContent.singapur.focus.2` [füllstring] Halbleiter-Reinstwasser-Vorstufen
+- `geoContent.singapur.focusHeading` [füllstring] Typische Projekte in Singapur
+- `geoContent.singapur.note` [füllstring] Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.
+- `geoContent.singapur.regulator` [füllstring] PUB: Public Utilities Board
+- `geoContent.singapur.water` [füllstring] NEWater & entsalztes Wasser, tropische Dauerwärme: höchste Anforderungen an Langzeit-Druckstandfestigkeit.
+- `geoContent.warschau.focus.0` [füllstring] Wohnquartier-Neubau
+- `geoContent.warschau.focus.1` [füllstring] Logistik- & Industriehallen
+- `geoContent.warschau.focus.2` [füllstring] Modernisierung Plattenbau
+- `geoContent.warschau.focusHeading` [füllstring] Typische Projekte in Warschau
+- `geoContent.warschau.note` [füllstring] EU-Logistik 24–48 h; polnischsprachige Verarbeitungsrichtlinien vorhanden.
+- `geoContent.warschau.regulator` [füllstring] PZH-Hygienezertifikat (Państwowy Zakład Higieny)
+- `geoContent.warschau.water` [füllstring] Weichsel-Uferfiltrat: wachstumsstarker Wohnungsmarkt mit hohem Bedarf an schnell verlegbaren Systemen.
+- `geoContent.wien.focus.0` [füllstring] Gemeindebau-Sanierung
+- `geoContent.wien.focus.1` [füllstring] Hotel- & Gewerbeprojekte
+- `geoContent.wien.focus.2` [füllstring] Fernwärme-Subverteilung
+- `geoContent.wien.focusHeading` [füllstring] Typische Projekte in Wien
+- `geoContent.wien.note` [füllstring] EU-Binnenmarkt: keine Zollformalitäten, Lieferung 48 h.
+- `geoContent.wien.regulator` [füllstring] ÖVGW / Trinkwasserverordnung (AT)
+- `geoContent.wien.water` [füllstring] Hochquellwasser mit exzellenter Güte: Werterhalt durch absolut inerte PP-R Rohrsysteme.
+- `geoContent.zuerich.focus.0` [füllstring] Hochpreis-Wohnbau
+- `geoContent.zuerich.focus.1` [füllstring] Banken- & Bürosanierung
+- `geoContent.zuerich.focus.2` [füllstring] Spitalbau
+- `geoContent.zuerich.focusHeading` [füllstring] Typische Projekte in Zürich
+- `geoContent.zuerich.note` [füllstring] Exportabwicklung inkl. Schweizer Konformitätsnachweisen aus einer Hand.
+- `geoContent.zuerich.water` [füllstring] See- und Quellwasser-Mix: Schweizer Hygieneanforderungen verlangen geprüfte Materialneutralität.
+
+## homedeep (10)
+
+- `homedeep.badgeCta` [füllstring] Zum Trust Center
+- `homedeep.badgeNote` [füllstring] Zertifikate und Audit Dokumente als Self Service im Trust Center.
+- `homedeep.badges.3` [füllstring] GENAU-System
+- `homedeep.plant.0.l` [füllstring] Rohrproduktion je Extrusionsanlage: Kapazität für Großprojekte
+- `homedeep.plant.0.u` [füllstring] m/Tag
+- `homedeep.plant.1.l` [füllstring] Innenrauheit der Rohroberfläche: minimaler Druckverlust, kaum Biofilm
+- `homedeep.plant.2.l` [füllstring] Auslegungshorizont nach den Zeitstandkurven der DIN 8077/8078
+- `homedeep.plant.2.u` [füllstring] Jahre
+- `homedeep.plantEyebrow` [füllstring] Aus dem Werk Waldsolms
+- `homedeep.plantTitle` [füllstring] Präzision, die man messen kann.
+
+## homex (2)
+
+- `homex.marquee.1`  d20 – d630
+- `homex.marquee.5`  100 % Made in Germany
+
+## kontaktBlocks (12)
+
+- `kontaktBlocks.datenschutz.done` [füllstring] Der Datenschutzbeauftragte meldet sich umgehend bei Ihnen.
+- `kontaktBlocks.datenschutz.head` [füllstring] Sprechen Sie mit unserem Datenschutzbeauftragten.
+- `kontaktBlocks.datenschutz.interest` [füllstring] Beratung
+- `kontaktBlocks.datenschutz.kicker` [füllstring] Datenschutz
+- `kontaktBlocks.datenschutz.short` [füllstring] Auskunft über Ihre Daten anfordern
+- `kontaktBlocks.datenschutz.text` [füllstring] Wir nehmen Ihre Privatsphäre ernst. Wenn Sie Auskunft, Löschung oder Details zur Verarbeitung Ihrer Daten wünschen, hinterlassen Sie bitte Ihre Kontaktdaten.
+- `kontaktBlocks.fallback.done` [füllstring] Ein Fachberater meldet sich innerhalb eines Arbeitstages bei Ihnen.
+- `kontaktBlocks.fallback.head` [füllstring] Sprechen Sie direkt mit unseren Ingenieuren.
+- `kontaktBlocks.fallback.interest` [füllstring] Beratung
+- `kontaktBlocks.fallback.kicker` [füllstring] Kontakt
+- `kontaktBlocks.fallback.short` [füllstring] Direkter Draht zu unseren Ingenieuren
+- `kontaktBlocks.fallback.text` [füllstring] Telefonnummer, Email, ein Klick auf Ihr Thema. Mehr braucht es nicht, den Rest klären wir im Gespräch.
+
+## kontaktForm (17)
+
+- `kontaktForm.ccAria` [füllstring] Landesvorwahl
+- `kontaktForm.chipsLabel` [füllstring] Was benötigen Sie
+- `kontaktForm.closeAria` [füllstring] Schließen
+- `kontaktForm.direct` [füllstring] Eilig? Direktwahl
+- `kontaktForm.doneTitle` [füllstring] Danke, Ihre Anfrage ist da.
+- `kontaktForm.doneTitleSlim` [füllstring] Danke, Anfrage ist da.
+- `kontaktForm.fabAria` [füllstring] Kontakt
+- `kontaktForm.interests.beratung` [füllstring] Beratung
+- `kontaktForm.interests.bim` [füllstring] BIM Daten
+- `kontaktForm.interests.ersatzteile` [füllstring] Ersatzteile
+- `kontaktForm.interests.rohrsysteme` [füllstring] Rohrsysteme
+- `kontaktForm.interests.trinkwassernetze` [füllstring] Trinkwassernetze
+- `kontaktForm.legal` [füllstring] Keine Werbung, keine Weitergabe.
+- `kontaktForm.legalLink` [füllstring] Datenschutz
+- `kontaktForm.promise` [füllstring] Antwort innerhalb eines Arbeitstages
+- `kontaktForm.send` [füllstring] Anfrage senden
+- `kontaktForm.sendError` [füllstring] Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an:
+
+## languagePage (1)
+
+- `languagePage.beta`  Beta
+
+## legal (35)
+
+- `legal.datenschutz.sections.0.content` [füllstring] Diese Datenschutzerklärung gilt für die Website der KWT GmbH, Herstellerin der PP-R Rohrsysteme der Marke K-Aqua. Diese Datenschutzerklärung von K-Aqua informiert Sie darüber, welche personenbezogenen Daten auf dieser Website tatsächlich verarbeitet werden und zu welchem Zweck.  Kurz zusammengefasst: Wir verarbeiten personenbezogene Daten nur, wenn Sie uns diese aktiv über unsere Kontakt- und Anfrageformulare mitteilen, sowie in technisch notwendigem Umfang beim Aufruf der Website (Server-Logdaten unseres Hosting-Anbieters). Analyse- oder Marketing-Dienste Dritter setzen wir derzeit nicht ein; entsprechende Technologien würden ausschließlich nach Ihrer ausdrücklichen Einwilligung über den Cookie-Banner geladen.
+- `legal.datenschutz.sections.0.title` [füllstring] 1. Datenschutz auf einen Blick
+- `legal.datenschutz.sections.1.content` [füllstring] Verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:  KWT GmbH Auweg 3 35647 Waldsolms-Brandoberndorf Telefon: +49 (0)60 85 / 9868-410 E-Mail: info@k-aqua.de  Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet.
+- `legal.datenschutz.sections.1.title` [füllstring] 2. Verantwortliche Stelle
+- `legal.datenschutz.sections.2.content` [füllstring] Wir haben für unser Unternehmen einen Datenschutzbeauftragten bestellt:  SILA Consulting GmbH Herr Roland Nießing Landwehr 103-105 46325 Borken Telefon: +49 2861 80847 700 E-Mail: info@sila-consulting.de
+- `legal.datenschutz.sections.2.title` [füllstring] 3. Datenschutzbeauftragter
+- `legal.datenschutz.sections.3.content` [füllstring] Diese Website wird bei Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA, gehostet. Beim Aufruf der Website verarbeitet der Hosting-Anbieter automatisch technische Zugriffsdaten in sogenannten Server-Logfiles: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, Browsertyp und -version sowie Betriebssystem.  Diese Daten dienen ausschließlich der sicheren, stabilen Auslieferung der Website und der Fehleranalyse; eine Zusammenführung mit anderen Datenquellen findet nicht statt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren Bereitstellung unseres Online-Angebots). Mit Vercel besteht ein Vertrag zur Auftragsverarbeitung; die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework.
+- `legal.datenschutz.sections.3.title` [füllstring] 4. Hosting und Server-Logfiles
+- `legal.datenschutz.sections.4.content` [füllstring] Wenn Sie eines unserer Anfrageformulare nutzen, verarbeiten wir die dort angegebenen Daten: Telefonnummer, E-Mail-Adresse, das von Ihnen gewählte Anliegen sowie die Seite, von der die Anfrage gesendet wurde. Diese Daten werden per E-Mail an info@k-aqua.de übermittelt und (sofern ein CRM-System angebunden ist) dort zur Bearbeitung Ihrer Anfrage gespeichert.  Bei Bewerbungen über das Karriereformular werden die von Ihnen angegebenen Bewerbungsdaten (Name, Kontaktdaten, Lebenslauf bzw. Angaben zu Erfahrung und Ausbildung) per E-Mail an unsere Personalabteilung übermittelt.  Zweck der Verarbeitung ist ausschließlich die Bearbeitung Ihrer Anfrage bzw. Bewerbung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Durchführung vorvertraglicher Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald sie für den Zweck nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.  Für den Versand dieser Formular-E-Mails nutzen wir den Dienst Resend (Resend, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA). Resend verarbeitet dabei die von Ihnen angegebenen Daten ausschließlich zum Zweck der Zustellung an uns. Mit Resend besteht ein Vertrag zur Auftragsverarbeitung; die Übermittlung in die USA erfolgt auf Grundlage der EU-Standardvertragsklauseln bzw. des EU-US Data Privacy Framework. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b bzw. lit. f DSGVO.  Zum Schutz vor automatisierten Spam-Einsendungen setzen wir eine unsichtbare technische Prüfung (Honeypot-Feld und Zeitschwelle) ein, ohne Captcha-Dienste Dritter. Wird eine Einsendung dabei als auffällig eingestuft, wird sie dennoch zugestellt und lediglich für unsere interne Prüfung gekennzeichnet.
+- `legal.datenschutz.sections.4.title` [füllstring] 5. Kontakt- und Anfrageformulare
+- `legal.datenschutz.sections.5.content` [füllstring] Diese Website setzt keine Cookies. Es werden auch keine Dienste Dritter in die Seite eingebunden und keine Reichweitenmessung durchgeführt. Beim bloßen Besuch dieser Website übermitteln wir keine Daten an Dritte; senden Sie uns ein Formular, gelten die Angaben unter Ziffer 5.  Gespeichert wird ausschließlich im lokalen Speicher (localStorage) Ihres Browsers. Diese Daten verlassen Ihr Gerät nicht:  • Datenschutz-Entscheidung (k-aqua-consent-v2) — hält fest, wofür Sie sich entschieden haben, mit Zeitpunkt und Fassung dieser Erklärung. Technisch erforderlich, damit Sie nicht bei jedem Aufruf erneut entscheiden müssen. Rechtsgrundlage: § 25 Abs. 2 Nr. 2 TDDDG, Art. 6 Abs. 1 lit. f DSGVO. Speicherdauer: bis zum Widerruf.  • Erscheinungsbild (theme) — Ihre Wahl zwischen heller und dunkler Darstellung. • CO₂-Rechner (kaqua-co2-*) — die von Ihnen angelegten Szenarien und Projektlisten. • Zuletzt gesucht (kaqua_recent_searches) — Ihre letzten Suchbegriffe.  Diese drei Einträge fassen wir als Kategorie „Komfort" zusammen. Sie werden nur mit Ihrer Einwilligung gespeichert (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG) und beim Widerruf wieder gelöscht. Lehnen Sie ab, bleibt die Website vollständig nutzbar — es wird lediglich nichts behalten. Speicherdauer: bis Sie widerrufen oder den Browserspeicher leeren.  Sollten künftig Dienste zur Reichweitenmessung eingebunden werden, werden diese ausschließlich nach Ihrer Einwilligung geladen. Das ist technisch abgesichert: Solche Dienste werden über eine Einwilligungssperre eingebunden, die sie ohne Zustimmung nicht startet und bei Widerruf wieder entfernt.  Ihre Entscheidung können Sie jederzeit mit Wirkung für die Zukunft ändern — über den Eintrag „Datenschutz-Einstellungen" im Fußbereich jeder Seite. Der Widerruf ist damit genauso einfach wie die Erteilung (Art. 7 Abs. 3 DSGVO).
+- `legal.datenschutz.sections.5.title` [füllstring] 6. Lokale Speicherung und Einwilligung
+- `legal.datenschutz.sections.6.content` [füllstring] Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf:  - Auskunft über Ihre gespeicherten personenbezogenen Daten (Art. 15 DSGVO) - Berichtigung unrichtiger Daten (Art. 16 DSGVO) - Löschung (Art. 17 DSGVO) - Einschränkung der Verarbeitung (Art. 18 DSGVO) - Datenübertragbarkeit (Art. 20 DSGVO) - Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO) - Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)  Wenden Sie sich hierzu an die oben genannte verantwortliche Stelle oder unseren Datenschutzbeauftragten. Zudem steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu (für uns: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit (HBDI), Wiesbaden).
+- `legal.datenschutz.sections.6.title` [füllstring] 7. Ihre Rechte
+- `legal.datenschutz.sections.7.content` [füllstring] Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte (etwa Ihrer Anfragen an uns) eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie an "https://" und dem Schloss-Symbol in der Adresszeile Ihres Browsers. Bei aktivierter Verschlüsselung können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
+- `legal.datenschutz.sections.7.title` [füllstring] 8. SSL- bzw. TLS-Verschlüsselung
+- `legal.datenschutz.title` [füllstring] Datenschutzerklärung
+- `legal.eyebrow` [füllstring] Rechtliches
+- `legal.impressum.sections.0.content` [füllstring] KWT GmbH Auweg 3 35647 Waldsolms-Brandoberndorf  Tel. +49 (0)60 85 / 9868-410 Fax +49 (0)60 85 / 9868-420 info@k-aqua.de · www.k-aqua.de
+- `legal.impressum.sections.0.title` [füllstring] Angaben gemäß § 5 DDG
+- `legal.impressum.sections.1.title` [füllstring] Geschäftsführung
+- `legal.impressum.sections.2.content` [füllstring] Wetzlar HRB 6732  Sitz der Gesellschaft: Waldsolms
+- `legal.impressum.sections.2.title` [füllstring] Registergericht & Sitz
+- `legal.impressum.sections.3.content` [füllstring] Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE 296238486
+- `legal.impressum.sections.3.title` [füllstring] Umsatzsteuer-ID
+- `legal.impressum.sections.4.content` [füllstring] Verantwortlich für den redaktionellen Inhalt nach § 18 Abs. 2 MStV:  [NAME EINTRAGEN — freizugeben] KWT GmbH Auweg 3 35647 Waldsolms-Brandoberndorf
+- `legal.impressum.sections.4.title` [füllstring] Verantwortlich für den Inhalt
+- `legal.impressum.sections.5.content` [füllstring] Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen (§ 36 Abs. 1 Nr. 1 VSBG).  Hinweis: Die Online-Streitbeilegungsplattform der Europäischen Kommission wurde zum 20. Juli 2025 eingestellt. Ein Verweis darauf entfällt daher.
+- `legal.impressum.sections.5.title` [füllstring] Verbraucherstreitbeilegung
+- `legal.impressum.sections.6.content` [fehlt] K Aqua PP-R und PPRCT Rohrsysteme sind hochtechnologische Produkte für den Transport von Trinkwasser, Heizungswasser und industriellen Fluiden. Die Informationen auf dieser Website wurden mit größtmöglicher Sorgfalt zusammengestellt. Dennoch übernehmen wir keine Gewähr für die absolute Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten technischen Daten und Spezifikationen. Technische Änderungen im Zuge der Weiterentwicklung bleiben jederzeit vorbehalten.  Haftung für Links Unsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.  Urheberrecht Die durch die Seitenbetreiber erstellten Inhalte, technischen Zeichnungen, 3D-Modelle und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+- `legal.impressum.sections.6.title` [fehlt] Rechtliche Hinweise & Disclaimer
+- `legal.impressum.sections.7.content` [fehlt] Wie kann ich den technischen Support kontaktieren? Sie erreichen unseren technischen Support für Fragen zu PP-R Rohrleitungen, Schweißparametern oder Sonderanfertigungen über die oben genannte E-Mail-Adresse oder telefonisch während unserer Geschäftszeiten.  Wo finde ich detaillierte Zertifikate und Zulassungen? Alle DVGW-, KIWA- und SKZ-Zertifikate für unsere Rohrsysteme stehen im Bereich „Ressourcen“ oder direkt auf den jeweiligen Produktdetailseiten zum Download bereit.  Welche Gewährleistung bietet K Aqua? K Aqua bietet eine umfassende Systemgewährleistung für alle PP-R und PPRCT Rohre und Formteile, sofern diese fachgerecht mit Original-K Aqua-Werkzeugen installiert und verschweißt wurden. Detaillierte Gewährleistungsbedingungen senden wir Ihnen auf Anfrage gerne zu.
+- `legal.impressum.sections.7.title` [fehlt] Häufig gestellte Fragen (Impressum & Service)
+- `legal.impressum.title` [füllstring] Impressum
+- `legal.toc` [füllstring] Inhalt
+
+## mapsSuite (2)
+
+- `mapsSuite.bimCta`  BIM- & Spezifikationspaket anfordern
+- `mapsSuite.geoHub`  K-Aqua Geografischer Hub & Telemetrie
+
+## markets (314)
+
+- `markets.industrie.bento1Desc` [füllstring] Unsere PP-R und PPRCT Hochleistungspolymere überstehen dauerhaft extreme Temperaturschwankungen und hochkorrosive Medien ohne molekulare Degradation.
+- `markets.industrie.bento1Title` [füllstring] Thermoplastische Resilienz
+- `markets.industrie.bento2Desc` [füllstring] Homogen verschweißte Verbindungen eliminieren Dichtungen als Schwachstelle. Ein unteilbares, druckstabiles Netzwerk für maximale Betriebssicherheit.
+- `markets.industrie.bento2Title` [füllstring] 100% Druckresistent
+- `markets.industrie.bento3Desc` [füllstring] Resistent gegen hunderte von aggressiven Säuren, Laugen und Lösungsmitteln. Ideal für die chemische Verfahrenstechnik und Halbleiterproduktion.
+- `markets.industrie.bento3Title` [füllstring] Chemische Inertheit
+- `markets.industrie.bento4Desc` [füllstring] Signifikante Reduktion von Strömungsgeräuschen und Wasserschlag durch materialinhärente Schalldämmung und hohe Wandstärken.
+- `markets.industrie.bento4Title` [füllstring] Akustische Dämpfung
+- `markets.industrie.ctaBtn` [füllstring] Technisches Consulting anfordern
+- `markets.industrie.ctaDesc` [füllstring] Unsere Ingenieure stehen bereit, um die kritische Infrastruktur für Ihre Industrieanlage zu dimensionieren. Verlassen Sie sich nicht auf Vermutungen. Bauen Sie auf K Aqua.
+- `markets.industrie.ctaTitle` [füllstring] Sichern Sie Ihr nächstes Megaprojekt.
+- `markets.industrie.heroBtnPrimary` [füllstring] Projekt anfragen
+- `markets.industrie.heroBtnSecondary` [füllstring] Technische Spezifikationen
+- `markets.industrie.heroDesc` [füllstring] Wenn Toleranzen in Mikrometern gemessen werden und Systemausfälle Millionen kosten, vertrauen globale Technologieführer auf K Aqua. Kompromisslose Rohrleitungssysteme für die härtesten industriellen Anforderungen.
+- `markets.industrie.heroEyebrow` [füllstring] Industrielle Meisterklasse
+- `markets.industrie.heroSubtitle` [füllstring] Engineered in Germany.
+- `markets.industrie.heroTitle` [füllstring] Industrieanlagen.
+- `markets.industrie.metaDesc` [füllstring] K Aqua Industrieanlagen: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie unsere Industrielösungen.
+- `markets.industrie.metaTitle` [füllstring] Industrieanlagen | K Aqua
+- `markets.industrie.scroll1Desc` [füllstring] Unsere Produktionsanlagen in Deutschland arbeiten mit Lasermesssystemen, die Wandstärken und Durchmesser in Echtzeit überwachen. Jede Abweichung jenseits der mikroskopischen Toleranz führt zur sofortigen automatischen Aussortierung. Diese absolute Maßhaltigkeit garantiert perfekte Schweißergebnisse auf der Baustelle.
+- `markets.industrie.scroll1Title` [füllstring] Extrusionspräzision
+- `markets.industrie.scroll2Desc` [füllstring] Im Gegensatz zu mechanischen Verbindungen oder Klebesystemen verschmelzen unsere Rohre und Fittings auf molekularer Ebene. Der Übergangsbereich wird de facto stärker als das Rohr selbst. Dies eliminiert Leckagerisiken, die durch Vibrationen, Druckstöße oder Materialalterung bei konventionellen Systemen entstehen.
+- `markets.industrie.scroll2Title` [füllstring] Homogene Polyfusion
+- `markets.industrie.scroll3Desc` [füllstring] Unsere Faserverbundrohre (Faser-Technologie) integrieren spezielle Glasfaserschichten im Kern. Dies reduziert die thermische Längenausdehnung um bis zu 75% im Vergleich zu Standard-Kunststoffrohren, was die Anzahl der benötigten Befestigungspunkte drastisch minimiert und die Rohrstatik revolutioniert.
+- `markets.industrie.scroll3Title` [füllstring] Thermische Ausdehnungskontrolle
+- `markets.industrie.scroll4Desc` [füllstring] Für Anwendungen in der Lebensmittel-, Pharma- und Halbleiterindustrie bieten wir vollkommen toxikologisch unbedenkliche Systeme. Kein Auswaschen von Schwermetallen, keine mikrobiologische Korrosion (MIC) und absolute Geruchs- und Geschmacksneutralität nach den strengsten internationalen Normen.
+- `markets.industrie.scroll4Title` [füllstring] geprüfte Reinheit
+- `markets.industrie.section1Eyebrow` [füllstring] Architektur der Zuverlässigkeit
+- `markets.industrie.section1Lead` [füllstring] In der modernen Hochleistungsindustrie gibt es keinen Spielraum für Materialermüdung. Unsere Systeme sind nicht nur für den heutigen Standard entwickelt, sie definieren die Normen von morgen.
+- `markets.industrie.section1Title` [füllstring] Die DNA absoluter Ausfallsicherheit.
+- `markets.industrie.section2Eyebrow` [füllstring] Tiefenanalyse
+- `markets.industrie.section2Lead` [füllstring] Ein Blick unter die Oberfläche offenbart, warum K Aqua in den kritischsten Infrastrukturen der Welt spezifiziert wird.
+- `markets.industrie.section2Title` [füllstring] Ingenieurskunst im Detail.
+- `markets.industrie.section3Eyebrow` [füllstring] Unnachgiebige Qualität
+- `markets.industrie.section3P1` [füllstring] Bevor ein K Aqua System die Freigabe für den Weltmarkt erhält, durchläuft es in unserem hauseigenen Prüflabor Folterszenarien, die in der realen Welt niemals auftreten würden.
+- `markets.industrie.section3P2` [füllstring] Wir simulieren extreme Wasserschläge, beschleunigte thermische Alterung im Zeitrafferverfahren, Berstdrucktests bei über 100 bar und Dauerbelastungstests bei 95°C über Tausende von Stunden. Nur was diese Hölle unbeschadet übersteht, verdient das Prädikat <span class="text-foreground font-semibold">German Engineering</span>.
+- `markets.industrie.section3Title` [füllstring] Getestet jenseits der Belastungsgrenze.
+- `markets.industrie.stat1Label` [füllstring] Jahre Lebensdauer
+- `markets.industrie.stat2Label` [füllstring] Korrosionsrisiko
+- `markets.industrie.stat3Label` [füllstring] Recycelbar
+- `markets.industrie.stat4Label` [füllstring] geprüft
+- `markets.industrie.timeline1Desc` [füllstring] Unser Engineering Team unterstützt Ihre Fachplaner mit BIM-Daten, Druckverlustberechnungen und Ausdehnungsanalysen für maximale Planungssicherheit.
+- `markets.industrie.timeline1Title` [füllstring] Hydraulik & Statik
+- `markets.industrie.timeline1Year` [füllstring] Phase 01
+- `markets.industrie.timeline2Desc` [füllstring] Komplexe Verteiler und Baugruppen werden in unserem Werk unter Idealbedingungen millimetergenau vorgefertigt, geprüft und just-in-time auf die Baustelle geliefert.
+- `markets.industrie.timeline2Title` [füllstring] Vorfertigung
+- `markets.industrie.timeline2Year` [füllstring] Phase 02
+- `markets.industrie.timeline3Desc` [füllstring] Durch das geringe Gewicht und die schnelle Polyfusionstechnologie verkürzt sich die Installationszeit im Vergleich zu metallischen Systemen um bis zu 50%.
+- `markets.industrie.timeline3Title` [füllstring] Installation
+- `markets.industrie.timeline3Year` [füllstring] Phase 03
+- `markets.industrie.timeline4Desc` [füllstring] Druckprüfung und Spülung. Das System ist sofort voll belastbar. Keine Aushärtezeiten von Klebstoffen, keine Korrosionsschutzbehandlungen notwendig.
+- `markets.industrie.timeline4Title` [füllstring] Inbetriebnahme
+- `markets.industrie.timeline4Year` [füllstring] Phase 04
+- `markets.industrie.timeline5Desc` [füllstring] Während metallische Systeme der kontinuierlichen Wartung und Korrosionsüberwachung bedürfen, arbeitet K Aqua über 50 Jahre lang absolut wartungsfrei.
+- `markets.industrie.timeline5Title` [füllstring] Jahrzehnte Betrieb
+- `markets.industrie.timeline5Year` [füllstring] Phase 05
+- `markets.industrie.timelineEyebrow` [füllstring] Der K Aqua Lebenszyklus
+- `markets.industrie.timelineLead` [füllstring] Von der ersten Planungsphase bis zur jahrzehntelangen, wartungsfreien Betriebszeit: wir begleiten Ihr Projekt durch jede kritische Phase.
+- `markets.klimaanlagen.bento1Desc` [füllstring] Sicherer Betrieb auch bei extrem niedrigen Vorlauftemperaturen mit entsprechenden Kälteträgermedien (z. B. Glykol-Gemischen).
+- `markets.klimaanlagen.bento1Title` [füllstring] Bis zu -20°C
+- `markets.klimaanlagen.bento2Desc` [füllstring] Vollständiges Dimensionsspektrum für jede Skalierung, von der Einzelraumkühlung bis zur zentralen Kältemaschine.
+- `markets.klimaanlagen.bento3Desc` [füllstring] Im Vergleich zu Stahlrohren. Dies ermöglicht schnelle Überkopf-Installationen, reduziert strukturelle Lasten und senkt Transportkosten signifikant.
+- `markets.klimaanlagen.bento3Title` [füllstring] 75% Gewichtsersparnis
+- `markets.klimaanlagen.bento4Desc` [füllstring] Stoffschlüssige Schweißverbindungen eliminieren die Ausfallrisiken herkömmlicher Flansch- und Gewindeverbindungen vollständig.
+- `markets.klimaanlagen.bento4Title` [füllstring] Null-Leckage-Garantie
+- `markets.klimaanlagen.bentoHeader` [füllstring] Performance Parameter
+- `markets.klimaanlagen.bentoSubheader` [füllstring] Messbare Überlegenheit in jeder Dimension der industriellen Kälte- und Klimatechnik.
+- `markets.klimaanlagen.card1Desc` [füllstring] Konformität nach DIN EN ISO 15874 und SKZ-Richtlinien.
+- `markets.klimaanlagen.card1Title` [füllstring] Industriestandard
+- `markets.klimaanlagen.card2Desc` [füllstring] Keine Instandhaltung des Rohrnetzes erforderlich. 100% wartungsfrei.
+- `markets.klimaanlagen.card2Title` [füllstring] Einfache Wartung
+- `markets.klimaanlagen.card3Desc` [füllstring] Weltweites Netzwerk an geprüften K Aqua Installateuren.
+- `markets.klimaanlagen.card3Title` [füllstring] Globaler Support
+- `markets.klimaanlagen.card4Desc` [füllstring] Erweiterte Systemgarantie für geprüfte Projekte.
+- `markets.klimaanlagen.card4Title` [füllstring] Garantie
+- `markets.klimaanlagen.ctaBtn1` [füllstring] Projekt besprechen
+- `markets.klimaanlagen.ctaBtn2` [füllstring] Ausschreibungstexte laden
+- `markets.klimaanlagen.ctaDesc` [füllstring] Unsere Ingenieure stehen bereit, um die Kälteinfrastruktur für Ihr Vorhaben zu dimensionieren. Profitieren Sie von deutschem Engineering, das Maßstäbe setzt.
+- `markets.klimaanlagen.ctaTitle` [füllstring] Sichern Sie Ihr nächstes Megaprojekt.
+- `markets.klimaanlagen.heroBtnPrimary` [füllstring] Projekt spezifizieren
+- `markets.klimaanlagen.heroBtnSecondary` [füllstring] Technical Whitepaper
+- `markets.klimaanlagen.heroDesc` [füllstring] Kompromisslose Sicherheit für Kaltwassernetze und Klimasysteme. Wenn globale Megaprojekte keine Ausfallzeiten dulden, ist K Aqua die einzige Option. Konstruiert für Generationen.
+- `markets.klimaanlagen.heroEyebrow` [füllstring] Market Sector: Klima & Kühlung
+- `markets.klimaanlagen.heroSubtitle` [füllstring] German Engineering.
+- `markets.klimaanlagen.heroTitle` [füllstring] Die Architektur der Kälte.
+- `markets.klimaanlagen.metaDesc` [füllstring] K Aqua Klima & Kühlung: Kompromisslose Sicherheit durch German Engineering. Polypropylen-Rohrsysteme für Kaltwasser, Klimatisierung und industrielle Kühlung.
+- `markets.klimaanlagen.metaTitle` [füllstring] Klima & Kühlung Infrastruktur | K Aqua
+- `markets.klimaanlagen.scroll1Desc` [füllstring] Unsere PP-R und PPRCT Systeme weisen von Natur aus eine extrem niedrige Wärmeleitfähigkeit auf. Dies eliminiert weitgehend das Risiko der Kondenswasserbildung an der Rohraußenseite, ein kritischer Faktor in der modernen Klimatechnik. Im Gegensatz zu metallischen Systemen sind teure und zeitaufwändige Zusatzisolationen oft überflüssig.
+- `markets.klimaanlagen.scroll1Title` [füllstring] Isolierte Perfektion
+- `markets.klimaanlagen.scroll2Desc` [füllstring] Kaltwassersysteme aus Stahl leiden zwangsläufig unter Korrosion, was zu Lochfraß, Leckagen und einer schleichenden Zerstörung der Anlage führt. K Aqua Systeme sind zu 100% korrosionsresistent. Keine Inkrustation, keine Rostbildung, keine Verengung des Rohrquerschnitts über die gesamte Lebensdauer von mehr als 50 Jahren.
+- `markets.klimaanlagen.scroll2Title` [füllstring] Korrosionsfreie Architektur
+- `markets.klimaanlagen.scroll3Desc` [füllstring] Das Herzstück unserer Sicherheitstechnologie. Durch Polyfusion verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren, homogenen Einheit. Ohne O-Ringe, ohne mechanische Verbindungselemente, die mit der Zeit ermüden. Das Ergebnis ist eine absolute Dichtigkeit, selbst unter stärksten Druckschwankungen und mechanischen Belastungen.
+- `markets.klimaanlagen.scroll3Title` [füllstring] Homogene Verschweißung
+- `markets.klimaanlagen.scroll4Desc` [füllstring] Moderne Klimasysteme erfordern flüsterleisen Betrieb. K Aqua Kunststoffrohrsysteme absorbieren Strömungsgeräusche und Pumpenvibrationen deutlich effektiver als metallische Alternativen. Dies ermöglicht den Einsatz in geräuschsensiblen Zonen wie Operationssälen, Luxushotels und Konzerthallen, ohne aufwendige Sekundärschalldämmung.
+- `markets.klimaanlagen.scroll4Title` [füllstring] Schallabsorbierende Struktur
+- `markets.klimaanlagen.section1Eyebrow` [füllstring] Die Herausforderung
+- `markets.klimaanlagen.section1Lead` [füllstring] Konventionelle Kühlsysteme aus Stahlgewinden und Kupferpressfittings scheitern zwangsläufig an den Gesetzen der Thermodynamik und Chemie. K Aqua bietet den Ausweg aus dem Kreislauf von Korrosion und Leckage.
+- `markets.klimaanlagen.section1P1` [füllstring] In der industriellen Kühlung und der Gebäudeklimatisierung stellen Kondenswasserbildung, permanente Temperaturschwankungen und aggressive Kühlmedien extreme Anforderungen an das Rohrleitungssystem. Metallische Rohre reagieren darauf mit Kondensatkorrosion, Isolationsschäden und schleichendem Druckverlust.
+- `markets.klimaanlagen.section1P2` [füllstring] <span class="font-semibold">K Aqua Polypropylen-Systeme (PP-R & PPRCT)</span> durchbrechen dieses Paradigma. Unsere Rohrleitungsnetzwerke sind vollständig inert gegenüber Korrosion, bieten herausragende Fließeigenschaften ohne Inkrustation und verfügen über eine intrinsische thermische Isolationsfähigkeit, die den Aufwand für externe Dämmung drastisch reduziert. Dies ist kein Rohr, es ist eine infrastrukturelle Versicherung.
+- `markets.klimaanlagen.section1Title` [füllstring] Die Achillesferse moderner Klimasysteme.
+- `markets.klimaanlagen.section2Eyebrow` [füllstring] Core Technology
+- `markets.klimaanlagen.section2Lead` [füllstring] Entdecken Sie die Konstruktionsprinzipien, die K Aqua zur ersten Wahl für internationale TGA-Planer und Generalunternehmer machen.
+- `markets.klimaanlagen.section2Title` [füllstring] Überlegenheit auf molekularer Ebene.
+- `markets.klimaanlagen.section3Eyebrow` [füllstring] Spezifikationen
+- `markets.klimaanlagen.section3P1` [füllstring] K Aqua Klimasysteme werden nach den strengsten internationalen Normen geprüft und geprüft. Die Materialeigenschaften von PPRCT ermöglichen höhere Druckbelastungen bei reduzierter Wandstärke.
+- `markets.klimaanlagen.section3P2` [füllstring] Das bedeutet: Ein größerer Innendurchmesser bei gleichem Außendurchmesser, was den hydraulischen Durchfluss maximiert und die benötigte Pumpenenergie für das Kühlnetz drastisch reduziert.
+- `markets.klimaanlagen.section3Title` [füllstring] geprüfte Zuverlässigkeit.
+- `markets.klimaanlagen.timeline1Desc` [füllstring] Berechnung von Druckverlusten, thermischen Längenausdehnungen und hydraulischem Abgleich. Unsere Ingenieure unterstützen bei der Dimensionierung bis DN 400.
+- `markets.klimaanlagen.timeline1Title` [füllstring] Engineering & Spezifikation
+- `markets.klimaanlagen.timeline1Year` [füllstring] Phase 01
+- `markets.klimaanlagen.timeline2Desc` [füllstring] Extrusion und Spritzguss unter Reinraumbedingungen in unserem deutschen Stammwerk. Lückenlose Qualitätskontrolle jeder einzelnen Charge.
+- `markets.klimaanlagen.timeline2Title` [füllstring] Präzisionsfertigung
+- `markets.klimaanlagen.timeline2Year` [füllstring] Phase 02
+- `markets.klimaanlagen.timeline3Desc` [füllstring] Just-in-Time Lieferung auf die Baustelle. Durch das geringe Gewicht von PP-R (ca. 75% leichter als Stahl) wird die Transport- und Handling-Logistik massiv vereinfacht.
+- `markets.klimaanlagen.timeline3Title` [füllstring] Globale Logistik
+- `markets.klimaanlagen.timeline3Year` [füllstring] Phase 03
+- `markets.klimaanlagen.timeline4Desc` [füllstring] Bis zu 50% schnellere Installation durch thermisches Heizelementmuffenschweißen. Keine offenen Flammen, kein Funkenflug, maximale Arbeitssicherheit.
+- `markets.klimaanlagen.timeline4Title` [füllstring] Systemintegration
+- `markets.klimaanlagen.timeline4Year` [füllstring] Phase 04
+- `markets.klimaanlagen.timeline5Desc` [füllstring] Erfolgreiche Druckprüfung und Systemübergabe. Ab diesem Moment beginnt die jahrzehntelange, völlig wartungsfreie Betriebsphase des K Aqua Systems.
+- `markets.klimaanlagen.timeline5Title` [füllstring] Inbetriebnahme & Abnahme
+- `markets.klimaanlagen.timeline5Year` [füllstring] Phase 05
+- `markets.klimaanlagen.timelineEyebrow` [füllstring] Der Projekt-Lebenszyklus
+- `markets.klimaanlagen.timelineLead` [füllstring] Von der ersten thermischen Berechnung bis zum wartungsfreien Betrieb über Jahrzehnte. K Aqua begleitet jeden Schritt des Prozesses mit kompromissloser Präzision.
+- `markets.landwirtschaft.bento1Desc` [füllstring] Vergessen Sie O-Ringe, Kleber oder mechanische Fittings. K Aqua Rohre und Formteile verschmelzen auf molekularer Ebene zu einer einzigen, unzertrennbaren Einheit. Das Risiko von Leckagen sinkt auf mathematisch exakte 0 %.
+- `markets.landwirtschaft.bento1Title` [füllstring] Homogene Verschweißung
+- `markets.landwirtschaft.bento2Desc` [füllstring] Im Vergleich zu metallischen Systemen wiegen K Aqua Rohre nur einen Bruchteil. Dies revolutioniert die Baustellenlogistik, reduziert Transportkosten erheblich und ermöglicht eine rasante Verlegung selbst in unzugänglichem Gelände.
+- `markets.landwirtschaft.bento2Title` [füllstring] Leichtbauweise
+- `markets.landwirtschaft.bento3Desc` [füllstring] Das Material besitzt eine intrinsische Flexibilität. Bei Erdbewegungen, Setzungen oder extremen Temperaturschwankungen passt sich das Rohrsystem an, ohne zu brechen. Stahl reißt, K Aqua flext.
+- `markets.landwirtschaft.bento3Title` [füllstring] Seismische Flexibilität
+- `markets.landwirtschaft.bento4Desc` [füllstring] Ein Reibungskoeffizient nahe Null. Das bedeutet weniger Druckverlust auf langen Strecken, wodurch Pumpensysteme signifikant kleiner dimensioniert werden können. Das spart nicht nur initiales Kapital, sondern reduziert die Energiekosten über Jahrzehnte massiv.
+- `markets.landwirtschaft.bento4Title` [füllstring] Spiegelglatte Hydraulik
+- `markets.landwirtschaft.ctaBtn1` [füllstring] Technisches Consulting anfordern
+- `markets.landwirtschaft.ctaBtn2` [füllstring] Dokumentation herunterladen
+- `markets.landwirtschaft.ctaDesc` [füllstring] Lassen Sie uns die hydraulische Infrastruktur Ihres nächsten Großprojekts besprechen. Unsere Ingenieure erstellen eine detaillierte technische Analyse für Ihre spezifischen Anforderungen.
+- `markets.landwirtschaft.ctaTitle` [füllstring] Ihre Ernte ist zu wertvoll für Kompromisse.
+- `markets.landwirtschaft.heroBtnPrimary` [füllstring] Agrarprojekt anfragen
+- `markets.landwirtschaft.heroBtnSecondary` [füllstring] Technische Spezifikationen lesen
+- `markets.landwirtschaft.heroDesc` [füllstring] Die globale Ernährungssicherheit duldet keine Kompromisse bei der Bewässerung. K Aqua liefert Hochleistungssysteme für die größten Agrarprojekte der Welt. Gefertigt nach den strengsten Industriestandards. Wo ein Rohrbruch Millionen kostet, ist K Aqua die einzige logische Wahl.
+- `markets.landwirtschaft.heroEyebrow` [füllstring] K Aqua Market: Landwirtschaft
+- `markets.landwirtschaft.heroSubtitle` [füllstring] Engineered in Germany.
+- `markets.landwirtschaft.heroTitle` [füllstring] Agrar-Infrastruktur.
+- `markets.landwirtschaft.metaDesc` [füllstring] K Aqua Landwirtschaft: Hochleistungsinfrastruktur für globale Agrarprojekte. Kompromisslose Sicherheit durch German Engineering.
+- `markets.landwirtschaft.metaTitle` [füllstring] Landwirtschaft Infrastruktur
+- `markets.landwirtschaft.scroll1Desc` [füllstring] In der modernen Agrarindustrie sind Rohrleitungssysteme oft jahrelang schonungslos der direkten Sonneneinstrahlung und extremen Temperaturschwankungen ausgesetzt. Unsere proprietäre Polymer-Matrix absorbiert UV-Strahlung, ohne molekular zu degradieren. Das Ergebnis: Keine Versprödung, keine Mikrorisse, 100%ige Strukturintegrität auch nach Jahrzehnten im Wüsteneinsatz.
+- `markets.landwirtschaft.scroll1Title` [füllstring] Absolute UV- und Witterungsbeständigkeit
+- `markets.landwirtschaft.scroll2Desc` [füllstring] Großflächige Pivot-Bewässerungssysteme und Tropfschläuche erfordern einen konstanten, enormen Wasserdruck über gewaltige Distanzen. K Aqua Systeme sind darauf ausgelegt, Druckspitzen und Wasserschläge (Water Hammer) kinetisch zu dämpfen. Die nahtlose Verschweißungstechnik garantiert absolute Dichtheit an jeder Verbindung, Null-Leckage-Toleranz für maximale Ressourceneffizienz.
+- `markets.landwirtschaft.scroll2Title` [füllstring] Druckstabilität für komplexe Bewässerung
+- `markets.landwirtschaft.scroll3Desc` [füllstring] Moderne Fertigation (die Ausbringung von Flüssigdüngern und Pflanzenschutzmitteln durch das Bewässerungssystem) erfordert Rohre, die hochgradig resistent gegen aggressive Chemikalien, Säuren und Alkalien sind. Unser K Aqua PPR-System geht keine Reaktionen mit Agrochemikalien ein, verhindert Ablagerungen durch seine spiegelglatte Innenwandung und schützt die Bodengesundheit.
+- `markets.landwirtschaft.scroll3Title` [füllstring] Chemische Resistenz gegen Düngemittel
+- `markets.landwirtschaft.scroll4Desc` [füllstring] Mikrobiologisches Wachstum innerhalb der Rohrleitungen kann ganze Ernten vernichten. K Aqua setzt auf eine anti-adhäsive Innenoberfläche, die die Bildung von Biofilmen und Algenwachstum nahezu unmöglich macht. Sauberes Wasser an der Quelle bleibt sauberes Wasser an der Pflanze. Deutsche Ingenieurskunst für globale Ernährungssicherheit.
+- `markets.landwirtschaft.scroll4Title` [füllstring] Ertragssicherung durch Biosicherheit
+- `markets.landwirtschaft.section1Eyebrow` [füllstring] Der Maßstab
+- `markets.landwirtschaft.section1Lead` [füllstring] Wenn gigantische Bewässerungsanlagen mitten in der Sahara oder in den Steppen Australiens entstehen, trennt sich die Spreu vom Weizen. Herkömmliche Systeme versagen unter der UV-Last, dem ständigen Druckwechsel und der aggressiven Bodenchemie. K Aqua wurde exakt für diese Extreme entwickelt.
+- `markets.landwirtschaft.section1Title` [füllstring] Wo Wasser auf Wüste trifft.
+- `markets.landwirtschaft.section2Eyebrow` [füllstring] Technologie
+- `markets.landwirtschaft.section2Lead` [füllstring] Jeder Millimeter unserer Rohrleitungssysteme ist das Resultat jahrzehntelanger deutscher Forschung und Entwicklung in der Polymertechnik.
+- `markets.landwirtschaft.section2Title` [füllstring] Die Anatomie der Widerstandsfähigkeit.
+- `markets.landwirtschaft.section3Eyebrow` [füllstring] Systemvorteile
+- `markets.landwirtschaft.section3Lead` [füllstring] Die Entscheidung für K Aqua ist eine mathematische Gewissheit. Geringere Total Cost of Ownership (TCO) gepaart mit absoluter Betriebssicherheit.
+- `markets.landwirtschaft.section3Title` [füllstring] Dominanz durch Engineering.
+- `markets.landwirtschaft.section4Highlight` [füllstring] Globale Megaprojekte
+- `markets.landwirtschaft.section4P1` [füllstring] Wenn ein Ausfall der Bewässerungssysteme den Totalverlust von Tausenden Hektar Ernte bedeutet, sind konventionelle Metriken nicht mehr ausreichend. Wir messen Zuverlässigkeit in Generationen.
+- `markets.landwirtschaft.section4P2` [füllstring] K Aqua geprüft seine industriellen Agrar-Leitungen für Betriebsszenarien, die die Realität weit übertreffen. Wir simulieren extreme Wasserschläge, ätzende Chemikalien-Cocktails und konstante seismische Mikrovibrationen, bevor ein einziges Rohr unser Werk in Deutschland verlässt.
+- `markets.landwirtschaft.section4Stat1Lbl` [füllstring] Jahre Lebensdauer
+- `markets.landwirtschaft.section4Stat2Lbl` [füllstring] Leckage-Toleranz
+- `markets.landwirtschaft.section4Title` [füllstring] Die Lebensader für
+- `markets.landwirtschaft.section5Desc` [füllstring] K Aqua Agrarsysteme sind durch die renommiertesten internationalen Prüfinstitute geprüft. Wir erfüllen nicht nur die Normen, wir definieren sie oftmals neu.
+- `markets.landwirtschaft.section5List4` [füllstring] Hochdruck-Prüfung bis 25 Bar
+- `markets.landwirtschaft.section5Title` [füllstring] geprüfte Sicherheit
+- `markets.landwirtschaft.timeline1Text` [füllstring] Unsere Ingenieure analysieren die topologischen und klimatischen Gegebenheiten des Agrarprojekts per Satellitendatenbanken und erstellen ein hydrodynamisches Profil.
+- `markets.landwirtschaft.timeline1Title` [füllstring] Topologische Analyse
+- `markets.landwirtschaft.timeline1Year` [füllstring] Phase 1
+- `markets.landwirtschaft.timeline2Text` [füllstring] Individuelle Extrusion der K Aqua Rohrleitungssysteme in unserem deutschen Stammwerk. Jede Charge unterliegt einer hochauflösenden Ultraschall-Prüfung.
+- `markets.landwirtschaft.timeline2Title` [füllstring] Material-Synthese
+- `markets.landwirtschaft.timeline2Year` [füllstring] Phase 2
+- `markets.landwirtschaft.timeline3Text` [füllstring] Vollständige Containerisierung und weltweiter Transport. Unsere Systeme sind leichtgewichtig und optimiert für den Transport an die entlegensten Anbaugebiete der Erde.
+- `markets.landwirtschaft.timeline3Title` [füllstring] Globale Logistik
+- `markets.landwirtschaft.timeline3Year` [füllstring] Phase 3
+- `markets.landwirtschaft.timeline4Text` [füllstring] Homogene Schweißverbindungen direkt vor Ort. Unsere thermoplastische Fusionstechnik erzeugt ein monolithisches Leitungssystem ohne Schwachstellen oder Dichtungen.
+- `markets.landwirtschaft.timeline4Title` [füllstring] Installation & Fusion
+- `markets.landwirtschaft.timeline4Year` [füllstring] Phase 4
+- `markets.landwirtschaft.timeline5Text` [füllstring] Nach Inbetriebnahme des Systems verschwindet die Infrastruktur aus dem Bewusstsein. Sie funktioniert einfach. Für die nächsten 50+ Jahre. Ohne Wartungscyclus.
+- `markets.landwirtschaft.timeline5Title` [füllstring] Lebenslange Wartungsfreiheit
+- `markets.landwirtschaft.timeline5Year` [füllstring] Phase 5
+- `markets.landwirtschaft.timelineDesc` [füllstring] Von der ersten hydrodynamischen Analyse bis zur finalen Fusion vor Ort. Ein durchorchestrierter Prozess für maximale Skalierbarkeit.
+- `markets.landwirtschaft.timelineTitle` [füllstring] Projektabwicklung
+- `markets.schiffbau.bento1Desc` [füllstring] Während herkömmliche Systeme oft schon nach wenigen Jahren erste Ermüdungserscheinungen zeigen, ist K Aqua für die gesamte Lebensdauer des Schiffes konzipiert. Ohne Wenn und Aber.
+- `markets.schiffbau.bento1Title` [füllstring] Lebensdauer > 50 Jahre
+- `markets.schiffbau.bento2Desc` [füllstring] Alle Systeme sind streng nach DIN EN ISO 15874 gefertigt und verfügen über die notwendigen Zulassungen.
+- `markets.schiffbau.bento2Title` [füllstring] geprüfte Sicherheit
+- `markets.schiffbau.bento3Desc` [füllstring] Die extrem glatte Innenoberfläche unserer Rohre verhindert Inkrustation und Biofouling effektiv.
+- `markets.schiffbau.bento3Title` [füllstring] Hydraulische Effizienz
+- `markets.schiffbau.bento4Desc` [füllstring] K Aqua verfügt über exzellente intrinsische Isoliereigenschaften, reduziert Kondenswasser und spart Dämmmaterial.
+- `markets.schiffbau.bento4Title` [füllstring] Thermische Isolation
+- `markets.schiffbau.ctaBtn` [füllstring] Projektanfrage starten
+- `markets.schiffbau.ctaDesc` [füllstring] Lassen Sie uns über Ihr nächstes Megaprojekt sprechen. Unser dediziertes maritimes Engineering Team steht bereit, um die kritische Infrastruktur Ihres Schiffes zu planen, zu optimieren und zu realisieren.
+- `markets.schiffbau.ctaTitle` [füllstring] Bereit für die Zukunft des Schiffbaus?
+- `markets.schiffbau.heroBadge` [füllstring] K Aqua MARITIME
+- `markets.schiffbau.heroBtnPrimary` [füllstring] Projekt anfragen
+- `markets.schiffbau.heroBtnSecondary` [füllstring] Technische Spezifikationen
+- `markets.schiffbau.heroDesc` [füllstring] Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten maritimen Megaprojekte weltweit. Gefertigt nach den strengsten Industriestandards, um unter extremsten Bedingungen zu überdauern. Wo Materialversagen keine Option ist, ist K Aqua die einzige Antwort.
+- `markets.schiffbau.heroSubtitle` [füllstring] Engineered in Germany.
+- `markets.schiffbau.heroTitle` [füllstring] Schiffbau Infrastruktur.
+- `markets.schiffbau.metaDesc` [füllstring] K Aqua Schiffbau: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Erfahren Sie mehr über unsere Schiffbaulösungen.
+- `markets.schiffbau.metaTitle` [füllstring] Schiffbau | K Aqua
+- `markets.schiffbau.scroll1Desc` [füllstring] Salzwasser, extreme Luftfeuchtigkeit und ständige chemische Belastungen zerstören herkömmliche Materialien in Rekordzeit. Unsere proprietären Polymer-Matrix-Strukturen auf PPR-Basis bieten eine 100-prozentige Immunität gegen maritime Korrosion. Keine Opferanoden, keine teuren Beschichtungen, keine Wartungsintervalle. Das System ist nach Installation für Jahrzehnte inert gegenüber aggressivsten Medien.
+- `markets.schiffbau.scroll1Title` [füllstring] Absolute Korrosionsbeständigkeit in maritimen Umgebungen
+- `markets.schiffbau.scroll2Desc` [füllstring] In der modernen Schifffahrt ist jedes eingesparte Kilogramm bares Geld und reduziert den CO2-Fußabdruck. Das K Aqua-Schiffbau-System bietet im Vergleich zu metallischen Rohrleitungen eine Gewichtsersparnis von bis zu 70 %. Dies führt nicht nur zu einer besseren Treibstoffeffizienz des Schiffes, sondern erleichtert auch das Handling und die Installation im begrenzten Raum eines Schiffsrumpfes drastisch.
+- `markets.schiffbau.scroll2Title` [füllstring] Gewichtsreduktion für maximale Effizienz
+- `markets.schiffbau.scroll3Desc` [füllstring] Schiffsmotoren, Wellenanlagen und ständiger Wellenschlag erzeugen permanente Vibrationen, die bei starren Systemen zwangsläufig zu Materialermüdung und Haarrissen führen. Die molekulare Struktur unseres K Aqua-Systems dämpft diese Frequenzen auf natürliche Weise ab. Gekoppelt mit einer extremen Druckfestigkeit widersteht das System auch unvorhergesehenen Druckspitzen in kritischen Momenten.
+- `markets.schiffbau.scroll3Title` [füllstring] Vibrationsabsorption und Druckfestigkeit
+- `markets.schiffbau.scroll4Desc` [füllstring] Die Kette ist nur so stark wie ihr schwächstes Glied. Deshalb existieren in K Aqua-Systemen keine klassischen Schwachstellen durch Dichtungen oder Gewinde. Durch unsere fortschrittliche Polyfusions-Schweißtechnologie verschmelzen Rohr und Fitting auf molekularer Ebene zu einer untrennbaren, völlig homogenen Einheit. Eine Verbindung, die dauerhaft dicht ist und selbst extremen Zug- und Scherkräften standhält.
+- `markets.schiffbau.scroll4Title` [füllstring] Nahtlose homogene Verschweißung
+- `markets.schiffbau.section1Eyebrow` [füllstring] Die Philosophie
+- `markets.schiffbau.section1Lead` [füllstring] Wenn Werften, Reeder und internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Marketingversprechungen, sondern auf harte physikalische Fakten. Unser System wurde speziell für die erbarmungslose Realität der Ozeane entwickelt.
+- `markets.schiffbau.section1P1` [füllstring] Die maritime Industrie steht vor nie dagewesenen Herausforderungen. Die Schiffe werden größer, die Routen extremer und die ökologischen Vorgaben strikter. In diesem Umfeld sind traditionelle Leitungssysteme aus Metall nicht mehr zeitgemäß. Sie sind schwer, korrosionsanfällig und aufwendig in der Installation. K Aqua bietet den Paradigmenwechsel.
+- `markets.schiffbau.section1P2` [füllstring] Wir haben die Materialwissenschaft bis an ihre Grenzen getrieben, um ein Rohrleitungssystem zu erschaffen, das die Natur der Elemente nicht bekämpft, sondern sie meistert. Ein System, das das Schiff nicht belastet, sondern seine Lebensdauer und Effizienz aktiv steigert. Das ist das Resultat deutscher Ingenieurskunst in ihrer reinsten Form.
+- `markets.schiffbau.section1Title` [füllstring] Sicherheit ohne Kompromisse. Auf offener See gibt es keinen Spielraum für Fehler.
+- `markets.schiffbau.section2Eyebrow` [füllstring] Architektur des Erfolgs
+- `markets.schiffbau.section2Lead` [füllstring] Zahlen lügen nicht. Ein Blick auf die Spezifikationen zeigt, warum K Aqua der neue Standard im Schiffbau ist.
+- `markets.schiffbau.section2Title` [füllstring] Technische Überlegenheit im Detail.
+- `markets.schiffbau.section3List1` [füllstring] 100 % Wartungsfreiheit über die gesamte Nutzungsdauer
+- `markets.schiffbau.section3List2` [füllstring] Einfache und sichere Installation dank Vorfertigung und Schweißtechnik
+- `markets.schiffbau.section3List3` [füllstring] Hohe chemische Resistenz gegen Ballastwasser, Kühlmedien und Reinigungsmittel
+- `markets.schiffbau.section3List4` [füllstring] Vollständig recycelbar und umweltverträglich
+- `markets.schiffbau.section3P1` [füllstring] Seit Jahrzehnten bündeln wir in unserem hochmodernen Stammwerk im Herzen Deutschlands kompromisslosen handwerklichen Stolz mit modernster, vollautomatisierter Fertigungstechnologie. Jeder Extruder, jede Spritzgussmaschine ist kalibriert, um Perfektion im Mikrometerbereich zu liefern.
+- `markets.schiffbau.section3P2` [füllstring] Im Einsatz auf den Weltmeeren, von den eiskalten Gewässern der Arktis bis zu den tropischen Bedingungen am Äquator, beweist sich unser Material jeden Tag aufs Neue. Wir bauen nicht einfach nur Rohre. Wir erschaffen die kritischen Blutbahnen für Ozeanriesen, Kreuzfahrtschiffe und hochkomplexe Offshore-Plattformen.
+- `markets.schiffbau.section3P3` [füllstring] Dort, wo der Ausfall eines Kühlsystems katastrophale Folgen haben kann, dort, wo die Frischwasserversorgung Tausender Passagiere absolut sichergestellt sein muss, dort beginnt unser Einsatzgebiet. Wir setzen den Standard, dem der Rest der Welt folgt. Ein Standard definiert durch absolute Verlässlichkeit.
+- `markets.schiffbau.section3Title` [füllstring] Die industrielle Autorität für das Element Wasser.
+- `markets.schiffbau.section4Eyebrow` [füllstring] Der K Aqua Prozess
+- `markets.schiffbau.section4Lead` [füllstring] Unser Engagement endet nicht bei der Auslieferung. Wir betrachten uns als integralen Partner in der gesamten Wertschöpfungskette des Schiffbaus.
+- `markets.schiffbau.section4Title` [füllstring] Von der Konzeption bis zur Jungfernfahrt.
+- `markets.schiffbau.section5Desc` [füllstring] Wir glauben nicht an Abkürzungen. Wir glauben an physikalische Belastungstests, an redundante Qualitätskontrollen und an Ingenieure, die jede Nacht ruhig schlafen können, weil sie wissen, dass das von ihnen entworfene System unter allen erdenklichen Umständen hält. K Aqua ist nicht nur ein Produkt. Es ist das destillierte Vertrauen der maritimen Industrie.
+- `markets.schiffbau.section5Title` [füllstring] Ein Versprechen, in Polymer gegossen.
+- `markets.schiffbau.timeline1Desc` [füllstring] Jede neue Produktiteration durchläuft in unseren deutschen Laboren monatelange Tests unter extremen Druck-, Temperatur- und Belastungsszenarien, die die realen maritimen Bedingungen um ein Vielfaches übersteigen.
+- `markets.schiffbau.timeline1Title` [füllstring] Phase 1: Materialforschung & Stresstests
+- `markets.schiffbau.timeline2Desc` [füllstring] Unsere Systeme werden von den führenden maritimen Zertifizierungsstellen (wie DNV, Lloyd's Register, ABS) geprüft und für den kompromisslosen Einsatz auf See freigegeben.
+- `markets.schiffbau.timeline2Title` [füllstring] Phase 2: Prüfung durch Klassifikationsgesellschaften
+- `markets.schiffbau.timeline3Desc` [füllstring] Die Produktion in unseren hochautomatisierten Anlagen unterliegt einer ständigen 360-Grad-Qualitätskontrolle. Jedes Element, das unser Werk verlässt, ist ein Meisterwerk deutscher Ingenieurskunst.
+- `markets.schiffbau.timeline3Title` [füllstring] Phase 3: Präzisionsfertigung & Null Fehlertoleranz
+- `markets.schiffbau.timeline4Desc` [füllstring] Just-in-Time-Lieferung an jede Werft weltweit. Unser Engineering Team begleitet den Installationsprozess auf Wunsch, um maximale Effizienz und absolute Systemsicherheit zu gewährleisten.
+- `markets.schiffbau.timeline4Title` [füllstring] Phase 4: Globale Logistik & Vor Ort-Engineering
+- `markets.trinkwasser.bento1Desc` [füllstring] Während Metalle unweigerlich mit Wasser und Sauerstoff reagieren, bleibt PP-R vollkommen inert. Keine Lochfraßkorrosion, keine Rostbildung, keine Kontamination des Mediums.
+- `markets.trinkwasser.bento1Title` [füllstring] 100% Korrosionsresistent
+- `markets.trinkwasser.bento2Desc` [füllstring] Unter standardisierten Betriebsbedingungen (20°C / 10 bar) ist das System für eine Lebensdauer von mehr als 50 Jahren geprüft. Dies entspricht der kalkulierten Nutzungsdauer moderner Immobilien.
+- `markets.trinkwasser.bento2Title` [füllstring] Lebensdauer > 50 Jahre
+- `markets.trinkwasser.bento3Desc` [füllstring] Die hohe Dichte und Elastizität von Polypropylen absorbiert Fließgeräusche und Druckschläge (Wasserschlag) hochwirksam. Das Ergebnis ist ein flüsterleiser Betrieb, ideal für Premium-Hotellerie.
+- `markets.trinkwasser.bento3Title` [füllstring] Schalldämmend
+- `markets.trinkwasser.bento4Desc` [füllstring] Mit einer Wärmeleitfähigkeit von nur 0,24 W/mK minimiert das System Kondenswasserbildung und Wärmeverluste drastisch. Es benötigt deutlich weniger externe Isolierung als Kupfer- oder Stahlrohre.
+- `markets.trinkwasser.bento4Title` [füllstring] Geringe Wärmeleitfähigkeit
+- `markets.trinkwasser.bento5Desc` [füllstring] Unsere Hochleistungsrohre (SDR 6 / PN 25) halten massiven Betriebsdrücken und Temperaturspitzen stand. Ausgelegt für Steigleitungen in Wolkenkratzern und Hochdrucksysteme.
+- `markets.trinkwasser.bento5Title` [füllstring] Druckresistenz PN25
+- `markets.trinkwasser.bento6Desc` [füllstring] Frei von Schwermetallen, Weichmachern oder toxischen Additiven. PP-R erfüllt höchste internationale Trinkwasserstandards und beeinträchtigt weder Geschmack noch Geruch des Wassers.
+- `markets.trinkwasser.bento6Title` [füllstring] Lebensmittelecht & Toxikologisch unbedenklich
+- `markets.trinkwasser.bento7Desc` [füllstring] K Aqua wird fortlaufend von unabhängigen Prüfinstituten überwacht. SKZ, WRAS, und viele weitere bestätigen die konstante, kompromisslose Premium-Qualität unserer Produktion.
+- `markets.trinkwasser.bento7Title` [füllstring] Globale Zertifizierungen
+- `markets.trinkwasser.ctaBtn` [füllstring] Engineering Support kontaktieren
+- `markets.trinkwasser.ctaDesc` [füllstring] Sprechen Sie mit unserem Engineering Team über Ihr nächstes Megaprojekt. Wir liefern nicht nur Rohre, wir liefern Systemsicherheit.
+- `markets.trinkwasser.ctaTitle` [füllstring] Sichern Sie Ihre Infrastruktur.
+- `markets.trinkwasser.heroBtnPrimary` [füllstring] Projekt anfragen
+- `markets.trinkwasser.heroBtnSecondary` [füllstring] Technische Spezifikationen
+- `markets.trinkwasser.heroDesc` [füllstring] Kompromisslose Hygiene, unübertroffene Langlebigkeit und absolute Korrosionsresistenz. K Aqua PP-R Rohrleitungssysteme setzen den ultimativen globalen Standard für den Transport unseres wichtigsten Lebensmittels.
+- `markets.trinkwasser.heroEyebrow` [füllstring] Trinkwasser Infrastruktur
+- `markets.trinkwasser.heroSubtitle` [füllstring] der Systemischer Sicherheit.
+- `markets.trinkwasser.heroTitle` [füllstring] Die reinste Form
+- `markets.trinkwasser.metaDesc` [füllstring] K Aqua Trinkwasser: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Erfahren Sie mehr über Trinkwassersicherheit.
+- `markets.trinkwasser.metaTitle` [füllstring] Trinkwasser-Infrastruktur | K Aqua
+- `markets.trinkwasser.scroll1Desc` [füllstring] Unsere Trinkwassersysteme bestehen aus hochmolekularem Polypropylen Random Copolymer. Die makromolekulare Struktur garantiert eine absolute Inertheit gegenüber aggressiven Wasserqualitäten und chemischen Zusätzen. Die Rohre interagieren auf mikroskopischer Ebene nicht mit dem Durchflussmedium, wodurch jegliche Migration von Partikeln oder Kontamination des Trinkwassers auf molekularer Ebene physikalisch ausgeschlossen wird.
+- `markets.trinkwasser.scroll1Title` [füllstring] Molekulare Integrität (PP-R / PPRCT)
+- `markets.trinkwasser.scroll2Desc` [füllstring] Vergessen Sie O-Ringe, Dichtungen oder mechanische Pressverbindungen. Unser System basiert auf homogener Materialverschmelzung (Polyfusion). Rohr und Fitting verschmelzen bei 260°C zu einer einzigen, untrennbaren physischen Einheit. Das Ergebnis ist ein vollkommen homogenes Leitungssystem, das keine potenziellen Schwachstellen an den Fügestellen aufweist. Wo keine Dichtung ist, kann auch keine Dichtung versagen.
+- `markets.trinkwasser.scroll2Title` [füllstring] Thermische Fusionsschweißung
+- `markets.trinkwasser.scroll3Desc` [füllstring] Die spiegelglatten Innenoberflächen unserer Rohrsysteme (Rauheitswert k = 0,007 mm) bieten Mikroorganismen und Biofilmen keine Angriffsfläche. Dies eliminiert die Gefahr von Legionellenbildung und bakteriologischem Wachstum. In Kombination mit absoluter Opazität wird das Risiko einer mikrobiologischen Kontamination auf ein absolutes Minimum reduziert, was das System zur ersten Wahl für Krankenhäuser und hochsensible Infrastrukturen macht.
+- `markets.trinkwasser.scroll3Title` [füllstring] Bakteriologische Resistenz
+- `markets.trinkwasser.scroll4Desc` [füllstring] Metallrohre unterliegen im Laufe der Jahrzehnte einem progressiven Korrosions- und Inkrustationsprozess, der den Querschnitt verengt und den Druckverlust drastisch erhöht. K Aqua Systeme behalten ihren initialen hydraulischen Querschnitt über die gesamte Lebensdauer von mehr als 50 Jahren. Die Pumpenleistung bleibt konstant, Kavitation wird vermieden und die Betriebskosten der Infrastruktur (OPEX) bleiben exakt auf dem kalkulierten Niveau.
+- `markets.trinkwasser.scroll4Title` [füllstring] Hydraulische Langzeiteffizienz
+- `markets.trinkwasser.section1Eyebrow` [füllstring] Die Philosophie des Wassers
+- `markets.trinkwasser.section1Lead` [füllstring] Wenn es um die Versorgung von Millionenstädten, Krankenhäusern und industriellen Großprojekten mit Trinkwasser geht, ist 'ausreichend' niemals genug. Wir bauen Infrastrukturen für die Ewigkeit.
+- `markets.trinkwasser.section1P1` [füllstring] Wasser ist nicht nur eine Ressource; es ist das Fundament der Zivilisation. Die Rohrleitungssysteme, die es transportieren, sind das unsichtbare Nervensystem unserer Städte. Ein Versagen dieses Systems bedeutet mehr als nur einen finanziellen Verlust: es ist ein kritisches Infrastrukturversagen.
+- `markets.trinkwasser.section1P2` [füllstring] Deshalb verfolgen wir bei K Aqua einen Engineering-Ansatz, der auf der Prämisse der <span class="text-foreground font-semibold">Null Fehlertoleranz</span> basiert. Während konventionelle Systeme aus Metall oder Verbundwerkstoffen eine kalkulierte Verfallszeit haben (Korrosion, Inkrustation, Dichtungsermüdung), eliminieren unsere PP-R und PPRCT Systeme diese Vektoren durch ihre grundlegende physikalische und chemische Beschaffenheit.
+- `markets.trinkwasser.section1P3` [füllstring] Eine homogene Polyfusionsschweißung bedeutet, dass das Netzwerk nicht aus tausenden Einzelteilen besteht, sondern aus einem einzigen, durchgehenden Makromolekül. Dies ist die Essenz von <em class="text-foreground italic">German Engineering</em>: Die Konstruktion eines Systems, das nicht nur heute funktioniert, sondern noch in 50 Jahren exakt dieselben hydraulischen und hygienischen Eigenschaften aufweist wie am Tag seiner Inbetriebnahme.
+- `markets.trinkwasser.section1Title` [füllstring] Kein Spielraum für Kompromisse.
+- `markets.trinkwasser.section2Eyebrow` [füllstring] Technologische Tiefe
+- `markets.trinkwasser.section2Lead` [füllstring] Die Überlegenheit des K Aqua Systems liegt nicht in oberflächlichen Merkmalen, sondern in der tiefgreifenden materialspezifischen Konzeption.
+- `markets.trinkwasser.section2Title` [füllstring] Architektur des Überlegenen.
+- `markets.trinkwasser.section3Eyebrow` [füllstring] Performance Matrix
+- `markets.trinkwasser.section3Lead` [füllstring] geprüft nach den strengsten globalen Standards (DIN, EN, ISO, DVGW, SKZ) liefert K Aqua eine messbar überlegene Performance über alle kritischen KPIs hinweg.
+- `markets.trinkwasser.section3Title` [füllstring] Systemische Überlegenheit quantifiziert.
+- `markets.trinkwasser.section4P1` [füllstring] Wahres Engineering zeigt sich in der Summe perfekter Details. Unsere Dimensionsbandbreite reicht von 20 mm für die letzte Meile bis zu 160 mm für gigantische Hauptversorgungsstränge. Jedes Element ist präzise auf die Systemarchitektur abgestimmt.
+- `markets.trinkwasser.section4P2` [füllstring] Ob Steigleitungen in einem 80-stöckigen Wolkenkratzer, komplexe Verteilernetze in industriellen Kühlkreisläufen oder hochsensible Trinkwasserversorgung in Kliniken, die K Aqua Systemwelt bietet für jede hydraulische Herausforderung die exakte, geprüfte Lösung.
+- `markets.trinkwasser.section4Title` [füllstring] Die Summe der technischen Details.
+- `markets.trinkwasser.stat1Label` [füllstring] Durchmesser-Range
+- `markets.trinkwasser.stat2Label` [füllstring] Max. Nenndruck (PN)
+- `markets.trinkwasser.stat2Unit` [füllstring] bar
+- `markets.trinkwasser.stat3Label` [füllstring] Max. Temperatur
+- `markets.trinkwasser.stat4Label` [füllstring] Lebensdauer
+- `markets.trinkwasser.stat4Unit` [füllstring] + J.
+- `markets.trinkwasser.timeline1Desc` [füllstring] Auswahl von Granulaten höchster Reinheit (Borealis / Sabic). geprüfte Kontrolle jeder einzelnen Charge im K Aqua Prüflabor auf molekulare Gewichtsverteilung und Schmelzindex (MFI).
+- `markets.trinkwasser.timeline1Title` [füllstring] Materialspezifikation
+- `markets.trinkwasser.timeline1Year` [füllstring] Phase 1
+- `markets.trinkwasser.timeline2Desc` [füllstring] Verarbeitung auf hochmodernen, computergesteuerten KraussMaffei-Extrudern. Ultraschall-Wanddickenmessung im laufenden Prozess stellt eine Dimensionstoleranz im Mikrometerbereich sicher.
+- `markets.trinkwasser.timeline2Title` [füllstring] Präzisions-Extrusion
+- `markets.trinkwasser.timeline2Year` [füllstring] Phase 2
+- `markets.trinkwasser.timeline3Desc` [füllstring] Vollautomatisierte Produktion von Systemkomponenten unter Reinraumbedingungen. Metallgewindeeinsätze aus entzinkungsbeständigem Messing (DZR) werden formschlüssig und torsionssicher umspritzt.
+- `markets.trinkwasser.timeline3Title` [füllstring] Spritzguss-Fittings
+- `markets.trinkwasser.timeline3Year` [füllstring] Phase 3
+- `markets.trinkwasser.timeline4Desc` [füllstring] Jede Produktionscharge durchläuft zerstörerische Berstdruckprüfungen sowie Zeitstand-Innendruckversuche über 1000 Stunden bei 95°C. Nur 100 % fehlerfreie Lose werden für den globalen Export freigegeben.
+- `markets.trinkwasser.timeline4Title` [füllstring] Hydrostatischer Stresstest
+- `markets.trinkwasser.timeline4Year` [füllstring] Phase 4
+- `markets.trinkwasser.timeline5Desc` [füllstring] Installation vor Ort durch geprüfte Schweißtechniker. Die homogene Polyfusion kreiert ein endloses System ohne mechanische Schwachstellen. Eine finale Druckprobe verifiziert die integrale Sicherheit des Gesamtnetzwerks.
+- `markets.trinkwasser.timeline5Title` [füllstring] Systemintegration
+- `markets.trinkwasser.timeline5Year` [füllstring] Phase 5
+- `markets.trinkwasser.timelineEyebrow` [füllstring] Der Qualitäts-Lebenszyklus
+- `markets.trinkwasser.timelineLead` [füllstring] Vom Rohmaterial bis zur jahrzehntelangen Nutzung: Jeder Schritt im Lebenszyklus eines K Aqua Rohrsystems unterliegt strengen Qualitätsprotokollen.
+
+## menu (5)
+
+- `menu.fittings` [füllstring] Fittings
+- `menu.pipes` [füllstring] Rohre
+- `menu.tools` [füllstring] Schweißwerkzeuge
+- `menu.transition` [füllstring] Übergangsfittings
+- `menu.valves` [füllstring] Ventile & Hähne
+
+## nav (24)
+
+- `nav.imprint` [fehlt] Impressum
+- `nav.mega.aboutGroup`  Über K-Aqua
+- `nav.mega.allProductsDesc`  Übersicht aller K-Aqua PP-R Lösungen
+- `nav.mega.bim` [fehlt] BIM-Daten
+- `nav.mega.bimDesc` [fehlt] IFC 4, Revit-Typenkatalog, CSV und JSON
+- `nav.mega.cadModels` [fehlt] 70 interaktive Modelle
+- `nav.mega.cadStudio` [fehlt] 3D CAD Studio
+- `nav.mega.contactDesc` [fehlt] Sprechen Sie mit unserem Fachteam
+- `nav.mega.downloads` [fehlt] Download-Center
+- `nav.mega.downloadsDesc` [fehlt] Kataloge, Datenblätter und Zertifikate als PDF
+- `nav.mega.homeSr`  K-Aqua Startseite
+- `nav.mega.imprintDesc` [fehlt] Rechtliche Unternehmensinformationen
+- `nav.mega.privacyDesc` [fehlt] Richtlinien zur Datenverarbeitung
+- `nav.mega.quoteDesc` [fehlt] Unverbindliches Projektangebot anfragen
+- `nav.mega.sitemap`  Sitemap
+- `nav.mega.specs` [fehlt] Ausschreibungstexte
+- `nav.mega.specsDesc` [fehlt] Fertige Leistungsverzeichnisse zum Übernehmen
+- `nav.mega.supportRes` [fehlt] Technischer Support
+- `nav.mega.supportResDesc` [fehlt] Beratung zu Planung, Material und Verarbeitung
+- `nav.mega.technik` [fehlt] Technisches Handbuch
+- `nav.mega.technikDesc` [fehlt] Auslegung, Verlegung und Schweißparameter
+- `nav.partner` [fehlt] Partnerschaft
+- `nav.privacy` [fehlt] Datenschutz
+- `nav.searchShortcut` [fehlt] Suche (Cmd+K)
+
+## navigation (4)
+
+- `navigation.cookieAccept` [füllstring] Accept All
+- `navigation.cookieDecline` [füllstring] Decline Only Essential
+- `navigation.cookieDesc` [füllstring] We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+- `navigation.cookieTitle` [füllstring] We use cookies
+
+## newsx (31)
+
+- `newsx.ishText` [füllstring] Die TGA-Branche trifft sich regelmäßig auf den großen Leitmessen wie der ISH in Frankfurt und der Big 5 in Dubai und Riad. Sobald die nächsten K Aqua-Termine feststehen, erscheinen sie hier.
+- `newsx.ishTitle` [füllstring] Treffpunkt Branche
+- `newsx.moreEyebrow` [füllstring] Aus Werk und Wissen
+- `newsx.moreLead` [füllstring] Aktuelles von K Aqua. Hintergründe aus Fertigung und Materialkunde, zum Aufklappen.
+- `newsx.moreTitle` [füllstring] Mehr aus dem Hause K Aqua.
+- `newsx.posts.0.body.0` [füllstring] Seit Oktober 2025 ist das Managementsystem der KWT GmbH dreifach geprüft: ISO 9001:2015 für Qualität, ISO 14001:2015 für Umwelt und ISO 50001:2018 für Energie. Die Zertifikate stammen von einer DAkkS-akkreditierten Zertifizierungsgesellschaft und gelten bis Oktober 2028.
+- `newsx.posts.0.body.1` [füllstring] Für Einkauf und Compliance bedeutet das: dokumentierte, auditierbare Prozesse vom Extruder bis zum Versand. Das gelebte GENAU-Managementsystem erfüllte die Anforderungen der DIN EN ISO 14001 und 50001 bereits zuvor. Die Prüfung macht es extern belastbar.
+- `newsx.posts.0.body.2` [füllstring] Beide Zertifikatsversionen (DE/EN) stehen zum Download bereit; das vollständige Audit-Paket schnüren Sie im Trust Center.
+- `newsx.posts.0.date` [füllstring] Oktober 2025
+- `newsx.posts.0.t` [füllstring] Dreifach geprüft: ISO 9001, 14001 und 50001
+- `newsx.posts.0.tag` [füllstring] Unternehmen
+- `newsx.posts.0.teaser` [füllstring] Das ISO-Managementsystem der KWT GmbH umfasst jetzt Qualität, Umwelt und Energie: DAkkS-akkreditiert.
+- `newsx.posts.1.body.0` [füllstring] Bei bis zu 14.000 Metern Rohr pro Tag und Anlage ist Rückverfolgbarkeit keine Kür: Jedes Rohr wird im laufenden Extrusionsprozess fortlaufend gekennzeichnet: mit den Angaben, die Planer und Prüfer auf der Baustelle brauchen.
+- `newsx.posts.1.body.1` [füllstring] Die Kennzeichnung verbindet das physische Produkt mit seiner Charge und den Prüfprotokollen der Qualitätssicherung. Was auf dem Rohr steht, lässt sich bis ins Prüflabor zurückverfolgen, ein Baustein des QS-Handbuchs, das Auditoren im Trust Center anfordern können.
+- `newsx.posts.1.t` [füllstring] Fortlaufend gekennzeichnet: Rückverfolgbarkeit ab Extruder
+- `newsx.posts.1.tag` [füllstring] Produktion
+- `newsx.posts.1.teaser` [füllstring] Jedes K Aqua-Rohr trägt eine kontinuierliche Kennzeichnung direkt aus dem Extrusionsprozess.
+- `newsx.posts.2.body.0` [füllstring] Polypropylen entsteht aus Gasen, die früher nutzlos abgefackelt wurden. Die stoffliche Nutzung reduziert Luftverschmutzung an der Quelle. Als technischer Kunststoff ist PP ungewöhnlich beständig gegen Lösungsmittel, Laugen und Säuren und formt im Spritzguss komplexe Geometrien.
+- `newsx.posts.2.body.2` [füllstring] PPRCT verschiebt die Grenzen noch einmal: Die modifizierte Kristallstruktur bringt mehr Temperatur- und Druckreserve. SDR 7,4 hält 70 °C bei 10 bar im Dauerbetrieb.
+- `newsx.posts.2.date` [füllstring] Wissen
+- `newsx.posts.2.t` [füllstring] Warum eigentlich PP-R?
+- `newsx.posts.2.tag` [füllstring] Material
+- `newsx.posts.2.teaser` [füllstring] Vom Abfackelgas zum Trinkwasserrohr: die kurze Materialgeschichte des Polypropylens.
+- `newsx.posts.3.body.0` [füllstring] Kaum ein Projekt startet auf der grünen Wiese: Bestandsleitungen aus Kupfer oder verzinktem Stahl müssen angebunden werden. Dafür gibt es Übergangsstücke mit eingebettetem Messing-Innen- oder Außengewinde: die Gewindeseite verbindet den Metallbestand, die PP-Seite wird stoffschlüssig verschweißt.
+- `newsx.posts.3.body.1` [füllstring] So lässt sich abschnittsweise sanieren: Korrodierte Stränge werden ersetzt, funktionierende bleiben und das Korrosionsproblem wandert nicht ins neue System. Verschraubungen machen die Verbindung bei Bedarf wieder lösbar, etwa an Armaturen und Wasserzählern.
+- `newsx.posts.3.date` [füllstring] Wissen
+- `newsx.posts.3.t` [füllstring] Messing trifft Polypropylen: Übergänge in den Bestand
+- `newsx.posts.3.tag` [füllstring] Material
+- `newsx.posts.3.teaser` [füllstring] Sanierung heißt fast immer Systemwechsel: Übergangsstücke mit Messing-Gewinde machen ihn sauber.
+- `newsx.readLess` [füllstring] Einklappen
+- `newsx.readMore` [füllstring] Vollständigen K-Aqua Fachartikel lesen
+
+## productNames (25)
+
+- `productNames.accessories_flat-gasket-for-unions-pp-r` [fehlt] PP-R Flachdichtung für Verschraubungen
+- `productNames.fittings_elbow-45-femalemale` [fehlt] PP-R Winkel 45° IG/AG
+- `productNames.fittings_elbow-90-femalemale`  PP-R Winkel 90° IG/AG
+- `productNames.fittings_elbow-90-large-sizes`  PP-R Standard Winkel 90° (Groß)
+- `productNames.fittings_reducing-tee-large-sizes` [fehlt] PP-R T-Stück reduziert, große Dimensionen
+- `productNames.fittings_stub-end` [fehlt] PP-R Vorschweißbund (Stub End) für Flanschverbindungen
+- `productNames.pipes_k-fiber-pipe-pp-r-sdr-11`  K-Fiber Rohr PP-R SDR 11
+- `productNames.pipes_k-fiber-pipe-pp-r-sdr-17`  K-Fiber Rohr PP-R SDR 17
+- `productNames.pipes_k-fiber-pipe-pp-r-sdr-7-4`  K-Fiber Rohr PP-R SDR 7.4
+- `productNames.pipes_k-fiber-pipe-pp-r-sdr-74` [fehlt] K-Fiber Rohr PP-R SDR 7.4
+- `productNames.pipes_k-fiber-pipe-pp-r-sdr-9`  K-Fiber Rohr PP-R SDR 9
+- `productNames.pipes_k-fiber-pipe-pp-rct-sdr-7-4`  K-Fiber Rohr PPRCT SDR 7.4
+- `productNames.pipes_k-fiber-pipe-pp-rct-sdr-74` [fehlt] K-Fiber Rohr PP-RCT SDR 7.4
+- `productNames.pipes_k-fiber-uv-pipe-pp-r-sdr-7-4`  K-Fiber UV-Rohr PP-R SDR 7.4
+- `productNames.pipes_k-fiber-uv-pipe-pp-r-sdr-74` [fehlt] K-Fiber UV Rohr PP-R SDR 7.4
+- `productNames.pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4`  K-Fiber UV-Rohr PPRCT SDR 7.4
+- `productNames.pipes_k-fiber-uv-pipe-pp-rct-sdr-74` [fehlt] K-Fiber UV Rohr PP-RCT SDR 7.4
+- `productNames.pipes_k-fiberclima-pipe-pp-rct-sdr-11`  K-Fiberclima Rohr PPRCT SDR 11
+- `productNames.pipes_k-pipe-pp-r-sdr-11`  K-Pipe Rohr PP-R SDR 11
+- `productNames.pipes_k-pipe-pp-r-sdr-6`  K-Pipe Rohr PP-R SDR 6
+- `productNames.pipes_k-pipe-pp-rct-sdr-7-4`  K-Pipe Rohr PPRCT SDR 7.4
+- `productNames.pipes_k-pipe-pp-rct-sdr-74` [fehlt] K-Pipe Rohr PP-RCT SDR 7.4
+- `productNames.tools_pipe-cutter-2040` [fehlt] Ratschen-Rohrabschneider d20-d40
+- `productNames.tools_pipe-cutter-50125-1` [fehlt] Rohrschaber
+- `productNames.valves_pp-r-ball-valve-ball-in-brass-chromium-plated`  PP-R Kugelhahn (Messing/Chrom)
+
+## products (458)
+
+- `products.allMarkets` [füllstring] Alle 50+ Märkte ansehen
+- `products.approved` [füllstring] geprüft
+- `products.articleNumbers` [füllstring] Artikelnummern
+- `products.backToFinder` [füllstring] Zurück zum Produktfinder
+- `products.calcCo2` [füllstring] CO2-Fußabdruck berechnen
+- `products.category.allProducts` [füllstring] Alle Produkte
+- `products.category.artNA` [füllstring] Art. N/A
+- `products.category.learnMoreDesc` [füllstring] Tauchen Sie tiefer in die technische Dokumentation ein und entdecken Sie Fachartikel zur Installation, Nachhaltigkeit und Prüfung unserer PP-R Systeme.
+- `products.category.learnMoreKnowledge` [füllstring] PP-R Rohrsysteme im Fachwissen-Portal entdecken
+- `products.category.openInFinder` [füllstring] Im Finder öffnen
+- `products.category.toKnowledgeBase` [füllstring] Fachartikel in der K-Aqua Academy entdecken
+- `products.category.viewDetails` [füllstring] Produktdetails anzeigen
+- `products.certification` [füllstring] Certification
+- `products.certified` [füllstring] geprüft
+- `products.certsAndNorms` [füllstring] Zertifikate & Normen
+- `products.compliance` [füllstring] Compliance & Standards
+- `products.ctaCatalog` [füllstring] Produktkatalog (PDF)
+- `products.ctaFeatures` [füllstring] Produkteigenschaften (PDF)
+- `products.ctaVideos` [füllstring] Installationsvideos
+- `products.dimensions` [füllstring] Dimensions
+- `products.enterpriseCore` [füllstring] Enterprise Core
+- `products.eyebrow` [füllstring] Produkte
+- `products.fiberTech` [füllstring] Fiber-Composite Technology
+- `products.fiberTechDesc` [füllstring] 3-layer structure for minimized linear expansion and maximum stability at high temperatures.
+- `products.fittings.bento.eyebrow` [füllstring] Leistungsdaten
+- `products.fittings.bento.items.0.desc` [füllstring] Vollständige Konformität und Prüfung für Kunststoffrohrleitungssysteme für die Warm- und Kaltwasserinstallation.
+- `products.fittings.bento.items.1.desc` [füllstring] Ausgelegt für permanente Hochdruck-Beanspruchung selbst bei kritischen Temperaturen.
+- `products.fittings.bento.items.2.desc` [füllstring] Herausragende Beständigkeit gegen aggressive Medien. pH-Wert-unabhängig (pH 1 bis 14) für industriellen Einsatz.
+- `products.fittings.bento.items.2.title` [füllstring] Chemische Inertheit
+- `products.fittings.bento.items.3.desc` [füllstring] Die inhärente Elastizität des PP-R Materials absorbiert Körperschall und reduziert Fließgeräusche auf ein absolutes Minimum, ideal für Luxus-Hotellerie und Krankenhäuser.
+- `products.fittings.bento.items.3.title` [füllstring] Akustische Dämpfung
+- `products.fittings.bento.lead` [füllstring] Während die Industrie Normen als Ziel betrachtet, sehen wir sie lediglich als absolutes Minimum.
+- `products.fittings.bento.title` [füllstring] Spezifikationen jenseits des Standards.
+- `products.fittings.cta.desc` [füllstring] Verbinden Sie sich mit unserem Engineering Team. Wir liefern nicht nur Produkte, wir liefern die Sicherheit für Ihr nächstes Megaprojekt.
+- `products.fittings.cta.primary` [füllstring] Projektanfrage starten
+- `products.fittings.cta.secondary` [füllstring] Gesamtes Sortiment ansehen
+- `products.fittings.cta.title` [füllstring] Bereit für kompromisslose Qualität?
+- `products.fittings.depth.badge` [füllstring] 100% Wartungsfrei
+- `products.fittings.depth.text` [füllstring] Die Zeit ist der ultimative Stresstest für jedes Material. Unsere Fittings sind darauf ausgelegt, die Lebensdauer des Gebäudes selbst zu übertreffen. Durch die Zugabe von speziellen Antioxidantien und thermischen Stabilisatoren in unsere PP-R Matrix wird die thermisch-oxidative Alterung massiv verzögert. Selbst bei kontinuierlichen Vorlauftemperaturen von 70°C und Druckbelastungen von 10 Bar garantieren wir eine Standzeit von über einem halben Jahrhundert. Das ist kein Marketing. Das ist angewandte Polymerphysik.
+- `products.fittings.depth.title` [füllstring] Lebensdauer > 50 Jahre. Garantiert.
+- `products.fittings.hero.eyebrow` [füllstring] Formteile & Fittings
+- `products.fittings.hero.lead` [füllstring] Vom Winkel bis zur Reduzierung: K Aqua PP-R Fittings verschmelzen beim Schweißen molekular mit dem Rohr. Ein homogenes System ohne Dichtungen und ohne Schwachstellen. Für dauerhaft dichte Verbindungen in jedem Rohrnetz.
+- `products.fittings.hero.title` [füllstring] PP-R Fittings & Formteile für dauerhaft dichte Verbindungen
+- `products.fittings.intro.eyebrow` [füllstring] Die Industrielle Autorität
+- `products.fittings.intro.lead` [füllstring] Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten. Wir setzen den Standard, dem der Rest der Welt folgt.
+- `products.fittings.intro.text1` [füllstring] Seit Jahrzehnten bündeln wir in unserem Stammwerk im Herzen Deutschlands handwerklichen Stolz mit modernster, hochautomatisierter Fertigungstechnologie. Jeder Winkel, jede Muffe, jedes T-Stück trägt die unverkennbare DNA deutscher Ingenieurskunst. Im Einsatz in den härtesten Wüsten, extremsten Klimazonen und anspruchsvollsten Industrieanlagen der Welt beweist sich unser Material jeden Tag aufs Neue.
+- `products.fittings.intro.text2` [füllstring] Die Verschmelzung von Makromolekülen in unserem PP-R System schafft ein Rohrleitungsnetzwerk ohne Schwachstellen. Es gibt keine Dichtungsringe, die korrodieren können, keine Klebestellen, die durch Chemikalien angegriffen werden. Das Rohr und das Fitting werden thermisch zu einem einzigen, untrennbaren Werkstück verschmolzen. Dies ist die absolute Definition von Sicherheit.
+- `products.fittings.intro.title` [füllstring] Sicherheit ist kein Zufall. Sie ist berechenbar.
+- `products.fittings.meta.desc` [füllstring] K-Aqua Formteile und Fittings aus PP-R: Winkel, T-Stücke, Reduktionen und Muffen. Kompromisslose Dichtigkeit durch German Engineering.
+- `products.fittings.meta.title` [füllstring] Formteile & Fittings | K Aqua
+- `products.fittings.sticky.eyebrow` [füllstring] Architektur der Perfektion
+- `products.fittings.sticky.items.0.desc` [füllstring] Unsere Fittings basieren auf einem hochgradig vernetzten PP-R Polypropylen Random Copolymerisat. Durch kontrollierte Temperatur-Druck-Profile während der Extrusion erreichen wir eine isotrope Kristallstruktur. Das Ergebnis: Eine nie dagewesene Widerstandsfähigkeit gegenüber Spannungsrissen und extremen Temperaturschwankungen.
+- `products.fittings.sticky.items.0.title` [füllstring] Das molekulare Gefüge
+- `products.fittings.sticky.items.1.desc` [füllstring] Jedes Formteil durchläuft einen thermoplastischen Spritzgussprozess mit Kavitäten-Toleranzen im Mikrometerbereich. Das stellt sicher, dass die Schmelzindizes beim Verschweißen mit unseren Rohren absolut identisch sind, für eine homogene, unlösbare und 100% leckagefreie Materialverbindung.
+- `products.fittings.sticky.items.1.title` [füllstring] Thermoplastische Präzision
+- `products.fittings.sticky.items.2.desc` [füllstring] Wir überlassen nichts dem Zufall. Mittels Ultraschall-Wanddickenmessung, hydrostatischen Innendruck-Zeitstandversuchen und DSC (Differential Scanning Calorimetry) wird jede Charge analysiert. Nur Material, das unsere internen Standards (die weit über der DIN EN ISO 15874 liegen) übertrifft, erhält die Freigabe.
+- `products.fittings.sticky.items.2.title` [füllstring] Null Fehlertoleranz
+- `products.fittings.sticky.items.3.desc` [füllstring] Die strömungsoptimierte Innengeometrie unserer Fittings verhindert effektiv Druckabfälle und Kavitation, selbst bei extremen Fließgeschwindigkeiten in industriellen Steigleitungen. Dies minimiert Geräuschemissionen und schützt die Anlage vor abrasiver Abnutzung von innen.
+- `products.fittings.sticky.items.3.title` [füllstring] Kavitationswiderstand
+- `products.fittings.sticky.lead` [füllstring] Ein tiefer Einblick in die physikalischen und chemischen Eigenschaften, die unsere Formteile zum weltweiten Benchmark machen.
+- `products.fittings.sticky.title` [füllstring] Die Anatomie der Zuverlässigkeit.
+- `products.fittings.timeline.desc` [füllstring] Von der molekularen Rohmasse zum unzerstörbaren Bauteil. Ein Blick in unsere hochgradig automatisierte Fertigungsmatrix.
+- `products.fittings.timeline.items.0.text` [füllstring] Ausschließlich hochreines, vorsynthetisiertes Polypropylen-Granulat aus europäischen Premium-Raffinerien passiert unsere Eingangskontrolle.
+- `products.fittings.timeline.items.0.title` [füllstring] Granulat-Selektion
+- `products.fittings.timeline.items.0.year` [füllstring] Schritt 01
+- `products.fittings.timeline.items.1.text` [füllstring] Vor dem Spritzguss wird das Granulat thermisch stabilisiert, um Restfeuchte zu eliminieren und eine homogene Schmelze zu garantieren.
+- `products.fittings.timeline.items.1.title` [füllstring] Thermische Konditionierung
+- `products.fittings.timeline.items.1.year` [füllstring] Schritt 02
+- `products.fittings.timeline.items.2.text` [füllstring] In vollautomatisierten, robotergestützten Spritzgusszellen formen wir das Material unter enormem Druck zu makellosen Fittings.
+- `products.fittings.timeline.items.2.title` [füllstring] Hochdruck-Spritzguss
+- `products.fittings.timeline.items.2.year` [füllstring] Schritt 03
+- `products.fittings.timeline.items.3.text` [füllstring] Ein computergesteuertes Abkühlprofil verhindert innere Spannungen im Material und sorgt für perfekte Maßhaltigkeit.
+- `products.fittings.timeline.items.3.title` [füllstring] Kühlungs-Matrix
+- `products.fittings.timeline.items.3.year` [füllstring] Schritt 04
+- `products.fittings.timeline.items.4.text` [füllstring] Jedes Los erhält sein digitales Zertifikat. Bereit für den Versand an die anspruchsvollsten Baustellen der Welt.
+- `products.fittings.timeline.items.4.title` [füllstring] Prüfung & Logistik
+- `products.fittings.timeline.items.4.year` [füllstring] Schritt 05
+- `products.fittings.timeline.title` [füllstring] Der Genesis-Prozess
+- `products.globalNetwork` [füllstring] Global Network
+- `products.globalNetworkDesc` [füllstring] K Aqua systems are in use in over 40 countries worldwide.
+- `products.heroDesc` [füllstring] Entdecken Sie die Spezifikationen, Dimensionen und Einsatzbereiche. Für detaillierte Informationen laden Sie das Technische Datenblatt herunter.
+- `products.highPerformance` [füllstring] High-Performance Pipe Systems
+- `products.highPerformanceDesc` [füllstring] For industrial applications, drinking water supply, and climate control under extreme conditions.
+- `products.labels.advantages` [füllstring] Ihre Vorteile im Überblick
+- `products.labels.applicationAreas` [füllstring] Einsatzgebiete
+- `products.labels.cert` [füllstring] Zertifikate & Normen
+- `products.labels.contentHeadings.Article Table` [fehlt] Artikeltabelle
+- `products.labels.contentHeadings.Available Main Pipe Ranges` [fehlt] Verfügbare Hauptrohr-Dimensionen
+- `products.labels.contentHeadings.Available Sizes` [fehlt] Verfügbare Dimensionen
+- `products.labels.contentHeadings.Material` [fehlt] Werkstoff
+- `products.labels.contentHeadings.Note` [fehlt] Hinweis
+- `products.labels.contentHeadings.Pipe Type Guide` [fehlt] Rohrtypen im Überblick
+- `products.labels.contentHeadings.Product Overview` [fehlt] Produktübersicht
+- `products.labels.contentHeadings.Specifications` [fehlt] Technische Daten
+- `products.labels.contentHeadings.Structural and Weld Integrity` [fehlt] Struktur- und Schweißfestigkeit
+- `products.labels.downloads` [füllstring] Downloads & Dokumente
+- `products.labels.faqFallbackA1` [füllstring] Das System bietet extreme Langlebigkeit, Korrosionsbeständigkeit und hervorragende hygienische Eigenschaften für Trinkwasser.
+- `products.labels.faqFallbackA2` [füllstring] Ja, PPRCT ist zu 100% recycelbar und hat einen sehr geringen CO2-Fußabdruck im Vergleich zu Metallrohren.
+- `products.labels.faqFallbackA3` [füllstring] Die Installation erfolgt sicher und leckagefrei durch Polyfusion-Schweißen.
+- `products.labels.faqFallbackQ1` [füllstring] Was sind die Hauptvorteile?
+- `products.labels.faqFallbackQ2` [füllstring] Ist das Material umweltfreundlich?
+- `products.labels.faqFallbackQ3` [füllstring] Wie erfolgt die Installation?
+- `products.labels.faqTitle` [füllstring] Häufig gestellte Fragen (FAQ)
+- `products.labels.features` [füllstring] Produkteigenschaften
+- `products.labels.featuresDesc` [füllstring] Materialeigenschaften & Systemvorteile (PDF)
+- `products.labels.install` [füllstring] Installations-Guide
+- `products.labels.installDesc` [füllstring] Anleitung zum Schweißen (PDF)
+- `products.labels.noResults` [füllstring] Keine Produkte gefunden
+- `products.labels.range` [füllstring] Produktprogramm
+- `products.labels.rangeDesc` [füllstring] Komplettes Produktprogramm mit Maßen (PDF)
+- `products.labels.searchPlaceholder` [füllstring] Suchen nach Titel oder Artikelnummer...
+- `products.labels.tds` [füllstring] Technisches Datenblatt
+- `products.labels.tdsDesc` [füllstring] Spezifikationen & Maße (PDF)
+- `products.labels.technicalDescription` [füllstring] Technisches Profil & SEO
+- `products.lead` [füllstring] Ein vollständiges Rohrleitungssystem für heißes und kaltes Trinkwasser: vom Rohr über das Formteil bis zur Schweißtechnik. Vier Bausteine, ein System.
+- `products.lifespan` [füllstring] Lifespan
+- `products.localAvailability` [füllstring] Lokale Verfügbarkeit
+- `products.localDesc` [füllstring] Finde lokale Händler, spezifische Zulassungen und Normen für deine Region.
+- `products.material` [füllstring] Material
+- `products.monitoring` [füllstring] überwacht
+- `products.narrative.intro` [füllstring] {title} in {dimensions} aus deutscher Fertigung. Artikelnummern {codes}. Maßtabelle, Datenblatt und 3D-Modell direkt bei K-Aqua.
+- `products.narrative.introNoDimension` [fehlt] {title} aus deutscher Fertigung. Artikelnummern {codes}. Maßtabelle, Datenblatt und 3D-Modell direkt bei K-Aqua.
+- `products.narrative.outro` [füllstring] Durch den Einsatz fortschrittlicher Polymerverarbeitungstechniken garantiert die geometrische Präzision von {title} optimale Strömungseigenschaften, minimiert Druckverluste und eliminiert das Risiko von Kalkablagerungen oder Korrosion über die gesamte Betriebslebensdauer vollständig. Diese kompromisslose Hingabe zur Materialwissenschaft stellt sicher, dass jede Verbindung auch unter extremen thermischen und Druckschwankungen absolute Integrität bewahrt. Ob in Wohnhochhäusern, kritischen Gesundheitseinrichtungen oder anspruchsvollen industriellen Verarbeitungsanlagen eingesetzt, liefert dieses Produkt eine wartungsfreie Zuverlässigkeit, auf die Ingenieure und Installateure blind vertrauen können.
+- `products.narrative.packaging` [füllstring] Die Logistik wird durch standardisierte Verpackungseinheiten optimiert, die für den sicheren weltweiten Transport und ein effizientes Handling auf der Baustelle konzipiert sind.
+- `products.narrative.rowCount` [füllstring] Unser technisches Portfolio bietet diese Konfiguration in {count} hochspezialisierten Dimensionsvarianten, die präzise skaliert sind, um den hydraulischen und mechanischen Anforderungen moderner Flüssigkeitstransportsysteme gerecht zu werden.
+- `products.narrative.sizeRange` [füllstring] Diese Komponente wird in einem umfangreichen Nennweitenbereich von kompakten {minSize} mm bis zu beachtlichen {maxSize} mm gefertigt, was maximale Vielseitigkeit in unterschiedlichsten Installationsszenarien gewährleistet.
+- `products.narrative.sizeSpecific` [füllstring] Diese Komponente ist präzise für eine spezifische Nennweite von {minSize} mm ausgelegt und bietet zielgerichtete Leistung für spezialisierte Rohrleitungsarchitekturen.
+- `products.narrative.weights` [füllstring] Die Materialeffizienz ist über das gesamte Sortiment hinweg optimiert, wobei die Stückgewichte je nach gewählter Dimension von {minWeight} kg bis zu {maxWeight} kg skalieren.
+- `products.norm` [füllstring] Standard
+- `products.pipes.bento.eyebrow` [füllstring] Spezifikationen
+- `products.pipes.bento.items.0.desc` [füllstring] Lückenloses Portfolio an Rohren und Fittings. Egal ob T-Stücke, Reduktionen oder Flanschverbindungen in gigantischen Dimensionen, wir liefern das komplette System aus einer Hand. Keine Kompromisse bei der Hydraulik.
+- `products.pipes.bento.items.0.title` [füllstring] Dimensionen von d20 bis d500
+- `products.pipes.bento.items.1.desc` [füllstring] Maßgeschneiderte Druckstufen (PN10 bis PN25) durch verschiedene Standard Dimension Ratios. Optimieren Sie Materialeinsatz und Durchfluss.
+- `products.pipes.bento.items.2.desc` [füllstring] Entspricht den strengsten europäischen Normen (UBA, DVGW). Absolut lebensmittelecht, geschmacks- und geruchsneutral. Optionale antibakterielle Innenbeschichtung.
+- `products.pipes.bento.items.2.title` [füllstring] Trinkwasserhygiene
+- `products.pipes.bento.items.3.desc` [füllstring] Für Freiluftinstallationen in extremen Klimazonen (z. B. Middle East) bieten wir spezielle UV-stabilisierte Rohre an. Die schützende Außenschicht blockiert UV-Strahlung und verhindert Polymer-Degradation.
+- `products.pipes.bento.items.3.title` [füllstring] UV-Beständige Außenrohre
+- `products.pipes.bento.lead` [füllstring] Skalierbar von d20 Hausanschlüssen bis zu d500 industriellen Steigleitungen. Unser System wächst mit den Dimensionen Ihres Projekts.
+- `products.pipes.bento.title` [füllstring] Eine Dimension für jede Anforderung.
+- `products.pipes.cta.desc` [füllstring] Senden Sie uns Ihre Isometrien oder P&ID-Pläne. Unser Engineering Team übernimmt die hydraulische Berechnung und Stücklistenerstellung für Ihr Großprojekt.
+- `products.pipes.cta.primary` [füllstring] Projektanfrage starten
+- `products.pipes.cta.title` [füllstring] Lassen Sie Ihr Projekt von Experten dimensionieren.
+- `products.pipes.hero.eyebrow` [füllstring] Rohrsysteme
+- `products.pipes.hero.lead` [füllstring] K Aqua PP-R Rohre und PPRCT Mehrschichtrohre für Trinkwasser, Heizung und Industrie: Mono- und Faserverbund-Ausführungen in allen Druckstufen, gefertigt in Deutschland nach DIN 8077/8078. Verfügbar von d20 bis d630 für dauerhaft dichte Verbindungen.
+- `products.pipes.hero.title` [füllstring] PP-R & PPRCT Rohre von d20 bis d630
+- `products.pipes.meta.desc` [füllstring] Hochleistungs-Rohrsysteme aus PP-R und PPRCT. German Engineering für Trinkwasser, Klima und Industrie. Kompromisslose Sicherheit für Megaprojekte.
+- `products.pipes.meta.title` [füllstring] PP-R & PPRCT Rohrsysteme | K Aqua
+- `products.pipes.sticky.eyebrow` [füllstring] Materialwissenschaft
+- `products.pipes.sticky.items.0.desc` [füllstring] Unsere PPRCT (Polypropylene Random Copolymere with modified Crystallinity and Temperature resistance) Rohre der neuesten Generation verfügen über eine integrierte Glasfasercompound-Schicht. Dies reduziert die thermische Längenausdehnung um bis zu 75% gegenüber Standard-PP-R Rohren, während die Druckbelastbarkeit bei hohen Temperaturen drastisch erhöht wird. Dünnere Wandstärken bei gesteigerter Durchflusskapazität sind das Resultat.
+- `products.pipes.sticky.items.0.title` [füllstring] PPRCT Multilayer-Architektur
+- `products.pipes.sticky.items.1.desc` [füllstring] Im Gegensatz zu Pressfittings oder Klebeverbindungen nutzen wir das Polyfusions-Schweißverfahren. Rohr und Fitting verschmelzen bei 260°C zu einer einzigen, untrennbaren molekularen Einheit. Das System kommt völlig ohne O-Ringe oder mechanische Dichtungen aus. Die Verbindungstelle ist physikalisch stärker als das Rohr selbst: eine 100% leckagefreie Lebensdauer ist garantiert.
+- `products.pipes.sticky.items.1.title` [füllstring] Homogenes Schweißen
+- `products.pipes.sticky.items.2.desc` [füllstring] Metallische Systeme kapitulieren vor aggressiven Wasserqualitäten, niedrigem pH-Wert oder hohem Chloridgehalt. K Aqua Polymerrohre sind vollständig inert. Lochfraß, Spaltkorrosion, galvanische Korrosion oder Inkrustationen sind physikalisch ausgeschlossen. Der Rohrreibungsverlust (Rauhigkeitswert k=0.007 mm) bleibt auch nach 50 Jahren Betrieb auf dem Niveau des ersten Tages, was die Pumpenenergie massiv senkt.
+- `products.pipes.sticky.items.2.title` [füllstring] Absolute Korrosionsfreiheit
+- `products.pipes.sticky.items.3.desc` [füllstring] Dank der geringen Wärmeleitfähigkeit von PP-R (0.24 W/mK) gegenüber Stahl (50 W/mK) oder Kupfer (380 W/mK) wird die Kondenswasserbildung bei Kühlanlagen stark verzögert und Wärmeverluste bei Heizsystemen minimiert. Zudem absorbieren unsere dickwandigen Polymerrohre Strömungsgeräusche und Wasserschläge (Water Hammers) effizient, was den akustischen Komfort in Hochhäusern und Hotels perfektioniert.
+- `products.pipes.sticky.items.3.title` [füllstring] Thermische und Akustische Isolation
+- `products.pipes.sticky.lead` [füllstring] Die molekulare Struktur unserer PP-R und PPRCT Rohre wurde für extreme thermomechanische Belastungen optimiert. Ein Meisterwerk deutscher Ingenieurskunst.
+- `products.pipes.sticky.title` [füllstring] Polymer-Engineering in Perfektion.
+- `products.pipes.timeline.desc` [füllstring] Jeder Zentimeter unserer Rohre wird im Extrusionsprozess überwacht. Vom Granulat bis zum fertigen Produkt: Qualität Made in Germany.
+- `products.pipes.timeline.items.0.text` [füllstring] Wir verarbeiten ausschließlich hochreine PP-R und PPRCT Granulate der weltweit führenden Polymer-Hersteller. Jede Charge durchläuft im hauseigenen Labor einen MFR-Test (Melt Flow Rate) sowie eine oxidative Induktionszeit-Messung (OIT) vor Freigabe für die Extrusion.
+- `products.pipes.timeline.items.0.title` [füllstring] Premium Rohmaterial
+- `products.pipes.timeline.items.0.year` [füllstring] Stufe 01
+- `products.pipes.timeline.items.1.text` [füllstring] Unsere hochmodernen Extrusionsanlagen fertigen 3-Schicht-Faserverbundrohre mit Mikrometer-Präzision. Ultraschall-Wandstärkenmessung in Echtzeit über 360° stellt sicher, dass selbst bei SDR 6 Rohren die minimal zulässigen Toleranzen unterschritten werden.
+- `products.pipes.timeline.items.1.title` [füllstring] Präzisions-Extrusion
+- `products.pipes.timeline.items.1.year` [füllstring] Stufe 02
+- `products.pipes.timeline.items.2.text` [füllstring] Unmittelbar nach der Extrusion werden die Rohre in speziell temperierten Wasserbädern stufenweise heruntergekühlt. Dieser schonende Abkühlprozess verhindert innere Eigenspannungen im Material und sorgt für höchste Maßhaltigkeit über alle Dimensionen.
+- `products.pipes.timeline.items.2.title` [füllstring] Thermisches Konditionieren
+- `products.pipes.timeline.items.2.year` [füllstring] Stufe 03
+- `products.pipes.timeline.items.3.text` [füllstring] Jedes Rohr erhält einen unauslöschlichen Laser-Aufdruck mit exakter Chargen- und Produktionszeit-Angabe. Selbst nach Jahrzehnten in der Wand lässt sich die Herkunft jedes K Aqua Rohres lückenlos bis zur Granulatcharge zurückverfolgen.
+- `products.pipes.timeline.items.3.title` [füllstring] 100% Traceability
+- `products.pipes.timeline.items.3.year` [füllstring] Stufe 04
+- `products.pipes.timeline.items.4.text` [füllstring] Hydraulischer Berstdruck-Test bei 95°C über 1000 Stunden. Zugversuche, Kerbschlagzähigkeit und toxikologische Unbedenklichkeitsprüfung. Nur wenn das Produkt alle Normen (DIN 8077/8078, EN ISO 15874) übertrifft, verlässt es unser Werkstatt.
+- `products.pipes.timeline.items.4.title` [füllstring] Prüfung & Freigabe
+- `products.pipes.timeline.items.4.year` [füllstring] Stufe 05
+- `products.pipes.timeline.title` [füllstring] Null Fehlertoleranz
+- `products.quickLinks` [füllstring] Schnellzugriff
+- `products.range.0.d` [füllstring] Monolayer- und glasfaserverstärkte Multilayer-Rohre in SDR 6, 7,4, 9, 11 und 17. Dimensionen von 20 mm bis 630 mm.
+- `products.range.0.t` [füllstring] Rohre: Mono & Multilayer
+- `products.range.1.d` [füllstring] Fittings von 20 mm bis 315 mm, ergänzt um Ventile, Verschraubungen und Übergangsstücke.
+- `products.range.1.t` [füllstring] Formteile & Armaturen
+- `products.range.2.d` [füllstring] Schneidwerkzeuge, Schweißgeräte und Schweißmaschinen für Muffen-, Stumpf- und Elektroschweißverfahren.
+- `products.range.2.t` [füllstring] Schweißtechnik & Werkzeug
+- `products.range.3.d` [füllstring] Ausgelegt für Trinkwasser (heiß und kalt) mit hoher Temperatur- und Druckbeständigkeit über Jahrzehnte.
+- `products.range.3.t` [füllstring] Heiß- & Kaltwasser
+- `products.seoArticle.accessories.advList.0` [füllstring] Perfekte Passform: Alle Zubehörteile sind geometrisch auf das K Aqua Rohrsystem abgestimmt.
+- `products.seoArticle.accessories.advList.1` [füllstring] Thermodynamische Befestigung: Rohrschellen mit Gummieinlage für Fest- und Loslager.
+- `products.seoArticle.accessories.advList.2` [füllstring] Hochwertige Flanschverbindungen: Losflansche und EPDM-Dichtungen für den Übergang auf Metall.
+- `products.seoArticle.accessories.advList.3` [füllstring] Schnelle Reparatur: Reparaturstopfen für versehentlich angebohrte Rohre.
+- `products.seoArticle.accessories.advList.4` [füllstring] UV-Beständigkeit: Ausgewählte Zubehörteile sind speziell für die Außenaufstellung stabilisiert.
+- `products.seoArticle.accessories.advTitle` [füllstring] PP-R Zubehör für die normgerechte Installation
+- `products.seoArticle.accessories.areas` [füllstring] Rohrbefestigung, Dichtung, Flanschverbindung, Reparatur
+- `products.seoArticle.accessories.faq.0.a` [füllstring] Ja, unsere Accessories wie Rohrschellen und Flachdichtungen sind für den Einsatz in Kaltwasser-, Warmwasser- und Heizungssystemen konzipiert und weisen eine hervorragende thermische Stabilität auf.
+- `products.seoArticle.accessories.faq.0.q` [füllstring] Sind die Zubehörteile für Kalt- und Warmwasser geeignet?
+- `products.seoArticle.accessories.faq.1.a` [füllstring] Um die volle K Aqua Systemgewährleistung in Anspruch zu nehmen, ist es zwingend erforderlich, Original-Zubehörteile zu verwenden. Fremdkomponenten können zu Dichtigkeitsproblemen oder mechanischen Ausfällen führen.
+- `products.seoArticle.accessories.faq.1.q` [füllstring] Kann ich Zubehör von Drittanbietern verwenden?
+- `products.seoArticle.accessories.faq.2.a` [füllstring] Ja, unser Sortiment umfasst hochbelastbare Losflansche mit Stahlkern, EPDM-Spezialdichtungen und verstärkte Rohrschellen, die extremen industriellen Belastungen problemlos standhalten.
+- `products.seoArticle.accessories.faq.2.q` [füllstring] Gibt es spezielles Zubehör für den industriellen Einsatz?
+- `products.seoArticle.accessories.guideText` [füllstring] <p>Ein hochwertiges Rohrsystem erfordert ebenso hochwertiges Zubehör für PP-R Rohrinstallationen. Das K Aqua Sortiment umfasst alle essenziellen Komponenten, um Langlebigkeit, Sicherheit und die Einhaltung aller bauphysikalischen Normen zu gewährleisten.</p><p>Die wichtigsten Aspekte zur richtigen Verwendung unseres Zubehörs:</p><ul><li><span class="font-semibold">Kompensation der Längenausdehnung:</span> Bei Temperaturwechseln dehnen sich Kunststoffrohre aus. Der gezielte Einsatz unserer thermodynamischen Rohrschellen als Fest- und Loslager nimmt diese Bewegungen sicher auf und schützt das System vor schädlichen Eigenspannungen. Dies ist besonders bei industriellen Anlagen und Steigleitungen von entscheidender Bedeutung, wo unkontrollierte Ausdehnungen zu strukturellen Schäden führen könnten.</li><li><span class="font-semibold">Dichte Flanschverbindungen:</span> Für Übergänge auf große Armaturen, Pumpen oder Tanks bieten unsere Losflansche und die exakt abgestimmten EPDM-Flachdichtungen absolute Sicherheit bei hohen Anpressdrücken und dauerhaften Vibrationen. Sie garantieren eine nahtlose, flüssigkeitsdichte Verbindung und verhindern so potenziell desaströse Leckagen in kritischen Infrastrukturen.</li><li><span class="font-semibold">Reparaturlösungen:</span> Mit unserem innovativen Reparaturstopfen lassen sich versehentlich angebohrte Rohre (z. B. auf Baustellen) in Minuten homogen verschweißen, sodass das Rohr seine volle mechanische Belastbarkeit zurückerhält. Ein kompletter Austausch des Leitungsabschnitts entfällt somit.</li></ul><p>Zusätzlich zur Kompensation und Dichtigkeit spielen <span class="font-semibold">Isolierung und Brandschutz</span> eine zentrale Rolle bei der fachgerechten Installation. Das Zubehörsortiment von K Aqua ist darauf ausgelegt, thermische Verluste zu minimieren und höchste Sicherheitsstandards zu erfüllen. Unsere Spezialdichtungen und Befestigungselemente sind so konstruiert, dass sie Schallübertragungen effektiv dämpfen und Körperschallausbreitung im Mauerwerk verhindern.</p><p>Durch die ausschließliche Verwendung von Original K Aqua Zubehörteilen sichern Sie sich die volle Systemgewährleistung und vermeiden kostenintensive Mängel durch inkompatible Drittanbieter-Produkte. Investieren Sie in kompromisslose Qualität, um den störungsfreien Betrieb Ihres Leitungssystems für Jahrzehnte zu garantieren.</p> Accessories (Zubehör) für eine normgerechte Installation.
+- `products.seoArticle.accessories.guideTitle` [füllstring] Fachratgeber: K Aqua Zubehör für normgerechte Installationen
+- `products.seoArticle.accessories.seoText` [füllstring] Das richtige Accessories-Sortiment (Zubehör) ist entscheidend für die Langlebigkeit eines Rohrnetzes. K Aqua bietet eine umfassende Zubehör-Matrix: von der thermodynamischen Befestigungsschelle zur Aufnahme von Längenausdehnungen bis hin zur EPDM-Flachdichtung für Flanschverbindungen. Nur mit dem perfekt abgestimmten K Aqua Zubehör gewährleisten Sie die Einhaltung aller GEG- und DIN 18381-Vorgaben.
+- `products.seoArticle.accessories.seoTitle` [füllstring] Zubehör für die Rohrinstallation
+- `products.seoArticle.fallback.advList.0` [füllstring] geprüfte Qualität: Entspricht dem ISO 9001 Managementsystem.
+- `products.seoArticle.fallback.advList.1` [füllstring] Systemkompatibilität: Perfekt auf das K Aqua Rohrsystem abgestimmt.
+- `products.seoArticle.fallback.advList.2` [füllstring] Langlebigkeit: Robuste Materialien für den rauen Baustellenalltag.
+- `products.seoArticle.fallback.advList.3` [füllstring] Sichere Anwendung: Garantierte Funktion bei fachgerechter Anwendung.
+- `products.seoArticle.fallback.advList.4` [füllstring] Wirtschaftlichkeit: Hervorragendes Preis-Leistungs-Verhältnis.
+- `products.seoArticle.fallback.advTitle` [füllstring] Perfekte Systemergänzung
+- `products.seoArticle.fallback.areas` [füllstring] Universelle Installationstechnik, Baustellenbedarf, Systemergänzung
+- `products.seoArticle.fallback.seoText` [füllstring] Als Systemanbieter liefert K Aqua nicht nur Rohre und Fittings, sondern auch das gesamte benötigte Werkzeug und Zubehör. Vom hochpräzisen Schweißgerät bis zum zuverlässigen Rohrabschneider: unsere Werkzeuge garantieren eine normgerechte Verarbeitung und maximale Installationssicherheit. Setzen Sie auf Originalzubehör, um die Gewährleistung Ihres K Aqua Gesamtsystems zu erhalten.
+- `products.seoArticle.fittings.advList.0` [füllstring] Homogene Verschweißung: Rohr und Fitting verschmelzen zu einer untrennbaren Einheit.
+- `products.seoArticle.fittings.advList.1` [füllstring] Keine Dichtungen nötig: Die dauerhafte Verbindung benötigt keine fehleranfälligen O-Ringe.
+- `products.seoArticle.fittings.advList.2` [füllstring] Einfache Montage: Schnelle und sichere Verarbeitung auf der Baustelle.
+- `products.seoArticle.fittings.advList.3` [füllstring] Voller Durchfluss: Keine Querschnittsverengung, wodurch der Systemdruck erhalten bleibt.
+- `products.seoArticle.fittings.advList.4` [füllstring] Chemische Beständigkeit: Resistent gegen eine Vielzahl aggressiver Medien.
+- `products.seoArticle.fittings.advTitle` [füllstring] PP-R Formteile: Sichere und homogene Verbindungen
+- `products.seoArticle.fittings.areas` [füllstring] Trinkwassernetz, Sanitärinstallation, Industrielle Verteilung, Heizungsbau
+- `products.seoArticle.fittings.guideText` [füllstring] <p>Unsere Kunststoff-Fittings & Formteile für PP-R sind das Herzstück jedes komplexen Rohrnetzwerks. Mit den hochwertigen <span class="font-semibold">K Aqua PP-R Formteilen</span> realisieren Sie Installationen, die höchsten Drücken und Temperaturen standhalten.</p><p>Die Vorteile der homogenen Verschweißung sind unbestritten:</p><ul><li><span class="font-semibold">Stoffschlüssige Verbindung:</span> Bei der Erwärmung verschmelzen Fitting und Rohr zu einem einzigen Werkstück. Dies schließt Schwachstellen wie alternde O-Ringe oder mechanische Verpressungen konsequent aus.</li><li><span class="font-semibold">Strömungsoptimierung:</span> Unsere Fittings sind so konzipiert, dass der Querschnitt an den Verbindungsstellen erhalten bleibt. Das minimiert Turbulenzen und reduziert den Energieverbrauch von Umwälzpumpen.</li><li><span class="font-semibold">Höchste Materialqualität:</span> Durch die Verwendung von erstklassigem Polypropylen Random Copolymerisat wird eine herausragende chemische und thermische Beständigkeit erzielt, die weit über den normativen Vorgaben liegt.</li></ul><p>Bei der Verarbeitung ist auf saubere, gratfreie Schnitte sowie auf die exakte Einhaltung der Erwärmungs- und Abkühlzeiten zu achten. So gewährleisten Sie die vom Hersteller zugesicherte, wartungsfreie Betriebszeit von über 50 Jahren in allen Installationsbereichen.</p>
+- `products.seoArticle.fittings.guideTitle` [füllstring] Technischer Leitfaden: Sichere Verbindungen mit K Aqua Formteilen
+- `products.seoArticle.fittings.seoText` [füllstring] Formteile von K Aqua sind das Bindeglied für zuverlässige Rohrnetze. Gefertigt in Deutschland, bieten diese Fittings höchste Präzision und Maßhaltigkeit. Die Verschweißungstechnik (Muffenschweißen) dauert nur wenige Sekunden und kühlt zu einer Verbindung ab, die genauso stark ist wie das Rohr selbst. Dadurch eliminieren Sie das Risiko von Mikroleckagen, wie sie oft bei Press- oder Stecksystemen nach Jahren auftreten können.
+- `products.seoArticle.fittings.seoTitle` [füllstring] Kunststoff-Fittings & Formteile
+- `products.seoArticle.pipes.advList.0` [füllstring] Keine Korrosion: 100% resistent gegen Lochfraß und Rost.
+- `products.seoArticle.pipes.advList.1` [füllstring] Geringer Druckverlust: Die extrem glatte Innenfläche minimiert Reibung und spart Pumpenenergie.
+- `products.seoArticle.pipes.advList.2` [füllstring] Lange Lebensdauer: Garantiert über 50 Jahre wartungsfrei im Dauereinsatz.
+- `products.seoArticle.pipes.advList.3` [füllstring] Geräuschreduktion: Hervorragende Schalldämmung gegen Fließgeräusche.
+- `products.seoArticle.pipes.advList.4` [füllstring] Hygienisch: Erfüllt strengste internationale Trinkwassernormen (DVGW, KIWA).
+- `products.seoArticle.pipes.advTitle` [füllstring] PP-R & PP-RCT Rohre: Überlegene Technik für jedes Projekt
+- `products.seoArticle.pipes.areas` [füllstring] Trinkwasserinstallation, Heizungsbau, Klimatechnik, Industrielle Anlagen, Schiffbau
+- `products.seoArticle.pipes.faq.0.a` [füllstring] PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) besitzt eine speziell modifizierte Kristallstruktur, die eine höhere Druckbeständigkeit bei erhöhten Betriebstemperaturen ermöglicht. Dadurch können dünnwandigere Rohre bei gleichem Nenndruck eingesetzt werden, was den Innendurchmesser und die hydraulische Durchflusskapazität um bis zu 17 % erhöht.
+- `products.seoArticle.pipes.faq.0.q` [füllstring] Was unterscheidet PPRCT von herkömmlichem PP-R bei Rohrleitungssystemen?
+- `products.seoArticle.pipes.faq.1.a` [füllstring] Unsere K-Fiber Rohre besitzen eine integrierte Mittelschicht aus glasfaserverstärktem Polypropylen. Diese Schicht stabilisiert das Rohr mechanisch und senkt den Ausdehnungskoeffizienten auf ca. 0,035 mm/(m·K). Dies entspricht einer Reduktion der thermischen Längenausdehnung um 75 % gegenüber Standard-Kunststoffrohren.
+- `products.seoArticle.pipes.faq.1.q` [füllstring] Wie reduziert die K-Fiber Faserverbundtechnologie die thermische Längenausdehnung?
+- `products.seoArticle.pipes.faq.2.a` [füllstring] Ja, K Aqua Rohrsysteme erfüllen die strengsten Prüf- und Hygieneanforderungen internationaler Zertifizierungsstellen wie DVGW, KIWA und WRAS. Der Werkstoff ist vollkommen unbedenklich, geschmacks- und geruchsneutral und verhindert wirksam Kalk- sowie Biofilmbildung.
+- `products.seoArticle.pipes.faq.2.q` [füllstring] Sind K Aqua PP-R Rohrsysteme für Trinkwasser zertifiziert?
+- `products.seoArticle.pipes.faq.3.a` [füllstring] Die Verbindung erfolgt durch thermische Polyfusion bei 260°C. Rohr und Fitting verschmelzen dabei auf molekularer Ebene zu einer homogenen, unlösbaren Einheit. Da keine fehleranfälligen Gummidichtungen oder Pressfittings verwendet werden, bleibt die Schweißnaht über 50 Jahre lang vollkommen dicht.
+- `products.seoArticle.pipes.faq.3.q` [füllstring] Wie wird eine absolut leckagefreie Schweißverbindung hergestellt?
+- `products.seoArticle.pipes.faq.4.a` [füllstring] K Aqua bietet Rohrsysteme in den Druckstufen SDR 6, SDR 7.4, SDR 9 und SDR 11 (PN10 bis PN25) sowie in Außendurchmessern von 20 mm bis 250 mm an. Damit lassen sich sowohl feingliedrige Etagenverteilungen als auch massive Haupt- und Steigleitungen realisieren.
+- `products.seoArticle.pipes.faq.4.q` [füllstring] Welche Druckstufen und Dimensionen sind für K Aqua Rohre verfügbar?
+- `products.seoArticle.pipes.guideText` [füllstring] <h2>Umfassender Ratgeber: Planung, Werkstoffkunde und Installation von K Aqua PP-R & PPRCT Rohrsystemen</h2><p>Willkommen zu unserer PP-R & PPRCT Rohrsysteme Übersicht. Die Auswahl des richtigen Rohrwerkstoffs ist das entscheidende Fundament für die Langlebigkeit, Betriebssicherheit und Energieeffizienz moderner Gebäude- und Industrieinfrastrukturen. Unsere in Deutschland (Waldsolms) gefertigten <span class="font-semibold">PP-R und PPRCT Rohrsysteme</span> bieten dank ihrer exzellenten thermischen, chemischen und mechanischen Eigenschaften die zukunftssichere Alternative zu herkömmlichen Metallrohren aus Kupfer, Stahl oder Messing.</p><p>Egal ob in der Haustechnik für Trinkwasser- und Heizungsnetze, im industriellen Anlagenbau, in Kühlsystemen oder im Schiffbau, K Aqua Rohre stehen für kompromisslose deutsche Ingenieurskunst und gewährleisten über Jahrzehnte hinweg einen absolut leckagefreien und wartungsfreien Betrieb.</p><h2>Werkstoffinnovation: PP-R und PPRCT im direkten Vergleich</h2><p>Während Standard-Polypropylen Random Copolymer (PP-R) bereits hervorragende Eigenschaften hinsichtlich Korrosionsbeständigkeit und Hygiene aufweist, setzt das weiterentwickelte PPRCT (Polypropylene Random Copolymer with Modified Crystallinity Temperature resistance) neue Maßstäbe in der Rohrleitungstechnik. Durch eine gezielte Modifikation der Kristallstruktur im Polymerisationsprozess bietet PPRCT eine deutlich höhere Druckfestigkeit bei erhöhten Betriebstemperaturen bis zu 95°C.</p><p>Dieser werkstofftechnische Vorteil ermöglicht es, Rohre mit wesentlich geringerer Wandstärke (höhere SDR-Klassen) bei gleichem Nenndruck herzustellen. Die Ergebnisse für den Anwender sind herausragend:</p><ul><li><span class="font-semibold">Erhöhter Hydraulikdurchfluss:</span> Ein größerer Innendurchmesser steigert das Durchflussvolumen um bis zu 17 % im Vergleich zu Standard-PP-R Rohren.</li><li><span class="font-semibold">Reduziertes Rohrgewicht:</span> Die Einsparung von Material vereinfacht den Transport und das Handling auf der Baustelle erheblich.</li><li><span class="font-semibold">Höhere Druckreserven:</span> Maximale Sicherheitsreserven selbst bei Spitzenbelastungen im kontinuierlichen Heißwassereinsatz.</li></ul><h2>Faserverbundtechnologie (K-Fiber) für minimale Längenausdehnung</h2><p>Ein zentraler Aspekt bei der Planung von Warmwasser- und Heizungsleitungen ist die thermische Längenausdehnung von Kunststoffrohren. K Aqua begegnet dieser Herausforderung mit der innovativen K-Fiber Faserverbundtechnologie. Die dreischichtig aufgebauten K-Fiber Rohre verfügen über eine mittlere Polypropylenschicht, die mit hochfesten Glasfasern verstärkt ist.</p><p>Diese mechanische Stabilisierung reduziert den linearen Wärmeausdehnungskoeffizienten auf exakt 0,035 mm/(m·K), was einer Reduktion der thermischen Längenausdehnung um rund 75 % im Vergleich zu nicht armierten Vollkunststoffrohren entspricht. Für Fachplaner und Installateure bedeutet dies:</p><ul><li><span class="font-semibold">Weniger Dehnungsausgleicher:</span> Signifikante Einsparung von Biegeschenkeln und Ausgleichsbögen im Leitungsverlauf.</li><li><span class="font-semibold">Größere Befestigungsabstände:</span> Einsparung von Rohrleitungsschellen und Festpunkten bei der Trassenführung.</li><li><span class="font-semibold">Formstabile Verlegung:</span> Kein Durchhängen der Rohre in offenen Trassen oder Steigleitungen.</li></ul><h2>Homogene Polyfusions-Schweißung: Leckagesicherheit für 50+ Jahre</h2><p>Das Herzstück des K Aqua Rohrsystems ist die unlösbare, stoffschlüssige Verbindungstechnik durch thermische Polyfusion. Beim Schweißvorgang werden das Rohrende und die Muffe des Formteils mittels eines elektronisch geregelten Schweißgeräts auf exakt 260°C erwärmt. Dabei schmelzen die Polymerketten beider Komponenten an den Fügeflächen an.</p><p>Beim Zusammenfügen verschränken sich die geschmolzenen Makromoleküle auf molekularer Ebene vollständig ineinander. Nach dem Erkalten entsteht eine homogene, monolithische Materialstruktur ohne Nahtstellen, Klebstoffe oder elastische Dichtungen. Da keine Gummi-O-Ringe oder mechanischen Pressverbindungen verwendet werden, gehören Alterungsschäden, Verharzungen oder Sprödigkeit von Dichtungen der Vergangenheit an. Die Schweißverbindung hält denselben Drücken stand wie das Rohr selbst.</p><h2>Hydraulik, Hygiene und Umweltverträglichkeit</h2><p>Trinkwassersicherheit und Energieeffizienz stehen bei K Aqua an erster Stelle. Die spiegelglatte Innenoberfläche unserer PP-R und PPRCT Rohre weist eine extrem geringe Rauhigkeit von nur k = 0,007 mm auf. Dies verhindert effektiv die Anhaftung von Kalkablagerungen (Inkrustation) und unterbindet die Bildung von Nährböden für Biofilme und Legionellen.</p><p>Zudem ist der Werkstoff Polypropylen physiologisch vollkommen unbedenklich, geschmacks- und geruchsneutral sowie frei von Schwermetallen und Weichmachern. K Aqua Rohrsysteme sind weltweit nach strengsten Prüfnormen zertifiziert (u. a. DVGW, KIWA, WRAS). Auch ökologisch überzeugt das System: Das Polymer ist zu 100 % recycelbar und weist im Vergleich zu Metallrohren eine hervorragende Ökobilanz im Herstellungsprozess auf.</p><h2>Wichtige Verlege- und Planungshinweise</h2><p>Um eine einwandfreie Funktion über die garantierte Lebensdauer von 50 Jahren sicherzustellen, sind bei der Verlegung folgende Punkte zu beachten:</p><ul><li><span class="font-semibold">Druckprüfung:</span> Nach Abschluss der Montage muss das Rohrnetz einer Druckprüfung gemäß DIN 1988 / DIN EN 806 unterzogen werden.</li><li><span class="font-semibold">Wärmedämmung:</span> Rohre für Warmwasser und Heizung sind gemäß den geltenden Energieeinsparverordnungen (z. B. GEG) fachgerecht zu dämmen, um Wärmeverluste zu minimieren.</li><li><span class="font-semibold">UV-Schutz:</span> Bei Freiverlegung im Außenbereich sind UV-geschützte Rohre zu verwenden oder geeignete Abdeckungen vorzusehen.</li></ul>
+- `products.seoArticle.pipes.guideTitle` [füllstring] Umfassender Ratgeber: Planung und Installation von K Aqua PP-R & PPRCT Rohrsystemen
+- `products.seoArticle.pipes.seoText` [füllstring] Unsere Hochleistungsrohre werden in Waldsolms nach höchsten Qualitätsstandards gefertigt. Die Materialkombination PP-R und PPRCT sorgt für außergewöhnliche Temperatur- und Druckbeständigkeit. Egal ob in der Haustechnik, im industriellen Anlagenbau oder bei komplexen Kühlsystemen, dieses Rohrsystem liefert maximale Sicherheit und Effizienz. Die einfache und sichere Schweißtechnik garantiert absolut leckagefreie Verbindungen.
+- `products.seoArticle.pipes.seoTitle` [füllstring] PP-R & PPRCT Rohrsysteme Übersicht
+- `products.seoArticle.tools.advList.0` [füllstring] Exakte Temperaturkontrolle: Mikroprozessorgesteuerte Heizelemente halten exakt 260°C.
+- `products.seoArticle.tools.advList.1` [füllstring] Antihaft-Beschichtung: Teflon-PTFE für eine rückstandsfreie Schmelze.
+- `products.seoArticle.tools.advList.2` [füllstring] Ergonomisches Design: Reduziert die physische Belastung des Installateurs.
+- `products.seoArticle.tools.advList.3` [füllstring] Digitale Dokumentation: Stumpf- und Elektroschweißmaschinen mit Protokollfunktion.
+- `products.seoArticle.tools.advList.4` [füllstring] Lange Lebensdauer: Robuste Mechanik für den rauen Baustellenalltag.
+- `products.seoArticle.tools.advTitle` [füllstring] PP-R Schweißwerkzeuge: Präzision für die perfekte Verbindung
+- `products.seoArticle.tools.areas` [füllstring] Vorfertigung, Baustellenmontage, Reparatur, Spezialanwendungen
+- `products.seoArticle.tools.guideText` [füllstring] <p>Die Qualität einer Kunststoffrohr-Installation steht und fällt mit der Präzision der verwendeten Schweißwerkzeuge & Rohrabschneider für PP-R. <span class="font-semibold">K Aqua Schweiß- und Schneidwerkzeuge</span> sind speziell auf die thermoplastischen Eigenschaften von PP-R und PPRCT abgestimmt, um fehlerfreie Ergebnisse zu erzielen.</p><p>Warum professionelles Equipment unverzichtbar ist:</p><ul><li><span class="font-semibold">Makellose Vorbereitung:</span> Ein absolut rechtwinkliger und gratfreier Schnitt ist die Grundvoraussetzung für eine dichte Schweißnaht. Unsere Rohrschneider und Kaltkreissägen verhindern Materialstauchungen und Mikrorisse.</li><li><span class="font-semibold">Thermodynamische Präzision:</span> Die mikroprozessorgesteuerten Muffenschweißgeräte halten die ideale Fügetemperatur von 260°C auch bei widrigen Wetterbedingungen konstant, was eine Degradation des Polymers zuverlässig verhindert.</li><li><span class="font-semibold">Automatisierte Sicherheit:</span> Bei großen Nennweiten eliminieren unsere computergesteuerten Stumpfschweiß- und Elektroschweißmaschinen menschliche Fehler, indem sie Druck, Zeit und Temperatur vollautomatisch regeln und für die Bauabnahme digital dokumentieren.</li></ul><p>Eine regelmäßige Wartung und Reinigung der teflonbeschichteten Heizdorne ist essenziell, um eine homogene Schmelze und dauerhaft belastbare, leckagefreie Leitungsnetze zu gewährleisten.</p>
+- `products.seoArticle.tools.guideTitle` [füllstring] Praxisleitfaden: Profi-Werkzeuge für die K Aqua Rohrmontage
+- `products.seoArticle.tools.seoText` [füllstring] Das K Aqua Werkzeugsortiment bildet die unverzichtbare Grundlage für die fachgerechte Verarbeitung unserer Rohrleitungssysteme. Von der präzisen Rohrschere bis zur automatisierten CNC-Stumpfschweißmaschine bieten wir für jede Dimension das optimale Equipment. Nur mit kalibrierten Originalwerkzeugen lassen sich die vom DVS geforderten Fügeparameter exakt einhalten, um die Lebensdauer von über 50 Jahren zu garantieren.
+- `products.seoArticle.tools.seoTitle` [füllstring] Schweißwerkzeuge & Rohrabschneider
+- `products.seoArticle.transitionFittings.advList.0` [fehlt] Tief verankerte Metalleinsätze mit höchster Ausreißfestigkeit
+- `products.seoArticle.transitionFittings.advList.1` [fehlt] UBA-konforme Trinkwasserhygiene
+- `products.seoArticle.transitionFittings.advList.2` [fehlt] Messing- und Edelstahlvarianten für jede Umgebung
+- `products.seoArticle.transitionFittings.advList.3` [fehlt] Dauerhaft dichte Verbindung zu Bestandsinstallationen
+- `products.seoArticle.transitionFittings.advTitle` [fehlt] PP-R Übergangsformteile: Die sichere Schnittstelle zu Metall
+- `products.seoArticle.transitionFittings.seoText` [fehlt] Hochbelastbare Übergangsmuffen, Wandwinkel und Verschraubungen mit tief verankerten Messing- oder Edelstahleinsätzen verbinden das PP-R System dauerhaft dicht mit Armaturen, Pumpen und Bestandsleitungen aus Metall.
+- `products.seoArticle.transitionFittings.seoTitle` [fehlt] PP-R Übergangsformteile: Metall-Kunststoff-Verbindungen
+- `products.seoArticle.valves.advList.0` [füllstring] Wartungsfrei: Die Mechanik ist auf jahrzehntelange reibungslose Funktion ausgelegt.
+- `products.seoArticle.valves.advList.1` [füllstring] Voller Durchgang: Kugelhähne mit vollem Querschnitt minimieren Druckverluste.
+- `products.seoArticle.valves.advList.2` [füllstring] Einfache Integration: Direkt in das PP-R System einschweißbar.
+- `products.seoArticle.valves.advList.3` [füllstring] Hochwertige Materialien: Ventilsitze und Kugeln aus korrosionsfesten Legierungen.
+- `products.seoArticle.valves.advList.4` [füllstring] Sichere Absperrung: 100% dicht selbst unter extremen Druck- und Temperaturwechseln.
+- `products.seoArticle.valves.advTitle` [füllstring] PP-R Armaturen & Ventile: Präzise Steuerung, langlebige Funktion
+- `products.seoArticle.valves.areas` [füllstring] Strangabsperrung, Anlagensteuerung, Verteilerschränke, Industrie
+- `products.seoArticle.valves.guideText` [füllstring] <p>Unsere Armaturen & Ventile für PP-R ermöglichen die präzise Steuerung und Isolation von Stoffströmen in modernen Wasser- und Heizungsnetzen. <span class="font-semibold">K Aqua Absperrarmaturen und Ventile</span> kombinieren die Langlebigkeit von Polypropylen mit der Präzision metallischer Dicht- und Stellmechanismen.</p><p>Was Sie bei der Integration von PP-R Ventilen wissen müssen:</p><ul><li><span class="font-semibold">Totraumfreie Konstruktion:</span> Zur Vermeidung von Stagnationswasser und Verkeimung (z. B. Legionellen) sind unsere Armaturen strömungsoptimiert und hygienegerecht konstruiert, was sie ideal für sensible Trinkwasserinstallationen macht.</li><li><span class="font-semibold">Druck- und Temperaturstabilität:</span> Die massiven Ventilkörper und die hochwertigen Messing- oder PP-Kugeln gewährleisten eine 100%ige Abdichtung, selbst bei extremen Druckschlägen und hohen Vorlauftemperaturen.</li><li><span class="font-semibold">Wartungsfreundlichkeit:</span> Auch nach vielen Jahren im Dauereinsatz lassen sich K Aqua Kugelhähne und Schrägsitzventile dank teflonbeschichteter Dichtelemente leichtgängig und präzise bedienen.</li></ul><p>Für eine maximale Anlagenverfügbarkeit empfehlen wir, die Armaturen bereits in der Planungsphase strategisch zu positionieren, um Wartungsarbeiten und Spülvorgänge ohne weitreichende Netzunterbrechungen durchführen zu können.</p>
+- `products.seoArticle.valves.guideTitle` [füllstring] Expertenratgeber: Anlagensteuerung mit K Aqua Ventilen und Armaturen
+- `products.seoArticle.valves.seoText` [füllstring] Absperrarmaturen und Ventile von K Aqua kombinieren die bewährte PP-R Schweißtechnik mit hochwertigen mechanischen Komponenten. Sie ermöglichen eine präzise Steuerung von Fluiden und eine sichere Isolation von Netzabschnitten für Wartungsarbeiten. Jede Armatur wird vor der Auslieferung strengen Druckprüfungen unterzogen, um höchste Betriebssicherheit in kritischen Anwendungen zu gewährleisten.
+- `products.seoArticle.valves.seoTitle` [füllstring] Absperrventile & Kugelhähne
+- `products.seoArticle.weldInSaddles.advList.0` [füllstring] Nachträgliche Installation: Erweiterung bestehender PP-R Rohrnetze ohne Trennen des Hauptrohres.
+- `products.seoArticle.weldInSaddles.advList.1` [füllstring] Zeitsparend: Bohren, Aufheizen, Einschweißen, fertig in wenigen Minuten.
+- `products.seoArticle.weldInSaddles.advList.2` [füllstring] Druckresistent: Die Sattelschweißung erreicht dieselbe Druckstufe wie das Basisrohr.
+- `products.seoArticle.weldInSaddles.advList.3` [füllstring] Voller Durchfluss: Keine Querschnittsverengung im Hauptstrang.
+- `products.seoArticle.weldInSaddles.advList.4` [füllstring] Vielseitig: Erhältlich mit oder ohne metallischen Gewindeübergang (IG/AG).
+- `products.seoArticle.weldInSaddles.advTitle` [füllstring] Weld-in Saddles (Einschweißsättel) für maximale Flexibilität
+- `products.seoArticle.weldInSaddles.areas` [füllstring] Nachträgliche Abzweige, Rohrnetzerweiterung, Verteilungsaufbau
+- `products.seoArticle.weldInSaddles.guideText` [füllstring] <p>Die Modifikation oder Erweiterung bestehender industrieller und gewerblicher Rohrnetze ist oft mit hohem Aufwand verbunden. Hier bieten unsere Einschweißsättel & Abzweige für PP-R Rohre eine effiziente und äußerst sichere Lösung. <span class="font-semibold">K Aqua Einschweißsättel</span> schaffen nachträgliche Abzweige ohne Leitungsunterbrechung.</p><p>Die wesentlichen technischen Vorteile im Überblick:</p><ul><li><span class="font-semibold">Minimale Installationszeit:</span> Anstatt das Hauptrohr zu trennen und konventionelle T-Stücke einzubauen, wird das Rohr lediglich passgenau angebohrt und der Sattel aufgeschweißt. Das senkt die Montagekosten drastisch.</li><li><span class="font-semibold">Erhalt der Systemintegrität:</span> Durch die Polyfusion verbindet sich der Einschweißsattel untrennbar mit der Rohrwandung, wodurch das System seine ursprüngliche Druck- und Temperaturbeständigkeit (bis PN 25) beibehält.</li><li><span class="font-semibold">Flexible Anschlussmöglichkeiten:</span> Erhältlich als reiner Kunststoffabzweig oder mit integriertem Metallgewinde (IG/AG), ermöglichen Sättel den direkten Anschluss von Sensoren, Manometern oder Abzweigleitungen auf engstem Raum.</li></ul><p>Um eine einwandfreie Schweißung zu gewährleisten, ist die Verwendung der speziellen K Aqua Anbohr- und Schweißwerkzeuge zwingend erforderlich, da sie die exakte Frästiefe und Erwärmungsfläche für eine makellose Verbindung garantieren.</p>
+- `products.seoArticle.weldInSaddles.guideTitle` [füllstring] Installationsleitfaden: Flexibilität durch Einschweißsättel (Weld-in Saddles)
+- `products.seoArticle.weldInSaddles.seoText` [füllstring] Weld-in Saddles (Einschweißsättel) für maximale Flexibilität sind die perfekte Lösung für nachträgliche Abzweige in bestehenden Leitungsnetzen. Anstatt das Hauptrohr mühsam zu trennen und T-Stücke einzusetzen, wird das Rohr lediglich angebohrt und der Sattel homogen aufgeschweißt. Diese Technik spart enorme Montagezeiten und Materialkosten bei industriellen Verteilersystemen.
+- `products.seoArticle.weldInSaddles.seoTitle` [füllstring] Einschweißsättel für Rohrleitungen
+- `products.specAndDim` [füllstring] Spezifikationen & Dimensionen
+- `products.sysEyebrow` [füllstring] Das System
+- `products.sysPressure` [füllstring] System Pressure
+- `products.sysTitle` [füllstring] K-Aqua PP-R Rohre & Fittings: Vier Bausteine, ein System.
+- `products.tableHead.0` [füllstring] Komponente
+- `products.tableHead.1` [füllstring] Dimension
+- `products.tableHead.2` [füllstring] Druckstufen
+- `products.tableRows.0.0` [füllstring] Monolayer-Rohre
+- `products.tableRows.0.1` [füllstring] 20 – 630 mm
+- `products.tableRows.1.0` [füllstring] Multilayer-Rohre (GF-verstärkt)
+- `products.tableRows.1.1` [füllstring] 20 – 630 mm
+- `products.tableRows.2.0` [füllstring] Formteile
+- `products.tableRows.2.1` [füllstring] 20 – 315 mm
+- `products.tableRows.2.2` [füllstring] systemkompatibel
+- `products.tableRows.3.0` [füllstring] Ventile & Verschraubungen
+- `products.tableRows.3.1` [füllstring] systemabhängig
+- `products.tableRows.4.0` [füllstring] Schweißtechnik & Werkzeuge
+- `products.tableRows.4.1` [füllstring] alle Dimensionen
+- `products.techEyebrow` [füllstring] Technische Daten
+- `products.techLead` [füllstring] Je nach Rohrtyp ab 20 mm bis 630 mm, Formteile bis 315 mm.
+- `products.technicalSpecs` [füllstring] Technische Spezifikationen
+- `products.techTitle` [füllstring] Dimensionen & Druckstufen
+- `products.tempMax` [füllstring] Max Temperature
+- `products.title1` [füllstring] PP-R/PPRCT Rohre & Formteile für
+- `products.titleGrad` [füllstring] Trinkwasser.
+- `products.tools.bento1Desc` [füllstring] Für Dimensionen 20 mm bis 125 mm. Kompakte, robuste Bauweise für den harten Baustelleneinsatz.
+- `products.tools.bento1Title` [füllstring] Heizelemente-Muffenschweißgeräte
+- `products.tools.bento2Desc` [füllstring] Ergonomische Designs für ermüdungsfreies Arbeiten und perfekte 90°-Schnitte.
+- `products.tools.bento2Title` [füllstring] Rohrschneider & Scheren
+- `products.tools.bento3Desc` [füllstring] Für Nennweiten bis zu 250 mm. CNC-gesteuert für absolute Wiederholgenauigkeit.
+- `products.tools.bento3Title` [füllstring] Stumpfschweißmaschinen
+- `products.tools.bento4Desc` [füllstring] Bohrerköpfe, Reparatursättel und Lochsägen für nachträgliche Abzweige.
+- `products.tools.bento4Title` [füllstring] Reparatursets & Zubehör
+- `products.tools.bentoEyebrow` [füllstring] Das K Aqua Ökosystem
+- `products.tools.bentoLead` [füllstring] Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten und hochpräzises Equipment.
+- `products.tools.bentoTitle` [füllstring] Werkzeuge für globale Megaprojekte.
+- `products.tools.ctaBtn` [füllstring] Projektanfrage starten
+- `products.tools.ctaDesc` [füllstring] Sprechen Sie mit unserem Engineering Team über Ihr nächstes Megaprojekt und fordern Sie Muster unserer Werkzeuge an.
+- `products.tools.ctaTitle` [füllstring] Bereit für kompromisslose Qualität?
+- `products.tools.hero.eyebrow` [füllstring] Werkzeuge & Zubehör
+- `products.tools.hero.lead` [füllstring] Muffenschweißgeräte, Heizwendel-Technik und Kalibrierwerkzeug: Mit K Aqua Originalwerkzeugen entstehen normgerechte, dauerhaft dichte Schweißverbindungen auf jeder Baustelle. Professionelle Werkzeuge für die PP-R Installation.
+- `products.tools.hero.title` [füllstring] Schweißwerkzeuge für die PP-R Installation
+- `products.tools.heroBtnPrimary` [füllstring] Projekt anfragen
+- `products.tools.heroBtnSecondary` [füllstring] Technische Daten
+- `products.tools.heroDesc` [füllstring] Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Wo Materialversagen keine Option ist.
+- `products.tools.heroEyebrow` [füllstring] German Engineering
+- `products.tools.heroSubtitle` [füllstring] Absolute Präzision.
+- `products.tools.heroTitle` [füllstring] Werkzeuge & Zubehör.
+- `products.tools.metaDesc` [füllstring] Entdecken Sie professionelle K-Aqua Werkzeuge und Zubehörteile. Für sichere, effiziente und langlebige Installationen von PP-R und PP-RCT Rohrleitungssystemen.
+- `products.tools.metaTitle` [füllstring] PP-R Werkzeuge & Zubehör für Rohrsysteme
+- `products.tools.scroll1Desc` [füllstring] Unsere Heizelemente-Muffenschweißgeräte sind mit hochpräzisen, teflonbeschichteten Heizdornen und Heizbuchsen ausgestattet. Die mikroprozessorgesteuerte Temperaturregelung garantiert eine konstante Schweißtemperatur von 260°C, selbst bei extremen Außentemperaturen auf globalen Baustellen. So entsteht eine untrennbare, homogene Verbindung auf molekularer Ebene.
+- `products.tools.scroll1Title` [füllstring] Perfekte Thermodynamik. Bei jeder Schweißung.
+- `products.tools.scroll2Desc` [füllstring] Für große Nennweiten (bis zu 250 mm und mehr) setzen wir auf CNC-gesteuerte Stumpfschweißmaschinen. Automatische Druck- und Zeitberechnung eliminieren menschliche Fehlerquellen. Jeder Schweißzyklus wird digital protokolliert, um eine lückenlose Rückverfolgbarkeit für die Bauabnahme sicherzustellen. German Engineering auf höchstem Niveau.
+- `products.tools.scroll2Title` [füllstring] CNC-gesteuerte Stumpfschweißung.
+- `products.tools.scroll3Desc` [füllstring] Die Vorbereitung ist 80% der Schweißung. Unsere mechanischen und elektrischen Rohrschäler entfernen die Oxidschicht von K Aqua Rohren mit absolut gleichmäßiger Schnitttiefe. Dies verhindert Mikrorisse und stellt eine perfekte Fusionsebene her. Ein Werkzeug, das Generationen überdauert.
+- `products.tools.scroll3Title` [füllstring] Präzisions-Rohrschäler. Auf den Millimeter genau.
+- `products.tools.scroll4Desc` [füllstring] Rohrscheren können das Material verformen. Unsere industriellen Kaltkreissägen garantieren perfekt rechtwinklige, gratfreie Schnitte. Das Resultat: Keine spannungsinduzierten Risse, kein Druckverlust, absolute Planparallelität vor dem Schweißvorgang.
+- `products.tools.scroll4Title` [füllstring] Kaltkreissägen für exakte Schnitte.
+- `products.tools.scrollEyebrow` [füllstring] Tiefe Technologie
+- `products.tools.scrollLead` [füllstring] Entdecken Sie die technologischen Details, die unser Werkzeug zur ersten Wahl für geprüfte Installateure machen.
+- `products.tools.scrollTitle` [füllstring] Kein Raum für Fehlertoleranzen.
+- `products.tools.specsList2` [füllstring] Teflon PTFE Beschichtung der Güteklasse A
+- `products.tools.specsList3` [füllstring] Digitale Temperaturkalibrierung
+- `products.tools.specsP1` [füllstring] Seit Jahrzehnten bündeln wir in unserem Stammwerk im Herzen Deutschlands handwerklichen Stolz mit modernster, hochautomatisierter Fertigungstechnologie.
+- `products.tools.specsP2` [füllstring] Im Einsatz in den härtesten Wüsten und extremsten Klimazonen der Welt beweist sich unser Material jeden Tag aufs Neue. Wir setzen den Standard, dem der Rest der Welt folgt.
+- `products.tools.specsTitle` [füllstring] Industrielle Autorität. <br/> Bis ins Detail.
+- `products.tools.timeline1Text` [füllstring] Ein gratfreier, 90-Grad-Schnitt ist das Fundament jeder dauerhaften Verbindung. Unsere Präzisionsschneider und Kaltkreissägen garantieren eine absolut plane Oberfläche ohne mikrostrukturelle Verformungen des Polypropylens.
+- `products.tools.timeline1Title` [füllstring] Der perfekte Schnitt.
+- `products.tools.timeline1Year` [füllstring] Phase 1: Materialvorbereitung
+- `products.tools.timeline2Text` [füllstring] Vor dem Schweißen wird das Rohr exakt kalibriert und die äußere Oxidschicht mit unseren speziellen Schäler-Werkzeugen auf den Millimeter genau abgetragen. Das ermöglicht eine 100% reine Oberfläche für den Fusionsprozess.
+- `products.tools.timeline2Title` [füllstring] Entfernung der Oxidschicht.
+- `products.tools.timeline2Year` [füllstring] Phase 2: Kalibrierung & Schälen
+- `products.tools.timeline3Text` [füllstring] Rohr und Fitting werden simultan auf der teflonbeschichteten Heizmatrix auf exakt 260°C erwärmt. Der mikroprozessorgesteuerte Thermostat der K Aqua Schweißgeräte hält die Temperatur konstant, unabhängig von Wind oder Wetter.
+- `products.tools.timeline3Title` [füllstring] Molekulare Verschmelzung.
+- `products.tools.timeline3Year` [füllstring] Phase 3: Thermische Fusion
+- `products.tools.timeline4Text` [füllstring] Innerhalb der vorgegebenen Umstellzeit werden die erhitzten Bauteile ohne Verdrehen ineinandergefügt. Nach der Auskühlphase entsteht ein neues, absolut homogenes Werkstück. Wartungsfrei für über 50 Jahre.
+- `products.tools.timeline4Title` [füllstring] Lebenslange Sicherheit.
+- `products.tools.timeline4Year` [füllstring] Phase 4: Die Verbindung
+- `products.tools.timelineDesc` [füllstring] Vom Schnitt bis zur molekularen Fusion. Ein standardisierter Prozess, der zu 100% dichten und wartungsfreien Rohrsystemen führt.
+- `products.tools.timelineTitle` [füllstring] Der K Aqua Schweißprozess
+- `products.transitionFittings.bento.eyebrow` [füllstring] Spezifikationen
+- `products.transitionFittings.bento.items.0.desc` [füllstring] Entzinkungsbeständiges Messing der Güteklasse CW617N (nach DIN EN 12164) eliminiert das Risiko von selektiver Korrosion in aggressiven Wasserqualitäten.
+- `products.transitionFittings.bento.items.0.title` [füllstring] DZR Brass Core
+- `products.transitionFittings.bento.items.1.desc` [füllstring] Polygonale Hinterschneidungen formen einen geometrischen Lock, der extreme Anzugsmomente aufnimmt, ohne den Kunststoffmantel zu belasten.
+- `products.transitionFittings.bento.items.1.title` [füllstring] Anti-Rotation Design
+- `products.transitionFittings.bento.items.2.desc` [füllstring] Konische und zylindrische ISO 7/1 bzw. ISO 228 Gewinde, maschinell mit einer Toleranz von ±0.01mm geschnitten für perfekte Dichtigkeit.
+- `products.transitionFittings.bento.items.2.title` [füllstring] Tiefgezogenes Gewinde
+- `products.transitionFittings.bento.items.3.desc` [füllstring] Die hochkristalline Struktur unseres Polypropylen Random Copolymers bietet überragende Langzeit-Zeitstandfestigkeit bei hohen Temperaturen.
+- `products.transitionFittings.bento.items.3.title` [füllstring] PPRCT Matrix
+- `products.transitionFittings.bento.lead` [füllstring] Wenn Sie Megaprojekte mit zehntausenden Verbindungen planen, ist statistische Ausfallsicherheit der wichtigste ROI. K Aqua liefert Ihnen die physikalische Garantie dafür.
+- `products.transitionFittings.bento.title` [füllstring] Architektur der Leistung.
+- `products.transitionFittings.hero.eyebrow` [füllstring] Systemübergänge
+- `products.transitionFittings.hero.lead` [füllstring] Messing trifft Polymer: K Aqua Übergangsfittings verbinden Bestandsleitungen aus Metall dauerhaft dicht und korrosionsfrei mit dem PP-R System, geprüft weit über die Norm hinaus.
+- `products.transitionFittings.hero.title` [füllstring] Übergangsfittings: Sicher von Metall auf PP-R
+- `products.transitionFittings.meta.desc` [füllstring] K Aqua Übergänge: Hybrid-Konnektivität der absoluten Spitzenklasse. Wenn hochfestes Metall auf innovativen Kunststoff trifft. German Engineering.
+- `products.transitionFittings.meta.title` [füllstring] PP-R Übergangsformteile und Systemverbindungen
+- `products.transitionFittings.stats.items.5.value`  PPRCT / PP-R
+- `products.transitionFittings.stats.items.6.value`  UBA, DVGW
+- `products.transitionFittings.sticky.eyebrow` [füllstring] Deep Tech
+- `products.transitionFittings.sticky.items.0.desc` [füllstring] Unsere Übergangsfittings vereinen die unerbittliche mechanische Festigkeit von entzinkungsbeständigem CW617N-Messing mit der chemischen Inertheit von PPRCT. Diese Materialfusion entsteht nicht durch einfaches Verpressen, sondern durch einen thermomechanischen Spritzgussprozess, der eine untrennbare molekulare Verzahnung erzielt.
+- `products.transitionFittings.sticky.items.0.title` [füllstring] Die Symbiose von Metall und Polymer
+- `products.transitionFittings.sticky.items.1.desc` [füllstring] Ein kritisches Versagenskriterium bei Standardfittings ist die Drehmomentüberlastung bei der Installation. K Aqua Übergänge integrieren ein patentiertes hexagonales Verankerungsprofil im Kunststoffmantel. Das Resultat: Über 300 Nm garantierte Torsionsresistenz ohne Delamination der Grenzschicht.
+- `products.transitionFittings.sticky.items.1.title` [füllstring] Extremes Torsions- und Drehmoment
+- `products.transitionFittings.sticky.items.2.desc` [füllstring] Metalle und Kunststoffe dehnen sich bei Temperaturschwankungen unterschiedlich aus (Δα). Durch präzise berechnete Mikrodehnungsfugen im Messing-Insert kompensieren unsere Fittings extreme Schocks von -20°C auf +95°C in Millisekunden, absolut leckagefrei.
+- `products.transitionFittings.sticky.items.2.title` [füllstring] Thermische Ausdehnungskoeffizienten im Gleichgewicht
+- `products.transitionFittings.sticky.items.3.desc` [füllstring] Jedes einzelne Hybrid-Bauteil durchläuft einen vollautomatisierten Helium-Leckagetest und eine optische 3D-Vermessung. Wenn der Grenzwert von 10^-5 mbar·l/s auch nur ansatzweise tangiert wird, schließt unsere Anlage das Teil rigoros aus. German Engineering duldet keine Kompromisse.
+- `products.transitionFittings.sticky.items.3.title` [füllstring] Null-Toleranz Qualitätskontrolle
+- `products.transitionFittings.sticky.lead` [füllstring] Wir betrachten einen Übergangsfitting nicht als Zubehörteil, sondern als hochkomplexes mechanisches Instrument. Jeder Millimeter Wandstärke, jeder Gewindegang ist das Resultat unzähliger Finite-Elemente-Analysen (FEA).
+- `products.transitionFittings.sticky.title` [füllstring] Anatomie der Unzerstörbarkeit.
+- `products.uniqueProductContext` [füllstring] Das Produkt {title} ist ein wesentlicher Bestandteil des K Aqua {category}-Sortiments. Es wurde für maximale Langlebigkeit sowie nahtlose Integration entwickelt und erfüllt die höchsten internationalen Standards für moderne Rohrleitungs- und Sanitäranwendungen. Sie können dieses spezifische Produkt anhand der Artikelnummer(n) identifizieren und bestellen: {codes}. Für weitere Dokumentationen oder Unterstützung wenden Sie sich bitte an unser technisches Team.
+- `products.valves.bento1Desc` [füllstring] Entwickelt für dauerhafte Hochdruckanwendungen jenseits der Norm. Die Wandstärken und Gewindekonstruktionen sind so massiv ausgelegt, dass sie selbst bei extremen Druckspitzen und Wasserschlägen nicht im Geringsten nachgeben. Ein monolithischer Block der Sicherheit.
+- `products.valves.bento2Desc` [füllstring] Von eisiger Kälte bis hin zu kochenden Vorlauftemperaturen. Das High End-Material behält seine volle Elastizität, versprödet nicht und widersteht thermischer Ausdehnung extrem effektiv.
+- `products.valves.bento2Title` [füllstring] Thermische Souveränität
+- `products.valves.bento3Desc` [füllstring] Korrosion ist ein Konzept aus der Vergangenheit. Unsere Armaturen sind immun gegen aggressive Bodenbeschaffenheiten, harte Wässer und chlorhaltige Desinfektionsmaßnahmen. Kein Rosten, kein Lochfraß.
+- `products.valves.bento3Title` [füllstring] Chemische Resistenz
+- `products.valves.bento4Desc` [füllstring] Design trifft auf rohe Funktionalität. Die massiven Handräder, massereichen Hebel und präzise gearbeiteten Spindeln bieten selbst mit schweren Schutzhandschuhen ein sofortiges, taktiles und absolut präzises Feedback beim Schließen und Öffnen.
+- `products.valves.bento4Title` [füllstring] Industrielle Ergonomie & Haptik
+- `products.valves.bentoEyebrow` [füllstring] Spezifikationen
+- `products.valves.bentoLead` [füllstring] Wenn Marketing-Phrasen enden, sprechen die Daten. Entdecken Sie die technischen Parameter, die unsere Ventile zur ultimativen Wahl für Megaprojekte machen.
+- `products.valves.bentoTitle` [füllstring] Die nackten Zahlen der Überlegenheit.
+- `products.valves.ctaBtnPrimary` [füllstring] Technisches Consulting anfordern
+- `products.valves.ctaBtnSecondary` [füllstring] Spezifikationen als PDF
+- `products.valves.ctaDesc` [füllstring] Sprechen Sie mit unseren Chef-Ingenieuren über die Spezifikationen Ihres nächsten Megaprojekts. Wir liefern die Lösungen für Probleme, die andere noch nicht einmal verstanden haben.
+- `products.valves.ctaTitle` [füllstring] Bereit für absolute Kontrolle?
+- `products.valves.finalDesc` [füllstring] In einer Welt, die zunehmend auf schnelle Obsoleszenz und billige Austauschprodukte setzt, stehen wir als stählerner Gegenpol. Eine K Aqua Armatur wird eingebaut und dann vergessen. Weil sie einfach funktioniert. Jahrzehnt für Jahrzehnt. Vertrauen Sie auf echte industrielle Autorität.
+- `products.valves.finalTitle` [füllstring] Bauen Sie für Generationen. <br/>Nicht für das nächste Wartungsintervall.
+- `products.valves.hero.eyebrow` [füllstring] Ventile & Armaturen
+- `products.valves.hero.lead` [füllstring] Absperren, regeln, sichern: K Aqua Armaturen aus PP-R verbinden korrosionsfreie Hydraulik mit deutscher Fertigungspräzision für Trinkwasser, HLK und Industrie. Für präzise Regelung in Trinkwasser- und Heizungsnetzen.
+- `products.valves.hero.title` [füllstring] PP-R Armaturen & Ventile für präzise Regelung
+- `products.valves.heroBtnPrimary` [füllstring] Technologie anfragen
+- `products.valves.heroBtnSecondary` [füllstring] Die Architektur entdecken
+- `products.valves.heroDesc` [füllstring] Willkommen in der obersten Liga der Strömungstechnik. K Aqua Ventile und Armaturen sind nicht einfach nur Komponenten. Sie sind das unbestechliche Herzstück globaler Infrastruktur. Gefertigt für die Ewigkeit.
+- `products.valves.heroEyebrow` [füllstring] Die Armaturen-Klasse
+- `products.valves.heroSubtitle` [füllstring] Unter höchstem Druck.
+- `products.valves.heroTitle` [füllstring] Absolute Kontrolle.
+- `products.valves.manifestoP1` [füllstring] In der industriellen Strömungstechnik ist ein Ventil niemals nur ein Schalter für Flüssigkeiten. Es ist der kritische Knotenpunkt, an dem kinetische Energie, extremer Druck, thermische Ausdehnung und chemische Aggressivität aufeinandertreffen.
+- `products.valves.manifestoP2` [füllstring] Hier trennt sich banale Massenware von echter Ingenieurskunst. Unsere Armaturen sind massiv überdimensioniert, paranoid genau gefertigt und für Szenarien gebaut, die andere Hersteller als "unmöglich" bezeichnen würden. Das verstehen wir unter <span class="text-foreground font-bold">German Engineering</span>.
+- `products.valves.manifestoTitle` [füllstring] Wenn das Material nachgibt, bricht das System. <br/><span class="text-primary">Wir geben nicht nach.</span>
+- `products.valves.metaDesc` [füllstring] Entdecken Sie hochwertige Armaturen und Ventile von K-Aqua. Maximale Sicherheit und Langlebigkeit durch German Engineering für anspruchsvolle Rohrnetze.
+- `products.valves.metaTitle` [füllstring] PP-R Armaturen & Ventile für Rohrsysteme
+- `products.valves.scroll1Desc` [füllstring] Unsere Ventile und Armaturen beginnen ihre Existenz als reines, industriell geprüftes Hochleistungs-Material. Durch strenge spektralanalytische Untersuchungen garantieren wir bereits vor dem ersten Fräskopf-Einsatz, dass absolut keine mikrostrukturellen Schwachstellen vorhanden sind. Dies ist die unverhandelbare Grundlage für die spätere absolute Korrosionsbeständigkeit und mechanische Integrität im jahrelangen Dauereinsatz.
+- `products.valves.scroll1Title` [füllstring] Makelloses Rohmaterial
+- `products.valves.scroll2Desc` [füllstring] Jedes einzelne Bauteil wird in unserem Werk auf hochmodernen 5-Achs-CNC-Bearbeitungszentren mit einer absurden Toleranz von unter einem tausendstel Millimeter aus dem Vollen gefertigt. Diese kompromisslose Präzision sorgt dafür, dass Dichtflächen perfekt aufeinanderliegen. Sie eliminiert Leckagerisiken vollständig und garantiert einen absolut reibungslosen, seidenweichen und verschleißfreien Betrieb, auch noch nach Jahrzehnten.
+- `products.valves.scroll2Title` [füllstring] Hochpräzise CNC-Bearbeitung
+- `products.valves.scroll3Desc` [füllstring] Ein Ventil ist nur so gut wie sein inneres Strömungsprofil. Mithilfe fortschrittlichster numerischer Strömungsmechanik (CFD) haben wir die internen Konturen so gestaltet, dass Turbulenzen und Kavitation praktisch ausgeschlossen sind. Das bedeutet weniger Druckverlust im Gesamtsystem und absolute Geräuschminimierung selbst bei höchsten Fließgeschwindigkeiten.
+- `products.valves.scroll3Title` [füllstring] Kavitationsfreie Strömung
+- `products.valves.scroll4Desc` [füllstring] Stichproben reichen nicht aus, wenn Milliarden-Infrastrukturen auf dem Spiel stehen. Bevor eine Armatur das K Aqua Werk verlässt, wird sie einem vollautomatisierten, robotischen Prüfzyklus unterzogen, der die realen Belastungen um ein Vielfaches übersteigt. Hydraulische Hochdrucktests, Helium-Vakuum-Lecktests und thermische Schockprüfungen garantieren unsere legendäre Null Fehler-Quote.
+- `products.valves.scroll4Title` [füllstring] 100% Endprüfung. Keine Ausnahmen.
+- `products.valves.scrollEyebrow` [füllstring] Die Genese der Perfektion
+- `products.valves.scrollLead` [füllstring] Begleiten Sie den Entstehungsprozess eines K Aqua Ventils. Ein kompromissloser Weg durch Hitze, Druck und mikroskopische Präzision.
+- `products.valves.scrollTitle` [füllstring] Vom Rohstoff bis zur unzerstörbaren Armatur.
+- `products.valves.showcaseEyebrow` [füllstring] Anatomie der Zuverlässigkeit
+- `products.valves.showcaseList1` [füllstring] geprüfte Trinkwasserhygiene nach höchsten Standards
+- `products.valves.showcaseList2` [füllstring] Hermetische Abdichtung bei maximalem Betriebsdruck
+- `products.valves.showcaseList3` [füllstring] Wartungsfreie Spindelabdichtungen mit Doppel-O-Ring
+- `products.valves.showcaseP1` [füllstring] Die innere Architektur unserer Armaturen ist konsequent auf <span class="font-semibold">Totraumfreiheit</span> getrimmt. Stagnationszonen, in denen sich Bakterien wie Legionellen vermehren könnten, sind geometrisch eliminiert.
+- `products.valves.showcaseP2` [füllstring] Das Wasser schießt in einer perfekt geführten laminaren Strömung durch den Ventilkörper. Die massiven Dichtsitze sind selbstreinigend und schließen selbst nach dem millionsten Zyklus hermetisch ab.
+- `products.valves.showcaseTitle` [füllstring] Keine Schwachstellen. <br/> Keine toten Winkel.
+- `products.valves.timeline1Text` [füllstring] Auswahl von spezifisch für K Aqua formulierten metallischen Legierungen und Hochleistungs-Polymeren. Wir setzen auf absolute Kriechfestigkeit und maximale molekulare Stabilität.
+- `products.valves.timeline1Title` [füllstring] Molekulare Selektion
+- `products.valves.timeline1Year` [füllstring] Phase 01
+- `products.valves.timeline2Text` [füllstring] Mithilfe von Supercomputern werden die inneren Strömungskanäle in Tausenden Iterationen berechnet, um den Fließwiderstand gegen Null zu minimieren.
+- `products.valves.timeline2Title` [füllstring] CFD Strömungsoptimierung
+- `products.valves.timeline2Year` [füllstring] Phase 02
+- `products.valves.timeline3Text` [füllstring] Prototypen durchlaufen monatelange Dauerbelastungstests in unseren Klimakammern bei bis zu 120°C, 25 Bar Druck und extremen chemischen Lösungen.
+- `products.valves.timeline3Title` [füllstring] Klimakammer-Stresstest
+- `products.valves.timeline3Year` [füllstring] Phase 03
+- `products.valves.timeline4Text` [füllstring] Die Überführung in unsere hochautomatisierte Industrie 4.0 Fertigungslinie. Wir erreichen maximale Reproduzierbarkeit bei minimalsten Toleranzen ohne menschliche Fehlerquelle.
+- `products.valves.timeline4Title` [füllstring] Robotische Serienfertigung
+- `products.valves.timeline4Year` [füllstring] Phase 04
+- `products.valves.timeline5Text` [füllstring] Bereitstellung auf den kritischsten Baustellen der Welt, von Wüsten-Megaprojekten bis zu Offshore-Anlagen. Begleitet von unserem Field-Engineering Team.
+- `products.valves.timeline5Title` [füllstring] Globaler Einsatz
+- `products.valves.timeline5Year` [füllstring] Phase 05
+- `products.valves.timelineEyebrow` [füllstring] Der Weg der Härte.
+- `products.valves.timelineLead` [füllstring] Ein Zeitstrahl der kompromisslosen Qualitätssicherung. Wie eine Idee zu einer industriellen Legende wird.
+- `products.videoGuide` [füllstring] K Aqua Video-Anleitung
+- `products.whyChoose` [füllstring] Why {product} is the right choice
+
+## productsx (120)
+
+- `productsx.anchors.0.c` [füllstring] 2,0 MPa Dauerbetrieb bei 20 °C: Kaltwasser über den 50-Jahre-Auslegungshorizont.
+- `productsx.anchors.1.c` [füllstring] 1,0 MPa Dauerbetrieb bei 70 °C: Warmwasser und Zirkulation ohne Reserveverlust.
+- `productsx.anchors.1.t` [füllstring] K-Pipe PPRCT · SDR 7,4
+- `productsx.anchorsTitle` [füllstring] Verbindliche Auslegungsanker aus dem Programm
+- `productsx.dimEyebrow` [füllstring] Dimensionstabellen
+- `productsx.dimHead.0` [füllstring] d (mm)
+- `productsx.dimHead.1` [füllstring] Wand s (mm)
+- `productsx.dimHead.2` [füllstring] di (mm)
+- `productsx.dimHead.3` [füllstring] Nenndruck
+- `productsx.dimHead.4` [füllstring] Wasserinhalt (l/m)
+- `productsx.dimHead.5` [füllstring] Gewicht (kg/m)
+- `productsx.dimLead` [füllstring] Wählen Sie die Druckstufe. Die Tabelle zeigt alle lieferbaren Dimensionen mit Wandstärke, Innendurchmesser, Nenndruck, Wasserinhalt und Metergewicht.
+- `productsx.dimNote` [füllstring] Rechenwerte aus der SDR-Geometrie (s = d/SDR, Dichte 0,905 g/cm³) nach den Reihen der DIN 8077. Verbindlich sind Produktkatalog und projektspezifische Datenblätter.
+- `productsx.dimTabAria` [füllstring] Druckstufe wählen
+- `productsx.dimTitle` [füllstring] Jede Dimension, jede Wandstärke.
+- `productsx.faq.0.a` [füllstring] Für Trinkwasser (heiß und kalt) mit hoher Temperatur- und Druckbeständigkeit über Jahrzehnte. Durch die Beständigkeit von PP gegen Lösungsmittel, Laugen und Säuren sind auch Industrieanwendungen möglich; diese prüfen wir projektspezifisch mit Ihnen.
+- `productsx.faq.0.q` [füllstring] Für welche Medien ist das System ausgelegt?
+- `productsx.faq.1.q` [füllstring] Wofür stehen die fünf SDR-Klassen?
+- `productsx.faq.2.a` [füllstring] Monolayer ist der wirtschaftliche Standard für die meisten Anwendungen. Der glasfaserverstärkte Faserverbund reduziert die Wärmeausdehnung auf rund ein Viertel, erlaubt größere Schellenabstände und bleibt bei Großdimensionen und Heißwasser formstabil, die Wahl für Steigstränge, Zirkulation und d ≥ 160.
+- `productsx.faq.2.q` [füllstring] Wann Monolayer, wann K-Fiber?
+- `productsx.faq.3.a` [füllstring] Stoffschlüssig durch Schweißen: Muffenschweißen von Hand (bis d63) oder mit Maschine, Elektroschweißen über Heizwendelfittings und Stumpfschweißen für Großdimensionen bis d630. Die passenden Geräte und Werkzeuge gehören zum Programm; alle vier Verfahren zeigt die Academy im Video.
+- `productsx.faq.3.q` [füllstring] Wie werden die Rohre verbunden?
+- `productsx.faq.4.a` [füllstring] Das System ist für Trinkwasser entwickelt; Polypropylen ist geschmacks- und geruchsneutral. Die Konformitätsnachweise für den Trinkwasserkontakt (DVGW/KTW) stellen wir im Trust Center als Teil des RFP-Dokumentenpakets bereit.
+- `productsx.faq.4.q` [füllstring] Ist das System trinkwasserkonform?
+- `productsx.faq.5.a` [füllstring] Die Druckstufen basieren auf den Zeitstand-Regressionskurven der DIN 8077/8078 mit einem Auslegungshorizont von 50 Jahren Betriebsdauer, inklusive Sicherheitsfaktor. Die beiden Programm-Anker: SDR 6 mit 20 bar bei 20 °C und PPRCT SDR 7,4 mit 10 bar bei 70 °C.
+- `productsx.faq.5.q` [füllstring] Welche Lebensdauer liegt der Auslegung zugrunde?
+- `productsx.faq.6.a` [füllstring] Im Produktfinder filtern Sie alle Varianten live und exportieren sie als CSV. Verbindliche Werte liefert der Produktkatalog (PDF); für Projektkonditionen führt die Projektanfrage in fünf Schritten direkt zum Vertrieb. Antwort innerhalb eines Werktags.
+- `productsx.faq.6.q` [füllstring] Wo bekomme ich verbindliche Artikeldaten?
+- `productsx.faqEyebrow` [füllstring] Häufige Fragen
+- `productsx.faqTitle` [füllstring] Antworten für Planung und Einkauf.
+- `productsx.fitEyebrow` [füllstring] Formteile & Systemkomponenten
+- `productsx.fitGroups.0.items.0` [füllstring] Winkel 90° und 45°
+- `productsx.fitGroups.0.items.1` [füllstring] T-Stücke, auch reduziert
+- `productsx.fitGroups.0.items.2` [füllstring] Muffen und Überschiebmuffen
+- `productsx.fitGroups.0.items.3` [füllstring] Reduzierungen
+- `productsx.fitGroups.0.items.4` [füllstring] Endkappen
+- `productsx.fitGroups.0.t` [füllstring] Formteile d20–d315
+- `productsx.fitGroups.1.items.0` [füllstring] Übergangsstücke mit Messing-Innengewinde
+- `productsx.fitGroups.1.items.1` [füllstring] Übergangsstücke mit Messing-Außengewinde
+- `productsx.fitGroups.1.items.2` [füllstring] Verschraubungen (lösbar)
+- `productsx.fitGroups.1.items.3` [füllstring] Anschluss an Bestandsleitungen aus Metall
+- `productsx.fitGroups.1.t` [füllstring] Übergänge & Verschraubungen
+- `productsx.fitGroups.2.items.0` [füllstring] Ventile
+- `productsx.fitGroups.2.items.1` [füllstring] Kugelhähne
+- `productsx.fitGroups.2.items.2` [füllstring] Absperrungen für Steig- und Verteilleitungen
+- `productsx.fitGroups.2.t` [füllstring] Armaturen
+- `productsx.fitGroups.3.items.0` [füllstring] Handschweißgeräte (bis d63)
+- `productsx.fitGroups.3.items.1` [füllstring] Muffenschweißmaschinen
+- `productsx.fitGroups.3.items.2` [füllstring] Elektroschweißgeräte
+- `productsx.fitGroups.3.items.3` [füllstring] Stumpfschweißmaschinen für Großdimensionen
+- `productsx.fitGroups.3.items.4` [füllstring] Rohrschneider und Schneidwerkzeuge
+- `productsx.fitGroups.3.t` [füllstring] Schweißtechnik & Werkzeug
+- `productsx.fitLead` [füllstring] Formteile von d20 bis d315, Armaturen, Übergänge und die komplette Schweißtechnik: alles aus einer Hand, alles systemkompatibel.
+- `productsx.fitTitle` [füllstring] Das System um das Rohr herum.
+- `productsx.matEyebrow` [füllstring] Werkstoffdaten
+- `productsx.matHead.0` [füllstring] Eigenschaft
+- `productsx.matHead.1` [füllstring] Wert
+- `productsx.matHead.2` [füllstring] Bedeutung für Ihr Projekt
+- `productsx.matLead` [füllstring] Die wichtigsten Kennwerte des PP-R/PPRCT-Systems, und warum sie in der Planung zählen.
+- `productsx.matRows.0.0` [füllstring] Dichte
+- `productsx.matRows.0.1` [füllstring] 0,905 g/cm³
+- `productsx.matRows.0.2` [füllstring] Rund ein Zehntel von Kupfer: leichter Transport, einfache Montage ohne Hebezeug bei kleinen und mittleren Dimensionen.
+- `productsx.matRows.1.0` [füllstring] Innenrauheit
+- `productsx.matRows.1.2` [füllstring] Extrem glatte Oberfläche: minimaler Druckverlust, kaum Inkrustation und Biofilm-Bildung.
+- `productsx.matRows.2.0` [füllstring] Wärmeleitfähigkeit
+- `productsx.matRows.2.2` [füllstring] Geringe Wärmeverluste in der Warmwasser-Zirkulation: dauerhafte Energieeinsparung gegenüber Metall.
+- `productsx.matRows.3.0` [füllstring] Längenausdehnung (Monolayer)
+- `productsx.matRows.3.1` [füllstring] ≈ 0,15 mm/(m·K)
+- `productsx.matRows.3.2` [füllstring] Wird konstruktiv über Dehnungsschenkel und Fixpunkte aufgenommen.
+- `productsx.matRows.4.0` [füllstring] Längenausdehnung (K-Fiber, GF)
+- `productsx.matRows.4.1` [füllstring] ≈ 0,04 mm/(m·K)
+- `productsx.matRows.4.2` [füllstring] Rund ein Viertel des Monolayer-Werts: größere Schellenabstände, ruhigeres Leitungsbild.
+- `productsx.matRows.5.0` [füllstring] Medientemperatur
+- `productsx.matRows.5.1` [füllstring] kalt bis 70 °C Dauerbetrieb
+- `productsx.matRows.5.2` [füllstring] Trinkwasser heiß und kalt; Auslegungsanker: PPRCT SDR 7,4 bei 70 °C · 10 bar.
+- `productsx.matRows.6.0` [füllstring] Chemische Beständigkeit
+- `productsx.matRows.6.1` [füllstring] Lösungsmittel, Laugen, Säuren
+- `productsx.matRows.6.2` [füllstring] Als technischer Kunststoff ungewöhnlich beständig: korrosionsfrei ohne Lochfraß-Risiko.
+- `productsx.matRows.7.0` [füllstring] Recycling
+- `productsx.matRows.7.1` [füllstring] Code 5 (PP)
+- `productsx.matRows.7.2` [füllstring] Sortenrein trennbar; 100 % der Produktionsabfälle gehen zurück in den Wertstoffkreislauf.
+- `productsx.matTitle` [füllstring] Was den Werkstoff auszeichnet.
+- `productsx.normEyebrow` [füllstring] Normen & Nachweise
+- `productsx.normHead.0` [füllstring] Norm
+- `productsx.normHead.1` [füllstring] Titel
+- `productsx.normHead.2` [füllstring] Bedeutung
+- `productsx.normLead` [füllstring] Das K Aqua-System wird gegen die einschlägigen Normen der Rohrleitungstechnik gefertigt und geprüft. Jede Charge unter ISO-9001-Qualitätsauflagen.
+- `productsx.norms.0.1` [füllstring] Rohre aus Polypropylen: Maße
+- `productsx.norms.0.2` [füllstring] Definiert Durchmesser- und Wandstärkenreihen (SDR) für PP-Rohre.
+- `productsx.norms.1.1` [füllstring] Rohre aus Polypropylen: Anforderungen
+- `productsx.norms.1.2` [füllstring] Allgemeine Güteanforderungen und Prüfungen für PP-R/PPRCT-Rohre.
+- `productsx.norms.2.1` [füllstring] Kunststoffrohrleitungssysteme
+- `productsx.norms.2.2` [füllstring] Systemnorm für Warm- und Kaltwasserinstallationen aus Polypropylen.
+- `productsx.norms.3.1` [füllstring] Schweißen von PP
+- `productsx.norms.3.2` [füllstring] Richtwerte für Muffen-, Elektro- und Stumpfschweißen: Basis der Academy-Inhalte.
+- `productsx.norms.4.1` [füllstring] Trinkwasserkontakt
+- `productsx.norms.4.2` [füllstring] Konformitätsnachweise für den Kontakt mit Trinkwasser: im Trust Center anforderbar.
+- `productsx.norms.5.1` [füllstring] EPD (Typ III)
+- `productsx.norms.5.2` [füllstring] Umweltproduktdeklarationen als Datenbasis für LEED, BREEAM und DGNB.
+- `productsx.norms.6.1` [füllstring] Managementsysteme
+- `productsx.norms.6.2` [füllstring] Qualität, Umwelt und Energie: dreifach geprüft seit Oktober 2025, DAkkS-akkreditiert.
+- `productsx.norms.7.1` [füllstring] Integriertes Managementsystem
+- `productsx.norms.7.2` [füllstring] Das hauseigene System im House of KWT verbindet Arbeitsschutz, Umwelt und Energie im Alltag.
+- `productsx.normTitle` [füllstring] Geprüft gegen die Regelwerke.
+- `productsx.pipes.0.d` [füllstring] Der bewährte Standard für Trinkwasser heiß und kalt. Einschichtiger Aufbau, volle SDR-Bandbreite in den gängigen Dimensionen: wirtschaftlich für Wohn- und Objektbau.
+- `productsx.pipes.0.t` [füllstring] K-Pipe PP-R Monolayer
+- `productsx.pipes.1.d` [füllstring] Modifizierte Kristallstruktur für mehr Temperatur- und Druckreserve: SDR 7,4 ist für 70 °C Dauerbetrieb bei 10 bar (1,0 MPa) ausgelegt, die Wahl für Warmwasser und Zirkulation.
+- `productsx.pipes.1.t` [füllstring] K-Pipe PPRCT
+- `productsx.pipes.1.tags.0` [füllstring] 70 °C · 10 bar
+- `productsx.pipes.1.tags.1` [füllstring] Warmwasser
+- `productsx.pipes.2.d` [füllstring] Glasfaserverstärkter Kern zwischen zwei PP-Schichten: Wärmeausdehnung auf rund ein Viertel reduziert, größere Schellenabstände, formstabil bis d630, bis 20 bar (2,0 MPa) bei 20 °C in SDR 6.
+- `productsx.pipes.2.t` [füllstring] K-Fiber Pipe (GF-Multilayer)
+- `productsx.pipes.2.tags.0` [füllstring] GF-Kern
+- `productsx.pipes.3.d` [füllstring] Für Installationen mit Sonnenexposition (etwa Gewächshäuser oder Freileitungen) ist das Programm in UV-beständiger Ausführung verfügbar.
+- `productsx.pipes.3.t` [füllstring] UV-stabilisierte Ausführung
+- `productsx.pipes.3.tags.0` [füllstring] Außenbereich
+- `productsx.pipes.3.tags.1` [füllstring] Agrar
+- `productsx.pipesEyebrow` [füllstring] Rohrprogramm
+- `productsx.pipesLead` [füllstring] Monolayer, PPRCT und glasfaserverstärkter Faserverbund, plus UV-stabilisierte Ausführungen für Anwendungen im Freien.
+- `productsx.pipesTitle` [füllstring] Drei Rohrfamilien, ein Systemgedanke.
+
+## referenzenPage (30)
+
+- `referenzenPage.cta.btn1` [füllstring] Prüfzertifikate anfordern
+- `referenzenPage.cta.btn2` [füllstring] Spezifikationen senden
+- `referenzenPage.cta.lead` [füllstring] Planen Sie ein Hochhaus, eine Industrieanlage oder ein Krankenhausprojekt? Unsere Ingenieure erwarten Ihre Spezifikationen mit belastbaren Prüfdaten statt Marketingversprechen.
+- `referenzenPage.cta.title1` [füllstring] Bereit für Ihr
+- `referenzenPage.cta.title2` [füllstring] nächstes Projekt
+- `referenzenPage.hero.cta1` [füllstring] Referenzprojekte ansehen
+- `referenzenPage.hero.cta2` [füllstring] Prüfbericht anfordern
+- `referenzenPage.hero.lead` [füllstring] Von Waldsolms in die Welt: K-Aqua PP-R und PP-RCT Systeme laufen seit Jahrzehnten in Hochhäusern, Krankenhäusern, Industrieanlagen und Schiffen, unter Bedingungen, die keinen zweiten Versuch zulassen. Technik, die sich beweist, in jedem Projekt.
+- `referenzenPage.manifesto.p1` [füllstring] In einer Branche, in der Materialermüdung und Korrosion als unvermeidlich gelten, setzt unsere Fertigung einen anderen Maßstab. Wir betrachten jedes Rohr nicht als Bauteil, sondern als Ergebnis angewandter Werkstoffwissenschaft. Jede Charge PP-R Copolymer, jede Schweißnaht und jede Wanddicke durchläuft einen Prüfprozess, der Ausschuss lieber in Kauf nimmt als eine Toleranzüberschreitung. Das ist das fundamentale Gesetz der <span class="font-semibold">K-Aqua Referenzklasse</span>.
+- `referenzenPage.manifesto.p2` [füllstring] Unsere Systeme laufen in Umgebungen, in denen ein einziger Leckagepunkt den Betrieb eines ganzen Krankenhauses oder Hochhauses gefährdet. Wir setzen Langzeit-Innendruckprüfungen nach ISO 9080 nicht als Laborformalität ein, sondern als harte Vorgabe für jede freigegebene Dimension: Extrapolation auf 50 Jahre Betriebsdauer bei spezifizierter Temperatur und Druckstufe: dokumentiert, nachvollziehbar, chargenrein zurückverfolgbar.
+- `referenzenPage.manifesto.p3` [füllstring] Wir verzichten bewusst auf undurchsichtige Materialmischungen. Unsere Rezeptur ist über die gesamte Fertigungskette hinweg dokumentiert, von der Polymercharge bis zur fertigen Rohrlänge. Wir kalibrieren Extrusionstemperaturen auf das Grad genau, optimieren die Faserverbund-Mittelschicht gegen Längsausdehnung und protokollieren jede Heizwendel-Schweißung mit exakten Prozessparametern. Das Resultat sind Systeme, die bei 70°C Dauerbetrieb und PN20 mühelos im Normbereich bleiben.
+- `referenzenPage.manifesto.p4` [füllstring] Qualitätssicherung ist bei uns kein nachgelagerter Prüfschritt, sondern Teil jeder Produktionsstufe. Durch die durchgängige Anwendung von DVGW-, SKZ- und KIWA-Zertifizierung auf allen relevanten Dimensionen entziehen wir Ausfallrisiken proaktiv jede Angriffsfläche. Ein System, das nach DIN 8077/8078 gefertigt und dreifach zertifiziert ist, kann sich niemals als Schwachstelle erweisen. Diese tiefgreifende technologische Verlässlichkeit bildet das Rückgrat komplexer Infrastrukturprojekte, von internationalen Klinikbauten bis hin zu kritischen Kühlsystemen der Großindustrie. Wir verstehen, dass unsere Partner keine bloßen Produkte suchen, sondern absolute Sicherheit und hundertprozentige Ausfallsicherheit für Jahrzehnte. Mit K-Aqua PP-R und PP-RCT Rohrsystemen realisieren wir gemeinsam Bauvorhaben, die höchste technische Anforderungen an Hygiene, Druckbeständigkeit und Montageeffizienz stellen. Technik, die sich beweist.
+- `referenzenPage.manifesto.title` [füllstring] Doktrin der Präzision
+- `referenzenPage.metrics.eyebrow` [füllstring] Technische Kennzahlen
+- `referenzenPage.metrics.items.isolation.desc` [füllstring] Jede Rohrlänge trägt eine Chargennummer, die bis zur Polymer-Anlieferung zurückverfolgt werden kann, für lückenlose Dokumentation bei Bauabnahme und Gewährleistung.
+- `referenzenPage.metrics.items.isolation.title` [füllstring] Lückenlose Chargen-Rückverfolgbarkeit
+- `referenzenPage.metrics.items.network.desc` [füllstring] Von Waldsolms aus beliefern wir Projekte in über 35 Ländern und stellen technische Beratung, Schulung und Ersatzteilversorgung sicher, auch nach Bauabnahme.
+- `referenzenPage.metrics.items.network.placeholder` [füllstring] Exportkarte K-Aqua Vertriebsnetz
+- `referenzenPage.metrics.items.network.title` [füllstring] Globales Vertriebs- und Servicenetz
+- `referenzenPage.metrics.items.pressure.desc` [füllstring] Jede freigegebene Dimension durchläuft Innendrucktests bei mehreren Temperaturstufen über tausende Betriebsstunden, extrapoliert auf eine Regressionsgerade für 50 Jahre Lebensdauer.
+- `referenzenPage.metrics.items.pressure.placeholder` [füllstring] Regressionskurve Langzeit-Innendruckprüfung
+- `referenzenPage.metrics.items.pressure.title` [füllstring] Langzeit-Druckprüfung nach ISO 9080
+- `referenzenPage.metrics.items.tolerance.desc` [füllstring] Kontinuierliche Ultraschall-Wanddickenmessung während der Extrusion hält jede Dimension exakt innerhalb der DIN 8077/8078 Toleranzfelder.
+- `referenzenPage.metrics.items.tolerance.title` [füllstring] Wanddicken-Toleranz im Mikrometerbereich
+- `referenzenPage.metrics.items.welding.desc` [füllstring] Jede Heizelement-Muffenschweißung folgt einem dokumentierten Zeit-Temperatur-Druck-Profil. Stichprobenartige Zugprüfungen und Schliffbilder bestätigen die molekulare Verschmelzung von Rohr und Fitting: ohne Dichtungen, ohne Schwachstellen.
+- `referenzenPage.metrics.items.welding.placeholder` [füllstring] Schliffbild einer K-Aqua Muffenschweißverbindung
+- `referenzenPage.metrics.items.welding.title` [füllstring] Kompromisslose Schweißnahtintegrität
+- `referenzenPage.metrics.lead` [füllstring] Unsere Systeme werden nicht beworben, sie werden geprüft. Dies sind die Kernkennzahlen unserer technologischen Doktrin.
+- `referenzenPage.metrics.title1` [füllstring] Kompromisslose
+- `referenzenPage.metrics.title2` [füllstring] Parameter
+
+## refsx (11)
+
+- `refsx.secEyebrow` [füllstring] Einsatzfelder weltweit
+- `refsx.secLead` [füllstring] Über Jahrzehnte haben sich K Aqua-Produkte unzählige Male in Destinationen auf der ganzen Welt bewährt. Diese Gebäudetypen prägen das Referenzprogramm.
+- `refsx.secTitle` [füllstring] Wo K Aqua-Technik arbeitet.
+- `refsx.sectors.0.d` [füllstring] Hygienische Trinkwasserverteilung mit biofilm-hemmender Innenfläche, wie beim Krankenhausneubau in Kapstadt.
+- `refsx.sectors.0.t` [füllstring] Krankenhäuser
+- `refsx.sectors.1.d` [füllstring] Warmwasser-Zirkulation im Dauerbetrieb, thermisch effizient: wie im Hotelkomplex Istanbul mit Faserverbundrohr.
+- `refsx.sectors.1.t` [füllstring] Hotels
+- `refsx.sectors.2.d` [füllstring] Chemisch beständig und korrosionsfrei für Prozess- und Brauchwasser, vom Gewerbebau bis zur Fertigungshalle.
+- `refsx.sectors.2.t` [füllstring] Industriegebäude
+- `refsx.sectors.3.d` [füllstring] UV-stabilisierte Bewässerung unter Glas und Versorgungsnetze bis d630, wie im Infrastrukturprojekt Singapur.
+- `refsx.sectors.3.t` [füllstring] Gewächshäuser & Infrastruktur
+
+## resources (216)
+
+- `resources.ausschreibungstexte.bento.eyebrow` [füllstring] Architektur der Daten
+- `resources.ausschreibungstexte.bento.items.0.desc` [füllstring] Jede einzelne Position entspricht exakt den aktuellsten Vergabe- und Vertragsordnungen für Bauleistungen. Sie sind juristisch absolut auf der sicheren Seite und minimieren das Haftungsrisiko drastisch.
+- `resources.ausschreibungstexte.bento.items.0.title` [füllstring] VOB/C & DIN 18381 konform
+- `resources.ausschreibungstexte.bento.items.1.desc` [füllstring] XML, d81, d83. Perfekte Import-Kompatibilität für ORCA, RIB iTWO, Nevaris und alle gängigen AVA-Systeme. Keine Syntaxfehler, keine Workarounds.
+- `resources.ausschreibungstexte.bento.items.1.title` [füllstring] Native GAEB Formate
+- `resources.ausschreibungstexte.bento.items.2.desc` [füllstring] Für öffentliche Vergabeverfahren bieten wir rechtssichere, absolut produktneutrale Beschreibungen, die den Premium-Standard festsetzen, ohne Vergaberichtlinien zu verletzen.
+- `resources.ausschreibungstexte.bento.items.2.title` [füllstring] Herstellerneutrale Varianten
+- `resources.ausschreibungstexte.bento.items.3.desc` [füllstring] Vom komplexen Formteil über die Absperrarmatur bis zur thermodynamischen Befestigungsschelle: Die lückenlose Erfassung des gesamten Ökosystems verhindert teure Nachträge.
+- `resources.ausschreibungstexte.bento.items.3.title` [füllstring] Detaillierte Zubehör-Matrix
+- `resources.ausschreibungstexte.bento.items.4.desc` [füllstring] Verknüpfen Sie unsere Ausschreibungstexte nahtlos mit unseren hochdetaillierten Revit-Modellen für eine durchgängige, clash-freie 5D-Planung in Echtzeit.
+- `resources.ausschreibungstexte.bento.items.4.title` [füllstring] BIM-Ready Integration
+- `resources.ausschreibungstexte.bento.lead` [füllstring] Entwickelt für TGA-Fachplaner, Architekten und visionäre Ingenieure, die bei der Planung von Milliardenprojekten keine Fehler tolerieren können.
+- `resources.ausschreibungstexte.bento.title` [füllstring] Spezifikationen, die schützen.
+- `resources.ausschreibungstexte.cta.btn1` [füllstring] Zum Download-Portal
+- `resources.ausschreibungstexte.cta.btn2` [füllstring] Beratungsteam kontaktieren
+- `resources.ausschreibungstexte.cta.desc` [füllstring] Greifen Sie auf unsere vollständige, ständig aktualisierte Bibliothek an Ausschreibungstexten zu. Garantiert fehlerfrei, normkonform und bereit für den Einsatz in Ihrem nächsten internationalen Megaprojekt.
+- `resources.ausschreibungstexte.cta.title` [füllstring] Beginnen Sie mit der Spezifikation.
+- `resources.ausschreibungstexte.deep.items.0.desc` [füllstring] In der Planung internationaler Megaprojekte ist Ambiguität der Feind. Ein einzelnes fehlendes Wort in der Leistungsbeschreibung kann den Unterschied zwischen einem jahrzehntelang wartungsfreien System und einem desaströsen Millionen-Schaden bedeuten. Unsere Ausschreibungstexte sind millimetergenau nach VOB/C und DIN 18381 normiert. Jede Leistungsbeschreibung ist so kalibriert, dass technische Schlupflöcher, Auslegungsspielräume und juristische Grauzonen restlos eliminiert werden. So garantieren wir, dass die Qualität, die Sie auf dem Papier spezifizieren, exakt die Qualität ist, die auf der Baustelle verbaut wird.
+- `resources.ausschreibungstexte.deep.items.0.title` [füllstring] Absolute Rechtssicherheit (VOB/C)
+- `resources.ausschreibungstexte.deep.items.1.desc` [füllstring] Ein moderner Planungsprozess erfordert nahtlosen Datenfluss. Unsere Datensätze sind nicht einfach nur Text, sie sind hochstrukturierte, maschinenlesbare Artefakte, die für die sofortige Integration in jede professionelle AVA-Software (Ausschreibung, Vergabe, Abrechnung) entwickelt wurden. Wir liefern native Formate (GAEB 90, GAEB 2000, GAEB DA XML) sowie Datanorm und ÖNORM. Keine Konvertierungsverluste. Kein manueller Nachbesserungsaufwand. Ein digitaler Workflow, der die Effizienz im Planungsprozess um bis zu 40% steigert und gleichzeitig Übertragungsfehler mathematisch ausschließt.
+- `resources.ausschreibungstexte.deep.items.1.title` [füllstring] 100% GAEB- & ÖNORM-Kompatibilität
+- `resources.ausschreibungstexte.deep.items.2.desc` [füllstring] Wasserinfrastruktur ist das Nervensystem eines Gebäudes. Unsere Leistungspositionen definieren eindeutig und unmissverständlich die überlegene Molekularstruktur unseres Polypropylens Random Copolymer (PPR-C Typ 3). Sie fixieren entscheidende Parameter wie Zeitstandfestigkeit, Kriechverhalten und thermische Längenausdehnung. Nur durch diese kompromisslose Detailtiefe schützen Sie Ihr Projekt wirksam vor minderwertigen Derivaten und gefährlichen Plagiaten, die bei Spitzendrücken von 20 Bar oder bei Temperaturschwankungen unweigerlich kapitulieren würden.
+- `resources.ausschreibungstexte.deep.items.2.title` [füllstring] Die Materialspezifikation: PPR-C (Typ 3)
+- `resources.ausschreibungstexte.deep.items.3.desc` [füllstring] Premium-Architektur erfordert Premium-Physik. Eine professionelle Ausschreibung erfasst nicht nur das nackte Rohrleitungssystem, sondern das gesamte physikalische Ökosystem. Unsere Texte enthalten detaillierte Vorgaben zu Wärmeverlustkoeffizienten nach dem Gebäudeenergiegesetz (GEG) / EnEV sowie zu strengen Schalldämmmaßen (DIN 4109). Das stellt sicher, dass Ihre Anlage nicht nur mechanisch extrem belastbar ist, sondern auch thermodynamisch hochgradig effizient und akustisch im absoluten Premium-Segment (Flüster-Standard) operiert.
+- `resources.ausschreibungstexte.deep.items.3.title` [füllstring] Thermodynamische und akustische Präzision
+- `resources.ausschreibungstexte.deep.items.4.desc` [füllstring] Die Zukunft des Bauens ist zirkulär und CO2-optimiert. Ausschreibungen müssen heute grüne Standards nachweisen. K Aqua Texte integrieren vollständige EPDs (Environmental Product Declarations) und Lebenszyklusanalysen. Wir definieren den genauen ökologischen Fußabdruck, Rezyklierbarkeit und Energieeffizienz in der Extrusion. Perfekt geeignet für Gebäude, die nach DGNB, LEED, BREEAM oder WELL geprüft werden sollen. Spezifizieren Sie grüne Performance, nicht nur grüne Versprechen.
+- `resources.ausschreibungstexte.deep.items.4.title` [füllstring] Nachhaltigkeits-Metriken (ESG & LEED)
+- `resources.ausschreibungstexte.grid.desc` [füllstring] Wir überlassen nichts dem Zufall. Jede Leistungsposition ist ein Meisterwerk deutscher Ingenieurskunst, komprimiert in Textform. Hier ist, was unsere Texte im Detail abdecken:
+- `resources.ausschreibungstexte.grid.items.0.title` [füllstring] Rohrsysteme SDR 6 / SDR 7.4
+- `resources.ausschreibungstexte.grid.items.1.desc` [füllstring] Vollautomatische Schweißdokumentation und 100% homogene, unlösbare und leckagesichere Verbindungen.
+- `resources.ausschreibungstexte.grid.items.1.title` [füllstring] Elektroschweißmuffen
+- `resources.ausschreibungstexte.grid.items.2.desc` [füllstring] Entzinkungsfreies Premium-Messing (DZR), dauerhaft und unzertrennlich eingegossen in die PP-R Matrix.
+- `resources.ausschreibungstexte.grid.items.2.title` [füllstring] Übergangsverschraubungen
+- `resources.ausschreibungstexte.grid.items.3.desc` [füllstring] Wartungsfreie Kugel- und Schrägsitzventile, strömungsoptimiert und Totraum-minimiert zur Legionellenprävention.
+- `resources.ausschreibungstexte.grid.items.3.title` [füllstring] Absperrarmaturen
+- `resources.ausschreibungstexte.grid.items.4.desc` [füllstring] Modulare, hochkapazitive Verteiler für komplexe Steigstränge und Etagenanbindungen in Großprojekten.
+- `resources.ausschreibungstexte.grid.items.4.title` [füllstring] Verteilersysteme
+- `resources.ausschreibungstexte.grid.items.5.desc` [füllstring] Integrierte Vorgaben zur strikten Vermeidung von Wärmeverlusten und Kondensatbildung (Taupunktunterschreitung).
+- `resources.ausschreibungstexte.grid.items.5.title` [füllstring] Dämmung nach GEG
+- `resources.ausschreibungstexte.grid.items.6.desc` [füllstring] R90/R120 konforme, hochreaktive Schottungssysteme für sichere Wand- und Deckendurchführungen.
+- `resources.ausschreibungstexte.grid.items.6.title` [füllstring] Brandschutz-Manschetten
+- `resources.ausschreibungstexte.grid.items.7.desc` [füllstring] Präzise Fest- und Loslager-Spezifikationen zur kontrollierten Aufnahme von thermischer Längendehnung.
+- `resources.ausschreibungstexte.grid.items.7.title` [füllstring] System-Befestigungen
+- `resources.ausschreibungstexte.grid.title` [füllstring] Die Anatomie einer Leistungsposition.
+- `resources.ausschreibungstexte.hero.cta1` [füllstring] GAEB-Texte herunterladen
+- `resources.ausschreibungstexte.hero.cta2` [füllstring] Planungsberatung anfordern
+- `resources.ausschreibungstexte.hero.desc` [füllstring] Architektur beginnt mit einem Gedanken. Engineering beginnt mit einer Spezifikation. Unsere K-Aqua Ausschreibungstexte sind das rechtsbindende Fundament für PP-R Rohrsysteme ohne Kompromisse. Millimetergenau. VOB-konform. Unanfechtbar.
+- `resources.ausschreibungstexte.hero.eyebrow` [füllstring] K Aqua Resource Center
+- `resources.ausschreibungstexte.hero.title1` [füllstring] Ausschreibungstexte.
+- `resources.ausschreibungstexte.hero.title2` [füllstring] Engineered in Germany.
+- `resources.ausschreibungstexte.manifesto.p1` [füllstring] In der Hochbauarchitektur und im industriellen Anlagenbau sind vage Formulierungen das größte existenzielle Risiko. Ein einzelnes, unpräzises Wort in der Leistungsbeschreibung kann den Unterschied zwischen einem jahrzehntelang wartungsfreien System und einem katastrophalen Wasserschaden in einem 50-stöckigen Hochhaus bedeuten.
+- `resources.ausschreibungstexte.manifesto.p2` [füllstring] Deshalb schreiben wir Ausschreibungstexte nicht einfach, wir <span class="text-foreground font-medium font-semibold">engineeren</span> sie. Wie jedes einzelne K Aqua-Rohrstück werden auch unsere digitalen Datenpakete in Deutschland entwickelt, unter Extrembedingungen geprüft und geprüft. Sie übersetzen physikalische Überlegenheit in juristische und wirtschaftliche Unanfechtbarkeit.
+- `resources.ausschreibungstexte.manifesto.title1` [füllstring] Das Ende der Ambiguität.
+- `resources.ausschreibungstexte.manifesto.title2` [füllstring] Der Beginn absoluter Kontrolle.
+- `resources.ausschreibungstexte.meta.desc` [füllstring] Laden Sie detaillierte K-Aqua Ausschreibungstexte herunter. Wir bieten kompromisslose Sicherheit durch German Engineering für Ihre globalen Megaprojekte.
+- `resources.ausschreibungstexte.meta.title` [füllstring] Offizielle Ausschreibungstexte für PP-R Rohrsysteme
+- `resources.ausschreibungstexte.timeline.desc` [füllstring] Ein Ausschreibungstext von K Aqua ist kein bloßes Dokument. Er ist der Quellcode für die gebaute Realität. Er definiert, schützt und diktiert den gesamten Lebenszyklus eines Gebäudes, von der ersten Skizze bis zur jahrzehntelangen Nutzung.
+- `resources.ausschreibungstexte.timeline.items.0.text` [füllstring] Der Prozess beginnt in der TGA-Planung. Exakte Definition von Nennweiten, Druckstufen (PN) und SDR-Klassen für Heiß- und Kaltwasser. Wir lassen keine Grauzonen. Jedes Formteil, jede Schelle, jede Muffe wird mathematisch exakt erfasst.
+- `resources.ausschreibungstexte.timeline.items.0.title` [füllstring] Die Definition von Perfektion.
+- `resources.ausschreibungstexte.timeline.items.0.year` [füllstring] Phase 1: Parametrierung
+- `resources.ausschreibungstexte.timeline.items.1.text` [füllstring] Durch die granulare, kristallklare Struktur unserer Texte werden Angebote echter vergleichbar. Dumping-Preise durch minderwertige Materialien oder versteckte Auslassungen fallen sofort auf. Die Spreu trennt sich vom Weizen.
+- `resources.ausschreibungstexte.timeline.items.1.title` [füllstring] Submission ohne Kompromisse.
+- `resources.ausschreibungstexte.timeline.items.1.year` [füllstring] Phase 2: Vergabe
+- `resources.ausschreibungstexte.timeline.items.2.text` [füllstring] Die Ausschreibungstexte dienen als bindendes, juristisches Gesetzbuch für die Bauleitung und die Installateure. Jede Schweißnaht, jede Fixierung muss den spezifizierten DVS-Richtlinien entsprechen. Abweichungen werden unmöglich gemacht.
+- `resources.ausschreibungstexte.timeline.items.2.title` [füllstring] Ein Blueprint für die Baustelle.
+- `resources.ausschreibungstexte.timeline.items.2.year` [füllstring] Phase 3: Ausführung
+- `resources.ausschreibungstexte.timeline.items.3.text` [füllstring] Das Resultat einer makellosen Spezifikation ist ein über Jahrzehnte fehlerfreies System. Maximale Resilienz gegen Korrosion, Inkrustation und chemische Degradation. Generationenübergreifende Sicherheit, engineered in Germany.
+- `resources.ausschreibungstexte.timeline.items.3.title` [füllstring] 50+ Jahre absolute Wartungsfreiheit.
+- `resources.ausschreibungstexte.timeline.items.3.year` [füllstring] Phase 4: Lebenszyklus
+- `resources.ausschreibungstexte.timeline.title` [füllstring] Von der Ausschreibung zur Ewigkeit.
+- `resources.common.authP1` [füllstring] Seit Jahrzehnten bündeln wir in unserem Stammwerk im Herzen Deutschlands handwerklichen Stolz mit modernster, hochautomatisierter Fertigungstechnologie.
+- `resources.common.authP2` [füllstring] Im Einsatz in den härtesten Wüsten und extremsten Klimazonen der Welt beweist sich unser Material jeden Tag aufs Neue. Wir setzen den Standard, dem der Rest der Welt folgt.
+- `resources.common.authTitle` [füllstring] Die industrielle Autorität für {module}.
+- `resources.common.btnData` [füllstring] Technische Daten
+- `resources.common.btnProject` [füllstring] Projekt anfragen
+- `resources.common.ctaLead` [füllstring] Sprechen Sie mit unserem Engineering Team über Ihr nächstes Megaprojekt.
+- `resources.common.ctaTitle` [füllstring] Bereit für kompromisslose Qualität?
+- `resources.common.eyebrow` [füllstring] K Aqua RESOURCE
+- `resources.common.lead` [füllstring] Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Wo Materialversagen keine Option ist.
+- `resources.common.list1` [füllstring] geprüft nach DIN EN ISO 15874
+- `resources.common.list2` [füllstring] Lebensdauer > 50 Jahre
+- `resources.common.list3` [füllstring] Wartungsfrei & Korrosionsbeständig
+- `resources.common.placeholder` [füllstring] Visual Asset Placeholder
+- `resources.common.subtitle` [füllstring] Engineered in Germany.
+- `resources.common.valCardDesc` [füllstring] Jedes Element verlässt unser Werk mit einer absoluten Null Fehlertoleranz. Präzisionsgefertigt nach strengsten deutschen Maßstäben für 100 % Wartungsfreiheit.
+- `resources.common.valCardTitle` [füllstring] Nutzenversprechen 0{item}
+- `resources.common.valEyebrow` [füllstring] German Engineering
+- `resources.common.valLead` [füllstring] Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten.
+- `resources.common.valTitle` [füllstring] Sicherheit ohne Kompromisse.
+- `resources.downloads.bento.eyebrow` [füllstring] Die Datenbasis
+- `resources.downloads.bento.items.0.desc` [füllstring] Mikrometergenaue Maßangaben, Druckverlusttabellen und thermische Ausdehnungskoeffizienten. Die Bibel für jeden Planer.
+- `resources.downloads.bento.items.0.title` [füllstring] Technische Datenblätter
+- `resources.downloads.bento.items.1.desc` [füllstring] Der schriftliche Beweis unserer Null Fehlertoleranz. Dokumentierte Sicherheit nach ISO, DVGW, SKZ und mehr.
+- `resources.downloads.bento.items.1.title` [füllstring] Zertifikate & Normen
+- `resources.downloads.bento.items.2.desc` [füllstring] Hochpräzise digitale Zwillinge unserer Rohrleitungssysteme für die nahtlose Integration in Revit und ArchiCAD.
+- `resources.downloads.bento.items.2.title` [füllstring] BIM & CAD Modelle
+- `resources.downloads.bento.items.3.desc` [füllstring] Das gesamte K Aqua Portfolio auf über 500 Seiten. Vom 20mm Rohr bis zur 500mm Industriearmatur, vollständig dokumentiert.
+- `resources.downloads.bento.items.3.title` [füllstring] Produktkataloge 2026
+- `resources.downloads.bento.lead` [füllstring] Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Versprechungen, sondern auf harte Fakten. Hier finden Sie die technischen Parameter, die unsere Marktführerschaft definieren.
+- `resources.downloads.bento.title` [füllstring] Spezifikationen ohne Kompromisse.
+- `resources.downloads.cta.btn` [füllstring] Projekt evaluieren
+- `resources.downloads.cta.desc` [füllstring] Laden Sie sich unsere offiziellen Zertifikate herunter oder sprechen Sie direkt mit unserem Engineering Team über die Spezifikationen Ihres nächsten Megaprojekts.
+- `resources.downloads.cta.title` [füllstring] Qualität, der Sie blind vertrauen können.
+- `resources.downloads.files.eyebrow` [füllstring] Direktzugriff
+- `resources.downloads.files.items.0.title` [füllstring] Hauptkatalog 2026
+- `resources.downloads.files.items.1.title` [füllstring] Technische Vorgaben PPRCT
+- `resources.downloads.files.items.2.title` [füllstring] Druckverlust-Tabellen
+- `resources.downloads.files.items.3.title` [füllstring] BIM/Revit Bibliothek
+- `resources.downloads.files.lead` [füllstring] Laden Sie die wichtigsten Spezifikationen direkt herunter.
+- `resources.downloads.files.title` [füllstring] Essenzielle Downloads.
+- `resources.downloads.hero.cta1` [füllstring] Projekt anfragen
+- `resources.downloads.hero.cta2` [füllstring] Zu den Dokumenten
+- `resources.downloads.hero.desc` [füllstring] Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Wo Materialversagen keine Option ist, beginnen unsere Spezifikationen.
+- `resources.downloads.hero.eyebrow` [füllstring] K Aqua Ressourcen
+- `resources.downloads.hero.title1` [füllstring] Downloads.
+- `resources.downloads.hero.title2` [füllstring] Engineered in Germany.
+- `resources.downloads.meta.desc` [füllstring] K Aqua Downloads: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Laden Sie jetzt Broschüren und Datenblätter herunter.
+- `resources.downloads.meta.title` [füllstring] Downloads | K Aqua
+- `resources.downloads.metaDesc` [füllstring] K Aqua Downloads: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Laden Sie jetzt Broschüren und Datenblätter herunter.
+- `resources.downloads.methodology.card1.desc` [füllstring] Maßhaltigkeit in der Extrusion, dokumentiert in jeder Charge.
+- `resources.downloads.methodology.card2.desc` [füllstring] Toleranz bei unseren internationalen Prüfzertifikaten.
+- `resources.downloads.methodology.card2.title` [füllstring] 0 Fehler
+- `resources.downloads.methodology.p1` [füllstring] In der Bauindustrie werden Fehler oft erst Jahre nach der Fertigstellung sichtbar. Wenn ein Rohrleitungssystem in den Wänden eines 50-stöckigen Wolkenkratzers versagt, liegen die Schadenssummen in den Millionen.
+- `resources.downloads.methodology.p2` [füllstring] Genau deshalb unterziehen wir unsere Systeme extremen Alterungstests. Wir simulieren 50 Jahre Dauerbelastung in unseren Hochdruck-Laboren. Die Resultate fließen direkt in unsere technischen Dokumente ein.
+- `resources.downloads.methodology.subtitle` [füllstring] Die K Aqua Methodik
+- `resources.downloads.methodology.title` [füllstring] Warum unsere Daten unantastbar sind.
+- `resources.downloads.sticky.eyebrow` [füllstring] Tiefe Einblicke
+- `resources.downloads.sticky.items.0.desc` [füllstring] Ein K Aqua Datenblatt ist kein bloßes Papier. Es ist das destillierte Resultat aus Tausenden Stunden harter Belastungstests. Wir dokumentieren Toleranzen im Mikrometerbereich, weil bei Megaprojekten ein Millimeter Abweichung katastrophale Folgen haben kann.
+- `resources.downloads.sticky.items.0.title` [füllstring] Die Anatomie unserer Spezifikationen
+- `resources.downloads.sticky.items.1.desc` [füllstring] Unsere Downloads liefern tiefgehende molekulare Analysen. Sie erfahren exakt, warum die kristalline Struktur unseres PPRCT Werkstoffs bei 90°C Dauerbelastung über 50 Jahre stabil bleibt. Daten, die Statikern und Ingenieuren absolute Sicherheit geben.
+- `resources.downloads.sticky.items.1.title` [füllstring] Materialwissenschaft: PPRCT in Zahlen
+- `resources.downloads.sticky.items.2.desc` [füllstring] Fließgeschwindigkeiten, Druckverlusttabellen, Kavitationsgrenzen. Unsere Dokumente bieten Strömungsmechanik auf akademischem Niveau, aufbereitet für die sofortige Anwendung in der Praxis. Geplant für Hochhäuser, in denen Wasser gegen extreme Schwerkraft transportiert werden muss.
+- `resources.downloads.sticky.items.2.title` [füllstring] Hydraulische Präzision
+- `resources.downloads.sticky.items.3.desc` [füllstring] SKZ, DVGW, WRAS, KIWA: unsere Download-Sektion ist ein Tresor globaler Gütesiegel. Jedes Zertifikat ist der schriftliche Beweis unserer kompromisslosen Null Fehler-Politik.
+- `resources.downloads.sticky.items.3.title` [füllstring] geprüft. Weltweit.
+- `resources.downloads.sticky.lead` [füllstring] Ein Datenblatt von K Aqua ist mehr als Zahlenkolonnen. Es ist das Versprechen, dass jedes verbaute Teil exakt das leistet, was Ingenieure kalkuliert haben.
+- `resources.downloads.sticky.title` [füllstring] Die DNA des German Engineering.
+- `resources.downloads.timeline.desc` [füllstring] Wie wir seit 30 Jahren die Standards für Rohrleitungssysteme neu definieren.
+- `resources.downloads.timeline.items.0.text` [füllstring] Als Pionier in der Kunststoffrohr-Extrusion definierten wir die ersten Standards für PP-R Rohrleitungssysteme in Deutschland. Unsere Spezifikationen wurden zur Blaupause der Industrie.
+- `resources.downloads.timeline.items.0.title` [füllstring] Die erste technische Dokumentation
+- `resources.downloads.timeline.items.1.text` [füllstring] Mit der internationalen Expansion wurden unsere technischen Datenblätter an weltweite Normen angepasst, immer mit der Prämisse: Der deutsche Standard ist die absolute Baseline, keine Ausnahme.
+- `resources.downloads.timeline.items.1.title` [füllstring] ISO-Prüfung & Globale Normen
+- `resources.downloads.timeline.items.2.text` [füllstring] Einführung hochpräziser Building Information Modeling (BIM) Daten. Milliardenprojekte werden nun virtuell mit K Aqua Systemen geplant, bevor in der Realität der erste Spatenstich erfolgt.
+- `resources.downloads.timeline.items.2.title` [füllstring] BIM & Digitale Zwillinge
+- `resources.downloads.timeline.items.3.text` [füllstring] Unsere heutigen Kataloge und technischen Blätter sind dynamische Datenmodelle, die Echtzeit-Leistungsparameter aus globalen Installationen integrieren. German Engineering im digitalen Zeitalter.
+- `resources.downloads.timeline.items.3.title` [füllstring] Echtzeit-Daten & Predictive Analytics
+- `resources.downloads.timeline.title` [füllstring] Evolution der Präzision.
+- `resources.downloads.title` [füllstring] Downloads
+- `resources.support.bento.eyebrow` [füllstring] Leistungen im Überblick
+- `resources.support.bento.items.0.desc` [füllstring] Wir prüfen Ihre Planungsunterlagen, rechnen Druckverluste und Dimensionierung nach und liefern eine belastbare Materialliste vor Baubeginn.
+- `resources.support.bento.items.0.title` [füllstring] Hydraulische Auslegung & Isometrien
+- `resources.support.bento.items.1.desc` [füllstring] Unsere Techniker begleiten die Muffen- und Heizwendel-Schweißung vor Ort, kontrollieren Prozessparameter und schulen Ihr Montageteam auf Wunsch direkt auf der Baustelle.
+- `resources.support.bento.items.1.title` [füllstring] Schweißtechnische Betreuung
+- `resources.support.bento.items.2.desc` [füllstring] Wir unterstützen bei Durchführung und Dokumentation der Druckprüfung nach DIN 1988 und stellen die für die Bauabnahme benötigten Prüfprotokolle bereit.
+- `resources.support.bento.items.2.title` [füllstring] Druckprüfung & Abnahme
+- `resources.support.bento.items.3.desc` [füllstring] Schnelle Lieferung von Formteilen, Armaturen und Originalzubehör, auch für Bestandsanlagen und ältere K-Aqua-Chargen.
+- `resources.support.bento.items.3.title` [füllstring] Ersatzteil- & Zubehörservice
+- `resources.support.bento.items.4.desc` [füllstring] Bei ungeklärten Fragen zur Verarbeitung oder unklaren Prüfergebnissen ruft unser technischer Support kurzfristig zurück, bei Bedarf mit Einsatz eines Richtmeisters vor Ort.
+- `resources.support.bento.items.4.title` [füllstring] Ferndiagnose & Vor-Ort-Einsatz
+- `resources.support.bento.lead` [füllstring] Von der ersten Planung bis zur laufenden Wartung: unser Team begleitet Ihr PP-R-System durch jede Phase.
+- `resources.support.bento.title` [füllstring] Support entlang des gesamten Projekts
+- `resources.support.cta.btnGhost` [füllstring] Experten kontaktieren
+- `resources.support.cta.btnPrimary` [füllstring] Anfrage starten
+- `resources.support.cta.desc` [füllstring] Lassen Sie Ihr Vorhaben von Ingenieuren begleiten, die PP-R-Systeme nicht nur verkaufen, sondern selbst entwickeln und fertigen.
+- `resources.support.cta.title1` [füllstring] Bereit für Ihr
+- `resources.support.cta.title2` [füllstring] nächstes
+- `resources.support.cta.title3` [füllstring] Projekt?
+- `resources.support.hero.btnGhost` [füllstring] Leistungen ansehen
+- `resources.support.hero.btnPrimary` [füllstring] Projektanfrage stellen
+- `resources.support.hero.desc` [füllstring] Von der Rohrauslegung bis zur Bauabnahme: Unser technischer Support begleitet Planer und Installateure durch jede Phase eines PP-R-Projekts, mit direktem Draht zu den Ingenieuren, die das System entwickelt haben. Support, der mitdenkt, von der Planung bis zur Inbetriebnahme.
+- `resources.support.hero.eyebrow` [füllstring] Technischer Support
+- `resources.support.hero.title1` [füllstring] Support, der
+- `resources.support.hero.title2` [füllstring] mitdenkt.
+- `resources.support.intro.p1` [füllstring] Wir betrachten technischen Support nicht als nachgelagerten Service, sondern als festen Bestandteil jedes Projekts. Wenn auf der Baustelle eine Schweißnaht unklar ist oder eine Druckprüfung nicht wie erwartet ausfällt, zählt jede Stunde.
+- `resources.support.intro.p2` [füllstring] Unsere Ingenieure kennen jede Charge, jede Norm und jede Verarbeitungsvorschrift unserer Systeme aus erster Hand. Sie prüfen Isometrien, rechnen Druckverluste nach und stehen bei der Inbetriebnahme direkt am Rohr.
+- `resources.support.intro.p3` [füllstring] Das ist der Anspruch deutscher Ingenieurskunst, angewendet auf reale Baustellen, nicht auf Server-Racks.
+- `resources.support.intro.title1` [füllstring] Support ist kein Callcenter.
+- `resources.support.intro.title2` [füllstring] Es ist ein Ingenieursteam.
+- `resources.support.metaDesc` [füllstring] Profitieren Sie vom technischen Support von K-Aqua. Wir begleiten Ihre Megaprojekte mit German Engineering, Hydraulikauslegung und Vor-Ort-Schweißbetreuung.
+- `resources.support.metaTitle` [füllstring] Technischer Support & Service für PP-R Rohrsysteme
+- `resources.support.metrics.badge` [füllstring] Verlässlichkeit in Zahlen
+- `resources.support.metrics.items.0` [füllstring] Antwort auf technische Anfragen innerhalb eines Arbeitstages
+- `resources.support.metrics.items.1` [füllstring] Über 50 Jahre dokumentierte Systemlebensdauer bei sachgerechter Installation
+- `resources.support.metrics.items.2` [füllstring] Direkter Draht zum technischen Vertrieb ohne Warteschleife
+- `resources.support.metrics.items.3` [füllstring] Schulungen und Zertifizierungen über die K-Aqua Academy
+- `resources.support.metrics.p1` [füllstring] Wir arbeiten nach den Prinzipien deutscher Ingenieurskunst: Was wir liefern, muss halten, unter allen Baustellenbedingungen.
+- `resources.support.metrics.p2` [füllstring] Jedes K-Aqua-System ist nach DVGW, SKZ und KIWA zertifiziert. Jede Charge ist rückverfolgbar, jede Schweißnaht dokumentierbar.
+- `resources.support.metrics.title1` [füllstring] Geprüfte
+- `resources.support.metrics.title2` [füllstring] Zuverlässigkeit.
+- `resources.support.seoText.p1` [füllstring] Der technische Support von K Aqua ist das Rückgrat unserer weltweiten Infrastrukturprojekte. Wir wissen, dass bei der Installation von industriellen Rohrleitungssystemen und PP-R Hochleistungsleitungen jede Sekunde zählt. Unser Expertenteam für Fluidtechnik und Polymersysteme steht internationalen Generalunternehmern, Architekten und Bauingenieuren bei jedem Schritt zur Seite.
+- `resources.support.seoText.p2` [füllstring] Von der initialen Planung und isometrischen Kalkulation über die Auslegung der Druckverlustberechnung bis hin zur Überwachung der Schweißprozesse vor Ort: wir garantieren eine fehlerfreie Implementierung. Unsere Polypropylen Random Copolymerisat (PP-R) Systeme erfordern höchste handwerkliche Präzision. Deshalb bietet unsere Academy kontinuierliche Schulungen, während der Support bei komplexen thermischen Längenausdehnungen oder speziellen Fließdruckanforderungen eingreift.
+- `resources.support.seoText.p3` [füllstring] Durch den Einsatz modernster Diagnosewerkzeuge und vorausschauender Wartungsalgorithmen minimieren wir Ausfallzeiten auf ein absolutes Minimum. Egal ob es sich um Kaltwassersysteme in Wüstenregionen, hochreine Industrieanlagen oder Heizungsnetzwerke in arktischen Zonen handelt: die K Aqua Support-Infrastruktur sichert den reibungslosen Betrieb und die kompromisslose Langlebigkeit Ihrer Investition.
+- `resources.support.sticky.eyebrow` [füllstring] Eskalations-Protokolle
+- `resources.support.sticky.items.0.desc` [füllstring] Unsere Algorithmen analysieren kontinuierlich Anomalien in der Infrastruktur. Bevor ein kritischer Zustand erreicht wird, interveniert unser Level-3-Team. Null Toleranz für Latenz. Null Toleranz für Ausfälle. Wir agieren, bevor der Fehler entsteht.
+- `resources.support.sticky.items.0.title` [füllstring] Prädiktive Systemüberwachung
+- `resources.support.sticky.items.1.desc` [füllstring] Ein SLA ist für uns keine Richtlinie, sondern ein physikalisches Gesetz. Bei kritischen Vorfällen garantieren wir Initialreaktionen im Millisekundenbereich und sofortige Eskalation an dedizierte Senior-Ingenieure. Keine Warteschleifen, nur unmittelbare Exekution.
+- `resources.support.sticky.items.1.title` [füllstring] Militärische Reaktionszeiten
+- `resources.support.sticky.items.2.desc` [füllstring] Ihre Systeme werden nach den striktesten Normen der deutschen Ingenieurskunst auf den Prüfstand gestellt. Skalierbarkeit, Redundanz, und Ausfallsicherheit werden durch schonungslose Stresstests verifiziert. Schwachstellen werden eliminiert, nicht verwaltet.
+- `resources.support.sticky.items.2.title` [füllstring] Architektur-Audits
+- `resources.support.sticky.items.3.desc` [füllstring] Vergessen Sie konventionellen Support. Bei komplexen Systemintegrationen kommunizieren Sie direkt mit unseren Kernentwicklern. Kein First-Level-Filter, sondern rohe, ungefilterte technische Expertise für sofortige Problemlösung auf Quellcode-Ebene.
+- `resources.support.sticky.items.3.title` [füllstring] Direkter Entwickler-Zugang
+- `resources.support.sticky.lead` [füllstring] Wie wir Systemintegrität unter extremen Last-Bedingungen aufrechterhalten.
+- `resources.support.sticky.title` [füllstring] Souveränität in der Krise
+- `resources.support.timeline.desc` [füllstring] Jede Sekunde zählt. Unser standardisierter Ablauf im Falle einer kritischen Systemanomalie. Kalt berechnet. Gnadenlos exekutiert.
+- `resources.support.timeline.items.0.text` [füllstring] Automatisierte Systeme detektieren Mikro-Abweichungen im Datenstrom lange vor einem sichtbaren Ausfall.
+- `resources.support.timeline.items.0.title` [füllstring] Anomalie-Erkennung
+- `resources.support.timeline.items.1.text` [füllstring] KI-gestützte Log-Analyse isoliert den Fehlervektor. Zuweisung an das exakt passende Spezialisten-Cluster.
+- `resources.support.timeline.items.1.title` [füllstring] Diagnostische Triage
+- `resources.support.timeline.items.2.text` [füllstring] Einspielen von Hotfixes oder automatisches Rerouting des Traffics auf redundante High-Availability-Knoten.
+- `resources.support.timeline.items.2.title` [füllstring] Intervention
+- `resources.support.timeline.items.3.text` [füllstring] Forensische Untersuchung des Vorfalls. Modifikation der Kernarchitektur zur permanenten Prävention.
+- `resources.support.timeline.items.3.title` [füllstring] Root-Cause-Analyse
+- `resources.support.timeline.items.4.text` [füllstring] Detaillierter technischer Bericht mit kryptographischer Signatur für absolute Transparenz und Audit-Sicherheit.
+- `resources.support.timeline.items.4.title` [füllstring] Post-Mortem-Protokoll
+- `resources.support.timeline.title` [füllstring] Der Ernstfall: Chronik einer Intervention
+- `resources.support.title` [füllstring] Technischer Support für PP-R Rohrsysteme
+
+## rfq (1)
+
+- `rfq.regions.1`  DACH
+
+## seo (8)
+
+- `seo.extendedMarketText.p1` [füllstring] Die Lösungen von K Aqua sind speziell darauf ausgelegt, den Anforderungen lokaler und internationaler Märkte gerecht zu werden.
+- `seo.extendedMarketText.p2` [füllstring] Wir unterstützen Generalunternehmer und Planer vor Ort mit technischer Expertise und zuverlässigen Systemen für jede Herausforderung.
+- `seo.extendedMarketText.p3` [füllstring] Durch unser globales Netzwerk stellen wir sicher, dass Sie genau die Produkte erhalten, die für Ihr regionale Bauvorhaben optimal geeignet sind.
+- `seo.extendedMarketText.p4` [füllstring] Die wasserwirtschaftlichen Herausforderungen unserer Zeit erfordern maßgeschneiderte, langlebige Infrastrukturlösungen. K-Aqua engagiert sich aktiv in internationalen Märkten, um dem wachsenden Bedarf an hygienischen und verlustfreien Rohrnetzen zu begegnen. Ob in wasserarmen Regionen, in denen jeder Tropfen durch leckagefreie Schweißverbindungen geschützt werden muss, oder in hochverdichteten Metropolen mit komplexen Anforderungen an den Brandschutz und die Schallisolierung: unsere PP-R und PPRCT Systeme bieten die notwendige Zuverlässigkeit.
+- `seo.extendedMarketText.p5` [füllstring] Dabei setzen wir nicht nur auf den reinen Produktvertrieb, sondern verstehen uns als strategischer Partner vor Ort. Durch technische Schulungen, Vor-Ort-Supervision und die enge Zusammenarbeit mit lokalen Behörden stellen wir sicher, dass internationale Normen (wie DVGW, WRAS, SASO) nicht nur eingehalten, sondern übertroffen werden. So tragen wir nachhaltig zur Modernisierung der globalen Wasserinfrastruktur bei.
+- `seo.extendedProductText.p1` [füllstring] Unsere hochwertigen K Aqua Systeme bieten maximale Zuverlässigkeit und Langlebigkeit für anspruchsvolle Projekte weltweit.
+- `seo.extendedProductText.p2` [füllstring] Dank fortschrittlicher Materialien und präziser Fertigung in Deutschland garantieren wir eine einfache Installation und dauerhafte Sicherheit.
+- `seo.extendedProductText.p3` [füllstring] Vertrauen Sie auf zertifizierte Qualität und nachhaltige Lösungen, die höchsten internationalen Standards entsprechen und die Effizienz Ihres Projekts steigern.
+
+## seoExpansion (2)
+
+- `seoExpansion.p4` [füllstring] Vollständig in Deutschland unter strengen Qualitäts- und Umweltmanagementprotokollen nach ISO 9001, ISO 14001 und ISO 50001 hergestellt, exportiert K-Aqua Premium-Rohrlösungen in über 50 Länder weltweit. Unser Logistiknetzwerk garantiert die schnelle und sichere Lieferung kompletter Systeme an Megaprojekte im Nahen Osten, Südostasien und ganz Europa. Unser unermüdliches Engagement für Qualität wird von großen internationalen Zertifizierungsstellen validiert, darunter DVGW, SKZ, WRAS und KIWA. Wir unterstützen beratende Ingenieure, BIM-Modellierer und Großunternehmer mit detaillierten CAD-/BIM-Bibliotheken, intelligenter Berechnungssoftware und umfassendem technischem Support, um eine reibungslose Projektausführung zu gewährleisten. K-Aqua repräsentiert die ultimative Synthese aus fortschrittlicher Polymerwissenschaft, nachhaltiger Technik und kompromissloser Zuverlässigkeit im Fluidmanagement.
+- `seoExpansion.t4` [füllstring] Globale Reichweite, German Engineering & Zertifizierungen
+
+## service (2)
+
+- `service.videos.1.s`  PP-R Socket Welding
+- `service.videos.3.t`  Stumpfschweißen (Butt Fusion)
+
+## servicex (1)
+
+- `servicex.libRows.3.t`  ISO-Zertifikate (Deutsch)
+
+## solutions (296)
+
+- `solutions.hochhaus.bento.eyebrow` [füllstring] Spezifikationen
+- `solutions.hochhaus.bento.items.0.desc` [füllstring] Die nächste Generation des Polypropylens. Modifizierte kristalline Struktur für nie dagewesene Druck- und Temperaturbeständigkeit bei reduzierter Wandstärke. Maximiert den Durchfluss, minimiert das Gewicht, ein entscheidender Faktor bei der Statik großer Gebäude.
+- `solutions.hochhaus.bento.items.0.title` [füllstring] Die PPRCT Revolution
+- `solutions.hochhaus.bento.items.1.desc` [füllstring] geprüfte Sicherheit durch unabhängige deutsche Prüfinstitute wie SKZ und DVGW. Höchste Trinkwassergüte, keine Auswaschungen.
+- `solutions.hochhaus.bento.items.2.desc` [füllstring] Unempfindlich gegen pH-Wert-Schwankungen, aggressive Wasserqualitäten, Chlorierung und elektrochemische Korrosion (Lochfraß).
+- `solutions.hochhaus.bento.items.2.title` [füllstring] Absolute Korrosionsresistenz
+- `solutions.hochhaus.bento.items.3.desc` [füllstring] Zeit ist das teuerste Gut auf der Baustelle. Wir liefern millimetergenau vorgefertigte Verteiler-Arrays, Zählerbalken und Steigleitungskomponenten direkt 'Just-in-Time'. Reduziert die Installationszeit um bis zu 60% und eliminiert Fehlerquellen auf der Baustelle.
+- `solutions.hochhaus.bento.items.3.title` [füllstring] Vollständige Vorfertigung (Prefabrication)
+- `solutions.hochhaus.bento.lead` [füllstring] Präzisionsgefertigt nach strengsten deutschen Maßstäben für 100% Wartungsfreiheit. Wir definieren den globalen Standard im Segment der Rohrleitungssysteme für Wolkenkratzer.
+- `solutions.hochhaus.bento.title` [füllstring] Architektur für die Ewigkeit.
+- `solutions.hochhaus.cta.button1` [füllstring] Projekt anfragen
+- `solutions.hochhaus.cta.button2` [füllstring] Technischen Support kontaktieren
+- `solutions.hochhaus.cta.desc` [füllstring] Sprechen Sie mit unserem dedizierten Hochhaus-Engineering Team über Strömungsberechnungen, statische Auslegungen und maßgeschneiderte Prefab-Lösungen für Ihr nächstes Megaprojekt.
+- `solutions.hochhaus.cta.title` [füllstring] Bereit, die Skyline der Zukunft zu prägen?
+- `solutions.hochhaus.data.eyebrow` [füllstring] Die Daten
+- `solutions.hochhaus.data.h3_1` [füllstring] Molekulare Beständigkeit
+- `solutions.hochhaus.data.h3_2` [füllstring] Hydraulische Strömungsdynamik
+- `solutions.hochhaus.data.lead` [füllstring] Generalunternehmer glauben keinen Marketingversprechen. Sie glauben an Zugfestigkeit, Kriechkurven, Staudruck-Widerstand und FNCT (Full Notch Creep Tests).
+- `solutions.hochhaus.data.p1` [füllstring] Die Lebensdauer eines Kunststoffrohrs unter Druck und Temperatur wird durch die Zeitstand-Innendruckfestigkeit (Kriechkurven) bestimmt. Die branchenüblichen Standardvorgaben gehen von einer 50-jährigen Betriebsdauer aus. Unsere internen Labortests und thermisch-oxidativen Alterungssimulationen verifizieren eine Belastbarkeit für eine Lebensdauer von über 100 Jahren. Das K Aqua PPRCT Material verzögert das Eintreten von thermisch-oxidativem Abbau signifikant, selbst in Zirkulationsleitungen mit permanent hohen Temperaturen.
+- `solutions.hochhaus.data.p2` [füllstring] Metallrohre werden im Laufe der Jahre durch Korrosion und Inkrustation rau. Der Rohrreibungsverlust steigt, der Querschnitt verengt sich, der Energieaufwand für die Förderpumpen explodiert. K Aqua Rohre weisen eine absolute Oberflächenrauhigkeit von k = 0,007 mm auf. Diese spiegelglatte Oberfläche bleibt über die gesamte Lebensdauer absolut konstant. Das Resultat: Minimaler Druckverlust, massive Energieeinsparungen beim Pumpenbetrieb und absolute Hygiene, da sich weder Biofilm noch Legionellen anheften können.
+- `solutions.hochhaus.data.stats.0.label` [füllstring] Dichte (g/cm³)
+- `solutions.hochhaus.data.stats.1.label` [füllstring] Schmelzindex (g/10min)
+- `solutions.hochhaus.data.stats.2.label` [füllstring] Zug-E-Modul (MPa)
+- `solutions.hochhaus.data.stats.2.val` [füllstring] 800 / 900 (RCT)
+- `solutions.hochhaus.data.stats.3.label` [füllstring] Wärmeleitfähigkeit (W/mK)
+- `solutions.hochhaus.data.stats.4.label` [füllstring] Längenausdehnungskoeffizient (mm/mK)
+- `solutions.hochhaus.data.stats.4.val` [füllstring] 0.15 (Standard) / 0.035 (Faser)
+- `solutions.hochhaus.data.stats.5.label` [füllstring] Oberflächenrauigkeit k (mm)
+- `solutions.hochhaus.data.stats.5.standard` [füllstring] Prüfstand
+- `solutions.hochhaus.data.stats.6.label` [füllstring] Chemische Beständigkeit
+- `solutions.hochhaus.data.stats.6.val` [füllstring] Ph-Wert 1 bis 14
+- `solutions.hochhaus.data.title` [füllstring] Faktenbasierte Überlegenheit.
+- `solutions.hochhaus.intro.eyebrow` [füllstring] Die Anatomie von Megabauten
+- `solutions.hochhaus.intro.lead` [füllstring] In 500 Metern Höhe verzeiht die Physik keine Konstruktionsfehler. Ein Haarriss in einer Steigleitung bedeutet katastrophale Schäden in Millionenhöhe. Deshalb überlassen wir bei K Aqua nichts dem Zufall.
+- `solutions.hochhaus.intro.p1` [füllstring] Hochhäuser sind vertikale Städte. Sie pulsieren, sie bewegen sich, sie atmen. Mit jedem Stockwerk steigt der hydrostatische Druck exponentiell an. Windlasten verursachen Mikroschwingungen in der gesamten Struktur. Temperaturunterschiede zwischen dem eisigen Fundament und der sonnenüberfluteten Spitze führen zu gewaltigen thermischen Längenausdehnungen.
+- `solutions.hochhaus.intro.p2` [füllstring] Traditionelle metallische Rohrleitungssysteme stoßen hier an ihre absoluten physikalischen Grenzen. Korrosion, Lochfraß, Inkrustation und Ermüdungsbrüche an den Schweißnähten sind keine Frage des "Ob", sondern des "Wann". Im Hochhausbau ist ein Leck nicht einfach nur ein technisches Problem. Es ist ein finanzielles Risiko, das ein gesamtes Projekt gefährden kann.
+- `solutions.hochhaus.intro.p3` [füllstring] K Aqua Hochleistungspolymere (PP-R & PPRCT) verändern die Spielregeln der Hochhaus-Infrastruktur fundamental. Sie korrodieren nicht. Sie verkalken nicht. Und durch unsere homogene thermische Schweißtechnik verschmelzen Rohr und Fitting auf molekularer Ebene zu einer einzigen, unzertrennbaren Einheit. Das Kreislaufsystem wird so stark wie das Material selbst.
+- `solutions.hochhaus.intro.title` [füllstring] Ein Gebäude ist nur so stark wie seine Adern.
+- `solutions.hochhaus.sticky.eyebrow` [füllstring] Extrembedingungen
+- `solutions.hochhaus.sticky.items.0.desc` [füllstring] Mit jedem Meter Höhe wächst die Wassersäule. In Megatalls entstehen Drücke jenseits von 30 bar. K Aqua PPRCT (Polypropylene Random Copolymer with modified Crystallinity and Temperature resistance) Rohre bieten eine bis zu 50% höhere Druckfestigkeit bei hohen Temperaturen im Vergleich zu Standard-PP-R. Sie fungieren als unverwüstliches Rückgrat der Wasserversorgung, selbst in Zonen maximaler statischer Belastung.
+- `solutions.hochhaus.sticky.items.0.title` [füllstring] Extremer Hydrostatischer Druck
+- `solutions.hochhaus.sticky.items.1.desc` [füllstring] Das Pumpen von heißem Wasser durch ein 300 Meter langes Rohr erzeugt immense Längenausdehnungen und Scherkräfte. Unsere Faserverbundtechnologie reduziert die thermische Ausdehnung um bis zu 75%. Das bedeutet weniger Befestigungspunkte, keine Dehnungsschleifen und ultimative strukturelle Integrität, verpackt in einem leichten, leicht zu montierenden System.
+- `solutions.hochhaus.sticky.items.1.title` [füllstring] Thermische Längenausdehnung & Spannungskontrolle
+- `solutions.hochhaus.sticky.items.2.desc` [füllstring] Wo O-Ringe oder Pressfittings aus Elastomeren verbaut sind, entstehen unweigerlich Leckagen durch Alterung. K Aqua eliminiert Dichtungen komplett. Durch das thermische Heizelementmuffenschweißen verschmelzen Rohr und Fitting bei exakt 260°C. Die resultierende Verbindung ist mechanisch genauso stark wie das Rohr selbst. Null Leckagen. Garantiert auf Lebenszeit.
+- `solutions.hochhaus.sticky.items.2.title` [füllstring] Molekulare Homogenität (Leckagefreiheit)
+- `solutions.hochhaus.sticky.items.3.desc` [füllstring] In Luxus-Penthouses und High End Offices ist Stille das ultimative Gut. Fließgeräusche und Druckschläge müssen eliminiert werden. Die hohe Materialdichte und die schallabsorbierenden Eigenschaften unserer PP-R Polymere dämpfen Körperschall und Fließgeräusche massiv und übertreffen die strengen Anforderungen der DIN 4109 und VDI 4100 bei Weitem.
+- `solutions.hochhaus.sticky.items.3.title` [füllstring] Akkustische Entkopplung (Schallschutz)
+- `solutions.hochhaus.sticky.lead` [füllstring] Vier fundamentale Herausforderungen im Hochhausbau und wie die deutsche Ingenieurskunst von K Aqua sie überwindet.
+- `solutions.hochhaus.sticky.title` [füllstring] Die Physik der Höhe meistern.
+- `solutions.hochhaus.timeline.desc` [füllstring] Von der ersten Strömungssimulation bis zum jahrzehntelangen, wartungsfreien Betrieb. So begleitet das K Aqua Engineering Team Ihr Megaprojekt von der Idee bis zur Inbetriebnahme.
+- `solutions.hochhaus.timeline.items.0.text` [füllstring] Unsere Ingenieure unterstützen bei der Auslegung der Steigleitungen, der Berechnung der Druckzonen und stellen vollständige BIM-Daten (Revit) zur Kollisionsprüfung und TGA-Planung bereit.
+- `solutions.hochhaus.timeline.items.0.title` [füllstring] Engineering & BIM
+- `solutions.hochhaus.timeline.items.0.year` [füllstring] Phase 1
+- `solutions.hochhaus.timeline.items.1.text` [füllstring] In unseren hochmodernen Anlagen in Deutschland werden Rohre und Fittings unter ständiger Ultraschall-Wanddickenkontrolle und strengster Laborüberwachung gefertigt. Jede Charge ist 100% nachverfolgbar.
+- `solutions.hochhaus.timeline.items.1.title` [füllstring] Präzisionsextrusion
+- `solutions.hochhaus.timeline.items.1.year` [füllstring] Phase 2
+- `solutions.hochhaus.timeline.items.2.text` [füllstring] Durch unser weltweites Vertriebsnetzwerk stellen wir sicher, dass das Material taktgenau auf der Baustelle eintrifft, egal ob in der Wüste von Dubai, in Singapur oder in Frankfurt am Main.
+- `solutions.hochhaus.timeline.items.2.title` [füllstring] Just-in-Time Logistik
+- `solutions.hochhaus.timeline.items.2.year` [füllstring] Phase 3
+- `solutions.hochhaus.timeline.items.3.text` [füllstring] Lokale Installateure werden von unseren Technikern vor Ort geschult. Die thermischen Schweißverbindungen werden in Sekundenschnelle gesetzt und sind sofort nach dem Auskühlen voll druckbelastbar.
+- `solutions.hochhaus.timeline.items.3.title` [füllstring] Homogene Verschmelzung
+- `solutions.hochhaus.timeline.items.3.year` [füllstring] Phase 4
+- `solutions.hochhaus.timeline.items.4.text` [füllstring] Nach der finalen Druckprüfung verschwinden unsere Systeme im Schacht oder Beton. Für die nächsten 50+ Jahre werden Sie nie wieder an sie denken müssen. Ein unsichtbares, perfektes Netzwerk.
+- `solutions.hochhaus.timeline.items.4.title` [füllstring] Wartungsfreier Betrieb
+- `solutions.hochhaus.timeline.items.4.year` [füllstring] Jahrzehnte
+- `solutions.hochhaus.timeline.title` [füllstring] Der Projektzyklus
+- `solutions.hotels.bento.items.0.desc` [füllstring] Schallschutz ist im High End-Hotelsegment das ultimative Qualitätsmerkmal. Unsere proprietäre dreischichtige Polymerstruktur absorbiert Körperschall und Fließgeräusche unmittelbar an der Quelle. Kein Flüstern des Wassers dringt in die Suiten Ihrer Gäste. geprüft nach DIN 4109.
+- `solutions.hotels.bento.items.0.title` [füllstring] Akustische Isolation der Referenzklasse
+- `solutions.hotels.bento.items.1.desc` [füllstring] Minimaler Wärmeverlust bei maximaler Effizienz. Die molekulare Dichte von K Aqua PP-R isoliert nativ und reduziert den Bedarf an sekundärer Dämmung drastisch. Das Resultat: Massive Einsparungen bei den OPEX.
+- `solutions.hotels.bento.items.1.title` [füllstring] Thermische Resilienz
+- `solutions.hotels.bento.items.2.desc` [füllstring] Aggressives Wasser, chlorierte Pools oder extreme Salinität in Küstenresorts? Wo Metalle kapitulieren, behält K Aqua seine strukturelle Integrität. Ein halbes Jahrhundert lang.
+- `solutions.hotels.bento.items.2.title` [füllstring] 100% Korrosionsfreiheit
+- `solutions.hotels.bento.items.3.desc` [füllstring] Legionellen und Biofilme entstehen durch mikroskopische Unebenheiten. Die Innenoberfläche von K Aqua Rohren ist auf molekularer Ebene derart glatt, dass sich Bakterien schlichtweg nicht anheften können. Klinische Reinheit für die Trinkwasserversorgung Ihres Resorts.
+- `solutions.hotels.bento.items.3.title` [füllstring] Mikrobiologische Festung
+- `solutions.hotels.bentoSection.eyebrow` [füllstring] Die Anatomie der Perfektion
+- `solutions.hotels.bentoSection.lead` [füllstring] Wir haben jedes Element der klassischen Rohrleitung hinterfragt und durch materialwissenschaftliche Meisterleistungen ersetzt.
+- `solutions.hotels.bentoSection.title` [füllstring] Spezifikationen, die den Industriestandard dekonstruieren.
+- `solutions.hotels.certs.eyebrow` [füllstring] Compliance & Zertifizierungen
+- `solutions.hotels.certs.lead` [füllstring] Internationale Projekte erfordern internationale Zulassungen. K Aqua ist weltweit geprüft, geprüft und freigegeben von den striktesten Regulierungsbehörden.
+- `solutions.hotels.certs.title` [füllstring] Die härtesten Normen der Welt? Wir übertreffen sie.
+- `solutions.hotels.cta.button1` [füllstring] Projekt evaluieren lassen
+- `solutions.hotels.cta.button2` [füllstring] Direktkontakt Sales
+- `solutions.hotels.cta.desc` [füllstring] Verlassen Sie sich bei Ihrem nächsten Hotel- oder Resort-Projekt nicht auf den Standard. Definieren Sie ihn neu. Kontaktieren Sie unsere leitenden Ingenieure für eine tiefe technische Evaluierung.
+- `solutions.hotels.cta.title` [füllstring] Bauen Sie für die Ewigkeit.
+- `solutions.hotels.intro.desc` [füllstring] Ein Fünf-Sterne-Erlebnis duldet keine Kompromisse. Weder beim Service noch in der Bausubstanz. Unsere hochverdichteten PP-R Polymere eliminieren Fließgeräusche, verhindern thermischen Verlust und garantieren mikrobiologische Reinheit. Willkommen in der Referenzklasse der Fluidtechnik.
+- `solutions.hotels.intro.title1` [füllstring] Wahrer Luxus
+- `solutions.hotels.intro.title2` [füllstring] ist unsichtbar.
+- `solutions.hotels.intro.titleGrad` [füllstring] Und unhörbar.
+- `solutions.hotels.perf.items.0.desc` [füllstring] Absolute Resistenz gegen Biofilme und Inkrustation.
+- `solutions.hotels.perf.items.0.title` [füllstring] Oberflächenrauheit
+- `solutions.hotels.perf.items.1.desc` [füllstring] Schweißverbindungen, die auf molekularer Ebene verschmelzen.
+- `solutions.hotels.perf.items.1.title` [füllstring] Homogene Fusion
+- `solutions.hotels.perf.items.2.desc` [füllstring] Geprüft und geprüft nach den strengsten ISO-Normen.
+- `solutions.hotels.perf.items.2.title` [füllstring] Jahre Lebensdauer
+- `solutions.hotels.perf.items.3.desc` [füllstring] Installieren, versiegeln und für immer vergessen.
+- `solutions.hotels.perf.items.3.title` [füllstring] Wartungsaufwand
+- `solutions.hotels.research.desc` [füllstring] Unsere F&E Abteilung in Deutschland arbeitet unermüdlich an der Perfektionierung der Polymer-Matrix. Durch die Zugabe von proprietären Additiven und speziellen Glasfaser-Compounds extrudieren wir Rohre, die eine extrem geringe Längenausdehnung aufweisen, vergleichbar mit metallischen Rohren, jedoch ohne deren eklatante Nachteile.
+- `solutions.hotels.research.eyebrow` [füllstring] Forschung & Entwicklung
+- `solutions.hotels.research.items.0` [füllstring] Reduzierte lineare Ausdehnung (Alpha-Wert: 0.035 mm/mK)
+- `solutions.hotels.research.items.1` [füllstring] Erhöhter Durchflussquerschnitt durch dünnere Wandstärken bei gleicher Druckstufe
+- `solutions.hotels.research.items.2` [füllstring] Vollkommene Resistenz gegen Chlorverbindungen im Hotel-Poolbereich
+- `solutions.hotels.research.items.3` [füllstring] Toxikologisch völlig unbedenklich, lebensmittelecht geprüft
+- `solutions.hotels.research.title` [füllstring] Die Chemie <br/> der Unzerstörbarkeit.
+- `solutions.hotels.sticky.items.0.p1` [füllstring] In ausgedehnten Hotelnetzwerken kann stagnierendes Wasser in temporär ungenutzten Suiten zur tödlichen Falle werden. Legionellen proliferieren in Biofilmen, die sich an rauen Rohrwänden bilden.
+- `solutions.hotels.sticky.items.0.p2` [füllstring] Die mikroskopische Oberflächenrauheit von K Aqua PP-R liegt bei 0.007 mm. Es gibt keine Poren, keine Nischen, keine Ankerpunkte. In Kombination mit thermischer Desinfektion bieten wir das sterilste Umfeld, das physikalisch möglich ist.
+- `solutions.hotels.sticky.items.0.title` [füllstring] 1. Legionellen-Prävention auf Molekularebene
+- `solutions.hotels.sticky.items.1.p1` [füllstring] Jedes Dezibel zählt. In Luxusresorts darf der Toilettenspülvorgang oder das Duschen in der Nachbarsuite nicht wahrnehmbar sein.
+- `solutions.hotels.sticky.items.1.p2` [füllstring] Durch die hohe Dichte unseres Verbundmaterials (K Aqua Faserverbund) und den hohen inneren Dämpfungsfaktor reduzieren wir den Körperschall um bis zu 80% gegenüber metallischen Systemen. Ein Unterschied, den Ihre Gäste nicht hören werden.
+- `solutions.hotels.sticky.items.1.title` [füllstring] 2. Absolute Schallabsorption
+- `solutions.hotels.sticky.items.2.p1` [füllstring] Hotels mit 80, 100 oder 120 Stockwerken stellen extreme Anforderungen an die Steigleitungen. Der hydrostatische Druck im unteren Bereich des Gebäudes ist enorm.
+- `solutions.hotels.sticky.items.2.p2` [füllstring] K Aqua bietet spezielle Druckstufen (SDR 6 / PN 20) in Kombination mit Faserverstärkung, die auch bei Temperaturen von 70°C eine Lebensdauer von über 50 Jahren unter Dauerlast garantieren. Wir bezwingen die Schwerkraft.
+- `solutions.hotels.sticky.items.2.title` [füllstring] 3. Hochdruck-Resilienz in Skyscrapern
+- `solutions.hotels.sticky.items.3.p1` [füllstring] In Wüstenregionen wie Dubai oder Riad ist Kälte das teuerste Gut. District Cooling Systeme transportieren gekühltes Wasser über weite Strecken zum Resort.
+- `solutions.hotels.sticky.items.3.p2` [füllstring] Die exzellenten Isolationswerte von PP-R verhindern Kondensatbildung und minimieren den Kühlverlust massiv. Keine durchgerosteten Chiller-Pipes mehr, keine tropfenden Decken. Nur reine, unverfälschte Effizienz.
+- `solutions.hotels.sticky.items.3.title` [füllstring] 4. Thermal Management & District Cooling
+- `solutions.hotels.stickySection.eyebrow` [füllstring] Die 4 Säulen
+- `solutions.hotels.stickySection.lead` [füllstring] Wie wir die größten Herausforderungen der modernen Hotel-Infrastruktur durch radikale Ingenieurskunst lösen.
+- `solutions.hotels.stickySection.title` [füllstring] Die DNA eines Masterpieces.
+- `solutions.hotels.textSection.h3` [füllstring] Homogene Schweißverbindungen: Das Ende der Leckage
+- `solutions.hotels.textSection.p1` [füllstring] In Wolkenkratzern und weitläufigen Resort-Anlagen herrschen extreme physikalische Bedingungen. Wasserdruck, der hunderte Meter in die Höhe gepumpt wird. Temperaturdifferenzen, die traditionelle Materialien an ihre Belastungsgrenzen bringen.
+- `solutions.hotels.textSection.p2` [füllstring] Traditionelle Kupfersysteme weisen bei hohen Fließgeschwindigkeiten signifikante Erosionserscheinungen auf. Die Kavitation, verursacht durch Druckschwankungen in Steigleitungen von Hochhaushotels, führt unweigerlich zu Mikrorissen, Lochfraß und letztlich zu katastrophalen Wasserschäden, die ganze Etagen lahmlegen können. Für einen Hotelbetreiber bedeutet dies nicht nur massive Sanierungskosten, sondern einen irreparablen Reputationsverlust.
+- `solutions.hotels.textSection.p3` [füllstring] K Aqua geht einen radikal anderen Weg.
+- `solutions.hotels.textSection.p4` [füllstring] Unsere Systeme basieren auf Polypropylen Random Copolymerisat (PP-R) der neuesten Generation. Durch einen hochkomplexen Extrusionsprozess in unserem deutschen Stammwerk richten wir die Polymerketten so aus, dass sie eine beispiellose Kombination aus Flexibilität und extremer Druckresistenz aufweisen. Wenn es im System zu Druckschlägen (Water Hammer) kommt, fängt das Material diese kinetische Energie elastisch ab, anstatt sie als akustischen Schock oder mechanischen Riss an die Bausubstanz weiterzugeben.
+- `solutions.hotels.textSection.p5` [füllstring] Das schwächste Glied in jedem Rohrleitungssystem ist die Verbindung. Gewinde korrodieren, Dichtungsringe werden porös, Klebeverbindungen ermüden durch thermische Zyklisierung.
+- `solutions.hotels.textSection.p6` [füllstring] Wir nutzen das Prinzip der molekularen Fusion. Rohr und Fitting werden thermisch auf exakt 260°C erhitzt und anschließend zusammengefügt. Innerhalb von Sekundenbruchteilen verschmelzen die Polymerketten beider Bauteile zu einer unzertrennlichen, monolithischen Einheit. Das Resultat: Es gibt keine "Verbindung" mehr. Rohr und Fitting sind ein einziges, durchgehendes Stück Material. Ohne Dichtung, ohne Schwachstelle, mit einer Ausfallsicherheit von 100%.
+- `solutions.hotels.textSection.title` [füllstring] Die Ingenieurskunst hinter der Stille
+- `solutions.index.bento.header.desc` [füllstring] Skalierbare Systemlösungen für spezifische industrielle und bautechnische Sektoren.
+- `solutions.index.bento.header.title` [füllstring] Anwendungsvektoren.
+- `solutions.index.hero.cta` [füllstring] Kontakt aufnehmen
+- `solutions.index.hero.desc` [füllstring] Entdecken Sie die PP-R Materialvorteile und die physikalische Überlegenheit unserer Hochleistungspolymersysteme von K-Aqua. Entwickelt unter extremen Bedingungen, verifiziert durch kompromisslose deutsche Ingenieurskunst. Diese Systemarchitektur ist für die Ewigkeit konzipiert.
+- `solutions.index.hero.eyebrow` [füllstring] INDUSTRIELLE & BAUTECHNISCHE LÖSUNGEN
+- `solutions.index.hero.title1` [füllstring] PP-R SYSTEMLÖSUNGEN
+- `solutions.index.hero.title2` [füllstring] FÜR DIE EWIGKEIT.
+- `solutions.index.intro.p1` [füllstring] Wo metallische Rohrsysteme durch Korrosion, Inkrustation und thermische Materialermüdung kapitulieren, beginnt das operative Spektrum von K-AQUA. Unsere Polypropylen Random Copolymer (PPR) Infrastrukturen definieren die physikalischen Grenzen des Fluidtransports neu.
+- `solutions.index.intro.p2` [füllstring] Jeder Millimeter unseres Systems ist das Resultat jahrzehntelanger materialwissenschaftlicher Forschung. Wir liefern keine simplen Rohre; wir implementieren makellose, monolithische Lebensadern für Anlagen, die keinen Raum für Ausfälle tolerieren. Von arktischer Kälte bis hin zu siedenden industriellen Prozessen ist K-AQUA die architektonische Antwort auf extreme ingenieurstechnische Herausforderungen.
+- `solutions.index.intro.title` [füllstring] Jenseits konventioneller Belastungsgrenzen.
+- `solutions.index.sticky.header.desc` [füllstring] Die technischen Prinzipien, die K-AQUA Systemen ihre überragende Langlebigkeit und operative Sicherheit verleihen.
+- `solutions.index.sticky.header.title` [füllstring] Physikalische Überlegenheit.
+- `solutions.index.sticky.items.0.p1` [füllstring] Das K-AQUA PPR-System setzt auf modernste Polyfusionstechnologie. Durch präzise thermische Behandlung verbinden sich Rohr und Fitting zu einer einzigen, unzertrennlichen Komponente auf molekularer Ebene.
+- `solutions.index.sticky.items.0.p2` [füllstring] Diese vollkommene Integration schließt alle Risiken herkömmlicher Klebe- oder Pressverbindungen aus. Das Ergebnis ist eine Rohrleitungsinfrastruktur, die selbst härtesten Druckstößen und stärksten hydraulischen Belastungen mühelos standhält.
+- `solutions.index.sticky.items.0.title` [füllstring] Nahtlose Materialverschmelzung
+- `solutions.index.sticky.items.1.p1` [füllstring] Extreme Temperaturschwankungen stellen für viele traditionelle Rohre eine Gefahr dar. Die K-AQUA Polymere nutzen eine extrem dichte Kristallstruktur, die selbst bei Dauerbelastungen von bis zu 95°C jegliche Verformung unterbindet.
+- `solutions.index.sticky.items.1.p2` [füllstring] Zusätzlich sorgt die natürliche Isolationsfähigkeit des Materials dafür, dass weniger externe Dämmung benötigt wird, was die thermische Effizienz des gesamten Netzwerks deutlich verbessert.
+- `solutions.index.sticky.items.1.title` [füllstring] Herausragende Hitzebeständigkeit
+- `solutions.index.sticky.items.2.p1` [füllstring] Mit einer außergewöhnlichen inneren Glätte von nur 0,007 mm definieren K-AQUA Rohre den Standard neu. Diese extrem feine Oberfläche macht es unmöglich, dass sich Kalk, Mineralien oder Biofilme absetzen.
+- `solutions.index.sticky.items.2.p2` [füllstring] Dies minimiert Reibungsverluste drastisch und senkt den Energiebedarf der angeschlossenen Pumpen langfristig. Der unveränderte Rohrquerschnitt stellt eine dauerhaft hohe und zuverlässige Durchflusskapazität sicher.
+- `solutions.index.sticky.items.2.title` [füllstring] Optimierte Strömungsdynamik
+- `solutions.index.sticky.items.3.p1` [füllstring] Anders als Metalle bietet das K-AQUA PPR-System vollkommenen Schutz vor Rost, Lochfraß und galvanischer Zersetzung. Das Material ist chemisch inert und hält einer Vielzahl von Säuren, Laugen und aggressiven Substanzen stand.
+- `solutions.index.sticky.items.3.p2` [füllstring] Auch beim Transport von anspruchsvollen Industrie-Flüssigkeiten oder bei schwankenden pH-Werten bleibt die Struktur und Sicherheit des gesamten Rohrnetzes vollständig erhalten.
+- `solutions.index.sticky.items.3.title` [füllstring] Maximale chemische Resistenz
+- `solutions.index.timeline.desc` [füllstring] Von der mathematischen Kalkulation bis zur ewigen Betriebssicherheit. Der Lebenszyklus einer K-AQUA Installation verläuft nach strengen ingenieurstechnischen Protokollen.
+- `solutions.index.timeline.items.0.text` [füllstring] Evaluation der thermodynamischen und fluiddynamischen Anforderungen. Präzise Berechnung von Druckstufen, thermischer Längenausdehnung und hydraulischen Widerständen durch unsere Ingenieure.
+- `solutions.index.timeline.items.0.title` [füllstring] Strukturelle Analyse
+- `solutions.index.timeline.items.0.year` [füllstring] Phase 01
+- `solutions.index.timeline.items.1.text` [füllstring] Selektion des optimalen PPR-Copolymers. Abstimmung der Wandstärken und Dimensionen (20mm bis 160mm) auf die spezifischen Belastungsprofile der industriellen Anwendung.
+- `solutions.index.timeline.items.1.title` [füllstring] Materialspezifikation
+- `solutions.index.timeline.items.1.year` [füllstring] Phase 02
+- `solutions.index.timeline.items.2.text` [füllstring] Polyfusionsschweißung unter streng kontrollierten thermischen Parametern. Erschaffung eines monolithischen Netzwerks ohne Dichtungen oder mechanische Schwachstellen.
+- `solutions.index.timeline.items.2.title` [füllstring] Systemische Synthese
+- `solutions.index.timeline.items.2.year` [füllstring] Phase 03
+- `solutions.index.timeline.items.3.text` [füllstring] Jahrzehntelanger, wartungsfreier Betrieb. Die inerten Oberflächen verhindern Inkrustation, während die molekulare Dichte absolute Leckagesicherheit bei maximaler Energieeffizienz garantiert.
+- `solutions.index.timeline.items.3.title` [füllstring] Betriebsexzellenz
+- `solutions.index.timeline.items.3.year` [füllstring] Phase 04
+- `solutions.index.timeline.title` [füllstring] PROZESS-ARCHITEKTUR
+- `solutions.krankenhaus.bento.items.0.desc` [füllstring] Im Gegensatz zu metallischen Rohren ist K Aqua vollständig immun gegen elektrochemische Korrosion, Lochfraß und kalkhaltiges Wasser. Keine Inkrustation, kein Druckverlust über 50 Jahre Dauerbetrieb.
+- `solutions.krankenhaus.bento.items.0.title` [füllstring] 100% Korrosionsresistenz
+- `solutions.krankenhaus.bento.items.1.badge` [füllstring] -40% Time
+- `solutions.krankenhaus.bento.items.1.desc` [füllstring] Das geringe Eigengewicht und die homogene Schweißtechnik reduzieren die Installationszeit um bis zu 40%. Weniger Manntage, geringeres Risiko auf der Baustelle.
+- `solutions.krankenhaus.bento.items.1.title` [füllstring] Blitzschnelle Installation
+- `solutions.krankenhaus.bento.items.2.badge` [füllstring] Seismic Grade
+- `solutions.krankenhaus.bento.items.2.desc` [füllstring] Die modulare molekulare Struktur des Materials erlaubt es, seismische Schocks und Gebäudesetzungen zu absorbieren, ohne zu brechen. Essenziell für Krankenhäuser in Risikogebieten.
+- `solutions.krankenhaus.bento.items.2.title` [füllstring] Erdbebensichere Flexibilität
+- `solutions.krankenhaus.bento.items.3.desc` [füllstring] Erfüllt und übertrifft die weltweit strengsten Normen (DIN, DVGW, SKZ, WRAS) für den Transport von Reinstwasser und hochsensiblen klinischen Medien.
+- `solutions.krankenhaus.bento.items.3.title` [füllstring] geprüfte Trinkwassergüte
+- `solutions.krankenhaus.bentoSection.eyebrow` [füllstring] ROI & Lebenszyklus
+- `solutions.krankenhaus.bentoSection.lead` [füllstring] Qualität ist kein Kostenfaktor, sondern der einzige Weg zur Profitabilität in der Gebäudeautomation. K Aqua minimiert die Total Cost of Ownership auf ein beispielloses Niveau und garantiert gleichzeitig maximale Patientensicherheit.
+- `solutions.krankenhaus.bentoSection.title` [füllstring] Wirtschaftlichkeit durch Perfektion.
+- `solutions.krankenhaus.bim.cta` [füllstring] Zum Download-Center
+- `solutions.krankenhaus.bim.desc` [füllstring] Laden Sie detaillierte Revit-Familien, AutoCAD-Dateien und vollständige hydraulische Datensätze für Ihre Gebäudeinformationsmodellierung (BIM) herunter. Millimetergenaue Planungssicherheit für Ihr Projekt.
+- `solutions.krankenhaus.bim.title` [füllstring] BIM & CAD Ressourcen
+- `solutions.krankenhaus.cta.button` [füllstring] Engineering Team kontaktieren
+- `solutions.krankenhaus.cta.desc` [füllstring] Unsere Application Engineers stehen bereit, um die komplexesten hydraulischen Herausforderungen Ihres Klinikprojekts zu lösen. Kein Projekt ist zu groß, kein Standard zu streng.
+- `solutions.krankenhaus.cta.eyebrow` [füllstring] Next Steps
+- `solutions.krankenhaus.cta.title` [füllstring] Bereit für das nächste Megaprojekt?
+- `solutions.krankenhaus.intro.desc` [füllstring] Generalunternehmer stehen bei Klinikprojekten vor einem unlösbaren Paradox: Enormer Zeitdruck bei der Errichtung trifft auf die strengsten hygienischen Vorgaben der Menschheitsgeschichte. Ein einziger Totraum im Rohrnetz, ein mikroskopischer Riss, eine korrodierende Verbindung: und Millioneninvestitionen sind gefährdet. Wir lösen dieses Paradox durch reine, kompromisslose deutsche Ingenieurskunst.
+- `solutions.krankenhaus.intro.title` [füllstring] Wo ein Tropfen Wasser <br className="hidden md:block"/> das System kollabieren lässt.
+- `solutions.krankenhaus.specs.eyebrow` [füllstring] Spezifikationen
+- `solutions.krankenhaus.specs.lead` [füllstring] Für Ingenieure, Planer und Architekten: Die physikalischen und chemischen Grenzwerte unseres Systems für den klinischen Einsatz. Transparenz ist die Basis für Vertrauen.
+- `solutions.krankenhaus.specs.mech.items.0.label` [füllstring] Dichte
+- `solutions.krankenhaus.specs.mech.items.0.value` [füllstring] 0.895 g/cm³
+- `solutions.krankenhaus.specs.mech.items.1.label` [füllstring] Zugfestigkeit
+- `solutions.krankenhaus.specs.mech.items.1.value` [füllstring] 23 MPa
+- `solutions.krankenhaus.specs.mech.items.2.label` [füllstring] Bruchdehnung
+- `solutions.krankenhaus.specs.mech.items.3.label` [füllstring] Elastizitätsmodul
+- `solutions.krankenhaus.specs.mech.items.3.value` [füllstring] 800 MPa
+- `solutions.krankenhaus.specs.mech.title` [füllstring] Mechanische Eigenschaften
+- `solutions.krankenhaus.specs.therm.items.0.label` [füllstring] Dauerbetriebstemperatur
+- `solutions.krankenhaus.specs.therm.items.1.label` [füllstring] Maximale Störfalltemperatur
+- `solutions.krankenhaus.specs.therm.items.1.value` [füllstring] 95°C (100h)
+- `solutions.krankenhaus.specs.therm.items.2.label` [füllstring] Wärmeleitfähigkeit
+- `solutions.krankenhaus.specs.therm.items.2.value` [füllstring] 0.24 W/mK
+- `solutions.krankenhaus.specs.therm.items.3.label` [füllstring] Linearer Ausdehnungskoeffizient
+- `solutions.krankenhaus.specs.therm.items.3.value` [füllstring] 0.15 mm/mK
+- `solutions.krankenhaus.specs.therm.title` [füllstring] Thermische Belastbarkeit
+- `solutions.krankenhaus.specs.title` [füllstring] Die harten Fakten.
+- `solutions.krankenhaus.sticky.items.0.desc` [füllstring] In der kritischen Krankenhausinfrastruktur ist Wasserhygiene keine Option, sondern eine Überlebensfrage. Unsere K Aqua Rohrsysteme nutzen extrem glatte, porenfreie Innenoberflächen, die die Bildung von Biofilmen und die Proliferation von Legionellen physikalisch unterbinden. German Engineering bedeutet hier: Prävention durch perfekte Materialwissenschaft, nicht durch chemische Nachbehandlung.
+- `solutions.krankenhaus.sticky.items.0.title` [füllstring] Legionellenprävention auf molekularer Ebene
+- `solutions.krankenhaus.sticky.items.1.desc` [füllstring] Klinische Standards erfordern regelmäßige thermische Desinfektionen bei Temperaturen über 70°C. Während herkömmliche Systeme hierbei rasch altern, ist das K Aqua PPR-System für extreme thermische Belastungen über Jahrzehnte hinweg ausgelegt. Keine Mikrorisse, keine Versprödung, keine Kompromisse.
+- `solutions.krankenhaus.sticky.items.1.title` [füllstring] Thermische Desinfektion ohne Materialermüdung
+- `solutions.krankenhaus.sticky.items.2.desc` [füllstring] Unsere patentierte Heizelement-Muffenschweißung verschmilzt Rohr und Fitting zu einer homogenen, vollkommen nahtlosen Einheit. Es entstehen keinerlei Toträume, in denen sich Stagnationswasser sammeln könnte. Das Ergebnis ist ein Leitungssystem aus einem Guss: die absolute physikalische Barriere gegen Kontamination.
+- `solutions.krankenhaus.sticky.items.2.title` [füllstring] Absolut sterile Verbindungen
+- `solutions.krankenhaus.sticky.items.3.desc` [füllstring] Lärm ist ein massiver Stressfaktor für Patienten und medizinisches Personal. Das K Aqua System besitzt inhärente schallabsorbierende Eigenschaften. Fließgeräusche und Druckstöße werden vom Material selbst geschluckt, was eine flüsterleise Wasserversorgung selbst bei Hochdruckanwendungen garantiert: essenziell für Operationssäle und Intensivstationen.
+- `solutions.krankenhaus.sticky.items.3.title` [füllstring] Akustische Isolation für Intensivstationen
+- `solutions.krankenhaus.stickySection.eyebrow` [füllstring] Technologische Überlegenheit
+- `solutions.krankenhaus.stickySection.lead` [füllstring] Wir betrachten ein Krankenhaus nicht als Gebäude, sondern als biologischen Organismus. Das K Aqua System ist sein unzerstörbares Gefäßsystem. Jeder Millimeter unserer Rohrleitungen ist auf absolute Ausfallsicherheit kalibriert.
+- `solutions.krankenhaus.stickySection.title` [füllstring] Die Anatomie der Sicherheit.
+- `solutions.krankenhaus.timeline.items.0.text` [füllstring] Präzise Berechnung der Leitungsquerschnitte zur Vermeidung von Stagnationszonen. Jeder Millimeter Druckverlust wird in der Planungsphase durch unsere deutschen Ingenieure am digitalen Zwilling simuliert und eliminiert.
+- `solutions.krankenhaus.timeline.items.0.title` [füllstring] Systemdimensionierung & Hydraulik
+- `solutions.krankenhaus.timeline.items.0.year` [füllstring] Phase 01
+- `solutions.krankenhaus.timeline.items.1.text` [füllstring] Auswahl der spezifischen K Aqua Polymerblends, optimiert für klinische Anforderungen. Unsere Rohstoffe durchlaufen 42 Qualitätssicherungsschritte, bevor sie überhaupt den Extruder erreichen.
+- `solutions.krankenhaus.timeline.items.1.title` [füllstring] Materialspezifikation
+- `solutions.krankenhaus.timeline.items.1.year` [füllstring] Phase 02
+- `solutions.krankenhaus.timeline.items.2.text` [füllstring] Vorkonfektionierung von komplexen Verteilern in kontrollierten Umgebungen. Minimierung der Schweißnähte auf der Baustelle garantiert eine bis zu 40% schnellere, fehlerfreie Installation unter Reinraumbedingungen.
+- `solutions.krankenhaus.timeline.items.2.title` [füllstring] Vorfertigung & Reinraum-Handling
+- `solutions.krankenhaus.timeline.items.2.year` [füllstring] Phase 03
+- `solutions.krankenhaus.timeline.items.3.text` [füllstring] Vollständige hydrostatische Druckprüfung und thermische Initialdesinfektion. Die Übergabe an den Generalunternehmer erfolgt mit einer lückenlosen, digitalen Dokumentation jeder einzelnen Schweißnaht.
+- `solutions.krankenhaus.timeline.items.3.title` [füllstring] Inbetriebnahme & Prüfung
+- `solutions.krankenhaus.timeline.items.3.year` [füllstring] Phase 04
+- `solutions.krankenhaus.timeline.items.4.text` [füllstring] Nach der Inbetriebnahme verschwindet das System in der Wand und verrichtet lautlos und absolut zuverlässig seinen Dienst, garantiert für mindestens 50 Jahre ohne jegliche Materialermüdung.
+- `solutions.krankenhaus.timeline.items.4.title` [füllstring] 50 Jahre Wartungsfreiheit
+- `solutions.krankenhaus.timeline.items.4.year` [füllstring] Phase 05
+- `solutions.krankenhaus.timelineSection.desc` [füllstring] Von der ersten CAD-Zeichnung bis zum letzten Wassertropfen ist unser Prozess eine Symphonie der Präzision, die keinen Raum für Zufälle lässt.
+- `solutions.krankenhaus.timelineSection.title` [füllstring] Der K Aqua Standard.
+- `solutions.vorfertigung.bento.eyebrow` [füllstring] Technische Überlegenheit
+- `solutions.vorfertigung.bento.items.0.desc` [füllstring] Unser Ausgangsmaterial bietet eine beispiellose thermische und chemische Beständigkeit. Es widersteht extremen Temperaturen und aggressiven Medien ohne Degradation.
+- `solutions.vorfertigung.bento.items.0.title` [füllstring] PPR-C (Typ 3) Material
+- `solutions.vorfertigung.bento.items.1.desc` [füllstring] Während metallische Systeme ab dem ersten Tag der Installation langsam degradieren, bleibt unser Polymer-System völlig immun gegen Korrosion, Lochfraß und Inkrustation.
+- `solutions.vorfertigung.bento.items.1.title` [füllstring] Absolute Korrosionsfreiheit
+- `solutions.vorfertigung.bento.items.2.desc` [füllstring] Die molekulare Struktur von K Aqua Rohren absorbiert Schallwellen signifikant besser als Metall, was zu flüsterleisen Systemen führt, essenziell in Luxushotels und Krankenhäusern.
+- `solutions.vorfertigung.bento.items.2.title` [füllstring] Akustische Dämmung
+- `solutions.vorfertigung.bento.items.3.desc` [füllstring] Eine Innenraumrauheit von nur 0,007 mm garantiert minimale Reibung, verhindert Ablagerungen und reduziert den Energiebedarf der Pumpensysteme drastisch.
+- `solutions.vorfertigung.bento.items.3.title` [füllstring] Geringer Druckverlust
+- `solutions.vorfertigung.bento.lead` [füllstring] geprüft nach DIN EN ISO 15874. Konzipiert für die Ewigkeit. Ein tiefer Einblick in die technischen Spezifikationen, die uns zur Benchmark machen.
+- `solutions.vorfertigung.bento.title` [füllstring] Die DNA unserer Systeme.
+- `solutions.vorfertigung.cta.button1` [füllstring] Projekt anfragen
+- `solutions.vorfertigung.cta.button2` [füllstring] Technischen Support kontaktieren
+- `solutions.vorfertigung.cta.desc` [füllstring] Verlassen Sie sich bei Ihrem nächsten Megaprojekt auf die absolute Verlässlichkeit industrieller deutscher Vorfertigung. Unser Engineering Team wartet auf Ihre CAD-Modelle.
+- `solutions.vorfertigung.cta.title` [füllstring] Bereit für kompromisslose Qualität?
+- `solutions.vorfertigung.hero.badge` [füllstring] German Engineering. Global Impact.
+- `solutions.vorfertigung.intro.eyebrow` [füllstring] Die Philosophie der Perfektion
+- `solutions.vorfertigung.intro.lead` [füllstring] Wenn Sie ein Gebäude entwerfen, das den Himmel kratzt, oder ein Krankenhaus, in dem jede Sekunde zählt, können Sie sich nicht auf die Variablen der Baustellenfertigung verlassen. Sie benötigen die klinische Präzision einer industriellen Vorfertigung.
+- `solutions.vorfertigung.intro.p1` [füllstring] In der modernen Bauindustrie sind Zeit, Qualität und Sicherheit die wertvollsten Ressourcen. Traditionelle Rohrmontage auf der Baustelle birgt unkalkulierbare Risiken: Wetterbedingungen, schwankende handwerkliche Qualität, Platzmangel und unvorhersehbare Verzögerungen. K Aqua eliminiert diese Variablen vollständig.
+- `solutions.vorfertigung.intro.p2` [füllstring] Unsere Vorfertigungslösungen transformieren das unberechenbare Handwerk der Rohrinstallation in einen hochgradig kontrollierten, industriellen Prozess. In unseren deutschen Produktionsstätten herrschen optimale Bedingungen. Temperatur, Luftfeuchtigkeit, Sauberkeit: alles ist exakt auf den Schweißprozess unserer PPR-C (Polypropylen Random Copolymer) Systeme abgestimmt.
+- `solutions.vorfertigung.intro.p3` [füllstring] Von komplexen Verteilerstationen über Steigleitungen bis hin zu maßgeschneiderten Sonderlösungen für industrielle Kühlanlagen. Wir fertigen nach Ihren ISO-Zeichnungen oder entwickeln gemeinsam mit Ihrem Engineering Team den optimalen digitalen Zwilling, der dann in physische Realität umgesetzt wird.
+- `solutions.vorfertigung.intro.quote` [füllstring] "Wir verkaufen keine Rohre. Wir verkaufen die absolute Gewissheit, dass ein System für die nächsten 50 Jahre wartungsfrei funktionieren wird."
+- `solutions.vorfertigung.intro.title` [füllstring] Warum der Weltmarkt auf K Aqua vertraut.
+- `solutions.vorfertigung.manifesto.eyebrow` [füllstring] Das Manifest der Langlebigkeit
+- `solutions.vorfertigung.manifesto.p1` [füllstring] K Aqua Vorfertigungen sind nicht für den Durchschnitt gemacht. Sie sind für das Extreme entworfen. Wenn die Außentemperaturen in Dubai auf 50°C steigen oder in skandinavischen Wintern tief unter den Gefrierpunkt fallen, bleibt die Integrität unserer Polypropylen-Strukturen unangetastet.
+- `solutions.vorfertigung.manifesto.p2` [füllstring] Unsere Trinkwassersysteme erfüllen die strengsten hygienischen Anforderungen weltweit, einschließlich KTW-BWGL und W270. Das Material gibt keinerlei Geruch, Geschmack oder Schadstoffe an das Wasser ab. Es verhindert proaktiv das Wachstum von Legionellen durch seine extrem glatte innere Oberfläche, die keine Nährböden für Biofilme bietet.
+- `solutions.vorfertigung.manifesto.p3` [füllstring] Gleichzeitig sind unsere industriellen Kühl- und Heizwasserleitungen in der Lage, aggressivsten Chemikalien standzuhalten. Die SDR-Klassifizierungen (Standard Dimension Ratio) unserer Rohre erlauben eine exakte Anpassung an die spezifischen Druck- und Temperaturprofile Ihres Projekts.
+- `solutions.vorfertigung.manifesto.p4` [füllstring] Wir betrachten Vorfertigung nicht als bloße Dienstleistung, sondern als eine architektonische Verantwortung. Jedes Modul, das auf der Baustelle ankommt, ist sofort einbaufertig (Plug & Play). Es reduziert die Installationszeit um bis zu 70 %, minimiert den Ausschuss auf null und eliminiert die Notwendigkeit für großflächige Materiallagerung auf der Baustelle.
+- `solutions.vorfertigung.manifesto.title` [füllstring] Zugelassen für die anspruchsvollsten Umgebungen des Planeten.
+- `solutions.vorfertigung.sticky.items.0.desc` [füllstring] In der Welt der globalen Bau-Infrastruktur, ob in den Wüstenmetropolen des Nahen Ostens oder in europäischen Hochtechnologiezentren, ist Ausfallzeit gleichbedeutend mit katastrophalen Verlusten. Unsere Vorfertigungssysteme werden für eine Realität entwickelt, in der Materialversagen absolut ausgeschlossen sein muss.
+- `solutions.vorfertigung.sticky.items.0.title` [füllstring] Milliardenprojekte verzeihen keine Fehler.
+- `solutions.vorfertigung.sticky.items.1.desc` [füllstring] Jedes Rohrleitungssystem, jeder Verteiler und jedes Sondermodul wird als digitaler Zwilling in unseren hochmodernen BIM-Umgebungen (Building Information Modeling) auf den Millimeter genau geplant. Erst wenn die simulation perfekte Strömungsdynamik und absolute Belastbarkeit unter Extrembedingungen bestätigt, beginnt die Fertigung.
+- `solutions.vorfertigung.sticky.items.1.title` [füllstring] Digitale Präzision trifft deutsche Ingenieurskunst.
+- `solutions.vorfertigung.sticky.items.2.desc` [füllstring] Im Gegensatz zu mechanischen Verbindungen oder geklebten Systemen nutzen wir fortschrittlichste thermische Polyfusionsschweißverfahren. Rohr und Fitting verschmelzen zu einer einzigen, unzertrennbaren Einheit. Das Resultat ist eine stoffschlüssige Verbindung, die stärker ist als das eigentliche Rohr selbst.
+- `solutions.vorfertigung.sticky.items.2.title` [füllstring] Homogene Verschmelzung auf molekularer Ebene.
+- `solutions.vorfertigung.sticky.items.3.desc` [füllstring] Bevor ein vorgefertigtes K Aqua Modul unser Werk verlässt, durchläuft es ein drakonisches Testprogramm. Von hydrostatischen Druckprüfungen weit über den industriellen Standard hinaus, über Ultraschall-Schweißnahtkontrollen, bis hin zur optischen 3D-Vermessung. Deutsche Null Fehlertoleranz in Reinform.
+- `solutions.vorfertigung.sticky.items.3.title` [füllstring] 100% Prüfprotokoll. Keine Ausnahmen.
+- `solutions.vorfertigung.timeline.events.0.date` [füllstring] Woche 1-2
+- `solutions.vorfertigung.timeline.events.0.desc` [füllstring] Nahtlose Integration in die architektonischen Modelle. Kollisionsprüfung und Strömungssimulation.
+- `solutions.vorfertigung.timeline.events.0.title` [füllstring] Phase 1: Engineering & BIM
+- `solutions.vorfertigung.timeline.events.1.date` [füllstring] Woche 3
+- `solutions.vorfertigung.timeline.events.1.desc` [füllstring] Millimetergenauer Zuschnitt der PPR-C Materialien durch lasergestützte CNC-Anlagen.
+- `solutions.vorfertigung.timeline.events.1.title` [füllstring] Phase 2: CNC-Zuschnitt
+- `solutions.vorfertigung.timeline.events.2.date` [füllstring] Woche 4-5
+- `solutions.vorfertigung.timeline.events.2.desc` [füllstring] Robotergestützte und handwerkliche Meisterschweißungen unter streng kontrollierten klimatischen Bedingungen im Werkstattumfeld.
+- `solutions.vorfertigung.timeline.events.2.title` [füllstring] Phase 3: Polyfusion
+- `solutions.vorfertigung.timeline.events.3.date` [füllstring] Woche 6
+- `solutions.vorfertigung.timeline.events.3.desc` [füllstring] Belastungstests unter Extremdruck. Jede Verbindung wird protokolliert und geprüft.
+- `solutions.vorfertigung.timeline.events.3.title` [füllstring] Phase 4: QA & Druckprüfung
+- `solutions.vorfertigung.timeline.events.4.date` [füllstring] Woche 7+
+- `solutions.vorfertigung.timeline.events.4.desc` [füllstring] Sichere Verpackung und weltweiter Versand mit Just-in-Time Lieferung auf die Baustelle.
+- `solutions.vorfertigung.timeline.events.4.title` [füllstring] Phase 5: Global Logistics
+- `solutions.vorfertigung.timeline.eyebrow` [füllstring] Prozessarchitektur
+- `solutions.vorfertigung.timeline.lead` [füllstring] Ein transparenter, rigider Prozess, der Just-in-Time-Lieferungen rund um den Globus garantiert.
+- `solutions.vorfertigung.timeline.title` [füllstring] Von der CAD-Zeichnung zur Baustelle.
+- `solutions.vorfertigung.visual.items.0` [füllstring] Präzisionsfräsen der Rohrenden
+- `solutions.vorfertigung.visual.items.1` [füllstring] Computergesteuerte Erhitzung (260°C)
+- `solutions.vorfertigung.visual.items.2` [füllstring] Exakte Fügung unter Hochdruck
+- `solutions.vorfertigung.visual.p1` [füllstring] Betrachten Sie die Schweißnaht eines K Aqua Vorfertigungsmoduls unter dem Mikroskop. Sie werden keine Naht finden. Sie werden ein einziges, homogenes Stück Material sehen.
+- `solutions.vorfertigung.visual.p2` [füllstring] Dieser Prozess verlangt nicht nur hochentwickelte Maschinerie, sondern auch das geschulte Auge und die ruhige Hand unserer geprüften Kunststoffschweißer. Jeder Parameter: Temperatur, Aufwärmzeit, Fügedruck und Abkühlzeit, wird pedantisch überwacht.
+- `solutions.vorfertigung.visual.p3` [füllstring] Es ist diese mikroskopische Besessenheit für Details, die unsere makroskopische Garantie von über 50 Jahren störungsfreiem Betrieb ermöglicht.
+- `solutions.vorfertigung.visual.title1` [füllstring] Die Ästhetik der
+- `solutions.vorfertigung.visual.title2` [füllstring] Stoffschlüssigkeit.
+
+## solutionsx (94)
+
+- `solutionsx.cmpEyebrow` [füllstring] Werkstoffvergleich
+- `solutionsx.cmpHead.0` [füllstring] Kriterium
+- `solutionsx.cmpHead.1` [füllstring] K Aqua PP-R/PPRCT
+- `solutionsx.cmpHead.2` [füllstring] Kupfer
+- `solutionsx.cmpHead.3` [füllstring] Edelstahl
+- `solutionsx.cmpLead` [füllstring] Vier Leitungswerkstoffe, acht Kriterien: eine vereinfachte Gegenüberstellung als Startpunkt für die projektspezifische Werkstoffwahl.
+- `solutionsx.cmpNote` [füllstring] Vereinfachte Gegenüberstellung mit typischen Werkstoffkennwerten; die Werkstoffwahl bleibt projektspezifisch. Zahlenbasis für den CO₂-Vergleich: siehe CO₂-Rechner und EPD-Datenblätter.
+- `solutionsx.cmpRows.0.0` [füllstring] Korrosion
+- `solutionsx.cmpRows.0.1` [füllstring] korrosionsfrei: immun gegen elektrochemische Korrosion
+- `solutionsx.cmpRows.0.2` [füllstring] Lochfraß möglich
+- `solutionsx.cmpRows.0.3` [füllstring] beständig (güteabhängig)
+- `solutionsx.cmpRows.0.4` [füllstring] korrosionsfrei
+- `solutionsx.cmpRows.1.0` [füllstring] Inkrustation & Biofilm
+- `solutionsx.cmpRows.1.1` [füllstring] sehr gering: Innenrauheit 0,007 mm
+- `solutionsx.cmpRows.1.2` [füllstring] möglich
+- `solutionsx.cmpRows.1.3` [füllstring] gering
+- `solutionsx.cmpRows.1.4` [füllstring] gering
+- `solutionsx.cmpRows.2.0` [füllstring] Wärmeleitfähigkeit
+- `solutionsx.cmpRows.3.0` [füllstring] Dichte / Gewicht
+- `solutionsx.cmpRows.3.1` [füllstring] 0,905 g/cm³
+- `solutionsx.cmpRows.3.2` [füllstring] 8,9 g/cm³
+- `solutionsx.cmpRows.3.3` [füllstring] 7,9 g/cm³
+- `solutionsx.cmpRows.3.4` [füllstring] 1,55 g/cm³
+- `solutionsx.cmpRows.4.0` [füllstring] Verbindungstechnik
+- `solutionsx.cmpRows.4.1` [füllstring] stoffschlüssig geschweißt: homogener Strang
+- `solutionsx.cmpRows.4.2` [füllstring] gelötet / gepresst
+- `solutionsx.cmpRows.4.3` [füllstring] gepresst / geschweißt
+- `solutionsx.cmpRows.4.4` [füllstring] geklebt
+- `solutionsx.cmpRows.5.0` [füllstring] Geschmack & Geruch
+- `solutionsx.cmpRows.5.1` [füllstring] neutral
+- `solutionsx.cmpRows.5.2` [füllstring] Metallabgabe möglich
+- `solutionsx.cmpRows.5.3` [füllstring] neutral
+- `solutionsx.cmpRows.5.4` [füllstring] neutral
+- `solutionsx.cmpRows.6.0` [füllstring] CO₂ (Errichtung)
+- `solutionsx.cmpRows.6.1` [füllstring] niedrig, im CO₂-Rechner vergleichen
+- `solutionsx.cmpRows.6.2` [füllstring] hoch
+- `solutionsx.cmpRows.6.3` [füllstring] hoch
+- `solutionsx.cmpRows.6.4` [füllstring] mittel
+- `solutionsx.cmpRows.7.0` [füllstring] Recycling
+- `solutionsx.cmpRows.7.1` [füllstring] Code 5, sortenrein: 100 % Produktionsabfälle im Kreislauf
+- `solutionsx.cmpRows.7.2` [füllstring] Schrottkreislauf
+- `solutionsx.cmpRows.7.3` [füllstring] Schrottkreislauf
+- `solutionsx.cmpRows.7.4` [füllstring] eingeschränkt
+- `solutionsx.cmpTitle` [füllstring] PP-R/PPRCT im Vergleich.
+- `solutionsx.life.0.d` [füllstring] Polypropylen entsteht aus Gasen, die früher nutzlos abgefackelt wurden. Die Nutzung als Werkstoff reduziert Luftverschmutzung an der Quelle.
+- `solutionsx.life.0.t` [füllstring] Rohstoff mit Geschichte
+- `solutionsx.life.1.d` [füllstring] Die Produktion in Waldsolms kühlt im geschlossenen Wasserkreislauf und schützt damit Flüsse, Bäche und Seen; die Energieeffizienz steuert ISO 50001.
+- `solutionsx.life.1.t` [füllstring] Fertigung im Kreislauf
+- `solutionsx.life.2.d` [füllstring] Ausgelegt nach den Zeitstandkurven der DIN 8077/8078 auf 50 Jahre Betriebsdauer: pflegeleicht, verschleißfest, alterungsbeständig.
+- `solutionsx.life.2.t` [füllstring] 50 Jahre im Betrieb
+- `solutionsx.life.3.d` [füllstring] Recycling Code 5: sortenrein trennbar bei hoher Nachfrage nach PP-Rezyklat. 100 % der Schnittreste und Produktionsabfälle werden recycelt.
+- `solutionsx.life.3.t` [füllstring] Zurück in den Kreislauf
+- `solutionsx.lifeEyebrow` [füllstring] Lebenszyklus
+- `solutionsx.lifeLead` [füllstring] Verantwortung über den gesamten Zyklus: vier Stationen, die das Produkt ökologisch tragfähig machen.
+- `solutionsx.lifeTitle` [füllstring] Vom Rohgas bis zum Rezyklat.
+- `solutionsx.segEyebrow` [füllstring] Einsatzfelder
+- `solutionsx.segLead` [füllstring] K Aqua-Systeme arbeiten weltweit in Projekten vom Krankenhaus bis zum Gewächshaus. Jedes Einsatzfeld nutzt andere Stärken des Werkstoffs.
+- `solutionsx.segments.0.d` [füllstring] Hygiene ist hier nicht verhandelbar: Die glatte Innenfläche (0,007 mm) hemmt Biofilm und Inkrustation, der Werkstoff bleibt geschmacks- und geruchsneutral.
+- `solutionsx.segments.0.pts.0` [füllstring] Hygienische Neutralität
+- `solutionsx.segments.0.pts.1` [füllstring] Korrosionsfrei: kein Lochfraß
+- `solutionsx.segments.0.t` [füllstring] Krankenhäuser & Gesundheitsbau
+- `solutionsx.segments.1.d` [füllstring] Warmwasser-Zirkulation rund um die Uhr: geringe Wärmeleitfähigkeit spart dauerhaft Energie, PPRCT hält 70 °C Dauerbetrieb.
+- `solutionsx.segments.1.pts.0` [füllstring] Thermische Effizienz
+- `solutionsx.segments.1.pts.1` [füllstring] PPRCT für Zirkulation
+- `solutionsx.segments.1.t` [füllstring] Hotels & Wohnhochbau
+- `solutionsx.segments.2.d` [füllstring] Beständig gegen Lösungsmittel, Laugen und Säuren. Wo Metallleitungen korrodieren, bleibt Polypropylen unbeeindruckt.
+- `solutionsx.segments.2.pts.0` [füllstring] Chemische Beständigkeit
+- `solutionsx.segments.2.pts.1` [füllstring] Lange Wartungsintervalle
+- `solutionsx.segments.2.pts.2` [füllstring] Prozess- und Brauchwasser
+- `solutionsx.segments.2.t` [füllstring] Industrie & Gewerbebau
+- `solutionsx.segments.3.d` [füllstring] UV-stabilisierte Ausführungen für die Bewässerung unter Glas und im Freien: leicht, schnell verlegt, frostunempfindlicher als starre Systeme.
+- `solutionsx.segments.3.pts.0` [füllstring] UV-beständige Ausführung
+- `solutionsx.segments.3.pts.1` [füllstring] Geringes Gewicht
+- `solutionsx.segments.3.t` [füllstring] Gewächshäuser & Agrar
+- `solutionsx.segments.4.d` [füllstring] Versorgungsleitungen und Netze in Großdimensionen bis d630: stumpfgeschweißt zu homogenen, dauerhaft dichten Strängen.
+- `solutionsx.segments.4.pts.0` [füllstring] d bis 630 mm
+- `solutionsx.segments.4.pts.1` [füllstring] Stumpfschweißen (Butt Fusion)
+- `solutionsx.segments.4.t` [füllstring] Kommunale Infrastruktur
+- `solutionsx.segments.5.d` [füllstring] Ersatz korrodierter Metall- oder PVC-Bestandsleitungen: Übergangsstücke mit Messing-Gewinde binden den Bestand sauber an das neue System an.
+- `solutionsx.segments.5.pts.0` [füllstring] Übergänge auf Metall-Gewinde
+- `solutionsx.segments.5.pts.1` [füllstring] Abschnittsweise Sanierung
+- `solutionsx.segments.5.pts.2` [füllstring] Korrosionsproblem dauerhaft gelöst
+- `solutionsx.segments.5.t` [füllstring] Sanierung & Austausch
+- `solutionsx.segments.6.d`  Resistent gegen saline Umgebungen und massive Vibrationen. Erhebliche Gewichtsreduktion im Vergleich zu Stahlinstallationen.
+- `solutionsx.segments.6.pts.0`  Salzwasserbeständig
+- `solutionsx.segments.6.pts.1`  Vibrationsresistent
+- `solutionsx.segments.6.pts.2`  Gewichtseinsparung
+- `solutionsx.segments.6.t`  Schiffbau & Offshore
+- `solutionsx.segments.7.d`  Leckagefreie Übertragung bei extremen Arbeitsdrücken. Keine Kontamination der Druckluft durch Rost oder abplatzende Partikel.
+- `solutionsx.segments.7.pts.0`  Extreme Arbeitsdrücke
+- `solutionsx.segments.7.pts.1`  Leckagefrei verschweißt
+- `solutionsx.segments.7.pts.2`  Keine Rostpartikel
+- `solutionsx.segments.7.t`  Druckluftnetzwerke
+- `solutionsx.segTitle` [füllstring] Bewährt, wo Wasser kritisch ist.
+
+## trust (4)
+
+- `trust.bimCta` [fehlt] 3D Studio öffnen
+- `trust.bimEyebrow` [fehlt] 3D CAD & BIM DATENRAUM
+- `trust.bimLead` [fehlt] Für TGA-Planer, Architekten und Bauherren: Greifen Sie direkt auf die 70 interaktiven K-Aqua CAD-Modelle mit DIN 8077/8078 & ISO 15874 Maßhaltigkeit zu. Nutzen Sie Echtzeit-Bemaßung, Halbschnitt-Prüfung und GLTF/OBJ-Exporte für Revit und AutoCAD.
+- `trust.bimTitle` [fehlt] Maßhaltige 3D-Baugruppen & CAD-Geometrien
+
+## trustAndCases (1)
+
+- `trustAndCases.madeInGermany`  Made in Germany
+
+## viewer3d (46)
+
+- `viewer3d.accurate` [fehlt] 100% maßhaltig
+- `viewer3d.allInStudio` [fehlt] Alle {count} Produkte im 3D Studio
+- `viewer3d.center` [fehlt] Kamera zentrieren
+- `viewer3d.dimensions` [fehlt] CAD-Bemaßung
+- `viewer3d.dimensionsNone` [fehlt] Für dieses Bauteil sind keine Maßlinien hinterlegt
+- `viewer3d.dimensionsShort` [fehlt] Bemaßung
+- `viewer3d.errorHint` [fehlt] Die technische Maßtabelle nach DIN/ISO finden Sie unterhalb.
+- `viewer3d.errorModule` [fehlt] Modul: {id}
+- `viewer3d.errorTitle` [fehlt] 3D-Modell nicht verfügbar
+- `viewer3d.exportCad` [fehlt] CAD-Daten exportieren
+- `viewer3d.exportShort` [fehlt] CAD-Export
+- `viewer3d.fullscreen` [fehlt] Vollbild
+- `viewer3d.fullscreenExit` [fehlt] Vollbild beenden
+- `viewer3d.hint` [fehlt] 360° drehbar · Zoom per Mausrad / Touch · Halbschnitt per Toolbar
+- `viewer3d.hintTouch` [fehlt] 360° Touch / Maus
+- `viewer3d.loadIn3d` [fehlt] In 3D laden
+- `viewer3d.loading` [fehlt] 3D-Modell wird geladen
+- `viewer3d.madeInGermany` [fehlt] Made in Germany
+- `viewer3d.nominal` [fehlt] Nennmaß (d)
+- `viewer3d.nominalSize` [fehlt] Nennweite:
+- `viewer3d.noModelHint` [fehlt] Die technische Maßtabelle nach DIN/ISO finden Sie unterhalb.
+- `viewer3d.noModelTitle` [fehlt] Für dieses Produkt gibt es noch kein 3D-Modell
+- `viewer3d.openInteractive` [fehlt] Interaktives 3D-Modell öffnen
+- `viewer3d.outerDiameter` [fehlt] Außendurchmesser (D)
+- `viewer3d.packUnit` [fehlt] Verpackungseinheit
+- `viewer3d.rotate` [fehlt] 360° Rotation
+- `viewer3d.rotateStart` [fehlt] 360° Drehen starten
+- `viewer3d.rotateStop` [fehlt] Rotation stoppen
+- `viewer3d.section` [fehlt] Halbschnitt
+- `viewer3d.sectionOff` [fehlt] Vollansicht
+- `viewer3d.sectionOn` [fehlt] Halbschnitt (Querschnitt)
+- `viewer3d.socketStop` [fehlt] Muffenanschlag (z)
+- `viewer3d.tab3d` [fehlt] 3D CAD Modell (360°)
+- `viewer3d.tabPhotos` [fehlt] Produktfotos ({count})
+- `viewer3d.tabTechnical` [fehlt] Technische Übersicht
+- `viewer3d.toProductPage` [fehlt] Zur Produktseite
+- `viewer3d.totalLength` [fehlt] Gesamtlänge (l)
+- `viewer3d.variants.blau` [fehlt] Blau (RAL 5005)
+- `viewer3d.variants.curry` [fehlt] Curry (RAL 1002)
+- `viewer3d.variants.gruen` [fehlt] Grün (Standard)
+- `viewer3d.variants.label` [fehlt] Farbe
+- `viewer3d.variants.mocca` [fehlt] Mocca (RAL 7032)
+- `viewer3d.wallThickness` [fehlt] Wandstärke (s)
+- `viewer3d.weightPer` [fehlt] Gewicht / Stk
+- `viewer3d.wireframe` [fehlt] Drahtgitter
+- `viewer3d.wireframeToggle` [fehlt] Drahtgitter / Solid

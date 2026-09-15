@@ -63,6 +63,7 @@ export async function ArticleTable({
   const t = await getTranslations({ locale, namespace: 'products.labels.articleTable' });
 
   const codes = table.rows.map((r) => r.code);
+  const isPipe = slug.includes('pipe') || slug.startsWith('pipes');
   /* Die Spalte erscheint nur, wenn das Produkt ueberhaupt einen Namen hat.
      Die Abdeckung ist praktisch alles-oder-nichts: 31 Produktdateien sind
      vollstaendig gedeckt, 39 gar nicht, 3 teilweise. Eine Spalte aus lauter
@@ -77,8 +78,20 @@ export async function ArticleTable({
      `label` stuende in den Rohrtabellen `D (mm) mm`. `key` ist derselbe Kopf
      ohne die Klammer, genau das gesuchte Katalogsymbol. */
   function kopf(col: ArticleColumn): string {
-    const schluessel = KOPF_SCHLUESSEL[col.key.replace(/\s+/g, ' ').trim()];
+    const rawKey = col.key.replace(/\s+/g, ' ').trim();
+    if (isPipe && rawKey === 'Pack.') {
+      return locale === 'de' ? 'Meter' : locale === 'ar' ? 'متر' : 'Meters';
+    }
+    const schluessel = KOPF_SCHLUESSEL[rawKey];
     return schluessel ? t(`columns.${schluessel}`) : col.key;
+  }
+
+  function einheit(col: ArticleColumn): string | null {
+    const rawKey = col.key.replace(/\s+/g, ' ').trim();
+    if (isPipe && rawKey === 'Pack.') {
+      return 'm';
+    }
+    return col.unit;
   }
 
   /* Ein Zeichen der Laenge n verweist auf die n-te Fussnote — die uebliche
@@ -144,14 +157,17 @@ export async function ArticleTable({
                   {t('name')}
                 </th>
               )}
-              {table.columns.map((col) => (
-                <th key={col.key} scope="col" className={kopfKlasse}>
-                  {kopf(col)}
-                  {col.unit && (
-                    <span className="block text-xs font-normal text-muted-foreground">{col.unit}</span>
-                  )}
-                </th>
-              ))}
+              {table.columns.map((col) => {
+                const u = einheit(col);
+                return (
+                  <th key={col.key} scope="col" className={kopfKlasse}>
+                    {kopf(col)}
+                    {u && (
+                      <span className="block text-xs font-normal text-muted-foreground">{u}</span>
+                    )}
+                  </th>
+                );
+              })}
             </tr>
           </thead>
 
@@ -230,6 +246,35 @@ export async function ArticleTable({
           </tbody>
         </table>
       </div>
+
+      {isPipe && (
+        <div className="mt-4 p-4 rounded-xl border border-primary/20 bg-primary/5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs sm:text-sm text-foreground">
+          <div className="flex items-start gap-2.5">
+            <span className="text-primary font-bold text-base leading-none mt-0.5" aria-hidden="true">📏</span>
+            <div>
+              <p className="font-semibold text-foreground">
+                {locale === 'de'
+                  ? 'Mengeneinheit Meter · Standardauslieferung 4 Meter'
+                  : locale === 'ar'
+                  ? 'وحدة القياس بالمتر · التسليم القياسي 4 أمتار'
+                  : 'Unit in Meters · Standard Delivery 4 Meters'}
+              </p>
+              <p className="text-muted-foreground mt-0.5">
+                {locale === 'de'
+                  ? 'Rohre werden verbindlich in der Einheit Meter ausgewiesen (Standardlänge: 4,00 m pro Stange). Sondermaße und individuelle Fixlängen (z. B. 5,80 m für Containerfracht) auf Anfrage lieferbar.'
+                  : locale === 'ar'
+                  ? 'يتم تحديد الأنابيب إلزامياً بوحدة المتر (الطول القياسي: 4.00 م لكل قضيب). مقاسات خاصة وأطوال مخصصة (مثل 5.80 م للشحن) متاحة عند الطلب.'
+                  : 'Pipes are strictly specified in meters (standard length: 4.00 m per bar). Special dimensions and custom cut lengths (e.g. 5.80 m for container transport) manufactured upon request.'}
+              </p>
+            </div>
+          </div>
+          <div className="shrink-0">
+            <span className="inline-flex items-center px-2.5 py-1 rounded-md bg-card border border-card-border font-mono text-[11px] font-bold text-primary">
+              {locale === 'de' ? 'Sondermaße auf Anfrage' : locale === 'ar' ? 'مقاسات خاصة عند الطلب' : 'Custom sizes on request'}
+            </span>
+          </div>
+        </div>
+      )}
 
       {table.footnotes.length > 0 && (
         <div className="mt-4">

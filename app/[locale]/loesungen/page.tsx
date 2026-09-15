@@ -18,7 +18,7 @@ import { StatNumber } from "@/components/ui/StatNumber";
 import { CTABand } from "@/components/ui/CTABand";
 import { KontaktForm } from "@/components/kontakt/KontaktForm";
 import { SolutionsDeep } from "@/components/sections/SolutionsDeep";
-import { Droplet, Thermometer, Factory, Flame, Wrench } from "@/components/ui/icon";
+import { Droplet, Thermometer, Factory, Flame, Wrench, ShieldCheck } from "@/components/ui/icon";
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
-const bentoIcons = [Droplet, Thermometer, Wrench, Factory, Flame];
+const bentoIcons = [Factory, ShieldCheck, Droplet, Wrench, Thermometer, Flame];
 
 export default async function LoesungenPage({ params }: Props) {
   const { locale } = await params;

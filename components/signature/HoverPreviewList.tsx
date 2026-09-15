@@ -11,7 +11,7 @@ export default function HoverPreviewList({ className = '' }: { className?: strin
   const projects = t.raw('projects') as { id: string; title: string; d: string }[];
 
   return (
-    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ${className}`}>
+    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 ${className}`}>
       {projects.map((proj, idx) => (
         <div key={proj.id || idx} id={proj.id} className="scroll-mt-28 h-full">
           <Link href={`/referenzen#${proj.id}`} className="group block h-full outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-2xl">

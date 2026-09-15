@@ -38,11 +38,19 @@ für **Production _und_ Preview**.
 Ohne verifizierte Domain lehnt Resend den Versand ab. Der Selbsttest
 (Abschnitt 2) sagt dir das dann wörtlich.
 
-**Alternative statt Resend:** eigenes Postfach per SMTP —
+**Alternative statt Resend: eigenes Postfach per SMTP (z. B. Microsoft 365 Exchange)** —
 `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`. Deckt
-ebenfalls beide Formulare ab. Port 587 mit `SMTP_SECURE=false` oder 465 mit
+ebenfalls beide Formulare ab. Port 587 mit `SMTP_SECURE=false` (STARTTLS) oder 465 mit
 `true`; **Port 25 blockiert Vercel**. Sind beide Wege gesetzt, hat Resend
 Vorrang.
+
+> **Wichtig für Microsoft 365 / Exchange:**
+> 1. **Dediziertes Dienstkonto:** Verwende niemals ein persönliches Mitarbeiterkonto mit MFA. M365 blockiert Basic SMTP AUTH bei Konten mit aktivierter Mehrfaktor-Authentifizierung (Fehler `5.7.139`). Ein technisches Postfach ohne MFA (oder mit Conditional-Access-Ausnahme) anlegen.
+> 2. **SMTP AUTH freischalten:** Im Microsoft 365 Admin Center unter *Aktive Benutzer → [Postfach] → E-Mail → E-Mail-Apps verwalten* muss die Option **„Authentifiziertes SMTP"** explizit aktiviert sein.
+> 3. **DNS-Sicherheit (SPF, DKIM, DMARC):**
+>    - **SPF:** `v=spf1 include:spf.protection.outlook.com include:resend.com ~all`
+>    - **DKIM:** CNAME-Einträge für M365-Selektoren bzw. Resend setzen.
+>    - **DMARC:** `_dmarc.k-aqua.de` mit `v=DMARC1; p=quarantine; rua=mailto:it@k-aqua.de; pct=100` zur Abwehr von Domain-Spoofing.
 
 ### Optional
 

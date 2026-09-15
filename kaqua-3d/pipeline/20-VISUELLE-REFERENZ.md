@@ -185,9 +185,38 @@ Vier bis acht Löcher, gleichmäßig verteilt. Die Scheibe hat eine zentrale
 Bohrung, durch die das Rohr läuft, und einen Innenabsatz, auf dem der
 Flanschbund des Adaptors aufliegt.
 
-**Rohrschelle (`pipe-clamps`)** — Zweiteilig: ein Halbring mit Fußplatte und
-ein Halbring als Deckel, verbunden durch eine Schraube. Der Fuß hat ein
-Gewindeloch (M8 oder M10) zur Wandmontage. Innen liegt oft ein Gummiband.
+**Rohrschelle (`pipe-clamps`)** — ZWEIMAL BERICHTIGT. Quelle ist jetzt
+`public/images/produkte/pipe-clamps/studio.jpg` (900 × 900 px); die Fassung
+vom 01.09. arbeitete gegen die kleinere Kopie in `Marketing/Produktbilder/`
+und die davor gegen einen Text, der zu keinem Merkmal des Bildes passte
+(„ein Halbring mit Fußplatte und ein Halbring als Deckel, verbunden durch
+EINE Schraube … innen liegt oft ein Gummiband").
+
+Tatsächlich: **zwei gleiche** grüne PP-Halbschalen. **Kein Scharnier, keine
+Fußplatte** — beide Stöße sind gleich ausgeführt und tragen je **eine
+Schraube**, also zwei im Ganzen.
+
+Der Rücken ist **ballig**: der Scheitel liegt in Bandmitte, zu beiden Kanten
+fällt die Kontur ab. Darin **zwei** Längsnuten, die drei Bänder stehen
+lassen — ein breites Mittelband und zwei schmalere Seitenbänder. (Die
+Fassung vom 01.09. las drei Nuten auf einem zylindrischen Rücken; beides
+falsch.) Bohrungskante und Schalenstirn sind deutlich **gefast**.
+
+Je Stoß liegen zwei flache **Stahllaschen** über den Schalenenden, die in
+einem **runden Paddel** um die Schraubenbohrung enden. Dazwischen sitzt eine
+schwarze **SECHSKANT**mutter — im kleinen Bild als Vierkant gelesen, im
+9-fach-Ausschnitt sind drei Facetten mit klaren Kanten zu sehen. Die
+Schraube ist ein **Linsenkopf mit Kreuzschlitz** und U-Scheibe, kein
+Sechskant; ihr **Gewinde tritt unter der unteren Lasche sichtbar heraus**.
+
+Auf dem geschlossenen Rücken einer Schale — zwischen den Stößen, nicht an
+einem — sitzt der **Sechskantstutzen** mit dem Anschlussgewinde (M8 oder
+M10) für die Gewindestange. **Keine Gummieinlage:** die Schaleninnenflächen
+sind grünes PP, die Schale fasst das Rohr direkt.
+
+**Die abgebildete Größe ist d75–d90**, nicht die Standardgröße d32: der
+Stutzen misst 95 px gegen 574 px Ringbreite. Wer Proportionen aus diesem
+Bild ableitet, muss sie gegen diese Zeilen halten (Fall 35).
 
 ### 4.2 Übergangsteile mit Gewinde
 

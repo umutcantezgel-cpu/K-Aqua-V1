@@ -86,6 +86,7 @@ export interface BewerberTexte {
 export interface InterneTexte {
   readonly anfrageTitel: string;
   readonly anfrageEilig: string;
+  readonly technikAnfrageTitel: string;
   readonly bewerbungTitel: string;
   readonly labelAnliegen: string;
   readonly labelName: string;
@@ -96,6 +97,8 @@ export interface InterneTexte {
   readonly labelStelle: string;
   readonly labelEintritt: string;
   readonly labelUnterlagen: string;
+  readonly labelRohrStandard: string;
+  readonly wertRohrStandard: string;
   readonly herkunftTitel: string;
   readonly labelQuellseite: string;
   readonly labelSprache: string;

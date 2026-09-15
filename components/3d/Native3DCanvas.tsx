@@ -1116,7 +1116,12 @@ export default function Native3DCanvas({
     <div
       ref={containerRef}
       className={clsx(
-        'relative w-full rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-b from-card/90 via-background to-card border border-card-border shadow-lift select-none flex flex-col',
+        /* `@container`: die Bedienflaechen richten sich nach der Breite
+           DIESES Kastens, nicht nach der des Fensters. Der Viewer steht je
+           nach Seite in ganz verschiedenen Spalten — Produktseite fast
+           voll, 3D-Studio 660 px neben der Liste, BIM-Kachel noch schmaler.
+           Viewport-Breakpoints koennen das nicht wissen. */
+        '@container relative w-full rounded-2xl @lg:rounded-3xl overflow-hidden bg-gradient-to-b from-card/90 via-background to-card border border-card-border shadow-lift select-none flex flex-col',
         heightClass,
         className,
         /* Vollbild, egal auf welchem Weg: deckender Grund statt des
@@ -1171,37 +1176,92 @@ export default function Native3DCanvas({
         </div>
       )}
 
-      {/* Top Header Badge */}
-      <div className="absolute top-2.5 start-2.5 sm:top-4 sm:start-4 pointer-events-none z-10 flex items-center gap-2 max-w-[48%] sm:max-w-none">
-        <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-background/90 backdrop-blur-md border border-card-border text-foreground shadow-sm min-w-0">
+      {/* ══ KOPFZEILE ══════════════════════════════════════════════
+       *
+       * EINE Flex-Zeile für Titel, Werkzeuge und Vollbild — vorher drei
+       * unabhängig absolut positionierte Kästen (Badge auf `start`, Leiste
+       * auf `end-16`, Vollbild auf `end`). Nichts hielt sie auseinander:
+       * jeder war so breit wie sein Inhalt, und sobald Titel plus Knöpfe
+       * breiter waren als der Viewer, legten sie sich übereinander.
+       * Gemessen im 3D-Studio: 309 px Badge + 449 px Leiste + 38 px
+       * Vollbild = 796 px in einem 660 px breiten Kasten, also 136 px
+       * Überlappung — der Titel lag unter den Knöpfen.
+       *
+       * Als Flex-Kinder EINES Elternteils ist das strukturell unmöglich:
+       * das Badge trägt `min-w-0` und kürzt, die Knöpfe tragen `shrink-0`.
+       * Der Browser rechnet das aus; es braucht keine Breitenarithmetik,
+       * die bei jedem neuen Knopf nachgezogen werden müsste.
+       *
+       * WARUM @container UND NICHT sm:/md:/lg:
+       * Die Umbrüche hingen an der VIEWPORT-Breite, der Platz kommt aber
+       * aus der SPALTE. Im 3D-Studio steht der Viewer neben der
+       * Produktliste: bei 1440 px Viewport ist er 660 px breit. Die
+       * Beschriftungen schalteten sich bei `md:` (768 px Viewport) zu und
+       * machten die Leiste um 110 px breiter — in einem Kasten, der davon
+       * nichts mitbekam. Die Überlappung war deshalb auf GROSSEN
+       * Bildschirmen am schlimmsten. Container-Queries messen den Kasten
+       * selbst, und damit stimmt es auf jeder Einbaustelle: Produktseite,
+       * Studio, BIM-Kachel, Vollbild.
+       *
+       * Reihenfolge: schmal Badge / Vollbild in Zeile 1, Werkzeuge als
+       * volle Zeile 2 (in sich scrollbar). Ab `@xl` alles auf einer Zeile,
+       * Werkzeuge per `ms-auto` nach rechts, Vollbild ganz aussen.
+       *
+       * `@xl:flex-nowrap` ist dabei nicht schmueckend. Mit `flex-wrap`
+       * schiebt der Umbruchalgorithmus ein Element auf die naechste Zeile,
+       * BEVOR er ein anderes schrumpfen laesst — bei 660 px Kastenbreite
+       * landete der Vollbild-Knopf allein in Zeile zwei, statt dass das
+       * Badge kuerzt. Ohne Umbruch greift stattdessen `min-w-0` und das
+       * Badge gibt genau so viel nach, wie die Knoepfe brauchen. */}
+      <div className="absolute inset-x-2 top-2.5 @lg:inset-x-4 @lg:top-4 z-20 flex flex-wrap @xl:flex-nowrap items-center gap-1.5 @lg:gap-2 pointer-events-none">
+
+        {/* Titel-Badge — kürzt, statt die Knöpfe zu verdrängen.
+            Der äussere Platzhalter traegt `flex-1 basis-0`: damit ist seine
+            rechnerische Ausgangsbreite 0, und der Umbruchalgorithmus zieht
+            ihn nie als Grund fuer eine neue Zeile heran. Ohne ihn brach die
+            Kopfzeile auf einem 320-px-Geraet in DREI Zeilen um — das Badge
+            beanspruchte erst seine volle Inhaltsbreite von 309 px und
+            schob alles andere vor sich her. Die Pille darin bleibt
+            inhaltsbreit, gedeckelt auf `max-w-full`. */}
+        <div className="min-w-0 flex-1 basis-0">
+        <div className="inline-flex max-w-full items-center gap-1.5 @lg:gap-2 px-2.5 @lg:px-3 py-1 @lg:py-1.5 rounded-full bg-background/90 backdrop-blur-md border border-card-border text-foreground shadow-sm min-w-0">
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse shrink-0" />
-          <span className="text-[10px] sm:text-xs font-heading font-bold tracking-wide truncate">
+          <span className="text-[10px] @lg:text-xs font-heading font-bold tracking-wide truncate">
             {productData?.titleDe || '3D CAD Studio'}
           </span>
-          <span className="text-[9px] sm:text-[10px] font-mono px-1.5 py-0.5 rounded bg-primary-soft text-primary font-bold shrink-0">
+          <span className="text-[9px] @lg:text-[10px] font-mono px-1.5 py-0.5 rounded bg-primary-soft text-primary font-bold shrink-0">
             d{selectedSize}
           </span>
         </div>
-      </div>
+        </div>
 
-      {/* Werkzeugleiste: auf Mobil als scrollbare Zeile ÜBER der
-          Größenleiste — sieben Buttons in einer nicht umbrechenden
-          Reihe oben rechts kollidierten dort mit dem Titel-Badge und
-          sahen zerquetscht aus. Desktop bleibt oben rechts. */}
-      {showControls && !loading && (
-        <div
-          className={clsx(
-            'absolute z-10 flex items-center gap-1.5 sm:gap-2',
-            'start-2 end-2 overflow-x-auto scrollbar-none py-1 px-0.5',
-            // `zeigeStreifen`, nicht mehr die Groessenbedingung allein: der
-            // Streifen erscheint jetzt auch, wenn es nur Farben gibt. Bliebe
-            // es bei der alten Bedingung, legte sich die Leiste darueber.
-            zeigeStreifen ? 'bottom-[3.55rem]' : 'bottom-2',
-            // `sm:end-16` statt `sm:end-4`: ab 640 px sitzt der Vollbild-Knopf
-            // in derselben Ecke. Er misst 38 px, plus 16 px Abstand.
-            'sm:top-4 sm:end-16 sm:bottom-auto sm:start-auto sm:overflow-visible sm:justify-end sm:py-0 sm:px-0'
-          )}
+        {/* Vollbild. Bleibt bewusst AUSSERHALB der scrollenden Werkzeuge:
+            in der Leiste war er der letzte von sieben Knöpfen und auf
+            schmalen Geräten erst nach seitlichem Scrollen erreichbar.
+            Die Bedingung hängt an `!loading && !error`, nicht an
+            `showControls` — so bekommen auch die Marketingkacheln im
+            BIM-Portal einen Weg zur Vergrösserung. */}
+        {!loading && !error && effectiveId && (
+        <button
+          type="button"
+          onClick={() => void vollbildUmschalten()}
+          title={isFullscreen || istEchtesVollbild ? t('fullscreenExit') : t('fullscreen')}
+          aria-label={t('fullscreen')}
+          aria-pressed={isFullscreen || istEchtesVollbild}
+          className="order-2 @xl:order-3 ms-auto @xl:ms-0 shrink-0 pointer-events-auto p-2 @lg:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
         >
+          {isFullscreen || istEchtesVollbild ? (
+            <Minimize2 className="w-3.5 h-3.5 @lg:w-4 @lg:h-4" />
+          ) : (
+            <Maximize2 className="w-3.5 h-3.5 @lg:w-4 @lg:h-4" />
+          )}
+        </button>
+        )}
+
+        {/* Werkzeuge. Schmal: eigene volle Zeile, in sich waagerecht
+            scrollbar. Ab `@xl`: rechts in der Kopfzeile, ohne Scrollen. */}
+        {showControls && !loading && (
+          <div className="order-3 @xl:order-2 w-full @xl:w-auto @xl:ms-auto min-w-0 flex items-center gap-1.5 @lg:gap-2 overflow-x-auto scrollbar-none @xl:overflow-visible py-1 @xl:py-0 pointer-events-auto">
           {/* Section Cut Toggle */}
           <button
             type="button"
@@ -1209,14 +1269,14 @@ export default function Native3DCanvas({
             title={isSection ? t('sectionOff') : t('sectionOn')}
             aria-label={t('section')}
             className={clsx(
-              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
+              'p-2 @lg:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 @lg:gap-1.5',
               isSection
                 ? 'bg-primary text-primary-foreground border-primary shadow-diffuse'
                 : 'bg-background/85 hover:bg-card border-card-border text-foreground'
             )}
           >
-            <Scissors className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="hidden md:inline text-[11px]">{t('section')}</span>
+            <Scissors className="w-3.5 h-3.5 @lg:w-4 @lg:h-4" />
+            <span className="hidden @3xl:inline text-[11px]">{t('section')}</span>
           </button>
 
           {/* Dimension Lines Toggle
@@ -1240,7 +1300,7 @@ export default function Native3DCanvas({
             aria-disabled={!hatBemassung}
             aria-pressed={showDimensions}
             className={clsx(
-              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
+              'p-2 @lg:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm backdrop-blur-md flex items-center gap-1 @lg:gap-1.5',
               !hatBemassung
                 ? 'bg-background/85 border-card-border text-foreground opacity-40 cursor-not-allowed'
                 : showDimensions
@@ -1248,8 +1308,8 @@ export default function Native3DCanvas({
                   : 'bg-background/85 hover:bg-card border-card-border text-foreground cursor-pointer'
             )}
           >
-            <Ruler className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="hidden md:inline text-[11px]">{t('dimensionsShort')}</span>
+            <Ruler className="w-3.5 h-3.5 @lg:w-4 @lg:h-4" />
+            <span className="hidden @3xl:inline text-[11px]">{t('dimensionsShort')}</span>
           </button>
 
           {/* Auto-Rotate Turntable Toggle */}
@@ -1259,13 +1319,13 @@ export default function Native3DCanvas({
             title={isAutoRotate ? t('rotateStop') : t('rotateStart')}
             aria-label={t('rotate')}
             className={clsx(
-              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 sm:gap-1.5',
+              'p-2 @lg:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 @lg:gap-1.5',
               isAutoRotate
                 ? 'bg-primary/20 text-primary border-primary shadow-sm'
                 : 'bg-background/85 hover:bg-card border-card-border text-foreground'
             )}
           >
-            <RotateCw className={clsx('w-3.5 h-3.5 sm:w-4 sm:h-4', isAutoRotate && 'animate-spin-slow')} />
+            <RotateCw className={clsx('w-3.5 h-3.5 @lg:w-4 @lg:h-4', isAutoRotate && 'animate-spin-slow')} />
           </button>
 
           {/* Wireframe Toggle */}
@@ -1275,13 +1335,13 @@ export default function Native3DCanvas({
             title={t('wireframeToggle')}
             aria-label={t('wireframe')}
             className={clsx(
-              'p-2 sm:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
+              'p-2 @lg:p-2.5 shrink-0 rounded-xl border text-xs font-bold transition-all shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1.5',
               isWireframe
                 ? 'bg-card text-primary border-primary'
                 : 'bg-background/85 hover:bg-card border-card-border text-foreground'
             )}
           >
-            <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            <Layers className="w-3.5 h-3.5 @lg:w-4 @lg:h-4" />
           </button>
 
           {/* Reset Camera */}
@@ -1290,9 +1350,9 @@ export default function Native3DCanvas({
             onClick={handleResetCamera}
             title={t('center')}
             aria-label={t('center')}
-            className="p-2 sm:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
+            className="p-2 @lg:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
           >
-            <RotateCcw className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            <RotateCcw className="w-3.5 h-3.5 @lg:w-4 @lg:h-4" />
           </button>
 
           {/* CAD Export — Klick statt group-hover: Hover existiert auf
@@ -1308,47 +1368,17 @@ export default function Native3DCanvas({
               aria-expanded={exportOpen}
               title={t('exportCad')}
               aria-label={t('exportCad')}
-              className="p-2 sm:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs font-bold shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 transition-all"
+              className="p-2 @lg:p-2.5 shrink-0 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs font-bold shadow-sm cursor-pointer backdrop-blur-md flex items-center gap-1 transition-all"
             >
-              <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary" />
-              <span className="hidden lg:inline text-[11px]">CAD</span>
+              <Download className="w-3.5 h-3.5 @lg:w-4 @lg:h-4 text-primary" />
+              <span className="hidden @4xl:inline text-[11px]">CAD</span>
               <ChevronDown className="w-3 h-3 opacity-60" />
             </button>
           </div>
 
-        </div>
-      )}
-
-      {/* Der Vollbild-Knopf, bewusst AUSSERHALB der Werkzeugleiste.
-       *
-       * In der Leiste war er der siebte und letzte von sieben Knoepfen, und
-       * die Leiste traegt auf schmalen Geraeten `overflow-x-auto`: um zu
-       * vergroessern, musste man sie erst seitwaerts scrollen — auf einem
-       * Telefon fand ihn schlicht niemand. Jetzt hat er eine feste eigene
-       * Ecke und ist auf jedem Geraet sofort da.
-       *
-       * Die Bedingung haengt an `!loading && !error`, NICHT an
-       * `showControls`. Damit bekommen auch die beiden Marketingkacheln im
-       * BIM-Portal und bei den Ausschreibungstexten erstmals einen Weg zur
-       * Vergroesserung — die stecken sonst auf JEDEM Geraet bei ihrer festen
-       * Kachelhoehe fest. Ein einzelner kleiner Knopf ist dort ein weit
-       * geringerer Eingriff als die ganze Leiste. */}
-      {!loading && !error && effectiveId && (
-        <button
-          type="button"
-          onClick={() => void vollbildUmschalten()}
-          title={isFullscreen || istEchtesVollbild ? t('fullscreenExit') : t('fullscreen')}
-          aria-label={t('fullscreen')}
-          aria-pressed={isFullscreen || istEchtesVollbild}
-          className="absolute z-20 top-2.5 end-2.5 sm:top-4 sm:end-4 p-2 sm:p-2.5 rounded-xl bg-background/85 hover:bg-card border border-card-border text-foreground text-xs shadow-sm cursor-pointer backdrop-blur-md transition-all flex items-center justify-center"
-        >
-          {isFullscreen || istEchtesVollbild ? (
-            <Minimize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-          ) : (
-            <Maximize2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-          )}
-        </button>
-      )}
+          </div>
+        )}
+      </div>
 
       {/* Das CAD-Exportmenü.
        *
@@ -1364,10 +1394,10 @@ export default function Native3DCanvas({
        * abgeschnitten. Zu sehen war nur ein Streifen, der beim Scrollen
        * der Leiste kurz auftauchte und wieder verschwand.
        *
-       * Ab 640 px hebt `sm:overflow-visible` die Beschneidung auf; deshalb
+       * Ab `@xl` hebt `@xl:overflow-visible` die Beschneidung auf; deshalb
        * fiel es am Desktop nie auf, wohl aber auf dem Handy und auf einem
-       * Surface, das ab Werk auf 200 % skaliert und damit unter 640 px
-       * CSS-Breite landet.
+       * Surface, das ab Werk auf 200 % skaliert und damit in einem sehr
+       * schmalen Kasten landet.
        *
        * Als Geschwister der Leiste — im Viewer, aber ausserhalb des
        * scrollenden Kastens — kann nichts es mehr beschneiden. Die
@@ -1376,15 +1406,13 @@ export default function Native3DCanvas({
         <div
           ref={exportMenueRef}
           className={clsx(
-            // Folgt derselben Kante wie die Leiste, an der sein Knopf haengt.
-            'absolute z-30 w-44 end-2 sm:end-16 flex flex-col gap-1',
+            // Folgt derselben Kante wie die Kopfzeile, an der sein Knopf haengt.
+            'absolute z-30 w-44 end-2 @lg:end-4 flex flex-col gap-1',
             'bg-card border border-card-border rounded-xl shadow-xl p-1.5',
-            // Mobil sitzt die Leiste unten; das Menü klappt darüber auf und
-            // rückt mit, wenn der untere Streifen die Leiste nach oben
-            // schiebt — auch dann, wenn dieser nur die Farben trägt.
-            zeigeStreifen ? 'bottom-[6.5rem]' : 'bottom-[3.45rem]',
-            // Ab 640 px sitzt die Leiste oben rechts; das Menü klappt darunter.
-            'sm:bottom-auto sm:top-[3.6rem]'
+            // Die Kopfzeile ist schmal zweizeilig (Badge/Vollbild, darunter
+            // die Werkzeuge) und ab `@xl` einzeilig. Das Menue klappt in
+            // beiden Faellen unter sie.
+            'top-[5.6rem] @xl:top-[3.6rem]'
           )}
         >
           <button
@@ -1410,7 +1438,7 @@ export default function Native3DCanvas({
           unlesbar um. Die Maßlinien selbst stehen jetzt im Modell; dieser
           Kasten liest die Werte dazu ab. */}
       {showDimensions && dimensionsList.length > 0 && (
-        <div className="absolute top-12 sm:top-16 start-2.5 sm:start-4 z-10 p-2.5 sm:p-3 rounded-xl sm:rounded-2xl bg-card/95 backdrop-blur-md border border-card-border shadow-lg max-w-[calc(100vw-32px)] sm:max-w-[19rem] animate-reveal">
+        <div className="absolute top-[5.6rem] @xl:top-16 start-2 @lg:start-4 end-2 @sm:end-auto z-10 p-2.5 @lg:p-3 rounded-xl @lg:rounded-2xl bg-card/95 backdrop-blur-md border border-card-border shadow-lg @sm:max-w-[19rem] animate-reveal">
           <div className="text-[10px] font-mono uppercase text-primary font-bold mb-1.5 flex items-center gap-1">
             <Ruler className="w-3 h-3" /> {t('dimensions')}
           </div>
@@ -1445,23 +1473,23 @@ export default function Native3DCanvas({
        * `overflow-hidden` bekommen — sonst beschneidet er den vergroesserten
        * ausgewaehlten Farbknopf. */}
       {zeigeStreifen && (
-        <div className="absolute bottom-2 start-2 end-2 sm:bottom-4 sm:start-4 sm:end-4 z-10 flex items-center justify-between gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-xl sm:rounded-2xl bg-background/90 backdrop-blur-md border border-card-border shadow-sm">
+        <div className="absolute bottom-2 start-2 end-2 @lg:bottom-4 @lg:start-4 @lg:end-4 z-10 flex items-center justify-between gap-1.5 @lg:gap-2 p-1.5 @lg:p-2 rounded-xl @lg:rounded-2xl bg-background/90 backdrop-blur-md border border-card-border shadow-sm">
           {zeigeGroessen && (
             <>
               <div className="flex items-center gap-1.5 shrink-0 text-xs font-heading font-bold text-foreground pe-2 border-e border-card-border">
                 <Sparkles className="w-3.5 h-3.5 text-primary shrink-0" />
-                <span className="hidden sm:inline">{t('nominalSize')}</span>
-                <span className="sm:hidden font-mono">DN</span>
+                <span className="hidden @xl:inline">{t('nominalSize')}</span>
+                <span className="@xl:hidden font-mono">DN</span>
               </div>
 
-              <div className="flex items-center gap-1 sm:gap-1.5 min-w-0 flex-1 overflow-x-auto scrollbar-none py-0.5">
+              <div className="flex items-center gap-1 @lg:gap-1.5 min-w-0 flex-1 overflow-x-auto scrollbar-none py-0.5">
                 {availableSizes.map((d) => (
                   <button
                     key={d}
                     type="button"
                     onClick={() => handleSelectSize(d)}
                     className={clsx(
-                      'px-2.5 sm:px-3 py-1 rounded-lg sm:rounded-xl text-xs font-mono font-bold transition-all shrink-0 cursor-pointer',
+                      'px-2.5 @lg:px-3 py-1 rounded-lg @lg:rounded-xl text-xs font-mono font-bold transition-all shrink-0 cursor-pointer',
                       selectedSize === d
                         ? 'bg-primary text-primary-foreground shadow-sm scale-105'
                         : 'bg-card hover:bg-card-border/50 text-foreground border border-card-border'
@@ -1513,7 +1541,7 @@ export default function Native3DCanvas({
               ))}
             </div>
           ) : (
-            <div className="hidden sm:flex items-center gap-1.5 text-[10px] font-mono text-muted-foreground shrink-0 ps-2 border-s border-card-border">
+            <div className="hidden @2xl:flex items-center gap-1.5 text-[10px] font-mono text-muted-foreground shrink-0 ps-2 border-s border-card-border">
               <span>360° Touch / Maus</span>
             </div>
           )}

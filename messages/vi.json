@@ -1,4 +1,63 @@
 {
+  "catalogNotes": {
+    "k-pipe-purple-pp-r-sdr-11": "Màu tím, ví dụ dùng cho hệ thống nước tái sử dụng / tưới tiêu để nhận biết rõ ràng.",
+    "k-fiber-pipe-pp-rct-sdr-74": "Lớp giữa gia cường sợi thủy tinh giúp giảm độ giãn nở nhiệt khoảng 50 %.",
+    "k-fiberclima-pipe-pp-rct-sdr-11": "Tối ưu hóa cho các ứng dụng điều hòa không khí / HVAC (nước làm mát và nước sưởi).",
+    "k-fiber-pipe-pp-r-sdr-17": "Ống sợi kích thước lớn cho công nghiệp và cấp nước tòa nhà.",
+    "k-fiber-uv-pipe-pp-r-sdr-74": "Lớp ngoài ổn định tia UV cho các ứng dụng ngoài trời.",
+    "k-fiber-uv-pipe-pp-rct-sdr-74": "Ổn định tia UV cho các đường ống trên cao và lắp đặt trên mái.",
+    "electrofusion-socket": "Măng sông hàn điện trở: Nối ống thông qua gia nhiệt bằng điện không cần máy hàn nhiệt.",
+    "flange-adaptor": "Chuyển tiếp sang mối nối mặt bích, cho van, bơm và đồng hồ nước.",
+    "reducing-tee-large-sizes": "Dành cho tuyến ống chính 63–75 mm.",
+    "cross-over": "Vượt qua đường ống thứ hai mà không nối vào nhau.",
+    "elbow-bracket-90-female-thread": "Có mặt bích gắn để cố định vào tường.",
+    "elbowwall-bracket-90-female-thread": "Cố định tường hai bên.",
+    "metal-union-male-thread-yellow-brass": "Đồng thau CW617N.",
+    "metal-union-female-thread-yellow-brass": "Đồng thau CW617N.",
+    "tee-90-female-thread": "Có thể tháo rời để bảo trì mà không cần cắt ống.",
+    "union-for-watermeters": "Tạo điều kiện thuận lợi cho việc lắp đặt và tháo dỡ đồng hồ nước.",
+    "pp-r-ball-valve-ball-in-pp": "Toàn lưu lượng, bi van bằng PP, đầu nối hàn lồng hai bên.",
+    "pp-r-ball-valve-ball-in-brass-chromium-plated": "Bi van bằng đồng thau mạ crôm cho điều kiện làm việc nặng.",
+    "tee-90-female-thread-for-internal-valve": "Tê gắn cho van âm tường.",
+    "concealed-valve-chrome-light-part": "Nắp chụp + trục van nhìn thấy, phiên bản mạ crôm.",
+    "concealed-valve-chrome-heavy-part": "Thân van âm tường, lắp trong tê gắn.",
+    "straight-seat-valve-upper-part-green-handle": "Phần trên có tay xoay cho van thẳng / van chặn.",
+    "elongation-pieces": "Đầu nối dài cho các độ dày tường khác nhau.",
+    "battery-female-thread": "Bộ chia phân phối cho hệ thống sưởi sàn / phân phối đa mạch.",
+    "adjustable-battery-female-thread": "Khoảng cách trục giữa các nhánh có thể điều chỉnh.",
+    "weld-in-saddle": "Không ren: Nhánh PP-R, hàn trực tiếp vào đường ống chính.",
+    "pipe-clamps": "Có đệm cao su, dùng để đỡ và cố định ống.",
+    "backing-flange-pp-steel-sfbf": "Mặt bích lồng gia cường thép cho khớp nối bích.",
+    "flat-gasket": "Gioăng phẳng EPDM cho kết nối mặt bích.",
+    "flat-gasket-for-unions-pp-r": "Gioăng EPDM cho khớp nối rắc co.",
+    "plug": "Nút bịt ren để đóng các đầu hở. Các kích thước khác theo yêu cầu.",
+    "pipe-cutter-2040": "Kéo cắt ống kiểu bánh cóc cho đường cắt sạch, vuông góc.",
+    "pipe-cutter-50125": "Dao cắt ống chắc chắn cho các kích thước lớn.",
+    "pipe-cutter-50125-1": "Gọt bề mặt ống trước khi hàn.",
+    "hand-welding-machine-2032-complete-set": "Máy hàn lồng cầm tay nhỏ gọn.",
+    "hand-welding-machine-2063-complete-set": "Bộ hoàn chỉnh gồm đĩa gia nhiệt, giá đỡ và dụng cụ.",
+    "hand-welding-machine-mirror-50125": "Đĩa gia nhiệt thay thế cho máy 50–125 mm.",
+    "welding-tool": "Từng cặp đầu hàn đực/cái theo từng kích thước.",
+    "welding-machine-50125-complete-set": "Máy hàn lồng chuyên nghiệp cho các kích thước lớn.",
+    "butt-welding-machine-90250": "Máy hàn đối đầu cho các kích thước lớn.",
+    "electrofusion-machine": "Thiết bị điều khiển cho phụ kiện hàn điện trở, có máy quét mã vạch.",
+    "welding-tool-for-weld-in-saddles": "Dụng cụ chuyên dụng để hàn đai khởi thủy hàn (saddle).",
+    "drilling-tool-for-weld-in-saddle": "Mũi khoan khoét lỗ để mở điểm phân nhánh sau khi hàn đai khởi thủy.",
+    "welding-tool-for-repairing-plug": "Dụng cụ gia nhiệt cho hệ thống nút bịt sửa chữa.",
+    "repairing-plug": "Nút bịt sửa chữa khẩn cấp để bịt kín điểm rò rỉ mà không cần xả hết nước."
+  },
+  "geoExtra": {
+    "cityBadge": "(Thành phố)",
+    "regionBadge": "(Khu vực)",
+    "marketFallbackLead": "Hệ thống ống PP-R chất lượng cao cho {city}.",
+    "openMarketPage": "Mở trang thị trường {city}"
+  },
+  "sitemapPage": {
+    "products": "Sản phẩm & Danh mục",
+    "markets": "Thị trường & Khu vực",
+    "company": "Doanh nghiệp & Điều hướng",
+    "news": "Tin tức & Báo chí"
+  },
   "aboutDeep": {
     "eyebrow": "Góc nhìn chuyên sâu",
     "title": "Góc nhìn chuyên sâu K-Aqua",
@@ -7,6 +66,9 @@
     "item2": "Khoa học vật liệu: Polypropylene Random Copolymer",
     "item3": "Tính linh hoạt của hệ thống K-Aqua",
     "item4": "Đồng thau DZR chống khử kẽm"
+  },
+  "catalogExtra": {
+    "viewDetails": "Chi tiết sản phẩm"
   },
   "toggle_theme_light": "Chuyển sang giao diện sáng",
   "toggle_theme_dark": "Chuyển sang giao diện tối",
@@ -21,6 +83,9 @@
     "quote": "Yêu cầu báo giá",
     "menu": "Thực đơn",
     "lang": "Ngôn ngữ",
+    "searchShortcut": "Tìm kiếm (Cmd+K)",
+    "imprint": "Thông tin pháp lý",
+    "privacy": "Bảo mật dữ liệu",
     "skipToContent": "Chuyển đến nội dung chính",
     "menuPlaceholder": "Giữ chỗ (Mega-Menu)",
     "academy": "Học viện",
@@ -28,6 +93,7 @@
     "about": "Về chúng tôi",
     "solutions": "Giải pháp",
     "partners": "Đối tác",
+    "partner": "Đối tác",
     "references": "Dự án tiêu biểu",
     "career": "Tuyển dụng",
     "news": "Tin tức",
@@ -45,31 +111,37 @@
     "edgeMarkets": "{count} thị trường",
     "edgePageIndex": "Chỉ mục trang",
     "mega": {
-      "homeSr": "K-Aqua Homepage",
-      "pipeSystems": "Piping Systems",
-      "allProducts": "All Products",
-      "allProductsDesc": "Overview of all K-Aqua PP-R solutions",
-      "solutionsDesc": "Industry-specific applications",
-      "digitalTools": "Digital Tools",
-      "finderDesc": "Configure the right system",
-      "co2Desc": "Calculate the environmental footprint",
-      "academyDesc": "Training & certificates",
-      "trustDesc": "Downloads & certifications",
-      "serviceDesc": "Planning support",
-      "partnersDesc": "Become a local partner",
-      "aboutGroup": "About K-Aqua",
-      "company": "The Company",
-      "companyDesc": "Mission, vision & history",
-      "careerDesc": "Open positions & culture",
-      "newsPress": "News & Press",
-      "newsDesc": "Latest press releases",
-      "sitemap": "Sitemap",
-      "sitemapDesc": "Structural overview",
-      "globalFootprint": "Global Footprint",
-      "globalMarkets": "Global Markets",
-      "marketsDesc": "Certified regions",
-      "refProjects": "Reference Projects",
-      "refDesc": "Successful installations"
+      "homeSr": "Trang chủ K-Aqua",
+      "pipeSystems": "Hệ thống đường ống",
+      "allProducts": "Tất cả sản phẩm",
+      "allProductsDesc": "Tổng quan về tất cả các giải pháp K-Aqua PP-R",
+      "solutionsDesc": "Ứng dụng chuyên ngành công nghiệp",
+      "digitalTools": "Công cụ kỹ thuật số",
+      "cadStudio": "3D CAD Studio",
+      "cadModels": "70 mô hình tương tác",
+      "finderDesc": "Cấu hình hệ thống phù hợp",
+      "co2Desc": "Tính toán cân bằng môi trường",
+      "academyDesc": "Đào tạo & Chứng chỉ",
+      "trustDesc": "Tải xuống & Chứng chỉ",
+      "serviceDesc": "Hỗ trợ lập kế hoạch",
+      "partnersDesc": "Trở thành đối tác địa phương",
+      "aboutGroup": "Về K-Aqua",
+      "company": "Doanh nghiệp",
+      "companyDesc": "Sứ mệnh, tầm nhìn & lịch sử",
+      "careerDesc": "Vị trí tuyển dụng & Văn hóa",
+      "newsPress": "Tin tức & Báo chí",
+      "newsDesc": "Thông cáo báo chí mới nhất",
+      "sitemap": "Sơ đồ trang web",
+      "sitemapDesc": "Tổng quan cấu trúc",
+      "globalFootprint": "Dấu ấn toàn cầu",
+      "globalMarkets": "Thị trường toàn cầu",
+      "marketsDesc": "Các khu vực được chứng nhận",
+      "refProjects": "Dự án tiêu biểu",
+      "refDesc": "Các công trình lắp đặt thành công",
+      "contactDesc": "Trao đổi với đội ngũ chuyên gia của chúng tôi",
+      "quoteDesc": "Yêu cầu báo giá dự án không ràng buộc",
+      "imprintDesc": "Thông tin pháp lý của doanh nghiệp",
+      "privacyDesc": "Chính sách xử lý dữ liệu"
     }
   },
   "groups": {
@@ -161,7 +233,7 @@
       "eyebrow": "Chất lượng đã được kiểm định",
       "title1": "Hệ thống quản lý ",
       "titleHighlight": "GENAU",
-      "title2": " ",
+      "title2": " Management System",
       "p1": "Mục tiêu của hệ thống quản lý GENAU là không ngừng cải thiện an toàn lao động, môi trường và sức khỏe trong công ty.",
       "p2": "Tất cả các hoạt động của công ty tại KWT đều được thực hiện dựa trên việc xem xét sự bảo tồn tài nguyên, tương thích với môi trường và tuân thủ nghiêm ngặt tất cả các nghĩa vụ. Việc thực hành quản lý GENAU đáp ứng các yêu cầu cao của ",
       "p3": " và ",
@@ -198,7 +270,7 @@
     "colContact": "Liên hệ",
     "directions": "Chỉ đường & Vị trí",
     "rights": "Bảo lưu mọi quyền.",
-    "imprint": "Impressum",
+    "imprint": "Thông tin pháp lý",
     "privacy": "Bảo mật",
     "phone": "+49 (0)60 85 / 9868-410",
     "email": "info@k-aqua.de",
@@ -1431,8 +1503,8 @@
         ]
       },
       "k-fiber-pipe-pp-r-sdr-9": {
-        "seo_p1": "Das K-Fiber Pipe PP-R SDR 9 schließt die Lücke zwischen Standard- und Hochdruck-Faserrohren. Es bietet eine exzellente Balance aus Durchflusskapazität und Druckbeständigkeit.",
-        "seo_p2": "Mit der Baureihe S 4 (SDR 9) ist das PP-R-Faserrohr für Drücke von bis zu 2.0 MPa bei 20°C zugelassen. Die Wandstärken sind für mittlere bis hohe Belastungen optimiert.",
+        "seo_p1": "Ống K-Fiber Pipe PP-R SDR 9 lấp đầy khoảng cách giữa ống sợi tiêu chuẩn và ống sợi chịu áp lực cao. Nó mang lại sự cân bằng tuyệt vời giữa dung lượng dòng chảy và khả năng chịu áp lực.",
+        "seo_p2": "Với dòng S 4 (SDR 9), ống sợi PP-R được chứng nhận cho áp suất lên đến 2,0 MPa ở 20°C. Độ dày thành ống được tối ưu hóa cho các mức tải trọng từ trung bình đến cao.",
         "seo_p3": "Ống này thường được sử dụng trong các dự án thương mại và công nghiệp, nơi các loại ống thông thường đạt đến giới hạn của chúng, nhưng chưa cần đến mức dự trữ cực lớn của SDR 7.4.",
         "faq": [
           {
@@ -2410,9 +2482,9 @@
         ]
       },
       "hand-welding-machine-2063-complete-set": {
-        "seo_p1": "Das Handschweißgerät d20-d63 im Komplettset (Hand Welding Machine 20-63 Complete Set) deckt die gesamte Bandbreite der klassischen Haustechnik ab.",
-        "seo_p2": "Mit einer höheren Heizleistung und doppelten Steckplätzen für Heizdorne ermöglicht dieses Gerät das simultane Vorbereiten verschiedener Dimensionen ohne Werkzeugwechsel.",
-        "seo_p3": "Das robuste Komplettset ist für den rauen Baustellenalltag konzipiert und liefert auch bei widrigen Witterungsbedingungen eine kompromisslos präzise Schweißtemperatur.",
+        "seo_p1": "Máy hàn cầm tay d20-d63 trong bộ hoàn chỉnh (Hand Welding Machine 20-63 Complete Set) bao gồm toàn bộ phạm vi kỹ thuật công trình dân dụng cổ điển.",
+        "seo_p2": "Với công suất gia nhiệt cao hơn và vị trí cắm kép cho các đầu hàn nhiệt, thiết bị này cho phép chuẩn bị đồng thời nhiều kích thước khác nhau mà không cần thay đổi dụng cụ.",
+        "seo_p3": "Bộ hoàn chỉnh chắc chắn được thiết kế cho điều kiện công trường khắc nghiệt hàng ngày và cung cấp nhiệt độ hàn chính xác không thỏa hiệp ngay cả trong điều kiện thời tiết bất lợi.",
         "faq": [
           {
             "q": "Có thể gắn nhiều dụng cụ hàn cùng lúc không?",
@@ -2600,7 +2672,7 @@
         ]
       }
     },
-    "viewDetails": "View product specifications"
+    "viewDetails": "Xem chi tiết sản phẩm"
   },
   "solutions": {
     "eyebrow": "Giải pháp",
@@ -3545,25 +3617,25 @@
     "nextTitle": "Kế hoạch của bạn thân thiện với khí hậu đến mức nào?",
     "nextLead": "Chuyển kích thước và chiều dài trực tiếp sang máy tính CO₂ và so sánh với đồng, thép không gỉ và PVC.",
     "nextCta": "Đến Máy tính CO₂",
-    "searchLead": "Search our complete product range by category, name, or article number.",
-    "catAll": "All",
-    "catPipes": "Pipes",
-    "catFittings": "Fittings",
-    "catValves": "Valves",
-    "catTools": "Tools",
-    "catTransitionFittings": "Transition Fittings",
-    "catAccessories": "Accessories",
-    "catWeldInSaddles": "Weld-In Saddles",
-    "category": "Category",
-    "search": "Search",
-    "searchPlaceholder": "Article number or name...",
-    "foundFam": "product families found",
-    "catalogPdf": "Catalog as PDF",
-    "colName": "Product name",
-    "colCat": "Category",
-    "colCodes": "Article numbers",
-    "noResultsText": "We couldn't find any products matching your search. Please try a different term or change the category.",
-    "resetFilters": "Reset filters"
+    "searchLead": "Duyệt tìm toàn bộ dòng sản phẩm của chúng tôi theo danh mục, tên hoặc mã số sản phẩm.",
+    "catAll": "Tất cả",
+    "catPipes": "Ống",
+    "catFittings": "Phụ kiện",
+    "catValves": "Van",
+    "catTools": "Dụng cụ",
+    "catTransitionFittings": "Phụ kiện chuyển tiếp",
+    "catAccessories": "Linh kiện & Phụ kiện",
+    "catWeldInSaddles": "Đai khởi thủy hàn (Weld-in saddles)",
+    "category": "Danh mục",
+    "search": "Tìm kiếm",
+    "searchPlaceholder": "Mã số hoặc tên sản phẩm...",
+    "foundFam": "dòng sản phẩm được tìm thấy",
+    "catalogPdf": "Danh mục dạng PDF",
+    "colName": "Tên sản phẩm",
+    "colCat": "Danh mục",
+    "colCodes": "Mã số sản phẩm",
+    "noResultsText": "Chúng tôi không tìm thấy sản phẩm nào phù hợp với tiêu chí tìm kiếm của bạn. Vui lòng thử lại với một thuật ngữ khác hoặc thay đổi danh mục.",
+    "resetFilters": "Đặt lại bộ lọc"
   },
   "trustAndCases": {
     "eyebrow": "An toàn được chứng nhận",
@@ -3991,20 +4063,91 @@
     "cookieDecline": "Từ chối Chỉ các Cài đặt Cần thiết"
   },
   "cookieConsent": {
-    "title": "Cài đặt Quyền riêng tư & Cookie",
+    "privacyLink": "Chính sách bảo mật",
+    "imprintLink": "Thông tin pháp lý",
+    "title": "Cài đặt quyền riêng tư",
     "description": "Chúng tôi sử dụng cookie và các công nghệ tương tự (như pixel và bộ nhớ cục bộ) để mang đến cho bạn trải nghiệm tốt nhất có thể trên nền tảng của chúng tôi. Một số công nghệ là thực sự cần thiết, trong khi một số khác giúp chúng tôi cải thiện trang web này. Bạn có toàn quyền kiểm soát bất cứ lúc nào.",
-    "customize": "Tùy chỉnh Cài đặt",
-    "declineAll": "Chỉ các Cài đặt Cần thiết",
-    "acceptAll": "Chấp nhận Tất cả",
-    "acceptSelected": "Lưu Tùy chọn",
+    "customize": "Tùy chỉnh cài đặt",
+    "declineAll": "Chỉ cần thiết",
+    "acceptAll": "Chấp nhận tất cả",
+    "acceptSelected": "Lưu lựa chọn",
     "essentialTitle": "Cần thiết (Yêu cầu kỹ thuật)",
-    "essentialDesc": "Những cookie này thực sự cần thiết để trang web hoạt động trơn tru (ví dụ: điều hướng, bảo mật, lưu các tùy chọn Quyền riêng tư của bạn). Nếu không có các công nghệ này, K Aqua không thể hoạt động đúng. Chúng không lưu trữ bất kỳ dữ liệu nhận dạng cá nhân nào.",
+    "essentialDesc": "Những cookie này thực sự cần thiết để trang web hoạt động trơn tru (ví dụ: điều hướng, bảo mật, lưu các tùy chọn quyền riêng tư của bạn). Nếu không có các công nghệ này, K Aqua không thể hoạt động đúng. Chúng không lưu trữ bất kỳ dữ liệu nhận dạng cá nhân nào.",
     "analyticsTitle": "Thống kê & Phân tích",
     "analyticsDesc": "Những cookie này giúp chúng tôi hiểu hành vi của khách truy cập. Chúng tôi thu thập dữ liệu ẩn danh về cách người dùng tương tác với K Aqua (ví dụ: các trang được truy cập nhiều nhất, thời gian truy cập, thông báo lỗi). Điều này cho phép chúng tôi khắc phục lỗi và liên tục cải thiện nền tảng.",
     "marketingTitle": "Tiếp thị & Cá nhân hóa",
     "marketingDesc": "Chúng tôi sử dụng các công nghệ này để hiển thị cho bạn nội dung và quảng cáo có liên quan hơn (ngay cả trên các nền tảng bên ngoài). Nếu bạn tắt tùy chọn này, bạn vẫn sẽ thấy quảng cáo, nhưng chúng sẽ ít được điều chỉnh theo sở thích của bạn hơn.",
-    "vendorListTitle": "Xem Danh sách Cookie Chi tiết",
-    "backToSimple": "Quay lại Tổng quan"
+    "intro": "Trang web này không đặt cookie và không tích hợp dịch vụ của bên thứ ba. Dữ liệu chỉ được lưu trữ cục bộ trong trình duyệt của bạn — không có thông tin nào rời khỏi thiết bị của bạn.",
+    "noCookiesNote": "Không cookie · Không theo dõi quảng cáo · Không truyền dữ liệu cho bên thứ ba",
+    "btnAcceptAll": "Cho phép tất cả",
+    "btnNecessaryOnly": "Chỉ mục cần thiết",
+    "btnCustomize": "Tùy chọn từng mục",
+    "btnSaveSelection": "Lưu lựa chọn",
+    "btnBack": "Quay lại",
+    "btnClose": "Đóng",
+    "categories": {
+      "necessary": {
+        "title": "Yêu cầu kỹ thuật",
+        "desc": "Lưu lại quyết định quyền riêng tư và ngôn ngữ bạn đã chọn. Nếu không lưu trữ, bạn sẽ phải chọn lại mỗi khi truy cập trang. Không thể hủy chọn."
+      },
+      "comfort": {
+        "title": "Tiện ích",
+        "desc": "Ghi nhớ các mục nhập của bạn trong công cụ tính CO₂, các từ khóa tìm kiếm gần đây và lựa chọn giữa giao diện sáng/tối. Nếu từ chối, mọi thứ vẫn hoạt động — chỉ là không có gì được lưu lại."
+      },
+      "analytics": {
+        "title": "Đo lường phạm vi",
+        "desc": "Đánh giá ẩn danh về các trang được truy cập.",
+        "emptyNote": "Hiện tại không có dịch vụ nào như vậy được tích hợp. Nếu điều đó thay đổi, nó sẽ chỉ được tải sau khi bạn đồng ý."
+      }
+    },
+    "inventory": {
+      "toggle": "Hiển thị các mục đã lưu",
+      "heading": "Chính xác những gì được lưu trữ",
+      "colName": "Mục",
+      "colPurpose": "Mục đích",
+      "colCategory": "Danh mục",
+      "colRetention": "Thời gian lưu trữ",
+      "note": "Tất cả các mục nằm trong bộ nhớ cục bộ của trình duyệt (localStorage). Không có cookie nào được đặt và không có dữ liệu nào được chuyển đến bên thứ ba hoặc quốc gia thứ ba."
+    },
+    "entries": {
+      "consent": {
+        "name": "Quyết định quyền riêng tư",
+        "purpose": "Ghi lại những gì bạn đã quyết định",
+        "retention": "Cho đến khi bị thu hồi"
+      },
+      "theme": {
+        "name": "Giao diện",
+        "purpose": "Sáng hoặc tối",
+        "retention": "Cho đến khi xóa trong trình duyệt"
+      },
+      "co2": {
+        "name": "Công cụ tính CO₂",
+        "purpose": "Các kịch bản và danh sách dự án của bạn",
+        "retention": "Cho đến khi xóa trong trình duyệt"
+      },
+      "search": {
+        "name": "Tìm kiếm gần đây",
+        "purpose": "Các cụm từ tìm kiếm gần đây nhất của bạn",
+        "retention": "Cho đến khi xóa trong trình duyệt"
+      }
+    },
+    "record": {
+      "decidedOn": "Đã quyết định vào {date}",
+      "policyVersion": "Phiên bản {version}",
+      "notDecided": "Chưa đưa ra quyết định nào"
+    },
+    "withdraw": {
+      "title": "Thay đổi quyết định",
+      "desc": "Bạn có thể thay đổi quyết định của mình bất cứ lúc nào — việc thu hồi cũng dễ dàng như việc chấp thuận.",
+      "button": "Thu hồi tất cả",
+      "done": "Quyết định của bạn đã được đặt lại."
+    },
+    "a11y": {
+      "dialogLabel": "Cài đặt quyền riêng tư",
+      "closeLabel": "Đóng cài đặt",
+      "switchOn": "đã bật",
+      "switchOff": "đã tắt"
+    }
   },
   "seo": {
     "extendedProductText": {
@@ -4223,7 +4366,7 @@
       "eyebrow": "Chất lượng đã được kiểm định",
       "title1": "Hệ thống Quản lý ",
       "titleHighlight": "GENAU",
-      "title2": "",
+      "title2": " Management System",
       "p1": "Mục tiêu của hệ thống quản lý GENAU là cải tiến liên tục việc bảo vệ an toàn nghề nghiệp, môi trường và sức khỏe trong công ty.",
       "p2": "Tất cả các hoạt động của công ty tại KWT đều được thực hiện có tính đến việc bảo tồn tài nguyên, tương thích với môi trường và tuân thủ nghiêm ngặt mọi nghĩa vụ. Quản lý GENAU thực tế đáp ứng các yêu cầu cao của ",
       "p3": " và ",
@@ -4680,6 +4823,9 @@
     "eyebrow": "Liên hệ",
     "title1": "Hãy cùng trò chuyện về",
     "titleGrad": "dự án của bạn.",
+    "seoH1": "Liên hệ K-Aqua: Kết nối với các chuyên gia PP-R của chúng tôi",
+    "formEyebrow": "Tương tác",
+    "formTitle": "Yêu cầu dự án & Hỗ trợ",
     "locTitle": "Trụ sở tại Đức",
     "salesTitle": "Kinh doanh",
     "supportTitle": "Chất lượng & Hỗ trợ kỹ thuật",
@@ -4869,43 +5015,65 @@
     "ishText": "Ngành HVAC thường xuyên quy tụ tại các hội chợ thương mại lớn của thế giới như Big 5 ở Dubai và Riyadh, và ISH ở Frankfurt. Các lịch trình sắp tới của K-Aqua sẽ được công bố tại đây."
   },
   "geo": {
-    "eyebrow": "Thị trường & Địa điểm",
-    "title1": "Một thế giới đầy",
-    "title2": "Thị trường.",
-    "lead": "Khám phá các địa điểm K-Aqua cho hệ thống đường ống PP-R: {n} thị trường ở {c} quốc gia, mỗi thị trường đều có trang đích riêng về tiêu chuẩn, hồ sơ nguồn nước, các trường hợp ứng dụng và dịch vụ kho vận. Hãy nắm bắt thế giới và tự do xoay chuyển; danh sách sẽ đưa bạn đến chính xác thành phố mong muốn.",
-    "all": "Tất cả",
-    "cityTitle": "Hệ thống ống PP-R/PPRCT tại {city}.",
-    "cityLead": "Hệ thống nước uống d20–d630, được kiểm tra đáp ứng các yêu cầu tại địa phương.",
-    "allMarkets": "Tất cả thị trường",
-    "request": "Yêu cầu dự án",
-    "finder": "Tìm kiếm sản phẩm",
-    "fromPlant": "km từ nhà máy Waldsolms",
-    "regFrame": "Khung pháp lý",
-    "water": "Hồ sơ nguồn nước & Phản ứng vật liệu",
-    "typical": "Các dự án tiêu biểu tại {city}",
-    "onSite": "Xử lý tại chỗ",
-    "onSiteText": "Hướng dẫn công nghệ hàn và tài liệu video cho nhóm của bạn tại Học viện.",
-    "toAcademy": "Đến Học viện",
-    "nearbyEyebrow": "Các thị trường lân cận",
-    "nearby": "Gần đó.",
-    "prodNote": "Lưu ý sản xuất: Các trang này tuân theo mẫu Programmatic-SEO (Lát cắt dữ liệu: Sản phẩm × Quy định × Khu vực). Trong Next.js, chúng được tạo ra qua ISR từ Headless CMS, bao gồm hreflang, Product-/Offer-Schema và liên kết nội bộ theo ngữ nghĩa.",
-    "km": "km",
-    "seoExpansion": "K Aqua sản xuất hệ thống ống PP-R và PPRCT tại Waldsolms để đáp ứng các yêu cầu cao nhất của công nghệ tòa nhà và nhà máy toàn cầu. Nhờ kỹ thuật chuẩn Đức không thỏa hiệp và công nghệ sản xuất tiên tiến, hệ thống của chúng tôi đảm bảo độ an toàn hoạt động hàng thập kỷ mà không cần bảo trì. Mọi sản phẩm, từ d20 đến d630, đều trải qua kiểm tra chất lượng nghiêm ngặt và tuân thủ các tiêu chuẩn quốc tế như DVGW, KIWA và SKZ. Chúng tôi không chỉ cung cấp vật liệu cao cấp cho nước uống, làm mát và công nghiệp, mà còn hỗ trợ người thiết kế và thợ lắp đặt với sự hỗ trợ kỹ thuật toàn diện và đào tạo tại chỗ. Hãy tin tưởng vào một hệ thống thuyết phục bằng độ bền cực cao, không bị ăn mòn và độ vệ sinh tuyệt đối.",
-    "seoExpansionDynamic": "Tìm hiểu thêm về các giải pháp PP-R và PPRCT của chúng tôi tại {city}. Chúng tôi đáp ứng các tiêu chuẩn địa phương ({regulator}) và cung cấp hệ thống tối ưu cho chất lượng nước ({water}). Lưu ý bổ sung: {note}.",
-    "cityMetaTitle": "Hệ thống ống PP-R tại {city}",
-    "hubMetaTitle": "Hệ thống ống PP-R cho {country}",
-    "hubH1": "Giải pháp cơ sở hạ tầng cho {country}",
-    "hubLead": "K-Aqua cung cấp các giải pháp cơ sở hạ tầng PP-R và PP-RCT được chứng nhận cho {country}. Hệ thống đường ống của chúng tôi đáp ứng các tiêu chuẩn quốc tế cao nhất và được tối ưu hóa cho những thách thức cụ thể tại {country}.",
-    "hubContextTitle": "Bối cảnh khu vực: {context}",
-    "hubContextBody": "Hệ thống ống PP-R/PP-RCT K-Aqua do Đức sản xuất của chúng tôi cung cấp các giải pháp cơ sở hạ tầng bền vững cho {country}. Chúng được thiết kế đặc biệt để đáp ứng các thách thức về cơ sở hạ tầng tại địa phương.",
-    "hubCitiesTitle": "Địa điểm địa phương & Thành phố tiêu biểu",
+    "hubNames": {
+      "uaeShort": "UAE",
+      "deutschland": "Đức",
+      "oesterreich": "Áo",
+      "schweiz": "Thụy Sĩ",
+      "uae": "Các Tiểu vương quốc Ả Rập Thống nhất",
+      "ksa": "Ả Rập Xê Út",
+      "katar": "Qatar",
+      "chile": "Chile",
+      "japan": "Nhật Bản",
+      "uk": "Vương quốc Anh",
+      "frankreich": "Pháp",
+      "italien": "Ý",
+      "polen": "Ba Lan",
+      "tschechien": "Cộng hòa Séc",
+      "kuwait": "Kuwait",
+      "oman": "Oman",
+      "bahrain": "Bahrain",
+      "jordanien": "Jordan",
+      "aegypten": "Ai Cập",
+      "tuerkei": "Thổ Nhĩ Kỳ",
+      "singapur": "Singapore",
+      "malaysia": "Malaysia",
+      "indien": "Ấn Độ",
+      "suedafrika": "Nam Phi",
+      "kenia": "Kenya"
+    },
+    "cityNames": {
+      "muenchen": "München",
+      "zuerich": "Zürich",
+      "wien": "Wien",
+      "kairo": "Cairo",
+      "dschidda": "Jeddah",
+      "riad": "Riyadh",
+      "mailand": "Milano",
+      "warschau": "Warszawa",
+      "prag": "Praha",
+      "kapstadt": "Cape Town",
+      "maskat": "Muscat",
+      "kualalumpur": "Kuala Lumpur",
+      "singapur": "Singapore",
+      "frankfurt": "Frankfurt am Main",
+      "berlin": "Berlin",
+      "hamburg": "Hamburg",
+      "london": "London",
+      "paris": "Paris",
+      "dubai": "Dubai",
+      "abudhabi": "Abu Dhabi",
+      "doha": "Doha",
+      "neom": "NEOM / The Line",
+      "kuwait": "Thành phố Kuwait",
+      "manama": "Manama",
+      "amman": "Amman",
+      "istanbul": "Istanbul",
+      "mumbai": "Mumbai",
+      "nairobi": "Nairobi"
+    },
     "hubs": {
-      "deutschland": {
-        "description": "Là thị trường nội địa của K-Aqua, Đức đặt ra những yêu cầu cao nhất về chất lượng và độ bền của công trình xây dựng. <span class=\"font-semibold\">Hệ thống ống PP-R và PP-RCT</span> của chúng tôi giải quyết một cách hiệu quả và bền vững tình trạng tồn đọng cải tạo trong cơ sở hạ tầng nước uống và sưởi ấm của Đức. Bằng các vật liệu không bị ăn mòn, được chứng nhận DVGW, chúng tôi giảm thiểu chi phí bảo trì và đảm bảo mức độ vệ sinh hệ thống tối đa trong các dự án quy mô lớn thuộc khu vực công cộng, thương mại và tư nhân qua nhiều thập kỷ.",
-        "metaDesc": "Hệ thống ống PP-R/PP-RCT được chứng nhận cho Đức. Kỹ thuật Đức giải quyết tình trạng tồn đọng cải tạo trong cơ sở hạ tầng nước uống và sưởi ấm."
-      },
       "oesterreich": {
-        "description": "Tại Áo, địa hình phức tạp và các quy định nghiêm ngặt về môi trường đòi hỏi những giải pháp cơ sở hạ tầng không thỏa hiệp. <span class=\"font-semibold\">Hệ thống ống K-Aqua</span> của chúng tôi cung cấp chất lượng cao cấp cho mạng lưới cấp nước và sưởi ấm trung tâm bền vững ở vùng núi Alps. Với sự an toàn được kiểm định bởi ÖVGW và khả năng cách nhiệt tuyệt vời, các ống PP-R và PP-RCT của chúng tôi đảm bảo hiệu suất chống băng giá và chịu áp lực ngay cả trong điều kiện khí hậu khắc nghiệt nhất của dãy Alps.",
         "metaDesc": "Hệ thống ống PP-R/PP-RCT cao cấp cho Áo. Giải pháp an toàn, chống đóng băng và chịu áp lực cho hệ thống nước và sưởi ấm khu vực núi Alps."
       },
       "schweiz": {
@@ -4925,6 +5093,85 @@
         "metaDesc": "Ống PP-R/PP-RCT đạt hiệu quả cao cho mục tiêu Công trình Xanh tại Singapore. Hệ thống làm mát chuyên dụng cho mục đích cung cấp nước siêu sạch và Nước Lạnh."
       }
     }
+  },
+  "productNames": {
+    "accessories_backing-flange": "Mặt bích lồng PP-Thép (SF/BF)",
+    "accessories_flat-gasket-for-unions": "Gioăng đệm phẳng cho rắc co PP-R",
+    "accessories_flat-gasket": "Gioăng đệm phẳng",
+    "accessories_pipe-clamps": "Đai kẹp ống",
+    "accessories_plug": "Nút bịt ống PP-R",
+    "fittings_cap": "Nắp bịt PP-R",
+    "fittings_cross-over-pipe": "Ống tránh PP-R (Đoạn ống)",
+    "fittings_cross-over": "Ống tránh PP-R",
+    "fittings_cross": "Khớp nối chữ thập PP-R (Tứ thông)",
+    "fittings_elbow-45-female-male": "Cút góc 45° ren trong/ngoài PP-R",
+    "fittings_elbow-45": "Cút góc tiêu chuẩn 45° PP-R",
+    "fittings_elbow-90-female-male": "Cút góc 90° ren trong/ngoài PP-R",
+    "fittings_elbow-90": "Cút góc tiêu chuẩn 90° PP-R",
+    "fittings_electrofusion-socket": "Măng xông hàn điện trở",
+    "fittings_flange-adaptor": "Khớp nối bích (Cổ bích hàn)",
+    "fittings_reducing-bush": "Đầu côn thu (Côn giảm)",
+    "fittings_reducing-tee-large": "Tê thu PP-R (Cỡ lớn)",
+    "fittings_reducing-tee": "Tê thu PP-R",
+    "fittings_socket": "Măng xông PP-R (Khớp nối thẳng)",
+    "fittings_tee": "Tê đều PP-R (Khớp nối chữ T)",
+    "pipes_k-fiber-pipe-pp-r-sdr-11": "Ống sợi khoáng K-Fiber PP-R SDR 11",
+    "pipes_k-fiber-pipe-pp-r-sdr-17": "Ống sợi khoáng K-Fiber PP-R SDR 17",
+    "pipes_k-fiber-pipe-pp-r-sdr-7-4": "Ống sợi khoáng K-Fiber PP-R SDR 7.4",
+    "pipes_k-fiber-pipe-pp-r-sdr-9": "Ống sợi khoáng K-Fiber PP-R SDR 9",
+    "pipes_k-fiber-pipe-pp-rct-sdr-7-4": "Ống sợi khoáng K-Fiber PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4": "Ống sợi khoáng K-Fiber UV PP-R SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-r-sdr-7-4_desc": "Ống phức hợp nhiều lớp với lớp vỏ bảo vệ chống tia UV đặc biệt dùng ngoài trời (SDR 7.4 PP-R).",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4": "Ống sợi khoáng K-Fiber UV PPRCT SDR 7.4",
+    "pipes_k-fiber-uv-pipe-pp-rct-sdr-7-4_desc": "Ống phức hợp hiệu suất cao (PPRCT) với lớp bảo vệ chống tia UV màu đen cho các công trình ngoài trời khắt khe (SDR 7.4).",
+    "pipes_k-fiberclima-pipe-pp-rct-sdr-11": "Ống K-Fiberclima PPRCT SDR 11",
+    "pipes_k-pipe-pp-r-sdr-11": "Ống K-Pipe PP-R SDR 11",
+    "pipes_k-pipe-pp-r-sdr-6": "Ống K-Pipe PP-R SDR 6",
+    "pipes_k-pipe-pp-rct-sdr-7-4": "Ống K-Pipe PPRCT SDR 7.4",
+    "pipes_k-pipe-purple-pp-r-sdr-11": "Ống K-Pipe Tím PP-R SDR 11",
+    "tools_butt-welding-machine-90-250": "Máy hàn đối đầu d90-d250",
+    "tools_drilling-tool-for-weld-in-saddle": "Dụng cụ khoan cho đai khởi thủy hàn",
+    "tools_electrofusion-machine": "Máy hàn điện trở",
+    "tools_hand-welding-machine-20-32": "Máy hàn cầm tay d20-d32",
+    "tools_hand-welding-machine-20-32_desc": "Máy hàn lồng nhỏ gọn dạng bộ hoàn chỉnh cho các kích thước nhỏ từ d20 đến d32 mm.",
+    "tools_hand-welding-machine-20-63": "Máy hàn cầm tay d20-d63",
+    "tools_hand-welding-machine-20-63_desc": "Máy hàn lồng đa năng theo bộ (đĩa nhiệt, chân đế, khuôn hàn) cho ống từ d20 đến d63 mm.",
+    "tools_hand-welding-machine-mirror-50-125": "Máy hàn cầm tay (chỉ gương nhiệt) 50–125",
+    "tools_pipe-cutter-20-40": "Kéo cắt ống có bánh cóc d20-d40",
+    "tools_pipe-cutter-50-125-114": "Dao cắt ống chuyên dụng 1 1/4\"",
+    "tools_pipe-cutter-50-125": "Dao cắt ống chuyên nghiệp d50-d125",
+    "tools_repairing-plug": "Nút bịt sửa chữa sự cố",
+    "tools_welding-machine-50-125": "Máy hàn măng xông d50-d125",
+    "tools_welding-tool-for-repairing-plug": "Dụng cụ hàn cho nút bịt sửa chữa",
+    "tools_welding-tool-for-weld-in-saddles": "Dụng cụ hàn cho đai khởi thủy hàn",
+    "tools_welding-tool": "Dụng cụ hàn nhiệt",
+    "transition-fittings_adaptor-socket-female-thread": "Măng xông chuyển tiếp ren trong (IG)",
+    "transition-fittings_adaptor-socket-male-thread": "Măng xông chuyển tiếp ren ngoài (AG)",
+    "transition-fittings_elbow-90-male-thread": "Cút chuyển tiếp 90° ren ngoài PP-R (AG)",
+    "transition-fittings_elbow-bracket-90-female-thread": "Cút bắt tường 90° ren trong (IG)",
+    "transition-fittings_elbow-bracket-90-female-thread_desc": "Cút bắt tường một bên để lắp đặt cố định và an toàn cho các thiết bị phụ kiện trên tường (IG).",
+    "transition-fittings_elbow-wall-bracket-90-female-thread": "Cút đôi bắt tường 90° ren trong (IG)",
+    "transition-fittings_elbow-wall-bracket-90-female-thread_desc": "Bộ cố định bắt tường đôi cho các kết nối bắt vít cực kỳ vững chắc.",
+    "transition-fittings_metal-union-female-thread-brass": "Rắc co kim loại bằng đồng thau CW617N ren trong (IG)",
+    "transition-fittings_metal-union-female-thread": "Rắc co với đai ốc PP-R ren trong (IG)",
+    "transition-fittings_metal-union-male-thread-brass": "Rắc co kim loại bằng đồng thau CW617N ren ngoài (AG)",
+    "transition-fittings_metal-union-male-thread": "Rắc co với đai ốc PP-R ren ngoài (AG)",
+    "transition-fittings_tee-90-female-thread": "Tê chuyển tiếp 90° ren trong (IG)",
+    "transition-fittings_tee-90-male-thread": "Tê chuyển tiếp 90° ren ngoài (AG)",
+    "transition-fittings_union-for-watermeters": "Rắc co nối đồng hồ nước",
+    "transition-fittings_union": "Rắc co nối ống PP-R",
+    "valves_adjustable-battery-female-thread": "Bộ chia van điều chỉnh ren trong (IG)",
+    "valves_battery-female-thread": "Bộ chia van ren trong (IG)",
+    "valves_concealed-valve-chrome-heavy-part": "Van âm tường mạ crôm: Phần trên loại nặng",
+    "valves_concealed-valve-chrome-light-part": "Van âm tường mạ crôm: Phần trên loại nhẹ",
+    "valves_elongation-pieces": "Đoạn nối dài",
+    "valves_pp-r-ball-valve-ball-in-pp": "Van bi PP-R (Bi van bằng PP)",
+    "valves_pp-r-ball-valve-brass": "Van bi PP-R (Bi van bằng đồng thau mạ crôm)",
+    "valves_straight-seat-valve-green-handle": "Van xiên (Tay vặn xanh)",
+    "valves_tee-90-female-thread-internal-valve": "Tê 90° ren trong (IG) cho van âm tường",
+    "weld-in-saddles_weld-in-saddle-female-thread": "Đai khởi thủy hàn ren trong (IG)",
+    "weld-in-saddles_weld-in-saddle-male-thread": "Đai khởi thủy hàn ren ngoài (AG)",
+    "weld-in-saddles_weld-in-saddle": "Đai khởi thủy hàn"
   },
   "kontaktForm": {
     "phoneLabel": "Điện thoại",
@@ -6215,7 +6462,7 @@
       "form": {
         "firstName": "Tên",
         "lastName": "Họ",
-        "email": "E-Mail",
+        "email": "Email",
         "phone": "Điện thoại",
         "startDate": "Ngày bắt đầu sớm nhất",
         "uploadTitle": "Tải lên PDF",
@@ -6339,11 +6586,11 @@
     },
     "unternehmen": {
       "kicker": "Tham quan nhà máy & Tư vấn",
-      "head": "Lernen Sie die Fertigung hinter K Aqua persönlich kennen.",
-      "short": "Termin für Werksbesuch vereinbaren",
-      "text": "Als familiengeführtes Unternehmen öffnen wir unsere Tore gerne für Planer und Bauherren. Hinterlassen Sie Ihre Kontaktdaten, um einen Besuch im Werk Waldsolms abzustimmen.",
-      "interest": "Beratung",
-      "done": "Wir melden uns zur Koordination Ihres Besuchstermins in Waldsolms."
+      "head": "Trực tiếp tìm hiểu quy trình sản xuất đằng sau K-Aqua.",
+      "short": "Đặt lịch hẹn tham quan nhà máy",
+      "text": "Là một doanh nghiệp do gia đình điều hành, chúng tôi rất hân hạnh mở cửa đón tiếp các nhà thiết kế và chủ đầu tư. Hãy để lại thông tin liên hệ của bạn để sắp xếp chuyến thăm nhà máy Waldsolms.",
+      "interest": "Tư vấn",
+      "done": "Chúng tôi sẽ liên hệ để điều phối lịch hẹn tham quan của bạn tại Waldsolms."
     },
     "produkte_fittings": {
       "kicker": "Linh kiện & Phụ kiện",
@@ -6498,12 +6745,12 @@
       "done": "Chúng tôi sẽ liên hệ trong thời gian ngắn để thảo luận về mạng lưới tưới tiêu của bạn."
     },
     "maerkte": {
-      "kicker": "Regionale Märkte",
-      "head": "Sprechen Sie mit einem Export-Spezialisten für Ihre Region.",
-      "short": "Logistik und Zulassung für Ihr Land",
-      "text": "Wir exportieren weltweit. Nennen Sie uns das Zielland, und wir informieren Sie über lokale Normen, Vertriebspartner vor Ort und realistische Seefracht-Laufzeiten ab unserem Werk.",
-      "interest": "Beratung",
-      "done": "Ein Export-Manager für Ihre Region wird sich mit Ihnen in Verbindung setzen."
+      "kicker": "Thị trường khu vực",
+      "head": "Trao đổi với chuyên gia xuất khẩu cho khu vực của bạn.",
+      "short": "Kho vận và chứng nhận cho quốc gia của bạn",
+      "text": "Chúng tôi xuất khẩu trên toàn thế giới. Hãy cho chúng tôi biết quốc gia mục tiêu, chúng tôi sẽ thông báo cho bạn về các tiêu chuẩn địa phương, đối tác phân phối tại chỗ và thời gian vận chuyển đường biển thực tế từ nhà máy của chúng tôi.",
+      "interest": "Tư vấn",
+      "done": "Một giám đốc xuất khẩu cho khu vực của bạn sẽ liên hệ với bạn."
     },
     "loesungen_hochhaus": {
       "kicker": "Nhà cao tầng",
@@ -6620,70 +6867,70 @@
   },
   "geoContent": {
     "frankfurt": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: DVGW / Trinkwasserverordnung (TrinkwV)",
-      "water": "Chất lượng nước: Nước cứng (14–20 °dH): không ăn mòn PP-R/PPRCT verhindert Kalk-Inkrustation an rauen Metalloberflächen.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: DVGW / Quy chuẩn Nước uống (TrinkwV)",
+      "water": "Chất lượng nước: Nước cứng (14–20 °dH): PP-R/PPRCT không bị ăn mòn, ngăn ngừa bám cặn vôi trên các bề mặt kim loại thô ráp.",
       "focus": [
         "Đường ống dẫn nước nhà cao tầng (Bankenviertel)",
         "Cải tạo Khách sạn & Văn phòng",
         "Nước làm mát trung tâm dữ liệu"
       ],
-      "note": "Ghi chú: Im Rhein-Main-Gebiet cung cấp K Aqua ab nhà máy Waldsolms, oft am selben Tag.",
+      "note": "Ghi chú: Tại khu vực Rhein-Main, K-Aqua giao hàng trực tiếp từ nhà máy Waldsolms, thường trong cùng ngày.",
       "focusHeading": "Các dự án tiêu biểu tại Frankfurt"
     },
     "berlin": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: DVGW / TrinkwV, Berliner Wasserbetriebe",
-      "water": "Chất lượng nước: Mittelhartes Wasser aus Uferfiltrat: hygienische Neutralität des PP verhindert Biofilmbildung in weitläufigen Netzen.",
+      "water": "Chất lượng nước: Nước có độ cứng trung bình từ nước lọc ven bờ: tính trung tính vệ sinh của PP ngăn ngừa sự hình thành màng sinh học trong các mạng lưới rộng lớn.",
       "focus": [
-        "Wohnquartier-Neubau",
-        "Schul- & Verwaltungsbau",
-        "Bestandssanierung Altbau"
+        "Xây dựng khu dân cư mới",
+        "Xây dựng trường học & hành chính",
+        "Cải tạo các tòa nhà cũ"
       ],
-      "note": "Ghi chú: Großprojekte in der Hauptstadtregion werden über Speditionspartner in 24 h becung cấp.",
+      "note": "Ghi chú: Các dự án lớn tại khu vực thủ đô được giao trong vòng 24 giờ qua đối tác vận tải.",
       "focusHeading": "Các dự án tiêu biểu tại Berlin"
     },
     "muenchen": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: DVGW / TrinkwV, SWM",
-      "water": "Chất lượng nước: Weiches Alpenwasser mit niedrigem pH-Spielraum: PP ist beständig, wo Kupfer auf erhöhte Löslichkeit trifft.",
+      "water": "Chất lượng nước: Nước vùng núi Alps mềm với biên độ pH thấp: PP có khả năng chống chịu cao ở những nơi đồng dễ bị ăn mòn hòa tan.",
       "focus": [
-        "Premium-Wohnbau",
-        "Klinik- & Laborbau",
-        "Brauerei- & Prozesswasser"
+        "Nhà ở cao cấp",
+        "Xây dựng Bệnh viện & Phòng thí nghiệm",
+        "Nước quy trình sản xuất bia & Công nghiệp"
       ],
-      "note": "Ghi chú: Süddeutschland-Logistik über Nachtsprung; Schweißtechnik-Schulung vor Ort buchbar.",
-      "focusHeading": "Các dự án tiêu biểu tại Muenchen"
+      "note": "Ghi chú: Hậu cần khu vực Miền Nam nước Đức giao qua đêm; có thể đặt đào tạo kỹ thuật hàn tại chỗ.",
+      "focusHeading": "Các dự án tiêu biểu tại München"
     },
     "hamburg": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: DVGW / TrinkwV, Hamburg Wasser",
-      "water": "Chất lượng nước: Weiches bis mittelhartes Grundwasser: geschmacksneutrale PP-Systeme erhalten die hohe Rohwasserqualität.",
+      "water": "Chất lượng nước: Nước ngầm mềm đến độ cứng trung bình: hệ thống PP trung tính về mùi vị giúp duy trì chất lượng nước thô cao.",
       "focus": [
-        "HafenCity-Neubau",
-        "Hotellerie",
-        "Maritime Versorgungstechnik"
+        "Xây dựng mới HafenCity",
+        "Khách sạn",
+        "Kỹ thuật cấp thoát nước hàng hải"
       ],
-      "note": "Ghi chú: Norddeutschland ab Lager; Großdimensionen d250+ projektbezogen direkt ab Extrusion.",
+      "note": "Ghi chú: Miền Bắc nước Đức sẵn hàng từ kho; các kích thước lớn d250+ theo dự án được chuyển trực tiếp từ dây chuyền ép đùn.",
       "focusHeading": "Các dự án tiêu biểu tại Hamburg"
     },
     "wien": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: ÖVGW / Trinkwasserverordnung (AT)",
-      "water": "Chất lượng nước: Hochquellwasser mit exzellenter Güte: Werterhalt durch absolut inerte Rohrwerkstoffe.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: ÖVGW / Quy chuẩn Nước uống (AT)",
+      "water": "Chất lượng nước: Nước nguồn chất lượng tuyệt hảo: duy trì giá trị nhờ các vật liệu đường ống hoàn toàn trơ.",
       "focus": [
-        "Gemeindebau-Sanierung",
-        "Hotel- & Gewerbeprojekte",
-        "Fernwärme-Subverteilung"
+        "Cải tạo nhà ở xã hội (Gemeindebau)",
+        "Dự án Khách sạn & Thương mại",
+        "Mạng lưới phân phối nhánh sưởi ấm khu vực"
       ],
-      "note": "Ghi chú: EU-Binnenmarkt: keine Zollformalitäten, Lieferung 48 h.",
+      "note": "Ghi chú: Thị trường nội khối EU: không thủ tục hải quan, giao hàng trong 48 giờ.",
       "focusHeading": "Các dự án tiêu biểu tại Wien"
     },
     "zuerich": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: SVGW / TBDV",
-      "water": "Chất lượng nước: See- und Quellwasser-Mix: Schweizer Hygieneanforderungen verlangen geprüfte Materialneutralität.",
+      "water": "Chất lượng nước: Hỗn hợp nước hồ và nước nguồn: các yêu cầu vệ sinh của Thụy Sĩ đòi hỏi tính trung tính vật liệu đã được kiểm nghiệm.",
       "focus": [
-        "Hochpreis-Wohnbau",
-        "Banken- & Bürosanierung",
-        "Spitalbau"
+        "Nhà ở cao cấp",
+        "Cải tạo Ngân hàng & Văn phòng",
+        "Xây dựng Bệnh viện"
       ],
-      "note": "Ghi chú: Exportabwicklung inkl. Schweizer Konformitätsnachweisen aus einer Hand.",
-      "focusHeading": "Các dự án tiêu biểu tại Zuerich"
+      "note": "Ghi chú: Xử lý xuất khẩu trọn gói bao gồm chứng nhận hợp chuẩn Thụy Sĩ.",
+      "focusHeading": "Các dự án tiêu biểu tại Zürich"
     },
     "london": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: WRAS: Water Regulations Approval Scheme",
@@ -6693,247 +6940,247 @@
         "Cải tạo công trình di sản",
         "Mạng lưới nước nóng toàn khu vực"
       ],
-      "note": "Ghi chú: WRAS-konforme Dokumentation und englischsprachige Datenblätter verfügbar.",
+      "note": "Ghi chú: Tài liệu tuân thủ WRAS và bảng dữ liệu tiếng Anh luôn sẵn sàng.",
       "focusHeading": "Các dự án tiêu biểu tại London"
     },
     "paris": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: ACS: Attestation de Conformité Sanitaire",
-      "water": "Chất lượng nước: Hartes Seine-Wasser mit Kalkfracht: glatte PP-Innenflächen halten Druckverluste über Jahrzehnte konstant.",
+      "water": "Chất lượng nước: Nước sông Seine cứng chứa nhiều vôi: bề mặt trong bằng PP nhẵn bóng giúp giữ tổn thất áp suất ổn định qua nhiều thập kỷ.",
       "focus": [
-        "Grand-Paris-Wohnquartiere",
-        "Hotel- & Denkmalsanierung",
-        "Olympia-Nachnutzung"
+        "Các khu dân cư Grand Paris",
+        "Cải tạo Khách sạn & Di tích lịch sử",
+        "Tái sử dụng công trình Olympic"
       ],
-      "note": "Ghi chú: ACS-Konformitätsnachweise und französische Verlegerichtlinien im Lieferumfang.",
+      "note": "Ghi chú: Chứng nhận hợp chuẩn ACS và hướng dẫn lắp đặt tiếng Pháp đi kèm trong phạm vi giao hàng.",
       "focusHeading": "Các dự án tiêu biểu tại Paris"
     },
     "mailand": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: DM 174/2004 (Trinkwasserkontakt, IT)",
-      "water": "Chất lượng nước: Grundwasser aus der Po-Ebene mit hoher Härte: inkrustationsfreie Systeme senken Wartungskosten spürbar.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: DM 174/2004 (Tiếp xúc nước uống, IT)",
+      "water": "Chất lượng nước: Nước ngầm từ đồng bằng sông Po có độ cứng cao: hệ thống không đóng cặn giúp giảm đáng kể chi phí bảo trì.",
       "focus": [
-        "Hochhaus-Cluster Porta Nuova",
-        "Mode- & Retail-Flagships",
-        "Industrie Norditalien"
+        "Cụm tháp cao tầng Porta Nuova",
+        "Cửa hàng flagship Thời trang & Bán lẻ",
+        "Công nghiệp Bắc Ý"
       ],
-      "note": "Ghi chú: Alpen-Transit-Logistik 48–72 h; italienische Unterlagen verfügbar.",
-      "focusHeading": "Các dự án tiêu biểu tại Mailand"
+      "note": "Ghi chú: Vận chuyển quá cảnh qua dãy Alps 48–72 giờ; tài liệu tiếng Ý có sẵn.",
+      "focusHeading": "Các dự án tiêu biểu tại Milano"
     },
     "warschau": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: PZH-Hygienezertifikat (Państwowy Zakład Higieny)",
-      "water": "Chất lượng nước: Weichsel-Uferfiltrat: wachstumsstarker Wohnungsmarkt mit hohem Bedarf an schnell verlegbaren Systemen.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: Chứng chỉ Vệ sinh PZH (Państwowy Zakład Higieny)",
+      "water": "Chất lượng nước: Nước lọc ven bờ sông Vistula: thị trường nhà ở tăng trưởng mạnh với nhu cầu cao về các hệ thống lắp đặt nhanh.",
       "focus": [
-        "Wohnquartier-Neubau",
-        "Logistik- & Industriehallen",
-        "Modernisierung Plattenbau"
+        "Xây dựng khu dân cư mới",
+        "Nhà xưởng Công nghiệp & Kho vận",
+        "Hiện đại hóa các tòa nhà tấm lớn"
       ],
-      "note": "Ghi chú: EU-Logistik 24–48 h; polnischsprachige Verarbeitungsrichtlinien vorhanden.",
-      "focusHeading": "Các dự án tiêu biểu tại Warschau"
+      "note": "Ghi chú: Hậu cần EU 24–48 giờ; hướng dẫn lắp đặt bằng tiếng Ba Lan có sẵn.",
+      "focusHeading": "Các dự án tiêu biểu tại Warszawa"
     },
     "prag": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: SZÚ-Hygienezulassung (CZ)",
-      "water": "Chất lượng nước: Moldau-Talsperrenwasser: stabile Qualität, starker Sanierungsmarkt im Gründerzeitbestand.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: Giấy phép Vệ sinh SZÚ (CZ)",
+      "water": "Chất lượng nước: Nước từ hồ chứa Vltava: chất lượng ổn định, thị trường cải tạo mạnh mẽ trong các tòa nhà cổ.",
       "focus": [
-        "Altbau-Strangsanierung",
-        "Hotellerie",
-        "Automotive-Zulieferindustrie"
+        "Cải tạo trục đường ống tòa nhà cũ",
+        "Khách sạn",
+        "Công nghiệp phụ trợ Ô tô"
       ],
-      "note": "Ghi chú: Nachbarmarkt ab nhà máy: Lieferung in 24 h, technische Hotline auf Deutsch und Englisch.",
-      "focusHeading": "Các dự án tiêu biểu tại Prag"
+      "note": "Ghi chú: Thị trường lân cận từ nhà máy: giao hàng trong 24 giờ, hotline kỹ thuật bằng tiếng Đức và tiếng Anh.",
+      "focusHeading": "Các dự án tiêu biểu tại Praha"
     },
     "dubai": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: DEWA: Dubai Electricity & Water Authority",
-      "water": "Chất lượng nước: Entsalztes Meerwasser mit hoher Chloridfracht und Dauertemperaturen >30 °C: das Kernszenario für PPRCT-Temperaturreserven.",
+      "water": "Chất lượng nước: Nước biển khử muối có hàm lượng clorua cao và nhiệt độ liên tục >30 °C: kịch bản then chốt cho mức dự phòng nhiệt độ của PPRCT.",
       "focus": [
-        "Super-High-Rise-Türme",
-        "Hotel-Resorts",
-        "District Cooling Make-up"
+        "Tháp siêu cao tầng",
+        "Khu nghỉ dưỡng khách sạn",
+        "Nước bổ sung làm mát khu vực"
       ],
-      "note": "Ghi chú: Seefracht-FCL ab Hamburg; Stumpfschweiß-Supervision auf der Baustelle buchbar.",
+      "note": "Ghi chú: Vận tải đường biển FCL từ Hamburg; có thể đặt giám sát hàn đối đầu tại công trường.",
       "focusHeading": "Các dự án tiêu biểu tại Dubai"
     },
     "abudhabi": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: DoE Abu Dhabi / Estidama",
-      "water": "Chất lượng nước: Entsalzungswasser mit Nachhärtung: Estidama-Nachhaltigkeitspunkte honorieren recycelbare Rohrwerkstoffe.",
+      "water": "Chất lượng nước: Nước khử muối có tái tạo độ cứng: điểm phát triển bền vững Estidama đánh giá cao các vật liệu ống có thể tái chế.",
       "focus": [
-        "Regierungs- & Kulturbauten",
-        "Saadiyat-Resorts",
-        "Industriezonen KIZAD"
+        "Công trình Chính phủ & Văn hóa",
+        "Khu nghỉ dưỡng Saadiyat",
+        "Khu công nghiệp KIZAD"
       ],
-      "note": "Ghi chú: Pearl-Rating-Dokumentation (Materialtransparenz) liegt dem Angebot bei.",
-      "focusHeading": "Các dự án tiêu biểu tại Abudhabi"
+      "note": "Ghi chú: Hồ sơ đánh giá Pearl Rating (tính minh bạch vật liệu) được đính kèm trong báo giá.",
+      "focusHeading": "Các dự án tiêu biểu tại Abu Dhabi"
     },
     "doha": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: Kahramaa: Qatar General Electricity & Water Corp.",
-      "water": "Chất lượng nước: Zu 99 % entsalztes Wasser, Netztemperaturen bis 40 °C im Sommer: Langzeit-Druckstandfestigkeit ist das zentrale Auswahlkriterium.",
+      "water": "Chất lượng nước: 99% nước khử muối, nhiệt độ mạng lưới lên đến 40 °C vào mùa hè: độ bền áp suất dài hạn là tiêu chí lựa chọn trung tâm.",
       "focus": [
-        "Lusail-Stadtentwicklung",
-        "Stadien-Nachnutzung",
-        "Hospitality"
+        "Phát triển đô thị Lusail",
+        "Tái sử dụng sân vận động sau giải đấu",
+        "Khách sạn & Nghỉ dưỡng"
       ],
-      "note": "Ghi chú: QCS-konforme Einreichunterlagen und Drittprüfberichte verfügbar.",
+      "note": "Ghi chú: Hồ sơ đệ trình tuân thủ QCS và báo cáo thử nghiệm của bên thứ ba luôn sẵn sàng.",
       "focusHeading": "Các dự án tiêu biểu tại Doha"
     },
     "riad": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: SASO / Saudi Water Authority",
-      "water": "Chất lượng nước: Mix aus Entsalzung (SWCC-Pipelines) und fossilem Grundwasser: extreme Sommerhitze verlangt PPRCT-Reserven.",
+      "water": "Chất lượng nước: Kết hợp giữa nước khử muối (đường ống SWCC) và nước ngầm cổ: nhiệt độ mùa hè khắc nghiệt đòi hỏi khả năng chịu nhiệt của PPRCT.",
       "focus": [
-        "Vision-2030-Giga-Projekte",
-        "King Salman Park",
-        "Wohnstadt-Erweiterungen"
+        "Các siêu dự án Giga theo Tầm nhìn 2030",
+        "Công viên King Salman",
+        "Mở rộng các đô thị dân cư"
       ],
-      "note": "Ghi chú: SASO-Prüfung und SABER-Registrierung werden projektbezogen bereitgestellt.",
-      "focusHeading": "Các dự án tiêu biểu tại Riad"
+      "note": "Ghi chú: Kiểm định SASO và đăng ký SABER được cung cấp theo từng dự án.",
+      "focusHeading": "Các dự án tiêu biểu tại Riyadh"
     },
     "dschidda": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: SASO / SWCC",
-      "water": "Chất lượng nước: Rotmeer-Entsalzung mit hoher Salzfracht im Umfeld: absolute Korrosionsfreiheit ist hier ein KO-Kriterium gegen Metall.",
+      "water": "Chất lượng nước: Nước khử muối Biển Đỏ có hàm lượng muối cao trong môi trường xung quanh: khả năng chống ăn mòn tuyệt đối là tiêu chí loại bỏ kim loại.",
       "focus": [
-        "Jeddah Central Project",
-        "Hafen- & Logistikbauten",
-        "Pilger-Hospitality (Makkah-Korridor)"
+        "Dự án Jeddah Central",
+        "Công trình Cảng biển & Hậu cần",
+        "Khách sạn phục vụ người hành hương (Hành lang Makkah)"
       ],
-      "note": "Ghi chú: Seefracht direkt nach Jeddah Islamic Port; arabischsprachige Datenblätter in Arbeit.",
-      "focusHeading": "Các dự án tiêu biểu tại Dschidda"
+      "note": "Ghi chú: Vận chuyển đường biển trực tiếp đến Cảng Hồi giáo Jeddah; bảng dữ liệu tiếng Ả Rập đang được hoàn thiện.",
+      "focusHeading": "Các dự án tiêu biểu tại Jeddah"
     },
     "neom": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: NEOM Authority / SASO",
-      "water": "Chất lượng nước: 100 % erneuerbar betriebene Entsalzung geplant. Das Projekt fordert vollständig kreislauffähige Materialien: Recycling Code 5 inklusive.",
+      "water": "Chất lượng nước: Khử muối vận hành 100% bằng năng lượng tái tạo theo kế hoạch. Dự án yêu cầu vật liệu có thể tái chế hoàn toàn: bao gồm Mã tái chế 5.",
       "focus": [
-        "Linearstadt-Infrastruktur",
-        "Oxagon-Industriehafen",
-        "Trojena-Bergresorts"
+        "Cơ sở hạ tầng Thành phố Tuyến tính",
+        "Cảng công nghiệp Oxagon",
+        "Khu nghỉ dưỡng núi Trojena"
       ],
-      "note": "Ghi chú: Frühe Planungsphase: K Aqua unterstützt mit EPD-Daten und parametrischen Rohrnetz-Modellen.",
-      "focusHeading": "Các dự án tiêu biểu tại Neom"
+      "note": "Ghi chú: Giai đoạn quy hoạch ban đầu: K-Aqua hỗ trợ với dữ liệu EPD và mô hình mạng lưới đường ống tham số.",
+      "focusHeading": "Các dự án tiêu biểu tại NEOM"
     },
     "kuwait": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: MEW: Ministry of Electricity & Water",
-      "water": "Chất lượng nước: Entsalztes Golfwasser, gemischt mit Brackwasser: chloridresistente Kunststoffsysteme sind Standardempfehlung.",
+      "water": "Chất lượng nước: Nước vùng Vịnh khử muối, pha trộn với nước lợ: hệ thống nhựa kháng clorua là khuyến nghị tiêu chuẩn.",
       "focus": [
-        "Silk-City-Planung",
-        "Wohnstädte (PAHW)",
-        "Öl- & Gas-Begleitinfrastruktur"
+        "Quy hoạch Thành phố Lụa (Silk City)",
+        "Các thành phố nhà ở (PAHW)",
+        "Cơ sở hạ tầng phụ trợ Dầu khí"
       ],
-      "note": "Ghi chú: MEW-Präqualifikation über lokale Partner; Lieferung via Shuwaikh Port.",
+      "note": "Ghi chú: Đạt chuẩn sơ tuyển MEW thông qua đối tác địa phương; giao hàng qua Cảng Shuwaikh.",
       "focusHeading": "Các dự án tiêu biểu tại Kuwait"
     },
     "maskat": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: Nama Water Services (vormals Diam)",
-      "water": "Chất lượng nước: Entsalzung plus Aflaj-Tradition: Oman honoriert langlebige, wartungsarme Systeme in öffentlichen Ausschreibungen.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: Nama Water Services (trước đây là Diam)",
+      "water": "Chất lượng nước: Khử muối kết hợp hệ thống truyền thống Aflaj: Oman đánh giá cao các hệ thống bền bỉ, ít bảo trì trong các gói thầu công.",
       "focus": [
-        "Hafenstadt Duqm",
-        "Hotel- & Tourismusprojekte",
-        "Moschee- & Kulturbauten"
+        "Thành phố cảng Duqm",
+        "Dự án Khách sạn & Du lịch",
+        "Công trình Nhà thờ Hồi giáo & Văn hóa"
       ],
-      "note": "Ghi chú: GCC-Logistikkorridor via Jebel Ali; technische Abnahme nach Nama-Protokoll.",
-      "focusHeading": "Các dự án tiêu biểu tại Maskat"
+      "note": "Ghi chú: Hành lang hậu cần GCC qua Jebel Ali; nghiệm thu kỹ thuật theo biên bản của Nama.",
+      "focusHeading": "Các dự án tiêu biểu tại Muscat"
     },
     "manama": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: EWA: Electricity & Water Authority",
-      "water": "Chất lượng nước: Vollständig entsalztes Netz mit hohen Sommertemperaturen: PPRCT hält die Druckreserve, wo PVC altert.",
+      "water": "Chất lượng nước: Mạng lưới nước khử muối hoàn toàn với nhiệt độ mùa hè cao: PPRCT duy trì mức dự phòng áp suất nơi mà PVC bị lão hóa.",
       "focus": [
-        "Bahrain Bay",
-        "Bankenviertel-Sanierung",
-        "Inselerschließungen"
+        "Vịnh Bahrain",
+        "Cải tạo Khu tài chính ngân hàng",
+        "Khai thác & phát triển đảo"
       ],
-      "note": "Ghi chú: Kompakter Markt mit kurzen Wegen: Komplettpakete inkl. Schweißtechnik-Verleih.",
+      "note": "Ghi chú: Thị trường tinh gọn với khoảng cách ngắn: gói dịch vụ hoàn chỉnh bao gồm cho thuê thiết bị hàn.",
       "focusHeading": "Các dự án tiêu biểu tại Manama"
     },
     "amman": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: WAJ: Water Authority of Jordan / Miyahuna",
-      "water": "Chất lượng nước: Eines der wasserärmsten Länder der Welt. Leckagefreie Schweißverbindungen sind aktive Wassersparpolitik (Non-Revenue Water < 2 %).",
+      "water": "Chất lượng nước: Một trong những quốc gia khan hiếm nước nhất thế giới. Mối hàn không rò rỉ là chính sách tiết kiệm nước chủ động (Nước không doanh thu < 2%).",
       "focus": [
-        "Disi-Pipeline-Subnetze",
-        "Krankenhaus- & Universitätsbau",
-        "Flüchtlingsstadt-Infrastruktur"
+        "Tuyến ống phụ đường ống Disi",
+        "Xây dựng Bệnh viện & Trường đại học",
+        "Cơ sở hạ tầng đô thị tị nạn"
       ],
-      "note": "Ghi chú: Entwicklungsbank-finanzierte Projekte: K Aqua cung cấp Tender-konforme Dokumentation.",
+      "note": "Ghi chú: Các dự án do ngân hàng phát triển tài trợ: K-Aqua cung cấp tài liệu tuân thủ hồ sơ mời thầu.",
       "focusHeading": "Các dự án tiêu biểu tại Amman",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "extendedMarketText": "Cơ sở hạ tầng đô thị ở khu vực này đặt ra những yêu cầu đặc biệt về độ bền và độ tin cậy của hệ thống đường ống. Với điều kiện khí hậu khắc nghiệt và yêu cầu cao về vệ sinh nước, các giải pháp PP-R và PPRCT của K-Aqua mang lại lợi thế quyết định. Ống kim loại truyền thống thường bị ăn mòn và lắng đọng khoáng chất, dẫn đến tổn thất áp suất đáng kể và lãng phí nước do rò rỉ. Ngược lại, hệ thống K-Aqua đảm bảo lắp đặt hoàn toàn kín khít, không cần bảo trì trong hơn 50 năm nhờ tính chất vật liệu không bị ăn mòn và mối hàn polyfusion đồng nhất. Hơn nữa, bề mặt bên trong nhẵn bóng cho phép các đặc tính dòng chảy thủy lực tối ưu, giảm đáng kể năng lượng cần thiết cho các máy bơm tuần hoàn. Những yếu tố này khiến K-Aqua trở thành lựa chọn ưu tiên cho các khu phức hợp khách sạn quy mô lớn, bệnh viện, hệ thống làm mát công nghiệp và các dự án nhà ở đô thị đòi hỏi khắt khe."
     },
     "kairo": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: HCWW: Holding Company for Water & Wastewater",
-      "water": "Chất lượng nước: Nilwasser mit saisonaler Trübung: glatte PP-Oberflächen minimieren Ablagerung in der Hausinstallation.",
+      "water": "Chất lượng nước: Nước sông Nile có độ đục theo mùa: bề mặt PP nhẵn bóng giúp giảm thiểu cặn lắng trong hệ thống lắp đặt tòa nhà.",
       "focus": [
-        "New Administrative Capital",
-        "Wohnstädte (NUCA)",
-        "Hotel-Korridor Rotes Meer"
+        "Thủ đô Hành chính Mới",
+        "Các thành phố dân cư (NUCA)",
+        "Hành lang khách sạn Biển Đỏ"
       ],
-      "note": "Ghi chú: EOS-Registrierung über lokale Partner; Mittelmeer-Seefracht ab Hamburg 10–14 Tage.",
-      "focusHeading": "Các dự án tiêu biểu tại Kairo",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "note": "Ghi chú: Đăng ký EOS thông qua đối tác địa phương; vận chuyển đường biển Địa Trung Hải từ Hamburg 10–14 ngày.",
+      "focusHeading": "Các dự án tiêu biểu tại Cairo",
+      "extendedMarketText": "Quá trình đô thị hóa nhanh chóng của Ai Cập và các siêu dự án như Thủ đô Hành chính Mới đặt ra những yêu cầu to lớn đối với cơ sở hạ tầng nước hiện đại cho hơn 100 triệu dân. Trước những thách thức khí hậu của Bắc Phi với nhiệt độ cực cao và bão cát cũng như các điều kiện cụ thể ở đồng bằng sông Nile, các vật liệu có khả năng chống chịu cực cao là bắt buộc. Hệ thống PP-R và PPRCT chống ăn mòn của K-Aqua đảm bảo việc cung cấp nước lâu bền và không rò rỉ ngay cả trong những điều kiện môi trường khắc nghiệt này, biến chúng thành lựa chọn lý tưởng cho các dự án xây dựng khổng lồ của Cairo."
     },
     "istanbul": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: İSKİ / TSE-Prüfung",
-      "water": "Chất lượng nước: Talsperrenwasser mit saisonalen Schwankungen: erdbebensicheres, duktiles Rohrverhalten ist Planungskriterium.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: İSKİ / Kiểm định TSE",
+      "water": "Chất lượng nước: Nước hồ chứa có biến động theo mùa: tính năng ống dẻo dai, chống động đất là tiêu chí thiết kế.",
       "focus": [
-        "Hotelkomplexe",
-        "Hochhaus-Wohnbau",
-        "Krankenhaus-Neubauten"
+        "Khu phức hợp khách sạn",
+        "Nhà ở cao tầng",
+        "Xây mới bệnh viện"
       ],
-      "note": "Ghi chú: Flexible Lieferketten über Landweg (5–7 Tage) oder Seefracht.",
+      "note": "Ghi chú: Chuỗi cung ứng linh hoạt qua đường bộ (5–7 ngày) hoặc đường biển.",
       "focusHeading": "Các dự án tiêu biểu tại Istanbul",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "extendedMarketText": "Do hoạt động địa chấn cao tại Istanbul và sự bùng nổ xây dựng liên tục cho các dự án cơ sở hạ tầng xuyên eo biển Bosphorus, các hệ thống đường ống dẻo dai, chống động đất là không thể thiếu. Mối nối hàn nhiệt polyfusion PP-R của K-Aqua chống chịu các rung chấn địa chấn tốt hơn đáng kể so với ống kim loại truyền thống. Ngoài ra, hệ thống của chúng tôi đáp ứng các yêu cầu chứng nhận TSE nghiêm ngặt, khiến chúng trở thành lựa chọn lý tưởng cho các dự án xây dựng khắt khe trên toàn Thổ Nhĩ Kỳ."
     },
     "singapur": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: PUB: Public Utilities Board",
-      "water": "Chất lượng nước: NEWater & entsalztes Wasser, tropische Dauerwärme: höchste Anforderungen an Langzeit-Druckstandfestigkeit.",
+      "water": "Chất lượng nước: NEWater & nước khử muối, nhiệt độ nhiệt đới quanh năm: yêu cầu cao nhất về độ bền áp suất dài hạn.",
       "focus": [
-        "Public Housing (HDB)",
-        "Marina-Hochhäuser",
-        "Halbleiter-Reinstwasser-Vorstufen"
+        "Nhà ở xã hội (HDB)",
+        "Tòa nhà cao tầng Marina",
+        "Tiền xử lý nước siêu tinh khiết cho chất bán dẫn"
       ],
-      "note": "Ghi chú: Seefracht ab Hamburg; vollständige PUB-Einreichunterlagen verfügbar.",
-      "focusHeading": "Các dự án tiêu biểu tại Singapur",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "note": "Ghi chú: Vận chuyển đường biển từ Hamburg; hồ sơ đệ trình PUB đầy đủ có sẵn.",
+      "focusHeading": "Các dự án tiêu biểu tại Singapore",
+      "extendedMarketText": "Khí hậu nhiệt đới quanh năm của Singapore và hệ thống tái chế NEWater đòi hỏi những tiêu chuẩn cao nhất về vệ sinh nước. Các hệ thống K-Aqua PP-RCT chịu áp suất của chúng tôi dễ dàng đáp ứng các quy định nghiêm ngặt của Cơ quan Quản lý Nước PUB. Chúng là giải pháp hoàn hảo cho việc xây dựng các tòa nhà siêu cao tầng tại Vịnh Marina cũng như cho các yêu cầu nước siêu tinh khiết của ngành công nghiệp bán dẫn, vì chúng đảm bảo độ tin cậy tuyệt đối ngay cả trong những điều kiện khắc nghiệt nhất."
     },
     "kualalumpur": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: SPAN: National Water Services Commission",
-      "water": "Chất lượng nước: Tropisches Oberflächenwasser, hohe Umgebungsfeuchte: UV- und alterungsbeständige Systeme sind Standard.",
+      "water": "Chất lượng nước: Nước mặt nhiệt đới, độ ẩm môi trường cao: hệ thống chống tia cực tím và chống lão hóa là tiêu chuẩn.",
       "focus": [
-        "TRX-Finanzdistrikt",
-        "Mixed-Use-Türme",
-        "Industriekorridor Johor"
+        "Khu tài chính TRX",
+        "Tháp phức hợp đa chức năng",
+        "Hành lang công nghiệp Johor"
       ],
-      "note": "Ghi chú: SPAN-Listung über Distributionspartner; ASEAN-Drehkreuz für die Region.",
-      "focusHeading": "Các dự án tiêu biểu tại Kualalumpur",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "note": "Ghi chú: Đăng ký danh mục SPAN thông qua đối tác phân phối; trung tâm ASEAN cho khu vực.",
+      "focusHeading": "Các dự án tiêu biểu tại Kuala Lumpur",
+      "extendedMarketText": "Tại Kuala Lumpur, độ ẩm cực cao và khí hậu gió mùa định hình các yêu cầu đối với hệ thống cơ điện công trình, chẳng hạn như tại khu tài chính TRX hoặc các tháp phức hợp hỗn hợp. Hệ thống PP-R chống tia UV và chống ẩm của K-Aqua đáp ứng một cách đáng tin cậy các quy định nghiêm ngặt của Cơ quan Quản lý Dịch vụ Nước SPAN. Ngay cả trong hành lang công nghiệp mở rộng Johor, các mối hàn nhiệt polyfusion đồng nhất của chúng tôi vẫn đảm bảo độ kín khít trong nhiều thập kỷ, mang lại lợi thế quyết định cho nguồn nước uống hợp vệ sinh dưới nhiệt độ nhiệt đới cao."
     },
     "mumbai": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: BIS: Bureau of Indian Standards",
-      "water": "Chất lượng nước: Monsun-geprägte Talsperrenversorgung mit Intervallbetrieb: druckstoßfeste Schweißverbindungen zählen doppelt.",
+      "water": "Chất lượng nước: Nguồn cấp từ hồ chứa theo mùa gió mùa với vận hành ngắt quãng: mối hàn chịu búa nước có giá trị gấp bội.",
       "focus": [
-        "High-Rise Redevelopment",
-        "Krankenhaus- & Pharmabau",
-        "Smart-Cities-Programm"
+        "Tái phát triển nhà cao tầng",
+        "Xây dựng Bệnh viện & Dược phẩm",
+        "Chương trình Thành phố Thông minh"
       ],
-      "note": "Ghi chú: BIS-Konformität projektbezogen; technische Schulung remote + vor Ort.",
+      "note": "Ghi chú: Tuân thủ BIS theo từng dự án; đào tạo kỹ thuật từ xa và tại chỗ.",
       "focusHeading": "Các dự án tiêu biểu tại Mumbai",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "extendedMarketText": "Hệ thống cấp nước chịu ảnh hưởng của gió mùa tại Mumbai thường phải đối mặt với áp suất gián đoạn, làm tăng cực cao nguy cơ búa nước (Water Hammer) trong hệ thống đường ống. Do đó, trong việc hiện đại hóa các tòa nhà cao tầng và khuôn khổ chương trình Thành phố Thông minh (Smart Cities), các nhà quy hoạch tin dùng các mối hàn chịu xung áp của K-Aqua theo tiêu chuẩn BIS. Ngành dược phẩm và bệnh viện đang phát triển mạnh mẽ của đại đô thị cũng hưởng lợi từ các giải pháp PP-R siêu tinh khiết và kín khít tuyệt đối của chúng tôi, hoạt động an toàn ngay cả khi mạng lưới cấp nước có sự dao động lớn."
     },
     "kapstadt": {
-      "regulator": "Tiêu chuẩn / Cơ quan quản lý: SABS / SANS-Normenwerk",
-      "water": "Chất lượng nước: Wasserknappheit nach „Day Zero\": leckagefreie Schweißverbindungen sind hier Wassersparpolitik.",
+      "regulator": "Tiêu chuẩn / Cơ quan quản lý: Hệ thống tiêu chuẩn SABS / SANS",
+      "water": "Chất lượng nước: Tình trạng khan hiếm nước sau sự kiện „Day Zero\": các mối nối hàn không rò rỉ là chính sách tiết kiệm nước tại đây.",
       "focus": [
-        "Krankenhaus- & Hotelbau",
-        "Township-Infrastruktur",
-        "Weingut-Prozesswasser"
+        "Xây dựng Bệnh viện & Khách sạn",
+        "Cơ sở hạ tầng khu dân cư đô thị",
+        "Nước quy trình cho nhà máy rượu vang"
       ],
-      "note": "Ghi chú: Projektgeschäft mit lokalem Partnernetz; Schulung der Schweißteams inklusive.",
-      "focusHeading": "Các dự án tiêu biểu tại Kapstadt",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "note": "Ghi chú: Kinh doanh dự án với mạng lưới đối tác địa phương; bao gồm đào tạo các đội hàn.",
+      "focusHeading": "Các dự án tiêu biểu tại Cape Town",
+      "extendedMarketText": "Dưới bóng đen của cuộc khủng hoảng nước 'Day Zero', việc ngăn chặn thất thoát nước tại Cape Town không chỉ là vấn đề kỹ thuật mà còn là sự cần thiết sống còn. Mối nối hàn nhiệt polyfusion hoàn toàn không rò rỉ của hệ thống K-Aqua hỗ trợ trực tiếp chính sách tiết kiệm nước nghiêm ngặt của khu vực và đáp ứng các tiêu chuẩn SABS/SANS cao nhất. Dù là mở rộng cơ sở hạ tầng các khu dân cư hay cho nguồn nước quy trình khắt khe tại các trang trại rượu vang ở Western Cape – các giải pháp PP-R và PPRCT của chúng tôi ngăn ngừa các vụ rò rỉ tốn kém nhờ đặc tính không bị ăn mòn. Điều này biến chúng thành lựa chọn an toàn nhất cho việc cấp nước bền vững trong điều kiện khắc nghiệt."
     },
     "nairobi": {
       "regulator": "Tiêu chuẩn / Cơ quan quản lý: KEBS: Kenya Bureau of Standards",
-      "water": "Chất lượng nước: Talsperren- und Grundwasser-Mix in schnell wachsender Metropole: robuste, einfach schulbare Verbindungstechnik gefragt.",
+      "water": "Chất lượng nước: Hỗn hợp nước hồ chứa và nước ngầm tại đại đô thị phát triển nhanh: công nghệ kết nối mạnh mẽ, dễ đào tạo là cần thiết.",
       "focus": [
-        "Affordable-Housing-Programm",
-        "Tatu City",
-        "Kranken- & Bildungsbauten"
+        "Chương trình Nhà ở Giá cả phải chăng",
+        "Đô thị Tatu City",
+        "Công trình Y tế & Giáo dục"
       ],
-      "note": "Ghi chú: Ostafrika-Hub: Lieferung via Mombasa; Schweißtraining als Capacity Building.",
+      "note": "Ghi chú: Trung tâm Đông Phi: giao hàng qua Mombasa; đào tạo hàn nâng cao năng lực địa phương.",
       "focusHeading": "Các dự án tiêu biểu tại Nairobi",
-      "extendedMarketText": "Die städtische Infrastruktur in dieser Region stellt besondere Anforderungen an die Langlebigkeit und Zuverlässigkeit von Rohrleitungssystemen. Mit extremen klimatischen Bedingungen und hohen Anforderungen an die Wasserhygiene bieten PP-R und PPRCT-Lösungen von K-Aqua einen entscheidenden Vorteil. Traditionelle metallische Rohre leiden oft unter Korrosion und Mineralablagerungen, was zu erheblichen Druckverlusten und Wasserverschwendung durch Leckagen führt. K-Aqua Systeme hingegen garantieren dank ihrer korrosionsfreien Materialbeschaffenheit und der homogenen Polyfusionsschweißung eine absolut dichte, wartungsfreie Installation für über 50 Jahre. Darüber hinaus ermöglicht die glatte Innenoberfläche optimale hydraulische Fließeigenschaften, wodurch der Energiebedarf für Umwälzpumpen drastisch gesenkt wird. Diese Faktoren machen K-Aqua zur bevorzugten Wahl für groß angelegte Hotelkomplexe, Krankenhäuser, industrielle Kühlanlagen und anspruchsvolle Wohnbauprojekte im urbanen Sektor."
+      "extendedMarketText": "Trước sự gia tăng dân số nhanh chóng ở Đông Phi, các dự án quy mô lớn như Chương trình Nhà ở Giá cả phải chăng của Kenya và Thành phố Thông minh Tatu City đòi hỏi các giải pháp nhanh chóng, có thể mở rộng và bền bỉ. K-Aqua không chỉ cung cấp các hệ thống đường ống mạnh mẽ được chứng nhận theo tiêu chuẩn KEBS mà còn chú trọng vào việc nâng cao năng lực địa phương. Kỹ thuật hàn dễ học của chúng tôi cho phép đào tạo hiệu quả lực lượng lao động địa phương ngay tại công trường. Bằng cách này, chúng tôi đảm bảo việc mở rộng nhanh chóng và đáng tin cậy cơ sở hạ tầng nước đô thị tại đại đô thị năng động của Kenya."
     }
   },
   "markets": {
@@ -7807,411 +8054,411 @@
   "academy": {
     "schulungen": {
       "meta": {
-        "title": "Schulungen | K Aqua",
-        "desc": "K Aqua Schulungen: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Nehmen Sie an unseren Expertenschulungen teil."
+        "title": "Đào tạo | K Aqua",
+        "desc": "Đào tạo K Aqua: An toàn không thỏa hiệp nhờ German Engineering cho các siêu dự án toàn cầu. Tham gia các khóa đào tạo chuyên gia của chúng tôi."
       },
       "hero": {
         "eyebrow": "GERMAN ENGINEERING ACADEMY",
-        "title1": "Prüfung der",
-        "title2": "Industriellen Elite.",
-        "desc": "Das K Aqua Schulungsprogramm ist keine gewöhnliche Weiterbildung. Es ist die Initiation in die kompromisslose Welt des deutschen Rohrleitungsbaus. Für Ingenieure und Techniker, die Megaprojekte verantworten, in denen Materialversagen keine Option, sondern eine absolute Katastrophe darstellt. Wir lehren in Mikrometern, wir denken in Jahrzehnten.",
-        "cta1": "Akademie-Bewerbung starten",
-        "cta2": "Curriculum einsehen"
+        "title1": "Kỳ sát hạch của",
+        "title2": "Giới tinh hoa công nghiệp.",
+        "desc": "Chương trình đào tạo K Aqua không phải là khóa học bồi dưỡng thông thường. Đó là sự gia nhập vào thế giới không khoan nhượng của ngành xây lắp đường ống Đức. Dành cho các kỹ sư và kỹ thuật viên chịu trách nhiệm về các siêu dự án, nơi mà sự cố vật liệu không phải là một lựa chọn, mà là một thảm họa tuyệt đối. Chúng tôi đào tạo theo từng micromet, chúng tôi tư duy theo nhiều thập kỷ.",
+        "cta1": "Bắt đầu đăng ký học viện",
+        "cta2": "Xem chương trình giảng dạy"
       },
       "manifesto": {
-        "title1": "Präzision",
-        "title2": "ist <span className=\"text-primary\">kein</span>",
-        "title3": "Zufall.",
-        "p1": "Sie ist das Resultat unerbittlicher Methodik und eiskalter, industrieller Disziplin. Wenn Tausende Kubikmeter Wasser unter enormem Druck durch die Lebensadern eines 100-stöckigen Hochhauses gepumpt werden, gibt es keinen Spielraum für Näherungswerte oder Interpretationen.",
-        "p2": "Das K Aqua Schulungsprogramm wurde entwickelt, um die Lücke zwischen theoretischem Wissen und fehlerfreier, maschineller Perfektion zu schließen. Wer in unserer Akademie trainiert wird, agiert nicht mehr als bloßer Handwerker. Er wird zum ausführenden Organ eines perfekten, deterministischen Systems."
+        "title1": "Sự chính xác",
+        "title2": "<span className=\"text-primary\">không phải</span> là",
+        "title3": "Ngẫu nhiên.",
+        "p1": "Đó là kết quả của phương pháp luận kiên định và kỷ luật công nghiệp nghiêm ngặt. Khi hàng nghìn mét khối nước dưới áp lực khổng lồ được bơm qua các huyết mạch của tòa nhà chọc trời 100 tầng, không có chỗ cho các giá trị xấp xỉ hoặc suy đoán.",
+        "p2": "Chương trình đào tạo K Aqua được phát triển nhằm thu hẹp khoảng cách giữa kiến thức lý thuyết và sự hoàn hảo tuyệt đối của máy móc. Những người được đào tạo tại học viện của chúng tôi không còn hành động như những người thợ thủ công đơn thuần. Họ trở thành cơ quan thực thi của một hệ thống tất định, hoàn hảo."
       },
       "bento": {
-        "eyebrow": "DIE SÄULEN DER AUTORITÄT",
-        "title": "Wissen als absolute Waffe.",
-        "lead": "Unsere technischen Schulungsmodule sind nicht dafür konzipiert, es Ihnen leicht zu machen. Sie sind dafür konzipiert, Fehler gnadenlos auszumerzen.",
+        "eyebrow": "CÁC TRỤ CỘT CỦA UY TÍN",
+        "title": "Tri thức là vũ khí tối thượng.",
+        "lead": "Các mô-đun đào tạo kỹ thuật của chúng tôi không được thiết kế để làm mọi việc trở nên dễ dàng. Chúng được thiết kế để loại bỏ triệt để mọi sai sót.",
         "items": [
           {
-            "title": "Homogene Materialverschmelzung",
-            "desc": "Jenseits von Verklebungen oder instabilen mechanischen Dichtungen. Wir trainieren die exakte Kalibrierung von Temperatur, Druck und Zeit, um Rohre und Fittings auf molekularer Ebene zu einer untrennbaren, monolithischen Struktur zu verschmelzen."
+            "title": "Nóng chảy vật liệu đồng nhất",
+            "desc": "Vượt xa việc dán keo hoặc gioăng cơ học không ổn định. Chúng tôi huấn luyện việc hiệu chuẩn chính xác nhiệt độ, áp suất và thời gian để hợp nhất ống và phụ kiện ở cấp độ phân tử thành một cấu trúc nguyên khối không thể tách rời."
           },
           {
-            "title": "Destruktive Analytik",
-            "desc": "Um die Grenzen zu verstehen, muss man sie überschreiten. Praxis-Module in unseren Hochdruck-Prüfständen mit Berstdrücken weit jenseits der 100 Bar. Wir analysieren das Versagen, um es in der Praxis auszuschließen."
+            "title": "Phân tích phá hủy",
+            "desc": "Để hiểu được các giới hạn, người ta phải vượt qua chúng. Các mô-đun thực hành trong các bệ thử nghiệm áp suất cao của chúng tôi với áp suất nổ vượt xa 100 bar. Chúng tôi phân tích các hỏng hóc để loại trừ chúng trong thực tế."
           },
           {
-            "title": "Thermische Längenausdehnung",
-            "desc": "Eiskalte Kompensation von Temperaturschwankungen in Großprojekten durch präzise berechnete Dehnungsbögen und Festpunkt-Systeme."
+            "title": "Giãn nở nhiệt tuyến tính",
+            "desc": "Bù trừ nhiệt độ một cách tuyệt đối trong các dự án lớn thông qua các cung giãn nở và hệ thống điểm cố định được tính toán chính xác."
           },
           {
-            "title": "Aggressive Medien & pH-Stabilität",
-            "desc": "Tiefen-Analyse der Widerstandsfähigkeit gegen hochkonzentrierte industrielle Chemikalien. Die Akademie vermittelt tiefgehende Kenntnisse zur Materialermüdung unter chemischer Dauerbelastung und radikalen pH-Verschiebungen."
+            "title": "Môi chất xâm thực & độ ổn định pH",
+            "desc": "Phân tích chuyên sâu về khả năng chống chịu hóa chất công nghiệp nồng độ cao. Học viện cung cấp kiến thức chuyên sâu về độ mỏi vật liệu dưới tải trọng hóa chất liên tục và sự thay đổi pH đột ngột."
           }
         ]
       },
       "typography": {
-        "t1": "NULL-FEHLER",
-        "t2": "TOLERANZ."
+        "t1": "KHÔNG SAI SÓT",
+        "t2": "DUNG SAI."
       },
       "curriculum": {
-        "eyebrow": "DAS CURRICULUM",
-        "title": "Akademische Kompromisslosigkeit.",
-        "lead": "Vier Module. Eine Doktrin. Jedes Segment unseres Curriculums ist darauf ausgerichtet, Schwächen in der Ausführung zu identifizieren und systemisch zu vernichten."
+        "eyebrow": "CHƯƠNG TRÌNH GIẢNG DẠY",
+        "title": "Sự kiên định trong học thuật.",
+        "lead": "Bốn mô-đun. Một nguyên tắc. Mỗi phần trong chương trình giảng dạy của chúng tôi được thiết kế để xác định và loại bỏ một cách có hệ thống các điểm yếu trong quá trình thi công."
       },
       "sticky": {
         "items": [
           {
-            "title": "Modul Alpha: Strömungsmechanik & Kinetik",
-            "desc": "Die Mathematik des Wassers. Wir zerlegen komplexe Kavitationseffekte und Druckschlag-Szenarien in berechenbare Variablen. Sie lernen, hydrodynamische Schocksymptome nicht nur zu dämpfen, sondern systemisch zu eliminieren. Für Rohrnetze, die in völliger, geräuschloser Perfektion operieren."
+            "title": "Mô-đun Alpha: Cơ học dòng chảy & Động học",
+            "desc": "Toán học của nước. Chúng tôi phân tích các hiệu ứng xâm thực phức tạp và các kịch bản búa nước thành các biến số có thể tính toán được. Bạn sẽ học cách không chỉ giảm thiểu các xung động thủy động lực mà còn loại bỏ chúng một cách có hệ thống. Cho các mạng lưới đường ống vận hành trong sự hoàn hảo tuyệt đối và êm ái."
           },
           {
-            "title": "Modul Beta: Parametrisches Leitungsdesign",
-            "desc": "Der Entwurf von Rohrleitungssystemen als algorithmische Disziplin. Die Schulung beinhaltet den Einsatz modernster CAD/BIM-Tools zur Kollisionsprüfung und zur Optimierung der Materialausnutzung. Keine Schätzung. Reine, eiskalte Berechnung."
+            "title": "Mô-đun Beta: Thiết kế đường ống tham số",
+            "desc": "Thiết kế hệ thống đường ống như một bộ môn thuật toán. Khóa đào tạo bao gồm việc sử dụng các công cụ CAD/BIM hiện đại nhất để kiểm tra va chạm và tối ưu hóa việc sử dụng vật liệu. Không ước tính. Tính toán thuần túy, chính xác tuyệt đối."
           },
           {
-            "title": "Modul Gamma: Hygiene-Architektur & Mikrobiologie",
-            "desc": "Legionellenprävention auf strukturellem Level. Wie man Totleitungen vermeidet, Stagnationszonen auslöscht und Wassertemperatur-Schichtungen in komplexen Ringleitungs-Systemen kontrolliert. Das System diktiert die Reinheit, wir überlassen nichts dem Zufall."
+            "title": "Mô-đun Gamma: Kiến trúc vệ sinh & Vi sinh học",
+            "desc": "Phòng chống vi khuẩn Legionella ở cấp độ cấu trúc. Cách tránh các đoạn ống chết, loại bỏ các vùng nước đọng và kiểm soát sự phân tầng nhiệt độ nước trong các hệ thống mạch vòng phức tạp. Hệ thống quy định độ tinh khiết, chúng tôi không để bất cứ điều gì cho sự ngẫu nhiên."
           },
           {
-            "title": "Modul Delta: Das finale K Aqua Audit",
-            "desc": "Prüfung ist kein Recht, sie ist ein Privileg. Die Prüfung verlangt die Konstruktion und theoretische Verteidigung eines autarken Wasserversorgungs-Systems unter simulierten Extrembedingungen (z. B. seismische Aktivität, 50°C Außentemperatur). Nur wer absolute Fehlerfreiheit beweist, trägt das K Aqua Zertifikat."
+            "title": "Mô-đun Delta: Kiểm toán K Aqua cuối khóa",
+            "desc": "Kỳ thi không phải là một quyền, đó là một đặc ân. Kỳ thi đòi hỏi việc thiết kế và bảo vệ lý thuyết một hệ thống cấp nước tự chủ trong các điều kiện khắc nghiệt mô phỏng (ví dụ: hoạt động địa chấn, nhiệt độ ngoài trời 50°C). Chỉ những ai chứng minh được sự hoàn hảo không tì vết mới nhận được chứng chỉ K Aqua."
           }
         ]
       },
       "timeline": {
-        "title": "Der Zertifizierungs-Pfad.",
-        "desc": "Die Transformation vom Installateur zum geprüften K Aqua Master-Engineer folgt einem strikten, unerbittlichen Rhythmus. Nur wer diesen Pfad bis zum Ende geht, erhält die Autorisation für unsere Hochleistungs-Systeme.",
+        "title": "Lộ trình cấp chứng chỉ.",
+        "desc": "Hành trình chuyển đổi từ một thợ lắp đặt thành Kỹ sư K Aqua Master được chứng nhận tuân theo một nhịp độ nghiêm ngặt, kiên định. Chỉ những ai đi hết con đường này mới nhận được sự ủy quyền cho các hệ thống hiệu suất cao của chúng tôi.",
         "items": [
           {
-            "year": "PHASE 01",
-            "title": "Materialphysik & Onboarding",
-            "text": "Das Begreifen der physikalischen Limits. Eine tiefgreifende Einführung in die molekularen PP-R/PPRCT Werkstoff-Spezifikationen. Hier wird das Fundament der industriellen Härte gegossen."
+            "year": "GIAI ĐOẠN 01",
+            "title": "Vật lý vật liệu & Nhập môn",
+            "text": "Thấu hiểu các giới hạn vật lý. Giới thiệu chuyên sâu về thông số kỹ thuật vật liệu phân tử PP-R/PPRCT. Nền tảng của độ bền công nghiệp được đúc kết tại đây."
           },
           {
-            "year": "PHASE 02",
-            "title": "Laboratorium & Belastungstests",
-            "text": "Hands-on Zerstörung. Das Erleben der Berstgrenze im Prüfstand und das Studium mikroskopischer Rissbildungen. Nur wer die Schwäche kennt, kann die absolute Stärke konstruieren."
+            "year": "GIAI ĐOẠN 02",
+            "title": "Phòng thí nghiệm & Thử nghiệm tải trọng",
+            "text": "Trải nghiệm phá hủy thực tế. Trải nghiệm giới hạn nổ trên bệ thử nghiệm và nghiên cứu sự hình thành vết nứt vi mô. Chỉ người hiểu rõ điểm yếu mới có thể kiến tạo sức mạnh tuyệt đối."
           },
           {
-            "year": "PHASE 03",
-            "title": "Fusions-Doktrin",
-            "text": "Das perfekte Schweißprotokoll. Mechanisches Training der thermodynamischen Bewegungsabläufe bis zum unfehlbaren, muskulären Automatismus. Jeder Handgriff ist kalibriert."
+            "year": "GIAI ĐOẠN 03",
+            "title": "Học thuyết liên kết hàn",
+            "text": "Quy trình hàn hoàn hảo. Huấn luyện cơ học các chuỗi chuyển động nhiệt động lực học cho đến khi đạt được phản xạ cơ bắp chuẩn xác, không sai sót. Từng thao tác đều được hiệu chuẩn."
           },
           {
-            "year": "PHASE 04",
-            "title": "System-Architektur",
-            "text": "Skalierung vom einfachen Rohrsegment zur Infrastruktur eines Wolkenkratzers. Wir exekutieren Druckverlusttabellen, Fließgeschwindigkeiten und Strömungsteiler mit eiserner Logik."
+            "year": "GIAI ĐOẠN 04",
+            "title": "Kiến trúc hệ thống",
+            "text": "Mở rộng quy mô từ một đoạn ống đơn giản đến cơ sở hạ tầng của một tòa nhà chọc trời. Chúng tôi thực thi các bảng tổn thất áp suất, lưu tốc dòng chảy và bộ chia dòng với logic thép."
           },
           {
-            "year": "PHASE 05",
-            "title": "Die Meisterprüfung",
-            "text": "Ein 48-stündiges Audit unter der gnadenlosen Aufsicht der deutschen Chef-Ingenieure. Keine Toleranz für Fehlkalkulationen. Ein Fehler bedeutet den sofortigen Ausschluss."
+            "year": "GIAI ĐOẠN 05",
+            "title": "Kỳ thi Bậc thầy (Meisterprüfung)",
+            "text": "Đợt kiểm toán 48 giờ dưới sự giám sát nghiêm ngặt của các kỹ sư trưởng người Đức. Không dung thứ cho các tính toán sai lệch. Một lỗi đồng nghĩa với việc bị loại ngay lập tức."
           }
         ]
       },
       "spec": {
-        "eyebrow": "GLOBALER STANDARD",
-        "title": "Die globale Benchmark für Sicherheit.",
-        "desc": "Unsere Prüfung ist nicht nur ein Stück Papier. Sie ist ein in Titan gegossenes Versprechen an Bauherren und Investoren weltweit. Wo das K Aqua Zertifikat vorliegt, wurde die Installation nach den strengsten deutschen Ingenieurs-Standards durchgeführt.",
+        "eyebrow": "TIÊU CHUẨN TOÀN CẦU",
+        "title": "Tiêu chuẩn toàn cầu về an toàn.",
+        "desc": "Kỳ thi của chúng tôi không chỉ là một tờ giấy. Đó là lời hứa vững chắc như titan gửi tới các chủ đầu tư và nhà đầu tư trên toàn thế giới. Nơi nào có chứng chỉ K Aqua, nơi đó việc lắp đặt đã được thực hiện theo các tiêu chuẩn kỹ thuật nghiêm ngặt nhất của Đức.",
         "items": [
           {
-            "title": "Internationale Gültigkeit",
-            "text": "Anerkannt von den weltweit führenden Bau- und Aufsichtsbehörden."
+            "title": "Hiệu lực quốc tế",
+            "text": "Được công nhận bởi các cơ quan giám sát và xây dựng hàng đầu thế giới."
           },
           {
-            "title": "Audit-Transparenz",
-            "text": "Lückenlose, digitale Dokumentation jedes Schweißvorgangs."
+            "title": "Minh bạch kiểm toán",
+            "text": "Tài liệu kỹ thuật số liền mạch cho từng quy trình hàn."
           },
           {
-            "title": "Lebenslange Autorität",
-            "text": "Einmal erworben, zeichnet es den Engineer als Teil einer elitären Kaste aus."
+            "title": "Uy tín trọn đời",
+            "text": "Khi đã đạt được, chứng chỉ khẳng định kỹ sư là một phần của tầng lớp tinh hoa."
           }
         ]
       },
       "cta": {
-        "title1": "Bereit für die",
-        "title2": "absolute Kontrolle?",
-        "desc": "Unterwerfen Sie sich dem Maßstab deutscher Ingenieurskunst. Senden Sie uns Ihr Profil oder fordern Sie die Spezifikationen für firmeninterne Audits an.",
-        "button": "Bewerbung initiieren"
+        "title1": "Sẵn sàng cho sự",
+        "title2": "kiểm soát tuyệt đối?",
+        "desc": "Hãy tuân theo tiêu chuẩn của kỹ thuật Đức. Hãy gửi hồ sơ của bạn cho chúng tôi hoặc yêu cầu các thông số kỹ thuật cho các cuộc kiểm toán nội bộ công ty.",
+        "button": "Bắt đầu nộp đơn"
       },
       "title": "Đào tạo & Hội thảo"
     },
     "zertifizierung": {
       "meta": {
-        "title": "Zertifikate & Normen | K Aqua",
-        "desc": "DVGW, SKZ, ISO und mehr. Entdecken Sie die kompromisslose Sicherheit und German Engineering-Qualität der K Aqua Rohrleitungssysteme."
+        "title": "Chứng chỉ & Tiêu chuẩn | K Aqua",
+        "desc": "DVGW, SKZ, ISO và hơn thế nữa. Khám phá sự an toàn không thỏa hiệp và chất lượng German Engineering của hệ thống đường ống K Aqua."
       },
       "hero": {
         "eyebrow": "German Engineering Standards",
-        "title1": "Zertifikate.",
+        "title1": "Chứng chỉ.",
         "title2": "Engineered in Germany.",
-        "desc": "Dieses Modul liefert kompromisslose Sicherheit für die anspruchsvollsten Projekte weltweit. Gefertigt nach den strengsten Industriestandards, um Generationen zu überdauern. Weil Materialversagen niemals eine Option ist.",
-        "cta1": "Projekt anfragen",
-        "cta2": "Technisches Handbuch"
+        "desc": "Mô-đun này mang lại sự an toàn không thỏa hiệp cho các dự án khắt khe nhất trên toàn thế giới. Được sản xuất theo các tiêu chuẩn công nghiệp nghiêm ngặt nhất để tồn tại qua nhiều thế hệ. Bởi vì sự cố vật liệu không bao giờ là một lựa chọn.",
+        "cta1": "Yêu cầu dự án",
+        "cta2": "Sổ tay kỹ thuật"
       },
       "manifesto": {
-        "title1": "Ein Zertifikat ist nur Papier.",
-        "title2": "Der Prozess dahinter ist aus Stahl.",
-        "p1": "Viele Hersteller sehen Normen als das ultimative Ziel. Wir sehen sie als die absolute Untergrenze. Unsere internen Toleranzen sind um ein Vielfaches strenger als das, was DVGW, ISO oder SKZ verlangen. Wenn ein K Aqua Rohr unser Werk verlässt, wurde es auf Molekularebene analysiert, mit extremen Drücken gefoltert und thermisch ans absolute Limit getrieben."
+        "title1": "Chứng chỉ chỉ là một tờ giấy.",
+        "title2": "Quy trình đằng sau nó được đúc bằng thép.",
+        "p1": "Nhiều nhà sản xuất coi tiêu chuẩn là mục tiêu cuối cùng. Chúng tôi coi đó là giới hạn thấp nhất tuyệt đối. Dung sai nội bộ của chúng tôi nghiêm ngặt hơn nhiều lần so với yêu cầu của DVGW, ISO hay SKZ. Khi một ống K Aqua rời khỏi nhà máy, nó đã được phân tích ở cấp độ phân tử, chịu thử nghiệm với áp suất khắc nghiệt và bị đẩy đến giới hạn nhiệt tuyệt đối."
       },
       "bento": {
-        "eyebrow": "Die Säulen der Sicherheit",
-        "title": "Die DNA eines perfekten Rohrsystems.",
-        "lead": "Wenn internationale Generalunternehmer Milliardenprojekte planen, vertrauen sie nicht auf Marketing-Versprechen. Sie verlangen harte, physikalisch messbare Fakten.",
+        "eyebrow": "Các trụ cột an toàn",
+        "title": "DNA của một hệ thống đường ống hoàn hảo.",
+        "lead": "Khi các tổng thầu quốc tế lên kế hoạch cho các dự án hàng tỷ đô la, họ không tin vào những lời hứa tiếp thị. Họ đòi hỏi những sự thật cứng rắn, có thể đo lường về mặt vật lý.",
         "items": [
           {
-            "title": "Extreme Druckbeständigkeit",
-            "desc": "geprüft für Dauerbelastungen bis PN20/PN25. Unsere Berstdrucktests beweisen Reserven, die weit jenseits der Normen liegen. Rohrbrüche gehören der Vergangenheit an."
+            "title": "Chịu áp lực cực cao",
+            "desc": "Được kiểm nghiệm cho tải trọng liên tục lên đến PN20/PN25. Các thử nghiệm áp suất nổ của chúng tôi chứng minh mức dự phòng vượt xa các tiêu chuẩn. Vỡ ống đã là chuyện của quá khứ."
           },
           {
-            "title": "Thermische Souveränität",
-            "desc": "Dauerhaft beständig von -20°C bis +95°C. Kein Materialermüden, keine strukturelle Schwächung, auch bei extremen thermischen Schocks."
+            "title": "Chủ động về nhiệt",
+            "desc": "Bền vững liên tục từ -20°C đến +95°C. Không mỏi vật liệu, không suy giảm cấu trúc, ngay cả khi gặp các cú sốc nhiệt khắc nghiệt."
           },
           {
-            "title": "Absolute Hygiene",
-            "desc": "Keine Korrosion. Keine Inkrustation. Lebensmittelecht, toxikologisch unbedenklich und resistent gegen Legionellen-Wachstum."
+            "title": "Vệ sinh tuyệt đối",
+            "desc": "Không ăn mòn. Không đóng cặn. An toàn thực phẩm, vô hại về độc học và kháng lại sự phát triển của vi khuẩn Legionella."
           },
           {
-            "title": "Brandschutz (B1/B2)",
-            "desc": "Klassifiziert nach DIN 4102. Schwer entflammbar und minimale Rauchentwicklung für höchste Sicherheit in kritischen Gebäudeinfrastrukturen."
+            "title": "Chống cháy (B1/B2)",
+            "desc": "Được phân loại theo DIN 4102. Khó bắt cháy và phát sinh khói tối thiểu để đảm bảo an toàn cao nhất trong cơ sở hạ tầng công trình trọng yếu."
           },
           {
-            "title": "Lebenszyklus-Garantie",
-            "desc": "Eine definierte Lebensdauer von 50 Jahren nach strengster ISO-Norm. In der architektonischen Realität jedoch gebaut, um ganze Generationen zu überdauern."
+            "title": "Bảo hành vòng đời",
+            "desc": "Tuổi thọ được xác định là 50 năm theo tiêu chuẩn ISO nghiêm ngặt nhất. Tuy nhiên, trong thực tế kiến trúc, hệ thống được chế tạo để tồn tại qua nhiều thế hệ."
           }
         ]
       },
       "certifications": {
-        "eyebrow": "Die Instanzen",
-        "title": "Die härtesten Prüfer der Welt.",
-        "lead": "Nur wer die kritischsten externen Audits besteht, darf das Label 'German Engineering' tragen. Hier sind die Institutionen, die unsere Qualität validieren.",
+        "eyebrow": "Các cơ quan thẩm quyền",
+        "title": "Những cơ quan kiểm định khắt khe nhất thế giới.",
+        "lead": "Chỉ những ai vượt qua các cuộc kiểm toán bên ngoài khắt khe nhất mới được mang nhãn hiệu 'German Engineering'. Dưới đây là các tổ chức xác nhận chất lượng của chúng tôi.",
         "items": [
           {
-            "title": "DVGW: Die höchste Instanz",
-            "p1": "Der Deutsche Verein des Gas- und Wasserfaches (DVGW) setzt den weltweit strengsten Standard für Trinkwasserhygiene und Materialbeständigkeit.",
-            "p2": "Unsere DVGW-Prüfung garantiert, dass K Aqua Rohrsysteme unter extremen Bedingungen weder toxische Stoffe abgeben noch mikrobiologisches Wachstum fördern. Jede Charge durchläuft hydrostatische Langzeittests (Zeitstand-Innendruckprüfung) bei 95°C."
+            "title": "DVGW: Cơ quan thẩm quyền cao nhất",
+            "p1": "Hiệp hội Ngành Khí đốt và Nước của Đức (DVGW) thiết lập tiêu chuẩn nghiêm ngặt nhất thế giới về vệ sinh nước uống và độ bền vật liệu.",
+            "p2": "Kiểm định DVGW của chúng tôi đảm bảo rằng hệ thống ống K Aqua dưới các điều kiện khắc nghiệt không giải phóng chất độc hại cũng như không thúc đẩy sự phát triển của vi sinh vật. Mỗi lô hàng đều trải qua các thử nghiệm thủy tĩnh dài hạn (thử nghiệm áp suất thủy tĩnh bên trong) ở 95°C."
           },
           {
-            "title": "SKZ: Unabhängige Überwachung",
-            "p1": "Das Süddeutsche Kunststoff-Zentrum (SKZ) fungiert als unser unbestechlicher Auditor. Externe Fremdüberwachung sichert das ab, was unsere internen Labore bereits vorgeben.",
-            "p2": "Geprüft werden Kerbschlagzähigkeit, Zugfestigkeit und das thermische Verhalten mittels DSC-Analyse (Dynamic Scanning Calorimetry). Das SKZ-Zeichen ist der Beweis für mechanische Perfektion, weit über die DIN EN ISO 15874 hinaus."
+            "title": "SKZ: Giám sát độc lập",
+            "p1": "Trung tâm Nhựa Nam Đức (SKZ) đóng vai trò là cơ quan kiểm toán độc lập, khách quan của chúng tôi. Việc giám sát độc lập bên ngoài đảm bảo những gì mà các phòng thí nghiệm nội bộ của chúng tôi đã đặt ra.",
+            "p2": "Các chỉ tiêu được kiểm tra gồm độ bền va đập khía, độ bền kéo và ứng xử nhiệt thông qua phân tích DSC (Quét nhiệt vi sai). Dấu chứng nhận SKZ là minh chứng cho sự hoàn hảo về cơ học, vượt xa tiêu chuẩn DIN EN ISO 15874."
           },
           {
-            "title": "KTW-BWGL: Absolute Reinheit",
-            "p1": "Die Bewertungsgrundlage für Kunststoffe und andere organische Materialien im Kontakt mit Trinkwasser (Umweltbundesamt).",
-            "p2": "Wir verwenden ausschließlich hochreines Polypropylen (PP-R / PPRCT) ohne schädliche Additive oder Schwermetalle. Das Ergebnis? Quellwasserqualität direkt aus dem Hahn. Keine Geruchs-, keine Geschmacksbeeinträchtigung."
+            "title": "KTW-BWGL: Độ tinh khiết tuyệt đối",
+            "p1": "Cơ sở đánh giá đối với chất dẻo và các vật liệu hữu cơ khác tiếp xúc với nước uống (Cơ quan Môi trường Liên bang Đức - UBA).",
+            "p2": "Chúng tôi chỉ sử dụng Polypropylene độ tinh khiết cao (PP-R / PPRCT) không chứa phụ gia độc hại hoặc kim loại nặng. Kết quả? Chất lượng nước nguồn tinh khiết trực tiếp từ vòi. Không mùi, không ảnh hưởng đến vị."
           },
           {
-            "title": "ISO 9001 & 14001: Systematische Exzellenz",
-            "p1": "Qualität ist kein Zufall, sondern ein absolut reproduzierbarer Prozess. Unsere ISO 9001 Prüfung belegt ein lückenloses Qualitätsmanagement von der Rohstoffannahme bis zur weltweiten Warenauslieferung.",
-            "p2": "Mit ISO 14001 beweisen wir, dass industrielle Höchstleistung und ökologische Verantwortung Hand in Hand gehen. Minimierter Energieverbrauch, effiziente Ressourcennutzung und die 100%ige Recyclingfähigkeit unserer PP-Produkte."
+            "title": "ISO 9001 & 14001: Sự xuất sắc có hệ thống",
+            "p1": "Chất lượng không phải là ngẫu nhiên, mà là một quy trình có thể tái lập tuyệt đối. Chứng nhận ISO 9001 của chúng tôi chứng minh hệ thống quản lý chất lượng liền mạch từ tiếp nhận nguyên liệu thô đến giao hàng toàn cầu.",
+            "p2": "Với ISO 14001, chúng tôi chứng minh rằng hiệu suất công nghiệp cao nhất và trách nhiệm sinh thái luôn song hành. Giảm thiểu tiêu thụ năng lượng, sử dụng tài nguyên hiệu quả và khả năng tái chế 100% các sản phẩm PP của chúng tôi."
           }
         ]
       },
       "lab": {
         "eyebrow": "Inside the Lab",
-        "title1": "Die Anatomie",
-        "title2": "der Perfektion.",
-        "desc": "Bevor ein K Aqua System das Werk verlässt, muss es durch unser Inhouse-Testzentrum. Eine hochgerüstete Anlage, in der wir Materialien Bedingungen aussetzen, die sie in der Realität niemals erleben werden.",
+        "title1": "Giải phẫu học",
+        "title2": "của sự hoàn hảo.",
+        "desc": "Trước khi một hệ thống K Aqua rời khỏi nhà máy, nó phải đi qua trung tâm thử nghiệm nội bộ của chúng tôi. Một cơ sở trang bị tối tân, nơi chúng tôi đặt vật liệu vào những điều kiện mà chúng sẽ không bao giờ gặp phải trong thực tế.",
         "items": [
           {
             "title": "MFR (Melt Flow Rate)",
-            "desc": "Kontrolle der Schmelzflussrate zur Gewährleistung exakter Viskosität während der Extrusion und beim späteren Schweißen auf der Baustelle."
+            "desc": "Kiểm soát tốc độ chảy của khối nhựa nóng chảy để đảm bảo độ nhớt chính xác trong quá trình ép đùn và khi hàn trên công trường sau này."
           },
           {
             "title": "OIT (Oxidation Induction Time)",
-            "desc": "Thermische Analyse zur Bestimmung der Alterungsbeständigkeit. Der Beweis, dass unsere Stabilisatoren den Kunststoff über Jahrzehnte vor Degradation schützen."
+            "desc": "Phân tích nhiệt để xác định độ bền chống lão hóa. Bằng chứng cho thấy các chất ổn định của chúng tôi bảo vệ nhựa khỏi bị suy thoái trong nhiều thập kỷ."
           },
           {
             "title": "Zeitstand-Innendruckversuch",
-            "desc": "Rohrproben werden in speziellen Wasserbädern bei 95°C unter extremem Druck gelagert, für tausende von Stunden. Ohne Riss. Ohne Bruch."
+            "desc": "Các mẫu ống được ngâm trong các bể nước đặc biệt ở 95°C dưới áp suất cực cao trong hàng nghìn giờ. Không nứt. Không vỡ."
           }
         ]
       },
       "timeline": {
-        "title": "Jahrzehnte der Innovation.",
-        "desc": "Unsere Qualitätsstandards sind nicht über Nacht entstanden. Sie sind das Resultat jahrzehntelanger Ingenieurskunst und kontinuierlicher Prozessoptimierung.",
+        "title": "Nhiều thập kỷ đổi mới.",
+        "desc": "Các tiêu chuẩn chất lượng của chúng tôi không xuất hiện qua một đêm. Chúng là kết quả của nhiều thập kỷ kỹ thuật chế tác và liên tục tối ưu hóa quy trình.",
         "items": [
           {
             "year": "1990",
-            "title": "Die Geburtsstunde der Norm",
-            "text": "Als Pioniere der Kunststoffrohr-Extrusion implementierten wir frühzeitig interne Prüfverfahren, die weit über die damaligen Industrieanforderungen hinausgingen. Der Grundstein für eine kompromisslose Qualitätskultur."
+            "title": "Sự ra đời của tiêu chuẩn",
+            "text": "Là những người tiên phong trong việc ép đùn ống nhựa, chúng tôi đã sớm triển khai các quy trình thử nghiệm nội bộ vượt xa các yêu cầu ngành lúc bấy giờ. Đặt nền móng cho một văn hóa chất lượng không thỏa hiệp."
           },
           {
             "year": "1995",
-            "title": "ISO 9001 Integration",
-            "text": "Die vollständige Prüfung unserer Qualitätsmanagementsysteme nach ISO 9001. Jeder Handgriff, jede Rohstoffcharge, jede Maschineneinstellung wird ab jetzt systematisch dokumentiert und vollkommen rückverfolgbar gemacht."
+            "title": "Tích hợp ISO 9001",
+            "text": "Kiểm định toàn diện các hệ thống quản lý chất lượng của chúng tôi theo ISO 9001. Từ đây, từng thao tác, từng lô nguyên liệu thô, từng cài đặt máy móc đều được ghi chép có hệ thống và truy xuất nguồn gốc hoàn toàn."
           },
           {
             "year": "2005",
-            "title": "DVGW & SKZ Prüfung",
-            "text": "Die Aufnahme in den exklusiven Kreis der DVGW- und SKZ-geprüften Hersteller. Das offizielle Siegel für absolute Hygiene, extreme Druckfestigkeit und unübertroffene Langlebigkeit bei härtesten Bedingungen im Trinkwassereinsatz."
+            "title": "Kiểm định DVGW & SKZ",
+            "text": "Gia nhập nhóm nhà sản xuất ưu tú được chứng nhận DVGW và SKZ. Dấu ấn chính thức cho sự vệ sinh tuyệt đối, khả năng chịu áp lực cực hạn và độ bền vượt trội trong các điều kiện sử dụng nước uống khắt khe nhất."
           },
           {
             "year": "2015",
-            "title": "Globale Normen (WRAS, KTW)",
-            "text": "Expansion der Zertifizierungen für internationale Märkte. Erfüllung der strikten KTW-Leitlinie (UBA) und der britischen WRAS-Vorgaben. K Aqua wird zum globalen Standard für internationale Megaprojekte."
+            "title": "Tiêu chuẩn toàn cầu (WRAS, KTW)",
+            "text": "Mở rộng các chứng nhận cho thị trường quốc tế. Đáp ứng hướng dẫn nghiêm ngặt KTW (UBA) và các yêu cầu WRAS của Anh. K Aqua trở thành tiêu chuẩn toàn cầu cho các siêu dự án quốc tế."
           },
           {
             "year": "2024",
             "title": "Next-Gen Quality Analytics",
-            "text": "Einführung hochautomatisierter OIT- (Oxidation Induction Time) und MFR- (Melt Flow Rate) Tests im eigenen Präzisionslabor. KI-gestützte Fehleranalyse während der Extrusion für eine 100%ige Null Fehler-Quote."
+            "text": "Giới thiệu các thử nghiệm OIT (Thời gian cảm ứng oxy hóa) và MFR (Tốc độ chảy của khối nhựa nóng chảy) tự động hóa cao trong phòng thí nghiệm chính xác nội bộ. Phân tích lỗi hỗ trợ bởi AI trong quá trình ép đùn để đạt tỷ lệ 100% không sai sót."
           }
         ]
       },
       "cta": {
-        "title": "Qualität, der Sie blind vertrauen können.",
-        "desc": "Laden Sie sich unsere offiziellen Zertifikate herunter oder sprechen Sie direkt mit unserem Engineering Team über die Spezifikationen Ihres nächsten Megaprojekts.",
-        "button1": "Zertifikate herunterladen",
-        "button2": "Technischen Support kontaktieren"
+        "title": "Chất lượng bạn có thể hoàn toàn tin tưởng.",
+        "desc": "Tải xuống các chứng chỉ chính thức của chúng tôi hoặc trao đổi trực tiếp với đội ngũ kỹ thuật về các thông số kỹ thuật cho siêu dự án tiếp theo của bạn.",
+        "button1": "Tải xuống chứng chỉ",
+        "button2": "Liên hệ hỗ trợ kỹ thuật"
       }
     },
     "glossar": {
       "meta": {
-        "title": "Technisches Glossar | K Aqua",
-        "desc": "K Aqua Glossar: Kompromisslose Sicherheit durch German Engineering für globale Megaprojekte. Entdecken Sie Fachbegriffe der PP-R Rohrtechnik."
+        "title": "Thuật ngữ kỹ thuật | K Aqua",
+        "desc": "Thuật ngữ K Aqua: An toàn không thỏa hiệp nhờ German Engineering cho các siêu dự án toàn cầu. Khám phá các thuật ngữ chuyên ngành kỹ thuật đường ống PP-R."
       },
       "hero": {
-        "eyebrow": "Technisches Glossar",
-        "title1": "Terminologie der",
-        "title2": "Absoluten Sicherheit.",
-        "desc": "Willkommen im lexikalischen Kern der Rohrleitungstechnik. Hier decodieren wir die Prinzipien des German Engineering. Kein Marketing. Nur physikalische Fakten, Materialwissenschaft und industrielle Autorität.",
-        "cta1": "Engineering kontaktieren",
-        "cta2": "Glossar erkunden"
+        "eyebrow": "Thuật ngữ kỹ thuật",
+        "title1": "Thuật ngữ của",
+        "title2": "Sự an toàn tuyệt đối.",
+        "desc": "Chào mừng bạn đến với cốt lõi từ vựng của kỹ thuật đường ống. Tại đây chúng tôi giải mã các nguyên lý của German Engineering. Không tiếp thị. Chỉ có các sự thật vật lý, khoa học vật liệu và uy tín công nghiệp.",
+        "cta1": "Liên hệ kỹ thuật",
+        "cta2": "Khám phá thuật ngữ"
       },
       "manifesto": {
-        "eyebrow": "Die Doktrin",
-        "title": "Die Architektur der Unfehlbarkeit.",
-        "lead": "Ein Rohrleitungssystem ist das kardiovaskuläre System eines jeden Megaprojekts. Ein Ausfall bedeutet den infrastrukturellen Herzinfarkt. Deshalb sprechen wir nicht von Rohren, sondern von lebenswichtigen Industrie-Arterien. Jeder Begriff in diesem Glossar repräsentiert einen Pfeiler unserer Null Fehler-Philosophie."
+        "eyebrow": "Học thuyết",
+        "title": "Kiến trúc của sự bất khả sai phạm.",
+        "lead": "Hệ thống đường ống là hệ thống tim mạch của mọi siêu dự án. Một sự cố đồng nghĩa với cơn đau tim của cơ sở hạ tầng. Vì vậy, chúng tôi không nói về những đường ống đơn thuần, mà là những huyết mạch công nghiệp quan trọng sống còn. Mỗi thuật ngữ trong bảng thuật ngữ này đại diện cho một trụ cột trong triết lý Không Sai sót của chúng tôi."
       },
       "scroll": {
-        "eyebrow": "Kinematik & Materialwissenschaft",
-        "title": "Der K Aqua Prozess.",
-        "lead": "Von der molekularen Granulat-Ebene bis zur finalen Druckprüfung. Verstehen Sie die physikalischen Prinzipien, die unsere Systeme unzerstörbar machen.",
+        "eyebrow": "Động học & Khoa học vật liệu",
+        "title": "Quy trình K Aqua.",
+        "lead": "Từ cấp độ hạt nhựa phân tử đến thử nghiệm áp suất cuối cùng. Thấu hiểu các nguyên lý vật lý giúp hệ thống của chúng tôi trở nên không thể phá hủy.",
         "items": [
           {
-            "title": "Extrusionsdynamik unter Hochdruck",
-            "desc": "Die thermoplastische Verformung in unseren Werken unterliegt einer präzisen Temperaturkontrolle auf 0,1 °C genau. Diese kristalline Perfektion garantiert eine makellose, homogene Molekularstruktur, die mikroskopische Rissbildung (Stress Cracking) auch unter extremen Druck- und Temperaturschwankungen absolut ausschließt. Wenn das Material unseren Extruder verlässt, ist es kein einfacher Kunststoff mehr. Es ist ein industrielles Monolith."
+            "title": "Động lực học đùn dưới áp suất cao",
+            "desc": "Quá trình biến dạng nhiệt dẻo trong các nhà máy của chúng tôi chịu sự kiểm soát nhiệt độ chính xác đến 0,1 °C. Sự hoàn hảo kết tinh này đảm bảo cấu trúc phân tử đồng nhất, không tì vết, loại trừ tuyệt đối sự hình thành vết nứt vi mô (Stress Cracking) ngay cả dưới sự dao động áp suất và nhiệt độ khắc nghiệt. Khi vật liệu rời khỏi máy ép đùn của chúng tôi, nó không còn là một loại nhựa thông thường nữa. Nó là một khối nguyên khối công nghiệp."
           },
           {
-            "title": "Hydrostatische Belastungstests",
-            "desc": "In unseren Prüflaboren wird jedes Rohr einer hydrostatischen Simulation ausgesetzt, die reale Bedingungen um ein Vielfaches übersteigt. Wir applizieren Innendrücke, die jenseits jeder normativen Forderung liegen (bis zu 100 bar, abhängig von der SDR-Klasse). Dies sichert die Integrität der Schweißnähte und die molekular Elastizität des PP-R Materials über eine prognostizierte Lebensdauer von mehr als 50 Jahren in kritischen Infrastrukturen."
+            "title": "Thử nghiệm tải trọng thủy tĩnh",
+            "desc": "Trong các phòng thử nghiệm của chúng tôi, mỗi ống đều trải qua mô phỏng thủy tĩnh vượt trội gấp nhiều lần so với điều kiện thực tế. Chúng tôi áp dụng áp suất bên trong vượt xa mọi yêu cầu quy chuẩn (lên đến 100 bar, tùy thuộc vào cấp SDR). Điều này đảm bảo tính toàn vẹn của mối hàn và độ đàn hồi phân tử của vật liệu PP-R trong suốt vòng đời dự kiến hơn 50 năm trong các cơ sở hạ tầng trọng yếu."
           },
           {
-            "title": "Polyfusions-Schweißtechnik",
-            "desc": "Verbindungen sind in herkömmlichen Systemen die Schwachstelle. K Aqua eliminiert dieses Risiko durch Polyfusion. Auf molekularer Ebene verschmelzen Rohr und Fitting zu einer unlösbaren, durchgehenden Einheit. Es gibt keine Gewinde, die korrodieren, keine Dichtungen, die versagen können. Das Resultat ist ein Rohrleitungssystem, das sich verhält, als wäre es aus einem einzigen Stück gegossen."
+            "title": "Kỹ thuật hàn nhiệt Polyfusion",
+            "desc": "Các mối nối là điểm yếu trong các hệ thống truyền thống. K Aqua loại bỏ rủi ro này bằng phương pháp hàn nhiệt Polyfusion. Ở cấp độ phân tử, ống và phụ kiện hợp nhất thành một khối liền mạch, không thể tháo rời. Không có ren bị ăn mòn, không có gioăng đệm có thể bị hỏng. Kết quả là một hệ thống đường ống vận hành như thể được đúc từ một khối duy nhất."
           },
           {
-            "title": "Kavitationsresistenz & Strömungsmechanik",
-            "desc": "Durch eine ultraglatte Innenwand (Rauigkeit < 0,007 mm) minimieren K Aqua Rohre den Strömungswiderstand gegen Null. Dies verhindert die Bildung von Biofilmen und eliminiert mikro-kavitative Effekte bei Hochgeschwindigkeitsströmungen. Druckverluste im System werden drastisch reduziert, was die Energieeffizienz der angeschlossenen Pumpensysteme im industriellen Maßstab maximiert."
+            "title": "Chống xâm thực & Cơ học dòng chảy",
+            "desc": "Nhờ thành trong siêu nhẵn (độ nhám < 0,007 mm), ống K Aqua giảm thiểu sức cản dòng chảy gần như bằng 0. Điều này ngăn ngừa sự hình thành màng sinh học và loại bỏ các hiệu ứng xâm thực vi mô ở các dòng chảy tốc độ cao. Tổn thất áp suất trong hệ thống được giảm thiểu đáng kể, giúp tối đa hóa hiệu quả năng lượng của các hệ thống bơm kết nối ở quy mô công nghiệp."
           }
         ]
       },
       "bento": {
-        "eyebrow": "Nomenklatur",
-        "title": "Technische Parameter.",
-        "lead": "Die wichtigsten Vokabeln der industriellen Rohrleitungstechnik, destilliert auf ihre Essenz.",
+        "eyebrow": "Danh pháp",
+        "title": "Các thông số kỹ thuật.",
+        "lead": "Những thuật ngữ quan trọng nhất của kỹ thuật đường ống công nghiệp, được chắt lọc theo bản chất của chúng.",
         "items": [
           {
-            "title": "PP-R (Polypropylen Random Copolymer)",
-            "desc": "Die molekulare Basis. Ein hochkristallines thermoplastisches Polymer, das außergewöhnliche Widerstandsfähigkeit gegen hohe Temperaturen und Drücke bietet. Es ist die DNA unserer Langlebigkeit."
+            "title": "PP-R (Polypropylene Random Copolymer)",
+            "desc": "Nền tảng phân tử. Một loại polymer nhiệt dẻo có độ kết tinh cao, cung cấp khả năng chống chịu vượt trội đối với nhiệt độ và áp suất cao. Đó là DNA cho tuổi thọ của chúng tôi."
           },
           {
-            "title": "Lineare thermische Ausdehnung",
-            "desc": "Die Längenänderung des Materials bei Temperaturwechsel. Unsere faserverstärkten (Faser) Rohre reduzieren diesen Wert auf ein absolutes Minimum (α = 0,035 mm/mK), was die strukturelle Stabilität in Schächten enorm erhöht."
+            "title": "Giãn nở nhiệt tuyến tính",
+            "desc": "Sự thay đổi chiều dài của vật liệu khi thay đổi nhiệt độ. Ống gia cường sợi thủy tinh (Faser) của chúng tôi giảm giá trị này xuống mức tối thiểu tuyệt đối (α = 0,035 mm/mK), giúp tăng đáng kể độ ổn định cấu trúc trong các trục kỹ thuật."
           },
           {
-            "title": "Zeitstandfestigkeit",
-            "desc": "Die Fähigkeit des Systems, über Jahrzehnte hinweg einem konstanten Innendruck bei spezifischen Temperaturen standzuhalten, ohne zu deformieren oder zu bersten. K Aqua Rohre werden auf 50+ Jahre kalibriert."
+            "title": "Độ bền áp suất thủy tĩnh dài hạn",
+            "desc": "Khả năng của hệ thống trong việc chịu được áp suất bên trong liên tục ở các nhiệt độ cụ thể qua nhiều thập kỷ mà không bị biến dạng hoặc nứt vỡ. Ống K Aqua được hiệu chuẩn cho hơn 50 năm."
           },
           {
-            "title": "Druckverlust-Koeffizient",
-            "desc": "Ein mathematischer Wert, der den Energieverlust der Strömung durch Reibung an der Rohrinnenwand beschreibt. Durch nanoglatte Oberflächen wird dieser Wert in K Aqua Systemen marginalisiert."
+            "title": "Hệ số tổn thất áp suất",
+            "desc": "Một giá trị toán học mô tả sự mất năng lượng của dòng chảy do ma sát ở thành trong của ống. Nhờ bề mặt siêu nhẵn cấp độ nano, giá trị này được giảm thiểu tối đa trong các hệ thống K Aqua."
           },
           {
             "title": "SDR (Standard Dimension Ratio)",
-            "desc": "Das Verhältnis zwischen dem Außendurchmesser (d) und der Wandstärke (s). Ein SDR 6 Rohr hält massiv höheren Drücken stand als ein SDR 11 Rohr. Die korrekte Wahl ist entscheidend für das System-Design.",
+            "desc": "Tỷ lệ giữa đường kính ngoài (d) và độ dày thành ống (s). Ống SDR 6 chịu được áp suất cao hơn đáng kể so với ống SDR 11. Sự lựa chọn chính xác là yếu tố quyết định cho thiết kế hệ thống.",
             "label": "50+ YRS"
           }
         ]
       },
       "timeline": {
-        "title": "Regulatorische Härte.",
-        "desc": "Normen sind für uns keine Vorschriften, sondern der Ausgangspunkt unserer Ingenieurskunst. Eine Chronologie der Zertifizierungen und Standards, die unsere Systeme nicht nur erfüllen, sondern dominieren.",
+        "title": "Sự khắt khe về quy chuẩn.",
+        "desc": "Đối với chúng tôi, các tiêu chuẩn không phải là quy định áp đặt mà là điểm khởi đầu cho nghệ thuật kỹ thuật. Biên niên sử về các chứng nhận và tiêu chuẩn mà hệ thống của chúng tôi không chỉ đáp ứng mà còn dẫn đầu.",
         "items": [
           {
             "year": "DIN 8077/8078",
-            "title": "Normative Basis",
-            "text": "Die Grundlage der deutschen Rohrleitungsnormen. Wir betrachten diese Standards nicht als Ziel, sondern als absolutes Minimum. Unsere internen Toleranzen sind bis zu 30 % strenger als von der DIN gefordert."
+            "title": "Cơ sở quy chuẩn",
+            "text": "Nền tảng của các tiêu chuẩn đường ống Đức. Chúng tôi không coi các tiêu chuẩn này là mục tiêu mà là mức tối thiểu tuyệt đối. Dung sai nội bộ của chúng tôi nghiêm ngặt hơn tới 30% so với yêu cầu của DIN."
           },
           {
             "year": "ISO 15874",
-            "title": "Globale Prüfung",
-            "text": "Das internationale Gütesiegel für Kunststoffrohrleitungssysteme für die Warm- und Kaltwasserinstallation. Ein Beweis für die kompromisslose globale Anwendbarkeit unserer Systeme."
+            "title": "Kiểm định toàn cầu",
+            "text": "Dấu chứng nhận quốc tế cho các hệ thống đường ống nhựa dùng cho lắp đặt nước nóng và lạnh. Bằng chứng cho khả năng ứng dụng toàn cầu không thỏa hiệp của các hệ thống của chúng tôi."
           },
           {
             "year": "SDR 6 - SDR 11",
             "title": "Standard Dimension Ratios",
-            "text": "Ein präzises Verhältnis von Außendurchmesser zu Wandstärke. Unsere Ingenieure kalibrieren jede Charge, um maximale Druckresistenz bei optimaler Durchflussmenge zu garantieren."
+            "text": "Tỷ lệ chính xác giữa đường kính ngoài và độ dày thành ống. Các kỹ sư của chúng tôi hiệu chuẩn từng lô hàng để đảm bảo khả năng chịu áp tối đa ở lưu lượng dòng chảy tối ưu."
           },
           {
             "year": "SKZ & DVGW",
-            "title": "Hygiene & Materialprüfung",
-            "text": "Zertifikate, die die absolute Lebensmittel- und Trinkwasserechtheit bescheinigen. Keine Schwermetalle, keine Auswaschungen. Pure, unkontaminierte Fluiddynamik für höchste hygienische Ansprüche."
+            "title": "Vệ sinh & Thử nghiệm vật liệu",
+            "text": "Các chứng chỉ xác nhận độ an toàn tuyệt đối cho thực phẩm và nước uống. Không kim loại nặng, không thôi nhiễm. Động lực học chất lỏng thuần khiết, không bị ô nhiễm cho các yêu cầu vệ sinh cao nhất."
           }
         ]
       },
       "conclusion": {
-        "title": "Zersetzungsresistenz im Extremfall.",
-        "p1": "In industriellen Applikationen entscheidet nicht der Normalbetrieb über die Qualität eines Rohrleitungssystems, sondern die Stabilität in den Grenzbereichen. Chemische Korrosion, Kavitation durch Druckschläge und thermische Schocks sind die natürlichen Feinde herkömmlicher Installationen.",
-        "p2": "Die <span class=\"font-semibold\">K Aqua Matrix</span> isoliert das fluide Medium durch eine inerte Sperrschicht von der Umgebung. Es findet kein Ionenaustausch statt. Metallische Systeme degradieren von dem Moment an, in dem Wasser durch sie fließt. Sie opfern sich selbst, um zu funktionieren. Unser PP-R System bleibt auch nach Jahrzehnten im Inneren makellos.",
-        "p3": "Der Begriff der <span class=\"font-semibold\">Spannungsrissbeständigkeit</span> (Environmental Stress Cracking Resistance, ESCR) ist in der Polymerchemie von zentraler Bedeutung. Wir modifizieren das Molekulargewicht unseres Copolymers so, dass es Belastungsspitzen abfedert, anstatt unter ihnen zu brechen. Das Resultat ist ein System, das Erschütterungen, Vibrationen und Setzungen des Baukörpers absorbiert.",
-        "p4": "Wer die Terminologie der Rohrleitungstechnik verstanden hat, versteht auch, warum Kompromisse hier den Ruin bedeuten können. German Engineering ist kein leeres Versprechen, sondern die Summe präziser, physikalischer Parameter, die wir in jedem einzelnen Zentimeter unserer Produktion manifestieren."
+        "title": "Khả năng chống phân hủy trong trường hợp khắc nghiệt.",
+        "p1": "Trong các ứng dụng công nghiệp, không phải hoạt động bình thường quyết định chất lượng của hệ thống đường ống, mà là sự ổn định trong các vùng giới hạn. Ăn mòn hóa học, hiện tượng xâm thực do búa nước và sốc nhiệt là kẻ thù tự nhiên của các hệ thống lắp đặt thông thường.",
+        "p2": "Cấu trúc <span class=\"font-semibold\">K Aqua Matrix</span> cách ly môi chất lỏng khỏi môi trường xung quanh bằng một lớp rào chắn trơ. Không có sự trao đổi ion nào diễn ra. Các hệ thống kim loại bị suy thoái từ khoảnh khắc nước chảy qua chúng. Chúng tự hy sinh bản thân để hoạt động. Hệ thống PP-R của chúng tôi vẫn giữ được sự hoàn hảo bên trong ngay cả sau nhiều thập kỷ.",
+        "p3": "Khái niệm về <span class=\"font-semibold\">khả năng chống nứt do ứng suất môi trường</span> (Environmental Stress Cracking Resistance, ESCR) có tầm quan trọng trung tâm trong hóa học polymer. Chúng tôi điều chỉnh trọng lượng phân tử của copolymer để hấp thụ các đỉnh tải trọng thay vì bị nứt gãy dưới tác động của chúng. Kết quả là một hệ thống hấp thụ các rung chấn, dao động và lún của kết cấu công trình.",
+        "p4": "Bất cứ ai đã hiểu thuật ngữ kỹ thuật đường ống cũng hiểu tại sao sự thỏa hiệp ở đây có thể dẫn đến phá hủy toàn bộ. German Engineering không phải là một lời hứa suông, mà là tổng hòa của các thông số vật lý chính xác mà chúng tôi thể hiện trong từng centimet sản xuất."
       },
       "cta": {
-        "title1": "Die Theorie beendet.",
-        "title2": "Die Praxis beginnt.",
-        "desc": "Konfrontieren Sie unsere Ingenieure mit Ihren härtesten technischen Anforderungen. Wir liefern die Systemarchitektur.",
-        "button": "Engineering Briefing starten"
+        "title1": "Lý thuyết kết thúc.",
+        "title2": "Thực tế bắt đầu.",
+        "desc": "Hãy đưa ra những yêu cầu kỹ thuật khắt khe nhất của bạn cho các kỹ sư của chúng tôi. Chúng tôi cung cấp kiến trúc hệ thống.",
+        "button": "Bắt đầu tóm tắt kỹ thuật"
       }
     },
-    "eyebrow": "K-Aqua Academy",
-    "title1": "Wissen, das",
-    "titleGrad": "verbindet.",
-    "lead": "Vier PP-R Schweißtechniken im Video und ein Quiz, das Sie zum Schweißmeister macht. Wissen, das in der K-Aqua Academy verbindet. Optimiert für die Baustelle: große Ziele, hohe Kontraste.",
+    "eyebrow": "Học viện K-Aqua",
+    "title1": "Kiến thức,",
+    "titleGrad": "kết nối.",
+    "lead": "Bốn kỹ thuật hàn PP-R qua video và bài trắc nghiệm giúp bạn trở thành Bậc thầy hàn. Kiến thức kết nối tại Học viện K-Aqua. Tối ưu cho công trường: mục tiêu rõ ràng, độ tương phản cao.",
     "videos": [
       {
-        "t": "Muffenschweißen von Hand",
-        "s": "bis d63: Handschweißgerät"
+        "t": "Hàn lồng thủ công (Muffenschweißen)",
+        "s": "đến d63: Thiết bị hàn cầm tay"
       },
       {
-        "t": "Muffenschweißen mit Maschine",
-        "s": "mittlere Dimensionen"
+        "t": "Hàn lồng bằng máy",
+        "s": "kích thước trung bình"
       },
       {
-        "t": "Elektroschweißen",
-        "s": "Heizwendelfittings"
+        "t": "Hàn điện trở (Elektroschweißen)",
+        "s": "Phụ kiện điện trở hàn"
       },
       {
-        "t": "Stumpfschweißen",
-        "s": "Großdimensionen bis d630"
+        "t": "Hàn đối đầu (Stumpfschweißen)",
+        "s": "Kích thước lớn đến d630"
       }
     ],
-    "quizEyebrow": "Schweißmeister-Quiz",
-    "quizTitle": "Fünf Fragen. Ein Abzeichen.",
-    "intro": "Testen Sie Ihr Verarbeitungs-Wissen zu PP-R/PPRCT. Fehlerfrei = Titel „Schweißmeister\".",
-    "start": "Quiz starten",
-    "qLabel": "Frage",
+    "quizEyebrow": "Trắc nghiệm Bậc thầy hàn",
+    "quizTitle": "Năm câu hỏi. Một huy hiệu.",
+    "intro": "Kiểm tra kiến thức gia công PP-R/PPRCT của bạn. Đúng hết = Danh hiệu \"Bậc thầy hàn\".",
+    "start": "Bắt đầu trắc nghiệm",
+    "qLabel": "Câu hỏi",
     "quiz": [
       {
-        "q": "Welches Schweißverfahren ist für Großdimensionen (z. B. d630) Standard?",
+        "q": "Phương pháp hàn nào là tiêu chuẩn cho các kích thước lớn (ví dụ d630)?",
         "o": [
-          "Muffenschweißen von Hand",
-          "Stumpfschweißen (Butt Fusion)",
-          "Kleben"
+          "Hàn lồng thủ công (Socket Fusion)",
+          "Hàn đối đầu (Butt Fusion)",
+          "Dán keo"
         ]
       },
       {
-        "q": "Wofür steht SDR bei Rohrsystemen?",
+        "q": "SDR viết tắt của từ gì trong hệ thống đường ống?",
         "o": [
           "Standard Dimension Ratio (d/s)",
           "Static Density Rating",
@@ -8219,141 +8466,142 @@
         ]
       },
       {
-        "q": "Was unterscheidet PPRCT von klassischem PP-R?",
+        "q": "Điểm khác biệt giữa PPRCT và PP-R cổ điển là gì?",
         "o": [
-          "Niedrigerer Preis",
-          "Modifizierte Kristallstruktur → mehr Temperatur- & Druckreserve",
-          "Metallische Verstärkung"
+          "Giá thành thấp hơn",
+          "Cấu trúc tinh thể biến tính → tăng mức dự phòng nhiệt độ & áp suất",
+          "Gia cố kim loại"
         ]
       },
       {
-        "q": "Welchen Recycling Code trägt Polypropylen?",
+        "q": "Polypropylene mang mã tái chế nào?",
         "o": [
-          "Code 3",
-          "Code 5",
-          "Code 7"
+          "Mã 3",
+          "Mã 5",
+          "Mã 7"
         ]
       },
       {
-        "q": "Beim Elektroschweißen (Electrofusion) kommt die Wärme …",
+        "q": "Trong hàn điện trở (Electrofusion), nhiệt lượng được tạo ra từ đâu?",
         "o": [
-          "aus einem Heizelement-Spiegel",
-          "aus eingebetteten Heizwendeln im Fitting",
-          "aus Heißluft"
+          "Từ đĩa gia nhiệt phẳng",
+          "Từ các cuộn dây điện trở nhiệt tích hợp trong phụ kiện",
+          "Từ khí nóng"
         ]
       }
     ],
-    "resPerfect": "Perfekt! Titel „Schweißmeister\" verdient!",
-    "resGood": "Solide! Titel „Schweiß-Geselle\" gesichert. Für den Meister: alle fünf richtig.",
-    "resLow": "Die Videos oben helfen. Danach klappt der Meister.",
-    "retry": "Nochmal versuchen",
-    "titlePerfect": "Schweißmeister",
-    "titleGood": "Schweiß-Geselle",
-    "videosHeading": "Training videos and guides"
+    "resPerfect": "Hoàn hảo! Bạn xứng đáng với danh hiệu \"Bậc thầy hàn\"!",
+    "resGood": "Rất tốt! Đạt danh hiệu \"Thợ hàn đạt chuẩn\". Để đạt Bậc thầy: cần đúng cả 5 câu.",
+    "resLow": "Các video ở trên sẽ giúp bạn. Sau đó hãy thử lại để đạt danh hiệu Bậc thầy.",
+    "retry": "Thử lại",
+    "titlePerfect": "Bậc thầy hàn",
+    "titleGood": "Thợ hàn đạt chuẩn",
+    "videosHeading": "Video hướng dẫn và đào tạo"
   },
   "mapsSuite": {
-    "geoHub": "K-Aqua Geographic Hub & Telemetry",
-    "title1": "Interactive",
-    "titleGrad": "Map Suite",
-    "tabHq": "Waldsolms Headquarters",
-    "tabRefs": "Tightness Map",
-    "tabSpec": "Specifier",
-    "hqTitle": "Central Production & Development Centre",
-    "hqAddress": "Waldsolms Brandoberndorf, Hesse, Germany.",
-    "registryLabel": "Commercial register:",
-    "phoneLabel": "Phone:",
-    "certLabel": "Certification:",
-    "directions": "Open route planner",
-    "aboutPlant": "About the Waldsolms plant",
-    "sectorFilter": "Sector filter:",
-    "specPlaceholder": "Enter a location or city…",
-    "profileTitle": "Market & Logistics Profile",
-    "profileHint": "Click the map or search for a city to trigger the automatic system specification and supply-route calculation.",
-    "marketAssign": "Market assignment",
-    "normLabel": "Standard:",
-    "airDist": "Straight line (HQ)",
-    "roadDist": "Road (estimated)",
-    "recommended": "Recommended piping system:",
-    "recUv": "UV-Protect outer layer",
-    "bimCta": "Request BIM & specification package",
+    "geoHub": "Trung tâm Địa lý & Đo từ xa K-Aqua",
+    "title1": "Tương tác",
+    "titleGrad": "Bộ bản đồ",
+    "tabHq": "Trụ sở Waldsolms",
+    "tabRefs": "Bản đồ độ kín",
+    "tabSpec": "Công cụ chỉ định",
+    "hqTitle": "Trung tâm Sản xuất & Phát triển Trung ương",
+    "hqAddress": "Waldsolms Brandoberndorf, Hessen, Đức.",
+    "registryLabel": "Tòa án đăng ký kinh doanh:",
+    "phoneLabel": "Điện thoại:",
+    "certLabel": "Chứng nhận:",
+    "directions": "Mở công cụ chỉ đường",
+    "aboutPlant": "Về nhà máy Waldsolms",
+    "sectorFilter": "Bộ lọc ngành:",
+    "specPlaceholder": "Nhập địa điểm hoặc thành phố…",
+    "profileTitle": "Hồ sơ Thị trường & Logistics",
+    "profileHint": "Nhấp vào bản đồ hoặc tìm kiếm một thành phố để kích hoạt việc chỉ định hệ thống tự động và tính toán lộ trình cung ứng.",
+    "marketAssign": "Phân bổ thị trường",
+    "normLabel": "Tiêu chuẩn:",
+    "airDist": "Đường chim bay (HQ)",
+    "roadDist": "Đường bộ (ước tính)",
+    "recommended": "Hệ thống đường ống khuyến nghị:",
+    "recUv": "Lớp ngoài bảo vệ chống tia UV",
+    "bimCta": "Yêu cầu gói BIM & thông số kỹ thuật",
     "sectors": {
-      "all": "All sectors",
-      "hotel": "Hotel",
-      "wohnen": "Residential",
-      "infra": "Infrastructure",
-      "klinik": "Clinic",
-      "buero": "Office"
+      "all": "Tất cả các ngành",
+      "hotel": "Khách sạn",
+      "wohnen": "Nhà ở",
+      "infra": "Cơ sở hạ tầng",
+      "klinik": "Bệnh viện",
+      "buero": "Văn phòng"
     }
   },
   "footerSitemap": {
     "groups": {
-      "products": "Products",
-      "markets-solutions": "Markets & Solutions",
-      "academy-resources": "Academy & Resources",
-      "company": "Company"
+      "products": "Sản phẩm",
+      "markets-solutions": "Thị trường & Giải pháp",
+      "academy-resources": "Học viện & Tài nguyên",
+      "company": "Công ty"
     },
     "links": {
-      "all_products": "All K-Aqua Products",
-      "finder": "Product Finder for Pipes",
-      "pipes": "Pipes & Piping Systems (PP-R)",
-      "fittings": "Fittings & Connectors",
-      "valves": "Valves & Taps",
-      "tools": "Tools & Accessories",
-      "transition": "Pipe Transitions",
-      "all_markets": "All K-Aqua Markets",
-      "all_solutions": "All K-Aqua Solutions",
-      "overview": "K-Aqua Academy Overview",
-      "co2_calc": "CO₂ Calculator for PP-R",
-      "specifications": "K-Aqua Tender Texts",
-      "references": "K-Aqua References Worldwide",
-      "support": "Technical Support for K-Aqua",
-      "about_us": "About K-Aqua",
-      "career": "Careers at K-Aqua",
-      "news": "K-Aqua News & Press",
-      "contact": "Contact K-Aqua",
-      "service": "K-Aqua Service & Maintenance",
-      "rfq": "Project Inquiry for Piping Systems",
-      "partners": "K-Aqua Partner Network",
-      "trust": "K-Aqua Trust Center",
-      "sitemap": "Sitemap (HTML)"
+      "all_products": "Tất cả sản phẩm K-Aqua",
+      "finder": "Công cụ tìm kiếm sản phẩm đường ống",
+      "pipes": "Ống & Hệ thống đường ống (PP-R)",
+      "fittings": "Phụ kiện nối & Khớp nối",
+      "valves": "Van & Vòi",
+      "tools": "Dụng cụ & Linh kiện",
+      "transition": "Khớp nối chuyển tiếp cho ống",
+      "all_markets": "Tất cả các thị trường K-Aqua",
+      "all_solutions": "Tất cả các giải pháp K-Aqua",
+      "overview": "Tổng quan Học viện K-Aqua",
+      "co2_calc": "Công cụ tính CO₂ cho PP-R",
+      "specifications": "Tài liệu mời thầu K-Aqua",
+      "references": "Dự án K-Aqua trên toàn thế giới",
+      "support": "Hỗ trợ kỹ thuật cho K-Aqua",
+      "about_us": "Về K-Aqua",
+      "career": "Cơ hội nghề nghiệp tại K-Aqua",
+      "news": "Tin tức & Báo chí K-Aqua",
+      "contact": "Liên hệ K-Aqua",
+      "service": "Dịch vụ & Bảo trì K-Aqua",
+      "rfq": "Yêu cầu dự án cho hệ thống đường ống",
+      "partners": "Mạng lưới đối tác K-Aqua",
+      "trust": "Trung tâm Tin cậy K-Aqua",
+      "sitemap": "Sơ đồ trang web (HTML)",
+      "cookieSettings": "Cài đặt quyền riêng tư"
     }
   },
   "languagePage": {
-    "title": "Choose your language",
-    "subtitle": "65 languages · spin the globe, tap a region, confirm.",
-    "searchPlaceholder": "Search for language or page...",
-    "pagesSection": "Pages & Navigation",
-    "noResults": "No language found.",
-    "confirm": "Confirm",
+    "title": "Chọn ngôn ngữ của bạn",
+    "subtitle": "65 ngôn ngữ · xoay quả địa cầu, chạm vào một khu vực, xác nhận.",
+    "searchPlaceholder": "Tìm kiếm ngôn ngữ hoặc trang...",
+    "pagesSection": "Trang & Điều hướng",
+    "noResults": "Không tìm thấy ngôn ngữ nào.",
+    "confirm": "Xác nhận",
     "beta": "Beta",
-    "globalEffect": "Applies to the entire website",
-    "active": "active"
+    "globalEffect": "Áp dụng cho toàn bộ trang web",
+    "active": "đang kích hoạt"
   },
   "multiStepForm": {
-    "step1Title": "How can we help you?",
-    "step1Desc": "Select the appropriate department for your inquiry.",
-    "optSales": "Sales & Projects",
-    "optSalesDesc": "Pricing, large projects, and delivery times.",
-    "optTech": "Technical Support",
-    "optTechDesc": "Specifications, installation, and system design.",
-    "optOther": "General Inquiry",
-    "optOtherDesc": "Marketing, career, or other topics.",
-    "step2Title": "Inquiry Details",
-    "step2Desc": "Please briefly describe your project or question.",
-    "messagePlaceholder": "Your message to us...",
-    "step3Title": "Your Contact Info",
-    "step3Desc": "Almost done! How can we reach you?",
-    "nameLabel": "Full Name",
-    "companyLabel": "Company / Organization",
-    "emailLabel": "Email Address",
-    "phoneLabel": "Phone Number",
-    "step4Title": "Message sent!",
-    "step4Desc": "Thank you for your inquiry. One of our experts will contact you shortly.",
-    "btnNext": "Next",
-    "btnBack": "Back",
-    "btnSubmit": "Submit Inquiry",
-    "btnSending": "Sending…",
-    "btnHome": "Return to Homepage",
-    "sendError": "Sending failed. Please try again or call us directly: +49 (0)60 85 / 9868-410"
+    "step1Title": "Chúng tôi có thể giúp gì cho bạn?",
+    "step1Desc": "Chọn bộ phận phù hợp với yêu cầu của bạn.",
+    "optSales": "Kinh doanh & Dự án",
+    "optSalesDesc": "Yêu cầu báo giá, dự án lớn và thời gian giao hàng.",
+    "optTech": "Hỗ trợ Kỹ thuật",
+    "optTechDesc": "Thông số kỹ thuật, lắp đặt và thiết kế hệ thống.",
+    "optOther": "Yêu cầu chung",
+    "optOtherDesc": "Tiếp thị, nghề nghiệp hoặc các chủ đề khác.",
+    "step2Title": "Chi tiết về yêu cầu của bạn",
+    "step2Desc": "Vui lòng mô tả ngắn gọn dự án hoặc câu hỏi của bạn.",
+    "messagePlaceholder": "Tin nhắn của bạn gửi tới chúng tôi...",
+    "step3Title": "Thông tin liên hệ của bạn",
+    "step3Desc": "Gần xong rồi! Chúng tôi có thể liên hệ với bạn bằng cách nào?",
+    "nameLabel": "Họ và tên đầy đủ",
+    "companyLabel": "Công ty / Tổ chức",
+    "emailLabel": "Địa chỉ Email",
+    "phoneLabel": "Số điện thoại",
+    "step4Title": "Tin nhắn đã được gửi!",
+    "step4Desc": "Cảm ơn bạn đã gửi yêu cầu. Một trong những chuyên gia của chúng tôi sẽ liên hệ lại với bạn trong thời gian sớm nhất.",
+    "btnNext": "Tiếp tục",
+    "btnBack": "Quay lại",
+    "btnSubmit": "Gửi yêu cầu",
+    "btnSending": "Đang gửi…",
+    "btnHome": "Trở về trang chủ",
+    "sendError": "Gửi không thành công. Vui lòng thử lại hoặc gọi trực tiếp cho chúng tôi: +49 (0)60 85 / 9868-410"
   }
 }

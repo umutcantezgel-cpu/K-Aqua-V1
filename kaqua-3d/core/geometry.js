@@ -299,7 +299,17 @@ export function revolve(profile, opt = {}) {
 
 /* Schnittfläche (Halbschnitt bei z = 0) eines Rotationskörpers:
    die Profilkontur selbst, einmal bei +r und einmal bei -r. */
-export function capFromProfile(profile, axis = 'x') {
+/* Schnittflaeche eines Rotationskoerpers aus seinem Profil.
+
+   `sign` waehlt EINE Seite: +1 nur die Flaeche bei +r, -1 nur die bei -r.
+   Ohne Angabe kommen beide, wie bisher — jeder bestehende Aufrufer bleibt
+   dadurch unberuehrt.
+
+   Wozu die einzelne Seite: ein Teilwinkel-Revolve (revolve mit `thetas`
+   ueber weniger als 360°) hat zwei STIRNFLAECHEN, und die liegen nicht in
+   derselben Ebene. Jede braucht ihre eigene Kopie, um die eigene
+   Achsdrehung. Mit beiden Vorzeichen zusammen ginge das nicht. */
+export function capFromProfile(profile, axis = 'x', sign) {
   const mk = (sign) => {
     const shape = new THREE.Shape();
     profile.forEach((p, i) => {
@@ -311,7 +321,7 @@ export function capFromProfile(profile, axis = 'x') {
     shape.closePath();
     return new THREE.ShapeGeometry(shape, 1);
   };
-  return mergeGeometries([mk(1), mk(-1)]);
+  return sign === undefined ? mergeGeometries([mk(1), mk(-1)]) : mergeGeometries([mk(sign)]);
 }
 
 export function polygonCap(pts) {

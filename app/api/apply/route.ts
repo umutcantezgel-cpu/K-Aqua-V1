@@ -5,6 +5,7 @@ import { esc, bereinigeDateiname } from "@/lib/mail/html";
 import type { MailAttachment } from "@/lib/mail/types";
 import { spracheDerAnfrage } from "@/lib/mail/sprache";
 import { baueBewerbungsbestaetigung } from "@/lib/mail/vorlage/bewerber";
+import { baueInterneBewerbung } from "@/lib/mail/vorlage/intern";
 import { getBaseUrl } from "@/lib/env";
 
 /**
@@ -155,24 +156,24 @@ export async function POST(req: Request) {
       }
     }
 
-    const htmlBody = `
-      <h2>Neue Bewerbung eingegangen</h2>
-      <p><strong>Job-ID:</strong> ${esc(jobId)}</p>
-      <p><strong>Name:</strong> ${esc(firstName)} ${esc(lastName)}</p>
-      <p><strong>E-Mail:</strong> <a href="mailto:${esc(email)}">${esc(email)}</a></p>
-      <p><strong>Telefon:</strong> ${esc(phone) || "Nicht angegeben"}</p>
-      <p><strong>Frühestmögliches Eintrittsdatum:</strong> ${esc(startDate) || "Nicht angegeben"}</p>
-      <hr />
-      ${builderHtml}
-    `;
+    const interneMail = baueInterneBewerbung({
+      jobId,
+      firstName,
+      lastName,
+      email,
+      ...(phone ? { phone } : {}),
+      ...(startDate ? { startDate } : {}),
+      ...(cvDateiname ? { cvDateiname } : {}),
+      ...(typeof cvGroesse === "number" ? { cvGroesse } : {}),
+      ...(builderHtml ? { builderHtml } : {}),
+    });
 
     const ergebnis = await sendMail({
       to: resolveEmpfaenger("jobs"),
-      // Fehlte bisher vollstaendig: Die Personalabteilung konnte auf eine
-      // Bewerbung nicht einfach antworten.
       replyTo: email,
       subject: `Neue Bewerbung: ${firstName} ${lastName} (${jobId})`,
-      html: htmlBody,
+      html: interneMail.html,
+      text: interneMail.text,
       ...(attachments.length ? { attachments } : {}),
     });
 

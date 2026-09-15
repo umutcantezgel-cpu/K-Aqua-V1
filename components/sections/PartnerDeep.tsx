@@ -46,7 +46,7 @@ export async function PartnerDeep() {
           <Reveal>
             <SectionHead eyebrow={t("ecoEyebrow")} title={t("ecoTitle")} lead={t("ecoLead")} />
           </Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
             {eco.map((e, i) => (
               <Reveal key={e.t} delay={i * 0.07}>
                 <div className="group relative flex flex-col h-full overflow-hidden rounded-[24px] border border-card-border bg-card p-8 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">

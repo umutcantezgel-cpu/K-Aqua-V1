@@ -636,6 +636,14 @@ export default async function ProductDetailPage({
                 </h3>
                 <div data-nosnippet="true">
                   <ul className="flex flex-col gap-3 text-sm text-muted-foreground">
+                    <li className="flex items-center gap-3 font-semibold text-foreground">
+                      <span className="flex items-center h-2.5 w-3.5 overflow-hidden rounded-[2px] shadow-[0_0_1px_rgba(0,0,0,0.4)] shrink-0" aria-hidden="true">
+                        <span className="h-full w-1/3 bg-black" />
+                        <span className="h-full w-1/3 bg-[#DD0000]" />
+                        <span className="h-full w-1/3 bg-[#FFCE00]" />
+                      </span>
+                      Made in Germany · KWT GmbH
+                    </li>
                     <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> DVGW {tProd('approved')}</li>
                     <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> SKZ {tProd('monitoring')}</li>
                     <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> KIWA {tProd('certified')}</li>
@@ -643,6 +651,25 @@ export default async function ProductDetailPage({
                     <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary shrink-0"/> EN ISO 15874</li>
                   </ul>
                 </div>
+
+                {product.category === 'pipes' && (
+                  <div className="p-4 rounded-xl border border-primary/20 bg-primary/5 flex flex-col gap-2 text-xs" data-nosnippet="true">
+                    <p className="font-heading font-bold text-foreground flex items-center gap-2">
+                      <span className="text-sm">📏</span>
+                      {locale === 'de' ? 'Lieferung & Mengeneinheit' : locale === 'ar' ? 'معايير التسليم والقياس' : 'Delivery & Measurement'}
+                    </p>
+                    <p className="text-muted-foreground">
+                      {locale === 'de'
+                        ? 'Ausweisung ausschließlich in Meter (m). Standardauslieferung: 4 Meter pro Stange.'
+                        : locale === 'ar'
+                        ? 'يتم التحديد حصرياً بوحدة المتر (م). التسليم القياسي: 4 أمتار لكل قضيب.'
+                        : 'Specified strictly in meters (m). Standard delivery: 4 meters per bar.'}
+                    </p>
+                    <p className="font-mono text-[11px] text-primary font-semibold">
+                      {locale === 'de' ? '✓ Sondermaße auf Anfrage' : locale === 'ar' ? '✓ مقاسات خاصة عند الطلب' : '✓ Custom lengths on request'}
+                    </p>
+                  </div>
+                )}
 
                 <h3 className="font-heading font-bold text-lg text-foreground border-b border-card-border pb-3 mt-4">
                   {tProd('quickLinks')}

@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { baueKundenbestaetigung, type KundenLead } from '@/lib/mail/vorlage/kunde';
+import { baueInterneAnfrage, baueInterneBewerbung } from '@/lib/mail/vorlage/intern';
 import { MAILSPRACHEN, aufMailsprache, spracheDerAnfrage, richtung } from '@/lib/mail/sprache';
 import { texte, fuelle } from '@/lib/mail/texte';
 
@@ -262,5 +263,72 @@ describe('Textbestand', () => {
   it('setzt Platzhalter ein und laesst unbekannte stehen', () => {
     expect(fuelle('Guten Tag {name},', { name: 'Kowalski' })).toBe('Guten Tag Kowalski,');
     expect(fuelle('Hallo {unbekannt}', {})).toBe('Hallo {unbekannt}');
+  });
+});
+
+describe('Interne Anfrage — Kontextuelle Differenzierung', () => {
+  it('erkennt eine technische Anfrage anhand des Themas und setzt den Technik-Badge sowie Rohr-Standard', () => {
+    const anfrage = {
+      phone: '+49 171 998877',
+      email: 'planer@haustechnik.de',
+      interest: 'Rohrsysteme',
+      page: 'pipes',
+      name: 'Thomas Mueller',
+      company: 'TGA Planungsbuero',
+      message: 'Ausschreibung fuer Krankenhausneubau mit PP-RCT Rohren.',
+      pfad: 'https://k-aqua.de/de/produkte/pipes/k-pipe-pp-rct-sdr-74',
+      sprache: 'de',
+      zeit: new Date().toISOString(),
+    };
+    const mail = baueInterneAnfrage(anfrage, null);
+    expect(mail.html).toContain('TECHNISCHE SPEZIFIKATION &amp; ANWENDUNGSTECHNIK');
+    expect(mail.html).toContain('4,00 m Stangenlänge');
+    expect(mail.text).toContain('KATEGORIE: TECHNISCHE SPEZIFIKATION & ANWENDUNGSTECHNIK');
+    expect(mail.text).toContain('4,00 m Stangenlänge');
+  });
+
+  it('erkennt eine allgemeine Unternehmensanfrage und setzt den Unternehmens-Badge', () => {
+    const anfrage = {
+      phone: '+49 171 112233',
+      email: 'info@partner.com',
+      interest: 'Allgemeine Frage',
+      page: 'kontakt',
+      name: 'Sarah Schmidt',
+      company: 'Schmidt Handel',
+      message: 'Wir moechten Vertriebspartner werden.',
+      pfad: 'https://k-aqua.de/de/kontakt',
+      sprache: 'de',
+      zeit: new Date().toISOString(),
+    };
+    const mail = baueInterneAnfrage(anfrage, null);
+    expect(mail.html).toContain('ALLGEMEINE UNTERNEHMENSANFRAGE');
+    expect(mail.html).not.toContain('4,00 m Stangenlänge');
+    expect(mail.text).toContain('KATEGORIE: ALLGEMEINE UNTERNEHMENSANFRAGE');
+  });
+});
+
+describe('Interne Bewerbung — Strukturierte Weiterverarbeitung', () => {
+  it('erzeugt eine responsive interne HR-Mail mit Bewerberdaten und Unterlagen-Metadaten', () => {
+    const bewerbung = {
+      jobId: 'PROD-2026-01',
+      firstName: 'Max',
+      lastName: 'Mustermann',
+      email: 'max@karriere.de',
+      phone: '+49 160 55443322',
+      startDate: '01.11.2026',
+      cvDateiname: 'Lebenslauf_Mustermann.pdf',
+      cvGroesse: 340 * 1024,
+    };
+    const mail = baueInterneBewerbung(bewerbung);
+    expect(mail.html.startsWith('<!DOCTYPE')).toBe(true);
+    expect(mail.html).toContain('KARRIEREPORTAL &amp; INITIATIVBEWERBUNG');
+    expect(mail.html).toContain('PROD-2026-01');
+    expect(mail.html).toContain('Max Mustermann');
+    expect(mail.html).toContain('Lebenslauf_Mustermann.pdf');
+    expect(mail.html).toContain('340 kB');
+    expect(mail.html).not.toMatch(/display:\s*flex/);
+    expect(mail.html).not.toMatch(/display:\s*grid/);
+    expect(mail.text).toContain('PROD-2026-01');
+    expect(mail.text).toContain('Max Mustermann');
   });
 });
